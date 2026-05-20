@@ -1,46 +1,27 @@
 [
   {
     "questionEnglish": "What is Voltage?",
-
     "questionOdia": "ଭୋଲ୍ଟେଜ୍ କ'ଣ?",
-
     "options": [
-
       "Current",
-
       "Resistance",
-
       "Power",
-
       "Potential Difference"
     ],
-
     "answer": "Potential Difference",
-
-    "explanation":
-    "Voltage is potential difference."
+    "explanation": "Voltage is potential difference."
   },
 
   {
     "questionEnglish": "What is Current?",
-
     "questionOdia": "କରେଣ୍ଟ କ'ଣ?",
-
     "options": [
-
       "Flow of electrons",
-
       "Resistance",
-
       "Power",
-
       "Voltage"
     ],
-
-    "answer":
-    "Flow of electrons",
-
-    "explanation":
-    "Current is flow of electrons."
+    "answer": "Flow of electrons",
+    "explanation": "Current is flow of electrons."
   }
 ]
