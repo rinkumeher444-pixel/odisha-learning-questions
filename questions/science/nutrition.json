@@ -1,1 +1,122 @@
-
+[
+  {
+    "questionEnglish": "Which type of nutrition is found in green plants?",
+    "questionOdia": "ସବୁଜ ଉଦ୍ଭିଦଗୁଡ଼ିକରେ କେଉଁ ପ୍ରକାରର ପୋଷଣ ଦେଖାଯାଏ?",
+    "options": [
+      "Autotrophic nutrition",
+      "Heterotrophic nutrition",
+      "Saprophytic nutrition",
+      "Parasitic nutrition"
+    ],
+    "answer": "Autotrophic nutrition",
+    "explanation": "Green plants manufacture their own food from simple inorganic substances using sunlight, which is called autotrophic nutrition (ସ୍ୱଭୋଜୀ ପୋଷଣ)."
+  },
+  {
+    "questionEnglish": "Where does the light reaction of photosynthesis take place inside the chloroplast?",
+    "questionOdia": "ହରିତ୍‌କଣା (Chloroplast) ର କେଉଁ ଅଂଶରେ ଆଲୋକ ପ୍ରକ୍ରିୟା ସଂଘଟିତ ହୋଇଥାଏ?",
+    "options": [
+      "Grana",
+      "Stroma",
+      "Mitochondria",
+      "Cytoplasm"
+    ],
+    "answer": "Grana",
+    "explanation": "The photosynthetic chemical process is split into two stages: the light-dependent reaction occurs in the Thylakoid membranes or Grana, while the dark reaction occurs in the Stroma."
+  },
+  {
+    "questionEnglish": "Which enzyme present in human saliva breaks down starch into maltose?",
+    "questionOdia": "ମାନବ ଲାଳରେ ଥିବା କେଉଁ ଏନଜାଇମ୍ ଶ୍ଵେତସାରକୁ ମାଲ୍ଟୋଜ୍‌ରେ ପରିଣତ କରେ?",
+    "options": [
+      "Salivary Amylase (Ptyalin)",
+      "Pepsin",
+      "Trypsin",
+      "Lipase"
+    ],
+    "answer": "Salivary Amylase (Ptyalin)",
+    "explanation": "Salivary amylase, also known as ptyalin, initiates the chemical digestion of carbohydrates in the mouth by breaking down complex starch into simple sugars."
+  },
+  {
+    "questionEnglish": "Which organ of the human digestive system secretes bile juice?",
+    "questionOdia": "ମାନବ ପାଚନ ତନ୍ତ୍ରର କେଉଁ ଅଙ୍ଗରୁ ପିତ୍ତ ରସ (Bile Juice) କ୍ଷରିତ ହୋଇଥାଏ?",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Stomach",
+      "Small Intestine"
+    ],
+    "answer": "Liver",
+    "explanation": "The liver (ଯକୃତ) is the largest gland in the body and produces bile juice, which is stored in the gallbladder and helps in the emulsification of fats."
+  },
+  {
+    "questionEnglish": "What are the finger-like projections in the inner wall of the small intestine that absorb digested food called?",
+    "questionOdia": "ହଜମ ହୋଇଥିବା ଖାଦ୍ୟର ଅବଶୋଷଣ ପାଇଁ କ୍ଷୁଦ୍ରାନ୍ତ୍ରର ଭିତର ପ୍ରାଚୀରରେ ଥିବା ଆଙ୍ଗୁଠି ସଦୃଶ ପ୍ରବର୍ଦ୍ଧଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Villi",
+      "Alveoli",
+      "Nephrons",
+      "Stomata"
+    ],
+    "answer": "Villi",
+    "explanation": "Villi (ରସାଙ୍କୁର) increase the internal surface area of the small intestinal walls making the absorption of nutrients highly efficient."
+  },
+  {
+    "questionEnglish": "Which type of mode of nutrition is exhibited by Fungi like mushrooms?",
+    "questionOdia": "ଛତୁ ଭଳି କବକଗୁଡ଼ିକରେ କେଉଁ ପ୍ରକାରର ପୋଷଣ ପ୍ରଣାଳୀ ଦେଖାଯାଏ?",
+    "options": [
+      "Saprophytic nutrition",
+      "Parasitic nutrition",
+      "Symbiotic nutrition",
+      "Holozoic nutrition"
+    ],
+    "answer": "Saprophytic nutrition",
+    "explanation": "Mushrooms are saprophytes (ମୃତୋପଜୀବୀ) that feed on dead and decaying organic matter by releasing external enzymes and absorbing nutrients."
+  },
+  {
+    "questionEnglish": "Which gas is absorbed by green plants from the atmosphere during the process of photosynthesis?",
+    "questionOdia": "ଆଲୋକଶ୍ଳେଷଣ ପ୍ରକ୍ରିୟା ସମୟରେ ସବୁଜ ଉଦ୍ଭିଦ ବାୟୁମଣ୍ଡଳରୁ କେଉଁ ଗ୍ୟାସ୍ ଗ୍ରହଣ କରିଥାଏ?",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "answer": "Carbon dioxide",
+    "explanation": "Plants take in Carbon dioxide (CO2) through stomata and water from roots to synthesize glucose, releasing oxygen as a byproduct."
+  },
+  {
+    "questionEnglish": "What is the function of hydrochloric acid (HCl) secreted in the human stomach?",
+    "questionOdia": "ମାନବ ପାକସ୍ଥଳୀରେ କ୍ଷରିତ ହେଉଥିବା ହାଇଡ୍ରୋକ୍ଲୋରିକ୍ ଅମ୍ଳ (HCl) ର କାର୍ଯ୍ୟ କଣ?",
+    "options": [
+      "Creates an acidic medium and kills bacteria",
+      "Digests proteins directly",
+      "Emulsifies fats",
+      "Absorbs water"
+    ],
+    "answer": "Creates an acidic medium and kills bacteria",
+    "explanation": "HCl creates an acidic environment necessary for activation of the enzyme pepsinogen into pepsin and kills harmful microbes entering with food."
+  },
+  {
+    "questionEnglish": "Where does the complete digestion of carbohydrates, proteins, and fats take place in humans?",
+    "questionOdia": "ମାନବ ଶରୀରରେ ଶ୍ଵେତସାର, ପୁଷ୍ଟିସାର ଏବଂ ସ୍ନେହସାରର ସମ୍ପୂର୍ଣ୍ଣ ହଜମ ପ୍ରକ୍ରିୟା କେଉଁଠାରେ ହୋଇଥାଏ?",
+    "options": [
+      "Small Intestine",
+      "Stomach",
+      "Large Intestine",
+      "Mouth"
+    ],
+    "answer": "Small Intestine",
+    "explanation": "The small intestine (କ୍ଷୁଦ୍ରାନ୍ତ୍ର) receives secretions from the liver and pancreas, serving as the site for full chemical breakdown of all dietary segments."
+  },
+  {
+    "questionEnglish": "Which element is central to the structure of a chlorophyll molecule?",
+    "questionOdia": "କ୍ଲୋରୋଫିଲ୍ (Chlorophyll) ଅଣୁର ଗଠନରେ କେଉଁ ମୌଳିକଟି କେନ୍ଦ୍ରୀୟ ଭୂମିକା ଗ୍ରହଣ କରିଥାଏ?",
+    "options": [
+      "Magnesium",
+      "Iron",
+      "Calcium",
+      "Sodium"
+    ],
+    "answer": "Magnesium",
+    "explanation": "Magnesium (Mg) forms the absolute core ion of the porphyrin ring structure in chlorophyll molecules, essential for harvesting light."
+  }
+]
