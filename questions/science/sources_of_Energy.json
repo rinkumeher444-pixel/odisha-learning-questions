@@ -1,1 +1,122 @@
-
+[
+  {
+    "questionEnglish": "Which of the following is a non-renewable source of energy?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଅକ୍ଷୟ ବା ଅନବୀକରଣଯୋଗ୍ୟ ଶକ୍ତିର ଉତ୍ସ?",
+    "options": [
+      "Coal",
+      "Solar energy",
+      "Wind energy",
+      "Hydroelectric energy"
+    ],
+    "answer": "Coal",
+    "explanation": "Coal is a fossil fuel that takes millions of years to form and cannot be replenished quickly once depleted, making it a non-renewable energy source."
+  },
+  {
+    "questionEnglish": "What is the main component of Bio-gas?",
+    "questionOdia": "ବାୟୋ-ଗ୍ୟାସ୍ (Bio-gas) ର ମୁଖ୍ୟ ଉପାଦାନ କଣ?",
+    "options": [
+      "Methane",
+      "Ethane",
+      "Propane",
+      "Butane"
+    ],
+    "answer": "Methane",
+    "explanation": "Bio-gas is produced by the anaerobic decomposition of organic matter and contains up to 75% Methane (CH4), making it an excellent fuel."
+  },
+  {
+    "questionEnglish": "Which semiconductor material is most commonly used to make solar cells?",
+    "questionOdia": "ସୌର ସେଲ୍ (Solar Cells) ତିଆରି କରିବା ପାଇଁ ସାଧାରଣତଃ କେଉଁ ଅର୍ଦ୍ଧପରିବାହୀ ପଦାର୍ଥ ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "Silicon",
+      "Copper",
+      "Aluminum",
+      "Carbon"
+    ],
+    "answer": "Silicon",
+    "explanation": "Silicon is widely used because of its abundance and favorable semiconductor properties that allow efficient conversion of sunlight into electricity."
+  },
+  {
+    "questionEnglish": "What minimum wind speed is required for a wind mill to generate electricity efficiently?",
+    "questionOdia": "ଏକ ପବନ ଚକିରୁ ଦକ୍ଷତାର ସହ ବିଦ୍ୟୁତ୍ ଶକ୍ତି ଉତ୍ପାଦନ କରିବା ପାଇଁ ପବନର ସର୍ବନିମ୍ନ ବେଗ କେତେ ହେବା ଆବଶ୍ୟକ?",
+    "options": [
+      "15 km/h",
+      "5 km/h",
+      "25 km/h",
+      "50 km/h"
+    ],
+    "answer": "15 km/h",
+    "explanation": "To maintain the required speed of the turbine for electricity generation, the wind speed should be higher than 15 km/h."
+  },
+  {
+    "questionEnglish": "The energy harnessed from the heat trapped inside the earth is called?",
+    "questionOdia": "ଭୂ-ଗର୍ଭରେ ସଞ୍ଚିତ ହୋଇ ରହିଥିବା ଉତ୍ତାପରୁ ମିଳୁଥିବା ଶକ୍ତିକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Geothermal energy",
+      "Nuclear energy",
+      "Ocean thermal energy",
+      "Biomass"
+    ],
+    "answer": "Geothermal energy",
+    "explanation": "Geothermal energy is the thermal energy generated and stored inside the Earth, which can be extracted via hot springs or deep drilling."
+  },
+  {
+    "questionEnglish": "Which greenhouse gas is mainly responsible for global warming caused by burning fossil fuels?",
+    "questionOdia": "ଜୀବାଶ୍ମ ଜାଳେଣି ଦହନ ଯୋଗୁଁ ସୃଷ୍ଟି ହେଉଥିବା ଗ୍ଲୋବାଲ୍ ୱାର୍ମିଂ ପାଇଁ ମୁଖ୍ୟତଃ କେଉଁ ଗ୍ରୀନହାଉସ୍ ଗ୍ୟାସ୍ ଦାୟୀ?",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Argon"
+    ],
+    "answer": "Carbon dioxide",
+    "explanation": "The combustion of fossil fuels releases large quantities of Carbon dioxide (CO2), which traps heat in the atmosphere and leads to global warming."
+  },
+  {
+    "questionEnglish": "What type of nuclear reaction takes place in a commercial nuclear power plant to generate electricity?",
+    "questionOdia": "ବିଦ୍ୟୁତ୍ ଉତ୍ପାଦନ ପାଇଁ ପରମାଣୁ ଶକ୍ତି କେନ୍ଦ୍ରଗୁଡ଼ିକରେ କେଉଁ ପ୍ରକାରର ନ୍ୟୁକ୍ଲିୟର ପ୍ରତିକ୍ରିୟା ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "Nuclear fission",
+      "Nuclear fusion",
+      "Spontaneous combustion",
+      "Chemical oxidation"
+    ],
+    "answer": "Nuclear fission",
+    "explanation": "Nuclear reactors use controlled nuclear fission, where a heavy nucleus (like Uranium-235) is split into lighter nuclei, releasing a massive amount of energy."
+  },
+  {
+    "questionEnglish": "The power stations that convert the potential energy of falling water into electrical energy are called?",
+    "questionOdia": "ଉପରୁ ପଡୁଥିବା ଜଳର ସ୍ଥିତିଜ ଶକ୍ତିକୁ ବୈଦ୍ୟୁତିକ ଶକ୍ତିରେ ରୂପାନ୍ତରିତ କରୁଥିବା ଶକ୍ତି କେନ୍ଦ୍ରକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Hydro power plants",
+      "Thermal power plants",
+      "Nuclear power plants",
+      "Wind farms"
+    ],
+    "answer": "Hydro power plants",
+    "explanation": "Hydro power plants utilize the kinetic energy of flowing or falling water from dams to rotate turbines and generate electricity."
+  },
+  {
+    "questionEnglish": "Which country is popularly known as the 'Country of Winds'?",
+    "questionOdia": "କେଉଁ ଦେଶକୁ ସାଧାରଣତଃ 'ପବନର ଦେଶ' (Country of Winds) ବୋଲି କୁହାଯାଏ?",
+    "options": [
+      "Denmark",
+      "India",
+      "USA",
+      "Germany"
+    ],
+    "answer": "Denmark",
+    "explanation": "Denmark is called the 'Country of Winds' because it meets a major portion (over 40%) of its total electrical energy needs through wind energy networks."
+  },
+  {
+    "questionEnglish": "What is the primary disadvantage of using nuclear energy?",
+    "questionOdia": "ପରମାଣୁ ଶକ୍ତି (Nuclear Energy) ବ୍ୟବହାର କରିବାର ମୁଖ୍ୟ ଅସୁବିଧା କଣ?",
+    "options": [
+      "Safe disposal of radioactive waste",
+      "High air pollution",
+      "Low efficiency",
+      "Intermittent availability"
+    ],
+    "answer": "Safe disposal of radioactive waste",
+    "explanation": "The spent fuel elements continue to emit highly harmful radiations, making safe storage and disposal of radioactive waste a major environmental challenge."
+  }
+]
