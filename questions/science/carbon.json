@@ -1,122 +1,122 @@
 [
   {
-    "questionEnglish": "Which virus is responsible for causing the COVID-19 pandemic?",
-    "questionOdia": "କୋଭିଡ୍-୧୯ (COVID-19) ମହାମାରୀ ପାଇଁ କେଉଁ ଭୂତାଣୁ (Virus) ଦାୟୀ?",
+    "questionEnglish": "What is the atomic number and valency of Carbon?",
+    "questionOdia": "କାର୍ବନର ପରମାଣୁ କ୍ରମାଙ୍କ (Atomic Number) ଏବଂ ସଂଯୋଜକତା (Valency) କେତେ?",
     "options": [
-      "SARS-CoV-2",
-      "MERS-CoV",
-      "SARS-CoV-1",
-      "Influenza A"
+      "Atomic number 6, Valency 4",
+      "Atomic number 4, Valency 4",
+      "Atomic number 6, Valency 2",
+      "Atomic number 12, Valency 4"
     ],
-    "answer": "SARS-CoV-2",
-    "explanation": "COVID-19 is caused by a coronavirus strain named Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2)."
+    "answer": "Atomic number 6, Valency 4",
+    "explanation": "Carbon has an atomic number of 6 with an electronic configuration of (2,4). Since it has 4 valence electrons, its valency is 4 (tetravalency)."
   },
   {
-    "questionEnglish": "In which city was the first case of COVID-19 identified in late 2019?",
-    "questionOdia": "୨୦୧୯ ଶେଷ ଆଡ଼କୁ କେଉଁ ସହରରେ କୋଭିଡ୍-୧୯ ର ପ୍ରଥମ ମାମଲା ଚିହ୍ନଟ ହୋଇଥିଲା?",
+    "questionEnglish": "Which unique property allows Carbon to form long chains and rings by bonding with other carbon atoms?",
+    "questionOdia": "ଅନ୍ୟ କାର୍ବନ ପରମାଣୁ ସହିତ ବନ୍ଧନ ଗଠନ କରି ଏକ ଦୀର୍ଘ ଶୃଙ୍ଖଳ ବା ବଳୟ ସୃଷ୍ଟି କରିବାର କାର୍ବନର ସେହି ଅନନ୍ୟ ଗୁଣକୁ କଣ କୁହାଯାଏ?",
     "options": [
-      "Wuhan, China",
-      "Beijing, China",
-      "Tokyo, Japan",
-      "Seoul, South Korea"
+      "Catenation",
+      "Tetravalency",
+      "Isomerism",
+      "Allotropy"
     ],
-    "answer": "Wuhan, China",
-    "explanation": "The initial outbreak of COVID-19 was reported in Wuhan, Hubei Province, China, in December 2019."
+    "answer": "Catenation",
+    "explanation": "Catenation (ଶୃଙ୍ଖଳନ) is the self-linking property of carbon atoms through covalent bonds to form long, stable structures."
   },
   {
-    "questionEnglish": "What is the primary diagnostic test used to detect active SARS-CoV-2 infection by amplifying viral RNA?",
-    "questionOdia": "ଭୂତାଣୁର RNA କୁ ବୃଦ୍ଧି କରି ସକ୍ରିୟ କୋଭିଡ୍ ସଂକ୍ରମଣ ଚିହ୍ନଟ କରିବା ପାଇଁ କେଉଁ ମୁଖ୍ୟ ପରୀକ୍ଷା (Diagnostic Test) ବ୍ୟବହାର କରାଯାଏ?",
+    "questionEnglish": "What type of chemical bonds are predominantly formed by Carbon in its compounds?",
+    "questionOdia": "କାର୍ବନ ଏହାର ଯୌଗିକଗୁଡ଼ିକରେ ମୁଖ୍ୟତଃ କେଉଁ ପ୍ରକାରର ରାସାୟନିକ ବନ୍ଧନ ଗଠନ କରିଥାଏ?",
     "options": [
-      "RT-PCR Test",
-      "Rapid Antibody Test",
-      "ELISA Test",
-      "Widal Test"
+      "Covalent bonds",
+      "Ionic bonds",
+      "Metallic bonds",
+      "Hydrogen bonds"
     ],
-    "answer": "RT-PCR Test",
-    "explanation": "Reverse Transcription Polymerase Chain Reaction (RT-PCR) is considered the gold standard molecular test for identifying active COVID-19 cases."
+    "answer": "Covalent bonds",
+    "explanation": "Carbon shares its 4 valence electrons with other atoms to achieve a stable electronic configuration, thereby forming covalent bonds (ସହସଂଯୋଜକ ବନ୍ଧନ)."
   },
   {
-    "questionEnglish": "Which organ in the human body is most severely affected by the SARS-CoV-2 virus?",
-    "questionOdia": "SARS-CoV-2 ଭୂତାଣୁ ଦ୍ୱାରା ମାନବ ଶରୀରର କେଉଁ ଅଙ୍ଗ ସବୁଠାରୁ ଗମ୍ଭୀର ଭାବେ ପ୍ରଭାବିତ ହୋଇଥାଏ?",
+    "questionEnglish": "Which of the following is the hardest crystalline allotrope of Carbon?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି କାର୍ବନର ସବୁଠାରୁ କଠିନ ସ୍ଫଟିକୀୟ ଅପରୂପ (Allotrope)?",
     "options": [
-      "Lungs",
-      "Kidneys",
-      "Liver",
-      "Heart"
+      "Diamond",
+      "Graphite",
+      "Fullerene",
+      "Coal"
     ],
-    "answer": "Lungs",
-    "explanation": "SARS-CoV-2 primarily targets the respiratory system, attaching to ACE2 receptors in the lungs, which can lead to severe pneumonia and ARDS."
+    "answer": "Diamond",
+    "explanation": "Diamond (ହୀରା) is a three-dimensional network structure of carbon where each atom is bonded to four others, making it the hardest natural substance known."
   },
   {
-    "questionEnglish": "What type of vaccine is the Pfizer-BioNTech and Moderna COVID-19 vaccine?",
-    "questionOdia": "ଫାଇଜର (Pfizer) ଏବଂ ମଡର୍ଣ୍ଣା (Moderna) ର କୋଭିଡ୍ ଟିକା କେଉଁ ପ୍ରକାରର ଟିକା ଅଟେ?",
+    "questionEnglish": "Why is Graphite a good conductor of electricity unlike other non-metals?",
+    "questionOdia": "ଅନ୍ୟ ଅଧାତୁଗୁଡ଼ିକ ତୁଳନାରେ ଗ୍ରାଫାଇଟ୍ (Graphite) ବିଦ୍ୟୁତ୍‌ର ସୁପରିବାହୀ ହେବାର କାରଣ କଣ?",
     "options": [
-      "mRNA vaccine",
-      "Viral vector vaccine",
-      "Inactivated virus vaccine",
-      "Protein subunit vaccine"
+      "Presence of free electrons",
+      "Its extremely hard nature",
+      "Presence of ionic bonds",
+      "It has a spherical shape"
     ],
-    "answer": "mRNA vaccine",
-    "explanation": "These vaccines use messenger RNA (mRNA) technology to instruct cells to produce a harmless piece of the viral spike protein, triggering an immune response."
+    "answer": "Presence of free electrons",
+    "explanation": "In graphite, each carbon atom is bonded to three other carbon atoms, leaving one free valence electron per atom to conduct electricity."
   },
   {
-    "questionEnglish": "Which Indian regulatory body approved the emergency use authorization of COVID-19 vaccines like Covishield and Covaxin?",
-    "questionOdia": "କୋଭିସିଲ୍ଡ ଓ କୋଭାକ୍ସିନ୍ ଭଳି କୋଭିଡ୍ ଟିକାର ଜରୁରୀକାଳୀନ ବ୍ୟବହାର ପାଇଁ ଭାରତର କେଉଁ ନିୟାମକ ସଂସ୍ଥା ଅନୁମତି ଦେଇଥିଲା?",
+    "questionEnglish": "What is the general chemical formula for the homologous series of Alkanes?",
+    "questionOdia": "ଆଲକେନ୍ (Alkanes) ସମଜାତୀୟ ଶ୍ରେଣୀର ସାଧାରଣ ରାସାୟନିକ ସଙ୍କେତ କଣ?",
     "options": [
-      "CDSCO (under DCGI)",
-      "ICMR",
-      "AIIMS",
-      "FSSAI"
+      "C_n H_{2n+2}",
+      "C_n H_{2n}",
+      "C_n H_{2n-2}",
+      "C_n H_{2n+1}"
     ],
-    "answer": "CDSCO (under DCGI)",
-    "explanation": "The Drugs Controller General of India (DCGI) heading the Central Drugs Standard Control Organization (CDSCO) gives final drug and vaccine approvals in India."
+    "answer": "C_n H_{2n+2}",
+    "explanation": "Alkanes are saturated hydrocarbons containing only single bonds, and they follow the general formula C_n H_{2n+2} (e.g., Methane: CH4)."
   },
   {
-    "questionEnglish": "The term 'Delta' and 'Omicron' refer to what in the context of COVID-19?",
-    "questionOdia": "କୋଭିଡ୍-୧୯ ପ୍ରସଙ୍ଗରେ 'ଡେଲ୍‌ଟା' (Delta) ଏବଂ 'ଓମିକ୍ରନ୍' (Omicron) ଶବ୍ଦ କାହାକୁ ସୂଚାଏ?",
+    "questionEnglish": "Hydrocarbons containing at least one carbon-carbon double bond (C=C) are classified as?",
+    "questionOdia": "କାର୍ବନ-କାର୍ବନ ମଧ୍ୟରେ ଅତିକମରେ ଗୋଟିଏ ଦ୍ୱିବନ୍ଧ (Double Bond) ଥିବା ହାଇଡ୍ରୋକାର୍ବନକୁ କଣ କୁହାଯାଏ?",
     "options": [
-      "Variants of the virus",
-      "Types of vaccines",
-      "Diagnostic machines",
-      "Treatment medicines"
+      "Alkenes",
+      "Alkanes",
+      "Alkynes",
+      "Alcohol"
     ],
-    "answer": "Variants of the virus",
-    "explanation": "Delta and Omicron are names given by the World Health Organization (WHO) to major mutated Variants of Concern (VoC) of the SARS-CoV-2 virus."
+    "answer": "Alkenes",
+    "explanation": "Alkenes are unsaturated open-chain hydrocarbons that contain a carbon-carbon double bond and follow the general formula C_n H_{2n}."
   },
   {
-    "questionEnglish": "What does the '19' in COVID-19 stand for?",
-    "questionOdia": "କୋଭିଡ୍-୧୯ (COVID-19) ରେ ଥିବା '୧୯' କାହାକୁ ସୂଚାଏ?",
+    "questionEnglish": "What is the name of the functional group present in carboxylic acids?",
+    "questionOdia": "କାର୍ବୋକ୍ସିଲିକ୍ ଅମ୍ଳରେ (Carboxylic acids) ଥିବା କ୍ରିୟାଶୀଳ ଗ୍ରୁପ୍ ବା ଫଙ୍କସନାଲ୍ ଗ୍ରୁପ୍‌ର ସଙ୍କେତ କଣ?",
     "options": [
-      "The year 2019 when it was discovered",
-      "19th strain of coronavirus",
-      "19 symptoms of the disease",
-      "The age group most affected"
+      "-COOH",
+      "-OH",
+      "-CHO",
+      "-CO-"
     ],
-    "answer": "The year 2019 when it was discovered",
-    "explanation": "COVID-19 stands for Corona Virus Disease 2019, reflecting the year the outbreak was first identified."
+    "answer": "-COOH",
+    "explanation": "The carboxylic acid functional group is represented by -COOH (e.g., Ethanoic acid: CH3COOH)."
   },
   {
-    "questionEnglish": "Which device was widely used during the pandemic to measure oxygen saturation levels in a patient's blood non-invasively?",
-    "questionOdia": "ମହାମାରୀ ସମୟରେ ରୋଗୀର ରକ୍ତରେ ଅମ୍ଳଜାନର ମାତ୍ରା ମାପିବା ପାଇଁ କେଉଁ ଯନ୍ତ୍ର ବହୁଳ ଭାବେ ବ୍ୟବହୃତ ହୋଇଥିଲା?",
+    "questionEnglish": "Compounds having the same molecular formula but different structural arrangements are called?",
+    "questionOdia": "ଏକା ପ୍ରକାରର ଆଣବିକ ସଙ୍କେତ କିନ୍ତୁ ଭିନ୍ନ ଗଠନମୂଳକ ସଙ୍କେତ ଥିବା ଯୌଗିକଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
     "options": [
-      "Pulse Oximeter",
-      "Sphygmomanometer",
-      "Thermometer",
-      "Glucometer"
+      "Isomers",
+      "Allotropes",
+      "Homologues",
+      "Isotopes"
     ],
-    "answer": "Pulse Oximeter",
-    "explanation": "A pulse oximeter is a small device clipped onto a finger that uses light absorption to monitor blood oxygen saturation (SpO2) levels."
+    "answer": "Isomers",
+    "explanation": "Isomers (ସମାବୟବୀ) exhibit different physical or chemical properties due to the variation in the arrangement of atoms in space."
   },
   {
-    "questionEnglish": "What condition describes the long-term symptoms that persist for weeks or months after recovering from the acute COVID-19 infection?",
-    "questionOdia": "କୋଭିଡ୍ ସଂକ୍ରମଣରୁ ସୁସ୍ଥ ହେବାର ସପ୍ତାହ ବା ମାସ ପରେ ମଧ୍ୟ ରହିଯାଉଥିବା ଦୀର୍ଘକାଳୀନ ଲକ୍ଷଣକୁ କଣ କୁହାଯାଏ?",
+    "questionEnglish": "Which chemical substance is the main constituent of vinegar?",
+    "questionOdia": "ଭିନେଗାର୍ (Vinegar) ର ମୁଖ୍ୟ ରାସାୟନିକ ଉପାଦାନ କଣ?",
     "options": [
-      "Long COVID",
-      "Acute Corona",
-      "Post-viral immunity",
-      "Chronic influenza"
+      "Ethanoic acid (Acetic acid)",
+      "Methanoic acid",
+      "Ethanol",
+      "Acetone"
     ],
-    "answer": "Long COVID",
-    "explanation": "Long COVID (also known as post-COVID syndrome) refers to a range of ongoing, returning, or new health problems people experience after their initial recovery."
+    "answer": "Ethanoic acid (Acetic acid)",
+    "explanation": "A 5-8% solution of ethanoic acid (acetic acid) in water is commercialized and used as vinegar for preserving food items."
   }
 ]
