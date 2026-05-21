@@ -1,1 +1,122 @@
-
+[
+  {
+    "questionEnglish": "Which of the following metals is a liquid at room temperature?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଧାତୁ ସାଧାରଣ ତାପମାତ୍ରାରେ ତରଳ ଅବସ୍ଥାରେ ଥାଏ?",
+    "options": [
+      "Mercury",
+      "Sodium",
+      "Gallium",
+      "Silver"
+    ],
+    "answer": "Mercury",
+    "explanation": "Mercury (Hg) is the only metal that remains in a liquid state at standard room temperature."
+  },
+  {
+    "questionEnglish": "Which property allows metals to be drawn into thin wires?",
+    "questionOdia": "ଧାତୁଗୁଡ଼ିକୁ ସରୁ ତାରରେ ପରିଣତ କରିବାର ଗୁଣକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Ductility",
+      "Malleability",
+      "Sonority",
+      "Conductivity"
+    ],
+    "answer": "Ductility",
+    "explanation": "Ductility is the physical property of a material that allows it to be stretched into thin wires without breaking."
+  },
+  {
+    "questionEnglish": "Which of the following non-metals is a good conductor of electricity?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ଅଧାତୁଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟି ବିଦ୍ୟୁତର ସୁପରିବାହୀ?",
+    "options": [
+      "Graphite",
+      "Diamond",
+      "Sulphur",
+      "Iodine"
+    ],
+    "answer": "Graphite",
+    "explanation": "Graphite is an allotrope of carbon that has free electrons, allowing it to conduct electricity, unlike most other non-metals."
+  },
+  {
+    "questionEnglish": "Which metal can be easily cut with a knife?",
+    "questionOdia": "କେଉଁ ଧାତୁକୁ ଛୁରୀ ସାହାଯ୍ୟରେ ସହଜରେ କଟାଯାଇପାରିବ?",
+    "options": [
+      "Sodium",
+      "Iron",
+      "Copper",
+      "Gold"
+    ],
+    "answer": "Sodium",
+    "explanation": "Sodium and Potassium are alkali metals that are exceptionally soft and can be sliced easily with a common knife."
+  },
+  {
+    "questionEnglish": "An alloy of mercury with another metal is called?",
+    "questionOdia": "ପାରଦ ସହିତ ଅନ୍ୟ ଏକ ଧାତୁର ମିଶ୍ରଧାତୁକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Amalgam",
+      "Brass",
+      "Bronze",
+      "Solder"
+    ],
+    "answer": "Amalgam",
+    "explanation": "An amalgam is a specific type of alloy formed by combining mercury with one or more other metals."
+  },
+  {
+    "questionEnglish": "What are oxides that react with both acids and bases called?",
+    "questionOdia": "ଯେଉଁ ଅକ୍ସାଇଡଗୁଡ଼ିକ ଉଭୟ ଅମ୍ଳ ଏବଂ କ୍ଷାରକ ସହିତ ପ୍ରତିକ୍ରିୟା କରନ୍ତି, ସେଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Amphoteric oxides",
+      "Acidic oxides",
+      "Basic oxides",
+      "Neutral oxides"
+    ],
+    "answer": "Amphoteric oxides",
+    "explanation": "Oxides that show both acidic and basic behaviors, like Aluminum oxide (Al2O3), are known as amphoteric oxides."
+  },
+  {
+    "questionEnglish": "Which of the following metals does not react even with water or steam?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଧାତୁ ଜଳ କିମ୍ବା ଜଳୀୟ ବାଷ୍ପ ସହିତ ଆଦୌ ପ୍ରତିକ୍ରିୟା କରେ ନାହିଁ?",
+    "options": [
+      "Gold",
+      "Iron",
+      "Calcium",
+      "Magnesium"
+    ],
+    "answer": "Gold",
+    "explanation": "Gold (Au) and Silver (Ag) are highly unreactive noble metals at the bottom of the reactivity series and do not react with water in any form."
+  },
+  {
+    "questionEnglish": "Aqua regia is a freshly prepared mixture of concentrated HCl and concentrated HNO3 in what ratio?",
+    "questionOdia": "ଆକ୍ଵା ରେଜିଆ (Aqua regia) ହେଉଛି ଗାଢ HCl ଏବଂ ଗାଢ HNO3 ର ଏକ ମିଶ୍ରଣ, ଏହାର ଅନୁପାତ କେତେ?",
+    "options": [
+      "3:1",
+      "1:3",
+      "2:3",
+      "3:2"
+    ],
+    "answer": "3:1",
+    "explanation": "Aqua Regia is a highly corrosive mixture made by combining concentrated Hydrochloric acid and concentrated Nitric acid in a 3:1 ratio."
+  },
+  {
+    "questionEnglish": "Which non-metal is lustrous in nature?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଅଧାତୁଟି ଉଜ୍ଜ୍ୱଳ ବା ଚମକଦାର?",
+    "options": [
+      "Iodine",
+      "Sulphur",
+      "Carbon",
+      "Phosphorus"
+    ],
+    "answer": "Iodine",
+    "explanation": "While most non-metals are dull, Iodine is an exception as it displays a distinct metallic-like lustrous shine."
+  },
+  {
+    "questionEnglish": "Which chemical process is used to extract highly reactive metals like Sodium?",
+    "questionOdia": "ସୋଡିୟମ୍ ଭଳି ଅଧିକ ପ୍ରତିକ୍ରିୟାଶୀଳ ଧାତୁର ନିଷ୍କାସନ ପାଇଁ କେଉଁ ରାସାୟନିକ ପ୍ରକ୍ରିୟା ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "Electrolytic reduction",
+      "Reduction with carbon",
+      "Roasting",
+      "Calcination"
+    ],
+    "answer": "Electrolytic reduction",
+    "explanation": "Highly reactive metals bind strongly to oxygen and cannot be reduced by carbon, so they are extracted via electrolytic reduction of their molten chlorides."
+  }
+]
