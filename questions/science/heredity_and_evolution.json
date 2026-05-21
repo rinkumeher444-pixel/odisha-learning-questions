@@ -1,1 +1,122 @@
-
+[
+  {
+    "questionEnglish": "Who is known as the 'Father of Genetics' for his pioneering work on pea plants?",
+    "questionOdia": "ମଟର ଗଛ ଉପରେ ପରୀକ୍ଷା କରି ବଂଶାନୁକ୍ରମର ନିୟମ ପ୍ରତିପାଦନ କରିଥିବାରୁ କାହାକୁ 'ଜେନେଟିକ୍ସର ଜନକ' କୁହାଯାଏ?",
+    "options": [
+      "Gregor Johann Mendel",
+      "Charles Darwin",
+      "Jean-Baptiste Lamarck",
+      "Thomas Hunt Morgan"
+    ],
+    "answer": "Gregor Johann Mendel",
+    "explanation": "Gregor Johann Mendel formulated the fundamental laws of inheritance (Law of Segregation and Law of Independent Assortment) through his controlled hybridization experiments on garden pea plants (Pisum sativum)."
+  },
+  {
+    "questionEnglish": "What is the phenotypic ratio of a Mendelian monohybrid cross in the F2 generation?",
+    "questionOdia": "F2 ପିଢ଼ିରେ ଏକ ସଙ୍କରଣ (Monohybrid Cross) ପରୀକ୍ଷାର ବାହ୍ୟଲକ୍ଷଣ ଅନୁପାତ (Phenotypic Ratio) କେତେ ହୋଇଥାଏ?",
+    "options": [
+      "3:1",
+      "1:2:1",
+      "9:3:3:1",
+      "1:1"
+    ],
+    "answer": "3:1",
+    "explanation": "In a monohybrid cross, crossing the heterozygous F1 generation results in an F2 generation where 75% display the dominant trait and 25% display the recessive trait, giving a phenotypic ratio of 3:1."
+  },
+  {
+    "questionEnglish": "Which molecule carries genetic information from one generation to the next in most living organisms?",
+    "questionOdia": "ଅଧିକାଂଶ ଜୀବମାନଙ୍କଠାରେ ବଂଶଗତ ଗୁଣର ବାହକ ଭାବେ କେଉଁ ଅଣୁ କାର୍ଯ್ಯ କରିଥାଏ?",
+    "options": [
+      "DNA",
+      "RNA",
+      "Protein",
+      "Carbohydrate"
+    ],
+    "answer": "DNA",
+    "explanation": "DNA (Deoxyribonucleic Acid) contains the coded genetic instructions responsible for the inheritance of traits, development, and functioning of organisms."
+  },
+  {
+    "questionEnglish": "What are the structural units of inheritance located on chromosomes that control specific traits called?",
+    "questionOdia": "ଗୁଣସୂତ୍ରରେ ଅବସ୍ଥିତ ଥିବା ବଂଶଗତ ଗୁଣର ନିର୍ଦ୍ଦିଷ୍ଟ କ୍ରିୟାତ୍ମକ ଏକକଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Genes",
+      "Proteins",
+      "Zygotes",
+      "Centromeres"
+    ],
+    "answer": "Genes",
+    "explanation": "Genes (ଜିନ୍) are specific segments of DNA that contain instructions for synthesizing particular proteins, thereby determining specific phenotypic traits."
+  },
+  {
+    "questionEnglish": "Which chromosome combination determines a biological male child in humans?",
+    "questionOdia": "ମାନବ କ୍ଷେତ୍ରରେ କେଉଁ ଗୁଣସୂତ୍ର ସଂଯୋଗ ଦ୍ୱାରା ପୁତ୍ର ସନ୍ତାନ ନିରୂପିତ ହୋଇଥାଏ?",
+    "options": [
+      "XY",
+      "XX",
+      "YY",
+      "XO"
+    ],
+    "answer": "XY",
+    "explanation": "Human females possess two identical sex chromosomes (XX), while males possess one X and one smaller Y chromosome (XY). The inheritance of a Y chromosome from the father determines a male child."
+  },
+  {
+    "questionEnglish": "Organs that have a similar basic structure and origin but perform different functions are called?",
+    "questionOdia": "ଯେଉଁ ଅଙ୍ଗଗୁଡ଼ିକର ମୂଳ ଗଠନ ଓ ଉତ୍ପତ୍ତି ସମାନ କିନ୍ତୁ କାର୍ଯ୍ୟ ଭିନ୍ନ, ସେଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Homologous organs",
+      "Analogous organs",
+      "Vestigial organs",
+      "Rudimentary organs"
+    ],
+    "answer": "Homologous organs",
+    "explanation": "Homologous organs (ସମସଂସ୍ଥ ଅଙ୍ଗ), such as the forelimbs of a human, a frog, and a bird, demonstrate a shared evolutionary ancestry despite adaptive differences in function."
+  },
+  {
+    "questionEnglish": "The wings of a butterfly and the wings of a bird are examples of which type of organs?",
+    "questionOdia": "ଝିଣ୍ଟିକା ବା ପ୍ରଜାପତିର ଡେଣା ଏବଂ ପକ୍ଷୀର ଡେଣା କେଉଁ ପ୍ରକାରର ଅଙ୍ଗର ଉଦାହରଣ?",
+    "options": [
+      "Analogous organs",
+      "Homologous organs",
+      "Vestigial organs",
+      "Atavistic organs"
+    ],
+    "answer": "Analogous organs",
+    "explanation": "Analogous organs (ସମରୂପ ଅଙ୍ଗ) have different structural origins and anatomy but perform similar functions, arising due to convergent evolution in a similar environment."
+  },
+  {
+    "questionEnglish": "Who proposed the famous theory of evolution by 'Natural Selection'?",
+    "questionOdia": "ପ୍ରାକୃତିକ ଉଦ୍‌ବର୍ତ୍ତନ ବା ଚୟନ (Natural Selection) ମାଧ୍ୟମରେ ଜୀବ ବିବର୍ତ୍ତନର ପ୍ରସିଦ୍ଧ ମତବାଦ କିଏ ଉପସ୍ଥାପନ କରିଥିଲେ?",
+    "options": [
+      "Charles Darwin",
+      "Jean-Baptiste Lamarck",
+      "Gregor Mendel",
+      "Hugo de Vries"
+    ],
+    "answer": "Charles Darwin",
+    "explanation": "Charles Darwin published his breakthrough concept in his 1859 book 'On the Origin of Species', explaining how nature selects organisms with advantageous variations."
+  },
+  {
+    "questionEnglish": "What are the preserved remains or traces of ancient organisms that lived millions of years ago called?",
+    "questionOdia": "ଲକ୍ଷ ଲକ୍ଷ ବର୍ଷ ପୂର୍ବେ ବାସ କରୁଥିବା ପ୍ରାଚୀନ ଜୀବମାନଙ୍କର ପ୍ରସ୍ତରୀଭୂତ ଅବଶେଷ ବା ଚିହ୍ନକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Fossils",
+      "Alloys",
+      "Vestiges",
+      "Artifacts"
+    ],
+    "answer": "Fossils",
+    "explanation": "Fossils (ଜୀବାଶ୍ମ) are formed when the remains or impressions of dead organisms escape complete decomposition and get preserved within sedimentary rock layers."
+  },
+  {
+    "questionEnglish": "Which organ in the human body is considered a vestigial organ because it has lost its original ancestral function?",
+    "questionOdia": "ମାନବ ଶରୀରରେ ଥିବା କେଉଁ ଅଙ୍ଗଟିକୁ ଏକ ଅବଶେଷାଙ୍ଗ (Vestigial Organ) ବିବେଚନା କରାଯାଏ କାରଣ ଏହାର କୌଣସି ସକ୍ରିୟ କାର୍ଯ୍ୟ ନାହିଁ?",
+    "options": [
+      "Vermiform Appendix",
+      "Heart",
+      "Kidney",
+      "Pancreas"
+    ],
+    "answer": "Vermiform Appendix",
+    "explanation": "The vermiform appendix is a functional, cellulose-digesting cecum pouch in herbivorous ancestors, but has contracted into a non-functional vestigial remnant in modern humans."
+  }
+]
