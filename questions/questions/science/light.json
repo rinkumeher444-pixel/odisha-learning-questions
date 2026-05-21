@@ -1,0 +1,14 @@
+[
+  {
+    "questionEnglish": "What is reflection of light?",
+    "questionOdia": "ଆଲୋକର ପ୍ରତିଫଳନ କ'ଣ?",
+    "options": [
+      "Bending of light",
+      "Return of light",
+      "Absorption",
+      "Refraction"
+    ],
+    "answer": "Return of light",
+    "explanation": "Reflection means return of light."
+  }
+]
