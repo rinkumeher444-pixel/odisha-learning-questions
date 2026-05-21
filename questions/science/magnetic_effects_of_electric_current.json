@@ -1,1 +1,72 @@
-
+[
+  {
+    "questionEnglish": "Who discovered the magnetic effect of electric current?",
+    "questionOdia": "ବିଦ୍ୟୁତ୍ ସ୍ରୋତର ଚୁମ୍ବକୀୟ ପ୍ରଭାବ କିଏ ଆବିଷ୍କାର କରିଥିଲେ?",
+    "options": [
+      "Hans Christian Oersted",
+      "Michael Faraday",
+      "Alessandro Volta",
+      "Isaac Newton"
+    ],
+    "answer": "Hans Christian Oersted",
+    "explanation": "In 1820, Hans Christian Oersted accidentally discovered that a compass needle deflected when placed near a wire carrying an electric current."
+  },
+  {
+    "questionEnglish": "Which rule is used to find the direction of magnetic field lines around a straight current-carrying conductor?",
+    "questionOdia": "ଏକ ସରଳ ପରିବାହୀରେ ବିଦ୍ୟୁତ୍ ସ୍ରୋତ ପ୍ରବାହିତ ହେଲେ ତାହା ଚାରିପାଖରେ ସୃଷ୍ଟି ହେଉଥିବା ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ରର ଦିଗ କେଉଁ ନିୟମ ଦ୍ୱାରା ନିରୂପଣ କରାଯାଏ?",
+    "options": [
+      "Right-hand thumb rule",
+      "Fleming's left-hand rule",
+      "Fleming's right-hand rule",
+      "Ohm's Law"
+    ],
+    "answer": "Right-hand thumb rule",
+    "explanation": "According to the Right-hand thumb rule, if you hold a current-carrying conductor with your right hand such that the thumb points along the current, your wrapped fingers show the direction of magnetic field lines."
+  },
+  {
+    "questionEnglish": "A cylindrical coil of many close turns of insulated copper wire is called?",
+    "questionOdia": "ବହୁ ସଂଖ୍ୟକ ପରସ୍ପର ବିଚ୍ଛିନ୍ନ ତମ୍ବା ତାରର ବୃତ୍ତାକାର ଫେରାରୁ ଗଠିତ ସିଲିଣ୍ଡର ସଦୃଶ କୁଣ୍ଡଳୀକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Solenoid",
+      "Galvanometer",
+      "Generator",
+      "Electric Motor"
+    ],
+    "answer": "Solenoid",
+    "explanation": "A solenoid behaves like a bar magnet when electric current flows through it, producing a strong and uniform magnetic field inside it."
+  },
+  {
+    "questionEnglish": "What type of core is used to make a strong electromagnet?",
+    "questionOdia": "ଏକ ଶକ୍ତିଶାଳୀ ବିଦ୍ୟୁତ୍ ଚୁମ୍ବକ (Electromagnet) ତିଆରି କରିବା ପାଇଁ କେଉଁ ମେରୁ-ମଣ୍ଡଳ ବା କୋର୍ (Core) ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "Soft iron",
+      "Steel",
+      "Copper",
+      "Aluminum"
+    ],
+    "answer": "Soft iron",
+    "explanation": "Soft iron magnetizes easily when current passes through the coil and loses its magnetism instantly when the current is switched off, making it perfect for electromagnets."
+  },
+  {
+    "questionEnglish": "Which rule is used to determine the direction of force experienced by a current-carrying conductor placed in a magnetic field?",
+    "questionOdia": "ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ରରେ ଥିବା ଏକ ବିଦ୍ୟୁତ୍ ବାହୀ ପରିବାହୀ ଉପରେ କାର୍ଯ୍ୟ କରୁଥିବା ବଳର ଦିଗ ନିର୍ଣ୍ଣୟ କରିବା ପାଇଁ କେଉଁ ନିୟମ ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "Fleming's left-hand rule",
+      "Fleming's right-hand rule",
+      "Right-hand thumb rule",
+      "Maxwell's screw rule"
+    ],
+    "answer": "Fleming's left-hand rule",
+    "explanation": "Fleming's left-hand rule states that if you stretch the thumb, forefinger, and middle finger of your left hand mutually perpendicular, the forefinger points to the magnetic field, the middle finger to the current, and the thumb indicates the direction of force/motion."
+  },
+  {
+    "questionEnglish": "Which device converts electrical energy into mechanical energy?",
+    "questionOdia": "କେଉଁ ଉପକରଣ ବୈଦ୍ୟୁତିକ ଶକ୍ତିକୁ ଯାନ୍ତ୍ରିକ ଶକ୍ତିରେ ରୂପାନ୍ତରିତ କରେ?",
+    "options": [
+      "Electric Motor",
+      "Electric Generator",
+      "Galvanometer",
+      "Ammeter"
+    ],
+    "answer": "Electric Motor",
+    "explanation": "An electric motor works on the principle that
