@@ -1,1 +1,123 @@
 
+[
+  {
+    "questionEnglish": "How many elements were known when Mendeleev arranged his periodic table?",
+    "questionOdia": "ମେଣ୍ଡେଲିଭ୍ ଯେତେବେଳେ ତାଙ୍କର ପର୍ଯ୍ୟାୟ ସାରଣୀ ପ୍ରସ୍ତୁତ କରିଥିଲେ, ସେତେବେଳେ କେତେଗୋଟି ମୌଳିକ ଆବିଷ୍କୃତ ହୋଇଥିଲା?",
+    "options": [
+      "63",
+      "56",
+      "86",
+      "118"
+    ],
+    "answer": "63",
+    "explanation": "There were 63 elements known at the time Mendeleev formulated his periodic table based on their atomic masses."
+  },
+  {
+    "questionEnglish": "Who classified elements based on the Law of Triads?",
+    "questionOdia": "ତ୍ରୈରାଶିକ ନିୟମ (Law of Triads) ଆଧାରରେ ମୌଳିକଗୁଡ଼ିକର ଶ୍ରେଣୀକରଣ କିଏ କରିଥିଲେ?",
+    "options": [
+      "Döbereiner",
+      "Newlands",
+      "Mendeleev",
+      "Moseley"
+    ],
+    "answer": "Döbereiner",
+    "explanation": "Johann Wolfgang Döbereiner grouped elements with similar chemical properties into clusters of three, known as Döbereiner's Triads."
+  },
+  {
+    "questionEnglish": "According to Newlands' Law of Octaves, the properties of the eighth element are similar to which element?",
+    "questionOdia": "ନ୍ୟୁଲାଣ୍ଡସ୍‌ଙ୍କ ଅଷ୍ଟକ ନିୟମ ଅନୁଯାୟୀ, ଅଷ୍ଟମ ମୌଳିକର ଗୁଣ କେଉଁ ମୌଳିକର ଗୁଣ ସହିତ ସମାନ ହୋଇଥାଏ?",
+    "options": [
+      "First element",
+      "Second element",
+      "Third element",
+      "Fourth element"
+    ],
+    "answer": "First element",
+    "explanation": "Newlands' Law of Octaves states that when elements are arranged by increasing atomic mass, every eighth element possesses properties similar to the first."
+  },
+  {
+    "questionEnglish": "The Modern Periodic Law is based on which property of elements?",
+    "questionOdia": "ଆଧୁନିକ ପର୍ଯ୍ୟାୟ ନିୟମ ମୌଳିକଗୁଡ଼ିକର କେଉଁ ଗୁଣ ଉପରେ ଆଧାରିତ?",
+    "options": [
+      "Atomic number",
+      "Atomic mass",
+      "Atomic volume",
+      "Density"
+    ],
+    "answer": "Atomic number",
+    "explanation": "Henry Moseley demonstrated that the atomic number is a more fundamental property for classification than atomic mass, forming the basis of the Modern Periodic Law."
+  },
+  {
+    "questionEnglish": "How many groups and periods are present in the Modern Periodic Table?",
+    "questionOdia": "ଆଧୁନିକ ପର୍ଯ୍ୟାୟ ସାରଣୀରେ କେତେଗୋଟି ଗ୍ରୁପ୍ ଏବଂ ପର୍ଯ୍ୟାୟ ରହିଛି?",
+    "options": [
+      "18 groups and 7 periods",
+      "7 groups and 18 periods",
+      "16 groups and 8 periods",
+      "8 groups and 16 periods"
+    ],
+    "answer": "18 groups and 7 periods",
+    "explanation": "The Modern Periodic Table is structured with 18 vertical columns called groups and 7 horizontal rows called periods."
+  },
+  {
+    "questionEnglish": "What happens to the atomic size of elements as you move from left to right in a period?",
+    "questionOdia": "ଏକ ପର୍ଯ୍ୟାୟରେ ବାମରୁ ଡାହାଣକୁ ଗଲେ ମୌଳିକଗୁଡ଼ିକର ପରମାଣୁ ଆକାରରେ କି ପରିବର୍ତ୍ତନ ହୁଏ?",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Remains the same",
+      "First increases then decreases"
+    ],
+    "answer": "Decreases",
+    "explanation": "Atomic size decreases from left to right across a period because an increase in nuclear charge pulls the electrons closer to the nucleus."
+  },
+  {
+    "questionEnglish": "Which of the following is a noble gas?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ନିଷ୍କ୍ରିୟ ଗ୍ୟାସ୍ (Noble Gas)?",
+    "options": [
+      "Argon",
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "answer": "Argon",
+    "explanation": "Argon (Ar) belongs to Group 18 of the periodic table, which consists of chemically unreactive noble gases with stable electronic configurations."
+  },
+  {
+    "questionEnglish": "Where are non-metals generally located in the Modern Periodic Table?",
+    "questionOdia": "ଆଧୁନିକ ପର୍ଯ୍ୟାୟ ସାରଣୀରେ ସାଧାରଣତଃ ଅଧାତୁଗୁଡ଼ିକ କେଉଁ ପାର୍ଶ୍ୱରେ ଅବସ୍ଥିତ?",
+    "options": [
+      "On the right side",
+      "On the left side",
+      "At the bottom",
+      "In the center"
+    ],
+    "answer": "On the right side",
+    "explanation": "Metals occupy the left and center of the modern periodic table, while non-metals are positioned toward the top right side."
+  },
+  {
+    "questionEnglish": "What is the valency of elements belonging to Group 1 (Alkali metals)?",
+    "questionOdia": "ଗ୍ରୁପ୍-୧ (କ୍ଷାରୀୟ ଧାତୁ) ମୌଳିକଗୁଡ଼ିକର ସଂଯୋଜକତା (Valency) କେତେ?",
+    "options": [
+      "1",
+      "2",
+      "7",
+      "8"
+    ],
+    "answer": "1",
+    "explanation": "Group 1 elements have exactly one valence electron in their outermost shell, giving them a valency of 1."
+  },
+  {
+    "questionEnglish": "What happens to the metallic character of elements down a group?",
+    "questionOdia": "ଏକ ଗ୍ରୁପ୍‌ରେ ଉପରୁ ତଳକୁ ଗଲେ ମୌଳିକଗୁଡ଼ିକର ଧାତବ ଗୁଣରେ କି ପରିବର୍ତ୍ତନ ହୁଏ?",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains constant",
+      "Randomly changes"
+    ],
+    "answer": "Increases",
+    "explanation": "Down a group, the effective nuclear charge decreases as atomic size increases, making it easier for atoms to lose valence electrons, which increases metallic character."
+  }
+]
