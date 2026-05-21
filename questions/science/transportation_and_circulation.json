@@ -1,0 +1,122 @@
+[
+  {
+    "questionEnglish": "Which plant tissue is responsible for the transportation of water and minerals from roots to leaves?",
+    "questionOdia": "ଉଦ୍ଭିଦରେ ଚେରରୁ ପତ୍ର ପର୍ଯ୍ୟନ୍ତ ଜଳ ଏବଂ ଖଣିଜ ଲବଣର ପରିବହନ ପାଇଁ କେଉଁ ସଂଯୋଜକ କଳା (Tissue) ଦାୟୀ?",
+    "options": [
+      "Xylem",
+      "Phloem",
+      "Parenchyma",
+      "Collenchyma"
+    ],
+    "answer": "Xylem",
+    "explanation": "Xylem tissue (ଜାଇଲେମ୍) forms a continuous network of channels that conducts water and dissolved nutrients upward from the roots to all parts of the plant."
+  },
+  {
+    "questionEnglish": "Which plant tissue transports prepared food from the leaves to other parts of the plant?",
+    "questionOdia": "ପତ୍ରରେ ପ୍ରସ୍ତୁତ ହୋଇଥିବା ଖାଦ୍ୟକୁ ଉଦ୍ଭିଦର ଅନ୍ୟ ସମସ୍ତ ଅଂଶକୁ ପରିବହନ କରିବାରେ କେଉଁ କଳା ସାହାଯ୍ୟ କରେ?",
+    "options": [
+      "Phloem",
+      "Xylem",
+      "Cortex",
+      "Epidermis"
+    ],
+    "answer": "Phloem",
+    "explanation": "Phloem tissue (ଫ୍ଲୋଏମ୍) is responsible for translocation, which is the transport of soluble organic food materials (like sucrose) made during photosynthesis."
+  },
+  {
+    "questionEnglish": "The loss of water in the form of water vapor from the aerial parts of a plant is called?",
+    "questionOdia": "ଉଦ୍ଭିଦର ବାୟବୀୟ ଅଂଶରୁ ଜଳୀୟ ବାଷ୍ପ ଆକାରରେ ଜଳ ନିର୍ଗତ ହେବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Transpiration",
+      "Translocation",
+      "Guttation",
+      "Photosynthesis"
+    ],
+    "answer": "Transpiration",
+    "explanation": "Transpiration (ଉତ୍ସ୍ୱେଦନ) creates a suction pull (transpiration pull) inside the xylem vessels, helping in the upward movement of water in tall trees."
+  },
+  {
+    "questionEnglish": "How many chambers are there in a healthy human heart?",
+    "questionOdia": "ଜଣେ ସୁସ୍ଥ ମାନବର ହୃତପିଣ୍ଡରେ କେତେଗୋଟି କୋଠରୀ (Chambers) ଥାଏ?",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "1"
+    ],
+    "answer": "4",
+    "explanation": "The human heart is divided into four chambers: two upper atria (ଅଳିନ୍ଦ) and two lower ventricles (ନିଳୟ) to prevent the mixing of oxygenated and deoxygenated blood."
+  },
+  {
+    "questionEnglish": "Which blood vessels carry oxygenated blood away from the heart to various organs of the body?",
+    "questionOdia": "କେଉଁ ରକ୍ତବାହୀ ଅମ୍ଳଜାନଯୁକ୍ତ ରକ୍ତକୁ ହୃତପିଣ୍ଡରୁ ଶରୀରର ବିଭିନ୍ନ ଅଙ୍ଗକୁ ବହନ କରିଥାଏ?",
+    "options": [
+      "Arteries",
+      "Veins",
+      "Capillaries",
+      "Lymph vessels"
+    ],
+    "answer": "Arteries",
+    "explanation": "Arteries (ଧମନୀ) have thick, elastic walls and carry oxygen-rich blood from the heart to the rest of the body, with the exception of the pulmonary artery."
+  },
+  {
+    "questionEnglish": "Which blood component is responsible for the clotting of blood at the site of an injury?",
+    "questionOdia": "ଶରୀରର କୌଣସି ସ୍ଥାନ କଟିଗଲେ ରକ୍ତ ଜମାଟ ବାନ୍ଧିବାରେ ରକ୍ତର କେଉଁ ଉପାଦାନ ସାହାଯ୍ୟ କରିଥାଏ?",
+    "options": [
+      "Platelets",
+      "Red Blood Cells",
+      "White Blood Cells",
+      "Plasma"
+    ],
+    "answer": "Platelets",
+    "explanation": "Platelets (ଅଣୁଚକ୍ରିକା) circulate in the blood and clump together to form a clot at injury sites, preventing excessive bleeding."
+  },
+  {
+    "questionEnglish": "What is the instrument used to measure the blood pressure of a human being called?",
+    "questionOdia": "ମାନବ ଶରୀରର ରକ୍ତଚାପ (Blood Pressure) ମାପିବା ପାଇଁ ବ୍ୟବହୃତ ହେଉଥିବା ଯନ୍ତ୍ରର ନାମ କଣ?",
+    "options": [
+      "Sphygmomanometer",
+      "Stethoscope",
+      "Barometer",
+      "Thermometer"
+    ],
+    "answer": "Sphygmomanometer",
+    "explanation": "A sphygmomanometer is a device used by medical professionals to measure systolic and diastolic blood pressure levels."
+  },
+  {
+    "questionEnglish": "What is the normal systolic and diastolic blood pressure range for a healthy adult human?",
+    "questionOdia": "ଜଣେ ସୁସ୍ଥ ବ୍ୟକ୍ତିର ସ୍ୱାଭାବିକ ରକ୍ତଚାପ (Systolic/Diastolic) କେତେ ହୋଇଥାଏ?",
+    "options": [
+      "120/80 mm Hg",
+      "80/120 mm Hg",
+      "140/90 mm Hg",
+      "100/50 mm Hg"
+    ],
+    "answer": "120/80 mm Hg",
+    "explanation": "A normal blood pressure reading is 120 mm Hg for systolic pressure (heart contraction phase) and 80 mm Hg for diastolic pressure (heart relaxation phase)."
+  },
+  {
+    "questionEnglish": "Which blood group is known as the 'Universal Donor' because it can be given to a person of any blood group?",
+    "questionOdia": "କେଉଁ ରକ୍ତ ସମୂହକୁ 'ସର୍ବଜନୀନ ଦାତା' (Universal Donor) କୁହାଯାଏ?",
+    "options": [
+      "Blood Group O",
+      "Blood Group AB",
+      "Blood Group A",
+      "Blood Group B"
+    ],
+    "answer": "Blood Group O",
+    "explanation": "Blood Group O contains no A or B antigens on red blood cells, which prevents an immune response, allowing it to be transfused into any recipient safely."
+  },
+  {
+    "questionEnglish": "What is the fluid portion of blood left after the removal of blood cells called?",
+    "questionOdia": "ରକ୍ତ କଣିକାଗୁଡ଼ିକୁ ବାଦ୍ ଦେଲା ପରେ ରକ୍ତର ତରଳ ଅଂଶକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Plasma",
+      "Lymph",
+      "Serum",
+      "Hemoglobin"
+    ],
+    "answer": "Plasma",
+    "explanation": "Plasma (ପ୍ଲାଜ୍ମା ବା ରକ୍ତ ରସ) makes up about 55% of the total blood volume and carries proteins, glucose, mineral ions, hormones, and carbon dioxide."
+  }
+]
