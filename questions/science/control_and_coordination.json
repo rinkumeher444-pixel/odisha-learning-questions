@@ -1,1 +1,122 @@
-
+[
+  {
+    "questionEnglish": "What is the structural and functional unit of the human nervous system?",
+    "questionOdia": "ମାନବ ସ୍ନାୟୁ ତନ୍ତ୍ରର ଗଠନମୂଳକ ଓ କ୍ରିୟାତ୍ମକ ଏକକ କଣ?",
+    "options": [
+      "Neuron",
+      "Nephron",
+      "Alveoli",
+      "Axon"
+    ],
+    "answer": "Neuron",
+    "explanation": "Neurons (ସ୍ନାୟୁକୋଷ) are specialized cells that transmit electrical nerve impulses throughout the body to control actions and reactions."
+  },
+  {
+    "questionEnglish": "Which part of a neuron receives incoming electrical impulses or chemical signals from other cells?",
+    "questionOdia": "ସ୍ନାୟୁକୋଷର କେଉଁ ଅଂଶ ଅନ୍ୟ କୋଷରୁ ଆସୁଥିବା ବୈଦ୍ୟୁତିକ ବା ରାସାୟନିକ ସଙ୍କେତ ଗ୍ରହଣ କରେ?",
+    "options": [
+      "Dendrite",
+      "Axon",
+      "Cell body",
+      "Synapse"
+    ],
+    "answer": "Dendrite",
+    "explanation": "Dendrites (ଡେଣ୍ଡ୍ରାଇଟ୍) are branch-like structures extending from the cell body that act as receptors for chemical messages."
+  },
+  {
+    "questionEnglish": "What is the microscopic gap across which nerve impulses pass from one neuron to the next called?",
+    "questionOdia": "ଦୁଇଟି ସ୍ନାୟୁକୋଷ ମଧ୍ୟରେ ଥିବା ଅତି କ୍ଷୁଦ୍ର ଶୂନ୍ୟସ୍ଥାନ ବା ସନ୍ଧିକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Synapse",
+      "Axon hillock",
+      "Meninges",
+      "Myelin sheath"
+    ],
+    "answer": "Synapse",
+    "explanation": "A synapse (ସ୍ନାୟୁସନ୍ଧି) is a specialized junction where chemical neurotransmitters bridge the gap to carry signals between neurons."
+  },
+  {
+    "questionEnglish": "Which part of the human brain is responsible for thinking, memory, intelligence, and voluntary actions?",
+    "questionOdia": "ମାନବ ମସ୍ତିଷ୍କର କେଉଁ ଅଂଶ ଚିନ୍ତାଶକ୍ତି, ସ୍ମୃତିଶକ୍ତି, ବୁଦ୍ଧିମତା ଏବଂ ଇଚ୍ଛାଧୀନ କାର୍ଯ୍ୟ ପାଇଁ ଦାୟୀ?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla oblongata",
+      "Pons"
+    ],
+    "answer": "Cerebrum",
+    "explanation": "The Cerebrum (ପ୍ରମସ୍ତିଷ୍କ) is the largest part of the brain and coordinates logic, learning, speech, emotions, and sensory perceptions."
+  },
+  {
+    "questionEnglish": "Which part of the brain controls involuntary actions like blood pressure, salivation, and vomiting?",
+    "questionOdia": "ରକ୍ତଚାପ, ଲାଳ କ୍ଷରଣ ଏବଂ ବାନ୍ତି ଭଳି ଅନିଚ୍ଛାକୃତ କ୍ରିୟାଗୁଡ଼ିକୁ ମସ୍ତିଷ୍କର କେଉଁ ଅଂଶ ନିୟନ୍ତ୍ରଣ କରେ?",
+    "options": [
+      "Medulla oblongata",
+      "Cerebrum",
+      "Cerebellum",
+      "Hypothalamus"
+    ],
+    "answer": "Medulla oblongata",
+    "explanation": "The Medulla oblongata (ସୁଷୁମ୍ନା ଶୀର୍ଷକ) located in the hindbrain forms the control center for major life-sustaining involuntary activities."
+  },
+  {
+    "questionEnglish": "Which plant hormone is primarily responsible for cell elongation and promoting phototropism?",
+    "questionOdia": "ଉଦ୍ଭିଦ କୋଷର ଦୀର୍ଘକରଣ ଏବଂ ଆଲୋକାନୁବର୍ତ୍ତନ (Phototropism) ପାଇଁ କେଉଁ ଉଦ୍ଭିଦ ହରମୋନ୍ ମୁଖ୍ୟତଃ ଦାୟୀ?",
+    "options": [
+      "Auxin",
+      "Gibberellin",
+      "Cytokinin",
+      "Abscisic acid"
+    ],
+    "answer": "Auxin",
+    "explanation": "Auxin (ଅକ୍ସିନ୍) accumulates on the shaded side of a growing stem, causing those cells to grow longer and bend the plant toward light."
+  },
+  {
+    "questionEnglish": "Which plant hormone acts as a growth inhibitor and induces the wilting of leaves?",
+    "questionOdia": "କେଉଁ ଉଦ୍ଭିଦ ହରମୋନ୍ ବୃଦ୍ଧି ପ୍ରତିରୋଧକ ଭାବେ କାର୍ଯ୍ୟ କରେ ଏବଂ ପତ୍ର ଝଡ଼ିବାରେ ସାହାଯ୍ୟ କରେ?",
+    "options": [
+      "Abscisic acid",
+      "Auxin",
+      "Gibberellin",
+      "Cytokinin"
+    ],
+    "answer": "Abscisic acid",
+    "explanation": "Abscisic acid (ଆବ୍ସିସିକ୍ ଅମ୍ଳ) signals stress responses in plants, suppressing growth, promoting dormancy, and causing leaf fall."
+  },
+  {
+    "questionEnglish": "Which endocrine gland is known as the 'Master Gland' because it regulates other endocrine glands?",
+    "questionOdia": "ଅନ୍ୟ ସମସ୍ତ ଅନ୍ତଃସ୍ରାବୀ ଗ୍ରନ୍ଥିକୁ ନିୟନ୍ତ୍ରଣ କରୁଥିବାରୁ କେଉଁ ଗ୍ରନ୍ଥିକୁ 'ମୁଖ୍ୟ ଗ୍ରନ୍ଥି' (Master Gland) କୁହାଯାଏ?",
+    "options": [
+      "Pituitary gland",
+      "Thyroid gland",
+      "Adrenal gland",
+      "Pancreas"
+    ],
+    "answer": "Pituitary gland",
+    "explanation": "The Pituitary gland (ପିଟୁଇଟାରୀ ଗ୍ରନ୍ଥି) secretes a range of trophic hormones that dictate the release patterns of downstream glands."
+  },
+  {
+    "questionEnglish": "Which hormone is secreted by the pancreas to regulate blood glucose levels?",
+    "questionOdia": "ରକ୍ତରେ ଶର୍କରା ବା ଗ୍ଲୁକୋଜ୍‌ର ପରିମାଣ ନିୟନ୍ତ୍ରଣ କରିବା ପାଇଁ ଅଗ୍ନ୍ୟାଶୟ (Pancreas) ରୁ କେଉଁ ହରମୋନ୍ କ୍ଷରିତ ହୁଏ?",
+    "options": [
+      "Insulin",
+      "Thyroxin",
+      "Adrenaline",
+      "Estrogen"
+    ],
+    "answer": "Insulin",
+    "explanation": "Insulin (ଇନସୁଲିନ୍) is released by the beta cells of the pancreas to facilitate cell uptake of sugar, lowering blood glucose safely."
+  },
+  {
+    "questionEnglish": "Which hormone prepares the human body for 'fight or flight' emergency situations?",
+    "questionOdia": "ଜରୁରୀକାଳୀନ ପରିସ୍ଥିତିର ମୁକାବିଲା କରିବା ପାଇଁ ମାନବ ଶରୀରକୁ କେଉଁ ହରମୋନ୍ ପ୍ରସ୍ତୁତ କରାଏ?",
+    "options": [
+      "Adrenaline",
+      "Thyroxin",
+      "Growth hormone",
+      "Testosterone"
+    ],
+    "answer": "Adrenaline",
+    "explanation": "Adrenaline (ଆଡ୍ରେନାଲିନ୍) is secreted by the adrenal glands to spike heart rate, respiration, and alertness in times of extreme stress or danger."
+  }
+]
