@@ -1,1 +1,122 @@
-
+[
+  {
+    "questionEnglish": "Which of the following is the primary cellular fuel used during respiration to release energy?",
+    "questionOdia": "ଶ୍ୱସନ ସମୟରେ ଶକ୍ତି ମୋଚନ ପାଇଁ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ପ୍ରାଥମିକ କୋଷୀୟ ଜାଳେଣି ଭାବେ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": [
+      "Glucose",
+      "Amino acid",
+      "Fatty acid",
+      "Sucrose"
+    ],
+    "answer": "Glucose",
+    "explanation": "Glucose (C6H12O6) is the simplest carbohydrate and acts as the primary respiratory substrate that cells break down to produce ATP energy."
+  },
+  {
+    "questionEnglish": "Where does the first step of respiration, known as Glycolysis, take place inside the cell?",
+    "questionOdia": "ଶ୍ୱସନର ପ୍ରଥମ ପର୍ଯ୍ୟାୟ ଅର୍ଥାତ୍ ଗ୍ଲାଇକୋଲିସିସ୍ (Glycolysis) କୋଷର କେଉଁ ଅଂଶରେ ସଂଘଟିତ ହୋଇଥାଏ?",
+    "options": [
+      "Cytoplasm",
+      "Mitochondria",
+      "Ribosome",
+      "Golgi bodies"
+    ],
+    "answer": "Cytoplasm",
+    "explanation": "Glycolysis is the process of breaking down a 6-carbon glucose molecule into two 3-carbon pyruvate molecules, and it occurs entirely in the cytoplasm (କୋଷଜୀବକ)."
+  },
+  {
+    "questionEnglish": "How many net ATP molecules are produced during anaerobic respiration or fermentation of one glucose molecule?",
+    "questionOdia": "ଏକ ଗ୍ଲୁକୋଜ୍ ଅଣୁର ଅବାୟୁ ଶ୍ୱସନ (Anaerobic Respiration) ବା କିଣ୍ଵନ ପ୍ରକ୍ରିୟାରେ କେତେଗୋଟି ଅବଶିଷ୍ଟ ATP ଅଣୁ ସୃଷ୍ଟି ହୁଏ?",
+    "options": [
+      "2 ATP",
+      "38 ATP",
+      "36 ATP",
+      "4 ATP"
+    ],
+    "answer": "2 ATP",
+    "explanation": "Anaerobic respiration happens in the absence of oxygen and yields only 2 ATP molecules per glucose molecule, which is much lower than aerobic respiration."
+  },
+  {
+    "questionEnglish": "The accumulation of which substance in human muscle cells during heavy exercise causes muscle cramps?",
+    "questionOdia": "ଅଧିକ ପରିଶ୍ରମ କଲେ ମାନବ ମାଂସପେଶୀ କୋଷରେ କେଉଁ ପଦାର୍ଥ ଜମା ହେବା ଯୋଗୁଁ ବାତ ବା କ୍ରାମ୍ପ (Cramps) ହୋଇଥାଏ?",
+    "options": [
+      "Lactic acid",
+      "Ethanol",
+      "Pyruvate",
+      "Carbon dioxide"
+    ],
+    "answer": "Lactic acid",
+    "explanation": "During sudden heavy exercise, oxygen demand is high, causing muscle cells to perform anaerobic respiration which produces Lactic acid (ଲାକ୍‌ଟିକ୍ ଅମ୍ଳ), leading to cramps."
+  },
+  {
+    "questionEnglish": "Which organelle is considered the 'Powerhouse of the Cell' where citric acid cycle takes place?",
+    "questionOdia": "କ୍ରେବ୍ସ ଚକ୍ର (Citric acid cycle) ସଂଘଟିତ ହେଉଥିବା କେଉଁ ଅଙ୍ଗିକାକୁ 'କୋଷର ଶକ୍ତି କେନ୍ଦ୍ର' କୁହାଯାଏ?",
+    "options": [
+      "Mitochondria",
+      "Chloroplast",
+      "Nucleus",
+      "Lysosome"
+    ],
+    "answer": "Mitochondria",
+    "explanation": "The Citric Acid Cycle (Krebs Cycle) and Electron Transport System happen inside the Mitochondria (ମାଇଟୋକଣ୍ଡ୍ରିଆ), generating the maximum amount of cellular energy (ATP)."
+  },
+  {
+    "questionEnglish": "What is the full form of ATP, which is known as the energy currency of the cell?",
+    "questionOdia": "କୋଷର ଶକ୍ତି ମୁଦ୍ରା କୁହାଯାଉଥିବା ATP ର ସମ୍ପୂର୍ଣ୍ଣ ନାମ କଣ?",
+    "options": [
+      "Adenosine Triphosphate",
+      "Adenine Triphosphate",
+      "Adenosine Diphosphate",
+      "Ammonium Triphosphate"
+    ],
+    "answer": "Adenosine Triphosphate",
+    "explanation": "ATP stands for Adenosine Triphosphate. It breaks down into ADP to release energy required to drive various metabolic reactions inside cells."
+  },
+  {
+    "questionEnglish": "Through which respiratory organ do aquatic animals like fishes exchange gases?",
+    "questionOdia": "ମାଛ ଭଳି ଜଳଚର ପ୍ରାଣୀମାନେ ଶ୍ୱାସକ୍ରିୟା ପାଇଁ କେଉଁ ଅଙ୍ଗର ବ୍ୟବହାର କରିଥାନ୍ତି?",
+    "options": [
+      "Gills",
+      "Lungs",
+      "Skin",
+      "Trachea"
+    ],
+    "answer": "Gills",
+    "explanation": "Fishes use Gills (ଗାଲିସି) to extract oxygen dissolved in water and release carbon dioxide back into the aquatic environment."
+  },
+  {
+    "questionEnglish": "What are the tiny air sacs in human lungs where the actual exchange of gases takes place called?",
+    "questionOdia": "ମାନବ ଫୁସଫୁସରେ ଥିବା କେଉଁ କ୍ଷୁଦ୍ର କୋଠରୀ ବା ବାୟୁ-ଥଳୀଗୁଡ଼ିକରେ ପ୍ରକୃତ ଗ୍ୟାସ୍ ବିନିମୟ ହୋଇଥାଏ?",
+    "options": [
+      "Alveoli",
+      "Bronchi",
+      "Nephrons",
+      "Tracheoles"
+    ],
+    "answer": "Alveoli",
+    "explanation": "Alveoli (ବାୟୁ କୋଷିକା) provide a very large, thin surface area rich in blood capillaries for rapid diffusion of Oxygen and Carbon dioxide."
+  },
+  {
+    "questionEnglish": "Which respiratory pigment present in human red blood cells carries oxygen from lungs to tissues?",
+    "questionOdia": "ମାନବ ଲୋହିତ ରକ୍ତ କଣିକାରେ ଥିବା କେଉଁ ଶ୍ୱସନ ରଞ୍ଜକ (Respiratory Pigment) ଅମ୍ଳଜାନ ପରିବହନ କରିଥାଏ?",
+    "options": [
+      "Hemoglobin",
+      "Chlorophyll",
+      "Plasma",
+      "Platelets"
+    ],
+    "answer": "Hemoglobin",
+    "explanation": "Hemoglobin (ହିମୋଗ୍ଲୋବିନ୍) has a very high affinity for oxygen, binding with it to form oxyhemoglobin, which travels throughout the body."
+  },
+  {
+    "questionEnglish": "Through which tiny structures on the leaf surface do plants exchange gases during respiration and photosynthesis?",
+    "questionOdia": "ଉଦ୍ଭିଦ ପତ୍ରର ପୃଷ୍ଠରେ ଥିବା କେଉଁ କ୍ଷୁଦ୍ର ଛିଦ୍ର ମାଧ୍ୟମରେ ଗ୍ୟାସ୍ ବିନିମୟ ସମ୍ପନ୍ନ ହୋଇଥାଏ?",
+    "options": [
+      "Stomata",
+      "Lenticels",
+      "Xylem",
+      "Phloem"
+    ],
+    "answer": "Stomata",
+    "explanation": "Stomata (ସ୍ତୋମ ବା ପତ୍ରରନ୍ଧ୍ର) are tiny pores surrounded by guard cells that regulate the entry and exit of gases and water vapor in plants."
+  }
+]
