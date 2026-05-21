@@ -1,17 +1,5 @@
 [
   {
-    "questionEnglish": "What is Voltage?",
-    "questionOdia": "ଭୋଲ୍ଟେଜ୍ କ'ଣ?",
-    "options": [
-      "Current",
-      "Resistance",
-      "Power",
-      "Potential Difference"
-    ],
-    "answer": "Potential Difference",
-    "explanation": "Voltage is potential difference."
-  },
-  {
     "questionEnglish": "Why was Pluto removed from the list of planets?",
     "questionOdia": "ପ୍ଲୁଟୋକୁ ଗ୍ରହ ତାଲିକାରୁ କାହିଁକି ବାଦ୍ ଦିଆଗଲା?",
     "options": [
