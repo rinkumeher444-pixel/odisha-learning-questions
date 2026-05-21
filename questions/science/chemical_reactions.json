@@ -1,1 +1,122 @@
-
+[
+  {
+    "questionEnglish": "Which of the following is a physical change?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଭୌତିକ ପରିବର୍ତ୍ତନ?",
+    "options": [
+      "Melting of ice",
+      "Rusting of iron",
+      "Burning of wood",
+      "Digestion of food"
+    ],
+    "answer": "Melting of ice",
+    "explanation": "Melting of ice is a physical change because no new chemical substance is formed, and it can be reversed easily."
+  },
+  {
+    "questionEnglish": "What type of chemical reaction is the burning of magnesium ribbon in air?",
+    "questionOdia": "ବାୟୁରେ ମ୍ୟାଗ୍ନେସିୟମ୍ ଫିତା ଜଳିବା କେଉଁ ପ୍ରକାରର ରାସାୟନିକ ପ୍ରତିକ୍ରିୟା?",
+    "options": [
+      "Combination reaction",
+      "Decomposition reaction",
+      "Displacement reaction",
+      "Double displacement reaction"
+    ],
+    "answer": "Combination reaction",
+    "explanation": "Magnesium combines with oxygen to form a single product, magnesium oxide (2Mg + O2 -> 2MgO), which is a combination reaction."
+  },
+  {
+    "questionEnglish": "Which gas is released when zinc reacts with dilute sulphuric acid?",
+    "questionOdia": "ଲଘୁ ସଲଫ୍ୟୁରିକ୍ ଅମ୍ଳ ସହିତ ଜିଙ୍କ୍ ପ୍ରତିକ୍ରିୟା କଲେ କେଉଁ ଗ୍ୟାସ୍ ନିର୍ଗତ ହୁଏ?",
+    "options": [
+      "Hydrogen",
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "answer": "Hydrogen",
+    "explanation": "Zinc displaces hydrogen from sulphuric acid to release hydrogen gas (Zn + H2SO4 -> ZnSO4 + H2)."
+  },
+  {
+    "questionEnglish": "What is the chemical formula of rust?",
+    "questionOdia": "କଳଙ୍କିର ରାସାୟନିକ ସଙ୍କେତ କଣ?",
+    "options": [
+      "Fe2O3 . xH2O",
+      "Fe3O4",
+      "FeO",
+      "FeCl3"
+    ],
+    "answer": "Fe2O3 . xH2O",
+    "explanation": "Rust is hydrated ferric oxide, represented by the chemical formula Fe2O3 . xH2O."
+  },
+  {
+    "questionEnglish": "The reaction in which heat is absorbed is called?",
+    "questionOdia": "ଯେଉଁ ପ୍ରତିକ୍ରିୟାରେ ଉତ୍ତାପ ଶୋଷିତ ହୁଏ, ତାହାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Endothermic reaction",
+      "Exothermic reaction",
+      "Combination reaction",
+      "Oxidation reaction"
+    ],
+    "answer": "Endothermic reaction",
+    "explanation": "Reactions that absorb energy/heat from the surroundings are called endothermic reactions."
+  },
+  {
+    "questionEnglish": "Which of the following gases is used to prevent rancidity in chips packets?",
+    "questionOdia": "ଚିପ୍ସ ପ୍ୟାକେଟକୁ ନଷ୍ଟ ହେବାରୁ ରୋକିବା ପାଇଁ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଗ୍ୟାସ୍ ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "Nitrogen",
+      "Oxygen",
+      "Hydrogen",
+      "Chlorine"
+    ],
+    "answer": "Nitrogen",
+    "explanation": "Nitrogen is an unreactive gas that replaces oxygen to prevent the oxidation of fats and oils in chips."
+  },
+  {
+    "questionEnglish": "What type of reaction is the decomposition of calcium carbonate into calcium oxide and carbon dioxide?",
+    "questionOdia": "କ୍ୟାଲସିୟମ୍ କାର୍ବୋନେଟ୍ ବିଘଟନ ହୋଇ କ୍ୟାଲସିୟମ୍ ଅକ୍ସାଇଡ୍ ଏବଂ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ହେବା କେଉଁ ପ୍ରକାରର ପ୍ରତିକ୍ରିୟା?",
+    "options": [
+      "Thermal decomposition",
+      "Electrolytic decomposition",
+      "Photolytic decomposition",
+      "Displacement"
+    ],
+    "answer": "Thermal decomposition",
+    "explanation": "Since calcium carbonate breaks down upon heating, it is specifically a thermal decomposition reaction."
+  },
+  {
+    "questionEnglish": "The addition of oxygen to a substance is called?",
+    "questionOdia": "ଏକ ପଦାର୍ଥରେ ଅମ୍ଳଜାନ ଯୋଗ ହେବାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Oxidation",
+      "Reduction",
+      "Corrosion",
+      "Precipitation"
+    ],
+    "answer": "Oxidation",
+    "explanation": "Oxidation is defined as the gain/addition of oxygen or the loss of hydrogen during a reaction."
+  },
+  {
+    "questionEnglish": "What color precipitate is formed when lead nitrate reacts with potassium iodide?",
+    "questionOdia": "ଲେଡ୍ ନାଇଟ୍ରେଟ୍ ଏବଂ ପୋଟାସିୟମ୍ ଆୟୋଡାଇଡ୍ ମଧ୍ୟରେ ପ୍ରତିକ୍ରିୟା ହେଲେ କେଉଁ ରଙ୍ଗର ଅବକ୍ଷେପ ସୃଷ୍ଟି ହୁଏ?",
+    "options": [
+      "Yellow",
+      "White",
+      "Blue",
+      "Black"
+    ],
+    "answer": "Yellow",
+    "explanation": "A bright yellow precipitate of lead iodide (PbI2) is formed during this double displacement reaction."
+  },
+  {
+    "questionEnglish": "A balanced chemical equation complies with which law?",
+    "questionOdia": "ଏକ ସମତୁଲ ରାସାୟନିକ ସମୀକରଣ କେଉଁ ନିୟମକୁ ପାଳନ କରେ?",
+    "options": [
+      "Law of conservation of mass",
+      "Law of constant proportions",
+      "Law of multiple proportions",
+      "Boyle's Law"
+    ],
+    "answer": "Law of conservation of mass",
+    "explanation": "Chemical equations are balanced to satisfy the Law of Conservation of Mass, which states mass can neither be created nor destroyed."
+  }
+]
