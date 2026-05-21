@@ -1,1 +1,123 @@
 
+[
+  {
+    "questionEnglish": "How many covalent bonds are present in a molecule of ethane (C2H6)?",
+    "questionOdia": "ଇଥେନ୍ (C2H6) ଅଣୁରେ କେତେଗୋଟି ସହସଂଯୋଜକ ବନ୍ଧନ ଥାଏ?",
+    "options": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "Ethane has 6 Carbon-Hydrogen (C-H) single bonds and 1 Carbon-Carbon (C-C) single bond, making a total of 7 covalent bonds."
+  },
+  {
+    "questionEnglish": "Which allotrope of carbon is the hardest known natural substance?",
+    "questionOdia": "କାର୍ବନର କେଉଁ ଅପରୂପ ପ୍ରାକୃତିକ ପଦାର୍ଥଗୁଡ଼ିକ ମଧ୍ୟରେ ସବୁଠାରୁ କଠିନ?",
+    "options": [
+      "Diamond",
+      "Graphite",
+      "Fullerene",
+      "Coal"
+    ],
+    "answer": "Diamond",
+    "explanation": "Diamond is an allotrope of carbon where each carbon atom is bonded to four other carbon atoms in a rigid 3D structure, making it extremely hard."
+  },
+  {
+    "questionEnglish": "What is the general formula of alkanes?",
+    "questionOdia": "ଆଲକେନ୍ (Alkanes) ର ସାଧାରଣ ସଙ୍କେତ କଣ?",
+    "options": [
+      "CnH2n+2",
+      "CnH2n",
+      "CnH2n-2",
+      "CnH2n+1"
+    ],
+    "answer": "CnH2n+2",
+    "explanation": "Alkanes are saturated hydrocarbons, and their general chemical formula is represented as CnH2n+2."
+  },
+  {
+    "questionEnglish": "Which functional group is present in ethanol?",
+    "questionOdia": "ଇଥାନଲ୍‌ରେ କେଉଁ କ୍ରିୟାଶୀଳ ଗ୍ରୁପ୍ (Functional Group) ଉପସ୍ଥିତ ଥାଏ?",
+    "options": [
+      "-OH (Alcohol)",
+      "-CHO (Aldehyde)",
+      "-COOH (Carboxylic Acid)",
+      "-CO- (Ketone)"
+    ],
+    "answer": "-OH (Alcohol)",
+    "explanation": "Ethanol (C2H5OH) belongs to the alcohol family, which is characterized by the presence of the hydroxyl (-OH) functional group."
+  },
+  {
+    "questionEnglish": "The property of self-linking among carbon atoms to form long chains is called?",
+    "questionOdia": "କାର୍ବନ ପରମାଣୁଗୁଡ଼ିକ ମଧ୍ୟରେ ପରସ୍ପର ସହିତ ଯୋଡ଼ି ହୋଇ ଦୀର୍ଘ ଶୃଙ୍ଖଳ ଗଠନ କରିବାର ଗୁଣକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Catenation",
+      "Isomerism",
+      "Tetravalency",
+      "Allotropy"
+    ],
+    "answer": "Catenation",
+    "explanation": "Catenation is the unique ability of carbon atoms to form stable covalent bonds with other carbon atoms, resulting in long chains or rings."
+  },
+  {
+    "questionEnglish": "What is the main component of Compressed Natural Gas (CNG) and Biogas?",
+    "thought": ""ସି.ଏନ୍.ଜି (CNG) ଏବଂ ବାୟୋଗ୍ୟାସର ମୁଖ୍ୟ ଉପାଦାନ କଣ?",
+    "options": [
+      "Methane",
+      "Ethane",
+      "Propane",
+      "Butane"
+    ],
+    "answer": "Methane",
+    "explanation": "Methane (CH4) is the simplest hydrocarbon and forms the major constituent (around 75-90%) of both CNG and biogas."
+  },
+  {
+    "questionEnglish": "Compounds having the same molecular formula but different structural formulas are called?",
+    "questionOdia": "ଏକା ପ୍ରକାରର ଆଣବିକ ସଙ୍କେତ କିନ୍ତୁ ଭିନ୍ନ ଗଠନମୂଳକ ସଙ୍କେତ ଥିବା ଯୌଗିକଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Isomers",
+      "Allotropes",
+      "Homologues",
+      "Isotopes"
+    ],
+    "answer": "Isomers",
+    "explanation": "Isomers are chemical compounds that share identical chemical formulas but possess distinct structural arrangements of atoms."
+  },
+  {
+    "questionEnglish": "Which substance is formed by the reaction of ethanol with ethanoic acid in the presence of an acid catalyst?",
+    "questionOdia": "ଅମ୍ଳ ଉତ୍ପ୍ରେରକର ଉପସ୍ଥିତିରେ ଇଥାନଲ୍ ଏବଂ ଇଥାନୋଇକ୍ ଅମ୍ଳ ମଧ୍ୟରେ ପ୍ରତିକ୍ରିୟା ହେଲେ କେଉଁ ପଦାର୍ଥ ସୃଷ୍ଟି ହୁଏ?",
+    "options": [
+      "Ester",
+      "Soap",
+      "Alkane",
+      "Alcohol"
+    ],
+    "answer": "Ester",
+    "explanation": "The reaction between an alcohol and a carboxylic acid produces a sweet-smelling substance called an ester, and the process is called esterification."
+  },
+  {
+    "questionEnglish": "What is the hydrophobic part of a soap molecule made of?",
+    "questionOdia": "ସାବୁନ୍ ଅଣୁର ଜଳ-ବିକର୍ଷୀ (Hydrophobic) ଅଂଶଟି କାହା ଦ୍ୱାରା ଗଠିତ?",
+    "options": [
+      "Hydrocarbon chain",
+      "Ionic head",
+      "Oxygen atom",
+      "Sodium ion"
+    ],
+    "answer": "Hydrocarbon chain",
+    "explanation": "A soap molecule has a non-polar hydrocarbon tail which is hydrophobic (repelled by water) and an ionic head which is hydrophilic (attracted to water)."
+  },
+  {
+    "questionEnglish": "Unsaturated hydrocarbons burn with which type of flame?",
+    "questionOdia": "ଅସନ୍ତୃପ୍ତ ହାଇଡ୍ରୋକାର୍ବନଗୁଡ଼ିକ କେଉଁ ପ୍ରକାରର ଶିଖା ସହିତ ଜଳିଥାନ୍ତି?",
+    "options": [
+      "Yellow sooty flame",
+      "Clean blue flame",
+      "Green flame",
+      "Invisible flame"
+    ],
+    "answer": "Yellow sooty flame",
+    "explanation": "Unsaturated hydrocarbons contain a higher percentage of carbon, which does not get completely oxidized in air, resulting in a yellow smoky/sooty flame."
+  }
+]
