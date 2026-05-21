@@ -1,0 +1,122 @@
+[
+  {
+    "questionEnglish": "What is the main excretory organ in the human body?",
+    "questionOdia": "ମାନବ ଶରୀରର ମୁଖ୍ୟ ରେଚନ ଅଙ୍ଗ (Excretory Organ) କଣ?",
+    "options": [
+      "Kidney",
+      "Liver",
+      "Lungs",
+      "Skin"
+    ],
+    "answer": "Kidney",
+    "explanation": "The kidneys (ବୃକ୍କ) are the primary excretory organs in humans responsible for filtering blood and removing nitrogenous waste products in the form of urine."
+  },
+  {
+    "questionEnglish": "What is the structural and functional unit of a kidney called?",
+    "questionOdia": "ବୃକ୍କର ଗଠନମୂଳକ ଓ କ୍ରିୟାତ୍ମକ ଏକକକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Nephron",
+      "Neuron",
+      "Alveoli",
+      "Villi"
+    ],
+    "answer": "Nephron",
+    "explanation": "Each kidney contains millions of microscopic filtering structures called Nephrons (ବୃକ୍କକ) that actively clean the blood and form urine."
+  },
+  {
+    "questionEnglish": "The cup-shaped structure at the upper end of a nephron is known as?",
+    "questionOdia": "ବୃକ୍କକ ବା ନେଫ୍ରନ୍‌ର ଉପର ଭାଗରେ ଥିବା କପ୍ ସଦୃଶ ଗଠନକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Bowman's capsule",
+      "Glomerulus",
+      "Henle's loop",
+      "Ureter"
+    ],
+    "answer": "Bowman's capsule",
+    "explanation": "Bowman's capsule (ବୋମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍) is a double-walled cup that encloses a cluster of blood capillaries called the glomerulus."
+  },
+  {
+    "questionEnglish": "Which nitrogenous waste product is primarily excreted by humans in urine?",
+    "questionOdia": "ମାନବ ମୂତ୍ରରେ ମୁଖ୍ୟତଃ କେଉଁ ଯବକ୍ଷାରଜାନ ଜାତୀୟ ବର୍ଜ୍ୟବସ୍ତୁ ନିର୍ଗତ ହୋଇଥାଏ?",
+    "options": [
+      "Urea",
+      "Ammonia",
+      "Uric acid",
+      "Amino acid"
+    ],
+    "answer": "Urea",
+    "explanation": "The human liver converts highly toxic ammonia into less toxic Urea (ୟୁରିଆ), which is then transported through the blood and filtered out by the kidneys."
+  },
+  {
+    "questionEnglish": "What is the cluster of capillaries located inside the Bowman's capsule called?",
+    "questionOdia": "ବୋମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍ ମଧ୍ୟରେ ଥିବା ରକ୍ତ କୈଶିକ ନଳୀର ଗୁଚ୍ଛକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Glomerulus",
+      "Loop of Henle",
+      "Collecting duct",
+      "Renal artery"
+    ],
+    "answer": "Glomerulus",
+    "explanation": "The Glomerulus (ଗ୍ଲୋମେରୁଲସ୍) acts as a high-pressure microscopic sieve where the initial ultrafiltration of blood plasma takes place."
+  },
+  {
+    "questionEnglish": "Through which muscular tubes does urine travel from the kidneys to the urinary bladder?",
+    "questionOdia": "ମୂତ୍ର ବୃକ୍କରୁ ବାହାରି କେଉଁ ନଳୀ ମାଧ୍ୟମରେ ମୂତ୍ରାଶୟକୁ ଗତି କରିଥାଏ?",
+    "options": [
+      "Ureters",
+      "Urethra",
+      "Renal veins",
+      "Capillaries"
+    ],
+    "answer": "Ureters",
+    "explanation": "Ureters (ଗବିନୀ ମୂତ୍ରନଳୀ) are two thin tubes that connect each kidney to the urinary bladder, moving urine down by peristalsis."
+  },
+  {
+    "questionEnglish": "What is the artificial method of filtering blood when a person's kidneys fail completely?",
+    "questionOdia": "ବୃକ୍କ ସମ୍ପୂର୍ଣ୍ଣ ଅଚଳ ହୋଇଗଲେ କୃତ୍ରିମ ଉପାୟରେ ରକ୍ତ ବିଶୋଧନ କରିବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Dialysis",
+      "Transplantation",
+      "Osmoregulation",
+      "Ultrafiltration"
+    ],
+    "answer": "Dialysis",
+    "explanation": "Dialysis (ଡାୟାଲିସିସ୍) or hemodialysis uses a special machine that mimics kidney function to clear metabolic wastes from a patient's bloodstream."
+  },
+  {
+    "questionEnglish": "Which excretory waste product is stored in the bark of cinchona plant and used as medicine for malaria?",
+    "questionOdia": "ସିଙ୍କୋନା ଉଦ୍ଭିଦର ଛାଲିରେ କେଉଁ ରେଚନ ପଦାର୍ଥ ସଞ୍ଚିତ ହୋଇଥାଏ ଯାହା ମ୍ୟାଲେରିଆ ରୋଗର ଚିକିତ୍ସାରେ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": [
+      "Quinine",
+      "Reserpine",
+      "Nicotine",
+      "Morphine"
+    ],
+    "answer": "Quinine",
+    "explanation": "Quinine (କୁଇନାଇନ୍) is an alkaloid produced by the cinchona tree as a secondary byproduct, which serves as a vital anti-malarial drug medication."
+  },
+  {
+    "questionEnglish": "Through which organs do earthworms perform their excretory process?",
+    "questionOdia": "ଜିଆ (Earthworms) ମାନେ କେଉଁ ଅଙ୍ଗ ସାହାଯ୍ୟରେ ସେମାନଙ୍କର ରେଚନ କ୍ରିୟା ସମ୍ପନ୍ନ କରନ୍ତି?",
+    "options": [
+      "Nephridia",
+      "Malpighian tubules",
+      "Kidneys",
+      "Flame cells"
+    ],
+    "answer": "Nephridia",
+    "explanation": "Earthworms possess specialized tubular structures called Nephridia (ନେଫ୍ରିଡିଆ) distributed across segments to maintain fluid balance and eliminate metabolic waste."
+  },
+  {
+    "questionEnglish": "Which white alkaloid waste from Rauwolfia serpentina (Patalgaruda) plant is used to prepare medicine for high blood pressure?",
+    "questionOdia": "ପାତାଳଗରୁଡ଼ (Rauwolfia serpentina) ଉଦ୍ଭିଦରୁ ମିଳୁଥିବା କେଉଁ ରେଚନ ପଦାର୍ଥ ଉଚ୍ଚ ରକ୍ତଚାପର ଚିକିତ୍ସା ପାଇଁ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": [
+      "Reserpine",
+      "Quinine",
+      "Caffeine",
+      "Tannin"
+    ],
+    "answer": "Reserpine",
+    "explanation": "The roots of the Patalgaruda plant produce the alkaloid Reserpine (ରେସରପିନ୍), which is chemically processed to treat hypertension or high blood pressure."
+  }
+]
