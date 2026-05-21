@@ -1,1 +1,122 @@
-
+[
+  {
+    "questionEnglish": "Which of the following is a biodegradable waste material?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଜୈବ-ନିମ୍ନୀକରଣ ଯୋଗ୍ୟ (Biodegradable) ବର୍ଜ୍ୟବସ୍ତୁ?",
+    "options": [
+      "Peels of vegetables and fruits",
+      "Plastic bags",
+      "Glass bottles",
+      "Aluminum cans"
+    ],
+    "answer": "Peels of vegetables and fruits",
+    "explanation": "Organic matter like fruit and vegetable peels can be broken down into simpler substances by the action of microorganisms like bacteria and fungi."
+  },
+  {
+    "questionEnglish": "What are the organisms that feed on dead and decaying matter to break them down called?",
+    "questionOdia": "ମୃତ ଓ କ୍ଷୟପ୍ରାପ୍ତ ପଦାର୍ଥକୁ ଆହାର କରି ସେଗୁଡ଼ିକୁ ଅପଘଟନ କରୁଥିବା ଜୀବମାନଙ୍କୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Decomposers",
+      "Producers",
+      "Herbivores",
+      "Carnivores"
+    ],
+    "answer": "Decomposers",
+    "explanation": "Decomposers (ଅପଘଟକ), such as bacteria and fungi, break down complex organic matter from dead organisms into simple inorganic nutrients, recycling them into the soil."
+  },
+  {
+    "questionEnglish": "According to the 10% law of energy transfer in a food chain, how much energy is passed to the next trophic level?",
+    "questionOdia": "ଏକ ଖାଦ୍ୟ ଶୃଙ୍ଖଳରେ ଶକ୍ତି ପ୍ରବାହର ୧୦ ପ୍ରତିଶତ ନିୟମ ଅନୁଯାୟୀ, ପରବର୍ତ୍ତୀ ପୋଷୀ ସ୍ତରକୁ କେତେ ପରିମାଣର ଶକ୍ତି ସ୍ଥାନାନ୍ତରିତ ହୋଇଥାଏ?",
+    "options": [
+      "10%",
+      "1%",
+      "50%",
+      "90%"
+    ],
+    "answer": "10%",
+    "explanation": "Lindeman's 10% Law states that only 10% of the organic matter stored as energy at one trophic level is transferred to the next higher level; the rest is lost as heat during respiration and metabolic processes."
+  },
+  {
+    "questionEnglish": "The progressive accumulation of non-biodegradable chemicals like pesticides at each higher trophic level is called?",
+    "questionOdia": "ପ୍ରତ୍ୟେକ ଉଚ୍ଚ ପୋଷୀ ସ୍ତରରେ କୀଟନାଶକ ଭଳି ଜୈବ-ଅନିମ୍ନୀକରଣ ଯୋଗ୍ୟ ରାସାୟନିକ ପଦାର୍ଥର ପରିମାଣ କ୍ରମାଗତ ଭାବେ ବୃଦ୍ଧି ପାଇବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Biomagnification",
+      "Eutrophication",
+      "Biodegradation",
+      "Photosynthesis"
+    ],
+    "answer": "Biomagnification",
+    "explanation": "Biomagnification (ଜୈବ ପରିବର୍ଦ୍ଧନ) occurs because toxic chemicals cannot be metabolized or excreted by organisms, leading to maximum concentration at the topmost trophic level (like humans or eagles)."
+  },
+  {
+    "questionEnglish": "Which chemical is mainly responsible for the depletion of the protective Ozone layer in the atmosphere?",
+    "questionOdia": "ବାୟୁମଣ୍ଡଳରେ ଥିବା ସୁରକ୍ଷାକାରୀ ଓଜୋନ୍ ସ୍ତରର ଅବକ୍ଷୟ ପାଇଁ ମୁଖ୍ୟତଃ କେଉଁ ରାସାୟନିକ ପଦାର୍ଥ ଦାୟୀ?",
+    "options": [
+      "Chlorofluorocarbons (CFCs)",
+      "Carbon dioxide",
+      "Methane",
+      "Nitrogen gas"
+    ],
+    "answer": "Chlorofluorocarbons (CFCs)",
+    "explanation": "Chlorofluorocarbons (CFCs) used in refrigeration and fire extinguishers release chlorine atoms when exposed to UV light, which break down ozone (O3) molecules into oxygen."
+  },
+  {
+    "questionEnglish": "An ecosystem consists of which of the following components?",
+    "questionOdia": "ଏକ ପାରିସଂସ୍ଥା (Ecosystem) ନିମ୍ନଲିଖିତ କେଉଁ ଉପାଦାନଗୁଡ଼ିକୁ ନେଇ ଗଠିତ?",
+    "options": [
+      "Both biotic and abiotic components",
+      "Only living organisms",
+      "Only physical factors",
+      "Only producers and consumers"
+    ],
+    "answer": "Both biotic and abiotic components",
+    "explanation": "An ecosystem includes all living organisms (biotic components like plants, animals, microbes) interacting with their physical environment (abiotic components like soil, water, air, sunlight)."
+  },
+  {
+    "questionEnglish": "Which trophic level do green plants occupy in any food chain?",
+    "questionOdia": "କୌଣସି ଖାଦ୍ୟ ଶୃଙ୍ଖଳରେ ସବୁଜ ଉଦ୍ଭିଦଗୁଡ଼ିକ କେଉଁ ପୋଷୀ ସ୍ତର (Trophic Level) ଗ୍ରହଣ କରନ୍ତି?",
+    "options": [
+      "First trophic level",
+      "Second trophic level",
+      "Third trophic level",
+      "Fourth trophic level"
+    ],
+    "answer": "First trophic level",
+    "explanation": "Green plants are autotrophs or producers (ଉତ୍ପାଦକ) that fix solar energy into chemical energy, forming the foundation or first trophic level of an ecosystem."
+  },
+  {
+    "questionEnglish": "A network of interconnected food chains operating in an ecosystem is known as?",
+    "questionOdia": "ଏକ ପାରିସଂସ୍ଥାରେ ପରସ୍ପର ସହିତ ସଂଯୁକ୍ତ ହୋଇ ରହିଥିବା ଅନେକଗୁଡ଼ିଏ ଖାଦ୍ୟ ଶୃଙ୍ଖଳର ଜାଲକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Food web",
+      "Trophic map",
+      "Ecological pyramid",
+      "Biosphere loop"
+    ],
+    "answer": "Food web",
+    "explanation": "A food web (ଖାଦ୍ୟ ଜାଲ) represents the complex, real-world feeding relationships in an ecosystem, showing that one organism can be consumed by multiple types of organisms."
+  },
+  {
+    "questionEnglish": "What is the molecular formula of Ozone, which shields the Earth from harmful ultraviolet (UV) radiation?",
+    "questionOdia": "ପୃଥିବୀକୁ କ୍ଷତିକାରକ ଅତିବାଇଗଣି ରଶ୍ମିରୁ ରକ୍ଷା କରୁଥିବା ଓଜୋନ୍ ଗ୍ୟାସ୍‌ର ଆଣବିକ ସଙ୍କେତ କଣ?",
+    "options": [
+      "O3",
+      "O2",
+      "O4",
+      "CO2"
+    ],
+    "answer": "O3",
+    "explanation": "Ozone is a triatomic molecule made of three oxygen atoms (O3). It forms a protective layer in the stratosphere that absorbs deadly UV-B and UV-C rays."
+  },
+  {
+    "questionEnglish": "In an ecological pyramid of numbers or energy, which level is always placed at the broad base?",
+    "questionOdia": "ଏକ ପାରିସଂସ୍ଥା ପିରାମିଡ୍‌ର ଚଉଡ଼ା ଆଧାର ବା ତଳ ଭାଗରେ ସଦାସର୍ବଦା କାହାକୁ ରଖାଯାଏ?",
+    "options": [
+      "Producers",
+      "Primary consumers",
+      "Secondary consumers",
+      "Tertiary consumers"
+    ],
+    "answer": "Producers",
+    "explanation": "Producers are placed at the base of ecological pyramids because they have the highest numerical count and possess the maximum trapped energy inside any stable ecosystem."
+  }
+]
