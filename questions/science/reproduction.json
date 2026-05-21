@@ -1,1 +1,122 @@
-
+[
+  {
+    "questionEnglish": "Which type of asexual reproduction is observed in Amoeba?",
+    "questionOdia": "ଅମିବା (Amoeba) ଠାରେ କେଉଁ ପ୍ରକାରର ଅଲିଙ୍ଗୀ ଜନନ ଦେଖାଯାଏ?",
+    "options": [
+      "Binary fission",
+      "Budding",
+      "Fragmentation",
+      "Spore formation"
+    ],
+    "answer": "Binary fission",
+    "explanation": "Amoeba reproduces asexually by binary fission (ଦ୍ୱି-ବିଭାଜନ), where a single mature cell divides into two identical daughter cells."
+  },
+  {
+    "questionEnglish": "Which organism reproduces asexually through the process of budding?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଜୀବ କୋରକୋଦ୍‌ଗମ ବା ବଡିଙ୍ଗ୍ (Budding) ପ୍ରକ୍ରିୟା ଦ୍ୱାରା ଅଲିଙ୍ଗୀ ଜନନ କରିଥାଏ?",
+    "options": [
+      "Hydra",
+      "Amoeba",
+      "Plasmodium",
+      "Spirogyra"
+    ],
+    "answer": "Hydra",
+    "explanation": "Hydra and Yeast reproduce by budding, where a small localized outgrowth or bud develops, matures, and detaches from the parent organism."
+  },
+  {
+    "questionEnglish": "What is the male reproductive part of a flower called?",
+    "questionOdia": "ଫୁଲର ପୁଂ-ଜନନ ଅଙ୍ଗ ବା ପୁରୁଷ ଅଂଶକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Stamen",
+      "Pistil",
+      "Petal",
+      "Sepal"
+    ],
+    "answer": "Stamen",
+    "explanation": "The stamen (ପୁଂକେଶର) is the male reproductive unit consisting of an anther, which produces pollen grains, and a supporting filament."
+  },
+  {
+    "questionEnglish": "The transfer of pollen grains from the anther to the stigma of a flower is called?",
+    "questionOdia": "ଫୁଲର ପରାଗଧାନୀରୁ ପରାଗରେଣୁ ସ୍ଥାନାନ୍ତରିତ ହୋଇ ଗର୍ଭଶୀର୍ଷରେ ପଡ଼ିବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Pollination",
+      "Fertilization",
+      "Germination",
+      "Translocation"
+    ],
+    "answer": "Pollination",
+    "explanation": "Pollination (ପରାଗଣ) is the crucial physical transfer of pollen grains, which can be categorized as self-pollination or cross-pollination."
+  },
+  {
+    "questionEnglish": "How many chromosomes are present in a normal human somatic cell?",
+    "questionOdia": "ଜଣେ ସ୍ୱାଭାବିକ ମାନବର ଶରୀର କୋଷରେ କେତେଗୋଟି ଗୁଣସୂତ୍ର (Chromosomes) ଥାଏ?",
+    "options": [
+      "46",
+      "23",
+      "44",
+      "48"
+    ],
+    "answer": "46",
+    "explanation": "Human body cells contain 46 chromosomes organized into 23 homologous pairs. Out of these, 22 pairs are autosomes and 1 pair is sex chromosomes."
+  },
+  {
+    "questionEnglish": "Where does the fertilization of an egg by a sperm typically take place in the human female reproductive system?",
+    "questionOdia": "ମାନବ ସ୍ତ୍ରୀ-ଜନନ ତନ୍ତ୍ରର କେଉଁ ଅଂଶରେ ଡିମ୍ବାଣୁ ଓ ଶୁକ୍ରାଣୁର ମିଳନ ବା ସମାୟନ (Fertilization) ସମ୍ପନ୍ନ ହୋଇଥାଏ?",
+    "options": [
+      "Fallopian tube (Oviduct)",
+      "Uterus",
+      "Ovary",
+      "Vagina"
+    ],
+    "answer": "Fallopian tube (Oviduct)",
+    "explanation": "Fertilization occurs in the Fallopian tube (ଡିମ୍ବବାହୀ ନଳୀ). The resulting single-celled diploid zygote then travels to settle in the uterus."
+  },
+  {
+    "questionEnglish": "Which virus is responsible for causing the sexually transmitted disease AIDS?",
+    "questionOdia": "ଯୌନ ସଂକ୍ରମିତ ରୋଗ ଏଡ୍‌ସ (AIDS) ପାଇଁ କେଉଁ ଭୂତାଣୁ (Virus) ଦାୟୀ?",
+    "options": [
+      "HIV",
+      "HPV",
+      "Hepatitis B virus",
+      "SARS-CoV-2"
+    ],
+    "answer": "HIV",
+    "explanation": "AIDS is caused by the Human Immunodeficiency Virus (HIV), which breaks down the body's natural immune defense system over time."
+  },
+  {
+    "questionEnglish": "Which female sex hormone is primarily produced by the ovaries to regulate the menstrual cycle?",
+    "questionOdia": "ଋତୁଚକ୍ର ନିୟନ୍ତ୍ରଣ ପାଇଁ ଡିମ୍ବାଶୟରୁ କ୍ଷରିତ ହେଉଥିବା ମୁଖ୍ୟ ସ୍ତ୍ରୀ-ହରମୋନ୍‌ର ନାମ କଣ?",
+    "options": [
+      "Estrogen",
+      "Testosterone",
+      "Adrenaline",
+      "Thyroxin"
+    ],
+    "answer": "Estrogen",
+    "explanation": "Estrogen (ଇଷ୍ଟ୍ରୋଜେନ୍) along with progesterone regulates secondary sexual characteristics and maintains the reproductive cycle in females."
+  },
+  {
+    "questionEnglish": "What is the surgical method of contraception performed in human males?",
+    "questionOdia": "ପୁରୁଷମାନଙ୍କ କ୍ଷେତ୍ରରେ କରାଯାଉଥିବା ସ୍ଥାୟୀ ଗର୍ଭନିରୋଧକ ଶଲ୍ୟ ଚିକିତ୍ସା ପଦ୍ଧତିକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Vasectomy",
+      "Tubectomy",
+      "Copper-T",
+      "Hysterectomy"
+    ],
+    "answer": "Vasectomy",
+    "explanation": "In a vasectomy (ଭାସେକ୍ଟୋମି), a small portion of the vas deferens is cut or tied to block sperm from entering the seminal fluid."
+  },
+  {
+    "questionEnglish": "The method of producing a whole new plant from a small cut piece of vegetative part like stem or root is called?",
+    "questionOdia": "ଉଦ୍ଭିଦର କାଣ୍ଡ ବା ଚେର ଭଳି ଅଙ୍ଗୀୟ ଅଂଶରୁ ଏକ ନୂତନ ଉଦ୍ଭିଦ ସୃଷ୍ଟି ହେବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Vegetative propagation",
+      "Spore formation",
+      "Regeneration",
+      "Tissue culture"
+    ],
+    "answer": "Vegetative propagation",
+    "explanation": "Vegetative propagation (ଅଙ୍ଗୀୟ ପ୍ରଜନନ) is a type of asexual reproduction where structures like roots, stems, or leaves grow into individual plants under favorable conditions."
+  }
+]
