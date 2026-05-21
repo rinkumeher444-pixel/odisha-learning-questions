@@ -1,14 +1,122 @@
 [
   {
-    "questionEnglish": "What is reflection of light?",
-    "questionOdia": "ଆଲୋକର ପ୍ରତିଫଳନ କ'ଣ?",
+    "questionEnglish": "What is the speed of light in a vacuum?",
+    "questionOdia": "ଶୂନ୍ୟସ୍ଥାନରେ ଆଲୋକର ବେଗ କେତେ?",
     "options": [
-      "Bending of light",
-      "Return of light",
-      "Absorption",
-      "Refraction"
+      "3 x 10^8 m/s",
+      "3 x 10^5 m/s",
+      "3 x 10^10 m/s",
+      "3 x 10^6 m/s"
     ],
-    "answer": "Return of light",
-    "explanation": "Reflection means return of light."
+    "answer": "3 x 10^8 m/s",
+    "explanation": "Light travels at its maximum speed in a vacuum, which is approximately 3 x 10^8 meters per second."
+  },
+  {
+    "questionEnglish": "Which type of mirror is commonly used as a rear-view mirror in vehicles?",
+    "questionOdia": "ଯାନବାହନଗୁଡ଼ିକରେ ପଛକୁ ଦେଖିବା ପାଇଁ ସାଧାରଣତଃ କେଉଁ ପ୍ରକାରର ଦର୍ପଣ ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "Convex mirror",
+      "Concave mirror",
+      "Plane mirror",
+      "Bifocal mirror"
+    ],
+    "answer": "Convex mirror",
+    "explanation": "Convex mirrors give an erect, diminished image and have a wider field of view, making them ideal for driver rear-view screens."
+  },
+  {
+    "questionEnglish": "The bending of light when it passes obliquely from one transparent medium to another is called?",
+    "questionOdia": "ଆଲୋକ ରଶ୍ମି ଏକ ସ୍ୱଚ୍ଛ ମାଧ୍ୟମରୁ ଅନ୍ୟ ଏକ ସ୍ୱଚ୍ଛ ମାଧ୍ୟମକୁ ଗତି କଲେ ଏହାର ଗତିପଥରେ ହେଉଥିବା ପରିବର୍ତ୍ତନକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "Refraction",
+      "Reflection",
+      "Dispersion",
+      "Scattering"
+    ],
+    "answer": "Refraction",
+    "explanation": "Refraction is the phenomenon of bending of light when it goes obliquely from one optical medium to another due to a change in its speed."
+  },
+  {
+    "questionEnglish": "What is the relationship between the focal length (f) and radius of curvature (R) of a spherical mirror?",
+    "questionOdia": "ଏକ ଗୋଲକୀୟ ଦର୍ପଣର ବକ୍ରତା ବ୍ୟାସାର୍ଦ୍ଧ (R) ଏବଂ ଫୋକସ୍ ଦୂରତା (f) ମଧ୍ୟରେ ସମ୍ପର୍କ କଣ?",
+    "options": [
+      "R = 2f",
+      "f = 2R",
+      "R = f",
+      "R = f/2"
+    ],
+    "answer": "R = 2f",
+    "explanation": "For spherical mirrors of small apertures, the radius of curvature is found to be exactly twice the focal length (R = 2f)."
+  },
+  {
+    "questionEnglish": "Which lens is also known as a diverging lens?",
+    "questionOdia": "କେଉଁ ଲେନ୍ସକୁ ଅପସାରୀ ଲେନ୍ସ (Diverging Lens) ବୋଲି ମଧ୍ୟ କୁହାଯାଏ?",
+    "options": [
+      "Concave lens",
+      "Convex lens",
+      "Cylindrical lens",
+      "Plano-convex lens"
+    ],
+    "answer": "Concave lens",
+    "explanation": "A concave lens parallel rays of light diverge after refraction, which is why it is called a diverging lens."
+  },
+  {
+    "questionEnglish": "What is the SI unit of the power of a lens?",
+    "questionOdia": "ଲେନ୍ସର ପାୱାର୍ (Power) ର SI ଏକକ କଣ?",
+    "options": [
+      "Dioptre",
+      "Watt",
+      "Meter",
+      "Joule"
+    ],
+    "answer": "Dioptre",
+    "explanation": "The power of a lens is measured in Dioptres (D), which is the reciprocal of the focal length expressed in meters (1 D = 1 m^-1)."
+  },
+  {
+    "questionEnglish": "An image formed by a plane mirror is always?",
+    "questionOdia": "ଏକ ସମତଳ ଦର୍ପଣ ଦ୍ୱାରା ସୃଷ୍ଟି ହେଉଥିବା ପ୍ରତିବିମ୍ବ ସଦାସର୍ବଦା କିପରି ହୋଇଥାଏ?",
+    "options": [
+      "Virtual and erect",
+      "Real and inverted",
+      "Real and erect",
+      "Virtual and inverted"
+    ],
+    "answer": "Virtual and erect",
+    "explanation": "Plane mirrors always form a virtual, upright (erect) image that is laterally inverted and of the same size as the object."
+  },
+  {
+    "questionEnglish": "If the magnification of an image is negative, what does it indicate about the nature of the image?",
+    "questionOdia": "ଯଦି ପ୍ରତିବିମ୍ବର ପରିବର୍ଦ୍ଧନ (Magnification) ଋଣାତ୍ମକ (-) ହୁଏ, ତେବେ ଏହା ପ୍ରତିବିମ୍ବର କେଉଁ ପ୍ରକୃତିକୁ ସୂଚାଏ?",
+    "options": [
+      "Real and inverted",
+      "Virtual and erect",
+      "Real and erect",
+      "Virtual and inverted"
+    ],
+    "answer": "Real and inverted",
+    "explanation": "A negative sign in magnification value signifies that the image formed is real and inverted with respect to the object."
+  },
+  {
+    "questionEnglish": "Which medium has the highest refractive index?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ମାଧ୍ୟମର ପ୍ରତିସରଣାଙ୍କ (Refractive Index) ସବୁଠାରୁ ଅଧିକ?",
+    "options": [
+      "Diamond",
+      "Glass",
+      "Water",
+      "Ice"
+    ],
+    "answer": "Diamond",
+    "explanation": "Diamond has an exceptionally high refractive index of about 2.42, which causes maximum bending and trapping of light inside it."
+  },
+  {
+    "questionEnglish": "Where should an object be placed in front of a convex lens to get a real image of the same size as the object?",
+    "questionOdia": "ଏକ ଉତ୍ତଳ ଲେନ୍ସ ସମ୍ମୁଖରେ ବସ୍ତୁକୁ କେଉଁଠାରେ ରଖିଲେ ବସ୍ତୁ ସହିତ ସମାନ ଆକାରର ଏକ ବାସ୍ତବ ପ୍ରତିବିମ୍ବ ମିଳିବ?",
+    "options": [
+      "At twice the focal length (2F)",
+      "At the focus (F)",
+      "At infinity",
+      "Between optical center and focus"
+    ],
+    "answer": "At twice the focal length (2F)",
+    "explanation": "When an object is placed at 2F1 in front of a convex lens, its real and inverted image of identical size forms at 2F2 on the opposite side."
   }
 ]
