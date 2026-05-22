@@ -1,131 +1,122 @@
 [
   {
-    "questionEnglish": "What is the SI unit of current?",
-    "questionOdia": "କରେଣ୍ଟର SI unit କ'ଣ?",
+    "questionEnglish": "What is the pH value of a neutral solution?",
+    "questionOdia": "ଏକ ପ୍ରଶମିତ ଦ୍ରବଣର pH ମୂଲ୍ୟ କେତେ?",
     "options": [
-      "Volt",
-      "Ampere",
-      "Ohm",
-      "Watt"
+      "7",
+      "0",
+      "14",
+      "less than 7"
     ],
-    "answer": "Ampere",
-    "explanation": "Ampere is the SI unit of electric current."
+    "answer": "7",
+    "explanation": "A neutral solution like pure water has a pH value of exactly 7. Values below 7 are acidic, and above 7 are basic."
   },
-
   {
-    "questionEnglish": "What is the SI unit of resistance?",
-    "questionOdia": "ରେଜିଷ୍ଟାନ୍ସର SI unit କ'ଣ?",
+    "questionEnglish": "Which gas is evolved when an acid reacts with a metal?",
+    "questionOdia": "ଅମ୍ଳ ଏକ ଧାତୁ ସହିତ ପ୍ରତିକ୍ରିୟା କଲେ କେଉଁ ଗ୍ୟାସ୍ ନିର୍ଗତ ହୁଏ?",
     "options": [
-      "Volt",
-      "Ampere",
-      "Ohm",
-      "Coulomb"
+      "Hydrogen",
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen"
     ],
-    "answer": "Ohm",
-    "explanation": "Ohm is the SI unit of resistance."
+    "answer": "Hydrogen",
+    "explanation": "Acids react with active metals to produce salt and hydrogen gas (e.g., Zn + 2HCl -> ZnCl2 + H2)."
   },
-
   {
-    "questionEnglish": "Who discovered electricity?",
-    "questionOdia": "ବିଦ୍ୟୁତ୍ କେ ଆବିଷ୍କାର କରିଥିଲେ?",
+    "questionEnglish": "What is the chemical name of baking soda?",
+    "questionOdia": "ଖାଇବା ସୋଡାର ରାସାୟନିକ ନାମ କଣ?",
     "options": [
-      "Newton",
-      "Einstein",
-      "Benjamin Franklin",
-      "Faraday"
+      "Sodium hydrogen carbonate",
+      "Sodium carbonate",
+      "Calcium carbonate",
+      "Sodium chloride"
     ],
-    "answer": "Benjamin Franklin",
-    "explanation": "Benjamin Franklin is famous for electricity experiments."
+    "answer": "Sodium hydrogen carbonate",
+    "explanation": "Baking soda is chemically known as Sodium hydrogen carbonate or Sodium bicarbonate, and its formula is NaHCO3."
   },
-
   {
-    "questionEnglish": "Which device measures current?",
-    "questionOdia": "କରେଣ୍ଟ ମାପିବା ପାଇଁ କେଉଁ ଯନ୍ତ୍ର ବ୍ୟବହୃତ ହୁଏ?",
+    "questionEnglish": "Which of the following acids is present in sour milk or curd?",
+    "questionOdia": "ଖଟା କ୍ଷୀର ବା ଦହିରେ ନିମ୍ନଲିଖିତ ମଧୁରୁ କେଉଁ ଅମ୍ଳ ଥାଏ?",
     "options": [
-      "Voltmeter",
-      "Ammeter",
-      "Galvanometer",
-      "Thermometer"
+      "Lactic acid",
+      "Citric acid",
+      "Tartaric acid",
+      "Oxalic acid"
     ],
-    "answer": "Ammeter",
-    "explanation": "Ammeter is used to measure electric current."
+    "answer": "Lactic acid",
+    "explanation": "Lactic acid is produced in curd due to the fermentation of lactose sugar by Lactobacillus bacteria."
   },
-
   {
-    "questionEnglish": "Which device measures voltage?",
-    "questionOdia": "ଭୋଲ୍ଟେଜ୍ ମାପିବା ପାଇଁ କେଉଁ ଯନ୍ତ୍ର ବ୍ୟବହୃତ ହୁଏ?",
+    "questionEnglish": "What turns blue litmus paper to red?",
+    "questionOdia": "ନୀଳ ଲିଟମସ କାଗଜକୁ କିଏ ଲାଲ୍ ରଙ୍ଗରେ ପରିଣତ କରେ?",
     "options": [
-      "Voltmeter",
-      "Ammeter",
-      "Barometer",
-      "Ohmmeter"
+      "Acid",
+      "Base",
+      "Salt",
+      "Water"
     ],
-    "answer": "Voltmeter",
-    "explanation": "Voltmeter measures electric potential difference."
+    "answer": "Acid",
+    "explanation": "Acids turn blue litmus paper red, whereas bases turn red litmus paper blue."
   },
-
   {
-    "questionEnglish": "What is the formula of Ohm’s Law?",
-    "questionOdia": "Ohm’s Law ର ସୂତ୍ର କ'ଣ?",
+    "questionEnglish": "What is the chemical formula of Plaster of Paris?",
+    "questionOdia": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସର ରାସାୟନିକ ସଙ୍କେତ କଣ?",
     "options": [
-      "P = VI",
-      "V = IR",
-      "E = mc²",
-      "F = ma"
+      "CaSO4 . 1/2 H2O",
+      "CaSO4 . 2H2O",
+      "CuSO4 . 5H2O",
+      "Na2CO3 . 10H2O"
     ],
-    "answer": "V = IR",
-    "explanation": "Ohm’s law states that V = IR."
+    "answer": "CaSO4 . 1/2 H2O",
+    "explanation": "Plaster of Paris is calcium sulphate hemihydrate, meaning it has half a molecule of water of crystallization."
   },
-
   {
-    "questionEnglish": "Which material is a good conductor?",
-    "questionOdia": "କେଉଁ ପଦାର୍ଥ ଭଲ conductor ଅଟେ?",
+    "questionEnglish": "Which substance is used for disinfecting drinking water to make it free of germs?",
+    "questionOdia": "ପାନୀୟ ଜଳକୁ ଜୀବାଣୁ ମୁକ୍ତ କରିବା ପାଇଁ କେଉଁ ପଦାର୍ଥ ବ୍ୟବହାର କରାଯାଏ?",
     "options": [
-      "Plastic",
-      "Rubber",
-      "Copper",
-      "Wood"
+      "Bleaching powder",
+      "Baking soda",
+      "Washing soda",
+      "Gypsum"
     ],
-    "answer": "Copper",
-    "explanation": "Copper is a good conductor of electricity."
+    "answer": "Bleaching powder",
+    "explanation": "Bleaching powder (CaOCl2) releases chlorine gas, which acts as a powerful disinfectant to kill germs in water."
   },
-
   {
-    "questionEnglish": "What is the SI unit of power?",
-    "questionOdia": "Power ର SI unit କ'ଣ?",
+    "questionEnglish": "What is the reaction between an acid and a base called?",
+    "questionOdia": "ଅମ୍ଳ ଏବଂ କ୍ଷାରକ ମଧ୍ୟରେ ହେଉଥିବା ପ୍ରତିକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
     "options": [
-      "Joule",
-      "Watt",
-      "Volt",
-      "Ampere"
+      "Neutralization reaction",
+      "Combination reaction",
+      "Displacement reaction",
+      "Redox reaction"
     ],
-    "answer": "Watt",
-    "explanation": "Watt is the SI unit of power."
+    "answer": "Neutralization reaction",
+    "explanation": "The reaction between an acid and a base forms salt and water, and it is known as a neutralization reaction."
   },
-
   {
-    "questionEnglish": "Which energy is converted in an electric bulb?",
-    "questionOdia": "Electric bulb ରେ କେଉଁ energy conversion ହୁଏ?",
+    "questionEnglish": "What is the nature of non-metallic oxides?",
+    "questionOdia": "ଅଧାତବ ଅକ୍ସାଇଡଗୁଡ଼ିକର ପ୍ରକୃତି କିପରି ହୋଇଥାଏ?",
     "options": [
-      "Mechanical to Electrical",
-      "Electrical to Light",
-      "Heat to Electrical",
-      "Chemical to Heat"
+      "Acidic",
+      "Basic",
+      "Neutral",
+      "Amphoteric"
     ],
-    "answer": "Electrical to Light",
-    "explanation": "Bulb converts electrical energy into light energy."
+    "answer": "Acidic",
+    "explanation": "Non-metallic oxides (like CO2, SO2) are acidic in nature because they react with water to form acids."
   },
-
   {
-    "questionEnglish": "What is a fuse used for?",
-    "questionOdia": "Fuse କାହିଁକି ବ୍ୟବହୃତ ହୁଏ?",
+    "questionEnglish": "Our stomach produces which acid that helps in digestion without harming the stomach?",
+    "questionOdia": "ଆମ ପାକସ୍ଥଳୀ କେଉଁ ଅମ୍ଳ ପ୍ରସ୍ତୁତ କରେ ଯାହା ହଜମ ପ୍ରକ୍ରିୟାରେ ସାହାଯ୍ୟ କରିଥାଏ?",
     "options": [
-      "Increase current",
-      "Measure voltage",
-      "Protect circuit",
-      "Store charge"
+      "Hydrochloric acid",
+      "Sulphuric acid",
+      "Nitric acid",
+      "Acetic acid"
     ],
-    "answer": "Protect circuit",
-    "explanation": "Fuse protects circuit from overcurrent."
+    "answer": "Hydrochloric acid",
+    "explanation": "The gastric glands in our stomach release Hydrochloric acid (HCl), which creates an acidic medium needed for the enzyme pepsin to digest protein."
   }
 ]
