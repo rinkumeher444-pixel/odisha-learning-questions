@@ -1,1 +1,131 @@
+[
+  {
+    "questionEnglish": "What is the SI unit of current?",
+    "questionOdia": "କରେଣ୍ଟର SI unit କ'ଣ?",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Watt"
+    ],
+    "answer": "Ampere",
+    "explanation": "Ampere is the SI unit of electric current."
+  },
 
+  {
+    "questionEnglish": "What is the SI unit of resistance?",
+    "questionOdia": "ରେଜିଷ୍ଟାନ୍ସର SI unit କ'ଣ?",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Coulomb"
+    ],
+    "answer": "Ohm",
+    "explanation": "Ohm is the SI unit of resistance."
+  },
+
+  {
+    "questionEnglish": "Who discovered electricity?",
+    "questionOdia": "ବିଦ୍ୟୁତ୍ କେ ଆବିଷ୍କାର କରିଥିଲେ?",
+    "options": [
+      "Newton",
+      "Einstein",
+      "Benjamin Franklin",
+      "Faraday"
+    ],
+    "answer": "Benjamin Franklin",
+    "explanation": "Benjamin Franklin is famous for electricity experiments."
+  },
+
+  {
+    "questionEnglish": "Which device measures current?",
+    "questionOdia": "କରେଣ୍ଟ ମାପିବା ପାଇଁ କେଉଁ ଯନ୍ତ୍ର ବ୍ୟବହୃତ ହୁଏ?",
+    "options": [
+      "Voltmeter",
+      "Ammeter",
+      "Galvanometer",
+      "Thermometer"
+    ],
+    "answer": "Ammeter",
+    "explanation": "Ammeter is used to measure electric current."
+  },
+
+  {
+    "questionEnglish": "Which device measures voltage?",
+    "questionOdia": "ଭୋଲ୍ଟେଜ୍ ମାପିବା ପାଇଁ କେଉଁ ଯନ୍ତ୍ର ବ୍ୟବହୃତ ହୁଏ?",
+    "options": [
+      "Voltmeter",
+      "Ammeter",
+      "Barometer",
+      "Ohmmeter"
+    ],
+    "answer": "Voltmeter",
+    "explanation": "Voltmeter measures electric potential difference."
+  },
+
+  {
+    "questionEnglish": "What is the formula of Ohm’s Law?",
+    "questionOdia": "Ohm’s Law ର ସୂତ୍ର କ'ଣ?",
+    "options": [
+      "P = VI",
+      "V = IR",
+      "E = mc²",
+      "F = ma"
+    ],
+    "answer": "V = IR",
+    "explanation": "Ohm’s law states that V = IR."
+  },
+
+  {
+    "questionEnglish": "Which material is a good conductor?",
+    "questionOdia": "କେଉଁ ପଦାର୍ଥ ଭଲ conductor ଅଟେ?",
+    "options": [
+      "Plastic",
+      "Rubber",
+      "Copper",
+      "Wood"
+    ],
+    "answer": "Copper",
+    "explanation": "Copper is a good conductor of electricity."
+  },
+
+  {
+    "questionEnglish": "What is the SI unit of power?",
+    "questionOdia": "Power ର SI unit କ'ଣ?",
+    "options": [
+      "Joule",
+      "Watt",
+      "Volt",
+      "Ampere"
+    ],
+    "answer": "Watt",
+    "explanation": "Watt is the SI unit of power."
+  },
+
+  {
+    "questionEnglish": "Which energy is converted in an electric bulb?",
+    "questionOdia": "Electric bulb ରେ କେଉଁ energy conversion ହୁଏ?",
+    "options": [
+      "Mechanical to Electrical",
+      "Electrical to Light",
+      "Heat to Electrical",
+      "Chemical to Heat"
+    ],
+    "answer": "Electrical to Light",
+    "explanation": "Bulb converts electrical energy into light energy."
+  },
+
+  {
+    "questionEnglish": "What is a fuse used for?",
+    "questionOdia": "Fuse କାହିଁକି ବ୍ୟବହୃତ ହୁଏ?",
+    "options": [
+      "Increase current",
+      "Measure voltage",
+      "Protect circuit",
+      "Store charge"
+    ],
+    "answer": "Protect circuit",
+    "explanation": "Fuse protects circuit from overcurrent."
+  }
+]
