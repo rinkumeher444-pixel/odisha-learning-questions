@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Electric Current",
+    "content": "Electric current is the flow of electric charge through a conductor."
+  },
+
+  {
+    "title": "Ohm's Law",
+    "content": "According to Ohm's law, V = IR where V is voltage, I is current and R is resistance."
+  },
+
+  {
+    "title": "Resistance",
+    "content": "Resistance is the opposition offered to the flow of electric current."
+  },
+
+  {
+    "title": "Heating Effect",
+    "content": "When electric current passes through a conductor, heat is produced."
+  }
+]
