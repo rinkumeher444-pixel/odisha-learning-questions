@@ -1,23 +1,21 @@
-{
-  "channel_id": 101,
-  "channel_name": "Odia Globe News",
-  "owner": {
-    "first_name": "Ramesh",
-    "last_name": "Dash",
-    "experience_years": 5
+[
+  {
+    "title": "Electric Current",
+    "content": "Electric current is the flow of electric charge through a conductor."
   },
-  "is_monetized": true,
-  "subscribers": 75000,
-  "languages": ["Odia", "English"],
-  "categories": [
-    {
-      "type": "National",
-      "daily_videos": 3
-    },
-    {
-      "type": "International",
-      "daily_videos": 2
-    }
-  ],
-  "verification_badge": null
-}
+
+  {
+    "title": "Ohm's Law",
+    "content": "According to Ohm's law, V = IR where V is voltage, I is current and R is resistance."
+  },
+
+  {
+    "title": "Resistance",
+    "content": "Resistance is the opposition offered to the flow of electric current."
+  },
+
+  {
+    "title": "Heating Effect",
+    "content": "When electric current passes through a conductor, heat is produced."
+  }
+]
