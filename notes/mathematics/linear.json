@@ -1,1 +1,23 @@
-kwgeifgwiefghasb jhv iuas vjh va s lk svg
+{
+  "channel_id": 101,
+  "channel_name": "Odia Globe News",
+  "owner": {
+    "first_name": "Ramesh",
+    "last_name": "Dash",
+    "experience_years": 5
+  },
+  "is_monetized": true,
+  "subscribers": 75000,
+  "languages": ["Odia", "English"],
+  "categories": [
+    {
+      "type": "National",
+      "daily_videos": 3
+    },
+    {
+      "type": "International",
+      "daily_videos": 2
+    }
+  ],
+  "verification_badge": null
+}
