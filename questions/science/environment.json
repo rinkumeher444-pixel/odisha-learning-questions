@@ -1,122 +1,1346 @@
 [
-  {
-    "questionEnglish": "Which of the following is a biodegradable waste material?",
-    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଜୈବ-ନିମ୍ନୀକରଣ ଯୋଗ୍ୟ (Biodegradable) ବର୍ଜ୍ୟବସ୍ତୁ?",
-    "options": [
-      "Peels of vegetables and fruits",
-      "Plastic bags",
-      "Glass bottles",
-      "Aluminum cans"
-    ],
-    "answer": "Peels of vegetables and fruits",
-    "explanation": "Organic matter like fruit and vegetable peels can be broken down into simpler substances by the action of microorganisms like bacteria and fungi."
-  },
-  {
-    "questionEnglish": "What are the organisms that feed on dead and decaying matter to break them down called?",
-    "questionOdia": "ମୃତ ଓ କ୍ଷୟପ୍ରାପ୍ତ ପଦାର୍ଥକୁ ଆହାର କରି ସେଗୁଡ଼ିକୁ ଅପଘଟନ କରୁଥିବା ଜୀବମାନଙ୍କୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Decomposers",
-      "Producers",
-      "Herbivores",
-      "Carnivores"
-    ],
-    "answer": "Decomposers",
-    "explanation": "Decomposers (ଅପଘଟକ), such as bacteria and fungi, break down complex organic matter from dead organisms into simple inorganic nutrients, recycling them into the soil."
-  },
-  {
-    "questionEnglish": "According to the 10% law of energy transfer in a food chain, how much energy is passed to the next trophic level?",
-    "questionOdia": "ଏକ ଖାଦ୍ୟ ଶୃଙ୍ଖଳରେ ଶକ୍ତି ପ୍ରବାହର ୧୦ ପ୍ରତିଶତ ନିୟମ ଅନୁଯାୟୀ, ପରବର୍ତ୍ତୀ ପୋଷୀ ସ୍ତରକୁ କେତେ ପରିମାଣର ଶକ୍ତି ସ୍ଥାନାନ୍ତରିତ ହୋଇଥାଏ?",
-    "options": [
-      "10%",
-      "1%",
-      "50%",
-      "90%"
-    ],
-    "answer": "10%",
-    "explanation": "Lindeman's 10% Law states that only 10% of the organic matter stored as energy at one trophic level is transferred to the next higher level; the rest is lost as heat during respiration and metabolic processes."
-  },
-  {
-    "questionEnglish": "The progressive accumulation of non-biodegradable chemicals like pesticides at each higher trophic level is called?",
-    "questionOdia": "ପ୍ରତ୍ୟେକ ଉଚ୍ଚ ପୋଷୀ ସ୍ତରରେ କୀଟନାଶକ ଭଳି ଜୈବ-ଅନିମ୍ନୀକରଣ ଯୋଗ୍ୟ ରାସାୟନିକ ପଦାର୍ଥର ପରିମାଣ କ୍ରମାଗତ ଭାବେ ବୃଦ୍ଧି ପାଇବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Biomagnification",
-      "Eutrophication",
-      "Biodegradation",
-      "Photosynthesis"
-    ],
-    "answer": "Biomagnification",
-    "explanation": "Biomagnification (ଜୈବ ପରିବର୍ଦ୍ଧନ) occurs because toxic chemicals cannot be metabolized or excreted by organisms, leading to maximum concentration at the topmost trophic level (like humans or eagles)."
-  },
-  {
-    "questionEnglish": "Which chemical is mainly responsible for the depletion of the protective Ozone layer in the atmosphere?",
-    "questionOdia": "ବାୟୁମଣ୍ଡଳରେ ଥିବା ସୁରକ୍ଷାକାରୀ ଓଜୋନ୍ ସ୍ତରର ଅବକ୍ଷୟ ପାଇଁ ମୁଖ୍ୟତଃ କେଉଁ ରାସାୟନିକ ପଦାର୍ଥ ଦାୟୀ?",
-    "options": [
-      "Chlorofluorocarbons (CFCs)",
-      "Carbon dioxide",
-      "Methane",
-      "Nitrogen gas"
-    ],
-    "answer": "Chlorofluorocarbons (CFCs)",
-    "explanation": "Chlorofluorocarbons (CFCs) used in refrigeration and fire extinguishers release chlorine atoms when exposed to UV light, which break down ozone (O3) molecules into oxygen."
-  },
-  {
-    "questionEnglish": "An ecosystem consists of which of the following components?",
-    "questionOdia": "ଏକ ପାରିସଂସ୍ଥା (Ecosystem) ନିମ୍ନଲିଖିତ କେଉଁ ଉପାଦାନଗୁଡ଼ିକୁ ନେଇ ଗଠିତ?",
-    "options": [
-      "Both biotic and abiotic components",
-      "Only living organisms",
-      "Only physical factors",
-      "Only producers and consumers"
-    ],
-    "answer": "Both biotic and abiotic components",
-    "explanation": "An ecosystem includes all living organisms (biotic components like plants, animals, microbes) interacting with their physical environment (abiotic components like soil, water, air, sunlight)."
-  },
-  {
-    "questionEnglish": "Which trophic level do green plants occupy in any food chain?",
-    "questionOdia": "କୌଣସି ଖାଦ୍ୟ ଶୃଙ୍ଖଳରେ ସବୁଜ ଉଦ୍ଭିଦଗୁଡ଼ିକ କେଉଁ ପୋଷୀ ସ୍ତର (Trophic Level) ଗ୍ରହଣ କରନ୍ତି?",
-    "options": [
-      "First trophic level",
-      "Second trophic level",
-      "Third trophic level",
-      "Fourth trophic level"
-    ],
-    "answer": "First trophic level",
-    "explanation": "Green plants are autotrophs or producers (ଉତ୍ପାଦକ) that fix solar energy into chemical energy, forming the foundation or first trophic level of an ecosystem."
-  },
-  {
-    "questionEnglish": "A network of interconnected food chains operating in an ecosystem is known as?",
-    "questionOdia": "ଏକ ପାରିସଂସ୍ଥାରେ ପରସ୍ପର ସହିତ ସଂଯୁକ୍ତ ହୋଇ ରହିଥିବା ଅନେକଗୁଡ଼ିଏ ଖାଦ୍ୟ ଶୃଙ୍ଖଳର ଜାଲକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Food web",
-      "Trophic map",
-      "Ecological pyramid",
-      "Biosphere loop"
-    ],
-    "answer": "Food web",
-    "explanation": "A food web (ଖାଦ୍ୟ ଜାଲ) represents the complex, real-world feeding relationships in an ecosystem, showing that one organism can be consumed by multiple types of organisms."
-  },
-  {
-    "questionEnglish": "What is the molecular formula of Ozone, which shields the Earth from harmful ultraviolet (UV) radiation?",
-    "questionOdia": "ପୃଥିବୀକୁ କ୍ଷତିକାରକ ଅତିବାଇଗଣି ରଶ୍ମିରୁ ରକ୍ଷା କରୁଥିବା ଓଜୋନ୍ ଗ୍ୟାସ୍‌ର ଆଣବିକ ସଙ୍କେତ କଣ?",
-    "options": [
-      "O3",
-      "O2",
-      "O4",
-      "CO2"
-    ],
-    "answer": "O3",
-    "explanation": "Ozone is a triatomic molecule made of three oxygen atoms (O3). It forms a protective layer in the stratosphere that absorbs deadly UV-B and UV-C rays."
-  },
-  {
-    "questionEnglish": "In an ecological pyramid of numbers or energy, which level is always placed at the broad base?",
-    "questionOdia": "ଏକ ପାରିସଂସ୍ଥା ପିରାମିଡ୍‌ର ଚଉଡ଼ା ଆଧାର ବା ତଳ ଭାଗରେ ସଦାସର୍ବଦା କାହାକୁ ରଖାଯାଏ?",
-    "options": [
-      "Producers",
-      "Primary consumers",
-      "Secondary consumers",
-      "Tertiary consumers"
-    ],
-    "answer": "Producers",
-    "explanation": "Producers are placed at the base of ecological pyramids because they have the highest numerical count and possess the maximum trapped energy inside any stable ecosystem."
-  }
+{
+"questionEnglish": "What is the basic unit of an ecosystem?",
+"questionOdia": "ପରିବେଶର ମୌଳିକ ଏକକ କଣ?",
+"options": [
+"ଜୀବ",
+"ଜୈବିକ ଏବଂ ଅଜୈବିକ ଉପାଦାନ",
+"କେବଳ ଜୀବ",
+"କେବଳ ପରିବେଶ"
+],
+"answer": "ଜୈବିକ ଏବଂ ଅଜୈବିକ ଉପାଦାନ",
+"explanation": "ଜୈବିକ ଓ ଅଜୈବିକ ଉପାଦାନମାନଙ୍କର ପାରସ୍ପରିକ ସମ୍ପର୍କକୁ ନେଇ ପରିବେଶ ଗଠିତ।"
+},
+{
+"questionEnglish": "Which of the following is an artificial ecosystem?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି କୃତ୍ରିମ ପରିବେଶ?",
+"options": [
+"ବଣ",
+"ନଦୀ",
+"ଉଦ୍ୟାନ",
+"ସମୁଦ୍ର"
+],
+"answer": "ଉଦ୍ୟାନ",
+"explanation": "ଉଦ୍ୟାନ ମଣିଷ ଦ୍ଵାରା ନିର୍ମିତ ହୋଇଥିବାରୁ ଏହା ଏକ କୃତ୍ରିମ ପରିବେଶ।"
+},
+{
+"questionEnglish": "Who are the producers in an ecosystem?",
+"questionOdia": "ପରିବେଶରେ ଉତ୍ପାଦକ କିଏ?",
+"options": [
+"ପ୍ରାଣୀ",
+"ଉଦ୍ଭିଦ",
+"ବ୍ୟାକ୍ଟେରିଆ",
+"କବକ"
+],
+"answer": "ଉଦ୍ଭିଦ",
+"explanation": "ଉଦ୍ଭିଦ ସୂର୍ଯ୍ୟାଲୋକ ବ୍ୟବହାର କରି ନିଜ ଖାଦ୍ୟ ନିଜେ ପ୍ରସ୍ତୁତ କରନ୍ତି, ତେଣୁ ସେମାନେ ଉତ୍ପାଦକ।"
+},
+{
+"questionEnglish": "Which organism is a decomposer?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ବିଘଟକ?",
+"options": [
+"ଘାସ",
+"ହରିଣ",
+"ସିଂହ",
+"ବ୍ୟାକ୍ଟେରିଆ"
+],
+"answer": "ବ୍ୟାକ୍ଟେରିଆ",
+"explanation": "ବ୍ୟାକ୍ଟେରିଆ ଓ କବକ ମୃତ ଜୀବଙ୍କୁ ବିଘଟନ କରି ସାରରେ ପରିଣତ କରନ୍ତି, ତେଣୁ ସେମାନେ ବିଘଟକ।"
+},
+{
+"questionEnglish": "What is the source of energy in food chain?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳାରେ ଶକ୍ତିର ମୂଳ ଉତ୍ସ କଣ?",
+"options": [
+"କୋଇଲା",
+"ସୂର୍ଯ୍ୟ",
+"ପବନ",
+"ଜଳ"
+],
+"answer": "ସୂର୍ଯ୍ୟ",
+"explanation": "ସୂର୍ଯ୍ୟ ହେଉଛି ପୃଥିବୀରେ ସମସ୍ତ ଶକ୍ତିର ଚରମ ଉତ୍ସ।"
+},
+{
+"questionEnglish": "Which is an example of a herbivore?",
+"questionOdia": "ତୃଣଭୋଜୀର ଉଦାହରଣ କଣ?",
+"options": [
+"ବାଘ",
+"ସିଂହ",
+"ହରିଣ",
+"ବିରାଡ଼ି"
+],
+"answer": "ହରିଣ",
+"explanation": "ହରିଣ କେବଳ ଉଦ୍ଭିଦ ଖାଉଥିବାରୁ ଏହା ଏକ ତୃଣଭୋଜୀ।"
+},
+{
+"questionEnglish": "What is biological magnification?",
+"questionOdia": "ଜୈବ ବିବର୍ଦ୍ଧନ କହିଲେ କଣ ବୁଝାଏ?",
+"options": [
+"ଖାଦ୍ୟ ଶୃଙ୍ଖଳାରେ ବିଷାକ୍ତ ପଦାର୍ଥର ମାତ୍ରା ବଢ଼ିବା",
+"ଜୀବଙ୍କ ସଂଖ୍ୟା ବଢ଼ିବା",
+"ଉଦ୍ଭିଦ ବଢ଼ିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳାରେ ବିଷାକ୍ତ ପଦାର୍ଥର ମାତ୍ରା ବଢ଼ିବା",
+"explanation": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳାର ଉପର ସ୍ତରକୁ ଗଲା ବେଳେ ବିଷାକ୍ତ ପଦାର୍ଥର ସାନ୍ଦ୍ରତା ବଢ଼ିବାର ପ୍ରକ୍ରିୟାକୁ ଜୈବ ବିବର୍ଦ୍ଧନ କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "Which layer protects the Earth from UV radiation?",
+"questionOdia": "କେଉଁ ସ୍ତର ପୃଥିବୀକୁ ଅଲ୍ଟ୍ରାଭାୟୋଲେଟ୍ ରଶ୍ମିରୁ ରକ୍ଷା କରେ?",
+"options": [
+"ଅମ୍ଳଜାନ",
+"ଓଜୋନ୍",
+"ନାଇଟ୍ରୋଜେନ୍",
+"ହାଇଡ୍ରୋଜେନ୍"
+],
+"answer": "ଓଜୋନ୍",
+"explanation": "ଓଜୋନ୍ ସ୍ତର ସୂର୍ଯ୍ୟଙ୍କର କ୍ଷତିକାରକ ଅଲ୍ଟ୍ରାଭାୟୋଲେଟ୍ ରଶ୍ମିକୁ ପୃଥିବୀକୁ ଆସିବାକୁ ଦିଏ ନାହିଁ।"
+},
+{
+"questionEnglish": "What happens to the amount of energy at each trophic level?",
+"questionOdia": "ପ୍ରତ୍ୟେକ ପୋଷଣ ସ୍ତରରେ ଶକ୍ତିର ପରିମାଣ କଣ ହୁଏ?",
+"options": [
+"ବଢ଼େ",
+"କମିଯାଏ",
+"ସମାନ ରହେ",
+"କିଛି ହୁଏ ନାହିଁ"
+],
+"answer": "କମିଯାଏ",
+"explanation": "ଶକ୍ତି ଗୋଟିଏ ସ୍ତରରୁ ଅନ୍ୟ ସ୍ତରକୁ ଗଲାବେଳେ ପ୍ରାୟ 90% ଅପଚୟ ହୁଏ, ତେଣୁ ଶକ୍ତି କମିଯାଏ।"
+},
+{
+"questionEnglish": "Which gas is mainly responsible for ozone layer depletion?",
+"questionOdia": "ଓଜୋନ୍ ସ୍ତର କ୍ଷୟ ପାଇଁ ମୁଖ୍ୟତଃ କେଉଁ ଗ୍ୟାସ୍ ଦାୟୀ?",
+"options": [
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"କ୍ଲୋରୋଫ୍ଲୋରୋ କାର୍ବନ (CFC)",
+"ମିଥେନ୍",
+"ଅମ୍ଳଜାନ"
+],
+"answer": "କ୍ଲୋରୋଫ୍ଲୋରୋ କାର୍ବନ (CFC)",
+"explanation": "CFC ଗ୍ୟାସ୍ ଓଜୋନ୍ ଅଣୁକୁ ଭାଙ୍ଗି ଦିଏ, ଯାହା ଓଜୋନ୍ କ୍ଷୟ କରାଏ।"
+},
+{
+"questionEnglish": "What is the percentage of solar energy trapped by green plants?",
+"questionOdia": "ସବୁଜ ଉଦ୍ଭିଦ ସୂର୍ଯ୍ୟ ଶକ୍ତିର କେତେ ପ୍ରତିଶତ ଖାଦ୍ୟ ପ୍ରସ୍ତୁତରେ ବ୍ୟବହାର କରନ୍ତି?",
+"options": [
+"1%",
+"10%",
+"50%",
+"100%"
+],
+"answer": "1%",
+"explanation": "ସବୁଜ ଉଦ୍ଭିଦ ସୂର୍ଯ୍ୟାଲୋକର ମାତ୍ର 1% ଶକ୍ତିକୁ ରାସାୟନିକ ଶକ୍ତିରେ ପରିଣତ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Which of these is a biodegradable waste?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଜୈବ ବିଘଟନଯୋଗ୍ୟ ବର୍ଜ୍ୟବସ୍ତୁ?",
+"options": [
+"ପ୍ଲାଷ୍ଟିକ",
+"କାଚ",
+"ଫଳର ଚୋପା",
+"ଧାତୁ"
+],
+"answer": "ଫଳର ଚୋପା",
+"explanation": "ଫଳର ଚୋପା ସହଜରେ ପ୍ରାକୃତିକ ଭାବେ ବିଘଟନ ହୋଇପାରିବ, ତେଣୁ ଏହା ଜୈବ ବିଘଟନଯୋଗ୍ୟ।"
+},
+{
+"questionEnglish": "What is an ecosystem?",
+"questionOdia": "ପରିବେଶ ତନ୍ତ୍ର କଣ?",
+"options": [
+"ଜୀବ ଓ ଅଜୀବର ପାରସ୍ପରିକ ସମ୍ପର୍କ",
+"କେବଳ ଜୀବ",
+"କେବଳ ଅଜୀବ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜୀବ ଓ ଅଜୀବର ପାରସ୍ପରିକ ସମ୍ପର୍କ",
+"explanation": "ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ଅଞ୍ଚଳରେ ଜୀବ ଓ ଅଜୈବ ଉପାଦାନଙ୍କ ଭିତରେ ଥିବା ସମ୍ପର୍କକୁ ପରିବେଶ ତନ୍ତ୍ର କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which organisms are carnivores?",
+"questionOdia": "ମାଂସାଶୀ ପ୍ରାଣୀ କିଏ?",
+"options": [
+"ଛେଳି",
+"ଗାଈ",
+"ବାଘ",
+"ହରିଣ"
+],
+"answer": "ବାଘ",
+"explanation": "ବାଘ ଅନ୍ୟ ପ୍ରାଣୀଙ୍କୁ ଖାଉଥିବାରୁ ଏହା ମାଂସାଶୀ।"
+},
+{
+"questionEnglish": "What is the flow of energy in an ecosystem?",
+"questionOdia": "ପରିବେଶରେ ଶକ୍ତିର ପ୍ରବାହ କିପରି?",
+"options": [
+"ଦିଗହୀନ",
+"ଏକ ଦିଗବିଶିଷ୍ଟ",
+"ଦ୍ଵି-ଦିଗବିଶିଷ୍ଟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏକ ଦିଗବିଶିଷ୍ଟ",
+"explanation": "ଶକ୍ତି ସବୁବେଳେ ଉତ୍ପାଦକରୁ ଖାଦକ ଆଡ଼କୁ ଏକ ଦିଗରେ ପ୍ରବାହିତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which of these is a non-biodegradable waste?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଜୈବ ଅବିଘଟନଯୋଗ୍ୟ?",
+"options": [
+"କାଗଜ",
+"ପ୍ଲାଷ୍ଟିକ",
+"ଗୋବର",
+"କାଠ"
+],
+"answer": "ପ୍ଲାଷ୍ଟିକ",
+"explanation": "ପ୍ଲାଷ୍ଟିକ ପ୍ରାକୃତିକ ଭାବେ ବିଘଟନ ହୁଏ ନାହିଁ, ତେଣୁ ଏହା ଜୈବ ଅବିଘଟନଯୋଗ୍ୟ।"
+},
+{
+"questionEnglish": "What is the trophic level of humans in a food chain?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳାରେ ମଣିଷ କେଉଁ ପୋଷଣ ସ୍ତରରେ ଥାଏ?",
+"options": [
+"ପ୍ରଥମ",
+"ଦ୍ଵିତୀୟ",
+"ଉଭୟ ଦ୍ଵିତୀୟ ଓ ତୃତୀୟ ବା ଅଧିକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ ଦ୍ଵିତୀୟ ଓ ତୃତୀୟ ବା ଅଧିକ",
+"explanation": "ମଣିଷ ଉଦ୍ଭିଦ ଓ ପ୍ରାଣୀ ଉଭୟ ଖାଉଥିବାରୁ ଏହା ଖାଦ୍ୟ ଶୃଙ୍ଖଳାର ବିଭିନ୍ନ ସ୍ତରରେ ରହିପାରେ।"
+},
+{
+"questionEnglish": "Where is ozone layer mainly located?",
+"questionOdia": "ଓଜୋନ୍ ସ୍ତର ମୁଖ୍ୟତଃ କେଉଁଠାରେ ଥାଏ?",
+"options": [
+"ଟ୍ରୋପୋସ୍ଫିୟର",
+"ଷ୍ଟ୍ରାଟୋସ୍ଫିୟର",
+"ମେସୋସ୍ଫିୟର",
+"ଆୟନୋସ୍ଫିୟର"
+],
+"answer": "ଷ୍ଟ୍ରାଟୋସ୍ଫିୟର",
+"explanation": "ଓଜୋନ୍ ସ୍ତର ବାୟୁମଣ୍ଡଳର ଷ୍ଟ୍ରାଟୋସ୍ଫିୟର ସ୍ତରରେ ରହିଥାଏ।"
+},
+{
+"questionEnglish": "What do plants do with sunlight?",
+"questionOdia": "ଉଦ୍ଭିଦ ସୂର୍ଯ୍ୟାଲୋକକୁ କଣ କରନ୍ତି?",
+"options": [
+"ଖାଦ୍ୟ ପ୍ରସ୍ତୁତ କରନ୍ତି",
+"ଶୋଇଯାନ୍ତି",
+"ନଷ୍ଟ କରନ୍ତି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ପ୍ରସ୍ତୁତ କରନ୍ତି",
+"explanation": "ଉଦ୍ଭିଦ ସୂର୍ଯ୍ୟାଲୋକ ସାହାଯ୍ୟରେ ସାରକସଂଶ୍ଳେଷଣ ପ୍ରକ୍ରିୟାରେ ଖାଦ୍ୟ ତିଆରି କରନ୍ତି।"
+},
+{
+"questionEnglish": "Which animal is at the top of the food chain?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳାର ଶୀର୍ଷରେ କେଉଁ ପ୍ରାଣୀ ଥାଏ?",
+"options": [
+"ଘାସ",
+"ହରିଣ",
+"ସିଂହ",
+"ବ୍ୟାକ୍ଟେରିଆ"
+],
+"answer": "ସିଂହ",
+"explanation": "ସିଂହ ସର୍ବୋଚ୍ଚ ଖାଦକ ହୋଇଥିବାରୁ ସେ ଶୀର୍ଷରେ ଥାଏ।"
+},
+{
+"questionEnglish": "What is the process of breaking down complex organic matter called?",
+"questionOdia": "ଜଟିଳ ଜୈବ ପଦାର୍ଥକୁ ଭାଙ୍ଗିବାର ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ବିଘଟନ (Decomposition)",
+"ସଂଶ୍ଳେଷଣ",
+"ବୃଦ୍ଧି",
+"ପ୍ରଜନନ"
+],
+"answer": "ବିଘଟନ (Decomposition)",
+"explanation": "ବିଘଟକମାନେ ଜଟିଳ ପଦାର୍ଥକୁ ସରଳ ପଦାର୍ଥରେ ପରିଣତ କରିବାର ପ୍ରକ୍ରିୟାକୁ ବିଘଟନ କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "What is the primary goal of waste management?",
+"questionOdia": "ବର୍ଜ୍ୟବସ୍ତୁ ପରିଚାଳନାର ମୁଖ୍ୟ ଲକ୍ଷ୍ୟ କଣ?",
+"options": [
+"ପ୍ରଦୂଷଣ କମାଇବା",
+"ସବୁ ଜିନିଷ ଫିଙ୍ଗିଦେବା",
+"ପ୍ଲାଷ୍ଟିକ ବ୍ୟବହାର ବଢ଼ାଇବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପ୍ରଦୂଷଣ କମାଇବା",
+"explanation": "ବର୍ଜ୍ୟବସ୍ତୁର ସଠିକ୍ ପରିଚାଳନା ଦ୍ଵାରା ପ୍ରଦୂଷଣ ହ୍ରାସ ପାଇଥାଏ।"
+},
+{
+"questionEnglish": "What does an omnivore eat?",
+"questionOdia": "ସର୍ବଭକ୍ଷୀ କଣ ଖାଆନ୍ତି?",
+"options": [
+"କେବଳ ଉଦ୍ଭିଦ",
+"କେବଳ ମାଂସ",
+"ଉଭୟ ଉଦ୍ଭିଦ ଓ ମାଂସ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ଉଭୟ ଉଦ୍ଭିଦ ଓ ମାଂସ",
+"explanation": "ସର୍ବଭକ୍ଷୀ ଉଦ୍ଭିଦ ଓ ମାଂସ ଉଭୟ ଖାଆନ୍ତି।"
+},
+{
+"questionEnglish": "Which of these is a part of the abiotic environment?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଅଜୈବ ପରିବେଶର ଅଂଶ?",
+"options": [
+"ମାଟି",
+"ଗଛ",
+"ପଶୁ",
+"ମଣିଷ"
+],
+"answer": "ମାଟି",
+"explanation": "ମାଟି ଏକ ଅଜୈବ ପଦାର୍ଥ, ତେଣୁ ଏହା ଅଜୈବ ପରିବେଶର ଅଂଶ।"
+},
+{
+"questionEnglish": "What is the cause of ozone depletion?",
+"questionOdia": "ଓଜୋନ୍ କ୍ଷୟର କାରଣ କଣ?",
+"options": [
+"CFC",
+"ଅମ୍ଳଜାନ",
+"ବର୍ଷା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "CFC",
+"explanation": "CFC ବାୟୁମଣ୍ଡଳକୁ ଗଲେ ଓଜୋନ୍ କ୍ଷୟ କରାଏ।"
+},
+{
+"questionEnglish": "What are scavengers?",
+"questionOdia": "ମୃତଭୋଜୀ (Scavengers) କିଏ?",
+"options": [
+"ମୃତ ଜୀବଙ୍କୁ ଖାଉଥିବା ପ୍ରାଣୀ",
+"ଘାସ ଖାଉଥିବା",
+"ପାଣି ପିଉଥିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମୃତ ଜୀବଙ୍କୁ ଖାଉଥିବା ପ୍ରାଣୀ",
+"explanation": "ଯେଉଁମାନେ ମୃତ ପ୍ରାଣୀଙ୍କ ଶରୀରକୁ ଖାଆନ୍ତି, ସେମାନେ ମୃତଭୋଜୀ।"
+},
+{
+"questionEnglish": "Which of these is an example of food web?",
+"questionOdia": "ଖାଦ୍ୟ ଜାଲ (Food web) ର ଉଦାହରଣ କଣ?",
+"options": [
+"ଅନେକ ଖାଦ୍ୟ ଶୃଙ୍ଖଳାର ମିଶ୍ରଣ",
+"କେବଳ ଗୋଟିଏ ଶୃଙ୍ଖଳା",
+"କୌଣସିଟି ନୁହେଁ",
+"ଶକ୍ତିର ଅଭାବ"
+],
+"answer": "ଅନେକ ଖାଦ୍ୟ ଶୃଙ୍ଖଳାର ମିଶ୍ରଣ",
+"explanation": "ଏକାଧିକ ଖାଦ୍ୟ ଶୃଙ୍ଖଳା ପରସ୍ପର ସହ ମିଶି ଖାଦ୍ୟ ଜାଲ ସୃଷ୍ଟି କରନ୍ତି।"
+},
+{
+"questionEnglish": "What happens if we remove a predator from the ecosystem?",
+"questionOdia": "ପରିବେଶରୁ ଶିକାରୀ ଜୀବକୁ ହଟାଇଦେଲେ କଣ ହେବ?",
+"options": [
+"ଶିକାର ସଂଖ୍ୟା ବହୁତ ବଢ଼ିଯିବ",
+"କିଛି ହେବ ନାହିଁ",
+"ସବୁ ଶାନ୍ତ ରହିବ",
+"ଉଦ୍ଭିଦ ବଢ଼ିବ"
+],
+"answer": "ଶିକାର ସଂଖ୍ୟା ବହୁତ ବଢ଼ିଯିବ",
+"explanation": "ଶିକାରୀ ନଥିଲେ ଶିକାର ଜୀବଙ୍କ ସଂଖ୍ୟା ଅନିୟନ୍ତ୍ରିତ ଭାବେ ବଢ଼ିବ, ଯାହା ପରିବେଶ ପାଇଁ କ୍ଷତିକାରକ।"
+},
+{
+"questionEnglish": "What is the function of producers in an ecosystem?",
+"questionOdia": "ଉତ୍ପାଦକଙ୍କ କାମ କଣ?",
+"options": [
+"ଖାଦ୍ୟ ତିଆରି କରିବା",
+"ଖାଦ୍ୟ ଖାଇବା",
+"ବିଘଟନ କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ତିଆରି କରିବା",
+"explanation": "ଉତ୍ପାଦକମାନେ ସୌର ଶକ୍ତି ବ୍ୟବହାର କରି ଖାଦ୍ୟ ପ୍ରସ୍ତୁତ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Which gas contributes to global warming?",
+"questionOdia": "କେଉଁ ଗ୍ୟାସ୍ ବିଶ୍ଵତାପନ ପାଇଁ ଦାୟୀ?",
+"options": [
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"ଅମ୍ଳଜାନ",
+"ହାଇଡ୍ରୋଜେନ୍",
+"ନାଇଟ୍ରୋଜେନ୍"
+],
+"answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"explanation": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ବାୟୁମଣ୍ଡଳରେ ଉତ୍ତାପକୁ ଅଟକାଇ ବିଶ୍ଵତାପନ ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "What is environmental pollution?",
+"questionOdia": "ପରିବେଶ ପ୍ରଦୂଷଣ କଣ?",
+"options": [
+"ପରିବେଶରେ ଅପରିଷ୍କାର ପଦାର୍ଥ ମିଶିବା",
+"ଗଛ ଲଗାଇବା",
+"ସଫେଇ କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପରିବେଶରେ ଅପରିଷ୍କାର ପଦାର୍ଥ ମିଶିବା",
+"explanation": "ପରିବେଶରେ କ୍ଷତିକାରକ ପଦାର୍ଥ ମିଶିବା ଦ୍ଵାରା ପ୍ରଦୂଷଣ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the role of sunlight in an ecosystem?",
+"questionOdia": "ପରିବେଶରେ ସୂର୍ଯ୍ୟାଲୋକର ଭୂମିକା କଣ?",
+"options": [
+"ଶକ୍ତି ପ୍ରଦାନ କରିବା",
+"ଖାଦ୍ୟ ଖାଇବା",
+"ଜଳ ଦେବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତି ପ୍ରଦାନ କରିବା",
+"explanation": "ସୂର୍ଯ୍ୟାଲୋକ ହିଁ ପରିବେଶକୁ ଶକ୍ତି ଯୋଗାଏ।"
+},
+{
+"questionEnglish": "Which ecosystem has maximum energy?",
+"questionOdia": "କେଉଁ ପୋଷଣ ସ୍ତରରେ ଶକ୍ତି ସର୍ବାଧିକ?",
+"options": [
+"ଉତ୍ପାଦକ",
+"ପ୍ରାଥମିକ ଖାଦକ",
+"ଦ୍ଵିତୀୟ ଖାଦକ",
+"ତୃତୀୟ ଖାଦକ"
+],
+"answer": "ଉତ୍ପାଦକ",
+"explanation": "ଉତ୍ପାଦକମାନେ ସୂର୍ଯ୍ୟଙ୍କଠାରୁ ସିଧାସଳଖ ଶକ୍ତି ପାଆନ୍ତି, ତେଣୁ ସେମାନଙ୍କ ପାଖରେ ସର୍ବାଧିକ ଶକ୍ତି ଥାଏ।"
+},
+{
+"questionEnglish": "What is an autotroph?",
+"questionOdia": "ସ୍ଵଭୋଜୀ (Autotroph) କଣ?",
+"options": [
+"ଯେ ନିଜ ଖାଦ୍ୟ ନିଜେ ତିଆରି କରେ",
+"ଯେ ଅନ୍ୟ ଉପରେ ନିର୍ଭର କରେ",
+"ମୃତ ଜୀବଙ୍କୁ ଖାଏ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଯେ ନିଜ ଖାଦ୍ୟ ନିଜେ ତିଆରି କରେ",
+"explanation": "ଉଦ୍ଭିଦମାନେ ସ୍ଵଭୋଜୀ କାରଣ ସେମାନେ ନିଜ ଖାଦ୍ୟ ନିଜେ ତିଆରି କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is a heterotroph?",
+"questionOdia": "ପରଭୋଜୀ (Heterotroph) କଣ?",
+"options": [
+"ଯେ ଅନ୍ୟ ଜୀବଙ୍କ ଉପରେ ଖାଦ୍ୟ ପାଇଁ ନିର୍ଭର କରେ",
+"ଯେ ନିଜ ଖାଦ୍ୟ ନିଜେ ତିଆରି କରେ",
+"କୌଣସିଟି ନୁହେଁ",
+"ଉଦ୍ଭିଦ"
+],
+"answer": "ଯେ ଅନ୍ୟ ଜୀବଙ୍କ ଉପରେ ଖାଦ୍ୟ ପାଇଁ ନିର୍ଭର କରେ",
+"explanation": "ପ୍ରାଣୀମାନେ ନିଜ ଖାଦ୍ୟ ନିଜେ ତିଆରି କରିପାରନ୍ତି ନାହିଁ, ତେଣୁ ସେମାନେ ପରଭୋଜୀ।"
+},
+{
+"questionEnglish": "How can we protect the environment?",
+"questionOdia": "ଆମେ କିପରି ପରିବେଶ ରକ୍ଷା କରିପାରିବା?",
+"options": [
+"ଗଛ ଲଗାଇବା",
+"ପ୍ଲାଷ୍ଟିକ କମାଇବା",
+"ସବୁଯାକ",
+"ବିଦ୍ୟୁତ ବ୍ୟବହାର ବଢ଼ାଇବା"
+],
+"answer": "ସବୁଯାକ",
+"explanation": "ଗଛ ଲଗାଇବା, ପ୍ଲାଷ୍ଟିକ କମାଇବା ଆଦି ପଦକ୍ଷେପ ପରିବେଶ ରକ୍ଷା କରେ।"
+},
+{
+"questionEnglish": "Which of these is a biotic factor?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଜୈବିକ ଉପାଦାନ?",
+"options": [
+"ପଶୁ",
+"ପାଣି",
+"ବାୟୁ",
+"ତାପମାତ୍ରା"
+],
+"answer": "ପଶୁ",
+"explanation": "ପଶୁ ଜୀବିତ, ତେଣୁ ଏହା ଜୈବିକ ଉପାଦାନ।"
+},
+{
+"questionEnglish": "What are natural ecosystems?",
+"questionOdia": "ପ୍ରାକୃତିକ ପରିବେଶ ତନ୍ତ୍ର କଣ?",
+"options": [
+"ପ୍ରକୃତି ଦ୍ଵାରା ସୃଷ୍ଟି",
+"ମଣିଷ ଦ୍ଵାରା ସୃଷ୍ଟି",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପ୍ରକୃତି ଦ୍ଵାରା ସୃଷ୍ଟି",
+"explanation": "ବଣ, ସମୁଦ୍ର ପ୍ରକୃତି ଦ୍ଵାରା ସୃଷ୍ଟି, ତେଣୁ ଏହା ପ୍ରାକୃତିକ ପରିବେଶ।"
+},
+{
+"questionEnglish": "What does a pyramid of energy represent?",
+"questionOdia": "ଶକ୍ତିର ପିରାମିଡ୍ କଣ ଦର୍ଶାଏ?",
+"options": [
+"ଶକ୍ତିର ପ୍ରବାହ",
+"ଜୀବଙ୍କ ସଂଖ୍ୟା",
+"ଉଦ୍ଭିଦଙ୍କ ଓଜନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତିର ପ୍ରବାହ",
+"explanation": "ଶକ୍ତିର ପିରାମିଡ୍ ପୋଷଣ ସ୍ତରରେ ଶକ୍ତିର ପ୍ରବାହ ଓ କ୍ଷୟ ଦର୍ଶାଏ।"
+},
+{
+"questionEnglish": "Which ecosystem is in danger?",
+"questionOdia": "କେଉଁ ପରିବେଶ ତନ୍ତ୍ର ବିପଦରେ ଅଛି?",
+"options": [
+"ପ୍ରଦୂଷିତ ଅଞ୍ଚଳ",
+"ସୁରକ୍ଷିତ ଜଙ୍ଗଲ",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପ୍ରଦୂଷିତ ଅଞ୍ଚଳ",
+"explanation": "ପ୍ରଦୂଷଣ ଯୋଗୁଁ ଅନେକ ଜୀବ ମରିଯାଆନ୍ତି, ତେଣୁ ଏହା ବିପଦରେ ଅଛି।"
+},
+{
+"questionEnglish": "What happens if ozone is completely gone?",
+"questionOdia": "ଓଜୋନ୍ ସମ୍ପୂର୍ଣ୍ଣ ନଷ୍ଟ ହୋଇଗଲେ କଣ ହେବ?",
+"options": [
+"କ୍ଷତିକାରକ UV ରଶ୍ମି ପୃଥିବୀରେ ପହଞ୍ଚିବ",
+"କିଛି ହେବ ନାହିଁ",
+"ସବୁ ଭଲ ହେବ",
+"ଉଦ୍ଭିଦ ବହୁତ ବଢ଼ିବ"
+],
+"answer": "କ୍ଷତିକାରକ UV ରଶ୍ମି ପୃଥିବୀରେ ପହଞ୍ଚିବ",
+"explanation": "ଓଜୋନ୍ ନଥିଲେ UV ରଶ୍ମି କର୍କଟ ରୋଗ ଆଦି ସୃଷ୍ଟି କରିବ।"
+},
+{
+"questionEnglish": "What is the study of environment called?",
+"questionOdia": "ପରିବେଶ ବିଜ୍ଞାନକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ଇକୋଲୋଜି (Ecology)",
+"ଜୀବ ବିଜ୍ଞାନ",
+"ରସାୟନ ବିଜ୍ଞାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଇକୋଲୋଜି (Ecology)",
+"explanation": "ଜୀବ ଓ ପରିବେଶ ମଧ୍ୟରେ ଥିବା ସମ୍ପର୍କର ଅଧ୍ୟୟନକୁ ଇକୋଲୋଜି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the unit of ozone layer thickness?",
+"questionOdia": "ଓଜୋନ୍ ସ୍ତରର ମୋଟାକୁ କେଉଁ ଏକକରେ ମପାଯାଏ?",
+"options": [
+"ଡବସନ୍ ୟୁନିଟ୍ (Dobson Unit)",
+"ମିଟର",
+"ସେଣ୍ଟିମିଟର",
+"ଲିଟର"
+],
+"answer": "ଡବସନ୍ ୟୁନିଟ୍ (Dobson Unit)",
+"explanation": "ଓଜୋନ୍ ସ୍ତରର ମୋଟାପଣ ମାପିବା ପାଇଁ ଡବସନ୍ ୟୁନିଟ୍ ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "What is domestic waste?",
+"questionOdia": "ଘରୋଇ ବର୍ଜ୍ୟବସ୍ତୁ କଣ?",
+"options": [
+"ଘରୁ ବାହାରୁଥିବା ଅଳିଆ",
+"କାରଖାନାର ଅଳିଆ",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଘରୁ ବାହାରୁଥିବା ଅଳିଆ",
+"explanation": "ଘରୁ ବାହାରୁଥିବା ଖାଦ୍ୟ ଅଂଶ ଓ ପ୍ଲାଷ୍ଟିକକୁ ଘରୋଇ ବର୍ଜ୍ୟବସ୍ତୁ କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "Which element cycle is important?",
+"questionOdia": "କେଉଁ ଚକ୍ର ପରିବେଶ ପାଇଁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"କାର୍ବନ ଚକ୍ର",
+"ନାଇଟ୍ରୋଜେନ୍ ଚକ୍ର",
+"ଜଳ ଚକ୍ର",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "କାର୍ବନ, ନାଇଟ୍ରୋଜେନ୍ ଓ ଜଳ ଚକ୍ର ସବୁ ପରିବେଶ ସନ୍ତୁଳନ ପାଇଁ ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "Why should we reduce waste?",
+"questionOdia": "ଆମେ କାହିଁକି ବର୍ଜ୍ୟବସ୍ତୁ କମାଇବା ଉଚିତ୍?",
+"options": [
+"ପରିବେଶ ପ୍ରଦୂଷଣ ରୋକିବା ପାଇଁ",
+"ବେଶୀ ଅଳିଆ ଖରାପ",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ",
+"explanation": "ବର୍ଜ୍ୟବସ୍ତୁ କମାଇବା ଦ୍ଵାରା ପ୍ରଦୂଷଣ ରୋକି ହୁଏ ଓ ପରିବେଶ ସୁସ୍ଥ ରହେ।"
+},
+{
+"questionEnglish": "What is a sustainable development?",
+"questionOdia": "ସ୍ଥାୟୀ ବିକାଶ କଣ?",
+"options": [
+"ଭବିଷ୍ୟତକୁ ଦୃଷ୍ଟିରେ ରଖି ବିକାଶ",
+"କେବଳ ଆଜିର ବିକାଶ",
+"ବିନା ବିଚାରରେ ବିକାଶ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଭବିଷ୍ୟତକୁ ଦୃଷ୍ଟିରେ ରଖି ବିକାଶ",
+"explanation": "ପ୍ରାକୃତିକ ସମ୍ପଦକୁ ଭବିଷ୍ୟତ ପାଇଁ ବଞ୍ଚାଇ ରଖି ଯେଉଁ ବିକାଶ କରାଯାଏ ତାହା ସ୍ଥାୟୀ ବିକାଶ।"
+},
+{
+"questionEnglish": "What do decomposers do?",
+"questionOdia": "ବିଘଟକମାନେ କଣ କରନ୍ତି?",
+"options": [
+"ମୃତ ଜୀବଙ୍କୁ ସରଳ ପଦାର୍ଥରେ ପରିଣତ କରନ୍ତି",
+"ଗଛ ବଢ଼ାନ୍ତି",
+"ପାଣି ସଫା କରନ୍ତି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମୃତ ଜୀବଙ୍କୁ ସରଳ ପଦାର୍ଥରେ ପରିଣତ କରନ୍ତି",
+"explanation": "ବିଘଟକମାନେ ପ୍ରାକୃତିକ ସଫେଇ କର୍ମଚାରୀ ଭାବେ କାମ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Is sunlight abiotic?",
+"questionOdia": "ସୂର୍ଯ୍ୟାଲୋକ କଣ ଅଜୈବିକ?",
+"options": [
+"ହଁ",
+"ନା",
+"କିଛି ମାତ୍ରାରେ",
+"କହି ହେବ ନାହିଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସୂର୍ଯ୍ୟାଲୋକ ଜୀବିତ ନୁହେଁ, ତେଣୁ ଏହା ଅଜୈବିକ।"
+},
+{
+"questionEnglish": "What is the impact of deforestation?",
+"questionOdia": "ଜଙ୍ଗଲ କାଟିବା ଦ୍ଵାରା କଣ ହୁଏ?",
+"options": [
+"ମୃତ୍ତିକା କ୍ଷୟ ଓ ପରିବେଶ ଅସନ୍ତୁଳନ",
+"ଗଛ ଅଧିକ ହୁଏ",
+"ବର୍ଷା ଅଧିକ ହୁଏ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମୃତ୍ତିକା କ୍ଷୟ ଓ ପରିବେଶ ଅସନ୍ତୁଳନ",
+"explanation": "ଜଙ୍ଗଲ କାଟିବା ଦ୍ଵାରା ମୃତ୍ତିକା କ୍ଷୟ ଓ ବିଭିନ୍ନ ସମସ୍ୟା ସୃଷ୍ଟି ହୁଏ।"
+},
+{
+"questionEnglish": "Which of these is a secondary consumer?",
+"questionOdia": "ଦ୍ଵିତୀୟ ଖାଦକ କିଏ?",
+"options": [
+"ଛେଳି",
+"ବେଙ୍ଗ",
+"ସାପ",
+"ବାଘ"
+],
+"answer": "ବେଙ୍ଗ",
+"explanation": "ବେଙ୍ଗ କୀଟପତଙ୍ଗଙ୍କୁ ଖାଏ ଯେଉଁମାନେ ଉଦ୍ଭିଦ ଖାଆନ୍ତି, ତେଣୁ ବେଙ୍ଗ ଦ୍ଵିତୀୟ ଖାଦକ।"
+},
+{
+"questionEnglish": "What is the importance of biodiversity?",
+"questionOdia": "ଜୈବ ବିବିଧତାର ଗୁରୁତ୍ୱ କଣ?",
+"options": [
+"ପରିବେଶ ସନ୍ତୁଳନ",
+"ପ୍ରଦୂଷଣ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପରିବେଶ ସନ୍ତୁଳନ",
+"explanation": "ଜୈବ ବିବିଧତା ପରିବେଶକୁ ସନ୍ତୁଳିତ ରଖିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Which of these gases is not a greenhouse gas?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଗ୍ରୀନହାଉସ୍ ଗ୍ୟାସ୍ ନୁହେଁ?",
+"options": [
+"ଅମ୍ଳଜାନ",
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"ମିଥେନ୍",
+"CFC"
+],
+"answer": "ଅମ୍ଳଜାନ",
+"explanation": "ଅମ୍ଳଜାନ ଗ୍ରୀନହାଉସ୍ ପ୍ରଭାବ ପକାଏ ନାହିଁ।"
+},
+{
+"questionEnglish": "How does energy move in a food web?",
+"questionOdia": "ଖାଦ୍ୟ ଜାଲରେ ଶକ୍ତି କିପରି ଚଳେ?",
+"options": [
+"ବହୁମୁଖୀ",
+"ଏକ ଦିଗରେ",
+"କୌଣସି ଦିଗରେ ନୁହେଁ",
+"ସମାନ ଭାବେ"
+],
+"answer": "ବହୁମୁଖୀ",
+"explanation": "ଖାଦ୍ୟ ଜାଲରେ ଶକ୍ତି ବିଭିନ୍ନ ଦିଗରେ ପ୍ରବାହିତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which is an example of an aquatic ecosystem?",
+"questionOdia": "ଜଳଜ ପରିବେଶ ତନ୍ତ୍ରର ଉଦାହରଣ କଣ?",
+"options": [
+"ପୋଖରୀ",
+"ବଣ",
+"ମରୁଭୂମି",
+"ପର୍ବତ"
+],
+"answer": "ପୋଖରୀ",
+"explanation": "ପୋଖରୀ ହେଉଛି ଏକ ଜଳଜ ପରିବେଶ।"
+},
+{
+"questionEnglish": "What is the primary pollutant from vehicles?",
+"questionOdia": "ଗାଡ଼ିରୁ ନିର୍ଗତ ମୁଖ୍ୟ ପ୍ରଦୂଷକ କଣ?",
+"options": [
+"କାର୍ବନ ମନୋକ୍ସାଇଡ୍",
+"ଅମ୍ଳଜାନ",
+"ଜଳ",
+"ନାଇଟ୍ରୋଜେନ୍"
+],
+"answer": "କାର୍ବନ ମନୋକ୍ସାଇଡ୍",
+"explanation": "ଗାଡ଼ିରୁ କାର୍ବନ ମନୋକ୍ସାଇଡ୍ ବାହାରି ବାୟୁ ପ୍ରଦୂଷଣ କରେ।"
+},
+{
+"questionEnglish": "What is a bio-indicator?",
+"questionOdia": "ଜୈବ ସୂଚକ (Bio-indicator) କଣ?",
+"options": [
+"ପରିବେଶର ସ୍ୱାସ୍ଥ୍ୟ ଦର୍ଶାଉଥିବା ଜୀବ",
+"କାରଖାନାର ମେସିନ୍",
+"ଏକ ପ୍ରକାର ଔଷଧ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପରିବେଶର ସ୍ୱାସ୍ଥ୍ୟ ଦର୍ଶାଉଥିବା ଜୀବ",
+"explanation": "ଲାଇକେନ୍ ପରି ଜୀବ ଯେଉଁମାନେ ପ୍ରଦୂଷଣ ଥିଲେ ମରିଯାଆନ୍ତି, ସେମାନେ ଜୈବ ସୂଚକ।"
+},
+{
+"questionEnglish": "What is the effect of acid rain on monuments?",
+"questionOdia": "ସ୍ମାରକ ଉପରେ ଅମ୍ଳ ବର୍ଷାର ପ୍ରଭାବ କଣ?",
+"options": [
+"ରଙ୍ଗ ନଷ୍ଟ ହୋଇଯାଏ",
+"ବଢ଼ିଯାଏ",
+"କିଛି ହୁଏ ନାହିଁ",
+"ସଫା ହୋଇଯାଏ"
+],
+"answer": "ରଙ୍ଗ ନଷ୍ଟ ହୋଇଯାଏ",
+"explanation": "ଅମ୍ଳ ବର୍ଷା ଦ୍ଵାରା ମାର୍ବଲ୍ ଓ ସ୍ମାରକର ସ୍ତର ନଷ୍ଟ ହୋଇଯାଏ।"
+},
+{
+"questionEnglish": "Which organism is a herbivore?",
+"questionOdia": "କେଉଁଟି ତୃଣଭୋଜୀ?",
+"options": [
+"ବିରାଡ଼ି",
+"କୁକୁର",
+"ଗାଈ",
+"ବାଘ"
+],
+"answer": "ଗାଈ",
+"explanation": "ଗାଈ କେବଳ ଘାସ ଖାଏ, ତେଣୁ ଏହା ତୃଣଭୋଜୀ।"
+},
+{
+"questionEnglish": "What is the main source of energy for humans?",
+"questionOdia": "ମଣିଷ ପାଇଁ ଶକ୍ତିର ମୁଖ୍ୟ ଉତ୍ସ କଣ?",
+"options": [
+"ଖାଦ୍ୟ",
+"ସୂର୍ଯ୍ୟ",
+"ପାଣି",
+"ବାୟୁ"
+],
+"answer": "ଖାଦ୍ୟ",
+"explanation": "ମଣିଷ ଖାଦ୍ୟରୁ ଶକ୍ତି ପାଏ, ଯାହା ଶେଷରେ ସୂର୍ଯ୍ୟଙ୍କଠାରୁ ଆସିଥାଏ।"
+},
+{
+"questionEnglish": "What is ecological balance?",
+"questionOdia": "ପରିବେଶ ସନ୍ତୁଳନ କଣ?",
+"options": [
+"ଜୀବଙ୍କ ଭିତରେ ସୁସ୍ଥ ସମ୍ପର୍କ",
+"ଅଧିକ ଜୀବ",
+"କେବଳ ଗଛ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜୀବଙ୍କ ଭିତରେ ସୁସ୍ଥ ସମ୍ପର୍କ",
+"explanation": "ପରିବେଶରେ ଜୀବମାନଙ୍କ ମଧ୍ୟରେ ସନ୍ତୁଳିତ ସମ୍ପର୍କକୁ ପରିବେଶ ସନ୍ତୁଳନ କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "Which is an example of an ecosystem?",
+"questionOdia": "ପରିବେଶ ତନ୍ତ୍ରର ଉଦାହରଣ କଣ?",
+"options": [
+"ବଣ",
+"ପଥର",
+"ପାଣି",
+"ବାୟୁ"
+],
+"answer": "ବଣ",
+"explanation": "ବଣ ଏକ ସମ୍ପୂର୍ଣ୍ଣ ପରିବେଶ ତନ୍ତ୍ର।"
+},
+{
+"questionEnglish": "What is ozone made of?",
+"questionOdia": "ଓଜୋନ୍ କେଉଁ ପରମାଣୁରୁ ଗଠିତ?",
+"options": [
+"ଅମ୍ଳଜାନର ତିନୋଟି ପରମାଣୁ",
+"ହାଇଡ୍ରୋଜେନର ଦୁଇଟି ପରମାଣୁ",
+"ନାଇଟ୍ରୋଜେନର ଦୁଇଟି ପରମାଣୁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମ୍ଳଜାନର ତିନୋଟି ପରମାଣୁ",
+"explanation": "ଓଜୋନ୍ (O3) ଅମ୍ଳଜାନର ତିନୋଟି ପରମାଣୁକୁ ନେଇ ଗଠିତ।"
+},
+{
+"questionEnglish": "Why are forests important?",
+"questionOdia": "ଜଙ୍ଗଲ କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"ସେମାନେ ଅମ୍ଳଜାନ ଦିଅନ୍ତି",
+"ସେମାନେ ବର୍ଷା କରାନ୍ତି",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ",
+"explanation": "ଜଙ୍ଗଲ ଅମ୍ଳଜାନ ଦିଏ ଓ ବର୍ଷା କରାଇବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "What are primary consumers?",
+"questionOdia": "ପ୍ରାଥମିକ ଖାଦକ କିଏ?",
+"options": [
+"ଯେଉଁମାନେ ଉଦ୍ଭିଦ ଖାଆନ୍ତି",
+"ଯେଉଁମାନେ ମାଂସ ଖାଆନ୍ତି",
+"ଯେଉଁମାନେ ଖାଦ୍ୟ ତିଆରି କରନ୍ତି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଯେଉଁମାନେ ଉଦ୍ଭିଦ ଖାଆନ୍ତି",
+"explanation": "ଉଦ୍ଭିଦଙ୍କୁ ଖାଉଥିବା ପ୍ରାଣୀମାନେ ପ୍ରାଥମିକ ଖାଦକ।"
+},
+{
+"questionEnglish": "What is the biggest threat to environment?",
+"questionOdia": "ପରିବେଶ ପାଇଁ ସବୁଠାରୁ ବଡ଼ ବିପଦ କଣ?",
+"options": [
+"ମଣିଷର କାର୍ଯ୍ୟକଳାପ",
+"ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ",
+"ଜୀବଙ୍କ ସଂଖ୍ୟା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମଣିଷର କାର୍ଯ୍ୟକଳାପ",
+"explanation": "ମଣିଷର ଅନିୟନ୍ତ୍ରିତ କାର୍ଯ୍ୟକଳାପ ଦ୍ଵାରା ପରିବେଶ ସବୁଠାରୁ ଅଧିକ କ୍ଷତିଗ୍ରସ୍ତ ହେଉଛି।"
+},
+{
+"questionEnglish": "What are tertiary consumers?",
+"questionOdia": "ତୃତୀୟ ଖାଦକ କିଏ?",
+"options": [
+"ଯେଉଁମାନେ ଦ୍ଵିତୀୟ ଖାଦକଙ୍କୁ ଖାଆନ୍ତି",
+"ଯେଉଁମାନେ ଗଛ ଖାଆନ୍ତି",
+"ଉତ୍ପାଦକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଯେଉଁମାନେ ଦ୍ଵିତୀୟ ଖାଦକଙ୍କୁ ଖାଆନ୍ତି",
+"explanation": "ଦ୍ଵିତୀୟ ଖାଦକଙ୍କୁ ଖାଉଥିବା ଜୀବମାନେ ତୃତୀୟ ଖାଦକ।"
+},
+{
+"questionEnglish": "What is meant by 10% law in food chain?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳାରେ 10% ନିୟମ କଣ?",
+"options": [
+"ଗୋଟିଏ ସ୍ତରରୁ ଅନ୍ୟ ସ୍ତରକୁ 10% ଶକ୍ତି ସ୍ଥାନାନ୍ତର ହୁଏ",
+"10% ଶକ୍ତି ବଢ଼େ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗୋଟିଏ ସ୍ତରରୁ ଅନ୍ୟ ସ୍ତରକୁ 10% ଶକ୍ତି ସ୍ଥାନାନ୍ତର ହୁଏ",
+"explanation": "ପ୍ରତ୍ୟେକ ପୋଷଣ ସ୍ତରରେ ମାତ୍ର 10% ଶକ୍ତି ସଞ୍ଚିତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which is an abiotic resource?",
+"questionOdia": "କେଉଁଟି ଏକ ଅଜୈବ ସମ୍ବଳ?",
+"options": [
+"ସୂର୍ଯ୍ୟ",
+"ମାଟି",
+"ଜଳ",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ସୂର୍ଯ୍ୟ, ମାଟି, ଜଳ ସବୁ ଅଜୈବ।"
+},
+{
+"questionEnglish": "What is the function of green plants in global cooling?",
+"questionOdia": "ବିଶ୍ଵତାପନ କମାଇବାରେ ଗଛର ଭୂମିକା କଣ?",
+"options": [
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଶୋଷଣ କରିବା",
+"ଅମ୍ଳଜାନ ଛାଡ଼ିବା",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ",
+"explanation": "ଗଛ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଶୋଷଣ କରି ଅମ୍ଳଜାନ ଦିଏ, ଯାହା ବିଶ୍ଵତାପନ କମାଏ।"
+},
+{
+"questionEnglish": "Which is the correct order of food chain?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳାର ସଠିକ୍ କ୍ରମ କଣ?",
+"options": [
+"ଉଦ୍ଭିଦ -> ତୃଣଭୋଜୀ -> ମାଂସାଶୀ",
+"ମାଂସାଶୀ -> ଉଦ୍ଭିଦ -> ତୃଣଭୋଜୀ",
+"ତୃଣଭୋଜୀ -> ଉଦ୍ଭିଦ -> ମାଂସାଶୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଦ୍ଭିଦ -> ତୃଣଭୋଜୀ -> ମାଂସାଶୀ",
+"explanation": "ଉଦ୍ଭିଦ ପ୍ରଥମେ ଖାଦ୍ୟ ତିଆରି କରନ୍ତି, ତାଙ୍କୁ ତୃଣଭୋଜୀ ଓ ତାଙ୍କୁ ମାଂସାଶୀ ଖାଆନ୍ତି।"
+},
+{
+"questionEnglish": "What is the main component of organic waste?",
+"questionOdia": "ଜୈବ ବର୍ଜ୍ୟବସ୍ତୁର ମୁଖ୍ୟ ଉପାଦାନ କଣ?",
+"options": [
+"କାର୍ବନ",
+"ଲୁହା",
+"କାଚ",
+"ପ୍ଲାଷ୍ଟିକ"
+],
+"answer": "କାର୍ବନ",
+"explanation": "ଜୈବ ବର୍ଜ୍ୟବସ୍ତୁରେ ମୁଖ୍ୟତଃ କାର୍ବନଯୁକ୍ତ ପଦାର୍ଥ ଥାଏ।"
+},
+{
+"questionEnglish": "What happens if the ozone layer disappears?",
+"questionOdia": "ଓଜୋନ୍ ସ୍ତର ନଷ୍ଟ ହୋଇଗଲେ କଣ ହେବ?",
+"options": [
+"କର୍କଟ ରୋଗ ବଢ଼ିବ",
+"କିଛି ହେବ ନାହିଁ",
+"ସବୁ ଭଲ ହେବ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କର୍କଟ ରୋଗ ବଢ଼ିବ",
+"explanation": "UV ରଶ୍ମି ମଣିଷ ଓ ଜୀବଙ୍କଠାରେ ଚର୍ମ କର୍କଟ ସୃଷ୍ଟି କରିବ।"
+},
+{
+"questionEnglish": "What is the role of solar energy in the earth?",
+"questionOdia": "ପୃଥିବୀରେ ସୌର ଶକ୍ତିର ଭୂମିକା କଣ?",
+"options": [
+"ସବୁ ଜୀବଙ୍କୁ ଶକ୍ତି ଦେବା",
+"ଖାଦ୍ୟ ତିଆରିରେ ସାହାଯ୍ୟ କରିବା",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ",
+"explanation": "ସୂର୍ଯ୍ୟ ସବୁ ଜୀବଙ୍କୁ ଶକ୍ତି ଦିଅନ୍ତି ଓ ଉଦ୍ଭିଦଙ୍କୁ ଖାଦ୍ୟ ତିଆରିରେ ସାହାଯ୍ୟ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Which organism is an omnivore?",
+"questionOdia": "କେଉଁଟି ସର୍ବଭକ୍ଷୀ?",
+"options": [
+"ମଣିଷ",
+"ହରିଣ",
+"ବାଘ",
+"ଗାଈ"
+],
+"answer": "ମଣିଷ",
+"explanation": "ମଣିଷ ଉଦ୍ଭିଦ ଓ ପ୍ରାଣୀଜ ଖାଦ୍ୟ ଖାଉଥିବାରୁ ସର୍ବଭକ୍ଷୀ।"
+},
+{
+"questionEnglish": "What is the effect of plastic on soil?",
+"questionOdia": "ମାଟି ଉପରେ ପ୍ଲାଷ୍ଟିକର ପ୍ରଭାବ କଣ?",
+"options": [
+"ମାଟିର ଉର୍ବରତା କମାଏ",
+"ମାଟି ବଢ଼ାଏ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମାଟିର ଉର୍ବରତା କମାଏ",
+"explanation": "ପ୍ଲାଷ୍ଟିକ ମାଟିରେ ବର୍ଷ ବର୍ଷ ଧରି ରହି ମାଟିର ଗୁଣ ଓ ଉର୍ବରତା ନଷ୍ଟ କରେ।"
+},
+{
+"questionEnglish": "Why is the 10% law important?",
+"questionOdia": "10% ନିୟମ କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"ଶକ୍ତିର ସ୍ଥାନାନ୍ତର ବୁଝିବା ପାଇଁ",
+"ଖାଦ୍ୟ ଖାଇବା ପାଇଁ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତିର ସ୍ଥାନାନ୍ତର ବୁଝିବା ପାଇଁ",
+"explanation": "ପରିବେଶରେ ଶକ୍ତି କେତେ ପରିମାଣରେ ସ୍ଥାନାନ୍ତର ହୁଏ ତାହା ଜାଣିବା ପାଇଁ ଏହି ନିୟମ ଜରୁରୀ।"
+},
+{
+"questionEnglish": "What are environmental problems?",
+"questionOdia": "ପରିବେଶ ସମସ୍ୟା କଣ?",
+"options": [
+"ପ୍ରଦୂଷଣ",
+"ଜଳବାୟୁ ପରିବର୍ତ୍ତନ",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ",
+"explanation": "ପ୍ରଦୂଷଣ ଓ ଜଳବାୟୁ ପରିବର୍ତ୍ତନ ହେଉଛି ମୁଖ୍ୟ ପରିବେଶ ସମସ୍ୟା।"
+},
+{
+"questionEnglish": "What is ozone layer composed of?",
+"questionOdia": "ଓଜୋନ୍ ସ୍ତର କେଉଁ ଗ୍ୟାସରେ ଗଠିତ?",
+"options": [
+"ଓଜୋନ୍ (O3)",
+"ଅମ୍ଳଜାନ (O2)",
+"ହାଇଡ୍ରୋଜେନ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଓଜୋନ୍ (O3)",
+"explanation": "ଓଜୋନ୍ ସ୍ତର ଓଜୋନ୍ ଗ୍ୟାସ୍ ଦ୍ଵାରା ଗଠିତ।"
+},
+{
+"questionEnglish": "Which of these is not a natural resource?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ପ୍ରାକୃତିକ ସମ୍ପଦ ନୁହେଁ?",
+"options": [
+"ପ୍ଲାଷ୍ଟିକ",
+"ଜଳ",
+"ବାୟୁ",
+"ମାଟି"
+],
+"answer": "ପ୍ଲାଷ୍ଟିକ",
+"explanation": "ପ୍ଲାଷ୍ଟିକ ମଣିଷ ଦ୍ଵାରା ତିଆରି, ତେଣୁ ଏହା ପ୍ରାକୃତିକ ନୁହେଁ।"
+},
+{
+"questionEnglish": "What is meant by trophic level?",
+"questionOdia": "ପୋଷଣ ସ୍ତର କହିଲେ କଣ ବୁଝାଏ?",
+"options": [
+"ଖାଦ୍ୟ ଶୃଙ୍ଖଳାରେ ଜୀବଙ୍କ ସ୍ଥିତି",
+"ଜୀବଙ୍କ ଓଜନ",
+"ଜୀବଙ୍କ ସଂଖ୍ୟା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳାରେ ଜୀବଙ୍କ ସ୍ଥିତି",
+"explanation": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳାରେ ପ୍ରତ୍ୟେକ ଜୀବ ଗୋଟିଏ ନିର୍ଦ୍ଦିଷ୍ଟ ପୋଷଣ ସ୍ତରରେ ଥାଆନ୍ତି।"
+},
+{
+"questionEnglish": "What are primary producers?",
+"questionOdia": "ପ୍ରାଥମିକ ଉତ୍ପାଦକ କିଏ?",
+"options": [
+"ସବୁଜ ଉଦ୍ଭିଦ",
+"ପ୍ରାଣୀ",
+"ବ୍ୟାକ୍ଟେରିଆ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସବୁଜ ଉଦ୍ଭିଦ",
+"explanation": "ସବୁଜ ଉଦ୍ଭିଦ ପ୍ରାଥମିକ ଉତ୍ପାଦକ କାରଣ ସେମାନେ ଖାଦ୍ୟ ତିଆରି କରନ୍ତି।"
+},
+{
+"questionEnglish": "What does a food chain show?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳା କଣ ଦର୍ଶାଏ?",
+"options": [
+"ଜୀବଙ୍କ ଭିତରେ ଖାଦ୍ୟ ସମ୍ପର୍କ",
+"ଜୀବଙ୍କ ସଂଖ୍ୟା",
+"ଜୀବଙ୍କ ଓଜନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜୀବଙ୍କ ଭିତରେ ଖାଦ୍ୟ ସମ୍ପର୍କ",
+"explanation": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳା କେଉଁ ଜୀବ କାହାକୁ ଖାଏ ତାହା ଦର୍ଶାଏ।"
+},
+{
+"questionEnglish": "Why is it important to save the environment?",
+"questionOdia": "ପରିବେଶକୁ ବଞ୍ଚାଇବା କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"ଜୀବନର ସୁରକ୍ଷା ପାଇଁ",
+"କେବଳ ଦେଖିବା ପାଇଁ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜୀବନର ସୁରକ୍ଷା ପାଇଁ",
+"explanation": "ପରିବେଶ ବଞ୍ଚିଲେ ହିଁ ମଣିଷ ଓ ଅନ୍ୟ ଜୀବ ବଞ୍ଚିପାରିବେ।"
+},
+{
+"questionEnglish": "What is global warming?",
+"questionOdia": "ବିଶ୍ଵତାପନ କଣ?",
+"options": [
+"ପୃଥିବୀର ହାରାହାରି ତାପମାତ୍ରା ବଢ଼ିବା",
+"ପୃଥିବୀ ଥଣ୍ଡା ହେବା",
+"ବର୍ଷା ହେବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପୃଥିବୀର ହାରାହାରି ତାପମାତ୍ରା ବଢ଼ିବା",
+"explanation": "ବିଭିନ୍ନ ଗ୍ୟାସ୍ ଯୋଗୁଁ ପୃଥିବୀର ତାପମାତ୍ରା ବଢ଼ିବାରୁ ବିଶ୍ଵତାପନ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the function of the ozone layer?",
+"questionOdia": "ଓଜୋନ୍ ସ୍ତରର କାମ କଣ?",
+"options": [
+"UV ରଶ୍ମିକୁ ଅଟକାଇବା",
+"ବର୍ଷା କରାଇବା",
+"ଅମ୍ଳଜାନ ଦେବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "UV ରଶ୍ମିକୁ ଅଟକାଇବା",
+"explanation": "ଓଜୋନ୍ ସ୍ତର କ୍ଷତିକାରକ UV ରଶ୍ମିକୁ ପୃଥିବୀକୁ ଆସିବାକୁ ଦିଏ ନାହିଁ।"
+},
+{
+"questionEnglish": "What is the result of plastic pollution?",
+"questionOdia": "ପ୍ଲାଷ୍ଟିକ ପ୍ରଦୂଷଣର ଫଳ କଣ?",
+"options": [
+"ମାଟି ଓ ଜଳ ପ୍ରଦୂଷଣ",
+"ଗଛ ବଢ଼ିବା",
+"ଅଧିକ ବର୍ଷା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମାଟି ଓ ଜଳ ପ୍ରଦୂଷଣ",
+"explanation": "ପ୍ଲାଷ୍ଟିକ ବ୍ୟବହାର ଦ୍ଵାରା ମାଟି ଓ ଜଳ ଉଭୟ ପ୍ରଦୂଷିତ ହୁଏ।"
+},
+{
+"questionEnglish": "How do plants make food?",
+"questionOdia": "ଉଦ୍ଭିଦ କିପରି ଖାଦ୍ୟ ତିଆରି କରନ୍ତି?",
+"options": [
+"ସାରକସଂଶ୍ଳେଷଣ",
+"ଶୋଇକରି",
+"ପାଣି ପିଇ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସାରକସଂଶ୍ଳେଷଣ",
+"explanation": "ଉଦ୍ଭିଦ ସାରକସଂଶ୍ଳେଷଣ ପ୍ରକ୍ରିୟାରେ ଖାଦ୍ୟ ତିଆରି କରନ୍ତି।"
+},
+{
+"questionEnglish": "What do we mean by natural environment?",
+"questionOdia": "ପ୍ରାକୃତିକ ପରିବେଶ କଣ?",
+"options": [
+"ଯାହା ମଣିଷ ତିଆରି କରିନାହିଁ",
+"ଯାହା ମଣିଷ ତିଆରି କରିଛି",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଯାହା ମଣିଷ ତିଆରି କରିନାହିଁ",
+"explanation": "ପ୍ରକୃତି ଦ୍ଵାରା ସୃଷ୍ଟି ହୋଇଥିବା ପରିବେଶକୁ ପ୍ରାକୃତିକ ପରିବେଶ କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "What is a waste-to-energy plant?",
+"questionOdia": "ବର୍ଜ୍ୟବସ୍ତୁରୁ ଶକ୍ତି ଉତ୍ପାଦନ କେନ୍ଦ୍ର କଣ?",
+"options": [
+"ଅଳିଆରୁ ବିଦ୍ୟୁତ ଉତ୍ପାଦନ",
+"ପାଣି ସଫା କରିବା",
+"ଗଛ ଲଗାଇବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅଳିଆରୁ ବିଦ୍ୟୁତ ଉତ୍ପାଦନ",
+"explanation": "ଅଳିଆକୁ ଜଳାଇ ବା ଅନ୍ୟ ପଦ୍ଧତିରେ ସେଥିରୁ ବିଦ୍ୟୁତ ଉତ୍ପାଦନ କରାଯାଏ।"
+},
+{
+"questionEnglish": "Which gas is used in photosynthesis?",
+"questionOdia": "ସାରକସଂଶ୍ଳେଷଣରେ କେଉଁ ଗ୍ୟାସ୍ ଆବଶ୍ୟକ?",
+"options": [
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"ଅମ୍ଳଜାନ",
+"ହାଇଡ୍ରୋଜେନ୍",
+"ନାଇଟ୍ରୋଜେନ୍"
+],
+"answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"explanation": "ଉଦ୍ଭିଦ ସାରକସଂଶ୍ଳେଷଣ ପାଇଁ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଗ୍ରହଣ କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is the importance of green plants?",
+"questionOdia": "ସବୁଜ ଉଦ୍ଭିଦଙ୍କ ଗୁରୁତ୍ୱ କଣ?",
+"options": [
+"ଖାଦ୍ୟ ଦେବା ଓ ଅମ୍ଳଜାନ ଛାଡ଼ିବା",
+"କିଛି ନୁହେଁ",
+"ପ୍ରଦୂଷଣ କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ଦେବା ଓ ଅମ୍ଳଜାନ ଛାଡ଼ିବା",
+"explanation": "ସବୁଜ ଉଦ୍ଭିଦ ଖାଦ୍ୟ ଦିଅନ୍ତି ଓ ପ୍ରାଣୀଙ୍କ ପାଇଁ ଆବଶ୍ୟକ ଅମ୍ଳଜାନ ଛାଡ଼ନ୍ତି।"
+},
+{
+"questionEnglish": "Is energy recycling possible?",
+"questionOdia": "ଶକ୍ତିର ପୁନଃଚକ୍ରୀୟ କଣ ସମ୍ଭବ?",
+"options": [
+"ନା",
+"ହଁ",
+"କିଛି ମାତ୍ରାରେ",
+"କହି ହେବ ନାହିଁ"
+],
+"answer": "ନା",
+"explanation": "ଶକ୍ତି ଥରେ ବ୍ୟବହାର ହେଲେ ତାହା କମ୍ ଉପଯୋଗୀ ଶକ୍ତିରେ ପରିଣତ ହୁଏ, ତେଣୁ ପୁନଃଚକ୍ରୀୟ ଅସମ୍ଭବ।"
+},
+{
+"questionEnglish": "What is a food chain?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳା କଣ?",
+"options": [
+"ଖାଦ୍ୟ ପାଇଁ ଜୀବଙ୍କ ଭିତରେ ସମ୍ପର୍କ",
+"ଗଛର ଶୃଙ୍ଖଳା",
+"ପାଣିର ଶୃଙ୍ଖଳା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ପାଇଁ ଜୀବଙ୍କ ଭିତରେ ସମ୍ପର୍କ",
+"explanation": "କେଉଁ ଜୀବ କାହାକୁ ଖାଏ ତାହା ଦର୍ଶାଉଥିବା ଶୃଙ୍ଖଳା।"
+},
+{
+"questionEnglish": "Which of these is a decomposer?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ବିଘଟକ?",
+"options": [
+"କବକ",
+"ହରିଣ",
+"ସିଂହ",
+"ମଣିଷ"
+],
+"answer": "କବକ",
+"explanation": "କବକ ମୃତ ଜୀବଙ୍କୁ ବିଘଟନ କରେ।"
+},
+{
+"questionEnglish": "What is the result of ozone hole?",
+"questionOdia": "ଓଜୋନ୍ ଗର୍ତ୍ତର ଫଳ କଣ?",
+"options": [
+"UV ରଶ୍ମି ପୃଥିବୀରେ ପହଞ୍ଚିବା",
+"କିଛି ନୁହେଁ",
+"ଗରମ କମିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "UV ରଶ୍ମି ପୃଥିବୀରେ ପହଞ୍ଚିବା",
+"explanation": "ଓଜୋନ୍ ସ୍ତର ପତଳା ବା ଗର୍ତ୍ତ ହେଲେ UV ରଶ୍ମି ଆସେ।"
+},
+{
+"questionEnglish": "Which is an example of an abiotic component?",
+"questionOdia": "ଅଜୈବିକ ଉପାଦାନର ଉଦାହରଣ କଣ?",
+"options": [
+"ତାପମାତ୍ରା",
+"ଗଛ",
+"ଜୀବ",
+"ମଣିଷ"
+],
+"answer": "ତାପମାତ୍ରା",
+"explanation": "ତାପମାତ୍ରା ଜୀବିତ ନୁହେଁ, ତେଣୁ ଏହା ଅଜୈବିକ।"
+},
+{
+"questionEnglish": "What does a food web illustrate?",
+"questionOdia": "ଖାଦ୍ୟ ଜାଲ କଣ ଦର୍ଶାଏ?",
+"options": [
+"ଖାଦ୍ୟ ସମ୍ପର୍କର ଜଟିଳତା",
+"ଜୀବଙ୍କ ସଂଖ୍ୟା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ସମ୍ପର୍କର ଜଟିଳତା",
+"explanation": "ଖାଦ୍ୟ ଜାଲ ଏକ ପରିବେଶରେ ଖାଦ୍ୟ ସମ୍ପର୍କ କେତେ ଜଟିଳ ତାହା ଦର୍ଶାଏ।"
+},
+{
+"questionEnglish": "How are pollutants transferred in a food chain?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳାରେ ପ୍ରଦୂଷକ କିପରି ସ୍ଥାନାନ୍ତର ହୁଏ?",
+"options": [
+"ଉତ୍ପାଦକରୁ ଖାଦକ ଆଡ଼କୁ",
+"କୌଣସି ଦିଗରେ ନୁହେଁ",
+"ଖାଦକରୁ ଉତ୍ପାଦକ ଆଡ଼କୁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉତ୍ପାଦକରୁ ଖାଦକ ଆଡ଼କୁ",
+"explanation": "ପ୍ରଦୂଷକମାନେ ଉତ୍ପାଦକଠାରୁ ଆରମ୍ଭ କରି ଖାଦକ ପର୍ଯ୍ୟନ୍ତ ଗତି କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is the primary pollutant?",
+"questionOdia": "ପ୍ରାଥମିକ ପ୍ରଦୂଷକ କଣ?",
+"options": [
+"ସିଧାସଳଖ ଉତ୍ସରୁ ନିର୍ଗତ ପଦାର୍ଥ",
+"କିଛି ନୁହେଁ",
+"ପରେ ଗଠିତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସିଧାସଳଖ ଉତ୍ସରୁ ନିର୍ଗତ ପଦାର୍ଥ",
+"explanation": "ଯେଉଁ ପଦାର୍ଥ ସିଧାସଳଖ ପ୍ରଦୂଷଣ ଉତ୍ସରୁ ବାହାରେ ତାହା ପ୍ରାଥମିକ ପ୍ରଦୂଷକ।"
+},
+{
+"questionEnglish": "What are the components of the environment?",
+"questionOdia": "ପରିବେଶର ଉପାଦାନ କଣ?",
+"options": [
+"ଜୈବିକ ଓ ଅଜୈବିକ",
+"କେବଳ ଜୈବିକ",
+"କେବଳ ଅଜୈବିକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜୈବିକ ଓ ଅଜୈବିକ",
+"explanation": "ପରିବେଶ ଜୈବିକ ଓ ଅଜୈବିକ ଉପାଦାନରେ ଗଠିତ।"
+},
+{
+"questionEnglish": "What is ecosystem services?",
+"questionOdia": "ପରିବେଶ ତନ୍ତ୍ରର ସେବା କଣ?",
+"options": [
+"ପରିବେଶ ଯୋଗାଉଥିବା ସୁବିଧା (ଯଥା: ଅମ୍ଳଜାନ)",
+"କିଛି ନୁହେଁ",
+"ମଣିଷର କାମ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପରିବେଶ ଯୋଗାଉଥିବା ସୁବିଧା (ଯଥା: ଅମ୍ଳଜାନ)",
+"explanation": "ପରିବେଶ ମଣିଷ ଓ ଜୀବଙ୍କୁ ଯେଉଁ ସେବା ଦିଏ ତାକୁ ପରିବେଶ ତନ୍ତ୍ରର ସେବା କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is sustainable management?",
+"questionOdia": "ସ୍ଥାୟୀ ପରିଚାଳନା କଣ?",
+"options": [
+"ସମ୍ପଦର ସଠିକ୍ ବ୍ୟବହାର",
+"ସମ୍ପଦକୁ ନଷ୍ଟ କରିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମ୍ପଦର ସଠିକ୍ ବ୍ୟବହାର",
+"explanation": "ଭବିଷ୍ୟତକୁ ଦୃଷ୍ଟିରେ ରଖି ସମ୍ପଦକୁ ସଠିକ୍ ଭାବେ ବ୍ୟବହାର କରିବା।"
+},
+{
+"questionEnglish": "Which of these is a greenhouse gas?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଗ୍ରୀନହାଉସ୍ ଗ୍ୟାସ୍?",
+"options": [
+"ମିଥେନ୍",
+"ଅମ୍ଳଜାନ",
+"ନାଇଟ୍ରୋଜେନ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମିଥେନ୍",
+"explanation": "ମିଥେନ୍ ଏକ ପ୍ରମୁଖ ଗ୍ରୀନହାଉସ୍ ଗ୍ୟାସ୍।"
+},
+{
+"questionEnglish": "What is the source of water in nature?",
+"questionOdia": "ପ୍ରକୃତିରେ ଜଳର ଉତ୍ସ କଣ?",
+"options": [
+"ବର୍ଷା",
+"ପ୍ଲାଷ୍ଟିକ",
+"କାଚ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବର୍ଷା",
+"explanation": "ବର୍ଷା ଜଳର ମୁଖ୍ୟ ପ୍ରାକୃତିକ ଉତ୍ସ।"
+},
+{
+"questionEnglish": "What is biological pest control?",
+"questionOdia": "ଜୈବିକ କୀଟନାଶକ କଣ?",
+"options": [
+"ଅନ୍ୟ ଜୀବଙ୍କ ସାହାଯ୍ୟରେ କୀଟ ମାରିବା",
+"ରାସାୟନିକ ମାରିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅନ୍ୟ ଜୀବଙ୍କ ସାହାଯ୍ୟରେ କୀଟ ମାରିବା",
+"explanation": "କୀଟଙ୍କୁ ମାରିବା ପାଇଁ ଅନ୍ୟ ପ୍ରାକୃତିକ ଜୀବଙ୍କୁ ବ୍ୟବହାର କରିବା।"
+},
+{
+"questionEnglish": "What is a major cause of biodiversity loss?",
+"questionOdia": "ଜୈବ ବିବିଧତା ହ୍ରାସର ମୁଖ୍ୟ କାରଣ କଣ?",
+"options": [
+"ଜଙ୍ଗଲ କାଟିବା",
+"ଗଛ ଲଗାଇବା",
+"ସଫା କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜଙ୍ଗଲ କାଟିବା",
+"explanation": "ଜଙ୍ଗଲ କାଟିବା ଦ୍ଵାରା ଜୀବଙ୍କ ବାସସ୍ଥାନ ନଷ୍ଟ ହୋଇ ଜୈବ ବିବିଧତା ହ୍ରାସ ପାଏ।"
+},
+{
+"questionEnglish": "Which gas is used in fire extinguishers?",
+"questionOdia": "ଅଗ୍ନି ନିର୍ବାପକରେ କେଉଁ ଗ୍ୟାସ୍ ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"ଅମ୍ଳଜାନ",
+"ହାଇଡ୍ରୋଜେନ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"explanation": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ନିଆଁକୁ ଅଟକାଇବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "What is the impact of pollution on human health?",
+"questionOdia": "ପ୍ରଦୂଷଣର ମଣିଷ ସ୍ଵାସ୍ଥ୍ୟ ଉପରେ ପ୍ରଭାବ କଣ?",
+"options": [
+"ବିଭିନ୍ନ ରୋଗ ହେବା",
+"ସୁସ୍ଥ ରହିବା",
+"ବଢ଼ିଯିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବିଭିନ୍ନ ରୋଗ ହେବା",
+"explanation": "ପ୍ରଦୂଷଣ ଯୋଗୁଁ ନିଶ୍ୱାସଜନିତ ଓ ଅନ୍ୟ ରୋଗ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the main source of carbon in the atmosphere?",
+"questionOdia": "ବାୟୁମଣ୍ଡଳରେ କାର୍ବନର ମୁଖ୍ୟ ଉତ୍ସ କଣ?",
+"options": [
+"ଶ୍ୱସନ ଓ ଦହନ",
+"କେବଳ ବର୍ଷା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶ୍ୱସନ ଓ ଦହନ",
+"explanation": "ଜୀବଙ୍କ ଶ୍ୱସନ ଓ ଇନ୍ଧନର ଦହନ ଦ୍ଵାରା କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ବାହାରେ।"
+},
+{
+"questionEnglish": "How does ozone layer get damaged?",
+"questionOdia": "ଓଜୋନ୍ ସ୍ତର କିପରି ନଷ୍ଟ ହୁଏ?",
+"options": [
+"CFC ଯୋଗୁଁ",
+"ଅମ୍ଳଜାନ ଯୋଗୁଁ",
+"ବର୍ଷା ଯୋଗୁଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "CFC ଯୋଗୁଁ",
+"explanation": "CFC ଗ୍ୟାସ୍ ଓଜୋନ୍ ଅଣୁକୁ ନଷ୍ଟ କରେ।"
+},
+{
+"questionEnglish": "Is plastic bad for the environment?",
+"questionOdia": "ପ୍ଲାଷ୍ଟିକ ପରିବେଶ ପାଇଁ କଣ ଖରାପ?",
+"options": [
+"ହଁ",
+"ନା",
+"କହି ହେବ ନାହିଁ",
+"ଅଧା ସତ"
+],
+"answer": "ହଁ",
+"explanation": "ପ୍ଲାଷ୍ଟିକ ବହୁତ କାଳ ପର୍ଯ୍ୟନ୍ତ ରହି ପରିବେଶ ନଷ୍ଟ କରେ।"
+}
 ]
