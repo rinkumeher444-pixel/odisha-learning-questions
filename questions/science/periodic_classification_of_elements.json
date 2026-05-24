@@ -272,5 +272,264 @@
     "options": ["କାର୍ବନ ଡାଇଅକ୍ସାଇଡ", "ଅକ୍ସିଜେନ", "ନାଇଟ୍ରୋଜେନ", "ହାଇଡ୍ରୋଜେନ"],
     "answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ",
     "explanation": "CO2 ଗ୍ରୀନହାଉସ ଗ୍ୟାସ ଅଟେ।"
+  },
+  {
+    "questionEnglish": "What is reflection of light?",
+    "questionOdia": "ଆଲୋକର ପ୍ରତିଫଳନ କ’ଣ?",
+    "options": ["ଆଲୋକ ଫେରିଆସିବା", "ଆଲୋକ ଭାଙ୍ଗିବା", "ଆଲୋକ ଶୋଷଣ", "ଆଲୋକ ବିକୀରଣ"],
+    "answer": "ଆଲୋକ ଫେରିଆସିବା",
+    "explanation": "ଆଲୋକ କୌଣସି ପୃଷ୍ଠରୁ ଫେରିଆସିବାକୁ ପ୍ରତିଫଳନ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which mirror is used in vehicles?",
+    "questionOdia": "ଯାନବାହନରେ କେଉଁ ଦର୍ପଣ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": ["ଉତ୍ତଳ ଦର୍ପଣ", "ଅବତଳ ଦର୍ପଣ", "ସମତଳ ଦର୍ପଣ", "ଗୋଲକୀୟ ଦର୍ପଣ"],
+    "answer": "ଉତ୍ତଳ ଦର୍ପଣ",
+    "explanation": "ଉତ୍ତଳ ଦର୍ପଣ ଅଧିକ ଅଞ୍ଚଳ ଦେଖାଏ।"
+  },
+  {
+    "questionEnglish": "Which mirror is used by dentists?",
+    "questionOdia": "ଦନ୍ତ ଚିକିତ୍ସକ କେଉଁ ଦର୍ପଣ ବ୍ୟବହାର କରନ୍ତି?",
+    "options": ["ଅବତଳ ଦର୍ପଣ", "ଉତ୍ତଳ ଦର୍ପଣ", "ସମତଳ ଦର୍ପଣ", "ସାଧାରଣ କାଚ"],
+    "answer": "ଅବତଳ ଦର୍ପଣ",
+    "explanation": "ଅବତଳ ଦର୍ପଣ ବଡ଼ ପ୍ରତିଛବି ଦେଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the angle of incidence?",
+    "questionOdia": "ଆପତନ କୋଣ କ’ଣ?",
+    "options": ["ଆପତିତ କିରଣ ଓ ଅଭିଲମ୍ବ ମଧ୍ୟର କୋଣ", "ପ୍ରତିଫଳିତ କିରଣ ଓ ପୃଷ୍ଠ ମଧ୍ୟର କୋଣ", "ଦୁଇ କିରଣ ମଧ୍ୟର କୋଣ", "ଆଲୋକ ଭାଙ୍ଗିବା କୋଣ"],
+    "answer": "ଆପତିତ କିରଣ ଓ ଅଭିଲମ୍ବ ମଧ୍ୟର କୋଣ",
+    "explanation": "ଆପତିତ କିରଣ ଓ ଅଭିଲମ୍ବ ମଧ୍ୟର କୋଣକୁ ଆପତନ କୋଣ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "According to reflection law, angle of incidence is equal to?",
+    "questionOdia": "ପ୍ରତିଫଳନ ନିୟମ ଅନୁସାରେ ଆପତନ କୋଣ କାହା ସମାନ?",
+    "options": ["ପ୍ରତିଫଳନ କୋଣ", "ପ୍ରତିସରଣ କୋଣ", "ସମାଲୋଚନା କୋଣ", "ବିଚ୍ୟୁତି କୋଣ"],
+    "answer": "ପ୍ରତିଫଳନ କୋଣ",
+    "explanation": "ଆପତନ କୋଣ ଓ ପ୍ରତିଫଳନ କୋଣ ସମାନ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "What type of image is formed by plane mirror?",
+    "questionOdia": "ସମତଳ ଦର୍ପଣ କେମିତି ପ୍ରତିଛବି ତିଆରି କରେ?",
+    "options": ["ଆଭାସୀ ଓ ସିଧା", "ବାସ୍ତବ ଓ ଓଲଟା", "ବାସ୍ତବ ଓ ସିଧା", "ଆଭାସୀ ଓ ଓଲଟା"],
+    "answer": "ଆଭାସୀ ଓ ସିଧା",
+    "explanation": "ସମତଳ ଦର୍ପଣ ସଦା ଆଭାସୀ ଓ ସିଧା ପ୍ରତିଛବି ଦେଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the focal length of plane mirror?",
+    "questionOdia": "ସମତଳ ଦର୍ପଣର ଫୋକାଲ ଦୂରତା କେତେ?",
+    "options": ["ଅସୀମ", "ଶୂନ୍ୟ", "1 ସେମି", "10 ସେମି"],
+    "answer": "ଅସୀମ",
+    "explanation": "ସମତଳ ଦର୍ପଣର ବକ୍ରତା ତ୍ରଜ୍ୟା ଅସୀମ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which mirror can form real image?",
+    "questionOdia": "କେଉଁ ଦର୍ପଣ ବାସ୍ତବ ପ୍ରତିଛବି ତିଆରି କରିପାରେ?",
+    "options": ["ଅବତଳ ଦର୍ପଣ", "ଉତ୍ତଳ ଦର୍ପଣ", "ସମତଳ ଦର୍ପଣ", "କାଚ"],
+    "answer": "ଅବତଳ ଦର୍ପଣ",
+    "explanation": "ଅବତଳ ଦର୍ପଣ ବାସ୍ତବ ପ୍ରତିଛବି ଦେଇପାରେ।"
+  },
+  {
+    "questionEnglish": "What is refraction of light?",
+    "questionOdia": "ଆଲୋକର ପ୍ରତିସରଣ କ’ଣ?",
+    "options": ["ଆଲୋକ ବାଙ୍କିଯିବା", "ଆଲୋକ ଫେରିଆସିବା", "ଆଲୋକ ଶୋଷଣ", "ଆଲୋକ ବିକୀରଣ"],
+    "answer": "ଆଲୋକ ବାଙ୍କିଯିବା",
+    "explanation": "ଆଲୋକ ଏକ ମାଧ୍ୟମରୁ ଅନ୍ୟ ମାଧ୍ୟମକୁ ଯାଇ ବାଙ୍କିଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which lens is thicker at middle?",
+    "questionOdia": "କେଉଁ ଲେନ୍ସ ମଝିରେ ମୋଟା ଥାଏ?",
+    "options": ["ଉତ୍ତଳ ଲେନ୍ସ", "ଅବତଳ ଲେନ୍ସ", "ସମତଳ ଲେନ୍ସ", "ବକ୍ର ଲେନ୍ସ"],
+    "answer": "ଉତ୍ତଳ ଲେନ୍ସ",
+    "explanation": "ଉତ୍ତଳ ଲେନ୍ସ ମଝିରେ ମୋଟା ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Which lens is thinner at middle?",
+    "questionOdia": "କେଉଁ ଲେନ୍ସ ମଝିରେ ପତଳା ଥାଏ?",
+    "options": ["ଅବତଳ ଲେନ୍ସ", "ଉତ୍ତଳ ଲେନ୍ସ", "ସମତଳ ଲେନ୍ସ", "ଗୋଲକୀୟ ଲେନ୍ସ"],
+    "answer": "ଅବତଳ ଲେନ୍ସ",
+    "explanation": "ଅବତଳ ଲେନ୍ସ ମଝିରେ ପତଳା ଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which lens is called converging lens?",
+    "questionOdia": "କେଉଁ ଲେନ୍ସକୁ ଅଭିସାରୀ ଲେନ୍ସ କୁହାଯାଏ?",
+    "options": ["ଉତ୍ତଳ ଲେନ୍ସ", "ଅବତଳ ଲେନ୍ସ", "ସମତଳ ଲେନ୍ସ", "ଦର୍ପଣ"],
+    "answer": "ଉତ୍ତଳ ଲେନ୍ସ",
+    "explanation": "ଉତ୍ତଳ ଲେନ୍ସ ଆଲୋକକୁ ଏକତ୍ର କରେ।"
+  },
+  {
+    "questionEnglish": "Which lens is called diverging lens?",
+    "questionOdia": "କେଉଁ ଲେନ୍ସକୁ ଅପସାରୀ ଲେନ୍ସ କୁହାଯାଏ?",
+    "options": ["ଅବତଳ ଲେନ୍ସ", "ଉତ୍ତଳ ଲେନ୍ସ", "ସମତଳ ଲେନ୍ସ", "ଦର୍ପଣ"],
+    "answer": "ଅବତଳ ଲେନ୍ସ",
+    "explanation": "ଅବତଳ ଲେନ୍ସ ଆଲୋକକୁ ଛିତରାଇ ଦେଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the SI unit of power of lens?",
+    "questionOdia": "ଲେନ୍ସର କ୍ଷମତାର SI ଏକକ କ’ଣ?",
+    "options": ["ଡାଇଅପ୍ଟର", "ୱାଟ", "ଜୁଲ", "ମିଟର"],
+    "answer": "ଡାଇଅପ୍ଟର",
+    "explanation": "ଲେନ୍ସ କ୍ଷମତାର ଏକକ ଡାଇଅପ୍ଟର।"
+  },
+  {
+    "questionEnglish": "What is the power of lens with focal length 1 m?",
+    "questionOdia": "1 ମିଟର ଫୋକାଲ ଦୂରତା ବିଶିଷ୍ଟ ଲେନ୍ସର କ୍ଷମତା କେତେ?",
+    "options": ["1 ଡାଇଅପ୍ଟର", "2 ଡାଇଅପ୍ଟର", "0 ଡାଇଅପ୍ଟର", "10 ଡାଇଅପ୍ଟର"],
+    "answer": "1 ଡାଇଅପ୍ଟର",
+    "explanation": "P = 1/f ସୂତ୍ର ଅନୁସାରେ କ୍ଷମତା 1D।"
+  },
+  {
+    "questionEnglish": "Which defect is corrected by concave lens?",
+    "questionOdia": "କେଉଁ ଦୃଷ୍ଟି ଦୋଷ ଅବତଳ ଲେନ୍ସରେ ସଠିକ ହୁଏ?",
+    "options": ["ନିକଟ ଦୃଷ୍ଟି ଦୋଷ", "ଦୂର ଦୃଷ୍ଟି ଦୋଷ", "ପ୍ରେସବାଓପିଆ", "ମୋତିଆବିନ୍ଦୁ"],
+    "answer": "ନିକଟ ଦୃଷ୍ଟି ଦୋଷ",
+    "explanation": "ନିକଟ ଦୃଷ୍ଟି ଦୋଷରେ ଅବତଳ ଲେନ୍ସ ବ୍ୟବହୃତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Which defect is corrected by convex lens?",
+    "questionOdia": "କେଉଁ ଦୃଷ୍ଟି ଦୋଷ ଉତ୍ତଳ ଲେନ୍ସରେ ସଠିକ ହୁଏ?",
+    "options": ["ଦୂର ଦୃଷ୍ଟି ଦୋଷ", "ନିକଟ ଦୃଷ୍ଟି ଦୋଷ", "ବର୍ଣ୍ଣାନ୍ଧତା", "ମୋତିଆବିନ୍ଦୁ"],
+    "answer": "ଦୂର ଦୃଷ୍ଟି ଦୋଷ",
+    "explanation": "ଦୂର ଦୃଷ୍ଟି ଦୋଷକୁ ଉତ୍ତଳ ଲେନ୍ସ ସଠିକ କରେ।"
+  },
+  {
+    "questionEnglish": "What is the speed of light in vacuum?",
+    "questionOdia": "ଶୂନ୍ୟରେ ଆଲୋକର ବେଗ କେତେ?",
+    "options": ["3×10^8 m/s", "3×10^6 m/s", "3×10^5 m/s", "3×10^7 m/s"],
+    "answer": "3×10^8 m/s",
+    "explanation": "ଶୂନ୍ୟରେ ଆଲୋକର ବେଗ 3×10^8 m/s।"
+  },
+  {
+    "questionEnglish": "Which color deviates least in prism?",
+    "questionOdia": "ପ୍ରିଜମରେ କେଉଁ ରଙ୍ଗ ସବୁଠାରୁ କମ ବିଚ୍ୟୁତ ହୁଏ?",
+    "options": ["ଲାଲ", "ବଙ୍ଗା", "ନୀଳ", "ସବୁଜ"],
+    "answer": "ଲାଲ",
+    "explanation": "ଲାଲ ଆଲୋକର ତରଙ୍ଗଦୈର୍ଘ୍ୟ ଅଧିକ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which color deviates most in prism?",
+    "questionOdia": "ପ୍ରିଜମରେ କେଉଁ ରଙ୍ଗ ସବୁଠାରୁ ଅଧିକ ବିଚ୍ୟୁତ ହୁଏ?",
+    "options": ["ବଙ୍ଗା", "ଲାଲ", "ହଳଦିଆ", "କମଳା"],
+    "answer": "ବଙ୍ଗା",
+    "explanation": "ବଙ୍ଗା ଆଲୋକର ତରଙ୍ଗଦୈର୍ଘ୍ୟ କମ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is dispersion of light?",
+    "questionOdia": "ଆଲୋକର ବିକୀରଣ କ’ଣ?",
+    "options": ["ଧଳା ଆଲୋକର ରଙ୍ଗରେ ବିଭାଜନ", "ଆଲୋକ ଶୋଷଣ", "ଆଲୋକ ପ୍ରତିଫଳନ", "ଆଲୋକ ପ୍ରତିସରଣ"],
+    "answer": "ଧଳା ଆଲୋକର ରଙ୍ଗରେ ବିଭାଜନ",
+    "explanation": "ଧଳା ଆଲୋକ ପ୍ରିଜମରେ ସାତ ରଙ୍ଗରେ ବିଭକ୍ତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "How many colors are present in rainbow?",
+    "questionOdia": "ଇନ୍ଦ୍ରଧନୁରେ କେତେଟି ରଙ୍ଗ ଥାଏ?",
+    "options": ["7", "5", "6", "8"],
+    "answer": "7",
+    "explanation": "ଇନ୍ଦ୍ରଧନୁରେ ସାତଟି ରଙ୍ଗ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which mirror is used as shaving mirror?",
+    "questionOdia": "ଦାଢ଼ି କାଟିବା ଦର୍ପଣ ଭାବେ କେଉଁ ଦର୍ପଣ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": ["ଅବତଳ ଦର୍ପଣ", "ଉତ୍ତଳ ଦର୍ପଣ", "ସମତଳ ଦର୍ପଣ", "ଗୋଲକୀୟ ଦର୍ପଣ"],
+    "answer": "ଅବତଳ ଦର୍ପଣ",
+    "explanation": "ଅବତଳ ଦର୍ପଣ ବଡ଼ ପ୍ରତିଛବି ଦେଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the unit of focal length?",
+    "questionOdia": "ଫୋକାଲ ଦୂରତାର ଏକକ କ’ଣ?",
+    "options": ["ମିଟର", "ସେକେଣ୍ଡ", "ଜୁଲ", "ୱାଟ"],
+    "answer": "ମିଟର",
+    "explanation": "ଫୋକାଲ ଦୂରତା ମିଟରରେ ମାପାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which lens forms only virtual image?",
+    "questionOdia": "କେଉଁ ଲେନ୍ସ ସଦା ଆଭାସୀ ପ୍ରତିଛବି ତିଆରି କରେ?",
+    "options": ["ଅବତଳ ଲେନ୍ସ", "ଉତ୍ତଳ ଲେନ୍ସ", "ଦୁଇଟି", "କୌଣସି ନୁହେଁ"],
+    "answer": "ଅବତଳ ଲେନ୍ସ",
+    "explanation": "ଅବତଳ ଲେନ୍ସ ସଦା ଆଭାସୀ ପ୍ରତିଛବି ଦେଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which mirror always forms diminished image?",
+    "questionOdia": "କେଉଁ ଦର୍ପଣ ସଦା ଛୋଟ ପ୍ରତିଛବି ଦେଇଥାଏ?",
+    "options": ["ଉତ୍ତଳ ଦର୍ପଣ", "ଅବତଳ ଦର୍ପଣ", "ସମତଳ ଦର୍ପଣ", "କୌଣସି ନୁହେଁ"],
+    "answer": "ଉତ୍ତଳ ଦର୍ପଣ",
+    "explanation": "ଉତ୍ତଳ ଦର୍ପଣ ଛୋଟ ଓ ସିଧା ପ୍ରତିଛବି ଦେଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the center of spherical mirror called?",
+    "questionOdia": "ଗୋଲକୀୟ ଦର୍ପଣର କେନ୍ଦ୍ରକୁ କ’ଣ କୁହାଯାଏ?",
+    "options": ["ବକ୍ରତା କେନ୍ଦ୍ର", "ଧ୍ରୁବ", "ଫୋକସ", "ଅକ୍ଷ"],
+    "answer": "ବକ୍ରତା କେନ୍ଦ୍ର",
+    "explanation": "ଗୋଲକର କେନ୍ଦ୍ରକୁ ବକ୍ରତା କେନ୍ଦ୍ର କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the distance between pole and focus called?",
+    "questionOdia": "ଧ୍ରୁବ ଓ ଫୋକସ ମଧ୍ୟର ଦୂରତାକୁ କ’ଣ କୁହାଯାଏ?",
+    "options": ["ଫୋକାଲ ଦୂରତା", "ବକ୍ରତା ତ୍ରଜ୍ୟା", "ଅକ୍ଷ", "ବ୍ୟାସ"],
+    "answer": "ଫୋକାଲ ଦୂରତା",
+    "explanation": "ଧ୍ରୁବ ଓ ଫୋକସ ମଧ୍ୟର ଦୂରତା ହେଉଛି ଫୋକାଲ ଦୂରତା।"
+  },
+  {
+    "questionEnglish": "What is the relation between radius of curvature and focal length?",
+    "questionOdia": "ବକ୍ରତା ତ୍ରଜ୍ୟା ଓ ଫୋକାଲ ଦୂରତାର ସମ୍ବନ୍ଧ କ’ଣ?",
+    "options": ["R=2f", "R=f/2", "R=f", "R=4f"],
+    "answer": "R=2f",
+    "explanation": "ଗୋଲକୀୟ ଦର୍ପଣ ପାଇଁ R = 2f।"
+  },
+  {
+    "questionEnglish": "Which phenomenon causes twinkling of stars?",
+    "questionOdia": "ତାରା ଟିମିଟିମି କରିବାର କାରଣ କ’ଣ?",
+    "options": ["ବାୟୁମଣ୍ଡଳୀୟ ପ୍ରତିସରଣ", "ପ୍ରତିଫଳନ", "ବିକୀରଣ", "ଶୋଷଣ"],
+    "answer": "ବାୟୁମଣ୍ଡଳୀୟ ପ୍ରତିସରଣ",
+    "explanation": "ବାୟୁମଣ୍ଡଳରେ ଆଲୋକ ବାଙ୍କିଯାଏ।"
+  },
+  {
+    "questionEnglish": "Why does sky appear blue?",
+    "questionOdia": "ଆକାଶ ନୀଳ ଦେଖାଯାଇବାର କାରଣ କ’ଣ?",
+    "options": ["ଆଲୋକର ବିକୀରଣ", "ପ୍ରତିଫଳନ", "ପ୍ରତିସରଣ", "ଶୋଷଣ"],
+    "answer": "ଆଲୋକର ବିକୀରଣ",
+    "explanation": "ନୀଳ ଆଲୋକ ଅଧିକ ବିକୀରିତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Which lens is used in magnifying glass?",
+    "questionOdia": "ଆବର୍ଧକ କାଚରେ କେଉଁ ଲେନ୍ସ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": ["ଉତ୍ତଳ ଲେନ୍ସ", "ଅବତଳ ଲେନ୍ସ", "ଦୁଇଟି", "କୌଣସି ନୁହେଁ"],
+    "answer": "ଉତ୍ତଳ ଲେନ୍ସ",
+    "explanation": "ଉତ୍ତଳ ଲେନ୍ସ ବସ୍ତୁକୁ ବଡ଼ ଦେଖାଏ।"
+  },
+  {
+    "questionEnglish": "What is the nature of image formed by convex lens when object is beyond 2F?",
+    "questionOdia": "ବସ୍ତୁ 2F ଠାରୁ ଦୂରେ ଥିଲେ ଉତ୍ତଳ ଲେନ୍ସ କେମିତି ପ୍ରତିଛବି ତିଆରି କରେ?",
+    "options": ["ବାସ୍ତବ ଓ ଛୋଟ", "ଆଭାସୀ ଓ ବଡ଼", "ବାସ୍ତବ ଓ ବଡ଼", "ଆଭାସୀ ଓ ସିଧା"],
+    "answer": "ବାସ୍ତବ ଓ ଛୋଟ",
+    "explanation": "2F ଠାରୁ ଦୂରେ ବସ୍ତୁ ରଖିଲେ ଛୋଟ ପ୍ରତିଛବି ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Which mirror is used in solar furnace?",
+    "questionOdia": "ସୂର୍ଯ୍ୟ ଭଟ୍ଟିରେ କେଉଁ ଦର୍ପଣ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": ["ଅବତଳ ଦର୍ପଣ", "ଉତ୍ତଳ ଦର୍ପଣ", "ସମତଳ ଦର୍ପଣ", "ସାଧାରଣ କାଚ"],
+    "answer": "ଅବତଳ ଦର୍ପଣ",
+    "explanation": "ଅବତଳ ଦର୍ପଣ ଆଲୋକକୁ ଏକତ୍ର କରେ।"
+  },
+  {
+    "questionEnglish": "Which color has maximum wavelength?",
+    "questionOdia": "କେଉଁ ରଙ୍ଗର ତରଙ୍ଗଦୈର୍ଘ୍ୟ ସବୁଠାରୁ ଅଧିକ?",
+    "options": ["ଲାଲ", "ବଙ୍ଗା", "ନୀଳ", "ସବୁଜ"],
+    "answer": "ଲାଲ",
+    "explanation": "ଲାଲ ଆଲୋକର ତରଙ୍ଗଦୈର୍ଘ୍ୟ ସବୁଠାରୁ ଅଧିକ।"
+  },
+  {
+    "questionEnglish": "Which color has minimum wavelength?",
+    "questionOdia": "କେଉଁ ରଙ୍ଗର ତରଙ୍ଗଦୈର୍ଘ୍ୟ ସବୁଠାରୁ କମ?",
+    "options": ["ବଙ୍ଗା", "ଲାଲ", "ହଳଦିଆ", "କମଳା"],
+    "answer": "ବଙ୍ଗା",
+    "explanation": "ବଙ୍ଗା ଆଲୋକର ତରଙ୍ଗଦୈର୍ଘ୍ୟ କମ।"
+  },
+  {
+    "questionEnglish": "What is the full form of VIBGYOR?",
+    "questionOdia": "VIBGYOR ର ପୂର୍ଣ୍ଣ ରୂପ କ’ଣ?",
+    "options": ["ବଙ୍ଗା, ଜାମୁନୀ, ନୀଳ, ସବୁଜ, ହଳଦିଆ, କମଳା, ଲାଲ", "ଲାଲ, ନୀଳ, ସବୁଜ", "ହଳଦିଆ, ସବୁଜ, ଲାଲ", "କମଳା, ନୀଳ, ଲାଲ"],
+    "answer": "ବଙ୍ଗା, ଜାମୁନୀ, ନୀଳ, ସବୁଜ, ହଳଦିଆ, କମଳା, ଲାଲ",
+    "explanation": "ଧଳା ଆଲୋକର ସାତ ରଙ୍ଗକୁ VIBGYOR କୁହାଯାଏ।"
   }
 ]
