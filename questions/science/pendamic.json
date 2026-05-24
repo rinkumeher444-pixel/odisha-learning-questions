@@ -1,122 +1,723 @@
 [
-  {
-    "questionEnglish": "Which virus is responsible for causing the COVID-19 pandemic?",
-    "questionOdia": "କୋଭିଡ୍-୧୯ (COVID-19) ମହାମାରୀ ପାଇଁ କେଉଁ ଭୂତାଣୁ (Virus) ଦାୟୀ?",
-    "options": [
-      "SARS-CoV-2",
-      "MERS-CoV",
-      "SARS-CoV-1",
-      "Influenza A"
-    ],
-    "answer": "SARS-CoV-2",
-    "explanation": "COVID-19 is caused by a coronavirus strain named Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2)."
-  },
-  {
-    "questionEnglish": "In which city was the first case of COVID-19 identified in late 2019?",
-    "questionOdia": "୨୦୧୯ ଶେଷ ଆଡ଼କୁ କେଉଁ ସହରରେ କୋଭିଡ୍-୧୯ ର ପ୍ରଥମ ମାମଲା ଚିହ୍ନଟ ହୋଇଥିଲା?",
-    "options": [
-      "Wuhan, China",
-      "Beijing, China",
-      "Tokyo, Japan",
-      "Seoul, South Korea"
-    ],
-    "answer": "Wuhan, China",
-    "explanation": "The initial outbreak of COVID-19 was reported in Wuhan, Hubei Province, China, in December 2019."
-  },
-  {
-    "questionEnglish": "What is the primary diagnostic test used to detect active SARS-CoV-2 infection by amplifying viral RNA?",
-    "questionOdia": "ଭୂତାଣୁର RNA କୁ ବୃଦ୍ଧି କରି ସକ୍ରିୟ କୋଭିଡ୍ ସଂକ୍ରମଣ ଚିହ୍ନଟ କରିବା ପାଇଁ କେଉଁ ମୁଖ୍ୟ ପରୀକ୍ଷା (Diagnostic Test) ବ୍ୟବହାର କରାଯାଏ?",
-    "options": [
-      "RT-PCR Test",
-      "Rapid Antibody Test",
-      "ELISA Test",
-      "Widal Test"
-    ],
-    "answer": "RT-PCR Test",
-    "explanation": "Reverse Transcription Polymerase Chain Reaction (RT-PCR) is considered the gold standard molecular test for identifying active COVID-19 cases."
-  },
-  {
-    "questionEnglish": "Which organ in the human body is most severely affected by the SARS-CoV-2 virus?",
-    "questionOdia": "SARS-CoV-2 ଭୂତାଣୁ ଦ୍ୱାରା ମାନବ ଶରୀରର କେଉଁ ଅଙ୍ଗ ସବୁଠାରୁ ଗମ୍ଭୀର ଭାବେ ପ୍ରଭାବିତ ହୋଇଥାଏ?",
-    "options": [
-      "Lungs",
-      "Kidneys",
-      "Liver",
-      "Heart"
-    ],
-    "answer": "Lungs",
-    "explanation": "SARS-CoV-2 primarily targets the respiratory system, attaching to ACE2 receptors in the lungs, which can lead to severe pneumonia and ARDS."
-  },
-  {
-    "questionEnglish": "What type of vaccine is the Pfizer-BioNTech and Moderna COVID-19 vaccine?",
-    "questionOdia": "ଫାଇଜର (Pfizer) ଏବଂ ମଡର୍ଣ୍ଣା (Moderna) ର କୋଭିଡ୍ ଟିକା କେଉଁ ପ୍ରକାରର ଟିକା ଅଟେ?",
-    "options": [
-      "mRNA vaccine",
-      "Viral vector vaccine",
-      "Inactivated virus vaccine",
-      "Protein subunit vaccine"
-    ],
-    "answer": "mRNA vaccine",
-    "explanation": "These vaccines use messenger RNA (mRNA) technology to instruct cells to produce a harmless piece of the viral spike protein, triggering an immune response."
-  },
-  {
-    "questionEnglish": "Which Indian regulatory body approved the emergency use authorization of COVID-19 vaccines like Covishield and Covaxin?",
-    "questionOdia": "କୋଭିସିଲ୍ଡ ଓ କୋଭାକ୍ସିନ୍ ଭଳି କୋଭିଡ୍ ଟିକାର ଜରୁରୀକାଳୀନ ବ୍ୟବହାର ପାଇଁ ଭାରତର କେଉଁ ନିୟାମକ ସଂସ୍ଥା ଅନୁମତି ଦେଇଥିଲା?",
-    "options": [
-      "CDSCO (under DCGI)",
-      "ICMR",
-      "AIIMS",
-      "FSSAI"
-    ],
-    "answer": "CDSCO (under DCGI)",
-    "explanation": "The Drugs Controller General of India (DCGI) heading the Central Drugs Standard Control Organization (CDSCO) gives final drug and vaccine approvals in India."
-  },
-  {
-    "questionEnglish": "The term 'Delta' and 'Omicron' refer to what in the context of COVID-19?",
-    "questionOdia": "କୋଭିଡ୍-୧୯ ପ୍ରସଙ୍ଗରେ 'ଡେଲ୍‌ଟା' (Delta) ଏବଂ 'ଓମିକ୍ରନ୍' (Omicron) ଶବ୍ଦ କାହାକୁ ସୂଚାଏ?",
-    "options": [
-      "Variants of the virus",
-      "Types of vaccines",
-      "Diagnostic machines",
-      "Treatment medicines"
-    ],
-    "answer": "Variants of the virus",
-    "explanation": "Delta and Omicron are names given by the World Health Organization (WHO) to major mutated Variants of Concern (VoC) of the SARS-CoV-2 virus."
-  },
-  {
-    "questionEnglish": "What does the '19' in COVID-19 stand for?",
-    "questionOdia": "କୋଭିଡ୍-୧୯ (COVID-19) ରେ ଥିବା '୧୯' କାହାକୁ ସୂଚାଏ?",
-    "options": [
-      "The year 2019 when it was discovered",
-      "19th strain of coronavirus",
-      "19 symptoms of the disease",
-      "The age group most affected"
-    ],
-    "answer": "The year 2019 when it was discovered",
-    "explanation": "COVID-19 stands for Corona Virus Disease 2019, reflecting the year the outbreak was first identified."
-  },
-  {
-    "questionEnglish": "Which device was widely used during the pandemic to measure oxygen saturation levels in a patient's blood non-invasively?",
-    "questionOdia": "ମହାମାରୀ ସମୟରେ ରୋଗୀର ରକ୍ତରେ ଅମ୍ଳଜାନର ମାତ୍ରା ମାପିବା ପାଇଁ କେଉଁ ଯନ୍ତ୍ର ବହୁଳ ଭାବେ ବ୍ୟବହୃତ ହୋଇଥିଲା?",
-    "options": [
-      "Pulse Oximeter",
-      "Sphygmomanometer",
-      "Thermometer",
-      "Glucometer"
-    ],
-    "answer": "Pulse Oximeter",
-    "explanation": "A pulse oximeter is a small device clipped onto a finger that uses light absorption to monitor blood oxygen saturation (SpO2) levels."
-  },
-  {
-    "questionEnglish": "What condition describes the long-term symptoms that persist for weeks or months after recovering from the acute COVID-19 infection?",
-    "questionOdia": "କୋଭିଡ୍ ସଂକ୍ରମଣରୁ ସୁସ୍ଥ ହେବାର ସପ୍ତାହ ବା ମାସ ପରେ ମଧ୍ୟ ରହିଯାଉଥିବା ଦୀର୍ଘକାଳୀନ ଲକ୍ଷଣକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Long COVID",
-      "Acute Corona",
-      "Post-viral immunity",
-      "Chronic influenza"
-    ],
-    "answer": "Long COVID",
-    "explanation": "Long COVID (also known as post-COVID syndrome) refers to a range of ongoing, returning, or new health problems people experience after their initial recovery."
-  }
+{
+"questionEnglish": "What is the full name of the virus that causes COVID-19?",
+"questionOdia": "COVID-19 କୁ କେଉଁ ଭୂତାଣୁ ସୃଷ୍ଟି କରେ?",
+"options": ["SARS-CoV-2", "H1N1", "MERS-CoV", "Ebola"],
+"answer": "SARS-CoV-2",
+"explanation": "COVID-19 ରୋଗ SARS-CoV-2 ନାମକ ଭୂତାଣୁ ଦ୍ଵାରା ବ୍ୟାପିଥାଏ।"
+},
+{
+"questionEnglish": "From which city was the first case of COVID-19 reported?",
+"questionOdia": "COVID-19 ର ପ୍ରଥମ ମାମଲା କେଉଁ ସହରରୁ ରିପୋର୍ଟ କରାଯାଇଥିଲା?",
+"options": ["ବେଜିଂ", "ଉହାନ", "ସାଂଘାଇ", "ବୁହାନ"],
+"answer": "ଉହାନ",
+"explanation": "ଚୀନର ଉହାନ ସହରରୁ ପ୍ରଥମେ ଏହି ଭୂତାଣୁ ଚିହ୍ନଟ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What does the '19' in COVID-19 stand for?",
+"questionOdia": "COVID-19 ରେ '19' କାହାକୁ ସୂଚାଏ?",
+"options": ["ବର୍ଷ 2019", "19 ପ୍ରକାର ଭୂତାଣୁ", "19 ଦିନର କ୍ଵାରେଣ୍ଟିନ୍", "19 ନମ୍ବର ଷ୍ଟ୍ରେନ୍"],
+"answer": "ବର୍ଷ 2019",
+"explanation": "2019 ମସିହାରେ ଏହି ଭୂତାଣୁ ପ୍ରଥମେ ଚିହ୍ନଟ ହୋଇଥିବାରୁ ଏହାକୁ COVID-19 କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which organ of the human body is primarily affected by COVID-19?",
+"questionOdia": "COVID-19 ମାନବ ଶରୀରର କେଉଁ ଅଙ୍ଗକୁ ପ୍ରଧାନତଃ ପ୍ରଭାବିତ କରେ?",
+"options": ["ହୃଦୟ", "ଫୁସଫୁସ", "ବୃକ୍କ", "ଯକୃତ"],
+"answer": "ଫୁସଫୁସ",
+"explanation": "COVID-19 ମୁଖ୍ୟତଃ ଶ୍ଵାସତନ୍ତ୍ରକୁ ପ୍ରଭାବିତ କରି ଫୁସଫୁସରେ ସମସ୍ୟା ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "What is the most common symptom of COVID-19?",
+"questionOdia": "COVID-19 ର ସବୁଠାରୁ ସାଧାରଣ ଲକ୍ଷଣ କ’ଣ?",
+"options": ["କାଶ", "ଜ୍ଵର", "ଶ୍ଵାସକଷ୍ଟ", "ଉପରୋକ୍ତ ସମସ୍ତ"],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ଜ୍ଵର, ଶୁଖିଲା କାଶ ଏବଂ ଶ୍ଵାସକଷ୍ଟ COVID-19 ର ମୁଖ୍ୟ ଲକ୍ଷଣ।"
+},
+{
+"questionEnglish": "Which organization declared COVID-19 a pandemic?",
+"questionOdia": "କେଉଁ ସଂସ୍ଥା COVID-19 କୁ ବିଶ୍ଵମହାମାରୀ ଭାବେ ଘୋଷଣା କରିଥିଲା?",
+"options": ["WHO", "UNO", "UNICEF", "Red Cross"],
+"answer": "WHO",
+"explanation": "ବିଶ୍ଵ ସ୍ଵାସ୍ଥ୍ୟ ସଂଗଠନ (WHO) 2020 ମାର୍ଚ୍ଚରେ COVID-19 କୁ ମହାମାରୀ ଘୋଷଣା କରିଥିଲା।"
+},
+{
+"questionEnglish": "What is the term used for keeping infected people away from healthy people?",
+"questionOdia": "ସଂକ୍ରମିତ ବ୍ୟକ୍ତିଙ୍କୁ ସୁସ୍ଥ ବ୍ୟକ୍ତିଙ୍କଠାରୁ ଦୂରରେ ରଖିବା ପ୍ରକ୍ରିୟାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": ["ଆଇସୋଲେସନ", "ଭେକସିନେସନ", "ସାନିଟାଇଜେସନ", "ପ୍ରିଭେନସନ"],
+"answer": "ଆଇସୋଲେସନ",
+"explanation": "ସଂକ୍ରମଣ ବ୍ୟାପିବା ରୋକିବା ପାଇଁ ସଂକ୍ରମିତଙ୍କୁ ଅଲଗା ରଖିବାକୁ ଆଇସୋଲେସନ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which test is used to detect COVID-19?",
+"questionOdia": "COVID-19 ଚିହ୍ନଟ ପାଇଁ କେଉଁ ପରୀକ୍ଷା କରାଯାଏ?",
+"options": ["RT-PCR", "Blood Test", "Urine Test", "X-Ray"],
+"answer": "RT-PCR",
+"explanation": "RT-PCR ପରୀକ୍ଷା COVID-19 ଭୂତାଣୁ ଚିହ୍ନଟ କରିବା ପାଇଁ ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "What should be the minimum distance maintained during social distancing?",
+"questionOdia": "ସାମାଜିକ ଦୂରତା ରକ୍ଷା କରିବା ସମୟରେ ସର୍ବନିମ୍ନ କେତେ ଦୂରତା ରହିବା ଉଚିତ?",
+"options": ["1 ଫୁଟ", "3 ଫୁଟ", "6 ଫୁଟ", "10 ଫୁଟ"],
+"answer": "6 ଫୁଟ",
+"explanation": "ସଂକ୍ରମଣରୁ ବର୍ତ୍ତିବା ପାଇଁ ଅନ୍ୟମାନଙ୍କଠାରୁ ପ୍ରାୟ 6 ଫୁଟ (2 ମିଟର) ଦୂରତା ରଖିବା ଉଚିତ।"
+},
+{
+"questionEnglish": "Which of the following helps to kill the virus on hands?",
+"questionOdia": "ହାତରେ ଥିବା ଭୂତାଣୁକୁ ମାରିବାରେ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କ’ଣ ସାହାଯ୍ୟ କରେ?",
+"options": ["ସାବୁନ ଓ ପାଣି", "ଖାଲି ପାଣି", "ବରଫ", "ତେଲ"],
+"answer": "ସାବୁନ ଓ ପାଣି",
+"explanation": "ସାବୁନ ଓ ପାଣିରେ ହାତ ଧୋଇବା ଦ୍ଵାରା ଭୂତାଣୁ ନଷ୍ଟ ହୋଇଯାଏ।"
+},
+{
+"questionEnglish": "What is the full form of PPE kit?",
+"questionOdia": "PPE କିଟ୍ ର ପୂର୍ଣ୍ଣ ରୂପ କ’ଣ?",
+"options": ["Personal Protective Equipment", "Public Protection Equipment", "Private Preventive Equipment", "Personal Preventive Exercise"],
+"answer": "Personal Protective Equipment",
+"explanation": "PPE ର ଅର୍ଥ ହେଉଛି Personal Protective Equipment, ଯାହା ସ୍ଵାସ୍ଥ୍ୟକର୍ମୀମାନଙ୍କୁ ସୁରକ୍ଷା ଦିଏ।"
+},
+{
+"questionEnglish": "Which day is observed as 'Janta Curfew' in India?",
+"questionOdia": "ଭାରତରେ କେଉଁ ଦିନ 'ଜନତା କର୍ଫ୍ୟୁ' ପାଳନ କରାଯାଇଥିଲା?",
+"options": ["22 March 2020", "15 August 2020", "26 January 2020", "2 October 2020"],
+"answer": "22 March 2020",
+"explanation": "22 ମାର୍ଚ୍ଚ 2020 ରେ ଭାରତରେ ପ୍ରଥମ ଥର ପାଇଁ ଜନତା କର୍ଫ୍ୟୁ ପାଳନ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "What is the primary way COVID-19 spreads?",
+"questionOdia": "COVID-19 ମୁଖ୍ୟତଃ କିପରି ବ୍ୟାପିଥାଏ?",
+"options": ["ଶ୍ଵାସକ୍ରିୟା ମାଧ୍ୟମରେ", "ଖାଦ୍ୟ ମାଧ୍ୟମରେ", "ପାଣି ମାଧ୍ୟମରେ", "ମଶା ଦ୍ଵାରା"],
+"answer": "ଶ୍ଵାସକ୍ରିୟା ମାଧ୍ୟମରେ",
+"explanation": "ସଂକ୍ରମିତ ବ୍ୟକ୍ତିଙ୍କ କାଶ କିମ୍ବା ଛିଙ୍କ ଦ୍ଵାରା ନିର୍ଗତ ବୁନ୍ଦା ମାଧ୍ୟମରେ ଏହା ବ୍ୟାପିଥାଏ।"
+},
+{
+"questionEnglish": "What is a 'Containment Zone'?",
+"questionOdia": "'କଣ୍ଟେନମେଣ୍ଟ ଜୋନ୍' କ’ଣ?",
+"options": ["ଯେଉଁଠାରେ ସଂକ୍ରମଣ ଅଧିକ ଥାଏ", "ଖେଳ ପଡ଼ିଆ", "ବିଦ୍ୟାଳୟ", "ହସ୍ପିଟାଲ"],
+"answer": "ଯେଉଁଠାରେ ସଂକ୍ରମଣ ଅଧିକ ଥାଏ",
+"explanation": "ଯେଉଁ ଅଞ୍ଚଳରେ ଅଧିକ ସଂକ୍ରମିତ ଚିହ୍ନଟ ହୁଅନ୍ତି, ସେହି ଅଞ୍ଚଳକୁ ସରକାର କଣ୍ଟେନମେଣ୍ଟ ଜୋନ୍ ଘୋଷଣା କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is the best way to protect oneself from COVID-19?",
+"questionOdia": "COVID-19 ରୁ ନିଜକୁ ରକ୍ଷା କରିବାର ସର୍ବୋତ୍ତମ ଉପାୟ କ’ଣ?",
+"options": ["ମାସ୍କ ପିନ୍ଧିବା", "ହାତ ଧୋଇବା", "ଟୀକାକରଣ", "ଉପରୋକ୍ତ ସମସ୍ତ"],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ମାସ୍କ ପିନ୍ଧିବା, ସାମାଜିକ ଦୂରତା ଏବଂ ଟୀକାକରଣ ହେଉଛି ସୁରକ୍ଷାର ମୁଖ୍ୟ ଉପାୟ।"
+},
+{
+"questionEnglish": "Which enzyme in SARS-CoV-2 helps in replication?",
+"questionOdia": "SARS-CoV-2 ର କେଉଁ ଏନଜାଇମ୍ ଏହାର ବଂଶବୃଦ୍ଧିରେ ସାହାଯ୍ୟ କରେ?",
+"options": ["Polymerase", "Amylase", "Lipase", "Pepsin"],
+"answer": "Polymerase",
+"explanation": "RNA-dependent RNA polymerase ଭୂତାଣୁର ବଂଶବୃଦ୍ଧି ପାଇଁ ଅତ୍ୟାବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "What is 'Asymptomatic' case?",
+"questionOdia": "'ଏସିମ୍ପଟୋମାଟିକ୍' ମାମଲା କ’ଣ?",
+"options": ["ଲକ୍ଷଣ ନଥିବା ବ୍ୟକ୍ତି", "ଅଧିକ ଲକ୍ଷଣ ଥିବା ବ୍ୟକ୍ତି", "ବୟସ୍କ ବ୍ୟକ୍ତି", "ଶିଶୁ"],
+"answer": "ଲକ୍ଷଣ ନଥିବା ବ୍ୟକ୍ତି",
+"explanation": "ଯେଉଁ ସଂକ୍ରମିତ ବ୍ୟକ୍ତିଙ୍କଠାରେ କୌଣସି ଲକ୍ଷଣ ଦେଖାଯାଏ ନାହିଁ, ତାଙ୍କୁ ଏସିମ୍ପଟୋମାଟିକ୍ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which state in India was the first to report a COVID-19 case?",
+"questionOdia": "ଭାରତର କେଉଁ ରାଜ୍ୟରେ ପ୍ରଥମ COVID-19 ମାମଲା ଚିହ୍ନଟ ହୋଇଥିଲା?",
+"options": ["କେରଳ", "ଦିଲ୍ଲୀ", "ମହାରାଷ୍ଟ୍ର", "ତାମିଲନାଡୁ"],
+"answer": "କେରଳ",
+"explanation": "ଭାରତରେ ପ୍ରଥମ COVID-19 ରୋଗୀ କେରଳରେ ଚିହ୍ନଟ ହୋଇଥିଲେ।"
+},
+{
+"questionEnglish": "What was the name of the Indian COVID-19 vaccine developed by Bharat Biotech?",
+"questionOdia": "ଭାରତ ବାୟୋଟେକ୍ ଦ୍ଵାରା ପ୍ରସ୍ତୁତ ଭାରତୀୟ COVID-19 ଟୀକାର ନାମ କ’ଣ?",
+"options": ["କୋଭାକ୍ସିନ", "କୋଭିସିଲ୍ଡ", "ସ୍ପୁଟନିକ୍", "ଫାଇଜର"],
+"answer": "କୋଭାକ୍ସିନ",
+"explanation": "କୋଭାକ୍ସିନ ଭାରତୀୟ କମ୍ପାନୀ ଭାରତ ବାୟୋଟେକ୍ ଦ୍ଵାରା ବିକଶିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Which organization developed Covishield vaccine?",
+"questionOdia": "କୋଭିସିଲ୍ଡ ଟୀକା କେଉଁ ସଂସ୍ଥା ବିକଶିତ କରିଥିଲା?",
+"options": ["Serum Institute of India", "Bharat Biotech", "ICMR", "DRDO"],
+"answer": "Serum Institute of India",
+"explanation": "ସେରମ୍ ଇନଷ୍ଟିଚ୍ୟୁଟ୍ ଅଫ୍ ଇଣ୍ଡିଆ କୋଭିସିଲ୍ଡ ଟୀକା ପ୍ରସ୍ତୁତ କରିଥିଲା।"
+},
+{
+"questionEnglish": "What is the purpose of 'Aarogya Setu' app?",
+"questionOdia": "'ଆରୋଗ୍ୟ ସେତୁ' ଆପ୍ ର ଉଦ୍ଦେଶ୍ୟ କ’ଣ?",
+"options": ["କୋଭିଡ୍ ସଂକ୍ରମଣ ଟ୍ରାକିଂ", "ଅନଲାଇନ୍ ପାଠପଢା", "ଟଙ୍କା ପଠାଇବା", "ଖବର ଦେଖିବା"],
+"answer": "କୋଭିଡ୍ ସଂକ୍ରମଣ ଟ୍ରାକିଂ",
+"explanation": "ଆରୋଗ୍ୟ ସେତୁ ଆପ୍ ଜରିଆରେ ସଂକ୍ରମିତ ବ୍ୟକ୍ତିଙ୍କ ସଂସ୍ପର୍ଶରେ ଆସିବା ସମ୍ପର୍କରେ ସୂଚନା ମିଳୁଥିଲା।"
+},
+{
+"questionEnglish": "What does 'Quarantine' mean?",
+"questionOdia": "'କ୍ଵାରେଣ୍ଟିନ୍' ର ଅର୍ଥ କ’ଣ?",
+"options": ["ଅଲଗା ହୋଇ ରହିବା", "ଟୀକା ନେବା", "ଔଷଧ ଖାଇବା", "ମାସ୍କ ପିନ୍ଧିବା"],
+"answer": "ଅଲଗା ହୋଇ ରହିବା",
+"explanation": "ସମ୍ଭାବ୍ୟ ସଂକ୍ରମିତ ବ୍ୟକ୍ତିଙ୍କୁ ସାମାଜିକ ସଂସ୍ପର୍ଶରୁ ଅଲଗା ରହିବାକୁ କ୍ଵାରେଣ୍ଟିନ୍ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which virus variant was first detected in India?",
+"questionOdia": "ଭାରତରେ ପ୍ରଥମେ କେଉଁ ଭୂତାଣୁ ଭାରିଆଣ୍ଟ ଚିହ୍ନଟ ହୋଇଥିଲା?",
+"options": ["Delta", "Alpha", "Beta", "Gamma"],
+"answer": "Delta",
+"explanation": "ଡେଲ୍ଟା ଭାରିଆଣ୍ଟ ଭାରତରେ ପ୍ରଥମେ ଚିହ୍ନଟ ହୋଇଥିଲା ଯାହା ବହୁତ କ୍ଷତିକାରକ ଥିଲା।"
+},
+{
+"questionEnglish": "What is 'Lockdown'?",
+"questionOdia": "'ଲକଡାଉନ୍' କ’ଣ?",
+"options": ["ଜନସାଧାରଣଙ୍କ ଚଳପ୍ରଚଳ ଉପରେ କଟକଣା", "ସ୍କୁଲ ବନ୍ଦ", "ରାତିରେ ବାହାରକୁ ଯିବା", "ବାଣିଜ୍ୟ ବନ୍ଦ"],
+"answer": "ଜନସାଧାରଣଙ୍କ ଚଳପ୍ରଚଳ ଉପରେ କଟକଣା",
+"explanation": "ମହାମାରୀ ନିୟନ୍ତ୍ରଣ ପାଇଁ ସରକାରଙ୍କ ଦ୍ଵାରା ଲଗାଯାଇଥିବା କଟକଣାକୁ ଲକଡାଉନ୍ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which type of mask is more effective?",
+"questionOdia": "କେଉଁ ପ୍ରକାର ମାସ୍କ ଅଧିକ ଫଳପ୍ରଦ?",
+"options": ["N95", "ସାଧାରଣ କପଡା ମାସ୍କ", "ସର୍ଜିକାଲ ମାସ୍କ", "ରୁମାଲ"],
+"answer": "N95",
+"explanation": "N95 ମାସ୍କ ଭୂତାଣୁ ପ୍ରବେଶକୁ ରୋକିବାରେ ସବୁଠାରୁ ଅଧିକ ଫଳପ୍ରଦ।"
+},
+{
+"questionEnglish": "What is the incubation period of COVID-19?",
+"questionOdia": "COVID-19 ର ଇନକ୍ୟୁବେସନ୍ ଅବଧି କେତେ?",
+"options": ["2-14 ଦିନ", "1-2 ଦିନ", "20-30 ଦିନ", "1 ମାସ"],
+"answer": "2-14 ଦିନ",
+"explanation": "ଭୂତାଣୁ ସଂସ୍ପର୍ଶରେ ଆସିବା ପରେ 2 ରୁ 14 ଦିନ ମଧ୍ୟରେ ଲକ୍ଷଣ ଦେଖାଯାଇଥାଏ।"
+},
+{
+"questionEnglish": "What is 'Community Transmission'?",
+"questionOdia": "'କମ୍ୟୁନିଟି ଟ୍ରାନ୍ସମିସନ୍' କ’ଣ?",
+"options": ["ସଂକ୍ରମଣର ଉତ୍ସ ଜଣା ନଥିବା", "ସଂକ୍ରମିତ ଦେଶରୁ ଆସିବା", "ବ୍ୟକ୍ତିରୁ ବ୍ୟକ୍ତି", "ପଶୁଙ୍କ ମାଧ୍ୟମରେ"],
+"answer": "ସଂକ୍ରମଣର ଉତ୍ସ ଜଣା ନଥିବା",
+"explanation": "ଯେତେବେଳେ ସଂକ୍ରମିତ ବ୍ୟକ୍ତିଙ୍କ ଉତ୍ସ ଅସ୍ପଷ୍ଟ ହୋଇଯାଏ, ତାକୁ କମ୍ୟୁନିଟି ଟ୍ରାନ୍ସମିସନ୍ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Who is at higher risk for COVID-19?",
+"questionOdia": "COVID-19 ପାଇଁ କାହାର ବିପଦ ଅଧିକ?",
+"options": ["ବୃଦ୍ଧ ବ୍ୟକ୍ତି", "ଶିଶୁ", "ଯୁବକ", "ଖେଳାଳି"],
+"answer": "ବୃଦ୍ଧ ବ୍ୟକ୍ତି",
+"explanation": "ବୟସ୍କ ବ୍ୟକ୍ତି ଏବଂ ପୂର୍ବରୁ ଅସୁସ୍ଥ ଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ COVID-19 ଅଧିକ ବିପଜ୍ଜନକ।"
+},
+{
+"questionEnglish": "Which hand sanitizer is effective?",
+"questionOdia": "କେଉଁ ହ୍ୟାଣ୍ଡ ସାନିଟାଇଜର ପ୍ରଭାବଶାଳୀ?",
+"options": ["60% ରୁ ଅଧିକ ଆଲକୋହଲ ଥିବା", "ସୁଗନ୍ଧିତ", "ରଙ୍ଗୀନ", "ବିନା ଆଲକୋହଲ"],
+"answer": "60% ରୁ ଅଧିକ ଆଲକୋହଲ ଥିବା",
+"explanation": "ଭୂତାଣୁ ମାରିବା ପାଇଁ ସାନିଟାଇଜରରେ 60% ରୁ ଅଧିକ ଆଲକୋହଲ ଥିବା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "How does soap kill the virus?",
+"questionOdia": "ସାବୁନ କିପରି ଭୂତାଣୁକୁ ମାରେ?",
+"options": ["ଭୂତାଣୁର ଚର୍ବି ଆସ୍ତରଣ ଭାଙ୍ଗି", "ଭୂତାଣୁକୁ ଖାଇ", "ଭୂତାଣୁକୁ ଜାଳି", "ଭୂତାଣୁକୁ ଶୋଷି"],
+"answer": "ଭୂତାଣୁର ଚର୍ବି ଆସ୍ତରଣ ଭାଙ୍ଗି",
+"explanation": "ସାବୁନରେ ଥିବା ରାସାୟନିକ ପଦାର୍ଥ ଭୂତାଣୁର ଚର୍ବି କବଚକୁ ନଷ୍ଟ କରିଦିଏ।"
+},
+{
+"questionEnglish": "Which state was the first to impose lockdown due to COVID-19?",
+"questionOdia": "COVID-19 ପାଇଁ କେଉଁ ରାଜ୍ୟ ପ୍ରଥମେ ଲକଡାଉନ୍ ଘୋଷଣା କରିଥିଲା?",
+"options": ["ରାଜସ୍ଥାନ", "କେରଳ", "ପଞ୍ଜାବ", "ମହାରାଷ୍ଟ୍ର"],
+"answer": "ରାଜସ୍ଥାନ",
+"explanation": "ଭାରତରେ ରାଜସ୍ଥାନ ପ୍ରଥମ ରାଜ୍ୟ ଯିଏ COVID-19 ପାଇଁ ଲକଡାଉନ୍ ଘୋଷଣା କରିଥିଲା।"
+},
+{
+"questionEnglish": "What does 'Pandemic' mean?",
+"questionOdia": "'ମହାମାରୀ' (Pandemic) ର ଅର୍ଥ କ’ଣ?",
+"options": ["ବିଶ୍ଵବ୍ୟାପୀ ରୋଗ", "ଏକ ଗ୍ରାମର ରୋଗ", "ଏକ ଜିଲ୍ଲାର ରୋଗ", "ଏକ ରାଜ୍ୟର ରୋଗ"],
+"answer": "ବିଶ୍ଵବ୍ୟାପୀ ରୋଗ",
+"explanation": "ଯେଉଁ ରୋଗ ଅନେକ ଦେଶରେ ଏକକାଳୀନ ବ୍ୟାପିଥାଏ, ତାକୁ ମହାମାରୀ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which part of the virus attaches to human cells?",
+"questionOdia": "ଭୂତାଣୁର କେଉଁ ଅଂଶ ମାନବ କୋଷ ସହ ସଂଯୁକ୍ତ ହୁଏ?",
+"options": ["Spike protein", "Tail", "Core", "Lipid layer"],
+"answer": "Spike protein",
+"explanation": "ଭୂତାଣୁର ସ୍ପାଇକ୍ ପ୍ରୋଟିନ୍ ମାନବ କୋଷର ACE2 ରିସେପ୍ଟର ସହ ଯୋଡ଼ି ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the full form of SARS?",
+"questionOdia": "SARS ର ପୂର୍ଣ୍ଣ ରୂପ କ’ଣ?",
+"options": ["Severe Acute Respiratory Syndrome", "Simple Acute Respiratory Syndrome", "Severe Air Respiratory Syndrome", "Systemic Acute Respiratory Syndrome"],
+"answer": "Severe Acute Respiratory Syndrome",
+"explanation": "SARS ର ଅର୍ଥ ହେଉଛି Severe Acute Respiratory Syndrome।"
+},
+{
+"questionEnglish": "What is a 'Booster Dose'?",
+"questionOdia": "'ବୁଷ୍ଟର ଡୋଜ' କ’ଣ?",
+"options": ["ଟୀକାର ଅତିରିକ୍ତ ମାତ୍ରା", "ପ୍ରଥମ ଟୀକା", "ଆଇସୋଲେସନ", "ବିଟାମିନ୍"],
+"answer": "ଟୀକାର ଅତିରିକ୍ତ ମାତ୍ରା",
+"explanation": "ପ୍ରାଥମିକ ଟୀକାକରଣ ପରେ ରୋଗ ପ୍ରତିରୋଧ ଶକ୍ତି ବୃଦ୍ଧି ପାଇଁ ବୁଷ୍ଟର ଡୋଜ ଦିଆଯାଏ।"
+},
+{
+"questionEnglish": "What does 'Symptomatic' mean?",
+"questionOdia": "'ସିମ୍ପଟୋମାଟିକ୍' ର ଅର୍ଥ କ’ଣ?",
+"options": ["ଲକ୍ଷଣ ଥିବା", "ଲକ୍ଷଣ ନଥିବା", "ସୁସ୍ଥ", "ବୟସ୍କ"],
+"answer": "ଲକ୍ଷଣ ଥିବା",
+"explanation": "ଯେଉଁ ରୋଗୀଙ୍କଠାରେ ଜ୍ଵର, କାଶ ଆଦି ଲକ୍ଷଣ ଦେଖାଯାଏ, ସେମାନଙ୍କୁ ସିମ୍ପଟୋମାଟିକ୍ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the purpose of 'Masking'?",
+"questionOdia": "'ମାସ୍କ' ପିନ୍ଧିବାର ଉଦ୍ଦେଶ୍ୟ କ’ଣ?",
+"options": ["ଭୂତାଣୁକୁ ଅଟକାଇବା", "ଫ୍ୟାଶନ", "ଧୂଳିରୁ ବର୍ତ୍ତିବା", "ରଙ୍ଗ ଦେଖାଇବା"],
+"answer": "ଭୂତାଣୁକୁ ଅଟକାଇବା",
+"explanation": "ମାସ୍କ ଆମର ପାଟି ଓ ନାକରୁ ନିର୍ଗତ ବୁନ୍ଦାକୁ ଅଟକାଇ ଭୂତାଣୁ ସଂକ୍ରମଣକୁ ରୋକେ।"
+},
+{
+"questionEnglish": "What does 'Zoonotic' mean in the context of viruses?",
+"questionOdia": "ଭୂତାଣୁ ସନ୍ଦର୍ଭରେ 'ଜୁନୋଟିକ୍' ର ଅର୍ଥ କ’ଣ?",
+"options": ["ପଶୁରୁ ମନୁଷ୍ୟକୁ ବ୍ୟାପୁଥିବା", "ମନୁଷ୍ୟରୁ ମନୁଷ୍ୟ", "ପବନରୁ", "ପାଣିରୁ"],
+"answer": "ପଶୁରୁ ମନୁଷ୍ୟକୁ ବ୍ୟାପୁଥିବା",
+"explanation": "ଯେଉଁ ରୋଗ ପ୍ରାଣୀଙ୍କଠାରୁ ମନୁଷ୍ୟକୁ ସଂକ୍ରମିତ ହୁଏ, ତାକୁ ଜୁନୋଟିକ୍ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is 'Social Distancing'?",
+"questionOdia": "'ସାମାଜିକ ଦୂରତା' କ’ଣ?",
+"options": ["ଲୋକଙ୍କ ସଂସ୍ପର୍ଶରୁ ଦୂରେଇ ରହିବା", "ସାଙ୍ଗ ହେବା", "ବୁଲିବା", "ପାଠ ପଢିବା"],
+"answer": "ଲୋକଙ୍କ ସଂସ୍ପର୍ଶରୁ ଦୂରେଇ ରହିବା",
+"explanation": "ଭୂତାଣୁ ସଂକ୍ରମଣ ରୋକିବା ପାଇଁ ଭିଡ଼ରୁ ଦୂରେଇ ରହିବା ହେଉଛି ସାମାଜିକ ଦୂରତା।"
+},
+{
+"questionEnglish": "What is 'Hydroxychloroquine'?",
+"questionOdia": "'ହାଇଡ୍ରକ୍ସିକ୍ଲୋରୋକୁଇନ୍' କ’ଣ?",
+"options": ["ଏକ ଔଷଧ", "ଏକ ଟୀକା", "ଏକ ଭୂତାଣୁ", "ଏକ ଉପକରଣ"],
+"answer": "ଏକ ଔଷଧ",
+"explanation": "ହାଇଡ୍ରକ୍ସିକ୍ଲୋରୋକୁଇନ୍ ହେଉଛି ଏକ ମ୍ୟାଲେରିଆ ନିରୋଧୀ ଔଷଧ ଯାହା କୋଭିଡ ସମୟରେ ଚର୍ଚ୍ଚାରେ ଥିଲା।"
+},
+{
+"questionEnglish": "Which country provided the Sputnik V vaccine?",
+"questionOdia": "କେଉଁ ଦେଶ ସ୍ପୁଟନିକ୍ V ଟୀକା ପ୍ରଦାନ କରିଥିଲା?",
+"options": ["ଋଷିଆ", "ଆମେରିକା", "ଚୀନ", "ଭାରତ"],
+"answer": "ଋଷିଆ",
+"explanation": "ସ୍ପୁଟନିକ୍ V ହେଉଛି ଋଷିଆ ଦ୍ଵାରା ବିକଶିତ COVID-19 ଟୀକା।"
+},
+{
+"questionEnglish": "What is the full form of mRNA?",
+"questionOdia": "mRNA ର ପୂର୍ଣ୍ଣ ରୂପ କ’ଣ?",
+"options": ["Messenger RNA", "Major RNA", "Micro RNA", "Master RNA"],
+"answer": "Messenger RNA",
+"explanation": "mRNA ର ଅର୍ଥ ହେଉଛି Messenger RNA, ଯାହାକି ଫାଇଜର ଓ ମଡର୍ଣ୍ଣା ଟୀକାରେ ବ୍ୟବହୃତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What is 'RT' in RT-PCR test?",
+"questionOdia": "RT-PCR ପରୀକ୍ଷାରେ 'RT' ର ଅର୍ଥ କ’ଣ?",
+"options": ["Reverse Transcription", "Real Time", "Rapid Test", "Routine Test"],
+"answer": "Reverse Transcription",
+"explanation": "RT-PCR ର ଅର୍ଥ ହେଉଛି Reverse Transcription Polymerase Chain Reaction।"
+},
+{
+"questionEnglish": "What was the main source of the first COVID-19 outbreak?",
+"questionOdia": "COVID-19 ର ପ୍ରଥମ ପ୍ରକୋପର ମୂଳ ଉତ୍ସ କ’ଣ ଥିଲା?",
+"options": ["ବାଦୁଡି", "ମୂଷା", "ବିଲେଇ", "କୁକୁର"],
+"answer": "ବାଦୁଡି",
+"explanation": "ବିଶ୍ଵାସ କରାଯାଏ ଯେ SARS-CoV-2 ବାଦୁଡିରୁ ମନୁଷ୍ୟକୁ ସଂକ୍ରମିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Which state has highest COVID-19 vaccinations in India?",
+"questionOdia": "ଭାରତରେ କେଉଁ ରାଜ୍ୟରେ ସର୍ବାଧିକ କୋଭିଡ୍ ଟୀକାକରଣ ହୋଇଛି?",
+"options": ["ମହାରାଷ୍ଟ୍ର", "ଉତ୍ତର ପ୍ରଦେଶ", "ଗୁଜୁରାଟ", "କର୍ଣ୍ଣାଟକ"],
+"answer": "ଉତ୍ତର ପ୍ରଦେଶ",
+"explanation": "ଜନସଂଖ୍ୟା ଦୃଷ୍ଟିରୁ ଉତ୍ତର ପ୍ରଦେଶରେ ସର୍ବାଧିକ ଟୀକାକରଣ ହୋଇଛି।"
+},
+{
+"questionEnglish": "What is a 'Pulse Oximeter' used for?",
+"questionOdia": "'ପଲ୍ସ ଅକ୍ସିମିଟର' କାହିଁକି ବ୍ୟବହୃତ ହୁଏ?",
+"options": ["ରକ୍ତରେ ଅମ୍ଳଜାନ ମାପିବା", "ରକ୍ତଚାପ", "ତାପମାତ୍ରା", "ହୃଦସ୍ପନ୍ଦନ"],
+"answer": "ରକ୍ତରେ ଅମ୍ଳଜାନ ମାପିବା",
+"explanation": "ଶରୀରରେ ଅମ୍ଳଜାନର ମାତ୍ରା ମାପିବା ପାଇଁ ପଲ୍ସ ଅକ୍ସିମିଟର ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the normal oxygen level in a healthy person?",
+"questionOdia": "ସୁସ୍ଥ ବ୍ୟକ୍ତିଙ୍କ ଶରୀରରେ ସାଧାରଣ ଅମ୍ଳଜାନ ସ୍ତର କେତେ?",
+"options": ["95-100%", "80-90%", "70-80%", "60-70%"],
+"answer": "95-100%",
+"explanation": "ସୁସ୍ଥ ବ୍ୟକ୍ତିଙ୍କ ଅମ୍ଳଜାନ ସ୍ତର ସାଧାରଣତଃ 95% ରୁ 100% ରହିବା ଉଚିତ।"
+},
+{
+"questionEnglish": "What is the role of the immune system?",
+"questionOdia": "ରୋଗ ପ୍ରତିରୋଧ ଶକ୍ତିର ଭୂମିକା କ’ଣ?",
+"options": ["ଭୂତାଣୁ ସହ ଲଢିବା", "ଖାଦ୍ୟ ହଜମ", "ଶ୍ଵାସକ୍ରିୟା", "ରକ୍ତ ତିଆରି"],
+"answer": "ଭୂତାଣୁ ସହ ଲଢିବା",
+"explanation": "ରୋଗ ପ୍ରତିରୋଧ ଶକ୍ତି ଶରୀରକୁ ବିଭିନ୍ନ ଭୂତାଣୁ ଓ ଜୀବାଣୁଙ୍କଠାରୁ ସୁରକ୍ଷା ଦିଏ।"
+},
+{
+"questionEnglish": "Which nutrient helps improve immunity?",
+"questionOdia": "କେଉଁ ପୁଷ୍ଟିକର ଉପାଦାନ ରୋଗ ପ୍ରତିରୋଧ ଶକ୍ତି ବଢାଏ?",
+"options": ["ଭିଟାମିନ୍ ସି", "କାର୍ବୋହାଇଡ୍ରେଟ", "ଫ୍ୟାଟ୍", "ପ୍ରୋଟିନ୍"],
+"answer": "ଭିଟାମିନ୍ ସି",
+"explanation": "ଭିଟାମିନ୍ ସି ରୋଗ ପ୍ରତିରୋଧ ଶକ୍ତି ବୃଦ୍ଧିରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "What is 'Self-Isolation'?",
+"questionOdia": "'ସେଲ୍ଫ-ଆଇସୋଲେସନ୍' କ’ଣ?",
+"options": ["ନିଜକୁ ଅନ୍ୟମାନଙ୍କଠାରୁ ଅଲଗା ରଖିବା", "ଭ୍ରମଣ", "ବ୍ୟାୟାମ", "ଖେଳ"],
+"answer": "ନିଜକୁ ଅନ୍ୟମାନଙ୍କଠାରୁ ଅଲଗା ରଖିବା",
+"explanation": "ଲକ୍ଷଣ ଥିଲେ ବ୍ୟକ୍ତି ନିଜକୁ ନିଜେ ଘରର ଏକ କୋଠରୀରେ ଅଲଗା ରଖିବାକୁ ସେଲ୍ଫ-ଆଇସୋଲେସନ୍ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the full form of ICMR?",
+"questionOdia": "ICMR ର ପୂର୍ଣ୍ଣ ରୂପ କ’ଣ?",
+"options": ["Indian Council of Medical Research", "Indian Centre of Medical Research", "Indian Council of Medicine Research", "Indian Centre of Medicine Report"],
+"answer": "Indian Council of Medical Research",
+"explanation": "ICMR ହେଉଛି ଭାରତର ଚିକିତ୍ସା ଅନୁସନ୍ଧାନ ପାଇଁ ସର୍ବୋଚ୍ଚ ସଂସ୍ଥା।"
+},
+{
+"questionEnglish": "Which virus variant causes 'Black Fungus' concern?",
+"questionOdia": "କେଉଁ ରୋଗ ପରେ 'ବ୍ଲାକ ଫଙ୍ଗସ' ସମସ୍ୟା ଦେଖାଯାଇଥିଲା?",
+"options": ["COVID-19", "ଡେଙ୍ଗୁ", "ମ୍ୟାଲେରିଆ", "ଟାଇଫଏଡ"],
+"answer": "COVID-19",
+"explanation": "COVID-19 ରୁ ସୁସ୍ଥ ହେବା ପରେ କିଛି ରୋଗୀଙ୍କଠାରେ ବ୍ଲାକ ଫଙ୍ଗସ ଦେଖାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "What is a vaccine?",
+"questionOdia": "ଟୀକା କ’ଣ?",
+"options": ["ରୋଗ ପ୍ରତିରୋଧକ ଔଷଧ", "ଭୂତାଣୁ", "ଖାଦ୍ୟ", "ପାଣି"],
+"answer": "ରୋଗ ପ୍ରତିରୋଧକ ଔଷଧ",
+"explanation": "ଟୀକା ଶରୀରରେ ରୋଗ ପ୍ରତିରୋଧ ଶକ୍ତି ସୃଷ୍ଟି କରି ରୋଗକୁ ରୋକିଥାଏ।"
+},
+{
+"questionEnglish": "What are the common side effects of COVID vaccine?",
+"questionOdia": "COVID ଟୀକାର ସାଧାରଣ ପାର୍ଶ୍ଵ ପ୍ରତିକ୍ରିୟା କ’ଣ?",
+"options": ["ଜ୍ଵର", "ଟୀକା ନେବା ସ୍ଥାନରେ ଯନ୍ତ୍ରଣା", "ଥକ୍କାପଣ", "ଉପରୋକ୍ତ ସମସ୍ତ"],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ଟୀକା ନେବା ପରେ ଜ୍ଵର, ଯନ୍ତ୍ରଣା ଓ ଥକ୍କା ଲାଗିବା ସାଧାରଣ କଥା।"
+},
+{
+"questionEnglish": "What does 'Containment' aim to do?",
+"questionOdia": "'କଣ୍ଟେନମେଣ୍ଟ' ର ଲକ୍ଷ୍ୟ କ’ଣ?",
+"options": ["ସଂକ୍ରମଣକୁ ସୀମିତ ରଖିବା", "ସଂକ୍ରମଣ ବଢାଇବା", "ବ୍ୟବସାୟ ବଢାଇବା", "ବୁଲିବା"],
+"answer": "ସଂକ୍ରମଣକୁ ସୀମିତ ରଖିବା",
+"explanation": "ସଂକ୍ରମଣ ଯେପରି ଗୋଟିଏ ଅଞ୍ଚଳରୁ ଅନ୍ୟ ଅଞ୍ଚଳକୁ ନ ବ୍ୟାପେ, ତାକୁ କଣ୍ଟେନମେଣ୍ଟ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Who can provide accurate info about COVID-19?",
+"questionOdia": "COVID-19 ବିଷୟରେ ସଠିକ୍ ସୂଚନା କିଏ ଦେଇପାରିବ?",
+"options": ["ଡାକ୍ତର", "ସୋସିଆଲ ମିଡିଆ", "ଅଜଣା ଲୋକ", "ଗୁଜବ"],
+"answer": "ଡାକ୍ତର",
+"explanation": "କେବଳ ସରକାରୀ ସଂସ୍ଥା ଓ ଡାକ୍ତରମାନେ COVID-19 ସମ୍ପର୍କରେ ସଠିକ୍ ତଥ୍ୟ ଦେଇପାରିବେ।"
+},
+{
+"questionEnglish": "What is the scientific name of COVID-19 virus?",
+"questionOdia": "COVID-19 ଭୂତାଣୁର ବୈଜ୍ଞାନିକ ନାମ କ’ଣ?",
+"options": ["SARS-CoV-2", "SARS-CoV-1", "H5N1", "H1N1"],
+"answer": "SARS-CoV-2",
+"explanation": "COVID-19 ଭୂତାଣୁର ବୈଜ୍ଞାନିକ ନାମ SARS-CoV-2 ଅଟେ।"
+},
+{
+"questionEnglish": "Which state has highest COVID recovery rate in India?",
+"questionOdia": "ଭାରତରେ କେଉଁ ରାଜ୍ୟରେ COVID ରୁ ସୁସ୍ଥ ହେବାର ହାର ସର୍ବାଧିକ?",
+"options": ["କେରଳ", "ଦିଲ୍ଲୀ", "ମହାରାଷ୍ଟ୍ର", "ପଶ୍ଚିମବଙ୍ଗ"],
+"answer": "କେରଳ",
+"explanation": "ସାଧାରଣତଃ କେରଳର ସ୍ଵାସ୍ଥ୍ୟ ବ୍ୟବସ୍ଥା ଯୋଗୁଁ ସେଠାରେ ସୁସ୍ଥ ହେବା ହାର ଅଧିକ।"
+},
+{
+"questionEnglish": "What does 'Sanitizer' do?",
+"questionOdia": "'ସାନିଟାଇଜର' କ’ଣ କରେ?",
+"options": ["ଭୂତାଣୁ ମାରେ", "ହାତ ସଫା କରେ", "ସୁଗନ୍ଧିତ କରେ", "କିଛି କରେନାହିଁ"],
+"answer": "ଭୂତାଣୁ ମାରେ",
+"explanation": "ସାନିଟାଇଜର ହାତରେ ଥିବା ଭୂତାଣୁ ଓ ଜୀବାଣୁଙ୍କୁ ନଷ୍ଟ କରିଦିଏ।"
+},
+{
+"questionEnglish": "What is the safest way to greet during COVID-19?",
+"questionOdia": "COVID-19 ସମୟରେ ଅଭିବାଦନ କରିବାର ନିରାପଦ ଉପାୟ କ’ଣ?",
+"options": ["ନମସ୍କାର", "ହାତ ମିଳାଇବା", "ଆଲିଙ୍ଗନ", "ଚୁମ୍ବନ"],
+"answer": "ନମସ୍କାର",
+"explanation": "ସାମାଜିକ ଦୂରତା ପାଇଁ 'ନମସ୍କାର' ହେଉଛି ସର୍ବୋତ୍ତମ ଅଭିବାଦନ।"
+},
+{
+"questionEnglish": "What is 'Mucormycosis'?",
+"questionOdia": "'ମ୍ୟୁକର୍ମାଇକୋସିସ୍' କ’ଣ?",
+"options": ["ବ୍ଲାକ ଫଙ୍ଗସ ରୋଗ", "ଏକ ଭୂତାଣୁ", "ସାଧାରଣ କାଶ", "ଜ୍ଵର"],
+"answer": "ବ୍ଲାକ ଫଙ୍ଗସ ରୋଗ",
+"explanation": "ମ୍ୟୁକର୍ମାଇକୋସିସ୍ କୁ ସାଧାରଣ ଭାଷାରେ ବ୍ଲାକ ଫଙ୍ଗସ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the full form of COVID?",
+"questionOdia": "COVID ର ପୂର୍ଣ୍ଣ ରୂପ କ’ଣ?",
+"options": ["Corona Virus Disease", "Corona Virus Details", "Corona Viral Disease", "Central Virus Disease"],
+"answer": "Corona Virus Disease",
+"explanation": "COVID ର ଅର୍ଥ ହେଉଛି Corona Virus Disease।"
+},
+{
+"questionEnglish": "Which country invented first COVID-19 vaccine?",
+"questionOdia": "କେଉଁ ଦେଶ ପ୍ରଥମ COVID-19 ଟୀକା ଉଦ୍ଭାବନ କରିଥିଲା?",
+"options": ["ଋଷିଆ", "ଆମେରିକା", "ଚୀନ", "ଭାରତ"],
+"answer": "ଋଷିଆ",
+"explanation": "ଋଷିଆ ବିଶ୍ଵରେ ପ୍ରଥମେ 'ସ୍ପୁଟନିକ୍ V' ନାମକ COVID-19 ଟୀକା ତିଆରି କରିଥିଲା।"
+},
+{
+"questionEnglish": "What is the importance of mask?",
+"questionOdia": "ମାସ୍କର ଗୁରୁତ୍ଵ କ’ଣ?",
+"options": ["ଭୂତାଣୁ ସଂକ୍ରମଣ ରୋକିବା", "ସୁନ୍ଦର ଦେଖାଯିବା", "ଫ୍ୟାଶନ", "ଶୋଇବା"],
+"answer": "ଭୂତାଣୁ ସଂକ୍ରମଣ ରୋକିବା",
+"explanation": "ମାସ୍କ ଭୂତାଣୁଙ୍କୁ ନାକ ଓ ପାଟିରେ ପ୍ରବେଶ କରିବାରୁ ଅଟକାଇଥାଏ।"
+},
+{
+"questionEnglish": "Which method is best for disposal of used masks?",
+"questionOdia": "ବ୍ୟବହୃତ ମାସ୍କକୁ ନଷ୍ଟ କରିବାର ସର୍ବୋତ୍ତମ ଉପାୟ କ’ଣ?",
+"options": ["ବିସର୍ଜନ", "ପୋଡି ଦେବା", "ସଫା କରିବା", "ଖୋଲା ପକାଇବା"],
+"answer": "ବିସର୍ଜନ",
+"explanation": "ବ୍ୟବହୃତ ମାସ୍କକୁ ସଠିକ୍ ଭାବେ ବନ୍ଦ କରି ଅଳିଆ ପାତ୍ରରେ ପକାଇବା ଉଚିତ।"
+},
+{
+"questionEnglish": "What are symptoms of mild COVID-19?",
+"questionOdia": "ହାଲୁକା COVID-19 ର ଲକ୍ଷଣ କ’ଣ?",
+"options": ["ଥଣ୍ଡା, କାଶ", "କିଡନୀ ବିଫଳତା", "ହୃଦଘାତ", "କୋମା"],
+"answer": "ଥଣ୍ଡା, କାଶ",
+"explanation": "ହାଲୁକା ସଂକ୍ରମଣରେ ସାଧାରଣ ଥଣ୍ଡା ଓ କାଶ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What happens in a 'Super Spreader' event?",
+"questionOdia": "'ସୁପର ସ୍ପ୍ରେଡର' ଘଟଣାରେ କ’ଣ ହୁଏ?",
+"options": ["ବହୁ ସଂଖ୍ୟକ ଲୋକ ସଂକ୍ରମିତ ହୁଅନ୍ତି", "କେହି ସଂକ୍ରମିତ ହୁଅନ୍ତି ନାହିଁ", "ରୋଗ କମିଯାଏ", "ସମସ୍ତେ ସୁସ୍ଥ ରହନ୍ତି"],
+"answer": "ବହୁ ସଂଖ୍ୟକ ଲୋକ ସଂକ୍ରମିତ ହୁଅନ୍ତି",
+"explanation": "ଗୋଟିଏ ସ୍ଥାନରେ ଏକାଥରକେ ବହୁତ ଲୋକଙ୍କୁ ସଂକ୍ରମିତ କରିବାକୁ ସୁପର ସ୍ପ୍ରେଡର କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which state has highest number of COVID cases in India?",
+"questionOdia": "ଭାରତରେ ସର୍ବାଧିକ କୋଭିଡ୍ ମାମଲା କେଉଁ ରାଜ୍ୟରେ ଅଛି?",
+"options": ["ମହାରାଷ୍ଟ୍ର", "କେରଳ", "କର୍ଣ୍ଣାଟକ", "ଦିଲ୍ଲୀ"],
+"answer": "ମହାରାଷ୍ଟ୍ର",
+"explanation": "କୋଭିଡ ସମୟରେ ମହାରାଷ୍ଟ୍ରରେ ସର୍ବାଧିକ ମାମଲା ଚିହ୍ନଟ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What is the primary sign of COVID in children?",
+"questionOdia": "ଶିଶୁଙ୍କ କ୍ଷେତ୍ରରେ COVID ର ପ୍ରାଥମିକ ଲକ୍ଷଣ କ’ଣ?",
+"options": ["ପେଟ ଯନ୍ତ୍ରଣା", "ଜ୍ଵର", "ଗୋଡ଼ ବ୍ୟଥା", "ଆଖି ଲାଲ ହେବା"],
+"answer": "ଜ୍ଵର",
+"explanation": "ଶିଶୁଙ୍କଠାରେ ମଧ୍ୟ ଜ୍ଵର ଓ ଶୁଖିଲା କାଶ ମୁଖ୍ୟ ଲକ୍ଷଣ ଅଟେ।"
+},
+{
+"questionEnglish": "Can COVID-19 spread through pets?",
+"questionOdia": "COVID-19 ପୋଷା ପ୍ରାଣୀଙ୍କ ଦ୍ଵାରା ବ୍ୟାପିପାରେ କି?",
+"options": ["ନାହିଁ", "ହଁ", "କେବଳ କୁକୁର ଦ୍ଵାରା", "କେବଳ ବିଲେଇ ଦ୍ଵାରା"],
+"answer": "ନାହିଁ",
+"explanation": "ବର୍ତ୍ତମାନ ପର୍ଯ୍ୟନ୍ତ ଏଭଳି କୌଣସି ପ୍ରମାଣ ନାହିଁ ଯେ COVID-19 ପୋଷା ପ୍ରାଣୀଙ୍କ ଦ୍ଵାରା ବ୍ୟାପେ।"
+},
+{
+"questionEnglish": "What is 'Viral Load'?",
+"questionOdia": "'ଭାଇରାଲ ଲୋଡ୍' କ’ଣ?",
+"options": ["ଶରୀରରେ ଭୂତାଣୁର ପରିମାଣ", "ଶରୀରର ଓଜନ", "ରକ୍ତର ପରିମାଣ", "କିଛି ନୁହେଁ"],
+"answer": "ଶରୀରରେ ଭୂତାଣୁର ପରିମାଣ",
+"explanation": "ରୋଗୀଙ୍କ ଶରୀରରେ ଥିବା ଭୂତାଣୁର ପରିମାଣକୁ ଭାଇରାଲ ଲୋଡ୍ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is 'Plasma Therapy'?",
+"questionOdia": "'ପ୍ଲାଜମା ଥେରାପି' କ’ଣ?",
+"options": ["ସୁସ୍ଥ ବ୍ୟକ୍ତିର ରକ୍ତରୁ ପ୍ଲାଜମା ବ୍ୟବହାର", "ଔଷଧ ଇଞ୍ଜେକ୍ସନ", "ବିଟାମିନ୍", "ଟୀକାକରଣ"],
+"answer": "ସୁସ୍ଥ ବ୍ୟକ୍ତିର ରକ୍ତରୁ ପ୍ଲାଜମା ବ୍ୟବହୃତ",
+"explanation": "COVID ରୁ ସୁସ୍ଥ ହୋଇଥିବା ବ୍ୟକ୍ତିଙ୍କ ରକ୍ତରୁ ପ୍ଲାଜମା ନେଇ ଗମ୍ଭୀର ରୋଗୀଙ୍କୁ ଚିକିତ୍ସା କରାଯାଏ।"
+},
+{
+"questionEnglish": "Which drug was widely discussed for COVID?",
+"questionOdia": "COVID ପାଇଁ କେଉଁ ଔଷଧ ବହୁଳ ଭାବେ ଚର୍ଚ୍ଚିତ ଥିଲା?",
+"options": ["ରେମଡେସିଭିର", "ପାରାସିଟାମଲ", "ଆସ୍ପିରିନ୍", "କଫ୍ ସିରପ"],
+"answer": "ରେମଡେସିଭିର",
+"explanation": "ରେମଡେସିଭିର ଔଷଧ COVID ଚିକିତ୍ସାରେ ବହୁଳ ଭାବେ ବ୍ୟବହୃତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What does 'Ventilator' do?",
+"questionOdia": "'ଭେଣ୍ଟିଲେଟର' କ’ଣ କରେ?",
+"options": ["ଶ୍ଵାସକ୍ରିୟାରେ ସାହାଯ୍ୟ କରେ", "ଖାଦ୍ୟ ଦିଏ", "ରକ୍ତ ସଫା କରେ", "ଜ୍ଵର କମାଏ"],
+"answer": "ଶ୍ଵାସକ୍ରିୟାରେ ସାହାଯ୍ୟ କରେ",
+"explanation": "ଯେଉଁ ରୋଗୀ ନିଜେ ଶ୍ଵାସ ନେଇପାରନ୍ତି ନାହିଁ, ସେମାନଙ୍କୁ ଭେଣ୍ଟିଲେଟର ଯନ୍ତ୍ର ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "What is 'Lockdown' period impact?",
+"questionOdia": "ଲକଡାଉନ୍ ର ପ୍ରଭାବ କ’ଣ?",
+"options": ["ସଂକ୍ରମଣ ଶୃଙ୍ଖଳା ଭାଙ୍ଗିବା", "ରୋଗ ବଢାଇବା", "ଅର୍ଥନୀତି ବଢାଇବା", "ସ୍କୁଲ ବନ୍ଦ"],
+"answer": "ସଂକ୍ରମଣ ଶୃଙ୍ଖଳା ଭାଙ୍ଗିବା",
+"explanation": "ଲକଡାଉନ୍ ଦ୍ଵାରା ମିଳାମିଶା କମି ସଂକ୍ରମଣର ଶୃଙ୍ଖଳା ଭାଙ୍ଗିଥାଏ।"
+},
+{
+"questionEnglish": "Is there any cure for COVID-19?",
+"questionOdia": "COVID-19 ର କୌଣସି ସ୍ଥାୟୀ ଚିକିତ୍ସା ଅଛି କି?",
+"options": ["ଲକ୍ଷଣ ଅନୁଯାୟୀ ଚିକିତ୍ସା", "ଏକକ ଔଷଧ", "ଟୀକା", "କିଛି ନୁହେଁ"],
+"answer": "ଲକ୍ଷଣ ଅନୁଯାୟୀ ଚିକିତ୍ସା",
+"explanation": "COVID-19 ପାଇଁ କୌଣସି ନିର୍ଦ୍ଦିଷ୍ଟ ଔଷଧ ନାହିଁ, ଲକ୍ଷଣ ଅନୁସାରେ ଚିକିତ୍ସା କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is 'WHO'?",
+"questionOdia": "'WHO' କ’ଣ?",
+"options": ["ବିଶ୍ଵ ସ୍ଵାସ୍ଥ୍ୟ ସଂଗଠନ", "ଭାରତୀୟ ସରକାର", "ବିଶ୍ଵ ବ୍ୟାଙ୍କ", "କିଛି ନୁହେଁ"],
+"answer": "ବିଶ୍ଵ ସ୍ଵାସ୍ଥ୍ୟ ସଂଗଠନ",
+"explanation": "WHO ର ପୂର୍ଣ୍ଣ ରୂପ ହେଉଛି World Health Organization।"
+},
+{
+"questionEnglish": "How does virus enter the body?",
+"questionOdia": "ଭୂତାଣୁ ଶରୀର ଭିତରକୁ କିପରି ପ୍ରବେଶ କରେ?",
+"options": ["ନାକ, ପାଟି, ଆଖି", "ଚର୍ମ", "କାନ", "ନଖ"],
+"answer": "ନାକ, ପାଟି, ଆଖି",
+"explanation": "ଭୂତାଣୁ ଆମ ନାକ, ପାଟି ଓ ଆଖି ବାଟେ ଶରୀର ଭିତରକୁ ଯାଏ।"
+},
+{
+"questionEnglish": "Which state has highest COVID vaccine centers?",
+"questionOdia": "ଭାରତରେ ସର୍ବାଧିକ ଟୀକାକରଣ କେନ୍ଦ୍ର କେଉଁଠାରେ ଅଛି?",
+"options": ["ଉତ୍ତର ପ୍ରଦେଶ", "ମହାରାଷ୍ଟ୍ର", "ଦିଲ୍ଲୀ", "କେରଳ"],
+"answer": "ଉତ୍ତର ପ୍ରଦେଶ",
+"explanation": "ବିଶାଳ ଜନସଂଖ୍ୟା ଯୋଗୁଁ ଉତ୍ତର ପ୍ରଦେଶରେ ସର୍ବାଧିକ କେନ୍ଦ୍ର ଅଛି।"
+},
+{
+"questionEnglish": "What is the full form of 'COVAXIN'?",
+"questionOdia": "COVAXIN କ’ଣ?",
+"options": ["ଟୀକାର ନାମ", "ଏକ ରୋଗ", "ଏକ ସହର", "ଏକ ଔଷଧ"],
+"answer": "ଟୀକାର ନାମ",
+"explanation": "COVAXIN ହେଉଛି ଏକ COVID-19 ଟୀକା।"
+},
+{
+"questionEnglish": "What does 'Quarantine' avoid?",
+"questionOdia": "'କ୍ଵାରେଣ୍ଟିନ୍' କାହାକୁ ଅଟକାଏ?",
+"options": ["ସଂକ୍ରମଣ ବିସ୍ତାର", "ପାଠ ପଢା", "ଖେଳ", "କାମ"],
+"answer": "ସଂକ୍ରମଣ ବିସ୍ତାର",
+"explanation": "କ୍ଵାରେଣ୍ଟିନ୍ ସଂକ୍ରମଣକୁ ଅନ୍ୟମାନଙ୍କଠାରୁ ବିସ୍ତାର ହେବାରୁ ଅଟକାଏ।"
+},
+{
+"questionEnglish": "Who can conduct COVID-19 test?",
+"questionOdia": "କିଏ COVID-19 ପରୀକ୍ଷା କରିପାରିବ?",
+"options": ["ଅନୁମୋଦିତ ପରୀକ୍ଷାଗାର", "ଘରୋଇ ଲୋକ", "ଦୋକାନୀ", "ଶିକ୍ଷକ"],
+"answer": "ଅନୁମୋଦିତ ପରୀକ୍ଷାଗାର",
+"explanation": "ସରକାରଙ୍କ ଦ୍ଵାରା ଅନୁମୋଦିତ ଲ୍ୟାବ୍ ହିଁ COVID ପରୀକ୍ଷା କରିପାରିବେ।"
+},
+{
+"questionEnglish": "What is 'Infection'?",
+"questionOdia": "'ସଂକ୍ରମଣ' କ’ଣ?",
+"options": ["ଭୂତାଣୁ ଦ୍ଵାରା ରୋଗ ହେବା", "ସୁସ୍ଥ ରହିବା", "ଖାଦ୍ୟ ଖାଇବା", "ବ୍ୟାୟାମ"],
+"answer": "ଭୂତାଣୁ ଦ୍ଵାରା ରୋଗ ହେବା",
+"explanation": "ଶରୀରରେ ଅଣୁଜୀବ ପ୍ରବେଶ କରି ରୋଗ ସୃଷ୍ଟି କରିବାକୁ ସଂକ୍ରମଣ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is 'Fatality Rate'?",
+"questionOdia": "'ମୃତ୍ୟୁ ହାର' କ’ଣ?",
+"options": ["ସଂକ୍ରମିତଙ୍କ ମଧ୍ୟରେ ମୃତ୍ୟୁ ସଂଖ୍ୟା", "ସୁସ୍ଥ ହେବା ହାର", "ଜନ୍ମ ହାର", "କିଛି ନୁହେଁ"],
+"answer": "ସଂକ୍ରମିତଙ୍କ ମଧ୍ୟରେ ମୃତ୍ୟୁ ସଂଖ୍ୟା",
+"explanation": "କୌଣସି ରୋଗରେ ଆକ୍ରାନ୍ତ ହୋଇ ମୃତ୍ୟୁବରଣ କରୁଥିବା ଲୋକଙ୍କ ସଂଖ୍ୟାକୁ ମୃତ୍ୟୁ ହାର କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the symptom of fever?",
+"questionOdia": "ଜ୍ଵରର ଲକ୍ଷଣ କ’ଣ?",
+"options": ["ଶରୀର ତାପମାତ୍ରା ବୃଦ୍ଧି", "ଭୋକ ନଲାଗିବା", "ଥଣ୍ଡା ଲାଗିବା", "ଉପରୋକ୍ତ ସମସ୍ତ"],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ଜ୍ଵର ହେଲେ ଶରୀର ଗରମ ହେବା ସହ ଅନ୍ୟ ଲକ୍ଷଣ ବି ଦେଖାଯାଏ।"
+},
+{
+"questionEnglish": "Which vaccine is for children in India?",
+"questionOdia": "ଭାରତରେ ପିଲାଙ୍କ ପାଇଁ କେଉଁ ଟୀକା ଉପଲବ୍ଧ?",
+"options": ["କୋଭାକ୍ସିନ", "ଫାଇଜର", "ସ୍ପୁଟନିକ୍", "କିଛି ନୁହେଁ"],
+"answer": "କୋଭାକ୍ସିନ",
+"explanation": "ଭାରତରେ ପିଲାଙ୍କ ପାଇଁ କୋଭାକ୍ସିନ ଟୀକା ଅନୁମୋଦିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What is the best way to clean hands?",
+"questionOdia": "ହାତ ସଫା କରିବାର ଶ୍ରେଷ୍ଠ ଉପାୟ କ’ଣ?",
+"options": ["ସାବୁନ ଓ ପାଣି", "ଖାଲି ପାଣି", "କାଗଜ", "କିଛି ନୁହେଁ"],
+"answer": "ସାବୁନ ଓ ପାଣି",
+"explanation": "ସାବୁନ ଓ ପାଣିରେ 20 ସେକେଣ୍ଡ ଧରି ହାତ ଧୋଇବା ସବୁଠାରୁ ଭଲ।"
+},
+{
+"questionEnglish": "What is a respiratory droplet?",
+"questionOdia": "ଶ୍ଵାସକ୍ରିୟା ବୁନ୍ଦା କ’ଣ?",
+"options": ["ଛିଙ୍କ କିମ୍ବା କାଶରେ ବାହାରୁଥିବା ପାଣି କଣିକା", "ଲାଳ", "ଝାଳ", "ରକ୍ତ"],
+"answer": "ଛିଙ୍କ କିମ୍ବା କାଶରେ ବାହାରୁଥିବା ପାଣି କଣିକା",
+"explanation": "କାଶିବା ବା ଛିଙ୍କିବା ସମୟରେ ପାଟିରୁ ବାହାରୁଥିବା ଛୋଟ ବୁନ୍ଦା।"
+},
+{
+"questionEnglish": "What to do if someone has symptoms?",
+"questionOdia": "ଯଦି କାହାର ଲକ୍ଷଣ ଅଛି ତେବେ କ’ଣ କରିବ?",
+"options": ["ଡାକ୍ତରଙ୍କୁ ପରାମର୍ଶ କରିବ", "ଘରେ ରହିବ", "ବିନା ମାସ୍କରେ ବୁଲିବ", "କିଛି କରିବ ନାହିଁ"],
+"answer": "ଡାକ୍ତରଙ୍କୁ ପରାମର୍ଶ କରିବ",
+"explanation": "ଲକ୍ଷଣ ଦେଖାଦେଲେ ତୁରନ୍ତ ଡାକ୍ତରଙ୍କ ପରାମର୍ଶ ଓ ପରୀକ୍ଷା କରିବା ଦରକାର।"
+},
+{
+"questionEnglish": "What is the purpose of vaccination?",
+"questionOdia": "ଟୀକାକରଣର ଲକ୍ଷ୍ୟ କ’ଣ?",
+"options": ["ରୋଗକୁ ରୋକିବା", "ରୋଗ ବଢାଇବା", "ସମୟ ନଷ୍ଟ କରିବା", "କିଛି ନୁହେଁ"],
+"answer": "ରୋଗକୁ ରୋକିବା",
+"explanation": "ଟୀକାକରଣ ରୋଗର తీవ్రତା ଓ ବ୍ୟାପ୍ତିକୁ କମାଇଥାଏ।"
+},
+{
+"questionEnglish": "Which age group is most vulnerable?",
+"questionOdia": "କେଉଁ ବୟସର ଲୋକ ଅଧିକ ବିପଦରେ ଅଛନ୍ତି?",
+"options": ["ବୃଦ୍ଧ", "ଯୁବକ", "ଶିଶୁ", "କିଛି ନୁହେଁ"],
+"answer": "ବୃଦ୍ଧ",
+"explanation": "ବୃଦ୍ଧ ବ୍ୟକ୍ତିଙ୍କ ରୋଗ ପ୍ରତିରୋଧ ଶକ୍ତି କମ ଥିବାରୁ ସେମାନେ ଅଧିକ ବିପଦରେ।"
+},
+{
+"questionEnglish": "Can COVID be transmitted by surfaces?",
+"questionOdia": "COVID ଭୂପୃଷ୍ଠ ବା ସାମଗ୍ରୀ ଦ୍ଵାରା ବ୍ୟାପିପାରେ କି?",
+"options": ["ହଁ", "ନାହିଁ", "କେବଳ ଲୁହା", "କେବଳ ପ୍ଲାଷ୍ଟିକ"],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସଂକ୍ରମିତ ବ୍ୟକ୍ତି ଛୁଇଁଥିବା ସାମଗ୍ରୀ ମାଧ୍ୟମରେ କିଛି ସମୟ ପାଇଁ ଭୂତାଣୁ ରହିପାରେ।"
+},
+{
+"questionEnglish": "What is the full form of COVID-19?",
+"questionOdia": "COVID-19 ର ପୂର୍ଣ୍ଣ ରୂପ କ’ଣ?",
+"options": ["Corona Virus Disease 2019", "Corona Virus Details 2019", "Corona Viral Disease 2019", "Central Virus Disease 2019"],
+"answer": "Corona Virus Disease 2019",
+"explanation": "COVID-19 ର ଅର୍ଥ Corona Virus Disease 2019 ଅଟେ।"
+},
+{
+"questionEnglish": "Which state has highest recovery in India?",
+"questionOdia": "ଭାରତରେ ସର୍ବାଧିକ ସୁସ୍ଥ ହାର କେଉଁ ରାଜ୍ୟରେ?",
+"options": ["କେରଳ", "ଦିଲ୍ଲୀ", "ମହାରାଷ୍ଟ୍ର", "ପଞ୍ଜାବ"],
+"answer": "କେରଳ",
+"explanation": "କେରଳରେ ସ୍ଵାସ୍ଥ୍ୟ ସଚେତନତା ଯୋଗୁଁ ସୁସ୍ଥ ହାର ବହୁତ ଭଲ।"
+},
+{
+"questionEnglish": "What should you do after touching public surfaces?",
+"questionOdia": "ସାର୍ବଜନୀନ ସ୍ଥାନ ଛୁଇଁବା ପରେ କ’ଣ କରିବ?",
+"options": ["ହାତ ଧୋଇବ", "ଆଖି ଛୁଇଁବ", "କିଛି କରିବ ନାହିଁ", "ଖାଇବ"],
+"answer": "ହାତ ଧୋଇବ",
+"explanation": "ସାର୍ବଜନୀନ ସ୍ଥାନ ସବୁ ସଂକ୍ରମିତ ହୋଇପାରେ, ତେଣୁ ହାତ ଧୋଇବା ଉଚିତ।"
+},
+{
+"questionEnglish": "What is the most effective safety measure?",
+"questionOdia": "ସବୁଠାରୁ ଫଳପ୍ରଦ ସୁରକ୍ଷା ବ୍ୟବସ୍ଥା କ’ଣ?",
+"options": ["ମାସ୍କ ଓ ହାତ ଧୋଇବା", "ଗୁଜବ ମାନିବା", "ବୁଲିବା", "କିଛି ନୁହେଁ"],
+"answer": "ମାସ୍କ ଓ ହାତ ଧୋଇବା",
+"explanation": "ମାସ୍କ ପିନ୍ଧିବା ଓ ହାତ ଧୋଇବା କୋଭିଡ ରୁ ରକ୍ଷା ପାଇବାର ମୂଳ ମନ୍ତ୍ର।"
+},
+{
+"questionEnglish": "Which vaccine is more famous?",
+"questionOdia": "କେଉଁ ଟୀକା ଅଧିକ ଜଣାଶୁଣା?",
+"options": ["କୋଭିସିଲ୍ଡ", "କୋଭାକ୍ସିନ", "ସ୍ପୁଟନିକ୍", "ଉପରୋକ୍ତ ସମସ୍ତ"],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ଏହି ସବୁ ଟୀକା କୋଭିଡ ସମୟରେ ବହୁଳ ଭାବେ ବ୍ୟବହୃତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What is the impact of COVID on schools?",
+"questionOdia": "COVID ର ବିଦ୍ୟାଳୟ ଉପରେ ପ୍ରଭାବ କ’ଣ?",
+"options": ["ଅନଲାଇନ୍ ପାଠପଢା", "ଖେଳ ବଢିବା", "ସ୍କୁଲ ଖୋଲା ରହିବା", "କିଛି ନୁହେଁ"],
+"answer": "ଅନଲାଇନ୍ ପାଠପଢା",
+"explanation": "ଲକଡାଉନ୍ ଯୋଗୁଁ ସ୍କୁଲ ବନ୍ଦ ରହି ଅନଲାଇନ୍ ପାଠପଢା ଆରମ୍ଭ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What is the most dangerous variant?",
+"questionOdia": "କେଉଁ ଭାରିଆଣ୍ଟ ସବୁଠାରୁ ବିପଜ୍ଜନକ ଥିଲା?",
+"options": ["ଡେଲ୍ଟା", "ଆଲଫା", "ବିଟା", "ଗାମା"],
+"answer": "ଡେଲ୍ଟା",
+"explanation": "ଡେଲ୍ଟା ଭାରିଆଣ୍ଟ ଯୋଗୁଁ ସର୍ବାଧିକ ମୃତ୍ୟୁ ଓ ସଂକ୍ରମଣ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Is there a cure for COVID-19?",
+"questionOdia": "COVID-19 ର କିଛି ସ୍ଥାୟୀ ଚିକିତ୍ସା ଅଛି କି?",
+"options": ["ନାହିଁ", "ହଁ", "କେବଳ ଔଷଧ", "ଟୀକା"],
+"answer": "ନାହିଁ",
+"explanation": "ଏପର୍ଯ୍ୟନ୍ତ ଏହାର କୌଣସି 100% ସ୍ଥାୟୀ ଚିକିତ୍ସା ନାହିଁ, ସାବଧାନତା ହିଁ ଏକମାତ୍ର ଉପାୟ।"
+},
+{
+"questionEnglish": "What to do for immunity?",
+"questionOdia": "ରୋଗ ପ୍ରତିରୋଧ ଶକ୍ତି ପାଇଁ କ’ଣ କରିବ?",
+"options": ["ପୌଷ୍ଟିକ ଆହାର", "ବ୍ୟାୟାମ", "ପର୍ଯ୍ୟାପ୍ତ ନିଦ", "ଉପରୋକ୍ତ ସମସ୍ତ"],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ଭଲ ଖାଦ୍ୟ, ବ୍ୟାୟାମ ଓ ନିଦ ରୋଗ ପ୍ରତିରୋଧ ଶକ୍ତି ବଢାଏ।"
+},
+{
+"questionEnglish": "What is the full form of PPE?",
+"questionOdia": "PPE ର ଅର୍ଥ କ’ଣ?",
+"options": ["Personal Protective Equipment", "Public Protection", "Private Protective", "କିଛି ନୁହେଁ"],
+"answer": "Personal Protective Equipment",
+"explanation": "PPE କର୍ମଚାରୀଙ୍କୁ ସଂକ୍ରମଣରୁ ବଞ୍ଚାଇଥାଏ।"
+},
+{
+"questionEnglish": "Can COVID spread by food?",
+"questionOdia": "COVID ଖାଦ୍ୟ ମାଧ୍ୟମରେ ବ୍ୟାପିପାରେ କି?",
+"options": ["ନାହିଁ", "ହଁ", "କେବଳ ଫଳ", "କେବଳ ପନିପରିବା"],
+"answer": "ନାହିଁ",
+"explanation": "ସଠିକ୍ ଭାବେ ରାନ୍ଧିଥିବା ଖାଦ୍ୟରେ କୋଭିଡ ବ୍ୟାପେ ନାହିଁ।"
+}
 ]
