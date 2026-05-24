@@ -1,122 +1,830 @@
 [
   {
-    "questionEnglish": "What is the atomic number and valency of Carbon?",
-    "questionOdia": "କାର୍ବନର ପରମାଣୁ କ୍ରମାଙ୍କ (Atomic Number) ଏବଂ ସଂଯୋଜକତା (Valency) କେତେ?",
-    "options": [
-      "Atomic number 6, Valency 4",
-      "Atomic number 4, Valency 4",
-      "Atomic number 6, Valency 2",
-      "Atomic number 12, Valency 4"
-    ],
-    "answer": "Atomic number 6, Valency 4",
-    "explanation": "Carbon has an atomic number of 6 with an electronic configuration of (2,4). Since it has 4 valence electrons, its valency is 4 (tetravalency)."
+    "questionEnglish": "What is the atomic number of Carbon?",
+    "questionOdia": "କାର୍ବନର ପରମାଣୁ କ୍ରମାଙ୍କ (Atomic Number) କେତେ?",
+    "options": ["4", "6", "12", "8"],
+    "answer": "6",
+    "explanation": "କାର୍ବନର ପରମାଣୁ କ୍ରମାଙ୍କ ୬ ଅଟେ, ଯାହାର ଅର୍ଥ ଏହାର ନ୍ୟୁକ୍ଲିୟସ୍‌ରେ ୬ଟି ପ୍ରୋଟୋନ୍ ଥାଏ।"
   },
   {
-    "questionEnglish": "Which unique property allows Carbon to form long chains and rings by bonding with other carbon atoms?",
-    "questionOdia": "ଅନ୍ୟ କାର୍ବନ ପରମାଣୁ ସହିତ ବନ୍ଧନ ଗଠନ କରି ଏକ ଦୀର୍ଘ ଶୃଙ୍ଖଳ ବା ବଳୟ ସୃଷ୍ଟି କରିବାର କାର୍ବନର ସେହି ଅନନ୍ୟ ଗୁଣକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Catenation",
-      "Tetravalency",
-      "Isomerism",
-      "Allotropy"
-    ],
-    "answer": "Catenation",
-    "explanation": "Catenation (ଶୃଙ୍ଖଳନ) is the self-linking property of carbon atoms through covalent bonds to form long, stable structures."
+    "questionEnglish": "What is the electronic configuration of a Carbon atom?",
+    "questionOdia": "କାର୍ବନ ପରମାଣୁର ଇଲେକ୍ଟ୍ରନ୍ ବିନ୍ୟାସ କଣ?",
+    "options": ["2, 4", "2, 8, 2", "2, 6", "4, 2"],
+    "answer": "2, 4",
+    "explanation": "କାର୍ବନର ୬ଟି ଇଲେକ୍ଟ୍ରନ୍ ମଧ୍ୟରୁ K-କକ୍ଷରେ ୨ଟି ଏବଂ ବାହ୍ୟ L-କକ୍ଷରେ ୪ଟି ଇଲେକ୍ଟ୍ରନ୍ ରହିଥାଏ।"
   },
   {
-    "questionEnglish": "What type of chemical bonds are predominantly formed by Carbon in its compounds?",
-    "questionOdia": "କାର୍ବନ ଏହାର ଯୌଗିକଗୁଡ଼ିକରେ ମୁଖ୍ୟତଃ କେଉଁ ପ୍ରକାରର ରାସାୟନିକ ବନ୍ଧନ ଗଠନ କରିଥାଏ?",
-    "options": [
-      "Covalent bonds",
-      "Ionic bonds",
-      "Metallic bonds",
-      "Hydrogen bonds"
-    ],
-    "answer": "Covalent bonds",
-    "explanation": "Carbon shares its 4 valence electrons with other atoms to achieve a stable electronic configuration, thereby forming covalent bonds (ସହସଂଯୋଜକ ବନ୍ଧନ)."
+    "questionEnglish": "What type of chemical bond is formed by Carbon?",
+    "questionOdia": "କାର୍ବନ ସାଧାରଣତଃ କେଉଁ ପ୍ରକାରର ରାସାୟନିକ ବନ୍ଧ ଗଠନ କରେ?",
+    "options": ["ଆୟନୀୟ ବନ୍ଧ (Ionic Bond)", "ସହସଂଯୋଜକ ବନ୍ଧ (Covalent Bond)", "ହାଇଡ୍ରୋଜେନ୍ ବନ୍ଧ", "ଧାତବ ବନ୍ଧ"],
+    "answer": "ସହସଂଯୋଜକ ବନ୍ଧ (Covalent Bond)",
+    "explanation": "କାର୍ବନ ଇଲେକ୍ଟ୍ରନ୍ ସହଭାଗିତା ବା ଶେୟାରିଂ ଦ୍ୱାରା ଅନ୍ୟ ପରମାଣୁ ସହ ସହସଂଯୋଜକ ବନ୍ଧ ଗଠନ କରିଥାଏ।"
   },
   {
-    "questionEnglish": "Which of the following is the hardest crystalline allotrope of Carbon?",
-    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି କାର୍ବନର ସବୁଠାରୁ କଠିନ ସ୍ଫଟିକୀୟ ଅପରୂପ (Allotrope)?",
-    "options": [
-      "Diamond",
-      "Graphite",
-      "Fullerene",
-      "Coal"
-    ],
-    "answer": "Diamond",
-    "explanation": "Diamond (ହୀରା) is a three-dimensional network structure of carbon where each atom is bonded to four others, making it the hardest natural substance known."
+    "questionEnglish": "What is the valency of Carbon?",
+    "questionOdia": "କାର୍ବନର ଯୋଜ୍ୟତା (Valency) କେତେ?",
+    "options": ["2", "3", "4", "6"],
+    "answer": "4",
+    "explanation": "କାର୍ବନର ବାହ୍ୟ କକ୍ଷରେ ୪ଟି ଇଲେକ୍ଟ୍ରନ୍ ଥିବାରୁ ଏହାର ଯୋଜ୍ୟତା ୪ ଅଟେ, ତେଣୁ ଏହାକୁ ଚତୁଃଯୋଜୀ (Tetravalent) କୁହାଯାଏ।"
   },
   {
-    "questionEnglish": "Why is Graphite a good conductor of electricity unlike other non-metals?",
-    "questionOdia": "ଅନ୍ୟ ଅଧାତୁଗୁଡ଼ିକ ତୁଳନାରେ ଗ୍ରାଫାଇଟ୍ (Graphite) ବିଦ୍ୟୁତ୍‌ର ସୁପରିବାହୀ ହେବାର କାରଣ କଣ?",
-    "options": [
-      "Presence of free electrons",
-      "Its extremely hard nature",
-      "Presence of ionic bonds",
-      "It has a spherical shape"
-    ],
-    "answer": "Presence of free electrons",
-    "explanation": "In graphite, each carbon atom is bonded to three other carbon atoms, leaving one free valence electron per atom to conduct electricity."
+    "questionEnglish": "The property of self-linking of carbon atoms to form long chains is called?",
+    "questionOdia": "କାର୍ବନ ପରମାଣୁଗୁଡ଼ିକ ପରସ୍ପର ସହ ବନ୍ଧ ସୃଷ୍ଟି କରି ଦୀର୍ଘ ଶୃଙ୍ଖଳ ଗଠନ କରିବାର ଗୁଣକୁ କଣ କୁହାଯାଏ?",
+    "options": ["ଆଇସୋମେରିଜିମ୍", "କାଟେନେସନ୍ (Catenation)", "ହାଇଡ୍ରୋଜେନେସନ୍", "ହୋମୋଲୋଗସ"],
+    "answer": "କାଟେନେସନ୍ (Catenation)",
+    "explanation": "କାର୍ବନ-କାର୍ବନ ସହସଂଯୋଜକ ବନ୍ଧ ଅତ୍ୟନ୍ତ ଦୃଢ଼ ହୋଇଥିବାରୁ ଏହା ଏକ ଦୀର୍ଘ ଶୃଙ୍ଖଳ ଗଠନ କରିପାରେ, ଯାହାକୁ କାଟେନେସନ୍ କୁହାଯାଏ।"
   },
   {
-    "questionEnglish": "What is the general chemical formula for the homologous series of Alkanes?",
-    "questionOdia": "ଆଲକେନ୍ (Alkanes) ସମଜାତୀୟ ଶ୍ରେଣୀର ସାଧାରଣ ରାସାୟନିକ ସଙ୍କେତ କଣ?",
-    "options": [
-      "C_n H_{2n+2}",
-      "C_n H_{2n}",
-      "C_n H_{2n-2}",
-      "C_n H_{2n+1}"
-    ],
-    "answer": "C_n H_{2n+2}",
-    "explanation": "Alkanes are saturated hydrocarbons containing only single bonds, and they follow the general formula C_n H_{2n+2} (e.g., Methane: CH4)."
+    "questionEnglish": "Which of the following is an allotrope of carbon that conducts electricity?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କାର୍ବନର କେଉଁ ରୂପଭେଦ (Allotrope) ବିଦ୍ୟୁତ୍ ପରିବହନ କରିପାରେ?",
+    "options": ["ହୀରା (Diamond)", "ଗ୍ରାଫାଇଟ୍ (Graphite)", "କୋଇଲା", "ଫୁଲେରିନ୍"],
+    "answer": "ଗ୍ରାଫାଇଟ୍ (Graphite)",
+    "explanation": "ଗ୍ରାଫାଇଟ୍‌ରେ ପ୍ରତି କାର୍ବନ ପରମାଣୁରେ ଗୋଟିଏ ମୁକ୍ତ ଇଲେକ୍ଟ୍ରନ୍ ଥାଏ, ଯାହା ବିଦ୍ୟୁତ୍ ପରିବହନରେ ସାହାଯ୍ୟ କରେ।"
   },
   {
-    "questionEnglish": "Hydrocarbons containing at least one carbon-carbon double bond (C=C) are classified as?",
-    "questionOdia": "କାର୍ବନ-କାର୍ବନ ମଧ୍ୟରେ ଅତିକମରେ ଗୋଟିଏ ଦ୍ୱିବନ୍ଧ (Double Bond) ଥିବା ହାଇଡ୍ରୋକାର୍ବନକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Alkenes",
-      "Alkanes",
-      "Alkynes",
-      "Alcohol"
-    ],
-    "answer": "Alkenes",
-    "explanation": "Alkenes are unsaturated open-chain hydrocarbons that contain a carbon-carbon double bond and follow the general formula C_n H_{2n}."
+    "questionEnglish": "Which allotrope of carbon is the hardest natural substance known?",
+    "questionOdia": "କାର୍ବନର କେଉଁ ରୂପଭେଦ ପ୍ରକୃତିର ସବୁଠାରୁ କଠିନ ପ୍ରାକୃତିକ ପଦାର୍ଥ ଅଟେ?",
+    "options": ["ଗ୍ରାଫାଇଟ୍", "କୋକ୍", "ହୀରା (Diamond)", "ଚାରକୋଲ୍"],
+    "answer": "ହୀରା (Diamond)",
+    "explanation": "ହୀରାରେ ପ୍ରତି କାର୍ବନ ପରମାଣୁ ଅନ୍ୟ ୪ଟି କାର୍ବନ ସହ ଏକ ଦୃଢ଼ ତ୍ରିମାତ୍ରିକ (3D) ସଂରଚନା ଗଠନ କରୁଥିବାରୁ ଏହା ସବୁଠାରୁ କଠିନ।"
   },
   {
-    "questionEnglish": "What is the name of the functional group present in carboxylic acids?",
-    "questionOdia": "କାର୍ବୋକ୍ସିଲିକ୍ ଅମ୍ଳରେ (Carboxylic acids) ଥିବା କ୍ରିୟାଶୀଳ ଗ୍ରୁପ୍ ବା ଫଙ୍କସନାଲ୍ ଗ୍ରୁପ୍‌ର ସଙ୍କେତ କଣ?",
-    "options": [
-      "-COOH",
-      "-OH",
-      "-CHO",
-      "-CO-"
-    ],
+    "questionEnglish": "What is the shape of Buckminsterfullerene (C-60)?",
+    "questionOdia": "ବକ୍‌ମିନ୍ସଟରଫୁଲେରିନ୍ (C-60) ର ଗଠନ କାହା ଭଳି ହୋଇଥାଏ?",
+    "options": ["ଫୁଟବଲ୍ (Football)", "ଉଙ୍ଗୁଠି", "ଘନକ", "ଷଡ଼ଭୁଜ ଶୃଙ୍ଖଳ"],
+    "answer": "ଫୁଟବଲ୍ (Football)",
+    "explanation": "C-60 ଫୁଲେରିନ୍‌ରେ କାର୍ବନ ପରମାଣୁଗୁଡ଼ିକ ଏକ ଫୁଟବଲ୍ ଆକାରରେ ସଜ୍ଜିତ ହୋଇ ରହିଥାନ୍ତି।"
+  },
+  {
+    "questionEnglish": "Compounds containing only Carbon and Hydrogen are called?",
+    "questionOdia": "କେବଳ କାର୍ବନ ଏବଂ ହାଇଡ୍ରୋଜେନ୍‌କୁ ନେଇ ଗଠିତ ଯୌଗିକଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
+    "options": ["ହାଇଡ୍ରୋକାର୍ବନ (Hydrocarbons)", "ହେଲୋଆଲକେନ୍", "କାର୍ବୋହାଇଡ୍ରେଟ୍", "ଆଲକହଲ୍"],
+    "answer": "ହାଇଡ୍ରୋକାର୍ବନ (Hydrocarbons)",
+    "explanation": "କାର୍ବନ (C) ଏବଂ ହାଇଡ୍ରୋଜେନ୍ (H) ର ମିଶ୍ରଣରେ ତିଆରି ଯୌଗିକକୁ ହାଇଡ୍ରୋକାର୍ବନ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Hydrocarbons containing only single bonds between carbon atoms are called?",
+    "questionOdia": "ଯେଉଁ ହାଇଡ୍ରୋକାର୍ବନରେ କାର୍ବନ-କାର୍ବନ ମଧ୍ୟରେ କେବଳ ଏକବନ୍ଧ (Single bond) ଥାଏ, ତାକୁ କଣ କୁହାଯାଏ?",
+    "options": ["ଅସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନ", "ସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନ (Saturated Hydrocarbon)", "ଆଲକିନ୍", "ଆଲକାଇନ୍"],
+    "answer": "ସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନ (Saturated Hydrocarbon)",
+    "explanation": "କେବଳ ଏକବନ୍ଧ ବିଶିଷ୍ଟ କାର୍ବନ ଶୃଙ୍ଖଳକୁ ସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନ ବା ଆଲକେନ୍ ଶ୍ରେଣୀ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Hydrocarbons with double or triple bonds between carbon atoms are called?",
+    "questionOdia": "କାର୍ବନ-କାର୍ବନ ମଧ୍ୟରେ ଦ୍ୱିବନ୍ଧ ବା ତ୍ରିବନ୍ଧ ଥିବା ହାଇଡ୍ରୋକାର୍ବନକୁ କଣ କୁହାଯାଏ?",
+    "options": ["ସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନ", "ଅସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନ (Unsaturated)", "ଆଲକେନ୍", "ପାରାଫିନ୍"],
+    "answer": "ଅସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନ (Unsaturated)",
+    "explanation": "ଦ୍ୱିବନ୍ଧ (Double bond) ବା ତ୍ରିବନ୍ଧ (Triple bond) ଥିବା ଯୌଗିକକୁ ଅସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the general formula of Alkanes?",
+    "questionOdia": "ଆଲକେନ୍ (Alkane) ଶ୍ରେଣୀର ସାଧାରଣ ସୂତ୍ର କଣ?",
+    "options": ["CnH2n", "CnH2n+2", "CnH2n-2", "CnH2n+1"],
+    "answer": "CnH2n+2",
+    "explanation": "ଆଲକେନ୍‌ର ସାଧାରଣ ସୂତ୍ର CnH2n+2 ଅଟେ, ଯେପରିକି ମିଥେନ୍ (CH4, n=1) ।"
+  },
+  {
+    "questionEnglish": "What is the general formula of Alkenes?",
+    "questionOdia": "ଆଲକିନ୍ (Alkene) ଶ୍ରେଣୀର ସାଧାରଣ ସୂତ୍ର କଣ?",
+    "options": ["CnH2n+2", "CnH2n", "CnH2n-2", "CnH2n-1"],
+    "answer": "CnH2n",
+    "explanation": "ଆଲକିନ୍‌ରେ ଅନ୍ତତଃ ଗୋଟିଏ ଦ୍ୱିବନ୍ଧ ଥାଏ ଏବଂ ଏହାର ସୂତ୍ର CnH2n ଅଟେ।"
+  },
+  {
+    "questionEnglish": "What is the general formula of Alkynes?",
+    "questionOdia": "ଆଲକାଇନ୍ (Alkyne) ଶ୍ରେଣୀର ସାଧାରଣ ସୂତ୍ର କଣ?",
+    "options": ["CnH2n", "CnH2n+2", "CnH2n-2", "CnH2n+1"],
+    "answer": "CnH2n-2",
+    "options": ["CnH2n", "CnH2n+2", "CnH2n-2", "CnH2n+1"],
+    "answer": "CnH2n-2",
+    "explanation": "ଆଲକାଇନ୍‌ରେ ଅନ୍ତତଃ ଗୋଟିଏ ତ୍ରିବନ୍ଧ ଥାଏ ଏବଂ ଏହାର ସୂତ୍ର CnH2n-2 ଅଟେ।"
+  },
+  {
+    "questionEnglish": "What is the first member of the Alkane series?",
+    "questionOdia": "ଆଲକେନ୍ ଶ୍ରେଣୀର ପ୍ରଥମ ସଦସ୍ୟ କିଏ?",
+    "options": ["ଇଥେନ୍ (C2H6)", "ମିଥେନ୍ (CH4)", "ପ୍ରୋପେନ୍ (C3H8)", "ଇଥିନ୍"],
+    "answer": "ମିଥେନ୍ (CH4)",
+    "explanation": "ଆଲକେନ୍ ଶ୍ରେଣୀରେ n=1 ହେଲେ ମିଥେନ୍ (CH4) ମିଳିଥାଏ, ଯାହା ପ୍ରଥମ ସଦସ୍ୟ।"
+  },
+  {
+    "questionEnglish": "What is the first member of the Alkene series?",
+    "questionOdia": "ଆଲକିନ୍ ଶ୍ରେଣୀର ପ୍ରଥମ ସଦସ୍ୟଙ୍କ ନାମ କଣ?",
+    "options": ["ମିଥିନ୍", "ଇଥିନ୍ (C2H4)", "ପ୍ରୋପିନ୍", "ବ୍ୟୁଟିନ୍"],
+    "answer": "ଇଥିନ୍ (C2H4)",
+    "explanation": "ଦ୍ୱିବନ୍ଧ ଗଠନ ପାଇଁ ଅନ୍ତତଃ ଦୁଇଟି କାର୍ବନ ପରମାଣୁ ଆବଶ୍ୟକ, ତେଣୁ ଏହାର ପ୍ରଥମ ସଦସ୍ୟ ଇଥିନ୍ (n=2) ଅଟେ।"
+  },
+  {
+    "questionEnglish": "What is the common name of Ethyne?",
+    "questionOdia": "ଇଥାଇନ୍ (C2H2) ର ସାଧାରଣ ନାମ କଣ?",
+    "options": ["ଆସେଟିଲିନ୍ (Acetylene)", "ଇଥିଲିନ୍", "ମିଥେନ୍", "ପ୍ରୋପାଗେନ୍"],
+    "answer": "ଆସେଟିଲିନ୍ (Acetylene)",
+    "explanation": "ଇଥାଇନ୍ (C2H2) କୁ ସାଧାରଣତଃ ଆସେଟିଲିନ୍ ଗ୍ୟାସ୍ କୁହାଯାଏ, ଯାହା ଗ୍ୟାସ୍ ୱେଲଡିଂରେ ବ୍ୟବହୃତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the molecular formula of Pentane?",
+    "questionOdia": "ପେଣ୍ଟେନ୍ (Pentane) ର ଆଣବିକ ସୂତ୍ର କଣ?",
+    "options": ["C5H10", "C5H12", "C6H14", "C4H10"],
+    "answer": "C5H12",
+    "explanation": "ପେଣ୍ଟେନ୍ ଅର୍ଥ ୫ଟି କାର୍ବନ ପରମାଣୁ। ଆଲକେନ୍ ସୂତ୍ର (CnH2n+2) ଅନୁଯାୟୀ C5H(2x5+2) = C5H12 ଅଟେ।"
+  },
+  {
+    "questionEnglish": "Compounds with the same molecular formula but different structural formulas are called?",
+    "questionOdia": "ସମାନ ଆଣବିକ ସୂତ୍ର କିନ୍ତୁ ଭିନ୍ନ ଗଠନମୂଳକ ସୂତ୍ର ଥିବା ଯୌଗିକଗୁଡ଼ିକ କଣ କୁହାଯାଏ?",
+    "options": ["ହୋମୋଲୋଗସ", "ଆଇସୋମର (Isomers)", "ଏଲୋଟ୍ରୋପ୍ସ", "ହାଇଡ୍ରୋକାର୍ବନ"],
+    "answer": "ଆଇସୋମର (Isomers)",
+    "explanation": "ସମାନ ଆଣବିକ ସଙ୍କେତ ଥାଇ ଭିନ୍ନ ଭିନ୍ନ ଗଠନ ଥିଲେ ସେଗୁଡ଼ିକୁ ସଂରଚନାତ୍ମକ ସମାବୟବୀ ବା ଆଇସୋମର କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "How many structural isomers can Butane (C4H10) have?",
+    "questionOdia": "ବ୍ୟୁଟେନ୍ (C4H10) ର କେତୋଟି ସଂରଚନାତ୍ମକ ଆଇସୋମର୍ ସମ୍ଭବ?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "2",
+    "explanation": "ବ୍ୟୁଟେନ୍‌ର ଦୁଇଟି ଆଇସୋମର୍ ଥାଏ - ଏନ୍-ବ୍ୟୁଟେନ୍ (n-butane) ଏବଂ ଆଇସୋବ୍ୟୁଟେନ୍ (isobutane) ।"
+  },
+  {
+    "questionEnglish": "How many structural isomers can Pentane (C5H12) have?",
+    "questionOdia": "ପେଣ୍ଟେନ୍ (C5H12) ର କେତୋଟି ସଂରଚନାତ୍ମକ ଆଇସୋମର୍ ରହିଛି?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "3",
+    "explanation": "ପେଣ୍ଟେନ୍‌ର ୩ଟି ଆଇସୋମର୍ ଅଛି: ଏନ୍-ପେଣ୍ଟେନ୍, ଆଇସୋ-ପେଣ୍ଟେନ୍ ଏବଂ ନିଓ-ପେଣ୍ଟେନ୍।"
+  },
+  {
+    "questionEnglish": "What is the molecular formula of Cyclohexane?",
+    "questionOdia": "ସାଇକ୍ଲୋହେକ୍ସେନ୍ (Cyclohexane) ର ଆଣବିକ ସୂତ୍ର କଣ?",
+    "options": ["C6H6", "C6H12", "C6H14", "C5H10"],
+    "answer": "C6H12",
+    "explanation": "ସାଇକ୍ଲୋହେକ୍ସେନ୍ ଏକ ବଳୟାକାର (Cyclic) ସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନ, ଯାହାର ସୂତ୍ର C6H12 ଅଟେ।"
+  },
+  {
+    "questionEnglish": "What is the chemical formula of Benzene?",
+    "questionOdia": "ବେଞ୍ଜିନ୍ (Benzene) ର ଆଣବିକ ସୂତ୍ର କଣ?",
+    "options": ["C6H12", "C6H6", "C6H14", "C2H2"],
+    "answer": "C6H6",
+    "explanation": "ବେଞ୍ଜିନ୍ ଏକ ବଳୟାକାର ଅସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନ, ଯେଉଁଥିରେ ଏକାନ୍ତର କ୍ରମରେ ୩ଟି ଏକବନ୍ଧ ଓ ୩ଟି ଦ୍ୱିବନ୍ଧ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "By how many units do two successive members of a homologous series differ?",
+    "questionOdia": "ଏକ ସମଗଣୀୟ ଶ୍ରେଣୀ (Homologous series) ର ଦୁଇଟି ପାଖାପାଖି ଯୌଗିକ ମଧ୍ୟରେ କେଉଁ ଗ୍ରୁପ୍‌ର ପାର୍ଥକ୍ୟ ଥାଏ?",
+    "options": ["-CH2-", "-CH3-", "-CH4-", "-C2H5-"],
+    "answer": "-CH2-",
+    "explanation": "ଏକ ସମଗଣୀୟ ଶ୍ରେଣୀର ପରବର୍ତ୍ତୀ ଯୌଗିକଗୁଡ଼ିକ ମଧ୍ୟରେ ସର୍ବଦା ଗୋଟିଏ -CH2- ଗ୍ରୁପ୍‌ର ପାର୍ଥକ୍ୟ ରହିଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the mass difference between two consecutive members of a homologous series?",
+    "questionOdia": "ସମଗଣୀୟ ଶ୍ରେଣୀର ଦୁଇଟି କ୍ରମିକ ସଦସ୍ୟଙ୍କ ମଧ୍ୟରେ ଆଣବିକ ବସ୍ତୁତ୍ୱର ପାର୍ଥକ୍ୟ କେତେ u ହୋଇଥାଏ?",
+    "options": ["12 u", "14 u", "16 u", "2 u"],
+    "answer": "14 u",
+    "explanation": "ଯେହେତୁ ପାର୍ଥକ୍ୟ -CH2- ଅଟେ, ଏହାର ବସ୍ତୁତ୍ୱ = ୧୨ (Carbon) + ୨ (Hydrogen) = ୧୪ u ଅଟେ।"
+  },
+  {
+    "questionEnglish": "An atom or group of atoms that determines the characteristic chemical properties of an organic compound is called?",
+    "questionOdia": "ଯୌଗିକର ରାସାୟନିକ ପ୍ରକୃତି ନିର୍ଦ୍ଧାରଣ କରୁଥିବା ପରମାଣୁ ବା ପରମାଣୁ ପୁଞ୍ଜକୁ କଣ କୁହାଯାଏ?",
+    "options": ["ଆଇସୋମର୍", "କ୍ରିୟାଶୀଳ ଦଳ / ଫଙ୍କସନାଲ୍ ଗ୍ରୁପ୍", "ହୋମୋଲୋଗସ", "ହାଇଡ୍ରୋକାର୍ବନ"],
+    "answer": "କ୍ରିୟାଶୀଳ ଦଳ / ଫଙ୍କସନାଲ୍ ଗ୍ରୁପ୍",
+    "explanation": "ଫଙ୍କସନାଲ୍ ଗ୍ରୁପ୍ (Functional Group) ହିଁ ଜୈବିକ ଯୌଗିକର ସମସ୍ତ ମୁଖ୍ୟ ରାସାୟନିକ ଗୁଣ ନିୟନ୍ତ୍ରଣ କରେ।"
+  },
+  {
+    "questionEnglish": "What is the functional group present in Alcohols?",
+    "questionOdia": "ଆଲକହଲ୍ (Alcohols) ଯୌଗିକରେ କେଉଁ କ୍ରିୟାଶୀଳ ଦଳ (Functional Group) ଥାଏ?",
+    "options": ["-CHO", "-OH", "-COOH", ">C=O"],
+    "answer": "-OH",
+    "explanation": "ଆଲକହଲ୍ ଶ୍ରେଣୀର ଚିହ୍ନଟ ପ୍ରକ୍ରିୟା ପାଇଁ ହାଇଡ୍ରୋକ୍ସିଲ୍ (-OH) ଗ୍ରୁପ୍ ବ୍ୟବହୃତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the functional group present in Aldehydes?",
+    "questionOdia": "ଆଲଡିହାଇଡ୍ (Aldehydes) ରେ ଥିବା କ୍ରିୟାଶୀଳ ଦଳର ସଙ୍କେତ କଣ?",
+    "options": ["-OH", "-CHO", "-COOH", ">C=O"],
+    "answer": "-CHO",
+    "explanation": "ଆଲଡିହାଇଡ୍ ଗ୍ରୁପ୍‌ର ସଙ୍କେତ ହେଉଛି -CHO, ଯେପରିକି ଫର୍ମାଲଡିହାଇଡ୍ (HCHO) ।"
+  },
+  {
+    "questionEnglish": "What is the functional group of Ketones?",
+    "questionOdia": "କିଟୋନ୍ (Ketone) ଶ୍ରେଣୀର ଯୌଗିକରେ କେଉଁ କ୍ରିୟାଶୀଳ ଦଳ ରହିଥାଏ?",
+    "options": [">C=O (Carbonyl)", "-CHO", "-OH", "-COOH"],
+    "answer": ">C=O (Carbonyl)",
+    "explanation": "କିଟୋନ୍ ଗ୍ରୁପ୍‌ରେ କାର୍ବୋନିଲ୍ ଗ୍ରୁପ୍ (>C=O) ଦୁଇଟି କାର୍ବନ ପରମାଣୁ ମଧ୍ୟରେ ରହିଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the functional group of Carboxylic Acids?",
+    "questionOdia": "କାର୍ବୋକ୍ସିଲିକ୍ ଅମ୍ଳ (Carboxylic Acids) ର କ୍ରିୟାଶୀଳ ସଙ୍କେତ କଣ?",
+    "options": ["-CHO", "-COOH", "-OH", "-CO-"],
     "answer": "-COOH",
-    "explanation": "The carboxylic acid functional group is represented by -COOH (e.g., Ethanoic acid: CH3COOH)."
+    "explanation": "କାର୍ବୋକ୍ସିଲିକ୍ ଅମ୍ଳ ଗ୍ରୁପ୍‌କୁ -COOH ଦ୍ୱାରା ଦର୍ଶାଯାଏ, ଯେପରିକି ଏସିଟିକ୍ ଅମ୍ଳ (CH3COOH) ।"
   },
   {
-    "questionEnglish": "Compounds having the same molecular formula but different structural arrangements are called?",
-    "questionOdia": "ଏକା ପ୍ରକାରର ଆଣବିକ ସଙ୍କେତ କିନ୍ତୁ ଭିନ୍ନ ଗଠନମୂଳକ ସଙ୍କେତ ଥିବା ଯୌଗିକଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Isomers",
-      "Allotropes",
-      "Homologues",
-      "Isotopes"
-    ],
-    "answer": "Isomers",
-    "explanation": "Isomers (ସମାବୟବୀ) exhibit different physical or chemical properties due to the variation in the arrangement of atoms in space."
+    "questionEnglish": "What suffix is used in the IUPAC naming of Alcohols?",
+    "questionOdia": "IUPAC ନାମକରଣ ପଦ୍ଧତିରେ ଆଲକହଲ୍ ପାଇଁ କେଉଁ ଅନୁଲଗ୍ନ (Suffix) ବ୍ୟବହୃତ ହୁଏ?",
+    "options": ["-al", "-ol", "-one", "-oic acid"],
+    "answer": "-ol",
+    "explanation": "ଆଲକହଲ୍ ନାମକରଣ ଶେଷରେ '-ol' (ଓଲ୍) ଯୋଡ଼ାଯାଏ, ଯେପରିକି Methanol, Ethanol।"
   },
   {
-    "questionEnglish": "Which chemical substance is the main constituent of vinegar?",
-    "questionOdia": "ଭିନେଗାର୍ (Vinegar) ର ମୁଖ୍ୟ ରାସାୟନିକ ଉପାଦାନ କଣ?",
-    "options": [
-      "Ethanoic acid (Acetic acid)",
-      "Methanoic acid",
-      "Ethanol",
-      "Acetone"
-    ],
-    "answer": "Ethanoic acid (Acetic acid)",
-    "explanation": "A 5-8% solution of ethanoic acid (acetic acid) in water is commercialized and used as vinegar for preserving food items."
+    "questionEnglish": "What suffix is used in the IUPAC naming of Aldehydes?",
+    "questionOdia": "ଆଲଡିହାଇଡ୍ ର ନାମକରଣ ସମୟରେ କେଉଁ ଅନୁଲଗ୍ନ (Suffix) ବ୍ୟବହୃତ ହୁଏ?",
+    "options": ["-ol", "-al", "-one", "-oic acid"],
+    "answer": "-al",
+    "explanation": "ଆଲଡିହାଇଡ୍ ଯୌଗିକର ଶେଷରେ '-al' (ଆଲ୍) ଲାଗେ, ଯେପରିକି Methanal, Ethanal।"
+  },
+  {
+    "questionEnglish": "What suffix is used in the IUPAC naming of Ketones?",
+    "questionOdia": "କିଟୋନ୍ ଯୌଗିକର ନାମକରଣ ଶେଷରେ କଣ ଲେଖାଯାଏ?",
+    "options": ["-al", "-ol", "-one", "-oic acid"],
+    "answer": "-one",
+    "explanation": "କିଟୋନ୍ ଗ୍ରୁପ୍ ଥିଲେ ଶେଷରେ '-one' (ଓନ୍) ଲେଖାଯାଏ, ଯେପରିକି Propanone (Acetone) ।"
+  },
+  {
+    "questionEnglish": "What is the IUPAC name of the first member of the Ketone series?",
+    "questionOdia": "କିଟୋନ୍ ଶ୍ରେଣୀର ପ୍ରଥମ ସଦସ୍ୟର IUPAC ନାମ କଣ?",
+    "options": ["Ethanone", "Propanone", "Butanone", "Methanone"],
+    "answer": "Propanone",
+    "explanation": "କିଟୋନ୍ ଗ୍ରୁପ୍ ପାଇଁ ଅନ୍ତତଃ ୩ଟି କାର୍ବନ ପରମାଣୁ ଆବଶ୍ୟକ, ତେଣୁ ପ୍ରଥମ ଯୌଗିକ ହେଉଛି ପ୍ରୋପାନୋନ୍ (CH3COCH3) ।"
+  },
+  {
+    "questionEnglish": "Which gas is the major component of Compressed Natural Gas (CNG) and Biogas?",
+    "questionOdia": "ସି.ଏନ୍.ଜି (CNG) ଏବଂ ବାୟୋଗ୍ୟାସ୍‌ର ମୁଖ୍ୟ ଉପାଦାନ କେଉଁ ଗ୍ୟାସ୍ ଅଟେ?",
+    "options": ["ଇଥେନ୍", "ପ୍ରୋପେନ୍", "ମิଥେନ୍ (Methane)", "ବ୍ୟୁଟେନ୍"],
+    "answer": "ମିଥେନ୍ (Methane)",
+    "explanation": "ମିଥେନ୍ (CH4) ହେଉଛି ପ୍ରାକୃତିକ ଗ୍ୟାସ୍ ଓ ବାୟୋଗ୍ୟାସ୍‌ର ପ୍ରମୁଖ ଉପାଦାନ।"
+  },
+  {
+    "questionEnglish": "What type of flame is produced by saturated hydrocarbons on complete combustion?",
+    "questionOdia": "ସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନଗୁଡ଼ିକର ସମ୍ପୂର୍ଣ୍ଣ ଦହନ ହେଲେ କେଉଁ ରଙ୍ଗର ଶିଖା ମିଳିଥାଏ?",
+    "options": ["ହଳଦିଆ ଶିଖା", "ନୀଳ ସ୍ୱଚ୍ଛ ଶିଖା (Blue flame)", "ସବୁଜ ଶିଖା", "ଧୂଆଁମୟ ଶିଖା"],
+    "answer": "ନୀଳ ସ୍ୱଚ୍ଛ ଶିଖା (Blue flame)",
+    "explanation": "ପ୍ରଚୁର ଅମ୍ଳଜାନ ଉପସ୍ଥିତିରେ ସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନ ଜଳିଲେ ସ୍ୱଚ୍ଛ ନୀଳ ଶିଖା ସୃଷ୍ଟି ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Unsaturated hydrocarbons burn with which type of flame?",
+    "questionOdia": "ଅସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନ ଗୁଡ଼ିକ ଜଳିବା ସମୟରେ କିପରି ଶିଖା ସୃଷ୍ଟି କରନ୍ତି?",
+    "options": ["ସ୍ୱଚ୍ଛ ନୀଳ ଶିଖା", "କଳା ଧୂଆଁ ସହ ହଳଦିଆ ଶିଖା (Yellow sooty flame)", "ରଙ୍ଗହୀନ ଶିଖା", "ଶିଖା ସୃଷ୍ଟି ହୁଏନାହିଁ"],
+    "answer": "କଳା ଧୂଆଁ ସହ ହଳଦିଆ ଶିଖା (Yellow sooty flame)",
+    "explanation": "ଅସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନରେ କାର୍ବନର ପ୍ରତିଶତ ଅଧିକ ଥିବାରୁ ଏହାର ଅସମ୍ପୂର୍ଣ୍ଣ ଦହନ ଘଟେ ଓ ହଳଦିଆ ଧୂଆଁମୟ ଶିଖା ମିଳେ।"
+  },
+  {
+    "questionEnglish": "Why do gas burners or stoves develop yellow flames when the holes are blocked?",
+    "questionOdia": "ଗ୍ୟାସ୍ ଷ୍ଟୋଭ୍‌ର କଣାଗୁଡ଼ିକ ବନ୍ଦ ହୋଇଗଲେ ଶିଖାର ରଙ୍ଗ ହଳଦିଆ କାହିଁକି ହୋଇଯାଏ?",
+    "options": ["ଗ୍ୟାସ୍ ସରିଯିବା ଯୋଗୁଁ", "ଅସମ୍ପୂର୍ଣ୍ଣ ଦହନ ଯୋଗୁଁ (Incomplete combustion)", "ତାପମାତ୍ରା ବଢ଼ିବା ଯୋଗୁଁ", "ଜଳବାଷ୍ପ ଯୋଗୁଁ"],
+    "answer": "ଅସମ୍ପୂର୍ଣ୍ଣ ଦହନ ଯୋଗୁଁ (Incomplete combustion)",
+    "explanation": "କଣା ବନ୍ଦ ହେଲେ ପର୍ଯ୍ୟାପ୍ତ ଅମ୍ଳଜାନ ମିଳେନାହିଁ, ଯାହା ଫଳରେ ଗ୍ୟାସ୍‌ର ଅସମ୍ପୂର୍ଣ୍ଣ ଦହନ ହୋଇ ହଳଦିଆ ଶିଖା ଦିଏ ଏବଂ ପାତ୍ର କଳା ପଡ଼େ।"
+  },
+  {
+    "questionEnglish": "Which compound is formed when Ethanol is oxidized with alkaline KMnO4?",
+    "questionOdia": "କ୍ଷାରୀୟ KMnO4 ଉପସ୍ଥିତିରେ ଇଥାନୋଲ୍‌କୁ ଗରମ କଲେ ତାହା କେଉଁଥିରେ ପରିଣତ ହୁଏ?",
+    "options": ["Ethanal", "Ethanoic Acid (ଇଥାନୋଇକ୍ ଅମ୍ଳ)", "Methane", "Ester"],
+    "answer": "Ethanoic Acid (ଇଥାନୋଇକ୍ ଅମ୍ଳ)",
+    "explanation": "କ୍ଷାରୀୟ KMnO4 ଏକ ଶକ୍ତିଶାଳୀ ଜାରକ ପଦାର୍ଥ, ଯାହା ଆଲକହଲ୍‌କୁ କାର୍ବୋକ୍ସିଲିକ୍ ଅମ୍ଳରେ (CH3COOH) ଜାରିତ କରେ।"
+  },
+  {
+    "questionEnglish": "The conversion of vegetable oils into vegetable ghee uses which chemical reaction?",
+    "questionOdia": "ଉଦ୍ଭିଦ ତେଲରୁ ବନସ୍ପତି ଘିଅ ପ୍ରସ୍ତୁତି ପାଇଁ କେଉଁ ରାସାୟନିକ ପ୍ରତିକ୍ରିୟା ବ୍ୟବହୃତ ହୁଏ?",
+    "options": ["ପ୍ରତିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା", "ହାଇଡ୍ରୋଜେନେସନ୍ / ସଂଯୋଗୀକରଣ (Hydrogenation)", "ବିଘଟନ ପ୍ରତିକ୍ରିୟା", "ଜାରଣ ପ୍ରତିକ୍ରିୟା"],
+    "answer": "ହାଇଡ୍ରୋଜେନେସନ୍ / ସଂଯୋଗୀକରଣ (Hydrogenation)",
+    "explanation": "ଅସଂପୃକ୍ତ ଉଦ୍ଭିଦ ତେଲରେ ହାଇଡ୍ରୋଜେନ୍ ଯୋଗ କରି ସଂପୃକ୍ତ ବନସ୍ପତି ଘିଅ ପ୍ରସ୍ତୁତ କରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which metal is commonly used as a catalyst in the hydrogenation of vegetable oils?",
+    "questionOdia": "ଉଦ୍ଭିଦ ତେଲର ହାଇଡ୍ରୋଜେନେସନ୍ ପ୍ରକ୍ରିୟାରେ କେଉଁ ଧାତୁକୁ ଉତ୍ପ୍ରେରକ (Catalyst) ଭାବେ ବ୍ୟବହାର କରାଯାଏ?",
+    "options": ["ଲୁହା (Iron)", "କପର (Copper)", "ନିକେଲ୍ (Nickel) ବା ପାଲାଡିୟମ୍", "ସୁନା"],
+    "answer": "ନିକେଲ୍ (Nickel) ବା ପାଲାଡିୟମ୍",
+    "explanation": "ନିକେଲ୍ (Ni) ଉତ୍ପ୍ରେରକ ଅସଂପୃକ୍ତ ଚର୍ବିକୁ ସଂପୃକ୍ତ ଚର୍ବିରେ ପରିଣତ କରିବାରେ ସାହାଯ୍ୟ କରେ।"
+  },
+  {
+    "questionEnglish": "Alkanes undergo which type of reaction with chlorine in the presence of sunlight?",
+    "questionOdia": "ସୂର୍ଯ୍ୟାଲୋକ ଉପସ୍ଥିତିରେ ଆଲକେନ୍ ଗୁଡ଼ିକ କ୍ଲୋରିନ୍ ସହ କେଉଁ ପ୍ରକାର ପ୍ରତିକ୍ରିୟା କରନ୍ତି?",
+    "options": ["ସଂଯୋଗୀକରଣ ପ୍ରତିକ୍ରିୟା", "ପ୍ରତିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା (Substitution)", "ବିଘଟନ", "ଅବକ୍ଷେପଣ"],
+    "answer": "ପ୍ରତିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା (Substitution)",
+    "explanation": "ସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନରେ ହାଇଡ୍ରୋଜେନ୍ ପରମାଣୁ ଗୋଟିଏ ପରେ ଗୋଟିଏ କ୍ଲୋରିନ୍ ଦ୍ୱାରା ପ୍ରତିସ୍ଥାପିତ ହୁଅନ୍ତି।"
+  },
+  {
+    "questionEnglish": "What is the active ingredient of all alcoholic drinks?",
+    "questionOdia": "ସମସ୍ତ ପ୍ରକାର ମଦ ବା ଆଲକହଲିକ୍ ପାନୀୟର ମୁଖ୍ୟ ଉପାଦାନ କଣ?",
+    "options": ["Methanol", "Ethanol (ଇଥାନୋଲ୍)", "Propanol", "Ethanoic acid"],
+    "answer": "Ethanol (ଇଥାନୋଲ୍)",
+    "explanation": "ଇଥାନୋଲ୍ (C2H5OH) କୁ ସାଧାରଣତଃ ଆଲକହଲ୍ କୁହାଯାଏ ଏବଂ ଏହା ନିଶାଦ୍ରବ୍ୟର ମୁଖ୍ୟ ଉପାଦାନ।"
+  },
+  {
+    "questionEnglish": "What gas is evolved when ethanol reacts with sodium metal?",
+    "questionOdia": "ଇଥାନୋଲ୍ ସୋଡିୟମ୍ ଧାତୁ ସହ ପ୍ରତିକ୍ରିୟା କଲେ କେଉଁ ଗ୍ୟାସ୍ ନିର୍ଗତ ହୁଏ?",
+    "options": ["Oxygen", "Hydrogen (ହାଇଡ୍ରୋଜେନ୍)", "Carbon Dioxide", "Methane"],
+    "answer": "Hydrogen (ହାଇଡ୍ରୋଜେନ୍)",
+    "explanation": "2C2H5OH + 2Na -> 2C2H5ONa (Sodium Ethoxide) + H2। ଏଠାରୁ ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍ ବାହାରିଥାଏ।"
+  },
+  {
+    "questionEnglish": "Heating ethanol at 443 K with excess concentrated sulfuric acid produces?",
+    "questionOdia": "ଇଥାନୋଲ୍‌କୁ ପ୍ରଚୁର ଗାଢ଼ ସଲଫ୍ୟୁରିକ୍ ଅମ୍ଳ ସହ 443 K ରେ ଗରମ କଲେ କଣ ମିଳେ?",
+    "options": ["Ethene (ଇଥିନ୍)", "Ethane", "Ethanoic Acid", "Methanal"],
+    "answer": "Ethene (ଇଥିନ୍)",
+    "explanation": "ଗାଢ଼ H2SO4 ଏକ ନିର୍ଜଳୀକାରକ (Dehydrating agent) ଭାବେ କାର୍ଯ୍ୟ କରି ଇଥାନୋଲ୍‌ରୁ ଜଳ ବାହାର କରି ଇଥିନ୍ (C2H4) ସୃଷ୍ଟି କରେ।"
+  },
+  {
+    "questionEnglish": "What is the common name of Ethanoic Acid?",
+    "questionOdia": "ଇଥାନୋଇକ୍ ଅମ୍ଳ (Ethanoic Acid) ର ସାଧାରଣ ନାମ କଣ?",
+    "options": ["ଫର୍ମିକ ଅମ୍ଳ", "ଆସେଟିକ୍ ଅମ୍ଳ (Acetic Acid)", "ସିଟ୍ରିକ୍ ଅମ୍ଳ", "ଲାକ୍ଟିକ୍ ଅମ୍ଳ"],
+    "answer": "ଆସେଟିକ୍ ଅମ୍ଳ (Acetic Acid)",
+    "explanation": "ଇଥାନୋଇକ୍ ଅମ୍ଳ (CH3COOH) କୁ ସାଧାରଣ ବ୍ୟବହାରରେ ଆସେଟିକ୍ ଅମ୍ଳ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "A 5-8% solution of acetic acid in water is called?",
+    "questionOdia": "ଜଳରେ ଆସେଟିକ୍ ଅମ୍ଳର ୫-୮% ଦ୍ରବଣକୁ କଣ କୁହାଯାଏ?",
+    "options": ["ଆଲକହଲ୍", "ଭିନେଗାର୍ (Vinegar)", "ଗ୍ଲାସିଆଲ୍ ଆସେଟିକ୍ ଅମ୍ଳ", "ଏଷ୍ଟର"],
+    "answer": "ଭିନେଗାର୍ (Vinegar)",
+    "explanation": "ଭିନେଗାର୍‌କୁ ଆଚାର ଓ ଖାଦ୍ୟ ସଂରକ୍ଷଣ (Preservative) ପାଇଁ ବ୍ୟବହାର କରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is 100% pure ethanoic acid called because it freezes in cold climates?",
+    "questionOdia": "ବିଶୁଦ୍ଧ ଇଥାନୋଇକ୍ ଅମ୍ଳ ଶୀତଦିନେ ବରଫ ଭଳି ଜମି ଯାଉଥିବାରୁ ଏହାକୁ କଣ କୁହାଯାଏ?",
+    "options": ["Glacial Acetic Acid", "ଭିନେଗାର୍", "ମେଥାନୋଲ୍", "ଲିକ୍ୱିଡ୍ ଏସିଡ୍"],
+    "answer": "Glacial Acetic Acid",
+    "explanation": "ବିଶୁଦ୍ଧ ଆସେଟିକ୍ ଅମ୍ଳର ଗଳନାଙ୍କ ୨୯୦ K ହୋଇଥିବାରୁ ଏହା ଥଣ୍ଡା ପାଗରେ ଜମିଯାଏ, ତେଣୁ ଏହାକୁ ଗ୍ଲାସିଆଲ୍ ଆସେଟିକ୍ ଅମ୍ଳ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "The reaction between a carboxylic acid and an alcohol to form a sweet-smelling compound is called?",
+    "questionOdia": "ଏକ କାର୍ବୋକ୍ସିଲିକ୍ ଅମ୍ଳ ଓ ଆଲକହଲ୍ ମଧ୍ୟରେ ପ୍ରତିକ୍ରିୟା ହୋଇ ସୁଗନ୍ଧିତ ଯୌଗିକ ସୃଷ୍ଟି ହେବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "options": ["Saponification", "Esterification (ଏଷ୍ଟରୀକରଣ)", "Hydrolysis", "Hydrogenation"],
+    "answer": "Esterification (ଏଷ୍ଟରୀକରଣ)",
+    "explanation": "ଅମ୍ଳ ଓ ଆଲକହଲ୍ ପ୍ରତିକ୍ରିୟା କରି ଏଷ୍ଟର (Ester) ଗଠନ କରନ୍ତି, ଯାହାର ବାସ୍ନା ମିଠା ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "The alkaline hydrolysis of esters to prepare soap is known as?",
+    "questionOdia": "ଏଷ୍ଟରକୁ କ୍ଷାର ସହ ପ୍ରତିକ୍ରିୟା କରାଇ ସାବୁନ୍ ପ୍ରସ୍ତୁତ କରିବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "options": ["ଏଷ୍ଟରୀକରଣ", "ସାବୁନୀକରଣ (Saponification)", "ହାଇଡ୍ରୋଜେନେସନ୍", "ପ୍ରତିସ୍ଥାପନ"],
+    "answer": "ସାବୁନୀକରଣ (Saponification)",
+    "explanation": "ଏଷ୍ଟର NaOH ସହ ପ୍ରତିକ୍ରିୟା କରି ପୁଣିଥରେ ଆଲକହଲ୍ ଏବଂ ସୋଡିୟମ୍ ଲବଣ (ସାବୁନ୍) ପ୍ରଦାନ କରେ, ଏହାକୁ ସାବୁନୀକରଣ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What gas is evolved when ethanoic acid reacts with sodium bicarbonate?",
+    "questionOdia": "ଇଥାନୋଇକ୍ ଅମ୍ଳ ସୋଡିୟମ୍ ବାଇକାର୍ବୋନେଟ୍ (ଖାଇବା ସୋଡା) ସହ ପ୍ରତିକ୍ରିୟା କଲେ କେଉଁ ଗ୍ୟାସ୍ ବୁଦ୍‌ବୁଦ୍ ହୋଇ ବାହାରେ?",
+    "options": ["Hydrogen", "Oxygen", "Carbon Dioxide (CO2)", "Nitrogen"],
+    "answer": "Carbon Dioxide (CO2)",
+    "explanation": "ଅମ୍ଳ କାର୍ବୋନେଟ୍ ବା ବାଇକାର୍ବୋନେଟ୍ ସହ ପ୍ରତିକ୍ରିୟା କଲେ ସର୍ବଦା କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଗ୍ୟାସ୍ ସୃଷ୍ଟି କରେ।"
+  },
+  {
+    "questionEnglish": "Chemically, soaps are sodium or potassium salts of long-chain?",
+    "questionOdia": "ରାସାୟନିକ ଦୃଷ୍ଟିକୋଣରୁ ସାବୁନ୍ ହେଉଛି ଦୀର୍ଘ ଶୃଙ୍ଖଳ ବିଶିଷ୍ଟ କେଉଁ ଅମ୍ଳର ସୋଡିୟମ୍ ବା ପୋଟାସିୟମ୍ ଲବଣ?",
+    "options": ["ହାଇଡ୍ରୋକ୍ଲୋରିକ୍ ଅମ୍ଳ", "ଫ୍ୟାଟି ଅମ୍ଳ (Fatty Acids)", "ସଲଫ୍ୟୁରିକ୍ ଅମ୍ଳ", "ଆସେଟିକ୍ ଅମ୍ଳ"],
+    "answer": "ଫ୍ୟାଟି ଅମ୍ଳ (Fatty Acids)",
+    "explanation": "ସାବୁନ୍ ହେଉଛି ଉଚ୍ଚ ମଲିକ୍ୟୁଲାର ବସ୍ତୁତ୍ୱ ବିଶିଷ୍ଟ କାର୍ବୋକ୍ସିଲିକ୍ ଅମ୍ଳ ବା ଫ୍ୟାଟି ଏସିଡ୍‌ର ଲବଣ।"
+  },
+  {
+    "questionEnglish": "What is the spherical structure formed by soap molecules in water to trap dirt called?",
+    "questionOdia": "ଜଳରେ ସାବୁନ୍ ଅଣୁଗୁଡ଼ିକ ଦ୍ୱାରା ଗଠିତ ଗୋଲାକାର ଗୁଚ୍ଛ ସଂରଚନାକୁ କଣ କୁହାଯାଏ?",
+    "options": ["କାଟେନେସନ୍", "ମିସେଲ୍ (Micelle)", "ଆଇସୋମର୍", "ବଳୟ"],
+    "answer": "ମିସେଲ୍ (Micelle)",
+    "explanation": "ସାବୁନ୍‌ର ହାଇଡ୍ରୋଫୋବିକ୍ ଲାଞ୍ଜ ମଇଳା ଆଡ଼କୁ ଏବଂ ହାଇଡ୍ରୋଫିଲିକ୍ ମୁଣ୍ଡ ବାହାରକୁ ରହି ଏକ ମିସେଲ୍ ଗଠନ କରେ।"
+  },
+  {
+    "questionEnglish": "The water-loving hydrophilic end of a soap molecule is oriented towards?",
+    "questionOdia": "ସାବୁନ୍ ଅଣୁର ଜଳ-ସ୍ନେହୀ ବା ହାଇଡ୍ରୋଫିଲିକ୍ (Hydrophilic) ମୁଣ୍ଡଟି କାହା ଆଡ଼କୁ ରହିଥାଏ?",
+    "options": ["ତେଲ ବା ମଇଳା ଆଡ଼କୁ", "ଜଳ ଆଡ଼କୁ (Towards Water)", "ବାୟୁ ଆଡ଼କୁ", "କେନ୍ଦ୍ର ଆଡ଼କୁ"],
+    "answer": "ଜଳ ଆଡ଼କୁ (Towards Water)",
+    "explanation": "ହାଇଡ୍ରୋଫିଲିକ୍ ଅଂଶଟି ଆୟନୀୟ ହୋଇଥିବାରୁ ତାହା ଜଳ ଆଡ଼କୁ ଆକର୍ଷିତ ହୋଇ ରହେ।"
+  },
+  {
+    "questionEnglish": "The water-repelling hydrophobic end of a soap molecule is oriented towards?",
+    "questionOdia": "ସାବୁନ୍ ଅଣୁର ଜଳ-ବିରୋଧୀ ବା ହାଇଡ୍ରୋଫୋବିକ୍ (Hydrophobic) ଲାଞ୍ଜଟି କାହା ଆଡ଼କୁ ରହିଥାଏ?",
+    "options": ["ଜଳ ଆଡ଼କୁ", "ମଇଳା ବା ତେଲ ଆଡ଼କୁ (Towards Dirt/Oil)", "ବାହାର ଆଡ଼କୁ", "କୌଣସିଟି ନୁହେଁ"],
+    "answer": "ମଇଳା ବା ତେଲ ଆଡ଼କୁ (Towards Dirt/Oil)",
+    "explanation": "ହାଇଡ୍ରୋଫୋବିକ୍ ଲାଞ୍ଜଟି ହାଇଡ୍ରୋକାର୍ବନ ଶୃଙ୍ଖଳ ହୋଇଥିବାରୁ ତାହା ଜଳରେ ଦ୍ରବୀଭୂତ ହୁଏନାହିଁ, କିନ୍ତୁ ତେଲରେ ମିଶିଯାଏ।"
+  },
+  {
+    "questionEnglish": "Why does soap not work efficiently in hard water?",
+    "questionOdia": "ଖରଜଳ (Hard Water) ରେ ସାବୁନ୍ ସହଜରେ ଫେଣ ସୃଷ୍ଟି କରିପାରେ ନାହିଁ କାହିଁକି?",
+    "options": ["ଏହା ଥଣ୍ଡା ଥିବାରୁ", "Ca2+ ଏବଂ Mg2+ ଆୟନ ସହ ଅଦ୍ରବଣୀୟ ସ୍କମ୍ (Scum) ଗଠନ କରୁଥିବାରୁ", "ଜଳରେ ଅମ୍ଳଜାନ ନଥିବାରୁ", "ସାବୁନ୍ ଖରଜଳରେ ତରଳେ ନାହିଁ"],
+    "answer": "Ca2+ ଏବଂ Mg2+ ଆୟନ ସହ ଅଦ୍ରବଣୀୟ ସ୍କମ୍ (Scum) ଗଠନ କରୁଥିବାରୁ",
+    "explanation": "ଖରଜଳରେ ଥିବା କ୍ୟାଲସିୟମ୍ ଓ ମ୍ୟାଗ୍ନେସିୟମ୍ ଲବଣ ସାବୁନ୍ ସହ ପ୍ରତିକ୍ରିୟା କରି ଏକ ଧଳା ଅଦ୍ରବଣୀୟ ଅବକ୍ଷେପ ବା ସ୍କମ୍ ତିଆରି କରନ୍ତି।"
+  },
+  {
+    "questionEnglish": "Which cleaning agents work effectively even in hard water?",
+    "questionOdia": "ଖରଜଳରେ ମଧ୍ୟ କେଉଁ ସଫାକାରୀ ପଦାର୍ଥ ଭଲ ଭାବରେ କାମ କରିପାରେ?",
+    "options": ["ସାବୁନ୍", "ଡିଟରଜେଣ୍ଟ (Detergents)", "ଉଦ୍ଭିଦ ତେଲ", "ଶାମ୍ପୁ କେବଳ"],
+    "answer": "ଡିଟରଜେଣ୍ଟ (Detergents)",
+    "explanation": "ଡିଟରଜେଣ୍ଟଗୁଡ଼ିକ ହେଉଛି ଆମୋନିୟମ୍ ବା ସଲଫୋନେଟ୍ ଲବଣ, ଯାହା ଖରଜଳର ଆୟନ ସହ ଅଦ୍ରବଣୀୟ ଅବକ୍ଷେପ ସୃଷ୍ଟି କରନ୍ତି ନାହିଁ।"
+  },
+  {
+    "questionEnglish": "How many covalent bonds are present in a molecule of Ethane (C2H6)?",
+    "questionOdia": "ଇଥେନ୍ (C2H6) ର ଗୋଟିଏ ଅଣୁରେ କେତୋଟି ସହସଂଯୋଜକ ବନ୍ଧ ରହିଛି?",
+    "options": ["6", "7", "8", "9"],
+    "answer": "7",
+    "explanation": "ଇଥେନ୍‌ରେ ୬ଟି C-H ଏକବନ୍ଧ ଏବଂ ୧ଟି C-C ଏକବନ୍ଧ ଥାଏ, ମୋଟ ବନ୍ଧ ସଂଖ୍ୟା ୭ ଅଟେ।"
+  },
+  {
+    "questionEnglish": "Which of the following is the functional group of a haloalkane?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ହେଲୋଆଲକେନ୍ ର କ୍ରିୟାଶୀଳ ଦଳ?",
+    "options": ["-Cl / -Br", "-OH", "-CHO", "-COOH"],
+    "answer": "-Cl / -Br",
+    "explanation": "ହେଲୋଜେନ୍ ପରମାଣୁ (ଯେପରିକି କ୍ଲୋରିନ୍, ବ୍ରୋମିନ୍) ଯୋଡ଼ି ହେଲେ ତାହା ହେଲୋଆଲକେନ୍ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the molecular mass of Methane (CH4)?",
+    "questionOdia": "ମିଥେନ୍ (CH4) ର ଆଣବିକ ବସ୍ତୁତ୍ୱ କେତେ u ଅଟେ?",
+    "options": ["12 u", "16 u", "20 u", "14 u"],
+    "answer": "16 u",
+    "explanation": "କାର୍ବନର ବସ୍ତୁତ୍ୱ ୧୨ ଏବଂ ୪ଟି ହାଇଡ୍ରୋଜେନ୍‌ର ବସ୍ତୁତ୍ୱ ୪ (୧୨+୪ = ୧୬ u) ।"
+  },
+  {
+    "questionEnglish": "The first organic compound synthesized in the laboratory was?",
+    "questionOdia": "ପ୍ରୟୋଗଶାଳାରେ ପ୍ରସ୍ତୁତ କରାଯାଇଥିବା ପ୍ରଥମ ଜୈବିକ ଯୌଗିକ କଣ ଥିଲା?",
+    "options": ["Methane", "Urea (ୟୁରିଆ)", "Ethanol", "Acetic acid"],
+    "answer": "Urea (ୟୁରିଆ)",
+    "explanation": "ବିଜ୍ଞାନୀ ଫ୍ରେଡରିକ୍ ୱଲର ସର୍ବପ୍ରଥମେ ଅଜୈବିକ ପଦାର୍ଥରୁ ୟୁରିଆ ପ୍ରସ୍ତୁତ କରି ଜୈବଶକ୍ତି ବାଦକୁ ଭୁଲ୍ ପ୍ରମାଣିତ କରିଥିଲେ।"
+  },
+  {
+    "questionEnglish": "What is the common name of Methanal?",
+    "questionOdia": "ମେଥାନାଲ୍ (HCHO) ର ସାଧାରଣ ନାମ କଣ?",
+    "options": ["ଫର୍ମାଲଡିହାଇଡ୍ (Formaldehyde)", "ଆସେଟାଲଡିହାଇଡ୍", "ଫର୍ମିକ ଏସିଡ୍", "ଏସିଟୋନ୍"],
+    "answer": "ଫର୍ମାଲଡିହାଇଡ୍ (Formaldehyde)",
+    "explanation": "ମେଥାନାଲ୍ ହେଉଛି ଆଲଡିହାଇଡ୍ ଶ୍ରେଣୀର ପ୍ରଥମ ସଦସ୍ୟ ଯାହାକୁ ଫର୍ମାଲଡିହାଇଡ୍ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which gas is used in gas welding along with oxygen?",
+    "questionOdia": "ଅମ୍ଳଜାନ ସହିତ କେଉଁ ଗ୍ୟାସ୍ ମିଶାଇ ଗ୍ୟାସ୍ ୱେଲଡିଂ ବା ଧାତୁ ଜୋଡ଼େଇ କାର୍ଯ୍ୟ କରାଯାଏ?",
+    "options": ["Methane", "Ethyne / Acetylene", "Ethane", "Butane"],
+    "answer": "Ethyne / Acetylene",
+    "explanation": "ଇଥାଇନ୍ (Ethyne) କୁ ଅମ୍ଳଜାନ ସହ ଜଳାଇଲେ ପ୍ରଚୁର ଉତ୍ତାପ ସୃଷ୍ଟି ହୁଏ ଯାହା ଧାତୁକୁ ତରଳାଇବାରେ ସାହାଯ୍ୟ କରେ।"
+  },
+  {
+    "questionEnglish": "What is the formula of Propanol?",
+    "questionOdia": "ପ୍ରୋପାନୋଲ୍ ର ଆଣବିକ ସୂତ୍ର କଣ?",
+    "options": ["CH3OH", "C2H5OH", "C3H7OH", "C4H9OH"],
+    "answer": "C3H7OH",
+    "explanation": "ପ୍ରୋପାନୋଲ୍‌ରେ ୩ଟି କାର୍ବନ ଥାଏ, ଆଲକହଲ୍ ର ସାଧାରଣ ସୂତ୍ର CnH2n+1OH ଅଟେ।"
+  },
+  {
+    "questionEnglish": "In diamond, each carbon atom is bonded to how many other carbon atoms?",
+    "questionOdia": "ହୀରାର ସଂରଚନାରେ ପ୍ରତି କାର୍ବନ ପରମାଣୁ ଅନ୍ୟ କେତୋଟି କାର୍ବନ ପରମାଣୁ ସହ ବନ୍ଧିତ ଥାଏ?",
+    "options": ["2", "3", "4", "6"],
+    "answer": "4",
+    "explanation": "ହୀରାରେ ସମସ୍ତ ୪ଟି ଯୋଜ୍ୟତା ଇଲେକ୍ଟ୍ରନ୍ ଅନ୍ୟ ୪ଟି କାର୍ବନ ପରମାଣୁ ସହ ଦୃଢ଼ ଭାବେ ବନ୍ଧିତ ଥାନ୍ତି।"
+  },
+  {
+    "questionEnglish": "In graphite, each carbon atom is bonded to how many other carbon atoms?",
+    "questionOdia": "ଗ୍ରାଫାଇଟ୍‌ର ସଂରଚନାରେ ପ୍ରତି କାର୍ବନ ପରମାଣୁ ଅନ୍ୟ କେତୋଟି କାର୍ବନ ପରମାଣୁ ସହ ସମାନ ସମତଳରେ ଯୋଡ଼ି ହୋଇଥାଏ?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "3",
+    "explanation": "ଗ୍ରାଫାଇଟ୍‌ରେ ପ୍ରତି କାର୍ବନ ୩ଟି କାର୍ବନ ସହ ଷଡ଼ଭୁଜାକାର ସ୍ତର ଗଠନ କରେ ଏବଂ ୪ର୍ଥ ଇଲେକ୍ଟ୍ରନ୍‌ଟି ମୁକ୍ତ ରହେ।"
+  },
+  {
+    "questionEnglish": "Which component of LPG is the primary fuel gas?",
+    "questionOdia": "ଘରୋଇ ରୋଷେଇ ଗ୍ୟାସ୍ ବା LPG ର ମୁଖ୍ୟ ଉପାଦାନ କଣ?",
+    "options": ["Methane", "Ethane", "Butane (ବ୍ୟୁଟେନ୍)", "Hexane"],
+    "answer": "Butane (ବ୍ୟୁଟେନ୍)",
+    "explanation": "ତରଳୀକୃତ ପେଟ୍ରୋଲିୟମ୍ ଗ୍ୟାସ୍ (LPG) ର ପ୍ରମୁଖ ଉପାଦାନ ହେଉଛି ବ୍ୟୁଟେନ୍ (C4H10) ।"
+  },
+  {
+    "questionEnglish": "What is the common name of Propanone?",
+    "questionOdia": "ପ୍ରୋପାନୋନ୍ ର ସାଧାରଣ କିମ୍ବା ବାଣିଜ୍ୟିକ ନାମ କଣ?",
+    "options": ["Acetone (ଏସିଟୋନ୍)", "Formaldehyde", "Acetic Acid", "Ether"],
+    "answer": "Acetone (ଏସିଟୋନ୍)",
+    "explanation": "ପ୍ରୋପାନୋନ୍ (CH3COCH3) କୁ ଆମେ ସାଧାରଣତଃ ଏସିଟୋନ୍ କହୁ, ଯାହା ନଖପଲିସ୍ ଛଡ଼ାଇବା ପାଇଁ ବ୍ୟବହୃତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Which substance is added to commercial ethanol to make it unfit for drinking (denatured alcohol)?",
+    "questionOdia": "ଶିଳ୍ପଭିତ୍ତିକ ଇଥାନୋଲ୍‌କୁ ଅପବ୍ୟବହାର ବା ପିଇବା ରୋକିବା ପାଇଁ ସେଥିରେ କେଉଁ ବିଷାକ୍ତ ପଦାର୍ଥ ମିଶାଇ ବିକୃତ (Denatured) କରାଯାଏ?",
+    "options": ["Water", "Methanol (ମେଥାନୋଲ୍)", "Glucose", "Salt"],
+    "answer": "Methanol (ମେଥାନୋଲ୍)",
+    "explanation": "ଇଥାନୋଲ୍‌ରେ ମେଥାନୋଲ୍ ବା କପର ସଲଫେଟ୍ ମିଶାଇଲେ ତାହା ପିଇବା ଅନୁପଯୋଗୀ ଓ ବିଷାକ୍ତ ହୋଇଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the product when Ethanoic acid reacts with Sodium hydroxide?",
+    "questionOdia": "ଇଥାନୋଇକ୍ ଅମ୍ଳ ସୋଡିୟମ୍ ହାଇଡ୍ରୋକ୍ସାଇଡ୍ (NaOH) ସହ ପ୍ରତିକ୍ରିୟା କଲେ କେଉଁ ଲବଣ ସୃଷ୍ଟି ହୁଏ?",
+    "options": ["Sodium Ethoxide", "Sodium Acetate (ସୋଡିୟମ୍ ଆସେଟେଟ୍)", "Sodium Methanoate", "Soap"],
+    "answer": "Sodium Acetate (ସୋଡିୟମ୍ ଆସେଟେଟ୍)",
+    "explanation": "CH3COOH + NaOH -> CH3COONa (Sodium Acetate) + H2O। ଏହା ଏକ ପ୍ରଶମନ ପ୍ରତିକ୍ରିୟା।"
+  },
+  {
+    "questionEnglish": "Which functional group does not contain an oxygen atom?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ କ୍ରିୟାଶୀଳ ଦଳରେ ଅମ୍ଳଜାନ (Oxygen) ପରମାଣୁ ନଥାଏ?",
+    "options": ["ଆଲଡିହାଇଡ୍", "ଆଲକହଲ୍", "ହେଲୋଜେନ୍ (Halogen)", "କାର୍ବୋକ୍ସିଲିକ୍ ଅମ୍ଳ"],
+    "answer": "ହେଲୋଜେନ୍ (Halogen)",
+    "explanation": "ହେଲୋଜେନ୍ ଗ୍ରୁପ୍‌ରେ କେବଳ -Cl, -Br, -I ଥାଏ, ଏଥିରେ ଅମ୍ଳଜାନ ନଥାଏ।"
+  },
+  {
+    "questionEnglish": "How many double bonds are present in a Benzene ring?",
+    "questionOdia": "ବେଞ୍ଜିନ୍ ବଳୟରେ କେତୋଟି ଦ୍ୱିବନ୍ଧ (Double bonds) ରହିଥାଏ?",
+    "options": ["1", "2", "3", "6"],
+    "answer": "3",
+    "explanation": "ବେଞ୍ଜିନ୍ (C6H6) ସଂରଚନାରେ ୩ଟି ଏକବନ୍ଧ ଏବଂ ୩ଟି ଦ୍ୱିବନ୍ଧ ଏକାନ୍ତର କ୍ରମରେ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the nature of pure ethanoic acid?",
+    "questionOdia": "ବିଶୁଦ୍ଧ ଇଥାନୋଇକ୍ ଅମ୍ଳର ପ୍ରକୃତି କିପରି?",
+    "options": ["ତୀବ୍ର ଅମ୍ଳୀୟ", "ମୃଦୁ ଅମ୍ଳୀୟ (Weak Acid)", "କ୍ଷାରୀୟ", "ପ୍ରଶମିତ"],
+    "answer": "ମୃଦୁ ଅମ୍ଳୀୟ (Weak Acid)",
+    "explanation": "ଇଥାନୋଇକ୍ ଅମ୍ଳ ଜଳରେ ସମ୍ପୂର୍ଣ୍ଣ ଆୟନୀକୃତ ହୁଏନାହିଁ, ତେଣୁ ଏହା ଏକ ମୃଦୁ ଜୈବିକ ଅମ୍ଳ।"
+  },
+  {
+    "questionEnglish": "What is the structure of Carbon Dioxide (CO2) molecule?",
+    "questionOdia": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ (CO2) ଅଣୁର ଗଠନ କିପରି ହୋଇଥାଏ?",
+    "options": ["ବଳୟାକାର", "ରୈଖିକ (Linear)", "ତ୍ରିକୋଣୀୟ", "ପିରାମିଡ୍ ଆକାର"],
+    "answer": "ରୈଖିକ (Linear)",
+    "explanation": "CO2 ଅଣୁରେ ଓଭରଲ୍ୟାପିଂ ଯୋଗୁଁ O=C=O ଏକ ସରଳ ରୈଖିକ ସଂରଚନା ଗଠନ କରେ।"
+  },
+  {
+    "questionEnglish": "How many electrons are shared in a triple bond?",
+    "questionOdia": "ଏକ ତ୍ରିବନ୍ଧ (Triple bond) ଗଠନରେ କେତୋଟି ଇଲେକ୍ଟ୍ରନ୍ ଭାଗ ନିଅନ୍ତି?",
+    "options": ["3", "4", "6", "2"],
+    "answer": "6",
+    "explanation": "ପ୍ରତି ବନ୍ଧ ପାଇଁ ୨ଟି ଇଲେକ୍ଟ୍ରନ୍ ଆବଶ୍ୟକ। ତ୍ରିବନ୍ଧରେ ୩ ହଳ ଅର୍ଥାତ୍ ୬ଟି ଇଲେକ୍ଟ୍ରନ୍ ସହଭାଗୀ ହୁଅନ୍ତି।"
+  },
+  {
+    "questionEnglish": "Which substance is known as black lead?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କାହାକୁ କଳା ସୀସା (Black Lead) କୁହାଯାଏ?",
+    "options": ["କୋଇଲା", "ଗ୍ରାଫାଇଟ୍ (Graphite)", "ହୀରା", "କୋକ୍"],
+    "answer": "ଗ୍ରାଫାଇଟ୍ (Graphite)",
+    "explanation": "ଗ୍ରାଫାଇଟ୍ ଦେଖିବାକୁ କଳା ଓ ସୀସା ଭଳି ଦାଗ ସୃଷ୍ଟି କରୁଥିବାରୁ ଏହାକୁ କଳା ସୀସା କୁହାଯାଏ ଏବଂ ଏହା ପେନ୍ସିଲ୍ ସୀସାରେ ବ୍ୟବହୃତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the main chemical component of vinegar?",
+    "questionOdia": "ଭିନେଗାର୍‌ର ମୁଖ୍ୟ ରାସାୟନିକ ଉପାଦାନ କଣ?",
+    "options": ["Citric acid", "Ethanoic acid", "Formic acid", "Lactic acid"],
+    "answer": "Ethanoic acid",
+    "explanation": "ଇଥାନୋଇକ୍ ଅମ୍ଳ (ଆସେଟିକ୍ ଅମ୍ଳ) ର ଲଘୁ ଦ୍ରବଣକୁ ହିଁ ଭିନେଗାର୍ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "The melting point of diamond is?",
+    "questionOdia": "ହୀରାର ଗଳନାଙ୍କ ସାଧାରଣତଃ କିପରି ହୋଇଥାଏ?",
+    "options": ["ଅତି ନିମ୍ନ", "ମାଧ୍ୟମ", "ଅତ୍ୟନ୍ତ ଉଚ୍ଚ (Very High)", "ଶୂନ୍ୟ ଡିଗ୍ରୀ"],
+    "answer": "ଅତ୍ୟନ୍ତ ଉଚ୍ଚ (Very High)",
+    "explanation": "ହୀରାରେ ଥିବା ଦୃଢ଼ ସହସଂଯୋଜକ ବନ୍ଧର ନେଟୱର୍କ ଯୋଗୁଁ ଏହାକୁ ତରଳାଇବା ପାଇଁ ଅତ୍ୟଧିକ ତାପମାତ୍ରା ଆବଶ୍ୟକ।"
+  },
+  {
+    "questionEnglish": "Which gas is released during the fermentation of sugar to alcohol?",
+    "questionOdia": "ଶର୍କରାରୁ ଆଲକହଲ୍ ପ୍ରସ୍ତୁତି ବା କିଣ୍ଵନ (Fermentation) ପ୍ରକ୍ରିୟାରେ କେଉଁ ଗ୍ୟାସ୍ ବାହାରେ?",
+    "options": ["Oxygen", "Carbon Dioxide (CO2)", "Hydrogen", "Nitrogen"],
+    "answer": "Carbon Dioxide (CO2)",
+    "explanation": "ଇଷ୍ଟ ଦ୍ୱାରା ଗ୍ଲୁକୋଜ୍‌ର କିଣ୍ଵନ ହେଲେ ଇଥାନୋଲ୍ ସହିତ CO2 ଗ୍ୟାସ୍ ଉତ୍ପନ୍ନ ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the valency of hydrogen?",
+    "questionOdia": "ହାଇଡ୍ରୋଜେନ୍ ପରମାଣୁର ଯୋଜ୍ୟତା କେତେ?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "1",
+    "explanation": "ହାଇଡ୍ରୋଜେନ୍‌ର ବାହ୍ୟ କକ୍ଷରେ ଗୋଟିଏ ଇଲେକ୍ଟ୍ରନ୍ ଥାଏ, ତେଣୁ ଏହାର ଯୋଜ୍ୟତା ୧ ଅଟେ।"
+  },
+  {
+    "questionEnglish": "What is the name of the hydrocarbon with the formula C3H6?",
+    "questionOdia": "C3H6 ସୂତ୍ର ଥିବା ହାଇଡ୍ରୋକାର୍ବନର ନାମ କଣ?",
+    "options": ["Propane", "Propene (ପ୍ରୋପିନ୍)", "Propyne", "Butene"],
+    "answer": "Propene (ପ୍ରୋପିନ୍)",
+    "explanation": "ଏହା CnH2n ସୂତ୍ରକୁ ପାଳନ କରୁଛି, ତେଣୁ ଏହା ଆଲକିନ୍ ଶ୍ରେଣୀର ପ୍ରୋପିନ୍ ଅଟେ।"
+  },
+  {
+    "questionEnglish": "Which of the following belongs to the homologous series of Alkanes?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଯୌଗିକଟି ଆଲକେନ୍ ସମଗଣୀୟ ଶ୍ରେଣୀର ଅନ୍ତର୍ଗତ?",
+    "options": ["C2H4", "C3H4", "C4H10", "C2H2"],
+    "answer": "C4H10",
+    "explanation": "C4H10 (ବ୍ୟୁଟେନ୍) ଆଲକେନ୍‌ର ସାଧାରଣ ସୂତ୍ର CnH2n+2 କୁ ସନ୍ତୁଷ୍ଟ କରୁଛି।"
+  },
+  {
+    "questionEnglish": "What is the common name of Methanoic Acid?",
+    "questionOdia": "ମେଥାନୋଇକ୍ ଅମ୍ଳ (HCOOH) ର ସାଧାରଣ ନାମ କଣ?",
+    "options": ["Acetic acid", "Formic Acid (ଫର୍ମିକ୍ ଅମ୍ଳ)", "Citric acid", "Oxalic acid"],
+    "answer": "Formic Acid (ଫର୍ମିକ୍ ଅମ୍ଳ)",
+    "explanation": "ମେଥାନୋଇକ୍ ଅମ୍ଳକୁ ଫର୍ମିକ୍ ଅମ୍ଳ କୁହାଯାଏ, ଯାହା ପିମ୍ପୁଡ଼ି କିମ୍ବା ବିଛୁଆତି ରୁଆର ବିନ୍ଧିବା ରସରେ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which type of bond is present in a Nitrogen gas molecule (N2)?",
+    "questionOdia": "ନାଇଟ୍ରୋଜେନ୍ ଗ୍ୟାସ୍ ଅଣୁ (N2) ମଧ୍ୟରେ କେଉଁ ପ୍ରକାର ବନ୍ଧ ଥାଏ?",
+    "options": ["ଏକବନ୍ଧ", "ଦ୍ୱିବନ୍ଧ", "ତ୍ରିବନ୍ଧ (Triple Bond)", "ଆୟନୀୟ ବନ୍ଧ"],
+    "answer": "ତ୍ରିବନ୍ଧ (Triple Bond)",
+    "explanation": "ଦୁଇଟି ନାଇଟ୍ରୋଜେନ୍ ପରମାଣୁ ନିଜ ମଧ୍ୟରେ ୩ ହଳ ଇଲେକ୍ଟ୍ରନ୍ ଶେୟାର୍ କରି ସହସଂଯୋଜକ ତ୍ରିବନ୍ଧ ଗଠନ କରନ୍ତି।"
+  },
+  {
+    "questionEnglish": "How many single covalent bonds are there in a molecule of Methane?",
+    "questionOdia": "ମିଥେନ୍ (CH4) ର ଗୋଟିଏ ଅଣୁରେ କେତୋଟି ଏକ-ସହସଂଯୋଜକ ବନ୍ଧ ଥାଏ?",
+    "options": ["2", "4", "6", "1"],
+    "answer": "4",
+    "explanation": "ମିଥେନ୍‌ରେ କେନ୍ଦ୍ରୀୟ କାର୍ବନ ପରମାଣୁ ୪ଟି ହାଇଡ୍ରୋଜେନ୍ ସହ ୪ଟି ସହସଂଯୋଜକ ଏକବନ୍ଧ ତିଆରି କରେ।"
+  },
+  {
+    "questionEnglish": "Which organic compound is known as wood spirit?",
+    "questionOdia": "କେଉଁ ଜୈବିକ ଯୌଗିକକୁ କାଠ ସ୍ପିରିଟ୍ (Wood Spirit) କୁହାଯାଏ?",
+    "options": ["Ethanol", "Methanol (ମେଥାନୋଲ୍)", "Propanol", "Acetone"],
+    "answer": "Methanol (ମେଥାନୋଲ୍)",
+    "explanation": "ପୂର୍ବକାଳରେ କାଠର ଶୁଷ୍କ ପାତନ (Destructive distillation) ଦ୍ୱାରା ମେଥାନୋଲ୍ (CH3OH) ପ୍ରସ୍ତୁତ କରାଯାଉଥିବାରୁ ଏହାକୁ କାଠ ସ୍ପିରିଟ୍ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the functional group of an Ester?",
+    "questionOdia": "ଏଷ୍ଟର (Ester) ଯୌଗିକର କ୍ରିୟାଶୀଳ ଦଳର ସଙ୍କେତ କଣ?",
+    "options": ["-COO-", "-COOH", "-CHO", "-OH"],
+    "answer": "-COO-",
+    "explanation": "ଏଷ୍ଟର ଗ୍ରୁପ୍‌କୁ -COOR ବା -COO- ସଙ୍କେତ ଦ୍ୱାରା ପ୍ରକାଶ କରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the percent of carbon present in the earth's crust in the form of minerals?",
+    "questionOdia": "ଭୂତ୍ୱକ୍‌ରେ ଖଣିଜ ପଦାର୍ଥ ଆକାରରେ କାର୍ବନର ପରିମାଣ ପ୍ରାୟ କେତେ ପ୍ରତିଶତ?",
+    "options": ["0.02%", "0.03%", "0.1%", "0.5%"],
+    "answer": "0.02%",
+    "explanation": "ପୃଥିବୀର ଭୂତ୍ୱକ୍‌ରେ କାର୍ବୋନେଟ୍, କୋଇଲା ପେଟ୍ରୋଲିୟମ୍ ଆଦି ରୂପରେ ମାତ୍ର ୦.୦୨% କାର୍ବନ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the percent of carbon dioxide gas present in the atmosphere?",
+    "questionOdia": "ବାୟୁମଣ୍ଡଳରେ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଗ୍ୟାସ୍‌ର ପରିମାଣ କେତେ ପ୍ରତିଶତ?",
+    "options": ["0.02%", "0.03%", "21%", "78%"],
+    "answer": "0.03%",
+    "explanation": "ବାୟୁମଣ୍ଡଳରେ ପ୍ରାୟ ୦.୦୩% କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଗ୍ୟାସ୍ ରହିଥାଏ।"
+  },
+  {
+    "questionEnglish": "Compounds containing carbon-carbon triple bonds are called?",
+    "questionOdia": "କାର୍ବନ-କାର୍ବନ ମଧ୍ୟରେ ତ୍ରିବନ୍ଧ ଥିବା ହାଇଡ୍ରୋକାର୍ବନଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
+    "options": ["Alkanes", "Alkenes", "Alkynes (ଆଲକାଇନ୍)", "Isomers"],
+    "answer": "Alkynes (ଆଲକାଇନ୍)",
+    "explanation": "ତ୍ରିବନ୍ଧ ବିଶିଷ୍ଟ ଅସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନକୁ ଆଲକାଇନ୍ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which of the following represents an alcohol molecule?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ସଙ୍କେତଟି ଏକ ଆଲକହଲ୍ ଯୌଗିକକୁ ଦର୍ଶାଏ?",
+    "options": ["CH3CHO", "CH3COOH", "CH3OH", "CH3COCH3"],
+    "answer": "CH3OH",
+    "explanation": "CH3OH (ମେଥାନୋଲ୍) ରେ -OH ଗ୍ରୁପ୍ ଥିବାରୁ ଏହା ଏକ ଆଲକହଲ୍ ଅଟେ।"
+  },
+  {
+    "questionEnglish": "Soap molecules form structures called micelles around oil droplets because the hydrophobic tail is?",
+    "questionOdia": "ମିସେଲ୍ ଗଠନ ସମୟରେ ସାବୁନ୍‌ର ହାଇଡ୍ରୋଫୋବିକ୍ ଲାଞ୍ଜଟି କେଉଁ ଆଡ଼କୁ ଆକର୍ଷିତ ହୁଏ?",
+    "options": ["ଜଳ ଦ୍ରବଣ ଆଡ଼କୁ", "ତୈଳ ବା ମଇଳା ବିନ୍ଦୁ ଆଡ଼କୁ", "ପାତ୍ରର ବାହାରକୁ", "ଉପରକୁ"],
+    "answer": "ତୈଳ ବା ମଇଳା ବିନ୍ଦୁ ଆଡ଼କୁ",
+    "explanation": "ହାଇଡ୍ରୋଫୋବିକ୍ ଅଂଶ ତେଲ ବା ମଇଳାକୁ ଭଲ ପାଉଥିବାରୁ ତାହା କେନ୍ଦ୍ରରେ ଥିବା ମଇଳା ଆଡ଼କୁ ରହେ।"
+  },
+  {
+    "questionEnglish": "What is the name of C4H8?",
+    "questionOdia": "C4H8 ଯୌଗିକର IUPAC ନାମ କଣ?",
+    "options": ["Butane", "Butene (ବ୍ୟୁଟିନ୍)", "Butyne", "Pentene"],
+    "answer": "Butene (ବ୍ୟୁଟିନ୍)",
+    "explanation": "ଏହା CnH2n ସୂତ୍ର ପାଳନ କରୁଥିବାରୁ ୪ଟି କାର୍ବନ ବିଶିଷ୍ଟ ଆଲକିନ୍ ଅର୍ଥାତ୍ ବ୍ୟୁଟିନ୍ ଅଟେ।"
+  },
+  {
+    "questionEnglish": "What is the molecular formula of Propyne?",
+    "questionOdia": "ପ୍ରୋପାଇନ୍ (Propyne) ର ଆଣବିକ ସୂତ୍ର କଣ?",
+    "options": ["C3H8", "C3H6", "C3H4", "C4H6"],
+    "answer": "C3H4",
+    "explanation": "ଆଲକାଇନ୍ ସୂତ୍ର CnH2n-2 ଅନୁଯାୟୀ n=3 ହେଲେ C3H(2x3-2) = C3H4 ହେବ।"
+  },
+  {
+    "questionEnglish": "How many lone pairs of electrons are there in a water molecule (H2O)?",
+    "questionOdia": "ଜଳ ଅଣୁ (H2O) ରେ ଥିବା ଅମ୍ଳଜାନ ପରମାଣୁ ଉପରେ କେତେ ହଳ ଅବନ୍ଧିତ ବା ମୁକ୍ତ ଇଲେକ୍ଟ୍ରନ୍ (Lone pairs) ଥାଏ?",
+    "options": ["1 ହଳ", "2 ହଳ", "3 ହଳ", "0"],
+    "answer": "2 ହଳ",
+    "explanation": "ଅମ୍ଳଜାନର ବାହ୍ୟ କକ୍ଷରେ ୬ଟି ଇଲେକ୍ଟ୍ରନ୍ ଥାଏ। ୨ଟି ହାଇଡ୍ରୋଜେନ୍ ସହ ବନ୍ଧ ଗଠନ କଲା ପରେ ୪ଟି ଇଲେକ୍ଟ୍ରନ୍ (୨ ହଳ) ମୁକ୍ତ ରହେ।"
+  },
+  {
+    "questionEnglish": "Carbon forms large number of compounds due to which properties?",
+    "questionOdia": "କେଉଁ ଦୁଇଟି ମୁଖ୍ୟ ଗୁଣ ଯୋଗୁଁ କାର୍ବନ ପ୍ରଚୁର ସଂଖ୍ୟକ ଯୌଗିକ ଗଠନ କରିପାରେ?",
+    "options": ["ଉଚ୍ଚ ଗଳନାଙ୍କ ଓ ସ୍ଫୁଟନାଙ୍କ", "କାଟେନେସନ୍ ଏବଂ ଚତୁଃଯୋଜ୍ୟତା", "ଆୟନୀୟ ପ୍ରକୃତି", "ବିଦ୍ୟୁତ୍ ପରିବାହିତା"],
+    "answer": "କାଟେନେସନ୍ ଏବଂ ଚତୁଃଯୋଜ୍ୟତା",
+    "explanation": "କାର୍ବନର କାଟେନେସନ୍ (ଶୃଙ୍ଖଳ ଗଠନ କ୍ଷମତା) ଏବଂ ଚତୁଃଯୋଜ୍ୟତା (୪ଟି ବନ୍ଧ ଗଠନ କ୍ଷମତା) ଯୋଗୁଁ ଲକ୍ଷ ଲକ୍ଷ ଜୈବିକ ଯୌଗିକ ସମ୍ଭବ ହୋଇଛି।"
+  },
+  {
+    "questionEnglish": "Which of the following organic compounds is used as a fuel in cars along with petrol?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଜୈବିକ ଯୌଗିକକୁ ପେଟ୍ରୋଲ୍ ସହ ମିଶାଇ କାର୍ ବା ଗାଡ଼ିର ଇନ୍ଧନ ରୂପେ ବ୍ୟବହାର କରାଯାଉଛି?",
+    "options": ["Ethanol (ଇଥାନୋଲ୍)", "Ethanoic acid", "Methanol", "Formaldehyde"],
+    "answer": "Ethanol (ଇଥାନୋଲ୍)",
+    "explanation": "ଇଥାନୋଲ୍ ଏକ ସ୍ୱଚ୍ଛ ଇନ୍ଧନ ହୋଇଥିବାରୁ ଏହାକୁ ବାୟୋ-ଫ୍ୟୁଏଲ୍ ଭାବେ ପେଟ୍ରୋଲ୍ ସହ ବ୍ଲେଣ୍ଡିଂ କରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the nature of covalent compounds?",
+    "questionOdia": "ସହସଂଯୋଜକ ଯୌଗିକଗୁଡ଼ିକର ଗଳନାଙ୍କ ଏବଂ ସ୍ଫୁଟନାଙ୍କ ସାଧାରଣତଃ କିପରି ଥାଏ?",
+    "options": ["ଅତି ଉଚ୍ଚ", "ନିମ୍ନ (Low)", "ଆୟନୀୟ ଯୌଗିକ ଭଳି ସମାନ", "କହିହେବ ନାହିଁ"],
+    "answer": "ନିମ୍ନ (Low)",
+    "explanation": "ସହସଂଯୋଜକ ଯୌଗିକଗୁଡ଼ିକର ଅଣୁ ଅଣୁ ମଧ୍ୟରେ ଥିବା ଆନ୍ତଃଆଣବିକ ଆକର୍ଷଣ ବଳ ଦୁର୍ବଳ ଥିବାରୁ ଏମାନଙ୍କ ଗଳନାଙ୍କ ଓ ସ୍ଫୁଟନାଙ୍କ ଆୟନୀୟ ଯୌଗିକ ଠାରୁ କମ୍ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "Are covalent compounds generally conductors of electricity?",
+    "options": ["Yes", "No (ସାଧାରଣତଃ ଅପରିବାହୀ)", "Only in solid state", "Good conductors"],
+    "questionOdia": "ସହସଂଯୋଜକ ଯୌଗିକଗୁଡ଼ିକ ସାଧାରଣତଃ ବିଦ୍ୟୁତ୍ ପରିବହନ କରନ୍ତି କି?",
+    "answer": "No (ସାଧାରଣତଃ ଅପରିବାହୀ)",
+    "explanation": "ଏହି ଯୌଗିକଗୁଡ଼ିକରେ କୌଣସି ମୁକ୍ତ ଆୟନ ବା ଇଲେକ୍ଟ୍ରନ୍ ସୃଷ୍ଟି ହୁଏନାହିଁ, ତେଣୁ ଏଗୁଡ଼ିକ ବିଦ୍ୟୁତ୍‌ର କୁପରିବାହୀ।"
+  },
+  {
+    "questionEnglish": "What is the common name of Trichloromethane (CHCl3)?",
+    "questionOdia": "ଟ୍ରାଇକ୍ଲୋରୋମେଥେନ୍ (CHCl3) ର ସାଧାରଣ ବା ଲୋକପ୍ରିୟ ନାମ କଣ?",
+    "options": ["Chloroform (କ୍ଲୋରୋଫର୍ମ)", "Methanol", "Formaldehyde", "Vinegar"],
+    "answer": "Chloroform (କ୍ଲୋରୋଫର୍ମ)",
+    "explanation": "CHCl3 କୁ କ୍ଲୋରୋଫର୍ମ କୁହାଯାଏ, ଯାହା ପୂର୍ବରୁ ଚିକିତ୍ସା ବିଜ୍ଞାନରେ ଚେତାହୀନ ବା ନିଶ୍ଚେତକ (Anesthetic) ଭାବେ ବ୍ୟବହୃତ ହେଉଥିଲା।"
+  },
+  {
+    "questionEnglish": "What is the main compound present in cow dung gas?",
+    "questionOdia": "ଗୋବର ଗ୍ୟାସ୍ ବା ବାୟୋଗ୍ୟାସ୍‌ରେ ଥିବା ପ୍ରମୁଖ ଗ୍ୟାସୀୟ ଯୌଗିକଟି କଣ?",
+    "options": ["Ethane", "Propane", "Methane (ମିଥେନ୍)", "Butane"],
+    "answer": "Methane (ମିଥେନ୍)",
+    "explanation": "ଜୈବିକ ଆବର୍ଜନାର ଅପଘଟନ ଦ୍ୱାରା ପ୍ରଚୁର ମିଥେନ୍ ଗ୍ୟାସ୍ ମିଳିଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which gas is formed when charcoal is burnt in insufficient air?",
+    "questionOdia": "କୋଇଲା ବା କାର୍ବନକୁ ଅଳ୍ପ ବାୟୁରେ (ଅସମ୍ପୂର୍ଣ୍ଣ ଦହନ) ଜଳାଇଲେ କେଉଁ ବିଷାକ୍ତ ଗ୍ୟାସ୍ ତିଆରି ହୁଏ?",
+    "options": ["Carbon Dioxide", "Carbon Monoxide (CO)", "Oxygen", "Nitrogen Dioxide"],
+    "answer": "Carbon Monoxide (CO)",
+    "explanation": "ସୀମିତ ଅମ୍ଳଜାନରେ କାର୍ବନ ଜଳିଲେ ଅତ୍ୟନ୍ତ ବିଷାକ୍ତ କାର୍ବନ ମୋନୋକ୍ସାଇଡ୍ (CO) ଗ୍ୟାସ୍ ସୃଷ୍ଟି ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the formula of the functional group in ethers?",
+    "questionOdia": "ଇଥର (Ether) ଶ୍ରେଣୀର ଯୌଗିକରେ ଥିବା କ୍ରିୟାଶୀଳ ଗ୍ରୁପ୍‌ର ଚିହ୍ନ କଣ?",
+    "options": ["-O-", "-OH", "-CHO", "-COOH"],
+    "answer": "-O-",
+    "explanation": "ଦୁଇଟି ଆଲକାଇଲ୍ ଗ୍ରୁପ୍ ମଝିରେ ଗୋଟିଏ ଅମ୍ଳଜାନ ପରମାଣୁ ରହିଲେ (R-O-R) ତାହା ଇଥର ଶ୍ରେଣୀ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Which element forms the basis of all life forms on Earth?",
+    "questionOdia": "ପୃଥିବୀର ସମସ୍ତ ଜୀବନ୍ତ ବସ୍ତୁ ବା ଜୀବନର ଆଧାର କେଉଁ ମୌଳିକ ପଦାର୍ଥ ଅଟେ?",
+    "options": ["Hydrogen", "Oxygen", "Carbon (କାର୍ବନ)", "Nitrogen"],
+    "answer": "Carbon (କାର୍ବନ)",
+    "explanation": "ଆମ ଶରୀରର ପ୍ରୋଟିନ୍, କାର୍ବୋହାଇଡ୍ରେଟ୍, ଡିଏନଏ ଆଦି ସମସ୍ତ ଜୈବିକ ଅଣୁ କାର୍ବନ ଦ୍ୱାରା ଗଠିତ।"
+  },
+  {
+    "questionEnglish": "What is the structure of an Ammonia molecule (NH3)?",
+    "questionOdia": "ଆମୋନିଆ (NH3) ଅଣୁର ଆକାର କିପରି ଥାଏ?",
+    "options": ["ରୈଖିକ", "ପିରାମିଡ୍ ଆକାର (Pyramidal)", "ଷଡ଼ଭୁଜାକାର", "ବଳୟାକାର"],
+    "answer": "ପିରାମିଡ୍ ଆକାର (Pyramidal)",
+    "explanation": "ଆମୋନିଆରେ ଗୋଟିଏ ଲୋନ୍ ପେୟାର୍ ଯୋଗୁଁ ଏହାର ଆକାର ତ୍ରିକୋଣୀୟ ପିରାମିଡ୍ ପରି ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "The next higher homologue of Propane (C3H8) is?",
+    "questionOdia": "ପ୍ରୋପେନ୍ (C3H8) ର ପରବର୍ତ୍ତୀ ଉଚ୍ଚ ସମଗଣୀୟ (Homologue) ଯୌଗିକ କିଏ?",
+    "options": ["Ethane", "Butane (ବ୍ୟୁଟେନ୍)", "Pentane", "Hexane"],
+    "answer": "Butane (ବ୍ୟୁଟେନ୍)",
+    "explanation": "ପ୍ରୋପେନ୍ (C3) ରେ ଗୋଟିଏ -CH2- ଯୋଡ଼ିଲେ ବ୍ୟୁଟେନ୍ (C4H10) ମିଳିଥାଏ।"
+  },
+  {
+    "questionEnglish": "The previous lower homologue of Ethanol (C2H5OH) is?",
+    "questionOdia": "ଇଥାନୋଲ୍ (C2H5OH) ର ପୂର୍ବବର୍ତ୍ତୀ ନିମ୍ନ ସମଗଣୀୟ ଯୌଗିକର ନାମ କଣ?",
+    "options": ["Methanol (ମେଥାନୋଲ୍)", "Propanol", "Butanol", "Methanal"],
+    "answer": "Methanol (ମେଥାନୋଲ୍)",
+    "explanation": "ଇଥାନୋଲ୍‌ରୁ ଗୋଟିଏ -CH2- ଗ୍ରୁପ୍ କମାଇଲେ ମେଥାନୋଲ୍ (CH3OH) ମିଳିଥାଏ।"
+  },
+  {
+    "questionEnglish": "How many carbons are present in a Heptane molecule?",
+    "questionOdia": "ହେପ୍ଟେନ୍ (Heptane) ଅଣୁରେ କେତୋଟି କାର୍ବନ ପରମାଣୁ ଥାଏ?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7",
+    "explanation": "IUPAC ଶବ୍ଦ ମୂଳ ଅନୁସାରେ Hept ଅର୍ଥ ୭ଟି କାର୍ବନ ପରମାଣୁ।"
+  },
+  {
+    "questionEnglish": "What is the name of the process by which soap is prepared?",
+    "questionOdia": "ସାବୁନ୍ ପ୍ରସ୍ତୁତି ପ୍ରକ୍ରିୟାର ବୈଜ୍ଞାନିକ ନାମ କଣ?",
+    "options": ["ଏଷ୍ଟରୀକରଣ", "ସାବୁନୀକରଣ (Saponification)", "ହାଇଡ୍ରୋଜେନେସନ୍", "ଦହନ"],
+    "answer": "ସାବୁନୀକରଣ (Saponification)",
+    "explanation": "ତେଲ ବା ଚର୍ବିକୁ କ୍ଷାର ସହ ଗରମ କରି ସାବୁନ୍ ତିଆରି କରିବା ପ୍ରକ୍ରିୟାକୁ ସାବୁନୀକରଣ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which functional group is always present at the end of a carbon chain?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ କ୍ରିୟାଶୀଳ ଦଳ ସର୍ବଦା କାର୍ବନ ଶୃଙ୍ଖଳର ଶେଷ ପ୍ରାନ୍ତରେ ହିଁ ରହେ?",
+    "options": ["Ketone", "Aldehyde (-CHO)", "Ether", "Double bond"],
+    "answer": "Aldehyde (-CHO)",
+    "explanation": "ଆଲଡିହାଇଡ୍ (-CHO) ଏବଂ କାର୍ବୋକ୍ସିଲିକ୍ ଅମ୍ଳ (-COOH) ରେ ହାଇଡ୍ରୋଜେନ୍ ଥିବାରୁ ଏହା ଶୃଙ୍ଖଳର ମଝିରେ ରହିପାରେ ନାହିଁ, ସର୍ବଦା ଶେଷରେ ରହେ।"
+  },
+  {
+    "questionEnglish": "Oils containing unsaturated fatty acids are generally considered?",
+    "questionOdia": "ଅସଂପୃକ୍ତ ଫ୍ୟାଟି ଏସିଡ୍ ଥିବା ଉଦ୍ଭିଦ ତେଲ ସ୍ୱାସ୍ଥ୍ୟ ପାଇଁ କିପରି ବିବେଚନା କରାଯାଏ?",
+    "options": ["ସ୍ୱାସ୍ଥ୍ୟପ୍ରଦ (Healthy)", "କ୍ଷତିକାରକ", "ବିଷାକ୍ତ", "କୌଣସି ପ୍ରଭାବ ନାହିଁ"],
+    "answer": "ସ୍ୱାସ୍ଥ୍ୟପ୍ରଦ (Healthy)",
+    "explanation": "ଅସଂପୃକ୍ତ ଫ୍ୟାଟ୍ ରକ୍ତରେ କୋଲେଷ୍ଟ୍ରଲ୍ ବଢ଼ାଏ ନାହିଁ, ତେଣୁ ରୋଷେଇ ପାଇଁ ଉଦ୍ଭିଦ ତେଲ ବ୍ୟବହାର କରିବା ସ୍ୱାସ୍ଥ୍ୟପ୍ରଦ ଅଟେ।"
+  },
+  {
+    "questionEnglish": "Animal fats generally contain which type of fatty acids?",
+    "questionOdia": "ପ୍ରାଣୀ ଚର୍ବି (Animal fats) ରେ ସାଧାରଣତଃ କେଉଁ ପ୍ରକାରର ଫ୍ୟାଟି ଅମ୍ଳ ଥାଏ?",
+    "options": ["ଅସଂପୃକ୍ତ ଫ୍ୟାଟି ଅମ୍ଳ", "ସଂପୃକ୍ତ ଫ୍ୟାଟି ଅମ୍ଳ (Saturated)", "ଜୈବିକ ଅମ୍ଳ", "କୌଣସିଟି ନୁହେଁ"],
+    "answer": "ସଂପୃକ୍ତ ଫ୍ୟାଟି ଅମ୍ଳ (Saturated)",
+    "explanation": "ପ୍ରାଣୀ ଚର୍ବିରେ ସଂପୃକ୍ତ ଫ୍ୟାଟି ଅମ୍ଳ ଥାଏ, ଯାହା ଶରୀର ପାଇଁ ଅଧିକ ଗ୍ରହଣ କଲେ କ୍ଷତିକାରକ ହୋଇପାରେ।"
+  },
+  {
+    "questionEnglish": "What is the structural formula of Methanoic Acid?",
+    "questionOdia": "ମେଥାନୋଇକ୍ ଅମ୍ଳର ସାଧାରଣ ଗଠନମୂଳକ ସୂତ୍ର କଣ?",
+    "options": ["CH3COOH", "HCOOH", "C2H5COOH", "CH3OH"],
+    "answer": "HCOOH",
+    "explanation": "ମେଥାନୋଇକ୍ ଅମ୍ଳରେ ଗୋଟିଏ ମାତ୍ର କାର୍ବନ ଥାଏ, ତେଣୁ ଏହାର ସୂତ୍ର HCOOH ଅଟେ।"
+  },
+  {
+    "questionEnglish": "What is the state of Carbon in diamond?",
+    "questionOdia": "ହୀରାରେ ଥିବା କାର୍ବନର ସଂକରଣ ବା ଗଠନ କିପରି?",
+    "options": ["ଷଡ଼ଭୁଜାକାର", "ଚତୁଃଷ୍ଫଳକୀୟ (Tetrahedral)", "ରୈଖିକ", "ଅଷ୍ଟଫଳକୀୟ"],
+    "answer": "ଚତୁଃଷ୍ଫଳକୀୟ (Tetrahedral)",
+    "explanation": "ହୀରାରେ ପ୍ରତି କାର୍ବନ ଏକ ନିୟମିତ ଚତୁଃଷ୍ଫଳକୀୟ (Tetrahedral) ଆକାରରେ ଅନ୍ୟ ଚାରିଟି ସହ ଯୋଡ଼ି ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "The chemical reaction in which soap splits into fatty acids on addition of acid is?",
+    "questionOdia": "ସାବୁନ୍ ଦ୍ରବଣରେ ଅମ୍ଳ (Acid) ମିଶାଇଲେ ସାବୁନ୍ ଅଣୁ ଭାଙ୍ଗିଯିବା କେଉଁ ପ୍ରକୃତିକୁ ଦର୍ଶାଏ?",
+    "options": ["ଅବକ୍ଷେପଣ", "ପ୍ରଶମନ ପ୍ରତିକ୍ରିୟା", "ସାବୁନୀକରଣର ଓଲଟା ପ୍ରକ୍ରିୟା", "ଜାରଣ"],
+    "answer": "ସାବୁନୀକରଣର ଓଲଟା ପ୍ରକ୍ରିୟା",
+    "explanation": "ସାବୁନ୍ ଏକ ମୃଦୁ ଅମ୍ଳ ଓ ତୀବ୍ର କ୍ଷାରର ଲବଣ ହୋଇଥିବାରୁ ଏହା ଅମ୍ଳ ସହ ପ୍ରତିକ୍ରିୟା କରି ପୁଣି ଫ୍ୟାଟି ଏସିଡ୍ ମୁକ୍ତ କରେ।"
+  },
+  {
+    "questionEnglish": "What is the molecular mass of Ethanol (C2H5OH)?",
+    "questionOdia": "ଇଥାନୋଲ୍ (C2H5OH) ର ଆଣବିକ ବସ୍ତୁତ୍ୱ କେତେ u?",
+    "options": ["32 u", "46 u", "60 u", "44 u"],
+    "answer": "46 u",
+    "explanation": "C = 2x12 = 24, H = 6x1 = 6, O = 16x1 = 16। ମୋଟ ବସ୍ତୁତ୍ୱ = ୨୪ + ୬ + ୧୬ = ୪୬ u।"
+  },
+  {
+    "questionEnglish": "What type of bond is formed when sharing of two pairs of electrons takes place?",
+    "questionOdia": "ଦୁଇ ହଳ ଇଲେକ୍ଟ୍ରନ୍ (୪ଟି ଇଲେକ୍ଟ୍ରନ୍) ର ସହଭାଗିତା ଦ୍ୱାରା କେଉଁ ବନ୍ଧ ଗଠନ ହୁଏ?",
+    "options": ["ଏକବନ୍ଧ", "ଦ୍ୱିବନ୍ଧ (Double Bond)", "ତ୍ରିବନ୍ଧ", "ଆୟନୀୟ ବନ୍ଧ"],
+    "answer": "ଦ୍ୱିବନ୍ଧ (Double Bond)",
+    "explanation": "ଦୁଇ ହଳ ଇଲେକ୍ଟ୍ରନ୍ ଶେୟାର୍ ହେଲେ ଦ୍ୱିବନ୍ଧ ଗଠନ ହୁଏ, ଯେପରିକି ଅମ୍ଳଜାନ ଅଣୁ (O=O) ରେ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which substance is used to test the presence of unsaturation in a hydrocarbon?",
+    "questionOdia": "ହାଇଡ୍ରୋକାର୍ବନଟି ସଂପୃକ୍ତ ନା ଅସଂପୃକ୍ତ ତାହା ପରୀକ୍ଷା କରିବା ପାଇଁ କେଉଁ ଦ୍ରବଣର ବ୍ୟବହାର କରାଯାଏ?",
+    "options": ["ଲୁଣା ପାଣି", "ବ୍ରୋମିନ୍ ଜଳ (Bromine Water)", "ଆଲକହଲ୍", "ଚୂନ ପାଣି"],
+    "answer": "ବ୍ରୋମିନ୍ ଜଳ (Bromine Water)",
+    "explanation": "ଅସଂପୃକ୍ତ ହାଇଡ୍ରୋକାର୍ବନ ବ୍ରୋମିନ୍ ଜଳର ନାଲି-ବାଦାମୀ ରଙ୍ଗକୁ ଉଡ଼ାଇ ଦିଏ (Decolorize କରେ), ସଂପୃକ୍ତ ଯୌଗିକ ଏହା କରେନାହିଁ।"
   }
 ]
