@@ -1,122 +1,242 @@
 [
-  {
-    "questionEnglish": "What is the structural and functional unit of the human nervous system?",
-    "questionOdia": "ମାନବ ସ୍ନାୟୁ ତନ୍ତ୍ରର ଗଠନମୂଳକ ଓ କ୍ରିୟାତ୍ମକ ଏକକ କଣ?",
-    "options": [
-      "Neuron",
-      "Nephron",
-      "Alveoli",
-      "Axon"
-    ],
-    "answer": "Neuron",
-    "explanation": "Neurons (ସ୍ନାୟୁକୋଷ) are specialized cells that transmit electrical nerve impulses throughout the body to control actions and reactions."
-  },
-  {
-    "questionEnglish": "Which part of a neuron receives incoming electrical impulses or chemical signals from other cells?",
-    "questionOdia": "ସ୍ନାୟୁକୋଷର କେଉଁ ଅଂଶ ଅନ୍ୟ କୋଷରୁ ଆସୁଥିବା ବୈଦ୍ୟୁତିକ ବା ରାସାୟନିକ ସଙ୍କେତ ଗ୍ରହଣ କରେ?",
-    "options": [
-      "Dendrite",
-      "Axon",
-      "Cell body",
-      "Synapse"
-    ],
-    "answer": "Dendrite",
-    "explanation": "Dendrites (ଡେଣ୍ଡ୍ରାଇଟ୍) are branch-like structures extending from the cell body that act as receptors for chemical messages."
-  },
-  {
-    "questionEnglish": "What is the microscopic gap across which nerve impulses pass from one neuron to the next called?",
-    "questionOdia": "ଦୁଇଟି ସ୍ନାୟୁକୋଷ ମଧ୍ୟରେ ଥିବା ଅତି କ୍ଷୁଦ୍ର ଶୂନ୍ୟସ୍ଥାନ ବା ସନ୍ଧିକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Synapse",
-      "Axon hillock",
-      "Meninges",
-      "Myelin sheath"
-    ],
-    "answer": "Synapse",
-    "explanation": "A synapse (ସ୍ନାୟୁସନ୍ଧି) is a specialized junction where chemical neurotransmitters bridge the gap to carry signals between neurons."
-  },
-  {
-    "questionEnglish": "Which part of the human brain is responsible for thinking, memory, intelligence, and voluntary actions?",
-    "questionOdia": "ମାନବ ମସ୍ତିଷ୍କର କେଉଁ ଅଂଶ ଚିନ୍ତାଶକ୍ତି, ସ୍ମୃତିଶକ୍ତି, ବୁଦ୍ଧିମତା ଏବଂ ଇଚ୍ଛାଧୀନ କାର୍ଯ୍ୟ ପାଇଁ ଦାୟୀ?",
-    "options": [
-      "Cerebrum",
-      "Cerebellum",
-      "Medulla oblongata",
-      "Pons"
-    ],
-    "answer": "Cerebrum",
-    "explanation": "The Cerebrum (ପ୍ରମସ୍ତିଷ୍କ) is the largest part of the brain and coordinates logic, learning, speech, emotions, and sensory perceptions."
-  },
-  {
-    "questionEnglish": "Which part of the brain controls involuntary actions like blood pressure, salivation, and vomiting?",
-    "questionOdia": "ରକ୍ତଚାପ, ଲାଳ କ୍ଷରଣ ଏବଂ ବାନ୍ତି ଭଳି ଅନିଚ୍ଛାକୃତ କ୍ରିୟାଗୁଡ଼ିକୁ ମସ୍ତିଷ୍କର କେଉଁ ଅଂଶ ନିୟନ୍ତ୍ରଣ କରେ?",
-    "options": [
-      "Medulla oblongata",
-      "Cerebrum",
-      "Cerebellum",
-      "Hypothalamus"
-    ],
-    "answer": "Medulla oblongata",
-    "explanation": "The Medulla oblongata (ସୁଷୁମ୍ନା ଶୀର୍ଷକ) located in the hindbrain forms the control center for major life-sustaining involuntary activities."
-  },
-  {
-    "questionEnglish": "Which plant hormone is primarily responsible for cell elongation and promoting phototropism?",
-    "questionOdia": "ଉଦ୍ଭିଦ କୋଷର ଦୀର୍ଘକରଣ ଏବଂ ଆଲୋକାନୁବର୍ତ୍ତନ (Phototropism) ପାଇଁ କେଉଁ ଉଦ୍ଭିଦ ହରମୋନ୍ ମୁଖ୍ୟତଃ ଦାୟୀ?",
-    "options": [
-      "Auxin",
-      "Gibberellin",
-      "Cytokinin",
-      "Abscisic acid"
-    ],
-    "answer": "Auxin",
-    "explanation": "Auxin (ଅକ୍ସିନ୍) accumulates on the shaded side of a growing stem, causing those cells to grow longer and bend the plant toward light."
-  },
-  {
-    "questionEnglish": "Which plant hormone acts as a growth inhibitor and induces the wilting of leaves?",
-    "questionOdia": "କେଉଁ ଉଦ୍ଭିଦ ହରମୋନ୍ ବୃଦ୍ଧି ପ୍ରତିରୋଧକ ଭାବେ କାର୍ଯ୍ୟ କରେ ଏବଂ ପତ୍ର ଝଡ଼ିବାରେ ସାହାଯ୍ୟ କରେ?",
-    "options": [
-      "Abscisic acid",
-      "Auxin",
-      "Gibberellin",
-      "Cytokinin"
-    ],
-    "answer": "Abscisic acid",
-    "explanation": "Abscisic acid (ଆବ୍ସିସିକ୍ ଅମ୍ଳ) signals stress responses in plants, suppressing growth, promoting dormancy, and causing leaf fall."
-  },
-  {
-    "questionEnglish": "Which endocrine gland is known as the 'Master Gland' because it regulates other endocrine glands?",
-    "questionOdia": "ଅନ୍ୟ ସମସ୍ତ ଅନ୍ତଃସ୍ରାବୀ ଗ୍ରନ୍ଥିକୁ ନିୟନ୍ତ୍ରଣ କରୁଥିବାରୁ କେଉଁ ଗ୍ରନ୍ଥିକୁ 'ମୁଖ୍ୟ ଗ୍ରନ୍ଥି' (Master Gland) କୁହାଯାଏ?",
-    "options": [
-      "Pituitary gland",
-      "Thyroid gland",
-      "Adrenal gland",
-      "Pancreas"
-    ],
-    "answer": "Pituitary gland",
-    "explanation": "The Pituitary gland (ପିଟୁଇଟାରୀ ଗ୍ରନ୍ଥି) secretes a range of trophic hormones that dictate the release patterns of downstream glands."
-  },
-  {
-    "questionEnglish": "Which hormone is secreted by the pancreas to regulate blood glucose levels?",
-    "questionOdia": "ରକ୍ତରେ ଶର୍କରା ବା ଗ୍ଲୁକୋଜ୍‌ର ପରିମାଣ ନିୟନ୍ତ୍ରଣ କରିବା ପାଇଁ ଅଗ୍ନ୍ୟାଶୟ (Pancreas) ରୁ କେଉଁ ହରମୋନ୍ କ୍ଷରିତ ହୁଏ?",
-    "options": [
-      "Insulin",
-      "Thyroxin",
-      "Adrenaline",
-      "Estrogen"
-    ],
-    "answer": "Insulin",
-    "explanation": "Insulin (ଇନସୁଲିନ୍) is released by the beta cells of the pancreas to facilitate cell uptake of sugar, lowering blood glucose safely."
-  },
-  {
-    "questionEnglish": "Which hormone prepares the human body for 'fight or flight' emergency situations?",
-    "questionOdia": "ଜରୁରୀକାଳୀନ ପରିସ୍ଥିତିର ମୁକାବିଲା କରିବା ପାଇଁ ମାନବ ଶରୀରକୁ କେଉଁ ହରମୋନ୍ ପ୍ରସ୍ତୁତ କରାଏ?",
-    "options": [
-      "Adrenaline",
-      "Thyroxin",
-      "Growth hormone",
-      "Testosterone"
-    ],
-    "answer": "Adrenaline",
-    "explanation": "Adrenaline (ଆଡ୍ରେନାଲିନ୍) is secreted by the adrenal glands to spike heart rate, respiration, and alertness in times of extreme stress or danger."
-  }
+{
+"questionEnglish": "What is the structural and functional unit of the nervous system?",
+"questionOdia": "ସ୍ନାୟୁତନ୍ତ୍ରର ଗଠନଗତ ଓ କାର୍ଯ୍ୟକ୍ଷମ ଏକକ କ'ଣ?",
+"options": [
+"ନ୍ୟୁରନ୍",
+"ନେଫ୍ରନ୍",
+"ମସ୍ତିଷ୍କ",
+"ସୁଷୁମ୍ନା କାଣ୍ଡ"
+],
+"answer": "ନ୍ୟୁରନ୍",
+"explanation": "ନ୍ୟୁରନ୍ ହେଉଛି ସ୍ନାୟୁତନ୍ତ୍ରର ମୌଳିକ ଏକକ ଯାହା ସୂଚନା ପରିବହନ କରେ।"
+},
+{
+"questionEnglish": "Which part of the brain is responsible for balance and posture?",
+"questionOdia": "ମସ୍ତିଷ୍କର କେଉଁ ଅଂଶ ଶରୀରର ଭାରସାମ୍ୟ ଓ ସ୍ଥିତି ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": [
+"ପ୍ରମସ୍ତିଷ୍କ",
+"ଲଘୁମସ୍ତିଷ୍କ",
+"ମେଡୁଲା",
+"ହାୟପୋଥାଲାମସ୍"
+],
+"answer": "ଲଘୁମସ୍ତିଷ୍କ",
+"explanation": "ଲଘୁମସ୍ତିଷ୍କ ଶରୀରର ଗତିବିଧିକୁ ନିୟନ୍ତ୍ରଣ କରି ସନ୍ତୁଳନ ରକ୍ଷା କରେ।"
+},
+{
+"questionEnglish": "What connects the two hemispheres of the cerebrum?",
+"questionOdia": "ପ୍ରମସ୍ତିଷ୍କର ଦୁଇଟି ଗୋଲାର୍ଦ୍ଧକୁ କ'ଣ ସଂଯୋଗ କରେ?",
+"options": [
+"କର୍ପସ୍ କ୍ୟାଲୋସମ୍",
+"ମେନିଞ୍ଜେସ୍",
+"ସାଇନାପ୍ସ୍",
+"ଏକ୍ସନ୍"
+],
+"answer": "କର୍ପସ୍ କ୍ୟାଲୋସମ୍",
+"explanation": "କର୍ପସ୍ କ୍ୟାଲୋସମ୍ ଏକ ସଂଯୋଜକ ତନ୍ତୁ ଯାହା ମସ୍ତିଷ୍କର ଦୁଇ ଭାଗକୁ ଯୋଡ଼େ।"
+},
+{
+"questionEnglish": "Which hormone is secreted by the adrenal gland during stress?",
+"questionOdia": "ଚାପ ସମୟରେ ଆଡ୍ରେନାଲ୍ ଗ୍ରନ୍ଥିରୁ କେଉଁ ହରମୋନ୍ କ୍ଷରିତ ହୁଏ?",
+"options": [
+"ଇନସୁଲିନ୍",
+"ଏଡ୍ରେନାଲିନ୍",
+"ଥାଇରକ୍ସିନ୍",
+"ଇଷ୍ଟ୍ରୋଜେନ୍"
+],
+"answer": "ଏଡ୍ରେନାଲିନ୍",
+"explanation": "ଏଡ୍ରେନାଲିନ୍ ଜରୁରୀକାଳୀନ ପରିସ୍ଥିତିରେ ଶରୀରକୁ ସତର୍କ କରାଏ।"
+},
+{
+"questionEnglish": "What is the gap between two neurons called?",
+"questionOdia": "ଦୁଇଟି ନ୍ୟୁରନ୍ ମଧ୍ୟରେ ଥିବା ଖାଲି ସ୍ଥାନକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ସାଇନାପ୍ସ୍",
+"ଡେଣ୍ଡ୍ରାଇଟ୍",
+"ଏକ୍ସନ୍",
+"ସାଇଟନ୍"
+],
+"answer": "ସାଇନାପ୍ସ୍",
+"explanation": "ସାଇନାପ୍ସ୍ ମାଧ୍ୟମରେ ସ୍ନାୟୁ ସଙ୍କେତ ଏକ କୋଷରୁ ଅନ୍ୟ କୋଷକୁ ଯାଏ।"
+},
+{
+"questionEnglish": "Which gland is known as the master gland?",
+"questionOdia": "କେଉଁ ଗ୍ରନ୍ଥିକୁ 'ମାଷ୍ଟର ଗ୍ଲାଣ୍ଡ' କୁହାଯାଏ?",
+"options": [
+"ଥାଇରଏଡ୍",
+"ପିଟୁଇଟାରୀ",
+"ଆଡ୍ରେନାଲ୍",
+"ଅଗ୍ନାଶୟ"
+],
+"answer": "ପିଟୁଇଟାରୀ",
+"explanation": "ପିଟୁଇଟାରୀ ଗ୍ରନ୍ଥି ଅନ୍ୟ ଅନ୍ତଃସ୍ରାବୀ ଗ୍ରନ୍ଥିଗୁଡ଼ିକୁ ନିୟନ୍ତ୍ରଣ କରୁଥିବାରୁ ଏହା ମାଷ୍ଟର ଗ୍ଲାଣ୍ଡ।"
+},
+{
+"questionEnglish": "What is the function of the spinal cord?",
+"questionOdia": "ସୁଷୁମ୍ନା କାଣ୍ଡର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କ'ଣ?",
+"options": [
+"ଚିନ୍ତା କରିବା",
+"ପ୍ରତିବର୍ତ୍ତୀ କ୍ରିୟା ପରିଚାଳନା",
+"ଦେଖିବା",
+"ଶୁଣିବା"
+],
+"answer": "ପ୍ରତିବର୍ତ୍ତୀ କ୍ରିୟା ପରିଚାଳନା",
+"explanation": "ସୁଷୁମ୍ନା କାଣ୍ଡ ପ୍ରତିବର୍ତ୍ତୀ କ୍ରିୟା ଏବଂ ମସ୍ତିଷ୍କକୁ ସଙ୍କେତ ପଠାଇବା କାର୍ଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Which plant hormone helps in cell division?",
+"questionOdia": "କେଉଁ ଉଦ୍ଭିଦ ହରମୋନ୍ କୋଷ ବିଭାଜନରେ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ଅକ୍ସିନ୍",
+"ସାଇଟୋକାଇନିନ୍",
+"ଜିବେରେଲିନ୍",
+"ଇଥିଲିନ୍"
+],
+"answer": "ସାଇଟୋକାଇନିନ୍",
+"explanation": "ସାଇଟୋକାଇନିନ୍ କୋଷ ବିଭାଜନ ପ୍ରକ୍ରିୟାକୁ ତ୍ୱରାନ୍ୱିତ କରେ।"
+},
+{
+"questionEnglish": "What happens when someone touches a hot object suddenly?",
+"questionOdia": "କିଛି ଗରମ ଜିନିଷ ଛୁଇଁଲେ ହଠାତ୍ ହାତ କାଢ଼ିନେବା କ'ଣ ଅଟେ?",
+"options": [
+"ଇଚ୍ଛାଧୀନ କ୍ରିୟା",
+"ପ୍ରତିବର୍ତ୍ତୀ କ୍ରିୟା",
+"ଅଭ୍ୟାସଗତ କ୍ରିୟା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପ୍ରତିବର୍ତ୍ତୀ କ୍ରିୟା",
+"explanation": "ଏହା ଏକ ସ୍ୱୟଂଚାଳିତ ପ୍ରତିକ୍ରିୟା ଯାହା ସୁଷୁମ୍ନା କାଣ୍ଡ ଦ୍ୱାରା ନିୟନ୍ତ୍ରିତ।"
+},
+{
+"questionEnglish": "Which hormone controls blood sugar levels?",
+"questionOdia": "ରକ୍ତରେ ଶର୍କରା ସ୍ତର ନିୟନ୍ତ୍ରଣ କରୁଥିବା ହରମୋନ୍ କ'ଣ?",
+"options": [
+"ଇନସୁଲିନ୍",
+"ଥାଇରକ୍ସିନ୍",
+"ଏଡ୍ରେନାଲିନ୍",
+"ଗ୍ରୋଥ ହରମୋନ୍"
+],
+"answer": "ଇନସୁଲିନ୍",
+"explanation": "ଅଗ୍ନାଶୟରୁ ନିର୍ଗତ ଇନସୁଲିନ୍ ରକ୍ତରେ ଶର୍କରା ପରିମାଣକୁ ସନ୍ତୁଳିତ ରଖେ।"
+},
+{
+"questionEnglish": "Which part of the neuron receives the message?",
+"questionOdia": "ନ୍ୟୁରନ୍‌ର କେଉଁ ଅଂଶ ସନ୍ଦେଶ ଗ୍ରହଣ କରେ?",
+"options": [
+"ଏକ୍ସନ୍",
+"ଡେଣ୍ଡ୍ରାଇଟ୍",
+"ସାଇଟନ୍",
+"ସିନାପ୍ଟିକ ନୋବ"
+],
+"answer": "ଡେଣ୍ଡ୍ରାଇଟ୍",
+"explanation": "ଡେଣ୍ଡ୍ରାଇଟ୍‌ଗୁଡ଼ିକ ଅନ୍ୟ ନ୍ୟୁରନ୍‌ରୁ ସଙ୍କେତ ଗ୍ରହଣ କରି ସାଇଟନ୍‌କୁ ପଠାନ୍ତି।"
+},
+{
+"questionEnglish": "What is phototropism?",
+"questionOdia": "ଫଟୋଟ୍ରୋପିଜିମ୍ କ'ଣ?",
+"options": [
+"ଆଲୋକ ଆଡ଼କୁ ଉଦ୍ଭିଦର ଗତି",
+"ଜଳ ଆଡ଼କୁ ଗତି",
+"ମାଧ୍ୟାକର୍ଷଣ ଆଡ଼କୁ ଗତି",
+"ରାସାୟନିକ ପ୍ରତିକ୍ରିୟା"
+],
+"answer": "ଆଲୋକ ଆଡ଼କୁ ଉଦ୍ଭିଦର ଗତି",
+"explanation": "ଉଦ୍ଭିଦର ଆଲୋକ ଉଦ୍ଦୀପନା ପ୍ରତି ପ୍ରତିକ୍ରିୟାକୁ ଫଟୋଟ୍ରୋପିଜିମ୍ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which gland produces Thyroxine?",
+"questionOdia": "ଥାଇରକ୍ସିନ୍ ହରମୋନ୍ କେଉଁ ଗ୍ରନ୍ଥି କ୍ଷରଣ କରେ?",
+"options": [
+"ପିଟୁଇଟାରୀ",
+"ଥାଇରଏଡ୍",
+"ଅଗ୍ନାଶୟ",
+"ଆଡ୍ରେନାଲ୍"
+],
+"answer": "ଥାଇରଏଡ୍",
+"explanation": "ଥାଇରଏଡ୍ ଗ୍ରନ୍ଥିରୁ ଥାଇରକ୍ସିନ୍ ନିର୍ଗତ ହୋଇ ଶରୀରର ମେଟାବଲିଜିମ୍ ନିୟନ୍ତ୍ରଣ କରେ।"
+},
+{
+"questionEnglish": "What is the function of myelin sheath?",
+"questionOdia": "ମାୟେଲିନ୍ ସିଥ୍‌ର କାର୍ଯ୍ୟ କ'ଣ?",
+"options": [
+"କୋଷକୁ ଶକ୍ତି ଦେବା",
+"ସ୍ନାୟୁ ସଙ୍କେତକୁ ତ୍ୱରାନ୍ୱିତ କରିବା",
+"ବର୍ଜ୍ୟବସ୍ତୁ ବାହାର କରିବା",
+"କୌଣସି କାର୍ଯ୍ୟ ନାହିଁ"
+],
+"answer": "ସ୍ନାୟୁ ସଙ୍କେତକୁ ତ୍ୱରାନ୍ୱିତ କରିବା",
+"explanation": "ମାୟେଲିନ୍ ସିଥ୍ ଏକ୍ସନ୍‌କୁ ସୁରକ୍ଷା ଦେବା ସହ ସଙ୍କେତ ପରିବହନକୁ ଦ୍ରୁତ କରେ।"
+},
+{
+"questionEnglish": "Which gas is used for artificial ripening of fruits?",
+"questionOdia": "ଫଳ ପାଚିବାରେ ବ୍ୟବହୃତ ହରମୋନ୍ କ'ଣ?",
+"options": [
+"ଅକ୍ସିନ୍",
+"ଇଥିଲିନ୍",
+"ଜିବେରେଲିନ୍",
+"ସାଇଟୋକାଇନିନ୍"
+],
+"answer": "ଇଥିଲିନ୍",
+"explanation": "ଇଥିଲିନ୍ ଏକ ଗ୍ୟାସ୍ ହରମୋନ୍ ଯାହା ଫଳ ପାଚିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "What is the largest part of the human brain?",
+"questionOdia": "ମାନବ ମସ୍ତିଷ୍କର ସବୁଠାରୁ ବଡ଼ ଅଂଶ କ'ଣ?",
+"options": [
+"ପ୍ରମସ୍ତିଷ୍କ",
+"ଲଘୁମସ୍ତିଷ୍କ",
+"ମେଡୁଲା",
+"ଥାଲାମସ୍"
+],
+"answer": "ପ୍ରମସ୍ତିଷ୍କ",
+"explanation": "ପ୍ରମସ୍ତିଷ୍କ ହେଉଛି ମସ୍ତିଷ୍କର ସବୁଠାରୁ ବଡ଼ ଏବଂ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଅଂଶ।"
+},
+{
+"questionEnglish": "Which system controls voluntary actions?",
+"questionOdia": "ଇଚ୍ଛାଧୀନ କ୍ରିୟାଗୁଡ଼ିକୁ କେଉଁ ସ୍ନାୟୁତନ୍ତ୍ର ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": [
+"ପରିଧିୟ ସ୍ନାୟୁତନ୍ତ୍ର",
+"କୈନ୍ଦ୍ରିକ ସ୍ନାୟୁତନ୍ତ୍ର",
+"ସ୍ୱୟଂକ୍ରିୟ ସ୍ନାୟୁତନ୍ତ୍ର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କୈନ୍ଦ୍ରିକ ସ୍ନାୟୁତନ୍ତ୍ର",
+"explanation": "ମସ୍ତିଷ୍କ ଓ ସୁଷୁମ୍ନା କାଣ୍ଡ ବା କୈନ୍ଦ୍ରିକ ସ୍ନାୟୁତନ୍ତ୍ର ଇଚ୍ଛାଧୀନ କାର୍ଯ୍ୟ ନିୟନ୍ତ୍ରଣ କରେ।"
+},
+{
+"questionEnglish": "What is the chemical released at the synapse?",
+"questionOdia": "ସାଇନାପ୍ସ୍‌ରେ କେଉଁ ରାସାୟନିକ ପଦାର୍ଥ ନିର୍ଗତ ହୁଏ?",
+"options": [
+"ଆସେଟାଇଲକୋଲିନ୍",
+"ହିମୋଗ୍ଲୋବିନ୍",
+"କ୍ୟାଲସିୟମ୍",
+"ସୋଡିୟମ୍"
+],
+"answer": "ଆସେଟାଇଲକୋଲିନ୍",
+"explanation": "ଆସେଟାଇଲକୋଲିନ୍ ଏକ ନିଉରୋଟ୍ରାନ୍ସମିଟର ଯାହା ସଙ୍କେତ ପରିବହନ କରେ।"
+},
+{
+"questionEnglish": "Which part of the brain controls breathing?",
+"questionOdia": "ଶ୍ୱାସକ୍ରିୟା କେଉଁ ଅଂଶ ଦ୍ୱାରା ନିୟନ୍ତ୍ରିତ ହୁଏ?",
+"options": [
+"ଲଘୁମସ୍ତିଷ୍କ",
+"ମେଡୁଲା",
+"ପ୍ରମସ୍ତିଷ୍କ",
+"ସୁଷୁମ୍ନା କାଣ୍ଡ"
+],
+"answer": "ମେଡୁଲା",
+"explanation": "ମେଡୁଲା ଅବଲଙ୍ଗାଟା ହୃଦସ୍ପନ୍ଦନ ଓ ଶ୍ୱାସକ୍ରିୟା ଭଳି ଅନୈଚ୍ଛିକ କ୍ରିୟା ନିୟନ୍ତ୍ରଣ କରେ।"
+},
+{
+"questionEnglish": "What is the function of auxins in plants?",
+"questionOdia": "ଉଦ୍ଭିଦରେ ଅକ୍ସିନ୍‌ର କାର୍ଯ୍ୟ କ'ଣ?",
+"options": [
+"କୋଷ ବିଭାଜନ",
+"କାଣ୍ଡର ଅଗ୍ରଭାଗ ବୃଦ୍ଧି",
+"ଫଳ ପାଚିବା",
+"ପତ୍ର ଝଡ଼ିବା"
+],
+"answer": "କାଣ୍ଡର ଅଗ୍ରଭାଗ ବୃଦ୍ଧି",
+"explanation": "ଅକ୍ସିନ୍ ଉଦ୍ଭିଦର ଅଗ୍ରଭାଗର ବୃଦ୍ଧିରେ ସାହାଯ୍ୟ କରେ।"
+}
 ]
