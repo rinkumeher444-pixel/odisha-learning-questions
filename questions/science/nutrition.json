@@ -1,122 +1,1214 @@
 [
-  {
-    "questionEnglish": "Which type of nutrition is found in green plants?",
-    "questionOdia": "ସବୁଜ ଉଦ୍ଭିଦଗୁଡ଼ିକରେ କେଉଁ ପ୍ରକାରର ପୋଷଣ ଦେଖାଯାଏ?",
-    "options": [
-      "Autotrophic nutrition",
-      "Heterotrophic nutrition",
-      "Saprophytic nutrition",
-      "Parasitic nutrition"
-    ],
-    "answer": "Autotrophic nutrition",
-    "explanation": "Green plants manufacture their own food from simple inorganic substances using sunlight, which is called autotrophic nutrition (ସ୍ୱଭୋଜୀ ପୋଷଣ)."
-  },
-  {
-    "questionEnglish": "Where does the light reaction of photosynthesis take place inside the chloroplast?",
-    "questionOdia": "ହରିତ୍‌କଣା (Chloroplast) ର କେଉଁ ଅଂଶରେ ଆଲୋକ ପ୍ରକ୍ରିୟା ସଂଘଟିତ ହୋଇଥାଏ?",
-    "options": [
-      "Grana",
-      "Stroma",
-      "Mitochondria",
-      "Cytoplasm"
-    ],
-    "answer": "Grana",
-    "explanation": "The photosynthetic chemical process is split into two stages: the light-dependent reaction occurs in the Thylakoid membranes or Grana, while the dark reaction occurs in the Stroma."
-  },
-  {
-    "questionEnglish": "Which enzyme present in human saliva breaks down starch into maltose?",
-    "questionOdia": "ମାନବ ଲାଳରେ ଥିବା କେଉଁ ଏନଜାଇମ୍ ଶ୍ଵେତସାରକୁ ମାଲ୍ଟୋଜ୍‌ରେ ପରିଣତ କରେ?",
-    "options": [
-      "Salivary Amylase (Ptyalin)",
-      "Pepsin",
-      "Trypsin",
-      "Lipase"
-    ],
-    "answer": "Salivary Amylase (Ptyalin)",
-    "explanation": "Salivary amylase, also known as ptyalin, initiates the chemical digestion of carbohydrates in the mouth by breaking down complex starch into simple sugars."
-  },
-  {
-    "questionEnglish": "Which organ of the human digestive system secretes bile juice?",
-    "questionOdia": "ମାନବ ପାଚନ ତନ୍ତ୍ରର କେଉଁ ଅଙ୍ଗରୁ ପିତ୍ତ ରସ (Bile Juice) କ୍ଷରିତ ହୋଇଥାଏ?",
-    "options": [
-      "Liver",
-      "Pancreas",
-      "Stomach",
-      "Small Intestine"
-    ],
-    "answer": "Liver",
-    "explanation": "The liver (ଯକୃତ) is the largest gland in the body and produces bile juice, which is stored in the gallbladder and helps in the emulsification of fats."
-  },
-  {
-    "questionEnglish": "What are the finger-like projections in the inner wall of the small intestine that absorb digested food called?",
-    "questionOdia": "ହଜମ ହୋଇଥିବା ଖାଦ୍ୟର ଅବଶୋଷଣ ପାଇଁ କ୍ଷୁଦ୍ରାନ୍ତ୍ରର ଭିତର ପ୍ରାଚୀରରେ ଥିବା ଆଙ୍ଗୁଠି ସଦୃଶ ପ୍ରବର୍ଦ୍ଧଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Villi",
-      "Alveoli",
-      "Nephrons",
-      "Stomata"
-    ],
-    "answer": "Villi",
-    "explanation": "Villi (ରସାଙ୍କୁର) increase the internal surface area of the small intestinal walls making the absorption of nutrients highly efficient."
-  },
-  {
-    "questionEnglish": "Which type of mode of nutrition is exhibited by Fungi like mushrooms?",
-    "questionOdia": "ଛତୁ ଭଳି କବକଗୁଡ଼ିକରେ କେଉଁ ପ୍ରକାରର ପୋଷଣ ପ୍ରଣାଳୀ ଦେଖାଯାଏ?",
-    "options": [
-      "Saprophytic nutrition",
-      "Parasitic nutrition",
-      "Symbiotic nutrition",
-      "Holozoic nutrition"
-    ],
-    "answer": "Saprophytic nutrition",
-    "explanation": "Mushrooms are saprophytes (ମୃତୋପଜୀବୀ) that feed on dead and decaying organic matter by releasing external enzymes and absorbing nutrients."
-  },
-  {
-    "questionEnglish": "Which gas is absorbed by green plants from the atmosphere during the process of photosynthesis?",
-    "questionOdia": "ଆଲୋକଶ୍ଳେଷଣ ପ୍ରକ୍ରିୟା ସମୟରେ ସବୁଜ ଉଦ୍ଭିଦ ବାୟୁମଣ୍ଡଳରୁ କେଉଁ ଗ୍ୟାସ୍ ଗ୍ରହଣ କରିଥାଏ?",
-    "options": [
-      "Carbon dioxide",
-      "Oxygen",
-      "Nitrogen",
-      "Hydrogen"
-    ],
-    "answer": "Carbon dioxide",
-    "explanation": "Plants take in Carbon dioxide (CO2) through stomata and water from roots to synthesize glucose, releasing oxygen as a byproduct."
-  },
-  {
-    "questionEnglish": "What is the function of hydrochloric acid (HCl) secreted in the human stomach?",
-    "questionOdia": "ମାନବ ପାକସ୍ଥଳୀରେ କ୍ଷରିତ ହେଉଥିବା ହାଇଡ୍ରୋକ୍ଲୋରିକ୍ ଅମ୍ଳ (HCl) ର କାର୍ଯ୍ୟ କଣ?",
-    "options": [
-      "Creates an acidic medium and kills bacteria",
-      "Digests proteins directly",
-      "Emulsifies fats",
-      "Absorbs water"
-    ],
-    "answer": "Creates an acidic medium and kills bacteria",
-    "explanation": "HCl creates an acidic environment necessary for activation of the enzyme pepsinogen into pepsin and kills harmful microbes entering with food."
-  },
-  {
-    "questionEnglish": "Where does the complete digestion of carbohydrates, proteins, and fats take place in humans?",
-    "questionOdia": "ମାନବ ଶରୀରରେ ଶ୍ଵେତସାର, ପୁଷ୍ଟିସାର ଏବଂ ସ୍ନେହସାରର ସମ୍ପୂର୍ଣ୍ଣ ହଜମ ପ୍ରକ୍ରିୟା କେଉଁଠାରେ ହୋଇଥାଏ?",
-    "options": [
-      "Small Intestine",
-      "Stomach",
-      "Large Intestine",
-      "Mouth"
-    ],
-    "answer": "Small Intestine",
-    "explanation": "The small intestine (କ୍ଷୁଦ୍ରାନ୍ତ୍ର) receives secretions from the liver and pancreas, serving as the site for full chemical breakdown of all dietary segments."
-  },
-  {
-    "questionEnglish": "Which element is central to the structure of a chlorophyll molecule?",
-    "questionOdia": "କ୍ଲୋରୋଫିଲ୍ (Chlorophyll) ଅଣୁର ଗଠନରେ କେଉଁ ମୌଳିକଟି କେନ୍ଦ୍ରୀୟ ଭୂମିକା ଗ୍ରହଣ କରିଥାଏ?",
-    "options": [
-      "Magnesium",
-      "Iron",
-      "Calcium",
-      "Sodium"
-    ],
-    "answer": "Magnesium",
-    "explanation": "Magnesium (Mg) forms the absolute core ion of the porphyrin ring structure in chlorophyll molecules, essential for harvesting light."
-  }
+{
+"questionEnglish": "What is the primary source of energy for all living organisms?",
+"questionOdia": "ସମସ୍ତ ଜୀବଙ୍କ ପାଇଁ ଶକ୍ତିର ମୁଖ୍ୟ ଉତ୍ସ କଣ?",
+"options": [
+"ଖାଦ୍ୟ",
+"ସୂର୍ଯ୍ୟ",
+"ଜଳ",
+"ବାୟୁ"
+],
+"answer": "ସୂର୍ଯ୍ୟ",
+"explanation": "ସୂର୍ଯ୍ୟ ହେଉଛନ୍ତି ପୃଥିବୀର ଶକ୍ତିର ମୁଖ୍ୟ ଉତ୍ସ, ଯାହା ସବୁଜ ଉଦ୍ଭିଦ ମାଧ୍ୟମରେ ଖାଦ୍ୟରେ ସଞ୍ଚିତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which process is used by green plants to prepare their own food?",
+"questionOdia": "ସବୁଜ ଉଦ୍ଭିଦ ନିଜ ଖାଦ୍ୟ ପ୍ରସ୍ତୁତ କରିବା ପାଇଁ କେଉଁ ପ୍ରକ୍ରିୟା ବ୍ୟବହାର କରନ୍ତି?",
+"options": [
+"ଶ୍ଵସନ",
+"ଆଲୋକଶ୍ଳେଷଣ",
+"ରେଚନ",
+"ପରିବହନ"
+],
+"answer": "ଆଲୋକଶ୍ଳେଷଣ",
+"explanation": "ସବୁଜ ଉଦ୍ଭିଦ ସୂର୍ଯ୍ୟାଲୋକ, କ୍ଲୋରୋଫିଲ୍, କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଓ ଜଳ ବ୍ୟବହାର କରି ଆଲୋକଶ୍ଳେଷଣ ପ୍ରକ୍ରିୟାରେ ଖାଦ୍ୟ ପ୍ରସ୍ତୁତ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Which pigment is responsible for the green color of leaves?",
+"questionOdia": "ପତ୍ରର ସବୁଜ ରଙ୍ଗ ପାଇଁ କେଉଁ ବର୍ଣ୍ଣକ ଦାୟୀ?",
+"options": [
+"କାରୋଟିନ୍",
+"କ୍ଲୋରୋଫିଲ୍",
+"ଜାନ୍ଥୋଫିଲ୍",
+"ଆନ୍ଥୋସିଆନିନ୍"
+],
+"answer": "କ୍ଲୋରୋଫିଲ୍",
+"explanation": "କ୍ଲୋରୋଫିଲ୍ ହେଉଛି ସବୁଜ ରଙ୍ଗର ବର୍ଣ୍ଣକ ଯାହା ଆଲୋକଶ୍ଳେଷଣ ପାଇଁ ସୌର ଶକ୍ତିକୁ ଶୋଷଣ କରେ।"
+},
+{
+"questionEnglish": "What are the end products of photosynthesis?",
+"questionOdia": "ଆଲୋକଶ୍ଳେଷଣର ଶେଷ ଉତ୍ପାଦ କଣ?",
+"options": [
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଓ ଜଳ",
+"ଗ୍ଲୁକୋଜ୍ ଓ ଅମ୍ଳଜାନ",
+"ଯବକ୍ଷାରଜାନ ଓ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗ୍ଲୁକୋଜ୍ ଓ ଅମ୍ଳଜାନ",
+"explanation": "ଆଲୋକଶ୍ଳେଷଣ ପ୍ରକ୍ରିୟାରେ ଉଦ୍ଭିଦ ଗ୍ଲୁକୋଜ୍ (ଖାଦ୍ୟ) ପ୍ରସ୍ତୁତ କରେ ଏବଂ ଅମ୍ଳଜାନ ଉପ-ଉତ୍ପାଦ ଭାବେ ନିର୍ଗତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which gas do plants release during photosynthesis?",
+"questionOdia": "ଆଲୋକଶ୍ଳେଷଣ ସମୟରେ ଉଦ୍ଭିଦ କେଉଁ ଗ୍ୟାସ୍ ନିର୍ଗତ କରନ୍ତି?",
+"options": [
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"ଅମ୍ଳଜାନ",
+"ନାଇଟ୍ରୋଜେନ୍",
+"ହାଇଡ୍ରୋଜେନ୍"
+],
+"answer": "ଅମ୍ଳଜାନ",
+"explanation": "ଆଲୋକଶ୍ଳେଷଣ ସମୟରେ ଉଦ୍ଭିଦ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଗ୍ରହଣ କରି ଅମ୍ଳଜାନ ନିର୍ଗତ କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is the mode of nutrition in fungi?",
+"questionOdia": "କବକମାନଙ୍କରେ ପୋଷଣ କି ପ୍ରକାରର?",
+"options": [
+"ସ୍ଵପୋଷୀ",
+"ମୃତୋପଜୀବୀ",
+"ପରଜୀବୀ",
+"ପ୍ରାଣୀସମ"
+],
+"answer": "ମୃତୋପଜୀବୀ",
+"explanation": "କବକମାନେ ପଚାସଢ଼ା ଜୈବ ପଦାର୍ଥରୁ ପୋଷଣ ସଂଗ୍ରହ କରୁଥିବାରୁ ସେମାନେ ମୃତୋପଜୀବୀ।"
+},
+{
+"questionEnglish": "Which part of the digestive tract absorbs water?",
+"questionOdia": "ହଜମ ପ୍ରକ୍ରିୟାର କେଉଁ ଅଂଶ ଜଳ ଶୋଷଣ କରେ?",
+"options": [
+"ଆମାଶୟ",
+"କ୍ଷୁଦ୍ରାନ୍ତ୍ର",
+"ବୃହଦନ୍ତ୍ର",
+"ଗ୍ରସନୀ"
+],
+"answer": "ବୃହଦନ୍ତ୍ର",
+"explanation": "ବୃହଦନ୍ତ୍ରର ମୁଖ୍ୟ କାର୍ଯ୍ୟ ହେଉଛି ଅପରିପାକ ଖାଦ୍ୟରୁ ଜଳ ଓ ଲବଣ ଶୋଷଣ କରିବା।"
+},
+{
+"questionEnglish": "Where is bile produced in the human body?",
+"questionOdia": "ମଣିଷ ଶରୀରରେ ପିତ୍ତ (Bile) କେଉଁଠାରେ ତିଆରି ହୁଏ?",
+"options": [
+"ପିତ୍ତାଶୟ",
+"ଯକୃତ",
+"ଅଗ୍ନାଶୟ",
+"ଆମାଶୟ"
+],
+"answer": "ଯକୃତ",
+"explanation": "ଯକୃତରେ ପିତ୍ତ ତିଆରି ହୁଏ ଏବଂ ଏହା ପିତ୍ତାଶୟରେ ସଞ୍ଚିତ ରହେ।"
+},
+{
+"questionEnglish": "What is the function of the stomach?",
+"questionOdia": "ଆମାଶୟର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ଖାଦ୍ୟକୁ ପେଷିବା",
+"ଖାଦ୍ୟକୁ ଏସିଡ୍ ଓ ଏଞ୍ଜାଇମ୍ ସହ ମିଶାଇବା",
+"ପୁଷ୍ଟିସାର ଶୋଷଣ କରିବା",
+"ମଳ ତ୍ୟାଗ କରିବା"
+],
+"answer": "ଖାଦ୍ୟକୁ ଏସିଡ୍ ଓ ଏଞ୍ଜାଇମ୍ ସହ ମିଶାଇବା",
+"explanation": "ଆମାଶୟରେ ଥିବା ହାଇଡ୍ରୋକ୍ଲୋରିକ୍ ଏସିଡ୍ ଓ ପେପ୍ସିନ୍ ଖାଦ୍ୟ ହଜମରେ ସାହାଯ୍ୟ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Which enzyme is present in saliva?",
+"questionOdia": "ଲାଳରେ କେଉଁ ଏଞ୍ଜାଇମ୍ ଥାଏ?",
+"options": [
+"ଟ୍ରିପସିନ୍",
+"ଅମାଇଲେଜ୍",
+"ଲାଇପେଜ୍",
+"ପେପ୍ସିନ୍"
+],
+"answer": "ଅମାଇଲେଜ୍",
+"explanation": "ଲାଳରେ ଥିବା ସାଲିଭାରି ଅମାଇଲେଜ୍ ଶ୍ଵେତସାରକୁ ସରଳ ଶର୍କରାରେ ପରିଣତ କରେ।"
+},
+{
+"questionEnglish": "What are the small projections in the small intestine called?",
+"questionOdia": "କ୍ଷୁଦ୍ରାନ୍ତ୍ରରେ ଥିବା କ୍ଷୁଦ୍ର ଅଙ୍ଗୁଳି ସଦୃଶ ଅଂଶଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ଭିଲି (Villi)",
+"ସିଲିଆ",
+"ଫ୍ଲାଜେଲା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଭିଲି (Villi)",
+"explanation": "ଭିଲି କ୍ଷୁଦ୍ରାନ୍ତ୍ରର ଶୋଷଣ ପୃଷ୍ଠକୁ ବଢ଼ାଇ ଖାଦ୍ୟ ଶୋଷଣରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Which nutrient is broken down by Pepsin?",
+"questionOdia": "ପେପ୍ସିନ୍ କେଉଁ ପୋଷକକୁ ଭାଙ୍ଗିଥାଏ?",
+"options": [
+"ଶ୍ଵେତସାର",
+"ସ୍ନେହସାର",
+"ପୁଷ୍ଟିସାର",
+"ଭିଟାମିନ୍"
+],
+"answer": "ପୁଷ୍ଟିସାର",
+"explanation": "ଆମାଶୟରେ ପେପ୍ସିନ୍ ପୁଷ୍ଟିସାର (ପ୍ରୋଟିନ୍) କୁ ପେପ୍ଟୋନରେ ଭାଙ୍ଗିଥାଏ।"
+},
+{
+"questionEnglish": "What is the final product of starch digestion?",
+"questionOdia": "ଶ୍ଵେତସାର ହଜମର ଶେଷ ଉତ୍ପାଦ କଣ?",
+"options": [
+"ଗ୍ଲୁକୋଜ୍",
+"ଅମିନୋ ଏସିଡ୍",
+"ଫ୍ୟାଟି ଏସିଡ୍",
+"ଗ୍ଲାଇସେରଲ୍"
+],
+"answer": "ଗ୍ଲୁକୋଜ୍",
+"explanation": "ଶ୍ଵେତସାର ବା କାର୍ବୋହାଇଡ୍ରେଟ୍ ପରିଶେଷରେ ଗ୍ଲୁକୋଜରେ ପରିଣତ ହୁଏ।"
+},
+{
+"questionEnglish": "Where does protein digestion begin?",
+"questionOdia": "ପୁଷ୍ଟିସାର ହଜମ କେଉଁଠାରୁ ଆରମ୍ଭ ହୁଏ?",
+"options": [
+"ପାଟି",
+"ଗ୍ରସନଳୀ",
+"ଆମାଶୟ",
+"କ୍ଷୁଦ୍ରାନ୍ତ୍ର"
+],
+"answer": "ଆମାଶୟ",
+"explanation": "ପୁଷ୍ଟିସାର ହଜମ ଆମାଶୟରୁ ଆରମ୍ଭ ହୋଇ କ୍ଷୁଦ୍ରାନ୍ତ୍ରରେ ଶେଷ ହୁଏ।"
+},
+{
+"questionEnglish": "Which part of the plant absorbs water and minerals?",
+"questionOdia": "ଉଦ୍ଭିଦର କେଉଁ ଅଂଶ ଜଳ ଓ ଖଣିଜ ଲବଣ ଶୋଷଣ କରେ?",
+"options": [
+"ପତ୍ର",
+"କାଣ୍ଡ",
+"ଚେର",
+"ଫୁଲ"
+],
+"answer": "ଚେର",
+"explanation": "ଉଦ୍ଭିଦର ଚେର ମାଟିରୁ ଜଳ ଓ ଖଣିଜ ଲବଣ ଶୋଷଣ କରି କାଣ୍ଡ ଦେଇ ପତ୍ରକୁ ପଠାଏ।"
+},
+{
+"questionEnglish": "What is the role of hydrochloric acid in the stomach?",
+"questionOdia": "ଆମାଶୟରେ ହାଇଡ୍ରୋକ୍ଲୋରିକ୍ ଏସିଡର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ଖାଦ୍ୟକୁ କ୍ଷାରୀୟ କରିବା",
+"ଖାଦ୍ୟରୁ ଜୀବାଣୁ ମାରିବା ଓ ଏଞ୍ଜାଇମ୍‌କୁ ସକ୍ରିୟ କରିବା",
+"ପୁଷ୍ଟିସାରକୁ ଶୋଷଣ କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟରୁ ଜୀବାଣୁ ମାରିବା ଓ ଏଞ୍ଜାଇମ୍‌କୁ ସକ୍ରିୟ କରିବା",
+"explanation": "HCl ଖାଦ୍ୟ ସହ ଆସିଥିବା ଜୀବାଣୁକୁ ମାରେ ଏବଂ ପେପ୍ସିନ୍‌କୁ ସକ୍ରିୟ କରେ।"
+},
+{
+"questionEnglish": "What is meant by autotrophic nutrition?",
+"questionOdia": "ସ୍ଵପୋଷୀ ପୋଷଣ କଣ?",
+"options": [
+"ଅନ୍ୟ ଉପରେ ନିର୍ଭରଶୀଳ",
+"ନିଜ ଖାଦ୍ୟ ନିଜେ ପ୍ରସ୍ତୁତ କରିବା",
+"ପଚାସଢ଼ା ଖାଦ୍ୟ ଖାଇବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନିଜ ଖାଦ୍ୟ ନିଜେ ପ୍ରସ୍ତୁତ କରିବା",
+"explanation": "ଯେଉଁ ଜୀବ ନିଜ ଖାଦ୍ୟ ନିଜେ ପ୍ରସ୍ତୁତ କରନ୍ତି (ଯେପରି ସବୁଜ ଉଦ୍ଭିଦ), ସେମାନଙ୍କୁ ସ୍ଵପୋଷୀ କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "Which organ helps in the exchange of gases in plants?",
+"questionOdia": "ଉଦ୍ଭିଦରେ ଗ୍ୟାସ୍ ବିନିମୟ ପାଇଁ କେଉଁ ଅଙ୍ଗ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ପତ୍ରରନ୍ଧ୍ର",
+"କାଣ୍ଡ",
+"ଚେର",
+"ଫୁଲ"
+],
+"answer": "ପତ୍ରରନ୍ଧ୍ର",
+"explanation": "ପତ୍ରରନ୍ଧ୍ର (Stomata) ମାଧ୍ୟମରେ ଉଦ୍ଭିଦ ବାୟୁମଣ୍ଡଳ ସହ ଗ୍ୟାସ୍ ବିନିମୟ କରେ।"
+},
+{
+"questionEnglish": "What type of nutrition is seen in humans?",
+"questionOdia": "ମଣିଷରେ କେଉଁ ପ୍ରକାରର ପୋଷଣ ଦେଖାଯାଏ?",
+"options": [
+"ସ୍ଵପୋଷୀ",
+"ପ୍ରାଣୀସମ ପୋଷଣ",
+"ମୃତୋପଜୀବୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପ୍ରାଣୀସମ ପୋଷଣ",
+"explanation": "ମଣିଷ ଜଟିଳ ଖାଦ୍ୟ ଗ୍ରହଣ କରି ତାକୁ ପାଚନ ମାଧ୍ୟମରେ ସରଳ କରେ, ତେଣୁ ଏହା ପ୍ରାଣୀସମ ପୋଷଣ।"
+},
+{
+"questionEnglish": "Which organ pumps blood in the body?",
+"questionOdia": "ଶରୀରରେ ରକ୍ତକୁ କେଉଁ ଅଙ୍ଗ ପମ୍ପ କରେ?",
+"options": [
+"ଫୁସଫୁସ",
+"ହୃତ୍‌ପିଣ୍ଡ",
+"ଯକୃତ",
+"ବୃକ୍କ"
+],
+"answer": "ହୃତ୍‌ପିଣ୍ଡ",
+"explanation": "ହୃତ୍‌ପିଣ୍ଡ ଶରୀରର ସବୁ ଅଂଶକୁ ରକ୍ତ ପମ୍ପ କରିଥାଏ।"
+},
+{
+"questionEnglish": "What does chlorophyll capture during photosynthesis?",
+"questionOdia": "ଆଲୋକଶ୍ଳେଷଣ ସମୟରେ କ୍ଲୋରୋଫିଲ୍ କଣ ସଂଗ୍ରହ କରେ?",
+"options": [
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"ସୌର ଶକ୍ତି",
+"ଜଳ",
+"ଅମ୍ଳଜାନ"
+],
+"answer": "ସୌର ଶକ୍ତି",
+"explanation": "କ୍ଲୋରୋଫିଲ୍ ସୂର୍ଯ୍ୟଙ୍କର ଆଲୋକ ଶକ୍ତିକୁ ଶୋଷଣ କରି ରାସାୟନିକ ଶକ୍ତିରେ ପରିଣତ କରେ।"
+},
+{
+"questionEnglish": "Which of the following is a parasitic plant?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ପରଜୀବୀ ଉଦ୍ଭିଦ?",
+"options": [
+"ଅମରଲତା",
+"ଆମ୍ବ ଗଛ",
+"ପାଳଙ୍ଗ ଶାଗ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମରଲତା",
+"explanation": "ଅମରଲତା ଅନ୍ୟ ଉଦ୍ଭିଦରୁ ପୋଷଣ ଗ୍ରହଣ କରୁଥିବାରୁ ଏହା ଏକ ପରଜୀବୀ।"
+},
+{
+"questionEnglish": "What is the function of the large intestine?",
+"questionOdia": "ବୃହଦନ୍ତ୍ରର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ଖାଦ୍ୟ ହଜମ କରିବା",
+"ଜଳ ଶୋଷଣ କରିବା",
+"ପ୍ରୋଟିନ୍ ଶୋଷଣ କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜଳ ଶୋଷଣ କରିବା",
+"explanation": "ବୃହଦନ୍ତ୍ରରେ ଅପରିପାକ ଖାଦ୍ୟରୁ ଜଳ ଶୋଷି ନିଆଯାଏ।"
+},
+{
+"questionEnglish": "Which enzyme breaks down fats?",
+"questionOdia": "କେଉଁ ଏଞ୍ଜାଇମ୍ ସ୍ନେହସାରକୁ ଭାଙ୍ଗେ?",
+"options": [
+"ଲାଇପେଜ୍",
+"ଅମାଇଲେଜ୍",
+"ପେପ୍ସିନ୍",
+"ଟ୍ରିପସିନ୍"
+],
+"answer": "ଲାଇପେଜ୍",
+"explanation": "ଲାଇପେଜ୍ ସ୍ନେହସାର ବା ଫ୍ୟାଟକୁ ଫ୍ୟାଟି ଏସିଡ୍ ଓ ଗ୍ଲାଇସେରଲରେ ଭାଙ୍ଗେ।"
+},
+{
+"questionEnglish": "What are the building blocks of proteins?",
+"questionOdia": "ପୁଷ୍ଟିସାର କାହାକୁ ନେଇ ଗଠିତ?",
+"options": [
+"ଗ୍ଲୁକୋଜ୍",
+"ଅମିନୋ ଏସିଡ୍",
+"ଗ୍ଲାଇସେରଲ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମିନୋ ଏସିଡ୍",
+"explanation": "ପୁଷ୍ଟିସାର ଭାଙ୍ଗିଲେ ଶେଷରେ ଅମିନୋ ଏସିଡ୍ ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "Which vessel carries deoxygenated blood?",
+"questionOdia": "କେଉଁ ରକ୍ତନଳୀ ଅମ୍ଳଜାନହୀନ ରକ୍ତ ବହନ କରେ?",
+"options": [
+"ଧମନୀ",
+"ଶିରା",
+"କେଶିକା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶିରା",
+"explanation": "ଶିରା ଅଙ୍ଗପ୍ରତ୍ୟଙ୍ଗରୁ ଅମ୍ଳଜାନହୀନ ରକ୍ତକୁ ହୃତ୍‌ପିଣ୍ଡକୁ ଆଣିଥାଏ।"
+},
+{
+"questionEnglish": "What is the main role of the liver?",
+"questionOdia": "ଯକୃତର ମୁଖ୍ୟ ଭୂମିକା କଣ?",
+"options": [
+"ପିତ୍ତ ତିଆରି କରିବା",
+"ଶ୍ଵସନରେ ସାହାଯ୍ୟ",
+"କେବଳ ରକ୍ତ ଶୋଧନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପିତ୍ତ ତିଆରି କରିବା",
+"explanation": "ଯକୃତ ପିତ୍ତ ପ୍ରସ୍ତୁତ କରେ, ଯାହା ସ୍ନେହସାର ହଜମରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Where is the digested food absorbed?",
+"questionOdia": "ହଜମ ହୋଇଥିବା ଖାଦ୍ୟ କେଉଁଠାରେ ଶୋଷିତ ହୁଏ?",
+"options": [
+"ଆମାଶୟ",
+"କ୍ଷୁଦ୍ରାନ୍ତ୍ର",
+"ବୃହଦନ୍ତ୍ର",
+"ଗ୍ରସନୀ"
+],
+"answer": "କ୍ଷୁଦ୍ରାନ୍ତ୍ର",
+"explanation": "କ୍ଷୁଦ୍ରାନ୍ତ୍ରରେ ଥିବା ଭିଲି ମାଧ୍ୟମରେ ହଜମ ହୋଇଥିବା ଖାଦ୍ୟ ରକ୍ତକୁ ଯାଏ।"
+},
+{
+"questionEnglish": "What is the life process of making energy from food called?",
+"questionOdia": "ଖାଦ୍ୟରୁ ଶକ୍ତି ମିଳିବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହନ୍ତି?",
+"options": [
+"ପୋଷଣ",
+"ଶ୍ଵସନ",
+"ରେଚନ",
+"ପରିବହନ"
+],
+"answer": "ଶ୍ଵସନ",
+"explanation": "ଶ୍ଵସନ ପ୍ରକ୍ରିୟାରେ ଖାଦ୍ୟ (ଗ୍ଲୁକୋଜ୍) ର ଅକ୍ସିଡେସନ୍ ହୋଇ ଶକ୍ତି ମିଳେ।"
+},
+{
+"questionEnglish": "Which organism does not use a mouth for feeding?",
+"questionOdia": "କେଉଁ ଜୀବ ଖାଇବା ପାଇଁ ପାଟି ବ୍ୟବହାର କରେ ନାହିଁ?",
+"options": [
+"ଅମିବା",
+"ମଣିଷ",
+"ମାଛ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମିବା",
+"explanation": "ଅମିବା ଖାଦ୍ୟ ପାଇଁ କ୍ଷଣପଦ (pseudopodia) ବ୍ୟବହାର କରେ।"
+},
+{
+"questionEnglish": "What is the purpose of villi?",
+"questionOdia": "ଭିଲିର ଉଦ୍ଦେଶ୍ୟ କଣ?",
+"options": [
+"ଖାଦ୍ୟକୁ ଭାଙ୍ଗିବା",
+"ଶୋଷଣ ପୃଷ୍ଠକୁ ବଢ଼ାଇବା",
+"ବିଷ ନଷ୍ଟ କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶୋଷଣ ପୃଷ୍ଠକୁ ବଢ଼ାଇବା",
+"explanation": "ଭିଲି ଶୋଷଣ ପୃଷ୍ଠକୁ ବଢ଼ାଇ ଅଧିକ ଖାଦ୍ୟ ଶୋଷଣରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Which vitamin is needed for blood clotting?",
+"questionOdia": "ରକ୍ତ ଜମାଟ ବାନ୍ଧିବା ପାଇଁ କେଉଁ ଭିଟାମିନ୍ ଆବଶ୍ୟକ?",
+"options": [
+"ଭିଟାମିନ୍ A",
+"ଭିଟାମିନ୍ C",
+"ଭିଟାମିନ୍ K",
+"ଭିଟାମିନ୍ D"
+],
+"answer": "ଭିଟାମିନ୍ K",
+"explanation": "ଭିଟାମିନ୍ K ରକ୍ତ ଜମାଟ ବାନ୍ଧିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "What do plants use to make carbohydrates?",
+"questionOdia": "ଉଦ୍ଭିଦ କାର୍ବୋହାଇଡ୍ରେଟ୍ ପ୍ରସ୍ତୁତ କରିବା ପାଇଁ କଣ ବ୍ୟବହାର କରନ୍ତି?",
+"options": [
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଓ ଜଳ",
+"ଅମ୍ଳଜାନ",
+"ନାଇଟ୍ରୋଜେନ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଓ ଜଳ",
+"explanation": "ଆଲୋକଶ୍ଳେଷଣ ପ୍ରକ୍ରିୟାରେ ଉଦ୍ଭିଦ ଏହି ଦୁଇଟି ଉପାଦାନ ବ୍ୟବହାର କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is the main waste product in plants?",
+"questionOdia": "ଉଦ୍ଭିଦର ମୁଖ୍ୟ ବର୍ଜ୍ୟବସ୍ତୁ କଣ?",
+"options": [
+"ଅମ୍ଳଜାନ",
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"କୌଣସିଟି ନୁହେଁ",
+"ୟୁରିଆ"
+],
+"answer": "ଅମ୍ଳଜାନ",
+"explanation": "ଆଲୋକଶ୍ଳେଷଣ ସମୟରେ ଅମ୍ଳଜାନ ଉଦ୍ଭିଦ ପାଇଁ ଏକ ବର୍ଜ୍ୟବସ୍ତୁ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Where is the pancreatic juice secreted?",
+"questionOdia": "ଅଗ୍ନାଶୟ ରସ କେଉଁଠାରେ ନିର୍ଗତ ହୁଏ?",
+"options": [
+"ଆମାଶୟ",
+"କ୍ଷୁଦ୍ରାନ୍ତ୍ର",
+"ବୃହଦନ୍ତ୍ର",
+"ଗ୍ରସନୀ"
+],
+"answer": "କ୍ଷୁଦ୍ରାନ୍ତ୍ର",
+"explanation": "ଅଗ୍ନାଶୟ ରସ କ୍ଷୁଦ୍ରାନ୍ତ୍ରକୁ ଆସି ହଜମରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Which part of the body digests food?",
+"questionOdia": "ଶରୀରର କେଉଁ ଅଂଶ ଖାଦ୍ୟ ହଜମ କରେ?",
+"options": [
+"ପାକସ୍ଥଳୀ",
+"ଫୁସଫୁସ",
+"ମସ୍ତିଷ୍କ",
+"ବୃକ୍କ"
+],
+"answer": "ପାକସ୍ଥଳୀ",
+"explanation": "ପାକସ୍ଥଳୀ (ଆମାଶୟ) ଖାଦ୍ୟ ହଜମରେ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଭୂମିକା ଗ୍ରହଣ କରେ।"
+},
+{
+"questionEnglish": "What is the role of the tongue in digestion?",
+"questionOdia": "ହଜମ ପ୍ରକ୍ରିୟାରେ ଜିଭର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ଖାଦ୍ୟ ସହ ଲାଳ ମିଶାଇବା",
+"ଖାଦ୍ୟକୁ ପେଷିବା",
+"ସ୍ଵାଦ ବାରିବା",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ଜିଭ ଖାଦ୍ୟ ସହ ଲାଳ ମିଶାଇବାରେ, ଗିଳିବାରେ ଓ ସ୍ଵାଦ ଚିହ୍ନିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "What are heterotrophs?",
+"questionOdia": "ପରପୋଷୀ କାହାକୁ କୁହନ୍ତି?",
+"options": [
+"ଯେଉଁମାନେ ଖାଦ୍ୟ ପାଇଁ ଅନ୍ୟ ଉପରେ ନିର୍ଭର କରନ୍ତି",
+"ଯେଉଁମାନେ ନିଜ ଖାଦ୍ୟ ନିଜେ ତିଆରି କରନ୍ତି",
+"ଯେଉଁମାନେ ଆଲୋକ ଖାଆନ୍ତି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଯେଉଁମାନେ ଖାଦ୍ୟ ପାଇଁ ଅନ୍ୟ ଉପରେ ନିର୍ଭର କରନ୍ତି",
+"explanation": "ପରପୋଷୀ ମାନେ ଖାଦ୍ୟ ପାଇଁ ଅନ୍ୟ ଜୀବଙ୍କ ଉପରେ ନିର୍ଭରଶୀଳ।"
+},
+{
+"questionEnglish": "Which organ is not part of the digestive system?",
+"questionOdia": "କେଉଁ ଅଙ୍ଗଟି ପାଚନ ତନ୍ତ୍ରର ଅଂଶ ନୁହେଁ?",
+"options": [
+"ପାକସ୍ଥଳୀ",
+"କ୍ଷୁଦ୍ରାନ୍ତ୍ର",
+"ହୃତ୍‌ପିଣ୍ଡ",
+"ଗ୍ରସନଳୀ"
+],
+"answer": "ହୃତ୍‌ପିଣ୍ଡ",
+"explanation": "ହୃତ୍‌ପିଣ୍ଡ ରକ୍ତ ସଞ୍ଚାଳନ ତନ୍ତ୍ରର ଅଂଶ।"
+},
+{
+"questionEnglish": "What is photosynthesis?",
+"questionOdia": "ଆଲୋକଶ୍ଳେଷଣ କଣ?",
+"options": [
+"ଖାଦ୍ୟ ପ୍ରସ୍ତୁତି ପ୍ରକ୍ରିୟା",
+"ଶ୍ଵସନ ପ୍ରକ୍ରିୟା",
+"ରେଚନ ପ୍ରକ୍ରିୟା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ପ୍ରସ୍ତୁତି ପ୍ରକ୍ରିୟା",
+"explanation": "ଉଦ୍ଭିଦ ଆଲୋକ ସାହାଯ୍ୟରେ ଖାଦ୍ୟ ତିଆରି କରିବାକୁ ଆଲୋକଶ୍ଳେଷଣ କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "What is required for the survival of living things?",
+"questionOdia": "ଜୀବଙ୍କ ବଞ୍ଚିବା ପାଇଁ କଣ ଆବଶ୍ୟକ?",
+"options": [
+"ପୋଷଣ",
+"ପଥର",
+"ଲୁହା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପୋଷଣ",
+"explanation": "ଶକ୍ତି ଓ ବୃଦ୍ଧି ପାଇଁ ପ୍ରତ୍ୟେକ ଜୀବ ପୋଷଣ ଆବଶ୍ୟକ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Which of these is a plant nutrient?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଉଦ୍ଭିଦ ପୋଷକ?",
+"options": [
+"ନାଇଟ୍ରୋଜେନ୍",
+"ପ୍ଲାଷ୍ଟିକ",
+"କାଚ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନାଇଟ୍ରୋଜେନ୍",
+"explanation": "ନାଇଟ୍ରୋଜେନ୍ ଉଦ୍ଭିଦର ବୃଦ୍ଧି ପାଇଁ ଅତ୍ୟାବଶ୍ୟକ ଖଣିଜ ଉପାଦାନ।"
+},
+{
+"questionEnglish": "What is the function of the oesophagus?",
+"questionOdia": "ଗ୍ରସନଳୀର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ଖାଦ୍ୟ ପାଟିରୁ ଆମାଶୟକୁ ନେବା",
+"ଖାଦ୍ୟକୁ ପେଷିବା",
+"ଖାଦ୍ୟରୁ ପୁଷ୍ଟିସାର ଶୋଷିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ପାଟିରୁ ଆମାଶୟକୁ ନେବା",
+"explanation": "ଗ୍ରସନଳୀ ଖାଦ୍ୟକୁ ପାଟିରୁ ଆମାଶୟ ପର୍ଯ୍ୟନ୍ତ ପହଞ୍ଚାଇଥାଏ।"
+},
+{
+"questionEnglish": "Which part of the cell is called the power house?",
+"questionOdia": "କୋଷର କେଉଁ ଅଂଶକୁ ଶକ୍ତିକେନ୍ଦ୍ର (Power house) କୁହାଯାଏ?",
+"options": [
+"ମାଇଟୋକଣ୍ଡ୍ରିଆ",
+"ନିଉକ୍ଲିଅସ୍",
+"କୋଷାବରଣ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମାଇଟୋକଣ୍ଡ୍ରିଆ",
+"explanation": "ମାଇଟୋକଣ୍ଡ୍ରିଆରେ ଶ୍ଵସନ ପ୍ରକ୍ରିୟା ଦ୍ଵାରା ଅଧିକ ଶକ୍ତି (ATP) ତିଆରି ହୁଏ।"
+},
+{
+"questionEnglish": "What are stomata?",
+"questionOdia": "ପତ୍ରରନ୍ଧ୍ର (Stomata) କଣ?",
+"options": [
+"ପତ୍ରରେ ଥିବା କ୍ଷୁଦ୍ର ରନ୍ଧ୍ର",
+"କାଣ୍ଡରେ ଥିବା ଛିଦ୍ର",
+"ଚେରର ଅଂଶ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପତ୍ରରେ ଥିବା କ୍ଷୁଦ୍ର ରନ୍ଧ୍ର",
+"explanation": "ପତ୍ରରେ ଥିବା କ୍ଷୁଦ୍ର ରନ୍ଧ୍ରଗୁଡ଼ିକ ଗ୍ୟାସ୍ ବିନିମୟ ଓ ବାଷ୍ପୀଭବନ ପାଇଁ ଉଦ୍ଦିଷ୍ଟ।"
+},
+{
+"questionEnglish": "Which animal is a herbivore?",
+"questionOdia": "କେଉଁ ପ୍ରାଣୀ ଶାକାହାରୀ?",
+"options": [
+"ବାଘ",
+"ଗାଈ",
+"ସିଂହ",
+"ବିରାଡ଼ି"
+],
+"answer": "ଗାଈ",
+"explanation": "ଗାଈ କେବଳ ଘାସ ଓ ଗଛଲତା ଖାଉଥିବାରୁ ଏହା ଶାକାହାରୀ।"
+},
+{
+"questionEnglish": "What is the basic unit of living organisms?",
+"questionOdia": "ଜୀବର ଗଠନମୂଳକ ଏକକ କଣ?",
+"options": [
+"କୋଷ",
+"କାଣ୍ଡ",
+"ଅଙ୍ଗ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କୋଷ",
+"explanation": "ଜୀବର ପ୍ରତ୍ୟେକ କାର୍ଯ୍ୟ କୋଷ ଦ୍ଵାରା ସମ୍ପାଦିତ ହୁଏ, ତେଣୁ ଏହା ମୂଳ ଏକକ।"
+},
+{
+"questionEnglish": "What do humans get from food?",
+"questionOdia": "ମଣିଷ ଖାଦ୍ୟରୁ କଣ ପାଏ?",
+"options": [
+"ଶକ୍ତି",
+"ଅମ୍ଳଜାନ",
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତି",
+"explanation": "ଖାଦ୍ୟ ଶରୀରକୁ ଶକ୍ତି ଓ ଅନ୍ୟାନ୍ୟ ପୋଷକ ଯୋଗାଏ।"
+},
+{
+"questionEnglish": "Where does photosynthesis occur in plants?",
+"questionOdia": "ଉଦ୍ଭିଦରେ ଆଲୋକଶ୍ଳେଷଣ କେଉଁଠାରେ ହୁଏ?",
+"options": [
+"ପତ୍ର",
+"ଚେର",
+"ଫୁଲ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପତ୍ର",
+"explanation": "ପତ୍ରରେ କ୍ଲୋରୋଫିଲ୍ ଥିବାରୁ ସେଠାରେ ଆଲୋକଶ୍ଳେଷଣ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the importance of light in photosynthesis?",
+"questionOdia": "ଆଲୋକଶ୍ଳେଷଣରେ ଆଲୋକର ମହତ୍ତ୍ୱ କଣ?",
+"options": [
+"ଶକ୍ତି ଯୋଗାଏ",
+"କିଛି ନୁହେଁ",
+"ଜଳ ସୋଷଣ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତି ଯୋଗାଏ",
+"explanation": "ଆଲୋକ ଶକ୍ତି ବ୍ୟବହାର କରି ଉଦ୍ଭିଦ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଓ ଜଳକୁ ଖାଦ୍ୟରେ ପରିଣତ କରେ।"
+},
+{
+"questionEnglish": "What is the product of anaerobic respiration in muscles?",
+"questionOdia": "ପେଶୀରେ ଅବାୟୁ ଶ୍ଵସନ ଦ୍ଵାରା କଣ ତିଆରି ହୁଏ?",
+"options": [
+"ଲାକ୍ଟିକ୍ ଏସିଡ୍",
+"ଗ୍ଲୁକୋଜ୍",
+"ଇଥାନଲ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଲାକ୍ଟିକ୍ ଏସିଡ୍",
+"explanation": "ଅକ୍ସିଜେନ୍ ଅଭାବରେ ପେଶୀରେ ଲାକ୍ଟିକ୍ ଏସିଡ୍ ଜମା ହୁଏ, ଯାହା ଦରଜ କରେ।"
+},
+{
+"questionEnglish": "Which organ secretes digestive enzymes?",
+"questionOdia": "କେଉଁ ଅଙ୍ଗ ପାଚନ ଏଞ୍ଜାଇମ୍ ନିର୍ଗତ କରେ?",
+"options": [
+"ଅଗ୍ନାଶୟ",
+"ଫୁସଫୁସ",
+"ହୃତ୍‌ପିଣ୍ଡ",
+"ବୃକ୍କ"
+],
+"answer": "ଅଗ୍ନାଶୟ",
+"explanation": "ଅଗ୍ନାଶୟ ପାଚନ ଏଞ୍ଜାଇମ୍ ଗୁଡ଼ିକ ତିଆରି କରି କ୍ଷୁଦ୍ରାନ୍ତ୍ରକୁ ପଠାଏ।"
+},
+{
+"questionEnglish": "What is meant by ingestion?",
+"questionOdia": "ଖାଦ୍ୟ ଗ୍ରହଣ (Ingestion) କଣ?",
+"options": [
+"ଖାଦ୍ୟ ଶରୀର ଭିତରକୁ ନେବା",
+"ଖାଦ୍ୟ ହଜମ କରିବା",
+"ଶକ୍ତି ପାଇବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ଶରୀର ଭିତରକୁ ନେବା",
+"explanation": "ଖାଦ୍ୟକୁ ପାଟି ଦେଇ ଶରୀର ଭିତରକୁ ନେବାକୁ ଖାଦ୍ୟ ଗ୍ରହଣ କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "What is the function of teeth?",
+"questionOdia": "ଦାନ୍ତର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ଖାଦ୍ୟ ପେଷିବା",
+"ସ୍ଵାଦ ବାରିବା",
+"ଖାଦ୍ୟ ଗିଳିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ପେଷିବା",
+"explanation": "ଦାନ୍ତ ଖାଦ୍ୟକୁ ଛୋଟ ଛୋଟ ଅଂଶରେ କାଟି ପେଷିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Where are nutrients absorbed in the human body?",
+"questionOdia": "ମଣିଷ ଶରୀରରେ ପୋଷକ କେଉଁଠାରେ ଶୋଷିତ ହୁଏ?",
+"options": [
+"କ୍ଷୁଦ୍ରାନ୍ତ୍ର",
+"ଆମାଶୟ",
+"ବୃହଦନ୍ତ୍ର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କ୍ଷୁଦ୍ରାନ୍ତ୍ର",
+"explanation": "କ୍ଷୁଦ୍ରାନ୍ତ୍ରର ଭିଲି ମାଧ୍ୟମରେ ସବୁ ପୋଷକ ରକ୍ତକୁ ଯାଇ ଶରୀରର ସବୁ ଅଙ୍ଗକୁ ଯାଏ।"
+},
+{
+"questionEnglish": "What is the use of water in the body?",
+"questionOdia": "ଶରୀରରେ ଜଳର ବ୍ୟବହାର କଣ?",
+"options": [
+"ପୋଷକ ପରିବହନ ଓ ଶରୀର ତାପମାତ୍ରା ନିୟନ୍ତ୍ରଣ",
+"କେବଳ ଖେଳିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପୋଷକ ପରିବହନ ଓ ଶରୀର ତାପମାତ୍ରା ନିୟନ୍ତ୍ରଣ",
+"explanation": "ଜଳ ଶରୀରର ସମସ୍ତ ଜୈବ ପ୍ରକ୍ରିୟା ପାଇଁ ଅତ୍ୟାବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "What do all living things need?",
+"questionOdia": "ସମସ୍ତ ଜୀବଙ୍କର କଣ ଦରକାର?",
+"options": [
+"ଖାଦ୍ୟ",
+"ପ୍ଲାଷ୍ଟିକ",
+"କାଚ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ",
+"explanation": "ଖାଦ୍ୟ ଶକ୍ତି ଓ ବୃଦ୍ଧି ପାଇଁ ପ୍ରତ୍ୟେକ ଜୀବଙ୍କ ପାଇଁ ଦରକାର।"
+},
+{
+"questionEnglish": "What is the process of breaking down food into smaller particles called?",
+"questionOdia": "ଖାଦ୍ୟକୁ ଛୋଟ ଅଂଶରେ ଭାଙ୍ଗିବାର ପ୍ରକ୍ରିୟାକୁ କଣ କୁହନ୍ତି?",
+"options": [
+"ପାଚନ",
+"ଶ୍ଵସନ",
+"ରେଚନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପାଚନ",
+"explanation": "ଜଟିଳ ଖାଦ୍ୟକୁ ସରଳ ରୂପରେ ଭାଙ୍ଗିବାକୁ ପାଚନ କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "Which part of the digestive system secretes bile?",
+"questionOdia": "ପାଚନ ତନ୍ତ୍ରର କେଉଁ ଅଙ୍ଗ ପିତ୍ତ ନିର୍ଗତ କରେ?",
+"options": [
+"ଯକୃତ",
+"ଫୁସଫୁସ",
+"ମସ୍ତିଷ୍କ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଯକୃତ",
+"explanation": "ଯକୃତ ପିତ୍ତ ପ୍ରସ୍ତୁତ କରି ପିତ୍ତାଶୟରେ ସାଇତି ରଖେ।"
+},
+{
+"questionEnglish": "What is the role of saliva in digestion?",
+"questionOdia": "ହଜମ ପ୍ରକ୍ରିୟାରେ ଲାଳର ଭୂମିକା କଣ?",
+"options": [
+"ଖାଦ୍ୟକୁ ଓଦା ଓ ସରଳ କରିବା",
+"ଖାଦ୍ୟକୁ ବିଷାକ୍ତ କରିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟକୁ ଓଦା ଓ ସରଳ କରିବା",
+"explanation": "ଲାଳ ଖାଦ୍ୟକୁ ନରମ କରି ଶ୍ଵେତସାର ହଜମରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "What are the types of nutrition?",
+"questionOdia": "ପୋଷଣର ପ୍ରକାରଭେଦ କଣ?",
+"options": [
+"ସ୍ଵପୋଷୀ ଓ ପରପୋଷୀ",
+"କେବଳ ସ୍ଵପୋଷୀ",
+"କେବଳ ପରପୋଷୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସ୍ଵପୋଷୀ ଓ ପରପୋଷୀ",
+"explanation": "ଖାଦ୍ୟ ଗ୍ରହଣ ପ୍ରଣାଳୀ ଅନୁସାରେ ପୋଷଣ ମୁଖ୍ୟତଃ ଦୁଇ ପ୍ରକାର।"
+},
+{
+"questionEnglish": "Which of these is a waste product of human body?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ମଣିଷ ଶରୀରର ବର୍ଜ୍ୟବସ୍ତୁ?",
+"options": [
+"ମଳ ଓ ମୂତ୍ର",
+"ଅମ୍ଳଜାନ",
+"ଗ୍ଲୁକୋଜ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମଳ ଓ ମୂତ୍ର",
+"explanation": "ଶରୀରରୁ ବର୍ଜ୍ୟବସ୍ତୁକୁ ବାହାର କରିବା ରେଚନ ପ୍ରକ୍ରିୟା।"
+},
+{
+"questionEnglish": "What is the function of the human heart?",
+"questionOdia": "ମଣିଷ ହୃତ୍‌ପିଣ୍ଡର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ରକ୍ତ ପମ୍ପ କରିବା",
+"ଖାଦ୍ୟ ପେଷିବା",
+"ଶ୍ଵାସ ନେବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ପମ୍ପ କରିବା",
+"explanation": "ହୃତ୍‌ପିଣ୍ଡ ସାରା ଶରୀରକୁ ରକ୍ତ ପମ୍ପ କରେ।"
+},
+{
+"questionEnglish": "Where does oxygen exchange take place?",
+"questionOdia": "ଅମ୍ଳଜାନ ବିନିମୟ କେଉଁଠାରେ ହୁଏ?",
+"options": [
+"ଫୁସଫୁସ",
+"ଯକୃତ",
+"ବୃକ୍କ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଫୁସଫୁସ",
+"explanation": "ଫୁସଫୁସରେ ରକ୍ତ ଓ ବାୟୁ ମଧ୍ୟରେ ଅମ୍ଳଜାନ ବିନିମୟ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the building block of life?",
+"questionOdia": "ଜୀବନର ଗଠନମୂଳକ ଏକକ କଣ?",
+"options": [
+"କୋଷ",
+"ଅଙ୍ଗ",
+"ତନ୍ତୁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କୋଷ",
+"explanation": "କୋଷରୁ ହିଁ ସମସ୍ତ ଜୀବ ଗଠିତ।"
+},
+{
+"questionEnglish": "What is the function of chlorophyll?",
+"questionOdia": "କ୍ଲୋରୋଫିଲ୍‌ର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ସୂର୍ଯ୍ୟାଲୋକ ଶୋଷଣ",
+"ଖାଦ୍ୟ ଶୋଷଣ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସୂର୍ଯ୍ୟାଲୋକ ଶୋଷଣ",
+"explanation": "କ୍ଲୋରୋଫିଲ୍ ସୂର୍ଯ୍ୟାଲୋକ ଶୋଷି ଖାଦ୍ୟ ତିଆରିରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Where is pepsin produced?",
+"questionOdia": "ପେପ୍ସିନ୍ କେଉଁଠାରେ ପ୍ରସ୍ତୁତ ହୁଏ?",
+"options": [
+"ଆମାଶୟ",
+"ଯକୃତ",
+"ଅଗ୍ନାଶୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଆମାଶୟ",
+"explanation": "ଆମାଶୟରୁ ପେପ୍ସିନ୍ ନିର୍ଗତ ହୋଇ ପ୍ରୋଟିନ୍ ହଜମ କରେ।"
+},
+{
+"questionEnglish": "What are proteins made of?",
+"questionOdia": "ପୁଷ୍ଟିସାର କାହାକୁ ନେଇ ତିଆରି?",
+"options": [
+"ଅମିନୋ ଏସିଡ୍",
+"ଗ୍ଲୁକୋଜ୍",
+"ସ୍ନେହସାର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମିନୋ ଏସିଡ୍",
+"explanation": "ପୁଷ୍ଟିସାରର ମୌଳିକ ଏକକ ହେଉଛି ଅମିନୋ ଏସିଡ୍।"
+},
+{
+"questionEnglish": "What is glucose?",
+"questionOdia": "ଗ୍ଲୁକୋଜ୍ କଣ?",
+"options": [
+"ଏକ ପ୍ରକାର ଶର୍କରା",
+"ଏକ ପ୍ରକାର ପ୍ରୋଟିନ୍",
+"ଏକ ପ୍ରକାର ଖଣିଜ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏକ ପ୍ରକାର ଶର୍କରା",
+"explanation": "ଗ୍ଲୁକୋଜ୍ ହେଉଛି ସରଳ ଶର୍କରା ଯାହା ଶକ୍ତି ଯୋଗାଏ।"
+},
+{
+"questionEnglish": "What is the function of teeth in humans?",
+"questionOdia": "ମଣିଷରେ ଦାନ୍ତର କାମ କଣ?",
+"options": [
+"ଖାଦ୍ୟ ଚୋବାଇବା ଓ ପେଷିବା",
+"ଖାଦ୍ୟ ଗିଳିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ଚୋବାଇବା ଓ ପେଷିବା",
+"explanation": "ଦାନ୍ତ ଖାଦ୍ୟକୁ ସରଳ କରିବାରେ ପ୍ରଥମ ସୋପାନ।"
+},
+{
+"questionEnglish": "What do plants need for photosynthesis?",
+"questionOdia": "ଆଲୋକଶ୍ଳେଷଣ ପାଇଁ ଉଦ୍ଭିଦ କଣ ଦରକାର କରେ?",
+"options": [
+"ସୂର୍ଯ୍ୟାଲୋକ, CO2, H2O",
+"କେବଳ CO2",
+"କେବଳ H2O",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସୂର୍ଯ୍ୟାଲୋକ, CO2, H2O",
+"explanation": "ଏହି ତିନୋଟି ଜିନିଷ ଆଲୋକଶ୍ଳେଷଣ ପାଇଁ ଅତ୍ୟାବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "What is the function of the stomach acid?",
+"questionOdia": "ପାକସ୍ଥଳୀ ଏସିଡର କାମ କଣ?",
+"options": [
+"ଜୀବାଣୁ ମାରିବା",
+"ଖାଦ୍ୟ ତିଆରି କରିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜୀବାଣୁ ମାରିବା",
+"explanation": "ପାକସ୍ଥଳୀ ଏସିଡ୍ ଖାଦ୍ୟ ସହ ଆସୁଥିବା ଜୀବାଣୁକୁ ମାରିଦିଏ।"
+},
+{
+"questionEnglish": "What are nutrients?",
+"questionOdia": "ପୋଷକ କଣ?",
+"options": [
+"ଶରୀର ପାଇଁ ଆବଶ୍ୟକ ପଦାର୍ଥ",
+"କିଛି ନୁହେଁ",
+"ଖାଦ୍ୟ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶରୀର ପାଇଁ ଆବଶ୍ୟକ ପଦାର୍ଥ",
+"explanation": "ପୋଷକ ଆମ ଶରୀରର ବୃଦ୍ଧି ଓ ଶକ୍ତି ପାଇଁ ଦରକାର।"
+},
+{
+"questionEnglish": "Where is excess food stored in plants?",
+"questionOdia": "ଉଦ୍ଭିଦରେ ଅତିରିକ୍ତ ଖାଦ୍ୟ କେଉଁଠାରେ ସଞ୍ଚିତ ହୁଏ?",
+"options": [
+"ଷ୍ଟାର୍ଚ (ଶ୍ଵେତସାର) ଭାବେ",
+"ଗ୍ଲୁକୋଜ୍ ଭାବେ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଷ୍ଟାର୍ଚ (ଶ୍ଵେତସାର) ଭାବେ",
+"explanation": "ଉଦ୍ଭିଦ ଖାଦ୍ୟକୁ ଷ୍ଟାର୍ଚ ରୂପେ ସଞ୍ଚୟ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Which part of the digestive tract is largest?",
+"questionOdia": "ପାଚନ ନଳୀର କେଉଁ ଅଂଶ ସବୁଠାରୁ ବଡ଼?",
+"options": [
+"କ୍ଷୁଦ୍ରାନ୍ତ୍ର",
+"ବୃହଦନ୍ତ୍ର",
+"ଆମାଶୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କ୍ଷୁଦ୍ରାନ୍ତ୍ର",
+"explanation": "କ୍ଷୁଦ୍ରାନ୍ତ୍ର ନାମରୁ ଛୋଟ ହେଲେ ବି ଲମ୍ବରେ ବହୁତ ବଡ଼।"
+},
+{
+"questionEnglish": "What is the function of the lungs?",
+"questionOdia": "ଫୁସଫୁସର କାମ କଣ?",
+"options": [
+"ଶ୍ଵାସକ୍ରିୟାରେ ସାହାଯ୍ୟ କରିବା",
+"ଖାଦ୍ୟ ପେଷିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶ୍ଵାସକ୍ରିୟାରେ ସାହାଯ୍ୟ କରିବା",
+"explanation": "ଫୁସଫୁସ ଅମ୍ଳଜାନ ଗ୍ରହଣ ଓ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ତ୍ୟାଗ କରେ।"
+},
+{
+"questionEnglish": "What is the role of the kidney?",
+"questionOdia": "ବୃକ୍କର ଭୂମିକା କଣ?",
+"options": [
+"ରକ୍ତ ଶୋଧନ କରିବା",
+"ଖାଦ୍ୟ ହଜମ କରିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ଶୋଧନ କରିବା",
+"explanation": "ବୃକ୍କ ରକ୍ତରୁ ବର୍ଜ୍ୟବସ୍ତୁ ବାହାର କରି ମୂତ୍ର ତିଆରି କରେ।"
+},
+{
+"questionEnglish": "What are the components of food?",
+"questionOdia": "ଖାଦ୍ୟର ଉପାଦାନଗୁଡ଼ିକ କଣ?",
+"options": [
+"ଶ୍ଵେତସାର, ପୁଷ୍ଟିସାର, ସ୍ନେହସାର",
+"କେବଳ ପ୍ଲାଷ୍ଟିକ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶ୍ଵେତସାର, ପୁଷ୍ଟିସାର, ସ୍ନେହସାର",
+"explanation": "ଖାଦ୍ୟରେ ମୁଖ୍ୟତଃ ଏହି ତିନୋଟି ପୋଷକ ଥାଏ।"
+},
+{
+"questionEnglish": "What is photosynthesis?",
+"questionOdia": "ଆଲୋକଶ୍ଳେଷଣ କଣ?",
+"options": [
+"ଗଛର ଖାଦ୍ୟ ତିଆରି ପ୍ରକ୍ରିୟା",
+"ଗଛର ଶ୍ଵସନ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗଛର ଖାଦ୍ୟ ତିଆରି ପ୍ରକ୍ରିୟା",
+"explanation": "ସୂର୍ଯ୍ୟାଲୋକ ଓ ପତ୍ରର କ୍ଲୋରୋଫିଲ୍ ସାହାଯ୍ୟରେ ଖାଦ୍ୟ ତିଆରି।"
+},
+{
+"questionEnglish": "What is respiration?",
+"questionOdia": "ଶ୍ଵସନ କଣ?",
+"options": [
+"ଖାଦ୍ୟରୁ ଶକ୍ତି ମିଳିବା",
+"ଖାଦ୍ୟ ଖାଇବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟରୁ ଶକ୍ତି ମିଳିବା",
+"explanation": "ଶ୍ଵସନରେ ଖାଦ୍ୟ ଦହନ ହୋଇ ଶକ୍ତି ମିଳେ।"
+},
+{
+"questionEnglish": "What is nutrition?",
+"questionOdia": "ପୋଷଣ କଣ?",
+"options": [
+"ଖାଦ୍ୟ ଗ୍ରହଣ ଓ ବ୍ୟବହାର",
+"କେବଳ ଖାଇବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ଗ୍ରହଣ ଓ ବ୍ୟବହାର",
+"explanation": "ଶରୀର ପାଇଁ ଖାଦ୍ୟ ବ୍ୟବହାର କରିବା ପୋଷଣ।"
+},
+{
+"questionEnglish": "What is the function of the mouth?",
+"questionOdia": "ପାଟିର କାମ କଣ?",
+"options": [
+"ଖାଦ୍ୟ ଗ୍ରହଣ ଓ ଚୋବାଇବା",
+"କେବଳ କଥା କହିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ଗ୍ରହଣ ଓ ଚୋବାଇବା",
+"explanation": "ଖାଦ୍ୟର ପ୍ରଥମ ସ୍ଥାନ ହେଉଛି ପାଟି।"
+},
+{
+"questionEnglish": "What is the function of the stomach?",
+"questionOdia": "ଆମାଶୟର କାମ କଣ?",
+"options": [
+"ଖାଦ୍ୟ ହଜମ କରିବା",
+"ଖାଦ୍ୟ ସଞ୍ଚୟ କରିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ହଜମ କରିବା",
+"explanation": "ଆମାଶୟରେ ଖାଦ୍ୟ ହଜମ ପାଇଁ ଏସିଡ୍ ଓ ଏଞ୍ଜାଇମ୍ ଥାଏ।"
+},
+{
+"questionEnglish": "What is the importance of blood?",
+"questionOdia": "ରକ୍ତର ଗୁରୁତ୍ୱ କଣ?",
+"options": [
+"ପୋଷକ ଓ ଅମ୍ଳଜାନ ପରିବହନ",
+"କିଛି ନୁହେଁ",
+"ରଙ୍ଗ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପୋଷକ ଓ ଅମ୍ଳଜାନ ପରିବହନ",
+"explanation": "ରକ୍ତ ଶରୀରର ସବୁ ଅଂଶକୁ ପୋଷକ ପହଞ୍ଚାଏ।"
+},
+{
+"questionEnglish": "What is a cell?",
+"questionOdia": "କୋଷ କଣ?",
+"options": [
+"ଜୀବର ଗଠନମୂଳକ ଏକକ",
+"କିଛି ନୁହେଁ",
+"କାଚର ଏକ ଖଣ୍ଡ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜୀବର ଗଠନମୂଳକ ଏକକ",
+"explanation": "କୋଷରୁ ହିଁ ସବୁ ଜୀବ ଗଢ଼ା।"
+},
+{
+"questionEnglish": "What is the function of oxygen?",
+"questionOdia": "ଅମ୍ଳଜାନର କାମ କଣ?",
+"options": [
+"ଶକ୍ତି ଉତ୍ପାଦନରେ ସାହାଯ୍ୟ",
+"କିଛି ନୁହେଁ",
+"ଖାଇବା ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତି ଉତ୍ପାଦନରେ ସାହାଯ୍ୟ",
+"explanation": "ଶ୍ଵସନ ପ୍ରକ୍ରିୟାରେ ଶକ୍ତି ଉତ୍ପାଦନ ପାଇଁ ଅମ୍ଳଜାନ ଦରକାର।"
+},
+{
+"questionEnglish": "What is an organ?",
+"questionOdia": "ଅଙ୍ଗ କଣ?",
+"options": [
+"କୋଷ ସମୂହରୁ ଗଠିତ ଶରୀରର ଅଂଶ",
+"କିଛି ନୁହେଁ",
+"ଗୋଟିଏ କୋଷ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କୋଷ ସମୂହରୁ ଗଠିତ ଶରୀରର ଅଂଶ",
+"explanation": "ଅନେକ କୋଷ ମିଶି ଅଙ୍ଗ ତିଆରି କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is the process of exhalation?",
+"questionOdia": "ନିଃଶ୍ଵାସ ପ୍ରକ୍ରିୟା କଣ?",
+"options": [
+"ବାୟୁ ବାହାର କରିବା",
+"ବାୟୁ ନେବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାୟୁ ବାହାର କରିବା",
+"explanation": "ଶ୍ଵାସକ୍ରିୟାରେ ବାୟୁ ବାହାର କରିବାକୁ ନିଃଶ୍ଵାସ କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "What is the process of inhalation?",
+"questionOdia": "ଅମ୍ଳଜାନ ଗ୍ରହଣ ପ୍ରକ୍ରିୟା କଣ?",
+"options": [
+"ବାୟୁ ଭିତରକୁ ନେବା",
+"ବାୟୁ ବାହାର କରିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାୟୁ ଭିତରକୁ ନେବା",
+"explanation": "ଶ୍ଵାସକ୍ରିୟାରେ ବାୟୁ ଭିତରକୁ ନେବାକୁ ଶ୍ଵାସ କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "What is the role of kidneys?",
+"questionOdia": "ବୃକ୍କର ଭୂମିକା କଣ?",
+"options": [
+"ମୂତ୍ର ତିଆରି କରିବା",
+"ଖାଦ୍ୟ ତିଆରି କରିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମୂତ୍ର ତିଆରି କରିବା",
+"explanation": "ବୃକ୍କ ରକ୍ତକୁ ଛାଣି ମୂତ୍ର ତିଆରି କରେ।"
+},
+{
+"questionEnglish": "What are nutrients used for?",
+"questionOdia": "ପୋଷକ କାହା ପାଇଁ ବ୍ୟବହାର ହୁଏ?",
+"options": [
+"ଶକ୍ତି ଓ ବୃଦ୍ଧି ପାଇଁ",
+"କିଛି ନୁହେଁ",
+"ଦେଖିବା ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତି ଓ ବୃଦ୍ଧି ପାଇଁ",
+"explanation": "ପୋଷକ ଶରୀରର ବିଭିନ୍ନ କାର୍ଯ୍ୟ ପାଇଁ ଦରକାର।"
+},
+{
+"questionEnglish": "What is the digestive tract?",
+"questionOdia": "ପାଚନ ନଳୀ କଣ?",
+"options": [
+"ଖାଦ୍ୟ ଯାଉଥିବା ନଳୀ",
+"ଶ୍ଵାସ ନଳୀ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ଯାଉଥିବା ନଳୀ",
+"explanation": "ପାଟିରୁ ମଳଦ୍ଵାର ପର୍ଯ୍ୟନ୍ତ ନଳୀକୁ ପାଚନ ନଳୀ କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "What is bile?",
+"questionOdia": "ପିତ୍ତ କଣ?",
+"options": [
+"ଯକୃତର ରସ",
+"ପାକସ୍ଥଳୀର ରସ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଯକୃତର ରସ",
+"explanation": "ପିତ୍ତ ଯକୃତରୁ କ୍ଷରିତ ଏକ ରସ ଯାହା ଫ୍ୟାଟ ହଜମ କରେ।"
+},
+{
+"questionEnglish": "What is the purpose of digestion?",
+"questionOdia": "ହଜମର ଉଦ୍ଦେଶ୍ୟ କଣ?",
+"options": [
+"ଖାଦ୍ୟକୁ ସରଳ କରିବା",
+"ଖାଦ୍ୟ ନଷ୍ଟ କରିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟକୁ ସରଳ କରିବା",
+"explanation": "ଖାଦ୍ୟକୁ ସରଳ କଲେ ହିଁ ଶରୀର ଶୋଷିପାରିବ।"
+},
+{
+"questionEnglish": "What are the nutrients in carbohydrates?",
+"questionOdia": "ଶ୍ଵେତସାରର ଉପାଦାନ କଣ?",
+"options": [
+"ଗ୍ଲୁକୋଜ୍",
+"ପ୍ରୋଟିନ୍",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗ୍ଲୁକୋଜ୍",
+"explanation": "ଶ୍ଵେତସାର ଭାଙ୍ଗି ଗ୍ଲୁକୋଜ୍ ମିଳେ।"
+},
+{
+"questionEnglish": "What is the cell membrane?",
+"questionOdia": "କୋଷାବରଣ କଣ?",
+"options": [
+"କୋଷର ବାହାର ଆବରଣ",
+"କୋଷର ଭିତର ଅଂଶ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କୋଷର ବାହାର ଆବରଣ",
+"explanation": "କୋଷାବରଣ କୋଷକୁ ସୁରକ୍ଷା ଦିଏ।"
+},
+{
+"questionEnglish": "What is a tissue?",
+"questionOdia": "ତନ୍ତୁ (Tissue) କଣ?",
+"options": [
+"କୋଷ ସମୂହ",
+"କୋଷ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କୋଷ ସମୂହ",
+"explanation": "ସମାନ କାମ କରୁଥିବା କୋଷ ସମୂହକୁ ତନ୍ତୁ କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "What is an organ system?",
+"questionOdia": "ତନ୍ତ୍ର କଣ?",
+"options": [
+"ଅଙ୍ଗ ସମୂହର କାର୍ଯ୍ୟ",
+"ଗୋଟିଏ ଅଙ୍ଗ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅଙ୍ଗ ସମୂହର କାର୍ଯ୍ୟ",
+"explanation": "ଅନେକ ଅଙ୍ଗ ମିଶି ଗୋଟିଏ କାମ କରିବାକୁ ତନ୍ତ୍ର କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "What is the function of the oesophagus?",
+"questionOdia": "ଗ୍ରସନଳୀର କାମ କଣ?",
+"options": [
+"ଖାଦ୍ୟ ପହଞ୍ଚାଇବା",
+"ଖାଦ୍ୟ ହଜମ କରିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ପହଞ୍ଚାଇବା",
+"explanation": "ଗ୍ରସନଳୀ ଖାଦ୍ୟକୁ ପାକସ୍ଥଳୀକୁ ନେଇଯାଏ।"
+},
+{
+"questionEnglish": "What is the role of hydrochloric acid?",
+"questionOdia": "ହାଇଡ୍ରୋକ୍ଲୋରିକ୍ ଏସିଡର କାମ କଣ?",
+"options": [
+"ଜୀବାଣୁ ନାଶ",
+"ଖାଦ୍ୟ ପ୍ରସ୍ତୁତି",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜୀବାଣୁ ନାଶ",
+"explanation": "ଏସିଡ୍ ଖାଦ୍ୟର ଜୀବାଣୁ ମାରିଦିଏ।"
+},
+{
+"questionEnglish": "What is the end product of protein digestion?",
+"questionOdia": "ପ୍ରୋଟିନ୍ ହଜମର ଶେଷ ଫଳ କଣ?",
+"options": [
+"ଅମିନୋ ଏସିଡ୍",
+"ଗ୍ଲୁକୋଜ୍",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମିନୋ ଏସିଡ୍",
+"explanation": "ପ୍ରୋଟିନ୍ ଭାଙ୍ଗି ଅମିନୋ ଏସିଡ୍ ହୁଏ।"
+}
 ]
