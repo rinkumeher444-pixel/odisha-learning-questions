@@ -1,122 +1,1094 @@
 [
-  {
-    "questionEnglish": "Which of the following is a non-renewable source of energy?",
-    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଅକ୍ଷୟ ବା ଅନବୀକରଣଯୋଗ୍ୟ ଶକ୍ତିର ଉତ୍ସ?",
-    "options": [
-      "Coal",
-      "Solar energy",
-      "Wind energy",
-      "Hydroelectric energy"
-    ],
-    "answer": "Coal",
-    "explanation": "Coal is a fossil fuel that takes millions of years to form and cannot be replenished quickly once depleted, making it a non-renewable energy source."
-  },
-  {
-    "questionEnglish": "What is the main component of Bio-gas?",
-    "questionOdia": "ବାୟୋ-ଗ୍ୟାସ୍ (Bio-gas) ର ମୁଖ୍ୟ ଉପାଦାନ କଣ?",
-    "options": [
-      "Methane",
-      "Ethane",
-      "Propane",
-      "Butane"
-    ],
-    "answer": "Methane",
-    "explanation": "Bio-gas is produced by the anaerobic decomposition of organic matter and contains up to 75% Methane (CH4), making it an excellent fuel."
-  },
-  {
-    "questionEnglish": "Which semiconductor material is most commonly used to make solar cells?",
-    "questionOdia": "ସୌର ସେଲ୍ (Solar Cells) ତିଆରି କରିବା ପାଇଁ ସାଧାରଣତଃ କେଉଁ ଅର୍ଦ୍ଧପରିବାହୀ ପଦାର୍ଥ ବ୍ୟବହାର କରାଯାଏ?",
-    "options": [
-      "Silicon",
-      "Copper",
-      "Aluminum",
-      "Carbon"
-    ],
-    "answer": "Silicon",
-    "explanation": "Silicon is widely used because of its abundance and favorable semiconductor properties that allow efficient conversion of sunlight into electricity."
-  },
-  {
-    "questionEnglish": "What minimum wind speed is required for a wind mill to generate electricity efficiently?",
-    "questionOdia": "ଏକ ପବନ ଚକିରୁ ଦକ୍ଷତାର ସହ ବିଦ୍ୟୁତ୍ ଶକ୍ତି ଉତ୍ପାଦନ କରିବା ପାଇଁ ପବନର ସର୍ବନିମ୍ନ ବେଗ କେତେ ହେବା ଆବଶ୍ୟକ?",
-    "options": [
-      "15 km/h",
-      "5 km/h",
-      "25 km/h",
-      "50 km/h"
-    ],
-    "answer": "15 km/h",
-    "explanation": "To maintain the required speed of the turbine for electricity generation, the wind speed should be higher than 15 km/h."
-  },
-  {
-    "questionEnglish": "The energy harnessed from the heat trapped inside the earth is called?",
-    "questionOdia": "ଭୂ-ଗର୍ଭରେ ସଞ୍ଚିତ ହୋଇ ରହିଥିବା ଉତ୍ତାପରୁ ମିଳୁଥିବା ଶକ୍ତିକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Geothermal energy",
-      "Nuclear energy",
-      "Ocean thermal energy",
-      "Biomass"
-    ],
-    "answer": "Geothermal energy",
-    "explanation": "Geothermal energy is the thermal energy generated and stored inside the Earth, which can be extracted via hot springs or deep drilling."
-  },
-  {
-    "questionEnglish": "Which greenhouse gas is mainly responsible for global warming caused by burning fossil fuels?",
-    "questionOdia": "ଜୀବାଶ୍ମ ଜାଳେଣି ଦହନ ଯୋଗୁଁ ସୃଷ୍ଟି ହେଉଥିବା ଗ୍ଲୋବାଲ୍ ୱାର୍ମିଂ ପାଇଁ ମୁଖ୍ୟତଃ କେଉଁ ଗ୍ରୀନହାଉସ୍ ଗ୍ୟାସ୍ ଦାୟୀ?",
-    "options": [
-      "Carbon dioxide",
-      "Oxygen",
-      "Nitrogen",
-      "Argon"
-    ],
-    "answer": "Carbon dioxide",
-    "explanation": "The combustion of fossil fuels releases large quantities of Carbon dioxide (CO2), which traps heat in the atmosphere and leads to global warming."
-  },
-  {
-    "questionEnglish": "What type of nuclear reaction takes place in a commercial nuclear power plant to generate electricity?",
-    "questionOdia": "ବିଦ୍ୟୁତ୍ ଉତ୍ପାଦନ ପାଇଁ ପରମାଣୁ ଶକ୍ତି କେନ୍ଦ୍ରଗୁଡ଼ିକରେ କେଉଁ ପ୍ରକାରର ନ୍ୟୁକ୍ଲିୟର ପ୍ରତିକ୍ରିୟା ବ୍ୟବହାର କରାଯାଏ?",
-    "options": [
-      "Nuclear fission",
-      "Nuclear fusion",
-      "Spontaneous combustion",
-      "Chemical oxidation"
-    ],
-    "answer": "Nuclear fission",
-    "explanation": "Nuclear reactors use controlled nuclear fission, where a heavy nucleus (like Uranium-235) is split into lighter nuclei, releasing a massive amount of energy."
-  },
-  {
-    "questionEnglish": "The power stations that convert the potential energy of falling water into electrical energy are called?",
-    "questionOdia": "ଉପରୁ ପଡୁଥିବା ଜଳର ସ୍ଥିତିଜ ଶକ୍ତିକୁ ବୈଦ୍ୟୁତିକ ଶକ୍ତିରେ ରୂପାନ୍ତରିତ କରୁଥିବା ଶକ୍ତି କେନ୍ଦ୍ରକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Hydro power plants",
-      "Thermal power plants",
-      "Nuclear power plants",
-      "Wind farms"
-    ],
-    "answer": "Hydro power plants",
-    "explanation": "Hydro power plants utilize the kinetic energy of flowing or falling water from dams to rotate turbines and generate electricity."
-  },
-  {
-    "questionEnglish": "Which country is popularly known as the 'Country of Winds'?",
-    "questionOdia": "କେଉଁ ଦେଶକୁ ସାଧାରଣତଃ 'ପବନର ଦେଶ' (Country of Winds) ବୋଲି କୁହାଯାଏ?",
-    "options": [
-      "Denmark",
-      "India",
-      "USA",
-      "Germany"
-    ],
-    "answer": "Denmark",
-    "explanation": "Denmark is called the 'Country of Winds' because it meets a major portion (over 40%) of its total electrical energy needs through wind energy networks."
-  },
-  {
-    "questionEnglish": "What is the primary disadvantage of using nuclear energy?",
-    "questionOdia": "ପରମାଣୁ ଶକ୍ତି (Nuclear Energy) ବ୍ୟବହାର କରିବାର ମୁଖ୍ୟ ଅସୁବିଧା କଣ?",
-    "options": [
-      "Safe disposal of radioactive waste",
-      "High air pollution",
-      "Low efficiency",
-      "Intermittent availability"
-    ],
-    "answer": "Safe disposal of radioactive waste",
-    "explanation": "The spent fuel elements continue to emit highly harmful radiations, making safe storage and disposal of radioactive waste a major environmental challenge."
-  }
+{
+"questionEnglish": "What is the primary source of energy for most of our needs?",
+"questionOdia": "ଅଧିକାଂଶ ଆବଶ୍ୟକତା ପାଇଁ ଶକ୍ତିର ମୂଳ ଉତ୍ସ କଣ?",
+"options": [
+"ସୂର୍ଯ୍ୟ",
+"କୋଇଲା",
+"ପେଟ୍ରୋଲ",
+"ବିଦ୍ୟୁତ"
+],
+"answer": "ସୂର୍ଯ୍ୟ",
+"explanation": "ସୂର୍ଯ୍ୟ ହେଉଛି ପୃଥିବୀରେ ସମସ୍ତ ଶକ୍ତିର ପ୍ରାଥମିକ ଓ ମୁଖ୍ୟ ଉତ୍ସ।"
+},
+{
+"questionEnglish": "Which of the following is a renewable source of energy?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଅକ୍ଷୟ ଶକ୍ତି (Renewable source) ଅଟେ?",
+"options": [
+"କୋଇଲା",
+"ପେଟ୍ରୋଲିୟମ୍",
+"ସୌର ଶକ୍ତି",
+"ପ୍ରାକୃତିକ ଗ୍ୟାସ"
+],
+"answer": "ସୌର ଶକ୍ତି",
+"explanation": "ସୌର ଶକ୍ତି କେବେ ଶେଷ ହେବ ନାହିଁ, ତେଣୁ ଏହା ଅକ୍ଷୟ ଶକ୍ତି ଅଟେ।"
+},
+{
+"questionEnglish": "Which of these is a non-renewable source of energy?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଅଣ-ନବୀକରଣ ଯୋଗ୍ୟ ଶକ୍ତି (Non-renewable source) ଅଟେ?",
+"options": [
+"ପବନ ଶକ୍ତି",
+"ଜଳ ବିଦ୍ୟୁତ",
+"କୋଇଲା",
+"ବାୟୋଗ୍ୟାସ"
+],
+"answer": "କୋଇଲା",
+"explanation": "କୋଇଲା ଏକ ଥର ବ୍ୟବହାର କଲେ ସରିଯାଏ ଏବଂ ଏହାକୁ ପୁନଃ ସୃଷ୍ଟି କରିବା ପାଇଁ ହଜାର ହଜାର ବର୍ଷ ଲାଗେ।"
+},
+{
+"questionEnglish": "What type of energy is obtained from hot springs?",
+"questionOdia": "ଉଷ୍ଣ ପ୍ରସ୍ରବଣରୁ କି ପ୍ରକାର ଶକ୍ତି ମିଳିଥାଏ?",
+"options": [
+"ସୌର ଶକ୍ତି",
+"ଭୂ-ତାପଜ ଶକ୍ତି (Geothermal energy)",
+"ପବନ ଶକ୍ତି",
+"ଆଣବିକ ଶକ୍ତି"
+],
+"answer": "ଭୂ-ତାପଜ ଶକ୍ତି (Geothermal energy)",
+"explanation": "ପୃଥିବୀର ଅଭ୍ୟନ୍ତରରେ ଥିବା ଉତ୍ତାପକୁ ବ୍ୟବହାର କରି ଯେଉଁ ଶକ୍ତି ମିଳେ, ତାହାକୁ ଭୂ-ତାପଜ ଶକ୍ତି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the main component of Biogas?",
+"questionOdia": "ବାୟୋଗ୍ୟାସର ମୁଖ୍ୟ ଉପାଦାନ କଣ?",
+"options": [
+"ଇଥେନ୍",
+"ମିଥେନ୍",
+"ବ୍ୟୁଟେନ୍",
+"ପ୍ରୋପେନ୍"
+],
+"answer": "ମିଥେନ୍",
+"explanation": "ବାୟୋଗ୍ୟାସରେ ପ୍ରାୟ 75% ପର୍ଯ୍ୟନ୍ତ ମିଥେନ୍ ଗ୍ୟାସ ଥାଏ, ଯାହା ଭଲ ଜାଳେଣି ଭାବେ କାମ କରେ।"
+},
+{
+"questionEnglish": "Which is a clean source of energy?",
+"questionOdia": "କେଉଁଟି ଏକ ପରିଷ୍କାର ବା ପ୍ରଦୂଷଣମୁକ୍ତ ଶକ୍ତି ଉତ୍ସ?",
+"options": [
+"କୋଇଲା",
+"ପେଟ୍ରୋଲ",
+"ସୌର ଶକ୍ତି",
+"କାଠ"
+],
+"answer": "ସୌର ଶକ୍ତି",
+"explanation": "ସୌର ଶକ୍ତି ବ୍ୟବହାର କରିବା ଦ୍ଵାରା କୌଣସି ପ୍ରଦୂଷଣ ସୃଷ୍ଟି ହୁଏ ନାହିଁ।"
+},
+{
+"questionEnglish": "How does a solar cell convert energy?",
+"questionOdia": "ସୌର କୋଷ କିପରି ଶକ୍ତି ରୂପାନ୍ତର କରେ?",
+"options": [
+"ତାପ ଶକ୍ତିକୁ ବିଦ୍ୟୁତ ଶକ୍ତିରେ",
+"ଆଲୋକ ଶକ୍ତିକୁ ବିଦ୍ୟୁତ ଶକ୍ତିରେ",
+"ରାସାୟନିକ ଶକ୍ତିକୁ ବିଦ୍ୟୁତ ଶକ୍ତିରେ",
+"ଯାନ୍ତ୍ରିକ ଶକ୍ତିକୁ ବିଦ୍ୟୁତ ଶକ୍ତିରେ"
+],
+"answer": "ଆଲୋକ ଶକ୍ତିକୁ ବିଦ୍ୟୁତ ଶକ୍ତିରେ",
+"explanation": "ସୌର କୋଷ ସୂର୍ଯ୍ୟରୁ ଆସୁଥିବା ଆଲୋକ ଶକ୍ତିକୁ ସିଧାସଳଖ ବିଦ୍ୟୁତ ଶକ୍ତିରେ ପରିଣତ କରେ।"
+},
+{
+"questionEnglish": "What material is mainly used to make solar cells?",
+"questionOdia": "ସୌର କୋଷ ତିଆରି କରିବା ପାଇଁ ମୁଖ୍ୟତଃ କେଉଁ ପଦାର୍ଥ ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ଲୁହା",
+"ତମ୍ବା",
+"ସିଲିକନ୍",
+"ଆଲୁମିନିୟମ୍"
+],
+"answer": "ସିଲିକନ୍",
+"explanation": "ସିଲିକନ୍ ହେଉଛି ସୌର କୋଷ ତିଆରି ପାଇଁ ବ୍ୟବହୃତ ମୁଖ୍ୟ ଅର୍ଦ୍ଧପରିବାହୀ ପଦାର୍ଥ।"
+},
+{
+"questionEnglish": "What does a windmill convert?",
+"questionOdia": "ପବନ କଳ (Windmill) କେଉଁ ଶକ୍ତିକୁ ରୂପାନ୍ତର କରେ?",
+"options": [
+"ଗତିଜ ଶକ୍ତିକୁ ଯାନ୍ତ୍ରିକ ଶକ୍ତିରେ",
+"ତାପ ଶକ୍ତିକୁ ଗତିଜ ଶକ୍ତିରେ",
+"ବିଦ୍ୟୁତ ଶକ୍ତିକୁ ଆଲୋକ ଶକ୍ତିରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗତିଜ ଶକ୍ତିକୁ ଯାନ୍ତ୍ରିକ ଶକ୍ତିରେ",
+"explanation": "ବହି ଯାଉଥିବା ବାୟୁର ଗତିଜ ଶକ୍ତି ପବନ କଳର ପଙ୍ଖାକୁ ଘୁରାଏ, ଯାହା ଯାନ୍ତ୍ରିକ କାର୍ଯ୍ୟରେ ଲାଗେ।"
+},
+{
+"questionEnglish": "What is the source of energy in stars?",
+"questionOdia": "ତାରାମାନଙ୍କରେ ଶକ୍ତିର ଉତ୍ସ କଣ?",
+"options": [
+"ନ୍ୟଷ୍ଟିୟ ବିଖଣ୍ଡନ",
+"ନ୍ୟଷ୍ଟିୟ ସଂଯୋଜନ (Nuclear fusion)",
+"ରାସାୟନିକ ଦହନ",
+"ଘର୍ଷଣ"
+],
+"answer": "ନ୍ୟଷ୍ଟିୟ ସଂଯୋଜନ (Nuclear fusion)",
+"explanation": "ତାରାମାନଙ୍କରେ ହାଇଡ୍ରୋଜେନ୍ ପରମାଣୁ ମିଶି ହେଲିୟମ୍ ସୃଷ୍ଟି କରିବା ସମୟରେ ପ୍ରଚୁର ଶକ୍ତି ନିର୍ଗତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which device is used for heating water using solar energy?",
+"questionOdia": "ସୌର ଶକ୍ତି ବ୍ୟବହାର କରି ପାଣି ଗରମ କରିବା ପାଇଁ କେଉଁ ଉପକରଣ ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ସୌର କୁକର",
+"ସୌର ହିଟର (Solar water heater)",
+"ସୌର ପ୍ୟାନେଲ",
+"ସୌର ଲ୍ୟାମ୍ପ"
+],
+"answer": "ସୌର ହିଟର (Solar water heater)",
+"explanation": "ସୌର ହିଟରରେ ସୂର୍ଯ୍ୟ ରଶ୍ମିକୁ ବ୍ୟବହାର କରି ପାଣିକୁ ଗରମ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is the major limitation of using solar energy?",
+"questionOdia": "ସୌର ଶକ୍ତି ବ୍ୟବହାର କରିବାର ପ୍ରମୁଖ ଅସୁବିଧା କଣ?",
+"options": [
+"ଏହା ବହୁତ ମହଙ୍ଗା",
+"ଏହା କେବଳ ଦିନରେ ଓ ପାଗ ସଫା ଥିଲେ ମିଳିଥାଏ",
+"ଏହା ପ୍ରଦୂଷଣ କରେ",
+"ଏହା ବିପଜ୍ଜନକ"
+],
+"answer": "ଏହା କେବଳ ଦିନରେ ଓ ପାଗ ସଫା ଥିଲେ ମିଳିଥାଏ",
+"explanation": "ରାତିରେ ବା ବର୍ଷା ଦିନେ ସୌର ଶକ୍ତି ଉତ୍ପାଦନ କରିବା କଷ୍ଟସାଧ୍ୟ।"
+},
+{
+"questionEnglish": "What are fossil fuels?",
+"questionOdia": "ଜୀବାଶ୍ମ ଇନ୍ଧନ (Fossil fuels) କଣ?",
+"options": [
+"ସୂର୍ଯ୍ୟରୁ ମିଳୁଥିବା ଶକ୍ତି",
+"ପ୍ରାଚୀନ ଜୀବଙ୍କ ଅବଶେଷରୁ ମିଳୁଥିବା ଇନ୍ଧନ",
+"ଜଳରୁ ମିଳୁଥିବା ଶକ୍ତି",
+"ପବନରୁ ମିଳୁଥିବା ଶକ୍ତି"
+],
+"answer": "ପ୍ରାଚୀନ ଜୀବଙ୍କ ଅବଶେଷରୁ ମିଳୁଥିବା ଇନ୍ଧନ",
+"explanation": "କୋଇଲା, ପେଟ୍ରୋଲିୟମ୍ ଓ ପ୍ରାକୃତିକ ଗ୍ୟାସ୍ ପ୍ରାଚୀନ ଜୀବଙ୍କ ଅବଶେଷରୁ ସୃଷ୍ଟି ହୋଇଥିବାରୁ ଏହାକୁ ଜୀବାଶ୍ମ ଇନ୍ଧନ କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "What gas causes global warming?",
+"questionOdia": "କେଉଁ ଗ୍ୟାସ୍ ବିଶ୍ଵତାପନ (Global warming) ପାଇଁ ଦାୟୀ?",
+"options": [
+"ଅମ୍ଳଜାନ",
+"ନାଇଟ୍ରୋଜେନ୍",
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"ହାଇଡ୍ରୋଜେନ୍"
+],
+"answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"explanation": "ଜୀବାଶ୍ମ ଇନ୍ଧନ ଜଳିବା ଫଳରେ ଅତ୍ୟଧିକ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ବାୟୁମଣ୍ଡଳକୁ ଆସି ବିଶ୍ଵତାପନ ବଢ଼ାଏ।"
+},
+{
+"questionEnglish": "Which of the following is a source of energy for nuclear reactors?",
+"questionOdia": "ଆଣବିକ ରିଆକ୍ଟର ପାଇଁ କେଉଁଟି ଶକ୍ତିର ଉତ୍ସ?",
+"options": [
+"ୟୁରାନିୟମ୍",
+"କୋଇଲା",
+"କାଠ",
+"ପେଟ୍ରୋଲ"
+],
+"answer": "ୟୁରାନିୟମ୍",
+"explanation": "ୟୁରାନିୟମ୍ ପରି ଭାରୀ ମୂଳକଗୁଡ଼ିକର ନ୍ୟଷ୍ଟିୟ ବିଖଣ୍ଡନ ଦ୍ଵାରା ଆଣବିକ ଶକ୍ତି ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "What is the advantage of using wind energy?",
+"questionOdia": "ପବନ ଶକ୍ତି ବ୍ୟବହାର କରିବାର ସୁବିଧା କଣ?",
+"options": [
+"ଏହା ପ୍ରଦୂଷଣମୁକ୍ତ",
+"ଏହା ସର୍ବଦା ମିଳେ",
+"ଏହା ଶସ୍ତା",
+"ଏହା ସବୁଠାରେ ମିଳେ"
+],
+"answer": "ଏହା ପ୍ରଦୂଷଣମୁକ୍ତ",
+"explanation": "ପବନ ଶକ୍ତି ବ୍ୟବହାର କରିବା ଫଳରେ କୌଣସି ପ୍ରଦୂଷଣ ସୃଷ୍ଟି ହୁଏ ନାହିଁ।"
+},
+{
+"questionEnglish": "Where is the heat in the earth coming from?",
+"questionOdia": "ପୃଥିବୀର ଭିତରର ଉତ୍ତାପ କେଉଁଠାରୁ ଆସେ?",
+"options": [
+"ସୂର୍ଯ୍ୟ",
+"ରେଡିଓ-ଆକ୍ଟିଭ୍ ପଦାର୍ଥର ବିଭାଜନ",
+"ପବନ",
+"ଜଳ"
+],
+"answer": "ରେଡିଓ-ଆକ୍ଟିଭ୍ ପଦାର୍ଥର ବିଭାଜନ",
+"explanation": "ପୃଥିବୀର ଅଭ୍ୟନ୍ତରରେ ଥିବା ରେଡିଓ-ଆକ୍ଟିଭ୍ ପଦାର୍ଥଗୁଡ଼ିକର କ୍ରମାଗତ ବିଭାଜନ ଯୋଗୁଁ ଉତ୍ତାପ ସୃଷ୍ଟି ହୁଏ।"
+},
+{
+"questionEnglish": "What is the common fuel used in a solar cooker?",
+"questionOdia": "ସୌର କୁକରରେ ସାଧାରଣତଃ କଣ ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"କୋଇଲା",
+"ସୂର୍ଯ୍ୟରଶ୍ମି",
+"ବିଦ୍ୟୁତ",
+"ବାୟୋଗ୍ୟାସ"
+],
+"answer": "ସୂର୍ଯ୍ୟରଶ୍ମି",
+"explanation": "ସୌର କୁକର ସୂର୍ଯ୍ୟର ତାପ ଶକ୍ତିକୁ ବ୍ୟବହାର କରି ରୋଷେଇ କରେ।"
+},
+{
+"questionEnglish": "What is an ideal fuel?",
+"questionOdia": "ଏକ ଆଦର୍ଶ ଜାଳେଣି କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ଯାହା ଶସ୍ତା ଏବଂ ପ୍ରଦୂଷଣ କରେ",
+"ଯାହା ବହୁତ ମହଙ୍ଗା",
+"ଯାହା ସହଜରେ ଉପଲବ୍ଧ ଏବଂ ଅଧିକ ଶକ୍ତି ପ୍ରଦାନ କରେ",
+"ଯାହା ଜଳିବାକୁ ଅନେକ ସମୟ ନିଏ"
+],
+"answer": "ଯାହା ସହଜରେ ଉପଲବ୍ଧ ଏବଂ ଅଧିକ ଶକ୍ତି ପ୍ରଦାନ କରେ",
+"explanation": "ଆଦର୍ଶ ଜାଳେଣି ସହଜରେ ମିଳିବା ସହ, ଅଧିକ ଶକ୍ତି ଦେବା ଓ ପରିବେଶକୁ କମ୍ ପ୍ରଦୂଷଣ କରିବା ଦରକାର।"
+},
+{
+"questionEnglish": "What is the process of splitting a heavy nucleus?",
+"questionOdia": "ଭାରୀ ନ୍ୟଷ୍ଟିକୁ ଭାଙ୍ଗିବାର ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ନ୍ୟଷ୍ଟିୟ ସଂଯୋଜନ",
+"ନ୍ୟଷ୍ଟିୟ ବିଖଣ୍ଡନ (Nuclear fission)",
+"ରାସାୟନିକ ପ୍ରତିକ୍ରିୟା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନ୍ୟଷ୍ଟିୟ ବିଖଣ୍ଡନ (Nuclear fission)",
+"explanation": "ଗୋଟିଏ ଭାରୀ ନ୍ୟଷ୍ଟି (ଯେପରିକି ୟୁରାନିୟମ୍) ଭାଙ୍ଗି ହାଲୁକା ନ୍ୟଷ୍ଟି ହେବାକୁ ନ୍ୟଷ୍ଟିୟ ବିଖଣ୍ଡନ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which state in India is known for solar energy potential?",
+"questionOdia": "ସୌର ଶକ୍ତି ପାଇଁ ଭାରତର କେଉଁ ରାଜ୍ୟ ଅଧିକ ଜଣାଶୁଣା?",
+"options": [
+"ରାଜସ୍ଥାନ",
+"କେରଳ",
+"ଆସାମ",
+"ଉତ୍ତର ପ୍ରଦେଶ"
+],
+"answer": "ରାଜସ୍ଥାନ",
+"explanation": "ରାଜସ୍ଥାନରେ ଅଧିକ ସୂର୍ଯ୍ୟକିରଣ ମିଳୁଥିବାରୁ ଏଠାରେ ସୌର ଶକ୍ତି ପାଇଁ ବହୁତ ସମ୍ଭାବନା ଅଛି।"
+},
+{
+"questionEnglish": "What is a disadvantage of nuclear energy?",
+"questionOdia": "ଆଣବିକ ଶକ୍ତିର ଅସୁବିଧା କଣ?",
+"options": [
+"ଅଧିକ ପ୍ରଦୂଷଣ",
+"ତେଜସ୍କ୍ରିୟ ବର୍ଜ୍ୟବସ୍ତୁର ନିଷ୍କାସନ",
+"କମ୍ ଶକ୍ତି",
+"ମହଙ୍ଗା ପରିବହନ"
+],
+"answer": "ତେଜସ୍କ୍ରିୟ ବର୍ଜ୍ୟବସ୍ତୁର ନିଷ୍କାସନ",
+"explanation": "ଆଣବିକ ଶକ୍ତି ଉତ୍ପାଦନ ପରେ ବାହାରୁଥିବା ତେଜସ୍କ୍ରିୟ ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନ କରିବା ବହୁତ କଷ୍ଟସାଧ୍ୟ ଓ ବିପଜ୍ଜନକ।"
+},
+{
+"questionEnglish": "What are hydroelectric power plants?",
+"questionOdia": "ଜଳ ବିଦ୍ୟୁତ ପ୍ରକଳ୍ପ କଣ?",
+"options": [
+"ଜଳରୁ ଶକ୍ତି ଉତ୍ପାଦନ",
+"ପବନରୁ ଶକ୍ତି",
+"ସୂର୍ଯ୍ୟରୁ ଶକ୍ତି",
+"କୋଇଲାରୁ ଶକ୍ତି"
+],
+"answer": "ଜଳରୁ ଶକ୍ତି ଉତ୍ପାଦନ",
+"explanation": "ବନ୍ଧ (Dam) କରି ସଞ୍ଚିତ ଜଳର ସ୍ଥିତିଜ ଶକ୍ତିକୁ ବିଦ୍ୟୁତ ଶକ୍ତିରେ ପରିଣତ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is charcoal?",
+"questionOdia": "ଚାରକୋଲ୍ କଣ?",
+"options": [
+"କାଠକୁ ଅଭାବୀ ବାୟୁରେ ଜଳାଇ ପ୍ରସ୍ତୁତ ଇନ୍ଧନ",
+"କୋଇଲାର ଏକ ପ୍ରକାର",
+"ପେଟ୍ରୋଲିୟମ୍",
+"ବାୟୋଗ୍ୟାସ"
+],
+"answer": "କାଠକୁ ଅଭାବୀ ବାୟୁରେ ଜଳାଇ ପ୍ରସ୍ତୁତ ଇନ୍ଧନ",
+"explanation": "କାଠକୁ ସୀମିତ ବାୟୁରେ ଜଳାଇଲେ ଚାରକୋଲ୍ ମିଳେ, ଯାହା ଭଲ ଜାଳେଣି।"
+},
+{
+"questionEnglish": "Which of these is a clean energy source?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ପରିଷ୍କାର ଶକ୍ତି?",
+"options": [
+"କୋଇଲା",
+"ପ୍ରାକୃତିକ ଗ୍ୟାସ୍",
+"ପେଟ୍ରୋଲ",
+"ଡିଜେଲ"
+],
+"answer": "ପ୍ରାକୃତିକ ଗ୍ୟାସ୍",
+"explanation": "ଅନ୍ୟ ଜୀବାଶ୍ମ ଇନ୍ଧନ ତୁଳନାରେ ପ୍ରାକୃତିକ ଗ୍ୟାସ୍ କମ୍ ପ୍ରଦୂଷଣ କରେ, ତେଣୁ ଏହାକୁ ସ୍ୱଚ୍ଛ ବୋଲି ଧରାଯାଏ।"
+},
+{
+"questionEnglish": "What is the main advantage of biogas?",
+"questionOdia": "ବାୟୋଗ୍ୟାସର ମୁଖ୍ୟ ସୁବିଧା କଣ?",
+"options": [
+"ଏହା ମାଗଣାରେ ମିଳେ",
+"ଏହା ବର୍ଜ୍ୟବସ୍ତୁରୁ ପ୍ରସ୍ତୁତ ଓ ଉତ୍ତମ ସାର ମିଳେ",
+"ଏହା ସର୍ବଦା ଥଣ୍ଡା",
+"ଏହା ବହୁତ କମ୍ ଶକ୍ତି ଦିଏ"
+],
+"answer": "ଏହା ବର୍ଜ୍ୟବସ୍ତୁରୁ ପ୍ରସ୍ତୁତ ଓ ଉତ୍ତମ ସାର ମିଳେ",
+"explanation": "ବାୟୋଗ୍ୟାସ ଗୋବର ଓ ଅନ୍ୟ ବର୍ଜ୍ୟବସ୍ତୁରୁ ମିଳେ ଏବଂ ବାକି ରହିଥିବା ଅବଶେଷ ଉତ୍ତମ ସାର ଭାବେ କାମ କରେ।"
+},
+{
+"questionEnglish": "What happens when light strikes a solar cell?",
+"questionOdia": "ସୌର କୋଷ ଉପରେ ଆଲୋକ ପଡ଼ିଲେ କଣ ହୁଏ?",
+"options": [
+"ତାହା ଗରମ ହୋଇଯାଏ",
+"ବିଦ୍ୟୁତ ଶକ୍ତି ସୃଷ୍ଟି ହୁଏ",
+"କିଛି ହୁଏ ନାହିଁ",
+"ତାହା ପାଣିରେ ପରିଣତ ହୁଏ"
+],
+"answer": "ବିଦ୍ୟୁତ ଶକ୍ତି ସୃଷ୍ଟି ହୁଏ",
+"explanation": "ଆଲୋକ ଶକ୍ତି ପଡ଼ିଲେ ସୌର କୋଷ ଭିତରେ ଇଲେକ୍ଟ୍ରନ୍ ଚଳନ ହୁଏ, ଯାହା ବିଦ୍ୟୁତ ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "What do we use to cook food in a solar cooker?",
+"questionOdia": "ସୌର କୁକରରେ ରୋଷେଇ କରିବା ପାଇଁ କଣ ବ୍ୟବହାର କରିବା?",
+"options": [
+"କଳା ରଙ୍ଗର ବାସନ",
+"ସଫେଦ ରଙ୍ଗର ବାସନ",
+"କାଚର ବାସନ",
+"ଲୁହାର ବାସନ"
+],
+"answer": "କଳା ରଙ୍ଗର ବାସନ",
+"explanation": "କଳା ରଙ୍ଗ ଅଧିକ ତାପ ଶୋଷଣ କରୁଥିବାରୁ ସୌର କୁକରରେ କଳା ବାସନ ବ୍ୟବହାର କରାଯାଏ।"
+},
+{
+"questionEnglish": "Which country is the largest producer of wind energy?",
+"questionOdia": "ପବନ ଶକ୍ତି ଉତ୍ପାଦନରେ କେଉଁ ଦେଶ ଆଗରେ ଅଛି?",
+"options": [
+"ଭାରତ",
+"ଜର୍ମାନୀ",
+"ଡେନମାର୍କ",
+"ଚୀନ"
+],
+"answer": "ଡେନମାର୍କ",
+"explanation": "ଡେନମାର୍କକୁ 'ପବନର ଦେଶ' କୁହାଯାଏ ଏବଂ ଏଠାରେ ପବନ ଶକ୍ତିର ବହୁଳ ବ୍ୟବହାର ହୁଏ।"
+},
+{
+"questionEnglish": "What causes tides in the ocean?",
+"questionOdia": "ସମୁଦ୍ରରେ ଜୁଆର କାହିଁକି ଆସେ?",
+"options": [
+"ସୂର୍ଯ୍ୟର ତାପ",
+"ଚନ୍ଦ୍ରର ମାଧ୍ୟାକର୍ଷଣ ଶକ୍ତି",
+"ପବନ",
+"ଭୂମିକମ୍ପ"
+],
+"answer": "ଚନ୍ଦ୍ରର ମାଧ୍ୟାକର୍ଷଣ ଶକ୍ତି",
+"explanation": "ଚନ୍ଦ୍ରର ମାଧ୍ୟାକର୍ଷଣ ଶକ୍ତି ଯୋଗୁଁ ସମୁଦ୍ର ଜଳସ୍ତର ବଢ଼େ ବା କମେ, ଯାହାକୁ ଜୁଆର କୁହନ୍ତି।"
+},
+{
+"questionEnglish": "What is Ocean Thermal Energy?",
+"questionOdia": "ସମୁଦ୍ର ତାପଜ ଶକ୍ତି (Ocean Thermal Energy) କଣ?",
+"options": [
+"ସମୁଦ୍ରର ଉପରିଭାଗ ଓ ଗଭୀର ଭାଗର ତାପମାତ୍ରା ପାର୍ଥକ୍ୟରୁ ଶକ୍ତି",
+"ସମୁଦ୍ରର ଲୁଣରୁ ଶକ୍ତି",
+"ସମୁଦ୍ରର ଜୀବଙ୍କଠାରୁ ଶକ୍ତି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମୁଦ୍ରର ଉପରିଭାଗ ଓ ଗଭୀର ଭାଗର ତାପମାତ୍ରା ପାର୍ଥକ୍ୟରୁ ଶକ୍ତି",
+"explanation": "ସମୁଦ୍ରର ଉପର ପାଣି ଓ ତଳ ପାଣିର ତାପମାତ୍ରା ପାର୍ଥକ୍ୟକୁ ବ୍ୟବହାର କରି ଶକ୍ତି ମିଳେ।"
+},
+{
+"questionEnglish": "Is petroleum a renewable resource?",
+"questionOdia": "ପେଟ୍ରୋଲିୟମ୍ କଣ ଏକ ନବୀକରଣ ଯୋଗ୍ୟ ସମ୍ବଳ?",
+"options": [
+"ହଁ",
+"ନା",
+"କହି ହେବ ନାହିଁ",
+"ଅଧା ସତ"
+],
+"answer": "ନା",
+"explanation": "ପେଟ୍ରୋଲିୟମ୍ ଶେଷ ହୋଇଗଲେ ପୁଣି ତିଆରି ହେବାକୁ କୋଟି କୋଟି ବର୍ଷ ଲାଗେ।"
+},
+{
+"questionEnglish": "What is the main source of nuclear power?",
+"questionOdia": "ଆଣବିକ ଶକ୍ତିର ମୁଖ୍ୟ ଉତ୍ସ କଣ?",
+"options": [
+"ପରମାଣୁର ନ୍ୟଷ୍ଟି",
+"ଇଲେକ୍ଟ୍ରନ୍",
+"ପ୍ରୋଟନ୍",
+"ନ୍ୟୁଟ୍ରନ୍"
+],
+"answer": "ପରମାଣୁର ନ୍ୟଷ୍ଟି",
+"explanation": "ପରମାଣୁର ନ୍ୟଷ୍ଟି ମଧ୍ୟରେ ଥିବା ବନ୍ଧନ ଶକ୍ତି ହିଁ ଆଣବିକ ଶକ୍ତିର ମୂଳ।"
+},
+{
+"questionEnglish": "Which state has a major wind farm in India?",
+"questionOdia": "ଭାରତର କେଉଁ ରାଜ୍ୟରେ ବଡ଼ ପବନ ଶକ୍ତି କେନ୍ଦ୍ର ଅଛି?",
+"options": [
+"ତାମିଲନାଡୁ",
+"ପଞ୍ଜାବ",
+"ହରିୟାଣା",
+"ବିହାର"
+],
+"answer": "ତାମିଲନାଡୁ",
+"explanation": "ତାମିଲନାଡୁର କନ୍ୟାକୁମାରୀ ପାଖରେ ଭାରତର ଅନ୍ୟତମ ବୃହତ୍ ପବନ ଶକ୍ତି କେନ୍ଦ୍ର ରହିଛି।"
+},
+{
+"questionEnglish": "What is the source of Geothermal energy?",
+"questionOdia": "ଭୂ-ତାପଜ ଶକ୍ତିର ଉତ୍ସ କଣ?",
+"options": [
+"ସୂର୍ଯ୍ୟ",
+"ପୃଥିବୀର ଅଭ୍ୟନ୍ତରୀଣ ତାପ",
+"ବର୍ଷା",
+"କୋଇଲା"
+],
+"answer": "ପୃଥିବୀର ଅଭ୍ୟନ୍ତରୀଣ ତାପ",
+"explanation": "ପୃଥିବୀର ଭିତର ଅଂଶରୁ ଆସୁଥିବା ଉତ୍ତାପ ହିଁ ଏହି ଶକ୍ତିର ଉତ୍ସ।"
+},
+{
+"questionEnglish": "Which of these contributes to acid rain?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଅମ୍ଳ ବର୍ଷା (Acid rain) ପାଇଁ ଦାୟୀ?",
+"options": [
+"ସଲଫର ଡାଇଅକ୍ସାଇଡ୍",
+"ଅମ୍ଳଜାନ",
+"ହାଇଡ୍ରୋଜେନ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସଲଫର ଡାଇଅକ୍ସାଇଡ୍",
+"explanation": "ଜୀବାଶ୍ମ ଇନ୍ଧନ ଜଳିବା ଫଳରେ ବାହାରୁଥିବା ସଲଫର ଡାଇଅକ୍ସାଇଡ୍ ବର୍ଷା ପାଣି ସହ ମିଶି ଅମ୍ଳ ବର୍ଷା କରାଏ।"
+},
+{
+"questionEnglish": "What is CNG?",
+"questionOdia": "CNG ର ଅର୍ଥ କଣ?",
+"options": [
+"Compressed Natural Gas",
+"Common Natural Gas",
+"Clean Natural Gas",
+"Cool Natural Gas"
+],
+"answer": "Compressed Natural Gas",
+"explanation": "CNG ହେଉଛି କମ୍ପ୍ରେସ୍ଡ ନାଚୁରାଲ୍ ଗ୍ୟାସ୍, ଯାହା ଗାଡ଼ିରେ ଇନ୍ଧନ ଭାବେ ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "Is solar energy exhaustible?",
+"questionOdia": "ସୌର ଶକ୍ତି କଣ କ୍ଷୟଶୀଳ?",
+"options": [
+"ହଁ",
+"ନା",
+"କିଛି ମାତ୍ରାରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ସୌର ଶକ୍ତି ଏକ ଅକ୍ଷୟ ଶକ୍ତି, ଏହା କେବେ ସରିବ ନାହିଁ।"
+},
+{
+"questionEnglish": "What is the function of a dam in hydroelectricity?",
+"questionOdia": "ଜଳ ବିଦ୍ୟୁତରେ ବନ୍ଧ (Dam) ର କାମ କଣ?",
+"options": [
+"ଜଳକୁ ଅଟକାଇ ପାଣିର ସ୍ଥିତିଜ ଶକ୍ତି ବଢ଼ାଇବା",
+"ମାଛ ଚାଷ କରିବା",
+"ଗାଧୋଇବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜଳକୁ ଅଟକାଇ ପାଣିର ସ୍ଥିତିଜ ଶକ୍ତି ବଢ଼ାଇବା",
+"explanation": "ବନ୍ଧ ଦ୍ଵାରା ଜଳକୁ ଉଚ୍ଚ ସ୍ତରରେ ସଞ୍ଚିତ କରାଯାଏ, ଯାହାକି ବିଦ୍ୟୁତ ଉତ୍ପାଦନରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "What is the full form of LPG?",
+"questionOdia": "LPG ର ସମ୍ପୂର୍ଣ୍ଣ ନାମ କଣ?",
+"options": [
+"Liquefied Petroleum Gas",
+"Liquid Petroleum Gas",
+"Light Petroleum Gas",
+"Large Petroleum Gas"
+],
+"answer": "Liquefied Petroleum Gas",
+"explanation": "LPG ହେଉଛି ଲିକ୍ୱିଫାଏଡ୍ ପେଟ୍ରୋଲିୟମ୍ ଗ୍ୟାସ୍, ଯାହା ରୋଷେଇ ପାଇଁ ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "What are the limitations of wind energy?",
+"questionOdia": "ପବନ ଶକ୍ତିର ଅସୁବିଧା କଣ?",
+"options": [
+"ପବନ ସର୍ବଦା ନ ମିଳିପାରେ",
+"ଏହା ବହୁତ ମହଙ୍ଗା",
+"ଏହା ପ୍ରଦୂଷଣ କରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପବନ ସର୍ବଦା ନ ମିଳିପାରେ",
+"explanation": "ପବନର ବେଗ କମ୍ ଥିଲେ ଶକ୍ତି ମିଳିବ ନାହିଁ, ତେଣୁ ଏହା ସବୁବେଳେ ମିଳି ନଥାଏ।"
+},
+{
+"questionEnglish": "What is the source of solar energy?",
+"questionOdia": "ସୌର ଶକ୍ତିର ଉତ୍ସ କଣ?",
+"options": [
+"ସୂର୍ଯ୍ୟର କେନ୍ଦ୍ରରେ ଘଟୁଥିବା ନ୍ୟଷ୍ଟିୟ ସଂଯୋଜନ",
+"ସୂର୍ଯ୍ୟର ଉପରିଭାଗ",
+"କୋଇଲା",
+"ପବନ"
+],
+"answer": "ସୂର୍ଯ୍ୟର କେନ୍ଦ୍ରରେ ଘଟୁଥିବା ନ୍ୟଷ୍ଟିୟ ସଂଯୋଜନ",
+"explanation": "ସୂର୍ଯ୍ୟର କେନ୍ଦ୍ରରେ ହାଇଡ୍ରୋଜେନ୍ ପରମାଣୁ ମିଶି ଶକ୍ତି ସୃଷ୍ଟି କରନ୍ତି।"
+},
+{
+"questionEnglish": "Is wood a good fuel?",
+"questionOdia": "କାଠ କଣ ଏକ ଭଲ ଜାଳେଣି?",
+"options": [
+"ହଁ, କିନ୍ତୁ ବହୁତ ଧୂଆଁ ବାହାରେ",
+"ନା, ଆଦୌ ନୁହେଁ",
+"ହଁ, ଏହା ସବୁଠାରୁ ଭଲ",
+"ନା, ଏହା ବହୁତ ଶସ୍ତା"
+],
+"answer": "ହଁ, କିନ୍ତୁ ବହୁତ ଧୂଆଁ ବାହାରେ",
+"explanation": "କାଠ ଜଳିଲେ ଅଧିକ ଧୂଆଁ ବାହାରେ, ଯାହା ପରିବେଶ ପାଇଁ ଭଲ ନୁହେଁ।"
+},
+{
+"questionEnglish": "What is the use of reflectors in solar cookers?",
+"questionOdia": "ସୌର କୁକରରେ ଦର୍ପଣର ବ୍ୟବହାର କଣ?",
+"options": [
+"ସୂର୍ଯ୍ୟରଶ୍ମିକୁ ଏକତ୍ର କରିବା (Focus)",
+"ସାଜସଜ୍ଜା ପାଇଁ",
+"ପାଣି ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସୂର୍ଯ୍ୟରଶ୍ମିକୁ ଏକତ୍ର କରିବା (Focus)",
+"explanation": "ଦର୍ପଣ ଦ୍ଵାରା ସୂର୍ଯ୍ୟରଶ୍ମିକୁ କୁକର ଭିତରେ ଏକତ୍ରିତ କରି ତାପମାତ୍ରା ବଢ଼ାଯାଏ।"
+},
+{
+"questionEnglish": "What is the main environmental problem with fossil fuels?",
+"questionOdia": "ଜୀବାଶ୍ମ ଇନ୍ଧନର ମୁଖ୍ୟ ପରିବେଶ ସମସ୍ୟା କଣ?",
+"options": [
+"ପ୍ରଦୂଷଣ",
+"ଏହା ସରିଯିବ",
+"ଏହା ଦାମୀ",
+"ସବୁଯାକ"
+],
+"answer": "ସବୁଯାକ",
+"explanation": "ଜୀବାଶ୍ମ ଇନ୍ଧନ ପ୍ରଦୂଷଣ କରେ, ସରିଯିବ ଏବଂ ଏହା ଦାମୀ ମଧ୍ୟ।"
+},
+{
+"questionEnglish": "Which gas is used in Biogas plants?",
+"questionOdia": "ବାୟୋଗ୍ୟାସ ପ୍ଲାଣ୍ଟରେ କେଉଁ ଗ୍ୟାସ୍ ଉତ୍ପନ୍ନ ହୁଏ?",
+"options": [
+"ମିଥେନ୍",
+"ଅମ୍ଳଜାନ",
+"ହାଇଡ୍ରୋଜେନ୍",
+"ନାଇଟ୍ରୋଜେନ୍"
+],
+"answer": "ମିଥେନ୍",
+"explanation": "ବାୟୋଗ୍ୟାସ ପ୍ଲାଣ୍ଟରେ ମିଥେନ୍ ମୁଖ୍ୟତଃ ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "What are the components of Biogas?",
+"questionOdia": "ବାୟୋଗ୍ୟାସରେ କଣ କଣ ଥାଏ?",
+"options": [
+"ମିଥେନ୍, କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍, ହାଇଡ୍ରୋଜେନ୍",
+"କେବଳ ଅମ୍ଳଜାନ",
+"କେବଳ ନାଇଟ୍ରୋଜେନ୍",
+"କେବଳ ହାଇଡ୍ରୋଜେନ୍"
+],
+"answer": "ମିଥେନ୍, କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍, ହାଇଡ୍ରୋଜେନ୍",
+"explanation": "ବାୟୋଗ୍ୟାସ ମିଶ୍ରିତ ଗ୍ୟାସ୍ ଯେଉଁଥିରେ ମିଥେନ୍, କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଆଦି ଥାଏ।"
+},
+{
+"questionEnglish": "How is energy produced in nuclear reactors?",
+"questionOdia": "ଆଣବିକ ରିଆକ୍ଟରରେ କିପରି ଶକ୍ତି ଉତ୍ପନ୍ନ ହୁଏ?",
+"options": [
+"ନ୍ୟଷ୍ଟିୟ ବିଖଣ୍ଡନ ଦ୍ଵାରା",
+"କୋଇଲା ଜଳାଇ",
+"ସୂର୍ଯ୍ୟରୁ",
+"ପବନରୁ"
+],
+"answer": "ନ୍ୟଷ୍ଟିୟ ବିଖଣ୍ଡନ ଦ୍ଵାରା",
+"explanation": "ନ୍ୟଷ୍ଟିୟ ବିଖଣ୍ଡନ ଦ୍ଵାରା ବହୁତ ଅଧିକ ଶକ୍ତି ମିଳେ।"
+},
+{
+"questionEnglish": "What is an advantage of fossil fuels?",
+"questionOdia": "ଜୀବାଶ୍ମ ଇନ୍ଧନର ଗୋଟିଏ ସୁବିଧା କଣ?",
+"options": [
+"ଅଧିକ ଶକ୍ତି ପ୍ରଦାନ କରେ",
+"ପ୍ରଦୂଷଣ କରେ ନାହିଁ",
+"ସର୍ବଦା ମିଳେ",
+"ମାଗଣାରେ ମିଳେ"
+],
+"answer": "ଅଧିକ ଶକ୍ତି ପ୍ରଦାନ କରେ",
+"explanation": "ଜୀବାଶ୍ମ ଇନ୍ଧନ ବହୁତ କମ୍ ପରିମାଣରେ ଜଳିଲେ ମଧ୍ୟ ଅଧିକ ଶକ୍ତି ଦିଏ।"
+},
+{
+"questionEnglish": "What is the source of ocean thermal energy?",
+"questionOdia": "ସମୁଦ୍ର ତାପଜ ଶକ୍ତିର ଉତ୍ସ କଣ?",
+"options": [
+"ସମୁଦ୍ର ଜଳର ତାପମାତ୍ରା ପାର୍ଥକ୍ୟ",
+"ସୂର୍ଯ୍ୟ",
+"ଚନ୍ଦ୍ର",
+"ପବନ"
+],
+"answer": "ସମୁଦ୍ର ଜଳର ତାପମାତ୍ରା ପାର୍ଥକ୍ୟ",
+"explanation": "ସମୁଦ୍ରର ଉପର ଓ ତଳ ଜଳର ତାପମାତ୍ରା ପାର୍ଥକ୍ୟ ହିଁ ଏହାର ଉତ୍ସ।"
+},
+{
+"questionEnglish": "What is the main problem of nuclear energy?",
+"questionOdia": "ଆଣବିକ ଶକ୍ତିର ମୁଖ୍ୟ ସମସ୍ୟା କଣ?",
+"options": [
+"ତେଜସ୍କ୍ରିୟ ବର୍ଜ୍ୟବସ୍ତୁ",
+"କମ୍ ଶକ୍ତି",
+"ଅଧିକ ଖର୍ଚ୍ଚ",
+"ସବୁଯାକ"
+],
+"answer": "ତେଜସ୍କ୍ରିୟ ବର୍ଜ୍ୟବସ୍ତୁ",
+"explanation": "ତେଜସ୍କ୍ରିୟ ବର୍ଜ୍ୟବସ୍ତୁର ସୁରକ୍ଷିତ ନିଷ୍କାସନ ସବୁଠାରୁ ବଡ଼ ଚ୍ୟାଲେଞ୍ଜ।"
+},
+{
+"questionEnglish": "What device changes solar energy to electricity?",
+"questionOdia": "ସୌର ଶକ୍ତିକୁ ବିଦ୍ୟୁତରେ ବଦଳାଉଥିବା ଯନ୍ତ୍ର କଣ?",
+"options": [
+"ସୌର କୋଷ (Solar Cell)",
+"ସୌର କୁକର",
+"ବ୍ୟାଟେରୀ",
+"ଜେନେରେଟର"
+],
+"answer": "ସୌର କୋଷ (Solar Cell)",
+"explanation": "ସୌର କୋଷ ସିଧାସଳଖ ସୌର ଶକ୍ତିକୁ ବିଦ୍ୟୁତରେ ପରିଣତ କରେ।"
+},
+{
+"questionEnglish": "Why is solar energy called renewable?",
+"questionOdia": "ସୌର ଶକ୍ତିକୁ କାହିଁକି ଅକ୍ଷୟ ଶକ୍ତି କୁହାଯାଏ?",
+"options": [
+"ଏହା ସରିଯିବ ନାହିଁ",
+"ଏହା ଶସ୍ତା",
+"ଏହା ସବୁଠାରେ ମିଳେ",
+"ଏହା ସଫା"
+],
+"answer": "ଏହା ସରିଯିବ ନାହିଁ",
+"explanation": "ସୂର୍ଯ୍ୟ ଅନନ୍ତକାଳ ପର୍ଯ୍ୟନ୍ତ ରହିଥିବାରୁ ଏହା ଅକ୍ଷୟ।"
+},
+{
+"questionEnglish": "What is biogas also called?",
+"questionOdia": "ବାୟୋଗ୍ୟାସକୁ ଆଉ କଣ କୁହାଯାଏ?",
+"options": [
+"ଗୋବର ଗ୍ୟାସ୍ (Gobar gas)",
+"କୋଇଲା ଗ୍ୟାସ୍",
+"ପେଟ୍ରୋଲ ଗ୍ୟାସ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗୋବର ଗ୍ୟାସ୍ (Gobar gas)",
+"explanation": "ଗୋବରରୁ ପ୍ରସ୍ତୁତ ହେଉଥିବାରୁ ଏହାକୁ ଗୋବର ଗ୍ୟାସ୍ ମଧ୍ୟ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What type of light does a solar cooker need?",
+"questionOdia": "ସୌର କୁକର ପାଇଁ କି ପ୍ରକାର ଆଲୋକ ଦରକାର?",
+"options": [
+"ସିଧାସଳଖ ସୂର୍ଯ୍ୟକିରଣ",
+"ବିଦ୍ୟୁତ ଆଲୋକ",
+"ମହମବତୀ ଆଲୋକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସିଧାସଳଖ ସୂର୍ଯ୍ୟକିରଣ",
+"explanation": "ସୌର କୁକର ପାଇଁ ସୂର୍ଯ୍ୟର ସିଧାସଳଖ ଆଲୋକ ଅତ୍ୟନ୍ତ ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "Is wind energy available everywhere?",
+"questionOdia": "ପବନ ଶକ୍ତି କଣ ସବୁଠାରେ ମିଳେ?",
+"options": [
+"ନା, କେବଳ ନିର୍ଦ୍ଦିଷ୍ଟ ସ୍ଥାନରେ",
+"ହଁ, ସବୁଠାରେ",
+"ନା, କେବଳ ଘରେ",
+"କହି ହେବ ନାହିଁ"
+],
+"answer": "ନା, କେବଳ ନିର୍ଦ୍ଦିଷ୍ଟ ସ୍ଥାନରେ",
+"explanation": "ପବନ ଶକ୍ତି କେବଳ ସେଠାରେ ଉପଯୋଗୀ ଯେଉଁଠାରେ ବେଗ ଅଧିକ।"
+},
+{
+"questionEnglish": "What is the result of burning fossil fuels?",
+"questionOdia": "ଜୀବାଶ୍ମ ଇନ୍ଧନ ଜଳିଲେ କଣ ସୃଷ୍ଟି ହୁଏ?",
+"options": [
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଓ ଅନ୍ୟ ଗ୍ୟାସ୍",
+"କେବଳ ପାଣି",
+"କେବଳ ଅମ୍ଳଜାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଓ ଅନ୍ୟ ଗ୍ୟାସ୍",
+"explanation": "ଜୀବାଶ୍ମ ଇନ୍ଧନ ଜଳିବା ଫଳରେ ଅଙ୍ଗାରକାମ୍ଳ ଓ ଅନ୍ୟ ପ୍ରଦୂଷଣକାରୀ ଗ୍ୟାସ୍ ବାହାରେ।"
+},
+{
+"questionEnglish": "Which element is used for nuclear fission?",
+"questionOdia": "ନ୍ୟଷ୍ଟିୟ ବିଖଣ୍ଡନ ପାଇଁ କେଉଁ ମୌଳିକ ପଦାର୍ଥ ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"ୟୁରାନିୟମ୍-235",
+"କୋଇଲା",
+"ଲୁହା",
+"ତମ୍ବା"
+],
+"answer": "ୟୁରାନିୟମ୍-235",
+"explanation": "ୟୁରାନିୟମ୍-235 ପରି ତେଜସ୍କ୍ରିୟ ମୌଳିକ ନ୍ୟଷ୍ଟିୟ ବିଖଣ୍ଡନ ପାଇଁ ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "What are tidal waves?",
+"questionOdia": "ଜୁଆର ଭଟ୍ଟା ଶକ୍ତି (Tidal energy) କଣ?",
+"options": [
+"ସମୁଦ୍ରର ଜୁଆରରୁ ମିଳୁଥିବା ଶକ୍ତି",
+"ପବନରୁ ଶକ୍ତି",
+"ସୂର୍ଯ୍ୟରୁ ଶକ୍ତି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମୁଦ୍ରର ଜୁଆରରୁ ମିଳୁଥିବା ଶକ୍ତି",
+"explanation": "ସମୁଦ୍ରରେ ଜୁଆର ସମୟରେ ଜଳର ଗତିଜ ଶକ୍ତିକୁ ବ୍ୟବହାର କରି ଶକ୍ତି ମିଳେ।"
+},
+{
+"questionEnglish": "What is a major environmental impact of dams?",
+"questionOdia": "ବନ୍ଧ (Dam) ର ମୁଖ୍ୟ ପରିବେଶ ପ୍ରଭାବ କଣ?",
+"options": [
+"ଜଙ୍ଗଲ ନଷ୍ଟ ଓ ଜୀବଜନ୍ତୁଙ୍କ ବାସସ୍ଥାନ ହାନି",
+"ବିଦ୍ୟୁତ ଉତ୍ପାଦନ",
+"ସେଚ କାର୍ଯ୍ୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜଙ୍ଗଲ ନଷ୍ଟ ଓ ଜୀବଜନ୍ତୁଙ୍କ ବାସସ୍ଥାନ ହାନି",
+"explanation": "ବନ୍ଧ ନିର୍ମାଣ ଯୋଗୁଁ ଅନେକ ଜଙ୍ଗଲ ଓ ଜୀବଜନ୍ତୁଙ୍କ ବାସସ୍ଥାନ ବୁଡ଼ିଯାଏ।"
+},
+{
+"questionEnglish": "Which gas makes up the most part of Biogas?",
+"questionOdia": "ବାୟୋଗ୍ୟାସରେ ସର୍ବାଧିକ କେଉଁ ଗ୍ୟାସ୍ ଥାଏ?",
+"options": [
+"ମିଥେନ୍",
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"ହାଇଡ୍ରୋଜେନ୍",
+"ଅମ୍ଳଜାନ"
+],
+"answer": "ମିଥେନ୍",
+"explanation": "ବାୟୋଗ୍ୟାସରେ ପ୍ରାୟ 75% ମିଥେନ୍ ଥାଏ।"
+},
+{
+"questionEnglish": "What does a windmill generate?",
+"questionOdia": "ପବନ କଳ କଣ ତିଆରି କରେ?",
+"options": [
+"ବିଦ୍ୟୁତ",
+"ଖାଦ୍ୟ",
+"ପାଣି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବିଦ୍ୟୁତ",
+"explanation": "ବର୍ତ୍ତମାନର ପବନ କଳଗୁଡ଼ିକ ଗତିଜ ଶକ୍ତିକୁ ବିଦ୍ୟୁତରେ ପରିଣତ କରୁଛନ୍ତି।"
+},
+{
+"questionEnglish": "What is a solar cell panel?",
+"questionOdia": "ସୌର ପ୍ୟାନେଲ୍ କଣ?",
+"options": [
+"ଅନେକ ସୌର କୋଷର ଏକତ୍ର ସଂଯୋଗ",
+"କେବଳ ଗୋଟିଏ କୋଷ",
+"ସୂର୍ଯ୍ୟର ଏକ ଅଂଶ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅନେକ ସୌର କୋଷର ଏକତ୍ର ସଂଯୋଗ",
+"explanation": "ବହୁତ ସୌର କୋଷକୁ ମିଶାଇ ସୌର ପ୍ୟାନେଲ୍ ତିଆରି ହୁଏ, ଯାହା ଅଧିକ ବିଦ୍ୟୁତ ଦିଏ।"
+},
+{
+"questionEnglish": "Is geothermal energy common?",
+"questionOdia": "ଭୂ-ତାପଜ ଶକ୍ତି କଣ ସବୁଠାରେ ମିଳେ?",
+"options": [
+"ନା, କେବଳ କିଛି ସ୍ଥାନରେ",
+"ହଁ, ସବୁଠାରେ",
+"ନା, ଆଦୌ ନାହିଁ",
+"କହି ହେବ ନାହିଁ"
+],
+"answer": "ନା, କେବଳ କିଛି ସ୍ଥାନରେ",
+"explanation": "ଭୂ-ତାପଜ ଶକ୍ତି କେବଳ ସେହି ସ୍ଥାନରେ ମିଳେ ଯେଉଁଠି ପୃଥିବୀର ଅଭ୍ୟନ୍ତରୀଣ ଉତ୍ତାପ ପାଖରେ ଥାଏ।"
+},
+{
+"questionEnglish": "What causes acid rain?",
+"questionOdia": "ଅମ୍ଳ ବର୍ଷା କାହିଁକି ହୁଏ?",
+"options": [
+"ବାୟୁ ପ୍ରଦୂଷଣ ଯୋଗୁଁ",
+"ବର୍ଷା ପାଣି ଯୋଗୁଁ",
+"ସୂର୍ଯ୍ୟଙ୍କ ତାପ ଯୋଗୁଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାୟୁ ପ୍ରଦୂଷଣ ଯୋଗୁଁ",
+"explanation": "କାରଖାନା ଓ ଗାଡ଼ିରୁ ବାହାରୁଥିବା ଗ୍ୟାସ୍ ବାୟୁମଣ୍ଡଳକୁ ପ୍ରଦୂଷିତ କରି ଅମ୍ଳ ବର୍ଷା କରାଏ।"
+},
+{
+"questionEnglish": "What is the function of a turbine?",
+"questionOdia": "ଟର୍ବାଇନ୍ (Turbine) ର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ଘୂର୍ଣ୍ଣନ ଦ୍ଵାରା ଶକ୍ତି ଉତ୍ପାଦନ",
+"ପାଣି ସଫା କରିବା",
+"ରୋଷେଇ କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଘୂର୍ଣ୍ଣନ ଦ୍ଵାରା ଶକ୍ତି ଉତ୍ପାଦନ",
+"explanation": "ପବନ ବା ବାମ୍ଫ ଦ୍ଵାରା ଟର୍ବାଇନ୍ ଘୂରିବା ଫଳରେ ଜେନେରେଟର ମାଧ୍ୟମରେ ବିଦ୍ୟୁତ ମିଳେ।"
+},
+{
+"questionEnglish": "What is the source of energy in a hydroelectric power plant?",
+"questionOdia": "ଜଳ ବିଦ୍ୟୁତ ପ୍ରକଳ୍ପରେ ଶକ୍ତିର ଉତ୍ସ କଣ?",
+"options": [
+"ଜଳର ସ୍ଥିତିଜ ଶକ୍ତି",
+"ସୂର୍ଯ୍ୟ",
+"ପବନ",
+"କୋଇଲା"
+],
+"answer": "ଜଳର ସ୍ଥିତିଜ ଶକ୍ତି",
+"explanation": "ଉଚ୍ଚ ସ୍ଥାନରେ ଥିବା ଜଳର ସ୍ଥିତିଜ ଶକ୍ତି ହିଁ ବିଦ୍ୟୁତ ଉତ୍ପାଦନ କରେ।"
+},
+{
+"questionEnglish": "What type of light does the sun give?",
+"questionOdia": "ସୂର୍ଯ୍ୟ କି ପ୍ରକାର ଆଲୋକ ଦିଅନ୍ତି?",
+"options": [
+"ସବୁ ପ୍ରକାର ଶକ୍ତିର ଉତ୍ସ",
+"କେବଳ ଆଲୋକ",
+"କେବଳ ତାପ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସବୁ ପ୍ରକାର ଶକ୍ତିର ଉତ୍ସ",
+"explanation": "ସୂର୍ଯ୍ୟ ଆଲୋକ ଓ ତାପ ଶକ୍ତିର ପ୍ରାଥମିକ ଉତ୍ସ।"
+},
+{
+"questionEnglish": "What is the main environmental problem with nuclear energy?",
+"questionOdia": "ଆଣବିକ ଶକ୍ତିର ମୁଖ୍ୟ ପରିବେଶ ସମସ୍ୟା କଣ?",
+"options": [
+"ତେଜସ୍କ୍ରିୟ ବର୍ଜ୍ୟବସ୍ତୁ",
+"ବାୟୁ ପ୍ରଦୂଷଣ",
+"ଜଳ ପ୍ରଦୂଷଣ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ତେଜସ୍କ୍ରିୟ ବର୍ଜ୍ୟବସ୍ତୁ",
+"explanation": "ଆଣବିକ ଇନ୍ଧନରୁ ନିର୍ଗତ ତେଜସ୍କ୍ରିୟ ବର୍ଜ୍ୟବସ୍ତୁ ସୁରକ୍ଷିତ ଭାବେ ରଖିବା ବହୁତ କଷ୍ଟ।"
+},
+{
+"questionEnglish": "Is energy from water renewable?",
+"questionOdia": "ଜଳରୁ ମିଳୁଥିବା ଶକ୍ତି କଣ ଅକ୍ଷୟ?",
+"options": [
+"ହଁ",
+"ନା",
+"କହି ହେବ ନାହିଁ",
+"ଅଧା ସତ"
+],
+"answer": "ହଁ",
+"explanation": "ଚକ୍ରୀୟ ପ୍ରକ୍ରିୟା ଯୋଗୁଁ ଜଳ ପୁନର୍ବାର ମିଳୁଥିବାରୁ ଏହା ଅକ୍ଷୟ।"
+},
+{
+"questionEnglish": "What happens if we burn too much fossil fuel?",
+"questionOdia": "ଅତ୍ୟଧିକ ଜୀବାଶ୍ମ ଇନ୍ଧନ ଜଳିଲେ କଣ ହେବ?",
+"options": [
+"ବିଶ୍ଵତାପନ ବଢ଼ିବ",
+"ପ୍ରଦୂଷଣ ବଢ଼ିବ",
+"ସବୁଯାକ",
+"କିଛି ହେବ ନାହିଁ"
+],
+"answer": "ସବୁଯାକ",
+"explanation": "ଅତ୍ୟଧିକ ଇନ୍ଧନ ଜଳିଲେ ପ୍ରଦୂଷଣ ବଢ଼ିବ ଏବଂ ବିଶ୍ଵତାପନ ମଧ୍ୟ ବଢ଼ିବ।"
+},
+{
+"questionEnglish": "What is the key to energy efficiency?",
+"questionOdia": "ଶକ୍ତି ଦକ୍ଷତାର ମୂଳ କଣ?",
+"options": [
+"ଅପଚୟ ରୋକିବା",
+"ଅଧିକ ବ୍ୟବହାର କରିବା",
+"କିଛି ନ କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅପଚୟ ରୋକିବା",
+"explanation": "ଶକ୍ତିର ସଠିକ୍ ଓ କମ୍ ଅପଚୟ ହିଁ ଦକ୍ଷତାର ଚାବିକାଠି।"
+},
+{
+"questionEnglish": "What is solar constant?",
+"questionOdia": "ସୌର ଧ୍ରୁବାଙ୍କ (Solar constant) କଣ?",
+"options": [
+"ପୃଥିବୀର ବାହ୍ୟ ପରିମଣ୍ଡଳରେ ସୂର୍ଯ୍ୟରୁ ମିଳୁଥିବା ଶକ୍ତି",
+"ସୂର୍ଯ୍ୟର ଓଜନ",
+"ସୂର୍ଯ୍ୟର ବୟସ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପୃଥିବୀର ବାହ୍ୟ ପରିମଣ୍ଡଳରେ ସୂର୍ଯ୍ୟରୁ ମିଳୁଥିବା ଶକ୍ତି",
+"explanation": "ପ୍ରତି ବର୍ଗ ମିଟରରେ ସୂର୍ଯ୍ୟରୁ ପ୍ରତି ସେକେଣ୍ଡରେ ଯେଉଁ ଶକ୍ତି ମିଳେ ତାହା ଧ୍ରୁବାଙ୍କ।"
+},
+{
+"questionEnglish": "What do fossil fuels emit?",
+"questionOdia": "ଜୀବାଶ୍ମ ଇନ୍ଧନ କଣ ନିର୍ଗତ କରେ?",
+"options": [
+"କାର୍ବନ ଗ୍ୟାସ୍",
+"ଅମ୍ଳଜାନ",
+"ହାଇଡ୍ରୋଜେନ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାର୍ବନ ଗ୍ୟାସ୍",
+"explanation": "ଜୀବାଶ୍ମ ଇନ୍ଧନ ଜଳିବା ଫଳରେ ମୁଖ୍ୟତଃ କାର୍ବନ ଗ୍ୟାସ୍ ବାହାରେ।"
+},
+{
+"questionEnglish": "Can we recycle energy?",
+"questionOdia": "ଆମେ କଣ ଶକ୍ତିକୁ ପୁନଃଚକ୍ରୀୟ କରିପାରିବା?",
+"options": [
+"ନା, ଶକ୍ତି ରୂପାନ୍ତର ହୁଏ",
+"ହଁ",
+"କିଛି ପରିମାଣରେ",
+"କହି ହେବ ନାହିଁ"
+],
+"answer": "ନା, ଶକ୍ତି ରୂପାନ୍ତର ହୁଏ",
+"explanation": "ଶକ୍ତି ସର୍ବଦା ଗୋଟିଏ ରୂପରୁ ଅନ୍ୟ ରୂପକୁ ବଦଳିଥାଏ, ଏହାକୁ ପୁନଃଚକ୍ରୀୟ କରାଯାଇପାରେ ନାହିଁ।"
+},
+{
+"questionEnglish": "Which state uses biogas extensively?",
+"questionOdia": "ଭାରତର କେଉଁ ଅଂଶରେ ବାୟୋଗ୍ୟାସ ଅଧିକ ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"ଗ୍ରାମାଞ୍ଚଳ",
+"ସହରାଞ୍ଚଳ",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗ୍ରାମାଞ୍ଚଳ",
+"explanation": "ଗୋବର ଓ ଅନ୍ୟ ବର୍ଜ୍ୟବସ୍ତୁ ସହଜରେ ମିଳୁଥିବାରୁ ଗ୍ରାମାଞ୍ଚଳରେ ଏହା ଅଧିକ ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "Is natural gas clean?",
+"questionOdia": "ପ୍ରାକୃତିକ ଗ୍ୟାସ୍ କଣ ସ୍ୱଚ୍ଛ?",
+"options": [
+"ହଁ, ଜୀବାଶ୍ମ ଇନ୍ଧନ ଅପେକ୍ଷା କମ୍ ପ୍ରଦୂଷଣକାରୀ",
+"ନା, ବହୁତ ପ୍ରଦୂଷଣ କରେ",
+"କିଛି ମାତ୍ରାରେ",
+"କହି ହେବ ନାହିଁ"
+],
+"answer": "ହଁ, ଜୀବାଶ୍ମ ଇନ୍ଧନ ଅପେକ୍ଷା କମ୍ ପ୍ରଦୂଷଣକାରୀ",
+"explanation": "ଅନ୍ୟ ଇନ୍ଧନ ତୁଳନାରେ ଏହା କମ୍ ପ୍ରଦୂଷଣ କରୁଥିବାରୁ ଏହାକୁ ସ୍ୱଚ୍ଛ ବୋଲି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the main use of a solar cell?",
+"questionOdia": "ସୌର କୋଷର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ବିଦ୍ୟୁତ ଉତ୍ପାଦନ",
+"ଖାଦ୍ୟ ତିଆରି",
+"ପାଣି ଫିଲ୍ଟର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବିଦ୍ୟୁତ ଉତ୍ପାଦନ",
+"explanation": "ସୌର କୋଷ ବିଦ୍ୟୁତ ଉତ୍ପାଦନ ପାଇଁ ବ୍ୟବହାର ହୁଏ।"
+},
+{
+"questionEnglish": "Why is it difficult to get energy from ocean waves?",
+"questionOdia": "ସମୁଦ୍ରରୁ ଶକ୍ତି ମିଳିବା କାହିଁକି କଷ୍ଟ?",
+"options": [
+"ଅଧିକ ଖର୍ଚ୍ଚ",
+"ଉତ୍ତମ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ନାହିଁ",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ",
+"explanation": "ସମୁଦ୍ରରୁ ଶକ୍ତି ପାଇବା ପାଇଁ ବହୁତ ଖର୍ଚ୍ଚ ଓ ଉନ୍ନତ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ଦରକାର।"
+},
+{
+"questionEnglish": "What are fossil fuels made from?",
+"questionOdia": "ଜୀବାଶ୍ମ ଇନ୍ଧନ କେଉଁଥିରୁ ତିଆରି?",
+"options": [
+"ପ୍ରାଚୀନ ଜୀବ",
+"ସୂର୍ଯ୍ୟ",
+"ପବନ",
+"ଜଳ"
+],
+"answer": "ପ୍ରାଚୀନ ଜୀବ",
+"explanation": "ପ୍ରାଚୀନ ଜୀବ ଓ ଗଛଲତା ମାଟିତଳେ ଦବି ରହି ଇନ୍ଧନରେ ପରିଣତ ହୋଇଛନ୍ତି।"
+},
+{
+"questionEnglish": "Is coal renewable?",
+"questionOdia": "କୋଇଲା କଣ ଅକ୍ଷୟ?",
+"options": [
+"ନା",
+"ହଁ",
+"କିଛି ମାତ୍ରାରେ",
+"କହି ହେବ ନାହିଁ"
+],
+"answer": "ନା",
+"explanation": "କୋଇଲା କ୍ଷୟଶୀଳ, ଏହା ସରିଯିବ।"
+},
+{
+"questionEnglish": "What does a turbine do in power plants?",
+"questionOdia": "ପାୱାର ପ୍ଲାଣ୍ଟରେ ଟର୍ବାଇନ୍ କଣ କରେ?",
+"options": [
+"ଘୂରି ବିଦ୍ୟୁତ ଉତ୍ପାଦନରେ ସାହାଯ୍ୟ କରେ",
+"କିଛି କରେ ନାହିଁ",
+"ପାଣି ସଫା କରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଘୂରି ବିଦ୍ୟୁତ ଉତ୍ପାଦନରେ ସାହାଯ୍ୟ କରେ",
+"explanation": "ଟର୍ବାଇନ୍ ଘୂରିବା ଫଳରେ ଜେନେରେଟର ମାଧ୍ୟମରେ ବିଦ୍ୟୁତ ମିଳେ।"
+},
+{
+"questionEnglish": "What is the most common fuel used in homes?",
+"questionOdia": "ଘରେ ସାଧାରଣତଃ କଣ ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"LPG",
+"କୋଇଲା",
+"କାଠ",
+"ପେଟ୍ରୋଲ"
+],
+"answer": "LPG",
+"explanation": "ଆଜିକାଲି ଘରେ ରୋଷେଇ ପାଇଁ LPG ବହୁଳ ବ୍ୟବହୃତ।"
+},
+{
+"questionEnglish": "Is nuclear energy cheap?",
+"questionOdia": "ଆଣବିକ ଶକ୍ତି କଣ ଶସ୍ତା?",
+"options": [
+"ନା, ଏହା ବହୁତ ମହଙ୍ଗା",
+"ହଁ, ବହୁତ ଶସ୍ତା",
+"ମଧ୍ୟମ",
+"କହି ହେବ ନାହିଁ"
+],
+"answer": "ନା, ଏହା ବହୁତ ମହଙ୍ଗା",
+"explanation": "ପ୍ରକଳ୍ପ ସ୍ଥାପନ ଓ ବର୍ଜ୍ୟବସ୍ତୁ ସଫା କରିବାରେ ବହୁତ ଖର୍ଚ୍ଚ ହୁଏ।"
+},
+{
+"questionEnglish": "What happens if we waste energy?",
+"questionOdia": "ଶକ୍ତିର ଅପଚୟ କଲେ କଣ ହେବ?",
+"options": [
+"ଭବିଷ୍ୟତରେ ଶକ୍ତି ଅଭାବ ହେବ",
+"ଶକ୍ତି ବଢ଼ିବ",
+"କିଛି ହେବ ନାହିଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଭବିଷ୍ୟତରେ ଶକ୍ତି ଅଭାବ ହେବ",
+"explanation": "ଅପଚୟ କଲେ ଶକ୍ତି ସମ୍ବଳ ଶୀଘ୍ର ସରିଯିବ।"
+},
+{
+"questionEnglish": "Which of these uses fossil fuel?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଜୀବାଶ୍ମ ଇନ୍ଧନ ବ୍ୟବହାର କରେ?",
+"options": [
+"ତାପଜ ବିଦ୍ୟୁତ କେନ୍ଦ୍ର",
+"ସୌର କୋଷ",
+"ପବନ କଳ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ତାପଜ ବିଦ୍ୟୁତ କେନ୍ଦ୍ର",
+"explanation": "ତାପଜ ବିଦ୍ୟୁତ କେନ୍ଦ୍ର କୋଇଲା ପରି ଜୀବାଶ୍ମ ଇନ୍ଧନ ବ୍ୟବହାର କରେ।"
+},
+{
+"questionEnglish": "What is the primary product of solar cells?",
+"questionOdia": "ସୌର କୋଷର ପ୍ରାଥମିକ ଉତ୍ପାଦ କଣ?",
+"options": [
+"ବିଦ୍ୟୁତ",
+"ତାପ",
+"ପାଣି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବିଦ୍ୟୁତ",
+"explanation": "ସୌର କୋଷ ବିଦ୍ୟୁତ ଦିଏ।"
+},
+{
+"questionEnglish": "What does a windmill need to work?",
+"questionOdia": "ପବନ କଳ ଚଳିବା ପାଇଁ କଣ ଦରକାର?",
+"options": [
+"ପବନ",
+"ପାଣି",
+"ସୂର୍ଯ୍ୟ",
+"କୋଇଲା"
+],
+"answer": "ପବନ",
+"explanation": "ପବନର ବେଗ ଦରକାର।"
+},
+{
+"questionEnglish": "Can we cook with solar energy?",
+"questionOdia": "ସୌର ଶକ୍ତିରେ କଣ ରୋଷେଇ ହୋଇପାରିବ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ପାଣି",
+"କହି ହେବ ନାହିଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସୌର କୁକର ଦ୍ଵାରା ରୋଷେଇ ହୋଇପାରିବ।"
+},
+{
+"questionEnglish": "What is a major problem with fossil fuels?",
+"questionOdia": "ଜୀବାଶ୍ମ ଇନ୍ଧନର ମୁଖ୍ୟ ସମସ୍ୟା କଣ?",
+"options": [
+"ପରିବେଶ ପ୍ରଦୂଷଣ",
+"ଏହା ସହଜରେ ମିଳେ",
+"ଅଧିକ ଶକ୍ତି ଦିଏ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପରିବେଶ ପ୍ରଦୂଷଣ",
+"explanation": "ପ୍ରଦୂଷଣ ହିଁ ମୁଖ୍ୟ ସମସ୍ୟା।"
+},
+{
+"questionEnglish": "Is biogas a renewable energy source?",
+"questionOdia": "ବାୟୋଗ୍ୟାସ କଣ ଅକ୍ଷୟ ଶକ୍ତି?",
+"options": [
+"ହଁ",
+"ନା",
+"କହି ହେବ ନାହିଁ",
+"ଅଧା ସତ"
+],
+"answer": "ହଁ",
+"explanation": "ଜୈବ ବର୍ଜ୍ୟବସ୍ତୁରୁ ମିଳୁଥିବାରୁ ଏହା ଅକ୍ଷୟ।"
+}
 ]
