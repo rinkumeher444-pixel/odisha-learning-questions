@@ -1,122 +1,560 @@
 [
-  {
-    "questionEnglish": "Who is known as the 'Father of Genetics' for his pioneering work on pea plants?",
-    "questionOdia": "ମଟର ଗଛ ଉପରେ ପରୀକ୍ଷା କରି ବଂଶାନୁକ୍ରମର ନିୟମ ପ୍ରତିପାଦନ କରିଥିବାରୁ କାହାକୁ 'ଜେନେଟିକ୍ସର ଜନକ' କୁହାଯାଏ?",
-    "options": [
-      "Gregor Johann Mendel",
-      "Charles Darwin",
-      "Jean-Baptiste Lamarck",
-      "Thomas Hunt Morgan"
-    ],
-    "answer": "Gregor Johann Mendel",
-    "explanation": "Gregor Johann Mendel formulated the fundamental laws of inheritance (Law of Segregation and Law of Independent Assortment) through his controlled hybridization experiments on garden pea plants (Pisum sativum)."
-  },
-  {
-    "questionEnglish": "What is the phenotypic ratio of a Mendelian monohybrid cross in the F2 generation?",
-    "questionOdia": "F2 ପିଢ଼ିରେ ଏକ ସଙ୍କରଣ (Monohybrid Cross) ପରୀକ୍ଷାର ବାହ୍ୟଲକ୍ଷଣ ଅନୁପାତ (Phenotypic Ratio) କେତେ ହୋଇଥାଏ?",
-    "options": [
-      "3:1",
-      "1:2:1",
-      "9:3:3:1",
-      "1:1"
-    ],
-    "answer": "3:1",
-    "explanation": "In a monohybrid cross, crossing the heterozygous F1 generation results in an F2 generation where 75% display the dominant trait and 25% display the recessive trait, giving a phenotypic ratio of 3:1."
-  },
-  {
-    "questionEnglish": "Which molecule carries genetic information from one generation to the next in most living organisms?",
-    "questionOdia": "ଅଧିକାଂଶ ଜୀବମାନଙ୍କଠାରେ ବଂଶଗତ ଗୁଣର ବାହକ ଭାବେ କେଉଁ ଅଣୁ କାର୍ଯ್ಯ କରିଥାଏ?",
-    "options": [
-      "DNA",
-      "RNA",
-      "Protein",
-      "Carbohydrate"
-    ],
-    "answer": "DNA",
-    "explanation": "DNA (Deoxyribonucleic Acid) contains the coded genetic instructions responsible for the inheritance of traits, development, and functioning of organisms."
-  },
-  {
-    "questionEnglish": "What are the structural units of inheritance located on chromosomes that control specific traits called?",
-    "questionOdia": "ଗୁଣସୂତ୍ରରେ ଅବସ୍ଥିତ ଥିବା ବଂଶଗତ ଗୁଣର ନିର୍ଦ୍ଦିଷ୍ଟ କ୍ରିୟାତ୍ମକ ଏକକଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Genes",
-      "Proteins",
-      "Zygotes",
-      "Centromeres"
-    ],
-    "answer": "Genes",
-    "explanation": "Genes (ଜିନ୍) are specific segments of DNA that contain instructions for synthesizing particular proteins, thereby determining specific phenotypic traits."
-  },
-  {
-    "questionEnglish": "Which chromosome combination determines a biological male child in humans?",
-    "questionOdia": "ମାନବ କ୍ଷେତ୍ରରେ କେଉଁ ଗୁଣସୂତ୍ର ସଂଯୋଗ ଦ୍ୱାରା ପୁତ୍ର ସନ୍ତାନ ନିରୂପିତ ହୋଇଥାଏ?",
-    "options": [
-      "XY",
-      "XX",
-      "YY",
-      "XO"
-    ],
-    "answer": "XY",
-    "explanation": "Human females possess two identical sex chromosomes (XX), while males possess one X and one smaller Y chromosome (XY). The inheritance of a Y chromosome from the father determines a male child."
-  },
-  {
-    "questionEnglish": "Organs that have a similar basic structure and origin but perform different functions are called?",
-    "questionOdia": "ଯେଉଁ ଅଙ୍ଗଗୁଡ଼ିକର ମୂଳ ଗଠନ ଓ ଉତ୍ପତ୍ତି ସମାନ କିନ୍ତୁ କାର୍ଯ୍ୟ ଭିନ୍ନ, ସେଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Homologous organs",
-      "Analogous organs",
-      "Vestigial organs",
-      "Rudimentary organs"
-    ],
-    "answer": "Homologous organs",
-    "explanation": "Homologous organs (ସମସଂସ୍ଥ ଅଙ୍ଗ), such as the forelimbs of a human, a frog, and a bird, demonstrate a shared evolutionary ancestry despite adaptive differences in function."
-  },
-  {
-    "questionEnglish": "The wings of a butterfly and the wings of a bird are examples of which type of organs?",
-    "questionOdia": "ଝିଣ୍ଟିକା ବା ପ୍ରଜାପତିର ଡେଣା ଏବଂ ପକ୍ଷୀର ଡେଣା କେଉଁ ପ୍ରକାରର ଅଙ୍ଗର ଉଦାହରଣ?",
-    "options": [
-      "Analogous organs",
-      "Homologous organs",
-      "Vestigial organs",
-      "Atavistic organs"
-    ],
-    "answer": "Analogous organs",
-    "explanation": "Analogous organs (ସମରୂପ ଅଙ୍ଗ) have different structural origins and anatomy but perform similar functions, arising due to convergent evolution in a similar environment."
-  },
-  {
-    "questionEnglish": "Who proposed the famous theory of evolution by 'Natural Selection'?",
-    "questionOdia": "ପ୍ରାକୃତିକ ଉଦ୍‌ବର୍ତ୍ତନ ବା ଚୟନ (Natural Selection) ମାଧ୍ୟମରେ ଜୀବ ବିବର୍ତ୍ତନର ପ୍ରସିଦ୍ଧ ମତବାଦ କିଏ ଉପସ୍ଥାପନ କରିଥିଲେ?",
-    "options": [
-      "Charles Darwin",
-      "Jean-Baptiste Lamarck",
-      "Gregor Mendel",
-      "Hugo de Vries"
-    ],
-    "answer": "Charles Darwin",
-    "explanation": "Charles Darwin published his breakthrough concept in his 1859 book 'On the Origin of Species', explaining how nature selects organisms with advantageous variations."
-  },
-  {
-    "questionEnglish": "What are the preserved remains or traces of ancient organisms that lived millions of years ago called?",
-    "questionOdia": "ଲକ୍ଷ ଲକ୍ଷ ବର୍ଷ ପୂର୍ବେ ବାସ କରୁଥିବା ପ୍ରାଚୀନ ଜୀବମାନଙ୍କର ପ୍ରସ୍ତରୀଭୂତ ଅବଶେଷ ବା ଚିହ୍ନକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Fossils",
-      "Alloys",
-      "Vestiges",
-      "Artifacts"
-    ],
-    "answer": "Fossils",
-    "explanation": "Fossils (ଜୀବାଶ୍ମ) are formed when the remains or impressions of dead organisms escape complete decomposition and get preserved within sedimentary rock layers."
-  },
-  {
-    "questionEnglish": "Which organ in the human body is considered a vestigial organ because it has lost its original ancestral function?",
-    "questionOdia": "ମାନବ ଶରୀରରେ ଥିବା କେଉଁ ଅଙ୍ଗଟିକୁ ଏକ ଅବଶେଷାଙ୍ଗ (Vestigial Organ) ବିବେଚନା କରାଯାଏ କାରଣ ଏହାର କୌଣସି ସକ୍ରିୟ କାର୍ଯ୍ୟ ନାହିଁ?",
-    "options": [
-      "Vermiform Appendix",
-      "Heart",
-      "Kidney",
-      "Pancreas"
-    ],
-    "answer": "Vermiform Appendix",
-    "explanation": "The vermiform appendix is a functional, cellulose-digesting cecum pouch in herbivorous ancestors, but has contracted into a non-functional vestigial remnant in modern humans."
-  }
+{
+"question": "ବଂଶାନୁକ୍ରମିକ ଗୁଣାବଳୀର ପ୍ରଥମ ପ୍ରବକ୍ତା କିଏ?",
+"options": ["ଚାର୍ଲ୍ସ ଡାରୱିନ୍", "ଗ୍ରେଗର୍ ଜୋହାନ ମେଣ୍ଡେଲ୍", "ଲୁଇ ପାଶ୍ଚର୍", "ଜନ୍ ଡାଲଟନ୍"],
+"answer": "ଗ୍ରେଗର୍ ଜୋହାନ ମେଣ୍ଡେଲ୍",
+"explanation": "ଗ୍ରେଗର୍ ଜୋହାନ ମେଣ୍ଡେଲଙ୍କୁ 'ବଂଶାନୁକ୍ରମ ବିଜ୍ଞାନର ପିତା' କୁହାଯାଏ।"
+},
+{
+"question": "ମେଣ୍ଡେଲ୍ ତାଙ୍କ ପରୀକ୍ଷା ପାଇଁ କେଉଁ ଗଛକୁ ବାଛିଥିଲେ?",
+"options": ["ଗୋଲାପ", "ମଟର", "ଧାନ", "ଗହମ"],
+"answer": "ମଟର",
+"explanation": "ମେଣ୍ଡେଲ୍ ମଟର ଗଛ (Pisum sativum) ଉପରେ ପରୀକ୍ଷା କରିଥିଲେ।"
+},
+{
+"question": "ମନୁଷ୍ୟ ଶରୀରରେ କେତେ ଯୋଡ଼ା କ୍ରୋମୋଜୋମ୍ ଥାଏ?",
+"options": ["୨୨", "୨୩", "୪୬", "୨୪"],
+"answer": "୨୩",
+"explanation": "ମନୁଷ୍ୟ ଶରୀରରେ ମୋଟ ୪୬ଟି ବା ୨୩ ଯୋଡ଼ା କ୍ରୋମୋଜୋମ୍ ଥାଏ।"
+},
+{
+"question": "ପୁରୁଷର ଲିଙ୍ଗ ନିର୍ଦ୍ଧାରଣ କାରୀ କ୍ରୋମୋଜୋମ୍ କଣ?",
+"options": ["XX", "XY", "YY", "XO"],
+"answer": "XY",
+"explanation": "ପୁରୁଷର କ୍ରୋମୋଜୋମ୍ ଗଠନ XY ହୋଇଥିବାରୁ ସେ ଲିଙ୍ଗ ନିର୍ଦ୍ଧାରଣ କରନ୍ତି।"
+},
+{
+"question": "ନାରୀର କ୍ରୋମୋଜୋମ୍ ଗଠନ କଣ?",
+"options": ["XX", "XY", "YY", "XO"],
+"answer": "XX",
+"explanation": "ନାରୀଙ୍କ ଶରୀରରେ XX କ୍ରୋମୋଜୋମ୍ ଯୋଡ଼ା ଥାଏ।"
+},
+{
+"question": "ଯେଉଁ ଗୁଣ ପିଢ଼ି ପରେ ପିଢ଼ି ପ୍ରକଟିତ ହୁଏ, ତାକୁ କଣ କୁହାଯାଏ?",
+"options": ["ଅର୍ଜିତ ଗୁଣ", "ବଂଶାନୁକ୍ରମିକ ଗୁଣ", "ପରିବେଶଜ ଗୁଣ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବଂଶାନୁକ୍ରମିକ ଗୁଣ",
+"explanation": "ପିତାମାତାଙ୍କଠାରୁ ସନ୍ତାନଙ୍କୁ ମିଳୁଥିବା ଗୁଣକୁ ବଂଶାନୁକ୍ରମିକ ଗୁଣ କୁହନ୍ତି।"
+},
+{
+"question": "DNA ର ପୂର୍ଣ୍ଣ ରୂପ କଣ?",
+"options": ["Deoxyribonucleic Acid", "Double Nucleic Acid", "Deoxyribo Natural Acid", "None"],
+"answer": "Deoxyribonucleic Acid",
+"explanation": "DNA ର ଅର୍ଥ ହେଉଛି Deoxyribonucleic Acid, ଯାହା ଜେନେଟିକ୍ ସୂଚନା ବହନ କରେ।"
+},
+{
+"question": "ବିବର୍ତ୍ତନର ଜନକ ଭାବେ କାହାକୁ ଜଣାଯାଏ?",
+"options": ["ମେଣ୍ଡେଲ୍", "ଚାର୍ଲ୍ସ ଡାରୱିନ୍", "ଲାମାର୍କ", "ଆରିଷ୍ଟୋଟଲ୍"],
+"answer": "ଚାର୍ଲ୍ସ ଡାରୱିନ୍",
+"explanation": "ଚାର୍ଲ୍ସ ଡାରୱିନ୍ ବିବର୍ତ୍ତନର ପ୍ରାକୃତିକ ନିର୍ବାଚନ ମତବାଦ ଦେଇଥିଲେ।"
+},
+{
+"question": "ଜୀବମାନଙ୍କ ମଧ୍ୟରେ ଘଟୁଥିବା ଧୀର ପରିବର୍ତ୍ତନକୁ କଣ କୁହାଯାଏ?",
+"options": ["ବିବର୍ତ୍ତନ", "ବୃଦ୍ଧି", "ବଂଶବୃଦ୍ଧି", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବିବର୍ତ୍ତନ",
+"explanation": "ଲକ୍ଷ ଲକ୍ଷ ବର୍ଷ ଧରି ଜୀବଙ୍କଠାରେ ହେଉଥିବା ପରିବର୍ତ୍ତନକୁ ବିବର୍ତ୍ତନ କୁହନ୍ତି।"
+},
+{
+"question": "କେଉଁଟି ଏକ ଅର୍ଜିତ ଗୁଣ ନୁହେଁ?",
+"options": ["ଖେଳିବା", "ପଢ଼ିବା", "ଆଖିର ରଙ୍ଗ", "ସାଇକେଲ ଚଲାଇବା"],
+"answer": "ଆଖିର ରଙ୍ଗ",
+"explanation": "ଆଖିର ରଙ୍ଗ ଏକ ବଂଶାନୁକ୍ରମିକ ଗୁଣ, ଏହା ଅର୍ଜିତ ନୁହେଁ।"
+},
+{
+"question": "ମେଣ୍ଡେଲ୍‌ଙ୍କ ମତରେ ପ୍ରଭାବୀ ଗୁଣ କଣ?",
+"options": ["ଯାହା F1 ପିଢ଼ିରେ ଦେଖାଦିଏ", "ଯାହା ଲୁକ୍କାୟିତ ରହେ", "ଯାହା ଉଭୟ ଦେଖାଦିଏ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଯାହା F1 ପିଢ଼ିରେ ଦେଖାଦିଏ",
+"explanation": "F1 ପିଢ଼ିରେ ଯେଉଁ ଲକ୍ଷଣ ପ୍ରକାଶ ପାଏ ତାହା ପ୍ରଭାବୀ।"
+},
+{
+"question": "ଜୀନ୍‌ର ମୂଳ ଉପାଦାନ କଣ?",
+"options": ["RNA", "DNA", "ପ୍ରୋଟିନ୍", "କାର୍ବୋହାଇଡ୍ରେଟ୍"],
+"answer": "DNA",
+"explanation": "ଜୀନ୍ DNA ର ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ଅଂଶ ଯାହା ଲକ୍ଷଣ ନିର୍ଦ୍ଧାରଣ କରେ।"
+},
+{
+"question": "ଜୀବର ସ୍ୱରୂପକୁ କଣ କୁହାଯାଏ?",
+"options": ["ଜିନୋଟାଇପ୍", "ଫିନୋଟାଇପ୍", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଫିନୋଟାଇପ୍",
+"explanation": "ଜୀବର ବାହ୍ୟ ଗଠନ ବା ଲକ୍ଷଣକୁ ଫିନୋଟାଇପ୍ କୁହନ୍ତି।"
+},
+{
+"question": "ମେଣ୍ଡେଲ୍‌ଙ୍କ ଦ୍ୱି-ସଂକରଣ ଅନୁପାତ କଣ?",
+"options": ["3:1", "1:2:1", "9:3:3:1", "1:1:1:1"],
+"answer": "9:3:3:1",
+"explanation": "ଦୁଇଟି ଯୋଡ଼ା ଲକ୍ଷଣ ପାଇଁ ଅନୁପାତ 9:3:3:1 ହୁଏ।"
+},
+{
+"question": "କେଉଁଠାରେ ଜୀବମାନଙ୍କର ବିବର୍ତ୍ତନ ଇତିହାସ ଲୁଚି ରହିଛି?",
+"options": ["ଜୀବାଶ୍ମ", "ମାଟି", "ପାଣି", "ପଥର"],
+"answer": "ଜୀବାଶ୍ମ",
+"explanation": "ଜୀବାଶ୍ମ ଅଧ୍ୟୟନରୁ ବିବର୍ତ୍ତନର ପ୍ରମାଣ ମିଳେ।"
+},
+{
+"question": "ମନୁଷ୍ୟ ଏବଂ ଚିମ୍ପାଞ୍ଜିଙ୍କ ମଧ୍ୟରେ କଣ ସାମଞ୍ଜସ୍ୟ ଅଛି?",
+"options": ["ପୂର୍ବପୁରୁଷ ସମାନ", "କୌଣସି ନୁହେଁ", "କେବଳ ଖାଦ୍ୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପୂର୍ବପୁରୁଷ ସମାନ",
+"explanation": "ବିବର୍ତ୍ତନ ଅନୁସାରେ ମନୁଷ୍ୟ ଓ ଚିମ୍ପାଞ୍ଜିଙ୍କ ପୂର୍ବପୁରୁଷ ସମାନ ଥିଲେ।"
+},
+{
+"question": "ଜୀବ କୋଷର କେନ୍ଦ୍ରକରେ କଣ ଥାଏ?",
+"options": ["କ୍ରୋମୋଜୋମ୍", "ସାଇଟୋପ୍ଲାଜମ୍", "ମାଇଟୋକଣ୍ଡ୍ରିଆ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "କ୍ରୋମୋଜୋମ୍",
+"explanation": "କୋଷ କେନ୍ଦ୍ରକରେ ବଂଶାନୁକ୍ରମିକ ପଦାର୍ଥ କ୍ରୋମୋଜୋମ୍ ଥାଏ।"
+},
+{
+"question": "କେଉଁ ଜୀବ ବଂଶାନୁକ୍ରମ ପରୀକ୍ଷା ପାଇଁ ଅଧିକ ବ୍ୟବହୃତ ହୁଏ?",
+"options": ["ଡ୍ରୋସୋଫିଲା", "ମୂଷା", "ବିଲେଇ", "କୁକୁର"],
+"answer": "ଡ୍ରୋସୋଫିଲା",
+"explanation": "ଫଳ ମାଛି (ଡ୍ରୋସୋଫିଲା) ଜେନେଟିକ୍ ଅଧ୍ୟୟନରେ ବହୁଳ ବ୍ୟବହାର ହୁଏ।"
+},
+{
+"question": "ବଂଶାନୁକ୍ରମ ପାଇଁ କେଉଁ କୋଷ ବିଭାଜନ ଦାୟୀ?",
+"options": ["ମାଇଟୋସିସ୍", "ମିଓସିସ୍", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ମିଓସିସ୍",
+"explanation": "ମିଓସିସ୍ ବିଭାଜନ ଯୋଗୁଁ ଯୌନ ପ୍ରଜନନରେ ଗୁଣାବଳୀ ସ୍ଥାନାନ୍ତର ହୁଏ।"
+},
+{
+"question": "ପ୍ରାକୃତିକ ନିର୍ବାଚନ ମତବାଦ କିଏ ଦେଇଥିଲେ?",
+"options": ["ମେଣ୍ଡେଲ୍", "ଡାରୱିନ୍", "ଲାମାର୍କ", "ହ୍ୟୁଗୋ ଡି ଭ୍ରିସ୍"],
+"answer": "ଡାରୱିନ୍",
+"explanation": "ପ୍ରାକୃତିକ ନିର୍ବାଚନ (Natural Selection) ଡାରୱିନ୍‌ଙ୍କ ମତବାଦ।"
+},
+{
+"question": "ବିବର୍ତ୍ତନର ପ୍ରଥମ ସୋପାନ କଣ?",
+"options": ["ପରିବର୍ତ୍ତନ", "ବଂଶ ବୃଦ୍ଧି", "ମୃତ୍ୟୁ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପରିବର୍ତ୍ତନ",
+"explanation": "ଜୀବଙ୍କଠାରେ ହେଉଥିବା ଛୋଟ ପରିବର୍ତ୍ତନ ହିଁ ବିବର୍ତ୍ତନର ମୂଳ।"
+},
+{
+"question": "କେଉଁଟି ସମତୁଲ ଅଙ୍ଗ (Homologous organ) ର ଉଦାହରଣ?",
+"options": ["ମଣିଷର ହାତ ଓ ଚିମ୍ପାଞ୍ଜିର ହାତ", "ପକ୍ଷୀର ଡେଣା ଓ କୀଟର ଡେଣା", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ମଣିଷର ହାତ ଓ ଚିମ୍ପାଞ୍ଜିର ହାତ",
+"explanation": "ଉତ୍ପତ୍ତି ସମାନ ଥିବା ଅଙ୍ଗକୁ ସମତୁଲ ଅଙ୍ଗ କୁହନ୍ତି।"
+},
+{
+"question": "ବଂଶାନୁକ୍ରମିକ ସୂଚନା କେଉଁଠାରେ ସାଇତା ହୋଇଥାଏ?",
+"options": ["RNA", "DNA", "ପ୍ରୋଟିନ୍", "ଲିପିଡ୍"],
+"answer": "DNA",
+"explanation": "DNA ଜୀବର ସମସ୍ତ ଗୁଣର କୋଡ୍ ବହନ କରେ।"
+},
+{
+"question": "ମେଣ୍ଡେଲ୍‌ଙ୍କ ମଟର ଗଛର କେଉଁ ରଙ୍ଗ ପ୍ରଭାବୀ?",
+"options": ["ସବୁଜ", "ହଳଦିଆ", "ଧଳା", "ବାଇଗଣୀ"],
+"answer": "ହଳଦିଆ",
+"explanation": "ମଟର ଦାନାର ହଳଦିଆ ରଙ୍ଗ ସବୁଜ ଉପରେ ପ୍ରଭାବୀ।"
+},
+{
+"question": "କୋଷରେ ଥିବା କେଉଁ ପଦାର୍ଥ ପିତାମାତାଙ୍କ ଗୁଣ ବହନ କରେ?",
+"options": ["କ୍ରୋମୋଜୋମ୍", "ସାଇଟୋପ୍ଲାଜମ୍", "ରିବୋଜୋମ୍", "ଲାଇସୋଜୋମ୍"],
+"answer": "କ୍ରୋମୋଜୋମ୍",
+"explanation": "କ୍ରୋମୋଜୋମ୍‌ରେ ଥିବା ଜୀନ୍ ପିତାମାତାଙ୍କ ଗୁଣ ବହନ କରେ।"
+},
+{
+"question": "ଜୀବମାନଙ୍କ ମଧ୍ୟରେ କାହିଁକି ବୈଶିଷ୍ଟ୍ୟ ଦେଖାଯାଏ?",
+"options": ["DNA ର ପରିବର୍ତ୍ତନ", "ଖାଦ୍ୟ", "ପରିବେଶ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "DNA ର ପରିବର୍ତ୍ତନ",
+"explanation": "DNA ରେ ଘଟୁଥିବା ପରିବର୍ତ୍ତନ (Mutation) ଯୋଗୁଁ ବୈଶିଷ୍ଟ୍ୟ ଦେଖାଯାଏ।"
+},
+{
+"question": "ଜୀବାଶ୍ମ କେଉଁଠାରେ ମିଳିଥାଏ?",
+"options": ["ପଥର ସ୍ତର", "ବାୟୁ", "ପାଣି", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପଥର ସ୍ତର",
+"explanation": "ପୃଥିବୀର ପଥର ସ୍ତରରେ ଜୀବାଶ୍ମ ସାଇତା ହୋଇ ରହିଥାଏ।"
+},
+{
+"question": "କେଉଁଟି ମନୁଷ୍ୟର ଅବଶେଷୀ ଅଙ୍ଗ (Vestigial organ)?",
+"options": ["ଆପେଣ୍ଡିକ୍ସ", "ହାତ", "ଆଖି", "କାନ"],
+"answer": "ଆପେଣ୍ଡିକ୍ସ",
+"explanation": "ଆପେଣ୍ଡିକ୍ସ ବର୍ତ୍ତମାନର ମନୁଷ୍ୟ ଶରୀରରେ କୌଣସି କାର୍ଯ୍ୟ କରେ ନାହିଁ।"
+},
+{
+"question": "ଲାମାର୍କ କେଉଁ ମତବାଦ ଦେଇଥିଲେ?",
+"options": ["ପ୍ରାକୃତିକ ନିର୍ବାଚନ", "ଅର୍ଜିତ ଗୁଣର ଉତ୍ତରାଧିକାର", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଅର୍ଜିତ ଗୁଣର ଉତ୍ତରାଧିକାର",
+"explanation": "ଲାମାର୍କ କହିଥିଲେ ଯେ ଜୀବ ଅର୍ଜିତ ଗୁଣକୁ ପରବର୍ତ୍ତୀ ପିଢ଼ିକୁ ଦେଇଥାଏ।"
+},
+{
+"question": "ଜୀବର ବିକାଶ ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+"options": ["ବିବର୍ତ୍ତନ", "ବିଶ୍ଳେଷଣ", "ପ୍ରଜନନ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବିବର୍ତ୍ତନ",
+"explanation": "ସରଳ ଜୀବରୁ ଜଟିଳ ଜୀବ ସୃଷ୍ଟି ହେବା ପ୍ରକ୍ରିୟା ବିବର୍ତ୍ତନ।"
+},
+{
+"question": "କେଉଁ ଗଛରୁ ମେଣ୍ଡେଲ୍ ତାଙ୍କ ପରୀକ୍ଷା ଆରମ୍ଭ କରିଥିଲେ?",
+"options": ["ଗୋଲାପ", "ମଟର", "ଫୁଲକୋବି", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ମଟର",
+"explanation": "ମେଣ୍ଡେଲ୍ ମଟର ଗଛ ଉପରେ ପରୀକ୍ଷା କରିଥିଲେ।"
+},
+{
+"question": "ଜୀନ୍ କେଉଁଠାରେ ଥାଏ?",
+"options": ["କ୍ରୋମୋଜୋମ୍", "ସାଇଟୋପ୍ଲାଜମ୍", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "କ୍ରୋମୋଜୋମ୍",
+"explanation": "ଜୀନ୍‌ଗୁଡ଼ିକ କ୍ରୋମୋଜୋମ୍ ଉପରେ ରୈଖିକ ଭାବେ ସଜ୍ଜିତ।"
+},
+{
+"question": "ସନ୍ତାନର ଲିଙ୍ଗ କିଏ ନିର୍ଦ୍ଧାରଣ କରେ?",
+"options": ["ମାଆ", "ବାପା", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବାପା",
+"explanation": "ପିତାଙ୍କଠାରୁ ଆସୁଥିବା X ବା Y ଶୁକ୍ରାଣୁ ଲିଙ୍ଗ ନିର୍ଦ୍ଧାରଣ କରେ।"
+},
+{
+"question": "ବଂଶାନୁକ୍ରମ ପାଇଁ କେଉଁ ପ୍ରକାର ପ୍ରଜନନ ଆବଶ୍ୟକ?",
+"options": ["ଯୌନ", "ଅଯୌନ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଯୌନ",
+"explanation": "ଯୌନ ପ୍ରଜନନ ଯୋଗୁଁ ବୈଶିଷ୍ଟ୍ୟ ଆସେ।"
+},
+{
+"question": "କେଉଁଟି ବିବର୍ତ୍ତନର ପ୍ରମାଣ ଦିଏ?",
+"options": ["ଜୀବାଶ୍ମ", "ଅବଶେଷୀ ଅଙ୍ଗ", "ସମତୁଲ ଅଙ୍ଗ", "ଉପରୋକ୍ତ ସମସ୍ତ"],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ଜୀବାଶ୍ମ, ଅବଶେଷୀ ଅଙ୍ଗ ଓ ସମତୁଲ ଅଙ୍ଗ ସବୁ ବିବର୍ତ୍ତନର ପ୍ରମାଣ।"
+},
+{
+"question": "ପରିବର୍ତ୍ତନ (Mutation) କାହା ଦ୍ୱାରା ଘଟେ?",
+"options": ["DNA ରେ ଭୁଲ", "ଖାଦ୍ୟ", "ପାଣି", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "DNA ରେ ଭୁଲ",
+"explanation": "DNA ପ୍ରତିଲିପି ସମୟରେ ଭୁଲ ହେଲେ ପରିବର୍ତ୍ତନ ଘଟେ।"
+},
+{
+"question": "କେଉଁଟି DNA ର ଅଂଶ?",
+"options": ["ଜୀନ୍", "ରାଇବୋଜୋମ୍", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଜୀନ୍",
+"explanation": "ଜୀନ୍ ହେଉଛି DNA ର ଗଠନମୂଳକ ଅଂଶ।"
+},
+{
+"question": "ଜୀବଜଗତ କାହିଁକି ବିବର୍ତ୍ତନ ହୁଏ?",
+"options": ["ବଞ୍ଚିବା ପାଇଁ", "ଖାଇବା ପାଇଁ", "ସମୟ ପାଇଁ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବଞ୍ଚିବା ପାଇଁ",
+"explanation": "ପରିବର୍ତ୍ତିତ ପରିବେଶରେ ବଞ୍ଚିବା ପାଇଁ ଜୀବ ବିବର୍ତ୍ତନ କରେ।"
+},
+{
+"question": "କେଉଁଟି ମନୁଷ୍ୟର ଜେନେଟିକ୍ ରୋଗ?",
+"options": ["ହିମୋଫିଲିଆ", "କାଶ", "ଜ୍ୱର", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ହିମୋଫିଲିଆ",
+"explanation": "ହିମୋଫିଲିଆ ଏକ ବଂଶାନୁକ୍ରମିକ ରୋଗ।"
+},
+{
+"question": "ଜୀବର ଗୁଣାବଳୀ କାହା ଦ୍ୱାରା ନିୟନ୍ତ୍ରିତ?",
+"options": ["ଜୀନ୍", "ପ୍ରୋଟିନ୍", "ଶର୍କରା", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଜୀନ୍",
+"explanation": "ଜୀବର ପ୍ରତ୍ୟେକ ଗୁଣ ଜୀନ୍ ଦ୍ୱାରା ନିୟନ୍ତ୍ରିତ।"
+},
+{
+"question": "କେଉଁଟି DNA ରେ ନଥାଏ?",
+"options": ["ୟୁରାସିଲ୍", "ଆଡେନିନ୍", "ଗୁଆନିନ୍", "ସାଇଟୋସିନ୍"],
+"answer": "ୟୁରାସିଲ୍",
+"explanation": "DNA ରେ ଥାଇମିନ୍ ଥାଏ, ୟୁରାସିଲ୍ RNA ରେ ଥାଏ।"
+},
+{
+"question": "କେଉଁଟି ବିବର୍ତ୍ତନର ସାକ୍ଷ୍ୟ ଦିଏ?",
+"options": ["ସମତୁଲ ଅଙ୍ଗ", "ସାଦୃଶ୍ୟ ଅଙ୍ଗ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଉଭୟ",
+"explanation": "ଉଭୟ ସମତୁଲ ଓ ସାଦୃଶ୍ୟ ଅଙ୍ଗ ବିବର୍ତ୍ତନର ସାକ୍ଷ୍ୟ ଦିଏ।"
+},
+{
+"question": "ବଂଶାନୁକ୍ରମିକ ଗୁଣ କିପରି ସ୍ଥାନାନ୍ତର ହୁଏ?",
+"options": ["ପିତାମାତାଙ୍କଠାରୁ", "ଖାଦ୍ୟରୁ", "ପରିବେଶରୁ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପିତାମାତାଙ୍କଠାରୁ",
+"explanation": "ପିତାମାତାଙ୍କ ଗାମେଟ୍ ମାଧ୍ୟମରେ ଗୁଣ ସ୍ଥାନାନ୍ତର ହୁଏ।"
+},
+{
+"question": "କେଉଁଟି ସବୁଠାରୁ ପୁରୁଣା ଜୀବ?",
+"options": ["ବ୍ୟାକ୍ଟେରିଆ", "ମଣିଷ", "ଗଛ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବ୍ୟାକ୍ଟେରିଆ",
+"explanation": "ବ୍ୟାକ୍ଟେରିଆ ହେଉଛି ପୃଥିବୀର ପୁରୁଣା ଜୀବ।"
+},
+{
+"question": "ମେଣ୍ଡେଲ୍‌ଙ୍କ ଦ୍ୱି-ସଂକରଣ ପରୀକ୍ଷାରେ କେଉଁ ଅନୁପାତ ମିଳିଥିଲା?",
+"options": ["9:3:3:1", "3:1", "1:2:1", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "9:3:3:1",
+"explanation": "ମେଣ୍ଡେଲ୍ 9:3:3:1 ଅନୁପାତ ପାଇଥିଲେ।"
+},
+{
+"question": "ଆମେ ଆମର ପୂର୍ବପୁରୁଷଙ୍କଠାରୁ କଣ ପାଇଥାଉ?",
+"options": ["ଜୀନ୍", "ଟଙ୍କା", "ଜମି", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଜୀନ୍",
+"explanation": "ଜୀନ୍ ହିଁ ବଂଶାନୁକ୍ରମିକ ଦାନ।"
+},
+{
+"question": "କେଉଁଟି ବୈଜ୍ଞାନିକ ଉପାୟ?",
+"options": ["ପରୀକ୍ଷା", "ଗପ", "କଳ୍ପନା", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପରୀକ୍ଷା",
+"explanation": "ପରୀକ୍ଷା ହିଁ ବିଜ୍ଞାନର ଆଧାର।"
+},
+{
+"question": "ବିବର୍ତ୍ତନ ସମୟରେ କଣ ଘଟେ?",
+"options": ["ଜୀବର ପରିବର୍ତ୍ତନ", "ଜୀବର ସ୍ଥିରତା", "କୌଣସିଟି ନୁହେଁ", "ବୃଦ୍ଧି"],
+"answer": "ଜୀବର ପରିବର୍ତ୍ତନ",
+"explanation": "ବିବର୍ତ୍ତନରେ ଜୀବମାନେ ସମୟ ସହ ବଦଳନ୍ତି।"
+},
+{
+"question": "ମଣିଷର କେଉଁ ଅଙ୍ଗଟି ବିବର୍ତ୍ତନର ସାକ୍ଷୀ?",
+"options": ["କାନର ପେଶୀ", "ଆଖି", "ହାତ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "କାନର ପେଶୀ",
+"explanation": "କାନର ପେଶୀ ଅବଶେଷୀ ଅଙ୍ଗ ଭାବେ ରହିଛି।"
+},
+{
+"question": "କେଉଁଟି ଲିଙ୍ଗ ନିର୍ଦ୍ଧାରଣରେ ବାଧା ସୃଷ୍ଟି କରେ?",
+"options": ["କୌଣସି ନୁହେଁ", "ଖାଦ୍ୟ", "ପାଣି", "ପରିବେଶ"],
+"answer": "କୌଣସି ନୁହେଁ",
+"explanation": "ଲିଙ୍ଗ ନିର୍ଦ୍ଧାରଣ କ୍ରୋମୋଜୋମ୍ ଦ୍ୱାରା ହୁଏ, ଏଥିରେ ପରିବେଶ ପ୍ରଭାବ ପକାଏ ନାହିଁ।"
+},
+{
+"question": "ମେଣ୍ଡେଲ୍‌ଙ୍କ ଏକ-ସଂକରଣ ଅନୁପାତ କଣ?",
+"options": ["3:1", "1:1", "2:1", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "3:1",
+"explanation": "ଫିନୋଟାଇପ୍ ଅନୁପାତ 3:1 ଥିଲା।"
+},
+{
+"question": "ଜୀବର ଜେନେଟିକ୍ କୋଡ୍ କେଉଁଠାରେ ଥାଏ?",
+"options": ["DNA", "RNA", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "DNA",
+"explanation": "DNA ରେ ସମସ୍ତ ସୂଚନା ସାଇତା ଥାଏ।"
+},
+{
+"question": "ଆଖିର ରଙ୍ଗ ପାଇଁ କେଉଁଟି ଦାୟୀ?",
+"options": ["ଜୀନ୍", "ପ୍ରୋଟିନ୍", "ଶର୍କରା", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଜୀନ୍",
+"explanation": "ଆଖିର ରଙ୍ଗ ଜୀନ୍ ଦ୍ୱାରା ନିର୍ଦ୍ଧାରିତ।"
+},
+{
+"question": "ବିବର୍ତ୍ତନରେ କେଉଁମାନେ ବଞ୍ଚି ରହନ୍ତି?",
+"options": ["ଯୋଗ୍ୟତମ", "ଦୁର୍ବଳ", "କୌଣସିଟି ନୁହେଁ", "ସବୁ"],
+"answer": "ଯୋଗ୍ୟତମ",
+"explanation": "Survival of the fittest (ଯୋଗ୍ୟତମ ଜୀବଙ୍କ ବଞ୍ଚିବା)।"
+},
+{
+"question": "କେଉଁଟି ପରିବର୍ତ୍ତନଶୀଳ?",
+"options": ["DNA", "ପଥର", "କାଠ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "DNA",
+"explanation": "DNA ରେ ପରିବର୍ତ୍ତନ ଘଟିପାରେ।"
+},
+{
+"question": "ବଂଶାନୁକ୍ରମିକ ଗୁଣ କିପରି ସଞ୍ଚାରିତ ହୁଏ?",
+"options": ["ଜନନ କୋଷ", "ଦେହ କୋଷ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଜନନ କୋଷ",
+"explanation": "କେବଳ ଜନନ କୋଷ ମାଧ୍ୟମରେ ଗୁଣ ପିଢ଼ିକୁ ଯାଏ।"
+},
+{
+"question": "କେଉଁଟି ମେଣ୍ଡେଲ୍‌ଙ୍କ ନିୟମ?",
+"options": ["ପୃଥକୀକରଣ ନିୟମ", "ଗୁରୁତ୍ୱାକର୍ଷଣ ନିୟମ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପୃଥକୀକରଣ ନିୟମ",
+"explanation": "ମେଣ୍ଡେଲ୍ ପୃଥକୀକରଣ ନିୟମ ଦେଇଥିଲେ।"
+},
+{
+"question": "କେଉଁଟି ଜୀବାଶ୍ମର ପ୍ରକାର?",
+"options": ["ମୁଦ୍ରଣ", "ହାଡ଼", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଉଭୟ",
+"explanation": "ଜୀବାଶ୍ମ ଛାପ ବା ଶରୀରର ଅବଶେଷ ହୋଇପାରେ।"
+},
+{
+"question": "DNA ର ଆକୃତି କିପରି?",
+"options": ["ଡବଲ୍ ହେଲିକ୍ସ", "ସିଧା", "ବର୍ଗାକାର", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଡବଲ୍ ହେଲିକ୍ସ",
+"explanation": "DNA ଦୁଇଟି ସୂତ୍ର ବିଶିଷ୍ଟ ପେଞ୍ଚାକାର।"
+},
+{
+"question": "ବିବର୍ତ୍ତନ କିପରି ପ୍ରକ୍ରିୟା?",
+"options": ["ଧୀର", "ଦ୍ରୁତ", "ହଠାତ୍", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଧୀର",
+"explanation": "ବିବର୍ତ୍ତନ ହେଉଛି ଏକ ଅତ୍ୟନ୍ତ ଧୀର ପ୍ରକ୍ରିୟା।"
+},
+{
+"question": "କେଉଁଟି ଜୀବର ମୌଳିକ ଗୁଣ?",
+"options": ["ପ୍ରଜନନ", "ଖାଦ୍ୟ", "ନିଶ୍ୱାସ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପ୍ରଜନନ",
+"explanation": "ପ୍ରଜନନ ଦ୍ୱାରା ଜୀବ ନିଜ ବଂଶ ରକ୍ଷା କରେ।"
+},
+{
+"question": "ଜୀନ୍ କୁ କଣ କୁହାଯାଏ?",
+"options": ["ବଂଶାନୁକ୍ରମର ଏକକ", "ଶକ୍ତିର ଏକକ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବଂଶାନୁକ୍ରମର ଏକକ",
+"explanation": "ଜୀନ୍ ହିଁ ବଂଶାନୁକ୍ରମର ଏକକ।"
+},
+{
+"question": "କେଉଁଟି ଜେନେଟିକ୍ ସୂଚନା ବହନ କରେ?",
+"options": ["DNA", "RNA", "ପ୍ରୋଟିନ୍", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "DNA",
+"explanation": "DNA ସୂଚନା ସାଇତା ରଖେ।"
+},
+{
+"question": "ମେଣ୍ଡେଲ୍ କେଉଁ ଦେଶର ବୈଜ୍ଞାନିକ?",
+"options": ["ଅଷ୍ଟ୍ରିଆ", "ଭାରତ", "ଆମେରିକା", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଅଷ୍ଟ୍ରିଆ",
+"explanation": "ମେଣ୍ଡେଲ୍ ଅଷ୍ଟ୍ରିଆର ଜଣେ ସନ୍ନ୍ୟାସୀ ଥିଲେ।"
+},
+{
+"question": "କେଉଁଟି ପ୍ରଜନନର ପ୍ରକାର?",
+"options": ["ଯୌନ ଓ ଅଯୌନ", "କେବଳ ଯୌନ", "କେବଳ ଅଯୌନ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଯୌନ ଓ ଅଯୌନ",
+"explanation": "ପ୍ରଜନନର ଦୁଇଟି ମୁଖ୍ୟ ପ୍ରକାର।"
+},
+{
+"question": "ଜୀବ ନିଜର ପ୍ରତିରୂପ କିପରି ସୃଷ୍ଟି କରେ?",
+"options": ["ପ୍ରଜନନ", "ବିବର୍ତ୍ତନ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପ୍ରଜନନ",
+"explanation": "ପ୍ରଜନନ ଦ୍ୱାରା ଜୀବ ନିଜ ଭଳି ଜୀବ ସୃଷ୍ଟି କରେ।"
+},
+{
+"question": "ବିବର୍ତ୍ତନରେ ମଣିଷର କେଉଁ ଅଙ୍ଗ ଅଧିକ ବିକଶିତ?",
+"options": ["ମସ୍ତିଷ୍କ", "ହାତ", "ପାଦ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ମସ୍ତିଷ୍କ",
+"explanation": "ମଣିଷର ବିକଶିତ ମସ୍ତିଷ୍କ ହିଁ ତାକୁ ଅନ୍ୟ ଜୀବଙ୍କଠାରୁ ଅଲଗା କରେ।"
+},
+{
+"question": "କେଉଁଟି ଜୀବାଶ୍ମରୁ ଜଣାପଡ଼େ?",
+"options": ["ପୂର୍ବର ଜୀବ", "ବର୍ତ୍ତମାନର ଜୀବ", "ଭବିଷ୍ୟତର ଜୀବ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପୂର୍ବର ଜୀବ",
+"explanation": "ଜୀବାଶ୍ମ ପୂର୍ବରୁ ବିଲୁପ୍ତ ଜୀବଙ୍କ ସୂଚନା ଦିଏ।"
+},
+{
+"question": "DNA ର ଦୁଇଟି ସୂତ୍ର କାହା ଦ୍ୱାରା ଯୋଡ଼ି ହୋଇଥାଏ?",
+"options": ["ହାଇଡ୍ରୋଜେନ୍ ବନ୍ଧନ", "କାର୍ବନ୍ ବନ୍ଧନ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ହାଇଡ୍ରୋଜେନ୍ ବନ୍ଧନ",
+"explanation": "କ୍ଷାରଗୁଡ଼ିକ ହାଇଡ୍ରୋଜେନ୍ ବନ୍ଧନ ଦ୍ୱାରା ଯୋଡ଼ି ହୁଅନ୍ତି।"
+},
+{
+"question": "ଜୀନ୍ କୁ କିଏ ଆବିଷ୍କାର କରିଥିଲେ?",
+"options": ["ମେଣ୍ଡେଲ୍", "ଡାରୱିନ୍", "ଲାମାର୍କ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ମେଣ୍ଡେଲ୍",
+"explanation": "ମେଣ୍ଡେଲ୍ 'ଫ୍ୟାକ୍ଟର' ନାମରେ ଏହାକୁ କହିଥିଲେ।"
+},
+{
+"question": "କେଉଁଟି ଯୌନ ପ୍ରଜନନର ଫଳ?",
+"options": ["ବୈଶିଷ୍ଟ୍ୟ", "ସମାନତା", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବୈଶିଷ୍ଟ୍ୟ",
+"explanation": "ଯୌନ ପ୍ରଜନନ ଯୋଗୁଁ ନୂଆ ବୈଶିଷ୍ଟ୍ୟ ଆସେ।"
+},
+{
+"question": "ମେଣ୍ଡେଲ୍‌ଙ୍କ ମଟର ଗଛର ବିପରୀତ ଗୁଣ କଣ?",
+"options": ["ଉଚ୍ଚ ଓ ବୁଟା", "ଲାଲ ଓ ନୀଳ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଉଚ୍ଚ ଓ ବୁଟା",
+"explanation": "ଉଚ୍ଚତା ମଟର ଗଛର ଏକ ବିପରୀତ ଗୁଣ।"
+},
+{
+"question": "ଜୀବର ବିବର୍ତ୍ତନ କାହା ଉପରେ ନିର୍ଭର କରେ?",
+"options": ["ପରିବେଶ", "ଖାଦ୍ୟ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପରିବେଶ",
+"explanation": "ପରିବେଶ ଅନୁସାରେ ଜୀବ ବିବର୍ତ୍ତନ କରେ।"
+},
+{
+"question": "କେଉଁଟି DNA ରେ ଥାଏ?",
+"options": ["ଥାଇମିନ୍", "ୟୁରାସିଲ୍", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଥାଇମିନ୍",
+"explanation": "DNA ରେ ଥାଇମିନ୍ ଥାଏ।"
+},
+{
+"question": "ବଂଶାନୁକ୍ରମିକ ଗୁଣ କିଏ ବହନ କରେ?",
+"options": ["କ୍ରୋମୋଜୋମ୍", "ସାଇଟୋପ୍ଲାଜମ୍", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "କ୍ରୋମୋଜୋମ୍",
+"explanation": "କ୍ରୋମୋଜୋମ୍ ହିଁ ବାହକ।"
+},
+{
+"question": "ମେଣ୍ଡେଲ୍ କେତେଟି ଲକ୍ଷଣ ଉପରେ ପରୀକ୍ଷା କରିଥିଲେ?",
+"options": ["୭ଟି", "୧ଟି", "୨ଟି", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "୭ଟି",
+"explanation": "ମେଣ୍ଡେଲ୍ ୭ ଯୋଡ଼ା ବିପରୀତ ଲକ୍ଷଣ ବାଛିଥିଲେ।"
+},
+{
+"question": "କେଉଁଟି ପ୍ରଜନନର ଉଦ୍ଦେଶ୍ୟ?",
+"options": ["ବଂଶ ବୃଦ୍ଧି", "ଖାଦ୍ୟ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବଂଶ ବୃଦ୍ଧି",
+"explanation": "ବଂଶ ବୃଦ୍ଧି ହିଁ ପ୍ରଜନନର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ।"
+},
+{
+"question": "ବିବର୍ତ୍ତନ କିପରି ସାଧିତ ହୁଏ?",
+"options": ["ପ୍ରାକୃତିକ ନିର୍ବାଚନ", "କୃତ୍ରିମ ନିର୍ବାଚନ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପ୍ରାକୃତିକ ନିର୍ବାଚନ",
+"explanation": "ପ୍ରାକୃତିକ ନିର୍ବାଚନ ଦ୍ୱାରା ବିବର୍ତ୍ତନ ହୁଏ।"
+},
+{
+"question": "କେଉଁଟି ମଣିଷର ପୂର୍ବପୁରୁଷ ବୋଲି କୁହାଯାଏ?",
+"options": ["ଆଦିମାନବ", "କୀଟ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଆଦିମାନବ",
+"explanation": "ଆଦିମାନବଙ୍କଠାରୁ ଆଧୁନିକ ମଣିଷ ବିକଶିତ।"
+},
+{
+"question": "ଜୀବର କେଉଁ ଅଂଶଟି ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": ["DNA", "RNA", "ପ୍ରୋଟିନ୍", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "DNA",
+"explanation": "DNA ଜୀବର ମୂଳ ସୂଚନା।"
+},
+{
+"question": "କେଉଁଟି ମେଣ୍ଡେଲ୍‌ଙ୍କ ସଫଳତାର କାରଣ?",
+"options": ["ଗଣିତ ବ୍ୟବହାର", "କଳ୍ପନା", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଗଣିତ ବ୍ୟବହାର",
+"explanation": "ମେଣ୍ଡେଲ୍ ତାଙ୍କ ପରୀକ୍ଷାରେ ପରିସଂଖ୍ୟାନ ବ୍ୟବହାର କରିଥିଲେ।"
+},
+{
+"question": "କେଉଁଟି ବଂଶାନୁକ୍ରମ ପାଇଁ ଦାୟୀ?",
+"options": ["ଜୀନ୍", "ପରିବେଶ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଜୀନ୍",
+"explanation": "ଜୀନ୍ ହିଁ ବଂଶାନୁକ୍ରମ ପାଇଁ ଦାୟୀ।"
+},
+{
+"question": "କେଉଁଟି କ୍ରୋମୋଜୋମ୍‌ରେ ଥାଏ?",
+"options": ["DNA", "RNA", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "DNA",
+"explanation": "କ୍ରୋମୋଜୋମ୍ DNA ଦ୍ୱାରା ଗଠିତ।"
+},
+{
+"question": "ବିବର୍ତ୍ତନର ସାକ୍ଷ୍ୟ କିଏ ଦିଏ?",
+"options": ["ଜୀବାଶ୍ମ", "ମାଟି", "ପାଣି", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଜୀବାଶ୍ମ",
+"explanation": "ଜୀବାଶ୍ମ ହିଁ ବିବର୍ତ୍ତନର ସାକ୍ଷ୍ୟ।"
+},
+{
+"question": "ମଣିଷର କେତେ ଯୋଡ଼ା ଅଟୋଜୋମ୍ ଥାଏ?",
+"options": ["୨୨", "୨୩", "୧", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "୨୨",
+"explanation": "୨୨ ଯୋଡ଼ା ଅଟୋଜୋମ୍ ଓ ୧ ଯୋଡ଼ା ସେକ୍ସ କ୍ରୋମୋଜୋମ୍।"
+},
+{
+"question": "କେଉଁଟି ବୈଜ୍ଞାନିକ ନାମ?",
+"options": ["ହୋମୋ ସାପିଏନ୍ସ", "ମଣିଷ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ହୋମୋ ସାପିଏନ୍ସ",
+"explanation": "ମଣିଷର ବୈଜ୍ଞାନିକ ନାମ ହୋମୋ ସାପିଏନ୍ସ।"
+},
+{
+"question": "ଜୀବର ବିବର୍ତ୍ତନ କିପରି ହୁଏ?",
+"options": ["ପୀଢ଼ି ପରେ ପୀଢ଼ି", "ହଠାତ୍", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପୀଢ଼ି ପରେ ପୀଢ଼ି",
+"explanation": "ଅନେକ ପୀଢ଼ିର ପରିବର୍ତ୍ତନ ହିଁ ବିବର୍ତ୍ତନ।"
+},
+{
+"question": "କେଉଁଟି ବଂଶାନୁକ୍ରମ ପରୀକ୍ଷା?",
+"options": ["ମେଣ୍ଡେଲ୍ ପରୀକ୍ଷା", "ଗୁରୁତ୍ୱାକର୍ଷଣ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ମେଣ୍ଡେଲ୍ ପରୀକ୍ଷା",
+"explanation": "ମେଣ୍ଡେଲ୍ ବଂଶାନୁକ୍ରମ ପରୀକ୍ଷା କରିଥିଲେ।"
+},
+{
+"question": "DNA ର ଗଠନ କିଏ ବର୍ଣ୍ଣନା କରିଥିଲେ?",
+"options": ["ୱାଟସନ୍ ଓ କ୍ରିକ୍", "ମେଣ୍ଡେଲ୍", "ଡାରୱିନ୍", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ୱାଟସନ୍ ଓ କ୍ରିକ୍",
+"explanation": "ୱାଟସନ୍ ଓ କ୍ରିକ୍ DNA ର ଦ୍ୱି-ସୂତ୍ରକ ଗଠନ ପ୍ରଦାନ କରିଥିଲେ।"
+},
+{
+"question": "କେଉଁଟି ଯୌନ ପ୍ରଜନନରେ ସାହାଯ୍ୟ କରେ?",
+"options": ["ଗାମେଟ୍", "କୋଷ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଗାମେଟ୍",
+"explanation": "ଶୁକ୍ରାଣୁ ଓ ଡିମ୍ବାଣୁ (ଗାମେଟ୍) ଯୌନ ପ୍ରଜନନର ମାଧ୍ୟମ।"
+},
+{
+"question": "ଜୀବନର ଉତ୍ପତ୍ତି କେଉଁଠାରେ ହୋଇଥିଲା?",
+"options": ["ପାଣି", "ବାୟୁ", "ମାଟି", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପାଣି",
+"explanation": "ପ୍ରଥମ ଜୀବ ପାଣିରେ ହିଁ ସୃଷ୍ଟି ହୋଇଥିଲା।"
+},
+{
+"question": "ବଂଶାନୁକ୍ରମର ପିତା କିଏ?",
+"options": ["ମେଣ୍ଡେଲ୍", "ଡାରୱିନ୍", "ଲାମାର୍କ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ମେଣ୍ଡେଲ୍",
+"explanation": "ମେଣ୍ଡେଲ୍ ବଂଶାନୁକ୍ରମ ବିଜ୍ଞାନର ପିତା।"
+},
+{
+"question": "କେଉଁଟି ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ପ୍ରକ୍ରିୟା?",
+"options": ["ପ୍ରଜନନ", "ପାଚନ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପ୍ରଜନନ",
+"explanation": "ବଂଶ ରକ୍ଷା ପାଇଁ ପ୍ରଜନନ ଅତ୍ୟନ୍ତ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ।"
+}
 ]
