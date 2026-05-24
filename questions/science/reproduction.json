@@ -1,122 +1,530 @@
 [
-  {
-    "questionEnglish": "Which type of asexual reproduction is observed in Amoeba?",
-    "questionOdia": "ଅମିବା (Amoeba) ଠାରେ କେଉଁ ପ୍ରକାରର ଅଲିଙ୍ଗୀ ଜନନ ଦେଖାଯାଏ?",
-    "options": [
-      "Binary fission",
-      "Budding",
-      "Fragmentation",
-      "Spore formation"
-    ],
-    "answer": "Binary fission",
-    "explanation": "Amoeba reproduces asexually by binary fission (ଦ୍ୱି-ବିଭାଜନ), where a single mature cell divides into two identical daughter cells."
-  },
-  {
-    "questionEnglish": "Which organism reproduces asexually through the process of budding?",
-    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଜୀବ କୋରକୋଦ୍‌ଗମ ବା ବଡିଙ୍ଗ୍ (Budding) ପ୍ରକ୍ରିୟା ଦ୍ୱାରା ଅଲିଙ୍ଗୀ ଜନନ କରିଥାଏ?",
-    "options": [
-      "Hydra",
-      "Amoeba",
-      "Plasmodium",
-      "Spirogyra"
-    ],
-    "answer": "Hydra",
-    "explanation": "Hydra and Yeast reproduce by budding, where a small localized outgrowth or bud develops, matures, and detaches from the parent organism."
-  },
-  {
-    "questionEnglish": "What is the male reproductive part of a flower called?",
-    "questionOdia": "ଫୁଲର ପୁଂ-ଜନନ ଅଙ୍ଗ ବା ପୁରୁଷ ଅଂଶକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Stamen",
-      "Pistil",
-      "Petal",
-      "Sepal"
-    ],
-    "answer": "Stamen",
-    "explanation": "The stamen (ପୁଂକେଶର) is the male reproductive unit consisting of an anther, which produces pollen grains, and a supporting filament."
-  },
-  {
-    "questionEnglish": "The transfer of pollen grains from the anther to the stigma of a flower is called?",
-    "questionOdia": "ଫୁଲର ପରାଗଧାନୀରୁ ପରାଗରେଣୁ ସ୍ଥାନାନ୍ତରିତ ହୋଇ ଗର୍ଭଶୀର୍ଷରେ ପଡ଼ିବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Pollination",
-      "Fertilization",
-      "Germination",
-      "Translocation"
-    ],
-    "answer": "Pollination",
-    "explanation": "Pollination (ପରାଗଣ) is the crucial physical transfer of pollen grains, which can be categorized as self-pollination or cross-pollination."
-  },
-  {
-    "questionEnglish": "How many chromosomes are present in a normal human somatic cell?",
-    "questionOdia": "ଜଣେ ସ୍ୱାଭାବିକ ମାନବର ଶରୀର କୋଷରେ କେତେଗୋଟି ଗୁଣସୂତ୍ର (Chromosomes) ଥାଏ?",
-    "options": [
-      "46",
-      "23",
-      "44",
-      "48"
-    ],
-    "answer": "46",
-    "explanation": "Human body cells contain 46 chromosomes organized into 23 homologous pairs. Out of these, 22 pairs are autosomes and 1 pair is sex chromosomes."
-  },
-  {
-    "questionEnglish": "Where does the fertilization of an egg by a sperm typically take place in the human female reproductive system?",
-    "questionOdia": "ମାନବ ସ୍ତ୍ରୀ-ଜନନ ତନ୍ତ୍ରର କେଉଁ ଅଂଶରେ ଡିମ୍ବାଣୁ ଓ ଶୁକ୍ରାଣୁର ମିଳନ ବା ସମାୟନ (Fertilization) ସମ୍ପନ୍ନ ହୋଇଥାଏ?",
-    "options": [
-      "Fallopian tube (Oviduct)",
-      "Uterus",
-      "Ovary",
-      "Vagina"
-    ],
-    "answer": "Fallopian tube (Oviduct)",
-    "explanation": "Fertilization occurs in the Fallopian tube (ଡିମ୍ବବାହୀ ନଳୀ). The resulting single-celled diploid zygote then travels to settle in the uterus."
-  },
-  {
-    "questionEnglish": "Which virus is responsible for causing the sexually transmitted disease AIDS?",
-    "questionOdia": "ଯୌନ ସଂକ୍ରମିତ ରୋଗ ଏଡ୍‌ସ (AIDS) ପାଇଁ କେଉଁ ଭୂତାଣୁ (Virus) ଦାୟୀ?",
-    "options": [
-      "HIV",
-      "HPV",
-      "Hepatitis B virus",
-      "SARS-CoV-2"
-    ],
-    "answer": "HIV",
-    "explanation": "AIDS is caused by the Human Immunodeficiency Virus (HIV), which breaks down the body's natural immune defense system over time."
-  },
-  {
-    "questionEnglish": "Which female sex hormone is primarily produced by the ovaries to regulate the menstrual cycle?",
-    "questionOdia": "ଋତୁଚକ୍ର ନିୟନ୍ତ୍ରଣ ପାଇଁ ଡିମ୍ବାଶୟରୁ କ୍ଷରିତ ହେଉଥିବା ମୁଖ୍ୟ ସ୍ତ୍ରୀ-ହରମୋନ୍‌ର ନାମ କଣ?",
-    "options": [
-      "Estrogen",
-      "Testosterone",
-      "Adrenaline",
-      "Thyroxin"
-    ],
-    "answer": "Estrogen",
-    "explanation": "Estrogen (ଇଷ୍ଟ୍ରୋଜେନ୍) along with progesterone regulates secondary sexual characteristics and maintains the reproductive cycle in females."
-  },
-  {
-    "questionEnglish": "What is the surgical method of contraception performed in human males?",
-    "questionOdia": "ପୁରୁଷମାନଙ୍କ କ୍ଷେତ୍ରରେ କରାଯାଉଥିବା ସ୍ଥାୟୀ ଗର୍ଭନିରୋଧକ ଶଲ୍ୟ ଚିକିତ୍ସା ପଦ୍ଧତିକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Vasectomy",
-      "Tubectomy",
-      "Copper-T",
-      "Hysterectomy"
-    ],
-    "answer": "Vasectomy",
-    "explanation": "In a vasectomy (ଭାସେକ୍ଟୋମି), a small portion of the vas deferens is cut or tied to block sperm from entering the seminal fluid."
-  },
-  {
-    "questionEnglish": "The method of producing a whole new plant from a small cut piece of vegetative part like stem or root is called?",
-    "questionOdia": "ଉଦ୍ଭିଦର କାଣ୍ଡ ବା ଚେର ଭଳି ଅଙ୍ଗୀୟ ଅଂଶରୁ ଏକ ନୂତନ ଉଦ୍ଭିଦ ସୃଷ୍ଟି ହେବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Vegetative propagation",
-      "Spore formation",
-      "Regeneration",
-      "Tissue culture"
-    ],
-    "answer": "Vegetative propagation",
-    "explanation": "Vegetative propagation (ଅଙ୍ଗୀୟ ପ୍ରଜନନ) is a type of asexual reproduction where structures like roots, stems, or leaves grow into individual plants under favorable conditions."
-  }
+{
+"questionEnglish": "What is nutrition?",
+"questionOdia": "ପୋଷଣ କ’ଣ?",
+"options": [
+"ଶରୀରକୁ ଖାଦ୍ୟ ଗ୍ରହଣ ପ୍ରକ୍ରିୟା",
+"ଶ୍ୱାସ ନେବା ପ୍ରକ୍ରିୟା",
+"ରକ୍ତ ସଞ୍ଚାଳନ ପ୍ରକ୍ରିୟା",
+"ବର୍ଜ୍ୟ ପଦାର୍ଥ ବାହାର କରିବା"
+],
+"answer": "ଶରୀରକୁ ଖାଦ୍ୟ ଗ୍ରହଣ ପ୍ରକ୍ରିୟା",
+"explanation": "ଜୀବ ଖାଦ୍ୟ ଗ୍ରହଣ କରି ଶକ୍ତି ପାଉଥାଏ, ଏହାକୁ ପୋଷଣ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which nutrient gives immediate energy?",
+"questionOdia": "କେଉଁ ପୋଷକ ତତ୍କ୍ଷଣାତ୍ ଶକ୍ତି ଦେଇଥାଏ?",
+"options": [
+"ଶ୍ୱେତସାର",
+"ପ୍ରୋଟିନ",
+"ଭିଟାମିନ",
+"ଖଣିଜ"
+],
+"answer": "ଶ୍ୱେତସାର",
+"explanation": "ଶ୍ୱେତସାର ଶରୀରକୁ ତୁରନ୍ତ ଶକ୍ତି ଯୋଗାଇଥାଏ।"
+},
+{
+"questionEnglish": "Which nutrient helps in body building?",
+"questionOdia": "ଶରୀର ଗଠନରେ କେଉଁ ପୋଷକ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ପ୍ରୋଟିନ",
+"ଚର୍ବି",
+"ଭିଟାମିନ",
+"ଜଳ"
+],
+"answer": "ପ୍ରୋଟିନ",
+"explanation": "ପ୍ରୋଟିନ ଶରୀରର ବୃଦ୍ଧି ଓ କୋଷ ଗଠନରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Which vitamin is produced in sunlight?",
+"questionOdia": "ସୂର୍ଯ୍ୟଆଲୋକରେ କେଉଁ ଭିଟାମିନ ତିଆରି ହୁଏ?",
+"options": [
+"ଭିଟାମିନ D",
+"ଭିଟାମିନ A",
+"ଭିଟାମିନ C",
+"ଭିଟାମିନ B"
+],
+"answer": "ଭିଟାମିନ D",
+"explanation": "ସୂର୍ଯ୍ୟଆଲୋକରେ ଶରୀରରେ ଭିଟାମିନ D ତିଆରି ହୁଏ।"
+},
+{
+"questionEnglish": "Which process prepares food in green plants?",
+"questionOdia": "ସବୁଜ ଉଦ୍ଭିଦରେ ଖାଦ୍ୟ ପ୍ରସ୍ତୁତି ପ୍ରକ୍ରିୟା କ’ଣ?",
+"options": [
+"ଆଲୋକ ସଂଶ୍ଲେଷଣ",
+"ଶ୍ୱସନ",
+"ପାଚନ",
+"ନିସ୍ସରଣ"
+],
+"answer": "ଆଲୋକ ସଂଶ୍ଲେଷଣ",
+"explanation": "ସବୁଜ ଉଦ୍ଭିଦ ଆଲୋକ ସଂଶ୍ଲେଷଣ ଦ୍ୱାରା ଖାଦ୍ୟ ପ୍ରସ୍ତୁତ କରେ।"
+},
+{
+"questionEnglish": "What is the green pigment in leaves?",
+"questionOdia": "ପତ୍ରର ସବୁଜ ରଙ୍ଗଦ୍ରବ୍ୟ କ’ଣ?",
+"options": [
+"କ୍ଲୋରୋଫିଲ",
+"ହିମୋଗ୍ଲୋବିନ",
+"କାରୋଟିନ",
+"ମେଲାନିନ"
+],
+"answer": "କ୍ଲୋରୋଫିଲ",
+"explanation": "କ୍ଲୋରୋଫିଲ ଉଦ୍ଭିଦକୁ ସବୁଜ ରଙ୍ଗ ଦେଇଥାଏ।"
+},
+{
+"questionEnglish": "Which gas is used in photosynthesis?",
+"questionOdia": "ଆଲୋକ ସଂଶ୍ଲେଷଣରେ କେଉଁ ଗ୍ୟାସ ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ",
+"ଅକ୍ସିଜେନ",
+"ନାଇଟ୍ରୋଜେନ",
+"ହାଇଡ୍ରୋଜେନ"
+],
+"answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ",
+"explanation": "ଉଦ୍ଭିଦ CO2 ନେଇ ଖାଦ୍ୟ ତିଆରି କରେ।"
+},
+{
+"questionEnglish": "Which gas is released during photosynthesis?",
+"questionOdia": "ଆଲୋକ ସଂଶ୍ଲେଷଣ ସମୟରେ କେଉଁ ଗ୍ୟାସ ବାହାରୁଥାଏ?",
+"options": [
+"ଅକ୍ସିଜେନ",
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ",
+"ହାଇଡ୍ରୋଜେନ",
+"ନାଇଟ୍ରୋଜେନ"
+],
+"answer": "ଅକ୍ସିଜେନ",
+"explanation": "ଆଲୋକ ସଂଶ୍ଲେଷଣରେ ଅକ୍ସିଜେନ ଉତ୍ପନ୍ନ ହୁଏ।"
+},
+{
+"questionEnglish": "Which organ absorbs digested food?",
+"questionOdia": "ପାଚିତ ଖାଦ୍ୟ କେଉଁ ଅଙ୍ଗ ଶୋଷଣ କରେ?",
+"options": [
+"କ୍ଷୁଦ୍ରାନ୍ତ",
+"ଜଠର",
+"ମୁଖଗହ୍ବର",
+"ବୃହତ୍ ଆନ୍ତ"
+],
+"answer": "କ୍ଷୁଦ୍ରାନ୍ତ",
+"explanation": "କ୍ଷୁଦ୍ରାନ୍ତରେ ପାଚିତ ଖାଦ୍ୟ ଶୋଷିତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which enzyme is present in saliva?",
+"questionOdia": "ଲାଲାରେ କେଉଁ ଏନ୍ଜାଇମ ଥାଏ?",
+"options": [
+"ଟାଇଲିନ",
+"ପେପସିନ",
+"ଟ୍ରିପସିନ",
+"ଲିପେଜ"
+],
+"answer": "ଟାଇଲିନ",
+"explanation": "ଟାଇଲିନ ଷ୍ଟାର୍ଚ୍ଚକୁ ଭାଙ୍ଗିଥାଏ।"
+},
+{
+"questionEnglish": "Where does digestion begin?",
+"questionOdia": "ପାଚନ କେଉଁଠାରୁ ଆରମ୍ଭ ହୁଏ?",
+"options": [
+"ମୁଖ",
+"ଜଠର",
+"କ୍ଷୁଦ୍ରାନ୍ତ",
+"ବୃହତ୍ ଆନ୍ତ"
+],
+"answer": "ମୁଖ",
+"explanation": "ମୁଖରେ ଲାଲା ସହିତ ପାଚନ ଆରମ୍ଭ ହୁଏ।"
+},
+{
+"questionEnglish": "Which acid is present in stomach?",
+"questionOdia": "ଜଠରରେ କେଉଁ ଆମ୍ଲ ଥାଏ?",
+"options": [
+"ହାଇଡ୍ରୋକ୍ଲୋରିକ ଆମ୍ଲ",
+"ସଲ୍ଫ୍ୟୁରିକ ଆମ୍ଲ",
+"ନାଇଟ୍ରିକ ଆମ୍ଲ",
+"ଏସେଟିକ ଆମ୍ଲ"
+],
+"answer": "ହାଇଡ୍ରୋକ୍ଲୋରିକ ଆମ୍ଲ",
+"explanation": "ଜଠରରେ HCl ଖାଦ୍ୟ ପାଚନରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Which enzyme digests proteins in stomach?",
+"questionOdia": "ଜଠରରେ ପ୍ରୋଟିନ ପାଚନ କରୁଥିବା ଏନ୍ଜାଇମ କ’ଣ?",
+"options": [
+"ପେପସିନ",
+"ଟାଇଲିନ",
+"ଲିପେଜ",
+"ଆମାଇଲେଜ"
+],
+"answer": "ପେପସିନ",
+"explanation": "ପେପସିନ ପ୍ରୋଟିନକୁ ସରଳ ରୂପକୁ ପରିବର୍ତ୍ତନ କରେ।"
+},
+{
+"questionEnglish": "Which nutrient is stored as fat?",
+"questionOdia": "କେଉଁ ପୋଷକ ଚର୍ବି ରୂପେ ସଞ୍ଚିତ ହୁଏ?",
+"options": [
+"ଲିପିଡ",
+"ଭିଟାମିନ",
+"ପ୍ରୋଟିନ",
+"ଖଣିଜ"
+],
+"answer": "ଲିପିଡ",
+"explanation": "ଲିପିଡ ଶରୀରରେ ଚର୍ବି ଭାବେ ସଞ୍ଚିତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which organ produces bile juice?",
+"questionOdia": "ପିତ୍ତରସ କେଉଁ ଅଙ୍ଗ ଉତ୍ପାଦନ କରେ?",
+"options": [
+"ଯକୃତ",
+"ଅଗ୍ନାଶୟ",
+"ଜଠର",
+"ବୃକ୍କ"
+],
+"answer": "ଯକୃତ",
+"explanation": "ଯକୃତ ପିତ୍ତରସ ତିଆରି କରେ।"
+},
+{
+"questionEnglish": "Which nutrient helps in maintaining body temperature?",
+"questionOdia": "ଶରୀର ତାପମାତ୍ରା ରକ୍ଷାରେ କେଉଁ ପୋଷକ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ଚର୍ବି",
+"ପ୍ରୋଟିନ",
+"ଭିଟାମିନ",
+"ଖଣିଜ"
+],
+"answer": "ଚର୍ବି",
+"explanation": "ଚର୍ବି ଶରୀରକୁ ଉଷ୍ମା ଦେଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the main source of energy?",
+"questionOdia": "ଶକ୍ତିର ପ୍ରମୁଖ ଉତ୍ସ କ’ଣ?",
+"options": [
+"ଗ୍ଲୁକୋଜ",
+"ଜଳ",
+"ଭିଟାମିନ",
+"ଖଣିଜ"
+],
+"answer": "ଗ୍ଲୁକୋଜ",
+"explanation": "ଗ୍ଲୁକୋଜ ଶରୀରକୁ ତୁରନ୍ତ ଶକ୍ତି ଦେଇଥାଏ।"
+},
+{
+"questionEnglish": "Which bacteria help in nitrogen fixation?",
+"questionOdia": "ନାଇଟ୍ରୋଜେନ ସ୍ଥିରୀକରଣରେ କେଉଁ ବ୍ୟାକ୍ଟେରିଆ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ରାଇଜୋବିୟମ",
+"ଇ କୋଲାଇ",
+"ଲାକ୍ଟୋବାସିଲସ",
+"ଭିବ୍ରିଓ"
+],
+"answer": "ରାଇଜୋବିୟମ",
+"explanation": "ରାଇଜୋବିୟମ ନାଇଟ୍ରୋଜେନ ସ୍ଥିରୀକରଣ କରେ।"
+},
+{
+"questionEnglish": "Which part of leaf contains stomata?",
+"questionOdia": "ପତ୍ରର କେଉଁ ଅଂଶରେ ରନ୍ଧ୍ର ଥାଏ?",
+"options": [
+"ଏପିଡର୍ମିସ",
+"ଶିରା",
+"ପତ୍ରଦଣ୍ଡ",
+"କ୍ଲୋରୋପ୍ଲାଷ୍ଟ"
+],
+"answer": "ଏପିଡର୍ମିସ",
+"explanation": "ରନ୍ଧ୍ର ପତ୍ରର ଏପିଡର୍ମିସରେ ଥାଏ।"
+},
+{
+"questionEnglish": "Which process releases energy from food?",
+"questionOdia": "ଖାଦ୍ୟରୁ ଶକ୍ତି ମୁକ୍ତ କରୁଥିବା ପ୍ରକ୍ରିୟା କ’ଣ?",
+"options": [
+"ଶ୍ୱସନ",
+"ପାଚନ",
+"ଆଲୋକ ସଂଶ୍ଲେଷଣ",
+"ନିସ୍ସରଣ"
+],
+"answer": "ଶ୍ୱସନ",
+"explanation": "ଶ୍ୱସନରେ ଖାଦ୍ୟ ଭାଙ୍ଗି ଶକ୍ତି ମିଳେ।"
+},
+{
+"questionEnglish": "Which organ stores bile juice?",
+"questionOdia": "ପିତ୍ତରସ କେଉଁଠି ସଞ୍ଚିତ ହୁଏ?",
+"options": [
+"ପିତ୍ତାଶୟ",
+"ଜଠର",
+"ଅଗ୍ନାଶୟ",
+"ବୃକ୍କ"
+],
+"answer": "ପିତ୍ତାଶୟ",
+"explanation": "ପିତ୍ତାଶୟରେ ପିତ୍ତରସ ସଞ୍ଚିତ ରହେ।"
+},
+{
+"questionEnglish": "What is the function of villi?",
+"questionOdia": "ଭିଲାଇର କାମ କ’ଣ?",
+"options": [
+"ଖାଦ୍ୟ ଶୋଷଣ",
+"ଖାଦ୍ୟ ଚବାଇବା",
+"ରକ୍ତ ପମ୍ପ କରିବା",
+"ଗ୍ୟାସ ବିନିମୟ"
+],
+"answer": "ଖାଦ୍ୟ ଶୋଷଣ",
+"explanation": "ଭିଲାଇ ପାଚିତ ଖାଦ୍ୟ ଶୋଷଣ କରେ।"
+},
+{
+"questionEnglish": "Which nutrient prevents diseases?",
+"questionOdia": "ରୋଗ ପ୍ରତିରୋଧରେ କେଉଁ ପୋଷକ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ଭିଟାମିନ",
+"ଚର୍ବି",
+"ଷ୍ଟାର୍ଚ୍ଚ",
+"ଜଳ"
+],
+"answer": "ଭିଟାମିନ",
+"explanation": "ଭିଟାମିନ ଶରୀରକୁ ସୁସ୍ଥ ରଖେ।"
+},
+{
+"questionEnglish": "Which organ secretes pancreatic juice?",
+"questionOdia": "ଅଗ୍ନାଶୟ ରସ କେଉଁ ଅଙ୍ଗ ନିସ୍ସରଣ କରେ?",
+"options": [
+"ଅଗ୍ନାଶୟ",
+"ଯକୃତ",
+"ଜଠର",
+"ବୃକ୍କ"
+],
+"answer": "ଅଗ୍ନାଶୟ",
+"explanation": "ଅଗ୍ନାଶୟ ପାଚନରସ ନିସ୍ସରଣ କରେ।"
+},
+{
+"questionEnglish": "What is the end product of starch digestion?",
+"questionOdia": "ଷ୍ଟାର୍ଚ୍ଚ ପାଚନର ଶେଷ ଉତ୍ପାଦ କ’ଣ?",
+"options": [
+"ଗ୍ଲୁକୋଜ",
+"ପ୍ରୋଟିନ",
+"ଫ୍ୟାଟି ଏସିଡ",
+"ଗ୍ଲିସେରଲ"
+],
+"answer": "ଗ୍ଲୁକୋଜ",
+"explanation": "ଷ୍ଟାର୍ଚ୍ଚ ଭାଙ୍ଗି ଗ୍ଲୁକୋଜ ହୁଏ।"
+},
+{
+"questionEnglish": "Which process occurs in chloroplast?",
+"questionOdia": "କ୍ଲୋରୋପ୍ଲାଷ୍ଟରେ କେଉଁ ପ୍ରକ୍ରିୟା ହୁଏ?",
+"options": [
+"ଆଲୋକ ସଂଶ୍ଲେଷଣ",
+"ଶ୍ୱସନ",
+"ପାଚନ",
+"ନିସ୍ସରଣ"
+],
+"answer": "ଆଲୋକ ସଂଶ୍ଲେଷଣ",
+"explanation": "କ୍ଲୋରୋପ୍ଲାଷ୍ଟରେ ଖାଦ୍ୟ ପ୍ରସ୍ତୁତି ହୁଏ।"
+},
+{
+"questionEnglish": "Which nutrient is essential for bones?",
+"questionOdia": "ହାଡ଼ ପାଇଁ କେଉଁ ପୋଷକ ଆବଶ୍ୟକ?",
+"options": [
+"କ୍ୟାଲସିୟମ",
+"ଆଇରନ",
+"ସୋଡିୟମ",
+"ପୋଟାସିୟମ"
+],
+"answer": "କ୍ୟାଲସିୟମ",
+"explanation": "କ୍ୟାଲସିୟମ ହାଡ଼କୁ ଶକ୍ତ କରେ।"
+},
+{
+"questionEnglish": "Which type of nutrition is shown by green plants?",
+"questionOdia": "ସବୁଜ ଉଦ୍ଭିଦ କେଉଁ ପ୍ରକାର ପୋଷଣ ଦେଖାଏ?",
+"options": [
+"ସ୍ୱପୋଷୀ",
+"ପରପୋଷୀ",
+"ପରଜୀବୀ",
+"ସହଜୀବୀ"
+],
+"answer": "ସ୍ୱପୋଷୀ",
+"explanation": "ସବୁଜ ଉଦ୍ଭିଦ ନିଜେ ଖାଦ୍ୟ ତିଆରି କରେ।"
+},
+{
+"questionEnglish": "Which nutrition is shown by fungi?",
+"questionOdia": "ଫଂଗାଇ କେଉଁ ପ୍ରକାର ପୋଷଣ ଦେଖାଏ?",
+"options": [
+"ସାପ୍ରୋଫାଇଟିକ",
+"ସ୍ୱପୋଷୀ",
+"ହୋଲୋଜୋଇକ",
+"ସହଜୀବୀ"
+],
+"answer": "ସାପ୍ରୋଫାଇଟିକ",
+"explanation": "ଫଂଗାଇ ମୃତ ଜୀବରୁ ଖାଦ୍ୟ ଗ୍ରହଣ କରେ।"
+},
+{
+"questionEnglish": "Which nutrient helps in blood formation?",
+"questionOdia": "ରକ୍ତ ଗଠନରେ କେଉଁ ଖଣିଜ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ଲୋହ",
+"କ୍ୟାଲସିୟମ",
+"ସୋଡିୟମ",
+"ପୋଟାସିୟମ"
+],
+"answer": "ଲୋହ",
+"explanation": "ଲୋହ ହିମୋଗ୍ଲୋବିନ ଗଠନରେ ଦରକାର।"
+},
+{
+"questionEnglish": "What is the function of bile juice?",
+"questionOdia": "ପିତ୍ତରସର କାମ କ’ଣ?",
+"options": [
+"ଚର୍ବିର ଇମଲସିଫିକେସନ",
+"ପ୍ରୋଟିନ ପାଚନ",
+"ଷ୍ଟାର୍ଚ୍ଚ ପାଚନ",
+"ଭିଟାମିନ ଶୋଷଣ"
+],
+"answer": "ଚର୍ବିର ଇମଲସିଫିକେସନ",
+"explanation": "ପିତ୍ତରସ ଚର୍ବିକୁ ଛୋଟ ଭାଗରେ ଭାଙ୍ଗେ।"
+},
+{
+"questionEnglish": "Which organ is the longest part of alimentary canal?",
+"questionOdia": "ପାଚନ ନଳୀର ସବୁଠାରୁ ଲମ୍ବା ଅଂଶ କ’ଣ?",
+"options": [
+"କ୍ଷୁଦ୍ରାନ୍ତ",
+"ଜଠର",
+"ବୃହତ୍ ଆନ୍ତ",
+"ଖାଦ୍ୟନଳୀ"
+],
+"answer": "କ୍ଷୁଦ୍ରାନ୍ତ",
+"explanation": "କ୍ଷୁଦ୍ରାନ୍ତ ପାଚନ ନଳୀର ସବୁଠାରୁ ଲମ୍ବା ଅଂଶ।"
+},
+{
+"questionEnglish": "What is the product of protein digestion?",
+"questionOdia": "ପ୍ରୋଟିନ ପାଚନର ଉତ୍ପାଦ କ’ଣ?",
+"options": [
+"ଅମିନୋ ଆମ୍ଲ",
+"ଗ୍ଲୁକୋଜ",
+"ଫ୍ୟାଟି ଏସିଡ",
+"ଗ୍ଲିସେରଲ"
+],
+"answer": "ଅମିନୋ ଆମ୍ଲ",
+"explanation": "ପ୍ରୋଟିନ ଭାଙ୍ଗି ଅମିନୋ ଆମ୍ଲ ହୁଏ।"
+},
+{
+"questionEnglish": "Which organism shows parasitic nutrition?",
+"questionOdia": "କେଉଁ ଜୀବ ପରଜୀବୀ ପୋଷଣ ଦେଖାଏ?",
+"options": [
+"କସକୁଟା",
+"ଆମ୍ବ ଗଛ",
+"ଶୈବାଳ",
+"ମଶରୁମ"
+],
+"answer": "କସକୁଟା",
+"explanation": "କସକୁଟା ଅନ୍ୟ ଉଦ୍ଭିଦରୁ ଖାଦ୍ୟ ନେଇଥାଏ।"
+},
+{
+"questionEnglish": "Which part of digestive system stores food temporarily?",
+"questionOdia": "ପାଚନତନ୍ତ୍ରର କେଉଁ ଅଂଶ ଖାଦ୍ୟକୁ ଅସ୍ଥାୟୀ ଭାବେ ରଖେ?",
+"options": [
+"ଜଠର",
+"କ୍ଷୁଦ୍ରାନ୍ତ",
+"ମୁଖ",
+"ବୃହତ୍ ଆନ୍ତ"
+],
+"answer": "ଜଠର",
+"explanation": "ଜଠରରେ ଖାଦ୍ୟ କିଛି ସମୟ ରହେ।"
+},
+{
+"questionEnglish": "Which gas enters leaf through stomata?",
+"questionOdia": "ରନ୍ଧ୍ର ଦ୍ୱାରା ପତ୍ରରେ କେଉଁ ଗ୍ୟାସ ପ୍ରବେଶ କରେ?",
+"options": [
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ",
+"ଅକ୍ସିଜେନ",
+"ନାଇଟ୍ରୋଜେନ",
+"ହାଇଡ୍ରୋଜେନ"
+],
+"answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ",
+"explanation": "CO2 ରନ୍ଧ୍ର ଦ୍ୱାରା ପ୍ରବେଶ କରେ।"
+},
+{
+"questionEnglish": "Which nutrient acts as body fuel reserve?",
+"questionOdia": "ଶରୀରରେ ଶକ୍ତି ସଞ୍ଚୟ କରୁଥିବା ପୋଷକ କ’ଣ?",
+"options": [
+"ଚର୍ବି",
+"ଭିଟାମିନ",
+"ଖଣିଜ",
+"ଜଳ"
+],
+"answer": "ଚର୍ବି",
+"explanation": "ଚର୍ବି ଶରୀରରେ ଶକ୍ତି ସଞ୍ଚୟ କରେ।"
+},
+{
+"questionEnglish": "Which vitamin deficiency causes night blindness?",
+"questionOdia": "କେଉଁ ଭିଟାମିନ ଅଭାବରେ ରାତ୍ରି ଅନ୍ଧତ୍ୱ ହୁଏ?",
+"options": [
+"ଭିଟାମିନ A",
+"ଭିଟାମିନ B",
+"ଭିଟାମିନ C",
+"ଭିଟାମିନ D"
+],
+"answer": "ଭିଟାମିନ A",
+"explanation": "ଭିଟାମିନ A ଅଭାବରେ ରାତ୍ରି ଅନ୍ଧତ୍ୱ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the site of complete digestion?",
+"questionOdia": "ସମ୍ପୂର୍ଣ୍ଣ ପାଚନ କେଉଁଠି ହୁଏ?",
+"options": [
+"କ୍ଷୁଦ୍ରାନ୍ତ",
+"ଜଠର",
+"ମୁଖ",
+"ବୃହତ୍ ଆନ୍ତ"
+],
+"answer": "କ୍ଷୁଦ୍ରାନ୍ତ",
+"explanation": "କ୍ଷୁଦ୍ରାନ୍ତରେ ସମ୍ପୂର୍ଣ୍ଣ ପାଚନ ହୁଏ।"
+},
+{
+"questionEnglish": "Which process converts starch into maltose?",
+"questionOdia": "ଷ୍ଟାର୍ଚ୍ଚକୁ ମାଲ୍ଟୋଜରେ କେଉଁ ପ୍ରକ୍ରିୟା ପରିବର୍ତ୍ତନ କରେ?",
+"options": [
+"ଟାଇଲିନ କ୍ରିୟା",
+"ପେପସିନ କ୍ରିୟା",
+"ଲିପେଜ କ୍ରିୟା",
+"ଟ୍ରିପସିନ କ୍ରିୟା"
+],
+"answer": "ଟାଇଲିନ କ୍ରିୟା",
+"explanation": "ଟାଇଲିନ ଷ୍ଟାର୍ଚ୍ଚକୁ ମାଲ୍ଟୋଜରେ ପରିବର୍ତ୍ତନ କରେ।"
+},
+{
+"questionEnglish": "Which organ controls entry of food into stomach?",
+"questionOdia": "ଖାଦ୍ୟ ଜଠରକୁ ପ୍ରବେଶ କରିବାକୁ କେଉଁ ଅଂଶ ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": [
+"ଖାଦ୍ୟନଳୀ",
+"କ୍ଷୁଦ୍ରାନ୍ତ",
+"ବୃହତ୍ ଆନ୍ତ",
+"ମୁଖ"
+],
+"answer": "ଖାଦ୍ୟନଳୀ",
+"explanation": "ଖାଦ୍ୟ ଖାଦ୍ୟନଳୀ ଦ୍ୱାରା ଜଠରକୁ ଯାଏ।"
+},
+{
+"questionEnglish": "Which nutrient regulates body processes?",
+"questionOdia": "ଶରୀରୀୟ ପ୍ରକ୍ରିୟାକୁ କେଉଁ ପୋଷକ ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": [
+"ଭିଟାମିନ",
+"ଚର୍ବି",
+"ଷ୍ଟାର୍ଚ୍ଚ",
+"ପ୍ରୋଟିନ"
+],
+"answer": "ଭିଟାମିନ",
+"explanation": "ଭିଟାମିନ ଶରୀରୀୟ କ୍ରିୟା ନିୟନ୍ତ୍ରଣ କରେ।"
+},
+{
+"questionEnglish": "Which bacteria lives in human intestine symbiotically?",
+"questionOdia": "ମଣିଷ ଆନ୍ତରେ ସହଜୀବୀ ଭାବେ କେଉଁ ବ୍ୟାକ୍ଟେରିଆ ରହେ?",
+"options": [
+"ଇ କୋଲାଇ",
+"ରାଇଜୋବିୟମ",
+"ଭିବ୍ରିଓ",
+"ସାଲମୋନେଲା"
+],
+"answer": "ଇ କୋଲାଇ",
+"explanation": "ଇ କୋଲାଇ ଆନ୍ତରେ ସହଜୀବୀ ଭାବେ ରହେ।"
+},
+{
+"questionEnglish": "What is the role of water in body?",
+"questionOdia": "ଶରୀରରେ ଜଳର ଭୂମିକା କ’ଣ?",
+"options": [
+"ବିଭିନ୍ନ କ୍ରିୟା ସଂଚାଳନ",
+"ହାଡ଼ ଗଠନ",
+"ଦୃଷ୍ଟି ଦେବା",
+"ରକ୍ତ ଜମାଇବା"
+],
+"answer": "ବିଭିନ୍ନ କ୍ରିୟା ସଂଚାଳନ",
+"explanation": "ଜଳ ଶରୀରର ଅନେକ କ୍ରିୟାରେ ସାହାଯ୍ୟ କରେ।"
+}
 ]
