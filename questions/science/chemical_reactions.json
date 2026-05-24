@@ -597,7 +597,7 @@
       "3:1"
     ],
     "answer": "2:1",
-    "explanation": "ଜଳର ଗୋଟିଏ ଅଣୁରେ ଦୁଇଟି ହାଇଡ୍ରୋଜେନ୍ ଓ ଗୋଟିଏ ଅମ୍ଳଜାନ ଥିବାରୁ ($H_2O$), ଏହାର ଗ୍ୟାସୀୟ ଅନୁପାତ ୨:୧ ହୋଇଥାଏ।"
+    "explanation": "ଜଳର ଗୋଟିଏ ଅଣୁରେ ଦୁଇଟି ହାଇଡ୍ରୋଜେନ୍ ଓ ଗୋଟିଏ ଅମ୍ଳଜାନ ଥିବାରୁ (H_2O), ଏହାର ଗ୍ୟାସୀୟ ଅନୁପାତ ୨:୧ ହୋଇଥାଏ।"
   },
   {
     "questionEnglish": "What is added to water during electrolysis to make it a good conductor?",
