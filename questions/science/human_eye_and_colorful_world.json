@@ -1,122 +1,302 @@
 [
-  {
-    "questionEnglish": "Which part of the human eye controls the amount of light entering the eye?",
-    "questionOdia": "ମାନବ ଚକ୍ଷୁର କେଉଁ ଅଂଶ ଆଖିକୁ ପ୍ରବେଶ କରୁଥିବା ଆଲୋକର ପରିମାଣକୁ ନିୟନ୍ତ୍ରଣ କରିଥାଏ?",
-    "options": [
-      "Iris",
-      "Pupil",
-      "Cornea",
-      "Retina"
-    ],
-    "answer": "Iris",
-    "explanation": "The iris is a dark muscular diaphragm that controls the size of the pupil, which in turn regulates the amount of light entering the eye."
-  },
-  {
-    "questionEnglish": "On which part of the human eye is the image of an object formed?",
-    "questionOdia": "ମାନବ ଚକ୍ଷୁର କେଉଁ ଅଂଶରେ ବସ୍ତୁର ପ୍ରତିବିମ୍ବ ଗଠିତ ହୋଇଥାଏ?",
-    "options": [
-      "Retina",
-      "Cornea",
-      "Iris",
-      "Crystalline lens"
-    ],
-    "answer": "Retina",
-    "explanation": "The retina acts as a light-sensitive screen at the back of the eye where a real and inverted image of the object is formed."
-  },
-  {
-    "questionEnglish": "The ability of the eye lens to adjust its focal length is called?",
-    "questionOdia": "ଚକ୍ଷୁ ଲେନ୍ସର ଫୋକସ୍ ଦୂରତାକୁ ସମାୟୋଜନ କରିବାର ଦକ୍ଷତାକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Accommodation",
-      "Power of vision",
-      "Least distance of vision",
-      "Persistence of vision"
-    ],
-    "answer": "Accommodation",
-    "explanation": "The ability of the eye lens to adjust its focal length with the help of ciliary muscles to see both nearby and distant objects clearly is called accommodation."
-  },
-  {
-    "questionEnglish": "What is the least distance of distinct vision for a young adult with normal vision?",
-    "questionOdia": "ସ୍ୱାଭାବିକ ଦୃଷ୍ଟିଶକ୍ତି ସମ୍ପନ୍ନ ଜଣେ ସୁସ୍ଥ ବ୍ୟକ୍ତି ପାଇଁ ସ୍ପଷ୍ଟ ଦର୍ଶନର ସ୍ବଳ୍ପତମ ଦୂରତା କେତେ?",
-    "options": [
-      "25 cm",
-      "25 m",
-      "2.5 cm",
-      "Infinity"
-    ],
-    "answer": "25 cm",
-    "explanation": "The minimum distance at which objects can be seen most distinctly without strain for a normal eye is exactly 25 cm."
-  },
-  {
-    "questionEnglish": "Which defect of vision is also known as near-sightedness?",
-    "questionOdia": "କେଉଁ ଦୃଷ୍ଟି ଦୋଷକୁ ସମୀପ ଦୃଷ୍ଟି ଦୋଷ (Near-sightedness) ବୋଲି ମଧ୍ୟ କୁହାଯାଏ?",
-    "options": [
-      "Myopia",
-      "Hypermetropia",
-      "Presbyopia",
-      "Cataract"
-    ],
-    "answer": "Myopia",
-    "explanation": "Myopia is a defect in which a person can see nearby objects clearly but cannot see distant objects distinctly."
-  },
-  {
-    "questionEnglish": "Which type of lens is used to correct hypermetropia (far-sightedness)?",
-    "questionOdia": "ଦୂର ଦୃଷ୍ଟି ଦୋଷ (Hypermetropia) ର ସଂଶୋଧନ ପାଇଁ କେଉଁ ପ୍ରକାରର ଲେନ୍ସ ବ୍ୟବହାର କରାଯାଏ?",
-    "options": [
-      "Convex lens",
-      "Concave lens",
-      "Bifocal lens",
-      "Cylindrical lens"
-    ],
-    "answer": "Convex lens",
-    "explanation": "A convex lens of appropriate power provides additional converging power to focus the light rays exactly onto the retina, correcting hypermetropia."
-  },
-  {
-    "questionEnglish": "The splitting of white light into its component colors when passing through a prism is called?",
-    "questionOdia": "ଏକ ପ୍ରିଜମ୍ ମଧ୍ୟ ଦେଇ ଗତି କଲାବେଳେ ଶ୍ଵେତ ଆଲୋକର ସପ୍ତରଙ୍ଗରେ ବିଭାଜିତ ହେବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Dispersion",
-      "Refraction",
-      "Scattering",
-      "Reflection"
-    ],
-    "answer": "Dispersion",
-    "explanation": "Dispersion is the phenomenon of splitting of a beam of white light into its seven constituent colors when it passes through a refracting medium like a glass prism."
-  },
-  {
-    "questionEnglish": "Which color of white light bends the most when passing through a glass prism?",
-    "questionOdia": "କାଚ ପ୍ରିଜମ୍ ମଧ୍ୟ ଦେଇ ଗତି କଲାବେଳେ ଶ୍ଵେତ ଆଲୋକର କେଉଁ ରଙ୍ଗ ସବୁଠାରୁ ଅଧିକ ବିଚ୍ୟୁତ (Bends) ହୋଇଥାଏ?",
-    "options": [
-      "Violet",
-      "Red",
-      "Yellow",
-      "Green"
-    ],
-    "answer": "Violet",
-    "explanation": "Violet light has the shortest wavelength and slows down the most in glass, causing it to bend or refract the most, while red light bends the least."
-  },
-  {
-    "questionEnglish": "The twinkling of stars is due to which atmospheric phenomenon?",
-    "questionOdia": "ତାରାଗୁଡ଼ିକର ମିଟିମିଟି କରି ଚମକିବା କେଉଁ ବାୟୁମଣ୍ଡଳୀୟ ପ୍ରକ୍ରିୟା ଯୋଗୁଁ ହୋଇଥାଏ?",
-    "options": [
-      "Atmospheric refraction",
-      "Atmospheric reflection",
-      "Scattering of light",
-      "Total internal reflection"
-    ],
-    "answer": "Atmospheric refraction",
-    "explanation": "The twinkling of a star is due to atmospheric refraction of starlight as it passes through layers of air with continuously varying refractive indices."
-  },
-  {
-    "questionEnglish": "Why does the clear sky appear blue during a bright sunny day?",
-    "questionOdia": "ନିର୍ମଳ ଆକାଶର ରଙ୍ଗ ନୀଳ ଦେଖାଯିବାର କାରଣ କଣ?",
-    "options": [
-      "Scattering of light",
-      "Dispersion of light",
-      "Refraction of light",
-      "Reflection of light"
-    ],
-    "answer": "Scattering of light",
-    "explanation": "The molecules of air and other fine particles in the atmosphere scatter shorter wavelengths of light (blue and violet) more strongly than longer wavelengths (red), making the sky appear blue."
-  }
+{
+"question": "ମାନବ ଚକ୍ଷୁର କେଉଁ ଅଂଶରେ ପ୍ରତିବିମ୍ବ ସୃଷ୍ଟି ହୁଏ?",
+"options": ["କର୍ଣ୍ଣିଆ", "ଆଇରିସ୍", "ରେଟିନା", "କାନିନ୍"],
+"answer": "ରେଟିନା",
+"explanation": "ରେଟିନା ହେଉଛି ଚକ୍ଷୁର ପଛ ଭାଗରେ ଥିବା ଏକ ସ୍ତର ଯେଉଁଠାରେ ଆଲୋକ ପଡ଼ି ପ୍ରତିବିମ୍ବ ସୃଷ୍ଟି ହୁଏ।"
+},
+{
+"question": "ଚକ୍ଷୁର କେଉଁ ଅଂଶ ଆଲୋକର ପରିମାଣକୁ ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": ["କର୍ଣ୍ଣିଆ", "ପିଉପିଲ୍", "ଆଇରିସ୍", "ଲେନ୍ସ"],
+"answer": "ଆଇରିସ୍",
+"explanation": "ଆଇରିସ୍ ପିଉପିଲ୍‌ର ଆକାରକୁ ସଙ୍କୁଚିତ ବା ପ୍ରସାରିତ କରି ଆଖି ଭିତରକୁ ଆସୁଥିବା ଆଲୋକକୁ ନିୟନ୍ତ୍ରଣ କରେ।"
+},
+{
+"question": "ସୁସ୍ଥ ଆଖି ପାଇଁ ସ୍ପଷ୍ଟ ଦର୍ଶନର ସର୍ବନିମ୍ନ ଦୂରତା କେତେ?",
+"options": ["25 cm", "50 cm", "100 cm", "ଅନନ୍ତ"],
+"answer": "25 cm",
+"explanation": "ଏକ ସୁସ୍ଥ ମାନବ ଚକ୍ଷୁ ପାଇଁ ବସ୍ତୁକୁ ସ୍ପଷ୍ଟ ଦେଖିବା ପାଇଁ ସର୍ବନିମ୍ନ ଦୂରତା ୨୫ ସେ.ମି.।"
+},
+{
+"question": "ଆକାଶ ନୀଳ ଦେଖାଯିବାର କାରଣ କଣ?",
+"options": ["ଆଲୋକର ପ୍ରତିଫଳନ", "ଆଲୋକର ପ୍ରତିସରଣ", "ଆଲୋକର ବିକ୍ଷେପଣ (Scattering)", "ଆଲୋକର ଶୋଷଣ"],
+"answer": "ଆଲୋକର ବିକ୍ଷେପଣ (Scattering)",
+"explanation": "ବାୟୁମଣ୍ଡଳରେ ଆଲୋକର ବିକ୍ଷେପଣ ଯୋଗୁଁ ଆକାଶ ନୀଳ ଦେଖାଯାଏ।"
+},
+{
+"question": "କେଉଁ ଦୃଷ୍ଟିଦୋଷ ପାଇଁ ଅବତଳ ଲେନ୍ସ ବ୍ୟବହାର କରାଯାଏ?",
+"options": ["ଦୂର ଦୃଷ୍ଟି (Hypermetropia)", "ନିକଟ ଦୃଷ୍ଟି (Myopia)", "ଜରା ଦୃଷ୍ଟି", "ଏକଦୃଷ୍ଟି"],
+"answer": "ନିକଟ ଦୃଷ୍ଟି (Myopia)",
+"explanation": "ନିକଟ ଦୃଷ୍ଟି ଦୋଷ ଥିଲେ ବ୍ୟକ୍ତି ଦୂରର ଜିନିଷ ଦେଖିପାରନ୍ତି ନାହିଁ, ଏଥିପାଇଁ ଅବତଳ ଲେନ୍ସ ଆବଶ୍ୟକ।"
+},
+{
+"question": "ବିଦ୍ୟୁତ୍ ଚୁମ୍ବକୀୟ ବର୍ଣ୍ଣାଳୀରେ ସବୁଠାରୁ କମ୍ ବିଚ୍ୟୁତ ହେଉଥିବା ରଙ୍ଗ କେଉଁଟି?",
+"options": ["ବାଇଗଣୀ", "ନୀଳ", "ସବୁଜ", "ଲାଲ"],
+"answer": "ଲାଲ",
+"explanation": "ଲାଲ ରଙ୍ଗର ତରଙ୍ଗ ଦୈର୍ଘ୍ୟ ସର୍ବାଧିକ, ତେଣୁ ଏହାର ବିଚ୍ୟୁତ ସର୍ବନିମ୍ନ।"
+},
+{
+"question": "ମାନବ ଚକ୍ଷୁରେ କେଉଁ ପ୍ରକାର ଲେନ୍ସ ଥାଏ?",
+"options": ["ଅବତଳ", "ଉତ୍ତଳ", "ସମତଳ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଉତ୍ତଳ",
+"explanation": "ମାନବ ଚକ୍ଷୁରେ ଏକ ପ୍ରାକୃତିକ ଉତ୍ତଳ ଲେନ୍ସ ଥାଏ ଯାହା ଆଲୋକକୁ ରେଟିନାରେ ଏକତ୍ର କରେ।"
+},
+{
+"question": "ସୂର୍ଯ୍ୟୋଦୟ ଓ ସୂର୍ଯ୍ୟାସ୍ତ ସମୟରେ ସୂର୍ଯ୍ୟ ଲାଲ ଦେଖାଯିବାର କାରଣ?",
+"options": ["ଆଲୋକର ବର୍ଣ୍ଣ ବିକ୍ଷେପଣ", "ଆଲୋକର ପ୍ରତିଫଳନ", "ଆଲୋକର ବକ୍ରୀଭବନ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଆଲୋକର ବର୍ଣ୍ଣ ବିକ୍ଷେପଣ",
+"explanation": "ସେହି ସମୟରେ ଅନ୍ୟ ରଙ୍ଗଗୁଡ଼ିକ ବିକ୍ଷେପିତ ହୋଇଯାନ୍ତି ଓ କେବଳ ଲାଲ ରଙ୍ଗ ଆମ ପାଖରେ ପହଞ୍ଚେ।"
+},
+{
+"question": "ଦୂର ଦୃଷ୍ଟି ଦୋଷ (Hypermetropia) ସୁଧାରିବା ପାଇଁ କେଉଁ ଲେନ୍ସ ବ୍ୟବହାର ହୁଏ?",
+"options": ["ଅବତଳ", "ଉତ୍ତଳ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଉତ୍ତଳ",
+"explanation": "ଦୂର ଦୃଷ୍ଟି ଦୋଷରେ ନିକଟବର୍ତ୍ତୀ ବସ୍ତୁକୁ ଦେଖିବା ପାଇଁ ଉତ୍ତଳ ଲେନ୍ସ ଦରକାର।"
+},
+{
+"question": "ଇନ୍ଦ୍ରଧନୁ କେଉଁ ପ୍ରକାରର ପ୍ରତିକ୍ରିୟା?",
+"options": ["କେବଳ ପ୍ରତିଫଳନ", "କେବଳ ପ୍ରତିସରଣ", "ବର୍ଣ୍ଣ ବିକ୍ଷେପଣ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବର୍ଣ୍ଣ ବିକ୍ଷେପଣ",
+"explanation": "ଇନ୍ଦ୍ରଧନୁ ଆଲୋକର ପ୍ରତିସରଣ, ପ୍ରତିଫଳନ ଓ ବିକ୍ଷେପଣ ଯୋଗୁଁ ସୃଷ୍ଟି ହୁଏ।"
+},
+{
+"question": "ଆଖିର କେଉଁ ଅଂଶଟି ପ୍ରବେଶ କରୁଥିବା ଆଲୋକର ପ୍ରାଥମିକ ପ୍ରତିସରଣ କରେ?",
+"options": ["କର୍ଣ୍ଣିଆ", "ଲେନ୍ସ", "ରେଟିନା", "ଆଇରିସ୍"],
+"answer": "କର୍ଣ୍ଣିଆ",
+"explanation": "କର୍ଣ୍ଣିଆ ହେଉଛି ଆଖିର ବାହ୍ୟ ସ୍ୱଚ୍ଛ ପରଦା ଯାହା ଆଲୋକର ପ୍ରତିସରଣ ଆରମ୍ଭ କରେ।"
+},
+{
+"question": "ଜରା ଦୃଷ୍ଟି (Presbyopia) ଦୋଷ କାହିଁକି ହୁଏ?",
+"options": ["ଲେନ୍ସର ନମନୀୟତା କମିବା", "ଆଇରିସ୍ ଦୁର୍ବଳ ହେବା", "ରେଟିନା ଖରାପ ହେବା", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଲେନ୍ସର ନମନୀୟତା କମିବା",
+"explanation": "ବୟସ ବଢ଼ିବା ସହ ଲେନ୍ସର ସମାଯୋଜନ ଶକ୍ତି କମିଯିବାରୁ ଏହା ହୁଏ।"
+},
+{
+"question": "ଆକାଶ କାହିଁକି କଳା ଦେଖାଯାଏ (ମହାକାଶରୁ)?",
+"options": ["ବାୟୁମଣ୍ଡଳ ନଥିବାରୁ", "ଆଲୋକ ନଥିବାରୁ", "ଚନ୍ଦ୍ର ଯୋଗୁଁ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବାୟୁମଣ୍ଡଳ ନଥିବାରୁ",
+"explanation": "ମହାକାଶରେ ବାୟୁମଣ୍ଡଳ ନଥିବାରୁ ଆଲୋକର ବିକ୍ଷେପଣ ହୁଏ ନାହିଁ, ତେଣୁ କଳା ଦିଶେ।"
+},
+{
+"question": "ତାରାମାନେ କାହିଁକି ମିଞ୍ଜି ମିଞ୍ଜି କରନ୍ତି?",
+"options": ["ଆଲୋକର ପ୍ରତିଫଳନ", "ବାୟୁମଣ୍ଡଳୀୟ ବକ୍ରୀଭବନ", "ଆଲୋକର ସିଧା ପ୍ରବାହ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବାୟୁମଣ୍ଡଳୀୟ ବକ୍ରୀଭବନ",
+"explanation": "ବାୟୁମଣ୍ଡଳର ବିଭିନ୍ନ ସ୍ତରର ଘନତା ପରିବର୍ତ୍ତନ ହେତୁ ଆଲୋକ ବକ୍ରୀଭୂତ ହୋଇ ତାରା ମିଞ୍ଜି ମିଞ୍ଜି ଦିଶେ।"
+},
+{
+"question": "ପିଉପିଲ୍‌ର ଆକାର କିଏ ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": ["କର୍ଣ୍ଣିଆ", "ଆଇରିସ୍", "ରେଟିନା", "ଲେନ୍ସ"],
+"answer": "ଆଇରିସ୍",
+"explanation": "ଆଇରିସ୍ ହେଉଛି ଆଖିର ଅଂଶ ଯାହା ପିଉପିଲ୍‌କୁ ସଙ୍କୁଚିତ କରେ।"
+},
+{
+"question": "ବର୍ଣ୍ଣାଳୀର କେଉଁ ରଙ୍ଗର ତରଙ୍ଗ ଦୈର୍ଘ୍ୟ ସବୁଠାରୁ କମ୍?",
+"options": ["ଲାଲ", "ବାଇଗଣୀ", "ସବୁଜ", "ନୀଳ"],
+"answer": "ବାଇଗଣୀ",
+"explanation": "ବାଇଗଣୀ ରଙ୍ଗର ତରଙ୍ଗ ଦୈର୍ଘ୍ୟ ସବୁଠାରୁ କମ୍ ଓ ବିଚ୍ୟୁତ ସବୁଠାରୁ ଅଧିକ।"
+},
+{
+"question": "ଲେନ୍ସର କ୍ଷମତା କେଉଁ ଏକକରେ ମପାଯାଏ?",
+"options": ["ୱାଟ୍", "ଡାଇପ୍ଟର୍ (Dioptre)", "ଜୁଲ୍", "ମିଟର"],
+"answer": "ଡାଇପ୍ଟର୍ (Dioptre)",
+"explanation": "ଲେନ୍ସର କ୍ଷମତା (P) କୁ ଡାଇପ୍ଟର୍ ଏକକରେ ମପାଯାଏ।"
+},
+{
+"question": "ମାନବ ଚକ୍ଷୁର କେଉଁ ଅଂଶକୁ କ୍ୟାମେରାର ଫିଲ୍ମ ସହ ତୁଳନା କରାଯାଇପାରେ?",
+"options": ["ଆଇରିସ୍", "ପିଉପିଲ୍", "ରେଟିନା", "ଲେନ୍ସ"],
+"answer": "ରେଟିନା",
+"explanation": "ରେଟିନା କ୍ୟାମେରାର ଫିଲ୍ମ ଭଳି ପ୍ରତିବିମ୍ବ ଗ୍ରହଣ କରେ।"
+},
+{
+"question": "ଉତ୍ତଳ ଲେନ୍ସର କ୍ଷମତା କଣ?",
+"options": ["ଧନାତ୍ମକ (+)", "ଋଣାତ୍ମକ (-)", "ଶୂନ୍ୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଧନାତ୍ମକ (+)",
+"explanation": "ଉତ୍ତଳ ଲେନ୍ସର ଫୋକସ୍ ଦୂରତା ଧନାତ୍ମକ, ତେଣୁ କ୍ଷମତା ମଧ୍ୟ ଧନାତ୍ମକ।"
+},
+{
+"question": "ଅବତଳ ଲେନ୍ସର କ୍ଷମତା କଣ?",
+"options": ["ଧନାତ୍ମକ", "ଋଣାତ୍ମକ (-)", "ଶୂନ୍ୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଋଣାତ୍ମକ (-)",
+"explanation": "ଅବତଳ ଲେନ୍ସର କ୍ଷମତା ସର୍ବଦା ଋଣାତ୍ମକ ହୋଇଥାଏ।"
+},
+{
+"question": "ଇନ୍ଦ୍ରଧନୁ କେଉଁ ଦିଗରେ ଦେଖାଯାଏ?",
+"options": ["ସୂର୍ଯ୍ୟଙ୍କ ଦିଗରେ", "ସୂର୍ଯ୍ୟଙ୍କ ବିପରୀତ ଦିଗରେ", "ଉତ୍ତର ଦିଗରେ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ସୂର୍ଯ୍ୟଙ୍କ ବିପରୀତ ଦିଗରେ",
+"explanation": "ଇନ୍ଦ୍ରଧନୁ ସର୍ବଦା ସୂର୍ଯ୍ୟଙ୍କ ବିପରୀତ ଦିଗରେ ସୃଷ୍ଟି ହୁଏ।"
+},
+{
+"question": "ମୋତିଆବିନ୍ଦୁ (Cataract) ଦୋଷ କଣ?",
+"options": ["ଲେନ୍ସ ଅସ୍ୱଚ୍ଛ ହେବା", "ରେଟିନା ଖରାପ ହେବା", "ଆଇରିସ୍ ନଷ୍ଟ ହେବା", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଲେନ୍ସ ଅସ୍ୱଚ୍ଛ ହେବା",
+"explanation": "ବୟସ ବଢ଼ିଲେ ଚକ୍ଷୁର ଲେନ୍ସ ଅସ୍ୱଚ୍ଛ ହୋଇଯାଏ, ଯାହାକୁ ମୋତିଆବିନ୍ଦୁ କୁହନ୍ତି।"
+},
+{
+"question": "ଦୃଷ୍ଟି ସାମଞ୍ଜସ୍ୟ (Accommodation) କଣ?",
+"options": ["ଲେନ୍ସର ଫୋକସ୍ ଦୂରତା ବଦଳାଇବା", "ଆଖି ବନ୍ଦ କରିବା", "ଆଖି ଖୋଲିବା", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଲେନ୍ସର ଫୋକସ୍ ଦୂରତା ବଦଳାଇବା",
+"explanation": "ଲେନ୍ସ ନିଜର ଆକୃତି ବଦଳାଇ ବିଭିନ୍ନ ଦୂରତାର ବସ୍ତୁକୁ ସ୍ପଷ୍ଟ ଦେଖିବାର କ୍ଷମତାକୁ ସାମଞ୍ଜସ୍ୟ କୁହନ୍ତି।"
+},
+{
+"question": "ପିଉପିଲ୍‌ର ରଙ୍ଗ କଣ?",
+"options": ["ଲାଲ", "କଳା", "ଧଳା", "ନୀଳ"],
+"answer": "କଳା",
+"explanation": "ପିଉପିଲ୍‌ଟି ଆଲୋକ ପ୍ରବେଶ ପାଇଁ ଏକ କଳା ଛିଦ୍ର।"
+},
+{
+"question": "ଆଲୋକର କେଉଁ ଗୁଣ ଯୋଗୁଁ ବାୟୁମଣ୍ଡଳୀୟ ବକ୍ରୀଭୂତ ହୁଏ?",
+"options": ["ଘନତା ପରିବର୍ତ୍ତନ", "ଆଲୋକର ବେଗ ବଢ଼ିବା", "କେବଳ ଉତ୍ତାପ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଘନତା ପରିବର୍ତ୍ତନ",
+"explanation": "ବାୟୁର ଘନତା ପରିବର୍ତ୍ତନ ଯୋଗୁଁ ଆଲୋକର ବେଗ ବଦଳେ ଓ ବକ୍ରୀଭୂତ ହୁଏ।"
+},
+{
+"question": "କେଉଁ ରଙ୍ଗକୁ ବିପଦ ସଂକେତ (Danger signal) ଭାବେ ବ୍ୟବହାର କରାଯାଏ?",
+"options": ["ନୀଳ", "ବାଇଗଣୀ", "ଲାଲ", "ସବୁଜ"],
+"answer": "ଲାଲ",
+"explanation": "ଲାଲ ରଙ୍ଗ କମ୍ ବିକ୍ଷେପିତ ହୁଏ, ତେଣୁ ଦୂରରୁ ସ୍ପଷ୍ଟ ଦେଖାଯାଏ।"
+},
+{
+"question": "ଆଖି ଦାନ ବେଳେ କେଉଁ ଅଂଶ ଦାନ କରାଯାଏ?",
+"options": ["କର୍ଣ୍ଣିଆ", "ଲେନ୍ସ", "ରେଟିନା", "ଆଇରିସ୍"],
+"answer": "କର୍ଣ୍ଣିଆ",
+"explanation": "ଆଖି ଦାନରେ କର୍ଣ୍ଣିଆକୁ ଅନ୍ୟ ଜଣଙ୍କ ଆଖିରେ ଟ୍ରାନ୍ସପ୍ଲାଣ୍ଟ କରାଯାଏ।"
+},
+{
+"question": "ଦୃଷ୍ଟି ଦୋଷ ମାପିବା ପାଇଁ ଡାକ୍ତରମାନେ କଣ ବ୍ୟବହାର କରନ୍ତି?",
+"options": ["ଅପ୍‌ଥାଲ୍‌ମୋସ୍କୋପ୍", "ମାଇକ୍ରୋସ୍କୋପ୍", "ଟେଲିସ୍କୋପ୍", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଅପ୍‌ଥାଲ୍‌ମୋସ୍କୋପ୍",
+"explanation": "ଚକ୍ଷୁ ରୋଗୀଙ୍କୁ ପରୀକ୍ଷା କରିବା ପାଇଁ ଏହା ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"question": "ବାୟୁମଣ୍ଡଳୀୟ ବକ୍ରୀଭୂତ ହେତୁ ସୂର୍ଯ୍ୟ ସୂର୍ଯ୍ୟୋଦୟର କେତେ ସମୟ ପୂର୍ବରୁ ଦେଖାଯାଆନ୍ତି?",
+"options": ["1 ମିନିଟ୍", "2 ମିନିଟ୍", "5 ମିନିଟ୍", "10 ମିନିଟ୍"],
+"answer": "2 ମିନିଟ୍",
+"explanation": "ବାୟୁମଣ୍ଡଳୀୟ ବକ୍ରୀଭୂତ ହେତୁ ସୂର୍ଯ୍ୟ ୨ ମିନିଟ୍ ଆଗରୁ ଦେଖାଯାଆନ୍ତି।"
+},
+{
+"question": "କେଉଁ ରଙ୍ଗର ଆଲୋକ ସବୁଠାରୁ ଅଧିକ ବିକ୍ଷେପିତ ହୁଏ?",
+"options": ["ଲାଲ", "ବାଇଗଣୀ", "ହଳଦିଆ", "କମଳା"],
+"answer": "ବାଇଗଣୀ",
+"explanation": "ବାଇଗଣୀ ରଙ୍ଗର ତରଙ୍ଗ ଦୈର୍ଘ୍ୟ କମ୍ ଥିବାରୁ ଏହା ଅଧିକ ବିକ୍ଷେପିତ ହୁଏ।"
+},
+{
+"question": "ଚକ୍ଷୁର ଲେନ୍ସର ଆକାର କିଏ ବଦଳାଏ?",
+"options": ["ସିଲିୟାରୀ ମାଂସପେଶୀ", "ଆଇରିସ୍", "ପିଉପିଲ୍", "ରେଟିନା"],
+"answer": "ସିଲିୟାରୀ ମାଂସପେଶୀ",
+"explanation": "ସିଲିୟାରୀ ମାଂସପେଶୀ ଲେନ୍ସକୁ ସଙ୍କୋଚନ ଓ ପ୍ରସାରଣ କରି ଫୋକସ୍ ଦୂରତା ବଦଳାଏ।"
+},
+{
+"question": "ତାରାଗୁଡ଼ିକର ପ୍ରକୃତ ସ୍ଥାନ ଓ ଦୃଶ୍ୟମାନ ସ୍ଥାନ ଭିନ୍ନ କାହିଁକି?",
+"options": ["ଆଲୋକର ବିକ୍ଷେପଣ", "ବାୟୁମଣ୍ଡଳୀୟ ବକ୍ରୀଭୂତ", "ଆଲୋକର ଗତି", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବାୟୁମଣ୍ଡଳୀୟ ବକ୍ରୀଭୂତ",
+"explanation": "ବାୟୁମଣ୍ଡଳୀୟ ବକ୍ରୀଭୂତ ହେତୁ ଆଲୋକ ବଙ୍କା ହୋଇ ଆସେ, ତେଣୁ ସ୍ଥାନ ଅଲଗା ଦିଶେ।"
+},
+{
+"question": "ଦୃଷ୍ଟି ଦୋଷରୁ ରକ୍ଷା ପାଇବା ପାଇଁ ସୁସ୍ଥ ଖାଦ୍ୟ କଣ?",
+"options": ["ଭିଟାମିନ୍ A", "ଭିଟାମିନ୍ C", "ଭିଟାମିନ୍ D", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଭିଟାମିନ୍ A",
+"explanation": "ଭିଟାମିନ୍ A ଚକ୍ଷୁ ପାଇଁ ଅତ୍ୟନ୍ତ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ।"
+},
+{
+"question": "ଲେନ୍ସର କ୍ଷମତା 2.0D ହେଲେ ତାର ଫୋକସ୍ ଦୂରତା କେତେ?",
+"options": ["50 cm", "25 cm", "10 cm", "100 cm"],
+"answer": "50 cm",
+"explanation": "F = 1/P = 1/2 = 0.5m = 50 cm."
+},
+{
+"question": "ଲେନ୍ସର କ୍ଷମତା -2.5D ହେଲେ କେଉଁ ଲେନ୍ସ?",
+"options": ["ଉତ୍ତଳ", "ଅବତଳ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଅବତଳ",
+"explanation": "ଋଣାତ୍ମକ କ୍ଷମତା ଅବତଳ ଲେନ୍ସର ହୋଇଥାଏ।"
+},
+{
+"question": "ମାନବ ଚକ୍ଷୁର କେଉଁ ଭାଗଟି ଆଲୋକର ତୀବ୍ରତାକୁ ସହ୍ୟ କରେ?",
+"options": ["ରେଟିନା", "ଲେନ୍ସ", "କର୍ଣ୍ଣିଆ", "ଆଇରିସ୍"],
+"answer": "ରେଟିନା",
+"explanation": "ରେଟିନାରେ ଥିବା କୋଷଗୁଡ଼ିକ ଆଲୋକ ତୀବ୍ରତାକୁ ସମ୍ବେଦନଶୀଳ।"
+},
+{
+"question": "କେଉଁ ଦୋଷରେ ବ୍ୟକ୍ତି ଦୂର ଓ ପାଖ ଉଭୟ ଦେଖିପାରନ୍ତି ନାହିଁ?",
+"options": ["ପ୍ରେସବୟୋପିଆ", "ମାୟୋପିଆ", "ହାଇପରମେଟ୍ରୋପିଆ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ପ୍ରେସବୟୋପିଆ",
+"explanation": "ଜରା ଦୃଷ୍ଟି ବା ପ୍ରେସବୟୋପିଆରେ ଉଭୟ ଅସୁବିଧା ହୁଏ।"
+},
+{
+"question": "ଆଖି ଫୁଲିଲେ କଣ କରିବା ଉଚିତ୍?",
+"options": ["ଡାକ୍ତରଙ୍କ ପରାମର୍ଶ", "ନିଜେ ଔଷଧ", "ଆଖି ମଳିବା", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଡାକ୍ତରଙ୍କ ପରାମର୍ଶ",
+"explanation": "ଆଖି ସମ୍ବେଦନଶୀଳ, ତେଣୁ ଡାକ୍ତରୀ ପରାମର୍ଶ ନିତାନ୍ତ ଆବଶ୍ୟକ।"
+},
+{
+"question": "ଲେନ୍ସର ସମାଯୋଜନ ଶକ୍ତି କେଉଁଠାରେ ସବୁଠାରୁ କମ୍?",
+"options": ["ବୟସ୍କ ବ୍ୟକ୍ତିଙ୍କଠାରେ", "ଶିଶୁଙ୍କଠାରେ", "ଯୁବକଙ୍କଠାରେ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବୟସ୍କ ବ୍ୟକ୍ତିଙ୍କଠାରେ",
+"explanation": "ବୟସ୍କ ବ୍ୟକ୍ତିଙ୍କଠାରେ ଲେନ୍ସର ନମନୀୟତା କମିବାରୁ ଏହା ହୋଇଥାଏ।"
+},
+{
+"question": "ବିଦ୍ୟୁତ୍ ଚୁମ୍ବକୀୟ ବର୍ଣ୍ଣାଳୀର ବର୍ଣ୍ଣଗୁଡ଼ିକର କ୍ରମ କଣ?",
+"options": ["VIBGYOR", "ROYGBIV", "RGB", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "VIBGYOR",
+"explanation": "ବାଇଗଣୀରୁ ଲାଲ (Violet to Red) ପର୍ଯ୍ୟନ୍ତ ବର୍ଣ୍ଣାଳୀ କ୍ରମ।"
+},
+{
+"question": "କେଉଁ ରଙ୍ଗର ଆଲୋକ ଇନ୍ଦ୍ରଧନୁରେ ମଝିରେ ଥାଏ?",
+"options": ["ସବୁଜ", "ନୀଳ", "ହଳଦିଆ", "ଲାଲ"],
+"answer": "ସବୁଜ",
+"explanation": "VIBGYOR କ୍ରମରେ ସବୁଜ ମଝିରେ ଥାଏ।"
+},
+{
+"question": "ଚକ୍ଷୁରେ କେଉଁ କୋଷ ଆଲୋକର ତୀବ୍ରତା ଜାଣେ?",
+"options": ["ରଡ଼ କୋଷ", "କୋନ୍ କୋଷ", "ଉଭୟ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ରଡ଼ କୋଷ",
+"explanation": "ରଡ଼ କୋଷ ଆଲୋକର ତୀବ୍ରତା ଓ କୋନ୍ କୋଷ ରଙ୍ଗ ଜାଣିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"question": "ଆଖିର କେଉଁ ଅଂଶଟି ପ୍ରତିସରଣ କରେ ନାହିଁ?",
+"options": ["ରେଟିନା", "କର୍ଣ୍ଣିଆ", "ଲେନ୍ସ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ରେଟିନା",
+"explanation": "ରେଟିନା ପ୍ରତିବିମ୍ବ ଗ୍ରହଣ କରେ, ପ୍ରତିସରଣ କରେ ନାହିଁ।"
+},
+{
+"question": "ଲେନ୍ସର ଫୋକସ୍ ଦୂରତା ବଢ଼ିଲେ କ୍ଷମତା କଣ ହୁଏ?",
+"options": ["ବଢ଼େ", "କମେ", "ସମାନ ରହେ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "କମେ",
+"explanation": "କ୍ଷମତା (P) ଫୋକସ୍ ଦୂରତାର ବ୍ୟସ୍ତାନୁପାତିକ, ତେଣୁ ଫୋକସ୍ ବଢ଼ିଲେ କ୍ଷମତା କମେ।"
+},
+{
+"question": "ବୟସ୍କ ଲୋକଙ୍କ ପାଇଁ କେଉଁ ଲେନ୍ସ ଆବଶ୍ୟକ?",
+"options": ["ବାଇଫୋକାଲ୍", "ଉତ୍ତଳ", "ଅବତଳ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବାଇଫୋକାଲ୍",
+"explanation": "ବୟସ୍କ ଲୋକଙ୍କ ପାଇଁ ବାଇଫୋକାଲ୍ ଲେନ୍ସ (ଉଭୟ ଉତ୍ତଳ ଓ ଅବତଳ) ଦରକାର।"
+},
+{
+"question": "ପିଉପିଲ୍‌ର ଆକାର ରାତିରେ କଣ ହୁଏ?",
+"options": ["ବଡ଼ ହୁଏ", "ଛୋଟ ହୁଏ", "ବନ୍ଦ ହୁଏ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ବଡ଼ ହୁଏ",
+"explanation": "ରାତିରେ ଅଧିକ ଆଲୋକ ପ୍ରବେଶ ପାଇଁ ପିଉପିଲ୍ ବଡ଼ ହୁଏ।"
+},
+{
+"question": "ଚକ୍ଷୁରେ କୌଣସି ଆଘାତ ଲାଗିଲେ କଣ କରିବ?",
+"options": ["ଡାକ୍ତରଙ୍କୁ ଦେଖାଇବା", "ଆଖି ଧୋଇବା", "ଆଖି ବନ୍ଦ କରିବା", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଡାକ୍ତରଙ୍କୁ ଦେଖାଇବା",
+"explanation": "ଆଖିରେ କୌଣସି ସମସ୍ୟା ହେଲେ ଡାକ୍ତରଙ୍କ ପରାମର୍ଶ ହିଁ ଶ୍ରେଷ୍ଠ।"
+},
+{
+"question": "ଆଲୋକର ପ୍ରତିସରଣ କେଉଁଠାରେ ସବୁଠାରୁ ଅଧିକ ହୁଏ?",
+"options": ["କର୍ଣ୍ଣିଆ", "ଲେନ୍ସ", "ରେଟିନା", "ଆଇରିସ୍"],
+"answer": "କର୍ଣ୍ଣିଆ",
+"explanation": "କର୍ଣ୍ଣିଆ ଆଖି ଭିତରକୁ ପ୍ରବେଶ କରୁଥିବା ଆଲୋକର ସର୍ବାଧିକ ପ୍ରତିସରଣ କରେ।"
+},
+{
+"question": "ଲେନ୍ସର ବକ୍ରତା କିଏ ବଦଳାଏ?",
+"options": ["ସିଲିୟାରୀ ମାଂସପେଶୀ", "କର୍ଣ୍ଣିଆ", "ଆଇରିସ୍", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ସିଲିୟାରୀ ମାଂସପେଶୀ",
+"explanation": "ସିଲିୟାରୀ ମାଂସପେଶୀ ଲେନ୍ସର ବକ୍ରତାକୁ ନିୟନ୍ତ୍ରଣ କରେ।"
+},
+{
+"question": "ଦୃଷ୍ଟି ଦୋଷ ପାଇଁ କେଉଁ ଚଶମା ଆବଶ୍ୟକ?",
+"options": ["ଉପଯୁକ୍ତ ଲେନ୍ସର ଚଶମା", "କେବଳ ଉତ୍ତଳ", "କେବଳ ଅବତଳ", "କୌଣସିଟି ନୁହେଁ"],
+"answer": "ଉପଯୁକ୍ତ ଲେନ୍ସର ଚଶମା",
+"explanation": "ଦୋଷ ଅନୁଯାୟୀ ଡାକ୍ତରଙ୍କ ଦ୍ୱାରା ନିର୍ଦ୍ଧାରିତ ଲେନ୍ସର ଚଶମା ଦରକାର।"
+}
 ]
