@@ -1,122 +1,1178 @@
 [
-  {
-    "questionEnglish": "Which plant tissue is responsible for the transportation of water and minerals from roots to leaves?",
-    "questionOdia": "ଉଦ୍ଭିଦରେ ଚେରରୁ ପତ୍ର ପର୍ଯ୍ୟନ୍ତ ଜଳ ଏବଂ ଖଣିଜ ଲବଣର ପରିବହନ ପାଇଁ କେଉଁ ସଂଯୋଜକ କଳା (Tissue) ଦାୟୀ?",
-    "options": [
-      "Xylem",
-      "Phloem",
-      "Parenchyma",
-      "Collenchyma"
-    ],
-    "answer": "Xylem",
-    "explanation": "Xylem tissue (ଜାଇଲେମ୍) forms a continuous network of channels that conducts water and dissolved nutrients upward from the roots to all parts of the plant."
-  },
-  {
-    "questionEnglish": "Which plant tissue transports prepared food from the leaves to other parts of the plant?",
-    "questionOdia": "ପତ୍ରରେ ପ୍ରସ୍ତୁତ ହୋଇଥିବା ଖାଦ୍ୟକୁ ଉଦ୍ଭିଦର ଅନ୍ୟ ସମସ୍ତ ଅଂଶକୁ ପରିବହନ କରିବାରେ କେଉଁ କଳା ସାହାଯ୍ୟ କରେ?",
-    "options": [
-      "Phloem",
-      "Xylem",
-      "Cortex",
-      "Epidermis"
-    ],
-    "answer": "Phloem",
-    "explanation": "Phloem tissue (ଫ୍ଲୋଏମ୍) is responsible for translocation, which is the transport of soluble organic food materials (like sucrose) made during photosynthesis."
-  },
-  {
-    "questionEnglish": "The loss of water in the form of water vapor from the aerial parts of a plant is called?",
-    "questionOdia": "ଉଦ୍ଭିଦର ବାୟବୀୟ ଅଂଶରୁ ଜଳୀୟ ବାଷ୍ପ ଆକାରରେ ଜଳ ନିର୍ଗତ ହେବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Transpiration",
-      "Translocation",
-      "Guttation",
-      "Photosynthesis"
-    ],
-    "answer": "Transpiration",
-    "explanation": "Transpiration (ଉତ୍ସ୍ୱେଦନ) creates a suction pull (transpiration pull) inside the xylem vessels, helping in the upward movement of water in tall trees."
-  },
-  {
-    "questionEnglish": "How many chambers are there in a healthy human heart?",
-    "questionOdia": "ଜଣେ ସୁସ୍ଥ ମାନବର ହୃତପିଣ୍ଡରେ କେତେଗୋଟି କୋଠରୀ (Chambers) ଥାଏ?",
-    "options": [
-      "4",
-      "2",
-      "3",
-      "1"
-    ],
-    "answer": "4",
-    "explanation": "The human heart is divided into four chambers: two upper atria (ଅଳିନ୍ଦ) and two lower ventricles (ନିଳୟ) to prevent the mixing of oxygenated and deoxygenated blood."
-  },
-  {
-    "questionEnglish": "Which blood vessels carry oxygenated blood away from the heart to various organs of the body?",
-    "questionOdia": "କେଉଁ ରକ୍ତବାହୀ ଅମ୍ଳଜାନଯୁକ୍ତ ରକ୍ତକୁ ହୃତପିଣ୍ଡରୁ ଶରୀରର ବିଭିନ୍ନ ଅଙ୍ଗକୁ ବହନ କରିଥାଏ?",
-    "options": [
-      "Arteries",
-      "Veins",
-      "Capillaries",
-      "Lymph vessels"
-    ],
-    "answer": "Arteries",
-    "explanation": "Arteries (ଧମନୀ) have thick, elastic walls and carry oxygen-rich blood from the heart to the rest of the body, with the exception of the pulmonary artery."
-  },
-  {
-    "questionEnglish": "Which blood component is responsible for the clotting of blood at the site of an injury?",
-    "questionOdia": "ଶରୀରର କୌଣସି ସ୍ଥାନ କଟିଗଲେ ରକ୍ତ ଜମାଟ ବାନ୍ଧିବାରେ ରକ୍ତର କେଉଁ ଉପାଦାନ ସାହାଯ୍ୟ କରିଥାଏ?",
-    "options": [
-      "Platelets",
-      "Red Blood Cells",
-      "White Blood Cells",
-      "Plasma"
-    ],
-    "answer": "Platelets",
-    "explanation": "Platelets (ଅଣୁଚକ୍ରିକା) circulate in the blood and clump together to form a clot at injury sites, preventing excessive bleeding."
-  },
-  {
-    "questionEnglish": "What is the instrument used to measure the blood pressure of a human being called?",
-    "questionOdia": "ମାନବ ଶରୀରର ରକ୍ତଚାପ (Blood Pressure) ମାପିବା ପାଇଁ ବ୍ୟବହୃତ ହେଉଥିବା ଯନ୍ତ୍ରର ନାମ କଣ?",
-    "options": [
-      "Sphygmomanometer",
-      "Stethoscope",
-      "Barometer",
-      "Thermometer"
-    ],
-    "answer": "Sphygmomanometer",
-    "explanation": "A sphygmomanometer is a device used by medical professionals to measure systolic and diastolic blood pressure levels."
-  },
-  {
-    "questionEnglish": "What is the normal systolic and diastolic blood pressure range for a healthy adult human?",
-    "questionOdia": "ଜଣେ ସୁସ୍ଥ ବ୍ୟକ୍ତିର ସ୍ୱାଭାବିକ ରକ୍ତଚାପ (Systolic/Diastolic) କେତେ ହୋଇଥାଏ?",
-    "options": [
-      "120/80 mm Hg",
-      "80/120 mm Hg",
-      "140/90 mm Hg",
-      "100/50 mm Hg"
-    ],
-    "answer": "120/80 mm Hg",
-    "explanation": "A normal blood pressure reading is 120 mm Hg for systolic pressure (heart contraction phase) and 80 mm Hg for diastolic pressure (heart relaxation phase)."
-  },
-  {
-    "questionEnglish": "Which blood group is known as the 'Universal Donor' because it can be given to a person of any blood group?",
-    "questionOdia": "କେଉଁ ରକ୍ତ ସମୂହକୁ 'ସର୍ବଜନୀନ ଦାତା' (Universal Donor) କୁହାଯାଏ?",
-    "options": [
-      "Blood Group O",
-      "Blood Group AB",
-      "Blood Group A",
-      "Blood Group B"
-    ],
-    "answer": "Blood Group O",
-    "explanation": "Blood Group O contains no A or B antigens on red blood cells, which prevents an immune response, allowing it to be transfused into any recipient safely."
-  },
-  {
-    "questionEnglish": "What is the fluid portion of blood left after the removal of blood cells called?",
-    "questionOdia": "ରକ୍ତ କଣିକାଗୁଡ଼ିକୁ ବାଦ୍ ଦେଲା ପରେ ରକ୍ତର ତରଳ ଅଂଶକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Plasma",
-      "Lymph",
-      "Serum",
-      "Hemoglobin"
-    ],
-    "answer": "Plasma",
-    "explanation": "Plasma (ପ୍ଲାଜ୍ମା ବା ରକ୍ତ ରସ) makes up about 55% of the total blood volume and carries proteins, glucose, mineral ions, hormones, and carbon dioxide."
-  }
+{
+"questionEnglish": "Which of the following is the main transport system in humans?",
+"questionOdia": "ମଣିଷ ଶରୀରରେ ମୁଖ୍ୟ ପରିବହନ ବ୍ୟବସ୍ଥା କଣ?",
+"options": [
+"ରକ୍ତ ସଞ୍ଚାଳନ",
+"ପାଚନ",
+"ଶ୍ଵସନ",
+"ରେଚନ"
+],
+"answer": "ରକ୍ତ ସଞ୍ଚାଳନ",
+"explanation": "ରକ୍ତ ପରିବହନ ବ୍ୟବସ୍ଥା ମାଧ୍ୟମରେ ଅମ୍ଳଜାନ, ପୋଷକ ଓ ବର୍ଜ୍ୟବସ୍ତୁ ଦେହର ସବୁ ଅଂଶକୁ ବହିତ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the heart mainly composed of?",
+"questionOdia": "ହୃତ୍‌ପିଣ୍ଡ ମୁଖ୍ୟତଃ କାହା ଦ୍ଵାରା ଗଠିତ?",
+"options": [
+"ଅସ୍ଥି ପେଶୀ",
+"ହୃତ୍‌ପେଶୀ",
+"ସ୍ନାୟୁ କୋଷ",
+"ଚର୍ବି କୋଷ"
+],
+"answer": "ହୃତ୍‌ପେଶୀ",
+"explanation": "ହୃତ୍‌ପିଣ୍ଡ ଏକ ପେଶୀବହୁଳ ଅଙ୍ଗ ଯାହା ହୃତ୍‌ପେଶୀ (Cardiac muscle) ଦ୍ଵାରା ଗଠିତ।"
+},
+{
+"questionEnglish": "Which blood vessel carries blood away from the heart?",
+"questionOdia": "କେଉଁ ରକ୍ତନଳୀ ହୃତ୍‌ପିଣ୍ଡରୁ ରକ୍ତକୁ ଦେହର ଅନ୍ୟ ଅଂଶକୁ ନିଏ?",
+"options": [
+"ଶିରା",
+"ଧମନୀ",
+"କେଶିକା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଧମନୀ",
+"explanation": "ଧମନୀ (Artery) ହୃତ୍‌ପିଣ୍ଡରୁ ଅମ୍ଳଜାନଯୁକ୍ତ ରକ୍ତକୁ ଦେହର ବିଭିନ୍ନ ଅଂଶକୁ ବହନ କରେ।"
+},
+{
+"questionEnglish": "Which blood cell helps in blood clotting?",
+"questionOdia": "ରକ୍ତ ଜମାଟ ବାନ୍ଧିବାରେ କେଉଁ ରକ୍ତକଣିକା ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ଲୋହିତ ରକ୍ତକଣିକା",
+"ଶ୍ଵେତ ରକ୍ତକଣିକା",
+"ଅଣୁଚକ୍ରିକା",
+"ପ୍ଲାଜ୍ମା"
+],
+"answer": "ଅଣୁଚକ୍ରିକା",
+"explanation": "ଅଣୁଚକ୍ରିକା (Platelets) ରକ୍ତସ୍ରାବ ବନ୍ଦ କରିବା ପାଇଁ ରକ୍ତ ଜମାଟ ବାନ୍ଧିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Which part of the blood transports oxygen?",
+"questionOdia": "ରକ୍ତର କେଉଁ ଅଂଶ ଅମ୍ଳଜାନ ପରିବହନ କରେ?",
+"options": [
+"ପ୍ଲାଜ୍ମା",
+"ଶ୍ଵେତ ରକ୍ତକଣିକା",
+"ହିମୋଗ୍ଲୋବିନ୍ (ଲୋହିତ କଣିକା)",
+"ଅଣୁଚକ୍ରିକା"
+],
+"answer": "ହିମୋଗ୍ଲୋବିନ୍ (ଲୋହିତ କଣିକା)",
+"explanation": "ଲୋହିତ ରକ୍ତକଣିକାରେ ଥିବା ହିମୋଗ୍ଲୋବିନ୍ ଅମ୍ଳଜାନ ସହ ମିଶି ଅକ୍ସିହିମୋଗ୍ଲୋବିନ୍ ରୂପେ ପରିବହନ କରେ।"
+},
+{
+"questionEnglish": "How many chambers does the human heart have?",
+"questionOdia": "ମଣିଷ ହୃତ୍‌ପିଣ୍ଡରେ କେତୋଟି ପ୍ରକୋଷ୍ଠ ଥାଏ?",
+"options": [
+"୨ଟି",
+"୩ଟି",
+"୪ଟି",
+"୫ଟି"
+],
+"answer": "୪ଟି",
+"explanation": "ମଣିଷ ହୃତ୍‌ପିଣ୍ଡରେ ଦୁଇଟି ଅଳିନ୍ଦ ଓ ଦୁଇଟି ନିଳୟ ରହି ମୋଟ ୪ଟି ପ୍ରକୋଷ୍ଠ ଥାଏ।"
+},
+{
+"questionEnglish": "Which valve is present between the left atrium and left ventricle?",
+"questionOdia": "ବାମ ଅଳିନ୍ଦ ଓ ବାମ ନିଳୟ ମଧ୍ୟରେ କେଉଁ କବାଟିକା ଥାଏ?",
+"options": [
+"ଟ୍ରାଇକସପିଡ୍",
+"ବାଇକସପିଡ୍ (ମିଟ୍ରାଲ୍)",
+"ପଲ୍‌ମୋନାରୀ",
+"ଅର୍ଦ୍ଧଚନ୍ଦ୍ରାକୃତି"
+],
+"answer": "ବାଇକସପିଡ୍ (ମିଟ୍ରାଲ୍)",
+"explanation": "ବାମ ପାଖରେ ଥିବା ଏହି କବାଟିକା ରକ୍ତକୁ ଓଲଟା ଦିଗକୁ ଯିବାରୁ ରୋକିଥାଏ।"
+},
+{
+"questionEnglish": "What is the fluid part of the blood called?",
+"questionOdia": "ରକ୍ତର ତରଳ ଅଂଶକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ସିରମ୍",
+"ପ୍ଲାଜ୍ମା",
+"ଲସିକା",
+"ହିମୋଲିମ୍ଫ"
+],
+"answer": "ପ୍ଲାଜ୍ମା",
+"explanation": "ରକ୍ତର ପ୍ରାୟ ୫୫% ଅଂଶ ପ୍ଲାଜ୍ମା, ଯାହା ମୁଖ୍ୟତଃ ଜଳ, ପ୍ରୋଟିନ୍ ଓ ଅନ୍ୟାନ୍ୟ ଦ୍ରବ୍ୟରେ ଗଠିତ।"
+},
+{
+"questionEnglish": "Which vessels contain valves to prevent backflow?",
+"questionOdia": "କେଉଁ ରକ୍ତନଳୀରେ ରକ୍ତର ଓଲଟା ଗତି ରୋକିବା ପାଇଁ କବାଟିକା ଥାଏ?",
+"options": [
+"ଧମନୀ",
+"ଶିରା",
+"କେଶିକା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶିରା",
+"explanation": "ଶିରାରେ ରକ୍ତ ଚାପ କମ୍ ଥିବାରୁ କବାଟିକା ରକ୍ତକୁ ସଠିକ୍ ଦିଗରେ ହୃତ୍‌ପିଣ୍ଡ ଆଡ଼କୁ ନେବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "What is the liquid tissue that transports nutrients?",
+"questionOdia": "କେଉଁ ତରଳ କଳା ପୋଷକ ପରିବହନ କରେ?",
+"options": [
+"ଲସିକା",
+"ରକ୍ତ",
+"ଉଭୟ A ଓ B",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ A ଓ B",
+"explanation": "ରକ୍ତ ଓ ଲସିକା ଉଭୟ ଶରୀରରେ ପୋଷକ ଓ ଅନ୍ୟାନ୍ୟ ଅତ୍ୟାବଶ୍ୟକ ପଦାର୍ଥ ପରିବହନ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Which vessel has the thinnest walls?",
+"questionOdia": "କେଉଁ ରକ୍ତନଳୀର କାନ୍ଥ ସବୁଠାରୁ ପତଳା?",
+"options": [
+"ଧମନୀ",
+"ଶିରା",
+"କେଶିକା",
+"ମହାଧମନୀ"
+],
+"answer": "କେଶିକା",
+"explanation": "କେଶିକା କୋଷସ୍ତରରେ ରହିଥିବାରୁ ଏହାର କାନ୍ଥ ଅତ୍ୟନ୍ତ ପତଳା ଯାହା ସହଜ ଗ୍ୟାସ୍ ଓ ପୋଷକ ବିନିମୟ ସମ୍ଭବ କରେ।"
+},
+{
+"questionEnglish": "What brings deoxygenated blood to the heart?",
+"questionOdia": "କେଉଁ ନଳୀ ଅମ୍ଳଜାନବିହୀନ ରକ୍ତକୁ ହୃତ୍‌ପିଣ୍ଡକୁ ଆଣେ?",
+"options": [
+"ମହାଧମନୀ",
+"ମହାଶିରା",
+"ଫୁସଫୁସୀୟ ଧମନୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମହାଶିରା",
+"explanation": "ଉର୍ଦ୍ଧ ଓ ନିମ୍ନ ମହାଶିରା ଦେହର ସବୁ ଅଂଶରୁ ଅମ୍ଳଜାନବିହୀନ ରକ୍ତକୁ ହୃତ୍‌ପିଣ୍ଡର ଡାହାଣ ଅଳିନ୍ଦକୁ ଆଣନ୍ତି।"
+},
+{
+"questionEnglish": "Which organism has a single-circulation system?",
+"questionOdia": "କେଉଁ ପ୍ରାଣୀରେ ଏକ-ପଥୀ ସଞ୍ଚାଳନ ଦେଖାଯାଏ?",
+"options": [
+"ମଣିଷ",
+"ପକ୍ଷୀ",
+"ମାଛ",
+"ବେଙ୍ଗ"
+],
+"answer": "ମାଛ",
+"explanation": "ମାଛ ହୃତ୍‌ପିଣ୍ଡରେ ରକ୍ତ ଥରେ ମାତ୍ର ପ୍ରବାହିତ ହୁଏ, ତେଣୁ ଏହା ଏକ-ପଥୀ ସଞ୍ଚାଳନ।"
+},
+{
+"questionEnglish": "What is the normal blood pressure of a healthy human?",
+"questionOdia": "ଜଣେ ସୁସ୍ଥ ମଣିଷର ସାଧାରଣ ରକ୍ତଚାପ କେତେ?",
+"options": [
+"୧୦୦/୮୦ mm Hg",
+"୧୨୦/୮୦ mm Hg",
+"୧୪୦/୯୦ mm Hg",
+"୧୧୦/୭୦ mm Hg"
+],
+"answer": "୧୨୦/୮୦ mm Hg",
+"explanation": "ସିଷ୍ଟୋଲିକ୍ ଚାପ ୧୨୦ ଓ ଡାଇଷ୍ଟୋଲିକ୍ ଚାପ ୮୦ mm Hg ହେବା ସାଧାରଣ।"
+},
+{
+"questionEnglish": "Which mineral is essential for hemoglobin formation?",
+"questionOdia": "ହିମୋଗ୍ଲୋବିନ୍ ଗଠନ ପାଇଁ କେଉଁ ଧାତୁ ଆବଶ୍ୟକ?",
+"options": [
+"କ୍ୟାଲସିୟମ୍",
+"ଲୌହ (Iron)",
+"ମ୍ୟାଗ୍ନେସିୟମ୍",
+"ପୋଟାସିୟମ୍"
+],
+"answer": "ଲୌହ (Iron)",
+"explanation": "ହିମୋଗ୍ଲୋବିନ୍ ରେ ଲୌହ ଅଣୁ ଥାଏ ଯାହା ଅମ୍ଳଜାନ ଧରି ରଖିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "What is the function of the pericardium?",
+"questionOdia": "ପେରିକାର୍ଡିୟମ୍‌ର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ରକ୍ତ ସଫା କରିବା",
+"ହୃତ୍‌ପିଣ୍ଡକୁ ସୁରକ୍ଷା ଦେବା",
+"ହରମୋନ୍ କ୍ଷରଣ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହୃତ୍‌ପିଣ୍ଡକୁ ସୁରକ୍ଷା ଦେବା",
+"explanation": "ପେରିକାର୍ଡିୟମ୍ ଏକ ଆବରଣ ଯାହା ହୃତ୍‌ପିଣ୍ଡକୁ ଘର୍ଷଣ ଓ ଆଘାତରୁ ରକ୍ଷା କରେ।"
+},
+{
+"questionEnglish": "Which cells fight against infection?",
+"questionOdia": "କେଉଁ ରକ୍ତକଣିକା ସଂକ୍ରମଣ ବିରୁଦ୍ଧରେ ଲଢ଼େ?",
+"options": [
+"ଲୋହିତ ରକ୍ତକଣିକା",
+"ଶ୍ଵେତ ରକ୍ତକଣିକା",
+"ଅଣୁଚକ୍ରିକା",
+"ପ୍ଲାଜ୍ମା"
+],
+"answer": "ଶ୍ଵେତ ରକ୍ତକଣିକା",
+"explanation": "ଶ୍ଵେତ ରକ୍ତକଣିକା ଶରୀରର ପ୍ରତିରକ୍ଷା ବ୍ୟବସ୍ଥାରେ ମୁଖ୍ୟ ଭୂମିକା ଗ୍ରହଣ କରେ।"
+},
+{
+"questionEnglish": "Where does oxygenation of blood occur in humans?",
+"questionOdia": "ମଣିଷ ଶରୀରରେ ରକ୍ତ କେଉଁଠାରେ ଅମ୍ଳଜାନଯୁକ୍ତ ହୁଏ?",
+"options": [
+"ହୃତ୍‌ପିଣ୍ଡରେ",
+"ଫୁସଫୁସରେ",
+"ବୃକ୍କରେ",
+"ଯକୃତରେ"
+],
+"answer": "ଫୁସଫୁସରେ",
+"explanation": "ଫୁସଫୁସରେ ରକ୍ତ ବାୟୁମଣ୍ଡଳରୁ ଅମ୍ଳଜାନ ଗ୍ରହଣ କରେ।"
+},
+{
+"questionEnglish": "Which vessel carries blood to the lungs?",
+"questionOdia": "କେଉଁ ନଳୀ ଫୁସଫୁସକୁ ରକ୍ତ ବହନ କରେ?",
+"options": [
+"ମହାଶିରା",
+"ଫୁସଫୁସୀୟ ଧମନୀ",
+"ଫୁସଫୁସୀୟ ଶିରା",
+"ମହାଧମନୀ"
+],
+"answer": "ଫୁସଫୁସୀୟ ଧମନୀ",
+"explanation": "ଏହା ଏକମାତ୍ର ଧମନୀ ଯାହା ହୃତ୍‌ପିଣ୍ଡରୁ ଅମ୍ଳଜାନବିହୀନ ରକ୍ତକୁ ଫୁସଫୁସକୁ ନିଏ।"
+},
+{
+"questionEnglish": "What is the function of the lymphatic system?",
+"questionOdia": "ଲସିକା ତନ୍ତ୍ରର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ରକ୍ତ ପରିବହନ",
+"ପୋଷକ ଓ ତରଳ ପଦାର୍ଥ ପରିବହନ",
+"ଶକ୍ତି ଉତ୍ପାଦନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପୋଷକ ଓ ତରଳ ପଦାର୍ଥ ପରିବହନ",
+"explanation": "ଲସିକା ତନ୍ତ୍ର ଶରୀରର କୋଷଗୁଡ଼ିକ ମଧ୍ୟରେ ତରଳ ପଦାର୍ଥ ଓ ପ୍ରତିରକ୍ଷା କୋଷ ପରିବହନ କରେ।"
+},
+{
+"questionEnglish": "Which organism has a three-chambered heart?",
+"questionOdia": "କେଉଁ ଜୀବର ତିନୋଟି ପ୍ରକୋଷ୍ଠ ବିଶିଷ୍ଟ ହୃତ୍‌ପିଣ୍ଡ ଥାଏ?",
+"options": [
+"ମଣିଷ",
+"ମାଛ",
+"ବେଙ୍ଗ",
+"ପକ୍ଷୀ"
+],
+"answer": "ବେଙ୍ଗ",
+"explanation": "ଉଭୟଚର ପ୍ରାଣୀ ଯଥା ବେଙ୍ଗର ଦୁଇଟି ଅଳିନ୍ଦ ଓ ଗୋଟିଏ ନିଳୟ ଥାଏ।"
+},
+{
+"questionEnglish": "What is tachycardia?",
+"questionOdia": "ଟାକିକାର୍ଡିଆ କଣ?",
+"options": [
+"ହୃଦ୍‌ସ୍ପନ୍ଦନ କମ୍ ହେବା",
+"ହୃଦ୍‌ସ୍ପନ୍ଦନ ବଢ଼ିଯିବା",
+"ରକ୍ତଚାପ ବଢ଼ିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହୃଦ୍‌ସ୍ପନ୍ଦନ ବଢ଼ିଯିବା",
+"explanation": "ଅସ୍ଵାଭାବିକ ଭାବେ ହୃଦ୍‌ସ୍ପନ୍ଦନ ବଢ଼ିଗଲେ ତାକୁ ଟାକିକାର୍ଡିଆ କହନ୍ତି।"
+},
+{
+"questionEnglish": "What is the pulse rate?",
+"questionOdia": "ନାଡ଼ି ସ୍ପନ୍ଦନ (Pulse rate) କଣ?",
+"options": [
+"ଧମନୀରେ ରକ୍ତ ପ୍ରବାହ ସ୍ପନ୍ଦନ",
+"ହୃତ୍‌ପିଣ୍ଡର ଆକାର",
+"ଶିରାର ରକ୍ତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଧମନୀରେ ରକ୍ତ ପ୍ରବାହ ସ୍ପନ୍ଦନ",
+"explanation": "ହୃତ୍‌ପିଣ୍ଡର ସଙ୍କୋଚନ ଯୋଗୁଁ ଧମନୀରେ ଯେଉଁ ଲହରୀ ସୃଷ୍ଟି ହୁଏ, ତାହା ନାଡ଼ି ସ୍ପନ୍ଦନ।"
+},
+{
+"questionEnglish": "What is the main carrier of waste in blood?",
+"questionOdia": "ରକ୍ତରେ ବର୍ଜ୍ୟବସ୍ତୁର ମୁଖ୍ୟ ବାହକ କିଏ?",
+"options": [
+"ଲୋହିତ କଣିକା",
+"ପ୍ଲାଜ୍ମା",
+"ଶ୍ଵେତ କଣିକା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପ୍ଲାଜ୍ମା",
+"explanation": "ପ୍ଲାଜ୍ମା ୟୁରିଆ ଓ ଅନ୍ୟାନ୍ୟ ବର୍ଜ୍ୟବସ୍ତୁକୁ ବୃକ୍କ ପର୍ଯ୍ୟନ୍ତ ବହନ କରେ।"
+},
+{
+"questionEnglish": "What is blood?",
+"questionOdia": "ରକ୍ତ କଣ?",
+"options": [
+"ଏକ ଯୋଜକ କଳା",
+"ଏକ ପେଶୀ",
+"ଏକ ହାଡ଼",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏକ ଯୋଜକ କଳା",
+"explanation": "ରକ୍ତ ହେଉଛି ଏକ ପ୍ରକାର ତରଳ ଯୋଜକ କଳା (Liquid connective tissue)।"
+},
+{
+"questionEnglish": "Where is blood formed in adults?",
+"questionOdia": "ବୟସ୍କ ବ୍ୟକ୍ତିଙ୍କଠାରେ ରକ୍ତ କେଉଁଠାରେ ତିଆରି ହୁଏ?",
+"options": [
+"ଯକୃତ",
+"ବୃକ୍କ",
+"ଅସ୍ଥିମଜ୍ଜା",
+"ପ୍ଲୀହା"
+],
+"answer": "ଅସ୍ଥିମଜ୍ଜା",
+"explanation": "ଅସ୍ଥିମଜ୍ଜା (Bone marrow) ରକ୍ତକଣିକା ତିଆରି କରେ।"
+},
+{
+"questionEnglish": "Which part of the heart receives blood from the body?",
+"questionOdia": "ହୃତ୍‌ପିଣ୍ଡର କେଉଁ ଅଂଶ ଦେହରୁ ରକ୍ତ ଗ୍ରହଣ କରେ?",
+"options": [
+"ଡାହାଣ ଅଳିନ୍ଦ",
+"ବାମ ଅଳିନ୍ଦ",
+"ନିଳୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଡାହାଣ ଅଳିନ୍ଦ",
+"explanation": "ଶରୀରର ସମସ୍ତ ଅଂଶରୁ ଅମ୍ଳଜାନବିହୀନ ରକ୍ତ ଡାହାଣ ଅଳିନ୍ଦରେ ପହଞ୍ଚେ।"
+},
+{
+"questionEnglish": "What is the function of the aortic valve?",
+"questionOdia": "ଆଓର୍ଟିକ କବାଟିକାର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ରକ୍ତକୁ ମହାଧମନୀକୁ ଯିବାକୁ ଦିଏ",
+"ରକ୍ତକୁ ଫେରାଇ ଆଣେ",
+"ରକ୍ତ ସଫା କରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତକୁ ମହାଧମନୀକୁ ଯିବାକୁ ଦିଏ",
+"explanation": "ଏହା ନିଳୟରୁ ରକ୍ତକୁ ମହାଧମନୀ ଦେଇ ଦେହର ଅନ୍ୟ ଅଂଶକୁ ପଠାଏ।"
+},
+{
+"questionEnglish": "What is blood circulation?",
+"questionOdia": "ରକ୍ତ ସଞ୍ଚାଳନ କଣ?",
+"options": [
+"ଶରୀରରେ ରକ୍ତର ଗତି",
+"ଖାଦ୍ୟର ଗତି",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶରୀରରେ ରକ୍ତର ଗତି",
+"explanation": "ହୃତ୍‌ପିଣ୍ଡ ଦ୍ଵାରା ରକ୍ତ ସାରା ଶରୀରରେ ଘୁରି ବୁଲିବା।"
+},
+{
+"questionEnglish": "What is hemoglobin?",
+"questionOdia": "ହିମୋଗ୍ଲୋବିନ୍ କଣ?",
+"options": [
+"ଏକ ରକ୍ତ ରଞ୍ଜକ",
+"ଏକ ପେଶୀ",
+"ଏକ ହରମୋନ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏକ ରକ୍ତ ରଞ୍ଜକ",
+"explanation": "ହିମୋଗ୍ଲୋବିନ୍ ରକ୍ତକୁ ନାଲି ରଙ୍ଗ ଦିଏ ଓ ଅମ୍ଳଜାନ ବହନ କରେ।"
+},
+{
+"questionEnglish": "What is hypertension?",
+"questionOdia": "ଉଚ୍ଚ ରକ୍ତଚାପ (Hypertension) କଣ?",
+"options": [
+"ଅଧିକ ରକ୍ତଚାପ",
+"କମ୍ ରକ୍ତଚାପ",
+"ସାଧାରଣ ରକ୍ତଚାପ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅଧିକ ରକ୍ତଚାପ",
+"explanation": "ଅସ୍ଵାଭାବିକ ଭାବେ ରକ୍ତଚାପ ବଢ଼ିଗଲେ ତାକୁ ଉଚ୍ଚ ରକ୍ତଚାପ କହନ୍ତି।"
+},
+{
+"questionEnglish": "What is the heart's work?",
+"questionOdia": "ହୃତ୍‌ପିଣ୍ଡର କାମ କଣ?",
+"options": [
+"ରକ୍ତ ପମ୍ପ କରିବା",
+"ଖାଦ୍ୟ ହଜମ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ପମ୍ପ କରିବା",
+"explanation": "ହୃତ୍‌ପିଣ୍ଡ ଏକ ପମ୍ପ ଭଳି କାମ କରେ ଯାହା ରକ୍ତକୁ ସଞ୍ଚାଳନ କରେ।"
+},
+{
+"questionEnglish": "What is plasma made of?",
+"questionOdia": "ପ୍ଲାଜ୍ମା କାହାକୁ ନେଇ ଗଠିତ?",
+"options": [
+"ଜଳ ଓ ପ୍ରୋଟିନ୍",
+"ହାଡ଼",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜଳ ଓ ପ୍ରୋଟିନ୍",
+"explanation": "ପ୍ଲାଜ୍ମା ମୁଖ୍ୟତଃ ଜଳ, ପ୍ରୋଟିନ୍, ଲବଣ ଓ ପୋଷକରେ ଗଠିତ।"
+},
+{
+"questionEnglish": "What is the role of the left ventricle?",
+"questionOdia": "ବାମ ନିଳୟର କାମ କଣ?",
+"options": [
+"ସାରା ଦେହକୁ ରକ୍ତ ପମ୍ପ କରିବା",
+"ହୃତ୍‌ପିଣ୍ଡକୁ ରକ୍ତ ଆଣିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସାରା ଦେହକୁ ରକ୍ତ ପମ୍ପ କରିବା",
+"explanation": "ବାମ ନିଳୟ ସବୁଠାରୁ ଶକ୍ତିଶାଳୀ ଅଂଶ ଯାହା ରକ୍ତକୁ ଦେହର ସବୁ ଭାଗକୁ ପଠାଏ।"
+},
+{
+"questionEnglish": "Why is blood red?",
+"questionOdia": "ରକ୍ତ କାହିଁକି ନାଲି?",
+"options": [
+"ହିମୋଗ୍ଲୋବିନ୍ ପାଇଁ",
+"ଲସିକା ପାଇଁ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହିମୋଗ୍ଲୋବିନ୍ ପାଇଁ",
+"explanation": "ହିମୋଗ୍ଲୋବିନ୍ ରଙ୍ଗ ନାଲି ହୋଇଥିବାରୁ ରକ୍ତ ନାଲି ଦେଖାଯାଏ।"
+},
+{
+"questionEnglish": "What are veins?",
+"questionOdia": "ଶିରା କଣ?",
+"options": [
+"ରକ୍ତକୁ ହୃତ୍‌ପିଣ୍ଡକୁ ଆଣୁଥିବା ନଳୀ",
+"ରକ୍ତକୁ ଦୂରକୁ ନେଉଥିବା ନଳୀ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତକୁ ହୃତ୍‌ପିଣ୍ଡକୁ ଆଣୁଥିବା ନଳୀ",
+"explanation": "ଶିରା ଦେହରୁ ରକ୍ତକୁ ହୃତ୍‌ପିଣ୍ଡକୁ ଆଣିଥାଏ।"
+},
+{
+"questionEnglish": "What are arteries?",
+"questionOdia": "ଧମନୀ କଣ?",
+"options": [
+"ରକ୍ତକୁ ହୃତ୍‌ପିଣ୍ଡରୁ ଦୂରକୁ ନେଉଥିବା ନଳୀ",
+"ରକ୍ତକୁ ଆଣୁଥିବା ନଳୀ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତକୁ ହୃତ୍‌ପିଣ୍ଡରୁ ଦୂରକୁ ନେଉଥିବା ନଳୀ",
+"explanation": "ଧମନୀ ହୃତ୍‌ପିଣ୍ଡରୁ ରକ୍ତକୁ ବିଭିନ୍ନ ଅଙ୍ଗକୁ ପଠାଏ।"
+},
+{
+"questionEnglish": "What is the function of the circulatory system?",
+"questionOdia": "ସଞ୍ଚାଳନ ତନ୍ତ୍ରର କାମ କଣ?",
+"options": [
+"ପୋଷକ ଓ ଅମ୍ଳଜାନ ପରିବହନ",
+"ଖାଦ୍ୟ ହଜମ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପୋଷକ ଓ ଅମ୍ଳଜାନ ପରିବହନ",
+"explanation": "ସାରା ଦେହରେ ଆବଶ୍ୟକୀୟ ପଦାର୍ଥ ପହଞ୍ଚାଇବା।"
+},
+{
+"questionEnglish": "What is the role of valves?",
+"questionOdia": "କବାଟିକାର କାମ କଣ?",
+"options": [
+"ରକ୍ତର ଦିଗ ନିୟନ୍ତ୍ରଣ",
+"ଖାଦ୍ୟ ହଜମ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତର ଦିଗ ନିୟନ୍ତ୍ରଣ",
+"explanation": "କବାଟିକା ରକ୍ତକୁ କେବଳ ଗୋଟିଏ ଦିଗରେ ଯିବାକୁ ଦିଏ।"
+},
+{
+"questionEnglish": "What is the role of white blood cells?",
+"questionOdia": "ଶ୍ଵେତ ରକ୍ତକଣିକାର କାମ କଣ?",
+"options": [
+"ରୋଗ ସହ ଲଢ଼ିବା",
+"ଅମ୍ଳଜାନ ପରିବହନ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରୋଗ ସହ ଲଢ଼ିବା",
+"explanation": "ଶ୍ଵେତ ରକ୍ତକଣିକା ଶରୀରର ଜୀବାଣୁ ନାଶକ।"
+},
+{
+"questionEnglish": "What is blood pressure?",
+"questionOdia": "ରକ୍ତଚାପ କଣ?",
+"options": [
+"ଧମନୀ କାନ୍ଥରେ ରକ୍ତର ଚାପ",
+"ଶିରାର ଚାପ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଧମନୀ କାନ୍ଥରେ ରକ୍ତର ଚାପ",
+"explanation": "ହୃତ୍‌ପିଣ୍ଡ ପମ୍ପ କଲାବେଳେ ଧମନୀରେ ସୃଷ୍ଟି ହେଉଥିବା ଚାପ।"
+},
+{
+"questionEnglish": "What is anemia?",
+"questionOdia": "ରକ୍ତହୀନତା କଣ?",
+"options": [
+"ହିମୋଗ୍ଲୋବିନ୍ କମ୍ ହେବା",
+"ରକ୍ତ ବଢ଼ିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହିମୋଗ୍ଲୋବିନ୍ କମ୍ ହେବା",
+"explanation": "ହିମୋଗ୍ଲୋବିନ୍ କମିଲେ ରକ୍ତହୀନତା ହୁଏ।"
+},
+{
+"questionEnglish": "What is the heart rate?",
+"questionOdia": "ହୃଦ୍‌ସ୍ପନ୍ଦନ ହାର କଣ?",
+"options": [
+"ପ୍ରତି ମିନିଟରେ ହୃଦୟର ସ୍ପନ୍ଦନ",
+"ଶ୍ଵାସ ଗତି",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପ୍ରତି ମିନିଟରେ ହୃଦୟର ସ୍ପନ୍ଦନ",
+"explanation": "ମିନିଟକୁ ହୃଦୟ କେତେ ଥର ଧଡ଼ଧଡ଼ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the blood group system?",
+"questionOdia": "ରକ୍ତ ବର୍ଗ କଣ?",
+"options": [
+"A, B, AB, O",
+"C, D, E",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "A, B, AB, O",
+"explanation": "ଏହା ମୁଖ୍ୟ ରକ୍ତ ବର୍ଗ ବ୍ୟବସ୍ଥା।"
+},
+{
+"questionEnglish": "What is the function of platelets?",
+"questionOdia": "ଅଣୁଚକ୍ରିକାର କାମ କଣ?",
+"options": [
+"ରକ୍ତ ଜମାଟ କରିବା",
+"ରକ୍ତ ବଢ଼ାଇବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ଜମାଟ କରିବା",
+"explanation": "ଆଘାତ ଲାଗିଲେ ରକ୍ତ ବନ୍ଦ କରିବା।"
+},
+{
+"questionEnglish": "What is the role of red blood cells?",
+"questionOdia": "ଲୋହିତ ରକ୍ତକଣିକାର କାମ କଣ?",
+"options": [
+"ଅମ୍ଳଜାନ ବହନ",
+"ରୋଗ ସହ ଲଢ଼ିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମ୍ଳଜାନ ବହନ",
+"explanation": "ଅମ୍ଳଜାନ ସାରା ଶରୀରକୁ ପହଞ୍ଚାଇବା।"
+},
+{
+"questionEnglish": "What is the role of the circulatory system?",
+"questionOdia": "ସଞ୍ଚାଳନ ତନ୍ତ୍ରର ମହତ୍ତ୍ୱ କଣ?",
+"options": [
+"ଜୀବନ ରକ୍ଷା",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜୀବନ ରକ୍ଷା",
+"explanation": "ସବୁ ଅଙ୍ଗକୁ ପୋଷକ ଓ ଅମ୍ଳଜାନ ଦେଇ ଜୀବନ ରକ୍ଷା କରେ।"
+},
+{
+"questionEnglish": "What is a healthy heart?",
+"questionOdia": "ସୁସ୍ଥ ହୃତ୍‌ପିଣ୍ଡ କଣ?",
+"options": [
+"ସଠିକ୍ କାମ କରୁଥିବା ହୃତ୍‌ପିଣ୍ଡ",
+"କିଛି ନୁହେଁ",
+"ଖରାପ ହୃତ୍‌ପିଣ୍ଡ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସଠିକ୍ କାମ କରୁଥିବା ହୃତ୍‌ପିଣ୍ଡ",
+"explanation": "ଯାହା ସଠିକ୍ ଭାବେ ରକ୍ତ ପମ୍ପ କରେ।"
+},
+{
+"questionEnglish": "What is blood circulation important for?",
+"questionOdia": "ରକ୍ତ ସଞ୍ଚାଳନ କାହିଁକି ଦରକାର?",
+"options": [
+"ପୋଷକ ପହଞ୍ଚାଇବା",
+"କିଛି ନୁହେଁ",
+"ଖାଦ୍ୟ ଖାଇବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପୋଷକ ପହଞ୍ଚାଇବା",
+"explanation": "ସାରା ଦେହକୁ ପୋଷକ ମିଳିବା ପାଇଁ।"
+},
+{
+"questionEnglish": "What happens in capillaries?",
+"questionOdia": "କେଶିକାରେ କଣ ହୁଏ?",
+"options": [
+"ଗ୍ୟାସ୍ ବିନିମୟ",
+"ଖାଦ୍ୟ ହଜମ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗ୍ୟାସ୍ ବିନିମୟ",
+"explanation": "ଏଠାରେ ହିଁ ଅମ୍ଳଜାନ ଓ CO2 ବିନିମୟ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the heart's size?",
+"questionOdia": "ହୃତ୍‌ପିଣ୍ଡର ଆକାର କଣ?",
+"options": [
+"ମୁଠି ଆକାରର",
+"ବଡ଼",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମୁଠି ଆକାରର",
+"explanation": "ମଣିଷର ହୃତ୍‌ପିଣ୍ଡ ପ୍ରାୟ ମୁଠି ଆକାରର।"
+},
+{
+"questionEnglish": "What is the function of the right ventricle?",
+"questionOdia": "ଡାହାଣ ନିଳୟର କାମ କଣ?",
+"options": [
+"ଫୁସଫୁସକୁ ରକ୍ତ ପମ୍ପ କରିବା",
+"ଦେହକୁ ରକ୍ତ ପମ୍ପ କରିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଫୁସଫୁସକୁ ରକ୍ତ ପମ୍ପ କରିବା",
+"explanation": "ଏହା ଅମ୍ଳଜାନବିହୀନ ରକ୍ତକୁ ଫୁସଫୁସକୁ ପଠାଏ।"
+},
+{
+"questionEnglish": "What is plasma?",
+"questionOdia": "ପ୍ଲାଜ୍ମା କଣ?",
+"options": [
+"ରକ୍ତର ତରଳ ଅଂଶ",
+"କଣିକା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତର ତରଳ ଅଂଶ",
+"explanation": "ରକ୍ତରେ ଥିବା ହଳଦିଆ ରଙ୍ଗର ତରଳ ଭାଗ।"
+},
+{
+"questionEnglish": "What is heart disease?",
+"questionOdia": "ହୃଦ୍‌ରୋଗ କଣ?",
+"options": [
+"ହୃତ୍‌ପିଣ୍ଡର ସମସ୍ୟା",
+"କିଛି ନୁହେଁ",
+"ପେଟ ସମସ୍ୟା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହୃତ୍‌ପିଣ୍ଡର ସମସ୍ୟା",
+"explanation": "ହୃଦୟର କାର୍ଯ୍ୟରେ ବାଧା।"
+},
+{
+"questionEnglish": "What is the role of veins?",
+"questionOdia": "ଶିରାର କାମ କଣ?",
+"options": [
+"ରକ୍ତ ଫେରାଇବା",
+"ରକ୍ତ ନେବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ଫେରାଇବା",
+"explanation": "ଦେହରୁ ରକ୍ତ ହୃତ୍‌ପିଣ୍ଡକୁ ଫେରାଇ ଆଣିବା।"
+},
+{
+"questionEnglish": "What is the role of arteries?",
+"questionOdia": "ଧମନୀର କାମ କଣ?",
+"options": [
+"ରକ୍ତ ଦେହକୁ ନେବା",
+"ରକ୍ତ ଆଣିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ଦେହକୁ ନେବା",
+"explanation": "ହୃତ୍‌ପିଣ୍ଡରୁ ସବୁ ଅଙ୍ଗକୁ ରକ୍ତ ନେବା।"
+},
+{
+"questionEnglish": "What is the role of heart valves?",
+"questionOdia": "କବାଟିକାର ମୁଖ୍ୟ କାମ କଣ?",
+"options": [
+"ରକ୍ତ ପଛକୁ ନ ଯିବା",
+"କିଛି ନୁହେଁ",
+"ଶକ୍ତି ଦେବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ପଛକୁ ନ ଯିବା",
+"explanation": "ଏହା ରକ୍ତ ପ୍ରବାହକୁ ନିୟନ୍ତ୍ରଣ କରେ।"
+},
+{
+"questionEnglish": "What is the function of the heart in body?",
+"questionOdia": "ହୃତ୍‌ପିଣ୍ଡର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ରକ୍ତ ସଞ୍ଚାଳନ",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ସଞ୍ଚାଳନ",
+"explanation": "ସାରା ଦେହରେ ରକ୍ତ ବୁଲାଇବା।"
+},
+{
+"questionEnglish": "What is the heart's rhythm?",
+"questionOdia": "ହୃଦ୍‌ସ୍ପନ୍ଦନର ଲୟ କଣ?",
+"options": [
+"ନିୟମିତ ଗତି",
+"ଅନିୟମିତ ଗତି",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନିୟମିତ ଗତି",
+"explanation": "ହୃଦୟ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ତାଳରେ ଚାଲେ।"
+},
+{
+"questionEnglish": "What is the role of blood vessels?",
+"questionOdia": "ରକ୍ତନଳୀର କାମ କଣ?",
+"options": [
+"ରକ୍ତ ପ୍ରବାହ ପଥ",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ପ୍ରବାହ ପଥ",
+"explanation": "ଏହା ରକ୍ତ ଚଳାଚଳ ପାଇଁ ରାସ୍ତା।"
+},
+{
+"questionEnglish": "What is the circulatory system components?",
+"questionOdia": "ସଞ୍ଚାଳନ ତନ୍ତ୍ରରେ କଣ ଥାଏ?",
+"options": [
+"ହୃତ୍‌ପିଣ୍ଡ, ରକ୍ତ, ନଳୀ",
+"ପେଟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହୃତ୍‌ପିଣ୍ଡ, ରକ୍ତ, ନଳୀ",
+"explanation": "ଏହା ହୃତ୍‌ପିଣ୍ଡ, ରକ୍ତ ଓ ନଳୀର ସମଷ୍ଟି।"
+},
+{
+"questionEnglish": "What is the role of the heart in blood?",
+"questionOdia": "ରକ୍ତରେ ହୃତ୍‌ପିଣ୍ଡର କାମ କଣ?",
+"options": [
+"ପମ୍ପ କରିବା",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପମ୍ପ କରିବା",
+"explanation": "ରକ୍ତକୁ ସାରା ଶରୀରରେ ଠେଲି ଦେବା।"
+},
+{
+"questionEnglish": "What is a major blood vessel?",
+"questionOdia": "ଏକ ମୁଖ୍ୟ ରକ୍ତନଳୀ କଣ?",
+"options": [
+"ମହାଧମନୀ",
+"ଶିରା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମହାଧମନୀ",
+"explanation": "ଶରୀରର ସବୁଠାରୁ ବଡ଼ ଧମନୀ।"
+},
+{
+"questionEnglish": "What is the importance of circulation?",
+"questionOdia": "ସଞ୍ଚାଳନର ମହତ୍ତ୍ୱ କଣ?",
+"options": [
+"ସବୁ କୋଷକୁ ପୋଷଣ",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସବୁ କୋଷକୁ ପୋଷଣ",
+"explanation": "ପ୍ରତ୍ୟେକ କୋଷ ପାଇଁ ଏହା ଜରୁରୀ।"
+},
+{
+"questionEnglish": "What is the heart chamber function?",
+"questionOdia": "ହୃଦୟ ପ୍ରକୋଷ୍ଠର କାମ କଣ?",
+"options": [
+"ରକ୍ତ ଗ୍ରହଣ ଓ ପ୍ରେରଣ",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ଗ୍ରହଣ ଓ ପ୍ରେରଣ",
+"explanation": "ରକ୍ତ ନେବା ଓ ପଠାଇବା।"
+},
+{
+"questionEnglish": "What is the heartbeat sound?",
+"questionOdia": "ହୃଦ୍‌ସ୍ପନ୍ଦନର ଶବ୍ଦ କଣ?",
+"options": [
+"ଲବ୍-ଡବ୍",
+"ଟିକ୍-ଟକ୍",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଲବ୍-ଡବ୍",
+"explanation": "ହୃତ୍‌ପିଣ୍ଡର କବାଟିକା ବନ୍ଦ ହେବାର ଶବ୍ଦ।"
+},
+{
+"questionEnglish": "What is the function of the circulatory system?",
+"questionOdia": "ସଞ୍ଚାଳନର କାମ କଣ?",
+"options": [
+"ରକ୍ତ ସଞ୍ଚାଳନ",
+"କିଛି ନୁହେଁ",
+"ଖାଦ୍ୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ସଞ୍ଚାଳନ",
+"explanation": "ରକ୍ତକୁ ବୁଲାଇବା।"
+},
+{
+"questionEnglish": "What is a blood clot?",
+"questionOdia": "ରକ୍ତ ଜମାଟ କଣ?",
+"options": [
+"ରକ୍ତକୁ ଶକ୍ତ କରିବା",
+"କିଛି ନୁହେଁ",
+"ପାଣି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତକୁ ଶକ୍ତ କରିବା",
+"explanation": "ରକ୍ତସ୍ରାବ ବନ୍ଦ ପାଇଁ।"
+},
+{
+"questionEnglish": "What is the heart's main role?",
+"questionOdia": "ହୃତ୍‌ପିଣ୍ଡର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ରକ୍ତ ପମ୍ପ କରିବା",
+"ଶ୍ଵାସ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ପମ୍ପ କରିବା",
+"explanation": "ରକ୍ତ ସଞ୍ଚାଳନର ମୂଳ।"
+},
+{
+"questionEnglish": "What is the pulse?",
+"questionOdia": "ନାଡ଼ି କଣ?",
+"options": [
+"ଧମନୀର ସ୍ପନ୍ଦନ",
+"କିଛି ନୁହେଁ",
+"ଶିରାର ସ୍ପନ୍ଦନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଧମନୀର ସ୍ପନ୍ଦନ",
+"explanation": "ହୃଦୟର ଧଡ଼କନ ସହ ସମାନ।"
+},
+{
+"questionEnglish": "What is oxygenated blood?",
+"questionOdia": "ଅମ୍ଳଜାନଯୁକ୍ତ ରକ୍ତ କଣ?",
+"options": [
+"ଅମ୍ଳଜାନ ମିଶା ରକ୍ତ",
+"କିଛି ନୁହେଁ",
+"ଖାଦ୍ୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମ୍ଳଜାନ ମିଶା ରକ୍ତ",
+"explanation": "ଯେଉଁ ରକ୍ତରେ ଅମ୍ଳଜାନ ଥାଏ।"
+},
+{
+"questionEnglish": "What is deoxygenated blood?",
+"questionOdia": "ଅମ୍ଳଜାନବିହୀନ ରକ୍ତ କଣ?",
+"options": [
+"CO2 ମିଶା ରକ୍ତ",
+"କିଛି ନୁହେଁ",
+"ଅମ୍ଳଜାନ ମିଶା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "CO2 ମିଶା ରକ୍ତ",
+"explanation": "ଯେଉଁ ରକ୍ତରେ ଅମ୍ଳଜାନ କମ୍ ଥାଏ।"
+},
+{
+"questionEnglish": "What is the role of valves?",
+"questionOdia": "କବାଟିକାର ମହତ୍ତ୍ୱ କଣ?",
+"options": [
+"ରକ୍ତ ପ୍ରବାହ ନିୟନ୍ତ୍ରଣ",
+"କିଛି ନୁହେଁ",
+"ଶକ୍ତି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ପ୍ରବାହ ନିୟନ୍ତ୍ରଣ",
+"explanation": "ରକ୍ତ ଓଲଟା ନ ଯିବା ପାଇଁ।"
+},
+{
+"questionEnglish": "What is blood vessel type?",
+"questionOdia": "ରକ୍ତନଳୀର ପ୍ରକାର କଣ?",
+"options": [
+"ଧମନୀ, ଶିରା, କେଶିକା",
+"କିଛି ନୁହେଁ",
+"ହାଡ଼",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଧମନୀ, ଶିରା, କେଶିକା",
+"explanation": "ତିନି ପ୍ରକାରର ରକ୍ତନଳୀ।"
+},
+{
+"questionEnglish": "What is the function of the blood?",
+"questionOdia": "ରକ୍ତର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ପରିବହନ",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପରିବହନ",
+"explanation": "ସବୁ କିଛି ପହଞ୍ଚାଇବା।"
+},
+{
+"questionEnglish": "What is circulation?",
+"questionOdia": "ସଞ୍ଚାଳନ କଣ?",
+"options": [
+"ରକ୍ତର ଗତି",
+"କିଛି ନୁହେଁ",
+"ଖାଦ୍ୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତର ଗତି",
+"explanation": "ଶରୀରରେ ରକ୍ତ ବୁଲିବା।"
+},
+{
+"questionEnglish": "What is the heart's main job?",
+"questionOdia": "ହୃତ୍‌ପିଣ୍ଡର ମୁଖ୍ୟ କାମ କଣ?",
+"options": [
+"ରକ୍ତ ପମ୍ପ",
+"କିଛି ନୁହେଁ",
+"ଶ୍ଵାସ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ପମ୍ପ",
+"explanation": "ରକ୍ତକୁ ଗତି ଦେବା।"
+},
+{
+"questionEnglish": "What is the role of the circulatory system?",
+"questionOdia": "ସଞ୍ଚାଳନ ତନ୍ତ୍ର କାମ କଣ?",
+"options": [
+"ପୋଷକ ଓ ଅମ୍ଳଜାନ ପହଞ୍ଚାଇବା",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପୋଷକ ଓ ଅମ୍ଳଜାନ ପହଞ୍ଚାଇବା",
+"explanation": "ସାରା ଦେହ ପାଇଁ ଜରୁରୀ।"
+},
+{
+"questionEnglish": "What is blood pressure measurement?",
+"questionOdia": "ରକ୍ତଚାପ କିପରି ମପାଯାଏ?",
+"options": [
+"ସ୍ଫିଗ୍‌ମୋମାନୋମିଟର",
+"ଥର୍ମୋମିଟର",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସ୍ଫିଗ୍‌ମୋମାନୋମିଟର",
+"explanation": "ରକ୍ତଚାପ ମାପିବା ଯନ୍ତ୍ର।"
+},
+{
+"questionEnglish": "What is the function of the circulatory system?",
+"questionOdia": "ସଞ୍ଚାଳନର ମୂଳ ଉଦ୍ଦେଶ୍ୟ କଣ?",
+"options": [
+"ଜୀବନ ରକ୍ଷା",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜୀବନ ରକ୍ଷା",
+"explanation": "ସବୁ ଅଙ୍ଗକୁ ବଞ୍ଚାଇ ରଖିବା।"
+},
+{
+"questionEnglish": "What is heart rhythm?",
+"questionOdia": "ହୃଦ୍‌ସ୍ପନ୍ଦନର ଲୟ କଣ?",
+"options": [
+"ହୃଦୟର ଗତି",
+"କିଛି ନୁହେଁ",
+"ପେଟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହୃଦୟର ଗତି",
+"explanation": "ହୃଦୟର ଚାଲିବା ଶୈଳୀ।"
+},
+{
+"questionEnglish": "What is a healthy circulation?",
+"questionOdia": "ସୁସ୍ଥ ସଞ୍ଚାଳନ କଣ?",
+"options": [
+"ସଠିକ୍ ରକ୍ତ ପ୍ରବାହ",
+"କିଛି ନୁହେଁ",
+"ଖରାପ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସଠିକ୍ ରକ୍ତ ପ୍ରବାହ",
+"explanation": "ଅଙ୍ଗଗୁଡ଼ିକୁ ସଠିକ୍ ରକ୍ତ ମିଳିବା।"
+},
+{
+"questionEnglish": "What is the circulatory system's main organ?",
+"questionOdia": "ସଞ୍ଚାଳନର ମୁଖ୍ୟ ଅଙ୍ଗ କଣ?",
+"options": [
+"ହୃତ୍‌ପିଣ୍ଡ",
+"ପେଟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହୃତ୍‌ପିଣ୍ଡ",
+"explanation": "ହୃତ୍‌ପିଣ୍ଡ ବିନା ସଞ୍ଚାଳନ ଅସମ୍ଭବ।"
+},
+{
+"questionEnglish": "What is the role of veins in circulation?",
+"questionOdia": "ସଞ୍ଚାଳନରେ ଶିରାର କାମ କଣ?",
+"options": [
+"ରକ୍ତ ଫେରାଇବା",
+"ରକ୍ତ ନେବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ଫେରାଇବା",
+"explanation": "ହୃଦୟକୁ ରକ୍ତ ଆଣିବା।"
+},
+{
+"questionEnglish": "What is the role of arteries in circulation?",
+"questionOdia": "ସଞ୍ଚାଳନରେ ଧମନୀର କାମ କଣ?",
+"options": [
+"ରକ୍ତ ଦେହକୁ ନେବା",
+"ରକ୍ତ ଆଣିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ଦେହକୁ ନେବା",
+"explanation": "ହୃଦୟରୁ ରକ୍ତ ବାହାର କରିବା।"
+},
+{
+"questionEnglish": "What is the heart's main role?",
+"questionOdia": "ହୃତ୍‌ପିଣ୍ଡର ମୁଖ୍ୟ କାମ କଣ?",
+"options": [
+"ରକ୍ତ ପମ୍ପ",
+"କିଛି ନୁହେଁ",
+"ଖାଦ୍ୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ପମ୍ପ",
+"explanation": "ରକ୍ତକୁ ଗତି ଦେବା।"
+},
+{
+"questionEnglish": "What is blood importance?",
+"questionOdia": "ରକ୍ତର ମହତ୍ତ୍ୱ କଣ?",
+"options": [
+"ଜୀବନର ଆଧାର",
+"କିଛି ନୁହେଁ",
+"ପାଣି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜୀବନର ଆଧାର",
+"explanation": "ରକ୍ତ ବିନା ଜୀବନ ନାହିଁ।"
+},
+{
+"questionEnglish": "What is the circulatory system?",
+"questionOdia": "ସଞ୍ଚାଳନ ତନ୍ତ୍ର କଣ?",
+"options": [
+"ରକ୍ତ ସଞ୍ଚାଳନ ବ୍ୟବସ୍ଥା",
+"କିଛି ନୁହେଁ",
+"ଖାଦ୍ୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ସଞ୍ଚାଳନ ବ୍ୟବସ୍ଥା",
+"explanation": "ରକ୍ତର ଚଳାଚଳ ପଥ।"
+},
+{
+"questionEnglish": "What is the role of blood vessels?",
+"questionOdia": "ରକ୍ତନଳୀର କାମ କଣ?",
+"options": [
+"ରକ୍ତ ପ୍ରବାହ",
+"କିଛି ନୁହେଁ",
+"ଶକ୍ତି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ପ୍ରବାହ",
+"explanation": "ରକ୍ତ ଚଳାଚଳ ପାଇଁ।"
+},
+{
+"questionEnglish": "What is the main circulatory organ?",
+"questionOdia": "ମୁଖ୍ୟ ସଞ୍ଚାଳନ ଅଙ୍ଗ କଣ?",
+"options": [
+"ହୃତ୍‌ପିଣ୍ଡ",
+"କିଛି ନୁହେଁ",
+"ଯକୃତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହୃତ୍‌ପିଣ୍ଡ",
+"explanation": "ସଞ୍ଚାଳନର କେନ୍ଦ୍ର।"
+},
+{
+"questionEnglish": "What is blood pressure?",
+"questionOdia": "ରକ୍ତଚାପ କଣ?",
+"options": [
+"ରକ୍ତର ଚାପ",
+"କିଛି ନୁହେଁ",
+"ଖାଦ୍ୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତର ଚାପ",
+"explanation": "ରକ୍ତନଳୀ ଉପରେ ଚାପ।"
+},
+{
+"questionEnglish": "What is the importance of circulation?",
+"questionOdia": "ସଞ୍ଚାଳନ କାହିଁକି ଦରକାର?",
+"options": [
+"ସାରା ଶରୀରକୁ ସୁସ୍ଥ ରଖିବା",
+"କିଛି ନୁହେଁ",
+"ଖାଇବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସାରା ଶରୀରକୁ ସୁସ୍ଥ ରଖିବା",
+"explanation": "ସବୁ ଅଙ୍ଗର ସୁସ୍ଥତା ପାଇଁ।"
+},
+{
+"questionEnglish": "What is the heart's work?",
+"questionOdia": "ହୃତ୍‌ପିଣ୍ଡର କାମ କଣ?",
+"options": [
+"ରକ୍ତ ପମ୍ପ କରିବା",
+"କିଛି ନୁହେଁ",
+"ଶ୍ଵାସ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ପମ୍ପ କରିବା",
+"explanation": "ରକ୍ତ ସଞ୍ଚାଳନ।"
+},
+{
+"questionEnglish": "What is the circulatory system?",
+"questionOdia": "ସଞ୍ଚାଳନ ତନ୍ତ୍ର କଣ?",
+"options": [
+"ରକ୍ତ ଗତି ପଥ",
+"କିଛି ନୁହେଁ",
+"ଖାଦ୍ୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ଗତି ପଥ",
+"explanation": "ରକ୍ତ ବୁଲିବା ପାଇଁ।"
+},
+{
+"questionEnglish": "What is the function of the blood?",
+"questionOdia": "ରକ୍ତର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ପୋଷକ ପରିବହନ",
+"କିଛି ନୁହେଁ",
+"ଖାଦ୍ୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପୋଷକ ପରିବହନ",
+"explanation": "ପୋଷକ ସବୁ ଅଙ୍ଗକୁ ନେବା।"
+},
+{
+"questionEnglish": "What is the role of valves in heart?",
+"questionOdia": "ହୃଦୟରେ କବାଟିକାର କାମ କଣ?",
+"options": [
+"ରକ୍ତ ଦିଗ ନିୟନ୍ତ୍ରଣ",
+"କିଛି ନୁହେଁ",
+"ଶକ୍ତି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ଦିଗ ନିୟନ୍ତ୍ରଣ",
+"explanation": "ରକ୍ତ ପଛକୁ ନ ଯିବା ପାଇଁ।"
+},
+{
+"questionEnglish": "What is circulation importance?",
+"questionOdia": "ସଞ୍ଚାଳନର ମହତ୍ତ୍ୱ କଣ?",
+"options": [
+"ସବୁ ଅଙ୍ଗକୁ ରକ୍ତ ଦେବା",
+"କିଛି ନୁହେଁ",
+"ଖାଇବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସବୁ ଅଙ୍ଗକୁ ରକ୍ତ ଦେବା",
+"explanation": "ସବୁ ଅଙ୍ଗକୁ ଜୀବନ ଦେବା।"
+},
+{
+"questionEnglish": "What is the heart's job?",
+"questionOdia": "ହୃତ୍‌ପିଣ୍ଡର କାମ କଣ?",
+"options": [
+"ରକ୍ତ ପମ୍ପ କରିବା",
+"କିଛି ନୁହେଁ",
+"ଶ୍ଵାସ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ପମ୍ପ କରିବା",
+"explanation": "ରକ୍ତ ସଞ୍ଚାଳନ।"
+}
 ]
