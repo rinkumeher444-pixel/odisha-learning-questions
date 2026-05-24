@@ -1,122 +1,1742 @@
 [
   {
-    "questionEnglish": "What is formed when magnesium burns in air?",
-    "questionOdia": "ବାୟୁରେ ମ୍ୟାଗ୍ନେସିୟମ୍ ଜଳିଲେ କଣ ସୃଷ୍ଟି ହୁଏ?",
+    "questionEnglish": "What is the taste of acids and how do they affect litmus paper?",
+    "questionOdia": "ଅମ୍ଳର ସ୍ଵାଦ କିପରି ଏବଂ ଏହା ଲିଟମସ କାଗଜକୁ କିପରି ପରିବର୍ତ୍ତନ କରେ?",
     "options": [
-      "Magnesium chloride",
-      "Magnesium oxide",
-      "Magnesium sulphate",
-      "Magnesium nitrate"
+      "ଖଟା, ନୀଳ ଲିଟମସକୁ ନାଲି କରେ",
+      "ପିତା, ନାଲି ଲିଟମସକୁ ନୀଳ କରେ",
+      "ମିଠା, କୌଣସି ପରିବର୍ତ୍ତନ କରେନାହିଁ",
+      "ଖଟା, ନାଲି ଲିଟମସକୁ ନୀଳ କରେ"
     ],
-    "answer": "Magnesium oxide",
-    "explanation": "Magnesium reacts with oxygen present in air to form magnesium oxide."
+    "answer": "ଖଟା, ନୀଳ ଲିଟମସକୁ ନାଲି କରେ",
+    "explanation": "ଅମ୍ଳଗୁଡ଼ିକ ସ୍ଵାଦରେ ଖଟା ଅଟନ୍ତି ଏବଂ ଏଗୁଡ଼ିକ ନୀଳ ଲିଟମସ କାଗଜକୁ ନାଲି ରଙ୍ଗରେ ପରିଣତ କରନ୍ତି।"
   },
   {
-    "questionEnglish": "Which side of a chemical equation contains reactants?",
-    "questionOdia": "ରାସାୟନିକ ସମୀକରଣର କେଉଁ ପାର୍ଶ୍ୱରେ reactants ରହେ?",
+    "questionEnglish": "What is the taste of bases and how do they affect litmus paper?",
+    "questionOdia": "K୍ଷାରକର ସ୍ଵାଦ କିପରି ଏବଂ ଏହା ଲିଟମସ କାଗଜକୁ କିପରି ପରିବର୍ତ୍ତନ କରେ?",
     "options": [
-      "Right side",
-      "Upper side",
-      "Left side",
-      "Bottom side"
+      "ଖଟା, ନୀଳ ଲିଟମସକୁ ନାଲି କରେ",
+      "ପିତା, ନାଲି ଲିଟମସକୁ ନୀଳ କରେ",
+      "ଲୁଣିଆ, ରଙ୍ଗହୀନ କରେ",
+      "ପିତା, ନୀଳ ଲିଟମସକୁ ନାଲି କରେ"
     ],
-    "answer": "Left side",
-    "explanation": "In a chemical equation, reactants are written on the left-hand side."
+    "answer": "ପିତା, ନାଲି ଲିଟମସକୁ ନୀଳ କରେ",
+    "explanation": "K୍ଷାରକଗୁଡ଼ିକ ସ୍ଵାଦରେ ପିତା ବା କସା ଅଟନ୍ତି ଏବଂ ଏଗୁଡ଼ିକ ନାଲି ଲିଟମସ କାଗଜକୁ ନୀଳ ରଙ୍ଗରେ ପରିଣତ କରନ୍ତି।"
   },
   {
-    "questionEnglish": "Which law is satisfied by a balanced chemical equation?",
-    "questionOdia": "ସମତୁଲ ରାସାୟନିକ ସମୀକରଣ କେଉଁ ନିୟମକୁ ପାଳନ କରେ?",
+    "questionEnglish": "Which of the following is a natural indicator?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ପ୍ରାକୃତିକ ସୂଚକ (Natural Indicator)?",
     "options": [
-      "Boyle’s law",
-      "Law of conservation of mass",
-      "Newton’s law",
-      "Ohm’s law"
+      "ମିଥାଇଲ୍ ଅରେଞ୍ଜ",
+      "ଫେନଲପଥାଲିନ",
+      "ହଳଦୀ (Turmeric)",
+      "କୌଣସିଟି ନୁହେଁ"
     ],
-    "answer": "Law of conservation of mass",
-    "explanation": "Balanced chemical equations follow the law of conservation of mass."
+    "answer": "ହଳଦୀ (Turmeric)",
+    "explanation": "ଲିଟମସ ଏବଂ ହଳଦୀ ହେଉଛନ୍ତି ପ୍ରାକୃତିକ ସୂଚକ, ଯାହା ଅମ୍ଳ ଓ କ୍ଷାର ଚିହ୍ନଟ କରିବାରେ ସାହାଯ୍ୟ କରନ୍ତି।"
   },
   {
-    "questionEnglish": "Which symbol represents gaseous state in a chemical equation?",
-    "questionOdia": "ରାସାୟନିକ ସମୀକରଣରେ ଗ୍ୟାସୀୟ ଅବସ୍ଥାକୁ କେଉଁ ସଙ୍କେତ ଦ୍ୱାରା ଦର୍ଶାଯାଏ?",
+    "questionEnglish": "What color change is observed when soap solution is applied on a curry stain on white cloth?",
+    "questionOdia": "ଧଳା କପଡ଼ାରେ ଲାଗିଥିବା ତରକାରୀ ଦାଗ (ହଳଦୀ) ଉପରେ ସାବୁନ ଲଗାଇଲେ ଏହାର ରଙ୍ଗ କଣ ହୁଏ?",
     "options": [
-      "(s)",
-      "(l)",
-      "(g)",
-      "(aq)"
+      "ନୀଳ",
+      "ବାଦାମୀ-ନାଲି (Reddish-brown)",
+      "ହଳଦିଆ",
+      "ସବୁଜ"
     ],
-    "answer": "(g)",
-    "explanation": "The symbol (g) is used to represent gaseous state."
+    "answer": "ବାଦାମୀ-ନାଲି (Reddish-brown)",
+    "explanation": "ସାବୁନ ଏକ କ୍ଷାରୀୟ ପଦାର୍ଥ ହୋଇଥିବାରୁ ଏହା ହଳଦୀ ଦାଗ ସଂସ୍ପର୍ଶରେ ଆସିଲେ ଏହାକୁ ବାଦାମୀ-ନାଲି ରଙ୍ଗ କରିଦିଏ।"
   },
   {
-    "questionEnglish": "What type of reaction is CaO + H2O → Ca(OH)2?",
-    "questionOdia": "CaO + H2O → Ca(OH)2 କେଉଁ ପ୍ରକାରର ପ୍ରତିକ୍ରିୟା?",
+    "questionEnglish": "Which of the following is a synthetic indicator?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ କୃତ୍ରିମ ବା ସଂଶ୍ଳେଷିତ ସୂଚକ (Synthetic Indicator)?",
     "options": [
-      "Decomposition reaction",
-      "Combination reaction",
-      "Displacement reaction",
-      "Neutralization reaction"
+      "ଲିଟମସ ଦ୍ରବଣ",
+      "ହଳଦୀ ଗୁଣ୍ଡ",
+      "ଫେନଲପଥାଲିନ (Phenolphthalein)",
+      "ରସୁଣ"
     ],
-    "answer": "Combination reaction",
-    "explanation": "Two substances combine to form a single product, so it is a combination reaction."
+    "answer": "ଫେନଲପଥାଲିନ (Phenolphthalein)",
+    "explanation": "ଫେନଲପଥାଲିନ ଏବଂ ମิଥାଇଲ୍ ଅରେଞ୍ଜ ହେଉଛନ୍ତି ଲାବୋରେଟୋରୀରେ ପ୍ରସ୍ତୁତ କରାଯାଉଥିବା କୃତ୍ରିମ ସୂଚକ।"
   },
   {
-    "questionEnglish": "What is the common name of CaO?",
-    "questionOdia": "CaO ର ସାଧାରଣ ନାମ କଣ?",
+    "questionEnglish": "Litmus solution is a purple dye, which is extracted from which plant?",
+    "questionOdia": "ଲିଟମସ ଦ୍ରବଣ ଏକ ବାଇଗଣୀ ରଙ୍ଗର ରଞ୍ଜକ, ଏହାକୁ କେଉଁ ଉଦ୍ଭିଦରୁ ବାହାର କରାଯାଏ?",
     "options": [
-      "Slaked lime",
-      "Quick lime",
-      "Bleaching powder",
-      "Gypsum"
+      "ଲାଇକେନ୍ (Lichen)",
+      "ମନେରା",
+      "ଫର୍ନ",
+      "ରୋଜ୍"
     ],
-    "answer": "Quick lime",
-    "explanation": "Calcium oxide (CaO) is commonly known as quick lime."
+    "answer": "ଲାଇକେନ୍ (Lichen)",
+    "explanation": "ଲିଟମସ ଦ୍ରବଣକୁ ଥାଲୋଫାଇଟା ଶ୍ରେଣୀର 'ଲାଇକେନ୍' (Lichen) ଉଦ୍ଭିଦରୁ ପ୍ରସ୍ତୁତ କରାଯାଏ।"
   },
   {
-    "questionEnglish": "Which reaction releases heat energy?",
-    "questionOdia": "କେଉଁ ପ୍ରତିକ୍ରିୟାରେ ଉତ୍ତାପ ଶକ୍ତି ନିର୍ଗତ ହୁଏ?",
+    "questionEnglish": "What are those substances called whose odor changes in acidic or basic media?",
+    "questionOdia": "ଯେଉଁ ପଦାର୍ଥଗୁଡ଼ିକର ଗନ୍ଧ (ବାସନା) ଅମ୍ଳୀୟ କିମ୍ବା କ୍ଷାରୀୟ ମାଧ୍ୟମରେ ବଦଳିଯାଏ, ସେଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
     "options": [
-      "Endothermic reaction",
-      "Exothermic reaction",
-      "Photochemical reaction",
-      "Electrolysis"
+      "ସାଧାରଣ ସୂଚକ",
+      "ଘ୍ରାଣେନ୍ଦ୍ରୀୟ ସୂଚକ (Olfactory Indicators)",
+      "ସର୍ବଜନୀନ ସୂଚକ",
+      "ପ୍ରଶମିତ ପଦାର୍ଥ"
     ],
-    "answer": "Exothermic reaction",
-    "explanation": "Exothermic reactions release heat energy to the surroundings."
+    "answer": "ଘ୍ରାଣେନ୍ଦ୍ରୀୟ ସୂଚକ (Olfactory Indicators)",
+    "explanation": "ବାସନା ବଦଳୁଥିବା ସୂଚକକୁ ଓଲଫାକ୍ଟ୍ରି ବା ଘ୍ରାଣେନ୍ଦ୍ରୀୟ ସୂଚକ କୁହାଯାଏ, ଯେପରି ପିଆଜ, ବେନିଲା ଏବଂ ଲବଙ୍ଗ ତେଲ।"
   },
   {
-    "questionEnglish": "Which gas is produced when iron reacts with steam?",
-    "questionOdia": "ଲୋହା ବାଷ୍ପ ସହ ପ୍ରତିକ୍ରିୟା କଲେ କେଉଁ ଗ୍ୟାସ ସୃଷ୍ଟି ହୁଏ?",
+    "questionEnglish": "Which gas is usually liberated when an acid reacts with a metal?",
+    "questionOdia": "ଅମ୍ଳ ଏକ ଧାତୁ ସହିତ ପ୍ରତିକ୍ରିୟା କଲେ ସାଧାରଣତଃ କେଉଁ ଗ୍ୟାସ୍ ମୁକ୍ତ ହୋଇଥାଏ?",
     "options": [
-      "Oxygen",
-      "Hydrogen",
-      "Nitrogen",
-      "Carbon dioxide"
+      "ଅମ୍ଳଜାନ",
+      "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+      "ହାଇଡ୍ରୋଜେନ୍ (Hydrogen)",
+      "ନାଇଟ୍ରୋଜେନ୍"
     ],
-    "answer": "Hydrogen",
-    "explanation": "Iron reacts with steam to produce hydrogen gas."
+    "answer": "ହାଇଡ୍ରୋଜେନ୍ (Hydrogen)",
+    "explanation": "ଅମ୍ଳ ଧାତୁ ସହ ପ୍ରତିକ୍ରିୟା କରି ଲବଣ ଏବଂ ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍ ଉତ୍ପନ୍ନ କରେ।"
   },
   {
-    "questionEnglish": "Which type of reaction is FeSO4 → Fe2O3 + SO2 + SO3?",
-    "questionOdia": "FeSO4 → Fe2O3 + SO2 + SO3 କେଉଁ ପ୍ରକାରର ପ୍ରତିକ୍ରିୟା?",
+    "questionEnglish": "What happens when zinc metal reacts with sodium hydroxide solution?",
+    "questionOdia": "ଜିଙ୍କ୍ ଧାତୁ ସୋଡିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍ (କ୍ଷାର) ସହ ପ୍ରତିକ୍ରିୟା କଲେ କେଉଁ ଲବଣ ସୃଷ୍ଟି ହୁଏ?",
     "options": [
-      "Combination reaction",
-      "Thermal decomposition reaction",
-      "Displacement reaction",
-      "Oxidation reaction"
+      "ଜିଙ୍କ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍",
+      "ସୋଡିୟମ୍ ଜିଙ୍କେଟ୍ (Sodium Zincate)",
+      "ସୋଡିୟମ୍ ଅକ୍ସାଇଡ୍",
+      "କୌଣସି ପ୍ରତିକ୍ରିୟା ହୁଏନାହିଁ"
     ],
-    "answer": "Thermal decomposition reaction",
-    "explanation": "Ferrous sulphate decomposes on heating, so it is a thermal decomposition reaction."
+    "answer": "ସୋଡିୟମ୍ ଜିଙ୍କେଟ୍ (Sodium Zincate)",
+    "explanation": "ଜିଙ୍କ୍ ଏକ କ୍ଷାର ସହ ପ୍ରତିକ୍ରିୟା କରି ସୋଡିୟମ୍ ଜିଙ୍କେଟ୍ ଏବଂ ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍ ଉତ୍ପନ୍ନ କରେ।"
   },
   {
-    "questionEnglish": "Which gas has a smell of burning sulphur during decomposition of FeSO4?",
-    "questionOdia": "FeSO4 ର ବିଘଟନ ସମୟରେ ଜଳୁଥିବା ଗନ୍ଧକ ଭଳି ଗନ୍ଧ ଥିବା କେଉଁ ଗ୍ୟାସ ନିର୍ଗତ ହୁଏ?",
+    "questionEnglish": "Which gas is evolved when metal carbonates react with dilute acids?",
+    "questionOdia": "ଧାତବ କାର୍ବୋନେଟ୍ ଗୁଡ଼ିକ ଲଘୁ ଅମ୍ଳ ସହ ପ୍ରତିକ୍ରିୟା କଲେ କେଉଁ ଗ୍ୟାସ୍ ବାହାରିଥାଏ?",
     "options": [
-      "Hydrogen",
-      "Sulphur dioxide",
-      "Nitrogen",
-      "Oxygen"
+      "ହାଇଡ୍ରୋଜେନ୍",
+      "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ (Carbon dioxide)",
+      "ନାଇଟ୍ରୋଜେନ୍ ଡାଇଅକ୍ସାଇଡ୍",
+      "ଅମ୍ଳଜାନ"
     ],
-    "answer": "Sulphur dioxide",
-    "explanation": "Sulphur dioxide gas with a burning sulphur smell is released during decomposition of FeSO4."
+    "answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ (Carbon dioxide)",
+    "explanation": "ଧାତବ କାର୍ବୋନେଟ୍ ବା ହାଇଡ୍ରୋଜେନ କାର୍ବୋନେଟ୍ ଏସିଡ୍ ସହ ମିଶିଲେ ଲବଣ, ଜଳ ଏବଂ CO2 ଗ୍ୟାସ୍ ସୃଷ୍ଟି ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is observed when carbon dioxide gas is passed through lime water?",
+    "questionOdia": "ଚୂନ ପାଣି ମଧ୍ୟ ଦେଇ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଗ୍ୟାସ୍ ପ୍ରବାହିତ କଲେ କଣ ହୁଏ?",
+    "options": [
+      "ଚୂନ ପାଣି ନୀଳ ହୋଇଯାଏ",
+      "ଚୂନ ପାଣି ଦୁଧିଆ ରଙ୍ଗ (Milky) ହୋଇଯାଏ",
+      "ଚୂନ ପାଣି ହଳଦିଆ ହୋଇଯାଏ",
+      "କୌଣସି ପରିବର୍ତ୍ତନ ହୁଏନାହିଁ"
+    ],
+    "answer": "ଚୂନ ପାଣି ଦୁଧିଆ ରଙ୍ଗ (Milky) ହୋଇଯାଏ",
+    "explanation": "ଅଦ୍ରବଣୀୟ କ୍ୟାଲସିୟମ୍ କାର୍ବୋନେଟ୍ ଗଠନ ଯୋଗୁଁ ଚୂନ ପାଣି ଦୁଧିଆ ରଙ୍ଗ ହୋଇଯାଏ।"
+  },
+  {
+    "questionEnglish": "What happens if carbon dioxide gas is passed in excess through lime water?",
+    "questionOdia": "ଚୂନ ପାଣିରେ ଅଧିକ ସମୟ ଧରି ପ୍ରଚୁର CO2 ଗ୍ୟାସ୍ ପ୍ରବାହିତ କଲେ କଣ ଘଟେ?",
+    "options": [
+      "ଦୁଧିଆ ପଣ ବଢ଼ିଯାଏ",
+      "ଦୁଧିଆ ପଣ ଗାୟବ ହୋଇଯାଏ (Milky color disappears)",
+      "ଦ୍ରବଣଟି ନାଲି ହୋଇଯାଏ",
+      "ଦ୍ରବଣଟି କଠିନ ହୋଇଯାଏ"
+    ],
+    "answer": "ଦୁଧିଆ ପଣ ଗାୟବ ହୋଇଯାଏ (Milky color disappears)",
+    "explanation": "ଅଧିକ CO2 ପ୍ରବାହିତ କଲେ ଜଳରେ ଦ୍ରବଣୀୟ କ୍ୟାଲସିୟମ୍ ହାଇଡ୍ରୋଜେନ କାର୍ବୋନେଟ୍ ସୃଷ୍ଟି ହୁଏ, ଯାହାଫଳରେ ଦୁଧିଆ ପଣ ଚାଲିଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the reaction between an acid and a base to form salt and water called?",
+    "questionOdia": "ଅମ୍ଳ ଏବଂ କ୍ଷାର ମଧ୍ୟରେ ପ୍ରତିକ୍ରିୟା ଘଟି ଲବଣ ଓ ଜଳ ସୃଷ୍ଟି ହେବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ବିଘଟନ ପ୍ରତିକ୍ରିୟା",
+      "ପ୍ରଶମନ ପ୍ରତିକ୍ରିୟା (Neutralization)",
+      "ସଂଶ୍ଳେଷଣ ପ୍ରତିକ୍ରିୟା",
+      "ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା"
+    ],
+    "answer": "ପ୍ରଶମନ ପ୍ରତିକ୍ରିୟା (Neutralization)",
+    "explanation": "ଅମ୍ଳ ଓ କ୍ଷାର ପରସ୍ପରର ପ୍ରଭାବକୁ ପ୍ରଶମିତ କରୁଥିବାରୁ ଏହାକୁ ପ୍ରଶମନ ପ୍ରତିକ୍ରିୟା କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the nature of metallic oxides?",
+    "questionOdia": "ଧାତବ ଅକ୍ସାଇଡ୍ ଗୁଡ଼ିକ ସାଧାରଣତଃ କେଉଁ ପ୍ରକୃତିର ହୋଇଥାନ୍ତି?",
+    "options": [
+      "ଅମ୍ଳୀୟ",
+      "କ୍ଷାରୀୟ (Basic)",
+      "ପ୍ରଶମିତ",
+      "କୌଣସିଟି ନୁହେଁ"
+    ],
+    "answer": "କ୍ଷାରୀୟ (Basic)",
+    "explanation": "ଧାତବ ଅକ୍ସାଇଡ୍ ଗୁଡ଼ିକ ଅମ୍ଳ ସହ ପ୍ରତିକ୍ରିୟା କରି ଲବଣ ଓ ଜଳ ଦେଉଥିବାରୁ ସେଗୁଡ଼ିକ କ୍ଷାରୀୟ ଅଟନ୍ତି।"
+  },
+  {
+    "questionEnglish": "What is the nature of non-metallic oxides?",
+    "questionOdia": "ଅଧାତବ ଅକ୍ସାଇଡ୍ ଗୁଡ଼ିକ ସାଧାରଣତଃ କେଉଁ ପ୍ରକୃତିର ହୋଇଥାନ୍ତି?",
+    "options": [
+      "ଅମ୍ଳୀୟ (Acidic)",
+      "କ୍ଷାରୀୟ",
+      "ପ୍ରଶମିତ",
+      "ଉଭୟ"
+    ],
+    "answer": "ଅମ୍ଳୀୟ (Acidic)",
+    "explanation": "ଅଧାତବ ଅକ୍ସାଇଡ୍ (ଯେପରି CO2) କ୍ଷାର ସହ ପ୍ରତିକ୍ରିୟା କରି ଲବଣ ଓ ଜଳ ଦେଉଥିବାରୁ ସେଗୁଡ଼ିକ ଅମ୍ଳୀୟ ଅଟନ୍ତି।"
+  },
+  {
+    "questionEnglish": "What do all acids have in common when dissolved in water?",
+    "questionOdia": "ସମସ୍ତ ଅମ୍ଳ ଜଳରେ ଦ୍ରବୀଭୂତ ହେଲେ କେଉଁ ସମାନ ଆୟନ ସୃଷ୍ଟି କରନ୍ତି?",
+    "options": [
+      "OH- ଆୟନ",
+      "H+ ଆୟନ (Hydrogen ions)",
+      "Cl- ଆୟନ",
+      "Na+ ଆୟନ"
+    ],
+    "answer": "H+ ଆୟନ (Hydrogen ions)",
+    "explanation": "ସମସ୍ତ ଅମ୍ଳୀୟ ପଦାର୍ଥ ଜଳରେ H+ ଆୟନ ବା ହାଇଡ୍ରୋନିୟମ୍ ଆୟନ (H3O+) ପ୍ରଦାନ କରନ୍ତି।"
+  },
+  {
+    "questionEnglish": "What do all bases produce when dissolved in water?",
+    "questionOdia": "ସମସ୍ତ କ୍ଷାରକ ଜଳରେ ଦ୍ରବୀଭୂତ ହେଲେ କେଉଁ ଆୟନ ସୃଷ୍ଟି କରନ୍ତି?",
+    "options": [
+      "H+ ଆୟନ",
+      "OH- ଆୟନ (Hydroxide ions)",
+      "O2- ଆୟନ",
+      "SO4 2- ଆୟନ"
+    ],
+    "answer": "OH- ଆୟନ (Hydroxide ions)",
+    "explanation": "କ୍ଷାରକଗୁଡ଼ିକ ଜଳରେ ହାଇଡ୍ରକ୍ସାଇଡ୍ ଆୟନ (OH-) ଉତ୍ପନ୍ନ କରିଥାନ୍ତି।"
+  },
+  {
+    "questionEnglish": "What are water-soluble bases called?",
+    "questionOdia": "ଜଳରେ ଦ୍ରବଣୀୟ ହେଉଥିବା କ୍ଷାରକଗୁଡ଼ିକୁ ସ୍ଵତନ୍ତ୍ର ଭାବେ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ଅମ୍ଳ",
+      "ଆଲକାଲି ବା କ୍ଷାର (Alkali)",
+      "ଲବଣ",
+      "ସୂଚକ"
+    ],
+    "answer": "ଆଲକାଲି ବା କ୍ଷାର (Alkali)",
+    "explanation": "ଯେଉଁ କ୍ଷାରକ ଗୁଡ଼ିକ ଜଳରେ ଦ୍ରବୀଭୂତ ହୋଇପାରନ୍ତି, ସେଗୁଡ଼ିକୁ ଆଲକାଲି ବା କ୍ଷାର କୁହାଯାଏ (ଯେପରି NaOH)।"
+  },
+  {
+    "questionEnglish": "Why do glucose and alcohol solutions not conduct electricity?",
+    "questionOdia": "ଗ୍ଲୁକୋଜ୍ ଏବଂ ଆଲକୋହଲ୍ ର ଜଳୀୟ ଦ୍ରବଣ କାହିଁକି ବିଦ୍ୟୁତ ପରିବହନ କରେନାହିଁ?",
+    "options": [
+      "ସେଗୁଡ଼ିକ ତରଳ ଅଟନ୍ତି",
+      "ସେମାନେ ଜଳରେ H+ ଆୟନ ସୃଷ୍ଟି କରନ୍ତି ନାହିଁ",
+      "ସେମାନେ ଅତି ଗରମ ଅଟନ୍ତି",
+      "ସେମାନଙ୍କର ରଙ୍ଗ ନାହିଁ"
+    ],
+    "answer": "ସେମାନେ ଜଳରେ H+ ଆୟନ ସୃଷ୍ଟି କରନ୍ତି ନାହିଁ",
+    "explanation": "ବିଦ୍ୟୁତ ପରିବହନ ପାଇଁ ମୁକ୍ତ ଆୟନର ଆବଶ୍ୟକତା ଥାଏ, ଯାହା ଗ୍ଲୁକୋଜ୍ କିମ୍ବା ଆଲକୋହଲ୍ ଦ୍ରବଣରେ ନଥାଏ।"
+  },
+  {
+    "questionEnglish": "Why does dry HCl gas not change the color of dry litmus paper?",
+    "questionOdia": "ଶୁଷ୍କ HCl ଗ୍ୟାସ୍ କାହିଁକି ଶୁଷ୍କ ଲିଟମସ କାଗଜର ରଙ୍ଗ ବଦଳାଇ ପାରେନାହିଁ?",
+    "options": [
+      "ଜଳର ଅନୁପସ୍ଥିତି ଯୋଗୁଁ H+ ଆୟନ ସୃଷ୍ଟି ହୋଇପାରେନାହିଁ",
+      "ଗ୍ୟାସ୍ ଟି ବହୁତ ହାଲୁକା",
+      "ଲିଟମସ କାଗଜଟି ଖରାପ ଅଛି",
+      "HCl ଏକ ଅମ୍ଳ ନୁହେଁ"
+    ],
+    "answer": "ଜଳର ଅନୁପସ୍ଥିତି ଯୋଗୁଁ H+ ଆୟନ ସୃଷ୍ଟି ହୋଇପାରେନାହିଁ",
+    "explanation": "ଅମ୍ଳୀୟ ଗୁଣ ପ୍ରଦର୍ଶନ ପାଇଁ ଜଳର ଉପସ୍ଥିତି ଜରୁରୀ, କାରଣ ଜଳରେ ହିଁ HCl ଅଣୁ ଭାଙ୍ଗି H+ ଆୟନ ଦିଏ।"
+  },
+  {
+    "questionEnglish": "What is the process of mixing an acid or base with water, resulting in decrease in concentration of ions per unit volume called?",
+    "questionOdia": "ଅମ୍ଳ ବା କ୍ଷାରକକୁ ଜଳରେ ମିଶାଇ ଏହାର ପ୍ରତି ଏକକ ଆୟତନରେ ଆୟନର ଗାଢ଼ତା ହ୍ରାସ କରିବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ଜାରଣ",
+      "ଲଘୁକରଣ (Dilution)",
+      "ପ୍ରଶମନ",
+      "ଗାଢ଼ିକରଣ"
+    ],
+    "answer": "ଲଘୁକରଣ (Dilution)",
+    "explanation": "ଜଳ ମିଶାଇ ଅମ୍ଳ ବା କ୍ଷାରର ଶକ୍ତି ବା ଗାଢ଼ତା କମାଇବାକୁ ଲଘୁକରଣ ବା Dilution କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "While diluting an acid, why is it recommended that the acid should be added to water and not water to the acid?",
+    "questionOdia": "ଅମ୍ଳକୁ ଲଘୁ କରିବା ସମୟରେ କାହିଁକି ସର୍ବଦା ଅମ୍ଳକୁ ଜଳରେ ଧୀରେ ଧୀରେ ମିଶାଯାଏ, ଜଳକୁ ଅମ୍ଳରେ ନୁହେଁ?",
+    "options": [
+      "ଜଳ ଅତି ଶସ୍ତା",
+      "ଏହା ଏକ ପ୍ରଚଣ୍ଡ ତାପଉତ୍ପାଦୀ ପ୍ରକ୍ରିୟା, ଯାହା ବିସ୍ଫୋରଣ ବା ସ୍ପ୍ଲାଶ୍ ସୃଷ୍ଟି କରିପାରେ",
+      "ଅମ୍ଳର ରଙ୍ଗ ବଦଳିଯିବ",
+      "କୌଣସି ବିଶେଷ କାରଣ ନାହିଁ"
+    ],
+    "answer": "ଏହା ଏକ ପ୍ରଚଣ୍ଡ ତାପଉତ୍ପାଦୀ ପ୍ରକ୍ରିୟା, ଯାହା ବିସ୍ଫୋରଣ ବା ସ୍ପ୍ଲାଶ୍ ସୃଷ୍ଟି କରିପାରେ",
+    "explanation": "ଗାଢ଼ ଅମ୍ଳରେ ଜଳ ମିଶାଇଲେ ପ୍ରଚୁର ତାପ ହଠାତ ବାହାରି ଏସିଡ୍ ଛିଟିକି ପଡ଼ିବାର ଏବଂ ପାତ୍ର ଭାଙ୍ଗିବାର ଭୟ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "A scale for measuring hydrogen ion concentration in a solution is called?",
+    "questionOdia": "ଦ୍ରବଣରେ ହାଇଡ୍ରୋଜେନ୍ ଆୟନର ଗାଢ଼ତା ମାପିବା ପାଇଁ ବ୍ୟବହୃତ ସ୍କେଲ୍‌କୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ଥର୍ମୋମିଟର",
+      "pH ସ୍କେଲ୍ (pH Scale)",
+      "ବାରୋମିଟର",
+      "ଲାକ୍ଟୋମିଟର"
+    ],
+    "answer": "pH ସ୍କେଲ୍ (pH Scale)",
+    "explanation": "pH ସ୍କେଲ୍ ଦ୍ୱାରା ଦ୍ରବଣର ଅମ୍ଳତ୍ଵ ବା କ୍ଷାରତ୍ଵର ମାପ କରାଯାଏ, ଯେଉଁଠି 'p' ର ଅର୍ଥ 'potenz' ବା ଶକ୍ତି।"
+  },
+  {
+    "questionEnglish": "What is the pH value of a neutral solution?",
+    "questionOdia": "ଏକ ପ୍ରଶମିତ (Neutral) ଦ୍ରବଣର pH ମୂଲ୍ୟ କେତେ ହୋଇଥାଏ?",
+    "options": [
+      "0",
+      "14",
+      "7",
+      "1"
+    ],
+    "answer": "7",
+    "explanation": "ପ୍ରଶମିତ ଦ୍ରବଣ (ଯେପରି ବିଶୁଦ୍ଧ ଜଳ) ର pH ମୂଲ୍ୟ ସର୍ବଦା ୭ ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "An acidic solution has a pH value of?",
+    "questionOdia": "ଏକ ଅମ୍ଳୀୟ (Acidic) ଦ୍ରବଣର pH ମୂଲ୍ୟ କେତେ?",
+    "options": [
+      "୭ ରୁ ଅଧିକ",
+      "୭ ରୁ କମ୍ (Less than 7)",
+      "୭ ସହ ସମାନ",
+      "୧୪ ରୁ ଅଧିକ"
+    ],
+    "answer": "୭ ରୁ କମ୍ (Less than 7)",
+    "explanation": "pH ସ୍କେଲ୍‌ରେ ୭ ରୁ କମ୍ ମୂଲ୍ୟ ଅମ୍ଳୀୟ ଗୁଣକୁ ସୂଚାଇଥାଏ। pH ଯେତେ କମିବ, ଅମ୍ଳ ସେତେ ଶକ୍ତିଶାଳୀ ହେବ।"
+  },
+  {
+    "questionEnglish": "A basic solution has a pH value of?",
+    "questionOdia": "ଏକ କ୍ଷାରୀୟ (Basic) ଦ୍ରବଣର pH ମୂଲ୍ୟ କେତେ ହୋଇଥାଏ?",
+    "options": [
+      "୭ ରୁ କମ୍",
+      "୭ ରୁ ଅଧିକ (More than 7)",
+      "୭ ସହ ସମାନ",
+      "ଶୂନ୍ୟ"
+    ],
+    "answer": "୭ ରୁ ଅଧିକ (More than 7)",
+    "explanation": "pH ସ୍କେଲ୍‌ରେ ୭ ରୁ ୧୪ ପର୍ଯ୍ୟନ୍ତ ମୂଲ୍ୟ କ୍ଷାରୀୟ ପ୍ରକୃତିର ବୃଦ୍ଧିକୁ ସୂଚାଏ।"
+  },
+  {
+    "questionEnglish": "What is the pH range within which our body works?",
+    "questionOdia": "ଆମ ଶରୀର ସାଧାରଣତଃ କେତେ pH ପରିସର (pH Range) ମଧ୍ୟରେ କାର୍ଯ୍ୟ କରେ?",
+    "options": [
+      "2.0 - 3.0",
+      "7.0 - 7.8",
+      "9.0 - 10.5",
+      "6.0 - 6.5"
+    ],
+    "answer": "7.0 - 7.8",
+    "explanation": "ମାନବ ଶରୀର ୭.୦ ରୁ ୭.୮ ର ଏକ ସଂକୀର୍ଣ୍ଣ pH ପରିସର ମଧ୍ୟରେ ସୁସ୍ଥ ଭାବରେ କାର୍ଯ୍ୟ କରିଥାଏ।"
+  },
+  {
+    "questionEnglish": "When the pH of rain water is less than 5.6, it is called?",
+    "questionOdia": "ବର୍ଷା ଜଳର pH ମୂଲ୍ୟ ୫.୬ ରୁ କମ୍ ହେଲେ ତାହାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ଶୁଦ୍ଧ ବର୍ଷା",
+      "ଅମ୍ଳ ବର୍ଷା (Acid Rain)",
+      "କ୍ଷାର ବର୍ଷା",
+      "ଭାରୀ ବର୍ଷା"
+    ],
+    "answer": "ଅମ୍ଳ ବର୍ଷା (Acid Rain)",
+    "explanation": "ବାୟୁମଣ୍ଡଳୀୟ ପ୍ରଦୂଷଣ ଯୋଗୁଁ ବର୍ଷା ଜଳ ଅମ୍ଳୀୟ ହୋଇ pH ୫.୬ ରୁ କମିଗଲେ ତାହାକୁ ଅମ୍ଳ ବର୍ଷା କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which acid is produced in our stomach to help in digestion of food?",
+    "questionOdia": "ଆମ ପାକସ୍ଥଳୀରେ ଖାଦ୍ୟ ହଜମ କରିବା ପାଇଁ ପ୍ରାକୃତିକ ଭାବେ କେଉଁ ଅମ୍ଳ ସୃଷ୍ଟି ହୁଏ?",
+    "options": [
+      "ସଲଫ୍ୟୁରିକ୍ ଏସିଡ୍",
+      "ସାଇଟ୍ରିକ୍ ଏସିଡ୍",
+      "ହାଇଡ୍ରୋକ୍ଲୋରିକ୍ ଏସିଡ୍ (HCl)",
+      "ଏସିଟିକ୍ ଏସିଡ୍"
+    ],
+    "answer": "ହାଇଡ୍ରୋକ୍ଲୋରିକ୍ ଏସିଡ୍ (HCl)",
+    "explanation": "ଆମ ପାକସ୍ଥଳୀ ଲଘୁ ହାଇଡ୍ରୋକ୍ଲୋରିକ୍ ଏସିଡ୍ (HCl) ସୃଷ୍ଟି କରେ ଯାହା ପାକସ୍ଥଳୀକୁ କ୍ଷତି ନପହଞ୍ଚାଇ ହଜମରେ ସାହାଯ୍ୟ କରେ।"
+  },
+  {
+    "questionEnglish": "During indigestion, the stomach produces too much acid causing pain. To get relief, what is used?",
+    "questionOdia": "ଅପଚ ବା ବଦହଜମି ସମୟରେ ପାକସ୍ଥଳୀରେ ଅଧିକ ଅମ୍ଳ ଜମିଲେ ଯେଉଁ ଯନ୍ତ୍ରଣା ହୁଏ, ସେଥିରୁ ମୁକ୍ତି ପାଇଁ କଣ ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "ଆଣ୍ଟାସିଡ୍ / ମାଗ୍ନେସିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍",
+      "ଲେମନ୍ ଜୁସ୍",
+      "ଗାଢ଼ ସଲଫ୍ୟୁରିକ୍ ଏସିଡ୍",
+      "ଭିନେଗାର୍"
+    ],
+    "answer": "ଆଣ୍ଟାସିଡ୍ / ମାଗ୍ନେସିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍",
+    "explanation": "ଆଣ୍ଟାସିଡ୍ (ଯେପରି ମିଲ୍କ ଅଫ୍ ମ୍ୟାଗ୍ନେସିଆ) ଏକ ମୃଦୁ କ୍ଷାରକ ହୋଇଥିବାରୁ ଏହା ଅତିରିକ୍ତ ଅମ୍ଳକୁ ପ୍ରଶମିତ କରିଦିଏ।"
+  },
+  {
+    "questionEnglish": "Tooth decay starts when the pH of the mouth is lower than?",
+    "questionOdia": "ପାଟିର pH ମୂଲ୍ୟ କେତେରୁ କମ୍ ହେଲେ ଦାନ୍ତ କ୍ଷୟ (Tooth decay) ଆରମ୍ଭ ହୋଇଥାଏ?",
+    "options": [
+      "7.0",
+      "6.5",
+      "5.5",
+      "8.2"
+    ],
+    "answer": "5.5",
+    "explanation": "ପାଟିର pH ୫.୫ ରୁ କମିଗଲେ ଅମ୍ଳୀୟତା ଯୋଗୁଁ ଦାନ୍ତର ଏନାମେଲ୍ କ୍ଷୟ ହେବା ଆରମ୍ଭ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the hardest substance in the human body that makes up the outer layer of teeth?",
+    "questionOdia": "ମାନବ ଶରୀରର ସବୁଠାରୁ କଠିନ ପଦାର୍ଥ କଣ ଯାହା ଦାନ୍ତର ବାହ୍ୟ ସ୍ତର ଗଠନ କରେ?",
+    "options": [
+      "ହାଡ଼",
+      "ଟୁଥ୍ ଏନାମେଲ୍ / କ୍ୟାଲସିୟମ୍ ଫସଫେଟ୍",
+      "ଲୁହା",
+      "କ୍ୟାରାଟିନ୍"
+    ],
+    "answer": "ଟୁଥ୍ ଏନାମେଲ୍ / କ୍ୟାଲସିୟମ୍ ଫସଫେଟ୍",
+    "explanation": "ଦାନ୍ତର ଏନାମେଲ୍ କ୍ୟାଲସିୟମ୍ ହାଇଡ୍ରୋକ୍ସିଆପାଟାଇଟ୍ (କ୍ୟାଲସିୟମ୍ ଫସଫେଟ୍ ର ଏକ ସ୍ଫଟିକୀୟ ରୂପ) ଦ୍ୱାରା ନିର୍ମିତ।"
+  },
+  {
+    "questionEnglish": "Bee sting leaves an acid which causes pain and irritation. Which acid is it?",
+    "questionOdia": "ମହୁମାଛି କାମୁଡ଼ିଲେ କେଉଁ ଅମ୍ଳ ଶରୀର ଭିତରକୁ ପ୍ରବେଶ କରେ, ଯାହାଫଳରେ ପ୍ରବଳ ଯନ୍ତ୍ରଣା ହୁଏ?",
+    "options": [
+      "ଏସିଟିକ୍ ଏସିଡ୍",
+      "ମେଥାନୋଇକ୍ ଏସିଡ୍ / ଫର୍ମିକ୍ ଏସିଡ୍",
+      "ଅକ୍ସାଲିକ୍ ଏସିଡ୍",
+      "ଟାର୍ଟାରିକ୍ ଏସିଡ୍"
+    ],
+    "answer": "ମେଥାନୋଇକ୍ ଏସିଡ୍ / ଫର୍ମିକ୍ ଏସିଡ୍",
+    "explanation": "ମହୁମାଛି କିମ୍ବା ବିଛୁଆତି କୁଣ୍ଡା (Nettle leaf) ର କଣ୍ଟାରେ ମେଥାନୋଇକ୍ ଏସିଡ୍ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "What can be applied on a bee sting area to get quick relief?",
+    "questionOdia": "ମହୁମାଛି କାମୁଡ଼ିଥିବା ସ୍ଥାନରେ କଣ ଲଗାଇଲେ ଯନ୍ତ୍ରଣାରୁ ଉପଶମ ମିଳେ?",
+    "options": [
+      "ଲେମ୍ବୁ ରସ",
+      "ଖାଇବା ସୋଡ଼ା (Baking soda) ପରି ମୃଦୁ କ୍ଷାରକ",
+      "ଲଙ୍କା ଗୁଣ୍ଡ",
+      "ଭିନେଗାର୍"
+    ],
+    "answer": "ଖାଇବା ସୋଡ଼ା (Baking soda) ପରି ମୃଦୁ କ୍ଷାରକ",
+    "explanation": "ବେକିଂ ସୋଡା ଏକ ମୃଦୁ କ୍ଷାର ହୋଇଥିବାରୁ ଏହା ମହୁମାଛିର ଅମ୍ଳକୁ ପ୍ରଶମିତ କରିଦିଏ।"
+  },
+  {
+    "questionEnglish": "Which acid is present in Vinegar?",
+    "questionOdia": "ଭିନେଗାର୍ (Vinegar) ରେ କେଉଁ ଅମ୍ଳ ରହିଥାଏ?",
+    "options": [
+      "ସାଇଟ୍ରିକ୍ ଏସିଡ୍",
+      "ଏସିଟିକ୍ ଏସିଡ୍ (Acetic acid)",
+      "ଲାକ୍ଟିକ ଏସିଡ୍",
+      "ଟାର୍ଟାରିକ୍ ଏସିଡ୍"
+    ],
+    "answer": "ଏସିଟିକ୍ ଏସିଡ୍ (Acetic acid)",
+    "explanation": "ଭିନେଗାର୍ ରେ ପ୍ରାୟ ୫-୮% ଏସିଟିକ୍ ଏସିଡ୍ ର ଦ୍ରବଣ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which acid is present in Orange and Lemon?",
+    "questionOdia": "କମଳା ଏବଂ ଲେମ୍ବୁ ଭଳି ଖଟା ଫଳରେ କେଉଁ ଅମ୍ଳ ମିଳିଥାଏ?",
+    "options": [
+      "ଟାର୍ଟାରିକ୍ ଏସିଡ୍",
+      "ସାଇଟ୍ରିକ୍ ଏସିଡ୍ (Citric acid)",
+      "ଅକ୍ସାଲିକ୍ ଏସିଡ୍",
+      "ମେଥାନୋଇକ୍ ଏସିଡ୍"
+    ],
+    "answer": "ସାଇଟ୍ରିକ୍ ଏସିଡ୍ (Citric acid)",
+    "explanation": "ଲେମ୍ବୁ ଜାତୀୟ ଫଳରେ ପ୍ରଚୁର ପରିମାଣରେ ସାଇଟ୍ରିକ୍ ଏସିଡ୍ ରହିଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which acid is present in Tamarind?",
+    "questionOdia": "ତେନ୍ତୁଳି (Tamarind) ରେ କେଉଁ ଅମ୍ଳ ଥାଏ?",
+    "options": [
+      "ଲାକ୍ଟିକ ଏସିଡ୍",
+      "ଟାର୍ଟାରିକ୍ ଏସିଡ୍ (Tartaric acid)",
+      "ଏସିଟିକ୍ ଏସିଡ୍",
+      "ସାଇଟ୍ରିକ୍ ଏସିଡ୍"
+    ],
+    "answer": "ଟାର୍ଟାରିକ୍ ଏସିଡ୍ (Tartaric acid)",
+    "explanation": "ତେନ୍ତୁଳିର ଖଟା ସ୍ଵାଦ ମୁଖ୍ୟତଃ ଟାର୍ଟାରିକ୍ ଏସିଡ୍ ଯୋଗୁଁ ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which acid is present in Tomato?",
+    "questionOdia": "ଟମାଟୋ (Tomato) ରେ କେଉଁ ଅମ୍ଳ ରହିଥାଏ?",
+    "options": [
+      "ଅକ୍ସାଲିକ୍ ଏସିଡ୍ (Oxalic acid)",
+      "ସାଇଟ୍ରିକ୍ ଏସିଡ୍",
+      "ଲାକ୍ଟିକ ଏସିଡ୍",
+      "ହାଇଡ୍ରୋକ୍ଲୋରିକ୍ ଏସିଡ୍"
+    ],
+    "answer": "ଅକ୍ସାଲିକ୍ ଏସିଡ୍ (Oxalic acid)",
+    "explanation": "ଟମାଟୋରେ ପ୍ରାକୃତିକ ଭାବେ ଅକ୍ସାଲିକ୍ ଏସିଡ୍ ମିଳିଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which acid is present in sour milk or Curd?",
+    "questionOdia": "ଦହି ବା ଖଟା କ୍ଷୀରରେ କେଉଁ ଅମ୍ଳ ଥାଏ?",
+    "options": [
+      "ଏସିଟିକ୍ ଏସିଡ୍",
+      "ଲାକ୍ଟିକ ଏସିଡ୍ (Lactic acid)",
+      "ସାଇଟ୍ରିକ୍ ଏସିଡ୍",
+      "ଟାର୍ଟାରିକ୍ ଏସିଡ୍"
+    ],
+    "answer": "ଲାକ୍ଟିକ ଏସିଡ୍ (Lactic acid)",
+    "explanation": "ଜୀବାଣୁମାନଙ୍କ ଦ୍ୱାରା କ୍ଷୀରର ଲାକ୍ଟୋଜ୍ ଶର୍କରା ଲାକ୍ଟିକ ଏସିଡ୍ ରେ ପରିଣତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the pH of a salt formed by a strong acid and a strong base?",
+    "questionOdia": "ଏକ ଶକ୍ତିଶାଳୀ ଅମ୍ଳ ଏବଂ ଶକ୍ତିଶାଳୀ କ୍ଷାରକ ଦ୍ୱାରା ଗଠିତ ଲବଣର pH ମୂଲ୍ୟ କେତେ?",
+    "options": [
+      "୭ ରୁ କମ୍",
+      "୭ ସହ ସମାନ (pH = 7)",
+      "୭ ରୁ ଅଧିକ",
+      "୧୪"
+    ],
+    "answer": "୭ ସହ ସମାନ (pH = 7)",
+    "explanation": "ଉଭୟ ଶକ୍ତିଶାଳୀ ହେଲେ ପ୍ରଶମିତ ଲବଣ ସୃଷ୍ଟି ହୁଏ, ଯାହାର pH ୭ ଅଟେ (ଯେପରି NaCl)।"
+  },
+  {
+    "questionEnglish": "What is the nature of a salt formed by a strong acid and a weak base?",
+    "questionOdia": "ଏକ ଶକ୍ତିଶାଳୀ ଅମ୍ଳ ଏବଂ ଦୁର୍ବଳ କ୍ଷାରକ ଦ୍ୱାରା ଗଠିତ ଲବଣର ପ୍ରକୃତି କିପରି ହୋଇଥାଏ?",
+    "options": [
+      "K୍ଷାରୀୟ",
+      "ଅମ୍ଳୀୟ (Acidic)",
+      "ପ୍ରଶମିତ",
+      "ଉଦାସୀନ"
+    ],
+    "answer": "ଅମ୍ଳୀୟ (Acidic)",
+    "explanation": "ଅମ୍ଳ ଶକ୍ତିଶାଳୀ ହୋଇଥିବାରୁ ଲବଣଟି ଅମ୍ଳୀୟ ଗୁଣ ପ୍ରଦର୍ଶନ କରେ ଏବଂ ଏହାର pH ୭ ରୁ କମ୍ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the nature of a salt formed by a weak acid and a strong base?",
+    "questionOdia": "ଏକ ଦୁର୍ବଳ ଅମ୍ଳ ଏବଂ ଶକ୍ତିଶାଳୀ କ୍ଷାରକ ଦ୍ୱାରା ଗଠିତ ଲବଣର ପ୍ରକୃତି କଣ?",
+    "options": [
+      "ଅମ୍ଳୀୟ",
+      "K୍ଷାରୀୟ (Basic)",
+      "ପ୍ରଶମିତ",
+      "ଶୂନ୍ୟ pH"
+    ],
+    "answer": "K୍ଷାରୀୟ (Basic)",
+    "explanation": "K୍ଷାରକ ଶକ୍ତିଶାଳୀ ହୋଇଥିବାରୁ ଲବଣଟି କ୍ଷାରୀୟ ପ୍ରକୃତିର ହୁଏ ଏବଂ ଏହାର pH ୭ ରୁ ଅଧିକ ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the chemical name of common salt?",
+    "questionOdia": "ଆମେ ଖାଉଥିବା ସାଧାରଣ ଲବଣର ରାସାୟନିକ ନାମ କଣ?",
+    "options": [
+      "ସୋଡିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍",
+      "ସୋଡିୟମ୍ କ୍ଲୋରାଇଡ୍ (NaCl)",
+      "କ୍ୟାଲସିୟମ୍ କାର୍ବୋନେଟ୍",
+      "ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍"
+    ],
+    "answer": "ସୋଡିୟମ୍ କ୍ଲୋରାଇଡ୍ (NaCl)",
+    "explanation": "ସାଧାରଣ ଲବଣର ରାସାୟନିକ ସୂତ୍ର ହେଉଛି NaCl (Sodium Chloride)।"
+  },
+  {
+    "questionEnglish": "Large crystals of common salt found in underground deposits which are often brown due to impurities are called?",
+    "questionOdia": "ଖଣିରୁ ମିଳୁଥିବା ବଡ଼ ବଡ଼ ସ୍ଫଟିକ ଆକାରର ସାଧାରଣ ଲବଣ, ଯାହା ଅପଦ୍ରବ ଯୋଗୁଁ ବାଦାମୀ ଦେଖାଯାଏ, ତାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ସାଗର ଲବଣ",
+      "ଖଣିଜ ଲବଣ ବା ପଥର ଲବଣ (Rock salt)",
+      "ଜିପସମ୍",
+      "ବ୍ଲିଚିଂ ପାଉଡର"
+    ],
+    "answer": "ଖଣିଜ ଲବଣ ବା ପଥର ଲବଣ (Rock salt)",
+    "explanation": "ଏହାକୁ ରକ୍ ସଲ୍ଟ ବା କଳା ଲବଣ/ବିଟ୍ ଲବଣ ଶ୍ରେଣୀର ପଥର ଲବଣ କୁହାଯାଏ, ଯାହା କୋଇଲା ଭଳି ଖଣିରୁ ବାହାରେ।"
+  },
+  {
+    "questionEnglish": "What process is used for the manufacture of sodium hydroxide from brine?",
+    "questionOdia": "ଲବଣ ଜଳ (Brine) ରୁ ସୋଡିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍ ପ୍ରସ୍ତୁତି ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ସୋଲଭେ ପ୍ରକ୍ରିୟା",
+      "କ୍ଲୋର-ଆଲକାଲି ପ୍ରକ୍ରିୟା (Chlor-alkali process)",
+      "ହେବର ପ୍ରକ୍ରିୟା",
+      "ତାପଜ ପ୍ରକ୍ରିୟା"
+    ],
+    "answer": "କ୍ଲୋର-ଆଲକାଲି ପ୍ରକ୍ରିୟା (Chlor-alkali process)",
+    "explanation": "ଏହି ପ୍ରକ୍ରିୟାରେ କ୍ଲୋରିନ୍ ଗ୍ୟାସ୍ (Chlor) ଏବଂ ସୋଡିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍ ଆଲକାଲି (Alkali) ଉତ୍ପନ୍ନ ହେଉଥିବାରୁ ଏହାକୁ କ୍ଲୋର-ଆଲକାଲି ପ୍ରକ୍ରିୟା କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is Brine?",
+    "questionOdia": "ବ୍ରାଇନ୍ (Brine) କହିଲେ କଣ ବୁଝାଯାଏ?",
+    "options": [
+      "ଗାଢ଼ ଅମ୍ଳ",
+      "ସୋଡିୟମ୍ କ୍ଲୋରାଇଡ୍ ର ଗାଢ଼ ଜଳୀୟ ଦ୍ରବଣ",
+      "ତରଳ ସୁନା",
+      "ଚୂନ ପାଣି"
+    ],
+    "answer": "ସୋଡିୟମ୍ କ୍ଲୋରାଇଡ୍ ର ଗାଢ଼ ଜଳୀୟ ଦ୍ରବଣ",
+    "explanation": "NaCl ର ସରିପୃକ୍ତ ବା ଗାଢ଼ ଜଳୀୟ ଦ୍ରବଣକୁ ବ୍ରାଇନ୍ ବୋଲି କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "During the electrolysis of brine, where is chlorine gas liberated?",
+    "questionOdia": "ବ୍ରାଇନ୍ ର ବିଦ୍ୟୁତ ବିଶ୍ଳେଷଣ ସମୟରେ କ୍ଲୋରିନ୍ ଗ୍ୟାସ୍ କେଉଁଠାରେ ମୁକ୍ତ ହୁଏ?",
+    "options": [
+      "କାಥୋଡ୍ ଠାରେ",
+      "ଆନୋଡ୍ ଠାରେ (At Anode)",
+      "ପାତ୍ରର ତଳେ",
+      "କୌଣସିଟି ନୁହେଁ"
+    ],
+    "answer": "ଆନୋଡ୍ ଠାରେ (At Anode)",
+    "explanation": "କ୍ଲୋରାଇଡ୍ ଆୟନ ବିଯୁକ୍ତାତ୍ମକ ହୋଇଥିବାରୁ ଏହା ଯୁକ୍ତାତ୍ମକ ଇଲେକ୍ଟ୍ରୋଡ୍ ବା ଆନୋଡ୍ ଠାରେ ଜମା ହୁଏ।"
+  },
+  {
+    "questionEnglish": "During the electrolysis of brine, where is hydrogen gas liberated?",
+    "questionOdia": "ବ୍ରାଇନ୍ ର ବିଦ୍ୟୁତ ବିଶ୍ଳେଷଣ ସମୟରେ ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍ କେଉଁଠାରେ ମୁକ୍ତ ହୁଏ?",
+    "options": [
+      "ଆନୋଡ୍ ଠାରେ",
+      "କାଥୋଡ୍ ଠାରେ (At Cathode)",
+      "ଦ୍ରବଣ ମଝିରେ",
+      "ମୁକ୍ତ ହୁଏନାହିଁ"
+    ],
+    "answer": "କାଥୋଡ୍ ଠାରେ (At Cathode)",
+    "explanation": "ହାଇଡ୍ରୋଜେନ୍ ଆୟନ ଯୁକ୍ତାତ୍ମକ ହୋଇଥିବାରୁ ଏହା ବିଯୁକ୍ତାତ୍ମକ ଇଲେକ୍ଟ୍ରୋଡ୍ ବା କାଥୋଡ୍ ଠାରେ ମୁକ୍ତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the chemical formula of Bleaching Powder?",
+    "questionOdia": "ବ୍ଲିଚିଂ ପାଉଡର (Bleaching Powder) ର ରାସାୟନିକ ସଙ୍କେତ କଣ?",
+    "options": [
+      "CaO",
+      "CaOCl2",
+      "Ca(OH)2",
+      "CaCO3"
+    ],
+    "answer": "CaOCl2",
+    "explanation": "ବ୍ଲିଚିଂ ପାଉଡରର ରାସାୟନିକ ନାମ କ୍ୟାଲସିୟମ୍ ଅକ୍ସିକ୍ଲୋରାଇଡ୍ ଏବଂ ସୂତ୍ର CaOCl2 ଅଟେ।"
+  },
+  {
+    "questionEnglish": "How is bleaching powder produced?",
+    "questionOdia": "ବ୍ଲିଚିଂ ପାଉଡର କିପରି ପ୍ରସ୍ତୁତ କରାଯାଏ?",
+    "options": [
+      "ଶୁଷ୍କ ଶମିତ ଚୂନ ଉପରେ କ୍ଲୋରିନ୍ ଗ୍ୟାସ୍ ପ୍ରବାହିତ କରି",
+      "କଲିଚୂନରେ ଜଳ ମିଶାଇ",
+      "ଲବଣ ଜଳକୁ ଗରମ କରି",
+      "ଜିପସମ୍ କୁ ଗରମ କରି"
+    ],
+    "answer": "ଶୁଷ୍କ ଶମିତ ଚୂନ ଉପରେ କ୍ଲୋରିନ୍ ଗ୍ୟାସ୍ ପ୍ରବାହିତ କରି",
+    "explanation": "Ca(OH)2 ସହିତ Cl2 ର ପ୍ରତିକ୍ରିୟା କରାଇ CaOCl2 ତିଆରି କରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which substance is used for disinfecting drinking water to make it free of germs?",
+    "questionOdia": "ପାନୀୟ ଜଳକୁ ଜୀବାଣୁମୁକ୍ତ କରିବା ପାଇଁ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କାହାକୁ ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "ଖାଇବା ସୋଡ଼ା",
+      "ବ୍ଲିଚିଂ ପାଉଡର (Bleaching Powder)",
+      "ଧୋଇବା ସୋଡ଼ା",
+      "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍"
+    ],
+    "answer": "ବ୍ଲିଚିଂ ପାଉଡର (Bleaching Powder)",
+    "explanation": "ବ୍ଲିଚିଂ ପାଉଡରରୁ ବାହାରୁଥିବା କ୍ଲୋରିନ୍ ଗ୍ୟାସ୍ ଜଳରେ ଥିବା ଜୀବାଣୁମାନଙ୍କୁ ନଷ୍ଟ କରିଦିଏ।"
+  },
+  {
+    "questionEnglish": "What is the chemical name of Baking Soda?",
+    "questionOdia": "ଖାଇବା ସୋଡ଼ା ବା ବେକିଂ ସୋଡ଼ାର ରାସାୟନିକ ନାମ କଣ?",
+    "options": [
+      "ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍",
+      "ସୋଡିୟମ୍ ହାଇଡ୍ରୋଜେନ୍ କାର୍ବୋନେଟ୍ (NaHCO3)",
+      "କ୍ୟାଲସିୟମ୍ ସଲଫେଟ୍",
+      "ସୋଡିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍"
+    ],
+    "answer": "ସୋଡିୟମ୍ ହାଇଡ୍ରୋଜେନ୍ କାର୍ବୋନେଟ୍ (NaHCO3)",
+    "explanation": "ଖାଇବା ସୋଡ଼ାକୁ ସୋଡିୟମ୍ ବାଇକାର୍ବୋନେଟ୍ ବା ସୋଡିୟମ୍ ହାଇଡ୍ରୋଜେନ୍ କାର୍ବୋନେଟ୍ (NaHCO3) କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is Baking Powder made of?",
+    "questionOdia": "ବେକିଂ ପାଉଡର କାହାର ମିଶ୍ରଣ ଅଟେ?",
+    "options": [
+      "ବେକିଂ ସୋଡ଼ା ଏବଂ ଏକ ମୃଦୁ ଖାଦ୍ୟ ଉପଯୋଗୀ ଅମ୍ଳ (ଟାର୍ଟାରିକ୍ ଏସିଡ୍)",
+      "ଧୋଇବା ସୋଡ଼ା ଏବଂ ଲବଣ",
+      "ବ୍ଲିଚିଂ ପାଉଡର ଏବଂ ଚୂନ",
+      "କେବଳ ସୋଡିୟମ୍ କ୍ଲୋରାଇଡ୍"
+    ],
+    "answer": "ବେକିଂ ସୋଡ଼ା ଏବଂ ଏକ ମୃଦୁ ଖାଦ୍ୟ ଉପଯୋଗୀ ଅମ୍ଳ (ଟାର୍ଟାରିକ୍ ଏସିଡ୍)",
+    "explanation": "ବେକିଂ ସୋଡ଼ା ସହ ମୃଦୁ ଅମ୍ଳ ମିଶି ବେକିଂ ପାଉଡର ଗଠନ କରେ, ଯାହା କେକ୍‌କୁ ଫୁଲିବାରେ ସାହାଯ୍ୟ କରେ।"
+  },
+  {
+    "questionEnglish": "Which gas is released when baking powder is heated or mixed in water, making cakes and bread soft and spongy?",
+    "questionOdia": "ବେକିଂ ପାଉଡରକୁ ଗରମ କଲେ କେଉଁ ଗ୍ୟାସ୍ ବାହାରେ, ଯାହା କେକ୍ ଏବଂ ପାଉଁରୁଟିକୁ ନରମ ଓ ଫୁଲକା କରେ?",
+    "options": [
+      "ହାଇଡ୍ରୋଜେନ୍",
+      "ଅମ୍ଳଜାନ",
+      "Kାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ (CO2)",
+      "ନାଇଟ୍ରୋଜେନ୍"
+    ],
+    "answer": "Kାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ (CO2)",
+    "explanation": "ଉତ୍ପନ୍ନ CO2 ଗ୍ୟାସ୍ ବାହାରକୁ ଆସିବାକୁ ଚେଷ୍ଟା କରିବା ବେଳେ କେକ୍ ବା ପାଉଁରୁଟି ଫୁଲିଯାଏ ଏବଂ ଛିଦ୍ରଯୁକ୍ତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Which compound is used as an ingredient in antacids to neutralize stomach acid?",
+    "options": [
+      "Sodium carbonate",
+      "Sodium hydrogen carbonate (NaHCO3)",
+      "Calcium chloride",
+      "Sodium hydroxide"
+    ],
+    "questionOdia": "ପାକସ୍ଥଳୀର ଅମ୍ଳତା ଦୂର କରିବା ପାଇଁ ଆଣ୍ଟାସିଡ୍‌ରେ କେଉଁ ଯୌଗିକ ବ୍ୟବହୃତ ହୁଏ?",
+    "answer": "Sodium hydrogen carbonate (NaHCO3)",
+    "explanation": "ବେକିଂ ସୋଡ଼ା ଏକ ମୃଦୁ କ୍ଷାରୀୟ ପଦାର୍ଥ ହୋଇଥିବାରୁ ଏହା ପାକସ୍ଥଳୀର ଅମ୍ଳକୁ ପ୍ରଶମିତ କରିପାରେ।"
+  },
+  {
+    "questionEnglish": "What is the chemical formula of Washing Soda?",
+    "questionOdia": "ଧୋଇବା ସୋଡ଼ା ବା ୱାଶିଂ ସୋଡ଼ାର ରାସାୟନିକ ସୂତ୍ର କଣ?",
+    "options": [
+      "NaHCO3",
+      "Na2CO3 . 10H2O",
+      "NaOH",
+      "CaSO4 . 2H2O"
+    ],
+    "answer": "Na2CO3 . 10H2O",
+    "explanation": "ଧୋଇବା ସୋଡ଼ା ହେଉଛି ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍ ଡେକାହାଇଡ୍ରେଟ୍ (Na2CO3 . 10H2O)।"
+  },
+  {
+    "questionEnglish": "Which sodium compound is used for removing permanent hardness of water?",
+    "questionOdia": "ଜଳର ସ୍ଥାୟୀ ଖରତା (Permanent Hardness) ଦୂର କରିବା ପାଇଁ କେଉଁ ସୋଡିୟମ୍ ଯୌଗିକ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": [
+      "ସୋଡିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍",
+      "ଧୋଇବା ସୋଡ଼ା (Sodium Carbonate)",
+      "ଖାଇବା ସୋଡ଼ା",
+      "ବ୍ଲିଚିଂ ପାଉଡର"
+    ],
+    "answer": "ଧୋଇବା ସୋଡ଼ା (Sodium Carbonate)",
+    "explanation": "ୱାଶିଂ ସୋଡ଼ା ବା ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍ କୁ ଜଳର କଠିନତା ବା ଖରତା ଦୂର କରିବା ପାଇଁ ଲଣ୍ଡ୍ରି ଏବଂ ଶିଳ୍ପରେ ବ୍ୟହାର କରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What are the fixed number of water molecules chemically combined in one formula unit of a salt called?",
+    "questionOdia": "ଲବଣର ଗୋଟିଏ ସୂତ୍ର ଏକକରେ ରାସାୟନିକ ଭାବେ ସଂଯୁକ୍ତ ହୋଇ ରହିଥିବା ନିର୍ଦ୍ଦିଷ୍ଟ ସଂଖ୍ୟକ ଜଳ ଅଣୁକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ମୁକ୍ତ ଜଳ",
+      "ସ୍ଫଟିକ ଜଳ (Water of Crystallization)",
+      "ଭାରୀ ଜଳ",
+      "ଖର ଜଳ"
+    ],
+    "answer": "ସ୍ଫଟିକ ଜଳ (Water of Crystallization)",
+    "explanation": "ଲବଣର ସ୍ଫଟିକ ଗଠନ ପାଇଁ ଦାୟୀ ଏହି ନିର୍ଦ୍ଦିଷ୍ଟ ଜଳକୁ ସ୍ଫଟିକ ଜଳ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Copper sulphate crystals seem dry but contain water of crystallization. What color are these crystals and what color do they turn on heating?",
+    "questionOdia": "କପର୍ ସଲଫେଟ୍ ସ୍ଫଟିକ ଗୁଡ଼ିକ ଶୁଷ୍କ ଦେଖାଗଲେ ମଧ୍ୟ ସେଥିରେ ସ୍ଫଟିକ ଜଳ ଥାଏ। ଏହାର ପ୍ରକୃତ ରଙ୍ଗ କଣ ଏବଂ ଗରମ କଲେ ଏହା କେଉଁ ରଙ୍ଗ ହୁଏ?",
+    "options": [
+      "ନୀଳ ରଙ୍ଗ, ଗରମ କଲେ ଧଳା ହୋଇଯାଏ",
+      "ଧଳା ରଙ୍ଗ, ଗରମ କଲେ ନୀଳ ହୋଇଯାଏ",
+      "ସବୁଜ ରଙ୍ଗ, ଗରମ କଲେ କଳା ହୋଇଯାଏ",
+      "ହଳଦିଆ ରଙ୍ଗ, ରଙ୍ଗହୀନ ହୋଇଯାଏ"
+    ],
+    "answer": "ନୀଳ ରଙ୍ଗ, ଗରମ କଲେ ଧଳା ହୋଇଯାଏ",
+    "explanation": "କପର୍ ସଲଫେଟ୍ (CuSO4 . 5H2O) ନୀଳ ରଙ୍ଗର ହୋଇଥାଏ, ଗରମ କଲେ ଜଳ ଅଣୁ ଚାଲିଯିବା ଯୋଗୁଁ ଏହା ଧଳା ପଡ଼ିଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the chemical formula of Gypsum?",
+    "questionOdia": "ଜିପସମ୍ (Gypsum) ର ରାସାୟନିକ ସଙ୍କେତ କଣ?",
+    "options": [
+      "CaSO4 . 1/2H2O",
+      "CaSO4 . 2H2O",
+      "CuSO4 . 5H2O",
+      "Na2CO3 . 10H2O"
+    ],
+    "answer": "CaSO4 . 2H2O",
+    "explanation": "ଜիପସମ୍ ହେଉଛି କ୍ୟାଲସିୟମ୍ ସଲଫେଟ୍ ଡାଇହାଇଡ୍ରେଟ୍ (CaSO4 . 2H2O), ଯେଉଁଥିରେ ୨ ଅଣୁ ସ୍ଫଟିକ ଜଳ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the chemical name of Plaster of Paris?",
+    "questionOdia": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ (POP) ର ରାସାୟନିକ ନାମ କଣ?",
+    "options": [
+      "Calcium sulphate dihydrate",
+      "Calcium sulphate hemihydrate",
+      "Sodium carbonate decahydrate",
+      "Copper sulphate pentahydrate"
+    ],
+    "answer": "Calcium sulphate hemihydrate",
+    "explanation": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ ର ସୂତ୍ର ହେଉଛି CaSO4 . 1/2H2O (କ୍ୟାଲସିୟମ୍ ସଲଫେଟ୍ ହେମିହାଇଡ୍ରେଟ୍)।"
+  },
+  {
+    "questionEnglish": "At what temperature should Gypsum be heated to obtain Plaster of Paris?",
+    "questionOdia": "ଜିପସମ୍ କୁ କେତେ ତାପମାତ୍ରାରେ ଗରମ କଲେ ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ ମିଳିଥାଏ?",
+    "options": [
+      "100 K",
+      "373 K (or 100 degrees Celsius)",
+      "273 K",
+      "500 K"
+    ],
+    "answer": "373 K (or 100 degrees Celsius)",
+    "explanation": "୩୭୩ କେଲଭିନ୍ ରେ ଗରମ କଲେ ଜିପସମ୍ ତା'ର ଦେଢ଼ ଅଣୁ ଜଳ ହରାଇ ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ ରେ ପରିଣତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What happens when Plaster of Paris is mixed with water?",
+    "questionOdia": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ ରେ ଜଳ ମିଶାଇଲେ କଣ ହୁଏ?",
+    "options": [
+      "ଏହା ତରଳି ଗ୍ୟାସ୍ ହୋଇଯାଏ",
+      "ଏହା ପୁଣିଥରେ ଜିପସମ୍ ରେ ପରିଣତ ହୋଇ କଠିନ ହୋଇଯାଏ",
+      "ଏହାର ରଙ୍ଗ ନୀଳ ହୋଇଯାଏ",
+      "କୌଣସି ପରିବର୍ତ୍ତନ ହୁଏନାହିଁ"
+    ],
+    "answer": "ଏହା ପୁଣିଥରେ ଜିପସମ୍ ରେ ପରିଣତ ହୋଇ କଠିନ ହୋଇଯାଏ",
+    "explanation": "POP ଜଳ ଗ୍ରହଣ କରି ପୁଣି ଜିପସମ୍ ସ୍ଫଟିକ ଗଠନ କରେ ଏବଂ ଏକ ଶକ୍ତ କଠିନ ପଦାର୍ଥରେ ପରିଣତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Why should Plaster of Paris be stored in moisture-proof containers?",
+    "questionOdia": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ କୁ କାହିଁକି ଆର୍ଦ୍ରତା-ରୋଧୀ (Moisture-proof) ପାତ୍ରରେ ରଖାଯାଏ?",
+    "options": [
+      "ଏହା ବହୁତ ଦାମୀ",
+      "ବାୟୁର ଆର୍ଦ୍ରତା ସଂସ୍ପର୍ଶରେ ଆସିଲେ ଏହା ଜିପସମ୍ ଗଠନ କରି ଶକ୍ତ ହୋଇ ନଷ୍ଟ ହୋଇଯାଏ",
+      "ଏହା ଉଡ଼ିଯାଏ",
+      "ଏହା ବାୟୁକୁ ଦୂଷିତ କରେ"
+    ],
+    "answer": "ବାୟୁର ଆର୍ଦ୍ରତା ସଂସ୍ପର୍ଶରେ ଆସିଲେ ଏହା ଜିପସମ୍ ଗଠନ କରି ଶକ୍ତ ହୋଇ ନଷ୍ଟ ହୋଇଯାଏ",
+    "explanation": "ବାୟୁରେ ଥିବା ଜଳୀୟ ବାଷ୍ପ ଶୋଷି POP ପଥର ପରି ଟାଣ ହୋଇଯାଏ, ଯାହାଫଳରେ ଏହା ବ୍ୟବହାର ଉପଯୋଗୀ ରହେନାହିଁ।"
+  },
+  {
+    "questionEnglish": "Which substance is used by doctors to support fractured bones in the right position?",
+    "questionOdia": "ଭାଙ୍ଗିଯାଇଥିବା ହାଡ଼କୁ ସଠିକ୍ ସ୍ଥାନରେ ସ୍ଥିର ରଖିବା ପାଇଁ ଡାକ୍ତରମାନେ କାହାକୁ ବ୍ୟବହାର କରନ୍ତି?",
+    "options": [
+      "ଜିପସମ୍",
+      "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ (Plaster of Paris)",
+      "ବ୍ଲିଚିଂ ପାଉଡର",
+      "ଧୋଇବା ସୋଡ଼ା"
+    ],
+    "answer": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ (Plaster of Paris)",
+    "explanation": "POP ର ଶୀଘ୍ର ଜମାଟ ବାନ୍ଧି କଠିନ ହେବା ଗୁଣ ଯୋଗୁଁ ଏହାକୁ ପ୍ଲାଷ୍ଟର କରିବାରେ ବ୍ୟବହାର କରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the common name of Calcium Sulphate Hemihydrate?",
+    "questionOdia": "କ୍ୟାଲସିୟମ୍ ସଲଫେଟ୍ ହେମିହାଇଡ୍ରେଟ୍ ର ସାଧାରଣ ନାମ କଣ?",
+    "options": [
+      "ବ୍ଲିଚିଂ ପାଉଡର",
+      "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ (Plaster of Paris)",
+      "ଖାଇବା ସୋଡ଼ା",
+      "ଜିପସମ୍"
+    ],
+    "answer": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ (Plaster of Paris)",
+    "explanation": "କ୍ୟାଲସିୟମ୍ ସଲଫେଟ୍ ହେମିହାଇଡ୍ରେଟ୍ କୁ ହିଁ ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What color change is observed when methyl orange is added to an acid?",
+    "questionOdia": "ଅମ୍ଳରେ ମିଥାଇଲ୍ ଅରେଞ୍ଜ ସୂଚକ ମିଶାଇଲେ ଏହାର ରଙ୍ଗ କଣ ହୁଏ?",
+    "options": [
+      "ହଳଦିଆ",
+      "ନାଲି (Red)",
+      "ଗୋଲାପୀ",
+      "ରଙ୍ଗହୀନ"
+    ],
+    "answer": "ନାଲି (Red)",
+    "explanation": "ମିଥାଇଲ୍ ଅରେଞ୍ଜ ଅମ୍ଳ ମାଧ୍ୟମରେ ନାଲି ରଙ୍ଗ ଏବଂ କ୍ଷାରୀୟ ମାଧ୍ୟମରେ ହଳଦିଆ ରଙ୍ଗ ପ୍ରଦର୍ଶନ କରେ।"
+  },
+  {
+    "questionEnglish": "What color change is observed when phenolphthalein is added to a base?",
+    "questionOdia": "K୍ଷାରକରେ ଫେନଲପଥାଲିନ ସୂଚକ ମିଶାଇଲେ ଦ୍ରବଣର ରଙ୍ଗ କଣ ହୁଏ?",
+    "options": [
+      "ରଙ୍ଗହୀନ",
+      "ଗୋଲାପୀ / ଗାଢ଼ ନାଲି (Pink)",
+      "ହଳଦିଆ",
+      "ନୀଳ"
+    ],
+    "answer": "ଗୋଲାପୀ / ଗାଢ଼ ନାଲି (Pink)",
+    "explanation": "ଫେନଲପଥାଲିନ ଅମ୍ଳରେ ରଙ୍ଗହୀନ ରହେ କିନ୍ତୁ କ୍ଷାର ମାଧ୍ୟମରେ ଏହା ସୁନ୍ଦର ଗୋଲାପୀ ରଙ୍ଗ ଧାରଣ କରେ।"
+  },
+  {
+    "questionEnglish": "Which gas is produced when dilute hydrochloric acid reacts with sodium carbonate?",
+    "questionOdia": "ଲଘୁ ହାଇଡ୍ରୋକ୍ଲୋରିକ୍ ଏସିଡ୍ ଏବଂ ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍ ମଧ୍ୟରେ ପ୍ରତିକ୍ରିୟା ହେଲେ କେଉଁ ଗ୍ୟାସ୍ ବାହାରେ?",
+    "options": [
+      "ହାଇଡ୍ରୋଜେନ୍",
+      "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ (CO2)",
+      "ଅମ୍ଳଜାନ",
+      "କ୍ଲୋରିନ୍"
+    ],
+    "answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ (CO2)",
+    "explanation": "କାର୍ବୋନେଟ୍ ଲବଣ ଏସିଡ୍ ସହ ପ୍ରତିକ୍ରିୟା କରି ସର୍ବଦା CO2 ଗ୍ୟାସ୍ ଉତ୍ପନ୍ନ କରେ।"
+  },
+  {
+    "questionEnglish": "An aqueous solution turns red litmus paper blue. Its pH is likely to be?",
+    "questionOdia": "ଗୋଟିଏ ଜଳୀୟ ଦ୍ରବଣ ନାଲି ଲିଟମସକୁ ନୀଳ କରୁଛି। ଏହାର pH ପ୍ରାୟ କେତେ ହୋଇପାରେ?",
+    "options": [
+      "1",
+      "4",
+      "5",
+      "10"
+    ],
+    "answer": "10",
+    "explanation": "ନାଲି ଲିଟମସକୁ ନୀଳ କରୁଥିବା ଦ୍ରବଣଟି କ୍ଷାରୀୟ ଅଟେ, ତେଣୁ ଏହାର pH ୭ ରୁ ଅଧିକ (ଅର୍ଥାତ୍ ୧୦) ହେବ।"
+  },
+  {
+    "questionEnglish": "A solution reacts with crushed egg-shells to give a gas that turns lime-water milky. The solution contains?",
+    "questionOdia": "ଗୋଟିଏ ଦ୍ରବଣ ଅଣ୍ଡା ଚୋପା ଗୁଣ୍ଡ ସହ ପ୍ରତିକ୍ରିୟା କରି ଏକ ଗ୍ୟାସ୍ ସୃଷ୍ଟି କରୁଛି ଯାହା ଚୂନପାଣିକୁ ଦୁଧିଆ କରୁଛି। ସେହି ଦ୍ରବଣରେ କଣ ଅଛି?",
+    "options": [
+      "NaCl",
+      "HCl",
+      "LiCl",
+      "KCl"
+    ],
+    "answer": "HCl",
+    "explanation": "ଅଣ୍ଡା ଚୋପାରେ CaCO3 ଥାଏ, ଯାହା HCl (ଅମ୍ଳ) ସହ ପ୍ରତିକ୍ରିୟା କରି CO2 ଗ୍ୟାସ୍ ଦିଏ, ଯାହା ଚୂନପାଣିକୁ ଦୁଧିଆ କରେ।"
+  },
+  {
+    "questionEnglish": "Which of the following types of medicines is used for treating indigestion?",
+    "questionOdia": "ବଦହଜମି ବା ଏସିଡିଟିର ଚିକିତ୍ସା ପାଇଁ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ପ୍ରକାର ଔଷଧ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": [
+      "ଆଣ୍ଟିବାୟୋଟିକ୍",
+      "ଏନାଲଜେସିକ୍",
+      "ଆଣ୍ଟାସିଡ୍ (Antacid)",
+      "ଆଣ୍ଟିସେପ୍ଟିକ୍"
+    ],
+    "answer": "ଆଣ୍ଟାସିଡ୍ (Antacid)",
+    "explanation": "ଆଣ୍ଟାସିଡ୍ ଗୁଡ଼ିକ ଶରୀରର ଅତିରିକ୍ତ ଅମ୍ଳକୁ ପ୍ରଶମିତ କରନ୍ତି।"
+  },
+  {
+    "questionEnglish": "What is the common name of Sodium Carbonate?",
+    "questionOdia": "ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍ ର ସାଧାରଣ ବ୍ୟବସାୟିକ ନାମ କଣ?",
+    "options": [
+      "ଖାଇବା ସୋଡ଼ା",
+      "ସୋଡା ଆସ୍ ବା ଧୋଇବା ସୋଡ଼ା (Washing Soda)",
+      "କଲିଚୂନ",
+      "କାଷ୍ଟିକ ସୋଡା"
+    ],
+    "answer": "ସୋଡା ଆସ୍ ବା ଧୋଇବା ସୋଡ଼ା (Washing Soda)",
+    "explanation": "ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍ କୁ ସାଧାରଣତଃ ଧୋଇବା ସୋଡ଼ା କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which acid is present in nettle leaf hair stings?",
+    "questionOdia": "ବିଛୁଆତି ଗଛ (Nettle) ର ପତ୍ର କଣ୍ଟା ବାଜିଲେ କେଉଁ ଅମ୍ଳ ନିର୍ଗତ ହୁଏ?",
+    "options": [
+      "ମେଥାନୋଇକ୍ ଏସିଡ୍ (Methanoic acid)",
+      "ଲାକ୍ଟିକ ଏସିଡ୍",
+      "ସାଇଟ୍ରିକ୍ ଏସିଡ୍",
+      "ଟାର୍ଟାରିକ୍ ଏସିଡ୍"
+    ],
+    "answer": "ମେଥାନୋଇକ୍ ଏସିଡ୍ (Methanoic acid)",
+    "explanation": "ବିଛୁଆତି କଣ୍ଟାରେ ମେଥାନୋଇକ୍ (ଫର୍ମିକ୍) ଏସିଡ୍ ଥିବାରୁ ଶରୀରରେ ପ୍ରବଳ ପୋଡ଼ାଜଳା ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Which plant's leaf can be rubbed as a traditional remedy on the skin after a nettle sting?",
+    "questionOdia": "ବିଛୁଆତି କାମୁଡ଼ିଲେ ତା'ର ପ୍ରତିକାର ସ୍ଵରୂପ ପ୍ରକୃତି ସେହି ସ୍ଥାନ ପାଖରେ କେଉଁ ଗଛ ସୃଷ୍ଟି କରିଥାଏ, ଯାହାର ପତ୍ରକୁ ଘଷିଲେ ଆରାମ ମିଳେ?",
+    "options": [
+      "ତୁଳସୀ ଗଛ",
+      "ଡକ୍ ଗଛ (Dock plant)",
+      "ନିମ୍ବ ଗଛ",
+      "କଦଳୀ ଗଛ"
+    ],
+    "answer": "ଡକ୍ ଗଛ (Dock plant)",
+    "explanation": "ଡକ୍ ପ୍ଲାଣ୍ଟ (Dock plant) ର ପତ୍ରର ରସ କ୍ଷାରୀୟ ପ୍ରକୃତିର ହୋଇଥିବାରୁ ଏହା ମେଥାନୋଇକ୍ ଏସିଡ୍ ର ପ୍ରଭାବକୁ କମାଇଦିଏ।"
+  },
+  {
+    "questionEnglish": "What is the pH of basic oxides?",
+    "questionOdia": "K୍ଷାରୀୟ ଅକ୍ସାଇଡ୍ ଗୁଡ଼ିକର pH ମୂଲ୍ୟ କେତେ ହୋଇଥାଏ?",
+    "options": [
+      "୭ ରୁ କମ୍",
+      "୭ ସହ ସମାନ",
+      "୭ ରୁ ଅଧିକ (Greater than 7)",
+      "ଶୂନ୍ୟ"
+    ],
+    "answer": "୭ ରୁ ଅଧିକ (Greater than 7)",
+    "explanation": "K୍ଷାରୀୟ ପଦାର୍ଥର pH ସର୍ବଦା ୭ ରୁ ୧୪ ମଧ୍ୟରେ ରହିଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the pH of acidic oxides?",
+    "questionOdia": "ଅମ୍ଳୀୟ ଅକ୍ସାଇଡ୍ ଗୁଡ଼ିକର pH ମୂଲ୍ୟ କେତେ?",
+    "options": [
+      "୭ ରୁ କମ୍ (Less than 7)",
+      "୭ ରୁ ଅଧିକ",
+      "୭ ସହ ସମାନ",
+      "୧୪"
+    ],
+    "answer": "୭ ରୁ କମ୍ (Less than 7)",
+    "explanation": "ଅମ୍ଳୀୟ ପ୍ରକୃତିର ପଦାର୍ଥଗୁଡ଼ିକର pH ସର୍ବଦା ୭ ରୁ କମ୍ ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the chemical formula of Sodium Hydroxide?",
+    "questionOdia": "ସୋଡିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍ ର ରାସାୟନିକ ସଙ୍କେତ କଣ?",
+    "options": [
+      "NaCl",
+      "NaOH",
+      "Na2CO3",
+      "NaHCO3"
+    ],
+    "answer": "NaOH",
+    "explanation": "ସୋଡିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍ କୁ NaOH କୁହାଯାଏ, ଯାହା ଏକ ଶକ୍ତିଶାଳୀ କ୍ଷାର (କାଷ୍ଟିକ ସୋଡା)।"
+  },
+  {
+    "questionEnglish": "The strength of an acid depends on the concentration of which ions?",
+    "questionOdia": "ଏକ ଅମ୍ଳର ଶକ୍ତି ବା ତୀବ୍ରତା କେଉଁ ଆୟନର ଗାଢ଼ତା ଉପରେ ନିର୍ଭର କରେ?",
+    "options": [
+      "OH- ଆୟନ",
+      "H+ ଆୟନ (Hydrogen ions)",
+      "Cl- ଆୟନ",
+      "Na+ ଆୟନ"
+    ],
+    "answer": "H+ ଆୟନ (Hydrogen ions)",
+    "explanation": "ଜଳରେ ଅଧିକ ସଂଖ୍ୟକ H+ ଆୟନ ଦେଉଥିବା ଅମ୍ଳକୁ ଶକ୍ତିଶାଳୀ ଅମ୍ଳ ଏବଂ କମ୍ ଆୟନ ଦେଉଥିବା ଅମ୍ଳକୁ ଦୁର୍ବଳ ଅମ୍ଳ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "The strength of a base depends on the concentration of which ions?",
+    "questionOdia": "ଏକ କ୍ଷାରକର ଶକ୍ତି ବା ତୀବ୍ରତା କେଉଁ ଆୟନର ସଂଖ୍ୟା ଉପରେ ନିର୍ଭର କରେ?",
+    "options": [
+      "H+ ଆୟନ",
+      "OH- ଆୟନ (Hydroxide ions)",
+      "SO4 2- ଆୟନ",
+      "K+ ଆୟନ"
+    ],
+    "answer": "OH- ଆୟନ (Hydroxide ions)",
+    "explanation": "ଜଳରେ ସମ୍ପୂର୍ଣ୍ଣ ଆୟନିତ ହୋଇ ଅଧିକ OH- ଆୟନ ଦେଉଥିବା କ୍ଷାରକ ଶକ୍ତିଶାଳୀ କ୍ଷାରକ ଅଟେ।"
+  },
+  {
+    "questionEnglish": "Which of the following is a strong acid?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଶକ୍ତିଶାଳୀ ଅମ୍ଳ (Strong Acid)?",
+    "options": [
+      "CH3COOH (Acetic acid)",
+      "HCl (Hydrochloric acid)",
+      "H2CO3 (Carbonic acid)",
+      "ସାଇଟ୍ରିକ୍ ଏସିଡ୍"
+    ],
+    "answer": "HCl (Hydrochloric acid)",
+    "explanation": "ହାଇଡ୍ରୋକ୍ଲୋରିକ୍ ଏସିଡ୍, ସଲଫ୍ୟୁରିକ୍ ଏସିଡ୍ ଏବଂ ନାଇଟ୍ରିକ୍ ଏସିଡ୍ ହେଉଛନ୍ତି ଶକ୍ତିଶାଳୀ ଖଣିଜ ଅମ୍ଳ।"
+  },
+  {
+    "questionEnglish": "Which of the following is a weak acid?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଦୁର୍ବଳ ଅମ୍ଳ (Weak Acid)?",
+    "options": [
+      "HCl",
+      "HNO3",
+      "CH3COOH (Acetic acid)",
+      "H2SO4"
+    ],
+    "answer": "CH3COOH (Acetic acid)",
+    "explanation": "ଏସିଟିକ୍ ଏସିଡ୍ ଜଳରେ ଆଂଶିକ ଭାବେ ଆୟନିତ ହେଉଥିବାରୁ ଏହା ଏକ ଦୁର୍ବଳ ଅମ୍ଳ ଅଟେ।"
+  },
+  {
+    "questionEnglish": "Which of the following is a strong base?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଶକ୍ତିଶାଳୀ କ୍ଷାରକ (Strong Base)?",
+    "options": [
+      "NH4OH",
+      "NaOH (Sodium Hydroxide)",
+      "Mg(OH)2",
+      "Cu(OH)2"
+    ],
+    "answer": "NaOH (Sodium Hydroxide)",
+    "explanation": "ସୋଡିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍ ଓ ପୋଟାସିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍ ହେଉଛନ୍ତି ଶକ୍ତିଶାଳୀ କ୍ଷାରକ।"
+  },
+  {
+    "questionEnglish": "Which of the following is a weak base?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଦୁର୍ବଳ କ୍ଷାରକ (Weak Base)?",
+    "options": [
+      "NaOH",
+      "KOH",
+      "Mg(OH)2 (Magnesium hydroxide)",
+      "Ca(OH)2"
+    ],
+    "answer": "Mg(OH)2 (Magnesium hydroxide)",
+    "explanation": "ମ୍ୟାଗ୍ନେସିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍ ଏବଂ ଆମୋନିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍ ହେଉଛନ୍ତି ମୃଦୁ ବା ଦୁର୍ବଳ କ୍ଷାରକ।"
+  },
+  {
+    "questionEnglish": "What is the color of universal indicator at pH 7?",
+    "questionOdia": "ସର୍ବଜନୀନ ସୂଚକ (Universal Indicator) ର ରଙ୍ଗ pH ୭ ଥିବା ବେଳେ କଣ ହୋଇଥାଏ?",
+    "options": [
+      "ନାଲି",
+      "ନୀଳ",
+      "ସବୁଜ (Green)",
+      "ବାଇଗଣୀ"
+    ],
+    "answer": "ସବୁଜ (Green)",
+    "explanation": "ଉଦାସୀନ ବା ପ୍ରଶମିତ ଦ୍ରବଣରେ ସର୍ବଜନୀନ ସୂଚକର ରଙ୍ଗ ସବୁଜ ଦେଖାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the color of universal indicator in a highly acidic solution (pH 1-2)?",
+    "questionOdia": "ଅତ୍ୟନ୍ତ ଅମ୍ଳୀୟ ଦ୍ରବଣରେ ସର୍ବଜନୀନ ସୂଚକର ରଙ୍ଗ କିପରି ହୁଏ?",
+    "options": [
+      "ପ୍ରଖର ନାଲି (Dark Red)",
+      "ସବୁଜ",
+      "ହଳଦିଆ",
+      "ନୀଳ"
+    ],
+    "answer": "ପ୍ରଖର ନାଲି (Dark Red)",
+    "explanation": "ତୀବ୍ର ଅମ୍ଳୀୟ ମାଧ୍ୟମରେ ସର୍ବଜନୀନ ସୂଚକ ନାଲି ରଙ୍ଗ ପ୍ରଦର୍ଶନ କରେ।"
+  },
+  {
+    "questionEnglish": "What is the color of universal indicator in a highly basic solution (pH 13-14)?",
+    "questionOdia": "ଅତ୍ୟନ୍ତ କ୍ଷାରୀୟ ଦ୍ରବଣରେ ସର୍ବଜନୀନ ସୂଚକ କେଉଁ ରଙ୍ଗ ଦେଖାଏ?",
+    "options": [
+      "ନାଲି",
+      "ବାଇଗଣୀ / ଗାଢ଼ ନୀଳ (Violet/Dark Blue)",
+      "ସବୁଜ",
+      "କଳା"
+    ],
+    "answer": "ବାଇଗଣୀ / ଗାଢ଼ ନୀଳ (Violet/Dark Blue)",
+    "explanation": "ପ୍ରଖର କ୍ଷାରୀୟ ଦ୍ରବଣରେ ସର୍ବଜନୀନ ସୂଚକ ଗାଢ଼ ବାଇଗଣୀ ରଙ୍ଗ ହୋଇଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which gas is released during the electrolysis of brine that is used to make PVC and CFCs?",
+    "questionOdia": "କ୍ଲୋର-ଆଲକାଲି ପ୍ରକ୍ରିୟାରେ ବାହାରୁଥିବା କେଉଁ ଗ୍ୟାସ୍ PVC, କୀଟନାଶକ ଏବଂ CFC ପ୍ରସ୍ତୁତିରେ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": [
+      "ହାଇଡ୍ରୋଜେନ୍",
+      "କ୍ଲୋରିନ୍ (Chlorine)",
+      "ଅମ୍ଳଜାନ",
+      "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍"
+    ],
+    "answer": "କ୍ଲୋରିନ୍ (Chlorine)",
+    "explanation": "ଆନୋଡ୍ ଠାରେ ଉତ୍ପନ୍ନ କ୍ଲୋରିନ୍ ଗ୍ୟାସ୍ କୁ ପ୍ଲାଷ୍ଟିକ୍ (PVC) ଓ ଜୀବାଣୁନାଶକ କାର୍ଯ୍ୟରେ ବ୍ୟବହାର କରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which byproduct of chlor-alkali process is used as fuel and for making margarine?",
+    "questionOdia": "କ୍ଲୋର-ଆଲକାଲି ପ୍ରକ୍ରିୟାରୁ ମିଳୁଥିବା କେଉଁ ସହ-ଉତ୍ପାଦ ଗ୍ୟାସ୍ କୁ ଜାଳେଣି ଏବଂ ମାର୍ଗାରିନ୍ ତିଆରିରେ ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "କ୍ଲୋରିନ୍",
+      "ହାଇଡ୍ରୋଜେନ୍ (Hydrogen)",
+      "ଅମ୍ୋନିଆ",
+      "ଅମ୍ଳଜାନ"
+    ],
+    "answer": "ହାଇଡ୍ରୋଜେନ୍ (Hydrogen)",
+    "explanation": "Kାଥୋଡ୍ ଠାରେ ମିଳୁଥିବା ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍ ର ବ୍ୟବହାର ରକେଟ୍ ଜାଳେଣି ଓ ସାର ପ୍ରସ୍ତୁତିରେ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the chemical name of Gypsum which is heated to make Plaster of Paris?",
+    "questionOdia": "ଜିପସମ୍ ର ରାସାୟନିକ ନାମ କଣ?",
+    "options": [
+      "Calcium sulphate hemihydrate",
+      "Calcium sulphate dihydrate",
+      "Sodium carbonate decahydrate",
+      "Copper sulphate pentahydrate"
+    ],
+    "answer": "Calcium sulphate dihydrate",
+    "explanation": "ଜիପସମ୍ ର ରାସାୟନିକ ନାମ ହେଉଛି କ୍ୟାଲସିୟମ୍ ସଲଫେଟ୍ ଡାଇହାଇଡ୍ରେଟ୍ (CaSO4 . 2H2O)।"
+  },
+  {
+    "questionEnglish": "How many water molecules are lost by Gypsum when it changes into Plaster of Paris?",
+    "questionOdia": "ଜିପସମ୍ ରୁ ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ ହେବା ସମୟରେ ଜିପସମ୍ କେତେ ଅଣୁ ଜଳ ହରାଇଥାଏ?",
+    "options": [
+      "1",
+      "2",
+      "1.5 (One and a half)",
+      "0.5"
+    ],
+    "answer": "1.5 (One and a half)",
+    "explanation": "ଜିପସମ୍ ର ୨ ଅଣୁ ଜଳରୁ ୧.୫ (ଦେଢ଼) ଅଣୁ ଜଳ ଚାଲିଯାଏ ଏବଂ କେବଳ ୦.୫ (ଅଧା) ଅଣୁ ଜଳ ବାକି ରହେ।"
+  },
+  {
+    "questionEnglish": "What is the formula of Copper Sulphate after heating it completely?",
+    "questionOdia": "ସମ୍ପୂର୍ଣ୍ଣ ଗରମ କରାଯାଇଥିବା ନିର୍ଜଳ କପର୍ ସଲଫେଟ୍ ର ସୂତ୍ର କଣ?",
+    "options": [
+      "CuSO4 . 5H2O",
+      "CuSO4",
+      "CuSO4 . 2H2O",
+      "CuO"
+    ],
+    "answer": "CuSO4",
+    "explanation": "ନିର୍ଜଳ (Anhydrous) କପର୍ ସଲଫେଟ୍ ର ସୂତ୍ର ହେଉଛି CuSO4, ଯାହା ଧଳା ରଙ୍ଗର ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which chemical is used in fire extinguishers to produce carbon dioxide gas under pressure?",
+    "questionOdia": "ଅଗ୍ନିଶମ ବାହନ ବା ନିର୍ବାପକ ଯନ୍ତ୍ରରେ ପ୍ରେସର ସହ CO2 ସୃଷ୍ଟି କରିବା ପାଇଁ କେଉଁ ଯୌଗିକ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": [
+      "ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍",
+      "ସୋଡିୟମ୍ ହାଇଡ୍ରୋଜେନ୍ କାର୍ବୋନେଟ୍ (Baking Soda)",
+      "ସୋଡିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍",
+      "ବ୍ଲିଚିଂ ପାଉଡର"
+    ],
+    "answer": "ସୋଡିୟମ୍ ହାଇଡ୍ରୋଜେନ୍ କାର୍ବୋନେଟ୍ (Baking Soda)",
+    "explanation": "ସୋଡା-ଏସିଡ୍ ଅଗ୍ନିଶମ ଯନ୍ତ୍ରରେ ବେକିଂ ସୋଡା ଏବଂ ଏସିଡ୍ ର ପ୍ରତିକ୍ରିୟା କରାଇ ପ୍ରଚୁର CO2 ବାହାର କରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the chemical formula of Sodium Carbonate Decahydrate?",
+    "questionOdia": "ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍ ଡେକାହାଇଡ୍ରେଟ୍ ର ସୂତ୍ର କଣ?",
+    "options": [
+      "Na2CO3 . H2O",
+      "Na2CO3 . 10H2O",
+      "NaHCO3",
+      "NaOH"
+    ],
+    "answer": "Na2CO3 . 10H2O",
+    "explanation": "ଡେକାହାଇଡ୍ରେଟ୍ ର ଅର୍ଥ ହେଉଛି ୧୦ ଅଣୁ ସ୍ଫଟିକ ଜଳ ଥିବା ଯୌଗିକ।"
+  },
+  {
+    "questionEnglish": "Which chemical compound is used in glass, soap, and paper industries?",
+    "questionOdia": "କାଚ, ସାବୁନ ଏବଂ କାଗଜ ଶିଳ୍ପରେ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କାହାକୁ ବହୁଳ ଭାବରେ ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "ବ୍ଲିଚିଂ ପାଉଡର",
+      "ଧୋଇବା ସୋଡ଼ା (Washing Soda)",
+      "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍",
+      "ଜିପସମ୍"
+    ],
+    "answer": "ଧୋଇବା ସୋଡ଼ା (Washing Soda)",
+    "explanation": "ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍ ବା ୱାଶିଂ ସୋଡ଼ା ଏହି ସବୁ ଶିଳ୍ପରେ ଏକ ଗୁରୁତ୍ଵପୂର୍ଣ୍ଣ କଞ୍ଚାମାଲ।"
+  },
+  {
+    "questionEnglish": "Which chemical is known for removing stains from clothes and bleaching wood pulp in paper factories?",
+    "questionOdia": "କପଡ଼ାରୁ ରଙ୍ଗ ଛଡ଼ାଇବା ଏବଂ କାଗଜ କାରଖାନାରେ କାଠ ମଣ୍ଡକୁ ବିରଞ୍ଜନ (Bleach) କରିବା ପାଇଁ କଣ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": [
+      "ଖାଇବା ସୋଡ଼ା",
+      "ବ୍ଲିଚିଂ ପାଉଡର (Bleaching Powder)",
+      "ଧୋଇବା ସୋଡ଼ା",
+      "ଲବଣ"
+    ],
+    "answer": "ବ୍ଲିଚିଂ ପାଉଡର (Bleaching Powder)",
+    "explanation": "ବ୍ଲିଚିଂ ପାଉଡରର ବିରଞ୍ଜନ ଗୁଣ ଯୋଗୁଁ ଏହାକୁ ଟେକ୍ସଟାଇଲ୍ ଏବଂ ପେପର୍ ଶିଳ୍ପରେ ବ୍ୟବହାର କରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What happens when an acid reacts with a metal hydrogen carbonate?",
+    "questionOdia": "ଅମ୍ଳ ଗୋଟିଏ ଧାତବ ହାଇଡ୍ରୋଜେନ କାର୍ବୋନେଟ୍ ସହ ପ୍ରତିକ୍ରିୟା କଲେ କଣ ସୃଷ୍ଟି ହୁଏ?",
+    "options": [
+      "କେବଳ ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍",
+      "ଲବଣ, ଜଳ ଏବଂ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+      "କେବଳ କ୍ଷାରକ",
+      "କୌଣସି ପ୍ରତିକ୍ରିୟା ହୁଏନାହିଁ"
+    ],
+    "answer": "ଲବଣ, ଜଳ ଏବଂ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+    "explanation": "କାର୍ବୋନେଟ୍ ପରି ବାଇକାର୍ବୋନେଟ୍ ମଧ୍ୟ ଏସିଡ୍ ସହ ମିଶି CO2 ଓ ଜଳ ଉତ୍ପନ୍ନ କରନ୍ତି।"
+  },
+  {
+    "questionEnglish": "What is the pH of rain water during severe acid rain?",
+    "questionOdia": "ପ୍ରବଳ ଅମ୍ଳ ବର୍ଷା ସମୟରେ ବର୍ଷା ଜଳର pH ସାଧାରଣତଃ କେତେ ହୋଇଥାଏ?",
+    "options": [
+      "୭ ରୁ ଅଧିକ",
+      "୫.୬ ରୁ କମ୍ (Less than 5.6)",
+      "ବରାବର ୭",
+      "୧୪"
+    ],
+    "answer": "୫.୬ ରୁ କମ୍ (Less than 5.6)",
+    "explanation": "pH ୫.୬ ରୁ କମିଲେ ବର୍ଷା ଜଳ ଅମ୍ଳ ବର୍ଷା ଭାବେ ଗଣିତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the nature of the solution formed when carbon dioxide dissolves in water?",
+    "questionOdia": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଜଳରେ ଦ୍ରବୀଭୂତ ହେଲେ କେଉଁ ପ୍ରକୃତିର ଦ୍ରବଣ ଗଠନ କରେ?",
+    "options": [
+      "କ୍ଷାରୀୟ",
+      "ଅମ୍ଳୀୟ (Acidic)",
+      "ପ୍ରଶମିତ",
+      "ଉଦାସୀନ"
+    ],
+    "answer": "ଅମ୍ଳୀୟ (Acidic)",
+    "explanation": "CO2 ଜଳ ସହ ମିଶି କାର୍ବୋନିକ୍ ଏସିଡ୍ (H2CO3) ତିଆରି କରେ, ଯାହା ଏକ ଅମ୍ଳ ଅଟେ।"
+  },
+  {
+    "questionEnglish": "Which compound is represented as CaSO4 . 1/2 H2O?",
+    "questionOdia": "CaSO4 . 1/2 H2O ସୂତ୍ର ଦ୍ୱାରା କେଉଁ ଯୌଗିକକୁ ସୂଚାଯାଏ?",
+    "options": [
+      "ଜิପସମ୍",
+      "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ (Plaster of Paris)",
+      "ବ୍ଲିଚିଂ ପାଉଡର",
+      "ଧୋଇବା ସୋଡ଼ା"
+    ],
+    "answer": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ (Plaster of Paris)",
+    "explanation": "ଏହା ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ ର ରାସାୟନିକ ସୂତ୍ର ଅଟେ।"
+  },
+  {
+    "questionEnglish": "What is the pH of pure water?",
+    "questionOdia": "ବିଶୁଦ୍ଧ ଜଳର pH ମୂଲ୍ୟ କେତେ?",
+    "options": [
+      "0",
+      "7",
+      "14",
+      "5.6"
+    ],
+    "answer": "7",
+    "explanation": "ବିଶୁଦ୍ଧ ଜଳ ସମ୍ପୂର୍ଣ୍ଣ ପ୍ରଶମିତ ହୋଇଥିବାରୁ ଏହାର pH ମୂଲ୍ୟ ୭ ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the pH of sodium hydroxide solution (1M NaOH)?",
+    "questionOdia": "୧M ସୋଡିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍ ଦ୍ରବଣର pH ମୂଲ୍ୟ ପ୍ରାୟ କେତେ?",
+    "options": [
+      "0",
+      "7",
+      "14",
+      "2"
+    ],
+    "answer": "14",
+    "explanation": "NaOH ଏକ ଅତି ଶକ୍ତିଶାଳୀ କ୍ଷାର ହୋଇଥିବାରୁ ଏହାର pH ସର୍ବୋଚ୍ଚ ଅର୍ଥାତ୍ ୧୪ ପାଖାପାଖି ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the pH of gastric juice released in our stomach?",
+    "questionOdia": "ଆମ ପାକସ୍ଥଳୀରୁ ନିର୍ଗତ ହେଉଥିବା ପାଚକ ରସ (Gastric juice) ର pH ପ୍ରାୟ କେତେ?",
+    "options": [
+      "1.2",
+      "7.4",
+      "14",
+      "9.5"
+    ],
+    "answer": "1.2",
+    "explanation": "ପାକସ୍ଥଳୀର HCl ଅତି ଶକ୍ତିଶାଳୀ ହୋଇଥିବାରୁ ଏହାର pH ପ୍ରାୟ ୧.୨ ରୁ ୨ ମଧ୍ୟରେ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the pH of human blood?",
+    "questionOdia": "ମାନବ ରକ୍ତର pH ମୂଲ୍ୟ କେତେ?",
+    "options": [
+      "6.0",
+      "7.4",
+      "2.0",
+      "12.0"
+    ],
+    "answer": "7.4",
+    "explanation": "ମାନବ ରକ୍ତ ସାଧାରଣତଃ ମୃଦୁ କ୍ଷାରୀୟ ହୋଇଥାଏ ଏବଂ ଏହାର pH ପ୍ରାୟ ୭.୪ ଅଟେ।"
+  },
+  {
+    "questionEnglish": "What is the pH of milk of magnesia?",
+    "questionOdia": "ମିଲ୍କ ଅଫ୍ ମ୍ୟାଗ୍ନେସିଆ [Mg(OH)2] ର pH ମୂଲ୍ୟ କେତେ?",
+    "options": [
+      "5.5",
+      "7.0",
+      "10",
+      "1.2"
+    ],
+    "answer": "10",
+    "explanation": "ମିଲ୍କ ଅଫ୍ ମ୍ୟାଗ୍ନେସିଆ ଏକ ଆଣ୍ଟାସିଡ୍ କ୍ଷାରକ ଅଟେ, ଯାହାର pH ପ୍ରାୟ ୧୦ ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "What type of reaction is a neutralization reaction in terms of heat?",
+    "questionOdia": "ତାପ ଗ୍ରହଣ ବା ବର୍ଜନ ଦୃଷ୍ଟିରୁ ପ୍ରଶମନ ପ୍ରତିକ୍ରିୟା କେଉଁ ପ୍ରକାରର ପ୍ରକ୍ରିୟା?",
+    "options": [
+      "ତାପଶୋଷୀ",
+      "ତାପଉତ୍ପାଦୀ (Exothermic)",
+      "କୌଣସି ତାପ ପରିବର୍ତ୍ତନ ହୁଏନାହିଁ",
+      "ଆଲୋକ ଶୋଷୀ"
+    ],
+    "answer": "ତାପଉତ୍ପାଦୀ (Exothermic)",
+    "explanation": "ଅମ୍ଳ ଓ କ୍ଷାର ମଧ୍ୟରେ ପ୍ରଶମନ ପ୍ରତିକ୍ରିୟା ଘଟିଲେ ସର୍ବଦା କିଛି ମାତ୍ରାରେ ତାପ ଶକ୍ତି ଉତ୍ପନ୍ନ ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which of the following compounds is also known as quicklime?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କାହାକୁ କଲିଚୂନ (Quicklime) କୁହାଯାଏ?",
+    "options": [
+      "Ca(OH)2",
+      "CaCO3",
+      "CaO",
+      "CaCl2"
+    ],
+    "answer": "CaO",
+    "explanation": "କ୍ୟାଲସିୟମ୍ ଅକ୍ସାଇଡ୍ (CaO) କୁ କଲିଚୂନ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the chemical formula of limestone, chalk and marble?",
+    "questionOdia": "ଚୂନପଥର, ଚକ୍ ଗୁଣ୍ଡ ଏବଂ ମାର୍ବଲ୍ ର ସମାନ ରାସାୟନିକ ସୂତ୍ର କଣ?",
+    "options": [
+      "CaO",
+      "Ca(OH)2",
+      "CaCO3",
+      "CaSO4"
+    ],
+    "answer": "CaCO3",
+    "explanation": "ଏହି ସବୁ ପଦାର୍ଥ କ୍ୟାଲସିୟମ୍ କାର୍ବୋନେଟ୍ (CaCO3) ର ଭିନ୍ନ ଭିନ୍ନ ରୂପ ଅଟନ୍ତି।"
+  },
+  {
+    "questionEnglish": "Which gas is released when water is added to calcium oxide?",
+    "questionOdia": "କ୍ୟାଲସିୟମ୍ ଅକ୍ସାଇଡ୍ ରେ ଜଳ ମିଶାଇଲେ କେଉଁ ଗ୍ୟାସ୍ ବା ବାଷ୍ପ ବାହାରିଥାଏ?",
+    "options": [
+      "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+      "ଅମ୍ଳଜାନ",
+      "ଜଳୀୟ ବାଷ୍ପ ତାପ ଯୋଗୁଁ (Water vapor due to heat)",
+      "ହାଇଡ୍ରୋଜେନ୍"
+    ],
+    "answer": "ଜଳୀୟ ବାଷ୍ପ ତାପ ଯୋଗୁଁ (Water vapor due to heat)",
+    "explanation": "CaO ଏବଂ ଜଳର ପ୍ରତିକ୍ରିୟା ଏତେ ତାପଉତ୍ପାଦୀ ଯେ ଜଳ ଫୁଟି ବାଷ୍ପ ଆକାରରେ ବାହାରେ, କିନ୍ତୁ କୌଣସି ନୂଆ ଗ୍ୟାସ୍ ମୁକ୍ତ ହୁଏନାହିଁ।"
+  },
+  {
+    "questionEnglish": "What is the color of phenolphthalein in an acidic solution?",
+    "questionOdia": "ଅମ୍ଳୀୟ ଦ୍ରବଣରେ ଫେନଲପଥାଲିନ ସୂଚକର ରଙ୍ଗ କଣ ହୁଏ?",
+    "options": [
+      "ଗୋଲାପୀ",
+      "ରଙ୍ଗହୀନ (Colorless)",
+      "ନାଲି",
+      "ହଳଦିଆ"
+    ],
+    "answer": "ରଙ୍ଗହୀନ (Colorless)",
+    "explanation": "ଫେନଲପଥାଲିନ ଅମ୍ଳ ସଂସ୍ପର୍ଶରେ ଆସିଲେ କୌଣସି ରଙ୍ଗ ବଦଳାଏ ନାହିଁ, ଅର୍ଥାତ୍ ରଙ୍ଗହୀନ ରହେ।"
+  },
+  {
+    "questionEnglish": "What is the name of indicators that can detect acids/bases by shifting color?",
+    "questionOdia": "ରଙ୍ଗ ପରିବର୍ତ୍ତନ କରି ଅମ୍ଳ କିମ୍ବା କ୍ଷାର ଚିହ୍ନଟ କରୁଥିବା ପଦାର୍ଥକୁ ସାଧାରଣତଃ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ଘ୍ରାଣେନ୍ଦ୍ରୀୟ ସୂଚକ",
+      "ବର୍ଣ୍ଣସୂଚକ ବା ସୂଚକ (Indicators)",
+      "ଲବଣ",
+      "ଉଦ୍ଦୀପକ"
+    ],
+    "answer": "ବର୍ଣ୍ଣସୂଚକ ବା ସୂଚକ (Indicators)",
+    "explanation": "ଏଗୁଡ଼ିକୁ କେବଳ ରାସାୟନିକ ସୂଚକ ବା ଚିହ୍ନଟକାରୀ (Indicators) ବୋଲି କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What happens when an acid reacts with a metal oxide?",
+    "questionOdia": "ଅମ୍ଳ ଗୋଟିଏ ଧାତବ ଅକ୍ସାଇଡ୍ ସହ ପ୍ରତିକ୍ରିୟା କଲେ କଣ ଉତ୍ପନ୍ନ ହୁଏ?",
+    "options": [
+      "ଲବଣ ଏବଂ ହାଇଡ୍ରୋଜେନ୍",
+      "ଲବଣ ଏବଂ ଜଳ (Salt and water)",
+      "କେବଳ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+      "ପ୍ରତିକ୍ରିୟା ହୁଏନାହିଁ"
+    ],
+    "answer": "ଲବଣ ଏବଂ ଜଳ (Salt and water)",
+    "explanation": "ଧାତବ ଅକ୍ସାଇଡ୍ ଗୁଡ଼ିକ କ୍ଷାରୀୟ ହୋଇଥିବାରୁ ଏହା ଅମ୍ଳ ସହ ମିଶି ପ୍ରଶମନ ପ୍ରତିକ୍ରିୟା ଭଳି ଲବଣ ଓ ଜଳ ଦିଅନ୍ତି।"
+  },
+  {
+    "questionEnglish": "What is the name of the salt obtained by the reaction of copper oxide and hydrochloric acid?",
+    "questionOdia": "କପର୍ ଅକ୍ସାଇଡ୍ ଏବଂ ହାଇଡ୍ରୋକ୍ଲୋରିକ୍ ଏସିଡ୍ ର ପ୍ରତିକ୍ରିୟାରୁ ମିଳୁଥିବା ନୀଳ-ସବୁଜ ରଙ୍ଗର ଲବଣର ନାମ କଣ?",
+    "options": [
+      "କପର୍ ସଲଫେଟ୍",
+      "କପର୍ କ୍ଲୋରାଇଡ୍ (CuCl2)",
+      "କପର୍ କାର୍ବୋନେଟ୍",
+      "କପର୍ ହାଇଡ୍ରକ୍ସାଇଡ୍"
+    ],
+    "answer": "କପର୍ କ୍ଲୋରାଇଡ୍ (CuCl2)",
+    "explanation": "CuO + 2HCl -> CuCl2 + H2O ପ୍ରତିକ୍ରିୟା ଯୋଗୁଁ ନୀଳ-ସବୁଜ ରଙ୍ଗର କପର୍ କ୍ଲୋରାଇଡ୍ ଲବଣ ସୃଷ୍ଟି ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Which compound is formed when calcium hydroxide reacts with carbon dioxide?",
+    "questionOdia": "K୍ୟାଲସିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍ (କ୍ଷାର) ଏବଂ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ (ଅଧାତବ ଅକ୍ସାଇଡ୍) ମଧ୍ୟରେ ପ୍ରତିକ୍ରିୟା ହେଲେ କଣ ମିଳେ?",
+    "options": [
+      "କ୍ୟାଲସିୟମ୍ କାର୍ବୋନେଟ୍ ଏବଂ ଜଳ",
+      "କ୍ୟାଲସିୟମ୍ ଅକ୍ସାଇଡ୍",
+      "କ୍ୟାଲସିୟମ୍ କ୍ଲୋରାଇଡ୍",
+      "ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍"
+    ],
+    "answer": "କ୍ୟାଲସିୟମ୍ କାର୍ବୋନେଟ୍ ଏବଂ ଜଳ",
+    "explanation": "ଏଥିରୁ କ୍ୟାଲସିୟମ୍ କାର୍ବୋନେଟ୍ (CaCO3) ର ଅବକ୍ଷେପ ଏବଂ ଜଳ ସୃଷ୍ଟି ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "Why do distilled water not conduct electricity whereas rain water does?",
+    "questionOdia": "ପରିଶ୍ରୁତ ବା ବିଶୁଦ୍ଧ ଜଳ (Distilled water) ବିଦ୍ୟୁତ ପରିବହନ କରେନାହିଁ କିନ୍ତୁ ବର୍ଷା ଜଳ କାହିଁକି କରେ?",
+    "options": [
+      "ବର୍ଷା ଜଳ ଗରମ ଥାଏ",
+      "ବର୍ଷା ଜଳରେ ଅମ୍ଳ ଏବଂ ଅନ୍ୟାନ୍ୟ ଦ୍ରବୀଭୂତ ଆୟନ ଥାଏ",
+      "ବିଶୁଦ୍ଧ ଜଳରେ ଅଧିକ ଆୟନ ଥାଏ",
+      "କୌଣସି କାରଣ ନାହିଁ"
+    ],
+    "answer": "ବର୍ଷା ଜଳରେ ଅମ୍ଳ ଏବଂ ଅନ୍ୟାନ୍ୟ ଦ୍ରବୀଭୂତ ଆୟନ ଥାଏ",
+    "explanation": "ବର୍ଷା ଜଳରେ ବାୟୁମଣ୍ଡଳରୁ CO2, SO2 ଆଦି ଗ୍ୟାସ୍ ମିଶି ଆୟନ ତିଆରି କରନ୍ତି, ଯାହା ବିଦ୍ୟୁତ ପରିବହନରେ ସାହାଯ୍ୟ କରେ।"
+  },
+  {
+    "questionEnglish": "What does pH stand for, where 'p' comes from a German word potenz?",
+    "questionOdia": "pH ରେ 'p' ଅକ୍ଷରଟି ଏକ ଜର୍ମାନ ଶବ୍ଦ 'potenz' ରୁ ଆସିଛି, ଏହାର ଅର୍ଥ କଣ?",
+    "options": [
+      "ଶକ୍ତି ବା କ୍ଷମତା (Power)",
+      "ପ୍ରତିଶତ (Percentage)",
+      "ପ୍ରେସର (Pressure)",
+      "ପାଦଦେଶ"
+    ],
+    "answer": "ଶକ୍ତି ବା କ୍ଷମତା (Power)",
+    "explanation": "Potenz ର ଅର୍ଥ ହେଉଛି Power ବା ଶକ୍ତି (ଏଠାରେ ହାଇଡ୍ରୋଜେନ୍ ଆୟନର ଶକ୍ତି)।"
+  },
+  {
+    "questionEnglish": "If a solution's pH changes from 7 to 4, what happens to its hydrogen ion concentration?",
+    "questionOdia": "ଯଦି ଏକ ଦ୍ରବଣର pH ମୂଲ୍ୟ ୭ ରୁ କମି ୪ ହୋଇଯାଏ, ତେବେ ହାଇଡ୍ରୋଜେନ୍ ଆୟନର ଗାଢ଼ତା ଉପରେ କି ପ୍ରଭାବ ପଡ଼େ?",
+    "options": [
+      "ହ୍ରାସ ପାଏ",
+      "ବୃଦ୍ଧି ପାଏ (Increases)",
+      "ସମାନ ରହେ",
+      "ଶୂନ୍ୟ ହୋଇଯାଏ"
+    ],
+    "answer": "ବୃଦ୍ଧି ପାଏ (Increases)",
+    "explanation": "pH ମୂଲ୍ୟ ଯେତେ କମିବ, H+ ଆୟନର ଗାଢ଼ତା ସେତେ ଗୁଣ ବୃଦ୍ଧି ପାଇବ (ଅମ୍ଳୀୟତା ବଢ଼ିବ)।"
+  },
+  {
+    "questionEnglish": "Which plant's flowers can be used as a natural indicator to detect acids/bases because they change color?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଉଦ୍ଭିଦର ଫୁଲକୁ ଅମ୍ଳ-କ୍ଷାର ସୂଚକ ଭାବେ ବ୍ୟବହାର କରାଯାଇପାରିବ?",
+    "options": [
+      "ହାଇଡ୍ରାଞ୍ଜିଆ (Hydrangea)",
+      "ପେଟୁନିଆ (Petunia)",
+      "ଜେରାନିୟମ୍ (Geranium)",
+      "ଉପରୋକ୍ତ ସମସ୍ତ (All of the above)"
+    ],
+    "answer": "ଉପରୋକ୍ତ ସମସ୍ତ (All of the above)",
+    "explanation": "ହାଇଡ୍ରାଞ୍ଜିଆ, ପେଟୁନିଆ ଏବଂ ଜେରାନିୟମ୍ ଭଳି ଅନେକ ଫୁଲର ପାଖୁଡ଼ା ପ୍ରାକୃତିକ ସୂଚକ ଭାବେ କାମ କରନ୍ତି।"
+  },
+  {
+    "questionEnglish": "What is the common name of Sodium Hydrogen Carbonate?",
+    "questionOdia": "ସୋଡିୟମ୍ ହାଇଡ୍ରୋଜେନ୍ କାର୍ବୋନେଟ୍ ର ସାଧାରଣ ବ୍ୟବସାୟିକ ନାମ କଣ?",
+    "options": [
+      "ଧୋଇବା ସୋଡ଼ା",
+      "ଖାଇବା ସୋଡ଼ା ବା ବେକିଂ ସୋଡ଼ա (Baking Soda)",
+      "କାଷ୍ଟିକ ସୋଡା",
+      "ବ୍ଲିଚିଂ ପାଉଡର"
+    ],
+    "answer": "ଖାଇବା ସୋଡ଼ା ବା ବେକିଂ ସୋଡ଼ା (Baking Soda)",
+    "explanation": "NaHCO3 କୁ ସାଧାରଣତଃ ବେକିଂ ସୋଡ଼ା ବୋଲି କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What compound is produced during the Solvay process along with ammonium chloride to make baking soda?",
+    "questionOdia": "ବେକିଂ ସୋଡ଼ା ପ୍ରସ୍ତୁତି ସମୟରେ ଅନ୍ୟ କେଉଁ ମୁଖ୍ୟ ଉତ୍ପାଦ ମିଳିଥାଏ?",
+    "options": [
+      "ସୋଡିୟମ୍ ହାଇଡ୍ରୋଜେନ୍ କାର୍ବୋନେଟ୍ (NaHCO3)",
+      "ସୋଡିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍",
+      "କ୍ୟାଲସିୟମ୍ କ୍ଲୋରାଇଡ୍",
+      "ସଲଫ୍ୟୁରିକ୍ ଏସିଡ୍"
+    ],
+    "answer": "ସୋଡିୟମ୍ ହାଇଡ୍ରୋଜେନ୍ କାର୍ବୋନେଟ୍ (NaHCO3)",
+    "explanation": "ସୋଲଭେ ପ୍ରକ୍ରିୟାରେ ଆମୋନିୟମ୍ କ୍ଲୋରାଇଡ୍ ସହ NaHCO3 ପ୍ରସ୍ତୁତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What happens when sodium hydrogen carbonate is heated during cooking?",
+    "questionOdia": "ରୋଷେଇ ସମୟରେ ଖାଇବା ସୋଡ଼ା (NaHCO3) କୁ ଗରମ କଲେ ତାହା କେଉଁ ଯୌଗିକରେ ପରିଣତ ହୁଏ?",
+    "options": [
+      "ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍, ଜଳ ଏବଂ CO2",
+      "ସୋଡିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍",
+      "କେବଳ ଅମ୍ଳଜାନ ଗ୍ୟାସ୍",
+      "କୌଣସି ପରିବର୍ତ୍ତନ ହୁଏନାହିଁ"
+    ],
+    "answer": "ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍, ଜଳ ଏବଂ CO2",
+    "explanation": "NaHCO3 ଗରମ ହୋଇ ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍ (Na2CO3), ଜଳୀୟ ବାଷ୍ପ ଏବଂ CO2 ଗ୍ୟାସ୍ ସୃଷ୍ଟି କରେ।"
+  },
+  {
+    "questionEnglish": "What is the compound called that contains 10 water molecules as water of crystallization?",
+    "questionOdia": "୧୦ ଅଣୁ ସ୍ଫଟିକ ଜଳ ଥିବା ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍ ଲବଣକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ବେକିଂ ସୋଡ଼ା",
+      "ଧୋଇବା ସୋଡ଼ା (Washing Soda)",
+      "ଜିପସମ୍",
+      "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍"
+    ],
+    "answer": "ଧୋଇବା ସୋଡ଼ା (Washing Soda)",
+    "explanation": "Na2CO3 . 10H2O କୁ ଧୋଇବା ସୋଡ଼ା ବୋଲି କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the chemical name of the compound used to manufacture Borax?",
+    "questionOdia": "ସୋଡିୟମ୍ ର ଗୁରୁତ୍ଵପୂର୍ଣ୍ଣ ଯୌଗିକ 'ବୋରାକ୍ସ' (Borax) ପ୍ରସ୍ତୁତିରେ କିଏ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": [
+      "ସୋଡିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍",
+      "ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍ / ଧୋଇବା ସୋଡ଼ା",
+      "ଖାଇବା ସୋଡ଼ା",
+      "ବ୍ଲିଚିଂ ପାଉଡର"
+    ],
+    "answer": "ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍ / ଧୋଇବା ସୋଡ଼ା",
+    "explanation": "ୱାଶିଂ ସୋଡ଼ା ବା ସୋଡିୟମ୍ କାର୍ବୋନେଟ୍ କୁ ବୋରାକ୍ସ ଶିଳ୍ପରେ ବ୍ୟବହାର କରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What color is the chemical compound Barium Sulphate precipitate?",
+    "questionOdia": "ବାରିୟମ୍ ସଲଫେଟ୍ (BaSO4) ଅବକ୍ଷେପର ରଙ୍ଗ କଣ?",
+    "options": [
+      "ଧଳା (White)",
+      "ହଳଦିଆ",
+      "ସବୁଜ",
+      "ନାଲି"
+    ],
+    "answer": "ଧଳା (White)",
+    "explanation": "ବାରିୟମ୍ ସଲଫେଟ୍ ଏକ ଧଳା ରଙ୍ଗର ଅଦ୍ରବଣୀୟ ଅବକ୍ଷେପ ଅଟେ।"
+  },
+  {
+    "questionEnglish": "How many formulas units of water are shared in Plaster of Paris per calcium ion practically?",
+    "questionOdia": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ ର ସୂତ୍ରରେ କାହିଁକି ଅଧ ଅଣୁ (1/2) ଜଳ ଲେଖାଯାଏ?",
+    "options": [
+      "ଜଳ ଅଣୁ ଅଧା ହୋଇପାରେ",
+      "ଦୁଇଟି କ୍ୟାଲସିୟମ୍ ଆୟନ ଗୋଟିଏ ଜଳ ଅଣୁକୁ ଭାଗ କରନ୍ତି",
+      "ଏହା ଏକ ଭୁଲ୍ ସୂତ୍ର ଅଟେ",
+      "କୌଣସି କାରଣ ନାହିଁ"
+    ],
+    "answer": "ଦୁଇଟି କ୍ୟାଲସିୟମ୍ ଆୟନ ଗୋଟିଏ ଜଳ ଅଣୁକୁ ଭାଗ କରନ୍ତି",
+    "explanation": "ବାସ୍ତବରେ ଦୁଇଟି CaSO4 ୟୁନିଟ୍ ଗୋଟିଏ H2O ଅଣୁ ସହ ସଂଯୁକ୍ତ ଥାନ୍ତି, ତେଣୁ ଏକକ ପ୍ରତି 1/2 H2O ଲେଖାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which gas is produced when an acid reacts with metal hydrogen carbonates?",
+    "questionOdia": "ଧାତବ ହାଇଡ୍ରୋଜେନ କାର୍ବୋନେଟ୍ ସହ ଅମ୍ଳର ପ୍ରତିକ୍ରିୟାରେ କେଉଁ ଗ୍ୟାସ୍ ବାହାରିଥାଏ?",
+    "options": [
+      "ହାଇଡ୍ରୋଜେନ୍",
+      "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ (CO2)",
+      "କ୍ଲୋରିନ୍",
+      "ଅମ୍ଳଜାନ"
+    ],
+    "answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ (CO2)",
+    "explanation": "ଏଥିରୁ ସର୍ବଦା କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଗ୍ୟାସ୍ ହିଁ ଉତ୍ପନ୍ନ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What happens when open air is exposed to washing soda crystals?",
+    "questionOdia": "ଧୋଇବା ସୋଡ଼ା ସ୍ଫଟିକକୁ ବାୟୁରେ ଖୋଲା ଛାଡ଼ିଦେଲେ କଣ ହୁଏ?",
+    "options": [
+      "ଏହା ଜଳ ଶୋଷଣ କରେ",
+      "ଏହା ଜଳ ଅଣୁ ହରାଇ ଗୁଣ୍ଡ ହୋଇଯାଏ (Efflorescence)",
+      "ଏହା ତରଳିଯାଏ",
+      "କୌଣସି ପରିବର୍ତ୍ତନ ହୁଏନାହିଁ"
+    ],
+    "answer": "ଏହା ଜଳ ଅଣୁ ହରାଇ ଗୁଣ୍ଡ ହୋଇଯାଏ (Efflorescence)",
+    "explanation": "ଖୋଲା ବାୟୁରେ ରଖିଲେ ୱାଶିଂ ସୋଡ଼ା ଧୀରେ ଧୀରେ ୯ଟି ଜଳ ଅଣୁ ହରାଇ ମୋନୋହାଇଡ୍ରେଟ୍ ରେ ପରିଣତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Which of the following elements is present in all alkalis?",
+    "questionOdia": "ସମସ୍ତ ଆଲକାଲି ବା କ୍ଷାରରେ କେଉଁ ସମାନ ଗ୍ରୁପ୍ ବା ଆୟନ ଥାଏ?",
+    "options": [
+      "ହାଇଡ୍ରୋଜେନ୍ ଆୟନ",
+      "ହାଇଡ୍ରକ୍ସାଇଡ୍ ଆୟନ (OH-)",
+      "କ୍ଲୋରାଇଡ୍ ଆୟନ",
+      "କାର୍ବନ ଆଟମ୍"
+    ],
+    "answer": "ହାଇଡ୍ରକ୍ସାଇଡ୍ ଆୟନ (OH-)",
+    "explanation": "ସମସ୍ତ କ୍ଷାର ବା ଆଲକାଲିରେ ମୁକ୍ତ ହାଇଡ୍ରକ୍ସାଇଡ୍ ଆୟନ (OH-) ନିଶ୍ଚିତ ଭାବେ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the pH of a strong acid like concentrated Sulphuric acid?",
+    "questionOdia": "ଗାଢ଼ ସଲଫ୍ୟୁରିକ୍ ଏସିଡ୍ ଭଳି ଅତି ଶକ୍ତିଶାଳୀ ଅମ୍ଳର pH ମୂଲ୍ୟ କେତେ ପାଖାପାଖି ହୋଇଥାଏ?",
+    "options": [
+      "0 ରୁ 1 ମଧ୍ୟରେ (Close to 0)",
+      "7",
+      "14",
+      "8.5"
+    ],
+    "answer": "0 ରୁ 1 ମଧ୍ୟରେ (Close to 0)",
+    "explanation": "ଅମ୍ଳ ଯେତେ ଗାଢ଼ ଓ ଶକ୍ତିଶାଳୀ ହେବ, ଏହାର pH ଶୂନ୍ୟ (0) ର ସେତେ ନିକଟତର ହେବ।"
+  },
+  {
+    "questionEnglish": "What are indicators like onion and vanilla called?",
+    "questionOdia": "ପିଆଜ ଏବଂ ବେନିଲା ଭଳି ସୂଚକଗୁଡ଼ିକୁ କେଉଁ ଶ୍ରେଣୀଭୁକ୍ତ କରାଯାଏ?",
+    "options": [
+      "ପ୍ରାକୃତିକ ରଙ୍ଗ ସୂଚକ",
+      "ଘ୍ରାଣେନ୍ଦ୍ରୀୟ ସୂଚକ (Olfactory indicators)",
+      "କୃତ୍ରିମ ସୂଚକ",
+      "ସର୍ବଜନୀନ ସୂଚକ"
+    ],
+    "answer": "ଘ୍ରାଣେନ୍ଦ୍ରୀୟ ସୂଚକ (Olfactory indicators)",
+    "explanation": "ଏଗୁଡ଼ିକ ଗନ୍ଧ ଦ୍ୱାରା ଅମ୍ଳ ବା କ୍ଷାର ସୂଚାଉଥିବାରୁ ଘ୍ରାଣେନ୍ଦ୍ରୀୟ ସୂଚକ ଅଟନ୍ତି।"
+  },
+  {
+    "questionEnglish": "Which compound is formed when nettle leaf sting releases methanoic acid into skin?",
+    "questionOdia": "ବିଛୁଆତି କାମୁଡ଼ିଲେ ଶରୀରରେ ଯେଉଁ ଅମ୍ଳ ପ୍ରବେଶ କରେ ତା'ର ଅନ୍ୟ ନାମ କଣ?",
+    "options": [
+      "ଫର୍ମିକ୍ ଏସିଡ୍ (Formic acid)",
+      "ଏସିଟିକ୍ ଏସିଡ୍",
+      "ସାଇଟ୍ରିକ୍ ଏସିଡ୍",
+      "ନାଇଟ୍ରିକ୍ ଏସିଡ୍"
+    ],
+    "answer": "ଫର୍ମିକ୍ ଏସିଡ୍ (Formic acid)",
+    "explanation": "ମେଥାନୋଇକ୍ ଏସିଡ୍ କୁ ହିଁ ସାଧାରଣ ଭାବେ ଫର୍ମିକ୍ ଏସିଡ୍ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What happens to the blue litmus paper when dipped in water containing dissolved carbon dioxide?",
+    "questionOdia": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଦ୍ରବୀଭୂତ ହୋଇଥିବା ଜଳରେ ନୀଳ ଲିଟମସ କାଗଜ ବୁଡ଼ାଇଲେ କଣ ହେବ?",
+    "options": [
+      "ଏହା ନୀଳ ହିଁ ରହିବ",
+      "ଏହା ନାଲି ହୋଇଯିବ (Turns Red)",
+      "ଏହା ସବୁଜ ହୋଇଯିବ",
+      "ଏହା କଳା ହୋଇଯିବ"
+    ],
+    "answer": "ଏହା ନାଲି ହୋଇଯିବ (Turns Red)",
+    "explanation": "CO2 ଜଳରେ ମିଶି ଅମ୍ଳୀୟ ଦ୍ରବଣ ତିଆରି କରୁଥିବାରୁ ଏହା ନୀଳ ଲିଟମସକୁ ନାଲି କରିଦିଏ।"
+  },
+  {
+    "questionEnglish": "Which salt is used in making toys and decorative items?",
+    "questionOdia": "ଖେଳନା, ମୂର୍ତ୍ତି ଏବଂ ସଜାବଟ ସାମଗ୍ରୀ ତିଆରି କରିବାରେ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କିଏ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": [
+      "ବ୍ଲିଚିଂ ପାଉଡର",
+      "ଖାଇବା ସୋଡ଼ା",
+      "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ (Plaster of Paris)",
+      "ଧୋଇବା ସୋଡ଼ା"
+    ],
+    "answer": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ (Plaster of Paris)",
+    "explanation": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ (POP) କୁ ଛାଞ୍ଚ ସାହାଯ୍ୟରେ ସୁନ୍ଦର ଖେଳନା ଓ ସିଲିଂ ଡିଜାଇନ୍ ତିଆରିରେ ବ୍ୟବହାର କରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the number of water molecules in washing soda?",
+    "questionOdia": "ଧୋଇବା ସୋଡ଼ାରେ ଥିବା ସ୍ଫଟିକ ଜଳ ଅଣୁର ସଂଖ୍ୟା କେତେ?",
+    "options": [
+      "1",
+      "5",
+      "7",
+      "10"
+    ],
+    "answer": "10",
+    "explanation": "ଧୋଇବା ସୋଡ଼ାରେ ୧୦ଟି ସ୍ଫଟିକ ଜଳ ଅଣୁ (10H2O) ଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the number of water molecules in Gypsum?",
+    "questionOdia": "ଜିପସମ୍ ରେ ଥିବା ସ୍ଫଟିକ ଜଳ ଅଣୁର ସଂଖ୍ୟା କେତେ?",
+    "options": [
+      "2",
+      "1/2",
+      "5",
+      "10"
+    ],
+    "answer": "2",
+    "explanation": "ଜିପସମ୍ ର ଗୋଟିଏ ସୂତ୍ର ଏକକରେ ୨ଟି ସ୍ଫଟିକ ଜଳ ଅଣୁ (2H2O) ଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the number of water molecules in Plaster of Paris formula unit?",
+    "questionOdia": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍ ସୂତ୍ର ଏକକରେ କେତେ ସ୍ଫଟିକ ଜଳ ଅଣୁ ଥାଏ?",
+    "options": [
+      "2",
+      "1/2 (Half)",
+      "5",
+      "10"
+    ],
+    "answer": "1/2 (Half)",
+    "explanation": "POP ର ସୂତ୍ରରେ ଅଧା ଅଣୁ ଜଳ (1/2 H2O) ଲେଖାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the number of water molecules in Copper Sulphate crystals?",
+    "questionOdia": "କପର୍ ସଲଫେଟ୍ ସ୍ଫଟିକରେ କେତେ ଅଣୁ ସ୍ଫଟିକ ଜଳ ରହିଥାଏ?",
+    "options": [
+      "2",
+      "5",
+      "7",
+      "10"
+    ],
+    "answer": "5",
+    "explanation": "ନୀଳ କପର୍ ସଲଫେଟ୍ ସ୍ଫଟିକରେ ୫ଟି ଜଳ ଅଣୁ (5H2O) ଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which acid is present in ant sting?",
+    "questionOdia": "ନାଲି ପିମ୍ପୁଡ଼ି କାମୁଡ଼ିଲେ କେଉଁ ଅମ୍ଳ ନିର୍ଗତ ହୁଏ?",
+    "options": [
+      "ମେଥାନୋଇକ୍ ଏସିଡ୍ (Methanoic acid)",
+      "ଏସିଟିକ୍ ଏସିଡ୍",
+      "ଲାକ୍ଟିକ ଏସିଡ୍",
+      "ଅକ୍ସାଲିକ୍ ଏସିଡ୍"
+    ],
+    "answer": "ମେଥାନୋଇକ୍ ଏସିଡ୍ (Methanoic acid)",
+    "explanation": "ପିମ୍ପୁଡ଼ି ବିନ୍ଧିଲେ ପୋଡ଼ାଜଳା ହେବାର କାରଣ ହେଉଛି ମେଥାନୋଇକ୍ ବା ଫର୍ମିକ୍ ଏସିଡ୍।"
+  },
+  {
+    "questionEnglish": "What happens when an acid reacts with a metal carbonate?",
+    "questionOdia": "ଅମ୍ଳ ଏକ ଧାତବ କାର୍ବୋନେଟ୍ ସହ ପ୍ରତିକ୍ରିୟା କଲେ କଣ ସୃଷ୍ଟି ହୁଏ?",
+    "options": [
+      "ଲବଣ, ଜଳ ଏବଂ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+      "କେବଳ ହାଇଡ୍ରୋଜେନ୍",
+      "କେବଳ କ୍ଷାରକ",
+      "କୌଣସି ପ୍ରତିକ୍ରିୟା ହୁଏନାହିଁ"
+    ],
+    "answer": "ଲବଣ, ଜଳ ଏବଂ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+    "explanation": "ଧାତବ କାର୍ବୋନେଟ୍ ଏସିଡ୍ ସହ ମିଶି ଲବଣ, ଜଳ ଏବଂ CO2 ଗ୍ୟାସ୍ ଉତ୍ପନ୍ନ କରନ୍ତି।"
+  },
+  {
+    "questionEnglish": "Which indicator gives a yellow color in a basic solution?",
+    "questionOdia": "କେଉଁ ସୂଚକଟି କ୍ଷାରୀୟ ଦ୍ରବଣରେ ହଳଦିଆ ରଙ୍ଗ ପ୍ରଦର୍ଶନ କରେ?",
+    "options": [
+      "ମିଥାଇଲ୍ ଅରେଞ୍ଜ (Methyl orange)",
+      "ଫେନଲପଥାଲିନ",
+      "ନୀଳ ଲିଟମସ",
+      "କୌଣସିଟି ନୁହେଁ"
+    ],
+    "answer": "ମିଥାଇଲ୍ ଅରେଞ୍ଜ (Methyl orange)",
+    "explanation": "ମିଥାଇଲ୍ ଅରେଞ୍ଜ ଅମ୍ଳରେ ନାଲି ଏବଂ କ୍ଷାରରେ ହଳଦିଆ ରଙ୍ଗ ଦିଏ।"
+  },
+  {
+    "questionEnglish": "What type of paper or solution is used to find the exact pH value of a solution?",
+    "questionOdia": "ଦ୍ରବଣର ସଠିକ୍ pH ମୂଲ୍ୟ ଜାଣିବା ପାଇଁ କାହାକୁ ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "ସାଧାରଣ ଲିଟମସ କାଗଜ",
+      "ସର୍ବଜନୀନ ସୂଚକ କାଗଜ (Universal indicator paper)",
+      "ହଳଦୀ କାଗଜ",
+      "ଫେନଲପଥାଲିନ"
+    ],
+    "answer": "ସର୍ବଜନୀନ ସୂଚକ କାଗଜ (Universal indicator paper)",
+    "explanation": "ସର୍ବଜନୀନ ସୂଚକ ବିଭିନ୍ନ pH ରେ ଭିନ୍ନ ଭିନ୍ନ ରଙ୍ଗ ଦେଉଥିବାରୁ ଏହା ଦ୍ୱାରା pH ର ସଠିକ୍ ମାପ ମିଳେ।"
+  },
+  {
+    "questionEnglish": "What is the nature of the solution if its pH is 2?",
+    "questionOdia": "ଯଦି ଏକ ଦ୍ରବଣର pH ମୂଲ୍ୟ ୨ ହୋଇଥାଏ, ତେବେ ତାହା କେଉଁ ପ୍ରକାରର ଦ୍ରବଣ?",
+    "options": [
+      "ଦୁର୍ବଳ ଅମ୍ଳ",
+      "ଶକ୍ତିଶାଳୀ ଅମ୍ଳ (Strongly acidic)",
+      "ପ୍ରଶମିତ",
+      "K୍ଷାରୀୟ"
+    ],
+    "answer": "ଶକ୍ତିଶାଳୀ ଅମ୍ଳ (Strongly acidic)",
+    "explanation": "pH ୭ ରୁ ଯେତେ କମ୍ ହେବ (ଯେପରି ୧ ବା ୨), ଅମ୍ଳ ସେତେ ଶକ୍ତିଶାଳୀ ବୋଲି ଧରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the nature of the solution if its pH is 13?",
+    "questionOdia": "ଯଦି ଏକ ଦ୍ରବଣର pH ମୂଲ୍ୟ ୧୩ ହୋଇଥାଏ, ତେବେ ତାହା କେଉଁ ପ୍ରକାରର ଦ୍ରବଣ?",
+    "options": [
+      "ଅମ୍ଳୀୟ",
+      "ପ୍ରଶମିତ",
+      "ଦୁର୍ବଳ କ୍ଷାରକ",
+      "ଶକ୍ତିଶାଳୀ କ୍ଷାରକ (Strongly basic)"
+    ],
+    "answer": "ଶକ୍ତିଶାଳୀ କ୍ଷାରକ (Strongly basic)",
+    "explanation": "pH ୧୪ ର ଯେତେ ନିକଟତର ହେବ (ଯେପରି ୧୩ ବା ୧୪), କ୍ଷାରକ ସେତେ ଶକ୍ତିଶାଳୀ ହେବ।"
+  },
+  {
+    "questionEnglish": "Which acid is commonly known as Vitriol oil?",
+    "questionOdia": "କେଉଁ ଅମ୍ଳକୁ ସାଧାରଣତଃ 'କେମିକାଲ୍ ର ରାଜା' ବା 'Oil of Vitriol' କୁହାଯାଏ?",
+    "options": [
+      "Hydrochloric acid",
+      "Sulphuric acid (H2SO4)",
+      "Nitric acid",
+      "Acetic acid"
+    ],
+    "answer": "Sulphuric acid (H2SO4)",
+    "explanation": "ସଲଫ୍ୟୁରିକ୍ ଏସିଡ୍ (H2SO4) କୁ ଐତିହାସିକ ଭାବେ Oil of Vitriol କୁହାଯାଉଥିଲା।"
+  },
+  {
+    "questionEnglish": "What is formed when an acid reacts with a metal?",
+    "questionOdia": "ଅମ୍ଳ ଏକ ଧାତୁ ସହ ପ୍ରତିକ୍ରିୟା କଲେ କଣ ଉତ୍ପନ୍ନ ହୁଏ?",
+    "options": [
+      "ଲବଣ ଏବଂ ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍ (Salt and hydrogen gas)",
+      "କ୍ଷାରକ ଏବଂ ଜଳ",
+      "କେବଳ ଅମ୍ଳଜାନ ଗ୍ୟାସ୍",
+      "କୌଣସି ପରିବର୍ତ୍ତନ ହୁଏନାହିଁ"
+    ],
+    "answer": "ଲବଣ ଏବଂ ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍ (Salt and hydrogen gas)",
+    "explanation": "ଧାତୁ, ଅମ୍ଳରୁ ହାଇଡ୍ରୋଜେନ୍ କୁ ବିସ୍ଥାପିତ କରି ଲବଣ ଓ H2 ଗ୍ୟାସ୍ ଗଠନ କରେ।"
   }
 ]
