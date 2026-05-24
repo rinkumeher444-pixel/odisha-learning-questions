@@ -1,122 +1,482 @@
 [
-  {
-    "questionEnglish": "What is the main excretory organ in the human body?",
-    "questionOdia": "ମାନବ ଶରୀରର ମୁଖ୍ୟ ରେଚନ ଅଙ୍ଗ (Excretory Organ) କଣ?",
-    "options": [
-      "Kidney",
-      "Liver",
-      "Lungs",
-      "Skin"
-    ],
-    "answer": "Kidney",
-    "explanation": "The kidneys (ବୃକ୍କ) are the primary excretory organs in humans responsible for filtering blood and removing nitrogenous waste products in the form of urine."
-  },
-  {
-    "questionEnglish": "What is the structural and functional unit of a kidney called?",
-    "questionOdia": "ବୃକ୍କର ଗଠନମୂଳକ ଓ କ୍ରିୟାତ୍ମକ ଏକକକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Nephron",
-      "Neuron",
-      "Alveoli",
-      "Villi"
-    ],
-    "answer": "Nephron",
-    "explanation": "Each kidney contains millions of microscopic filtering structures called Nephrons (ବୃକ୍କକ) that actively clean the blood and form urine."
-  },
-  {
-    "questionEnglish": "The cup-shaped structure at the upper end of a nephron is known as?",
-    "questionOdia": "ବୃକ୍କକ ବା ନେଫ୍ରନ୍‌ର ଉପର ଭାଗରେ ଥିବା କପ୍ ସଦୃଶ ଗଠନକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Bowman's capsule",
-      "Glomerulus",
-      "Henle's loop",
-      "Ureter"
-    ],
-    "answer": "Bowman's capsule",
-    "explanation": "Bowman's capsule (ବୋମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍) is a double-walled cup that encloses a cluster of blood capillaries called the glomerulus."
-  },
-  {
-    "questionEnglish": "Which nitrogenous waste product is primarily excreted by humans in urine?",
-    "questionOdia": "ମାନବ ମୂତ୍ରରେ ମୁଖ୍ୟତଃ କେଉଁ ଯବକ୍ଷାରଜାନ ଜାତୀୟ ବର୍ଜ୍ୟବସ୍ତୁ ନିର୍ଗତ ହୋଇଥାଏ?",
-    "options": [
-      "Urea",
-      "Ammonia",
-      "Uric acid",
-      "Amino acid"
-    ],
-    "answer": "Urea",
-    "explanation": "The human liver converts highly toxic ammonia into less toxic Urea (ୟୁରିଆ), which is then transported through the blood and filtered out by the kidneys."
-  },
-  {
-    "questionEnglish": "What is the cluster of capillaries located inside the Bowman's capsule called?",
-    "questionOdia": "ବୋମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍ ମଧ୍ୟରେ ଥିବା ରକ୍ତ କୈଶିକ ନଳୀର ଗୁଚ୍ଛକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Glomerulus",
-      "Loop of Henle",
-      "Collecting duct",
-      "Renal artery"
-    ],
-    "answer": "Glomerulus",
-    "explanation": "The Glomerulus (ଗ୍ଲୋମେରୁଲସ୍) acts as a high-pressure microscopic sieve where the initial ultrafiltration of blood plasma takes place."
-  },
-  {
-    "questionEnglish": "Through which muscular tubes does urine travel from the kidneys to the urinary bladder?",
-    "questionOdia": "ମୂତ୍ର ବୃକ୍କରୁ ବାହାରି କେଉଁ ନଳୀ ମାଧ୍ୟମରେ ମୂତ୍ରାଶୟକୁ ଗତି କରିଥାଏ?",
-    "options": [
-      "Ureters",
-      "Urethra",
-      "Renal veins",
-      "Capillaries"
-    ],
-    "answer": "Ureters",
-    "explanation": "Ureters (ଗବିନୀ ମୂତ୍ରନଳୀ) are two thin tubes that connect each kidney to the urinary bladder, moving urine down by peristalsis."
-  },
-  {
-    "questionEnglish": "What is the artificial method of filtering blood when a person's kidneys fail completely?",
-    "questionOdia": "ବୃକ୍କ ସମ୍ପୂର୍ଣ୍ଣ ଅଚଳ ହୋଇଗଲେ କୃତ୍ରିମ ଉପାୟରେ ରକ୍ତ ବିଶୋଧନ କରିବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Dialysis",
-      "Transplantation",
-      "Osmoregulation",
-      "Ultrafiltration"
-    ],
-    "answer": "Dialysis",
-    "explanation": "Dialysis (ଡାୟାଲିସିସ୍) or hemodialysis uses a special machine that mimics kidney function to clear metabolic wastes from a patient's bloodstream."
-  },
-  {
-    "questionEnglish": "Which excretory waste product is stored in the bark of cinchona plant and used as medicine for malaria?",
-    "questionOdia": "ସିଙ୍କୋନା ଉଦ୍ଭିଦର ଛାଲିରେ କେଉଁ ରେଚନ ପଦାର୍ଥ ସଞ୍ଚିତ ହୋଇଥାଏ ଯାହା ମ୍ୟାଲେରିଆ ରୋଗର ଚିକିତ୍ସାରେ ବ୍ୟବହୃତ ହୁଏ?",
-    "options": [
-      "Quinine",
-      "Reserpine",
-      "Nicotine",
-      "Morphine"
-    ],
-    "answer": "Quinine",
-    "explanation": "Quinine (କୁଇନାଇନ୍) is an alkaloid produced by the cinchona tree as a secondary byproduct, which serves as a vital anti-malarial drug medication."
-  },
-  {
-    "questionEnglish": "Through which organs do earthworms perform their excretory process?",
-    "questionOdia": "ଜିଆ (Earthworms) ମାନେ କେଉଁ ଅଙ୍ଗ ସାହାଯ୍ୟରେ ସେମାନଙ୍କର ରେଚନ କ୍ରିୟା ସମ୍ପନ୍ନ କରନ୍ତି?",
-    "options": [
-      "Nephridia",
-      "Malpighian tubules",
-      "Kidneys",
-      "Flame cells"
-    ],
-    "answer": "Nephridia",
-    "explanation": "Earthworms possess specialized tubular structures called Nephridia (ନେଫ୍ରିଡିଆ) distributed across segments to maintain fluid balance and eliminate metabolic waste."
-  },
-  {
-    "questionEnglish": "Which white alkaloid waste from Rauwolfia serpentina (Patalgaruda) plant is used to prepare medicine for high blood pressure?",
-    "questionOdia": "ପାତାଳଗରୁଡ଼ (Rauwolfia serpentina) ଉଦ୍ଭିଦରୁ ମିଳୁଥିବା କେଉଁ ରେଚନ ପଦାର୍ଥ ଉଚ୍ଚ ରକ୍ତଚାପର ଚିକିତ୍ସା ପାଇଁ ବ୍ୟବହୃତ ହୁଏ?",
-    "options": [
-      "Reserpine",
-      "Quinine",
-      "Caffeine",
-      "Tannin"
-    ],
-    "answer": "Reserpine",
-    "explanation": "The roots of the Patalgaruda plant produce the alkaloid Reserpine (ରେସରପିନ୍), which is chemically processed to treat hypertension or high blood pressure."
-  }
+{
+"questionEnglish": "What is the process of removing metabolic waste from the body called?",
+"questionOdia": "ଶରୀରରୁ ଚୟାପଚୟ ଜନିତ ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନ ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ପୋଷଣ",
+"ଶ୍ଵସନ",
+"ରେଚନ",
+"ପରିବହନ"
+],
+"answer": "ରେଚନ",
+"explanation": "ଜୀବ ଶରୀରରେ ଉତ୍ପନ୍ନ ବର୍ଜ୍ୟବସ୍ତୁକୁ ବାହାର କରିବା ପ୍ରକ୍ରିୟାକୁ ରେଚନ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which organ is the primary excretory organ in humans?",
+"questionOdia": "ମଣିଷ ଶରୀରର ମୁଖ୍ୟ ରେଚନ ଅଙ୍ଗ କିଏ?",
+"options": [
+"ଯକୃତ",
+"ବୃକ୍କ",
+"ଫୁସଫୁସ",
+"ଚର୍ମ"
+],
+"answer": "ବୃକ୍କ",
+"explanation": "ବୃକ୍କ ରକ୍ତକୁ ଛାଣି ମୂତ୍ର ଆକାରରେ ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନ କରେ, ତେଣୁ ଏହା ମୁଖ୍ୟ ରେଚନ ଅଙ୍ଗ।"
+},
+{
+"questionEnglish": "What is the structural and functional unit of the kidney?",
+"questionOdia": "ବୃକ୍କର ଗଠନଗତ ଓ କାର୍ଯ୍ୟକ୍ଷମ ଏକକକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ନ୍ୟୁରନ୍",
+"ନେଫ୍ରନ୍",
+"ଏକ୍ସନ୍",
+"କୋଷ"
+],
+"answer": "ନେଫ୍ରନ୍",
+"explanation": "ପ୍ରତ୍ୟେକ ବୃକ୍କ ଲକ୍ଷ ଲକ୍ଷ ସୂକ୍ଷ୍ମ ନଳୀ ଦ୍ଵାରା ଗଠିତ, ଯାହାକୁ ନେଫ୍ରନ୍ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Where is urine stored before being excreted?",
+"questionOdia": "ମୂତ୍ର ନିଷ୍କାସନ ପୂର୍ବରୁ କେଉଁଠାରେ ଜମା ହୋଇ ରହେ?",
+"options": [
+"ବୃକ୍କ",
+"ମୂତ୍ରନଳୀ",
+"ମୂତ୍ରାଶୟ",
+"ୟୁରେଟର"
+],
+"answer": "ମୂତ୍ରାଶୟ",
+"explanation": "ବୃକ୍କରୁ ଆସୁଥିବା ମୂତ୍ର ମୂତ୍ରାଶୟରେ ସଞ୍ଚିତ ହୋଇ ରହେ।"
+},
+{
+"questionEnglish": "Which nitrogenous waste is produced by humans?",
+"questionOdia": "ମଣିଷ ଶରୀରରେ କେଉଁ ଯବକ୍ଷାରଜାନଯୁକ୍ତ ବର୍ଜ୍ୟବସ୍ତୁ ଉତ୍ପନ୍ନ ହୁଏ?",
+"options": [
+"ୟୁରିକ୍ ଅମ୍ଳ",
+"ୟୁରିଆ",
+"ଆମୋନିଆ",
+"କ୍ରିଏଟିନିନ୍"
+],
+"answer": "ୟୁରିଆ",
+"explanation": "ମଣିଷ ଶରୀରରେ ପ୍ରୋଟିନ୍ ପାଚନରୁ ଉତ୍ପନ୍ନ ୟୁରିଆ ମୁଖ୍ୟ ବର୍ଜ୍ୟବସ୍ତୁ ଅଟେ।"
+},
+{
+"questionEnglish": "What is the color of normal urine?",
+"questionOdia": "ସାଧାରଣ ମୂତ୍ରର ରଙ୍ଗ କିପରି ହୋଇଥାଏ?",
+"options": [
+"ଧଳା",
+"ନୀଳ",
+"ହାଲୁକା ହଳଦିଆ",
+"ଲାଲ"
+],
+"answer": "ହାଲୁକା ହଳଦିଆ",
+"explanation": "ମୂତ୍ରରେ ଥିବା ୟୁରୋକ୍ରୋମ୍ ନାମକ ବର୍ଣ୍ଣକ ଯୋଗୁଁ ଏହା ହାଲୁକା ହଳଦିଆ ଦେଖାଯାଏ।"
+},
+{
+"questionEnglish": "Which blood vessel carries blood to the kidney?",
+"questionOdia": "ବୃକ୍କକୁ କେଉଁ ରକ୍ତନଳୀ ରକ୍ତ ଆଣିଥାଏ?",
+"options": [
+"ବୃକ୍କ ଶିରା",
+"ବୃକ୍କ ଧମନୀ",
+"ମହାଶିରା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବୃକ୍କ ଧମନୀ",
+"explanation": "ବୃକ୍କ ଧମନୀ ଅଶୁଦ୍ଧ ରକ୍ତକୁ ବୃକ୍କକୁ ନେଇଯାଏ।"
+},
+{
+"questionEnglish": "What is the cup-shaped structure in a nephron?",
+"questionOdia": "ନେଫ୍ରନ୍‌ରେ ଥିବା କପ୍‌ ଆକୃତିର ଗଠନକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ଗ୍ଲୋମେରୁଲସ୍",
+"ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍",
+"ହେନଲି ଲୁପ୍",
+"ସଂଗ୍ରାହୀ ନଳୀ"
+],
+"answer": "ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍",
+"explanation": "ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍ ନେଫ୍ରନ୍‌ର ପ୍ରାରମ୍ଭିକ କପ୍ ଆକୃତିର ଅଂଶ।"
+},
+{
+"questionEnglish": "Which substance is reabsorbed in the kidney tubules?",
+"questionOdia": "ବୃକ୍କ ନଳୀରେ କେଉଁ ପଦାର୍ଥ ପୁନଃଶୋଷଣ ହୁଏ?",
+"options": [
+"ଗ୍ଲୁକୋଜ",
+"ଜଳ",
+"ଲବଣ",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ବୃକ୍କ ନଳୀରେ ଜଳ, ଗ୍ଲୁକୋଜ ଓ ଆବଶ୍ୟକୀୟ ଲବଣ ପୁନଃଶୋଷିତ ହୋଇ ରକ୍ତକୁ ଫେରିଯାଏ।"
+},
+{
+"questionEnglish": "What happens if both kidneys fail?",
+"questionOdia": "ଉଭୟ ବୃକ୍କ ଅକାମୀ ହେଲେ କଣ କରାଯାଏ?",
+"options": [
+"ଡାଏଲିସିସ୍",
+"ଅସ୍ତ୍ରୋପଚାର",
+"ଔଷଧ ସେବନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଡାଏଲିସିସ୍",
+"explanation": "ବୃକ୍କ ଅକାମୀ ହେଲେ ରକ୍ତକୁ କୃତ୍ରିମ ଉପାୟରେ ଛାଣିବା ପାଇଁ ଡାଏଲିସିସ୍ ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "Which organ helps in excreting excess water and salts through sweat?",
+"questionOdia": "କେଉଁ ଅଙ୍ଗ ଝାଳ ମାଧ୍ୟମରେ ଅଧିକ ଜଳ ଓ ଲବଣ ନିଷ୍କାସନ କରେ?",
+"options": [
+"ବୃକ୍କ",
+"ଫୁସଫୁସ",
+"ଚର୍ମ",
+"ଯକୃତ"
+],
+"answer": "ଚର୍ମ",
+"explanation": "ଚର୍ମରେ ଥିବା ସ୍ଵେଦଗ୍ରନ୍ଥି ଝାଳ ମାଧ୍ୟମରେ ରେଚନରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "What is the tube that connects kidney to bladder called?",
+"questionOdia": "ବୃକ୍କକୁ ମୂତ୍ରାଶୟ ସହ ସଂଯୋଗ କରୁଥିବା ନଳୀକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ମୂତ୍ରନଳୀ",
+"ୟୁରେଟର (ମୂତ୍ରବାହିନୀ)",
+"ଧମନୀ",
+"ଶିରା"
+],
+"answer": "ୟୁରେଟର (ମୂତ୍ରବାହିନୀ)",
+"explanation": "ୟୁରେଟର ମାଧ୍ୟମରେ ବୃକ୍କରୁ ମୂତ୍ର ମୂତ୍ରାଶୟକୁ ଯାଏ।"
+},
+{
+"questionEnglish": "Which waste product is excreted by lungs?",
+"questionOdia": "ଫୁସଫୁସ କେଉଁ ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନ କରେ?",
+"options": [
+"ଅମ୍ଳଜାନ",
+"ଅଙ୍ଗାରକାମ୍ଳ",
+"ୟୁରିଆ",
+"ଲବଣ"
+],
+"answer": "ଅଙ୍ଗାରକାମ୍ଳ",
+"explanation": "ଶ୍ଵସନ ପ୍ରକ୍ରିୟାରେ ଉତ୍ପନ୍ନ ଅଙ୍ଗାରକାମ୍ଳ ଫୁସଫୁସ ଦ୍ଵାରା ନିଷ୍କାସିତ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the function of the glomerulus?",
+"questionOdia": "ଗ୍ଲୋମେରୁଲସ୍‌ର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ମୂତ୍ର ସଞ୍ଚୟ",
+"ରକ୍ତ ଛାଣିବା (Filtration)",
+"ହରମୋନ୍ କ୍ଷରଣ",
+"ଶକ୍ତି ଉତ୍ପାଦନ"
+],
+"answer": "ରକ୍ତ ଛାଣିବା (Filtration)",
+"explanation": "ଗ୍ଲୋମେରୁଲସ୍ ରକ୍ତକୁ ଛାଣି ପରିସ୍ରା ତିଆରି ଆରମ୍ଭ କରେ।"
+},
+{
+"questionEnglish": "What does a healthy urine usually contain?",
+"questionOdia": "ସାଧାରଣତଃ ସୁସ୍ଥ ବ୍ୟକ୍ତିର ମୂତ୍ରରେ କଣ ନଥାଏ?",
+"options": [
+"ୟୁରିଆ",
+"ଲବଣ",
+"ଗ୍ଲୁକୋଜ",
+"ଜଳ"
+],
+"answer": "ଗ୍ଲୁକୋଜ",
+"explanation": "ସୁସ୍ଥ ବ୍ୟକ୍ତିର ମୂତ୍ରରେ ସାଧାରଣତଃ ଗ୍ଲୁକୋଜ ଥାଏ ନାହିଁ।"
+},
+{
+"questionEnglish": "Which hormone regulates water balance in the kidney?",
+"questionOdia": "ବୃକ୍କରେ ଜଳର ସନ୍ତୁଳନ କେଉଁ ହରମୋନ୍ ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": [
+"ଇନସୁଲିନ୍",
+"ADH (ଭାସୋପ୍ରେସିନ୍)",
+"ଥାଇରକ୍ସିନ୍",
+"ଏଡ୍ରେନାଲିନ୍"
+],
+"answer": "ADH (ଭାସୋପ୍ରେସିନ୍)",
+"explanation": "ADH ହରମୋନ୍ ବୃକ୍କ ନଳୀରୁ ଜଳ ଶୋଷଣକୁ ନିୟନ୍ତ୍ରଣ କରେ।"
+},
+{
+"questionEnglish": "What is the main nitrogenous waste in birds and reptiles?",
+"questionOdia": "ପକ୍ଷୀ ଓ ସରୀସୃପଙ୍କଠାରେ ମୁଖ୍ୟ ରେଚନ ବର୍ଜ୍ୟବସ୍ତୁ କଣ?",
+"options": [
+"ୟୁରିଆ",
+"ୟୁରିକ୍ ଅମ୍ଳ",
+"ଆମୋନିଆ",
+"କ୍ରିଏଟିନିନ୍"
+],
+"answer": "ୟୁରିକ୍ ଅମ୍ଳ",
+"explanation": "ପକ୍ଷୀ ଓ ସରୀସୃପ ୟୁରିକ୍ ଅମ୍ଳକୁ ରେଚନ ପଦାର୍ଥ ଭାବେ ବାହାର କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is the process of cleaning blood called?",
+"questionOdia": "କୃତ୍ରିମ ଉପାୟରେ ରକ୍ତ ଛାଣିବାକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ଡାଏଲିସିସ୍",
+"ଅସ୍ତ୍ରୋପଚାର",
+"ଟ୍ରାନ୍ସପ୍ଲାଣ୍ଟ",
+"ଫିଲ୍ଟ୍ରେସନ୍"
+],
+"answer": "ଡାଏଲିସିସ୍",
+"explanation": "ବୃକ୍କ କାମ ନ କଲେ ଡାଏଲିସିସ୍ ମେସିନ୍ ଦ୍ଵାରା ରକ୍ତ ଛଣାଯାଏ।"
+},
+{
+"questionEnglish": "Which part of nephron connects to the collecting duct?",
+"questionOdia": "ନେଫ୍ରନ୍‌ର କେଉଁ ଅଂଶ ସଂଗ୍ରାହୀ ନଳୀ ସହ ଯୋଡ଼ି ହୋଇଥାଏ?",
+"options": [
+"ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍",
+"ଗ୍ଲୋମେରୁଲସ୍",
+"ପ୍ରାନ୍ତୀୟ କୁଣ୍ଡଳୀତ ନଳୀ",
+"ହେନଲି ଲୁପ୍"
+],
+"answer": "ପ୍ରାନ୍ତୀୟ କୁଣ୍ଡଳୀତ ନଳୀ",
+"explanation": "ପ୍ରାନ୍ତୀୟ କୁଣ୍ଡଳୀତ ନଳୀ ଶେଷରେ ସଂଗ୍ରାହୀ ନଳୀରେ ମିଶେ।"
+},
+{
+"questionEnglish": "What is the shape of the human kidney?",
+"questionOdia": "ମଣିଷ ବୃକ୍କର ଆକୃତି କିପରି?",
+"options": [
+"ଗୋଲାକାର",
+"ଶିମ୍ବ ମଞ୍ଜି ପରି",
+"ତ୍ରିକୋଣୀୟ",
+"ଲମ୍ବାଳିଆ"
+],
+"answer": "ଶିମ୍ବ ମଞ୍ଜି ପରି",
+"explanation": "ମଣିଷର ଦୁଇଟି ବୃକ୍କ ଶିମ୍ବ ମଞ୍ଜି ପରି ଆକୃତିର ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the primary function of the excretory system in humans?",
+"questionOdia": "ମଣିଷ ଶରୀରରେ ରେଚନ ତନ୍ତ୍ରର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ଶକ୍ତି ଉତ୍ପାଦନ କରିବା",
+"ରକ୍ତକୁ ପରିଷ୍କାର କରି ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନ କରିବା",
+"ଖାଦ୍ୟ ହଜମ କରିବା",
+"ଅମ୍ଳଜାନ ସଂଗ୍ରହ କରିବା"
+],
+"answer": "ରକ୍ତକୁ ପରିଷ୍କାର କରି ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନ କରିବା",
+"explanation": "ରେଚନ ତନ୍ତ୍ର ରକ୍ତରେ ଥିବା ବିଷାକ୍ତ ଓ ଅଦରକାରୀ ବର୍ଜ୍ୟବସ୍ତୁକୁ ଶରୀରରୁ ବାହାର କରିଥାଏ।"
+},
+{
+"questionEnglish": "Which organ is mainly responsible for the formation of urine?",
+"questionOdia": "ମୂତ୍ର ତିଆରି କରିବା ପାଇଁ ମୁଖ୍ୟତଃ କେଉଁ ଅଙ୍ଗ ଦାୟୀ?",
+"options": [
+"ଯକୃତ",
+"ବୃକ୍କ",
+"ଫୁସଫୁସ",
+"ଅନ୍ତନଳୀ"
+],
+"answer": "ବୃକ୍କ",
+"explanation": "ବୃକ୍କ ରକ୍ତକୁ ଛାଣି ବର୍ଜ୍ୟବସ୍ତୁକୁ ମୂତ୍ର ଆକାରରେ ନିଷ୍କାସନ କରିଥାଏ।"
+},
+{
+"questionEnglish": "What is the basic structural and functional unit of the human kidney?",
+"questionOdia": "ମଣିଷ ବୃକ୍କର ଗଠନଗତ ଓ କାର୍ଯ୍ୟକ୍ଷମ ଏକକ କଣ?",
+"options": [
+"ନେଫ୍ରନ୍",
+"ନ୍ୟୁରନ୍",
+"ଏକ୍ସନ୍",
+"କୋଷ"
+],
+"answer": "ନେଫ୍ରନ୍",
+"explanation": "ନେଫ୍ରନ୍ ହେଉଛି ବୃକ୍କର ମୌଳିକ ଏକକ ଯାହା ରକ୍ତ ଛାଣିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Which nitrogenous waste is produced by the breakdown of amino acids in the liver?",
+"questionOdia": "ଯକୃତରେ ଆମିନୋ ଏସିଡ୍ ଭାଙ୍ଗିବା ଫଳରେ କେଉଁ ନାଇଟ୍ରୋଜେନଯୁକ୍ତ ବର୍ଜ୍ୟବସ୍ତୁ ଉତ୍ପନ୍ନ ହୁଏ?",
+"options": [
+"ଆମୋନିଆ",
+"ୟୁରିଆ",
+"ୟୁରିକ୍ ଅମ୍ଳ",
+"ଗ୍ଲୁକୋଜ"
+],
+"answer": "ୟୁରିଆ",
+"explanation": "ଯକୃତ ଆମୋନିଆକୁ କମ୍ ବିଷାକ୍ତ ୟୁରିଆରେ ପରିଣତ କରିଥାଏ।"
+},
+{
+"questionEnglish": "What is the cup-shaped structure at the beginning of a nephron called?",
+"questionOdia": "ନେଫ୍ରନ୍‌ର ପ୍ରାରମ୍ଭରେ ଥିବା କପ୍ ଆକୃତିର ଗଠନକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ଗ୍ଲୋମେରୁଲସ୍",
+"ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍",
+"ହେନଲି ଲୁପ୍",
+"ସଂଗ୍ରାହୀ ନଳୀ"
+],
+"answer": "ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍",
+"explanation": "ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍ ରକ୍ତକୁ ଛାଣିବା ପାଇଁ ଏକ କପ୍‌ ପରି ଗଠନ।"
+},
+{
+"questionEnglish": "Which blood vessel brings blood into the glomerulus?",
+"questionOdia": "କେଉଁ ରକ୍ତନଳୀ ଗ୍ଲୋମେରୁଲସ୍‌କୁ ରକ୍ତ ଆଣିଥାଏ?",
+"options": [
+"ଅଭିବାହୀ ଧମନୀ",
+"ଅପବାହୀ ଧମନୀ",
+"ବୃକ୍କ ଶିରା",
+"ମହାଶିରା"
+],
+"answer": "ଅଭିବାହୀ ଧମନୀ",
+"explanation": "ଅଭିବାହୀ ଧମନୀ ଦ୍ଵାରା ରକ୍ତ ଗ୍ଲୋମେରୁଲସ୍‌କୁ ପ୍ରବେଶ କରେ।"
+},
+{
+"questionEnglish": "Where does the urine finally collect before exiting the body?",
+"questionOdia": "ଶରୀରରୁ ବାହାରିବା ପୂର୍ବରୁ ମୂତ୍ର କେଉଁଠାରେ ଜମା ହୁଏ?",
+"options": [
+"ବୃକ୍କ",
+"ମୂତ୍ରନଳୀ",
+"ମୂତ୍ରାଶୟ",
+"ୟୁରେଟର"
+],
+"answer": "ମୂତ୍ରାଶୟ",
+"explanation": "ମୂତ୍ରାଶୟ ହେଉଛି ମୂତ୍ର ସଞ୍ଚୟ ହେବା ସ୍ଥାନ।"
+},
+{
+"questionEnglish": "What is the process of removal of excess water and nitrogenous wastes called?",
+"questionOdia": "ଅତିରିକ୍ତ ଜଳ ଓ ନାଇଟ୍ରୋଜେନଯୁକ୍ତ ବର୍ଜ୍ୟବସ୍ତୁକୁ ବାହାର କରିବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ଶ୍ଵସନ",
+"ପୋଷଣ",
+"ରେଚନ",
+"ପରିବହନ"
+],
+"answer": "ରେଚନ",
+"explanation": "ଶରୀରରୁ ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନକୁ ରେଚନ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which substance is reabsorbed from the filtrate in the kidney tubules?",
+"questionOdia": "ବୃକ୍କ ନଳୀରେ ଛଣାଯାଇଥିବା ପଦାର୍ଥରୁ କେଉଁଟି ପୁନଃଶୋଷିତ ହୁଏ?",
+"options": [
+"ୟୁରିଆ",
+"ଗ୍ଲୁକୋଜ",
+"କ୍ରିଏଟିନିନ୍",
+"ୟୁରିକ୍ ଅମ୍ଳ"
+],
+"answer": "ଗ୍ଲୁକୋଜ",
+"explanation": "ଗ୍ଲୁକୋଜ ଶରୀର ପାଇଁ ଆବଶ୍ୟକ ତେଣୁ ଏହା ବୃକ୍କ ନଳୀରେ ପୁନଃଶୋଷିତ ହୋଇ ରକ୍ତକୁ ଫେରିଯାଏ।"
+},
+{
+"questionEnglish": "Which color does the urine usually have due to the presence of urochrome?",
+"questionOdia": "ୟୁରୋକ୍ରୋମ୍ ଉପସ୍ଥିତି ହେତୁ ମୂତ୍ରର ରଙ୍ଗ ସାଧାରଣତଃ କିପରି ହୁଏ?",
+"options": [
+"ଧଳା",
+"ହାଲୁକା ହଳଦିଆ",
+"କଳା",
+"ଲାଲ"
+],
+"answer": "ହାଲୁକା ହଳଦିଆ",
+"explanation": "ମୂତ୍ରରେ ଥିବା ୟୁରୋକ୍ରୋମ୍ ରଞ୍ଜକ ପଦାର୍ଥ ଯୋଗୁଁ ଏହା ହଳଦିଆ ଦେଖାଯାଏ।"
+},
+{
+"questionEnglish": "Which condition occurs when both kidneys stop working?",
+"questionOdia": "ଉଭୟ ବୃକ୍କ କାର୍ଯ୍ୟ କରିବା ବନ୍ଦ କଲେ କଣ ହୁଏ?",
+"options": [
+"ଡାଏଲିସିସ୍ ଆବଶ୍ୟକ ହୁଏ",
+"ଶରୀରରେ ଶକ୍ତି ବଢ଼େ",
+"ପାଚନ ପ୍ରକ୍ରିୟା ବନ୍ଦ ହୁଏ",
+"କିଛି ବି ହୁଏ ନାହିଁ"
+],
+"answer": "ଡାଏଲିସିସ୍ ଆବଶ୍ୟକ ହୁଏ",
+"explanation": "ବୃକ୍କ ଅକାମୀ ହେଲେ କୃତ୍ରିମ ଉପାୟରେ ଡାଏଲିସିସ୍ ମାଧ୍ୟମରେ ରକ୍ତ ଛାଣିବାକୁ ପଡ଼େ।"
+},
+{
+"questionEnglish": "Which organ helps in excreting CO2 from the body?",
+"questionOdia": "ଶରୀରରୁ ଅଙ୍ଗାରକାମ୍ଳ (CO2) ବାହାର କରିବାରେ କେଉଁ ଅଙ୍ଗ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ବୃକ୍କ",
+"ଫୁସଫୁସ",
+"ଚର୍ମ",
+"ଯକୃତ"
+],
+"answer": "ଫୁସଫୁସ",
+"explanation": "ଶ୍ଵସନ ସମୟରେ ଫୁସଫୁସ ରକ୍ତରୁ CO2 ବାହାର କରି ବାୟୁମଣ୍ଡଳକୁ ଛାଡ଼ିଦିଏ।"
+},
+{
+"questionEnglish": "What is the role of sweat glands in the skin?",
+"questionOdia": "ଚର୍ମରେ ଥିବା ସ୍ଵେଦଗ୍ରନ୍ଥିର ଭୂମିକା କଣ?",
+"options": [
+"ତୈଳ ଉତ୍ପାଦନ",
+"ଝାଳ ମାଧ୍ୟମରେ ରେଚନ",
+"ଶରୀରକୁ ସୁରକ୍ଷା ଦେବା",
+"ରକ୍ତ ସଞ୍ଚାଳନ"
+],
+"answer": "ଝାଳ ମାଧ୍ୟମରେ ରେଚନ",
+"explanation": "ସ୍ଵେଦଗ୍ରନ୍ଥି ଝାଳ ମାଧ୍ୟମରେ ଅତିରିକ୍ତ ଜଳ ଓ ଲବଣ ବାହାର କରି ରେଚନରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Which hormone regulates water reabsorption in the kidney?",
+"questionOdia": "ବୃକ୍କରେ ଜଳ ପୁନଃଶୋଷଣକୁ କେଉଁ ହରମୋନ୍ ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": [
+"ଇନସୁଲିନ୍",
+"ADH (ଭାସୋପ୍ରେସିନ୍)",
+"ଥାଇରକ୍ସିନ୍",
+"ଏଡ୍ରେନାଲିନ୍"
+],
+"answer": "ADH (ଭାସୋପ୍ରେସିନ୍)",
+"explanation": "ADH ହରମୋନ୍ ବୃକ୍କ ନଳୀରେ ଜଳର ପରିମାଣକୁ ନିୟନ୍ତ୍ରଣ କରି ମୂତ୍ରର ସାନ୍ଦ୍ରତା ବଜାୟ ରଖେ।"
+},
+{
+"questionEnglish": "What is the normal path of urine flow?",
+"questionOdia": "ମୂତ୍ରର ସାଧାରଣ ପ୍ରବାହ ପଥ କଣ?",
+"options": [
+"ବୃକ୍କ -> ମୂତ୍ରାଶୟ -> ୟୁରେଟର",
+"ବୃକ୍କ -> ୟୁରେଟର -> ମୂତ୍ରାଶୟ",
+"ମୂତ୍ରାଶୟ -> ବୃକ୍କ -> ୟୁରେଟର",
+"ୟୁରେଟର -> ବୃକ୍କ -> ମୂତ୍ରାଶୟ"
+],
+"answer": "ବୃକ୍କ -> ୟୁରେଟର -> ମୂତ୍ରାଶୟ",
+"explanation": "ମୂତ୍ର ବୃକ୍କରେ ତିଆରି ହୋଇ ୟୁରେଟର ଦେଇ ମୂତ୍ରାଶୟରେ ସଞ୍ଚିତ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the process of filtering blood called in medical terms?",
+"questionOdia": "ରକ୍ତକୁ ଛାଣିବା ପ୍ରକ୍ରିୟାକୁ ଚିକିତ୍ସା ବିଜ୍ଞାନରେ କଣ କୁହାଯାଏ?",
+"options": [
+"ଅଲଟ୍ରାଫିଲ୍ଟ୍ରେସନ୍",
+"ଡାଏଲିସିସ୍",
+"ଅସ୍ତ୍ରୋପଚାର",
+"ପରିବହନ"
+],
+"answer": "ଅଲଟ୍ରାଫିଲ୍ଟ୍ରେସନ୍",
+"explanation": "ନେଫ୍ରନ୍‌ର ଗ୍ଲୋମେରୁଲସ୍‌ରେ ରକ୍ତ ଛାଣିବା ପ୍ରକ୍ରିୟାକୁ ଅଲଟ୍ରାଫିଲ୍ଟ୍ରେସନ୍ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which organ secretes bile to remove metabolic wastes?",
+"questionOdia": "କେଉଁ ଅଙ୍ଗ ପିତ୍ତ ରସ ମାଧ୍ୟମରେ ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନ କରେ?",
+"options": [
+"ଯକୃତ",
+"ବୃକ୍କ",
+"ଅଗ୍ନାଶୟ",
+"ପାକସ୍ଥଳୀ"
+],
+"answer": "ଯକୃତ",
+"explanation": "ଯକୃତ ପିତ୍ତ ରସ ସୃଷ୍ଟି କରି କେତେକ ବର୍ଜ୍ୟବସ୍ତୁକୁ ଅନ୍ତନଳୀ ଦେଇ ନିଷ୍କାସନ କରେ।"
+},
+{
+"questionEnglish": "What is present in the urine of a diabetic patient?",
+"questionOdia": "ମଧୁମେହ ରୋଗୀର ମୂତ୍ରରେ କଣ ଦେଖିବାକୁ ମିଳେ?",
+"options": [
+"ପ୍ରୋଟିନ୍",
+"ଗ୍ଲୁକୋଜ (ଶର୍କରା)",
+"ଚର୍ବି",
+"ଭିଟାମିନ୍"
+],
+"answer": "ଗ୍ଲୁକୋଜ (ଶର୍କରା)",
+"explanation": "ରକ୍ତରେ ଶର୍କରା ପରିମାଣ ଅଧିକ ହେଲେ ତାହା ମୂତ୍ରରେ ନିର୍ଗତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which part of the nephron is located in the kidney cortex?",
+"questionOdia": "ନେଫ୍ରନ୍‌ର କେଉଁ ଅଂଶ ବୃକ୍କର ବାହ୍ୟ ଭାଗ (କର୍ଟେକ୍ସ)ରେ ଥାଏ?",
+"options": [
+"ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍",
+"ହେନଲି ଲୁପ୍",
+"ସଂଗ୍ରାହୀ ନଳୀ",
+"ପେଲଭିସ୍"
+],
+"answer": "ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍",
+"explanation": "ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍ ଓ କୁଣ୍ଡଳୀତ ନଳୀଗୁଡ଼ିକ ବୃକ୍କର ବାହ୍ୟ ଭାଗରେ ଥାଏ।"
+},
+{
+"questionEnglish": "What happens to the remaining waste after water reabsorption?",
+"questionOdia": "ଜଳ ପୁନଃଶୋଷଣ ପରେ ବାକି ରହିଥିବା ବର୍ଜ୍ୟବସ୍ତୁକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ରକ୍ତ",
+"ମୂତ୍ର",
+"ଝାଳ",
+"ଲାଳ"
+],
+"answer": "ମୂତ୍ର",
+"explanation": "ଜଳ ପୁନଃଶୋଷଣ ପରେ ବାକି ରହିଥିବା ୟୁରିଆଯୁକ୍ତ ତରଳ ପଦାର୍ଥକୁ ମୂତ୍ର କୁହାଯାଏ।"
+}
 ]
