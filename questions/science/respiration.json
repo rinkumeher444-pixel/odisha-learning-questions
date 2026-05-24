@@ -1,122 +1,1166 @@
 [
-  {
-    "questionEnglish": "Which of the following is the primary cellular fuel used during respiration to release energy?",
-    "questionOdia": "ଶ୍ୱସନ ସମୟରେ ଶକ୍ତି ମୋଚନ ପାଇଁ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ପ୍ରାଥମିକ କୋଷୀୟ ଜାଳେଣି ଭାବେ ବ୍ୟବହୃତ ହୁଏ?",
-    "options": [
-      "Glucose",
-      "Amino acid",
-      "Fatty acid",
-      "Sucrose"
-    ],
-    "answer": "Glucose",
-    "explanation": "Glucose (C6H12O6) is the simplest carbohydrate and acts as the primary respiratory substrate that cells break down to produce ATP energy."
-  },
-  {
-    "questionEnglish": "Where does the first step of respiration, known as Glycolysis, take place inside the cell?",
-    "questionOdia": "ଶ୍ୱସନର ପ୍ରଥମ ପର୍ଯ୍ୟାୟ ଅର୍ଥାତ୍ ଗ୍ଲାଇକୋଲିସିସ୍ (Glycolysis) କୋଷର କେଉଁ ଅଂଶରେ ସଂଘଟିତ ହୋଇଥାଏ?",
-    "options": [
-      "Cytoplasm",
-      "Mitochondria",
-      "Ribosome",
-      "Golgi bodies"
-    ],
-    "answer": "Cytoplasm",
-    "explanation": "Glycolysis is the process of breaking down a 6-carbon glucose molecule into two 3-carbon pyruvate molecules, and it occurs entirely in the cytoplasm (କୋଷଜୀବକ)."
-  },
-  {
-    "questionEnglish": "How many net ATP molecules are produced during anaerobic respiration or fermentation of one glucose molecule?",
-    "questionOdia": "ଏକ ଗ୍ଲୁକୋଜ୍ ଅଣୁର ଅବାୟୁ ଶ୍ୱସନ (Anaerobic Respiration) ବା କିଣ୍ଵନ ପ୍ରକ୍ରିୟାରେ କେତେଗୋଟି ଅବଶିଷ୍ଟ ATP ଅଣୁ ସୃଷ୍ଟି ହୁଏ?",
-    "options": [
-      "2 ATP",
-      "38 ATP",
-      "36 ATP",
-      "4 ATP"
-    ],
-    "answer": "2 ATP",
-    "explanation": "Anaerobic respiration happens in the absence of oxygen and yields only 2 ATP molecules per glucose molecule, which is much lower than aerobic respiration."
-  },
-  {
-    "questionEnglish": "The accumulation of which substance in human muscle cells during heavy exercise causes muscle cramps?",
-    "questionOdia": "ଅଧିକ ପରିଶ୍ରମ କଲେ ମାନବ ମାଂସପେଶୀ କୋଷରେ କେଉଁ ପଦାର୍ଥ ଜମା ହେବା ଯୋଗୁଁ ବାତ ବା କ୍ରାମ୍ପ (Cramps) ହୋଇଥାଏ?",
-    "options": [
-      "Lactic acid",
-      "Ethanol",
-      "Pyruvate",
-      "Carbon dioxide"
-    ],
-    "answer": "Lactic acid",
-    "explanation": "During sudden heavy exercise, oxygen demand is high, causing muscle cells to perform anaerobic respiration which produces Lactic acid (ଲାକ୍‌ଟିକ୍ ଅମ୍ଳ), leading to cramps."
-  },
-  {
-    "questionEnglish": "Which organelle is considered the 'Powerhouse of the Cell' where citric acid cycle takes place?",
-    "questionOdia": "କ୍ରେବ୍ସ ଚକ୍ର (Citric acid cycle) ସଂଘଟିତ ହେଉଥିବା କେଉଁ ଅଙ୍ଗିକାକୁ 'କୋଷର ଶକ୍ତି କେନ୍ଦ୍ର' କୁହାଯାଏ?",
-    "options": [
-      "Mitochondria",
-      "Chloroplast",
-      "Nucleus",
-      "Lysosome"
-    ],
-    "answer": "Mitochondria",
-    "explanation": "The Citric Acid Cycle (Krebs Cycle) and Electron Transport System happen inside the Mitochondria (ମାଇଟୋକଣ୍ଡ୍ରିଆ), generating the maximum amount of cellular energy (ATP)."
-  },
-  {
-    "questionEnglish": "What is the full form of ATP, which is known as the energy currency of the cell?",
-    "questionOdia": "କୋଷର ଶକ୍ତି ମୁଦ୍ରା କୁହାଯାଉଥିବା ATP ର ସମ୍ପୂର୍ଣ୍ଣ ନାମ କଣ?",
-    "options": [
-      "Adenosine Triphosphate",
-      "Adenine Triphosphate",
-      "Adenosine Diphosphate",
-      "Ammonium Triphosphate"
-    ],
-    "answer": "Adenosine Triphosphate",
-    "explanation": "ATP stands for Adenosine Triphosphate. It breaks down into ADP to release energy required to drive various metabolic reactions inside cells."
-  },
-  {
-    "questionEnglish": "Through which respiratory organ do aquatic animals like fishes exchange gases?",
-    "questionOdia": "ମାଛ ଭଳି ଜଳଚର ପ୍ରାଣୀମାନେ ଶ୍ୱାସକ୍ରିୟା ପାଇଁ କେଉଁ ଅଙ୍ଗର ବ୍ୟବହାର କରିଥାନ୍ତି?",
-    "options": [
-      "Gills",
-      "Lungs",
-      "Skin",
-      "Trachea"
-    ],
-    "answer": "Gills",
-    "explanation": "Fishes use Gills (ଗାଲିସି) to extract oxygen dissolved in water and release carbon dioxide back into the aquatic environment."
-  },
-  {
-    "questionEnglish": "What are the tiny air sacs in human lungs where the actual exchange of gases takes place called?",
-    "questionOdia": "ମାନବ ଫୁସଫୁସରେ ଥିବା କେଉଁ କ୍ଷୁଦ୍ର କୋଠରୀ ବା ବାୟୁ-ଥଳୀଗୁଡ଼ିକରେ ପ୍ରକୃତ ଗ୍ୟାସ୍ ବିନିମୟ ହୋଇଥାଏ?",
-    "options": [
-      "Alveoli",
-      "Bronchi",
-      "Nephrons",
-      "Tracheoles"
-    ],
-    "answer": "Alveoli",
-    "explanation": "Alveoli (ବାୟୁ କୋଷିକା) provide a very large, thin surface area rich in blood capillaries for rapid diffusion of Oxygen and Carbon dioxide."
-  },
-  {
-    "questionEnglish": "Which respiratory pigment present in human red blood cells carries oxygen from lungs to tissues?",
-    "questionOdia": "ମାନବ ଲୋହିତ ରକ୍ତ କଣିକାରେ ଥିବା କେଉଁ ଶ୍ୱସନ ରଞ୍ଜକ (Respiratory Pigment) ଅମ୍ଳଜାନ ପରିବହନ କରିଥାଏ?",
-    "options": [
-      "Hemoglobin",
-      "Chlorophyll",
-      "Plasma",
-      "Platelets"
-    ],
-    "answer": "Hemoglobin",
-    "explanation": "Hemoglobin (ହିମୋଗ୍ଲୋବିନ୍) has a very high affinity for oxygen, binding with it to form oxyhemoglobin, which travels throughout the body."
-  },
-  {
-    "questionEnglish": "Through which tiny structures on the leaf surface do plants exchange gases during respiration and photosynthesis?",
-    "questionOdia": "ଉଦ୍ଭିଦ ପତ୍ରର ପୃଷ୍ଠରେ ଥିବା କେଉଁ କ୍ଷୁଦ୍ର ଛିଦ୍ର ମାଧ୍ୟମରେ ଗ୍ୟାସ୍ ବିନିମୟ ସମ୍ପନ୍ନ ହୋଇଥାଏ?",
-    "options": [
-      "Stomata",
-      "Lenticels",
-      "Xylem",
-      "Phloem"
-    ],
-    "answer": "Stomata",
-    "explanation": "Stomata (ସ୍ତୋମ ବା ପତ୍ରରନ୍ଧ୍ର) are tiny pores surrounded by guard cells that regulate the entry and exit of gases and water vapor in plants."
-  }
+{
+"questionEnglish": "What is the primary function of respiration?",
+"questionOdia": "ଶ୍ଵସନର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ଖାଦ୍ୟ ପ୍ରସ୍ତୁତି",
+"ଖାଦ୍ୟରୁ ଶକ୍ତି ମୋଚନ",
+"ରେଚନ",
+"ପରିବହନ"
+],
+"answer": "ଖାଦ୍ୟରୁ ଶକ୍ତି ମୋଚନ",
+"explanation": "ଶ୍ଵସନ ପ୍ରକ୍ରିୟାରେ ଗ୍ଲୁକୋଜ୍ ଜାରିତ ହୋଇ ଶକ୍ତି ଉତ୍ପନ୍ନ ହୁଏ।"
+},
+{
+"questionEnglish": "Which process occurs in the absence of oxygen?",
+"questionOdia": "ଅମ୍ଳଜାନର ଅନୁପସ୍ଥିତିରେ କେଉଁ ପ୍ରକ୍ରିୟା ଘଟେ?",
+"options": [
+"ବାୟୁଜୀବୀ ଶ୍ଵସନ",
+"ଅବାୟୁଜୀବୀ ଶ୍ଵସନ",
+"ଆଲୋକଶ୍ଳେଷଣ",
+"ପାଚନ"
+],
+"answer": "ଅବାୟୁଜୀବୀ ଶ୍ଵସନ",
+"explanation": "ଅମ୍ଳଜାନ ନଥିଲେ ଯେଉଁ ଶ୍ଵସନ ହୁଏ, ତାହା ଅବାୟୁଜୀବୀ।"
+},
+{
+"questionEnglish": "What is the end product of aerobic respiration in humans?",
+"questionOdia": "ମଣିଷରେ ବାୟୁଜୀବୀ ଶ୍ଵସନର ଶେଷ ଉତ୍ପାଦ କଣ?",
+"options": [
+"ଇଥାନଲ୍",
+"ଲାକ୍ଟିକ୍ ଏସିଡ୍",
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଓ ଜଳ",
+"କେବଳ ଶକ୍ତି"
+],
+"answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ଓ ଜଳ",
+"explanation": "ବାୟୁଜୀବୀ ଶ୍ଵସନରେ ଗ୍ଲୁକୋଜ୍ ସମ୍ପୂର୍ଣ୍ଣ ଜାରିତ ହୋଇ CO2, H2O ଓ ଶକ୍ତି ମିଳେ।"
+},
+{
+"questionEnglish": "In which part of the cell does glycolysis occur?",
+"questionOdia": "ଗ୍ଲାଇକୋଲିସିସ୍ କୋଷର କେଉଁ ଅଂଶରେ ଘଟେ?",
+"options": [
+"ମାଇଟୋକଣ୍ଡ୍ରିଆ",
+"ସାଇଟୋପ୍ଲାଜମ୍",
+"ନ୍ୟୁକ୍ଲିୟସ୍",
+"ରାଇବୋଜୋମ୍"
+],
+"answer": "ସାଇଟୋପ୍ଲାଜମ୍",
+"explanation": "ଗ୍ଲାଇକୋଲିସିସ୍ ପ୍ରକ୍ରିୟା ସାଇଟୋପ୍ଲାଜମରେ ସମ୍ପନ୍ନ ହୁଏ।"
+},
+{
+"questionEnglish": "What molecule stores energy released during respiration?",
+"questionOdia": "ଶ୍ଵସନ ସମୟରେ ମୁକ୍ତ ହେଉଥିବା ଶକ୍ତି କେଉଁ ଅଣୁରେ ସଞ୍ଚିତ ହୁଏ?",
+"options": [
+"DNA",
+"ATP",
+"RNA",
+"ADP"
+],
+"answer": "ATP",
+"explanation": "ATP (Adenosine Triphosphate) କୁ ଶକ୍ତି ମୁଦ୍ରା କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which organism performs anaerobic respiration to produce ethanol?",
+"questionOdia": "କେଉଁ ଜୀବ ଇଥାନଲ୍ ଉତ୍ପାଦନ ପାଇଁ ଅବାୟୁଜୀବୀ ଶ୍ଵସନ କରେ?",
+"options": [
+"ମଣିଷ",
+"ଇଷ୍ଟ (Yeast)",
+"ଆମିବା",
+"ମାଛ"
+],
+"answer": "ଇଷ୍ଟ (Yeast)",
+"explanation": "ଇଷ୍ଟ ଅବାୟୁଜୀବୀ ଶ୍ଵସନ ଦ୍ଵାରା ଇଥାନଲ୍ ଓ CO2 ଉତ୍ପନ୍ନ କରେ।"
+},
+{
+"questionEnglish": "What causes muscle cramps during heavy exercise?",
+"questionOdia": "ଅତ୍ୟଧିକ ବ୍ୟାୟାମ ସମୟରେ ପେଶୀରେ କାହିଁକି ଯନ୍ତ୍ରଣା ହୁଏ?",
+"options": [
+"ଇଥାନଲ୍ ଜମା ହେବା",
+"ଲାକ୍ଟିକ୍ ଏସିଡ୍ ଜମା ହେବା",
+"ଅମ୍ଳଜାନ ଅଧିକ ହେବା",
+"CO2 କମିବା"
+],
+"answer": "ଲାକ୍ଟିକ୍ ଏସିଡ୍ ଜମା ହେବା",
+"explanation": "ଅମ୍ଳଜାନ ଅଭାବରେ ପେଶୀରେ ଲାକ୍ଟିକ୍ ଏସିଡ୍ ସୃଷ୍ଟି ହୁଏ।"
+},
+{
+"questionEnglish": "How many ATP molecules are produced in glycolysis?",
+"questionOdia": "ଗ୍ଲାଇକୋଲିସିସରେ କେତେଟି ATP ଅଣୁ ଉତ୍ପନ୍ନ ହୁଏ?",
+"options": [
+"୨ଟି",
+"୪ଟି",
+"୩୮ଟି",
+"୩୬ଟି"
+],
+"answer": "୨ଟି",
+"explanation": "ଗ୍ଲାଇକୋଲିସିସରେ ଶୁଦ୍ଧ ୨ଟି ATP ଲାଭ ମିଳେ।"
+},
+{
+"questionEnglish": "Where does the Krebs cycle take place in a cell?",
+"questionOdia": "କୋଷରେ କ୍ରେବ୍ସ ଚକ୍ର କେଉଁଠାରେ ଘଟେ?",
+"options": [
+"ସାଇଟୋପ୍ଲାଜମ୍",
+"ମାଇଟୋକଣ୍ଡ୍ରିଆ",
+"ଗଲ୍‌ଜି ବଡି",
+"କୋଷାବରଣ"
+],
+"answer": "ମାଇଟୋକଣ୍ଡ୍ରିଆ",
+"explanation": "କ୍ରେବ୍ସ ଚକ୍ର ମାଇଟୋକଣ୍ଡ୍ରିଆର ମାଟ୍ରିକ୍ସରେ ଘଟେ।"
+},
+{
+"questionEnglish": "What is the common pathway for both aerobic and anaerobic respiration?",
+"questionOdia": "ବାୟୁଜୀବୀ ଓ ଅବାୟୁଜୀବୀ ଶ୍ଵସନ ପାଇଁ ସାଧାରଣ ପଥ କଣ?",
+"options": [
+"କ୍ରେବ୍ସ ଚକ୍ର",
+"ଗ୍ଲାଇକୋଲିସିସ୍",
+"ଇଲେକ୍ଟ୍ରନ୍ ପରିବହନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗ୍ଲାଇକୋଲିସିସ୍",
+"explanation": "ଉଭୟ ଶ୍ଵସନର ପ୍ରଥମ ପଦକ୍ଷେପ ଗ୍ଲାଇକୋଲିସିସ୍ ଅଟେ।"
+},
+{
+"questionEnglish": "What is the respiratory pigment in human blood?",
+"questionOdia": "ମଣିଷ ରକ୍ତରେ ଥିବା ଶ୍ଵସନ ବର୍ଣ୍ଣକ କଣ?",
+"options": [
+"କ୍ଲୋରୋଫିଲ୍",
+"ହିମୋଗ୍ଲୋବିନ୍",
+"ମେଲାନିନ୍",
+"କାରୋଟିନ୍"
+],
+"answer": "ହିମୋଗ୍ଲୋବିନ୍",
+"explanation": "ହିମୋଗ୍ଲୋବିନ୍ ଅମ୍ଳଜାନ ସହ ସଂଯୁକ୍ତ ହୋଇ ପରିବହନ କରେ।"
+},
+{
+"questionEnglish": "Which gas is released by the body during exhalation?",
+"questionOdia": "ନିଃଶ୍ଵାସ ସମୟରେ କେଉଁ ଗ୍ୟାସ୍ ଶରୀରରୁ ବାହାରେ?",
+"options": [
+"ଅମ୍ଳଜାନ",
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"ନାଇଟ୍ରୋଜେନ୍",
+"ହାଇଡ୍ରୋଜେନ୍"
+],
+"answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"explanation": "ଶ୍ଵସନ ଫଳରେ ସୃଷ୍ଟ CO2 ନିଃଶ୍ଵାସ ମାଧ୍ୟମରେ ନିର୍ଗତ ହୁଏ।"
+},
+{
+"questionEnglish": "What are the small air sacs in the lungs called?",
+"questionOdia": "ଫୁସଫୁସରେ ଥିବା କ୍ଷୁଦ୍ର ବାୟୁକୋଷଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ବ୍ରୋଙ୍କାଇ",
+"ଆଲଭିଓଲି (Alveoli)",
+"ଟ୍ରାକିଆ",
+"ବ୍ରୋଙ୍କିଓଲ୍"
+],
+"answer": "ଆଲଭିଓଲି (Alveoli)",
+"explanation": "ଆଲଭିଓଲିରେ ଗ୍ୟାସ୍ ବିନିମୟ ହୁଏ।"
+},
+{
+"questionEnglish": "Which structure prevents food from entering the windpipe?",
+"questionOdia": "କେଉଁ ଅଂଶ ଖାଦ୍ୟକୁ ଶ୍ଵାସନଳୀ ଭିତରକୁ ଯିବାକୁ ରୋକେ?",
+"options": [
+"ଫାରିଂକ୍ସ",
+"ଏପିଗ୍ଲଟିସ୍",
+"ଲାରିଂକ୍ସ",
+"ବ୍ରୋଙ୍କସ୍"
+],
+"answer": "ଏପିଗ୍ଲଟିସ୍",
+"explanation": "ଏପିଗ୍ଲଟିସ୍ ଖାଦ୍ୟ ଗିଳିବା ବେଳେ ଶ୍ଵାସନଳୀକୁ ବନ୍ଦ କରିଦିଏ।"
+},
+{
+"questionEnglish": "What is the average breathing rate in a healthy adult at rest?",
+"questionOdia": "ବିଶ୍ରାମ ସମୟରେ ଜଣେ ସୁସ୍ଥ ବୟସ୍କ ବ୍ୟକ୍ତିର ହାରାହାରି ଶ୍ଵାସହାର କେତେ?",
+"options": [
+"୮-୧୦ ଥର",
+"୧୨-୧୮ ଥର",
+"୨୦-୨୫ ଥର",
+"୩୦-୪୦ ଥର"
+],
+"answer": "୧୨-୧୮ ଥର",
+"explanation": "ପ୍ରତି ମିନିଟରେ ପ୍ରାୟ ୧୨ରୁ ୧୮ ଥର ଶ୍ଵାସକ୍ରିୟା ହୁଏ।"
+},
+{
+"questionEnglish": "Which muscle helps in the movement of the lungs?",
+"questionOdia": "ଫୁସଫୁସର ଚଳନରେ କେଉଁ ପେଶୀ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ହୃଦ୍‌ପେଶୀ",
+"ଡାଇଫ୍ରାମ୍ (Diaphragm)",
+"ଅସ୍ଥିପେଶୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଡାଇଫ୍ରାମ୍ (Diaphragm)",
+"explanation": "ଡାଇଫ୍ରାମ୍ ସଙ୍କୋଚନ ଓ ପ୍ରସାରଣ ଦ୍ଵାରା ଶ୍ଵାସକ୍ରିୟା ହୁଏ।"
+},
+{
+"questionEnglish": "What is the primary site of gas exchange in the lungs?",
+"questionOdia": "ଫୁସଫୁସରେ ଗ୍ୟାସ୍ ବିନିମୟର ମୁଖ୍ୟ ସ୍ଥାନ କଣ?",
+"options": [
+"ଟ୍ରାକିଆ",
+"ବ୍ରୋଙ୍କିଓଲ୍",
+"ଆଲଭିଓଲି",
+"ଫାରିଂକ୍ସ"
+],
+"answer": "ଆଲଭିଓଲି",
+"explanation": "ଆଲଭିଓଲିର ପତଳା କାନ୍ଥ ଦେଇ ଅମ୍ଳଜାନ ଓ CO2 ବିନିମୟ ହୁଏ।"
+},
+{
+"questionEnglish": "Which protein helps transport oxygen?",
+"questionOdia": "କେଉଁ ପ୍ରୋଟିନ୍ ଅମ୍ଳଜାନ ପରିବହନରେ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"କେରାଟିନ୍",
+"ହିମୋଗ୍ଲୋବିନ୍",
+"ଆଲବୁମିନ୍",
+"କୋଲାଜେନ୍"
+],
+"answer": "ହିମୋଗ୍ଲୋବିନ୍",
+"explanation": "ହିମୋଗ୍ଲୋବିନ୍ ଏକ ଶ୍ଵସନ ରଞ୍ଜକ ଯାହା ଅମ୍ଳଜାନ ବହନ କରେ।"
+},
+{
+"questionEnglish": "In which plants does stomata help in gas exchange?",
+"questionOdia": "ଉଦ୍ଭିଦରେ ପତ୍ରରନ୍ଧ୍ର କେଉଁ କାର୍ଯ୍ୟରେ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ଗ୍ୟାସ୍ ବିନିମୟ",
+"ଖାଦ୍ୟ ସଞ୍ଚୟ",
+"ପରାଗ ସଙ୍ଗମ",
+"ବଂଶବୃଦ୍ଧି"
+],
+"answer": "ଗ୍ୟାସ୍ ବିନିମୟ",
+"explanation": "ପତ୍ରରନ୍ଧ୍ର ଦ୍ଵାରା ଉଦ୍ଭିଦ ବାୟୁମଣ୍ଡଳ ସହ ଗ୍ୟାସ୍ ଆଦାନପ୍ରଦାନ କରେ।"
+},
+{
+"questionEnglish": "What is the role of mitochondria in respiration?",
+"questionOdia": "ଶ୍ଵସନରେ ମାଇଟୋକଣ୍ଡ୍ରିଆର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ଶକ୍ତି ଉତ୍ପାଦନ",
+"ଖାଦ୍ୟ ହଜମ",
+"ଜଳ ସଂଗ୍ରହ",
+"ପୁଷ୍ଟିସାର ନିର୍ମାଣ"
+],
+"answer": "ଶକ୍ତି ଉତ୍ପାଦନ",
+"explanation": "ମାଇଟୋକଣ୍ଡ୍ରିଆରେ କ୍ରେବ୍ସ ଚକ୍ର ମାଧ୍ୟମରେ ଶକ୍ତି ଉତ୍ପନ୍ନ ହୁଏ।"
+},
+{
+"questionEnglish": "How many ATP are formed in the Krebs cycle?",
+"questionOdia": "କ୍ରେବ୍ସ ଚକ୍ରରେ କେତେଟି ATP ତିଆରି ହୁଏ?",
+"options": [
+"୨ଟି",
+"୩୬ଟି",
+"୩୮ଟି",
+"୪ଟି"
+],
+"answer": "୨ଟି",
+"explanation": "କ୍ରେବ୍ସ ଚକ୍ରରୁ ୨ଟି ATP ମିଳେ।"
+},
+{
+"questionEnglish": "What is the final stage of aerobic respiration?",
+"questionOdia": "ବାୟୁଜୀବୀ ଶ୍ଵସନର ଶେଷ ପର୍ଯ୍ୟାୟ କଣ?",
+"options": [
+"ଗ୍ଲାଇକୋଲିସିସ୍",
+"କ୍ରେବ୍ସ ଚକ୍ର",
+"ଇଲେକ୍ଟ୍ରନ୍ ପରିବହନ ଶୃଙ୍ଖଳା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଇଲେକ୍ଟ୍ରନ୍ ପରିବହନ ଶୃଙ୍ଖଳା",
+"explanation": "ଏହି ପର୍ଯ୍ୟାୟରେ ସର୍ବାଧିକ ଶକ୍ତି ATP ଆକାରରେ ମୁକ୍ତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which acid is produced in muscle cells under oxygen deficiency?",
+"questionOdia": "ଅମ୍ଳଜାନ ଅଭାବରେ ପେଶୀ କୋଷରେ କେଉଁ ଏସିଡ୍ ତିଆରି ହୁଏ?",
+"options": [
+"ସାଇଟ୍ରିକ୍ ଏସିଡ୍",
+"ଲାକ୍ଟିକ୍ ଏସିଡ୍",
+"ମାଲିକ୍ ଏସିଡ୍",
+"ଏସିଟିକ୍ ଏସିଡ୍"
+],
+"answer": "ଲାକ୍ଟିକ୍ ଏସିଡ୍",
+"explanation": "ଅବାୟୁଜୀବୀ ଶ୍ଵସନ ଯୋଗୁଁ ଲାକ୍ଟିକ୍ ଏସିଡ୍ ସୃଷ୍ଟି ହୁଏ।"
+},
+{
+"questionEnglish": "What is the main byproduct of respiration?",
+"questionOdia": "ଶ୍ଵସନର ମୁଖ୍ୟ ଉପ-ଉତ୍ପାଦ କଣ?",
+"options": [
+"ଅମ୍ଳଜାନ",
+"କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"ନାଇଟ୍ରୋଜେନ୍",
+"ଗ୍ଲୁକୋଜ୍"
+],
+"answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+"explanation": "ଶ୍ଵସନ ଫଳରେ CO2 ନିର୍ଗତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which part of the respiratory system connects pharynx to lungs?",
+"questionOdia": "ଶ୍ଵସନତନ୍ତ୍ରର କେଉଁ ଅଂଶ ଫାରିଂକ୍ସକୁ ଫୁସଫୁସ ସହ ଯୋଡ଼େ?",
+"options": [
+"ଟ୍ରାକିଆ",
+"କଣ୍ଠନଳୀ",
+"ଅନ୍ନନଳୀ",
+"ଡାଇଫ୍ରାମ୍"
+],
+"answer": "ଟ୍ରାକିଆ",
+"explanation": "ଟ୍ରାକିଆ ବା ଶ୍ଵାସନଳୀ ବାୟୁକୁ ଫୁସଫୁସ ପର୍ଯ୍ୟନ୍ତ ନେଇଥାଏ।"
+},
+{
+"questionEnglish": "Is energy required during inhalation?",
+"questionOdia": "ଶ୍ଵାସ ନେବା ସମୟରେ କଣ ଶକ୍ତି ଆବଶ୍ୟକ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ବିଶ୍ରାମରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଶ୍ଵାସକ୍ରିୟା ପାଇଁ ପେଶୀ ସଙ୍କୋଚନ ହେଉଥିବାରୁ ଶକ୍ତି ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "What is the process of gaseous exchange in alveoli called?",
+"questionOdia": "ଆଲଭିଓଲିରେ ଗ୍ୟାସ୍ ବିନିମୟ ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ବିସରଣ (Diffusion)",
+"ଅଭିସ୍ରବଣ",
+"ସକ୍ରିୟ ପରିବହନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବିସରଣ (Diffusion)",
+"explanation": "ଗ୍ୟାସ୍ ଉଚ୍ଚ ସାନ୍ଦ୍ରତାରୁ ନିମ୍ନ ସାନ୍ଦ୍ରତାକୁ ବିସରଣ ଦ୍ଵାରା ଯାଏ।"
+},
+{
+"questionEnglish": "Which of the following organisms use skin for respiration?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଜୀବ ଚର୍ମ ସାହାଯ୍ୟରେ ଶ୍ଵସନ କରେ?",
+"options": [
+"ମଣିଷ",
+"କେଞ୍ଚୁଆ",
+"ମାଛ",
+"ପକ୍ଷୀ"
+],
+"answer": "କେଞ୍ଚୁଆ",
+"explanation": "କେଞ୍ଚୁଆ ତା'ର ଓଦା ଚର୍ମ ଦ୍ଵାରା ଶ୍ଵସନ କରେ।"
+},
+{
+"questionEnglish": "What is the function of mucus in the respiratory tract?",
+"questionOdia": "ଶ୍ଵସନ ନଳୀରେ ମ୍ୟୁକସର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ବାୟୁକୁ ଫିଲ୍ଟର କରିବା",
+"ଖାଦ୍ୟ ପଠାଇବା",
+"ଅମ୍ଳଜାନ ସୃଷ୍ଟି କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାୟୁକୁ ଫିଲ୍ଟର କରିବା",
+"explanation": "ମ୍ୟୁକସ୍ ଧୂଳିକଣା ଓ ଜୀବାଣୁକୁ ଅଟକାଇ ବାୟୁକୁ ସଫା କରେ।"
+},
+{
+"questionEnglish": "What are the lungs protected by?",
+"questionOdia": "ଫୁସଫୁସ କାହା ଦ୍ଵାରା ସୁରକ୍ଷିତ?",
+"options": [
+"କବଚ (Rib cage)",
+"ପେଶୀ",
+"ଚର୍ବି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କବଚ (Rib cage)",
+"explanation": "ପଞ୍ଜରା ହାଡ଼ ବା Rib cage ଫୁସଫୁସକୁ ସୁରକ୍ଷା ଦିଏ।"
+},
+{
+"questionEnglish": "What is the effect of carbon monoxide on hemoglobin?",
+"questionOdia": "ହିମୋଗ୍ଲୋବିନ୍ ଉପରେ କାର୍ବନ ମନୋକ୍ସାଇଡର ପ୍ରଭାବ କଣ?",
+"options": [
+"ଅମ୍ଳଜାନ ବହନ କ୍ଷମତା କମାଇଦିଏ",
+"ଅମ୍ଳଜାନ ବହନ କ୍ଷମତା ବଢ଼ାଏ",
+"ହିମୋଗ୍ଲୋବିନ୍ ବଢ଼ାଏ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମ୍ଳଜାନ ବହନ କ୍ଷମତା କମାଇଦିଏ",
+"explanation": "କାର୍ବନ ମନୋକ୍ସାଇଡ୍ ହିମୋଗ୍ଲୋବିନ୍ ସହ ଅମ୍ଳଜାନଠାରୁ ଶୀଘ୍ର ବାନ୍ଧି ହୋଇଯାଏ।"
+},
+{
+"questionEnglish": "What is the name of the chemical reaction in respiration?",
+"questionOdia": "ଶ୍ଵସନରେ ହେଉଥିବା ରାସାୟନିକ ପ୍ରତିକ୍ରିୟାର ନାମ କଣ?",
+"options": [
+"ଜାରଣ (Oxidation)",
+"ବିଜାରଣ",
+"ବିଘଟନ",
+"ସଂଶ୍ଳେଷଣ"
+],
+"answer": "ଜାରଣ (Oxidation)",
+"explanation": "ଗ୍ଲୁକୋଜ୍ ର ଜାରଣ ଫଳରେ ଶକ୍ତି ମିଳେ।"
+},
+{
+"questionEnglish": "Which part of the brain controls respiration?",
+"questionOdia": "ମସ୍ତିଷ୍କର କେଉଁ ଅଂଶ ଶ୍ଵସନକୁ ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": [
+"ଲଘୁ ମସ୍ତିଷ୍କ",
+"ମେଡୁଲା ଅବଲଙ୍ଗାଟା",
+"ସେରେବ୍ରମ୍",
+"ହାଇପୋଥାଲାମସ୍"
+],
+"answer": "ମେଡୁଲା ଅବଲଙ୍ଗାଟା",
+"explanation": "ମେଡୁଲା ଶ୍ଵସନହାରକୁ ନିୟନ୍ତ୍ରଣ କରେ।"
+},
+{
+"questionEnglish": "What is the respiratory system for fish called?",
+"questionOdia": "ମାଛର ଶ୍ଵସନ ଅଙ୍ଗକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ଫୁସଫୁସ",
+"କାଲିଫୁଲ (Gills)",
+"ଟ୍ରାକିଆ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାଲିଫୁଲ (Gills)",
+"explanation": "ମାଛ ପାଣିରେ ଦ୍ରବୀଭୂତ ଅମ୍ଳଜାନକୁ କାଲିଫୁଲ ସାହାଯ୍ୟରେ ଗ୍ରହଣ କରେ।"
+},
+{
+"questionEnglish": "What is the role of ATP?",
+"questionOdia": "ATP ର କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ଶକ୍ତିର ଭଣ୍ଡାର",
+"ଖାଦ୍ୟର ଭଣ୍ଡାର",
+"ବର୍ଜ୍ୟବସ୍ତୁ ଭଣ୍ଡାର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତିର ଭଣ୍ଡାର",
+"explanation": "ATP ଶରୀରର ବିଭିନ୍ନ କାର୍ଯ୍ୟ ପାଇଁ ଶକ୍ତି ଯୋଗାଏ।"
+},
+{
+"questionEnglish": "What is the process of getting energy without oxygen?",
+"questionOdia": "ଅମ୍ଳଜାନ ବିନା ଶକ୍ତି ପାଇବାର ପ୍ରକ୍ରିୟାକୁ କଣ କୁହନ୍ତି?",
+"options": [
+"ଅବାୟୁଜୀବୀ ଶ୍ଵସନ",
+"ବାୟୁଜୀବୀ ଶ୍ଵସନ",
+"ଆଲୋକଶ୍ଳେଷଣ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅବାୟୁଜୀବୀ ଶ୍ଵସନ",
+"explanation": "ଅମ୍ଳଜାନ ଅଭାବରେ ହେଉଥିବା ଶ୍ଵସନ ଅବାୟୁଜୀବୀ।"
+},
+{
+"questionEnglish": "Where are bronchial tubes found?",
+"questionOdia": "ବ୍ରୋଙ୍କିଆଲ୍ ନଳୀ କେଉଁଠାରେ ଥାଏ?",
+"options": [
+"ଫୁସଫୁସ",
+"ଯକୃତ",
+"ଆମାଶୟ",
+"ବୃକ୍କ"
+],
+"answer": "ଫୁସଫୁସ",
+"explanation": "ବ୍ରୋଙ୍କିଆଲ୍ ନଳୀ ଫୁସଫୁସ ଭିତରେ ବାୟୁ ବହନ କରେ।"
+},
+{
+"questionEnglish": "What happens to diaphragm during inhalation?",
+"questionOdia": "ଶ୍ଵାସ ନେବା ସମୟରେ ଡାଇଫ୍ରାମ୍ କଣ ହୁଏ?",
+"options": [
+"ତଳକୁ ସଙ୍କୁଚିତ ହୁଏ",
+"ଉପରକୁ ଉଠେ",
+"ସ୍ଥିର ରହେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ତଳକୁ ସଙ୍କୁଚିତ ହୁଏ",
+"explanation": "ଡାଇଫ୍ରାମ୍ ତଳକୁ ହେଲେ ଫୁସଫୁସ ପାଇଁ ଅଧିକ ସ୍ଥାନ ମିଳେ।"
+},
+{
+"questionEnglish": "What is the main purpose of ATP hydrolysis?",
+"questionOdia": "ATP ର ଜଳ ବିଶ୍ଳେଷଣର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କଣ?",
+"options": [
+"ଶକ୍ତି ମୁକ୍ତ କରିବା",
+"ଶକ୍ତି ଗଚ୍ଛିତ କରିବା",
+"ଜଳ ତିଆରି କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତି ମୁକ୍ତ କରିବା",
+"explanation": "ATP ଭାଙ୍ଗିଲେ ଶକ୍ତି ମୁକ୍ତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which process is common in all living organisms?",
+"questionOdia": "ସମସ୍ତ ଜୀବଙ୍କଠାରେ କେଉଁ ପ୍ରକ୍ରିୟା ସାଧାରଣ?",
+"options": [
+"ଶ୍ଵସନ",
+"ଆଲୋକଶ୍ଳେଷଣ",
+"ଅସ୍ଥି ନିର୍ମାଣ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶ୍ଵସନ",
+"explanation": "ଜୀବିତ ରହିବା ପାଇଁ ଶ୍ଵସନ ପ୍ରତ୍ୟେକ ଜୀବ ପାଇଁ ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "Where does CO2 release from?",
+"questionOdia": "CO2 କେଉଁଠାରୁ ବାହାରେ?",
+"options": [
+"କୋଷ",
+"ଅସ୍ଥି",
+"ଦାନ୍ତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କୋଷ",
+"explanation": "ଶ୍ଵସନ ପ୍ରକ୍ରିୟାରେ କୋଷରେ CO2 ତିଆରି ହୋଇ ରକ୍ତ ଦ୍ଵାରା ଫୁସଫୁସକୁ ଆସେ।"
+},
+{
+"questionEnglish": "What is the role of nasal cavity?",
+"questionOdia": "ନାସିକା ଗହ୍ଵରର କାମ କଣ?",
+"options": [
+"ବାୟୁକୁ ପରିଷ୍କାର ଓ ଗରମ କରିବା",
+"ଖାଦ୍ୟ ପେଷିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାୟୁକୁ ପରିଷ୍କାର ଓ ଗରମ କରିବା",
+"explanation": "ନାସିକା ଗହ୍ଵର ବାୟୁକୁ ଶରୀରର ତାପମାତ୍ରାରେ ପହଞ୍ଚାଏ।"
+},
+{
+"questionEnglish": "What is the result of yeast fermentation?",
+"questionOdia": "ଇଷ୍ଟର କିଣ୍ଵନ ଫଳରେ କଣ ମିଳେ?",
+"options": [
+"ଇଥାନଲ୍",
+"ଲାକ୍ଟିକ୍ ଏସିଡ୍",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଇଥାନଲ୍",
+"explanation": "ଇଷ୍ଟ ଅବାୟୁଜୀବୀ ଶ୍ଵସନରେ ଇଥାନଲ୍ ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "What is the respiratory system?",
+"questionOdia": "ଶ୍ଵସନତନ୍ତ୍ର କଣ?",
+"options": [
+"ଶ୍ଵାସକ୍ରିୟା ପାଇଁ ଅଙ୍ଗମାନଙ୍କର ସମୂହ",
+"ଖାଦ୍ୟ ହଜମ ପାଇଁ ଅଙ୍ଗ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶ୍ଵସନତନ୍ତ୍ର କଣ?",
+"explanation": "ଶ୍ଵସନ ପାଇଁ ଉଦ୍ଦିଷ୍ଟ ସମସ୍ତ ଅଙ୍ଗର ମିଳିତ କାର୍ଯ୍ୟ।"
+},
+{
+"questionEnglish": "What is vital capacity?",
+"questionOdia": "ଜୀବନ କ୍ଷମତା (Vital capacity) କଣ?",
+"options": [
+"ଫୁସଫୁସର ସର୍ବାଧିକ ବାୟୁ ଗ୍ରହଣ କ୍ଷମତା",
+"କିଛି ନୁହେଁ",
+"ଖାଇବା କ୍ଷମତା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଫୁସଫୁସର ସର୍ବାଧିକ ବାୟୁ ଗ୍ରହଣ କ୍ଷମତା",
+"explanation": "ଗଭୀର ନିଃଶ୍ଵାସ ପରେ ତ୍ୟାଗ କରିପାରୁଥିବା ବାୟୁର ଆୟତନ।"
+},
+{
+"questionEnglish": "What are ribs?",
+"questionOdia": "ପଞ୍ଜରା ହାଡ଼ (Ribs) କଣ?",
+"options": [
+"ଛାତିର ହାଡ଼",
+"ପେଟର ହାଡ଼",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଛାତିର ହାଡ଼",
+"explanation": "ଛାତିର ହାଡ଼ ଫୁସଫୁସକୁ ସୁରକ୍ଷା ଦିଏ।"
+},
+{
+"questionEnglish": "What is the function of air?",
+"questionOdia": "ବାୟୁର କାମ କଣ?",
+"options": [
+"ଅମ୍ଳଜାନ ଯୋଗାଇବା",
+"କିଛି ନୁହେଁ",
+"ଖାଇବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମ୍ଳଜାନ ଯୋଗାଇବା",
+"explanation": "ବାୟୁରୁ ଅମ୍ଳଜାନ ଶ୍ଵସନ ପାଇଁ ମିଳେ।"
+},
+{
+"questionEnglish": "What is the main gas in air?",
+"questionOdia": "ବାୟୁରେ ଥିବା ମୁଖ୍ୟ ଗ୍ୟାସ୍ କଣ?",
+"options": [
+"ନାଇଟ୍ରୋଜେନ୍",
+"ଅମ୍ଳଜାନ",
+"CO2",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନାଇଟ୍ରୋଜେନ୍",
+"explanation": "ବାୟୁରେ ୭୮% ନାଇଟ୍ରୋଜେନ୍ ଥାଏ।"
+},
+{
+"questionEnglish": "Which part of lungs absorbs oxygen?",
+"questionOdia": "ଫୁସଫୁସର କେଉଁ ଅଂଶ ଅମ୍ଳଜାନ ଶୋଷେ?",
+"options": [
+"ଆଲଭିଓଲି",
+"ବ୍ରୋଙ୍କିଓଲ୍",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଆଲଭିଓଲି",
+"explanation": "ଆଲଭିଓଲି ରକ୍ତକୁ ଅମ୍ଳଜାନ ଦିଏ।"
+},
+{
+"questionEnglish": "What happens when you hold your breath?",
+"questionOdia": "ଶ୍ଵାସ ଅଟକାଇଲେ କଣ ହୁଏ?",
+"options": [
+"CO2 ବଢ଼ିଯାଏ",
+"ଅମ୍ଳଜାନ ବଢ଼ିଯାଏ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "CO2 ବଢ଼ିଯାଏ",
+"explanation": "ଶ୍ଵାସ ଅଟକାଇଲେ ରକ୍ତରେ CO2 ର ପରିମାଣ ବଢ଼ିଯାଏ।"
+},
+{
+"questionEnglish": "What is asthma?",
+"questionOdia": "ଆଜମା (Asthma) କଣ?",
+"options": [
+"ଶ୍ଵାସନଳୀର ସମସ୍ୟା",
+"ପେଟ ସମସ୍ୟା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶ୍ଵାସନଳୀର ସମସ୍ୟା",
+"explanation": "ଆଜମାରେ ଶ୍ଵାସନଳୀ ସଙ୍କୁଚିତ ହୋଇଯାଏ।"
+},
+{
+"questionEnglish": "Why do we breathe fast after running?",
+"questionOdia": "ଦୌଡ଼ିବା ପରେ କାହିଁକି ଜଲଦି ଶ୍ଵାସ ନେଉ?",
+"options": [
+"ଅମ୍ଳଜାନ ଚାହିଦା ବଢ଼ିବା ପାଇଁ",
+"କିଛି ନୁହେଁ",
+"କାମ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମ୍ଳଜାନ ଚାହିଦା ବଢ଼ିବା ପାଇଁ",
+"explanation": "ଅଧିକ ଶକ୍ତି ପାଇଁ ଅଧିକ ଅମ୍ଳଜାନ ଦରକାର।"
+},
+{
+"questionEnglish": "What is the respiratory centre in the brain?",
+"questionOdia": "ଶ୍ଵସନର ନିୟନ୍ତ୍ରଣ କେନ୍ଦ୍ର କଣ?",
+"options": [
+"ମେଡୁଲା",
+"ସେରେବ୍ରମ୍",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମେଡୁଲା",
+"explanation": "ମେଡୁଲା ଶ୍ଵସନକୁ ନିୟନ୍ତ୍ରଣ କରେ।"
+},
+{
+"questionEnglish": "How does oxygen enter the body?",
+"questionOdia": "ଅମ୍ଳଜାନ କିପରି ଶରୀରକୁ ଆସେ?",
+"options": [
+"ନାକ ଦେଇ",
+"ପାଟି ଦେଇ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନାକ ଦେଇ",
+"explanation": "ନାକ ଦେଇ ବାୟୁ ଭିତରକୁ ଆସେ।"
+},
+{
+"questionEnglish": "What is the role of the larynx?",
+"questionOdia": "କଣ୍ଠନଳୀର କାମ କଣ?",
+"options": [
+"ଶବ୍ଦ ତିଆରି କରିବା",
+"ଖାଦ୍ୟ ଖାଇବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶବ୍ଦ ତିଆରି କରିବା",
+"explanation": "କଣ୍ଠନଳୀରେ ସ୍ୱରତନ୍ତ୍ରୀ ଥାଏ ଯାହା ଶବ୍ଦ ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "What is the role of bronchioles?",
+"questionOdia": "ବ୍ରୋଙ୍କିଓଲ୍‌ର କାମ କଣ?",
+"options": [
+"ବାୟୁକୁ ଆଲଭିଓଲିକୁ ନେବା",
+"ଖାଦ୍ୟ ନେବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାୟୁକୁ ଆଲଭିଓଲିକୁ ନେବା",
+"explanation": "ବ୍ରୋଙ୍କିଓଲ୍ ଶାଖା ପ୍ରଶାଖା ହୋଇ ଆଲଭିଓଲିକୁ ବାୟୁ ପହଞ୍ଚାଏ।"
+},
+{
+"questionEnglish": "What are respiratory diseases?",
+"questionOdia": "ଶ୍ଵସନ ରୋଗ କଣ?",
+"options": [
+"ଫୁସଫୁସର ରୋଗ",
+"ପେଟର ରୋଗ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଫୁସଫୁସର ରୋଗ",
+"explanation": "ଶ୍ଵସନ ତନ୍ତ୍ରରେ ହେଉଥିବା ସଂକ୍ରମଣ।"
+},
+{
+"questionEnglish": "What is pollution effect on lungs?",
+"questionOdia": "ପ୍ରଦୂଷଣର ଫୁସଫୁସ ଉପରେ ପ୍ରଭାବ କଣ?",
+"options": [
+"କ୍ଷତିକାରକ",
+"ଭଲ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କ୍ଷତିକାରକ",
+"explanation": "ପ୍ରଦୂଷଣ ଫୁସଫୁସକୁ ଦୁର୍ବଳ କରେ।"
+},
+{
+"questionEnglish": "What do plants need from air for respiration?",
+"questionOdia": "ଉଦ୍ଭିଦକୁ ଶ୍ଵସନ ପାଇଁ ବାୟୁରୁ କଣ ଦରକାର?",
+"options": [
+"ଅମ୍ଳଜାନ",
+"CO2",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମ୍ଳଜାନ",
+"explanation": "ଶ୍ଵସନ ପାଇଁ ସବୁ ଜୀବ ଅମ୍ଳଜାନ ଦରକାର କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is the result of respiration?",
+"questionOdia": "ଶ୍ଵସନର ଫଳାଫଳ କଣ?",
+"options": [
+"ଶକ୍ତି ମିଳିବା",
+"ଖାଦ୍ୟ ତିଆରି",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତି ମିଳିବା",
+"explanation": "ଶ୍ଵସନରେ ଶକ୍ତି ଉତ୍ପନ୍ନ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the effect of physical activity?",
+"questionOdia": "ଶାରୀରିକ ବ୍ୟାୟାମର ପ୍ରଭାବ କଣ?",
+"options": [
+"ଶ୍ଵସନ ବଢ଼ିବା",
+"ଶ୍ଵସନ କମିବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶ୍ଵସନ ବଢ଼ିବା",
+"explanation": "ଅଧିକ କାମ କଲେ ଶ୍ଵସନ ବଢ଼େ।"
+},
+{
+"questionEnglish": "What is the respiratory surface?",
+"questionOdia": "ଶ୍ଵସନ ପୃଷ୍ଠ କଣ?",
+"options": [
+"ଗ୍ୟାସ୍ ବିନିମୟ ହେଉଥିବା ପୃଷ୍ଠ",
+"ଚର୍ମ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗ୍ୟାସ୍ ବିନିମୟ ହେଉଥିବା ପୃଷ୍ଠ",
+"explanation": "ଯେଉଁଠାରେ ଅମ୍ଳଜାନ ଓ CO2 ବିନିମୟ ହୁଏ।"
+},
+{
+"questionEnglish": "What is pulmonary respiration?",
+"questionOdia": "ଫୁସଫୁସୀୟ ଶ୍ଵସନ କଣ?",
+"options": [
+"ଫୁସଫୁସ ଦ୍ଵାରା ଶ୍ଵସନ",
+"ଚର୍ମ ଦ୍ଵାରା ଶ୍ଵସନ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଫୁସଫୁସ ଦ୍ଵାରା ଶ୍ଵସନ",
+"explanation": "ଫୁସଫୁସ ସାହାଯ୍ୟରେ ହେଉଥିବା ଶ୍ଵସନ।"
+},
+{
+"questionEnglish": "Why is oxygen necessary?",
+"questionOdia": "ଅମ୍ଳଜାନ କାହିଁକି ଦରକାର?",
+"options": [
+"ଶକ୍ତି ପାଇଁ",
+"ଖାଇବା ପାଇଁ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତି ପାଇଁ",
+"explanation": "ଖାଦ୍ୟରୁ ଶକ୍ତି ମିଳିବା ପାଇଁ ଅମ୍ଳଜାନ ଦରକାର।"
+},
+{
+"questionEnglish": "What is the role of capillaries?",
+"questionOdia": "କେଶିକାର କାମ କଣ?",
+"options": [
+"ରକ୍ତ ଓ କୋଷ ମଧ୍ୟରେ ପଦାର୍ଥ ଆଦାନପ୍ରଦାନ",
+"ଖାଦ୍ୟ ତିଆରି",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ଓ କୋଷ ମଧ୍ୟରେ ପଦାର୍ଥ ଆଦାନପ୍ରଦାନ",
+"explanation": "କେଶିକା ଅତି ପତଳା ହୋଇଥିବାରୁ ଏହା ସହଜ କରେ।"
+},
+{
+"questionEnglish": "What is the respiratory quotient?",
+"questionOdia": "ଶ୍ଵସନ ଅନୁପାତ କଣ?",
+"options": [
+"CO2 ଓ O2 ର ଅନୁପାତ",
+"O2 ଓ CO2 ର ଅନୁପାତ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "CO2 ଓ O2 ର ଅନୁପାତ",
+"explanation": "ଶ୍ଵସନରେ ବାହାରୁଥିବା CO2 ଓ ବ୍ୟବହୃତ O2 ର ଅନୁପାତ।"
+},
+{
+"questionEnglish": "What is cellular respiration?",
+"questionOdia": "କୋଷୀୟ ଶ୍ଵସନ କଣ?",
+"options": [
+"କୋଷ ଭିତରେ ଶ୍ଵସନ",
+"ବାହାରେ ଶ୍ଵସନ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କୋଷ ଭିତରେ ଶ୍ଵସନ",
+"explanation": "କୋଷରେ ଶକ୍ତି ଉତ୍ପାଦନ ପ୍ରକ୍ରିୟା।"
+},
+{
+"questionEnglish": "What is the role of hemoglobin?",
+"questionOdia": "ହିମୋଗ୍ଲୋବିନର କାମ କଣ?",
+"options": [
+"ଅମ୍ଳଜାନ ବହନ",
+"ଖାଦ୍ୟ ହଜମ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମ୍ଳଜାନ ବହନ",
+"explanation": "ହିମୋଗ୍ଲୋବିନ୍ ରକ୍ତରେ ଅମ୍ଳଜାନ ବହନ କରେ।"
+},
+{
+"questionEnglish": "What is the function of the pharynx?",
+"questionOdia": "ଗ୍ରସନୀର କାମ କଣ?",
+"options": [
+"ବାୟୁ ଓ ଖାଦ୍ୟର ପଥ",
+"କେବଳ ବାୟୁ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାୟୁ ଓ ଖାଦ୍ୟର ପଥ",
+"explanation": "ଗ୍ରସନୀ ଦେଇ ଉଭୟ ବାୟୁ ଓ ଖାଦ୍ୟ ଯାଏ।"
+},
+{
+"questionEnglish": "What is internal respiration?",
+"questionOdia": "ଅନ୍ତଃ ଶ୍ଵସନ କଣ?",
+"options": [
+"ରକ୍ତ ଓ କୋଷ ମଧ୍ୟରେ ଗ୍ୟାସ୍ ବିନିମୟ",
+"ବାୟୁ ଓ ରକ୍ତ ମଧ୍ୟରେ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତ ଓ କୋଷ ମଧ୍ୟରେ ଗ୍ୟାସ୍ ବିନିମୟ",
+"explanation": "କୋଷସ୍ତରରେ ହେଉଥିବା ଗ୍ୟାସ୍ ବିନିମୟ।"
+},
+{
+"questionEnglish": "What is external respiration?",
+"questionOdia": "ବାହ୍ୟ ଶ୍ଵସନ କଣ?",
+"options": [
+"ବାୟୁ ଓ ରକ୍ତ ମଧ୍ୟରେ ଗ୍ୟାସ୍ ବିନିମୟ",
+"କୋଷ ଭିତରେ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାୟୁ ଓ ରକ୍ତ ମଧ୍ୟରେ ଗ୍ୟାସ୍ ବିନିମୟ",
+"explanation": "ଫୁସଫୁସ ସ୍ତରରେ ହେଉଥିବା ବିନିମୟ।"
+},
+{
+"questionEnglish": "What causes gas exchange?",
+"questionOdia": "କଣ ପାଇଁ ଗ୍ୟାସ୍ ବିନିମୟ ହୁଏ?",
+"options": [
+"ଚାପର ପାର୍ଥକ୍ୟ",
+"କିଛି ନୁହେଁ",
+"ଶକ୍ତି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଚାପର ପାର୍ଥକ୍ୟ",
+"explanation": "ଚାପର ପାର୍ଥକ୍ୟ ଯୋଗୁଁ ବାୟୁ ଚଳାଚଳ କରେ।"
+},
+{
+"questionEnglish": "What is the main function of the respiratory system?",
+"questionOdia": "ଶ୍ଵସନତନ୍ତ୍ରର ମୁଖ୍ୟ କାମ କଣ?",
+"options": [
+"ଅମ୍ଳଜାନ ନେବା ଓ CO2 ଛାଡ଼ିବା",
+"ଖାଦ୍ୟ ଦେବା",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମ୍ଳଜାନ ନେବା ଓ CO2 ଛାଡ଼ିବା",
+"explanation": "ଏହାହିଁ ଶ୍ଵସନର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ।"
+},
+{
+"questionEnglish": "Where does CO2 go?",
+"questionOdia": "CO2 କେଉଁଠାକୁ ଯାଏ?",
+"options": [
+"ଫୁସଫୁସକୁ",
+"ପାକସ୍ଥଳୀକୁ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଫୁସଫୁସକୁ",
+"explanation": "ରକ୍ତ CO2 କୁ ଫୁସଫୁସକୁ ଆଣେ।"
+},
+{
+"questionEnglish": "What are the lungs made of?",
+"questionOdia": "ଫୁସଫୁସ କାହାକୁ ନେଇ ଗଠିତ?",
+"options": [
+"ବ୍ରୋଙ୍କିଓଲ୍ ଓ ଆଲଭିଓଲି",
+"କାଚ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବ୍ରୋଙ୍କିଓଲ୍ ଓ ଆଲଭିଓଲି",
+"explanation": "ଫୁସଫୁସ ବହୁତ ଛୋଟ ନଳୀ ଓ ବାୟୁକୋଷକୁ ନେଇ ଗଠିତ।"
+},
+{
+"questionEnglish": "What is the role of nose hair?",
+"questionOdia": "ନାକର ବାଳର କାମ କଣ?",
+"options": [
+"ଧୂଳି ଅଟକାଇବା",
+"ଖାଦ୍ୟ ପାଇଁ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଧୂଳି ଅଟକାଇବା",
+"explanation": "ବାଳ ଧୂଳିକଣାକୁ ନାକ ଭିତରକୁ ଯିବାକୁ ଦିଏ ନାହିଁ।"
+},
+{
+"questionEnglish": "What is the purpose of chest movement?",
+"questionOdia": "ଛାତିର ଚଳନର କାମ କଣ?",
+"options": [
+"ଫୁସଫୁସରେ ବାୟୁ ଭରିବା",
+"ଖାଦ୍ୟ ହଜମ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଫୁସଫୁସରେ ବାୟୁ ଭରିବା",
+"explanation": "ଛାତି ଫୁଲିଲେ ବାୟୁ ଭିତରକୁ ଆସେ।"
+},
+{
+"questionEnglish": "What is the respiration process efficiency?",
+"questionOdia": "ଶ୍ଵସନ ପ୍ରକ୍ରିୟାର ଦକ୍ଷତା କଣ?",
+"options": [
+"ଶକ୍ତି ଉତ୍ପାଦନ",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତି ଉତ୍ପାଦନ",
+"explanation": "ଶ୍ଵସନ ବହୁତ ଶକ୍ତି ମୁକ୍ତ କରେ।"
+},
+{
+"questionEnglish": "What is the role of diaphragm?",
+"questionOdia": "ଡାଇଫ୍ରାମ୍‌ର କାମ କଣ?",
+"options": [
+"ଶ୍ଵାସ ନେବାରେ ସାହାଯ୍ୟ",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶ୍ଵାସ ନେବାରେ ସାହାଯ୍ୟ",
+"explanation": "ଡାଇଫ୍ରାମ୍ ଶ୍ଵାସକ୍ରିୟା ପାଇଁ ଖୁବ ଜରୁରୀ।"
+},
+{
+"questionEnglish": "What is the role of oxygen?",
+"questionOdia": "ଅମ୍ଳଜାନର କାମ କଣ?",
+"options": [
+"ଶ୍ଵସନ",
+"କିଛି ନୁହେଁ",
+"ପ୍ରଦୂଷଣ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶ୍ଵସନ",
+"explanation": "ଅମ୍ଳଜାନ ଶ୍ଵସନ ପାଇଁ ଜରୁରୀ।"
+},
+{
+"questionEnglish": "What is the result of insufficient oxygen?",
+"questionOdia": "ଅମ୍ଳଜାନ କମ୍ ହେଲେ କଣ ହୁଏ?",
+"options": [
+"ଶକ୍ତି କମ୍ ମିଳେ",
+"ଶକ୍ତି ବଢ଼େ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତି କମ୍ ମିଳେ",
+"explanation": "ଅମ୍ଳଜାନ କମ୍ ହେଲେ ଶ୍ଵସନ ବାଧାପ୍ରାପ୍ତ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the role of breathing?",
+"questionOdia": "ଶ୍ଵାସ ନେବାର କାମ କଣ?",
+"options": [
+"ବାୟୁ ଚଳାଚଳ",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାୟୁ ଚଳାଚଳ",
+"explanation": "ଶ୍ଵାସ ନେବା ଦ୍ଵାରା ବାୟୁ ଫୁସଫୁସକୁ ଆସେ।"
+},
+{
+"questionEnglish": "What is the pharynx?",
+"questionOdia": "ଗ୍ରସନୀ କଣ?",
+"options": [
+"ଏକ ଉଭୟ ନଳୀ",
+"କିଛି ନୁହେଁ",
+"ଫୁସଫୁସ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏକ ଉଭୟ ନଳୀ",
+"explanation": "ଗ୍ରସନୀ ଖାଦ୍ୟ ଓ ବାୟୁ ଦୁହିଁଙ୍କ ପାଇଁ ବ୍ୟବହୃତ।"
+},
+{
+"questionEnglish": "What is the larynx?",
+"questionOdia": "କଣ୍ଠନଳୀ କଣ?",
+"options": [
+"ଶବ୍ଦ ଉତ୍ପାଦନ ଅଙ୍ଗ",
+"ଖାଦ୍ୟ ନଳୀ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶବ୍ଦ ଉତ୍ପାଦନ ଅଙ୍ଗ",
+"explanation": "କଣ୍ଠନଳୀ ସ୍ଵର ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "What are alveoli?",
+"questionOdia": "ଆଲଭିଓଲି କଣ?",
+"options": [
+"ବାୟୁକୋଷ",
+"ହାଡ଼",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାୟୁକୋଷ",
+"explanation": "ଫୁସଫୁସର ବାୟୁକୋଷ ଯାହା ଗ୍ୟାସ୍ ବିନିମୟ କରେ।"
+},
+{
+"questionEnglish": "What is the role of breathing in health?",
+"questionOdia": "ସ୍ଵାସ୍ଥ୍ୟ ପାଇଁ ଶ୍ଵାସକ୍ରିୟା କଣ?",
+"options": [
+"ଜୀବନର ଆଧାର",
+"କିଛି ନୁହେଁ",
+"ରୋଗ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜୀବନର ଆଧାର",
+"explanation": "ଶ୍ଵାସକ୍ରିୟା ବିନା ବଞ୍ଚିବା ଅସମ୍ଭବ।"
+},
+{
+"questionEnglish": "What is the role of energy?",
+"questionOdia": "ଶକ୍ତିର କାମ କଣ?",
+"options": [
+"କାର୍ଯ୍ୟ କରିବା",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାର୍ଯ୍ୟ କରିବା",
+"explanation": "ଶକ୍ତି ସବୁ କାର୍ଯ୍ୟ ପାଇଁ ଦରକାର।"
+},
+{
+"questionEnglish": "What is the role of nose?",
+"questionOdia": "ନାକର କାମ କଣ?",
+"options": [
+"ଶ୍ଵାସ ନେବା",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶ୍ଵାସ ନେବା",
+"explanation": "ନାକ ଶ୍ଵାସ ନେବାର ମୁଖ୍ୟ ଦ୍ଵାର।"
+},
+{
+"questionEnglish": "What is the importance of respiration?",
+"questionOdia": "ଶ୍ଵସନର ମହତ୍ତ୍ୱ କଣ?",
+"options": [
+"ଶକ୍ତି ମିଳିବା",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତି ମିଳିବା",
+"explanation": "ଶ୍ଵସନ ଶକ୍ତି ଦିଏ।"
+},
+{
+"questionEnglish": "What is the function of the lungs?",
+"questionOdia": "ଫୁସଫୁସର କାମ କଣ?",
+"options": [
+"ଗ୍ୟାସ୍ ବିନିମୟ",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗ୍ୟାସ୍ ବିନିମୟ",
+"explanation": "ଫୁସଫୁସରେ ଅମ୍ଳଜାନ ଓ CO2 ବିନିମୟ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the result of good respiration?",
+"questionOdia": "ଭଲ ଶ୍ଵସନର ଫଳ କଣ?",
+"options": [
+"ଅଧିକ ଶକ୍ତି",
+"କମ୍ ଶକ୍ତି",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅଧିକ ଶକ୍ତି",
+"explanation": "ଭଲ ଶ୍ଵସନ ଅଧିକ ଶକ୍ତି ଦିଏ।"
+},
+{
+"questionEnglish": "What is the respiration process?",
+"questionOdia": "ଶ୍ଵସନ ପ୍ରକ୍ରିୟା କଣ?",
+"options": [
+"ଜାରଣ ପ୍ରକ୍ରିୟା",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜାରଣ ପ୍ରକ୍ରିୟା",
+"explanation": "ଶ୍ଵସନ ଏକ ଜାରଣ ପ୍ରକ୍ରିୟା।"
+},
+{
+"questionEnglish": "What is the breathing process?",
+"questionOdia": "ଶ୍ଵାସକ୍ରିୟା କଣ?",
+"options": [
+"ବାୟୁ ଚଳାଚଳ",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାୟୁ ଚଳାଚଳ",
+"explanation": "ବାୟୁ ନେବା ଓ ଛାଡ଼ିବା।"
+},
+{
+"questionEnglish": "What is the end of respiration?",
+"questionOdia": "ଶ୍ଵସନର ଶେଷ କଣ?",
+"options": [
+"ଶକ୍ତି ମିଳିବା",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତି ମିଳିବା",
+"explanation": "ଶ୍ଵସନ ଶକ୍ତି ଦେଇ ଶେଷ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the cell respiration?",
+"questionOdia": "କୋଷୀୟ ଶ୍ଵସନ କଣ?",
+"options": [
+"ଶକ୍ତି ଉତ୍ପାଦନ",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶକ୍ତି ଉତ୍ପାଦନ",
+"explanation": "କୋଷରେ ଶକ୍ତି ତିଆରି।"
+},
+{
+"questionEnglish": "What is the importance of oxygen in lungs?",
+"questionOdia": "ଫୁସଫୁସରେ ଅମ୍ଳଜାନର ମହତ୍ତ୍ୱ କଣ?",
+"options": [
+"ରକ୍ତକୁ ସୁଦ୍ଧ କରିବା",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରକ୍ତକୁ ସୁଦ୍ଧ କରିବା",
+"explanation": "ଅମ୍ଳଜାନ ରକ୍ତରେ ମିଶି ରକ୍ତକୁ ସୁଦ୍ଧ କରେ।"
+},
+{
+"questionEnglish": "What is the mechanism of breathing?",
+"questionOdia": "ଶ୍ଵାସକ୍ରିୟାର କୌଶଳ କଣ?",
+"options": [
+"ପେଶୀର ସଙ୍କୋଚନ ଓ ପ୍ରସାରଣ",
+"ଖାଦ୍ୟ",
+"କିଛି ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପେଶୀର ସଙ୍କୋଚନ ଓ ପ୍ରସାରଣ",
+"explanation": "ଡାଇଫ୍ରାମ୍ ଓ ପଞ୍ଜରା ପେଶୀର ଚଳନ।"
+}
 ]
