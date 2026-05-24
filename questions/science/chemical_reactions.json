@@ -1,122 +1,686 @@
 [
   {
-    "questionEnglish": "Which of the following is a physical change?",
-    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଭୌତିକ ପରିବର୍ତ୍ତନ?",
+    "questionEnglish": "What type of light is observed when a magnesium ribbon is burnt in air?",
+    "questionOdia": "ବାୟୁରେ ମ୍ୟାଗ୍ନେସିୟମ୍ ଫିତାକୁ ଜଳାଇଲେ କେଉଁ ପ୍ରକାରର ଶିଖା ଦେଖାଯାଏ?",
     "options": [
-      "Melting of ice",
-      "Rusting of iron",
-      "Burning of wood",
-      "Digestion of food"
+      "ନୀଳ ଶିଖା",
+      "ଉଜ୍ଜ୍ବଳ ଧଳା ଶିଖା",
+      "ନାଲି ଶିଖା",
+      "ହଳଦିଆ ଶିଖା"
     ],
-    "answer": "Melting of ice",
-    "explanation": "Melting of ice is a physical change because no new chemical substance is formed, and it can be reversed easily."
+    "answer": "ଉଜ୍ଜ୍ବଳ ଧଳା ଶିଖା",
+    "explanation": "ମ୍ୟାଗ୍ନେସିୟମ୍ ଫିତା ବାୟୁରେ ଜଳିବା ସମୟରେ ଏକ ଅତି ଉଜ୍ଜ୍ବଳ ଧଳା ଶିଖା (dazzling white flame) ସହିତ ଜଳିଥାଏ।"
   },
   {
-    "questionEnglish": "What type of chemical reaction is the burning of magnesium ribbon in air?",
-    "questionOdia": "ବାୟୁରେ ମ୍ୟାଗ୍ନେସିୟମ୍ ଫିତା ଜଳିବା କେଉଁ ପ୍ରକାରର ରାସାୟନିକ ପ୍ରତିକ୍ରିୟା?",
+    "questionEnglish": "Why is a magnesium ribbon rubbed with sandpaper before burning?",
+    "questionOdia": "ମ୍ୟାଗ୍ନେସିୟମ୍ ଫିତାକୁ ଜଳାଇବା ପୂର୍ବରୁ ବାଲିକାଗଜ ଦ୍ୱାରା କାହିଁକି ସଫା କରାଯାଏ?",
     "options": [
-      "Combination reaction",
-      "Decomposition reaction",
-      "Displacement reaction",
-      "Double displacement reaction"
+      "ଏହାର ଲମ୍ବ ବଢ଼ାଇବା ପାଇଁ",
+      "ଏହାକୁ ଚିକ୍କଣ କରିବା ପାଇଁ",
+      "ଏହାର ଉପରେ ଥିବା ମ୍ୟାଗ୍ନେସିୟମ୍ ଅକ୍ସାଇଡ୍ ସ୍ତରକୁ ହଟାଇବା ପାଇଁ",
+      "ଏହାର ରଙ୍ଗ ପରିବର୍ତ୍ତନ କରିବା ପାଇଁ"
     ],
-    "answer": "Combination reaction",
-    "explanation": "Magnesium combines with oxygen to form a single product, magnesium oxide (2Mg + O2 -> 2MgO), which is a combination reaction."
+    "answer": "ଏହାର ଉପରେ ଥିବା ମ୍ୟାଗ୍ନେସିୟମ୍ ଅକ୍ସାଇଡ୍ ସ୍ତରକୁ ହଟାଇବା ପାଇଁ",
+    "explanation": "ବାୟୁ ସଂସ୍ପର୍ଶରେ ଆସି ମ୍ୟାଗ୍ନେସିୟମ୍ ଉପରେ ଏକ ଅକ୍ସାଇଡ୍ ସ୍ତର ଜମିଯାଏ, ଯାହାକୁ ଜଳାଇବା ପୂର୍ବରୁ ସଫା କରିବା ଆବଶ୍ୟକ ହୋଇଥାଏ।"
   },
   {
-    "questionEnglish": "Which gas is released when zinc reacts with dilute sulphuric acid?",
-    "questionOdia": "ଲଘୁ ସଲଫ୍ୟୁରିକ୍ ଅମ୍ଳ ସହିତ ଜିଙ୍କ୍ ପ୍ରତିକ୍ରିୟା କଲେ କେଉଁ ଗ୍ୟାସ୍ ନିର୍ଗତ ହୁଏ?",
+    "questionEnglish": "What happens when potassium iodide solution is added to lead nitrate solution?",
+    "questionOdia": "ଲେଡ୍ ନାଇଟ୍ରେଟ୍ ଦ୍ରବଣରେ ପୋଟାସିୟମ୍ ଆୟୋଡାଇଡ୍ ମିଶାଇଲେ କଣ ଘଟେ?",
     "options": [
-      "Hydrogen",
-      "Oxygen",
-      "Carbon dioxide",
-      "Nitrogen"
+      "ଏକ ହଳଦିଆ ରଙ୍ଗର ଅବକ୍ଷେପ ସୃଷ୍ଟି ହୁଏ",
+      "ଏକ ନୀଳ ରଙ୍ଗର ଗ୍ୟାସ୍ ବାହାରେ",
+      "କୌଣସି ପରିବର୍ତ୍ତନ ହୁଏ ନାହିଁ",
+      "ଦ୍ରବଣଟି କଳା ପଡ଼ିଯାଏ"
     ],
-    "answer": "Hydrogen",
-    "explanation": "Zinc displaces hydrogen from sulphuric acid to release hydrogen gas (Zn + H2SO4 -> ZnSO4 + H2)."
+    "answer": "ଏକ ହଳଦିଆ ରଙ୍ଗର ଅବକ୍ଷେପ ସୃଷ୍ଟି ହୁଏ",
+    "explanation": "ଲେଡ୍ ନାଇଟ୍ରେଟ୍ ଏବଂ ପୋଟାସିୟମ୍ ଆୟୋଡାଇଡ୍ ମଧ୍ୟରେ ପ୍ରତିକ୍ରିୟା ହେଲେ ଲେଡ୍ ଆୟୋଡାଇଡ୍‌ର ଏକ ହଳଦିଆ ଅବକ୍ଷେପ (yellow precipitate) ଗଠିତ ହୁଏ।"
   },
   {
-    "questionEnglish": "What is the chemical formula of rust?",
-    "questionOdia": "କଳଙ୍କିର ରାସାୟନିକ ସଙ୍କେତ କଣ?",
+    "questionEnglish": "Which gas is evolved when zinc granules react with dilute sulphuric acid?",
+    "questionOdia": "ଜିଙ୍କ୍ ଦାନା ଲଘୁ ସଲଫ୍ୟୁରିକ୍ ଏସିଡ୍ ସହ ପ୍ରତିକ୍ରିୟା କଲେ କେଉଁ ଗ୍ୟାସ୍ ସୃଷ୍ଟି ହୁଏ?",
     "options": [
-      "Fe2O3 . xH2O",
-      "Fe3O4",
+      "ଅମ୍ଳଜାନ",
+      "ହାଇଡ୍ରୋଜେନ୍",
+      "ନାଇଟ୍ରୋଜେନ୍",
+      "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍"
+    ],
+    "answer": "ହାଇଡ୍ରୋଜେନ୍",
+    "explanation": "ଧାତୁ (ଜିଙ୍କ୍) ଲଘୁ ଏସିଡ୍ ସହ ପ୍ରତିକ୍ରିୟା କରି ହାଇଡ୍ରୋଜେନ୍ ($H_2$) ଗ୍ୟାସ୍ ଉତ୍ପନ୍ନ କରିଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which of the following is NOT an indicator of a chemical reaction?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ରାସାୟନିକ ପ୍ରତିକ୍ରିୟାର ସୂଚକ ନୁହେଁ?",
+    "options": [
+      "ରଙ୍ଗର ପରିବର୍ତ୍ତନ",
+      "ଗ୍ୟାସ୍‌ର ନିର୍ଗମନ",
+      "ଅବସ୍ଥାର ପରିବର୍ତ୍ତନ",
+      "ବସ୍ତୁର ଓଜନ ବଢ଼ିଯିବା"
+    ],
+    "answer": "ବସ୍ତୁର ଓଜନ ବଢ଼ିଯିବା",
+    "explanation": "ଅବସ୍ଥା, ରଙ୍ଗ, ଗ୍ୟାସ୍‌ର ନିର୍ଗମନ ଏବଂ ତାପମାତ୍ରାର ପରିବର୍ତ୍ତନ ରାସାୟନିକ ପ୍ରତିକ୍ରିୟାର ସୂଚକ ଅଟେ, ମାତ୍ର ବସ୍ତୁତ୍ଵ ବୃଦ୍ଧି ନୁହେଁ।"
+  },
+  {
+    "questionEnglish": "What is a skeletal chemical equation?",
+    "questionOdia": "ସୂଚକୀୟ ରାସାୟନିକ ସମୀକରଣ କାହାକୁ କୁହାଯାଏ?",
+    "options": [
+      "ଏକ ସମତୁଲ ସମୀକରଣ",
+      "ଏକ ଅସମତୁଲ ସମୀକରଣ",
+      "ଶବ୍ଦ ସମୀକରଣ",
+      "କୌଣସିଟି ନୁହେଁ"
+    ],
+    "answer": "ଏକ ଅସମତୁଲ ସମୀକରଣ",
+    "explanation": "ଯେଉଁ ସମୀକରଣରେ ଉଭୟ ପାର୍ଶ୍ୱର ବସ୍ତୁତ୍ଵ ସମାନ ନଥାଏ ଏବଂ କେବଳ ପ୍ରତିକାରକ ଓ ଉତ୍ପାଦର ସୂଚନା ମିଳେ, ତାହାକୁ ସୂଚକୀୟ ବା କଙ୍କାଳ ସମୀକରଣ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which law governs the balancing of a chemical equation?",
+    "questionOdia": "ରାସାୟନିକ ସମୀକରଣର ସମତୁଲତା କେଉଁ ନିୟମ ଉପରେ ଆଧାରିତ?",
+    "options": [
+      "ସ୍ଥିର ଅନୁପାତ ନିୟମ",
+      "ବସ୍ତୁତ୍ଵ ସଂରକ୍ଷଣ ନିୟମ",
+      "ଆଭୋଗାଡ୍ରୋ ନିୟମ",
+      "ଗତିର ନିୟମ"
+    ],
+    "answer": "ବସ୍ତୁତ୍ଵ ସଂରକ୍ଷଣ ନିୟମ",
+    "explanation": "ବସ୍ତୁତ୍ଵ ସଂରକ୍ଷଣ ନିୟମ ଅନୁସାରେ କୌଣସି ରାସାୟନିକ ପ୍ରତିକ୍ରିୟାରେ ବସ୍ତୁତ୍ଵର ସୃଷ୍ଟି କିମ୍ବା ବିନାଶ ଘଟେ ନାହିଁ।"
+  },
+  {
+    "questionEnglish": "What is the method of balancing a chemical equation called?",
+    "questionOdia": "ରାସାୟନିକ ସମୀକରଣକୁ ସମତୁଲ କରିବା ପଦ୍ଧତିକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ଆନୁମାନିକ ପଦ୍ଧତି",
+      "ପରଖ-ନିରେଖ (Hit-and-trial) ପଦ୍ଧତି",
+      "ବିଜଗାଣିତିକ ପଦ୍ଧତି",
+      "ସଂଶ୍ଳେଷଣ ପଦ୍ଧତି"
+    ],
+    "answer": "ପରଖ-ନିରେଖ (Hit-and-trial) ପଦ୍ଧତି",
+    "explanation": "ସମୀକରଣର ଉଭୟ ପାର୍ଶ୍ଵରେ ଗୁଣାଙ୍କ ବଦଳାଇ ସମତୁଲ କରିବା ପ୍ରକ୍ରିୟାକୁ ପରଖ-ନିରେଖ ପଦ୍ଧତି କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the state of water represented as H2O(g) in the reaction with iron?",
+    "questionOdia": "ଆଇରନ୍ ସହ ପ୍ରତିକ୍ରିୟାରେ H2O(g) ଜଳର କେଉଁ ଅବସ୍ଥାକୁ ସୂଚାଏ?",
+    "options": [
+      "ତରଳ ଜଳ",
+      "ବରଫ",
+      "ଜଳୀୟ ବାଷ୍ପ",
+      "ଜଳୀୟ ଦ୍ରବଣ"
+    ],
+    "answer": "ଜଳୀୟ ବାଷ୍ପ",
+    "explanation": "ଏହି ପ୍ରତିକ୍ରିୟାରେ ଜଳକୁ ଗ୍ୟାସୀୟ ବା ବାଷ୍ପ ଅବସ୍ଥାରେ ବ୍ୟବହାର କରାଯାଉଥିବାରୁ ଏହାକୁ (g) ଦ୍ୱାରା ସୂଚାଇ ଦିଆଯାଇଛି।"
+  },
+  {
+    "questionEnglish": "What pressure conditions are written over the arrow in the formation of methanol from CO and H2?",
+    "questionOdia": "CO ଓ H2 ରୁ ମିଥାନଲ୍ ପ୍ରସ୍ତୁତି ସମୀକରଣରେ ତୀର ଚିହ୍ନ ଉପରେ କେତେ ବାୟୁମଣ୍ଡଳୀୟ ଚାପ ଲେଖାଯାଏ?",
+    "options": [
+      "1 atm",
+      "100 atm",
+      "340 atm",
+      "500 atm"
+    ],
+    "answer": "340 atm",
+    "explanation": "ଏହି ପ୍ରତିକ୍ରିୟାଟି ୩୪୦ ବାୟୁମଣ୍ଡଳୀୟ ଚାପ (340 atm) ରେ ସମ୍ପନ୍ନ ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the common name of Calcium Oxide (CaO)?",
+    "questionOdia": "କ୍ୟାଲସିୟମ୍ ଅକ୍ସାଇଡ୍ (CaO) ର ସାଧାରଣ ନାମ କଣ?",
+    "options": [
+      "ଶମିତ ଚୂନ",
+      "କଲିଚୂନ (Quick lime)",
+      "ଚୂନପଥର",
+      "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସ୍"
+    ],
+    "answer": "କଲିଚୂନ (Quick lime)",
+    "explanation": "କ୍ୟାଲସିୟମ୍ ଅକ୍ସାଇଡ୍ (CaO) କୁ ସାଧାରଣ ଭାଷାରେ କଲିଚୂନ ବା Quick lime କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is formed when water is added to quick lime?",
+    "questionOdia": "କଲିଚୂନରେ ଜଳ ମିଶାଇଲେ କଣ ଉତ୍ପନ୍ନ ହୁଏ?",
+    "options": [
+      "କ୍ୟାଲସିୟମ୍ କାର୍ବୋନେଟ୍",
+      "କ୍ୟାଲସିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍ (ଶମିତ ଚୂନ)",
+      "କ୍ୟାଲସିୟମ୍ କ୍ଲୋରାଇଡ୍",
+      "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍"
+    ],
+    "answer": "କ୍ୟାଲସିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍ (ଶମିତ ଚୂନ)",
+    "explanation": "କଲିଚୂନ ଓ ଜଳ ତୀବ୍ର ପ୍ରତିକ୍ରିୟା କରି ପ୍ରଚୁର ତାପ ସହ ଶମିତ ଚୂନ [$Ca(OH)_2$] ସୃଷ୍ଟି କରନ୍ତି।"
+  },
+  {
+    "questionEnglish": "What type of reaction is the reaction of burning of magnesium ribbon?",
+    "questionOdia": "ମ୍ୟାଗ୍ନେସିୟମ୍ ଫିତାର ଦହନ କେଉଁ ପ୍ରକାରର ପ୍ରତିକ୍ରିୟା?",
+    "options": [
+      "ବିଘଟନ ପ୍ରତିକ୍ରିୟା",
+      "ସଂଶ୍ଳେଷଣ ପ୍ରତିକ୍ରିୟା (Combination)",
+      "ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା",
+      "ଦ୍ୱି-ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା"
+    ],
+    "answer": "ସଂଶ୍ଳେଷଣ ପ୍ରତିକ୍ରିୟା (Combination)",
+    "explanation": "ଏଠାରେ ମ୍ୟାଗ୍ନେସିୟମ୍ ଏବଂ ଅମ୍ଳଜାନ ଦୁଇଟି ପ୍ରତିକାରକ ମିଶି ଏକମାତ୍ର ଉତ୍ପାଦ ମ୍ୟାଗ୍ନେସିୟମ୍ ଅକ୍ସାଇଡ୍ ଗଠନ କରନ୍ତି, ତେଣୁ ଏହା ସଂଶ୍ଳେଷଣ ପ୍ରତିକ୍ରିୟା।"
+  },
+  {
+    "questionEnglish": "What type of reaction produces a single product from two or more reactants?",
+    "questionOdia": "ଯେଉଁ ପ୍ରତିକ୍ରିୟାରେ ଦୁଇ ବା ତତୋଧିକ ପ୍ରତିକାରକ ସଂଯୁକ୍ତ ହୋଇ ଏକମାତ୍ର ଉତ୍ପାଦ ସୃଷ୍ଟି କରନ୍ତି ତାହାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ସଂଶ୍ଳେଷଣ ପ୍ରତିକ୍ରିୟା",
+      "ବିଘଟନ ପ୍ରତିକ୍ରିୟା",
+      "ଜାରଣ ପ୍ରତିକ୍ରିୟା",
+      "ବିଜାରଣ ପ୍ରତିକ୍ରିୟା"
+    ],
+    "answer": "ସଂଶ୍ଳେଷଣ ପ୍ରତିକ୍ରିୟା",
+    "explanation": "ଦୁଇ ବା ଅଧିକ ପ୍ରତିକାରକ ମିଳିତ ହୋଇ ଗୋଟିଏ ଉତ୍ପାଦ ଦେଲେ ତାହାକୁ ସଂଶ୍ଳେଷଣ (Combination Reaction) କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What gas is used during photosynthesis along with water in the presence of sunlight?",
+    "questionOdia": "ଆଲୋକଶ୍ଳେଷଣ ପ୍ରକ୍ରିୟାରେ ସୂର୍ଯ୍ୟାଲୋକ ଉପସ୍ଥିତିରେ ଜଳ ସହିତ କେଉଁ ଗ୍ୟାସ୍‌ର ଆବଶ୍ୟକତା ଥାଏ?",
+    "options": [
+      "ଅମ୍ଳଜାନ",
+      "ନାଇଟ୍ରୋଜେନ୍",
+      "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+      "ହାଇଡ୍ରୋଜେନ୍"
+    ],
+    "answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+    "explanation": "ଉଦ୍ଭିଦମାନେ ସୂର୍ଯ୍ୟାଲୋକ ଓ ହରିତକାଣ ସାହାଯ୍ୟରେ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ($CO_2$) ଏବଂ ଜଳରୁ ଗ୍ଲୁକୋଜ୍ ପ୍ରସ୍ତୁତ କରନ୍ତି।"
+  },
+  {
+    "questionEnglish": "What happens when lead nitrate powder is heated in a boiling tube?",
+    "questionOdia": "ଏକ ଗରମ କରିବା ନଳୀରେ ଲେଡ୍ ନାଇଟ୍ରେଟ୍ ଗୁଣ୍ଡକୁ ଗରମ କଲେ କଣ ଦେଖାଯାଏ?",
+    "options": [
+      "ଧଳା ରଙ୍ଗର ଗ୍ୟାସ୍",
+      "ବାଦାମୀ ରଙ୍ଗର ଧୂଆଁ (Brown fumes)",
+      "ହଳଦିଆ ରଙ୍ଗର ଦ୍ରବଣ",
+      "କୌଣସି ପରିବର୍ତ୍ତନ ହୁଏ ନାହିଁ"
+    ],
+    "answer": "ବାଦାମୀ ରଙ୍ଗର ଧୂଆଁ (Brown fumes)",
+    "explanation": "ଲେଡ୍ ନାଇଟ୍ରେଟ୍‌କୁ ଗରମ କଲେ ନାଇଟ୍ରୋଜେନ୍ ଡାଇଅକ୍ସାଇଡ୍ ($NO_2$) ଗ୍ୟାସ୍ ସୃଷ୍ଟି ହୁଏ, ଯାହା ବାଦାମୀ ରଙ୍ଗର ଧୂଆଁ ସଦୃଶ ଦେଖାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which gas is released during the thermal decomposition of lead nitrate besides nitrogen dioxide?",
+    "questionOdia": "ଲେଡ୍ ନାଇଟ୍ରେଟ୍‌ର ତାପୀୟ ବିଘଟନ ସମୟରେ ନାଇଟ୍ରୋଜେନ୍ ଡାଇଅକ୍ସାଇଡ୍ ବ୍ୟତୀତ କେଉଁ ଗ୍ୟାସ୍ ମୁକ୍ତ ହୁଏ?",
+    "options": [
+      "ହାଇଡ୍ରୋଜେନ୍",
+      "ଅମ୍ଳଜାନ",
+      "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍",
+      "ନାଇଟ୍ରୋଜେନ୍"
+    ],
+    "answer": "ଅମ୍ଳଜାନ",
+    "explanation": "ଲେଡ୍ ନାଇଟ୍ରେଟ୍ ବିଘଟିତ ହୋଇ ଲେଡ୍ ଅକ୍ସାଇଡ୍, ନାଇଟ୍ରୋଜେନ୍ ଡାଇଅକ୍ସାଇଡ୍ ଏବଂ ଅମ୍ଳଜାନ ($O_2$) ଗ୍ୟାସ୍ ଉତ୍ପନ୍ନ କରେ।"
+  },
+  {
+    "questionEnglish": "What color change is observed when white silver chloride is kept in sunlight?",
+    "questionOdia": "ଧଳା ରଙ୍ଗର ସିଲ୍‌ଭର୍ କ୍ଲୋରାଇଡ୍‌କୁ ସୂର୍ଯ୍ୟାଲୋକରେ ରଖିଲେ ଏହାର ରଙ୍ଗ କଣ ହୁଏ?",
+    "options": [
+      "କଳା",
+      "ହଳଦିଆ",
+      "ଧୂସର (Grey)",
+      "ନୀଳ"
+    ],
+    "answer": "ଧୂସର (Grey)",
+    "explanation": "ସୂର୍ଯ୍ୟାଲୋକରେ ସିଲ୍‌ଭର୍ କ୍ଲୋରାଇଡ୍‌ର ଆଲୋକୀୟ ବିଘଟନ ଘଟି ଏହା ଧୂସର ରଙ୍ଗର ସିଲ୍‌ଭର୍ ଧାତୁରେ ପରିଣତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Silver bromide decomposes in the presence of sunlight into silver and which gas?",
+    "questionOdia": "ସୂର୍ଯ୍ୟାଲୋକର ଉପସ୍ଥିତିରେ ସିଲ୍‌ଭର୍ ବ୍ରୋମାଇଡ୍ ବିଘଟିତ ହୋଇ ସିଲ୍‌ଭର୍ ଏବଂ କେଉଁ ଗ୍ୟାସ୍ ସୃଷ୍ଟି କରେ?",
+    "options": [
+      "କ୍ଲୋରିନ୍",
+      "ହାଇଡ୍ରୋଜେନ୍",
+      "ବ୍ରୋମିନ୍",
+      "ଅମ୍ଳଜାନ"
+    ],
+    "answer": "ବ୍ରୋମିନ୍",
+    "explanation": "ସିଲ୍‌ଭର୍ ବ୍ରୋମାଇଡ୍ ($AgBr$) ର ବିଘଟନ ଫଳରେ ସିଲ୍‌ଭର୍ ଧାତୁ ଏବଂ ବ୍ରୋମିନ୍ ($Base_2$) ଗ୍ୟାସ୍ ଉତ୍ପନ୍ନ ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which of the following compounds is used in black and white photography?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଯୌଗିକଟି ଶ୍ଵେତ-ଶ୍ୟାମ (Black and white) ଫଟୋଗ୍ରାଫିରେ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": [
+      "NaCl",
+      "AgBr",
+      "CaCO3",
+      "Ca(OH)2"
+    ],
+    "answer": "AgBr",
+    "explanation": "ସିଲ୍‌ଭର୍ ବ୍ରୋମାଇଡ୍ ($AgBr$) ଏବଂ ସିଲ୍‌ଭର୍ କ୍ଲୋରାଇଡ୍ ($AgCl$) ର ଆଲୋକ ବିଘଟନ ଗୁଣ ଯୋଗୁଁ ଏହାକୁ ବ୍ଲାକ୍ ଆଣ୍ଡ ହ୍ୱାଇଟ୍ ଫଟୋଗ୍ରାଫିରେ ବ୍ୟବହାର କରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What type of reaction requires energy in the form of heat, light or electricity to break reactants?",
+    "questionOdia": "ପ୍ରତିକାରକଗୁଡିକୁ ଭାଙ୍ଗିବା ପାଇଁ ତାପ, ଆଲୋକ କିମ୍ବା ବିଦ୍ୟୁତ ଶକ୍ତି ଆବଶ୍ୟକ କରୁଥିବା ପ୍ରତିକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ସଂଶ୍ଳେଷଣ ପ୍ରତିକ୍ରିୟା",
+      "ତାପଉତ୍ପାଦୀ ପ୍ରତିକ୍ରିୟା",
+      "ତାପଶୋଷୀ ପ୍ରତିକ୍ରିୟା (Endothermic)",
+      "ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା"
+    ],
+    "answer": "ତାପଶୋଷୀ ପ୍ରତିକ୍ରିୟା (Endothermic)",
+    "explanation": "ଯେଉଁ ପ୍ରତିକ୍ରିୟାରେ ଶକ୍ତି ଶୋଷିତ ହୋଇଥାଏ, ତାହାକୁ ତାପଶୋଷୀ ବା Endothermic ପ୍ରତିକ୍ରିୟା କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What happens to the blue color of copper sulphate solution when an iron nail is dipped in it?",
+    "questionOdia": "ଏକ ଲୁହା କଣ୍ଟାକୁ କପର୍ ସଲଫେଟ୍ ଦ୍ରବଣରେ ବୁଡ଼ାଇଲେ ଦ୍ରବଣର ନୀଳ ରଙ୍ଗରେ କି ପରିବର୍ତ୍ତନ ହୁଏ?",
+    "options": [
+      "ନୀଳ ରଙ୍ଗ ଗାଢ଼ ହୋଇଯାଏ",
+      "ନୀଳ ରଙ୍ଗ ଧୀରେ ଧୀରେ ମଳିନ ବା ସବୁଜାଭ ହୋଇଯାଏ",
+      "ଦ୍ରବଣଟି ସମ୍ପୂର୍ଣ୍ଣ କଳା ହୋଇଯାଏ",
+      "କୌଣସି ପରିବର୍ତ୍ତନ ହୁଏ ନାହିଁ"
+    ],
+    "answer": "ନୀଳ ରଙ୍ଗ ଧୀରେ ଧୀରେ ମଳିନ ବା ସବୁଜାଭ ହୋଇଯାଏ",
+    "explanation": "ଲୁହା ($Fe$), କପର୍ ଠାରୁ ଅଧିକ ପ୍ରତିକ୍ରିୟାଶୀଳ ହୋଇଥିବାରୁ ଏହା କପର୍‌କୁ ବିସ୍ଥାପିତ କରି ଆଇରନ୍ ସଲଫେଟ୍ ସୃଷ୍ଟି କରେ, ଯାହାଫଳରେ ନୀଳ ରଙ୍ଗ ଫିକା ପଡ଼ିଯାଏ।"
+  },
+  {
+    "questionEnglish": "Why does the iron nail dipped in copper sulphate solution become brownish in color?",
+    "questionOdia": "କପର୍ ସଲଫେଟ୍ ଦ୍ରବଣରେ ବୁଡ଼ାଯାଇଥିବା ଲୁହା କଣ୍ଟାଟି କାହିଁକି ବାଦାମୀ ରଙ୍ଗର ହୋଇଯାଏ?",
+    "options": [
+      "ଲୁହାରେ କଳଙ୍କି ଲାଗିବା ଯୋଗୁଁ",
+      "ଲୁହା ଉପରେ କପର୍‌ର ଆସ୍ତରଣ ଜମିବା ଯୋଗୁଁ",
+      "ସଲଫେଟ୍ ଜମିବା ଯୋଗୁଁ",
+      "ଲୁହା ତରଳିଯିବା ଯୋଗୁଁ"
+    ],
+    "answer": "ଲୁହା ଉପରେ କପର୍‌ର ଆସ୍ତରଣ ଜମିବା ଯୋଗୁଁ",
+    "explanation": "ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା ହେତୁ ଦ୍ରବଣରୁ ମୁକ୍ତ ହୋଇଥିବା କପର୍ (ତମ୍ବା) ଲୁହା କଣ୍ଟା ଉପରେ ଜମିଯାଏ, ଯାହା ବାଦାମୀ ଦେଖାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which reaction involves a more reactive element displacing a less reactive element from its compound?",
+    "questionOdia": "ଯେଉଁ ପ୍ରତିକ୍ରିୟାରେ ଏକ ଅଧିକ ପ୍ରତିକ୍ରିୟାଶୀଳ ମୌଳିକ ଅନ୍ୟ ଏକ କମ୍ ପ୍ରତିକ୍ରିୟାଶୀଳ ମୌଳିକକୁ ତା' ଯୌଗିକରୁ ଅପସାରିତ କରେ, ତାହାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ବିଘଟନ ପ୍ରତିକ୍ରିୟା",
+      "ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା (Displacement)",
+      "ଦ୍ୱି-ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା",
+      "ସଂଶ୍ଳେଷଣ ପ୍ରତିକ୍ରିୟା"
+    ],
+    "answer": "ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା (Displacement)",
+    "explanation": "ଏହାକୁ ବିସ୍ଥାପନ ବା Displacement ପ୍ରତିକ୍ରିୟା କୁହାଯାଏ, ଯେପରି ଜିଙ୍କ୍ ବା ଆଇରନ୍ ଦ୍ୱାରା କପର୍‌ର ବିସ୍ଥାପନ।"
+  },
+  {
+    "questionEnglish": "In the reaction: Zn + CuSO4 -> ZnSO4 + Cu, which element is oxidized?",
+    "questionOdia": "Zn + CuSO4 -> ZnSO4 + Cu ପ୍ରତିକ୍ରିୟାରେ କେଉଁ ମୌଳିକଟି କପର୍‌କୁ ବିସ୍ଥାପିତ କରୁଛି?",
+    "options": [
+      "ସଲଫର୍",
+      "ଅମ୍ଳଜାନ",
+      "ଜିଙ୍କ୍ (Zn)",
+      "କୌଣସିଟି ନୁହେଁ"
+    ],
+    "answer": "ଜିଙ୍କ୍ (Zn)",
+    "explanation": "ଜିଙ୍କ୍, କପର୍ ଅପେକ୍ଷା ଅଧିକ ପ୍ରତିକ୍ରିୟାଶୀଳ ହୋଇଥିବାରୁ ଏହା କପର୍ ସଲଫେଟ୍‌ରୁ କପର୍‌କୁ ବିସ୍ଥାପିତ କରେ।"
+  },
+  {
+    "questionEnglish": "What is an insoluble substance formed during a chemical reaction called?",
+    "questionOdia": "ରାସାୟନିକ ପ୍ରତିକ୍ରିୟା ସମୟରେ ସୃଷ୍ଟି ହେଉଥିବା ଅଦ୍ରବଣୀୟ ପଦାର୍ଥକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ଦ୍ରବଣ",
+      "ଅବକ୍ଷେପ (Precipitate)",
+      "ଉତ୍ପାଦ",
+      "ପ୍ରତିକାରକ"
+    ],
+    "answer": "ଅବକ୍ଷେପ (Precipitate)",
+    "explanation": "ଯେଉଁ ଅଦ୍ରବଣୀୟ କଠିନ ପଦାର୍ଥ ଦ୍ରବଣରୁ ପୃଥକ ହୋଇଯାଏ, ତାହାକୁ ଅବକ୍ଷେପ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What color precipitate is formed when sodium sulphate reacts with barium chloride?",
+    "questionOdia": "ସୋଡିୟମ୍ ସଲଫେଟ୍ ଏବଂ ବାରିୟମ୍ କ୍ଲୋରାଇଡ୍ ମଧ୍ୟରେ ପ୍ରତିକ୍ରିୟା ହେଲେ କେଉଁ ରଙ୍ଗର ଅବକ୍ଷେପ ସୃଷ୍ଟି ହୁଏ?",
+    "options": [
+      "ହଳଦିଆ",
+      "କଳା",
+      "ଧଳା",
+      "ନୀଳ"
+    ],
+    "answer": "ଧଳା",
+    "explanation": "ବାରିୟମ୍ ସଲଫେଟ୍ ($BaSO_4$) ଗଠନ ଯୋଗୁଁ ଏକ ଧଳା ରଙ୍ଗର ଅଦ୍ରବଣୀୟ ଅବକ୍ଷେପ ସୃଷ୍ଟି ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What type of reaction involves the exchange of ions between reactants?",
+    "questionOdia": "ଯେଉଁ ପ୍ରତିକ୍ରିୟାରେ ପ୍ରତିକାରକଗୁଡ଼ିକ ମଧ୍ୟରେ ଆୟନ ବିନିମୟ ହୋଇଥାଏ, ତାହାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା",
+      "ଦ୍ୱି-ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା (Double Displacement)",
+      "ସଂଶ୍ଳେଷଣ ପ୍ରତିକ୍ରିୟା",
+      "ବିଘଟନ ପ୍ରତିକ୍ରିୟା"
+    ],
+    "answer": "ଦ୍ୱି-ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା (Double Displacement)",
+    "explanation": "ଆୟନଗୁଡ଼ିକର ପାରସ୍ପରିକ ବିନିମୟ ଘଟୁଥିବା ପ୍ରତିକ୍ରିୟାକୁ ଦ୍ୱି-ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the process of gain of oxygen or loss of hydrogen called?",
+    "questionOdia": "କୌଣସି ପ୍ରତିକ୍ରିୟାରେ ଅମ୍ଳଜାନର ସଂଯୋଗ କିମ୍ବା ହାଇଡ୍ରୋଜେନ୍‌ର ବିୟୋଗକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ବିଜାରଣ",
+      "ଜାରଣ (Oxidation)",
+      "ବିଘଟନ",
+      "ସଂଶ୍ଳେଷଣ"
+    ],
+    "answer": "ଜାରଣ (Oxidation)",
+    "explanation": "ପଦାର୍ଥ ସହ ଅମ୍ଳଜାନର ସଂଯୁକ୍ତ ହେବା ବା ହାଇଡ୍ରୋଜେନ୍ ହ୍ରାସ ପାଇବା ପ୍ରକ୍ରିୟାକୁ ଜାରଣ ବା Oxidation କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What is the process of loss of oxygen or gain of hydrogen called?",
+    "questionOdia": "କୌଣସି ପ୍ରତିକ୍ରିୟାରେ ଅମ୍ଳଜାନର ହ୍ରାସ କିମ୍ବା ହାଇଡ୍ରୋଜେନ୍‌ର ବୃଦ୍ଧିକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ଜାରଣ",
+      "ବିଜାରଣ (Reduction)",
+      "ଦ୍ୱି-ବିସ୍ଥାପନ",
+      "ତାପଶୋଷୀ"
+    ],
+    "answer": "ବିଜାରଣ (Reduction)",
+    "explanation": "ଅମ୍ଳଜାନ ହରାଇବା କିମ୍ବା ହାଇଡ୍ରୋଜେନ୍ ଗ୍ରହଣ କରିବା ପ୍ରକ୍ରିୟାକୁ ବିଜାରଣ ବା Reduction କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "When copper powder is heated in a china dish, it becomes coated with a black substance. What is this black substance?",
+    "questionOdia": "ଚାଇନା ଡିସ୍‌ରେ କପର୍ ଗୁଣ୍ଡକୁ ଗରମ କଲେ ଏହା ଉପରେ ଏକ କଳା ରଙ୍ଗର ସ୍ତର ଜମିଯାଏ। ଏହି କଳା ପଦାର୍ଥଟି କଣ?",
+    "options": [
+      "କପର୍ ସଲଫେଟ୍",
+      "କପର୍ ଅକ୍ସାଇଡ୍ (CuO)",
+      "କପର୍ ହାଇଡ୍ରକ୍ସାଇଡ୍",
+      "କପର୍ କାର୍ବୋନେଟ୍"
+    ],
+    "answer": "କପର୍ ଅକ୍ସାଇଡ୍ (CuO)",
+    "explanation": "କପର୍, ବାୟୁର ଅମ୍ଳଜାନ ସହ ପ୍ରତିକ୍ରିୟା କରି ଜାରିତ ହୁଏ ଏବଂ କଳା ରଙ୍ଗର କପର୍(II) ଅକ୍ସାଇଡ୍ ସୃଷ୍ଟି କରେ।"
+  },
+  {
+    "questionEnglish": "How can the black coating of copper oxide be changed back to brown copper metal?",
+    "questionOdia": "କପର୍ ଅକ୍ସାଇଡ୍‌ର କଳା ସ୍ତରକୁ ପୁଣିଥରେ ବାଦାମୀ ରଙ୍ଗର କପର୍ ଧାତୁରେ କିପରି ପରିଣତ କରାଯାଇପାରିବ?",
+    "options": [
+      "ଏହାକୁ ଅଧିକ ଗରମ କରି",
+      "ଏହା ଉପରେ ହାଇଡ୍ରୋଜେନ୍ ($H_2$) ଗ୍ୟାସ୍ ପ୍ରବାହିତ କରି",
+      "ଏହାକୁ ଜଳରେ ବୁଡ଼ାଇ",
+      "ଅମ୍ଳଜାନ ଗ୍ୟାସ୍ ପ୍ରବାହିତ କରି"
+    ],
+    "answer": "ଏହା ଉପରେ ହାଇଡ୍ରୋଜେନ୍ ($H_2$) ଗ୍ୟାସ୍ ପ୍ରବାହିତ କରି",
+    "explanation": "ଗରମ କପର୍ ଅକ୍ସାଇଡ୍ ଉପରେ ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍ ପ୍ରବାହିତ କଲେ ବିଜାରଣ ଘଟି ପୁଣି କପର୍ ମିଳିଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is a reaction called in which both oxidation and reduction occur simultaneously?",
+    "questionOdia": "ଯେଉଁ ପ୍ରତିକ୍ରିୟାରେ ଜାରଣ ଏବଂ ବିଜାରଣ ଉଭୟ ଏକାସଙ୍ଗେ ଘଟିଥାଏ ତାହାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ସଂଶ୍ଳେଷଣ ପ୍ରତିକ୍ରିୟା",
+      "ରେଡକ୍ସ (Redox) ପ୍ରତିକ୍ରିୟା",
+      "ବିଘଟନ ପ୍ରତିକ୍ରିୟା",
+      "ଦ୍ୱି-ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା"
+    ],
+    "answer": "ରେଡକ୍ସ (Redox) ପ୍ରତିକ୍ରିୟା",
+    "explanation": "ଜାରଣ-ବିଜାରଣ ପ୍ରତିକ୍ରିୟାକୁ ଏକତ୍ର ରେଡକ୍ସ (Redox) ପ୍ରତିକ୍ରିୟା ବୋଲି କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "In the reaction: CuO + H2 -> Cu + H2O, which substance is reduced?",
+    "questionOdia": "CuO + H2 -> Cu + H2O ପ୍ରତିକ୍ରିୟାରେ କେଉଁ ପଦାର୍ଥଟି ବିଜାରିତ (Reduced) ହେଉଛି?",
+    "options": [
+      "H2",
+      "Cu",
+      "CuO",
+      "H2O"
+    ],
+    "answer": "CuO",
+    "explanation": "CuO ଅମ୍ଳଜାନ ହରାଇ Cu ରେ ପରିଣତ ହେଉଥିବାରୁ ଏହା ବିଜାରିତ ହେଉଛି।"
+  },
+  {
+    "questionEnglish": "In the reaction: CuO + H2 -> Cu + H2O, which substance is oxidized?",
+    "questionOdia": "CuO + H2 -> Cu + H2O ପ୍ରତିକ୍ରିୟାରେ କେଉଁ ପଦାର୍ଥଟି ଜାରିତ (Oxidized) ହେଉଛି?",
+    "options": [
+      "CuO",
+      "H2",
+      "Cu",
+      "H2O"
+    ],
+    "answer": "H2",
+    "explanation": "$H_2$ ଅମ୍ଳଜାନ ଗ୍ରହଣ କରି $H_2O$ ସୃଷ୍ଟି କରୁଥିବାରୁ ଏହା ଜାରିତ ହେଉଛି।"
+  },
+  {
+    "questionEnglish": "What is the slow eating up of metals due to attack of atmospheric gases and moisture called?",
+    "questionOdia": "ବାୟୁମଣ୍ଡଳୀୟ ଗ୍ୟାସ୍ ଓ ଆର୍ଦ୍ରତା ସଂସ୍ପର୍ଶରେ ଆସି ଧାତୁଗୁଡ଼ିକ ଧୀରେ ଧୀରେ ନଷ୍ଟ ହେବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ଜାରଣ",
+      "ବିକୃତଗନ୍ଧିତା",
+      "କ୍ଷୟୀଭବନ (Corrosion)",
+      "ସମତୁଲତା"
+    ],
+    "answer": "କ୍ଷୟୀଭବନ (Corrosion)",
+    "explanation": "ପରିବେଶର ଆର୍ଦ୍ରତା, ଅମ୍ଳ ଇତ୍ୟାଦି ଦ୍ୱାରା ଧାତୁ ନଷ୍ଟ ହେବାକୁ କ୍ଷୟୀଭବନ ବା କ୍ଷୟ (Corrosion) କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "What color is the coating formed on silver due to corrosion?",
+    "questionOdia": "କ୍ଷୟୀଭବନ ଯୋଗୁଁ ରୁପା (Silver) ଉପରେ କେଉଁ ରଙ୍ଗର ଆସ୍ତରଣ ଜମିଯାଏ?",
+    "options": [
+      "ସବୁଜ",
+      "କଳା",
+      "ବାଦାମୀ",
+      "ନାଲି"
+    ],
+    "answer": "କଳା",
+    "explanation": "ବାୟୁରେ ଥିବା ସଲଫର୍ ସହ ପ୍ରତିକ୍ରିୟା କରି ରୁପା ଉପରେ କଳା ରଙ୍ଗର ସିଲ୍‌ଭର୍ ସଲଫାଇଡ୍ ସ୍ତର ସୃଷ୍ଟି ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What color is the coating formed on copper due to corrosion?",
+    "questionOdia": "କ୍ଷୟୀଭବନ ଯୋଗୁଁ ତମ୍ବା (Copper) ଉପରେ କେଉଁ ରଙ୍ଗର ଆସ୍ତରଣ ଦେଖାଯାଏ?",
+    "options": [
+      "କଳା",
+      "ନାଲି",
+      "ସବୁଜ",
+      "ଧୂସର"
+    ],
+    "answer": "ସବୁଜ",
+    "explanation": "ଆର୍ଦ୍ର କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ସହ ପ୍ରତିକ୍ରିୟା ଯୋଗୁଁ ତମ୍ବା ଉପରେ ସବୁଜ ରଙ୍ଗର କପର୍ କାର୍ବୋନେଟ୍ ସ୍ତର ଜମେ।"
+  },
+  {
+    "questionEnglish": "What is the oxidation of fats and oils in food materials resulting in bad smell and taste called?",
+    "questionOdia": "ଖାଦ୍ୟ ପଦାର୍ଥରେ ଥିବା ସ୍ନେହସାର ଓ ତେଲ ଜାରିତ ହୋଇ ଦୁର୍ଗନ୍ଧ ଏବଂ ସ୍ଵାଦ ବଦଳିଯିବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "କ୍ଷୟୀଭବନ",
+      "ବିକୃତଗନ୍ଧିତା (Rancidity)",
+      "ଗାଲଭାନାଇଜେସନ",
+      "ଅବକ୍ଷେପଣ"
+    ],
+    "answer": "ବିକୃତଗନ୍ଧିତା (Rancidity)",
+    "explanation": "ତେଲିଆ ବା ଚର୍ବିଯୁକ୍ତ ଖାଦ୍ୟ ଜାରିତ ହେଲେ ତାହା ଅପଘଟିତ ହୋଇ ବିକୃତଗନ୍ଧିତା (Rancidity) ସୃଷ୍ଟି କରେ।"
+  },
+  {
+    "questionEnglish": "Which substances are added to food to prevent rancidity?",
+    "questionOdia": "ବିକୃତଗନ୍ଧିତା ରୋକିବା ପାଇଁ ଖାଦ୍ୟରେ କେଉଁ ପଦାର୍ଥ ମିଶାଯାଏ?",
+    "options": [
+      "ଜାରକ ପଦାର୍ଥ",
+      "ପ୍ରତି-ଜାରକ (Antioxidants)",
+      "ଅମ୍ଳ",
+      "ଲବଣ"
+    ],
+    "answer": "ପ୍ରତି-ଜାରକ (Antioxidants)",
+    "explanation": "ଜାରଣ ପ୍ରକ୍ରିୟାକୁ ମନ୍ଥର କରିବା ପାଇଁ ବ୍ୟବହୃତ ପଦାର୍ଥକୁ ପ୍ରତି-ଜାରକ ବା Antioxidant କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which gas is flushed in potato chips packets to prevent them from getting oxidized?",
+    "questionOdia": "ଆଳୁ ଚିପ୍ସ ପ୍ୟାକେଟ୍‌କୁ ଜାରଣରୁ ରକ୍ଷା କରିବା ପାଇଁ ସେଥିରେ କେଉଁ ଗ୍ୟାସ୍ ଭର୍ତ୍ତି କରାଯାଏ?",
+    "options": [
+      "ଅମ୍ଳଜାନ",
+      "ହାଇଡ୍ରୋଜେନ୍",
+      "ନାଇଟ୍ରୋଜେନ୍",
+      "କ୍ଲୋରିନ୍"
+    ],
+    "answer": "ନାଇଟ୍ରୋଜେନ୍",
+    "explanation": "ନାଇଟ୍ରୋଜେନ୍ ଏକ ନିଷ୍କ୍ରିୟ ପ୍ରକୃତିର ଗ୍ୟାସ୍ ହୋଇଥିବାରୁ ଏହା ଚିପ୍ସକୁ ଜାରିତ ହେବାକୁ ଦିଏନାହିଁ।"
+  },
+  {
+    "questionEnglish": "What type of chemical reaction is respiration?",
+    "questionOdia": "ଶ୍ଵସନ କେଉଁ ପ୍ରକାରର ରାସାୟନିକ ପ୍ରତିକ୍ରିୟା?",
+    "options": [
+      "ତାପଶୋଷୀ ପ୍ରତିକ୍ରିୟା",
+      "ତାପଉତ୍ପାଦୀ ପ୍ରତିକ୍ରିୟା (Exothermic)",
+      "ବିଘଟନ ପ୍ରତିକ୍ରିୟା",
+      "ଦ୍ୱି-ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା"
+    ],
+    "answer": "ତାପଉତ୍ପାଦୀ ପ୍ରତିକ୍ରିୟା (Exothermic)",
+    "explanation": "ଶ୍ଵସନ ସମୟରେ ଗ୍ଲୁକୋଜ୍ ଅମ୍ଳଜାନ ସହ ମିଶି ଶକ୍ତି (ତାପ) ଉତ୍ପନ୍ନ କରୁଥିବାରୁ ଏହା ଏକ ତାପଉତ୍ପାଦୀ ପ୍ରତିକ୍ରିୟା।"
+  },
+  {
+    "questionEnglish": "The decomposition of vegetable matter into compost is an example of which type of reaction?",
+    "questionOdia": "ନଷ୍ଟ ପନିପରିବା ବା ଉଦ୍ଭିଦ ଜାତୀୟ ପଦାର୍ଥ ଅପଘଟିତ ହୋଇ ଖତରେ ପରିଣତ ହେବା କେଉଁ ପ୍ରକ୍ରିୟାର ଉଦାହରଣ?",
+    "options": [
+      "ତାପଶୋଷୀ",
+      "ତାପଉତ୍ପାଦୀ (Exothermic)",
+      "ବିସ୍ଥାପନ",
+      "ସଂଶ୍ଳେଷଣ"
+    ],
+    "answer": "ତାପଉତ୍ପାଦୀ (Exothermic)",
+    "explanation": "ଖତ ପ୍ରସ୍ତୁତି ସମୟରେ ଜୀବାଣୁମାନଙ୍କ କ୍ରିୟା ଯୋଗୁଁ ତାପ ଶକ୍ତି ନିର୍ଗତ ହୋଇଥାଏ, ତେଣୁ ଏହା ତାପଉତ୍ପାଦୀ ପ୍ରତିକ୍ରିୟା।"
+  },
+  {
+    "questionEnglish": "Which compound is formed when calcium hydroxide reacts with carbon dioxide in air during whitewashing?",
+    "questionOdia": "ଘର ଚୂନ ଦେବା ପରେ ଶମିତ ଚୂନ ବାୟୁର କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ସହ ପ୍ରତିକ୍ରିୟା କରି କେଉଁ ପଦାର୍ଥର ପତଳା ସ୍ତର ସୃଷ୍ଟି କରେ?",
+    "options": [
+      "CaO",
+      "CaCO3 (Calcium Carbonate)",
+      "CaCl2",
+      "CaSO4"
+    ],
+    "answer": "CaCO3 (Calcium Carbonate)",
+    "explanation": "କ୍ୟାଲସିୟମ୍ ହାଇଡ୍ରକ୍ସାଇଡ୍ $CO_2$ ସହ ଧୀରେ ଧୀରେ ପ୍ରତିକ୍ରିୟା କରି କ୍ୟାଲସିୟମ୍ କାର୍ବୋନେଟ୍‌ର ଏକ ଉଜ୍ଜ୍ବଳ ସ୍ତର ଗଠନ କରେ।"
+  },
+  {
+    "questionEnglish": "What is the chemical formula of marble?",
+    "questionOdia": "ମାର୍ବଲ୍‌ (Marble) ର ରାସାୟନିକ ସଙ୍କେତ କଣ?",
+    "options": [
+      "CaO",
+      "Ca(OH)2",
+      "CaCO3",
+      "CaSO4"
+    ],
+    "answer": "CaCO3",
+    "explanation": "ମାର୍ବଲ୍ ଏବଂ ଚୂନପଥର ଉଭୟଙ୍କର ରାସାୟନିକ ସୂତ୍ର ହେଉଛି କ୍ୟାଲସିୟମ୍ କାର୍ବୋନେଟ୍ ($CaCO_3$)।"
+  },
+  {
+    "questionEnglish": "In the reaction: Fe2O3 + 2Al -> Al2O3 + 2Fe, which type of reaction is showcased?",
+    "questionOdia": "Fe2O3 + 2Al -> Al2O3 + 2Fe ସମୀକରଣଟି କେଉଁ ପ୍ରକାର ପ୍ରତିକ୍ରିୟାର ଉଦାହରଣ?",
+    "options": [
+      "ସଂଶ୍ଳେଷଣ ପ୍ରତିକ୍ରିୟା",
+      "ଦ୍ୱି-ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା",
+      "ବିଘଟନ ପ୍ରତିକ୍ରିୟା",
+      "ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା"
+    ],
+    "answer": "ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା",
+    "explanation": "ଏଠାରେ ଆଲୁମିନିୟମ୍ ($Al$), ଆଇରନ୍ ($Fe$) ଅପେକ୍ଷା ଅଧିକ ପ୍ରତିକ୍ରିୟାଶୀଳ ହୋଇଥିବାରୁ ତାକୁ ବିସ୍ଥାପିତ କରୁଛି।"
+  },
+  {
+    "questionEnglish": "What is balanced in a chemical equation to satisfy the law of conservation of mass?",
+    "questionOdia": "ବସ୍ତୁତ୍ଵ ସଂରକ୍ଷଣ ନିୟମ ପାଳନ ପାଇଁ ରାସାୟନିକ ସମୀକରଣରେ କଣ ସମାନ କରାଯାଏ?",
+    "options": [
+      "ଅଣୁ ସଂଖ୍ୟା",
+      "ପରମାଣୁ ସଂଖ୍ୟା (Number of atoms)",
+      "ସଙ୍କେତ",
+      "ତାପମାତ୍ରା"
+    ],
+    "answer": "ପରମାଣୁ ସଂଖ୍ୟା (Number of atoms)",
+    "explanation": "ଉଭୟ ପାର୍ଶ୍ୱରେ ପ୍ରତ୍ୟେକ ମୌଳିକର ପରମାଣୁ ସଂଖ୍ୟା ସମାନ ରଖିବାକୁ ପଡ଼ିଥାଏ।"
+  },
+  {
+    "questionEnglish": "What happens when lead nitrate reacts with potassium iodide?",
+    "questionOdia": "ଲେଡ୍ ନାଇଟ୍ରେଟ୍ ଏବଂ ପୋଟାସିୟମ୍ ଆୟୋଡାଇଡ୍‌ର ପ୍ରତିକ୍ରିୟାଟି କେଉଁ ପ୍ରକାରର ପ୍ରତିକ୍ରିୟା?",
+    "options": [
+      "ବିଘଟନ",
+      "ଦ୍ୱି-ବିସ୍ଥାପନ (Double Displacement)",
+      "ସଂଶ୍ଳେଷଣ",
+      "ତାପଶୋଷୀ"
+    ],
+    "answer": "ଦ୍ୱି-ବିସ୍ଥାପନ (Double Displacement)",
+    "explanation": "ଏଥିରେ ଲେଡ୍ ଏବଂ ପୋଟାସିୟମ୍ ନିଜ ନିଜ ମଧ୍ୟରେ ଆୟନ ବିନିମୟ କରୁଥିବାରୁ ଏହା ଦ୍ୱି-ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା।"
+  },
+  {
+    "questionEnglish": "Which gas has a pungent choking smell and is evolved on heating ferrous sulphate crystals?",
+    "questionOdia": "ଫେରସ୍ ସଲଫେଟ୍ ସ୍ଫଟିକକୁ ଗରମ କଲେ କେଉଁ ଗ୍ୟାସ୍‌ର ତୀବ୍ର ପୋଡ଼ା ଗନ୍ଧ ବାହାରିଥାଏ?",
+    "options": [
+      "CO2",
+      "SO2 ଏବଂ SO3",
+      "O2",
+      "NH3"
+    ],
+    "answer": "SO2 ଏବଂ SO3",
+    "explanation": "ଫେରସ୍ ସଲଫେଟ୍‌ର ବିଘଟନ ଯୋଗୁଁ ସଲଫର୍ ଡାଇଅକ୍ସାଇଡ୍ ($SO_2$) ଓ ସଲଫର୍ ଟ୍ରାକ୍ସାଇଡ୍ ($SO_3$) ଗ୍ୟାସ୍ ସୃଷ୍ଟି ହୁଏ, ଯାହାର ଗନ୍ଧ ଗନ୍ଧକ ପୋଡ଼ିଲା ଭଲି ତୀବ୍ର ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the formula of rust formed on iron?",
+    "questionOdia": "ଲୁହାରେ ଲାଗୁଥିବା କଳଙ୍କି (Rust) ର ରାସାୟନିକ ସୂତ୍ର କଣ?",
+    "options": [
       "FeO",
-      "FeCl3"
+      "Fe3O4",
+      "Fe2O3 . xH2O",
+      "Fe(OH)3"
     ],
     "answer": "Fe2O3 . xH2O",
-    "explanation": "Rust is hydrated ferric oxide, represented by the chemical formula Fe2O3 . xH2O."
+    "explanation": "ଲୁହା ଆର୍ଦ୍ର ଅମ୍ଳଜାନ ସହ ପ୍ରତିକ୍ରିୟା କରି ହାଇଡ୍ରେଟେଡ୍ ଫେରିକ୍ ଅକ୍ସାଇଡ୍ ($Fe_2O_3 \cdot xH_2O$) ଗଠନ କରେ, ଯାହାକୁ କଳଙ୍କି କୁହାଯାଏ।"
   },
   {
-    "questionEnglish": "The reaction in which heat is absorbed is called?",
-    "questionOdia": "ଯେଉଁ ପ୍ରତିକ୍ରିୟାରେ ଉତ୍ତାପ ଶୋଷିତ ହୁଏ, ତାହାକୁ କଣ କୁହାଯାଏ?",
+    "questionEnglish": "Which of the following is a displacement reaction?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା?",
     "options": [
-      "Endothermic reaction",
-      "Exothermic reaction",
-      "Combination reaction",
-      "Oxidation reaction"
+      "CaC03 -> CaO + CO2",
+      "2H2 + O2 -> 2H2O",
+      "Fe + CuSO4 -> FeSO4 + Cu",
+      "NaOH + HCl -> NaCl + H2O"
     ],
-    "answer": "Endothermic reaction",
-    "explanation": "Reactions that absorb energy/heat from the surroundings are called endothermic reactions."
+    "answer": "Fe + CuSO4 -> FeSO4 + Cu",
+    "explanation": "ଏହି ପ୍ରତିକ୍ରିୟାରେ ଆଇରନ୍ ($Fe$) କପର୍ ($Cu$) କୁ ସ୍ଥାନାନ୍ତରିତ କରୁଛି।"
   },
   {
-    "questionEnglish": "Which of the following gases is used to prevent rancidity in chips packets?",
-    "questionOdia": "ଚିପ୍ସ ପ୍ୟାକେଟକୁ ନଷ୍ଟ ହେବାରୁ ରୋକିବା ପାଇଁ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଗ୍ୟାସ୍ ବ୍ୟବହାର କରାଯାଏ?",
+    "questionEnglish": "What type of reaction is the digestion of food in our body?",
+    "questionOdia": "ଆମ ଶରୀରରେ ଖାଦ୍ୟ ହଜମ ହେବା (Digestion) କେଉଁ ପ୍ରକାରର ପ୍ରକ୍ରିୟା?",
     "options": [
-      "Nitrogen",
-      "Oxygen",
-      "Hydrogen",
-      "Chlorine"
+      "ସଂଶ୍ଳେଷଣ ପ୍ରତିକ୍ରିୟା",
+      "ବିଘଟନ ପ୍ରତିକ୍ରିୟା (Decomposition)",
+      "ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା",
+      "କୌଣସିଟି ନୁହେଁ"
     ],
-    "answer": "Nitrogen",
-    "explanation": "Nitrogen is an unreactive gas that replaces oxygen to prevent the oxidation of fats and oils in chips."
+    "answer": "ବିଘଟନ ପ୍ରତିକ୍ରିୟା (Decomposition)",
+    "explanation": "ଜଟିଳ ଖାଦ୍ୟ ପଦାର୍ଥ ଭାଙ୍ଗି ସରଳ ପଦାର୍ଥରେ ପରିଣତ ହେଉଥିବାରୁ ଏହା ଏକ ଜୈବ-ବିଘଟନ ପ୍ରକ୍ରିୟା।"
   },
   {
-    "questionEnglish": "What type of reaction is the decomposition of calcium carbonate into calcium oxide and carbon dioxide?",
-    "questionOdia": "କ୍ୟାଲସିୟମ୍ କାର୍ବୋନେଟ୍ ବିଘଟନ ହୋଇ କ୍ୟାଲସିୟମ୍ ଅକ୍ସାଇଡ୍ ଏବଂ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ହେବା କେଉଁ ପ୍ରକାରର ପ୍ରତିକ୍ରିୟା?",
+    "questionEnglish": "Which of the following is an endothermic process?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ତାପଶୋଷୀ ପ୍ରକ୍ରିୟା?",
     "options": [
-      "Thermal decomposition",
-      "Electrolytic decomposition",
-      "Photolytic decomposition",
-      "Displacement"
+      "ଚୂନରେ ଜଳ ମିଶାଇବା",
+      "ପ୍ରାକୃତିକ ଗ୍ୟାସ୍‌ର ଦହନ",
+      "ସିଲ୍‌ଭର୍ କ୍ଲୋରାଇଡ୍‌ର ସୂର୍ଯ୍ୟାଲୋକରେ ଅପଘଟନ",
+      "ଶ୍ଵସନ କ୍ରିୟା"
     ],
-    "answer": "Thermal decomposition",
-    "explanation": "Since calcium carbonate breaks down upon heating, it is specifically a thermal decomposition reaction."
+    "answer": "ସିଲ୍‌ଭର୍ କ୍ଲୋରାଇଡ୍‌ର ସୂର୍ଯ୍ୟାଲୋକରେ ଅପଘଟନ",
+    "explanation": "ସିଲ୍‌ଭର୍ କ୍ଲୋରାଇଡ୍ ସୂର୍ଯ୍ୟରୁ ଆଲୋକ ଶକ୍ତି ଶୋଷଣ କରି ବିଘଟିତ ହୁଏ, ତେଣୁ ଏହା ତାପଶୋଷୀ।"
   },
   {
-    "questionEnglish": "The addition of oxygen to a substance is called?",
-    "questionOdia": "ଏକ ପଦାର୍ଥରେ ଅମ୍ଳଜାନ ଯୋଗ ହେବାକୁ କଣ କୁହାଯାଏ?",
+    "questionEnglish": "What is the coefficient of H2O when the equation Fe + H2O -> Fe3O4 + H2 is balanced?",
+    "questionOdia": "Fe + H2O -> Fe3O4 + H2 ସମୀକରଣକୁ ସମତୁଲ କଲେ H2O ର ସହଗ (Coefficient) କେତେ ହେବ?",
     "options": [
-      "Oxidation",
-      "Reduction",
-      "Corrosion",
-      "Precipitation"
+      "2",
+      "3",
+      "4",
+      "1"
     ],
-    "answer": "Oxidation",
-    "explanation": "Oxidation is defined as the gain/addition of oxygen or the loss of hydrogen during a reaction."
+    "answer": "4",
+    "explanation": "ସମତୁଲ ସମୀକରଣ ହେଉଛି $3Fe + 4H_2O \rightarrow Fe_3O_4 + 4H_2$, ତେଣୁ $H_2O$ ଆଗରେ ୪ ରହିବ।"
   },
   {
-    "questionEnglish": "What color precipitate is formed when lead nitrate reacts with potassium iodide?",
-    "questionOdia": "ଲେଡ୍ ନାଇଟ୍ରେଟ୍ ଏବଂ ପୋଟାସିୟମ୍ ଆୟୋଡାଇଡ୍ ମଧ୍ୟରେ ପ୍ରତିକ୍ରିୟା ହେଲେ କେଉଁ ରଙ୍ଗର ଅବକ୍ଷେପ ସୃଷ୍ଟି ହୁଏ?",
+    "questionEnglish": "What is the coefficient of Fe when the equation Fe + H2O -> Fe3O4 + H2 is balanced?",
+    "questionOdia": "Fe + H2O -> Fe3O4 + H2 ସମୀକରଣକୁ ସମତୁଲ କଲେ Fe ର ସହଗ କେତେ ହେବ?",
     "options": [
-      "Yellow",
-      "White",
-      "Blue",
-      "Black"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "answer": "Yellow",
-    "explanation": "A bright yellow precipitate of lead iodide (PbI2) is formed during this double displacement reaction."
+    "answer": "3",
+    "explanation": "ସମତୁଲ ସମୀକରଣରେ ପ୍ରତିକାରକ ପାର୍ଶ୍ଵରେ ୩ଟି ଆଇରନ୍ ପରମାଣୁ ଆବଶ୍ୟକ ହୁଏ ($3Fe$)।"
   },
   {
-    "questionEnglish": "A balanced chemical equation complies with which law?",
-    "questionOdia": "ଏକ ସମତୁଲ ରାସାୟନିକ ସମୀକରଣ କେଉଁ ନିୟମକୁ ପାଳନ କରେ?",
+    "questionEnglish": "What is the condition required for the reaction of formation of glucose in plants?",
+    "questionOdia": "ଉଦ୍ଭିଦ ଶରୀରରେ ଗ୍ଲୁକୋଜ୍ ପ୍ରସ୍ତୁତି ପାଇଁ ବାୟୁମଣ୍ଡଳୀୟ ଗ୍ୟାସ୍ ବ୍ୟତୀତ କେଉଁ ଶକ୍ତିର ଆବଶ୍ୟକତା ଥାଏ?",
     "options": [
-      "Law of conservation of mass",
-      "Law of constant proportions",
-      "Law of multiple proportions",
-      "Boyle's Law"
+      "ତାପ ଶକ୍ତି",
+      "ବିଦ୍ୟୁତ ଶକ୍ତି",
+      "ସୂର୍ଯ୍ୟାଲୋକ (Sunlight)",
+      "ଯାନ୍ତ୍ରିକ ଶକ୍ତି"
     ],
-    "answer": "Law of conservation of mass",
-    "explanation": "Chemical equations are balanced to satisfy the Law of Conservation of Mass, which states mass can neither be created nor destroyed."
-  }
+    "answer": "ସୂର୍ଯ୍ୟାଲୋକ (Sunlight)",
+    "explanation": "ଆଲୋକଶ୍ଳେଷଣ ପ୍ରକ୍ରିୟା କେବଳ ସୂର୍ଯ୍ୟାଲୋକର ଉପସ୍ଥିତିରେ ହିଁ ସମ୍ଭବ ହୋଇଥାଏ।"
+  },
+  {
+    "questionEnglish": "What does the symbol (aq) represent in a chemical equation?",
+    "questionOdia": "ରାସାୟନିକ ସମୀକରଣରେ (aq) ସଙ୍କେତଟି କଣ ସୂଚାଏ?",
+    "options": [
+      "ପଦାର୍ଥଟି ଗରମ ଅଛି",
+      "ପଦାର୍ଥଟି ଜଳୀୟ ଦ୍ରବଣ ଆକାରରେ ଅଛି",
+      "ପଦାର୍ଥଟି ଏସିଡ୍ ଅଟେ",
+      "ପଦାର୍ଥଟି ଶୁଷ୍କ ଅଟେ"
+    ],
+    "answer": "ପଦାର୍ଥଟି ଜଳୀୟ ଦ୍ରବଣ ଆକାରରେ ଅଛି",
+    "explanation": "(aq) ର ଅର୍ଥ ହେଉଛି Aqueous ବା ଜଳରେ ଦ୍ରବୀଭୂତ ହୋଇ ରହିଥିବା ଅବସ୍ଥା।"
+  },
 ]
