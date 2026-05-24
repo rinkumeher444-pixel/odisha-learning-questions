@@ -1,482 +1,536 @@
 [
 {
-"questionEnglish": "What is the process of removing metabolic waste from the body called?",
-"questionOdia": "ଶରୀରରୁ ଚୟାପଚୟ ଜନିତ ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନ ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+"questionEnglish": "Which system controls body activities?",
+"questionOdia": "ଶରୀରର କାର୍ଯ୍ୟକୁ କେଉଁ ତନ୍ତ୍ର ନିୟନ୍ତ୍ରଣ କରେ?",
 "options": [
-"ପୋଷଣ",
-"ଶ୍ଵସନ",
-"ରେଚନ",
-"ପରିବହନ"
+"ସ୍ନାୟୁତନ୍ତ୍ର",
+"ପାଚନତନ୍ତ୍ର",
+"ଶ୍ୱାସତନ୍ତ୍ର",
+"ରକ୍ତସଞ୍ଚାଳନତନ୍ତ୍ର"
 ],
-"answer": "ରେଚନ",
-"explanation": "ଜୀବ ଶରୀରରେ ଉତ୍ପନ୍ନ ବର୍ଜ୍ୟବସ୍ତୁକୁ ବାହାର କରିବା ପ୍ରକ୍ରିୟାକୁ ରେଚନ କୁହାଯାଏ।"
+"answer": "ସ୍ନାୟୁତନ୍ତ୍ର",
+"explanation": "ସ୍ନାୟୁତନ୍ତ୍ର ଶରୀରର ସମସ୍ତ କାର୍ଯ୍ୟକୁ ନିୟନ୍ତ୍ରଣ କରେ।
+
+
+"
 },
 {
-"questionEnglish": "Which organ is the primary excretory organ in humans?",
-"questionOdia": "ମଣିଷ ଶରୀରର ମୁଖ୍ୟ ରେଚନ ଅଙ୍ଗ କିଏ?",
+"questionEnglish": "What is the basic unit of nervous system?",
+"questionOdia": "ସ୍ନାୟୁତନ୍ତ୍ରର ମୂଳ ଏକକ କ’ଣ?",
 "options": [
+"ନ୍ୟୁରନ",
+"ରକ୍ତକୋଷ",
+"ମାଂସପେଶୀ",
+"ଗ୍ରନ୍ଥି"
+],
+"answer": "ନ୍ୟୁରନ",
+"explanation": "ନ୍ୟୁରନ ସ୍ନାୟୁତନ୍ତ୍ରର କାର୍ଯ୍ୟକାରୀ ଏକକ।"
+},
+{
+"questionEnglish": "Which organ controls thinking?",
+"questionOdia": "ଚିନ୍ତା କରିବାକୁ କେଉଁ ଅଙ୍ଗ ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": [
+"ମସ୍ତିଷ୍କ",
+"ହୃଦୟ",
 "ଯକୃତ",
-"ବୃକ୍କ",
-"ଫୁସଫୁସ",
-"ଚର୍ମ"
+"ବୃକ୍କ"
 ],
-"answer": "ବୃକ୍କ",
-"explanation": "ବୃକ୍କ ରକ୍ତକୁ ଛାଣି ମୂତ୍ର ଆକାରରେ ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନ କରେ, ତେଣୁ ଏହା ମୁଖ୍ୟ ରେଚନ ଅଙ୍ଗ।"
+"answer": "ମସ୍ତିଷ୍କ",
+"explanation": "ମସ୍ତିଷ୍କ ଚିନ୍ତା ଓ ସ୍ମୃତିକୁ ନିୟନ୍ତ୍ରଣ କରେ।"
 },
 {
-"questionEnglish": "What is the structural and functional unit of the kidney?",
-"questionOdia": "ବୃକ୍କର ଗଠନଗତ ଓ କାର୍ଯ୍ୟକ୍ଷମ ଏକକକୁ କଣ କୁହାଯାଏ?",
+"questionEnglish": "Which part of neuron receives impulses?",
+"questionOdia": "ନ୍ୟୁରନର କେଉଁ ଅଂଶ ସନ୍ଦେଶ ଗ୍ରହଣ କରେ?",
 "options": [
-"ନ୍ୟୁରନ୍",
-"ନେଫ୍ରନ୍",
-"ଏକ୍ସନ୍",
-"କୋଷ"
+"ଡେଣ୍ଡ୍ରାଇଟ",
+"ଆକ୍ସନ",
+"ସାଇଟୋପ୍ଲାଜମ",
+"ନ୍ୟୁକ୍ଲିୟସ"
 ],
-"answer": "ନେଫ୍ରନ୍",
-"explanation": "ପ୍ରତ୍ୟେକ ବୃକ୍କ ଲକ୍ଷ ଲକ୍ଷ ସୂକ୍ଷ୍ମ ନଳୀ ଦ୍ଵାରା ଗଠିତ, ଯାହାକୁ ନେଫ୍ରନ୍ କୁହାଯାଏ।"
+"answer": "ଡେଣ୍ଡ୍ରାଇଟ",
+"explanation": "ଡେଣ୍ଡ୍ରାଇଟ ସ୍ନାୟୁ ସନ୍ଦେଶ ଗ୍ରହଣ କରେ।
+
+
+"
 },
 {
-"questionEnglish": "Where is urine stored before being excreted?",
-"questionOdia": "ମୂତ୍ର ନିଷ୍କାସନ ପୂର୍ବରୁ କେଉଁଠାରେ ଜମା ହୋଇ ରହେ?",
+"questionEnglish": "Which part of neuron carries impulses away?",
+"questionOdia": "ନ୍ୟୁରନର କେଉଁ ଅଂଶ ସନ୍ଦେଶ ବହନ କରେ?",
 "options": [
-"ବୃକ୍କ",
-"ମୂତ୍ରନଳୀ",
-"ମୂତ୍ରାଶୟ",
-"ୟୁରେଟର"
+"ଆକ୍ସନ",
+"ଡେଣ୍ଡ୍ରାଇଟ",
+"କୋଷଦେହ",
+"ନ୍ୟୁକ୍ଲିୟସ"
 ],
-"answer": "ମୂତ୍ରାଶୟ",
-"explanation": "ବୃକ୍କରୁ ଆସୁଥିବା ମୂତ୍ର ମୂତ୍ରାଶୟରେ ସଞ୍ଚିତ ହୋଇ ରହେ।"
+"answer": "ଆକ୍ସନ",
+"explanation": "ଆକ୍ସନ ସନ୍ଦେଶକୁ ଆଗକୁ ବହନ କରେ।"
 },
 {
-"questionEnglish": "Which nitrogenous waste is produced by humans?",
-"questionOdia": "ମଣିଷ ଶରୀରରେ କେଉଁ ଯବକ୍ଷାରଜାନଯୁକ୍ତ ବର୍ଜ୍ୟବସ୍ତୁ ଉତ୍ପନ୍ନ ହୁଏ?",
+"questionEnglish": "What is reflex action?",
+"questionOdia": "ପ୍ରତିକ୍ରିୟା କାର୍ଯ୍ୟ କ’ଣ?",
 "options": [
-"ୟୁରିକ୍ ଅମ୍ଳ",
-"ୟୁରିଆ",
-"ଆମୋନିଆ",
-"କ୍ରିଏଟିନିନ୍"
+"ତୁରନ୍ତ ପ୍ରତିସାଦ",
+"ଧୀର ପ୍ରତିସାଦ",
+"ରକ୍ତ ସଞ୍ଚାଳନ",
+"ପାଚନ ପ୍ରକ୍ରିୟା"
 ],
-"answer": "ୟୁରିଆ",
-"explanation": "ମଣିଷ ଶରୀରରେ ପ୍ରୋଟିନ୍ ପାଚନରୁ ଉତ୍ପନ୍ନ ୟୁରିଆ ମୁଖ୍ୟ ବର୍ଜ୍ୟବସ୍ତୁ ଅଟେ।"
+"answer": "ତୁରନ୍ତ ପ୍ରତିସାଦ",
+"explanation": "ଉତ୍ତେଜନା ପ୍ରତି ତୁରନ୍ତ ହୋଇଥିବା କାର୍ଯ୍ୟକୁ ପ୍ରତିକ୍ରିୟା କୁହାଯାଏ।"
 },
 {
-"questionEnglish": "What is the color of normal urine?",
-"questionOdia": "ସାଧାରଣ ମୂତ୍ରର ରଙ୍ଗ କିପରି ହୋଇଥାଏ?",
+"questionEnglish": "Which part controls reflex action?",
+"questionOdia": "ପ୍ରତିକ୍ରିୟା କାର୍ଯ୍ୟକୁ କେଉଁ ଅଂଶ ନିୟନ୍ତ୍ରଣ କରେ?",
 "options": [
-"ଧଳା",
-"ନୀଳ",
-"ହାଲୁକା ହଳଦିଆ",
-"ଲାଲ"
-],
-"answer": "ହାଲୁକା ହଳଦିଆ",
-"explanation": "ମୂତ୍ରରେ ଥିବା ୟୁରୋକ୍ରୋମ୍ ନାମକ ବର୍ଣ୍ଣକ ଯୋଗୁଁ ଏହା ହାଲୁକା ହଳଦିଆ ଦେଖାଯାଏ।"
-},
-{
-"questionEnglish": "Which blood vessel carries blood to the kidney?",
-"questionOdia": "ବୃକ୍କକୁ କେଉଁ ରକ୍ତନଳୀ ରକ୍ତ ଆଣିଥାଏ?",
-"options": [
-"ବୃକ୍କ ଶିରା",
-"ବୃକ୍କ ଧମନୀ",
-"ମହାଶିରା",
-"କୌଣସିଟି ନୁହେଁ"
-],
-"answer": "ବୃକ୍କ ଧମନୀ",
-"explanation": "ବୃକ୍କ ଧମନୀ ଅଶୁଦ୍ଧ ରକ୍ତକୁ ବୃକ୍କକୁ ନେଇଯାଏ।"
-},
-{
-"questionEnglish": "What is the cup-shaped structure in a nephron?",
-"questionOdia": "ନେଫ୍ରନ୍‌ରେ ଥିବା କପ୍‌ ଆକୃତିର ଗଠନକୁ କଣ କୁହାଯାଏ?",
-"options": [
-"ଗ୍ଲୋମେରୁଲସ୍",
-"ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍",
-"ହେନଲି ଲୁପ୍",
-"ସଂଗ୍ରାହୀ ନଳୀ"
-],
-"answer": "ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍",
-"explanation": "ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍ ନେଫ୍ରନ୍‌ର ପ୍ରାରମ୍ଭିକ କପ୍ ଆକୃତିର ଅଂଶ।"
-},
-{
-"questionEnglish": "Which substance is reabsorbed in the kidney tubules?",
-"questionOdia": "ବୃକ୍କ ନଳୀରେ କେଉଁ ପଦାର୍ଥ ପୁନଃଶୋଷଣ ହୁଏ?",
-"options": [
-"ଗ୍ଲୁକୋଜ",
-"ଜଳ",
-"ଲବଣ",
-"ଉପରୋକ୍ତ ସମସ୍ତ"
-],
-"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
-"explanation": "ବୃକ୍କ ନଳୀରେ ଜଳ, ଗ୍ଲୁକୋଜ ଓ ଆବଶ୍ୟକୀୟ ଲବଣ ପୁନଃଶୋଷିତ ହୋଇ ରକ୍ତକୁ ଫେରିଯାଏ।"
-},
-{
-"questionEnglish": "What happens if both kidneys fail?",
-"questionOdia": "ଉଭୟ ବୃକ୍କ ଅକାମୀ ହେଲେ କଣ କରାଯାଏ?",
-"options": [
-"ଡାଏଲିସିସ୍",
-"ଅସ୍ତ୍ରୋପଚାର",
-"ଔଷଧ ସେବନ",
-"କୌଣସିଟି ନୁହେଁ"
-],
-"answer": "ଡାଏଲିସିସ୍",
-"explanation": "ବୃକ୍କ ଅକାମୀ ହେଲେ ରକ୍ତକୁ କୃତ୍ରିମ ଉପାୟରେ ଛାଣିବା ପାଇଁ ଡାଏଲିସିସ୍ ଆବଶ୍ୟକ।"
-},
-{
-"questionEnglish": "Which organ helps in excreting excess water and salts through sweat?",
-"questionOdia": "କେଉଁ ଅଙ୍ଗ ଝାଳ ମାଧ୍ୟମରେ ଅଧିକ ଜଳ ଓ ଲବଣ ନିଷ୍କାସନ କରେ?",
-"options": [
-"ବୃକ୍କ",
-"ଫୁସଫୁସ",
-"ଚର୍ମ",
+"ମେରୁରଜ୍ଜୁ",
+"ମସ୍ତିଷ୍କ",
+"ହୃଦୟ",
 "ଯକୃତ"
 ],
-"answer": "ଚର୍ମ",
-"explanation": "ଚର୍ମରେ ଥିବା ସ୍ଵେଦଗ୍ରନ୍ଥି ଝାଳ ମାଧ୍ୟମରେ ରେଚନରେ ସାହାଯ୍ୟ କରେ।"
+"answer": "ମେରୁରଜ୍ଜୁ",
+"explanation": "ମେରୁରଜ୍ଜୁ ପ୍ରତିକ୍ରିୟା କାର୍ଯ୍ୟ ନିୟନ୍ତ୍ରଣ କରେ।"
 },
 {
-"questionEnglish": "What is the tube that connects kidney to bladder called?",
-"questionOdia": "ବୃକ୍କକୁ ମୂତ୍ରାଶୟ ସହ ସଂଯୋଗ କରୁଥିବା ନଳୀକୁ କଣ କୁହାଯାଏ?",
+"questionEnglish": "Which hormone controls growth?",
+"questionOdia": "ବୃଦ୍ଧିକୁ କେଉଁ ହର୍ମୋନ ନିୟନ୍ତ୍ରଣ କରେ?",
 "options": [
-"ମୂତ୍ରନଳୀ",
-"ୟୁରେଟର (ମୂତ୍ରବାହିନୀ)",
-"ଧମନୀ",
-"ଶିରା"
+"ଗ୍ରୋଥ ହର୍ମୋନ",
+"ଇନସୁଲିନ",
+"ଥାଇରୋକ୍ସିନ",
+"ଏଡ୍ରେନାଲିନ"
 ],
-"answer": "ୟୁରେଟର (ମୂତ୍ରବାହିନୀ)",
-"explanation": "ୟୁରେଟର ମାଧ୍ୟମରେ ବୃକ୍କରୁ ମୂତ୍ର ମୂତ୍ରାଶୟକୁ ଯାଏ।"
+"answer": "ଗ୍ରୋଥ ହର୍ମୋନ",
+"explanation": "ଗ୍ରୋଥ ହର୍ମୋନ ଶରୀରର ବୃଦ୍ଧି କରେ।"
 },
 {
-"questionEnglish": "Which waste product is excreted by lungs?",
-"questionOdia": "ଫୁସଫୁସ କେଉଁ ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନ କରେ?",
+"questionEnglish": "Which gland secretes insulin?",
+"questionOdia": "ଇନସୁଲିନ କେଉଁ ଗ୍ରନ୍ଥି ନିସ୍ସରଣ କରେ?",
 "options": [
-"ଅମ୍ଳଜାନ",
-"ଅଙ୍ଗାରକାମ୍ଳ",
-"ୟୁରିଆ",
-"ଲବଣ"
-],
-"answer": "ଅଙ୍ଗାରକାମ୍ଳ",
-"explanation": "ଶ୍ଵସନ ପ୍ରକ୍ରିୟାରେ ଉତ୍ପନ୍ନ ଅଙ୍ଗାରକାମ୍ଳ ଫୁସଫୁସ ଦ୍ଵାରା ନିଷ୍କାସିତ ହୁଏ।"
-},
-{
-"questionEnglish": "What is the function of the glomerulus?",
-"questionOdia": "ଗ୍ଲୋମେରୁଲସ୍‌ର କାର୍ଯ୍ୟ କଣ?",
-"options": [
-"ମୂତ୍ର ସଞ୍ଚୟ",
-"ରକ୍ତ ଛାଣିବା (Filtration)",
-"ହରମୋନ୍ କ୍ଷରଣ",
-"ଶକ୍ତି ଉତ୍ପାଦନ"
-],
-"answer": "ରକ୍ତ ଛାଣିବା (Filtration)",
-"explanation": "ଗ୍ଲୋମେରୁଲସ୍ ରକ୍ତକୁ ଛାଣି ପରିସ୍ରା ତିଆରି ଆରମ୍ଭ କରେ।"
-},
-{
-"questionEnglish": "What does a healthy urine usually contain?",
-"questionOdia": "ସାଧାରଣତଃ ସୁସ୍ଥ ବ୍ୟକ୍ତିର ମୂତ୍ରରେ କଣ ନଥାଏ?",
-"options": [
-"ୟୁରିଆ",
-"ଲବଣ",
-"ଗ୍ଲୁକୋଜ",
-"ଜଳ"
-],
-"answer": "ଗ୍ଲୁକୋଜ",
-"explanation": "ସୁସ୍ଥ ବ୍ୟକ୍ତିର ମୂତ୍ରରେ ସାଧାରଣତଃ ଗ୍ଲୁକୋଜ ଥାଏ ନାହିଁ।"
-},
-{
-"questionEnglish": "Which hormone regulates water balance in the kidney?",
-"questionOdia": "ବୃକ୍କରେ ଜଳର ସନ୍ତୁଳନ କେଉଁ ହରମୋନ୍ ନିୟନ୍ତ୍ରଣ କରେ?",
-"options": [
-"ଇନସୁଲିନ୍",
-"ADH (ଭାସୋପ୍ରେସିନ୍)",
-"ଥାଇରକ୍ସିନ୍",
-"ଏଡ୍ରେନାଲିନ୍"
-],
-"answer": "ADH (ଭାସୋପ୍ରେସିନ୍)",
-"explanation": "ADH ହରମୋନ୍ ବୃକ୍କ ନଳୀରୁ ଜଳ ଶୋଷଣକୁ ନିୟନ୍ତ୍ରଣ କରେ।"
-},
-{
-"questionEnglish": "What is the main nitrogenous waste in birds and reptiles?",
-"questionOdia": "ପକ୍ଷୀ ଓ ସରୀସୃପଙ୍କଠାରେ ମୁଖ୍ୟ ରେଚନ ବର୍ଜ୍ୟବସ୍ତୁ କଣ?",
-"options": [
-"ୟୁରିଆ",
-"ୟୁରିକ୍ ଅମ୍ଳ",
-"ଆମୋନିଆ",
-"କ୍ରିଏଟିନିନ୍"
-],
-"answer": "ୟୁରିକ୍ ଅମ୍ଳ",
-"explanation": "ପକ୍ଷୀ ଓ ସରୀସୃପ ୟୁରିକ୍ ଅମ୍ଳକୁ ରେଚନ ପଦାର୍ଥ ଭାବେ ବାହାର କରନ୍ତି।"
-},
-{
-"questionEnglish": "What is the process of cleaning blood called?",
-"questionOdia": "କୃତ୍ରିମ ଉପାୟରେ ରକ୍ତ ଛାଣିବାକୁ କଣ କୁହାଯାଏ?",
-"options": [
-"ଡାଏଲିସିସ୍",
-"ଅସ୍ତ୍ରୋପଚାର",
-"ଟ୍ରାନ୍ସପ୍ଲାଣ୍ଟ",
-"ଫିଲ୍ଟ୍ରେସନ୍"
-],
-"answer": "ଡାଏଲିସିସ୍",
-"explanation": "ବୃକ୍କ କାମ ନ କଲେ ଡାଏଲିସିସ୍ ମେସିନ୍ ଦ୍ଵାରା ରକ୍ତ ଛଣାଯାଏ।"
-},
-{
-"questionEnglish": "Which part of nephron connects to the collecting duct?",
-"questionOdia": "ନେଫ୍ରନ୍‌ର କେଉଁ ଅଂଶ ସଂଗ୍ରାହୀ ନଳୀ ସହ ଯୋଡ଼ି ହୋଇଥାଏ?",
-"options": [
-"ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍",
-"ଗ୍ଲୋମେରୁଲସ୍",
-"ପ୍ରାନ୍ତୀୟ କୁଣ୍ଡଳୀତ ନଳୀ",
-"ହେନଲି ଲୁପ୍"
-],
-"answer": "ପ୍ରାନ୍ତୀୟ କୁଣ୍ଡଳୀତ ନଳୀ",
-"explanation": "ପ୍ରାନ୍ତୀୟ କୁଣ୍ଡଳୀତ ନଳୀ ଶେଷରେ ସଂଗ୍ରାହୀ ନଳୀରେ ମିଶେ।"
-},
-{
-"questionEnglish": "What is the shape of the human kidney?",
-"questionOdia": "ମଣିଷ ବୃକ୍କର ଆକୃତି କିପରି?",
-"options": [
-"ଗୋଲାକାର",
-"ଶିମ୍ବ ମଞ୍ଜି ପରି",
-"ତ୍ରିକୋଣୀୟ",
-"ଲମ୍ବାଳିଆ"
-],
-"answer": "ଶିମ୍ବ ମଞ୍ଜି ପରି",
-"explanation": "ମଣିଷର ଦୁଇଟି ବୃକ୍କ ଶିମ୍ବ ମଞ୍ଜି ପରି ଆକୃତିର ହୋଇଥାଏ।"
-},
-{
-"questionEnglish": "What is the primary function of the excretory system in humans?",
-"questionOdia": "ମଣିଷ ଶରୀରରେ ରେଚନ ତନ୍ତ୍ରର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କଣ?",
-"options": [
-"ଶକ୍ତି ଉତ୍ପାଦନ କରିବା",
-"ରକ୍ତକୁ ପରିଷ୍କାର କରି ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନ କରିବା",
-"ଖାଦ୍ୟ ହଜମ କରିବା",
-"ଅମ୍ଳଜାନ ସଂଗ୍ରହ କରିବା"
-],
-"answer": "ରକ୍ତକୁ ପରିଷ୍କାର କରି ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନ କରିବା",
-"explanation": "ରେଚନ ତନ୍ତ୍ର ରକ୍ତରେ ଥିବା ବିଷାକ୍ତ ଓ ଅଦରକାରୀ ବର୍ଜ୍ୟବସ୍ତୁକୁ ଶରୀରରୁ ବାହାର କରିଥାଏ।"
-},
-{
-"questionEnglish": "Which organ is mainly responsible for the formation of urine?",
-"questionOdia": "ମୂତ୍ର ତିଆରି କରିବା ପାଇଁ ମୁଖ୍ୟତଃ କେଉଁ ଅଙ୍ଗ ଦାୟୀ?",
-"options": [
-"ଯକୃତ",
-"ବୃକ୍କ",
-"ଫୁସଫୁସ",
-"ଅନ୍ତନଳୀ"
-],
-"answer": "ବୃକ୍କ",
-"explanation": "ବୃକ୍କ ରକ୍ତକୁ ଛାଣି ବର୍ଜ୍ୟବସ୍ତୁକୁ ମୂତ୍ର ଆକାରରେ ନିଷ୍କାସନ କରିଥାଏ।"
-},
-{
-"questionEnglish": "What is the basic structural and functional unit of the human kidney?",
-"questionOdia": "ମଣିଷ ବୃକ୍କର ଗଠନଗତ ଓ କାର୍ଯ୍ୟକ୍ଷମ ଏକକ କଣ?",
-"options": [
-"ନେଫ୍ରନ୍",
-"ନ୍ୟୁରନ୍",
-"ଏକ୍ସନ୍",
-"କୋଷ"
-],
-"answer": "ନେଫ୍ରନ୍",
-"explanation": "ନେଫ୍ରନ୍ ହେଉଛି ବୃକ୍କର ମୌଳିକ ଏକକ ଯାହା ରକ୍ତ ଛାଣିବାରେ ସାହାଯ୍ୟ କରେ।"
-},
-{
-"questionEnglish": "Which nitrogenous waste is produced by the breakdown of amino acids in the liver?",
-"questionOdia": "ଯକୃତରେ ଆମିନୋ ଏସିଡ୍ ଭାଙ୍ଗିବା ଫଳରେ କେଉଁ ନାଇଟ୍ରୋଜେନଯୁକ୍ତ ବର୍ଜ୍ୟବସ୍ତୁ ଉତ୍ପନ୍ନ ହୁଏ?",
-"options": [
-"ଆମୋନିଆ",
-"ୟୁରିଆ",
-"ୟୁରିକ୍ ଅମ୍ଳ",
-"ଗ୍ଲୁକୋଜ"
-],
-"answer": "ୟୁରିଆ",
-"explanation": "ଯକୃତ ଆମୋନିଆକୁ କମ୍ ବିଷାକ୍ତ ୟୁରିଆରେ ପରିଣତ କରିଥାଏ।"
-},
-{
-"questionEnglish": "What is the cup-shaped structure at the beginning of a nephron called?",
-"questionOdia": "ନେଫ୍ରନ୍‌ର ପ୍ରାରମ୍ଭରେ ଥିବା କପ୍ ଆକୃତିର ଗଠନକୁ କଣ କୁହାଯାଏ?",
-"options": [
-"ଗ୍ଲୋମେରୁଲସ୍",
-"ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍",
-"ହେନଲି ଲୁପ୍",
-"ସଂଗ୍ରାହୀ ନଳୀ"
-],
-"answer": "ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍",
-"explanation": "ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍ ରକ୍ତକୁ ଛାଣିବା ପାଇଁ ଏକ କପ୍‌ ପରି ଗଠନ।"
-},
-{
-"questionEnglish": "Which blood vessel brings blood into the glomerulus?",
-"questionOdia": "କେଉଁ ରକ୍ତନଳୀ ଗ୍ଲୋମେରୁଲସ୍‌କୁ ରକ୍ତ ଆଣିଥାଏ?",
-"options": [
-"ଅଭିବାହୀ ଧମନୀ",
-"ଅପବାହୀ ଧମନୀ",
-"ବୃକ୍କ ଶିରା",
-"ମହାଶିରା"
-],
-"answer": "ଅଭିବାହୀ ଧମନୀ",
-"explanation": "ଅଭିବାହୀ ଧମନୀ ଦ୍ଵାରା ରକ୍ତ ଗ୍ଲୋମେରୁଲସ୍‌କୁ ପ୍ରବେଶ କରେ।"
-},
-{
-"questionEnglish": "Where does the urine finally collect before exiting the body?",
-"questionOdia": "ଶରୀରରୁ ବାହାରିବା ପୂର୍ବରୁ ମୂତ୍ର କେଉଁଠାରେ ଜମା ହୁଏ?",
-"options": [
-"ବୃକ୍କ",
-"ମୂତ୍ରନଳୀ",
-"ମୂତ୍ରାଶୟ",
-"ୟୁରେଟର"
-],
-"answer": "ମୂତ୍ରାଶୟ",
-"explanation": "ମୂତ୍ରାଶୟ ହେଉଛି ମୂତ୍ର ସଞ୍ଚୟ ହେବା ସ୍ଥାନ।"
-},
-{
-"questionEnglish": "What is the process of removal of excess water and nitrogenous wastes called?",
-"questionOdia": "ଅତିରିକ୍ତ ଜଳ ଓ ନାଇଟ୍ରୋଜେନଯୁକ୍ତ ବର୍ଜ୍ୟବସ୍ତୁକୁ ବାହାର କରିବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
-"options": [
-"ଶ୍ଵସନ",
-"ପୋଷଣ",
-"ରେଚନ",
-"ପରିବହନ"
-],
-"answer": "ରେଚନ",
-"explanation": "ଶରୀରରୁ ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନକୁ ରେଚନ କୁହାଯାଏ।"
-},
-{
-"questionEnglish": "Which substance is reabsorbed from the filtrate in the kidney tubules?",
-"questionOdia": "ବୃକ୍କ ନଳୀରେ ଛଣାଯାଇଥିବା ପଦାର୍ଥରୁ କେଉଁଟି ପୁନଃଶୋଷିତ ହୁଏ?",
-"options": [
-"ୟୁରିଆ",
-"ଗ୍ଲୁକୋଜ",
-"କ୍ରିଏଟିନିନ୍",
-"ୟୁରିକ୍ ଅମ୍ଳ"
-],
-"answer": "ଗ୍ଲୁକୋଜ",
-"explanation": "ଗ୍ଲୁକୋଜ ଶରୀର ପାଇଁ ଆବଶ୍ୟକ ତେଣୁ ଏହା ବୃକ୍କ ନଳୀରେ ପୁନଃଶୋଷିତ ହୋଇ ରକ୍ତକୁ ଫେରିଯାଏ।"
-},
-{
-"questionEnglish": "Which color does the urine usually have due to the presence of urochrome?",
-"questionOdia": "ୟୁରୋକ୍ରୋମ୍ ଉପସ୍ଥିତି ହେତୁ ମୂତ୍ରର ରଙ୍ଗ ସାଧାରଣତଃ କିପରି ହୁଏ?",
-"options": [
-"ଧଳା",
-"ହାଲୁକା ହଳଦିଆ",
-"କଳା",
-"ଲାଲ"
-],
-"answer": "ହାଲୁକା ହଳଦିଆ",
-"explanation": "ମୂତ୍ରରେ ଥିବା ୟୁରୋକ୍ରୋମ୍ ରଞ୍ଜକ ପଦାର୍ଥ ଯୋଗୁଁ ଏହା ହଳଦିଆ ଦେଖାଯାଏ।"
-},
-{
-"questionEnglish": "Which condition occurs when both kidneys stop working?",
-"questionOdia": "ଉଭୟ ବୃକ୍କ କାର୍ଯ୍ୟ କରିବା ବନ୍ଦ କଲେ କଣ ହୁଏ?",
-"options": [
-"ଡାଏଲିସିସ୍ ଆବଶ୍ୟକ ହୁଏ",
-"ଶରୀରରେ ଶକ୍ତି ବଢ଼େ",
-"ପାଚନ ପ୍ରକ୍ରିୟା ବନ୍ଦ ହୁଏ",
-"କିଛି ବି ହୁଏ ନାହିଁ"
-],
-"answer": "ଡାଏଲିସିସ୍ ଆବଶ୍ୟକ ହୁଏ",
-"explanation": "ବୃକ୍କ ଅକାମୀ ହେଲେ କୃତ୍ରିମ ଉପାୟରେ ଡାଏଲିସିସ୍ ମାଧ୍ୟମରେ ରକ୍ତ ଛାଣିବାକୁ ପଡ଼େ।"
-},
-{
-"questionEnglish": "Which organ helps in excreting CO2 from the body?",
-"questionOdia": "ଶରୀରରୁ ଅଙ୍ଗାରକାମ୍ଳ (CO2) ବାହାର କରିବାରେ କେଉଁ ଅଙ୍ଗ ସାହାଯ୍ୟ କରେ?",
-"options": [
-"ବୃକ୍କ",
-"ଫୁସଫୁସ",
-"ଚର୍ମ",
-"ଯକୃତ"
-],
-"answer": "ଫୁସଫୁସ",
-"explanation": "ଶ୍ଵସନ ସମୟରେ ଫୁସଫୁସ ରକ୍ତରୁ CO2 ବାହାର କରି ବାୟୁମଣ୍ଡଳକୁ ଛାଡ଼ିଦିଏ।"
-},
-{
-"questionEnglish": "What is the role of sweat glands in the skin?",
-"questionOdia": "ଚର୍ମରେ ଥିବା ସ୍ଵେଦଗ୍ରନ୍ଥିର ଭୂମିକା କଣ?",
-"options": [
-"ତୈଳ ଉତ୍ପାଦନ",
-"ଝାଳ ମାଧ୍ୟମରେ ରେଚନ",
-"ଶରୀରକୁ ସୁରକ୍ଷା ଦେବା",
-"ରକ୍ତ ସଞ୍ଚାଳନ"
-],
-"answer": "ଝାଳ ମାଧ୍ୟମରେ ରେଚନ",
-"explanation": "ସ୍ଵେଦଗ୍ରନ୍ଥି ଝାଳ ମାଧ୍ୟମରେ ଅତିରିକ୍ତ ଜଳ ଓ ଲବଣ ବାହାର କରି ରେଚନରେ ସାହାଯ୍ୟ କରେ।"
-},
-{
-"questionEnglish": "Which hormone regulates water reabsorption in the kidney?",
-"questionOdia": "ବୃକ୍କରେ ଜଳ ପୁନଃଶୋଷଣକୁ କେଉଁ ହରମୋନ୍ ନିୟନ୍ତ୍ରଣ କରେ?",
-"options": [
-"ଇନସୁଲିନ୍",
-"ADH (ଭାସୋପ୍ରେସିନ୍)",
-"ଥାଇରକ୍ସିନ୍",
-"ଏଡ୍ରେନାଲିନ୍"
-],
-"answer": "ADH (ଭାସୋପ୍ରେସିନ୍)",
-"explanation": "ADH ହରମୋନ୍ ବୃକ୍କ ନଳୀରେ ଜଳର ପରିମାଣକୁ ନିୟନ୍ତ୍ରଣ କରି ମୂତ୍ରର ସାନ୍ଦ୍ରତା ବଜାୟ ରଖେ।"
-},
-{
-"questionEnglish": "What is the normal path of urine flow?",
-"questionOdia": "ମୂତ୍ରର ସାଧାରଣ ପ୍ରବାହ ପଥ କଣ?",
-"options": [
-"ବୃକ୍କ -> ମୂତ୍ରାଶୟ -> ୟୁରେଟର",
-"ବୃକ୍କ -> ୟୁରେଟର -> ମୂତ୍ରାଶୟ",
-"ମୂତ୍ରାଶୟ -> ବୃକ୍କ -> ୟୁରେଟର",
-"ୟୁରେଟର -> ବୃକ୍କ -> ମୂତ୍ରାଶୟ"
-],
-"answer": "ବୃକ୍କ -> ୟୁରେଟର -> ମୂତ୍ରାଶୟ",
-"explanation": "ମୂତ୍ର ବୃକ୍କରେ ତିଆରି ହୋଇ ୟୁରେଟର ଦେଇ ମୂତ୍ରାଶୟରେ ସଞ୍ଚିତ ହୁଏ।"
-},
-{
-"questionEnglish": "What is the process of filtering blood called in medical terms?",
-"questionOdia": "ରକ୍ତକୁ ଛାଣିବା ପ୍ରକ୍ରିୟାକୁ ଚିକିତ୍ସା ବିଜ୍ଞାନରେ କଣ କୁହାଯାଏ?",
-"options": [
-"ଅଲଟ୍ରାଫିଲ୍ଟ୍ରେସନ୍",
-"ଡାଏଲିସିସ୍",
-"ଅସ୍ତ୍ରୋପଚାର",
-"ପରିବହନ"
-],
-"answer": "ଅଲଟ୍ରାଫିଲ୍ଟ୍ରେସନ୍",
-"explanation": "ନେଫ୍ରନ୍‌ର ଗ୍ଲୋମେରୁଲସ୍‌ରେ ରକ୍ତ ଛାଣିବା ପ୍ରକ୍ରିୟାକୁ ଅଲଟ୍ରାଫିଲ୍ଟ୍ରେସନ୍ କୁହାଯାଏ।"
-},
-{
-"questionEnglish": "Which organ secretes bile to remove metabolic wastes?",
-"questionOdia": "କେଉଁ ଅଙ୍ଗ ପିତ୍ତ ରସ ମାଧ୍ୟମରେ ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନ କରେ?",
-"options": [
-"ଯକୃତ",
-"ବୃକ୍କ",
 "ଅଗ୍ନାଶୟ",
-"ପାକସ୍ଥଳୀ"
+"ଥାଇରଏଡ",
+"ପିଟ୍ୟୁଟାରି",
+"ଅଡ୍ରିନାଲ"
 ],
-"answer": "ଯକୃତ",
-"explanation": "ଯକୃତ ପିତ୍ତ ରସ ସୃଷ୍ଟି କରି କେତେକ ବର୍ଜ୍ୟବସ୍ତୁକୁ ଅନ୍ତନଳୀ ଦେଇ ନିଷ୍କାସନ କରେ।"
+"answer": "ଅଗ୍ନାଶୟ",
+"explanation": "ଅଗ୍ନାଶୟରୁ ଇନସୁଲିନ ନିସ୍ସରଣ ହୁଏ।"
 },
 {
-"questionEnglish": "What is present in the urine of a diabetic patient?",
-"questionOdia": "ମଧୁମେହ ରୋଗୀର ମୂତ୍ରରେ କଣ ଦେଖିବାକୁ ମିଳେ?",
+"questionEnglish": "Which hormone controls sugar level?",
+"questionOdia": "ରକ୍ତରେ ସୁଗାର ସ୍ତରକୁ କେଉଁ ହର୍ମୋନ ନିୟନ୍ତ୍ରଣ କରେ?",
 "options": [
-"ପ୍ରୋଟିନ୍",
-"ଗ୍ଲୁକୋଜ (ଶର୍କରା)",
-"ଚର୍ବି",
-"ଭିଟାମିନ୍"
+"ଇନସୁଲିନ",
+"ଏଡ୍ରେନାଲିନ",
+"ଥାଇରୋକ୍ସିନ",
+"ଅକ୍ସିଟୋସିନ"
 ],
-"answer": "ଗ୍ଲୁକୋଜ (ଶର୍କରା)",
-"explanation": "ରକ୍ତରେ ଶର୍କରା ପରିମାଣ ଅଧିକ ହେଲେ ତାହା ମୂତ୍ରରେ ନିର୍ଗତ ହୁଏ।"
+"answer": "ଇନସୁଲିନ",
+"explanation": "ଇନସୁଲିନ ରକ୍ତରେ ଗ୍ଲୁକୋଜ ନିୟନ୍ତ୍ରଣ କରେ।"
 },
 {
-"questionEnglish": "Which part of the nephron is located in the kidney cortex?",
-"questionOdia": "ନେଫ୍ରନ୍‌ର କେଉଁ ଅଂଶ ବୃକ୍କର ବାହ୍ୟ ଭାଗ (କର୍ଟେକ୍ସ)ରେ ଥାଏ?",
+"questionEnglish": "Which gland is called master gland?",
+"questionOdia": "କେଉଁ ଗ୍ରନ୍ଥିକୁ ମାଷ୍ଟର ଗ୍ରନ୍ଥି କୁହାଯାଏ?",
 "options": [
-"ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍",
-"ହେନଲି ଲୁପ୍",
-"ସଂଗ୍ରାହୀ ନଳୀ",
-"ପେଲଭିସ୍"
+"ପିଟ୍ୟୁଟାରି",
+"ଥାଇରଏଡ",
+"ଅଡ୍ରିନାଲ",
+"ପ୍ୟାନ୍କ୍ରିଆସ"
 ],
-"answer": "ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍",
-"explanation": "ବାଓମ୍ୟାନ୍ସ କ୍ୟାପ୍‌ସୁଲ୍ ଓ କୁଣ୍ଡଳୀତ ନଳୀଗୁଡ଼ିକ ବୃକ୍କର ବାହ୍ୟ ଭାଗରେ ଥାଏ।"
+"answer": "ପିଟ୍ୟୁଟାରି",
+"explanation": "ପିଟ୍ୟୁଟାରି ଅନ୍ୟ ଗ୍ରନ୍ଥିକୁ ନିୟନ୍ତ୍ରଣ କରେ।"
 },
 {
-"questionEnglish": "What happens to the remaining waste after water reabsorption?",
-"questionOdia": "ଜଳ ପୁନଃଶୋଷଣ ପରେ ବାକି ରହିଥିବା ବର୍ଜ୍ୟବସ୍ତୁକୁ କଣ କୁହାଯାଏ?",
+"questionEnglish": "Which hormone prepares body during emergency?",
+"questionOdia": "ଜରୁରୀ ସମୟରେ ଶରୀରକୁ ପ୍ରସ୍ତୁତ କରୁଥିବା ହର୍ମୋନ କ’ଣ?",
 "options": [
-"ରକ୍ତ",
-"ମୂତ୍ର",
-"ଝାଳ",
-"ଲାଳ"
+"ଏଡ୍ରେନାଲିନ",
+"ଇନସୁଲିନ",
+"ଗ୍ରୋଥ ହର୍ମୋନ",
+"ଥାଇରୋକ୍ସିନ"
 ],
-"answer": "ମୂତ୍ର",
-"explanation": "ଜଳ ପୁନଃଶୋଷଣ ପରେ ବାକି ରହିଥିବା ୟୁରିଆଯୁକ୍ତ ତରଳ ପଦାର୍ଥକୁ ମୂତ୍ର କୁହାଯାଏ।"
+"answer": "ଏଡ୍ରେନାଲିନ",
+"explanation": "ଏଡ୍ରେନାଲିନ ଜରୁରୀ ସ୍ଥିତିରେ ଶରୀରକୁ ସକ୍ରିୟ କରେ।"
+},
+{
+"questionEnglish": "Which gland secretes thyroxine?",
+"questionOdia": "ଥାଇରୋକ୍ସିନ କେଉଁ ଗ୍ରନ୍ଥି ନିସ୍ସରଣ କରେ?",
+"options": [
+"ଥାଇରଏଡ",
+"ପିଟ୍ୟୁଟାରି",
+"ଅଡ୍ରିନାଲ",
+"ଅଗ୍ନାଶୟ"
+],
+"answer": "ଥାଇରଏଡ",
+"explanation": "ଥାଇରଏଡ ଗ୍ରନ୍ଥିରୁ ଥାଇରୋକ୍ସିନ ନିସ୍ସରଣ ହୁଏ।"
+},
+{
+"questionEnglish": "Deficiency of iodine causes which disease?",
+"questionOdia": "ଆୟୋଡିନ ଅଭାବରେ କେଉଁ ରୋଗ ହୁଏ?",
+"options": [
+"ଘେଘା",
+"ମଧୁମେହ",
+"ରିକେଟସ",
+"ରାତ୍ରି ଅନ୍ଧତ୍ୱ"
+],
+"answer": "ଘେଘା",
+"explanation": "ଆୟୋଡିନ ଅଭାବରେ ଘେଘା ରୋଗ ହୁଏ।"
+},
+{
+"questionEnglish": "Which part protects brain?",
+"questionOdia": "ମସ୍ତିଷ୍କକୁ କେଉଁ ଅଂଶ ସୁରକ୍ଷା ଦେଇଥାଏ?",
+"options": [
+"କପାଳ",
+"ପାଜର",
+"ମେରୁଦଣ୍ଡ",
+"ତ୍ୱଚା"
+],
+"answer": "କପାଳ",
+"explanation": "କପାଳ ମସ୍ତିଷ୍କକୁ ସୁରକ୍ଷା କରେ।"
+},
+{
+"questionEnglish": "Which nerve carries impulses to brain?",
+"questionOdia": "ମସ୍ତିଷ୍କକୁ ସନ୍ଦେଶ ବହନ କରୁଥିବା ସ୍ନାୟୁ କ’ଣ?",
+"options": [
+"ସଂବେଦୀ ସ୍ନାୟୁ",
+"ଚାଳକ ସ୍ନାୟୁ",
+"ମିଶ୍ର ସ୍ନାୟୁ",
+"ମେରୁ ସ୍ନାୟୁ"
+],
+"answer": "ସଂବେଦୀ ସ୍ନାୟୁ",
+"explanation": "ସଂବେଦୀ ସ୍ନାୟୁ ସନ୍ଦେଶକୁ ମସ୍ତିଷ୍କକୁ ନେଇଯାଏ।"
+},
+{
+"questionEnglish": "Which nerve carries impulses from brain?",
+"questionOdia": "ମସ୍ତିଷ୍କରୁ ସନ୍ଦେଶ ବହନ କରୁଥିବା ସ୍ନାୟୁ କ’ଣ?",
+"options": [
+"ଚାଳକ ସ୍ନାୟୁ",
+"ସଂବେଦୀ ସ୍ନାୟୁ",
+"ମିଶ୍ର ସ୍ନାୟୁ",
+"କପାଳ ସ୍ନାୟୁ"
+],
+"answer": "ଚାଳକ ସ୍ନାୟୁ",
+"explanation": "ଚାଳକ ସ୍ନାୟୁ ମସ୍ତିଷ୍କରୁ ଅଙ୍ଗକୁ ସନ୍ଦେଶ ନେଇଯାଏ।"
+},
+{
+"questionEnglish": "What is the gap between two neurons called?",
+"questionOdia": "ଦୁଇଟି ନ୍ୟୁରନ ମଧ୍ୟର ଖାଲି ସ୍ଥାନକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ସାଇନାପ୍ସ",
+"ଆକ୍ସନ",
+"ଡେଣ୍ଡ୍ରାଇଟ",
+"ମାଇଲିନ"
+],
+"answer": "ସାଇନାପ୍ସ",
+"explanation": "ସାଇନାପ୍ସ ଦୁଇ ନ୍ୟୁରନ ମଧ୍ୟର ସଂଯୋଗ ସ୍ଥାନ।"
+},
+{
+"questionEnglish": "Which chemical carries impulses across synapse?",
+"questionOdia": "ସାଇନାପ୍ସ ମାଧ୍ୟମରେ ସନ୍ଦେଶ ବହନ କରୁଥିବା ରାସାୟନିକ କ’ଣ?",
+"options": [
+"ନ୍ୟୁରୋଟ୍ରାନ୍ସମିଟର",
+"ଇନସୁଲିନ",
+"ଥାଇରୋକ୍ସିନ",
+"ହିମୋଗ୍ଲୋବିନ"
+],
+"answer": "ନ୍ୟୁରୋଟ୍ରାନ୍ସମିଟର",
+"explanation": "ନ୍ୟୁରୋଟ୍ରାନ୍ସମିଟର ସନ୍ଦେଶ ପ୍ରେଷଣ କରେ।"
+},
+{
+"questionEnglish": "Which part of brain controls balance?",
+"questionOdia": "ମସ୍ତିଷ୍କର କେଉଁ ଅଂଶ ସମତୁଳନ ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": [
+"ସେରିବେଲମ",
+"ସେରିବ୍ରମ",
+"ମେଡୁଲା",
+"ହାଇପୋଥାଲାମସ"
+],
+"answer": "ସେରିବେଲମ",
+"explanation": "ସେରିବେଲମ ଶରୀରର ସମତୁଳନ ରକ୍ଷା କରେ।"
+},
+{
+"questionEnglish": "Which part controls heartbeat?",
+"questionOdia": "ହୃଦ୍‌ସ୍ପନ୍ଦନକୁ କେଉଁ ଅଂଶ ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": [
+"ମେଡୁଲା",
+"ସେରିବ୍ରମ",
+"ସେରିବେଲମ",
+"ପିଟ୍ୟୁଟାରି"
+],
+"answer": "ମେଡୁଲା",
+"explanation": "ମେଡୁଲା ହୃଦ୍‌ସ୍ପନ୍ଦନ ନିୟନ୍ତ୍ରଣ କରେ।"
+},
+{
+"questionEnglish": "What is phototropism?",
+"questionOdia": "ଆଲୋକାନୁବର୍ତ୍ତନ କ’ଣ?",
+"options": [
+"ଆଲୋକ ପ୍ରତି ଗତି",
+"ଜଳ ପ୍ରତି ଗତି",
+"ମାଗ୍ନ୍ୟତା ପ୍ରତି ଗତି",
+"ସ୍ପର୍ଶ ପ୍ରତି ଗତି"
+],
+"answer": "ଆଲୋକ ପ୍ରତି ଗତି",
+"explanation": "ଉଦ୍ଭିଦର ଆଲୋକ ଦିଗକୁ ବୃଦ୍ଧିକୁ ଆଲୋକାନୁବର୍ତ୍ତନ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Root shows which tropic movement?",
+"questionOdia": "ମୂଳ କେଉଁ ଅନୁବର୍ତ୍ତନ ଦେଖାଏ?",
+"options": [
+"ଧନାତ୍ମକ ଭୂଆନୁବର୍ତ୍ତନ",
+"ଋଣାତ୍ମକ ଭୂଆନୁବର୍ତ୍ତନ",
+"ଆଲୋକାନୁବର୍ତ୍ତନ",
+"ସ୍ପର୍ଶାନୁବର୍ତ୍ତନ"
+],
+"answer": "ଧନାତ୍ମକ ଭୂଆନୁବର୍ତ୍ତନ",
+"explanation": "ମୂଳ ମାଗ୍ନ୍ୟତା ଦିଗକୁ ବଢ଼େ।"
+},
+{
+"questionEnglish": "Shoot shows which tropic movement?",
+"questionOdia": "କାଣ୍ଡ କେଉଁ ଅନୁବର୍ତ୍ତନ ଦେଖାଏ?",
+"options": [
+"ଋଣାତ୍ମକ ଭୂଆନୁବର୍ତ୍ତନ",
+"ଧନାତ୍ମକ ଭୂଆନୁବର୍ତ୍ତନ",
+"ଜଳାନୁବର୍ତ୍ତନ",
+"ରାସାୟନିକ ଅନୁବର୍ତ୍ତନ"
+],
+"answer": "ଋଣାତ୍ମକ ଭୂଆନୁବର୍ତ୍ତନ",
+"explanation": "କାଣ୍ଡ ମାଗ୍ନ୍ୟତାର ବିପରୀତ ଦିଗକୁ ବଢ଼େ।"
+},
+{
+"questionEnglish": "Movement of touch-me-not plant is called?",
+"questionOdia": "ଲଜ୍ଜାବତୀ ଗଛର ଗତିକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ନାଷ୍ଟିକ ଗତି",
+"ଆଲୋକାନୁବର୍ତ୍ତନ",
+"ଭୂଆନୁବର୍ତ୍ତନ",
+"ଜଳାନୁବର୍ତ୍ତନ"
+],
+"answer": "ନାଷ୍ଟିକ ଗତି",
+"explanation": "ଲଜ୍ଜାବତୀର ପତ୍ର ସ୍ପର୍ଶରେ ଭାଙ୍ଗିଯାଏ।"
+},
+{
+"questionEnglish": "Which hormone promotes plant growth?",
+"questionOdia": "ଉଦ୍ଭିଦ ବୃଦ୍ଧିକୁ କେଉଁ ହର୍ମୋନ ବଢ଼ାଏ?",
+"options": [
+"ଅକ୍ସିନ",
+"ଇନସୁଲିନ",
+"ଥାଇରୋକ୍ସିନ",
+"ଏଡ୍ରେନାଲିନ"
+],
+"answer": "ଅକ୍ସିନ",
+"explanation": "ଅକ୍ସିନ ଉଦ୍ଭିଦ ବୃଦ୍ଧିକୁ ବଢ଼ାଏ।"
+},
+{
+"questionEnglish": "Which hormone helps in cell division in plants?",
+"questionOdia": "ଉଦ୍ଭିଦର କୋଷ ବିଭାଜନରେ କେଉଁ ହର୍ମୋନ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ସାଇଟୋକାଇନିନ",
+"ଅକ୍ସିନ",
+"ଜିବ୍ବରେଲିନ",
+"ଏବ୍ସିସିକ ଆମ୍ଲ"
+],
+"answer": "ସାଇଟୋକାଇନିନ",
+"explanation": "ସାଇଟୋକାଇନିନ କୋଷ ବିଭାଜନ କରାଏ।"
+},
+{
+"questionEnglish": "Which plant hormone inhibits growth?",
+"questionOdia": "କେଉଁ ଉଦ୍ଭିଦ ହର୍ମୋନ ବୃଦ୍ଧିକୁ ରୋକେ?",
+"options": [
+"ଏବ୍ସିସିକ ଆମ୍ଲ",
+"ଅକ୍ସିନ",
+"ଜିବ୍ବରେଲିନ",
+"ସାଇଟୋକାଇନିନ"
+],
+"answer": "ଏବ୍ସିସିକ ଆମ୍ଲ",
+"explanation": "ଏବ୍ସିସିକ ଆମ୍ଲ ବୃଦ୍ଧିକୁ ବନ୍ଦ କରେ।"
+},
+{
+"questionEnglish": "Which hormone helps fruit ripening?",
+"questionOdia": "ଫଳ ପାକିବାରେ କେଉଁ ହର୍ମୋନ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ଇଥିଲିନ",
+"ଅକ୍ସିନ",
+"ଜିବ୍ବରେଲିନ",
+"ସାଇଟୋକାଇନିନ"
+],
+"answer": "ଇଥିଲିନ",
+"explanation": "ଇଥିଲିନ ଫଳ ପାକିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Which hormone causes gigantism?",
+"questionOdia": "କେଉଁ ହର୍ମୋନ ଅଧିକ ହେଲେ ଦୈତ୍ୟାକାରତା ହୁଏ?",
+"options": [
+"ଗ୍ରୋଥ ହର୍ମୋନ",
+"ଇନସୁଲିନ",
+"ଥାଇରୋକ୍ସିନ",
+"ଏଡ୍ରେନାଲିନ"
+],
+"answer": "ଗ୍ରୋଥ ହର୍ମୋନ",
+"explanation": "ଗ୍ରୋଥ ହର୍ମୋନ ଅଧିକ ହେଲେ ଦୈତ୍ୟାକାରତା ହୁଏ।"
+},
+{
+"questionEnglish": "Lack of insulin causes which disease?",
+"questionOdia": "ଇନସୁଲିନ ଅଭାବରେ କେଉଁ ରୋଗ ହୁଏ?",
+"options": [
+"ମଧୁମେହ",
+"ଘେଘା",
+"ରିକେଟସ",
+"ସ୍କର୍ଭି"
+],
+"answer": "ମଧୁମେହ",
+"explanation": "ଇନସୁଲିନ ଅଭାବରେ ମଧୁମେହ ହୁଏ।"
+},
+{
+"questionEnglish": "Which system works with nervous system for coordination?",
+"questionOdia": "ସମନ୍ୱୟ ପାଇଁ ସ୍ନାୟୁତନ୍ତ୍ର ସହ କେଉଁ ତନ୍ତ୍ର କାମ କରେ?",
+"options": [
+"ଅନ୍ତଃସ୍ରାବୀ ତନ୍ତ୍ର",
+"ପାଚନତନ୍ତ୍ର",
+"ଶ୍ୱାସତନ୍ତ୍ର",
+"ରକ୍ତସଞ୍ଚାଳନତନ୍ତ୍ର"
+],
+"answer": "ଅନ୍ତଃସ୍ରାବୀ ତନ୍ତ୍ର",
+"explanation": "ହର୍ମୋନ ଦ୍ୱାରା ଅନ୍ତଃସ୍ରାବୀ ତନ୍ତ୍ର ସମନ୍ୱୟ କରେ।"
+},
+{
+"questionEnglish": "Which organ receives stimulus for vision?",
+"questionOdia": "ଦୃଷ୍ଟି ପାଇଁ ଉତ୍ତେଜନା କେଉଁ ଅଙ୍ଗ ଗ୍ରହଣ କରେ?",
+"options": [
+"ଆଖି",
+"କାନ",
+"ନାକ",
+"ଜିଭ"
+],
+"answer": "ଆଖି",
+"explanation": "ଆଖି ଆଲୋକ ଗ୍ରହଣ କରେ।"
+},
+{
+"questionEnglish": "Which organ receives sound stimulus?",
+"questionOdia": "ଶବ୍ଦ ଉତ୍ତେଜନା କେଉଁ ଅଙ୍ଗ ଗ୍ରହଣ କରେ?",
+"options": [
+"କାନ",
+"ଆଖି",
+"ନାକ",
+"ତ୍ୱଚା"
+],
+"answer": "କାନ",
+"explanation": "କାନ ଶବ୍ଦ ଶୁଣିଥାଏ।"
+},
+{
+"questionEnglish": "Which receptor is present in skin?",
+"questionOdia": "ତ୍ୱଚାରେ କେଉଁ ରିସେପ୍ଟର ଥାଏ?",
+"options": [
+"ସ୍ପର୍ଶ ରିସେପ୍ଟର",
+"ଆଲୋକ ରିସେପ୍ଟର",
+"ଶବ୍ଦ ରିସେପ୍ଟର",
+"ଗନ୍ଧ ରିସେପ୍ଟର"
+],
+"answer": "ସ୍ପର୍ଶ ରିସେପ୍ଟର",
+"explanation": "ତ୍ୱଚା ସ୍ପର୍ଶ ଅନୁଭବ କରେ।"
+},
+{
+"questionEnglish": "Which part of neuron contains nucleus?",
+"questionOdia": "ନ୍ୟୁରନର କେଉଁ ଅଂଶରେ କେନ୍ଦ୍ରକ ଥାଏ?",
+"options": [
+"କୋଷଦେହ",
+"ଆକ୍ସନ",
+"ଡେଣ୍ଡ୍ରାଇଟ",
+"ମାଇଲିନ"
+],
+"answer": "କୋଷଦେହ",
+"explanation": "କୋଷଦେହରେ କେନ୍ଦ୍ରକ ଥାଏ।"
+},
+{
+"questionEnglish": "Which hormone regulates metabolism?",
+"questionOdia": "ଉପାପଚୟକୁ କେଉଁ ହର୍ମୋନ ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": [
+"ଥାଇରୋକ୍ସିନ",
+"ଇନସୁଲିନ",
+"ଏଡ୍ରେନାଲିନ",
+"ଗ୍ରୋଥ ହର୍ମୋନ"
+],
+"answer": "ଥାଇରୋକ୍ସିନ",
+"explanation": "ଥାଇରୋକ୍ସିନ ଶରୀରର ଉପାପଚୟ ନିୟନ୍ତ୍ରଣ କରେ।"
+},
+{
+"questionEnglish": "Which movement is caused by water?",
+"questionOdia": "ଜଳ ଦ୍ୱାରା କେଉଁ ଅନୁବର୍ତ୍ତନ ହୁଏ?",
+"options": [
+"ଜଳାନୁବର୍ତ୍ତନ",
+"ଆଲୋକାନୁବର୍ତ୍ତନ",
+"ଭୂଆନୁବର୍ତ୍ତନ",
+"ରାସାୟନିକ ଅନୁବର୍ତ୍ତନ"
+],
+"answer": "ଜଳାନୁବର୍ତ୍ତନ",
+"explanation": "ଜଳ ଦିଗକୁ ଉଦ୍ଭିଦ ବୃଦ୍ଧିକୁ ଜଳାନୁବର୍ତ୍ତନ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the response to stimulus called?",
+"questionOdia": "ଉତ୍ତେଜନା ପ୍ରତି ପ୍ରତିସାଦକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ପ୍ରତିକ୍ରିୟା",
+"ପାଚନ",
+"ଶ୍ୱସନ",
+"ସଞ୍ଚାଳନ"
+],
+"answer": "ପ୍ରତିକ୍ରିୟା",
+"explanation": "ଉତ୍ତେଜନା ପ୍ରତି ଶରୀରର ପ୍ରତିସାଦକୁ ପ୍ରତିକ୍ରିୟା କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which hormone controls female secondary characters?",
+"questionOdia": "ମହିଳାଙ୍କ ଦ୍ୱିତୀୟ ଲିଙ୍ଗୀୟ ଲକ୍ଷଣକୁ କେଉଁ ହର୍ମୋନ ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": [
+"ଇଷ୍ଟ୍ରୋଜେନ",
+"ଟେଷ୍ଟୋଷ୍ଟେରୋନ",
+"ଇନସୁଲିନ",
+"ଥାଇରୋକ୍ସିନ"
+],
+"answer": "ଇଷ୍ଟ୍ରୋଜେନ",
+"explanation": "ଇଷ୍ଟ୍ରୋଜେନ ମହିଳାଙ୍କ ଦ୍ୱିତୀୟ ଲିଙ୍ଗୀୟ ଲକ୍ଷଣ ବିକାଶ କରେ।"
+},
+{
+"questionEnglish": "Which hormone controls male secondary characters?",
+"questionOdia": "ପୁରୁଷଙ୍କ ଦ୍ୱିତୀୟ ଲିଙ୍ଗୀୟ ଲକ୍ଷଣକୁ କେଉଁ ହର୍ମୋନ ନିୟନ୍ତ୍ରଣ କରେ?",
+"options": [
+"ଟେଷ୍ଟୋଷ୍ଟେରୋନ",
+"ଇଷ୍ଟ୍ରୋଜେନ",
+"ଇନସୁଲିନ",
+"ଥାଇରୋକ୍ସିନ"
+],
+"answer": "ଟେଷ୍ଟୋଷ୍ଟେରୋନ",
+"explanation": "ଟେଷ୍ଟୋଷ୍ଟେରୋନ ପୁରୁଷ ଲକ୍ଷଣ ବିକାଶ କରେ।"
+},
+{
+"questionEnglish": "Which part of brain is largest?",
+"questionOdia": "ମସ୍ତିଷ୍କର ସବୁଠାରୁ ବଡ଼ ଅଂଶ କ’ଣ?",
+"options": [
+"ସେରିବ୍ରମ",
+"ସେରିବେଲମ",
+"ମେଡୁଲା",
+"ହାଇପୋଥାଲାମସ"
+],
+"answer": "ସେରିବ୍ରମ",
+"explanation": "ସେରିବ୍ରମ ମସ୍ତିଷ୍କର ସବୁଠାରୁ ବଡ଼ ଅଂଶ।"
+},
+{
+"questionEnglish": "Which movement is shown by tendrils?",
+"questionOdia": "ଲତାର କଣ୍ଟି କେଉଁ ଅନୁବର୍ତ୍ତନ ଦେଖାଏ?",
+"options": [
+"ସ୍ପର୍ଶାନୁବର୍ତ୍ତନ",
+"ଆଲୋକାନୁବର୍ତ୍ତନ",
+"ଭୂଆନୁବର୍ତ୍ତନ",
+"ଜଳାନୁବର୍ତ୍ତନ"
+],
+"answer": "ସ୍ପର୍ଶାନୁବର୍ତ୍ତନ",
+"explanation": "ସ୍ପର୍ଶ ଦ୍ୱାରା କଣ୍ଟି ବଢ଼େ।"
+},
+{
+"questionEnglish": "Which gland is present above kidneys?",
+"questionOdia": "ବୃକ୍କର ଉପରେ କେଉଁ ଗ୍ରନ୍ଥି ରହିଛି?",
+"options": [
+"ଅଡ୍ରିନାଲ",
+"ଥାଇରଏଡ",
+"ପିଟ୍ୟୁଟାରି",
+"ଅଗ୍ନାଶୟ"
+],
+"answer": "ଅଡ୍ରିନାଲ",
+"explanation": "ଅଡ୍ରିନାଲ ଗ୍ରନ୍ଥି ବୃକ୍କ ଉପରେ ଥାଏ।"
 }
 ]
