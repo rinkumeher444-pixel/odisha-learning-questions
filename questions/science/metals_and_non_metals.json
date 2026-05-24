@@ -1,122 +1,302 @@
 [
   {
     "questionEnglish": "Which of the following metals is a liquid at room temperature?",
-    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଧାତୁ ସାଧାରଣ ତାପମାତ୍ରାରେ ତରଳ ଅବସ୍ଥାରେ ଥାଏ?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଧାତୁଟି ସାଧାରଣ ତାପମାତ୍ରାରେ ତରଳ ଅବସ୍ଥାରେ ଥାଏ?",
     "options": [
-      "Mercury",
-      "Sodium",
-      "Gallium",
-      "Silver"
+      "ସୋଡିୟମ୍ (Sodium)",
+      "ପାରଦ (Mercury)",
+      "ଲୁହା (Iron)",
+      "କପର (Copper)"
     ],
-    "answer": "Mercury",
-    "explanation": "Mercury (Hg) is the only metal that remains in a liquid state at standard room temperature."
+    "answer": "ପାରଦ (Mercury)",
+    "explanation": "ପାରଦ (Mercury/Hg) ଏକମାତ୍ର ଧାତୁ ଯାହା କୋଠରୀ ତାପମାତ୍ରାରେ ତରଳ ଅବସ୍ଥାରେ ମିଳିଥାଏ।"
   },
   {
-    "questionEnglish": "Which property allows metals to be drawn into thin wires?",
-    "questionOdia": "ଧାତୁଗୁଡ଼ିକୁ ସରୁ ତାରରେ ପରିଣତ କରିବାର ଗୁଣକୁ କଣ କୁହାଯାଏ?",
+    "questionEnglish": "Which non-metal is a liquid at room temperature?",
+    "questionOdia": "କେଉଁ ଅଧାତୁଟି ସାଧାରଣ ତାପମାତ୍ରାରେ ତରଳ ଅବସ୍ଥାରେ ଥାଏ?",
     "options": [
-      "Ductility",
-      "Malleability",
-      "Sonority",
-      "Conductivity"
+      "ଆୟୋଡିନ୍ (Iodine)",
+      "ବ୍ରୋମିନ୍ (Bromine)",
+      "କ୍ଲୋରିନ୍ (Chlorine)",
+      "ସଲଫର୍ (Sulfur)"
     ],
-    "answer": "Ductility",
-    "explanation": "Ductility is the physical property of a material that allows it to be stretched into thin wires without breaking."
+    "answer": "ବ୍ରୋମିନ୍ (Bromine)",
+    "explanation": "ବ୍ରୋମିନ୍ (Br) ହେଉଛି ଏକମାତ୍ର ଅଧାତୁ ଯାହା ସାଧାରଣ ତାପମାତ୍ରାରେ ତରଳ ରୂପରେ ଥାଏ।"
   },
   {
-    "questionEnglish": "Which of the following non-metals is a good conductor of electricity?",
-    "questionOdia": "ନିମ୍ନଲିଖିତ ଅଧାତୁଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟି ବିଦ୍ୟୁତର ସୁପରିବାହୀ?",
+    "questionEnglish": "The property of metals by which they can be beaten into thin sheets is called?",
+    "questionOdia": "ଧାତୁଗୁଡ଼ିକୁ ପିଟି ପିଟି ପତଳା ଚଦରରେ ପରିଣତ କରିବା ଗୁଣକୁ କଣ କୁହାଯାଏ?",
     "options": [
-      "Graphite",
-      "Diamond",
-      "Sulphur",
-      "Iodine"
+      "ନମନୀୟତା (Malleability)",
+      "ନମ୍ୟତା (Ductility)",
+      "ଉଜ୍ଜ୍ୱଳତା (Lustre)",
+      "ନାଦିତ୍ୱ (Sonorous)"
     ],
-    "answer": "Graphite",
-    "explanation": "Graphite is an allotrope of carbon that has free electrons, allowing it to conduct electricity, unlike most other non-metals."
+    "answer": "ନମନୀୟତା (Malleability)",
+    "explanation": "ଧାତୁଗୁଡ଼ିକୁ ଆଘାତ କରି ପତଳା ଚଦର ବା ପାତ କରିବା ଗୁଣକୁ ନମନୀୟତା (Malleability) କୁହାଯାଏ। ସୁନା ଓ ରୂପା ସବୁଠାରୁ ଅଧିକ ନମନୀୟ।"
   },
   {
-    "questionEnglish": "Which metal can be easily cut with a knife?",
-    "questionOdia": "କେଉଁ ଧାତୁକୁ ଛୁରୀ ସାହାଯ୍ୟରେ ସହଜରେ କଟାଯାଇପାରିବ?",
+    "questionEnglish": "The ability of metals to be drawn into thin wires is known as?",
+    "questionOdia": "ଧାତୁଗୁଡ଼ିକୁ ଟାଣି ସରୁ ତାରରେ ପରିଣତ କରିବା କ୍ଷମତାକୁ କଣ କୁହାଯାଏ?",
     "options": [
-      "Sodium",
-      "Iron",
-      "Copper",
-      "Gold"
+      "ନମନୀୟତା (Malleability)",
+      "ନମ୍ୟତା (Ductility)",
+      "ପ୍ରତିଫଳନ ଗୁଣ",
+      "ପରିବାହିତା"
     ],
-    "answer": "Sodium",
-    "explanation": "Sodium and Potassium are alkali metals that are exceptionally soft and can be sliced easily with a common knife."
+    "answer": "ନମ୍ୟତା (Ductility)",
+    "explanation": "ଧାତୁକୁ ସରୁ ତାରରେ ପରିଣତ କରିବା ଗୁଣକୁ ନମ୍ୟତା (Ductility) କୁହାଯାଏ। ୧ ଗ୍ରାମ ସୁନାରୁ ପ୍ରାୟ ୨ କିଲୋମିଟର ଲମ୍ବର ତାର ପ୍ରସ୍ତୁତ କରାଯାଇପାରିବ।"
   },
   {
-    "questionEnglish": "An alloy of mercury with another metal is called?",
-    "questionOdia": "ପାରଦ ସହିତ ଅନ୍ୟ ଏକ ଧାତୁର ମିଶ୍ରଧାତୁକୁ କଣ କୁହାଯାଏ?",
+    "questionEnglish": "Which of the following is the best conductor of heat?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ତାପର ସବୁଠାରୁ ଉତ୍ତମ ପରିବାହୀ ଅଟେ?",
     "options": [
-      "Amalgam",
-      "Brass",
-      "Bronze",
-      "Solder"
+      "ରୂପା (Silver)",
+      "ଲେଡ୍ (Lead)",
+      "ପାରଦ (Mercury)",
+      "ଲୁହା (Iron)"
     ],
-    "answer": "Amalgam",
-    "explanation": "An amalgam is a specific type of alloy formed by combining mercury with one or more other metals."
+    "answer": "ରୂପା (Silver)",
+    "explanation": "ରୂପା (Silver) ଏବଂ ତମ୍ବା (Copper) ତାପର ସବୁଠାରୁ ଭଲ ପରିବାହୀ ଅଟନ୍ତି, ଯେଉଁଠାରେ ଲେଡ୍ ଏବଂ ପାରଦ କୁପରିବାହୀ।"
   },
   {
-    "questionEnglish": "What are oxides that react with both acids and bases called?",
-    "questionOdia": "ଯେଉଁ ଅକ୍ସାଇଡଗୁଡ଼ିକ ଉଭୟ ଅମ୍ଳ ଏବଂ କ୍ଷାରକ ସହିତ ପ୍ରତିକ୍ରିୟା କରନ୍ତି, ସେଗୁଡ଼ିକୁ କଣ କୁହାଯାଏ?",
+    "questionEnglish": "Which of the following metals can be easily cut with a knife?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଧାତୁକୁ ଛୁରୀ ସାହାଯ୍ୟରେ ସହଜରେ କଟାଯାଇପାରିବ?",
     "options": [
-      "Amphoteric oxides",
-      "Acidic oxides",
-      "Basic oxides",
-      "Neutral oxides"
+      "ମ୍ୟାଗ୍ନେସିୟମ୍",
+      "ସୋଡିୟମ୍ (Sodium)",
+      "ଲୁହା",
+      "ଆଲୁମିନିୟମ୍"
     ],
-    "answer": "Amphoteric oxides",
-    "explanation": "Oxides that show both acidic and basic behaviors, like Aluminum oxide (Al2O3), are known as amphoteric oxides."
+    "answer": "ସୋଡିୟମ୍ (Sodium)",
+    "explanation": "ଲିଥିୟମ୍, ସୋଡିୟମ୍ ଏବଂ ପୋଟାସିୟମ୍ ଭଳି କ୍ଷାର ଧାତୁଗୁଡ଼ିକ ଖୁବ୍ ନରମ ହୋଇଥାନ୍ତି, ତେଣୁ ସେଗୁଡ଼ିକୁ ଛୁରୀରେ କଟାଯାଇପାରେ।"
   },
   {
-    "questionEnglish": "Which of the following metals does not react even with water or steam?",
-    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଧାତୁ ଜଳ କିମ୍ବା ଜଳୀୟ ବାଷ୍ପ ସହିତ ଆଦୌ ପ୍ରତିକ୍ରିୟା କରେ ନାହିଁ?",
+    "questionEnglish": "Which non-metal is lustrous and shines like metals?",
+    "questionOdia": "କେଉଁ ଅଧାତୁଟି ଅଧାତୁ ହୋଇ ମଧ୍ୟ ଧାତୁ ଭଳି ଜଳଜଳ ଦେଖାଯାଏ ବା ଉଜ୍ଜ୍ୱଳ ଗୁଣସମ୍ପନ୍ନ?",
     "options": [
-      "Gold",
-      "Iron",
-      "Calcium",
-      "Magnesium"
+      "କାର୍ବନ",
+      "ସଲଫର୍",
+      "ଆୟୋଡିନ୍ (Iodine)",
+      "ଫସଫରସ୍"
     ],
-    "answer": "Gold",
-    "explanation": "Gold (Au) and Silver (Ag) are highly unreactive noble metals at the bottom of the reactivity series and do not react with water in any form."
+    "answer": "ଆୟୋଡିନ୍ (Iodine)",
+    "explanation": "ଅଧାତୁଗୁଡ଼ିକ ସାଧାରଣତଃ ଅନୁଜ୍ଜ୍ୱଳ ହୋଇଥାନ୍ତି, କିନ୍ତୁ ଆୟୋଡିନ୍ ଏହାର ଏକ ଅପବାଦ ଯାହା ଉଜ୍ଜ୍ୱଳ ଅଟେ।"
   },
   {
-    "questionEnglish": "Aqua regia is a freshly prepared mixture of concentrated HCl and concentrated HNO3 in what ratio?",
-    "questionOdia": "ଆକ୍ଵା ରେଜିଆ (Aqua regia) ହେଉଛି ଗାଢ HCl ଏବଂ ଗାଢ HNO3 ର ଏକ ମିଶ୍ରଣ, ଏହାର ଅନୁପାତ କେତେ?",
+    "questionEnglish": "Which allotrope of carbon is the hardest natural substance known?",
+    "questionOdia": "କାର୍ବନର କେଉଁ ଅପରରୂପ (Allotrope) ପୃଥିବୀର ସବୁଠାରୁ କଠିନ ପ୍ରାକୃତିକ ପଦାର୍ଥ ଅଟେ?",
     "options": [
-      "3:1",
-      "1:3",
-      "2:3",
-      "3:2"
+      "ଗ୍ରାଫାଇଟ୍",
+      "ହୀରା (Diamond)",
+      "କୋଇଲା",
+      "ଫୁଲେରିନ୍"
     ],
-    "answer": "3:1",
-    "explanation": "Aqua Regia is a highly corrosive mixture made by combining concentrated Hydrochloric acid and concentrated Nitric acid in a 3:1 ratio."
+    "answer": "ହୀରା (Diamond)",
+    "explanation": "ହୀରା ହେଉଛି କାର୍ବନର ଏକ ଅପରରୂପ, ଯାହା ପ୍ରକୃତିର ସବୁଠାରୁ କଠିନ ପଦାର୍ଥ ଏବଂ ଏହାର ଗଳନାଙ୍କ ଖୁବ୍ ଅଧିକ।"
   },
   {
-    "questionEnglish": "Which non-metal is lustrous in nature?",
-    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଅଧାତୁଟି ଉଜ୍ଜ୍ୱଳ ବା ଚମକଦାର?",
+    "questionEnglish": "Which allotrope of carbon is a good conductor of electricity?",
+    "questionOdia": "କାର୍ବନର କେଉଁ ଅପରରୂପଟି ବିଦ୍ୟୁତର ସୁପରିବାହୀ ଅଟେ?",
     "options": [
-      "Iodine",
-      "Sulphur",
-      "Carbon",
-      "Phosphorus"
+      "ହୀରା",
+      "ଗ୍ରାଫାଇଟ୍ (Graphite)",
+      "କୋକ୍",
+      "କାର୍ବନ ବ୍ଲାକ"
     ],
-    "answer": "Iodine",
-    "explanation": "While most non-metals are dull, Iodine is an exception as it displays a distinct metallic-like lustrous shine."
+    "answer": "ଗ୍ରାଫାଇଟ୍ (Graphite)",
+    "explanation": "ଅଧାତୁଗୁଡ଼ିକ ବିଦ୍ୟୁତର କୁପରିବାହୀ ହୋଇଥିବା ବେଳେ ଗ୍ରାଫାଇଟ୍ ଏକମାତ୍ର ଅଧାତୁ ଯାହା ବିଦ୍ୟୁତ ସୁପରିବାହୀ ଅଟେ।"
   },
   {
-    "questionEnglish": "Which chemical process is used to extract highly reactive metals like Sodium?",
-    "questionOdia": "ସୋଡିୟମ୍ ଭଳି ଅଧିକ ପ୍ରତିକ୍ରିୟାଶୀଳ ଧାତୁର ନିଷ୍କାସନ ପାଇଁ କେଉଁ ରାସାୟନିକ ପ୍ରକ୍ରିୟା ବ୍ୟବହାର କରାଯାଏ?",
+    "questionEnglish": "What happens when Copper is heated in air?",
+    "questionOdia": "ତମ୍ବା (Copper) କୁ ବାୟୁରେ ଗରମ କଲେ କେଉଁ ରଙ୍ଗର କପର ଅକ୍ସାଇଡ୍ ସୃଷ୍ଟି ହୁଏ?",
     "options": [
-      "Electrolytic reduction",
-      "Reduction with carbon",
-      "Roasting",
-      "Calcination"
+      "ନାଲି",
+      "କଳା (Black)",
+      "ସବୁଜ",
+      "ଧଳା"
     ],
-    "answer": "Electrolytic reduction",
-    "explanation": "Highly reactive metals bind strongly to oxygen and cannot be reduced by carbon, so they are extracted via electrolytic reduction of their molten chlorides."
+    "answer": "କଳା (Black)",
+    "explanation": "ତମ୍ବା ବାୟୁରେ ଥିବା ଅମ୍ଳଜାନ ସହ ପ୍ରତିକ୍ରିୟା କରି କପର (II) ଅକ୍ସାଇଡ୍ ର ଏକ କଳା ରଙ୍ଗର ଆସ୍ତରଣ ସୃଷ୍ଟି କରେ (2Cu + O2 -> 2CuO) ।"
+  },
+  {
+    "questionEnglish": "Metal oxides which react with both acids as well as bases to produce salt and water are called?",
+    "questionOdia": "ଯେଉଁ ଧାତବ ଅକ୍ସାଇଡ୍ ଗୁଡ଼ିକ ଉଭୟ ଅମ୍ଳ ଏବଂ କ୍ଷାରକ ସହ ପ୍ରତିକ୍ରିୟା କରି ଲବଣ ଓ ଜଳ ସୃଷ୍ଟି କରନ୍ତି, ସେମାନଙ୍କୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "କ୍ଷାରକୀୟ ଅକ୍ସାଇଡ୍",
+      "ଅମ୍ଳୀୟ ଅକ୍ସାଇଡ୍",
+      "ଉଭୟଧର୍ମୀ ଅକ୍ସାଇଡ୍ (Amphoteric Oxide)",
+      "ପ୍ରଶମିତ ଅକ୍ସାଇଡ୍"
+    ],
+    "answer": "ଉଭୟଧର୍ମୀ ଅକ୍ସାଇଡ୍ (Amphoteric Oxide)",
+    "explanation": "ଆଲୁମିନିୟମ୍ ଅକ୍ସାଇଡ୍ (Al2O3) ଏବଂ ଜିଙ୍କ୍ ଅକ୍ସାଇଡ୍ (ZnO) ଭଳି ଅକ୍ସାଇଡ୍ ଗୁଡ଼ିକ ଉଭୟ ଅମ୍ଳୀୟ ଓ କ୍ଷାରକୀୟ ଆଚରଣ ପ୍ରଦର୍ଶନ କରୁଥିବାରୁ ଏହାକୁ ଉଭୟଧର୍ମୀ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which of the following is an example of an amphoteric oxide?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଉଭୟଧର୍ମୀ ଅକ୍ସାଇଡ୍‌ର ଉଦାହରଣ?",
+    "options": [
+      "Na2O",
+      "K2O",
+      "Al2O3",
+      "CuO"
+    ],
+    "answer": "Al2O3",
+    "explanation": "Al2O3 (ଆଲୁମିନିୟମ୍ ଅକ୍ସାଇଡ୍) HCl ଏବଂ NaOH ଉଭୟଙ୍କ ସହ ପ୍ରତିକ୍ରିୟା କରିପାରେ, ତେଣୁ ଏହା ଏକ ଉଭୟଧର୍ମୀ ଅକ୍ସାଇଡ୍।"
+  },
+  {
+    "questionEnglish": "Why are Sodium and Potassium stored under kerosene oil?",
+    "questionOdia": "ସୋଡିୟମ୍ ଏବଂ ପୋଟାସିୟମ୍ କୁ କାହିଁକି କିରୋସିନି ତେଲ ମଧ୍ୟରେ ବୁଡ଼ାଇ ରଖାଯାଏ?",
+    "options": [
+      "ବାୟୁ ଏବଂ ଜଳ ସହ ତୀବ୍ର ପ୍ରତିକ୍ରିୟାରୁ ରକ୍ଷା କରିବା ପାଇଁ",
+      "ସେମାନଙ୍କର ଉଜ୍ଜ୍ୱଳତା ବଢ଼ାଇବା ପାଇଁ",
+      "ତରଳାଇବା ପାଇଁ",
+      "ଓଜନ ହ୍ରାସ କରିବା ପାଇଁ"
+    ],
+    "answer": "ବାୟୁ ଏବଂ ଜଳ ସହ ତୀବ୍ର ପ୍ରତିକ୍ରିୟାରୁ ରକ୍ଷା କରିବା ପାଇଁ",
+    "explanation": "ସୋଡିୟମ୍ ଓ ପୋଟାସିୟମ୍ ଅତି ପ୍ରତିକ୍ରିୟାଶୀଳ ଧାତୁ। ଏଗୁଡ଼ିକ ବାୟୁ ବା ଜଳ ସଂସ୍ପର୍ଶରେ ଆସିଲେ ସଙ୍ଗେ ସଙ୍ଗେ ନିଆଁ ଧରିଥାନ୍ତି, ତେଣୁ ଏମାନଙ୍କୁ କିରୋସିନିରେ ରଖାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which metal does not react with oxygen even at high temperatures?",
+    "questionOdia": "କେଉଁ ଧାତୁଟି ଅତ୍ୟଧିକ ତାପମାତ୍ରାରେ ମଧ୍ୟ ଅମ୍ଳଜାନ ସହିତ ପ୍ରତିକ୍ରିୟା କରେ ନାହିଁ?",
+    "options": [
+      "ଲୁହା (Iron)",
+      "ମ୍ୟାଗ୍ନେସିୟମ୍",
+      "ସୁନା (Gold)",
+      "ସୋଡିୟମ୍"
+    ],
+    "answer": "ସୁନା (Gold)",
+    "explanation": "ସୁନା (Au) ଏବଂ ରୂପା (Ag) ଅତି କମ୍ ପ୍ରତିକ୍ରିୟାଶୀଳ ହୋଇଥିବାରୁ ଉଚ୍ଚ ତାପମାତ୍ରାରେ ମଧ୍ୟ ଅମ୍ଳଜାନ ସହ ପ୍ରତିକ୍ରିୟା କରନ୍ତି ନାହିଁ।"
+  },
+  {
+    "questionEnglish": "Which metal reacts violently with cold water?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଧାତୁଟି ଥଣ୍ଡା ଜଳ ସହିତ ଅତି ତୀବ୍ର ପ୍ରତିକ୍ରିୟା କରିଥାଏ?",
+    "options": [
+      "ମ୍ୟାଗ୍ନେସିୟମ୍",
+      "କ୍ୟାଲସିୟମ୍",
+      "ପୋଟାସିୟମ୍ (Potassium)",
+      "ଲୁହା"
+    ],
+    "answer": "ପୋଟାସିୟମ୍ (Potassium)",
+    "explanation": "ସୋଡିୟମ୍ ଏବଂ ପୋଟାସିୟମ୍ ଥଣ୍ଡା ଜଳ ସହ ପ୍ରତିକ୍ରିୟା କରି ପ୍ରଚୁର ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍ ଓ ତାପ ଛାଡନ୍ତି, ଯାହାଫଳରେ ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍‌ରେ ନିଆଁ ଲାଗିଯାଏ।"
+  },
+  {
+    "questionEnglish": "Why do Calcium and Magnesium start floating when added to water?",
+    "questionOdia": "ଜଳରେ ମିଶାଇଲେ କ୍ୟାଲସିୟମ୍ ଏବଂ ମ୍ୟାଗ୍ନେସିୟମ୍ ଧାତୁ କାହିଁକି ଜଳ ଉପରେ ଭାସିବାକୁ ଲାଗନ୍ତି?",
+    "options": [
+      "ଏମାନେ ଜଳଠାରୁ ହାଲୁକା",
+      "ଉତ୍ପନ୍ନ ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍ ବୁଦ୍ବୁଦ୍ ଧାତୁ ପୃଷ୍ଠରେ ଲାଗିଯାଏ",
+      "ଏହା ଏକ ଭୌତିକ ଭ୍ରମ",
+      "ଜଳ ବାଷ୍ପରେ ପରିଣତ ହୁଏ"
+    ],
+    "answer": "ଉତ୍ପନ୍ନ ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍ ବୁଦ୍ବୁଦ୍ ଧାତୁ ପୃଷ୍ଠରେ ଲାଗିଯାଏ",
+    "explanation": "ପ୍ରତିକ୍ରିୟା ବେଳେ ବାହାରୁଥିବା ହାଇଡ୍ରୋଜେନ୍ ਗ୍ୟାସ୍‌ର ବୁଦ୍‌ବୁଦ୍ ଗୁଡ଼ିକ ଧାତୁ ଦେହରେ ଚାପି ହୋଇ ରହିଯାଏ, ତେଣୁ ସେଗୁଡ଼ିକ ଭାସନ୍ତି।"
+  },
+  {
+    "questionEnglish": "Which metal reacts only with hot water and not cold water?",
+    "questionOdia": "କେଉଁ ଧାତୁଟି ଥଣ୍ଡା ଜଳ ସହ ପ୍ରତିକ୍ରିୟା କରେ ନାହିଁ କିନ୍ତୁ କେବଳ ଗରମ ଜଳ ସହ ପ୍ରତିକ୍ରିୟା କରେ?",
+    "options": [
+      "ସୋଡିୟମ୍",
+      "କ୍ୟାଲସିୟମ୍",
+      "ମ୍ୟାଗ୍ନେସିୟମ୍ (Magnesium)",
+      "ତମ୍ବା"
+    ],
+    "answer": "ମ୍ୟାଗ୍ନେସିୟମ୍ (Magnesium)",
+    "explanation": "ମ୍ୟାଗ୍ନେସିୟମ୍ କ୍ୟାଲସିୟମ୍ ଅପେକ୍ଷା କମ୍ ପ୍ରତିକ୍ରିୟାଶୀଳ, ଏହା କେବଳ ଫୁଟନ୍ତା ବା ଗରମ ଜଳ ସହ ପ୍ରତିକ୍ରିୟା କରିଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which metals do not react with cold or hot water but react with steam?",
+    "questionOdia": "କେଉଁ ଧାତୁଗୁଡ଼ିକ ଥଣ୍ଡା କିମ୍ବା ଗରମ ଜଳ ସହ ପ୍ରତିକ୍ରିୟା ନକରି କେବଳ ଜଳୀୟ ବାଷ୍ପ (Steam) ସହ ପ୍ରତିକ୍ରିୟା କରନ୍ତି?",
+    "options": [
+      "Sodium and Potassium",
+      "Iron and Aluminum",
+      "Copper and Gold",
+      "Calcium and Magnesium"
+    ],
+    "answer": "Iron and Aluminum",
+    "explanation": "ଆଲୁମିନିୟମ୍, ଲୁହା (Iron) ଏବଂ ଜିଙ୍କ୍ ଜଳ ସହ ସାଧାରଣତଃ ପ୍ରତିକ୍ରିୟା କରନ୍ତି ନାହିଁ, ମାତ୍ର ଜଳୀୟ ବାଷ୍ପ ସହ ପ୍ରତିକ୍ରିୟା କରି ଧାତବ ଅକ୍ସାଇଡ୍ ଗଠନ କରନ୍ତି।"
+  },
+  {
+    "questionEnglish": "Which strong oxidizing agent acid usually does not evolve hydrogen gas when reacting with metals?",
+    "questionOdia": "କେଉଁ ଅମ୍ଳଟି ଏକ ଶକ୍ତିଶାଳୀ ଜାରକ ହୋଇଥିବାରୁ ଧାତୁ ସହ ପ୍ରତିକ୍ରିୟା କଲେ ସାଧାରଣତଃ ହାଇଡ୍ରୋଜେନ୍ ଗ୍ୟାସ୍ ଉତ୍ପନ୍ନ କରେନାହିଁ?",
+    "options": [
+      "Hydrochloric acid (HCl)",
+      "Sulfuric acid (H2SO4)",
+      "Nitric acid (HNO3)",
+      "Acetic acid"
+    ],
+    "answer": "Nitric acid (HNO3)",
+    "explanation": "HNO3 ଏକ ଶକ୍ତିଶାଳୀ ଜାରକ ହୋଇଥିବାରୁ ଏହା ଉତ୍ପନ୍ନ ହାଇଡ୍ରୋଜେନ୍ କୁ ଜାରିତ କରି ଜଳରେ ପରିଣତ କରିଦିଏ ଏବଂ ନିଜେ ନାଇଟ୍ରୋଜେନ୍ ଅକ୍ସାଇଡ୍‌ରେ ପରିଣତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is Aqua Regia (ଅମ୍ଳରାଜ)?",
+    "questionOdia": "ଅମ୍ଳରାଜ (Aqua Regia) କାହାର ଏକ ସଦ୍ୟ ପ୍ରସ୍ତୁତ ମିଶ୍ରଣ ଅଟେ?",
+    "options": [
+      "Concentrated HCl and Concentrated HNO3 in 3:1 ratio",
+      "Concentrated HCl and Concentrated H2SO4 in 1:3 ratio",
+      "Concentrated HNO3 and Concentrated HCl in 3:1 ratio",
+      "Dilute HCl and Dilute HNO3 in 3:1 ratio"
+    ],
+    "answer": "Concentrated HCl and Concentrated HNO3 in 3:1 ratio",
+    "explanation": "ଗାଢ଼ HCl ଏବଂ ଗାଢ଼ HNO3 ର ୩:୧ ଅନୁପାତ ମିଶ୍ରଣକୁ ଅମ୍ଳରାଜ କୁହାଯାଏ, ଯାହା ସୁନାକୁ ମଧ୍ୟ ତରଳାଇ ଦେଇପାରେ।"
+  },
+  {
+    "questionEnglish": "In the reactivity series, which is the most reactive metal?",
+    "questionOdia": "ଧାତୁଗୁଡ଼ିକର ପ୍ରତିକ୍ରିୟାଶୀଳତା ଶ୍ରେଣୀ (Reactivity Series) ର ସବୁଠାରୁ ଉପରେ କେଉଁ ଧାତୁ ଅଛି?",
+    "options": [
+      "ସୋଡିୟମ୍ (Na)",
+      "ପୋଟାସିୟମ୍ (K)",
+      "କ୍ୟାଲସିୟମ୍ (Ca)",
+      "ଲୁହା (Fe)"
+    ],
+    "answer": "ପୋଟାସିୟମ୍ (K)",
+    "explanation": "ପ୍ରତିକ୍ରିୟାଶୀଳତା ଶ୍ରେଣୀରେ ପୋଟାସିୟମ୍ (K) ସବୁଠାରୁ ଶୀର୍ଷରେ ଥାଏ, ଏହା ସବୁଠାରୁ ଶୀଘ୍ର ପ୍ରତିକ୍ରିୟା କରେ।"
+  },
+  {
+    "questionEnglish": "What type of bond is formed by the transfer of electrons from a metal to a non-metal?",
+    "questionOdia": "ଧାତୁରୁ ଅଧାତୁକୁ ଇଲେକ୍ଟ୍ରନ୍ ସ୍ଥାନାନ୍ତରଣ ଦ୍ୱାରା କେଉଁ ପ୍ରକାରର ରାସାୟନିକ ବନ୍ଧ ଗଠିତ ହୁଏ?",
+    "options": [
+      "ସହସଂଯୋଜକ ବନ୍ଧ (Covalent Bond)",
+      "ଆୟନୀୟ ବନ୍ଧ (Ionic Bond)",
+      "ହାଇଡ୍ରୋଜେନ୍ ବନ୍ଧ",
+      "ଆଣବିକ ବନ୍ଧ"
+    ],
+    "answer": "ଆୟନୀୟ ବନ୍ଧ (Ionic Bond)",
+    "explanation": "ଇଲେକ୍ଟ୍ରନ୍ ଆଦାନ-ପ୍ରଦାନ ଯୋଗୁଁ ସୃଷ୍ଟି ହେଉଥିବା ଯୌଗିକକୁ ଆୟନୀୟ ଯୌଗିକ ବା ବୈଦ୍ୟୁତିକ ସଂଯୋଜକ ଯୌଗିକ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which of the following is a characteristic property of Ionic compounds?",
+    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଆୟନୀୟ ଯୌଗିକଗୁଡ଼ିକର ଏକ ପ୍ରମୁଖ ଗୁଣ ଅଟେ?",
+    "options": [
+      "ନିମ୍ନ ଗଳନାଙ୍କ ଓ ସ୍ଫୁଟନାଙ୍କ",
+      "ଉଚ୍ଚ ଗଳନାଙ୍କ ଓ ସ୍ଫୁଟନାଙ୍କ (High Melting & Boiling points)",
+      "ଜଳରେ ଅଦ୍ରବଣୀୟ",
+      "କଠିନ ଅବସ୍ଥାରେ ବିଦ୍ୟୁତ୍ ପରିବାହୀ"
+    ],
+    "answer": "ଉଚ୍ଚ ଗଳନାଙ୍କ ଓ ସ୍ଫୁଟନାଙ୍କ (High Melting & Boiling points)",
+    "explanation": "ଆୟନୀୟ ଯୌଗିକଗୁଡ଼ିକ ମଧ୍ୟରେ ଶକ୍ତିଶାଳୀ ଆନ୍ତଃ-ଆୟନୀୟ ଆକର୍ଷଣ ବଳ ଥିବାରୁ ଏହାକୁ ଭାଙ୍ଗିବା ପାଇଁ ଅଧିକ ଶକ୍ତି ଦରକାର ହୁଏ, ତେଣୁ ଏମାନଙ୍କ ଗଳନାଙ୍କ ଉଚ୍ଚ।"
+  },
+  {
+    "questionEnglish": "Ionic compounds conduct electricity in which state?",
+    "questionOdia": "ଆୟନୀୟ ଯୌଗିକଗୁଡ଼ିକ କେଉଁ ଅବସ୍ଥାରେ ବିଦ୍ୟୁତ ପରିବହନ କରିପାରନ୍ତି?",
+    "options": [
+      "କେବଳ କଠିନ ଅବସ୍ଥାରେ",
+      "ଗଳିତ କିମ୍ବା ଜଳୀୟ ଦ୍ରବଣ ଅବସ୍ଥାରେ (Molten or Aqueous state)",
+      "କୌଣସି ଅବସ୍ଥାରେ ନୁହେଁ",
+      "ଗ୍ୟାସୀୟ ଅବସ୍ଥାରେ"
+    ],
+    "answer": "ଗଳିତ କିମ୍ବା ଜଳୀୟ ଦ୍ରବଣ ଅବସ୍ଥାରେ (Molten or Aqueous state)",
+    "explanation": "ଗଳିତ ବା ଜଳୀୟ ଦ୍ରବଣ ଅବସ୍ଥାରେ ଆୟନଗୁଡ଼ିକ ମୁକ୍ତ ଭାବେ ଗତି କରିପାରୁଥିବାରୁ ଏହା ବିଦ୍ୟୁତ ପରିବହନ କରେ, କିନ୍ତୁ କଠିନ ଅବସ୍ଥାରେ ଆୟନ ଗତିଶୀଳ ନଥାନ୍ତି।"
+  },
+  {
+    "questionEnglish": "What is the process of protecting iron from rusting by coating it with a thin layer of Zinc called?",
+    "questionOdia": "ଲୁହାକୁ କଳଙ୍କିରୁ ରକ୍ଷା କରିବା ପାଇଁ ଏହା ଉପରେ ଜିଙ୍କ୍ (Zinc) ର ଏକ ପତଳା ପ୍ରଲେପ ଦେବା ପ୍ରକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "options": [
+      "ଆନୋଡାଇଜିଂ (Anodizing)",
+      "ଗାଲଭାନାଇଜେସନ୍ (Galvanization)",
+      "ବିଦ୍ୟୁତ୍ ବିଶ୍ଳେଷଣ",
+      "ମିଶ୍ରଧାତୁ କରଣ"
+    ],
+    "answer": "ଗାଲଭାନାଇଜେସନ୍ (Galvanization)",
+    "explanation": "ଲୁହା ବା ଇସ୍ପାତକୁ କଳଙ୍କିମୁକ୍ତ ରଖିବା ପାଇଁ ସେଥିରେ ଜିଙ୍କ୍‌ର ପ୍ରଲେପ ଦେବାକୁ ଗାଲଭାନାଇଜେସନ୍ କୁହାଯାଏ।"
   }
 ]
