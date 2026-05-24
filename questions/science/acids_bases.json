@@ -1,122 +1,112 @@
 [
   {
-    "questionEnglish": "What is the pH value of a neutral solution?",
-    "questionOdia": "ଏକ ପ୍ରଶମିତ ଦ୍ରବଣର pH ମୂଲ୍ୟ କେତେ?",
+    "question": "ରାସାୟନିକ ପ୍ରତିକ୍ରିୟାରେ କେଉଁ ନୂତନ ପଦାର୍ଥ ସୃଷ୍ଟି ହୁଏ?",
     "options": [
-      "7",
-      "0",
-      "14",
-      "less than 7"
+      "ଭୌତିକ ପଦାର୍ଥ",
+      "ରାସାୟନିକ ପଦାର୍ଥ",
+      "ଧାତୁ",
+      "ଗ୍ୟାସ"
     ],
-    "answer": "7",
-    "explanation": "A neutral solution like pure water has a pH value of exactly 7. Values below 7 are acidic, and above 7 are basic."
+    "answer": "ରାସାୟନିକ ପଦାର୍ଥ",
+    "explanation": "ରାସାୟନିକ ପ୍ରତିକ୍ରିୟାରେ ପୁରୁଣା ପଦାର୍ଥ ପରିବର୍ତ୍ତିତ ହୋଇ ନୂତନ ରାସାୟନିକ ପଦାର୍ଥ ତିଆରି ହୁଏ।"
   },
   {
-    "questionEnglish": "Which gas is evolved when an acid reacts with a metal?",
-    "questionOdia": "ଅମ୍ଳ ଏକ ଧାତୁ ସହିତ ପ୍ରତିକ୍ରିୟା କଲେ କେଉଁ ଗ୍ୟାସ୍ ନିର୍ଗତ ହୁଏ?",
+    "question": "ମ୍ୟାଗ୍ନେସିୟମ୍‌ ଜଳିଲେ କେଉଁ ପଦାର୍ଥ ତିଆରି ହୁଏ?",
     "options": [
-      "Hydrogen",
-      "Carbon dioxide",
-      "Oxygen",
-      "Nitrogen"
+      "ମ୍ୟାଗ୍ନେସିୟମ୍ କ୍ଲୋରାଇଡ୍",
+      "ମ୍ୟାଗ୍ନେସିୟମ୍ ଅକ୍ସାଇଡ୍",
+      "ମ୍ୟାଗ୍ନେସିୟମ୍ ସଲଫେଟ୍",
+      "ମ୍ୟାଗ୍ନେସିୟମ୍ କାର୍ବୋନେଟ୍"
     ],
-    "answer": "Hydrogen",
-    "explanation": "Acids react with active metals to produce salt and hydrogen gas (e.g., Zn + 2HCl -> ZnCl2 + H2)."
+    "answer": "ମ୍ୟାଗ୍ନେସିୟମ୍ ଅକ୍ସାଇଡ୍",
+    "explanation": "ମ୍ୟାଗ୍ନେସିୟମ୍‌ ଅକ୍ସିଜେନ୍‌ ସହ ଯୁକ୍ତ ହୋଇ ମ୍ୟାଗ୍ନେସିୟମ୍ ଅକ୍ସାଇଡ୍ ସୃଷ୍ଟି କରେ।"
   },
   {
-    "questionEnglish": "What is the chemical name of baking soda?",
-    "questionOdia": "ଖାଇବା ସୋଡାର ରାସାୟନିକ ନାମ କଣ?",
+    "question": "ରାସାୟନିକ ସମୀକରଣରେ reactants କେଉଁ ପାର୍ଶ୍ୱରେ ଲେଖାଯାଏ?",
     "options": [
-      "Sodium hydrogen carbonate",
-      "Sodium carbonate",
-      "Calcium carbonate",
-      "Sodium chloride"
+      "ଡାହାଣ ପାର୍ଶ୍ୱରେ",
+      "ବାମ ପାର୍ଶ୍ୱରେ",
+      "ମଝିରେ",
+      "ଉପରେ"
     ],
-    "answer": "Sodium hydrogen carbonate",
-    "explanation": "Baking soda is chemically known as Sodium hydrogen carbonate or Sodium bicarbonate, and its formula is NaHCO3."
+    "answer": "ବାମ ପାର୍ଶ୍ୱରେ",
+    "explanation": "ରାସାୟନିକ ସମୀକରଣରେ reactants ସଦା ବାମ ପାର୍ଶ୍ୱରେ ଏବଂ products ଡାହାଣ ପାର୍ଶ୍ୱରେ ଥାଏ।"
   },
   {
-    "questionEnglish": "Which of the following acids is present in sour milk or curd?",
-    "questionOdia": "ଖଟା କ୍ଷୀର ବା ଦହିରେ ନିମ୍ନଲିଖିତ ମଧୁରୁ କେଉଁ ଅମ୍ଳ ଥାଏ?",
+    "question": "Balanced chemical equation କ’ଣ ସୂଚାଏ?",
     "options": [
-      "Lactic acid",
-      "Citric acid",
-      "Tartaric acid",
-      "Oxalic acid"
+      "ରଙ୍ଗ ପରିବର୍ତ୍ତନ",
+      "ତାପ ଉତ୍ପାଦନ",
+      "ଉଭୟ ପାର୍ଶ୍ୱରେ ସମାନ ପରମାଣୁ ସଂଖ୍ୟା",
+      "ଗ୍ୟାସ ନିସ୍କାସନ"
     ],
-    "answer": "Lactic acid",
-    "explanation": "Lactic acid is produced in curd due to the fermentation of lactose sugar by Lactobacillus bacteria."
+    "answer": "ଉଭୟ ପାର୍ଶ୍ୱରେ ସମାନ ପରମାଣୁ ସଂଖ୍ୟା",
+    "explanation": "Balanced equation ରେ reactants ଓ products ଉଭୟ ପାର୍ଶ୍ୱରେ ପରମାଣୁ ସଂଖ୍ୟା ସମାନ ରହେ।"
   },
   {
-    "questionEnglish": "What turns blue litmus paper to red?",
-    "questionOdia": "ନୀଳ ଲିଟମସ କାଗଜକୁ କିଏ ଲାଲ୍ ରଙ୍ଗରେ ପରିଣତ କରେ?",
+    "question": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ସଂଯୋଗ ପ୍ରତିକ୍ରିୟା?",
     "options": [
-      "Acid",
-      "Base",
-      "Salt",
-      "Water"
+      "CaO + H2O → Ca(OH)2",
+      "FeSO4 → Fe2O3 + SO2 + SO3",
+      "AgCl → Ag + Cl2",
+      "CaCO3 → CaO + CO2"
     ],
-    "answer": "Acid",
-    "explanation": "Acids turn blue litmus paper red, whereas bases turn red litmus paper blue."
+    "answer": "CaO + H2O → Ca(OH)2",
+    "explanation": "ଦୁଇଟି ପଦାର୍ଥ ଯୁକ୍ତ ହୋଇ ଗୋଟିଏ ପଦାର୍ଥ ତିଆରି କଲେ ତାହା ସଂଯୋଗ ପ୍ରତିକ୍ରିୟା।"
   },
   {
-    "questionEnglish": "What is the chemical formula of Plaster of Paris?",
-    "questionOdia": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସର ରାସାୟନିକ ସଙ୍କେତ କଣ?",
+    "question": "CaO କୁ କ’ଣ କୁହାଯାଏ?",
     "options": [
-      "CaSO4 . 1/2 H2O",
-      "CaSO4 . 2H2O",
-      "CuSO4 . 5H2O",
-      "Na2CO3 . 10H2O"
+      "ସ୍ଲେକ୍ଡ ଲାଇମ୍",
+      "କ୍ୱିକ୍ ଲାଇମ୍",
+      "ଚୁନପଥର",
+      "ଜିପ୍ସମ୍"
     ],
-    "answer": "CaSO4 . 1/2 H2O",
-    "explanation": "Plaster of Paris is calcium sulphate hemihydrate, meaning it has half a molecule of water of crystallization."
+    "answer": "କ୍ୱିକ୍ ଲାଇମ୍",
+    "explanation": "CaO ର ସାଧାରଣ ନାମ କ୍ୱିକ୍ ଲାଇମ୍।"
   },
   {
-    "questionEnglish": "Which substance is used for disinfecting drinking water to make it free of germs?",
-    "questionOdia": "ପାନୀୟ ଜଳକୁ ଜୀବାଣୁ ମୁକ୍ତ କରିବା ପାଇଁ କେଉଁ ପଦାର୍ଥ ବ୍ୟବହାର କରାଯାଏ?",
+    "question": "ତାପ ଶୋଷଣ କରୁଥିବା ପ୍ରତିକ୍ରିୟାକୁ କ’ଣ କୁହାଯାଏ?",
     "options": [
-      "Bleaching powder",
-      "Baking soda",
-      "Washing soda",
-      "Gypsum"
+      "ଉଷ୍ମାଜନକ ପ୍ରତିକ୍ରିୟା",
+      "ଉଷ୍ମାଶୋଷୀ ପ୍ରତିକ୍ରିୟା",
+      "ସଂଯୋଗ ପ୍ରତିକ୍ରିୟା",
+      "ଅପଘଟନ ପ୍ରତିକ୍ରିୟା"
     ],
-    "answer": "Bleaching powder",
-    "explanation": "Bleaching powder (CaOCl2) releases chlorine gas, which acts as a powerful disinfectant to kill germs in water."
+    "answer": "ଉଷ୍ମାଶୋଷୀ ପ୍ରତିକ୍ରିୟା",
+    "explanation": "ଯେଉଁ ପ୍ରତିକ୍ରିୟାରେ ତାପ ଶୋଷିତ ହୁଏ, ସେହି ପ୍ରତିକ୍ରିୟାକୁ ଉଷ୍ମାଶୋଷୀ ପ୍ରତିକ୍ରିୟା କୁହାଯାଏ।"
   },
   {
-    "questionEnglish": "What is the reaction between an acid and a base called?",
-    "questionOdia": "ଅମ୍ଳ ଏବଂ କ୍ଷାରକ ମଧ୍ୟରେ ହେଉଥିବା ପ୍ରତିକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
+    "question": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି decomposition reaction?",
     "options": [
-      "Neutralization reaction",
-      "Combination reaction",
-      "Displacement reaction",
-      "Redox reaction"
+      "2H2 + O2 → 2H2O",
+      "CaO + H2O → Ca(OH)2",
+      "CaCO3 → CaO + CO2",
+      "C + O2 → CO2"
     ],
-    "answer": "Neutralization reaction",
-    "explanation": "The reaction between an acid and a base forms salt and water, and it is known as a neutralization reaction."
+    "answer": "CaCO3 → CaO + CO2",
+    "explanation": "ଗୋଟିଏ ପଦାର୍ଥ ଭାଙ୍ଗି ଦୁଇ କିମ୍ବା ଅଧିକ ପଦାର୍ଥ ହେଲେ ତାହା decomposition reaction।"
   },
   {
-    "questionEnglish": "What is the nature of non-metallic oxides?",
-    "questionOdia": "ଅଧାତବ ଅକ୍ସାଇଡଗୁଡ଼ିକର ପ୍ରକୃତି କିପରି ହୋଇଥାଏ?",
+    "question": "ଶ୍ୱସନ କେଉଁ ପ୍ରକାରର ପ୍ରତିକ୍ରିୟା?",
     "options": [
-      "Acidic",
-      "Basic",
-      "Neutral",
-      "Amphoteric"
+      "ଉଷ୍ମାଜନକ ପ୍ରତିକ୍ରିୟା",
+      "ଅପଘଟନ ପ୍ରତିକ୍ରିୟା",
+      "ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା",
+      "ଅକ୍ସିକରଣ ପ୍ରତିକ୍ରିୟା"
     ],
-    "answer": "Acidic",
-    "explanation": "Non-metallic oxides (like CO2, SO2) are acidic in nature because they react with water to form acids."
+    "answer": "ଉଷ୍ମାଜନକ ପ୍ରତିକ୍ରିୟା",
+    "explanation": "ଶ୍ୱସନ ସମୟରେ ଶକ୍ତି ଓ ତାପ ଉତ୍ପନ୍ନ ହୁଏ।"
   },
   {
-    "questionEnglish": "Our stomach produces which acid that helps in digestion without harming the stomach?",
-    "questionOdia": "ଆମ ପାକସ୍ଥଳୀ କେଉଁ ଅମ୍ଳ ପ୍ରସ୍ତୁତ କରେ ଯାହା ହଜମ ପ୍ରକ୍ରିୟାରେ ସାହାଯ୍ୟ କରିଥାଏ?",
+    "question": "FeSO4 କୁ ତାପ ଦେଲେ କେଉଁ ଗ୍ୟାସ ଉତ୍ପନ୍ନ ହୁଏ?",
     "options": [
-      "Hydrochloric acid",
-      "Sulphuric acid",
-      "Nitric acid",
-      "Acetic acid"
+      "ଅକ୍ସିଜେନ୍",
+      "ହାଇଡ୍ରୋଜେନ୍",
+      "ସଲଫର ଡାଇଅକ୍ସାଇଡ୍",
+      "ନାଇଟ୍ରୋଜେନ୍"
     ],
-    "answer": "Hydrochloric acid",
-    "explanation": "The gastric glands in our stomach release Hydrochloric acid (HCl), which creates an acidic medium needed for the enzyme pepsin to digest protein."
+    "answer": "ସଲଫର ଡାଇଅକ୍ସାଇଡ୍",
+    "explanation": "FeSO4 ର ତାପୀୟ ଅପଘଟନରେ SO2 ଓ SO3 ଗ୍ୟାସ ନିସ୍କାସିତ ହୁଏ।"
   }
 ]
