@@ -1,112 +1,122 @@
 [
   {
-    "question": "ରାସାୟନିକ ପ୍ରତିକ୍ରିୟାରେ କେଉଁ ନୂତନ ପଦାର୍ଥ ସୃଷ୍ଟି ହୁଏ?",
+    "questionEnglish": "What is formed when magnesium burns in air?",
+    "questionOdia": "ବାୟୁରେ ମ୍ୟାଗ୍ନେସିୟମ୍ ଜଳିଲେ କଣ ସୃଷ୍ଟି ହୁଏ?",
     "options": [
-      "ଭୌତିକ ପଦାର୍ଥ",
-      "ରାସାୟନିକ ପଦାର୍ଥ",
-      "ଧାତୁ",
-      "ଗ୍ୟାସ"
+      "Magnesium chloride",
+      "Magnesium oxide",
+      "Magnesium sulphate",
+      "Magnesium nitrate"
     ],
-    "answer": "ରାସାୟନିକ ପଦାର୍ଥ",
-    "explanation": "ରାସାୟନିକ ପ୍ରତିକ୍ରିୟାରେ ପୁରୁଣା ପଦାର୍ଥ ପରିବର୍ତ୍ତିତ ହୋଇ ନୂତନ ରାସାୟନିକ ପଦାର୍ଥ ତିଆରି ହୁଏ।"
+    "answer": "Magnesium oxide",
+    "explanation": "Magnesium reacts with oxygen present in air to form magnesium oxide."
   },
   {
-    "question": "ମ୍ୟାଗ୍ନେସିୟମ୍‌ ଜଳିଲେ କେଉଁ ପଦାର୍ଥ ତିଆରି ହୁଏ?",
+    "questionEnglish": "Which side of a chemical equation contains reactants?",
+    "questionOdia": "ରାସାୟନିକ ସମୀକରଣର କେଉଁ ପାର୍ଶ୍ୱରେ reactants ରହେ?",
     "options": [
-      "ମ୍ୟାଗ୍ନେସିୟମ୍ କ୍ଲୋରାଇଡ୍",
-      "ମ୍ୟାଗ୍ନେସିୟମ୍ ଅକ୍ସାଇଡ୍",
-      "ମ୍ୟାଗ୍ନେସିୟମ୍ ସଲଫେଟ୍",
-      "ମ୍ୟାଗ୍ନେସିୟମ୍ କାର୍ବୋନେଟ୍"
+      "Right side",
+      "Upper side",
+      "Left side",
+      "Bottom side"
     ],
-    "answer": "ମ୍ୟାଗ୍ନେସିୟମ୍ ଅକ୍ସାଇଡ୍",
-    "explanation": "ମ୍ୟାଗ୍ନେସିୟମ୍‌ ଅକ୍ସିଜେନ୍‌ ସହ ଯୁକ୍ତ ହୋଇ ମ୍ୟାଗ୍ନେସିୟମ୍ ଅକ୍ସାଇଡ୍ ସୃଷ୍ଟି କରେ।"
+    "answer": "Left side",
+    "explanation": "In a chemical equation, reactants are written on the left-hand side."
   },
   {
-    "question": "ରାସାୟନିକ ସମୀକରଣରେ reactants କେଉଁ ପାର୍ଶ୍ୱରେ ଲେଖାଯାଏ?",
+    "questionEnglish": "Which law is satisfied by a balanced chemical equation?",
+    "questionOdia": "ସମତୁଲ ରାସାୟନିକ ସମୀକରଣ କେଉଁ ନିୟମକୁ ପାଳନ କରେ?",
     "options": [
-      "ଡାହାଣ ପାର୍ଶ୍ୱରେ",
-      "ବାମ ପାର୍ଶ୍ୱରେ",
-      "ମଝିରେ",
-      "ଉପରେ"
+      "Boyle’s law",
+      "Law of conservation of mass",
+      "Newton’s law",
+      "Ohm’s law"
     ],
-    "answer": "ବାମ ପାର୍ଶ୍ୱରେ",
-    "explanation": "ରାସାୟନିକ ସମୀକରଣରେ reactants ସଦା ବାମ ପାର୍ଶ୍ୱରେ ଏବଂ products ଡାହାଣ ପାର୍ଶ୍ୱରେ ଥାଏ।"
+    "answer": "Law of conservation of mass",
+    "explanation": "Balanced chemical equations follow the law of conservation of mass."
   },
   {
-    "question": "Balanced chemical equation କ’ଣ ସୂଚାଏ?",
+    "questionEnglish": "Which symbol represents gaseous state in a chemical equation?",
+    "questionOdia": "ରାସାୟନିକ ସମୀକରଣରେ ଗ୍ୟାସୀୟ ଅବସ୍ଥାକୁ କେଉଁ ସଙ୍କେତ ଦ୍ୱାରା ଦର୍ଶାଯାଏ?",
     "options": [
-      "ରଙ୍ଗ ପରିବର୍ତ୍ତନ",
-      "ତାପ ଉତ୍ପାଦନ",
-      "ଉଭୟ ପାର୍ଶ୍ୱରେ ସମାନ ପରମାଣୁ ସଂଖ୍ୟା",
-      "ଗ୍ୟାସ ନିସ୍କାସନ"
+      "(s)",
+      "(l)",
+      "(g)",
+      "(aq)"
     ],
-    "answer": "ଉଭୟ ପାର୍ଶ୍ୱରେ ସମାନ ପରମାଣୁ ସଂଖ୍ୟା",
-    "explanation": "Balanced equation ରେ reactants ଓ products ଉଭୟ ପାର୍ଶ୍ୱରେ ପରମାଣୁ ସଂଖ୍ୟା ସମାନ ରହେ।"
+    "answer": "(g)",
+    "explanation": "The symbol (g) is used to represent gaseous state."
   },
   {
-    "question": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ସଂଯୋଗ ପ୍ରତିକ୍ରିୟା?",
+    "questionEnglish": "What type of reaction is CaO + H2O → Ca(OH)2?",
+    "questionOdia": "CaO + H2O → Ca(OH)2 କେଉଁ ପ୍ରକାରର ପ୍ରତିକ୍ରିୟା?",
     "options": [
-      "CaO + H2O → Ca(OH)2",
-      "FeSO4 → Fe2O3 + SO2 + SO3",
-      "AgCl → Ag + Cl2",
-      "CaCO3 → CaO + CO2"
+      "Decomposition reaction",
+      "Combination reaction",
+      "Displacement reaction",
+      "Neutralization reaction"
     ],
-    "answer": "CaO + H2O → Ca(OH)2",
-    "explanation": "ଦୁଇଟି ପଦାର୍ଥ ଯୁକ୍ତ ହୋଇ ଗୋଟିଏ ପଦାର୍ଥ ତିଆରି କଲେ ତାହା ସଂଯୋଗ ପ୍ରତିକ୍ରିୟା।"
+    "answer": "Combination reaction",
+    "explanation": "Two substances combine to form a single product, so it is a combination reaction."
   },
   {
-    "question": "CaO କୁ କ’ଣ କୁହାଯାଏ?",
+    "questionEnglish": "What is the common name of CaO?",
+    "questionOdia": "CaO ର ସାଧାରଣ ନାମ କଣ?",
     "options": [
-      "ସ୍ଲେକ୍ଡ ଲାଇମ୍",
-      "କ୍ୱିକ୍ ଲାଇମ୍",
-      "ଚୁନପଥର",
-      "ଜିପ୍ସମ୍"
+      "Slaked lime",
+      "Quick lime",
+      "Bleaching powder",
+      "Gypsum"
     ],
-    "answer": "କ୍ୱିକ୍ ଲାଇମ୍",
-    "explanation": "CaO ର ସାଧାରଣ ନାମ କ୍ୱିକ୍ ଲାଇମ୍।"
+    "answer": "Quick lime",
+    "explanation": "Calcium oxide (CaO) is commonly known as quick lime."
   },
   {
-    "question": "ତାପ ଶୋଷଣ କରୁଥିବା ପ୍ରତିକ୍ରିୟାକୁ କ’ଣ କୁହାଯାଏ?",
+    "questionEnglish": "Which reaction releases heat energy?",
+    "questionOdia": "କେଉଁ ପ୍ରତିକ୍ରିୟାରେ ଉତ୍ତାପ ଶକ୍ତି ନିର୍ଗତ ହୁଏ?",
     "options": [
-      "ଉଷ୍ମାଜନକ ପ୍ରତିକ୍ରିୟା",
-      "ଉଷ୍ମାଶୋଷୀ ପ୍ରତିକ୍ରିୟା",
-      "ସଂଯୋଗ ପ୍ରତିକ୍ରିୟା",
-      "ଅପଘଟନ ପ୍ରତିକ୍ରିୟା"
+      "Endothermic reaction",
+      "Exothermic reaction",
+      "Photochemical reaction",
+      "Electrolysis"
     ],
-    "answer": "ଉଷ୍ମାଶୋଷୀ ପ୍ରତିକ୍ରିୟା",
-    "explanation": "ଯେଉଁ ପ୍ରତିକ୍ରିୟାରେ ତାପ ଶୋଷିତ ହୁଏ, ସେହି ପ୍ରତିକ୍ରିୟାକୁ ଉଷ୍ମାଶୋଷୀ ପ୍ରତିକ୍ରିୟା କୁହାଯାଏ।"
+    "answer": "Exothermic reaction",
+    "explanation": "Exothermic reactions release heat energy to the surroundings."
   },
   {
-    "question": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି decomposition reaction?",
+    "questionEnglish": "Which gas is produced when iron reacts with steam?",
+    "questionOdia": "ଲୋହା ବାଷ୍ପ ସହ ପ୍ରତିକ୍ରିୟା କଲେ କେଉଁ ଗ୍ୟାସ ସୃଷ୍ଟି ହୁଏ?",
     "options": [
-      "2H2 + O2 → 2H2O",
-      "CaO + H2O → Ca(OH)2",
-      "CaCO3 → CaO + CO2",
-      "C + O2 → CO2"
+      "Oxygen",
+      "Hydrogen",
+      "Nitrogen",
+      "Carbon dioxide"
     ],
-    "answer": "CaCO3 → CaO + CO2",
-    "explanation": "ଗୋଟିଏ ପଦାର୍ଥ ଭାଙ୍ଗି ଦୁଇ କିମ୍ବା ଅଧିକ ପଦାର୍ଥ ହେଲେ ତାହା decomposition reaction।"
+    "answer": "Hydrogen",
+    "explanation": "Iron reacts with steam to produce hydrogen gas."
   },
   {
-    "question": "ଶ୍ୱସନ କେଉଁ ପ୍ରକାରର ପ୍ରତିକ୍ରିୟା?",
+    "questionEnglish": "Which type of reaction is FeSO4 → Fe2O3 + SO2 + SO3?",
+    "questionOdia": "FeSO4 → Fe2O3 + SO2 + SO3 କେଉଁ ପ୍ରକାରର ପ୍ରତିକ୍ରିୟା?",
     "options": [
-      "ଉଷ୍ମାଜନକ ପ୍ରତିକ୍ରିୟା",
-      "ଅପଘଟନ ପ୍ରତିକ୍ରିୟା",
-      "ବିସ୍ଥାପନ ପ୍ରତିକ୍ରିୟା",
-      "ଅକ୍ସିକରଣ ପ୍ରତିକ୍ରିୟା"
+      "Combination reaction",
+      "Thermal decomposition reaction",
+      "Displacement reaction",
+      "Oxidation reaction"
     ],
-    "answer": "ଉଷ୍ମାଜନକ ପ୍ରତିକ୍ରିୟା",
-    "explanation": "ଶ୍ୱସନ ସମୟରେ ଶକ୍ତି ଓ ତାପ ଉତ୍ପନ୍ନ ହୁଏ।"
+    "answer": "Thermal decomposition reaction",
+    "explanation": "Ferrous sulphate decomposes on heating, so it is a thermal decomposition reaction."
   },
   {
-    "question": "FeSO4 କୁ ତାପ ଦେଲେ କେଉଁ ଗ୍ୟାସ ଉତ୍ପନ୍ନ ହୁଏ?",
+    "questionEnglish": "Which gas has a smell of burning sulphur during decomposition of FeSO4?",
+    "questionOdia": "FeSO4 ର ବିଘଟନ ସମୟରେ ଜଳୁଥିବା ଗନ୍ଧକ ଭଳି ଗନ୍ଧ ଥିବା କେଉଁ ଗ୍ୟାସ ନିର୍ଗତ ହୁଏ?",
     "options": [
-      "ଅକ୍ସିଜେନ୍",
-      "ହାଇଡ୍ରୋଜେନ୍",
-      "ସଲଫର ଡାଇଅକ୍ସାଇଡ୍",
-      "ନାଇଟ୍ରୋଜେନ୍"
+      "Hydrogen",
+      "Sulphur dioxide",
+      "Nitrogen",
+      "Oxygen"
     ],
-    "answer": "ସଲଫର ଡାଇଅକ୍ସାଇଡ୍",
-    "explanation": "FeSO4 ର ତାପୀୟ ଅପଘଟନରେ SO2 ଓ SO3 ଗ୍ୟାସ ନିସ୍କାସିତ ହୁଏ।"
+    "answer": "Sulphur dioxide",
+    "explanation": "Sulphur dioxide gas with a burning sulphur smell is released during decomposition of FeSO4."
   }
 ]
