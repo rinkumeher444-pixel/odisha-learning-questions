@@ -1,123 +1,280 @@
+ଆପଣଙ୍କ ଦ୍ୱାରା ଦିଆଯାଇଥିବା ପ୍ରଶ୍ନଗୁଡ଼ିକର ଢାଞ୍ଚାକୁ ସୁବ୍ୟବସ୍ଥିତ କରି ତଳେ ପ୍ରଦାନ କରାଗଲା:
 
+```json
 [
   {
-    "questionEnglish": "How many elements were known when Mendeleev arranged his periodic table?",
-    "questionOdia": "ମେଣ୍ଡେଲିଭ୍ ଯେତେବେଳେ ତାଙ୍କର ପର୍ଯ୍ୟାୟ ସାରଣୀ ପ୍ରସ୍ତୁତ କରିଥିଲେ, ସେତେବେଳେ କେତେଗୋଟି ମୌଳିକ ଆବିଷ୍କୃତ ହୋଇଥିଲା?",
-    "options": [
-      "63",
-      "56",
-      "86",
-      "118"
-    ],
-    "answer": "63",
-    "explanation": "There were 63 elements known at the time Mendeleev formulated his periodic table based on their atomic masses."
+    "questionEnglish": "What is the atomic number of carbon?",
+    "questionOdia": "କାର୍ବନର ପରମାଣୁ କ୍ରମାଙ୍କ କେତେ?",
+    "options": ["6", "8", "12", "14"],
+    "answer": "6",
+    "explanation": "କାର୍ବନର ପରମାଣୁ କ୍ରମାଙ୍କ 6 ଅଟେ।"
   },
   {
-    "questionEnglish": "Who classified elements based on the Law of Triads?",
-    "questionOdia": "ତ୍ରୈରାଶିକ ନିୟମ (Law of Triads) ଆଧାରରେ ମୌଳିକଗୁଡ଼ିକର ଶ୍ରେଣୀକରଣ କିଏ କରିଥିଲେ?",
-    "options": [
-      "Döbereiner",
-      "Newlands",
-      "Mendeleev",
-      "Moseley"
-    ],
-    "answer": "Döbereiner",
-    "explanation": "Johann Wolfgang Döbereiner grouped elements with similar chemical properties into clusters of three, known as Döbereiner's Triads."
+    "questionEnglish": "How many valence electrons does carbon have?",
+    "questionOdia": "କାର୍ବନର ସଂଯୋଜକ ଇଲେକ୍ଟ୍ରୋନ କେତେ?",
+    "options": ["4", "2", "6", "8"],
+    "answer": "4",
+    "explanation": "କାର୍ବନର ବାହ୍ୟତମ କକ୍ଷରେ 4 ଇଲେକ୍ଟ୍ରୋନ ରହେ।"
   },
   {
-    "questionEnglish": "According to Newlands' Law of Octaves, the properties of the eighth element are similar to which element?",
-    "questionOdia": "ନ୍ୟୁଲାଣ୍ଡସ୍‌ଙ୍କ ଅଷ୍ଟକ ନିୟମ ଅନୁଯାୟୀ, ଅଷ୍ଟମ ମୌଳିକର ଗୁଣ କେଉଁ ମୌଳିକର ଗୁଣ ସହିତ ସମାନ ହୋଇଥାଏ?",
-    "options": [
-      "First element",
-      "Second element",
-      "Third element",
-      "Fourth element"
-    ],
-    "answer": "First element",
-    "explanation": "Newlands' Law of Octaves states that when elements are arranged by increasing atomic mass, every eighth element possesses properties similar to the first."
+    "questionEnglish": "What type of bond is formed by carbon?",
+    "questionOdia": "କାର୍ବନ କେଉଁ ପ୍ରକାର ବନ୍ଧ ଗଠନ କରେ?",
+    "options": ["ସମଯୋଜୀ ବନ୍ଧ", "ଆୟନିକ ବନ୍ଧ", "ଧାତୁ ବନ୍ଧ", "ହାଇଡ୍ରୋଜେନ ବନ୍ଧ"],
+    "answer": "ସମଯୋଜୀ ବନ୍ଧ",
+    "explanation": "କାର୍ବନ ଇଲେକ୍ଟ୍ରୋନ ଭାଗ କରି ସମଯୋଜୀ ବନ୍ଧ ଗଠନ କରେ।"
   },
   {
-    "questionEnglish": "The Modern Periodic Law is based on which property of elements?",
-    "questionOdia": "ଆଧୁନିକ ପର୍ଯ୍ୟାୟ ନିୟମ ମୌଳିକଗୁଡ଼ିକର କେଉଁ ଗୁଣ ଉପରେ ଆଧାରିତ?",
-    "options": [
-      "Atomic number",
-      "Atomic mass",
-      "Atomic volume",
-      "Density"
-    ],
-    "answer": "Atomic number",
-    "explanation": "Henry Moseley demonstrated that the atomic number is a more fundamental property for classification than atomic mass, forming the basis of the Modern Periodic Law."
+    "questionEnglish": "Which gas is formed by complete combustion of carbon?",
+    "questionOdia": "କାର୍ବନର ସମ୍ପୂର୍ଣ୍ଣ ଦହନରେ କେଉଁ ଗ୍ୟାସ ତିଆରି ହୁଏ?",
+    "options": ["କାର୍ବନ ଡାଇଅକ୍ସାଇଡ", "କାର୍ବନ ମୋନୋଅକ୍ସାଇଡ", "ଅକ୍ସିଜେନ", "ହାଇଡ୍ରୋଜେନ"],
+    "answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ",
+    "explanation": "କାର୍ବନ ସମ୍ପୂର୍ଣ୍ଣ ଜଳିଲେ CO2 ତିଆରି ହୁଏ।"
   },
   {
-    "questionEnglish": "How many groups and periods are present in the Modern Periodic Table?",
-    "questionOdia": "ଆଧୁନିକ ପର୍ଯ୍ୟାୟ ସାରଣୀରେ କେତେଗୋଟି ଗ୍ରୁପ୍ ଏବଂ ପର୍ଯ୍ୟାୟ ରହିଛି?",
-    "options": [
-      "18 groups and 7 periods",
-      "7 groups and 18 periods",
-      "16 groups and 8 periods",
-      "8 groups and 16 periods"
-    ],
-    "answer": "18 groups and 7 periods",
-    "explanation": "The Modern Periodic Table is structured with 18 vertical columns called groups and 7 horizontal rows called periods."
+    "questionEnglish": "Which gas is formed by incomplete combustion of carbon?",
+    "questionOdia": "କାର୍ବନର ଅସମ୍ପୂର୍ଣ୍ଣ ଦହନରେ କେଉଁ ଗ୍ୟାସ ତିଆରି ହୁଏ?",
+    "options": ["କାର୍ବନ ମୋନୋଅକ୍ସାଇଡ", "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ", "ଅକ୍ସିଜେନ", "ନାଇଟ୍ରୋଜେନ"],
+    "answer": "କାର୍ବନ ମୋନୋଅକ୍ସାଇଡ",
+    "explanation": "ଅସମ୍ପୂର୍ଣ୍ଣ ଦହନରେ CO ଗ୍ୟାସ ତିଆରି ହୁଏ।"
   },
   {
-    "questionEnglish": "What happens to the atomic size of elements as you move from left to right in a period?",
-    "questionOdia": "ଏକ ପର୍ଯ୍ୟାୟରେ ବାମରୁ ଡାହାଣକୁ ଗଲେ ମୌଳିକଗୁଡ଼ିକର ପରମାଣୁ ଆକାରରେ କି ପରିବର୍ତ୍ତନ ହୁଏ?",
-    "options": [
-      "Decreases",
-      "Increases",
-      "Remains the same",
-      "First increases then decreases"
-    ],
-    "answer": "Decreases",
-    "explanation": "Atomic size decreases from left to right across a period because an increase in nuclear charge pulls the electrons closer to the nucleus."
+    "questionEnglish": "What is catenation?",
+    "questionOdia": "କ୍ୟାଟେନେସନ କ’ଣ?",
+    "options": ["ନିଜ ସହ ଯୋଗ ହେବାର ଗୁଣ", "ଜଳରେ ଘୁଲିବା", "ରଙ୍ଗ ପରିବର୍ତ୍ତନ", "ବିଦ୍ୟୁତ ପରିବହନ"],
+    "answer": "ନିଜ ସହ ଯୋଗ ହେବାର ଗୁଣ",
+    "explanation": "କାର୍ବନ ନିଜ ସହ ଯୋଡ଼ି ଲମ୍ବା ଶୃଙ୍ଖଳ ତିଆରି କରେ।"
   },
   {
-    "questionEnglish": "Which of the following is a noble gas?",
-    "questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ନିଷ୍କ୍ରିୟ ଗ୍ୟାସ୍ (Noble Gas)?",
-    "options": [
-      "Argon",
-      "Oxygen",
-      "Nitrogen",
-      "Hydrogen"
-    ],
-    "answer": "Argon",
-    "explanation": "Argon (Ar) belongs to Group 18 of the periodic table, which consists of chemically unreactive noble gases with stable electronic configurations."
+    "questionEnglish": "Which is the purest form of carbon?",
+    "questionOdia": "କାର୍ବନର ସବୁଠାରୁ ଶୁଦ୍ଧ ରୂପ କ’ଣ?",
+    "options": ["ହୀରା", "କୋଇଳା", "ଗ୍ରାଫାଇଟ", "କାଠକୋଇଳା"],
+    "answer": "ହୀରା",
+    "explanation": "ହୀରା କାର୍ବନର ସବୁଠାରୁ ଶୁଦ୍ଧ ରୂପ।"
   },
   {
-    "questionEnglish": "Where are non-metals generally located in the Modern Periodic Table?",
-    "questionOdia": "ଆଧୁନିକ ପର୍ଯ୍ୟାୟ ସାରଣୀରେ ସାଧାରଣତଃ ଅଧାତୁଗୁଡ଼ିକ କେଉଁ ପାର୍ଶ୍ୱରେ ଅବସ୍ଥିତ?",
-    "options": [
-      "On the right side",
-      "On the left side",
-      "At the bottom",
-      "In the center"
-    ],
-    "answer": "On the right side",
-    "explanation": "Metals occupy the left and center of the modern periodic table, while non-metals are positioned toward the top right side."
+    "questionEnglish": "Which form of carbon conducts electricity?",
+    "questionOdia": "କାର୍ବନର କେଉଁ ରୂପ ବିଦ୍ୟୁତ ପରିବହନ କରେ?",
+    "options": ["ଗ୍ରାଫାଇଟ", "ହୀରା", "କୋକ", "କାଠକୋଇଳା"],
+    "answer": "ଗ୍ରାଫାଇଟ",
+    "explanation": "ଗ୍ରାଫାଇଟରେ ମୁକ୍ତ ଇଲେକ୍ଟ୍ରୋନ ଥାଏ।"
   },
   {
-    "questionEnglish": "What is the valency of elements belonging to Group 1 (Alkali metals)?",
-    "questionOdia": "ଗ୍ରୁପ୍-୧ (କ୍ଷାରୀୟ ଧାତୁ) ମୌଳିକଗୁଡ଼ିକର ସଂଯୋଜକତା (Valency) କେତେ?",
-    "options": [
-      "1",
-      "2",
-      "7",
-      "8"
-    ],
-    "answer": "1",
-    "explanation": "Group 1 elements have exactly one valence electron in their outermost shell, giving them a valency of 1."
+    "questionEnglish": "Which form of carbon is hardest?",
+    "questionOdia": "କାର୍ବନର ସବୁଠାରୁ କଠିନ ରୂପ କ’ଣ?",
+    "options": ["ହୀରା", "ଗ୍ରାଫାଇଟ", "କୋକ", "କୋଇଳା"],
+    "answer": "ହୀରା",
+    "explanation": "ହୀରା ପୃଥିବୀର ସବୁଠାରୁ କଠିନ ପଦାର୍ଥ।"
   },
   {
-    "questionEnglish": "What happens to the metallic character of elements down a group?",
-    "questionOdia": "ଏକ ଗ୍ରୁପ୍‌ରେ ଉପରୁ ତଳକୁ ଗଲେ ମୌଳିକଗୁଡ଼ିକର ଧାତବ ଗୁଣରେ କି ପରିବର୍ତ୍ତନ ହୁଏ?",
-    "options": [
-      "Increases",
-      "Decreases",
-      "Remains constant",
-      "Randomly changes"
-    ],
-    "answer": "Increases",
-    "explanation": "Down a group, the effective nuclear charge decreases as atomic size increases, making it easier for atoms to lose valence electrons, which increases metallic character."
+    "questionEnglish": "What is the chemical formula of methane?",
+    "questionOdia": "ମିଥେନର ରାସାୟନିକ ସୂତ୍ର କ’ଣ?",
+    "options": ["CH4", "C2H6", "C2H4", "CH3OH"],
+    "answer": "CH4",
+    "explanation": "ମିଥେନ ସବୁଠାରୁ ସରଳ ହାଇଡ୍ରୋକାର୍ବନ।"
+  },
+  {
+    "questionEnglish": "Which hydrocarbon is saturated?",
+    "questionOdia": "କେଉଁ ହାଇଡ୍ରୋକାର୍ବନ ସନ୍ତୃପ୍ତ?",
+    "options": ["ମିଥେନ", "ଇଥିନ", "ଇଥାଇନ", "ପ୍ରୋପିନ"],
+    "answer": "ମିଥେନ",
+    "explanation": "ମିଥେନରେ କେବଳ ଏକକ ବନ୍ଧ ରହେ।"
+  },
+  {
+    "questionEnglish": "Which hydrocarbon contains double bond?",
+    "questionOdia": "କେଉଁ ହାଇଡ୍ରୋକାର୍ବନରେ ଦ୍ୱିବନ୍ଧ ଥାଏ?",
+    "options": ["ଇଥିନ", "ମିଥେନ", "ଇଥେନ", "ପ୍ରୋପେନ"],
+    "answer": "ଇଥିନ",
+    "explanation": "ଇଥିନରେ କାର୍ବନ-କାର୍ବନ ଦ୍ୱିବନ୍ଧ ରହେ।"
+  },
+  {
+    "questionEnglish": "Which hydrocarbon contains triple bond?",
+    "questionOdia": "କେଉଁ ହାଇଡ୍ରୋକାର୍ବନରେ ତ୍ରିବନ୍ଧ ଥାଏ?",
+    "options": ["ଇଥାଇନ", "ଇଥିନ", "ମିଥେନ", "ପ୍ରୋପେନ"],
+    "answer": "ଇଥାଇନ",
+    "explanation": "ଇଥାଇନରେ ତ୍ରିବନ୍ଧ ରହେ।"
+  },
+  {
+    "questionEnglish": "What is the functional group of alcohol?",
+    "questionOdia": "ଆଲକୋହଲର କାର୍ଯ୍ୟମୂଳକ ଗୋଷ୍ଠୀ କ’ଣ?",
+    "options": ["-OH", "-COOH", "-CHO", "-NH2"],
+    "answer": "-OH",
+    "explanation": "ଆଲକୋହଲରେ ହାଇଡ୍ରକ୍ସିଲ ଗୋଷ୍ଠୀ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the functional group of carboxylic acid?",
+    "questionOdia": "କାର୍ବକ୍ସିଲିକ ଆମ୍ଲର କାର୍ଯ୍ୟମୂଳକ ଗୋଷ୍ଠୀ କ’ଣ?",
+    "options": ["-COOH", "-OH", "-CHO", "-Cl"],
+    "answer": "-COOH",
+    "explanation": "କାର୍ବକ୍ସିଲିକ ଆମ୍ଲରେ କାର୍ବକ୍ସିଲ ଗୋଷ୍ଠୀ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the common name of ethanoic acid?",
+    "questionOdia": "ଇଥାନୋଇକ ଆମ୍ଲର ସାଧାରଣ ନାମ କ’ଣ?",
+    "options": ["ଏସେଟିକ ଆମ୍ଲ", "ଫର୍ମିକ ଆମ୍ଲ", "ଲ୍ୟାକ୍ଟିକ ଆମ୍ଲ", "ସିଟ୍ରିକ ଆମ୍ଲ"],
+    "answer": "ଏସେଟିକ ଆମ୍ଲ",
+    "explanation": "ଇଥାନୋଇକ ଆମ୍ଲକୁ ଏସେଟିକ ଆମ୍ଲ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which acid is present in vinegar?",
+    "questionOdia": "ଭିନେଗାରରେ କେଉଁ ଆମ୍ଲ ଥାଏ?",
+    "options": ["ଏସେଟିକ ଆମ୍ଲ", "ସିଟ୍ରିକ ଆମ୍ଲ", "ହାଇଡ୍ରୋକ୍ଲୋରିକ ଆମ୍ଲ", "ସଲ୍ଫ୍ୟୁରିକ ଆମ୍ଲ"],
+    "answer": "ଏସେଟିକ ଆମ୍ଲ",
+    "explanation": "ଭିନେଗାରରେ ଏସେଟିକ ଆମ୍ଲ ରହେ।"
+  },
+  {
+    "questionEnglish": "What is ethanol commonly used as?",
+    "questionOdia": "ଇଥାନଲ ସାଧାରଣତଃ କ’ଣ ଭାବେ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": ["ଦ୍ରାବକ", "ସାର", "କୀଟନାଶକ", "ଧାତୁ"],
+    "answer": "ଦ୍ରାବକ",
+    "explanation": "ଇଥାନଲ ଦ୍ରାବକ ଭାବେ ବ୍ୟବହୃତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the formula of ethanol?",
+    "questionOdia": "ଇଥାନଲର ସୂତ୍ର କ’ଣ?",
+    "options": ["C2H5OH", "CH3OH", "C2H6", "CH4"],
+    "answer": "C2H5OH",
+    "explanation": "ଇଥାନଲରେ ଦୁଇ କାର୍ବନ ଓ ହାଇଡ୍ରକ୍ସିଲ ଗୋଷ୍ଠୀ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which compound is used in alcoholic drinks?",
+    "questionOdia": "ମଦ୍ୟପାନୀୟରେ କେଉଁ ଯୋଗିକ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": ["ଇଥାନଲ", "ମିଥାନଲ", "ଇଥାନୋଇକ ଆମ୍ଲ", "ମିଥେନ"],
+    "answer": "ଇଥାନଲ",
+    "explanation": "ଇଥାନଲ ମଦ୍ୟପାନୀୟରେ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which alcohol is poisonous?",
+    "questionOdia": "କେଉଁ ଆଲକୋହଲ ବିଷାକ୍ତ?",
+    "options": ["ମିଥାନଲ", "ଇଥାନଲ", "ପ୍ରୋପାନଲ", "ବ୍ୟୁଟାନଲ"],
+    "answer": "ମିଥାନଲ",
+    "explanation": "ମିଥାନଲ ଶରୀର ପାଇଁ ବିଷାକ୍ତ।"
+  },
+  {
+    "questionEnglish": "What is soap made from?",
+    "questionOdia": "ସାବୁନ କ’ଣରୁ ତିଆରି ହୁଏ?",
+    "options": ["ଚର୍ବି ଓ କ୍ଷାର", "ଆମ୍ଲ ଓ କ୍ଷାର", "ଧାତୁ ଓ ଅଧାତୁ", "ଲୁଣ ଓ ଜଳ"],
+    "answer": "ଚର୍ବି ଓ କ୍ଷାର",
+    "explanation": "ଚର୍ବି ଓ କ୍ଷାର ପ୍ରତିକ୍ରିୟାରେ ସାବୁନ ତିଆରି ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the process of soap formation called?",
+    "questionOdia": "ସାବୁନ ତିଆରି ପ୍ରକ୍ରିୟାକୁ କ’ଣ କୁହାଯାଏ?",
+    "options": ["ସାପୋନିଫିକେସନ", "ନିଷ୍ପ୍ରଭୀକରଣ", "ଅକ୍ସିକରଣ", "ଅବକ୍ଷୟନ"],
+    "answer": "ସାପୋନିଫିକେସନ",
+    "explanation": "ଚର୍ବିରୁ ସାବୁନ ତିଆରିକୁ ସାପୋନିଫିକେସନ କୁହାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which compound is used as fuel in homes?",
+    "questionOdia": "ଘରେ ଇନ୍ଧନ ଭାବେ କେଉଁ ଯୋଗିକ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": ["LPG", "ଅକ୍ସିଜେନ", "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ", "ନାଇଟ୍ରୋଜେନ"],
+    "answer": "LPG",
+    "explanation": "LPG ଘରୋଇ ଇନ୍ଧନ ଭାବେ ବ୍ୟବହୃତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the general formula of alkanes?",
+    "questionOdia": "ଆଲକେନର ସାଧାରଣ ସୂତ୍ର କ’ଣ?",
+    "options": ["CnH2n+2", "CnH2n", "CnH2n-2", "CnHn"],
+    "answer": "CnH2n+2",
+    "explanation": "ସନ୍ତୃପ୍ତ ହାଇଡ୍ରୋକାର୍ବନର ସୂତ୍ର CnH2n+2।"
+  },
+  {
+    "questionEnglish": "What is the general formula of alkenes?",
+    "questionOdia": "ଆଲକିନର ସାଧାରଣ ସୂତ୍ର କ’ଣ?",
+    "options": ["CnH2n", "CnH2n+2", "CnH2n-2", "CnHn"],
+    "answer": "CnH2n",
+    "explanation": "ଆଲକିନରେ ଦ୍ୱିବନ୍ଧ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "What is the general formula of alkynes?",
+    "questionOdia": "ଆଲକାଇନର ସାଧାରଣ ସୂତ୍ର କ’ଣ?",
+    "options": ["CnH2n-2", "CnH2n", "CnH2n+2", "CnHn"],
+    "answer": "CnH2n-2",
+    "explanation": "ଆଲକାଇନରେ ତ୍ରିବନ୍ଧ ଥାଏ।"
+  },
+  {
+    "questionEnglish": "Which allotrope of carbon is used in pencils?",
+    "questionOdia": "ପେନ୍ସିଲରେ କାର୍ବନର କେଉଁ ରୂପ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": ["ଗ୍ରାଫାଇଟ", "ହୀରା", "କୋକ", "କୋଇଳା"],
+    "answer": "ଗ୍ରାଫାଇଟ",
+    "explanation": "ଗ୍ରାଫାଇଟ ନରମ ଥିବାରୁ ପେନ୍ସିଲରେ ବ୍ୟବହୃତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Which carbon compound is used in preservation?",
+    "questionOdia": "ସଂରକ୍ଷଣରେ କେଉଁ କାର୍ବନ ଯୋଗିକ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": ["ଏସେଟିକ ଆମ୍ଲ", "ମିଥେନ", "ଇଥିନ", "ପ୍ରୋପେନ"],
+    "answer": "ଏସେଟିକ ଆମ୍ଲ",
+    "explanation": "ଏସେଟିକ ଆମ୍ଲ ଖାଦ୍ୟ ସଂରକ୍ଷଣରେ ବ୍ୟବହୃତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "What is the formula of ethene?",
+    "questionOdia": "ଇଥିନର ସୂତ୍ର କ’ଣ?",
+    "options": ["C2H4", "C2H6", "CH4", "C2H2"],
+    "answer": "C2H4",
+    "explanation": "ଇଥିନ ଏକ ଅସନ୍ତୃପ୍ତ ହାଇଡ୍ରୋକାର୍ବନ।"
+  },
+  {
+    "questionEnglish": "What is the formula of ethyne?",
+    "questionOdia": "ଇଥାଇନର ସୂତ୍ର କ’ଣ?",
+    "options": ["C2H2", "C2H4", "C2H6", "CH4"],
+    "answer": "C2H2",
+    "explanation": "ଇଥାଇନରେ ତ୍ରିବନ୍ଧ ରହେ।"
+  },
+  {
+    "questionEnglish": "Which carbon compound gives fruity smell?",
+    "questionOdia": "କେଉଁ କାର୍ବନ ଯୋଗିକରୁ ଫଳ ଗନ୍ଧ ଆସେ?",
+    "options": ["ଇଷ୍ଟର", "ଆଲକୋହଲ", "ଆଲଡିହାଇଡ", "କିଟୋନ"],
+    "answer": "ଇଷ୍ଟର",
+    "explanation": "ଇଷ୍ଟରରୁ ସୁଗନ୍ଧ ଆସେ।"
+  },
+  {
+    "questionEnglish": "What is esterification?",
+    "questionOdia": "ଇଷ୍ଟରୀକରଣ କ’ଣ?",
+    "options": ["ଆଲକୋହଲ ଓ ଆମ୍ଲର ପ୍ରତିକ୍ରିୟା", "ଧାତୁ ଓ ଜଳର ପ୍ରତିକ୍ରିୟା", "ଆମ୍ଲ ଓ କ୍ଷାର ପ୍ରତିକ୍ରିୟା", "ଲୁଣ ଗଠନ"],
+    "answer": "ଆଲକୋହଲ ଓ ଆମ୍ଲର ପ୍ରତିକ୍ରିୟା",
+    "explanation": "ଆଲକୋହଲ ଓ କାର୍ବକ୍ସିଲିକ ଆମ୍ଲରୁ ଇଷ୍ଟର ତିଆରି ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Which catalyst is used in hydrogenation?",
+    "questionOdia": "ହାଇଡ୍ରୋଜେନେସନରେ କେଉଁ ଉତ୍ପ୍ରେରକ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": ["ନିକେଲ", "ଲୋହ", "ତାମା", "ରୂପା"],
+    "answer": "ନିକେଲ",
+    "explanation": "ନିକେଲ ଉତ୍ପ୍ରେରକ ଭାବେ ବ୍ୟବହୃତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Which process converts vegetable oil to fat?",
+    "questionOdia": "ଉଦ୍ଭିଜ ତେଲକୁ ଚର୍ବିରେ ପରିବର୍ତ୍ତନ ପ୍ରକ୍ରିୟା କ’ଣ?",
+    "options": ["ହାଇଡ୍ରୋଜେନେସନ", "ଅକ୍ସିକରଣ", "ଦହନ", "ବିଶ୍ଳେଷଣ"],
+    "answer": "ହାଇଡ୍ରୋଜେନେସନ",
+    "explanation": "ତେଲରେ ହାଇଡ୍ରୋଜେନ ଯୋଗ କରାଯାଏ।"
+  },
+  {
+    "questionEnglish": "Which carbon compound is used as antifreeze?",
+    "questionOdia": "ଏଣ୍ଟିଫ୍ରିଜ ଭାବେ କେଉଁ କାର୍ବନ ଯୋଗିକ ବ୍ୟବହୃତ ହୁଏ?",
+    "options": ["ଇଥିଲିନ ଗ୍ଲାଇକଲ", "ଇଥାନଲ", "ମିଥେନ", "ପ୍ରୋପେନ"],
+    "answer": "ଇଥିଲିନ ଗ୍ଲାଇକଲ",
+    "explanation": "ଇଥିଲିନ ଗ୍ଲାଇକଲ ଏଣ୍ଟିଫ୍ରିଜ ଭାବେ ବ୍ୟବହୃତ ହୁଏ।"
+  },
+  {
+    "questionEnglish": "Which bond is strongest in carbon compounds?",
+    "questionOdia": "କାର୍ବନ ଯୋଗିକରେ ସବୁଠାରୁ ଶକ୍ତିଶାଳୀ ବନ୍ଧ କ’ଣ?",
+    "options": ["ତ୍ରିବନ୍ଧ", "ଦ୍ୱିବନ୍ଧ", "ଏକକ ବନ୍ଧ", "ଆୟନିକ ବନ୍ଧ"],
+    "answer": "ତ୍ରିବନ୍ଧ",
+    "explanation": "ତ୍ରିବନ୍ଧ ସବୁଠାରୁ ଶକ୍ତିଶାଳୀ।"
+  },
+  {
+    "questionEnglish": "Which carbon compound is simplest alcohol?",
+    "questionOdia": "ସବୁଠାରୁ ସରଳ ଆଲକୋହଲ କ’ଣ?",
+    "options": ["ମିଥାନଲ", "ଇଥାନଲ", "ପ୍ରୋପାନଲ", "ବ୍ୟୁଟାନଲ"],
+    "answer": "ମିଥାନଲ",
+    "explanation": "ମିଥାନଲ ସରଳତମ ଆଲକୋହଲ।"
+  },
+  {
+    "questionEnglish": "Which compound causes global warming?",
+    "questionOdia": "ବିଶ୍ୱ ଉଷ୍ଣାୟନ ପାଇଁ କେଉଁ ଯୋଗିକ ଦାୟୀ?",
+    "options": ["କାର୍ବନ ଡାଇଅକ୍ସାଇଡ", "ଅକ୍ସିଜେନ", "ନାଇଟ୍ରୋଜେନ", "ହାଇଡ୍ରୋଜେନ"],
+    "answer": "କାର୍ବନ ଡାଇଅକ୍ସାଇଡ",
+    "explanation": "CO2 ଗ୍ରୀନହାଉସ ଗ୍ୟାସ ଅଟେ।"
   }
 ]
+
+```
