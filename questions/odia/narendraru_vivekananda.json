@@ -1,1 +1,482 @@
-
+[
+{
+"questionEnglish": "Who is the author of the biographical essay 'Narendraru Vivekananda'?",
+"questionOdia": "'ନରେନ୍ଦ୍ରରୁ ବିବେକାନନ୍ଦ' ଜୀବନୀମୂଳକ ପ୍ରବନ୍ଧର ରଚୟିତା କିଏ?",
+"options": [
+"ଶରତ କୁମାର ମହାନ୍ତି",
+"ଗୋପବନ୍ଧୁ ଦାସ",
+"ମଧୁସୂଦନ ରାଓ",
+"ଫକୀର ମୋହନ ସେନାପତି"
+],
+"answer": "ଶରତ କୁମାର ମହାନ୍ତି",
+"explanation": "Is essay ke writer Sarat Kumar Mohanty hain, jinhone Swami Vivekananda ki life journey ko bahut sundar tarike se describe kiya hai."
+},
+{
+"questionEnglish": "What was the real or childhood name of Swami Vivekananda?",
+"questionOdia": "ସ୍ୱାମୀ ବିବେକାନନ୍ଦଙ୍କର ପ୍ରକୃତ କିମ୍ବା ପିଲାଦିନର ନାମ କ'ଣ ଥିଲା?",
+"options": [
+"ଗଦାଧର",
+"ନରେନ୍ଦ୍ରନାଥ ଦତ୍ତ",
+"ମୂଳଶଙ୍କର",
+"ଦୟାନନ୍ଦ"
+],
+"answer": "ନରେନ୍ଦ୍ରନାଥ ଦତ୍ତ",
+"explanation": "Swami Vivekananda ka bachpan ka naam Narendranath Datta tha, unhe pyar se log 'Narendra' ya 'Bile' bhi bulate the."
+},
+{
+"questionEnglish": "Who was the spiritual Guru of Narendranath?",
+"questionOdia": "ନରେନ୍ଦ୍ରନାଥଙ୍କର ଆଧ୍ୟାତ୍ମିକ ଗୁରୁ କିଏ ଥିଲେ?",
+"options": [
+"ସ୍ୱାମୀ ବ୍ରହ୍ମାନନ୍ଦ",
+"ରାମକୃଷ୍ଣ ପରମହଂସ",
+"ସାରଦା ଦେବୀ",
+"ସ୍ୱାମୀ ବିରଜାନନ୍ଦ"
+],
+"answer": "ରାମକୃଷ୍ଣ ପରମହଂସ",
+"explanation": "Sri Ramakrishna Paramahamsa Narendra ke guru the, jinhone unki life aur soch ko puri tarah badal diya tha."
+},
+{
+"questionEnglish": "Where did Sri Ramakrishna Paramahamsa live and teach?",
+"questionOdia": "ଶ୍ରୀ ରାମକୃଷ୍ଣ ପରମହଂସ କେଉଁଠାରେ ରହୁଥିଲେ ଏବଂ ଶିକ୍ଷା ପ୍ରଦାନ କରୁଥିଲେ?",
+"options": [
+"ଦକ୍ଷିଣେଶ୍ୱର",
+"ବେଲୁର ମଠ",
+"ବାରାଣସୀ",
+"କାଶୀପୁର"
+],
+"answer": "ଦକ୍ଷିଣେଶ୍ୱର",
+"explanation": "Sri Ramakrishna Kolkata ke paas Dakshineswar Kali temple mein rehte the aur wahin apne disciples ko guide karte the."
+},
+{
+"questionEnglish": "What specific disease did Sri Ramakrishna suffer from in his final days?",
+"questionOdia": "ଶେଷ ସମୟରେ ଶ୍ରୀ ରାମକୃଷ୍ଣ କେଉଁ ରୋଗରେ ପୀଡ଼ିତ ଥିଲେ?",
+"options": [
+"ଯକ୍ଷ୍ମା",
+"କର୍କଟ ରୋଗ (ଗଳା କର୍କଟ)",
+"ମଧୁମେହ",
+"ହୃଦ୍‌ରୋଗ"
+],
+"answer": "କର୍କଟ ରୋଗ (ଗଳା କର୍କଟ)",
+"explanation": "Apne antim dino mein Sri Ramakrishna ko throat cancer (gala karkat) ho gaya tha, jiske karan unhe bahut pain hota tha."
+},
+{
+"questionEnglish": "Where was Sri Ramakrishna moved for his cancer treatment?",
+"questionOdia": "କର୍କଟ ରୋଗର ଚିକିତ୍ସା ପାଇଁ ଶ୍ରୀ ରାମକୃଷ୍ଣଙ୍କୁ କେଉଁଠାକୁ ସ୍ଥାନାନ୍ତର କରାଯାଇଥିଲା?",
+"options": [
+"କାଶୀପୁର ବଗିଚା ଘର",
+"କଲିକତା ଡାକ୍ତରଖାନା",
+"ଦକ୍ଷିଣେଶ୍ୱର ମନ୍ଦିର",
+"ବେଲୁର ମଠ"
+],
+"answer": "କାଶୀପୁର ବଗିଚା ଘର",
+"explanation": "Unke treatment aur rest ke liye unhe Dakshineswar se Cossipore garden house (Kashipur bagicha ghar) shift kiya gaya tha."
+},
+{
+"questionEnglish": "What was the prime goal of Narendra's life before fully understanding his Guru's mission?",
+"questionOdia": "ଗୁରୁଙ୍କ ଉଦ୍ଦେଶ୍ୟ ସମ୍ପୂର୍ଣ୍ଣ ବୁଝିବା ପୂର୍ବରୁ ନରେନ୍ଦ୍ରଙ୍କ ଜୀବନର ମୁଖ୍ୟ ଲକ୍ଷ୍ୟ କ'ଣ ଥିଲା?",
+"options": [
+"ନିର୍ବିକଳ୍ପ ସମାଧି ଲାଭ କରିବା",
+"ବିଦେଶ ଯାତ୍ରା କରିବା",
+"ପରିବାରର ଦାୟିତ୍ୱ ନେବା",
+"ବହୁତ ଧନ ଉପାର୍ଜନ କରିବା"
+],
+"answer": "ନିର୍ବିକଳ୍ପ ସମାଧି ଲାଭ କରିବା",
+"explanation": "Shuru mein Narendra ka main goal 'Nirvikalpa Samadhi' (highest state of meditation) attain karna tha, taki unhe moksha mil sake."
+},
+{
+"questionEnglish": "How did Ramakrishna react when Narendra asked for Nirvikalpa Samadhi?",
+"questionOdia": "ନରେନ୍ଦ୍ର ନିର୍ବିକଳ୍ପ ସମାଧି ମାଗିବା ବେଳେ ରାମକୃଷ୍ଣଙ୍କର ପ୍ରତିକ୍ରିୟା କିପରି ଥିଲା?",
+"options": [
+"ସେ ବହୁତ ଖୁସି ହୋଇଥିଲେ",
+"ସେ ତାଙ୍କୁ ତୁରନ୍ତ ସମାଧି ଦେଇଥିଲେ",
+"ସେ ବିରକ୍ତ ହୋଇ ତାଙ୍କୁ ସ୍ୱାର୍ଥପର ବୋଲି କହିଥିଲେ",
+"ସେ ତାଙ୍କୁ ଘରକୁ ଫେରିଯିବାକୁ କହିଥିଲେ"
+],
+"answer": "ସେ ବିରକ୍ତ ହୋଇ ତାଙ୍କୁ ସ୍ୱାର୍ଥପର ବୋଲି କହିଥିଲେ",
+"explanation": "Ramakrishna ne unhe scold kiya aur kaha ki sirf apne salvation ke liye sochna selfish hai; unhe ek vishal banyan tree jaisa banna chahiye."
+},
+{
+"questionEnglish": "What metaphor did Ramakrishna use to describe what Narendra should become?",
+"questionOdia": "ନରେନ୍ଦ୍ର କ'ଣ ହେବା ଉଚିତ୍ ବୋଲି ବୁଝାଇବାକୁ ରାମକୃଷ୍ଣ କେଉଁ ଉଦାହରଣ ଦେଇଥିଲେ?",
+"options": [
+"ଗୋଟିଏ ବିଶାଳ ବରଗଛ ଯାହା ଅନ୍ୟମାନଙ୍କୁ ଛାଇ ଦେବ",
+"ଗୋଟିଏ ଉଜ୍ଜ୍ୱଳ ସୂର୍ଯ୍ୟ",
+"ଗୋଟିଏ ଶାନ୍ତ ନଦୀ",
+"ଗୋଟିଏ କଠୋର ପଥର"
+],
+"answer": "ଗୋଟିଏ ବିଶାଳ ବରଗଛ ଯାହା ଅନ୍ୟମାନଙ୍କୁ ଛାଇ ଦେବ",
+"explanation": "Guru ne kaha ki Narendra ko ek Vishal Baragachha (huge banyan tree) banna chahiye jiske shade mein thake hue log rest kar sakein."
+},
+{
+"questionEnglish": "To whom did Ramakrishna transfer his spiritual powers before his passing?",
+"questionOdia": "ନିଜର ମହାପ୍ରୟାଣ ପୂର୍ବରୁ ରାମକୃଷ୍ଣ ତାଙ୍କର ସମସ୍ତ ଆଧ୍ୟାତ୍ମିକ ଶକ୍ତି କାହାକୁ ହସ୍ତାନ୍ତର କରିଥିଲେ?",
+"options": [
+"ରାଖାଲ",
+"ନରେନ୍ଦ୍ର",
+"ବ୍ରହ୍ମାନନ୍ଦ",
+"ତାରକ"
+],
+"answer": "ନରେନ୍ଦ୍ର",
+"explanation": "Apne final days mein Ramakrishna ne apni saari spiritual energy (shakti) Narendra mein transfer kar di thi."
+},
+{
+"questionEnglish": "What did Ramakrishna say he became after transferring his powers to Narendra?",
+"questionOdia": "ନରେନ୍ଦ୍ରଙ୍କୁ ଶକ୍ତି ହସ୍ତାନ୍ତର କରିବା ପରେ ରାମକୃଷ୍ଣ ନିଜକୁ କ'ଣ ବୋଲି କହିଥିଲେ?",
+"options": [
+"ଭଗବାନ",
+"ଫକିର ବା ନିଃସ୍ୱ",
+"ମହାରାଜା",
+"ସନ୍ନ୍ୟାସୀ"
+],
+"answer": "ଫକିର ବା ନିଃସ୍ୱ",
+"explanation": "Power transfer karne ke baad Ramakrishna ne emotion hoke kaha ki 'Main aaj se ek fakir (beggar) ban gaya hoon'."
+},
+{
+"questionEnglish": "Who was entrusted with the responsibility of taking care of the young disciples by Ramakrishna?",
+"questionOdia": "ଯୁବ ଶିଷ୍ୟମାନଙ୍କର ଯତ୍ନ ନେବା ଦାୟିତ୍ୱ ରାମକୃଷ୍ଣ କାହାକୁ ଦେଇଥିଲେ?",
+"options": [
+"ନରେନ୍ଦ୍ର",
+"ସାରଦା ଦେବୀ",
+"ରାଖାଲ",
+"ମଥୁର ବାବୁ"
+],
+"answer": "ନରେନ୍ଦ୍ର",
+"explanation": "Ramakrishna ne Narendra ko baki sabhi young disciples ko ek sath bandh kar rakhne aur guide karne ka responsibility diya tha."
+},
+{
+"questionEnglish": "What sudden tragedy struck Narendra's family when he was a college student?",
+"questionOdia": "ନରେନ୍ଦ୍ର କଲେଜ ଛାତ୍ର ଥିବା ସମୟରେ ତାଙ୍କ ପରିବାରରେ କେଉଁ ହଠାତ୍ ବିପଦ ପଡ଼ିଥିଲା?",
+"options": [
+"ତାଙ୍କ ଘରେ ନିଆଁ ଲାଗିଯାଇଥିଲା",
+"ତାଙ୍କ ପିତାଙ୍କର ହଠାତ୍ ମୃତ୍ୟୁ ହୋଇଥିଲା ଏବଂ ପରିବାର ଦାରିଦ୍ର୍ୟରେ ପଡ଼ିଥିଲା",
+"ତାଙ୍କ ଭାଇଙ୍କର ମୃତ୍ୟୁ ହୋଇଥିଲା",
+"ସେ ଭୟଙ୍କର ରୋଗରେ ପଡ଼ିଥିଲେ"
+],
+"answer": "ତାଙ୍କ ପିତାଙ୍କର ହଠାତ୍ ମୃତ୍ୟୁ ହୋଇଥିଲା ଏବଂ ପରିବାର ଦାରିଦ୍ର୍ୟରେ ପଡ଼ିଥିଲା",
+"explanation": "College ke dino mein Narendra ke pita (father) Vishwanath Datta ki sudden death ho gayi, jisse unki family extreme poverty mein chali gayi."
+},
+{
+"questionEnglish": "Who did Narendra pray to, at Ramakrishna's request, to solve his family's financial crisis?",
+"questionOdia": "ପରିବାରର ଆର୍ଥିକ ସଙ୍କଟ ଦୂର କରିବାକୁ ରାମକୃଷ୍ଣଙ୍କ ପରାମର୍ଶରେ ନରେନ୍ଦ୍ର କାହା ପାଖରେ ପ୍ରାର୍ଥନା କରିଥିଲେ?",
+"options": [
+"ଶିବ",
+"ଦୁର୍ଗା",
+"ଭବତାରିଣୀ କାଳୀ ମାଆ",
+"କୃଷ୍ଣ"
+],
+"answer": "ଭବତାରିଣୀ କାଳୀ ମାଆ",
+"explanation": "Ramakrishna ke kehne par Narendra Bhavatarini Kali Maa ke mandir gaye the, taki wo apni family ke liye financial help maang sakein."
+},
+{
+"questionEnglish": "What did Narendra end up asking the Goddess instead of wealth and food?",
+"questionOdia": "ମାଆ କାଳୀଙ୍କ ପାଖରେ ଧନ ଓ ଖାଦ୍ୟ ବଦଳରେ ନରେନ୍ଦ୍ର କ'ଣ ମାଗିଥିଲେ?",
+"options": [
+"ଶକ୍ତି",
+"ଜ୍ଞାନ, ଭକ୍ତି ଓ ବୈରାଗ୍ୟ",
+"ଦୀର୍ଘାୟୁ",
+"ସୁନ୍ଦର ସ୍ୱାସ୍ଥ୍ୟ"
+],
+"answer": "ଜ୍ଞାନ, ଭକ୍ତି ଓ ବୈରାଗ୍ୟ",
+"explanation": "Jab wo Maa Kali ke samne khade hue, toh wo worldly cheezein (wealth) bhool gaye aur sirf Jnan, Bhakti aur Bairagya (knowledge, devotion, detachment) maanga."
+},
+{
+"questionEnglish": "How many times did Narendra go to the temple to ask for wealth but failed each time?",
+"questionOdia": "ଧନ ମାଗିବା ପାଇଁ ନରେନ୍ଦ୍ର କେତେ ଥର ମନ୍ଦିର ଯାଇଥିଲେ ମଧ୍ୟ ପ୍ରତିଥର ବିଫଳ ହୋଇଥିଲେ?",
+"options": [
+"ଦୁଇ ଥର",
+"ତିନି ଥର",
+"ଚାରି ଥର",
+"ପାଞ୍ଚ ଥର"
+],
+"answer": "ତିନି ଥର",
+"explanation": "Narendra lagatar teen baar (3 times) mandir gaye, par har baar unhone sirf spiritual enlightenment hi maanga, material wealth nahi."
+},
+{
+"questionEnglish": "After Ramakrishna's Mahasamadhi, where did Narendra and his brother-disciples establish their first Math (monastery)?",
+"questionOdia": "ରାମକୃଷ୍ଣଙ୍କ ମହାସମାଧି ପରେ ନରେନ୍ଦ୍ର ଓ ତାଙ୍କର ଗୁରୁଭାଇମାନେ ପ୍ରଥମେ କେଉଁଠାରେ ମଠ ସ୍ଥାପନ କରିଥିଲେ?",
+"options": [
+"ବେଲୁର",
+"ବରାହନଗର",
+"ପୁରୀ",
+"କାଶୀ"
+],
+"answer": "ବରାହନଗର",
+"explanation": "Ramakrishna ke death ke baad unke disciples ne milkar Baranagar (Barahanagar) mein ek bhutaha jaisi building mein apna pehla Math establish kiya."
+},
+{
+"questionEnglish": "What was the core principle of the Sanyasis at the Baranagar Math?",
+"questionOdia": "ବରାହନଗର ମଠରେ ଥିବା ସନ୍ନ୍ୟାସୀମାନଙ୍କର ମୁଖ୍ୟ ଆଦର୍ଶ କ'ଣ ଥିଲା?",
+"options": [
+"ଆତ୍ମମୋକ୍ଷାର୍ଥେ ଜଗଦ୍ଦିତାୟ ଚ (ନିଜର ମୋକ୍ଷ ଏବଂ ଜଗତର କଲ୍ୟାଣ)",
+"କେବଳ ଧ୍ୟାନ କରିବା",
+"କେବଳ ତୀର୍ଥଯାତ୍ରା କରିବା",
+"ବହି ଲେଖିବା"
+],
+"answer": "ଆତ୍ମମୋକ୍ଷାର୍ଥେ ଜଗଦ୍ଦିତାୟ ଚ (ନିଜର ମୋକ୍ଷ ଏବଂ ଜଗତର କଲ୍ୟାଣ)",
+"explanation": "Unka main motto tha 'Atmano mokshartham jagat hitaya cha' jiska matlab hai apni soul ka moksha aur duniya ki bhalai."
+},
+{
+"questionEnglish": "What is the concept of 'Daridra Narayana' introduced by Swami Vivekananda?",
+"questionOdia": "ସ୍ୱାମୀ ବିବେକାନନ୍ଦଙ୍କ ଦ୍ୱାରା ପ୍ରଚଳିତ 'ଦରିଦ୍ର ନାରାୟଣ' ଧାରଣାର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଗରିବମାନଙ୍କୁ ଅବହେଳା କରିବା",
+"ଗରିବ ଏବଂ ଅସହାୟ ମଣିଷଙ୍କ ମଧ୍ୟରେ ଭଗବାନଙ୍କୁ ଦେଖି ସେବା କରିବା",
+"କେବଳ ମନ୍ଦିରରେ ପୂଜା କରିବା",
+"ଧନୀ ଲୋକଙ୍କୁ ସାହାଯ୍ୟ କରିବା"
+],
+"answer": "ଗରିବ ଏବଂ ଅସହାୟ ମଣିଷଙ୍କ ମଧ୍ୟରେ ଭଗବାନଙ୍କୁ ଦେଖି ସେବା କରିବା",
+"explanation": "Daridra Narayana ka concept sikhata hai ki poor aur needy logo ki sewa karna hi sachhi bhagwan ki pooja hai (Service to man is service to God)."
+},
+{
+"questionEnglish": "In which city did Swami Vivekananda deliver his famous speech at the Parliament of the World's Religions?",
+"questionOdia": "ସ୍ୱାମୀ ବିବେକାନନ୍ଦ କେଉଁ ସହରରେ ବିଶ୍ୱ ଧର୍ମ ସମ୍ମିଳନୀରେ ତାଙ୍କର ପ୍ରସିଦ୍ଧ ଭାଷଣ ଦେଇଥିଲେ?",
+"options": [
+"ଲଣ୍ଡନ",
+"ନ୍ୟୁୟର୍କ",
+"ଚିକାଗୋ",
+"ପ୍ୟାରିସ୍"
+],
+"answer": "ଚିକାଗୋ",
+"explanation": "Swami Vivekananda ne 1893 mein America ke Chicago shahar mein World Parliament of Religions mein apna iconic speech diya tha."
+},
+{
+"questionEnglish": "With which famous words did Swami Vivekananda begin his Chicago address?",
+"questionOdia": "ସ୍ୱାମୀ ବିବେକାନନ୍ଦ ଚିକାଗୋ ଭାଷଣ କେଉଁ ପ୍ରସିଦ୍ଧ ଶବ୍ଦରୁ ଆରମ୍ଭ କରିଥିଲେ?",
+"options": [
+"ଆମେରିକାର ମୋର ଭାଇ ଓ ଭଉଣୀମାନେ",
+"ଆଦରଣୀୟ ଅତିଥିଗଣ",
+"ହେ ବିଶ୍ୱବାସୀ",
+"ମୋର ପ୍ରିୟ ବନ୍ଧୁମାନେ"
+],
+"answer": "ଆମେରିକାର ମୋର ଭାଇ ଓ ଭଉଣୀମାନେ",
+"explanation": "Unhone apna speech 'Sisters and Brothers of America' (Americara mora bhai o bhaunimane) se start kiya tha, jisse waha sab impressed ho gaye the."
+},
+{
+"questionEnglish": "In which year did the Parliament of the World's Religions take place in Chicago?",
+"questionOdia": "ଚିକାଗୋରେ ବିଶ୍ୱ ଧର୍ମ ସମ୍ମିଳନୀ କେଉଁ ମସିହାରେ ଅନୁଷ୍ଠିତ ହୋଇଥିଲା?",
+"options": [
+"୧୮୯୦",
+"୧୮୯୩",
+"୧୮୯୭",
+"୧୯୦୨"
+],
+"answer": "୧୮୯୩",
+"explanation": "World Parliament of Religions 1893 mein organize hua tha, jo Indian history aur spirituality ke liye ek turning point tha."
+},
+{
+"questionEnglish": "Before leaving for America, at which place in India did Vivekananda sit on a rock and meditate deeply?",
+"questionOdia": "ଆମେରିକା ଯିବା ପୂର୍ବରୁ ସ୍ୱାମୀ ବିବେକାନନ୍ଦ ଭାରତର କେଉଁ ସ୍ଥାନରେ ଏକ ପଥର ଉପରେ ବସି ଗଭୀର ଧ୍ୟାନ କରିଥିଲେ?",
+"options": [
+"ପୁରୀ",
+"କନ୍ୟାକୁମାରୀ",
+"ଦ୍ୱାରକା",
+"ରାମେଶ୍ୱରମ୍"
+],
+"answer": "କନ୍ୟାକୁମାରୀ",
+"explanation": "America jane se pehle wo Kanyakumari gaye the aur waha samudra ke beech ek rock (Kanyakumari rock) par baith kar India ke future ke liye dhyaan lagaya tha."
+},
+{
+"questionEnglish": "What realization did Vivekananda have while meditating on the Kanyakumari rock?",
+"questionOdia": "କନ୍ୟାକୁମାରୀ ପଥର ଉପରେ ଧ୍ୟାନ କରୁଥିବା ସମୟରେ ବିବେକାନନ୍ଦଙ୍କର କି ଉପଲବ୍ଧି ହୋଇଥିଲା?",
+"options": [
+"ତାଙ୍କୁ କେବଳ ଧ୍ୟାନ କରିବା ଉଚିତ୍",
+"ଭାରତର ଦରିଦ୍ର ଓ ଅବହେଳିତ ଲୋକଙ୍କର ଉନ୍ନତି ବିନା ଧର୍ମର କୌଣସି ମୂଲ୍ୟ ନାହିଁ",
+"ତାଙ୍କୁ ବିଦେଶରେ ରହିବା ଉଚିତ୍",
+"ରାଜନୀତିରେ ଯୋଗ ଦେବା ଉଚିତ୍"
+],
+"answer": "ଭାରତର ଦରିଦ୍ର ଓ ଅବହେଳିତ ଲୋକଙ୍କର ଉନ୍ନତି ବିନା ଧର୍ମର କୌଣସି ମୂଲ୍ୟ ନାହିଁ",
+"explanation": "Dhyaan mein unhe feel hua ki jab tak desh ke poor log bhookhe hain, tab tak religion ka koi matlab nahi hai. Unhe desh ki seva karni hai."
+},
+{
+"questionEnglish": "Who suggested the name 'Swami Vivekananda' to Narendra before his trip to America?",
+"questionOdia": "ଆମେରିକା ଯିବା ପୂର୍ବରୁ ନରେନ୍ଦ୍ରଙ୍କୁ 'ସ୍ୱାମୀ ବିବେକାନନ୍ଦ' ନାମ ଗ୍ରହଣ କରିବାକୁ କିଏ ପରାମର୍ଶ ଦେଇଥିଲେ?",
+"options": [
+"ରାମକୃଷ୍ଣ ପରମହଂସ",
+"କ୍ଷେତ୍ରିର ମହାରାଜା ଅଜିତ ସିଂହ",
+"ସାରଦା ଦେବୀ",
+"ବାଲ ଗଙ୍ଗାଧର ତିଲକ"
+],
+"answer": "କ୍ଷେତ୍ରିର ମହାରାଜା ଅଜିତ ସିଂହ",
+"explanation": "Khetri ke Maharaja, Ajit Singh ne Narendra ko suggest kiya tha ki wo apna naam badal kar 'Swami Vivekananda' rakh lein."
+},
+{
+"questionEnglish": "What is the primary message of Vivekananda to the youth of India?",
+"questionOdia": "ଭାରତର ଯୁବବର୍ଗଙ୍କ ପାଇଁ ସ୍ୱାମୀ ବିବେକାନନ୍ଦଙ୍କ ମୁଖ୍ୟ ବାର୍ତ୍ତା କ'ଣ ଥିଲା?",
+"options": [
+"ଭୟଭୀତ ହୋଇ ରହିବା",
+"ଉଠ, ଜାଗ୍ରତ ହୁଅ ଏବଂ ଲକ୍ଷ୍ୟ ସ୍ଥଳରେ ନପହଞ୍ଚିବା ପର୍ଯ୍ୟନ୍ତ ଅଟକ ନାହିଁ",
+"କେବଳ ଅର୍ଥ ଉପାର୍ଜନ କରିବା",
+"ଦେଶ ଛାଡ଼ି ପଳାଇବା"
+],
+"answer": "ଉଠ, ଜାଗ୍ରତ ହୁଅ ଏବଂ ଲକ୍ଷ୍ୟ ସ୍ଥଳରେ ନପହଞ୍ଚିବା ପର୍ଯ୍ୟନ୍ତ ଅଟକ ନାହିଁ",
+"explanation": "Unka sabse famous youth message tha: 'Arise, awake, and stop not till the goal is reached' (Uttha, jagrata hua...)."
+},
+{
+"questionEnglish": "What was the condition of India that pained Vivekananda during his nationwide travel (Parivrajaka life)?",
+"questionOdia": "ପରିବ୍ରାଜକ ଭାବରେ ସାରା ଭାରତ ଭ୍ରମଣ କରୁଥିବା ବେଳେ ଭାରତର କେଉଁ ଅବସ୍ଥା ବିବେକାନନ୍ଦଙ୍କୁ ବ୍ୟଥିତ କରିଥିଲା?",
+"options": [
+"ରାଜାମାନଙ୍କର ବିଳାସବ୍ୟସନ",
+"ସାଧାରଣ ଜନତାର ଦାରିଦ୍ର୍ୟ, କ୍ଷୁଧା, ଅଜ୍ଞାନତା ଓ କୁସଂସ୍କାର",
+"ବ୍ରିଟିଶମାନଙ୍କର ଶାସନ ପ୍ରଣାଳୀ",
+"ମନ୍ଦିରଗୁଡ଼ିକର ଅବସ୍ଥା"
+],
+"answer": "ସାଧାରଣ ଜନତାର ଦାରିଦ୍ର୍ୟ, କ୍ଷୁଧା, ଅଜ୍ଞାନତା ଓ କୁସଂସ୍କାର",
+"explanation": "Pore desh ghoomne ke dauran (Parivrajaka life) unhone dekha ki aam log (masses) kitni poverty, bhookh aur superstition mein jee rahe hain, jisse wo deeply hurt hue."
+},
+{
+"questionEnglish": "Whom did Vivekananda consider as his true God to be worshipped?",
+"questionOdia": "ବିବେକାନନ୍ଦ କାହାକୁ ନିଜର ପ୍ରକୃତ ଉପାସ୍ୟ ଦେବତା ବୋଲି ମାନୁଥିଲେ?",
+"options": [
+"ସ୍ୱର୍ଗରେ ଥିବା ଭଗବାନ",
+"ମନ୍ଦିରର ପ୍ରତିମା",
+"ଦରିଦ୍ର, ଅଶିକ୍ଷିତ ଏବଂ ପୀଡ଼ିତ ଜନତା (ଦରିଦ୍ର ନାରାୟଣ)",
+"ପ୍ରକୃତି ଓ ପରିବେଶ"
+],
+"answer": "ଦରିଦ୍ର, ଅଶିକ୍ଷିତ ଏବଂ ପୀଡ଼ିତ ଜନତା (ଦରିଦ୍ର ନାରାୟଣ)",
+"explanation": "Vivekananda ji sikhate the ki gareeb aur suffering logo ki madad karna hi sachhi bhagwan ki ibadat hai. Gareeb log hi unke 'Daridra Narayana' the."
+},
+{
+"questionEnglish": "Which prominent organization was founded by Swami Vivekananda to carry out humanitarian work?",
+"questionOdia": "ମାନବିକ କଲ୍ୟାଣ କାର୍ଯ୍ୟ କରିବା ପାଇଁ ସ୍ୱାମୀ ବିବେକାନନ୍ଦ କେଉଁ ପ୍ରମୁଖ ଅନୁଷ୍ଠାନ ଗଠନ କରିଥିଲେ?",
+"options": [
+"ବ୍ରହ୍ମ ସମାଜ",
+"ରାମକୃଷ୍ଣ ମିଶନ",
+"ଆର୍ଯ୍ୟ ସମାଜ",
+"ପ୍ରାର୍ଥନା ସମାଜ"
+],
+"answer": "ରାମକୃଷ୍ଣ ମିଶନ",
+"explanation": "Apne guru ke ideals aur humanitarian work (seva) ko spread karne ke liye unhone Ramakrishna Mission establish kiya tha."
+},
+{
+"questionEnglish": "What was Vivekananda's opinion on 'Religion' in relation to a hungry stomach?",
+"questionOdia": "ଖାଲି ପେଟ ଏବଂ ଧର୍ମ ସମ୍ପର୍କରେ ବିବେକାନନ୍ଦଙ୍କର ମତ କ'ଣ ଥିଲା?",
+"options": [
+"ଖାଲି ପେଟରେ ଭଲ ଭାବରେ ପ୍ରାର୍ଥନା ହୋଇପାରିବ",
+"ଖାଲି ପେଟ ପାଇଁ ଧର୍ମର କୌଣସି ଉପଯୋଗ ନାହିଁ (ଭୋକିଲା ପେଟ ପାଇଁ ଧର୍ମ ନୁହେଁ)",
+"ଧର୍ମ ହିଁ କ୍ଷୁଧା ମେଣ୍ଟାଇପାରିବ",
+"ଖାଦ୍ୟ ଅପେକ୍ଷା ଧର୍ମ ବଡ଼"
+],
+"answer": "ଖାଲି ପେଟ ପାଇଁ ଧର୍ମର କୌଣସି ଉପଯୋଗ ନାହିଁ (ଭୋକିଲା ପେଟ ପାଇଁ ଧର୍ମ ନୁହେଁ)",
+"explanation": "Vivekananda kehte the 'Religion is not for empty bellies'. Pehle logo ko khana do, unka pet bharo, phir unhe religion sikhao."
+},
+{
+"questionEnglish": "How did the American newspapers react to Swami Vivekananda's speech at the Parliament of Religions?",
+"questionOdia": "ବିଶ୍ୱ ଧର୍ମ ସମ୍ମିଳନୀରେ ସ୍ୱାମୀ ବିବେକାନନ୍ଦଙ୍କ ଭାଷଣ ପରେ ଆମେରିକାର ଖବରକାଗଜଗୁଡ଼ିକର ପ୍ରତିକ୍ରିୟା କିପରି ଥିଲା?",
+"options": [
+"ସେମାନେ ତାଙ୍କୁ ସମାଲୋଚନା କରିଥିଲେ",
+"ସେମାନେ ତାଙ୍କୁ ଅଣଦେଖା କରିଥିଲେ",
+"ସେମାନେ ତାଙ୍କୁ ସମ୍ମିଳନୀର ଶ୍ରେଷ୍ଠ ବ୍ୟକ୍ତିତ୍ୱ ବୋଲି ପ୍ରଶଂସା କରିଥିଲେ",
+"ସେମାନେ ତାଙ୍କୁ ତୁରନ୍ତ ଫେରିଯିବାକୁ କହିଥିଲେ"
+],
+"answer": "ସେମାନେ ତାଙ୍କୁ ସମ୍ମିଳନୀର ଶ୍ରେଷ୍ଠ ବ୍ୟକ୍ତିତ୍ୱ ବୋଲି ପ୍ରଶଂସା କରିଥିଲେ",
+"explanation": "American press aur newspapers ne unhe Parliament ka sabse greatest aur noblest figure bataya. Unka bahut praise hua."
+},
+{
+"questionEnglish": "What specific characteristic made the bond between Ramakrishna and Narendra so special?",
+"questionOdia": "କେଉଁ ବିଶେଷ ଗୁଣ ଯୋଗୁଁ ରାମକୃଷ୍ଣ ଏବଂ ନରେନ୍ଦ୍ରଙ୍କ ମଧ୍ୟରେ ସମ୍ପର୍କ ଏତେ ସ୍ୱତନ୍ତ୍ର ହୋଇପାରିଥିଲା?",
+"options": [
+"କେବଳ ଅନ୍ଧବିଶ୍ୱାସ",
+"ପରସ୍ପର ପ୍ରତି ଗଭୀର ନିଃସ୍ୱାର୍ଥପର ପ୍ରେମ ଓ ଆଧ୍ୟାତ୍ମିକ ବୁଝାମଣା",
+"ସମ୍ପତ୍ତିର ଲୋଭ",
+"ସାମାଜିକ ପ୍ରତିଷ୍ଠା"
+],
+"answer": "ପରସ୍ପର ପ୍ରତି ଗଭୀର ନିଃସ୍ୱାର୍ଥପର ପ୍ରେମ ଓ ଆଧ୍ୟାତ୍ମିକ ବୁଝାମଣା",
+"explanation": "Dono ke beech unconditional divine love aur deep spiritual connection tha, jo ek guru aur shishya ka best example hai."
+},
+{
+"questionEnglish": "What was the significance of the Baranagar Math in the early days?",
+"questionOdia": "ପ୍ରାଥମିକ ଦିନରେ ବରାହନଗର ମଠର ଗୁରୁତ୍ୱ କ'ଣ ଥିଲା?",
+"options": [
+"ଏହା ଏକ ବିଳାସବହୁଳ ମହଲ ଥିଲା",
+"ଏହା ରାମକୃଷ୍ଣଙ୍କ ଶିଷ୍ୟମାନଙ୍କ ପାଇଁ ଏକ କଠୋର ତପସ୍ୟା ଏବଂ ତ୍ୟାଗର କେନ୍ଦ୍ର ଥିଲା",
+"ଏହା ଏକ ବ୍ୟବସାୟିକ କେନ୍ଦ୍ର ଥିଲା",
+"ଏହା ଏକ ବଡ଼ ଡାକ୍ତରଖାନା ଥିଲା"
+],
+"answer": "ଏହା ରାମକୃଷ୍ଣଙ୍କ ଶିଷ୍ୟମାନଙ୍କ ପାଇଁ ଏକ କଠୋର ତପସ୍ୟା ଏବଂ ତ୍ୟାଗର କେନ୍ଦ୍ର ଥିଲା",
+"explanation": "Baranagar Math bahut hi simple aur rough jagah thi jaha Ramakrishna ke sanyasi disciples ne bahut hardships seh kar tapasya ki."
+},
+{
+"questionEnglish": "Whose pain and suffering did Vivekananda feel as his own?",
+"questionOdia": "ବିବେକାନନ୍ଦ କାହାର ଯନ୍ତ୍ରଣା ଏବଂ କଷ୍ଟକୁ ନିଜର ବୋଲି ଅନୁଭବ କରୁଥିଲେ?",
+"options": [
+"କେବଳ ନିଜ ପରିବାରର",
+"ଦେଶର ଅଗଣିତ ନିଷ୍ପେସିତ ଓ ଦରିଦ୍ର ଜନତାର",
+"ଧନୀ ବ୍ୟବସାୟୀଙ୍କର",
+"ବ୍ରିଟିଶ ଶାସକଙ୍କର"
+],
+"answer": "ଦେଶର ଅଗଣିତ ନିଷ୍ପେସିତ ଓ ଦରିଦ୍ର ଜନତାର",
+"explanation": "Unka heart India ke gareeb, oppressed aur downtrodden logo ke liye dhadakta tha, unki suffering unhe apni lagti thi."
+},
+{
+"questionEnglish": "According to the essay, what transformation happens to Narendra by the end?",
+"questionOdia": "ପ୍ରବନ୍ଧ ଅନୁଯାୟୀ, ଶେଷ ଆଡ଼କୁ ନରେନ୍ଦ୍ରଙ୍କ ମଧ୍ୟରେ କି ପ୍ରକାର ରୂପାନ୍ତରଣ ହୋଇଥିଲା?",
+"options": [
+"ସେ ଜଣେ ରାଜନେତା ହୋଇଯାଇଥିଲେ",
+"ଜଣେ ସନ୍ଦେହୀ ଯୁବକରୁ ସେ ଜଗତକଲ୍ୟାଣକାରୀ ସ୍ୱାମୀ ବିବେକାନନ୍ଦରେ ରୂପାନ୍ତରିତ ହୋଇଥିଲେ",
+"ସେ ଜଣେ ସାଧାରଣ ଗୃହସ୍ଥ ହୋଇଥିଲେ",
+"ସେ ସବୁକିଛି ଛାଡ଼ି ହିମାଳୟ ପଳାଇଥିଲେ"
+],
+"answer": "ଜଣେ ସନ୍ଦେହୀ ଯୁବକରୁ ସେ ଜଗତକଲ୍ୟାଣକାରୀ ସ୍ୱାମୀ ବିବେକାନନ୍ଦରେ ରୂପାନ୍ତରିତ ହୋଇଥିଲେ",
+"explanation": "Narendra jo shuru mein doubt karte the (skeptic), wo Sri Ramakrishna ki kripa se duniya ka kalyan karne wale 'Swami Vivekananda' me transform ho gaye."
+},
+{
+"questionEnglish": "What was Ramakrishna's view on 'Jiva' (living beings)?",
+"questionOdia": "ଜୀବମାନଙ୍କ (Jiva) ସମ୍ପର୍କରେ ରାମକୃଷ୍ଣଙ୍କର ମତ କ'ଣ ଥିଲା?",
+"options": [
+"ଜୀବ ହେଉଛି ପାପୀ",
+"ଜୀବ ହିଁ ଶିବ (ଜୀବସେବା ହିଁ ଶିବସେବା)",
+"ଜୀବ ଅସହାୟ",
+"ଜୀବ କେବଳ ଭୋଗ ବିଳାସ ପାଇଁ"
+],
+"answer": "ଜୀବ ହିଁ ଶିବ (ଜୀବସେବା ହିଁ ଶିବସେବା)",
+"explanation": "Ramakrishna Paramahamsa sikhate the ki 'Jiva is Shiva'. Yani har living being bhagwan ka roop hai, aur unki sewa karna hi Shiva ki sewa hai."
+},
+{
+"questionEnglish": "What filled Narendra with deep sorrow leading him to wander across India?",
+"questionOdia": "କେଉଁ ଦୁଃଖରେ ବ୍ୟଥିତ ହୋଇ ନରେନ୍ଦ୍ର ସାରା ଭାରତ ଭ୍ରମଣ କରିବାକୁ ବାହାରିଥିଲେ?",
+"options": [
+"ତାଙ୍କର ନିଜସ୍ୱ ଦାରିଦ୍ର୍ୟ",
+"ଭାରତବାସୀଙ୍କର ଦୁର୍ଦ୍ଦଶା ଏବଂ ଦାରିଦ୍ର୍ୟ",
+"ପରୀକ୍ଷାରେ ବିଫଳତା",
+"ପରିବାରର ଝଗଡ଼ା"
+],
+"answer": "ଭାରତବାସୀଙ୍କର ଦୁର୍ଦ୍ଦଶା ଏବଂ ଦାରିଦ୍ର୍ୟ",
+"explanation": "Jab unhone aam Indians ki extreme poverty, ignorance aur misery dekhi, toh unka dil rone laga aur wahi dukh unhe Parivrajaka (wandering monk) banaya."
+},
+{
+"questionEnglish": "Which prominent quality of Swami Vivekananda made him globally recognized?",
+"questionOdia": "ସ୍ୱାମୀ ବିବେକାନନ୍ଦଙ୍କର କେଉଁ ବିଶେଷ ଗୁଣ ତାଙ୍କୁ ବିଶ୍ୱସ୍ତରରେ ପରିଚିତ କରାଇଥିଲା?",
+"options": [
+"କେବଳ ତାଙ୍କର ପୋଷାକ",
+"ତାଙ୍କର ଗଭୀର ଆଧ୍ୟାତ୍ମିକ ଜ୍ଞାନ, ବାଗ୍ମିତା ଏବଂ ମାନବ ପ୍ରେମ",
+"ତାଙ୍କର ଧନସମ୍ପତ୍ତି",
+"ତାଙ୍କର ଯୁଦ୍ଧ କୌଶଳ"
+],
+"answer": "ତାଙ୍କର ଗଭୀର ଆଧ୍ୟାତ୍ମିକ ଜ୍ଞାନ, ବାଗ୍ମିତା ଏବଂ ମାନବ ପ୍ରେମ",
+"explanation": "Unka profound spiritual knowledge, excellent speaking skills (oratory/vagmita) aur universal love for humanity unhe duniya bhar me famous kar diya."
+},
+{
+"questionEnglish": "During his parivrajaka days, what did Vivekananda mostly rely on for his daily needs?",
+"questionOdia": "ନିଜର ପରିବ୍ରାଜକ ଦିନଗୁଡ଼ିକରେ ବିବେକାନନ୍ଦ ନିଜର ଦୈନନ୍ଦିନ ଆବଶ୍ୟକତା ପାଇଁ କାହା ଉପରେ ନିର୍ଭର କରୁଥିଲେ?",
+"options": [
+"ନିଜ ବ୍ୟାଙ୍କ ଖାତାରୁ ଟଙ୍କା ଉଠାଇ",
+"ଲୋକମାନଙ୍କ ଠାରୁ ମିଳୁଥିବା ଭିକ୍ଷା ଉପରେ",
+"ବ୍ରିଟିଶ ସରକାରଙ୍କ ସାହାଯ୍ୟ ଉପରେ",
+"ନିଜର ବ୍ୟବସାୟ ଉପରେ"
+],
+"answer": "ଲୋକମାନଙ୍କ ଠାରୁ ମିଳୁଥିବା ଭିକ୍ଷା ଉପରେ",
+"explanation": "Wandering monk (parivrajaka) ke roop me wo bina paiso ke ghoomte the aur sirf bhiksha (alms) par rely karte the jo log unhe dete the."
+},
+{
+"questionEnglish": "How does the essayist describe the relationship between India's youth and Vivekananda's message?",
+"questionOdia": "ପ୍ରାବନ୍ଧିକ ଭାରତର ଯୁବବର୍ଗ ଏବଂ ବିବେକାନନ୍ଦଙ୍କ ବାର୍ତ୍ତା ମଧ୍ୟରେ ଥିବା ସମ୍ପର୍କକୁ କିପରି ବର୍ଣ୍ଣନା କରିଛନ୍ତି?",
+"options": [
+"ଯୁବକମାନେ ତାଙ୍କୁ ଭୁଲିଯାଇଛନ୍ତି",
+"ବିବେକାନନ୍ଦଙ୍କ ବାର୍ତ୍ତା ଯୁବବର୍ଗଙ୍କ ପାଇଁ ସର୍ବଦା ଏକ ପ୍ରେରଣାର ଉତ୍ସ ହୋଇ ରହିବ",
+"ତାଙ୍କର ବାର୍ତ୍ତା କେବଳ ବୃଦ୍ଧମାନଙ୍କ ପାଇଁ",
+"ଏହା କୌଣସି ପ୍ରଭାବ ପକାଇନାହିଁ"
+],
+"answer": "ବିବେକାନନ୍ଦଙ୍କ ବାର୍ତ୍ତା ଯୁବବର୍ଗଙ୍କ ପାଇଁ ସର୍ବଦା ଏକ ପ୍ରେରଣାର ଉତ୍ସ ହୋଇ ରହିବ",
+"explanation": "Writer emphasize karte hain ki Vivekananda ka message youth ke liye ek evergreen source of inspiration (prerana ra utsa) hai."
+}
+]
