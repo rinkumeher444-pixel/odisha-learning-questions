@@ -1,0 +1,603 @@
+
+[
+{
+"questionEnglish": "What is the main theme of the story 'Katha' in the Class 10 Odia syllabus?",
+"questionOdia": "ଦଶମ ଶ୍ରେଣୀ ଓଡ଼ିଆ ସାହିତ୍ୟର 'କାଠ' ଗଳ୍ପର ମୁଖ୍ୟ ବିଷୟବସ୍ତୁ କ'ଣ ଅଟେ?",
+"options": [
+"ପ୍ରକୃତିର ସୌନ୍ଦର୍ଯ୍ୟ",
+"ଶ୍ରମିକର ସାଧୁତା ଓ ସହରୀ ବାବୁଙ୍କ ସନ୍ଦେହ",
+"ରାଜନୀତିକ ସଂଘର୍ଷ",
+"ପାରିବାରିକ ସମସ୍ୟା"
+],
+"answer": "ଶ୍ରମିକର ସାଧୁତା ଓ ସହରୀ ବାବୁଙ୍କ ସନ୍ଦେହ",
+"explanation": "Is story mein ek garib lakadhare (woodcutter) ki honesty aur shahar ke babu ke doubt (suspicion) ko dikhaya gaya hai."
+},
+{
+"questionEnglish": "Who came to the author's house to chop the wood?",
+"questionOdia": "ଲେଖକଙ୍କ ଘରକୁ କାଠ ହାଣିବା ପାଇଁ କିଏ ଆସିଥିଲା?",
+"options": [
+"ଜଣେ ଚାଷୀ",
+"ଜଣେ ବ୍ୟବସାୟୀ",
+"ଜଣେ କାଠୁରିଆ",
+"ଜଣେ ଭିକାରୀ"
+],
+"answer": "ଜଣେ କାଠୁରିଆ",
+"explanation": "Author ke ghar lakdi katne ke liye ek Kathuria (woodcutter) aaya tha, jo kadi mehnat karta tha."
+},
+{
+"questionEnglish": "How was the physical appearance of the woodcutter described in the story?",
+"questionOdia": "ଗଳ୍ପରେ କାଠୁରିଆର ଶାରୀରିକ ଗଠନ କିପରି ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"options": [
+"ଦୁର୍ବଳ ଓ ରୋଗିଣା",
+"ମୋଟା ଓ ଗୋରା",
+"କଳା ମଚମଚ ଓ ବଳିଷ୍ଠ",
+"ଡେଙ୍ଗା ଓ ସୁନ୍ଦର"
+],
+"answer": "କଳା ମଚମଚ ଓ ବଳିଷ୍ଠ",
+"explanation": "Kathuria ka body bahut strong aur dark (kala) tha, jo uske hard physical labor ko darshata hai."
+},
+{
+"questionEnglish": "What tool did the woodcutter bring to chop the wood?",
+"questionOdia": "କାଠୁରିଆ କାଠ ହାଣିବା ପାଇଁ ନିଜ ସହିତ କେଉଁ ଅସ୍ତ୍ର ଆଣିଥିଲା?",
+"options": [
+"ଖଣ୍ଡା",
+"କୁରାଢ଼ି",
+"କଟୁରୀ",
+"କରତ"
+],
+"answer": "କୁରାଢ଼ି",
+"explanation": "Lakdi katne ke liye Kathuria apne sath ek dhardar Kuradhi (axe) laya tha."
+},
+{
+"questionEnglish": "What type of wood was the woodcutter supposed to chop?",
+"questionOdia": "କାଠୁରିଆକୁ କେଉଁ ପ୍ରକାରର କାଠ ହାଣିବାକୁ ଦିଆଯାଇଥିଲା?",
+"options": [
+"ନରମ କାଠ",
+"ଶୁଖିଲା ଡାଳ",
+"ମୋଟା ଓ ଶକ୍ତ ଗଣ୍ଡି",
+"ପତଳା ବାଉଁଶ"
+],
+"answer": "ମୋଟା ଓ ଶକ୍ତ ଗଣ୍ଡି",
+"explanation": "Jo lakdi katni thi wo bahut moti aur hard (shakta gandi) thi, jise katna asan nahi tha."
+},
+{
+"questionEnglish": "What was the author's initial reaction when negotiating the price with the woodcutter?",
+"questionOdia": "କାଠୁରିଆ ସହ ମୂଲଚାଲ କରିବା ସମୟରେ ଲେଖକଙ୍କର ପ୍ରାଥମିକ ପ୍ରତିକ୍ରିୟା କିପରି ଥିଲା?",
+"options": [
+"ସେ ଖୁସିରେ ରାଜି ହୋଇଗଲେ",
+"ସେ ସନ୍ଦେହୀ ଏବଂ ହିସାବୀ ଥିଲେ",
+"ସେ କାଠୁରିଆକୁ ଗାଳି ଦେଲେ",
+"ସେ ବିନା ମୂଲଚାଲରେ ପଇସା ଦେଲେ"
+],
+"answer": "ସେ ସନ୍ଦେହୀ ଏବଂ ହିସାବୀ ଥିଲେ",
+"explanation": "Author shuru mein bahut doubtful tha aur paise bachane ke liye bargaining (moolchal) kar raha tha."
+},
+{
+"questionEnglish": "Why did the author keep an eye on the woodcutter while he was working?",
+"questionOdia": "କାଠୁରିଆ କାମ କରୁଥିବା ସମୟରେ ଲେଖକ କାହିଁକି ତା' ଉପରେ ନଜର ରଖିଥିଲେ?",
+"options": [
+"ତାକୁ ଉତ୍ସାହିତ କରିବା ପାଇଁ",
+"ସେ କାଠ ଚୋରି କରିବ ବୋଲି ସନ୍ଦେହ କରି",
+"ତାକୁ ପାଣି ଦେବା ପାଇଁ",
+"ତା'ଠାରୁ କାଠ ହାଣିବା ଶିଖିବା ପାଇଁ"
+],
+"answer": "ସେ କାଠ ଚୋରି କରିବ ବୋଲି ସନ୍ଦେହ କରି",
+"explanation": "Author ko shak tha ki kahin Kathuria lakdi chura na le ya kaam chori na kare, isliye wo nazar rakh raha tha."
+},
+{
+"questionEnglish": "How did the woodcutter work under the scorching sun?",
+"questionOdia": "ପ୍ରଖର ଖରାରେ କାଠୁରିଆ କିପରି କାମ କରୁଥିଲା?",
+"options": [
+"ବାରମ୍ବାର ବିଶ୍ରାମ ନେଇ",
+"ଅଳସୁଆ ଭାବରେ",
+"ଝାଳନାଳ ହୋଇ ନିଷ୍ଠାର ସହ",
+"ଅଧା କାମ ଛାଡ଼ି ପଳାଇଗଲା"
+],
+"answer": "ଝାଳନାଳ ହୋଇ ନିଷ୍ଠାର ସହ",
+"explanation": "Kathuria bina thake, pasine se lathpath hokar poori lagan (nishtha) ke sath apna kaam kar raha tha."
+},
+{
+"questionEnglish": "What does the woodcutter's hard work symbolize in the story?",
+"questionOdia": "ଏହି ଗଳ୍ପରେ କାଠୁରିଆର କଠିନ ପରିଶ୍ରମ କେଉଁ କଥାର ପ୍ରତୀକ ଅଟେ?",
+"options": [
+"ତା'ର ଲୋଭ",
+"ଶ୍ରମର ମର୍ଯ୍ୟାଦା ଓ ସାଧୁତା",
+"ତା'ର ବୋକାମି",
+"ସହରୀ ଜୀବନର ପ୍ରଭାବ"
+],
+"answer": "ଶ୍ରମର ମର୍ଯ୍ୟାଦା ଓ ସାଧୁତା",
+"explanation": "Kathuria ka hard work dignity of labor (shram ki maryada) aur uski atoot honesty ka symbol hai."
+},
+{
+"questionEnglish": "How did the woodcutter's behavior contrast with the author's behavior?",
+"questionOdia": "କାଠୁରିଆର ବ୍ୟବହାର ଲେଖକଙ୍କ ବ୍ୟବହାର ଠାରୁ କିପରି ଭିନ୍ନ ଥିଲା?",
+"options": [
+"କାଠୁରିଆ ସ୍ବାର୍ଥପର ଥିଲା, ଲେଖକ ଉଦାର ଥିଲେ",
+"କାଠୁରିଆ ସରଳ ଓ ନିଷ୍କପଟ ଥିଲା, ଲେଖକ ସନ୍ଦେହୀ ଥିଲେ",
+"ଦୁହେଁ ସମାନ ସ୍ଵଭାବର ଥିଲେ",
+"କାଠୁରିଆ ଠକ ଥିଲା, ଲେଖକ ସାଧୁ ଥିଲେ"
+],
+"answer": "କାଠୁରିଆ ସରଳ ଓ ନିଷ୍କପଟ ଥିଲା, ଲେଖକ ସନ୍ଦେହୀ ଥିଲେ",
+"explanation": "Kathuria bilkul simple aur honest (nishkapat) tha, jabki author cynical aur suspicious nature ka tha."
+},
+{
+"questionEnglish": "What did the author feel towards the end of the story?",
+"questionOdia": "ଗଳ୍ପର ଶେଷ ଆଡ଼କୁ ଲେଖକଙ୍କ ମନରେ କିପରି ଭାବନା ଜାଗ୍ରତ ହୋଇଥିଲା?",
+"options": [
+"ଆନନ୍ଦ ଏବଂ ଗର୍ବ",
+"କାଠୁରିଆ ପ୍ରତି ଅହଂକାର",
+"ନିଜ ସନ୍ଦେହୀ ସ୍ଵଭାବ ପାଇଁ ଆତ୍ମଗ୍ଳାନି ଓ ଅନୁତାପ",
+"କାଠୁରିଆକୁ କମ୍ ପଇସା ଦେବାର ଖୁସି"
+],
+"answer": "ନିଜ ସନ୍ଦେହୀ ସ୍ଵଭାବ ପାଇଁ ଆତ୍ମଗ୍ଳାନି ଓ ଅନୁତାପ",
+"explanation": "Story ke end mein author ko apne shakki (suspicious) behavior par bahut regret aur guilt (atmaglani) feel hua."
+},
+{
+"questionEnglish": "According to the story, what divides the urban intellectual and the rural worker?",
+"questionOdia": "ଗଳ୍ପ ଅନୁସାରେ, ସହରୀ ବୁଦ୍ଧିଜୀବୀ ଓ ଗ୍ରାମୀଣ ଶ୍ରମିକ ମଧ୍ୟରେ କେଉଁ କଥାଟି ପାଚେରୀ ସୃଷ୍ଟି କରେ?",
+"options": [
+"ଧନର ଅଭାବ",
+"ପାରସ୍ପରିକ ଅବିଶ୍ଵାସ ଓ ବୁଝାମଣାର ଅଭାବ",
+"ଶିକ୍ଷାର ସମାନତା",
+"ଉଭୟଙ୍କର ପୋଷାକ"
+],
+"answer": "ପାରସ୍ପରିକ ଅବିଶ୍ଵାସ ଓ ବୁଝାମଣାର ଅଭାବ",
+"explanation": "Urban aur rural logon ke beech main difference mutual distrust (abishwas) aur lack of understanding hai."
+},
+{
+"questionEnglish": "What lesson does the story 'Katha' impart to the readers?",
+"questionOdia": "'କାଠ' ଗଳ୍ପଟି ପାଠକମାନଙ୍କୁ କେଉଁ ଶିକ୍ଷା ପ୍ରଦାନ କରେ?",
+"options": [
+"ସମସ୍ତଙ୍କୁ ସନ୍ଦେହ କରିବା ଉଚିତ୍",
+"ଶ୍ରମଜୀବୀଙ୍କୁ ସମ୍ମାନ ଦେବା ଏବଂ ଅଯଥା ସନ୍ଦେହ ନକରିବା",
+"କାଠ ହାଣିବା ଏକ ସହଜ କାମ",
+"ଗରିବ ଲୋକମାନେ ଠକ ଅଟନ୍ତି"
+],
+"answer": "ଶ୍ରମଜୀବୀଙ୍କୁ ସମ୍ମାନ ଦେବା ଏବଂ ଅଯଥା ସନ୍ଦେହ ନକରିବା",
+"explanation": "Yeh story humein sikhata hai ki working class (shramjeebi) ki respect karni chahiye aur unpar faltu shak nahi karna chahiye."
+},
+{
+"questionEnglish": "What was the weather like when the woodcutter was chopping the wood?",
+"questionOdia": "କାଠୁରିଆ କାଠ ହାଣିବା ସମୟରେ ପାଗ କିପରି ଥିଲା?",
+"options": [
+"ପ୍ରବଳ ବର୍ଷା ହେଉଥିଲା",
+"ଅସହ୍ୟ ଖରା ତେଜିଥିଲା",
+"ଶୀତରେ ଥରୁଥିଲା",
+"ବସନ୍ତ ରତୁର ମୃଦୁ ପବନ ବହୁଥିଲା"
+],
+"answer": "ଅସହ୍ୟ ଖରା ତେଜିଥିଲା",
+"explanation": "Kaam ke dauran bahut tez dhoop (khara) thi, jisme Kathuria pasine se bheeg gaya tha."
+},
+{
+"questionEnglish": "What part of the woodcutter's body was visibly exhausted from the effort?",
+"questionOdia": "କଠିନ ପରିଶ୍ରମ ଯୋଗୁଁ କାଠୁରିଆର ଶରୀରର କେଉଁ ଅଂଶରୁ ଝାଳ ବୋହୁଥିଲା?",
+"options": [
+"କେବଳ ମୁହଁରୁ",
+"ସର୍ବାଙ୍ଗ ଶରୀରରୁ",
+"କେବଳ ହାତରୁ",
+"କେବଳ ପାଦରୁ"
+],
+"answer": "ସର୍ବାଙ୍ଗ ଶରୀରରୁ",
+"explanation": "Kadi mehnat ke karan Kathuria ke poore sharir (sarvanga sharir) se pasina beh raha tha."
+},
+{
+"questionEnglish": "How did the author describe his own mind compared to the woodcutter's?",
+"questionOdia": "କାଠୁରିଆ ତୁଳନାରେ ଲେଖକ ନିଜ ମନକୁ କିପରି ବର୍ଣ୍ଣନା କରିଛନ୍ତି?",
+"options": [
+"ଅଧିକ ସରଳ",
+"ସଙ୍କୀର୍ଣ୍ଣ ଏବଂ ସନ୍ଦେହପୂର୍ଣ୍ଣ",
+"ବହୁତ ଉଦାର",
+"ନିଷ୍ଠାପର"
+],
+"answer": "ସଙ୍କୀର୍ଣ୍ଣ ଏବଂ ସନ୍ଦେହପୂର୍ଣ୍ଣ",
+"explanation": "Author ne realize kiya ki uska khud ka mind bahut narrow (sankirna) aur doubt se bhara hua hai."
+},
+{
+"questionEnglish": "What did the woodcutter do when the author offered him the agreed money?",
+"questionOdia": "ଲେଖକ ଚୁକ୍ତି ମୁତାବକ ପଇସା ଦେବା ସମୟରେ କାଠୁରିଆ କ'ଣ କଲା?",
+"options": [
+"ସେ ଆହୁରି ଅଧିକ ପଇସା ମାଗିଲା",
+"ସେ ବିନା କୌଣସି ଅଭିଯୋଗରେ ତାହା ଗ୍ରହଣ କଲା",
+"ସେ ପଇସା ନେବାକୁ ମନା କଲା",
+"ସେ ଲେଖକଙ୍କ ସହ ଝଗଡ଼ା କଲା"
+],
+"answer": "ସେ ବିନା କୌଣସି ଅଭିଯୋଗରେ ତାହା ଗ୍ରହଣ କଲା",
+"explanation": "Kathuria ne bina kisi jhik-jhik ya shikayat ke apna haq ka paisa khushi se le liya."
+},
+{
+"questionEnglish": "Which word best describes the character of the woodcutter?",
+"questionOdia": "କାଠୁରିଆର ଚରିତ୍ରକୁ ବର୍ଣ୍ଣନା କରିବା ପାଇଁ କେଉଁ ଶବ୍ଦଟି ସବୁଠାରୁ ଉପଯୁକ୍ତ?",
+"options": [
+"ସ୍ଵାର୍ଥପର",
+"ଚତୁର",
+"କର୍ମଠ ଓ ନିଷ୍କପଟ",
+"ଅଳସୁଆ"
+],
+"answer": "କର୍ମଠ ଓ ନିଷ୍କପଟ",
+"explanation": "Kathuria ek hard-working (karmatha) aur pure-hearted (nishkapat) insaan tha."
+},
+{
+"questionEnglish": "What does the axe (Kuradhi) represent in the context of the woodcutter?",
+"questionOdia": "କାଠୁରିଆ ସନ୍ଦର୍ଭରେ 'କୁରାଢ଼ି' କେଉଁ କଥାର ପ୍ରତୀକ ଅଟେ?",
+"options": [
+"ହିଂସା",
+"ତା'ର ଜୀବିକା ଏବଂ ସଂଘର୍ଷର ଆୟୁଧ",
+"ତା'ର ଧନସମ୍ପତ୍ତି",
+"ଅହଂକାର"
+],
+"answer": "ତା'ର ଜୀବିକା ଏବଂ ସଂଘର୍ଷର ଆୟୁଧ",
+"explanation": "Kuradhi (axe) Kathuria ke livelihood (jeebika) aur struggle ka main tool (ayudha) hai."
+},
+{
+"questionEnglish": "Why did the author feel guilty at the end?",
+"questionOdia": "ଶେଷରେ ଲେଖକଙ୍କୁ କାହିଁକି ଆତ୍ମଗ୍ଳାନି ଅନୁଭବ ହେଲା?",
+"options": [
+"କାଠ ହାଣି ପାରିନଥିବାରୁ",
+"କାଠୁରିଆକୁ ଅଧିକ ପଇସା ଦେଇଥିବାରୁ",
+"ଏତେ ସରଳ ଓ ପରିଶ୍ରମୀ ଲୋକକୁ ଚୋର ବୋଲି ସନ୍ଦେହ କରିଥିବାରୁ",
+"ନିଜର କାମ ନିଜେ କରିନଥିବାରୁ"
+],
+"answer": "ଏତେ ସରଳ ଓ ପରିଶ୍ରମୀ ଲୋକକୁ ଚୋର ବୋଲି ସନ୍ଦେହ କରିଥିବାରୁ",
+"explanation": "Author ko regret tha kyunki usne ek itne sacche aur mehnati insaan par chor hone ka shak kiya tha."
+},
+{
+"questionEnglish": "What kind of language does the woodcutter use in the story?",
+"questionOdia": "ଗଳ୍ପରେ କାଠୁରିଆ କେଉଁ ପ୍ରକାରର ଭାଷା ବ୍ୟବହାର କରିଛି?",
+"options": [
+"ଉଚ୍ଚ ମାନର ଇଂରାଜୀ",
+"ପଣ୍ଡିତମାନଙ୍କ ଭଳି ସଂସ୍କୃତ",
+"ସାଧାରଣ ଓ ଗ୍ରାମୀଣ କଥିତ ଭାଷା",
+"ଆଦୌ କଥା କହିନାହିଁ"
+],
+"answer": "ସାଧାରଣ ଓ ଗ୍ରାମୀଣ କଥିତ ଭାଷା",
+"explanation": "Kathuria ki boli bahut simple aur rural (grameena kathita bhasha) thi, jo uski background ko dikhati hai."
+},
+{
+"questionEnglish": "How long did it take for the woodcutter to finish his work?",
+"questionOdia": "କାଠୁରିଆକୁ କାମ ଶେଷ କରିବାକୁ କେତେ ସମୟ ଲାଗିଥିଲା?",
+"options": [
+"ଗୋଟିଏ ଘଣ୍ଟା",
+"କିଛି ମିନିଟ୍",
+"ଦୀର୍ଘ ସମୟ",
+"ଦୁଇ ଦିନ"
+],
+"answer": "ଦୀର୍ଘ ସମୟ",
+"explanation": "Lakdi bahut moti thi, isliye usko katne mein Kathuria ko lamba samay (deergha samaya) laga."
+},
+{
+"questionEnglish": "In the story, who represents the modern, doubtful society?",
+"questionOdia": "ଏହି ଗଳ୍ପରେ ଆଧୁନିକ ତଥା ସନ୍ଦେହୀ ସମାଜର ପ୍ରତିନିଧିତ୍ଵ କିଏ କରୁଛି?",
+"options": [
+"କାଠୁରିଆ",
+"ଲେଖକ ନିଜେ",
+"ଗାଁ ଲୋକ",
+"କାଠୁରିଆର ସ୍ତ୍ରୀ"
+],
+"answer": "ଲେଖକ ନିଜେ",
+"explanation": "Story mein Author khud modern aur suspicious society ko represent karta hai, jo jaldi kisi par trust nahi karti."
+},
+{
+"questionEnglish": "What is the primary message regarding human relationships in 'Katha'?",
+"questionOdia": "'କାଠ' ଗଳ୍ପରେ ମାନବିକ ସମ୍ପର୍କକୁ ନେଇ ମୁଖ୍ୟ ବାର୍ତ୍ତା କ'ଣ?",
+"options": [
+"ବିଶ୍ଵାସ ଓ ସହାନୁଭୂତି ମାନବ ସମ୍ପର୍କର ମୂଳଦୁଆ",
+"ଟଙ୍କା ହିଁ ସବୁ ସମ୍ପର୍କର କେନ୍ଦ୍ର",
+"ବିଶ୍ଵାସଘାତକତା ସବୁଠି ଅଛି",
+"ଶ୍ରେଣୀ ବିଭାଜନ ଜରୁରୀ"
+],
+"answer": "ବିଶ୍ଵାସ ଓ ସହାନୁଭୂତି ମାନବ ସମ୍ପର୍କର ମୂଳଦୁଆ",
+"explanation": "Human relations ka base trust (bishwasa) aur empathy (sahanubhuti) hota hai, yahi is story ka message hai."
+},
+{
+"questionEnglish": "What does the woodcutter's satisfaction with his meager pay show?",
+"questionOdia": "ଅଳ୍ପ ପାଉଣାରେ କାଠୁରିଆର ସନ୍ତୁଷ୍ଟି କ'ଣ ଦର୍ଶାଏ?",
+"options": [
+"ତା'ର ନିରୁପାୟ ଅବସ୍ଥା",
+"ତା'ର ସରଳତା ଓ ସନ୍ତୋଷ ଗୁଣ",
+"ତା'ର ମୂର୍ଖତା",
+"କାଠ ହାଣିବାର ମୂଲ୍ୟ କମ୍ ଥିଲା"
+],
+"answer": "ତା'ର ସରଳତା ଓ ସନ୍ତୋଷ ଗୁଣ",
+"explanation": "Kam paise mein bhi khush rehna uski simplicity aur satisfaction (santosha) wale nature ko darshata hai."
+},
+{
+"questionEnglish": "How does the author view the wood before it is cut?",
+"questionOdia": "କାଠ ହଣାହେବା ପୂର୍ବରୁ ଲେଖକ ସେହି କାଠ ଗଣ୍ଡିକୁ କିପରି ଦେଖୁଥିଲେ?",
+"options": [
+"ଏକ ମୂଲ୍ୟହୀନ ବସ୍ତୁ ଭାବରେ",
+"ଅତି ଶକ୍ତ ଏବଂ ହାଣିବା କଷ୍ଟକର ଭାବରେ",
+"ଏକ ସୁନ୍ଦର କଳାକୃତି ଭାବରେ",
+"ଅତି ନରମ କାଠ ଭାବରେ"
+],
+"answer": "ଅତି ଶକ୍ତ ଏବଂ ହାଣିବା କଷ୍ଟକର ଭାବରେ",
+"explanation": "Author janta tha ki lakdi ka gandi bahut hard hai aur isko katna aasan nahi hoga."
+},
+{
+"questionEnglish": "Which emotion did the author NOT feel towards the woodcutter initially?",
+"questionOdia": "ପ୍ରାରମ୍ଭରେ ଲେଖକ କାଠୁରିଆ ପ୍ରତି କେଉଁ ଭାବନା ପୋଷଣ କରିନଥିଲେ?",
+"options": [
+"ସନ୍ଦେହ",
+"କୃପଣତା",
+"ସମ୍ମାନ",
+"ଆଶଙ୍କା"
+],
+"answer": "ସମ୍ମାନ",
+"explanation": "Shuru mein author ke dil mein Kathuria ke liye bilkul bhi respect (sammana) nahi tha, sirf shak tha."
+},
+{
+"questionEnglish": "What was the woodcutter doing constantly while chopping the wood?",
+"questionOdia": "କାଠ ହାଣିବା ସମୟରେ କାଠୁରିଆ କ୍ରମାଗତ ଭାବରେ କ'ଣ କରୁଥିଲା?",
+"options": [
+"ଗୀତ ଗାଉଥିଲା",
+"ଅନ୍ୟମାନଙ୍କ ସହ କଥା ହେଉଥିଲା",
+"ପୁରା ଶକ୍ତି ଲଗାଇ ଏକାଗ୍ରତାର ସହ କୁରାଢ଼ି ଚଲାଉଥିଲା",
+"ବିଶ୍ରାମ ନେଉଥିଲା"
+],
+"answer": "ପୁରା ଶକ୍ତି ଲଗାଇ ଏକାଗ୍ରତାର ସହ କୁରାଢ଼ି ଚଲାଉଥିଲା",
+"explanation": "Wo apna pura focus aur strength lagakar bina ruke axe (kuradhi) chala raha tha."
+},
+{
+"questionEnglish": "What does the woodcutter's silent departure signify?",
+"questionOdia": "କାଠୁରିଆର ନୀରବରେ ଚାଲିଯିବା କେଉଁ କଥାର ସୂଚନା ଦିଏ?",
+"options": [
+"ତା'ର ଅହଂକାର",
+"ନିଜର କର୍ମ ସାରି ପ୍ରତିଦାନ ଆଶା ନରଖିବାର ମହାନତା",
+"ସେ ରାଗିଯାଇଥିଲା",
+"ସେ ଆଉ କାମ କରିବାକୁ ଚାହୁଁନଥିଲା"
+],
+"answer": "ନିଜର କର୍ମ ସାରି ପ୍ରତିଦାନ ଆଶା ନରଖିବାର ମହାନତା",
+"explanation": "Bina kuch aur soche ya mange chupchap chale jana uski greatness (mahanata) aur selfless duty ko darshata hai."
+},
+{
+"questionEnglish": "Which grammatical compound (Samasa) is the word 'Karamatha'?",
+"questionOdia": "'କର୍ମଠ' ଶବ୍ଦଟି କେଉଁ ପ୍ରକାରର ପଦ ଅଟେ?",
+"options": [
+"ବିଶେଷ୍ୟ",
+"ବିଶେଷଣ",
+"ସର୍ବନାମ",
+"ଅବ୍ୟୟ"
+],
+"answer": "ବିଶେଷଣ",
+"explanation": "'Karmatha' (hardworking) kisi ki quality ko bata raha hai, isliye yeh ek Adjective (Bisheshana) hai."
+},
+{
+"questionEnglish": "Choose the correct antonym for the word 'Abishwas' (Distrust) used in the text.",
+"questionOdia": "'ଅବିଶ୍ଵାସ' ଶବ୍ଦର ବିପରୀତ ବୋଧକ ଶବ୍ଦଟି ବାଛ।",
+"options": [
+"ସନ୍ଦେହ",
+"ପ୍ରତାରଣା",
+"ବିଶ୍ଵାସ",
+"ଆଶଙ୍କା"
+],
+"answer": "ବିଶ୍ଵାସ",
+"explanation": "'Abishwas' (Distrust) ka exact opposite word 'Bishwas' (Trust) hota hai."
+},
+{
+"questionEnglish": "What does the phrase 'Jhalanala heba' mean in the context of the story?",
+"questionOdia": "ଗଳ୍ପରେ ବ୍ୟବହୃତ 'ଝାଳନାଳ ହେବା' ରୂଢ଼ିର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଗାଧୋଇବା",
+"ଅତ୍ୟନ୍ତ ପରିଶ୍ରମ କରିବା ଦ୍ଵାରା କ୍ଲାନ୍ତ ହେବା",
+"ବର୍ଷାରେ ଭିଜିଯିବା",
+"ରୋଗରେ ପଡ଼ିବା"
+],
+"answer": "ଅତ୍ୟନ୍ତ ପରିଶ୍ରମ କରିବା ଦ୍ଵାରା କ୍ଲାନ୍ତ ହେବା",
+"explanation": "'Jhalanala heba' ka matlab hai bahut zyada physical mehnat karke pasine se tar-batar (exhausted) ho jana."
+},
+{
+"questionEnglish": "What is the synonym of 'Kuradhi'?",
+"questionOdia": "'କୁରାଢ଼ି' ଶବ୍ଦର ସମାର୍ଥବୋଧକ ଶବ୍ଦ କ'ଣ?",
+"options": [
+"ପର୍ଶୁ ବା କୁଠାର",
+"ଖଡ୍ଗ",
+"ଧନୁ",
+"ତରବାରି"
+],
+"answer": "ପର୍ଶୁ ବା କୁଠାର",
+"explanation": "Kuradhi (axe) ka dusra naam Parshu ya Kuthaar hota hai, jo ek astra hai."
+},
+{
+"questionEnglish": "In the author's eyes, the woodcutter's life was centered around what?",
+"questionOdia": "ଲେଖକଙ୍କ ଦୃଷ୍ଟିରେ କାଠୁରିଆର ଜୀବନ କାହା ଚାରିପଟେ ଘୂରୁଥିଲା?",
+"options": [
+"ରାଜନୀତି",
+"ଆଧୁନିକ ବିଳାସବ୍ୟସନ",
+"କଠିନ ଶ୍ରମ ଓ ଦୈନନ୍ଦିନ ଗୁଜୁରାଣ ମେଣ୍ଟାଇବା",
+"ଚୋରି କରିବା"
+],
+"answer": "କଠିନ ଶ୍ରମ ଓ ଦୈନନ୍ଦିନ ଗୁଜୁରାଣ ମେଣ୍ଟାଇବା",
+"explanation": "Kathuria ki life sirf hard labor (shram) aur daily roti-rozi kamane tak limited thi."
+},
+{
+"questionEnglish": "How does the story highlight the socio-economic gap?",
+"questionOdia": "ଗଳ୍ପଟି ସାମାଜିକ-ଅର୍ଥନୈତିକ ବ୍ୟବଧାନକୁ କିପରି ଉଜାଗର କରେ?",
+"options": [
+"ଧନୀ ବନାମ ଗରିବ ଏବଂ ମାଲିକ ବନାମ ଶ୍ରମିକ ଚିତ୍ରଣ ମାଧ୍ୟମରେ",
+"ରାଜା ଏବଂ ପ୍ରଜାଙ୍କ କାହାଣୀ ମାଧ୍ୟମରେ",
+"ଦୁଇ ସାଙ୍ଗଙ୍କ କଳି ମାଧ୍ୟମରେ",
+"ଦେଶ ଓ ବିଦେଶର ତୁଳନା ମାଧ୍ୟମରେ"
+],
+"answer": "ଧନୀ ବନାମ ଗରିବ ଏବଂ ମାଲିକ ବନାମ ଶ୍ରମିକ ଚିତ୍ରଣ ମାଧ୍ୟମରେ",
+"explanation": "Story ek rich employer (author) aur ek poor worker (Kathuria) ke gap ke through socio-economic divide ko dikhati hai."
+},
+{
+"questionEnglish": "What reflection is seen in the author's final thoughts?",
+"questionOdia": "ଲେଖକଙ୍କ ଶେଷ ଭାବନାରେ କେଉଁ ପ୍ରତିଫଳନ ଦେଖିବାକୁ ମିଳେ?",
+"options": [
+"ଅହଂକାରର ବିଜୟ",
+"ମାନବିକତାର ଜାଗରଣ ଓ ନିଜ ଭୁଲର ସ୍ଵୀକୃତି",
+"କାଠୁରିଆକୁ ଶାସ୍ତି ଦେବାର ଇଚ୍ଛା",
+"କାଠକୁ ବିକ୍ରି କରିଦେବାର ଯୋଜନା"
+],
+"answer": "ମାନବିକତାର ଜାଗରଣ ଓ ନିଜ ଭୁଲର ସ୍ଵୀକୃତି",
+"explanation": "End mein author ke andar ki humanity (manabikata) jagti hai aur wo apni galat soch (fault) ko accept karta hai."
+},
+{
+"questionEnglish": "Identify the Sandhi split for the word 'Atmaglani'.",
+"questionOdia": "'ଆତ୍ମଗ୍ଳାନି' ଶବ୍ଦର ସଠିକ୍ ସନ୍ଧି ବିଚ୍ଛେଦ କ'ଣ ହେବ?",
+"options": [
+"ଆତ୍ମା + ଗ୍ଳାନି",
+"ଆତ୍ମ + ଗ୍ଳାନି",
+"ଆତ୍ମ + ଅଗ୍ଳାନି",
+"ଆତ୍ମନ୍ + ଗ୍ଳାନି"
+],
+"answer": "ଆତ୍ମ + ଗ୍ଳାନି",
+"explanation": "Odia grammar ke hisaab se 'Atmaglani' shabd Atma aur Glani ke milne se banta hai."
+},
+{
+"questionEnglish": "What does the woodcutter's sweating face depict?",
+"questionOdia": "କାଠୁରିଆର ଝାଳ ବୋହୁଥିବା ମୁହଁ କ'ଣ ବର୍ଣ୍ଣନା କରେ?",
+"options": [
+"ତା'ର ଅସୁସ୍ଥତା",
+"ତା'ର କର୍ମବୀରତ୍ଵ ଏବଂ ସାଧୁତା",
+"ତା'ର ଭୟ",
+"ତା'ର କ୍ରୋଧ"
+],
+"answer": "ତା'ର କର୍ମବୀରତ୍ଵ ଏବଂ ସାଧୁତା",
+"explanation": "Paseene se bhara hua chehra uski mehnat (heroism in labor) aur strict honesty ko darshata hai."
+},
+{
+"questionEnglish": "How did the author initially treat the woodcutter's demand for wages?",
+"questionOdia": "ପ୍ରାରମ୍ଭରେ କାଠୁରିଆର ମଜୁରୀ ଦାବିକୁ ଲେଖକ କିପରି ଗ୍ରହଣ କରିଥିଲେ?",
+"options": [
+"ଦୟାର ସହ",
+"ଖୁସିରେ ସମ୍ମତି ଦେଲେ",
+"ବହୁତ ମୂଲଚାଲ ଓ କୃପଣତାର ସହ",
+"ବିନା କୌଣସି ଆଲୋଚନାରେ"
+],
+"answer": "ବହୁତ ମୂଲଚାଲ ଓ କୃପଣତାର ସହ",
+"explanation": "Author ne bahut miserly (krupanata) tarike se bargaining ki thi jab Kathuria ne majdoori mangi."
+},
+{
+"questionEnglish": "What makes the story 'Katha' relevant to modern society?",
+"questionOdia": "'କାଠ' ଗଳ୍ପଟି ଆଧୁନିକ ସମାଜ ପାଇଁ କିପରି ପ୍ରାସଙ୍ଗିକ ଅଟେ?",
+"options": [
+"ଏହା କାଠ କାଟିବା ଶିଖାଏ",
+"ଏହା ପରିବେଶ ସୁରକ୍ଷା ବାର୍ତ୍ତା ଦିଏ",
+"ଏହା ଆଧୁନିକ ମଣିଷର ସନ୍ଦେହୀ ପ୍ରବୃତ୍ତି ଉପରେ କଟାକ୍ଷ କରେ",
+"ଏହା ବଣୁଆ ଜୀବଜନ୍ତୁଙ୍କ କଥା କୁହେ"
+],
+"answer": "ଏହା ଆଧୁନିକ ମଣିଷର ସନ୍ଦେହୀ ପ୍ରବୃତ୍ତି ଉପରେ କଟାକ୍ଷ କରେ",
+"explanation": "Yeh story modern society ke logo ke shakki nature (skeptical attitude) par ek gehra vyangya (satire) hai."
+},
+{
+"questionEnglish": "Which class of society does the author represent in the story?",
+"questionOdia": "ଗଳ୍ପରେ ଲେଖକ ସମାଜର କେଉଁ ଶ୍ରେଣୀର ପ୍ରତିନିଧିତ୍ଵ କରନ୍ତି?",
+"options": [
+"ନିମ୍ନ ମଧ୍ୟବିତ୍ତ ଶ୍ରେଣୀ",
+"ଉଚ୍ଚ ଶିକ୍ଷିତ ଏବଂ ଆଭିଜାତ୍ୟ ସମ୍ପନ୍ନ ସହରୀ ବାବୁ ଶ୍ରେଣୀ",
+"ଗ୍ରାମୀଣ କୃଷକ ଶ୍ରେଣୀ",
+"ଆଦିବାସୀ ଶ୍ରେଣୀ"
+],
+"answer": "ଉଚ୍ଚ ଶିକ୍ଷିତ ଏବଂ ଆଭିଜାତ୍ୟ ସମ୍ପନ୍ନ ସହରୀ ବାବୁ ଶ୍ରେଣୀ",
+"explanation": "Author ek educated aur elitist urban class (sahari babu) ko represent karta hai."
+},
+{
+"questionEnglish": "What was the most striking feature of the woodcutter's character?",
+"questionOdia": "କାଠୁରିଆର ଚରିତ୍ରର ସବୁଠାରୁ ଆକର୍ଷଣୀୟ ଦିଗ କ'ଣ ଥିଲା?",
+"options": [
+"ତା'ର ବାକ୍ପଟୁତା",
+"ତା'ର ଉଚ୍ଚାକାଂକ୍ଷା",
+"ତା'ର ଅନାବିଳ ସରଳତା ଓ କର୍ମନିଷ୍ଠା",
+"ତା'ର ଅଳସୁଆମି"
+],
+"answer": "ତା'ର ଅନାବିଳ ସରଳତା ଓ କର୍ମନିଷ୍ଠା",
+"explanation": "Uska pure simplicity (saralata) aur dedication to work (karmanishtha) sabse striking feature tha."
+},
+{
+"questionEnglish": "How did the author justify his supervision of the woodcutter?",
+"questionOdia": "ଲେଖକ କାଠୁରିଆ ଉପରେ ନିଜର ନିରୀକ୍ଷଣକୁ କିପରି ଯୁକ୍ତିଯୁକ୍ତ ବୋଲି ଭାବୁଥିଲେ?",
+"options": [
+"କାଳେ କାଠୁରିଆ ଆଘାତପ୍ରାପ୍ତ ହେବ",
+"କାଳେ ସେ କାମରେ ଠକିଦେବ ବା କାଠ ଚୋରି କରିନେବ",
+"ସେ କାମ ଶିଖିବାକୁ ଚାହୁଁଥିଲେ",
+"ସେ କାଠୁରିଆ ସହ ଗପିବାକୁ ଚାହୁଁଥିଲେ"
+],
+"answer": "କାଳେ ସେ କାମରେ ଠକିଦେବ ବା କାଠ ଚୋରି କରିନେବ",
+"explanation": "Author ko lagta tha ki agar wo dhyan nahi dega toh Kathuria kaam chori karega ya lakdi chura lega."
+},
+{
+"questionEnglish": "What was the woodcutter's expectation after completing the arduous task?",
+"questionOdia": "କଠିନ କାର୍ଯ୍ୟ ଶେଷ କରିବା ପରେ କାଠୁରିଆର କି ଆଶା ଥିଲା?",
+"options": [
+"ବିପୁଳ ପୁରସ୍କାର ମିଳିବ",
+"ଲେଖକ ତାକୁ ରାତ୍ରିଭୋଜନ ଦେବେ",
+"କେବଳ ନିଜର ପ୍ରାପ୍ୟ ପାଉଣା",
+"ସେ ଲେଖକଙ୍କ ଘରେ ରହିଯିବ"
+],
+"answer": "କେବଳ ନିଜର ପ୍ରାପ୍ୟ ପାଉଣା",
+"explanation": "Kathuria ne kaam khatam hone ke baad sirf apne haq ki mazdoori (prapya pauna) ki umeed ki thi."
+},
+{
+"questionEnglish": "Why is the title 'Katha' (Wood) appropriate for this story?",
+"questionOdia": "ଏହି ଗଳ୍ପ ପାଇଁ 'କାଠ' ଶୀର୍ଷକଟି କାହିଁକି ସାର୍ଥକ ଅଟେ?",
+"options": [
+"ଏହା କେବଳ ଏକ ବୃକ୍ଷର କାହାଣୀ",
+"କାଠ ଗଣ୍ଡିକୁ କେନ୍ଦ୍ର କରି ସମଗ୍ର ଘଟଣା ପ୍ରବାହ ଗତିଶୀଳ",
+"ଏଥିରେ ଜଙ୍ଗଲ ବିଷୟରେ ବର୍ଣ୍ଣନା ଅଛି",
+"ଏଥିରେ କାଠ ବ୍ୟବସାୟର ସୂଚନା ଅଛି"
+],
+"answer": "କାଠ ଗଣ୍ଡିକୁ କେନ୍ଦ୍ର କରି ସମଗ୍ର ଘଟଣା ପ୍ରବାହ ଗତିଶୀଳ",
+"explanation": "Poori story ek lakdi ke gandi (wood log) ke aaspas ghoomti hai, isliye 'Katha' title bilkul perfect hai."
+},
+{
+"questionEnglish": "What realization dawn upon the author regarding 'civilized' society?",
+"questionOdia": "'ସଭ୍ୟ' ସମାଜ ସମ୍ପର୍କରେ ଲେଖକଙ୍କର କେଉଁ ଧାରଣା ସ୍ପଷ୍ଟ ହେଲା?",
+"options": [
+"ସଭ୍ୟ ସମାଜ ବହୁତ ମହାନ ଅଟେ",
+"ସଭ୍ୟତାର ଆବରଣ ତଳେ ମଣିଷର ମନ କେତେ ସନ୍ଦେହୀ ଓ କୃପଣ",
+"ସଭ୍ୟ ସମାଜ କାଠ ହାଣି ଜାଣେନାହିଁ",
+"ସଭ୍ୟ ସମାଜ ଗରିବଙ୍କୁ ସାହାଯ୍ୟ କରେ"
+],
+"answer": "ସଭ୍ୟତାର ଆବରଣ ତଳେ ମଣିଷର ମନ କେତେ ସନ୍ଦେହୀ ଓ କୃପଣ",
+"explanation": "Author ko samajh aaya ki so-called civilized (sabhya) log andar se kitne doubtful aur miser (krupan) hote hain."
+},
+{
+"questionEnglish": "Identify the word from the story that means 'to bargain'.",
+"questionOdia": "ମୂଲଚାଲ କରିବା ଅର୍ଥରେ ବ୍ୟବହୃତ ଶବ୍ଦଟିକୁ ବାଛ।",
+"options": [
+"ଦରଦାମ୍ କରିବା",
+"ବିନମ୍ର ଅନୁରୋଧ",
+"କ୍ରୟ କରିବା",
+"ବିକ୍ରୟ କରିବା"
+],
+"answer": "ଦରଦାମ୍ କରିବା",
+"explanation": "'Daradam kariba' ka matlab bargain karna hota hai, jo author ne start mein kiya tha."
+},
+{
+"questionEnglish": "What message does the woodcutter's character send to the youth?",
+"questionOdia": "କାଠୁରିଆର ଚରିତ୍ର ଯୁବପିଢ଼ିଙ୍କୁ କେଉଁ ବାର୍ତ୍ତା ଦିଏ?",
+"options": [
+"କେବଳ ଅର୍ଥ ଉପାର୍ଜନ କର",
+"ନିଜ କର୍ମକୁ ନିଷ୍ଠା ଓ ସାଧୁତାର ସହ ସମ୍ପାଦନ କର",
+"ସବୁବେଳେ ସହରକୁ ପଳାୟନ କର",
+"କଠିନ ପରିଶ୍ରମରୁ ଦୂରେଇ ରୁହ"
+],
+"answer": "ନିଜ କର୍ମକୁ ନିଷ୍ଠା ଓ ସାଧୁତାର ସହ ସମ୍ପାଦନ କର",
+"explanation": "Kathuria ka character sikhata hai ki youth ko apna kaam full dedication aur honesty ke sath karna chahiye."
+},
+{
+"questionEnglish": "How did the woodcutter react to the author's constant gaze?",
+"questionOdia": "ଲେଖକଙ୍କର କ୍ରମାଗତ ଦୃଷ୍ଟି ନିକ୍ଷେପ ପ୍ରତି କାଠୁରିଆ କିପରି ପ୍ରତିକ୍ରିୟା ପ୍ରକାଶ କରିଥିଲା?",
+"options": [
+"ସେ ବିରକ୍ତ ହୋଇଗଲା",
+"ସେ କାମ ଛାଡ଼ିଦେଲା",
+"ସେ ଏଥିପ୍ରତି ଧ୍ୟାନ ନଦେଇ ନିଜ କାମରେ ଲାଗିରହିଲା",
+"ସେ ଲେଖକଙ୍କ ସହ ଝଗଡ଼ା କଲା"
+],
+"answer": "ସେ ଏଥିପ୍ରତି ଧ୍ୟାନ ନଦେଇ ନିଜ କାମରେ ଲାଗିରହିଲା",
+"explanation": "Kathuria ne author ki nigrani par dhyan nahi diya aur bina distract hue apne kaam mein laga raha."
+},
+{
+"questionEnglish": "At the story's climax, the wood log is chopped, but what happens to the author's ego?",
+"questionOdia": "ଗଳ୍ପର ଶେଷ ଭାଗରେ କାଠ ଗଣ୍ଡି ହଣାହେବା ପରେ ଲେଖକଙ୍କ ଅହଂକାରର କ'ଣ ହୁଏ?",
+"options": [
+"ତାହା ବୃଦ୍ଧି ପାଏ",
+"ତାହା କାଠ ଗଣ୍ଡି ପରି ଚୁରମାର୍ ହୋଇଯାଏ",
+"ତାହା ଅପରିବର୍ତ୍ତିତ ରହେ",
+"ତାହା ନୂଆ ରୂପ ନିଏ"
+],
+"answer": "ତାହା କାଠ ଗଣ୍ଡି ପରି ଚୁରମାର୍ ହୋଇଯାଏ",
+"explanation": "Jaise lakdi ka gandi toot gaya, waise hi author ka false ego (ahankar) bhi Kathuria ki honesty dekh kar toot gaya."
+}
+]
