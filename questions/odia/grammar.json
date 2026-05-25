@@ -1,0 +1,1047 @@
+
+[
+{
+"questionEnglish": "What is the basic definition of a sentence (Bakya) in Odia grammar?",
+"questionOdia": "ଓଡ଼ିଆ ବ୍ୟାକରଣରେ ବାକ୍ୟର ସାଧାରଣ ସଂଜ୍ଞା କ'ଣ?",
+"options": [
+"କେବଳ ଦୁଇଟି ଶବ୍ଦର ମିଳନ",
+"ଏକ ବା ଏକାଧିକ ପଦ ମିଳିତ ହୋଇ ମନର ଭାବକୁ ସଂପୂର୍ଣ୍ଣ ରୂପେ ପ୍ରକାଶ କଲେ",
+"କେବଳ କ୍ରିୟାପଦର ବ୍ୟବହାର",
+"ଯେକୌଣସି ଅକ୍ଷର ସମଷ୍ଟି"
+],
+"answer": "ଏକ ବା ଏକାଧିକ ପଦ ମିଳିତ ହୋଇ ମନର ଭାବକୁ ସଂପୂର୍ଣ୍ଣ ରୂପେ ପ୍ରକାଶ କଲେ",
+"explanation": "Ek ya ek se zyada pad (words) jab milkar man ke bhav ko puri tarah express karte hain, toh use Bakya (sentence) kehte hain."
+},
+{
+"questionEnglish": "What does 'Yogyata' mean in the context of sentence formation?",
+"questionOdia": "ବାକ୍ୟ ଗଠନରେ 'ଯୋଗ୍ୟତା' କହିଲେ କ'ଣ ବୁଝାଏ?",
+"options": [
+"ପଦଗୁଡ଼ିକର ସାଧାରଣ ଅର୍ଥ",
+"ବାକ୍ୟରେ ବ୍ୟବହାର କରାଯାଇଥିବା ପଦଗୁଡ଼ିକର ପାରସ୍ପରିକ ସମ୍ବନ୍ଧ ବା ଉପଯୁକ୍ତତା",
+"ବାକ୍ୟର ଲମ୍ବ",
+"କର୍ତ୍ତା ଏବଂ କର୍ମର ସ୍ଥାନ"
+],
+"answer": "ବାକ୍ୟରେ ବ୍ୟବହାର କରାଯାଇଥିବା ପଦଗୁଡ଼ିକର ପାରସ୍ପରିକ ସମ୍ବନ୍ଧ ବା ଉପଯୁକ୍ତତା",
+"explanation": "Bakya mein use kiye gaye words ke beech logical aur meaningful connection ko Yogyata (Appropriateness) kehte hain."
+},
+{
+"questionEnglish": "If a sentence says 'The goat is singing a song', which characteristic of a sentence is missing?",
+"questionOdia": "'ଛେଳି ଗୀତ ଗାଉଛି' - ଏହି ବାକ୍ୟରେ କେଉଁ ଲକ୍ଷଣର ଅଭାବ ରହିଛି?",
+"options": [
+"ଆକାଂକ୍ଷା",
+"ଆସତ୍ତି",
+"ଯୋଗ୍ୟତା",
+"ଖଣ୍ଡବାକ୍ୟ"
+],
+"answer": "ଯୋଗ୍ୟତା",
+"explanation": "Bakri (goat) gaana nahi gaa sakti, isliye is sentence mein logical meaning yaani 'Yogyata' ki kami hai."
+},
+{
+"questionEnglish": "What is 'Akanksha' in a sentence?",
+"questionOdia": "ବାକ୍ୟରେ 'ଆକାଂକ୍ଷା' କ'ଣ ଅଟେ?",
+"options": [
+"ବାକ୍ୟରେ କ୍ରିୟାର ଅନୁପସ୍ଥିତି",
+"ଗୋଟିଏ ପଦ ଅନ୍ୟ ପଦଗୁଡ଼ିକର ଅର୍ଥବୋଧକତା ପାଇଁ ଅପେକ୍ଷା କରିବା",
+"ପଦଗୁଡ଼ିକର ଭୁଲ୍ ସ୍ଥାନରେ ବ୍ୟବହାର",
+"କେବଳ ବିଶେଷ୍ୟ ପଦର ପ୍ରୟୋଗ"
+],
+"answer": "ଗୋଟିଏ ପଦ ଅନ୍ୟ ପଦଗୁଡ଼ିକର ଅର୍ଥବୋଧକତା ପାଇଁ ଅପେକ୍ଷା କରିବା",
+"explanation": "Sentence mein ek word jab dusre word ki expectation rakhta hai meaning clear karne ke liye, use Akanksha kehte hain."
+},
+{
+"questionEnglish": "What is 'Asatti' or 'Padabinyasa' in Odia grammar?",
+"questionOdia": "ଓଡ଼ିଆ ବ୍ୟାକରଣରେ 'ଆସତ୍ତି' ବା 'ପଦବିନ୍ୟାସ' କ'ଣ?",
+"options": [
+"ବାକ୍ୟରେ ଥିବା ପଦଯୋଜନା ବା କାହା ପରେ କେଉଁ ପଦ ରହିବ ତାର କ୍ରମ",
+"ବାକ୍ୟର ସମ୍ପୂର୍ଣ୍ଣ ଅର୍ଥ",
+"ବାକ୍ୟରେ ଥିବା ଅବ୍ୟୟ ପଦ",
+"କ୍ରିୟାପଦର ବ୍ୟବହାର"
+],
+"answer": "ବାକ୍ୟରେ ଥିବା ପଦଯୋଜନା ବା କାହା ପରେ କେଉଁ ପଦ ରହିବ ତାର କ୍ରମ",
+"explanation": "Words ko sentence mein sahi sequence aur order mein arrange karne ko Asatti (Padabinyasa) kehte hain."
+},
+{
+"questionEnglish": "What do we call a specific part of a sentence that conveys some meaning but is not complete?",
+"questionOdia": "ବାକ୍ୟର ବୁଝାପଡ଼ୁଥିବା ନିର୍ଦ୍ଦିଷ୍ଟ ଅଂଶ ବା କେତୋଟି ପଦସଂହତିକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ଖଣ୍ଡବାକ୍ୟ",
+"ବାକ୍ୟାଂଶ",
+"ଆସତ୍ତି",
+"ସରଳ ବାକ୍ୟ"
+],
+"answer": "ବାକ୍ୟାଂଶ",
+"explanation": "Sentence ka wo part jo kuch meaning deta hai par complete nahi hota, use Bakyangsha (Phrase) kehte hain."
+},
+{
+"questionEnglish": "What is the defining feature of a 'Khanda Bakya' (Clause)?",
+"questionOdia": "'ଖଣ୍ଡବାକ୍ୟ' ର ମୁଖ୍ୟ ଲକ୍ଷଣ କ'ଣ?",
+"options": [
+"ଏଥିରେ କ୍ରିୟା ନଥାଏ",
+"ସମସ୍ତ ବାକ୍ୟର ସମାପିକା କ୍ରିୟାଯୁକ୍ତ ଅଂଶଟିକୁ ଖଣ୍ଡବାକ୍ୟ କୁହାଯାଏ",
+"ଏହା କେବଳ ଗୋଟିଏ ଶବ୍ଦରେ ଗଠିତ",
+"ଏହା ସମ୍ପୂର୍ଣ୍ଣ ଭାବ ପ୍ରକାଶ କରେ"
+],
+"answer": "ସମସ୍ତ ବାକ୍ୟର ସମାପିକା କ୍ରିୟାଯୁକ୍ତ ଅଂଶଟିକୁ ଖଣ୍ଡବାକ୍ୟ କୁହାଯାଏ",
+"explanation": "Pura sentence ka wo part jisme Samapika Kriya (Finite Verb) hoti hai, use Khanda Bakya (Clause) kehte hain."
+},
+{
+"questionEnglish": "Where is the subject (Karta) and verb (Kriya) usually placed in an Odia sentence?",
+"questionOdia": "ଗୋଟିଏ ଓଡ଼ିଆ ବାକ୍ୟରେ ସାଧାରଣତଃ କର୍ତ୍ତା ଓ କ୍ରିୟା କେଉଁଠାରେ ବସନ୍ତି?",
+"options": [
+"ଆରମ୍ଭରେ କ୍ରିୟା ଓ ଶେଷରେ କର୍ତ୍ତା",
+"ମଝିରେ କର୍ତ୍ତା ଓ କ୍ରିୟା",
+"ଆରମ୍ଭରେ କର୍ତ୍ତା ଓ ଶେଷରେ କ୍ରିୟା",
+"ଉଭୟ ଆରମ୍ଭରେ ଥାଆନ୍ତି"
+],
+"answer": "ଆରମ୍ଭରେ କର୍ତ୍ତା ଓ ଶେଷରେ କ୍ରିୟା",
+"explanation": "Standard Odia sentence structure mein Karta (Subject) shuru mein aur Kriya (Verb) end mein hota hai."
+},
+{
+"questionEnglish": "In a sentence with a transitive verb (Sakarmaka Kriya), where does the object (Karma) sit?",
+"questionOdia": "ବାକ୍ୟରେ କ୍ରିୟା ସକର୍ମକ ହୋଇଥିଲେ କର୍ମ ପଦଟି କେଉଁଠାରେ ରହେ?",
+"options": [
+"କ୍ରିୟାର ପରେ",
+"କ୍ରିୟା ପୂର୍ବରୁ",
+"କର୍ତ୍ତା ପୂର୍ବରୁ",
+"ବାକ୍ୟର ଆରମ୍ଭରେ"
+],
+"answer": "କ୍ରିୟା ପୂର୍ବରୁ",
+"explanation": "Agar verb transitive hai, toh object (Karma) hamesha verb (Kriya) se pehle aata hai."
+},
+{
+"questionEnglish": "If a verb has two objects (Dwikarmaka Kriya), what is their order?",
+"questionOdia": "ଦ୍ୱିକର୍ମକ କ୍ରିୟା ଥିବା ବାକ୍ୟରେ ମୁଖ୍ୟ କର୍ମ ଓ ଗୌଣ କର୍ମର କ୍ରମ କିପରି ରହେ?",
+"options": [
+"ପ୍ରଥମେ ମୁଖ୍ୟ କର୍ମ ତାପରେ ଗୌଣ କର୍ମ",
+"ଗୌଣ କର୍ମ ପରେ ମୁଖ୍ୟ କର୍ମ ବ୍ୟବହାର କରାଯାଏ",
+"ଉଭୟ ଏକାସାଙ୍ଗରେ ବ୍ୟବହୃତ ହୁଅନ୍ତି ନାହିଁ",
+"କ୍ରିୟା ପରେ ଉଭୟ ରହନ୍ତି"
+],
+"answer": "ଗୌଣ କର୍ମ ପରେ ମୁଖ୍ୟ କର୍ମ ବ୍ୟବହାର କରାଯାଏ",
+"explanation": "Dwikarmaka verb (two objects) hone par, Gauna Karma (Indirect Object) pehle aur Mukhya Karma (Direct Object) uske baad aata hai."
+},
+{
+"questionEnglish": "Where should an adjective (Bisheshana) be placed in relation to a noun (Bisheshya)?",
+"questionOdia": "ବାକ୍ୟରେ ବିଶେଷଣ ପଦ ସାଧାରଣତଃ କେଉଁଠାରେ ବସେ?",
+"options": [
+"ବିଶେଷ୍ୟ ପଦର ପରେ",
+"ବିଶେଷ୍ୟ ପଦ ପୂର୍ବରୁ",
+"ବାକ୍ୟର ଶେଷରେ",
+"କ୍ରିୟା ପୂର୍ବରୁ"
+],
+"answer": "ବିଶେଷ୍ୟ ପଦ ପୂର୍ବରୁ",
+"explanation": "Bisheshana (Adjective) hamesha apne noun (Bisheshya) se pehle lagaya jata hai."
+},
+{
+"questionEnglish": "Where does a 'Sambodhana Pada' (Vocative word) usually sit in an Odia sentence?",
+"questionOdia": "ବାକ୍ୟରେ ସମ୍ବୋଧନ ପଦ କେଉଁଠାରେ ରଖାଯାଏ?",
+"options": [
+"କେବଳ ବାକ୍ୟର ଆରମ୍ଭରେ",
+"କେବଳ ବାକ୍ୟର ଶେଷରେ",
+"ଆରମ୍ଭରେ ବା ଶେଷରେ",
+"କ୍ରିୟା ଓ କର୍ମ ମଝିରେ"
+],
+"answer": "ଆରମ୍ଭରେ ବା ଶେଷରେ",
+"explanation": "Sambodhana pada (Vocative/addressing word) sentence ke shuru mein ya end mein rakha ja sakta hai."
+},
+{
+"questionEnglish": "In a negative sentence, where do 'Nahi' and 'Na' sit in relation to the verb?",
+"questionOdia": "ବାକ୍ୟରେ 'ନାହିଁ' ଓ 'ନ' କ୍ରିୟାପଦ ସହ କିପରି ବ୍ୟବହୃତ ହୁଅନ୍ତି?",
+"options": [
+"ଉଭୟ କ୍ରିୟାର ପରେ ବସନ୍ତି",
+"'ନାହିଁ' କ୍ରିୟା ପରେ ଓ 'ନ' କ୍ରିୟା ପୂର୍ବରୁ ବସେ",
+"'ନାହିଁ' କ୍ରିୟା ପୂର୍ବରୁ ଓ 'ନ' କ୍ରିୟା ପରେ ବସେ",
+"ଉଭୟ କ୍ରିୟାର ପୂର୍ବରୁ ବସନ୍ତି"
+],
+"answer": "'ନାହିଁ' କ୍ରିୟା ପରେ ଓ 'ନ' କ୍ରିୟା ପୂର୍ବରୁ ବସେ",
+"explanation": "'Nahi' humesha verb ke baad lagta hai, jabki 'Na' verb se pehle lagta hai."
+},
+{
+"questionEnglish": "Based on structural form (Gathana Rupa), how many types of sentences are there?",
+"questionOdia": "ଗଠନ କଳା ଦୃଷ୍ଟିରୁ ବାକ୍ୟ କେତେ ପ୍ରକାରର ଅଟେ?",
+"options": [
+"ଦୁଇ",
+"ତିନି",
+"ଚାରି",
+"ପାଞ୍ଚ"
+],
+"answer": "ଚାରି",
+"explanation": "Structure (Gathana) ke hisaab se Bakya 4 types ke hote hain: Sarala, Yougika, Jatila, Mishra."
+},
+{
+"questionEnglish": "What is a 'Sarala Bakya' (Simple Sentence)?",
+"questionOdia": "ସରଳ ବାକ୍ୟ କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ଯେଉଁ ବାକ୍ୟରେ ଏକାଧିକ ସମାପିକା କ୍ରିୟା ଥାଏ",
+"ଗୋଟିଏ ମାତ୍ର ସମାପିକା କ୍ରିୟା ଥିବା ବାକ୍ୟକୁ",
+"ଯେଉଁ ବାକ୍ୟରେ ପ୍ରଶ୍ନ ପଚରାଯାଏ",
+"ଯେଉଁଥିରେ ଅବ୍ୟୟ ପଦ ଥାଏ"
+],
+"answer": "ଗୋଟିଏ ମାତ୍ର ସମାପିକା କ୍ରିୟା ଥିବା ବାକ୍ୟକୁ",
+"explanation": "Jis sentence mein sirf ek hi Samapika Kriya (Finite verb) hoti hai, use Sarala Bakya kehte hain."
+},
+{
+"questionEnglish": "When two or more independent simple sentences are joined together, what is it called?",
+"questionOdia": "ପରସ୍ପର ନିର୍ଭରଶୀଳ ଦୁଇ ବା ତତୋଽଧିକ ସରଳ ବାକ୍ୟର ସମାହାର ଯୋଗେ ଗଠିତ ବାକ୍ୟକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ଜଟିଳ ବାକ୍ୟ",
+"ଯୌଗିକ ବାକ୍ୟ",
+"ମିଶ୍ର ବାକ୍ୟ",
+"ଖଣ୍ଡ ବାକ୍ୟ"
+],
+"answer": "ଯୌଗିକ ବାକ୍ୟ",
+"explanation": "Do ya do se zyada simple sentences jab conjunctives (aur, kintu) se judte hain, toh Yougika Bakya (Compound sentence) banta hai."
+},
+{
+"questionEnglish": "What makes a 'Jatila Bakya' (Complex Sentence)?",
+"questionOdia": "ଜଟିଳ ବାକ୍ୟ କିପରି ଗଠିତ ହୁଏ?",
+"options": [
+"ଗୋଟିଏ ପ୍ରଧାନ ବାକ୍ୟ ଓ ଏକାଧିକ ଅପ୍ରଧାନ (ସାପେକ୍ଷ) ଖଣ୍ଡବାକ୍ୟର ସମନ୍ୱୟରେ",
+"କେବଳ ଦୁଇଟି ସରଳ ବାକ୍ୟ ମିଶିଲେ",
+"କେବଳ ଗୋଟିଏ ସମାପିକା କ୍ରିୟା ଥିଲେ",
+"ପ୍ରଶ୍ନବାଚକ ଶବ୍ଦ ବ୍ୟବହାର କଲେ"
+],
+"answer": "ଗୋଟିଏ ପ୍ରଧାନ ବାକ୍ୟ ଓ ଏକାଧିକ ଅପ୍ରଧାନ (ସାପେକ୍ଷ) ଖଣ୍ଡବାକ୍ୟର ସମନ୍ୱୟରେ",
+"explanation": "Ek main clause (Pradhan Bakya) aur ek ya usse zyada dependent clauses (Apradhan) milkar Jatila Bakya banate hain."
+},
+{
+"questionEnglish": "What is a 'Mishra Bakya' (Mixed Sentence)?",
+"questionOdia": "ମିଶ୍ରବାକ୍ୟ କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ଯେଉଁ ବାକ୍ୟରେ କେବଳ ଦୁଇଟି ଖଣ୍ଡବାକ୍ୟ ଥାଏ",
+"ଯେକୌଣସି ପ୍ରକାର ବାକ୍ୟର ସମନ୍ୱିତ ରୂପକୁ",
+"କେବଳ ସରଳ ଓ ଜଟିଳ ବାକ୍ୟର ମିଶ୍ରଣକୁ",
+"ଯେଉଁଥିରେ ଆଦେଶ ବା ଅନୁରୋଧ ଥାଏ"
+],
+"answer": "ଯେକୌଣସି ପ୍ରକାର ବାକ୍ୟର ସମନ୍ୱିତ ରୂପକୁ",
+"explanation": "Mishra Bakya (Mixed sentence) kisi bhi types of sentences (Sarala, Yougika, Jatila) ka combination hota hai."
+},
+{
+"questionEnglish": "Based on function (Prakarjyatmak Rupa), what type of sentence makes a statement or gives information?",
+"questionOdia": "ନିର୍ଦ୍ଦିଷ୍ଟ ବିଷୟକ ବିବୃତି ବା ବକ୍ତବ୍ୟ ପ୍ରକାଶ କରୁଥିବା ବାକ୍ୟକୁ କି ପ୍ରକାର ବାକ୍ୟ କୁହାଯାଏ?",
+"options": [
+"ବିସ୍ମୟସୂଚକ ବାକ୍ୟ",
+"ବିବୃତିସୂଚକ ବାକ୍ୟ",
+"ପ୍ରଶ୍ନସୂଚକ ବାକ୍ୟ",
+"ନାସ୍ତିସୂଚକ ବାକ୍ୟ"
+],
+"answer": "ବିବୃତିସୂଚକ ବାକ୍ୟ",
+"explanation": "Jo sentence koi fact, statement ya information deta hai, use Bibrutisuchaka Bakya (Declarative sentence) kehte hain."
+},
+{
+"questionEnglish": "What type of sentence is 'Please help me a little'?",
+"questionOdia": "'ଆଜ୍ଞା ! ମତେ ଟିକିଏ ସାହାଯ୍ୟ କରନ୍ତୁ।' - ଏହା କି ପ୍ରକାର ବାକ୍ୟ?",
+"options": [
+"ପ୍ରଶ୍ନସୂଚକ ବାକ୍ୟ",
+"ବିସ୍ମୟସୂଚକ ବାକ୍ୟ",
+"ଅନୁରୋଧ / ଆଦେଶସୂଚକ ବାକ୍ୟ",
+"ନାସ୍ତିସୂଚକ ବାକ୍ୟ"
+],
+"answer": "ଅନୁରୋଧ / ଆଦେଶସୂଚକ ବାକ୍ୟ",
+"explanation": "Is sentence mein request (anurodh) ki gayi hai, isliye yeh Anurodh/Adeshasuchaka Bakya hai."
+},
+{
+"questionEnglish": "What type of sentence expresses surprise or wonder?",
+"questionOdia": "ବିସ୍ମୟ ବା ଆଶ୍ଚର୍ଯ୍ୟ ଭାବ ପ୍ରକାଶ କରୁଥିବା ବାକ୍ୟକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ନାସ୍ତିସୂଚକ ବାକ୍ୟ",
+"ପ୍ରଶ୍ନସୂଚକ ବାକ୍ୟ",
+"ବିସ୍ମୟସୂଚକ ବାକ୍ୟ",
+"ବିବୃତିସୂଚକ ବାକ୍ୟ"
+],
+"answer": "ବିସ୍ମୟସୂଚକ ବାକ୍ୟ",
+"explanation": "Jo sentence surprise ya wonder express karta hai, use Bismayasuchaka Bakya (Exclamatory sentence) kehte hain."
+},
+{
+"questionEnglish": "What is Bakya Rupantara (Sentence Transformation)?",
+"questionOdia": "ବାକ୍ୟର ରୂପାନ୍ତର କହିଲେ କ'ଣ ବୁଝାଏ?",
+"options": [
+"ବାକ୍ୟର ଅର୍ଥକୁ ସମ୍ପୂର୍ଣ୍ଣ ବଦଳାଇଦେବା",
+"ଗୋଟିଏ ପ୍ରକାରର ବାକ୍ୟକୁ ଅର୍ଥ ପରିବର୍ତ୍ତନ ନ କରି ଅନ୍ୟ ପ୍ରକାରର ବାକ୍ୟରେ ପରିଣତ କରିବା",
+"ବାକ୍ୟରେ ନୂଆ ପଦ ଯୋଡ଼ିବା",
+"ବାକ୍ୟରୁ କ୍ରିୟାପଦ ହଟାଇଦେବା"
+],
+"answer": "ଗୋଟିଏ ପ୍ରକାରର ବାକ୍ୟକୁ ଅର୍ଥ ପରିବର୍ତ୍ତନ ନ କରି ଅନ୍ୟ ପ୍ରକାରର ବାକ୍ୟରେ ପରିଣତ କରିବା",
+"explanation": "Sentence ke meaning ko bina change kiye, uske structure/type ko badalne ko Bakya Rupantara (Transformation) kehte hain."
+},
+{
+"questionEnglish": "Transform 'Hari bhal nachibaru sunama arjana karichhi' (Simple) into a Compound (Yougika) sentence.",
+"questionOdia": "'ହରି ଭଲ ନାଚିବାରୁ ସୁନାମ ଅର୍ଜନ କରିଛି' (ସରଳ ବାକ୍ୟ) କୁ ଯୌଗିକ ବାକ୍ୟରେ କିପରି ରୂପାନ୍ତର କରାଯିବ?",
+"options": [
+"ଯଦି ହରି ଭଲ ନାଚିବ, ତେବେ ସେ ସୁନାମ ଅର୍ଜନ କରିବ।",
+"ହରି ଭଲ ନାଚୁଛି ଓ ଏଥିପାଇଁ ସୁନାମ ଅର୍ଜନ କରୁଛି।",
+"ହରି ଭଲ ନାଚିଲେ ସୁନାମ ଅର୍ଜନ କରିବ।",
+"ଯେହେତୁ ହରି ଭଲ ନାଚେ, ସେ ସୁନାମ ଅର୍ଜନ କରେ।"
+],
+"answer": "ହରି ଭଲ ନାଚୁଛି ଓ ଏଥିପାଇଁ ସୁନାମ ଅର୍ଜନ କରୁଛି।",
+"explanation": "Compound sentence (Yougika) banane ke liye 'O' (and) jaise conjunctive words ka use hota hai, aur dono simple sentences ko join kiya jata hai."
+},
+{
+"questionEnglish": "Convert the passive voice (Karma Bachya) 'Babu-nka dwara tanka adaya heuthila' to active voice (Kartru Bachya).",
+"questionOdia": "'ବାବୁଙ୍କ ଦ୍ୱାରା ଟଙ୍କା ଆଦାୟ ହେଉଥିଲା' - ଏହି କର୍ମ ବାଚ୍ୟକୁ କର୍ତ୍ତୃ ବାଚ୍ୟରେ ରୂପାନ୍ତର କଲେ କ'ଣ ହେବ?",
+"options": [
+"ବାବୁ ଟଙ୍କା ଆଦାୟ କରୁଥିଲେ",
+"ଟଙ୍କା ଆଦାୟ ବାବୁ କଲେ",
+"ବାବୁଙ୍କର ଟଙ୍କା ଆଦାୟ ହେଲା",
+"ଟଙ୍କା ଆଦାୟ କରାଗଲା"
+],
+"answer": "ବାବୁ ଟଙ୍କା ଆଦାୟ କରୁଥିଲେ",
+"explanation": "Passive voice 'Babu-nka dwara' ko Active voice mein 'Babu' direct subject ban jayega: 'Babu tanka adaya karuthile'."
+},
+{
+"questionEnglish": "What process is used to express a long sentence in a shorter form without changing its meaning?",
+"questionOdia": "ଦୀର୍ଘ ବାକ୍ୟକୁ ଅର୍ଥ ପରିବର୍ତ୍ତନ ନକରି ଅଳ୍ପରେ ପ୍ରକାଶ କରିବା ପ୍ରକ୍ରିୟାକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ବାକ୍ୟ ସମ୍ପ୍ରସାରଣ",
+"ବାକ୍ୟ ସଂକ୍ଷେପଣ",
+"ବାକ୍ୟ ବିଶ୍ଳେଷଣ",
+"ବାକ୍ୟ ସଂଯୋଜନ"
+],
+"answer": "ବାକ୍ୟ ସଂକ୍ଷେପଣ",
+"explanation": "Long sentence ko short form mein express karne ki process ko Bakya Sankhyepana (Sentence Condensation) kehte hain."
+},
+{
+"questionEnglish": "What is the compressed form (Sankhyipta rupa) of 'Jaha kariba uchit taha kara' using Krudanta?",
+"questionOdia": "'ଯାହା କରିବା ଉଚିତ୍ ତାହା କର' - ଏହାକୁ କୃଦନ୍ତ ଦ୍ୱାରା ସଂକ୍ଷେପଣ କଲେ କ'ଣ ହେବ?",
+"options": [
+"କର୍ମ କର",
+"କର୍ତ୍ତବ୍ୟ କର",
+"କାର୍ଯ୍ୟ କର",
+"ଉଚିତ କର୍ମ କର"
+],
+"answer": "କର୍ତ୍ତବ୍ୟ କର",
+"explanation": "'Jaha kariba uchit' (Jo karna chahiye) ko ek word mein 'Kartabya' (Duty) kehte hain."
+},
+{
+"questionEnglish": "What is 'Natwa Bidhi' in Odia grammar?",
+"questionOdia": "ଓଡ଼ିଆ ବ୍ୟାକରଣରେ 'ଣତ୍ଵ' ବିଧି କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ପଦ ମଧ୍ୟରେ 'ଷ' ସ୍ଥାନରେ 'ସ' ହେବା",
+"ପଦ ମଧ୍ୟରେ 'ନ' ସ୍ଥାନରେ 'ଣ' ହେବା ନିୟମକୁ",
+"କ୍ରିୟାପଦର ପରିବର୍ତ୍ତନକୁ",
+"ସ୍ୱରବର୍ଣ୍ଣର ପରିବର୍ତ୍ତନକୁ"
+],
+"answer": "ପଦ ମଧ୍ୟରେ 'ନ' ସ୍ଥାନରେ 'ଣ' ହେବା ନିୟମକୁ",
+"explanation": "Word ke andar 'na' (ନ) ka 'Na' (ଣ) ban jane ke rules ko Natwa Bidhi kehte hain."
+},
+{
+"questionEnglish": "After which letters does 'n' (ନ) naturally become 'N' (ଣ)?",
+"questionOdia": "ଏକ ପଦ ମଧ୍ୟରେ କେଉଁ ବର୍ଣ୍ଣଗୁଡ଼ିକ ପରେ 'ନ୍' ଥିଲେ ତାହା 'ଣ' ହୁଏ?",
+"options": [
+"ଅ, ଆ, ଇ",
+"କ, ଚ, ଟ",
+"ଋ, ର୍, ଷ୍",
+"ପ, ଫ, ବ"
+],
+"answer": "ଋ, ର୍, ଷ୍",
+"explanation": "Word mein Ru (ଋ), R (ର୍), aur Sh (ଷ୍) ke theek baad agar 'n' (ନ) aata hai, toh wo 'N' (ଣ) ban jata hai."
+},
+{
+"questionEnglish": "Why does the word 'Rachana' NOT change its 'n' to 'N'?",
+"questionOdia": "'ରଚନା' ଶବ୍ଦରେ 'ନ' କାହିଁକି 'ଣ' ହେଲା ନାହିଁ?",
+"options": [
+"କାରଣ 'ଆ' କାର ଅଛି",
+"'ର୍' ପରେ 'ଚ୍' ବ୍ୟବଧାନ ଥିବାରୁ 'ଣ' ହେଲା ନାହିଁ",
+"ଏହା ଏକ ବିଦେଶୀ ଶବ୍ଦ",
+"'ଚ' ପରେ 'ଣ' ଲାଗେ ନାହିଁ"
+],
+"answer": "'ର୍' ପରେ 'ଚ୍' ବ୍ୟବଧାନ ଥିବାରୁ 'ଣ' ହେଲା ନାହିଁ",
+"explanation": "Rachana mein 'r' ke baad 'ch' aa gaya hai. 'ch' class ka interference Natwa Bidhi ko rokk deta hai."
+},
+{
+"questionEnglish": "Identify the word where 'n' becomes 'N' natively (Swabhabika Natwa), without following the strict rules.",
+"questionOdia": "ନିମ୍ନଲିଖିତ କେଉଁ ଶବ୍ଦରେ ସ୍ୱାଭାବିକ ଭାବରେ 'ଣ' ବ୍ୟବହୃତ ହୋଇଅଛି?",
+"options": [
+"ଦର୍ପଣ",
+"ବିଦୀର୍ଣ୍ଣ",
+"ମଣିଷ",
+"କୃଷ୍ଣ"
+],
+"answer": "ମଣିଷ",
+"explanation": "'Manisha' (ମଣିଷ) mein 'Na' (ଣ) natively (swabhabika) lagta hai, iske peeche Ru, R, ya Sh ka rule nahi hai."
+},
+{
+"questionEnglish": "What is 'Shatwa Bidhi' in Odia grammar?",
+"questionOdia": "'ଷତ୍ଵ' ବିଧି କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ପଦ ମଧ୍ୟରେ 'ସ' ସ୍ଥାନରେ 'ଷ' ହେବା ନିୟମକୁ",
+"ପଦ ମଧ୍ୟରେ 'ନ' ସ୍ଥାନରେ 'ଣ' ହେବା ନିୟମକୁ",
+"ସ୍ୱରବର୍ଣ୍ଣ ପରେ 'ଷ' ରହିବାକୁ",
+"ବିସର୍ଗର ପରିବର୍ତ୍ତନକୁ"
+],
+"answer": "ପଦ ମଧ୍ୟରେ 'ସ' ସ୍ଥାନରେ 'ଷ' ହେବା ନିୟମକୁ",
+"explanation": "Word ke andar 's' (ସ) ka 'sh' (ଷ) mein badalne ke rule ko Shatwa Bidhi kehte hain."
+},
+{
+"questionEnglish": "Which vowel exception prevents 's' (ସ) from becoming 'sh' (ଷ)?",
+"questionOdia": "କେଉଁ ସ୍ୱରବର୍ଣ୍ଣ ପରେ 'ସ' ଥିଲେ, ତାହା 'ଷ' ରେ ପରିବର୍ତ୍ତିତ ହୁଏ ନାହିଁ?",
+"options": [
+"'ଇ' ଓ 'ଈ' ପରେ",
+"'ଉ' ଓ 'ଊ' ପରେ",
+"'ଅ' ଓ 'ଆ' ପରେ",
+"'ଏ' ଓ 'ଐ' ପରେ"
+],
+"answer": "'ଅ' ଓ 'ଆ' ପରେ",
+"explanation": "'a' (ଅ) aur 'aa' (ଆ) vowels ke baad 's' kabhi 'sh' nahi banta (e.g., Prasad, Asana)."
+},
+{
+"questionEnglish": "Why does the word 'Police' (ପୁଲିସ୍) NOT use 'ଷ' despite the 'i' sound before it?",
+"questionOdia": "'ପୁଲିସ୍' ଶବ୍ଦରେ 'ଇ' କାର ପରେ ଥିଲେ ମଧ୍ୟ 'ସ', 'ଷ' କାହିଁକି ହେଲା ନାହିଁ?",
+"options": [
+"ଏହା ଏକ ଦେଶଜ ଶବ୍ଦ",
+"ଏହା ଏକ ବୈଦେଶିକ ଶବ୍ଦ ହୋଇଥିବାରୁ 'ଷତ୍ଵ' ବିଧି ଲାଗୁ ନହୋଇ 'ସ' ହୋଇଛି",
+"ଶବ୍ଦଟି ଛୋଟ ଅଟେ",
+"ବ୍ୟାକରଣରେ ଭୁଲ ଅଛି"
+],
+"answer": "ଏହା ଏକ ବୈଦେଶିକ ଶବ୍ଦ ହୋଇଥିବାରୁ 'ଷତ୍ଵ' ବିଧି ଲାଗୁ ନହୋଇ 'ସ' ହୋଇଛି",
+"explanation": "Foreign words (Baideshika shabda) jaise 'Police', 'Notice' mein Shatwa Bidhi ke rules apply nahi hote, isliye 's' rehta hai."
+},
+{
+"questionEnglish": "What is the correct spelling (Suddha Rupa) for 'Krushna' in Odia?",
+"questionOdia": "'କୃଷ୍ନ' ର ଶୁଦ୍ଧ ରୂପ କ'ଣ ହେବ?",
+"options": [
+"କୃସ୍ଣ",
+"କୃଷ୍ଣ",
+"କ୍ରୁଷ୍ନ",
+"କ୍ରୁଷ୍ଣ"
+],
+"answer": "କୃଷ୍ଣ",
+"explanation": "Rules of Natwa and Shatwa Bidhi ke hisaab se correct spelling 'କୃଷ୍ଣ' (Krushna) hoti hai."
+},
+{
+"questionEnglish": "What is the correct spelling for 'Puraskar'?",
+"questionOdia": "'ପୁରଷ୍କାର' ର ଶୁଦ୍ଧ ରୂପ ତଳମଧ୍ୟରୁ କେଉଁଟି?",
+"options": [
+"ପୁରସ୍କାର",
+"ପୁରଶ୍କାର",
+"ପୂରସ୍କାର",
+"ପୂରଷ୍କାର"
+],
+"answer": "ପୁରସ୍କାର",
+"explanation": "Yahan exception hai, isliye 's' (ସ) use hota hai na ki 'sh' (ଷ). Correct is ପୁରସ୍କାର."
+},
+{
+"questionEnglish": "What is the correct Sandhi split and correct form of 'Digambara'?",
+"questionOdia": "'ଦିଗାମ୍ବର' ର ଶୁଦ୍ଧ ସନ୍ଧିଗତ ରୂପ କ'ଣ ହେବ?",
+"options": [
+"ଦିଗମ୍ବର (ଦିକ୍+ଅମ୍ବର)",
+"ଦିଗାମ୍ବର (ଦିଗ୍+ଆମ୍ବର)",
+"ଦିଗୋମ୍ବର (ଦିଗ୍+ଓମ୍ବର)",
+"ଦିଗମ୍ବର (ଦିଗ+ଅମ୍ବର)"
+],
+"answer": "ଦିଗମ୍ବର (ଦିକ୍+ଅମ୍ବର)",
+"explanation": "Dik + Ambara mil kar 'Digambara' banta hai. 'Digambara' nahi hota."
+},
+{
+"questionEnglish": "Identify the correctly spelled word among the following.",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ ଶୁଦ୍ଧ ବନାନ ଥିବା ଶବ୍ଦଟିକୁ ବାଛ:",
+"options": [
+"ଅପରାହ୍ନ",
+"ଶିକ୍ଷୟତ୍ରୀ",
+"ଶାରୀରିକ",
+"ଆଶ୍ରୀବାଦ"
+],
+"answer": "ଶାରୀରିକ",
+"explanation": "Correct spellings are: ଅପରାହ୍ଣ, ଶିକ୍ଷୟିତ୍ରୀ, ଆଶୀର୍ବାଦ. Here only ଶାରୀରିକ (Sharirika) is fully correct."
+},
+{
+"questionEnglish": "What does a 'Rudhi' (Idiom) mean in Odia grammar?",
+"questionOdia": "'ରୂଢ଼ି' କହିଲେ କ'ଣ ବୁଝାଏ?",
+"options": [
+"ଶବ୍ଦମାନଙ୍କର କେବଳ ଆକ୍ଷରିକ ଅର୍ଥ",
+"କୌଣସି ଶବ୍ଦ ନିଜସ୍ୱ ଅର୍ଥ ଛାଡ଼ି, ଅନ୍ୟ ଶବ୍ଦ ସହିତ ମିଶି ସ୍ୱତନ୍ତ୍ର ଅର୍ଥ ପ୍ରକାଶ କଲେ",
+"କେବଳ ଦେବଦେବୀଙ୍କ ନାମରେ ବ୍ୟବହୃତ ଶବ୍ଦ",
+"ଯାହାର କୌଣସି ଅର୍ଥ ନଥାଏ"
+],
+"answer": "କୌଣସି ଶବ୍ଦ ନିଜସ୍ୱ ଅର୍ଥ ଛାଡ଼ି, ଅନ୍ୟ ଶବ୍ଦ ସହିତ ମିଶି ସ୍ୱତନ୍ତ୍ର ଅର୍ଥ ପ୍ରକାଶ କଲେ",
+"explanation": "Jab words apna literal meaning chhod kar ek naya special meaning create karte hain, use Rudhi (Idiom) kehte hain."
+},
+{
+"questionEnglish": "What is the meaning of the Rudhi 'Andhara Laudia'?",
+"questionOdia": "'ଅନ୍ଧର ଲଉଡ଼ି' ରୂଢ଼ିର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଅନ୍ଧାର ଘର",
+"ଅସହାୟର ସହାୟ",
+"ବାଡ଼ି ଧରି ଚାଲିବା",
+"କିଛି ନଦେଖିବା"
+],
+"answer": "ଅସହାୟର ସହାୟ",
+"explanation": "'Andhara Laudi' ka matlab hota hai helpless insaan ka sahara banna (Support of the helpless)."
+},
+{
+"questionEnglish": "What does 'Aranya Rodana' mean?",
+"questionOdia": "'ଅରଣ୍ୟ ରୋଦନ' ରୂଢ଼ିର ପ୍ରକୃତ ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଜଙ୍ଗଲରେ କାନ୍ଦିବା",
+"ଉଚ୍ଚ ସ୍ୱରରେ କାନ୍ଦିବା",
+"ନିଷ୍ଫଳ ପ୍ରାର୍ଥନା ବା ବୃଥା ପ୍ରାର୍ଥନା",
+"ପଶୁମାନଙ୍କର ରାବ"
+],
+"answer": "ନିଷ୍ଫଳ ପ୍ରାର୍ଥନା ବା ବୃଥା ପ୍ରାର୍ଥନା",
+"explanation": "'Aranya Rodana' ka exact matlab hai useless request ya crying in the wilderness jahan koi sunne wala na ho."
+},
+{
+"questionEnglish": "Which Rudhi means 'Empty threats'?",
+"questionOdia": "'ବୃଥା ଧମକ' ଅର୍ଥ ପ୍ରକାଶ କରୁଥିବା ରୂଢ଼ିଟି କ'ଣ?",
+"options": [
+"କୁହାମୁଣ୍ଡା କପିଳା",
+"ଫାଙ୍କା ଆୱାଜ",
+"ଓଳିଆରୁ ଗଜା",
+"କୁମ୍ଭୀର କାନ୍ଦଣା"
+],
+"answer": "ଫାଙ୍କା ଆୱାଜ",
+"explanation": "'Phanka Awaj' idiom empty threats ya jhuthi dhamki ko darshata hai."
+},
+{
+"questionEnglish": "What is the meaning of the phrase 'Kupamanduka'?",
+"questionOdia": "'କୂପ ମଣ୍ଡୂକ' ରୂଢ଼ିର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଗଭୀର କୂଅ",
+"ବେଙ୍ଗର ବାସସ୍ଥାନ",
+"ସଂକୁଚିତ ପରିବେଶରେ ବଢ଼ିଥିବା ବ୍ୟକ୍ତି",
+"ଜଳଚର ପ୍ରାଣୀ"
+],
+"answer": "ସଂକୁଚିତ ପରିବେଶରେ ବଢ଼ିଥିବା ବ୍ୟକ୍ତି",
+"explanation": "'Kupamanduka' (Frog in a well) un logon ke liye use hota hai jinki soch aur duniya bahut choti hoti hai."
+},
+{
+"questionEnglish": "What does 'Ghara dinki kumbhira' signify?",
+"questionOdia": "'ଘର ଢିଙ୍କି କୁମ୍ଭୀର' ର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଘର ଭିତରେ କୁମ୍ଭୀର ରହିବା",
+"ନିଜ ଲୋକ ଶତ୍ରୁ ଆଚରଣ କରିବା",
+"ଅତି ବିଶ୍ୱାସୀ",
+"ଦୁର୍ବଳ ବ୍ୟକ୍ତି"
+],
+"answer": "ନିଜ ଲୋକ ଶତ୍ରୁ ଆଚରଣ କରିବା",
+"explanation": "Jab apna hi family member ya close person dushman ban jaye, tab 'Ghara dinki kumbhira' use hota hai."
+},
+{
+"questionEnglish": "Which Rudhi describes a situation where a small issue becomes a massive conflict?",
+"questionOdia": "ସାମାନ୍ୟ ଘଟଣାରୁ ବିରାଟକାଣ୍ଡ ସୃଷ୍ଟି ହେବାକୁ କେଉଁ ରୂଢ଼ି ଦ୍ୱାରା ପ୍ରକାଶ କରାଯାଏ?",
+"options": [
+"ଖତଗଦାରେ ପଦ୍ମ",
+"ଝିମିଟି ଖେଳରୁ ମହାଭାରତ",
+"ବାଆକୁ ବତା",
+"ତିଳକୁ ତାଳ କରିବା"
+],
+"answer": "ଝିମିଟି ଖେଳରୁ ମହାଭାରତ",
+"explanation": "Choti si baat (jhimiti khela) se Mahabharat jaisa bada yudh shuru hone ko ye idiom describe karta hai."
+},
+{
+"questionEnglish": "What is the meaning of 'Chita Katiba'?",
+"questionOdia": "'ଚିତା କାଟିବା' ରୂଢ଼ିଟିର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ମୁଣ୍ଡରେ ଚିତା ଲଗାଇବା",
+"ଅନ୍ୟକୁ ଠକିବା",
+"ଦେହରେ ଚିତ୍ର କରିବା",
+"ସାହାଯ୍ୟ କରିବା"
+],
+"answer": "ଅନ୍ୟକୁ ଠକିବା",
+"explanation": "Kisi ko dhoka dena ya bewakoof banane ko Odia mein 'Chita Katiba' kehte hain."
+},
+{
+"questionEnglish": "What is a 'Lokabani' or 'Prabada'?",
+"questionOdia": "ଲୋକବାଣୀ ବା ପ୍ରବାଦ କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"କେବଳ ବହିରେ ଲେଖାଥିବା କବିତା",
+"ଲୋକମୁଖରେ ଯୁଗ ଯୁଗ ଧରି ଚଳିଆସୁଥିବା ଏବଂ ବିଭିନ୍ନ ପରିସ୍ଥିତିରେ ପ୍ରୟୋଗ କରାଯାଉଥିବା ବିଶେଷ ଉକ୍ତି",
+"ଆଧୁନିକ ଗଳ୍ପର ଗୋଟିଏ ଅଂଶ",
+"ରାଜନେତାମାନଙ୍କର ଭାଷଣ"
+],
+"answer": "ଲୋକମୁଖରେ ଯୁଗ ଯୁଗ ଧରି ଚଳିଆସୁଥିବା ଏବଂ ବିଭିନ୍ନ ପରିସ୍ଥିତିରେ ପ୍ରୟୋଗ କରାଯାଉଥିବା ବିଶେଷ ଉକ୍ତି",
+"explanation": "Generations se logon ki zubaan par chali aa rahi wise sayings ya proverbs ko Lokabani kehte hain."
+},
+{
+"questionEnglish": "What does the proverb 'Ati bhakti chorara lakhshana' mean?",
+"questionOdia": "'ଅତିଭକ୍ତି ଚୋରର ଲକ୍ଷଣ' ଲୋକବାଣୀର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଚୋରମାନେ ଭଗବାନଙ୍କୁ ବେଶି ପୂଜା କରନ୍ତି",
+"କାର୍ଯ୍ୟହାସଲ ଉଦ୍ଦେଶ୍ୟ ରଖି ଉପରକୁ ବିନମ୍ରଭାବ ଦେଖାଇବା",
+"ଭକ୍ତି କରିବା ଖରାପ କଥା",
+"ବେଶି ଭକ୍ତି କଲେ ଧନ ମିଳେ"
+],
+"answer": "କାର୍ଯ୍ୟହାସଲ ଉଦ୍ଦେଶ୍ୟ ରଖି ଉପରକୁ ବିନମ୍ରଭାବ ଦେଖାଇବା",
+"explanation": "Apna matlab nikalne ke liye jo hadd se zyada respect ya bhakt dikhata hai, uske iraade galat (chor jaise) ho sakte hain."
+},
+{
+"questionEnglish": "Which proverb means 'If you work hard, you will achieve success'?",
+"questionOdia": "କଠିନ ପରିଶ୍ରମ ହିଁ ସିଦ୍ଧିର ମୂଳ, ଏହା କେଉଁ ଲୋକବାଣୀରୁ ଜଣାପଡେ?",
+"options": [
+"କଷ୍ଟ କଲେ କୃଷ୍ଣ ମିଳେ",
+"ଅଳସୁଆର ବାରବାଟୀ ଚାଷ",
+"ଆକାଶ କଇଁଆ ଚିଲିକା ମାଛ",
+"ଓଟ ମୁହଁରେ ଜିରା"
+],
+"answer": "କଷ୍ଟ କଲେ କୃଷ୍ଣ ମିଳେ",
+"explanation": "'Kashta kale Krushna mile' ka arth hai ki hard work (kashta) karne se hi bhagwan/success (Krushna) milte hain."
+},
+{
+"questionEnglish": "What does 'Tundabaida sahasra kosha' mean?",
+"questionOdia": "'ତୁଣ୍ଡବାଇଦ ସହସ୍ର କୋଶ' ଲୋକବାଣୀର ତାତ୍ପର୍ଯ୍ୟ କ'ଣ?",
+"options": [
+"ବାଇଦର ଶବ୍ଦ ବହୁତ ଦୂରକୁ ଶୁଭେ",
+"ଲୋକ ମୁଖରେ କଥା ବହୁଦୂର ପ୍ରସରି ଯାଏ ବା ବ୍ୟାପିଯାଏ",
+"ହଜାରେ କୋଶ ଚାଲିବା କଷ୍ଟ",
+"ଚୁପ୍ ରହିବା ଭଲ"
+],
+"answer": "ଲୋକ ମୁଖରେ କଥା ବହୁଦୂର ପ୍ରସରି ଯାଏ ବା ବ୍ୟାପିଯାଏ",
+"explanation": "Bina kisi instrument ke, logon ki baatein aur afwahein hazaron meel door tak tezi se phail jati hain."
+},
+{
+"questionEnglish": "What does the word 'Chhanda' mean in literature?",
+"questionOdia": "ସାହିତ୍ୟରେ 'ଛନ୍ଦ' କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ଗଦ୍ୟ ରଚନାର ନିୟମ",
+"ପଦ୍ୟ ବା କବିତା ରଚନାରେ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ନିୟମ ବା ଶୈଳୀ",
+"ଗଳ୍ପର ଶୀର୍ଷକ",
+"ନାଟକର ସଂଳାପ"
+],
+"answer": "ପଦ୍ୟ ବା କବିତା ରଚନାରେ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ନିୟମ ବା ଶୈଳୀ",
+"explanation": "Poetry ya kavita likhne ke specific rules aur structure (meter) ko Chhanda kehte hain."
+},
+{
+"questionEnglish": "What is 'Jatipata' in Chhanda?",
+"questionOdia": "ଛନ୍ଦରେ 'ଯତିପାତ' କହିଲେ କ'ଣ ବୁଝାଏ?",
+"options": [
+"କବିତାର ଶେଷ ପଦ",
+"ପଦ୍ୟକୁ ଗାନ ବା ଆବୃତ୍ତି କଲାବେଳେ ପ୍ରତ୍ୟେକ ପାଦର ନିର୍ଦ୍ଦିଷ୍ଟ ଅକ୍ଷର ଉପରେ ନେଉଥିବା ବିଶ୍ରାମ ବା ଶ୍ୱାସଘାତ",
+"ଅକ୍ଷରଗୁଡ଼ିକର ସମଷ୍ଟି",
+"ବାକ୍ୟର ଅର୍ଥ"
+],
+"answer": "ପଦ୍ୟକୁ ଗାନ ବା ଆବୃତ୍ତି କଲାବେଳେ ପ୍ରତ୍ୟେକ ପାଦର ନିର୍ଦ୍ଦିଷ୍ଟ ଅକ୍ଷର ଉପରେ ନେଉଥିବା ବିଶ୍ରାମ ବା ଶ୍ୱାସଘାତ",
+"explanation": "Kavita padhte waqt rhythm maintain karne ke liye jis specific letter par pause (vishram) liya jata hai, use Jatipata (Yati) kehte hain."
+},
+{
+"questionEnglish": "Which famous Odia epic is written in 'Dandi Brutha' or 'Dandi Chhanda'?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ପ୍ରସିଦ୍ଧ ଓଡ଼ିଆ ଗ୍ରନ୍ଥ 'ଦାଣ୍ଡିବୃତ୍ତ' ବା ଛନ୍ଦରେ ରଚିତ?",
+"options": [
+"ରାଧାନାଥଙ୍କ ଚିଲିକା",
+"ଜଗନ୍ନାଥ ଦାସଙ୍କ ଭାଗବତ",
+"ସାରଳା ଦାସଙ୍କ ମହାଭାରତ",
+"ଉପେନ୍ଦ୍ର ଭଞ୍ଜଙ୍କ ଲାବଣ୍ୟବତୀ"
+],
+"answer": "ସାରଳା ଦାସଙ୍କ ମହାଭାରତ",
+"explanation": "Sarala Das ji ki Mahabharat Dandi Chhanda mein likhi gayi hai, jisme har line ke letters fix nahi hote."
+},
+{
+"questionEnglish": "How many letters are there in each line (Pada) of 'Bhagabata Bani' or 'Gujjari' Chhanda?",
+"questionOdia": "'ଭାଗବତବାଣୀ' ବା 'ଗୁଜ୍ଜରୀ' ଛନ୍ଦର ପ୍ରତ୍ୟେକ ପାଦରେ କେତୋଟି ଅକ୍ଷର ଥାଏ?",
+"options": [
+"ଆଠ",
+"ନଅ",
+"ବାର",
+"ଷୋହଳ"
+],
+"answer": "ନଅ",
+"explanation": "Bhagabata Bani ko 'Nabakhyari' (9 letters) Chhanda bhi kehte hain, kyunki iski har line mein exactly 9 akshar (letters) hote hain."
+},
+{
+"questionEnglish": "Which Chhanda is also known as 'Nabakhyari Brutha'?",
+"questionOdia": "କେଉଁ ଛନ୍ଦକୁ 'ନବାକ୍ଷରୀ ବୃତ୍ତ' ମଧ୍ୟ କୁହାଯାଏ?",
+"options": [
+"ଦାଣ୍ଡିବୃତ୍ତ",
+"ନଟବାଣୀ",
+"ରାମକେରୀ",
+"ଭାଗବତବାଣୀ (ଗୁଜ୍ଜରୀ)"
+],
+"answer": "ଭାଗବତବାଣୀ (ଗୁଜ୍ଜରୀ)",
+"explanation": "Gujjari ya Bhagabata Bani chhanda mein 9 akshar hote hain, isliye iska dusra naam Nabakhyari Brutha hai."
+},
+{
+"questionEnglish": "How many letters does each line of 'Natabani' or 'Bibhasakedara' have?",
+"questionOdia": "'ନଟବାଣୀ' ବା 'ବିଭାସକେଦାର' ଛନ୍ଦର ପ୍ରତିଟି ପାଦରେ ଅକ୍ଷର ସଂଖ୍ୟା କେତେ?",
+"options": [
+"୯",
+"୧୨",
+"୧୬",
+"୨୦"
+],
+"answer": "୧୨",
+"explanation": "Natabani chhanda ke har line (pada) mein 12 letters hote hain aur 3rd, 6th, 9th, 12th letter par pause (yati) hota hai."
+},
+{
+"questionEnglish": "What is the total number of lines in a single stanza (Pada) of 'Chokhi' Chhanda?",
+"questionOdia": "'ଚୋଖି' ଛନ୍ଦର ଗୋଟିଏ ପଦରେ କେତୋଟି ପାଦ ଥାଏ?",
+"options": [
+"ଦୁଇ",
+"ତିନି",
+"ଚାରି",
+"ଛଅ"
+],
+"answer": "ଚାରି",
+"explanation": "Chokhi chhanda ke ek stanza (Pada) mein exactly 4 lines (Pada) hoti hain."
+},
+{
+"questionEnglish": "How many letters are there in each line of 'Bangalashree' Chhanda?",
+"questionOdia": "'ବଙ୍ଗଳାଶ୍ରୀ' ଛନ୍ଦର ପ୍ରତ୍ୟେକ ପାଦର ଅକ୍ଷର ସଂଖ୍ୟା କେତେ?",
+"options": [
+"୧୨",
+"୧୬",
+"୨୦",
+"୨୯"
+],
+"answer": "୨୦",
+"explanation": "Bangalashree chhanda ke har line mein exactly 20 letters hote hain."
+},
+{
+"questionEnglish": "In 'Shankarabharana' Chhanda, what is the structure of the lines?",
+"questionOdia": "'ଶଙ୍କରାଭରଣ' ଛନ୍ଦରେ ପାଦଗୁଡ଼ିକର ସଂରଚନା କିପରି ହୋଇଥାଏ?",
+"options": [
+"୪ଟି ପାଦରେ ଗୋଟିଏ ପଦ ହୁଏ, ୧ମ, ୨ୟ ଓ ୪ର୍ଥ ପାଦରେ ୧୪ଟି ଅକ୍ଷର ଏବଂ ୩ୟ ପାଦରେ ୮ଟି ଅକ୍ଷର ଥାଏ",
+"୨ଟି ପାଦରେ ଗୋଟିଏ ପଦ, ପ୍ରତି ପାଦରେ ୧୬ ଅକ୍ଷର",
+"୪ଟି ପାଦରେ ପଦ, ପ୍ରତି ପାଦରେ ୨୯ ଅକ୍ଷର",
+"୨ଟି ପାଦରେ ପଦ, ପ୍ରତି ପାଦରେ ୯ ଅକ୍ଷର"
+],
+"answer": "୪ଟି ପାଦରେ ଗୋଟିଏ ପଦ ହୁଏ, ୧ମ, ୨ୟ ଓ ୪ର୍ଥ ପାଦରେ ୧୪ଟି ଅକ୍ଷର ଏବଂ ୩ୟ ପାଦରେ ୮ଟି ଅକ୍ଷର ଥାଏ",
+"explanation": "Shankarabharana mein 4 lines hoti hain. Line 1, 2, aur 4 mein 14 letters hote hain, jabki line 3 mein 8 letters hote hain."
+},
+{
+"questionEnglish": "How many letters are in each line of 'Ramakeri' Chhanda?",
+"questionOdia": "'ରାମକେରୀ' ଛନ୍ଦର ପ୍ରତି ପାଦରେ କେତୋଟି ଅକ୍ଷର ଥାଏ?",
+"options": [
+"୯",
+"୧୪",
+"୧୬",
+"୨୦"
+],
+"answer": "୧୬",
+"explanation": "Ramakeri Chhanda ki har line mein 16 letters hote hain."
+},
+{
+"questionEnglish": "What is the purpose of 'Alankara' in literature?",
+"questionOdia": "ସାହିତ୍ୟରେ 'ଅଳଙ୍କାର' ର ଭୂମିକା କ'ଣ?",
+"options": [
+"କବିତାକୁ ଲମ୍ବା କରିବା",
+"ସାହିତ୍ୟକୁ ସରସ, ସୁନ୍ଦର ଓ ରମଣୀୟ କରିବା",
+"ବ୍ୟାକରଣର ଭୁଲ୍ ସୁଧାରିବା",
+"ଗଳ୍ପର ଅର୍ଥ ପରିବର୍ତ୍ତନ କରିବା"
+],
+"answer": "ସାହିତ୍ୟକୁ ସରସ, ସୁନ୍ଦର ଓ ରମଣୀୟ କରିବା",
+"explanation": "Jaise gehne (ornaments) body ko sundar banate hain, waise hi Alankara literature ko beautiful, interesting aur attractive banate hain."
+},
+{
+"questionEnglish": "Broadly, into how many categories is Alankara divided?",
+"questionOdia": "କାବ୍ୟର ଅଳଙ୍କାରକୁ ମୁଖ୍ୟତଃ କେତେ ଭାଗରେ ବିଭକ୍ତ କରାଯାଏ?",
+"options": [
+"ଦୁଇ ଭାଗରେ (ଶବ୍ଦାଳଙ୍କାର ଓ ଅର୍ଥାଳଙ୍କାର)",
+"ତିନି ଭାଗରେ",
+"ଚାରି ଭାଗରେ",
+"ପାଞ୍ଚ ଭାଗରେ"
+],
+"answer": "ଦୁଇ ଭାଗରେ (ଶବ୍ଦାଳଙ୍କାର ଓ ଅର୍ଥାଳଙ୍କାର)",
+"explanation": "Alankara mainly do type ke hote hain: Shabdalankara (Word-based) aur Arthalankara (Meaning-based)."
+},
+{
+"questionEnglish": "What is 'Anuprasa' Alankara?",
+"questionOdia": "'ଅନୁପ୍ରାସ' ଅଳଙ୍କାର କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ଦୁଇଟି ଭିନ୍ନ ଅର୍ଥ ଥିବା ଶବ୍ଦର ପ୍ରୟୋଗ",
+"ପଦମଧ୍ୟରେ ଏକ ବା ଏକାଧିକ ବ୍ୟଞ୍ଜନବର୍ଣ୍ଣର ବାରମ୍ବାର ଉଚ୍ଚାରଣ",
+"ଗୋଟିଏ ଶବ୍ଦର ଦୁଇଟି ଅର୍ଥ ବାହାରିବା",
+"ଉପମେୟ ଓ ଉପମାନର ତୁଳନା"
+],
+"answer": "ପଦମଧ୍ୟରେ ଏକ ବା ଏକାଧିକ ବ୍ୟଞ୍ଜନବର୍ଣ୍ଣର ବାରମ୍ବାର ଉଚ୍ଚାରଣ",
+"explanation": "Jab kisi sentence mein ek ya ek se zyada consonants (Byanjana Barna) baar-baar repeat hote hain, use Anuprasa (Alliteration) kehte hain."
+},
+{
+"questionEnglish": "What defines 'Jamaka' (Yamak) Alankara?",
+"questionOdia": "'ଯମକ' ଅଳଙ୍କାରର ଲକ୍ଷଣ କ'ଣ?",
+"options": [
+"ଭିନ୍ନାର୍ଥବୋଧକ ଏକପ୍ରକାର ଶବ୍ଦର ବାରମ୍ବାର ଆବୃତ୍ତି",
+"କେବଳ ସ୍ୱରବର୍ଣ୍ଣର ପୁନରାବୃତ୍ତି",
+"ଗୋଟିଏ ଶବ୍ଦରେ ଅନେକ ଅର୍ଥ ରହିବା",
+"ଗୋଟିଏ ବସ୍ତୁକୁ ଅନ୍ୟ ଏକ ବସ୍ତୁ ସହ ତୁଳନା କରିବା"
+],
+"answer": "ଭିନ୍ନାର୍ଥବୋଧକ ଏକପ୍ରକାର ଶବ୍ଦର ବାରମ୍ବାର ଆବୃତ୍ତି",
+"explanation": "Jab same sound wale words repeat hote hain lekin har baar unka meaning alag hota hai, use Jamaka (Yamak) Alankara kehte hain."
+},
+{
+"questionEnglish": "What is 'Shlesha' (Slesha) Alankara?",
+"questionOdia": "'ଶ୍ଳେଷ' ଅଳଙ୍କାର କାହାକୁ କହନ୍ତି?",
+"options": [
+"ବ୍ୟଞ୍ଜନ ବର୍ଣ୍ଣର ଆବୃତ୍ତିକୁ",
+"ଯେଉଁଠାରେ ଗୋଟିଏ ଶବ୍ଦ ଦୁଇ ବା ତହିଁରୁ ଅଧିକ ଭିନ୍ନାର୍ଥ ପ୍ରକାଶ କରେ",
+"ସମାନ ଅର୍ଥ ଥିବା ଦୁଇଟି ଶବ୍ଦର ପ୍ରୟୋଗକୁ",
+"କବିତାରେ ପ୍ରଶ୍ନ ପଚାରିବା ଶୈଳୀକୁ"
+],
+"answer": "ଯେଉଁଠାରେ ଗୋଟିଏ ଶବ୍ଦ ଦୁଇ ବା ତହିଁରୁ ଅଧିକ ଭିନ୍ନାର୍ଥ ପ୍ରକାଶ କରେ",
+"explanation": "Jab ek single word ke ek se zyada (multiple) meanings nikalte hain context ke hisaab se, use Shlesha (Pun) Alankara kehte hain."
+},
+{
+"questionEnglish": "Which of the following is an Arthalankara (Meaning-based Alankara)?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଅର୍ଥାଳଙ୍କାର ଅଟେ?",
+"options": [
+"ଯମକ",
+"ଅନୁପ୍ରାସ",
+"ଶ୍ଳେଷ",
+"ଉପମା"
+],
+"answer": "ଉପମା",
+"explanation": "Anuprasa, Jamaka, aur Shlesha 'Shabdalankara' hain. Upama (Simile) ek 'Arthalankara' hai jahan meaning ke aadhar par comparison hota hai."
+},
+{
+"questionEnglish": "In 'Upama' Alankara, what is the object being compared called?",
+"questionOdia": "ଉପମା ଅଳଙ୍କାରରେ ଯାହାକୁ ତୁଳନା ଦିଆଯାଏ, ତାକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ଉପମାନ",
+"ଉପମେୟ",
+"ସାଧାରଣ ଧର୍ମ",
+"ଉପମାବାଚକ ଶବ୍ଦ"
+],
+"answer": "ଉପମେୟ",
+"explanation": "Jis chiz ki tulna (comparison) ki jati hai, use Upameya kehte hain."
+},
+{
+"questionEnglish": "In 'Upama' Alankara, what is the object it is compared TO called?",
+"questionOdia": "ଯାହା ସହିତ ତୁଳନା କରାଯାଏ, ତାକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ଉପମେୟ",
+"ଉପମାନ",
+"ରୂପକ",
+"ଅବ୍ୟୟ"
+],
+"answer": "ଉପମାନ",
+"explanation": "Jis best ya famous chiz ke PESAAT (with) tulna ki jati hai, use Upamana kehte hain (Jaise: Mukh Chand jaisa, yahan Chand Upamana hai)."
+},
+{
+"questionEnglish": "Which of these are Upamabachaka Shabda (Words of Comparison)?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଗୁଡ଼ିକ ଉପମାବାଚକ ଶବ୍ଦ ଅଟନ୍ତି?",
+"options": [
+"ଏବଂ, ଓ, କିନ୍ତୁ",
+"ଅବା, କିବା, ସତେକି",
+"ପରି, ତୁଲ୍ୟ, ସଦୃଶ, ଯଥା",
+"ନାହିଁ, ନ, ମାତ୍ର"
+],
+"answer": "ପରି, ତୁଲ୍ୟ, ସଦୃଶ, ଯଥା",
+"explanation": "Pari, Tulya, Sadrusha, Jatha etc., comparison dikhate hain (like, as) isliye inko Upamabachaka shabda kehte hain."
+},
+{
+"questionEnglish": "What happens in 'Utpreksha' Alankara?",
+"questionOdia": "'ଉତ୍ପ୍ରେକ୍ଷା' ଅଳଙ୍କାରରେ କ'ଣ କରାଯାଇଥାଏ?",
+"options": [
+"ପ୍ରକୃତ ବସ୍ତୁରେ ଅପ୍ରକୃତ ବସ୍ତୁର ସମ୍ଭାବନା ବା ତର୍କଣା କରାଯାଏ",
+"ଦୁଇଟି ବସ୍ତୁକୁ ସମ୍ପୂର୍ଣ୍ଣ ସମାନ ଦର୍ଶାଯାଏ",
+"ଗୋଟିଏ ଶବ୍ଦକୁ ବାରମ୍ବାର ବ୍ୟବହାର କରାଯାଏ",
+"ଗୋଟିଏ ବିଶେଷଣର ବ୍ୟବହାର ହୁଏ"
+],
+"answer": "ପ୍ରକୃତ ବସ୍ତୁରେ ଅପ୍ରକୃତ ବସ୍ତୁର ସମ୍ଭାବନା ବା ତର୍କଣା କରାଯାଏ",
+"explanation": "Jab Upameya (real object) mein Upamana (unreal object) ki sambhavna (possibility/imagination) ki jati hai, use Utpreksha kehte hain."
+},
+{
+"questionEnglish": "Which words indicate the presence of 'Utpreksha' Alankara?",
+"questionOdia": "'ଉତ୍ପ୍ରେକ୍ଷା' ଅଳଙ୍କାର ଚିହ୍ନିବା ପାଇଁ କେଉଁ ଶବ୍ଦଗୁଡ଼ିକ ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"ପରି, ଯେହ୍ନେ, ତଥା",
+"କି, ସତେକି, ଅବା, କିବା, ବୋଧେ",
+"ଓ, ଏବଂ, ମାତ୍ର",
+"ଯେହେତୁ, ସେହେତୁ"
+],
+"answer": "କି, ସତେକି, ଅବା, କିବା, ବୋଧେ",
+"explanation": "Ki, Sateki, Aba, Kiba, Bodhe words imagination ya guess show karte hain, jo Utpreksha Alankara ki pehchan hain."
+},
+{
+"questionEnglish": "What defines 'Rupaka' Alankara?",
+"questionOdia": "'ରୂପକ' ଅଳଙ୍କାରର ମୁଖ୍ୟ ଲକ୍ଷଣ କ'ଣ?",
+"options": [
+"ଉପମାନ ଓ ଉପମେୟ ମଧ୍ୟରେ ଅଭେଦ କଳ୍ପିତ ହେବା ଏବଂ ଆରୋପ ହେବା",
+"ଦୁଇଟି ଶବ୍ଦର ସମାନ ଉଚ୍ଚାରଣ",
+"ବାକ୍ୟରେ ପ୍ରଶ୍ନ ପଚାରିବା",
+"ଶବ୍ଦକୁ ଭାଙ୍ଗି ଅର୍ଥ କରିବା"
+],
+"answer": "ଉପମାନ ଓ ଉପମେୟ ମଧ୍ୟରେ ଅଭେଦ କଳ୍ପିତ ହେବା ଏବଂ ଆରୋପ ହେବା",
+"explanation": "Jab Upameya aur Upamana mein koi difference nahi mana jata (Abheda kalpana), use Rupaka (Metaphor) kehte hain."
+},
+{
+"questionEnglish": "Identify the type of sentence: 'Tame kana kamaku pariba?'",
+"questionOdia": "'ତମେ କ'ଣ କାମକୁ ପାରିବ ?' - ଏହା କି ପ୍ରକାର ବାକ୍ୟ?",
+"options": [
+"ବିବୃତିସୂଚକ ବାକ୍ୟ",
+"ନାସ୍ତିସୂଚକ ବାକ୍ୟ",
+"ପ୍ରଶ୍ନସୂଚକ ବାକ୍ୟ",
+"ବିସ୍ମୟସୂଚକ ବାକ୍ୟ"
+],
+"answer": "ପ୍ରଶ୍ନସୂଚକ ବାକ୍ୟ",
+"explanation": "Isme question (Prashna) pucha gaya hai ('Kana' - What), isliye yeh Prashnasuchaka Bakya hai."
+},
+{
+"questionEnglish": "What is the correct transformation of 'Aji ki tana khara!'?",
+"questionOdia": "'ଆଜି କି ଟାଣ ଖରା !' - ଏହାକୁ ବିବୃତିସୂଚକ ବାକ୍ୟରେ ରୂପାନ୍ତର କଲେ କ'ଣ ହେବ?",
+"options": [
+"ଆଜି ଆଦୌ ଖରା ନାହିଁ।",
+"ଆଜି ବହୁତ ଟାଣ ଖରା ହୋଇଛି।",
+"ଆଜି ଖରା ହେବ କି?",
+"ଖରା ଆଜି ଟାଣ ନୁହେଁ।"
+],
+"answer": "ଆଜି ବହୁତ ଟାଣ ଖରା ହୋଇଛି।",
+"explanation": "Exclamatory sentence ko simple declarative (Bibrutisuchaka) mein change karne par banega: Aji bahut tana khara hoichhi."
+},
+{
+"questionEnglish": "In the phrase 'Daridrata pankapurna mo jibana-sara', which Alankara is used?",
+"questionOdia": "'ଦରିଦ୍ରତା ପଙ୍କପୂର୍ଣ୍ଣ ମୋ ଜୀବନ-ସର' - ଏହି ପଦରେ କେଉଁ ଅଳଙ୍କାର ପ୍ରୟୋଗ କରାଯାଇଛି?",
+"options": [
+"ଉପମା",
+"ରୂପକ",
+"ଯମକ",
+"ଉତ୍ପ୍ରେକ୍ଷା"
+],
+"answer": "ରୂପକ",
+"explanation": "Yahan 'Daridrata' ko 'Panka' aur 'Jibana' ko 'Sara' (lake) maan liya gaya hai (Metaphor). Isliye yeh Rupaka Alankara hai."
+},
+{
+"questionEnglish": "What is a 'Tathyabhittika Bibarani' (Feature/Report)?",
+"questionOdia": "'ତଥ୍ୟଭିତ୍ତିକ ବିବରଣୀ' ବା ଫିଚର କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"କେବଳ ଏକ କାଳ୍ପନିକ ଗଳ୍ପ",
+"କୌଣସି ଏକ ତଥ୍ୟ ଉପରେ ଆଧାରିତ ସାମାଜିକ, ସାଂସ୍କୃତିକ ଆଦି ସମ୍ବାଦଧର୍ମୀ ସାହିତ୍ୟ",
+"କେବଳ ଗୋଟିଏ କବିତା",
+"ଅଫିସର ଆକାଉଣ୍ଟସ୍ ଖାତା"
+],
+"answer": "କୌଣସି ଏକ ତଥ୍ୟ ଉପରେ ଆଧାରିତ ସାମାଜିକ, ସାଂସ୍କୃତିକ ଆଦି ସମ୍ବାଦଧର୍ମୀ ସାହିତ୍ୟ",
+"explanation": "Real facts, social/cultural issues par based interesting aur literary report ko Tathyabhittika Bibarani ya Feature kehte hain."
+},
+{
+"questionEnglish": "In an official file (Nathi), what is a 'Tippani' (Noting)?",
+"questionOdia": "ସରକାରୀ ନଥୁରେ 'ଟିପ୍‌ପଣୀ' କ'ଣ?",
+"options": [
+"ଚିଠିର ଏକ କାଳ୍ପନିକ ଉତ୍ତର",
+"ନଥୁରେ ଚିଠିର ସାରାଂଶ ଲେଖି ଉପରିସ୍ଥ ଅଧିକାରୀଙ୍କ ମତାମତ ବା ଆଦେଶ ପାଇଁ ପ୍ରସ୍ତୁତ ଲେଖା",
+"କେବଳ ଚିଠିର ତାରିଖ",
+"ଅଫିସରଙ୍କର ଦରମା ହିସାବ"
+],
+"answer": "ନଥୁରେ ଚିଠିର ସାରାଂଶ ଲେଖି ଉପରିସ୍ଥ ଅଧିକାରୀଙ୍କ ମତାମତ ବା ଆଦେଶ ପାଇଁ ପ୍ରସ୍ତୁତ ଲେଖା",
+"explanation": "Official files mein kisi letter ki summary likhkar seniors ki opinion ya order lene ki process ko Noting (Tippani) kehte hain."
+},
+{
+"questionEnglish": "What is a 'Chitha' (Draft) in official work?",
+"questionOdia": "କାର୍ଯ୍ୟାଳୟରେ 'ଚିଠା' ପ୍ରସ୍ତୁତି କାହାକୁ କହନ୍ତି?",
+"options": [
+"ଖବରକାଗଜ ପଢ଼ିବା",
+"ଟିପ୍‌ପଣୀରେ ସିଦ୍ଧାନ୍ତ ନିଆଯିବା ପରେ ବାହାରକୁ ପଠାଯାଉଥିବା ପତ୍ରର ଏକ ପ୍ରାଥମିକ ଲେଖା ବା ଡ୍ରାଫ୍ଟ",
+"ଅଫିସର କ୍ୟାଣ୍ଟିନ ଖର୍ଚ୍ଚ",
+"କର୍ମଚାରୀଙ୍କ ଉପସ୍ଥାନ ଖାତା"
+],
+"answer": "ଟିପ୍‌ପଣୀରେ ସିଦ୍ଧାନ୍ତ ନିଆଯିବା ପରେ ବାହାରକୁ ପଠାଯାଉଥିବା ପତ୍ରର ଏକ ପ୍ରାଥମିକ ଲେଖା ବା ଡ୍ରାଫ୍ଟ",
+"explanation": "Decision hone ke baad final letter bhejne se pehle jo rough structure (draft) tayar kiya jata hai, use Chitha (Drafting) kehte hain."
+},
+{
+"questionEnglish": "What kind of language should be used in official drafts (Sarakari Chitha)?",
+"questionOdia": "ସରକାରୀ ଚିଠାରେ କିପରି ଭାଷା ବ୍ୟବହାର ହେବା ଉଚିତ?",
+"options": [
+"ଭାବପ୍ରବଣ ଓ ଆଳଙ୍କାରିକ",
+"ସରଳ, ସଂକ୍ଷିପ୍ତ, ସ୍ପଷ୍ଟ, ପ୍ରାଞ୍ଜଳ ଓ ସଂଯତ",
+"ଦୀର୍ଘ ଏବଂ ଜଟିଳ",
+"ଅର୍ଥହୀନ ଶବ୍ଦରେ ପୂର୍ଣ୍ଣ"
+],
+"answer": "ସରଳ, ସଂକ୍ଷିପ୍ତ, ସ୍ପଷ୍ଟ, ପ୍ରାଞ୍ଜଳ ଓ ସଂଯତ",
+"explanation": "Official documents mein language simple, short, clear aur disciplined (formal) honi chahiye. Emotions ya literature ka use nahi hota."
+},
+{
+"questionEnglish": "Which spelling is correct?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ ଶୁଦ୍ଧ ଶବ୍ଦଟି ଚିହ୍ନଟ କର:",
+"options": [
+"ଅଞ୍ଜଳ",
+"ଅଞ୍ଜଳି",
+"ଅନୁସୂୟା",
+"ଅନୁଦିତ"
+],
+"answer": "ଅଞ୍ଜଳି",
+"explanation": "'Anjali' is the correct spelling. 'Anusua' should be 'Anasuya', 'Anudita' should be 'Anudita' with deergha-u."
+},
+{
+"questionEnglish": "Find the correct spelling among these.",
+"questionOdia": "ଶୁଦ୍ଧ ଶବ୍ଦଟି ବାଛ:",
+"options": [
+"ଭୂବନେଶ୍ବର",
+"ଭୁବନେଶ୍ବର",
+"ଭୁବନେସର",
+"ଭୁବନ୍ନେଶ୍ୱର"
+],
+"answer": "ଭୁବନେଶ୍ବର",
+"explanation": "Correct spelling of Bhubaneswar in Odia is ଭୁବନେଶ୍ବର (Bhubaneswara)."
+},
+{
+"questionEnglish": "Correct the spelling: 'ଆଶ୍ରୀବାଦ'",
+"questionOdia": "'ଆଶ୍ରୀବାଦ' ର ଶୁଦ୍ଧ ରୂପ କ'ଣ?",
+"options": [
+"ଆର୍ଶୀବାଦ",
+"ଆସୀର୍ବାଦ",
+"ଆଶୀର୍ବାଦ",
+"ଆସ୍ରୀବାଦ"
+],
+"answer": "ଆଶୀର୍ବାଦ",
+"explanation": "The correct Odia spelling is ଆଶୀର୍ବାଦ (Aashirbada)."
+},
+{
+"questionEnglish": "What does the idiom 'Chhai na madiba' mean?",
+"questionOdia": "'ଛାଇ ନ ମାଡ଼ିବା' ରୂଢ଼ିର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଖରାରେ ଚାଲିବା",
+"ସବୁ ସମ୍ପର୍କ ଛିନ୍ନ କରିବା ବା ପାଖ ନମାଡିବା",
+"ଗଛ ମୂଳେ ବସିବା",
+"ସାହାଯ୍ୟ ମାଗିବା"
+],
+"answer": "ସବୁ ସମ୍ପର୍କ ଛିନ୍ନ କରିବା ବା ପାଖ ନମାଡିବା",
+"explanation": "'Chhai na madiba' (kisi ki parchhai tak na padne dena) ka matlab hai sab relations break kar dena (to cut all ties)."
+},
+{
+"questionEnglish": "What is the meaning of 'Upara thauria'?",
+"questionOdia": "'ଉପର ଠାଉରିଆ' ରୂଢ଼ିର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଉଚ୍ଚ ସ୍ଥାନ",
+"ଗଭୀରତାର ଅଭାବ, ସାରବତ୍ତାର ଅଭାବ",
+"ଆକାଶକୁ ଚାହିଁବା",
+"ବହୁତ ବୁଦ୍ଧିମାନ"
+],
+"answer": "ଗଭୀରତାର ଅଭାବ, ସାରବତ୍ତାର ଅଭାବ",
+"explanation": "Bina depth ya knowledge ke upar-upar ki baat karna (superficial) ko 'Upara thauria' kehte hain."
+},
+{
+"questionEnglish": "What does the phrase 'Kuha munda Kapila' imply?",
+"questionOdia": "'କୁହା ମୁଣ୍ଡା କପିଳା' ରୂଢ଼ି କେଉଁ ଅର୍ଥରେ ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"ବହୁ ଅବାନ୍ତର କଥା କହିବା ଲୋକ",
+"ଚୁପଚାପ୍ ବସିବା ବ୍ୟକ୍ତି",
+"ଭଲ ଉପଦେଶ ଦେବା",
+"କାମିକା ଲୋକ"
+],
+"answer": "ବହୁ ଅବାନ୍ତର କଥା କହିବା ଲୋକ",
+"explanation": "Jo insan sirf useless baatein (boast) karta hai aur kaam nahi karta, use 'Kuha munda Kapila' kehte hain."
+},
+{
+"questionEnglish": "What is the meaning of the comparative idiom 'Baraḍa patra pari thariba'?",
+"questionOdia": "'ବରଡ଼ା ପତ୍ର ପରି ଥରିବା' ତୁଳନାତ୍ମକ ରୂଢ଼ିର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଅତ୍ୟଧିକ ରାଗିଯିବା",
+"ଭୟରେ ଖୁବ୍ ଥରିବା",
+"ଆନନ୍ଦିତ ହେବା",
+"ଜୋରରେ ପବନ ବହିବା"
+],
+"answer": "ଭୟରେ ଖୁବ୍ ଥରିବା",
+"explanation": "Darr se patte (barada patra) ki tarah kaanpne ko yeh idiom express karta hai."
+},
+{
+"questionEnglish": "What is meant by the proverb 'Alasua ra barabati chasa'?",
+"questionOdia": "ଲୋକବାଣୀ 'ଅଳସୁଆର ବାରବାଟୀ ଚାଷ' ର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ନିକମ୍ମା ବା ଅଳସୁଆ ଲୋକର ବୃଥା ଆସ୍ଫାଳନ",
+"ଅଳସୁଆ ବହୁତ ଚାଷ କରେ",
+"ବାରବାଟୀରେ ଚାଷ କରିବା ଲାଭଜନକ",
+"କଠିନ ପରିଶ୍ରମ"
+],
+"answer": "ନିକମ୍ମା ବା ଅଳସୁଆ ଲୋକର ବୃଥା ଆସ୍ଫାଳନ",
+"explanation": "Ek aalsi (lazy) insaan jab badi-badi useless baatein karta hai, tab use 'Alasua ra barabati chasa' kehte hain."
+},
+{
+"questionEnglish": "What does 'Jesa ku tesa' mean?",
+"questionOdia": "'ଯେସାକୁ ତେସା' ଲୋକବାଣୀର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଭଲ ବ୍ୟବହାର କରିବା",
+"ଯେ ଯେପରି ବ୍ୟବହାର ଦେଖାଇବ ତା ପାଇଁ ଅନୁରୂପ ବ୍ୟବହାର (Tit for tat)",
+"ଖରାପ ଲୋକଠାରୁ ଦୂରେଇ ରହିବା",
+"ବନ୍ଧୁତା ସ୍ଥାପନ କରିବା"
+],
+"answer": "ଯେ ଯେପରି ବ୍ୟବହାର ଦେଖାଇବ ତା ପାଇଁ ଅନୁରୂପ ବ୍ୟବହାର (Tit for tat)",
+"explanation": "'Jesa ku tesa' yaani Tit for Tat. Jaisa behaviour koi karega, uske sath waisa hi treat karna."
+}
+]
