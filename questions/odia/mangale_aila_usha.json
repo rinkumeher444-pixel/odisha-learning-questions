@@ -1,0 +1,1154 @@
+[
+{
+"questionEnglish": "Who is the poet of the poem 'Mangale Aila Usha'?",
+"questionOdia": "'ମଙ୍ଗଳେ ଅଇଲା ଉଷା' କବିତାର କବି କିଏ?",
+"options": [
+"ସାରଳା ଦାସ",
+"ଭକ୍ତକବି ମଧୁସୂଦନ ରାଓ",
+"ରାଧାନାଥ ରାୟ",
+"ଗଙ୍ଗାଧର ମେହେର"
+],
+"answer": "ଭକ୍ତକବି ମଧୁସୂଦନ ରାଓ",
+"explanation": "ଏହି କବିତାଟି ଭକ୍ତକବି ମଧୁସୂଦନ ରାଓଙ୍କ ଦ୍ଵାରା ରଚିତ।"
+},
+{
+"questionEnglish": "What does the word 'Mangale' symbolize in the poem?",
+"questionOdia": "କବିତାରେ 'ମଙ୍ଗଳେ' ଶବ୍ଦ କଣ ସୂଚାଏ?",
+"options": [
+"ଅଶୁଭ",
+"କଲ୍ୟାଣକର ବା ଶୁଭ",
+"ଦୁଃଖ",
+"ଭୟ"
+],
+"answer": "କଲ୍ୟାଣକର ବା ଶୁଭ",
+"explanation": "ମଙ୍ଗଳେ ଅର୍ଥାତ୍ ଶୁଭ ଉପାୟରେ ବା କଲ୍ୟାଣକର ଭାବରେ ଉଷାର ଆଗମନ।"
+},
+{
+"questionEnglish": "What is the primary theme of the poem 'Mangale Aila Usha'?",
+"questionOdia": "'ମଙ୍ଗଳେ ଅଇଲା ଉଷା' କବିତାର ମୁଖ୍ୟ ବିଷୟବସ୍ତୁ କଣ?",
+"options": [
+"ରାଜନୀତି",
+"ପ୍ରାତଃକାଳର ପ୍ରାକୃତିକ ଶୋଭା",
+"ଯୁଦ୍ଧ",
+"ବ୍ୟବସାୟ"
+],
+"answer": "ପ୍ରାତଃକାଳର ପ୍ରାକୃତିକ ଶୋଭା",
+"explanation": "ଏହି କବିତାରେ ଭୋର ବା ପ୍ରାତଃକାଳର ସୌନ୍ଦର୍ଯ୍ୟ ଓ ଶାନ୍ତିର ବର୍ଣ୍ଣନା କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "How is the arrival of Usha (dawn) described?",
+"questionOdia": "ଉଷାର ଆଗମନକୁ କିପରି ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"options": [
+"ଭୟଙ୍କର ଭାବେ",
+"ଶାନ୍ତ ଓ ମଙ୍ଗଳମୟ ଭାବେ",
+"ଦ୍ରୁତ ଗତିରେ",
+"ଅନ୍ଧକାରରେ"
+],
+"answer": "ଶାନ୍ତ ଓ ମଙ୍ଗଳମୟ ଭାବେ",
+"explanation": "ଉଷା ଶାନ୍ତି ଓ କଲ୍ୟାଣ ବାର୍ତ୍ତା ନେଇ ଆଗମନ କରିଥାଏ।"
+},
+{
+"questionEnglish": "What happens to the darkness of the night when dawn arrives?",
+"questionOdia": "ଉଷା ଆସିଲେ ରାତିର ଅନ୍ଧକାର କଣ ହୁଏ?",
+"options": [
+"ଅଧିକ ଗାଢ଼ ହୁଏ",
+"ଦୂର ହୋଇଯାଏ",
+"ସ୍ଥିର ରହେ",
+"କିଛି ପରିବର୍ତ୍ତନ ହୁଏ ନାହିଁ"
+],
+"answer": "ଦୂର ହୋଇଯାଏ",
+"explanation": "ସୂର୍ଯ୍ୟୋଦୟ ବା ଉଷା ଆଗମନ ସହ ଅନ୍ଧକାର ଦୂର ହୋଇଯାଏ।"
+},
+{
+"questionEnglish": "Which bird’s chirping is often associated with the dawn in literature?",
+"questionOdia": "ସାହିତ୍ୟରେ ପ୍ରାତଃକାଳରେ କେଉଁ ପକ୍ଷୀର କାକଳିକୁ ଅଧିକ ଗୁରୁତ୍ଵ ଦିଆଯାଏ?",
+"options": [
+"କାଉ",
+"କୁକୁଡ଼ା",
+"ଚଢ଼େଇ (ପକ୍ଷୀ)",
+"ଶାଗୁଣା"
+],
+"answer": "ଚଢ଼େଇ (ପକ୍ଷୀ)",
+"explanation": "ଭୋର ହେଲେ ଚଢ଼େଇମାନଙ୍କ କାକଳି ପ୍ରକୃତିକୁ ଜୀବନ୍ତ କରେ।"
+},
+{
+"questionEnglish": "What is the effect of the morning breeze (bata) mentioned?",
+"questionOdia": "ସକାଳର ପବନର ପ୍ରଭାବ କଣ?",
+"options": [
+"ମନକୁ ଶାନ୍ତ ଓ ପ୍ରଫୁଲ୍ଲ କରେ",
+"ମନରେ ଭୟ ସୃଷ୍ଟି କରେ",
+"କିଛି ନୁହେଁ",
+"ଅସୁସ୍ଥତା ବଢ଼ାଏ"
+],
+"answer": "ମନକୁ ଶାନ୍ତ ଓ ପ୍ରଫୁଲ୍ଲ କରେ",
+"explanation": "ମଳୟ ବା ସକାଳର ପବନ ସତେଜତା ଓ ଆନନ୍ଦ ଆଣିଥାଏ।"
+},
+{
+"questionEnglish": "Is nature portrayed as happy in the poem?",
+"questionOdia": "କବିତାରେ ପ୍ରକୃତି କଣ ଖୁସି ଥିବା ପରି ମନେ ହୁଏ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଉଷାର ଆଗମନରେ ସମଗ୍ର ପ୍ରକୃତି ଖୁସି ଓ ଉଲ୍ଲସିତ ହୋଇପଡ଼େ।"
+},
+{
+"questionEnglish": "What does the dew (shishira) on the leaves symbolize?",
+"questionOdia": "ପତ୍ରରେ ଥିବା ଶିଶିର କଣ ସୂଚାଏ?",
+"options": [
+"ଦୁଃଖ",
+"ସୌନ୍ଦର୍ଯ୍ୟ ଓ ଶାନ୍ତି",
+"ଭୟ",
+"ଅଶୁଭ"
+],
+"answer": "ସୌନ୍ଦର୍ଯ୍ୟ ଓ ଶାନ୍ତି",
+"explanation": "ଭୋର ସମୟରେ ପତ୍ରରେ ଥିବା ଶିଶିର ମୋତି ପରି ଚକ୍‌ଚକ୍ କରେ, ଯାହା ସୌନ୍ଦର୍ଯ୍ୟର ପ୍ରତୀକ।"
+},
+{
+"questionEnglish": "Does the poem inspire hope?",
+"questionOdia": "ଏହି କବିତା କଣ ଆଶାର ସଞ୍ଚାର କରେ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଉଷାର ଆଗମନ ନୂତନ ଆଶା ଓ ଜୀବନର ପ୍ରତୀକ।"
+},
+{
+"questionEnglish": "What is the mood of the poet in this poem?",
+"questionOdia": "ଏହି କବିତାରେ କବିଙ୍କ ମାନସିକ ଅବସ୍ଥା କିପରି?",
+"options": [
+"ଦୁଃଖିତ",
+"ଆନନ୍ଦିତ ଓ ଭକ୍ତିପୂର୍ଣ୍ଣ",
+"ରାଗୀ",
+"ଉଦାସ"
+],
+"answer": "ଆନନ୍ଦିତ ଓ ଭକ୍ତିପୂର୍ଣ୍ଣ",
+"explanation": "କବି ପ୍ରକୃତିର ସୌନ୍ଦର୍ଯ୍ୟ ଦେଖି ଆନନ୍ଦିତ ଓ ଭକ୍ତିଭାବରେ ବିଭୋର।"
+},
+{
+"questionEnglish": "Are flowers blooming described in the poem?",
+"questionOdia": "ଫୁଲ ଫୁଟିବାର ବର୍ଣ୍ଣନା ଅଛି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କିଛି ନୁହେଁ",
+"କେହି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସକାଳରେ ଫୁଲ ଫୁଟିବା ସୌନ୍ଦର୍ଯ୍ୟ ବଢ଼ାଇଥାଏ।"
+},
+{
+"questionEnglish": "Is God remembered in the poem?",
+"questionOdia": "କବିତାରେ ଭଗବାନଙ୍କୁ ସ୍ମରଣ କରାଯାଇଛି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଭକ୍ତକବି ମଧୁସୂଦନ ରାଓ ପ୍ରକୃତି ମାଧ୍ୟମରେ ଭଗବାନଙ୍କୁ ଆରାଧନା କରନ୍ତି।"
+},
+{
+"questionEnglish": "What time is 'Usha'?",
+"questionOdia": "'ଉଷା' କେଉଁ ସମୟ?",
+"options": [
+"ମଧ୍ୟରାତ୍ରି",
+"ସୂର୍ଯ୍ୟୋଦୟ ପୂର୍ବବର୍ତ୍ତୀ ସମୟ",
+"ଦିନ",
+"ସନ୍ଧ୍ୟା"
+],
+"answer": "ସୂର୍ଯ୍ୟୋଦୟ ପୂର୍ବବର୍ତ୍ତୀ ସମୟ",
+"explanation": "ଉଷା ଅର୍ଥାତ୍ ଭୋର ବା ପ୍ରଭାତ ସମୟ।"
+},
+{
+"questionEnglish": "Is peace felt throughout the poem?",
+"questionOdia": "ସମଗ୍ର କବିତାରେ ଶାନ୍ତି ଅନୁଭବ ହୁଏ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ଅଶାନ୍ତି",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଭୋର ସମୟର ନିରବତା ଶାନ୍ତି ଆଣିଥାଏ।"
+},
+{
+"questionEnglish": "Does the poet use simple language?",
+"questionOdia": "କବି ସରଳ ଭାଷା ବ୍ୟବହାର କରିଛନ୍ତି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଭକ୍ତକବି ମଧୁସୂଦନ ରାଓଙ୍କ କବିତା ସବୁବେଳେ ସରଳ ଓ ବୋଧଗମ୍ୟ।"
+},
+{
+"questionEnglish": "Is the light of dawn compared to anything?",
+"questionOdia": "ଉଷାର ଆଲୋକ କାହା ସହ ତୁଳନା କରାଯାଇଛି?",
+"options": [
+"ଅନ୍ଧାର",
+"ଶୁଭ୍ର ଆଲୋକ",
+"ବିପଦ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ଶୁଭ୍ର ଆଲୋକ",
+"explanation": "ଉଷାର ଆଲୋକ ଶୁଭ୍ର ଓ ପବିତ୍ର।"
+},
+{
+"questionEnglish": "Is there a sense of holiness?",
+"questionOdia": "ଏଠାରେ ପବିତ୍ରତାର ଭାବ ଅଛି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଭୋର ସମୟ ପବିତ୍ର ଓ ଶାନ୍ତ।"
+},
+{
+"questionEnglish": "Is this a devotional poem?",
+"questionOdia": "ଏହା କଣ ଏକ ଭକ୍ତିମୂଳକ କବିତା?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଏହା ଭକ୍ତିଭାବରେ ପରିପୂର୍ଣ୍ଣ।"
+},
+{
+"questionEnglish": "Are we to be thankful for the dawn?",
+"questionOdia": "ଆମେ କଣ ଉଷା ପାଇଁ କୃତଜ୍ଞ ହେବା ଉଚିତ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ନୂତନ ଦିନ ପାଇଁ ଆମେ କୃତଜ୍ଞ।"
+},
+{
+"questionEnglish": "What does the sky look like?",
+"questionOdia": "ଆକାଶ କିପରି ଦିଶୁଛି?",
+"options": [
+"କଳା",
+"ପରିଷ୍କାର ଓ ସୁନ୍ଦର",
+"କିଛି ନୁହେଁ",
+"ମଳିନ"
+],
+"answer": "ପରିଷ୍କାର ଓ ସୁନ୍ଦର",
+"explanation": "ଉଷା ସମୟରେ ଆକାଶ ଅତ୍ୟନ୍ତ ସୁନ୍ଦର ଦିଶେ।"
+},
+{
+"questionEnglish": "Does the sun rise?",
+"questionOdia": "ସୂର୍ଯ୍ୟ ଉଦୟ ହୁଅନ୍ତି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୂର୍ଯ୍ୟ ଉଦୟ ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "Is life beautiful?",
+"questionOdia": "ଜୀବନ ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଜୀବନ ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Is nature pure?",
+"questionOdia": "ପ୍ରକୃତି ପବିତ୍ର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ପ୍ରକୃତି ପବିତ୍ର।"
+},
+{
+"questionEnglish": "Are we happy?",
+"questionOdia": "ଆମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମେ ଖୁସି।"
+},
+{
+"questionEnglish": "Who is our poet?",
+"questionOdia": "ଆମ କବି କିଏ?",
+"options": [
+"ମଧୁସୂଦନ ରାଓ",
+"କିଛି ନୁହେଁ",
+"କେହି ନୁହେଁ",
+"ରାଧାନାଥ"
+],
+"answer": "ମଧୁସୂଦନ ରାଓ",
+"explanation": "ଭକ୍ତକବି ମଧୁସୂଦନ ରାଓ।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+}
+]
