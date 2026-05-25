@@ -1,0 +1,1142 @@
+[
+{
+"questionEnglish": "Who is the author of the story 'Mitrata'?",
+"questionOdia": "'ମିତ୍ରତା' ଗଳ୍ପର ଲେଖକ କିଏ?",
+"options": [
+"ଫକୀର ମୋହନ ସେନାପତି",
+"ଆଚାର୍ଯ୍ୟ ରାମଚନ୍ଦ୍ର ଶୁକ୍ଳ",
+"ଗୋଦାବରୀଶ ମହାପାତ୍ର",
+"କାଳିନ୍ଦୀ ଚରଣ ପାଣିଗ୍ରାହୀ"
+],
+"answer": "ଆଚାର୍ଯ୍ୟ ରାମଚନ୍ଦ୍ର ଶୁକ୍ଳ",
+"explanation": "'ମିତ୍ରତା' ପ୍ରବନ୍ଧଟି ଆଚାର୍ଯ୍ୟ ରାମଚନ୍ଦ୍ର ଶୁକ୍ଳଙ୍କ ଦ୍ୱାରା ରଚିତ।"
+},
+{
+"questionEnglish": "What is considered a great virtue according to the text?",
+"questionOdia": "ପାଠ ଅନୁଯାୟୀ କେଉଁଟିକୁ ମହାନ୍ ଗୁଣ ଭାବରେ ବିବେଚନା କରାଯାଏ?",
+"options": [
+"ଧନ ସଞ୍ଚୟ",
+"ଉତ୍ତମ ମିତ୍ରତା",
+"କ୍ରୋଧ ନିୟନ୍ତ୍ରଣ",
+"କଠିନ ପରିଶ୍ରମ"
+],
+"answer": "ଉତ୍ତମ ମିତ୍ରତା",
+"explanation": "ପ୍ରବନ୍ଧରେ ଉତ୍ତମ ମିତ୍ରତାକୁ ଜୀବନର ଏକ ମହାନ୍ ଗୁଣ ଏବଂ ସମ୍ପଦ ଭାବରେ ବର୍ଣ୍ଣନା କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "What does a true friend do during difficult times?",
+"questionOdia": "କଷ୍ଟ ସମୟରେ ଜଣେ ସତ୍ୟ ବନ୍ଧୁ କଣ କରେ?",
+"options": [
+"ଛାଡି ପଳାଏ",
+"ସାହାଯ୍ୟ କରେ ଓ ଉତ୍ସାହ ଦିଏ",
+"ଉପହାସ କରେ",
+"ଦୂରରେ ରହେ"
+],
+"answer": "ସାହାଯ୍ୟ କରେ ଓ ଉତ୍ସାହ ଦିଏ",
+"explanation": "ସତ୍ୟ ବନ୍ଧୁ ସବୁବେଳେ ବିପଦ ସମୟରେ ପାଖରେ ରହି ସାହାଯ୍ୟ ଏବଂ ସାହସ ଦେଇଥାଏ।"
+},
+{
+"questionEnglish": "What kind of friends should be avoided?",
+"questionOdia": "କିଭଳି ବନ୍ଧୁମାନଙ୍କଠାରୁ ଦୂରେଇ ରହିବା ଉଚିତ?",
+"options": [
+"ଜ୍ଞାନୀ",
+"ସାଧୁ",
+"କୁସଙ୍ଗୀ ବା ଦୁଷ୍ଟ ବନ୍ଧୁ",
+"ଉତ୍ସାହୀ"
+],
+"answer": "କୁସଙ୍ଗୀ ବା ଦୁଷ୍ଟ ବନ୍ଧୁ",
+"explanation": "ଦୁଷ୍ଟ ବନ୍ଧୁ ସଙ୍ଗରେ ରହିଲେ ମଣିଷର ଚରିତ୍ର ନଷ୍ଟ ହୋଇଥାଏ, ତେଣୁ ସେମାନଙ୍କଠାରୁ ଦୂରେଇ ରହିବା ଉଚିତ।"
+},
+{
+"questionEnglish": "A good friend acts like which of the following?",
+"questionOdia": "ଜଣେ ଭଲ ବନ୍ଧୁ କାହା ଭଳି କାର୍ଯ୍ୟ କରେ?",
+"options": [
+"ଶତ୍ରୁ",
+"ଏକ ବଳିଷ୍ଠ କବଚ",
+"ଭାର",
+"ଅଜଣା ବ୍ୟକ୍ତି"
+],
+"answer": "ଏକ ବଳିଷ୍ଠ କବଚ",
+"explanation": "ଉତ୍ତମ ବନ୍ଧୁ ବିପଦରୁ ରକ୍ଷା କରି ଏକ କବଚ ପରି କାମ କରେ।"
+},
+{
+"questionEnglish": "Which age is most crucial for forming friendships?",
+"questionOdia": "ମିତ୍ରତା ଗଠନ ପାଇଁ କେଉଁ ବୟସ ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"ଶିଶୁ ଅବସ୍ଥା",
+"କୈଶୋର ବା ଯୁବାବସ୍ଥା",
+"ବୃଦ୍ଧାବସ୍ଥା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କୈଶୋର ବା ଯୁବାବସ୍ଥା",
+"explanation": "ଯୁବାବସ୍ଥାରେ ମିତ୍ର ଚୟନ ବହୁତ ସାବଧାନତାର ସହ କରିବା ଉଚିତ କାରଣ ଏହା ଜୀବନର ଭବିଷ୍ୟତ ନିର୍ଦ୍ଧାରଣ କରେ।"
+},
+{
+"questionEnglish": "How does friendship influence a person's character?",
+"questionOdia": "ମିତ୍ରତା ଜଣେ ବ୍ୟକ୍ତିର ଚରିତ୍ରକୁ କିପରି ପ୍ରଭାବିତ କରେ?",
+"options": [
+"କୌଣସି ପ୍ରଭାବ ପକାଏ ନାହିଁ",
+"ସୁଧାରେ ବା ବିଗାଡ଼େ",
+"କେବଳ ଧନ ବଢ଼ାଏ",
+"କେବଳ ଦୁଃଖ ଦିଏ"
+],
+"answer": "ସୁଧାରେ ବା ବିଗାଡ଼େ",
+"explanation": "ସଙ୍ଗତି ଅନୁସାରେ ମଣିଷର ମାନସିକତା ଏବଂ ଚରିତ୍ର ଗଢ଼ି ଉଠିଥାଏ।"
+},
+{
+"questionEnglish": "True friendship is based on what?",
+"questionOdia": "ସତ୍ୟ ମିତ୍ରତା କାହା ଉପରେ ଆଧାରିତ?",
+"options": [
+"ସ୍ୱାର୍ଥ",
+"ବିଶ୍ୱାସ ଓ ସହାନୁଭୂତି",
+"କେବଳ ଖେଳ",
+"ଟଙ୍କା ପଇସା"
+],
+"answer": "ବିଶ୍ୱାସ ଓ ସହାନୁଭୂତି",
+"explanation": "ପରସ୍ପର ପ୍ରତି ବିଶ୍ୱାସ ଏବଂ ସହାନୁଭୂତି ହିଁ ପ୍ରକୃତ ମିତ୍ରତାର ମୂଳଦୁଆ।"
+},
+{
+"questionEnglish": "What is the result of keeping bad company?",
+"questionOdia": "ଖରାପ ସଙ୍ଗରେ ରହିବାର ପରିଣାମ କଣ?",
+"options": [
+"ଉନ୍ନତି",
+"ଜୀବନର ଅବନତି",
+"ସୁଖ",
+"ଜ୍ଞାନ ବୃଦ୍ଧି"
+],
+"answer": "ଜୀବନର ଅବନତି",
+"explanation": "ଖରାପ ସଙ୍ଗ ଲୋକକୁ ପଥଭ୍ରଷ୍ଟ କରାଏ, ଯାହାଦ୍ୱାରା ଜୀବନର ସର୍ବନାଶ ହୁଏ।"
+},
+{
+"questionEnglish": "Friendship is compared to which type of medicine?",
+"questionOdia": "ମିତ୍ରତାକୁ କେଉଁ ପ୍ରକାର ଔଷଧ ସହ ତୁଳନା କରାଯାଇଛି?",
+"options": [
+"ବିଷ",
+"ଅମୃତ",
+"ଦୁର୍ବଳ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅମୃତ",
+"explanation": "ଉତ୍ତମ ବନ୍ଧୁ ଜୀବନରେ ଅମୃତ ସଦୃଶ କାର୍ଯ୍ୟ କରିଥାଏ।"
+},
+{
+"questionEnglish": "A friend who gives bad advice should be?",
+"questionOdia": "ଯେଉଁ ବନ୍ଧୁ ଭୁଲ ପରାମର୍ଶ ଦିଏ, ତାହାକୁ କଣ କରିବା ଉଚିତ?",
+"options": [
+"ମାନିବା ଉଚିତ",
+"ତ୍ୟାଗ କରିବା ଉଚିତ",
+"ସମ୍ମାନ ଦେବା ଉଚିତ",
+"କିଛି କରିବା ନାହିଁ"
+],
+"answer": "ତ୍ୟାଗ କରିବା ଉଚିତ",
+"explanation": "ଭୁଲ ରାସ୍ତା ଦେଖାଉଥିବା ବନ୍ଧୁ ମିତ୍ର ନୁହେଁ, ତେଣୁ ସେମାନଙ୍କୁ ଛାଡ଼ିଦେବା ହିଁ ଶ୍ରେୟସ୍କର।"
+},
+{
+"questionEnglish": "What quality should a friend possess?",
+"questionOdia": "ଜଣେ ବନ୍ଧୁର କେଉଁ ଗୁଣ ରହିବା ଆବଶ୍ୟକ?",
+"options": [
+"ସ୍ୱାର୍ଥପରତା",
+"ସଚ୍ଚୋଟତା",
+"କପଟତା",
+"ଅହଂକାର"
+],
+"answer": "ସଚ୍ଚୋଟତା",
+"explanation": "ବନ୍ଧୁ ହେବା ପାଇଁ ସଚ୍ଚୋଟତା ଅତ୍ୟନ୍ତ ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "How should one choose a friend?",
+"questionOdia": "ବନ୍ଧୁ କିପରି ଚୟନ କରିବା ଉଚିତ?",
+"options": [
+"ଆଖି ବୁଜି",
+"ଗୁଣ ପରଖି",
+"କେବଳ ଦେଖି",
+"ଜବରଦସ୍ତି"
+],
+"answer": "ଗୁଣ ପରଖି",
+"explanation": "ବନ୍ଧୁର ଗୁଣ ଏବଂ ସ୍ୱଭାବକୁ ଭଲ ଭାବରେ ପରଖିବା ପରେ ହିଁ ମିତ୍ରତା କରିବା ଉଚିତ।"
+},
+{
+"questionEnglish": "Does a true friend hide your mistakes?",
+"questionOdia": "ଜଣେ ସତ୍ୟ ବନ୍ଧୁ କଣ ତୁମର ଭୁଲଗୁଡ଼ିକୁ ଲୁଚାଏ?",
+"options": [
+"ହଁ",
+"ନା, ସେ ସୁଧାରିବାକୁ ଚେଷ୍ଟା କରେ",
+"ସେ କିଛି କୁହେ ନାହିଁ",
+"ସେ ଖୁସି ହୁଏ"
+],
+"answer": "ନା, ସେ ସୁଧାରିବାକୁ ଚେଷ୍ଟା କରେ",
+"explanation": "ସତ୍ୟ ବନ୍ଧୁ ସବୁବେଳେ ଭୁଲ ଦେଖାଇ ଦିଏ ଏବଂ ସୁଧାରିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Friendship provides what in life?",
+"questionOdia": "ମିତ୍ରତା ଜୀବନରେ କଣ ପ୍ରଦାନ କରେ?",
+"options": [
+"ଅଶାନ୍ତି",
+"ଶାନ୍ତି ଓ ସନ୍ତୋଷ",
+"କେବଳ ଦୁଃଖ",
+"ଭୟ"
+],
+"answer": "ଶାନ୍ତି ଓ ସନ୍ତୋଷ",
+"explanation": "ଉତ୍ତମ ବନ୍ଧୁ ସହ ମିତ୍ରତା ଜୀବନକୁ ଆନନ୍ଦମୟ ଓ ଶାନ୍ତିପୂର୍ଣ୍ଣ କରିଥାଏ।"
+},
+{
+"questionEnglish": "Can friendship exist between unequal people?",
+"questionOdia": "ଅସମାନ ବ୍ୟକ୍ତିଙ୍କ ମଧ୍ୟରେ କଣ ମିତ୍ରତା ହୋଇପାରେ?",
+"options": [
+"ହଁ, ହୋଇପାରେ",
+"ନା, କେବେ ନୁହେଁ",
+"କେବଳ କିଛି ସମୟ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ, ହୋଇପାରେ",
+"explanation": "ମନ ଓ ବିଚାର ମିଳିଲେ ଅସମାନ ବ୍ୟକ୍ତିଙ୍କ ମଧ୍ୟରେ ମଧ୍ୟ ଗଭୀର ମିତ୍ରତା ହୋଇପାରେ।"
+},
+{
+"questionEnglish": "What is the biggest enemy of friendship?",
+"questionOdia": "ମିତ୍ରତାର ସବୁଠାରୁ ବଡ଼ ଶତ୍ରୁ କିଏ?",
+"options": [
+"ଦାରିଦ୍ର୍ୟ",
+"ଅବିଶ୍ୱାସ",
+"ସମୟ",
+"ଟଙ୍କା"
+],
+"answer": "ଅବିଶ୍ୱାସ",
+"explanation": "ଅବିଶ୍ୱାସ ହିଁ ମିତ୍ରତାକୁ ଶେଷ କରିଦିଏ।"
+},
+{
+"questionEnglish": "Is it easy to get a good friend?",
+"questionOdia": "ଜଣେ ଭଲ ବନ୍ଧୁ ପାଇବା କଣ ସହଜ?",
+"options": [
+"ହଁ",
+"ନା, ବହୁତ କଷ୍ଟ",
+"କେବଳ ଭାଗ୍ୟର କଥା",
+"ସମସ୍ତେ ମିଳିଯାଆନ୍ତି"
+],
+"answer": "ନା, ବହୁତ କଷ୍ଟ",
+"explanation": "ସୁବନ୍ଧୁ ପାଇବା ବହୁତ ଭାଗ୍ୟର କଥା ଏବଂ ଏହା ଅତ୍ୟନ୍ତ କଷ୍ଟକର।"
+},
+{
+"questionEnglish": "How should a friend be treated?",
+"questionOdia": "ବନ୍ଧୁଙ୍କ ସହ କିପରି ବ୍ୟବହାର କରିବା ଉଚିତ?",
+"options": [
+"କଠୋରତା ସହ",
+"ସମ୍ମାନ ଓ ପ୍ରେମ ସହ",
+"ଉପେକ୍ଷା କରି",
+"ଭୟ ଦେଖାଇ"
+],
+"answer": "ସମ୍ମାନ ଓ ପ୍ରେମ ସହ",
+"explanation": "ପରସ୍ପରକୁ ସମ୍ମାନ ଓ ପ୍ରେମ ଦେଲେ ମିତ୍ରତା ସୁଦୃଢ଼ ହୁଏ।"
+},
+{
+"questionEnglish": "Friendship helps to remove what from our life?",
+"questionOdia": "ମିତ୍ରତା ଆମ ଜୀବନରୁ କଣ ଦୂର କରିବାରେ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ଜ୍ଞାନ",
+"ଦୁଃଖ ଓ ଏକାକୀତ୍ୱ",
+"ପାଠ",
+"ଶକ୍ତି"
+],
+"answer": "ଦୁଃଖ ଓ ଏକାକୀତ୍ୱ",
+"explanation": "ଭଲ ବନ୍ଧୁ ପାଖରେ ରହିଲେ ଦୁଃଖ କମ୍ ହୁଏ ଏବଂ ମଣିଷ ଏକାକୀ ବୋଧ କରେ ନାହିଁ।"
+},
+{
+"questionEnglish": "What role does honesty play in friendship?",
+"questionOdia": "ମିତ୍ରତାରେ ସଚ୍ଚୋଟତାର ଭୂମିକା କଣ?",
+"options": [
+"କୌଣସି ଭୂମିକା ନାହିଁ",
+"ଅତ୍ୟନ୍ତ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ",
+"କେବଳ ଦେଖାଣିଆ",
+"ବନ୍ଧୁତା ଭାଙ୍ଗିଦିଏ"
+],
+"answer": "ଅତ୍ୟନ୍ତ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ",
+"explanation": "ସଚ୍ଚୋଟତା ବିନା ମିତ୍ରତା ଅସ୍ଥାୟୀ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Should we judge people by their words or actions?",
+"questionOdia": "ଲୋକଙ୍କୁ କଥା ଦେଖି ମୂଲ୍ୟାୟନ କରିବା ଉଚିତ ନା କାର୍ଯ୍ୟ ଦେଖି?",
+"options": [
+"କଥା ଦେଖି",
+"କାର୍ଯ୍ୟ ଦେଖି",
+"କେବଳ ପୋଷାକ ଦେଖି",
+"ବୟସ ଦେଖି"
+],
+"answer": "କାର୍ଯ୍ୟ ଦେଖି",
+"explanation": "କାର୍ଯ୍ୟ ହିଁ ବ୍ୟକ୍ତିର ପ୍ରକୃତ ପରିଚୟ ଦିଏ, କଥା ନୁହେଁ।"
+},
+{
+"questionEnglish": "What happens when you choose friends wisely?",
+"questionOdia": "ବୁଦ୍ଧିମାନ ବନ୍ଧୁ ଚୟନ କଲେ କଣ ହୁଏ?",
+"options": [
+"ଜୀବନ ସଫଳ ହୁଏ",
+"ସମୟ ନଷ୍ଟ ହୁଏ",
+"ଟଙ୍କା କମିଯାଏ",
+"କିଛି ଫରକ ପଡ଼େ ନାହିଁ"
+],
+"answer": "ଜୀବନ ସଫଳ ହୁଏ",
+"explanation": "ଉତ୍ତମ ବନ୍ଧୁ ଜୀବନର ଲକ୍ଷ୍ୟ ପୂରଣ କରିବାରେ ସାହାଯ୍ୟ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Is it good to have many friends?",
+"questionOdia": "ଅଧିକ ବନ୍ଧୁ ରଖିବା କଣ ଭଲ?",
+"options": [
+"ହଁ, ଯେତେ ବେଶୀ ହେବେ ସେତେ ଭଲ",
+"ନା, ମିତ୍ରତା ଗୁଣବତ୍ତା ଉପରେ ନିର୍ଭର କରେ",
+"ହଁ, କେବଳ ଖେଳ ପାଇଁ",
+"ନା, ବନ୍ଧୁ ଆବଶ୍ୟକ ନାହିଁ"
+],
+"answer": "ନା, ମିତ୍ରତା ଗୁଣବତ୍ତା ଉପରେ ନିର୍ଭର କରେ",
+"explanation": "ଅନେକ ବନ୍ଧୁ ଥିବା ଅପେକ୍ଷା ଜଣେ ଗୁଣୀ ବନ୍ଧୁ ଥିବା ଅଧିକ ଶ୍ରେୟସ୍କର।"
+},
+{
+"questionEnglish": "How does jealousy affect friendship?",
+"questionOdia": "ଈର୍ଷା ମିତ୍ରତାକୁ କିପରି ପ୍ରଭାବିତ କରେ?",
+"options": [
+"ବଢ଼ାଏ",
+"ଭାଙ୍ଗିଦିଏ",
+"ସୁଦୃଢ଼ କରେ",
+"କିଛି କରିବ ନାହିଁ"
+],
+"answer": "ଭାଙ୍ଗିଦିଏ",
+"explanation": "ଈର୍ଷା ମନରେ ସନ୍ଦେହ ସୃଷ୍ଟି କରେ ଯାହା ମିତ୍ରତାକୁ ଭାଙ୍ଗିଦିଏ।"
+},
+{
+"questionEnglish": "A true friend is compared to which of these?",
+"questionOdia": "ସତ୍ୟ ବନ୍ଧୁକୁ କେଉଁଟି ସହ ତୁଳନା କରାଯାଇଛି?",
+"options": [
+"ସୁବର୍ଣ୍ଣ",
+"ସୁନ୍ଦର ପୋଷାକ",
+"ବହି",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ସୁବର୍ଣ୍ଣ",
+"explanation": "ସତ୍ୟ ବନ୍ଧୁ ସୁବର୍ଣ୍ଣ (ସୁନା) ପରି ମୂଲ୍ୟବାନ।"
+},
+{
+"questionEnglish": "What does a friend do when we are wrong?",
+"questionOdia": "ଆମେ ଭୁଲ କଲେ ବନ୍ଧୁ କଣ କରେ?",
+"options": [
+"ଆମକୁ ସମର୍ଥନ କରେ",
+"ଆମକୁ ସତ୍ୟ ପଥ ଦେଖାଏ",
+"ଆମକୁ ହସାଏ",
+"ଚୁପ୍ ରହେ"
+],
+"answer": "ଆମକୁ ସତ୍ୟ ପଥ ଦେଖାଏ",
+"explanation": "ଉତ୍ତମ ବନ୍ଧୁ ଆମ ଭୁଲକୁ ସୁଧାରି ସତ୍ୟ ପଥରେ ଚାଲିବାକୁ ପରାମର୍ଶ ଦିଏ।"
+},
+{
+"questionEnglish": "What is the foundation of a lasting friendship?",
+"questionOdia": "ଚିରସ୍ଥାୟୀ ମିତ୍ରତାର ମୂଳଦୁଆ କଣ?",
+"options": [
+"ଆନନ୍ଦ",
+"ପରସ୍ପର ବୁଝାମଣା",
+"ଟଙ୍କା",
+"ସ୍ୱାର୍ଥ"
+],
+"answer": "ପରସ୍ପର ବୁଝାମଣା",
+"explanation": "ପରସ୍ପରକୁ ବୁଝିବା ଓ ସମ୍ମାନ ଦେବା ହିଁ ମିତ୍ରତାକୁ ଚିରସ୍ଥାୟୀ କରେ।"
+},
+{
+"questionEnglish": "Should we share our secrets with everyone?",
+"questionOdia": "ଆମର ଗୁପ୍ତ କଥା ସମସ୍ତଙ୍କ ସହ ଶେୟାର କରିବା ଉଚିତ କି?",
+"options": [
+"ହଁ",
+"ନା, କେବଳ ଉତ୍ତମ ବନ୍ଧୁ ସହ",
+"କାହା ସହ ନୁହେଁ",
+"ସମସ୍ତଙ୍କ ସହ"
+],
+"answer": "ନା, କେବଳ ଉତ୍ତମ ବନ୍ଧୁ ସହ",
+"explanation": "ନିଜର ଗୁପ୍ତ କଥା କେବଳ ବିଶ୍ୱସ୍ତ ବନ୍ଧୁଙ୍କୁ ହିଁ କହିବା ଉଚିତ।"
+},
+{
+"questionEnglish": "What quality makes a friendship strong?",
+"questionOdia": "କେଉଁ ଗୁଣ ମିତ୍ରତାକୁ ମଜବୁତ କରେ?",
+"options": [
+"ସ୍ନେହ",
+"ବିଶ୍ୱାସ",
+"ସମର୍ପଣ",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ସ୍ନେହ, ବିଶ୍ୱାସ ଓ ସମର୍ପଣ - ଏସବୁ ମିତ୍ରତାକୁ ଦୃଢ଼ କରେ।"
+},
+{
+"questionEnglish": "Who wrote 'Mitrata'?",
+"questionOdia": "'ମିତ୍ରତା' କିଏ ଲେଖିଛନ୍ତି?",
+"options": [
+"ବ୍ୟାସଦେବ",
+"ରାମଚନ୍ଦ୍ର ଶୁକ୍ଳ",
+"କବିବର",
+"ଅଜ୍ଞାତ"
+],
+"answer": "ରାମଚନ୍ଦ୍ର ଶୁକ୍ଳ",
+"explanation": "ଏହା ଆଚାର୍ଯ୍ୟ ରାମଚନ୍ଦ୍ର ଶୁକ୍ଳଙ୍କ ଏକ ପ୍ରସିଦ୍ଧ ରଚନା।"
+},
+{
+"questionEnglish": "Can bad company be harmful?",
+"questionOdia": "ଖରାପ ସଙ୍ଗ କଣ କ୍ଷତିକାରକ?",
+"options": [
+"ହଁ, ବହୁତ କ୍ଷତିକାରକ",
+"ନା",
+"କେବେ କେବେ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ, ବହୁତ କ୍ଷତିକାରକ",
+"explanation": "ଖରାପ ସଙ୍ଗ କ୍ଷତିକାରକ ଏବଂ ଏହା ଜୀବନ ବରବାଦ କରିପାରେ।"
+},
+{
+"questionEnglish": "Should friends be similar in nature?",
+"questionOdia": "ବନ୍ଧୁମାନଙ୍କ ସ୍ୱଭାବ ସମାନ ହେବା ଉଚିତ କି?",
+"options": [
+"ହଁ, ଅତି ଆବଶ୍ୟକ",
+"ନା, ଭିନ୍ନ ସ୍ୱଭାବର ହେଲେ ଚଳିବ",
+"କିଛି ଫରକ ପଡ଼େ ନାହିଁ",
+"ସବୁବେଳେ ଭିନ୍ନ ହେବା ଦରକାର"
+],
+"answer": "ନା, ଭିନ୍ନ ସ୍ୱଭାବର ହେଲେ ଚଳିବ",
+"explanation": "ମିତ୍ରତାରେ ବ୍ୟକ୍ତିତ୍ୱ ଭିନ୍ନ ହୋଇପାରେ କିନ୍ତୁ ବିଚାରଧାରା ସମାନ ହେବା ଉଚିତ।"
+},
+{
+"questionEnglish": "How does a good friend protect us?",
+"questionOdia": "ଜଣେ ଭଲ ବନ୍ଧୁ ଆମକୁ କିପରି ସୁରକ୍ଷା ଦିଏ?",
+"options": [
+"ଶାରୀରିକ ସାହାଯ୍ୟ କରି",
+"ମାନସିକ ସାହସ ଦେଇ",
+"ଉପଦେଶ ଦେଇ",
+"ଉପରୋକ୍ତ ସବୁ"
+],
+"answer": "ଉପରୋକ୍ତ ସବୁ",
+"explanation": "ଭଲ ବନ୍ଧୁ ଆମକୁ ସବୁ ପ୍ରକାର ବିପଦରୁ ରକ୍ଷା କରିବାକୁ ଚେଷ୍ଟା କରେ।"
+},
+{
+"questionEnglish": "What destroys the essence of friendship?",
+"questionOdia": "ମିତ୍ରତାର ସାରତତ୍ତ୍ୱ କଣ ନଷ୍ଟ କରେ?",
+"options": [
+"ସ୍ୱାର୍ଥ",
+"ସତ୍ୟତା",
+"ପ୍ରେମ",
+"ସହଯୋଗ"
+],
+"answer": "ସ୍ୱାର୍ଥ",
+"explanation": "ଯେଉଁଠାରେ ସ୍ୱାର୍ଥ ଥାଏ, ସେଠାରେ ସତ୍ୟ ମିତ୍ରତା ରହିପାରିବ ନାହିଁ।"
+},
+{
+"questionEnglish": "Is it important to forgive friends?",
+"questionOdia": "ବନ୍ଧୁଙ୍କୁ କ୍ଷମା କରିବା କଣ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ବଡ଼ ଭୁଲ",
+"କେବେ ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ମିତ୍ରତାରେ କ୍ଷମା କରିବାର ଗୁଣ ରହିବା ନିହାତି ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "Should we listen to our friends always?",
+"questionOdia": "ଆମେ ସବୁବେଳେ ବନ୍ଧୁଙ୍କ କଥା ଶୁଣିବା ଉଚିତ କି?",
+"options": [
+"ହଁ",
+"ନା, ଭଲ କଥା ଶୁଣିବା ଉଚିତ",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା, ଭଲ କଥା ଶୁଣିବା ଉଚିତ",
+"explanation": "କେବଳ ଭଲ ଓ ହିତକର ପରାମର୍ଶ ହିଁ ବନ୍ଧୁଙ୍କଠାରୁ ଗ୍ରହଣ କରିବା ଉଚିତ।"
+},
+{
+"questionEnglish": "What does 'Mitrata' emphasize?",
+"questionOdia": "'ମିତ୍ରତା' କଣ ଉପରେ ଗୁରୁତ୍ୱ ଦିଏ?",
+"options": [
+"ବନ୍ଧୁ ଚୟନ",
+"ଶତ୍ରୁତା",
+"କଳି",
+"ସ୍ୱାର୍ଥ"
+],
+"answer": "ବନ୍ଧୁ ଚୟନ",
+"explanation": "ସାବଧାନତାର ସହ ବନ୍ଧୁ ଚୟନ କରିବା ଉପରେ ଏହି ପ୍ରବନ୍ଧ ଗୁରୁତ୍ୱ ଦିଏ।"
+},
+{
+"questionEnglish": "Can a bad person be a good friend?",
+"questionOdia": "ଜଣେ ଖରାପ ବ୍ୟକ୍ତି କଣ ଜଣେ ଭଲ ବନ୍ଧୁ ହୋଇପାରିବ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ କିଛି ଦିନ ପାଇଁ",
+"ସେ କୌଶଳୀ ହେଲେ"
+],
+"answer": "ନା",
+"explanation": "ଖରାପ ବ୍ୟକ୍ତି କେବେହେଲେ ଉତ୍ତମ ବନ୍ଧୁ ହୋଇପାରିବ ନାହିଁ।"
+},
+{
+"questionEnglish": "Friendship is a bond of?",
+"questionOdia": "ମିତ୍ରତା କାହାର ବନ୍ଧନ?",
+"options": [
+"ଭୟ",
+"ବିଶ୍ୱାସ",
+"ଘୃଣା",
+"ସ୍ୱାର୍ଥ"
+],
+"answer": "ବିଶ୍ୱାସ",
+"explanation": "ମିତ୍ରତା ବିଶ୍ୱାସର ଏକ ପବିତ୍ର ବନ୍ଧନ।"
+},
+{
+"questionEnglish": "Does friendship need time to grow?",
+"questionOdia": "ମିତ୍ରତା ବଢ଼ିବା ପାଇଁ ସମୟ ଦରକାର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ସବୁବେଳେ ନୁହେଁ",
+"କେବଳ ପଇସା ଦରକାର"
+],
+"answer": "ହଁ",
+"explanation": "ସମୟ ସହିତ ମିତ୍ରତା ଗଭୀର ଓ ସୁଦୃଢ଼ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the primary benefit of friendship?",
+"questionOdia": "ମିତ୍ରତାର ମୁଖ୍ୟ ଲାଭ କଣ?",
+"options": [
+"ମାନସିକ ସମର୍ଥନ",
+"ଧନ",
+"ପ୍ରସିଦ୍ଧି",
+"ଶକ୍ତି"
+],
+"answer": "ମାନସିକ ସମର୍ଥନ",
+"explanation": "ମିତ୍ରତାର ମୁଖ୍ୟ ଲାଭ ହେଉଛି ଆବଶ୍ୟକ ସମୟରେ ମାନସିକ ସମର୍ଥନ ପାଇବା।"
+},
+{
+"questionEnglish": "Friendship helps in?",
+"questionOdia": "ମିତ୍ରତା କାହାଠାରେ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ଅସଫଳତା",
+"ସଫଳତା",
+"କଳି",
+"ଦୁଃଖ"
+],
+"answer": "ସଫଳତା",
+"explanation": "ଉତ୍ତମ ମିତ୍ରତାର ସାହାଯ୍ୟରେ ଜଣେ ସଫଳ ହୋଇପାରିବ।"
+},
+{
+"questionEnglish": "Is friendship essential in life?",
+"questionOdia": "ଜୀବନରେ ମିତ୍ରତା ଆବଶ୍ୟକ କି?",
+"options": [
+"ହଁ, ନିହାତି ଆବଶ୍ୟକ",
+"ନା",
+"କେବେ କେବେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ, ନିହାତି ଆବଶ୍ୟକ",
+"explanation": "ମିତ୍ରତା ବିନା ଜୀବନ ଅସମ୍ପୂର୍ଣ୍ଣ।"
+},
+{
+"questionEnglish": "A friend's duty is?",
+"questionOdia": "ବନ୍ଧୁର କର୍ତ୍ତବ୍ୟ କଣ?",
+"options": [
+"ମିଛ କହିବା",
+"ସତ୍ୟ ପଥରେ ଚାଲିବାକୁ ପ୍ରେରଣା ଦେବା",
+"ଦୂରରେ ରହିବା",
+"ଭୁଲ କରାଇବା"
+],
+"answer": "ସତ୍ୟ ପଥରେ ଚାଲିବାକୁ ପ୍ରେରଣା ଦେବା",
+"explanation": "ବନ୍ଧୁର ପ୍ରଧାନ କର୍ତ୍ତବ୍ୟ ହେଉଛି ଆମକୁ ସତ୍ୟ ଓ ନ୍ୟାୟ ପଥରେ ରଖିବା।"
+},
+{
+"questionEnglish": "Can friends be family?",
+"questionOdia": "ବନ୍ଧୁମାନେ କଣ ପରିବାର ହୋଇପାରିବେ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଃଖ ସମୟରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସତ୍ୟ ବନ୍ଧୁ ପରିବାର ସଦସ୍ୟଙ୍କ ଭଳି ହୋଇଥାନ୍ତି।"
+},
+{
+"questionEnglish": "What makes life beautiful?",
+"questionOdia": "ଜୀବନକୁ କଣ ସୁନ୍ଦର କରେ?",
+"options": [
+"ଖରାପ ସଙ୍ଗ",
+"ଉତ୍ତମ ମିତ୍ରତା",
+"ଅହଂକାର",
+"ଲୋଭ"
+],
+"answer": "ଉତ୍ତମ ମିତ୍ରତା",
+"explanation": "ଉତ୍ତମ ବନ୍ଧୁମାନଙ୍କ ସହ ଜୀବନ ସୁନ୍ଦର ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Should we avoid selfishness in friendship?",
+"questionOdia": "ମିତ୍ରତାରେ ସ୍ୱାର୍ଥପରତା ତ୍ୟାଗ କରିବା ଉଚିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ କିଛି ସମୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସ୍ୱାର୍ଥପରତା ମିତ୍ରତାର ମୂଳ ପୋଛି ଦିଏ, ତେଣୁ ଏହାକୁ ତ୍ୟାଗ କରିବା ଉଚିତ।"
+},
+{
+"questionEnglish": "What should a friend do in happiness?",
+"questionOdia": "ସୁଖ ସମୟରେ ବନ୍ଧୁ କଣ କରିବା ଉଚିତ?",
+"options": [
+"ଈର୍ଷା କରିବା",
+"ଆନନ୍ଦରେ ସାମିଲ ହେବା",
+"ଦୂରରେ ରହିବା",
+"ସନ୍ଦେହ କରିବା"
+],
+"answer": "ଆନନ୍ଦରେ ସାମିଲ ହେବା",
+"explanation": "ସୁଖ ସମୟରେ ଆନନ୍ଦ ବାଣ୍ଟିବା ସତ୍ୟ ବନ୍ଧୁର ଲକ୍ଷଣ।"
+},
+{
+"questionEnglish": "What is the best way to maintain friendship?",
+"questionOdia": "ମିତ୍ରତା ବଜାୟ ରଖିବାର ସର୍ବୋତ୍ତମ ଉପାୟ କଣ?",
+"options": [
+"ସତ୍ୟ ଓ ବିଶ୍ୱାସ",
+"କେବଳ ଉପହାର ଦେବା",
+"କଳି ନ କରିବା",
+"ସବୁକଥା ମାନିବା"
+],
+"answer": "ସତ୍ୟ ଓ ବିଶ୍ୱାସ",
+"explanation": "ସତ୍ୟ ଓ ବିଶ୍ୱାସ ହିଁ ମିତ୍ରତାକୁ ଦୀର୍ଘକାଳୀନ କରିଥାଏ।"
+},
+{
+"questionEnglish": "Can friends disagree?",
+"questionOdia": "ବନ୍ଧୁମାନେ କଣ ଏକମତ ନ ହୋଇପାରନ୍ତି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"ସବୁବେଳେ"
+],
+"answer": "ହଁ",
+"explanation": "ବନ୍ଧୁ ହେଲେ ମଧ୍ୟ ବିଚାର ଭିନ୍ନ ହୋଇପାରେ, ଏହା ସ୍ୱାଭାବିକ।"
+},
+{
+"questionEnglish": "Is friendship about helping each other?",
+"questionOdia": "ମିତ୍ରତା କଣ ପରସ୍ପରକୁ ସାହାଯ୍ୟ କରିବା ବିଷୟରେ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ମଜା କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ମିତ୍ରତା ପରସ୍ପର ସାହାଯ୍ୟ ଓ ସହଯୋଗ ଉପରେ ଆଧାରିତ।"
+},
+{
+"questionEnglish": "Friendship requires?",
+"questionOdia": "ମିତ୍ରତା ପାଇଁ କଣ ଦରକାର?",
+"options": [
+"ସହନଶୀଳତା",
+"ଅହଂକାର",
+"ଗର୍ବ",
+"ସ୍ୱାର୍ଥ"
+],
+"answer": "ସହନଶୀଳତା",
+"explanation": "ବନ୍ଧୁଙ୍କ ଭୁଲ ଓ ଅସୁବିଧାକୁ ବୁଝିବା ପାଇଁ ସହନଶୀଳତା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "How does friendship benefit society?",
+"questionOdia": "ମିତ୍ରତା ସମାଜକୁ କିପରି ଲାଭ ଦିଏ?",
+"options": [
+"କୌଣସି ଲାଭ ନାହିଁ",
+"ସହଯୋଗ ଓ ଶାନ୍ତି ବୃଦ୍ଧି",
+" କେବଳ ଝଗଡ଼ା",
+"ଅଶାନ୍ତି"
+],
+"answer": "ସହଯୋଗ ଓ ଶାନ୍ତି ବୃଦ୍ଧି",
+"explanation": "ମିତ୍ରତା ବଢ଼ିଲେ ସମାଜରେ ସହଯୋଗ ଓ ଶାନ୍ତି ବଜାୟ ରୁହେ।"
+},
+{
+"questionEnglish": "Is jealousy good for friendship?",
+"questionOdia": "ଈର୍ଷା କଣ ମିତ୍ରତା ପାଇଁ ଭଲ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ କେବେ",
+"ସବୁବେଳେ"
+],
+"answer": "ନା",
+"explanation": "ଈର୍ଷା ମିତ୍ରତାର ମୃତ୍ୟୁ ଘଟାଏ।"
+},
+{
+"questionEnglish": "Should friends be honest?",
+"questionOdia": "ବନ୍ଧୁମାନେ ସଚ୍ଚୋଟ ହେବା ଉଚିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ କାମ ଥିଲେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସଚ୍ଚୋଟତା ବିନା ମିତ୍ରତା ଅର୍ଥହୀନ।"
+},
+{
+"questionEnglish": "What does a true friend provide?",
+"questionOdia": "ସତ୍ୟ ବନ୍ଧୁ କଣ ପ୍ରଦାନ କରେ?",
+"options": [
+"କଷ୍ଟ",
+"ସାହସ ଓ ପ୍ରେରଣା",
+"ଭୟ",
+"ଅନ୍ଧକାର"
+],
+"answer": "ସାହସ ଓ ପ୍ରେରଣା",
+"explanation": "ସତ୍ୟ ବନ୍ଧୁ ବିପଦରେ ସାହସ ଓ ପ୍ରେରଣା ଦିଅନ୍ତି।"
+},
+{
+"questionEnglish": "Is friendship limited by distance?",
+"questionOdia": "ମିତ୍ରତା କଣ ଦୂରତା ଦ୍ୱାରା ସୀମିତ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ କେବେ",
+"ସବୁବେଳେ"
+],
+"answer": "ନା",
+"explanation": "ସତ୍ୟ ମିତ୍ରତାରେ ଦୂରତା ବଡ଼ କଥା ନୁହେଁ, ମନ ମିଳିବା ବଡ଼ କଥା।"
+},
+{
+"questionEnglish": "Can we learn from friends?",
+"questionOdia": "ଆମେ ବନ୍ଧୁଙ୍କଠାରୁ କଣ ଶିଖିପାରିବା?",
+"options": [
+"କିଛି ନୁହେଁ",
+"ଭଲ କାର୍ଯ୍ୟ ଓ ଗୁଣ",
+"କେବଳ କଳି",
+"ମିଛ କହିବା"
+],
+"answer": "ଭଲ କାର୍ଯ୍ୟ ଓ ଗୁଣ",
+"explanation": "ଭଲ ବନ୍ଧୁଙ୍କଠାରୁ ଆମେ ଅନେକ ଭଲ ଜିନିଷ ଶିଖିପାରିବା।"
+},
+{
+"questionEnglish": "Are friends important for happiness?",
+"questionOdia": "ଖୁସି ପାଇଁ ବନ୍ଧୁମାନେ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ବନ୍ଧୁମାନଙ୍କ ସହ ଖୁସି ଦୁଇଗୁଣ ହୋଇଯାଏ।"
+},
+{
+"questionEnglish": "Does friendship require sacrifice?",
+"questionOdia": "ମିତ୍ରତା ପାଇଁ କଣ ତ୍ୟାଗ ଦରକାର?",
+"options": [
+"ହଁ, କେବେ କେବେ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"ସବୁବେଳେ"
+],
+"answer": "ହଁ, କେବେ କେବେ",
+"explanation": "ଆବଶ୍ୟକ ସମୟରେ ବନ୍ଧୁ ପାଇଁ ତ୍ୟାଗ କରିବା ପ୍ରକୃତ ମିତ୍ରତାର ପରିଚୟ।"
+},
+{
+"questionEnglish": "Is it easy to find a friend?",
+"questionOdia": "ବନ୍ଧୁ ପାଇବା ସହଜ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ସମସ୍ତେ ସହଜରେ ମିଳନ୍ତି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ଉତ୍ତମ ବନ୍ଧୁ ପାଇବା ବହୁତ କଠିନ।"
+},
+{
+"questionEnglish": "Should we trust everyone?",
+"questionOdia": "ସମସ୍ତଙ୍କୁ ବିଶ୍ୱାସ କରିବା ଉଚିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ କେବେ",
+"ସମସ୍ତଙ୍କୁ"
+],
+"answer": "ନା",
+"explanation": "ବିଶ୍ୱାସ କରିବା ପୂର୍ବରୁ ସାବଧାନ ରହିବା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "What does a good friend prevent?",
+"questionOdia": "ଜଣେ ଭଲ ବନ୍ଧୁ କଣ ରୋକିଥାଏ?",
+"options": [
+"ଉନ୍ନତି",
+"ଖରାପ କାମରେ ପଡ଼ିବା",
+"ସୁଖ",
+"ଜ୍ଞାନ"
+],
+"answer": "ଖରାପ କାମରେ ପଡ଼ିବା",
+"explanation": "ଭଲ ବନ୍ଧୁ ଆମକୁ ଭୁଲ ରାସ୍ତାରୁ ରକ୍ଷା କରେ।"
+},
+{
+"questionEnglish": "How should friends talk to each other?",
+"questionOdia": "ବନ୍ଧୁମାନେ କିପରି କଥା ହେବା ଉଚିତ?",
+"options": [
+"କଠୋର ଭାବେ",
+"ଭଦ୍ର ଭାବେ",
+"ଚିତ୍କାର କରି",
+"ମିଛ କହି"
+],
+"answer": "ଭଦ୍ର ଭାବେ",
+"explanation": "ସମ୍ମାନଜନକ ଓ ଭଦ୍ର ବ୍ୟବହାର ମିତ୍ରତା ବଢ଼ାଏ।"
+},
+{
+"questionEnglish": "Can friends help in studies?",
+"questionOdia": "ବନ୍ଧୁମାନେ ପାଠପଢ଼ାରେ ସାହାଯ୍ୟ କରିପାରିବେ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଉତ୍ତମ ବନ୍ଧୁ ପାଠପଢ଼ାରେ ମଧ୍ୟ ସହଯୋଗ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Is respect mutual in friendship?",
+"questionOdia": "ମିତ୍ରତାରେ କଣ ସମ୍ମାନ ପାରସ୍ପରିକ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ କେବେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ପରସ୍ପରକୁ ସମ୍ମାନ ଦେଲେ ମିତ୍ରତା ଅତୁଟ ରହେ।"
+},
+{
+"questionEnglish": "What happens if we lose a good friend?",
+"questionOdia": "ଭଲ ବନ୍ଧୁ ହରାଇଲେ କଣ ହୁଏ?",
+"options": [
+"କିଛି ହୁଏ ନାହିଁ",
+"ବଡ଼ କ୍ଷତି ହୁଏ",
+"ଖୁସି ମିଳେ",
+"ସବୁ ଭଲ ହୁଏ"
+],
+"answer": "ବଡ଼ କ୍ଷତି ହୁଏ",
+"explanation": "ଭଲ ବନ୍ଧୁ ହରାଇବା ଏକ ବଡ଼ ଦୁର୍ଭାଗ୍ୟ।"
+},
+{
+"questionEnglish": "Are friends meant to support us?",
+"questionOdia": "ବନ୍ଧୁମାନେ କଣ ଆମକୁ ସମର୍ଥନ କରିବା ପାଇଁ ଅଛନ୍ତି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ କେବେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସମର୍ଥନ ଓ ସହଯୋଗ ମିତ୍ରତାର ମୂଳ କଥା।"
+},
+{
+"questionEnglish": "Can we share our problems with friends?",
+"questionOdia": "ଆମ ସମସ୍ୟା ବନ୍ଧୁଙ୍କୁ ଜଣାଇପାରିବା କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ବନ୍ଧୁଙ୍କୁ ନିଜ ସମସ୍ୟା କହିଲେ ମନ ହାଲୁକା ହୁଏ।"
+},
+{
+"questionEnglish": "What is the best way to handle friend's mistake?",
+"questionOdia": "ବନ୍ଧୁଙ୍କ ଭୁଲ ସୁଧାରିବାର ଉପାୟ କଣ?",
+"options": [
+"ସମସ୍ତଙ୍କ ସାମ୍ନାରେ କହିବା",
+"ଏକାନ୍ତରେ ବୁଝାଇବା",
+"ଦୂରେଇ ଯିବା",
+"କିଛି କହିବା ନାହିଁ"
+],
+"answer": "ଏକାନ୍ତରେ ବୁଝାଇବା",
+"explanation": "ବନ୍ଧୁଙ୍କ ଭୁଲ କେବଳ ଏକାନ୍ତରେ ବୁଝାଇବା ଉଚିତ।"
+},
+{
+"questionEnglish": "Friendship helps build?",
+"questionOdia": "ମିତ୍ରତା କଣ ଗଢ଼ିବାରେ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ଚରିତ୍ର",
+"ଅହଂକାର",
+"କଳି",
+"ସ୍ୱାର୍ଥ"
+],
+"answer": "ଚରିତ୍ର",
+"explanation": "ଉତ୍ତମ ବନ୍ଧୁଙ୍କ ସହ ରହିଲେ ଚରିତ୍ର ସୁଧୁରେ।"
+},
+{
+"questionEnglish": "Are all friends same?",
+"questionOdia": "ସବୁ ବନ୍ଧୁ ସମାନ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ସମାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ସମସ୍ତଙ୍କ ସ୍ୱଭାବ ଓ ନୀତି ଭିନ୍ନ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Is friendship eternal?",
+"questionOdia": "ମିତ୍ରତା କଣ ଅନନ୍ତ?",
+"options": [
+"ହଁ, ଯଦି ସତ୍ୟ ହୁଏ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ, ଯଦି ସତ୍ୟ ହୁଏ",
+"explanation": "ସତ୍ୟ ମିତ୍ରତା ମୃତ୍ୟୁ ପର୍ଯ୍ୟନ୍ତ ରହେ।"
+},
+{
+"questionEnglish": "What happens when we are in bad company?",
+"questionOdia": "ଖରାପ ସଙ୍ଗରେ ରହିଲେ କଣ ହୁଏ?",
+"options": [
+"ଉନ୍ନତି",
+"ବିପଥଗାମୀ ହେବା",
+"ସୁଖ",
+"ଜ୍ଞାନ"
+],
+"answer": "ବିପଥଗାମୀ ହେବା",
+"explanation": "ଖରାପ ସଙ୍ଗରେ ରହିଲେ ମଣିଷ ଖରାପ ରାସ୍ତାରେ ଯାଏ।"
+},
+{
+"questionEnglish": "Should we be grateful to friends?",
+"questionOdia": "ବନ୍ଧୁଙ୍କ ପ୍ରତି କୃତଜ୍ଞ ହେବା ଉଚିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ବନ୍ଧୁଙ୍କ ସାହାଯ୍ୟ ପାଇଁ ସର୍ବଦା କୃତଜ୍ଞ ରହିବା ଉଚିତ।"
+},
+{
+"questionEnglish": "Can friends give suggestions?",
+"questionOdia": "ବନ୍ଧୁମାନେ ପରାମର୍ଶ ଦେଇପାରିବେ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଭଲ ବନ୍ଧୁ ସର୍ବଦା ହିତକର ପରାମର୍ଶ ଦିଅନ୍ତି।"
+},
+{
+"questionEnglish": "Is friendship selfless?",
+"questionOdia": "ମିତ୍ରତା କଣ ନିଃସ୍ୱାର୍ଥପର?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସତ୍ୟ ମିତ୍ରତା ସର୍ବଦା ନିଃସ୍ୱାର୍ଥପର ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Should we lie to friends?",
+"questionOdia": "ବନ୍ଧୁଙ୍କୁ ମିଛ କହିବା ଉଚିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ କେବେ",
+"ସବୁବେଳେ"
+],
+"answer": "ନା",
+"explanation": "ମିଛ ମିତ୍ରତାକୁ ଦୁର୍ବଳ କରିଦିଏ।"
+},
+{
+"questionEnglish": "Can friends be guides?",
+"questionOdia": "ବନ୍ଧୁମାନେ କଣ ମାର୍ଗଦର୍ଶକ ହୋଇପାରିବେ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଭଲ ବନ୍ଧୁ ଜୀବନର ପ୍ରକୃତ ମାର୍ଗଦର୍ଶକ।"
+},
+{
+"questionEnglish": "What does friendship demand?",
+"questionOdia": "ମିତ୍ରତା କଣ ଚାହେଁ?",
+"options": [
+"ସମୟ",
+"ଟଙ୍କା",
+"ବିଶ୍ୱାସ",
+"ଉପରୋକ୍ତ ସବୁ"
+],
+"answer": "ବିଶ୍ୱାସ",
+"explanation": "ମିତ୍ରତା ସର୍ବପ୍ରଥମେ ବିଶ୍ୱାସ ଚାହେଁ।"
+},
+{
+"questionEnglish": "Should we avoid fake friends?",
+"questionOdia": "ନକଲି ବନ୍ଧୁମାନଙ୍କୁ ଏଡ଼ାଇବା ଉଚିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ନକଲି ବନ୍ଧୁ ସବୁବେଳେ କ୍ଷତି କରନ୍ତି।"
+},
+{
+"questionEnglish": "Does friendship need appreciation?",
+"questionOdia": "ମିତ୍ରତାରେ ପ୍ରଶଂସା ଦରକାର କି?",
+"options": [
+"ହଁ, ଉତ୍ସାହ ପାଇଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ, ଉତ୍ସାହ ପାଇଁ",
+"explanation": "ବନ୍ଧୁର ଭଲ କାମକୁ ପ୍ରଶଂସା କଲେ ମିତ୍ରତା ମଜବୁତ ହୁଏ।"
+},
+{
+"questionEnglish": "Can we trust our friends with life?",
+"questionOdia": "ଆମେ ଜୀବନ ଦେଇ ବନ୍ଧୁଙ୍କୁ ବିଶ୍ୱାସ କରିପାରିବା କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଗଭୀର ମିତ୍ରତାରେ ଏହି ବିଶ୍ୱାସ ରହିଥାଏ।"
+},
+{
+"questionEnglish": "Are friends a gift?",
+"questionOdia": "ବନ୍ଧୁମାନେ କଣ ଏକ ଉପହାର?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଉତ୍ତମ ବନ୍ଧୁ ଭଗବାନଙ୍କର ଏକ ସୁନ୍ଦର ଉପହାର।"
+},
+{
+"questionEnglish": "Should we respect friend's privacy?",
+"questionOdia": "ବନ୍ଧୁଙ୍କ ବ୍ୟକ୍ତିଗତ ସ୍ୱାଧୀନତାକୁ ସମ୍ମାନ ଦେବା ଉଚିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ବନ୍ଧୁଙ୍କୁ ବ୍ୟକ୍ତିଗତ ସ୍ୱାଧୀନତା ଦେବା ମିତ୍ରତାର ଏକ ଅଂଶ।"
+},
+{
+"questionEnglish": "Can we share happiness with friends?",
+"questionOdia": "ବନ୍ଧୁଙ୍କ ସହ ଖୁସି ଶେୟାର କରିପାରିବା କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଖୁସି ବାଣ୍ଟିଲେ ବଢ଼େ।"
+},
+{
+"questionEnglish": "What does a friend provide in sorrow?",
+"questionOdia": "ଦୁଃଖରେ ବନ୍ଧୁ କଣ ଦିଏ?",
+"options": [
+"ସାନ୍ତ୍ୱନା",
+"କଷ୍ଟ",
+"ଭୟ",
+"ଉପହାସ"
+],
+"answer": "ସାନ୍ତ୍ୱନା",
+"explanation": "ଦୁଃଖରେ ସାନ୍ତ୍ୱନା ଦେବା ବନ୍ଧୁର ପ୍ରଧାନ ଗୁଣ।"
+},
+{
+"questionEnglish": "Is loyalty important?",
+"questionOdia": "ବିଶ୍ୱସ୍ତତା ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ବିଶ୍ୱସ୍ତତା ମିତ୍ରତାର ଆଧାର।"
+},
+{
+"questionEnglish": "Does friendship make us better?",
+"questionOdia": "ମିତ୍ରତା କଣ ଆମକୁ ଭଲ ବ୍ୟକ୍ତି କରେ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଉତ୍ତମ ବନ୍ଧୁଙ୍କ ପ୍ରଭାବରେ ଆମେ ମଧ୍ୟ ଭଲ ହୋଇଥାଉ।"
+},
+{
+"questionEnglish": "Should we share food with friends?",
+"questionOdia": "ବନ୍ଧୁଙ୍କ ସହ ଖାଦ୍ୟ ଶେୟାର କରିବା ଉଚିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସହଯୋଗ ଓ ସ୍ନେହର ପରିଚୟ।"
+},
+{
+"questionEnglish": "Are friends forever?",
+"questionOdia": "ବନ୍ଧୁମାନେ ସବୁଦିନ ପାଇଁ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସତ୍ୟ ବନ୍ଧୁତା ସବୁଦିନ ପାଇଁ।"
+},
+{
+"questionEnglish": "Should we help friends in need?",
+"questionOdia": "ବିପଦରେ ବନ୍ଧୁଙ୍କୁ ସାହାଯ୍ୟ କରିବା ଉଚିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ବିପଦବେଳେ ସାହାଯ୍ୟ କରିବା ସର୍ବଶ୍ରେଷ୍ଠ କର୍ମ।"
+},
+{
+"questionEnglish": "Friendship is a matter of?",
+"questionOdia": "ମିତ୍ରତା କଣ?",
+"options": [
+"ହୃଦୟର କଥା",
+"କେବଳ ଦେଖାଣିଆ",
+"କଳି",
+"ଦୁଃଖ"
+],
+"answer": "ହୃଦୟର କଥା",
+"explanation": "ମିତ୍ରତା ହୃଦୟରୁ ହୃଦୟକୁ ସଂଯୋଗ କରେ।"
+},
+{
+"questionEnglish": "Is friendship great?",
+"questionOdia": "ମିତ୍ରତା ମହାନ୍ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ମିତ୍ରତା ଏକ ମହାନ୍ ସମ୍ପଦ।"
+}
+]
