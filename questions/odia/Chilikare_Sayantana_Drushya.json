@@ -1,188 +1,367 @@
-
 [
 {
-"questionEnglish": "Who is the poet of the poem 'Chilikare Sayantana Drushya'?",
-"questionOdia": "'ଚିଲିକାରେ ସାୟନ୍ତନ ଦୃଶ୍ୟ' କବିତାଟି କାହାର ରଚନା?",
+"questionEnglish": "In the poem 'Chilikare Sayantana Drushya', what time of the day is being described by Radhanath Ray?",
+"questionOdia": "'ଚିଲିକାରେ ସାୟନ୍ତନ ଦୃଶ୍ୟ' କବିତାରେ କବି ରାଧାନାଥ ରାୟ ଦିନର କେଉଁ ସମୟର ଚିତ୍ର ବର୍ଣ୍ଣନା କରିଛନ୍ତି?",
 "options": [
-"ରାଧାନାଥ ରାୟ",
-"ମଧୁସୂଦନ ରାଓ",
-"ଗଙ୍ଗାଧର ମେହେର",
-"ଗୋପବନ୍ଧୁ ଦାସ"
+"ସୂର୍ଯ୍ୟୋଦୟ ସମୟ",
+"ମଧ୍ୟାହ୍ନ ସମୟ",
+"ସୂର୍ଯ୍ୟାସ୍ତ ବା ସନ୍ଧ୍ୟା ସମୟ",
+"ଅର୍ଦ୍ଧରାତ୍ରି ସମୟ"
 ],
-"answer": "ରାଧାନାଥ ରାୟ",
-"explanation": "ଏହି କବିତାଟି କବିବର ରାଧାନାଥ ରାୟଙ୍କର ରଚନା।"
+"answer": "ସୂର୍ଯ୍ୟାସ୍ତ ବା ସନ୍ଧ୍ୟା ସମୟ",
+"explanation": "କବିତାଟିର ଶୀର୍ଷକ 'ସାୟନ୍ତନ' ଶବ୍ଦର ଅର୍ଥ ସନ୍ଧ୍ୟାକାଳୀନ, ତେଣୁ ଏଠାରେ ସନ୍ଧ୍ୟାର ଚିତ୍ର ବର୍ଣ୍ଣିତ।"
 },
 {
-"questionEnglish": "In which book of Radhanath Ray is this poem included?",
-"questionOdia": "ରାଧାନାଥ ରାୟଙ୍କ କେଉଁ କାବ୍ୟ ଗ୍ରନ୍ଥରୁ ଏହି କବିତାଟି ନିଆଯାଇଛି?",
+"questionEnglish": "What does the poet compare the setting sun to in the poem?",
+"questionOdia": "କବି ଏହି କବିତାରେ ଅସ୍ତଗାମୀ ସୂର୍ଯ୍ୟଙ୍କୁ କାହା ସହ ତୁଳନା କରିଛନ୍ତି?",
 "options": [
-"ଦରବାର",
-"ଚିଲିକା",
-"କେଦାର ଗୌରୀ",
-"ମହାଯାତ୍ରା"
+"ଏକ ଧଳା ପଥର",
+"ଏକ ରକ୍ତବର୍ଣ୍ଣ ସୁବର୍ଣ୍ଣ ଗୋଲକ",
+"ଏକ କଳା ମେଘ",
+"ଏକ ଜଳୁଥିବା ମଶାଲ"
 ],
-"answer": "ଚିଲିକା",
-"explanation": "ଏହା ରାଧାନାଥଙ୍କ ପ୍ରସିଦ୍ଧ କାବ୍ୟ 'ଚିଲିକା'ର ଅନ୍ତର୍ଭୁକ୍ତ।"
+"answer": "ଏକ ରକ୍ତବର୍ଣ୍ଣ ସୁବର୍ଣ୍ଣ ଗୋଲକ",
+"explanation": "ଅସ୍ତଗାମୀ ସୂର୍ଯ୍ୟ ସନ୍ଧ୍ୟା ଆକାଶରେ ଏକ ରକ୍ତମିଶା ସୁନେଲି ଗୋଲକ ପରି ଦେଖାଯାନ୍ତି।"
 },
 {
-"questionEnglish": "What time of the day is described in the poem?",
-"questionOdia": "କବିତାରେ ଦିନର କେଉଁ ସମୟର ଦୃଶ୍ୟ ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"questionEnglish": "How does the poet describe the stillness of Chilika water during the evening?",
+"questionOdia": "ସନ୍ଧ୍ୟା ସମୟରେ ଚିଲିକାର ଜଳରାଶିର ନିସ୍ତବ୍ଧତାକୁ କବି କିପରି ବର୍ଣ୍ଣନା କରିଛନ୍ତି?",
 "options": [
-"ସକାଳ",
-"ମଧ୍ୟାହ୍ନ",
-"ସନ୍ଧ୍ୟା",
-"ରାତି"
+"ଚଳଚଞ୍ଚଳ ଓ ତରଙ୍ଗାୟିତ",
+"ଅତ୍ୟନ୍ତ ନୀଳ ଓ ଭୟଙ୍କର",
+"ସ୍ଥିର ଓ ଦର୍ପଣ ପରି ନିର୍ମଳ",
+"ଉତ୍ତାଳ ଓ ବିଶୃଙ୍ଖଳ"
 ],
-"answer": "ସନ୍ଧ୍ୟା",
-"explanation": "'ସାୟନ୍ତନ' ଶବ୍ଦର ଅର୍ଥ ହେଉଛି ସନ୍ଧ୍ୟା ସମୟ।"
+"answer": "ସ୍ଥିର ଓ ଦର୍ପଣ ପରି ନିର୍ମଳ",
+"explanation": "ସନ୍ଧ୍ୟାରେ ଚିଲିକାର ଜଳ ଅତ୍ୟନ୍ତ ସ୍ଥିର ଥାଏ, ଯାହା ଦର୍ପଣ ପରି ପ୍ରତିଫଳନ ସୃଷ୍ଟି କରେ।"
 },
 {
-"questionEnglish": "What is the primary theme of the poem?",
-"questionOdia": "ଏହି କବିତାର ମୁଖ୍ୟ ବିଷୟବସ୍ତୁ କଣ?",
+"questionEnglish": "Which characteristic of Radhanath Ray's poetry is highlighted in 'Chilikare Sayantana Drushya'?",
+"questionOdia": "'ଚିଲିକାରେ ସାୟନ୍ତନ ଦୃଶ୍ୟ' କବିତାରେ ରାଧାନାଥ ରାୟଙ୍କ କାବ୍ୟକଳାର କେଉଁ ବିଶେଷତ୍ୱ ପ୍ରକାଶ ପାଇଛି?",
 "options": [
-"ଚିଲିକାର ପ୍ରାକୃତିକ ସୌନ୍ଦର୍ଯ୍ୟ",
-"ଯୁଦ୍ଧ କାହାଣୀ",
-"ଶିକ୍ଷାର ମହତ୍ତ୍ୱ",
-"ସମାଜ ସଂସ୍କାର"
+"ପ୍ରକୃତିର ସୁନ୍ଦର ଓ ଜୀବନ୍ତ ଚିତ୍ରଣ",
+"ରାଜନୈତିକ ବ୍ୟଙ୍ଗ",
+"ଯୁଦ୍ଧର ବର୍ଣ୍ଣନା",
+"ମାନବ ସମାଜର କଟୁ ସମାଲୋଚନା"
 ],
-"answer": "ଚିଲିକାର ପ୍ରାକୃତିକ ସୌନ୍ଦର୍ଯ୍ୟ",
-"explanation": "ଚିଲିକା ହ୍ରଦର ସନ୍ଧ୍ୟାକାଳୀନ ପ୍ରାକୃତିକ ଶୋଭାକୁ କବି ଏଥିରେ ବର୍ଣ୍ଣନା କରିଛନ୍ତି।"
+"answer": "ପ୍ରକୃତିର ସୁନ୍ଦର ଓ ଜୀବନ୍ତ ଚିତ୍ରଣ",
+"explanation": "ରାଧାନାଥ ରାୟ ଜଣେ ପ୍ରକୃତିପ୍ରେମୀ କବି, ଏହି କବିତାରେ ସେ ଚିଲିକାର ପ୍ରାକୃତିକ ଶୋଭାର ଅନନ୍ୟ ଚିତ୍ରଣ କରିଛନ୍ତି।"
 },
 {
-"questionEnglish": "What does the sun look like during sunset over Chilika?",
-"questionOdia": "ଚିଲିକାରେ ସୂର୍ଯ୍ୟାସ୍ତ ସମୟରେ ସୂର୍ଯ୍ୟ କିପରି ଦିଶନ୍ତି?",
+"questionEnglish": "What happens to the sky's reflection in the water at sunset in the poem?",
+"questionOdia": "ସୂର୍ଯ୍ୟାସ୍ତ ସମୟରେ ଚିଲିକା ଜଳରେ ଆକାଶର ରଙ୍ଗ କିପରି ପ୍ରତିଫଳିତ ହେଉଛି?",
 "options": [
-"ଧଳା ପରି",
-"ରକ୍ତବର୍ଣ୍ଣ କିମ୍ବା ସୁବର୍ଣ୍ଣ ଗୋଲକ ପରି",
-"କଳା ପରି",
-"ନୀଳ ପରି"
+"କଳା ରଙ୍ଗ ଦିଶୁଛି",
+"ରକ୍ତ ଓ ସ୍ୱର୍ଣ୍ଣିମ ଆଭା ଜଳରେ ମିଶି ଏକ ମନୋରମ ଦୃଶ୍ୟ ସୃଷ୍ଟି କରୁଛି",
+"ସବୁଜ ରଙ୍ଗ ଦିଶୁଛି",
+"କୌଣସି ପରିବର୍ତ୍ତନ ହେଉନାହିଁ"
 ],
-"answer": "ରକ୍ତବର୍ଣ୍ଣ କିମ୍ବା ସୁବର୍ଣ୍ଣ ଗୋଲକ ପରି",
-"explanation": "ସୂର୍ଯ୍ୟାସ୍ତ ସମୟରେ ସୂର୍ଯ୍ୟ ସୁନେଲି ଓ ରକ୍ତମିଶା ଆଭା ଧାରଣ କରିଥାନ୍ତି।"
+"answer": "ରକ୍ତ ଓ ସ୍ୱର୍ଣ୍ଣିମ ଆଭା ଜଳରେ ମିଶି ଏକ ମନୋରମ ଦୃଶ୍ୟ ସୃଷ୍ଟି କରୁଛି",
+"explanation": "ସନ୍ଧ୍ୟା ଆକାଶର ରଙ୍ଗ ପାଣିରେ ପଡ଼ି ଜଳରାଶିକୁ ଅପୂର୍ବ ସୁନ୍ଦର କରି ଗଢ଼ିତୋଳେ।"
 },
 {
-"questionEnglish": "How is the water of Chilika described?",
-"questionOdia": "ଚିଲିକାର ଜଳରାଶିକୁ କିପରି ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"questionEnglish": "Why is Radhanath Ray known as 'Prakruti Kabi'?",
+"questionOdia": "ରାଧାନାଥ ରାୟ କାହିଁକି 'ପ୍ରକୃତି କବି' ଭାବରେ ପରିଚିତ?",
 "options": [
-"ଅଶାନ୍ତ",
-"ସ୍ଥିର ଓ ଦର୍ପଣ ସଦୃଶ",
-"ଗୋଳିଆ",
-"ବହୁତ ଗଭୀର"
+"ସେ କେବଳ ପ୍ରକୃତି ଉପରେ ଲେଖୁଥିଲେ",
+"ତାଙ୍କ କବିତାରେ ପ୍ରକୃତିର ବର୍ଣ୍ଣନା ଅତ୍ୟନ୍ତ ସୁନ୍ଦର ଓ ଭାବପୂର୍ଣ୍ଣ",
+"ସେ ଜଣେ ଜଙ୍ଗଲୀ କବି ଥିଲେ",
+"ସେ ପ୍ରକୃତି ବିଷୟରେ ପାଠ ପଢ଼ାଉଥିଲେ"
 ],
-"answer": "ସ୍ଥିର ଓ ଦର୍ପଣ ସଦୃଶ",
-"explanation": "ସନ୍ଧ୍ୟା ସମୟରେ ଚିଲିକାର ପାଣି ଅତ୍ୟନ୍ତ ସ୍ଥିର ଓ ଦର୍ପଣ ପରି ପ୍ରତିଫଳନ କରୁଥାଏ।"
+"answer": "ତାଙ୍କ କବିତାରେ ପ୍ରକୃତିର ବର୍ଣ୍ଣନା ଅତ୍ୟନ୍ତ ସୁନ୍ଦର ଓ ଭାବପୂର୍ଣ୍ଣ",
+"explanation": "ତାଙ୍କ ରଚନାରେ ପ୍ରକୃତିର ପ୍ରତିଟି କଣିକା ସୁନ୍ଦର ଭାବେ ବର୍ଣ୍ଣିତ ହୋଇଥିବାରୁ ତାଙ୍କୁ ପ୍ରକୃତି କବି କୁହାଯାଏ।"
 },
 {
-"questionEnglish": "Which bird is often seen flying over Chilika in the poem?",
-"questionOdia": "କବିତାରେ ଚିଲିକା ଉପରେ ଉଡ଼ୁଥିବା କେଉଁ ପକ୍ଷୀର ଚିତ୍ର ମିଳେ?",
+"questionEnglish": "What emotion does the poet feel while observing the evening view of Chilika?",
+"questionOdia": "ଚିଲିକାର ସନ୍ଧ୍ୟାକାଳୀନ ଦୃଶ୍ୟ ଦେଖି କବିଙ୍କ ମନରେ କେଉଁ ଭାବ ଜାଗ୍ରତ ହୁଏ?",
 "options": [
-"ଶୁଆ",
-"କାଉ",
-"ବଗ",
-"ମୟୂର"
+"ଦୁଃଖ ଓ ବିଷାଦ",
+"ବିସ୍ମୟ, ଶାନ୍ତି ଓ ଆନନ୍ଦ",
+"କ୍ରୋଧ ଓ ଅଶାନ୍ତି",
+"ଭୟ ଓ ଭୀତି"
 ],
-"answer": "ବଗ",
-"explanation": "ଚିଲିକାରେ ବଗ ଓ ଅନ୍ୟାନ୍ୟ ଜଳଚର ପକ୍ଷୀଙ୍କ ଚଳପ୍ରଚଳ ସନ୍ଧ୍ୟାର ଶୋଭା ବଢ଼ାଏ।"
+"answer": "ବିସ୍ମୟ, ଶାନ୍ତି ଓ ଆନନ୍ଦ",
+"explanation": "ପ୍ରକୃତିର ଏହି ଅପୂର୍ବ ଶୋଭା କବିଙ୍କୁ ଶାନ୍ତି ଓ ଆନନ୍ଦ ପ୍ରଦାନ କରେ।"
 },
 {
-"questionEnglish": "What does the poet call the reflection of the sky in the water?",
-"questionOdia": "ଜଳରେ ଆକାଶର ପ୍ରତିଫଳନକୁ କବି କଣ ବୋଲି କହିଛନ୍ତି?",
+"questionEnglish": "Does the poet mention any sound in the silent evening of Chilika?",
+"questionOdia": "ଚିଲିକାର ଏହି ନିସ୍ତବ୍ଧ ସନ୍ଧ୍ୟାରେ କବି କୌଣସି ଶବ୍ଦର ଉଲ୍ଲେଖ କରିଛନ୍ତି କି?",
 "options": [
-"ଅନ୍ଧାର",
-"ପ୍ରତିବିମ୍ବ ବା ସ୍ୱପ୍ନର ଚିତ୍ର",
-"ଆଲୁଅ",
+"ହଁ, ପକ୍ଷୀମାନଙ୍କ କାକଳି ଓ ଜଳର କ୍ଷୀଣ ଶବ୍ଦ",
+"ନା, ଚାରିଆଡ଼େ ସମ୍ପୂର୍ଣ୍ଣ ନିରବତା",
+"ହଁ, ରାସ୍ତାରେ ଯାଉଥିବା ଗାଡ଼ିର ଶବ୍ଦ",
+"ହଁ, ବଜାରର କୋଳାହଳ"
+],
+"answer": "ହଁ, ପକ୍ଷୀମାନଙ୍କ କାକଳି ଓ ଜଳର କ୍ଷୀଣ ଶବ୍ଦ",
+"explanation": "ପ୍ରକୃତିର ନିରବତା ଭିତରେ ମଧ୍ୟ ପକ୍ଷୀଙ୍କ କଳରବ ଏକ ମଧୁର ସଙ୍ଗୀତ ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "What does the vast expanse of Chilika water signify in the poem?",
+"questionOdia": "କବିତାରେ ଚିଲିକାର ବିସ୍ତୃତ ଜଳରାଶି କଣ ସୂଚାଏ?",
+"options": [
+"ଓଡ଼ିଶାର ସୀମା",
+"ପ୍ରକୃତିର ଅନନ୍ତ ମହିମା ଓ ବିଶାଳତା",
+"ଏକ ବନ୍ଦରର ବ୍ୟବସାୟ",
+"ବିପଦର ସଙ୍କେତ"
+],
+"answer": "ପ୍ରକୃତିର ଅନନ୍ତ ମହିମା ଓ ବିଶାଳତା",
+"explanation": "ଚିଲିକାର ବିଶାଳତା ପ୍ରକୃତିର ଅସୀମ ଶକ୍ତି ଓ ସୌନ୍ଦର୍ଯ୍ୟକୁ ଦର୍ଶାଏ।"
+},
+{
+"questionEnglish": "Is the language used in 'Chilikare Sayantana Drushya' complex or simple?",
+"questionOdia": "'ଚିଲିକାରେ ସାୟନ୍ତନ ଦୃଶ୍ୟ' କବିତାର ଭାଷା କିପରି?",
+"options": [
+"ଅତ୍ୟନ୍ତ କଠିନ ଓ ବୁଝିବା ଅସାଧ୍ୟ",
+"ଅତ୍ୟନ୍ତ ସରଳ, ଭାବପୂର୍ଣ୍ଣ ଓ ସାହିତ୍ୟିକ",
+"କେବଳ ଇଂରାଜୀ ଶବ୍ଦରେ ଭରା",
+"ଅସ୍ପଷ୍ଟ ଓ ଅର୍ଥହୀନ"
+],
+"answer": "ଅତ୍ୟନ୍ତ ସରଳ, ଭାବପୂର୍ଣ୍ଣ ଓ ସାହିତ୍ୟିକ",
+"explanation": "ରାଧାନାଥଙ୍କ ଶୈଳୀ ସବୁବେଳେ ଭାବଗମ୍ଭୀର ହେଲେ ମଧ୍ୟ ପଢ଼ିବାକୁ ସରଳ ଓ ଆକର୍ଷଣୀୟ।"
+},
+{
+"questionEnglish": "How does the poet depict the union of earth and sky in the poem?",
+"questionOdia": "କବି ଚିଲିକାରେ ପୃଥିବୀ ଓ ଆକାଶର ମିଳନକୁ କିପରି ଚିତ୍ରଣ କରିଛନ୍ତି?",
+"options": [
+"ଦୁହେଁ ଅଲଗା ହୋଇ ରହିଛନ୍ତି",
+"ସନ୍ଧ୍ୟାରେ ଦୁହେଁ ଏକାଠି ମିଶିଯାଇ ଏକ ସୁନ୍ଦର ଦୃଶ୍ୟ ସୃଷ୍ଟି କରୁଛନ୍ତି",
+"ଆକାଶ ବହୁତ ଉପରେ ରହିଛି",
+"ପୃଥିବୀରେ କୌଣସି ରଙ୍ଗ ନାହିଁ"
+],
+"answer": "ସନ୍ଧ୍ୟାରେ ଦୁହେଁ ଏକାଠି ମିଶିଯାଇ ଏକ ସୁନ୍ଦର ଦୃଶ୍ୟ ସୃଷ୍ଟି କରୁଛନ୍ତି",
+"explanation": "ସୂର୍ଯ୍ୟାସ୍ତ ସମୟରେ ଆକାଶର ରଙ୍ଗ ପାଣିରେ ପ୍ରତିଫଳିତ ହୋଇ ଉଭୟଙ୍କ ମଧ୍ୟରେ ଏକ ଅଦ୍ଭୁତ ସମନ୍ୱୟ ଦେଖାଯାଏ।"
+},
+{
+"questionEnglish": "What is the importance of 'Chilika' in Odia literature?",
+"questionOdia": "ଓଡ଼ିଆ ସାହିତ୍ୟରେ 'ଚିଲିକା' କାବ୍ୟର ଗୁରୁତ୍ୱ କଣ?",
+"options": [
+"ଏହା ଏକ ସାଧାରଣ କବିତା",
+"ଏହା ଓଡ଼ିଆ ସାହିତ୍ୟର ପ୍ରଥମ ପ୍ରକୃତିଭିତ୍ତିକ ସ୍ୱତନ୍ତ୍ର କାବ୍ୟ",
+"ଏହା କେବଳ ଛାତ୍ରଙ୍କ ପାଇଁ ଲେଖା",
+"ଏହା କୌଣସି ଗୁରୁତ୍ୱ ରଖେ ନାହିଁ"
+],
+"answer": "ଏହା ଓଡ଼ିଆ ସାହିତ୍ୟର ପ୍ରଥମ ପ୍ରକୃତିଭିତ୍ତିକ ସ୍ୱତନ୍ତ୍ର କାବ୍ୟ",
+"explanation": "ଚିଲିକା ଓଡ଼ିଆ ସାହିତ୍ୟର ଏକ ମାଇଲଖୁଣ୍ଟ ଯାହା ପ୍ରକୃତି ବର୍ଣ୍ଣନା ପାଇଁ ପ୍ରସିଦ୍ଧ।"
+},
+{
+"questionEnglish": "Does the poet mention the mountain or hill near Chilika?",
+"questionOdia": "କବି ଚିଲିକା ନିକଟରେ ଥିବା ପର୍ବତ ବା ପାହାଡ଼ର ଉଲ୍ଲେଖ କରିଛନ୍ତି କି?",
+"options": [
+"ନା, କେବଳ ପାଣି ବିଷୟରେ",
+"ହଁ, ପାର୍ଶ୍ୱସ୍ଥ ପର୍ବତମାଳା ମଧ୍ୟ ଏହି ସନ୍ଧ୍ୟା ଶୋଭାରେ ଭାଗ ନେଉଛନ୍ତି",
+"କେବଳ ବନ ବିଷୟରେ",
 "କିଛି ନୁହେଁ"
 ],
-"answer": "ପ୍ରତିବିମ୍ବ ବା ସ୍ୱପ୍ନର ଚିତ୍ର",
-"explanation": "ଜଳରେ ଆକାଶର ପ୍ରତିବିମ୍ବ ଏକ ସ୍ୱପ୍ନମୟ ଦୃଶ୍ୟ ସୃଷ୍ଟି କରେ।"
+"answer": "ହଁ, ପାର୍ଶ୍ୱସ୍ଥ ପର୍ବତମାଳା ମଧ୍ୟ ଏହି ସନ୍ଧ୍ୟା ଶୋଭାରେ ଭାଗ ନେଉଛନ୍ତି",
+"explanation": "ଚିଲିକାର ଚାରିପାଖର ପର୍ବତ ଓ ପ୍ରକୃତି ସନ୍ଧ୍ୟାରେ ଆହୁରି ସୁନ୍ଦର ଦିଶନ୍ତି।"
 },
 {
-"questionEnglish": "Which feeling does the poem evoke?",
-"questionOdia": "ଏହି କବିତା ପାଠ କଲେ କି ପ୍ରକାର ଭାବ ଜାଗ୍ରତ ହୁଏ?",
+"questionEnglish": "What does 'Sayantana' specifically refer to in the title context?",
+"questionOdia": "ଶୀର୍ଷକ ସନ୍ଦର୍ଭରେ 'ସାୟନ୍ତନ' ନିର୍ଦ୍ଦିଷ୍ଟ ଭାବରେ କାହାକୁ ବୁଝାଏ?",
 "options": [
-"ଭୟ",
-"ପ୍ରକୃତି ପ୍ରେମ",
-"କ୍ରୋଧ",
-"ଦୁଃଖ"
+"ଗୋଧୂଳି ସମୟ",
+"ଅପରାହ୍ନ",
+"ପ୍ରଭାତ",
+"ମଧ୍ୟରାତ୍ରି"
 ],
-"answer": "ପ୍ରକୃତି ପ୍ରେମ",
-"explanation": "ପ୍ରକୃତିର ସୌନ୍ଦର୍ଯ୍ୟ ପାଇଁ ମନରେ ଭଲ ପାଇବା ଜାଗ୍ରତ ହୁଏ।"
+"answer": "ଗୋଧୂଳି ସମୟ",
+"explanation": "ସାୟନ୍ତନ ଅର୍ଥ ସୂର୍ଯ୍ୟାସ୍ତର ପରବର୍ତ୍ତୀ ଗୋଧୂଳି ବେଳା।"
 },
 {
-"questionEnglish": "What is the mood of the environment?",
-"questionOdia": "ସନ୍ଧ୍ୟା ସମୟରେ ପରିବେଶ କିପରି ଥାଏ?",
+"questionEnglish": "How does the poem inspire the readers?",
+"questionOdia": "ଏହି କବିତା ପାଠକଙ୍କୁ କିପରି ପ୍ରେରଣା ଦିଏ?",
 "options": [
-"କୋଳାହଳପୂର୍ଣ୍ଣ",
-"ଶାନ୍ତ ଓ ଗମ୍ଭୀର",
-"ବର୍ଷାମୁଖର",
+"ପ୍ରକୃତିକୁ ଭଲ ପାଇବାକୁ ଓ ସୁରକ୍ଷା କରିବାକୁ",
+"ଅଧିକ ବ୍ୟବସାୟ କରିବାକୁ",
+"ଯୁଦ୍ଧ କରିବାକୁ",
+"କାମ କରିବାକୁ"
+],
+"answer": "ପ୍ରକୃତିକୁ ଭଲ ପାଇବାକୁ ଓ ସୁରକ୍ଷା କରିବାକୁ",
+"explanation": "ପ୍ରକୃତିର ସୌନ୍ଦର୍ଯ୍ୟ ଦେଖିଲେ ମନରେ ପ୍ରକୃତି ପ୍ରତି ଭଲପାଇବା ଓ ସମ୍ମାନ ବଢ଼ିଥାଏ।"
+},
+{
+"questionEnglish": "Are the descriptions in the poem imaginary or realistic?",
+"questionOdia": "କବିତାର ବର୍ଣ୍ଣନା କଣ କଳ୍ପନାପ୍ରସୂତ ନା ବାସ୍ତବ?",
+"options": [
+"ସମ୍ପୂର୍ଣ୍ଣ କଳ୍ପନା",
+"ବାସ୍ତବ ଦୃଶ୍ୟର ସୁନ୍ଦର କଳ୍ପନାତ୍ମକ ରୂପ",
+"କେବଳ ମିଛ",
+"ଅବାସ୍ତବ"
+],
+"answer": "ବାସ୍ତବ ଦୃଶ୍ୟର ସୁନ୍ଦର କଳ୍ପନାତ୍ମକ ରୂପ",
+"explanation": "ରାଧାନାଥ ବାସ୍ତବ ଦୃଶ୍ୟକୁ ନିଜର କଳ୍ପନା ଓ ଭାଷା ମାଧ୍ୟମରେ ଅତ୍ୟନ୍ତ ସୁନ୍ଦର କରି ବର୍ଣ୍ଣନା କରିଛନ୍ତି।"
+},
+{
+"questionEnglish": "Is there a mention of the fishermen in the poem?",
+"questionOdia": "କବିତାରେ ମତ୍ସ୍ୟଜୀବୀମାନଙ୍କର ଉଲ୍ଲେଖ ଅଛି କି?",
+"options": [
+"ହଁ, ସନ୍ଧ୍ୟାରେ ସେମାନେ ଫେରୁଛନ୍ତି",
+"ନା, କେବଳ ପ୍ରକୃତିର ବର୍ଣ୍ଣନା",
+"ହଁ, ସେମାନେ ମାଛ ଧରୁଛନ୍ତି",
+"ନା, କିଛି ନୁହେଁ"
+],
+"answer": "ନା, କେବଳ ପ୍ରକୃତିର ବର୍ଣ୍ଣନା",
+"explanation": "ଏହି କବିତାରେ କେବଳ ପ୍ରାକୃତିକ ଦୃଶ୍ୟପଟ୍ଟ ଉପରେ ଗୁରୁତ୍ୱ ଦିଆଯାଇଛି।"
+},
+{
+"questionEnglish": "How does the poet's writing style appeal to the readers?",
+"questionOdia": "କବିଙ୍କ ଲେଖନ ଶୈଳୀ ପାଠକଙ୍କୁ କିପରି ଆକୃଷ୍ଟ କରେ?",
+"options": [
+"କଠିନ ଶବ୍ଦ ବ୍ୟବହାର କରି",
+"ସରଳ ଭାଷା ଓ ଅଳଙ୍କାର ବ୍ୟବହାର କରି",
+"ଅସଭ୍ୟ ଭାଷାରେ",
 "କିଛି ନୁହେଁ"
 ],
-"answer": "ଶାନ୍ତ ଓ ଗମ୍ଭୀର",
-"explanation": "ସନ୍ଧ୍ୟାର ଚିଲିକା ଅତ୍ୟନ୍ତ ଶାନ୍ତ ଓ ମନୋରମ ଥାଏ।"
+"answer": "ସରଳ ଭାଷା ଓ ଅଳଙ୍କାର ବ୍ୟବହାର କରି",
+"explanation": "ସରଳ ଭାଷାରେ ଗଭୀର ଭାବନା ପ୍ରକାଶ କରିବା ରାଧାନାଥଙ୍କ ବିଶେଷତ୍ୱ।"
 },
 {
-"questionEnglish": "Who is considered the 'nature poet' in Odia literature?",
-"questionOdia": "ଓଡ଼ିଆ ସାହିତ୍ୟରେ କାହାକୁ 'ପ୍ରକୃତି କବି' କୁହାଯାଏ?",
+"questionEnglish": "What lesson do we get from this poem about nature?",
+"questionOdia": "ଏହି କବିତାରୁ ଆମେ ପ୍ରକୃତି ସମ୍ବନ୍ଧରେ କଣ ଶିକ୍ଷା ପାଉ?",
 "options": [
-"ରାଧାନାଥ ରାୟ",
-"ଗଙ୍ଗାଧର ମେହେର",
-"କବିବର ଲକ୍ଷ୍ମୀକାନ୍ତ",
-"ଉପେନ୍ଦ୍ର ଭଞ୍ଜ"
+"ପ୍ରକୃତି ନଷ୍ଟ କରିବା",
+"ପ୍ରକୃତିର ଶାନ୍ତି ଓ ସୌନ୍ଦର୍ଯ୍ୟକୁ ଉପଭୋଗ କରିବା",
+"ପ୍ରକୃତିକୁ ଭୟ କରିବା",
+"କିଛି ନୁହେଁ"
 ],
-"answer": "ରାଧାନାଥ ରାୟ",
-"explanation": "ରାଧାନାଥ ରାୟ ପ୍ରକୃତିର ନିଖୁଣ ବର୍ଣ୍ଣନା ପାଇଁ ପ୍ରକୃତି କବି ଭାବେ ପରିଚିତ।"
+"answer": "ପ୍ରକୃତିର ଶାନ୍ତି ଓ ସୌନ୍ଦର୍ଯ୍ୟକୁ ଉପଭୋଗ କରିବା",
+"explanation": "ପ୍ରକୃତିର ଶାନ୍ତି ଆମ ମନକୁ ସତେଜ ରଖେ।"
 },
 {
-"questionEnglish": "What is the 'Baleswar' region relation to Chilika?",
-"questionOdia": "ଚିଲିକା ସହ କେଉଁ ସ୍ଥାନର ସମ୍ପର୍କ କବିତାରେ ଅଛି?",
+"questionEnglish": "Who is the main theme of the poem centered around?",
+"questionOdia": "ଏହି କବିତାର ମୂଳବସ୍ତୁ କେନ୍ଦ୍ରୀଭୂତ ହୋଇଛି କାହା ଚାରିପଟେ?",
 "options": [
-"କଟକ",
-"ପୁରୀ (ଚିଲିକା ଅବସ୍ଥିତ)",
-"ବାଲେଶ୍ୱର",
-"କେନ୍ଦୁଝର"
+"ରାଜା",
+"ପ୍ରକୃତି",
+"ସାମାଜ",
+"ଭଗବାନ"
 ],
-"answer": "ପୁରୀ (ଚିଲିକା ଅବସ୍ଥିତ)",
-"explanation": "ଚିଲିକା ଓଡ଼ିଶାର ପୁରୀ, ଖୋର୍ଦ୍ଧା ଓ ଗଞ୍ଜାମ ଜିଲ୍ଲାକୁ ସ୍ପର୍ଶ କରି ରହିଛି।"
+"answer": "ପ୍ରକୃତି",
+"explanation": "ସମଗ୍ର କବିତାଟି ପ୍ରକୃତିର ଶୋଭା ବର୍ଣ୍ଣନାରେ ବୁଣା ହୋଇଛି।"
 },
 {
-"questionEnglish": "Does the poem describe the color change of the sky?",
-"questionOdia": "ଆକାଶର ରଙ୍ଗ ପରିବର୍ତ୍ତନ କଣ ଏହି କବିତାରେ ବର୍ଣ୍ଣିତ?",
+"questionEnglish": "Are there any moral lessons in the poem?",
+"questionOdia": "କବିତାରେ କଣ କୌଣସି ନୈତିକ ଶିକ୍ଷା ଅଛି?",
 "options": [
-"ହଁ",
+"ନା, କେବଳ ସୌନ୍ଦର୍ଯ୍ୟ",
+"ହଁ, ପ୍ରକୃତି ସହିତ ସମନ୍ୱୟ ରକ୍ଷା କରିବା",
+"ହଁ, ସବୁଠୁ ଶକ୍ତିଶାଳୀ ହେବା",
+"ନା, କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ, ପ୍ରକୃତି ସହିତ ସମନ୍ୱୟ ରକ୍ଷା କରିବା",
+"explanation": "ପ୍ରକୃତି ସହ ଏକାତ୍ମ ହେବା ଜୀବନର ଏକ ମୂଲ୍ୟବାନ ଶିକ୍ଷା।"
+},
+{
+"questionEnglish": "What color is the sky just before sunset as described?",
+"questionOdia": "ସୂର୍ଯ୍ୟାସ୍ତ ପୂର୍ବରୁ ଆକାଶର ରଙ୍ଗ କିପରି ଥାଏ?",
+"options": [
+"ନୀଳ",
+"ବିଭିନ୍ନ ରଙ୍ଗରେ ପରିବର୍ତ୍ତିତ, ସ୍ୱର୍ଣ୍ଣିମ ଓ ରକ୍ତମିଶା",
+"ଧଳା",
+"କଳା"
+],
+"answer": "ବିଭିନ୍ନ ରଙ୍ଗରେ ପରିବର୍ତ୍ତିତ, ସ୍ୱର୍ଣ୍ଣିମ ଓ ରକ୍ତମିଶା",
+"explanation": "ସୂର୍ଯ୍ୟାସ୍ତ ସମୟର ରଙ୍ଗ ପରିବର୍ତ୍ତନ ଅତ୍ୟନ୍ତ ଚିତ୍ତାକର୍ଷକ।"
+},
+{
+"questionEnglish": "Does the poet mention Chilika's importance in Odisha?",
+"questionOdia": "କବି ଓଡ଼ିଶାରେ ଚିଲିକାର ଗୁରୁତ୍ୱ ସମ୍ପର୍କରେ କହିଛନ୍ତି କି?",
+"options": [
+"ହଁ, ସେ ଏହାକୁ ଓଡ଼ିଶାର ଗୌରବ ବୋଲି ମାନନ୍ତି",
 "ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ସନ୍ଧ୍ୟାରେ ଆକାଶର ରଙ୍ଗ ପରିବର୍ତ୍ତନ କବି ବହୁତ ସୁନ୍ଦର ଭାବେ ବର୍ଣ୍ଣନା କରିଛନ୍ତି।"
-},
-{
-"questionEnglish": "Is Radhanath Ray known for nature poetry?",
-"questionOdia": "ରାଧାନାଥ ରାୟ କଣ ପ୍ରକୃତି କବିତାର ପାଇଁ ଜଣାଶୁଣା?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ରାଧାନାଥଙ୍କ କବିତାରେ ପ୍ରକୃତି ସର୍ବଦା ପ୍ରାଧାନ୍ୟ ପାଇଛି।"
-},
-{
-"questionEnglish": "What effect does the sunset have on the lake?",
-"questionOdia": "ସୂର୍ଯ୍ୟାସ୍ତ ହ୍ରଦ ଉପରେ କି ପ୍ରଭାବ ପକାଏ?",
-"options": [
-"ପାଣିକୁ ଗରମ କରେ",
-"ସୁନେଲି ଆଭା ଦିଏ",
 "କିଛି ନୁହେଁ",
-"ପାଣିକୁ କଳା କରେ"
+"କେହି ନୁହେଁ"
 ],
-"answer": "ସୁନେଲି ଆଭା ଦିଏ",
-"explanation": "ସୂର୍ଯ୍ୟାସ୍ତ ସମୟରେ ହ୍ରଦର ଜଳରାଶି ସୁନେଲି ଦିଶେ।"
+"answer": "ହଁ, ସେ ଏହାକୁ ଓଡ଼ିଶାର ଗୌରବ ବୋଲି ମାନନ୍ତି",
+"explanation": "ରାଧାନାଥଙ୍କ କାବ୍ୟରେ ଓଡ଼ିଶାର ପ୍ରାକୃତିକ ସମ୍ପଦ ପ୍ରତି ଗଭୀର ଆଦର ଅଛି।"
 },
 {
-"questionEnglish": "Does the poet use imagery?",
-"questionOdia": "କବି କଣ କଳ୍ପନା ପ୍ରସୂତ ଦୃଶ୍ୟ ବ୍ୟବହାର କରିଛନ୍ତି?",
+"questionEnglish": "How does the poet connect the reader to the scene?",
+"questionOdia": "କବି ପାଠକଙ୍କୁ ଏହି ଦୃଶ୍ୟ ସହ କିପରି ସଂଯୋଗ କରନ୍ତି?",
+"options": [
+"କଠିନ ଭାଷାରେ",
+"ସଜୀବ ଓ ଚିତ୍ତାକର୍ଷକ ବର୍ଣ୍ଣନା ମାଧ୍ୟମରେ",
+"ବିଜ୍ଞାନ ଦେଇ",
+"କୌଣସି ଉପାୟ ନାହିଁ"
+],
+"answer": "ସଜୀବ ଓ ଚିତ୍ତାକର୍ଷକ ବର୍ଣ୍ଣନା ମାଧ୍ୟମରେ",
+"explanation": "ତାଙ୍କ ବର୍ଣ୍ଣନା ଏତେ ସଜୀବ ଯେ ପାଠକ ଆଖି ସାମ୍ନାରେ ଦୃଶ୍ୟଟି ଦେଖିପାରିବେ।"
+},
+{
+"questionEnglish": "Is there a sense of peace in the poem?",
+"questionOdia": "କବିତାରେ କଣ ଶାନ୍ତିର ଏକ ଭାବ ଅଛି?",
+"options": [
+"ହଁ",
+"ନା",
+"କିଛି ନୁହେଁ",
+"ଅଶାନ୍ତି"
+],
+"answer": "ହଁ",
+"explanation": "ଚିଲିକାର ନିରବତା ପାଠକଙ୍କ ମନରେ ଶାନ୍ତି ଭରିଦିଏ।"
+},
+{
+"questionEnglish": "Why did the poet write about Chilika?",
+"questionOdia": "କବି କାହିଁକି ଚିଲିକା ବିଷୟରେ ଲେଖିଲେ?",
+"options": [
+"ଏହା ଏକ ସୁନ୍ଦର ସ୍ଥାନ",
+"ଏହା ଏକ ସାଧାରଣ ସ୍ଥାନ",
+"କାହାର କହିବା ପାଇଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ଏହା ଏକ ସୁନ୍ଦର ସ୍ଥାନ",
+"explanation": "ପ୍ରକୃତିର ସୌନ୍ଦର୍ଯ୍ୟ ତାଙ୍କୁ ଲେଖିବା ପାଇଁ ଅନୁପ୍ରାଣିତ କଲା।"
+},
+{
+"questionEnglish": "Is Chilika only for sightseeing?",
+"questionOdia": "ଚିଲିକା କଣ କେବଳ ଦେଖିବା ପାଇଁ?",
+"options": [
+"ହଁ",
+"ନା, ଏହା ଜୀବଜଗତର ଏକ ଆଧାର",
+"କିଛି ନୁହେଁ",
+"କେହି ନୁହେଁ"
+],
+"answer": "ନା, ଏହା ଜୀବଜଗତର ଏକ ଆଧାର",
+"explanation": "ଚିଲିକା ଅନେକ ଜୀବଜନ୍ତୁ ଓ ମନୁଷ୍ୟଙ୍କ ପାଇଁ ଜୀବନର ଉତ୍ସ।"
+},
+{
+"questionEnglish": "Does Radhanath Ray have a specific poetic style?",
+"questionOdia": "ରାଧାନାଥ ରାୟଙ୍କର କଣ କୌଣସି ସ୍ୱତନ୍ତ୍ର କାବ୍ୟକ ଶୈଳୀ ଅଛି?",
+"options": [
+"ହଁ, ତାଙ୍କର କାବ୍ୟ ରଚନା ଶୈଳୀ ଅନନ୍ୟ",
+"ନା",
+"କିଛି ନୁହେଁ",
+"ସାଧାରଣ"
+],
+"answer": "ହଁ, ତାଙ୍କର କାବ୍ୟ ରଚନା ଶୈଳୀ ଅନନ୍ୟ",
+"explanation": "ସେ ପାଶ୍ଚାତ୍ୟ ଓ ଓଡ଼ିଆ ଶୈଳୀର ଏକ ସୁନ୍ଦର ମିଶ୍ରଣ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Is nature portrayed as a living entity?",
+"questionOdia": "ପ୍ରକୃତି କଣ ଏକ ଜୀବନ୍ତ ସତ୍ତା ଭାବେ ଚିତ୍ରିତ?",
+"options": [
+"ହଁ",
+"ନା",
+"କିଛି ନୁହେଁ",
+"କେହି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ରାଧାନାଥଙ୍କ ବର୍ଣ୍ଣନାରେ ପ୍ରକୃତି ସତେ ଯେମିତି କଥା କହୁଛି।"
+},
+{
+"questionEnglish": "Are the visuals of Chilika described effectively?",
+"questionOdia": "ଚିଲିକାର ଦୃଶ୍ୟ କଣ ସଫଳ ଭାବେ ବର୍ଣ୍ଣିତ?",
+"options": [
+"ହଁ",
+"ନା",
+"କିଛି ନୁହେଁ",
+"ଅସ୍ପଷ୍ଟ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ବର୍ଣ୍ଣନା ଅତ୍ୟନ୍ତ ସଫଳ।"
+},
+{
+"questionEnglish": "Is this poem studied in Odisha schools?",
+"questionOdia": "ଏହି କବିତା ଓଡ଼ିଶାର ସ୍କୁଲରେ ପଢ଼ାଯାଏ କି?",
 "options": [
 "ହଁ",
 "ନା",
@@ -190,35 +369,11 @@
 "କିଛି ନୁହେଁ"
 ],
 "answer": "ହଁ",
-"explanation": "ରାଧାନାଥଙ୍କ କବିତାରେ ସୁନ୍ଦର ଚିତ୍ରକଳ୍ପ ଦେଖିବାକୁ ମିଳେ।"
+"explanation": "ହଁ, ଏହା ଓଡ଼ିଶାର ଶିକ୍ଷା ପାଠ୍ୟକ୍ରମର ଏକ ଅଂଶ।"
 },
 {
-"questionEnglish": "Is the language of the poem simple?",
-"questionOdia": "ଏହି କବିତାର ଭାଷା କଣ ସରଳ?",
-"options": [
-"ହଁ, ବୁଝିବାକୁ ସହଜ",
-"ନା, ବହୁତ କଠିନ",
-"କେବଳ ଇଂରାଜୀ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ, ବୁଝିବାକୁ ସହଜ",
-"explanation": "ଏହାର ଶୈଳୀ ସରଳ ଓ ମର୍ମସ୍ପର୍ଶୀ।"
-},
-{
-"questionEnglish": "What does the poet see?",
-"questionOdia": "କବି କଣ ଦେଖୁଛନ୍ତି?",
-"options": [
-"ଚିଲିକାର ସୌନ୍ଦର୍ଯ୍ୟ",
-"ସହର",
-"ରାସ୍ତା",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ଚିଲିକାର ସୌନ୍ଦର୍ଯ୍ୟ",
-"explanation": "କବି ସନ୍ଧ୍ୟାର ଚିଲିକା ସୌନ୍ଦର୍ଯ୍ୟ ଦେଖୁଛନ୍ତି।"
-},
-{
-"questionEnglish": "Is Chilika a lake?",
-"questionOdia": "ଚିଲିକା କଣ ଏକ ହ୍ରଦ?",
+"questionEnglish": "Is Radhanath Ray respected?",
+"questionOdia": "ରାଧାନାଥ ରାୟ ସମ୍ମାନିତ କି?",
 "options": [
 "ହଁ",
 "ନା",
@@ -226,154 +381,10 @@
 "କିଛି ନୁହେଁ"
 ],
 "answer": "ହଁ",
-"explanation": "ଚିଲିକା ଏକ ଲବଣାକ୍ତ ହ୍ରଦ।"
+"explanation": "ହଁ, ସେ ଜଣେ ସମ୍ମାନିତ କବି।"
 },
 {
-"questionEnglish": "Does the poem inspire joy?",
-"questionOdia": "ଏହା କଣ ଆନନ୍ଦ ଦିଏ?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ପ୍ରକୃତିର ସୌନ୍ଦର୍ଯ୍ୟ ସର୍ବଦା ଆନନ୍ଦ ଦିଏ।"
-},
-{
-"questionEnglish": "What is the aesthetic value of the poem?",
-"questionOdia": "କବିତାର ସୌନ୍ଦର୍ଯ୍ୟ କଣ?",
-"options": [
-"ଉଚ୍ଚ",
-"ନିମ୍ନ",
-"ନାହିଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ଉଚ୍ଚ",
-"explanation": "ଏହା ଏକ ଉଚ୍ଚମାନର କାବ୍ୟକ ରଚନା।"
-},
-{
-"questionEnglish": "Are we proud of Chilika?",
-"questionOdia": "ଆମେ କଣ ଚିଲିକା ପାଇଁ ଗର୍ବିତ?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ଚିଲିକା ଓଡ଼ିଶାର ଏକ ଗର୍ବ।"
-},
-{
-"questionEnglish": "Is nature beautiful?",
-"questionOdia": "ପ୍ରକୃତି କଣ ସୁନ୍ଦର?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ପ୍ରକୃତି ଅତ୍ୟନ୍ତ ସୁନ୍ଦର।"
-},
-{
-"questionEnglish": "Who wrote 'Chilika'?",
-"questionOdia": "'ଚିଲିକା' କିଏ ଲେଖିଛନ୍ତି?",
-"options": [
-"ରାଧାନାଥ ରାୟ",
-"ନାହିଁ",
-"ଅନ୍ୟ କେହି",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ରାଧାନାଥ ରାୟ",
-"explanation": "ରାଧାନାଥ ରାୟ।"
-},
-{
-"questionEnglish": "Is evening beautiful?",
-"questionOdia": "ସନ୍ଧ୍ୟା କଣ ସୁନ୍ଦର?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ସନ୍ଧ୍ୟା ସମୟ ବହୁତ ଶାନ୍ତ ଓ ସୁନ୍ଦର।"
-},
-{
-"questionEnglish": "Do we love nature?",
-"questionOdia": "ଆମେ କଣ ପ୍ରକୃତିକୁ ଭଲ ପାଉ?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ସମସ୍ତେ ପ୍ରକୃତିକୁ ଭଲ ପାଆନ୍ତି।"
-},
-{
-"questionEnglish": "Is the poet great?",
-"questionOdia": "କବି କଣ ମହାନ?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ରାଧାନାଥ ରାୟ ଜଣେ ମହାନ କବି।"
-},
-{
-"questionEnglish": "Does it bring peace?",
-"questionOdia": "ଏହା କଣ ଶାନ୍ତି ଦିଏ?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ପ୍ରକୃତି ସବୁବେଳେ ଶାନ୍ତି ଦିଏ।"
-},
-{
-"questionEnglish": "Is Chilika in Odisha?",
-"questionOdia": "ଚିଲିକା କଣ ଓଡ଼ିଶାରେ ଅଛି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଚିଲିକା ଓଡ଼ିଶାରେ ଅବସ୍ଥିତ।"
-},
-{
-"questionEnglish": "Is it artistic?",
-"questionOdia": "ଏହା କଣ କଳାତ୍ମକ?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, କଳାତ୍ମକ।"
-},
-{
-"questionEnglish": "Do you enjoy it?",
-"questionOdia": "ତୁମେ ଏହାକୁ ଆନନ୍ଦ ନିଅ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଆନନ୍ଦ ପାଏ।"
-},
-{
-"questionEnglish": "Is evening calm?",
+"questionEnglish": "Is the evening calm?",
 "questionOdia": "ସନ୍ଧ୍ୟା କଣ ଶାନ୍ତ?",
 "options": [
 "ହଁ",
@@ -382,287 +393,11 @@
 "କିଛି ନୁହେଁ"
 ],
 "answer": "ହଁ",
-"explanation": "ସନ୍ଧ୍ୟା ଅତ୍ୟନ୍ତ ଶାନ୍ତ।"
+"explanation": "ହଁ, ସନ୍ଧ୍ୟା ଶାନ୍ତ।"
 },
 {
-"questionEnglish": "Who is the poet?",
-"questionOdia": "କବି କିଏ?",
-"options": [
-"ରାଧାନାଥ ରାୟ",
-"ନାହିଁ",
-"କିଛି ନୁହେଁ",
-"କେହି ନୁହେଁ"
-],
-"answer": "ରାଧାନାଥ ରାୟ",
-"explanation": "ରାଧାନାଥ ରାୟ।"
-},
-{
-"questionEnglish": "Are we Odiya?",
-"questionOdia": "ଆମେ ଓଡ଼ିଆ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଆମେ ଓଡ଼ିଆ।"
-},
-{
-"questionEnglish": "Is it good?",
-"questionOdia": "ଏହା ଭଲ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଭଲ।"
-},
-{
-"questionEnglish": "Do you like it?",
-"questionOdia": "ତୁମେ ଏହାକୁ ପସନ୍ଦ କର କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ପସନ୍ଦ କରେ।"
-},
-{
-"questionEnglish": "Is it a masterpiece?",
-"questionOdia": "ଏହା କଣ ଶ୍ରେଷ୍ଠ ରଚନା?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଶ୍ରେଷ୍ଠ ରଚନା।"
-},
-{
-"questionEnglish": "Who is our pride?",
-"questionOdia": "ଆମ ଗର୍ବ କିଏ?",
-"options": [
-"ରାଧାନାଥ ରାୟ",
-"ନାହିଁ",
-"କିଛି ନୁହେଁ",
-"କେହି ନୁହେଁ"
-],
-"answer": "ରାଧାନାଥ ରାୟ",
-"explanation": "ରାଧାନାଥ ରାୟ।"
-},
-{
-"questionEnglish": "Is it nature?",
-"questionOdia": "ଏହା କଣ ପ୍ରକୃତି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ପ୍ରକୃତି।"
-},
-{
-"questionEnglish": "Is it beautiful?",
-"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ସୁନ୍ଦର।"
-},
-{
-"questionEnglish": "Are we happy?",
-"questionOdia": "ଆମେ ଖୁସି କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଖୁସି।"
-},
-{
-"questionEnglish": "Who wrote this?",
-"questionOdia": "କିଏ ଏହା ଲେଖିଲେ?",
-"options": [
-"ରାଧାନାଥ",
-"ନାହିଁ",
-"କେହି ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ରାଧାନାଥ",
-"explanation": "ରାଧାନାଥ ଲେଖିଲେ।"
-},
-{
-"questionEnglish": "Is nature kind?",
-"questionOdia": "ପ୍ରକୃତି ଦୟାଳୁ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଦୟାଳୁ।"
-},
-{
-"questionEnglish": "Do you love Odisha?",
-"questionOdia": "ତୁମେ ଓଡ଼ିଶାକୁ ଭଲ ପାଅ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ମୁଁ ଭଲ ପାଏ।"
-},
-{
-"questionEnglish": "Is it a poem?",
-"questionOdia": "ଏହା କବିତା କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, କବିତା।"
-},
-{
-"questionEnglish": "Is it good?",
-"questionOdia": "ଏହା ଭଲ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଭଲ।"
-},
-{
-"questionEnglish": "Are we one?",
-"questionOdia": "ଆମେ ଏକ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଏକ।"
-},
-{
-"questionEnglish": "Is it famous?",
-"questionOdia": "ଏହା ପ୍ରସିଦ୍ଧ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ପ୍ରସିଦ୍ଧ।"
-},
-{
-"questionEnglish": "Is it art?",
-"questionOdia": "ଏହା କଳା କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, କଳା।"
-},
-{
-"questionEnglish": "Is it beautiful?",
-"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ସୁନ୍ଦର।"
-},
-{
-"questionEnglish": "Are we lucky?",
-"questionOdia": "ଆମେ ଭାଗ୍ୟବାନ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଭାଗ୍ୟବାନ।"
-},
-{
-"questionEnglish": "Is it ours?",
-"questionOdia": "ଏହା ଆମର କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଆମର।"
-},
-{
-"questionEnglish": "Is it peaceful?",
-"questionOdia": "ଏହା ଶାନ୍ତିପୂର୍ଣ୍ଣ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଶାନ୍ତିପୂର୍ଣ୍ଣ।"
-},
-{
-"questionEnglish": "Is nature good?",
-"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଭଲ।"
-},
-{
-"questionEnglish": "Is it our land?",
-"questionOdia": "ଏହା ଆମ ଭୂମି କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଆମ ଭୂମି।"
-},
-{
-"questionEnglish": "Are we proud?",
-"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"questionEnglish": "Are we proud of our nature?",
+"questionOdia": "ଆମ ପ୍ରକୃତି ପାଇଁ ଆମେ ଗର୍ବିତ କି?",
 "options": [
 "ହଁ",
 "ନା",
@@ -673,8 +408,8 @@
 "explanation": "ହଁ, ଗର୍ବିତ।"
 },
 {
-"questionEnglish": "Is it a poem?",
-"questionOdia": "ଏହା କବିତା କି?",
+"questionEnglish": "Is this a great poem?",
+"questionOdia": "ଏହା କଣ ଏକ ମହାନ କବିତା?",
 "options": [
 "ହଁ",
 "ନା",
@@ -682,23 +417,11 @@
 "କିଛି ନୁହେଁ"
 ],
 "answer": "ହଁ",
-"explanation": "ହଁ, କବିତା।"
+"explanation": "ହଁ, ମହାନ।"
 },
 {
-"questionEnglish": "Who is poet?",
-"questionOdia": "କବି କିଏ?",
-"options": [
-"ରାଧାନାଥ ରାୟ",
-"ନାହିଁ",
-"କିଛି ନୁହେଁ",
-"କେହି ନୁହେଁ"
-],
-"answer": "ରାଧାନାଥ ରାୟ",
-"explanation": "ରାଧାନାଥ ରାୟ।"
-},
-{
-"questionEnglish": "Is it good?",
-"questionOdia": "ଏହା ଭଲ କି?",
+"questionEnglish": "Is this Odisha's beauty?",
+"questionOdia": "ଏହା କଣ ଓଡ଼ିଶାର ସୌନ୍ଦର୍ଯ୍ୟ?",
 "options": [
 "ହଁ",
 "ନା",
@@ -706,11 +429,11 @@
 "କିଛି ନୁହେଁ"
 ],
 "answer": "ହଁ",
-"explanation": "ହଁ, ଭଲ।"
+"explanation": "ହଁ, ସୌନ୍ଦର୍ଯ୍ୟ।"
 },
 {
-"questionEnglish": "Do you love?",
-"questionOdia": "ତୁମେ ଭଲ ପାଅ କି?",
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
 "options": [
 "ହଁ",
 "ନା",
@@ -718,55 +441,7 @@
 "କିଛି ନୁହେଁ"
 ],
 "answer": "ହଁ",
-"explanation": "ହଁ, ଭଲ ପାଏ।"
-},
-{
-"questionEnglish": "Is it beautiful?",
-"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ସୁନ୍ଦର।"
-},
-{
-"questionEnglish": "Are we one?",
-"questionOdia": "ଆମେ ଏକ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଏକ।"
-},
-{
-"questionEnglish": "Is it nature?",
-"questionOdia": "ଏହା କଣ ପ୍ରକୃତି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ପ୍ରକୃତି।"
-},
-{
-"questionEnglish": "Who is great?",
-"questionOdia": "କିଏ ମହାନ?",
-"options": [
-"କବି",
-"ନାହିଁ",
-"କିଛି ନୁହେଁ",
-"କେହି ନୁହେଁ"
-],
-"answer": "କବି",
-"explanation": "କବି ହିଁ ମହାନ।"
+"explanation": "ହଁ, ଖୁସି।"
 },
 {
 "questionEnglish": "Is it artistic?",
@@ -781,91 +456,7 @@
 "explanation": "ହଁ, କଳାତ୍ମକ।"
 },
 {
-"questionEnglish": "Is it our land?",
-"questionOdia": "ଏହା ଆମ ଭୂମି କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଆମ ଭୂମି।"
-},
-{
-"questionEnglish": "Do you like?",
-"questionOdia": "ତୁମେ ପସନ୍ଦ କର କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ପସନ୍ଦ କରେ।"
-},
-{
 "questionEnglish": "Is it good?",
-"questionOdia": "ଏହା ଭଲ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଭଲ।"
-},
-{
-"questionEnglish": "Who is poet?",
-"questionOdia": "କବି କିଏ?",
-"options": [
-"ରାଧାନାଥ ରାୟ",
-"ନାହିଁ",
-"କିଛି ନୁହେଁ",
-"କେହି ନୁହେଁ"
-],
-"answer": "ରାଧାନାଥ ରାୟ",
-"explanation": "ରାଧାନାଥ ରାୟ।"
-},
-{
-"questionEnglish": "Is it beauty?",
-"questionOdia": "ଏହା ସୌନ୍ଦର୍ଯ୍ୟ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ସୌନ୍ଦର୍ଯ୍ୟ।"
-},
-{
-"questionEnglish": "Are we happy?",
-"questionOdia": "ଆମେ ଖୁସି କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଖୁସି।"
-},
-{
-"questionEnglish": "Do you love?",
-"questionOdia": "ତୁମେ ଭଲ ପାଅ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଭଲ ପାଏ।"
-},
-{
-"questionEnglish": "Is it nice?",
 "questionOdia": "ଏହା ଭଲ କି?",
 "options": [
 "ହଁ",
@@ -889,44 +480,8 @@
 "explanation": "ହଁ, ଆମର।"
 },
 {
-"questionEnglish": "Is nature kind?",
-"questionOdia": "ପ୍ରକୃତି ଦୟାଳୁ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଦୟାଳୁ।"
-},
-{
-"questionEnglish": "Is it peaceful?",
-"questionOdia": "ଏହା ଶାନ୍ତିପୂର୍ଣ୍ଣ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଶାନ୍ତିପୂର୍ଣ୍ଣ।"
-},
-{
-"questionEnglish": "Are we Odiya?",
-"questionOdia": "ଆମେ ଓଡ଼ିଆ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଆମେ ଓଡ଼ିଆ।"
-},
-{
-"questionEnglish": "Is it good?",
-"questionOdia": "ଏହା ଭଲ କି?",
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
 "options": [
 "ହଁ",
 "ନା",
@@ -937,8 +492,8 @@
 "explanation": "ହଁ, ଭଲ।"
 },
 {
-"questionEnglish": "Do you enjoy?",
-"questionOdia": "ତୁମେ ଆନନ୍ଦ ପାଅ କି?",
+"questionEnglish": "Are we lucky?",
+"questionOdia": "ଆମେ ଭାଗ୍ୟବାନ କି?",
 "options": [
 "ହଁ",
 "ନା",
@@ -946,23 +501,11 @@
 "କିଛି ନୁହେଁ"
 ],
 "answer": "ହଁ",
-"explanation": "ହଁ, ଆନନ୍ଦ ପାଏ।"
+"explanation": "ହଁ, ଭାଗ୍ୟବାନ।"
 },
 {
-"questionEnglish": "Who is poet?",
-"questionOdia": "କବି କିଏ?",
-"options": [
-"ରାଧାନାଥ ରାୟ",
-"ନାହିଁ",
-"କିଛି ନୁହେଁ",
-"କେହି ନୁହେଁ"
-],
-"answer": "ରାଧାନାଥ ରାୟ",
-"explanation": "ରାଧାନାଥ ରାୟ।"
-},
-{
-"questionEnglish": "Is it nature?",
-"questionOdia": "ଏହା କଣ ପ୍ରକୃତି?",
+"questionEnglish": "Do you love nature?",
+"questionOdia": "ତୁମେ ପ୍ରକୃତିକୁ ଭଲ ପାଅ କି?",
 "options": [
 "ହଁ",
 "ନା",
@@ -970,7 +513,7 @@
 "କିଛି ନୁହେଁ"
 ],
 "answer": "ହଁ",
-"explanation": "ହଁ, ପ୍ରକୃତି।"
+"explanation": "ହଁ, ଭଲ ପାଏ।"
 },
 {
 "questionEnglish": "Is it beautiful?",
@@ -985,43 +528,7 @@
 "explanation": "ହଁ, ସୁନ୍ଦର।"
 },
 {
-"questionEnglish": "Are we proud?",
-"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଗର୍ବିତ।"
-},
-{
-"questionEnglish": "Is it a poem?",
-"questionOdia": "ଏହା କବିତା କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, କବିତା।"
-},
-{
-"questionEnglish": "Is it good?",
-"questionOdia": "ଏହା ଭଲ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଭଲ।"
-},
-{
-"questionEnglish": "Who is poet?",
+"questionEnglish": "Who is the poet?",
 "questionOdia": "କବି କିଏ?",
 "options": [
 "ରାଧାନାଥ ରାୟ",
@@ -1031,42 +538,6 @@
 ],
 "answer": "ରାଧାନାଥ ରାୟ",
 "explanation": "ରାଧାନାଥ ରାୟ।"
-},
-{
-"questionEnglish": "Do you love?",
-"questionOdia": "ତୁମେ ଭଲ ପାଅ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଭଲ ପାଏ।"
-},
-{
-"questionEnglish": "Is it beauty?",
-"questionOdia": "ଏହା ସୌନ୍ଦର୍ଯ୍ୟ କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ସୌନ୍ଦର୍ଯ୍ୟ।"
-},
-{
-"questionEnglish": "Are we happy?",
-"questionOdia": "ଆମେ ଖୁସି କି?",
-"options": [
-"ହଁ",
-"ନା",
-"କେବେ ନୁହେଁ",
-"କିଛି ନୁହେଁ"
-],
-"answer": "ହଁ",
-"explanation": "ହଁ, ଖୁସି।"
 },
 {
 "questionEnglish": "Is it nice?",
@@ -1093,8 +564,8 @@
 "explanation": "ହଁ, ଆମର।"
 },
 {
-"questionEnglish": "Is nature kind?",
-"questionOdia": "ପ୍ରକୃତି ଦୟାଳୁ କି?",
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
 "options": [
 "ହଁ",
 "ନା",
@@ -1102,11 +573,11 @@
 "କିଛି ନୁହେଁ"
 ],
 "answer": "ହଁ",
-"explanation": "ହଁ, ଦୟାଳୁ।"
+"explanation": "ହଁ, ଭଲ।"
 },
 {
-"questionEnglish": "Is it peaceful?",
-"questionOdia": "ଏହା ଶାନ୍ତିପୂର୍ଣ୍ଣ କି?",
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
 "options": [
 "ହଁ",
 "ନା",
@@ -1114,11 +585,11 @@
 "କିଛି ନୁହେଁ"
 ],
 "answer": "ହଁ",
-"explanation": "ହଁ, ଶାନ୍ତିପୂର୍ଣ୍ଣ।"
+"explanation": "ହଁ, ଗର୍ବିତ।"
 },
 {
-"questionEnglish": "Are we Odiya?",
-"questionOdia": "ଆମେ ଓଡ଼ିଆ କି?",
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
 "options": [
 "ହଁ",
 "ନା",
@@ -1126,6 +597,534 @@
 "କିଛି ନୁହେଁ"
 ],
 "answer": "ହଁ",
-"explanation": "ହଁ, ଆମେ ଓଡ଼ିଆ।"
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you ready?",
+"questionOdia": "ତୁମେ ପ୍ରସ୍ତୁତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ପ୍ରସ୍ତୁତ।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
+},
+{
+"questionEnglish": "Is it good?",
+"questionOdia": "ଏହା ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Is it ours?",
+"questionOdia": "ଏହା ଆମର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଆମର।"
+},
+{
+"questionEnglish": "Is nature good?",
+"questionOdia": "ପ୍ରକୃତି ଭଲ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଭଲ।"
+},
+{
+"questionEnglish": "Are we proud?",
+"questionOdia": "ଆମେ ଗର୍ବିତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗର୍ବିତ।"
+},
+{
+"questionEnglish": "Is it artistic?",
+"questionOdia": "ଏହା କଳାତ୍ମକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କଳାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is it beautiful?",
+"questionOdia": "ଏହା ସୁନ୍ଦର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସୁନ୍ଦର।"
+},
+{
+"questionEnglish": "Are you happy?",
+"questionOdia": "ତୁମେ ଖୁସି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେ ନୁହେଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଖୁସି।"
 }
 ]
