@@ -1,0 +1,483 @@
+
+[
+{
+"questionEnglish": "Who is the author of the famous Odia one-act play 'Phalgu'?",
+"questionOdia": "ଦଶମ ଶ୍ରେଣୀ ସାହିତ୍ୟ ସିନ୍ଧୁ ପୁସ୍ତକରେ ଥିବା 'ଫଲଗୁ' ଏକାଙ୍କିକାର ରଚୟିତା କିଏ?",
+"options": [
+"ମନୋରଞ୍ଜନ ଦାସ",
+"ଗୋପାଳ ଛୋଟରାୟ",
+"ଭଞ୍ଜକିଶୋର ପଟ୍ଟନାୟକ",
+"ପ୍ରାଣବନ୍ଧୁ କର"
+],
+"answer": "ମନୋରଞ୍ଜନ ଦାସ",
+"explanation": "'Phalgu' ekankika (one-act play) ke lekhak Manoranjan Das hain, jo aadhunik Odia natak ke pramukh stambh maane jaate hain."
+},
+{
+"questionEnglish": "What does the word 'Phalgu' literally refer to in the context of the story?",
+"questionOdia": "ଏହି ନାଟକର ପ୍ରେକ୍ଷାପଟରେ 'ଫଲଗୁ' ଶବ୍ଦଟି ମୂଳତଃ କାହାକୁ ସୂଚାଉଛି?",
+"options": [
+"ଏକ ଉଚ୍ଚ ପର୍ବତମାଳାକୁ",
+"ଗୟାରେ ପ୍ରବାହିତ ଏକ ଅନ୍ତଃସଲିଳା ନଦୀକୁ",
+"ଏକ ପ୍ରାଚୀନ ମନ୍ଦିରକୁ",
+"ଗୋଟିଏ ସୁନ୍ଦର ଗ୍ରାମକୁ"
+],
+"answer": "ଗୟାରେ ପ୍ରବାହିତ ଏକ ଅନ୍ତଃସଲିଳା ନଦୀକୁ",
+"explanation": "Phalgu Gaya (Bihar) mein behne wali ek aisi nadee hai jo upar se sookhi rait jaisi dikhti hai par andar pani ka srot hota hai."
+},
+{
+"questionEnglish": "What does the river Phalgu symbolize in this one-act play?",
+"questionOdia": "'ଫଲଗୁ' ନଦୀଟି ଏହି ଏକାଙ୍କିକାରେ କେଉଁ କଥାର ପ୍ରତୀକ ଅଟେ?",
+"options": [
+"ମଣିଷର ଅହଂକାର ଓ କ୍ରୋଧର",
+"ସାମାଜିକ ଦୁର୍ନୀତିର",
+"ବାହ୍ୟ କଠୋରତା ତଳେ ଲୁଚି ରହିଥିବା ମାନବିକ ଆବେଗ ଓ ପ୍ରେମର",
+"ଧନ ସମ୍ପତ୍ତିର ଲୋଭର"
+],
+"answer": "ବାହ୍ୟ କଠୋରତା ତଳେ ଲୁଚି ରହିଥିବା ମାନବିକ ଆବେଗ ଓ ପ୍ରେମର",
+"explanation": "Jaise Phalgu nadee ke andar pani chhipa hota hai, waise hi insaan ke sakht bartav ke pichhe gahra pyar aur emotions chhipe hote hain."
+},
+{
+"questionEnglish": "Who is the main protagonist of the play 'Phalgu'?",
+"questionOdia": "'ଫଲଗୁ' ଏକାଙ୍କିକାର ମୁଖ୍ୟ ଚରିତ୍ର ବା ନାୟକ କିଏ?",
+"options": [
+"କ୍ୟାପ୍ଟେନ୍ ମହାପାତ୍ର",
+"ସୁବ୍ରତ",
+"ଅରୁଣ",
+"ବିଶ୍ଵନାଥ"
+],
+"answer": "ସୁବ୍ରତ",
+"explanation": "Is natak ka main character Subrata hai, jo ek writer hai aur apni patni ki maut ke baad uski yaadon mein dooba rahta hai."
+},
+{
+"questionEnglish": "What was the profession of Subrata?",
+"questionOdia": "ଗଳ୍ପରେ ସୁବ୍ରତଙ୍କର ପେଶା ବା ବୃତ୍ତି କ'ଣ ଥିଲା?",
+"options": [
+"ଜଣେ ଡାକ୍ତର",
+"ଜଣେ ସୈନିକ",
+"ଜଣେ ଲେଖକ",
+"ଜଣେ ଶିକ୍ଷକ"
+],
+"answer": "ଜଣେ ଲେଖକ",
+"explanation": "Subrata peshe se ek lekhak (writer) tha, isiliye wo bahut bhavuk (emotional) aur sensitive nature ka tha."
+},
+{
+"questionEnglish": "Whose untimely death left a deep void in Subrata's life?",
+"questionOdia": "କାହାର ଅକାଳ ବିୟୋଗ ସୁବ୍ରତଙ୍କ ଜୀବନରେ ଏକ ଗଭୀର ଶୂନ୍ୟସ୍ଥାନ ସୃଷ୍ଟି କରିଥିଲା?",
+"options": [
+"ତାଙ୍କ ମାତାଙ୍କର",
+"ତାଙ୍କର ପ୍ରିୟ ପତ୍ନୀ ପ୍ରୀତିଙ୍କର",
+"ତାଙ୍କର ଜଣେ ବନ୍ଧୁଙ୍କର",
+"ତାଙ୍କ ଭାଇଙ୍କର"
+],
+"answer": "ତାଙ୍କର ପ୍ରିୟ ପତ୍ନୀ ପ୍ରୀତିଙ୍କର",
+"explanation": "Uski pyari patni Preeti ki death ne Subrata ko puri tarah tod diya tha aur wo akela pad gaya tha."
+},
+{
+"questionEnglish": "What did Subrata cherish as his most precious treasure?",
+"questionOdia": "ସୁବ୍ରତ ନିଜର ସବୁଠାରୁ ଅମୂଲ୍ୟ ସମ୍ପତ୍ତି ଭାବରେ କାହାକୁ ସାଇତି ରଖିଥିଲେ?",
+"options": [
+"ବହୁତ ଗୁଡ଼ିଏ ସୁନା ମୁଦ୍ରା",
+"ପ୍ରୀତିଙ୍କର ପ୍ରେମ ପତ୍ରଗୁଡ଼ିକୁ",
+"ନିଜର ପ୍ରକାଶିତ ବହିଗୁଡ଼ିକୁ",
+"ପୈତୃକ ସମ୍ପତ୍ତିକୁ"
+],
+"answer": "ପ୍ରୀତିଙ୍କର ପ୍ରେମ ପତ୍ରଗୁଡ଼ିକୁ",
+"explanation": "Subrata ke liye uski patni Preeti dwara likhi gayi love letters hi uski zindagi ka sabse anmol khazana (precious treasure) thi."
+},
+{
+"questionEnglish": "Who is Captain Mahapatra in the context of the story?",
+"questionOdia": "ଏହି କାହାଣୀରେ କ୍ୟାପ୍ଟେନ୍ ମହାପାତ୍ର କିଏ ଅଟନ୍ତି?",
+"options": [
+"ସୁବ୍ରତଙ୍କର ଜଣେ ସମ୍ପର୍କୀୟ ଭାଇ",
+"ପୋଲିସ ଇନ୍ସପେକ୍ଟର",
+"ସୁବ୍ରତଙ୍କର ପଡ଼ୋଶୀ",
+"ସୁବ୍ରତଙ୍କର ଡାକ୍ତର"
+],
+"answer": "ସୁବ୍ରତଙ୍କର ପଡ଼ୋଶୀ",
+"explanation": "Captain Mahapatra Subrata ke padosi (neighbor) hain, jo is natak mein ek mahatvapurna bhumika nibhate hain."
+},
+{
+"questionEnglish": "What unusual request did Captain Mahapatra make to Subrata?",
+"questionOdia": "କ୍ୟାପ୍ଟେନ୍ ମହାପାତ୍ର ସୁବ୍ରତଙ୍କୁ କେଉଁ ଅସାଧାରଣ ଅନୁରୋଧ କରିଥିଲେ?",
+"options": [
+"ତାଙ୍କ ଘର ବିକ୍ରି କରିଦେବାକୁ",
+"ପ୍ରୀତିଙ୍କର ଗୋଟିଏ ପତ୍ର ତାଙ୍କୁ ବିକ୍ରି କରିବାକୁ",
+"ତାଙ୍କୁ ଏକ କାହାଣୀ ଲେଖିଦେବାକୁ",
+"କିଛି ଟଙ୍କା ଧାର ଦେବାକୁ"
+],
+"answer": "ପ୍ରୀତିଙ୍କର ଗୋଟିଏ ପତ୍ର ତାଙ୍କୁ ବିକ୍ରି କରିବାକୁ",
+"explanation": "Captain Mahapatra ne Subrata se Preeti ka ek letter kharidne (purchase) ki demand ki thi, jo Subrata ke liye bahut shocking tha."
+},
+{
+"questionEnglish": "Why was Captain Mahapatra interested in Preeti's letter?",
+"questionOdia": "ପ୍ରୀତିଙ୍କର ସେହି ଚିଠିଟି ପ୍ରତି କ୍ୟାପ୍ଟେନ୍ ମହାପାତ୍ର କାହିଁକି ଆକର୍ଷିତ ହୋଇଥିଲେ?",
+"options": [
+"ସେ ପ୍ରୀତିଙ୍କୁ ଭଲ ପାଉଥିଲେ",
+"ଚିଠିର ଲଫାପାରେ ଥିବା ଏକ ବିରଳ ଡାକଟିକଟ ପାଇଁ",
+"ସୁବ୍ରତଙ୍କୁ ହଇରାଣ କରିବା ପାଇଁ",
+"ଚିଠିର ହସ୍ତାକ୍ଷର ପାଇଁ"
+],
+"answer": "ଚିଠିର ଲଫାପାରେ ଥିବା ଏକ ବିରଳ ଡାକଟିକଟ ପାଇଁ",
+"explanation": "Captain Mahapatra stamp collection ka shauq rakhte the, aur Preeti ke letter par ek rare postage stamp (dak-ticket) tha."
+},
+{
+"questionEnglish": "What kind of inner conflict does Subrata face upon hearing the Captain's request?",
+"questionOdia": "କ୍ୟାପ୍ଟେନ୍‌ଙ୍କ ପ୍ରସ୍ତାବ ଶୁଣିବା ପରେ ସୁବ୍ରତଙ୍କ ମନରେ କେଉଁ ପ୍ରକାରର ଅନ୍ତର୍ଦ୍ୱନ୍ଦ୍ୱ ସୃଷ୍ଟି ହୋଇଥିଲା?",
+"options": [
+"କେଉଁ ବହି ପ୍ରକାଶ କରିବେ ତାହାର ଦ୍ୱନ୍ଦ୍ୱ",
+"ଅର୍ଥନୈତିକ ମୂଲ୍ୟ ବନାମ ଭାବପ୍ରବଣତା ବା ସ୍ମୃତିର ମୂଲ୍ୟର ଦ୍ୱନ୍ଦ୍ୱ",
+"ଘର ଛାଡିଯିବାର ଦ୍ୱନ୍ଦ୍ୱ",
+"ନୂଆ ବିବାହ କରିବାର ଦ୍ୱନ୍ଦ୍ୱ"
+],
+"answer": "ଅର୍ଥନୈତିକ ମୂଲ୍ୟ ବନାମ ଭାବପ୍ରବଣତା ବା ସ୍ମୃତିର ମୂଲ୍ୟର ଦ୍ୱନ୍ଦ୍ୱ",
+"explanation": "Subrata is conflict mein fas gaya ki kya paise ke liye apni patni ki anmol yaadon (sentimental value) ko bechna sahi hai."
+},
+{
+"questionEnglish": "How does Subrata view the letters written by Preeti?",
+"questionOdia": "ସୁବ୍ରତ ପ୍ରୀତିଙ୍କ ଦ୍ୱାରା ଲିଖିତ ଚିଠିଗୁଡ଼ିକୁ କେଉଁ ଦୃଷ୍ଟିରେ ଦେଖୁଥିଲେ?",
+"options": [
+"କେବଳ କାଗଜର ଖଣ୍ଡେ ଭାବରେ",
+"ଅର୍ଥ ଉପାର୍ଜନର ମାଧ୍ୟମ ଭାବରେ",
+"ନିଜ ହୃଦୟର ଏକ ଅଂଶ ଏବଂ ଅତୀତର ଜୀବନ୍ତ ସ୍ମୃତି ଭାବରେ",
+"ଅଦରକାରୀ ଆବର୍ଜନା ଭାବରେ"
+],
+"answer": "ନିଜ ହୃଦୟର ଏକ ଅଂଶ ଏବଂ ଅତୀତର ଜୀବନ୍ତ ସ୍ମୃତି ଭାବରେ",
+"explanation": "Subrata ke liye wo letters sirf kagaz nahi the, balki uski patni ki aatma aur unke pyar ki zinda nishani the."
+},
+{
+"questionEnglish": "What is the primary theme explored by Manoranjan Das in 'Phalgu'?",
+"questionOdia": "ମନୋରଞ୍ଜନ ଦାସଙ୍କ 'ଫଲଗୁ' ଏକାଙ୍କିକାରେ ମୁଖ୍ୟତଃ କେଉଁ ବିଷୟକୁ ଗୁରୁତ୍ୱ ଦିଆଯାଇଛି?",
+"options": [
+"ଶିଳ୍ପାୟନର କୁପ୍ରଭାବ",
+"ମାନବିକ ସମ୍ପର୍କ, ପ୍ରେମ, ସ୍ମୃତି ଏବଂ ମୂଲ୍ୟବୋଧର ସଂଘର୍ଷ",
+"ରାଜନୈତିକ ସମସ୍ୟା",
+"ଆଧ୍ୟାତ୍ମିକତା ଏବଂ ସନ୍ନ୍ୟାସ ଜୀବନ"
+],
+"answer": "ମାନବିକ ସମ୍ପର୍କ, ପ୍ରେମ, ସ୍ମୃତି ଏବଂ ମୂଲ୍ୟବୋଧର ସଂଘର୍ଷ",
+"explanation": "Is natak ka primary theme human emotions, memory, loss, aur materialism vs sentiments (mulyabodha) ke beech ka sangharsh hai."
+},
+{
+"questionEnglish": "What does the dry upper layer of the Phalgu river metaphorically represent in human behavior?",
+"questionOdia": "ଫଲଗୁ ନଦୀର ଉପରିଭାଗର ଶୁଖିଲା ବାଲି, ମଣିଷର ବ୍ୟବହାରରେ କେଉଁ ଦିଗକୁ ବୁଝାଏ?",
+"options": [
+"ଆନ୍ତରିକ ଭଲପାଇବାକୁ",
+"ମଣିଷର ବାହ୍ୟ କଠୋରତା ଏବଂ ଭାବହୀନ ଆବରଣକୁ",
+"ଅତ୍ୟଧିକ ଖୁସିକୁ",
+"ନିରବଚ୍ଛିନ୍ନ ଶାନ୍ତିକୁ"
+],
+"answer": "ମଣିଷର ବାହ୍ୟ କଠୋରତା ଏବଂ ଭାବହୀନ ଆବରଣକୁ",
+"explanation": "Sookhi rait insaan ke bahari sakht aur rukhapan (harsh exterior) ko dikhati hai, jiske pichhe emotions chhipe hote hain."
+},
+{
+"questionEnglish": "How does the play depict the concept of 'Materialism'?",
+"questionOdia": "ଏହି ନାଟକରେ 'ବସ୍ତୁବାଦ' ବା ଜାଗତିକ ମୋହକୁ କିପରି ଦର୍ଶାଯାଇଛି?",
+"options": [
+"ପ୍ରୀତିଙ୍କର ନିଃସ୍ୱାର୍ଥପର ପ୍ରେମ ମାଧ୍ୟମରେ",
+"କ୍ୟାପ୍ଟେନ୍ ମହାପାତ୍ରଙ୍କର ଏକ ସ୍ମୃତିବିଜଡ଼ିତ ଚିଠିକୁ ଟଙ୍କା ଦେଇ କିଣିବାର ପ୍ରୟାସ ମାଧ୍ୟମରେ",
+"ସୁବ୍ରତଙ୍କର କାନ୍ଦିବା ମାଧ୍ୟମରେ",
+"ଗୟାର ଫଲଗୁ ନଦୀ ମାଧ୍ୟମରେ"
+],
+"answer": "କ୍ୟାପ୍ଟେନ୍ ମହାପାତ୍ରଙ୍କର ଏକ ସ୍ମୃତିବିଜଡ଼ିତ ଚିଠିକୁ ଟଙ୍କା ଦେଇ କିଣିବାର ପ୍ରୟାସ ମାଧ୍ୟମରେ",
+"explanation": "Captain Mahapatra ka paiso se kisi ke personal aur emotional letter ko kharidne ki koshish Materialism (bastubada) ka bada example hai."
+},
+{
+"questionEnglish": "What psychological state of Subrata is prominently displayed in the play?",
+"questionOdia": "ନାଟକରେ ସୁବ୍ରତଙ୍କର କେଉଁ ମାନସିକ ଅବସ୍ଥାକୁ ସ୍ପଷ୍ଟ ଭାବରେ ପ୍ରଦର୍ଶିତ କରାଯାଇଛି?",
+"options": [
+"ଗଭୀର ଆନନ୍ଦ ଓ ଉଲ୍ଲାସ",
+"ଅତୀତର ସ୍ମୃତିଚାରଣ, ବିଷାଦ ଏବଂ ହରାଇବାର ଯନ୍ତ୍ରଣା",
+"ତୀବ୍ର କ୍ରୋଧ ଏବଂ ପ୍ରତିଶୋଧ ପରାୟଣତା",
+"ସମ୍ପୂର୍ଣ୍ଣ ବୈରାଗ୍ୟଭାବ"
+],
+"answer": "ଅତୀତର ସ୍ମୃତିଚାରଣ, ବିଷାଦ ଏବଂ ହରାଇବାର ଯନ୍ତ୍ରଣା",
+"explanation": "Play mein Subrata ki grief (bishada), nostalgia, aur apni patni ko khone ka dard (pain of loss) bahut gehrai se dikhaya gaya hai."
+},
+{
+"questionEnglish": "Which grammatical form is the word 'Antahsalila' (ଅନ୍ତଃସଲିଳା)?",
+"questionOdia": "ବ୍ୟାକରଣ ଦୃଷ୍ଟିରୁ 'ଅନ୍ତଃସଲିଳା' ଶବ୍ଦଟି କେଉଁ ପ୍ରକାରର ପଦ?",
+"options": [
+"ବିଶେଷ୍ୟ",
+"ବିଶେଷଣ",
+"ଅବ୍ୟୟ",
+"କ୍ରିୟା"
+],
+"answer": "ବିଶେଷଣ",
+"explanation": "'Antahsalila' (andar behne wali) nadee ki visheshta (quality) bata raha hai, isiliye yeh ek Adjective (Bisheshana) hai."
+},
+{
+"questionEnglish": "Choose the correct Sandhi split for the word 'Ityadi'.",
+"questionOdia": "'ଇତ୍ୟାଦି' ଶବ୍ଦର ସଠିକ୍ ସନ୍ଧି ବିଚ୍ଛେଦ କର।",
+"options": [
+"ଇତ୍ୟ + ଆଦି",
+"ଇତି + ଆଦି",
+"ଇତ୍ + ଯାଦି",
+"ଇତୀ + ଆଦି"
+],
+"answer": "ଇତି + ଆଦି",
+"explanation": "Odia aur Sanskrit Sandhi niyam ke anusar: 'Iti' + 'Aadi' milkar 'Ityadi' banta hai."
+},
+{
+"questionEnglish": "What is the synonym (Pratisabda) of the word 'Nadi' (River) as used in the context of Phalgu?",
+"questionOdia": "ଫଲଗୁ ପ୍ରସଙ୍ଗରେ ବ୍ୟବହୃତ 'ନଦୀ' ଶବ୍ଦର ଏକ ପ୍ରତିଶବ୍ଦ ବାଛ।",
+"options": [
+"ସାଗର",
+"ତରଙ୍ଗିଣୀ",
+"ପର୍ବତ",
+"ଅରଣ୍ୟ"
+],
+"answer": "ତରଙ୍ଗିଣୀ",
+"explanation": "Nadi (River) ke prayayvachi shabd Tarangini, Sarita, Tatini aadi hote hain."
+},
+{
+"questionEnglish": "Choose the correct antonym (Biparita Sabda) for 'Smruti' (Memory).",
+"questionOdia": "'ସ୍ମୃତି' ଶବ୍ଦର ଉପଯୁକ୍ତ ବିପରୀତ ଶବ୍ଦଟି କ'ଣ?",
+"options": [
+"ଅତୀତ",
+"ସମ୍ମାନ",
+"ବିସ୍ମୃତି",
+"କଳ୍ପନା"
+],
+"answer": "ବିସ୍ମୃତି",
+"explanation": "'Smruti' ka arth hai yaad (memory), aur iska ulta 'Bismruti' hota hai jiska arth hai bhool jana (forgetfulness)."
+},
+{
+"questionEnglish": "How does Captain Mahapatra view the letter?",
+"questionOdia": "କ୍ୟାପ୍ଟେନ୍ ମହାପାତ୍ର ସେହି ଚିଠିଟିକୁ କେଉଁ ଦୃଷ୍ଟିକୋଣରୁ ବିଚାର କରୁଥିଲେ?",
+"options": [
+"ଏକ ମୂଲ୍ୟବାନ ସଂଗ୍ରହ ବା ସାମଗ୍ରୀ ଭାବରେ",
+"ଗୋଟିଏ ଆବର୍ଜନା ଭାବରେ",
+"ଏକ ପବିତ୍ର ଗ୍ରନ୍ଥ ଭାବରେ",
+"ସୁବ୍ରତଙ୍କ ହୃଦୟର ସ୍ପନ୍ଦନ ଭାବରେ"
+],
+"answer": "ଏକ ମୂଲ୍ୟବାନ ସଂଗ୍ରହ ବା ସାମଗ୍ରୀ ଭାବରେ",
+"explanation": "Captain Mahapatra ke liye wo letter sirf ek collectible item (mulyaban sangraha) tha, jisme uski koi emotional attachment nahi thi."
+},
+{
+"questionEnglish": "What final realization prevents Subrata from selling the letter?",
+"questionOdia": "କେଉଁ ଉପଲବ୍ଧି ସୁବ୍ରତଙ୍କୁ ଚିଠିଟିକୁ ବିକ୍ରି କରିବାରୁ ଅଟକାଇ ଦେଇଥିଲା?",
+"options": [
+"ପଡ଼ୋଶୀ କମ୍ ଟଙ୍କା ଦେଉଥିଲେ",
+"ସେ ନିଜ ପ୍ରିୟଜନଙ୍କ ସ୍ମୃତି ଏବଂ ଭଲପାଇବାକୁ କୌଣସି ମୂଲ୍ୟ ବିନିମୟରେ ବିକ୍ରି କରିପାରିବେ ନାହିଁ",
+"ପୋଲିସ ଆସିଯିବାର ଭୟ",
+"ସେ ଚିଠିଟିକୁ ହଜାଇ ଦେଇଥିଲେ"
+],
+"answer": "ସେ ନିଜ ପ୍ରିୟଜନଙ୍କ ସ୍ମୃତି ଏବଂ ଭଲପାଇବାକୁ କୌଣସି ମୂଲ୍ୟ ବିନିମୟରେ ବିକ୍ରି କରିପାରିବେ ନାହିଁ",
+"explanation": "Subrata ko realize hua ki saccha pyar aur yaadein anmol hoti hain, unhe paiso ke liye becha nahi ja sakta."
+},
+{
+"questionEnglish": "What does the letter ultimately symbolize for Subrata?",
+"questionOdia": "ଶେଷରେ ସେହି ଚିଠିଟି ସୁବ୍ରତଙ୍କ ପାଇଁ କାହାର ପ୍ରତୀକ ପାଲଟିଯାଇଥିଲା?",
+"options": [
+"ଗୋଟିଏ ସାଧାରଣ କାଗଜର",
+"ପ୍ରୀତିଙ୍କ ଅମର ପ୍ରେମ ଓ ତାଙ୍କ ସହ ଥିବା ଅତୁଟ ସମ୍ପର୍କର",
+"ଦାରିଦ୍ର୍ୟର",
+"ଗୋଟିଏ ବିରଳ ଡାକଟିକଟର"
+],
+"answer": "ପ୍ରୀତିଙ୍କ ଅମର ପ୍ରେମ ଓ ତାଙ୍କ ସହ ଥିବା ଅତୁଟ ସମ୍ପର୍କର",
+"explanation": "Letter Subrata ke liye sirf kagaz nahi, balki Preeti ke amar pyar (immortal love) ka symbol ban gaya tha."
+},
+{
+"questionEnglish": "What kind of literature is 'Phalgu'?",
+"questionOdia": "ସାହିତ୍ୟର ବିଭାଗ ଅନୁଯାୟୀ 'ଫଲଗୁ' କେଉଁ ଶ୍ରେଣୀର ରଚନା ଅଟେ?",
+"options": [
+"ଉପନ୍ୟାସ",
+"ପ୍ରବନ୍ଧ",
+"କବିତା",
+"ଏକାଙ୍କିକା (One-act play)"
+],
+"answer": "ଏକାଙ୍କିକା (One-act play)",
+"explanation": "Phalgu ek 'Ekankika' hai, jise angrezi mein One-act play kaha jata hai. Yeh ek hi ank (act) mein khatam ho jata hai."
+},
+{
+"questionEnglish": "Which of the following awards did Manoranjan Das receive for his play 'Aranya Phasala'?",
+"questionOdia": "ମନୋରଞ୍ଜନ ଦାସ ନିଜର ପ୍ରସିଦ୍ଧ ନାଟକ 'ଅରଣ୍ୟ ଫସଲ' ପାଇଁ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ପୁରସ୍କାର ପାଇଥିଲେ?",
+"options": [
+"ଜ୍ଞାନପୀଠ ପୁରସ୍କାର",
+"କେନ୍ଦ୍ର ସାହିତ୍ୟ ଏକାଡେମୀ ପୁରସ୍କାର",
+"ସରସ୍ୱତୀ ସମ୍ମାନ",
+"ଓଡ଼ିଶା ସାହିତ୍ୟ ଏକାଡେମୀ ପୁରସ୍କାର"
+],
+"answer": "କେନ୍ଦ୍ର ସାହିତ୍ୟ ଏକାଡେମୀ ପୁରସ୍କାର",
+"explanation": "Manoranjan Das ko unke natak 'Aranya Phasala' ke liye 1971 mein Kendra Sahitya Akademi Award mila tha, jo unki badi upalabdhi hai."
+},
+{
+"questionEnglish": "Identify the Samasa for the word 'Premapatra'.",
+"questionOdia": "'ପ୍ରେମପତ୍ର' ଶବ୍ଦର ସମାସ ନିର୍ଣ୍ଣୟ କର।",
+"options": [
+"ଦ୍ୱନ୍ଦ୍ୱ ସମାସ",
+"କର୍ମଧାରୟ ସମାସ",
+"ଷଷ୍ଠୀ ତତ୍‌ପୁରୁଷ ସମାସ (ପ୍ରେମର ପତ୍ର)",
+"ବହୁବ୍ରୀହି ସମାସ"
+],
+"answer": "ଷଷ୍ଠୀ ତତ୍‌ପୁରୁଷ ସମାସ (ପ୍ରେମର ପତ୍ର)",
+"explanation": "Premapatra ka vyasa vakya 'Premara patra' hota hai. Isme vibhakti ka lop hua hai, isiliye yeh Shasthi Tatpurusha Samasa hai."
+},
+{
+"questionEnglish": "What is the meaning of the word 'Amulya'?",
+"questionOdia": "ଓଡ଼ିଆରେ 'ଅମୂଲ୍ୟ' ଶବ୍ଦର ପ୍ରକୃତ ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଯାହାର ମୂଲ୍ୟ ବହୁତ କମ୍",
+"ଯାହାର ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ କରାଯାଇପାରିବ ନାହିଁ (ମୂଲ୍ୟବାନ)",
+"ଯାହା ବିନା ମୂଲ୍ୟରେ ମିଳେ",
+"ଏକ ବ୍ୟକ୍ତିର ନାମ"
+],
+"answer": "ଯାହାର ମୂଲ୍ୟ ନିର୍ଦ୍ଧାରଣ କରାଯାଇପାରିବ ନାହିଁ (ମୂଲ୍ୟବାନ)",
+"explanation": "Amulya ka arth hota hai Priceless, yani koi aisi cheez jiska mol (price) paiso se tay nahi kiya ja sakta."
+},
+{
+"questionEnglish": "Find the antonym for the word 'Shushka' (Dry).",
+"questionOdia": "'ଶୁଷ୍କ' ଶବ୍ଦର ବିପରୀତ ବୋଧକ ଶବ୍ଦଟିକୁ ବାଛ।",
+"options": [
+"କଠୋର",
+"ଆର୍ଦ୍ର ବା ଓଦା",
+"ମରୁଭୂମି",
+"ବାଲି"
+],
+"answer": "ଆର୍ଦ୍ର ବା ଓଦା",
+"explanation": "Shushka ka arth dry (sookha) hota hai, aur iska opposite Aardra (wet/moist) hota hai."
+},
+{
+"questionEnglish": "Find the antonym for the word 'Ateeta' (Past).",
+"questionOdia": "'ଅତୀତ' ଶବ୍ଦର ବିପରୀତ ଶବ୍ଦ କ'ଣ?",
+"options": [
+"ବର୍ତ୍ତମାନ",
+"ଭବିଷ୍ୟତ",
+"ପୁରାତନ",
+"ଇତିହାସ"
+],
+"answer": "ଭବିଷ୍ୟତ",
+"explanation": "Ateeta ka arth Past (beeta hua kal) hota hai. Iska sahi ulta shabd Bhabishyata (Future) hoga."
+},
+{
+"questionEnglish": "What does Subrata's character teach us about grief?",
+"questionOdia": "ସୁବ୍ରତଙ୍କ ଚରିତ୍ର ଆମକୁ ଶୋକ ବା ଦୁଃଖ ସମ୍ପର୍କରେ କ'ଣ ଶିକ୍ଷା ଦିଏ?",
+"options": [
+"ଦୁଃଖକୁ ଟଙ୍କାରେ କିଣିହେବ",
+"ମଣିଷ ପ୍ରିୟଜନଙ୍କ ସ୍ମୃତିକୁ ଆଧାର କରି ନିଜର ଅବଶିଷ୍ଟ ଜୀବନ ବଞ୍ଚିପାରେ",
+"ଦୁଃଖରେ ମଣିଷ ପାଗଳ ହୋଇଯାଏ",
+"ଦୁଃଖ କେବଳ ଏକ ଛଳନା"
+],
+"answer": "ମଣିଷ ପ୍ରିୟଜନଙ୍କ ସ୍ମୃତିକୁ ଆଧାର କରି ନିଜର ଅବଶିଷ୍ଟ ଜୀବନ ବଞ୍ଚିପାରେ",
+"explanation": "Subrata ka character sikhata hai ki grief mein insaan apne apno ki anmol yaadon ke sahare bhi zindagi guzaar sakta hai."
+},
+{
+"questionEnglish": "How does the author use the title 'Phalgu' as a literary device?",
+"questionOdia": "ନାଟ୍ୟକାର ଶୀର୍ଷକ 'ଫଲଗୁ'କୁ କେଉଁ ସାହିତ୍ୟିକ ଉପକରଣ ଭାବରେ ବ୍ୟବହାର କରିଛନ୍ତି?",
+"options": [
+"ରୂପକ ବା ପ୍ରତୀକ (Metaphor/Symbol) ଭାବରେ",
+"ଏକ ବ୍ୟଙ୍ଗ (Satire) ଭାବରେ",
+"ଗୋଟିଏ କବିତା ଭାବରେ",
+"ପ୍ରବନ୍ଧର ଶୀର୍ଷକ ଭାବରେ"
+],
+"answer": "ରୂପକ ବା ପ୍ରତୀକ (Metaphor/Symbol) ଭାବରେ",
+"explanation": "Author ne 'Phalgu' nadee ka upyog ek metaphor (roopak) ke roop mein kiya hai jo insaan ke andar chhipe bhavnao ko darshata hai."
+},
+{
+"questionEnglish": "Why did the author choose a writer as the protagonist?",
+"questionOdia": "ନାଟ୍ୟକାର ଜଣେ ଲେଖକଙ୍କୁ ମୁଖ୍ୟ ଚରିତ୍ର ଭାବରେ କାହିଁକି ବାଛିଲେ?",
+"options": [
+"କାରଣ ଲେଖକମାନେ ଧନୀ ହୁଅନ୍ତି",
+"କାରଣ ଲେଖକମାନେ ଅଧିକ ଭାବପ୍ରବଣ ଏବଂ ସମ୍ବେଦନଶୀଳ ହୋଇଥାଆନ୍ତି",
+"କାରଣ ସେମାନେ ବହୁତ କଥା କୁହନ୍ତି",
+"କାରଣ ଲେଖକମାନେ ଚିଠି ଲେଖିବାକୁ ଭଲ ପାଆନ୍ତି"
+],
+"answer": "କାରଣ ଲେଖକମାନେ ଅଧିକ ଭାବପ୍ରବଣ ଏବଂ ସମ୍ବେଦନଶୀଳ ହୋଇଥାଆନ୍ତି",
+"explanation": "Writers aamtaur par bahut sensitive aur emotional (bhavaprabana) hote hain, isiliye Subrata ka character is theme ke liye perfect tha."
+},
+{
+"questionEnglish": "What contrast is explicitly shown between Subrata and Captain Mahapatra?",
+"questionOdia": "ସୁବ୍ରତ ଏବଂ କ୍ୟାପ୍ଟେନ୍ ମହାପାତ୍ରଙ୍କ ମଧ୍ୟରେ କେଉଁ ମୁଖ୍ୟ ପାର୍ଥକ୍ୟ ଦର୍ଶାଯାଇଛି?",
+"options": [
+"ଜଣେ ଧନୀ, ଅନ୍ୟଜଣେ ଗରିବ",
+"ଜଣେ ଭାବପ୍ରବଣ ଓ ସ୍ମୃତିପ୍ରେମୀ ହୋଇଥିବା ବେଳେ ଅନ୍ୟଜଣେ ବସ୍ତୁବାଦୀ ଓ ହିସାବୀ",
+"ଜଣେ ଶିକ୍ଷିତ, ଅନ୍ୟଜଣେ ମୂର୍ଖ",
+"ଜଣେ ଯୁବକ, ଅନ୍ୟଜଣେ ବୃଦ୍ଧ"
+],
+"answer": "ଜଣେ ଭାବପ୍ରବଣ ଓ ସ୍ମୃତିପ୍ରେମୀ ହୋଇଥିବା ବେଳେ ଅନ୍ୟଜଣେ ବସ୍ତୁବାଦୀ ଓ ହିସାବୀ",
+"explanation": "Subrata ek highly emotional aur sentimental insaan tha, jabki Captain Mahapatra ek materialistic (bastubadi) insaan the."
+},
+{
+"questionEnglish": "Which emotion is predominant in the overall tone of 'Phalgu'?",
+"questionOdia": "'ଫଲଗୁ' ଏକାଙ୍କିକାର ସାମଗ୍ରିକ ବାତାବରଣରେ କେଉଁ ରସ ବା ଆବେଗର ପ୍ରାଧାନ୍ୟ ଦେଖିବାକୁ ମିଳେ?",
+"options": [
+"ହାସ୍ୟ ରସ",
+"ବୀର ରସ",
+"କରୁଣ ରସ ତଥା ମର୍ମସ୍ପର୍ଶୀ ବିଷାଦ",
+"ଭୟାନକ ରସ"
+],
+"answer": "କରୁଣ ରସ ତଥା ମର୍ମସ୍ପର୍ଶୀ ବିଷାଦ",
+"explanation": "Is natak ki tone bahut hi marmasparshi (poignant) aur Karun Rasa (sorrow/grief) se bhari hui hai."
+},
+{
+"questionEnglish": "Find the synonym for 'Chithi' (Letter).",
+"questionOdia": "'ଚିଠି' ଶବ୍ଦର ଏକ ପ୍ରତିଶବ୍ଦ କ'ଣ?",
+"options": [
+"ପତ୍ର ବା ଚିଟାଉ",
+"ପୁସ୍ତକ",
+"ପତ୍ରିକା",
+"ଖବରକାଗଜ"
+],
+"answer": "ପତ୍ର ବା ଚିଟାଉ",
+"explanation": "Chithi (Letter) ko Odia mein Patra ya Chitau bhi kaha jata hai."
+},
+{
+"questionEnglish": "What does the resolution of the play convey to the audience?",
+"questionOdia": "ଏହି ନାଟକର ଶେଷ ପରିଣତି ଦର୍ଶକମାନଙ୍କୁ କି ବାର୍ତ୍ତା ଦିଏ?",
+"options": [
+"ଅତୀତକୁ ସମ୍ପୂର୍ଣ୍ଣ ଭୁଲିଯିବା ଉଚିତ୍",
+"ଟଙ୍କା ପାଇଁ ସବୁକିଛି ବିକ୍ରି କରାଯାଇପାରେ",
+"ହୃଦୟର ପ୍ରକୃତ ଆବେଗ ଓ ସ୍ମୃତି କେବେହେଲେ ବିକ୍ରୟଯୋଗ୍ୟ ନୁହେଁ",
+"ପଡ଼ୋଶୀଙ୍କ ସହ ସବୁବେଳେ ଝଗଡ଼ା କରିବା ଉଚିତ୍"
+],
+"answer": "ହୃଦୟର ପ୍ରକୃତ ଆବେଗ ଓ ସ୍ମୃତି କେବେହେଲେ ବିକ୍ରୟଯୋଗ୍ୟ ନୁହେଁ",
+"explanation": "Story ke end mein yeh message milta hai ki dil ke emotions aur pyar ki yaadein kabhi bechi nahi ja sakti (not for sale)."
+},
+{
+"questionEnglish": "What makes Manoranjan Das's dramas unique in Odia literature?",
+"questionOdia": "ଓଡ଼ିଆ ସାହିତ୍ୟରେ ମନୋରଞ୍ଜନ ଦାସଙ୍କ ନାଟକଗୁଡ଼ିକୁ କେଉଁ ଦିଗଟି ସ୍ୱତନ୍ତ୍ର କରେ?",
+"options": [
+"ସେ କେବଳ ପୌରାଣିକ ବିଷୟବସ୍ତୁ ଉପରେ ଲେଖୁଥିଲେ",
+"ସେ ମଣିଷର ଅନ୍ତର୍ମନର ବିଶ୍ଳେଷଣ ଏବଂ ନୂତନ ପରୀକ୍ଷାନିରୀକ୍ଷା କରୁଥିଲେ",
+"ସେ କେବଳ ହାସ୍ୟରସର ନାଟକ ଲେଖୁଥିଲେ",
+"ସେ ନାଟକରେ କେବଳ ଇଂରାଜୀ ଶବ୍ଦ ବ୍ୟବହାର କରୁଥିଲେ"
+],
+"answer": "ସେ ମଣିଷର ଅନ୍ତର୍ମନର ବିଶ୍ଳେଷଣ ଏବଂ ନୂତନ ପରୀକ୍ଷାନିରୀକ୍ଷା କରୁଥିଲେ",
+"explanation": "Manoranjan Das Odia sahitya mein aadhunikta (modernism) aur insaan ke antar-man (inner psychology) ka vishleshan karne ke liye jane jaate hain."
+},
+{
+"questionEnglish": "What exactly did the stamp represent to the Captain?",
+"questionOdia": "କ୍ୟାପ୍ଟେନ୍‌ଙ୍କ ପାଇଁ ସେହି ଡାକଟିକଟଟି ପ୍ରକୃତରେ କ'ଣ ଥିଲା?",
+"options": [
+"ଗୋଟିଏ ସାଧାରଣ ଟିକଟ",
+"ପ୍ରୀତିଙ୍କର ସ୍ମୃତି",
+"ନିଜର ସଂଗ୍ରହ (Stamp collection) ପାଇଁ ଏକ ଦୁର୍ଲଭ ଓ ମୂଲ୍ୟବାନ ବସ୍ତୁ",
+"ଚିଠି ପଠାଇବାର ମାଧ୍ୟମ"
+],
+"answer": "ନିଜର ସଂଗ୍ରହ (Stamp collection) ପାଇଁ ଏକ ଦୁର୍ଲଭ ଓ ମୂଲ୍ୟବାନ ବସ୍ତୁ",
+"explanation": "Captain ke liye wo stamp sirf unki hobby aur collection ke liye ek rare aur keemti vastu thi, unhe emotion se koi matlab nahi tha."
+},
+{
+"questionEnglish": "What does Subrata's emotional turmoil represent?",
+"questionOdia": "ସୁବ୍ରତଙ୍କର ଆବେଗିକ ଅନ୍ତର୍ଦ୍ୱନ୍ଦ୍ୱ କେଉଁ କଥାକୁ ପ୍ରତିନିଧିତ୍ୱ କରେ?",
+"options": [
+"ଆଧୁନିକ ମଣିଷର ଅର୍ଥଲୋଭ",
+"ବସ୍ତୁବାଦୀ ସମାଜରେ ସମ୍ପର୍କର ମୂଲ୍ୟ ଏବଂ ମାନବିକତାର ସଂକଟ",
+"ତାଙ୍କର ମାନସିକ ରୋଗ",
+"କ୍ୟାପ୍ଟେନ୍‌ଙ୍କ ପ୍ରତି ଭୟ"
+],
+"answer": "ବସ୍ତୁବାଦୀ ସମାଜରେ ସମ୍ପର୍କର ମୂଲ୍ୟ ଏବଂ ମାନବିକତାର ସଂକଟ",
+"explanation": "Yeh inner turmoil dikhata hai ki aaj ki materialistic society mein human relations aur values kaise crisis ka shikar ho gaye hain."
+},
+{
+"questionEnglish": "Identify the Sandhi split for 'Nirabachhinna' (ନିରବଚ୍ଛିନ୍ନ).",
+"questionOdia": "'ନିରବଚ୍ଛିନ୍ନ' ଶବ୍ଦର ସନ୍ଧି ବିଚ୍ଛେଦ କର।",
+"options": [
+"ନିର + ଅବଚ୍ଛିନ୍ନ",
+"ନିଃ + ଅବଚ୍ଛିନ୍ନ",
+"ନିରବ + ଚ୍ଛିନ୍ନ",
+"ନି + ରବଚ୍ଛିନ୍ନ"
+],
+"answer": "ନିଃ + ଅବଚ୍ଛିନ୍ନ",
+"explanation": "Odia grammar mein Visarga Sandhi ke niyam se 'Nih' + 'Abachhinna' milkar 'Nirabachhinna' (Continuous) banta hai."
+}
+]
