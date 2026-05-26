@@ -1,0 +1,1724 @@
+[
+{
+"questionEnglish": "How much of the total Earth's surface area is occupied by land resource?",
+"questionOdia": "ପୃଥିବୀର ସମୁଦାୟ ଆୟତନର କେତେ ଶତକଡ଼ା ଭାଗ ସ୍ଥଳଭାଗ ବା ଭୂ-ସମ୍ବଳ ଅଟେ?",
+"options": [
+"୭୧ ଭାଗ (71%)",
+"୨୯ ଭାଗ (29%)",
+"୪୩ ଭାଗ (43%)",
+"୩୦ ଭାଗ (30%)"
+],
+"answer": "୨୯ ଭାଗ (29%)",
+"explanation": "ପୃଥିବୀ ପୃଷ୍ଠର ସମୁଦାୟ ଆୟତନର ୨୯ ଶତକଡ଼ା ଭାଗ ସ୍ଥଳଭାଗ ଏବଂ ୭୧ ଭାଗ ଜଳଭାଗ ଅଟେ।"
+},
+{
+"questionEnglish": "According to the textbook, into how many categories is the landmass divided based on its relief and altitude?",
+"questionOdia": "ଉଚ୍ଚତା ଓ ଅବୟବ ଦୃଷ୍ଟିରୁ ସମୁଦାୟ ସ୍ଥଳଭାଗର ଉଚ୍ଚତା ଅନୁସାରେ ଭୂ-ଭାଗକୁ କେତେ ଭାଗରେ ବିଭକ୍ତ କରାଯାଇଛି?",
+"options": [
+"ଦୁଇ ଭାଗରେ",
+"ତିନି ଭାଗରେ",
+"ଚାରି ଭାଗରେ",
+"ପାଞ୍ଚ ଭାଗରେ"
+],
+"answer": "ତିନି ଭାଗରେ",
+"explanation": "ଉଚ୍ଚତା ଅନୁସାରେ ଭୂ-ଭାଗକୁ ତିନି ଭାଗରେ ବିଭକ୍ତ କରାଯାଇଛି, ଯଥା: ପାର୍ବତ୍ୟ ଭୂମି, ମାଳଭୂମି ଏବଂ ସମତଳଭୂମି।"
+},
+{
+"questionEnglish": "What is the total geographical area of India's land resource?",
+"questionOdia": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ଆୟତନ କେତେ ବର୍ଗ କିଲୋମିଟର ଅଟେ?",
+"options": [
+"୩୨ ଲକ୍ଷ ୮୭ ହଜାର",
+"୩୦ ଲକ୍ଷ ୫୦ ହଜାର",
+"୩୫ ଲକ୍ଷ ୮୭ ହଜାର",
+"୨୮ ଲକ୍ଷ ୭୪ ହଜାର"
+],
+"answer": "୩୨ ଲକ୍ଷ ୮୭ ହଜାର",
+"explanation": "ପାଠ୍ୟପୁସ୍ତକ ଅନୁସାରେ ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ଆୟତନ ହେଉଛି ୩୨ ଲକ୍ଷ ୮୭ ହଜାର ବର୍ଗ କିଲୋମିଟର।"
+},
+{
+"questionEnglish": "What percentage of India's total land area is occupied by plains (Samatalabhumi)?",
+"questionOdia": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ପ୍ରାୟ କେତେ ଶତକଡ଼ା ଭାଗ ସମତଳଭୂମି ଅଟେ?",
+"options": [
+"୩୦ ଭାଗ",
+"୨୭ ଭାଗ",
+"୪୩ ଭାଗ",
+"୫୫ ଭାଗ"
+],
+"answer": "୪୩ ଭାଗ",
+"explanation": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳ ମଧ୍ୟରୁ ପ୍ରାୟ ୪୩ ଶତକଡ଼ା ଭାଗ ସମତଳଭୂମି ଅଟେ ଯାହା କୃଷି ଓ ଶିଳ୍ପ ପାଇଁ ଉପଯୁକ୍ତ।"
+},
+{
+"questionEnglish": "What percentage of India's land resource is covered by mountains (Parbatya Bhumi)?",
+"questionOdia": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ପ୍ରାୟ କେତେ ଶତକଡ଼ା ଭାଗ ପାର୍ବତ୍ୟ ଭୂମି ଅଟେ?",
+"options": [
+"୨୭ ଭାଗ",
+"୩୦ ଭାଗ",
+"୪୩ ଭାଗ",
+"୧୧ ଭାଗ"
+],
+"answer": "୩୦ ଭାଗ",
+"explanation": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ପ୍ରାୟ ୩୦ ଶତକଡ଼ା ଭାଗ ପାର୍ବତ୍ୟ ଭୂମି ଅଟେ।"
+},
+{
+"questionEnglish": "What percentage of India's land resource is classified as plateau (Malabhumi)?",
+"questionOdia": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ପ୍ରାୟ କେତେ ଶତକଡ଼ା ଭାଗ ମାଳଭୂମି ଅନ୍ତର୍ଗତ ଅଟେ?",
+"options": [
+"୪୩ ଭାଗ",
+"୩୦ ଭାଗ",
+"୨୭ ଭାଗ",
+"୨୨ ଭାଗ"
+],
+"answer": "୨୭ ଭାଗ",
+"explanation": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳ ମଧ୍ୟରୁ ପ୍ରାୟ ୨୭ ଶତକଡ଼ା ଭାଗ ମାଳଭୂମି ଅଞ୍ଚଳ ଅଟେ, ଯାହା ଖଣିଜ ସମ୍ବଳର ଭଣ୍ଡାର।"
+},
+{
+"questionEnglish": "Which landform provides a rich storehouse of minerals, coal, and forests?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଭୂ-ରୂପଟି ଖଣିଜ ସମ୍ପଦ, କୋଇଲା ଏବଂ ଅରଣ୍ୟର ପ୍ରଧାନ ଗନ୍ତାଘର ଅଟେ?",
+"options": [
+"ସମତଳଭୂମି",
+"ପାର୍ବତ୍ୟ ଭୂମି",
+"ମାଳଭୂମିଗୁଡ଼ିକ",
+"ନଦୀ ଉପତ୍ୟକା"
+],
+"answer": "ମାଳଭୂମିଗୁଡ଼ିକ",
+"explanation": "ମାଳଭୂମିଗୁଡ଼ିକ ବିଭିନ୍ନ ପ୍ରକାରର ଖଣିଜ ସମ୍ପଦ, କୋଇଲା, ଅରଣ୍ୟ ଓ ବନ୍ୟପ୍ରାଣୀ ପ୍ରଭୃତି ସମ୍ବଳର ଗନ୍ତାଘର ଅଟେ।"
+},
+{
+"questionEnglish": "Due to the influence of soil, relief, and climate, cultivation is done on approximately what percentage of India's total land area?",
+"questionOdia": "ଭୂ-ଅବୟବ ଓ ଜଳବାୟୁର ପ୍ରଭାବଯୋଗୁଁ ଭାରତର ସମୁଦାୟ ଭୂ-ଭାଗର ପ୍ରାୟ କେତେ ଶତକଡ଼ା ଭାଗରେ କୃଷିକାର୍ଯ୍ୟ କରାଯାଏ?",
+"options": [
+"୪୩ ଭାଗ",
+"୫୫ ଭାଗ",
+"୨୪ ଭାଗ",
+"୩୨ ଭାଗ"
+],
+"answer": "୫୫ ଭାଗ",
+"explanation": "ଭୂ-ଅବୟବ ଓ ଜଳବାୟୁର ଅନୁକୂଳ ପ୍ରଭାବଯୋଗୁଁ ଭାରତର ସମୁଦାୟ ଭୂ-ଭାଗର ପ୍ରାୟ ୫୫ ଶତକଡ଼ା ଭାଗରେ କୃଷିକାର୍ଯ୍ୟ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is the global average percentage of land used for cultivation compared to India?",
+"options": [
+"11%",
+"22%",
+"33%",
+"44%"
+],
+"questionOdia": "ପୃଥିବୀରେ ହାରାହାରି କୃଷି ଭୂମିର ଶତକଡ଼ା ହାର ପ୍ରାୟ କେତେ, ଯାହା ତୁଳନାରେ ଭାରତର ହାର ଯଥେଷ୍ଟ ଅଧିକ?",
+"options": [
+"୧୧ ଭାଗ",
+"୨୨ ଭାଗ",
+"୩୩ ଭାଗ",
+"୪୪ ଭାଗ"
+],
+"answer": "୧୧ ଭାଗ",
+"explanation": "ପୃଥିବୀରେ ହାରାହାରି କୃଷି ଭୂମିର ଶତକଡ଼ା ହାର ପ୍ରାୟ ୧୧ ଭାଗ ହୋଇଥିବା ବେଳେ ଭାରତରେ ଏହା ପ୍ରାୟ ୫୫ ଭାଗ।"
+},
+{
+"questionEnglish": "Which category includes land utilized for buildings, roads, and industries?",
+"questionOdia": "ଗୃହ, ଅନୁଷ୍ଠାନ, ରାସ୍ତାଘାଟ ଓ ଶିଳ୍ପ ଆଦି କାର୍ଯ୍ୟରେ ବ୍ୟବହୃତ ହେଉଥିବା ଭୂମି କେଉଁ ଶ୍ରେଣୀର ଅନ୍ତର୍ଗତ?",
+"options": [
+"ଅରଣ୍ୟ ଭୂମି",
+"କୃଷି ନିମନ୍ତେ ମିଳୁ ନ ଥିବା ଅଣ-କୃଷି ଭୂମି",
+"ସ୍ଥାୟୀ ଗୋଚର ଭୂମି",
+"ପତିତ ଭୂମି"
+],
+"answer": "କୃଷି ନିମନ୍ତେ ମିଳୁ ନ ଥିବା ଅଣ-କୃଷି ଭୂମି",
+"explanation": "କୃଷି ନିମନ୍ତେ ମିଳୁ ନ ଥିବା ଅଣ-କୃଷି ଭୂମି ମଧ୍ୟରେ ରାସ୍ତାଘାଟ, ଗୃହ, ଶିଳ୍ପ ଇତ୍ୟାଦି ପ୍ରତିଷ୍ଠା ହୋଇଥିବା ଜମି ଅନ୍ତର୍ଗତ।"
+},
+{
+"questionEnglish": "What is meant by permanent pasture land (Sthayi Gochara Bhumi)?",
+"questionOdia": "ସ୍ଥାୟୀ ଗୋଚର ଓ ଚାରଣ ଭୂମି କେଉଁ ମୁଖ୍ୟ ଭୂ-ବ୍ୟବହାର ଶ୍ରେଣୀର ଅଧୀନରେ ଆସେ?",
+"options": [
+"ଅନ୍ୟାନ୍ୟ ଅଣ-କୃଷି ଭୂମି (ଅନାବାଦୀ ଜମି)",
+"ଅରଣ୍ୟ ଭୂମି",
+"ଚଳିତ ପତିତ ଭୂମି",
+"କୃଷିଭୂମି"
+],
+"answer": "ଅନ୍ୟାନ୍ୟ ଅଣ-କୃଷି ଭୂମି (ଅନାବାଦୀ ଜମି)",
+"explanation": "ସ୍ଥାୟୀ ଗୋଚର ଓ ଚାରଣ ଭୂମି ହେଉଛି ଅନ୍ୟାନ୍ୟ ଅଣ-କୃଷି ଭୂମି ବା ଅନାବାଦୀ ଭୂମିର ଏକ ଉଦାହରଣ।"
+},
+{
+"questionEnglish": "What is cultivation called when land is left uncultivated for five consecutive years or more?",
+"questionOdia": "ପାଞ୍ଚ ବର୍ଷ ଧରି କୃଷିକାର୍ଯ୍ୟ କରାଯାଇ ନ ଥିବା ଭୂମିକୁ କେଉଁ ପ୍ରକାରର ପତିତ ଭୂମି କୁହାଯାଏ?",
+"options": [
+"ଚଳିତ ପତିତ ଭୂମି",
+"କୃଷିଯୋଗ୍ୟ ପତିତ ଭୂମି",
+"ଚଳିତ ଅନାବାଦୀ ଭୂମି",
+"ଗୋଚର ଭୂମି"
+],
+"answer": "କୃଷିଯୋଗ୍ୟ ପତିତ ଭୂମି",
+"explanation": "ପାଞ୍ଚ ବର୍ଷ ବା ତା'ଠାରୁ ଅଧିକ ସମୟ ଧରି କୃଷିକାର୍ଯ୍ୟ କରାଯାଇ ନ ଥିବା ଜମିକୁ କୃଷିଯୋଗ୍ୟ ପତିତ ଭୂମି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is 'Current Fallow Land' (Chalita Anabadi Bhumi)?",
+"questionOdia": "ଏକ ବର୍ଷ କିମ୍ବା ତା'ଠାରୁ କମ୍ ସମୟ ପାଇଁ କୃଷି କରାଯାଇ ନ ଥିବା ଭୂମିକୁ କେଉଁ ପ୍ରକାରର ଭୂମି କୁହାଯାଏ?",
+"options": [
+"ଚଳିତ ଅନାବାଦୀ ଭୂମି",
+"କୃଷିଯୋଗ୍ୟ ପତିତ ଭୂମି",
+"ଅରଣ୍ୟ ଭୂମି",
+"ସ୍ଥାୟୀ ଚାରଣ ଭୂମି"
+],
+"answer": "ଚଳିତ ଅନାବାଦୀ ଭୂମି",
+"explanation": "ଏକ ବର୍ଷ କିମ୍ବା ତା'ଠାରୁ କମ୍ ସମୟ ପାଇଁ କୃଷି କରାଯାଇ ନ ଥିବା ଜମିକୁ ଚଳିତ ଅନାବାଦୀ ଭୂମି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "According to the textbook data, approximately what percentage of India's total land area is occupied by forest cover?",
+"questionOdia": "ଭାରତର ସମୁଦାୟ ଭୂମିର ପ୍ରାୟ କେତେ ଶତକଡ଼ା ଭାଗ ଅରଣ୍ୟ ଭୂମି ଅନ୍ତର୍ଗତ ଅଟେ?",
+"options": [
+"୨୨.୫ ଭାଗ",
+"୩୩ ଭାଗ",
+"୨୦ ଭାଗ",
+"୬୦ ଭାଗ"
+],
+"answer": "୨୨.୫ ଭାଗ",
+"explanation": "ପାଠ୍ୟପୁସ୍ତକର ତଥ୍ୟ ଅନୁସାରେ ଭାରତର ସମୁଦାୟ ଭୂମିର ପ୍ରାୟ ୨୨.୫ ଶତକଡ଼ା ଭାଗ ଅରଣ୍ୟ ଅନ୍ତର୍ଗତ ଅଟେ।"
+},
+{
+"questionEnglish": "According to the National Forest Policy, what percentage of a country's area should be covered by forests to maintain ecological balance?",
+"questionOdia": "ପାରିସ୍ଥିତିକ ସନ୍ତୁଳନ ରକ୍ଷା ପାଇଁ ଦେଶର ସମୁଦାୟ ଆୟତନର କେତେ ଶତକଡ଼ା ଭାଗ ଅରଣ୍ୟ ରହିବା ଆବଶ୍ୟକ ବୋଲି ଜାତୀୟ ଅରଣ୍ୟ ନୀତିରେ ନିର୍ଦ୍ଧାରିତ?",
+"options": [
+"୨୨.୫ ଭାଗ",
+"୩୩ ଭାଗ",
+"୬୦ ଭାଗ",
+"୨୦ ଭାଗ"
+],
+"answer": "୩୩ ଭାଗ",
+"explanation": "ଜାତୀୟ ଅରଣ୍ୟ ନୀତି ଅନୁସାରେ ପାରିସ୍ଥିତିକ ସନ୍ତୁଳନ ପାଇଁ ଦେଶର ସମୁଦାୟ ଆୟତନର ୩୩ ଶତକଡ଼ା ଭାଗ ଅରଣ୍ୟ ରହିବା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "What percentage of the area should be covered by forests in mountainous regions to prevent degradation?",
+"questionOdia": "ଜାତୀୟ ଅରଣ୍ୟ ନୀତି ଅନୁଯାୟୀ ପାର୍ବତ୍ୟ ଅଞ୍ଚଳର କେତେ ଶତକଡ଼ା ଭାଗ ଅରଣ୍ୟାବୃତ ରହିବା ଆବଶ୍ୟକ?",
+"options": [
+"୨୦ ଭାଗ",
+"୩୩ ଭାଗ",
+"୬୦ ଭାଗ",
+"୪୩ ଭାଗ"
+],
+"answer": "୬୦ ଭାଗ",
+"explanation": "ଜାତୀୟ ଅରଣ୍ୟ ନୀତି ଅନୁସାରେ ପାର୍ବତ୍ୟ ଅଞ୍ଚଳରେ ଶତକଡ଼ା ୬୦ ଭାଗ ଏବଂ ସମତଳ ଅଞ୍ଚଳରେ ଶତକଡ଼ା ୨୦ ଭାଗ ଅରଣ୍ୟ ରହିବା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "Which state/union territory in India has the highest percentage of forest area (around 80%) according to the book?",
+"questionOdia": "ଭାରତର କେଉଁ ରାଜ୍ୟ କିମ୍ବା କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳରେ ସବୁଠାରୁ ଅଧିକ ଅରଣ୍ୟ ଭୂମି (ପ୍ରାୟ ୮୦ ଭାଗ) ଦେଖାଯାଏ?",
+"options": [
+"ଆଣ୍ଡାମାନ ଓ ନିକୋବର",
+"ଓଡ଼ିଶା",
+"ପଞ୍ଜାବ",
+"ହରିଆଣା"
+],
+"answer": "ଆଣ୍ଡାମାନ ଓ ନିକୋବର",
+"explanation": "ପାଠ୍ୟପୁସ୍ତକ ଅନୁସାରେ ଆଣ୍ଡାମାନ ଓ ନିକୋବର ଦ୍ଵୀପପୁଞ୍ଜରେ ସର୍ବାଧିକ ପ୍ରାୟ ୮୦ ଭାଗ ଅରଣ୍ୟ ଭୂମି ରହିଛି।"
+},
+{
+"questionEnglish": "Which of the following states has less than 10% of its land covered under forests due to extensive agricultural expansion?",
+"questionOdia": "ଅତ୍ୟଧିକ କୃଷିକାର୍ଯ୍ୟ ଯୋଗୁଁ ଭାରତର କେଉଁ ଦୁଇଟି ରାଜ୍ୟରେ ଅରଣ୍ୟ ଭୂମିର ପରିମାଣ ସବୁଠାରୁ କମ୍ (ପ୍ରାୟ ୧୦ ଭାଗରୁ କମ୍)?",
+"options": [
+"ମିଜୋରାମ ଓ ନାଗାଲାଣ୍ଡ",
+"ଓଡ଼ିଶା ଓ ବିହାର",
+"ପଞ୍ଜାବ ଓ ହରିଆଣା",
+"ଅସମ ଓ ମେଘାଳୟ"
+],
+"answer": "ପଞ୍ଜାବ ଓ ହରିଆଣା",
+"explanation": "ପଞ୍ଜାବ ଓ ହରିଆଣା ରାଜ୍ୟରେ ଅତ୍ୟଧିକ ଚାଷକାର୍ଯ୍ୟ ଯୋଗୁଁ ଅରଣ୍ୟର ପରିମାଣ ଶତକଡ଼ା ୧୦ ଭାଗରୁ ମଧ୍ୟ କମ୍ ଅଟେ।"
+},
+{
+"questionEnglish": "What percentage of India's total land is categorized as Net Sown Area (Prakୃta Chasa Bhumi)?",
+"questionOdia": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ପ୍ରାୟ କେତେ ଶତକଡ଼ା ଭାଗ ପ୍ରକୃତ ଚାଷ ଭୂମି (Net Sown Area) ଅଟେ?",
+"options": [
+"୪୬.୨୪ ଭାଗ",
+"୨୨.୫ ଭାଗ",
+"୨.୪ ଭାଗ",
+"୧୬ ଭାଗ"
+],
+"answer": "୪୬.୨୪ ଭାଗ",
+"explanation": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ପ୍ରାୟ ୪୬. ୨୪ ଶତକଡ଼ା ଭାଗ ଭୂମିରେ ପ୍ରକୃତରେ ଚାଷ କାର୍ଯ୍ୟ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What was the total area of Net Sown Area in India during 1950-51?",
+"questionOdia": "୧୯୫୦-୫୧ ମସିହାରେ ଭାରତର ପ୍ରକୃତ ଚାଷ ଭୂମିର ପରିମାଣ କେତେ ନିୟୁତ ହେକ୍ଟର ଥିଲା?",
+"options": [
+"୧୧୮.୭୫ ନିୟୁତ ହେକ୍ଟର",
+"୧୮୭.୫୬ ନିୟୁତ ହେକ୍ଟର",
+"୩୮.୧୬ ନିୟୁତ ହେକ୍ଟର",
+"୨୨.୧୭ ନିୟୁତ ହେକ୍ଟର"
+],
+"answer": "୧୧୮.୭୫ ନିୟୁତ ହେକ୍ଟର",
+"explanation": "୧୯୫୦-୫୧ ମସିହାରେ ଭାରତରେ ପ୍ରକୃତ ଚାଷ ଭୂମିର ପରିମାଣ ୧୧ canvas.୭୫ ନିୟୁତ ହେକ୍ଟର ଥିଲା।"
+},
+{
+"questionEnglish": "To how many million hectares did the Net Sown Area increase in India by 2011-12?",
+"questionOdia": "୨୦୧୧-୧୨ ମସିହା ବେଳକୁ ଭାରତର ପ୍ରକୃତ ଚାଷ ଭୂମିର ପରିମାଣ ବୃଦ୍ଧି ପାଇ କେତେ ନିୟୁତ ହେକ୍ଟର ହୋଇଥିଲା?",
+"options": [
+"୧୧୮.୭୫ ନିୟୁତ ହେକ୍ଟର",
+"୧୮୭.୫୬ ନିୟୁତ ହେକ୍ଟର",
+"୧୩୦ ନିୟୁତ ହେକ୍ଟର",
+"୯୫ ନିୟୁତ ହେକ୍ଟର"
+],
+"answer": "୧୮୭.୫୬ ନିୟୁତ ହେକ୍ଟର",
+"explanation": "ବ୍ୟାପକ କୃଷି ପ୍ରସାର ଯୋଗୁଁ ୨୦୧୧-୧୨ ସୁଦ୍ଧା ପ୍ରକୃତ ଚାଷ ଭୂମିର ଆୟତନ ୧୮୭.୫୬ ନିୟୁତ ହେକ୍ଟରକୁ ବୃଦ୍ଧି ପାଇଥିଲା।"
+},
+{
+"questionEnglish": "Which state has more than 80% of its total land area used as Net Sown Area?",
+"questionOdia": "ଭାରତର କେଉଁ ରାଜ୍ୟରେ ଏହାର ସମୁଦାୟ ଆୟତନର ୮୦ ଭାଗରୁ ଅଧିକ ଭୂମି ପ୍ରକୃତ ଚାଷ ଭୂମି ଭାବରେ ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"ପଞ୍ଜାବ",
+"ଅରୁଣାଚଳ ପ୍ରଦେଶ",
+"ମିଜୋରାମ",
+"ମଣିପୁର"
+],
+"answer": "ପଞ୍ଜାବ",
+"explanation": "ପଞ୍ଜାବ ଏବଂ ହରିଆଣାରେ ଅନୁକୂଳ ପରିବେଶ ଯୋଗୁଁ ସମୁଦାୟ ଭୂମିର ୮୦ ଭାଗରୁ ଅଧିକ ଅଞ୍ଚଳରେ ଚାଷ କରାଯାଏ।"
+},
+{
+"questionEnglish": "Which of the following states has less than 10% of its total land area used as Net Sown Area?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ରାଜ୍ୟରେ ପ୍ରକୃତ ଚାଷ ଭୂମିର ପରିମାଣ ସମୁଦାୟ ଆୟତନର ୧୦ ଭାଗରୁ କମ୍ ଅଟେ?",
+"options": [
+"ଉତ୍ତର ପ୍ରଦେଶ",
+"ଅରୁଣାଚଳ ପ୍ରଦେଶ",
+"ପଶ୍ଚିମବଙ୍ଗ",
+"ଓଡ଼ିଶା"
+],
+"answer": "ଅରୁଣାଚଳ ପ୍ରଦେଶ",
+"explanation": "ଅରୁଣାଚଳ ପ୍ରଦେଶ, ମିଜୋରାମ, ମଣିପୁର ଭଳି ପାର୍ବତ୍ୟ ରାଜ୍ୟଗୁଡ଼ିକରେ ପ୍ରକୃତ ଚାଷ ଭୂମିର ପରିମାଣ ୧୦ ଭାଗରୁ କମ୍।"
+},
+{
+"questionEnglish": "What percentage of India's total land is occupied by Permanent Pasture and Grazing land?",
+"questionOdia": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ପ୍ରାୟ କେତେ ଶତକଡ଼ା ଭାଗ ଗୋଚର ଓ ଚାରଣ ଭୂମି ଅଟେ?",
+"options": [
+"୪ ଭାଗ",
+"୧୬ ଭାଗ",
+"୨୪ ଭାଗ",
+"୩୨ ଭାଗ"
+],
+"answer": "୪ ଭାଗ",
+"explanation": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ମାତ୍ର ପ୍ରାୟ ୪ ଶତକଡ଼ା ଭାଗ ସ୍ଥାୟୀ ଗୋଚର ଓ ଚାରଣ ଭୂମି ରୂପେ ବ୍ୟବହୃତ ହେଉଛି।"
+},
+{
+"questionEnglish": "Why is the permanent pasture land decreasing in India continuously?",
+"questionOdia": "ଭାରତରେ ସ୍ଥାୟୀ ଗୋଚର ଭୂମିର ପରିମାଣ କ୍ରମାଗତ ଭାବେ ହ୍ରାସ ପାଇବାର ମୁଖ୍ୟ କାରଣ କଣ?",
+"options": [
+"କୃଷି ଏବଂ ବାସଗୃହ ନିର୍ମାଣର ପ୍ରସାର",
+"ବନ୍ୟା ଓ ବାତ୍ୟା",
+"ଅରଣ୍ୟର ସୃଷ୍ଟି",
+"ଗୋରୁଗାଈଙ୍କ ସଂଖ୍ୟା ହ୍ରାସ"
+],
+"answer": "କୃଷି ଏବଂ ବାସଗୃହ ନିର୍ମାଣର ପ୍ରସାର",
+"explanation": "ଜନସଂଖ୍ୟା ବୃଦ୍ଧି ହେତୁ ଗୋଚର ଭୂମିକୁ କୃଷି ଓ ବାସଗୃହ ନିର୍ମାଣ ପାଇଁ ବ୍ୟବହାର କରାଯାଉଥିବାରୁ ଏହା ହ୍ରାସ ପାଉଛି।"
+},
+{
+"questionEnglish": "Which region of India features the extensive Chota Nagpur Plateau, rich in minerals?",
+"questionOdia": "ଭାରତର କେଉଁ ଖଣିଜ ସମୃଦ୍ଧ ମାଳଭୂମି ଅଞ୍ଚଳଟି ଭୂ-ସମ୍ବଳର ଏକ ପ୍ରମୁଖ ଉଦାହରଣ ଭାବରେ ବର୍ଣ୍ଣିତ?",
+"options": [
+"ଛୋଟନାଗପୁର ମାଳଭୂମି",
+"ମାଳବ ମାଳଭୂମି",
+"ରେଓ୍ବା ମାଳଭୂମି",
+"ଦାକ୍ଷିଣାତ୍ୟ ମାଳଭୂମି"
+],
+"answer": "ଛୋଟନାଗପୁର ମାଳଭୂମି",
+"explanation": "ଛୋଟନାଗପୁର ମାଳଭୂମି ଭାରତର ଏକ ପ୍ରମୁଖ ଖଣିଜ ସମୃଦ୍ଧ ଅଞ୍ଚଳ ଅଟେ, ଯାହା ମାଳଭୂମିର ସର୍ବଶ୍ରେଷ୍ଠ ଉଦାହରଣ।"
+},
+{
+"questionEnglish": "What are the components that make up the total surface of the Earth?",
+"questionOdia": "ଭୂ-ପୃଷ୍ଠର ସମୁଦାୟ ଆୟତନ ମୁଖ୍ୟତଃ କେଉଁ ଦୁଇଟି ଭାଗକୁ ନେଇ ଗଠିତ?",
+"options": [
+"ସ୍ଥଳଭାଗ ଓ ଜଳଭାଗ",
+"ପାହାଡ଼ ଓ ପର୍ବତ",
+"ମୃତ୍ତିକା ଓ ଶିଳା",
+"ଜୈବ ଓ ଅଜୈବ ସମ୍ବଳ"
+],
+"answer": "ସ୍ଥଳଭାଗ ଓ ଜଳଭାଗ",
+"explanation": "ଭୂ-ପୃଷ୍ଠର ସମୁଦାୟ ଆୟତନ ମୁଖ୍ୟତଃ ଜଳଭାଗ (୭୧%) ଓ ସ୍ଥଳଭାଗ (୨୯%)କୁ ନେଇ ଗଠିତ।"
+},
+{
+"questionEnglish": "What percentage of India's land is categorized as non-cultivable waste land (Krushi Anupajogi)?",
+"questionOdia": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ପ୍ରାୟ କେତେ ପ୍ରତିଶତ ଭୂମି କୃଷି ଅନୁପଯୋଗୀ ପତିତ ଭୂମି ଅନ୍ତର୍ଗତ?",
+"options": [
+"୨.୪ ଭାଗ",
+"୨୪ ଭାଗ",
+"୧୬ ଭାଗ",
+"୪୩ ଭାଗ"
+],
+"answer": "୨୪ ଭାଗ",
+"explanation": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ପ୍ରାୟ ୨୪ ପ୍ରତିଶତ ଭୂମି କୃଷି ପାଇଁ ଅନୁପଯୋଗୀ ଅଟେ ଯାହା ପାହାଡ଼ିଆ କିମ୍ବା ମରୁଭୂମି ସଦୃଶ।"
+},
+{
+"questionEnglish": "How many million hectares of degraded land (Avanata Bhumi) exist in India currently according to the text?",
+"questionOdia": "ପାଠ୍ୟପୁସ୍ତକ ଅନୁସାରେ ଭାରତରେ ଏବେ ପ୍ରାୟ କେତେ ନିୟୁତ ହେକ୍ଟର କ୍ଷୟପ୍ରାପ୍ତ ବା ଅବନତ ଭୂମି (Degraded land) ରହିଛି?",
+"options": [
+"୧୩୦ ନିୟୁତ ହେକ୍ଟର",
+"୯୫ ନିୟୁତ ହେକ୍ଟର",
+"୧୮୭ ନିୟୁତ ହେକ୍ଟର",
+"୩୨ ନିୟୁତ ହେକ୍ଟର"
+],
+"answer": "୧୩୦ ନିୟୁତ ହେକ୍ଟର",
+"explanation": "ଭାରତରେ ପ୍ରାୟ ୧୩୦ ନିୟୁତ ହେକ୍ଟର ଭୂମି କ୍ଷୟପ୍ରାପ୍ତ କିମ୍ବା ଅବନତ ଭୂମି (Degraded Land) ଶ୍ରେଣୀଭୁକ୍ତ।"
+},
+{
+"questionEnglish": "Out of the total degraded land in India, what percentage is water-eroded land?",
+"questionOdia": "ଭାରତର ସମୁଦାୟ କ୍ଷୟପ୍ରାପ୍ତ ଭୂମିର କେତେ ପ୍ରତିଶତ ଜଳ ଦ୍ଵାରା କ୍ଷୟପ୍ରାପ୍ତ ବା ଜଳପ୍ଲାବିତ ଅଟେ?",
+"options": [
+"୫୬ ଭାଗ",
+"୨୮ ଭାଗ",
+"୧୦ ଭାଗ",
+"୪୩ ଭାଗ"
+],
+"answer": "୫୬ ଭାଗ",
+"explanation": "ସମୁଦାୟ ଅବନତ ଭୂମି ମଧ୍ୟରୁ ପ୍ରାୟ ୫୬ ଭାଗ ଜଳ ଦ୍ଵାରା କ୍ଷୟପ୍ରାପ୍ତ କିମ୍ବା ଜଳପ୍ଲାବିତ ଅଞ୍ଚଳ ଅଟେ।"
+},
+{
+"questionEnglish": "Out of the total degraded land in India, what percentage is forest-degraded area?",
+"questionOdia": "ଭାରତର ସମୁଦାୟ ଅବନତ ବା କ୍ଷୟପ୍ରାପ୍ତ ଭୂମିର କେତେ ପ୍ରତିଶତ ଅରଣ୍ୟ କ୍ଷୟପ୍ରାପ୍ତ ଅଞ୍ଚଳ ଅଟେ?",
+"options": [
+"୨୮ ଭାଗ",
+"୫୬ ଭାଗ",
+"୩୩ ଭାଗ",
+"୧୧ ଭାଗ"
+],
+"answer": "୨୮ ଭାଗ",
+"explanation": "ସମୁଦାୟ ଅବନତ ଭୂମିର ପ୍ରାୟ ୨୮ ପ୍ରତିଶତ ଭାଗ ଅରଣ୍ୟ କ୍ଷୟପ୍ରାପ୍ତ ଅଞ୍ଚଳ ଅଟେ।"
+},
+{
+"questionEnglish": "What percentage of basic human needs like food, clothing, and shelter is obtained directly from land resources?",
+"questionOdia": "ମନୁଷ୍ୟ ତାର ମୌଳିକ ଆବଶ୍ୟକତା ଯଥା ଖାଦ୍ୟ, ବସ୍ତ୍ର ଓ ବାସଗୃହର କେତେ ଶତକଡ଼ା ଭାଗ ଭୂମିରୁ ହିଁ ପାଇଥାଏ?",
+"options": [
+"୯୫ ଭାଗ",
+"୬୦ ଭାଗ",
+"୮୦ ଭାଗ",
+"୫୫ ଭାଗ"
+],
+"answer": "୯୫ ଭାଗ",
+"explanation": "ମନୁଷ୍ୟ ତାର ମୌଳିକ ଆବଶ୍ୟକତା (ଖାଦ୍ୟ, ବସ୍ତ୍ର, ବାସଗୃହ)ର ପ୍ରାୟ ୯୫ ଶତକଡ଼ା ଭାଗ ଭୂମିରୁ ହିଁ ପାଇଥାଏ।"
+},
+{
+"questionEnglish": "Which human activity among the following is a major cause of land degradation in Jharkhand and Chhattisgarh?",
+"questionOdia": "ଝାଡ଼ଖଣ୍ଡ ଏବଂ ଛତିଶଗଡ଼ ଭଳି ରାଜ୍ୟରେ ଭୂ-କ୍ଷୟ ବା ଭୂମି ଅବନତିର ମୁଖ୍ୟ କାରଣ କଣ?",
+"options": [
+"ଅତ୍ୟଧିକ ଖନନ (Mining)",
+"ଅତ୍ୟଧିକ ପଶୁଚାରଣ",
+"ଅତ୍ୟଧିକ ଜଳସେଚନ",
+"ବାତ୍ୟା"
+],
+"answer": "ଅତ୍ୟଧିକ ଖନନ (Mining)",
+"explanation": "ଝାଡ଼ଖଣ୍ଡ, ଛତିଶଗଡ଼ ଓ ଓଡ଼ିଶା ଭଳି ଖଣି ସମୃଦ୍ଧ ରାଜ୍ୟରେ ଅତ୍ୟଧିକ ଖନନ କାର୍ଯ୍ୟ ଯୋଗୁଁ ବ୍ୟାପକ ଭୂ-କ୍ଷୟ ହେଉଛି।"
+},
+{
+"questionEnglish": "In which states is over-grazing (Atyadhika Pashucharana) the primary cause of land degradation?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ରାଜ୍ୟଗୁଡ଼ିକରେ ଅତ୍ୟଧିକ ପଶୁଚାରଣ ଯୋଗୁଁ ଭୂମିର ଅବନତି ଘଟୁଛି?",
+"options": [
+"ଗୁଜରାଟ ଓ ରାଜସ୍ଥାନ",
+"ପଞ୍ଜାବ ଓ ହରିଆଣା",
+"ଓଡ଼ିଶା ଓ ଝାଡ଼ଖଣ୍ଡ",
+"ପଶ୍ଚିମବଙ୍ଗ ଓ ବିହାର"
+],
+"answer": "ଗୁଜରାଟ ଓ ରାଜସ୍ଥାନ",
+"explanation": "ଗୁଜରାଟ, ରାଜସ୍ଥାନ, ମଧ୍ୟପ୍ରଦେଶ ଓ ମହାରାଷ୍ଟ୍ରରେ ଅତ୍ୟଧିକ ପଶୁଚାରଣ ଯୋଗୁଁ ଭୂମି ନଷ୍ଟ ହେଉଛି।"
+},
+{
+"questionEnglish": "What is the primary cause of land degradation in Punjab and Haryana due to the Green Revolution?",
+"questionOdia": "ପଞ୍ଜାବ ଓ ହରିଆଣା ରାଜ୍ୟରେ ଭୂମିର ଅବନତି ଘଟିବାର ମୁଖ୍ୟ କାରଣ କଣ?",
+"options": [
+"ଅତ୍ୟଧିକ ଜଳସେଚନ (Over-irrigation)",
+"ଖଣି ଖନନ",
+"ଅରଣ୍ୟ କ୍ଷୟ",
+"ଶିଳ୍ପାୟନ"
+],
+"answer": "ଅତ୍ୟଧିକ ଜଳସେଚନ (Over-irrigation)",
+"explanation": "ପଞ୍ଜାବ, ହରିଆଣା ଓ ପଶ୍ଚିମ ଉତ୍ତର ପ୍ରଦେଶରେ ଅତ୍ୟଧିକ ଜଳସେଚନ ହେତୁ ମୃତ୍ତିକାରେ ଲବଣାକ୍ତତା ବୃଦ୍ଧି ପାଇ ଭୂ-ଅବନତି ଘଟୁଛି।"
+},
+{
+"questionEnglish": "What happens to the soil when there is excessive irrigation in agricultural lands?",
+"questionOdia": "ଅତ୍ୟଧିକ ଜଳସେଚନ ଦ୍ଵାରା ମୃତ୍ତିକାରେ କେଉଁ ପ୍ରକାରର ପରିବର୍ତ୍ତନ ଘଟେ ଯାହା ଭୂମିକୁ ଅନୁର୍ବର କରେ?",
+"options": [
+"ଲବଣାକ୍ତତା ଓ କ୍ଷାରୀୟତା ବୃଦ୍ଧି (Salinity and Alkalinity)",
+"ଉର୍ବରତା ବୃଦ୍ଧି",
+"ଆଦ୍ରତା ହ୍ରାସ",
+"ବାଲିର ପରିମାଣ ବୃଦ୍ଧି"
+],
+"answer": "ଲବଣାକ୍ତତା ଓ କ୍ଷାରୀୟତା ବୃଦ୍ଧି (Salinity and Alkalinity)",
+"explanation": "ଅତ୍ୟଧିକ ଜଳସେଚନ ଦ୍ଵାରା ଜମିରେ ଜଳ ଜମି ରହି ମୃତ୍ତିକାରେ ଲବଣାକ୍ତତା ଓ କ୍ଷାରୀୟତା ବୃଦ୍ଧି ପାଏ।"
+},
+{
+"questionEnglish": "Which industry's processing activities release large amounts of limestone dust, degrading nearby land?",
+"questionOdia": "କେଉଁ ଶିଳ୍ପର ପ୍ରକ୍ରିୟାକରଣ କାର୍ଯ୍ୟ ଯୋଗୁଁ ବହୁ ପରିମାଣରେ ଚୂନପଥର ଗୁଣ୍ଡ ବାୟୁମଣ୍ଡଳକୁ ନିର୍ଗତ ହୋଇ ଭୂମି ଅବନତି ଘଟାଏ?",
+"options": [
+"ସିମେଣ୍ଟ ଶିଳ୍ପ (Cement Industry)",
+"ଲୌହ ଓ ଇସ୍ପାତ ଶିଳ୍ପ",
+"ଆଲୁମିନିୟମ ଶିଳ୍ପ",
+"କାଗଜ ଶିଳ୍ପ"
+],
+"answer": "ସିମେଣ୍ଟ ଶିଳ୍ପ (Cement Industry)",
+"explanation": "ସିମେଣ୍ଟ ଶିଳ୍ପରେ ଚୂନପଥର ଗୁଣ୍ଡ ଚଟାଣରେ ଜମିଯିବା ଫଳରେ ମୃତ୍ତିକା ମଧ୍ୟକୁ ଜଳ ପ୍ରବେଶ ବାଧାପ୍ରାପ୍ତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which of the following measures is effective for solving the problem of land degradation in desert areas?",
+"questionOdia": "ମରୁଭୂମି ଅଞ୍ଚଳରେ ଭୂ-କ୍ଷୟ ରୋକିବା ଏବଂ ବାଲିର ପ୍ରସାରକୁ ପ୍ରତିହତ କରିବା ପାଇଁ କେଉଁ ଉପାୟଟି ସର୍ବୋତ୍ତମ?",
+"options": [
+"କଣ୍ଟାଗଛ ଜାତୀୟ ଉଦ୍ଭିଦ ରୋପଣ (Planting thorny bushes)",
+"ଅତ୍ୟଧିକ ଜଳସେଚନ",
+"ରାସାୟନିକ ସାର ପ୍ରୟୋଗ",
+"ଖଣି ଖନନ"
+],
+"answer": "କଣ୍ଟାଗଛ ଜାତୀୟ ଉଦ୍ଭିଦ ରୋପଣ (Planting thorny bushes)",
+"explanation": "ମରୁଭୂମି ଅଞ୍ଚଳରେ କଣ୍ଟାଗଛ ଲଗାଇବା ଓ ବୃକ୍ଷରୋପଣ କରିବା ଦ୍ଵାରା ବାଲୁକା ସ୍ତୁପର ସ୍ଥିରୀକରଣ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "What is the term used for land which is left uncultivated for more than one year but less than five years?",
+"questionOdia": "୧ ବର୍ଷରୁ ଅଧିକ ଏବଂ ୫ ବର୍ଷରୁ କମ୍ ସମୟ ପାଇଁ ଚାଷ କରାଯାଇ ନ ଥିବା କୃଷିଭୂମିକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ଅନ୍ୟାନ୍ୟ ଚଳିତ ଅନାବାଦୀ ଭୂମି",
+"ପ୍ରକୃତ ଚାଷ ଭୂମି",
+"ସ୍ଥାୟୀ ଗୋଚର ଭୂମି",
+"କୃଷି ଅନୁପଯୋଗୀ ଭୂମି"
+],
+"answer": "ଅନ୍ୟାନ୍ୟ ଚଳିତ ଅନାବାଦୀ ଭୂମି",
+"explanation": "ଏକ ବର୍ଷରୁ ଅଧିକ ମାତ୍ର ପାଞ୍ଚ ବର୍ଷରୁ କମ୍ ସମୟ ଧରି ପଡ଼ିଆ ପଡ଼ିଥିବା ଜମିକୁ ଅନ୍ୟାନ୍ୟ ଚଳିତ ଅନାବାଦୀ ଭୂମି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which factor among the following does NOT act as a natural cause of land degradation?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଭୂ-କ୍ଷୟ କିମ୍ବା ଭୂ-ଅବନତିର ଏକ ପ୍ରାକୃତିକ କାରଣ ନୁହେଁ?",
+"options": [
+"ଅତ୍ୟଧିକ ଖଣି ଖନନ",
+"ନଦୀ ବନ୍ୟା",
+"ପ୍ରବଳ ବାତ୍ୟା",
+"ମରୁଡ଼ି"
+],
+"answer": "ଅତ୍ୟଧିକ ଖଣି ଖନନ",
+"explanation": "ଖଣି ଖନନ ହେଉଛି ମନୁଷ୍ୟକୃତ କାରଣ, ଅନ୍ୟଗୁଡ଼ିକ ପ୍ରାକୃତିକ କାରଣ ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "What is the average availability of cultivable land per capita in India as mentioned in the text?",
+"questionOdia": "ପାଠ୍ୟପୁସ୍ତକ ଅନୁସାରେ ଭାରତରେ ମୁଣ୍ଡପିଛା ଚାଷ ଜମିର ପରିମାଣ ହାରାହାରି କେତେ ହେକ୍ଟର ଅଟେ?",
+"options": [
+"୦.୪୮ ହେକ୍ଟର",
+"୦.୧୩ ହେକ୍ଟର",
+"୧.୫ ହେକ୍ଟର",
+"୦.୯୩ ହେକ୍ଟର"
+],
+"answer": "୦.୪୮ ହେକ୍ଟର",
+"explanation": "ଭାରତରେ ସମୁଦାୟ ଚାଷୋପଯୋଗୀ ଭୂମିର ମୁଣ୍ଡପିଛା ପରିମାଣ ହାରାହାରି ପ୍ରାୟ ୦.୪୮ ହେକ୍ଟର।"
+},
+{
+"questionEnglish": "In which state is the per capita cultivable land availability as low as 0.13 hectares?",
+"questionOdia": "ଭାରତର କେଉଁ ରାଜ୍ୟରେ ଜନସଂଖ୍ୟା ଚାପ ଯୋଗୁଁ ମୁଣ୍ଡପିଛା ଚାଷ ଜମିର ପରିମାଣ ମାତ୍ର ୦.୧୩ ହେକ୍ଟର?",
+"options": [
+"ବିହାର",
+"ଓଡ଼ିଶା",
+"ରାଜସ୍ଥାନ",
+"ପଞ୍ଜାବ"
+],
+"answer": "ବିହାର",
+"explanation": "ଜନସଂଖ୍ୟା ବହୁଳ ବିହାର ରାଜ୍ୟରେ ମୁଣ୍ଡପିଛା ଚାଷ ଜମିର ପରିମାଣ ସବୁଠାରୁ କମ୍, ପ୍ରାୟ ୦.୧୩ ହେକ୍ଟର ଅଟେ।"
+},
+{
+"questionEnglish": "Which state has a relatively higher per capita cultivable land availability of 0.93 hectares?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ରାଜ୍ୟରେ ମୁଣ୍ଡପିଛା ଚାଷ ଜମିର ପରିମାଣ ପ୍ରାୟ ୦. ୯୩ ହେକ୍ଟର ଅଟେ?",
+"options": [
+"ଓଡ଼ିଶା",
+"ବିହାର",
+"ପଶ୍ଚିମବଙ୍ଗ",
+"କେରଳ"
+],
+"answer": "ଓଡ଼ିଶା",
+"explanation": "ପାଠ୍ୟପୁସ୍ତକର ତଥ୍ୟ ଅନୁସାରେ ଓଡ଼ିଶାରେ ମୁଣ୍ଡପିଛା ଚାଷ ଜମିର ପରିମାଣ ପ୍ରାୟ ୦.୯୩ ହେକ୍ଟର ଅଟେ।"
+},
+{
+"questionEnglish": "What percentage of India's total land area is classified as Fallow Land (Patita Bhumi) in general?",
+"questionOdia": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ପ୍ରାୟ କେତେ ପ୍ରତିଶତ ଭାଗ ସାଧାରଣତଃ ପତିତ ଭୂମି (Fallow Land) ଶ୍ରେଣୀଭୁକ୍ତ?",
+"options": [
+"୭-୮ ଭାଗ",
+"୨୨.୫ ଭାଗ",
+"୪୩ ଭାଗ",
+"୪ ଭାଗ"
+],
+"answer": "୭-୮ ଭାଗ",
+"explanation": "ଭାରତରେ ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ପ୍ରାୟ ୭ ରୁ ୮ ପ୍ରତିଶତ ଭାଗ ଭୂମି ପତିତ ଭୂମି ଶ୍ରେଣୀର ଅନ୍ତର୍ଗତ।"
+},
+{
+"questionEnglish": "Which plain region in India is highly fertile and extensively used for agriculture?",
+"questionOdia": "ଭାରତର କେଉଁ ବିସ୍ତୀର୍ଣ୍ଣ ସମତଳ ଅଞ୍ଚଳ କୃଷିକାର୍ଯ୍ୟ ପାଇଁ ସବୁଠାରୁ ଉର୍ବର ଏବଂ ଉପଯୁକ୍ତ ଅଟେ?",
+"options": [
+"ଗଙ୍ଗା-ବ୍ରହ୍ମପୁତ୍ର ନଦୀର ସମତଳଭୂମି",
+"ଛୋଟନାଗପୁର ମାଳଭୂମି",
+"ଥର୍ ମରୁଭୂମି",
+"ଦାକ୍ଷିଣାତ୍ୟ ମାଳଭୂମି"
+],
+"answer": "ଗଙ୍ଗା-ବ୍ରହ୍ମପୁତ୍ର ନଦୀର ସମତଳଭୂମି",
+"explanation": "ଗଙ୍ଗା ଓ ବ୍ରହ୍ମପୁତ୍ର ନଦୀ ଗଠିତ ସମତଳ ଭୂମି ଅତ୍ୟନ୍ତ ଉର୍ବର ହୋଇଥିବାରୁ ଏଠାରେ ବ୍ୟାପକ ଚାଷ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What percentage of the Earth's surface is covered by water?",
+"questionOdia": "ସମୁଦାୟ ଭୂ-ପୃଷ୍ଠର କେତେ ଶତକଡ଼ା ଭାଗ ଜଳଭାଗ ଦ୍ଵାରା ଆବୃତ?",
+"options": [
+"୭୧ ଭାଗ",
+"୨୯ ଭାଗ",
+"୪୩ ଭାଗ",
+"୩୩ ଭାଗ"
+],
+"answer": "୭୧ ଭାଗ",
+"explanation": "ଭୂ-ପୃଷ୍ଠର ପ୍ରାୟ ୭୧ ଶତକଡ଼ା ଭାଗ ଜଳରାଶି ଏବଂ ୨୯ ଭାଗ ସ୍ଥଳଭାଗ ଅଟେ।"
+},
+{
+"questionEnglish": "Which state has a high percentage of land covered by forests in northeast India?",
+"questionOdia": "ଭାରତର ଉତ୍ତର-ପୂର୍ବ ଦିଗରେ ଥିବା କେଉଁ ରାଜ୍ୟଗୁଡ଼ିକରେ ଅରଣ୍ୟର ପ୍ରତିଶତ ଅଧିକ (୪୦ ରୁ ୮୦ ଭାଗ)?",
+"options": [
+"ମିଜୋରାମ ଓ ନାଗାଲାଣ୍ଡ",
+"ପଞ୍ଜାବ ଓ ହରିଆଣା",
+"ଉତ୍ତର ପ୍ରଦେଶ ଓ ବିହାର",
+"ରାଜସ୍ଥାନ ଓ ଗୁଜରାଟ"
+],
+"answer": "ମିଜୋରାମ ଓ ନାଗାଲାଣ୍ଡ",
+"explanation": "ମିଜୋରାମ, ନାଗାଲାଣ୍ଡ, ମେଘାଳୟ, ଅରୁଣାଚଳ ପ୍ରଦେଶ ଆଦି ଉତ୍ତର-ପୂର୍ବ ରାଜ୍ୟରେ ପ୍ରାୟ ୪୦ ରୁ ୮୦ ଭାଗ ଅରଣ୍ୟ ଭୂମି ଅଛି।"
+},
+{
+"questionEnglish": "What type of land resources are hills, mountains, and plates categorized as?",
+"questionOdia": "ପାହାଡ଼, ପର୍ବତ ଏବଂ ମାଳଭୂମି ଗୁଡ଼ିକର ପୃଷ୍ଠ ମୃତ୍ତିକା ସାଧାରଣତଃ କିପରି ହୋଇଥାଏ?",
+"options": [
+"ପତଳା, ପଥୁରିଆ ଓ କମ୍ ଜଳଧାରଣ କ୍ଷମତା ବିଶିଷ୍ଟ",
+"ଗଭୀର, ଉର୍ବର ଓ ଅଧିକ ଜଳଧାରଣ କ୍ଷମତା ବିଶିଷ୍ଟ",
+"ପଟୁ ମୃତ୍ତିକା ଯୁକ୍ତ",
+"ଲବଣାକ୍ତ ଓ କ୍ଷାରୀୟ"
+],
+"answer": "ପତଳା, ପଥୁରିଆ ଓ କମ୍ ଜଳଧାରଣ କ୍ଷମତା ବିଶିଷ୍ଟ",
+"explanation": "ପାହାଡ଼ ଓ ପର୍ବତ ଅଞ୍ଚଳର ମୃତ୍ତିକା ସ୍ତର ପତଳା, ପଥୁରିଆ ହୋଇଥିବାରୁ ଏହାର ଜଳଧାରଣ କ୍ଷମତା ଖୁବ୍ କମ୍ ଥାଏ।"
+},
+{
+"questionEnglish": "Which category includes the land covered by buildings, roads, and railways?",
+"questionOdia": "ରାସ୍ତାଘାଟ, ରେଳପଥ, ବାସଗୃହ ଓ ଶିଳ୍ପାନୁଷ୍ଠାନ ଆଦିରେ ବ୍ୟବହୃତ ହେଉଥିବା ଭୂମିକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ଅଣ-କୃଷି ଭୂମି",
+"ପ୍ରକୃତ ଚାଷ ଭୂମି",
+"ଗୋଚର ଭୂମି",
+"ଅରଣ୍ୟ ଭୂମି"
+],
+"answer": "ଅଣ-କୃଷି ଭୂମି",
+"explanation": "ଯେଉଁ ଭୂମି କୃଷି କାର୍ଯ୍ୟରେ ନ ଲାଗି ସହର, ରାସ୍ତାଘାଟ, କାରଖାନା ଇତ୍ୟାଦିରେ ବ୍ୟବହୃତ ହୁଏ ତାହା ଅଣ-କୃଷି ଭୂମି।"
+},
+{
+"questionEnglish": "How does Afforestation (Bruksharopana) help in land resource conservation?",
+"questionOdia": "ବ୍ୟାପକ ବୃକ୍ଷରୋପଣ ବା ପୁନଃ ବନୀକରଣ କାର୍ଯ୍ୟ କିପରି ଭୂ-ସମ୍ବଳର ସଂରକ୍ଷଣରେ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ମୃତ୍ତିକା କ୍ଷୟ ରୋକିବା ଦ୍ଵାରା",
+"ଲବଣାକ୍ତତା ବୃଦ୍ଧି କରିବା ଦ୍ଵାରା",
+"ଖଣି ଖନନ ବଢ଼ାଇବା ଦ୍ଵାରା",
+"ମରୁଭୂମି ସୃଷ୍ଟି କରିବା ଦ୍ଵାରା"
+],
+"answer": "ମୃତ୍ତିକା କ୍ଷୟ ରୋକିବା ଦ୍ଵାରା",
+"explanation": "ବୃକ୍ଷର ଚେର ମୃତ୍ତିକାକୁ ଜାବୁଡ଼ି ଧରି ରଖେ, ଯାହାଦ୍ଵାରା ପବନ ଓ ଜଳ ଦ୍ଵାରା ହେଉଥିବା ଭୂ-କ୍ଷୟ ହ୍ରାସ ପାଏ।"
+},
+{
+"questionEnglish": "Which mineral resource is widely available in the plateau regions of India like Chota Nagpur?",
+"questionOdia": "ଭାରତର ମାଳଭୂମି ଅଞ୍ଚଳଗୁଡ଼ିକ ମୁଖ୍ୟତଃ କେଉଁ ସମ୍ବଳର ପ୍ରଧାନ ଭଣ୍ଡାର ଅଟେ?",
+"options": [
+"ଖଣିଜ ସମ୍ପଦ ଓ କୋଇଲା (Minerals and Coal)",
+"ଜଳ ବିଦ୍ୟୁତ",
+"ପଟୁ ମୃତ୍ତିକା",
+"ଆଣବିକ ଉଦ୍ଭିଦ"
+],
+"answer": "ଖଣିଜ ସମ୍ପଦ ଓ କୋଇଲା (Minerals and Coal)",
+"explanation": "ଛୋଟନାଗପୁର ଓ ଦାକ୍ଷିଣାତ୍ୟ ମାଳଭୂମି ଗୁଡ଼ିକରେ ପ୍ରଚୁର ପରିମାଣରେ କୋଇଲା ଓ ବିଭିନ୍ନ ଖଣିଜ ଦ୍ରବ୍ୟ ଗଚ୍ଛିତ ଅଛି।"
+},
+{
+"questionEnglish": "What percentage of land is recommended for plains according to the National Forest Policy?",
+"questionOdia": "ଜାତୀୟ ଅରଣ୍ୟ ନୀତି ଅନୁଯାୟୀ ସମତଳ ଭୂମି ଅଞ୍ଚଳର କେତେ ପ୍ରତିଶତ ଅଞ୍ଚଳ ଅରଣ୍ୟାବୃତ ରହିବା ଆବଶ୍ୟକ?",
+"options": [
+"୨୦ ଭାଗ",
+"୩୩ ଭାଗ",
+"୬୦ ଭାଗ",
+"୧୦ ଭାଗ"
+],
+"answer": "୨୦ ଭାଗ",
+"explanation": "ସମତଳ ଅଞ୍ଚଳରେ ଅନ୍ୟୂନ ୨୦ ପ୍ରତିଶତ ଭୂମି ପାରିସ୍ଥିତିକ ସନ୍ତୁଳନ ପାଇଁ ଜଙ୍ଗଲ ହୋଇ ରହିବା ଉଚିତ।"
+},
+{
+"questionEnglish": "Which human practice leads to industrial water pollution creating land degradation?",
+"questionOdia": "ଶିଳ୍ପରୁ ନିର୍ଗତ ଆବର୍ଜନା ଓ ଦୂଷିତ ଜଳ କିପରି ଆଖପାଖର ଭୂମିକୁ ନଷ୍ଟ କରେ?",
+"options": [
+"ମୃତ୍ତିକାକୁ ଦୂଷିତ ଓ ଅନୁର୍ବର କରିବା ଦ୍ଵାରା",
+"ଉର୍ବରତା ବୃଦ୍ଧି କରିବା ଦ୍ଵାରା",
+"ଜଳଧାରଣ କ୍ଷମତା ବଢ଼ାଇବା ଦ୍ଵାରା",
+"ଉଦ୍ଭିଦ ସଂଖ୍ୟା ବଢ଼ାଇବା ଦ୍ଵାରା"
+],
+"answer": "ମୃତ୍ତିକାକୁ ଦୂଷିତ ଓ ଅନୁର୍ବର କରିବା ଦ୍ଵାରା",
+"explanation": "କାରଖାନାରୁ ନିର୍ଗତ ରାସାୟନିକ ପଦାର୍ଥ ଭୂମିରେ ମିଶି ମୃତ୍ତିକାର ଗୁଣବତ୍ତା ନଷ୍ଟ କରିଦିଏ।"
+},
+{
+"questionEnglish": "What is the primary utility of land resources for human society?",
+"questionOdia": "ଭୂ-ସମ୍ବଳକୁ ମନୁଷ୍ୟ ଏକ ମୌଳିକ ଓ ପ୍ରାକୃତିକ ସମ୍ବଳ ଭାବେ ବିଚାର କରିବାର ପ୍ରଧାନ କାରଣ କଣ?",
+"options": [
+"ଏହା ସମସ୍ତ ସାମାଜିକ ଓ ଅର୍ଥନୈତିକ କାର୍ଯ୍ୟର ଆଧାର",
+"ଏହା କେବଳ ପଶୁଚାରଣ ପାଇଁ ଉଦ୍ଦିଷ୍ଟ",
+"ଏଥିରେ କେବଳ ଜଙ୍ଗଲ ସୃଷ୍ଟି ହୁଏ",
+"ଏହା ସୀମିତ ନୁହେଁ"
+],
+"answer": "ଏହା ସମସ୍ତ ସାମାଜିକ ଓ ଅର୍ଥନୈତିକ କାର୍ଯ୍ୟର ଆଧାର",
+"explanation": "ବାସଗୃହ ନିର୍ମାଣ, କୃଷି, ଗମନାଗମନ ଓ ଶିଳ୍ପ ଭଳି ସମସ୍ତ ମାନବୀୟ କାର୍ଯ୍ୟକଳାପ ଭୂମି ଉପରେ ହିଁ ନିର୍ଭର କରେ।"
+},
+{
+"questionEnglish": "What percentage of India's land was recorded as Net Sown Area in 1950-51?",
+"questionOdia": "୧୯୫୦-୫୧ ମସିହାରେ ଭାରତର ସମୁଦାୟ ଆୟତନର ପ୍ରାୟ କେତେ ଶତକଡ଼ା ଭାଗ ପ୍ରକୃତ ଚାଷ ଜମି ଥିଲା?",
+"options": [
+"୩୨ ଭାଗ",
+"୪୬ ଭାଗ",
+"୨୨ ଭାଗ",
+"୩୮ ଭାଗ"
+],
+"answer": "୩୨ ଭାଗ",
+"explanation": "୧୯୫୦-୫୧ ମସିହାରେ ସମୁଦାୟ ଭୂମିର ପ୍ରାୟ ୩୨ ପ୍ରତିଶତ ଅଞ୍ଚଳରେ ପ୍ରକୃତ ଚାଷ କାର୍ଯ୍ୟ କରାଯାଉଥିଲା।"
+},
+{
+"questionEnglish": "How does over-irrigation create an alkaline environment in the soil?",
+"questionOdia": "ଅତ୍ୟଧିକ ଜଳସେଚନ ଦ୍ଵାରା ଜମିରେ କେଉଁ ଉପାଦାନ ଜମି ରହି କ୍ଷାରୀୟତା ବୃଦ୍ଧି କରେ?",
+"options": [
+"ଲବଣ (Salt)",
+"ଜୈବ ସାର",
+"ଆଇରନ୍",
+"ନାଇଟ୍ରୋଜେନ୍"
+],
+"answer": "ଲବଣ (Salt)",
+"explanation": "ଜଳ ବାଷ୍ପୀଭୂତ ହେବା ପରେ ମୃତ୍ତିକା ଉପରେ ଲବଣର ଏକ ସ୍ତର ଜମିଯାଏ, ଯାହା ମୃତ୍ତିକାକୁ କ୍ଷାରୀୟ କରିଦିଏ।"
+},
+{
+"questionEnglish": "Which state has a very low forest cover of around 20% due to plains and urbanization?",
+"questionOdia": "ଓଡ଼ିଶା, ଗୋଆ ଏବଂ ବିହାର ଭଳି ରାଜ୍ୟରେ ଅରଣ୍ୟ ଭୂମିର ହାର ପ୍ରାୟ କେତେ ପ୍ରତିଶତ ମଧ୍ୟରେ ସୀମିତ?",
+"options": [
+"୨୦ ରୁ ୪୦ ଭାଗ",
+"୪୦ ରୁ ୮୦ ଭାଗ",
+"୮୦ ଭାଗରୁ ଅଧିକ",
+"୧୦ ଭାଗରୁ କମ୍"
+],
+"answer": "୨୦ ରୁ ୪୦ ଭାଗ",
+"explanation": "ଓଡ଼ିଶା, ଗୋଆ, ବିହାର ଆଦି ରାଜ୍ୟଗୁଡ଼ିକରେ ଅରଣ୍ୟ ଭୂମିର ପରିମାଣ ପ୍ରାୟ ୨୦ ରୁ ୪୦ ପ୍ରତିଶତ ମଧ୍ୟରେ ରହିଥାଏ।"
+},
+{
+"questionEnglish": "Which among the following is a measure to control soil erosion on hill slopes?",
+"questionOdia": "ପାର୍ବତ୍ୟ ଅଞ୍ଚଳରେ ଢାଲୁ ଭୂମିରେ ମୃତ୍ତିକା କ୍ଷୟ ରୋକିବା ପାଇଁ କେଉଁ ପଦ୍ଧତିରେ ଚାଷ କରାଯାଏ?",
+"options": [
+"ସୋପାନ କୃଷି (Terrace Farming)",
+"ଝୁମ୍ ଚାଷ",
+"ସ୍ଥାନାନ୍ତରିତ କୃଷି",
+"ଅତ୍ୟଧିକ ଜଳସେଚନ"
+],
+"answer": "ସୋପାନ କୃଷି (Terrace Farming)",
+"explanation": "ପାହାଡ଼ ଢାଲୁରେ ସିଡ଼ି ଭଳି ଥାକ ଥାକ କରି ସୋପାନ କୃଷି କଲେ ଜଳର ପ୍ରବାହ ବେଗ କମିଯାଏ ଏବଂ ଭୂ-କ୍ଷୟ ରୋକାଯାଇପାରେ।"
+},
+{
+"questionEnglish": "What type of waste land includes rocky, arid, and desert areas?",
+"questionOdia": "ପଥୁରିଆ, ଅନୁର୍ବର ଏବଂ ମରୁଭୂମି ଭଳି ଭୂମିକୁ କେଉଁ ଶ୍ରେଣୀଭୁକ୍ତ କରାଯାଏ?",
+"options": [
+"କୃଷି ଅନୁପଯୋଗୀ ଅଣ-କୃଷି ଭୂମି",
+"ଚଳିତ ପତିତ ଭୂମି",
+"ସ୍ଥାୟୀ ଗୋଚର ଭୂମି",
+"ପ୍ରକୃତ ଚାଷ ଭୂମି"
+],
+"answer": "କୃଷି ଅନୁପଯୋଗୀ ଅଣ-କୃଷି ଭୂମି",
+"explanation": "ଚାଷ କାର୍ଯ୍ୟ ପାଇଁ ଅଯୋଗ୍ୟ ଥିବା ପଥୁରିଆ କିମ୍ବା ମରୁଭୂମି ଅଞ୍ଚଳକୁ କୃଷି ଅନୁପଯୋଗୀ ଅଣ-କୃଷି ଭୂମି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What percentage of basic resources for human existence comes directly from the biosphere and land?",
+"questionOdia": "ମନୁଷ୍ୟ ତାର ସାମାଜିକ ଜୀବନ ନିର୍ବାହ ପାଇଁ ପ୍ରାୟ କେତେ ଭାଗ ସମ୍ବଳ ପ୍ରକୃତି ଓ ଭୂ-ପୃଷ୍ଠରୁ ସଂଗ୍ରହ କରେ?",
+"options": [
+"୯୫ ଭାଗ",
+"୫୦ ଭାଗ",
+"୭୫ ଭାଗ",
+"୩୦ ଭାଗ"
+],
+"answer": "୯୫ ଭାଗ",
+"explanation": "ଆମର ଜୀବନ ଧାରଣ ପାଇଁ ଆବଶ୍ୟକ ୯୫ ଭାଗ ଉପାଦାନ ପ୍ରତ୍ୟକ୍ଷ କିମ୍ବା ପରୋକ୍ଷ ଭାବେ ଭୂ-ସମ୍ବଳରୁ ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "Which area is known for coastal plains in India as listed in the text examples?",
+"questionOdia": "ଭାରତର ପୂର୍ବ ଓ ପଶ୍ଚିମ ଉପକୂଳବର୍ତ୍ତୀ ଅଞ୍ଚଳଗୁଡ଼ିକ କେଉଁ ପ୍ରକାରର ଭୂ-ସମ୍ବଳର ଅନ୍ତର୍ଗତ?",
+"options": [
+"ଉପକୂଳବର୍ତ୍ତୀ ସମତଳଭୂମି",
+"ମାଳଭୂମି ଅଞ୍ଚଳ",
+"ପାର୍ବତ୍ୟ ଅଞ୍ଚଳ",
+"ମରୁଭୂମି ଅଞ୍ଚଳ"
+],
+"answer": "ଉପକୂଳବର୍ତ୍ତୀ ସମତଳଭୂମି",
+"explanation": "ଭାରତର ପୂର୍ବ ଓ ପଶ୍ଚିମ ସମୁଦ୍ର ଉପକୂଳରେ ବିସ୍ତୀର୍ଣ୍ଣ ସମତଳ ଭୂମି ଦେଖାଯାଏ, ଯାହା ଅତ୍ୟନ୍ତ ଜନବହୁଳ।"
+},
+{
+"questionEnglish": "What role do forests on land play regarding global climate control?",
+"questionOdia": "ଭୂ-ପୃଷ୍ଠରେ ଥିବା ଅରଣ୍ୟ ସମୂହ ବିଶ୍ଵ ପରିବେଶ ପାଇଁ କେଉଁ ମୁଖ୍ୟ କାର୍ଯ୍ୟ କରିଥାନ୍ତି?",
+"options": [
+"ବିଶ୍ଵ ଜଳବାୟୁକୁ ନିୟନ୍ତ୍ରଣ କରିବା",
+"ତାପମାତ୍ରା ବୃଦ୍ଧି କରିବା",
+"ଭୂମିକମ୍ପ ସୃଷ୍ଟି କରିବା",
+"ମୃତ୍ତିକା କ୍ଷୟ ବଢ଼ାଇବା"
+],
+"answer": "ବିଶ୍ଵ ଜଳବାୟୁକୁ ନିୟନ୍ତ୍ରଣ କରିବା",
+"explanation": "ଜଙ୍ଗଲଗୁଡ଼ିକ ଅଙ୍ଗାରକାମ୍ଳ ଗ୍ୟାସ ଗ୍ରହଣ କରି ଅମ୍ଳଜାନ ଛାଡ଼ନ୍ତି ଏବଂ ବୃଷ୍ଟିପାତରେ ସାହାଯ୍ୟ କରି ଜଳବାୟୁ ନିୟନ୍ତ୍ରଣ କରନ୍ତି।"
+},
+{
+"questionEnglish": "What kind of land use change is depicted over time in developing areas according to the image illustrations?",
+"questionOdia": "ପାଠ୍ୟପୁସ୍ତକର ଚିତ୍ର ଅନୁସାରେ ସମୟକ୍ରମେ ଭୂ-ବ୍ୟବହାରରେ କେଉଁ ପ୍ରକାରର ପରିବର୍ତ୍ତନ ପରିଲକ୍ଷିତ ହୁଏ?",
+"options": [
+"ଗ୍ରାମୀଣ କୃଷିକ୍ଷେତ୍ରରୁ ସହରୀକରଣ ଓ ଅଟ୍ଟାଳିକା ନିର୍ମାଣ",
+"ସହରରୁ ଜଙ୍ଗଲ ସୃଷ୍ଟି",
+"କୃଷି ଭୂମିର ସଂପ୍ରସାରଣ",
+"ଶିଳ୍ପର ସମ୍ପୂର୍ଣ୍ଣ ବିନାଶ"
+],
+"answer": "ଗ୍ରାମୀଣ କୃଷିକ୍ଷେତ୍ରରୁ ସହରୀକରଣ ଓ ଅଟ୍ଟାଳିକା ନିର୍ମାଣ",
+"explanation": "ସମୟାନୁକ୍ରମେ ଜନସଂଖ୍ୟା ବୃଦ୍ଧି ସହ ଚାଷ ଜମି ହ୍ରାସ ପାଇ ସହର, ରାସ୍ତା ଓ ବଡ଼ ବଡ଼ ଅଟ୍ଟାଳିକା ଗଢ଼ିଉଠେ।"
+},
+{
+"questionEnglish": "Which state's top soil layer is thin, gravelly and has low moisture retention capability?",
+"questionOdia": "ପାହାଡ଼, ପର୍ବତ ଓ ମାଳଭୂମି ଅଞ୍ଚଳରେ ମୃତ୍ତିକାର ସ୍ତର ସାଧାରଣତଃ କିପରି ଥାଏ?",
+"options": [
+"ପତଳା ଓ ପଥୁରିଆ",
+"ଗଭୀର ଓ ପଟୁଯୁକ୍ତ",
+"କଳା ଓ ଚିକିଟା",
+"ଲବଣାକ୍ତ"
+],
+"answer": "ପତଳା ଓ ପଥୁରିଆ",
+"explanation": "ପାହାଡ଼ିଆ ଅଞ୍ଚଳରେ ମୃତ୍ତିକାର ଗଠନ ପ୍ରକ୍ରିୟା ଧୀମା ହୋଇଥିବାରୁ ଏହାର ଉପର ସ୍ତର ପତଳା ଓ ପଥୁରିଆ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What percentage of land in India was recorded as forest area during the early survey mentioned in the text?",
+"questionOdia": "ଭାରତର ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ପ୍ରାୟ କେତେ ଭାଗ ଅରଣ୍ୟ ଭୂମି ରୂପେ ଏହି ତଥ୍ୟରେ ଦର୍ଶାଯାଇଛି?",
+"options": [
+"୨୨.୫ ଭାଗ",
+"୩୩ ଭାଗ",
+"୪୩ ଭାଗ",
+"୨୭ ଭାଗ"
+],
+"answer": "୨୨.୫ ଭାଗ",
+"explanation": "ଦେଶର ଭୂ-ବ୍ୟବହାର ତଥ୍ୟ ଅନୁଯାୟୀ ସମୁଦାୟ ଜମିର ୨୨.୫ ପ୍ରତିଶତ ଅରଣ୍ୟ ଭୂମି ଅଟେ।"
+},
+{
+"questionEnglish": "What is the term used for land left uncultivated for a single agricultural year?",
+"questionOdia": "ଏକ ବର୍ଷ ବା ତା'ଠାରୁ କମ୍ ସମୟ ପାଇଁ ଚାଷ କରାଯାଇ ନଥିବା କୃଷି ଭୂମିକୁ କେଉଁ ସଂଜ୍ଞା ଦିଆଯାଇଛି?",
+"options": [
+"ଚଳିତ ଅନାବାଦୀ ଭୂମି",
+"ସ୍ଥାୟୀ ଚାରଣ ଭୂମି",
+"କୃଷି ଅନୁପଯୋଗୀ ଭୂମି",
+"ଅରଣ୍ୟ ଭୂମି"
+],
+"answer": "ଚଳିତ ଅନାବାଦୀ ଭୂମି",
+"explanation": "କୌଣସି ଜମିରେ ଏକ ଚାଷ ବର୍ଷ କିମ୍ବା ତା'ଠାରୁ କମ୍ ସମୟ ପାଇଁ ଚାଷ ନ କଲେ ତାହାକୁ ଚଳିତ ଅନାବାଦୀ ଭୂମି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which state among these has a very low net sown area under agriculture due to rugged mountainous terrain?",
+"questionOdia": "ବନ୍ଧୁର ପାର୍ବତ୍ୟ ଭୂମି ଯୋଗୁଁ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ରାଜ୍ୟରେ ପ୍ରକୃତ ଚାଷ ଭୂମିର ପରିମାଣ ଖୁବ୍ କମ୍?",
+"options": [
+"ମିଜୋରାମ",
+"ଉତ୍ତର ପ୍ରଦେଶ",
+"ପଞ୍ଜାବ",
+"ହରିଆଣା"
+],
+"answer": "ମିଜୋରାମ",
+"explanation": "ଉତ୍ତର-ପୂର୍ବ ପାର୍ବତ୍ୟ ରାଜ୍ୟ ଯଥା ମିଜୋରାମ ଓ ମଣିପୁରରେ ଭୂ-ପ୍ରକୃତି ଯୋଗୁଁ ପ୍ରକୃତ ଚାଷ ଭୂମି ମାତ୍ର ୧୦% ରୁ କମ୍ ଥାଏ।"
+},
+{
+"questionEnglish": "What measures can be taken to control land degradation in coastal and wind-prone areas?",
+"questionOdia": "ଉପକୂଳବର୍ତ୍ତୀ ଏବଂ ପ୍ରବଳ ପବନ ପ୍ରବାହିତ ଅଞ୍ଚଳରେ ଭୂ-କ୍ଷୟ ରୋକିବା ପାଇଁ କେଉଁ ପଦକ୍ଷେପ ନିଆଯାଏ?",
+"options": [
+"ଆଶ୍ରୟ ପ୍ରାଚୀର ବା ଶେଲ୍ଟର ବେଲ୍ଟ ସୃଷ୍ଟି (Shelter Belts)",
+"ଅଧିକ ଖଣି ଖନନ",
+"ପଶୁଚାରଣ ବୃଦ୍ଧି",
+"ରାସାୟନିକ ସାର ପ୍ରୟୋଗ"
+],
+"answer": "ଆଶ୍ରୟ ପ୍ରାଚୀର ବା ଶେଲ୍ଟର ବେଲ୍ଟ ସୃଷ୍ଟି (Shelter Belts)",
+"explanation": "ଧାଡ଼ି କରି ଗଛ ଲଗାଇ ଆଶ୍ରୟ ପ୍ରାଚୀର (Shelter Belts) ସୃଷ୍ଟି କଲେ ପବନର ବେଗ ହ୍ରାସ ପାଏ ଓ ମୃତ୍ତିକା କ୍ଷୟ କମିଯାଏ।"
+},
+{
+"questionEnglish": "Which mountain range in India forms a key part of its mountainous land resource ecosystem?",
+"questionOdia": "ଭାରତର ଭୂ-ସମ୍ବଳରେ ପାର୍ବତ୍ୟ ଭୂମିର ଏକ ପ୍ରମୁଖ ଉଦାହରଣ ଭାବେ କେଉଁ ପର୍ବତ ଶ୍ରେଣୀ ପାଠ୍ୟପୁସ୍ତକରେ ଉଲ୍ଲେଖ ଅଛି?",
+"options": [
+"ହିମାଳୟ ପର୍ବତମାଳା",
+"ଆରାବଳୀ",
+"ବିନ୍ଧ୍ୟ ପର୍ବତ",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ହିମାଳୟ, ବିନ୍ଧ୍ୟ, ଆରାବଳୀ, ପୂର୍ବଘାଟ ଓ ପଶ୍ଚିମଘାଟ ସମସ୍ତ ପାର୍ବତ୍ୟ ଭୂ-ସମ୍ବଳର ଗୁରୁତ୍ଵପୂର୍ଣ୍ଣ ଉଦାହରଣ।"
+},
+{
+"questionEnglish": "What percentage of the total area of land degradation in India is affected by wind action?",
+"questionOdia": "ଭାରତର ସମୁଦାୟ କ୍ଷୟପ୍ରାପ୍ତ ବା ଅବନତ ଭୂମିର କେତେ ଭାଗ ପବନ ଦ୍ଵାରା କ୍ଷୟପ୍ରାପ୍ତ ବା ମରୁଭୂମି ସଦୃଶ ଅଟେ?",
+"options": [
+"୧୦ ଭାଗ",
+"୨୮ ଭାଗ",
+"୫୬ ଭାଗ",
+"୪୩ ଭାଗ"
+],
+"answer": "୧୦ ଭାଗ",
+"explanation": "ଭାରତର କ୍ଷୟପ୍ରାପ୍ତ ଭୂମିର ପ୍ରାୟ ୧୦ ଶତକଡ଼ା ଭାଗ ପବନ ପ୍ରବାହ ଦ୍ଵାରା କ୍ଷୟପ୍ରାପ୍ତ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the major constraint to expanding pasture land in India?",
+"questionOdia": "ଭାରତରେ ସ୍ଥାୟୀ ଚାରଣ କିମ୍ବା ଗୋଚର ଭୂମିର ବିସ୍ତାର କରିବାରେ ମୁଖ୍ୟ ପ୍ରତିବନ୍ଧକ କଣ?",
+"options": [
+"କୃଷି ଓ ବାସଗୃହ ପାଇଁ ଜମିର ଅତ୍ୟଧିକ ଚାପ",
+"ପଶୁସଂଖ୍ୟାର ହ୍ରାସ",
+"ବର୍ଷା ଅଭାବ",
+"ସରକାରୀ ନିଷେଧାଦେଶ"
+],
+"answer": "କୃଷି ଓ ବାସଗୃହ ପାଇଁ ଜମିର ଅତ୍ୟଧିକ ଚାପ",
+"explanation": "ଜନସଂଖ୍ୟା ଓ ଖାଦ୍ୟର ଚାହିଦା ବଢ଼ୁଥିବାରୁ ସମସ୍ତ ଜମିକୁ ଚାଷ ଓ ବାସଗୃହରେ ଲଗାଯାଉଛି, ଯାହା ଗୋଚର ଭୂମି ବଢ଼ାଇବାକୁ ଦେଉନାହିଁ।"
+},
+{
+"questionEnglish": "Which region has the lowest concentration of forest covers in India below 20%?",
+"questionOdia": "ଭାରତର କେଉଁ କେଉଁ ଅଞ୍ଚଳରେ ଅରଣ୍ୟ ଭୂମିର ସୀମା ପ୍ରାୟ ୨୦ ରୁ ୪୦ ପ୍ରତିଶତ ମଧ୍ୟରେ ଥାଏ?",
+"options": [
+"କେରଳ, ତାମିଲନାଡୁ, ମହାରାଷ୍ଟ୍ର",
+"ଆଣ୍ଡାମାନ ଓ ନିକୋବର",
+"ମିଜୋରାମ ଓ ତ୍ରିପୁରା",
+"ପଞ୍ଜାବ ଓ ହରିଆଣା"
+],
+"answer": "କେରଳ, ତାମିଲନାଡୁ, ମହାରାଷ୍ଟ୍ର",
+"explanation": "ଗୋଆ, ତାମିଲନାଡୁ, କେରଳ, ମହାରାଷ୍ଟ୍ର ଭଳି ରାଜ୍ୟରେ ଜଙ୍ଗଲର ପରିମାଣ ପ୍ରାୟ ୨୦ ରୁ ୪୦ ପ୍ରତିଶତ ଭାଗ ମଧ୍ୟରେ ରହିଛି।"
+},
+{
+"questionEnglish": "What percentage of the geographical area of India was categorized as Net Sown Area in 2011-12?",
+"questionOdia": "୨୦୧୧-୧୨ ମସିହାର ତଥ୍ୟ ଅନୁସାରେ ଭାରତର ପ୍ରକୃତ ଚାଷ ଜମି ପ୍ରାୟ କେତେ ଶତକଡ଼ା ଭାଗ ଥିଲା?",
+"options": [
+"୪୬ ଭାଗ",
+"୩୨ ଭାଗ",
+"୫୫ ଭାଗ",
+"୨୨ ଭାଗ"
+],
+"answer": "୪୬ ଭାଗ",
+"explanation": "ବହିର ତଥ୍ୟ ଅନୁଯାୟୀ ୨୦୧୧-୧୨ ବେଳକୁ ଭାରତର ପ୍ରକୃତ ଚାଷ ଜମିର ପରିମାଣ ବଢ଼ି ପ୍ରାୟ ୪୬ ପ୍ରତିଶତ (୪୬.୨୪%) ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What is the primary objective of constructing check dams in hilly terrains?",
+"questionOdia": "ପାର୍ବତ୍ୟ ଅଞ୍ଚଳରେ ଛୋଟ ଛୋଟ ଚେକ୍ ଡ୍ୟାମ୍ ବା ପ୍ରତିବନ୍ଧକ ବନ୍ଧ ନିର୍ମାଣ କରିବାର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କଣ?",
+"options": [
+"ଜଳର ବେଗ କମାଇ ଭୂ-କ୍ଷୟ ରୋକିବା",
+"ମାଛ ଚାଷ କରିବା",
+"ଜଳ ବିଦ୍ୟୁତ ଉତ୍ପାଦନ",
+"ନୌକା ବିହାର ପ୍ରସାର"
+],
+"answer": "ଜଳର ବେଗ କମାଇ ଭୂ-କ୍ଷୟ ରୋକିବା",
+"explanation": "ଛୋଟ ବନ୍ଧ ବା ଚେକ୍ ଡ୍ୟାମ୍ ନିର୍ମାଣ କଲେ ବର୍ଷା ଜଳର ପ୍ରବାହ ବେଗ କମିଯାଏ, ଯାହା ଫଳରେ ମୃତ୍ତିକା କ୍ଷୟ ହ୍ରାସ ପାଏ।"
+},
+{
+"questionEnglish": "Which state possesses the Malwa Plateau as part of India's land resources?",
+"questionOdia": "ଭାରତର ମଧ୍ୟଭାଗରେ ଥିବା କେଉଁ ପ୍ରମୁଖ ମାଳଭୂମିଟି ଭୂ-ସମ୍ବଳର ଅଂଶ ଭାବରେ ପାଠ୍ୟପୁସ୍ତକରେ ବର୍ଣ୍ଣିତ?",
+"options": [
+"ମାଳବ ମାଳଭୂମି (Malwa Plateau)",
+"ଛୋଟନାଗପୁର ମାଳଭୂମି",
+"ଦାକ୍ଷିଣାତ୍ୟ ମାଳଭୂମି",
+"ରେଓ୍ବା ମାଳଭୂମି"
+],
+"answer": "ମାଳବ ମାଳଭୂମି (Malwa Plateau)",
+"explanation": "ମାଳବ ମାଳଭୂମି ଭାରତର ଏକ ଅନ୍ୟତମ ପ୍ରମୁଖ ମାଳଭୂମି ଅଞ୍ଚଳ ଅଟେ ଯାହା ପାଠ୍ୟପୁସ୍ତକର ମାଳଭୂମି ତାଲିକାରେ ଅଛି।"
+},
+{
+"questionEnglish": "What is the main environmental hazard caused by mining in land resources?",
+"questionOdia": "ଖଣିଜ ଉତ୍ତୋଳନ ପାଇଁ ଖନନ କାର୍ଯ୍ୟ କରିବା ଦ୍ଵାରା ଭୂମିର କେଉଁ ମୁଖ୍ୟ ପରିବେଶଗତ ସମସ୍ୟା ସୃଷ୍ଟି ହୁଏ?",
+"options": [
+"ଗଭୀର ଗର୍ତ୍ତ ସୃଷ୍ଟି ଓ ଜଙ୍ଗଲ ନଷ୍ଟ ହେବା",
+"ମୃତ୍ତିକାର ଉର୍ବରତା ବୃଦ୍ଧି",
+"ଭୂତଳ ଜଳ ସ୍ତର ବୃଦ୍ଧି",
+"ବାୟୁ ସମ୍ପୂର୍ଣ୍ଣ ସ୍ଵଚ୍ଛ ହେବା"
+],
+"answer": "ଗଭୀର ଗର୍ତ୍ତ ସୃଷ୍ଟି ଓ ଜଙ୍ଗଲ ନଷ୍ଟ ହେବା",
+"explanation": "ଖଣି ଖନନ ପରେ ସେହି ସ୍ଥାନଗୁଡ଼ିକୁ ଖୋଲା ଛାଡ଼ି ଦିଆଯାଏ ଏବଂ ଜଙ୍ଗଲ ସଫା କରାଯାଉଥିବାରୁ ବ୍ୟାପକ ଭୂ-ଅବନତି ଘଟେ।"
+},
+{
+"questionEnglish": "Which landform is best suited for establishing large scale manufacturing industries?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ଭୂ-ରୂପଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟି ବୃହତ ଶିଳ୍ପ କାରଖାନା ଓ ସହର ପ୍ରତିଷ୍ଠା ପାଇଁ ସବୁଠାରୁ ଅନୁକୂଳ?",
+"options": [
+"ସମତଳଭୂମି (Plains)",
+"ଉଚ୍ଚ ପାର୍ବତ୍ୟ ଭୂମି",
+"ବନ୍ଧୁର ପାହାଡ଼ିଆ ଅଞ୍ଚଳ",
+"ମରୁଭୂମି"
+],
+"answer": "ସମତଳଭୂମି (Plains)",
+"explanation": "ସମତଳ ଭୂମିରେ ପରିବହନ ଏବଂ ନିର୍ମାଣ କାର୍ଯ୍ୟ ସହଜ ହୋଇଥିବାରୁ ଏହା ଶିଳ୍ପ ଓ ଜନବସତି ପାଇଁ ସର୍ବୋତ୍ତମ ଅଟେ।"
+},
+{
+"questionEnglish": "What percentage of India's land resource is considered as non-agricultural land usage (like roads, rivers, buildings)?",
+"questionOdia": "କୃଷି କାର୍ଯ୍ୟ ହେଉ ନ ଥିବା ଅନ୍ୟାନ୍ୟ ଅଣ-କୃଷି ଭୂମିର ପରିମାଣ ଭାରତରେ ପ୍ରାୟ କେତେ ଶତକଡ଼ା?",
+"options": [
+"୨୪ ଭାଗ",
+"୪ ଭାଗ",
+"୪୬ ଭାଗ",
+"୩୩ ଭାଗ"
+],
+"answer": "୨୪ ଭାଗ",
+"explanation": "ଭାରତର ପ୍ରାୟ ୨୪ ଶତକଡ଼ା ଭୂମି କୃଷି ନିମନ୍ତେ ମିଳୁ ନ ଥିବା ଅଣ-କୃଷି ଭୂମି ଶ୍ରେଣୀଭୁକ୍ତ।"
+},
+{
+"questionEnglish": "What type of land is referred to as 'Cultivable Waste Land' (Krushiyogya Patita Bhumi)?",
+"questionOdia": "କୃଷିଯୋଗ୍ୟ ପତିତ ଭୂମି କହିଲେ ସାଧାରଣତଃ କେତେ ବର୍ଷ ଧରି ଚାଷ କରାଯାଇ ନ ଥିବା ଜମିକୁ ବୁଝାଏ?",
+"options": [
+"୫ ବର୍ଷରୁ ଅଧିକ ସମୟ",
+"୧ ବର୍ଷରୁ କମ୍ ସମୟ",
+"୨ ବର୍ଷରୁ କମ୍ ସମୟ",
+"କେବଳ ୬ ମାସ"
+],
+"answer": "୫ ବର୍ଷରୁ ଅଧିକ ସମୟ",
+"explanation": "ଯେଉଁ ଜମି ପାଞ୍ଚ ବର୍ଷ କିମ୍ବା ତା'ଠାରୁ ଅଧିକ ସମୟ ଧରି ବିନା ଚାଷରେ ପଡ଼ିରହେ, ତାହାକୁ କୃଷିଯୋଗ୍ୟ ପତିତ ଭୂମି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which state has a high agricultural land area but very less forest area?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ରାଜ୍ୟରେ ଅତ୍ୟଧିକ ଚାଷ ଜମି ଥିଲେ ମଧ୍ୟ ଜଙ୍ଗଲର ପରିମାଣ ଖୁବ୍ ଉଦ୍‌ବେଗଜନକ ଭାବେ କମ୍?",
+"options": [
+"ହରିଆଣା",
+"ଓଡ଼ିଶା",
+"ମିଜୋରାମ",
+"ଆଣ୍ଡାମାନ ଓ ନିକୋବର"
+],
+"answer": "ହରିଆଣା",
+"explanation": "ହରିଆଣା ଏବଂ ପଞ୍ଜାବରେ ସମୁଦାୟ ଭୂମିର ପ୍ରାୟ ୮୦% ଭାଗରେ ଚାଷ କରାଯାଉଥିବାରୁ ସେଠାରେ ଜଙ୍ଗଲ ୧୦% ରୁ ମଧ୍ୟ କମ୍ ରହିଛି।"
+},
+{
+"questionEnglish": "What type of land resources include the Himalayan glaciers and peaks?",
+"questionOdia": "ହିମାଳୟର ବରଫାବୃତ ଶୃଙ୍ଗ ଓ ହିମବାହଗୁଡ଼ିକ କେଉଁ ମୁଖ୍ୟ ଭୂ-ସମ୍ବଳ ଶ୍ରେଣୀର ଉଦାହରଣ ଅଟନ୍ତି?",
+"options": [
+"ପାର୍ବତ୍ୟ ଭୂମି (Mountain Land)",
+"ସମତଳ ଭୂମି",
+"ମାଳଭୂମି",
+"ଉପକୂଳ ମୈଦାନ"
+],
+"answer": "ପାର୍ବତ୍ୟ ଭୂମି (Mountain Land)",
+"explanation": "ହିମାଳୟର ସମସ୍ତ ଶୃଙ୍ଗ ଓ ଉଚ୍ଚ ପାହାଡ଼ିଆ ଅଞ୍ଚଳ ପାର୍ବତ୍ୟ ଭୂ-ସମ୍ବଳର ଅନ୍ତର୍ଗତ।"
+},
+{
+"questionEnglish": "How does controlled grazing help prevent land degradation?",
+"questionOdia": "ନିୟନ୍ତ୍ରିତ ପଶୁଚାରଣ କିପରି ଭୂ-ସମ୍ବଳର ସୁରକ୍ଷା ବା ଅବନତି ରୋକିବାରେ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ମୃତ୍ତିକାର ଉପର ସ୍ତର ନଷ୍ଟ ହେବାରୁ ରକ୍ଷା କରି",
+"ଘାସ ସମ୍ପୂର୍ଣ୍ଣ ଶେଷ କରି",
+"ଜଳର ପରିମାଣ ବୃଦ୍ଧି କରି",
+"କୀଟନାଶକ ବୃଦ୍ଧି କରି"
+],
+"answer": "ମୃତ୍ତିକାର ଉପର ସ୍ତର ନଷ୍ଟ ହେବାରୁ ରକ୍ଷା କରି",
+"explanation": "ପଶୁଚାରଣ ନିୟନ୍ତ୍ରିତ ହେଲେ ଘାସର ସ୍ତର ରହିଥାଏ ଯାହା ବର୍ଷା ଜଳରେ ମୃତ୍ତିକା କ୍ଷୟ ହେବାକୁ ଦିଏନାହିଁ।"
+},
+{
+"questionEnglish": "What percentage of the human population's food requirements is satisfied by land resources directly?",
+"questionOdia": "ମନୁଷ୍ୟ ସମାଜର ପ୍ରାୟ କେତେ ଭାଗ ଖାଦ୍ୟ ଚାହିଦା ପ୍ରତ୍ୟକ୍ଷ କିମ୍ବା ପରୋକ୍ଷ ଭାବେ ଭୂମିରୁ ହିଁ ମିଳିଥାଏ?",
+"options": [
+"୯୫ ପ୍ରତିଶତ",
+"୫୦ ପ୍ରତିଶତ",
+"୭୦ ପ୍ରତିଶତ",
+"୩୦ ପ୍ରତିଶତ"
+],
+"answer": "୯୫ ପ୍ରତିଶତ",
+"explanation": "ଖାଦ୍ୟ ଶସ୍ୟ, ଫଳମୂଳ, ପନିପରିବା ଆଦି ସମସ୍ତ ପ୍ରକାରର ଖାଦ୍ୟ ଭୂମିରୁ ହିଁ ଉତ୍ପାଦିତ ହୋଇଥାଏ, ଯାହା ମୋଟ ଆବଶ୍ୟକତାର ୯୫%। "
+},
+{
+"questionEnglish": "Which plateau is located in the southern part of India as a major landform?",
+"questionOdia": "ଭାରତର ଦକ୍ଷିଣ ଭାଗରେ ଅବସ୍ଥିତ ଥିବା ସବୁଠାରୁ ବୃହତ ମାଳଭୂମିର ନାମ କଣ?",
+"options": [
+"ଦାକ୍ଷିଣାତ୍ୟ ମାଳଭୂମି (Deccan Plateau)",
+"ଛୋଟନାଗପୁର ମାଳଭୂମି",
+"ମାଳବ ମାଳଭୂମି",
+"ରେଓ୍ବା ମାଳଭୂମି"
+],
+"answer": "ଦାକ୍ଷିଣାତ୍ୟ ମାଳଭୂମି (Deccan Plateau)",
+"explanation": "ଭାରତର ଦକ୍ଷିଣ ତ୍ରିଭୁଜାକାର ଅଞ୍ଚଳକୁ ଦାକ୍ଷିଣାତ୍ୟ ମାଳଭୂମି କୁହାଯାଏ, ଯାହା ଏକ ପ୍ରମୁଖ ଭୂ-ରୂପ।"
+},
+{
+"questionEnglish": "What is the primary factor determining land-use patterns in India?",
+"questionOdia": "ଭାରତରେ ଭୂ-ବ୍ୟବହାର ନିର୍ଦ୍ଧାରଣ କରିବାରେ କେଉଁ ଉପାଦାନଗୁଡ଼ିକ ଗୁରୁତ୍ଵପୂର୍ଣ୍ଣ ଭୂମିକା ଗ୍ରହଣ କରନ୍ତି?",
+"options": [
+"ଭୂ-ପ୍ରକୃତି, ମୃତ୍ତିକା ଏବଂ ଜଳବାୟୁ",
+"କେବଳ ଜନସଂଖ୍ୟା",
+"ରାଜନୈତିକ ସୀମା",
+"କେବଳ ଜଙ୍ଗଲର ଉପସ୍ଥିତି"
+],
+"answer": "ଭୂ-ପ୍ରକୃତି, ମୃତ୍ତିକା ଏବଂ ଜଳବାୟୁ",
+"explanation": "ଭୂମିର ପ୍ରକୃତି (ପାହାଡ଼, ସମତଳ), ମୃତ୍ତିକାର ଉର୍ବରତା ଏବଂ ଜଳବାୟୁର ଅନୁକୂଳତା ହିଁ ଭୂ-ବ୍ୟବହାର ସ୍ଥିର କରେ।"
+},
+{
+"questionEnglish": "Which state has a high proportion of land under forests, exceeding 70-80%?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳରେ ଜଙ୍ଗଲର ପରିମାଣ ସର୍ବାଧିକ ଅଟେ?",
+"options": [
+"ଆଣ୍ଡାମାନ ଓ ନିକୋବର",
+"ଦିଲ୍ଲୀ",
+"ଚଣ୍ଡୀଗଡ଼",
+"ପୁଦୁଚେରୀ"
+],
+"answer": "ଆଣ୍ଡାମାନ ଓ ନିକୋବର",
+"explanation": "ଆଣ୍ଡାମାନ ଓ ନିକୋବର ଦ୍ଵୀପପୁଞ୍ଜରେ ଦେଶର ଅନ୍ୟ ଅଞ୍ଚଳ ତୁଳନାରେ ସର୍ବାଧିକ (ପ୍ରାୟ ୮୦%) ଭୂମି ଅରଣ୍ୟାବୃତ।"
+},
+{
+"questionEnglish": "What environmental management practice involves rows of trees planted to check wind movement?",
+"questionOdia": "ମରୁଭୂମି ଓ ଉପକୂଳ ଅଞ୍ଚଳରେ ପବନର ବେଗ କମାଇବା ପାଇଁ ଧାଡ଼ି ଧାଡ଼ି କରି ଗଛ ଲଗାଇବାକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ଆଶ୍ରୟ ପ୍ରାଚୀର (Shelter Belts)",
+"ସୋପାନ ଚାଷ",
+"ପଶୁଚାରଣ ଭୂମି",
+"ଝୁମ୍ ଚାଷ"
+],
+"answer": "ଆଶ୍ରୟ ପ୍ରାଚୀର (Shelter Belts)",
+"explanation": "ପବନର ପ୍ରବାହ ଦିଗରେ ଲମ୍ବା ଧାଡ଼ିରେ ବୃକ୍ଷରୋପଣ କଲେ ତାହାକୁ ଆଶ୍ରୟ ପ୍ରାଚୀର କୁହାଯାଏ, ଯାହା ମୃତ୍ତିକା ସୁରକ୍ଷା କରେ।"
+},
+{
+"questionEnglish": "How does industrial effluents treatment help in conserving land resources?",
+"questionOdia": "ଶିଳ୍ପରୁ ନିର୍ଗତ ଦୂଷିତ ଜଳର ସଂଶୋଧନ କଲେ ଭୂ-ସମ୍ବଳର କେଉଁ ସୁଫଳ ମିଳିଥାଏ?",
+"options": [
+"ଭୂମି ଓ ମୃତ୍ତିକା ପ୍ରଦୂଷଣ ହ୍ରାସ ପାଏ",
+"ଚାଷ ଜମି ନଷ୍ଟ ହୁଏ",
+"ଖଣିଜ ଦ୍ରବ୍ୟ ବୃଦ୍ଧି ପାଏ",
+"ଜଙ୍ଗଲ ସମ୍ପୂର୍ଣ୍ଣ ଧ୍ଵଂସ ହୁଏ"
+],
+"answer": "ଭୂମି ଓ ମୃତ୍ତିକା ପ୍ରଦୂଷଣ ହ୍ରାସ ପାଏ",
+"explanation": "ଦୂଷିତ ଆବର୍ଜନା ଓ କେମିକାଲ୍ସ ଜଳକୁ ଶୋଧନ କରି ବାହାରକୁ ଛାଡ଼ିଲେ ମୃତ୍ତିକା ପ୍ରଦୂଷିତ ହେବାରୁ ରକ୍ଷା ପାଏ।"
+},
+{
+"questionEnglish": "What kind of lands are categorised under 'Other Fallow Land'?",
+"questionOdia": "ଅନ୍ୟାନ୍ୟ ଅନାବାଦୀ ବା ପତିତ ଭୂମି କହିଲେ ସାଧାରଣତଃ କେତେ ସମୟ ପାଇଁ ପଡ଼ିରହିଥିବା ଜମିକୁ ବୁଝାଏ?",
+"options": [
+"୧ ରୁ ୫ ବର୍ଷ ପର୍ଯ୍ୟନ୍ତ ଚାଷ ହୋଇନଥିବା ଜମି",
+"୫ ବର୍ଷରୁ ଅଧିକ ସମୟ ପାଇଁ ଚାଷ ହୋଇନଥିବା ଜମି",
+"କେବଳ ୧ ମାସ ପାଇଁ",
+"୧୦ ବର୍ଷରୁ ଅଧିକ"
+],
+"answer": "୧ ରୁ ୫ ବର୍ଷ ପର୍ଯ୍ୟନ୍ତ ଚାଷ ହୋଇନଥିବା ଜମି",
+"explanation": "୧ ବର୍ଷରୁ ଅଧିକ କିନ୍ତୁ ୫ ବର୍ଷରୁ କମ୍ ସମୟ ପାଇଁ ଅନାବାଦୀ ହୋଇ ପଡ଼ିଥିବା ଭୂମିକୁ ଅନ୍ୟାନ୍ୟ ଅନାବାଦୀ ଭୂମି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which historical region in India contains the Vindhya mountain range as mentioned in the geography lesson?",
+"questionOdia": "ଭାରତର କେଉଁ ଭୂମି ଅଞ୍ଚଳରେ ପ୍ରସିଦ୍ଧ ବିନ୍ଧ୍ୟ ପର୍ବତ ଶ୍ରେଣୀ ଅବସ୍ଥିତ ଯାହା ଏକ ପ୍ରମୁଖ ପାର୍ବତ୍ୟ ଭୂ-ସମ୍ବଳ?",
+"options": [
+"ମଧ୍ୟ ଭାରତ ଅଞ୍ଚଳ",
+"ଦକ୍ଷିଣ ଭାରତ ଉପକୂଳ",
+"ଉତ୍ତର-ପୂର୍ବ ପାର୍ବତ୍ୟ ଅଞ୍ଚଳ",
+"ଥର୍ ମରୁଭୂମି"
+],
+"answer": "ମଧ୍ୟ ଭାରତ ଅଞ୍ଚଳ",
+"explanation": "ବିନ୍ଧ୍ୟ ପର୍ବତମାଳା ମୁଖ୍ୟତଃ ମଧ୍ୟ ଭାରତରେ ଅବସ୍ଥିତ, ଯାହା ଉତ୍ତର ଓ ଦକ୍ଷିଣ ଭାରତକୁ ପୃଥକ କରେ।"
+},
+{
+"questionEnglish": "What percentage of India's land resource is utilized for regular crop cultivation?",
+"questionOdia": "ଭାରତରେ ପ୍ରକୃତରେ ଫସଲ ଉତ୍ପାଦନ ପାଇଁ ସମୁଦାୟ ଭୂମିର ପ୍ରାୟ କେତେ ପ୍ରତିଶତ ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"୪୬.୨୪ ଭାଗ",
+"୨୨.୫ ଭାଗ",
+"୩୦ ଭାଗ",
+"୪ ଭାଗ"
+],
+"answer": "୪୬.୨୪ ଭାଗ",
+"explanation": "ଭାରତର ସମୁଦାୟ ଭୂମିର ପ୍ରାୟ ୪୬.୨୪ ପ୍ରତିଶତ ଅଞ୍ଚଳରେ ନିୟମିତ ଚାଷ ବା ଫସଲ ଉତ୍ପାଦନ କରାଯାଏ (Net Sown Area)।"
+},
+{
+"questionEnglish": "Which method is specifically useful for reclaiming sand dunes in arid zones?",
+"questionOdia": "ମରୁଭୂମି ଅଞ୍ଚଳରେ ବାଲୁକା ସ୍ତୁପର ସ୍ଥିରୀକରଣ ବା ଭୂ-କ୍ଷୟ ରୋକିବା ପାଇଁ କେଉଁ ପ୍ରକାରର ଚାଷ କିମ୍ବା ଉଦ୍ଭିଦ ରୋପଣ କରାଯାଏ?",
+"options": [
+"କଣ୍ଟାଜାତୀୟ ବୁଦାଳିଆ ଗଛ ରୋପଣ",
+"ଧାନ ଚାଷ",
+"ବ୍ୟାପକ ଜଳସେଚନ",
+"କାଳିମାଟି ପ୍ରୟୋଗ"
+],
+"answer": "କଣ୍ଟାଜାତୀୟ ବୁଦାଳିଆ ଗଛ ରୋପଣ",
+"explanation": "ମରୁଭୂମିରେ କଣ୍ଟାଜାତୀୟ ଗଛ ବଢ଼ିପାରନ୍ତି, ଏଗୁଡ଼ିକର ଚେର ବାଲିକୁ ଉଡ଼ିଯିବାରୁ ରକ୍ଷା କରେ।"
+},
+{
+"questionEnglish": "What environmental body recommended the 33% forest cover target for countries?",
+"questionOdia": "ଭାରତରେ ୩୩ ପ୍ରତିଶତ ଜଙ୍ଗଲ ରହିବା ଆବଶ୍ୟକ ବୋଲି ପ୍ରଥମେ କେଉଁ ଜାତୀୟ ନୀତି ପ୍ରଣୟନ କରାଯାଇଥିଲା?",
+"options": [
+"ଜାତୀୟ ଅରଣ୍ୟ ନୀତି (National Forest Policy)",
+"ଜାତୀୟ କୃଷି ନୀତି",
+"ଭୂ-ସଂରକ୍ଷଣ ଯୋଜନା",
+"ପରିବେଶ ସୁରକ୍ଷା ଆକ୍ଟ"
+],
+"answer": "ଜାତୀୟ ଅରଣ୍ୟ ନୀତି (National Forest Policy)",
+"explanation": "ଜାତୀୟ ଅରଣ୍ୟ ନୀତି ଦ୍ଵାରା ଦେଶର ସନ୍ତୁଳନ ରକ୍ଷା ପାଇଁ ୩୩% ଜଙ୍ଗଲ ରହିବାର ମାନଦଣ୍ଡ ସ୍ଥିର ହୋଇଛି।"
+},
+{
+"questionEnglish": "What constitutes the total 'Agricultural Land' area according to broad classifications?",
+"questionOdia": "ସମୁଦାୟ କୃଷିକ୍ଷେତ୍ର ବା କୃଷିଯୋଗ୍ୟ ଭୂମି ମଧ୍ୟରେ କେଉଁସବୁ ଭୂମି ଅନ୍ତର୍ଗତ ହୋଇଥାଏ?",
+"options": [
+"ପ୍ରକୃତ ଚାଷ ଭୂମି, ଚଳିତ ଅନାବାଦୀ ଓ ପତିତ ଭୂମି",
+"କେବଳ ଅରଣ୍ୟ ଭୂମି",
+"କେବଳ ପଥୁରିଆ ଜମି",
+"ସହର ଓ ରାସ୍ତାଘାଟ"
+],
+"answer": "ପ୍ରକୃତ ଚାଷ ଭୂମି, ଚଳିତ ଅନାବାଦୀ ଓ ପତିତ ଭୂମି",
+"explanation": "ପ୍ରକୃତ ଚାଷ ଜମି ସହିତ ପତିତ ଜମି ଓ ଚଳିତ ଅନାବାଦୀ ଜମିକୁ ମିଶାଇ ମୋଟ ଚାଷୋପଯୋଗୀ ଭୂମି ହିସାବ କରାଯାଏ।"
+},
+{
+"questionEnglish": "Which state has a high population pressure resulting in lower per capita land availability?",
+"questionOdia": "ଅତ୍ୟଧିକ ଜନସଂଖ୍ୟା ଯୋଗୁଁ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ରାଜ୍ୟରେ ମୁଣ୍ଡପିଛା ଜମିର ପରିମାଣ ସର୍ବନିମ୍ନ ସ୍ତରରେ ରହିଛି?",
+"options": [
+"ବିହାର (Bihar)",
+"ଓଡ଼ିଶା",
+"ମଧ୍ୟପ୍ରଦେଶ",
+"ରାଜସ୍ଥାନ"
+],
+"answer": "ବିହାର (Bihar)",
+"explanation": "ବିହାରର କ୍ଷେତ୍ରଫଳ ତୁଳନାରେ ଜନସଂଖ୍ୟା ବହୁତ ଅଧିକ ଥିବାରୁ ଏଠାରେ ମୁଣ୍ଡପିଛା ଜମି ସବୁଠାରୁ କମ୍ (୦.୧୩ ହେକ୍ଟର)।"
+},
+{
+"questionEnglish": "What kind of landscape forms the 'Chota Nagpur' region as a land resource?",
+"questionOdia": "ଛୋଟନାଗପୁର ଅଞ୍ଚଳଟି ମୁଖ୍ୟତଃ କେଉଁ ପ୍ରକାରର ପ୍ରାକୃତିକ ଭୂ-ସମ୍ବଳ ଶ୍ରେଣୀର ଅଟେ?",
+"options": [
+"ମାଳଭୂମି (Plateau)",
+"ପାର୍ବତ୍ୟ ମାଳା",
+"ସମତଳ ମୈଦାନ",
+"ଦ୍ଵୀପପୁଞ୍ଜ"
+],
+"answer": "ମାଳଭୂମି (Plateau)",
+"explanation": "ଛୋଟନାଗପୁର ହେଉଛି ଭାରତର ସବୁଠାରୁ ପ୍ରସିଦ୍ଧ ଓ ଖଣିଜ ସମୃଦ୍ଧ ମାଳଭୂମି।"
+},
+{
+"questionEnglish": "How does the construction of roads and railways affect nearby forest land ecosystems?",
+"questionOdia": "ରାସ୍ତାଘାଟ ଓ ରେଳପଥ ନିର୍ମାଣ ଦ୍ଵାରା ଅରଣ୍ୟ ଭୂମି ଉପରେ କଣ କୁପ୍ରଭାବ ପଡ଼ିଥାଏ?",
+"options": [
+"ଅରଣ୍ୟର ବିଖଣ୍ଡନ ଓ କ୍ଷୟ ଘଟେ",
+"ଜଙ୍ଗଲର ପରିମାଣ ବୃଦ୍ଧି ପାଏ",
+"ବନ୍ୟଜନ୍ତୁ ସଂଖ୍ୟା ବଢ଼େ",
+"ମୃତ୍ତିକା ଅଧିକ ଉର୍ବର ହୁଏ"
+],
+"answer": "ଅରଣ୍ୟର ବିଖଣ୍ଡନ ଓ କ୍ଷୟ ଘଟେ",
+"explanation": "ପରିବହନ ମାର୍ଗ ଜଙ୍ଗଲ ଦେଇ ଗଲେ ଗଛ କଟାଯାଏ, ଯାହା ଜଙ୍ଗଲ ସମ୍ପଦର କ୍ଷୟ ଘଟାଏ।"
+},
+{
+"questionEnglish": "Which factor is a major anthropological cause of land degradation across central India?",
+"questionOdia": "ମଧ୍ୟ ଭାରତରେ ଜଙ୍ଗଲ ନଷ୍ଟ ହେବା ଏବଂ ଭୂ-ଅବନତି ଘଟିବାର ସବୁଠାରୁ ବଡ଼ ମାନବୀୟ କାରଣ କଣ?",
+"options": [
+"ଖଣି ଖନନ କାର୍ଯ୍ୟ (Mining activities)",
+"ଅତ୍ୟଧିକ ବୃଷ୍ଟିପାତ",
+"ଭୂମିକମ୍ପ",
+"ସାମୁଦ୍ରିକ ଜୁଆର"
+],
+"answer": "ଖଣି ଖନନ କାର୍ଯ୍ୟ (Mining activities)",
+"explanation": "ଓଡ଼ିଶା, ଝାଡ଼ଖଣ୍ଡ, ମଧ୍ୟପ୍ରଦେଶ ଆଦି ଅଞ୍ଚଳରେ ଖଣି ଖନନ ଯୋଗୁଁ ବହୁ ଜଙ୍ଗଲ ଜମି ନଷ୍ଟ ହେଉଛି।"
+},
+{
+"questionEnglish": "What percentage of the earth's continental area constitutes India's geographical area?",
+"questionOdia": "ପୃଥିବୀର ସମୁଦାୟ ସ୍ଥଳଭାଗ ମଧ୍ୟରୁ ଭାରତର କ୍ଷେତ୍ରଫଳ ପ୍ରାୟ କେତେ ପ୍ରତିଶତ ଅଟେ?",
+"options": [
+"୨.୪ ପ୍ରତିଶତ",
+"୪.୩ ପ୍ରତିଶତ",
+"୧୧ ପ୍ରତିଶତ",
+"୭ ପ୍ରତିଶତ"
+],
+"answer": "୨.୪ ପ୍ରତିଶତ",
+"explanation": "ଭାରତର ସମୁଦାୟ ଆୟତନ ପୃଥିବୀର ମୋଟ ସ୍ଥଳଭାଗର ପ୍ରାୟ ୨.୪ ପ୍ରତିଶତ ଅଟେ।"
+},
+{
+"questionEnglish": "Which sector among the following contributes most to the conversion of agricultural land to non-agricultural land?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ କାରଣ ଯୋଗୁଁ ଚାଷ ଜମି ଦ୍ରୁତ ଗତିରେ ଅଣ-ଚାଷ ଜମିରେ ପରିଣତ ହେଉଛି?",
+"options": [
+"ଶିଳ୍ପାୟନ ଓ ସହରୀକରଣ (Industrialization and Urbanization)",
+"ବୃକ୍ଷରୋପଣ ଯୋଜନା",
+"ପଶୁଚାରଣ ବୃଦ୍ଧି",
+"ଜଳସେଚନ ହ୍ରାସ"
+],
+"answer": "ଶିଳ୍ପାୟନ ଓ ସହରୀକରଣ (Industrialization and Urbanization)",
+"explanation": "ସହରର ବିସ୍ତାର, ଘର ନିର୍ମାଣ ଓ କାରଖାନା ସ୍ଥାପନ ପାଇଁ ଉର୍ବର ଚାଷ ଜମିକୁ ବ୍ୟବହାର କରାଯାଉଛି।"
+},
+{
+"questionEnglish": "What is the common term used for soil erosion caused by fast-flowing rainwater forming deep channels?",
+"questionOdia": "ପ୍ରବଳ ବର୍ଷା ଜଳ ପ୍ରବାହ ଦ୍ଵାରା ମୃତ୍ତିକାରେ ଗଭୀର ନାଳ ସୃଷ୍ଟି ହୋଇ ଭୂ-କ୍ଷୟ ହେବାକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ନାଳୀ କ୍ଷୟ ବା ଗଲି କ୍ଷୟ (Gully Erosion)",
+"ସ୍ତର କ୍ଷୟ",
+"ବାୟୁ କ୍ଷୟ",
+"ଉପକୂଳ କ୍ଷୟ"
+],
+"answer": "ନାଳୀ କ୍ଷୟ ବା ଗଲି କ୍ଷୟ (Gully Erosion)",
+"explanation": "ତୀବ୍ର ଜଳ ପ୍ରବାହ ଯୋଗୁଁ ମାଟି ଖୋଲି ହୋଇ ବଡ଼ ବଡ଼ ନାଳ ସୃଷ୍ଟି ହେଲେ ତାହାକୁ ଗଲି ବା ନାଳୀ କ୍ଷୟ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which state has the lowest proportion of forest area due to intensive agriculture?",
+"questionOdia": "ଅତ୍ୟଧିକ କୃଷି ପ୍ରସାର ଯୋଗୁଁ ଭାରତର କେଉଁ ରାଜ୍ୟରେ ଜଙ୍ଗଲ ସବୁଠାରୁ କମ୍ ପରିମାଣରେ ଅଛି?",
+"options": [
+"ପଞ୍ଜାବ (Punjab)",
+"ଅସମ",
+"ଓଡ଼ିଶା",
+"ମଧ୍ୟପ୍ରଦେଶ"
+],
+"answer": "ପଞ୍ଜାବ (Punjab)",
+"explanation": "ପଞ୍ଜାବରେ ପ୍ରାୟ ସମସ୍ତ ଭୂମି ଚାଷ ପାଇଁ ବ୍ୟବହୃତ ହେଉଥିବାରୁ ଜଙ୍ଗଲ ଜମି ନାହିଁ କହିଲେ ଚଳେ।"
+},
+{
+"questionEnglish": "What is the status of land left uncultivated for 3 years?",
+"questionOdia": "୩ ବର୍ଷ ଧରି ଚାଷ କରାଯାଇ ନଥିବା ଏକ ଜମିକୁ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଶ୍ରେଣୀଭୁକ୍ତ କରାଯିବ?",
+"options": [
+"ଅନ୍ୟାନ୍ୟ ଚଳିତ ଅନାବାଦୀ ଭୂମି",
+"ଚଳିତ ଅନାବାଦୀ ଭୂମି",
+"ପ୍ରକୃତ ଚାଷ ଭୂମି",
+"ସ୍ଥାୟୀ ଚାରଣ ଭୂମି"
+],
+"answer": "ଅନ୍ୟାନ୍ୟ ଚଳିତ ଅନାବାଦୀ ଭୂମି",
+"explanation": "୧ ରୁ ୫ ବର୍ଷ ପର୍ଯ୍ୟନ୍ତ ବିନା ଚାଷରେ ପଡ଼ିଥିବା ଭୂମି ଅନ୍ୟାନ୍ୟ ଚଳିତ ଅନାବାଦୀ ଭୂମି ଶ୍ରେଣୀର ଅଟେ।"
+},
+{
+"questionEnglish": "Which is the longest mountain range in southern India contributing to land topography?",
+"questionOdia": "ଦକ୍ଷିଣ ଭାରତର ପଶ୍ଚିମ ଉପକୂଳରେ ଲମ୍ବିଥିବା ପ୍ରମୁଖ ପାର୍ବତ୍ୟ ଭୂ-ସମ୍ବଳର ନାମ କଣ?",
+"options": [
+"ପଶ୍ଚିମଘାଟ ପର୍ବତମାଳା (Western Ghats)",
+"ପୂର୍ବଘାଟ ପର୍ବତମାଳା",
+"ଆରାବଳୀ",
+"ସାତପୁରା"
+],
+"answer": "ପଶ୍ଚିମଘାଟ ପର୍ବତମାଳା (Western Ghats)",
+"explanation": "ପଶ୍ଚିମଘାଟ ପର୍ବତମାଳା ଭାରତର ଏକ ଗୁରୁତ୍ଵପୂର୍ଣ୍ଣ ପାର୍ବତ୍ୟ ଭୂ-ସମ୍ବଳ ଯାହା ପଶ୍ଚିମ ଉପକୂଳରେ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "What percentage of degraded land in India is classified as saline and alkaline land?",
+"questionOdia": "ଭାରତର ସମୁଦାୟ ଅବନତ ଭୂମିର ପ୍ରାୟ କେତେ ପ୍ରତିଶତ ଭୂମି ଲବଣାକ୍ତ ଓ କ୍ଷାରୀୟ ଦୋଷଯୁକ୍ତ?",
+"options": [
+"୬ ଭାଗ",
+"୨୮ ଭାଗ",
+"୫୬ ଭାଗ",
+"୧୦ ଭାଗ"
+],
+"answer": "୬ ଭାଗ",
+"explanation": "ଭାରତର କ୍ଷୟପ୍ରାପ୍ତ ବା ଅବନତ ଭୂମିର ପ୍ରାୟ ୬ ପ୍ରତିଶତ ଭାଗ ଜମିରେ ଲବଣାକ୍ତତା ଓ କ୍ଷାରୀୟତା ଦେଖାଯାଏ।"
+},
+{
+"questionEnglish": "Which mineral extraction dust heavily affects Rajasthan's land quality through cement-like hard layers?",
+"questionOdia": "ରାଜସ୍ଥାନରେ କେଉଁ ପଥର ଗୁଣ୍ଡ ଯୋଗୁଁ ମାଟି ଉପରେ ଏକ ଶକ୍ତ ସ୍ତର ଜମିଯାଏ ଏବଂ ଭୂମି ଅବନତି ଘଟେ?",
+"options": [
+"ଖଡ଼ିପଥର ଓ ଚୂନପଥର (Limestone and Soapstone)",
+"କୋଇଲା ଗୁଣ୍ଡ",
+"ଲୌହ ଗୁଣ୍ଡ",
+"ପଟୁ ମାଟି"
+],
+"answer": "ଖଡ଼ିପଥର ଓ ଚୂନପଥର (Limestone and Soapstone)",
+"explanation": "ରାଜସ୍ଥାନରେ ଖଡ଼ିପଥର (Soapstone) ଏବଂ ଚୂନପଥର ଗୁଣ୍ଡ ବାୟୁରେ ଉଡ଼ି ଜମିରେ ପଡ଼ିବା ଫଳରେ ମାଟିର ଜଳ ଶୋଷଣ କ୍ଷମତା ନଷ୍ଟ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the primary usage of Net Sown Area in any country?",
+"questionOdia": "ପ୍ରକୃତ ଚାଷ ଭୂମି (Net Sown Area) କହିଲେ ମୁଖ୍ୟତଃ କେଉଁ କାର୍ଯ୍ୟ ପାଇଁ ଉଦ୍ଦିଷ୍ଟ ଜମିକୁ ବୁଝାଏ?",
+"options": [
+"ଫସଲ ଉତ୍ପାଦନ ପାଇଁ (Crop production)",
+"ଜଙ୍ଗଲ ସୃଷ୍ଟି ପାଇଁ",
+"ଖେଳପଡ଼ିଆ ପାଇଁ",
+"କାରଖାନା ନିର୍ମାଣ ପାଇଁ"
+],
+"answer": "ଫସଲ ଉତ୍ପାଦନ ପାଇଁ (Crop production)",
+"explanation": "ଯେଉଁ ଜମିରେ ପ୍ରତ୍ୟକ୍ଷ ଭାବେ ବର୍ଷସାରା ବିଭିନ୍ନ ପ୍ରକାର ଫସଲ ଚାଷ କରାଯାଏ, ତାହା ପ୍ରକୃତ ଚାଷ ଭୂମି।"
+},
+{
+"questionEnglish": "Which plateau region forms the base of central India's mineral repository?",
+"questionOdia": "ଭାରତର କେଉଁ କେନ୍ଦ୍ରୀୟ ମାଳଭୂମି ଅଞ୍ଚଳକୁ ଖଣିଜ ସମ୍ପଦର ଏକ ମୁଖ୍ୟ ଭଣ୍ଡାର ଭାବେ ଗଣନା କରାଯାଏ?",
+"options": [
+"ଛୋଟନାଗପୁର ମାଳଭୂମି",
+"ଦାକ୍ଷିଣାତ୍ୟ ମାଳଭୂମି",
+"ମାଳବ ମାଳଭୂମି",
+"ରେଓ୍ବା ମାଳଭୂମି"
+],
+"answer": "ଛୋଟନାଗପୁର ମାଳଭୂମି",
+"explanation": "ଛୋଟନାଗପୁର ମାଳଭୂମିକୁ ଭାରତର 'ଖଣିଜ ହୃଦୟ' କୁହାଯାଏ, ଏଠାରେ ପ୍ରଚୁର ଲୁହା, କୋଇଲା ମିଳେ।"
+},
+{
+"questionEnglish": "How does strip cropping (Fasala P पट्टी Chasa) prevent wind erosion on open lands?",
+"questionOdia": "ପଟି କୃଷି ବା ଷ୍ଟ୍ରିପ୍ କ୍ରପିଂ (Strip Cropping) ଦ୍ଵାରା କିପରି ଭୂ-କ୍ଷୟ ରୋକାଯାଇପାରେ?",
+"options": [
+"ଫସଲ ମଧ୍ୟରେ ଘାସର ପଟି ରଖି ପବନର ବେଗ କମାଇବା ଦ୍ଵାରା",
+"ଅଧିକ କୀଟନାଶକ ପ୍ରୟୋଗ କରି",
+"ଜମିକୁ ସମ୍ପୂର୍ଣ୍ଣ ଖୋଲା ଛାଡ଼ି",
+"କେବଳ ଗୋଟିଏ ଫସଲ କରି"
+],
+"answer": "ଫସଲ ମଧ୍ୟରେ ଘାସର ପଟି ରଖି ପବନର ବେଗ କମାଇବା ଦ୍ଵାରା",
+"explanation": "ବଡ଼ ଚାଷ ଜମିରେ ଫସଲ ଧାଡ଼ି ମଝିରେ ସରୁ ଘାସର ପଟି ଛାଡ଼ି ଦିଆଯାଏ, ଯାହା ପବନର ବେଗକୁ ବାଧା ଦିଏ।"
+},
+{
+"questionEnglish": "Which state has a high percentage of mountainous terrain limiting agriculture?",
+"questionOdia": "ବନ୍ଧୁର ଭୂମି ଏବଂ ପାହାଡ଼ ପର୍ବତ ଯୋଗୁଁ ଭାରତର କେଉଁ ରାଜ୍ୟରେ କୃଷିକାର୍ଯ୍ୟ କରିବା ଅତ୍ୟନ୍ତ କଷ୍ଟକର?",
+"options": [
+"ଅରୁଣାଚଳ ପ୍ରଦେଶ (Arunachal Pradesh)",
+"ଉତ୍ତର ପ୍ରଦେଶ",
+"ପଶ୍ଚିମବଙ୍ଗ",
+"ପଞ୍ଜାବ"
+],
+"answer": "ଅରୁଣାଚଳ ପ୍ରଦେଶ (Arunachal Pradesh)",
+"explanation": "ଅରୁଣାଚଳ ପ୍ରଦେଶ ଏକ ସମ୍ପୂର୍ଣ୍ଣ ପାର୍ବତ୍ୟ ରାଜ୍ୟ ହୋଇଥିବାରୁ ଏଠାରେ ଚାଷୋପଯୋଗୀ ଭୂମିର ପରିମାଣ ଖୁବ୍ କମ୍ ଥାଏ।"
+},
+{
+"questionEnglish": "What type of forest provides environmental stability and checking of desertification?",
+"questionOdia": "ପାରିସ୍ଥିତିକ ସନ୍ତୁଳନ ଏବଂ ମରୁଭୂମିର ପ୍ରସାର ରୋକିବାରେ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କାହାର ଭୂମିକା ସବୁଠାରୁ ଗୁରୁତ୍ଵପୂର୍ଣ୍ଣ?",
+"options": [
+"ପ୍ରାକୃତିକ ଅରଣ୍ୟ (Natural Forests)",
+"କୃଷି କ୍ଷେତ୍ର",
+"ସହରୀକରଣ",
+"ଶିଳ୍ପାଞ୍ଚଳ"
+],
+"answer": "ପ୍ରାକୃତିକ ଅରଣ୍ୟ (Natural Forests)",
+"explanation": "ଅରଣ୍ୟ ପରିବେଶକୁ ସୁରକ୍ଷିତ ରଖେ, ବୃଷ୍ଟିପାତ କରାଏ ଏବଂ ମରୁଭୂମିର ବାଲିକୁ ଉଡ଼ିଯିବାରେ ବାଧା ଦିଏ।"
+},
+{
+"questionEnglish": "What percentage of the population in India was traditionally dependent on agriculture directly or indirectly?",
+"questionOdia": "ଭାରତରେ ଭୂମି ଉପରେ କୃଷିକାର୍ଯ୍ୟ ପାଇଁ ପ୍ରତ୍ୟକ୍ଷ ବା ପରୋକ୍ଷ ଭାବେ କେତେ ଶତକଡ଼ା ଲୋକ ନିର୍ଭର କରନ୍ତି?",
+"options": [
+"ପ୍ରାୟ ୫୫-୬୦ ଭାଗ",
+"୨୦ ଭାଗ",
+"୧୦ ଭାଗ",
+"୮୦ ଭାଗ"
+],
+"answer": "ପ୍ରାୟ ୫୫-୬୦ ଭାଗ",
+"explanation": "ଭାରତ ଏକ କୃଷିପ୍ରଧାନ ଦେଶ ହୋଇଥିବାରୁ ଏହାର ଅଧିକାଂଶ ଲୋକ ଜୀବିକା ପାଇଁ କୃଷି ଭୂମି ଉପରେ ନିର୍ଭରଶୀଳ।"
+},
+{
+"questionEnglish": "Which valley region consists of highly fertile alluvial land resources in eastern India?",
+"questionOdia": "ଭାରତର ପୂର୍ବ ଭାଗରେ ଥିବା କେଉଁ ନଦୀର ସମତଳ ଉପତ୍ୟକାଟି ଅତ୍ୟନ୍ତ ଉର୍ବର ଚାଷ ଜମିର ଉଦ୍ଦାହରଣ?",
+"options": [
+"ମହାନଦୀ ଓ ଗଙ୍ଗା ଉପତ୍ୟକା",
+"ନର୍ମଦା ଉପତ୍ୟକା",
+"ତାପ୍ତୀ ଉପତ୍ୟକା",
+"ଲୁନୀ ଉପତ୍ୟକା"
+],
+"answer": "ମହାନଦୀ ଓ ଗଙ୍ଗା ଉପତ୍ୟକା",
+"explanation": "ମହାନଦୀ, ଗଙ୍ଗା ଓ ବ୍ରହ୍ମପୁତ୍ରର ଉପତ୍ୟକାଗୁଡ଼ିକ ଉର୍ବର ପଟୁମାଟି ଦ୍ଵାରା ଗଠିତ ଏବଂ ଏହା କୃଷି ଅନୁକୂଳ ଅଟେ।"
+},
+{
+"questionEnglish": "What type of waste land restoration method requires soil treatment for salinity?",
+"questionOdia": "ଲବଣାକ୍ତ ଓ କ୍ଷାରୀୟ ମୃତ୍ତିକାର ସଂଶୋଧନ ପାଇଁ ସେଥିରେ କେଉଁ ଉପାଦାନ ପ୍ରୟୋଗ କରାଯାଏ?",
+"options": [
+"ଜିପସମ୍ (Gypsum)",
+"ୟୁରିଆ",
+"ଲୁଣ",
+"ବାଲି"
+],
+"answer": "ଜିପସମ୍ (Gypsum)",
+"explanation": "ଜିପସମ୍ ଏବଂ ଜୈବ ସାର ବ୍ୟବହାର କରି ମୃତ୍ତିକାର କ୍ଷାରୀୟତା ଦୋଷ ଦୂର କରାଯାଇପାରେ।"
+},
+{
+"questionEnglish": "What is the primary effect of deforestation on land resources?",
+"questionOdia": "ଜଙ୍ଗଲ ସଫା ବା ବ୍ୟାପକ ବୃକ୍ଷକଟା ଯୋଗୁଁ ଭୂ-ସମ୍ବଳର କେଉଁ ସମସ୍ୟା ଉଗ୍ର ରୂପ ଧାରଣ କରେ?",
+"options": [
+"ଭୂ-କ୍ଷୟ ଓ ମରୁଭୂମିକରଣ (Soil erosion and Desertification)",
+"ଉର୍ବରତା ବୃଦ୍ଧି",
+"ଖଣିଜ ସମ୍ପଦ ବୃଦ୍ଧି",
+"ବୃଷ୍ଟିପାତ ବୃଦ୍ଧି"
+],
+"answer": "ଭୂ-କ୍ଷୟ ଓ ମରୁଭୂମିକରଣ (Soil erosion and Desertification)",
+"explanation": "ଜଙ୍ଗଲ କ୍ଷୟ ହେଲେ ମାଟି ଆଲ୍‌ଗା ହୋଇଯାଏ, ଯାହା ଫଳରେ ଜଳ ଓ ବାୟୁ ଦ୍ଵାରା ସହଜରେ ମୃତ୍ତିକା କ୍ଷୟ ହୁଏ।"
+},
+{
+"questionEnglish": "Which organization provides global land utilization classification standards followed in textbooks?",
+"questionOdia": "ଭୂ-ସମ୍ବଳର ବ୍ୟବହାର ଏବଂ ଏହାର ଶ୍ରେଣୀବିଭାଗ ମୁଖ୍ୟତଃ କେଉଁ ସରକାରୀ ରେକର୍ଡ଼ କିମ୍ବା ରାଜସ୍ଵ ବିଭାଗ ଅନୁସାରେ ହୋଇଥାଏ?",
+"options": [
+"ଭାରତ ସରକାରଙ୍କ ଭୂ-ରାଜସ୍ଵ ବିଭାଗ (Directorate of Economics and Statistics)",
+"ଜଙ୍ଗଲ ବିଭାଗ",
+"ମେଟେରୋଲୋଜିକାଲ୍ ବିଭାଗ",
+"ରେଳବାଇ ବିଭାଗ"
+],
+"answer": "ଭାରତ ସରକାରଙ୍କ ଭୂ-ରାଜସ୍ଵ ବିଭାଗ (Directorate of Economics and Statistics)",
+"explanation": "ଭାରତ ସରକାରଙ୍କ କୃଷି ଓ ରାଜସ୍ଵ ବିଭାଗ ଦ୍ଵାରା ଦେଶର ଭୂ-ବ୍ୟବହାରର ସଠିକ ପରିସଂଖ୍ୟାନ ପ୍ରସ୍ତୁତ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What percentage of human life depend on land according to the textual concept of a fundamental resource?",
+"questionOdia": "ଭୂମିକୁ ଏକ ମୌଳିକ ପ୍ରାକୃତିକ ସମ୍ବଳ କହିବାର ତାତ୍ପର୍ଯ୍ୟ କଣ?",
+"options": [
+"ଏହା ମାନବ ସମାଜର ବାସସ୍ଥଳୀ ଓ ସମସ୍ତ ଜୀବଜଗତର ଆଧାର",
+"ଏହା କେବଳ ଏକ ପଣ୍ୟ ଦ୍ରବ୍ୟ",
+"ଏହାର କୌଣସି ଆର୍ଥିକ ମୂଲ୍ୟ ନାହିଁ",
+"ଏହା ମନୁଷ୍ୟ ଦ୍ଵାରା ତିଆରି ହୋଇଛି"
+],
+"answer": "ଏହା ମାନବ ସମାଜର ବାସସ୍ଥଳୀ ଓ ସମସ୍ତ ଜୀବଜଗତର ଆଧାର",
+"explanation": "ଭୂମି ପ୍ରକୃତିର ଏକ ଅମୂଲ୍ୟ ଦାନ, ଯାହା ଉପରେ ସମସ୍ତ ଜୀବଜଗତ ନିଜର ସ୍ଥିତି ବଜାୟ ରଖିଛନ୍ତି।"
+},
+{
+"questionEnglish": "Which state has an extensive network of canal irrigation leading to high soil alkalinity concerns?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ରାଜ୍ୟରେ ଅତ୍ୟଧିକ କେନାଲ୍ ଜଳସେଚନ ଯୋଗୁଁ ଜମି ନଷ୍ଟ ହେଉଛି?",
+"options": [
+"ପଞ୍ଜାବ",
+"ଓଡ଼ିଶା",
+"କେରଳ",
+"ଝାଡ଼ଖଣ୍ଡ"
+],
+"answer": "ପଞ୍ଜାବ",
+"explanation": "ପଞ୍ଜାବ ଓ ହରିଆଣାରେ ହରିତ ବିପ୍ଳବ ପରଠାରୁ ଅତ୍ୟଧିକ ଜଳସେଚନ କରାଯାଉଥିବାରୁ ମାଟିରେ କ୍ଷାରୀୟତା ବଢ଼ିଯାଇଛି।"
+},
+{
+"questionEnglish": "What type of land capability is found in plains compared to plateaus?",
+"questionOdia": "ମାଳଭୂମି ତୁଳନାରେ ସମତଳ ଭୂମିର କୃଷି ଉତ୍ପାଦନ କ୍ଷମତା କିପରି ହୋଇଥାଏ?",
+"options": [
+"ଅଧିକ ଉର୍ବର ଓ ଅଧିକ ଉତ୍ପାଦନକ୍ଷମ",
+"ଖୁବ୍ କମ୍ ଉତ୍ପାଦନକ୍ଷମ",
+"ସମ୍ପୂର୍ଣ୍ଣ ଅନୁର୍ବର",
+"ପଥୁରିଆ ଓ ଚାଷ ଅଯୋଗ୍ୟ"
+],
+"answer": "ଅଧିକ ଉର୍ବର ଓ ଅଧିକ ଉତ୍ପାଦନକ୍ଷମ",
+"explanation": "ସମତଳ ଭୂମି ନଦୀର ପଟୁମାଟି ଦ୍ଵାରା ଗଠିତ ହୋଇଥିବାରୁ ଏହା ମାଳଭୂମି ଅପେକ୍ଷା ଅଧିକ ଉର୍ବର ଓ ଚାଷ ପାଇଁ ଉପଯୁକ୍ତ।"
+},
+{
+"questionEnglish": "What is the status of land when it is categorised under permanent pastures?",
+"questionOdia": "ସ୍ଥାୟୀ ଗୋଚର ଭୂମି ସାଧାରଣତଃ କେଉଁମାନଙ୍କ ପାଇଁ ଉଦ୍ଦିଷ୍ଟ ଥାଏ?",
+"options": [
+"ଗୋରୁଗାଈ ଓ ଗୃହପାଳିତ ପଶୁଙ୍କ ଚାରଣ ପାଇଁ",
+"ଧାନ ଚାଷ ପାଇଁ",
+"ସେନା ବାହିନୀର ଅଭ୍ୟାସ ପାଇଁ",
+"ସହର ନିର୍ମାଣ ପାଇଁ"
+],
+"answer": "ଗୋରୁଗାଈ ଓ ଗୃହପାଳିତ ପଶୁଙ୍କ ଚାରଣ ପାଇଁ",
+"explanation": "ଗ୍ରାମାଞ୍ଚଳରେ ପଶୁମାନଙ୍କ ଚରିବା ପାଇଁ ଯେଉଁ ଜମି ସ୍ଥାୟୀ ଭାବେ ଛାଡ଼ି ଦିଆଯାଇଥାଏ ତାହାକୁ ଗୋଚର ଭୂମି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is India's global rank in terms of total geographical area?",
+"questionOdia": "କ୍ଷେତ୍ରଫଳ ଦୃଷ୍ଟିରୁ ଭାରତ ପୃଥିବୀର କେତେତମ ବୃହତ୍ତମ ଦେଶ ଅଟେ?",
+"options": [
+"ସପ୍ତମ (7th)",
+"ପଞ୍ଚମ",
+"ଦ୍ଵିତୀୟ",
+"ଦଶମ"
+],
+"answer": "ସପ୍ତମ (7th)",
+"explanation": "୩୨.୮୭ ଲକ୍ଷ ବର୍ଗ କିଲୋମିଟର କ୍ଷେତ୍ରଫଳ ସହ ଭାରତ ପୃଥିବୀର ସପ୍ତମ ବୃହତ୍ତମ ଦେଶ ଅଟେ।"
+},
+{
+"questionEnglish": "Which state forms a major part of the Eastern Coastal Plains of India?",
+"questionOdia": "ଭାରତର ପୂର୍ବ ଉପକୂଳବର୍ତ୍ତୀ ସମତଳ ଭୂମିରେ ଅବସ୍ଥିତ ଏକ ପ୍ରମୁଖ ରାଜ୍ୟ କଣ?",
+"options": [
+"ଓଡ଼ିଶା (Odisha)",
+"ଗୁଜରାଟ",
+"ରାଜସ୍ଥାନ",
+"ପଞ୍ଜାବ"
+],
+"answer": "ଓଡ଼ିଶା (Odisha)",
+"explanation": "ଓଡ଼ିଶାର ଉପକୂଳବର୍ତ୍ତୀ ଜିଲ୍ଲାଗୁଡ଼ିକ ଭାରତର ପୂର୍ବ ଉପକୂଳ ସମତଳ ଭୂମିର ଏକ ପ୍ରଧାନ ଅଂଶ।"
+},
+{
+"questionEnglish": "What percentage of India's land was non-cultivable waste land during recent measurements?",
+"questionOdia": "ଭାରତର ପ୍ରାୟ କେତେ ପ୍ରତିଶତ ଭୂମି ପଥୁରିଆ, ପାହାଡ଼ିଆ କିମ୍ବା ମରୁଭୂମି ହୋଇଥିବାରୁ ଚାଷ କାର୍ଯ୍ୟ ପାଇଁ ସମ୍ପୂର୍ଣ୍ଣ ଅଯୋଗ୍ୟ?",
+"options": [
+"୨୪ ପ୍ରତିଶତ",
+"୪୩ ପ୍ରତିଶତ",
+"୪ ପ୍ରତିଶତ",
+"୩୩ ପ୍ରତିଶତ"
+],
+"answer": "୨୪ ପ୍ରତିଶତ",
+"explanation": "ସମୁଦାୟ ଭୂ-ସମ୍ବଳର ପ୍ରାୟ ୨୪% ଭୂମି କୃଷି ଅନୁପଯୋଗୀ ପତିତ ବା ବର୍ଜ୍ୟ ଭୂମି ଶ୍ରେଣୀଭୁକ୍ତ।"
+},
+{
+"questionEnglish": "Which human technique ensures proper land use planning in urban master plans?",
+"questionOdia": "ସହରଗୁଡ଼ିକରେ ଭୂମିର ସଠିକ ବିନିଯୋଗ ପାଇଁ କେଉଁ ଯୋଜନା ପ୍ରସ୍ତୁତ କରାଯାଏ?",
+"options": [
+"ମାଷ୍ଟର ପ୍ଲାନ୍ ବା ଭୂ-ବ୍ୟବହାର ସୁନିୟନ୍ତ୍ରିତ ଯୋଜନା",
+"ଜଳସେଚନ ଯୋଜନା",
+"ଖଣି ଯୋଜନା",
+"ସ୍ଥାନାନ୍ତର ଚାଷ ଯୋଜନା"
+],
+"answer": "ମାଷ୍ଟର ପ୍ଲାନ୍ ବା ଭୂ-ବ୍ୟବହାର ସୁନିୟନ୍ତ୍ରିତ ଯୋଜନା",
+"explanation": "ସହରୀକରଣ ବେଳେ ଯୋଜନାବଦ୍ଧ ଭାବେ ବାସଗୃହ, ଶିଳ୍ପ ଓ ପାର୍କ ପାଇଁ ଭୂମି ବଣ୍ଟନ କରାଯିବା ଉଚିତ।"
+},
+{
+"questionEnglish": "What are the three major types of reliefs found in India's land resources?",
+"questionOdia": "ଭାରତର ଭୂ-ସମ୍ବଳରେ ଦେଖାଯାଉଥିବା ତିନୋଟି ପ୍ରମୁଖ ଭୂ-ରୂପ କଣ କଣ?",
+"options": [
+"ସମତଳଭୂମି, ପାର୍ବତ୍ୟଭୂମି ଓ ମାଳଭୂମି",
+"ମରୁଭୂମି, ନଦୀ ଓ ହ୍ରଦ",
+"ଜଙ୍ଗଲ, ମାଟି ଓ ପଥର",
+"ଦ୍ଵୀପ, ସମୁଦ୍ର ଓ ଆକାଶ"
+],
+"answer": "ସମତଳଭୂମି, ପାର୍ବତ୍ୟଭୂମି ଓ ମାଳଭୂମି",
+"explanation": "ଭାରତର ଭୂମିକୁ ମୁଖ୍ୟତଃ ୪୩% ସମତଳ, ୩୦% ପାର୍ବତ୍ୟ ଏବଂ ୨୭% ମାଳଭୂମିରେ ବିଭକ୍ତ କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "Which hill range is located in western India running through Rajasthan?",
+"questionOdia": "ଭାରତର ପଶ୍ଚିମ ଦିଗରେ ରାଜସ୍ଥାନରେ ଅବସ୍ଥିତ ସବୁଠାରୁ ପ୍ରାଚୀନ ପର୍ବତ ଶ୍ରେଣୀର ନାମ କଣ?",
+"options": [
+"ଆରାବଳୀ ପର୍ବତମାଳା (Aravalli)",
+"ହିମାଳୟ",
+"ନୀଳଗିରି",
+"ଶିବାଳିକ"
+],
+"answer": "ଆରାବଳୀ ପର୍ବତମାଳା (Aravalli)",
+"explanation": "ଆରାବଳୀ ପର୍ବତ ଶ୍ରେଣୀ ରାଜସ୍ଥାନରେ ଅବସ୍ଥିତ, ଯାହା ମରୁଭୂମିର ପ୍ରସାରକୁ ରୋକିବାରେ ପ୍ରାକୃତିକ ପ୍ରାଚୀର ସଦୃଶ।"
+},
+{
+"questionEnglish": "What type of land dynamic is shown when topsoil layer is washed away by heavy rainfall?",
+"questionOdia": "ପ୍ରବଳ ବର୍ଷା ଯୋଗୁଁ ଜମିର ଉପର ସ୍ତରର ଉର୍ବର ମାଟି ଧୋଇଯିବାକୁ କେଉଁ ପ୍ରକାରର କ୍ଷୟ କୁହାଯାଏ?",
+"options": [
+"ସ୍ତର କ୍ଷୟ (Sheet Erosion)",
+"ନାଳୀ କ୍ଷୟ",
+"ବାୟୁ କ୍ଷୟ",
+"ଖଣି କ୍ଷୟ"
+],
+"answer": "ସ୍ତର କ୍ଷୟ (Sheet Erosion)",
+"explanation": "ବନ୍ୟା କିମ୍ବା ବର୍ଷା ଜଳ ଚଟାଣ ସଦୃଶ ଭୂମି ଉପରୁ ସମାନ ଭାବେ ମାଟିର ଆସ୍ତରଣ ଧୋଇ ନେଲେ ତାହାକୁ ସ୍ତର କ୍ଷୟ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the approximate percentage of area under forest in Orissa as per historical general range?",
+"questionOdia": "ଓଡ଼ିଶାର ସମୁଦାୟ ଆୟତନର ପ୍ରାୟ କେତେ ପ୍ରତିଶତ ଅଞ୍ଚଳ ଅରଣ୍ୟ ଅନ୍ତର୍ଗତ ଅଟେ?",
+"options": [
+"୩୦ ରୁ ୩୫ ପ୍ରତିଶତ ମଧ୍ୟରେ",
+"୧୦ ପ୍ରତିଶତରୁ କମ୍",
+"୮୦ ପ୍ରତିଶତରୁ ଅଧିକ",
+"୫ ପ୍ରତିଶତ"
+],
+"answer": "୩୦ ରୁ ୩୫ ପ୍ରତିଶତ ମଧ୍ୟରେ",
+"explanation": "ଓଡ଼ିଶାର ଜଙ୍ଗଲ ପ୍ରାୟ ୩୦ ରୁ ୩୫% ସୀମା ମଧ୍ୟରେ ଥାଏ, ଯାହା ଜାତୀୟ ହାର (୩୩%) ର ପାଖାପାଖି ଅଟେ।"
+},
+{
+"questionEnglish": "Which terminology represents the total area sown once or more than once in an agricultural year?",
+"questionOdia": "ଏକ ଚାଷ ବର୍ଷ ମଧ୍ୟରେ ଏକାଧିକ ବାର ଚାଷ କରାଯାଉଥିବା ଜମି ସମେତ ମୋଟ ଚାଷ ଜମିକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ସମୁଦାୟ କୃଷିକ୍ଷେତ୍ର (Gross Cropped Area)",
+"ପ୍ରକୃତ ଚାଷ ଭୂମି",
+"ପତିତ ଭୂମି",
+"ଗୋଚର ଭୂମି"
+],
+"answer": "ସମୁଦାୟ କୃଷିକ୍ଷେତ୍ର (Gross Cropped Area)",
+"explanation": "ପ୍ରକୃତ ଚାଷ ଜମିରେ ବର୍ଷକ ମଧ୍ୟରେ ଦୁଇ ବା ତିନିଥର ଚାଷ କଲେ, ପ୍ରତିଥରର କ୍ଷେତ୍ରଫଳକୁ ମିଶାଇ ଗ୍ରସ୍ କ୍ରପ୍‌ଡ ଏରିଆ ବା ସମୁଦାୟ କୃଷିକ୍ଷେତ୍ର ମିଳେ।"
+},
+{
+"questionEnglish": "What is the main danger of sand dune shifting in desert margins?",
+"questionOdia": "ମରୁଭୂମିର ବାଲୁକା ସ୍ତୁପଗୁଡ଼ିକ ପବନ ଦ୍ଵାରା ଗତିଶୀଳ ହେବା ଫଳରେ କେଉଁ କ୍ଷତି ଘଟେ?",
+"options": [
+"ଆଖପାଖର ଚାଷ ଜମି ମରୁଭୂମିରେ ପରିଣତ ହୁଏ",
+"ଜମି ଅଧିକ ଉର୍ବର ହୁଏ",
+"ଜଙ୍ଗଲ ସୃଷ୍ଟି ହୁଏ",
+"ବନ୍ୟା ଆସେ"
+],
+"answer": "ଆଖପାଖର ଚାଷ ଜମି ମରୁଭୂମିରେ ପରିଣତ ହୁଏ",
+"explanation": "ବାଲି ଉଡ଼ିଆସି ଚାଷ ଜମି ଉପରେ ଜମିଯାଏ, ଯାହାଦ୍ଵାରା ଚାଷ ଜମି ନଷ୍ଟ ହୁଏ ଓ ମରୁଭୂମିର ପ୍ରସାର ଘଟେ।"
+},
+{
+"questionEnglish": "What role does the root of a plant play in soil conservation?",
+"questionOdia": "ଗଛର ଚେର ମୃତ୍ତିକା ସୁରକ୍ଷାରେ କିପରି କାର୍ଯ୍ୟ କରେ?",
+"options": [
+"ମାଟି କଣିକାଗୁଡ଼ିକୁ ଜାବୁଡ଼ି ଧରି ରଖେ",
+"ମାଟିକୁ ଆଲ୍‌ଗା କରିଦିଏ",
+"ମାଟିରୁ ସମସ୍ତ ଜଳ ଶୋଷି ଶୁଖିଲା କରେ",
+"ଲବଣର ପରିମାଣ ବଢ଼ାଏ"
+],
+"answer": "ମାଟି କଣିକାଗୁଡ଼ିକୁ ଜାବୁଡ଼ି ଧରି ରଖେ",
+"explanation": "ଉଦ୍ଭିଦର ଚେର ମାଟିକୁ ଦୃଢ଼ ଭାବେ ବାନ୍ଧି ରଖେ, ଫଳରେ ବର୍ଷା ଜଳ ବା ପ୍ରବଳ ପବନ ମାଟିକୁ ସହଜରେ କ୍ଷୟ କରିପାରେନାହିଁ।"
+},
+{
+"questionEnglish": "Which state has the maximum share of the Deccan plateau resource?",
+"questionOdia": "ଭାରତର କେଉଁ କେନ୍ଦ୍ରୀୟ-ଦକ୍ଷିଣ ରାଜ୍ୟରେ ଦାକ୍ଷିଣାତ୍ୟ ମାଳଭୂମିର ସର୍ବାଧିକ ଅଂଶ ରହିଛି?",
+"options": [
+"ମହାରାଷ୍ଟ୍ର (Maharashtra)",
+"ପଞ୍ଜାବ",
+"ପଶ୍ଚିମବଙ୍ଗ",
+"ଆସାମ"
+],
+"answer": "ମହାରାଷ୍ଟ୍ର (Maharashtra)",
+"explanation": "ମହାରାଷ୍ଟ୍ର, କର୍ଣ୍ଣାଟକ ଓ ଆନ୍ଧ୍ରପ୍ରଦେଶର ଅଧିକାଂଶ ଭୂମି ଦାକ୍ଷିଣାତ୍ୟ କୃଷ୍ଣକାର୍ପାସ ମାଳଭୂମିର ଅନ୍ତର୍ଗତ।"
+},
+{
+"questionEnglish": "What type of classification is forest under in land utilization records?",
+"questionOdia": "ଭୂ-ବ୍ୟବହାର ଶ୍ରେଣୀବିଭାଗରେ ସବୁଠାରୁ ପ୍ରଥମ ପ୍ରମୁଖ ବିଭାଗ କଣ ଅଟେ?",
+"options": [
+"ଅରଣ୍ୟ ଭୂମି (Forest Land)",
+"ପତିତ ଜମି",
+"ଗୋଚର ଜମି",
+"ଚାଷ ଜମି"
+],
+"answer": "ଅରଣ୍ୟ ଭୂମି (Forest Land)",
+"explanation": "ଭୂ-ବ୍ୟବହାରର ମୁଖ୍ୟ ପାଞ୍ଚଟି ଶ୍ରେଣୀ ମଧ୍ୟରୁ ପ୍ରଥମ ଶ୍ରେଣୀଟି ହେଉଛି ଅରଣ୍ୟ ବା ଜଙ୍ଗଲ ଜମି।"
+},
+{
+"questionEnglish": "What is the reason behind land degradation due to urbanization?",
+"questionOdia": "ନଗରୀକରଣ ବା ସହରୀକରଣ ଯୋଗୁଁ କିପରି ଭୂ-ସମ୍ବଳର ଅବନତି ବା ଅପବ୍ୟବହାର ହେଉଛି?",
+"options": [
+"କଂକ୍ରିଟ୍ ଆସ୍ତରଣ ବୃଦ୍ଧି ଓ ସହରୀ ଆବର୍ଜନା ଜମା ହେବା",
+"ଜଙ୍ଗଲର ପରିମାଣ ବଢ଼ିବା",
+"କୃଷି ଭୂମି ସଂରକ୍ଷିତ ହେବା",
+"ପାହାଡ଼ ଗୁଡ଼ିକ ସୁରକ୍ଷିତ ରହିବା"
+],
+"answer": "କଂକ୍ରିଟ୍ ଆସ୍ତରଣ ବୃଦ୍ଧି ଓ ସହରୀ ଆବର୍ଜନା ଜମା ହେବା",
+"explanation": "ରାସ୍ତାଘାଟ ଓ କୋଠାବାଡ଼ି ନିର୍ମାଣ ଯୋଗୁଁ ମାଟି ଢାଙ୍କି ହୋଇଯାଏ, ଏବଂ ପ୍ଲାଷ୍ଟିକ୍ ଓ ସହରୀ ଆବର୍ଜନା ଭୂମିକୁ ପ୍ରଦୂଷିତ କରେ।"
+},
+{
+"questionEnglish": "Which area is highly famous for step farming or terrace cultivation in India?",
+"questionOdia": "ଭାରତର କେଉଁ ଅଞ୍ଚଳରେ ସୋପାନ ପ୍ରଣାଳୀରେ ଚାଷ କାର୍ଯ୍ୟ ବହୁଳ ଭାବରେ ଦେଖିବାକୁ ମିଳେ?",
+"options": [
+"ପଶ୍ଚିମ ଓ କେନ୍ଦ୍ରୀୟ ହିମାଳୟ ପାର୍ବତ୍ୟ ଅଞ୍ଚଳ",
+"ଉପକୂଳ ସମତଳ ଭୂମି",
+"ଥର୍ ମରୁଭୂମି",
+"ସୁନ୍ଦରବନ ଡେଲ୍ଟା"
+],
+"answer": "ପଶ୍ଚିମ ଓ କେନ୍ଦ୍ରୀୟ ହିମାଳୟ ପାର୍ବତ୍ୟ ଅଞ୍ଚଳ",
+"explanation": "ଉତ୍ତରାଖଣ୍ଡ, ହିମାଚଳ ପ୍ରଦେଶ ପରି ପାର୍ବତ୍ୟ ଅଞ୍ଚଳରେ ଲୋକମାନେ ପାହାଡ଼ କାଟି ସୋପାନ ଚାଷ କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is the main benefit of pasture land for the rural economy?",
+"questionOdia": "ଗ୍ରାମୀଣ ଅର୍ଥନୀତିରେ ଗୋଚର ଭୂମିର ପ୍ରଧାନ ଉପକାରିତା କଣ?",
+"options": [
+"ପଶୁପାଳନ ଓ ଦୁଗ୍ଧ ଉତ୍ପାଦନରେ ସହାୟତା",
+"କୋଇଲା ଖନନ",
+"ରେଳଲାଇନ୍ ବିଛାଇବା",
+"ବେଞ୍ଚ୍ ପ୍ରତିଷ୍ଠା କରିବା"
+],
+"answer": "ପଶୁପାଳନ ଓ ଦୁଗ୍ଧ ଉତ୍ପାଦନରେ ସହାୟତା",
+"explanation": "ଗୋଚର ଭୂମି ଗୃହପାଳିତ ପ୍ରାଣୀମାନଙ୍କୁ ମାଗଣାରେ ଖାଦ୍ୟ ଯୋଗାଏ, ଯାହା ଗ୍ରାମର ପଶୁପାଳନ ବ୍ୟବସାୟକୁ ସମୃଦ୍ଧ କରେ।"
+},
+{
+"questionEnglish": "Which industry produces solid waste like fly ash that harms nearby agricultural lands?",
+"questionOdia": "କେଉଁ ଶିଳ୍ପରୁ ନିର୍ଗତ ଉଡ଼ନ୍ତା ପାଉଁଶ ବା ଫ୍ଲାଇ ଆଶ୍ (Fly ash) ଚାଷ ଜମି ଉପରେ ପଡ଼ି ଭୂମି ନଷ୍ଟ କରେ?",
+"options": [
+"ତାପଜ ବିଦ୍ୟୁତ କେନ୍ଦ୍ର (Thermal Power Plants)",
+"ଚିନି କାରଖାନା",
+"ଲୁଗା କାରଖାନା",
+"ଖାଦ୍ୟ ପ୍ରକ୍ରିୟାକରଣ ଶିଳ୍ପ"
+],
+"answer": "ତାପଜ ବିଦ୍ୟୁତ କେନ୍ଦ୍ର (Thermal Power Plants)",
+"explanation": "କୋଇଲା ଭିତ୍ତିକ ତାପଜ ବିଦ୍ୟୁତ କେନ୍ଦ୍ରରୁ ପ୍ରଚୁର ପାଉଁଶ ବାହାରି ଆଖପାଖ ଅଞ୍ଚଳର ମୃତ୍ତିକାକୁ ଅନୁର୍ବର କରିଦିଏ।"
+},
+{
+"questionEnglish": "What percentage of geographical target was set for mountain regions to protect the ecology?",
+"questionOdia": "ପାର୍ବତ୍ୟ ଅଞ୍ଚଳର ଅନ୍ତର୍ଗତ ଭୂମିର ସୁରକ୍ଷା ପାଇଁ କେତେ ପ୍ରତିଶତ ଜଙ୍ଗଲ ରହିବା ଅପରିହାର୍ଯ୍ୟ ଅଟେ?",
+"options": [
+"୬୦ ਪ੍ਰତିଶତ",
+"୩୩ ପ୍ରତିଶତ",
+"୨୦ ପ୍ରତିଶତ",
+"୧୦ ପ୍ରତିଶତ"
+],
+"answer": "୬୦ ପ୍ରତିଶତ",
+"explanation": "ପାହାଡ଼ିଆ ଅଞ୍ଚଳରେ ଭୂ-ସ୍ଖଳନ ଓ ମୃତ୍ତିକା କ୍ଷୟ ଅଧିକ ହେଉଥିବାରୁ ସେଠାରେ ଅତି କମରେ ୬୦% ଜଙ୍ଗଲ ରହିବା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "Which geographic phenomenon helps in natural formation of fertile plains?",
+"questionOdia": "ନଦୀମାନଙ୍କ ଦ୍ଵାରା ପ୍ରତିବର୍ଷ ବନ୍ୟା ସମୟରେ ପଟୁମାଟି ଜମା ହେବା ଫଳରେ କେଉଁ ଭୂ-ରୂପ ଗଠିତ ହୁଏ?",
+"options": [
+"ଉର୍ବର ସମତଳ ଭୂମି (Fertile Plains)",
+"ଶୁଷ୍କ ମାଳଭୂମି",
+"ଉଚ୍ଚ ପାହାଡ଼",
+"ଗଭୀର ଗଣ୍ଡ"
+],
+"answer": "ଉର୍ବର ସମତଳ ଭୂମି (Fertile Plains)",
+"explanation": "ନଦୀର ପଟୁ ଜମା ପ୍ରକ୍ରିୟା ଦ୍ଵାରା ନଦୀ ଅବବାହିକାରେ ଅତ୍ୟନ୍ତ ଉର୍ବର ସମତଳ ମୈଦାନ ସୃଷ୍ଟି ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the key method of land reclamation from mining hazards?",
+"questionOdia": "ଖଣି କାର୍ଯ୍ୟ ସରିବା ପରେ ସେହି ପରିତ୍ୟକ୍ତ ଜମିର ପୁନରୁଦ୍ଧାର ପାଇଁ କେଉଁ ମୁଖ୍ୟ ପଦକ୍ଷେପ ନିଆଯାଏ?",
+"options": [
+"ଗର୍ତ୍ତଗୁଡ଼ିକୁ ପୋତି ବୃକ୍ଷରୋପଣ କରିବା (Refilling and Afforestation)",
+"ସେମିତି ଖୋଲା ଛାଡ଼ିଦେବା",
+"ସେଥିରେ ଜଳ ଭର୍ତ୍ତି କରି ପୋଖରୀ କରିବା",
+"କାରଖାନା ଘର ତିଆରି କରିବା"
+],
+"answer": "ଗର୍ତ୍ତଗୁଡ଼ିକୁ ପୋତି ବୃକ୍ଷରୋପଣ କରିବା (Refilling and Afforestation)",
+"explanation": "ଖଣିର ଗଭୀର ଗର୍ତ୍ତଗୁଡ଼ିକୁ ମାଟି କିମ୍ବା ଆବର୍ଜନା ଦ୍ଵାରା ସମତଳ କରି ସେଠାରେ ବନୀକରଣ କଲେ ଭୂମି ପୁନର୍ବାର ସୁରକ୍ଷିତ ହୁଏ।"
+},
+{
+"questionEnglish": "How does the unchecked expansion of housing affect overall Net Sown Area?",
+"questionOdia": "ବାସଗୃହ ନିର୍ମାଣ ପାଇଁ ଭୂମିର ଅତ୍ୟଧିକ ବ୍ୟବହାର ଦ୍ଵାରା ପ୍ରକୃତ ଚାଷ ଜମି ଉପରେ କଣ ପ୍ରଭାବ ପଡ଼ୁଛି?",
+"options": [
+"ପ୍ରକୃତ ଚାଷ ଜମିର ଆୟତନ ସଙ୍କୁଚିତ ବା ହ୍ରାସ ହେଉଛି",
+"ଚାଷ ଜମି ବଢ଼ୁଛି",
+"ଜଙ୍ଗଲ ସୃଷ୍ଟି ହେଉଛି",
+"କୌଣସି ପ୍ରଭାବ ପଡୁନାହିଁ"
+],
+"answer": "ପ୍ରକୃତ ଚାଷ ଜମିର ଆୟତନ ସଙ୍କୁଚିତ ବା ହ୍ରାସ ହେଉଛି",
+"explanation": "ଚାଷ ଜମି ଉପରେ ଘର ଓ କୋଠା ତିଆରି ହେବା ଫଳରେ ମୋଟ ଚାଷ ଜମିର ପରିମାଣ କ୍ରମଶଃ କମିଯାଉଛି।"
+},
+{
+"questionEnglish": "Which physical factor among these heavily restricts extensive mechanical farming?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଭୂ-ପ୍ରକୃତିକ କାରଣ ଯୋଗୁଁ ଆଧୁନିକ ଯନ୍ତ୍ରପାତି ସାହାଯ୍ୟରେ ବ୍ୟାପକ ଚାଷ କରିବା ସମ୍ଭବ ହୁଏ ନାହିଁ?",
+"options": [
+"ବନ୍ଧୁର ଓ ଢାଲୁ ପାର୍ବତ୍ୟ ଭୂମି",
+"ବିସ୍ତୀର୍ଣ୍ଣ ସମତଳ ଭୂମି",
+"ନଦୀ ଉପତ୍ୟକା",
+"ଉପକୂଳ ମୈଦାନ"
+],
+"answer": "ବନ୍ଧୁର ଓ ଢାଲୁ ପାର୍ବତ୍ୟ ଭୂମି",
+"explanation": "ପାହାଡ଼ିଆ ଅଞ୍ଚଳ ଢାଲୁ ଓ ପଥୁରିଆ ହୋଇଥିବାରୁ ସେଠାରେ ଟ୍ରାକ୍ଟର କିମ୍ବା ବଡ଼ ଯନ୍ତ୍ରପାତି ଚଳାଇବା ସହଜ ନୁହେଁ।"
+},
+{
+"questionEnglish": "What long term consequence occurs if degraded land is left completely untreated?",
+"questionOdia": "କ୍ଷୟପ୍ରାପ୍ତ ବା ଅବନତ ଭୂମିର ସଠିକ ସମୟରେ ପ୍ରତିକାର ନ କଲେ ଭବିଷ୍ୟତରେ କେଉଁ ଭୟଙ୍କର ସମସ୍ୟା ଉପୁଜିବ?",
+"options": [
+"ଭୂମି ସମ୍ପୂର୍ଣ୍ଣ ମରୁଭୂମିରେ ପରିଣତ ହେବ ଓ ଖାଦ୍ୟ ସଙ୍କଟ ଦେଖାଯିବ",
+"ଜମି ସ୍ଵତଃ ଉର୍ବର ହୋଇଯିବ",
+"ଜଙ୍ଗଲ ଆପେ ଆପେ ବଢ଼ିବ",
+"ଜଳ ସଂରକ୍ଷଣ ସହଜ ହେବ"
+],
+"answer": "ଭୂମି ସମ୍ପୂର୍ଣ୍ଣ ମରୁଭୂମିରେ ପରିଣତ ହେବ ଓ ଖାଦ୍ୟ ସଙ୍କଟ ଦେଖାଯିବ",
+"explanation": "ଭୂ-ଅବନତି କ୍ରମାଗତ ଭାବେ ବଢ଼ିଲେ ଜମି ସମ୍ପୂର୍ଣ୍ଣ ବନ୍ଧ୍ୟା ବା ମରୁଭୂମି ପାଲଟିଯାଏ, ଯାହା ମାନବ ସମାଜ ପାଇଁ ବିପଜ୍ଜନକ।"
+}
+]
