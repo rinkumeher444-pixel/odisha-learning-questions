@@ -1,0 +1,1250 @@
+[
+{
+"questionEnglish": "What term is used to describe the total variety of plants, animals, and microorganisms in a given environment?",
+"questionOdia": "ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ପରିବେଶରେ ଉଦ୍ଭିଦ, ପ୍ରାଣୀ ଏବଂ ଅଣୁଜୀବମାନଙ୍କର ସମୁଦାୟ ବିବିଧତାକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ପରିସଂସ୍ଥା (Ecosystem)",
+"ଜୈବ ବିବିଧତା (Biodiversity)",
+"ଖାଦ୍ୟ ଶୃଙ୍ଖଳ (Food Chain)",
+"ଜୈବ ପ୍ରାୟାମିଡ୍ (Biological Pyramid)"
+],
+"answer": "ଜୈବ ବିବିଧତା (Biodiversity)",
+"explanation": "କୌଣସି ନିର୍ଦ୍ଦିଷ୍ଟ ଅଞ୍ଚଳରେ ରହୁଥିବା ସମସ୍ତ ପ୍ରକାରର ଜୀବମାନଙ୍କର ସମଷ୍ଟିକୁ ଜୈବ ବିବିଧତା କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which organization maintains the 'Red Data Book' to document threatened species?",
+"questionOdia": "ବିପନ୍ନ ପ୍ରଜାତିଗୁଡ଼ିକର ତଥ୍ୟ ରଖିବା ପାଇଁ କେଉଁ ସଂସ୍ଥା 'ରେଡ୍ ଡାଟା ବୁକ୍' ପ୍ରକାଶ କରିଥାଏ?",
+"options": [
+"UNESCO",
+"WHO",
+"IUCN",
+"UNICEF"
+],
+"answer": "IUCN",
+"explanation": "IUCN (International Union for Conservation of Nature and Natural Resources) ବିପନ୍ନ ପ୍ରଜାତିଗୁଡ଼ିକର ତାଲିକା ପ୍ରସ୍ତୁତ କରି ରେଡ୍ ଡାଟା ବୁକ୍ ପ୍ରକାଶ କରେ।"
+},
+{
+"questionEnglish": "What is the primary reason for the rapid decline in wildlife populations?",
+"questionOdia": "ବନ୍ୟପ୍ରାଣୀ ସଂଖ୍ୟା ଦ୍ରୁତ ଗତିରେ ହ୍ରାସ ପାଇବାର ମୁଖ୍ୟ କାରଣ କ'ଣ?",
+"options": [
+"ପ୍ରାକୃତିକ ବନ୍ୟା",
+"ବିଭିନ୍ନ ପ୍ରାକୃତିକ କାରଣ",
+"ମନୁଷ୍ୟକୃତ କାରଣ ଯଥା ବାସସ୍ଥାନ ନଷ୍ଟ",
+"ଜୀବମାନଙ୍କ ମଧ୍ୟରେ ଅଧିକ ପ୍ରତିଯୋଗିତା"
+],
+"answer": "ମନୁଷ୍ୟକୃତ କାରଣ ଯଥା ବାସସ୍ଥାନ ନଷ୍ଟ",
+"explanation": "ବନୀକରଣ ହ୍ରାସ, ପ୍ରଦୂଷଣ, ଏବଂ ବାସସ୍ଥାନ ନଷ୍ଟ ହେବା ବନ୍ୟପ୍ରାଣୀ ସଂଖ୍ୟା କମିବାର ମୁଖ୍ୟ କାରଣ।"
+},
+{
+"questionEnglish": "Which animal is designated as the National Animal of India?",
+"questionOdia": "କେଉଁ ପ୍ରାଣୀ ଭାରତର ଜାତୀୟ ପଶୁ ଭାବରେ ସ୍ୱୀକୃତିପ୍ରାପ୍ତ?",
+"options": [
+"ସିଂହ",
+"ହାତୀ",
+"ବାଘ",
+"ଗଣ୍ଡା"
+],
+"answer": "ବାଘ",
+"explanation": "ବାଘ (Tiger) ହେଉଛି ଭାରତର ଜାତୀୟ ପଶୁ।"
+},
+{
+"questionEnglish": "What type of consumers are decomposers in an ecosystem?",
+"questionOdia": "ଏକ ପରିସଂସ୍ଥାରେ ବିଘଟକମାନେ କେଉଁ ପ୍ରକାରର ଖାଦ୍ୟ ଉପଭୋକ୍ତା ଅଟନ୍ତି?",
+"options": [
+"ପ୍ରାଥମିକ ଉପଭୋକ୍ତା",
+"ଦ୍ୱିତୀୟ ଶ୍ରେଣୀର ଉପଭୋକ୍ତା",
+"ତୃତୀୟ ଶ୍ରେଣୀର ଉପଭୋକ୍ତା",
+"ମୃତଜୀବୀ କିମ୍ବା ବିଘଟକ"
+],
+"answer": "ମୃତଜୀବୀ କିମ୍ବା ବିଘଟକ",
+"explanation": "ବିଘଟକମାନେ ମୃତ ଉଦ୍ଭିଦ ଓ ପ୍ରାଣୀମାନଙ୍କୁ ବିଘଟିତ କରି ପରିବେଶକୁ ସଫା ରଖନ୍ତି।"
+},
+{
+"questionEnglish": "What is the term for species that are on the verge of extinction if current trends continue?",
+"questionOdia": "ଯେଉଁ ପ୍ରଜାତିଗୁଡ଼ିକର ସଂଖ୍ୟା ଏତେ କମିଯାଇଛି ଯେ ସେମାନେ ଲୋପ ପାଇଯିବାର ଆଶଙ୍କା ରହିଛି, ସେମାନଙ୍କୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ବିପନ୍ନ ପ୍ରଜାତି (Endangered Species)",
+"ସାଧାରଣ ପ୍ରଜାତି",
+"ଦୁର୍ଲଭ ପ୍ରଜାତି (Rare Species)",
+"ବିଲୁପ୍ତ ପ୍ରଜାତି (Extinct Species)"
+],
+"answer": "ବିପନ୍ନ ପ୍ରଜାତି (Endangered Species)",
+"explanation": "ଯେଉଁ ପ୍ରଜାତିର ସଂଖ୍ୟା ବିପଜ୍ଜନକ ଭାବେ ହ୍ରାସ ପାଇଛି, ସେମାନଙ୍କୁ ବିପନ୍ନ ପ୍ରଜାତି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What do we call the flow of energy and nutrients in an ecosystem through different levels?",
+"questionOdia": "ଏକ ପରିସଂସ୍ଥାରେ ବିଭିନ୍ନ ସ୍ତର ଦେଇ ଶକ୍ତି ଓ ପୋଷକ ଦ୍ରବ୍ୟର ପ୍ରବାହକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ଜୈବ ବିବିଧତା",
+"ଖାଦ୍ୟ ଶୃଙ୍ଖଳ",
+"ଜଳଚକ୍ର",
+"ପରିବେଶ ପ୍ରଦୂଷଣ"
+],
+"answer": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳ",
+"explanation": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳ ମାଧ୍ୟମରେ ଶକ୍ତି ଗୋଟିଏ ସ୍ତରରୁ ଅନ୍ୟ ସ୍ତରକୁ ପ୍ରବାହିତ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Which state in India is known for the Similipal National Park?",
+"questionOdia": "ଭାରତର କେଉଁ ରାଜ୍ୟରେ ଶିମିଳିପାଳ ଜାତୀୟ ଉଦ୍ୟାନ ଅବସ୍ଥିତ?",
+"options": [
+"ପଶ୍ଚିମବଙ୍ଗ",
+"ମଧ୍ୟପ୍ରଦେଶ",
+"ଓଡ଼ିଶା",
+"ଆସାମ"
+],
+"answer": "ଓଡ଼ିଶା",
+"explanation": "ଶିମିଳିପାଳ ଜାତୀୟ ଉଦ୍ୟାନ ଓଡ଼ିଶାର ମୟୂରଭଞ୍ଜ ଜିଲ୍ଲାରେ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "What is the definition of a primary producer in an ecosystem?",
+"questionOdia": "ଏକ ପରିସଂସ୍ଥାରେ ପ୍ରାଥମିକ ଉତ୍ପାଦକ କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ଉଦ୍ଭିଦ (ସ୍ୱଭୋଜୀ)",
+"ଶାକାହାରୀ ପ୍ରାଣୀ",
+"ମାଂସାହାରୀ ପ୍ରାଣୀ",
+"ବିଘଟକ"
+],
+"answer": "ଉଦ୍ଭିଦ (ସ୍ୱଭୋଜୀ)",
+"explanation": "ସବୁଜ ଉଦ୍ଭିଦମାନେ ସୂର୍ଯ୍ୟାଲୋକ ବ୍ୟବହାର କରି ନିଜ ଖାଦ୍ୟ ନିଜେ ପ୍ରସ୍ତୁତ କରୁଥିବାରୁ ସେମାନଙ୍କୁ ପ୍ରାଥମିକ ଉତ୍ପାଦକ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which of the following is an example of an extinct bird species in India?",
+"questionOdia": "ଭାରତର ଏକ ବିଲୁପ୍ତ ପକ୍ଷୀ ପ୍ରଜାତିର ଉଦାହରଣ କିଏ?",
+"options": [
+"ମୟୂର",
+"ଗୋଲାପୀ ମୁଣ୍ଡିଆ ବତକ (Pink-headed duck)",
+"କୁକୁଡ଼ା",
+"ଚଢ଼େଇ"
+],
+"answer": "ଗୋଲାପୀ ମୁଣ୍ଡିଆ ବତକ (Pink-headed duck)",
+"explanation": "ଗୋଲାପୀ ମୁଣ୍ଡିଆ ବତକ ଭାରତର ଏକ ବିଲୁପ୍ତ ପ୍ରଜାତିର ପକ୍ଷୀ ଅଟେ।"
+},
+{
+"questionEnglish": "What does 'Trophic Level' represent in a biological pyramid?",
+"questionOdia": "ଜୈବ ପ୍ରାୟାମିଡ୍‌ରେ 'ପୋଷଣ ସ୍ତର' (Trophic level) କ'ଣ ସୂଚାଏ?",
+"options": [
+"ଜୀବର ଆକାର",
+"ଖାଦ୍ୟ ଗ୍ରହଣ କରିବାର ସ୍ତର ବା ପର୍ଯ୍ୟାୟ",
+"ଜୀବର ବୟସ",
+"ଜୀବର ରଙ୍ଗ"
+],
+"answer": "ଖାଦ୍ୟ ଗ୍ରହଣ କରିବାର ସ୍ତର ବା ପର୍ଯ୍ୟାୟ",
+"explanation": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳରେ ପ୍ରତ୍ୟେକ ଜୀବର ଖାଦ୍ୟ ସଂଗ୍ରହ କରିବାର ପର୍ଯ୍ୟାୟକୁ ପୋଷଣ ସ୍ତର କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which state is home to the Kaziranga National Park?",
+"questionOdia": "କାଜିରଙ୍ଗା ଜାତୀୟ ଉଦ୍ୟାନ କେଉଁ ରାଜ୍ୟରେ ଅବସ୍ଥିତ?",
+"options": [
+"ଆସାମ",
+"କେରଳ",
+"ରାଜସ୍ଥାନ",
+"ଗୁଜୁରାଟ"
+],
+"answer": "ଆସାମ",
+"explanation": "ଆସାମର କାଜିରଙ୍ଗା ଜାତୀୟ ଉଦ୍ୟାନ ଏକ ଶିଙ୍ଗିଆ ଗଣ୍ଡା ପାଇଁ ପ୍ରସିଦ୍ଧ।"
+},
+{
+"questionEnglish": "What is the main role of the 'Red Data Book'?",
+"questionOdia": "'ରେଡ୍ ଡାଟା ବୁକ୍'ର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କ'ଣ?",
+"options": [
+"ସାଧାରଣ ପ୍ରାଣୀଙ୍କ ତାଲିକା ଦେବା",
+"ବିପଦଗ୍ରସ୍ତ ଓ ବିଲୁପ୍ତ ପ୍ରଜାତିର ତଥ୍ୟ ରଖିବା",
+"ପ୍ରାଣୀମାନଙ୍କୁ ଚିକିତ୍ସା କରିବା",
+"ଜଙ୍ଗଲ କାଟିବାକୁ ରୋକିବା"
+],
+"answer": "ବିପଦଗ୍ରସ୍ତ ଓ ବିଲୁପ୍ତ ପ୍ରଜାତିର ତଥ୍ୟ ରଖିବା",
+"explanation": "ବିପଦଗ୍ରସ୍ତ ଓ ବିଲୁପ୍ତ ପ୍ରଜାତିଗୁଡ଼ିକର ଅବସ୍ଥା ସମ୍ପର୍କରେ ସୂଚନା ପ୍ରଦାନ କରିବା ଏହି ବହିର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ।"
+},
+{
+"questionEnglish": "Which gas is released by plants during photosynthesis that supports life?",
+"questionOdia": "ଆଲୋକ ଶ୍ଳେଷଣ ପ୍ରକ୍ରିୟାରେ ଉଦ୍ଭିଦମାନେ କେଉଁ ଗ୍ୟାସ୍ ବାହାର କରିଥାନ୍ତି ଯାହା ଜୀବଜଗତ ପାଇଁ ଅତ୍ୟାବଶ୍ୟକ?",
+"options": [
+"ଅଙ୍ଗାରକାମ୍ଳ",
+"ଯବକ୍ଷାରଜାନ",
+"ଅମ୍ଳଜାନ",
+"ହାଇଡ୍ରୋଜେନ୍"
+],
+"answer": "ଅମ୍ଳଜାନ",
+"explanation": "ଆଲୋକ ଶ୍ଳେଷଣ ସମୟରେ ଉଦ୍ଭିଦ ଅମ୍ଳଜାନ ବାୟୁମଣ୍ଡଳକୁ ଛାଡ଼ିଥାଏ, ଯାହା ଶ୍ୱାସକ୍ରିୟା ପାଇଁ ଜରୁରୀ।"
+},
+{
+"questionEnglish": "What do we call animals that eat both plants and meat?",
+"questionOdia": "ଉଭୟ ଉଦ୍ଭିଦ ଏବଂ ମାଂସ ଖାଉଥିବା ପ୍ରାଣୀମାନଙ୍କୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ଶାକାହାରୀ",
+"ମାଂସାହାରୀ",
+"ସର୍ବଭକ୍ଷୀ",
+"ବିଘଟକ"
+],
+"answer": "ସର୍ବଭକ୍ଷୀ",
+"explanation": "ମଣିଷ ଓ ଭାଲୁ ଭଳି ପ୍ରାଣୀମାନେ ଉଭୟ ଉଦ୍ଭିଦ ଓ ମାଂସ ଖାଉଥିବାରୁ ସେମାନଙ୍କୁ ସର୍ବଭକ୍ଷୀ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which of these is a major reason for the destruction of wildlife habitats?",
+"questionOdia": "ବନ୍ୟପ୍ରାଣୀଙ୍କ ବାସସ୍ଥାନ ନଷ୍ଟ ହେବାର ଏକ ପ୍ରଧାନ କାରଣ କ'ଣ?",
+"options": [
+"ବୃକ୍ଷରୋପଣ",
+"ଅନିୟନ୍ତ୍ରିତ ଜଙ୍ଗଲ କାଟିବା ଓ ସହରୀକରଣ",
+"ପ୍ରାକୃତିକ ପରିବେଶ ସୁରକ୍ଷା",
+"ବନ୍ୟଜନ୍ତୁଙ୍କ ସଂଖ୍ୟା ବୃଦ୍ଧି"
+],
+"answer": "ଅନିୟନ୍ତ୍ରିତ ଜଙ୍ଗଲ କାଟିବା ଓ ସହରୀକରଣ",
+"explanation": "ଜଙ୍ଗଲ କାଟିବା ଫଳରେ ବନ୍ୟଜନ୍ତୁମାନେ ସେମାନଙ୍କ ବାସସ୍ଥାନ ହରାଇଥାନ୍ତି।"
+},
+{
+"questionEnglish": "What is the full form of the IUCN?",
+"questionOdia": "IUCNର ସମ୍ପୂର୍ଣ୍ଣ ନାମ କ'ଣ?",
+"options": [
+"International Union for Conservation of Nature",
+"Indian Union for Cultural Network",
+"International United Club Network",
+"Independent Union for Climate Nature"
+],
+"answer": "International Union for Conservation of Nature",
+"explanation": "IUCNର ଅର୍ଥ ହେଉଛି 'International Union for Conservation of Nature'।"
+},
+{
+"questionEnglish": "What happens if a species is labelled as 'Extinct'?",
+"questionOdia": "ଯଦି ଏକ ପ୍ରଜାତିକୁ 'ବିଲୁପ୍ତ' (Extinct) ବୋଲି ଘୋଷଣା କରାଯାଏ, ତାର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ସେମାନଙ୍କ ସଂଖ୍ୟା ବହୁତ କମିଛି",
+"ସେମାନେ ଆଉ ପୃଥିବୀରେ ନାହାଁନ୍ତି",
+"ସେମାନେ କେବଳ ଚିଡ଼ିଆଖାନାରେ ଅଛନ୍ତି",
+"ସେମାନେ ଅଧିକ ବଂଶବୃଦ୍ଧି କରୁଛନ୍ତି"
+],
+"answer": "ସେମାନେ ଆଉ ପୃଥିବୀରେ ନାହାଁନ୍ତି",
+"explanation": "ବିଲୁପ୍ତ ଅର୍ଥ ହେଉଛି ସେହି ଜୀବମାନେ ଏବେ ଆଉ କେଉଁଠି ବି ଜୀବିତ ନାହାଁନ୍ତି।"
+},
+{
+"questionEnglish": "Which level of consumers do lions belong to in a food chain?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳରେ ସିଂହ କେଉଁ ଶ୍ରେଣୀର ଉପଭୋକ୍ତା ଅଟେ?",
+"options": [
+"ପ୍ରାଥମିକ ଉପଭୋକ୍ତା",
+"ଦ୍ୱିତୀୟ ଶ୍ରେଣୀର ଉପଭୋକ୍ତା",
+"ତୃତୀୟ କିମ୍ବା ଉଚ୍ଚ ଶ୍ରେଣୀର ଉପଭୋକ୍ତା",
+"ଉତ୍ପାଦକ"
+],
+"answer": "ତୃତୀୟ କିମ୍ବା ଉଚ୍ଚ ଶ୍ରେଣୀର ଉପଭୋକ୍ତା",
+"explanation": "ସିଂହ କେବଳ ଅନ୍ୟ ମାଂସାହାରୀଙ୍କୁ ଶିକାର କରୁଥିବାରୁ ସେ ଉଚ୍ଚ ଶ୍ରେଣୀର ଉପଭୋକ୍ତା।"
+},
+{
+"questionEnglish": "What is the main source of energy for all ecosystems?",
+"questionOdia": "ସମସ୍ତ ପରିସଂସ୍ଥା ପାଇଁ ଶକ୍ତିର ମୁଖ୍ୟ ଉତ୍ସ କ'ଣ?",
+"options": [
+"ପବନ",
+"ପାଣି",
+"ସୂର୍ଯ୍ୟ",
+"ମାଟି"
+],
+"answer": "ସୂର୍ଯ୍ୟ",
+"explanation": "ସୂର୍ଯ୍ୟ ହେଉଛି ପୃଥିବୀର ସମସ୍ତ ଶକ୍ତିର ପ୍ରାଥମିକ ଓ ମୁଖ୍ୟ ଉତ୍ସ।"
+},
+{
+"questionEnglish": "Which animal is the primary target of conservation efforts in Gir National Park?",
+"questionOdia": "ଗିର ଜାତୀୟ ଉଦ୍ୟାନରେ କେଉଁ ପ୍ରାଣୀର ସୁରକ୍ଷା ପାଇଁ ବିଶେଷ ପ୍ରୟାସ କରାଯାଏ?",
+"options": [
+"ବାଘ",
+"ସିଂହ",
+"ହାତୀ",
+"ଗଣ୍ଡା"
+],
+"answer": "ସିଂହ",
+"explanation": "ଗୁଜୁରାଟର ଗିର ଜାତୀୟ ଉଦ୍ୟାନ ଏସୀୟ ସିଂହମାନଙ୍କ ପାଇଁ ପ୍ରସିଦ୍ଧ।"
+},
+{
+"questionEnglish": "What is the effect of environmental pollution on biodiversity?",
+"questionOdia": "ଜୈବ ବିବିଧତା ଉପରେ ପରିବେଶ ପ୍ରଦୂଷଣର ପ୍ରଭାବ କ'ଣ?",
+"options": [
+"ଜୈବ ବିବିଧତା ବୃଦ୍ଧି ପାଏ",
+"ଜୈବ ବିବିଧତା ହ୍ରାସ ପାଏ",
+"କୌଣସି ପ୍ରଭାବ ପଡ଼େ ନାହିଁ",
+"କେବଳ ଉଦ୍ଭିଦଙ୍କୁ ସାହାଯ୍ୟ କରେ"
+],
+"answer": "ଜୈବ ବିବିଧତା ହ୍ରାସ ପାଏ",
+"explanation": "ପ୍ରଦୂଷଣ ଯୋଗୁଁ ବହୁ ଜୀବଜନ୍ତୁଙ୍କ ବାସସ୍ଥାନ ନଷ୍ଟ ହୁଏ ଏବଂ ସେମାନଙ୍କର ମୃତ୍ୟୁ ଘଟେ, ଯାହା ଦ୍ୱାରା ଜୈବ ବିବିଧତା କମିଯାଏ।"
+},
+{
+"questionEnglish": "What are 'Endangered Species'?",
+"questionOdia": "ବିପନ୍ନ ପ୍ରଜାତି କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ଯେଉଁମାନେ ବହୁତ ସଂଖ୍ୟାରେ ଅଛନ୍ତି",
+"ଯେଉଁମାନଙ୍କ ସଂଖ୍ୟା ବହୁତ କମିଯାଇଛି ଏବଂ ବିଲୁପ୍ତ ହେବାର ଆଶଙ୍କା ଅଛି",
+"ଯେଉଁମାନେ କେବଳ ପାଣିରେ ରୁହନ୍ତି",
+"ଯେଉଁମାନେ ପୋଷା ମାନନ୍ତି"
+],
+"answer": "ଯେଉଁମାନଙ୍କ ସଂଖ୍ୟା ବହୁତ କମିଯାଇଛି ଏବଂ ବିଲୁପ୍ତ ହେବାର ଆଶଙ୍କା ଅଛି",
+"explanation": "ବିପନ୍ନ ପ୍ରଜାତିଗୁଡ଼ିକର ସଂଖ୍ୟା ଅତ୍ୟନ୍ତ କମ ହୋଇଯିବାରୁ ସେମାନେ ବିଲୁପ୍ତ ହେବାର ବିପଦରେ ଅଛନ୍ତି।"
+},
+{
+"questionEnglish": "Which of these is a decomposer?",
+"questionOdia": "ଏମାନଙ୍କ ମଧ୍ୟରୁ କିଏ ଜଣେ ବିଘଟକ?",
+"options": [
+"ବାଘ",
+"ବ୍ୟାକ୍ଟେରିଆ/କବକ",
+"ହରିଣ",
+"ଘାସ"
+],
+"answer": "ବ୍ୟାକ୍ଟେରିଆ/କବକ",
+"explanation": "ବ୍ୟାକ୍ଟେରିଆ ଓ କବକଗୁଡ଼ିକ ମୃତ ଜୀବଙ୍କୁ କ୍ଷୟ କରି ପୋଷକ ପଦାର୍ଥକୁ ମାଟିରେ ମିଶାଇଥାନ୍ତି, ତେଣୁ ସେମାନେ ବିଘଟକ।"
+},
+{
+"questionEnglish": "What does a 'Food Web' consist of?",
+"questionOdia": "ଖାଦ୍ୟ ଜାଲ (Food Web) କ'ଣ ନେଇ ଗଠିତ?",
+"options": [
+"ଗୋଟିଏ ସରଳ ଖାଦ୍ୟ ଶୃଙ୍ଖଳ",
+"ଅନେକ ପରସ୍ପର ସମ୍ବନ୍ଧିତ ଖାଦ୍ୟ ଶୃଙ୍ଖଳ",
+"କେବଳ ଗଛ",
+"କେବଳ ପଶୁ"
+],
+"answer": "ଅନେକ ପରସ୍ପର ସମ୍ବନ୍ଧିତ ଖାଦ୍ୟ ଶୃଙ୍ଖଳ",
+"explanation": "ଖାଦ୍ୟ ଜାଲରେ ଅନେକଗୁଡ଼ିଏ ଖାଦ୍ୟ ଶୃଙ୍ଖଳ ପରସ୍ପର ସହ ଜଡ଼ିତ ହୋଇ ରହିଥାନ୍ତି।"
+},
+{
+"questionEnglish": "What is the process of using energy from sunlight to make food called?",
+"questionOdia": "ସୂର୍ଯ୍ୟଶକ୍ତି ବ୍ୟବହାର କରି ଖାଦ୍ୟ ପ୍ରସ୍ତୁତ କରିବା ପ୍ରକ୍ରିୟାକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ଶ୍ୱସନ",
+"ଆଲୋକ ଶ୍ଳେଷଣ",
+"ପରିପାକ",
+"ବିଘଟନ"
+],
+"answer": "ଆଲୋକ ଶ୍ଳେଷଣ",
+"explanation": "ଉଦ୍ଭିଦମାନେ ଆଲୋକ ଶ୍ଳେଷଣ ମାଧ୍ୟମରେ ସୌର ଶକ୍ତିକୁ ଖାଦ୍ୟ ଶକ୍ତିରେ ପରିଣତ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Which state has the largest number of Wildlife Sanctuaries?",
+"questionOdia": "ଭାରତର କେଉଁ ରାଜ୍ୟରେ ସର୍ବାଧିକ ବନ୍ୟପ୍ରାଣୀ ଅଭୟାରଣ୍ୟ ରହିଛି?",
+"options": [
+"ଓଡ଼ିଶା",
+"ଆଣ୍ଡାମାନ ଓ ନିକୋବର",
+"ମଧ୍ୟପ୍ରଦେଶ",
+"ରାଜସ୍ଥାନ"
+],
+"answer": "ଆଣ୍ଡାମାନ ଓ ନିକୋବର",
+"explanation": "ଭାରତରେ ଆଣ୍ଡାମାନ ଓ ନିକୋବର ଦ୍ୱୀପପୁଞ୍ଜରେ ସର୍ବାଧିକ ସଂଖ୍ୟକ ଅଭୟାରଣ୍ୟ ରହିଛି।"
+},
+{
+"questionEnglish": "What is the primary objective of Project Tiger?",
+"questionOdia": "ପ୍ରୋଜେକ୍ଟ ଟାଇଗରର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ'ଣ?",
+"options": [
+"ବାଘ ସଂଖ୍ୟା ବୃଦ୍ଧି କରିବା",
+"ବାଘକୁ ଚିଡ଼ିଆଖାନାରେ ରଖିବା",
+"ବାଘ ଶିକାରକୁ ପ୍ରୋତ୍ସାହିତ କରିବା",
+"ଜଙ୍ଗଲ କାଟିବା"
+],
+"answer": "ବାଘ ସଂଖ୍ୟା ବୃଦ୍ଧି କରିବା",
+"explanation": "ବାଘମାନଙ୍କ ସଂଖ୍ୟା ବୃଦ୍ଧି ଏବଂ ସେମାନଙ୍କ ବାସସ୍ଥାନ ସୁରକ୍ଷା ପାଇଁ ପ୍ରୋଜେକ୍ଟ ଟାଇଗର ଆରମ୍ଭ କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "Which of these is a secondary consumer?",
+"questionOdia": "ଏମାନଙ୍କ ମଧ୍ୟରୁ କିଏ ଜଣେ ଦ୍ୱିତୀୟ ଶ୍ରେଣୀର ଉପଭୋକ୍ତା?",
+"options": [
+"ହରିଣ",
+"ବେଙ୍ଗ",
+"ଘାସ",
+"ବାଘ"
+],
+"answer": "ବେଙ୍ଗ",
+"explanation": "ବେଙ୍ଗ କୀଟପତଙ୍ଗମାନଙ୍କୁ ଖାଉଥିବାରୁ ଏହା ଦ୍ୱିତୀୟ ଶ୍ରେଣୀର ଉପଭୋକ୍ତା।"
+},
+{
+"questionEnglish": "What is a 'Hot Spot' in terms of biodiversity?",
+"questionOdia": "ଜୈବ ବିବିଧତା ଦୃଷ୍ଟିରୁ 'ହଟ୍ ସ୍ପଟ୍' କ'ଣ?",
+"options": [
+"ବହୁତ ଗରମ ସ୍ଥାନ",
+"ବହୁତ ଅଧିକ ଜୈବ ବିବିଧତା ଥିବା ସ୍ଥାନ",
+"ଜୀବ ବିହୀନ ସ୍ଥାନ",
+"କେବଳ ସହରୀ ଅଞ୍ଚଳ"
+],
+"answer": "ବହୁତ ଅଧିକ ଜୈବ ବିବିଧତା ଥିବା ସ୍ଥାନ",
+"explanation": "ଯେଉଁ ସବୁ ଅଞ୍ଚଳରେ ଅତ୍ୟଧିକ ପ୍ରକାରର ଜୀବଜନ୍ତୁ ଓ ଉଦ୍ଭିଦ ଦେଖିବାକୁ ମିଳେ, ସେମାନଙ୍କୁ ହଟ୍ ସ୍ପଟ୍ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which of the following activities helps in conservation of wildlife?",
+"questionOdia": "ନିମ୍ନଲିଖିତ କେଉଁ କାର୍ଯ୍ୟ ବନ୍ୟପ୍ରାଣୀ ସୁରକ୍ଷାରେ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ଅତ୍ୟଧିକ ଶିକାର",
+"ଜଙ୍ଗଲ ନଷ୍ଟ କରିବା",
+"ଅଭୟାରଣ୍ୟ ଓ ଜାତୀୟ ଉଦ୍ୟାନ ପ୍ରତିଷ୍ଠା",
+"ପ୍ରଦୂଷଣ ବଢ଼ାଇବା"
+],
+"answer": "ଅଭୟାରଣ୍ୟ ଓ ଜାତୀୟ ଉଦ୍ୟାନ ପ୍ରତିଷ୍ଠା",
+"explanation": "ଅଭୟାରଣ୍ୟ ଓ ଜାତୀୟ ଉଦ୍ୟାନ ପ୍ରତିଷ୍ଠା କରି ବନ୍ୟଜନ୍ତୁଙ୍କୁ ସୁରକ୍ଷିତ ବାସସ୍ଥାନ ଯୋଗାଇ ଦିଆଯାଏ।"
+},
+{
+"questionEnglish": "What is the main threat to mountain quails?",
+"questionOdia": "ପାହାଡ଼ି ଚଢ଼େଇ (Mountain quail) ମାନଙ୍କ ପାଇଁ ମୁଖ୍ୟ ବିପଦ କ'ଣ?",
+"options": [
+"ଅଧିକ ବର୍ଷା",
+"ଶିକାର ଓ ବାସସ୍ଥାନ ହ୍ରାସ",
+"ଖାଦ୍ୟର ଅଭାବ",
+"ଅଧିକ ଥଣ୍ଡା"
+],
+"answer": "ଶିକାର ଓ ବାସସ୍ଥାନ ହ୍ରାସ",
+"explanation": "ମାନବୀୟ କାର୍ଯ୍ୟକଳାପ ଯୋଗୁଁ ବାସସ୍ଥାନ ନଷ୍ଟ ଏବଂ ଶିକାର ଫଳରେ ଏହି ପ୍ରଜାତି ବିପଦରେ ଅଛନ୍ତି।"
+},
+{
+"questionEnglish": "In which state is the Bandipur National Park located?",
+"questionOdia": "ବାନ୍ଦିପୁର ଜାତୀୟ ଉଦ୍ୟାନ କେଉଁ ରାଜ୍ୟରେ ଅବସ୍ଥିତ?",
+"options": [
+"କର୍ଣ୍ଣାଟକ",
+"ଓଡ଼ିଶା",
+"ବିହାର",
+"ପଞ୍ଜାବ"
+],
+"answer": "କର୍ଣ୍ଣାଟକ",
+"explanation": "ବାନ୍ଦିପୁର ଜାତୀୟ ଉଦ୍ୟାନ କର୍ଣ୍ଣାଟକ ରାଜ୍ୟରେ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "What is meant by the term 'Exotic Species'?",
+"questionOdia": "'ବିଦେଶୀ ପ୍ରଜାତି' (Exotic Species) ର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ସ୍ଥାନୀୟ ଜୀବ",
+"ବାହାରୁ ଆସିଥିବା ପ୍ରଜାତି",
+"ଦୁର୍ଲଭ ପ୍ରଜାତି",
+"ବିଲୁପ୍ତ ପ୍ରଜାତି"
+],
+"answer": "ବାହାରୁ ଆସିଥିବା ପ୍ରଜାତି",
+"explanation": "ଯେଉଁ ପ୍ରଜାତିମାନେ ସେହି ଅଞ୍ଚଳର ମୂଳ ବାସିନ୍ଦା ନୁହଁନ୍ତି ଏବଂ ବାହାରୁ ଆସିଛନ୍ତି, ସେମାନଙ୍କୁ ବିଦେଶୀ ପ୍ରଜାତି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What type of energy flows through a food chain?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳରେ କେଉଁ ପ୍ରକାରର ଶକ୍ତି ପ୍ରବାହିତ ହୋଇଥାଏ?",
+"options": [
+"ରାସାୟନିକ ଶକ୍ତି",
+"ବୈଦ୍ୟୁତିକ ଶକ୍ତି",
+"ଆଲୋକ ଶକ୍ତି",
+"ଉତ୍ତାପ ଶକ୍ତି"
+],
+"answer": "ରାସାୟନିକ ଶକ୍ତି",
+"explanation": "ଖାଦ୍ୟରେ ଥିବା ସଞ୍ଚିତ ଶକ୍ତି ହେଉଛି ରାସାୟନିକ ଶକ୍ତି, ଯାହା ଶୃଙ୍ଖଳ ମାଧ୍ୟମରେ ପ୍ରବାହିତ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the primary function of a Wildlife Sanctuary?",
+"questionOdia": "ବନ୍ୟପ୍ରାଣୀ ଅଭୟାରଣ୍ୟର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କ'ଣ?",
+"options": [
+"ପର୍ଯ୍ୟଟନ ବଢ଼ାଇବା",
+"ବନ୍ୟଜନ୍ତୁଙ୍କୁ ସୁରକ୍ଷିତ ରଖିବା ଓ ବଂଶ ବୃଦ୍ଧି",
+"ଶିକାର କରିବା",
+"କାଠ ସଂଗ୍ରହ କରିବା"
+],
+"answer": "ବନ୍ୟଜନ୍ତୁଙ୍କୁ ସୁରକ୍ଷିତ ରଖିବା ଓ ବଂଶ ବୃଦ୍ଧି",
+"explanation": "ଅଭୟାରଣ୍ୟ ମୁଖ୍ୟତଃ ବନ୍ୟଜନ୍ତୁମାନଙ୍କ ସୁରକ୍ଷା ଓ ପ୍ରଜନନ ପାଇଁ ଉଦ୍ଦିଷ୍ଟ।"
+},
+{
+"questionEnglish": "Which animal is the symbol of biodiversity conservation?",
+"questionOdia": "ଜୈବ ବିବିଧତା ସଂରକ୍ଷଣର ପ୍ରତୀକ କେଉଁ ପ୍ରାଣୀକୁ ମାନାଯାଏ?",
+"options": [
+"ବାଘ",
+"ହାତୀ",
+"ଗଣ୍ଡା",
+"ପାଣ୍ଡା"
+],
+"answer": "ପାଣ୍ଡା",
+"explanation": "ବିଶ୍ୱବ୍ୟାପୀ ଜୈବ ବିବିଧତା ସଂରକ୍ଷଣର ପ୍ରତୀକ ଭାବେ ପାଣ୍ଡାକୁ ଚିହ୍ନିତ କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "What is the cause of the 'Pink-headed duck' being extinct?",
+"questionOdia": "ଗୋଲାପୀ ମୁଣ୍ଡିଆ ବତକ ବିଲୁପ୍ତ ହେବାର କାରଣ କ'ଣ?",
+"options": [
+"ଅତ୍ୟଧିକ ପ୍ରଜନନ",
+"ବାସସ୍ଥାନ ହ୍ରାସ ଓ ଅତ୍ୟଧିକ ଶିକାର",
+"ପାଣିର ଅଭାବ",
+"ଅଧିକ ଗରମ"
+],
+"answer": "ବାସସ୍ଥାନ ହ୍ରାସ ଓ ଅତ୍ୟଧିକ ଶିକାର",
+"explanation": "ମାନବୀୟ କାରଣରୁ ଏହି ପକ୍ଷୀ ବିଲୁପ୍ତ ହୋଇସାରିଛି।"
+},
+{
+"questionEnglish": "Which state does not have any National Park?",
+"questionOdia": "ଭାରତର କେଉଁ ରାଜ୍ୟରେ ଗୋଟିଏ ହେଲେ ଜାତୀୟ ଉଦ୍ୟାନ ନାହିଁ?",
+"options": [
+"ପଞ୍ଜାବ",
+"ଓଡ଼ିଶା",
+"ଆସାମ",
+"ମଧ୍ୟପ୍ରଦେଶ"
+],
+"answer": "ପଞ୍ଜାବ",
+"explanation": "ପଞ୍ଜାବରେ କୌଣସି ଜାତୀୟ ଉଦ୍ୟାନ ନାହିଁ, କିନ୍ତୁ ବନ୍ୟପ୍ରାଣୀ ଅଭୟାରଣ୍ୟ ଅଛି।"
+},
+{
+"questionEnglish": "What are scavengers?",
+"questionOdia": "ମୃତଭୋଜୀ (Scavengers) କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ସଜୀବ ଶିକାର କରୁଥିବା ପ୍ରାଣୀ",
+"ମୃତ ଜୀବଙ୍କୁ ଖାଉଥିବା ପ୍ରାଣୀ",
+"ଘାସ ଖାଉଥିବା ପ୍ରାଣୀ",
+"ଫଳ ଖାଉଥିବା ପ୍ରାଣୀ"
+],
+"answer": "ମୃତ ଜୀବଙ୍କୁ ଖାଉଥିବା ପ୍ରାଣୀ",
+"explanation": "ଶାଗୁଣା ଓ କୁକୁର ଭଳି ପ୍ରାଣୀମାନେ ମୃତ ଜୀବଙ୍କୁ ଖାଇ ପରିବେଶ ସଫା ରଖନ୍ତି।"
+},
+{
+"questionEnglish": "What is the meaning of 'Biological Pyramid'?",
+"questionOdia": "'ଜୈବ ପ୍ରାୟାମିଡ୍'ର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଏକ ପ୍ରକାରର ପଥର",
+"ଖାଦ୍ୟ ଶୃଙ୍ଖଳର ବିଭିନ୍ନ ସ୍ତରର ସଂଖ୍ୟା ବା ଜୀବଭାରର ସଜ୍ଜା",
+"ଏକ ପୁରୁଣା ମନ୍ଦିର",
+"କେବଳ ଗଛର ଉଚ୍ଚତା"
+],
+"answer": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳର ବିଭିନ୍ନ ସ୍ତରର ସଂଖ୍ୟା ବା ଜୀବଭାରର ସଜ୍ଜା",
+"explanation": "ଜୈବ ପ୍ରାୟାମିଡ୍ ଖାଦ୍ୟ ଶୃଙ୍ଖଳରେ ଜୀବମାନଙ୍କ ସଂଖ୍ୟା ବା ଶକ୍ତିର ପରିମାଣକୁ ସୂଚାଏ।"
+},
+{
+"questionEnglish": "Which state has the largest area under forest cover?",
+"questionOdia": "ଭାରତର କେଉଁ ରାଜ୍ୟରେ ସର୍ବାଧିକ ବନଭୂମି ରହିଛି?",
+"options": [
+"ମଧ୍ୟପ୍ରଦେଶ",
+"ଓଡ଼ିଶା",
+"ହରିୟାଣା",
+"ପଞ୍ଜାବ"
+],
+"answer": "ମଧ୍ୟପ୍ରଦେଶ",
+"explanation": "ଆୟତନ ଦୃଷ୍ଟିରୁ ମଧ୍ୟପ୍ରଦେଶରେ ସର୍ବାଧିକ ବନଭୂମି ରହିଛି।"
+},
+{
+"questionEnglish": "What is a 'National Park'?",
+"questionOdia": "ଜାତୀୟ ଉଦ୍ୟାନ କ'ଣ?",
+"options": [
+"ଏକ ଖେଳ ପଡ଼ିଆ",
+"ସରକାରଙ୍କ ଦ୍ଵାରା ସୁରକ୍ଷିତ ବନ୍ୟପ୍ରାଣୀଙ୍କ ପାଇଁ ଏକ ବୃହତ ସଂରକ୍ଷିତ ଅଞ୍ଚଳ",
+"ଏକ ବଗିଚା",
+"ଏକ ଚିଡ଼ିଆଖାନା"
+],
+"answer": "ସରକାରଙ୍କ ଦ୍ଵାରା ସୁରକ୍ଷିତ ବନ୍ୟପ୍ରାଣୀଙ୍କ ପାଇଁ ଏକ ବୃହତ ସଂରକ୍ଷିତ ଅଞ୍ଚଳ",
+"explanation": "ଜାତୀୟ ଉଦ୍ୟାନରେ ପ୍ରାକୃତିକ ପରିବେଶ ସହିତ ବନ୍ୟପ୍ରାଣୀଙ୍କୁ ସୁରକ୍ଷା ଦିଆଯାଏ।"
+},
+{
+"questionEnglish": "Which animal is the national heritage animal of India?",
+"questionOdia": "ଭାରତର 'ଜାତୀୟ ଐତିହ୍ୟ ପ୍ରାଣୀ' କିଏ?",
+"options": [
+"ବାଘ",
+"ହାତୀ",
+"ସିଂହ",
+"ଗଣ୍ଡା"
+],
+"answer": "ହାତୀ",
+"explanation": "ହାତୀକୁ ଭାରତର ଜାତୀୟ ଐତିହ୍ୟ ପ୍ରାଣୀ ଭାବରେ ଘୋଷଣା କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "What does a pyramid of numbers represent?",
+"questionOdia": "ସଂଖ୍ୟା ପ୍ରାୟାମିଡ୍ କ'ଣ ସୂଚାଏ?",
+"options": [
+"ଜୀବଙ୍କ ଶରୀରର ଓଜନ",
+"ପ୍ରତ୍ୟେକ ପୋଷଣ ସ୍ତରରେ ଜୀବଙ୍କ ସଂଖ୍ୟା",
+"ଜୀବଙ୍କ ଆୟୁଷ",
+"ଜୀବଙ୍କ ଶକ୍ତି"
+],
+"answer": "ପ୍ରତ୍ୟେକ ପୋଷଣ ସ୍ତରରେ ଜୀବଙ୍କ ସଂଖ୍ୟା",
+"explanation": "ସଂଖ୍ୟା ପ୍ରାୟାମିଡ୍‌ରେ ଉତ୍ପାଦକଙ୍କଠାରୁ ଆରମ୍ଭ କରି ଉଚ୍ଚ ଉପଭୋକ୍ତାଙ୍କ ସଂଖ୍ୟା କିପରି ଥାଏ ତାହା ଦେଖାଯାଏ।"
+},
+{
+"questionEnglish": "Which of these is a rare species in India?",
+"questionOdia": "ଭାରତରେ ଏକ ଦୁର୍ଲଭ ପ୍ରଜାତି କିଏ?",
+"options": [
+"କାଉ",
+"ମହାବଳ ବାଘ",
+"କୁକୁଡ଼ା",
+"ଶାଗୁଆନ ଗଛ"
+],
+"answer": "ମହାବଳ ବାଘ",
+"explanation": "ମହାବଳ ବାଘ ଏବେ ଦୁର୍ଲଭ ହୋଇପଡ଼ିଛି।"
+},
+{
+"questionEnglish": "What is the significance of the year 1972 in India?",
+"questionOdia": "ଭାରତରେ 1972 ମସିହାର ମହତ୍ତ୍ୱ କ'ଣ?",
+"options": [
+"ପ୍ରଥମେ ପାଠ ପଢ଼ା ଆରମ୍ଭ",
+"ବନ୍ୟପ୍ରାଣୀ ସଂରକ୍ଷଣ ଆଇନ ପ୍ରଣୟନ",
+"ଜଙ୍ଗଲ କାଟିବା",
+"କିଛି ବି ନୁହେଁ"
+],
+"answer": "ବନ୍ୟପ୍ରାଣୀ ସଂରକ୍ଷଣ ଆଇନ ପ୍ରଣୟନ",
+"explanation": "1972 ମସିହାରେ ଭାରତ ସରକାର ବନ୍ୟପ୍ରାଣୀ ସଂରକ୍ଷଣ ଆଇନ ଲାଗୁ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What happens if a primary consumer is removed from a food chain?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳରୁ ପ୍ରାଥମିକ ଉପଭୋକ୍ତାଙ୍କୁ ହଟାଇ ଦେଲେ କ'ଣ ହେବ?",
+"options": [
+"କିଛି ପରିବର୍ତ୍ତନ ହେବ ନାହିଁ",
+"ଉତ୍ପାଦକଙ୍କ ସଂଖ୍ୟା ଅତ୍ୟଧିକ ବଢ଼ିଯିବ",
+"ଖାଦ୍ୟ ଶୃଙ୍ଖଳ ଅସନ୍ତୁଳିତ ହେବ",
+"ଦ୍ୱିତୀୟ ଶ୍ରେଣୀର ଉପଭୋକ୍ତା ବଢ଼ିବେ"
+],
+"answer": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳ ଅସନ୍ତୁଳିତ ହେବ",
+"explanation": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳରେ ପ୍ରତ୍ୟେକ ସ୍ତର ପରସ୍ପର ଉପରେ ନିର୍ଭରଶୀଳ, ତେଣୁ ଗୋଟିଏ ସ୍ତର ବାଦ୍ ଗଲେ ପୂରା ସନ୍ତୁଳନ ଭାଙ୍ଗିଯିବ।"
+},
+{
+"questionEnglish": "Which is the smallest trophic level unit in energy transfer?",
+"questionOdia": "ଶକ୍ତି ସ୍ଥାନାନ୍ତରଣରେ ସବୁଠାରୁ ମୌଳିକ ପୋଷଣ ସ୍ତର କିଏ?",
+"options": [
+"ଉତ୍ପାଦକ",
+"ସର୍ବଭକ୍ଷୀ",
+"ମାଂସାହାରୀ",
+"ବିଘଟକ"
+],
+"answer": "ଉତ୍ପାଦକ",
+"explanation": "ଉତ୍ପାଦକମାନେ ସୂର୍ଯ୍ୟଶକ୍ତିକୁ ପ୍ରଥମେ ଗ୍ରହଣ କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is meant by 'Nature Conservation'?",
+"questionOdia": "'ପ୍ରକୃତି ସଂରକ୍ଷଣ'ର ଅର୍ଥ କ'ଣ?",
+"options": [
+"କେବଳ ଜଙ୍ଗଲ କାଟିବା",
+"ପ୍ରାକୃତିକ ସମ୍ପଦକୁ ସୁରକ୍ଷିତ ରଖିବା",
+"କେବଳ ପାଣିକୁ ପ୍ରଦୂଷିତ କରିବା",
+"ଜୀବଙ୍କୁ ମାରିବା"
+],
+"answer": "ପ୍ରାକୃତିକ ସମ୍ପଦକୁ ସୁରକ୍ଷିତ ରଖିବା",
+"explanation": "ପ୍ରକୃତି ସଂରକ୍ଷଣର ଲକ୍ଷ୍ୟ ହେଉଛି ଭବିଷ୍ୟତ ପିଢ଼ି ପାଇଁ ପ୍ରାକୃତିକ ସମ୍ପଦକୁ ବଞ୍ଚାଇ ରଖିବା।"
+},
+{
+"questionEnglish": "Which of these is a biotic component of an ecosystem?",
+"questionOdia": "ଏମାନଙ୍କ ମଧ୍ୟରୁ କିଏ ପରିସଂସ୍ଥାର ଏକ ଜୈବ ଉପାଦାନ?",
+"options": [
+"ସୂର୍ଯ୍ୟାଲୋକ",
+"ପାଣି",
+"ସବୁଜ ଉଦ୍ଭିଦ",
+"ମାଟି"
+],
+"answer": "ସବୁଜ ଉଦ୍ଭିଦ",
+"explanation": "ଯେଉଁଗୁଡ଼ିକ ଜୀବିତ, ସେମାନେ ଜୈବ ଉପାଦାନ। ଉଦ୍ଭିଦ ଜୀବିତ ହୋଇଥିବାରୁ ଏହା ଜୈବ।"
+},
+{
+"questionEnglish": "Which bird is known for its beautiful plumage and is the national bird of India?",
+"questionOdia": "କେଉଁ ପକ୍ଷୀଟି ତା'ର ସୁନ୍ଦର ପର ପାଇଁ ଜଣାଶୁଣା ଏବଂ ଭାରତର ଜାତୀୟ ପକ୍ଷୀ?",
+"options": [
+"ଶାଗୁଣା",
+"ମୟୂର",
+"ପାରା",
+"କାଉ"
+],
+"answer": "ମୟୂର",
+"explanation": "ମୟୂର ହେଉଛି ଭାରତର ଜାତୀୟ ପକ୍ଷୀ।"
+},
+{
+"questionEnglish": "What does a habitat provide to a wild animal?",
+"questionOdia": "ବାସସ୍ଥାନ ବନ୍ୟଜନ୍ତୁଙ୍କୁ କ'ଣ ପ୍ରଦାନ କରେ?",
+"options": [
+"କେବଳ ଖାଦ୍ୟ",
+"କେବଳ ପାଣି",
+"ଖାଦ୍ୟ, ଆଶ୍ରୟ ଓ ସୁରକ୍ଷା",
+"କିଛି ବି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ, ଆଶ୍ରୟ ଓ ସୁରକ୍ଷା",
+"explanation": "ବାସସ୍ଥାନ ହେଉଛି ଜୀବର ଘର ଯେଉଁଠାରୁ ସେ ତା'ର ସମସ୍ତ ଆବଶ୍ୟକତା ପୂରଣ କରେ।"
+},
+{
+"questionEnglish": "Which of the following is a primary consumer?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କିଏ ଜଣେ ପ୍ରାଥମିକ ଉପଭୋକ୍ତା?",
+"options": [
+"ବାଘ",
+"ହରିଣ",
+"ବ୍ୟାକ୍ଟେରିଆ",
+"ସିଂହ"
+],
+"answer": "ହରିଣ",
+"explanation": "ହରିଣ ସିଧାସଳଖ ଘାସ କିମ୍ବା ଉଦ୍ଭିଦ ଖାଉଥିବାରୁ ଏହା ପ୍ରାଥମିକ ଉପଭୋକ୍ତା।"
+},
+{
+"questionEnglish": "What is the primary cause of environmental degradation?",
+"questionOdia": "ପରିବେଶ ଅବକ୍ଷୟର ପ୍ରଧାନ କାରଣ କ'ଣ?",
+"options": [
+"ଅତ୍ୟଧିକ ବୃକ୍ଷରୋପଣ",
+"ମାନବୀୟ କାର୍ଯ୍ୟକଳାପ",
+"ପ୍ରାକୃତିକ ସୁରକ୍ଷା",
+"ବନ୍ୟଜନ୍ତୁଙ୍କ ସଂଖ୍ୟା ବୃଦ୍ଧି"
+],
+"answer": "ମାନବୀୟ କାର୍ଯ୍ୟକଳାପ",
+"explanation": "ଶିଳ୍ପାୟନ, ସହରୀକରଣ ଓ ପ୍ରଦୂଷଣ ଯୋଗୁଁ ମଣିଷ ପରିବେଶକୁ ନଷ୍ଟ କରୁଛି।"
+},
+{
+"questionEnglish": "Which wildlife is protected in the Kaziranga sanctuary?",
+"questionOdia": "କାଜିରଙ୍ଗା ଅଭୟାରଣ୍ୟରେ କେଉଁ ବନ୍ୟପ୍ରାଣୀ ସଂରକ୍ଷିତ ଅଛି?",
+"options": [
+"ବାଘ",
+"ଏକ ଶିଙ୍ଗିଆ ଗଣ୍ଡା",
+"ହାତୀ",
+"ଭାଲୁ"
+],
+"answer": "ଏକ ଶିଙ୍ଗିଆ ଗଣ୍ଡା",
+"explanation": "କାଜିରଙ୍ଗା ଏକ ଶିଙ୍ଗିଆ ଗଣ୍ଡା ପାଇଁ ବିଶ୍ୱପ୍ରସିଦ୍ଧ।"
+},
+{
+"questionEnglish": "What is the significance of the Food Pyramid?",
+"questionOdia": "ଖାଦ୍ୟ ପ୍ରାୟାମିଡ୍‌ର ଗୁରୁତ୍ୱ କ'ଣ?",
+"options": [
+"ଏହା କେବଳ ଏକ ଚିତ୍ର",
+"ଏହା ପରିସଂସ୍ଥାରେ ଶକ୍ତିର ପ୍ରବାହ ଓ ଜୀବଙ୍କ ସଂଖ୍ୟା ବୁଝାଇବାରେ ସାହାଯ୍ୟ କରେ",
+"ଏହା ଜୀବଙ୍କ ଓଜନ ମାପିବାରେ ସାହାଯ୍ୟ କରେ",
+"ଏହା କେବଳ ଉଦ୍ଭିଦ ପାଇଁ"
+],
+"answer": "ଏହା ପରିସଂସ୍ଥାରେ ଶକ୍ତିର ପ୍ରବାହ ଓ ଜୀବଙ୍କ ସଂଖ୍ୟା ବୁଝାଇବାରେ ସାହାଯ୍ୟ କରେ",
+"explanation": "ଖାଦ୍ୟ ପ୍ରାୟାମିଡ୍ ପରିସଂସ୍ଥାର ଗଠନକୁ ବୁଝିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Which gas is mainly responsible for global warming?",
+"questionOdia": "ଭୂତାପ ବୃଦ୍ଧି (Global Warming) ପାଇଁ କେଉଁ ଗ୍ୟାସ୍ ମୁଖ୍ୟତଃ ଦାୟୀ?",
+"options": [
+"ଅମ୍ଳଜାନ",
+"ଅଙ୍ଗାରକାମ୍ଳ",
+"ଯବକ୍ଷାରଜାନ",
+"ହାଇଡ୍ରୋଜେନ୍"
+],
+"answer": "ଅଙ୍ଗାରକାମ୍ଳ",
+"explanation": "ଅଙ୍ଗାରକାମ୍ଳ ଗ୍ୟାସ୍ ପୃଥିବୀର ତାପମାତ୍ରା ବଢ଼ାଇବାରେ ମୁଖ୍ୟ ଭୂମିକା ଗ୍ରହଣ କରେ।"
+},
+{
+"questionEnglish": "What happens if a predator is removed from the food chain?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳରୁ ଶିକାରୀ (Predator) ମାନଙ୍କୁ ହଟାଇ ଦେଲେ କ'ଣ ହେବ?",
+"options": [
+"ଶିକାର ହେଉଥିବା ପ୍ରାଣୀଙ୍କ ସଂଖ୍ୟା ବହୁତ ବଢ଼ିଯିବ",
+"ଖାଦ୍ୟ ଶୃଙ୍ଖଳ ବହୁତ ଭଲ ଚାଲିବ",
+"କିଛି ପରିବର୍ତ୍ତନ ହେବ ନାହିଁ",
+"ଉତ୍ପାଦକ କମିଯିବେ"
+],
+"answer": "ଶିକାର ହେଉଥିବା ପ୍ରାଣୀଙ୍କ ସଂଖ୍ୟା ବହୁତ ବଢ଼ିଯିବ",
+"explanation": "ଶିକାରୀ ନଥିଲେ ଶାକାହାରୀଙ୍କ ସଂଖ୍ୟା ଅନିୟନ୍ତ୍ରିତ ହୋଇଯିବ, ଯାହା ପରିବେଶକୁ ନଷ୍ଟ କରିବ।"
+},
+{
+"questionEnglish": "What are autotrophs?",
+"questionOdia": "ସ୍ୱଭୋଜୀ (Autotrophs) କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ଯେଉଁମାନେ ନିଜ ଖାଦ୍ୟ ନିଜେ ପ୍ରସ୍ତୁତ କରନ୍ତି",
+"ଯେଉଁମାନେ ଅନ୍ୟ ଉପରେ ନିର୍ଭର କରନ୍ତି",
+"ଯେଉଁମାନେ କେବଳ ମାଂସ ଖାଆନ୍ତି",
+"ଯେଉଁମାନେ କେବଳ ପାଣି ପିଅନ୍ତି"
+],
+"answer": "ଯେଉଁମାନେ ନିଜ ଖାଦ୍ୟ ନିଜେ ପ୍ରସ୍ତୁତ କରନ୍ତି",
+"explanation": "ଉଦ୍ଭିଦମାନେ ଆଲୋକ ଶ୍ଳେଷଣ ମାଧ୍ୟମରେ ନିଜ ଖାଦ୍ୟ ନିଜେ ପ୍ରସ୍ତୁତ କରୁଥିବାରୁ ସେମାନେ ସ୍ୱଭୋଜୀ।"
+},
+{
+"questionEnglish": "What is the primary role of decomposers in nature?",
+"questionOdia": "ପ୍ରକୃତିରେ ବିଘଟକମାନଙ୍କର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କ'ଣ?",
+"options": [
+"ଖାଦ୍ୟ ପ୍ରସ୍ତୁତ କରିବା",
+"ପୋଷକ ଚକ୍ରକୁ ସମ୍ପୂର୍ଣ୍ଣ କରିବା (ମୃତ ପଦାର୍ଥକୁ ମାଟିରେ ମିଶାଇବା)",
+"ଅଧିକ ଶିକାର କରିବା",
+"ଜଙ୍ଗଲ କାଟିବା"
+],
+"answer": "ପୋଷକ ଚକ୍ରକୁ ସମ୍ପୂର୍ଣ୍ଣ କରିବା (ମୃତ ପଦାର୍ଥକୁ ମାଟିରେ ମିଶାଇବା)",
+"explanation": "ବିଘଟକମାନେ ମୃତ ପ୍ରାଣୀ ଓ ଉଦ୍ଭିଦରୁ ପୋଷକ ପଦାର୍ଥକୁ ମାଟିରେ ମିଶାଇ ପୁନର୍ବାର ବ୍ୟବହାର ଯୋଗ୍ୟ କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is the term for species that are found in only one specific region?",
+"questionOdia": "କେବଳ ଗୋଟିଏ ନିର୍ଦ୍ଦିଷ୍ଟ ଅଞ୍ଚଳରେ ଦେଖାଯାଉଥିବା ପ୍ରଜାତିକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ସ୍ଥାନୀୟ ପ୍ରଜାତି (Endemic Species)",
+"ବିଦେଶୀ ପ୍ରଜାତି",
+"ସର୍ବବ୍ୟାପୀ ପ୍ରଜାତି",
+"ବିଲୁପ୍ତ ପ୍ରଜାତି"
+],
+"answer": "ସ୍ଥାନୀୟ ପ୍ରଜାତି (Endemic Species)",
+"explanation": "ସ୍ଥାନୀୟ ପ୍ରଜାତିଗୁଡ଼ିକ ସେହି ଅଞ୍ଚଳ ବ୍ୟତୀତ ଅନ୍ୟ କୌଣସି ସ୍ଥାନରେ ପ୍ରାକୃତିକ ଭାବେ ମିଳନ୍ତି ନାହିଁ।"
+},
+{
+"questionEnglish": "Which state has the Sundarbans National Park?",
+"questionOdia": "ସୁନ୍ଦରବନ ଜାତୀୟ ଉଦ୍ୟାନ କେଉଁ ରାଜ୍ୟରେ ଅବସ୍ଥିତ?",
+"options": [
+"ପଶ୍ଚିମବଙ୍ଗ",
+"ଓଡ଼ିଶା",
+"କେରଳ",
+"ବିହାର"
+],
+"answer": "ପଶ୍ଚିମବଙ୍ଗ",
+"explanation": "ସୁନ୍ଦରବନ ପଶ୍ଚିମବଙ୍ଗରେ ଅବସ୍ଥିତ ଏବଂ ଏହା ରୟାଲ ବେଙ୍ଗଲ ଟାଇଗର ପାଇଁ ଜଣାଶୁଣା।"
+},
+{
+"questionEnglish": "What are heterotrophs?",
+"questionOdia": "ପରଭୋଜୀ (Heterotrophs) କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ନିଜ ଖାଦ୍ୟ ନିଜେ କରନ୍ତି",
+"ଖାଦ୍ୟ ପାଇଁ ଅନ୍ୟ ଉପରେ ନିର୍ଭର କରନ୍ତି",
+"କେବଳ ସୂର୍ଯ୍ୟରୁ ଶକ୍ତି ନିଅନ୍ତି",
+"କିଛି ବି ଖାଆନ୍ତି ନାହିଁ"
+],
+"answer": "ଖାଦ୍ୟ ପାଇଁ ଅନ୍ୟ ଉପରେ ନିର୍ଭର କରନ୍ତି",
+"explanation": "ପ୍ରାଣୀମାନେ ନିଜ ଖାଦ୍ୟ ନିଜେ ତିଆରି କରିପାରନ୍ତି ନାହିଁ, ତେଣୁ ସେମାନେ ଉଦ୍ଭିଦ ବା ଅନ୍ୟ ପ୍ରାଣୀଙ୍କ ଉପରେ ନିର୍ଭର କରନ୍ତି।"
+},
+{
+"questionEnglish": "Why is it important to protect forests?",
+"questionOdia": "ଜଙ୍ଗଲ ସୁରକ୍ଷା କରିବା କାହିଁକି ଜରୁରୀ?",
+"options": [
+"କାରଣ ସେଠାରେ ବହୁତ କାଠ ମିଳେ",
+"ଏହା ବନ୍ୟଜନ୍ତୁଙ୍କ ବାସସ୍ଥାନ ଓ ପରିବେଶ ସନ୍ତୁଳନ ରକ୍ଷା କରେ",
+"ଏହା କେବଳ ସରକାରଙ୍କ ଆଦେଶ",
+"କୌଣସି ଜରୁରୀ ନୁହେଁ"
+],
+"answer": "ଏହା ବନ୍ୟଜନ୍ତୁଙ୍କ ବାସସ୍ଥାନ ଓ ପରିବେଶ ସନ୍ତୁଳନ ରକ୍ଷା କରେ",
+"explanation": "ଜଙ୍ଗଲ ବାୟୁମଣ୍ଡଳକୁ ସୁଧାରେ ଏବଂ ବହୁ ଜୀବଜନ୍ତୁଙ୍କୁ ଆଶ୍ରୟ ଦିଏ।"
+},
+{
+"questionEnglish": "What is the effect of hunting on endangered species?",
+"questionOdia": "ବିପନ୍ନ ପ୍ରଜାତିଙ୍କ ଉପରେ ଶିକାରର ପ୍ରଭାବ କ'ଣ?",
+"options": [
+"ସେମାନଙ୍କ ସଂଖ୍ୟା ବଢ଼ିଯାଏ",
+"ସେମାନେ ଶୀଘ୍ର ବିଲୁପ୍ତ ହୋଇଯାନ୍ତି",
+"କୌଣସି ପ୍ରଭାବ ପଡ଼େ ନାହିଁ",
+"ସେମାନେ ସୁରକ୍ଷିତ ହୋଇଯାନ୍ତି"
+],
+"answer": "ସେମାନେ ଶୀଘ୍ର ବିଲୁପ୍ତ ହୋଇଯାନ୍ତି",
+"explanation": "ବିପନ୍ନ ପ୍ରଜାତିଙ୍କ ସଂଖ୍ୟା ଅତି କମ୍ ଥିବାରୁ ଶିକାର ସେମାନଙ୍କୁ ବିଲୁପ୍ତି ଆଡ଼କୁ ଠେଲିଦିଏ।"
+},
+{
+"questionEnglish": "What is the primary food source for a herbivore?",
+"questionOdia": "ଶାକାହାରୀ ପ୍ରାଣୀଙ୍କ ମୁଖ୍ୟ ଖାଦ୍ୟ କ'ଣ?",
+"options": [
+"ମାଂସ",
+"ଉଦ୍ଭିଦ/ଘାସ",
+"ମୃତ ଜୀବ",
+"କୀଟପତଙ୍ଗ"
+],
+"answer": "ଉଦ୍ଭିଦ/ଘାସ",
+"explanation": "ଶାକାହାରୀମାନେ କେବଳ ଉଦ୍ଭିଦଜାତ ଖାଦ୍ୟ ଖାଇଥାନ୍ତି।"
+},
+{
+"questionEnglish": "Which state has the Gir National Park?",
+"questionOdia": "ଗିର ଜାତୀୟ ଉଦ୍ୟାନ କେଉଁ ରାଜ୍ୟରେ ଅବସ୍ଥିତ?",
+"options": [
+"ଗୁଜୁରାଟ",
+"ଓଡ଼ିଶା",
+"ଆସାମ",
+"ପଞ୍ଜାବ"
+],
+"answer": "ଗୁଜୁରାଟ",
+"explanation": "ଗୁଜୁରାଟର ଗିର ଜାତୀୟ ଉଦ୍ୟାନ ଏସୀୟ ସିଂହମାନଙ୍କର ଏକମାତ୍ର ଆବାସସ୍ଥଳୀ।"
+},
+{
+"questionEnglish": "What are decomposers?",
+"questionOdia": "ବିଘଟକ କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ଉଦ୍ଭିଦ",
+"ମୃତଜୀବୀ ବ୍ୟାକ୍ଟେରିଆ ଓ କବକ",
+"ମାଂସାହାରୀ ପଶୁ",
+"ଶାକାହାରୀ ପଶୁ"
+],
+"answer": "ମୃତଜୀବୀ ବ୍ୟାକ୍ଟେରିଆ ଓ କବକ",
+"explanation": "ବିଘଟକଗୁଡ଼ିକ ମୃତ ଜୀବଙ୍କୁ କ୍ଷୟ କରନ୍ତି, ତେଣୁ ସେମାନେ ମୃତଜୀବୀ।"
+},
+{
+"questionEnglish": "Why is the ozone layer important?",
+"questionOdia": "ଓଜୋନ୍ ସ୍ତର କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"ଏହା ସୂର୍ଯ୍ୟର କ୍ଷତିକାରକ ଅତିବାଇଗଣି ରଶ୍ମିକୁ ଶୋଷଣ କରେ",
+"ଏହା ବର୍ଷା କରାଇବାରେ ସାହାଯ୍ୟ କରେ",
+"ଏହା ବାୟୁକୁ ସଫା ରଖେ",
+"ଏହା ପାଣିକୁ ଶୁଦ୍ଧ କରେ"
+],
+"answer": "ଏହା ସୂର୍ଯ୍ୟର କ୍ଷତିକାରକ ଅତିବାଇଗଣି ରଶ୍ମିକୁ ଶୋଷଣ କରେ",
+"explanation": "ଓଜୋନ୍ ସ୍ତର ସୂର୍ଯ୍ୟରୁ ଆସୁଥିବା କ୍ଷତିକାରକ ରଶ୍ମିକୁ ଅଟକାଇ ଆମକୁ ସୁରକ୍ଷା ଦିଏ।"
+},
+{
+"questionEnglish": "What happens in a food chain?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳରେ କ'ଣ ହୋଇଥାଏ?",
+"options": [
+"ଖାଦ୍ୟ ଶକ୍ତି ଗୋଟିଏ ଜୀବରୁ ଅନ୍ୟ ଜୀବକୁ ସ୍ଥାନାନ୍ତରିତ ହୁଏ",
+"ଜୀବମାନେ ଶିକାର କରନ୍ତି ନାହିଁ",
+"ଉତ୍ପାଦକ କିଛି କରନ୍ତି ନାହିଁ",
+"ଶକ୍ତି ବାହାରୁ ଆସେ"
+],
+"answer": "ଖାଦ୍ୟ ଶକ୍ତି ଗୋଟିଏ ଜୀବରୁ ଅନ୍ୟ ଜୀବକୁ ସ୍ଥାନାନ୍ତରିତ ହୁଏ",
+"explanation": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳରେ ଜୀବମାନେ ପରସ୍ପରକୁ ଖାଇବା ଦ୍ୱାରା ଶକ୍ତିର ପ୍ରବାହ ହୁଏ।"
+},
+{
+"questionEnglish": "Which state has the Periyar National Park?",
+"questionOdia": "ପେରିୟାର ଜାତୀୟ ଉଦ୍ୟାନ କେଉଁ ରାଜ୍ୟରେ ଅବସ୍ଥିତ?",
+"options": [
+"କେରଳ",
+"ଓଡ଼ିଶା",
+"ବିହାର",
+"ଆସାମ"
+],
+"answer": "କେରଳ",
+"explanation": "ପେରିୟାର ଜାତୀୟ ଉଦ୍ୟାନ କେରଳରେ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "What are primary consumers?",
+"questionOdia": "ପ୍ରାଥମିକ ଉପଭୋକ୍ତା କିଏ?",
+"options": [
+"ମାଂସାହାରୀ ପଶୁ",
+"ସିଧାସଳଖ ଉଦ୍ଭିଦ ଖାଉଥିବା ଶାକାହାରୀ",
+"ବିଘଟକ",
+"ସର୍ବଭକ୍ଷୀ"
+],
+"answer": "ସିଧାସଳଖ ଉଦ୍ଭିଦ ଖାଉଥିବା ଶାକାହାରୀ",
+"explanation": "ପ୍ରାଥମିକ ଉପଭୋକ୍ତାମାନେ ଉତ୍ପାଦକଙ୍କଠାରୁ ଶକ୍ତି ଗ୍ରହଣ କରନ୍ତି।"
+},
+{
+"questionEnglish": "What does a pyramid of biomass represent?",
+"questionOdia": "ଜୀବଭାର ପ୍ରାୟାମିଡ୍ କ'ଣ ସୂଚାଏ?",
+"options": [
+"ପ୍ରତ୍ୟେକ ସ୍ତରରେ ଜୀବଙ୍କ ମୋଟ ଓଜନ ବା ଜୀବଭାର",
+"ଜୀବଙ୍କ ସଂଖ୍ୟା",
+"ଜୀବଙ୍କ ରଙ୍ଗ",
+"ଜୀବଙ୍କ ଆୟୁଷ"
+],
+"answer": "ପ୍ରତ୍ୟେକ ସ୍ତରରେ ଜୀବଙ୍କ ମୋଟ ଓଜନ ବା ଜୀବଭାର",
+"explanation": "ଜୀବଭାର ପ୍ରାୟାମିଡ୍ ଖାଦ୍ୟ ଶୃଙ୍ଖଳର ବିଭିନ୍ନ ସ୍ତରରେ ଜୀବଙ୍କ ମୋଟ ଓଜନ କିପରି ଅଛି ଦେଖାଏ।"
+},
+{
+"questionEnglish": "Which of these is a biotic factor?",
+"questionOdia": "ଏମାନଙ୍କ ମଧ୍ୟରୁ କିଏ ଏକ ଜୈବ ଉପାଦାନ?",
+"options": [
+"ପାଣି",
+"ବାୟୁ",
+"ଅଣୁଜୀବ",
+"ତାପମାତ୍ରା"
+],
+"answer": "ଅଣୁଜୀବ",
+"explanation": "ଅଣୁଜୀବ ହେଉଛି ଜୀବିତ, ତେଣୁ ଏହା ଜୈବ ଉପାଦାନ।"
+},
+{
+"questionEnglish": "What is the role of the environment in our life?",
+"questionOdia": "ଆମ ଜୀବନରେ ପରିବେଶର ଭୂମିକା କ'ଣ?",
+"options": [
+"ଏହା କିଛି ବି କରେ ନାହିଁ",
+"ଏହା ଆମକୁ ବଞ୍ଚିବା ପାଇଁ ଆବଶ୍ୟକୀୟ ସମ୍ବଳ ଯୋଗାଏ",
+"ଏହା କେବଳ ପଶୁଙ୍କ ପାଇଁ",
+"ଏହା କେବଳ ଉଦ୍ଭିଦଙ୍କ ପାଇଁ"
+],
+"answer": "ଏହା ଆମକୁ ବଞ୍ଚିବା ପାଇଁ ଆବଶ୍ୟକୀୟ ସମ୍ବଳ ଯୋଗାଏ",
+"explanation": "ବାୟୁ, ଜଳ, ଖାଦ୍ୟ ସବୁକିଛି ପରିବେଶରୁ ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "Which state has the Kaziranga National Park?",
+"questionOdia": "କାଜିରଙ୍ଗା ଜାତୀୟ ଉଦ୍ୟାନ କେଉଁ ରାଜ୍ୟରେ ଅବସ୍ଥିତ?",
+"options": [
+"ଆସାମ",
+"ଓଡ଼ିଶା",
+"ବିହାର",
+"ଗୁଜୁରାଟ"
+],
+"answer": "ଆସାମ",
+"explanation": "ଆସାମରେ କାଜିରଙ୍ଗା ଜାତୀୟ ଉଦ୍ୟାନ ରହିଛି।"
+},
+{
+"questionEnglish": "What is the meaning of 'Endangered Species'?",
+"questionOdia": "'ବିପନ୍ନ ପ୍ରଜାତି' (Endangered Species) ର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଯେଉଁ ପ୍ରଜାତିର ସଂଖ୍ୟା ବହୁତ କମିଛି",
+"ଯେଉଁ ପ୍ରଜାତି ବହୁତ ସୁଖରେ ଅଛନ୍ତି",
+"ଯେଉଁ ପ୍ରଜାତି ଖୁବ୍ ବେଶୀ ପ୍ରଜନନ କରନ୍ତି",
+"ଯେଉଁ ପ୍ରଜାତି ସବୁଠାରୁ ଶକ୍ତିଶାଳୀ"
+],
+"answer": "ଯେଉଁ ପ୍ରଜାତିର ସଂଖ୍ୟା ବହୁତ କମିଛି",
+"explanation": "ବିପନ୍ନ ପ୍ରଜାତି ସେହିମାନେ ଯେଉଁମାନେ ବିଲୁପ୍ତ ହେବାର ଦ୍ୱାରଦେଶରେ ଅଛନ୍ତି।"
+},
+{
+"questionEnglish": "What is the main purpose of an Ecosystem?",
+"questionOdia": "ଏକ ପରିସଂସ୍ଥାର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କ'ଣ?",
+"options": [
+"ଜୀବଙ୍କ ମଧ୍ୟରେ ଶକ୍ତିର ପ୍ରବାହ ଓ ପୋଷକ ଚକ୍ର ଚଲାଇବା",
+"କେବଳ ପ୍ରାଣୀଙ୍କୁ ସୁରକ୍ଷା ଦେବା",
+"ଖାଦ୍ୟ କମାଇବା",
+"ପ୍ରଦୂଷଣ ବଢ଼ାଇବା"
+],
+"answer": "ଜୀବଙ୍କ ମଧ୍ୟରେ ଶକ୍ତିର ପ୍ରବାହ ଓ ପୋଷକ ଚକ୍ର ଚଲାଇବା",
+"explanation": "ପରିସଂସ୍ଥା ପ୍ରାକୃତିକ ସନ୍ତୁଳନ ରକ୍ଷା କରି ଜୀବଜଗତକୁ ବଞ୍ଚାଇ ରଖିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "What are primary producers in the ocean?",
+"questionOdia": "ସମୁଦ୍ରରେ ପ୍ରାଥମିକ ଉତ୍ପାଦକ କିଏ?",
+"options": [
+"ବଡ଼ ମାଛ",
+"ଫାଇଟୋପ୍ଲାଙ୍କଟନ୍ (ଅଣୁବୀକ୍ଷଣିକ ଉଦ୍ଭିଦ)",
+"ତିମି",
+"କାଛୁଆ"
+],
+"answer": "ଫାଇଟୋପ୍ଲାଙ୍କଟନ୍ (ଅଣୁବୀକ୍ଷଣିକ ଉଦ୍ଭିଦ)",
+"explanation": "ସମୁଦ୍ରରେ ଥିବା ଏହି ଅଣୁଜୀବମାନେ ଆଲୋକ ଶ୍ଳେଷଣ କରି ଖାଦ୍ୟ ତିଆରି କରନ୍ତି।"
+},
+{
+"questionEnglish": "Which state has the Kanha National Park?",
+"questionOdia": "କାନ୍ହା ଜାତୀୟ ଉଦ୍ୟାନ କେଉଁ ରାଜ୍ୟରେ ଅବସ୍ଥିତ?",
+"options": [
+"ମଧ୍ୟପ୍ରଦେଶ",
+"ଓଡ଼ିଶା",
+"କେରଳ",
+"ଆସାମ"
+],
+"answer": "ମଧ୍ୟପ୍ରଦେଶ",
+"explanation": "କାନ୍ହା ଜାତୀୟ ଉଦ୍ୟାନ ମଧ୍ୟପ୍ରଦେଶରେ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "What is a food chain?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳ କ'ଣ?",
+"options": [
+"କେବଳ ଏକ ସିଧା ରେଖା",
+"ଜୀବମାନଙ୍କ ମଧ୍ୟରେ ଖାଦ୍ୟ ସମ୍ବନ୍ଧୀୟ ଶୃଙ୍ଖଳ",
+"କିଛି ବି ନୁହେଁ",
+"ଏକ ପ୍ରକାରର ପାଠ୍ୟପୁସ୍ତକ"
+],
+"answer": "ଜୀବମାନଙ୍କ ମଧ୍ୟରେ ଖାଦ୍ୟ ସମ୍ବନ୍ଧୀୟ ଶୃଙ୍ଖଳ",
+"explanation": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳରେ ଜୀବମାନେ କିପରି ଖାଦ୍ୟ ପାଇଁ ପରସ୍ପର ଉପରେ ନିର୍ଭର କରନ୍ତି ତାହା ଦର୍ଶାଯାଏ।"
+},
+{
+"questionEnglish": "Why do we need to conserve Biodiversity?",
+"questionOdia": "ଜୈବ ବିବିଧତା ସଂରକ୍ଷଣ କରିବା କାହିଁକି ଜରୁରୀ?",
+"options": [
+"ପରିବେଶ ସନ୍ତୁଳନ ଓ ସ୍ଥାୟୀ ଭବିଷ୍ୟତ ପାଇଁ",
+"କେବଳ ଦେଖିବା ପାଇଁ",
+"କାରଣ ଏହା ସରକାରଙ୍କ ଆଦେଶ",
+"କିଛି ବି ଜରୁରୀ ନୁହେଁ"
+],
+"answer": "ପରିବେଶ ସନ୍ତୁଳନ ଓ ସ୍ଥାୟୀ ଭବିଷ୍ୟତ ପାଇଁ",
+"explanation": "ପରିବେଶ ସନ୍ତୁଳନ ପାଇଁ ପ୍ରତ୍ୟେକ ପ୍ରଜାତି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ।"
+},
+{
+"questionEnglish": "Which animal is the King of the Forest?",
+"questionOdia": "ଜଙ୍ଗଲର ରାଜା କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ବାଘ",
+"ସିଂହ",
+"ହାତୀ",
+"ଚିତା"
+],
+"answer": "ସିଂହ",
+"explanation": "ସିଂହକୁ ସାଧାରଣତଃ ଜଙ୍ଗଲର ରାଜା କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is meant by 'Biotic factors'?",
+"questionOdia": "'ଜୈବ ଉପାଦାନ'ର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ନିର୍ଜୀବ ଉପାଦାନ",
+"ଜୀବିତ ଉପାଦାନ (ଉଦ୍ଭିଦ, ପ୍ରାଣୀ, ଅଣୁଜୀବ)",
+"କେବଳ ମାଟି",
+"କେବଳ ପାଣି"
+],
+"answer": "ଜୀବିତ ଉପାଦାନ (ଉଦ୍ଭିଦ, ପ୍ରାଣୀ, ଅଣୁଜୀବ)",
+"explanation": "ଜୈବ ଉପାଦାନଗୁଡ଼ିକ ପରିବେଶର ଜୀବିତ ଅଂଶ ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "Which state has the Corbett National Park?",
+"questionOdia": "କର୍ବେଟ ଜାତୀୟ ଉଦ୍ୟାନ କେଉଁ ରାଜ୍ୟରେ ଅବସ୍ଥିତ?",
+"options": [
+"ଉତ୍ତରାଖଣ୍ଡ",
+"ଓଡ଼ିଶା",
+"ଆସାମ",
+"ବିହାର"
+],
+"answer": "ଉତ୍ତରାଖଣ୍ଡ",
+"explanation": "କର୍ବେଟ ଜାତୀୟ ଉଦ୍ୟାନ ଉତ୍ତରାଖଣ୍ଡରେ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "What does 'Pollution' do to an ecosystem?",
+"questionOdia": "ପ୍ରଦୂଷଣ ପରିସଂସ୍ଥା ଉପରେ କ'ଣ ପ୍ରଭାବ ପକାଏ?",
+"options": [
+"ଏହା ପରିସଂସ୍ଥାକୁ ସୁଧାରେ",
+"ଏହା ପରିସଂସ୍ଥାରେ ଜୀବମାନଙ୍କର କ୍ଷତି କରେ ଓ ଅସନ୍ତୁଳନ ସୃଷ୍ଟି କରେ",
+"କୌଣସି ପ୍ରଭାବ ପଡ଼େ ନାହିଁ",
+"ସବୁ ଜୀବ ବଢ଼ିଯାନ୍ତି"
+],
+"answer": "ଏହା ପରିସଂସ୍ଥାରେ ଜୀବମାନଙ୍କର କ୍ଷତି କରେ ଓ ଅସନ୍ତୁଳନ ସୃଷ୍ଟି କରେ",
+"explanation": "ପ୍ରଦୂଷଣ ଜୀବମାନଙ୍କ ପାଇଁ ବିଷାକ୍ତ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What are scavengers in a food chain?",
+"questionOdia": "ଖାଦ୍ୟ ଶୃଙ୍ଖଳରେ ମୃତଭୋଜୀ କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ଉତ୍ପାଦକ",
+"ମୃତ ଜୀବଙ୍କୁ ଖାଉଥିବା ପ୍ରାଣୀ",
+"ବିଘଟକ",
+"ଶିକାରୀ"
+],
+"answer": "ମୃତ ଜୀବଙ୍କୁ ଖାଉଥିବା ପ୍ରାଣୀ",
+"explanation": "ମୃତଭୋଜୀମାନେ ପରିବେଶରୁ ମୃତ ଜୀବଙ୍କୁ ସଫା କରିଥାନ୍ତି।"
+},
+{
+"questionEnglish": "Which state has the Ranthambore National Park?",
+"questionOdia": "ରନ୍ଥାମ୍ବୋର ଜାତୀୟ ଉଦ୍ୟାନ କେଉଁ ରାଜ୍ୟରେ ଅବସ୍ଥିତ?",
+"options": [
+"ରାଜସ୍ଥାନ",
+"ଓଡ଼ିଶା",
+"ଆସାମ",
+"ବିହାର"
+],
+"answer": "ରାଜସ୍ଥାନ",
+"explanation": "ରନ୍ଥାମ୍ବୋର ଜାତୀୟ ଉଦ୍ୟାନ ରାଜସ୍ଥାନରେ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "What is the primary concern about wildlife today?",
+"questionOdia": "ବର୍ତ୍ତମାନ ବନ୍ୟଜୀବମାନଙ୍କ ବିଷୟରେ ମୁଖ୍ୟ ଚିନ୍ତା କ'ଣ?",
+"options": [
+"ସେମାନଙ୍କ ସଂଖ୍ୟା କମିବା",
+"ସେମାନେ ବହୁତ ବଢ଼ିବା",
+"ସେମାନଙ୍କ ଖାଦ୍ୟ ମିଳିବା",
+"କିଛି ବି ଚିନ୍ତା ନୁହେଁ"
+],
+"answer": "ସେମାନଙ୍କ ସଂଖ୍ୟା କମିବା",
+"explanation": "ବାସସ୍ଥାନ ହ୍ରାସ ଓ ଅନ୍ୟ ମାନବୀୟ କାରଣରୁ ବନ୍ୟଜୀବଙ୍କ ସଂଖ୍ୟା କମିବାରେ ଲାଗିଛି।"
+},
+{
+"questionEnglish": "Which of these is a non-biotic factor?",
+"questionOdia": "ଏମାନଙ୍କ ମଧ୍ୟରୁ କିଏ ଏକ ଅଜୈବ ଉପାଦାନ?",
+"options": [
+"ଗଛ",
+"ପାଣି/ଜଳ",
+"ଅଣୁଜୀବ",
+"ପଶୁ"
+],
+"answer": "ପାଣି/ଜଳ",
+"explanation": "ଜଳ ହେଉଛି ନିର୍ଜୀବ, ତେଣୁ ଏହା ଅଜୈବ ଉପାଦାନ।"
+},
+{
+"questionEnglish": "What is a 'National Sanctuary'?",
+"questionOdia": "ବନ୍ୟପ୍ରାଣୀ ଅଭୟାରଣ୍ୟ କ'ଣ?",
+"options": [
+"କେବଳ ପର୍ଯ୍ୟଟନ ପାଇଁ",
+"ବନ୍ୟଜନ୍ତୁଙ୍କ ସୁରକ୍ଷିତ ଆଶ୍ରୟସ୍ଥଳୀ",
+"କେବଳ ଚିଡ଼ିଆଖାନା",
+"କେବଳ ଜଙ୍ଗଲ କାଟିବା ସ୍ଥାନ"
+],
+"answer": "ବନ୍ୟଜନ୍ତୁଙ୍କ ସୁରକ୍ଷିତ ଆଶ୍ରୟସ୍ଥଳୀ",
+"explanation": "ଅଭୟାରଣ୍ୟରେ ବନ୍ୟଜନ୍ତୁ ସ୍ୱାଧୀନ ଭାବେ ଓ ସୁରକ୍ଷିତ ରହିପାରନ୍ତି।"
+},
+{
+"questionEnglish": "Which state is known for the Manas National Park?",
+"questionOdia": "ମାନସ ଜାତୀୟ ଉଦ୍ୟାନ କେଉଁ ରାଜ୍ୟରେ ଅବସ୍ଥିତ?",
+"options": [
+"ଆସାମ",
+"ଓଡ଼ିଶା",
+"ବିହାର",
+"କେରଳ"
+],
+"answer": "ଆସାମ",
+"explanation": "ମାନସ ଜାତୀୟ ଉଦ୍ୟାନ ଆସାମରେ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "What is the result of deforestation?",
+"questionOdia": "ଜଙ୍ଗଲ କାଟିବାର ଫଳାଫଳ କ'ଣ?",
+"options": [
+"ପ୍ରାକୃତିକ ସନ୍ତୁଳନ ନଷ୍ଟ ହେବା",
+"ବନ୍ୟଜନ୍ତୁଙ୍କ ସୁବିଧା",
+"ଅଧିକ ବର୍ଷା",
+"ପ୍ରଦୂଷଣ କମିବା"
+],
+"answer": "ପ୍ରାକୃତିକ ସନ୍ତୁଳନ ନଷ୍ଟ ହେବା",
+"explanation": "ଜଙ୍ଗଲ କାଟିବା ଦ୍ୱାରା ଜଳବାୟୁ ପରିବର୍ତ୍ତନ ଓ ବନ୍ୟଜନ୍ତୁଙ୍କ ବାସସ୍ଥାନ ନଷ୍ଟ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the food relationship between grass and deer?",
+"questionOdia": "ଘାସ ଓ ହରିଣ ମଧ୍ୟରେ ଖାଦ୍ୟ ସମ୍ବନ୍ଧ କ'ଣ?",
+"options": [
+"ହରିଣ ଘାସ ଖାଏ",
+"ଘାସ ହରିଣକୁ ଖାଏ",
+"ଉଭୟ କିଛି ଖାଆନ୍ତି ନାହିଁ",
+"ଦୁହେଁ ସାଙ୍ଗ"
+],
+"answer": "ହରିଣ ଘାସ ଖାଏ",
+"explanation": "ହରିଣ ଏକ ଶାକାହାରୀ ପ୍ରାଣୀ, ତେଣୁ ସେ ଘାସ ଖାଏ।"
+},
+{
+"questionEnglish": "What are primary producers?",
+"questionOdia": "ପ୍ରାଥମିକ ଉତ୍ପାଦକ କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ଉଦ୍ଭିଦ",
+"ମାଂସାହାରୀ",
+"ସର୍ବଭକ୍ଷୀ",
+"ବିଘଟକ"
+],
+"answer": "ଉଦ୍ଭିଦ",
+"explanation": "ଉଦ୍ଭିଦ ନିଜ ଖାଦ୍ୟ ନିଜେ ତିଆରି କରୁଥିବାରୁ ପ୍ରାଥମିକ ଉତ୍ପାଦକ।"
+},
+{
+"questionEnglish": "Which state has the Bandhavgarh National Park?",
+"questionOdia": "ବାନ୍ଧବଗଡ଼ ଜାତୀୟ ଉଦ୍ୟାନ କେଉଁ ରାଜ୍ୟରେ ଅବସ୍ଥିତ?",
+"options": [
+"ମଧ୍ୟପ୍ରଦେଶ",
+"ଓଡ଼ିଶା",
+"ଆସାମ",
+"କେରଳ"
+],
+"answer": "ମଧ୍ୟପ୍ରଦେଶ",
+"explanation": "ବାନ୍ଧବଗଡ଼ ଜାତୀୟ ଉଦ୍ୟାନ ମଧ୍ୟପ୍ରଦେଶରେ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "What is the importance of sunlight?",
+"questionOdia": "ସୂର୍ଯ୍ୟାଲୋକର ମହତ୍ତ୍ୱ କ'ଣ?",
+"options": [
+"ଖାଦ୍ୟ ତିଆରି କରିବା ପାଇଁ ଶକ୍ତିର ମୂଳ ଉତ୍ସ",
+"କେବଳ ଆଲୋକ ଦେବା ପାଇଁ",
+"ଗରମ କରିବା ପାଇଁ",
+"କିଛି ବି ନୁହେଁ"
+],
+"answer": "ଖାଦ୍ୟ ତିଆରି କରିବା ପାଇଁ ଶକ୍ତିର ମୂଳ ଉତ୍ସ",
+"explanation": "ସୂର୍ଯ୍ୟାଲୋକ ନଥିଲେ ଉଦ୍ଭିଦ ଖାଦ୍ୟ ପ୍ରସ୍ତୁତ କରିପାରନ୍ତେ ନାହିଁ।"
+},
+{
+"questionEnglish": "Which animal is the primary target of Project Elephant?",
+"questionOdia": "ପ୍ରୋଜେକ୍ଟ ହାତୀ (Project Elephant)ର ମୁଖ୍ୟ ଲକ୍ଷ୍ୟ କିଏ?",
+"options": [
+"ହାତୀ",
+"ବାଘ",
+"ସିଂହ",
+"ଗଣ୍ଡା"
+],
+"answer": "ହାତୀ",
+"explanation": "ହାତୀମାନଙ୍କ ସୁରକ୍ଷା ପାଇଁ ପ୍ରୋଜେକ୍ଟ ହାତୀ କାର୍ଯ୍ୟକାରୀ କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "What is the meaning of 'Endemic Species'?",
+"questionOdia": "'ସ୍ଥାନୀୟ ପ୍ରଜାତି' (Endemic Species)ର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଯେଉଁ ପ୍ରଜାତି କେବଳ ଗୋଟିଏ ନିର୍ଦ୍ଦିଷ୍ଟ ଅଞ୍ଚଳରେ ମିଳନ୍ତି",
+"ଯେଉଁ ପ୍ରଜାତି ସବୁଠାରେ ମିଳନ୍ତି",
+"ଯେଉଁ ପ୍ରଜାତି ନାହାଁନ୍ତି",
+"ଯେଉଁ ପ୍ରଜାତି ବିଦେଶରୁ ଆସିଛନ୍ତି"
+],
+"answer": "ଯେଉଁ ପ୍ରଜାତି କେବଳ ଗୋଟିଏ ନିର୍ଦ୍ଦିଷ୍ଟ ଅଞ୍ଚଳରେ ମିଳନ୍ତି",
+"explanation": "ସ୍ଥାନୀୟ ପ୍ରଜାତିଗୁଡ଼ିକ ସେହି ସ୍ଥାନର ବିଶେଷତ୍ତ୍ୱ ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "What is the main role of wildlife in an ecosystem?",
+"questionOdia": "ପରିସଂସ୍ଥାରେ ବନ୍ୟଜୀବଙ୍କ ମୁଖ୍ୟ ଭୂମିକା କ'ଣ?",
+"options": [
+"ପ୍ରାକୃତିକ ସନ୍ତୁଳନ ରକ୍ଷା କରିବା",
+"କେବଳ ଦେଖିବାକୁ ଭଲ ଲାଗିବା",
+"କିଛି ବି ନୁହେଁ",
+"କେବଳ ମାଂସ ଦେବା"
+],
+"answer": "ପ୍ରାକୃତିକ ସନ୍ତୁଳନ ରକ୍ଷା କରିବା",
+"explanation": "ବନ୍ୟଜୀବମାନେ ଖାଦ୍ୟ ଶୃଙ୍ଖଳ ବଜାୟ ରଖି ପରିସଂସ୍ଥାକୁ ସନ୍ତୁଳିତ ରଖନ୍ତି।"
+},
+{
+"questionEnglish": "Which state has the Pench National Park?",
+"questionOdia": "ପେଞ୍ଚ ଜାତୀୟ ଉଦ୍ୟାନ କେଉଁ ରାଜ୍ୟରେ ଅବସ୍ଥିତ?",
+"options": [
+"ମଧ୍ୟପ୍ରଦେଶ ଓ ମହାରାଷ୍ଟ୍ର",
+"ଓଡ଼ିଶା",
+"ଆସାମ",
+"କେରଳ"
+],
+"answer": "ମଧ୍ୟପ୍ରଦେଶ ଓ ମହାରାଷ୍ଟ୍ର",
+"explanation": "ପେଞ୍ଚ ଜାତୀୟ ଉଦ୍ୟାନ ମଧ୍ୟପ୍ରଦେଶ ଓ ମହାରାଷ୍ଟ୍ର ସୀମାରେ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "What is a 'Red Data Book'?",
+"questionOdia": "'ରେଡ୍ ଡାଟା ବୁକ୍' କ'ଣ?",
+"options": [
+"ବିପଦଗ୍ରସ୍ତ ଜୀବଙ୍କ ତାଲିକା",
+"ଖେଳ ବହି",
+"ଗଣିତ ବହି",
+"କିଛି ବି ନୁହେଁ"
+],
+"answer": "ବିପଦଗ୍ରସ୍ତ ଜୀବଙ୍କ ତାଲିକା",
+"explanation": "ଏଥିରେ ବିପଦଗ୍ରସ୍ତ ପ୍ରଜାତିଙ୍କ ବିଷୟରେ ସୂଚନା ରହିଥାଏ।"
+},
+{
+"questionEnglish": "What are scavengers like vultures?",
+"questionOdia": "ଶାଗୁଣା ପରି ପ୍ରାଣୀମାନେ କ'ଣ?",
+"options": [
+"ମୃତଭୋଜୀ",
+"ଶିକାରୀ",
+"ଉତ୍ପାଦକ",
+"ଶାକାହାରୀ"
+],
+"answer": "ମୃତଭୋଜୀ",
+"explanation": "ଶାଗୁଣା ମୃତ ଜୀବଙ୍କୁ ଖାଇ ପରିବେଶକୁ ପରିଷ୍କାର ରଖନ୍ତି।"
+}
+]
