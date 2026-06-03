@@ -1,1 +1,553 @@
 
+[
+{
+"questionEnglish": "Who is the poet of the poem 'All Things Bright and Beautiful'?",
+"options": [
+"William Wordsworth",
+"C.F. Alexander",
+"Rabindranath Tagore",
+"Robert Frost"
+],
+"answer": "C.F. Alexander",
+"explanation": "Cecil Frances Alexander is the poet of this poem."
+},
+{
+"questionEnglish": "In which country was the poet C.F. Alexander born?",
+"options": [
+"England",
+"Scotland",
+"Ireland",
+"Wales"
+],
+"answer": "Ireland",
+"explanation": "C.F. Alexander was born in Dublin, Ireland in 1818."
+},
+{
+"questionEnglish": "According to the poem, what are the qualities attributed to the things created by God?",
+"options": [
+"Bright, beautiful, wise and wonderful",
+"Small, weak, dark and sad",
+"Large, fast, loud and chaotic",
+"Cold, hard, still and silent"
+],
+"answer": "Bright, beautiful, wise and wonderful",
+"explanation": "The poem states all things are bright, beautiful, wise, and wonderful."
+},
+{
+"questionEnglish": "What does the poet say about the flowers in the poem?",
+"options": [
+"They have glowing colours",
+"They have giant petals",
+"They bloom only at night",
+"They have no scent"
+],
+"answer": "They have glowing colours",
+"explanation": "The poet mentions that God made the glowing colours of the flowers."
+},
+{
+"questionEnglish": "What feature of the bird does the poet highlight as a divine creation?",
+"options": [
+"Their sharp beak",
+"Their tiny wings",
+"Their long claws",
+"Their bright eyes"
+],
+"answer": "Their tiny wings",
+"explanation": "The poet says that God made the tiny wings of the birds."
+},
+{
+"questionEnglish": "How is the mountain described in the poem?",
+"options": [
+"Green-headed",
+"Snow-covered",
+"Purple-headed",
+"Dark-brown"
+],
+"answer": "Purple-headed",
+"explanation": "The poet describes the mountain as 'purple-headed'."
+},
+{
+"questionEnglish": "Why does the mountain top appear to be purple?",
+"options": [
+"Due to the presence of purple flowers",
+"Due to the rays of the setting sun",
+"Due to the thick mist",
+"Due to the reflection of the river"
+],
+"answer": "Due to the rays of the setting sun",
+"explanation": "The rays of the setting sun make the mountain-top appear purple."
+},
+{
+"questionEnglish": "What gives brightness to the sky, according to the poem?",
+"options": [
+"The stars and moon",
+"The sunset and the morning",
+"The clouds and rain",
+"The birds flying high"
+],
+"answer": "The sunset and the morning",
+"explanation": "The poet mentions the sunset and the morning brighten up the sky."
+},
+{
+"questionEnglish": "Which two seasons are mentioned in the poem?",
+"options": [
+"Spring and Autumn",
+"Winter and Summer",
+"Rainy and Winter",
+"Summer and Autumn"
+],
+"answer": "Winter and Summer",
+"explanation": "The poem mentions the cold wind in the winter and the pleasant summer sun."
+},
+{
+"questionEnglish": "How is the summer sun described in the poem?",
+"options": [
+"Scorching",
+"Pleasant",
+"Dim",
+"Dull"
+],
+"answer": "Pleasant",
+"explanation": "The poet describes the summer sun as pleasant."
+},
+{
+"questionEnglish": "Where are the tall trees found in the poem?",
+"options": [
+"In the city",
+"In the desert",
+"In the green wood",
+"Near the mountain"
+],
+"answer": "In the green wood",
+"explanation": "The poet mentions tall trees in the green wood."
+},
+{
+"questionEnglish": "What are the places mentioned where children can play?",
+"options": [
+"The meadows",
+"The mountains",
+"The garden",
+"The riverside"
+],
+"answer": "The meadows",
+"explanation": "The poet mentions the meadows where we play."
+},
+{
+"questionEnglish": "What plants are found by the water according to the poet?",
+"options": [
+"Tall trees",
+"Rushes",
+"Roses",
+"Grass"
+],
+"answer": "Rushes",
+"explanation": "The poet mentions the rushes by the water."
+},
+{
+"questionEnglish": "What does God give us to see the beautiful creations?",
+"options": [
+"Ears",
+"Nose",
+"Eyes",
+"Hands"
+],
+"answer": "Eyes",
+"explanation": "The poet says He gave us eyes to see them."
+},
+{
+"questionEnglish": "Why are we given lips by God?",
+"options": [
+"To sing songs",
+"To tell how great God is",
+"To eat food",
+"To speak to friends"
+],
+"answer": "To tell how great God is",
+"explanation": "The poem says we have lips that we might tell how great God Almighty is."
+},
+{
+"questionEnglish": "What is the meaning of the word 'meadow' as used in the poem?",
+"options": [
+"A dense forest",
+"A mountain peak",
+"An open area of grassland",
+"A fast-flowing river"
+],
+"answer": "An open area of grassland",
+"explanation": "A meadow is an open area of grassland."
+},
+{
+"questionEnglish": "Which work is specifically mentioned as one of the poet's famous works?",
+"options": [
+"The Waste Land",
+"Christmas Carol",
+"The Road Not Taken",
+"Gitanjali"
+],
+"answer": "Christmas Carol",
+"explanation": "The text lists 'Christmas Carol' as one of her famous works."
+},
+{
+"questionEnglish": "Where is this poem 'All Things Bright and Beautiful' included?",
+"options": [
+"Verses for Holy Season",
+"Hymn for Children",
+"Once in Royal David's City",
+"Nature Poems"
+],
+"answer": "Hymn for Children",
+"explanation": "The poem is included in 'Hymn for Children'."
+},
+{
+"questionEnglish": "What are 'rhyming words'?",
+"options": [
+"Words with opposite meanings",
+"Words that sound similar at the end",
+"Words that have the same spelling",
+"Words that describe animals"
+],
+"answer": "Words that sound similar at the end",
+"explanation": "Rhyming words are those that have similar sounds at the end of lines."
+},
+{
+"questionEnglish": "What are rushes used for, as mentioned in the notes?",
+"options": [
+"For cooking food",
+"For making mats and baskets",
+"For building houses",
+"For feeding birds"
+],
+"answer": "For making mats and baskets",
+"explanation": "Rushes are water plants used for making mats and baskets."
+},
+{
+"questionEnglish": "How does the poet characterize God at the end of the poem?",
+"options": [
+"As a distant observer",
+"As God Almighty",
+"As a strict teacher",
+"As a silent judge"
+],
+"answer": "As God Almighty",
+"explanation": "The poet calls Him God Almighty who made all things well."
+},
+{
+"questionEnglish": "What feeling does this poem evoke in the reader?",
+"options": [
+"Fear of nature",
+"Gratitude towards God",
+"Anger towards the world",
+"Desire for material wealth"
+],
+"answer": "Gratitude towards God",
+"explanation": "The poem expresses gratitude towards God for His beautiful creation."
+},
+{
+"questionEnglish": "Which word in the poem describes the colours of flowers?",
+"options": [
+"Bright",
+"Glowing",
+"Purple",
+"Wonderful"
+],
+"answer": "Glowing",
+"explanation": "The poem says 'He made their glowing colours'."
+},
+{
+"questionEnglish": "In the phrase 'purple-headed mountain', what does 'purple-headed' mean?",
+"options": [
+"The mountain has a purple flower on top",
+"The top of the mountain looks bluish-red due to the setting sun",
+"The mountain is made of purple stone",
+"The mountain is covered in purple clouds"
+],
+"answer": "The top of the mountain looks bluish-red due to the setting sun",
+"explanation": "The glossary explains it as the rays of the setting sun making the mountain top appear purple."
+},
+{
+"questionEnglish": "What does the poet mean by 'All things wise and wonderful'?",
+"options": [
+"Only animals are wise",
+"The beauty and intelligence behind creation",
+"Trees are very intelligent",
+"Rivers are wonderful"
+],
+"answer": "The beauty and intelligence behind creation",
+"explanation": "It refers to the wisdom and beauty inherent in God's creation."
+},
+{
+"questionEnglish": "How are the birds described in terms of their size?",
+"options": [
+"They are large",
+"They are tiny",
+"They are heavy",
+"They are medium"
+],
+"answer": "They are tiny",
+"explanation": "The poem refers to 'their tiny wings', implying the smallness of the birds."
+},
+{
+"questionEnglish": "Is this poem a description or a prayer?",
+"options": [
+"Only a description of nature",
+"A prayer to God",
+"A story of a child",
+"A scientific report"
+],
+"answer": "A prayer to God",
+"explanation": "The poem is a prayer reflecting on the greatness of God's creation."
+},
+{
+"questionEnglish": "What do we do in the green wood?",
+"options": [
+"We play",
+"We sleep",
+"We gather things",
+"We eat"
+],
+"answer": "We gather things",
+"explanation": "The text mentions 'The tall trees in the green wood... we gather every day'."
+},
+{
+"questionEnglish": "What is the source of the poem?",
+"options": [
+"Hymn for Children",
+"Nature's Beauty",
+"Children's Anthology",
+"The Holy Bible"
+],
+"answer": "Hymn for Children",
+"explanation": "The text explicitly states the poem is included in 'Hymn for Children'."
+},
+{
+"questionEnglish": "Why are the senses of sight, smell, and feeling important?",
+"options": [
+"To earn money",
+"To enjoy the beauty of creation",
+"To avoid danger only",
+"To sleep well"
+],
+"answer": "To enjoy the beauty of creation",
+"explanation": "The lead-in text states we have senses to enjoy the beauty of creation."
+},
+{
+"questionEnglish": "When was C.F. Alexander born?",
+"options": [
+"1810",
+"1818",
+"1820",
+"1825"
+],
+"answer": "1818",
+"explanation": "She was born in 1818."
+},
+{
+"questionEnglish": "Which word rhymes with 'sings' in the poem?",
+"options": [
+"wings",
+"bright",
+"day",
+"sun"
+],
+"answer": "wings",
+"explanation": "In the second stanza, 'sings' and 'wings' rhyme."
+},
+{
+"questionEnglish": "What does the poet say about the garden?",
+"options": [
+"It is full of thorns",
+"It has ripe fruit",
+"It is empty",
+"It is very dark"
+],
+"answer": "It has ripe fruit",
+"explanation": "The poem mentions 'The ripe fruit in the garden'."
+},
+{
+"questionEnglish": "What is the primary message of the poem?",
+"options": [
+"Nature is dangerous",
+"God is the creator of all beautiful things",
+"Winter is the best season",
+"Birds are the only creatures"
+],
+"answer": "God is the creator of all beautiful things",
+"explanation": "The poem consistently thanks God for creating all things."
+},
+{
+"questionEnglish": "Which of these is a creature mentioned in the poem?",
+"options": [
+"A lion",
+"A bird",
+"A fish",
+"A cat"
+],
+"answer": "A bird",
+"explanation": "The poem specifically mentions 'Each little bird that sings'."
+},
+{
+"questionEnglish": "What does the poet feel we should do with our lips?",
+"options": [
+"Keep silent",
+"Sing songs to the world",
+"Praise God's creation",
+"Complain about winter"
+],
+"answer": "Praise God's creation",
+"explanation": "We should use our lips to tell how great God is."
+},
+{
+"questionEnglish": "What is the nature of the wind in winter?",
+"options": [
+"Hot",
+"Cold",
+"Pleasant",
+"Dry"
+],
+"answer": "Cold",
+"explanation": "The poem mentions 'The cold wind in the winter'."
+},
+{
+"questionEnglish": "Which word rhymes with 'sky' in the poem?",
+"options": [
+"by",
+"day",
+"sun",
+"flowers"
+],
+"answer": "by",
+"explanation": "The lines end with 'by' and 'sky', which rhyme."
+},
+{
+"questionEnglish": "How are the creations of God described regarding size?",
+"options": [
+"Only small",
+"Only large",
+"Great and small",
+"Neither great nor small"
+],
+"answer": "Great and small",
+"explanation": "The poem says 'All creatures great and small'."
+},
+{
+"questionEnglish": "What does the poet say God made for birds?",
+"options": [
+"Their nests",
+"Their tiny wings",
+"Their colorful feathers",
+"Their food"
+],
+"answer": "Their tiny wings",
+"explanation": "The text says 'He made their tiny wings'."
+},
+{
+"questionEnglish": "According to the poet, what is the duty of human beings?",
+"options": [
+"To destroy nature",
+"To praise the creator",
+"To count the flowers",
+"To ignore the seasons"
+],
+"answer": "To praise the creator",
+"explanation": "We should tell how great God is for His creation."
+},
+{
+"questionEnglish": "What does the word 'bright' refer to in the first line?",
+"options": [
+"Things that are glowing or shiny",
+"Things that are dark",
+"Things that are invisible",
+"Things that are heavy"
+],
+"answer": "Things that are glowing or shiny",
+"explanation": "Bright refers to things that are full of light and beauty."
+},
+{
+"questionEnglish": "How is the river described in the poem?",
+"options": [
+"Standing still",
+"Running by",
+"Dried up",
+"Very deep"
+],
+"answer": "Running by",
+"explanation": "The poem mentions 'The river running by'."
+},
+{
+"questionEnglish": "Who is considered 'Almighty' in the poem?",
+"options": [
+"The poet",
+"The Nature",
+"God",
+"The sun"
+],
+"answer": "God",
+"explanation": "The poet refers to 'God Almighty'."
+},
+{
+"questionEnglish": "Which of these is a gift from God mentioned in the poem?",
+"options": [
+"Eyes",
+"Money",
+"Cars",
+"Buildings"
+],
+"answer": "Eyes",
+"explanation": "The poet says 'He gave us eyes to see them'."
+},
+{
+"questionEnglish": "What does 'each little flower' do?",
+"options": [
+"It closes at night",
+"It opens",
+"It sings",
+"It runs"
+],
+"answer": "It opens",
+"explanation": "The poem says 'Each little flower that opens'."
+},
+{
+"questionEnglish": "Which word rhymes with 'play'?",
+"options": [
+"day",
+"sun",
+"wings",
+"mountain"
+],
+"answer": "day",
+"explanation": "The lines end with 'play' and 'every day'."
+},
+{
+"questionEnglish": "What aspect of nature is represented by 'green wood'?",
+"options": [
+"A dry land",
+"Forest or wooded area",
+"A metal factory",
+"A city street"
+],
+"answer": "Forest or wooded area",
+"explanation": "Green wood implies an area with many trees."
+},
+{
+"questionEnglish": "What is the overall tone of the poem?",
+"options": [
+"Sad and melancholic",
+"Joyful and thankful",
+"Angry and aggressive",
+"Scientific and cold"
+],
+"answer": "Joyful and thankful",
+"explanation": "The poem is full of joy and gratitude for God's creation."
+},
+{
+"questionEnglish": "Why did the poet write this poem?",
+"options": [
+"To explain geography",
+"To praise God for his wonderful creation",
+"To describe a journey",
+"To teach biology"
+],
+"answer": "To praise God for his wonderful creation",
+"explanation": "The entire poem is a reflection on the beauty and wisdom of God's creation."
+}
+]
