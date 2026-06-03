@@ -1,0 +1,1251 @@
+
+[
+{
+"questionEnglish": "What is the definition of a circle according to the basic geometric concepts provided?",
+"questionOdia": "ଜ୍ୟାମିତିକ ଧାରଣା ଅନୁଯାୟୀ ବୃତ୍ତର ସଂଜ୍ଞା କ’ଣ?",
+"options": [
+"ଗୋଟିଏ ସମତଳରେ ଅବସ୍ଥିତ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁଠାରୁ ସମଦୂରତାରେ ଥିବା ସମସ୍ତ ବିନ୍ଦୁର ସେଟ୍",
+"ଏକ ବନ୍ଦ ଆକୃତି ଯାହା କେବଳ ସରଳରେଖା ଦ୍ୱାରା ଗଠିତ",
+"ଏକ ତ୍ରିଭୁଜର ଅନ୍ତର୍ଲିଖିତ ଚିତ୍ର",
+"ଦୁଇଟି ସମାନ୍ତରାଳ ସରଳରେଖା ମଧ୍ୟରେ ଥିବା ସ୍ଥାନ"
+],
+"answer": "ଗୋଟିଏ ସମତଳରେ ଅବସ୍ଥିତ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁଠାରୁ ସମଦୂରତାରେ ଥିବା ସମସ୍ତ ବିନ୍ଦୁର ସେଟ୍",
+"explanation": "ବୃତ୍ତ ହେଉଛି ଏକ ସମତଳରେ ଥିବା ସେହି ସମସ୍ତ ବିନ୍ଦୁର ସମୂହ ଯେଉଁମାନେ ଗୋଟିଏ ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁ (କେନ୍ଦ୍ର) ଠାରୁ ସମାନ ଦୂରତାରେ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "What is the fixed point in a circle called?",
+"questionOdia": "ବୃତ୍ତର ସେହି ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁଟିକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"କେନ୍ଦ୍ର",
+"ବ୍ୟାସ",
+"ଜ୍ୟା",
+"ପରିଧି"
+],
+"answer": "କେନ୍ଦ୍ର",
+"explanation": "ବୃତ୍ତର ଯେଉଁ ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁଠାରୁ ପରିଧିର ସମସ୍ତ ବିନ୍ଦୁ ସମଦୂରତାରେ ଥାନ୍ତି, ତାହାକୁ ବୃତ୍ତର କେନ୍ଦ୍ର କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If a line intersects a circle at two distinct points, what is that line called?",
+"questionOdia": "ଯଦି ଏକ ସରଳରେଖା ବୃତ୍ତକୁ ଦୁଇଟି ଭିନ୍ନ ବିନ୍ଦୁରେ ଛେଦ କରେ, ତେବେ ସେହି ରେଖାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ଛେଦକ ରେଖା (Secant)",
+"ସ୍ପର୍ଶକ (Tangent)",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ଜ୍ୟା"
+],
+"answer": "ଛେଦକ ରେଖା (Secant)",
+"explanation": "ବୃତ୍ତକୁ ଦୁଇଟି ଭିନ୍ନ ବିନ୍ଦୁରେ ଛେଦ କରୁଥିବା ରେଖାକୁ ଛେଦକ ରେଖା କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the name of the line segment that connects two points on the circle?",
+"questionOdia": "ବୃତ୍ତ ଉପରେ ଥିବା ଦୁଇଟି ବିନ୍ଦୁକୁ ସଂଯୋଗ କରୁଥିବା ରେଖାଖଣ୍ଡକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ଜ୍ୟା (Chord)",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"କେନ୍ଦ୍ର",
+"ଅର୍ଦ୍ଧବୃତ୍ତ"
+],
+"answer": "ଜ୍ୟା (Chord)",
+"explanation": "ବୃତ୍ତର ପରିଧି ଉପରେ ଅବସ୍ଥିତ ଯେକୌଣସି ଦୁଇଟି ବିନ୍ଦୁକୁ ସଂଯୋଗ କରୁଥିବା ରେଖାଖଣ୍ଡକୁ ଜ୍ୟା କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the longest chord of a circle called?",
+"questionOdia": "ବୃତ୍ତର ସବୁଠାରୁ ଲମ୍ବା ଜ୍ୟାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ବ୍ୟାସ (Diameter)",
+"ବ୍ୟାସାର୍ଦ୍ଧ (Radius)",
+"ପରିଧି",
+"ଚାପ"
+],
+"answer": "ବ୍ୟାସ (Diameter)",
+"explanation": "ବୃତ୍ତର କେନ୍ଦ୍ର ଦେଇ ଯାଉଥିବା ଜ୍ୟା ସବୁଠାରୁ ଲମ୍ବା ହୋଇଥାଏ, ଯାହାକୁ ବ୍ୟାସ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "The distance from the center of the circle to any point on the circle is called what?",
+"questionOdia": "ବୃତ୍ତର କେନ୍ଦ୍ରଠାରୁ ପରିଧିର ଯେକୌଣସି ବିନ୍ଦୁ ପର୍ଯ୍ୟନ୍ତ ଦୂରତାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ବ୍ୟାସାର୍ଦ୍ଧ (Radius)",
+"ବ୍ୟାସ",
+"ଜ୍ୟା",
+"ପରିଧି"
+],
+"answer": "ବ୍ୟାସାର୍ଦ୍ଧ (Radius)",
+"explanation": "କେନ୍ଦ୍ରରୁ ବୃତ୍ତର ଯେକୌଣସି ବିନ୍ଦୁକୁ ସଂଯୋଗ କରୁଥିବା ରେଖାଖଣ୍ଡକୁ ବ୍ୟାସାର୍ଦ୍ଧ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "How many tangents can be drawn to a circle at a given point on it?",
+"questionOdia": "ବୃତ୍ତ ଉପରେ ଥିବା ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁରେ କେତୋଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ଅସଂଖ୍ୟ",
+"କୌଣସି ନୁହେଁ"
+],
+"answer": "ଗୋଟିଏ",
+"explanation": "ବୃତ୍ତର ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁରେ କେବଳ ଗୋଟିଏ ସ୍ପର୍ଶକ ଅଙ୍କନ କରିବା ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "If a line touches the circle at only one point, what is it called?",
+"questionOdia": "ଯଦି ଏକ ସରଳରେଖା ବୃତ୍ତକୁ କେବଳ ଗୋଟିଏ ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରେ, ତେବେ ତାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ସ୍ପର୍ଶକ (Tangent)",
+"ଛେଦକ (Secant)",
+"ଜ୍ୟା",
+"କେନ୍ଦ୍ରୀୟ ରେଖା"
+],
+"answer": "ସ୍ପର୍ଶକ (Tangent)",
+"explanation": "ବୃତ୍ତକୁ ଗୋଟିଏ ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରୁଥିବା ରେଖାକୁ ସ୍ପର୍ଶକ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the relationship between the radius and the diameter of a circle?",
+"questionOdia": "ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ ଓ ବ୍ୟାସ ମଧ୍ୟରେ ସମ୍ପର୍କ କ’ଣ?",
+"options": [
+"ବ୍ୟାସ = ୨ × ବ୍ୟାସାର୍ଦ୍ଧ",
+"ବ୍ୟାସାର୍ଦ୍ଧ = ୨ × ବ୍ୟାସ",
+"ବ୍ୟାସ = ବ୍ୟାସାର୍ଦ୍ଧ",
+"ବ୍ୟାସ = ୩ × ବ୍ୟାସାର୍ଦ୍ଧ"
+],
+"answer": "ବ୍ୟାସ = ୨ × ବ୍ୟାସାର୍ଦ୍ଧ",
+"explanation": "ବ୍ୟାସ ସର୍ବଦା ବ୍ୟାସାର୍ଦ୍ଧର ଦୁଇଗୁଣ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "How many common tangents can be drawn to two non-intersecting circles?",
+"questionOdia": "ପରସ୍ପରକୁ ଛେଦ କରୁନଥିବା ଦୁଇଟି ବୃତ୍ତ ପାଇଁ କେତୋଟି ସାଧାରଣ ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"୪ଟି",
+"୨ଟି",
+"୩ଟି",
+"୧ଟି"
+],
+"answer": "୪ଟି",
+"explanation": "ଯଦି ଦୁଇଟି ବୃତ୍ତ ପରସ୍ପରଠାରୁ ଦୂରରେ ଅବସ୍ଥିତ, ତେବେ ସେମାନଙ୍କର ୪ଟି ସାଧାରଣ ସ୍ପର୍ଶକ ଥାଏ।"
+},
+{
+"questionEnglish": "What is the angle between the tangent at a point of a circle and the radius passing through that point?",
+"questionOdia": "ବୃତ୍ତର କୌଣସି ବିନ୍ଦୁରେ ଅଙ୍କିତ ସ୍ପର୍ଶକ ଏବଂ ସେହି ବିନ୍ଦୁଗାମୀ ବ୍ୟାସାର୍ଦ୍ଧ ମଧ୍ୟରେ କୋଣ କେତେ ଡିଗ୍ରୀ?",
+"options": [
+"90°",
+"45°",
+"180°",
+"60°"
+],
+"answer": "90°",
+"explanation": "ସ୍ପର୍ଶକ ସର୍ବଦା ସ୍ପର୍ଶ ବିନ୍ଦୁରେ ବ୍ୟାସାର୍ଦ୍ଧ ଉପରେ ଲମ୍ବ ହୋଇଥାଏ, ତେଣୁ କୋଣ 90°।"
+},
+{
+"questionEnglish": "What is the part of the circle between two radii and the arc called?",
+"questionOdia": "ଦୁଇଟି ବ୍ୟାସାର୍ଦ୍ଧ ଓ ଚାପ ମଧ୍ୟରେ ଥିବା ବୃତ୍ତର ଅଂଶକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ତ୍ରିଜ୍ୟାଖଣ୍ଡ (Sector)",
+"ବୃତ୍ତଖଣ୍ଡ (Segment)",
+"ଜ୍ୟା",
+"ବ୍ୟାସ"
+],
+"answer": "ତ୍ରିଜ୍ୟାଖଣ୍ଡ (Sector)",
+"explanation": "ଦୁଇଟି ବ୍ୟାସାର୍ଦ୍ଧ ଓ ସେମାନଙ୍କ ଦ୍ୱାରା ଆବଦ୍ଧ ଚାପକୁ ତ୍ରିଜ୍ୟାଖଣ୍ଡ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the part of the circle between a chord and an arc called?",
+"questionOdia": "ଜ୍ୟା ଓ ଚାପ ମଧ୍ୟରେ ଥିବା ବୃତ୍ତର ଅଂଶକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ବୃତ୍ତଖଣ୍ଡ (Segment)",
+"ତ୍ରିଜ୍ୟାଖଣ୍ଡ (Sector)",
+"ବ୍ୟାସ",
+"କେନ୍ଦ୍ର"
+],
+"answer": "ବୃତ୍ତଖଣ୍ଡ (Segment)",
+"explanation": "ଜ୍ୟା ଓ ସମ୍ପୃକ୍ତ ଚାପ ଦ୍ୱାରା ଆବଦ୍ଧ ବୃତ୍ତର ଅଂଶକୁ ବୃତ୍ତଖଣ୍ଡ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If two circles touch each other externally, how many common tangents can be drawn?",
+"questionOdia": "ଯଦି ଦୁଇଟି ବୃତ୍ତ ପରସ୍ପରକୁ ବାହ୍ୟଭାବେ ସ୍ପର୍ଶ କରନ୍ତି, ତେବେ କେତୋଟି ସାଧାରଣ ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"୩ଟି",
+"୨ଟି",
+"୪ଟି",
+"୧ଟି"
+],
+"answer": "୩ଟି",
+"explanation": "ବାହ୍ୟଭାବେ ସ୍ପର୍ଶ କରୁଥିବା ଦୁଇଟି ବୃତ୍ତର ଦୁଇଟି ବାହ୍ୟ ସ୍ପର୍ଶକ ଓ ଗୋଟିଏ ଅନ୍ତଃ ସ୍ପର୍ଶକ ଥାଏ।"
+},
+{
+"questionEnglish": "A circle is the set of points in a plane which are at a constant distance from what?",
+"questionOdia": "ବୃତ୍ତ ହେଉଛି ଏକ ସମତଳରେ ସେହି ସମସ୍ତ ବିନ୍ଦୁର ସେଟ୍, ଯେଉଁମାନେ କାହାଠାରୁ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ଦୂରତାରେ ଥାନ୍ତି?",
+"options": [
+"ଏକ ଦତ୍ତ ବିନ୍ଦୁ (କେନ୍ଦ୍ର)",
+"ଏକ ସରଳରେଖା",
+"ଏକ ବୃତ୍ତଖଣ୍ଡ",
+"ଏକ ଜ୍ୟା"
+],
+"answer": "ଏକ ଦତ୍ତ ବିନ୍ଦୁ (କେନ୍ଦ୍ର)",
+"explanation": "ବୃତ୍ତର ସଂଜ୍ଞା ଅନୁଯାୟୀ, କେନ୍ଦ୍ରଠାରୁ ସମଦୂରତାରେ ଥିବା ବିନ୍ଦୁମାନଙ୍କୁ ନେଇ ବୃତ୍ତ ଗଠିତ।"
+},
+{
+"questionEnglish": "What is the length of the boundary of a circle called?",
+"questionOdia": "ବୃତ୍ତର ସୀମା ବା ବକ୍ରରେଖାର ଦୈର୍ଘ୍ୟକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ପରିଧି (Circumference)",
+"ବ୍ୟାସ",
+"କ୍ଷେତ୍ରଫଳ",
+"ଜ୍ୟା"
+],
+"answer": "ପରିଧି (Circumference)",
+"explanation": "ବୃତ୍ତର ସମ୍ପୂର୍ଣ୍ଣ ବକ୍ର ସୀମାର ଦୈର୍ଘ୍ୟକୁ ପରିଧି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the value of the angle inscribed in a semicircle?",
+"questionOdia": "ଅର୍ଦ୍ଧବୃତ୍ତରେ ଅନ୍ତର୍ଲିଖିତ କୋଣର ମାପ କେତେ?",
+"options": [
+"90°",
+"180°",
+"45°",
+"60°"
+],
+"answer": "90°",
+"explanation": "ଅର୍ଦ୍ଧବୃତ୍ତରେ ଥିବା ଯେକୌଣସି କୋଣ ସମକୋଣ ବା 90° ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Can a chord be a diameter of a circle?",
+"questionOdia": "ଜ୍ୟା କ’ଣ ବୃତ୍ତର ବ୍ୟାସ ହୋଇପାରିବ?",
+"options": [
+"ହଁ, ଯଦି ତାହା କେନ୍ଦ୍ର ଦେଇ ଗତି କରେ",
+"ନା, କେବେହେଲେ ନୁହେଁ",
+"କେବଳ ଛୋଟ ବୃତ୍ତରେ",
+"କେବଳ ବଡ଼ ବୃତ୍ତରେ"
+],
+"answer": "ହଁ, ଯଦି ତାହା କେନ୍ଦ୍ର ଦେଇ ଗତି କରେ",
+"explanation": "ଯେଉଁ ଜ୍ୟା କେନ୍ଦ୍ର ଦେଇ ଯାଏ ତାହା ବ୍ୟାସ ଅଟେ।"
+},
+{
+"questionEnglish": "Two circles are congruent if they have what?",
+"questionOdia": "ଦୁଇଟି ବୃତ୍ତ ସର୍ବସମ ହେବେ ଯଦି ସେମାନଙ୍କର କ’ଣ ସମାନ ଥାଏ?",
+"options": [
+"ସମାନ ବ୍ୟାସାର୍ଦ୍ଧ",
+"ସମାନ କେନ୍ଦ୍ର",
+"ସମାନ ଜ୍ୟା",
+"ସମାନ ପରିଧି କିନ୍ତୁ ଭିନ୍ନ କେନ୍ଦ୍ର"
+],
+"answer": "ସମାନ ବ୍ୟାସାର୍ଦ୍ଧ",
+"explanation": "ଦୁଇଟି ବୃତ୍ତ ସର୍ବସମ ହେବା ପାଇଁ ସେମାନଙ୍କର ବ୍ୟାସାର୍ଦ୍ଧ ସମାନ ହେବା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "What is the angle subtended by a diameter at the circumference?",
+"questionOdia": "ବ୍ୟାସ ଦ୍ୱାରା ବୃତ୍ତର ପରିଧିରେ ସୃଷ୍ଟି ହେଉଥିବା କୋଣର ମାପ କେତେ?",
+"options": [
+"90°",
+"180°",
+"45°",
+"360°"
+],
+"answer": "90°",
+"explanation": "ବ୍ୟାସ ଅର୍ଦ୍ଧବୃତ୍ତ ସୃଷ୍ଟି କରେ, ତେଣୁ ପରିଧିରେ ଉକ୍ତ କୋଣ 90° ହୁଏ।"
+},
+{
+"questionEnglish": "If the distance of a chord from the center is zero, then the chord is what?",
+"questionOdia": "ଯଦି କେନ୍ଦ୍ରଠାରୁ ଏକ ଜ୍ୟାର ଦୂରତା ଶୂନ୍ୟ ହୁଏ, ତେବେ ସେହି ଜ୍ୟାଟି କ’ଣ?",
+"options": [
+"ବ୍ୟାସ",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ସ୍ପର୍ଶକ",
+"ଅସମ୍ଭବ"
+],
+"answer": "ବ୍ୟାସ",
+"explanation": "ଯଦି ଜ୍ୟା କେନ୍ଦ୍ର ଦେଇ ଯାଏ (ଦୂରତା ଶୂନ୍ୟ), ତେବେ ତାହା ବ୍ୟାସ ଅଟେ।"
+},
+{
+"questionEnglish": "What is the line that is perpendicular to the radius at the point of contact called?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ ଉପରେ ସ୍ପର୍ଶ ବିନ୍ଦୁରେ ଲମ୍ବ ଥିବା ରେଖାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ସ୍ପର୍ଶକ (Tangent)",
+"ଜ୍ୟା",
+"ଛେଦକ",
+"ଅଧିକେନ୍ଦ୍ର"
+],
+"answer": "ସ୍ପର୍ଶକ (Tangent)",
+"explanation": "ସ୍ପର୍ଶକ ସ୍ପର୍ଶ ବିନ୍ଦୁରେ ବ୍ୟାସାର୍ଦ୍ଧ ସହ 90° କୋଣ କରିଥାଏ, ଅର୍ଥାତ୍ ଲମ୍ବ।"
+},
+{
+"questionEnglish": "How many tangents can be drawn from an external point to a circle?",
+"questionOdia": "ବୃତ୍ତ ବାହାରେ ଥିବା ଏକ ବିନ୍ଦୁରୁ ବୃତ୍ତକୁ କେତୋଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"୨ଟି",
+"୧ଟି",
+"୩ଟି",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "୨ଟି",
+"explanation": "ବୃତ୍ତର ବାହ୍ୟବର୍ତ୍ତୀ ବିନ୍ଦୁରୁ ବୃତ୍ତକୁ କେବଳ ଦୁଇଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "The lengths of two tangents drawn from an external point to a circle are what?",
+"questionOdia": "ବୃତ୍ତ ବାହାରେ ଥିବା ଏକ ବିନ୍ଦୁରୁ ଅଙ୍କିତ ଦୁଇଟି ସ୍ପର୍ଶକର ଦୈର୍ଘ୍ୟ କିପରି ଥାଏ?",
+"options": [
+"ସମାନ",
+"ଅସମାନ",
+"ଦ୍ୱିଗୁଣ",
+"ଅଧା"
+],
+"answer": "ସମାନ",
+"explanation": "ବାହ୍ୟ ବିନ୍ଦୁରୁ ବୃତ୍ତକୁ ଅଙ୍କିତ ସ୍ପର୍ଶକଦ୍ୱୟର ଦୈର୍ଘ୍ୟ ସର୍ବଦା ସମାନ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is a circular region bounded by two radii and an arc called?",
+"questionOdia": "ଦୁଇଟି ବ୍ୟାସାର୍ଦ୍ଧ ଓ ଏକ ଚାପ ଦ୍ୱାରା ଆବଦ୍ଧ ବୃତ୍ତର ଅଂଶକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ତ୍ରିଜ୍ୟାଖଣ୍ଡ (Sector)",
+"ବୃତ୍ତଖଣ୍ଡ (Segment)",
+"ପରିଧି",
+"ଜ୍ୟା"
+],
+"answer": "ତ୍ରିଜ୍ୟାଖଣ୍ଡ (Sector)",
+"explanation": "ତ୍ରିଜ୍ୟାଖଣ୍ଡ ଦୁଇଟି ବ୍ୟାସାର୍ଦ୍ଧ ଓ ଗୋଟିଏ ଚାପକୁ ନେଇ ଗଠିତ।"
+},
+{
+"questionEnglish": "If the radius of a circle is 5 cm, what is its diameter?",
+"questionOdia": "ଯଦି ଏକ ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ 5 ସେମି, ତେବେ ଏହାର ବ୍ୟାସ କେତେ?",
+"options": [
+"10 ସେମି",
+"5 ସେମି",
+"2.5 ସେମି",
+"20 ସେମି"
+],
+"answer": "10 ସେମି",
+"explanation": "ବ୍ୟାସ = 2 × ବ୍ୟାସାର୍ଦ୍ଧ = 2 × 5 = 10 ସେମି।"
+},
+{
+"questionEnglish": "Which part of the circle contains the center?",
+"questionOdia": "ବୃତ୍ତର କେଉଁ ଅଂଶରେ କେନ୍ଦ୍ର ରହିଥାଏ?",
+"options": [
+"ଅଭ୍ୟନ୍ତର",
+"ବହିର୍ଭାଗ",
+"ପରିଧି",
+"ଜ୍ୟା"
+],
+"answer": "ଅଭ୍ୟନ୍ତର",
+"explanation": "ବୃତ୍ତର କେନ୍ଦ୍ର ସବୁବେଳେ ବୃତ୍ତର ଭିତର ଅଂଶ ବା ଅଭ୍ୟନ୍ତରରେ ଥାଏ।"
+},
+{
+"questionEnglish": "Two circles with different radii are always what?",
+"questionOdia": "ଭିନ୍ନ ବ୍ୟାସାର୍ଦ୍ଧ ଥିବା ଦୁଇଟି ବୃତ୍ତ ସର୍ବଦା କ’ଣ?",
+"options": [
+"ସଦୃଶ (Similar)",
+"ସର୍ବସମ (Congruent)",
+"ଲମ୍ବ",
+"ସମାନ୍ତରାଳ"
+],
+"answer": "ସଦୃଶ (Similar)",
+"explanation": "ସମସ୍ତ ବୃତ୍ତ ସଦୃଶ ଅଟନ୍ତି, କିନ୍ତୁ ସର୍ବସମ ହେବା ପାଇଁ ବ୍ୟାସାର୍ଦ୍ଧ ସମାନ ହେବା ଦରକାର।"
+},
+{
+"questionEnglish": "What is the angle in a major segment?",
+"questionOdia": "ଦୀର୍ଘ ବୃତ୍ତଖଣ୍ଡରେ ଥିବା କୋଣ କ’ଣ?",
+"options": [
+"ସୂକ୍ଷ୍ମ କୋଣ",
+"ସ୍ଥୂଳ କୋଣ",
+"ସମ କୋଣ",
+"ପ୍ରବୃଦ୍ଧ କୋଣ"
+],
+"answer": "ସୂକ୍ଷ୍ମ କୋଣ",
+"explanation": "ଦୀର୍ଘ ବୃତ୍ତଖଣ୍ଡରେ ଅନ୍ତର୍ଲିଖିତ କୋଣ ସର୍ବଦା ସୂକ୍ଷ୍ମ କୋଣ (<90°) ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the angle in a minor segment?",
+"questionOdia": "କ୍ଷୁଦ୍ର ବୃତ୍ତଖଣ୍ଡରେ ଥିବା କୋଣ କ’ଣ?",
+"options": [
+"ସ୍ଥୂଳ କୋଣ",
+"ସୂକ୍ଷ୍ମ କୋଣ",
+"ସମ କୋଣ",
+"ଶୂନ୍ୟ କୋଣ"
+],
+"answer": "ସ୍ଥୂଳ କୋଣ",
+"explanation": "କ୍ଷୁଦ୍ର ବୃତ୍ତଖଣ୍ଡରେ ଅନ୍ତର୍ଲିଖିତ କୋଣ ସର୍ବଦା ସ୍ଥୂଳ କୋଣ (>90°) ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "If two chords are equal in length, what is their distance from the center?",
+"questionOdia": "ଯଦି ଦୁଇଟି ଜ୍ୟାର ଦୈର୍ଘ୍ୟ ସମାନ, ତେବେ କେନ୍ଦ୍ରଠାରୁ ସେମାନଙ୍କର ଦୂରତା କିପରି?",
+"options": [
+"ସମାନ",
+"ଭିନ୍ନ",
+"ଦ୍ୱିଗୁଣ",
+"ଶୂନ୍ୟ"
+],
+"answer": "ସମାନ",
+"explanation": "ସମାନ ଦୈର୍ଘ୍ୟର ଜ୍ୟାଗୁଡ଼ିକ କେନ୍ଦ୍ରଠାରୁ ସମଦୂରତାରେ ଥାନ୍ତି।"
+},
+{
+"questionEnglish": "A line segment passing through the center and having both endpoints on the circle is called?",
+"questionOdia": "କେନ୍ଦ୍ର ଦେଇ ଯାଉଥିବା ଏବଂ ବୃତ୍ତ ଉପରେ ଦୁଇଟି ଅନ୍ତ୍ୟବିନ୍ଦୁ ଥିବା ରେଖାଖଣ୍ଡକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ବ୍ୟାସ",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ଜ୍ୟା",
+"ସ୍ପର୍ଶକ"
+],
+"answer": "ବ୍ୟାସ",
+"explanation": "କେନ୍ଦ୍ର ଦେଇ ଯାଉଥିବା ସର୍ବବୃହତ ଜ୍ୟାକୁ ବ୍ୟାସ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If a circle has a radius of 7 cm, what is its circumference? (Use π=22/7)",
+"questionOdia": "ଯଦି ଏକ ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ 7 ସେମି, ତେବେ ଏହାର ପରିଧି କେତେ? (π=22/7 ନିଅ)",
+"options": [
+"44 ସେମି",
+"22 ସେମି",
+"14 ସେମି",
+"154 ସେମି"
+],
+"answer": "44 ସେମି",
+"explanation": "ପରିଧି = 2πr = 2 × (22/7) × 7 = 44 ସେମି।"
+},
+{
+"questionEnglish": "How many circles can pass through three non-collinear points?",
+"questionOdia": "ତିନୋଟି ଅଣ-ସରଳରେଖୀୟ ବିନ୍ଦୁ ଦେଇ କେତୋଟି ବୃତ୍ତ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "ଗୋଟିଏ",
+"explanation": "ତିନୋଟି ଅଣ-ସରଳରେଖୀୟ ବିନ୍ଦୁ ଦେଇ କେବଳ ଗୋଟିଏ ବୃତ୍ତ ଅଙ୍କନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "What is the interior of a circle combined with the circle itself called?",
+"questionOdia": "ବୃତ୍ତର ଅଭ୍ୟନ୍ତର ଓ ବୃତ୍ତର ସମାହାରକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ବୃତ୍ତୀୟ ଅଞ୍ଚଳ (Circular Region)",
+"ବୃତ୍ତଖଣ୍ଡ",
+"ତ୍ରିଜ୍ୟାଖଣ୍ଡ",
+"ପରିଧି"
+],
+"answer": "ବୃତ୍ତୀୟ ଅଞ୍ଚଳ (Circular Region)",
+"explanation": "ବୃତ୍ତ ଓ ତା'ର ଭିତର ଅଂଶକୁ ମିଶାଇ ବୃତ୍ତୀୟ ଅଞ୍ଚଳ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If the angle at the center subtended by an arc is 60°, what is the angle subtended by it at the circumference?",
+"questionOdia": "ଯଦି ଏକ ଚାପ କେନ୍ଦ୍ରରେ 60° କୋଣ ସୃଷ୍ଟି କରେ, ତେବେ ତାହା ପରିଧିରେ କେତେ କୋଣ ସୃଷ୍ଟି କରିବ?",
+"options": [
+"30°",
+"120°",
+"60°",
+"90°"
+],
+"answer": "30°",
+"explanation": "ପରିଧିରେ ସୃଷ୍ଟ କୋଣ କେନ୍ଦ୍ରସ୍ଥ କୋଣର ଅଧା ହୋଇଥାଏ (60/2 = 30°)।"
+},
+{
+"questionEnglish": "What is the area of a circle with radius 'r'?",
+"questionOdia": "'r' ବ୍ୟାସାର୍ଦ୍ଧ ଥିବା ବୃତ୍ତର କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"πr²",
+"2πr",
+"πr",
+"2πr²"
+],
+"answer": "πr²",
+"explanation": "ବୃତ୍ତର କ୍ଷେତ୍ରଫଳ ସୂତ୍ର ହେଉଛି πr²।"
+},
+{
+"questionEnglish": "What is the angle subtended by a semicircle at the center?",
+"questionOdia": "ଅର୍ଦ୍ଧବୃତ୍ତ କେନ୍ଦ୍ରରେ କେତେ କୋଣ ସୃଷ୍ଟି କରେ?",
+"options": [
+"180°",
+"90°",
+"360°",
+"45°"
+],
+"answer": "180°",
+"explanation": "ଅର୍ଦ୍ଧବୃତ୍ତ ଏକ ସରଳ କୋଣ ସୃଷ୍ଟି କରେ, ଯାହା 180°।"
+},
+{
+"questionEnglish": "Which of the following is true for a point inside a circle?",
+"questionOdia": "ବୃତ୍ତର ଭିତରେ ଥିବା ଏକ ବିନ୍ଦୁ ପାଇଁ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ସତ୍ୟ?",
+"options": [
+"କେନ୍ଦ୍ରଠାରୁ ଦୂରତା < ବ୍ୟାସାର୍ଦ୍ଧ",
+"କେନ୍ଦ୍ରଠାରୁ ଦୂରତା = ବ୍ୟାସାର୍ଦ୍ଧ",
+"କେନ୍ଦ୍ରଠାରୁ ଦୂରତା > ବ୍ୟାସାର୍ଦ୍ଧ",
+"କେନ୍ଦ୍ରଠାରୁ ଦୂରତା ୦"
+],
+"answer": "କେନ୍ଦ୍ରଠାରୁ ଦୂରତା < ବ୍ୟାସାର୍ଦ୍ଧ",
+"explanation": "ବୃତ୍ତର ଅଭ୍ୟନ୍ତରରେ ଥିବା ବିନ୍ଦୁର କେନ୍ଦ୍ରଠାରୁ ଦୂରତା ବ୍ୟାସାର୍ଦ୍ଧଠାରୁ କମ୍ ହୁଏ।"
+},
+{
+"questionEnglish": "How many tangents can be drawn to a circle from a point inside it?",
+"questionOdia": "ବୃତ୍ତ ଭିତରେ ଥିବା ଏକ ବିନ୍ଦୁରୁ ବୃତ୍ତକୁ କେତୋଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"0",
+"1",
+"2",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "0",
+"explanation": "ବୃତ୍ତର ଅଭ୍ୟନ୍ତରରେ ଥିବା ବିନ୍ଦୁରୁ କୌଣସି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ ନାହିଁ।"
+},
+{
+"questionEnglish": "What is the term for a circle that passes through all the vertices of a triangle?",
+"questionOdia": "ଏକ ତ୍ରିଭୁଜର ସମସ୍ତ ଶୀର୍ଷବିନ୍ଦୁ ଦେଇ ଯାଉଥିବା ବୃତ୍ତକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ପରିବୃତ୍ତ (Circumcircle)",
+"ଅନ୍ତଃବୃତ୍ତ (Incircle)",
+"ଅର୍ଦ୍ଧବୃତ୍ତ",
+"ବହୁଭୁଜ"
+],
+"answer": "ପରିବୃତ୍ତ (Circumcircle)",
+"explanation": "ତ୍ରିଭୁଜର ଶୀର୍ଷବିନ୍ଦୁ ଦେଇ ଯାଉଥିବା ବୃତ୍ତକୁ ପରିବୃତ୍ତ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the line that intersects the circle at two points called?",
+"questionOdia": "ବୃତ୍ତକୁ ଦୁଇଟି ବିନ୍ଦୁରେ ଛେଦ କରୁଥିବା ରେଖାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ଛେଦକ (Secant)",
+"ସ୍ପର୍ଶକ",
+"ଜ୍ୟା",
+"ବ୍ୟାସ"
+],
+"answer": "ଛେଦକ (Secant)",
+"explanation": "ବୃତ୍ତକୁ ଛେଦ କରୁଥିବା ରେଖା ଛେଦକ ଅଟେ।"
+},
+{
+"questionEnglish": "Two congruent circles have the same...",
+"questionOdia": "ଦୁଇଟି ସର୍ବସମ ବୃତ୍ତର କ’ଣ ସମାନ ଥାଏ?",
+"options": [
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"କେନ୍ଦ୍ର",
+"ସ୍ଥାନ",
+"ସ୍ପର୍ଶକ"
+],
+"answer": "ବ୍ୟାସାର୍ଦ୍ଧ",
+"explanation": "ସର୍ବସମ ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ ସମାନ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "The perpendicular bisector of a chord passes through the...",
+"questionOdia": "ଏକ ଜ୍ୟାର ଲମ୍ବ ସମଦ୍ୱିଖଣ୍ଡକ କେଉଁଠି ଦେଇ ଯାଏ?",
+"options": [
+"କେନ୍ଦ୍ର",
+"ପରିଧି",
+"ସ୍ପର୍ଶକ",
+"ଅନ୍ୟ କୌଣସି ଜ୍ୟା"
+],
+"answer": "କେନ୍ଦ୍ର",
+"explanation": "ଜ୍ୟାର ଲମ୍ବ ସମଦ୍ୱିଖଣ୍ଡକ ବୃତ୍ତର କେନ୍ଦ୍ର ଦେଇ ଗତି କରେ।"
+},
+{
+"questionEnglish": "Which part of the circle is the collection of all points equidistant from the center?",
+"questionOdia": "ବୃତ୍ତର କେଉଁ ଅଂଶଟି କେନ୍ଦ୍ରଠାରୁ ସମଦୂରତାରେ ଥିବା ସମସ୍ତ ବିନ୍ଦୁର ସମଷ୍ଟି?",
+"options": [
+"ପରିଧି",
+"ଅଭ୍ୟନ୍ତର",
+"ବହିର୍ଭାଗ",
+"ତ୍ରିଜ୍ୟାଖଣ୍ଡ"
+],
+"answer": "ପରିଧି",
+"explanation": "ବୃତ୍ତର ପରିଧି ହେଉଛି ସେହି ସମସ୍ତ ବିନ୍ଦୁ ଯାହା କେନ୍ଦ୍ରଠାରୁ ସମଦୂରତାରେ ଥାନ୍ତି।"
+},
+{
+"questionEnglish": "What is the common point between a tangent and a circle called?",
+"questionOdia": "ସ୍ପର୍ଶକ ଓ ବୃତ୍ତ ମଧ୍ୟରେ ଥିବା ସାଧାରଣ ବିନ୍ଦୁକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ସ୍ପର୍ଶ ବିନ୍ଦୁ (Point of contact)",
+"କେନ୍ଦ୍ର",
+"ଛେଦ ବିନ୍ଦୁ",
+"ଅନ୍ତଃବିନ୍ଦୁ"
+],
+"answer": "ସ୍ପର୍ଶ ବିନ୍ଦୁ (Point of contact)",
+"explanation": "ସ୍ପର୍ଶକ ବୃତ୍ତକୁ ଯେଉଁ ବିନ୍ଦୁରେ ଛୁଇଁଥାଏ ତାହାକୁ ସ୍ପର୍ଶ ବିନ୍ଦୁ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "How many parallel tangents can a circle have?",
+"questionOdia": "ଏକ ବୃତ୍ତର ସର୍ବାଧିକ କେତୋଟି ସମାନ୍ତରାଳ ସ୍ପର୍ଶକ ଥାଇପାରେ?",
+"options": [
+"୨ଟି",
+"୧ଟି",
+"୩ଟି",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "୨ଟି",
+"explanation": "ଏକ ବୃତ୍ତର କେବଳ ଦୁଇଟି ସମାନ୍ତରାଳ ସ୍ପର୍ଶକ (ବ୍ୟାସର ଦୁଇ ପ୍ରାନ୍ତରେ) ଥାଇପାରେ।"
+},
+{
+"questionEnglish": "The angle between a tangent and the radius through the point of contact is...",
+"questionOdia": "ସ୍ପର୍ଶକ ଏବଂ ସ୍ପର୍ଶ ବିନ୍ଦୁଗାମୀ ବ୍ୟାସାର୍ଦ୍ଧ ମଧ୍ୟରେ କୋଣ କେତେ?",
+"options": [
+"90°",
+"180°",
+"0°",
+"45°"
+],
+"answer": "90°",
+"explanation": "ଏହା ଏକ ମୌଳିକ ପ୍ରମେୟ ଯେ ସ୍ପର୍ଶକ ସ୍ପର୍ଶ ବିନ୍ଦୁରେ ବ୍ୟାସାର୍ଦ୍ଧ ଉପରେ ଲମ୍ବ।"
+},
+{
+"questionEnglish": "What is the area of a semicircle with radius 'r'?",
+"questionOdia": "'r' ବ୍ୟାସାର୍ଦ୍ଧ ଥିବା ଅର୍ଦ୍ଧବୃତ୍ତର କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"(1/2)πr²",
+"πr²",
+"2πr²",
+"(1/4)πr²"
+],
+"answer": "(1/2)πr²",
+"explanation": "ବୃତ୍ତର ଅଧା ଅର୍ଦ୍ଧବୃତ୍ତ, ତେଣୁ କ୍ଷେତ୍ରଫଳ (1/2)πr²।"
+},
+{
+"questionEnglish": "A chord of a circle divides it into two parts, which are called...",
+"questionOdia": "ବୃତ୍ତର ଏକ ଜ୍ୟା ଏହାକୁ ଦୁଇଟି ଅଂଶରେ ବିଭକ୍ତ କରେ, ଯାହାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ବୃତ୍ତଖଣ୍ଡ (Segment)",
+"ତ୍ରିଜ୍ୟାଖଣ୍ଡ (Sector)",
+"ଅର୍ଦ୍ଧବୃତ୍ତ",
+"ପରିଧି"
+],
+"answer": "ବୃତ୍ତଖଣ୍ଡ (Segment)",
+"explanation": "ଜ୍ୟା ଦ୍ୱାରା ବିଭକ୍ତ ବୃତ୍ତର ଅଂଶଗୁଡ଼ିକୁ ବୃତ୍ତଖଣ୍ଡ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the relation between equal chords of a circle and their distance from the center?",
+"questionOdia": "ବୃତ୍ତର ସମାନ ଜ୍ୟା ଓ କେନ୍ଦ୍ରଠାରୁ ସେମାନଙ୍କ ଦୂରତା ମଧ୍ୟରେ ସମ୍ପର୍କ କ’ଣ?",
+"options": [
+"ଦୂରତା ସମାନ",
+"ଦୂରତା ଭିନ୍ନ",
+"ଦୂରତା ଦୁଇଗୁଣ",
+"ସେମାନେ କେନ୍ଦ୍ର ଦେଇ ଯାଆନ୍ତି"
+],
+"answer": "ଦୂରତା ସମାନ",
+"explanation": "ସମାନ ଜ୍ୟା କେନ୍ଦ୍ରଠାରୁ ସମଦୂରତାରେ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "The diameter of a circle is the longest...",
+"questionOdia": "ବୃତ୍ତର ବ୍ୟାସ ହେଉଛି ସବୁଠାରୁ ଲମ୍ବା...",
+"options": [
+"ଜ୍ୟା",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ସ୍ପର୍ଶକ",
+"ପରିଧି"
+],
+"answer": "ଜ୍ୟା",
+"explanation": "କେନ୍ଦ୍ର ଦେଇ ଯାଉଥିବା ଜ୍ୟା ହିଁ ବ୍ୟାସ ଏବଂ ତାହା ସବୁଠାରୁ ଲମ୍ବା ଜ୍ୟା।"
+},
+{
+"questionEnglish": "How many circles can pass through one point?",
+"questionOdia": "ଏକ ବିନ୍ଦୁ ଦେଇ କେତୋଟି ବୃତ୍ତ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"ଅସଂଖ୍ୟ",
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ଶୂନ୍ୟ"
+],
+"answer": "ଅସଂଖ୍ୟ",
+"explanation": "ଏକ ବିନ୍ଦୁ ଦେଇ ଅସଂଖ୍ୟ ବୃତ୍ତ ଅଙ୍କନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "Which of the following is an example of a closed curve?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ବନ୍ଦ ବକ୍ରରେଖାର ଉଦାହରଣ?",
+"options": [
+"ବୃତ୍ତ",
+"ସରଳରେଖା",
+"କିରଣ",
+"ରେଖାଖଣ୍ଡ"
+],
+"answer": "ବୃତ୍ତ",
+"explanation": "ବୃତ୍ତ ଏକ ବନ୍ଦ ବକ୍ରରେଖା କାରଣ ଏହାର ଆରମ୍ଭ ଓ ଶେଷ ବିନ୍ଦୁ ସମାନ।"
+},
+{
+"questionEnglish": "A line segment connecting the center of a circle to any point on its circumference is...",
+"questionOdia": "କେନ୍ଦ୍ରକୁ ବୃତ୍ତର ପରିଧି ଉପରେ ଥିବା କୌଣସି ବିନ୍ଦୁ ସହ ସଂଯୋଗ କରୁଥିବା ରେଖାଖଣ୍ଡ ହେଉଛି...",
+"options": [
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ବ୍ୟାସ",
+"ଜ୍ୟା",
+"ସ୍ପର୍ଶକ"
+],
+"answer": "ବ୍ୟାସାର୍ଦ୍ଧ",
+"explanation": "ବ୍ୟାସାର୍ଦ୍ଧ ହେଉଛି କେନ୍ଦ୍ର ଓ ପରିଧି ମଧ୍ୟରେ ଥିବା ଦୂରତା।"
+},
+{
+"questionEnglish": "What is the total angle around the center of a circle?",
+"questionOdia": "ବୃତ୍ତର କେନ୍ଦ୍ର ଚାରିପାଖରେ ଥିବା ସମୁଦାୟ କୋଣ କେତେ?",
+"options": [
+"360°",
+"180°",
+"90°",
+"270°"
+],
+"answer": "360°",
+"explanation": "ଗୋଟିଏ ବିନ୍ଦୁ ଚାରିପାଖରେ ସମୁଦାୟ କୋଣ 360°।"
+},
+{
+"questionEnglish": "What do we call a chord that does not pass through the center?",
+"questionOdia": "କେନ୍ଦ୍ର ଦେଇ ଯାଉନଥିବା ଜ୍ୟାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ଜ୍ୟା",
+"ବ୍ୟାସ",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ସ୍ପର୍ଶକ"
+],
+"answer": "ଜ୍ୟା",
+"explanation": "କେନ୍ଦ୍ର ଦେଇ ଯାଉନଥିବା ଜ୍ୟା କେବଳ 'ଜ୍ୟା' ଭାବେ ପରିଚିତ।"
+},
+{
+"questionEnglish": "If two circles are congruent, their areas are...",
+"questionOdia": "ଯଦି ଦୁଇଟି ବୃତ୍ତ ସର୍ବସମ, ତେବେ ସେମାନଙ୍କର କ୍ଷେତ୍ରଫଳ କ’ଣ?",
+"options": [
+"ସମାନ",
+"ଭିନ୍ନ",
+"ଦୁଇଗୁଣ",
+"ଅଧା"
+],
+"answer": "ସମାନ",
+"explanation": "ସର୍ବସମ ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ ସମାନ, ତେଣୁ କ୍ଷେତ୍ରଫଳ ମଧ୍ୟ ସମାନ।"
+},
+{
+"questionEnglish": "What is the shape of a bangle?",
+"questionOdia": "ଚୁଡ଼ିର ଆକାର କ’ଣ?",
+"options": [
+"ବୃତ୍ତାକାର",
+"ବର୍ଗାକାର",
+"ତ୍ରିଭୁଜାକାର",
+"ଆୟତାକାର"
+],
+"answer": "ବୃତ୍ତାକାର",
+"explanation": "ଚୁଡ଼ି ଏକ ବୃତ୍ତାକାର ବସ୍ତୁ।"
+},
+{
+"questionEnglish": "A line that touches the circle at one point is...",
+"questionOdia": "ବୃତ୍ତକୁ ଗୋଟିଏ ବିନ୍ଦୁରେ ଛୁଉଁଥିବା ରେଖାଟି ହେଉଛି...",
+"options": [
+"ସ୍ପର୍ଶକ",
+"ଛେଦକ",
+"ବ୍ୟାସ",
+"ଜ୍ୟା"
+],
+"answer": "ସ୍ପର୍ଶକ",
+"explanation": "ସ୍ପର୍ଶକ ବୃତ୍ତକୁ କେବଳ ଗୋଟିଏ ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରେ।"
+},
+{
+"questionEnglish": "How many points does a tangent have in common with the circle?",
+"questionOdia": "ସ୍ପର୍ଶକ ବୃତ୍ତ ସହିତ କେତୋଟି ସାଧାରଣ ବିନ୍ଦୁ ଧାରଣ କରେ?",
+"options": [
+"୧ଟି",
+"୨ଟି",
+"୩ଟି",
+"୦ଟି"
+],
+"answer": "୧ଟି",
+"explanation": "ସ୍ପର୍ଶକର ବୃତ୍ତ ସହିତ ମାତ୍ର ଗୋଟିଏ ସାଧାରଣ ବିନ୍ଦୁ (ସ୍ପର୍ଶ ବିନ୍ଦୁ) ଥାଏ।"
+},
+{
+"questionEnglish": "What is the center of a circle?",
+"questionOdia": "ବୃତ୍ତର କେନ୍ଦ୍ର କ’ଣ?",
+"options": [
+"ବୃତ୍ତ ଭିତରେ ଥିବା ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁ",
+"ବୃତ୍ତ ବାହାରେ ଥିବା ଏକ ବିନ୍ଦୁ",
+"ବୃତ୍ତ ଉପରେ ଥିବା ଏକ ବିନ୍ଦୁ",
+"କୌଣସି ବିନ୍ଦୁ ନୁହେଁ"
+],
+"answer": "ବୃତ୍ତ ଭିତରେ ଥିବା ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁ",
+"explanation": "କେନ୍ଦ୍ର ବୃତ୍ତର ଅଭ୍ୟନ୍ତରରେ ଥିବା ସ୍ଥିର ବିନ୍ଦୁ।"
+},
+{
+"questionEnglish": "Are all diameters of a circle equal?",
+"questionOdia": "ବୃତ୍ତର ସମସ୍ତ ବ୍ୟାସ କ’ଣ ସମାନ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି",
+"କେବଳ ବଡ଼ ବୃତ୍ତରେ"
+],
+"answer": "ହଁ",
+"explanation": "ବୃତ୍ତର ସମସ୍ତ ବ୍ୟାସର ଦୈର୍ଘ୍ୟ ସମାନ (2r)।"
+},
+{
+"questionEnglish": "Which part is larger: a major segment or a minor segment?",
+"questionOdia": "ବୃତ୍ତଖଣ୍ଡ ମଧ୍ୟରୁ କେଉଁଟି ବଡ଼: ଦୀର୍ଘ ନା କ୍ଷୁଦ୍ର?",
+"options": [
+"ଦୀର୍ଘ ବୃତ୍ତଖଣ୍ଡ",
+"କ୍ଷୁଦ୍ର ବୃତ୍ତଖଣ୍ଡ",
+"ଉଭୟ ସମାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଦୀର୍ଘ ବୃତ୍ତଖଣ୍ଡ",
+"explanation": "ଦୀର୍ଘ ଅର୍ଥାତ୍ ବଡ଼, ତେଣୁ ଦୀର୍ଘ ବୃତ୍ତଖଣ୍ଡ ବଡ଼ ହୁଏ।"
+},
+{
+"questionEnglish": "If a line segment joins two points on the circle, it is called...",
+"questionOdia": "ଯଦି ଏକ ରେଖାଖଣ୍ଡ ବୃତ୍ତର ଦୁଇଟି ବିନ୍ଦୁକୁ ସଂଯୋଗ କରେ, ତାହାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ଜ୍ୟା",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ସ୍ପର୍ଶକ",
+"କେନ୍ଦ୍ର"
+],
+"answer": "ଜ୍ୟା",
+"explanation": "ଜ୍ୟାର ସଂଜ୍ଞା ହେଉଛି ବୃତ୍ତର ଦୁଇଟି ବିନ୍ଦୁକୁ ସଂଯୋଗ କରୁଥିବା ରେଖାଖଣ୍ଡ।"
+},
+{
+"questionEnglish": "Can a tangent be a chord?",
+"questionOdia": "ସ୍ପର୍ଶକ କ’ଣ ଜ୍ୟା ହୋଇପାରିବ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ଗୋଟିଏ ବିନ୍ଦୁରେ",
+"ଅସମ୍ଭବ"
+],
+"answer": "ନା",
+"explanation": "ସ୍ପର୍ଶକ ଏକ ଅନନ୍ତ ରେଖା, କିନ୍ତୁ ଜ୍ୟା ଏକ ରେଖାଖଣ୍ଡ ଯାହା ଭିତର ଦେଇ ଯାଏ।"
+},
+{
+"questionEnglish": "The angle subtended by a minor arc at the center is...",
+"questionOdia": "କ୍ଷୁଦ୍ର ଚାପ ଦ୍ୱାରା କେନ୍ଦ୍ରରେ ସୃଷ୍ଟ କୋଣଟି...",
+"options": [
+"ସୂକ୍ଷ୍ମ କୋଣ",
+"ସ୍ଥୂଳ କୋଣ",
+"ସମ କୋଣ",
+"ପ୍ରବୃଦ୍ଧ କୋଣ"
+],
+"answer": "ସୂକ୍ଷ୍ମ କୋଣ",
+"explanation": "କ୍ଷୁଦ୍ର ଚାପ କେନ୍ଦ୍ରରେ ସୂକ୍ଷ୍ମ କୋଣ (<180°) ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "What is the angle subtended by a major arc at the center?",
+"questionOdia": "ଦୀର୍ଘ ଚାପ ଦ୍ୱାରା କେନ୍ଦ୍ରରେ ସୃଷ୍ଟ କୋଣଟି...",
+"options": [
+"ସ୍ଥୂଳ କୋଣ ବା ପ୍ରବୃଦ୍ଧ କୋଣ",
+"ସୂକ୍ଷ୍ମ କୋଣ",
+"ସମ କୋଣ",
+"ଶୂନ୍ୟ କୋଣ"
+],
+"answer": "ସ୍ଥୂଳ କୋଣ ବା ପ୍ରବୃଦ୍ଧ କୋଣ",
+"explanation": "ଦୀର୍ଘ ଚାପ କେନ୍ଦ୍ରରେ 180° ରୁ ଅଧିକ କୋଣ ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "Two circles are equal if they have same...",
+"questionOdia": "ଦୁଇଟି ବୃତ୍ତ ସମାନ ହେବେ ଯଦି ସେମାନଙ୍କର କ’ଣ ସମାନ ଥାଏ?",
+"options": [
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"କେନ୍ଦ୍ର",
+"ସ୍ଥାନ",
+"ପରିଧି"
+],
+"answer": "ବ୍ୟାସାର୍ଦ୍ଧ",
+"explanation": "ବ୍ୟାସାର୍ଦ୍ଧ ସମାନ ହେଲେ ବୃତ୍ତ ସମାନ।"
+},
+{
+"questionEnglish": "A circle divides the plane into how many parts?",
+"questionOdia": "ବୃତ୍ତ ସମତଳକୁ କେତୋଟି ଅଂଶରେ ବିଭକ୍ତ କରେ?",
+"options": [
+"୩ଟି",
+"୨ଟି",
+"୧ଟି",
+"୪ଟି"
+],
+"answer": "୩ଟି",
+"explanation": "ବୃତ୍ତର ଭିତର, ବାହାର ଏବଂ ବୃତ୍ତ ନିଜେ; ଏହିପରି ୩ଟି ଅଂଶ।"
+},
+{
+"questionEnglish": "How many circles can pass through two given points?",
+"questionOdia": "ଦୁଇଟି ଦତ୍ତ ବିନ୍ଦୁ ଦେଇ କେତୋଟି ବୃତ୍ତ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"ଅସଂଖ୍ୟ",
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ଶୂନ୍ୟ"
+],
+"answer": "ଅସଂଖ୍ୟ",
+"explanation": "ଦୁଇଟି ବିନ୍ଦୁ ଦେଇ ଅସଂଖ୍ୟ ବୃତ୍ତ ଅଙ୍କନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "If the length of a chord is equal to the radius, the triangle formed with the center is...",
+"questionOdia": "ଯଦି ଜ୍ୟାର ଦୈର୍ଘ୍ୟ ବ୍ୟାସାର୍ଦ୍ଧ ସହ ସମାନ, ତେବେ କେନ୍ଦ୍ର ସହ ଗଠିତ ତ୍ରିଭୁଜଟି କ’ଣ?",
+"options": [
+"ସମବାହୁ ତ୍ରିଭୁଜ",
+"ସମଦ୍ୱିବାହୁ ତ୍ରିଭୁଜ",
+"ବିଷମବାହୁ ତ୍ରିଭୁଜ",
+"ସମକୋଣୀ ତ୍ରିଭୁଜ"
+],
+"answer": "ସମବାହୁ ତ୍ରିଭୁଜ",
+"explanation": "ଦୁଇଟି ବ୍ୟାସାର୍ଦ୍ଧ ଓ ଜ୍ୟା ସମାନ ହେଲେ ତ୍ରିଭୁଜ ସମବାହୁ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the measure of the angle in a semicircle?",
+"questionOdia": "ଅର୍ଦ୍ଧବୃତ୍ତରେ ଅନ୍ତର୍ଲିଖିତ କୋଣର ମାପ କେତେ?",
+"options": [
+"90°",
+"180°",
+"45°",
+"60°"
+],
+"answer": "90°",
+"explanation": "ଅର୍ଦ୍ଧବୃତ୍ତର କୋଣ ସର୍ବଦା 90°।"
+},
+{
+"questionEnglish": "The set of points at a distance 'r' from center 'O' is...",
+"questionOdia": "କେନ୍ଦ୍ର 'O' ରୁ 'r' ଦୂରତାରେ ଥିବା ବିନ୍ଦୁମାନଙ୍କ ସେଟ୍ ହେଉଛି...",
+"options": [
+"ବୃତ୍ତ",
+"ଜ୍ୟା",
+"ବ୍ୟାସ",
+"ତ୍ରିଜ୍ୟାଖଣ୍ଡ"
+],
+"answer": "ବୃତ୍ତ",
+"explanation": "ବୃତ୍ତର ସଂଜ୍ଞା ଅନୁଯାୟୀ।"
+},
+{
+"questionEnglish": "Can a secant be a tangent?",
+"questionOdia": "ଛେଦକ କ’ଣ ସ୍ପର୍ଶକ ହୋଇପାରିବ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ବଡ଼ ବୃତ୍ତରେ",
+"ଅସମ୍ଭବ"
+],
+"answer": "ନା",
+"explanation": "ଛେଦକ ଦୁଇଟି ବିନ୍ଦୁରେ ଛେଦ କରେ, ସ୍ପର୍ଶକ କେବଳ ଗୋଟିଏରେ।"
+},
+{
+"questionEnglish": "What is the term for a point shared by a tangent and a circle?",
+"questionOdia": "ସ୍ପର୍ଶକ ଓ ବୃତ୍ତ ମଧ୍ୟରେ ଥିବା ସାଧାରଣ ବିନ୍ଦୁକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ସ୍ପର୍ଶ ବିନ୍ଦୁ",
+"କେନ୍ଦ୍ର",
+"ଛେଦ ବିନ୍ଦୁ",
+"ଅନ୍ତଃବିନ୍ଦୁ"
+],
+"answer": "ସ୍ପର୍ଶ ବିନ୍ଦୁ",
+"explanation": "ସ୍ପର୍ଶକ ସ୍ପର୍ଶ ବିନ୍ଦୁରେ ହିଁ ବୃତ୍ତକୁ ଛୁଇଁଥାଏ।"
+},
+{
+"questionEnglish": "What is a part of the circumference called?",
+"questionOdia": "ପରିଧିର ଏକ ଅଂଶକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ଚାପ (Arc)",
+"ଜ୍ୟା",
+"ବ୍ୟାସ",
+"ତ୍ରିଜ୍ୟାଖଣ୍ଡ"
+],
+"answer": "ଚାପ (Arc)",
+"explanation": "ପରିଧିର କୌଣସି ଅଂଶକୁ ଚାପ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "The area of a circle is calculated using...",
+"questionOdia": "ବୃତ୍ତର କ୍ଷେତ୍ରଫଳ କାହାକୁ ବ୍ୟବହାର କରି ଗଣନା କରାଯାଏ?",
+"options": [
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ପରିଧି",
+"ଜ୍ୟା",
+"କେନ୍ଦ୍ର"
+],
+"answer": "ବ୍ୟାସାର୍ଦ୍ଧ",
+"explanation": "କ୍ଷେତ୍ରଫଳ (πr²) ବ୍ୟାସାର୍ଦ୍ଧ 'r' ଉପରେ ନିର୍ଭର କରେ।"
+},
+{
+"questionEnglish": "Can two different circles have the same center?",
+"questionOdia": "ଦୁଇଟି ଭିନ୍ନ ବୃତ୍ତର କେନ୍ଦ୍ର ସମାନ ହୋଇପାରିବ କି?",
+"options": [
+"ହଁ (ସାନ୍ଦ୍ର ବୃତ୍ତ - Concentric circles)",
+"ନା",
+"କେବଳ ଦୁଇଟି",
+"ଅସମ୍ଭବ"
+],
+"answer": "ହଁ (ସାନ୍ଦ୍ର ବୃତ୍ତ - Concentric circles)",
+"explanation": "ଏକା କେନ୍ଦ୍ର ବିଶିଷ୍ଟ ବୃତ୍ତକୁ ସାନ୍ଦ୍ର ବୃତ୍ତ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the angle subtended by an arc at the center called?",
+"questionOdia": "ଚାପ ଦ୍ୱାରା କେନ୍ଦ୍ରରେ ସୃଷ୍ଟ କୋଣକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"କେନ୍ଦ୍ରସ୍ଥ କୋଣ",
+"ପରିଧିସ୍ଥ କୋଣ",
+"ସମ୍ମୁଖ କୋଣ",
+"ସ୍ପର୍ଶକୀୟ କୋଣ"
+],
+"answer": "କେନ୍ଦ୍ରସ୍ଥ କୋଣ",
+"explanation": "କେନ୍ଦ୍ରରେ ସୃଷ୍ଟ ହେଉଥିବାରୁ ଏହା କେନ୍ଦ୍ରସ୍ଥ କୋଣ।"
+},
+{
+"questionEnglish": "How many tangents can be drawn to a circle from a point on it?",
+"questionOdia": "ବୃତ୍ତ ଉପରେ ଥିବା ଏକ ବିନ୍ଦୁରୁ କେତୋଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"୧ଟି",
+"୨ଟି",
+"୩ଟି",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "୧ଟି",
+"explanation": "ବୃତ୍ତ ଉପରେ ଥିବା ଗୋଟିଏ ବିନ୍ଦୁରେ ଗୋଟିଏ ସ୍ପର୍ଶକ ଥାଏ।"
+},
+{
+"questionEnglish": "The distance between parallel tangents is equal to the...",
+"questionOdia": "ସମାନ୍ତରାଳ ସ୍ପର୍ଶକ ମଧ୍ୟରେ ଦୂରତା କାହା ସହ ସମାନ?",
+"options": [
+"ବ୍ୟାସ",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ଜ୍ୟା",
+"ପରିଧି"
+],
+"answer": "ବ୍ୟାସ",
+"explanation": "ସମାନ୍ତରାଳ ସ୍ପର୍ଶକଗୁଡ଼ିକ ବ୍ୟାସ ଦୁଇ ପାର୍ଶ୍ୱରେ ଥାଆନ୍ତି, ତେଣୁ ଦୂରତା ବ୍ୟାସ ସହ ସମାନ।"
+},
+{
+"questionEnglish": "A line intersecting the circle at two points is...",
+"questionOdia": "ବୃତ୍ତକୁ ଦୁଇଟି ବିନ୍ଦୁରେ ଛେଦ କରୁଥିବା ରେଖାଟି ହେଉଛି...",
+"options": [
+"ଛେଦକ",
+"ସ୍ପର୍ଶକ",
+"ବ୍ୟାସ",
+"ଜ୍ୟା"
+],
+"answer": "ଛେଦକ",
+"explanation": "ଛେଦକର ସଂଜ୍ଞା ଅନୁଯାୟୀ।"
+},
+{
+"questionEnglish": "The area bounded by a chord and an arc is called...",
+"questionOdia": "ଜ୍ୟା ଓ ଚାପ ଦ୍ୱାରା ଆବଦ୍ଧ ଅଂଶକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ବୃତ୍ତଖଣ୍ଡ",
+"ତ୍ରିଜ୍ୟାଖଣ୍ଡ",
+"ବ୍ୟାସ",
+"ପରିଧି"
+],
+"answer": "ବୃତ୍ତଖଣ୍ଡ",
+"explanation": "ବୃତ୍ତଖଣ୍ଡ ଜ୍ୟା ଓ ଚାପ ଦ୍ୱାରା ଗଠିତ।"
+},
+{
+"questionEnglish": "What is the angle subtended by a minor arc?",
+"questionOdia": "କ୍ଷୁଦ୍ର ଚାପ ଦ୍ୱାରା ସୃଷ୍ଟ କୋଣ କେତେ?",
+"options": [
+"ସୂକ୍ଷ୍ମ କୋଣ",
+"ସ୍ଥୂଳ କୋଣ",
+"ସମ କୋଣ",
+"ପ୍ରବୃଦ୍ଧ କୋଣ"
+],
+"answer": "ସୂକ୍ଷ୍ମ କୋଣ",
+"explanation": "କ୍ଷୁଦ୍ର ଚାପ କେନ୍ଦ୍ରରେ ସୂକ୍ଷ୍ମ କୋଣ ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "The sum of the opposite angles of a cyclic quadrilateral is...",
+"questionOdia": "ବୃତ୍ତସ୍ଥ ଚତୁର୍ଭୁଜର ବିପରୀତ କୋଣଗୁଡ଼ିକର ସମଷ୍ଟି କେତେ?",
+"options": [
+"180°",
+"90°",
+"360°",
+"270°"
+],
+"answer": "180°",
+"explanation": "ବୃତ୍ତସ୍ଥ ଚତୁର୍ଭୁଜର ବିପରୀତ କୋଣଗୁଡ଼ିକ ସମ୍ପୂରକ (180°)।"
+},
+{
+"questionEnglish": "If the angle in a semicircle is 90°, what is the angle subtended by the diameter at the center?",
+"questionOdia": "ଯଦି ଅର୍ଦ୍ଧବୃତ୍ତରେ କୋଣ 90°, ତେବେ ବ୍ୟାସ କେନ୍ଦ୍ରରେ କେତେ କୋଣ ସୃଷ୍ଟି କରେ?",
+"options": [
+"180°",
+"90°",
+"45°",
+"360°"
+],
+"answer": "180°",
+"explanation": "ବ୍ୟାସ ଏକ ସରଳ କୋଣ 180° ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "Which part of the circle has the maximum distance from the center?",
+"questionOdia": "ବୃତ୍ତର କେଉଁ ଅଂଶ କେନ୍ଦ୍ରଠାରୁ ସର୍ବାଧିକ ଦୂରତାରେ ଥାଏ?",
+"options": [
+"ପରିଧି",
+"ଅଭ୍ୟନ୍ତର",
+"କେନ୍ଦ୍ର",
+"ଜ୍ୟା"
+],
+"answer": "ପରିଧି",
+"explanation": "ବ୍ୟାସାର୍ଦ୍ଧ ହେଉଛି କେନ୍ଦ୍ରଠାରୁ ଦୂରତାର ସର୍ବାଧିକ ସୀମା (ପରିଧି)।"
+},
+{
+"questionEnglish": "A line perpendicular to the radius through the point of contact is...",
+"questionOdia": "ସ୍ପର୍ଶ ବିନ୍ଦୁରେ ବ୍ୟାସାର୍ଦ୍ଧ ଉପରେ ଲମ୍ବ ଥିବା ରେଖାଟି ହେଉଛି...",
+"options": [
+"ସ୍ପର୍ଶକ",
+"ଛେଦକ",
+"ଜ୍ୟା",
+"ବ୍ୟାସ"
+],
+"answer": "ସ୍ପର୍ଶକ",
+"explanation": "ସ୍ପର୍ଶକର ଗୁଣ ଅନୁଯାୟୀ।"
+},
+{
+"questionEnglish": "How many tangents are there to a circle parallel to a given chord?",
+"questionOdia": "ଏକ ଜ୍ୟା ସହ ସମାନ୍ତରାଳ କେତୋଟି ସ୍ପର୍ଶକ ଥାଇପାରେ?",
+"options": [
+"୨ଟି",
+"୧ଟି",
+"୩ଟି",
+"୦ଟି"
+],
+"answer": "୨ଟି",
+"explanation": "ଦୁଇଟି ସ୍ପର୍ଶକ ଜ୍ୟା ସହ ସମାନ୍ତରାଳ ଭାବେ ଅଙ୍କନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "What is the angle subtended by a major arc at the circumference?",
+"questionOdia": "ଦୀର୍ଘ ଚାପ ଦ୍ୱାରା ପରିଧିରେ ସୃଷ୍ଟ କୋଣଟି...",
+"options": [
+"ସୂକ୍ଷ୍ମ କୋଣ",
+"ସ୍ଥୂଳ କୋଣ",
+"ସମ କୋଣ",
+"ପ୍ରବୃଦ୍ଧ କୋଣ"
+],
+"answer": "ସୂକ୍ଷ୍ମ କୋଣ",
+"explanation": "ଦୀର୍ଘ ଚାପ ପରିଧିରେ ସୂକ୍ଷ୍ମ କୋଣ ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "The center of a circle is equidistant from all points on the...",
+"questionOdia": "ବୃତ୍ତର କେନ୍ଦ୍ର କାହା ଉପରେ ଥିବା ସମସ୍ତ ବିନ୍ଦୁଠାରୁ ସମଦୂରତାରେ ଥାଏ?",
+"options": [
+"ପରିଧି",
+"ଜ୍ୟା",
+"ବ୍ୟାସ",
+"ସ୍ପର୍ଶକ"
+],
+"answer": "ପରିଧି",
+"explanation": "ବୃତ୍ତର ସଂଜ୍ଞା ଅନୁଯାୟୀ।"
+},
+{
+"questionEnglish": "If two circles intersect at two points, then the common chord is perpendicular to the...",
+"questionOdia": "ଯଦି ଦୁଇଟି ବୃତ୍ତ ଦୁଇଟି ବିନ୍ଦୁରେ ଛେଦ କରନ୍ତି, ତେବେ ସାଧାରଣ ଜ୍ୟା କାହା ଉପରେ ଲମ୍ବ?",
+"options": [
+"କେନ୍ଦ୍ର ସଂଯୋଜକ ରେଖା",
+"ସ୍ପର୍ଶକ",
+"ପରିଧି",
+"ଜ୍ୟା"
+],
+"answer": "କେନ୍ଦ୍ର ସଂଯୋଜକ ରେଖା",
+"explanation": "କେନ୍ଦ୍ର ସଂଯୋଜକ ରେଖା ସାଧାରଣ ଜ୍ୟାର ଲମ୍ବ ସମଦ୍ୱିଖଣ୍ଡକ।"
+},
+{
+"questionEnglish": "What is the shape formed by the intersection of two circles?",
+"questionOdia": "ଦୁଇଟି ବୃତ୍ତର ଛେଦ ଯୋଗୁଁ କେଉଁ ଆକୃତି ସୃଷ୍ଟି ହୁଏ?",
+"options": [
+"ବୃତ୍ତୀୟ ଅଂଶ",
+"ସାଧାରଣ ଜ୍ୟା",
+"ସ୍ପର୍ଶକ",
+"ତ୍ରିଭୁଜ"
+],
+"answer": "ସାଧାରଣ ଜ୍ୟା",
+"explanation": "ଦୁଇଟି ବୃତ୍ତ ଛେଦ କଲେ ଏକ ସାଧାରଣ ଜ୍ୟା ସୃଷ୍ଟି ହୁଏ।"
+},
+{
+"questionEnglish": "What is the term for a polygon whose all vertices lie on a circle?",
+"questionOdia": "ଯେଉଁ ବହୁଭୁଜର ସମସ୍ତ ଶୀର୍ଷବିନ୍ଦୁ ବୃତ୍ତ ଉପରେ ଥାଏ, ତାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ବୃତ୍ତସ୍ଥ ବହୁଭୁଜ",
+"ସାଧାରଣ ବହୁଭୁଜ",
+"ତ୍ରିଜ୍ୟାଖଣ୍ଡ",
+"ସ୍ପର୍ଶକ"
+],
+"answer": "ବୃତ୍ତସ୍ଥ ବହୁଭୁଜ",
+"explanation": "ଶୀର୍ଷବିନ୍ଦୁ ବୃତ୍ତ ଉପରେ ଥିଲେ ତାକୁ ବୃତ୍ତସ୍ଥ ବହୁଭୁଜ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "The distance from the center to a point on the circle is called...",
+"questionOdia": "କେନ୍ଦ୍ରରୁ ବୃତ୍ତ ଉପରେ ଥିବା ବିନ୍ଦୁର ଦୂରତାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ବ୍ୟାସ",
+"ପରିଧି",
+"ଜ୍ୟା"
+],
+"answer": "ବ୍ୟାସାର୍ଦ୍ଧ",
+"explanation": "ବ୍ୟାସାର୍ଦ୍ଧର ସଂଜ୍ଞା ଅନୁଯାୟୀ।"
+},
+{
+"questionEnglish": "How many circles can pass through three collinear points?",
+"questionOdia": "ତିନୋଟି ସରଳରେଖୀୟ ବିନ୍ଦୁ ଦେଇ କେତୋଟି ବୃତ୍ତ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"0",
+"1",
+"2",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "0",
+"explanation": "ସରଳରେଖୀୟ ବିନ୍ଦୁ ଦେଇ ବୃତ୍ତ ଅଙ୍କନ କରିହେବ ନାହିଁ।"
+},
+{
+"questionEnglish": "What is a major arc?",
+"questionOdia": "ଦୀର୍ଘ ଚାପ କ’ଣ?",
+"options": [
+"ଅର୍ଦ୍ଧବୃତ୍ତରୁ ବଡ଼ ଚାପ",
+"ଅର୍ଦ୍ଧବୃତ୍ତରୁ ଛୋଟ ଚାପ",
+"ବ୍ୟାସ",
+"କେନ୍ଦ୍ରସ୍ଥ କୋଣ"
+],
+"answer": "ଅର୍ଦ୍ଧବୃତ୍ତରୁ ବଡ଼ ଚାପ",
+"explanation": "ଅର୍ଦ୍ଧବୃତ୍ତଠାରୁ ବଡ଼ ଚାପକୁ ଦୀର୍ଘ ଚାପ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If the angle at the center is 180°, the arc is called...",
+"questionOdia": "ଯଦି କେନ୍ଦ୍ରସ୍ଥ କୋଣ 180°, ତେବେ ଚାପକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ଅର୍ଦ୍ଧବୃତ୍ତ (Semicircle)",
+"ଦୀର୍ଘ ଚାପ",
+"କ୍ଷୁଦ୍ର ଚାପ",
+"ଜ୍ୟା"
+],
+"answer": "ଅର୍ଦ୍ଧବୃତ୍ତ (Semicircle)",
+"explanation": "କେନ୍ଦ୍ରରେ 180° କୋଣ ସୃଷ୍ଟି କରୁଥିବା ଚାପ ଅର୍ଦ୍ଧବୃତ୍ତ।"
+},
+{
+"questionEnglish": "A line segment with endpoints on the circle is...",
+"questionOdia": "ବୃତ୍ତ ଉପରେ ଅନ୍ତ୍ୟବିନ୍ଦୁ ଥିବା ରେଖାଖଣ୍ଡଟି ହେଉଛି...",
+"options": [
+"ଜ୍ୟା",
+"ସ୍ପର୍ଶକ",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"କେନ୍ଦ୍ର"
+],
+"answer": "ଜ୍ୟା",
+"explanation": "ଜ୍ୟାର ସଂଜ୍ଞା ଅନୁଯାୟୀ।"
+},
+{
+"questionEnglish": "What is the relationship between the radius and the circumference?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ ଓ ପରିଧି ମଧ୍ୟରେ ସମ୍ପର୍କ କ’ଣ?",
+"options": [
+"ପରିଧି = 2π × ବ୍ୟାସାର୍ଦ୍ଧ",
+"ପରିଧି = π × ବ୍ୟାସାର୍ଦ୍ଧ",
+"ପରିଧି = 2 × ବ୍ୟାସାର୍ଦ୍ଧ",
+"ପରିଧି = π² × ବ୍ୟାସାର୍ଦ୍ଧ"
+],
+"answer": "ପରିଧି = 2π × ବ୍ୟାସାର୍ଦ୍ଧ",
+"explanation": "ପରିଧି ସୂତ୍ର C = 2πr।"
+},
+{
+"questionEnglish": "If two circles are congruent, their perimeters are...",
+"questionOdia": "ଯଦି ଦୁଇଟି ବୃତ୍ତ ସର୍ବସମ, ତେବେ ସେମାନଙ୍କର ପରିଧି କ’ଣ?",
+"options": [
+"ସମାନ",
+"ଭିନ୍ନ",
+"ଦୁଇଗୁଣ",
+"ଅଧା"
+],
+"answer": "ସମାନ",
+"explanation": "ସମାନ ବ୍ୟାସାର୍ଦ୍ଧ ଥିଲେ ପରିଧି ସମାନ।"
+},
+{
+"questionEnglish": "A chord passing through the center is called...",
+"questionOdia": "କେନ୍ଦ୍ର ଦେଇ ଯାଉଥିବା ଜ୍ୟାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ବ୍ୟାସ",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ସ୍ପର୍ଶକ",
+"ପରିଧି"
+],
+"answer": "ବ୍ୟାସ",
+"explanation": "ବ୍ୟାସର ସଂଜ୍ଞା ଅନୁଯାୟୀ।"
+},
+{
+"questionEnglish": "The area of a circle with diameter 'd' is...",
+"questionOdia": "'d' ବ୍ୟାସ ଥିବା ବୃତ୍ତର କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"πd²/4",
+"πd²",
+"πd/4",
+"2πd"
+],
+"answer": "πd²/4",
+"explanation": "r = d/2, ତେଣୁ A = π(d/2)² = πd²/4।"
+}
+]
