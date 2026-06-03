@@ -1,0 +1,1143 @@
+[
+{
+"questionEnglish": "What is the primary basis for calculating the empirical probability of an event in a real experiment?",
+"questionOdia": "ଏକ ପ୍ରକୃତ ପରୀକ୍ଷଣରେ ଏକ ଘଟଣାର ପ୍ରାୟୋଗିକ ସମ୍ଭାବ୍ୟତା (Empirical Probability) କାହା ଉପରେ ନିର୍ଭର କରିଥାଏ?",
+"options": [
+"କେବଳ ପରୀକ୍ଷଣ ସଂଖ୍ୟା",
+"ଘଟଣାର ବାରମ୍ବାରତା ଏବଂ ପରୀକ୍ଷଣ ସଂଖ୍ୟା",
+"କେବଳ ଘଟଣାର ବାରମ୍ବାରତା",
+"ପ୍ରଦତ୍ତ ସୂତ୍ରର ମୂଲ୍ୟ"
+],
+"answer": "ଘଟଣାର ବାରମ୍ବାରତା ଏବଂ ପରୀକ୍ଷଣ ସଂଖ୍ୟା",
+"explanation": "ପ୍ରାୟୋଗିକ ସମ୍ଭାବ୍ୟତା ଘଟଣାର ବାରମ୍ବାରତା ଏବଂ ମୋଟ ପରୀକ୍ଷଣ ସଂଖ୍ୟାର ଅନୁପାତ ଉପରେ ନିର୍ଭର କରେ।"
+},
+{
+"questionEnglish": "If an experiment is performed 'n' times and an event 'E' occurs 'm' times, what is the empirical probability of E?",
+"questionOdia": "ଯଦି ଏକ ପରୀକ୍ଷଣକୁ 'n' ଥର କରାଯାଏ ଏବଂ 'E' ଘଟଣାଟି 'm' ଥର ଘଟେ, ତେବେ E ର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"n/m",
+"m/n",
+"m + n",
+"n - m"
+],
+"answer": "m/n",
+"explanation": "ସମ୍ଭାବ୍ୟତା P(E) = ଘଟଣାର ଅନୁକୂଳ ଫଳାଫଳ / ମୋଟ ସମ୍ଭାବ୍ୟ ଫଳାଫଳ = m/n।"
+},
+{
+"questionEnglish": "What is the maximum value that the probability of any event can take?",
+"questionOdia": "ଯେକୌଣସି ଘଟଣାର ସମ୍ଭାବ୍ୟତାର ସର୍ବାଧିକ ମୂଲ୍ୟ କେତେ ହୋଇପାରେ?",
+"options": [
+"0",
+"0.5",
+"1",
+"10"
+],
+"answer": "1",
+"explanation": "କୌଣସି ଘଟଣାର ସମ୍ଭାବ୍ୟତା ସର୍ବଦା 0 ଓ 1 (ଉଭୟକୁ ମିଶାଇ) ମଧ୍ୟରେ ଥାଏ।"
+},
+{
+"questionEnglish": "What do we call an event that is impossible to occur?",
+"questionOdia": "ଯେଉଁ ଘଟଣାଟି ଘଟିବା ସମ୍ଭବ ନୁହେଁ, ତାହାକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ନିଶ୍ଚିତ ଘଟଣା",
+"ଅସମ୍ଭବ ଘଟଣା",
+"ସମ୍ଭାବ୍ୟ ଘଟଣା",
+"ପୂରକ ଘଟଣା"
+],
+"answer": "ଅସମ୍ଭବ ଘଟଣା",
+"explanation": "ଅସମ୍ଭବ ଘଟଣାର ସମ୍ଭାବ୍ୟତା ସର୍ବଦା ଶୂନ (0) ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the probability of a sure event?",
+"questionOdia": "ଏକ ନିଶ୍ଚିତ ଘଟଣାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"0",
+"0.5",
+"1",
+"2"
+],
+"answer": "1",
+"explanation": "ଯେଉଁ ଘଟଣା ନିଶ୍ଚିତ ଭାବେ ଘଟିବ, ତାହାର ସମ୍ଭାବ୍ୟତା 1।"
+},
+{
+"questionEnglish": "If P(E) is the probability of an event E, what is the probability of not E, denoted as P(not E)?",
+"questionOdia": "ଯଦି P(E) ଏକ ଘଟଣା E ର ସମ୍ଭାବ୍ୟତା ହୁଏ, ତେବେ P(not E) ବା E ନଘଟିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1 - P(E)",
+"P(E) - 1",
+"1 + P(E)",
+"0"
+],
+"answer": "1 - P(E)",
+"explanation": "ଘଟଣା ଘଟିବା ଏବଂ ନ ଘଟିବାର ସମ୍ଭାବ୍ୟତାର ସମଷ୍ଟି ସର୍ବଦା 1 ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "A coin is tossed once. What is the probability of getting a head?",
+"questionOdia": "ଗୋଟିଏ ମୁଦ୍ରାକୁ ଥରେ ଟସ କଲେ, ହେଡ୍ (Head) ପଡ଼ିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1",
+"1/2",
+"0",
+"1/4"
+],
+"answer": "1/2",
+"explanation": "ମୋଟ ଫଳାଫଳ = 2 (Head, Tail), ଅନୁକୂଳ ଫଳାଫଳ = 1, ତେଣୁ 1/2।"
+},
+{
+"questionEnglish": "In a standard dice, what is the probability of getting a number 3?",
+"questionOdia": "ଗୋଟିଏ ସାଧାରଣ ଲୁଡ଼ୁ ଗୋଟିରେ, 3 ପଡ଼ିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/6",
+"1/3",
+"1/2",
+"3/6"
+],
+"answer": "1/6",
+"explanation": "ଲୁଡ଼ୁ ଗୋଟିରେ 6ଟି ପାଖ (1,2,3,4,5,6) ଥାଏ, ତେଣୁ 1/6।"
+},
+{
+"questionEnglish": "What is the probability of getting an even number on throwing a die once?",
+"questionOdia": "ଲୁଡ଼ୁ ଗୋଟିକୁ ଥରେ ଫିଙ୍ଗିଲେ ଯୁଗ୍ମ ସଂଖ୍ୟା ପଡ଼ିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/6",
+"2/6",
+"3/6",
+"4/6"
+],
+"answer": "3/6",
+"explanation": "ଯୁଗ୍ମ ସଂଖ୍ୟାଗୁଡ଼ିକ ହେଲା 2, 4, 6 (3ଟି), ତେଣୁ 3/6 ବା 1/2।"
+},
+{
+"questionEnglish": "A bag contains 3 red and 2 blue balls. What is the probability of drawing a red ball?",
+"questionOdia": "ଗୋଟିଏ ବ୍ୟାଗରେ 3ଟି ନାଲି ଏବଂ 2ଟି ନୀଳ ବଲ ଅଛି। ନାଲି ବଲଟିଏ ବାହାର କରିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"2/5",
+"3/5",
+"1/5",
+"3/2"
+],
+"answer": "3/5",
+"explanation": "ମୋଟ ବଲ = 5, ନାଲି ବଲ = 3, ତେଣୁ ସମ୍ଭାବ୍ୟତା 3/5।"
+},
+{
+"questionEnglish": "Which of the following cannot be the probability of an event?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଘଟଣାର ସମ୍ଭାବ୍ୟତା ହୋଇପାରିବ ନାହିଁ?",
+"options": [
+"0.5",
+"1.5",
+"0.1",
+"0.9"
+],
+"answer": "1.5",
+"explanation": "ସମ୍ଭାବ୍ୟତା କେବେହେଲେ 1 ରୁ ଅଧିକ ହୋଇପାରିବ ନାହିଁ।"
+},
+{
+"questionEnglish": "In a pack of 52 cards, what is the probability of getting an Ace?",
+"questionOdia": "52ଟି ପତା ଥିବା ଏକ ତାସ କିଟରେ, ଏକ ଏକ୍କା (Ace) ପାଇବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/52",
+"4/52",
+"13/52",
+"26/52"
+],
+"answer": "4/52",
+"explanation": "ତାସରେ 4ଟି ଏକ୍କା ଥାଏ, ତେଣୁ 4/52 = 1/13।"
+},
+{
+"questionEnglish": "What is the sum of probabilities of all elementary events of an experiment?",
+"questionOdia": "ଏକ ପରୀକ୍ଷଣର ସମସ୍ତ ପ୍ରାଥମିକ ଘଟଣାର ସମ୍ଭାବ୍ୟତାର ସମଷ୍ଟି କେତେ?",
+"options": [
+"0",
+"0.5",
+"1",
+"2"
+],
+"answer": "1",
+"explanation": "ସମସ୍ତ ସମ୍ଭାବ୍ୟ ଫଳାଫଳର ସମ୍ଭାବ୍ୟତା ମିଶାଇଲେ ସର୍ବଦା 1 ହୁଏ।"
+},
+{
+"questionEnglish": "If an event 'A' is certain to happen, its probability is?",
+"questionOdia": "ଯଦି ଘଟଣା 'A' ଘଟିବା ନିଶ୍ଚିତ, ତେବେ ଏହାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"0",
+"1",
+"0.99",
+"ଅସଂଜ୍ଞାୟିତ"
+],
+"answer": "1",
+"explanation": "ନିଶ୍ଚିତ ଘଟଣା (Sure event) ର ସମ୍ଭାବ୍ୟତା 1।"
+},
+{
+"questionEnglish": "What is the probability of getting a number greater than 6 on a normal die?",
+"questionOdia": "ଗୋଟିଏ ସାଧାରଣ ଲୁଡ଼ୁ ଗୋଟିରେ 6 ରୁ ବଡ଼ ସଂଖ୍ୟା ପଡ଼ିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"0",
+"1",
+"1/6",
+"6/6"
+],
+"answer": "0",
+"explanation": "ଲୁଡ଼ୁ ଗୋଟିରେ 6 ରୁ ବଡ଼ କୌଣସି ସଂଖ୍ୟା ନାହିଁ, ତେଣୁ ଏହା ଏକ ଅସମ୍ଭବ ଘଟଣା।"
+},
+{
+"questionEnglish": "Two coins are tossed simultaneously. How many possible outcomes are there?",
+"questionOdia": "ଦୁଇଟି ମୁଦ୍ରାକୁ ଏକସଙ୍ଗେ ଟସ କଲେ, ମୋଟ କେତୋଟି ସମ୍ଭାବ୍ୟ ଫଳାଫଳ ମିଳିବ?",
+"options": [
+"2",
+"3",
+"4",
+"6"
+],
+"answer": "4",
+"explanation": "ଫଳାଫଳଗୁଡ଼ିକ ହେଲା: HH, HT, TH, TT (ମୋଟ 4ଟି)।"
+},
+{
+"questionEnglish": "In tossing two coins, what is the probability of getting exactly one head?",
+"questionOdia": "ଦୁଇଟି ମୁଦ୍ରା ଟସ କଲେ, କେବଳ ଗୋଟିଏ ହେଡ୍ ପାଇବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/4",
+"2/4",
+"3/4",
+"1"
+],
+"answer": "2/4",
+"explanation": "ଅନୁକୂଳ ଫଳାଫଳ: HT, TH (2ଟି), ତେଣୁ 2/4 = 1/2।"
+},
+{
+"questionEnglish": "Which mathematical concept is used as a foundation for probability in Class 10?",
+"questionOdia": "ଦଶମ ଶ୍ରେଣୀ ସମ୍ଭାବ୍ୟତା ପାଇଁ କେଉଁ ଗାଣିତିକ ଧାରଣାକୁ ଆଧାର କରାଯାଇଛି?",
+"options": [
+"ବୀଜଗଣିତ",
+"ସେଟ୍ ତତ୍ତ୍ଵ",
+"ଜ୍ୟାମିତି",
+"ତ୍ରିକୋଣମିତି"
+],
+"answer": "ସେଟ୍ ତତ୍ତ୍ଵ",
+"explanation": "ପାଠ୍ୟକ୍ରମ ଅନୁଯାୟୀ ସମ୍ଭାବ୍ୟତାକୁ ସେଟ୍ ତତ୍ତ୍ଵ (Set Theory) ଉପରେ ଆଧାରିତ କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "If P(E) = 0.05, what is the probability of not E?",
+"questionOdia": "ଯଦି P(E) = 0.05, ତେବେ E ନଘଟିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"0.95",
+"0.05",
+"1",
+"0.5"
+],
+"answer": "0.95",
+"explanation": "P(not E) = 1 - 0.05 = 0.95।"
+},
+{
+"questionEnglish": "What are the outcomes of a coin toss experiment?",
+"questionOdia": "ଗୋଟିଏ ମୁଦ୍ରା ଟସ କରିବା ପରୀକ୍ଷଣରେ କ'ଣ ସବୁ ଫଳାଫଳ ମିଳିପାରିବ?",
+"options": [
+"କେବଳ Head",
+"କେବଳ Tail",
+"Head କିମ୍ବା Tail",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "Head କିମ୍ବା Tail",
+"explanation": "ମୁଦ୍ରାର ଦୁଇଟି ପାର୍ଶ୍ୱ Head ଓ Tail।"
+},
+{
+"questionEnglish": "Probability is a measure of what?",
+"questionOdia": "ସମ୍ଭାବ୍ୟତା କାହାର ମାପକାଠି?",
+"options": [
+"ନିଶ୍ଚିତତା",
+"ଘଟଣାର ସମ୍ଭାବନା",
+"ସମୟ",
+"ଦୂରତା"
+],
+"answer": "ଘଟଣାର ସମ୍ଭାବନା",
+"explanation": "ସମ୍ଭାବ୍ୟତା ଏକ ଘଟଣା ଘଟିବାର ସମ୍ଭାବନାକୁ ସଂଖ୍ୟାରେ ମାପ କରେ।"
+},
+{
+"questionEnglish": "What is the probability of getting a number 7 on a die?",
+"questionOdia": "ଲୁଡ଼ୁ ଗୋଟିରେ 7 ପଡ଼ିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1",
+"1/6",
+"0",
+"7/6"
+],
+"answer": "0",
+"explanation": "ଲୁଡ଼ୁ ଗୋଟିରେ 7 ନଥାଏ, ତେଣୁ ସମ୍ଭାବ୍ୟତା 0।"
+},
+{
+"questionEnglish": "If an event is 'unlikely', its probability is closer to?",
+"questionOdia": "ଯଦି ଏକ ଘଟଣା ଘଟିବାର ସମ୍ଭାବନା ବହୁତ କମ୍, ତେବେ ଏହାର ସମ୍ଭାବ୍ୟତା କାହା ନିକଟତର?",
+"options": [
+"1",
+"0",
+"0.5",
+"2"
+],
+"answer": "0",
+"explanation": "ଯେଉଁ ଘଟଣା ଘଟିବା କଷ୍ଟସାଧ୍ୟ, ତାହାର ସମ୍ଭାବ୍ୟତା 0 ର ନିକଟତର ହୁଏ।"
+},
+{
+"questionEnglish": "What is the range of probability values?",
+"questionOdia": "ସମ୍ଭାବ୍ୟତାର ମୂଲ୍ୟ କେଉଁ ପରିସର ମଧ୍ୟରେ ଥାଏ?",
+"options": [
+"0 ରୁ 1",
+"-1 ରୁ 1",
+"0 ରୁ 10",
+"1 ରୁ 100"
+],
+"answer": "0 ରୁ 1",
+"explanation": "ସମ୍ଭାବ୍ୟତାର ମୂଲ୍ୟ 0 ରୁ କମ୍ କିମ୍ବା 1 ରୁ ଅଧିକ ହୋଇପାରିବ ନାହିଁ।"
+},
+{
+"questionEnglish": "Can probability be expressed in percentage?",
+"questionOdia": "ସମ୍ଭାବ୍ୟତାକୁ କ'ଣ ଶତକଡ଼ା (Percentage) ରେ ପ୍ରକାଶ କରାଯାଇପାରିବ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ 0%",
+"କେବଳ 100%"
+],
+"answer": "ହଁ",
+"explanation": "0.5 ସମ୍ଭାବ୍ୟତାକୁ 50% ଭାବେ ମଧ୍ୟ ଲେଖାଯାଇପାରେ।"
+},
+{
+"questionEnglish": "What do we call the collection of all possible outcomes of an experiment?",
+"questionOdia": "ଏକ ପରୀକ୍ଷଣର ସମସ୍ତ ସମ୍ଭାବ୍ୟ ଫଳାଫଳର ସମଷ୍ଟିକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ନମୁନା ଅବକାଶ (Sample Space)",
+"ଘଟଣା",
+"ବାରମ୍ବାରତା",
+"ସମ୍ଭାବ୍ୟତା"
+],
+"answer": "ନମୁନା ଅବକାଶ (Sample Space)",
+"explanation": "ସବୁ ସମ୍ଭାବ୍ୟ ଫଳାଫଳର ସେଟକୁ ନମୁନା ଅବକାଶ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If a bag has 1 red, 1 blue, 1 green ball, what is probability of picking green?",
+"questionOdia": "ଗୋଟିଏ ବ୍ୟାଗରେ 1ଟି ନାଲି, 1ଟି ନୀଳ ଓ 1ଟି ସବୁଜ ବଲ ଅଛି। ସବୁଜ ବଲଟି ବାହାର କରିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1",
+"1/2",
+"1/3",
+"3"
+],
+"answer": "1/3",
+"explanation": "ମୋଟ 3ଟି ବଲ, ସବୁଜ ବଲ 1ଟି, ତେଣୁ 1/3।"
+},
+{
+"questionEnglish": "What is the probability of a 'Complementary Event' if P(E) = 0.4?",
+"questionOdia": "ଯଦି P(E) = 0.4 ହୁଏ, ତେବେ ପୂରକ ଘଟଣାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"0.4",
+"0.6",
+"1",
+"0.5"
+],
+"answer": "0.6",
+"explanation": "1 - 0.4 = 0.6।"
+},
+{
+"questionEnglish": "In a card deck, what is the probability of drawing a Spade?",
+"questionOdia": "ତାସ କିଟରୁ ଗୋଟିଏ 'କଳା ପାନ' (Spade) ବାହାର କରିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/4",
+"1/2",
+"13/52",
+"ଉଭୟ 1 ଓ 3"
+],
+"answer": "ଉଭୟ 1 ଓ 3",
+"explanation": "ତାସରେ 13ଟି Spade ଥାଏ, ତେଣୁ 13/52 = 1/4।"
+},
+{
+"questionEnglish": "Is it possible for a probability to be -0.5?",
+"questionOdia": "ସମ୍ଭାବ୍ୟତା -0.5 ହେବା ସମ୍ଭବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ କେତେକ ପରୀକ୍ଷଣରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ସମ୍ଭାବ୍ୟତା ସର୍ବଦା ଧନାତ୍ମକ (0 ବା ତା'ଠାରୁ ଅଧିକ)।"
+},
+{
+"questionEnglish": "What does the observation in an experiment lead to?",
+"questionOdia": "ପରୀକ୍ଷଣର ପର୍ଯ୍ୟବେକ୍ଷଣ (Observation) କ'ଣ ପ୍ରଦାନ କରେ?",
+"options": [
+"ସମ୍ଭାବ୍ୟତା",
+"ଫଳାଫଳ",
+"ସିଦ୍ଧାନ୍ତ",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ପର୍ଯ୍ୟବେକ୍ଷଣ ହିଁ ସମ୍ଭାବ୍ୟତା ନିର୍ଣ୍ଣୟ ପାଇଁ ଫଳାଫଳ ଦିଏ।"
+},
+{
+"questionEnglish": "If we toss a coin 100 times and get 45 heads, empirical probability of head is?",
+"questionOdia": "ଯଦି ଆମେ 100 ଥର ମୁଦ୍ରା ଟସ କରି 45 ଥର ହେଡ୍ ପାଇବା, ତେବେ ହେଡ୍ ର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"0.45",
+"0.55",
+"0.5",
+"45"
+],
+"answer": "0.45",
+"explanation": "45 / 100 = 0.45।"
+},
+{
+"questionEnglish": "What is the total number of suits in a deck of cards?",
+"questionOdia": "ତାସ କିଟରେ ମୋଟ କେତୋଟି ସୁଟ୍ (Suits) ଥାଏ?",
+"options": [
+"2",
+"4",
+"13",
+"52"
+],
+"answer": "4",
+"explanation": "4ଟି ସୁଟ୍: Spade, Heart, Diamond, Club।"
+},
+{
+"questionEnglish": "How many cards are there in each suit?",
+"questionOdia": "ପ୍ରତ୍ୟେକ ସୁଟ୍ ରେ କେତୋଟି ଲେଖାଏଁ ପତା ଥାଏ?",
+"options": [
+"4",
+"10",
+"13",
+"52"
+],
+"answer": "13",
+"explanation": "4 ସୁଟ୍ * 13 = 52 ପତା।"
+},
+{
+"questionEnglish": "Probability of drawing a red card from a deck?",
+"questionOdia": "ତାସ କିଟରୁ ଗୋଟିଏ ନାଲି ପତା ବାହାର କରିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/2",
+"1/4",
+"26/52",
+"ଉଭୟ 1 ଓ 3"
+],
+"answer": "ଉଭୟ 1 ଓ 3",
+"explanation": "26ଟି ନାଲି ପତା ଥାଏ, ତେଣୁ 26/52 = 1/2।"
+},
+{
+"questionEnglish": "What is the probability of a leap year having 53 Sundays?",
+"questionOdia": "ଏକ ଲିପ୍ ବର୍ଷରେ 53ଟି ରବିବାର ରହିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/7",
+"2/7",
+"3/7",
+"53/366"
+],
+"answer": "2/7",
+"explanation": "ଲିପ୍ ବର୍ଷରେ 366 ଦିନ, 52 ସପ୍ତାହ + 2 ଦିନ ବଳକା। ସେହି 2 ଦିନ ରବିବାର ହେବାର ସମ୍ଭାବ୍ୟତା 2/7।"
+},
+{
+"questionEnglish": "Which experiment has more than 2 outcomes?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ପରୀକ୍ଷଣରେ 2 ରୁ ଅଧିକ ଫଳାଫଳ ମିଳିଥାଏ?",
+"options": [
+"ମୁଦ୍ରା ଟସ",
+"ଲୁଡ଼ୁ ଗୋଟି ଫିଙ୍ଗିବା",
+"ସତ୍ୟ/ମିଥ୍ୟା ପ୍ରଶ୍ନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଲୁଡ଼ୁ ଗୋଟି ଫିଙ୍ଗିବା",
+"explanation": "ଲୁଡ଼ୁ ଗୋଟିରେ 6ଟି ଫଳାଫଳ ଥାଏ।"
+},
+{
+"questionEnglish": "What is the probability of an event 'E' if P(not E) = 0.7?",
+"questionOdia": "ଯଦି P(not E) = 0.7, ତେବେ ଘଟଣା 'E' ର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"0.7",
+"0.3",
+"1",
+"0"
+],
+"answer": "0.3",
+"explanation": "1 - 0.7 = 0.3।"
+},
+{
+"questionEnglish": "Does the order of cards matter in drawing a card?",
+"questionOdia": "ତାସ ଉଠାଇବା ସମୟରେ କ'ଣ କ୍ରମ (Order) ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ପ୍ରଥମ ପତା ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ଯଦି ତାସ ଭଲ ଭାବେ ଗୋଳାଯାଇଥାଏ (Shuffled), ତେବେ କ୍ରମର ମୂଲ୍ୟ ନାହିଁ।"
+},
+{
+"questionEnglish": "Which is an example of an elementary event?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ପ୍ରାଥମିକ ଘଟଣାର ଉଦାହରଣ?",
+"options": [
+"ଲୁଡ଼ୁ ଗୋଟିରେ 1 ପଡ଼ିବା",
+"ମୁଦ୍ରାରେ ହେଡ୍ ପଡ଼ିବା",
+"ଉଭୟ 1 ଓ 2",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ 1 ଓ 2",
+"explanation": "ପ୍ରାଥମିକ ଘଟଣା ହେଉଛି ପରୀକ୍ଷଣର ଗୋଟିଏ ସମ୍ଭାବ୍ୟ ଫଳାଫଳ।"
+},
+{
+"questionEnglish": "What is the probability of 0/5?",
+"questionOdia": "0/5 ର ସମ୍ଭାବ୍ୟତା ମୂଲ୍ୟ କେତେ?",
+"options": [
+"0",
+"1",
+"5",
+"ଅସଂଜ୍ଞାୟିତ"
+],
+"answer": "0",
+"explanation": "0 କୁ ଯେକୌଣସି ସଂଖ୍ୟା ଦ୍ୱାରା ଭାଗ କଲେ 0 ମିଳେ।"
+},
+{
+"questionEnglish": "In empirical probability, what does 'Empirical' mean?",
+"questionOdia": "ପ୍ରାୟୋଗିକ (Empirical) ସମ୍ଭାବ୍ୟତାରେ 'ପ୍ରାୟୋଗିକ' ର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ତତ୍ତ୍ୱଗତ",
+"ପରୀକ୍ଷଣ ମୂଳକ",
+"କଳ୍ପନା ପ୍ରସୂତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପରୀକ୍ଷଣ ମୂଳକ",
+"explanation": "ଏହା ପ୍ରକୃତ ପରୀକ୍ଷଣରୁ ମିଳିଥିବା ତଥ୍ୟ ଉପରେ ଆଧାରିତ।"
+},
+{
+"questionEnglish": "What is the probability of drawing a face card (Jack, Queen, King)?",
+"questionOdia": "ତାସ କିଟରୁ ଗୋଟିଏ 'ଫେସ୍ କାର୍ଡ଼' (Jack, Queen, King) ବାହାର କରିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"3/52",
+"12/52",
+"4/52",
+"1/52"
+],
+"answer": "12/52",
+"explanation": "4ଟି ସୁଟ୍ ରେ 3ଟି ଲେଖାଏଁ ଫେସ୍ କାର୍ଡ଼, 4 * 3 = 12।"
+},
+{
+"questionEnglish": "Are 'Head' and 'Tail' equally likely outcomes?",
+"questionOdia": "କ'ଣ 'ହେଡ୍' ଓ 'ଟେଲ୍' ସମସମ୍ଭାବ୍ୟ (Equally likely) ଫଳାଫଳ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ କେତେକ ମୁଦ୍ରା ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଗୋଟିଏ ସାଧାରଣ ମୁଦ୍ରାରେ ଦୁଇଟିଯାକ ଘଟିବାର ସମ୍ଭାବନା ସମାନ।"
+},
+{
+"questionEnglish": "If P(E) = 1, then E is a?",
+"questionOdia": "ଯଦି P(E) = 1, ତେବେ E କ'ଣ?",
+"options": [
+"ଅସମ୍ଭବ ଘଟଣା",
+"ନିଶ୍ଚିତ ଘଟଣା",
+"ପୂରକ ଘଟଣା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନିଶ୍ଚିତ ଘଟଣା",
+"explanation": "ନିଶ୍ଚିତ ଘଟଣାର ସମ୍ଭାବ୍ୟତା 1।"
+},
+{
+"questionEnglish": "Probability of picking a non-face card from 52 cards?",
+"questionOdia": "52ଟି ପତା ମଧ୍ୟରୁ ଗୋଟିଏ ନନ୍-ଫେସ୍ କାର୍ଡ଼ (Non-face card) ପାଇବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"12/52",
+"40/52",
+"52/52",
+"1/52"
+],
+"answer": "40/52",
+"explanation": "52 - 12 (ଫେସ୍ କାର୍ଡ଼) = 40।"
+},
+{
+"questionEnglish": "Can probability of an event be 11/10?",
+"questionOdia": "କୌଣସି ଘଟଣାର ସମ୍ଭାବ୍ୟତା 11/10 ହୋଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଲିପ୍ ବର୍ଷରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "11/10 = 1.1, ଯାହା 1 ରୁ ଅଧିକ।"
+},
+{
+"questionEnglish": "If a die is rolled, what is probability of getting number 5?",
+"questionOdia": "ଲୁଡ଼ୁ ଗୋଟି ଫିଙ୍ଗିଲେ 5 ପଡ଼ିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/6",
+"5/6",
+"1/5",
+"0"
+],
+"answer": "1/6",
+"explanation": "ଲୁଡ଼ୁ ଗୋଟିରେ 6ଟି ସଂଖ୍ୟା ଥାଏ, ତେଣୁ 1/6।"
+},
+{
+"questionEnglish": "What is the sum of probabilities of event E and not E?",
+"questionOdia": "ଘଟଣା E ଓ E ର ପୂରକ ଘଟଣାର ସମ୍ଭାବ୍ୟତାର ସମଷ୍ଟି କେତେ?",
+"options": [
+"0",
+"1",
+"0.5",
+"2"
+],
+"answer": "1",
+"explanation": "P(E) + P(not E) = 1।"
+},
+{
+"questionEnglish": "The probability of an event lies in which interval?",
+"questionOdia": "ଘଟଣାର ସମ୍ଭାବ୍ୟତା କେଉଁ ଅନ୍ତରାଳ (Interval) ମଧ୍ୟରେ ଥାଏ?",
+"options": [
+"[0, 1]",
+"(0, 1)",
+"[0, 1)",
+"(0, 1]"
+],
+"answer": "[0, 1]",
+"explanation": "ଏହା 0 ଓ 1 କୁ ମିଶାଇ ସେହି ବ୍ୟବଧାନ ମଧ୍ୟରେ ଥାଏ।"
+},
+{
+"questionEnglish": "What is a 'Trial' in an experiment?",
+"questionOdia": "ଏକ ପରୀକ୍ଷଣରେ 'Trial' କହିଲେ କ'ଣ ବୁଝାଏ?",
+"options": [
+"ପରୀକ୍ଷଣର ଗୋଟିଏ ପ୍ରୟାସ",
+"ମୋଟ ଫଳାଫଳ",
+"ସମ୍ଭାବ୍ୟତା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପରୀକ୍ଷଣର ଗୋଟିଏ ପ୍ରୟାସ",
+"explanation": "ପ୍ରତ୍ୟେକ ଥର ପରୀକ୍ଷଣ କରିବାକୁ ଗୋଟିଏ ଟ୍ରାଏଲ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If P(E) = 0.999, what is P(not E)?",
+"questionOdia": "ଯଦି P(E) = 0.999, ତେବେ P(not E) କେତେ?",
+"options": [
+"0.001",
+"0.01",
+"0.1",
+"1"
+],
+"answer": "0.001",
+"explanation": "1 - 0.999 = 0.001।"
+},
+{
+"questionEnglish": "Is 'selecting a boy from a group of girls' an impossible event?",
+"questionOdia": "କେବଳ ଝିଅ ଥିବା ଦଳରୁ ଗୋଟିଏ ପୁଅ ବାଛିବା କ'ଣ ଏକ ଅସମ୍ଭବ ଘଟଣା?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି ଦଳ ବଡ଼",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଯଦି ଦଳରେ କେବଳ ଝିଅ ଅଛନ୍ତି, ତେବେ ପୁଅ ପାଇବା ଅସମ୍ଭବ।"
+},
+{
+"questionEnglish": "How many outcomes are there in picking a card from 52?",
+"questionOdia": "52ଟି ତାସରୁ ଗୋଟିଏ ତାସ ଉଠାଇବାରେ ମୋଟ କେତୋଟି ସମ୍ଭାବ୍ୟ ଫଳାଫଳ ଅଛି?",
+"options": [
+"1",
+"4",
+"13",
+"52"
+],
+"answer": "52",
+"explanation": "ଯେକୌଣସି ଗୋଟିଏ ପତା ଉଠାଇଲେ ମୋଟ 52ଟି ସମ୍ଭାବନା ଅଛି।"
+},
+{
+"questionEnglish": "What is the probability of picking the King of Hearts?",
+"questionOdia": "ପାନ ରାଜା (King of Hearts) ପାଇବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/52",
+"4/52",
+"13/52",
+"1/13"
+],
+"answer": "1/52",
+"explanation": "କେବଳ ଗୋଟିଏ King of Hearts ଥାଏ।"
+},
+{
+"questionEnglish": "Which of these is a sure event?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ନିଶ୍ଚିତ ଘଟଣା?",
+"options": [
+"ସୂର୍ଯ୍ୟ ପଶ୍ଚିମରେ ଉଇଁବା",
+"ଲୁଡ଼ୁ ଗୋଟିରେ 8 ପଡ଼ିବା",
+"ସୂର୍ଯ୍ୟ ପୂର୍ବରେ ଉଇଁବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସୂର୍ଯ୍ୟ ପୂର୍ବରେ ଉଇଁବା",
+"explanation": "ଏହା ଏକ ନିଶ୍ଚିତ ସତ୍ୟ ଘଟଣା।"
+},
+{
+"questionEnglish": "If 10 bulbs have 1 defective, what is probability of picking non-defective?",
+"questionOdia": "10ଟି ବଲ୍ବ ମଧ୍ୟରେ ଗୋଟିଏ ନଷ୍ଟ ହୋଇଥିଲେ, ଭଲ ବଲ୍ବ ଉଠାଇବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/10",
+"9/10",
+"1/9",
+"0"
+],
+"answer": "9/10",
+"explanation": "9ଟି ଭଲ ବଲ୍ବ / 10ଟି ମୋଟ ବଲ୍ବ = 9/10।"
+},
+{
+"questionEnglish": "Probability of picking a red queen from a deck?",
+"questionOdia": "ତାସ କିଟରୁ ଗୋଟିଏ 'ନାଲି ରାଣୀ' (Red Queen) ବାହାର କରିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/52",
+"2/52",
+"4/52",
+"1/13"
+],
+"answer": "2/52",
+"explanation": "ନାଲି ରାଣୀ ଦୁଇଟି ଥାଏ (Heart ଓ Diamond), ତେଣୁ 2/52 = 1/26।"
+},
+{
+"questionEnglish": "Is it possible to have P(E) = 1.0001?",
+"questionOdia": "P(E) = 1.0001 ହେବା ସମ୍ଭବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି ଖେଳ ଟ୍ରିକ୍ ଥାଏ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ସମ୍ଭାବ୍ୟତା 1 ରୁ ବେଶୀ ହୋଇପାରିବ ନାହିଁ।"
+},
+{
+"questionEnglish": "If P(E) = 0.5, what is P(not E)?",
+"questionOdia": "ଯଦି P(E) = 0.5, ତେବେ P(not E) କେତେ?",
+"options": [
+"0.5",
+"1",
+"0",
+"0.25"
+],
+"answer": "0.5",
+"explanation": "1 - 0.5 = 0.5।"
+},
+{
+"questionEnglish": "Are outcomes of a die roll equally likely?",
+"questionOdia": "ଲୁଡ଼ୁ ଗୋଟିର ଫଳାଫଳ ସବୁ ସମସମ୍ଭାବ୍ୟ (Equally likely) କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ 1 ଓ 6 ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସାଧାରଣ ଲୁଡ଼ୁ ଗୋଟିରେ ପ୍ରତ୍ୟେକ ସଂଖ୍ୟା ପଡ଼ିବାର ସମ୍ଭାବନା ସମାନ।"
+},
+{
+"questionEnglish": "If a card is drawn, what is prob of drawing a Jack?",
+"questionOdia": "ତାସ ଉଠାଇଲେ ଗୋଟିଏ 'ଜ୍ୟାକ୍' (Jack) ଆସିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/52",
+"4/52",
+"1/13",
+"ଉଭୟ 2 ଓ 3"
+],
+"answer": "ଉଭୟ 2 ଓ 3",
+"explanation": "4ଟି ଜ୍ୟାକ୍ ଥାଏ, 4/52 = 1/13।"
+},
+{
+"questionEnglish": "Probability is often represented by what letter?",
+"questionOdia": "ସମ୍ଭାବ୍ୟତାକୁ ପ୍ରାୟତଃ କେଉଁ ଅକ୍ଷର ଦ୍ୱାରା ଚିହ୍ନିତ କରାଯାଏ?",
+"options": [
+"P",
+"Q",
+"X",
+"E"
+],
+"answer": "P",
+"explanation": "Probability ର ପ୍ରଥମ ଅକ୍ଷର P ବ୍ୟବହାର କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is the probability of picking a number card (2-10)?",
+"questionOdia": "ତାସରୁ 2 ରୁ 10 ନମ୍ବର ଥିବା କାର୍ଡ଼ ବାଛିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"36/52",
+"9/52",
+"4/52",
+"13/52"
+],
+"answer": "36/52",
+"explanation": "4ଟି ସୁଟ୍ ରେ 9ଟି ଲେଖାଏଁ ନମ୍ବର କାର୍ଡ଼, 4 * 9 = 36।"
+},
+{
+"questionEnglish": "Can P(E) = 0?",
+"questionOdia": "P(E) = 0 ହୋଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି ଖେଳ ଖରାପ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଅସମ୍ଭବ ଘଟଣାର ସମ୍ଭାବ୍ୟତା 0।"
+},
+{
+"questionEnglish": "If you toss 3 coins, how many outcomes?",
+"questionOdia": "ଯଦି ଆପଣ 3ଟି ମୁଦ୍ରା ଟସ କରନ୍ତି, ମୋଟ କେତୋଟି ଫଳାଫଳ ମିଳିବ?",
+"options": [
+"4",
+"6",
+"8",
+"16"
+],
+"answer": "8",
+"explanation": "2^3 = 8 ଫଳାଫଳ।"
+},
+{
+"questionEnglish": "Probability of getting 3 heads in 3 tosses?",
+"questionOdia": "3ଟି ମୁଦ୍ରା ଟସ କଲେ 3ଟି ଯାକ ହେଡ୍ ପାଇବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/8",
+"1/4",
+"3/8",
+"1/2"
+],
+"answer": "1/8",
+"explanation": "କେବଳ HH H ଫଳାଫଳଟି ଅନୁକୂଳ, ମୋଟ 8ଟି।"
+},
+{
+"questionEnglish": "Probability of getting at least one head in 3 tosses?",
+"questionOdia": "3ଟି ମୁଦ୍ରା ଟସ କଲେ ଅତି କମରେ ଗୋଟିଏ ହେଡ୍ ପାଇବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"7/8",
+"1/8",
+"3/8",
+"1/2"
+],
+"answer": "7/8",
+"explanation": "TTT ବ୍ୟତୀତ ସବୁ ଅନୁକୂଳ, 1 - 1/8 = 7/8।"
+},
+{
+"questionEnglish": "Is 3/4 a valid probability?",
+"questionOdia": "3/4 ଏକ ବୈଧ (Valid) ସମ୍ଭାବ୍ୟତା କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଭଗ୍ନାଂଶ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "3/4 = 0.75, ଯାହା 0 ରୁ 1 ମଧ୍ୟରେ।"
+},
+{
+"questionEnglish": "What is the probability of a die showing 1 or 2?",
+"questionOdia": "ଲୁଡ଼ୁ ଗୋଟିରେ 1 କିମ୍ବା 2 ପଡ଼ିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/6",
+"2/6",
+"3/6",
+"1/3"
+],
+"answer": "2/6",
+"explanation": "2/6 = 1/3।"
+},
+{
+"questionEnglish": "If we select a vowel from English alphabet?",
+"questionOdia": "ଇଂରାଜୀ ବର୍ଣ୍ଣମାଳାରୁ ଗୋଟିଏ 'ସ୍ୱରବର୍ଣ୍ଣ' (Vowel) ବାଛିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"5/26",
+"21/26",
+"1/26",
+"10/26"
+],
+"answer": "5/26",
+"explanation": "5ଟି Vowel (A, E, I, O, U) ମଧ୍ୟରୁ 26ଟି ଅକ୍ଷର।"
+},
+{
+"questionEnglish": "Probability of selecting a consonant?",
+"questionOdia": "ଇଂରାଜୀ ବର୍ଣ୍ଣମାଳାରୁ ଗୋଟିଏ 'ବ୍ୟଞ୍ଜନବର୍ଣ୍ଣ' (Consonant) ବାଛିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"5/26",
+"21/26",
+"26/26",
+"1/2"
+],
+"answer": "21/26",
+"explanation": "26 - 5 = 21ଟି Consonant।"
+},
+{
+"questionEnglish": "If you throw a ball, is it probability?",
+"questionOdia": "ଆପଣ ବଲ ଫିଙ୍ଗିଲେ, ତାହା କ'ଣ ସମ୍ଭାବ୍ୟତା?",
+"options": [
+"ନା, ଏହା ଏକ ପ୍ରୟାସ",
+"ହଁ",
+"ଏହା ଏକ ପଦାର୍ଥବିଜ୍ଞାନ ପ୍ରଶ୍ନ",
+"ଉଭୟ 1 ଓ 3"
+],
+"answer": "ଉଭୟ 1 ଓ 3",
+"explanation": "ସମ୍ଭାବ୍ୟତା କେବଳ ଗଣିତର ପରିସରରେ ରହେ, ବଲ ଫିଙ୍ଗିବା ଫିଜିକ୍ସ।"
+},
+{
+"questionEnglish": "Which is more likely: rolling a 6 or rolling a 1 on a die?",
+"questionOdia": "ଲୁଡ଼ୁ ଗୋଟିରେ 6 ପଡ଼ିବା ଅଧିକ ସମ୍ଭାବ୍ୟ କି 1 ପଡ଼ିବା?",
+"options": [
+"6",
+"1",
+"ଉଭୟ ସମାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ ସମାନ",
+"explanation": "ଉଭୟ ପଡ଼ିବାର ସମ୍ଭାବନା 1/6।"
+},
+{
+"questionEnglish": "What is the probability of a non-leap year having 53 Mondays?",
+"questionOdia": "ସାଧାରଣ ବର୍ଷରେ 53ଟି ସୋମବାର ରହିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/7",
+"2/7",
+"3/7",
+"0"
+],
+"answer": "1/7",
+"explanation": "ସାଧାରଣ ବର୍ଷରେ 52 ସପ୍ତାହ + 1 ଦିନ। ସେହି 1 ଦିନ ସୋମବାର ହେବାର ସମ୍ଭାବ୍ୟତା 1/7।"
+},
+{
+"questionEnglish": "If you choose a letter from 'PROBABILITY', prob of picking 'B'?",
+"questionOdia": "PROBABILITY ଶବ୍ଦରୁ ଗୋଟିଏ ଅକ୍ଷର ବାଛିଲେ 'B' ପାଇବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/11",
+"2/11",
+"3/11",
+"4/11"
+],
+"answer": "2/11",
+"explanation": "ମୋଟ 11ଟି ଅକ୍ଷର, 2ଟି B ଅଛି।"
+},
+{
+"questionEnglish": "Probability of picking 'I' from 'PROBABILITY'?",
+"questionOdia": "PROBABILITY ଶବ୍ଦରୁ ଗୋଟିଏ ଅକ୍ଷର ବାଛିଲେ 'I' ପାଇବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/11",
+"2/11",
+"3/11",
+"10/11"
+],
+"answer": "2/11",
+"explanation": "ଶବ୍ଦରେ 2ଟି I ଅଛି।"
+},
+{
+"questionEnglish": "Is 0.00001 a valid probability?",
+"questionOdia": "0.00001 ଏକ ବୈଧ ସମ୍ଭାବ୍ୟତା କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ 0 ରୁ ବଡ଼",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଏହା 0 ରୁ 1 ମଧ୍ୟରେ।"
+},
+{
+"questionEnglish": "What is the prob of rolling a number < 7 on a die?",
+"questionOdia": "ଲୁଡ଼ୁ ଗୋଟିରେ 7 ରୁ କମ୍ ସଂଖ୍ୟା ପଡ଼ିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1",
+"0",
+"1/6",
+"5/6"
+],
+"answer": "1",
+"explanation": "ସମସ୍ତ ସଂଖ୍ୟା (1-6) 7 ରୁ କମ୍, ତେଣୁ ଏହା ନିଶ୍ଚିତ ଘଟଣା।"
+},
+{
+"questionEnglish": "Probability of picking a black card from 52 cards?",
+"questionOdia": "ତାସ କିଟରୁ ଗୋଟିଏ 'କଳା ପତା' (Black card) ପାଇବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/2",
+"1/4",
+"26/52",
+"ଉଭୟ 1 ଓ 3"
+],
+"answer": "ଉଭୟ 1 ଓ 3",
+"explanation": "26ଟି କଳା ପତା ଥାଏ, 26/52 = 1/2।"
+},
+{
+"questionEnglish": "If P(E) = x, then 0 <= x <= 1. Is this always true?",
+"questionOdia": "ଯଦି P(E) = x, ତେବେ 0 <= x <= 1. ଏହା କ'ଣ ସର୍ବଦା ସତ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦ୍ୱିତୀୟ ଶ୍ରେଣୀରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସମ୍ଭାବ୍ୟତାର ମୌଳିକ ନିୟମ।"
+},
+{
+"questionEnglish": "What is the probability of a card being a King AND a Queen?",
+"questionOdia": "ଗୋଟିଏ କାର୍ଡ଼ ରାଜା (King) ଏବଂ ରାଣୀ (Queen) ହେବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1",
+"0",
+"1/52",
+"8/52"
+],
+"answer": "0",
+"explanation": "ଗୋଟିଏ କାର୍ଡ଼ ଏକା ସାଙ୍ଗରେ ରାଜା ଓ ରାଣୀ ହୋଇପାରିବ ନାହିଁ।"
+},
+{
+"questionEnglish": "Probability of drawing a diamond from 52 cards?",
+"questionOdia": "ତାସ କିଟରୁ ଗୋଟିଏ 'ଇଟା' (Diamond) ପତା ଉଠାଇବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/4",
+"13/52",
+"ଉଭୟ 1 ଓ 2",
+"1/52"
+],
+"answer": "ଉଭୟ 1 ଓ 2",
+"explanation": "13ଟି ଇଟା ପତା, 13/52 = 1/4।"
+},
+{
+"questionEnglish": "Is there any event with probability > 1?",
+"questionOdia": "କୌଣସି ଘଟଣା ଅଛି କି ଯାହାର ସମ୍ଭାବ୍ୟତା 1 ରୁ ଅଧିକ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ପରୀକ୍ଷଣରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ସମ୍ଭାବ୍ୟତା କେବେହେଲେ 1 ରୁ ବେଶୀ ହୋଇପାରିବ ନାହିଁ।"
+},
+{
+"questionEnglish": "How many face cards in a deck?",
+"questionOdia": "ତାସ କିଟରେ ମୋଟ କେତୋଟି ଫେସ୍ କାର୍ଡ଼ ଥାଏ?",
+"options": [
+"4",
+"12",
+"13",
+"52"
+],
+"answer": "12",
+"explanation": "3 (J, Q, K) * 4 ସୁଟ୍ = 12।"
+},
+{
+"questionEnglish": "Is it possible to roll a 0 on a die?",
+"questionOdia": "ଲୁଡ଼ୁ ଗୋଟିରେ 0 ପଡ଼ିବା ସମ୍ଭବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଖେଳରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ଲୁଡ଼ୁ ଗୋଟିରେ 1 ରୁ 6 ଥାଏ, 0 ନଥାଏ।"
+},
+{
+"questionEnglish": "Probability of a die landing on 6?",
+"questionOdia": "ଲୁଡ଼ୁ ଗୋଟିରେ 6 ପଡ଼ିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/6",
+"6/6",
+"0",
+"1"
+],
+"answer": "1/6",
+"explanation": "ମୋଟ 6ଟି ପାଖ, 6ଟି ମାତ୍ର ଥରେ ଅଛି।"
+},
+{
+"questionEnglish": "If P(E) = 0.001, find P(not E)?",
+"questionOdia": "ଯଦି P(E) = 0.001, P(not E) କେତେ?",
+"options": [
+"0.999",
+"0.099",
+"0.1",
+"1"
+],
+"answer": "0.999",
+"explanation": "1 - 0.001 = 0.999।"
+},
+{
+"questionEnglish": "Are 'Even' and 'Odd' outcomes equally likely on a die?",
+"questionOdia": "ଲୁଡ଼ୁ ଗୋଟିରେ 'ଯୁଗ୍ମ' ଓ 'ଅଯୁଗ୍ମ' ସଂଖ୍ୟା ପଡ଼ିବାର ସମ୍ଭାବନା ସମାନ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ 2 ଥର ପଡ଼ିଲେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "3ଟି ଯୁଗ୍ମ (2,4,6) ଓ 3ଟି ଅଯୁଗ୍ମ (1,3,5), ତେଣୁ ସମାନ।"
+},
+{
+"questionEnglish": "What is the probability of picking a Queen from 52 cards?",
+"questionOdia": "ତାସରୁ ଗୋଟିଏ ରାଣୀ (Queen) ପାଇବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"4/52",
+"1/13",
+"ଉଭୟ 1 ଓ 2",
+"1/52"
+],
+"answer": "ଉଭୟ 1 ଓ 2",
+"explanation": "4ଟି ରାଣୀ ଥାଏ, 4/52 = 1/13।"
+},
+{
+"questionEnglish": "Does probability change if cards are shuffled?",
+"questionOdia": "ତାସ ଗୋଳେଇଲେ (Shuffled) ସମ୍ଭାବ୍ୟତା ପରିବର୍ତ୍ତନ ହୁଏ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁର୍ଭାଗ୍ୟରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ଶଫଲ କରିବା ଦ୍ୱାରା ପ୍ରତ୍ୟେକ କାର୍ଡ଼ର ସମ୍ଭାବନା ସମାନ ରହେ।"
+},
+{
+"questionEnglish": "What is the probability of getting a number between 1 and 6?",
+"questionOdia": "ଲୁଡ଼ୁ ଗୋଟିରେ 1 ଓ 6 ମଧ୍ୟରେ ସଂଖ୍ୟା (2,3,4,5) ପଡ଼ିବାର ସମ୍ଭାବ୍ୟତା କେତେ?",
+"options": [
+"1/6",
+"2/6",
+"4/6",
+"6/6"
+],
+"answer": "4/6",
+"explanation": "2, 3, 4, 5 (4ଟି ସଂଖ୍ୟା), 4/6 = 2/3।"
+},
+{
+"questionEnglish": "If P(E) = 2/3, P(not E) is?",
+"questionOdia": "ଯଦି P(E) = 2/3, ତେବେ P(not E) କେତେ?",
+"options": [
+"1/3",
+"2/3",
+"1",
+"0"
+],
+"answer": "1/3",
+"explanation": "1 - 2/3 = 1/3।"
+},
+{
+"questionEnglish": "Is it 'fair' to flip a coin?",
+"questionOdia": "ମୁଦ୍ରା ଟସ କରିବା କ'ଣ ଏକ 'ନିରପେକ୍ଷ' (Fair) ପ୍ରକ୍ରିୟା?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଖେଳାଳିଙ୍କ ଉପରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ମୁଦ୍ରାରେ ହେଡ୍ ଓ ଟେଲ୍ ପାଇବାର ସମ୍ଭାବନା ସମାନ।"
+},
+{
+"questionEnglish": "What is a 'Compound event'?",
+"questionOdia": "ଏକ 'ମିଶ୍ର ଘଟଣା' (Compound Event) କହିଲେ କ'ଣ ବୁଝନ୍ତି?",
+"options": [
+"ଏକରୁ ଅଧିକ ପ୍ରାଥମିକ ଘଟଣାର ମିଶ୍ରଣ",
+"ଗୋଟିଏ ଘଟଣା",
+"ଅସମ୍ଭବ ଘଟଣା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏକରୁ ଅଧିକ ପ୍ରାଥମିକ ଘଟଣାର ମିଶ୍ରଣ",
+"explanation": "ଯେଉଁ ଘଟଣାରେ ଏକରୁ ଅଧିକ ଫଳାଫଳ ଅନ୍ତର୍ଭୁକ୍ତ ଥାଏ।"
+}
+]
+
