@@ -1,1 +1,1538 @@
-
+[
+{
+"questionEnglish": "How many states and union territories are there currently in India according to the chapter?",
+"questionOdia": "ଏହି ଅଧ୍ୟାୟ ଅନୁସାରେ ବର୍ତ୍ତମାନ ଭାରତରେ କେତୋଟି ରାଜ୍ୟ ଓ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ ରହିଛି?",
+"options": [
+"୨୮ଟି ରାଜ୍ୟ ଓ ୮ଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ",
+"୨୯ଟି ରାଜ୍ୟ ଓ ୭ଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ",
+"୨୮ଟି ରାଜ୍ୟ ଓ ୯ଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ",
+"୨୭ଟି ରାଜ୍ୟ ଓ ୯ଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ"
+],
+"answer": "୨୮ଟି ରାଜ୍ୟ ଓ ୯ଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ",
+"explanation": "ବର୍ତ୍ତମାନ ଭାରତରେ ଅଠେଇଶ ଗୋଟି ରାଜ୍ୟ ଓ ନଅଗୋଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ ରହିଛି."
+},
+{
+"questionEnglish": "When was the provision of Article 370 repealed in the Parliament?",
+"questionOdia": "ପାର୍ଲିଆମେଣ୍ଟରେ କେଉଁ ବର୍ଷ ୩୭୦ ଧାରା ଉଚ୍ଛେଦ ପ୍ରସ୍ତାବ ଗୃହୀତ ହୋଇଥିଲା?",
+"options": [
+"୨୦୧୪",
+"୨୦୧୮",
+"୨୦୧୯",
+"୨୦୨୦"
+],
+"answer": "୨୦୧୯",
+"explanation": "୨୦୧୯ ମସିହାରେ ପାର୍ଲିଆମେଣ୍ଟରେ ୩୭୦ ଧାରାର ଉଚ୍ଛେଦ ଗୃହୀତ ହୋଇଥିଲା."
+},
+{
+"questionEnglish": "Which of the following union territories has a Legislative Assembly and Council of Ministers?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳରେ ବିଧାନସଭା ଓ ମନ୍ତ୍ରୀପରିଷଦ ରହିଛି?",
+"options": [
+"ଲାକ୍ଷାଦ୍ୱୀପ",
+"ଚଣ୍ଡିଗଡ",
+"ଦିଲ୍ଲୀ",
+"ଆଣ୍ଡାମାନ ଓ ନିକୋବର ଦ୍ଵୀପପୁଞ୍ଜ"
+],
+"answer": "ଦିଲ୍ଲୀ",
+"explanation": "କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ଦିଲ୍ଲୀରେ ବିଧାନସଭା ଓ ମନ୍ତ୍ରୀପରିଷଦର ବ୍ୟବସ୍ଥା ରହିଛି."
+},
+{
+"questionEnglish": "Who is the administrative head of the Union Territory of Delhi?",
+"questionOdia": "ଦିଲ୍ଲୀ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳର ଶାସନ ମୁଖ୍ୟ କିଏ?",
+"options": [
+"ମୁଖ୍ୟମନ୍ତ୍ରୀ",
+"ରାଷ୍ଟ୍ରପତି",
+"ଉପରାଜ୍ୟପାଳ (ଲେଫ୍‌ଟନାଣ୍ଟ ଗଭର୍ଣ୍ଣର)",
+"ରାଜ୍ୟପାଳ"
+],
+"answer": "ଉପରାଜ୍ୟପାଳ (ଲେଫ୍‌ଟନାଣ୍ଟ ଗଭର୍ଣ୍ଣର)",
+"explanation": "ଦିଲ୍ଲୀର ଶାସନମୁଖ୍ୟ ହେଉଛନ୍ତି ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ବାରା ନିଯୁକ୍ତ ଜଣେ ଉପରାଜ୍ୟପାଳ."
+},
+{
+"questionEnglish": "Which state was formed due to the demand for a separate Telugu state in 1953?",
+"questionOdia": "୧୯୫୩ ମସିହାରେ ସ୍ଵତନ୍ତ୍ର ତେଲୁଗୁ ଭାଷାଭାଷୀ ରାଜ୍ୟ ଭାବରେ କେଉଁ ରାଜ୍ୟ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"କର୍ଣ୍ଣାଟକ",
+"ତେଲେଙ୍ଗାନା",
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"ତାମିଲନାଡୁ"
+],
+"answer": "ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"explanation": "୧୯୫୩ ମସିହାରେ ମାଡ୍ରାସର ତେଲୁଗୁ ଭାଷାଭାଷୀ ଅଞ୍ଚଳକୁ ନେଇ ନୂତନ ଆନ୍ଧ୍ରପ୍ରଦେଶ ଗଠିତ ହେଲା."
+},
+{
+"questionEnglish": "Who among these was NOT a member of the States Reorganization Commission formed in 1956?",
+"questionOdia": "୧୯୫୬ ମସିହାରେ ଗଠିତ 'ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆୟୋଗ'ର ସଦସ୍ୟ ନଥିଲେ କିଏ?",
+"options": [
+"ନ୍ୟାୟମୂର୍ତ୍ତି ଫଜଲ ଅଲ୍ଲୀ",
+"ସର୍ଦ୍ଦାର କେ. ଏମ. ପାନିକର",
+"ହୃଦୟନାଥ କୁଞ୍ଜରୁ",
+"ଜବାହରଲାଲ ନେହେରୁ"
+],
+"answer": "ଜବାହରଲାଲ ନେହେରୁ",
+"explanation": "ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆୟୋଗର ସଦସ୍ୟ ଥିଲେ ନ୍ୟାୟମୂର୍ତ୍ତି ଫଜଲ ଅଲ୍ଲୀ, ସର୍ଦ୍ଦାର କେ. ଏମ. ପାନିକର ଓ ହୃଦୟନାଥ କୁଞ୍ଜରୁ."
+},
+{
+"questionEnglish": "Which amendment act introduced the reorganization of states in 1956?",
+"questionOdia": "୧୯୫୬ ମସିହାରେ ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆଇନ ସହିତ କେଉଁ ସମ୍ବିଧାନ ସଂଶୋଧନ ଆଇନ ପ୍ରଣୟନ କରାଯାଇଥିଲା?",
+"options": [
+"ଷଷ୍ଠ ସଂଶୋଧନ",
+"ସପ୍ତମ ସଂଶୋଧନ",
+"ଅଷ୍ଟମ ସଂଶୋଧନ",
+"ନବମ ସଂଶୋଧନ"
+],
+"answer": "ସପ୍ତମ ସଂଶୋଧନ",
+"explanation": "୧୯୫୬ ମସିହାର ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆଇନ ତଥା ସମ୍ବିଧାନର ସପ୍ତମ ସଂଶୋଧନ ଆଇନ ଜରିଆରେ ରାଜ୍ୟଗୁଡ଼ିକ ପୁନର୍ଗଠିତ ହୋଇଥିଲା."
+},
+{
+"questionEnglish": "Which state was created by dividing Bombay state in 1960?",
+"questionOdia": "୧୯୬୦ ମସିହାରେ ବମ୍ବେ ରାଜ୍ୟକୁ ବିଭାଜିତ କରି କେଉଁ ଦୁଇଟି ରାଜ୍ୟ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"ମହାରାଷ୍ଟ୍ର ଓ ଗୁଜୁରାଟ",
+"ମହାରାଷ୍ଟ୍ର ଓ ମଧ୍ୟପ୍ରଦେଶ",
+"ଗୁଜୁରାଟ ଓ ରାଜସ୍ଥାନ",
+"କର୍ଣ୍ଣାଟକ ଓ ମହାରାଷ୍ଟ୍ର"
+],
+"answer": "ମହାରାଷ୍ଟ୍ର ଓ ଗୁଜୁରାଟ",
+"explanation": "ବମ୍ବେ ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆଇନ ଅନୁସାରେ ବମ୍ବେ ରାଜ୍ୟକୁ ବିଭାଜିତ କରାଯାଇ ମହାରାଷ୍ଟ୍ର ଓ ଗୁଜୁରାଟ ରାଜ୍ୟଦ୍ଵୟ ଗଠିତ ହୋଇଅଛି."
+},
+{
+"questionEnglish": "Which article of the Constitution deals with the formation of new states and alteration of areas, boundaries, or names of existing states?",
+"questionOdia": "ସମ୍ବିଧାନର କେଉଁ ଧାରା ଅନୁସାରେ ସଂସଦ ନୂତନ ରାଜ୍ୟ ଗଠନ କିମ୍ବା ରାଜ୍ୟର ନାମ/ସୀମା ପରିବର୍ତ୍ତନ କରିପାରିବ?",
+"options": [
+"ଧାରା ୧",
+"ଧାରା ୨",
+"ଧାରା ୩",
+"ଧାରା ୪"
+],
+"answer": "ଧାରା ୩",
+"explanation": "ସମ୍ବିଧାନର ଧାରା-୩ ଅନୁସାରେ ସଂସଦ ନୂତନ ରାଜ୍ୟ ସୃଷ୍ଟି କରିପାରିବ କିମ୍ବା ରାଜ୍ୟର ନାମ ଓ ସୀମା ପରିବର୍ତ୍ତନ କରିପାରିବ."
+},
+{
+"questionEnglish": "In which year did Sikkim become a full-fledged state of India?",
+"questionOdia": "ସିକିମ କେଉଁ ବର୍ଷ ଭାରତର ଏକ 'ପୂର୍ଣାଙ୍ଗ ରାଜ୍ୟ'ର ମାନ୍ୟତା ପାଇଲା?",
+"options": [
+"୧୯୭୪",
+"୧୯୭୫",
+"୧୯୭୬",
+"୧୯୮୦"
+],
+"answer": "୧୯୭୫",
+"explanation": "ସିକିମ ୧୯୭୫ ମସିହାରେ ଏକ 'ପୂର୍ଣାଙ୍ଗ ରାଜ୍ୟ'ର ମାନ୍ୟତା ପାଇଲା."
+},
+{
+"questionEnglish": "Who went on a hunger strike for a separate Telugu state and died in 1952?",
+"questionOdia": "ସ୍ଵତନ୍ତ୍ର ତେଲୁଗୁ ରାଜ୍ୟ ଦାବି କରି ଅନଶନ କରୁଥିବା ବେଳେ ୧୯୫୨ ମସିହାରେ କାହାର ମୃତ୍ୟୁ ଘଟିଥିଲା?",
+"options": [
+"ପୋଟ୍ଟି ଶ୍ରୀରାମୁଲୁ",
+"ସର୍ଦ୍ଦାର ପଟେଲ",
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ପଟ୍ଟାଭି ସୀତାରାମାୟା"
+],
+"answer": "ପୋଟ୍ଟି ଶ୍ରୀରାମୁଲୁ",
+"explanation": "୧୯୫୨ ମସିହାରେ ସ୍ଵତନ୍ତ୍ର ତେଲୁଗୁ ରାଜ୍ୟ ଦାବି କରି ଅନଶନ କରୁଥିବା ପୋଟ୍ଟି ଶ୍ରୀରାମୁଲୁଙ୍କ ମୃତ୍ୟୁ ଘଟିଥିଲା."
+},
+{
+"questionEnglish": "Under which act was Chhattisgarh state formed in 2000?",
+"questionOdia": "୨୦୦୦ ମସିହାରେ ଛତିଶଗଡ଼ ରାଜ୍ୟ କେଉଁ ଆଇନ ବଳରେ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"ବିହାର ପୁନର୍ଗଠନ ଆଇନ",
+"ଉତ୍ତରପ୍ରଦେଶ ପୁନର୍ଗଠନ ଆଇନ",
+"ମଧ୍ୟପ୍ରଦେଶ ପୁନର୍ଗଠନ ଆଇନ",
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ ପୁନର୍ଗଠନ ଆଇନ"
+],
+"answer": "ମଧ୍ୟପ୍ରଦେଶ ପୁନର୍ଗଠନ ଆଇନ",
+"explanation": "ମଧ୍ୟପ୍ରଦେଶ ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆଇନ ୨୦୦୦ ବଳରେ ଛତିଶଗଡ଼ ରାଜ୍ୟ ଗଠିତ ହୋଇଅଛି."
+},
+{
+"questionEnglish": "Which state was separated from Uttar Pradesh in 2000?",
+"questionOdia": "୨୦୦୦ ମସିହାରେ ଉତ୍ତରପ୍ରଦେଶରୁ କେଉଁ ରାଜ୍ୟ ଅଲଗା କରାଯାଇ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"ଝାଡ଼ଖଣ୍ଡ",
+"ଉତ୍ତରାଖଣ୍ଡ",
+"ଛତିଶଗଡ଼",
+"ତେଲେଙ୍ଗାନା"
+],
+"answer": "ଉତ୍ତରାଖଣ୍ଡ",
+"explanation": "ଉତ୍ତର ପ୍ରଦେଶ ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆଇନ ବଳରେ ଉତ୍ତରାଖଣ୍ଡ ରାଜ୍ୟ ଗଠିତ ହୋଇଛି."
+},
+{
+"questionEnglish": "When was Telangana state formed by dividing Andhra Pradesh?",
+"questionOdia": "ଆନ୍ଧ୍ରପ୍ରଦେଶକୁ ବିଭାଜିତ କରି ତେଲେଙ୍ଗାନା ରାଜ୍ୟ କେଉଁ ବର୍ଷ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"୨୦୦୦",
+"୨୦୧୦",
+"୨୦୧୪",
+"୨୦୧୯"
+],
+"answer": "୨୦୧୪",
+"explanation": "ଆନ୍ଧ୍ର ପ୍ରଦେଶ ପୁନର୍ଗଠନ ଆଇନ ୨୦୧୪ ଅନୁସାରେ ତେଲେଙ୍ଗାନା ରାଜ୍ୟ ଗଠିତ ହୋଇଛି."
+},
+{
+"questionEnglish": "What was the former name of Lakshadweep?",
+"questionOdia": "ଲାକ୍ଷାଦ୍ଵୀପର ପୂର୍ବ ନାମ କ’ଣ ଥିଲା?",
+"options": [
+"ଆଣ୍ଡାମାନ ଦ୍ୱୀପ",
+"ଲାକାଡିଭ, ମିନିକୟ ଓ ଆମିନିଡିଭି",
+"ପଣ୍ଡିଚେରୀ",
+"ଦାଦ୍ରା"
+],
+"answer": "ଲାକାଡିଭ, ମିନିକୟ ଓ ଆମିନିଡିଭି",
+"explanation": "ପୂର୍ବର ଲାକାଡିଭ, ମିନିକୟ ଓ ଆମିନିଡିଭି ଦ୍ବୀପପୁଞ୍ଜର ନାମ ୧୯୭୩ ମସିହାରେ ପରିବର୍ତ୍ତିତ ହୋଇ ‘ଲାକ୍ଷାଦ୍ଵୀପ’ ହୋଇଛି."
+},
+{
+"questionEnglish": "In which year did the name of 'Orissa' change to 'Odisha'?",
+"questionOdia": "ଓଡ଼ିଶାର ନାମ ପରିବର୍ତ୍ତନ ହୋଇ 'ଓଡ଼ିଶା' (ODISHA) କେଉଁ ବର୍ଷ ହୋଇଥିଲା?",
+"options": [
+"୨୦୦୦",
+"୨୦୧୦",
+"୨୦୧୧",
+"୨୦୧୪"
+],
+"answer": "୨୦୧୧",
+"explanation": "୨୦୧୧ ମସିହାରେ ସଂସଦରେ ଆଇନ ପ୍ରଣୟନ କରାଯାଇ ‘ଓରିଶା’ ଓ ‘ଓରିୟା’ ଶବ୍ଦ ପରିବର୍ଷିତ ହୋଇ ‘ଓଡ଼ିଶା’ ଓ ‘ଓଡ଼ିଆ’ ହୋଇଅଛି."
+},
+{
+"questionEnglish": "Which state was separated from Bihar in 2000?",
+"questionOdia": "୨୦୦୦ ମସିହାରେ ବିହାରରୁ କେଉଁ ରାଜ୍ୟ ଅଲଗା କରାଯାଇ ଗଠନ କରାଯାଇଥିଲା?",
+"options": [
+"ଝାଡ଼ଖଣ୍ଡ",
+"ଉତ୍ତରାଖଣ୍ଡ",
+"ଛତିଶଗଡ଼",
+"ତେଲେଙ୍ଗାନା"
+],
+"answer": "ଝାଡ଼ଖଣ୍ଡ",
+"explanation": "ବିହାର ପୁନର୍ଗଠନ ଆଇନ-୨୦୦୦ ବଳରେ ବିହାରର କିଛି ଅଞ୍ଚଳକୁ ନେଇ ଝାଡ଼ଖଣ୍ଡ ରାଜ୍ୟ ଗଠନ କରାଯାଇଛି."
+},
+{
+"questionEnglish": "How long was Goa under Portuguese rule before it joined India?",
+"questionOdia": "ଭାରତରେ ମିଶିବା ପୂର୍ବରୁ ଗୋଆ କେତେ ବର୍ଷ ଧରି ପର୍ତ୍ତୁଗାଲ ଅଧୀନରେ ଥିଲା?",
+"options": [
+"୧୦୦ ବର୍ଷ",
+"୨୫୦ ବର୍ଷ",
+"୩୦୦ ବର୍ଷ",
+"୪୫୦ ବର୍ଷ"
+],
+"answer": "୪୫୦ ବର୍ଷ",
+"explanation": "ଗୋଆ, ଡାମନ ଓ ଡିଉ ଭାରତରେ ମିଶିବା ପୂର୍ବରୁ ଦୀର୍ଘ ୪୫୦ ବର୍ଷ ଧରି ପର୍ତ୍ତୁଗାଲ ଅଧୀନରେ ଥିଲା."
+},
+{
+"questionEnglish": "Which state's name was changed from Madras to Tamil Nadu?",
+"questionOdia": "ମାଡ୍ରାସ୍ ରାଜ୍ୟର ନାମ ପରିବର୍ତ୍ତନ ହୋଇ କେଉଁ ନୂତନ ନାମ ଦିଆଯାଇଥିଲା?",
+"options": [
+"କର୍ଣ୍ଣାଟକ",
+"କେରଳ",
+"ତାମିଲନାଡୁ",
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ"
+],
+"answer": "ତାମିଲନାଡୁ",
+"explanation": "୧୯୬୮ ମସିହାରେ ମାଡ୍ରାସ୍ ରାଜ୍ୟର ନୂତନ ନାମ ହୋଇଛି ତାମିଲନାଡୁ."
+},
+{
+"questionEnglish": "When was Goa granted the status of a state?",
+"questionOdia": "ଗୋଆ କେବେ ରାଜ୍ୟର ମାନ୍ୟତା ପାଇଲା?",
+"options": [
+"୧୯୬୧",
+"୧୯୭୧",
+"୧୯୮୧",
+"୧୯୮୭"
+],
+"answer": "୧୯୮୭",
+"explanation": "୧୯୮୭ ମସିହାର ଗୋଆ ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆଇନ ବଳରେ ଗୋଆ ଏକ ରାଜ୍ୟର ମାନ୍ୟତା ପାଇଛି."
+},
+{
+"questionEnglish": "Which of the following was a 'C' category state in 1950?",
+"questionOdia": "୧୯୫୦ ମସିହାରେ 'ଗ' ଶ୍ରେଣୀୟ ରାଜ୍ୟ ମଧ୍ୟରେ କେଉଁଟି ଅନ୍ତର୍ଭୁକ୍ତ ଥିଲା?",
+"options": [
+"ଓଡ଼ିଶା",
+"ବମ୍ବେ",
+"ଭୋପାଳ",
+"ହାଇଦ୍ରାବାଦ"
+],
+"answer": "ଭୋପାଳ",
+"explanation": "‘ଗ’ ଶ୍ରେଣୀରେ ରହିଥିଲା ଆଜମୀର, ଭୋପାଳ, ବିଳାସପୁର, କୁଚ-ବିହାର ଓ କୁର୍ଗ."
+},
+{
+"questionEnglish": "What was the administrative title of the head of 'B' category states?",
+"questionOdia": "'ଖ' ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟମାନଙ୍କର ଶାସନମୁଖ୍ୟଙ୍କୁ କ’ଣ କୁହାଯାଉଥିଲା?",
+"options": [
+"ରାଜ୍ୟପାଳ",
+"ରାଜ୍ୟପ୍ରମୁଖ",
+"ଚିଫ୍ କମିଶନର",
+"ଉପରାଜ୍ୟପାଳ"
+],
+"answer": "ରାଜ୍ୟପ୍ରମୁଖ",
+"explanation": "‘ଖ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟମାନଙ୍କର ଶାସନମୁଖ୍ୟଙ୍କୁ କୁହାଗଲା ‘ରାଜ୍ୟପ୍ରମୁଖ’."
+},
+{
+"questionEnglish": "Who was the first administrative head of the 'A' category states?",
+"questionOdia": "'କ' ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟର ଶାସନ ମୁଖ୍ୟ ଭାବରେ କିଏ ରହିଲେ?",
+"options": [
+"ରାଜ୍ୟପାଳ",
+"ରାଜ୍ୟପ୍ରମୁଖ",
+"ଚିଫ୍ କମିଶନର",
+"ଉପରାଜ୍ୟପାଳ"
+],
+"answer": "ରାଜ୍ୟପାଳ",
+"explanation": "‘କ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟର ଶାସନ ମୁଖ୍ୟ ରହିଲେ ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ୱାରା ନିଯୁକ୍ତ ଜଣେ ‘ରାଜ୍ୟପାଳ’."
+},
+{
+"questionEnglish": "Which among these was NOT an 'A' category state in 1950?",
+"questionOdia": "୧୯୫୦ ମସିହାରେ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି 'କ' ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟ ନଥିଲା?",
+"options": [
+"ଓଡ଼ିଶା",
+"ବିହାର",
+"ଆସାମ",
+"ହାଇଦ୍ରାବାଦ"
+],
+"answer": "ହାଇଦ୍ରାବାଦ",
+"explanation": "ହାଇଦ୍ରାବାଦ ‘ଖ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟ ଥିଲା."
+},
+{
+"questionEnglish": "In which year was the first Language Commission formed in India?",
+"questionOdia": "ଭାରତରେ 'ଭାଷାଭିଭିକ ପ୍ରଦେଶ ଆୟୋଗ' କେଉଁ ମସିହାରେ ଗଠନ କରାଗଲା?",
+"options": [
+"୧୯୪୬",
+"୧୯୪୭",
+"୧୯୪୮",
+"୧୯୫୦"
+],
+"answer": "୧୯୪୮",
+"explanation": "ସମ୍ବିଧାନ ପ୍ରଣୟନ ସଭାର ସୁପାରିସ କ୍ରମେ ମେ ୧୯୪୮ ମସିହାରେ “ଭାଷାଭିଭିକ ପ୍ରଦେଶ ଆୟୋଗ” ଗଠନ କରାଗଲା."
+},
+{
+"questionEnglish": "Which state was created as a result of the Punjab Reorganization Act, 1966?",
+"questionOdia": "୧୯୬୬ ମସିହାର ପଞ୍ଜାବ ପୁନର୍ଗଠନ ଆଇନ ବଳରେ କେଉଁ ନୂତନ ରାଜ୍ୟ ସୃଷ୍ଟି ହୋଇଥିଲା?",
+"options": [
+"ହିମାଚଳ ପ୍ରଦେଶ",
+"ହରିୟାଣା",
+"ଚଣ୍ଡିଗଡ଼",
+"ଜମ୍ମୁ"
+],
+"answer": "ହରିୟାଣା",
+"explanation": "ପଞ୍ଜାବ ପୁନର୍ଗଠନ ଆଇନ ବଳରେ ପଞ୍ଜାବ ବିଭାଜିତ ହୋଇ ନୂତନ ରାଜ୍ୟ ହରିୟାଣା ଓ ଚଣ୍ଡିଗଡ଼ ଜନ୍ମ ନେଇଅଛି."
+},
+{
+"questionEnglish": "When was Nagaland state formed?",
+"questionOdia": "ନାଗାଲାଣ୍ଡ ରାଜ୍ୟ କେଉଁ ମସିହାରେ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"୧୯୬୦",
+"୧୯୬୨",
+"୧୯୬୪",
+"୧୯୬୬"
+],
+"answer": "୧୯୬୪",
+"explanation": "ନାଗାଲାଣ୍ଡ ରାଜ୍ୟ ଗଠନ ଆଇନ, ୧୯୬୨ ବଳରେ ୧୯୬୪ ମସିହା ଫେବୃଆରୀ ୧ ତାରିଖଠାରୁ ନୂତନ ନାଗାଲାଣ୍ଡ ରାଜ୍ୟ ଗଠିତ ହୋଇଅଛି."
+},
+{
+"questionEnglish": "Which region was included in 'D' category states in 1950?",
+"questionOdia": "୧୯୫୦ ମସିହାରେ କେଉଁ ଅଞ୍ଚଳ 'ଘ' ଶ୍ରେଣୀରେ ସ୍ଥାନ ପାଇଥିଲା?",
+"options": [
+"ଓଡ଼ିଶା",
+"ଆଣ୍ଡାମାନ ଓ ନିକୋବର ଦ୍ବୀପପୁଞ୍ଜ",
+"ମହୀଶୂର",
+"ବିହାର"
+],
+"answer": "ଆଣ୍ଡାମାନ ଓ ନିକୋବର ଦ୍ବୀପପୁଞ୍ଜ",
+"explanation": "ଆଣ୍ଡାମାନ ଓ ନିକୋବର ଦ୍ବୀପପୁଞ୍ଜ ଓ ଅନ୍ୟାନ୍ୟ ଅଧୂକୃତ ଅଞ୍ଚଳ ସ୍ଥାନ ପାଇଲେ ‘ଘ’ ଶ୍ରେଣୀରେ."
+},
+{
+"questionEnglish": "Who was the chairperson/member of the first Language Commission?",
+"questionOdia": "ପ୍ରଥମ ଭାଷାଭିତ୍ତିକ ପ୍ରଦେଶ ଆୟୋଗର ସଦସ୍ୟ ମାନଙ୍କ ମଧ୍ୟରେ କିଏ ଜଣେ ଥିଲେ?",
+"options": [
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ଫଜଲ ଅଲ୍ଲୀ",
+"ହୃଦୟନାଥ କୁଞ୍ଜରୁ",
+"ରାଜେନ୍ଦ୍ର ପ୍ରସାଦ"
+],
+"answer": "ଜବାହରଲାଲ ନେହେରୁ",
+"explanation": "ଏହି ଆୟୋଗରେ ପଣ୍ଡିତ ଜବାହରଲାଲ ନେହେରୁ, ସର୍ଦ୍ଦାର ବଲ୍ଲଭ ଭାଇ ପଟେଲ ଓ ପଟ୍ଟାଭି ସୀତାରାମାୟା ସଦସ୍ୟ ଥିଲେ."
+},
+{
+"questionEnglish": "Which of these states was part of 'B' category states in 1950?",
+"questionOdia": "୧୯୫୦ ମସିହାରେ 'ଖ' ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟଗୁଡ଼ିକ ମଧ୍ୟରେ କେଉଁଟି ଥିଲା?",
+"options": [
+"ମଧ୍ୟପ୍ରଦେଶ",
+"ମହୀଶୂର",
+"ମାଡ୍ରାସ",
+"ପଶ୍ଚିମବଙ୍ଗ"
+],
+"answer": "ମହୀଶୂର",
+"explanation": "‘ଖ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟଗୁଡ଼ିକ ହେଲେ : ହାଇଦ୍ରାବାଦ, ଜାମ୍ମୁ ଓ କାଶ୍ମୀର, ମଧ୍ୟଭାରତ, ମହୀଶୂର, ପାତିଆଲା ଓ ପୂର୍ବ ପଞ୍ଜାବ."
+},
+{
+"questionEnglish": "In which year did Mizoram become a full state?",
+"questionOdia": "ମିଜୋରାମ କେଉଁ ମସିହାରେ ରାଜ୍ୟ ପାହ୍ୟାକୁ ଉନ୍ନୀତ ହୋଇଅଛି?",
+"options": [
+"୧୯୭୧",
+"୧୯୮୧",
+"୧୯୮୬",
+"୧୯୯୧"
+],
+"answer": "୧୯୮୬",
+"explanation": "୧୯୭୧ ମସିହାରେ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳର ମାନ୍ୟତା ପାଇଥିବା ମିଜୋରାମ ୧୯୮୬ ମସିହାରେ ରାଜ୍ୟ ପାହ୍ୟାକୁ ଉନ୍ନୀତ ହୋଇଅଛି."
+},
+{
+"questionEnglish": "Which region was previously known as 'Laccadive, Minicoy and Amindivi Islands'?",
+"questionOdia": "କେଉଁ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳର ପୂର୍ବ ନାମ 'ଲାକାଡିଭ, ମିନିକୟ ଓ ଆମିନିଡିଭି' ଥିଲା?",
+"options": [
+"ଲାକ୍ଷାଦ୍ଵୀପ",
+"ଆଣ୍ଡାମାନ",
+"ନିକୋବର",
+"ପଣ୍ଡିଚେରୀ"
+],
+"answer": "ଲାକ୍ଷାଦ୍ଵୀପ",
+"explanation": "ପୂର୍ବର ଲାକାଡିଭ, ମିନିକୟ ଓ ଆମିନିଡିଭି ଦ୍ବୀପପୁଞ୍ଜର ନାମ ୧୯୭୩ ମସିହାରେ ପରିବର୍ତ୍ତିତ ହୋଇ ‘ଲାକ୍ଷାଦ୍ଵୀପ’ ହୋଇଛି."
+},
+{
+"questionEnglish": "When was the Union Territory of Delhi recognized as 'National Capital Territory'?",
+"questionOdia": "ଦିଲ୍ଲୀ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳକୁ 'ଜାତୀୟ ରାଜଧାନୀ ଅଞ୍ଚଳ' (NCT) ର ମାନ୍ୟତା କେବେ ମିଳିଛି?",
+"options": [
+"୧୯୯୦",
+"୧୯୯୧",
+"୧୯୯୨",
+"୧୯୯୩"
+],
+"answer": "୧୯୯୨",
+"explanation": "୧୯୯୨ ମସିହା ଫେବୃୟାରୀ ମାସ ୧ ତାରିଖ ଦିନ ସମ୍ବିଧାନ ସଂଶୋଧନ ଆଇନ ବଳରେ ଦିଲ୍ଲୀକୁ “ଜାତୀୟ ରାଜଧାନୀ ଅଞ୍ଚଳ”ର ମାନ୍ୟତା ମିଳିଛି."
+},
+{
+"questionEnglish": "Which act relates to the formation of the state of Himachal Pradesh in 1970?",
+"questionOdia": "ହିମାଚଳ ପ୍ରଦେଶ ରାଜ୍ୟ ଗଠନ ଆଇନ କେଉଁ ମସିହାରେ ପ୍ରଣୟନ ହୋଇଥିଲା?",
+"options": [
+"୧୯୬୬",
+"୧୯୭୦",
+"୧୯୭୧",
+"୧୯୭୫"
+],
+"answer": "୧୯୭୦",
+"explanation": "୧୯୭୦ ମସିହାର ହିମାଚଳ ପ୍ରଦେଶ ରାଜ୍ୟ ଗଠନ ଆଇନ ଅନୁସାରେ ହିମାଚଳ ପ୍ରଦେଶ ରାଜ୍ୟ ପାହ୍ୟାକୁ ଉନ୍ନୀତ ହେଲା."
+},
+{
+"questionEnglish": "Who appoints the Lieutenant Governor (Uprajyapal) of Delhi?",
+"questionOdia": "ଦିଲ୍ଲୀର ଉପରାଜ୍ୟପାଳଙ୍କୁ କିଏ ନିଯୁକ୍ତ କରନ୍ତି?",
+"options": [
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ରାଷ୍ଟ୍ରପତି",
+"ସଂସଦ",
+"ସୁପ୍ରିମକୋର୍ଟ"
+],
+"answer": "ରାଷ୍ଟ୍ରପତି",
+"explanation": "ଦିଲ୍ଲୀର ଶାସନମୁଖ୍ୟ ହେଉଛନ୍ତି ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ବାରା ନିଯୁକ୍ତ ଜଣେ ଉପରାଜ୍ୟପାଳ."
+},
+{
+"questionEnglish": "How many states were formed after the 1956 Reorganization Act?",
+"questionOdia": "୧୯୫୬ ମସିହାର ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆଇନ ପରେ ଭାରତରେ କେତୋଟି ରାଜ୍ୟ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"୧୦ଟି",
+"୧୨ଟି",
+"୧୪ଟି",
+"୧୬ଟି"
+],
+"answer": "୧୪ଟି",
+"explanation": "୧୯୫୬ ମସିହାର ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆଇନ ଜରିଆରେ ନୂତନ ଭାବରେ ଚଉଦଗୋଟି ରାଜ୍ୟ ଓ ଛଅଗୋଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ଗଠନ କରାଗଲା."
+},
+{
+"questionEnglish": "Which article deals with the admission or establishment of new states in the Indian Union?",
+"questionOdia": "ସମ୍ବିଧାନର କେଉଁ ଧାରା ଅନୁସାରେ ସଂସଦ ନୂତନ ରାଜ୍ୟ ସାମିଲ କରିପାରିବ?",
+"options": [
+"ଧାରା ୧",
+"ଧାରା ୨",
+"ଧାରା ୩",
+"ଧାରା ୪"
+],
+"answer": "ଧାରା ୨",
+"explanation": "ସମ୍ବିଧାନର ଧାରା ୨ ଅନୁସାରେ ସଂସଦ ଆଇନ ପ୍ରଣୟନ କରି ଭାରତର ସଂଘୀୟ ବ୍ୟବସ୍ଥାରେ ନୂତନ ରାଜ୍ୟ ସାମିଲ କରିପାରିବ."
+},
+{
+"questionEnglish": "Who was the monarch of Sikkim during the British rule?",
+"questionOdia": "ବ୍ରିଟିଶ୍ ଶାସନ ସମୟରେ ସିକିମର ରାଷ୍ଟ୍ରମୁଖ୍ୟ କିଏ ଥିଲେ?",
+"options": [
+"ରାଜ୍ୟପାଳ",
+"ଚୋଗ୍ୟାଲ",
+"ମୁଖ୍ୟମନ୍ତ୍ରୀ",
+"କମିଶନର"
+],
+"answer": "ଚୋଗ୍ୟାଲ",
+"explanation": "ବ୍ରିଟିଶ୍ ଶାସନ ସମୟରେ ସିକିମରେ ପୁରୁଷାନୁକ୍ରମିକ ରାଜତନ୍ତ୍ର ଚାଲୁଥିଲା ଓ ଚୋଗ୍ୟାଲ ଥିଲେ ଏହାର ରାଷ୍ଟ୍ରମୁଖ୍ୟ."
+},
+{
+"questionEnglish": "When was Meghalaya state formed?",
+"questionOdia": "ମେଘାଳୟ କେବେ ରାଜ୍ୟର ମାନ୍ୟତା ପାଇଲା?",
+"options": [
+"୧୯୬୯",
+"୧୯୭୧",
+"୧୯୭୫",
+"୧୯୮୦"
+],
+"answer": "୧୯୭୧",
+"explanation": "୧୯୭୧ ମସିହାର ଉତ୍ତର – ପୂର୍ବାଞ୍ଚଳ ରାଜ୍ୟ (ପୁନର୍ଗଠନ) ଆଇନ ଅନୁସାରେ ମେଘାଳୟ ରାଜ୍ୟ ପାହ୍ୟାକୁ ଉନ୍ନୀତ ହେଲା."
+},
+{
+"questionEnglish": "Which state was formerly known as 'Mysore'?",
+"questionOdia": "କେଉଁ ରାଜ୍ୟର ପୂର୍ବ ନାମ 'ମହୀଶୂର' ଥିଲା?",
+"options": [
+"ତାମିଲନାଡୁ",
+"କର୍ଣ୍ଣାଟକ",
+"କେରଳ",
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ"
+],
+"answer": "କର୍ଣ୍ଣାଟକ",
+"explanation": "୧୯୭୩ ମସିହାରେ ମହୀଶୂର ରାଜ୍ୟ (ନାମ ପରିବର୍ତ୍ତନ) ଆଇନ ବଳରେ ‘ମହୀଶୂର’ ନାମ ପରିବର୍ଷିତ ହୋଇ ‘କର୍ଣ୍ଣାଟକ’ ହୋଇଅଛି."
+},
+{
+"questionEnglish": "Which of the following is an 'A' category state according to 1950 list?",
+"questionOdia": "୧୯୫୦ ମସିହାର 'କ' ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟ ମଧ୍ୟରେ କେଉଁଟି ଅନ୍ତର୍ଭୁକ୍ତ ଥିଲା?",
+"options": [
+"ମାଡ୍ରାସ",
+"ହାଇଦ୍ରାବାଦ",
+"ଭୋପାଳ",
+"ଆଣ୍ଡାମାନ"
+],
+"answer": "ମାଡ୍ରାସ",
+"explanation": "‘କ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟଗୁଡ଼ିକ ହେଲା ଆସାମ, ବିହାର, ବମ୍ବେ, ମଧ୍ୟପ୍ରଦେଶ, ମାଡ୍ରାସ, ଓଡ଼ିଶା, ପଞ୍ଜାବ, ସଂଯୁକ୍ତ ପ୍ରଦେଶ ଓ ପଶ୍ଚିମବଙ୍ଗ."
+},
+{
+"questionEnglish": "What happens if a state legislature opposes a bill regarding its boundary alteration?",
+"questionOdia": "କୌଣସି ରାଜ୍ୟର ସୀମା ପରିବର୍ତ୍ତନ ପାଇଁ ରାଜ୍ୟ ବିଧାନମଣ୍ଡଳ ବିରୋଧ କଲେ ରାଷ୍ଟ୍ରପତି କ’ଣ କରିପାରିବେ?",
+"options": [
+"ସଂସଦକୁ ଆଗତ କରିପାରିବେ ନାହିଁ",
+"ରାଷ୍ଟ୍ରପତି ମାନିବାକୁ ବାଧ୍ୟ ନୁହନ୍ତି",
+"ସୁପ୍ରିମକୋର୍ଟକୁ ପଠାଇବେ",
+"ଆଇନ ବାତିଲ କରିବେ"
+],
+"answer": "ରାଷ୍ଟ୍ରପତି ମାନିବାକୁ ବାଧ୍ୟ ନୁହନ୍ତି",
+"explanation": "ରାଜ୍ୟ ବିଧାନମଣ୍ଡଳର ମତାମତ ଗ୍ରହଣ କରିବା ପାଇଁ ରାଷ୍ଟ୍ରପତି ବାଧ୍ଯ ନୁହନ୍ତି."
+},
+{
+"questionEnglish": "When was the Union Territory of Jammu and Kashmir created after bifurcation?",
+"questionOdia": "ଜାମ୍ମୁ ଓ କାଶ୍ମୀରକୁ ବିଭାଜନ କରି କେଉଁ ମସିହାରେ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ କରାଗଲା?",
+"options": [
+"୨୦୧୮",
+"୨୦୧୯",
+"୨୦୨୦",
+"୨୦୨୧"
+],
+"answer": "୨୦୧୯",
+"explanation": "୨୦୧୯ ମସିହାରେ ଜାମ୍ମୁ ଓ କାଶ୍ମୀରକୁ ବିଭାଜନ କରି ଦୁଇଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ ଗଠନ କରାଗଲା."
+},
+{
+"questionEnglish": "Who was the chair of the committee that suggested the reorganization of states after 1948?",
+"questionOdia": "୧୯୫୬ ମସିହାରେ ଗଠିତ 'ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆୟୋଗ'ର ଅଧ୍ୟକ୍ଷ କିଏ ଥିଲେ?",
+"options": [
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ଫଜଲ ଅଲ୍ଲୀ",
+"ହୃଦୟନାଥ କୁଞ୍ଜରୁ",
+"କେ. ଏମ. ପାନିକର"
+],
+"answer": "ଫଜଲ ଅଲ୍ଲୀ",
+"explanation": "ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆୟୋଗରେ ନ୍ୟାୟମୂର୍ତ୍ତି ଫଜଲ ଅଲ୍ଲୀ ଅଧ୍ୟକ୍ଷ ଥିଲେ."
+},
+{
+"questionEnglish": "Which state was the first to be recognized as an 'Associate State'?",
+"questionOdia": "କେଉଁ ରାଜ୍ୟ ପ୍ରଥମେ 'ସହଯୋଗୀ ରାଜ୍ୟ' ବା 'ସଂଲଗ୍ନ ରାଜ୍ୟ' ଭାବରେ ମାନ୍ୟତା ପାଇଥିଲା?",
+"options": [
+"ସିକିମ",
+"ମଣିପୁର",
+"ତ୍ରିପୁରା",
+"ମେଘାଳୟ"
+],
+"answer": "ସିକିମ",
+"explanation": "ସିକିମ ୧୯୭୪ ମସିହାରେ ପ୍ରଥମେ ଏକ ‘ସଂଲଗ୍ନରାଜ୍ୟ’ର ମାନ୍ୟତା ପାଇଲା."
+},
+{
+"questionEnglish": "Which state is known as 'United Provinces' in pre-independence times?",
+"questionOdia": "ସ୍ୱାଧୀନତା ପୂର୍ବର କେଉଁ 'କ' ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟଟି ସଂଯୁକ୍ତ ପ୍ରଦେଶ ନାମରେ ପରିଚିତ ଥିଲା?",
+"options": [
+"ଉତ୍ତରପ୍ରଦେଶ",
+"ବିହାର",
+"ମଧ୍ୟପ୍ରଦେଶ",
+"ଓଡ଼ିଶା"
+],
+"answer": "ଉତ୍ତରପ୍ରଦେଶ",
+"explanation": "‘କ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟଗୁଡ଼ିକ ହେଲା ଆସାମ, ବିହାର, ବମ୍ବେ, ମଧ୍ୟପ୍ରଦେଶ, ମାଡ୍ରାସ, ଓଡ଼ିଶା, ପଞ୍ଜାବ, ସଂଯୁକ୍ତ ପ୍ରଦେଶ ଓ ପଶ୍ଚିମବଙ୍ଗ."
+},
+{
+"questionEnglish": "Which Union Territory has a separate High Court or Legislative assembly setup?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳରେ ସ୍ଵତନ୍ତ୍ର ବିଧାନସଭା ବ୍ୟବସ୍ଥା ଅଛି?",
+"options": [
+"ପଣ୍ଡିଚେରୀ (ପୁଦୁଚେରୀ)",
+"ଲାକ୍ଷାଦ୍ଵୀପ",
+"ଡାମନ ଓ ଡିଉ",
+"ଚଣ୍ଡିଗଡ଼"
+],
+"answer": "ପଣ୍ଡିଚେରୀ (ପୁଦୁଚେରୀ)",
+"explanation": "ପଣ୍ଡିଚେରୀ ଗୋଟିଏ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ହେଲେ ମଧ୍ୟ ସେଠାରେ ଏକ ବିଧାନସଭା ଓ ମନ୍ତ୍ରୀପରିଷଦର ବ୍ୟବସ୍ଥା ରଖାଯାଇଛି."
+},
+{
+"questionEnglish": "How many Union Territories were created after the 1956 act?",
+"questionOdia": "୧୯୫୬ ମସିହାର ରାଜ୍ୟ ପୁନର୍ଗଠନ ପରେ ଭାରତରେ କେତୋଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ ଥିଲା?",
+"options": [
+"୪ଟି",
+"୫ଟି",
+"୬ଟି",
+"୭ଟି"
+],
+"answer": "୬ଟି",
+"explanation": "୧୯୫୬ ମସିହାରେ ଛଅଗୋଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ଗଠନ କରାଗଲା."
+},
+{
+"questionEnglish": "Who appoints the Chief Commissioner of 'D' category states (as per 1950)?",
+"questionOdia": "୧୯୫୦ ମସିହାରେ 'ଘ' ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟର ଶାସନମୁଖ୍ୟ (ଚିଫ୍ କମିଶନର)ଙ୍କୁ କିଏ ନିଯୁକ୍ତ କରୁଥିଲେ?",
+"options": [
+"ରାଜ୍ୟପାଳ",
+"ରାଷ୍ଟ୍ରପତି",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ସଂସଦ"
+],
+"answer": "ରାଷ୍ଟ୍ରପତି",
+"explanation": "‘ଘ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟର ଶାସନମୁଖ୍ୟ ଚିଫ୍ କମିଶନର ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ବାରା ନିଯୁକ୍ତ ହେଉଥିଲେ."
+},
+{
+"questionEnglish": "Which state's legislature passed a resolution for joining India?",
+"questionOdia": "କେଉଁ ରାଜ୍ୟର ବିଧାନସଭାରେ ପ୍ରସ୍ତାବ ଗୃହୀତ ହେବା ପରେ ଭାରତରେ ମିଶିଥିଲା?",
+"options": [
+"ସିକିମ",
+"ଗୋଆ",
+"ମଣିପୁର",
+"ତ୍ରିପୁରା"
+],
+"answer": "ସିକିମ",
+"explanation": "ସିକିମ୍‌ର ବିଧାନସଭାରେ ତତ୍ ସମ୍ପର୍କିତ ପ୍ରସ୍ତାବ ଗୃହୀତ ହେଲା ଓ ପରେ ଗଣଭୋଟ ମାଧ୍ଯମ ରେ ଭାରତରେ ମିଶିବା ପାଇଁ ଆଗ୍ରହ ପ୍ରକାଶ କଲେ."
+},
+{
+"questionEnglish": "What was the main purpose of the States Reorganization Commission of 1956?",
+"questionOdia": "୧୯୫୬ ମସିହାର ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆୟୋଗର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ’ଣ ଥିଲା?",
+"options": [
+"କେବଳ ଆର୍ଥିକ ବିକାଶ",
+"ଭାଷାଭିତ୍ତିକ ସାଂସ୍କୃତିକ ବିକାଶ",
+"ଜାତୀୟ ଐକ୍ୟ ଓ ସଂହତିର ସୁରକ୍ଷା",
+"ରାଜନୈତିକ ଦଳ ଗଠନ"
+],
+"answer": "ଜାତୀୟ ଐକ୍ୟ ଓ ସଂହତିର ସୁରକ୍ଷା",
+"explanation": "ଏହି ଆୟୋଗର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ ଥିଲା ଜାତୀୟ ଐକ୍ୟ ଓ ସଂହତିର ସୁରକ୍ଷା."
+},
+{
+"questionEnglish": "Which of these regions joined India as a Union Territory in 1961?",
+"questionOdia": "୧୯୬୧ ମସିହାରେ କେଉଁ ଅଞ୍ଚଳ ଭାରତରେ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ ଭାବେ ମିଶିଲା?",
+"options": [
+"ଦାଦ୍ରା ଓ ନଗର ହାବେଳୀ",
+"ଗୋଆ",
+"ପଣ୍ଡିଚେରୀ",
+"ମହୀଶୂର"
+],
+"answer": "ଦାଦ୍ରା ଓ ନଗର ହାବେଳୀ",
+"explanation": "୧୯୬୧ ମସିହାରେ ଦଶମ ସମ୍ବିଧାନ ସଂଶୋଧନ ଆଇନ ବଳରେ ଦାଦ୍ରା ଓ ନଗର ହାବେଳୀ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳର ମାନ୍ୟତା ପାଇଛି."
+},
+{
+"questionEnglish": "When was the Union Territory of Puducherry established?",
+"questionOdia": "ପଣ୍ଡିଚେରୀ କେଉଁ ମସିହାରେ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳର ମାନ୍ୟତା ପାଇଛି?",
+"options": [
+"୧୯୬୦",
+"୧୯୬୨",
+"୧୯୬୪",
+"୧୯୬୬"
+],
+"answer": "୧୯୬୨",
+"explanation": "୧୯୬୨ ମସିହା ଡିସେମ୍ବର ମାସରେ ଚତୁର୍ବିଂଶ ସମ୍ବିଧାନ ସଂଶୋଧନ ଆଇନ ଅନୁସାରେ ପଣ୍ଡିଚେରୀ ଏକ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳର ମାନ୍ୟତା ପାଇଛି."
+},
+{
+"questionEnglish": "Which committee was formed in May 1948 for Linguistic Provinces?",
+"questionOdia": "୧୯୪୮ ମସିହାରେ 'ଭାଷାଭିଭିକ ପ୍ରଦେଶ ଆୟୋଗ' ଗଠନ କରାଯାଇଥିଲା କି ନାହିଁ?",
+"options": [
+"ହଁ, ଗଠନ କରାଯାଇଥିଲା",
+"ନା, ଗଠନ କରାଯାଇନଥିଲା",
+"କେବଳ ମହୀଶୂର ପାଇଁ",
+"କେବଳ ଦିଲ୍ଲୀ ପାଇଁ"
+],
+"answer": "ହଁ, ଗଠନ କରାଯାଇଥିଲା",
+"explanation": "ସମ୍ବିଧାନ ପ୍ରଣୟନ ସଭାର ସୁପାରିସ କ୍ରମେ ମେ ୧୯୪୮ ମସିହାରେ “ଭାଷାଭିଭିକ ପ୍ରଦେଶ ଆୟୋଗ” ଗଠନ କରାଗଲା."
+},
+{
+"questionEnglish": "Which state was the first to be formed based on language?",
+"questionOdia": "ଭାଷାଭିତ୍ତିକ ଆଧାରରେ ଗଠିତ ପ୍ରଥମ ରାଜ୍ୟ କେଉଁଟି?",
+"options": [
+"ମହାରାଷ୍ଟ୍ର",
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"ଗୁଜୁରାଟ",
+"ନାଗାଲାଣ୍ଡ"
+],
+"answer": "ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"explanation": "୧୯୫୩ ମସିହାରେ ମାଡ୍ରାସର ତେଲୁଗୁ ଭାଷାଭାଷୀ ଅଞ୍ଚଳକୁ ନେଇ ନୂତନ ଆନ୍ଧ୍ରପ୍ରଦେଶ ଗଠିତ ହେଲା."
+},
+{
+"questionEnglish": "What was the status of Goa before 1987?",
+"questionOdia": "୧୯୮୭ ମସିହା ପୂର୍ବରୁ ଗୋଆର ପାହ୍ୟା କ’ଣ ଥିଲା?",
+"options": [
+"ସ୍ଵତନ୍ତ୍ର ରାଜ୍ୟ",
+"କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ",
+"ସଂଲଗ୍ନ ରାଜ୍ୟ",
+"ବ୍ରିଟିଶ ପ୍ରଦେଶ"
+],
+"answer": "କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ",
+"explanation": "୧୯୮୭ ମସିହା ପୂର୍ବରୁ ଗୋଆ ଏକ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ ଥିଲା."
+},
+{
+"questionEnglish": "How many Union Territories are there in India as of current data?",
+"questionOdia": "ବର୍ତ୍ତମାନ ଭାରତରେ କେତୋଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ ଅଛି?",
+"options": [
+"୭ଟି",
+"୮ଟି",
+"୯ଟି",
+"୬ଟି"
+],
+"answer": "୯ଟି",
+"explanation": "୧୯୮୭ ମସିହା ପରଠାରୁ ଅଦ୍ୟାବଧୂ ଭାରତରେ ନଅଗୋଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ରହିଛି."
+},
+{
+"questionEnglish": "Who was the first administrative head of 'C' category states?",
+"questionOdia": "'ଗ' ଶ୍ରେଣୀୟ ରାଜ୍ୟର ଶାସନମୁଖ୍ୟ କିଏ ଥିଲେ?",
+"options": [
+"ରାଜ୍ୟପାଳ",
+"ଉପରାଜ୍ୟପାଳ/ଚିଫ୍ କମିଶନର",
+"ରାଷ୍ଟ୍ରପତି",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ"
+],
+"answer": "ଉପରାଜ୍ୟପାଳ/ଚିଫ୍ କମିଶନର",
+"explanation": "ଜଣେ ଚିଫ୍ କମିଶନ୍‌ର କିମ୍ବା ଉପରାଜ୍ୟପାଳ (ଲେଫ୍‌ଟନାଣ୍ଟ ଗଭର୍ଣ୍ଣର) ରହିଲେ ‘ଗ’ ଶ୍ରେଣୀୟ ରାଜ୍ୟର ଶାସନମୁଖ୍ୟ."
+},
+{
+"questionEnglish": "Which state was the last to be formed among the provided options?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ରାଜ୍ୟଟି ସର୍ବଶେଷରେ ଗଠିତ ହୋଇଛି?",
+"options": [
+"ତେଲେଙ୍ଗାନା",
+"ଛତିଶଗଡ଼",
+"ଉତ୍ତରାଖଣ୍ଡ",
+"ଝାଡ଼ଖଣ୍ଡ"
+],
+"answer": "ତେଲେଙ୍ଗାନା",
+"explanation": "ଆନ୍ଧ୍ର ପ୍ରଦେଶ ପୁନର୍ଗଠନ ଆଇନ ୨୦୧୪ ଅନୁସାରେ ତେଲେଙ୍ଗାନା ରାଜ୍ୟ ଗଠିତ ହୋଇଛି."
+},
+{
+"questionEnglish": "Is there any special provision for administrative regions?",
+"questionOdia": "କୌଣସି ଅଧିକୃତ ଅଞ୍ଚଳର ପ୍ରଶାସନ ପାଇଁ ଆମ ସମ୍ବିଧାନରେ କ’ଣ ସ୍ଵତନ୍ତ୍ର ବ୍ୟବସ୍ଥା ଅଛି?",
+"options": [
+"ହଁ, ବ୍ୟବସ୍ଥା ଅଛି",
+"ନା, କୌଣସି ସ୍ଵତନ୍ତ୍ର ବ୍ୟବସ୍ଥା ନାହିଁ",
+"କେବଳ ଦିଲ୍ଲୀ ପାଇଁ ଅଛି",
+"କେବଳ ଗୋଆ ପାଇଁ ଅଛି"
+],
+"answer": "ନା, କୌଣସି ସ୍ଵତନ୍ତ୍ର ବ୍ୟବସ୍ଥା ନାହିଁ",
+"explanation": "କୌଣସି ଅଧୂକୃତ ଅଞ୍ଚଳର ପ୍ରଶାସନ ପାଇଁ ଆମ ସମ୍ବିଧାନରେ କୌଣସି ସ୍ଵତନ୍ତ୍ର ବ୍ୟବସ୍ଥା ନାହିଁ; କିନ୍ତୁ ସେହି ଅଞ୍ଚଳଗୁଡିକ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳର ପଦମର୍ଯ୍ୟାଦା ପାଇଛନ୍ତି."
+},
+{
+"questionEnglish": "Which article of the Constitution allows changes to state names?",
+"questionOdia": "ସମ୍ବିଧାନର କେଉଁ ଧାରା ଅନୁସାରେ ରାଜ୍ୟର ନାମ ପରିବର୍ତ୍ତନ କରାଯାଇପାରିବ?",
+"options": [
+"ଧାରା ୧",
+"ଧାରା ୨",
+"ଧାରା ୩",
+"ଧାରା ୪"
+],
+"answer": "ଧାରା ୩",
+"explanation": "ଧାରା ୩ ଅନୁସାରେ ସଂସଦ କୌଣସି ରାଜ୍ୟର ନାମ ପରିବର୍ତ୍ତନ କରିପାରିବ."
+},
+{
+"questionEnglish": "Who can establish new states according to the Constitution?",
+"questionOdia": "ଭାରତୀୟ ସମ୍ବିଧାନ ଅନୁସାରେ ନୂତନ ରାଜ୍ୟ ଗଠନ କରିବାର କ୍ଷମତା କାହା ପାଖରେ ଅଛି?",
+"options": [
+"ରାଷ୍ଟ୍ରପତି",
+"ସଂସଦ",
+"ସୁପ୍ରିମକୋର୍ଟ",
+"ରାଜ୍ୟପାଳ"
+],
+"answer": "ସଂସଦ",
+"explanation": "ସଂସଦ ଆଇନ ପ୍ରଣୟନ କରି ଭାରତର ସଂଘୀୟ ବ୍ୟବସ୍ଥାରେ ନୂତନ ରାଜ୍ୟ ସାମିଲ କରିପାରିବ."
+},
+{
+"questionEnglish": "Which city is known as the capital of Assam?",
+"questionOdia": "ଆସାମର ରାଜଧାନୀ କେଉଁଟି?",
+"options": [
+"ଶିଲଂ",
+"ଦିସପୁର",
+"କୋହିମା",
+"ଇମ୍ଫାଲ"
+],
+"answer": "ଦିସପୁର",
+"explanation": "ଆସାମର ରାଜଧାନୀ ହେଉଛି ଦିସପୁର."
+},
+{
+"questionEnglish": "When was the Union Territory of Chandigarh created?",
+"questionOdia": "ଚଣ୍ଡିଗଡ଼ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ କେବେ ଜନ୍ମ ନେଇଥିଲା?",
+"options": [
+"୧୯୬୦",
+"୧୯୬୨",
+"୧୯୬୬",
+"୧୯୭୦"
+],
+"answer": "୧୯୬୬",
+"explanation": "୧୯୬୬ ମସିହାର ପଞ୍ଜାବ ପୁନର୍ଗଠନ ଆଇନ ବଳରେ ଚଣ୍ଡିଗଡ଼ ନଭେମ୍ବର ମାସ ୧ ତାରିଖରୁ ଜନ୍ମ ନେଇଅଛି."
+},
+{
+"questionEnglish": "In which state is the capital city of Patna?",
+"questionOdia": "ପାଟନା କେଉଁ ରାଜ୍ୟର ରାଜଧାନୀ?",
+"options": [
+"ଉତ୍ତରପ୍ରଦେଶ",
+"ବିହାର",
+"ପଶ୍ଚିମବଙ୍ଗ",
+"ଝାଡ଼ଖଣ୍ଡ"
+],
+"answer": "ବିହାର",
+"explanation": "ବିହାରର ରାଜଧାନୀ ପାଟନା."
+},
+{
+"questionEnglish": "Who was one of the members of the States Reorganization Commission?",
+"questionOdia": "ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆୟୋଗର ସଦସ୍ୟଙ୍କ ମଧ୍ୟରୁ କିଏ ଅନ୍ୟତମ ଥିଲେ?",
+"options": [
+"ସର୍ଦ୍ଦାର ପଟେଲ",
+"କେ. ଏମ. ପାନିକର",
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ରାଜେନ୍ଦ୍ର ପ୍ରସାଦ"
+],
+"answer": "କେ. ଏମ. ପାନିକର",
+"explanation": "ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆୟୋଗର ସଦସ୍ୟ ଥିଲେ କେ. ଏମ. ପାନିକର."
+},
+{
+"questionEnglish": "Which state was the capital 'Bhubaneswar' located in?",
+"questionOdia": "ଭୁବନେଶ୍ୱର କେଉଁ ରାଜ୍ୟର ରାଜଧାନୀ?",
+"options": [
+"ପଶ୍ଚିମବଙ୍ଗ",
+"ଓଡ଼ିଶା",
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"ବିହାର"
+],
+"answer": "ଓଡ଼ିଶା",
+"explanation": "ଭୁବନେଶ୍ୱର ଓଡ଼ିଶାର ରାଜଧାନୀ."
+},
+{
+"questionEnglish": "Which city is the capital of Tamil Nadu?",
+"questionOdia": "ତାମିଲନାଡୁର ରାଜଧାନୀ କେଉଁଟି?",
+"options": [
+"ବେଙ୍ଗାଲୁରୁ",
+"ହାଇଦ୍ରାବାଦ",
+"ଚେନ୍ନାଇ",
+"ଥିରୁବନନ୍ତପୁରମ"
+],
+"answer": "ଚେନ୍ନାଇ",
+"explanation": "ତାମିଲନାଡୁର ରାଜଧାନୀ ଚେନ୍ନାଇ."
+},
+{
+"questionEnglish": "What are the states list categorized as per 1950 constitution?",
+"questionOdia": "୧୯୫୦ ମସିହାରେ ରାଜ୍ୟଗୁଡ଼ିକୁ କେଉଁ ଶ୍ରେଣୀରେ ବିଭକ୍ତ କରାଯାଇଥିଲା?",
+"options": [
+"କ, ଖ, ଗ, ଘ",
+"କ, ଖ, ଗ",
+"୧, ୨, ୩",
+"ଅ, ଆ, ଇ"
+],
+"answer": "କ, ଖ, ଗ, ଘ",
+"explanation": "ଭାରତରେ ଥିବା ପ୍ରାକ୍ତନ ବ୍ରିଟିଶ ଶାସନାଧୀନ ପ୍ରଦେଶ ସମେତ ଅନ୍ୟ ସମସ୍ତ ଅଞ୍ଚଳକୁ ‘କ’, ‘ଖ’, ‘ଗ’ ଏବଂ ‘ଘ’ ରାଜ୍ୟ ଭାବରେ ଶ୍ରେଣୀଭୁକ୍ତ କରାଯାଇଥିଲା."
+},
+{
+"questionEnglish": "Who is the head of state of Delhi?",
+"questionOdia": "ଦିଲ୍ଲୀର ଶାସନ ମୁଖ୍ୟ କିଏ?",
+"options": [
+"ମୁଖ୍ୟମନ୍ତ୍ରୀ",
+"ଉପରାଜ୍ୟପାଳ",
+"ରାଜ୍ୟପାଳ",
+"ରାଷ୍ଟ୍ରପତି"
+],
+"answer": "ଉପରାଜ୍ୟପାଳ",
+"explanation": "ଦିଲ୍ଲୀର ଶାସନମୁଖ୍ୟ ହେଉଛନ୍ତି ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ବାରା ନିଯୁକ୍ତ ଜଣେ ଉପରାଜ୍ୟପାଳ."
+},
+{
+"questionEnglish": "Which state has Hyderabad as its capital?",
+"questionOdia": "ହାଇଦ୍ରାବାଦ କେଉଁ ରାଜ୍ୟର ରାଜଧାନୀ?",
+"options": [
+"ତେଲେଙ୍ଗାନା",
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"କର୍ଣ୍ଣାଟକ",
+"ମହାରାଷ୍ଟ୍ର"
+],
+"answer": "ତେଲେଙ୍ଗାନା",
+"explanation": "ତେଲେଙ୍ଗାନା ରାଜ୍ୟର ରାଜଧାନୀ ହାଇଦ୍ରାବାଦ."
+},
+{
+"questionEnglish": "Is there any legislative assembly in Pondicherry (Puducherry)?",
+"questionOdia": "ପଣ୍ଡିଚେରୀ (ପୁଦୁଚେରୀ)ରେ ବିଧାନସଭା ଅଛି କି?",
+"options": [
+"ହଁ, ଅଛି",
+"ନା, ନାହିଁ",
+"କେବଳ ପରାମର୍ଶଦାତା ସଭା ଅଛି",
+"ନାହିଁ, କେବଳ ରାଷ୍ଟ୍ରପତି ଶାସନ ଅଛି"
+],
+"answer": "ହଁ, ଅଛି",
+"explanation": "ପଣ୍ଡିଚେରୀରେ ଏକ ବିଧାନସଭା ଓ ମନ୍ତ୍ରୀପରିଷଦର ବ୍ୟବସ୍ଥା ରଖାଯାଇଛି."
+},
+{
+"questionEnglish": "Which of these is a Union Territory?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ?",
+"options": [
+"ଓଡ଼ିଶା",
+"ଲାକ୍ଷାଦ୍ଵୀପ",
+"କର୍ଣ୍ଣାଟକ",
+"ପଞ୍ଜାବ"
+],
+"answer": "ଲାକ୍ଷାଦ୍ଵୀପ",
+"explanation": "ଲାକ୍ଷାଦ୍ଵୀପ ଏକ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ."
+},
+{
+"questionEnglish": "Which of these is a State?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ରାଜ୍ୟ?",
+"options": [
+"ଚଣ୍ଡିଗଡ଼",
+"ଲଦାଖ୍",
+"ରାଜସ୍ଥାନ",
+"ପଣ୍ଡିଚେରୀ"
+],
+"answer": "ରାଜସ୍ଥାନ",
+"explanation": "ରାଜସ୍ଥାନ ଏକ ଭାରତୀୟ ରାଜ୍ୟ."
+},
+{
+"questionEnglish": "Who is the appointing authority of the Lieutenant Governor of Puducherry?",
+"questionOdia": "ପଣ୍ଡିଚେରୀର ଉପରାଜ୍ୟପାଳଙ୍କୁ କିଏ ନିଯୁକ୍ତ କରନ୍ତି?",
+"options": [
+"ରାଷ୍ଟ୍ରପତି",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ସଂସଦ",
+"ମୁଖ୍ୟମନ୍ତ୍ରୀ"
+],
+"answer": "ରାଷ୍ଟ୍ରପତି",
+"explanation": "ଏଠାରେ ଶାସନ ମୁଖ୍ୟ ହେଉଛନ୍ତି ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ବାରା ନିଯୁକ୍ତ ଜଣେ ଉପରାଜ୍ୟପାଳ."
+},
+{
+"questionEnglish": "In which year did the 370-article status of Jammu and Kashmir end?",
+"questionOdia": "ଜାମ୍ମୁ ଓ କାଶ୍ମୀରର ୩୭୦ ଧାରା ସ୍ଥିତି କେଉଁ ବର୍ଷ ସମାପ୍ତି ହୋଇଛି?",
+"options": [
+"୨୦୧୪",
+"୨୦୧୮",
+"୨୦୧୯",
+"୨୦୨୦"
+],
+"answer": "୨୦୧୯",
+"explanation": "୨୦୧୯ ମସିହାରେ ପାର୍ଲିଆମେଣ୍ଟରେ ୩୭୦ ଧାରାର ଉଚ୍ଛେଦ ଗୃହୀତ ହୋଇଛି."
+},
+{
+"questionEnglish": "Which city is the capital of Odisha?",
+"questionOdia": "ଓଡ଼ିଶାର ରାଜଧାନୀ କେଉଁଟି?",
+"options": [
+"କଟକ",
+"ଭୁବନେଶ୍ୱର",
+"ପୁରୀ",
+"ରାଉରକେଲା"
+],
+"answer": "ଭୁବନେଶ୍ୱର",
+"explanation": "ଓଡ଼ିଶାର ରାଜଧାନୀ ଭୁବନେଶ୍ୱର."
+},
+{
+"questionEnglish": "Which state's capital is Gandhinagar?",
+"questionOdia": "ଗାନ୍ଧୀନଗର କେଉଁ ରାଜ୍ୟର ରାଜଧାନୀ?",
+"options": [
+"ମହାରାଷ୍ଟ୍ର",
+"ଗୁଜୁରାଟ",
+"ରାଜସ୍ଥାନ",
+"ପଞ୍ଜାବ"
+],
+"answer": "ଗୁଜୁରାଟ",
+"explanation": "ଗୁଜୁରାଟର ରାଜଧାନୀ ଗାନ୍ଧୀନଗର."
+},
+{
+"questionEnglish": "Who was the first administrative head of 'D' category states (as per 1950)?",
+"questionOdia": "'ଘ' ଶ୍ରେଣୀୟ ରାଜ୍ୟର ଶାସନମୁଖ୍ୟ କିଏ ଥିଲେ?",
+"options": [
+"ରାଜ୍ୟପାଳ",
+"ଚିଫ୍ କମିଶନର",
+"ଉପରାଜ୍ୟପାଳ",
+"ରାଷ୍ଟ୍ରପତି"
+],
+"answer": "ଚିଫ୍ କମିଶନର",
+"explanation": "‘ଘ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟର ଶାସନମୁଖ୍ୟ ଚିଫ୍ କମିଶନର ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ବାରା ନିଯୁକ୍ତ ହେଉଥିଲେ."
+},
+{
+"questionEnglish": "What was the administrative head of 'A' category states called?",
+"questionOdia": "'କ' ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟର ଶାସନମୁଖ୍ୟଙ୍କୁ କ'ଣ କୁହାଯାଉଥିଲା?",
+"options": [
+"ରାଜ୍ୟପାଳ",
+"ରାଜ୍ୟପ୍ରମୁଖ",
+"ଚିଫ୍ କମିଶନର",
+"ଉପରାଜ୍ୟପାଳ"
+],
+"answer": "ରାଜ୍ୟପାଳ",
+"explanation": "‘କ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟର ଶାସନ ମୁଖ୍ୟ ରହିଲେ ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ୱାରା ନିଯୁକ୍ତ ଜଣେ ‘ରାଜ୍ୟପାଳ’."
+},
+{
+"questionEnglish": "Is there a special provision for Puducherry regarding its administration?",
+"questionOdia": "ପଣ୍ଡିଚେରୀ ପ୍ରଶାସନ ପାଇଁ କ’ଣ ସ୍ଵତନ୍ତ୍ର ବ୍ୟବସ୍ଥା ଅଛି?",
+"options": [
+"ହଁ, ବିଧାନସଭା ଓ ମନ୍ତ୍ରୀପରିଷଦ",
+"ନା, କେବଳ ରାଷ୍ଟ୍ରପତି ଶାସନ",
+"କେବଳ ଜିଲ୍ଲାପାଳ ଶାସନ",
+"କୌଣସି ବ୍ୟବସ୍ଥା ନାହିଁ"
+],
+"answer": "ହଁ, ବିଧାନସଭା ଓ ମନ୍ତ୍ରୀପରିଷଦ",
+"explanation": "ପଣ୍ଡିଚେରୀ ଗୋଟିଏ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ହେଲେ ମଧ୍ୟ ସେଠାରେ ଏକ ବିଧାନସଭା ଓ ମନ୍ତ୍ରୀପରିଷଦର ବ୍ୟବସ୍ଥା ରଖାଯାଇଛି."
+},
+{
+"questionEnglish": "How many states were present in India according to the 1956 act?",
+"questionOdia": "୧୯୫୬ ମସିହାର ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆଇନ ଅନୁସାରେ ଭାରତରେ କେତୋଟି ରାଜ୍ୟ ଥିଲା?",
+"options": [
+"୧୨ଟି",
+"୧୪ଟି",
+"୧୬ଟି",
+"୧୮ଟି"
+],
+"answer": "୧୪ଟି",
+"explanation": "୧୯୫୬ ମସିହାର ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆଇନ ଜରିଆରେ ନୂତନ ଭାବରେ ଚଉଦଗୋଟି ରାଜ୍ୟ ଗଠନ କରାଗଲା."
+},
+{
+"questionEnglish": "Which state has Bhopal as its capital?",
+"questionOdia": "ଭୋପାଳ କେଉଁ ରାଜ୍ୟର ରାଜଧାନୀ?",
+"options": [
+"ମଧ୍ୟପ୍ରଦେଶ",
+"ଉତ୍ତରପ୍ରଦେଶ",
+"ମହାରାଷ୍ଟ୍ର",
+"ରାଜସ୍ଥାନ"
+],
+"answer": "ମଧ୍ୟପ୍ରଦେଶ",
+"explanation": "ମଧ୍ୟପ୍ରଦେଶର ରାଜଧାନୀ ଭୋପାଳ."
+},
+{
+"questionEnglish": "Is there a legislative assembly in Delhi?",
+"questionOdia": "ଦିଲ୍ଲୀରେ ବିଧାନସଭା ଅଛି କି?",
+"options": [
+"ହଁ, ଅଛି",
+"ନା, ନାହିଁ",
+"କେବଳ ପରାମର୍ଶଦାତା ସଭା ଅଛି",
+"କେବଳ ପୌରସଂସ୍ଥା ଅଛି"
+],
+"answer": "ହଁ, ଅଛି",
+"explanation": "୧୯୯୩ ମସିହା ପରଠାରୁ ଦିଲ୍ଲୀ ପାଇଁ ଗୋଟିଏ ବିଧାନସଭା ଓ ଗୋଟିଏ ମନ୍ତ୍ରୀପରିଷଦର ବ୍ୟବସ୍ଥା କରାଯାଇଛି."
+},
+{
+"questionEnglish": "Which state was separated from Andhra Pradesh in 2014?",
+"questionOdia": "୨୦୧୪ ମସିହାରେ ଆନ୍ଧ୍ରପ୍ରଦେଶରୁ କେଉଁ ରାଜ୍ୟ ଅଲଗା ହୋଇ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"ଝାଡ଼ଖଣ୍ଡ",
+"ତେଲେଙ୍ଗାନା",
+"ଛତିଶଗଡ଼",
+"ଉତ୍ତରାଖଣ୍ଡ"
+],
+"answer": "ତେଲେଙ୍ଗାନା",
+"explanation": "ଆନ୍ଧ୍ର ପ୍ରଦେଶ ପୁନର୍ଗଠନ ଆଇନ ୨୦୧୪ ଅନୁସାରେ ଆନ୍ଧ୍ରପ୍ରଦେଶକୁ ବିଭାଜିତ କରି ତେଲେଙ୍ଗାନା ରାଜ୍ୟ ଗଠିତ ହୋଇଛି."
+},
+{
+"questionEnglish": "Who was the administrative head of 'C' category states in 1950?",
+"questionOdia": "୧୯୫୦ ମସିହାରେ 'ଗ' ଶ୍ରେଣୀୟ ରାଜ୍ୟର ଶାସନମୁଖ୍ୟ କିଏ ଥିଲେ?",
+"options": [
+"ରାଜ୍ୟପାଳ",
+"ରାଜ୍ୟପ୍ରମୁଖ",
+"ଚିଫ୍ କମିଶନର / ଉପରାଜ୍ୟପାଳ",
+"ରାଷ୍ଟ୍ରପତି"
+],
+"answer": "ଚିଫ୍ କମିଶନର / ଉପରାଜ୍ୟପାଳ",
+"explanation": "ଜଣେ ଚିଫ୍ କମିଶନ୍‌ର କିମ୍ବା ଉପରାଜ୍ୟପାଳ ରହିଲେ ‘ଗ’ ଶ୍ରେଣୀୟ ରାଜ୍ୟର ଶାସନମୁଖ୍ୟ."
+},
+{
+"questionEnglish": "Which state has Raipur as its capital?",
+"questionOdia": "ରାୟପୁର କେଉଁ ରାଜ୍ୟର ରାଜଧାନୀ?",
+"options": [
+"ଝାଡ଼ଖଣ୍ଡ",
+"ଛତିଶଗଡ଼",
+"ମଧ୍ୟପ୍ରଦେଶ",
+"ଓଡ଼ିଶା"
+],
+"answer": "ଛତିଶଗଡ଼",
+"explanation": "ଛତିଶଗଡ଼ର ରାଜଧାନୀ ରାୟପୁର."
+},
+{
+"questionEnglish": "When was the 35th and 36th amendment act passed for Sikkim?",
+"questionOdia": "ସିକିମ ପାଇଁ କେଉଁ ସମ୍ବିଧାନ ସଂଶୋଧନ ଆଇନ ଗୃହୀତ ହୋଇଥିଲା?",
+"options": [
+"୩୦ତମ ଓ ୩୨ତମ",
+"୩୫ତମ ଓ ୩୬ତମ",
+"୪୦ତମ ଓ ୪୨ତମ",
+"୪୫ତମ ଓ ୪୬ତମ"
+],
+"answer": "୩୫ତମ ଓ ୩୬ତମ",
+"explanation": "ସମ୍ବିଧାନର ୩୫ ତମ ଓ ୩୬ତମ ସଂଶୋଧନ ଆଇନ ବଳରେ ସିକିମ ରାଜ୍ୟର ମାନ୍ୟତା ପାଇଲା."
+},
+{
+"questionEnglish": "Which state was the capital 'Lucknow' in?",
+"questionOdia": "ଲକ୍ଷ୍ନୌ କେଉଁ ରାଜ୍ୟର ରାଜଧାନୀ?",
+"options": [
+"ଉତ୍ତରପ୍ରଦେଶ",
+"ବିହାର",
+"ପଶ୍ଚିମବଙ୍ଗ",
+"ମଧ୍ୟପ୍ରଦେଶ"
+],
+"answer": "ଉତ୍ତରପ୍ରଦେଶ",
+"explanation": "ଉତ୍ତରପ୍ରଦେଶର ରାଜଧାନୀ ଲକ୍ଷ୍ନୌ."
+},
+{
+"questionEnglish": "What is the capital of Karnataka?",
+"questionOdia": "କର୍ଣ୍ଣାଟକର ରାଜଧାନୀ କେଉଁଟି?",
+"options": [
+"ବେଙ୍ଗାଲୁରୁ",
+"ଚେନ୍ନାଇ",
+"ହାଇଦ୍ରାବାଦ",
+"ପଣଜୀ"
+],
+"answer": "ବେଙ୍ଗାଲୁରୁ",
+"explanation": "କର୍ଣ୍ଣାଟକର ରାଜଧାନୀ ବେଙ୍ଗାଲୁରୁ."
+},
+{
+"questionEnglish": "Which of these states was part of 'A' category in 1950?",
+"questionOdia": "୧୯୫୦ ମସିହାରେ 'କ' ଶ୍ରେଣୀୟ ରାଜ୍ୟ ମଧ୍ୟରେ କେଉଁଟି ଥିଲା?",
+"options": [
+"ବିହାର",
+"ଭୋପାଳ",
+"ହାଇଦ୍ରାବାଦ",
+"ଆଣ୍ଡାମାନ"
+],
+"answer": "ବିହାର",
+"explanation": "ବିହାର ‘କ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟ ଥିଲା."
+},
+{
+"questionEnglish": "When was the capital 'Patna' part of which state?",
+"questionOdia": "ପାଟନା କେଉଁ ରାଜ୍ୟର ରାଜଧାନୀ ଭାବେ ରହିଛି?",
+"options": [
+"ବିହାର",
+"ଓଡ଼ିଶା",
+"ଉତ୍ତରପ୍ରଦେଶ",
+"ପଶ୍ଚିମବଙ୍ଗ"
+],
+"answer": "ବିହାର",
+"explanation": "ପାଟନା ବିହାରର ରାଜଧାନୀ."
+},
+{
+"questionEnglish": "Which state has Dispur as its capital?",
+"questionOdia": "ଦିସପୁର କେଉଁ ରାଜ୍ୟର ରାଜଧାନୀ?",
+"options": [
+"ମଣିପୁର",
+"ଆସାମ",
+"ତ୍ରିପୁରା",
+"ମେଘାଳୟ"
+],
+"answer": "ଆସାମ",
+"explanation": "ଆସାମର ରାଜଧାନୀ ଦିସପୁର."
+},
+{
+"questionEnglish": "Which region was formed into two Union Territories in 2019?",
+"questionOdia": "୨୦୧୯ ମସିହାରେ କେଉଁ ଅଞ୍ଚଳକୁ ବିଭାଜନ କରି ଦୁଇଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ ଗଠନ କରାଗଲା?",
+"options": [
+"ପଞ୍ଜାବ",
+"ଜାମ୍ମୁ ଓ କାଶ୍ମୀର",
+"ଉତ୍ତରପ୍ରଦେଶ",
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ"
+],
+"answer": "ଜାମ୍ମୁ ଓ କାଶ୍ମୀର",
+"explanation": "ଜାମ୍ମୁ ଓ କାଶ୍ମୀରକୁ ବିଭାଜନ କରି (୧) ଜାମ୍ମୁ ଓ କାଶ୍ମୀର ଓ (୨) ଲଦାଖ ନାମକ ଦୁଇଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ ଗଠନ କରାଗଲା."
+},
+{
+"questionEnglish": "Who appoints the Chief Commissioner of 'D' category states?",
+"questionOdia": "'ଘ' ଶ୍ରେଣୀୟ ରାଜ୍ୟର ଶାସନମୁଖ୍ୟଙ୍କୁ କିଏ ନିଯୁକ୍ତ କରନ୍ତି?",
+"options": [
+"ରାଜ୍ୟପାଳ",
+"ରାଷ୍ଟ୍ରପତି",
+"ସଂସଦ",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ"
+],
+"answer": "ରାଷ୍ଟ୍ରପତି",
+"explanation": "‘ଘ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟର ଶାସନମୁଖ୍ୟ ଚିଫ୍ କମିଶନର ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ବାରା ନିଯୁକ୍ତ ହେଉଥିଲେ."
+},
+{
+"questionEnglish": "Which state is known as 'Andhra Pradesh'?",
+"questionOdia": "ଆନ୍ଧ୍ରପ୍ରଦେଶ କେଉଁ ବର୍ଷ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"୧୯୫୦",
+"୧୯୫୩",
+"୧୯୫୬",
+"୧୯୬୦"
+],
+"answer": "୧୯୫୩",
+"explanation": "୧୯୫୩ ମସିହାରେ ସରକାରଙ୍କ ନିଷ୍ପତ୍ତି ଅନୁସାରେ ନୂତନ ଆନ୍ଧ୍ରପ୍ରଦେଶ ଗଠିତ ହେଲା."
+},
+{
+"questionEnglish": "Who was the first administrative head of 'B' category states?",
+"questionOdia": "'ଖ' ଶ୍ରେଣୀୟ ରାଜ୍ୟର ଶାସନମୁଖ୍ୟଙ୍କୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ରାଜ୍ୟପାଳ",
+"ରାଜ୍ୟପ୍ରମୁଖ",
+"ଚିଫ୍ କମିଶନର",
+"ଉପରାଜ୍ୟପାଳ"
+],
+"answer": "ରାଜ୍ୟପ୍ରମୁଖ",
+"explanation": "‘ଖ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟମାନଙ୍କର ଶାସନମୁଖ୍ୟଙ୍କୁ କୁହାଗଲା ‘ରାଜ୍ୟପ୍ରମୁଖ’."
+},
+{
+"questionEnglish": "Which Union Territory is associated with the 1962 Pondicherry Act?",
+"questionOdia": "୧୯୬୨ ପଣ୍ଡିଚେରୀ (ପ୍ରଶାସନ) ଆଇନ କେଉଁ ଅଞ୍ଚଳ ପାଇଁ ଥିଲା?",
+"options": [
+"ପଣ୍ଡିଚେରୀ",
+"ଲାକ୍ଷାଦ୍ଵୀପ",
+"ଦାଦ୍ରା",
+"ଡାମନ"
+],
+"answer": "ପଣ୍ଡିଚେରୀ",
+"explanation": "୧୯୬୨ ମସିହାର ପଣ୍ଡିଚେରୀ (ପ୍ରଶାସନ) ଆଇନ ପଣ୍ଡିଚେରୀ ପାଇଁ ଥିଲା."
+},
+{
+"questionEnglish": "Which article deals with the renaming of states?",
+"questionOdia": "ସମ୍ବିଧାନର କେଉଁ ଧାରା ଅନୁସାରେ ରାଜ୍ୟର ନାମ ବଦଳାଯାଇପାରିବ?",
+"options": [
+"ଧାରା ୧",
+"ଧାରା ୨",
+"ଧାରା ୩",
+"ଧାରା ୪"
+],
+"answer": "ଧାରା ୩",
+"explanation": "ଧାରା ୩ ଅନୁସାରେ ସଂସଦ କୌଣସି ରାଜ୍ୟର ନାମ ପରିବର୍ତ୍ତନ କରିପାରିବ."
+},
+{
+"questionEnglish": "What was the capital of 'Andhra Pradesh'?",
+"questionOdia": "ଆନ୍ଧ୍ରପ୍ରଦେଶର ରାଜଧାନୀ କେଉଁଟି (ପ୍ରଦତ୍ତ ମ୍ୟାପ ଅନୁସାରେ)?",
+"options": [
+"ଅମରାବତୀ",
+"ହାଇଦ୍ରାବାଦ",
+"ବିଶାଖାପାଟଣା",
+"କର୍ଣ୍ଣୁଲ"
+],
+"answer": "ଅମରାବତୀ",
+"explanation": "ପ୍ରଦତ୍ତ ମ୍ୟାପ ଅନୁସାରେ ଅମରାବତୀ ଆନ୍ଧ୍ରପ୍ରଦେଶର ରାଜଧାନୀ."
+},
+{
+"questionEnglish": "Which state has a governor appointed by the president?",
+"questionOdia": "'କ' ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟର ଶାସନ ମୁଖ୍ୟ କିଏ ନିଯୁକ୍ତ କରନ୍ତି?",
+"options": [
+"ରାଷ୍ଟ୍ରପତି",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ସଂସଦ",
+"ଜନସାଧାରଣ"
+],
+"answer": "ରାଷ୍ଟ୍ରପତି",
+"explanation": "‘କ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟର ଶାସନ ମୁଖ୍ୟ ରହିଲେ ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ୱାରା ନିଯୁକ୍ତ ଜଣେ ‘ରାଜ୍ୟପାଳ’."
+},
+{
+"questionEnglish": "When was the Jharkhand state formed?",
+"questionOdia": "ଝାଡ଼ଖଣ୍ଡ ରାଜ୍ୟ କେଉଁ ମସିହାରେ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"୧୯୯୮",
+"୨୦୦୦",
+"୨୦୦୨",
+"୨୦୦୫"
+],
+"answer": "୨୦୦୦",
+"explanation": "ବିହାର ପୁନର୍ଗଠନ ଆଇନ-୨୦୦୦ ବଳରେ ଝାଡ଼ଖଣ୍ଡ ରାଜ୍ୟ ଗଠନ କରାଯାଇଛି."
+},
+{
+"questionEnglish": "Who was one of the members of the Language Commission?",
+"questionOdia": "ଭାଷାଭିତ୍ତିକ ଆୟୋଗର ସଦସ୍ୟଙ୍କ ମଧ୍ୟରୁ କିଏ ଜଣେ ଥିଲେ?",
+"options": [
+"ପଟ୍ଟାଭି ସୀତାରାମାୟା",
+"ଫଜଲ ଅଲ୍ଲୀ",
+"ହୃଦୟନାଥ କୁଞ୍ଜରୁ",
+"କେ. ଏମ. ପାନିକର"
+],
+"answer": "ପଟ୍ଟାଭି ସୀତାରାମାୟା",
+"explanation": "ଭାଷାଭିଭିକ ପ୍ରଦେଶ ଆୟୋଗରେ ପଣ୍ଡିତ ଜବାହରଲାଲ ନେହେରୁ, ସର୍ଦ୍ଦାର ବଲ୍ଲଭ ଭାଇ ପଟେଲ ଓ ପଟ୍ଟାଭି ସୀତାରାମାୟା ସଦସ୍ୟ ଥିଲେ."
+},
+{
+"questionEnglish": "Which of these is a Union Territory?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ?",
+"options": [
+"ମଣିପୁର",
+"ତ୍ରିପୁରା",
+"ଦାଦ୍ରା ଓ ନଗର ହାବେଳୀ",
+"ଆସାମ"
+],
+"answer": "ଦାଦ୍ରା ଓ ନଗର ହାବେଳୀ",
+"explanation": "ଦାଦ୍ରା ଓ ନଗର ହାବେଳୀ ଏକ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ."
+},
+{
+"questionEnglish": "Which region was formed into two Union Territories in 2019?",
+"questionOdia": "୨୦୧୯ ମସିହାରେ କେଉଁ ଅଞ୍ଚଳକୁ ବିଭାଜନ କରି ଦୁଇଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ ଗଠନ କରାଗଲା?",
+"options": [
+"ଜାମ୍ମୁ ଓ କାଶ୍ମୀର",
+"ଦିଲ୍ଲୀ",
+"ପଣ୍ଡିଚେରୀ",
+"ଚଣ୍ଡିଗଡ଼"
+],
+"answer": "ଜାମ୍ମୁ ଓ କାଶ୍ମୀର",
+"explanation": "ଜାମ୍ମୁ ଓ କାଶ୍ମୀରକୁ ବିଭାଜନ କରି ଜାମ୍ମୁ ଓ କାଶ୍ମୀର ଓ ଲଦାଖ ନାମକ ଦୁଇଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ ଗଠନ କରାଗଲା."
+},
+{
+"questionEnglish": "Who is the head of Delhi's administration?",
+"questionOdia": "ଦିଲ୍ଲୀର ପ୍ରଶାସନର ମୁଖ୍ୟ କିଏ?",
+"options": [
+"ଉପରାଜ୍ୟପାଳ",
+"ମୁଖ୍ୟମନ୍ତ୍ରୀ",
+"ରାଜ୍ୟପାଳ",
+"ରାଷ୍ଟ୍ରପତି"
+],
+"answer": "ଉପରାଜ୍ୟପାଳ",
+"explanation": "ଦିଲ୍ଲୀର ଶାସନମୁଖ୍ୟ ହେଉଛନ୍ତି ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ବାରା ନିଯୁକ୍ତ ଜଣେ ଉପରାଜ୍ୟପାଳ."
+},
+{
+"questionEnglish": "Is there a legislative assembly in Pondicherry?",
+"questionOdia": "ପଣ୍ଡିଚେରୀରେ ବିଧାନସଭା ଅଛି କି?",
+"options": [
+"ହଁ, ଅଛି",
+"ନା, ନାହିଁ",
+"କେବଳ ପରାମର୍ଶଦାତା ସଭା ଅଛି",
+"ନାହିଁ"
+],
+"answer": "ହଁ, ଅଛି",
+"explanation": "ପଣ୍ଡିଚେରୀ ଗୋଟିଏ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ହେଲେ ମଧ୍ୟ ସେଠାରେ ଏକ ବିଧାନସଭା ଓ ମନ୍ତ୍ରୀପରିଷଦର ବ୍ୟବସ୍ଥା ରଖାଯାଇଛି."
+},
+{
+"questionEnglish": "Which state has a capital named 'Amaravati'?",
+"questionOdia": "ଅମରାବତୀ କେଉଁ ରାଜ୍ୟର ରାଜଧାନୀ?",
+"options": [
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"ତେଲେଙ୍ଗାନା",
+"କର୍ଣ୍ଣାଟକ",
+"ତାମିଲନାଡୁ"
+],
+"answer": "ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"explanation": "ଅମରାବତୀ ଆନ୍ଧ୍ରପ୍ରଦେଶର ରାଜଧାନୀ."
+},
+{
+"questionEnglish": "How many states were present in 1950 after the constitution?",
+"questionOdia": "୧୯୫୦ ମସିହାରେ ସମ୍ବିଧାନ କାର୍ଯ୍ୟକାରୀ ହେବା ସମୟରେ କେତୋଟି ଶ୍ରେଣୀର ରାଜ୍ୟ ଥିଲା?",
+"options": [
+"୩",
+"୪",
+"୫",
+"୬"
+],
+"answer": "୪",
+"explanation": "କ, ଖ, ଗ, ଏବଂ ଘ - ଏହି ଚାରି ଶ୍ରେଣୀର ରାଜ୍ୟ ଥିଲା."
+},
+{
+"questionEnglish": "Who was the administrative head of 'D' category states (as per 1950)?",
+"questionOdia": "'ଘ' ଶ୍ରେଣୀୟ ରାଜ୍ୟର ଶାସନମୁଖ୍ୟଙ୍କୁ କିଏ ନିଯୁକ୍ତ କରନ୍ତି?",
+"options": [
+"ରାଷ୍ଟ୍ରପତି",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ରାଜ୍ୟପାଳ",
+"ସଂସଦ"
+],
+"answer": "ରାଷ୍ଟ୍ରପତି",
+"explanation": "‘ଘ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟର ଶାସନମୁଖ୍ୟ ଚିଫ୍ କମିଶନର ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ବାରା ନିଯୁକ୍ତ ହେଉଥିଲେ."
+},
+{
+"questionEnglish": "When was the 69th amendment act passed for Delhi?",
+"questionOdia": "ଦିଲ୍ଲୀ ପାଇଁ ୬୯ତମ ସମ୍ବିଧାନ ସଂଶୋଧନ ଆଇନ କେବେ ଗୃହୀତ ହୋଇଥିଲା?",
+"options": [
+"୧୯୯୦",
+"୧୯୯୧",
+"୧୯୯୨",
+"୧୯୯୩"
+],
+"answer": "୧୯୯୨",
+"explanation": "୧୯୯୨ ମସିହା ଫେବୃୟାରୀ ମାସ ୧ ତାରିଖ ଦିନ ୬୯ତମ ସମ୍ବିଧାନ ସଂଶୋଧନ ଆଇନ ବଳରେ ନୂତନ ବ୍ୟବସ୍ଥା ଯୋଗ କରାଯାଇଛି."
+},
+{
+"questionEnglish": "Which state was the capital 'Shillong'?",
+"questionOdia": "ଶିଲଂ କେଉଁ ରାଜ୍ୟର ରାଜଧାନୀ?",
+"options": [
+"ମେଘାଳୟ",
+"ମଣିପୁର",
+"ତ୍ରିପୁରା",
+"ଆସାମ"
+],
+"answer": "ମେଘାଳୟ",
+"explanation": "ଶିଲଂ ମେଘାଳୟର ରାଜଧାନୀ."
+},
+{
+"questionEnglish": "Which city is the capital of Manipur?",
+"questionOdia": "ମଣିପୁରର ରାଜଧାନୀ କେଉଁଟି?",
+"options": [
+"ଇମ୍ଫାଲ",
+"କୋହିମା",
+"ଆଇଜଲ",
+"ଶିଲଂ"
+],
+"answer": "ଇମ୍ଫାଲ",
+"explanation": "ମଣିପୁରର ରାଜଧାନୀ ଇମ୍ଫାଲ."
+},
+{
+"questionEnglish": "When was the Union Territory of Chandigarh created?",
+"questionOdia": "ଚଣ୍ଡିଗଡ଼ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ କେବେ ଗଠିତ ହେଲା?",
+"options": [
+"୧୯୬୦",
+"୧୯୬୨",
+"୧୯୬୬",
+"୧୯୭୦"
+],
+"answer": "୧୯୬୬",
+"explanation": "୧୯୬୬ ମସିହାର ପଞ୍ଜାବ ପୁନର୍ଗଠନ ଆଇନ ବଳରେ ଚଣ୍ଡିଗଡ଼ ନଭେମ୍ବର ମାସ ୧ ତାରିଖରୁ ଜନ୍ମ ନେଇଅଛି."
+},
+{
+"questionEnglish": "Which state is known as 'Andhra Pradesh'?",
+"questionOdia": "ଆନ୍ଧ୍ରପ୍ରଦେଶ କେଉଁ ମସିହାରେ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"୧୯୫୦",
+"୧୯୫୩",
+"୧୯୫୬",
+"୧୯୬୦"
+],
+"answer": "୧୯୫୩",
+"explanation": "୧୯୫୩ ମସିହାରେ ଆନ୍ଧ୍ରପ୍ରଦେଶ ଗଠିତ ହେଲା."
+},
+{
+"questionEnglish": "Who appoints the Lieutenant Governor of Puducherry?",
+"questionOdia": "ପଣ୍ଡିଚେରୀର ଉପରାଜ୍ୟପାଳଙ୍କୁ କିଏ ନିଯୁକ୍ତ କରନ୍ତି?",
+"options": [
+"ରାଷ୍ଟ୍ରପତି",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ସଂସଦ",
+"ରାଜ୍ୟପାଳ"
+],
+"answer": "ରାଷ୍ଟ୍ରପତି",
+"explanation": "ଏଠାରେ ଶାସନ ମୁଖ୍ୟ ହେଉଛନ୍ତି ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ବାରା ନିଯୁକ୍ତ ଜଣେ ଉପରାଜ୍ୟପାଳ."
+},
+{
+"questionEnglish": "Is there a legislative assembly in Delhi?",
+"questionOdia": "ଦିଲ୍ଲୀରେ ବିଧାନସଭା ଅଛି କି?",
+"options": [
+"ହଁ, ଅଛି",
+"ନା, ନାହିଁ",
+"କେବଳ ପରାମର୍ଶଦାତା ସଭା ଅଛି",
+"ନା"
+],
+"answer": "ହଁ, ଅଛି",
+"explanation": "ଦିଲ୍ଲୀ ପାଇଁ ଗୋଟିଏ ବିଧାନସଭା ଓ ଗୋଟିଏ ମନ୍ତ୍ରୀପରିଷଦର ବ୍ୟବସ୍ଥା କରାଯାଇଛି."
+},
+{
+"questionEnglish": "Which state was the capital 'Bhopal'?",
+"questionOdia": "ଭୋପାଳ କେଉଁ ରାଜ୍ୟର ରାଜଧାନୀ?",
+"options": [
+"ମଧ୍ୟପ୍ରଦେଶ",
+"ଉତ୍ତରପ୍ରଦେଶ",
+"ମହାରାଷ୍ଟ୍ର",
+"ରାଜସ୍ଥାନ"
+],
+"answer": "ମଧ୍ୟପ୍ରଦେଶ",
+"explanation": "ମଧ୍ୟପ୍ରଦେଶର ରାଜଧାନୀ ଭୋପାଳ."
+},
+{
+"questionEnglish": "What was the capital of 'Karnataka'?",
+"questionOdia": "କର୍ଣ୍ଣାଟକର ରାଜଧାନୀ କେଉଁଟି?",
+"options": [
+"ବେଙ୍ଗାଲୁରୁ",
+"ଚେନ୍ନାଇ",
+"ହାଇଦ୍ରାବାଦ",
+"ପଣଜୀ"
+],
+"answer": "ବେଙ୍ଗାଲୁରୁ",
+"explanation": "କର୍ଣ୍ଣାଟକର ରାଜଧାନୀ ବେଙ୍ଗାଲୁରୁ."
+},
+{
+"questionEnglish": "Which state's capital is 'Patna'?",
+"questionOdia": "ପାଟନା କେଉଁ ରାଜ୍ୟର ରାଜଧାନୀ?",
+"options": [
+"ବିହାର",
+"ଓଡ଼ିଶା",
+"ଉତ୍ତରପ୍ରଦେଶ",
+"ପଶ୍ଚିମବଙ୍ଗ"
+],
+"answer": "ବିହାର",
+"explanation": "ବିହାରର ରାଜଧାନୀ ପାଟନା."
+},
+{
+"questionEnglish": "Which of these is a Union Territory?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ?",
+"options": [
+"ମଣିପୁର",
+"ତ୍ରିପୁରା",
+"ଲାକ୍ଷାଦ୍ଵୀପ",
+"ଆସାମ"
+],
+"answer": "ଲାକ୍ଷାଦ୍ଵୀପ",
+"explanation": "ଲାକ୍ଷାଦ୍ଵୀପ ଏକ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ."
+},
+{
+"questionEnglish": "When was the Union Territory of Delhi created?",
+"questionOdia": "ଦିଲ୍ଲୀ କେନ୍ଦ୍ର ଶାସିତ ଅଞ୍ଚଳ କେବେ ମାନ୍ୟତା ପାଇଲା?",
+"options": [
+"୧୯୯୦",
+"୧୯୯୧",
+"୧୯୯୨",
+"୧୯୯୩"
+],
+"answer": "୧୯୯୨",
+"explanation": "୧୯୯୨ ମସିହାରେ ଦିଲ୍ଲୀକୁ “ଜାତୀୟ ରାଜଧାନୀ ଅଞ୍ଚଳ”ର ମାନ୍ୟତା ମିଳିଛି."
+},
+{
+"questionEnglish": "Which city is the capital of Tamil Nadu?",
+"questionOdia": "ତାମିଲନାଡୁର ରାଜଧାନୀ କେଉଁଟି?",
+"options": [
+"ଚେନ୍ନାଇ",
+"ହାଇଦ୍ରାବାଦ",
+"ବେଙ୍ଗାଲୁରୁ",
+"ଥିରୁବନନ୍ତପୁରମ"
+],
+"answer": "ଚେନ୍ନାଇ",
+"explanation": "ତାମିଲନାଡୁର ରାଜଧାନୀ ଚେନ୍ନାଇ."
+},
+{
+"questionEnglish": "What was the capital of 'Andhra Pradesh'?",
+"questionOdia": "ଅମରାବତୀ କେଉଁ ରାଜ୍ୟର ରାଜଧାନୀ?",
+"options": [
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"ତେଲେଙ୍ଗାନା",
+"କର୍ଣ୍ଣାଟକ",
+"ତାମିଲନାଡୁ"
+],
+"answer": "ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"explanation": "ଅମରାବତୀ ଆନ୍ଧ୍ରପ୍ରଦେଶର ରାଜଧାନୀ."
+},
+{
+"questionEnglish": "When was the Jharkhand state formed?",
+"questionOdia": "ଝାଡ଼ଖଣ୍ଡ ରାଜ୍ୟ କେଉଁ ମସିହାରେ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"୧୯୯୮",
+"୨୦୦୦",
+"୨୦୦୨",
+"୨୦୦୫"
+],
+"answer": "୨୦୦୦",
+"explanation": "ବିହାର ପୁନର୍ଗଠନ ଆଇନ-୨୦୦୦ ବଳରେ ଝାଡ଼ଖଣ୍ଡ ରାଜ୍ୟ ଗଠନ କରାଯାଇଛି."
+},
+{
+"questionEnglish": "Which of these states was part of 'A' category in 1950?",
+"questionOdia": "୧୯୫୦ ମସିହାରେ 'କ' ଶ୍ରେଣୀୟ ରାଜ୍ୟ ମଧ୍ୟରେ କେଉଁଟି ଥିଲା?",
+"options": [
+"ବିହାର",
+"ଭୋପାଳ",
+"ହାଇଦ୍ରାବାଦ",
+"ଆଣ୍ଡାମାନ"
+],
+"answer": "ବିହାର",
+"explanation": "ବିହାର ‘କ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟ ଥିଲା."
+},
+{
+"questionEnglish": "Which state has a governor appointed by the president?",
+"questionOdia": "କେଉଁ ଶ୍ରେଣୀୟ ରାଜ୍ୟର ଶାସନ ମୁଖ୍ୟଙ୍କୁ ରାଷ୍ଟ୍ରପତି ନିଯୁକ୍ତ କରନ୍ତି?",
+"options": [
+"କ",
+"ଖ",
+"ଗ",
+"ଘ"
+],
+"answer": "କ",
+"explanation": "‘କ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟର ଶାସନ ମୁଖ୍ୟ ରହିଲେ ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ୱାରା ନିଯୁକ୍ତ ଜଣେ ‘ରାଜ୍ୟପାଳ’."
+},
+{
+"questionEnglish": "Which of the following is an 'A' category state according to 1950 list?",
+"questionOdia": "୧୯୫୦ ମସିହାର 'କ' ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟ ମଧ୍ୟରେ କେଉଁଟି ଅନ୍ତର୍ଭୁକ୍ତ ଥିଲା?",
+"options": [
+"ମାଡ୍ରାସ",
+"ହାଇଦ୍ରାବାଦ",
+"ଭୋପାଳ",
+"ଆଣ୍ଡାମାନ"
+],
+"answer": "ମାଡ୍ରାସ",
+"explanation": "‘କ’ ଶ୍ରେଣୀଭୁକ୍ତ ରାଜ୍ୟଗୁଡ଼ିକ ହେଲା ଆସାମ, ବିହାର, ବମ୍ବେ, ମଧ୍ୟପ୍ରଦେଶ, ମାଡ୍ରାସ, ଓଡ଼ିଶା, ପଞ୍ଜାବ, ସଂଯୁକ୍ତ ପ୍ରଦେଶ ଓ ପଶ୍ଚିମବଙ୍ଗ."
+}
+]
