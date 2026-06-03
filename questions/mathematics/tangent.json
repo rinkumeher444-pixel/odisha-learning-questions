@@ -1,1 +1,1094 @@
-
+[
+{
+"questionEnglish": "According to geometric principles, how many points can a straight line intersect a circle at most?",
+"questionOdia": "ଜ୍ୟାମିତିକ ନିୟମ ଅନୁଯାୟୀ, ଗୋଟିଏ ସରଳରେଖା ଅତିବେଶୀରେ ବୃତ୍ତକୁ କେତୋଟି ବିନ୍ଦୁରେ ଛେଦ କରିପାରିବ?",
+"options": [
+"ଗୋଟିଏ ବିନ୍ଦୁରେ",
+"ଦୁଇଟି ବିନ୍ଦୁରେ",
+"ତିନୋଟି ବିନ୍ଦୁରେ",
+"କୌଣସି ବିନ୍ଦୁରେ ନୁହେଁ"
+],
+"answer": "ଦୁଇଟି ବିନ୍ଦୁରେ",
+"explanation": "ଗୋଟିଏ ସରଳରେଖା ବୃତ୍ତକୁ ଅତିବେଶୀରେ ଦୁଇଟି ଭିନ୍ନ ବିନ୍ଦୁରେ ଛେଦ କରିପାରିବ, ଏହାଠାରୁ ଅଧିକ ସମ୍ଭବ ନୁହେଁ।"
+},
+{
+"questionEnglish": "What is the specific name given to a line that touches a circle at exactly one point?",
+"questionOdia": "ଗୋଟିଏ ବୃତ୍ତକୁ ମାତ୍ର ଗୋଟିଏ ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରୁଥିବା ସରଳରେଖାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ଛେଦକ ରେଖା (Secant)",
+"ସ୍ପର୍ଶକ (Tangent)",
+"ଜ୍ୟା (Chord)",
+"ବ୍ୟାସ (Diameter)"
+],
+"answer": "ସ୍ପର୍ଶକ (Tangent)",
+"explanation": "ଯେଉଁ ସରଳରେଖା ବୃତ୍ତକୁ କେବଳ ଗୋଟିଏ ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରେ, ତାହାକୁ ସ୍ପର୍ଶକ ବା Tangent କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the term used for the common point shared by a tangent and a circle?",
+"questionOdia": "ସ୍ପର୍ଶକ ଏବଂ ବୃତ୍ତ ମଧ୍ୟରେ ଥିବା ସାଧାରଣ ବିନ୍ଦୁଟିକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"କେନ୍ଦ୍ର ବିନ୍ଦୁ (Center)",
+"ସ୍ପର୍ଶ ବିନ୍ଦୁ (Point of contact)",
+"ଛେଦ ବିନ୍ଦୁ (Intersection point)",
+"ଶୀର୍ଷ ବିନ୍ଦୁ (Vertex)"
+],
+"answer": "ସ୍ପର୍ଶ ବିନ୍ଦୁ (Point of contact)",
+"explanation": "ସ୍ପର୍ଶକ ବୃତ୍ତକୁ ଯେଉଁ ଏକମାତ୍ର ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରେ, ତାହାକୁ ସ୍ପର୍ଶ ବିନ୍ଦୁ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "When a line intersects a circle at two distinct points, what is that line known as?",
+"questionOdia": "ଯେତେବେଳେ ଗୋଟିଏ ସରଳରେଖା ବୃତ୍ତକୁ ଦୁଇଟି ଭିନ୍ନ ବିନ୍ଦୁରେ ଛେଦ କରେ, ସେହି ରେଖାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ସ୍ପର୍ଶକ (Tangent)",
+"ଛେଦକ ରେଖା (Secant)",
+"ବ୍ୟାସାର୍ଦ୍ଧ (Radius)",
+"କେନ୍ଦ୍ରୀୟ ରେଖା"
+],
+"answer": "ଛେଦକ ରେଖା (Secant)",
+"explanation": "ବୃତ୍ତକୁ ଦୁଇଟି ଭିନ୍ନ ବିନ୍ଦୁରେ ଛେଦ କରୁଥିବା ରେଖାକୁ ଛେଦକ ବା Secant କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "How many tangents can be drawn to a circle at a single point on its circumference?",
+"questionOdia": "ବୃତ୍ତର ପରିଧି ଉପରେ ଥିବା ଗୋଟିଏ ବିନ୍ଦୁରେ କେତୋଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"ଅସଂଖ୍ୟ",
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ତିନୋଟି"
+],
+"answer": "ଗୋଟିଏ",
+"explanation": "ବୃତ୍ତର ପରିଧି ଉପରେ ଥିବା ପ୍ରତ୍ୟେକ ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁରେ କେବଳ ଗୋଟିଏ ସ୍ପର୍ଶକ ଅଙ୍କନ କରିବା ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "If a point lies outside the circle, how many tangents can be drawn to the circle from that point?",
+"questionOdia": "ଯଦି ଏକ ବିନ୍ଦୁ ବୃତ୍ତର ବାହାରେ ଅବସ୍ଥିତ, ତେବେ ସେହି ବିନ୍ଦୁରୁ ବୃତ୍ତକୁ କେତୋଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"କୌଣସି ସ୍ପର୍ଶକ ନୁହେଁ"
+],
+"answer": "ଦୁଇଟି",
+"explanation": "ବୃତ୍ତର ବାହ୍ୟବର୍ତ୍ତୀ ବିନ୍ଦୁରୁ ବୃତ୍ତକୁ ସର୍ବାଧିକ ଦୁଇଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "What is the angle between the tangent at any point of a circle and the radius through the point of contact?",
+"questionOdia": "ବୃତ୍ତର ସ୍ପର୍ଶକ ଏବଂ ସ୍ପର୍ଶ ବିନ୍ଦୁଗାମୀ ବ୍ୟାସାର୍ଦ୍ଧ ମଧ୍ୟରେ କୋଣର ମାପ କେତେ?",
+"options": [
+"45°",
+"60°",
+"90°",
+"180°"
+],
+"answer": "90°",
+"explanation": "ଜ୍ୟାମିତିକ ପ୍ରମେୟ ଅନୁଯାୟୀ, ସ୍ପର୍ଶକ ସର୍ବଦା ସ୍ପର୍ଶ ବିନ୍ଦୁରେ ବ୍ୟାସାର୍ଦ୍ଧ ଉପରେ ଲମ୍ବ (90°) ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Can any tangent be drawn to a circle from a point located inside the circle?",
+"questionOdia": "ବୃତ୍ତର ଭିତରେ ଥିବା ଏକ ବିନ୍ଦୁରୁ କ’ଣ ବୃତ୍ତକୁ କୌଣସି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"ହଁ, ଗୋଟିଏ",
+"ହଁ, ଦୁଇଟି",
+"ନା, ସମ୍ଭବ ନୁହେଁ",
+"ହଁ, ଅସଂଖ୍ୟ"
+],
+"answer": "ନା, ସମ୍ଭବ ନୁହେଁ",
+"explanation": "ବୃତ୍ତର ଅଭ୍ୟନ୍ତରରେ ଥିବା ବିନ୍ଦୁ ଦେଇ ଯାଉଥିବା କୌଣସି ରେଖା ବୃତ୍ତକୁ ସ୍ପର୍ଶ କରିପାରିବ ନାହିଁ, ତାହା କେବଳ ଛେଦକ ହୋଇପାରିବ।"
+},
+{
+"questionEnglish": "What is the relationship between the lengths of two tangents drawn from an external point to a circle?",
+"questionOdia": "ବୃତ୍ତର ବାହାରେ ଥିବା ଏକ ବିନ୍ଦୁରୁ ବୃତ୍ତକୁ ଅଙ୍କିତ ଦୁଇଟି ସ୍ପର୍ଶକର ଦୈର୍ଘ୍ୟ ମଧ୍ୟରେ ସମ୍ପର୍କ କ’ଣ?",
+"options": [
+"ସେମାନେ ଅସମାନ ଅଟନ୍ତି",
+"ଦ୍ୱିତୀୟଟି ପ୍ରଥମର ଦୁଇଗୁଣ",
+"ସେମାନେ ପରସ୍ପରଠାରୁ ଭିନ୍ନ",
+"ସେମାନଙ୍କର ଦୈର୍ଘ୍ୟ ସମାନ"
+],
+"answer": "ସେମାନଙ୍କର ଦୈର୍ଘ୍ୟ ସମାନ",
+"explanation": "ବାହ୍ୟ ବିନ୍ଦୁରୁ ବୃତ୍ତକୁ ଅଙ୍କିତ ସ୍ପର୍ଶକଦ୍ୱୟର ଦୈର୍ଘ୍ୟ ସର୍ବଦା ସମାନ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "If a line is perpendicular to the radius at a point on the circle, then the line must be a...",
+"questionOdia": "ଯଦି ଏକ ସରଳରେଖା ବୃତ୍ତର ଏକ ବିନ୍ଦୁରେ ବ୍ୟାସାର୍ଦ୍ଧ ଉପରେ ଲମ୍ବ ହୁଏ, ତେବେ ଉକ୍ତ ରେଖାଟି କ’ଣ ହେବ?",
+"options": [
+"ଛେଦକ (Secant)",
+"ସ୍ପର୍ଶକ (Tangent)",
+"ଜ୍ୟା (Chord)",
+"ବ୍ୟାସ (Diameter)"
+],
+"answer": "ସ୍ପର୍ଶକ (Tangent)",
+"explanation": "ବ୍ୟାସାର୍ଦ୍ଧ ସହ 90° କୋଣ ସୃଷ୍ଟି କରୁଥିବା ରେଖା ବୃତ୍ତର ସ୍ପର୍ଶକ ଅଟେ।"
+},
+{
+"questionEnglish": "What is the maximum number of parallel tangents a circle can have?",
+"questionOdia": "ଗୋଟିଏ ବୃତ୍ତରେ ସର୍ବାଧିକ କେତୋଟି ସମାନ୍ତରାଳ ସ୍ପର୍ଶକ ଥାଇପାରେ?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "ଦୁଇଟି",
+"explanation": "ଏକ ବୃତ୍ତର ବ୍ୟାସର ଦୁଇ ପ୍ରାନ୍ତରେ ଅଙ୍କିତ ଦୁଇଟି ସ୍ପର୍ଶକ ପରସ୍ପର ସମାନ୍ତରାଳ ହୋଇଥାନ୍ତି।"
+},
+{
+"questionEnglish": "If two circles touch each other externally, how many common tangents can be drawn?",
+"questionOdia": "ଯଦି ଦୁଇଟି ବୃତ୍ତ ପରସ୍ପରକୁ ବାହ୍ୟଭାବେ ସ୍ପର୍ଶ କରନ୍ତି, ତେବେ ସେମାନଙ୍କର କେତୋଟି ସାଧାରଣ ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"ଚାରୋଟି"
+],
+"answer": "ତିନୋଟି",
+"explanation": "ବାହ୍ୟଭାବେ ସ୍ପର୍ଶ କରୁଥିବା ଦୁଇଟି ବୃତ୍ତର ଦୁଇଟି ବାହ୍ୟ ସ୍ପର୍ଶକ ଓ ଗୋଟିଏ ଅନ୍ତଃ ସ୍ପର୍ଶକ ମିଶି ମୋଟ ୩ଟି ସାଧାରଣ ସ୍ପର୍ଶକ ଥାଏ।"
+},
+{
+"questionEnglish": "The tangent at any point of a circle is perpendicular to the radius through the point of contact. Is this statement true or false?",
+"questionOdia": "ବୃତ୍ତର କୌଣସି ବିନ୍ଦୁରେ ଅଙ୍କିତ ସ୍ପର୍ଶକ, ସ୍ପର୍ଶ ବିନ୍ଦୁଗାମୀ ବ୍ୟାସାର୍ଦ୍ଧ ଉପରେ ଲମ୍ବ। ଏହି ବକ୍ତବ୍ୟଟି ସତ୍ୟ କି ମିଥ୍ୟା?",
+"options": [
+"ସତ୍ୟ",
+"ମିଥ୍ୟା",
+"ଅଧା ସତ୍ୟ",
+"ପ୍ରଶ୍ନବାଚୀ"
+],
+"answer": "ସତ୍ୟ",
+"explanation": "ଏହା ବୃତ୍ତର ସ୍ପର୍ଶକ ସମ୍ବନ୍ଧୀୟ ଏକ ମୌଳିକ ଜ୍ୟାମିତିକ ପ୍ରମେୟ।"
+},
+{
+"questionEnglish": "How many tangents can be drawn to a circle from a point on the circle itself?",
+"questionOdia": "ବୃତ୍ତ ଉପରେ ଥିବା ଏକ ବିନ୍ଦୁରୁ ବୃତ୍ତକୁ କେତୋଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"ଅସଂଖ୍ୟ",
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ଶୂନ୍ୟ"
+],
+"answer": "ଗୋଟିଏ",
+"explanation": "ବୃତ୍ତର ପରିଧି ଉପରେ ଥିବା ଯେକୌଣସି ବିନ୍ଦୁରେ କେବଳ ଗୋଟିଏ ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "What happens to the number of common tangents if two circles intersect at two distinct points?",
+"questionOdia": "ଯଦି ଦୁଇଟି ବୃତ୍ତ ଦୁଇଟି ଭିନ୍ନ ବିନ୍ଦୁରେ ଛେଦ କରନ୍ତି, ତେବେ ସେମାନଙ୍କର କେତୋଟି ସାଧାରଣ ସ୍ପର୍ଶକ ଥାଏ?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"ଚାରୋଟି"
+],
+"answer": "ଦୁଇଟି",
+"explanation": "ଯେତେବେଳେ ଦୁଇଟି ବୃତ୍ତ ପରସ୍ପରକୁ ଛେଦ କରନ୍ତି, ସେମାନଙ୍କର କେବଳ ଦୁଇଟି ସାଧାରଣ ବାହ୍ୟ ସ୍ପର୍ଶକ ଥାଏ।"
+},
+{
+"questionEnglish": "A line segment connecting the center of a circle to any point on the tangent is NOT necessarily a...",
+"questionOdia": "ବୃତ୍ତର କେନ୍ଦ୍ରକୁ ସ୍ପର୍ଶକର କୌଣସି ବିନ୍ଦୁ ସହ ସଂଯୋଗ କରୁଥିବା ରେଖାଖଣ୍ଡଟି ନିଶ୍ଚିତ ଭାବେ କ’ଣ ନୁହେଁ?",
+"options": [
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ସ୍ପର୍ଶ ବିନ୍ଦୁକୁ ସଂଯୋଗ କରୁଥିବା ରେଖା",
+"ଲମ୍ବ ରେଖା",
+"ସର୍ବଦା ବ୍ୟାସାର୍ଦ୍ଧ ନୁହେଁ"
+],
+"answer": "ସର୍ବଦା ବ୍ୟାସାର୍ଦ୍ଧ ନୁହେଁ",
+"explanation": "କେବଳ ସ୍ପର୍ଶ ବିନ୍ଦୁକୁ ସଂଯୋଗ କରୁଥିବା ରେଖାଖଣ୍ଡ ହିଁ ବ୍ୟାସାର୍ଦ୍ଧ ହୁଏ, ସ୍ପର୍ଶକର ଅନ୍ୟ ବିନ୍ଦୁକୁ ସଂଯୋଗ କଲେ ତାହା ବ୍ୟାସାର୍ଦ୍ଧଠାରୁ ବଡ଼ ହୁଏ।"
+},
+{
+"questionEnglish": "In a circle, the tangent is the limiting case of which line as the two points of intersection coincide?",
+"questionOdia": "ବୃତ୍ତରେ, ଛେଦକର ଦୁଇଟି ବିନ୍ଦୁ ପରସ୍ପର ମିଶିଗଲେ ଉକ୍ତ ରେଖାଟି କ’ଣରେ ପରିଣତ ହୁଏ?",
+"options": [
+"ଜ୍ୟା (Chord)",
+"ସ୍ପର୍ଶକ (Tangent)",
+"ବ୍ୟାସ (Diameter)",
+"କେନ୍ଦ୍ରୀୟ ରେଖା"
+],
+"answer": "ସ୍ପର୍ଶକ (Tangent)",
+"explanation": "ଯେତେବେଳେ ଛେଦକର ଦୁଇଟି ବିନ୍ଦୁ ଏକାଠି ହୋଇଯାଆନ୍ତି, ସେତେବେଳେ ତାହା ସ୍ପର୍ଶକ ହୋଇଯାଏ।"
+},
+{
+"questionEnglish": "Can two tangents drawn to a circle from an external point be parallel to each other?",
+"questionOdia": "ବୃତ୍ତର ବାହ୍ୟବର୍ତ୍ତୀ ବିନ୍ଦୁରୁ ଅଙ୍କିତ ଦୁଇଟି ସ୍ପର୍ଶକ କ’ଣ ପରସ୍ପର ସମାନ୍ତରାଳ ହୋଇପାରିବେ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି ବୃତ୍ତଟି ବଡ଼ ହୁଏ",
+"କେବଳ ଯଦି ବିନ୍ଦୁଟି କେନ୍ଦ୍ରଠାରୁ ଦୂରରେ ଥାଏ"
+],
+"answer": "ନା",
+"explanation": "ବାହ୍ୟ ବିନ୍ଦୁରୁ ଅଙ୍କିତ ଦୁଇଟି ସ୍ପର୍ଶକ ପରସ୍ପରକୁ ସେହି ବାହ୍ୟ ବିନ୍ଦୁରେ ଛେଦ କରନ୍ତି, ତେଣୁ ସେମାନେ ସମାନ୍ତରାଳ ହୋଇପାରିବେ ନାହିଁ।"
+},
+{
+"questionEnglish": "The length of the tangent from an external point P to a circle with center O is 8 cm. If the radius is 6 cm, what is the distance of P from the center?",
+"questionOdia": "କେନ୍ଦ୍ର O ଥିବା ଏକ ବୃତ୍ତକୁ ବାହ୍ୟ ବିନ୍ଦୁ P ରୁ ଅଙ୍କିତ ସ୍ପର୍ଶକର ଦୈର୍ଘ୍ୟ 8 ସେମି। ଯଦି ବ୍ୟାସାର୍ଦ୍ଧ 6 ସେମି ହୁଏ, ତେବେ କେନ୍ଦ୍ରଠାରୁ P ର ଦୂରତା କେତେ?",
+"options": [
+"10 ସେମି",
+"14 ସେମି",
+"2 ସେମି",
+"12 ସେମି"
+],
+"answer": "10 ସେମି",
+"explanation": "ପାଇଥାଗୋରାସ ଉପପାଦ୍ୟ ଅନୁଯାୟୀ: OP² = 8² + 6² = 64 + 36 = 100. OP = √100 = 10 ସେମି।"
+},
+{
+"questionEnglish": "Which of the following properties is true about tangents to a circle from an external point?",
+"questionOdia": "ବାହ୍ୟ ବିନ୍ଦୁରୁ ବୃତ୍ତକୁ ଅଙ୍କିତ ସ୍ପର୍ଶକ ସମ୍ବନ୍ଧରେ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ସତ୍ୟ?",
+"options": [
+"ସେମାନେ ବ୍ୟାସାର୍ଦ୍ଧକୁ ସମଦ୍ୱିଖଣ୍ଡ କରନ୍ତି",
+"ସେମାନେ କେନ୍ଦ୍ରରେ ସମାନ କୋଣ ସୃଷ୍ଟି କରନ୍ତି",
+"ସେମାନେ ପରସ୍ପର ସମାନ୍ତରାଳ",
+"ସେମାନେ କେନ୍ଦ୍ର ଦେଇ ଯାଆନ୍ତି"
+],
+"answer": "ସେମାନେ କେନ୍ଦ୍ରରେ ସମାନ କୋଣ ସୃଷ୍ଟି କରନ୍ତି",
+"explanation": "ସ୍ପର୍ଶକଦ୍ୱୟ ସେମାନଙ୍କ ମଧ୍ୟବର୍ତ୍ତୀ କୋଣକୁ ସମଦ୍ୱିଖଣ୍ଡ କରନ୍ତି ଏବଂ କେନ୍ଦ୍ରରେ ସମାନ କୋଣ ସୃଷ୍ଟି କରନ୍ତି।"
+},
+{
+"questionEnglish": "A quadrilateral ABCD is circumscribed to a circle. Which property holds true?",
+"questionOdia": "ଏକ ଚତୁର୍ଭୁଜ ABCD ବୃତ୍ତର ଅନ୍ତର୍ଲିଖିତ (circumscribed) ହେଲେ କେଉଁ ଗୁଣଟି ସତ୍ୟ ହେବ?",
+"options": [
+"AB + CD = BC + AD",
+"AB + BC = CD + AD",
+"AB + AD = BC + CD",
+"AB = CD ଏବଂ BC = AD"
+],
+"answer": "AB + CD = BC + AD",
+"explanation": "ବୃତ୍ତର ଅନ୍ତର୍ଲିଖିତ ଚତୁର୍ଭୁଜର ସମ୍ମୁଖ ବାହୁଗୁଡ଼ିକର ଯୋଗଫଳ ସମାନ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the angle between the two tangents drawn from an external point, if the angle between the radii to the points of contact is 120°?",
+"questionOdia": "ଯଦି ସ୍ପର୍ଶ ବିନ୍ଦୁମାନଙ୍କୁ ସଂଯୋଗ କରୁଥିବା ବ୍ୟାସାର୍ଦ୍ଧଦ୍ୱୟ ମଧ୍ୟରେ କୋଣ 120° ହୁଏ, ତେବେ ବାହ୍ୟ ବିନ୍ଦୁରେ ସ୍ପର୍ଶକଦ୍ୱୟ ମଧ୍ୟରେ କୋଣ କେତେ?",
+"options": [
+"60°",
+"90°",
+"120°",
+"30°"
+],
+"answer": "60°",
+"explanation": "ସ୍ପର୍ଶକଦ୍ୱୟ ଓ ବ୍ୟାସାର୍ଦ୍ଧଦ୍ୱୟ ମିଶି ଏକ ଚତୁର୍ଭୁଜ ଗଠନ କରନ୍ତି, ଯାହାର ସମଷ୍ଟି 360°। ତେଣୁ 180° - 120° = 60°।"
+},
+{
+"questionEnglish": "If the length of a tangent from a point at a distance of 10 cm from the center is 8 cm, what is the radius of the circle?",
+"questionOdia": "ଯଦି କେନ୍ଦ୍ରଠାରୁ 10 ସେମି ଦୂରତାରେ ଥିବା ଏକ ବିନ୍ଦୁରୁ ଅଙ୍କିତ ସ୍ପର୍ଶକର ଦୈର୍ଘ୍ୟ 8 ସେମି, ତେବେ ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ କେତେ?",
+"options": [
+"4 ସେମି",
+"5 ସେମି",
+"6 ସେମି",
+"3 ସେମି"
+],
+"answer": "6 ସେମି",
+"explanation": "ପାଇଥାଗୋରାସ ଉପପାଦ୍ୟ: r² + 8² = 10². r² + 64 = 100. r² = 36. r = 6 ସେମି।"
+},
+{
+"questionEnglish": "Tangents drawn at the ends of a diameter of a circle are...",
+"questionOdia": "ବୃତ୍ତର ବ୍ୟାସର ଦୁଇ ପ୍ରାନ୍ତରେ ଅଙ୍କିତ ସ୍ପର୍ଶକଦ୍ୱୟ ପରସ୍ପର କିପରି?",
+"options": [
+"ଲମ୍ବ",
+"ସମାନ୍ତରାଳ",
+"ଛେଦୀ",
+"କୌଣସି ସମ୍ପର୍କ ନାହିଁ"
+],
+"answer": "ସମାନ୍ତରାଳ",
+"explanation": "ବ୍ୟାସର ଦୁଇ ପ୍ରାନ୍ତରେ ଅଙ୍କିତ ସ୍ପର୍ଶକଦ୍ୱୟ ସର୍ବଦା ପରସ୍ପର ସମାନ୍ତରାଳ।"
+},
+{
+"questionEnglish": "How many tangents can be drawn to a circle from a point outside it?",
+"questionOdia": "ବୃତ୍ତ ବାହାରେ ଥିବା ଏକ ବିନ୍ଦୁରୁ ବୃତ୍ତକୁ କେତୋଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"ଦୁଇଟି",
+"ଏକ",
+"ଶୂନ୍ୟ",
+"ଅନନ୍ତ"
+],
+"answer": "ଦୁଇଟି",
+"explanation": "ବାହ୍ୟ ବିନ୍ଦୁରୁ ବୃତ୍ତକୁ ସର୍ବାଧିକ ଦୁଇଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "If a line segment is a tangent, it must touch the circle at how many points?",
+"questionOdia": "ଯଦି ଏକ ରେଖାଖଣ୍ଡ ସ୍ପର୍ଶକ ହୁଏ, ତେବେ ତାହା ବୃତ୍ତକୁ କେତୋଟି ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରିବା ଆବଶ୍ୟକ?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"ଅନନ୍ତ"
+],
+"answer": "ଗୋଟିଏ",
+"explanation": "ସ୍ପର୍ଶକର ସଂଜ୍ଞା ହିଁ ବୃତ୍ତକୁ ଗୋଟିଏ ବିନ୍ଦୁରେ ଛୁଇଁବା।"
+},
+{
+"questionEnglish": "Which part of the circle is perpendicular to the tangent at the point of contact?",
+"questionOdia": "ବୃତ୍ତର କେଉଁ ଅଂଶଟି ସ୍ପର୍ଶ ବିନ୍ଦୁରେ ସ୍ପର୍ଶକ ଉପରେ ଲମ୍ବ?",
+"options": [
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ଜ୍ୟା",
+"ଛେଦକ",
+"ପରିଧି"
+],
+"answer": "ବ୍ୟାସାର୍ଦ୍ଧ",
+"explanation": "ସ୍ପର୍ଶ ବିନ୍ଦୁଗାମୀ ବ୍ୟାସାର୍ଦ୍ଧ ସ୍ପର୍ଶକ ଉପରେ ଲମ୍ବ।"
+},
+{
+"questionEnglish": "In the context of tangents to a circle, what does 'limiting case' mean?",
+"questionOdia": "ବୃତ୍ତର ସ୍ପର୍ଶକ ପ୍ରସଙ୍ଗରେ 'limiting case' ର ଅର୍ଥ କ’ଣ?",
+"options": [
+"ଛେଦକର ଦୁଇଟି ବିନ୍ଦୁ ଏକାଠି ହୋଇଯିବା",
+"ବ୍ୟାସାର୍ଦ୍ଧ ବଢ଼ିଯିବା",
+"ଜ୍ୟାର ଦୈର୍ଘ୍ୟ କମିଯିବା",
+"କୌଣସି ଅର୍ଥ ନାହିଁ"
+],
+"answer": "ଛେଦକର ଦୁଇଟି ବିନ୍ଦୁ ଏକାଠି ହୋଇଯିବା",
+"explanation": "ଛେଦକର ଦୁଇଟି ବିନ୍ଦୁ ପରସ୍ପର ମିଶିଗଲେ ତାହା ସ୍ପର୍ଶକରେ ପରିଣତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which of the following is true for two concentric circles?",
+"questionOdia": "ଦୁଇଟି ସାନ୍ଦ୍ର (concentric) ବୃତ୍ତ ପାଇଁ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ସତ୍ୟ?",
+"options": [
+"ସେମାନଙ୍କର କେନ୍ଦ୍ର ଭିନ୍ନ",
+"ସେମାନଙ୍କର କେନ୍ଦ୍ର ସମାନ",
+"ସେମାନଙ୍କର ବ୍ୟାସାର୍ଦ୍ଧ ସମାନ",
+"ସେମାନେ ପରସ୍ପରକୁ ଛେଦ କରନ୍ତି"
+],
+"answer": "ସେମାନଙ୍କର କେନ୍ଦ୍ର ସମାନ",
+"explanation": "ସମାନ କେନ୍ଦ୍ର ବିଶିଷ୍ଟ ଦୁଇଟି ବୃତ୍ତକୁ ସାନ୍ଦ୍ର ବୃତ୍ତ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If a line intersects a circle at two points, the line is a...",
+"questionOdia": "ଯଦି ଏକ ରେଖା ବୃତ୍ତକୁ ଦୁଇଟି ବିନ୍ଦୁରେ ଛେଦ କରେ, ତେବେ ଉକ୍ତ ରେଖାଟି କ’ଣ?",
+"options": [
+"ଛେଦକ (Secant)",
+"ସ୍ପର୍ଶକ (Tangent)",
+"ବ୍ୟାସ (Diameter)",
+"ଜ୍ୟା (Chord)"
+],
+"answer": "ଛେଦକ (Secant)",
+"explanation": "ଛେଦକ ବୃତ୍ତକୁ ଦୁଇଟି ବିନ୍ଦୁରେ କାଟିଥାଏ।"
+},
+{
+"questionEnglish": "How many common tangents can be drawn to two circles that are separate and do not touch?",
+"questionOdia": "ପରସ୍ପରଠାରୁ ଦୂରରେ ଥିବା ଦୁଇଟି ବୃତ୍ତ ପାଇଁ କେତୋଟି ସାଧାରଣ ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"୨ଟି",
+"୩ଟି",
+"୪ଟି",
+"୧ଟି"
+],
+"answer": "୪ଟି",
+"explanation": "ଅଲଗା ଥିବା ଦୁଇଟି ବୃତ୍ତର ୨ଟି ବାହ୍ୟ ଓ ୨ଟି ଅନ୍ତଃ ସ୍ପର୍ଶକ ମିଶି ୪ଟି ସାଧାରଣ ସ୍ପର୍ଶକ ଥାଏ।"
+},
+{
+"questionEnglish": "If a point lies on the circle, how many tangents pass through it?",
+"questionOdia": "ଯଦି ଏକ ବିନ୍ଦୁ ବୃତ୍ତ ଉପରେ ଥାଏ, ତେବେ ସେହି ବିନ୍ଦୁ ଦେଇ କେତୋଟି ସ୍ପର୍ଶକ ଯାଇପାରିବ?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"ଶୂନ୍ୟ"
+],
+"answer": "ଗୋଟିଏ",
+"explanation": "ବୃତ୍ତ ଉପରେ ଥିବା ବିନ୍ଦୁରେ କେବଳ ଗୋଟିଏ ସ୍ପର୍ଶକ ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "Can a tangent and a secant be the same line for a circle?",
+"questionOdia": "ଗୋଟିଏ ବୃତ୍ତ ପାଇଁ ସ୍ପର୍ଶକ ଓ ଛେଦକ କ’ଣ ସମାନ ରେଖା ହୋଇପାରିବେ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ବଡ଼ ବୃତ୍ତରେ",
+"କେବଳ ଛୋଟ ବୃତ୍ତରେ"
+],
+"answer": "ନା",
+"explanation": "ସ୍ପର୍ଶକ ଗୋଟିଏ ବିନ୍ଦୁରେ ଛୁଇଁଥାଏ, ଛେଦକ ଦୁଇଟି ବିନ୍ଦୁରେ ଛେଦ କରେ, ତେଣୁ ସେମାନେ ଭିନ୍ନ।"
+},
+{
+"questionEnglish": "Which of these is the property of a circle's tangent?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ବୃତ୍ତର ସ୍ପର୍ଶକର ଏକ ଗୁଣ?",
+"options": [
+"ଏହା କେନ୍ଦ୍ର ଦେଇ ଯାଏ",
+"ଏହା ସ୍ପର୍ଶ ବିନ୍ଦୁରେ ବ୍ୟାସାର୍ଦ୍ଧ ଉପରେ ଲମ୍ବ",
+"ଏହା ସବୁବେଳେ ବ୍ୟାସ ସହ ସମାନ୍ତରାଳ",
+"ଏହା ବୃତ୍ତକୁ ଦୁଇ ଭାଗରେ ବିଭକ୍ତ କରେ"
+],
+"answer": "ଏହା ସ୍ପର୍ଶ ବିନ୍ଦୁରେ ବ୍ୟାସାର୍ଦ୍ଧ ଉପରେ ଲମ୍ବ",
+"explanation": "ସ୍ପର୍ଶକ ସ୍ପର୍ଶ ବିନ୍ଦୁରେ ବ୍ୟାସାର୍ଦ୍ଧ ସହ 90° କୋଣ ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "Is it possible for a circle to have no tangents?",
+"questionOdia": "ଏକ ବୃତ୍ତର କୌଣସି ସ୍ପର୍ଶକ ନଥିବା କ’ଣ ସମ୍ଭବ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ କେନ୍ଦ୍ର ନଥିବା ବୃତ୍ତରେ",
+"କେବଳ ଅଧା ବୃତ୍ତରେ"
+],
+"answer": "ନା",
+"explanation": "ବୃତ୍ତର ପରିଧିରେ ଅସଂଖ୍ୟ ବିନ୍ଦୁ ଥାଏ, ପ୍ରତ୍ୟେକରେ ସ୍ପର୍ଶକ ଅଙ୍କନ ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "How many tangents can be drawn to a circle if the point is inside?",
+"questionOdia": "ଯଦି ବିନ୍ଦୁଟି ବୃତ୍ତ ଭିତରେ ଥାଏ, ତେବେ କେତୋଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"ଶୂନ୍ୟ",
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ଅନନ୍ତ"
+],
+"answer": "ଶୂନ୍ୟ",
+"explanation": "ବୃତ୍ତ ଭିତରେ ଥିବା ବିନ୍ଦୁରୁ ସ୍ପର୍ଶକ ଅଙ୍କନ କରିବା ଅସମ୍ଭବ।"
+},
+{
+"questionEnglish": "What do we call the line that is a tangent to two circles?",
+"questionOdia": "ଦୁଇଟି ବୃତ୍ତର ସ୍ପର୍ଶକ ହୋଇଥିବା ରେଖାକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ସାଧାରଣ ସ୍ପର୍ଶକ (Common tangent)",
+"ବ୍ୟାସ",
+"ଛେଦକ",
+"ଜ୍ୟା"
+],
+"answer": "ସାଧାରଣ ସ୍ପର୍ଶକ (Common tangent)",
+"explanation": "ଉଭୟ ବୃତ୍ତକୁ ସ୍ପର୍ଶ କରୁଥିବାରୁ ଏହା ସାଧାରଣ ସ୍ପର୍ଶକ।"
+},
+{
+"questionEnglish": "What is the angle between two tangents to a circle, if they are drawn from an external point?",
+"questionOdia": "ବାହ୍ୟ ବିନ୍ଦୁରୁ ଅଙ୍କିତ ଦୁଇଟି ସ୍ପର୍ଶକ ମଧ୍ୟରେ କୋଣ କେତେ?",
+"options": [
+"ସର୍ବଦା 90°",
+"କୌଣସି ନିର୍ଦ୍ଦିଷ୍ଟ ମାପ ନାହିଁ",
+"ସର୍ବଦା 60°",
+"ସର୍ବଦା 45°"
+],
+"answer": "କୌଣସି ନିର୍ଦ୍ଦିଷ୍ଟ ମାପ ନାହିଁ",
+"explanation": "ସ୍ପର୍ଶକଦ୍ୱୟ ମଧ୍ୟରେ କୋଣ ବାହ୍ୟ ବିନ୍ଦୁର ଦୂରତା ଉପରେ ନିର୍ଭର କରେ।"
+},
+{
+"questionEnglish": "In a circle, can a chord be a tangent?",
+"questionOdia": "ବୃତ୍ତରେ, କ’ଣ ଗୋଟିଏ ଜ୍ୟା ସ୍ପର୍ଶକ ହୋଇପାରିବ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ଯଦି ତାହା ବ୍ୟାସ ହୁଏ",
+"କେବଳ ବଡ଼ ବୃତ୍ତରେ"
+],
+"answer": "ନା",
+"explanation": "ଜ୍ୟା ବୃତ୍ତର ଭିତର ଦେଇ ଯାଏ, ସ୍ପର୍ଶକ କେବଳ ଛୁଇଁଥାଏ।"
+},
+{
+"questionEnglish": "Which of these is true about the point of contact?",
+"questionOdia": "ସ୍ପର୍ଶ ବିନ୍ଦୁ ସମ୍ବନ୍ଧରେ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ସତ୍ୟ?",
+"options": [
+"ଏଠାରେ ବ୍ୟାସାର୍ଦ୍ଧ ଓ ସ୍ପର୍ଶକ ମିଳିତ ହୁଅନ୍ତି",
+"ଏଠାରେ କେନ୍ଦ୍ର ରହିଥାଏ",
+"ଏଠାରେ ଛେଦକ କାଟିଥାଏ",
+"ଏଠାରେ ଜ୍ୟା ଶେଷ ହୁଏ"
+],
+"answer": "ଏଠାରେ ବ୍ୟାସାର୍ଦ୍ଧ ଓ ସ୍ପର୍ଶକ ମିଳିତ ହୁଅନ୍ତି",
+"explanation": "ସ୍ପର୍ଶ ବିନ୍ଦୁ ହେଉଛି ସ୍ପର୍ଶକ ଓ ବ୍ୟାସାର୍ଦ୍ଧର ମିଳନ ସ୍ଥଳ।"
+},
+{
+"questionEnglish": "If two circles touch internally, how many common tangents are possible?",
+"questionOdia": "ଯଦି ଦୁଇଟି ବୃତ୍ତ ଅନ୍ତଃସ୍ପର୍ଶ କରନ୍ତି, ତେବେ କେତୋଟି ସାଧାରଣ ସ୍ପର୍ଶକ ସମ୍ଭବ?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"ଶୂନ୍ୟ"
+],
+"answer": "ଗୋଟିଏ",
+"explanation": "ଅନ୍ତଃସ୍ପର୍ଶ କରୁଥିବା ବୃତ୍ତଦ୍ୱୟର କେବଳ ଗୋଟିଏ ସାଧାରଣ ସ୍ପର୍ଶକ ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "What is the angle between the tangent and the diameter at the point of contact?",
+"questionOdia": "ସ୍ପର୍ଶ ବିନ୍ଦୁରେ ସ୍ପର୍ଶକ ଓ ବ୍ୟାସ ମଧ୍ୟରେ କୋଣ କେତେ?",
+"options": [
+"90°",
+"180°",
+"0°",
+"45°"
+],
+"answer": "90°",
+"explanation": "ବ୍ୟାସର ଅଧା ବ୍ୟାସାର୍ଦ୍ଧ ହୋଇଥିବାରୁ, ସ୍ପର୍ଶକ ବ୍ୟାସ ସହ ମଧ୍ୟ 90° କୋଣ ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "Is the tangent always outside the circle?",
+"questionOdia": "ସ୍ପର୍ଶକ କ’ଣ ସର୍ବଦା ବୃତ୍ତ ବାହାରେ ରହିଥାଏ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ବଡ଼ ବୃତ୍ତରେ",
+"ଅସମ୍ଭବ"
+],
+"answer": "ହଁ",
+"explanation": "ସ୍ପର୍ଶକ କେବଳ ଗୋଟିଏ ବିନ୍ଦୁରେ ଛୁଇଁ ବାହାର ଦେଇ ଯାଇଥାଏ।"
+},
+{
+"questionEnglish": "How many tangents can be drawn to a circle from a point, if the point is on the circumference?",
+"questionOdia": "ଯଦି ବିନ୍ଦୁଟି ପରିଧି ଉପରେ ଥାଏ, ତେବେ କେତୋଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"୧ଟି",
+"୨ଟି",
+"୦ଟି",
+"ଅନନ୍ତ"
+],
+"answer": "୧ଟି",
+"explanation": "ପରିଧି ଉପରେ ଥିବା ବିନ୍ଦୁରେ ଗୋଟିଏ ମାତ୍ର ସ୍ପର୍ଶକ ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "If the radius of a circle is doubled, what happens to the length of the tangent from a fixed external point?",
+"questionOdia": "ଯଦି ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ ଦୁଇଗୁଣ କରାଯାଏ, ତେବେ ବାହ୍ୟ ବିନ୍ଦୁରୁ ଅଙ୍କିତ ସ୍ପର୍ଶକର ଦୈର୍ଘ୍ୟ କ’ଣ ହେବ?",
+"options": [
+"ବଦଳିବ",
+"ସମାନ ରହିବ",
+"ଅଧା ହୋଇଯିବ",
+"କିଛି କହିହେବ ନାହିଁ"
+],
+"answer": "ବଦଳିବ",
+"explanation": "ବ୍ୟାସାର୍ଦ୍ଧ ବଦଳିଲେ ସ୍ପର୍ଶକର ଦୈର୍ଘ୍ୟ ମଧ୍ୟ ବଦଳିବ।"
+},
+{
+"questionEnglish": "Which of these figures always has a tangent?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଚିତ୍ରରେ ସର୍ବଦା ସ୍ପର୍ଶକ ଥାଏ?",
+"options": [
+"ବୃତ୍ତ",
+"ବର୍ଗଚିତ୍ର",
+"ତ୍ରିଭୁଜ",
+"ରେଖାଖଣ୍ଡ"
+],
+"answer": "ବୃତ୍ତ",
+"explanation": "ସ୍ପର୍ଶକ କେବଳ ବୃତ୍ତ ବା ବକ୍ରରେଖା ପାଇଁ ପ୍ରଯୁଜ୍ୟ।"
+},
+{
+"questionEnglish": "If a line touches a circle at P, then P is called...",
+"questionOdia": "ଯଦି ଏକ ରେଖା P ବିନ୍ଦୁରେ ବୃତ୍ତକୁ ଛୁଏଁ, ତେବେ P କୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ସ୍ପର୍ଶ ବିନ୍ଦୁ",
+"କେନ୍ଦ୍ର",
+"ବ୍ୟାସ",
+"ଛେଦ ବିନ୍ଦୁ"
+],
+"answer": "ସ୍ପର୍ଶ ବିନ୍ଦୁ",
+"explanation": "P ହେଉଛି ସ୍ପର୍ଶ ବିନ୍ଦୁ।"
+},
+{
+"questionEnglish": "Are all tangents to a circle straight lines?",
+"questionOdia": "ବୃତ୍ତର ସମସ୍ତ ସ୍ପର୍ଶକ କ’ଣ ସରଳରେଖା?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ବଡ଼ ବୃତ୍ତର",
+"କେବଳ ଛୋଟ ବୃତ୍ତର"
+],
+"answer": "ହଁ",
+"explanation": "ସ୍ପର୍ଶକ ସର୍ବଦା ଏକ ସରଳରେଖା।"
+},
+{
+"questionEnglish": "What is the maximum number of tangents a circle can have?",
+"questionOdia": "ଏକ ବୃତ୍ତର ସର୍ବାଧିକ କେତୋଟି ସ୍ପର୍ଶକ ଥାଇପାରେ?",
+"options": [
+"ଅସଂଖ୍ୟ",
+"୧ଟି",
+"୨ଟି",
+"୧୦ଟି"
+],
+"answer": "ଅସଂଖ୍ୟ",
+"explanation": "ବୃତ୍ତରେ ଅସଂଖ୍ୟ ବିନ୍ଦୁ ଥାଏ, ତେଣୁ ଅସଂଖ୍ୟ ସ୍ପର୍ଶକ ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "Can two tangents be parallel?",
+"questionOdia": "କ’ଣ ଦୁଇଟି ସ୍ପର୍ଶକ ସମାନ୍ତରାଳ ହୋଇପାରିବେ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି ସେମାନେ ଛେଦକ ହୁଅନ୍ତି",
+"କେବଳ ବୃତ୍ତ ବାହାରେ"
+],
+"answer": "ହଁ",
+"explanation": "ବ୍ୟାସର ଦୁଇ ପ୍ରାନ୍ତରେ ଥିବା ଦୁଇଟି ସ୍ପର୍ଶକ ସମାନ୍ତରାଳ।"
+},
+{
+"questionEnglish": "Is a tangent a type of chord?",
+"questionOdia": "ସ୍ପର୍ଶକ କ’ଣ ଏକ ପ୍ରକାରର ଜ୍ୟା?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ଗୋଟିଏ ବିନ୍ଦୁରେ",
+"ସମ୍ପୂର୍ଣ୍ଣ ଭାବେ"
+],
+"answer": "ନା",
+"explanation": "ଜ୍ୟା ବୃତ୍ତର ଭିତର ଦେଇ ଯାଏ, ସ୍ପର୍ଶକ ବାହାରେ।"
+},
+{
+"questionEnglish": "What is the angle subtended by a tangent at the center?",
+"questionOdia": "ସ୍ପର୍ଶକ ଦ୍ୱାରା କେନ୍ଦ୍ରରେ ସୃଷ୍ଟ କୋଣ କେତେ?",
+"options": [
+"ନିର୍ଦ୍ଦିଷ୍ଟ ନୁହେଁ",
+"90°",
+"180°",
+"0°"
+],
+"answer": "ନିର୍ଦ୍ଦିଷ୍ଟ ନୁହେଁ",
+"explanation": "ସ୍ପର୍ଶକ ବୃତ୍ତର ବାହାରେ ଥାଏ, ତେଣୁ ଏହାର କେନ୍ଦ୍ର ସହ କୋଣ ନିର୍ଦ୍ଦିଷ୍ଟ ନୁହେଁ।"
+},
+{
+"questionEnglish": "Can the radius be a tangent?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ କ’ଣ ସ୍ପର୍ଶକ ହୋଇପାରିବ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ସ୍ପର୍ଶ ବିନ୍ଦୁରେ",
+"ଅସମ୍ଭବ"
+],
+"answer": "ନା",
+"explanation": "ବ୍ୟାସାର୍ଦ୍ଧ ବୃତ୍ତର ଭିତରେ ଥାଏ।"
+},
+{
+"questionEnglish": "What is the length of a tangent if the distance from the center is equal to the radius?",
+"questionOdia": "ଯଦି କେନ୍ଦ୍ରଠାରୁ ଦୂରତା ବ୍ୟାସାର୍ଦ୍ଧ ସହ ସମାନ, ତେବେ ସ୍ପର୍ଶକର ଦୈର୍ଘ୍ୟ କେତେ?",
+"options": [
+"0",
+"ର ବ୍ୟାସାର୍ଦ୍ଧ",
+"ଅସଂଖ୍ୟ",
+"ସୂଚିତ ନୁହେଁ"
+],
+"answer": "0",
+"explanation": "ଯଦି ଦୂରତା ବ୍ୟାସାର୍ଦ୍ଧ ସହ ସମାନ, ତେବେ ବିନ୍ଦୁଟି ପରିଧିରେ ଅଛି, ତେଣୁ ସେଠାରୁ ସ୍ପର୍ଶକ ଦୈର୍ଘ୍ୟ 0।"
+},
+{
+"questionEnglish": "Which of these is used to prove tangent properties?",
+"questionOdia": "ସ୍ପର୍ଶକର ଗୁଣ ପ୍ରମାଣ କରିବା ପାଇଁ କାହାର ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ପାଇଥାଗୋରାସ ଉପପାଦ୍ୟ",
+"ତ୍ରିଭୁଜ କ୍ଷେତ୍ରଫଳ",
+"ବୃତ୍ତର କ୍ଷେତ୍ରଫଳ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପାଇଥାଗୋରାସ ଉପପାଦ୍ୟ",
+"explanation": "କାରଣ ସ୍ପର୍ଶକ ଓ ବ୍ୟାସାର୍ଦ୍ଧ 90° କୋଣ ସୃଷ୍ଟି କରନ୍ତି, ଯାହା ଏକ ସମକୋଣୀ ତ୍ରିଭୁଜ ଗଠନ କରେ।"
+},
+{
+"questionEnglish": "What is the tangent of a circle at the end of a radius called?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧର ଶେଷ ବିନ୍ଦୁରେ ବୃତ୍ତର ସ୍ପର୍ଶକକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ସ୍ପର୍ଶକ",
+"ଛେଦକ",
+"ଜ୍ୟା",
+"ବ୍ୟାସ"
+],
+"answer": "ସ୍ପର୍ଶକ",
+"explanation": "ସଂଜ୍ଞା ଅନୁଯାୟୀ।"
+},
+{
+"questionEnglish": "Are tangents to a circle from a point always equal?",
+"questionOdia": "ବୃତ୍ତର ଏକ ବିନ୍ଦୁରୁ ଅଙ୍କିତ ସ୍ପର୍ଶକ ସର୍ବଦା ସମାନ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି ଦୂରତା ସମାନ",
+"କେବଳ ଛୋଟ ବୃତ୍ତରେ"
+],
+"answer": "ହଁ",
+"explanation": "ବାହ୍ୟ ବିନ୍ଦୁରୁ ଅଙ୍କିତ ସ୍ପର୍ଶକ ସବୁବେଳେ ସମାନ ଦୈର୍ଘ୍ୟର।"
+},
+{
+"questionEnglish": "Is it possible to have three parallel tangents?",
+"questionOdia": "ତିନୋଟି ସମାନ୍ତରାଳ ସ୍ପର୍ଶକ ରହିବା କ’ଣ ସମ୍ଭବ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ବଡ଼ ବୃତ୍ତରେ",
+"କେବଳ ଛୋଟ ବୃତ୍ତରେ"
+],
+"answer": "ନା",
+"explanation": "ବୃତ୍ତରେ କେବଳ ଦୁଇଟି ସମାନ୍ତରାଳ ସ୍ପର୍ଶକ ରହିପାରିବେ।"
+},
+{
+"questionEnglish": "If the tangent is 12 cm and the distance to the center is 13 cm, find the radius.",
+"questionOdia": "ଯଦି ସ୍ପର୍ଶକ 12 ସେମି ଓ କେନ୍ଦ୍ରଠାରୁ ଦୂରତା 13 ସେମି, ବ୍ୟାସାର୍ଦ୍ଧ କେତେ?",
+"options": [
+"5 ସେମି",
+"1 ସେମି",
+"7 ସେମି",
+"25 ସେମି"
+],
+"answer": "5 ସେମି",
+"explanation": "r² = 13² - 12² = 169 - 144 = 25. r = 5 ସେମି।"
+},
+{
+"questionEnglish": "How many common tangents do two intersecting circles have?",
+"questionOdia": "ଦୁଇଟି ଛେଦୀ ବୃତ୍ତର କେତୋଟି ସାଧାରଣ ସ୍ପର୍ଶକ ଥାଏ?",
+"options": [
+"୨ଟି",
+"୧ଟି",
+"୩ଟି",
+"୪ଟି"
+],
+"answer": "୨ଟି",
+"explanation": "ଛେଦୀ ବୃତ୍ତଦ୍ୱୟର କେବଳ ଦୁଇଟି ସାଧାରଣ ବାହ୍ୟ ସ୍ପର୍ଶକ ଥାଏ।"
+},
+{
+"questionEnglish": "Which part of the circle is touched by the tangent?",
+"questionOdia": "ବୃତ୍ତର କେଉଁ ଅଂଶକୁ ସ୍ପର୍ଶକ ଛୁଇଁଥାଏ?",
+"options": [
+"ପରିଧି",
+"କେନ୍ଦ୍ର",
+"ବ୍ୟାସ",
+"ଜ୍ୟା"
+],
+"answer": "ପରିଧି",
+"explanation": "ସ୍ପର୍ଶକ ପରିଧି ଉପରେ ଥିବା ଏକ ବିନ୍ଦୁକୁ ଛୁଇଁଥାଏ।"
+},
+{
+"questionEnglish": "Is the tangent always perpendicular to the diameter?",
+"questionOdia": "ସ୍ପର୍ଶକ କ’ଣ ସର୍ବଦା ବ୍ୟାସ ଉପରେ ଲମ୍ବ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ସ୍ପର୍ଶ ବିନ୍ଦୁରେ",
+"କେବଳ ବାହାରେ"
+],
+"answer": "ହଁ",
+"explanation": "ସ୍ପର୍ଶ ବିନ୍ଦୁରେ ସ୍ପର୍ଶକ ବ୍ୟାସ ଉପରେ ମଧ୍ୟ ଲମ୍ବ।"
+},
+{
+"questionEnglish": "What is the shape of the region between two tangents?",
+"questionOdia": "ଦୁଇଟି ସ୍ପର୍ଶକ ମଧ୍ୟରେ ଥିବା ଅଞ୍ଚଳର ଆକାର କ’ଣ?",
+"options": [
+"ଅନିର୍ଦ୍ଦିଷ୍ଟ",
+"ବୃତ୍ତାକାର",
+"ତ୍ରିଭୁଜାକାର",
+"ବର୍ଗାକାର"
+],
+"answer": "ଅନିର୍ଦ୍ଦିଷ୍ଟ",
+"explanation": "ସେମାନେ ଖୋଲା ଅଞ୍ଚଳ ସୃଷ୍ଟି କରନ୍ତି, ତେଣୁ କୌଣସି ନିର୍ଦ୍ଦିଷ୍ଟ ଜ୍ୟାମିତିକ ଆକାର ନାହିଁ।"
+},
+{
+"questionEnglish": "Can a tangent be a chord of another circle?",
+"questionOdia": "ସ୍ପର୍ଶକ କ’ଣ ଅନ୍ୟ ଏକ ବୃତ୍ତର ଜ୍ୟା ହୋଇପାରିବ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ସମାନ ବୃତ୍ତରେ",
+"ଅସମ୍ଭବ"
+],
+"answer": "ହଁ",
+"explanation": "ଏକ ବୃତ୍ତର ସ୍ପର୍ଶକ ଅନ୍ୟ ଏକ ବୃତ୍ତ ପାଇଁ ଛେଦକ ବା ଜ୍ୟା ହୋଇପାରିବ।"
+},
+{
+"questionEnglish": "Are all points on the tangent equidistant from the center?",
+"questionOdia": "ସ୍ପର୍ଶକ ଉପରେ ଥିବା ସମସ୍ତ ବିନ୍ଦୁ କ’ଣ କେନ୍ଦ୍ରଠାରୁ ସମଦୂରତାରେ ଥାନ୍ତି?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ସ୍ପର୍ଶ ବିନ୍ଦୁ",
+"ଅସମ୍ଭବ"
+],
+"answer": "ନା",
+"explanation": "କେବଳ ସ୍ପର୍ଶ ବିନ୍ଦୁ ସର୍ବନିମ୍ନ ଦୂରତାରେ ଥାଏ, ଅନ୍ୟ ବିନ୍ଦୁମାନେ ଦୂରତାରେ ଥାନ୍ତି।"
+},
+{
+"questionEnglish": "If the length of a tangent is 0, what does it mean?",
+"questionOdia": "ଯଦି ସ୍ପର୍ଶକର ଦୈର୍ଘ୍ୟ 0, ତେବେ ଏହାର ଅର୍ଥ କ’ଣ?",
+"options": [
+"ବିନ୍ଦୁଟି ପରିଧି ଉପରେ ଅଛି",
+"ବିନ୍ଦୁଟି କେନ୍ଦ୍ରରେ ଅଛି",
+"ବୃତ୍ତଟି ନାହିଁ",
+"କିଛି ଅର୍ଥ ନାହିଁ"
+],
+"answer": "ବିନ୍ଦୁଟି ପରିଧି ଉପରେ ଅଛି",
+"explanation": "ପରିଧି ଉପରେ ଥିବା ବିନ୍ଦୁ ପାଇଁ ସ୍ପର୍ଶକ ଦୈର୍ଘ୍ୟ ଶୂନ୍ୟ।"
+},
+{
+"questionEnglish": "Which of these is a property of a circle tangent?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ସ୍ପର୍ଶକର ଗୁଣ?",
+"options": [
+"ସର୍ବଦା ଲମ୍ବ",
+"ସର୍ବଦା ସମାନ୍ତରାଳ",
+"ସର୍ବଦା ଛେଦୀ",
+"ସର୍ବଦା କେନ୍ଦ୍ରଗାମୀ"
+],
+"answer": "ସର୍ବଦା ଲମ୍ବ",
+"explanation": "ସ୍ପର୍ଶକ ବ୍ୟାସାର୍ଦ୍ଧ ଉପରେ ଲମ୍ବ।"
+},
+{
+"questionEnglish": "Are tangent lines only for circles?",
+"questionOdia": "ସ୍ପର୍ଶକ କ’ଣ କେବଳ ବୃତ୍ତ ପାଇଁ ଉଦ୍ଦିଷ୍ଟ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ବର୍ଗଚିତ୍ର ପାଇଁ",
+"କେବଳ ତ୍ରିଭୁଜ ପାଇଁ"
+],
+"answer": "ନା",
+"explanation": "ସ୍ପର୍ଶକ ଅନ୍ୟ ବକ୍ରରେଖା ପାଇଁ ମଧ୍ୟ ଅଙ୍କନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "What is the angle subtended by a chord at the center if the chord is a tangent?",
+"questionOdia": "ଯଦି ଜ୍ୟାଟି ସ୍ପର୍ଶକ ହୁଏ, ତେବେ କେନ୍ଦ୍ରରେ ସୃଷ୍ଟ କୋଣ କେତେ?",
+"options": [
+"ଅସମ୍ଭବ",
+"90°",
+"180°",
+"0°"
+],
+"answer": "ଅସମ୍ଭବ",
+"explanation": "ଜ୍ୟା ବୃତ୍ତର ଭିତରେ ଥାଏ, ସ୍ପର୍ଶକ ବାହାରେ, ତେଣୁ ଏହା ଅସମ୍ଭବ।"
+},
+{
+"questionEnglish": "Can the radius be equal to the tangent length?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ କ’ଣ ସ୍ପର୍ଶକ ଦୈର୍ଘ୍ୟ ସହ ସମାନ ହୋଇପାରିବ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଛୋଟ ବୃତ୍ତରେ",
+"କେବଳ ବଡ଼ ବୃତ୍ତରେ"
+],
+"answer": "ହଁ",
+"explanation": "ଏହା ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁର ଦୂରତା ଉପରେ ନିର୍ଭର କରେ।"
+},
+{
+"questionEnglish": "Are there any tangents from the center?",
+"questionOdia": "କେନ୍ଦ୍ରରୁ କ’ଣ କୌଣସି ସ୍ପର୍ଶକ ଥାଏ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ଗୋଟିଏ",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "ନା",
+"explanation": "କେନ୍ଦ୍ର ଭିତରେ ଥାଏ, ତେଣୁ ସ୍ପର୍ଶକ ସମ୍ଭବ ନୁହେଁ।"
+},
+{
+"questionEnglish": "What happens to the angle between tangents if the point moves closer?",
+"questionOdia": "ଯଦି ବିନ୍ଦୁଟି ବୃତ୍ତ ନିକଟକୁ ଆସେ, ସ୍ପର୍ଶକ ମଧ୍ୟରେ କୋଣ କ’ଣ ହେବ?",
+"options": [
+"ବଢ଼ିବ",
+"କମିବ",
+"ସମାନ ରହିବ",
+"ଶୂନ୍ୟ ହେବ"
+],
+"answer": "ବଢ଼ିବ",
+"explanation": "ବିନ୍ଦୁ ନିକଟତର ହେଲେ ସ୍ପର୍ଶକ ମଧ୍ୟରେ କୋଣ ବୃଦ୍ଧି ପାଏ।"
+},
+{
+"questionEnglish": "Is a tangent a straight line?",
+"questionOdia": "ସ୍ପର୍ଶକ କ’ଣ ଏକ ସରଳରେଖା?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ବଡ଼ ବୃତ୍ତରେ",
+"କେବଳ ଛୋଟ ବୃତ୍ତରେ"
+],
+"answer": "ହଁ",
+"explanation": "ସ୍ପର୍ଶକ ସର୍ବଦା ସରଳରେଖା।"
+},
+{
+"questionEnglish": "How many tangents can be drawn to a circle if the radius is very small?",
+"questionOdia": "ଯଦି ବ୍ୟାସାର୍ଦ୍ଧ ବହୁତ ଛୋଟ, ତେବେ କେତୋଟି ସ୍ପର୍ଶକ ସମ୍ଭବ?",
+"options": [
+"ଅସଂଖ୍ୟ",
+"୧ଟି",
+"୨ଟି",
+"୦ଟି"
+],
+"answer": "ଅସଂଖ୍ୟ",
+"explanation": "ବୃତ୍ତଟି ଯେତେ ଛୋଟ ହେଲେ ମଧ୍ୟ ସେଥିରେ ଅସଂଖ୍ୟ ବିନ୍ଦୁ ଥାଏ।"
+},
+{
+"questionEnglish": "Do all circles have tangents?",
+"questionOdia": "ସମସ୍ତ ବୃତ୍ତର କ’ଣ ସ୍ପର୍ଶକ ଥାଏ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ କେନ୍ଦ୍ର ଥିବା ବୃତ୍ତର",
+"କେବଳ ବଡ଼ ବୃତ୍ତର"
+],
+"answer": "ହଁ",
+"explanation": "ପ୍ରତ୍ୟେକ ବୃତ୍ତରେ ସ୍ପର୍ଶକ ଥାଏ।"
+},
+{
+"questionEnglish": "Can the distance from the center to the tangent be zero?",
+"questionOdia": "କେନ୍ଦ୍ରରୁ ସ୍ପର୍ଶକର ଦୂରତା କ’ଣ ଶୂନ୍ୟ ହୋଇପାରିବ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ଛୋଟ ବୃତ୍ତରେ",
+"ଅସମ୍ଭବ"
+],
+"answer": "ନା",
+"explanation": "କେନ୍ଦ୍ରଠାରୁ ଦୂରତା ବ୍ୟାସାର୍ଦ୍ଧ ସହ ସମାନ।"
+},
+{
+"questionEnglish": "What is the term for two tangents from a point?",
+"questionOdia": "ଏକ ବିନ୍ଦୁରୁ ଦୁଇଟି ସ୍ପର୍ଶକକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ଯୁଗ୍ମ ସ୍ପର୍ଶକ",
+"ସାଧାରଣ ସ୍ପର୍ଶକ",
+"ସମାନ୍ତରାଳ ସ୍ପର୍ଶକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଯୁଗ୍ମ ସ୍ପର୍ଶକ",
+"explanation": "ବାହ୍ୟ ବିନ୍ଦୁରୁ ଦୁଇଟି ସ୍ପର୍ଶକ ଥାଏ, ତେଣୁ ସେମାନେ ଯୁଗ୍ମ।"
+},
+{
+"questionEnglish": "Are tangents to a circle from a point always unique?",
+"questionOdia": "ଏକ ବିନ୍ଦୁରୁ ବୃତ୍ତକୁ ସ୍ପର୍ଶକ ସର୍ବଦା ଅଦ୍ୱିତୀୟ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଛୋଟ ବୃତ୍ତରେ",
+"ଅସମ୍ଭବ"
+],
+"answer": "ହଁ",
+"explanation": "ବାହ୍ୟ ବିନ୍ଦୁରୁ ଦୁଇଟି ସ୍ପର୍ଶକ ଥାଏ।"
+},
+{
+"questionEnglish": "Can a tangent have more than one point of contact?",
+"questionOdia": "ସ୍ପର୍ଶକର କ’ଣ ଏକରୁ ଅଧିକ ସ୍ପର୍ଶ ବିନ୍ଦୁ ଥାଇପାରେ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ବଡ଼ ବୃତ୍ତରେ",
+"ଅସମ୍ଭବ"
+],
+"answer": "ନା",
+"explanation": "ସ୍ପର୍ଶକ ମାତ୍ର ଗୋଟିଏ ବିନ୍ଦୁରେ ଛୁଇଁଥାଏ।"
+},
+{
+"questionEnglish": "If the tangent is parallel to a chord, what is the distance between them?",
+"questionOdia": "ଯଦି ସ୍ପର୍ଶକ ଜ୍ୟା ସହ ସମାନ୍ତରାଳ, ତେବେ ସେମାନଙ୍କ ମଧ୍ୟରେ ଦୂରତା କେତେ?",
+"options": [
+"ନିର୍ଦ୍ଦିଷ୍ଟ ନୁହେଁ",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ବ୍ୟାସ",
+"ଶୂନ୍ୟ"
+],
+"answer": "ନିର୍ଦ୍ଦିଷ୍ଟ ନୁହେଁ",
+"explanation": "ଏହା ଜ୍ୟାର ଅବସ୍ଥିତି ଉପରେ ନିର୍ଭର କରେ।"
+},
+{
+"questionEnglish": "Is a tangent a line or a segment?",
+"questionOdia": "ସ୍ପର୍ଶକ ଏକ ରେଖା କି ରେଖାଖଣ୍ଡ?",
+"options": [
+"ରେଖା",
+"ରେଖାଖଣ୍ଡ",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରେଖା",
+"explanation": "ସ୍ପର୍ଶକ ସର୍ବଦା ଅନନ୍ତ ରେଖା।"
+},
+{
+"questionEnglish": "Can tangents be drawn to a point on the circle?",
+"questionOdia": "ବୃତ୍ତ ଉପରେ ଥିବା ବିନ୍ଦୁରେ ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ଅସମ୍ଭବ",
+"କେବଳ ଦୁଇଟି"
+],
+"answer": "ହଁ",
+"explanation": "ପରିଧିର ପ୍ରତ୍ୟେକ ବିନ୍ଦୁରେ ସ୍ପର୍ଶକ ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "What happens if a tangent is drawn from a point inside?",
+"questionOdia": "ଯଦି ଭିତରେ ଥିବା ବିନ୍ଦୁରୁ ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଏ, ତେବେ କ’ଣ ହେବ?",
+"options": [
+"ଅସମ୍ଭବ",
+"ଛେଦକ ହେବ",
+"ସରଳରେଖା ହେବ",
+"କିଛି ହେବ ନାହିଁ"
+],
+"answer": "ଅସମ୍ଭବ",
+"explanation": "ଭିତରେ ଥିବା ବିନ୍ଦୁରୁ ସ୍ପର୍ଶକ ଅଙ୍କନ ଅସମ୍ଭବ।"
+},
+{
+"questionEnglish": "Are all points on the tangent unique?",
+"questionOdia": "ସ୍ପର୍ଶକର ସମସ୍ତ ବିନ୍ଦୁ କ’ଣ ଅଦ୍ୱିତୀୟ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ସ୍ପର୍ଶ ବିନ୍ଦୁ",
+"ଅସମ୍ଭବ"
+],
+"answer": "ହଁ",
+"explanation": "ସ୍ପର୍ଶକ ଏକ ଗଣିତ ବିନ୍ଦୁର ସେଟ୍।"
+},
+{
+"questionEnglish": "Which part of the circle is perpendicular to the tangent?",
+"questionOdia": "ବୃତ୍ତର କେଉଁ ଅଂଶ ସ୍ପର୍ଶକ ଉପରେ ଲମ୍ବ?",
+"options": [
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ଜ୍ୟା",
+"କେନ୍ଦ୍ର",
+"ଛେଦକ"
+],
+"answer": "ବ୍ୟାସାର୍ଦ୍ଧ",
+"explanation": "ସ୍ପର୍ଶକ ସ୍ପର୍ଶ ବିନ୍ଦୁରେ ବ୍ୟାସାର୍ଦ୍ଧ ଉପରେ ଲମ୍ବ।"
+},
+{
+"questionEnglish": "Is a circle tangent a curve?",
+"questionOdia": "ବୃତ୍ତର ସ୍ପର୍ଶକ କ’ଣ ଏକ ବକ୍ରରେଖା?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ଛୋଟ ବୃତ୍ତରେ",
+"କେବଳ ବଡ଼ ବୃତ୍ତରେ"
+],
+"answer": "ନା",
+"explanation": "ସ୍ପର୍ଶକ ସବୁବେଳେ ସରଳରେଖା।"
+},
+{
+"questionEnglish": "What is the angle subtended by two tangents?",
+"questionOdia": "ଦୁଇଟି ସ୍ପର୍ଶକ ମଧ୍ୟରେ କୋଣ କେତେ?",
+"options": [
+"ନିର୍ଦ୍ଦିଷ୍ଟ ନୁହେଁ",
+"90°",
+"180°",
+"0°"
+],
+"answer": "ନିର୍ଦ୍ଦିଷ୍ଟ ନୁହେଁ",
+"explanation": "ଏହା ବିନ୍ଦୁର ଦୂରତା ଉପରେ ନିର୍ଭର କରେ।"
+},
+{
+"questionEnglish": "Can a tangent be perpendicular to another tangent?",
+"questionOdia": "ସ୍ପର୍ଶକ କ’ଣ ଅନ୍ୟ ଏକ ସ୍ପର୍ଶକ ଉପରେ ଲମ୍ବ ହୋଇପାରିବ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ସମାନ ବୃତ୍ତରେ",
+"ଅସମ୍ଭବ"
+],
+"answer": "ହଁ",
+"explanation": "ଯଦି ଦୁଇଟି ସ୍ପର୍ଶକ ବାହ୍ୟ ବିନ୍ଦୁରେ 90° କୋଣ କରନ୍ତି, ତେବେ ସେମାନେ ଲମ୍ବ।"
+},
+{
+"questionEnglish": "How many tangents to a circle have the same slope?",
+"questionOdia": "କେତୋଟି ସ୍ପର୍ଶକର ଢାଲ ସମାନ?",
+"options": [
+"୨ଟି",
+"୧ଟି",
+"୩ଟି",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "୨ଟି",
+"explanation": "ବୃତ୍ତରେ ଦୁଇଟି ସ୍ପର୍ଶକ ସର୍ବଦା ସମାନ୍ତରାଳ (ସମାନ ଢାଲ) ଥାନ୍ତି।"
+},
+{
+"questionEnglish": "What happens to the tangent if the circle radius is infinity?",
+"questionOdia": "ଯଦି ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ ଅନନ୍ତ, ତେବେ ସ୍ପର୍ଶକ କ’ଣ ହେବ?",
+"options": [
+"ଏକ ସରଳରେଖା",
+"ଏକ ବକ୍ରରେଖା",
+"ଅସ୍ତିତ୍ୱହୀନ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ଏକ ସରଳରେଖା",
+"explanation": "ଅନନ୍ତ ବ୍ୟାସାର୍ଦ୍ଧ ବିଶିଷ୍ଟ ବୃତ୍ତ ଏକ ସରଳରେଖା ପରି।"
+},
+{
+"questionEnglish": "Are all tangents to a circle drawn from the same point equal?",
+"questionOdia": "ଏକ ବିନ୍ଦୁରୁ ଅଙ୍କିତ ସମସ୍ତ ସ୍ପର୍ଶକ ସମାନ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି",
+"ଅସମ୍ଭବ"
+],
+"answer": "ହଁ",
+"explanation": "ବାହ୍ୟ ବିନ୍ଦୁରୁ ଅଙ୍କିତ ସ୍ପର୍ଶକ ସମାନ।"
+}
+]
