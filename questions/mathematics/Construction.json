@@ -1,1 +1,1287 @@
 
+[
+{
+"questionEnglish": "In the context of constructing a triangle, which geometric concept is primarily applied for drawing triangles with equal areas?",
+"questionOdia": "ତ୍ରିଭୁଜ ଅଙ୍କନ କରିବା ସମୟରେ, ସମାନ କ୍ଷେତ୍ରଫଳ ବିଶିଷ୍ଟ ତ୍ରିଭୁଜ ଅଙ୍କନ ପାଇଁ କେଉଁ ଜ୍ୟାମିତିକ ଧାରଣା ପ୍ରଧାନତଃ ପ୍ରୟୋଗ କରାଯାଏ?",
+"options": [
+"ପିଥାଗୋରସ୍ ଉପପାଦ୍ୟ",
+"କ୍ଷେତ୍ରଫଳ ସମ୍ବନ୍ଧୀୟ ଉପପାଦ୍ୟ",
+"ସର୍ବସମତା ନିୟମ",
+"ବୃତ୍ତର ଉପପାଦ୍ୟ"
+],
+"answer": "କ୍ଷେତ୍ରଫଳ ସମ୍ବନ୍ଧୀୟ ଉପପାଦ୍ୟ",
+"explanation": "ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ ସମ୍ବନ୍ଧୀୟ ଉପପାଦ୍ୟଗୁଡ଼ିକୁ ପ୍ରୟୋଗ କରି ସମାନ କ୍ଷେତ୍ରଫଳ ବିଶିଷ୍ଟ ବିଭିନ୍ନ ପ୍ରକାରର ତ୍ରିଭୁଜ ଅଙ୍କନ କରାଯାଇଥାଏ।"
+},
+{
+"questionEnglish": "Which of the following geometric figures can be constructed using the principles of equal area triangle construction?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଜ୍ୟାମିତିକ ଚିତ୍ରଗୁଡ଼ିକୁ ସମାନ କ୍ଷେତ୍ରଫଳ ବିଶିଷ୍ଟ ତ୍ରିଭୁଜ ଅଙ୍କନ ପ୍ରଣାଳୀ ବ୍ୟବହାର କରି ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"ସମଦ୍ବିବାହୁ ତ୍ରିଭୁଜ",
+"ସମକୋଣୀ ତ୍ରିଭୁଜ",
+"ଆୟତଚିତ୍ର",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "କ୍ଷେତ୍ରଫଳ ସମ୍ବନ୍ଧୀୟ ଉପପାଦ୍ୟ ପ୍ରୟୋଗ କରି ସମଦ୍ବିବାହୁ ତ୍ରିଭୁଜ, ସମକୋଣୀ ତ୍ରିଭୁଜ ଏବଂ ଆୟତଚିତ୍ର ଇତ୍ୟାଦି ଅଙ୍କନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "What is the definition of the circumcircle (Paribrutta) of a triangle?",
+"questionOdia": "ତ୍ରିଭୁଜର ପରିବୃତ୍ତ (Paribrutta) ର ସଂଜ୍ଞା କ'ଣ?",
+"options": [
+"ତ୍ରିଭୁଜର ଭିତର ଦେଇ ଯାଉଥିବା ବୃତ୍ତ",
+"ତ୍ରିଭୁଜର ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁ ଦେଇ ଯାଉଥିବା ବୃତ୍ତ",
+"ତ୍ରିଭୁଜର ବାହୁକୁ ସ୍ପର୍ଶ କରୁଥିବା ବୃତ୍ତ",
+"ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ ସହିତ ସମାନ ବୃତ୍ତ"
+],
+"answer": "ତ୍ରିଭୁଜର ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁ ଦେଇ ଯାଉଥିବା ବୃତ୍ତ",
+"explanation": "ଯେଉଁ ବୃତ୍ତଟି ଏକ ତ୍ରିଭୁଜର ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁକୁ ସ୍ପର୍ଶ କରି ଅତିକ୍ରମ କରେ, ତାହାକୁ ଉକ୍ତ ତ୍ରିଭୁଜର ପରିବୃତ୍ତ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "To construct a circumcircle of a triangle, which lines must be intersected?",
+"questionOdia": "ତ୍ରିଭୁଜର ପରିବୃତ୍ତ ଅଙ୍କନ କରିବା ପାଇଁ, କେଉଁ ରେଖାଗୁଡ଼ିକର ଛେଦବିନ୍ଦୁ ଆବଶ୍ୟକ?",
+"options": [
+"କୋଣ ସମଦ୍ବିଖଣ୍ଡକ",
+"ବାହୁର ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ",
+"ମାଧ୍ୟମା",
+"ଉଚ୍ଚତା"
+],
+"answer": "ବାହୁର ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ",
+"explanation": "ତ୍ରିଭୁଜର ଦୁଇଟି ବାହୁର ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ ଯେଉଁଠାରେ ଛେଦ କରନ୍ତି, ତାହା ପରିବୃତ୍ତର କେନ୍ଦ୍ର (ପରିକେନ୍ଦ୍ର) ଅଟେ।"
+},
+{
+"questionEnglish": "When constructing a tangent to a circle from a point on the circle, how is the radius related to the tangent?",
+"questionOdia": "ବୃତ୍ତ ଉପରିସ୍ଥ ଏକ ବିନ୍ଦୁରୁ ସ୍ପର୍ଶକ ଅଙ୍କନ କରିବା ସମୟରେ, ବ୍ୟାସାର୍ଦ୍ଧ ସ୍ପର୍ଶକ ସହିତ କିପରି ସମ୍ପର୍କିତ?",
+"options": [
+"ସ୍ପର୍ଶକ ସହିତ ସମାନ୍ତରାଳ",
+"ସ୍ପର୍ଶକ ସହିତ ଲମ୍ବ",
+"ସ୍ପର୍ଶକ ସହିତ 60 ଡିଗ୍ରୀ କୋଣ କରେ",
+"ସ୍ପର୍ଶକ ସହିତ କୌଣସି ସମ୍ପର୍କ ନାହିଁ"
+],
+"answer": "ସ୍ପର୍ଶକ ସହିତ ଲମ୍ବ",
+"explanation": "ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ ସ୍ପର୍ଶବିନ୍ଦୁ ଗାମୀ ସ୍ପର୍ଶକ ସହିତ ସର୍ବଦା ଲମ୍ବ (90°) ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What does a tangent to a circle represent in terms of the number of points it touches?",
+"questionOdia": "ବୃତ୍ତର ଏକ ସ୍ପର୍ଶକ ବୃତ୍ତକୁ କେତୋଟି ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରେ?",
+"options": [
+"ଦୁଇଟି",
+"ଗୋଟିଏ",
+"ତିନୋଟି",
+"କୌଣସି ବିନ୍ଦୁ ନୁହେଁ"
+],
+"answer": "ଗୋଟିଏ",
+"explanation": "ସ୍ପର୍ଶକ ହେଉଛି ଏକ ରେଖା ଯାହା ବୃତ୍ତକୁ କେବଳ ଗୋଟିଏ ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରିଥାଏ।"
+},
+{
+"questionEnglish": "In triangle construction, what is the importance of the base angle in constructing a specific triangle?",
+"questionOdia": "ତ୍ରିଭୁଜ ଅଙ୍କନରେ, ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ତ୍ରିଭୁଜ ଅଙ୍କନ ପାଇଁ ଭୂମି ସଂଲଗ୍ନ କୋଣର ଗୁରୁତ୍ୱ କ'ଣ?",
+"options": [
+"ଏହା କ୍ଷେତ୍ରଫଳ ନିର୍ଣ୍ଣୟ କରେ",
+"ଏହା ବାହୁର ଦୈର୍ଘ୍ୟ ନିର୍ଦ୍ଧାରଣ କରେ",
+"ଏହା ଶୀର୍ଷବିନ୍ଦୁର ଅବସ୍ଥାନ ନିର୍ଣ୍ଣୟ କରେ",
+"ଏହାର କୌଣସି ଭୂମିକା ନାହିଁ"
+],
+"answer": "ଏହା ଶୀର୍ଷବିନ୍ଦୁର ଅବସ୍ଥାନ ନିର୍ଣ୍ଣୟ କରେ",
+"explanation": "ଭୂମି ସଂଲଗ୍ନ କୋଣଗୁଡ଼ିକ ଶୀର୍ଷବିନ୍ଦୁ କେଉଁଠାରେ ଅବସ୍ଥିତ ତାହା ନିର୍ଦ୍ଧାରଣ କରିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Which tool is primarily used for drawing arcs in geometric constructions?",
+"questionOdia": "ଜ୍ୟାମିତିକ ଅଙ୍କନରେ ଚାପ (Arcs) ଆଙ୍କିବା ପାଇଁ ମୁଖ୍ୟତଃ କେଉଁ ଯନ୍ତ୍ର ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ସ୍କେଲ (Scale)",
+"ପ୍ରକାର (Compass)",
+"ଚାନ୍ଦା (Protractor)",
+"ସେଟ୍ ସ୍କୋୟାର (Set Square)"
+],
+"answer": "ପ୍ରକାର (Compass)",
+"explanation": "ପ୍ରକାର (Compass) ବ୍ୟବହାର କରି ଆମେ ନିର୍ଦ୍ଦିଷ୍ଟ ବ୍ୟାସାର୍ଦ୍ଧର ଚାପ ଆଙ୍କିପାରିବା।"
+},
+{
+"questionEnglish": "To construct a triangle equal in area to a given quadrilateral, what is the first step?",
+"questionOdia": "ଏକ ଦତ୍ତ ଚତୁର୍ଭୁଜ ସହିତ ସମାନ କ୍ଷେତ୍ରଫଳ ବିଶିଷ୍ଟ ତ୍ରିଭୁଜ ଅଙ୍କନ କରିବା ପାଇଁ ପ୍ରଥମ ପଦକ୍ଷେପ କ'ଣ?",
+"options": [
+"ଚତୁର୍ଭୁଜର କର୍ଣ୍ଣ ଅଙ୍କନ କରିବା",
+"କୋଣ ମାପିବା",
+"ବାହୁକୁ ବଢ଼ାଇବା",
+"ବୃତ୍ତ ଆଙ୍କିବା"
+],
+"answer": "ଚତୁର୍ଭୁଜର କର୍ଣ୍ଣ ଅଙ୍କନ କରିବା",
+"explanation": "ଚତୁର୍ଭୁଜକୁ ଦୁଇଟି ତ୍ରିଭୁଜରେ ବିଭକ୍ତ କରିବା ପାଇଁ ଏହାର କର୍ଣ୍ଣ ଅଙ୍କନ କରିବା ପ୍ରଥମ ପଦକ୍ଷେପ।"
+},
+{
+"questionEnglish": "What does a perpendicular bisector of a line segment mean?",
+"questionOdia": "ଏକ ରେଖାଖଣ୍ଡର ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ରେଖାଖଣ୍ଡକୁ ତିନି ଭାଗ କରୁଥିବା ଲମ୍ବ",
+"ରେଖାଖଣ୍ଡକୁ ଦୁଇ ସମାନ ଭାଗ କରୁଥିବା ଏବଂ 90° କୋଣ କରୁଥିବା ରେଖା",
+"ରେଖାଖଣ୍ଡର ସମାନ୍ତରାଳ ରେଖା",
+"ରେଖାଖଣ୍ଡକୁ ସ୍ପର୍ଶ କରୁଥିବା ବୃତ୍ତ"
+],
+"answer": "ରେଖାଖଣ୍ଡକୁ ଦୁଇ ସମାନ ଭାଗ କରୁଥିବା ଏବଂ 90° କୋଣ କରୁଥିବା ରେଖା",
+"explanation": "ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ ରେଖାଖଣ୍ଡକୁ ମଧ୍ୟବିନ୍ଦୁରେ ସମଦ୍ବିଖଣ୍ଡିତ କରେ ଏବଂ ତା' ଉପରେ 90° କୋଣ ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "When drawing a tangent from an external point to a circle, what geometric figure is formed by the point, center, and contact point?",
+"questionOdia": "ବୃତ୍ତର ବହିଃସ୍ଥ ଏକ ବିନ୍ଦୁରୁ ସ୍ପର୍ଶକ ଅଙ୍କନ କରିବା ସମୟରେ, ବାହ୍ୟ ବିନ୍ଦୁ, କେନ୍ଦ୍ର ଏବଂ ସ୍ପର୍ଶବିନ୍ଦୁ ମିଶି କେଉଁ ଜ୍ୟାମିତିକ ଚିତ୍ର ଗଠନ କରନ୍ତି?",
+"options": [
+"ସମକୋଣୀ ତ୍ରିଭୁଜ",
+"ସମବାହୁ ତ୍ରିଭୁଜ",
+"ଆୟତଚିତ୍ର",
+"ବର୍ଗଚିତ୍ର"
+],
+"answer": "ସମକୋଣୀ ତ୍ରିଭୁଜ",
+"explanation": "ବାହ୍ୟ ବିନ୍ଦୁରୁ ସ୍ପର୍ଶବିନ୍ଦୁକୁ ସଂଯୋଗ କରୁଥିବା ରେଖା ବ୍ୟାସାର୍ଦ୍ଧ ସହିତ ଲମ୍ବ ହୋଇଥିବାରୁ ଏକ ସମକୋଣୀ ତ୍ରିଭୁଜ ସୃଷ୍ଟି ହୁଏ।"
+},
+{
+"questionEnglish": "What is the primary objective of constructing a circumcircle?",
+"questionOdia": "ପରିବୃତ୍ତ ଅଙ୍କନ କରିବାର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ'ଣ?",
+"options": [
+"ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ ବଢ଼ାଇବା",
+"ତ୍ରିଭୁଜର ଶୀର୍ଷବିନ୍ଦୁଗୁଡ଼ିକୁ ବୃତ୍ତରେ ରଖିବା",
+"ତ୍ରିଭୁଜର କୋଣ ମାପିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ତ୍ରିଭୁଜର ଶୀର୍ଷବିନ୍ଦୁଗୁଡ଼ିକୁ ବୃତ୍ତରେ ରଖିବା",
+"explanation": "ପରିବୃତ୍ତ ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁ ଦେଇ ଯାଇଥାଏ, ତେଣୁ ସେଗୁଡ଼ିକୁ ବୃତ୍ତରେ ସ୍ଥାପନ କରିବା ଏହାର ଉଦ୍ଦେଶ୍ୟ।"
+},
+{
+"questionEnglish": "Which property of triangles is used to construct a triangle equal in area to a given triangle but with a different base?",
+"questionOdia": "ଦତ୍ତ ତ୍ରିଭୁଜ ସହିତ ସମାନ କ୍ଷେତ୍ରଫଳ ବିଶିଷ୍ଟ କିନ୍ତୁ ଭିନ୍ନ ଭୂମି ଥିବା ତ୍ରିଭୁଜ ଅଙ୍କନ କରିବା ପାଇଁ ତ୍ରିଭୁଜର କେଉଁ ଗୁଣ ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"ସମାନ ଭୂମି ଓ ସମାନ ଉଚ୍ଚତା",
+"ଭିନ୍ନ ଭୂମି ଓ ଭିନ୍ନ ଉଚ୍ଚତା",
+"ସମାନ ଭୂମି ଓ ଭିନ୍ନ ଉଚ୍ଚତା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମାନ ଭୂମି ଓ ସମାନ ଉଚ୍ଚତା",
+"explanation": "ଯଦି ଦୁଇଟି ତ୍ରିଭୁଜର ଭୂମି ଓ ଉଚ୍ଚତା ସମାନ ହୁଏ, ତେବେ ସେମାନଙ୍କ କ୍ଷେତ୍ରଫଳ ସମାନ ହେବ।"
+},
+{
+"questionEnglish": "If a triangle has sides of 3 cm, 4 cm, and 5 cm, what type of triangle is it?",
+"questionOdia": "ଯଦି ଏକ ତ୍ରିଭୁଜର ବାହୁଗୁଡ଼ିକ 3 ସେ.ମି., 4 ସେ.ମି. ଏବଂ 5 ସେ.ମି. ହୁଏ, ତେବେ ଏହା କେଉଁ ପ୍ରକାରର ତ୍ରିଭୁଜ?",
+"options": [
+"ସମବାହୁ ତ୍ରିଭୁଜ",
+"ସମଦ୍ବିବାହୁ ତ୍ରିଭୁଜ",
+"ସମକୋଣୀ ତ୍ରିଭୁଜ",
+"ସ୍ଥୂଳକୋଣୀ ତ୍ରିଭୁଜ"
+],
+"answer": "ସମକୋଣୀ ତ୍ରିଭୁଜ",
+"explanation": "3² + 4² = 9 + 16 = 25 = 5²। ପାଇଥାଗୋରାସ୍ ଉପପାଦ୍ୟ ଅନୁଯାୟୀ ଏହା ଏକ ସମକୋଣୀ ତ୍ରିଭୁଜ।"
+},
+{
+"questionEnglish": "In construction, what is the role of a set square?",
+"questionOdia": "ଅଙ୍କନରେ ସେଟ୍ ସ୍କୋୟାରର ଭୂମିକା କ'ଣ?",
+"options": [
+"ବୃତ୍ତ ଆଙ୍କିବା",
+"ସମାନ୍ତରାଳ ରେଖା ଓ ଲମ୍ବ ଅଙ୍କନ କରିବା",
+"କୋଣ ମାପିବା",
+"ଚାପ ଆଙ୍କିବା"
+],
+"answer": "ସମାନ୍ତରାଳ ରେଖା ଓ ଲମ୍ବ ଅଙ୍କନ କରିବା",
+"explanation": "ସେଟ୍ ସ୍କୋୟାର ସାହାଯ୍ୟରେ ସହଜରେ ସମାନ୍ତରାଳ ରେଖା ଓ ଲମ୍ବ ରେଖା ଅଙ୍କନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "To draw a tangent to a circle from a point on the circle, how do you construct the line perpendicular to the radius?",
+"questionOdia": "ବୃତ୍ତ ଉପରିସ୍ଥ ଏକ ବିନ୍ଦୁରୁ ସ୍ପର୍ଶକ ଆଙ୍କିବା ପାଇଁ, ବ୍ୟାସାର୍ଦ୍ଧ ଉପରେ ଲମ୍ବ କିପରି ଅଙ୍କନ କରିବ?",
+"options": [
+"କେବଳ ସ୍କେଲ ବ୍ୟବହାର କରି",
+"ପ୍ରକାର ସାହାଯ୍ୟରେ 90° କୋଣ କରି",
+"ଚାନ୍ଦା ସାହାଯ୍ୟରେ",
+"ସେଟ୍ ସ୍କୋୟାର ଦ୍ୱାରା"
+],
+"answer": "ପ୍ରକାର ସାହାଯ୍ୟରେ 90° କୋଣ କରି",
+"explanation": "ସ୍ପର୍ଶବିନ୍ଦୁରେ ପ୍ରକାର ସାହାଯ୍ୟରେ 90° କୋଣ ଅଙ୍କନ କଲେ ତାହା ସ୍ପର୍ଶକ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What does 'Incircle' mean in geometry?",
+"questionOdia": "ଜ୍ୟାମିତିରେ 'ଅନ୍ତଃବୃତ୍ତ' (Incircle) ର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ତ୍ରିଭୁଜର ବାହାରେ ଥିବା ବୃତ୍ତ",
+"ତ୍ରିଭୁଜର ତିନୋଟି ବାହୁକୁ ସ୍ପର୍ଶ କରୁଥିବା ବୃତ୍ତ",
+"ତ୍ରିଭୁଜର କର୍ଣ୍ଣ ଦେଇ ଯାଉଥିବା ବୃତ୍ତ",
+"ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳକୁ ଦୁଇ ଭାଗ କରୁଥିବା ବୃତ୍ତ"
+],
+"answer": "ତ୍ରିଭୁଜର ତିନୋଟି ବାହୁକୁ ସ୍ପର୍ଶ କରୁଥିବା ବୃତ୍ତ",
+"explanation": "ଯେଉଁ ବୃତ୍ତଟି ତ୍ରିଭୁଜର ତିନୋଟି ବାହୁକୁ ଭିତରୁ ସ୍ପର୍ଶ କରେ, ତାହାକୁ ଅନ୍ତଃବୃତ୍ତ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "How many tangents can be drawn from an external point to a circle?",
+"questionOdia": "ବୃତ୍ତର ବହିଃସ୍ଥ ଏକ ବିନ୍ଦୁରୁ କେତୋଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଦୁଇଟି",
+"explanation": "ବୃତ୍ତର ବହିଃସ୍ଥ ଏକ ବିନ୍ଦୁରୁ ବୃତ୍ତ ପ୍ରତି ସର୍ବାଧିକ ଦୁଇଟି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "When constructing a triangle, if two sides and the included angle are given, which method is used?",
+"questionOdia": "ତ୍ରିଭୁଜ ଅଙ୍କନ କରିବା ସମୟରେ, ଯଦି ଦୁଇଟି ବାହୁ ଓ ସେମାନଙ୍କ ମଧ୍ୟବର୍ତ୍ତୀ କୋଣ ଦିଆଯାଇଥାଏ, ତେବେ କେଉଁ ପଦ୍ଧତି ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"SSS",
+"SAS",
+"ASA",
+"RHS"
+],
+"answer": "SAS",
+"explanation": "Side-Angle-Side (SAS) ନିୟମ ଅନୁସାରେ ଦୁଇଟି ବାହୁ ଓ ସେମାନଙ୍କ ମଧ୍ୟବର୍ତ୍ତୀ କୋଣ ଜାଣିଲେ ତ୍ରିଭୁଜ ଅଙ୍କନ ହୋଇପାରିବ।"
+},
+{
+"questionEnglish": "What is the purpose of constructing a triangle equal in area to a rectangle?",
+"questionOdia": "ଆୟତଚିତ୍ର ସହିତ ସମାନ କ୍ଷେତ୍ରଫଳ ବିଶିଷ୍ଟ ତ୍ରିଭୁଜ ଅଙ୍କନ କରିବାର ଉଦ୍ଦେଶ୍ୟ କ'ଣ?",
+"options": [
+"କ୍ଷେତ୍ରଫଳର ତୁଳନା କରିବା",
+"ଜ୍ୟାମିତିକ ଅଙ୍କନ କୌଶଳ ଶିଖିବା",
+"ବାହୁର ଦୈର୍ଘ୍ୟ ମାପିବା",
+"କୋଣର ମାନ ପରିବର୍ତ୍ତନ କରିବା"
+],
+"answer": "ଜ୍ୟାମିତିକ ଅଙ୍କନ କୌଶଳ ଶିଖିବା",
+"explanation": "ବିଭିନ୍ନ ଆକୃତି ମଧ୍ୟରେ କ୍ଷେତ୍ରଫଳର ସମ୍ପର୍କ ଏବଂ ଜ୍ୟାମିତିକ ଅଙ୍କନର କୌଶଳ ବୁଝିବା ଏହାର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ।"
+},
+{
+"questionEnglish": "What is the characteristic of the center of the circumcircle?",
+"questionOdia": "ପରିବୃତ୍ତର କେନ୍ଦ୍ରର ବୈଶିଷ୍ଟ୍ୟ କ'ଣ?",
+"options": [
+"ଏହା ତ୍ରିଭୁଜର କେନ୍ଦ୍ରରେ ଥାଏ",
+"ଏହା ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁଠାରୁ ସମଦୂରବର୍ତ୍ତୀ",
+"ଏହା ବାହୁ ଉପରେ ଥାଏ",
+"ଏହା ତ୍ରିଭୁଜର ବାହାରେ ଥାଏ"
+],
+"answer": "ଏହା ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁଠାରୁ ସମଦୂରବର୍ତ୍ତୀ",
+"explanation": "ପରିକେନ୍ଦ୍ର (Circumcenter) ତ୍ରିଭୁଜର ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁଠାରୁ ସମଦୂରବର୍ତ୍ତୀ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "To construct an incircle, what lines are needed?",
+"questionOdia": "ଅନ୍ତଃବୃତ୍ତ ଅଙ୍କନ କରିବା ପାଇଁ, କେଉଁ ରେଖାଗୁଡ଼ିକ ଆବଶ୍ୟକ?",
+"options": [
+"ବାହୁର ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ",
+"କୋଣ ସମଦ୍ବିଖଣ୍ଡକ",
+"ମାଧ୍ୟମା",
+"ଉଚ୍ଚତା"
+],
+"answer": "କୋଣ ସମଦ୍ବିଖଣ୍ଡକ",
+"explanation": "ତ୍ରିଭୁଜର କୋଣଗୁଡ଼ିକର ସମଦ୍ବିଖଣ୍ଡକଗୁଡ଼ିକର ଛେଦବିନ୍ଦୁ ହେଉଛି ଅନ୍ତଃକେନ୍ଦ୍ର, ଯାହା ଅନ୍ତଃବୃତ୍ତ ଅଙ୍କନ ପାଇଁ ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "What happens to the area of a triangle if its base is doubled while keeping the height the same?",
+"questionOdia": "ଯଦି ଏକ ତ୍ରିଭୁଜର ଭୂମି ଦୁଇଗୁଣ କରାଯାଏ ଏବଂ ଉଚ୍ଚତା ସମାନ ରଖାଯାଏ, ତେବେ କ୍ଷେତ୍ରଫଳ କ'ଣ ହେବ?",
+"options": [
+"ଅଧା ହୋଇଯିବ",
+"ଦୁଇଗୁଣ ହୋଇଯିବ",
+"ସମାନ ରହିବ",
+"ଚାରିଗୁଣ ହୋଇଯିବ"
+],
+"answer": "ଦୁଇଗୁଣ ହୋଇଯିବ",
+"explanation": "ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ = (1/2) × ଭୂମି × ଉଚ୍ଚତା। ଭୂମି ଦୁଇଗୁଣ ହେଲେ କ୍ଷେତ୍ରଫଳ ମଧ୍ୟ ଦୁଇଗୁଣ ହେବ।"
+},
+{
+"questionEnglish": "In drawing a tangent to a circle from a point, why do we need to bisect the line connecting the external point and the center?",
+"questionOdia": "ବୃତ୍ତର ବହିଃସ୍ଥ ବିନ୍ଦୁରୁ ସ୍ପର୍ଶକ ଆଙ୍କିବା ବେଳେ, ବାହ୍ୟ ବିନ୍ଦୁ ଓ କେନ୍ଦ୍ରକୁ ସଂଯୋଗ କରୁଥିବା ରେଖାକୁ କାହିଁକି ସମଦ୍ବିଖଣ୍ଡିତ କରାଯାଏ?",
+"options": [
+"ସ୍ପର୍ଶବିନ୍ଦୁ ଖୋଜିବା ପାଇଁ",
+"ଲମ୍ବ ରେଖା ଆଙ୍କିବା ପାଇଁ",
+"ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ ମାପିବା ପାଇଁ",
+"କୋଣ ନିର୍ଣ୍ଣୟ କରିବା ପାଇଁ"
+],
+"answer": "ସ୍ପର୍ଶବିନ୍ଦୁ ଖୋଜିବା ପାଇଁ",
+"explanation": "ସେହି ରେଖାକୁ ସମଦ୍ବିଖଣ୍ଡିତ କରିଲେ ମିଳୁଥିବା ମଧ୍ୟବିନ୍ଦୁକୁ କେନ୍ଦ୍ର କରି ଏକ ବୃତ୍ତ ଆଙ୍କିଲେ ତାହା ପ୍ରଥମ ବୃତ୍ତକୁ ସ୍ପର୍ଶବିନ୍ଦୁରେ କାଟିଥାଏ।"
+},
+{
+"questionEnglish": "When constructing a triangle equal in area to a quadrilateral, the quadrilateral is divided into?",
+"questionOdia": "ଚତୁର୍ଭୁଜ ସହିତ ସମାନ କ୍ଷେତ୍ରଫଳ ବିଶିଷ୍ଟ ତ୍ରିଭୁଜ ଅଙ୍କନ କରିବା ସମୟରେ, ଚତୁର୍ଭୁଜକୁ କ'ଣରେ ବିଭକ୍ତ କରାଯାଏ?",
+"options": [
+"ଦୁଇଟି ତ୍ରିଭୁଜ",
+"ତିନୋଟି ତ୍ରିଭୁଜ",
+"ଚାରୋଟି ତ୍ରିଭୁଜ",
+"ଆୟତଚିତ୍ର"
+],
+"answer": "ଦୁଇଟି ତ୍ରିଭୁଜ",
+"explanation": "ଚତୁର୍ଭୁଜକୁ କର୍ଣ୍ଣ ସାହାଯ୍ୟରେ ଦୁଇଟି ତ୍ରିଭୁଜରେ ବିଭକ୍ତ କରାଯାଇ ସମାନ କ୍ଷେତ୍ରଫଳ ବିଶିଷ୍ଟ ତ୍ରିଭୁଜ ଅଙ୍କନ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What does the term 'Geometric Construction' mainly involve?",
+"questionOdia": "ଜ୍ୟାମିତିକ ଅଙ୍କନରେ ମୁଖ୍ୟତଃ କ'ଣ ଅନ୍ତର୍ଭୁକ୍ତ?",
+"options": [
+"କେବଳ ମାପିବା",
+"ସ୍କେଲ, ପ୍ରକାର ବ୍ୟବହାର କରି ଚିତ୍ର ଆଙ୍କିବା",
+"ଗାଣିତିକ ସୂତ୍ର ଲେଖିବା",
+"କେବଳ କୋଣ ଲେଖିବା"
+],
+"answer": "ସ୍କେଲ, ପ୍ରକାର ବ୍ୟବହାର କରି ଚିତ୍ର ଆଙ୍କିବା",
+"explanation": "ଜ୍ୟାମିତିକ ଅଙ୍କନ ସଠିକ୍ ଯନ୍ତ୍ରପାତି ବ୍ୟବହାର କରି ଜ୍ୟାମିତିକ ଆକୃତି ଆଙ୍କିବା ସହିତ ଜଡ଼ିତ।"
+},
+{
+"questionEnglish": "Why is the intersection of two arcs important in construction?",
+"questionOdia": "ଅଙ୍କନରେ ଦୁଇଟି ଚାପର ଛେଦବିନ୍ଦୁ କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"ଏହା କ୍ଷେତ୍ରଫଳ ବଢ଼ାଏ",
+"ଏହା ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁ କିମ୍ବା କୋଣ ନିର୍ଦ୍ଧାରଣ କରେ",
+"ଏହା ରେଖାକୁ ବଙ୍କା କରେ",
+"ଏହାର କୌଣସି ଗୁରୁତ୍ୱ ନାହିଁ"
+],
+"answer": "ଏହା ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁ କିମ୍ବା କୋଣ ନିର୍ଦ୍ଧାରଣ କରେ",
+"explanation": "ଦୁଇଟି ଚାପର ଛେଦବିନ୍ଦୁ ସଠିକ୍ ଜ୍ୟାମିତିକ ସ୍ଥାନ ନିର୍ଦ୍ଧାରଣ କରିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Can you construct a triangle if only the three sides are known?",
+"questionOdia": "ଯଦି କେବଳ ତିନୋଟି ବାହୁର ଦୈର୍ଘ୍ୟ ଜଣାଥାଏ, ତେବେ କ'ଣ ତ୍ରିଭୁଜ ଅଙ୍କନ କରିହେବ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ସମକୋଣୀ ତ୍ରିଭୁଜ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "SSS (Side-Side-Side) ନିୟମ ଅନୁସାରେ ତିନୋଟି ବାହୁ ଜଣାଥିଲେ ତ୍ରିଭୁଜ ଅଙ୍କନ ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "What is the use of a protractor in geometry?",
+"questionOdia": "ଜ୍ୟାମିତିରେ ଚାନ୍ଦାର ବ୍ୟବହାର କ'ଣ?",
+"options": [
+"ଦୂରତା ମାପିବା",
+"କୋଣ ମାପିବା କିମ୍ବା ଆଙ୍କିବା",
+"ବୃତ୍ତ ଆଙ୍କିବା",
+"ଲମ୍ବ ଆଙ୍କିବା"
+],
+"answer": "କୋଣ ମାପିବା କିମ୍ବା ଆଙ୍କିବା",
+"explanation": "ଚାନ୍ଦା (Protractor) କୋଣଗୁଡ଼ିକର ମାପ ନେବା ପାଇଁ ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "When constructing a circumcircle, what point is common to all three perpendicular bisectors?",
+"questionOdia": "ପରିବୃତ୍ତ ଅଙ୍କନ କରିବା ବେଳେ, ତିନୋଟି ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ ପାଇଁ କେଉଁ ବିନ୍ଦୁଟି ସାଧାରଣ?",
+"options": [
+"ଶୀର୍ଷବିନ୍ଦୁ",
+"ପରିକେନ୍ଦ୍ର",
+"ଅନ୍ତଃକେନ୍ଦ୍ର",
+"କୌଣସି ବିନ୍ଦୁ ନାହିଁ"
+],
+"answer": "ପରିକେନ୍ଦ୍ର",
+"explanation": "ତ୍ରିଭୁଜର ତିନୋଟି ବାହୁର ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ ପରିକେନ୍ଦ୍ରରେ ଛେଦ କରନ୍ତି।"
+},
+{
+"questionEnglish": "How does the incircle relate to the sides of the triangle?",
+"questionOdia": "ଅନ୍ତଃବୃତ୍ତ ତ୍ରିଭୁଜର ବାହୁଗୁଡ଼ିକ ସହିତ କିପରି ସମ୍ପର୍କିତ?",
+"options": [
+"ଏହା ବାହୁଗୁଡ଼ିକୁ କାଟିଥାଏ",
+"ଏହା ବାହୁଗୁଡ଼ିକୁ ସ୍ପର୍ଶ କରିଥାଏ",
+"ଏହା ବାହୁଠାରୁ ଦୂରରେ ଥାଏ",
+"ଏହାର ବାହୁ ସହିତ ସମ୍ପର୍କ ନାହିଁ"
+],
+"answer": "ଏହା ବାହୁଗୁଡ଼ିକୁ ସ୍ପର୍ଶ କରିଥାଏ",
+"explanation": "ଅନ୍ତଃବୃତ୍ତଟି ତ୍ରିଭୁଜର ତିନୋଟି ବାହୁକୁ ସ୍ପର୍ଶ କରିଥାଏ।"
+},
+{
+"questionEnglish": "Which property allows us to construct a triangle of area equal to a given triangle but with a specified base length?",
+"questionOdia": "କେଉଁ ଗୁଣ ଆମକୁ ଦତ୍ତ ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ ସହିତ ସମାନ କିନ୍ତୁ ନିର୍ଦ୍ଦିଷ୍ଟ ଭୂମି ଥିବା ତ୍ରିଭୁଜ ଅଙ୍କନ କରିବାରେ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ସମାନ ଭୂମି ଓ ଉଚ୍ଚତା",
+"ସମାନ କୋଣ",
+"ସମାନ ପରିସୀମା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମାନ ଭୂମି ଓ ଉଚ୍ଚତା",
+"explanation": "କ୍ଷେତ୍ରଫଳ ସମାନ ରଖିବା ପାଇଁ ଭୂମି ଓ ଉଚ୍ଚତା ମଧ୍ୟରେ ଥିବା ସମ୍ପର୍କକୁ ବଦଳାଇ ତ୍ରିଭୁଜ ଅଙ୍କନ କରାଯାଏ।"
+},
+{
+"questionEnglish": "In triangle construction, why are geometric principles applied?",
+"questionOdia": "ତ୍ରିଭୁଜ ଅଙ୍କନରେ ଜ୍ୟାମିତିକ ନିୟମଗୁଡ଼ିକ କାହିଁକି ପ୍ରୟୋଗ କରାଯାଏ?",
+"options": [
+"କେବଳ ଦେଖିବାକୁ ସୁନ୍ଦର କରିବାକୁ",
+"ଅଙ୍କନର ସଠିକତା ନିଶ୍ଚିତ କରିବାକୁ",
+"ସମୟ ବଞ୍ଚାଇବାକୁ",
+"କୌଣସି କାରଣ ନାହିଁ"
+],
+"answer": "ଅଙ୍କନର ସଠିକତା ନିଶ୍ଚିତ କରିବାକୁ",
+"explanation": "ଜ୍ୟାମିତିକ ନିୟମଗୁଡ଼ିକ ପ୍ରୟୋଗ କଲେ ଅଙ୍କନଟି ସଠିକ୍ ଓ ଗଣିତ ଅନୁଯାୟୀ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What does a tangent line segment represent if it touches a circle at point P?",
+"questionOdia": "ଯଦି ଏକ ସ୍ପର୍ଶକ ବୃତ୍ତକୁ P ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରେ, ତେବେ ସେହି ସ୍ପର୍ଶକ କ'ଣ ସୂଚାଏ?",
+"options": [
+"ବୃତ୍ତର ଏକ ଖଣ୍ଡ",
+"ବୃତ୍ତର ଲମ୍ବ",
+"ବୃତ୍ତର ସ୍ପର୍ଶକ",
+"ବୃତ୍ତର ବ୍ୟାସ"
+],
+"answer": "ବୃତ୍ତର ସ୍ପର୍ଶକ",
+"explanation": "P ବିନ୍ଦୁ ହେଉଛି ସ୍ପର୍ଶବିନ୍ଦୁ ଏବଂ ସେହି ରେଖାଟି ହେଉଛି ସ୍ପର୍ଶକ।"
+},
+{
+"questionEnglish": "How are the vertices of a triangle related to its circumcircle?",
+"questionOdia": "ତ୍ରିଭୁଜର ଶୀର୍ଷବିନ୍ଦୁଗୁଡ଼ିକ ପରିବୃତ୍ତ ସହିତ କିପରି ସମ୍ପର୍କିତ?",
+"options": [
+"ଶୀର୍ଷବିନ୍ଦୁ ବୃତ୍ତ ଭିତରେ ଥାଏ",
+"ଶୀର୍ଷବିନ୍ଦୁ ବୃତ୍ତ ଉପରେ ଥାଏ",
+"ଶୀର୍ଷବିନ୍ଦୁ ବୃତ୍ତ ବାହାରେ ଥାଏ",
+"କୌଣସି ସମ୍ପର୍କ ନାହିଁ"
+],
+"answer": "ଶୀର୍ଷବିନ୍ଦୁ ବୃତ୍ତ ଉପରେ ଥାଏ",
+"explanation": "ପରିବୃତ୍ତ ତ୍ରିଭୁଜର ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁ ଦେଇ ଅତିକ୍ରମ କରେ, ତେଣୁ ଶୀର୍ଷବିନ୍ଦୁଗୁଡ଼ିକ ବୃତ୍ତ ଉପରେ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "Is it possible to draw a tangent from a point inside the circle?",
+"questionOdia": "ବୃତ୍ତର ଅଭ୍ୟନ୍ତରରେ ଥିବା ଏକ ବିନ୍ଦୁରୁ ସ୍ପର୍ଶକ ଅଙ୍କନ କରିବା ସମ୍ଭବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ବଡ଼ ବୃତ୍ତ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ବୃତ୍ତର ଅଭ୍ୟନ୍ତରରେ ଥିବା କୌଣସି ବିନ୍ଦୁରୁ ସ୍ପର୍ଶକ ଅଙ୍କନ କରିବା ଅସମ୍ଭବ, କାରଣ ସେହି ବିନ୍ଦୁଦେଇ ଗଲେ ତାହା ଛେଦକ (Secant) ହୋଇଯିବ।"
+},
+{
+"questionEnglish": "What is the importance of the perpendicular bisectors in finding the circumcenter?",
+"questionOdia": "ପରିକେନ୍ଦ୍ର ନିର୍ଣ୍ଣୟ କରିବାରେ ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକର ଗୁରୁତ୍ୱ କ'ଣ?",
+"options": [
+"ଏହା କୋଣ ନିର୍ଣ୍ଣୟ କରେ",
+"ଏହା ସମଦୂରବର୍ତ୍ତୀ ବିନ୍ଦୁ ଖୋଜିବାରେ ସାହାଯ୍ୟ କରେ",
+"ଏହା ବାହୁର ଦୈର୍ଘ୍ୟ ମାପେ",
+"ଏହା କ୍ଷେତ୍ରଫଳ ନିର୍ଣ୍ଣୟ କରେ"
+],
+"answer": "ଏହା ସମଦୂରବର୍ତ୍ତୀ ବିନ୍ଦୁ ଖୋଜିବାରେ ସାହାଯ୍ୟ କରେ",
+"explanation": "ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକଗୁଡ଼ିକର ଛେଦବିନ୍ଦୁ ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁଠାରୁ ସମଦୂରବର୍ତ୍ତୀ।"
+},
+{
+"questionEnglish": "What does a line segment between two points on a circle represent?",
+"questionOdia": "ବୃତ୍ତର ଦୁଇଟି ବିନ୍ଦୁ ମଧ୍ୟରେ ଥିବା ରେଖାଖଣ୍ଡକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ସ୍ପର୍ଶକ",
+"ଜ୍ୟା",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ଚାପ"
+],
+"answer": "ଜ୍ୟା",
+"explanation": "ବୃତ୍ତର ଯେ କୌଣସି ଦୁଇଟି ବିନ୍ଦୁକୁ ସଂଯୋଗ କରୁଥିବା ରେଖାଖଣ୍ଡକୁ ଜ୍ୟା (Chord) କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Why is the 90° angle important in tangent construction?",
+"questionOdia": "ସ୍ପର୍ଶକ ଅଙ୍କନରେ 90° କୋଣ କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"କାରଣ ସ୍ପର୍ଶକ ବ୍ୟାସାର୍ଦ୍ଧ ସହିତ ଲମ୍ବ ହୁଏ",
+"କାରଣ ସ୍ପର୍ଶକ ସମାନ୍ତରାଳ ହୁଏ",
+"କାରଣ ସ୍ପର୍ଶକ କ୍ଷେତ୍ରଫଳ ବଢ଼ାଏ",
+"କାରଣ ଏହା ସୁନ୍ଦର ଦେଖାଯାଏ"
+],
+"answer": "କାରଣ ସ୍ପର୍ଶକ ବ୍ୟାସାର୍ଦ୍ଧ ସହିତ ଲମ୍ବ ହୁଏ",
+"explanation": "ସ୍ପର୍ଶକର ସଂଜ୍ଞାନୁସାରେ, ସ୍ପର୍ଶବିନ୍ଦୁରେ ବ୍ୟାସାର୍ଦ୍ଧ ଓ ସ୍ପର୍ଶକ ମଧ୍ୟରେ କୋଣ ସର୍ବଦା 90° ହେବା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "In a triangle, what point is the intersection of angle bisectors?",
+"questionOdia": "ତ୍ରିଭୁଜରେ କୋଣ ସମଦ୍ବିଖଣ୍ଡକଗୁଡ଼ିକର ଛେଦବିନ୍ଦୁ କ'ଣ?",
+"options": [
+"ପରିକେନ୍ଦ୍ର",
+"ଅନ୍ତଃକେନ୍ଦ୍ର",
+"ଲମ୍ବକେନ୍ଦ୍ର",
+"କେନ୍ଦ୍ର"
+],
+"answer": "ଅନ୍ତଃକେନ୍ଦ୍ର",
+"explanation": "ତ୍ରିଭୁଜର କୋଣ ସମଦ୍ବିଖଣ୍ଡକଗୁଡ଼ିକର ଛେଦବିନ୍ଦୁକୁ ଅନ୍ତଃକେନ୍ଦ୍ର (Incenter) କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which tool is best for drawing a perfect circle?",
+"questionOdia": "ଏକ ନିଖୁଣ ବୃତ୍ତ ଆଙ୍କିବା ପାଇଁ କେଉଁ ଯନ୍ତ୍ର ସର୍ବୋତ୍ତମ?",
+"options": [
+"ସ୍କେଲ",
+"ପ୍ରକାର",
+"ଚାନ୍ଦା",
+"ସେଟ୍ ସ୍କୋୟାର"
+],
+"answer": "ପ୍ରକାର",
+"explanation": "ପ୍ରକାର (Compass) ସାହାଯ୍ୟରେ କେନ୍ଦ୍ରକୁ ସ୍ଥିର ରଖି ନିଖୁଣ ବୃତ୍ତ ଅଙ୍କନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "What does a circumcircle touch?",
+"questionOdia": "ପରିବୃତ୍ତ କାହାକୁ ସ୍ପର୍ଶ କରେ?",
+"options": [
+"ତ୍ରିଭୁଜର ବାହୁକୁ",
+"ତ୍ରିଭୁଜର ଶୀର୍ଷବିନ୍ଦୁକୁ",
+"ତ୍ରିଭୁଜର ମଧ୍ୟବିନ୍ଦୁକୁ",
+"ତ୍ରିଭୁଜର କର୍ଣ୍ଣକୁ"
+],
+"answer": "ତ୍ରିଭୁଜର ଶୀର୍ଷବିନ୍ଦୁକୁ",
+"explanation": "ପରିବୃତ୍ତ ତ୍ରିଭୁଜର ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁ ଦେଇ ଯାଇଥାଏ।"
+},
+{
+"questionEnglish": "If two circles are congruent, what must be true about their radii?",
+"questionOdia": "ଯଦି ଦୁଇଟି ବୃତ୍ତ ସର୍ବସମ (Congruent) ହୁଅନ୍ତି, ତେବେ ସେମାନଙ୍କ ବ୍ୟାସାର୍ଦ୍ଧ ବିଷୟରେ କ'ଣ ସତ୍ୟ?",
+"options": [
+"ବ୍ୟାସାର୍ଦ୍ଧ ଅଲଗା ହେବ",
+"ବ୍ୟାସାର୍ଦ୍ଧ ସମାନ ହେବ",
+"ବ୍ୟାସାର୍ଦ୍ଧ ଦୁଇଗୁଣ ହେବ",
+"କୌଣସି ସମ୍ପର୍କ ନାହିଁ"
+],
+"answer": "ବ୍ୟାସାର୍ଦ୍ଧ ସମାନ ହେବ",
+"explanation": "ସର୍ବସମ ବୃତ୍ତଗୁଡ଼ିକର ବ୍ୟାସାର୍ଦ୍ଧ ସର୍ବଦା ସମାନ।"
+},
+{
+"questionEnglish": "Why is it important to use a sharp pencil in geometric construction?",
+"questionOdia": "ଜ୍ୟାମିତିକ ଅଙ୍କନରେ ଏକ ଧାରୁଆ ପେନ୍ସିଲ୍ ବ୍ୟବହାର କରିବା କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"ସୁନ୍ଦର ଦେଖାଯିବା ପାଇଁ",
+"ଅଙ୍କନର ସଠିକତା ବଜାୟ ରଖିବା ପାଇଁ",
+"କାଗଜ ଫାଟିବ ନାହିଁ",
+"କୌଣସି କାରଣ ନାହିଁ"
+],
+"answer": "ଅଙ୍କନର ସଠିକତା ବଜାୟ ରଖିବା ପାଇଁ",
+"explanation": "ଧାରୁଆ ପେନ୍ସିଲ୍ ବ୍ୟବହାର କଲେ ରେଖାଗୁଡ଼ିକ ପତଳା ଏବଂ ସଠିକ୍ ହୁଏ, ଯାହା ଅଙ୍କନକୁ ସଠିକ୍ କରେ।"
+},
+{
+"questionEnglish": "How many perpendicular bisectors does a triangle have?",
+"questionOdia": "ତ୍ରିଭୁଜର କେତୋଟି ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ ଥାଏ?",
+"options": [
+"ଏକ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ତିନୋଟି",
+"explanation": "ତ୍ରିଭୁଜର ତିନୋଟି ବାହୁ ଥିବାରୁ ପ୍ରତ୍ୟେକ ବାହୁ ପାଇଁ ଗୋଟିଏ ଲେଖାଏଁ ମୋଟ ତିନୋଟି ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ ଥାଏ।"
+},
+{
+"questionEnglish": "What is the purpose of drawing a tangent?",
+"questionOdia": "ସ୍ପର୍ଶକ ଅଙ୍କନ କରିବାର ଉଦ୍ଦେଶ୍ୟ କ'ଣ?",
+"options": [
+"ବୃତ୍ତର କେନ୍ଦ୍ର ଖୋଜିବା",
+"ଏକ ରେଖା ଯାହା ବୃତ୍ତକୁ ଗୋଟିଏ ବିନ୍ଦୁରେ ଛୁଇଁଥାଏ",
+"ତ୍ରିଭୁଜର ଭିତରେ ବୃତ୍ତ ଆଙ୍କିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏକ ରେଖା ଯାହା ବୃତ୍ତକୁ ଗୋଟିଏ ବିନ୍ଦୁରେ ଛୁଇଁଥାଏ",
+"explanation": "ସ୍ପର୍ଶକ ହେଉଛି ବୃତ୍ତର ପରିଧିକୁ କେବଳ ଗୋଟିଏ ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରୁଥିବା ରେଖା।"
+},
+{
+"questionEnglish": "Which method is used for constructing a triangle given two angles and a side?",
+"questionOdia": "ଯଦି ଦୁଇଟି କୋଣ ଓ ଗୋଟିଏ ବାହୁ ଦିଆଯାଇଥାଏ, ତେବେ ତ୍ରିଭୁଜ ଅଙ୍କନ ପାଇଁ କେଉଁ ପଦ୍ଧତି ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"SAS",
+"ASA",
+"SSS",
+"RHS"
+],
+"answer": "ASA",
+"explanation": "Angle-Side-Angle (ASA) ନିୟମ ଅନୁସାରେ ଦୁଇଟି କୋଣ ଓ ସେମାନଙ୍କ ମଧ୍ୟବର୍ତ୍ତୀ ବାହୁ ଜଣାଥିଲେ ତ୍ରିଭୁଜ ଅଙ୍କନ ହୋଇପାରିବ।"
+},
+{
+"questionEnglish": "Can an incircle exist for all triangles?",
+"questionOdia": "ସବୁ ତ୍ରିଭୁଜ ପାଇଁ ଅନ୍ତଃବୃତ୍ତ ଥାଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ସମବାହୁ ତ୍ରିଭୁଜ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ପ୍ରତ୍ୟେକ ତ୍ରିଭୁଜର ଗୋଟିଏ ନିର୍ଦ୍ଦିଷ୍ଟ ଅନ୍ତଃବୃତ୍ତ ଥାଏ।"
+},
+{
+"questionEnglish": "What does a circumcircle represent for a triangle?",
+"questionOdia": "ତ୍ରିଭୁଜ ପାଇଁ ପରିବୃତ୍ତ କ'ଣ ସୂଚାଏ?",
+"options": [
+"ସବୁଠାରୁ ବଡ଼ ସମ୍ଭବ ବୃତ୍ତ",
+"ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁ ଦେଇ ଯାଉଥିବା ଏକମାତ୍ର ବୃତ୍ତ",
+"ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ ସହ ସମାନ ବୃତ୍ତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁ ଦେଇ ଯାଉଥିବା ଏକମାତ୍ର ବୃତ୍ତ",
+"explanation": "ପରିବୃତ୍ତ ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁ ଦେଇ ଯାଉଥିବା ଏକମାତ୍ର ବୃତ୍ତ ଅଟେ।"
+},
+{
+"questionEnglish": "What are the essential tools for geometric construction?",
+"questionOdia": "ଜ୍ୟାମିତିକ ଅଙ୍କନ ପାଇଁ ଆବଶ୍ୟକୀୟ ଯନ୍ତ୍ରଗୁଡ଼ିକ କ'ଣ?",
+"options": [
+"କେବଳ ପେନ୍ସିଲ୍",
+"ସ୍କେଲ, ପ୍ରକାର, ଚାନ୍ଦା, ସେଟ୍ ସ୍କୋୟାର",
+"କଲମ ଓ କାଗଜ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସ୍କେଲ, ପ୍ରକାର, ଚାନ୍ଦା, ସେଟ୍ ସ୍କୋୟାର",
+"explanation": "ଏହି ସମସ୍ତ ଯନ୍ତ୍ର ସଠିକ୍ ଅଙ୍କନ ପାଇଁ ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "How do you identify a triangle's height for area construction?",
+"questionOdia": "କ୍ଷେତ୍ରଫଳ ଅଙ୍କନ ପାଇଁ ତ୍ରିଭୁଜର ଉଚ୍ଚତା କିପରି ଚିହ୍ନଟ କରିବ?",
+"options": [
+"ଶୀର୍ଷବିନ୍ଦୁରୁ ଭୂମି ଉପରକୁ ଲମ୍ବ ଅଙ୍କନ କରି",
+"କୋଣ ମାପି",
+"ବାହୁ ମାପି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶୀର୍ଷବିନ୍ଦୁରୁ ଭୂମି ଉପରକୁ ଲମ୍ବ ଅଙ୍କନ କରି",
+"explanation": "ଶୀର୍ଷବିନ୍ଦୁରୁ ଭୂମି ଉପରକୁ ଲମ୍ବ ହିଁ ତ୍ରିଭୁଜର ଉଚ୍ଚତା ଅଟେ।"
+},
+{
+"questionEnglish": "Is it necessary to label the triangle vertices during construction?",
+"questionOdia": "ଅଙ୍କନ ସମୟରେ ତ୍ରିଭୁଜର ଶୀର୍ଷବିନ୍ଦୁଗୁଡ଼ିକୁ ନାମିତ କରିବା ଆବଶ୍ୟକ କି?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ପରୀକ୍ଷା ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ନାମିତ କଲେ ଅଙ୍କନକୁ ବୁଝିବା ଏବଂ ବର୍ଣ୍ଣନା କରିବା ସହଜ ହୁଏ।"
+},
+{
+"questionEnglish": "What does a tangent look like if the radius is horizontal?",
+"questionOdia": "ଯଦି ବ୍ୟାସାର୍ଦ୍ଧ ଭୂସମାନ୍ତରାଳ (Horizontal) ହୁଏ, ତେବେ ସ୍ପର୍ଶକ କିପରି ଦେଖାଯିବ?",
+"options": [
+"ଭୂସମାନ୍ତରାଳ",
+"ଭୂଲମ୍ବ (Vertical)",
+"ବଙ୍କା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଭୂଲମ୍ବ (Vertical)",
+"explanation": "ସ୍ପର୍ଶକ ବ୍ୟାସାର୍ଦ୍ଧ ସହିତ ଲମ୍ବ ହୋଇଥିବାରୁ, ଭୂସମାନ୍ତରାଳ ବ୍ୟାସାର୍ଦ୍ଧର ସ୍ପର୍ଶକ ଭୂଲମ୍ବ ହେବ।"
+},
+{
+"questionEnglish": "Why do we use compasses for circular shapes?",
+"questionOdia": "ବୃତ୍ତାକାର ଚିତ୍ର ପାଇଁ ଆମେ ପ୍ରକାର କାହିଁକି ବ୍ୟବହାର କରୁ?",
+"options": [
+"କାରଣ ଏହା ସୁନ୍ଦର",
+"କାରଣ ଏହା କେନ୍ଦ୍ରରୁ ସମଦୂରତାରେ ଚାପ ଆଙ୍କିବାରେ ସାହାଯ୍ୟ କରେ",
+"କାରଣ ଏହା ଦ୍ରୁତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାରଣ ଏହା କେନ୍ଦ୍ରରୁ ସମଦୂରତାରେ ଚାପ ଆଙ୍କିବାରେ ସାହାଯ୍ୟ କରେ",
+"explanation": "ପ୍ରକାରର ଏକ ବାହୁ ସ୍ଥିର କେନ୍ଦ୍ରରେ ରହିବାରୁ ଅନ୍ୟ ବାହୁଟି ସମଦୂରତାରେ ଚାପ ଆଙ୍କିଥାଏ।"
+},
+{
+"questionEnglish": "What is the common point of the three angle bisectors?",
+"questionOdia": "ତିନୋଟି କୋଣ ସମଦ୍ବିଖଣ୍ଡକର ସାଧାରଣ ବିନ୍ଦୁ କ'ଣ?",
+"options": [
+"ପରିକେନ୍ଦ୍ର",
+"ଅନ୍ତଃକେନ୍ଦ୍ର",
+"ଲମ୍ବକେନ୍ଦ୍ର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅନ୍ତଃକେନ୍ଦ୍ର",
+"explanation": "କୋଣ ସମଦ୍ବିଖଣ୍ଡକଗୁଡ଼ିକର ଛେଦବିନ୍ଦୁ ହେଉଛି ଅନ୍ତଃକେନ୍ଦ୍ର।"
+},
+{
+"questionEnglish": "Which part of a triangle construction ensures the correct orientation?",
+"questionOdia": "ତ୍ରିଭୁଜ ଅଙ୍କନର କେଉଁ ଅଂଶଟି ସଠିକ୍ ଦିଗବିନ୍ୟାସ ନିଶ୍ଚିତ କରେ?",
+"options": [
+"ବାହୁର ଦୈର୍ଘ୍ୟ",
+"କୋଣର ମାପ",
+"ସ୍କେଲର ବ୍ୟବହାର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କୋଣର ମାପ",
+"explanation": "କୋଣଗୁଡ଼ିକର ସଠିକ୍ ମାପ ହିଁ ତ୍ରିଭୁଜର ଆକୃତି ଓ ଦିଗବିନ୍ୟାସକୁ ନିଶ୍ଚିତ କରେ।"
+},
+{
+"questionEnglish": "What is the function of the scale in construction?",
+"questionOdia": "ଅଙ୍କନରେ ସ୍କେଲର କାର୍ଯ୍ୟ କ'ଣ?",
+"options": [
+"କୋଣ ମାପିବା",
+"ସରଳରେଖା ଆଙ୍କିବା ଓ ଦୂରତା ମାପିବା",
+"ବୃତ୍ତ ଆଙ୍କିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସରଳରେଖା ଆଙ୍କିବା ଓ ଦୂରତା ମାପିବା",
+"explanation": "ସ୍କେଲ ସାହାଯ୍ୟରେ ସରଳରେଖା ଅଙ୍କନ କରାଯାଏ ଓ ବାହୁର ଦୈର୍ଘ୍ୟ ମାପ କରାଯାଏ।"
+},
+{
+"questionEnglish": "Are all tangents to a circle of the same length from a specific external point?",
+"questionOdia": "କୌଣସି ନିର୍ଦ୍ଦିଷ୍ଟ ବାହ୍ୟ ବିନ୍ଦୁରୁ ବୃତ୍ତ ପ୍ରତି ଅଙ୍କିତ ସମସ୍ତ ସ୍ପର୍ଶକ ସମାନ ଦୈର୍ଘ୍ୟର ହୋଇଥାନ୍ତି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ବଡ଼ ବୃତ୍ତ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଉପପାଦ୍ୟ ଅନୁସାରେ, ବାହ୍ୟ ବିନ୍ଦୁରୁ ବୃତ୍ତ ପ୍ରତି ଅଙ୍କିତ ସ୍ପର୍ଶକଗୁଡ଼ିକର ଦୈର୍ଘ୍ୟ ସମାନ।"
+},
+{
+"questionEnglish": "What do we call the line that divides an angle into two equal halves?",
+"questionOdia": "କୋଣକୁ ଦୁଇ ସମାନ ଭାଗ କରୁଥିବା ରେଖାକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ଲମ୍ବ",
+"କୋଣ ସମଦ୍ବିଖଣ୍ଡକ",
+"ମାଧ୍ୟମା",
+"କର୍ଣ୍ଣ"
+],
+"answer": "କୋଣ ସମଦ୍ବିଖଣ୍ଡକ",
+"explanation": "କୋଣ ସମଦ୍ବିଖଣ୍ଡକ କୋଣଟିକୁ ଦୁଇଟି ସମାନ କୋଣରେ ବିଭକ୍ତ କରେ।"
+},
+{
+"questionEnglish": "Can you draw a triangle if two angles and their included side are known?",
+"questionOdia": "ଯଦି ଦୁଇଟି କୋଣ ଓ ସେମାନଙ୍କ ମଧ୍ୟବର୍ତ୍ତୀ ବାହୁ ଜଣାଥାଏ, ତେବେ କ'ଣ ତ୍ରିଭୁଜ ଅଙ୍କନ କରିହେବ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ସମକୋଣୀ ତ୍ରିଭୁଜ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ASA ନିୟମ ଅନୁସାରେ ଏହା ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "Why is the center of the circumcircle called 'Circumcenter'?",
+"questionOdia": "ପରିବୃତ୍ତର କେନ୍ଦ୍ରକୁ 'ପରିକେନ୍ଦ୍ର' କାହିଁକି କୁହାଯାଏ?",
+"options": [
+"କାରଣ ଏହା ବାହାରେ ଥାଏ",
+"କାରଣ ଏହା ପରିବୃତ୍ତର କେନ୍ଦ୍ର",
+"କାରଣ ଏହା କ୍ଷେତ୍ରଫଳକୁ ଦୁଇ ଭାଗ କରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାରଣ ଏହା ପରିବୃତ୍ତର କେନ୍ଦ୍ର",
+"explanation": "ପରିବୃତ୍ତର କେନ୍ଦ୍ର ହୋଇଥିବାରୁ ଏହାକୁ ପରିକେନ୍ଦ୍ର କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the relation between the side and the height of an equilateral triangle?",
+"questionOdia": "ସମବାହୁ ତ୍ରିଭୁଜର ବାହୁ ଓ ଉଚ୍ଚତା ମଧ୍ୟରେ ସମ୍ପର୍କ କ'ଣ?",
+"options": [
+"ସମାନ",
+"ଉଚ୍ଚତା = (√3/2) × ବାହୁ",
+"ଉଚ୍ଚତା = ବାହୁ/2",
+"କୌଣସି ସମ୍ପର୍କ ନାହିଁ"
+],
+"answer": "ଉଚ୍ଚତା = (√3/2) × ବାହୁ",
+"explanation": "ସମବାହୁ ତ୍ରିଭୁଜରେ ଉଚ୍ଚତା ସର୍ବଦା ବାହୁର √3/2 ଗୁଣ।"
+},
+{
+"questionEnglish": "What are the essential steps to construct an incircle?",
+"questionOdia": "ଅନ୍ତଃବୃତ୍ତ ଅଙ୍କନ କରିବାର ଆବଶ୍ୟକୀୟ ପଦକ୍ଷେପଗୁଡ଼ିକ କ'ଣ?",
+"options": [
+"କୋଣ ସମଦ୍ବିଖଣ୍ଡକ ଆଙ୍କିବା, ଲମ୍ବ ଆଙ୍କିବା, ବୃତ୍ତ ଆଙ୍କିବା",
+"ବାହୁ ମାପିବା",
+"କର୍ଣ୍ଣ ଆଙ୍କିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କୋଣ ସମଦ୍ବିଖଣ୍ଡକ ଆଙ୍କିବା, ଲମ୍ବ ଆଙ୍କିବା, ବୃତ୍ତ ଆଙ୍କିବା",
+"explanation": "କୋଣ ସମଦ୍ବିଖଣ୍ଡକଗୁଡ଼ିକର ଛେଦବିନ୍ଦୁରୁ ବାହୁ ଉପରେ ଲମ୍ବ ଅଙ୍କନ କରି ସେହି ଦୂରତାକୁ ବ୍ୟାସାର୍ଦ୍ଧ ନେଇ ବୃତ୍ତ ଅଙ୍କନ କରାଯାଏ।"
+},
+{
+"questionEnglish": "Why do we use set squares in construction?",
+"questionOdia": "ଅଙ୍କନରେ ଆମେ ସେଟ୍ ସ୍କୋୟାର କାହିଁକି ବ୍ୟବହାର କରୁ?",
+"options": [
+"କୋଣଗୁଡ଼ିକର ମାପ ପାଇଁ",
+"ସମାନ୍ତରାଳ ରେଖା ଆଙ୍କିବା ପାଇଁ",
+"ବୃତ୍ତ ଆଙ୍କିବା ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମାନ୍ତରାଳ ରେଖା ଆଙ୍କିବା ପାଇଁ",
+"explanation": "ସେଟ୍ ସ୍କୋୟାର ସାହାଯ୍ୟରେ ସହଜରେ ସମାନ୍ତରାଳ ରେଖା ଆଙ୍କି ହୁଏ।"
+},
+{
+"questionEnglish": "What does a triangle's circumcircle look like for an obtuse triangle?",
+"questionOdia": "ସ୍ଥୂଳକୋଣୀ ତ୍ରିଭୁଜ ପାଇଁ ପରିବୃତ୍ତ କିପରି ଦେଖାଯାଏ?",
+"options": [
+"ତ୍ରିଭୁଜ ଭିତରେ",
+"ତ୍ରିଭୁଜର ବାହାରେ",
+"ତ୍ରିଭୁଜ ଉପରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ତ୍ରିଭୁଜର ବାହାରେ",
+"explanation": "ସ୍ଥୂଳକୋଣୀ ତ୍ରିଭୁଜର ପରିକେନ୍ଦ୍ର ତ୍ରିଭୁଜର ବାହାରେ ଥାଏ, ତେଣୁ ପରିବୃତ୍ତଟି ଅଧିକ ବଡ଼ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "How many tangents to a circle are needed for common construction problems?",
+"questionOdia": "ସାଧାରଣ ଅଙ୍କନ ସମସ୍ୟା ପାଇଁ ବୃତ୍ତର କେତୋଟି ସ୍ପର୍ଶକ ଆବଶ୍ୟକ?",
+"options": [
+"ଏକ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏକ",
+"explanation": "ସାଧାରଣତଃ ଏକ ବା ଦୁଇଟି ସ୍ପର୍ଶକ ଅଙ୍କନ ସମସ୍ୟା ସମାଧାନ ପାଇଁ ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "What is the angle bisector method used for?",
+"questionOdia": "କୋଣ ସମଦ୍ବିଖଣ୍ଡକ ପଦ୍ଧତି କ'ଣ ପାଇଁ ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"କୋଣକୁ ଦୁଇ ସମାନ ଭାଗ କରିବାକୁ",
+"ବାହୁ ମାପିବାକୁ",
+"କ୍ଷେତ୍ରଫଳ ମାପିବାକୁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କୋଣକୁ ଦୁଇ ସମାନ ଭାଗ କରିବାକୁ",
+"explanation": "କୋଣକୁ ଦୁଇଟି ସମାନ କୋଣରେ ବିଭକ୍ତ କରିବା ପାଇଁ ଏହି ପଦ୍ଧତି ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "Can you construct a tangent to a circle from a point on it?",
+"questionOdia": "ବୃତ୍ତ ଉପରିସ୍ଥ ଏକ ବିନ୍ଦୁରୁ ସ୍ପର୍ଶକ ଅଙ୍କନ କରିହେବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ବଡ଼ ବୃତ୍ତ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସ୍ପର୍ଶବିନ୍ଦୁ ଦେଇ ବ୍ୟାସାର୍ଦ୍ଧ ଉପରେ ଲମ୍ବ ଆଙ୍କି ସ୍ପର୍ଶକ ଅଙ୍କନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "What is a 'Secant' line?",
+"questionOdia": "'ଛେଦକ' (Secant) ରେଖା କ'ଣ?",
+"options": [
+"ବୃତ୍ତକୁ ଗୋଟିଏ ବିନ୍ଦୁରେ ଛୁଇଁଥାଏ",
+"ବୃତ୍ତକୁ ଦୁଇଟି ବିନ୍ଦୁରେ ଛେଦ କରିଥାଏ",
+"ବୃତ୍ତର ବାହାରେ ଥାଏ",
+"ବୃତ୍ତର ବ୍ୟାସ"
+],
+"answer": "ବୃତ୍ତକୁ ଦୁଇଟି ବିନ୍ଦୁରେ ଛେଦ କରିଥାଏ",
+"explanation": "ଛେଦକ ରେଖା ବୃତ୍ତକୁ ଦୁଇଟି ଭିନ୍ନ ବିନ୍ଦୁରେ ଛେଦ କରି ଅତିକ୍ରମ କରେ।"
+},
+{
+"questionEnglish": "What is the relationship between a chord and its perpendicular bisector?",
+"questionOdia": "ଜ୍ୟା ଓ ତା'ର ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ ମଧ୍ୟରେ ସମ୍ପର୍କ କ'ଣ?",
+"options": [
+"ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ ଜ୍ୟାକୁ ଦୁଇ ଭାଗ କରେ",
+"ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ ଜ୍ୟା ସହ ସମାନ୍ତରାଳ",
+"ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ ବୃତ୍ତର କେନ୍ଦ୍ର ଦେଇ ଯାଏ",
+"ଉଭୟ A ଓ C"
+],
+"answer": "ଉଭୟ A ଓ C",
+"explanation": "ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ ଜ୍ୟାକୁ ସମଦ୍ବିଖଣ୍ଡିତ କରେ ଏବଂ ଏହା ସର୍ବଦା ବୃତ୍ତର କେନ୍ଦ୍ର ଦେଇ ଯାଇଥାଏ।"
+},
+{
+"questionEnglish": "Why do we draw perpendiculars from the incenter to the sides?",
+"questionOdia": "ଅନ୍ତଃକେନ୍ଦ୍ରରୁ ବାହୁଗୁଡ଼ିକ ଉପରକୁ ଆମେ କାହିଁକି ଲମ୍ବ ଆଙ୍କୁ?",
+"options": [
+"କୋଣ ମାପିବା ପାଇଁ",
+"ଅନ୍ତଃବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ ଜାଣିବା ପାଇଁ",
+"ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ ମାପିବା ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅନ୍ତଃବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ ଜାଣିବା ପାଇଁ",
+"explanation": "ଅନ୍ତଃକେନ୍ଦ୍ରରୁ ବାହୁ ଉପରକୁ ଅଙ୍କିତ ଲମ୍ବ ହିଁ ଅନ୍ତଃବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ।"
+},
+{
+"questionEnglish": "What is the property of an equilateral triangle regarding construction?",
+"questionOdia": "ଅଙ୍କନ ସମ୍ବନ୍ଧରେ ସମବାହୁ ତ୍ରିଭୁଜର ଗୁଣ କ'ଣ?",
+"options": [
+"ସବୁ କୋଣ 60°",
+"ସବୁ ବାହୁ ସମାନ",
+"ପରିକେନ୍ଦ୍ର ଓ ଅନ୍ତଃକେନ୍ଦ୍ର ଏକ ବିନ୍ଦୁ",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ସମବାହୁ ତ୍ରିଭୁଜରେ ଏହି ସମସ୍ତ ଗୁଣ ଥାଏ।"
+},
+{
+"questionEnglish": "Is it necessary to know all angles to construct a triangle?",
+"questionOdia": "ତ୍ରିଭୁଜ ଅଙ୍କନ ପାଇଁ ସମସ୍ତ କୋଣ ଜାଣିବା ଆବଶ୍ୟକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି କୋଣ ଓ ଗୋଟିଏ ବାହୁ ଯଥେଷ୍ଟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ତ୍ରିଭୁଜର ତିନୋଟି ମାପ (ବାହୁ ବା କୋଣ) ମଧ୍ୟରୁ ଯେକୌଣସି ତିନୋଟି ଜଣାଥିଲେ ଅଙ୍କନ ସମ୍ଭବ (କିଛି ସର୍ତ୍ତ ସହ)।"
+},
+{
+"questionEnglish": "What is the best way to ensure that the tangent is drawn correctly?",
+"questionOdia": "ସ୍ପର୍ଶକ ସଠିକ୍ ଭାବରେ ଅଙ୍କନ ହୋଇଛି କି ନାହିଁ ଜାଣିବାର ସର୍ବୋତ୍ତମ ଉପାୟ କ'ଣ?",
+"options": [
+"କୋଣ ମାପିବା (90° ହେବା ଆବଶ୍ୟକ)",
+"ସ୍କେଲ ସାହାଯ୍ୟରେ ଦେଖିବା",
+"କେବଳ ଦୃଷ୍ଟିଶକ୍ତି ବ୍ୟବହାର କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କୋଣ ମାପିବା (90° ହେବା ଆବଶ୍ୟକ)",
+"explanation": "ବ୍ୟାସାର୍ଦ୍ଧ ଓ ସ୍ପର୍ଶକ ମଧ୍ୟରେ କୋଣ 90° ହେଲେ ସ୍ପର୍ଶକ ସଠିକ୍ ଅଟେ।"
+},
+{
+"questionEnglish": "How does circumcenter change with the type of triangle?",
+"questionOdia": "ତ୍ରିଭୁଜର ପ୍ରକାର ଅନୁସାରେ ପରିକେନ୍ଦ୍ର କିପରି ବଦଳିଥାଏ?",
+"options": [
+"ସବୁବେଳେ ଭିତରେ ରହେ",
+"ସମକୋଣୀ ପାଇଁ କର୍ଣ୍ଣର ମଧ୍ୟବିନ୍ଦୁ, ସ୍ଥୂଳକୋଣୀ ପାଇଁ ବାହାରେ",
+"ସବୁବେଳେ ବାହାରେ ରହେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମକୋଣୀ ପାଇଁ କର୍ଣ୍ଣର ମଧ୍ୟବିନ୍ଦୁ, ସ୍ଥୂଳକୋଣୀ ପାଇଁ ବାହାରେ",
+"explanation": "ତ୍ରିଭୁଜର କୋଣ ଅନୁସାରେ ପରିକେନ୍ଦ୍ରର ଅବସ୍ଥାନ ପରିବର୍ତ୍ତନ ହୁଏ।"
+},
+{
+"questionEnglish": "What does the radius of the incircle represent?",
+"questionOdia": "ଅନ୍ତଃବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ କ'ଣ ସୂଚାଏ?",
+"options": [
+"କେନ୍ଦ୍ରରୁ ଶୀର୍ଷବିନ୍ଦୁକୁ ଦୂରତା",
+"କେନ୍ଦ୍ରରୁ ବାହୁକୁ ଲମ୍ବ ଦୂରତା",
+"ବାହୁର ଦୈର୍ଘ୍ୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କେନ୍ଦ୍ରରୁ ବାହୁକୁ ଲମ୍ବ ଦୂରତା",
+"explanation": "ଅନ୍ତଃବୃତ୍ତର କେନ୍ଦ୍ରରୁ ଯେକୌଣସି ବାହୁ ଉପରକୁ ଥିବା ଲମ୍ବ ଦୂରତା ହିଁ ବ୍ୟାସାର୍ଦ୍ଧ।"
+},
+{
+"questionEnglish": "What is the common method to construct a triangle of equal area to a quadrilateral?",
+"questionOdia": "ଚତୁର୍ଭୁଜ ସହିତ ସମାନ କ୍ଷେତ୍ରଫଳ ବିଶିଷ୍ଟ ତ୍ରିଭୁଜ ଅଙ୍କନ କରିବାର ସାଧାରଣ ପଦ୍ଧତି କ'ଣ?",
+"options": [
+"କର୍ଣ୍ଣ ଅଙ୍କନ ଓ ତ୍ରିଭୁଜର ସମାନ୍ତରାଳ ରେଖା ପ୍ରୟୋଗ",
+"ବାହୁ ଯୋଗ କରିବା",
+"କୋଣ ମାପିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କର୍ଣ୍ଣ ଅଙ୍କନ ଓ ତ୍ରିଭୁଜର ସମାନ୍ତରାଳ ରେଖା ପ୍ରୟୋଗ",
+"explanation": "ଚତୁର୍ଭୁଜର କର୍ଣ୍ଣ ଅଙ୍କନ କରି ଏକ ତ୍ରିଭୁଜର ବାହୁକୁ ସମାନ୍ତରାଳ ଭାବରେ ସ୍ଥାନାନ୍ତର କଲେ ସମାନ କ୍ଷେତ୍ରଫଳ ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "What is a right-angled triangle?",
+"questionOdia": "ସମକୋଣୀ ତ୍ରିଭୁଜ କ'ଣ?",
+"options": [
+"ଯେଉଁ ତ୍ରିଭୁଜର ଗୋଟିଏ କୋଣ 90°",
+"ଯେଉଁ ତ୍ରିଭୁଜର ସବୁ କୋଣ ସମାନ",
+"ଯେଉଁ ତ୍ରିଭୁଜର ବାହୁଗୁଡ଼ିକ ସମାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଯେଉଁ ତ୍ରିଭୁଜର ଗୋଟିଏ କୋଣ 90°",
+"explanation": "ଯେଉଁ ତ୍ରିଭୁଜର ଗୋଟିଏ କୋଣର ମାପ 90° ଥାଏ, ତାକୁ ସମକୋଣୀ ତ୍ରିଭୁଜ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the use of compass for drawing tangent?",
+"questionOdia": "ସ୍ପର୍ଶକ ଆଙ୍କିବାରେ ପ୍ରକାରର ବ୍ୟବହାର କ'ଣ?",
+"options": [
+"କେନ୍ଦ୍ର ସ୍ଥିର କରିବା",
+"90° କୋଣ ଆଙ୍କିବା ଓ ବୃତ୍ତ ଆଙ୍କିବା",
+"କେବଳ ଚାପ ଆଙ୍କିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "90° କୋଣ ଆଙ୍କିବା ଓ ବୃତ୍ତ ଆଙ୍କିବା",
+"explanation": "ସ୍ପର୍ଶବିନ୍ଦୁରେ 90° କୋଣ ଅଙ୍କନ କରିବା ପାଇଁ ପ୍ରକାରର ଭୂମିକା ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ।"
+},
+{
+"questionEnglish": "Are all equilateral triangles similar?",
+"questionOdia": "ସମସ୍ତ ସମବାହୁ ତ୍ରିଭୁଜ ସଦୃଶ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ବଡ଼ଗୁଡ଼ିକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସମସ୍ତ ସମବାହୁ ତ୍ରିଭୁଜରେ କୋଣଗୁଡ଼ିକ ସମାନ (60°) ଥିବାରୁ ସେମାନେ ସଦୃଶ।"
+},
+{
+"questionEnglish": "Why is the perpendicular distance used to define the incircle radius?",
+"questionOdia": "ଅନ୍ତଃବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧକୁ ବୁଝାଇବା ପାଇଁ ଲମ୍ବ ଦୂରତା କାହିଁକି ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"କାରଣ ଲମ୍ବ ହେଉଛି ସର୍ବନିମ୍ନ ଦୂରତା",
+"କାରଣ ଏହା ସୁନ୍ଦର",
+"କାରଣ ଏହା ବୃତ୍ତର ବ୍ୟାସ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାରଣ ଲମ୍ବ ହେଉଛି ସର୍ବନିମ୍ନ ଦୂରତା",
+"explanation": "ବୃତ୍ତର କେନ୍ଦ୍ରରୁ ସ୍ପର୍ଶକ (ବାହୁ) ପ୍ରତି ଥିବା ସର୍ବନିମ୍ନ ଦୂରତା ହେଉଛି ବ୍ୟାସାର୍ଦ୍ଧ।"
+},
+{
+"questionEnglish": "What is the primary tool for constructing an angle of 60°?",
+"questionOdia": "60° କୋଣ ଅଙ୍କନ କରିବାର ମୁଖ୍ୟ ଯନ୍ତ୍ର କ'ଣ?",
+"options": [
+"ଚାନ୍ଦା",
+"ପ୍ରକାର",
+"ସ୍କେଲ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପ୍ରକାର",
+"explanation": "ପ୍ରକାର ବ୍ୟବହାର କରି କେନ୍ଦ୍ରରୁ ସମାନ ଚାପ ନେଇ ଗୋଟିଏ ଚାପ କାଟିଲେ 60° କୋଣ ସହଜରେ ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "How do you know if the circumcenter is correct?",
+"questionOdia": "ପରିକେନ୍ଦ୍ର ସଠିକ୍ ଅଛି କି ନାହିଁ କିପରି ଜାଣିବ?",
+"options": [
+"ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁରୁ ଦୂରତା ମାପି (ସମାନ ହେବା ଆବଶ୍ୟକ)",
+"ସ୍କେଲରେ ମାପି",
+"କେବଳ ଦେଖି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁରୁ ଦୂରତା ମାପି (ସମାନ ହେବା ଆବଶ୍ୟକ)",
+"explanation": "ପରିକେନ୍ଦ୍ର ଶୀର୍ଷବିନ୍ଦୁଗୁଡ଼ିକଠାରୁ ସମଦୂରବର୍ତ୍ତୀ ହେବା ହିଁ ସଠିକତାର ପ୍ରମାଣ।"
+},
+{
+"questionEnglish": "What is the role of the diagonal in quadrilateral area construction?",
+"questionOdia": "ଚତୁର୍ଭୁଜ କ୍ଷେତ୍ରଫଳ ଅଙ୍କନରେ କର୍ଣ୍ଣର ଭୂମିକା କ'ଣ?",
+"options": [
+"ଚତୁର୍ଭୁଜକୁ ତ୍ରିଭୁଜରେ ବିଭକ୍ତ କରିବା",
+"ଚତୁର୍ଭୁଜକୁ ବଡ଼ କରିବା",
+"କୋଣ ମାପିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଚତୁର୍ଭୁଜକୁ ତ୍ରିଭୁଜରେ ବିଭକ୍ତ କରିବା",
+"explanation": "କର୍ଣ୍ଣ ଚତୁର୍ଭୁଜକୁ ଦୁଇଟି ତ୍ରିଭୁଜରେ ବିଭକ୍ତ କରେ, ଯାହା ଅଙ୍କନକୁ ସରଳ କରେ।"
+},
+{
+"questionEnglish": "What happens to the tangent if the point is on the circle?",
+"questionOdia": "ଯଦି ବିନ୍ଦୁଟି ବୃତ୍ତ ଉପରେ ଥାଏ, ତେବେ ସ୍ପର୍ଶକ କ'ଣ ହୁଏ?",
+"options": [
+"ଏହା ବୃତ୍ତକୁ ଗୋଟିଏ ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରେ",
+"ଏହା ବୃତ୍ତକୁ କାଟିଦିଏ",
+"ଏହା ବୃତ୍ତର କେନ୍ଦ୍ର ଦେଇ ଯାଏ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏହା ବୃତ୍ତକୁ ଗୋଟିଏ ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରେ",
+"explanation": "ସ୍ପର୍ଶକର ସଂଜ୍ଞାନୁସାରେ, ଏହା ବୃତ୍ତକୁ ଗୋଟିଏ ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରେ।"
+},
+{
+"questionEnglish": "What is the common way to draw a parallel line?",
+"questionOdia": "ସମାନ୍ତରାଳ ରେଖା ଆଙ୍କିବାର ସାଧାରଣ ଉପାୟ କ'ଣ?",
+"options": [
+"ସେଟ୍ ସ୍କୋୟାର ବ୍ୟବହାର କରି",
+"କେବଳ ସ୍କେଲ ବ୍ୟବହାର କରି",
+"ପ୍ରକାର ବ୍ୟବହାର କରି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସେଟ୍ ସ୍କୋୟାର ବ୍ୟବହାର କରି",
+"explanation": "ସେଟ୍ ସ୍କୋୟାର ସାହାଯ୍ୟରେ ସଠିକ୍ ସମାନ୍ତରାଳ ରେଖା ଅଙ୍କନ କରାଯାଏ।"
+},
+{
+"questionEnglish": "Why are construction steps written after drawing?",
+"questionOdia": "ଅଙ୍କନ ପରେ ପଦକ୍ଷେପଗୁଡ଼ିକ କାହିଁକି ଲେଖାଯାଏ?",
+"options": [
+"ଅଙ୍କନକୁ ବୁଝାଇବା ପାଇଁ",
+"କାଗଜ ପୂରଣ କରିବା ପାଇଁ",
+"ଶିକ୍ଷକଙ୍କ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅଙ୍କନକୁ ବୁଝାଇବା ପାଇଁ",
+"explanation": "ଅଙ୍କନ ପ୍ରକ୍ରିୟାକୁ ଅନ୍ୟମାନେ ବୁଝିବା ପାଇଁ ପଦକ୍ଷେପଗୁଡ଼ିକ ଲେଖାଯାଏ।"
+},
+{
+"questionEnglish": "What is a 'tangent' line?",
+"questionOdia": "ସ୍ପର୍ଶକ (Tangent) ରେଖା କ'ଣ?",
+"options": [
+"ବୃତ୍ତକୁ ଛେଦ କରୁଥିବା ରେଖା",
+"ବୃତ୍ତକୁ ଗୋଟିଏ ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରୁଥିବା ରେଖା",
+"ବୃତ୍ତର ଭିତରେ ଥିବା ରେଖା",
+"ବୃତ୍ତର ବ୍ୟାସ"
+],
+"answer": "ବୃତ୍ତକୁ ଗୋଟିଏ ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରୁଥିବା ରେଖା",
+"explanation": "ସ୍ପର୍ଶକ ବୃତ୍ତର ପରିଧିକୁ କେବଳ ଗୋଟିଏ ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରେ।"
+},
+{
+"questionEnglish": "What is the main tool used for measuring angles in construction?",
+"questionOdia": "ଅଙ୍କନରେ କୋଣ ମାପିବାର ମୁଖ୍ୟ ଯନ୍ତ୍ର କ'ଣ?",
+"options": [
+"ସ୍କେଲ",
+"ଚାନ୍ଦା",
+"ପ୍ରକାର",
+"ସେଟ୍ ସ୍କୋୟାର"
+],
+"answer": "ଚାନ୍ଦା",
+"explanation": "ଚାନ୍ଦା ସାହାଯ୍ୟରେ କୋଣଗୁଡ଼ିକର ସଠିକ୍ ମାପ ନିଆଯାଏ।"
+},
+{
+"questionEnglish": "How many bisectors can a single angle have?",
+"questionOdia": "ଗୋଟିଏ କୋଣର କେତୋଟି ସମଦ୍ବିଖଣ୍ଡକ ଥାଇପାରେ?",
+"options": [
+"ଏକ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏକ",
+"explanation": "ଗୋଟିଏ କୋଣର କେବଳ ଗୋଟିଏ ସମଦ୍ବିଖଣ୍ଡକ ଥାଏ।"
+},
+{
+"questionEnglish": "What geometric figure does a triangle's perpendicular bisectors help construct?",
+"questionOdia": "ତ୍ରିଭୁଜର ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ କେଉଁ ଜ୍ୟାମିତିକ ଚିତ୍ର ଅଙ୍କନ କରିବାରେ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ଅନ୍ତଃବୃତ୍ତ",
+"ପରିବୃତ୍ତ",
+"ଆୟତଚିତ୍ର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପରିବୃତ୍ତ",
+"explanation": "ପରିବୃତ୍ତ ଅଙ୍କନ ପାଇଁ ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "Why is the intersection of two circles a common construction step?",
+"questionOdia": "ଦୁଇଟି ବୃତ୍ତର ଛେଦବିନ୍ଦୁ କାହିଁକି ଏକ ସାଧାରଣ ଅଙ୍କନ ପଦକ୍ଷେପ?",
+"options": [
+"ଏହା ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁ ଖୋଜିବାରେ ସାହାଯ୍ୟ କରେ",
+"ଏହା କ୍ଷେତ୍ରଫଳ ମାପେ",
+"ଏହା ବାହୁ ଆଙ୍କେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏହା ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁ ଖୋଜିବାରେ ସାହାଯ୍ୟ କରେ",
+"explanation": "ଦୁଇଟି ବୃତ୍ତର ଛେଦବିନ୍ଦୁ ବହୁ ଅଙ୍କନ ସମସ୍ୟାର ସମାଧାନ ପାଇଁ ଆବଶ୍ୟକ ବିନ୍ଦୁ ଦେଇଥାଏ।"
+},
+{
+"questionEnglish": "Is it possible to construct an incircle for an obtuse triangle?",
+"questionOdia": "ସ୍ଥୂଳକୋଣୀ ତ୍ରିଭୁଜ ପାଇଁ ଅନ୍ତଃବୃତ୍ତ ଅଙ୍କନ ସମ୍ଭବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ସମକୋଣୀ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସବୁ ତ୍ରିଭୁଜ ପାଇଁ ଅନ୍ତଃବୃତ୍ତ ଅଙ୍କନ ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "What does a tangent look like relative to the radius at the point of tangency?",
+"questionOdia": "ସ୍ପର୍ଶବିନ୍ଦୁରେ ସ୍ପର୍ଶକ ବ୍ୟାସାର୍ଦ୍ଧ ସହିତ କିପରି ଦେଖାଯାଏ?",
+"options": [
+"ଲମ୍ବ",
+"ସମାନ୍ତରାଳ",
+"ବଙ୍କା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଲମ୍ବ",
+"explanation": "ସ୍ପର୍ଶକ ସର୍ବଦା ବ୍ୟାସାର୍ଦ୍ଧ ସହିତ ଲମ୍ବ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Why is an accurate drawing important?",
+"questionOdia": "ଏକ ସଠିକ୍ ଅଙ୍କନ କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"କାରଣ ସଠିକ୍ ଫଳାଫଳ ମିଳିଥାଏ",
+"କାରଣ ଏହା ଦେଖିବାକୁ ସୁନ୍ଦର",
+"କାରଣ ଶିକ୍ଷକଙ୍କୁ ପସନ୍ଦ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାରଣ ସଠିକ୍ ଫଳାଫଳ ମିଳିଥାଏ",
+"explanation": "ଅଙ୍କନ ସଠିକ୍ ହେଲେ ହିଁ ତା'ର ଫଳାଫଳ ସଠିକ୍ ଭାବରେ ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "What is the role of a scale in drawing a line of 5 cm?",
+"questionOdia": "5 ସେ.ମି. ରେଖା ଆଙ୍କିବାରେ ସ୍କେଲର ଭୂମିକା କ'ଣ?",
+"options": [
+"ସଠିକ୍ ଲମ୍ବ ନିର୍ଦ୍ଧାରଣ କରିବା",
+"କୋଣ ମାପିବା",
+"ବୃତ୍ତ ଆଙ୍କିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସଠିକ୍ ଲମ୍ବ ନିର୍ଦ୍ଧାରଣ କରିବା",
+"explanation": "ସ୍କେଲରେ 0 ରୁ 5 ପର୍ଯ୍ୟନ୍ତ ମାପିଲେ ସଠିକ୍ 5 ସେ.ମି. ରେଖା ମିଳେ।"
+},
+{
+"questionEnglish": "Can you draw a tangent from the center of a circle?",
+"questionOdia": "ବୃତ୍ତର କେନ୍ଦ୍ରରୁ ସ୍ପର୍ଶକ ଆଙ୍କିହେବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ବଡ଼ ବୃତ୍ତ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "କେନ୍ଦ୍ରରୁ ଗଲେ ତାହା ବ୍ୟାସ ହୋଇଯିବ, ସ୍ପର୍ଶକ ନୁହେଁ।"
+},
+{
+"questionEnglish": "Why is the perpendicular bisector method used for circumcircles?",
+"questionOdia": "ପରିବୃତ୍ତ ପାଇଁ ଲମ୍ବ ସମଦ୍ବିଖଣ୍ଡକ ପଦ୍ଧତି କାହିଁକି ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"କାରଣ ଏହା ପରିକେନ୍ଦ୍ର ଦିଏ",
+"କାରଣ ଏହା ଶୀର୍ଷବିନ୍ଦୁ ଦିଏ",
+"କାରଣ ଏହା ବାହୁ ଦିଏ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାରଣ ଏହା ପରିକେନ୍ଦ୍ର ଦିଏ",
+"explanation": "ଏହି ପଦ୍ଧତି ପରିକେନ୍ଦ୍ର ପ୍ରଦାନ କରେ, ଯାହା ପରିବୃତ୍ତ ପାଇଁ ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "What is the common way to indicate a point in construction?",
+"questionOdia": "ଅଙ୍କନରେ ଏକ ବିନ୍ଦୁକୁ ସୂଚାଇବାର ସାଧାରଣ ଉପାୟ କ'ଣ?",
+"options": [
+"ଛୋଟ ଡଟ୍ ବା କ୍ରସ୍ ଦ୍ୱାରା",
+"ବଡ଼ ବୃତ୍ତ ଦ୍ୱାରା",
+"ରେଖା ଦ୍ୱାରା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଛୋଟ ଡଟ୍ ବା କ୍ରସ୍ ଦ୍ୱାରା",
+"explanation": "ବିନ୍ଦୁଗୁଡ଼ିକୁ ସୂଚାଇବା ପାଇଁ ଛୋଟ ଡଟ୍ କିମ୍ବା କ୍ରସ୍ (x) ଚିହ୍ନ ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the purpose of constructing a triangle equal in area to another?",
+"questionOdia": "ଅନ୍ୟ ଏକ ତ୍ରିଭୁଜ ସହିତ ସମାନ କ୍ଷେତ୍ରଫଳ ବିଶିଷ୍ଟ ତ୍ରିଭୁଜ ଅଙ୍କନ କରିବାର ଉଦ୍ଦେଶ୍ୟ କ'ଣ?",
+"options": [
+"କ୍ଷେତ୍ରଫଳର ଗୁଣ ବୁଝିବା",
+"ଅଙ୍କନର ଅଭ୍ୟାସ",
+"ବାହୁର ସମ୍ପର୍କ ବୁଝିବା",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "କ୍ଷେତ୍ରଫଳ, ଅଙ୍କନ ଓ ବାହୁର ସମ୍ପର୍କ ବୁଝିବା ଏହାର ଉଦ୍ଦେଶ୍ୟ।"
+},
+{
+"questionEnglish": "Which tool is used for drawing a right angle accurately?",
+"questionOdia": "ସଠିକ୍ ସମକୋଣ ଆଙ୍କିବା ପାଇଁ କେଉଁ ଯନ୍ତ୍ର ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"ସ୍କେଲ",
+"ପ୍ରକାର",
+"ସେଟ୍ ସ୍କୋୟାର",
+"ଉଭୟ B ଓ C"
+],
+"answer": "ଉଭୟ B ଓ C",
+"explanation": "ପ୍ରକାର ଓ ସେଟ୍ ସ୍କୋୟାର ଉଭୟ ସଠିକ୍ ସମକୋଣ ଆଙ୍କିବାରେ ସାହାଯ୍ୟ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Why do we avoid using pen in geometric construction?",
+"questionOdia": "ଜ୍ୟାମିତିକ ଅଙ୍କନରେ ଆମେ କଲମ କାହିଁକି ବ୍ୟବହାର କରୁନାହିଁ?",
+"options": [
+"କାରଣ ଭୁଲ୍ ହେଲେ ମେଣ୍ଟାଇ ହେବ ନାହିଁ",
+"କାରଣ ଏହା ଶସ୍ତା ନୁହେଁ",
+"କାରଣ ଏହା ମୋଟା ଲେଖେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାରଣ ଭୁଲ୍ ହେଲେ ମେଣ୍ଟାଇ ହେବ ନାହିଁ",
+"explanation": "ଅଙ୍କନ ସମୟରେ ଭୁଲ୍ ହେଲେ ମେଣ୍ଟାଇ ସଂଶୋଧନ କରିବା ପାଇଁ ପେନ୍ସିଲ୍ ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "How does the incircle radius relate to the triangle's area?",
+"questionOdia": "ଅନ୍ତଃବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ ସହିତ କିପରି ସମ୍ପର୍କିତ?",
+"options": [
+"କ୍ଷେତ୍ରଫଳ = r × s (ଅର୍ଦ୍ଧପରିସୀମା)",
+"କ୍ଷେତ୍ରଫଳ = r²",
+"କ୍ଷେତ୍ରଫଳ = r",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କ୍ଷେତ୍ରଫଳ = r × s (ଅର୍ଦ୍ଧପରିସୀମା)",
+"explanation": "ଏହା ଏକ ଜଣାଶୁଣା ଜ୍ୟାମିତିକ ସମ୍ପର୍କ (r ହେଉଛି ଅନ୍ତଃବ୍ୟାସାର୍ଦ୍ଧ ଓ s ହେଉଛି ଅର୍ଦ୍ଧପରିସୀମା)।"
+},
+{
+"questionEnglish": "What is the main advantage of knowing construction?",
+"questionOdia": "ଅଙ୍କନ ଜାଣିବାର ମୁଖ୍ୟ ଲାଭ କ'ଣ?",
+"options": [
+"ଜ୍ୟାମିତିକୁ ବୁଝିବା ସହଜ ହୁଏ",
+"ପରୀକ୍ଷାରେ ଭଲ ମାର୍କ ମିଳେ",
+"କାଗଜ ସଞ୍ଚୟ ହୁଏ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜ୍ୟାମିତିକୁ ବୁଝିବା ସହଜ ହୁଏ",
+"explanation": "ଅଙ୍କନ ଦ୍ୱାରା ଜ୍ୟାମିତିକ ସିଦ୍ଧାନ୍ତଗୁଡ଼ିକ ପ୍ରାୟୋଗିକ ଭାବେ ବୁଝିବା ସହଜ ହୁଏ।"
+},
+{
+"questionEnglish": "Can two different circumcircles exist for the same triangle?",
+"questionOdia": "ଗୋଟିଏ ତ୍ରିଭୁଜ ପାଇଁ କ'ଣ ଦୁଇଟି ଅଲଗା ପରିବୃତ୍ତ ଥାଇପାରେ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ବଡ଼ ତ୍ରିଭୁଜ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ତ୍ରିଭୁଜର ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁ ଦେଇ କେବଳ ଗୋଟିଏ ବୃତ୍ତ ଯାଇପାରିବ, ତେଣୁ ଗୋଟିଏ ହିଁ ପରିବୃତ୍ତ ଥାଏ।"
+},
+{
+"questionEnglish": "What does a tangent look like relative to the circle itself?",
+"questionOdia": "ବୃତ୍ତ ତୁଳନାରେ ସ୍ପର୍ଶକ କିପରି ଦେଖାଯାଏ?",
+"options": [
+"ଏହା ବୃତ୍ତର ଅଂଶ",
+"ଏହା ବୃତ୍ତର ବାହାରେ ଥାଏ ଓ ଗୋଟିଏ ବିନ୍ଦୁରେ ଛୁଇଁଥାଏ",
+"ଏହା ବୃତ୍ତ ଭିତରେ ଥାଏ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏହା ବୃତ୍ତର ବାହାରେ ଥାଏ ଓ ଗୋଟିଏ ବିନ୍ଦୁରେ ଛୁଇଁଥାଏ",
+"explanation": "ସ୍ପର୍ଶକ ବୃତ୍ତକୁ ଭିତରେ ପ୍ରବେଶ ନକରି କେବଳ ବାହାରୁ ଗୋଟିଏ ବିନ୍ଦୁରେ ସ୍ପର୍ଶ କରେ।"
+},
+{
+"questionEnglish": "Why is it easier to draw a circumcircle first?",
+"questionOdia": "ପରିବୃତ୍ତ ଆଙ୍କିବା କାହିଁକି ଅଧିକ ସହଜ?",
+"options": [
+"କାରଣ ପଦକ୍ଷେପଗୁଡ଼ିକ ସରଳ",
+"କାରଣ ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁ ଜଣାଥାଏ",
+"କାରଣ ବୃତ୍ତ ବଡ଼",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାରଣ ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁ ଜଣାଥାଏ",
+"explanation": "ତିନୋଟି ଶୀର୍ଷବିନ୍ଦୁ ଜଣାଥିବାରୁ ପରିକେନ୍ଦ୍ର ନିର୍ଣ୍ଣୟ କରିବା ଅପେକ୍ଷାକୃତ ସରଳ।"
+}
+]
