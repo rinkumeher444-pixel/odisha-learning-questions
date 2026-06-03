@@ -1,122 +1,1322 @@
 [
-  {
-    "questionEnglish": "What is the pH value of a neutral solution?",
-    "questionOdia": "ଏକ ପ୍ରଶମିତ ଦ୍ରବଣର pH ମୂଲ୍ୟ କେତେ?",
-    "options": [
-      "7",
-      "0",
-      "14",
-      "less than 7"
-    ],
-    "answer": "7",
-    "explanation": "A neutral solution like pure water has a pH value of exactly 7. Values below 7 are acidic, and above 7 are basic."
-  },
-  {
-    "questionEnglish": "Which gas is evolved when an acid reacts with a metal?",
-    "questionOdia": "ଅମ୍ଳ ଏକ ଧାତୁ ସହିତ ପ୍ରତିକ୍ରିୟା କଲେ କେଉଁ ଗ୍ୟାସ୍ ନିର୍ଗତ ହୁଏ?",
-    "options": [
-      "Hydrogen",
-      "Carbon dioxide",
-      "Oxygen",
-      "Nitrogen"
-    ],
-    "answer": "Hydrogen",
-    "explanation": "Acids react with active metals to produce salt and hydrogen gas (e.g., Zn + 2HCl -> ZnCl2 + H2)."
-  },
-  {
-    "questionEnglish": "What is the chemical name of baking soda?",
-    "questionOdia": "ଖାଇବା ସୋଡାର ରାସାୟନିକ ନାମ କଣ?",
-    "options": [
-      "Sodium hydrogen carbonate",
-      "Sodium carbonate",
-      "Calcium carbonate",
-      "Sodium chloride"
-    ],
-    "answer": "Sodium hydrogen carbonate",
-    "explanation": "Baking soda is chemically known as Sodium hydrogen carbonate or Sodium bicarbonate, and its formula is NaHCO3."
-  },
-  {
-    "questionEnglish": "Which of the following acids is present in sour milk or curd?",
-    "questionOdia": "ଖଟା କ୍ଷୀର ବା ଦହିରେ ନିମ୍ନଲିଖିତ ମଧୁରୁ କେଉଁ ଅମ୍ଳ ଥାଏ?",
-    "options": [
-      "Lactic acid",
-      "Citric acid",
-      "Tartaric acid",
-      "Oxalic acid"
-    ],
-    "answer": "Lactic acid",
-    "explanation": "Lactic acid is produced in curd due to the fermentation of lactose sugar by Lactobacillus bacteria."
-  },
-  {
-    "questionEnglish": "What turns blue litmus paper to red?",
-    "questionOdia": "ନୀଳ ଲିଟମସ କାଗଜକୁ କିଏ ଲାଲ୍ ରଙ୍ଗରେ ପରିଣତ କରେ?",
-    "options": [
-      "Acid",
-      "Base",
-      "Salt",
-      "Water"
-    ],
-    "answer": "Acid",
-    "explanation": "Acids turn blue litmus paper red, whereas bases turn red litmus paper blue."
-  },
-  {
-    "questionEnglish": "What is the chemical formula of Plaster of Paris?",
-    "questionOdia": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସର ରାସାୟନିକ ସଙ୍କେତ କଣ?",
-    "options": [
-      "CaSO4 . 1/2 H2O",
-      "CaSO4 . 2H2O",
-      "CuSO4 . 5H2O",
-      "Na2CO3 . 10H2O"
-    ],
-    "answer": "CaSO4 . 1/2 H2O",
-    "explanation": "Plaster of Paris is calcium sulphate hemihydrate, meaning it has half a molecule of water of crystallization."
-  },
-  {
-    "questionEnglish": "Which substance is used for disinfecting drinking water to make it free of germs?",
-    "questionOdia": "ପାନୀୟ ଜଳକୁ ଜୀବାଣୁ ମୁକ୍ତ କରିବା ପାଇଁ କେଉଁ ପଦାର୍ଥ ବ୍ୟବହାର କରାଯାଏ?",
-    "options": [
-      "Bleaching powder",
-      "Baking soda",
-      "Washing soda",
-      "Gypsum"
-    ],
-    "answer": "Bleaching powder",
-    "explanation": "Bleaching powder (CaOCl2) releases chlorine gas, which acts as a powerful disinfectant to kill germs in water."
-  },
-  {
-    "questionEnglish": "What is the reaction between an acid and a base called?",
-    "questionOdia": "ଅମ୍ଳ ଏବଂ କ୍ଷାରକ ମଧ୍ୟରେ ହେଉଥିବା ପ୍ରତିକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Neutralization reaction",
-      "Combination reaction",
-      "Displacement reaction",
-      "Redox reaction"
-    ],
-    "answer": "Neutralization reaction",
-    "explanation": "The reaction between an acid and a base forms salt and water, and it is known as a neutralization reaction."
-  },
-  {
-    "questionEnglish": "What is the nature of non-metallic oxides?",
-    "questionOdia": "ଅଧାତବ ଅକ୍ସାଇଡଗୁଡ଼ିକର ପ୍ରକୃତି କିପରି ହୋଇଥାଏ?",
-    "options": [
-      "Acidic",
-      "Basic",
-      "Neutral",
-      "Amphoteric"
-    ],
-    "answer": "Acidic",
-    "explanation": "Non-metallic oxides (like CO2, SO2) are acidic in nature because they react with water to form acids."
-  },
-  {
-    "questionEnglish": "Our stomach produces which acid that helps in digestion without harming the stomach?",
-    "questionOdia": "ଆମ ପାକସ୍ଥଳୀ କେଉଁ ଅମ୍ଳ ପ୍ରସ୍ତୁତ କରେ ଯାହା ହଜମ ପ୍ରକ୍ରିୟାରେ ସାହାଯ୍ୟ କରିଥାଏ?",
-    "options": [
-      "Hydrochloric acid",
-      "Sulphuric acid",
-      "Nitric acid",
-      "Acetic acid"
-    ],
-    "answer": "Hydrochloric acid",
-    "explanation": "The gastric glands in our stomach release Hydrochloric acid (HCl), which creates an acidic medium needed for the enzyme pepsin to digest protein."
-  }
+{
+"questionEnglish": "What is the general form of a linear equation in one unknown variable x?",
+"questionOdia": "ଗୋଟିଏ ଅଜ୍ଞାତ ରାଶି x ରେ ସରଳ ସମୀକରଣର ସାଧାରଣ ରୂପ କ'ଣ?",
+"options": [
+"ax + b = 0, ଯେଉଁଠାରେ a ≠ 0",
+"ax + b = 0, ଯେଉଁଠାରେ a = 0",
+"ax^2 + b = 0",
+"a/x + b = 0"
+],
+"answer": "ax + b = 0, ଯେଉଁଠାରେ a ≠ 0",
+"explanation": "ଏକ ଅଜ୍ଞାତ ରାଶି x ରେ ସରଳ ସମୀକରଣର ସାଧାରଣ ରୂପ ହେଉଛି ax + b = 0, ଯେଉଁଠାରେ a ≠ 0।"
+},
+{
+"questionEnglish": "In the equation ax + b = 0, what is 'a' called?",
+"questionOdia": "ax + b = 0 ସମୀକରଣରେ 'a' କୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ଧ୍ରୁବକ ରାଶି",
+"ସହଗ (Coefficient)",
+"ଅଜ୍ଞାତ ରାଶି",
+"ସୂଚକାଙ୍କ"
+],
+"answer": "ସହଗ (Coefficient)",
+"explanation": "ax + b = 0 ସମୀକରଣରେ 'a' କୁ x ର ସହଗ (coefficient) ଏବଂ 'b' କୁ ଧ୍ରୁବକ ରାଶି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the solution (root) of the equation ax + b = 0?",
+"questionOdia": "ax + b = 0 ସମୀକରଣର ସମାଧାନ (ମୂଳ) କ'ଣ?",
+"options": [
+"b/a",
+"-b/a",
+"a/b",
+"-a/b"
+],
+"answer": "-b/a",
+"explanation": "ax + b = 0 ହେଲେ ax = -b, ତେଣୁ x = -b/a ହେଉଛି ଏହାର ସମାଧାନ।"
+},
+{
+"questionEnglish": "What is the general form of a linear equation in two unknown variables x and y?",
+"questionOdia": "ଦୁଇଟି ଅଜ୍ଞାତ ରାଶି x ଓ y ରେ ସରଳ ସମୀକରଣର ସାଧାରଣ ରୂପ କ'ଣ?",
+"options": [
+"a1x + b1y = 0",
+"a1x + b1y + c1 = 0",
+"a1x - b1y + c1 = 0",
+"x + y + c1 = 0"
+],
+"answer": "a1x + b1y + c1 = 0",
+"explanation": "ଦୁଇଟି ଅଜ୍ଞାତ ରାଶି x ଓ y ରେ ସରଳ ସମୀକରଣର ସାଧାରଣ ରୂପ a1x + b1y + c1 = 0 ଅଟେ।"
+},
+{
+"questionEnglish": "In the equation a1x + b1y + c1 = 0, can a1 and b1 both be zero?",
+"questionOdia": "a1x + b1y + c1 = 0 ସମୀକରଣରେ a1 ଓ b1 ଉଭୟ ଶୂନ ହୋଇପାରିବେ କି?",
+"options": [
+"ହଁ, ହୋଇପାରିବେ",
+"ନା, ହୋଇପାରିବେ ନାହିଁ",
+"କେବଳ a1 ଶୂନ ହୋଇପାରିବ",
+"କେବଳ b1 ଶୂନ ହୋଇପାରିବ"
+],
+"answer": "ନା, ହୋଇପାରିବେ ନାହିଁ",
+"explanation": "ସରଳ ସମୀକରଣରେ a1 ଓ b1 ସହଗଦ୍ଵୟ ଉଭୟ ଏକ ସଙ୍ଗେ ଶୂନ ହୋଇପାରିବେ ନାହିଁ।"
+},
+{
+"questionEnglish": "What is the geometric representation of the linear equation a1x + b1y + c1 = 0 on the xy-plane?",
+"questionOdia": "xy-ସମତଳରେ a1x + b1y + c1 = 0 ସମୀକରଣର ଜ୍ୟାମିତିକ ରୂପ କ'ଣ?",
+"options": [
+"ଏକ ବକ୍ରରେଖା",
+"ଏକ ସରଳରେଖା",
+"ଏକ ବିନ୍ଦୁ",
+"ଏକ ବୃତ୍ତ"
+],
+"answer": "ଏକ ସରଳରେଖା",
+"explanation": "xy-ସମତଳରେ ଏକଘାତୀ ସମୀକରଣର ଜ୍ୟାମିତିକ ରୂପ ସର୍ବଦା ଗୋଟିଏ ସରଳରେଖା ଅଟେ।"
+},
+{
+"questionEnglish": "To solve two linear equations in x and y, how many equations are required?",
+"questionOdia": "x ଓ y ରେ ଦୁଇଟି ଏକଘାତୀ ସମୀକରଣର ସମାଧାନ ପାଇଁ କେତୋଟି ସମୀକରଣ ଆବଶ୍ୟକ?",
+"options": [
+"କେବଳ ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"କୌଣସି ନିର୍ଦ୍ଦିଷ୍ଟ ସଂଖ୍ୟା ନାହିଁ"
+],
+"answer": "ଦୁଇଟି",
+"explanation": "x ଓ y ଅଜ୍ଞାତ ରାଶି ବିଶିଷ୍ଟ ଦୁଇଟି ସମୀକରଣର ସମାଧାନ ପାଇଁ ଆମକୁ ଦୁଇଟି ସମୀକରଣ ଆବଶ୍ୟକ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "When two lines L1 and L2 intersect at a point P(α, β), what does it represent?",
+"questionOdia": "ଯେତେବେଳେ ଦୁଇଟି ରେଖା L1 ଓ L2 ଗୋଟିଏ ବିନ୍ଦୁ P(α, β) ରେ ଛେଦ କରନ୍ତି, ଏହା କ'ଣ ସୂଚାଏ?",
+"options": [
+"କୌଣସି ସମାଧାନ ନାହିଁ",
+"ଅନନ୍ୟ (ଏକମାତ୍ର) ସମାଧାନ",
+"ଅସଂଖ୍ୟ ସମାଧାନ",
+"ଦୁଇଟି ସମାଧାନ"
+],
+"answer": "ଅନନ୍ୟ (ଏକମାତ୍ର) ସମାଧାନ",
+"explanation": "ରେଖାଦ୍ଵୟ ପରସ୍ପରକୁ ଗୋଟିଏ ବିନ୍ଦୁରେ ଛେଦ କଲେ ତାହା ସେହି ସମୀକରଣ ଦ୍ଵୟର ଅନନ୍ୟ ସମାଧାନକୁ ସୂଚାଏ।"
+},
+{
+"questionEnglish": "If two lines are coincident (L1 and L2 are the same), what is the number of solutions?",
+"questionOdia": "ଯଦି ଦୁଇଟି ରେଖା ସମାପତିତ (L1 ଓ L2 ଏକ ଓ ଅଭିନ୍ନ) ହୁଅନ୍ତି, ତେବେ ସମାଧାନ ସଂଖ୍ୟା କେତେ?",
+"options": [
+"ଶୂନ",
+"ଏକ",
+"ଦୁଇ",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "ଅସଂଖ୍ୟ",
+"explanation": "ସମାପତିତ ରେଖାଗୁଡ଼ିକର ସାଧାରଣ ବିନ୍ଦୁ ଅସଂଖ୍ୟ ହୋଇଥିବାରୁ, ସେମାନଙ୍କର ଅସଂଖ୍ୟ ସମାଧାନ ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "When two lines are parallel, what can be said about the solution of the simultaneous equations?",
+"questionOdia": "ଯେତେବେଳେ ଦୁଇଟି ରେଖା ସମାନ୍ତର ହୁଅନ୍ତି, ସହସମୀକରଣ ଦ୍ଵୟର ସମାଧାନ ବିଷୟରେ କ'ଣ କୁହାଯାଇପାରିବ?",
+"options": [
+"ଅନନ୍ୟ ସମାଧାନ",
+"ଅସଂଖ୍ୟ ସମାଧାନ",
+"କୌଣସି ସମାଧାନ ସମ୍ଭବ ନୁହେଁ",
+"ଦୁଇଟି ସମାଧାନ"
+],
+"answer": "କୌଣସି ସମାଧାନ ସମ୍ଭବ ନୁହେଁ",
+"explanation": "ସମାନ୍ତର ରେଖାଗୁଡ଼ିକ ପରସ୍ପରକୁ ଛେଦ କରନ୍ତି ନାହିଁ, ତେଣୁ ସେମାନଙ୍କର କୌଣସି ସମାଧାନ ସମ୍ଭବ ନୁହେଁ।"
+},
+{
+"questionEnglish": "What is the minimum number of points required to draw a unique straight line?",
+"questionOdia": "ଏକ ଅନନ୍ୟ ସରଳରେଖା ଅଙ୍କନ କରିବା ପାଇଁ ଅତି କମ୍‌ରେ କେତୋଟି ବିନ୍ଦୁର ଆବଶ୍ୟକତା ଅଛି?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"ଚାରୋଟି"
+],
+"answer": "ଦୁଇଟି",
+"explanation": "ସମତଳରେ ଦୁଇଟି ବିନ୍ଦୁ ଦେଇ ଏକ ଅନନ୍ୟ ସରଳରେଖା ଅଙ୍କନ କରାଯାଇପାରେ, ତେଣୁ ଅତି କମ୍‌ରେ ଦୁଇଟି ବିନ୍ଦୁ ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "For the equations a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0, what is the condition for a unique solution?",
+"questionOdia": "a1x + b1y + c1 = 0 ଏବଂ a2x + b2y + c2 = 0 ସମୀକରଣ ପାଇଁ ଅନନ୍ୟ ସମାଧାନର ସର୍ତ୍ତ କ'ଣ?",
+"options": [
+"a1/a2 = b1/b2",
+"a1/a2 ≠ b1/b2",
+"a1/a2 = b1/b2 = c1/c2",
+"a1/a2 = b1/b2 ≠ c1/c2"
+],
+"answer": "a1/a2 ≠ b1/b2",
+"explanation": "x ର ସହଗ ଦ୍ଵୟର ଅନୁପାତ ଓ y ର ସହଗ ଦ୍ଵୟର ଅନୁପାତ ଅସମାନ (a1/a2 ≠ b1/b2) ହେଲେ ଅନନ୍ୟ ସମାଧାନ ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "What are the characteristics of simultaneous equations having a unique solution?",
+"questionOdia": "ଅନନ୍ୟ ସମାଧାନ ଥିବା ସହସମୀକରଣ ଦ୍ଵୟର ବୈଶିଷ୍ଟ୍ୟ କ'ଣ?",
+"options": [
+"ସଙ୍ଗତ ଓ ନିର୍ଭରଶୀଳ",
+"ଅସଙ୍ଗତ",
+"ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର",
+"explanation": "ଅନନ୍ୟ ସମାଧାନ ଥିବା ସହସମୀକରଣ ଦ୍ଵୟ ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର (Consistent and Independent) ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "What is the condition for infinitely many solutions for simultaneous equations?",
+"questionOdia": "ସହସମୀକରଣ ଦ୍ଵୟର ଅସଂଖ୍ୟ ସମାଧାନ ପାଇଁ ସର୍ତ୍ତ କ'ଣ?",
+"options": [
+"a1/a2 ≠ b1/b2",
+"a1/a2 = b1/b2 ≠ c1/c2",
+"a1/a2 = b1/b2 = c1/c2",
+"a1/a2 ≠ c1/c2"
+],
+"answer": "a1/a2 = b1/b2 = c1/c2",
+"explanation": "a1/a2 = b1/b2 = c1/c2 ହେଲେ ରେଖାଦ୍ଵୟ ଏକ ଓ ଅଭିନ୍ନ ହୁଅନ୍ତି ଏବଂ ଅସଂଖ୍ୟ ସମାଧାନ ମିଳେ।"
+},
+{
+"questionEnglish": "Simultaneous equations with infinitely many solutions are called what?",
+"questionOdia": "ଅସଂଖ୍ୟ ସମାଧାନ ଥିବା ସହସମୀକରଣ ଦ୍ଵୟକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର",
+"ସଙ୍ଗତ ଓ ନିର୍ଭରଶୀଳ",
+"ଅସଙ୍ଗତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସଙ୍ଗତ ଓ ନିର୍ଭରଶୀଳ",
+"explanation": "ଅସଂଖ୍ୟ ସମାଧାନ ଥିବା ସହସମୀକରଣ ଦ୍ଵୟ ସଙ୍ଗତ ଓ ନିର୍ଭରଶୀଳ (Consistent and Dependent) ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "What is the condition for no solution for simultaneous equations?",
+"questionOdia": "ସହସମୀକରଣ ଦ୍ଵୟର କୌଣସି ସମାଧାନ ନଥିଲେ ତାହାର ସର୍ତ୍ତ କ'ଣ?",
+"options": [
+"a1/a2 = b1/b2 = c1/c2",
+"a1/a2 ≠ b1/b2",
+"a1/a2 = b1/b2 ≠ c1/c2",
+"a1/a2 ≠ c1/c2"
+],
+"answer": "a1/a2 = b1/b2 ≠ c1/c2",
+"explanation": "a1/a2 = b1/b2 ≠ c1/c2 ହେଲେ ରେଖାଦ୍ଵୟ ସମାନ୍ତର ହୁଅନ୍ତି, ତେଣୁ ସେମାନଙ୍କର କୌଣସି ସମାଧାନ ନଥାଏ (ଅସଙ୍ଗତ)।"
+},
+{
+"questionEnglish": "Simultaneous equations having no solutions are known as?",
+"questionOdia": "କୌଣସି ସମାଧାନ ନଥିବା ସହସମୀକରଣ ଦ୍ଵୟକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ସଙ୍ଗତ",
+"ଅସଙ୍ଗତ",
+"ସ୍ଵତନ୍ତ୍ର",
+"ନିର୍ଭରଶୀଳ"
+],
+"answer": "ଅସଙ୍ଗତ",
+"explanation": "କୌଣସି ସମାଧାନ ନଥିବା ସମୀକରଣଗୁଡ଼ିକୁ ଅସଙ୍ଗତ (Inconsistent) କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the unique solution of equations a1x + b1y = 0 and a2x + b2y = 0 if a1/a2 ≠ b1/b2?",
+"questionOdia": "ଯଦି a1/a2 ≠ b1/b2 ହୁଏ, ତେବେ a1x + b1y = 0 ଏବଂ a2x + b2y = 0 ସମୀକରଣର ଅନନ୍ୟ ସମାଧାନ କ'ଣ?",
+"options": [
+"(1, 1)",
+"(0, 1)",
+"(0, 0)",
+"(1, 0)"
+],
+"answer": "(0, 0)",
+"explanation": "ମୂଳବିନ୍ଦୁ ଦେଇ ଯାଉଥିବା ସରଳରେଖାଗୁଡ଼ିକ ପାଇଁ (a1x+b1y=0), ଯଦି ଅନନ୍ୟ ସମାଧାନ ଥାଏ ତେବେ ତାହା (0,0) ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "How many solutions does the equation x + y = 0 have?",
+"questionOdia": "x + y = 0 ସମୀକରଣର କେତୋଟି ସମାଧାନ ସମ୍ଭବ?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ଅସଂଖ୍ୟ",
+"ଶୂନ"
+],
+"answer": "ଅସଂଖ୍ୟ",
+"explanation": "x ଓ y ରେ ଗୋଟିଏ ଏକଘାତୀ ସମୀକରଣର ଅସଂଖ୍ୟ ସମାଧାନ ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "If two lines are intersecting, the equations are considered?",
+"questionOdia": "ଯଦି ଦୁଇଟି ରେଖା ପରସ୍ପରକୁ ଛେଦ କରନ୍ତି, ତେବେ ସେହି ସମୀକରଣ ଦ୍ଵୟ କିପରି?",
+"options": [
+"ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର",
+"ସଙ୍ଗତ ଓ ନିର୍ଭରଶୀଳ",
+"ଅସଙ୍ଗତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର",
+"explanation": "ଛେଦୀ ରେଖା କ୍ଷେତ୍ରରେ ସମୀକରଣ ଦ୍ଵୟ ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "If two lines are parallel, the system is?",
+"questionOdia": "ଯଦି ଦୁଇଟି ରେଖା ସମାନ୍ତର ହୁଅନ୍ତି, ତେବେ ସେହି ସମୀକରଣ ପ୍ରଣାଳୀ କିପରି?",
+"options": [
+"ସଙ୍ଗତ",
+"ଅସଙ୍ଗତ",
+"ସ୍ଵତନ୍ତ୍ର",
+"ନିର୍ଭରଶୀଳ"
+],
+"answer": "ଅସଙ୍ଗତ",
+"explanation": "ସମାନ୍ତର ରେଖା କ୍ଷେତ୍ରରେ କୌଣସି ସାଧାରଣ ବିନ୍ଦୁ ନଥାଏ, ତେଣୁ ସମୀକରଣ ପ୍ରଣାଳୀ ଅସଙ୍ଗତ ହୁଏ।"
+},
+{
+"questionEnglish": "The graph of which type of equation is a straight line?",
+"questionOdia": "କେଉଁ ପ୍ରକାରର ସମୀକରଣର ଲେଖଚିତ୍ର ଏକ ସରଳରେଖା ଅଟେ?",
+"options": [
+"ଏକଘାତୀ",
+"ଦ୍ଵିଘାତୀ",
+"ତ୍ରିଘାତୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏକଘାତୀ",
+"explanation": "x ଓ y ରେ ଏକଘାତୀ ସମୀକରଣର ଲେଖଚିତ୍ର ସର୍ବଦା ଏକ ସରଳରେଖା ଅଟେ।"
+},
+{
+"questionEnglish": "What does a single point on the line in a graph represent?",
+"questionOdia": "ଲେଖଚିତ୍ରରେ ଥିବା ରେଖା ଉପରିସ୍ଥ ଗୋଟିଏ ବିନ୍ଦୁ କ'ଣ ସୂଚାଏ?",
+"options": [
+"ସମୀକରଣର ଏକ ସମାଧାନ",
+"ସମୀକରଣର ଅନନ୍ୟ ସମାଧାନ",
+"ସମୀକରଣର କୌଣସି ସମାଧାନ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମୀକରଣର ଏକ ସମାଧାନ",
+"explanation": "ରେଖା ଉପରିସ୍ଥ ପ୍ରତ୍ୟେକ ବିନ୍ଦୁର ସ୍ଥାନାଙ୍କ ଦତ୍ତ ସମୀକରଣର ଗୋଟିଏ ସମାଧାନକୁ ସୂଚାଏ।"
+},
+{
+"questionEnglish": "If the ratio of coefficients of x and y is equal for two lines, but the constant ratio is different, the lines are?",
+"questionOdia": "ଯଦି ଦୁଇଟି ରେଖା ପାଇଁ x ଓ y ର ସହଗର ଅନୁପାତ ସମାନ କିନ୍ତୁ ଧ୍ରୁବକ ପଦର ଅନୁପାତ ଭିନ୍ନ ହୁଏ, ତେବେ ରେଖା ଦ୍ଵୟ କିପରି?",
+"options": [
+"ଛେଦୀ",
+"ସମାପତିତ",
+"ସମାନ୍ତର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମାନ୍ତର",
+"explanation": "a1/a2 = b1/b2 ≠ c1/c2 ହେଲେ ରେଖା ଦ୍ଵୟ ସମାନ୍ତର ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "Can two different straight lines intersect at more than one point?",
+"questionOdia": "ଦୁଇଟି ଭିନ୍ନ ସରଳରେଖା ଏକରୁ ଅଧିକ ବିନ୍ଦୁରେ ଛେଦ କରିପାରିବେ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି ବିନ୍ଦୁରେ",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "ନା",
+"explanation": "ଦୁଇଟି ଭିନ୍ନ ସରଳରେଖା ଅଧିକତଃ ଗୋଟିଏ ବିନ୍ଦୁରେ ଛେଦ କରିପାରିବେ।"
+},
+{
+"questionEnglish": "What does (α, β) represent when it satisfies both equations?",
+"questionOdia": "ଯେତେବେଳେ (α, β) ଉଭୟ ସମୀକରଣକୁ ସିଦ୍ଧ କରେ, ଏହା କ'ଣ ସୂଚାଏ?",
+"options": [
+"ଛେଦବିନ୍ଦୁ",
+"ସମାନ୍ତର ରେଖା",
+"ଅସଙ୍ଗତ ସମୀକରଣ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଛେଦବିନ୍ଦୁ",
+"explanation": "(α, β) ସ୍ଥାନାଙ୍କ ଉଭୟ ସମୀକରଣକୁ ସିଦ୍ଧ କରୁଥିବାରୁ ଏହା ସେମାନଙ୍କର ଛେଦବିନ୍ଦୁ।"
+},
+{
+"questionEnglish": "In the equation x - 2y = 0, if x=4, what is y?",
+"questionOdia": "x - 2y = 0 ସମୀକରଣରେ, ଯଦି x=4 ହୁଏ, ତେବେ y କେତେ?",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "2",
+"explanation": "4 - 2y = 0 => 2y = 4 => y = 2।"
+},
+{
+"questionEnglish": "Which condition makes the equations dependent?",
+"questionOdia": "କେଉଁ ସର୍ତ୍ତ ସମୀକରଣକୁ ନିର୍ଭରଶୀଳ କରେ?",
+"options": [
+"a1/a2 ≠ b1/b2",
+"a1/a2 = b1/b2 ≠ c1/c2",
+"a1/a2 = b1/b2 = c1/c2",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "a1/a2 = b1/b2 = c1/c2",
+"explanation": "ସହଗଗୁଡ଼ିକର ଅନୁପାତ ସମାନ ହେଲେ ସମୀକରଣ ଦ୍ଵୟ ନିର୍ଭରଶୀଳ ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "Are coincident lines considered to have solutions?",
+"questionOdia": "ସମାପତିତ ରେଖାଗୁଡ଼ିକର ସମାଧାନ ଅଛି ବୋଲି ଧରାଯାଏ କି?",
+"options": [
+"ହଁ, ଅସଂଖ୍ୟ",
+"ନା, କୌଣସି ନୁହେଁ",
+"ହଁ, ଗୋଟିଏ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ, ଅସଂଖ୍ୟ",
+"explanation": "ସମାପତିତ ରେଖାଗୁଡ଼ିକର ଅସଂଖ୍ୟ ସାଧାରଣ ବିନ୍ଦୁ ଥାଏ, ତେଣୁ ସେମାନଙ୍କର ଅସଂଖ୍ୟ ସମାଧାନ ଥାଏ।"
+},
+{
+"questionEnglish": "What is the graph of a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 if a1/a2 = b1/b2 ≠ c1/c2?",
+"questionOdia": "ଯଦି a1/a2 = b1/b2 ≠ c1/c2, ତେବେ a1x + b1y + c1 = 0 ଓ a2x + b2y + c2 = 0 ର ଲେଖଚିତ୍ର କିପରି?",
+"options": [
+"ପରସ୍ପର ଛେଦୀ",
+"ସମାପତିତ",
+"ସମାନ୍ତର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମାନ୍ତର",
+"explanation": "ଏହି ଅନୁପାତ ସର୍ତ୍ତରେ ରେଖା ଦ୍ଵୟ ସମାନ୍ତର ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "If x=1, y=-3 is a solution, does it satisfy both equations?",
+"questionOdia": "ଯଦି x=1, y=-3 ଏକ ସମାଧାନ, ତେବେ ଏହା ଉଭୟ ସମୀକରଣକୁ ସିଦ୍ଧ କରେ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ପ୍ରଥମଟିକୁ",
+"କେବଳ ଦ୍ଵିତୀୟଟିକୁ"
+],
+"answer": "ହଁ",
+"explanation": "ସମାଧାନ ହୋଇଥିବାରୁ, ଏହା ଉଭୟ ସମୀକରଣକୁ ସିଦ୍ଧ କରିବ।"
+},
+{
+"questionEnglish": "What is the value of x when 2x - y = 1 and x + 2y = 8 intersect?",
+"questionOdia": "2x - y = 1 ଏବଂ x + 2y = 8 ରେଖାଦ୍ଵୟ ଛେଦ କଲେ x ର ମୂଲ୍ୟ କେତେ?",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "2",
+"explanation": "ସମୀକରଣ ଦ୍ଵୟର ସମାଧାନ କଲେ (2, 3) ମିଳେ, ତେଣୁ x=2।"
+},
+{
+"questionEnglish": "For the equation x + 2y - 3 = 0, what is y in terms of x?",
+"questionOdia": "x + 2y - 3 = 0 ସମୀକରଣ ପାଇଁ, x ମାଧ୍ୟମରେ y କ'ଣ?",
+"options": [
+"y = (3 - x)/2",
+"y = (x - 3)/2",
+"y = (3 + x)/2",
+"y = 3 - x"
+],
+"answer": "y = (3 - x)/2",
+"explanation": "2y = 3 - x, ତେଣୁ y = (3 - x)/2।"
+},
+{
+"questionEnglish": "What is the solution of the pair 2x - y - 1 = 0 and x + 2y - 3 = 0?",
+"questionOdia": "2x - y - 1 = 0 ଏବଂ x + 2y - 3 = 0 ସହସମୀକରଣ ଦ୍ଵୟର ସମାଧାନ କ'ଣ?",
+"options": [
+"(1, 1)",
+"(2, 1)",
+"(1, 2)",
+"(0, 1)"
+],
+"answer": "(1, 1)",
+"explanation": "ଉଭୟ ସମୀକରଣରେ (1, 1) ପକାଇଲେ ତାହା ସିଦ୍ଧ ହେଉଛି।"
+},
+{
+"questionEnglish": "Which of the following is a solution of x - y = 0?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି x - y = 0 ର ଏକ ସମାଧାନ?",
+"options": [
+"(1, 0)",
+"(2, 3)",
+"(4, 4)",
+"(0, 2)"
+],
+"answer": "(4, 4)",
+"explanation": "x - y = 0 ହେଲେ x = y, ତେଣୁ (4, 4) ଏକ ସମାଧାନ।"
+},
+{
+"questionEnglish": "How do we represent 'x and y in a single linear equation' graphically?",
+"questionOdia": "ଏକ ଏକଘାତୀ ସମୀକରଣରେ 'x ଓ y' କୁ ଗ୍ରାଫରେ କିପରି ପ୍ରକାଶ କରାଯାଏ?",
+"options": [
+"ବକ୍ରରେଖା",
+"ସରଳରେଖା",
+"ବୃତ୍ତ",
+"ଉପବୃତ୍ତ"
+],
+"answer": "ସରଳରେଖା",
+"explanation": "ଏକଘାତୀ ସମୀକରଣର ଜ୍ୟାମିତିକ ରୂପ ସର୍ବଦା ଏକ ସରଳରେଖା।"
+},
+{
+"questionEnglish": "If 4x + ky + 8 = 0 and 2x + 2y + 2 = 0 have a unique solution, what is the condition for k?",
+"questionOdia": "ଯଦି 4x + ky + 8 = 0 ଏବଂ 2x + 2y + 2 = 0 ର ଅନନ୍ୟ ସମାଧାନ ଥାଏ, ତେବେ k ପାଇଁ ସର୍ତ୍ତ କ'ଣ?",
+"options": [
+"k = 4",
+"k ≠ 4",
+"k = 2",
+"k ≠ 2"
+],
+"answer": "k ≠ 4",
+"explanation": "ଅନନ୍ୟ ସମାଧାନ ପାଇଁ 4/2 ≠ k/2, ତେଣୁ 2 ≠ k/2, ଅର୍ଥାତ୍ k ≠ 4।"
+},
+{
+"questionEnglish": "If kx + 3y - (k - 3) = 0 and 12x + ky - k = 0 have infinitely many solutions, what is the value of k?",
+"questionOdia": "ଯଦି kx + 3y - (k - 3) = 0 ଏବଂ 12x + ky - k = 0 ର ଅସଂଖ୍ୟ ସମାଧାନ ଥାଏ, ତେବେ k ର ମୂଲ୍ୟ କେତେ?",
+"options": [
+"6",
+"-6",
+"0",
+"3"
+],
+"answer": "6",
+"explanation": "k/12 = 3/k = (k-3)/k ସର୍ତ୍ତ ଅନୁଯାୟୀ k=6 ହେବ।"
+},
+{
+"questionEnglish": "What does a_1/a_2 ≠ b_1/b_2 imply for the system?",
+"questionOdia": "a_1/a_2 ≠ b_1/b_2 ସର୍ତ୍ତ ପ୍ରଣାଳୀ ପାଇଁ କ'ଣ ସୂଚାଏ?",
+"options": [
+"ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର",
+"ସଙ୍ଗତ ଓ ନିର୍ଭରଶୀଳ",
+"ଅସଙ୍ଗତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର",
+"explanation": "ଏହି ଅନୁପାତ ଅନନ୍ୟ ସମାଧାନ ବା ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର ସମୀକରଣକୁ ସୂଚାଏ।"
+},
+{
+"questionEnglish": "Are the lines for consistent and dependent equations distinct?",
+"questionOdia": "ସଙ୍ଗତ ଓ ନିର୍ଭରଶୀଳ ସମୀକରଣ ପାଇଁ ରେଖାଗୁଡ଼ିକ ଭିନ୍ନ କି?",
+"options": [
+"ହଁ",
+"ନା, ସେଗୁଡ଼ିକ ସମାପତିତ",
+"ନା, ସେଗୁଡ଼ିକ ସମାନ୍ତର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା, ସେଗୁଡ଼ିକ ସମାପତିତ",
+"explanation": "ସଙ୍ଗତ ଓ ନିର୍ଭରଶୀଳ ସମୀକରଣଗୁଡ଼ିକ ପାଇଁ ରେଖାଦ୍ଵୟ ସମାପତିତ (ଏକ ଓ ଅଭିନ୍ନ) ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "If x=0, y=-2 is a solution of x+y+2=0, does it satisfy the equation?",
+"questionOdia": "ଯଦି x=0, y=-2 ଏହା x+y+2=0 ର ଏକ ସମାଧାନ, ତେବେ ଏହା ସମୀକରଣକୁ ସିଦ୍ଧ କରେ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ x ପାଇଁ",
+"କେବଳ y ପାଇଁ"
+],
+"answer": "ହଁ",
+"explanation": "0 + (-2) + 2 = 0, ତେଣୁ ଏହା ସମୀକରଣକୁ ସିଦ୍ଧ କରେ।"
+},
+{
+"questionEnglish": "Which of the following is an example of an inconsistent system?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଅସଙ୍ଗତ ପ୍ରଣାଳୀର ଉଦାହରଣ?",
+"options": [
+"ଛେଦୀ ରେଖା",
+"ସମାପତିତ ରେଖା",
+"ସମାନ୍ତର ରେଖା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମାନ୍ତର ରେଖା",
+"explanation": "ସମାନ୍ତର ରେଖାଗୁଡ଼ିକର କୌଣସି ସମାଧାନ ନଥିବାରୁ ସେଗୁଡ଼ିକ ଅସଙ୍ଗତ।"
+},
+{
+"questionEnglish": "For the equation 2x+y+2=0, find y if x=0?",
+"questionOdia": "2x+y+2=0 ସମୀକରଣ ପାଇଁ, ଯଦି x=0, ତେବେ y କେତେ?",
+"options": [
+"1",
+"2",
+"-2",
+"0"
+],
+"answer": "-2",
+"explanation": "2(0) + y + 2 = 0 => y + 2 = 0 => y = -2।"
+},
+{
+"questionEnglish": "If two lines are L1 and L2 and they are parallel, what is the intersection?",
+"questionOdia": "ଯଦି ଦୁଇଟି ରେଖା L1 ଓ L2 ସମାନ୍ତର, ତେବେ ସେମାନଙ୍କର ଛେଦବିନ୍ଦୁ କ'ଣ?",
+"options": [
+"ଗୋଟିଏ ବିନ୍ଦୁ",
+"ଅସଂଖ୍ୟ ବିନ୍ଦୁ",
+"କୌଣସି ଛେଦବିନ୍ଦୁ ନାହିଁ",
+"ମୂଳବିନ୍ଦୁ"
+],
+"answer": "କୌଣସି ଛେଦବିନ୍ଦୁ ନାହିଁ",
+"explanation": "ସମାନ୍ତର ରେଖାଗୁଡ଼ିକ କେବେହେଲେ ଛେଦ କରନ୍ତି ନାହିଁ।"
+},
+{
+"questionEnglish": "What does a1b1&c1 represent in the linear equation context?",
+"questionOdia": "ଏକଘାତୀ ସମୀକରଣ ସନ୍ଦର୍ଭରେ a1, b1 ଓ c1 କ'ଣ ସୂଚାଏ?",
+"options": [
+"ବାସ୍ତବ ସଂଖ୍ୟା",
+"କାଳ୍ପନିକ ସଂଖ୍ୟା",
+"ବିଭିନ୍ନ ଛେଦବିନ୍ଦୁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାସ୍ତବ ସଂଖ୍ୟା",
+"explanation": "ସରଳ ସମୀକରଣର ସହଗ ଓ ଧ୍ରୁବକ ପଦଗୁଡ଼ିକ ବାସ୍ତବ ସଂଖ୍ୟା ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "Is it possible for the graph of a linear equation to be a circle?",
+"questionOdia": "ଏକଘାତୀ ସମୀକରଣର ଲେଖଚିତ୍ର ବୃତ୍ତ ହେବା ସମ୍ଭବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ନିର୍ଦ୍ଦିଷ୍ଟ କ୍ଷେତ୍ରରେ",
+"ହଁ, ଯଦି x^2 ଥାଏ"
+],
+"answer": "ନା",
+"explanation": "ଏକଘାତୀ ସମୀକରଣର ଲେଖଚିତ୍ର ସର୍ବଦା ଏକ ସରଳରେଖା, ବୃତ୍ତ ନୁହେଁ।"
+},
+{
+"questionEnglish": "If a pair of equations has infinitely many solutions, what is the relation?",
+"questionOdia": "ଯଦି ସମୀକରଣ ଯୋଡ଼ିର ଅସଂଖ୍ୟ ସମାଧାନ ଥାଏ, ତେବେ ସମ୍ପର୍କଟି କ'ଣ?",
+"options": [
+"a1/a2 = b1/b2 = c1/c2",
+"a1/a2 ≠ b1/b2",
+"a1/a2 = b1/b2 ≠ c1/c2",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "a1/a2 = b1/b2 = c1/c2",
+"explanation": "ଏହା ଅସଂଖ୍ୟ ସମାଧାନର ସର୍ତ୍ତ।"
+},
+{
+"questionEnglish": "The solution (1,1) in example 1 is the intersection of?",
+"questionOdia": "ଉଦାହରଣ 1 ରେ (1,1) ସମାଧାନ କାହାର ଛେଦବିନ୍ଦୁ?",
+"options": [
+"x+2y-3=0 ଓ 2x-y-1=0",
+"x+y-3=0 ଓ x-y=0",
+"x+y+2=0 ଓ x-2y-7=0",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "x+2y-3=0 ଓ 2x-y-1=0",
+"explanation": "ଏହି ଦୁଇଟି ସମୀକରଣର ଛେଦବିନ୍ଦୁ (1,1) ଅଟେ।"
+},
+{
+"questionEnglish": "In the graph, what do P1 and P2 represent for a line?",
+"questionOdia": "ଲେଖଚିତ୍ରରେ, P1 ଓ P2 ଗୋଟିଏ ରେଖା ପାଇଁ କ'ଣ ସୂଚାଏ?",
+"options": [
+"କେବଳ ଦୁଇଟି ବିନ୍ଦୁ",
+"ଛେଦବିନ୍ଦୁ",
+"ସମାନ୍ତର ରେଖା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କେବଳ ଦୁଇଟି ବିନ୍ଦୁ",
+"explanation": "ଏକ ସରଳରେଖା ଅଙ୍କନ ପାଇଁ ଆମେ ଦୁଇଟି ବିନ୍ଦୁ ନେଇଥାଉ।"
+},
+{
+"questionEnglish": "Can consistent equations be independent?",
+"questionOdia": "ସଙ୍ଗତ ସମୀକରଣଗୁଡ଼ିକ ସ୍ଵତନ୍ତ୍ର ହୋଇପାରିବେ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ କେତେକ କ୍ଷେତ୍ରରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର ସମୀକରଣ ହୋଇପାରିବେ (ଯେତେବେଳେ ଅନନ୍ୟ ସମାଧାନ ଥାଏ)।"
+},
+{
+"questionEnglish": "What is the relation between a1/a2 = b1/b2 ≠ c1/c2 and the graphs?",
+"questionOdia": "a1/a2 = b1/b2 ≠ c1/c2 ଏବଂ ଲେଖଚିତ୍ର ମଧ୍ୟରେ ସମ୍ପର୍କ କ'ଣ?",
+"options": [
+"ରେଖାଦ୍ଵୟ ସମାନ୍ତର",
+"ରେଖାଦ୍ଵୟ ଛେଦୀ",
+"ରେଖାଦ୍ଵୟ ସମାପତିତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରେଖାଦ୍ଵୟ ସମାନ୍ତର",
+"explanation": "ଏହି ଅନୁପାତ ଦ୍ଵାରା ରେଖା ଦ୍ଵୟ ସମାନ୍ତର ହୋଇଥାନ୍ତି।"
+},
+{
+"questionEnglish": "Is it mandatory for a linear equation to have two variables?",
+"questionOdia": "ଏକଘାତୀ ସମୀକରଣରେ ଦୁଇଟି ଅଜ୍ଞାତ ରାଶି ରହିବା ବାଧ୍ୟତାମୂଳକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ x ଥିଲେ",
+"କେବଳ y ଥିଲେ"
+],
+"answer": "ନା",
+"explanation": "ଏକଘାତୀ ସମୀକରଣ ଗୋଟିଏ ଅଜ୍ଞାତ ରାଶିରେ ବି ହୋଇପାରେ।"
+},
+{
+"questionEnglish": "For 3x + 4y - 7 = 0, is this a linear equation?",
+"questionOdia": "3x + 4y - 7 = 0, ଏହା ଏକ ଏକଘାତୀ ସମୀକରଣ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ଦ୍ଵିଘାତୀ ସମୀକରଣ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଏହା ଏକ ଦୁଇ ଅଜ୍ଞାତ ରାଶି ବିଶିଷ୍ଟ ଏକଘାତୀ ସମୀକରଣ।"
+},
+{
+"questionEnglish": "What does a unique solution imply about the graphs?",
+"questionOdia": "ଅନନ୍ୟ ସମାଧାନ ଲେଖଚିତ୍ର ବିଷୟରେ କ'ଣ ସୂଚାଏ?",
+"options": [
+"ରେଖାଗୁଡ଼ିକ ଛେଦ କରନ୍ତି",
+"ରେଖାଗୁଡ଼ିକ ସମାନ୍ତର",
+"ରେଖାଗୁଡ଼ିକ ସମାପତିତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରେଖାଗୁଡ଼ିକ ଛେଦ କରନ୍ତି",
+"explanation": "ଅନନ୍ୟ ସମାଧାନ ପାଇଁ ରେଖା ଦ୍ଵୟ ଗୋଟିଏ ବିନ୍ଦୁରେ ଛେଦ କରିବା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "Which variable is represented by the horizontal axis in a graph?",
+"questionOdia": "ଲେଖଚିତ୍ରରେ କେଉଁ ଅଜ୍ଞାତ ରାଶି କ୍ଷିତିଜ ଅକ୍ଷ (horizontal axis) ଦ୍ଵାରା ପ୍ରକାଶିତ ହୁଏ?",
+"options": [
+"x",
+"y",
+"z",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "x",
+"explanation": "କ୍ଷିତିଜ ଅକ୍ଷକୁ x-ଅକ୍ଷ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the vertical axis known as?",
+"questionOdia": "ଲମ୍ବ ଅକ୍ଷକୁ (vertical axis) କ'ଣ କୁହାଯାଏ?",
+"options": [
+"x-ଅକ୍ଷ",
+"y-ଅକ୍ଷ",
+"z-ଅକ୍ଷ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "y-ଅକ୍ଷ",
+"explanation": "ଲମ୍ବ ଅକ୍ଷକୁ y-ଅକ୍ଷ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If a system is inconsistent, what is the graph?",
+"questionOdia": "ଯଦି ସମୀକରଣ ପ୍ରଣାଳୀ ଅସଙ୍ଗତ, ତେବେ ଲେଖଚିତ୍ର କିପରି?",
+"options": [
+"ସମାନ୍ତର ରେଖା",
+"ଛେଦୀ ରେଖା",
+"ସମାପତିତ ରେଖା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମାନ୍ତର ରେଖା",
+"explanation": "ଅସଙ୍ଗତ ପ୍ରଣାଳୀ ପାଇଁ ରେଖା ଦ୍ଵୟ ସମାନ୍ତର ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "What is the common point of coincident lines?",
+"questionOdia": "ସମାପତିତ ରେଖାଗୁଡ଼ିକର ସାଧାରଣ ବିନ୍ଦୁ କ'ଣ?",
+"options": [
+"ଗୋଟିଏ ବିନ୍ଦୁ",
+"ଦୁଇଟି ବିନ୍ଦୁ",
+"ଅସଂଖ୍ୟ ବିନ୍ଦୁ",
+"କୌଣସି ବିନ୍ଦୁ ନୁହେଁ"
+],
+"answer": "ଅସଂଖ୍ୟ ବିନ୍ଦୁ",
+"explanation": "ସମାପତିତ ରେଖାଗୁଡ଼ିକ ସର୍ବତ୍ର ମିଳିତ ହୋଇଥିବାରୁ ଅସଂଖ୍ୟ ସାଧାରଣ ବିନ୍ଦୁ ଥାଏ।"
+},
+{
+"questionEnglish": "Can we have an equation with 0 as a coefficient?",
+"questionOdia": "ଆମେ ଶୂନ ସହଗ ଥିବା ସମୀକରଣ ପାଇପାରିବା କି?",
+"options": [
+"ହଁ, କିନ୍ତୁ ଉଭୟ 0 ହେବେ ନାହିଁ",
+"ନା, କେବେହେଲେ ନୁହେଁ",
+"ହଁ, ଉଭୟ 0 ହେବେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ, କିନ୍ତୁ ଉଭୟ 0 ହେବେ ନାହିଁ",
+"explanation": "ସହଗଗୁଡ଼ିକ ମଧ୍ୟରୁ ଗୋଟିଏ ଶୂନ ହୋଇପାରିବ କିନ୍ତୁ ଉଭୟ ନୁହେଁ।"
+},
+{
+"questionEnglish": "In the graph, how do we identify the solution?",
+"questionOdia": "ଲେଖଚିତ୍ରରେ, ଆମେ ସମାଧାନକୁ କିପରି ଚିହ୍ନଟ କରୁ?",
+"options": [
+"ଛେଦବିନ୍ଦୁ ଦ୍ଵାରା",
+"ଅକ୍ଷ ଦ୍ଵାରା",
+"ରେଖାର ଦୈର୍ଘ୍ୟ ଦ୍ଵାରା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଛେଦବିନ୍ଦୁ ଦ୍ଵାରା",
+"explanation": "ଛେଦବିନ୍ଦୁର ସ୍ଥାନାଙ୍କ ସମାଧାନକୁ ସୂଚାଏ।"
+},
+{
+"questionEnglish": "What is the value of t for which tx - 2y - 10 = 0 has a solution (1,1)?",
+"questionOdia": "tx - 2y - 10 = 0 ସମୀକରଣର (1,1) ସମାଧାନ ପାଇଁ t ର ମୂଲ୍ୟ କେତେ?",
+"options": [
+"10",
+"12",
+"8",
+"6"
+],
+"answer": "12",
+"explanation": "t(1) - 2(1) - 10 = 0 => t - 2 - 10 = 0 => t = 12।"
+},
+{
+"questionEnglish": "Which system is always consistent?",
+"questionOdia": "କେଉଁ ପ୍ରଣାଳୀ ସର୍ବଦା ସଙ୍ଗତ?",
+"options": [
+"ଅନନ୍ୟ ସମାଧାନ ବିଶିଷ୍ଟ",
+"ଅସଂଖ୍ୟ ସମାଧାନ ବିଶିଷ୍ଟ",
+"କୌଣସି ସମାଧାନ ନଥିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅନନ୍ୟ ସମାଧାନ ବିଶିଷ୍ଟ",
+"explanation": "ଅନନ୍ୟ ସମାଧାନ ଥିଲେ ତାହା ସର୍ବଦା ସଙ୍ଗତ।"
+},
+{
+"questionEnglish": "Are parallel lines consistent?",
+"questionOdia": "ସମାନ୍ତର ରେଖାଗୁଡ଼ିକ ସଙ୍ଗତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି ବିନ୍ଦୁ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ସମାନ୍ତର ରେଖାଗୁଡ଼ିକ ଅସଙ୍ଗତ।"
+},
+{
+"questionEnglish": "For the equation x-y=0, what is the relation between x and y?",
+"questionOdia": "x-y=0 ସମୀକରଣ ପାଇଁ, x ଓ y ମଧ୍ୟରେ ସମ୍ପର୍କ କ'ଣ?",
+"options": [
+"x > y",
+"x < y",
+"x = y",
+"x ≠ y"
+],
+"answer": "x = y",
+"explanation": "x - y = 0 => x = y।"
+},
+{
+"questionEnglish": "What does a constant term 'c' represent in a linear equation?",
+"questionOdia": "ଏକଘାତୀ ସମୀକରଣରେ ଧ୍ରୁବକ ପଦ 'c' କ'ଣ ସୂଚାଏ?",
+"options": [
+"ଏକ ବାସ୍ତବ ସଂଖ୍ୟା",
+"ଏକ ଅଜ୍ଞାତ ରାଶି",
+"ଏକ ସହଗ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏକ ବାସ୍ତବ ସଂଖ୍ୟା",
+"explanation": "ଧ୍ରୁବକ ପଦ ଗୋଟିଏ ବାସ୍ତବ ସଂଖ୍ୟା।"
+},
+{
+"questionEnglish": "If 2x - 3y = 1 and 3x - 4y = 1, how many solutions?",
+"questionOdia": "2x - 3y = 1 ଏବଂ 3x - 4y = 1 ର କେତୋଟି ସମାଧାନ?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ଅସଂଖ୍ୟ",
+"ଶୂନ"
+],
+"answer": "ଗୋଟିଏ",
+"explanation": "ଏଠାରେ 2/3 ≠ -3/-4, ତେଣୁ ଏହାର ଏକ ଅନନ୍ୟ ସମାଧାନ ଅଛି।"
+},
+{
+"questionEnglish": "What is the condition for x-2y-4=0 to have a line representation?",
+"questionOdia": "x-2y-4=0 ର ରେଖା ରୂପ ପାଇଁ ସର୍ତ୍ତ କ'ଣ?",
+"options": [
+"x ଓ y ର ସହଗ ଉଭୟ 0 ନୁହେଁ",
+"x ଓ y ର ସହଗ ଉଭୟ 0 ହେବ",
+"ଧ୍ରୁବକ 0 ହେବ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "x ଓ y ର ସହଗ ଉଭୟ 0 ନୁହେଁ",
+"explanation": "ସହଗଗୁଡ଼ିକରୁ କେହି ଜଣେ ଅଶୂନ ହେଲେ ତାହା ଏକ ସରଳରେଖା ହୁଏ।"
+},
+{
+"questionEnglish": "Does x=0, y=0 satisfy 2x-y+2=0?",
+"questionOdia": "x=0, y=0, 2x-y+2=0 କୁ ସିଦ୍ଧ କରେ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ x ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "2(0) - 0 + 2 = 2 ≠ 0।"
+},
+{
+"questionEnglish": "Which pair of equations is coincident?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ସମୀକରଣ ଯୋଡ଼ି ସମାପତିତ?",
+"options": [
+"x+y+1=0, x-y+1=0",
+"x+y-3=0, 2x+2y-6=0",
+"x+y-3=0, x+y-5=0",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "x+y-3=0, 2x+2y-6=0",
+"explanation": "1/2 = 1/2 = -3/-6 ହେଉଥିବାରୁ ଏହା ସମାପତିତ।"
+},
+{
+"questionEnglish": "Are coincident equations consistent?",
+"questionOdia": "ସମାପତିତ ସମୀକରଣଗୁଡ଼ିକ ସଙ୍ଗତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି ବିନ୍ଦୁ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସମାପତିତ ସମୀକରଣଗୁଡ଼ିକ ସଙ୍ଗତ।"
+},
+{
+"questionEnglish": "What does a_1x + b_1y + c_1 = 0 represent?",
+"questionOdia": "a1x + b1y + c1 = 0 କ'ଣ ସୂଚାଏ?",
+"options": [
+"ଏକଘାତୀ ସମୀକରଣ",
+"ଦ୍ଵିଘାତୀ ସମୀକରଣ",
+"ବୃତ୍ତର ସମୀକରଣ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏକଘାତୀ ସମୀକରଣ",
+"explanation": "ଏହା ଏକ ଦୁଇ ଅଜ୍ଞାତ ରାଶି ବିଶିଷ୍ଟ ଏକଘାତୀ ସମୀକରଣ।"
+},
+{
+"questionEnglish": "Is there any intersection for a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 if a1/a2 = b1/b2 ≠ c1/c2?",
+"questionOdia": "ଯଦି a1/a2 = b1/b2 ≠ c1/c2, ତେବେ ଛେଦବିନ୍ଦୁ ଅଛି କି?",
+"options": [
+"ହଁ, ଗୋଟିଏ",
+"ନା, କୌଣସିଟି ନୁହେଁ",
+"ହଁ, ଅସଂଖ୍ୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା, କୌଣସିଟି ନୁହେଁ",
+"explanation": "ସମାନ୍ତର ରେଖା ହୋଇଥିବାରୁ କୌଣସି ଛେଦବିନ୍ଦୁ ନାହିଁ।"
+},
+{
+"questionEnglish": "For the equation 2x-y+2=0, y in terms of x is?",
+"questionOdia": "2x-y+2=0 ସମୀକରଣ ପାଇଁ x ମାଧ୍ୟମରେ y କ'ଣ?",
+"options": [
+"y = 2x+2",
+"y = 2x-2",
+"y = -2x+2",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "y = 2x+2",
+"explanation": "y = 2x+2।"
+},
+{
+"questionEnglish": "What is the graph of a_1x + b_1y + c_1 = 0?",
+"questionOdia": "a1x + b1y + c1 = 0 ର ଲେଖଚିତ୍ର କ'ଣ?",
+"options": [
+"ସରଳରେଖା",
+"ବୃତ୍ତ",
+"ବକ୍ରରେଖା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସରଳରେଖା",
+"explanation": "ଏକଘାତୀ ସମୀକରଣର ଲେଖଚିତ୍ର ସରଳରେଖା।"
+},
+{
+"questionEnglish": "If two lines are distinct and parallel, how many solutions?",
+"questionOdia": "ଯଦି ଦୁଇଟି ରେଖା ଭିନ୍ନ ଓ ସମାନ୍ତର, ତେବେ କେତୋଟି ସମାଧାନ?",
+"options": [
+"0",
+"1",
+"2",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "0",
+"explanation": "ସମାନ୍ତର ରେଖାଗୁଡ଼ିକର କୌଣସି ସମାଧାନ ନାହିଁ।"
+},
+{
+"questionEnglish": "For a linear equation, can the constant be zero?",
+"questionOdia": "ଏକଘାତୀ ସମୀକରଣ ପାଇଁ ଧ୍ରୁବକ ପଦ ଶୂନ ହୋଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇ ଅଜ୍ଞାତ ରାଶି ଥିଲେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଧ୍ରୁବକ ପଦ ଶୂନ ହୋଇପାରିବ (ଯେପରି ax+by=0)।"
+},
+{
+"questionEnglish": "Which of these is the condition for inconsistent?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଅସଙ୍ଗତର ସର୍ତ୍ତ?",
+"options": [
+"a1/a2 = b1/b2 ≠ c1/c2",
+"a1/a2 ≠ b1/b2",
+"a1/a2 = b1/b2 = c1/c2",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "a1/a2 = b1/b2 ≠ c1/c2",
+"explanation": "ଅସଙ୍ଗତ ସମୀକରଣ ପାଇଁ ଏହା ସର୍ତ୍ତ।"
+},
+{
+"questionEnglish": "If x=2, y=0 is a solution for 2x+y=4, does it hold?",
+"questionOdia": "x=2, y=0, 2x+y=4 ର ଏକ ସମାଧାନ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ x ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "2(2) + 0 = 4, ସତ୍ୟ।"
+},
+{
+"questionEnglish": "What are the coefficients in x+2y-3=0?",
+"questionOdia": "x+2y-3=0 ସମୀକରଣରେ ସହଗଗୁଡ଼ିକ କ'ଣ?",
+"options": [
+"1, 2",
+"2, 1",
+"1, -3",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "1, 2",
+"explanation": "x ର ସହଗ 1, y ର ସହଗ 2।"
+},
+{
+"questionEnglish": "If a pair of equations have one solution, they are?",
+"questionOdia": "ଯଦି ଏକ ସମୀକରଣ ଯୋଡ଼ିର ଗୋଟିଏ ସମାଧାନ ଥାଏ, ତେବେ ସେଗୁଡ଼ିକ କ'ଣ?",
+"options": [
+"ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର",
+"ସଙ୍ଗତ ଓ ନିର୍ଭରଶୀଳ",
+"ଅସଙ୍ଗତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର",
+"explanation": "ଏକ ସମାଧାନ ଥିଲେ ସେଗୁଡ଼ିକ ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର।"
+},
+{
+"questionEnglish": "How many lines are represented by a pair of linear equations?",
+"questionOdia": "ଏକ ସହସମୀକରଣ ଯୋଡ଼ି କେତୋଟି ରେଖା ପ୍ରକାଶ କରେ?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଦୁଇଟି",
+"explanation": "ଦୁଇଟି ସମୀକରଣ ଦୁଇଟି ରେଖା ପ୍ରକାଶ କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is the graph for equations with infinitely many solutions?",
+"questionOdia": "ଅସଂଖ୍ୟ ସମାଧାନ ଥିବା ସମୀକରଣ ପାଇଁ ଲେଖଚିତ୍ର କ'ଣ?",
+"options": [
+"ସମାପତିତ ରେଖା",
+"ସମାନ୍ତର ରେଖା",
+"ଛେଦୀ ରେଖା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମାପତିତ ରେଖା",
+"explanation": "ଅସଂଖ୍ୟ ସମାଧାନ ପାଇଁ ରେଖାଦ୍ଵୟ ସମାପତିତ ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "Are two equations with same coefficients consistent?",
+"questionOdia": "ସମାନ ସହଗ ଥିବା ଦୁଇଟି ସମୀକରଣ ସଙ୍ଗତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି ବିନ୍ଦୁ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସମାନ ସହଗ ଥିଲେ ରେଖାଦ୍ଵୟ ସମାପତିତ ହୁଅନ୍ତି, ତେଣୁ ସେମାନେ ସଙ୍ଗତ।"
+},
+{
+"questionEnglish": "In 3x+y+2=0, what is the coefficient of x?",
+"questionOdia": "3x+y+2=0 ସମୀକରଣରେ x ର ସହଗ କ'ଣ?",
+"options": [
+"1",
+"2",
+"3",
+"0"
+],
+"answer": "3",
+"explanation": "x ର ସହଗ 3।"
+},
+{
+"questionEnglish": "Which of these pairs represents intersecting lines?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ଯୋଡ଼ି ଛେଦୀ ରେଖା ପ୍ରକାଶ କରେ?",
+"options": [
+"x+y+1=0, x+y+3=0",
+"x+y+1=0, 2x+2y+2=0",
+"2x-y+3=0, 2x+y-3=0",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "2x-y+3=0, 2x+y-3=0",
+"explanation": "2/2 ≠ -1/1, ତେଣୁ ରେଖା ଦ୍ଵୟ ଛେଦୀ।"
+},
+{
+"questionEnglish": "What is the condition for a solution (1,1) in 3x+ty-6=0?",
+"questionOdia": "3x+ty-6=0 ସମୀକରଣରେ (1,1) ସମାଧାନ ପାଇଁ ସର୍ତ୍ତ କ'ଣ?",
+"options": [
+"t = 3",
+"t = 2",
+"t = 1",
+"t = 0"
+],
+"answer": "t = 3",
+"explanation": "3(1) + t(1) - 6 = 0 => 3 + t - 6 = 0 => t = 3।"
+},
+{
+"questionEnglish": "Is it possible for the solution to be (0,0)?",
+"questionOdia": "ସମାଧାନ (0,0) ହେବା ସମ୍ଭବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇ ଅଜ୍ଞାତ ରାଶି ଥିଲେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସମୀକରଣ ସିଦ୍ଧ କଲେ (0,0) ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "What does a_1/a_2 ≠ b_1/b_2 imply about the graphs?",
+"questionOdia": "a1/a2 ≠ b1/b2 ଲେଖଚିତ୍ର ବିଷୟରେ କ'ଣ ସୂଚାଏ?",
+"options": [
+"ସେମାନେ ଛେଦ କରନ୍ତି",
+"ସେମାନେ ସମାନ୍ତର",
+"ସେମାନେ ସମାପତିତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସେମାନେ ଛେଦ କରନ୍ତି",
+"explanation": "ଛେଦୀ ରେଖା ପାଇଁ ଏହା ସର୍ତ୍ତ।"
+},
+{
+"questionEnglish": "What is the condition for consistent and independent?",
+"questionOdia": "ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର ପାଇଁ ସର୍ତ୍ତ କ'ଣ?",
+"options": [
+"a1/a2 ≠ b1/b2",
+"a1/a2 = b1/b2 ≠ c1/c2",
+"a1/a2 = b1/b2 = c1/c2",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "a1/a2 ≠ b1/b2",
+"explanation": "ଅନନ୍ୟ ସମାଧାନ ପାଇଁ ଏହା ସର୍ତ୍ତ।"
+},
+{
+"questionEnglish": "Is the solution (1,1) for the pair x+y-4=0 and x-y=0?",
+"questionOdia": "x+y-4=0 ଓ x-y=0 ଯୋଡ଼ି ପାଇଁ (1,1) ସମାଧାନ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଏକ ସମୀକରଣ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "1+1-4 = -2 ≠ 0।"
+},
+{
+"questionEnglish": "For 2x-y+2=0, find y if x=1?",
+"questionOdia": "2x-y+2=0 ସମୀକରଣରେ, ଯଦି x=1, ତେବେ y କେତେ?",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "4",
+"explanation": "2(1) - y + 2 = 0 => 4 - y = 0 => y = 4।"
+},
+{
+"questionEnglish": "What is the intersection of x+y-4=0 and x-y=0?",
+"questionOdia": "x+y-4=0 ଏବଂ x-y=0 ର ଛେଦବିନ୍ଦୁ କ'ଣ?",
+"options": [
+"(2, 2)",
+"(1, 3)",
+"(3, 1)",
+"(0, 4)"
+],
+"answer": "(2, 2)",
+"explanation": "2+2-4=0 ଓ 2-2=0, ତେଣୁ (2, 2) ସମାଧାନ।"
+},
+{
+"questionEnglish": "In 3x+y-11=0, is (3,2) a solution?",
+"questionOdia": "3x+y-11=0 ସମୀକରଣରେ (3,2) ଏକ ସମାଧାନ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ x ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "3(3)+2-11 = 9+2-11 = 0, ହଁ ଏହା ସମାଧାନ।"
+},
+{
+"questionEnglish": "What is the condition for parallel graphs?",
+"questionOdia": "ସମାନ୍ତର ଲେଖଚିତ୍ର ପାଇଁ ସର୍ତ୍ତ କ'ଣ?",
+"options": [
+"a1/a2 = b1/b2 ≠ c1/c2",
+"a1/a2 ≠ b1/b2",
+"a1/a2 = b1/b2 = c1/c2",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "a1/a2 = b1/b2 ≠ c1/c2",
+"explanation": "ସମାନ୍ତର ରେଖା ପାଇଁ ଏହା ସର୍ତ୍ତ।"
+},
+{
+"questionEnglish": "If two lines are coincident, are they parallel?",
+"questionOdia": "ଯଦି ଦୁଇଟି ରେଖା ସମାପତିତ, ସେଗୁଡ଼ିକ ସମାନ୍ତର କି?",
+"options": [
+"ହଁ, ସେଗୁଡ଼ିକ ସର୍ବତ୍ର ସମାନ୍ତର",
+"ନା",
+"କେବଳ କିଛି ବିନ୍ଦୁରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ସମାପତିତ ରେଖାଗୁଡ଼ିକ ସମାନ୍ତର ନୁହନ୍ତି, ସେଗୁଡ଼ିକ ଏକା ସାଙ୍ଗରେ ରହିଥାନ୍ତି।"
+},
+{
+"questionEnglish": "What is the relation for infinitely many solutions?",
+"questionOdia": "ଅସଂଖ୍ୟ ସମାଧାନ ପାଇଁ ସମ୍ପର୍କ କ'ଣ?",
+"options": [
+"a1/a2 = b1/b2 = c1/c2",
+"a1/a2 ≠ b1/b2",
+"a1/a2 = b1/b2 ≠ c1/c2",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "a1/a2 = b1/b2 = c1/c2",
+"explanation": "ଏହା ଅସଂଖ୍ୟ ସମାଧାନର ସର୍ତ୍ତ।"
+},
+{
+"questionEnglish": "What is the solution for (1,1) in 3x+ty-6=0?",
+"questionOdia": "3x+ty-6=0 ପାଇଁ (1,1) ସମାଧାନ କ'ଣ?",
+"options": [
+"t = 3",
+"t = 2",
+"t = 1",
+"t = 0"
+],
+"answer": "t = 3",
+"explanation": "3(1) + t(1) - 6 = 0 => t = 3।"
+},
+{
+"questionEnglish": "Are coincident lines consistent?",
+"questionOdia": "ସମାପତିତ ରେଖାଗୁଡ଼ିକ ସଙ୍ଗତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି ବିନ୍ଦୁ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସମାପତିତ ରେଖାଗୁଡ଼ିକ ସଙ୍ଗତ।"
+},
+{
+"questionEnglish": "Which variable has 2 as a coefficient in 3x+2y-4=0?",
+"questionOdia": "3x+2y-4=0 ସମୀକରଣରେ କେଉଁ ଅଜ୍ଞାତ ରାଶିର ସହଗ 2?",
+"options": [
+"x",
+"y",
+"ଧ୍ରୁବକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "y",
+"explanation": "y ର ସହଗ 2।"
+},
+{
+"questionEnglish": "What is the condition for inconsistent?",
+"questionOdia": "ଅସଙ୍ଗତ ପାଇଁ ସର୍ତ୍ତ କ'ଣ?",
+"options": [
+"a1/a2 = b1/b2 ≠ c1/c2",
+"a1/a2 ≠ b1/b2",
+"a1/a2 = b1/b2 = c1/c2",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "a1/a2 = b1/b2 ≠ c1/c2",
+"explanation": "ଅସଙ୍ଗତ ପାଇଁ ଏହା ସର୍ତ୍ତ।"
+},
+{
+"questionEnglish": "Can linear equations be represented by a parabola?",
+"questionOdia": "ଏକଘାତୀ ସମୀକରଣଗୁଡ଼ିକ ପାରାବୋଲା ଦ୍ଵାରା ପ୍ରକାଶିତ ହୋଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ କିଛି କ୍ଷେତ୍ରରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ଏକଘାତୀ ସମୀକରଣ ସର୍ବଦା ସରଳରେଖା।"
+},
+{
+"questionEnglish": "For 2x+y-3=0, is (1,1) a solution?",
+"questionOdia": "2x+y-3=0 ପାଇଁ (1,1) ଏକ ସମାଧାନ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ x ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "2(1)+1-3 = 0, ହଁ।"
+},
+{
+"questionEnglish": "What is the graph for a unique solution?",
+"questionOdia": "ଅନନ୍ୟ ସମାଧାନ ପାଇଁ ଲେଖଚିତ୍ର କ'ଣ?",
+"options": [
+"ଛେଦୀ ରେଖା",
+"ସମାନ୍ତର ରେଖା",
+"ସମାପତିତ ରେଖା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଛେଦୀ ରେଖା",
+"explanation": "ଅନନ୍ୟ ସମାଧାନ ପାଇଁ ଛେଦୀ ରେଖା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "Which pair is inconsistent?",
+"questionOdia": "କେଉଁ ଯୋଡ଼ି ଅସଙ୍ଗତ?",
+"options": [
+"x+y+1=0, x+y+3=0",
+"x+y+1=0, 2x+2y+2=0",
+"2x-y+3=0, 2x+y-3=0",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "x+y+1=0, x+y+3=0",
+"explanation": "1/1 = 1/1 ≠ 1/3, ତେଣୁ ଏହା ଅସଙ୍ଗତ।"
+},
+{
+"questionEnglish": "Are dependent equations consistent?",
+"questionOdia": "ନିର୍ଭରଶୀଳ ସମୀକରଣଗୁଡ଼ିକ ସଙ୍ଗତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି ବିନ୍ଦୁ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ନିର୍ଭରଶୀଳ ସମୀକରଣଗୁଡ଼ିକ ସଙ୍ଗତ।"
+},
+{
+"questionEnglish": "In 5x-3y=0, is (3,5) a solution?",
+"questionOdia": "5x-3y=0 ପାଇଁ (3,5) ଏକ ସମାଧାନ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ x ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "5(3)-3(5) = 15-15 = 0, ହଁ।"
+},
+{
+"questionEnglish": "What is the condition for infinitely many solutions?",
+"questionOdia": "ଅସଂଖ୍ୟ ସମାଧାନ ପାଇଁ ସର୍ତ୍ତ କ'ଣ?",
+"options": [
+"a1/a2 = b1/b2 = c1/c2",
+"a1/a2 ≠ b1/b2",
+"a1/a2 = b1/b2 ≠ c1/c2",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "a1/a2 = b1/b2 = c1/c2",
+"explanation": "ଏହା ଅସଂଖ୍ୟ ସମାଧାନର ସର୍ତ୍ତ।"
+},
+{
+"questionEnglish": "Are lines with no solutions parallel?",
+"questionOdia": "କୌଣସି ସମାଧାନ ନଥିବା ରେଖାଗୁଡ଼ିକ ସମାନ୍ତର କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ କିଛି ବିନ୍ଦୁ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସମାନ୍ତର ରେଖାଗୁଡ଼ିକର କୌଣସି ସମାଧାନ ନାହିଁ।"
+},
+{
+"questionEnglish": "Which pair is consistent and independent?",
+"questionOdia": "କେଉଁ ଯୋଡ଼ି ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର?",
+"options": [
+"2x-y+3=0, 2x+y-3=0",
+"x+y+1=0, 2x+2y+2=0",
+"x+y+1=0, x+y+3=0",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "2x-y+3=0, 2x+y-3=0",
+"explanation": "2/2 ≠ -1/1, ତେଣୁ ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର।"
+},
+{
+"questionEnglish": "Is 3x+4y-7=0 a linear equation?",
+"questionOdia": "3x+4y-7=0 ଏକ ଏକଘାତୀ ସମୀକରଣ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ଦ୍ଵିଘାତୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଏହା ଏକ ଏକଘାତୀ ସମୀକରଣ।"
+}
 ]
