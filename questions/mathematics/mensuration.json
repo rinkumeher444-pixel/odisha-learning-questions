@@ -1,0 +1,1419 @@
+[
+{
+"questionEnglish": "What is the definition of a circle in geometry?",
+"questionOdia": "ଜ୍ୟାମିତିରେ ବୃତ୍ତର ସଂଜ୍ଞା କ'ଣ?",
+"options": [
+"ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁଠାରୁ ସମଦୂରବର୍ତ୍ତୀ ସମସ୍ତ ବିନ୍ଦୁମାନଙ୍କର ସେଟ୍",
+"ଏକ ବକ୍ରରେଖା ଦ୍ୱାରା ଆବଦ୍ଧ ସମସ୍ତ ବିନ୍ଦୁ",
+"ତିନୋଟି ବାହୁ ଦ୍ୱାରା ଆବଦ୍ଧ କ୍ଷେତ୍ର",
+"ଚାରୋଟି ବାହୁ ଦ୍ୱାରା ଆବଦ୍ଧ କ୍ଷେତ୍ର"
+],
+"answer": "ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁଠାରୁ ସମଦୂରବର୍ତ୍ତୀ ସମସ୍ତ ବିନ୍ଦୁମାନଙ୍କର ସେଟ୍",
+"explanation": "ବୃତ୍ତ ହେଉଛି ଏକ ସମତଳରେ ଅବସ୍ଥିତ ଏକ ଜ୍ୟାମିତିକ ଚିତ୍ର ଯାହା ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁ (କେନ୍ଦ୍ର)ଠାରୁ ସମଦୂରବର୍ତ୍ତୀ ସମସ୍ତ ବିନ୍ଦୁମାନଙ୍କର ସେଟ୍ ଅଟେ।"
+},
+{
+"questionEnglish": "What is the relation between the diameter (d) and the radius (r) of a circle?",
+"questionOdia": "ବୃତ୍ତର ବ୍ୟାସ (d) ଏବଂ ବ୍ୟାସାର୍ଦ୍ଧ (r) ମଧ୍ୟରେ ସମ୍ପର୍କ କ'ଣ?",
+"options": [
+"d = r",
+"d = 2r",
+"d = 3r",
+"r = 2d"
+],
+"answer": "d = 2r",
+"explanation": "ବୃତ୍ତର ବ୍ୟାସ (Diameter) ହେଉଛି ବ୍ୟାସାର୍ଦ୍ଧର (Radius) ଦୁଇଗୁଣ, ତେଣୁ d = 2r।"
+},
+{
+"questionEnglish": "What is the formula for the circumference (c) of a circle in terms of its radius (r)?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ (r) ଅନୁସାରେ ବୃତ୍ତର ପରିଧି (c) ନିର୍ଣ୍ଣୟ କରିବାର ସୂତ୍ର କ'ଣ?",
+"options": [
+"c = πr",
+"c = 2πr",
+"c = πr²",
+"c = 2πr²"
+],
+"answer": "c = 2πr",
+"explanation": "ବୃତ୍ତର ପରିଧି (Circumference) ନିର୍ଣ୍ଣୟ କରିବାର ସୂତ୍ର ହେଉଛି c = 2πr।"
+},
+{
+"questionEnglish": "Which mathematician proved that π (pi) is an irrational number?",
+"questionOdia": "କେଉଁ ଗଣିତଜ୍ଞ ପ୍ରମାଣ କରିଥିଲେ ଯେ π (ପାଇ) ଏକ ଅପରିମେୟ ସଂଖ୍ୟା?",
+"options": [
+"ଆର୍ଯ୍ୟଭଟ୍ଟ",
+"ଜୋହାନ୍ ଲାମ୍ବର୍ଟ",
+"ୟୁକ୍ଲିଡ୍",
+"ପାଇଥାଗୋରାସ୍"
+],
+"answer": "ଜୋହାନ୍ ଲାମ୍ବର୍ଟ",
+"explanation": "1761 ଖ୍ରୀଷ୍ଟାବ୍ଦରେ ସୁଇସ୍ ଗଣିତଜ୍ଞ ଜୋହାନ୍ ଲାମ୍ବର୍ଟ ପ୍ରମାଣ କରିଥିଲେ ଯେ π ଏକ ଅପରିମେୟ ସଂଖ୍ୟା।"
+},
+{
+"questionEnglish": "If a circle has a radius of 21 cm, what is its circumference? (Use π ≈ 22/7)",
+"questionOdia": "ଯଦି ଏକ ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ 21 ସେ.ମି. ହୁଏ, ତେବେ ଏହାର ପରିଧି କେତେ ହେବ? (π ≈ 22/7 ନିଅ)",
+"options": [
+"44 ସେ.ମି.",
+"132 ସେ.ମି.",
+"66 ସେ.ମି.",
+"154 ସେ.ମି."
+],
+"answer": "132 ସେ.ମି.",
+"explanation": "ପରିଧି = 2πr = 2 × (22/7) × 21 = 2 × 22 × 3 = 132 ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is the length of an arc (L) in terms of the central angle (θ) in degrees and radius (r)?",
+"questionOdia": "କେନ୍ଦ୍ରସ୍ଥ କୋଣ (θ) ଡିଗ୍ରୀରେ ଏବଂ ବ୍ୟାସାର୍ଦ୍ଧ (r) ଦିଆଯାଇଥିଲେ ଚାପର ଦୈର୍ଘ୍ୟ (L) ନିର୍ଣ୍ଣୟ କରିବାର ସୂତ୍ର କ'ଣ?",
+"options": [
+"L = (θ/180) × πr",
+"L = (θ/360) × πr",
+"L = (θ/90) × πr",
+"L = (θ/360) × 2πr²"
+],
+"answer": "L = (θ/180) × πr",
+"explanation": "ଚାପର ଦୈର୍ଘ୍ୟ L = (θ/360) × 2πr = (θ/180) × πr।"
+},
+{
+"questionEnglish": "What is the perimeter of a sector OAXB with radius 'r' and arc length 'L'?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ 'r' ଏବଂ ଚାପ ଦୈର୍ଘ୍ୟ 'L' ଥିବା ବୃତ୍ତକଳା (Sector) OAXB ର ପରିସୀମା କେତେ?",
+"options": [
+"r + L",
+"2r + L",
+"πr + L",
+"2πr + L"
+],
+"answer": "2r + L",
+"explanation": "ବୃତ୍ତକଳାର ପରିସୀମା ହେଉଛି ଦୁଇଟି ବ୍ୟାସାର୍ଦ୍ଧ (r+r) ଏବଂ ଚାପର ଦୈର୍ଘ୍ୟ (L) ର ସମଷ୍ଟି, ଅର୍ଥାତ୍ 2r + L।"
+},
+{
+"questionEnglish": "What is the radian measure of a central angle if the arc length is equal to the radius?",
+"questionOdia": "ଯଦି ଚାପର ଦୈର୍ଘ୍ୟ ବ୍ୟାସାର୍ଦ୍ଧ ସହିତ ସମାନ ହୁଏ, ତେବେ କେନ୍ଦ୍ରସ୍ଥ କୋଣର ରେଡିଆନ୍ ପରିମାପ କେତେ?",
+"options": [
+"1 ରେଡିଆନ୍",
+"2 ରେଡିଆନ୍",
+"π/2 ରେଡିଆନ୍",
+"π ରେଡିଆନ୍"
+],
+"answer": "1 ରେଡିଆନ୍",
+"explanation": "ସଂଜ୍ଞାନୁସାରେ, ଯଦି ଚାପର ଦୈର୍ଘ୍ୟ L ଏବଂ ବ୍ୟାସାର୍ଦ୍ଧ r ହୁଏ, ତେବେ କୋଣ (ରେଡିଆନରେ) θ = L/r। ଯଦି L = r, ତେବେ θ = 1 ରେଡିଆନ୍।"
+},
+{
+"questionEnglish": "A wheel has a radius of 21 cm. How much distance will it cover in one rotation?",
+"questionOdia": "ଏକ ଚକର ବ୍ୟାସାର୍ଦ୍ଧ 21 ସେ.ମି.। ଥରେ ଘୂରିଲେ ଏହା କେତେ ଦୂରତା ଅତିକ୍ରମ କରିବ?",
+"options": [
+"66 ସେ.ମି.",
+"132 ସେ.ମି.",
+"264 ସେ.ମି.",
+"44 ସେ.ମି."
+],
+"answer": "132 ସେ.ମି.",
+"explanation": "ଚକଟି ଥରେ ଘୂରିଲେ ଏହାର ପରିଧି ସହିତ ସମାନ ଦୂରତା ଅତିକ୍ରମ କରେ। ପରିଧି = 2πr = 2 × (22/7) × 21 = 132 ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is the perimeter of a semicircle with radius 'r'?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ 'r' ଥିବା ଏକ ଅର୍ଦ୍ଧବୃତ୍ତର ପରିସୀମା କ'ଣ?",
+"options": [
+"πr",
+"πr + r",
+"πr + 2r",
+"2πr"
+],
+"answer": "πr + 2r",
+"explanation": "ଅର୍ଦ୍ଧବୃତ୍ତର ପରିସୀମା = ଅର୍ଦ୍ଧପରିଧି (πr) + ବ୍ୟାସ (2r) = πr + 2r।"
+},
+{
+"questionEnglish": "If the sum of circumferences of two circles is 440 cm and the difference of their radii is 7 cm, what is the diameter of the larger circle?",
+"questionOdia": "ଯଦି ଦୁଇଟି ବୃତ୍ତର ପରିଧିର ସମଷ୍ଟି 440 ସେ.ମି. ଏବଂ ସେମାନଙ୍କ ବ୍ୟାସାର୍ଦ୍ଧର ଅନ୍ତର 7 ସେ.ମି. ହୁଏ, ତେବେ ବଡ଼ ବୃତ୍ତର ବ୍ୟାସ କେତେ?",
+"options": [
+"63 ସେ.ମି.",
+"70 ସେ.ମି.",
+"77 ସେ.ମି.",
+"84 ସେ.ମି."
+],
+"answer": "77 ସେ.ମି.",
+"explanation": "ସମାଧାନ କଲେ ମିଳେ ବୃତ୍ତ ଦ୍ଵୟର ବ୍ୟାସାର୍ଦ୍ଧ 38.5 ଏବଂ 31.5, ତେଣୁ ବଡ଼ ବ୍ୟାସ = 2 × 38.5 = 77 ସେ.ମି.।"
+},
+{
+"questionEnglish": "A square has an area of 484 sq cm. If this wire is used to form a circle, what will be the radius of the circle? (Take π = 22/7)",
+"questionOdia": "ଏକ ବର୍ଗକ୍ଷେତ୍ରର କ୍ଷେତ୍ରଫଳ 484 ବର୍ଗ ସେ.ମି.। ଯଦି ଏହି ତାରକୁ ବଙ୍କାଇ ଏକ ବୃତ୍ତ ତିଆରି କରାଯାଏ, ତେବେ ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ କେତେ ହେବ? (π = 22/7)",
+"options": [
+"7 ସେ.ମି.",
+"14 ସେ.ମି.",
+"21 ସେ.ମି.",
+"28 ସେ.ମି."
+],
+"answer": "14 ସେ.ମି.",
+"explanation": "ବର୍ଗକ୍ଷେତ୍ରର ପରିସୀମା = 4 × √484 = 88 ସେ.ମି.। ବୃତ୍ତର ପରିଧି 2πr = 88 ତେଣୁ r = 14 ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is the radius of the incircle of an equilateral triangle with side length 20√3 cm?",
+"questionOdia": "20√3 ସେ.ମି. ବାହୁ ବିଶିଷ୍ଟ ଏକ ସମବାହୁ ତ୍ରିଭୁଜର ଅନ୍ତଃବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ କେତେ?",
+"options": [
+"5 ସେ.ମି.",
+"10 ସେ.ମି.",
+"15 ସେ.ମି.",
+"20 ସେ.ମି."
+],
+"answer": "10 ସେ.ମି.",
+"explanation": "ସମବାହୁ ତ୍ରିଭୁଜର ଉଚ୍ଚତା = (√3/2) × ବାହୁ = 30 ସେ.ମି.। ଅନ୍ତଃବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ ଉଚ୍ଚତାର ଏକ-ତୃତୀୟାଂଶ, ତେଣୁ 30/3 = 10 ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is the common value taken for π in mathematical problems if no specific value is given?",
+"questionOdia": "ଗାଣିତିକ ପ୍ରଶ୍ନରେ ଯଦି π ର କୌଣସି ନିର୍ଦ୍ଦିଷ୍ଟ ମାନ ଦିଆଯାଇ ନଥାଏ, ତେବେ ସାଧାରଣତଃ କେଉଁ ମାନ ଗ୍ରହଣ କରାଯାଏ?",
+"options": [
+"3.14",
+"22/7",
+"3.141",
+"3.142"
+],
+"answer": "22/7",
+"explanation": "ଗାଣିତିକ ପ୍ରଶ୍ନରେ ସାଧାରଣତଃ π ର ମାନ 22/7 ବୋଲି ଗ୍ରହଣ କରାଯାଇଥାଏ।"
+},
+{
+"questionEnglish": "Which part of the circle is known as the boundary of a sector?",
+"questionOdia": "ବୃତ୍ତକଳାର ପରିସୀମା କେଉଁ ଅଂଶକୁ ବୁଝାଏ?",
+"options": [
+"କେବଳ ଚାପର ଦୈର୍ଘ୍ୟ",
+"କେବଳ ଦୁଇଟି ବ୍ୟାସାର୍ଦ୍ଧ",
+"ଦୁଇଟି ବ୍ୟାସାର୍ଦ୍ଧ ଓ ଚାପର ଦୈର୍ଘ୍ୟର ସମଷ୍ଟି",
+"କେବଳ ବୃତ୍ତର କେନ୍ଦ୍ର"
+],
+"answer": "ଦୁଇଟି ବ୍ୟାସାର୍ଦ୍ଧ ଓ ଚାପର ଦୈର୍ଘ୍ୟର ସମଷ୍ଟି",
+"explanation": "ବୃତ୍ତକଳାର ପରିସୀମା ହେଉଛି ତା'ର ଦୁଇଟି ବ୍ୟାସାର୍ଦ୍ଧ ଏବଂ ସମ୍ପୃକ୍ତ ଚାପର ଦୈର୍ଘ୍ୟର ସମଷ୍ଟି।"
+},
+{
+"questionEnglish": "What is the name of the arc AXB if the angle AOB is 60°?",
+"questionOdia": "ଯଦି କୋଣ AOB 60° ହୁଏ, ତେବେ ଚାପ AXB କୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"କ୍ଷୁଦ୍ର ବୃତ୍ତକଳା",
+"ବୃହତ୍ ବୃତ୍ତକଳା",
+"ଅର୍ଦ୍ଧବୃତ୍ତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କ୍ଷୁଦ୍ର ବୃତ୍ତକଳା",
+"explanation": "କ୍ଷୁଦ୍ର ଚାପ ସହିତ ସଂପୃକ୍ତ ଥିବାରୁ ଏହାକୁ କ୍ଷୁଦ୍ର ବୃତ୍ତକଳା (Minor Sector) କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the degree measure of a complete circle?",
+"questionOdia": "ଏକ ସମ୍ପୂର୍ଣ୍ଣ ବୃତ୍ତର ଡିଗ୍ରୀ ପରିମାପ କେତେ?",
+"options": [
+"90°",
+"180°",
+"270°",
+"360°"
+],
+"answer": "360°",
+"explanation": "ଏକ ସମ୍ପୂର୍ଣ୍ଣ ବୃତ୍ତର ଡିଗ୍ରୀ ପରିମାପ ସର୍ବଦା 360° ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the area of a circle with radius 'r'?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ 'r' ଥିବା ବୃତ୍ତର କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"2πr",
+"πr²",
+"2πr²",
+"πr"
+],
+"answer": "πr²",
+"explanation": "ବୃତ୍ତର କ୍ଷେତ୍ରଫଳର ସୂତ୍ର ହେଉଛି πr²।"
+},
+{
+"questionEnglish": "If a wheel rotates 45 times to cover a distance, what information is needed to find the total distance?",
+"questionOdia": "ଏକ ଚକ କିଛି ଦୂରତା ଅତିକ୍ରମ କରିବା ପାଇଁ 45 ଥର ଘୂରେ, ତେବେ ମୋଟ ଦୂରତା ନିର୍ଣ୍ଣୟ କରିବା ପାଇଁ କ'ଣ ଆବଶ୍ୟକ?",
+"options": [
+"ଚକର ବ୍ୟାସାର୍ଦ୍ଧ",
+"ଚକର କ୍ଷେତ୍ରଫଳ",
+"କେବଳ ଚକର ଓଜନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଚକର ବ୍ୟାସାର୍ଦ୍ଧ",
+"explanation": "ଚକର ବ୍ୟାସାର୍ଦ୍ଧ ଜାଣିଲେ ପରିଧି ମିଳିବ, ଏବଂ ପରିଧିକୁ ଘୂର୍ଣ୍ଣନ ସଂଖ୍ୟା (45) ସହିତ ଗୁଣିଲେ ମୋଟ ଦୂରତା ମିଳିବ।"
+},
+{
+"questionEnglish": "What happens to the error in measurement if we take more points on a curve to find its length?",
+"questionOdia": "ବକ୍ରରେଖାର ଦୈର୍ଘ୍ୟ ମାପିବା ପାଇଁ ଯଦି ଆମେ ଅଧିକରୁ ଅଧିକ ବିନ୍ଦୁ ନେବା, ତେବେ ମାପରେ ତ୍ରୁଟି କ'ଣ ହେବ?",
+"options": [
+"ବୃଦ୍ଧି ପାଇବ",
+"କମିବ",
+"ଅପରିବର୍ତ୍ତିତ ରହିବ",
+"ଦୁଇଗୁଣ ହେବ"
+],
+"answer": "କମିବ",
+"explanation": "ବକ୍ରରେଖା ଉପରେ ଯେତେ ଅଧିକ ବିନ୍ଦୁ ନିଆଯିବ, ସେଗୁଡ଼ିକ ମଧ୍ୟରେ ଥିବା ସରଳରେଖା ସେତେ ଅଧିକ ବକ୍ରଦୂରତାର ନିକଟବର୍ତ୍ତୀ ହେବ ଏବଂ ତ୍ରୁଟି ସେତେ କମ୍ ହେବ।"
+},
+{
+"questionEnglish": "A circular road has outer circumference 396 m and inner circumference 352 m. What is the width of the road?",
+"questionOdia": "ଏକ ବୃତ୍ତାକାର ରାସ୍ତାର ବାହାର ପରିଧି 396 ମିଟର ଓ ଭିତର ପରିଧି 352 ମିଟର। ରାସ୍ତାର ପ୍ରସ୍ଥ କେତେ?",
+"options": [
+"7 ମିଟର",
+"14 ମିଟର",
+"21 ମିଟର",
+"44 ମିଟର"
+],
+"answer": "7 ମିଟର",
+"explanation": "ବାହାର ବ୍ୟାସାର୍ଦ୍ଧ (R) = 396/(2π) = 63, ଭିତର ବ୍ୟାସାର୍ଦ୍ଧ (r) = 352/(2π) = 56. ପ୍ରସ୍ଥ = R - r = 63 - 56 = 7 ମିଟର।"
+},
+{
+"questionEnglish": "Two circles have radii in ratio 3:4. The sum of their circumferences is 308 cm. What is the radius of the larger circle?",
+"questionOdia": "ଦୁଇଟି ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧର ଅନୁପାତ 3:4। ସେମାନଙ୍କ ପରିଧିର ସମଷ୍ଟି 308 ସେ.ମି.। ବଡ଼ ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ କେତେ?",
+"options": [
+"21 ସେ.ମି.",
+"28 ସେ.ମି.",
+"35 ସେ.ମି.",
+"42 ସେ.ମି."
+],
+"answer": "28 ସେ.ମି.",
+"explanation": "2π(3x) + 2π(4x) = 308 => 2π(7x) = 308 => 44x = 308 => x = 7. ବଡ଼ ବ୍ୟାସାର୍ଦ୍ଧ = 4x = 28 ସେ.ମି.।"
+},
+{
+"questionEnglish": "What does the symbol 'π' represent in geometry?",
+"questionOdia": "ଜ୍ୟାମିତିରେ 'π' ଚିହ୍ନ କ'ଣ ସୂଚାଏ?",
+"options": [
+"ବୃତ୍ତର ବ୍ୟାସ ଓ ପରିଧିର ଅନୁପାତ",
+"ବୃତ୍ତର ପରିଧି ଓ ବ୍ୟାସର ଅନୁପାତ",
+"ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ",
+"ବୃତ୍ତର କେନ୍ଦ୍ର"
+],
+"answer": "ବୃତ୍ତର ପରିଧି ଓ ବ୍ୟାସର ଅନୁପାତ",
+"explanation": "π ହେଉଛି ବୃତ୍ତର ପରିଧି (c) ଓ ବ୍ୟାସ (d) ର ଅନୁପାତ (π = c/d)।"
+},
+{
+"questionEnglish": "If a circle has a diameter of 14 cm, what is its area? (π = 22/7)",
+"questionOdia": "ଯଦି ଏକ ବୃତ୍ତର ବ୍ୟାସ 14 ସେ.ମି. ହୁଏ, ତେବେ ଏହାର କ୍ଷେତ୍ରଫଳ କେତେ? (π = 22/7)",
+"options": [
+"154 ବର୍ଗ ସେ.ମି.",
+"308 ବର୍ଗ ସେ.ମି.",
+"44 ବର୍ଗ ସେ.ମି.",
+"616 ବର୍ଗ ସେ.ମି."
+],
+"answer": "154 ବର୍ଗ ସେ.ମି.",
+"explanation": "ବ୍ୟାସାର୍ଦ୍ଧ r = 7। କ୍ଷେତ୍ରଫଳ = πr² = (22/7) × 7 × 7 = 154 ବର୍ଗ ସେ.ମି.।"
+},
+{
+"questionEnglish": "Which of the following is an irrational number used in measuring circles?",
+"questionOdia": "ବୃତ୍ତ ମାପିବାରେ ବ୍ୟବହୃତ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଅପରିମେୟ ସଂଖ୍ୟା?",
+"options": [
+"22/7",
+"3.14",
+"π",
+"2"
+],
+"answer": "π",
+"explanation": "π ଏକ ଅପରିମେୟ ସଂଖ୍ୟା, ଯାହାର ମାନ 22/7 କିମ୍ବା 3.14 କେବଳ ଆସନ୍ନ ମାନ ଅଟେ।"
+},
+{
+"questionEnglish": "How many semicircles are there in a circle divided by a diameter?",
+"questionOdia": "ଏକ ବୃତ୍ତକୁ ବ୍ୟାସ ଦ୍ୱାରା ବିଭକ୍ତ କଲେ କେତୋଟି ଅର୍ଦ୍ଧବୃତ୍ତ ସୃଷ୍ଟି ହୁଏ?",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "2",
+"explanation": "ବୃତ୍ତର କେନ୍ଦ୍ର ଦେଇ ଯାଉଥିବା ବ୍ୟାସ ବୃତ୍ତକୁ ଦୁଇଟି ସମାନ ଅର୍ଦ୍ଧବୃତ୍ତରେ ବିଭକ୍ତ କରେ।"
+},
+{
+"questionEnglish": "Which part of the circle is OAXB in the figure if it covers a minor arc?",
+"questionOdia": "ଚିତ୍ରରେ OAXB ଯଦି ଏକ କ୍ଷୁଦ୍ର ଚାପକୁ ଆବୃତ କରେ, ତେବେ ଏହାକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ଅର୍ଦ୍ଧବୃତ୍ତ",
+"କ୍ଷୁଦ୍ର ବୃତ୍ତକଳା",
+"ବୃହତ୍ ବୃତ୍ତକଳା",
+"ବ୍ୟାସ"
+],
+"answer": "କ୍ଷୁଦ୍ର ବୃତ୍ତକଳା",
+"explanation": "କ୍ଷୁଦ୍ର ଚାପ ସହିତ ସଂପୃକ୍ତ ଥିବାରୁ OAXB କୁ କ୍ଷୁଦ୍ର ବୃତ୍ତକଳା (Minor Sector) କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the formula for the radius of a circle if the circumference 'c' is known?",
+"questionOdia": "ଯଦି ପରିଧି 'c' ଜଣାଥାଏ, ତେବେ ବ୍ୟାସାର୍ଦ୍ଧ 'r' ନିର୍ଣ୍ଣୟ କରିବାର ସୂତ୍ର କ'ଣ?",
+"options": [
+"r = c/π",
+"r = c/2π",
+"r = 2π/c",
+"r = π/c"
+],
+"answer": "r = c/2π",
+"explanation": "ପରିଧି c = 2πr ହେଲେ r = c/(2π)।"
+},
+{
+"questionEnglish": "If the arc length is half of the circumference, what is the central angle in degrees?",
+"questionOdia": "ଯଦି ଚାପର ଦୈର୍ଘ୍ୟ ପରିଧିର ଅର୍ଦ୍ଧେକ ହୁଏ, ତେବେ କେନ୍ଦ୍ରସ୍ଥ କୋଣ କେତେ ଡିଗ୍ରୀ ହେବ?",
+"options": [
+"90°",
+"180°",
+"270°",
+"360°"
+],
+"answer": "180°",
+"explanation": "ସମ୍ପୂର୍ଣ୍ଣ ପରିଧି 360° ସହିତ ସମାନ, ତେଣୁ ଅର୍ଦ୍ଧେକ ପରିଧି 360°/2 = 180°।"
+},
+{
+"questionEnglish": "What is the length of an arc of a circle with radius 14 cm and central angle 90°?",
+"questionOdia": "14 ସେ.ମି. ବ୍ୟାସାର୍ଦ୍ଧ ଓ 90° କେନ୍ଦ୍ରସ୍ଥ କୋଣ ଥିବା ବୃତ୍ତର ଚାପର ଦୈର୍ଘ୍ୟ କେତେ?",
+"options": [
+"11 ସେ.ମି.",
+"22 ସେ.ମି.",
+"44 ସେ.ମି.",
+"88 ସେ.ମି."
+],
+"answer": "22 ସେ.ମି.",
+"explanation": "L = (θ/360) × 2πr = (90/360) × 2 × (22/7) × 14 = (1/4) × 88 = 22 ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is the term for the distance around a circle?",
+"questionOdia": "ବୃତ୍ତର ଚାରିପଟର ଦୂରତାକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ବ୍ୟାସ",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ପରିଧି",
+"ଚାପ"
+],
+"answer": "ପରିଧି",
+"explanation": "ବୃତ୍ତର ଚାରିପଟର ଦୈର୍ଘ୍ୟ ବା ଦୂରତାକୁ ପରିଧି (Circumference) କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If two circles have the same center, what are they called?",
+"questionOdia": "ଯଦି ଦୁଇଟି ବୃତ୍ତର କେନ୍ଦ୍ର ସମାନ ହୁଏ, ତେବେ ସେମାନଙ୍କୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ସମକେନ୍ଦ୍ରିକ ବୃତ୍ତ",
+"ସର୍ବସମ ବୃତ୍ତ",
+"ଅର୍ଦ୍ଧବୃତ୍ତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମକେନ୍ଦ୍ରିକ ବୃତ୍ତ",
+"explanation": "ସମାନ କେନ୍ଦ୍ର ବିଶିଷ୍ଟ ବୃତ୍ତମାନଙ୍କୁ ସମକେନ୍ଦ୍ରିକ ବୃତ୍ତ (Concentric circles) କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which line segment passes through the center and connects two points on the circle?",
+"questionOdia": "କେଉଁ ରେଖାଖଣ୍ଡ ବୃତ୍ତର କେନ୍ଦ୍ର ଦେଇ ଯାଇ ବୃତ୍ତର ଦୁଇଟି ବିନ୍ଦୁକୁ ସଂଯୋଗ କରେ?",
+"options": [
+"ଜ୍ୟା",
+"ବ୍ୟାସ",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ଚାପ"
+],
+"answer": "ବ୍ୟାସ",
+"explanation": "ବ୍ୟାସ ହେଉଛି ବୃତ୍ତର କେନ୍ଦ୍ର ଦେଇ ଯାଉଥିବା ସର୍ବବୃହତ ଜ୍ୟା।"
+},
+{
+"questionEnglish": "What is the degree measure of an arc if its length is 1/4th of the circumference?",
+"questionOdia": "ଯଦି ଚାପର ଦୈର୍ଘ୍ୟ ପରିଧିର 1/4 ଅଂଶ ହୁଏ, ତେବେ ଏହାର ଡିଗ୍ରୀ ପରିମାପ କେତେ?",
+"options": [
+"45°",
+"90°",
+"120°",
+"180°"
+],
+"answer": "90°",
+"explanation": "ସମ୍ପୂର୍ଣ୍ଣ ପରିଧି 360° ସହିତ ସମାନ, ତେଣୁ 1/4 ଅଂଶ = 360°/4 = 90°।"
+},
+{
+"questionEnglish": "What is the formula for the circumference of a circle if the diameter 'd' is known?",
+"questionOdia": "ଯଦି ବ୍ୟାସ 'd' ଜଣାଥାଏ, ତେବେ ବୃତ୍ତର ପରିଧି 'c' ନିର୍ଣ୍ଣୟ କରିବାର ସୂତ୍ର କ'ଣ?",
+"options": [
+"c = πd",
+"c = 2πd",
+"c = π/d",
+"c = d²/π"
+],
+"answer": "c = πd",
+"explanation": "ପରିଧି c = 2πr ଏବଂ d = 2r, ତେଣୁ c = πd।"
+},
+{
+"questionEnglish": "Which mathematician lived from 1728 to 1777 and proved π is irrational?",
+"questionOdia": "କେଉଁ ଗଣିତଜ୍ଞ 1728 ରୁ 1777 ପର୍ଯ୍ୟନ୍ତ ଜୀବିତ ଥିଲେ ଏବଂ ପ୍ରମାଣ କରିଥିଲେ ଯେ π ଅପରିମେୟ?",
+"options": [
+"ଆର୍ଯ୍ୟଭଟ୍ଟ",
+"ଜୋହାନ୍ ଲାମ୍ବର୍ଟ",
+"ୟୁକ୍ଲିଡ୍",
+"ପାଇଥାଗୋରାସ୍"
+],
+"answer": "ଜୋହାନ୍ ଲାମ୍ବର୍ଟ",
+"explanation": "ଜୋହାନ୍ ଲାମ୍ବର୍ଟ (1728-1777) 1761 ରେ ଏହା ପ୍ରମାଣ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "If a circle's circumference is 44 cm, what is its radius? (Take π = 22/7)",
+"questionOdia": "ଯଦି ଏକ ବୃତ୍ତର ପରିଧି 44 ସେ.ମି. ହୁଏ, ତେବେ ଏହାର ବ୍ୟାସାର୍ଦ୍ଧ କେତେ? (π = 22/7)",
+"options": [
+"3.5 ସେ.ମି.",
+"7 ସେ.ମି.",
+"14 ସେ.ମି.",
+"21 ସେ.ମି."
+],
+"answer": "7 ସେ.ମି.",
+"explanation": "2 × (22/7) × r = 44 => (44/7) × r = 44 => r = 7 ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is the area of a sector if the radius is 7 cm and arc length is 22 cm?",
+"questionOdia": "ଯଦି ବ୍ୟାସାର୍ଦ୍ଧ 7 ସେ.ମି. ଏବଂ ଚାପ ଦୈର୍ଘ୍ୟ 22 ସେ.ମି. ହୁଏ, ତେବେ ବୃତ୍ତକଳାର କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"77 ବର୍ଗ ସେ.ମି.",
+"154 ବର୍ଗ ସେ.ମି.",
+"38.5 ବର୍ଗ ସେ.ମି.",
+"44 ବର୍ଗ ସେ.ମି."
+],
+"answer": "77 ବର୍ଗ ସେ.ମି.",
+"explanation": "ବୃତ୍ତକଳାର କ୍ଷେତ୍ରଫଳ = (1/2) × ଚାପ ଦୈର୍ଘ୍ୟ (L) × ବ୍ୟାସାର୍ଦ୍ଧ (r) = (1/2) × 22 × 7 = 77 ବର୍ଗ ସେ.ମି.।"
+},
+{
+"questionEnglish": "How is the degree measure of an arc related to the central angle?",
+"questionOdia": "ଚାପର ଡିଗ୍ରୀ ପରିମାପ କେନ୍ଦ୍ରସ୍ଥ କୋଣ ସହିତ କିପରି ସମ୍ପୃକ୍ତ?",
+"options": [
+"ଅସମାନ",
+"ସମାନ",
+"ଦୁଇଗୁଣ",
+"ଅଧା"
+],
+"answer": "ସମାନ",
+"explanation": "ଚାପର ଡିଗ୍ରୀ ପରିମାପ ସର୍ବଦା ତା'ର ସଂପୃକ୍ତ କେନ୍ଦ୍ରସ୍ଥ କୋଣର ପରିମାପ ସହିତ ସମାନ।"
+},
+{
+"questionEnglish": "What is the sum of the degree measures of the minor arc and major arc of a circle?",
+"questionOdia": "ଏକ ବୃତ୍ତର କ୍ଷୁଦ୍ର ଚାପ ଓ ବୃହତ୍ ଚାପର ଡିଗ୍ରୀ ପରିମାପର ସମଷ୍ଟି କେତେ?",
+"options": [
+"180°",
+"270°",
+"360°",
+"90°"
+],
+"answer": "360°",
+"explanation": "ସମ୍ପୂର୍ଣ୍ଣ ବୃତ୍ତର ଡିଗ୍ରୀ ପରିମାପ 360° ହୋଇଥିବାରୁ, କ୍ଷୁଦ୍ର ଓ ବୃହତ୍ ଚାପର ସମଷ୍ଟି ମଧ୍ୟ 360° ହେବ।"
+},
+{
+"questionEnglish": "Which Greek letter is used to represent the ratio of a circle's circumference to its diameter?",
+"questionOdia": "ବୃତ୍ତର ପରିଧି ଓ ବ୍ୟାସର ଅନୁପାତକୁ ପ୍ରକାଶ କରିବା ପାଇଁ କେଉଁ ଗ୍ରୀକ୍ ଅକ୍ଷର ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"α (ଆଲଫା)",
+"β (ବିଟା)",
+"π (ପାଇ)",
+"γ (ଗାମା)"
+],
+"answer": "π (ପାଇ)",
+"explanation": "ବୃତ୍ତର ପରିଧି ଓ ବ୍ୟାସର ଅନୁପାତକୁ ଗ୍ରୀକ୍ ଅକ୍ଷର π ଦ୍ୱାରା ସୂଚିତ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is a major sector in a circle?",
+"questionOdia": "ବୃତ୍ତରେ ବୃହତ୍ ବୃତ୍ତକଳା (Major Sector) କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"କ୍ଷୁଦ୍ର ଚାପ ସହିତ ସଂପୃକ୍ତ ବୃତ୍ତକଳା",
+"ବୃହତ୍ ଚାପ ସହିତ ସଂପୃକ୍ତ ବୃତ୍ତକଳା",
+"ଅର୍ଦ୍ଧବୃତ୍ତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବୃହତ୍ ଚାପ ସହିତ ସଂପୃକ୍ତ ବୃତ୍ତକଳା",
+"explanation": "ବୃହତ୍ ଚାପ (Major arc) ସହିତ ସଂପୃକ୍ତ ଥିବା ବୃତ୍ତକଳାକୁ ବୃହତ୍ ବୃତ୍ତକଳା କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If the diameter of a circle is 28 m, what is the length of its semicircle arc?",
+"questionOdia": "ଯଦି ବୃତ୍ତର ବ୍ୟାସ 28 ମିଟର ହୁଏ, ତେବେ ଏହାର ଅର୍ଦ୍ଧବୃତ୍ତ ଚାପର ଦୈର୍ଘ୍ୟ କେତେ?",
+"options": [
+"22 ମିଟର",
+"44 ମିଟର",
+"88 ମିଟର",
+"14 ମିଟର"
+],
+"answer": "44 ମିଟର",
+"explanation": "ବ୍ୟାସାର୍ଦ୍ଧ (r) = 14। ଅର୍ଦ୍ଧବୃତ୍ତ ଚାପ = πr = (22/7) × 14 = 44 ମିଟର।"
+},
+{
+"questionEnglish": "How can the distance between two points on a curve be estimated?",
+"questionOdia": "ଏକ ବକ୍ରରେଖାର ଦୁଇଟି ବିନ୍ଦୁ ମଧ୍ୟରେ ଦୂରତା କିପରି ଅନୁମାନ କରାଯାଇପାରେ?",
+"options": [
+"ବକ୍ରରେଖାକୁ ସିଧା କରି ମାପି",
+"କ୍ଷୁଦ୍ର ସରଳରେଖୀୟ ଅଂଶଗୁଡ଼ିକର ଦୈର୍ଘ୍ୟର ସମଷ୍ଟି ଦ୍ୱାରା",
+"କେବଳ ଦୁଇ ବିନ୍ଦୁକୁ ସଂଯୋଗ କରୁଥିବା ସରଳରେଖା ମାପି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କ୍ଷୁଦ୍ର ସରଳରେଖୀୟ ଅଂଶଗୁଡ଼ିକର ଦୈର୍ଘ୍ୟର ସମଷ୍ଟି ଦ୍ୱାରା",
+"explanation": "ବକ୍ରରେଖା ଉପରେ ଅନେକ ବିନ୍ଦୁ ନେଇ ସେଗୁଡ଼ିକ ମଧ୍ୟରେ ଥିବା କ୍ଷୁଦ୍ର ସରଳରେଖୀୟ ଦୂରତାକୁ ମାପି ସେମାନଙ୍କ ସମଷ୍ଟି ଦ୍ୱାରା ବକ୍ରଦୂରତା ନିର୍ଣ୍ଣୟ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is the ratio of circumference to diameter?",
+"questionOdia": "ପରିଧି ଓ ବ୍ୟାସର ଅନୁପାତ କ'ଣ?",
+"options": [
+"ଏକ ଚଳକ (Variable)",
+"ଏକ ସ୍ଥିରାଙ୍କ (Constant)",
+"ଶୂନ୍ୟ",
+"ଏକ"
+],
+"answer": "ଏକ ସ୍ଥିରାଙ୍କ (Constant)",
+"explanation": "ବୃତ୍ତର ପରିଧି ଓ ବ୍ୟାସର ଅନୁପାତ ସର୍ବଦା ଏକ ସ୍ଥିରାଙ୍କ (π) ଅଟେ।"
+},
+{
+"questionEnglish": "If the circumference of a circle is doubled, what happens to its radius?",
+"questionOdia": "ଯଦି ଏକ ବୃତ୍ତର ପରିଧି ଦୁଇଗୁଣ କରାଯାଏ, ତେବେ ଏହାର ବ୍ୟାସାର୍ଦ୍ଧ କ'ଣ ହେବ?",
+"options": [
+"ଅପରିବର୍ତ୍ତିତ ରହିବ",
+"ଅଧା ହୋଇଯିବ",
+"ଦୁଇଗୁଣ ହୋଇଯିବ",
+"ଚାରିଗୁଣ ହୋଇଯିବ"
+],
+"answer": "ଦୁଇଗୁଣ ହୋଇଯିବ",
+"explanation": "c = 2πr ଅଟେ, ତେଣୁ c ଦୁଇଗୁଣ ହେଲେ r ମଧ୍ୟ ଦୁଇଗୁଣ ହେବ।"
+},
+{
+"questionEnglish": "What is the shape of a cross-section of a cylinder?",
+"questionOdia": "ସିଲିଣ୍ଡରର କ୍ରସ-ସେକ୍ସନ (ଛେଦ) ର ଆକୃତି କ'ଣ?",
+"options": [
+"ବର୍ଗକ୍ଷେତ୍ର",
+"ତ୍ରିଭୁଜ",
+"ବୃତ୍ତ",
+"ଆୟତକ୍ଷେତ୍ର"
+],
+"answer": "ବୃତ୍ତ",
+"explanation": "ସିଲିଣ୍ଡରର କ୍ରସ-ସେକ୍ସନ ସର୍ବଦା ଏକ ବୃତ୍ତ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "How many endpoints does a simple arc have?",
+"questionOdia": "ଏକ ସରଳ ଚାପର କେତୋଟି ପ୍ରାନ୍ତ ବିନ୍ଦୁ ଥାଏ?",
+"options": [
+"1",
+"2",
+"3",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "2",
+"explanation": "ଯେ କୌଣସି ଚାପର ଦୁଇଟି ପ୍ରାନ୍ତ ବିନ୍ଦୁ ଥାଏ ଯାହାକୁ କେନ୍ଦ୍ର ସହିତ ଯୋଗ କଲେ ବୃତ୍ତକଳା ସୃଷ୍ଟି ହୁଏ।"
+},
+{
+"questionEnglish": "Can the circumference be calculated without knowing the radius?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ ନ ଜାଣି ପରିଧି ଗଣନା କରାଯାଇ ପାରିବ କି?",
+"options": [
+"ହଁ, ଯଦି ବ୍ୟାସ ଜଣାଥାଏ",
+"ନା, କେବଳ ବ୍ୟାସାର୍ଦ୍ଧ ଆବଶ୍ୟକ",
+"ହଁ, କେବଳ କ୍ଷେତ୍ରଫଳରୁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ, ଯଦି ବ୍ୟାସ ଜଣାଥାଏ",
+"explanation": "ପରିଧି = π × ବ୍ୟାସ, ତେଣୁ ବ୍ୟାସ ଜଣାଥିଲେ ପରିଧି ଗଣନା କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "What is the value of π approximately?",
+"questionOdia": "π ର ଆସନ୍ନ ମାନ କେତେ?",
+"options": [
+"3.14",
+"2.71",
+"1.41",
+"1.73"
+],
+"answer": "3.14",
+"explanation": "π ର ଆସନ୍ନ ମାନ ପ୍ରାୟ 3.14।"
+},
+{
+"questionEnglish": "If the central angle is 360°, what is the arc length?",
+"questionOdia": "ଯଦି କେନ୍ଦ୍ରସ୍ଥ କୋଣ 360° ହୁଏ, ତେବେ ଚାପର ଦୈର୍ଘ୍ୟ କ'ଣ ହେବ?",
+"options": [
+"ଶୂନ୍ୟ",
+"ବ୍ୟାସାର୍ଦ୍ଧ ସହିତ ସମାନ",
+"ପରିଧି ସହିତ ସମାନ",
+"ବ୍ୟାସ ସହିତ ସମାନ"
+],
+"answer": "ପରିଧି ସହିତ ସମାନ",
+"explanation": "କେନ୍ଦ୍ରସ୍ଥ କୋଣ 360° ହେଲେ ଚାପଟି ସମ୍ପୂର୍ଣ୍ଣ ବୃତ୍ତକୁ ବୁଝାଏ, ତେଣୁ ଦୈର୍ଘ୍ୟ ପରିଧି ସହିତ ସମାନ।"
+},
+{
+"questionEnglish": "What is the relation between diameter and circumference?",
+"questionOdia": "ବ୍ୟାସ ଓ ପରିଧି ମଧ୍ୟରେ ସମ୍ପର୍କ କ'ଣ?",
+"options": [
+"ପରିଧି = π × ବ୍ୟାସ",
+"ପରିଧି = ବ୍ୟାସ / π",
+"ବ୍ୟାସ = π × ପରିଧି",
+"ପରିଧି = 2 × π × ବ୍ୟାସ"
+],
+"answer": "ପରିଧି = π × ବ୍ୟାସ",
+"explanation": "c = πd, ଯେଉଁଠାରେ c ପରିଧି ଓ d ବ୍ୟାସ।"
+},
+{
+"questionEnglish": "A circle has diameter 10.5 cm. What is its circumference?",
+"questionOdia": "ଏକ ବୃତ୍ତର ବ୍ୟାସ 10.5 ସେ.ମି.। ଏହାର ପରିଧି କେତେ?",
+"options": [
+"33 ସେ.ମି.",
+"66 ସେ.ମି.",
+"21 ସେ.ମି.",
+"11 ସେ.ମି."
+],
+"answer": "33 ସେ.ମି.",
+"explanation": "ପରିଧି = π × d = (22/7) × 10.5 = 22 × 1.5 = 33 ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is the radius of a circle if its area is 616 sq cm?",
+"questionOdia": "ଯଦି ଏକ ବୃତ୍ତର କ୍ଷେତ୍ରଫଳ 616 ବର୍ଗ ସେ.ମି. ହୁଏ, ତେବେ ବ୍ୟାସାର୍ଦ୍ଧ କେତେ?",
+"options": [
+"7 ସେ.ମି.",
+"14 ସେ.ମି.",
+"21 ସେ.ମି.",
+"28 ସେ.ମି."
+],
+"answer": "14 ସେ.ମି.",
+"explanation": "πr² = 616 => (22/7) × r² = 616 => r² = 616 × (7/22) = 196 => r = 14 ସେ.ମି.।"
+},
+{
+"questionEnglish": "Which part of the circle is used to calculate the area of a sector?",
+"questionOdia": "ବୃତ୍ତକଳାର କ୍ଷେତ୍ରଫଳ ନିର୍ଣ୍ଣୟ କରିବାରେ ବୃତ୍ତର କେଉଁ ଅଂଶ ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"କେବଳ ବ୍ୟାସାର୍ଦ୍ଧ",
+"କେବଳ ଚାପ ଦୈର୍ଘ୍ୟ",
+"ବ୍ୟାସାର୍ଦ୍ଧ ଓ ଚାପ ଦୈର୍ଘ୍ୟ",
+"ବ୍ୟାସ"
+],
+"answer": "ବ୍ୟାସାର୍ଦ୍ଧ ଓ ଚାପ ଦୈର୍ଘ୍ୟ",
+"explanation": "ବୃତ୍ତକଳାର କ୍ଷେତ୍ରଫଳ = (1/2) × ଚାପ ଦୈର୍ଘ୍ୟ × ବ୍ୟାସାର୍ଦ୍ଧ।"
+},
+{
+"questionEnglish": "How many degrees are in a semicircle?",
+"questionOdia": "ଅର୍ଦ୍ଧବୃତ୍ତରେ କେତେ ଡିଗ୍ରୀ ଥାଏ?",
+"options": [
+"90°",
+"180°",
+"270°",
+"360°"
+],
+"answer": "180°",
+"explanation": "ସମ୍ପୂର୍ଣ୍ଣ ବୃତ୍ତ 360° ହୋଇଥିବାରୁ, ଅର୍ଦ୍ଧବୃତ୍ତ 180° ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the shape formed by the intersection of a cone and a plane parallel to its base?",
+"questionOdia": "ଏକ କୋନ୍ (Cone) କୁ ତା'ର ଭୂମି ସହିତ ସମାନ୍ତରାଳ ଭାବରେ କାଟିଲେ କେଉଁ ଆକୃତି ମିଳେ?",
+"options": [
+"ବୃତ୍ତ",
+"ତ୍ରିଭୁଜ",
+"ଆୟତକ୍ଷେତ୍ର",
+"ବର୍ଗକ୍ଷେତ୍ର"
+],
+"answer": "ବୃତ୍ତ",
+"explanation": "କୋନ୍‌କୁ ଭୂମି ସମାନ୍ତରାଳରେ କାଟିଲେ ଏକ ବୃତ୍ତ ସୃଷ୍ଟି ହୁଏ।"
+},
+{
+"questionEnglish": "What is the definition of a chord in a circle?",
+"questionOdia": "ବୃତ୍ତରେ 'ଜ୍ୟା' (Chord) ର ସଂଜ୍ଞା କ'ଣ?",
+"options": [
+"ବୃତ୍ତର କେନ୍ଦ୍ର ଦେଇ ଯାଉଥିବା ରେଖା",
+"ବୃତ୍ତର ଦୁଇଟି ବିନ୍ଦୁକୁ ସଂଯୋଗ କରୁଥିବା ରେଖାଖଣ୍ଡ",
+"ବୃତ୍ତର ପରିଧିର ଏକ ଅଂଶ",
+"କେନ୍ଦ୍ର ଓ ପରିଧିକୁ ଯୋଗ କରୁଥିବା ରେଖା"
+],
+"answer": "ବୃତ୍ତର ଦୁଇଟି ବିନ୍ଦୁକୁ ସଂଯୋଗ କରୁଥିବା ରେଖାଖଣ୍ଡ",
+"explanation": "ବୃତ୍ତର ଯେ କୌଣସି ଦୁଇଟି ବିନ୍ଦୁକୁ ସଂଯୋଗ କରୁଥିବା ରେଖାଖଣ୍ଡକୁ ଜ୍ୟା କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If the diameter is 14 cm, what is the area of the circle?",
+"questionOdia": "ଯଦି ବ୍ୟାସ 14 ସେ.ମି. ହୁଏ, ତେବେ ବୃତ୍ତର କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"154 ବର୍ଗ ସେ.ମି.",
+"77 ବର୍ଗ ସେ.ମି.",
+"308 ବର୍ଗ ସେ.ମି.",
+"44 ବର୍ଗ ସେ.ମି."
+],
+"answer": "154 ବର୍ଗ ସେ.ମି.",
+"explanation": "r = 7। କ୍ଷେତ୍ରଫଳ = πr² = (22/7) × 7 × 7 = 154 ବର୍ଗ ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is the relation between the length of arc 'L', radius 'r', and angle 'θ' in radians?",
+"questionOdia": "ଚାପ ଦୈର୍ଘ୍ୟ 'L', ବ୍ୟାସାର୍ଦ୍ଧ 'r' ଏବଂ କୋଣ 'θ' (ରେଡିଆନରେ) ମଧ୍ୟରେ ସମ୍ପର୍କ କ'ଣ?",
+"options": [
+"L = r/θ",
+"L = θ/r",
+"L = rθ",
+"L = θ²r"
+],
+"answer": "L = rθ",
+"explanation": "ରେଡିଆନ୍ ପରିମାପରେ θ = L/r, ତେଣୁ L = rθ।"
+},
+{
+"questionEnglish": "Can a rectangle be inscribed in a circle?",
+"questionOdia": "ଏକ ଆୟତକ୍ଷେତ୍ରକୁ ବୃତ୍ତ ଭିତରେ ଅନ୍ତର୍ଲିଖିତ କରାଯାଇ ପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ବର୍ଗକ୍ଷେତ୍ର ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଏକ ଆୟତକ୍ଷେତ୍ରକୁ ବୃତ୍ତ ଭିତରେ ଅନ୍ତର୍ଲିଖିତ କରାଯାଇପାରିବ ଯେଉଁଠାରେ ଏହାର କର୍ଣ୍ଣ ବୃତ୍ତର ବ୍ୟାସ ସହିତ ସମାନ।"
+},
+{
+"questionEnglish": "What does a prism have in terms of bases?",
+"questionOdia": "ପ୍ରିଜିମ୍‌ର ଭୂମି କିପରି ହୋଇଥାଏ?",
+"options": [
+"କେବଳ ଗୋଟିଏ ଭୂମି",
+"ଦୁଇଟି ସମାନ ଓ ସମାନ୍ତରାଳ ଭୂମି",
+"ବୃତ୍ତାକାର ଭୂମି",
+"କୌଣସି ଭୂମି ନାହିଁ"
+],
+"answer": "ଦୁଇଟି ସମାନ ଓ ସମାନ୍ତରାଳ ଭୂମି",
+"explanation": "ପ୍ରିଜିମ୍‌ର ଦୁଇଟି ସମାନ ଓ ସମାନ୍ତରାଳ ଭୂମି ଥାଏ।"
+},
+{
+"questionEnglish": "What is the circumference of a circle if radius is 3.5 cm?",
+"questionOdia": "ଯଦି ବ୍ୟାସାର୍ଦ୍ଧ 3.5 ସେ.ମି. ହୁଏ, ତେବେ ପରିଧି କେତେ?",
+"options": [
+"11 ସେ.ମି.",
+"22 ସେ.ମି.",
+"44 ସେ.ମି.",
+"7 ସେ.ମି."
+],
+"answer": "22 ସେ.ମି.",
+"explanation": "2πr = 2 × (22/7) × 3.5 = 2 × 22 × 0.5 = 22 ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is the difference between a circle and a disk?",
+"questionOdia": "ବୃତ୍ତ ଓ ଡିସ୍କ ମଧ୍ୟରେ ପାର୍ଥକ୍ୟ କ'ଣ?",
+"options": [
+"କୌଣସି ପାର୍ଥକ୍ୟ ନାହିଁ",
+"ବୃତ୍ତ କେବଳ ପରିସୀମା, ଡିସ୍କ ସମଗ୍ର କ୍ଷେତ୍ର",
+"ଡିସ୍କ କେବଳ ପରିସୀମା, ବୃତ୍ତ ସମଗ୍ର କ୍ଷେତ୍ର",
+"ବୃତ୍ତ 3D, ଡିସ୍କ 2D"
+],
+"answer": "ବୃତ୍ତ କେବଳ ପରିସୀମା, ଡିସ୍କ ସମଗ୍ର କ୍ଷେତ୍ର",
+"explanation": "ବୃତ୍ତ କେବଳ ତା'ର ସୀମା ବା ପରିଧିକୁ ବୁଝାଏ, କିନ୍ତୁ ଡିସ୍କ ତା'ର ଅଭ୍ୟନ୍ତରୀଣ କ୍ଷେତ୍ରଫଳକୁ ମଧ୍ୟ ବୁଝାଏ।"
+},
+{
+"questionEnglish": "What is the area of a circle if radius is 21 cm?",
+"questionOdia": "ଯଦି ବ୍ୟାସାର୍ଦ୍ଧ 21 ସେ.ମି. ହୁଏ, ତେବେ କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"1386 ବର୍ଗ ସେ.ମି.",
+"693 ବର୍ଗ ସେ.ମି.",
+"462 ବର୍ଗ ସେ.ମି.",
+"132 ବର୍ଗ ସେ.ମି."
+],
+"answer": "1386 ବର୍ଗ ସେ.ମି.",
+"explanation": "πr² = (22/7) × 21 × 21 = 22 × 3 × 21 = 1386 ବର୍ଗ ସେ.ମି.।"
+},
+{
+"questionEnglish": "What happens to the area of a circle if the radius is halved?",
+"questionOdia": "ଯଦି ବ୍ୟାସାର୍ଦ୍ଧକୁ ଅଧା କରାଯାଏ, ତେବେ ବୃତ୍ତର କ୍ଷେତ୍ରଫଳ କ'ଣ ହେବ?",
+"options": [
+"ଅଧା ହୋଇଯିବ",
+"ଏକ ଚତୁର୍ଥାଂଶ ହୋଇଯିବ",
+"ଦୁଇଗୁଣ ହୋଇଯିବ",
+"ଚାରିଗୁଣ ହୋଇଯିବ"
+],
+"answer": "ଏକ ଚତୁର୍ଥାଂଶ ହୋଇଯିବ",
+"explanation": "କ୍ଷେତ୍ରଫଳ πr² ଉପରେ ନିର୍ଭର କରେ, ତେଣୁ r ଅଧା ହେଲେ k² = (1/2)² = 1/4 ହେବ।"
+},
+{
+"questionEnglish": "Can a square be inscribed in a circle?",
+"questionOdia": "ଏକ ବର୍ଗକ୍ଷେତ୍ରକୁ ବୃତ୍ତ ଭିତରେ ଅନ୍ତର୍ଲିଖିତ କରାଯାଇ ପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଆୟତକ୍ଷେତ୍ର ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଏକ ବର୍ଗକ୍ଷେତ୍ରର କର୍ଣ୍ଣକୁ ବୃତ୍ତର ବ୍ୟାସ ସହିତ ସମାନ ରଖି ଅନ୍ତର୍ଲିଖିତ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "What is the length of a chord equal to the radius?",
+"questionOdia": "ଯଦି ଏକ ଜ୍ୟାର ଦୈର୍ଘ୍ୟ ବ୍ୟାସାର୍ଦ୍ଧ ସହିତ ସମାନ ହୁଏ, ତେବେ କେନ୍ଦ୍ରସ୍ଥ କୋଣ କେତେ?",
+"options": [
+"30°",
+"45°",
+"60°",
+"90°"
+],
+"answer": "60°",
+"explanation": "ଯଦି ଜ୍ୟା, ବ୍ୟାସାର୍ଦ୍ଧ ଓ ବ୍ୟାସାର୍ଦ୍ଧ ସମାନ ହୁଏ, ତେବେ ତ୍ରିଭୁଜଟି ସମବାହୁ ହେବ, ତେଣୁ କୋଣ 60°।"
+},
+{
+"questionEnglish": "Which part of the circle is the circumference?",
+"questionOdia": "ବୃତ୍ତର କେଉଁ ଅଂଶକୁ ପରିଧି କୁହାଯାଏ?",
+"options": [
+"କେନ୍ଦ୍ର",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ପରିସୀମା",
+"କ୍ଷେତ୍ରଫଳ"
+],
+"answer": "ପରିସୀମା",
+"explanation": "ବୃତ୍ତର ପରିସୀମାକୁ ପରିଧି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If the radius is 10 cm, what is the area?",
+"questionOdia": "ଯଦି ବ୍ୟାସାର୍ଦ୍ଧ 10 ସେ.ମି. ହୁଏ, ତେବେ କ୍ଷେତ୍ରଫଳ କେତେ? (π=3.14)",
+"options": [
+"31.4 ବର୍ଗ ସେ.ମି.",
+"314 ବର୍ଗ ସେ.ମି.",
+"628 ବର୍ଗ ସେ.ମି.",
+"3140 ବର୍ଗ ସେ.ମି."
+],
+"answer": "314 ବର୍ଗ ସେ.ମି.",
+"explanation": "πr² = 3.14 × 10 × 10 = 314 ବର୍ଗ ସେ.ମି.।"
+},
+{
+"questionEnglish": "How many diameters can a circle have?",
+"questionOdia": "ଏକ ବୃତ୍ତର କେତୋଟି ବ୍ୟାସ ଥାଇପାରେ?",
+"options": [
+"1",
+"2",
+"ଅସଂଖ୍ୟ",
+"4"
+],
+"answer": "ଅସଂଖ୍ୟ",
+"explanation": "ଏକ ବୃତ୍ତରେ ଅସଂଖ୍ୟ ବ୍ୟାସ ଥାଇପାରେ।"
+},
+{
+"questionEnglish": "What is the angle of a sector if the sector area is 1/4th of the circle area?",
+"questionOdia": "ଯଦି ବୃତ୍ତକଳାର କ୍ଷେତ୍ରଫଳ ସମ୍ପୂର୍ଣ୍ଣ ବୃତ୍ତର 1/4 ଅଂଶ ହୁଏ, ତେବେ କୋଣ କେତେ?",
+"options": [
+"45°",
+"90°",
+"180°",
+"360°"
+],
+"answer": "90°",
+"explanation": "ସମ୍ପୂର୍ଣ୍ଣ ବୃତ୍ତ 360° ହୋଇଥିବାରୁ, 1/4 ଅଂଶ 360°/4 = 90°।"
+},
+{
+"questionEnglish": "Is π a rational or irrational number?",
+"questionOdia": "π ଏକ ପରିମେୟ ନା ଅପରିମେୟ ସଂଖ୍ୟା?",
+"options": [
+"ପରିମେୟ",
+"ଅପରିମେୟ",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅପରିମେୟ",
+"explanation": "π ଏକ ଅପରିମେୟ ସଂଖ୍ୟା।"
+},
+{
+"questionEnglish": "What is the distance between the center and any point on the circle?",
+"questionOdia": "ବୃତ୍ତର କେନ୍ଦ୍ର ଓ ପରିଧିର ଯେକୌଣସି ବିନ୍ଦୁ ମଧ୍ୟରେ ଦୂରତାକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ଜ୍ୟା",
+"ବ୍ୟାସ",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ପରିଧି"
+],
+"answer": "ବ୍ୟାସାର୍ଦ୍ଧ",
+"explanation": "ଏହି ଦୂରତାକୁ ବ୍ୟାସାର୍ଦ୍ଧ (Radius) କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If the circumference is 22 cm, what is the diameter? (π = 22/7)",
+"questionOdia": "ଯଦି ପରିଧି 22 ସେ.ମି. ହୁଏ, ତେବେ ବ୍ୟାସ କେତେ? (π = 22/7)",
+"options": [
+"3.5 ସେ.ମି.",
+"7 ସେ.ମି.",
+"14 ସେ.ମି.",
+"11 ସେ.ମି."
+],
+"answer": "7 ସେ.ମି.",
+"explanation": "c = πd => 22 = (22/7) × d => d = 7 ସେ.ମି.।"
+},
+{
+"questionEnglish": "A chord passing through the center is called?",
+"questionOdia": "କେନ୍ଦ୍ର ଦେଇ ଯାଉଥିବା ଜ୍ୟାକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ବ୍ୟାସ",
+"ବ୍ୟାସାର୍ଦ୍ଧ",
+"ଚାପ",
+"ପରିଧି"
+],
+"answer": "ବ୍ୟାସ",
+"explanation": "କେନ୍ଦ୍ର ଦେଇ ଯାଉଥିବା ଜ୍ୟାକୁ ବ୍ୟାସ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the area of a circle with radius 3.5 cm? (π = 22/7)",
+"questionOdia": "3.5 ସେ.ମି. ବ୍ୟାସାର୍ଦ୍ଧ ଥିବା ବୃତ୍ତର କ୍ଷେତ୍ରଫଳ କେତେ? (π = 22/7)",
+"options": [
+"38.5 ବର୍ଗ ସେ.ମି.",
+"77 ବର୍ଗ ସେ.ମି.",
+"154 ବର୍ଗ ସେ.ମି.",
+"11 ବର୍ଗ ସେ.ମି."
+],
+"answer": "38.5 ବର୍ଗ ସେ.ମି.",
+"explanation": "πr² = (22/7) × 3.5 × 3.5 = 22 × 0.5 × 3.5 = 38.5 ବର୍ଗ ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is the relation between the areas of two circles with radii r1 and r2?",
+"questionOdia": "r1 ଓ r2 ବ୍ୟାସାର୍ଦ୍ଧ ଥିବା ଦୁଇଟି ବୃତ୍ତର କ୍ଷେତ୍ରଫଳର ଅନୁପାତ କ'ଣ?",
+"options": [
+"r1:r2",
+"r1²:r2²",
+"2r1:2r2",
+"r1:r2²"
+],
+"answer": "r1²:r2²",
+"explanation": "କ୍ଷେତ୍ରଫଳ πr² ହୋଇଥିବାରୁ ଅନୁପାତ r1²:r2² ହେବ।"
+},
+{
+"questionEnglish": "Can the radius be calculated from the area?",
+"questionOdia": "କ୍ଷେତ୍ରଫଳରୁ ବ୍ୟାସାର୍ଦ୍ଧ ଗଣନା କରାଯାଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ପରିଧିରୁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, r = √(Area/π) ସୂତ୍ର ବ୍ୟବହାର କରି।"
+},
+{
+"questionEnglish": "What is the circumference of a circle if radius is 7 cm?",
+"questionOdia": "ଯଦି ବ୍ୟାସାର୍ଦ୍ଧ 7 ସେ.ମି. ହୁଏ, ତେବେ ପରିଧି କେତେ?",
+"options": [
+"22 ସେ.ମି.",
+"44 ସେ.ମି.",
+"14 ସେ.ମି.",
+"154 ସେ.ମି."
+],
+"answer": "44 ସେ.ମି.",
+"explanation": "2πr = 2 × (22/7) × 7 = 44 ସେ.ମି.।"
+},
+{
+"questionEnglish": "Which part of the circle is OAYB in the figure if it covers a major arc?",
+"questionOdia": "ଚିତ୍ରରେ OAYB ଯଦି ଏକ ବୃହତ୍ ଚାପକୁ ଆବୃତ କରେ, ତେବେ ଏହାକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"କ୍ଷୁଦ୍ର ବୃତ୍ତକଳା",
+"ବୃହତ୍ ବୃତ୍ତକଳା",
+"ଅର୍ଦ୍ଧବୃତ୍ତ",
+"ବ୍ୟାସ"
+],
+"answer": "ବୃହତ୍ ବୃତ୍ତକଳା",
+"explanation": "ବୃହତ୍ ଚାପ ସହିତ ସଂପୃକ୍ତ ଥିବାରୁ OAYB କୁ ବୃହତ୍ ବୃତ୍ତକଳା (Major Sector) କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If radius is 14 cm, what is the length of 60° arc?",
+"questionOdia": "ଯଦି ବ୍ୟାସାର୍ଦ୍ଧ 14 ସେ.ମି. ହୁଏ, ତେବେ 60° କେନ୍ଦ୍ରସ୍ଥ କୋଣ ଥିବା ଚାପର ଦୈର୍ଘ୍ୟ କେତେ?",
+"options": [
+"14.66 ସେ.ମି.",
+"22 ସେ.ମି.",
+"44 ସେ.ମି.",
+"7 ସେ.ମି."
+],
+"answer": "14.66 ସେ.ମି.",
+"explanation": "L = (60/360) × 2πr = (1/6) × 2 × (22/7) × 14 = (1/6) × 88 = 14.66 ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is a prism with a circular base called?",
+"questionOdia": "ବୃତ୍ତାକାର ଭୂମି ଥିବା ପ୍ରିଜିମ୍‌କୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ସିଲିଣ୍ଡର",
+"କୋନ୍",
+"ଗୋଲକ",
+"କ୍ୟୁବ୍"
+],
+"answer": "ସିଲିଣ୍ଡର",
+"explanation": "ବୃତ୍ତାକାର ଭୂମି ଥିବା ପ୍ରିଜିମ୍‌କୁ ସିଲିଣ୍ଡର କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the unit of area?",
+"questionOdia": "କ୍ଷେତ୍ରଫଳର ଏକକ କ'ଣ?",
+"options": [
+"ସେ.ମି.",
+"ବର୍ଗ ସେ.ମି.",
+"ଘନ ସେ.ମି.",
+"ମିଟର"
+],
+"answer": "ବର୍ଗ ସେ.ମି.",
+"explanation": "କ୍ଷେତ୍ରଫଳ ସର୍ବଦା ବର୍ଗ ଏକକରେ ମପାଯାଏ।"
+},
+{
+"questionEnglish": "What is the area of a circle with diameter 7 cm?",
+"questionOdia": "7 ସେ.ମି. ବ୍ୟାସ ଥିବା ବୃତ୍ତର କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"38.5 ବର୍ଗ ସେ.ମି.",
+"77 ବର୍ଗ ସେ.ମି.",
+"154 ବର୍ଗ ସେ.ମି.",
+"11 ବର୍ଗ ସେ.ମି."
+],
+"answer": "38.5 ବର୍ଗ ସେ.ମି.",
+"explanation": "r = 3.5। πr² = (22/7) × 3.5 × 3.5 = 38.5 ବର୍ଗ ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is the formula for the volume of a sphere with radius r?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ 'r' ଥିବା ଗୋଲକର ଆୟତନ ନିର୍ଣ୍ଣୟ କରିବାର ସୂତ୍ର କ'ଣ?",
+"options": [
+"4πr²",
+"4/3 πr³",
+"πr³",
+"2/3 πr³"
+],
+"answer": "4/3 πr³",
+"explanation": "ଗୋଲକର ଆୟତନ = 4/3 πr³।"
+},
+{
+"questionEnglish": "What is the surface area of a sphere with radius r?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ 'r' ଥିବା ଗୋଲକର ପୃଷ୍ଠତଳର କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"4πr²",
+"πr²",
+"2πr²",
+"4/3 πr²"
+],
+"answer": "4πr²",
+"explanation": "ଗୋଲକର ପୃଷ୍ଠତଳର କ୍ଷେତ୍ରଫଳ = 4πr²।"
+},
+{
+"questionEnglish": "What is the total surface area of a solid cylinder with radius r and height h?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ 'r' ଓ ଉଚ୍ଚତା 'h' ଥିବା ଏକ ସିଲିଣ୍ଡରର ମୋଟ ପୃଷ୍ଠତଳ କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"2πrh",
+"2πr(r+h)",
+"πr²h",
+"2πr²"
+],
+"answer": "2πr(r+h)",
+"explanation": "ସିଲିଣ୍ଡରର ମୋଟ ପୃଷ୍ଠତଳ କ୍ଷେତ୍ରଫଳ = ବକ୍ରପୃଷ୍ଠ (2πrh) + ଦୁଇଟି ଭୂମି (2πr²) = 2πr(r+h)।"
+},
+{
+"questionEnglish": "What is the lateral surface area of a cylinder?",
+"questionOdia": "ସିଲିଣ୍ଡରର ବକ୍ରପୃଷ୍ଠ କ୍ଷେତ୍ରଫଳ କ'ଣ?",
+"options": [
+"πrh",
+"2πrh",
+"πr²h",
+"2πr²"
+],
+"answer": "2πrh",
+"explanation": "ସିଲିଣ୍ଡରର ବକ୍ରପୃଷ୍ଠ କ୍ଷେତ୍ରଫଳ = 2πrh।"
+},
+{
+"questionEnglish": "If radius is 7 cm and height is 10 cm, what is the lateral area of cylinder?",
+"questionOdia": "ଯଦି ବ୍ୟାସାର୍ଦ୍ଧ 7 ସେ.ମି. ଓ ଉଚ୍ଚତା 10 ସେ.ମି. ହୁଏ, ତେବେ ସିଲିଣ୍ଡରର ବକ୍ରପୃଷ୍ଠ କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"440 ବର୍ଗ ସେ.ମି.",
+"220 ବର୍ଗ ସେ.ମି.",
+"154 ବର୍ଗ ସେ.ମି.",
+"308 ବର୍ଗ ସେ.ମି."
+],
+"answer": "440 ବର୍ଗ ସେ.ମି.",
+"explanation": "2πrh = 2 × (22/7) × 7 × 10 = 440 ବର୍ଗ ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is the slant height (l) of a cone with radius r and height h?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ 'r' ଓ ଉଚ୍ଚତା 'h' ଥିବା ଏକ କୋନ୍‌ର ସ୍ଲ୍ୟାଣ୍ଟ ହାଇଟ୍ (l) କେତେ?",
+"options": [
+"h + r",
+"√(h² + r²)",
+"h² + r²",
+"√(h - r)"
+],
+"answer": "√(h² + r²)",
+"explanation": "ସ୍ଲ୍ୟାଣ୍ଟ ହାଇଟ୍ (l) = √(h² + r²)।"
+},
+{
+"questionEnglish": "What is the volume of a cylinder with radius r and height h?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ 'r' ଓ ଉଚ୍ଚତା 'h' ଥିବା ସିଲିଣ୍ଡରର ଆୟତନ କେତେ?",
+"options": [
+"πr²h",
+"2πrh",
+"πrh²",
+"4/3 πr³"
+],
+"answer": "πr²h",
+"explanation": "ସିଲିଣ୍ଡରର ଆୟତନ = πr²h।"
+},
+{
+"questionEnglish": "What is the volume of a cone with radius r and height h?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ 'r' ଓ ଉଚ୍ଚତା 'h' ଥିବା କୋନ୍‌ର ଆୟତନ କେତେ?",
+"options": [
+"πr²h",
+"1/3 πr²h",
+"2/3 πr²h",
+"4/3 πr²h"
+],
+"answer": "1/3 πr²h",
+"explanation": "କୋନ୍‌ର ଆୟତନ ସିଲିଣ୍ଡରର ଆୟତନର ଏକ-ତୃତୀୟାଂଶ = 1/3 πr²h।"
+},
+{
+"questionEnglish": "What is the lateral area of a cone?",
+"questionOdia": "କୋନ୍‌ର ବକ୍ରପୃଷ୍ଠ କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"πrh",
+"πrl",
+"2πrl",
+"πr²l"
+],
+"answer": "πrl",
+"explanation": "କୋନ୍‌ର ବକ୍ରପୃଷ୍ଠ କ୍ଷେତ୍ରଫଳ = πrl (l = ସ୍ଲ୍ୟାଣ୍ଟ ହାଇଟ୍)।"
+},
+{
+"questionEnglish": "Can the total surface area of a sphere be equal to 4πr²?",
+"questionOdia": "ଗୋଲକର ପୃଷ୍ଠତଳ କ୍ଷେତ୍ରଫଳ 4πr² ସହିତ ସମାନ ହୋଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଅର୍ଦ୍ଧଗୋଲକ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଗୋଲକର ପୃଷ୍ଠତଳ କ୍ଷେତ୍ରଫଳ ସର୍ବଦା 4πr²।"
+},
+{
+"questionEnglish": "What is the total surface area of a hemisphere with radius r?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ 'r' ଥିବା ଅର୍ଦ୍ଧଗୋଲକର ମୋଟ ପୃଷ୍ଠତଳ କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"2πr²",
+"3πr²",
+"4πr²",
+"πr²"
+],
+"answer": "3πr²",
+"explanation": "ଅର୍ଦ୍ଧଗୋଲକର ମୋଟ ପୃଷ୍ଠତଳ କ୍ଷେତ୍ରଫଳ = ବକ୍ରପୃଷ୍ଠ (2πr²) + ଭୂମି (πr²) = 3πr²।"
+},
+{
+"questionEnglish": "What is the volume of a hemisphere with radius r?",
+"questionOdia": "ବ୍ୟାସାର୍ଦ୍ଧ 'r' ଥିବା ଅର୍ଦ୍ଧଗୋଲକର ଆୟତନ କେତେ?",
+"options": [
+"4/3 πr³",
+"2/3 πr³",
+"1/3 πr³",
+"πr³"
+],
+"answer": "2/3 πr³",
+"explanation": "ଅର୍ଦ୍ଧଗୋଲକର ଆୟତନ ଗୋଲକର ଆୟତନର ଅଧା = 2/3 πr³।"
+},
+{
+"questionEnglish": "A cylinder has radius 7 cm and height 10 cm. What is its volume?",
+"questionOdia": "ଏକ ସିଲିଣ୍ଡରର ବ୍ୟାସାର୍ଦ୍ଧ 7 ସେ.ମି. ଓ ଉଚ୍ଚତା 10 ସେ.ମି.। ଏହାର ଆୟତନ କେତେ?",
+"options": [
+"1540 ବର୍ଗ ସେ.ମି.",
+"1540 ଘନ ସେ.ମି.",
+"770 ଘନ ସେ.ମି.",
+"3080 ଘନ ସେ.ମି."
+],
+"answer": "1540 ଘନ ସେ.ମି.",
+"explanation": "πr²h = (22/7) × 7 × 7 × 10 = 1540 ଘନ ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is the unit of volume?",
+"questionOdia": "ଆୟତନର ଏକକ କ'ଣ?",
+"options": [
+"ସେ.ମି.",
+"ବର୍ଗ ସେ.ମି.",
+"ଘନ ସେ.ମି.",
+"ମିଟର"
+],
+"answer": "ଘନ ସେ.ମି.",
+"explanation": "ଆୟତନ ସର୍ବଦା ଘନ ଏକକରେ ମପାଯାଏ।"
+},
+{
+"questionEnglish": "How many faces does a solid cylinder have?",
+"questionOdia": "ଏକ ସିଲିଣ୍ଡରର କେତୋଟି ପୃଷ୍ଠ ଥାଏ?",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "3",
+"explanation": "ସିଲିଣ୍ଡରର ଦୁଇଟି ସମତଳ ଭୂମି ଏବଂ ଗୋଟିଏ ବକ୍ରପୃଷ୍ଠ ଥାଏ, ମୋଟ 3ଟି ପୃଷ୍ଠ।"
+},
+{
+"questionEnglish": "If height of cone is 3 cm and radius is 4 cm, what is the slant height?",
+"questionOdia": "ଯଦି କୋନ୍‌ର ଉଚ୍ଚତା 3 ସେ.ମି. ଓ ବ୍ୟାସାର୍ଦ୍ଧ 4 ସେ.ମି. ହୁଏ, ତେବେ ସ୍ଲ୍ୟାଣ୍ଟ ହାଇଟ୍ କେତେ?",
+"options": [
+"5 ସେ.ମି.",
+"7 ସେ.ମି.",
+"1 ସେ.ମି.",
+"25 ସେ.ମି."
+],
+"answer": "5 ସେ.ମି.",
+"explanation": "l = √(h² + r²) = √(3² + 4²) = √25 = 5 ସେ.ମି.।"
+},
+{
+"questionEnglish": "What is the volume of a sphere with radius 3 cm?",
+"questionOdia": "3 ସେ.ମି. ବ୍ୟାସାର୍ଦ୍ଧ ଥିବା ଗୋଲକର ଆୟତନ କେତେ?",
+"options": [
+"36π ଘନ ସେ.ମି.",
+"12π ଘନ ସେ.ମି.",
+"9π ଘନ ସେ.ମି.",
+"27π ଘନ ସେ.ମି."
+],
+"answer": "36π ଘନ ସେ.ମି.",
+"explanation": "4/3 πr³ = 4/3 × π × 3³ = 4/3 × π × 27 = 36π ଘନ ସେ.ମି.।"
+},
+{
+"questionEnglish": "If surface area of sphere is 16π, what is its radius?",
+"questionOdia": "ଯଦି ଗୋଲକର ପୃଷ୍ଠତଳ କ୍ଷେତ୍ରଫଳ 16π ହୁଏ, ତେବେ ବ୍ୟାସାର୍ଦ୍ଧ କେତେ?",
+"options": [
+"1",
+"2",
+"4",
+"8"
+],
+"answer": "2",
+"explanation": "4πr² = 16π => r² = 4 => r = 2।"
+},
+{
+"questionEnglish": "Which solid has only one curved surface?",
+"questionOdia": "କେଉଁ ଘନବସ୍ତୁର କେବଳ ଗୋଟିଏ ବକ୍ରପୃଷ୍ଠ ଥାଏ?",
+"options": [
+"ସିଲିଣ୍ଡର",
+"କୋନ୍",
+"ଗୋଲକ",
+"ପ୍ରିଜିମ୍"
+],
+"answer": "ଗୋଲକ",
+"explanation": "ଗୋଲକର କେବଳ ଗୋଟିଏ ବକ୍ରପୃଷ୍ଠ ଥାଏ।"
+},
+{
+"questionEnglish": "What is the base area of a cone with radius 7 cm?",
+"questionOdia": "7 ସେ.ମି. ବ୍ୟାସାର୍ଦ୍ଧ ଥିବା କୋନ୍‌ର ଭୂମିର କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"154 ବର୍ଗ ସେ.ମି.",
+"77 ବର୍ଗ ସେ.ମି.",
+"44 ବର୍ଗ ସେ.ମି.",
+"22 ବର୍ଗ ସେ.ମି."
+],
+"answer": "154 ବର୍ଗ ସେ.ମି.",
+"explanation": "ଭୂମି ବୃତ୍ତାକାର, ତେଣୁ πr² = (22/7) × 7 × 7 = 154 ବର୍ଗ ସେ.ମି.।"
+},
+{
+"questionEnglish": "If a sphere is cut into two equal halves, what are they called?",
+"questionOdia": "ଯଦି ଏକ ଗୋଲକକୁ ଦୁଇଟି ସମାନ ଅର୍ଦ୍ଧଭାଗରେ କଟାଯାଏ, ତେବେ ସେମାନଙ୍କୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ଅର୍ଦ୍ଧଗୋଲକ",
+"ସିଲିଣ୍ଡର",
+"କୋନ୍",
+"ବୃତ୍ତ"
+],
+"answer": "ଅର୍ଦ୍ଧଗୋଲକ",
+"explanation": "ଗୋଲକର ଅଧାକୁ ଅର୍ଦ୍ଧଗୋଲକ (Hemisphere) କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the total surface area of a sphere of radius 1 cm?",
+"questionOdia": "1 ସେ.ମି. ବ୍ୟାସାର୍ଦ୍ଧ ଥିବା ଗୋଲକର ପୃଷ୍ଠତଳ କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"π",
+"2π",
+"4π",
+"8π"
+],
+"answer": "4π",
+"explanation": "4πr² = 4 × π × 1² = 4π।"
+},
+{
+"questionEnglish": "Is a cone a type of pyramid?",
+"questionOdia": "କୋନ୍ କ'ଣ ଏକ ପ୍ରକାର ପିରାମିଡ୍?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଭୂମି ବର୍ଗାକାର ହେଲେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କୋନ୍‌କୁ ଏକ ବୃତ୍ତାକାର ଭୂମି ବିଶିଷ୍ଟ ପିରାମିଡ୍ ଭାବରେ ବିଚାର କରାଯାଇପାରେ।"
+},
+{
+"questionEnglish": "What is the volume of a sphere of radius 1 cm?",
+"questionOdia": "1 ସେ.ମି. ବ୍ୟାସାର୍ଦ୍ଧ ଥିବା ଗୋଲକର ଆୟତନ କେତେ?",
+"options": [
+"4/3 π",
+"2/3 π",
+"1/3 π",
+"π"
+],
+"answer": "4/3 π",
+"explanation": "4/3 πr³ = 4/3 × π × 1³ = 4/3 π।"
+},
+{
+"questionEnglish": "What is the height of a cylinder if volume is 154 and radius is 7?",
+"questionOdia": "ଯଦି ଆୟତନ 154 ଏବଂ ବ୍ୟାସାର୍ଦ୍ଧ 7 ହୁଏ, ତେବେ ସିଲିଣ୍ଡରର ଉଚ୍ଚତା କେତେ?",
+"options": [
+"1",
+"1/π",
+"7",
+"14"
+],
+"answer": "1/π",
+"explanation": "V = πr²h => 154 = π × 49 × h => h = 154/(49π) = 22/(7π) = 1/π (ଯଦି π=22/7)."
+},
+{
+"questionEnglish": "How many curved surfaces does a cone have?",
+"questionOdia": "କୋନ୍‌ର କେତୋଟି ବକ୍ରପୃଷ୍ଠ ଥାଏ?",
+"options": [
+"1",
+"2",
+"3",
+"ଶୂନ୍ୟ"
+],
+"answer": "1",
+"explanation": "କୋନ୍‌ର ଗୋଟିଏ ବକ୍ରପୃଷ୍ଠ ଏବଂ ଗୋଟିଏ ସମତଳ ଭୂମି ଥାଏ।"
+},
+{
+"questionEnglish": "What is the surface area of a hemisphere (excluding base) of radius 7 cm?",
+"questionOdia": "7 ସେ.ମି. ବ୍ୟାସାର୍ଦ୍ଧ ଥିବା ଅର୍ଦ୍ଧଗୋଲକର ବକ୍ରପୃଷ୍ଠ କ୍ଷେତ୍ରଫଳ (ଭୂମିକୁ ବାଦ ଦେଇ) କେତେ?",
+"options": [
+"308 ବର୍ଗ ସେ.ମି.",
+"154 ବର୍ଗ ସେ.ମି.",
+"77 ବର୍ଗ ସେ.ମି.",
+"462 ବର୍ଗ ସେ.ମି."
+],
+"answer": "308 ବର୍ଗ ସେ.ମି.",
+"explanation": "ବକ୍ରପୃଷ୍ଠ = 2πr² = 2 × (22/7) × 7 × 7 = 308 ବର୍ଗ ସେ.ମି.।"
+},
+{
+"questionEnglish": "Which solid has a vertex at the top?",
+"questionOdia": "କେଉଁ ଘନବସ୍ତୁର ଶୀର୍ଷରେ ଗୋଟିଏ ବିନ୍ଦୁ ଥାଏ?",
+"options": [
+"ସିଲିଣ୍ଡର",
+"କୋନ୍",
+"ଗୋଲକ",
+"କ୍ୟୁବ୍"
+],
+"answer": "କୋନ୍",
+"explanation": "କୋନ୍‌ର ଶୀର୍ଷରେ ଗୋଟିଏ ବିନ୍ଦୁ ଥାଏ।"
+},
+{
+"questionEnglish": "What is the ratio of the volume of a cone to the volume of a cylinder with same base and height?",
+"questionOdia": "ସମାନ ଭୂମି ଓ ଉଚ୍ଚତା ବିଶିଷ୍ଟ କୋନ୍ ଓ ସିଲିଣ୍ଡରର ଆୟତନର ଅନୁପାତ କ'ଣ?",
+"options": [
+"1:1",
+"1:2",
+"1:3",
+"3:1"
+],
+"answer": "1:3",
+"explanation": "କୋନ୍‌ର ଆୟତନ (1/3 πr²h) ଓ ସିଲିଣ୍ଡରର ଆୟତନ (πr²h) ର ଅନୁପାତ 1:3।"
+},
+{
+"questionEnglish": "What is the total surface area of a hemisphere with radius 7 cm?",
+"questionOdia": "7 ସେ.ମି. ବ୍ୟାସାର୍ଦ୍ଧ ଥିବା ଅର୍ଦ୍ଧଗୋଲକର ମୋଟ ପୃଷ୍ଠତଳ କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"308 ବର୍ଗ ସେ.ମି.",
+"154 ବର୍ଗ ସେ.ମି.",
+"462 ବର୍ଗ ସେ.ମି.",
+"616 ବର୍ଗ ସେ.ମି."
+],
+"answer": "462 ବର୍ଗ ସେ.ମି.",
+"explanation": "3πr² = 3 × (22/7) × 7 × 7 = 462 ବର୍ଗ ସେ.ମି.।"
+},
+{
+"questionEnglish": "Can a sphere be considered as a solid of revolution?",
+"questionOdia": "ଗୋଲକକୁ ଏକ ଘୂର୍ଣ୍ଣନଜ ଘନବସ୍ତୁ ଭାବରେ ବିଚାର କରାଯାଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଅର୍ଦ୍ଧଗୋଲକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଏକ ବୃତ୍ତକୁ ତା'ର ବ୍ୟାସ ଚାରିପଟେ ଘୂରାଇଲେ ଗୋଲକ ସୃଷ୍ଟି ହୁଏ।"
+},
+{
+"questionEnglish": "What is the volume of a cylinder of radius 1 cm and height 1 cm?",
+"questionOdia": "1 ସେ.ମି. ବ୍ୟାସାର୍ଦ୍ଧ ଓ 1 ସେ.ମି. ଉଚ୍ଚତା ଥିବା ସିଲିଣ୍ଡରର ଆୟତନ କେତେ?",
+"options": [
+"π",
+"2π",
+"π/2",
+"1"
+],
+"answer": "π",
+"explanation": "πr²h = π × 1² × 1 = π।"
+},
+{
+"questionEnglish": "If r=h for a cylinder, what is the ratio of its curved area to its volume?",
+"questionOdia": "ଯଦି ସିଲିଣ୍ଡର ପାଇଁ r=h ହୁଏ, ତେବେ ବକ୍ରପୃଷ୍ଠ କ୍ଷେତ୍ରଫଳ ଓ ଆୟତନର ଅନୁପାତ କ'ଣ?",
+"options": [
+"1:r",
+"2:r",
+"r:2",
+"1:2"
+],
+"answer": "2:r",
+"explanation": "ବକ୍ରପୃଷ୍ଠ/ଆୟତନ = 2πrh / πr²h = 2/r।"
+}
+]
+
