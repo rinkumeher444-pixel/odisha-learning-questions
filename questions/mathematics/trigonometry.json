@@ -1,123 +1,494 @@
 [
-  {
-    "questionEnglish": "What is the pH value of a neutral solution?",
-    "questionOdia": "ଏକ ପ୍ରଶମିତ ଦ୍ରବଣର pH ମୂଲ୍ୟ କେତେ?",
-    "options": [
-      "7",
-      "0",
-      "14",
-      "less than 7"
-    ],
-    "answer": "7",
-    "explanation": "A neutral solution like pure water has a pH value of exactly 7. Values below 7 are acidic, and above 7 are basic."
-  },
-  {
-    "questionEnglish": "Which gas is evolved when an acid reacts with a metal?",
-    "questionOdia": "ଅମ୍ଳ ଏକ ଧାତୁ ସହିତ ପ୍ରତିକ୍ରିୟା କଲେ କେଉଁ ଗ୍ୟାସ୍ ନିର୍ଗତ ହୁଏ?",
-    "options": [
-      "Hydrogen",
-      "Carbon dioxide",
-      "Oxygen",
-      "Nitrogen"
-    ],
-    "answer": "Hydrogen",
-    "explanation": "Acids react with active metals to produce salt and hydrogen gas (e.g., Zn + 2HCl -> ZnCl2 + H2)."
-  },
-  {
-    "questionEnglish": "What is the chemical name of baking soda?",
-    "questionOdia": "ଖାଇବା ସୋଡାର ରାସାୟନିକ ନାମ କଣ?",
-    "options": [
-      "Sodium hydrogen carbonate",
-      "Sodium carbonate",
-      "Calcium carbonate",
-      "Sodium chloride"
-    ],
-    "answer": "Sodium hydrogen carbonate",
-    "explanation": "Baking soda is chemically known as Sodium hydrogen carbonate or Sodium bicarbonate, and its formula is NaHCO3."
-  },
-  {
-    "questionEnglish": "Which of the following acids is present in sour milk or curd?",
-    "questionOdia": "ଖଟା କ୍ଷୀର ବା ଦହିରେ ନିମ୍ନଲିଖିତ ମଧୁରୁ କେଉଁ ଅମ୍ଳ ଥାଏ?",
-    "options": [
-      "Lactic acid",
-      "Citric acid",
-      "Tartaric acid",
-      "Oxalic acid"
-    ],
-    "answer": "Lactic acid",
-    "explanation": "Lactic acid is produced in curd due to the fermentation of lactose sugar by Lactobacillus bacteria."
-  },
-  {
-    "questionEnglish": "What turns blue litmus paper to red?",
-    "questionOdia": "ନୀଳ ଲିଟମସ କାଗଜକୁ କିଏ ଲାଲ୍ ରଙ୍ଗରେ ପରିଣତ କରେ?",
-    "options": [
-      "Acid",
-      "Base",
-      "Salt",
-      "Water"
-    ],
-    "answer": "Acid",
-    "explanation": "Acids turn blue litmus paper red, whereas bases turn red litmus paper blue."
-  },
-  {
-    "questionEnglish": "What is the chemical formula of Plaster of Paris?",
-    "questionOdia": "ପ୍ଲାଷ୍ଟର ଅଫ୍ ପ୍ୟାରିସର ରାସାୟନିକ ସଙ୍କେତ କଣ?",
-    "options": [
-      "CaSO4 . 1/2 H2O",
-      "CaSO4 . 2H2O",
-      "CuSO4 . 5H2O",
-      "Na2CO3 . 10H2O"
-    ],
-    "answer": "CaSO4 . 1/2 H2O",
-    "explanation": "Plaster of Paris is calcium sulphate hemihydrate, meaning it has half a molecule of water of crystallization."
-  },
-  {
-    "questionEnglish": "Which substance is used for disinfecting drinking water to make it free of germs?",
-    "questionOdia": "ପାନୀୟ ଜଳକୁ ଜୀବାଣୁ ମୁକ୍ତ କରିବା ପାଇଁ କେଉଁ ପଦାର୍ଥ ବ୍ୟବହାର କରାଯାଏ?",
-    "options": [
-      "Bleaching powder",
-      "Baking soda",
-      "Washing soda",
-      "Gypsum"
-    ],
-    "answer": "Bleaching powder",
-    "explanation": "Bleaching powder (CaOCl2) releases chlorine gas, which acts as a powerful disinfectant to kill germs in water."
-  },
-  {
-    "questionEnglish": "What is the reaction between an acid and a base called?",
-    "questionOdia": "ଅମ୍ଳ ଏବଂ କ୍ଷାରକ ମଧ୍ୟରେ ହେଉଥିବା ପ୍ରତିକ୍ରିୟାକୁ କଣ କୁହାଯାଏ?",
-    "options": [
-      "Neutralization reaction",
-      "Combination reaction",
-      "Displacement reaction",
-      "Redox reaction"
-    ],
-    "answer": "Neutralization reaction",
-    "explanation": "The reaction between an acid and a base forms salt and water, and it is known as a neutralization reaction."
-  },
-  {
-    "questionEnglish": "What is the nature of non-metallic oxides?",
-    "questionOdia": "ଅଧାତବ ଅକ୍ସାଇଡଗୁଡ଼ିକର ପ୍ରକୃତି କିପରି ହୋଇଥାଏ?",
-    "options": [
-      "Acidic",
-      "Basic",
-      "Neutral",
-      "Amphoteric"
-    ],
-    "answer": "Acidic",
-    "explanation": "Non-metallic oxides (like CO2, SO2) are acidic in nature because they react with water to form acids."
-  },
-  {
-    "questionEnglish": "Our stomach produces which acid that helps in digestion without harming the stomach?",
-    "questionOdia": "ଆମ ପାକସ୍ଥଳୀ କେଉଁ ଅମ୍ଳ ପ୍ରସ୍ତୁତ କରେ ଯାହା ହଜମ ପ୍ରକ୍ରିୟାରେ ସାହାଯ୍ୟ କରିଥାଏ?",
-    "options": [
-      "Hydrochloric acid",
-      "Sulphuric acid",
-      "Nitric acid",
-      "Acetic acid"
-    ],
-    "answer": "Hydrochloric acid",
-    "explanation": "The gastric glands in our stomach release Hydrochloric acid (HCl), which creates an acidic medium needed for the enzyme pepsin to digest protein."
-  }
+{
+"questionEnglish": "According to the principles of trigonometry, what is the value of sin 0° and how is it defined in relation to cos 0°?",
+"questionOdia": "ତ୍ରିକୋଣମିତିର ନିୟମ ଅନୁଯାୟୀ, sin 0° ର ମୂଲ୍ୟ କେତେ ଏବଂ ଏହା cos 0° ସହିତ କିପରି ସମ୍ପର୍କିତ?",
+"options": [
+"0, sin 0°/cos 0° = 0",
+"1, sin 0°/cos 0° = 1",
+"ଅର୍ଥହୀନ, କୌଣସି ସମ୍ପର୍କ ନାହିଁ",
+"0, sin 0° + cos 0° = 0"
+],
+"answer": "0, sin 0°/cos 0° = 0",
+"explanation": "ସଂଜ୍ଞା ଅନୁସାରେ sin 0° ର ମୂଲ୍ୟ 0 ଏବଂ tan 0° = sin 0°/cos 0° = 0/1 = 0 ଅଟେ।"
+},
+{
+"questionEnglish": "In a right-angled triangle, if the angle is 90 degrees, what happens to the value of tan 90°?",
+"questionOdia": "ଏକ ସମକୋଣୀ ତ୍ରିଭୁଜରେ, ଯଦି କୋଣର ପରିମାଣ 90 ଡିଗ୍ରୀ ହୁଏ, ତେବେ tan 90° ର ମୂଲ୍ୟ କ'ଣ ହେବ?",
+"options": [
+"0",
+"1",
+"ଅର୍ଥହୀନ (ସଂଜ୍ଞା ନାହିଁ)",
+"-1"
+],
+"answer": "ଅର୍ଥହୀନ (ସଂଜ୍ଞା ନାହିଁ)",
+"explanation": "tan 90° ର ମୂଲ୍ୟ ହେଉଛି sin 90°/cos 90° ଅର୍ଥାତ୍ 1/0, ଯାହାକି ଗଣିତରେ ଅର୍ଥହୀନ ବା ସଂଜ୍ଞାବିହୀନ ଅଟେ।"
+},
+{
+"questionEnglish": "Which of the following expressions correctly represents the relationship for complementary angles in the case of the sine function?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ସାଇନ୍ ଫଲନ ପାଇଁ ଅନୁପୂରକ କୋଣର ସମ୍ପର୍କକୁ ସଠିକ୍ ଭାବରେ ଦର୍ଶାଏ?",
+"options": [
+"sin(90° - θ) = sin θ",
+"sin(90° - θ) = cos θ",
+"sin(90° - θ) = -cos θ",
+"sin(90° - θ) = 1/sin θ"
+],
+"answer": "sin(90° - θ) = cos θ",
+"explanation": "ଏକ ସମକୋଣୀ ତ୍ରିଭୁଜରେ ଅନୁପୂରକ କୋଣଗୁଡ଼ିକ ପାଇଁ sin(90° - θ) ସର୍ବଦା cos θ ସହ ସମାନ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "If an angle θ is an acute angle, what is the equivalent value of sec(90° - θ)?",
+"questionOdia": "ଯଦି ଏକ କୋଣ θ ଏକ ସୂକ୍ଷ୍ମକୋଣ ହୁଏ, ତେବେ sec(90° - θ) ର ସମାନ ମୂଲ୍ୟ କ'ଣ ହେବ?",
+"options": [
+"sin θ",
+"cos θ",
+"cosec θ",
+"cot θ"
+],
+"answer": "cosec θ",
+"explanation": "ଅନୁପୂରକ କୋଣ ସୂତ୍ର ଅନୁଯାୟୀ, sec(90° - θ) = cosec θ ଅଟେ।"
+},
+{
+"questionEnglish": "In the Cartesian coordinate system, if point P(x, y) lies in the second quadrant, what is the sign of the x and y coordinates?",
+"questionOdia": "କାର୍ଟେଜୀୟ ସମତଳରେ, ଯଦି ବିନ୍ଦୁ P(x, y) ଦ୍ୱିତୀୟ ପାଦରେ ଅବସ୍ଥିତ ଥାଏ, ତେବେ x ଏବଂ y ସ୍ଥାନାଙ୍କର ଚିହ୍ନ କ'ଣ ହେବ?",
+"options": [
+"ଉଭୟ ଧନାତ୍ମକ",
+"ଉଭୟ ଋଣାତ୍ମକ",
+"x ଋଣାତ୍ମକ, y ଧନାତ୍ମକ",
+"x ଧନାତ୍ମକ, y ଋଣାତ୍ମକ"
+],
+"answer": "x ଋଣାତ୍ମକ, y ଧନାତ୍ମକ",
+"explanation": "ଦ୍ୱିତୀୟ ପାଦରେ ଅବସ୍ଥିତ ବିନ୍ଦୁ ପାଇଁ ଭୁଜ (x) ଋଣାତ୍ମକ ଏବଂ କୋଟି (y) ଧନାତ୍ମକ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Based on the trigonometric ratios for obtuse angles, what is the result of cos θ when θ is between 90° and 180°?",
+"questionOdia": "ସ୍ଥୂଳକୋଣଗୁଡ଼ିକର ତ୍ରିକୋଣମିତିକ ଅନୁପାତ ଉପରେ ଭିତ୍ତି କରି, ଯେତେବେଳେ θ ର ମାନ 90° ରୁ 180° ମଧ୍ୟରେ ଥାଏ ସେତେବେଳେ cos θ ର ମୂଲ୍ୟ କିପରି ହେବ?",
+"options": [
+"ସର୍ବଦା ଧନାତ୍ମକ",
+"ସର୍ବଦା ଋଣାତ୍ମକ",
+"ଶୂନ୍ୟ",
+"ଅର୍ଥହୀନ"
+],
+"answer": "ସର୍ବଦା ଋଣାତ୍ମକ",
+"explanation": "ଦ୍ୱିତୀୟ ପାଦରେ x ଋଣାତ୍ମକ ହୋଇଥିବାରୁ, cos θ = x/r ସର୍ବଦା ଋଣାତ୍ମକ ଅଟେ।"
+},
+{
+"questionEnglish": "What is the defined value of sin 180° and cos 180° respectively?",
+"questionOdia": "sin 180° ଏବଂ cos 180° ର ଯଥାକ୍ରମେ ନିର୍ଦ୍ଦିଷ୍ଟ ମୂଲ୍ୟ କେତେ?",
+"options": [
+"1 ଏବଂ 0",
+"0 ଏବଂ 1",
+"0 ଏବଂ -1",
+"-1 ଏବଂ 0"
+],
+"answer": "0 ଏବଂ -1",
+"explanation": "ସାରଣୀ ଅନୁସାରେ sin 180° ର ମୂଲ୍ୟ 0 ଏବଂ cos 180° ର ମୂଲ୍ୟ -1 ଅଟେ।"
+},
+{
+"questionEnglish": "Which trigonometric identity correctly defines the relation for supplementary angles with respect to tan?",
+"questionOdia": "tan କ୍ଷେତ୍ରରେ ପରିପୂରକ କୋଣ ସମ୍ପର୍କକୁ କେଉଁ ତ୍ରିକୋଣମିତିକ ସୂତ୍ର ସଠିକ୍ ଭାବରେ ଦର୍ଶାଏ?",
+"options": [
+"tan(180° - θ) = tan θ",
+"tan(180° - θ) = -tan θ",
+"tan(180° - θ) = cot θ",
+"tan(180° - θ) = -cot θ"
+],
+"answer": "tan(180° - θ) = -tan θ",
+"explanation": "ଦ୍ୱିତୀୟ ପାଦରେ tan ର ମୂଲ୍ୟ ଋଣାତ୍ମକ ହୋଇଥାଏ, ତେଣୁ tan(180° - θ) = -tan θ।"
+},
+{
+"questionEnglish": "Evaluate the expression: sin(180° - θ) when θ is an acute angle.",
+"questionOdia": "ମୂଲ୍ୟାଙ୍କନ କର: ଯଦି θ ଏକ ସୂକ୍ଷ୍ମକୋଣ, ତେବେ sin(180° - θ) କ'ଣ ହେବ?",
+"options": [
+"cos θ",
+"-sin θ",
+"sin θ",
+"-cos θ"
+],
+"answer": "sin θ",
+"explanation": "ସୂତ୍ର ଅନୁଯାୟୀ, ଦ୍ୱିତୀୟ ପାଦରେ ସାଇନ୍ ଧନାତ୍ମକ ଥାଏ, ଅର୍ଥାତ୍ sin(180° - θ) = sin θ।"
+},
+{
+"questionEnglish": "For an acute angle θ, what does cos(90° + θ) equal to?",
+"questionOdia": "ଏକ ସୂକ୍ଷ୍ମକୋଣ θ ପାଇଁ, cos(90° + θ) କାହା ସହ ସମାନ?",
+"options": [
+"sin θ",
+"-sin θ",
+"cos θ",
+"-cos θ"
+],
+"answer": "-sin θ",
+"explanation": "cos(90° + θ) = cos(180° - (90° - θ)) = -cos(90° - θ) = -sin θ।"
+},
+{
+"questionEnglish": "Calculate the value of sin 120° using known trigonometric ratios.",
+"questionOdia": "ଜଣାଥିବା ତ୍ରିକୋଣମିତିକ ଅନୁପାତ ବ୍ୟବହାର କରି sin 120° ର ମୂଲ୍ୟ ନିର୍ଣ୍ଣୟ କର।",
+"options": [
+"1/2",
+"1/√2",
+"√3/2",
+"-√3/2"
+],
+"answer": "√3/2",
+"explanation": "sin 120° = sin(180° - 60°) = sin 60° = √3/2।"
+},
+{
+"questionEnglish": "Find the exact value of tan 135° based on supplementary angles.",
+"questionOdia": "ପରିପୂରକ କୋଣ ଆଧାରରେ tan 135° ର ପ୍ରକୃତ ମୂଲ୍ୟ ଖୋଜ।",
+"options": [
+"1",
+"-1",
+"√3",
+"-√3"
+],
+"answer": "-1",
+"explanation": "tan 135° = tan(180° - 45°) = -tan 45° = -1।"
+},
+{
+"questionEnglish": "What is the value of cos 150°?",
+"questionOdia": "cos 150° ର ମୂଲ୍ୟ କେତେ?",
+"options": [
+"-1/2",
+"-√3/2",
+"1/2",
+"√3/2"
+],
+"answer": "-√3/2",
+"explanation": "cos 150° = cos(180° - 30°) = -cos 30° = -√3/2।"
+},
+{
+"questionEnglish": "Simplify the expression: cos(90° + A) + sin(180° - A).",
+"questionOdia": "ସରଳ କର: cos(90° + A) + sin(180° - A)।",
+"options": [
+"0",
+"2 sin A",
+"2 cos A",
+"-2 sin A"
+],
+"answer": "0",
+"explanation": "cos(90° + A) = -sin A ଏବଂ sin(180° - A) = sin A। ତେଣୁ -sin A + sin A = 0।"
+},
+{
+"questionEnglish": "What is the formula for the expansion of sin(A + B)?",
+"questionOdia": "sin(A + B) ର ବିସ୍ତାର ପାଇଁ ସୂତ୍ରଟି କ'ଣ?",
+"options": [
+"sin A cos B - cos A sin B",
+"sin A cos B + cos A sin B",
+"cos A cos B - sin A sin B",
+"cos A cos B + sin A sin B"
+],
+"answer": "sin A cos B + cos A sin B",
+"explanation": "ଯୌଗିକ କୋଣ ସୂତ୍ର ଅନୁଯାୟୀ, sin(A + B) = sin A . cos B + cos A . sin B ଅଟେ।"
+},
+{
+"questionEnglish": "Identify the correct expansion for cos(A - B).",
+"questionOdia": "cos(A - B) ପାଇଁ ସଠିକ୍ ବିସ୍ତାର ସୂତ୍ର ଚିହ୍ନଟ କର।",
+"options": [
+"cos A cos B + sin A sin B",
+"cos A cos B - sin A sin B",
+"sin A cos B - cos A sin B",
+"sin A cos B + cos A sin B"
+],
+"answer": "cos A cos B + sin A sin B",
+"explanation": "ସୂତ୍ର ଅନୁସାରେ cos(A - B) = cos A . cos B + sin A . sin B।"
+},
+{
+"questionEnglish": "How is tan(A + B) expressed in terms of tan A and tan B?",
+"questionOdia": "tan(A + B) କୁ tan A ଏବଂ tan B ମାଧ୍ୟମରେ କିପରି ପ୍ରକାଶ କରାଯାଏ?",
+"options": [
+"(tan A + tan B) / (1 - tan A tan B)",
+"(tan A - tan B) / (1 + tan A tan B)",
+"(tan A + tan B) / (1 + tan A tan B)",
+"(tan A - tan B) / (1 - tan A tan B)"
+],
+"answer": "(tan A + tan B) / (1 - tan A tan B)",
+"explanation": "ଯୌଗିକ କୋଣଗୁଡ଼ିକ ପାଇଁ tan(A + B) ର ପ୍ରମାଣିତ ସୂତ୍ର ହେଉଛି (tan A + tan B) / (1 - tan A tan B)।"
+},
+{
+"questionEnglish": "What does cot(A - B) equate to according to trigonometric identities?",
+"questionOdia": "ତ୍ରିକୋଣମିତିକ ସୂତ୍ର ଅନୁଯାୟୀ cot(A - B) ର ମୂଲ୍ୟ କ'ଣ ଅଟେ?",
+"options": [
+"(cot A cot B + 1) / (cot B - cot A)",
+"(cot A cot B - 1) / (cot B + cot A)",
+"(cot A cot B + 1) / (cot A - cot B)",
+"(cot A cot B - 1) / (cot A + cot B)"
+],
+"answer": "(cot A cot B + 1) / (cot B - cot A)",
+"explanation": "ସୂତ୍ର ଅନୁଯାୟୀ cot(A - B) = (cot A . cot B + 1) / (cot B - cot A) ପ୍ରମାଣିତ ହୋଇଛି।"
+},
+{
+"questionEnglish": "In a right-angled triangle, if angles A and B are acute and sin A = cos B, what is the value of A + B?",
+"questionOdia": "ଏକ ସମକୋଣୀ ତ୍ରିଭୁଜରେ, ଯଦି A ଓ B ପ୍ରତ୍ୟେକ ସୂକ୍ଷ୍ମକୋଣ ଏବଂ sin A = cos B ହୁଏ, ତେବେ A + B ର ମୂଲ୍ୟ କେତେ?",
+"options": [
+"45°",
+"90°",
+"180°",
+"60°"
+],
+"answer": "90°",
+"explanation": "sin A = cos B ଅର୍ଥାତ୍ sin A = sin(90° - B), ଯାହାଦ୍ୱାରା A = 90° - B ଏବଂ A + B = 90° ହୁଏ।"
+},
+{
+"questionEnglish": "Evaluate sin 15° using the compound angle formula.",
+"questionOdia": "ଯୌଗିକ କୋଣ ସୂତ୍ର ବ୍ୟବହାର କରି sin 15° ର ମୂଲ୍ୟ ନିର୍ଣ୍ଣୟ କର।",
+"options": [
+"(√3 - 1)/2√2",
+"(√3 + 1)/2√2",
+"(√3 - 1)/2",
+"√3/2√2"
+],
+"answer": "(√3 - 1)/2√2",
+"explanation": "sin 15° = sin(45° - 30°) = sin 45° cos 30° - cos 45° sin 30° = (1/√2)(√3/2) - (1/√2)(1/2) = (√3 - 1)/2√2।"
+},
+{
+"questionEnglish": "Evaluate tan 105° using the formula for tan(A + B).",
+"questionOdia": "tan(A + B) ସୂତ୍ର ବ୍ୟବହାର କରି tan 105° ର ମୂଲ୍ୟ ବାହାର କର।",
+"options": [
+"2 - √3",
+"-2 - √3",
+"2 + √3",
+"-2 + √3"
+],
+"answer": "-2 - √3",
+"explanation": "tan 105° = tan(60° + 45°) = (tan 60° + tan 45°) / (1 - tan 60° tan 45°) = (√3 + 1) / (1 - √3) ଯାହା ସରଳ କଲେ -2 - √3 ହୁଏ।"
+},
+{
+"questionEnglish": "What does the expression 2 sin A . cos B equal to?",
+"questionOdia": "2 sin A . cos B କାହା ସହିତ ସମାନ ଅଟେ?",
+"options": [
+"sin(A + B) - sin(A - B)",
+"sin(A + B) + sin(A - B)",
+"cos(A + B) + cos(A - B)",
+"cos(A - B) - cos(A + B)"
+],
+"answer": "sin(A + B) + sin(A - B)",
+"explanation": "ସୂତ୍ର ପ୍ରମାଣରୁ ଜଣାପଡେ ଯେ sin(A + B) + sin(A - B) କୁ ଯୋଗ କଲେ 2 sin A . cos B ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "Which of the following is equivalent to cos(A - B) - cos(A + B)?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି cos(A - B) - cos(A + B) ସହିତ ସମାନ?",
+"options": [
+"2 sin A . sin B",
+"2 cos A . cos B",
+"2 sin A . cos B",
+"2 cos A . sin B"
+],
+"answer": "2 sin A . sin B",
+"explanation": "cos(A - B) ରୁ cos(A + B) ବିୟୋଗ କଲେ ମୂଲ୍ୟ 2 sin A . sin B ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the Angle of Elevation in practical applications of heights and distances?",
+"questionOdia": "ଉଚ୍ଚତା ଏବଂ ଦୂରତା ନିର୍ଣ୍ଣୟର ପ୍ରୟୋଗାତ୍ମକ ବ୍ୟବହାରରେ ଉନ୍ନତି କୋଣ (Angle of Elevation) କ'ଣ?",
+"options": [
+"ଦୃଷ୍ଟିରେଖା ଏବଂ ଭୂସମାନ୍ତର ରେଖା ମଧ୍ୟରେ କୋଣ ଯେତେବେଳେ ବସ୍ତୁଟି ଆଖିର ତଳେ ଥାଏ",
+"ଦୃଷ୍ଟିରେଖା ଏବଂ ଭୂସମାନ୍ତର ରେଖା ମଧ୍ୟରେ କୋଣ ଯେତେବେଳେ ବସ୍ତୁଟି ଆଖିର ଉପରେ ଥାଏ",
+"କେବଳ ଦୁଇଟି ଉଲମ୍ବ ରେଖା ମଧ୍ୟରେ କୋଣ",
+"ଏକ ବସ୍ତୁ ଏବଂ ସୂର୍ଯ୍ୟଙ୍କ ମଧ୍ୟରେ ଥିବା କୋଣ"
+],
+"answer": "ଦୃଷ୍ଟିରେଖା ଏବଂ ଭୂସମାନ୍ତର ରେଖା ମଧ୍ୟରେ କୋଣ ଯେତେବେଳେ ବସ୍ତୁଟି ଆଖିର ଉପରେ ଥାଏ",
+"explanation": "ଯେତେବେଳେ ଦର୍ଶକ ଉପର ଆଡକୁ ଚାହାନ୍ତି, ସେତେବେଳେ ଦୃଷ୍ଟିରେଖା ଏବଂ ସମାନ୍ତର ଦୃଷ୍ଟି ରେଖା ମଧ୍ୟରେ ସୃଷ୍ଟି ହେଉଥିବା କୋଣକୁ ଉନ୍ନତି କୋଣ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Define the Angle of Depression as used in measuring tall structures.",
+"questionOdia": "ଉଚ୍ଚ ସଂରଚନା ମାପିବା ପାଇଁ ବ୍ୟବହୃତ ଅବନତି କୋଣ (Angle of Depression) ର ସଂଜ୍ଞା ଦିଅ।",
+"options": [
+"ଯେତେବେଳେ ପର୍ଯ୍ୟବେକ୍ଷକ ତଳକୁ ଅନାଇଥାଏ, ଦୃଷ୍ଟିରେଖା ଏବଂ ଭୂସମାନ୍ତର ରେଖା ଦ୍ଵାରା ସୃଷ୍ଟ କୋଣ",
+"ଯେତେବେଳେ ପର୍ଯ୍ୟବେକ୍ଷକ ଉପରକୁ ଅନାଇଥାଏ ସୃଷ୍ଟି ହେଉଥିବା କୋଣ",
+"ମୂଳବିନ୍ଦୁ ଠାରୁ କୌଣସି ବିନ୍ଦୁର କୋଣ",
+"ସ୍ଥୂଳକୋଣ ଯାହା 180° ରୁ କମ"
+],
+"answer": "ଯେତେବେଳେ ପର୍ଯ୍ୟବେକ୍ଷକ ତଳକୁ ଅନାଇଥାଏ, ଦୃଷ୍ଟିରେଖା ଏବଂ ଭୂସମାନ୍ତର ରେଖା ଦ୍ଵାରା ସୃଷ୍ଟ କୋଣ",
+"explanation": "ଦର୍ଶକ ଉପରୁ ତଳ ଆଡକୁ ଚାହିଁଲେ ସମାନ୍ତର ରେଖା ଓ ଦୃଷ୍ଟିରେଖା ମଧ୍ୟରେ ଥିବା କୋଣକୁ ଅବନତି କୋଣ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "An observer 75m away from a tower sees its top at a 30° angle of elevation. What is the height of the tower? (Take √3 ≈ 1.732)",
+"questionOdia": "ଗୋଟିଏ ସ୍ତମ୍ଭଠାରୁ 75 ମିଟର ଦୂରରେ ଥିବା ଜଣେ ପର୍ଯ୍ୟବେକ୍ଷକ ସ୍ତମ୍ଭର ଶୀର୍ଷକୁ 30° ଉନ୍ନତି କୋଣରେ ଦେଖନ୍ତି। ସ୍ତମ୍ଭର ଉଚ୍ଚତା କେତେ? (√3 ≈ 1.732 ନିଅ)",
+"options": [
+"25 ମିଟର",
+"43.3 ମିଟର",
+"51.96 ମିଟର",
+"75 ମିଟର"
+],
+"answer": "43.3 ମିଟର",
+"explanation": "ଉଚ୍ଚତା h = 75 * tan 30° = 75 * (1/√3) = 25√3 = 25 * 1.732 = 43.3 ମିଟର।"
+},
+{
+"questionEnglish": "From the top of a 30m high post, a boat on the water is seen at an angle of depression of 30°. What is the distance of the boat from the base of the post?",
+"questionOdia": "ଏକ 30 ମିଟର ଉଚ୍ଚ ଖୁଣ୍ଟର ଶୀର୍ଷରୁ ଜଳପୃଷ୍ଠରେ ଥିବା ଗୋଟିଏ ଡଙ୍ଗାର ଅବନତି କୋଣ 30°। ଖୁଣ୍ଟର ମୂଳଦେଶରୁ ଡଙ୍ଗାଟିର ଦୂରତା କେତେ?",
+"options": [
+"10√3 ମିଟର",
+"30√3 ମିଟର",
+"15 ମିଟର",
+"30 ମିଟର"
+],
+"answer": "30√3 ମିଟର",
+"explanation": "ଦୂରତା d = 30 / tan 30° = 30 * √3 = 30√3 ମିଟର।"
+},
+{
+"questionEnglish": "Find the value of tan 1° . tan 2° . tan 3° ... tan 89°.",
+"questionOdia": "tan 1° . tan 2° . tan 3° ... tan 89° ର ମୂଲ୍ୟ ନିର୍ଣ୍ଣୟ କର।",
+"options": [
+"0",
+"1",
+"-1",
+"ଅସୀମ"
+],
+"answer": "1",
+"explanation": "tan(90° - θ) = cot θ ବ୍ୟବହାର କରି ପଦଗୁଡ଼ିକୁ ଯୋଡ଼ିଲେ ଯଥା (tan 1° * cot 1°) ଇତ୍ୟାଦି ମିଳିବ। ସମସ୍ତ ଗୁଣଫଳ 1 ହେବ।"
+},
+{
+"questionEnglish": "If in triangle ABC, what is the value of sin((B+C)/2)?",
+"questionOdia": "ତ୍ରିଭୁଜ ABC ରେ, sin((B+C)/2) ର ମୂଲ୍ୟ କାହା ସହ ସମାନ ହେବ?",
+"options": [
+"sin(A/2)",
+"cos(A/2)",
+"tan(A/2)",
+"cot(A/2)"
+],
+"answer": "cos(A/2)",
+"explanation": "A + B + C = 180° ହେତୁ (B + C)/2 = 90° - A/2 । ତେଣୁ sin(90° - A/2) = cos(A/2)।"
+},
+{
+"questionEnglish": "What is the value of (cos 30° + sin 60°) / (1 + cos 60° + sin 30°)?",
+"questionOdia": "(cos 30° + sin 60°) / (1 + cos 60° + sin 30°) ର ମାନ କେତେ ହେବ?",
+"options": [
+"1",
+"√3/2",
+"1/2",
+"√3"
+],
+"answer": "√3/2",
+"explanation": "ମୂଲ୍ୟ ସ୍ଥାପନ କଲେ: (√3/2 + √3/2) / (1 + 1/2 + 1/2) = (2√3/2) / 2 = √3/2।"
+},
+{
+"questionEnglish": "Simplify: sin(180° - A) . cos(90° + A) + sin(90° + A) . cos(180° - A).",
+"questionOdia": "ସରଳ କର: sin(180° - A) . cos(90° + A) + sin(90° + A) . cos(180° - A)।",
+"options": [
+"-1",
+"0",
+"1",
+"sin 2A"
+],
+"answer": "-1",
+"explanation": "(sin A)(-sin A) + (cos A)(-cos A) = -sin²A - cos²A = -(sin²A + cos²A) = -1।"
+},
+{
+"questionEnglish": "If A + B + C = 180°, then tan A + tan B + tan C is equal to:",
+"questionOdia": "ଯଦି A + B + C = 180° ହୁଏ, ତେବେ tan A + tan B + tan C କାହା ସହିତ ସମାନ?",
+"options": [
+"1",
+"0",
+"tan A . tan B . tan C",
+"-tan A . tan B . tan C"
+],
+"answer": "tan A . tan B . tan C",
+"explanation": "A + B = 180° - C, ଅତଏବ tan(A+B) = -tan C କୁ ସମାଧାନ କଲେ ଏହି ସମ୍ପର୍କ ପ୍ରମାଣିତ ହୁଏ।"
+},
+{
+"questionEnglish": "Evaluate cos 121° + sin 149° (convert to a known base if necessary, or evaluate logical sum given properties). Wait, look at the options.",
+"questionOdia": "ମୂଲ୍ୟାଙ୍କନ କର: cos 121° + sin 149° ର ସଠିକ୍ ପରିପ୍ରକାଶ ଅନୁଶୀଳନୀରେ କ'ଣ ସୂଚିତ?",
+"options": [
+"1",
+"-1",
+"0",
+"±1"
+],
+"answer": "0",
+"explanation": "cos 121° = cos(90° + 31°) = -sin 31° ଏବଂ sin 149° = sin(180° - 31°) = sin 31°। ଦୁଇଟିର ଯୋଗଫଳ 0 ହେବ।"
+},
+{
+"questionEnglish": "What does tan(A - B) simplify to?",
+"questionOdia": "tan(A - B) ର ସରଳୀକୃତ ସୂତ୍ରଟି କ'ଣ?",
+"options": [
+"(tan A + tan B)/(1 - tan A tan B)",
+"(tan A - tan B)/(1 + tan A tan B)",
+"(cot B - cot A)/(cot A cot B + 1)",
+"(tan B - tan A)/(1 + tan A tan B)"
+],
+"answer": "(tan A - tan B)/(1 + tan A tan B)",
+"explanation": "ଯୌଗିକ କୋଣ ସୂତ୍ର ଅନୁଯାୟୀ, tan(A - B) = (tan A - tan B)/(1 + tan A tan B)।"
+},
+{
+"questionEnglish": "What is the equivalent of sec(180° - θ)?",
+"questionOdia": "sec(180° - θ) ର ସମକକ୍ଷ ମୂଲ୍ୟ କ'ଣ?",
+"options": [
+"sec θ",
+"cosec θ",
+"-sec θ",
+"-cosec θ"
+],
+"answer": "-sec θ",
+"explanation": "ଦ୍ୱିତୀୟ ପାଦରେ sec ର ମୂଲ୍ୟ ଋଣାତ୍ମକ ହୋଇଥିବାରୁ sec(180° - θ) = -sec θ।"
+},
+{
+"questionEnglish": "If tan 62° is expressed in terms of sine and cosine of 17°, which is the correct form?",
+"questionOdia": "ଯଦି tan 62° କୁ 17° ର ସାଇନ୍ ଏବଂ କୋସାଇନ୍ ମାଧ୍ୟମରେ ପ୍ରକାଶ କରାଯାଏ, ତେବେ ସଠିକ୍ ରୂପ କ'ଣ?",
+"options": [
+"(cos 17° + sin 17°) / (cos 17° - sin 17°)",
+"(cos 17° - sin 17°) / (cos 17° + sin 17°)",
+"(sin 17° + cos 17°) / (sin 17° - cos 17°)",
+"cos 17° . sin 17°"
+],
+"answer": "(cos 17° + sin 17°) / (cos 17° - sin 17°)",
+"explanation": "tan 62° = tan(45° + 17°) = (tan 45° + tan 17°)/(1 - tan 45° tan 17°) = (1 + sin 17°/cos 17°) / (1 - sin 17°/cos 17°) ଯାହା ବିକଳ୍ପ ସହ ସମାନ।"
+},
+{
+"questionEnglish": "Calculate cot 150° using trigonometric principles.",
+"questionOdia": "ତ୍ରିକୋଣମିତିକ ନିୟମ ବ୍ୟବହାର କରି cot 150° ର ମୂଲ୍ୟ କାଢ।",
+"options": [
+"√3",
+"-√3",
+"1/√3",
+"-1/√3"
+],
+"answer": "-√3",
+"explanation": "cot 150° = cot(180° - 30°) = -cot 30° = -√3।"
+},
+{
+"questionEnglish": "Determine the value of cosec 135°.",
+"questionOdia": "cosec 135° ର ମୂଲ୍ୟ ସ୍ଥିର କର।",
+"options": [
+"1/√2",
+"√2",
+"-√2",
+"-1/√2"
+],
+"answer": "√2",
+"explanation": "cosec 135° = cosec(180° - 45°) = cosec 45° = √2।"
+},
+{
+"questionEnglish": "What is the equivalent expression for cot(90° + θ)?",
+"questionOdia": "cot(90° + θ) ର ସମତୁଲ୍ୟ ଅନୁପାତଟି କ'ଣ?",
+"options": [
+"tan θ",
+"cot θ",
+"-tan θ",
+"-cot θ"
+],
+"answer": "-tan θ",
+"explanation": "cot(90° + θ) ସର୍ବଦା -tan θ ଅଟେ କାରଣ ଏହା ଦ୍ୱିତୀୟ ପାଦରେ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "An instrument used to measure the angle of elevation and depression practically is:",
+"questionOdia": "ପ୍ରୟୋଗାତ୍ମକ କ୍ଷେତ୍ରରେ ଉନ୍ନତି କୋଣ ଏବଂ ଅବନତି କୋଣ ମାପିବା ପାଇଁ ବ୍ୟବହୃତ ଯନ୍ତ୍ରଟି ହେଉଛି:",
+"options": [
+"ଥର୍ମୋମିଟର",
+"ସେକ୍ସଟାଣ୍ଟ (Sextant)",
+"ବାରୋମିଟର",
+"ହାଲୁକା ମିଟର"
+],
+"answer": "ସେକ୍ସଟାଣ୍ଟ (Sextant)",
+"explanation": "ବହିରେ ଦିଆଯାଇଥିବା ତଥ୍ୟ ଅନୁସାରେ ଏହି କୋଣ ମାପିବାକୁ ସେକ୍ସଟାଣ୍ଟ ବା ଥିଓଡୋଲାଇଟ୍ ବ୍ୟବହାର କରାଯାଏ।"
+},
+{
+"questionEnglish": "Identify the incorrect statement for obtuse angle trigonometric values.",
+"questionOdia": "ସ୍ଥୂଳକୋଣ ତ୍ରିକୋଣମିତିକ ମୂଲ୍ୟ ପାଇଁ ଭୁଲ ଉକ୍ତିଟିକୁ ଚିହ୍ନଟ କର।",
+"options": [
+"sin(180° - θ) = sin θ",
+"cos(180° - θ) = -cos θ",
+"tan(180° - θ) = tan θ",
+"cosec(180° - θ) = cosec θ"
+],
+"answer": "tan(180° - θ) = tan θ",
+"explanation": "ଦ୍ୱିତୀୟ ପାଦରେ tan ଋଣାତ୍ମକ ହୋଇଥାଏ, ତେଣୁ tan(180° - θ) = -tan θ ହେବା ଉଚିତ। ଦିଆଯାଇଥିବା ଉକ୍ତିଟି ଭୁଲ।"
+}
 ]
-
