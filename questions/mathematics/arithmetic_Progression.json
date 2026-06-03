@@ -1,223 +1,1190 @@
 [
-  {
-    "question": "a1x + b1y + c1 = 0 ଏବଂ a2x + b2y + c2 = 0 ସହସମୀକରଣ ଦ୍ଵୟ ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର ହେବାର ସର୍ତ୍ତଟି କଣ?",
-    "options": [
-      "a1/a2 ≠ b1/b2",
-      "a1/a2 = b1/b2 ≠ c1/c2",
-      "a1/a2 = b1/b2 = c1/c2",
-      "a1.a2 + b1.b2 = 0"
-    ],
-    "answer": "a1/a2 ≠ b1/b2",
-    "explanation": "ଯଦି ଦୁଇଟି ସରଳ ସହସମୀକରଣର ସହଗ ଗୁଡ଼ିକର ଅନୁପାତ a1/a2 ≠ b1/b2 ହୁଏ, ତେବେ ସମୀକରଣ ଦ୍ଵୟ ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର ହୁଅନ୍ତି ଏବଂ ଏମାନଙ୍କର ମାତ୍ର ଗୋଟିଏ ଅନନ୍ୟ ସମାଧାନ ଥାଏ ।"
-  },
-  {
-    "question": "୨ଟି ଅଜ୍ଞାତ ରାଶି ବିଶିଷ୍ଟ ସରଳ ସହସମୀକରଣର ଅସଂଖ୍ୟ ସମାଧାନ ଥିଲେ, ସେମାନଙ୍କର ଜ୍ୟାମିତିକ ଚିତ୍ର କିପରି ହେବ?",
-    "options": [
-      "ଦୁଇଟି ସମାନ୍ତର ସରଳରେଖା",
-      "ଦୁଇଟି ପରସ୍ପରଛେଦୀ ସରଳରେଖା",
-      "ଦୁଇଟି ସମପାତୀ (ଏକ ଓ ଅଭିନ୍ନ) ସରଳରେଖା",
-      "ଏକ ବୃତ୍ତ"
-    ],
-    "answer": "ଦୁଇଟି ସମପାତୀ (ଏକ ଓ ଅଭିନ୍ନ) ସରଳରେଖା",
-    "explanation": "ଯେତେବେଳେ ଦୁଇଟି ସମୀକରଣର ଅସଂଖ୍ୟ ସମାଧାନ ଥାଏ, ସେତେବେଳେ ସେମାନଙ୍କର ଲେଖଚିତ୍ର ଦ୍ଵୟ ପରସ୍ପର ସହ ସମପାତୀ (Coincident lines) ହୋଇଥାନ୍ତି ।"
-  },
-  {
-    "question": "x + y = 0 ଏବଂ x - y = 0 ସହସମୀକରଣ ଦ୍ଵୟର ସମାଧାନ କେତେ ହେବ?",
-    "options": [
-      "(1, 1)",
-      "(0, 0)",
-      "(1, -1)",
-      "ଅସଂଖ୍ୟ ସମାଧାନ"
-    ],
-    "answer": "(0, 0)",
-    "explanation": "ଦୁଇଟି ସମୀକରଣକୁ ଯୋଗ କଲେ 2x = 0 => x = 0 ମିଳିବ । x ର ମୂଲ୍ୟ ପ୍ରଥମ ସମୀକରଣରେ ରଖିଲେ y = 0 ମିଳିବ । ତେଣୁ ସମାଧାନ ହେଉଛି (0, 0) ।"
-  },
-  {
-    "question": "2x - 3y = 5 ସମୀକରଣରେ ଯଦି x = 1 ହୁଏ, ତେବେ y ର ମୂଲ୍ୟ କେତେ?",
-    "options": [
-      "1",
-      "-1",
-      "2",
-      "-2"
-    ],
-    "answer": "-1",
-    "explanation": "2(1) - 3y = 5 => 2 - 3y = 5 => -3y = 3 => y = -1 ।"
-  },
-  {
-    "question": "କ୍ରାମରଙ୍କ ନିୟମ (Cramer's Rule) ଅନୁଯାୟୀ x ର ମୂଲ୍ୟ ନିରୂପଣ କରିବାର ସୂତ୍ରଟି କଣ?",
-    "options": [
-      "Δx / Δ",
-      "Δ / Δx",
-      "Δy / Δ",
-      "Δx . Δ"
-    ],
-    "answer": "Δx / Δ",
-    "explanation": "କ୍ରାମରଙ୍କ ନିୟମ ଅନୁସାରେ x = Δx / Δ ଏବଂ y = Δy / Δ ହୋଇଥାଏ, ଯେଉଁଠାରେ Δ ≠ 0 ।"
-  },
-  {
-    "question": "ଡିଟରମିନାଣ୍ଟ |2  3| ଉପାଦାନର ମୂଲ୍ୟ କେତେ? \n            |1  4|",
-    "options": [
-      "5",
-      "11",
-      "2",
-      "8"
-    ],
-    "answer": "5",
-    "explanation": "ଡିଟରମିନାଣ୍ଟର ମୂଲ୍ୟ = (2 × 4) - (3 × 1) = 8 - 3 = 5 ।"
-  },
-  {
-    "question": "ax + by + c = 0 ସମୀକରଣରେ ସହଗ a ଏବଂ b ଏକା ସଙ୍ଗରେ କଣ ହୋଇପାରିବେ ନାହିଁ?",
-    "options": [
-      "ଧନାତ୍ମକ",
-      "ଋଣାତ୍ମକ",
-      "ଶୂନ୍ୟ",
-      "ଭଗ୍ନାଂଶ"
-    ],
-    "answer": "ଶୂନ୍ୟ",
-    "explanation": "ଏକ ରୈଖିକ ସମୀକରଣରେ x ଓ y ର ସହଗ a ଏବଂ b ଏକା ସଙ୍ଗେ ଶୂନ୍ୟ ହୋଇପାରିବେ ନାହିଁ (a² + b² ≠ 0) ।"
-  },
-  {
-    "question": "ଯଦି a1/a2 = b1/b2 ≠ c1/c2 ହୁଏ, ତେବେ ସହସମୀକରଣ ଦ୍ଵୟର କେତେଟି ସମାଧାନ ସମ୍ଭବ?",
-    "options": [
-      "ଗୋଟିଏ ଅନନ୍ୟ ସମାଧାନ",
-      "ଦୁଇଟି ସମାଧାନ",
-      "ଅସଂଖ୍ୟ ସମାଧାନ",
-      "କୌଣସି ସମାଧାନ ନାହିଁ"
-    ],
-    "answer": "କୌଣସି ସମାଧାନ ନାହିଁ",
-    "explanation": "ଏହି ସର୍ତ୍ତଟି ସମାନ୍ତର ସରଳରେଖା ପାଇଁ ପ୍ରଯୁଜ୍ୟ, ଯେହେତୁ ରେଖାଦ୍ଵୟ ପରସ୍ପରକୁ ଛେଦ କରନ୍ତି ନାହିଁ, ତେଣୁ ଏହାର କୌଣସି ସମାଧାନ ନଥାଏ (ଅସଙ୍ଗତ) ।"
-  },
-  {
-    "question": "x - 2y = 0 ଏବଂ 3x + 4y = 20 ସମୀକରଣ ଦ୍ଵୟ ପାଇଁ Δ ର ମୂଲ୍ୟ କେତେ ହେବ?",
-    "options": [
-      "10",
-      "14",
-      "-10",
-      "2"
-    ],
-    "answer": "10",
-    "explanation": "Δ = |1  -2| = (1 × 4) - (-2 × 3) = 4 + 6 = 10 ।\n      |3   4|"
-  },
-  {
-    "question": "ବଜ୍ରଗୁଣନ (Cross Multiplication) ପ୍ରଣାଳୀରେ ବ୍ୟବହୃତ ସୂତ୍ର ଅନୁଯାୟୀ, y ର ହରରେ କେଉଁ ଡିଟରମିନାଣ୍ଟ ରହେ?",
-    "options": [
-      "c1a2 - c2a1",
-      "a1b2 - a2b1",
-      "b1c2 - b2c1",
-      "none of these"
-    ],
-    "answer": "a1b2 - a2b1",
-    "explanation": "ବଜ୍ରଗୁଣନ ପ୍ରଣାଳୀରେ x/(b1c2-b2c1) = y/(c1a2-c2a1) = 1/(a1b2-a2b1) ହୋଇଥାଏ । ତେଣୁ x ଏବଂ y ଉଭୟଙ୍କ ମୂଲ୍ୟ ବାହାର କରିବା ପାଇଁ ହରରେ (a1b2 - a2b1) ରହେ ।"
-  },
-  {
-    "question": "kx + 3y - 1 = 0 ଏବଂ 2x + y + 5 = 0 ସମୀକରଣ ଦ୍ଵୟ ସଙ୍ଗତ ଓ ସ୍ଵତନ୍ତ୍ର ହେଲେ, k ର ମୂଲ୍ୟ କେଉଁଟି ହେବ?",
-    "options": [
-      "k = 6",
-      "k ≠ 6",
-      "k = 3",
-      "k ≠ 2"
-    ],
-    "answer": "k ≠ 6",
-    "explanation": "ସ୍ଵତନ୍ତ୍ର ହେବା ପାଇଁ ସର୍ତ୍ତ: a1/a2 ≠ b1/b2 => k/2 ≠ 3/1 => k ≠ 6 ।"
-  },
-  {
-    "question": "ଲେଖଚିତ୍ର ସାହାଯ୍ୟରେ ସମାଧାନ କରିବା ପାଇଁ x-ଅକ୍ଷ ଏବଂ y-ଅକ୍ଷ ପରସ୍ପରକୁ ଯେଉଁ ବିନ୍ଦୁରେ ଛେଦ କରନ୍ତି, ତାହାର ସ୍ଥାନାଙ୍କ କଣ?",
-    "options": [
-      "(1, 1)",
-      "(0, 1)",
-      "(0, 0)",
-      "(-1, -1)"
-    ],
-    "answer": "(0, 0)",
-    "explanation": "x-ଅକ୍ଷ ଓ y-ଅକ୍ଷର ଛେଦ ବିନ୍ଦୁକୁ ମୂଳବିନ୍ଦୁ (Origin) କୁହାଯାଏ ଏବଂ ଏହାର ସ୍ଥାନାଙ୍କ ସଦାସର୍ବଦା (0, 0) ଅଟେ ।"
-  },
-  {
-    "question": "4x + 6y = 12 ଏବଂ 2x + 3y = 6 ସହସମୀକରଣ ଦ୍ଵୟର କେତେଟି ସମାଧାନ ଅଛି?",
-    "options": [
-      "ଗୋଟିଏ",
-      "କୌଣସିଟି ନୁହେଁ",
-      "ଅସଂଖ୍ୟ",
-      "ତିନୋଟି"
-    ],
-    "answer": "ଅସଂଖ୍ୟ",
-    "explanation": "ଏଠାରେ a1/a2 = 4/2 = 2, b1/b2 = 6/3 = 2, c1/c2 = 12/6 = 2 । ଯେହେତୁ ସବୁ ଅନୁପାତ ସମାନ, ତେଣୁ ଏହାର ଅସଂଖ୍ୟ ସମାଧାନ ରହିବ ।"
-  },
-  {
-    "question": "ଯଦି ଦୁଇଟି ସଂଖ୍ୟାର ଯୋଗଫଳ ୧୫ ଏବଂ ବିୟୋଗଫଳ ୫ ହୁଏ, ତେବେ ସଂଖ୍ୟା ଦୁଇଟି କଣ କଣ?",
-    "options": [
-      "10, 5",
-      "12, 3",
-      "9, 6",
-      "11, 4"
-    ],
-    "answer": "10, 5",
-    "explanation": "ଧରନ୍ତୁ ସଂଖ୍ୟା ଦୁଇଟି x ଓ y । x + y = 15 ଏବଂ x - y = 5 । ଦୁଇଟିକୁ ଯୋଗ କଲେ 2x = 20 => x = 10, ଏବଂ y = 5 ମିଳିବ ।"
-  },
-  {
-    "question": "x + y - 5 = 0 ସମୀକରଣର ଲେଖଚିତ୍ର ଉପରେ ନିମ୍ନଲିଖିତ କେଉଁ ବିନ୍ଦୁଟି ଅବସ୍ଥିତ ନୁହେଁ?",
-    "options": [
-      "(2, 3)",
-      "(1, 4)",
-      "(5, 0)",
-      "(3, 3)"
-    ],
-    "answer": "(3, 3)",
-    "explanation": "(3,3) ବିନ୍ଦୁ ପାଇଁ x + y = 3 + 3 = 6 ହେଉଛି, ଯାହା 5 ସହ ସମାନ ନୁହେଁ । ତେଣୁ ଏହି ବିନ୍ଦୁଟି ରେଖା ଉପରେ ରହିବ ନାହିଁ ।"
-  },
-  {
-    "question": "ଅପନୟନ ପ୍ରଣାଳୀ (Method of Elimination) ରେ ସମାଧାନ କଲାବେଳେ କଣ କରାଯାଏ?",
-    "options": [
-      "ଯେକୌଣସି ଗୋଟିଏ ଅଜ୍ଞାତ ରାଶିକୁ ବାଦ୍ ଦିଆଯାଏ",
-      "ଦୁଇଟିଯାକ ଅଜ୍ଞାତ ରାଶିକୁ ବାଦ୍ ଦିଆଯାଏ",
-      "ନୂତନ ଅଜ୍ଞାତ ରାଶି ଯୋଗ କରାଯାଏ",
-      "ବର୍ଗମୂଳ କରାଯାଏ"
-    ],
-    "answer": "ଯେକୌଣସି ଗୋଟିଏ ଅଜ୍ଞାତ ରାଶିକୁ ବାଦ୍ ଦିଆଯାଏ",
-    "explanation": "ଅପନୟନ ପ୍ରଣାଳୀରେ ସମୀକରଣ ଗୁଡ଼ିକୁ ଗୁଣନ କରି ଯେକୌଣସି ଗୋଟିଏ ଅଜ୍ଞାତ ରାଶିର (x କିମ୍ବା y) ସହଗକୁ ସମାନ କରି କାଟି ଦିଆଯାଏ ।"
-  },
-  {
-    "question": "3x - y = 2 ଏବଂ 9x - 3y = k ସହସମୀକରଣ ଦ୍ଵୟ ଅସଙ୍ଗତ (କୌଣସି ସମାଧାନ ନାହିଁ) ହେଲେ k ର ମୂଲ୍ୟ କଣ ହେବ?",
-    "options": [
-      "k = 6",
-      "k ≠ 6",
-      "k = 2",
-      "k ≠ 2"
-    ],
-    "answer": "k ≠ 6",
-    "explanation": "ଅସଙ୍ଗତ ପାଇଁ ସର୍ତ୍ତ: a1/a2 = b1/b2 ≠ c1/c2 => 3/9 = -1/-3 ≠ 2/k => 1/3 ≠ 2/k => k ≠ 6 ।"
-  },
-  {
-    "question": "ଏକ ଦୁଇ ଅଙ୍କ ବିଶିଷ୍ଟ ସଂଖ୍ୟାର ଦଶକ ସ୍ଥାନୀୟ ଅଙ୍କ x ଏବଂ ଏକକ ସ୍ଥାନୀୟ ଅଙ୍କ y ହେଲେ ସଂଖ୍ୟାଟି କେତେ ହେବ?",
-    "options": [
-      "x + y",
-      "10x + y",
-      "10y + x",
-      "10(x + y)"
-    ],
-    "answer": "10x + y",
-    "explanation": "ସ୍ଥାନୀୟ ମାନ ଅନୁସାରେ ଦଶକ ସ୍ଥାନୀୟ ଅଙ୍କରେ ୧୦ ଗୁଣା ହୁଏ ଏବଂ ଏକକ ସ୍ଥାନୀୟ ଅଙ୍କ ଯୋଗ କରାଯାଏ, ତେଣୁ ସଂଖ୍ୟାଟି = 10x + y ।"
-  },
-  {
-    "question": "x-ଅକ୍ଷର ସମୀକରଣଟି ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି?",
-    "options": [
-      "x = 0",
-      "y = 0",
-      "x + y = 0",
-      "x = y"
-    ],
-    "answer": "y = 0",
-    "explanation": "x-ଅକ୍ଷ ଉପରେ ଥିବା ପ୍ରତ୍ୟେକ ବିନ୍ଦୁର y-ସ୍ଥାନାଙ୍କ ସଦାସର୍ବଦା ଶୂନ୍ୟ (0) ହୋଇଥାଏ, ତେଣୁ x-ଅକ୍ଷର ସମୀକରଣ ହେଉଛି y = 0 ।"
-  },
-  {
-    "question": "ଯଦି Δx = 20 ଏବଂ Δ = 4 ହୁଏ, ତେବେ କ୍ରାମରଙ୍କ ନିୟମ ଅନୁଯାୟୀ x ର ମୂଲ୍ୟ କେତେ?",
-    "options": [
-      "80",
-      "5",
-      "16",
-      "0.2"
-    ],
-    "answer": "5",
-    "explanation": "x = Δx / Δ ସୂତ୍ର ଅନୁସାରେ, x = 20 / 4 = 5 ।"
-  }
+{
+"questionEnglish": "What is an arithmetic progression (AP)?",
+"questionOdia": "ସମାନ୍ତର ପ୍ରଗତି (AP) କହିଲେ କ'ଣ ବୁଝନ୍ତି?",
+"options": [
+"ଯେଉଁଠାରେ ସଂଖ୍ୟାଗୁଡ଼ିକ କୌଣସି ନିୟମ ବିନା ଥାନ୍ତି",
+"ଯେଉଁ ଅନୁକ୍ରମରେ ପଦମାନଙ୍କ ମଧ୍ୟରେ ଥିବା ପାର୍ଥକ୍ୟ ସର୍ବଦା ସମାନ ରହେ",
+"ଯେଉଁଠାରେ ପ୍ରତ୍ୟେକ ପଦ ପୂର୍ବ ପଦର ଦୁଇଗୁଣ ହୋଇଥାଏ",
+"ଏକ ବହୁପଦୀ ସମୀକରଣ"
+],
+"answer": "ଯେଉଁ ଅନୁକ୍ରମରେ ପଦମାନଙ୍କ ମଧ୍ୟରେ ଥିବା ପାର୍ଥକ୍ୟ ସର୍ବଦା ସମାନ ରହେ",
+"explanation": "ଏକ ସମାନ୍ତର ପ୍ରଗତିରେ କ୍ରମାଗତ ପଦଗୁଡ଼ିକ ମଧ୍ୟରେ ଥିବା ସାଧାରଣ ଅନ୍ତର (common difference) ସ୍ଥିର ରହିଥାଏ।"
+},
+{
+"questionEnglish": "In an arithmetic progression, what is the term used for the constant difference between consecutive terms?",
+"questionOdia": "ଏକ ସମାନ୍ତର ପ୍ରଗତିରେ, କ୍ରମାଗତ ପଦଗୁଡ଼ିକ ମଧ୍ୟରେ ଥିବା ସ୍ଥିର ପାର୍ଥକ୍ୟକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ପ୍ରଥମ ପଦ",
+"ସାଧାରଣ ଅନ୍ତର",
+"ଶେଷ ପଦ",
+"ପଦ ସଂଖ୍ୟା"
+],
+"answer": "ସାଧାରଣ ଅନ୍ତର",
+"explanation": "ସମାନ୍ତର ପ୍ରଗତିରେ କ୍ରମାଗତ ପଦମାନଙ୍କ ମଧ୍ୟରେ ଥିବା ସମାନ ଅନ୍ତରକୁ ସାଧାରଣ ଅନ୍ତର (common difference) କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "If the first term of an AP is 'a' and the common difference is 'd', what is the second term?",
+"questionOdia": "ଯଦି ଏକ ସମାନ୍ତର ପ୍ରଗତିର ପ୍ରଥମ ପଦ 'a' ଏବଂ ସାଧାରଣ ଅନ୍ତର 'd' ହୁଏ, ତେବେ ଦ୍ୱିତୀୟ ପଦଟି କ'ଣ ହେବ?",
+"options": [
+"a",
+"a + d",
+"a + 2d",
+"ad"
+],
+"answer": "a + d",
+"explanation": "ପ୍ରଥମ ପଦ ସହିତ ସାଧାରଣ ଅନ୍ତର 'd' ଯୋଗ କଲେ ଦ୍ୱିତୀୟ ପଦ ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "What is the formula to find the n-th term of an arithmetic progression?",
+"questionOdia": "ଏକ ସମାନ୍ତର ପ୍ରଗତିର n-ତମ ପଦ ନିର୍ଣ୍ଣୟ କରିବାର ସୂତ୍ର କ'ଣ?",
+"options": [
+"a + (n-1)d",
+"a + nd",
+"a + (n+1)d",
+"na + d"
+],
+"answer": "a + (n-1)d",
+"explanation": "n-ତମ ପଦ (t_n) = a + (n-1)d, ଯେଉଁଠାରେ 'a' ପ୍ରଥମ ପଦ ଏବଂ 'd' ସାଧାରଣ ଅନ୍ତର।"
+},
+{
+"questionEnglish": "In the sequence 2, 4, 6, 8, ..., what is the common difference 'd'?",
+"questionOdia": "2, 4, 6, 8, ... ଅନୁକ୍ରମରେ ସାଧାରଣ ଅନ୍ତର 'd' କେତେ?",
+"options": [
+"1",
+"2",
+"4",
+"6"
+],
+"answer": "2",
+"explanation": "ଦ୍ୱିତୀୟ ପଦ - ପ୍ରଥମ ପଦ = 4 - 2 = 2। ସମସ୍ତ ପଦ ପାଇଁ ଏହା ସମାନ।"
+},
+{
+"questionEnglish": "What does 't_n' represent in an arithmetic progression?",
+"questionOdia": "ସମାନ୍ତର ପ୍ରଗତିରେ 't_n' କ'ଣ ସୂଚାଏ?",
+"options": [
+"ପ୍ରଥମ ପଦ",
+"n-ତମ ପଦ",
+"ସମସ୍ତ ପଦର ସମଷ୍ଟି",
+"ସାଧାରଣ ଅନ୍ତର"
+],
+"answer": "n-ତମ ପଦ",
+"explanation": "t_n ସାଧାରଣତଃ ଅନୁକ୍ରମର n-ତମ ସ୍ଥାନରେ ଥିବା ପଦକୁ ସୂଚିତ କରେ।"
+},
+{
+"questionEnglish": "If the first term is 5 and the common difference is 3, what is the 4th term?",
+"questionOdia": "ଯଦି ପ୍ରଥମ ପଦ 5 ଏବଂ ସାଧାରଣ ଅନ୍ତର 3 ହୁଏ, ତେବେ ଚତୁର୍ଥ ପଦଟି କେତେ?",
+"options": [
+"8",
+"11",
+"14",
+"17"
+],
+"answer": "14",
+"explanation": "t_4 = a + (4-1)d = 5 + 3(3) = 5 + 9 = 14।"
+},
+{
+"questionEnglish": "Which of the following is an arithmetic progression?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ସମାନ୍ତର ପ୍ରଗତି?",
+"options": [
+"2, 4, 8, 16",
+"1, 3, 5, 7",
+"1, 10, 100, 1000",
+"1, 4, 9, 16"
+],
+"answer": "1, 3, 5, 7",
+"explanation": "ଏଠାରେ ପଦମାନଙ୍କ ମଧ୍ୟରେ ପାର୍ଥକ୍ୟ 2 (ସ୍ଥିର)।"
+},
+{
+"questionEnglish": "What is the sum of the first n terms of an AP?",
+"questionOdia": "ଏକ ସମାନ୍ତର ପ୍ରଗତିର ପ୍ରଥମ n-ଟି ପଦର ସମଷ୍ଟି କେତେ?",
+"options": [
+"n/2 * [2a + (n-1)d]",
+"n * [a + (n-1)d]",
+"n/2 * [a + (n-1)d]",
+"2a + (n-1)d"
+],
+"answer": "n/2 * [2a + (n-1)d]",
+"explanation": "ସମଷ୍ଟି (S_n) ନିର୍ଣ୍ଣୟ କରିବାର ସୂତ୍ର ହେଉଛି S_n = n/2 * [2a + (n-1)d]।"
+},
+{
+"questionEnglish": "If an AP has 10 terms and the first term is 1, and the last term is 19, what is the sum?",
+"questionOdia": "ଯଦି ଏକ ସମାନ୍ତର ପ୍ରଗତିରେ 10ଟି ପଦ ଅଛି, ପ୍ରଥମ ପଦ 1 ଏବଂ ଶେଷ ପଦ 19, ତେବେ ସମଷ୍ଟି କେତେ?",
+"options": [
+"100",
+"200",
+"150",
+"190"
+],
+"answer": "100",
+"explanation": "S_n = n/2 * (a + l) = 10/2 * (1 + 19) = 5 * 20 = 100।"
+},
+{
+"questionEnglish": "Can the common difference 'd' be negative?",
+"questionOdia": "ସାଧାରଣ ଅନ୍ତର 'd' ଋଣାତ୍ମକ ହୋଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଶୂନ ହୋଇପାରିବ",
+"କେବଳ ଧନାତ୍ମକ"
+],
+"answer": "ହଁ",
+"explanation": "ଯଦି ଅନୁକ୍ରମଟି କ୍ରମାଗତ ଭାବେ ହ୍ରାସ ପାଉଥାଏ, ତେବେ 'd' ଋଣାତ୍ମକ ହେବ।"
+},
+{
+"questionEnglish": "In 10, 8, 6, 4, ... what is the common difference?",
+"questionOdia": "10, 8, 6, 4, ... ଅନୁକ୍ରମରେ ସାଧାରଣ ଅନ୍ତର କେତେ?",
+"options": [
+"2",
+"-2",
+"8",
+"1"
+],
+"answer": "-2",
+"explanation": "8 - 10 = -2।"
+},
+{
+"questionEnglish": "What is the 10th term of an AP if a=3 and d=2?",
+"questionOdia": "ଯଦି a=3 ଏବଂ d=2, ତେବେ ସମାନ୍ତର ପ୍ରଗତିର 10-ତମ ପଦ କେତେ?",
+"options": [
+"20",
+"21",
+"22",
+"23"
+],
+"answer": "21",
+"explanation": "t_10 = 3 + (10-1)*2 = 3 + 18 = 21।"
+},
+{
+"questionEnglish": "If 3 terms are in AP, how are they often represented?",
+"questionOdia": "ଯଦି 3ଟି ପଦ ସମାନ୍ତର ପ୍ରଗତିରେ ଥାନ୍ତି, ତେବେ ସେଗୁଡ଼ିକୁ ପ୍ରାୟତଃ କିପରି ଲେଖାଯାଏ?",
+"options": [
+"a, a+d, a+2d",
+"a-d, a, a+d",
+"a, 2a, 3a",
+"d, a, d+a"
+],
+"answer": "a-d, a, a+d",
+"explanation": "ଗଣନା ସହଜ କରିବା ପାଇଁ 3ଟି ପଦକୁ (a-d, a, a+d) ହିସାବରେ ନିଆଯାଏ।"
+},
+{
+"questionEnglish": "What is the sum of three terms in AP if the middle term is 'a'?",
+"questionOdia": "ଯଦି ସମାନ୍ତର ପ୍ରଗତିର ମଧ୍ୟ ପଦ 'a' ହୁଏ, ତେବେ ତିନୋଟି ପଦର ସମଷ୍ଟି କେତେ?",
+"options": [
+"a",
+"2a",
+"3a",
+"4a"
+],
+"answer": "3a",
+"explanation": "(a-d) + a + (a+d) = 3a।"
+},
+{
+"questionEnglish": "Can the number of terms 'n' be a fraction?",
+"questionOdia": "ପଦ ସଂଖ୍ୟା 'n' ଏକ ଭଗ୍ନାଂଶ ହୋଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି d=0",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ପଦ ସଂଖ୍ୟା ସର୍ବଦା ଏକ ଧନାତ୍ମକ ପୂର୍ଣ୍ଣସଂଖ୍ୟା (Natural Number) ହେବା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "If the sum of 6 terms in an AP is 30, what is the average value of a term?",
+"questionOdia": "ଯଦି ଏକ ସମାନ୍ତର ପ୍ରଗତିରେ 6ଟି ପଦର ସମଷ୍ଟି 30, ତେବେ ଗୋଟିଏ ପଦର ହାରାହାରି ମୂଲ୍ୟ କେତେ?",
+"options": [
+"4",
+"5",
+"6",
+"10"
+],
+"answer": "5",
+"explanation": "ହାରାହାରି = ସମଷ୍ଟି / ପଦ ସଂଖ୍ୟା = 30 / 6 = 5।"
+},
+{
+"questionEnglish": "What is the common difference of 5, 5, 5, 5...?",
+"questionOdia": "5, 5, 5, 5... ଅନୁକ୍ରମର ସାଧାରଣ ଅନ୍ତର କେତେ?",
+"options": [
+"5",
+"0",
+"1",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "0",
+"explanation": "5 - 5 = 0। ଯଦି ସମସ୍ତ ପଦ ସମାନ, ତେବେ 'd' ଶୂନ।"
+},
+{
+"questionEnglish": "What is the formula for the sum of the first n natural numbers?",
+"questionOdia": "ପ୍ରଥମ n-ଟି ସ୍ୱାଭାବିକ ସଂଖ୍ୟାର ସମଷ୍ଟିର ସୂତ୍ର କ'ଣ?",
+"options": [
+"n(n+1)/2",
+"n(n-1)/2",
+"n(n+1)",
+"n^2"
+],
+"answer": "n(n+1)/2",
+"explanation": "ଏହା ଏକ AP ଯେଉଁଠାରେ a=1 ଏବଂ d=1। ସୂତ୍ର ବ୍ୟବହାର କଲେ n(n+1)/2 ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "Which term is 'a' in the standard form of AP?",
+"questionOdia": "ସମାନ୍ତର ପ୍ରଗତିର ଆଦର୍ଶ ରୂପରେ 'a' କ'ଣ?",
+"options": [
+"ସାଧାରଣ ଅନ୍ତର",
+"ଶେଷ ପଦ",
+"ପ୍ରଥମ ପଦ",
+"ପଦ ସଂଖ୍ୟା"
+],
+"answer": "ପ୍ରଥମ ପଦ",
+"explanation": "ସମାନ୍ତର ପ୍ରଗତିର ପ୍ରଥମ ପଦକୁ 'a' ଦ୍ୱାରା ଚିହ୍ନଟ କରାଯାଏ।"
+},
+{
+"questionEnglish": "If a=2, d=3, what is the 5th term?",
+"questionOdia": "ଯଦି a=2, d=3, ତେବେ 5ମ ପଦ କେତେ?",
+"options": [
+"11",
+"14",
+"17",
+"8"
+],
+"answer": "14",
+"explanation": "t_5 = 2 + (5-1)3 = 2 + 12 = 14।"
+},
+{
+"questionEnglish": "What is the sequence of the first 4 even numbers?",
+"questionOdia": "ପ୍ରଥମ 4ଟି ଯୁଗ୍ମ ସଂଖ୍ୟାର ସମାନ୍ତର ପ୍ରଗତି କ'ଣ?",
+"options": [
+"1, 2, 3, 4",
+"2, 4, 6, 8",
+"0, 2, 4, 6",
+"2, 4, 8, 16"
+],
+"answer": "2, 4, 6, 8",
+"explanation": "ଯୁଗ୍ମ ସଂଖ୍ୟାଗୁଡ଼ିକ 2ର ଗୁଣିତକ, ତେଣୁ 2, 4, 6, 8।"
+},
+{
+"questionEnglish": "What is the sum of the first 10 even numbers?",
+"questionOdia": "ପ୍ରଥମ 10ଟି ଯୁଗ୍ମ ସଂଖ୍ୟାର ସମଷ୍ଟି କେତେ?",
+"options": [
+"100",
+"110",
+"90",
+"210"
+],
+"answer": "110",
+"explanation": "S_n = n(n+1) = 10 * 11 = 110।"
+},
+{
+"questionEnglish": "If an AP is 2, 5, 8, 11, ..., what is the 7th term?",
+"questionOdia": "ଯଦି ଏକ AP 2, 5, 8, 11, ... ହୁଏ, ତେବେ 7ମ ପଦ କେତେ?",
+"options": [
+"17",
+"20",
+"23",
+"14"
+],
+"answer": "20",
+"explanation": "a=2, d=3. t_7 = 2 + 6*3 = 20।"
+},
+{
+"questionEnglish": "In a given AP, if t_n = 2n + 1, what is the first term?",
+"questionOdia": "ଏକ AP ରେ, ଯଦି t_n = 2n + 1, ତେବେ ପ୍ରଥମ ପଦ କେତେ?",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "3",
+"explanation": "t_1 = 2(1) + 1 = 3।"
+},
+{
+"questionEnglish": "What is the common difference if t_n = 2n + 1?",
+"questionOdia": "ଯଦି t_n = 2n + 1, ତେବେ ସାଧାରଣ ଅନ୍ତର କେତେ?",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "2",
+"explanation": "d = t_2 - t_1 = (2*2+1) - 3 = 5 - 3 = 2।"
+},
+{
+"questionEnglish": "Are all sequences with a constant difference arithmetic progressions?",
+"questionOdia": "ସବୁ ଅନୁକ୍ରମ ଯେଉଁଥିରେ ସ୍ଥିର ପାର୍ଥକ୍ୟ ଥାଏ, ସେଗୁଡ଼ିକ ସମାନ୍ତର ପ୍ରଗତି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି ପ୍ରଥମ ପଦ 1",
+"କେବଳ ଯଦି ଶେଷ ପଦ ଅଛି"
+],
+"answer": "ହଁ",
+"explanation": "ସମାନ୍ତର ପ୍ରଗତିର ସଂଜ୍ଞା ହିଁ ସେହି ଅଟେ।"
+},
+{
+"questionEnglish": "If the sum of an AP is 0, what can you say about the terms?",
+"questionOdia": "ଯଦି ଏକ AP ର ସମଷ୍ଟି 0, ତେବେ ପଦଗୁଡ଼ିକ ବିଷୟରେ କ'ଣ କହିବ?",
+"options": [
+"ସବୁ ପଦ 0",
+"ଧନାତ୍ମକ ଓ ଋଣାତ୍ମକ ପଦ ମିଶି ସମଷ୍ଟି 0 କରୁଛନ୍ତି",
+"ଏହା ସମ୍ଭବ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଧନାତ୍ମକ ଓ ଋଣାତ୍ମକ ପଦ ମିଶି ସମଷ୍ଟି 0 କରୁଛନ୍ତି",
+"explanation": "ଉଦାହରଣ: -2, 0, 2, ସମଷ୍ଟି 0।"
+},
+{
+"questionEnglish": "What is the relation between the terms t_2 - t_1 and t_3 - t_2 in an AP?",
+"questionOdia": "ଏକ AP ରେ t_2 - t_1 ଏବଂ t_3 - t_2 ମଧ୍ୟରେ ସମ୍ପର୍କ କ'ଣ?",
+"options": [
+"ସେମାନେ ସମାନ",
+"ସେମାନେ ପରସ୍ପରର ବିପରୀତ",
+"ସେମାନେ ଯୋଗ ହେଲେ 0",
+"କୌଣସି ସମ୍ପର୍କ ନାହିଁ"
+],
+"answer": "ସେମାନେ ସମାନ",
+"explanation": "ଉଭୟ ସାଧାରଣ ଅନ୍ତର 'd' କୁ ସୂଚାନ୍ତି।"
+},
+{
+"questionEnglish": "What is the 5th term if the AP is 10, 7, 4, ...?",
+"questionOdia": "ଯଦି AP 10, 7, 4, ... ହୁଏ, ତେବେ 5ମ ପଦ କେତେ?",
+"options": [
+"2",
+"-1",
+"1",
+"0"
+],
+"answer": "-2",
+"explanation": "a=10, d=-3. t_5 = 10 + 4*(-3) = 10 - 12 = -2।"
+},
+{
+"questionEnglish": "If three terms in AP are a-d, a, a+d, and their sum is 18, what is 'a'?",
+"questionOdia": "ଯଦି AP ରେ ତିନୋଟି ପଦ a-d, a, a+d ଏବଂ ସେମାନଙ୍କ ସମଷ୍ଟି 18, ତେବେ 'a' କେତେ?",
+"options": [
+"3",
+"6",
+"9",
+"12"
+],
+"answer": "6",
+"explanation": "3a = 18, ତେଣୁ a = 6।"
+},
+{
+"questionEnglish": "How many terms are in 2, 4, ..., 20?",
+"questionOdia": "2, 4, ..., 20 ରେ କେତୋଟି ପଦ ଅଛି?",
+"options": [
+"9",
+"10",
+"11",
+"12"
+],
+"answer": "10",
+"explanation": "t_n = a + (n-1)d => 20 = 2 + (n-1)2 => 18 = 2(n-1) => 9 = n-1 => n=10।"
+},
+{
+"questionEnglish": "What is the sum of 2, 4, ..., 20?",
+"questionOdia": "2, 4, ..., 20 ର ସମଷ୍ଟି କେତେ?",
+"options": [
+"100",
+"110",
+"120",
+"130"
+],
+"answer": "110",
+"explanation": "S_10 = 10/2 * (2 + 20) = 5 * 22 = 110।"
+},
+{
+"questionEnglish": "What is the 3rd term of 1, 3, 5...?",
+"questionOdia": "1, 3, 5... ର ତୃତୀୟ ପଦ କେତେ?",
+"options": [
+"3",
+"5",
+"1",
+"7"
+],
+"answer": "5",
+"explanation": "ପ୍ରଥମ ପଦ 1, ଦ୍ୱିତୀୟ 3, ତୃତୀୟ 5।"
+},
+{
+"questionEnglish": "In an AP, what is the value of S_1?",
+"questionOdia": "ଏକ AP ରେ, S_1 ର ମୂଲ୍ୟ କେତେ?",
+"options": [
+"a",
+"2a",
+"d",
+"0"
+],
+"answer": "a",
+"explanation": "S_1 ହେଉଛି କେବଳ ପ୍ରଥମ ପଦ, ତେଣୁ S_1 = t_1 = a।"
+},
+{
+"questionEnglish": "If t_n = 3n, is it an AP?",
+"questionOdia": "ଯଦି t_n = 3n, ତେବେ ଏହା ଏକ AP କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି n=1",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଏହା 3, 6, 9... ଏକ AP।"
+},
+{
+"questionEnglish": "What is the common difference of t_n = 3n?",
+"questionOdia": "t_n = 3n ର ସାଧାରଣ ଅନ୍ତର କେତେ?",
+"options": [
+"1",
+"2",
+"3",
+"0"
+],
+"answer": "3",
+"explanation": "t_2 - t_1 = 6 - 3 = 3।"
+},
+{
+"questionEnglish": "If an AP has a=1 and d=4, what is the 6th term?",
+"questionOdia": "ଯଦି AP ରେ a=1 ଏବଂ d=4, ତେବେ 6ଷ୍ଠ ପଦ କେତେ?",
+"options": [
+"17",
+"21",
+"25",
+"29"
+],
+"answer": "21",
+"explanation": "t_6 = 1 + 5*4 = 21।"
+},
+{
+"questionEnglish": "Can an AP have a finite number of terms?",
+"questionOdia": "AP ର ପଦ ସଂଖ୍ୟା ସୀମିତ ହୋଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି ସମଷ୍ଟି ଶୂନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସୀମିତ (finite) AP ର ଶେଷ ପଦ ଥାଏ।"
+},
+{
+"questionEnglish": "What is the common difference of 10, 10, 10...?",
+"questionOdia": "10, 10, 10... ର ସାଧାରଣ ଅନ୍ତର କେତେ?",
+"options": [
+"10",
+"1",
+"0",
+"-10"
+],
+"answer": "0",
+"explanation": "ସମାନ ପଦବିଶିଷ୍ଟ AP ରେ d=0।"
+},
+{
+"questionEnglish": "If t_n = 5 - 2n, what is the first term?",
+"questionOdia": "ଯଦି t_n = 5 - 2n, ତେବେ ପ୍ରଥମ ପଦ କେତେ?",
+"options": [
+"3",
+"2",
+"1",
+"5"
+],
+"answer": "3",
+"explanation": "t_1 = 5 - 2(1) = 3।"
+},
+{
+"questionEnglish": "If t_n = 5 - 2n, what is the second term?",
+"questionOdia": "ଯଦି t_n = 5 - 2n, ତେବେ ଦ୍ୱିତୀୟ ପଦ କେତେ?",
+"options": [
+"1",
+"3",
+"-1",
+"0"
+],
+"answer": "1",
+"explanation": "t_2 = 5 - 2(2) = 1।"
+},
+{
+"questionEnglish": "What is the common difference of t_n = 5 - 2n?",
+"questionOdia": "t_n = 5 - 2n ର ସାଧାରଣ ଅନ୍ତର କେତେ?",
+"options": [
+"2",
+"-2",
+"5",
+"-5"
+],
+"answer": "-2",
+"explanation": "t_2 - t_1 = 1 - 3 = -2।"
+},
+{
+"questionEnglish": "What is the sum of first 5 terms of 3, 1, -1...?",
+"questionOdia": "3, 1, -1... ର ପ୍ରଥମ 5ଟି ପଦର ସମଷ୍ଟି କେତେ?",
+"options": [
+"5",
+"3",
+"1",
+"-5"
+],
+"answer": "5",
+"explanation": "a=3, d=-2. 3 + 1 - 1 - 3 - 5 = -5 (ସରି, ଗଣନା ଭୁଲ, 3, 1, -1, -3, -5. ସମଷ୍ଟି = 3+1-1-3-5 = -5)। ଉତ୍ତର -5।"
+},
+{
+"questionEnglish": "What does an 'Arithmetic Progression' represent in Odia?",
+"questionOdia": "ସମାନ୍ତର ପ୍ରଗତି (Arithmetic Progression) କୁ ଓଡ଼ିଆରେ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ଜ୍ୟାମିତିକ ପ୍ରଗତି",
+"ସମାନ୍ତର ପ୍ରଗତି",
+"ସମୀକରଣ",
+"ଅନୁକ୍ରମ"
+],
+"answer": "ସମାନ୍ତର ପ୍ରଗତି",
+"explanation": "Arithmetic Progression କୁ ଓଡ଼ିଆରେ ସମାନ୍ତର ପ୍ରଗତି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which part of AP represents the starting point?",
+"questionOdia": "AP ର କେଉଁ ଅଂଶଟି ଆରମ୍ଭ ବିନ୍ଦୁ ବା ପ୍ରଥମ ସଂଖ୍ୟାକୁ ବୁଝାଏ?",
+"options": [
+"d",
+"n",
+"a",
+"S_n"
+],
+"answer": "a",
+"explanation": "'a' ହେଉଛି ପ୍ରଥମ ପଦ।"
+},
+{
+"questionEnglish": "What is the 4th term of an AP with a=0 and d=5?",
+"questionOdia": "a=0 ଏବଂ d=5 ଥିବା AP ର 4ର୍ଥ ପଦ କେତେ?",
+"options": [
+"5",
+"10",
+"15",
+"20"
+],
+"answer": "15",
+"explanation": "t_4 = 0 + 3*5 = 15।"
+},
+{
+"questionEnglish": "If an AP is 7, 7, 7..., what is the 100th term?",
+"questionOdia": "ଯଦି AP 7, 7, 7... ହୁଏ, ତେବେ 100ତମ ପଦ କେତେ?",
+"options": [
+"7",
+"700",
+"0",
+"1"
+],
+"answer": "7",
+"explanation": "ସମସ୍ତ ପଦ ସମାନ ତେଣୁ 7।"
+},
+{
+"questionEnglish": "What is the difference between terms in a sequence?",
+"questionOdia": "ଏକ ଅନୁକ୍ରମରେ ପଦଗୁଡ଼ିକ ମଧ୍ୟରେ ଥିବା ପାର୍ଥକ୍ୟକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ସାଧାରଣ ଅନ୍ତର",
+"ମଧ୍ୟ ପଦ",
+"ସମଷ୍ଟି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସାଧାରଣ ଅନ୍ତର",
+"explanation": "ପାର୍ଥକ୍ୟକୁ ସାଧାରଣ ଅନ୍ତର କୁହାଯାଏ (ଯଦି AP ହୁଏ)।"
+},
+{
+"questionEnglish": "If an AP is -1, -2, -3..., what is 'a'?",
+"questionOdia": "ଯଦି AP -1, -2, -3... ହୁଏ, ତେବେ 'a' କେତେ?",
+"options": [
+"1",
+"-1",
+"0",
+"-2"
+],
+"answer": "-1",
+"explanation": "ପ୍ରଥମ ପଦ -1।"
+},
+{
+"questionEnglish": "What is 'd' for -1, -2, -3...?",
+"questionOdia": "-1, -2, -3... ପାଇଁ 'd' କେତେ?",
+"options": [
+"1",
+"-1",
+"2",
+"-2"
+],
+"answer": "-1",
+"explanation": "-2 - (-1) = -2 + 1 = -1।"
+},
+{
+"questionEnglish": "What is the 3rd term of -1, -2, -3...?",
+"questionOdia": "-1, -2, -3... ର ତୃତୀୟ ପଦ କେତେ?",
+"options": [
+"-1",
+"-2",
+"-3",
+"-4"
+],
+"answer": "-3",
+"explanation": "ପଦଟି ସିଧା ଦେଖାଯାଉଛି।"
+},
+{
+"questionEnglish": "Can an AP have only one term?",
+"questionOdia": "AP ର କେବଳ ଗୋଟିଏ ପଦ ଥାଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ସର୍ବଦା ଦୁଇଟି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଗୋଟିଏ ପଦ ବିଶିଷ୍ଟ ଅନୁକ୍ରମ ମଧ୍ୟ AP ଭାବେ ଗଣାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "What is the sum of a constant AP (c, c, c... for n terms)?",
+"questionOdia": "ଏକ ସ୍ଥିର AP (c, c, c... n-ଟି ପଦ ପାଇଁ) ର ସମଷ୍ଟି କେତେ?",
+"options": [
+"c",
+"nc",
+"n+c",
+"0"
+],
+"answer": "nc",
+"explanation": "c କୁ n ଥର ଯୋଗ କଲେ nc ମିଳେ।"
+},
+{
+"questionEnglish": "Is 1, 2, 4, 8 an AP?",
+"questionOdia": "1, 2, 4, 8 ଏକ AP କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି 16 ଥାଏ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ପାର୍ଥକ୍ୟ ସମାନ ନୁହେଁ (2-1=1, 4-2=2)।"
+},
+{
+"questionEnglish": "What is the common difference of 1, 3, 5, 7...?",
+"questionOdia": "1, 3, 5, 7... ର ସାଧାରଣ ଅନ୍ତର କେତେ?",
+"options": [
+"1",
+"2",
+"3",
+"0"
+],
+"answer": "2",
+"explanation": "3-1=2, 5-3=2।"
+},
+{
+"questionEnglish": "What is the 5th term of 1, 3, 5, 7...?",
+"questionOdia": "1, 3, 5, 7... ର 5ମ ପଦ କେତେ?",
+"options": [
+"7",
+"9",
+"11",
+"5"
+],
+"answer": "9",
+"explanation": "t_5 = 1 + 4*2 = 9।"
+},
+{
+"questionEnglish": "What is the sum of first 3 terms of 1, 3, 5...?",
+"questionOdia": "1, 3, 5... ର ପ୍ରଥମ 3ଟି ପଦର ସମଷ୍ଟି କେତେ?",
+"options": [
+"8",
+"9",
+"7",
+"10"
+],
+"answer": "9",
+"explanation": "1 + 3 + 5 = 9।"
+},
+{
+"questionEnglish": "What is 'd' in AP 5, 10, 15...?",
+"questionOdia": "AP 5, 10, 15... ରେ 'd' କେତେ?",
+"options": [
+"5",
+"10",
+"1",
+"0"
+],
+"answer": "5",
+"explanation": "10-5=5।"
+},
+{
+"questionEnglish": "What is the 4th term of 5, 10, 15...?",
+"questionOdia": "5, 10, 15... ର 4ର୍ଥ ପଦ କେତେ?",
+"options": [
+"15",
+"20",
+"25",
+"5"
+],
+"answer": "20",
+"explanation": "5 + 3*5 = 20।"
+},
+{
+"questionEnglish": "Can n be negative?",
+"questionOdia": "n ଋଣାତ୍ମକ ହୋଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ AP ରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "n ସର୍ବଦା ଧନାତ୍ମକ ପୂର୍ଣ୍ଣସଂଖ୍ୟା।"
+},
+{
+"questionEnglish": "What is the formula for sum of AP using first and last term?",
+"questionOdia": "ପ୍ରଥମ ଓ ଶେଷ ପଦ ବ୍ୟବହାର କରି AP ର ସମଷ୍ଟିର ସୂତ୍ର କ'ଣ?",
+"options": [
+"n/2 * (a+l)",
+"n * (a+l)",
+"2n * (a+l)",
+"n/2 * (a-l)"
+],
+"answer": "n/2 * (a+l)",
+"explanation": "S_n = n/2 * (a+l), l = ଶେଷ ପଦ।"
+},
+{
+"questionEnglish": "If a=10, d=-2, what is the 3rd term?",
+"questionOdia": "ଯଦି a=10, d=-2, ତେବେ 3ୟ ପଦ କେତେ?",
+"options": [
+"8",
+"6",
+"4",
+"10"
+],
+"answer": "6",
+"explanation": "10 + 2*(-2) = 10 - 4 = 6।"
+},
+{
+"questionEnglish": "Are terms 2, 4, 6... in AP?",
+"questionOdia": "2, 4, 6... ପଦଗୁଡ଼ିକ AP ରେ ଅଛନ୍ତି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, କାରଣ d=2।"
+},
+{
+"questionEnglish": "Is 3, 5, 9, 17 an AP?",
+"questionOdia": "3, 5, 9, 17 ଏକ AP କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି d=2",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ପାର୍ଥକ୍ୟ 2, 4, 8... ଅଟେ।"
+},
+{
+"questionEnglish": "What is the 10th term of an AP if a=1, d=1?",
+"questionOdia": "ଯଦି a=1, d=1, ତେବେ 10ତମ ପଦ କେତେ?",
+"options": [
+"9",
+"10",
+"11",
+"1"
+],
+"answer": "10",
+"explanation": "t_10 = 1 + 9*1 = 10।"
+},
+{
+"questionEnglish": "What is the sum of first 10 terms if a=1, d=1?",
+"questionOdia": "ଯଦି a=1, d=1, ତେବେ ପ୍ରଥମ 10ଟି ପଦର ସମଷ୍ଟି କେତେ?",
+"options": [
+"50",
+"55",
+"45",
+"60"
+],
+"answer": "55",
+"explanation": "S_10 = 10/2 * (1 + 10) = 5 * 11 = 55।"
+},
+{
+"questionEnglish": "If t_n = 4, is it an AP?",
+"questionOdia": "ଯଦି t_n = 4, ଏହା ଏକ AP କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ n=1 ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "4, 4, 4... ଏକ AP (d=0)।"
+},
+{
+"questionEnglish": "What is the common difference of an AP where t_n is constant?",
+"questionOdia": "ଯେଉଁ AP ରେ t_n ସ୍ଥିର, ତାହାର ସାଧାରଣ ଅନ୍ତର କେତେ?",
+"options": [
+"1",
+"0",
+"c",
+"n"
+],
+"answer": "0",
+"explanation": "ସ୍ଥିର ପଦ ଥିଲେ d=0।"
+},
+{
+"questionEnglish": "What is the first term of t_n = n^2?",
+"questionOdia": "t_n = n^2 ର ପ୍ରଥମ ପଦ କେତେ?",
+"options": [
+"1",
+"2",
+"4",
+"0"
+],
+"answer": "1",
+"explanation": "1^2 = 1।"
+},
+{
+"questionEnglish": "Is t_n = n^2 an AP?",
+"questionOdia": "t_n = n^2 ଏକ AP କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ n=1",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "1, 4, 9, 16... d ସମାନ ନୁହେଁ।"
+},
+{
+"questionEnglish": "What is the sum of terms in 5, 10, 15 for 3 terms?",
+"questionOdia": "5, 10, 15 ପାଇଁ 3ଟି ପଦର ସମଷ୍ଟି କେତେ?",
+"options": [
+"25",
+"30",
+"35",
+"20"
+],
+"answer": "30",
+"explanation": "5 + 10 + 15 = 30।"
+},
+{
+"questionEnglish": "In an AP, what is a_n?",
+"questionOdia": "AP ରେ, a_n କ'ଣ?",
+"options": [
+"n-ତମ ପଦ",
+"ସମଷ୍ଟି",
+"ସାଧାରଣ ଅନ୍ତର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "n-ତମ ପଦ",
+"explanation": "a_n କୁ ମଧ୍ୟ n-ତମ ପଦ ବୋଲି ଲେଖାଯାଏ।"
+},
+{
+"questionEnglish": "If a=2, d=2, find the sum of first 4 terms.",
+"questionOdia": "ଯଦି a=2, d=2, ପ୍ରଥମ 4ଟି ପଦର ସମଷ୍ଟି ନିର୍ଣ୍ଣୟ କର।",
+"options": [
+"18",
+"20",
+"22",
+"24"
+],
+"answer": "20",
+"explanation": "2+4+6+8 = 20।"
+},
+{
+"questionEnglish": "What is the 3rd term if a=5, d=-1?",
+"questionOdia": "ଯଦି a=5, d=-1, ତେବେ 3ୟ ପଦ କେତେ?",
+"options": [
+"3",
+"4",
+"5",
+"2"
+],
+"answer": "3",
+"explanation": "5 + 2*(-1) = 3।"
+},
+{
+"questionEnglish": "Is -2, -4, -6 an AP?",
+"questionOdia": "-2, -4, -6 ଏକ AP କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି ପଦ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "d = -2।"
+},
+{
+"questionEnglish": "What is the common difference of -2, -4, -6...?",
+"questionOdia": "-2, -4, -6... ର ସାଧାରଣ ଅନ୍ତର କେତେ?",
+"options": [
+"2",
+"-2",
+"4",
+"-4"
+],
+"answer": "-2",
+"explanation": "-4 - (-2) = -2।"
+},
+{
+"questionEnglish": "What is the formula for the common difference 'd'?",
+"questionOdia": "ସାଧାରଣ ଅନ୍ତର 'd' ପାଇଁ ସୂତ୍ର କ'ଣ?",
+"options": [
+"t_n - t_{n-1}",
+"t_{n-1} - t_n",
+"t_n + t_{n-1}",
+"t_n / t_{n-1}"
+],
+"answer": "t_n - t_{n-1}",
+"explanation": "d = t_n - t_{n-1}।"
+},
+{
+"questionEnglish": "What is the 2nd term of an AP with a=10, d=-5?",
+"questionOdia": "a=10, d=-5 ଥିବା AP ର 2ୟ ପଦ କେତେ?",
+"options": [
+"5",
+"0",
+"15",
+"-5"
+],
+"answer": "5",
+"explanation": "10 + (-5) = 5।"
+},
+{
+"questionEnglish": "What is the 3rd term of an AP with a=10, d=-5?",
+"questionOdia": "a=10, d=-5 ଥିବା AP ର 3ୟ ପଦ କେତେ?",
+"options": [
+"0",
+"5",
+"-5",
+"10"
+],
+"answer": "0",
+"explanation": "10 + 2*(-5) = 0।"
+},
+{
+"questionEnglish": "What is the 4th term of an AP with a=10, d=-5?",
+"questionOdia": "a=10, d=-5 ଥିବା AP ର 4ର୍ଥ ପଦ କେତେ?",
+"options": [
+"-5",
+"0",
+"5",
+"-10"
+],
+"answer": "-5",
+"explanation": "10 + 3*(-5) = -5।"
+},
+{
+"questionEnglish": "Sum of first 4 terms of AP with a=10, d=-5 is?",
+"questionOdia": "a=10, d=-5 ଥିବା AP ର ପ୍ରଥମ 4ଟି ପଦର ସମଷ୍ଟି କେତେ?",
+"options": [
+"10",
+"15",
+"20",
+"5"
+],
+"answer": "10",
+"explanation": "10 + 5 + 0 - 5 = 10।"
+},
+{
+"questionEnglish": "Which AP has a=0, d=1?",
+"questionOdia": "a=0, d=1 ଥିବା AP କେଉଁଟି?",
+"options": [
+"1, 2, 3",
+"0, 1, 2",
+"0, 0, 0",
+"1, 1, 1"
+],
+"answer": "0, 1, 2",
+"explanation": "0, 0+1=1, 1+1=2।"
+},
+{
+"questionEnglish": "Is 1/2, 1/3, 1/4 an AP?",
+"questionOdia": "1/2, 1/3, 1/4 ଏକ AP କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି ପଦ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ପାର୍ଥକ୍ୟ ସମାନ ନୁହେଁ।"
+},
+{
+"questionEnglish": "What is 'd' for 3, 6, 9?",
+"questionOdia": "3, 6, 9 ପାଇଁ 'd' କେତେ?",
+"options": [
+"3",
+"6",
+"1",
+"0"
+],
+"answer": "3",
+"explanation": "6-3=3।"
+},
+{
+"questionEnglish": "Sum of 3, 6, 9 is?",
+"questionOdia": "3, 6, 9 ର ସମଷ୍ଟି କେତେ?",
+"options": [
+"15",
+"18",
+"21",
+"12"
+],
+"answer": "18",
+"explanation": "3+6+9 = 18।"
+},
+{
+"questionEnglish": "What is the 5th term of 3, 6, 9...?",
+"questionOdia": "3, 6, 9... ର 5ମ ପଦ କେତେ?",
+"options": [
+"12",
+"15",
+"18",
+"21"
+],
+"answer": "15",
+"explanation": "3 + 4*3 = 15।"
+},
+{
+"questionEnglish": "Does AP stand for Arithmetic Progression?",
+"questionOdia": "AP କହିଲେ Arithmetic Progression ବୁଝାଏ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଗଣିତରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, AP ର ପୂର୍ଣ୍ଣ ରୂପ Arithmetic Progression।"
+},
+{
+"questionEnglish": "What is the sum of the first 2 terms of 5, 10, 15?",
+"questionOdia": "5, 10, 15 ର ପ୍ରଥମ 2ଟି ପଦର ସମଷ୍ଟି କେତେ?",
+"options": [
+"15",
+"20",
+"25",
+"5"
+],
+"answer": "15",
+"explanation": "5 + 10 = 15।"
+},
+{
+"questionEnglish": "If an AP is constant, is it an AP?",
+"questionOdia": "ଯଦି ଏକ AP ସ୍ଥିର (constant) ହୁଏ, ତେବେ ଏହା AP କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି ପଦ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, d=0।"
+},
+{
+"questionEnglish": "What is the next term of 2, 5, 8...?",
+"questionOdia": "2, 5, 8... ର ପରବର୍ତ୍ତୀ ପଦ କେତେ?",
+"options": [
+"10",
+"11",
+"12",
+"9"
+],
+"answer": "11",
+"explanation": "8 + 3 = 11।"
+},
+{
+"questionEnglish": "Are all APs sequences?",
+"questionOdia": "ସବୁ AP ଗୁଡ଼ିକ ଅନୁକ୍ରମ (sequences) କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ସୀମିତ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, AP ହେଉଛି ଅନୁକ୍ରମର ଏକ ସ୍ୱତନ୍ତ୍ର ପ୍ରକାର।"
+},
+{
+"questionEnglish": "In AP 1, 2, 3..., what is the 100th term?",
+"questionOdia": "AP 1, 2, 3... ରେ, 100ତମ ପଦ କେତେ?",
+"options": [
+"99",
+"100",
+"101",
+"1"
+],
+"answer": "100",
+"explanation": "t_100 = 100।"
+},
+{
+"questionEnglish": "What is the sum of 1, 2, 3... for 100 terms?",
+"questionOdia": "1, 2, 3... ର 100ଟି ପଦ ପାଇଁ ସମଷ୍ଟି କେତେ?",
+"options": [
+"5000",
+"5050",
+"5100",
+"10000"
+],
+"answer": "5050",
+"explanation": "n(n+1)/2 = 100*101/2 = 5050।"
+},
+{
+"questionEnglish": "If 'a' is negative and 'd' is positive, the terms...",
+"questionOdia": "ଯଦି 'a' ଋଣାତ୍ମକ ଏବଂ 'd' ଧନାତ୍ମକ, ତେବେ ପଦଗୁଡ଼ିକ...",
+"options": [
+"ବଢ଼ିବ",
+"କମିବ",
+"ସମାନ ରହିବ",
+"ଶୂନ ହେବ"
+],
+"answer": "ବଢ଼ିବ",
+"explanation": "ଧନାତ୍ମକ 'd' ଯୋଗ ହେଲେ ପଦ ବଢ଼ିଥାଏ।"
+},
+{
+"questionEnglish": "Is 0, -5, -10 an AP?",
+"questionOdia": "0, -5, -10 ଏକ AP କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି ପଦ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "d = -5।"
+},
+{
+"questionEnglish": "What is the 3rd term of 0, -5, -10...?",
+"questionOdia": "0, -5, -10... ର 3ୟ ପଦ କେତେ?",
+"options": [
+"-10",
+"-5",
+"0",
+"-15"
+],
+"answer": "-10",
+"explanation": "ସିଧା ଦେଖାଯାଉଛି।"
+},
+{
+"questionEnglish": "Sum of 0, -5, -10 for 3 terms?",
+"questionOdia": "0, -5, -10 ପାଇଁ 3ଟି ପଦର ସମଷ୍ଟି କେତେ?",
+"options": [
+"-15",
+"15",
+"0",
+"-5"
+],
+"answer": "-15",
+"explanation": "0 - 5 - 10 = -15।"
+},
+{
+"questionEnglish": "What is 'd' for 0, -5, -10?",
+"questionOdia": "0, -5, -10 ପାଇଁ 'd' କେତେ?",
+"options": [
+"-5",
+"5",
+"0",
+"-10"
+],
+"answer": "-5",
+"explanation": "-5 - 0 = -5।"
+}
 ]
-
