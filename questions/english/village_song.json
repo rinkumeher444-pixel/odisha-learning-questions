@@ -1,1 +1,553 @@
+[
+{
+"questionEnglish": "Who is the poet of the poem 'Village Song'?",
+"options": [
+"William Wordsworth",
+"Sarojini Naidu",
+"Rabindranath Tagore",
+"Robert Frost"
+],
+"answer": "Sarojini Naidu",
+"explanation": "The text explicitly identifies Sarojini Naidu as the poet of 'Village Song'."
+},
+{
+"questionEnglish": "What is the primary concern of the mother in the poem 'Village Song'?",
+"options": [
+"The girl's health",
+"The girl's marriage and settlement",
+"The weather conditions",
+"The girl's education"
+],
+"answer": "The girl's marriage and settlement",
+"explanation": "The lead-in states that parents want to see their children happily married and settled, which is the mother's concern."
+},
+{
+"questionEnglish": "Why does the mother call the daughter 'Honey child'?",
+"options": [
+"Because the girl likes honey",
+"To show her deep affection and love",
+"Because the girl is very sweet in nature",
+"Because the girl is eating honey"
+],
+"answer": "To show her deep affection and love",
+"explanation": "The term 'Honey child' is used to express the mother's intense love and tenderness towards her daughter."
+},
+{
+"questionEnglish": "What does the mother ask the girl about her 'jewels'?",
+"options": [
+"Why she is wearing them",
+"If she wants to sell them",
+"Why she would cast them to the breezes",
+"Who gave them to her"
+],
+"answer": "Why she would cast them to the breezes",
+"explanation": "The mother is worried that the girl is abandoning her worldly possessions, represented by 'jewels', to go to the forest."
+},
+{
+"questionEnglish": "What does the mother remind the girl about regarding her lover?",
+"options": [
+"That he is wealthy",
+"That he is riding forth to wed her",
+"That he is waiting in the forest",
+"That he does not love her"
+],
+"answer": "That he is riding forth to wed her",
+"explanation": "The mother mentions the lover who is coming to marry the girl to dissuade her from leaving."
+},
+{
+"questionEnglish": "Where does the girl intend to go according to the poem?",
+"options": [
+"To the city",
+"To the wild forest",
+"To her friend's house",
+"To the river bank"
+],
+"answer": "To the wild forest",
+"explanation": "The girl explicitly tells her mother, 'Mother mine, to the wild forest I am going'."
+},
+{
+"questionEnglish": "What does the girl see upon the champa boughs?",
+"options": [
+"Ripe fruits",
+"Champa buds blowing",
+"Birds nesting",
+"Silver robes"
+],
+"answer": "Champa buds blowing",
+"explanation": "The girl describes the forest scene, mentioning that 'upon the champa boughs the champa buds are blowing'."
+},
+{
+"questionEnglish": "What is the characteristic of the river-isles mentioned by the girl?",
+"options": [
+"They are haunted by koils",
+"They are full of snakes",
+"They are very dry",
+"They are full of people"
+],
+"answer": "They are haunted by koils",
+"explanation": "The girl refers to the 'koil-haunted river-isles' where lotus lilies glisten."
+},
+{
+"questionEnglish": "What are the lotus lilies doing in the river-isles?",
+"options": [
+"Falling",
+"Wilting",
+"Glistening",
+"Floating"
+],
+"answer": "Glistening",
+"explanation": "The poem states that the lotus lilies are 'glistening' in the river-isles."
+},
+{
+"questionEnglish": "What does the girl hear calling her from the forest?",
+"options": [
+"Her mother",
+"Her lover",
+"The voices of the fairy folk",
+"Birds singing"
+],
+"answer": "The voices of the fairy folk",
+"explanation": "The girl tells her mother that 'The voices of the fairy folk are calling me'."
+},
+{
+"questionEnglish": "How does the mother describe the world to the girl?",
+"options": [
+"As a place of misery",
+"As a place full of pleasure",
+"As a dangerous place",
+"As a place of loneliness"
+],
+"answer": "As a place full of pleasure",
+"explanation": "The mother tells her, 'the world is full of pleasure', trying to convince her to stay."
+},
+{
+"questionEnglish": "What examples of worldly pleasures does the mother give?",
+"options": [
+"Wealth and power",
+"Bridal-songs, cradle-songs, and sandal-scented leisure",
+"Jewels and gold",
+"Travel and fame"
+],
+"answer": "Bridal-songs, cradle-songs, and sandal-scented leisure",
+"explanation": "The mother lists these traditional signs of a settled, pleasant life to entice the girl."
+},
+{
+"questionEnglish": "Where are the girl's bridal robes, according to her mother?",
+"options": [
+"In a box",
+"In the loom",
+"In the forest",
+"At the shop"
+],
+"answer": "In the loom",
+"explanation": "The mother mentions, 'Your bridal robes are in the loom', indicating they are being prepared."
+},
+{
+"questionEnglish": "What are the colours of the girl's bridal robes?",
+"options": [
+"Red and white",
+"Silver and saffron glowing",
+"Blue and green",
+"Black and yellow"
+],
+"answer": "Silver and saffron glowing",
+"explanation": "The poem describes the robes as 'silver and saffron glowing'."
+},
+{
+"questionEnglish": "What does the mother say about the bridal cakes?",
+"options": [
+"They are finished",
+"They are on the hearth",
+"They are in the forest",
+"They are ruined"
+],
+"answer": "They are on the hearth",
+"explanation": "The mother mentions that 'Your bridal cakes are on the hearth'."
+},
+{
+"questionEnglish": "Why does the girl ignore the mother's pleas?",
+"options": [
+"She hates her mother",
+"She is lured by the natural beauty and fairy land",
+"She does not like the lover",
+"She wants to work in the city"
+],
+"answer": "She is lured by the natural beauty and fairy land",
+"explanation": "The girl is captivated by the forest environment and the call of the fairy folk, which she finds more attractive than societal settlement."
+},
+{
+"questionEnglish": "What is the symbolic meaning of 'wild forest' in this poem?",
+"options": [
+"A place for hunting",
+"A symbol of freedom and nature",
+"A place where the girl will get lost",
+"A dangerous and dark location"
+],
+"answer": "A symbol of freedom and nature",
+"explanation": "The wild forest represents the girl's desire for an untamed, free life, contrasting with the domestic life offered by her mother."
+},
+{
+"questionEnglish": "What does 'bridal-songs' symbolize?",
+"options": [
+"Sadness",
+"The beginning of marital life and family responsibility",
+"The forest sounds",
+"Death"
+],
+"answer": "The beginning of marital life and family responsibility",
+"explanation": "Bridal-songs represent the societal expectations of marriage and settling down."
+},
+{
+"questionEnglish": "What does 'cradle-songs' represent?",
+"options": [
+"Music for the fairy folk",
+"The life of a mother and her children",
+"Songs for the birds",
+"The girl's own childhood"
+],
+"answer": "The life of a mother and her children",
+"explanation": "Cradle-songs represent the future maternal role and responsibilities that the mother wants for her daughter."
+},
+{
+"questionEnglish": "How does the mother try to emotionally influence the girl?",
+"options": [
+"By threatening her",
+"By reminding her of the lover and maternal duty",
+"By promising her money",
+"By telling her stories of the forest"
+],
+"answer": "By reminding her of the lover and maternal duty",
+"explanation": "The mother appeals to the girl's sense of duty to her future husband and her potential role as a mother."
+},
+{
+"questionEnglish": "Which of these phrases from the poem relates to 'Pleasure in Nature'?",
+"options": [
+"Bridal cakes",
+"Sandal-scented leisure",
+"Lotus lilies glisten",
+"Bridal robes"
+],
+"answer": "Lotus lilies glisten",
+"explanation": "The glistening lotus lilies are part of the natural beauty the girl prefers."
+},
+{
+"questionEnglish": "What does 'sandal-scented leisure' imply?",
+"options": [
+"A life of hard labour",
+"A comfortable, fragrant, and relaxed domestic life",
+"A life in the forest",
+"A life of travelling"
+],
+"answer": "A comfortable, fragrant, and relaxed domestic life",
+"explanation": "It describes the pleasant lifestyle the mother promises if the girl marries."
+},
+{
+"questionEnglish": "What is the tone of the mother's voice in the poem?",
+"options": [
+"Harsh and commanding",
+"Tender, persuasive, and concerned",
+"Indifferent and cold",
+"Funny and lighthearted"
+],
+"answer": "Tender, persuasive, and concerned",
+"explanation": "The mother's language shows deep love, concern for the future, and an effort to persuade her daughter."
+},
+{
+"questionEnglish": "What is the significance of the girl's response?",
+"options": [
+"She agrees to the marriage",
+"She politely rejects the marriage for the call of nature",
+"She remains silent",
+"She gets angry"
+],
+"answer": "She politely rejects the marriage for the call of nature",
+"explanation": "The girl acknowledges her mother but explains her preference for the forest, showing her firmness."
+},
+{
+"questionEnglish": "What does 'whither are you going?' mean?",
+"options": [
+"How are you going?",
+"Why are you going?",
+"Where are you going?",
+"When are you going?"
+],
+"answer": "Where are you going?",
+"explanation": "'Whither' is an old-fashioned word meaning 'to where'."
+},
+{
+"questionEnglish": "In the poem, what is the 'hearth' used for?",
+"options": [
+"Baking bridal cakes",
+"Sleeping",
+"Keeping the room warm",
+"Storing jewels"
+],
+"answer": "Baking bridal cakes",
+"explanation": "The mother mentions the bridal cakes are on the hearth, signifying preparations for the wedding."
+},
+{
+"questionEnglish": "What is the poet's message about marriage in the poem?",
+"options": [
+"It is unnecessary",
+"It is a complex social commitment that some may not desire",
+"It should be forced on everyone",
+"It is the only path to happiness"
+],
+"answer": "It is a complex social commitment that some may not desire",
+"explanation": "The poem explores the conflict between societal expectations and individual desires."
+},
+{
+"questionEnglish": "What does the 'loom' represent in the poem?",
+"options": [
+"A place for reading",
+"The instrument for weaving the bridal robes",
+"The forest floor",
+"A musical instrument"
+],
+"answer": "The instrument for weaving the bridal robes",
+"explanation": "The loom is the tool used to weave the fabric for the girl's wedding attire."
+},
+{
+"questionEnglish": "What is the meaning of 'haunted' in 'koil-haunted river-isles'?",
+"options": [
+"Scary",
+"Frequently visited or inhabited by the koil bird",
+"Empty and lonely",
+"Destroyed by fire"
+],
+"answer": "Frequently visited or inhabited by the koil bird",
+"explanation": "In this context, 'haunted' means a place where the bird (koil) is commonly found."
+},
+{
+"questionEnglish": "What kind of beauty does the poet describe in the forest?",
+"options": [
+"Artificial beauty",
+"Vibrant, natural, and alluring beauty",
+"Hidden and dark beauty",
+"Fading beauty"
+],
+"answer": "Vibrant, natural, and alluring beauty",
+"explanation": "Descriptions like 'champa buds blowing', 'lotus lilies glisten', and 'koil-haunted' depict a lively, natural beauty."
+},
+{
+"questionEnglish": "How can we honour and thank our mothers, as suggested by the class discussion topic?",
+"options": [
+"By ignoring them",
+"By praying for their well-being",
+"By leaving them",
+"By fighting with them"
+],
+"answer": "By praying for their well-being",
+"explanation": "The provided text lists 'Pray for their well-being every day' as a way to honour and thank mothers."
+},
+{
+"questionEnglish": "What are the two major categories of pleasures discussed in the poem?",
+"options": [
+"Forest pleasure and city pleasure",
+"Worldly pleasures and pleasure in Nature",
+"Marriage pleasure and travel pleasure",
+"Childhood pleasure and adult pleasure"
+],
+"answer": "Worldly pleasures and pleasure in Nature",
+"explanation": "The text table distinguishes between 'Worldly pleasures' and 'Pleasure in Nature'."
+},
+{
+"questionEnglish": "What is the girl's attitude toward her mother's arguments?",
+"options": [
+"She is convinced by them",
+"She hears them but is pulled elsewhere",
+"She finds them offensive",
+"She laughs at them"
+],
+"answer": "She hears them but is pulled elsewhere",
+"explanation": "The girl responds to the mother's points by contrasting them with the beauty of the forest."
+},
+{
+"questionEnglish": "Why is the poem called a 'Village Song'?",
+"options": [
+"Because it is sung by villagers",
+"Because it captures the essence of rural life and its cultural traditions",
+"Because it is only about farming",
+"Because it has no rhythm"
+],
+"answer": "Because it captures the essence of rural life and its cultural traditions",
+"explanation": "The poem reflects traditional rural family dynamics and values."
+},
+{
+"questionEnglish": "What do 'saffron' and 'silver' robes represent?",
+"options": [
+"Poverty",
+"Wealth and status in a wedding context",
+"Forest colours",
+"Rainy weather"
+],
+"answer": "Wealth and status in a wedding context",
+"explanation": "These are traditional, precious materials used for a wedding, representing the material comfort of marriage."
+},
+{
+"questionEnglish": "What is the poet's perspective on the girl's choice?",
+"options": [
+"She is right",
+"She is wrong",
+"The poet presents both sides neutrally",
+"The poet mocks the girl"
+],
+"answer": "The poet presents both sides neutrally",
+"explanation": "Sarojini Naidu allows the reader to understand the mother's concern and the daughter's longing without favouring one."
+},
+{
+"questionEnglish": "What is the significance of 'bridal cakes'?",
+"options": [
+"They are a snack",
+"They are an essential part of the wedding celebration",
+"They are food for the forest journey",
+"They are a gift for the mother"
+],
+"answer": "They are an essential part of the wedding celebration",
+"explanation": "Bridal cakes represent the preparations and celebrations of a conventional marriage."
+},
+{
+"questionEnglish": "What is the effect of the rhyme on the reader of the poem?",
+"options": [
+"It makes the poem confusing",
+"It creates a rhythmic, song-like quality",
+"It makes it sound like a story",
+"It has no effect"
+],
+"answer": "It creates a rhythmic, song-like quality",
+"explanation": "The rhyme scheme helps evoke the feel of a lyrical 'song'."
+},
+{
+"questionEnglish": "How would you describe the mother-daughter dynamic in the poem?",
+"options": [
+"Strict and repressive",
+"Loving but contrasting in priorities",
+"Absent",
+"Hostile"
+],
+"answer": "Loving but contrasting in priorities",
+"explanation": "The mother shows love through care for the daughter's future, while the daughter is deeply attached to the natural world."
+},
+{
+"questionEnglish": "What is the 'fairy land' atmosphere as described by the girl?",
+"options": [
+"Scary and dark",
+"Enchanting, vibrant, and calling",
+"Quiet and dull",
+"Very industrial"
+],
+"answer": "Enchanting, vibrant, and calling",
+"explanation": "The girl's description of the forest is magical and inviting, evoking a 'fairy land' feel."
+},
+{
+"questionEnglish": "Why does the mother mention the 'lover'?",
+"options": [
+"To scare the girl",
+"To remind the girl of her future husband and societal obligations",
+"To tell the girl about her secret admirer",
+"To show off the lover's wealth"
+],
+"answer": "To remind the girl of her future husband and societal obligations",
+"explanation": "The mother uses the lover as an anchor to reality and social expectations."
+},
+{
+"questionEnglish": "What does 'sandal-scented' signify?",
+"options": [
+"Dirt",
+"Fragrance and luxury",
+"Nature",
+"Poverty"
+],
+"answer": "Fragrance and luxury",
+"explanation": "Sandalwood is a precious, fragrant material, symbolising the pleasant life offered by marriage."
+},
+{
+"questionEnglish": "What is the conflict of the poem?",
+"options": [
+"Nature vs. Domestic Social Life",
+"Mother vs. Daughter",
+"Wealth vs. Poverty",
+"City vs. Village"
+],
+"answer": "Nature vs. Domestic Social Life",
+"explanation": "The central tension is between the pull of the wild forest (nature) and the pull of the domestic life of marriage (society)."
+},
+{
+"questionEnglish": "What is a 'champa'?",
+"options": [
+"A bird",
+"A type of flowering tree",
+"A river",
+"A musical instrument"
+],
+"answer": "A type of flowering tree",
+"explanation": "The girl mentions 'champa boughs', confirming it is a tree."
+},
+{
+"questionEnglish": "What does the girl mean by 'The voices of the fairy folk are calling me'?",
+"options": [
+"She is imagining things",
+"She feels an irresistible call from nature to join the magical wild",
+"She is scared",
+"She wants to become a fairy"
+],
+"answer": "She feels an irresistible call from nature to join the magical wild",
+"explanation": "This expresses the depth of her connection to the forest and her desire to leave society behind."
+},
+{
+"questionEnglish": "Is the girl's decision to leave considered an easy one?",
+"options": [
+"Yes",
+"No, it's a departure from family and societal expectations",
+"The poem doesn't say",
+"It is never decided"
+],
+"answer": "No, it's a departure from family and societal expectations",
+"explanation": "Her decision is significant because it rejects the conventional path of marriage and settlement."
+},
+{
+"questionEnglish": "What does the mother imply by 'the world is full of pleasure'?",
+"options": [
+"The forest is not good",
+"There is plenty of joy in social and domestic life",
+"The forest is dangerous",
+"The world is ending"
+],
+"answer": "There is plenty of joy in social and domestic life",
+"explanation": "The mother argues that the life the girl is rejecting is actually full of happiness."
+},
+{
+"questionEnglish": "How does the poet use repetition in the poem?",
+"options": [
+"For no reason",
+"To create a musical or lyrical effect, as in 'Honey child, honey child'",
+"To make the poem shorter",
+"To create confusion"
+],
+"answer": "To create a musical or lyrical effect, as in 'Honey child, honey child'",
+"explanation": "Repetition of words like 'Honey child' adds to the song-like quality of the poem."
+},
+{
+"questionEnglish": "What is the girl's emotional state in the poem?",
+"options": [
+"Confused and angry",
+"Longing and determined",
+"Sad and fearful",
+"Happy and excited about marriage"
+],
+"answer": "Longing and determined",
+"explanation": "She shows a longing for the beauty of nature and the determination to pursue it despite her mother's pleas."
+},
+{
+"questionEnglish": "Why would the mother worry about the girl casting her jewels to the breezes?",
+"options": [
+"Because jewels are expensive",
+"Because it shows the girl is abandoning her status and future security",
+"Because she wants the jewels for herself",
+"Because jewels are heavy"
+],
+"answer": "Because it shows the girl is abandoning her status and future security",
+"explanation": "Casting away jewels is a metaphor for rejecting her social standing and future life."
+}
+]
 
