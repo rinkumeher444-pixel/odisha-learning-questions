@@ -1,0 +1,1263 @@
+[
+{
+"questionEnglish": "According to the provided text, what is the current number of states and union territories in India?",
+"questionOdia": "ପ୍ରଦତ୍ତ ପାଠ୍ୟ ଅନୁଯାୟୀ, ବର୍ତ୍ତମାନ ଭାରତରେ କେତୋଟି ରାଜ୍ୟ ଓ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ରହିଛି?",
+"options": [
+"୨୮ଟି ରାଜ୍ୟ ଓ ୮ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ",
+"୨୯ଟି ରାଜ୍ୟ ଓ ୭ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ",
+"୨୫ଟି ରାଜ୍ୟ ଓ ୯ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ",
+"୨୮ଟି ରାଜ୍ୟ ଓ ୯ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ"
+],
+"answer": "୨୮ଟି ରାଜ୍ୟ ଓ ୮ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ",
+"explanation": "ପାଠ୍ୟରେ ବର୍ଣ୍ଣିତ ଅଛି ଯେ ବର୍ତ୍ତମାନ ଭାରତରେ ୨୮ଟି ରାଜ୍ୟ ଓ ୮ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ରହିଛି।"
+},
+{
+"questionEnglish": "Which constitutional amendment recognized Puducherry as a Union Territory?",
+"questionOdia": "କେଉଁ ସମ୍ବିଧାନ ସଂଶୋଧନ ଆଇନ ଦ୍ୱାରା ପୁଡୁଚେରୀକୁ ଏକ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ଭାବେ ମାନ୍ୟତା ମିଳିଲା?",
+"options": [
+"ଦଶମ ସଂଶୋଧନ",
+"ଦ୍ୱାଦଶ ସଂଶୋଧନ",
+"ଚତୁର୍ଦ୍ଦଶ ସଂଶୋଧନ",
+"ଅଷ୍ଟମ ସଂଶୋଧନ"
+],
+"answer": "ଚତୁର୍ଦ୍ଦଶ ସଂଶୋଧନ",
+"explanation": "ପାଠ୍ୟ ଅନୁଯାୟୀ, ଚତୁର୍ଦ୍ଦଶ ସମ୍ବିଧାନ ସଂଶୋଧନ ଆଇନ ମାଧ୍ୟମରେ ପୁଡୁଚେରୀକୁ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳର ମାନ୍ୟତା ମିଳିଥିଲା।"
+},
+{
+"questionEnglish": "Under which constitutional article was the provision for a legislative assembly in Puducherry made?",
+"questionOdia": "ସମ୍ବିଧାନର କେଉଁ ଧାରା ଅନୁସାରେ ପୁଡୁଚେରୀରେ ଏକ ବିଧାନସଭା ବ୍ୟବସ୍ଥା କରାଯାଇଛି?",
+"options": [
+"ଧାରା ୨୩୯",
+"ଧାରା ୨୩୯ 'କ'",
+"ଧାରା ୨୪୦",
+"ଧାରା ୨୪୧"
+],
+"answer": "ଧାରା ୨୩୯ 'କ'",
+"explanation": "ସମ୍ବିଧାନ ସଂଶୋଧନ ଆଇନ ଓ ଧାରା ୨୩୯ 'କ' ଅନୁସାରେ ପୁଡୁଚେରୀରେ ବିଧାନସଭା ବ୍ୟବସ୍ଥା କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "Who is the head of the administration in Puducherry?",
+"questionOdia": "ପୁଡୁଚେରୀର ଶାସନ ମୁଖ୍ୟ କିଏ?",
+"options": [
+"ରାଜ୍ୟପାଳ",
+"ମୁଖ୍ୟମନ୍ତ୍ରୀ",
+"ଉପରାଜ୍ୟପାଳ",
+"ରାଷ୍ଟ୍ରପତି"
+],
+"answer": "ଉପରାଜ୍ୟପାଳ",
+"explanation": "ପୁଡୁଚେରୀର ଶାସନ ମୁଖ୍ୟ ହେଉଛନ୍ତି ରାଷ୍ଟ୍ରପତିଙ୍କ ଦ୍ୱାରା ନିଯୁକ୍ତ ଉପରାଜ୍ୟପାଳ (ଲ୍ୟୁଟନାଣ୍ଟ ଗଭର୍ଣ୍ଣର)।"
+},
+{
+"questionEnglish": "In which year did Delhi receive the status of 'National Capital Territory'?",
+"questionOdia": "କେଉଁ ବର୍ଷ ଦିଲ୍ଲୀକୁ 'ଜାତୀୟ ରାଜଧାନୀ ଅଞ୍ଚଳ' (National Capital Territory) ର ମାନ୍ୟତା ମିଳିଲା?",
+"options": [
+"୧୯୯୦",
+"୧୯୯୧",
+"୧୯୯୨",
+"୧୯୯୩"
+],
+"answer": "୧୯୯୧",
+"explanation": "୧୯୯୧ ମସିହାରେ ଉନସତୁରିତମ ସମ୍ବିଧାନ ସଂଶୋଧନ ଆଇନ ବଳରେ ଦିଲ୍ଲୀକୁ ଜାତୀୟ ରାଜଧାନୀ ଅଞ୍ଚଳର ମାନ୍ୟତା ମିଳିଲା।"
+},
+{
+"questionEnglish": "Which subjects are outside the legislative power of the Delhi Assembly?",
+"questionOdia": "ଦିଲ୍ଲୀ ବିଧାନସଭାର ଆଇନ ପ୍ରଣୟନ କ୍ଷମତାରୁ କେଉଁ ବିଷୟଗୁଡ଼ିକ ବାଦ ଦିଆଯାଇଛି?",
+"options": [
+"ଶିକ୍ଷା ଓ ସ୍ୱାସ୍ଥ୍ୟ",
+"ଜଳ ଓ ବିଦ୍ୟୁତ୍",
+"ଆଇନ ଓ ଶୃଙ୍ଖଳା, ପୋଲିସ ଓ ଜମି",
+"କୃଷି ଓ ବାଣିଜ୍ୟ"
+],
+"answer": "ଆଇନ ଓ ଶୃଙ୍ଖଳା, ପୋଲିସ ଓ ଜମି",
+"explanation": "ଦିଲ୍ଲୀ ବିଧାନସଭା ଆଇନ ଓ ଶୃଙ୍ଖଳା (Law and Order), ପୋଲିସ ଓ ଜମି ବିଷୟ ବ୍ୟତୀତ ଅନ୍ୟାନ୍ୟ ବିଷୟରେ ଆଇନ ପ୍ରଣୟନ କରିପାରିବ।"
+},
+{
+"questionEnglish": "Who established the 'States Reorganization Commission' in 1953?",
+"questionOdia": "୧୯୫୩ ମସିହାରେ କିଏ 'ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆୟୋଗ' ଗଠନ କରିଥିଲେ?",
+"options": [
+"ଭାରତ ସରକାର",
+"ସମ୍ବିଧାନ ସଭା",
+"ଭାରତର ରାଷ୍ଟ୍ରପତି",
+"ଭାରତର ସୁପ୍ରିମକୋର୍ଟ"
+],
+"answer": "ଭାରତ ସରକାର",
+"explanation": "ନୂତନ ରାଜ୍ୟ ବା ପ୍ରଦେଶ ଗଠନ ଦାବି ସମାଧାନ କରିବା ଉଦ୍ଦେଶ୍ୟରେ ୧୯୫୩ ମସିହାରେ ଭାରତ ସରକାର 'ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆୟୋଗ' ଗଠନ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Who were the members of the States Reorganization Commission?",
+"questionOdia": "ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆୟୋଗର ସଦସ୍ୟମାନେ କିଏ ଥିଲେ?",
+"options": [
+"ଜବାହରଲାଲ ନେହେରୁ, ସର୍ଦ୍ଦାର ପଟେଲ, ପଟ୍ଟାଭି ସୀତାରାମୟା",
+"ଫଜଲ ଅଲ୍ଲୀ, ଏଚ. ଏମ୍. ପାଣିକର, ହୃଦୟନାଥ କୁଞ୍ଜରୁ",
+"ଆମ୍ବେଦକର, ରାଜେନ୍ଦ୍ର ପ୍ରସାଦ, ମୌଲାନା ଆଜାଦ",
+"କେହି ନୁହଁନ୍ତି"
+],
+"answer": "ଫଜଲ ଅଲ୍ଲୀ, ଏଚ. ଏମ୍. ପାଣିକର, ହୃଦୟନାଥ କୁଞ୍ଜରୁ",
+"explanation": "ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆୟୋଗର ତିନିଜଣ ସଦସ୍ୟ ଥିଲେ - ନ୍ୟାୟମୂର୍ତ୍ତି ଫଜଲ ଅଲ୍ଲୀ, ଏଚ. ଏମ୍. ପାଣିକର ଓ ହୃଦୟନାଥ କୁଞ୍ଜରୁ।"
+},
+{
+"questionEnglish": "Which state was the first to be formed on a linguistic basis in 1953?",
+"questionOdia": "୧୯୫୩ ମସିହାରେ ଭାଷାଭିତ୍ତିକ ଆଧାରରେ ଗଠିତ ପ୍ରଥମ ରାଜ୍ୟ କେଉଁଟି?",
+"options": [
+"ମହାରାଷ୍ଟ୍ର",
+"କର୍ଣ୍ଣାଟକ",
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"ତାମିଲନାଡୁ"
+],
+"answer": "ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"explanation": "ତେଲୁଗୁ ଭାଷାଭାଷୀ ଲୋକଙ୍କ ଦାବି ମାନିନେଇ ୧୯୫୩ ମସିହାରେ ସରକାର ଆନ୍ଧ୍ରପ୍ରଦେଶ ଗଠନ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What was the main objective of the States Reorganization Commission?",
+"questionOdia": "ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆୟୋଗର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ'ଣ ଥିଲା?",
+"options": [
+"କେବଳ ଭାଷାଭିତ୍ତିକ ରାଜ୍ୟ ଗଠନ",
+"ଜାତୀୟ ଏକତା ଓ ସଂହତିର ସୁରକ୍ଷା ସହ ଜନସାଧାରଣଙ୍କ କଲ୍ୟାଣ",
+"ରାଜ୍ୟ ସୀମା କମାଇବା",
+"କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ବଢ଼ାଇବା"
+],
+"answer": "ଜାତୀୟ ଏକତା ଓ ସଂହତିର ସୁରକ୍ଷା ସହ ଜନସାଧାରଣଙ୍କ କଲ୍ୟାଣ",
+"explanation": "ଆୟୋଗର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ ଥିଲା ଜାତୀୟ ଏକତା ଓ ସଂହତିର ସୁରକ୍ଷା କରିବା ସହ ଜନସାଧାରଣଙ୍କ କଲ୍ୟାଣ ସୁନିଶ୍ଚିତ କରିବା।"
+},
+{
+"questionEnglish": "When was Sikkim recognized as a full-fledged state?",
+"questionOdia": "ସିକିମକୁ କେବେ ଏକ 'ପୂର୍ଣ୍ଣାଙ୍ଗ ରାଜ୍ୟ' ର ମାନ୍ୟତା ମିଳିଲା?",
+"options": [
+"୧୯୭୪",
+"୧୯୭୫",
+"୧୯୭୬",
+"୧୯୭୩"
+],
+"answer": "୧୯୭୫",
+"explanation": "ସମ୍ବିଧାନର ୩୫ତମ ସଂଶୋଧନରେ ସିକିମକୁ ପ୍ରଥମେ ସହରାଜ୍ୟ ଓ ୧୯୭୫ ମସିହାରେ ୩୬ତମ ସଂଶୋଧନରେ ପୂର୍ଣ୍ଣାଙ୍ଗ ରାଜ୍ୟର ମାନ୍ୟତା ମିଳିଲା।"
+},
+{
+"questionEnglish": "Which article of the Constitution allows Parliament to form new states by altering boundaries?",
+"questionOdia": "ସମ୍ବିଧାନର କେଉଁ ଧାରା ଅନୁସାରେ ସଂସଦ ଆଇନ ପ୍ରଣୟନ କରି ନୂତନ ରାଜ୍ୟ ସୃଷ୍ଟି ବା ସୀମା ପରିବର୍ତ୍ତନ କରିପାରିବ?",
+"options": [
+"ଧାରା ୧",
+"ଧାରା ୨",
+"ଧାରା ୩",
+"ଧାରା ୪"
+],
+"answer": "ଧାରା ୩",
+"explanation": "ଧାରା ୩ ଅନୁସାରେ ସଂସଦ ଆଇନ ପ୍ରଣୟନ କରି କୌଣସି ରାଜ୍ୟର ଅଞ୍ଚଳ କମାଇବା, ବଢ଼ାଇବା, ନାମ ପରିବର୍ତ୍ତନ ବା ନୂତନ ରାଜ୍ୟ ସୃଷ୍ଟି କରିପାରିବ।"
+},
+{
+"questionEnglish": "In which year was the Punjab Reorganization Act passed?",
+"questionOdia": "ପଞ୍ଜାବ ପୁନର୍ଗଠନ ଆଇନ କେଉଁ ବର୍ଷ ପାରିତ ହୋଇଥିଲା?",
+"options": [
+"୧୯୬୪",
+"୧୯୬୫",
+"୧୯୬୬",
+"୧୯୬୭"
+],
+"answer": "୧୯୬୬",
+"explanation": "୧୯୬୬ ମସିହାରେ ପଞ୍ଜାବ ପୁନର୍ଗଠନ ଆଇନ ବଳରେ ପଞ୍ଜାବ ବିଭାଜିତ ହୋଇ ହରିୟାଣା ଓ ପଞ୍ଜାବ ରାଜ୍ୟ ଗଠିତ ହେଲା।"
+},
+{
+"questionEnglish": "When was the state of Uttarakhand created?",
+"questionOdia": "ଉତ୍ତରାଖଣ୍ଡ ରାଜ୍ୟ କେବେ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"୨୦୦୦ ମସିହା ନଭେମ୍ବର ୯",
+"୨୦୦୦ ମସିହା ନଭେମ୍ବର ୧୫",
+"୨୦୦୦ ମସିହା ନଭେମ୍ବର ୧",
+"୨୦୦୧ ମସିହା ଜାନୁଆରୀ ୧"
+],
+"answer": "୨୦୦୦ ମସିହା ନଭେମ୍ବର ୯",
+"explanation": "ଉତ୍ତରପ୍ରଦେଶ ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆଇନ-୨୦୦୦ ବଳରେ ୨୦୦୦ ମସିହା ନଭେମ୍ବର ୯ ତାରିଖରେ ଉତ୍ତରାଖଣ୍ଡ ରାଜ୍ୟ ଗଠିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Which state was formed by bifurcating Bihar in 2000?",
+"questionOdia": "୨୦୦୦ ମସିହାରେ ବିହାରକୁ ବିଭାଜିତ କରି କେଉଁ ରାଜ୍ୟ ଗଠନ କରାଯାଇଥିଲା?",
+"options": [
+"ଝାଡ଼ଖଣ୍ଡ",
+"ଛତିଶଗଡ଼",
+"ଉତ୍ତରାଖଣ୍ଡ",
+"ତେଲେଙ୍ଗାନା"
+],
+"answer": "ଝାଡ଼ଖଣ୍ଡ",
+"explanation": "ବିହାର ପୁନର୍ଗଠନ ଆଇନ-୨୦୦୦ ବଳରେ ବିହାରର କିଛି ଅଞ୍ଚଳକୁ ନେଇ ଝାଡ଼ଖଣ୍ଡ ରାଜ୍ୟ ଗଠନ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "When was Telangana formed as a new state?",
+"questionOdia": "ତେଲେଙ୍ଗାନା କେବେ ଏକ ନୂତନ ରାଜ୍ୟ ଭାବେ ଗଠିତ ହେଲା?",
+"options": [
+"୨୦୧୩ ଜୁନ୍ ୨",
+"୨୦୧୪ ଜୁନ୍ ୨",
+"୨୦୧୫ ଜୁନ୍ ୨",
+"୨୦୧୪ ଜାନୁଆରୀ ୨"
+],
+"answer": "୨୦୧୪ ଜୁନ୍ ୨",
+"explanation": "ଆନ୍ଧ୍ରପ୍ରଦେଶ ପୁନର୍ଗଠନ ଆଇନ-୨୦୧୪ ଅନୁସାରେ ୨୦୧୪ ମସିହା ଜୁନ୍ ୨ ତାରିଖରେ ତେଲେଙ୍ଗାନା ରାଜ୍ୟ ଗଠିତ ହେଲା।"
+},
+{
+"questionEnglish": "When was the Jammu and Kashmir Reorganization Act passed?",
+"questionOdia": "ଜମ୍ମୁ ଓ କାଶ୍ମୀର ପୁନର୍ଗଠନ ଆଇନ କେଉଁ ବର୍ଷ ପାରିତ ହୋଇଥିଲା?",
+"options": [
+"୨୦୧୮",
+"୨୦୧୯",
+"୨୦୨୦",
+"୨୦୧୭"
+],
+"answer": "୨୦୧୯",
+"explanation": "୨୦୧୯ ମସିହାରେ ଜମ୍ମୁ ଓ କାଶ୍ମୀର ପୁନର୍ଗଠନ ଆଇନ ଅନୁସାରେ ଜମ୍ମୁ ଓ କାଶ୍ମୀରକୁ ବିଭାଜିତ କରି ଦୁଇଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ଗଠନ କରାଗଲା।"
+},
+{
+"questionEnglish": "Which state's name was changed to Tamil Nadu in 1969?",
+"questionOdia": "୧୯୬୯ ମସିହାରେ କେଉଁ ରାଜ୍ୟର ନାମ ପରିବର୍ତ୍ତନ ହୋଇ ତାମିଲନାଡୁ ହେଲା?",
+"options": [
+"ମାଡ୍ରାସ",
+"ମହୀଶୂର",
+"କେରଳ",
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ"
+],
+"answer": "ମାଡ୍ରାସ",
+"explanation": "୧୯୬୯ ମସିହାରେ ମାଡ୍ରାସ ରାଜ୍ୟ (ନାମ ପରିବର୍ତ୍ତନ) ଆଇନ ବଳରେ ମାଡ୍ରାସର ନୂତନ ନାମ ତାମିଲନାଡୁ ହେଲା।"
+},
+{
+"questionEnglish": "What was the former name of Karnataka before it was renamed in 1973?",
+"questionOdia": "୧୯୭୩ ମସିହାରେ ନାମ ପରିବର୍ତ୍ତନ ପୂର୍ବରୁ କର୍ଣ୍ଣାଟକର ପୁରୁଣା ନାମ କ'ଣ ଥିଲା?",
+"options": [
+"ମାଡ୍ରାସ",
+"ମହୀଶୂର",
+"ତ୍ରାଭାଙ୍କୋର",
+"ମାଳବାର"
+],
+"answer": "ମହୀଶୂର",
+"explanation": "୧୯୭୩ ମସିହାରେ ମହୀଶୂର ରାଜ୍ୟ (ନାମ ପରିବର୍ତ୍ତନ) ଆଇନ ବଳରେ 'ମହୀଶୂର' ନାମ ପରିବର୍ତ୍ତନ ହୋଇ 'କର୍ଣ୍ଣାଟକ' ହେଲା।"
+},
+{
+"questionEnglish": "In which year were the names of Orissa and Oriya changed to Odisha and Odia?",
+"questionOdia": "କେଉଁ ବର୍ଷ ସଂସଦରେ ଆଇନ ପ୍ରଣୟନ କରି 'ଓଡ଼ିଶା' (Orissa) ଓ 'ଓଡ଼ିଆ' (Oriya) ଶବ୍ଦ ପରିବର୍ତ୍ତନ କରାଗଲା?",
+"options": [
+"୨୦୦୯",
+"୨୦୧୦",
+"୨୦୧୧",
+"୨୦୧୨"
+],
+"answer": "୨୦୧୧",
+"explanation": "୨୦୧୧ ମସିହାରେ ସଂସଦରେ ଆଇନ ପ୍ରଣୟନ କରି 'ଓଡ଼ିଶା' ଓ 'ଓଡ଼ିଆ'ରେ ପରିବର୍ତ୍ତନ କରାଗଲା।"
+},
+{
+"questionEnglish": "What form of democracy is established in India?",
+"questionOdia": "ଭାରତରେ କି ପ୍ରକାର ଗଣତାନ୍ତ୍ରିକ ଶାସନ ବ୍ୟବସ୍ଥା ପ୍ରତିଷ୍ଠିତ ହୋଇଛି?",
+"options": [
+"ପ୍ରତ୍ୟକ୍ଷ ଗଣତନ୍ତ୍ର",
+"ପରୋକ୍ଷ ବା ପ୍ରତିନିଧିମୂଳକ ଗଣତନ୍ତ୍ର",
+"ରାଜତନ୍ତ୍ର",
+"ଏକଛତ୍ରବାଦ"
+],
+"answer": "ପରୋକ୍ଷ ବା ପ୍ରତିନିଧିମୂଳକ ଗଣତନ୍ତ୍ର",
+"explanation": "ଭାରତର ବିଶାଳ ଜନସଂଖ୍ୟା ଓ ଆୟତନକୁ ଦୃଷ୍ଟିରେ ରଖି ଏଠାରେ ପରୋକ୍ଷ ବା ପ୍ରତିନିଧିମୂଳକ ଗଣତନ୍ତ୍ର ପ୍ରତିଷ୍ଠିତ ହୋଇଛି।"
+},
+{
+"questionEnglish": "Who said, 'Democracy is of the people, by the people, and for the people'?",
+"questionOdia": "କିଏ କହିଥିଲେ, 'ଗଣତନ୍ତ୍ର ହେଉଛି ଲୋକଙ୍କର, ଲୋକଙ୍କ ଦ୍ୱାରା ଓ ଲୋକଙ୍କ ପାଇଁ ଉଦ୍ଦିଷ୍ଟ ଶାସନ'?",
+"options": [
+"ଜର୍ଜ ୱାଶିଂଟନ୍",
+"ଆବ୍ରାହମ୍ ଲିଙ୍କନ",
+"ମହାତ୍ମା ଗାନ୍ଧୀ",
+"ଜବାହରଲାଲ ନେହେରୁ"
+],
+"answer": "ଆବ୍ରାହମ୍ ଲିଙ୍କନ",
+"explanation": "ଆମେରିକାର ପୂର୍ବତନ ରାଷ୍ଟ୍ରପତି ଆବ୍ରାହମ୍ ଲିଙ୍କନ ଗଣତନ୍ତ୍ରର ଏହି ସଂଜ୍ଞା ଦେଇଥିଲେ।"
+},
+{
+"questionEnglish": "When did the new Constitution of India come into force?",
+"questionOdia": "ଭାରତର ନୂତନ ସମ୍ବିଧାନ କେବେ କାର୍ଯ୍ୟକାରୀ ହେଲା?",
+"options": [
+"୧୯୪୭ ଅଗଷ୍ଟ ୧୫",
+"୧୯୫୦ ଜାନୁଆରୀ ୨୬",
+"୧୯୪୯ ନଭେମ୍ବର ୨୬",
+"୧୯୫୦ ଅଗଷ୍ଟ ୧୫"
+],
+"answer": "୧୯୫୦ ଜାନୁଆରୀ ୨୬",
+"explanation": "୧୯୫୦ ମସିହା ଜାନୁଆରୀ ୨୬ ତାରିଖରୁ ଭାରତର ନୂତନ ସମ୍ବିଧାନ କାର୍ଯ୍ୟକାରୀ ହେଲା।"
+},
+{
+"questionEnglish": "Who played a major role in the Constituent Assembly?",
+"questionOdia": "ସମ୍ବିଧାନ ପ୍ରଣୟନ ସଭାରେ କିଏ ମୁଖ୍ୟ ଭୂମିକା ଗ୍ରହଣ କରିଥିଲେ?",
+"options": [
+"ମହାତ୍ମା ଗାନ୍ଧୀ",
+"ଡ. ବି. ଆର. ଆମ୍ବେଦକର",
+"ସର୍ଦ୍ଦାର ପଟେଲ",
+"ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ"
+],
+"answer": "ଡ. ବି. ଆର. ଆମ୍ବେଦକର",
+"explanation": "ସମ୍ବିଧାନ ପ୍ରଣୟନ ସଭାରେ ଡ. ବି. ଆର. ଆମ୍ବେଦକର ମୁଖ୍ୟ ଭୂମିକା ଗ୍ରହଣ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What does the 'Preamble' of our Constitution signify?",
+"questionOdia": "ଆମ ସମ୍ବିଧାନର 'ପ୍ରସ୍ତାବନା' କ'ଣ ସୂଚାଏ?",
+"question": "ଆମ ସମ୍ବିଧାନର 'ପ୍ରସ୍ତାବନା' (Preamble) କ'ଣ ସୂଚାଏ?",
+"options": [
+"ସମ୍ବିଧାନର ମୁଖ୍ୟ ବିଷୟବସ୍ତୁ",
+"ସମ୍ବିଧାନର ସାର କିମ୍ବା ମୁଖବନ୍ଧ",
+"ରାଜନୈତିକ ଦଳର ଇସ୍ତାହାର",
+"ମୌଳିକ ଅଧିକାର"
+],
+"answer": "ସମ୍ବିଧାନର ସାର କିମ୍ବା ମୁଖବନ୍ଧ",
+"explanation": "ଆମ ସମ୍ବିଧାନର ଆରମ୍ଭରେ ଏକ 'ପ୍ରସ୍ତାବନା' ରହିଛି, ଯାହା ସମ୍ବିଧାନର ସାର କିମ୍ବା ମୁଖବନ୍ଧ ସ୍ୱରୂପ।"
+},
+{
+"questionEnglish": "In the Indian Parliamentary system, who is the ceremonial head of the state?",
+"questionOdia": "ଭାରତୀୟ ସଂସଦୀୟ ଶାସନ ବ୍ୟବସ୍ଥାରେ ରାଷ୍ଟ୍ରର ମୁଖ୍ୟ କିଏ?",
+"options": [
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ରାଷ୍ଟ୍ରପତି",
+"ଉପରାଷ୍ଟ୍ରପତି",
+"ଲୋକସଭା ବାଚସ୍ପତି"
+],
+"answer": "ରାଷ୍ଟ୍ରପତି",
+"explanation": "ଭାରତର ରାଷ୍ଟ୍ରପତି ହେଉଛନ୍ତି ସଂସଦର ଅଭିନ୍ନ ଅଙ୍ଗ ଏବଂ ରାଷ୍ଟ୍ରର ସାମ୍ବିଧାନିକ ମୁଖ୍ୟ।"
+},
+{
+"questionEnglish": "Who is the leader of the majority party in the Lok Sabha?",
+"questionOdia": "ଲୋକସଭାରେ ସଂଖ୍ୟାଗରିଷ୍ଠ ଦଳର ନେତା କିଏ?",
+"options": [
+"ରାଷ୍ଟ୍ରପତି",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ରାଜ୍ୟପାଳ",
+"ବିରୋଧୀ ଦଳର ନେତା"
+],
+"answer": "ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"explanation": "ଲୋକସଭାରେ ସଂଖ୍ୟାଗରିଷ୍ଠ ଦଳର ନେତା ପ୍ରଧାନମନ୍ତ୍ରୀ ଭାବେ ନିଯୁକ୍ତ ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "What is the minimum voting age in India?",
+"questionOdia": "ଭାରତରେ ଭୋଟ୍ ଦେବା ପାଇଁ ସର୍ବନିମ୍ନ ବୟସ କେତେ?",
+"options": [
+"୨୧ ବର୍ଷ",
+"୧୮ ବର୍ଷ",
+"୨୫ ବର୍ଷ",
+"୧୬ ବର୍ଷ"
+],
+"answer": "୧୮ ବର୍ଷ",
+"explanation": "ଭାରତୀୟ ସମ୍ବିଧାନ ଅନୁସାରେ ୧୮ ବର୍ଷ ବୟସ୍କ ପ୍ରତ୍ୟେକ ନାଗରିକଙ୍କର ଭୋଟ୍ ଦେବାର ଅଧିକାର ଅଛି।"
+},
+{
+"questionEnglish": "Which article of the Constitution mentions the principle of Universal Adult Suffrage?",
+"questionOdia": "ସମ୍ବିଧାନର କେଉଁ ଧାରାରେ ସାର୍ବଜନୀନ ସାବାଳକ ମତଦାନ ପ୍ରଥା ବିଷୟରେ ଉଲ୍ଲେଖ ଅଛି?",
+"options": [
+"ଧାରା ୩୨୪",
+"ଧାରା ୩୨୫",
+"ଧାରା ୩୨୬",
+"ଧାରା ୩୨୭"
+],
+"answer": "ଧାରା ୩୨୬",
+"explanation": "ସମ୍ବିଧାନର ଧାରା ୩୨୬ ରେ ସାର୍ବଜନୀନ ସାବାଳକ ମତଦାନ ପ୍ରଥା ସମ୍ପର୍କରେ ଉଲ୍ଲେଖ ରହିଛି।"
+},
+{
+"questionEnglish": "How often are general elections for the Lok Sabha held?",
+"questionOdia": "ଲୋକସଭା ପାଇଁ କେତେ ବର୍ଷ ଅନ୍ତରରେ ସାଧାରଣ ନିର୍ବାଚନ ଅନୁଷ୍ଠିତ ହୁଏ?",
+"options": [
+"ତିନି ବର୍ଷ",
+"ଚାରି ବର୍ଷ",
+"ପାଞ୍ଚ ବର୍ଷ",
+"ଛଅ ବର୍ଷ"
+],
+"answer": "ପାଞ୍ଚ ବର୍ଷ",
+"explanation": "ଲୋକସଭା ଓ ପ୍ରତ୍ୟେକ ରାଜ୍ୟ ବିଧାନସଭା ପାଇଁ ପ୍ରତି ପାଞ୍ଚ ବର୍ଷରେ ଥରେ ନିର୍ବାଚନ ଅନୁଷ୍ଠିତ ହୁଏ।"
+},
+{
+"questionEnglish": "What are the two types of elections?",
+"questionOdia": "ନିର୍ବାଚନ ମୁଖ୍ୟତଃ କେତେ ପ୍ରକାରର?",
+"options": [
+"ଦୁଇ ପ୍ରକାର (ପ୍ରତ୍ୟକ୍ଷ ଓ ପରୋକ୍ଷ)",
+"ତିନି ପ୍ରକାର (ଉପ-ନିର୍ବାଚନ, ସାଧାରଣ, ମଧ୍ୟବର୍ତ୍ତୀ)",
+"ଚାରି ପ୍ରକାର",
+"ଏକ ପ୍ରକାର"
+],
+"answer": "ଦୁଇ ପ୍ରକାର (ପ୍ରତ୍ୟକ୍ଷ ଓ ପରୋକ୍ଷ)",
+"explanation": "ନିର୍ବାଚନ ମୁଖ୍ୟତଃ ଦୁଇ ପ୍ରକାର - ପ୍ରତ୍ୟକ୍ଷ ନିର୍ବାଚନ ଓ ପରୋକ୍ଷ ନିର୍ବାଚନ।"
+},
+{
+"questionEnglish": "Who elects the President of India?",
+"questionOdia": "ଭାରତର ରାଷ୍ଟ୍ରପତିଙ୍କୁ କିଏ ନିର୍ବାଚିତ କରନ୍ତି?",
+"options": [
+"ସାଧାରଣ ଜନତା",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ଏକ ନିର୍ବାଚକ ମଣ୍ଡଳୀ",
+"ସୁପ୍ରିମକୋର୍ଟ ବିଚାରପତି"
+],
+"answer": "ଏକ ନିର୍ବାଚକ ମଣ୍ଡଳୀ",
+"explanation": "ସଂସଦର ଉଭୟ ଗୃହର ନିର୍ବାଚିତ ସଦସ୍ୟ ଓ ରାଜ୍ୟ ବିଧାନସଭାଗୁଡ଼ିକର ନିର୍ବାଚିତ ସଦସ୍ୟଙ୍କୁ ନେଇ ଗଠିତ 'ନିର୍ବାଚକ ମଣ୍ଡଳୀ' ରାଷ୍ଟ୍ରପତିଙ୍କୁ ନିର୍ବାଚିତ କରେ।"
+},
+{
+"questionEnglish": "What does EVM stand for?",
+"questionOdia": "ଇ.ଭି.ଏମ୍. (EVM) ର ପୂର୍ଣ୍ଣରୂପ କ'ଣ?",
+"options": [
+"Elective Voting Machine",
+"Electronic Voting Machine",
+"Electric Voter Machine",
+"Election Verification Machine"
+],
+"answer": "Electronic Voting Machine",
+"explanation": "EVM ର ଅର୍ଥ ହେଉଛି 'Electronic Voting Machine', ଯାହା ଭୋଟ୍ ଦେବା ପାଇଁ ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the primary function of the Election Commission of India?",
+"questionOdia": "ଭାରତର ନିର୍ବାଚନ ଆୟୋଗଙ୍କ ପ୍ରାଥମିକ କାର୍ଯ୍ୟ କ'ଣ?",
+"options": [
+"ସରକାର ଗଠନ କରିବା",
+"ରାଜନୈତିକ ଦଳ ପଞ୍ଜୀକରଣ ଓ ନିର୍ବାଚନ ପରିଚାଳନା",
+"ନ୍ୟାୟ ପ୍ରଦାନ କରିବା",
+"ଆଇନ ପ୍ରଣୟନ କରିବା"
+],
+"answer": "ରାଜନୈତିକ ଦଳ ପଞ୍ଜୀକରଣ ଓ ନିର୍ବାଚନ ପରିଚାଳନା",
+"explanation": "ଭାରତର ନିର୍ବାଚନ ଆୟୋଗ ଏକ ସାମ୍ବିଧାନିକ ସଂସ୍ଥା ଯାହାର ମୁଖ୍ୟ କାର୍ଯ୍ୟ ହେଉଛି ନିର୍ବାଚନ ପରିଚାଳନା ଓ ସମ୍ପାଦନ।"
+},
+{
+"questionEnglish": "What is the purpose of a bye-election?",
+"questionOdia": "ଉପ-ନିର୍ବାଚନର ଉଦ୍ଦେଶ୍ୟ କ'ଣ?",
+"options": [
+"ସରକାର ଭାଙ୍ଗିବା ପାଇଁ",
+"ଖାଲି ପଡ଼ିଥିବା ସଦସ୍ୟ ପଦ ପୂରଣ କରିବା ପାଇଁ",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ ବାଛିବା ପାଇଁ",
+"ରାଜ୍ୟପାଳ ନିଯୁକ୍ତ କରିବା ପାଇଁ"
+],
+"answer": "ଖାଲି ପଡ଼ିଥିବା ସଦସ୍ୟ ପଦ ପୂରଣ କରିବା ପାଇଁ",
+"explanation": "କୌଣସି ନିର୍ବାଚିତ ସଦସ୍ୟଙ୍କ ଇସ୍ତଫା କିମ୍ବା ମୃତ୍ୟୁ ହେତୁ ଖାଲି ପଡ଼ିଥିବା ସଦସ୍ୟ ପଦ ପୂରଣ ପାଇଁ ଉପ-ନିର୍ବାଚନ କରାଯାଏ।"
+},
+{
+"questionEnglish": "Under what condition is a mid-term election held?",
+"questionOdia": "କେଉଁ ପରିସ୍ଥିତିରେ ମଧ୍ୟବର୍ତ୍ତୀକାଳୀନ ନିର୍ବାଚନ ଅନୁଷ୍ଠିତ ହୁଏ?",
+"options": [
+"ପାଞ୍ଚ ବର୍ଷ ପୂରିଲେ",
+"ଲୋକସଭା ବା ବିଧାନସଭା ତା'ର ସ୍ୱାଭାବିକ କାର୍ଯ୍ୟକାଳ ଶେଷ ହେବା ପୂର୍ବରୁ ଭାଙ୍ଗିଗଲେ",
+"ରାଷ୍ଟ୍ରପତି ଚାହିଁଲେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଲୋକସଭା ବା ବିଧାନସଭା ତା'ର ସ୍ୱାଭାବିକ କାର୍ଯ୍ୟକାଳ ଶେଷ ହେବା ପୂର୍ବରୁ ଭାଙ୍ଗିଗଲେ",
+"explanation": "ଯଦି ଗୃହ ସ୍ୱାଭାବିକ କାର୍ଯ୍ୟକାଳ ପୂର୍ବରୁ ଭାଙ୍ଗିଯାଏ, ତେବେ ମଧ୍ୟବର୍ତ୍ତୀକାଳୀନ ନିର୍ବାଚନ କରାଯାଏ।"
+},
+{
+"questionEnglish": "Which officer is responsible for conducting elections in a district?",
+"questionOdia": "ଜିଲ୍ଲାରେ ନିର୍ବାଚନ ପରିଚାଳନା ପାଇଁ କେଉଁ ଅଧିକାରୀ ଦାୟୀ?",
+"options": [
+"ଜିଲ୍ଲାପାଳ (District Magistrate)",
+"ପୋଲିସ ସୁପରିଟେଣ୍ଡେଣ୍ଟ",
+"ତହସିଲଦାର",
+"ବିଡ଼ିଓ"
+],
+"answer": "ଜିଲ୍ଲାପାଳ (District Magistrate)",
+"explanation": "ଲୋକସଭା ନିର୍ବାଚନରେ ଜିଲ୍ଲାପାଳ ସେହି ଜିଲ୍ଲାରେ ନିର୍ବାଚନ ପରିଚାଳନା ପାଇଁ ରିଟର୍ନିଂ ଅଫିସର ଭାବେ କାର୍ଯ୍ୟ କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is the function of the Voter List?",
+"questionOdia": "ଭୋଟର ତାଲିକାର କାର୍ଯ୍ୟ କ'ଣ?",
+"options": [
+"ଉତ୍ତୀର୍ଣ୍ଣ ପ୍ରାର୍ଥୀଙ୍କ ନାମ ରହିବା",
+"ନିର୍ବାଚନ ପାଇଁ ଯୋଗ୍ୟ ଭୋଟରଙ୍କ ନାମ ସ୍ଥାନ ପାଇବା",
+"ରାଜନୈତିକ ଦଳର ତଥ୍ୟ ରଖିବା",
+"ସରକାରୀ ଯୋଜନାର ତଥ୍ୟ ରଖିବା"
+],
+"answer": "ନିର୍ବାଚନ ପାଇଁ ଯୋଗ୍ୟ ଭୋଟରଙ୍କ ନାମ ସ୍ଥାନ ପାଇବା",
+"explanation": "ଭୋଟର ତାଲିକାରେ କେବଳ ସେହି ନାଗରିକମାନଙ୍କ ନାମ ରହିଥାଏ ଯେଉଁମାନେ ନିର୍ବାଚନ ସମୟରେ ଭୋଟ୍ ଦେବା ପାଇଁ ଯୋଗ୍ୟ ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "What are the reserved seats in the Lok Sabha for?",
+"questionOdia": "ଲୋକସଭାରେ ସଂରକ୍ଷିତ ଆସନଗୁଡ଼ିକ କାହା ପାଇଁ?",
+"options": [
+"ମହିଳାଙ୍କ ପାଇଁ",
+"ଅନୁସୂଚିତ ଜାତି ଓ ଜନଜାତିଙ୍କ ପାଇଁ",
+"ପଛୁଆ ବର୍ଗଙ୍କ ପାଇଁ",
+"କେବଳ ସଂଖ୍ୟାଲଘୁଙ୍କ ପାଇଁ"
+],
+"answer": "ଅନୁସୂଚିତ ଜାତି ଓ ଜନଜାତିଙ୍କ ପାଇଁ",
+"explanation": "ସମ୍ବିଧାନର ଧାରା ୩୩୦ ଅନୁସାରେ ଲୋକସଭାରେ ଅନୁସୂଚିତ ଜାତି ଓ ଜନଜାତିଙ୍କ ପାଇଁ ସ୍ଥାନ ସଂରକ୍ଷିତ ରହିଛି।"
+},
+{
+"questionEnglish": "What is the role of the Election Commission in handling election disputes?",
+"questionOdia": "ନିର୍ବାଚନ ସମ୍ବନ୍ଧୀୟ ବିବାଦ ସମାଧାନ କ୍ଷେତ୍ରରେ କାହାର ଭୂମିକା ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"ରାଜ୍ୟ ହାଇକୋର୍ଟ ଓ ସୁପ୍ରିମକୋର୍ଟ",
+"ଜିଲ୍ଲାପାଳ",
+"ସଂସଦ",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ"
+],
+"answer": "ରାଜ୍ୟ ହାଇକୋର୍ଟ ଓ ସୁପ୍ରିମକୋର୍ଟ",
+"explanation": "ନିର୍ବାଚନ ସମ୍ବନ୍ଧୀୟ ସମସ୍ତ ବିବାଦ ସମାଧାନ କରିବାର କ୍ଷମତା ହାଇକୋର୍ଟ ଓ ସୁପ୍ରିମକୋର୍ଟଙ୍କ ଉପରେ ନ୍ୟସ୍ତ କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "Who is appointed as the Returning Officer for a constituency?",
+"questionOdia": "ନିର୍ବାଚନ ମଣ୍ଡଳୀ ପାଇଁ କାହାକୁ 'ରିଟର୍ନିଂ ଅଫିସର' ଭାବେ ନିଯୁକ୍ତ କରାଯାଏ?",
+"options": [
+"ଜିଲ୍ଲାପାଳ ବା ଉପ-ଜିଲ୍ଲାପାଳ",
+"ଏସ.ପି.",
+"ନିର୍ବାଚନ ଆୟୋଗ",
+"ବିଧାୟକ"
+],
+"answer": "ଜିଲ୍ଲାପାଳ ବା ଉପ-ଜିଲ୍ଲାପାଳ",
+"explanation": "ଲୋକସଭା ଓ ବିଧାନସଭା ନିର୍ବାଚନ ପରିଚାଳନା ପାଇଁ ଜିଲ୍ଲାପାଳ ବା ଉପ-ଜିଲ୍ଲାପାଳଙ୍କୁ ରିଟର୍ନିଂ ଅଫିସର ଭାବେ ନିଯୁକ୍ତ କରାଯାଏ।"
+},
+{
+"questionEnglish": "When does the revision of the voter list take place?",
+"questionOdia": "ଭୋଟର ତାଲିକାର ସଂଶୋଧନ କେତେବେଳେ ହୁଏ?",
+"options": [
+"ପ୍ରତି ଦଶ ବର୍ଷରେ ଥରେ",
+"ନିୟମିତ ଭାବେ ନିର୍ବାଚନ ପୂର୍ବରୁ",
+"କେବଳ ଦୁର୍ଭିକ୍ଷ ସମୟରେ",
+"ସରକାର ବଦଳିଲେ"
+],
+"answer": "ନିୟମିତ ଭାବେ ନିର୍ବାଚନ ପୂର୍ବରୁ",
+"explanation": "ପ୍ରତ୍ୟେକ ନିର୍ବାଚନ ପୂର୍ବରୁ ଭୋଟର ତାଲିକାକୁ ନିୟମିତ ଭାବେ ସଂଶୋଧନ କରାଯାଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the maximum expenditure limit for a Lok Sabha candidate?",
+"questionOdia": "ଲୋକସଭା ପ୍ରାର୍ଥୀଙ୍କ ପାଇଁ ସର୍ବାଧିକ ନିର୍ବାଚନ ଖର୍ଚ୍ଚ ସୀମା କେତେ?",
+"options": [
+"୧୦ ଲକ୍ଷ",
+"୨୫ ଲକ୍ଷ",
+"୭୦ ଲକ୍ଷ",
+"୫୦ ଲକ୍ଷ"
+],
+"answer": "୭୦ ଲକ୍ଷ",
+"explanation": "ପ୍ରତ୍ୟେକ ଲୋକସଭା ପ୍ରାର୍ଥୀଙ୍କ ପାଇଁ ସର୍ବାଧିକ ଖର୍ଚ୍ଚ ସୀମା ୭୦ ଲକ୍ଷ ଟଙ୍କା ସ୍ଥିର କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "How are electoral constituencies formed?",
+"questionOdia": "ନିର୍ବାଚନ ମଣ୍ଡଳୀଗୁଡ଼ିକ କିପରି ଗଠିତ ହୁଏ?",
+"options": [
+"ଜିଲ୍ଲାର କ୍ଷେତ୍ରଫଳ ଅନୁଯାୟୀ",
+"ଜନସଂଖ୍ୟା ଆଧାରରେ",
+"ରାଜନୈତିକ ଦଳର ପରାମର୍ଶରେ",
+"କେବଳ ଆଇନ ଅନୁଯାୟୀ"
+],
+"answer": "ଜନସଂଖ୍ୟା ଆଧାରରେ",
+"explanation": "ନିର୍ବାଚନ ମଣ୍ଡଳୀ ଗଠନ ମୁଖ୍ୟତଃ ଜନସଂଖ୍ୟା ଉପରେ ଆଧାରିତ, ଯାହା ଦ୍ୱାରା ପ୍ରତ୍ୟେକ ମଣ୍ଡଳୀରେ ପ୍ରାୟ ସମାନ ସଂଖ୍ୟକ ଲୋକ ରହିବେ।"
+},
+{
+"questionEnglish": "What is the ratio of Lok Sabha seats to Assembly seats in Odisha?",
+"questionOdia": "ଓଡ଼ିଶାରେ ବିଧାନସଭା ଓ ଲୋକସଭା ଆସନର ଅନୁପାତ କେତେ?",
+"options": [
+"୫:୧",
+"୭:୧",
+"୯:୧",
+"୧୦:୧"
+],
+"answer": "୯:୧",
+"explanation": "ଓଡ଼ିଶାର ୧୪୭ଟି ବିଧାନସଭା ଆସନ ପାଇଁ ୨୧ଟି ଲୋକସଭା ଆସନ ରହିଛି, ଯାହାର ଅନୁପାତ ପ୍ରାୟ ୭:୧ (ଅନୁପାତ ହିସାବରେ), ତେବେ ଉଲ୍ଲେଖ ଅନୁସାରେ ୧୪୭:୨୧ ପ୍ରାୟ ୭:୧ ହେବ।"
+},
+{
+"questionEnglish": "What are the two houses of the Indian Parliament?",
+"questionOdia": "ଭାରତୀୟ ସଂସଦର ଦୁଇଟି ଗୃହ କ'ଣ?",
+"options": [
+"ବିଧାନସଭା ଓ ବିଧାନ ପରିଷଦ",
+"ଲୋକସଭା ଓ ରାଜ୍ୟସଭା",
+"ରାଷ୍ଟ୍ରପତି ଓ ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ସୁପ୍ରିମକୋର୍ଟ ଓ ହାଇକୋର୍ଟ"
+],
+"answer": "ଲୋକସଭା ଓ ରାଜ୍ୟସଭା",
+"explanation": "ଭାରତୀୟ ସଂସଦର ଦୁଇଟି ଗୃହ ହେଉଛି ଲୋକସଭା (ନିମ୍ନ ଗୃହ) ଓ ରାଜ୍ୟସଭା (ଉଚ୍ଚ ଗୃହ)।"
+},
+{
+"questionEnglish": "Who appoints the Chief Election Commissioner?",
+"questionOdia": "ମୁଖ୍ୟ ନିର୍ବାଚନ କମିଶନରଙ୍କୁ କିଏ ନିଯୁକ୍ତ କରନ୍ତି?",
+"options": [
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ରାଷ୍ଟ୍ରପତି",
+"ସୁପ୍ରିମକୋର୍ଟ",
+"ସଂସଦ"
+],
+"answer": "ରାଷ୍ଟ୍ରପତି",
+"explanation": "ଭାରତର ରାଷ୍ଟ୍ରପତି ମୁଖ୍ୟ ନିର୍ବାଚନ କମିଶନର ଓ ଅନ୍ୟାନ୍ୟ କମିଶନରଙ୍କୁ ନିଯୁକ୍ତ କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is the term of office for a member of the Lok Sabha?",
+"questionOdia": "ଲୋକସଭାର ସଦସ୍ୟଙ୍କ କାର୍ଯ୍ୟକାଳ କେତେ ବର୍ଷ?",
+"options": [
+"୪ ବର୍ଷ",
+"୫ ବର୍ଷ",
+"୬ ବର୍ଷ",
+"ଆଜୀବନ"
+],
+"answer": "୫ ବର୍ଷ",
+"explanation": "ଲୋକସଭାର ସଦସ୍ୟଙ୍କ କାର୍ଯ୍ୟକାଳ ପାଞ୍ଚ ବର୍ଷ, ଯଦି ନା ତା' ପୂର୍ବରୁ ଗୃହ ଭାଙ୍ଗି ଦିଆଯାଏ।"
+},
+{
+"questionEnglish": "Which document is essential for a voter to prove their identity at the polling station?",
+"questionOdia": "ଭୋଟ୍ କେନ୍ଦ୍ରରେ ନିଜର ପରିଚୟ ପ୍ରମାଣ କରିବା ପାଇଁ ଭୋଟରଙ୍କ ପାଇଁ କେଉଁ ଦସ୍ତାବେଜ ଜରୁରୀ?",
+"options": [
+"ରାସନ କାର୍ଡ଼",
+"ଆଧାର କାର୍ଡ଼",
+"ଭୋଟର ପରିଚୟ ପତ୍ର (EPIC)",
+"ଆୟକର ପତ୍ର"
+],
+"answer": "ଭୋଟର ପରିଚୟ ପତ୍ର (EPIC)",
+"explanation": "ଭୋଟର ପରିଚୟ ପତ୍ର (Photo Identity Card) ମାଧ୍ୟମରେ ଭୋଟର ନିଜର ପରିଚୟ ସାବ୍ୟସ୍ତ କରି ଭୋଟ୍ ଦିଅନ୍ତି।"
+},
+{
+"questionEnglish": "What is the primary duty of a citizen in a democracy?",
+"questionOdia": "ଗଣତନ୍ତ୍ରରେ ଜଣେ ନାଗରିକର ପ୍ରାଥମିକ କର୍ତ୍ତବ୍ୟ କ'ଣ?",
+"options": [
+"ସରକାରୀ ଚାକିରି କରିବା",
+"ନିୟମିତ ମତଦାନ କରିବା",
+"ଆନ୍ଦୋଳନ କରିବା",
+"କେବଳ ନିଜ କାମ କରିବା"
+],
+"answer": "ନିୟମିତ ମତଦାନ କରିବା",
+"explanation": "ଗଣତନ୍ତ୍ରର ସଫଳ ରୂପାୟନ ପାଇଁ ନିର୍ବାଚନରେ ମତଦାନ କରିବା ଜଣେ ନାଗରିକର ମୌଳିକ ରାଜନୈତିକ କର୍ତ୍ତବ୍ୟ।"
+},
+{
+"questionEnglish": "What are the states/territories whose boundaries changed in 2019?",
+"questionOdia": "୨୦୧୯ ମସିହାରେ କେଉଁ ଅଞ୍ଚଳର ପୁନର୍ଗଠନ କରାଯାଇଥିଲା?",
+"options": [
+"ଉତ୍ତର ପ୍ରଦେଶ",
+"ଜମ୍ମୁ ଓ କାଶ୍ମୀର",
+"ମଧ୍ୟ ପ୍ରଦେଶ",
+"ବିହାର"
+],
+"answer": "ଜମ୍ମୁ ଓ କାଶ୍ମୀର",
+"explanation": "ଜମ୍ମୁ ଓ କାଶ୍ମୀର ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆଇନ-୨୦୧୯ ଅନୁସାରେ ଜମ୍ମୁ ଓ କାଶ୍ମୀରକୁ ଦୁଇଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳରେ ବିଭକ୍ତ କରାଗଲା।"
+},
+{
+"questionEnglish": "Who is the head of the Government in India?",
+"questionOdia": "ଭାରତରେ ସରକାରଙ୍କ ମୁଖ୍ୟ କିଏ?",
+"options": [
+"ରାଷ୍ଟ୍ରପତି",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ଉପରାଷ୍ଟ୍ରପତି",
+"ରାଜ୍ୟପାଳ"
+],
+"answer": "ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"explanation": "ସଂସଦୀୟ ଶାସନ ବ୍ୟବସ୍ଥାରେ ପ୍ରଧାନମନ୍ତ୍ରୀ ହେଉଛନ୍ତି ସରକାରଙ୍କ ମୁଖ୍ୟ।"
+},
+{
+"questionEnglish": "How many seats are reserved for SC and ST in the current Lok Sabha?",
+"questionOdia": "ବର୍ତ୍ତମାନର ଲୋକସଭାରେ ଅନୁସୂଚିତ ଜାତି ଓ ଜନଜାତିଙ୍କ ପାଇଁ କେତେଟି ଆସନ ସଂରକ୍ଷିତ?",
+"options": [
+"୮୪ ଓ ୪୭",
+"୭୦ ଓ ୩୦",
+"୫୦ ଓ ୨୦",
+"୬୦ ଓ ୪୦"
+],
+"answer": "୮୪ ଓ ୪୭",
+"explanation": "ବର୍ତ୍ତମାନ ଲୋକସଭାରେ ଅନୁସୂଚିତ ଜାତି ପାଇଁ ୮୪ ଓ ଅନୁସୂଚିତ ଜନଜାତି ପାଇଁ ୪୭ଟି ଆସନ ସଂରକ୍ଷିତ ରହିଛି।"
+},
+{
+"questionEnglish": "What does the 'Single Member Constituency' system imply?",
+"questionOdia": "'ଏକ-ସଦସ୍ୟ ବିଶିଷ୍ଟ ନିର୍ବାଚନ ମଣ୍ଡଳୀ' ବ୍ୟବସ୍ଥାର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଗୋଟିଏ ମଣ୍ଡଳୀରୁ ଦୁଇ ଜଣ ଜିତିବେ",
+"ଗୋଟିଏ ନିର୍ବାଚନ ମଣ୍ଡଳୀରୁ ମାତ୍ର ଜଣେ ପ୍ରାର୍ଥୀ ନିର୍ବାଚିତ ହେବେ",
+"କେବଳ ଦଳୀୟ ପ୍ରାର୍ଥୀ ରହିବେ",
+"କେହି ନୁହେଁ"
+],
+"answer": "ଗୋଟିଏ ନିର୍ବାଚନ ମଣ୍ଡଳୀରୁ ମାତ୍ର ଜଣେ ପ୍ରାର୍ଥୀ ନିର୍ବାଚିତ ହେବେ",
+"explanation": "ଏକ-ସଦସ୍ୟ ବିଶିଷ୍ଟ ନିର୍ବାଚନ ମଣ୍ଡଳୀରେ ଗୋଟିଏ ମଣ୍ଡଳୀରୁ ମାତ୍ର ଜଣେ ପ୍ରାର୍ଥୀ ନିର୍ବାଚିତ ହୋଇଥାନ୍ତି।"
+},
+{
+"questionEnglish": "Which article prohibits discrimination on grounds of religion, race, caste, sex, or place of birth?",
+"questionOdia": "ଧର୍ମ, ବର୍ଣ୍ଣ, ଜାତି, ଲିଙ୍ଗ ବା ଜନ୍ମସ୍ଥାନ ଆଧାରରେ ଭେଦଭାବକୁ କେଉଁ ଧାରା ନିଷେଧ କରେ?",
+"options": [
+"ଧାରା ୧୪",
+"ଧାରା ୧୫",
+"ଧାରା ୧୬",
+"ଧାରା ୧୭"
+],
+"answer": "ଧାରା ୧୫",
+"explanation": "ଭାରତୀୟ ସମ୍ବିଧାନର ଧାରା ୧୫ ଧର୍ମ, ଜାତି, ଲିଙ୍ଗ ଆଦି ଆଧାରରେ କୌଣସି ଭେଦଭାବ କରିବାକୁ ନିଷେଧ କରେ।"
+},
+{
+"questionEnglish": "What is 'Secret Ballot' in elections?",
+"questionOdia": "ନିର୍ବାଚନରେ 'ଗୋପନୀୟ ମତଦାନ' (Secret Ballot) କ'ଣ?",
+"options": [
+"ଖୋଲାଖୋଲି ଭୋଟ୍ ଦେବା",
+"ଭୋଟର ନିଜେ କାହାକୁ ଭୋଟ୍ ଦେଲେ ତାହା ଗୋପନ ରହିବା",
+"ଦଳୀୟ ସଭାରେ ଭୋଟ୍",
+"ସବୁଠି ଭୋଟ୍ ଦେବା"
+],
+"answer": "ଭୋଟର ନିଜେ କାହାକୁ ଭୋଟ୍ ଦେଲେ ତାହା ଗୋପନ ରହିବା",
+"explanation": "ଗୋପନୀୟ ମତଦାନ ଦ୍ୱାରା ଭୋଟର ନିର୍ଭୟରେ ଓ ଗୋପନରେ ନିଜର ମତ ସାବ୍ୟସ୍ତ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Which type of democracy is suitable for a large population like India?",
+"questionOdia": "ଭାରତ ଭଳି ବିଶାଳ ଜନସଂଖ୍ୟା ପାଇଁ କି ପ୍ରକାର ଗଣତନ୍ତ୍ର ଉପଯୁକ୍ତ?",
+"options": [
+"ପ୍ରତ୍ୟକ୍ଷ",
+"ପରୋକ୍ଷ",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପରୋକ୍ଷ",
+"explanation": "ବିଶାଳ ଆୟତନ ଓ ଜନସଂଖ୍ୟା ଯୋଗୁଁ ଭାରତରେ ପରୋକ୍ଷ ଗଣତନ୍ତ୍ର ଉପଯୁକ୍ତ।"
+},
+{
+"questionEnglish": "Who is the constitutional head of the Delhi Union Territory?",
+"questionOdia": "ଦିଲ୍ଲୀ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳର ସାମ୍ବିଧାନିକ ମୁଖ୍ୟ କିଏ?",
+"options": [
+"ମୁଖ୍ୟମନ୍ତ୍ରୀ",
+"ଉପରାଜ୍ୟପାଳ",
+"ଗୃହମନ୍ତ୍ରୀ",
+"ରାଷ୍ଟ୍ରପତି"
+],
+"answer": "ଉପରାଜ୍ୟପାଳ",
+"explanation": "ଦିଲ୍ଲୀର ଶାସନ ମୁଖ୍ୟ ଉପରାଜ୍ୟପାଳ ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "What is the primary role of the Supreme Court in India?",
+"questionOdia": "ଭାରତରେ ସୁପ୍ରିମକୋର୍ଟଙ୍କ ପ୍ରାଥମିକ କାର୍ଯ୍ୟ କ'ଣ?",
+"options": [
+"ନିର୍ବାଚନ ପରିଚାଳନା",
+"ସମ୍ବିଧାନର ରକ୍ଷଣାବେକ୍ଷଣ ଓ ନ୍ୟାୟ ପ୍ରଦାନ",
+"ରାଜନୈତିକ ନିଷ୍ପତ୍ତି ନେବା",
+"କେବଳ ଆଇନ ତିଆରି କରିବା"
+],
+"answer": "ସମ୍ବିଧାନର ରକ୍ଷଣାବେକ୍ଷଣ ଓ ନ୍ୟାୟ ପ୍ରଦାନ",
+"explanation": "ସୁପ୍ରିମକୋର୍ଟ ସମ୍ବିଧାନର ରକ୍ଷକ ଓ ସର୍ବୋଚ୍ଚ ନ୍ୟାୟାଳୟ ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "Which state was carved out of Punjab in 1966?",
+"questionOdia": "୧୯୬୬ ମସିହାରେ ପଞ୍ଜାବରୁ କେଉଁ ନୂତନ ରାଜ୍ୟ ସୃଷ୍ଟି ହୋଇଥିଲା?",
+"options": [
+"ହିମାଚଳ ପ୍ରଦେଶ",
+"ହରିୟାଣା",
+"ରାଜସ୍ଥାନ",
+"ଉତ୍ତରାଖଣ୍ଡ"
+],
+"answer": "ହରିୟାଣା",
+"explanation": "୧୯୬୬ ମସିହାରେ ପଞ୍ଜାବ ବିଭାଜନ ହୋଇ ହରିୟାଣା ରାଜ୍ୟ ଗଠିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What is the minimum age to be a candidate for Lok Sabha?",
+"questionOdia": "ଲୋକସଭା ପ୍ରାର୍ଥୀ ହେବା ପାଇଁ ସର୍ବନିମ୍ନ ବୟସ କେତେ?",
+"options": [
+"୨୧ ବର୍ଷ",
+"୨୫ ବର୍ଷ",
+"୩୦ ବର୍ଷ",
+"୩୫ ବର୍ଷ"
+],
+"answer": "୨୫ ବର୍ଷ",
+"explanation": "ଲୋକସଭା ପ୍ରାର୍ଥୀ ହେବା ପାଇଁ ସର୍ବନିମ୍ନ ବୟସ ୨୫ ବର୍ଷ ହେବା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "What are the three members of the Election Commission?",
+"questionOdia": "ନିର୍ବାଚନ ଆୟୋଗ କେତେଜଣ ସଦସ୍ୟଙ୍କୁ ନେଇ ଗଠିତ?",
+"options": [
+"ଜଣେ",
+"ଦୁଇଜଣ",
+"ତିନିଜଣ",
+"ପାଞ୍ଚଜଣ"
+],
+"answer": "ତିନିଜଣ",
+"explanation": "ଭାରତର ନିର୍ବାଚନ ଆୟୋଗ ଜଣେ ମୁଖ୍ୟ ନିର୍ବାଚନ କମିଶନର ଓ ଦୁଇଜଣ ଅନ୍ୟାନ୍ୟ କମିଶନରଙ୍କୁ ନେଇ ଗଠିତ।"
+},
+{
+"questionEnglish": "Who approves the appointment of the election officers?",
+"questionOdia": "ନିର୍ବାଚନ ଅଧିକାରୀଙ୍କ ନିଯୁକ୍ତି କିଏ ମଞ୍ଜୁର କରନ୍ତି?",
+"options": [
+"ନିର୍ବାଚନ ଆୟୋଗ",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ରାଜ୍ୟପାଳ",
+"ଜିଲ୍ଲାପାଳ"
+],
+"answer": "ନିର୍ବାଚନ ଆୟୋଗ",
+"explanation": "ନିର୍ବାଚନ ସମ୍ବନ୍ଧୀୟ ସମସ୍ତ ଅଧିକାରୀ ନିର୍ବାଚନ ଆୟୋଗଙ୍କ ନିୟନ୍ତ୍ରଣରେ ଥାନ୍ତି।"
+},
+{
+"questionEnglish": "Which Article gives the power to change state boundaries?",
+"questionOdia": "ରାଜ୍ୟର ସୀମା ପରିବର୍ତ୍ତନ କରିବାର କ୍ଷମତା କେଉଁ ଧାରାରେ ଅଛି?",
+"options": [
+"ଧାରା ୧",
+"ଧାରା ୨",
+"ଧାରା ୩",
+"ଧାରା ୪"
+],
+"answer": "ଧାରା ୩",
+"explanation": "ଧାରା ୩ ଅନୁସାରେ ସଂସଦ ରାଜ୍ୟର ନାମ, ସୀମା ପରିବର୍ତ୍ତନ କରିପାରିବ।"
+},
+{
+"questionEnglish": "What is the capital of Odisha?",
+"questionOdia": "ଓଡ଼ିଶାର ରାଜଧାନୀ କେଉଁଟି?",
+"options": [
+"କଟକ",
+"ପୁରୀ",
+"ଭୁବନେଶ୍ୱର",
+"ବ୍ରହ୍ମପୁର"
+],
+"answer": "ଭୁବନେଶ୍ୱର",
+"explanation": "ଓଡ଼ିଶାର ରାଜଧାନୀ ହେଉଛି ଭୁବନେଶ୍ୱର।"
+},
+{
+"questionEnglish": "When was Goa recognized as a state?",
+"questionOdia": "ଗୋଆକୁ କେବେ ରାଜ୍ୟର ମାନ୍ୟତା ମିଳିଲା?",
+"options": [
+"୧୯୮୫",
+"୧୯୮୭",
+"୧୯୮୯",
+"୧୯୯୦"
+],
+"answer": "୧୯୮୭",
+"explanation": "୧୯୮୭ ମସିହାରେ ଗୋଆକୁ ଏକ ପୂର୍ଣ୍ଣାଙ୍ଗ ରାଜ୍ୟର ମାନ୍ୟତା ମିଳିଥିଲା।"
+},
+{
+"questionEnglish": "How many states were there in India according to the 1956 Reorganization Act?",
+"questionOdia": "୧୯୫୬ ମସିହା ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆଇନ ଅନୁସାରେ ଭାରତରେ କେତୋଟି ରାଜ୍ୟ ଥିଲା?",
+"options": [
+"୧୪ଟି ରାଜ୍ୟ ଓ ୬ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ",
+"୧୨ଟି ରାଜ୍ୟ",
+"୧୫ଟି ରାଜ୍ୟ",
+"୧୦ଟି ରାଜ୍ୟ"
+],
+"answer": "୧୪ଟି ରାଜ୍ୟ ଓ ୬ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ",
+"explanation": "୧୯୫୬ ମସିହାର ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆଇନ ଅନୁସାରେ ଭାରତରେ ୧୪ଟି ରାଜ୍ୟ ଓ ୬ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ଗଠିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Who can remove the Election Commissioners?",
+"questionOdia": "ନିର୍ବାଚନ କମିଶନରଙ୍କୁ କିଏ ହଟାଇ ପାରିବେ?",
+"options": [
+"ରାଷ୍ଟ୍ରପତି",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ସଂସଦର ମହାଭିଯୋଗ ମାଧ୍ୟମରେ",
+"କେହି ନୁହେଁ"
+],
+"answer": "ରାଷ୍ଟ୍ରପତି",
+"explanation": "ମୁଖ୍ୟ ନିର୍ବାଚନ କମିଶନରଙ୍କୁ ସୁପ୍ରିମକୋର୍ଟ ବିଚାରପତିଙ୍କ ପରି ହଟାଯାଇପାରିବ, ଅନ୍ୟ କମିଶନରଙ୍କୁ ରାଷ୍ଟ୍ରପତି ହଟାଇ ପାରିବେ।"
+},
+{
+"questionEnglish": "Is there a specific provision in the Constitution to govern all Union Territories uniformly?",
+"questionOdia": "ସମସ୍ତ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ପାଇଁ କ'ଣ ସମ୍ବିଧାନରେ ଏକ ସମାନ ଶାସନ ବ୍ୟବସ୍ଥା ଅଛି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦିଲ୍ଲୀ ପାଇଁ",
+"କେବଳ ପୁଡୁଚେରୀ ପାଇଁ"
+],
+"answer": "ନା",
+"explanation": "ସମସ୍ତ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ପାଇଁ ସ୍ୱତନ୍ତ୍ର ବ୍ୟବସ୍ଥା ନାହିଁ, ସେଗୁଡ଼ିକ ଭିନ୍ନ ଭିନ୍ନ ଭାବେ ଶାସିତ ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "What was the purpose of the 7th Amendment?",
+"questionOdia": "ସପ୍ତମ ସମ୍ବିଧାନ ସଂଶୋଧନର ଉଦ୍ଦେଶ୍ୟ କ'ଣ ଥିଲା?",
+"options": [
+"ରାଜ୍ୟଗୁଡ଼ିକର ପୁନର୍ଗଠନ",
+"କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ପାଇଁ ଆଇନ",
+"ପ୍ରଧାନମନ୍ତ୍ରୀଙ୍କ କ୍ଷମତା",
+"ନିର୍ବାଚନ ଆୟୋଗ ଗଠନ"
+],
+"answer": "ରାଜ୍ୟଗୁଡ଼ିକର ପୁନର୍ଗଠନ",
+"explanation": "ସପ୍ତମ ସମ୍ବିଧାନ ସଂଶୋଧନ ଆଇନ ବଳରେ ରାଜ୍ୟଗୁଡ଼ିକର ପୁନର୍ଗଠନ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "Who acts as the presiding officer of the Rajya Sabha?",
+"questionOdia": "ରାଜ୍ୟସଭାର ଅଧ୍ୟକ୍ଷ ଭାବେ କିଏ କାର୍ଯ୍ୟ କରନ୍ତି?",
+"options": [
+"ରାଷ୍ଟ୍ରପତି",
+"ଉପରାଷ୍ଟ୍ରପତି",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ବିରୋଧୀ ଦଳ ନେତା"
+],
+"answer": "ଉପରାଷ୍ଟ୍ରପତି",
+"explanation": "ଭାରତର ଉପରାଷ୍ଟ୍ରପତି ପଦବୀ ଅନୁଯାୟୀ ରାଜ୍ୟସଭାର ଅଧ୍ୟକ୍ଷ (Chairman) ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "How are the members of the Rajya Sabha elected?",
+"questionOdia": "ରାଜ୍ୟସଭାର ସଦସ୍ୟମାନେ କିପରି ନିର୍ବାଚିତ ହୁଅନ୍ତି?",
+"options": [
+"ପ୍ରତ୍ୟକ୍ଷ ଭାବେ ଜନତାଙ୍କ ଦ୍ୱାରା",
+"ରାଜ୍ୟ ବିଧାନସଭା ସଦସ୍ୟଙ୍କ ଦ୍ୱାରା ପରୋକ୍ଷ ନିର୍ବାଚନରେ",
+"ରାଷ୍ଟ୍ରପତି ମନୋନୀତ କରନ୍ତି",
+"ସ୍ୱତଃ ନିଯୁକ୍ତ"
+],
+"answer": "ରାଜ୍ୟ ବିଧାନସଭା ସଦସ୍ୟଙ୍କ ଦ୍ୱାରା ପରୋକ୍ଷ ନିର୍ବାଚନରେ",
+"explanation": "ରାଜ୍ୟସଭା ସଦସ୍ୟମାନେ ରାଜ୍ୟ ବିଧାନସଭାର ନିର୍ବାଚିତ ସଦସ୍ୟମାନଙ୍କ ଦ୍ୱାରା ଅନୁପାତିକ ପ୍ରତିନିଧିତ୍ୱ ପ୍ରଣାଳୀରେ ନିର୍ବାଚିତ ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "Which state's name was changed to 'Odisha' from 'Orissa'?",
+"questionOdia": "'ଓଡ଼ିଶା' (Odisha) ନାମ କେଉଁ ରାଜ୍ୟର ପୁରୁଣା ନାମ 'ଓଡ଼ିଶା' (Orissa) ରୁ ପରିବର୍ତ୍ତନ ହୋଇଥିଲା?",
+"options": [
+"ପଶ୍ଚିମବଙ୍ଗ",
+"ଓଡ଼ିଶା",
+"ବିହାର",
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ"
+],
+"answer": "ଓଡ଼ିଶା",
+"explanation": "ଓଡ଼ିଶା ରାଜ୍ୟର ନାମ ପରିବର୍ତ୍ତନ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "What is the role of the Cabinet Mission Plan?",
+"questionOdia": "କ୍ୟାବିନେଟ୍ ମିଶନ ଯୋଜନାର ଭୂମିକା କ'ଣ ଥିଲା?",
+"options": [
+"ରାଜ୍ୟ ଗଠନ",
+"ଭାରତ ପାଇଁ ନୂତନ ସମ୍ବିଧାନ ପ୍ରଣୟନ",
+"ନିର୍ବାଚନ ପରିଚାଳନା",
+"ଅର୍ଥନୈତିକ ବ୍ୟବସ୍ଥା"
+],
+"answer": "ଭାରତ ପାଇଁ ନୂତନ ସମ୍ବିଧାନ ପ୍ରଣୟନ",
+"explanation": "କ୍ୟାବିନେଟ୍ ମିଶନ ଯୋଜନା ଅନୁସାରେ ଭାରତ ପାଇଁ ନୂତନ ସମ୍ବିଧାନ ପ୍ରଣୟନ ସଭା ଗଠନ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "When was the Constituent Assembly's first meeting held?",
+"questionOdia": "ସମ୍ବିଧାନ ପ୍ରଣୟନ ସଭାର ପ୍ରଥମ ବୈଠକ କେବେ ବସିଥିଲା?",
+"options": [
+"୧୯୪୬ ଡିସେମ୍ବର ୯",
+"୧୯୪୭ ଜାନୁଆରୀ ୨୬",
+"୧୯୪୮ ଅଗଷ୍ଟ ୧୫",
+"୧୯୫୦ ଜାନୁଆରୀ ୨୬"
+],
+"answer": "୧୯୪୬ ଡିସେମ୍ବର ৯",
+"explanation": "ସମ୍ବିଧାନ ପ୍ରଣୟନ ସଭାର ପ୍ରଥମ ବୈଠକ ୧୯୪୬ ମସିହା ଡିସେମ୍ବର ୯ ତାରିଖରେ ଅନୁଷ୍ଠିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What is the age limit for a citizen to vote in India?",
+"questionOdia": "ଭାରତରେ ଭୋଟ୍ ଦେବା ପାଇଁ ବୟସ ସୀମା କେତେ?",
+"options": [
+"୧୬",
+"୧୮",
+"୨୧",
+"୨୫"
+],
+"answer": "୧୮",
+"explanation": "ସାର୍ବଜନୀନ ସାବାଳକ ମତଦାନ ଅନୁସାରେ ୧୮ ବର୍ଷ ବୟସ୍କ ପ୍ରତ୍ୟେକ ନାଗରିକ ଭୋଟ୍ ଦେଇପାରିବେ।"
+},
+{
+"questionEnglish": "What are the three tiers of local government in Odisha?",
+"questionOdia": "ଓଡ଼ିଶାରେ ସ୍ଥାନୀୟ ଶାସନ ବ୍ୟବସ୍ଥାରେ କେତେଟି ସ୍ତର ଅଛି?",
+"options": [
+"ଦୁଇ",
+"ତିନି",
+"ଚାରି",
+"ଗୋଟିଏ"
+],
+"answer": "ତିନି",
+"explanation": "ପଞ୍ଚାୟତିରାଜ ବ୍ୟବସ୍ଥାରେ ଜିଲ୍ଲା ପରିଷଦ, ପଞ୍ଚାୟତ ସମିତି ଓ ଗ୍ରାମ ପଞ୍ଚାୟତ - ଏପରି ତିନିଟି ସ୍ତର ଅଛି।"
+},
+{
+"questionEnglish": "Who is the executive head of the state administration?",
+"questionOdia": "ରାଜ୍ୟ ପ୍ରଶାସନର କାର୍ଯ୍ୟନିର୍ବାହୀ ମୁଖ୍ୟ କିଏ?",
+"options": [
+"ମୁଖ୍ୟମନ୍ତ୍ରୀ",
+"ରାଜ୍ୟପାଳ",
+"ରାଷ୍ଟ୍ରପତି",
+"ଜିଲ୍ଲାପାଳ"
+],
+"answer": "ରାଜ୍ୟପାଳ",
+"explanation": "ରାଜ୍ୟ ପ୍ରଶାସନର ସାମ୍ବିଧାନିକ ମୁଖ୍ୟ ରାଜ୍ୟପାଳ ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "Which election is held for the Panchayats?",
+"questionOdia": "ପଞ୍ଚାୟତ ପାଇଁ କି ପ୍ରକାର ନିର୍ବାଚନ ହୁଏ?",
+"options": [
+"ପରୋକ୍ଷ",
+"ପ୍ରତ୍ୟକ୍ଷ",
+"ଉଭୟ",
+"ମନୋନୟନ"
+],
+"answer": "ପ୍ରତ୍ୟକ୍ଷ",
+"explanation": "ଗ୍ରାମ ପଞ୍ଚାୟତ ସରପଞ୍ଚ ଓ ୱାର୍ଡ଼ ମେମ୍ବରଙ୍କ ନିର୍ବାଚନ ପ୍ରତ୍ୟକ୍ଷ ଭାବେ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Who conducts the election of the President of India?",
+"questionOdia": "ଭାରତର ରାଷ୍ଟ୍ରପତିଙ୍କ ନିର୍ବାଚନ କିଏ ପରିଚାଳନା କରେ?",
+"options": [
+"ନିର୍ବାଚନ ଆୟୋଗ",
+"ସୁପ୍ରିମକୋର୍ଟ",
+"ସଂସଦ",
+"ରାଜ୍ୟ ସରକାର"
+],
+"answer": "ନିର୍ବାଚନ ଆୟୋଗ",
+"explanation": "ରାଷ୍ଟ୍ରପତି ନିର୍ବାଚନ ସମେତ ସମସ୍ତ ନିର୍ବାଚନ ଭାରତର ନିର୍ବାଚନ ଆୟୋଗ ପରିଚାଳନା କରନ୍ତି।"
+},
+{
+"questionEnglish": "How many candidates can be elected from one constituency?",
+"questionOdia": "ଗୋଟିଏ ନିର୍ବାଚନ ମଣ୍ଡଳୀରୁ କେତେଜଣ ପ୍ରାର୍ଥୀ ନିର୍ବାଚିତ ହୋଇପାରିବେ?",
+"options": [
+"ଜଣେ",
+"ଦୁଇଜଣ",
+"ତିନିଜଣ",
+"ଅନେକ"
+],
+"answer": "ଜଣେ",
+"explanation": "ଭାରତରେ 'ଏକ-ସଦସ୍ୟ ବିଶିଷ୍ଟ ନିର୍ବାଚନ ମଣ୍ଡଳୀ' ବ୍ୟବସ୍ଥା ଥିବାରୁ ଜଣେ ମାତ୍ର ପ୍ରାର୍ଥୀ ନିର୍ବାଚିତ ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "Which state was the first to be formed on linguistic basis?",
+"questionOdia": "ଭାଷାଭିତ୍ତିକ ଆଧାରରେ ଗଠିତ ପ୍ରଥମ ରାଜ୍ୟ କେଉଁଟି?",
+"options": [
+"ଆନ୍ଧ୍ରପଦେଶ",
+"କର୍ଣ୍ଣାଟକ",
+"ମହାରାଷ୍ଟ୍ର",
+"ଗୁଜୁରାଟ"
+],
+"answer": "ଆନ୍ଧ୍ରପଦେଶ",
+"explanation": "ତେଲୁଗୁ ଭାଷାଭାଷୀଙ୍କ ପାଇଁ ଆନ୍ଧ୍ରପଦେଶ ୧୯୫୩ରେ ଗଠିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Who is the Supreme Commander of the Armed Forces in India?",
+"questionOdia": "ଭାରତର ସଶସ୍ତ୍ର ବାହିନୀର ସର୍ବୋଚ୍ଚ ସେନାପତି କିଏ?",
+"options": [
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ରାଷ୍ଟ୍ରପତି",
+"ପ୍ରତିରକ୍ଷା ମନ୍ତ୍ରୀ",
+"ସେନା ମୁଖ୍ୟ"
+],
+"answer": "ରାଷ୍ଟ୍ରପତି",
+"explanation": "ଭାରତର ରାଷ୍ଟ୍ରପତି ସଶସ୍ତ୍ର ବାହିନୀର ସର୍ବୋଚ୍ଚ ସେନାପତି ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "What does the Voter List include?",
+"questionOdia": "ଭୋଟର ତାଲିକାରେ କ'ଣ କ'ଣ ଥାଏ?",
+"options": [
+"ବୟସ",
+"ନାମ",
+"ଠିକଣା",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ଭୋଟର ତାଲିକାରେ ଭୋଟରଙ୍କ ନାମ, ବୟସ, ଲିଙ୍ଗ, ଠିକଣା ଆଦି ବିବରଣୀ ରହିଥାଏ।"
+},
+{
+"questionEnglish": "Can a candidate spend unlimited money in elections?",
+"questionOdia": "ନିର୍ବାଚନରେ ଜଣେ ପ୍ରାର୍ଥୀ କ'ଣ ଅସୀମିତ ଟଙ୍କା ଖର୍ଚ୍ଚ କରିପାରିବେ?",
+"options": [
+"ହଁ",
+"ନା",
+"ଦଳୀୟ ନେତାଙ୍କ ଅନୁମତିରେ",
+"କେବଳ ପ୍ରଚାର ସମୟରେ"
+],
+"answer": "ନା",
+"explanation": "ନିର୍ବାଚନ ଆୟୋଗ ପ୍ରତ୍ୟେକ ପ୍ରାର୍ଥୀଙ୍କ ପାଇଁ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ଖର୍ଚ୍ଚ ସୀମା ଧାର୍ଯ୍ୟ କରିଛନ୍ତି।"
+},
+{
+"questionEnglish": "When was the first Lok Sabha election held?",
+"questionOdia": "ପ୍ରଥମ ଲୋକସଭା ନିର୍ବାଚନ କେବେ ହୋଇଥିଲା?",
+"options": [
+"୧୯୫୦",
+"୧୯୫୧-୫୨",
+"୧୯୫୩",
+"୧୯୫୫"
+],
+"answer": "୧୯୫୧-୫୨",
+"explanation": "ସ୍ୱାଧୀନ ଭାରତର ପ୍ରଥମ ଲୋକସଭା ନିର୍ବାଚନ ୧୯୫୧-୫୨ ମସିହାରେ ଅନୁଷ୍ଠିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Who can dissolve the Lok Sabha?",
+"questionOdia": "ଲୋକସଭାକୁ କିଏ ଭାଙ୍ଗିପାରିବେ?",
+"options": [
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ରାଷ୍ଟ୍ରପତି",
+"ବାଚସ୍ପତି",
+"କେହି ନୁହେଁ"
+],
+"answer": "ରାଷ୍ଟ୍ରପତି",
+"explanation": "ପ୍ରଧାନମନ୍ତ୍ରୀଙ୍କ ପରାମର୍ଶ କ୍ରମେ ରାଷ୍ଟ୍ରପତି ଲୋକସଭାକୁ ଭାଙ୍ଗିପାରିବେ।"
+},
+{
+"questionEnglish": "Which state was the last to be formed by reorganizing Bihar?",
+"questionOdia": "ବିହାରରୁ କେଉଁ ନୂତନ ରାଜ୍ୟ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"ଝାଡ଼ଖଣ୍ଡ",
+"ଛତିଶଗଡ଼",
+"ଉତ୍ତରାଖଣ୍ଡ",
+"ତେଲେଙ୍ଗାନା"
+],
+"answer": "ଝାଡ଼ଖଣ୍ଡ",
+"explanation": "ବିହାରରୁ ଝାଡ଼ଖଣ୍ଡ ରାଜ୍ୟ ଗଠନ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What is the full form of EPIC in the context of elections?",
+"questionOdia": "ନିର୍ବାଚନ ପରିପ୍ରେକ୍ଷୀରେ EPIC ର ପୂର୍ଣ୍ଣରୂପ କ'ଣ?",
+"options": [
+"Election Photo Identity Card",
+"Elective Personal Identity Card",
+"Electoral Procedure Identity Card",
+"Election Personal Identity Card"
+],
+"answer": "Election Photo Identity Card",
+"explanation": "EPIC ର ଅର୍ଥ Election Photo Identity Card।"
+},
+{
+"questionEnglish": "Who is the head of the Election Commission of India?",
+"questionOdia": "ଭାରତର ନିର୍ବାଚନ ଆୟୋଗଙ୍କ ମୁଖ୍ୟ କିଏ?",
+"options": [
+"ମୁଖ୍ୟ ନିର୍ବାଚନ କମିଶନର",
+"ରାଷ୍ଟ୍ରପତି",
+"ଆଇନ ମନ୍ତ୍ରୀ",
+"ସୁପ୍ରିମକୋର୍ଟ ବିଚାରପତି"
+],
+"answer": "ମୁଖ୍ୟ ନିର୍ବାଚନ କମିଶନର",
+"explanation": "ଭାରତର ନିର୍ବାଚନ ଆୟୋଗଙ୍କ ମୁଖ୍ୟ ହେଉଛନ୍ତି ମୁଖ୍ୟ ନିର୍ବାଚନ କମିଶନର।"
+},
+{
+"questionEnglish": "What are the three main types of local self-government?",
+"questionOdia": "ସ୍ଥାନୀୟ ସ୍ୱୟଂଶାସନର ତିନୋଟି ମୁଖ୍ୟ ପ୍ରକାର କ'ଣ?",
+"options": [
+"ପୌରସଂସ୍ଥା, ପଞ୍ଚାୟତ, ଜିଲ୍ଲା ପରିଷଦ",
+"କେନ୍ଦ୍ର, ରାଜ୍ୟ, ସ୍ଥାନୀୟ",
+"ବିଧାନସଭା, ବିଧାନ ପରିଷଦ, ନଗର ନିଗମ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପୌରସଂସ୍ଥା, ପଞ୍ଚାୟତ, ଜିଲ୍ଲା ପରିଷଦ",
+"explanation": "ସ୍ଥାନୀୟ ସ୍ୱୟଂଶାସନ ମୁଖ୍ୟତଃ ପୌରସଂସ୍ଥା ଓ ପଞ୍ଚାୟତ ସ୍ତରରେ କାର୍ଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Can anyone challenge election results in court?",
+"questionOdia": "କେହି କ'ଣ ନିର୍ବାଚନ ଫଳାଫଳକୁ କୋର୍ଟରେ ଚ୍ୟାଲେଞ୍ଜ କରିପାରିବେ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦଳୀୟ ନେତା",
+"କେବଳ ପ୍ରାର୍ଥୀ"
+],
+"answer": "ହଁ",
+"explanation": "ନିର୍ବାଚନ ସମ୍ବନ୍ଧୀୟ ଯେକୌଣସି ଅନିୟମିତତାକୁ ପ୍ରାର୍ଥୀ କୋର୍ଟରେ ଚ୍ୟାଲେଞ୍ଜ କରିପାରିବେ।"
+},
+{
+"questionEnglish": "Which state was the first to give women suffrage?",
+"questionOdia": "ଭାରତରେ ସାର୍ବଜନୀନ ମତଦାନରେ କେଉଁ ବର୍ଗଙ୍କୁ ସଂରକ୍ଷଣ ଦିଆଯାଇଛି?",
+"options": [
+"ମହିଳା",
+"ଅନୁସୂଚିତ ଜାତି ଓ ଜନଜାତି",
+"ଉଭୟ",
+"କେହି ନୁହେଁ"
+],
+"answer": "ଅନୁସୂଚିତ ଜାତି ଓ ଜନଜାତି",
+"explanation": "ସମ୍ବିଧାନରେ ଅନୁସୂଚିତ ଜାତି ଓ ଜନଜାତିଙ୍କ ପାଇଁ ସ୍ଥାନ ସଂରକ୍ଷଣ ବ୍ୟବସ୍ଥା ଅଛି।"
+},
+{
+"questionEnglish": "Who is the head of the local rural administration?",
+"questionOdia": "ସ୍ଥାନୀୟ ଗ୍ରାମୀଣ ପ୍ରଶାସନର ମୁଖ୍ୟ କିଏ?",
+"options": [
+"ସରପଞ୍ଚ",
+"ଜିଲ୍ଲାପାଳ",
+"ବିଡ଼ିଓ",
+"ସଭାପତି"
+],
+"answer": "ସରପଞ୍ଚ",
+"explanation": "ଗ୍ରାମ ପଞ୍ଚାୟତର ମୁଖ୍ୟ ସରପଞ୍ଚ ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "What is the purpose of the 73rd Amendment?",
+"questionOdia": "୭୩ତମ ସମ୍ବିଧାନ ସଂଶୋଧନର ଉଦ୍ଦେଶ୍ୟ କ'ଣ?",
+"options": [
+"ପଞ୍ଚାୟତ ରାଜ ବ୍ୟବସ୍ଥାକୁ ମଜବୁତ କରିବା",
+"ପୌରସଂସ୍ଥା",
+"ରାଜ୍ୟ ସୀମା",
+"ନିର୍ବାଚନ"
+],
+"answer": "ପଞ୍ଚାୟତ ରାଜ ବ୍ୟବସ୍ଥାକୁ ମଜବୁତ କରିବା",
+"explanation": "୭୩ତମ ସମ୍ବିଧାନ ସଂଶୋଧନ ପଞ୍ଚାୟତ ରାଜ ସଂସ୍ଥାଗୁଡ଼ିକୁ ସାମ୍ବିଧାନିକ ମାନ୍ୟତା ଓ କ୍ଷମତା ପ୍ରଦାନ କଲା।"
+},
+{
+"questionEnglish": "Which article deals with Election Commission?",
+"questionOdia": "ନିର୍ବାଚନ ଆୟୋଗ ସମ୍ବନ୍ଧୀୟ ଧାରା କେଉଁଟି?",
+"options": [
+"ଧାରା ୩୨୪",
+"ଧାରା ୩୨୫",
+"ଧାରା ୩୨୬",
+"ଧାରା ୩୨୭"
+],
+"answer": "ଧାରା ୩୨୪",
+"explanation": "ସମ୍ବିଧାନର ଧାରା ୩୨୪ ନିର୍ବାଚନ ଆୟୋଗଙ୍କ ଗଠନ ଓ କ୍ଷମତା ସମ୍ପର୍କରେ ଉଲ୍ଲେଖ କରେ।"
+},
+{
+"questionEnglish": "Who was the Chairman of the States Reorganization Commission?",
+"questionOdia": "ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆୟୋଗର ଅଧ୍ୟକ୍ଷ କିଏ ଥିଲେ?",
+"options": [
+"ଫଜଲ ଅଲ୍ଲୀ",
+"ଏଚ. ଏମ୍. ପାଣିକର",
+"ହୃଦୟନାଥ କୁଞ୍ଜରୁ",
+"ଜବାହରଲାଲ ନେହେରୁ"
+],
+"answer": "ଫଜଲ ଅଲ୍ଲୀ",
+"explanation": "ନ୍ୟାୟମୂର୍ତ୍ତି ଫଜଲ ଅଲ୍ଲୀ ରାଜ୍ୟ ପୁନର୍ଗଠନ ଆୟୋଗର ଅଧ୍ୟକ୍ଷ ଥିଲେ।"
+},
+{
+"questionEnglish": "What are the two major houses in Parliament?",
+"questionOdia": "ସଂସଦର ଦୁଇଟି ମୁଖ୍ୟ ଗୃହ କ'ଣ?",
+"options": [
+"ଲୋକସଭା ଓ ରାଜ୍ୟସଭା",
+"ବିଧାନସଭା ଓ ବିଧାନ ପରିଷଦ",
+"କାର୍ଯ୍ୟପାଳିକା ଓ ବିଧାୟିକା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଲୋକସଭା ଓ ରାଜ୍ୟସଭା",
+"explanation": "ଭାରତୀୟ ସଂସଦ ଲୋକସଭା ଓ ରାଜ୍ୟସଭାକୁ ନେଇ ଗଠିତ।"
+},
+{
+"questionEnglish": "What is the voting age in India currently?",
+"questionOdia": "ଭାରତରେ ବର୍ତ୍ତମାନ ଭୋଟ୍ ଦେବାର ବୟସ କେତେ?",
+"options": [
+"୧୮ ବର୍ଷ",
+"୨୧ ବର୍ଷ",
+"୨୫ ବର୍ଷ",
+"୧୬ ବର୍ଷ"
+],
+"answer": "୧୮ ବର୍ଷ",
+"explanation": "ଭାରତରେ ସାବାଳକ ମତଦାନର ବୟସ ୧୮ ବର୍ଷ।"
+},
+{
+"questionEnglish": "When was the last major state reorganization (involving J&K)?",
+"questionOdia": "ଜମ୍ମୁ ଓ କାଶ୍ମୀରକୁ ନେଇ ଶେଷ ଥର ପାଇଁ କେବେ ବଡ଼ ପୁନର୍ଗଠନ ହୋଇଥିଲା?",
+"options": [
+"୨୦୧୪",
+"୨୦୧୯",
+"୨୦୦୦",
+"୨୦୧୧"
+],
+"answer": "୨୦୧୯",
+"explanation": "୨୦୧୯ ମସିହାରେ ଜମ୍ମୁ ଓ କାଶ୍ମୀର ପୁନର୍ଗଠନ ଆଇନ ଅନୁସାରେ ଏହି ପରିବର୍ତ୍ତନ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Who appoints the Governor of a state?",
+"questionOdia": "ରାଜ୍ୟପାଳଙ୍କୁ କିଏ ନିଯୁକ୍ତ କରନ୍ତି?",
+"options": [
+"ରାଷ୍ଟ୍ରପତି",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ମୁଖ୍ୟମନ୍ତ୍ରୀ",
+"ସଂସଦ"
+],
+"answer": "ରାଷ୍ଟ୍ରପତି",
+"explanation": "ରାଜ୍ୟର ରାଜ୍ୟପାଳଙ୍କୁ ରାଷ୍ଟ୍ରପତି ନିଯୁକ୍ତ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Are all elections in India direct?",
+"questionOdia": "ଭାରତରେ କ'ଣ ସମସ୍ତ ନିର୍ବାଚନ ପ୍ରତ୍ୟକ୍ଷ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଲୋକସଭା",
+"କେବଳ ପଞ୍ଚାୟତ"
+],
+"answer": "ନା",
+"explanation": "ଭାରତରେ ପ୍ରତ୍ୟକ୍ଷ ଓ ପରୋକ୍ଷ - ଉଭୟ ପ୍ରକାର ନିର୍ବାଚନ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the meaning of Adult Suffrage?",
+"questionOdia": "ସାବାଳକ ମତଦାନର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ପ୍ରାପ୍ତ ବୟସ୍କ ନାଗରିକଙ୍କ ଭୋଟ୍ ଦେବାର ଅଧିକାର",
+"କେବଳ ସରକାରୀ କର୍ମଚାରୀଙ୍କ ଭୋଟ୍",
+"କେବଳ ଶିକ୍ଷିତଙ୍କ ଭୋଟ୍",
+"କେହି ନୁହେଁ"
+],
+"answer": "ପ୍ରାପ୍ତ ବୟସ୍କ ନାଗରିକଙ୍କ ଭୋଟ୍ ଦେବାର ଅଧିକାର",
+"explanation": "ସାବାଳକ ମତଦାନର ଅର୍ଥ ହେଉଛି ବୟସ୍କ ହୋଇଥିବା ପ୍ରତ୍ୟେକ ନାଗରିକଙ୍କ ଭୋଟ୍ ଦେବାର ଅଧିକାର।"
+},
+{
+"questionEnglish": "Who is the custodian of the Constitution?",
+"questionOdia": "ସମ୍ବିଧାନର ରକ୍ଷକ କିଏ?",
+"options": [
+"ସଂସଦ",
+"ସୁପ୍ରିମକୋର୍ଟ",
+"ରାଷ୍ଟ୍ରପତି",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ"
+],
+"answer": "ସୁପ୍ରିମକୋର୍ଟ",
+"explanation": "ସୁପ୍ରିମକୋର୍ଟ ସମ୍ବିଧାନର ସର୍ବୋଚ୍ଚ ବ୍ୟାଖ୍ୟାକାର ଓ ରକ୍ଷକ।"
+},
+{
+"questionEnglish": "What does the 74th Amendment relate to?",
+"questionOdia": "୭୪ତମ ସମ୍ବିଧାନ ସଂଶୋଧନ କ'ଣ ସହ ଜଡ଼ିତ?",
+"options": [
+"ପଞ୍ଚାୟତ ରାଜ",
+"ପୌରସଂସ୍ଥା",
+"ରାଜ୍ୟ ନାମ",
+"ନିର୍ବାଚନ"
+],
+"answer": "ପୌରସଂସ୍ଥା",
+"explanation": "୭୪ତମ ସମ୍ବିଧାନ ସଂଶୋଧନ ପୌରସଂସ୍ଥାଗୁଡ଼ିକୁ ସାମ୍ବିଧାନିକ ମାନ୍ୟତା ଦେଇଛି।"
+}
+]
