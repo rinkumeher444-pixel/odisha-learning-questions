@@ -1,0 +1,552 @@
+[
+{
+"questionEnglish": "Who is the poet of the poem 'We are Seven'?",
+"options": [
+"William Wordsworth",
+"John Keats",
+"Robert Frost",
+"William Blake"
+],
+"answer": "William Wordsworth",
+"explanation": "The text identifies William Wordsworth as the poet of 'We are Seven'."
+},
+{
+"questionEnglish": "How old was the little cottage girl mentioned in the poem?",
+"options": [
+"Six years old",
+"Seven years old",
+"Eight years old",
+"Nine years old"
+],
+"answer": "Eight years old",
+"explanation": "The poem states, 'She was eight years old, she said'."
+},
+{
+"questionEnglish": "According to the poet, why is a child's perspective of the world different from an adult's?",
+"options": [
+"Because children are more educated",
+"Because of their simple nature",
+"Because children are afraid of death",
+"Because they have travelled extensively"
+],
+"answer": "Because of their simple nature",
+"explanation": "The lead-in text states that children see things from a different perspective because of their simple nature."
+},
+{
+"questionEnglish": "What does the phrase 'lightly draws its breath' in the first stanza suggest about the child?",
+"options": [
+"The child is sick",
+"The child is full of life and vitality",
+"The child is sleeping",
+"The child is afraid"
+],
+"answer": "The child is full of life and vitality",
+"explanation": "It depicts a child who is full of spirit, vigour, and free from tension."
+},
+{
+"questionEnglish": "How many sisters and brothers did the girl say there were in total?",
+"options": [
+"Five",
+"Six",
+"Seven",
+"Eight"
+],
+"answer": "Seven",
+"explanation": "When asked, the girl replied, 'How many? Seven in all,'."
+},
+{
+"questionEnglish": "Where did two of the girl's siblings dwell according to her?",
+"options": [
+"In the city",
+"In the church-yard",
+"At Conway",
+"At sea"
+],
+"answer": "At Conway",
+"explanation": "The girl states, 'And two of us at Conway dwell'."
+},
+{
+"questionEnglish": "What happened to two of the girl's siblings?",
+"options": [
+"They moved to London",
+"They were lost in the woods",
+"They were gone to sea",
+"They were studying abroad"
+],
+"answer": "They were gone to sea",
+"explanation": "The girl mentions, 'and two are gone to sea'."
+},
+{
+"questionEnglish": "Where were the two deceased siblings of the girl laid to rest?",
+"options": [
+"Under a large oak tree",
+"In the church-yard",
+"Near the riverside",
+"Behind the cottage"
+],
+"answer": "In the church-yard",
+"explanation": "The girl replies, 'Two of us in the church-yard lie'."
+},
+{
+"questionEnglish": "What was the girl's reason for still counting her dead siblings as part of the seven?",
+"options": [
+"She did not understand math",
+"She believed their spirits were still with her",
+"She was lying to the poet",
+"She forgot they were dead"
+],
+"answer": "She believed their spirits were still with her",
+"explanation": "The girl emphasizes her association with them, implying they are not separated from her life."
+},
+{
+"questionEnglish": "What activities did the girl perform near the graves of her siblings?",
+"options": [
+"She played games alone",
+"She knitted stockings and hemmed kerchiefs",
+"She studied her school books",
+"She slept throughout the day"
+],
+"answer": "She knitted stockings and hemmed kerchiefs",
+"explanation": "The girl says, 'My stockings there I often knit, My kerchief there I hem'."
+},
+{
+"questionEnglish": "What did the girl often do at the gravesite after sunset?",
+"options": [
+"She prayed for their souls",
+"She sat and ate her supper",
+"She cleaned the headstones",
+"She hid from her mother"
+],
+"answer": "She sat and ate her supper",
+"explanation": "The girl states, 'And often after sun-set, Sir... I take my little porringer, And eat my supper there'."
+},
+{
+"questionEnglish": "Who was the first sibling to die in the story?",
+"options": [
+"John",
+"Jane",
+"The girl herself",
+"An unnamed brother"
+],
+"answer": "Jane",
+"explanation": "The girl replies, 'The first that dies was sister Jane'."
+},
+{
+"questionEnglish": "How did sister Jane die according to the girl?",
+"options": [
+"She died suddenly in her sleep",
+"She died in a sea accident",
+"She suffered pain until God released her",
+"She was taken by a fever"
+],
+"answer": "She suffered pain until God released her",
+"explanation": "The girl says, 'In bed she moaning lay, Till God released her of her pain'."
+},
+{
+"questionEnglish": "What did the brother John die of according to the poem?",
+"options": [
+"He did not die",
+"He died during the winter when the ground was white with snow",
+"He died at sea",
+"He died of an illness in summer"
+],
+"answer": "He died during the winter when the ground was white with snow",
+"explanation": "The girl describes that when the ground was white with snow, John was forced to go."
+},
+{
+"questionEnglish": "How did the poet feel after the girl insisted they were still seven?",
+"options": [
+"He was convinced by her logic",
+"He was puzzled and insisted they were only five",
+"He felt happy for her",
+"He decided to leave her alone"
+],
+"answer": "He was puzzled and insisted they were only five",
+"explanation": "The poet found the girl's perspective puzzling and argued that if two are dead, there are only five."
+},
+{
+"questionEnglish": "What does the expression 'Twas throwing words away' mean in the poem?",
+"options": [
+"Speaking without thinking",
+"Talking to someone who wouldn't listen or change their mind",
+"Writing a poem too quickly",
+"Throwing trash on the ground"
+],
+"answer": "Talking to someone who wouldn't listen or change their mind",
+"explanation": "The phrase implies that the poet's attempts to convince the girl were futile."
+},
+{
+"questionEnglish": "What is a 'porringer' mentioned in the poem?",
+"options": [
+"A small toy",
+"A type of flower",
+"A small dish for food like soup or porridge",
+"A winter garment"
+],
+"answer": "A small dish for food like soup or porridge",
+"explanation": "The glossary defines 'porringer' as a small dish for soup, porridge, etc.."
+},
+{
+"questionEnglish": "What kind of life did William Wordsworth depict in many of his poems?",
+"options": [
+"Urban industrial life",
+"Simple rustic life",
+"Life of royalty",
+"Life of ancient warriors"
+],
+"answer": "Simple rustic life",
+"explanation": "Wordsworth is known for depicting simple rustic life in many of his poems."
+},
+{
+"questionEnglish": "Where did the poet meet the child in 1793?",
+"options": [
+"In London",
+"Near Goodrich Castle in Wales",
+"In a crowded market",
+"In a school yard"
+],
+"answer": "Near Goodrich Castle in Wales",
+"explanation": "The poem was inspired by his meeting with a child near Goodrich Castle in Wales."
+},
+{
+"questionEnglish": "Which of these is NOT mentioned as a famous lyric by Wordsworth?",
+"options": [
+"Daffodils",
+"The Solitary Reaper",
+"Lucy Poems",
+"The Raven"
+],
+"answer": "The Raven",
+"explanation": "The text lists 'Daffodils', 'The Solitary Reaper', and 'Lucy Poems' as Wordsworth's works."
+},
+{
+"questionEnglish": "How does the poet regard nature?",
+"options": [
+"As a dangerous force",
+"As a great teacher",
+"As something to be ignored",
+"As a source of wealth"
+],
+"answer": "As a great teacher",
+"explanation": "The text states that Wordsworth regards nature as a great teacher."
+},
+{
+"questionEnglish": "What is the meaning of the word 'rustic' as used in the glossary?",
+"options": [
+"Modern",
+"Rural",
+"Expensive",
+"Artificial"
+],
+"answer": "Rural",
+"explanation": "The glossary defines 'rustic' as rural."
+},
+{
+"questionEnglish": "What is a 'church-yard'?",
+"options": [
+"A place for playing games",
+"A burial ground adjoining a church",
+"A building for prayers",
+"A house for priests"
+],
+"answer": "A burial ground adjoining a church",
+"explanation": "The glossary defines 'church-yard' as a burial ground adjoining a church."
+},
+{
+"questionEnglish": "What does 'clustered' mean?",
+"options": [
+"Spread far apart",
+"A number of things growing or joined together",
+"Cut very short",
+"Painted in bright colors"
+],
+"answer": "A number of things growing or joined together",
+"explanation": "The glossary defines 'clustered' as a number of things of the same kind growing or joined together."
+},
+{
+"questionEnglish": "What does the girl mean when she says 'Their graves are green'?",
+"options": [
+"The grass is growing on them",
+"The graves are painted green",
+"The graves are very new",
+"The graves are hidden in the woods"
+],
+"answer": "The grass is growing on them",
+"explanation": "In the context of the poem, 'green' graves imply they are covered in grass and well-tended."
+},
+{
+"questionEnglish": "How is the girl's dress described in the poem?",
+"options": [
+"Neatly stitched",
+"Wildly clad",
+"Expensive and silk",
+"Dull and dark"
+],
+"answer": "Wildly clad",
+"explanation": "The poem says, 'And she was wildly clad'."
+},
+{
+"questionEnglish": "What does the poet feel when looking at the girl's beauty?",
+"options": [
+"He felt sad",
+"Her beauty made him glad",
+"He felt indifferent",
+"He felt scared"
+],
+"answer": "Her beauty made him glad",
+"explanation": "The poem states, 'Her beauty made me glad'."
+},
+{
+"questionEnglish": "What does the girl do at the gravesite besides knitting and hemming?",
+"options": [
+"She cries",
+"She sings a song to them",
+"She reads books",
+"She talks to the priest"
+],
+"answer": "She sings a song to them",
+"explanation": "She tells the poet that she sits there and sings a song to them."
+},
+{
+"questionEnglish": "According to the girl, how far are the graves from her mother's door?",
+"options": [
+"Five steps",
+"Ten steps",
+"Twelve steps or more",
+"A mile away"
+],
+"answer": "Twelve steps or more",
+"explanation": "The girl says the graves are 'Twelve steps or more from my mother's door'."
+},
+{
+"questionEnglish": "What does 'moaning' mean in the poem?",
+"options": [
+"Singing loudly",
+"Laughing happily",
+"Uttering a low sound of suffering",
+"Talking clearly"
+],
+"answer": "Uttering a low sound of suffering",
+"explanation": "The glossary defines 'moaning' as uttering a prolonged, low sound expressing suffering."
+},
+{
+"questionEnglish": "What does the word 'spirits' refer to?",
+"options": [
+"A type of beverage",
+"The souls of the dead",
+"The toys of the children",
+"The trees in the yard"
+],
+"answer": "The souls of the dead",
+"explanation": "The glossary defines 'spirits' as souls."
+},
+{
+"questionEnglish": "Why did the poet meet the little girl?",
+"options": [
+"He was lost and asked for directions",
+"He was enquiring about her family",
+"She was his relative",
+"He was a census officer"
+],
+"answer": "He was enquiring about her family",
+"explanation": "The poet asks her about her sisters and brothers."
+},
+{
+"questionEnglish": "How does the poet describe the girl's hair?",
+"options": [
+"Straight and long",
+"Thick with many a curl",
+"Thin and gray",
+"Braided and neat"
+],
+"answer": "Thick with many a curl",
+"explanation": "The poem says, 'Her hair was thick with many a curl'."
+},
+{
+"questionEnglish": "What is the primary characteristic of the child's life described in the poem?",
+"options": [
+"Knowledge of death",
+"Simplicity and freedom from tension",
+"Deep sorrow",
+"Ambition and greed"
+],
+"answer": "Simplicity and freedom from tension",
+"explanation": "The poem is marked by the simplicity of a life free from tension."
+},
+{
+"questionEnglish": "In the line 'And feels its life in every limb', what does 'limb' mean?",
+"options": [
+"A branch of a tree",
+"An arm or leg",
+"A part of the soul",
+"A type of shoe"
+],
+"answer": "An arm or leg",
+"explanation": "In this context, 'limb' refers to the body parts of the child."
+},
+{
+"questionEnglish": "What does 'wondering' mean in the poem?",
+"options": [
+"To express surprise or amazement",
+"To wander in the woods",
+"To think deeply",
+"To count objects"
+],
+"answer": "To express surprise or amazement",
+"explanation": "The glossary defines 'wonder' as to express surprise or amazement."
+},
+{
+"questionEnglish": "Why does the girl look 'wondering' at the poet?",
+"options": [
+"She is scared of him",
+"She is surprised by his questions about her brothers and sisters",
+"She does not understand English",
+"She is waiting for a gift"
+],
+"answer": "She is surprised by his questions about her brothers and sisters",
+"explanation": "She looks at him wondering because the family number is clear to her."
+},
+{
+"questionEnglish": "What does 'dwell' mean?",
+"options": [
+"To sleep",
+"To live or reside",
+"To walk",
+"To hide"
+],
+"answer": "To live or reside",
+"explanation": "The glossary defines 'dwell' as live, inhabit, or reside."
+},
+{
+"questionEnglish": "What does the line 'And when the ground was white with snow' suggest about the time of John's death?",
+"options": [
+"It was summer",
+"It was winter",
+"It was autumn",
+"It was spring"
+],
+"answer": "It was winter",
+"explanation": "Snow is a characteristic of winter."
+},
+{
+"questionEnglish": "What does 'kerchief' mean?",
+"options": [
+"A type of shoe",
+"A cloth worn as a head-covering or scarf",
+"A small dish",
+"A winter coat"
+],
+"answer": "A cloth worn as a head-covering or scarf",
+"explanation": "The glossary defines 'kerchief' as a cloth worn by women as a head-covering or scarf."
+},
+{
+"questionEnglish": "What does 'released' mean in the context of Jane's death?",
+"options": [
+"Set free from suffering",
+"Locked in a room",
+"Sent on a journey",
+"Told a secret"
+],
+"answer": "Set free from suffering",
+"explanation": "The glossary defines 'released' as relieved or set free."
+},
+{
+"questionEnglish": "What are 'stockings'?",
+"options": [
+"Gloves for hands",
+"Close-fitting coverings for foot and part of the leg",
+"Hats for the head",
+"Shoes for running"
+],
+"answer": "Close-fitting coverings for foot and part of the leg",
+"explanation": "The glossary defines 'stockings' as foot and leg coverings, usually knitted."
+},
+{
+"questionEnglish": "Which of the following describes the girl's 'air'?",
+"options": [
+"Rustic, woodland air",
+"City-like air",
+"Angry air",
+"Sad air"
+],
+"answer": "Rustic, woodland air",
+"explanation": "The poem describes her as having a 'rustic, woodland air'."
+},
+{
+"questionEnglish": "What does 'knit' mean?",
+"options": [
+"To paint with brushes",
+"To interweave with needles",
+"To sew with a machine",
+"To cut with scissors"
+],
+"answer": "To interweave with needles",
+"explanation": "The glossary defines 'knit' as to interweave with needles."
+},
+{
+"questionEnglish": "What is the central theme of the poem 'We are Seven'?",
+"options": [
+"The joy of travelling",
+"The innocence of childhood and the perception of death",
+"The history of Wales",
+"The importance of school education"
+],
+"answer": "The innocence of childhood and the perception of death",
+"explanation": "The poem highlights how a child's understanding of death differs from that of an adult."
+},
+{
+"questionEnglish": "How does the poet interact with the girl?",
+"options": [
+"He ignores her",
+"He engages her in a dialogue asking about her family",
+"He asks her to sing a song",
+"He writes down her life story"
+],
+"answer": "He engages her in a dialogue asking about her family",
+"explanation": "The poem revolves around the poet's conversation and inquiry with the girl."
+},
+{
+"questionEnglish": "Why is the poem titled 'We are Seven'?",
+"options": [
+"Because there were seven people in the church-yard",
+"Because the girl insists that there are seven children in her family",
+"Because the poet has seven children",
+"Because seven is a lucky number"
+],
+"answer": "Because the girl insists that there are seven children in her family",
+"explanation": "The girl repeatedly insists, 'Seven are we' and 'we are seven' despite the deaths."
+},
+{
+"questionEnglish": "How would you describe the girl's attitude toward her deceased siblings?",
+"options": [
+"She is afraid of them",
+"She thinks of them as dead and gone forever",
+"She feels they are still present and part of the family",
+"She wants to forget them"
+],
+"answer": "She feels they are still present and part of the family",
+"explanation": "She maintains an association with them, knitting, hemming, and eating by their graves."
+},
+{
+"questionEnglish": "What is the meaning of 'hem' in the poem?",
+"options": [
+"To sew the edge of a cloth",
+"To cut a cloth",
+"To wash a cloth",
+"To wear a cloth"
+],
+"answer": "To sew the edge of a cloth",
+"explanation": "The glossary defines 'hem' as to fold back and sew down the edges of cloth."
+},
+{
+"questionEnglish": "What does the phrase 'light and fair' imply when describing the time after sunset?",
+"options": [
+"A dark and scary time",
+"A time that is still bright and pleasant",
+"A time for sleeping",
+"A rainy time"
+],
+"answer": "A time that is still bright and pleasant",
+"explanation": "It describes a comfortable period where the girl can sit by the graves."
+}
+]
