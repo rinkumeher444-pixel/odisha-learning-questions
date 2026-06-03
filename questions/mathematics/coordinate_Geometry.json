@@ -1,0 +1,1191 @@
+[
+{
+"questionEnglish": "In the context of coordinate geometry, what do we call the horizontal axis and the vertical axis?",
+"questionOdia": "ସ୍ଥାନାଙ୍କ ଜ୍ୟାମିତିରେ, କ୍ଷିତିଜୀୟ ଅକ୍ଷ (horizontal axis) ଏବଂ ଉଲ୍ଲମ୍ବ ଅକ୍ଷକୁ (vertical axis) କ'ଣ କୁହାଯାଏ?",
+"options": [
+"X-ଅକ୍ଷ ଓ Y-ଅକ୍ଷ",
+"Y-ଅକ୍ଷ ଓ X-ଅକ୍ଷ",
+"ମୂଳବିନ୍ଦୁ ଓ ଅକ୍ଷ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "X-ଅକ୍ଷ ଓ Y-ଅକ୍ଷ",
+"explanation": "ସ୍ଥାନାଙ୍କ ସମତଳରେ ଆଡ଼େଇ ଥିବା ରେଖାକୁ X-ଅକ୍ଷ ଏବଂ ଠିଆ ଥିବା ରେଖାକୁ Y-ଅକ୍ଷ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the coordinate of the origin in a Cartesian coordinate system?",
+"questionOdia": "କାର୍ଟେସିଆନ୍ ସ୍ଥାନାଙ୍କ ବ୍ୟବସ୍ଥାରେ ମୂଳବିନ୍ଦୁର ସ୍ଥାନାଙ୍କ କ'ଣ?",
+"options": [
+"(1, 1)",
+"(0, 1)",
+"(1, 0)",
+"(0, 0)"
+],
+"answer": "(0, 0)",
+"explanation": "ମୂଳବିନ୍ଦୁ ହେଉଛି ସେହି ସ୍ଥାନ ଯେଉଁଠାରେ X-ଅକ୍ଷ ଓ Y-ଅକ୍ଷ ପରସ୍ପରକୁ ଛେଦ କରନ୍ତି, ଏହାର ସ୍ଥାନାଙ୍କ (0, 0)।"
+},
+{
+"questionEnglish": "What is the formula to find the distance between two points A(x1, y1) and B(x2, y2)?",
+"questionOdia": "ଦୁଇଟି ବିନ୍ଦୁ A(x1, y1) ଏବଂ B(x2, y2) ମଧ୍ୟରେ ଦୂରତା ନିର୍ଣ୍ଣୟ କରିବାର ସୂତ୍ର କ'ଣ?",
+"options": [
+"sqrt((x2-x1)^2 + (y2-y1)^2)",
+"sqrt((x2+x1)^2 + (y2+y1)^2)",
+"(x2-x1) + (y2-y1)",
+"(x2-x1)^2 - (y2-y1)^2"
+],
+"answer": "sqrt((x2-x1)^2 + (y2-y1)^2)",
+"explanation": "ଦୁଇଟି ବିନ୍ଦୁ ମଧ୍ୟରେ ଦୂରତା ନିର୍ଣ୍ଣୟ କରିବା ପାଇଁ ପାଇଥାଗୋରାସ୍ ଉପପାଦ୍ୟ ଉପରେ ଆଧାରିତ ଏହି ଦୂରତା ସୂତ୍ର ବ୍ୟବହାର କରାଯାଏ।"
+},
+{
+"questionEnglish": "If a point P(x, y) divides the line segment joining A(x1, y1) and B(x2, y2) in the ratio m:n internally, what is the coordinate of P?",
+"questionOdia": "ଯଦି ଗୋଟିଏ ବିନ୍ଦୁ P(x, y), A(x1, y1) ଓ B(x2, y2) କୁ ସଂଯୋଗ କରୁଥିବା ରେଖାଖଣ୍ଡକୁ m:n ଅନୁପାତରେ ଅନ୍ତଃବିଭାଜନ କରେ, ତେବେ P ର ସ୍ଥାନାଙ୍କ କ'ଣ?",
+"options": [
+"((mx2+nx1)/(m+n), (my2+ny1)/(m+n))",
+"((mx2-nx1)/(m-n), (my2-ny1)/(m-n))",
+"((mx1+nx2)/(m+n), (my1+ny2)/(m+n))",
+"((mx2+nx1)/(m-n), (my2+ny1)/(m-n))"
+],
+"answer": "((mx2+nx1)/(m+n), (my2+ny1)/(m+n))",
+"explanation": "ଏହାକୁ ଅନ୍ତଃବିଭାଜନ ସୂତ୍ର (Section Formula) କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the area of a triangle with vertices A(x1, y1), B(x2, y2), and C(x3, y3)?",
+"questionOdia": "A(x1, y1), B(x2, y2) ଏବଂ C(x3, y3) ଶୀର୍ଷବିନ୍ଦୁ ବିଶିଷ୍ଟ ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"1/2 |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|",
+"1/2 |x1(y1-y2) + x2(y2-y3) + x3(y3-y1)|",
+"|x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|",
+"1/2 |x1(y3-y2) + x2(y1-y3) + x3(y2-y1)|"
+],
+"answer": "1/2 |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|",
+"explanation": "ସ୍ଥାନାଙ୍କ ଜ୍ୟାମିତି ସାହାଯ୍ୟରେ ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ ନିର୍ଣ୍ଣୟ କରିବା ପାଇଁ ଏହି ସୂତ୍ର ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the condition for three points A, B, and C to be collinear using the area formula?",
+"questionOdia": "ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ ସୂତ୍ର ବ୍ୟବହାର କରି A, B, ଓ C ବିନ୍ଦୁତ୍ରୟ ସମରେଖ (collinear) ହେବାର ସର୍ତ୍ତ କ'ଣ?",
+"options": [
+"କ୍ଷେତ୍ରଫଳ > 0",
+"କ୍ଷେତ୍ରଫଳ = 0",
+"କ୍ଷେତ୍ରଫଳ < 0",
+"କ୍ଷେତ୍ରଫଳ = 1"
+],
+"answer": "କ୍ଷେତ୍ରଫଳ = 0",
+"explanation": "ଯଦି ତିନୋଟି ବିନ୍ଦୁ ସମରେଖ ହୁଅନ୍ତି, ତେବେ ସେମାନଙ୍କ ଦ୍ୱାରା ଗଠିତ ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ ଶୂନ୍ୟ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the distance of point P(x, y) from the origin (0, 0)?",
+"questionOdia": "P(x, y) ବିନ୍ଦୁର ମୂଳବିନ୍ଦୁ (0, 0) ଠାରୁ ଦୂରତା କେତେ?",
+"options": [
+"x + y",
+"x^2 + y^2",
+"sqrt(x^2 + y^2)",
+"sqrt(x - y)"
+],
+"answer": "sqrt(x^2 + y^2)",
+"explanation": "ଦୂରତା ସୂତ୍ରରେ x2=0 ଓ y2=0 ରଖିଲେ ଆମେ sqrt(x^2 + y^2) ପାଇଥାଉ।"
+},
+{
+"questionEnglish": "If a line segment has a midpoint (x, y) connecting (x1, y1) and (x2, y2), what is the formula for the midpoint?",
+"questionOdia": "(x1, y1) ଓ (x2, y2) କୁ ସଂଯୋଗ କରୁଥିବା ରେଖାଖଣ୍ଡର ମଧ୍ୟବିନ୍ଦୁ (x, y) ହେଲେ, ମଧ୍ୟବିନ୍ଦୁର ସୂତ୍ର କ'ଣ?",
+"options": [
+"((x1-x2)/2, (y1-y2)/2)",
+"((x1+x2)/2, (y1+y2)/2)",
+"(x1+x2, y1+y2)",
+"(x1/2 + x2/2, y1/2 + y2/2)"
+],
+"answer": "((x1+x2)/2, (y1+y2)/2)",
+"explanation": "ମଧ୍ୟବିନ୍ଦୁ ହେଉଛି ଉଭୟ ବିନ୍ଦୁର ସ୍ଥାନାଙ୍କର ହାରାହାରି।"
+},
+{
+"questionEnglish": "In which quadrant does the point (-3, 4) lie?",
+"questionOdia": "(-3, 4) ବିନ୍ଦୁଟି କେଉଁ ପାଦରେ (quadrant) ଅବସ୍ଥିତ?",
+"options": [
+"ପ୍ରଥମ ପାଦ",
+"ଦ୍ୱିତୀୟ ପାଦ",
+"ତୃତୀୟ ପାଦ",
+"ଚତୁର୍ଥ ପାଦ"
+],
+"answer": "ଦ୍ୱିତୀୟ ପାଦ",
+"explanation": "ଦ୍ୱିତୀୟ ପାଦରେ x ଋଣାତ୍ମକ ଏବଂ y ଧନାତ୍ମକ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the slope of the line passing through points (2, 3) and (4, 7)?",
+"questionOdia": "(2, 3) ଓ (4, 7) ବିନ୍ଦୁ ଦେଇ ଯାଉଥିବା ସରଳରେଖାର ସ୍ଲୋପ୍ (Slope) କେତେ?",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "2",
+"explanation": "ସ୍ଲୋପ୍ = (y2-y1)/(x2-x1) = (7-3)/(4-2) = 4/2 = 2।"
+},
+{
+"questionEnglish": "If the slope of a line is m, what is the slope of a line perpendicular to it?",
+"questionOdia": "ଯଦି ଏକ ରେଖାର ସ୍ଲୋପ୍ m ହୁଏ, ତେବେ ତାହା ଉପରେ ଲମ୍ବ ଥିବା ରେଖାର ସ୍ଲୋପ୍ କେତେ?",
+"options": [
+"m",
+"-m",
+"1/m",
+"-1/m"
+],
+"answer": "-1/m",
+"explanation": "ଦୁଇଟି ପରସ୍ପର ଲମ୍ବ ରେଖାର ସ୍ଲୋପ୍‌ର ଗୁଣଫଳ -1 ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What does the x-coordinate of a point represent?",
+"questionOdia": "ଏକ ବିନ୍ଦୁର x-ସ୍ଥାନାଙ୍କ (x-coordinate) କ'ଣ ପ୍ରକାଶ କରେ?",
+"options": [
+"Y-ଅକ୍ଷଠାରୁ ଦୂରତା",
+"X-ଅକ୍ଷଠାରୁ ଦୂରତା",
+"ମୂଳବିନ୍ଦୁଠାରୁ ଦୂରତା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "Y-ଅକ୍ଷଠାରୁ ଦୂରତା",
+"explanation": "x-ସ୍ଥାନାଙ୍କ ବା ଭୁଜ (Abscissa) ହେଉଛି Y-ଅକ୍ଷଠାରୁ ବିନ୍ଦୁଟିର ଲମ୍ବ ଦୂରତା।"
+},
+{
+"questionEnglish": "What does the y-coordinate of a point represent?",
+"questionOdia": "ଏକ ବିନ୍ଦୁର y-ସ୍ଥାନାଙ୍କ (y-coordinate) କ'ଣ ପ୍ରକାଶ କରେ?",
+"options": [
+"Y-ଅକ୍ଷଠାରୁ ଦୂରତା",
+"X-ଅକ୍ଷଠାରୁ ଦୂରତା",
+"ମୂଳବିନ୍ଦୁଠାରୁ ଦୂରତା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "X-ଅକ୍ଷଠାରୁ ଦୂରତା",
+"explanation": "y-ସ୍ଥାନାଙ୍କ ବା କୋଟି (Ordinate) ହେଉଛି X-ଅକ୍ଷଠାରୁ ବିନ୍ଦୁଟିର ଲମ୍ବ ଦୂରତା।"
+},
+{
+"questionEnglish": "What is the distance of the point (5, -12) from the origin?",
+"questionOdia": "(5, -12) ବିନ୍ଦୁର ମୂଳବିନ୍ଦୁଠାରୁ ଦୂରତା କେତେ?",
+"options": [
+"7",
+"13",
+"17",
+"11"
+],
+"answer": "13",
+"explanation": "sqrt(5^2 + (-12)^2) = sqrt(25 + 144) = sqrt(169) = 13।"
+},
+{
+"questionEnglish": "Which of the following points lies on the X-axis?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ବିନ୍ଦୁଟି X-ଅକ୍ଷ ଉପରେ ଅବସ୍ଥିତ?",
+"options": [
+"(2, 3)",
+"(0, 5)",
+"(4, 0)",
+"(1, 1)"
+],
+"answer": "(4, 0)",
+"explanation": "X-ଅକ୍ଷ ଉପରେ ଥିବା ପ୍ରତ୍ୟେକ ବିନ୍ଦୁର y-ସ୍ଥାନାଙ୍କ 0 ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Which of the following points lies on the Y-axis?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ବିନ୍ଦୁଟି Y-ଅକ୍ଷ ଉପରେ ଅବସ୍ଥିତ?",
+"options": [
+"(3, 0)",
+"(0, 7)",
+"(5, 2)",
+"(1, 1)"
+],
+"answer": "(0, 7)",
+"explanation": "Y-ଅକ୍ଷ ଉପରେ ଥିବା ପ୍ରତ୍ୟେକ ବିନ୍ଦୁର x-ସ୍ଥାନାଙ୍କ 0 ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "If points A(2, 2), B(4, 4), and C(6, 6) are given, what can you say about them?",
+"questionOdia": "ଯଦି A(2, 2), B(4, 4), ଏବଂ C(6, 6) ବିନ୍ଦୁଗୁଡ଼ିକ ଦିଆଯାଇଛି, ତେବେ ସେମାନଙ୍କ ସମ୍ବନ୍ଧରେ କ'ଣ କୁହାଯାଇପାରିବ?",
+"options": [
+"ସେମାନେ ଏକ ତ୍ରିଭୁଜ ଗଠନ କରନ୍ତି",
+"ସେମାନେ ସମରେଖ (collinear)",
+"ସେମାନେ ଏକ ବୃତ୍ତରେ ଅଛନ୍ତି",
+"ସେମାନେ କୌଣସି ସମ୍ପର୍କରେ ନାହାନ୍ତି"
+],
+"answer": "ସେମାନେ ସମରେଖ (collinear)",
+"explanation": "ସେମାନଙ୍କ ଦ୍ୱାରା ଗଠିତ ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ ଶୂନ୍ୟ (1/2 |2(4-6) + 4(6-2) + 6(2-4)| = 1/2 |-4 + 16 - 12| = 0)।"
+},
+{
+"questionEnglish": "What is the shape formed by the points (0, 0), (4, 0), and (0, 3)?",
+"questionOdia": "(0, 0), (4, 0), ଏବଂ (0, 3) ବିନ୍ଦୁ ଦ୍ୱାରା ଗଠିତ ଆକୃତି କ'ଣ?",
+"options": [
+"ଏକ ବର୍ଗଚିତ୍ର",
+"ଏକ ସମକୋଣୀ ତ୍ରିଭୁଜ",
+"ଏକ ଆୟତଚିତ୍ର",
+"ଏକ ସମବାହୁ ତ୍ରିଭୁଜ"
+],
+"answer": "ଏକ ସମକୋଣୀ ତ୍ରିଭୁଜ",
+"explanation": "ଏହି ବିନ୍ଦୁଗୁଡ଼ିକ ସମତଳରେ ଏକ ସମକୋଣୀ ତ୍ରିଭୁଜ ଗଠନ କରନ୍ତି ଯାହାର ଭୂମି 4 ଏବଂ ଉଚ୍ଚତା 3।"
+},
+{
+"questionEnglish": "What is the formula for the distance between two points on the same horizontal line (y is same)?",
+"questionOdia": "ସମାନ କ୍ଷିତିଜୀୟ ରେଖାରେ (y ସମାନ) ଥିବା ଦୁଇଟି ବିନ୍ଦୁ ମଧ୍ୟରେ ଦୂରତା କେତେ?",
+"options": [
+"x2 + x1",
+"|x2 - x1|",
+"|y2 - y1|",
+"sqrt(x2^2 + x1^2)"
+],
+"answer": "|x2 - x1|",
+"explanation": "ଯଦି y ସମାନ, ତେବେ ଦୂରତା ହେଉଛି କେବଳ x-ସ୍ଥାନାଙ୍କର ପ୍ରଭେଦ।"
+},
+{
+"questionEnglish": "What is the formula for the distance between two points on the same vertical line (x is same)?",
+"questionOdia": "ସମାନ ଉଲ୍ଲମ୍ବ ରେଖାରେ (x ସମାନ) ଥିବା ଦୁଇଟି ବିନ୍ଦୁ ମଧ୍ୟରେ ଦୂରତା କେତେ?",
+"options": [
+"y2 + y1",
+"|x2 - x1|",
+"|y2 - y1|",
+"sqrt(y2^2 + y1^2)"
+],
+"answer": "|y2 - y1|",
+"explanation": "ଯଦି x ସମାନ, ତେବେ ଦୂରତା ହେଉଛି କେବଳ y-ସ୍ଥାନାଙ୍କର ପ୍ରଭେଦ।"
+},
+{
+"questionEnglish": "What does the slope of a line represent geometrically?",
+"questionOdia": "ସ୍ଥାନାଙ୍କ ଜ୍ୟାମିତିରେ ଏକ ରେଖାର ସ୍ଲୋପ୍ (Slope) କ'ଣ ସୂଚାଏ?",
+"options": [
+"ରେଖାର ଦୈର୍ଘ୍ୟ",
+"ରେଖାର ଆନତି (inclination)",
+"ରେଖାର ରଙ୍ଗ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରେଖାର ଆନତି (inclination)",
+"explanation": "ସ୍ଲୋପ୍ ରେଖାର ଢାଲ କିମ୍ବା ଆନତିକୁ ମାପିଥାଏ।"
+},
+{
+"questionEnglish": "If the distance between (x, 0) and (0, 3) is 5, find x (assuming x is positive).",
+"questionOdia": "ଯଦି (x, 0) ଓ (0, 3) ମଧ୍ୟରେ ଦୂରତା 5 ହୁଏ, ତେବେ x ର ମୂଲ୍ୟ କେତେ (x ଧନାତ୍ମକ ବୋଲି ଧରି)?",
+"options": [
+"3",
+"4",
+"5",
+"2"
+],
+"answer": "4",
+"explanation": "sqrt((x-0)^2 + (0-3)^2) = 5 => x^2 + 9 = 25 => x^2 = 16 => x = 4।"
+},
+{
+"questionEnglish": "What are the four parts of a Cartesian plane called?",
+"questionOdia": "କାର୍ଟେସିଆନ୍ ସମତଳର ଚାରୋଟି ଅଂଶକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ପାଦ (Quadrants)",
+"ଖଣ୍ଡ",
+"ଅକ୍ଷ",
+"ବିନ୍ଦୁ"
+],
+"answer": "ପାଦ (Quadrants)",
+"explanation": "ଅକ୍ଷଦ୍ୱୟ ଦ୍ୱାରା ସମତଳ ଚାରୋଟି ପାଦରେ ବିଭକ୍ତ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Can the distance between two points be negative?",
+"questionOdia": "ଦୁଇଟି ବିନ୍ଦୁ ମଧ୍ୟରେ ଦୂରତା କ'ଣ ଋଣାତ୍ମକ ହୋଇପାରିବ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ 0",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ଦୂରତା ସର୍ବଦା ଏକ ଧନାତ୍ମକ ମାପ।"
+},
+{
+"questionEnglish": "What is the abscissa of the point (-5, 2)?",
+"questionOdia": "(-5, 2) ବିନ୍ଦୁର ଭୁଜ (abscissa) କ'ଣ?",
+"options": [
+"2",
+"-5",
+"5",
+"-2"
+],
+"answer": "-5",
+"explanation": "ବିନ୍ଦୁ (x, y) ରେ x ହେଉଛି ଭୁଜ।"
+},
+{
+"questionEnglish": "What is the ordinate of the point (4, -8)?",
+"questionOdia": "(4, -8) ବିନ୍ଦୁର କୋଟି (ordinate) କ'ଣ?",
+"options": [
+"4",
+"-8",
+"8",
+"-4"
+],
+"answer": "-8",
+"explanation": "ବିନ୍ଦୁ (x, y) ରେ y ହେଉଛି କୋଟି।"
+},
+{
+"questionEnglish": "Which point is the midpoint of (0, 0) and (4, 4)?",
+"questionOdia": "(0, 0) ଓ (4, 4) ର ମଧ୍ୟବିନ୍ଦୁ କେଉଁଟି?",
+"options": [
+"(1, 1)",
+"(2, 2)",
+"(3, 3)",
+"(4, 4)"
+],
+"answer": "(2, 2)",
+"explanation": "((0+4)/2, (0+4)/2) = (2, 2)।"
+},
+{
+"questionEnglish": "If a triangle has vertices (0,0), (1,0), (0,1), what is its area?",
+"questionOdia": "ଏକ ତ୍ରିଭୁଜର ଶୀର୍ଷବିନ୍ଦୁ (0,0), (1,0), (0,1) ହେଲେ, ଏହାର କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"0.5",
+"1",
+"1.5",
+"2"
+],
+"answer": "0.5",
+"explanation": "କ୍ଷେତ୍ରଫଳ = 1/2 * ଭୂମି * ଉଚ୍ଚତା = 1/2 * 1 * 1 = 0.5।"
+},
+{
+"questionEnglish": "What is the distance between (0, 0) and (-3, 0)?",
+"questionOdia": "(0, 0) ଓ (-3, 0) ମଧ୍ୟରେ ଦୂରତା କେତେ?",
+"options": [
+"0",
+"3",
+"-3",
+"9"
+],
+"answer": "3",
+"explanation": "ଦୂରତା ସର୍ବଦା ଧନାତ୍ମକ, | -3 - 0 | = 3।"
+},
+{
+"questionEnglish": "A line passes through (1, 1) and (1, 5). Is it vertical or horizontal?",
+"questionOdia": "ଏକ ରେଖା (1, 1) ଓ (1, 5) ଦେଇ ଯାଏ। ଏହା ଉଲ୍ଲମ୍ବ କି କ୍ଷିତିଜୀୟ?",
+"options": [
+"କ୍ଷିତିଜୀୟ (Horizontal)",
+"ଉଲ୍ଲମ୍ବ (Vertical)",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଲ୍ଲମ୍ବ (Vertical)",
+"explanation": "ଯଦି x-ସ୍ଥାନାଙ୍କ ସମାନ, ତେବେ ରେଖାଟି ଉଲ୍ଲମ୍ବ।"
+},
+{
+"questionEnglish": "A line passes through (2, 2) and (6, 2). Is it vertical or horizontal?",
+"questionOdia": "ଏକ ରେଖା (2, 2) ଓ (6, 2) ଦେଇ ଯାଏ। ଏହା ଉଲ୍ଲମ୍ବ କି କ୍ଷିତିଜୀୟ?",
+"options": [
+"କ୍ଷିତିଜୀୟ (Horizontal)",
+"ଉଲ୍ଲମ୍ବ (Vertical)",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କ୍ଷିତିଜୀୟ (Horizontal)",
+"explanation": "ଯଦି y-ସ୍ଥାନାଙ୍କ ସମାନ, ତେବେ ରେଖାଟି କ୍ଷିତିଜୀୟ।"
+},
+{
+"questionEnglish": "What is the ratio in which the point (2, 2) divides the segment (0, 0) and (4, 4)?",
+"questionOdia": "(2, 2) ବିନ୍ଦୁଟି (0, 0) ଓ (4, 4) କୁ କେଉଁ ଅନୁପାତରେ ବିଭାଜନ କରେ?",
+"options": [
+"1:1",
+"1:2",
+"2:1",
+"1:3"
+],
+"answer": "1:1",
+"explanation": "ଏହା ମଧ୍ୟବିନ୍ଦୁ ହୋଇଥିବାରୁ 1:1 ଅନୁପାତରେ ବିଭାଜନ କରେ।"
+},
+{
+"questionEnglish": "If the slope of a line is 0, what kind of line is it?",
+"questionOdia": "ଯଦି ଏକ ରେଖାର ସ୍ଲୋପ୍ 0 ହୁଏ, ତେବେ ତାହା କିପରି ରେଖା?",
+"options": [
+"ଉଲ୍ଲମ୍ବ",
+"କ୍ଷିତିଜୀୟ",
+"କୌଣସିଟି ନୁହେଁ",
+"ଉଭୟ"
+],
+"answer": "କ୍ଷିତିଜୀୟ",
+"explanation": "କ୍ଷିତିଜୀୟ ରେଖାର ସ୍ଲୋପ୍ ଶୂନ୍ୟ ହୁଏ।"
+},
+{
+"questionEnglish": "What happens to the slope of a vertical line?",
+"questionOdia": "ଉଲ୍ଲମ୍ବ ରେଖାର ସ୍ଲୋପ୍ କ'ଣ ହୁଏ?",
+"options": [
+"0",
+"1",
+"ଅସଂଜ୍ଞାୟିତ (Undefined)",
+"-1"
+],
+"answer": "ଅସଂଜ୍ଞାୟିତ (Undefined)",
+"explanation": "ଉଲ୍ଲମ୍ବ ରେଖାରେ x-ପ୍ରଭେଦ 0 ହୋଇଥିବାରୁ, ସ୍ଲୋପ୍ ସଂଜ୍ଞାୟିତ ହୋଇପାରିବ ନାହିଁ।"
+},
+{
+"questionEnglish": "Does (1, -1) lie in the 4th quadrant?",
+"questionOdia": "କ'ଣ (1, -1) ଚତୁର୍ଥ ପାଦରେ ଅବସ୍ଥିତ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ପ୍ରଥମ ପାଦରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଚତୁର୍ଥ ପାଦରେ x ଧନାତ୍ମକ ଓ y ଋଣାତ୍ମକ।"
+},
+{
+"questionEnglish": "Find distance between P(0, 5) and Q(0, -5).",
+"questionOdia": "P(0, 5) ଓ Q(0, -5) ମଧ୍ୟରେ ଦୂରତା କେତେ?",
+"options": [
+"0",
+"5",
+"10",
+"-10"
+],
+"answer": "10",
+"explanation": "|5 - (-5)| = 10।"
+},
+{
+"questionEnglish": "What is the midpoint of (1, 3) and (5, 7)?",
+"questionOdia": "(1, 3) ଓ (5, 7) ର ମଧ୍ୟବିନ୍ଦୁ କେଉଁଟି?",
+"options": [
+"(2, 4)",
+"(3, 5)",
+"(4, 6)",
+"(6, 10)"
+],
+"answer": "(3, 5)",
+"explanation": "((1+5)/2, (3+7)/2) = (3, 5)।"
+},
+{
+"questionEnglish": "What is the area of a rectangle with vertices (0,0), (2,0), (0,3), (2,3)?",
+"questionOdia": "(0,0), (2,0), (0,3), (2,3) ଶୀର୍ଷବିନ୍ଦୁ ବିଶିଷ୍ଟ ଆୟତକ୍ଷେତ୍ରର କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"3",
+"5",
+"6",
+"10"
+],
+"answer": "6",
+"explanation": "ଦୈର୍ଘ୍ୟ = 2, ପ୍ରସ୍ଥ = 3, କ୍ଷେତ୍ରଫଳ = 2 * 3 = 6।"
+},
+{
+"questionEnglish": "Are (1, 2) and (2, 1) the same point?",
+"questionOdia": "କ'ଣ (1, 2) ଓ (2, 1) ସମାନ ବିନ୍ଦୁ?",
+"options": [
+"ହଁ",
+"ନା",
+"ସମ୍ଭବତଃ ହଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ସ୍ଥାନାଙ୍କରେ କ୍ରମର ବହୁତ ମହତ୍ତ୍ୱ ଅଛି।"
+},
+{
+"questionEnglish": "What is the distance from (3, 4) to origin?",
+"questionOdia": "(3, 4) ର ମୂଳବିନ୍ଦୁଠାରୁ ଦୂରତା କେତେ?",
+"options": [
+"3",
+"4",
+"5",
+"7"
+],
+"answer": "5",
+"explanation": "sqrt(3^2 + 4^2) = sqrt(9+16) = 5।"
+},
+{
+"questionEnglish": "Which point is the origin?",
+"questionOdia": "କେଉଁ ବିନ୍ଦୁଟି ମୂଳବିନ୍ଦୁ?",
+"options": [
+"(1, 1)",
+"(0, 0)",
+"(0, 1)",
+"(1, 0)"
+],
+"answer": "(0, 0)",
+"explanation": "ମୂଳବିନ୍ଦୁର ସ୍ଥାନାଙ୍କ (0,0)।"
+},
+{
+"questionEnglish": "What is the slope of a line with x-intercept a and y-intercept b?",
+"questionOdia": "x-ଅନ୍ତଃଖଣ୍ଡ a ଓ y-ଅନ୍ତଃଖଣ୍ଡ b ଥିବା ରେଖାର ସ୍ଲୋପ୍ କେତେ?",
+"options": [
+"a/b",
+"-a/b",
+"b/a",
+"-b/a"
+],
+"answer": "-b/a",
+"explanation": "ରେଖାଟି (a, 0) ଓ (0, b) ଦେଇ ଯାଏ, ସ୍ଲୋପ୍ = (b-0)/(0-a) = -b/a।"
+},
+{
+"questionEnglish": "Is (-1, -1) in the third quadrant?",
+"questionOdia": "କ'ଣ (-1, -1) ତୃତୀୟ ପାଦରେ ଅବସ୍ଥିତ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦ୍ୱିତୀୟ ପାଦରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ତୃତୀୟ ପାଦରେ x ଓ y ଉଭୟ ଋଣାତ୍ମକ।"
+},
+{
+"questionEnglish": "What is the length of a segment from (1, 1) to (4, 1)?",
+"questionOdia": "(1, 1) ରୁ (4, 1) ପର୍ଯ୍ୟନ୍ତ ରେଖାଖଣ୍ଡର ଦୈର୍ଘ୍ୟ କେତେ?",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "3",
+"explanation": "|4 - 1| = 3।"
+},
+{
+"questionEnglish": "What is the length of a segment from (2, 2) to (2, 6)?",
+"questionOdia": "(2, 2) ରୁ (2, 6) ପର୍ଯ୍ୟନ୍ତ ରେଖାଖଣ୍ଡର ଦୈର୍ଘ୍ୟ କେତେ?",
+"options": [
+"2",
+"3",
+"4",
+"6"
+],
+"answer": "4",
+"explanation": "|6 - 2| = 4।"
+},
+{
+"questionEnglish": "If P is midpoint of (x1, y1) and (x2, y2), is it unique?",
+"questionOdia": "ଯଦି P, (x1, y1) ଓ (x2, y2) ର ମଧ୍ୟବିନ୍ଦୁ ହୁଏ, ତେବେ ଏହା କ'ଣ ଅଦ୍ୱିତୀୟ?",
+"options": [
+"ହଁ",
+"ନା",
+"କୌଣସିଟି ନୁହେଁ",
+"ସମ୍ଭବ ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଗୋଟିଏ ରେଖାଖଣ୍ଡର ମଧ୍ୟବିନ୍ଦୁ କେବଳ ଗୋଟିଏ ହିଁ ଥାଏ।"
+},
+{
+"questionEnglish": "What is distance between (0, 0) and (x, y)?",
+"questionOdia": "(0, 0) ଓ (x, y) ମଧ୍ୟରେ ଦୂରତା କେତେ?",
+"options": [
+"x+y",
+"sqrt(x^2 + y^2)",
+"x^2+y^2",
+"sqrt(x+y)"
+],
+"answer": "sqrt(x^2 + y^2)",
+"explanation": "ଦୂରତା ସୂତ୍ରରୁ ଏହା ଆସେ।"
+},
+{
+"questionEnglish": "Do X-axis and Y-axis intersect at 90 degrees?",
+"questionOdia": "କ'ଣ X-ଅକ୍ଷ ଓ Y-ଅକ୍ଷ 90 ଡିଗ୍ରୀରେ ଛେଦ କରନ୍ତି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ କେତେକ କ୍ଷେତ୍ରରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଅକ୍ଷଦ୍ୱୟ ପରସ୍ପର ଉପରେ ଲମ୍ବ।"
+},
+{
+"questionEnglish": "What is the slope of a line with angle 45 degrees?",
+"questionOdia": "45 ଡିଗ୍ରୀ କୋଣ କରିଥିବା ରେଖାର ସ୍ଲୋପ୍ କେତେ?",
+"options": [
+"0",
+"1",
+"sqrt(3)",
+"1/sqrt(3)"
+],
+"answer": "1",
+"explanation": "ସ୍ଲୋପ୍ = tan(45°) = 1।"
+},
+{
+"questionEnglish": "Which axis is called the axis of ordinates?",
+"questionOdia": "କେଉଁ ଅକ୍ଷକୁ କୋଟି-ଅକ୍ଷ (axis of ordinates) କୁହାଯାଏ?",
+"options": [
+"X-ଅକ୍ଷ",
+"Y-ଅକ୍ଷ",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "Y-ଅକ୍ଷ",
+"explanation": "Y-ଅକ୍ଷକୁ କୋଟି-ଅକ୍ଷ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which axis is called the axis of abscissas?",
+"questionOdia": "କେଉଁ ଅକ୍ଷକୁ ଭୁଜ-ଅକ୍ଷ (axis of abscissas) କୁହାଯାଏ?",
+"options": [
+"X-ଅକ୍ଷ",
+"Y-ଅକ୍ଷ",
+"ଉଭୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "X-ଅକ୍ଷ",
+"explanation": "X-ଅକ୍ଷକୁ ଭୁଜ-ଅକ୍ଷ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Is (0, 5) on the X-axis?",
+"questionOdia": "କ'ଣ (0, 5) X-ଅକ୍ଷ ଉପରେ ଅଛି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ 5 ଥିଲେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "X-ଅକ୍ଷ ଉପରେ y-ସ୍ଥାନାଙ୍କ 0 ହେବା ଦରକାର।"
+},
+{
+"questionEnglish": "What is the distance between (a, b) and (a, b+c)?",
+"questionOdia": "(a, b) ଓ (a, b+c) ମଧ୍ୟରେ ଦୂରତା କେତେ?",
+"options": [
+"a",
+"b",
+"c",
+"sqrt(a^2+b^2)"
+],
+"answer": "c",
+"explanation": "|(b+c) - b| = |c| = c (ଯଦି c>0)।"
+},
+{
+"questionEnglish": "Find area of triangle with vertices (0,0), (3,0), (0,4).",
+"questionOdia": "(0,0), (3,0), (0,4) ଶୀର୍ଷବିନ୍ଦୁ ଥିବା ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ କେତେ?",
+"options": [
+"3",
+"4",
+"6",
+"12"
+],
+"answer": "6",
+"explanation": "1/2 * 3 * 4 = 6।"
+},
+{
+"questionEnglish": "Are (2, 3) and (3, 2) symmetrical about y=x?",
+"questionOdia": "କ'ଣ (2, 3) ଓ (3, 2) y=x ସରଳରେଖା ସାପେକ୍ଷରେ ସମମିତ?",
+"options": [
+"ହଁ",
+"ନା",
+"ସମ୍ଭବ ନୁହେଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "y=x ରେଖାରେ x ଓ y ବଦଳିଲେ ସମମିତି ମିଳେ।"
+},
+{
+"questionEnglish": "What is the midpoint of (0, 5) and (0, -5)?",
+"questionOdia": "(0, 5) ଓ (0, -5) ର ମଧ୍ୟବିନ୍ଦୁ କେଉଁଟି?",
+"options": [
+"(0, 0)",
+"(0, 1)",
+"(1, 0)",
+"(5, 5)"
+],
+"answer": "(0, 0)",
+"explanation": "((0+0)/2, (5-5)/2) = (0, 0)।"
+},
+{
+"questionEnglish": "What is the distance of (1, 1) from origin?",
+"questionOdia": "(1, 1) ର ମୂଳବିନ୍ଦୁଠାରୁ ଦୂରତା କେତେ?",
+"options": [
+"1",
+"sqrt(2)",
+"2",
+"sqrt(3)"
+],
+"answer": "sqrt(2)",
+"explanation": "sqrt(1^2 + 1^2) = sqrt(2)।"
+},
+{
+"questionEnglish": "Can distance be zero for distinct points?",
+"questionOdia": "ଅଲଗା ଅଲଗା ବିନ୍ଦୁ ପାଇଁ ଦୂରତା କ'ଣ ଶୂନ୍ୟ ହୋଇପାରିବ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଗୋଟିଏ କ୍ଷେତ୍ରରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ଅଲଗା ବିନ୍ଦୁ ମଧ୍ୟରେ ଦୂରତା ସର୍ବଦା ଶୂନ୍ୟରୁ ଅଧିକ।"
+},
+{
+"questionEnglish": "What is the slope of X-axis?",
+"questionOdia": "X-ଅକ୍ଷର ସ୍ଲୋପ୍ କେତେ?",
+"options": [
+"0",
+"1",
+"ଅସଂଜ୍ଞାୟିତ",
+"-1"
+],
+"answer": "0",
+"explanation": "X-ଅକ୍ଷ କ୍ଷିତିଜୀୟ, ତେଣୁ ସ୍ଲୋପ୍ 0।"
+},
+{
+"questionEnglish": "What is the slope of Y-axis?",
+"questionOdia": "Y-ଅକ୍ଷର ସ୍ଲୋପ୍ କେତେ?",
+"options": [
+"0",
+"1",
+"ଅସଂଜ୍ଞାୟିତ",
+"-1"
+],
+"answer": "ଅସଂଜ୍ଞାୟିତ",
+"explanation": "Y-ଅକ୍ଷ ଉଲ୍ଲମ୍ବ, ତେଣୁ ସ୍ଲୋପ୍ ଅସଂଜ୍ଞାୟିତ।"
+},
+{
+"questionEnglish": "Is (-2, 2) in the second quadrant?",
+"questionOdia": "କ'ଣ (-2, 2) ଦ୍ୱିତୀୟ ପାଦରେ ଅଛି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ପ୍ରଥମ ପାଦରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଦ୍ୱିତୀୟ ପାଦରେ x ଋଣାତ୍ମକ ଓ y ଧନାତ୍ମକ।"
+},
+{
+"questionEnglish": "What is distance from (2, 2) to (5, 6)?",
+"questionOdia": "(2, 2) ରୁ (5, 6) ପର୍ଯ୍ୟନ୍ତ ଦୂରତା କେତେ?",
+"options": [
+"3",
+"4",
+"5",
+"7"
+],
+"answer": "5",
+"explanation": "sqrt((5-2)^2 + (6-2)^2) = sqrt(3^2 + 4^2) = 5।"
+},
+{
+"questionEnglish": "What is midpoint of (2, 2) and (6, 6)?",
+"questionOdia": "(2, 2) ଓ (6, 6) ର ମଧ୍ୟବିନ୍ଦୁ କେଉଁଟି?",
+"options": [
+"(2, 2)",
+"(4, 4)",
+"(6, 6)",
+"(8, 8)"
+],
+"answer": "(4, 4)",
+"explanation": "((2+6)/2, (2+6)/2) = (4, 4)।"
+},
+{
+"questionEnglish": "Is a triangle with all equal sides possible in coordinate plane?",
+"questionOdia": "ସ୍ଥାନାଙ୍କ ସମତଳରେ ସମବାହୁ ତ୍ରିଭୁଜ ସମ୍ଭବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ପୂର୍ଣ୍ଣସଂଖ୍ୟା ଥିଲେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ସମ୍ଭବ।"
+},
+{
+"questionEnglish": "What is the coordinate of y-intercept for x/a + y/b = 1?",
+"questionOdia": "x/a + y/b = 1 ର y-ଅନ୍ତଃଖଣ୍ଡ ସ୍ଥାନାଙ୍କ କେତେ?",
+"options": [
+"(a, 0)",
+"(0, b)",
+"(b, 0)",
+"(0, a)"
+],
+"answer": "(0, b)",
+"explanation": "y-ଅନ୍ତଃଖଣ୍ଡ ପାଇଁ x=0, ତେଣୁ y=b, ବିନ୍ଦୁ (0, b)।"
+},
+{
+"questionEnglish": "What is distance from (0, b) to (0, 0)?",
+"questionOdia": "(0, b) ରୁ (0, 0) ପର୍ଯ୍ୟନ୍ତ ଦୂରତା କେତେ?",
+"options": [
+"a",
+"b",
+"|b|",
+"a+b"
+],
+"answer": "|b|",
+"explanation": "ଦୂରତା ସର୍ବଦା ଧନାତ୍ମକ।"
+},
+{
+"questionEnglish": "How many points determine a line?",
+"questionOdia": "କେତୋଟି ବିନ୍ଦୁ ମିଶି ଏକ ରେଖା ନିର୍ଦ୍ଧାରଣ କରନ୍ତି?",
+"options": [
+"1",
+"2",
+"3",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "2",
+"explanation": "କେବଳ ଦୁଇଟି ବିନ୍ଦୁ ମିଶି ଏକ ରେଖା ନିର୍ଦ୍ଧାରଣ କରନ୍ତି।"
+},
+{
+"questionEnglish": "If two lines have same slope, are they parallel?",
+"questionOdia": "ଯଦି ଦୁଇଟି ରେଖାର ସ୍ଲୋପ୍ ସମାନ, ତେବେ ସେମାନେ କ'ଣ ସମାନ୍ତରାଳ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି ସେମାନେ ଏକାଠି ହୁଅନ୍ତି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସମାନ ସ୍ଲୋପ୍ ଥିଲେ ରେଖାଦ୍ୱୟ ସମାନ୍ତରାଳ।"
+},
+{
+"questionEnglish": "What is coordinate of origin?",
+"questionOdia": "ମୂଳବିନ୍ଦୁର ସ୍ଥାନାଙ୍କ କ'ଣ?",
+"options": [
+"(0, 0)",
+"(1, 1)",
+"(1, 0)",
+"(0, 1)"
+],
+"answer": "(0, 0)",
+"explanation": "ମୂଳବିନ୍ଦୁ ହେଉଛି ଅକ୍ଷଦ୍ୱୟର ଛେଦବିନ୍ଦୁ।"
+},
+{
+"questionEnglish": "Which point has positive x and y?",
+"questionOdia": "କେଉଁ ପାଦରେ x ଓ y ଧନାତ୍ମକ?",
+"options": [
+"ପ୍ରଥମ ପାଦ",
+"ଦ୍ୱିତୀୟ ପାଦ",
+"ତୃତୀୟ ପାଦ",
+"ଚତୁର୍ଥ ପାଦ"
+],
+"answer": "ପ୍ରଥମ ପାଦ",
+"explanation": "ପ୍ରଥମ ପାଦରେ ଉଭୟ ଧନାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is (1, 1) in first quadrant?",
+"questionOdia": "କ'ଣ (1, 1) ପ୍ରଥମ ପାଦରେ ଅଛି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ (2, 2) ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "1 ଓ 1 ଉଭୟ ଧନାତ୍ମକ।"
+},
+{
+"questionEnglish": "Can a triangle have collinear vertices?",
+"questionOdia": "ଏକ ତ୍ରିଭୁଜର ଶୀର୍ଷବିନ୍ଦୁ ସମରେଖ ହୋଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ସମ୍ଭବ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ସମରେଖ ହେଲେ ତ୍ରିଭୁଜ ହେବ ନାହିଁ।"
+},
+{
+"questionEnglish": "What is the distance between (x, y) and (x, y)?",
+"questionOdia": "(x, y) ଓ (x, y) ମଧ୍ୟରେ ଦୂରତା କେତେ?",
+"options": [
+"0",
+"1",
+"x",
+"y"
+],
+"answer": "0",
+"explanation": "ଗୋଟିଏ ବିନ୍ଦୁର ନିଜଠାରୁ ଦୂରତା ଶୂନ୍ୟ।"
+},
+{
+"questionEnglish": "What is the slope of y = mx + c?",
+"questionOdia": "y = mx + c ସମୀକରଣର ସ୍ଲୋପ୍ କେତେ?",
+"options": [
+"m",
+"c",
+"x",
+"y"
+],
+"answer": "m",
+"explanation": "ଏହା ରେଖାର ସାଧାରଣ ସ୍ଲୋପ୍-ଇଣ୍ଟରସେପ୍ଟ ରୂପ।"
+},
+{
+"questionEnglish": "What is the y-intercept of y = mx + c?",
+"questionOdia": "y = mx + c ର y-ଅନ୍ତଃଖଣ୍ଡ କେତେ?",
+"options": [
+"m",
+"c",
+"x",
+"y"
+],
+"answer": "c",
+"explanation": "x=0 ହେଲେ y=c, ତେଣୁ c ହେଉଛି y-ଅନ୍ତଃଖଣ୍ଡ।"
+},
+{
+"questionEnglish": "Which point lies on y-axis?",
+"questionOdia": "କେଉଁ ବିନ୍ଦୁଟି Y-ଅକ୍ଷରେ ଅଛି?",
+"options": [
+"(1, 0)",
+"(0, 1)",
+"(1, 1)",
+"(0, 0)"
+],
+"answer": "(0, 1)",
+"explanation": "Y-ଅକ୍ଷରେ x=0।"
+},
+{
+"questionEnglish": "Is coordinate geometry study of points?",
+"questionOdia": "କ'ଣ ସ୍ଥାନାଙ୍କ ଜ୍ୟାମିତି ବିନ୍ଦୁର ଅଧ୍ୟୟନ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ରେଖା ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସ୍ଥାନାଙ୍କ ଜ୍ୟାମିତି ବିନ୍ଦୁ, ରେଖା ଓ ଆକୃତିର ଅଧ୍ୟୟନ।"
+},
+{
+"questionEnglish": "What is distance from (5, 0) to (0, 0)?",
+"questionOdia": "(5, 0) ରୁ (0, 0) ଦୂରତା କେତେ?",
+"options": [
+"5",
+"-5",
+"0",
+"25"
+],
+"answer": "5",
+"explanation": "|5 - 0| = 5।"
+},
+{
+"questionEnglish": "What is distance from (0, 3) to (0, 0)?",
+"questionOdia": "(0, 3) ରୁ (0, 0) ଦୂରତା କେତେ?",
+"options": [
+"3",
+"-3",
+"0",
+"9"
+],
+"answer": "3",
+"explanation": "|3 - 0| = 3।"
+},
+{
+"questionEnglish": "Which point has x and y negative?",
+"questionOdia": "କେଉଁ ପାଦରେ x ଓ y ଋଣାତ୍ମକ?",
+"options": [
+"ପ୍ରଥମ ପାଦ",
+"ଦ୍ୱିତୀୟ ପାଦ",
+"ତୃତୀୟ ପାଦ",
+"ଚତୁର୍ଥ ପାଦ"
+],
+"answer": "ତୃତୀୟ ପାଦ",
+"explanation": "ତୃତୀୟ ପାଦରେ ଉଭୟ ଋଣାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is (-1, 1) in second quadrant?",
+"questionOdia": "କ'ଣ (-1, 1) ଦ୍ୱିତୀୟ ପାଦରେ ଅଛି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ପ୍ରଥମ ପାଦରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "x ଋଣାତ୍ମକ ଓ y ଧନାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is (1, -1) in fourth quadrant?",
+"questionOdia": "କ'ଣ (1, -1) ଚତୁର୍ଥ ପାଦରେ ଅଛି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ପ୍ରଥମ ପାଦରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "x ଧନାତ୍ମକ ଓ y ଋଣାତ୍ମକ।"
+},
+{
+"questionEnglish": "Which is correct: |x2-x1| = |x1-x2|?",
+"questionOdia": "କେଉଁଟି ସଠିକ୍: |x2-x1| = |x1-x2|?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ x2>x1",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ମାପାଙ୍କ (modulus) ର ମୂଲ୍ୟ ସମାନ।"
+},
+{
+"questionEnglish": "Midpoint of (1, 1) and (3, 3)?",
+"questionOdia": "(1, 1) ଓ (3, 3) ର ମଧ୍ୟବିନ୍ଦୁ କେଉଁଟି?",
+"options": [
+"(1, 1)",
+"(2, 2)",
+"(3, 3)",
+"(4, 4)"
+],
+"answer": "(2, 2)",
+"explanation": "((1+3)/2, (1+3)/2) = (2, 2)।"
+},
+{
+"questionEnglish": "Can area of triangle be negative?",
+"questionOdia": "କ'ଣ ତ୍ରିଭୁଜର କ୍ଷେତ୍ରଫଳ ଋଣାତ୍ମକ ହୋଇପାରିବ?",
+"options": [
+"ହଁ",
+"ନା",
+"ସମ୍ଭବ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "କ୍ଷେତ୍ରଫଳ ସବୁବେଳେ ଧନାତ୍ମକ।"
+},
+{
+"questionEnglish": "Is (0, 0) a vertex of triangle (0,0), (1,0), (0,1)?",
+"questionOdia": "କ'ଣ (0,0) ଏକ ଶୀର୍ଷବିନ୍ଦୁ (0,0), (1,0), (0,1) ତ୍ରିଭୁଜର?",
+"options": [
+"ହଁ",
+"ନା",
+"କୌଣସିଟି ନୁହେଁ",
+"ସମ୍ଭବ ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ।"
+},
+{
+"questionEnglish": "What is the slope of line 2x + y = 3?",
+"questionOdia": "2x + y = 3 ରେଖାର ସ୍ଲୋପ୍ କେତେ?",
+"options": [
+"2",
+"-2",
+"1",
+"-1"
+],
+"answer": "-2",
+"explanation": "y = -2x + 3, ତେଣୁ ସ୍ଲୋପ୍ -2।"
+},
+{
+"questionEnglish": "Is (1, 2) distance from origin sqrt(5)?",
+"questionOdia": "କ'ଣ (1, 2) ର ମୂଳବିନ୍ଦୁଠାରୁ ଦୂରତା sqrt(5)?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ sqrt(3)",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "sqrt(1^2 + 2^2) = sqrt(5)।"
+},
+{
+"questionEnglish": "Which point is on Y-axis?",
+"questionOdia": "କେଉଁଟି Y-ଅକ୍ଷରେ ଅଛି?",
+"options": [
+"(0, 5)",
+"(5, 0)",
+"(1, 1)",
+"(2, 2)"
+],
+"answer": "(0, 5)",
+"explanation": "Y-ଅକ୍ଷରେ x=0।"
+},
+{
+"questionEnglish": "What is midpoint of (2, 4) and (4, 2)?",
+"questionOdia": "(2, 4) ଓ (4, 2) ର ମଧ୍ୟବିନ୍ଦୁ କେଉଁଟି?",
+"options": [
+"(2, 2)",
+"(3, 3)",
+"(4, 4)",
+"(6, 6)"
+],
+"answer": "(3, 3)",
+"explanation": "((2+4)/2, (4+2)/2) = (3, 3)।"
+},
+{
+"questionEnglish": "Is coordinate geometry useful for maps?",
+"questionOdia": "କ'ଣ ମାନଚିତ୍ର ପାଇଁ ସ୍ଥାନାଙ୍କ ଜ୍ୟାମିତି ଉପଯୋଗୀ?",
+"options": [
+"ହଁ",
+"ନା",
+"କୌଣସିଟି ନୁହେଁ",
+"କେବଳ ଗଣିତ ପାଇଁ"
+],
+"answer": "ହଁ",
+"explanation": "ମାନଚିତ୍ରରେ ସ୍ଥାନ ଚିହ୍ନିବାକୁ ସ୍ଥାନାଙ୍କ ଜ୍ୟାମିତି ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "Distance between (0, 0) and (x, 0)?",
+"questionOdia": "(0, 0) ଓ (x, 0) ମଧ୍ୟରେ ଦୂରତା କେତେ?",
+"options": [
+"x",
+"|x|",
+"x^2",
+"sqrt(x)"
+],
+"answer": "|x|",
+"explanation": "ଦୂରତା ସର୍ବଦା ଧନାତ୍ମକ।"
+},
+{
+"questionEnglish": "What is slope of x=5?",
+"questionOdia": "x=5 ରେଖାର ସ୍ଲୋପ୍ କେତେ?",
+"options": [
+"0",
+"1",
+"ଅସଂଜ୍ଞାୟିତ",
+"-1"
+],
+"answer": "ଅସଂଜ୍ଞାୟିତ",
+"explanation": "x=5 ଏକ ଉଲ୍ଲମ୍ବ ରେଖା।"
+},
+{
+"questionEnglish": "What is slope of y=5?",
+"questionOdia": "y=5 ରେଖାର ସ୍ଲୋପ୍ କେତେ?",
+"options": [
+"0",
+"1",
+"ଅସଂଜ୍ଞାୟିତ",
+"-1"
+],
+"answer": "0",
+"explanation": "y=5 ଏକ କ୍ଷିତିଜୀୟ ରେଖା।"
+},
+{
+"questionEnglish": "Is midpoint formula always (x1+x2)/2, (y1+y2)/2?",
+"questionOdia": "କ'ଣ ମଧ୍ୟବିନ୍ଦୁ ସୂତ୍ର ସବୁବେଳେ (x1+x2)/2, (y1+y2)/2?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଦୁଇଟି ବିନ୍ଦୁ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଏହା ମଧ୍ୟବିନ୍ଦୁର ସର୍ବଜନୀନ ସୂତ୍ର।"
+},
+{
+"questionEnglish": "Is coordinate plane 2D?",
+"questionOdia": "କ'ଣ ସ୍ଥାନାଙ୍କ ସମତଳ ଦ୍ୱି-ମାତ୍ରିକ (2D)?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ 3D ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଏହା ଦୁଇଟି ଅକ୍ଷ ବିଶିଷ୍ଟ ତେଣୁ 2D।"
+},
+{
+"questionEnglish": "Distance of (3, 0) from origin?",
+"questionOdia": "(3, 0) ର ମୂଳବିନ୍ଦୁଠାରୁ ଦୂରତା କେତେ?",
+"options": [
+"3",
+"-3",
+"0",
+"9"
+],
+"answer": "3",
+"explanation": "|3 - 0| = 3।"
+},
+{
+"questionEnglish": "Distance of (0, 4) from origin?",
+"questionOdia": "(0, 4) ର ମୂଳବିନ୍ଦୁଠାରୁ ଦୂରତା କେତେ?",
+"options": [
+"4",
+"-4",
+"0",
+"16"
+],
+"answer": "4",
+"explanation": "|4 - 0| = 4।"
+},
+{
+"questionEnglish": "Midpoint of origin and (2, 2)?",
+"questionOdia": "ମୂଳବିନ୍ଦୁ ଓ (2, 2) ର ମଧ୍ୟବିନ୍ଦୁ କେଉଁଟି?",
+"options": [
+"(1, 1)",
+"(2, 2)",
+"(0, 0)",
+"(4, 4)"
+],
+"answer": "(1, 1)",
+"explanation": "((0+2)/2, (0+2)/2) = (1, 1)।"
+}
+]
+
