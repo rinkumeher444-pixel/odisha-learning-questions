@@ -1,0 +1,1262 @@
+[
+{
+"questionEnglish": "What is the standard form of a quadratic equation?",
+"questionOdia": "ଦ୍ୱିଘାତ ସମୀକରଣର ଆଦର୍ଶ ରୂପ କ'ଣ?",
+"options": [
+"ax + b = 0",
+"ax^2 + bx + c = 0 (a ≠ 0)",
+"ax^2 + bx + c = 0 (a = 0)",
+"ax^3 + bx^2 + c = 0"
+],
+"answer": "ax^2 + bx + c = 0 (a ≠ 0)",
+"explanation": "ଦ୍ୱିଘାତ ସମୀକରଣର ସାଧାରଣ ବା ଆଦର୍ଶ ରୂପ ହେଉଛି ax^2 + bx + c = 0, ଯେଉଁଠାରେ a ର ମୂଲ୍ୟ ଶୂନ ହୋଇପାରିବ ନାହିଁ।"
+},
+{
+"questionEnglish": "How many roots (seeds) does a quadratic equation have?",
+"questionOdia": "ଏକ ଦ୍ୱିଘାତ ସମୀକରଣର କେତୋଟି ବୀଜ ବା ମୂଳ ଥାଏ?",
+"options": [
+"ଗୋଟିଏ",
+"ଦୁଇଟି",
+"ତିନୋଟି",
+"ଚାରୋଟି"
+],
+"answer": "ଦୁଇଟି",
+"explanation": "ଏକଘାତୀ ସମୀକରଣର ଗୋଟିଏ ବୀଜ ଥାଏ, କିନ୍ତୁ ଦ୍ୱିଘାତ ସମୀକରଣର ସର୍ବାଧିକ ଦୁଇଟି ବୀଜ ଥାଏ।"
+},
+{
+"questionEnglish": "In the equation ax^2 + bx + c = 0, what is the constraint on 'a'?",
+"questionOdia": "ax^2 + bx + c = 0 ସମୀକରଣରେ 'a' ପାଇଁ ସର୍ତ୍ତ କ'ଣ?",
+"options": [
+"a > 0",
+"a < 0",
+"a ≠ 0",
+"a = 0"
+],
+"answer": "a ≠ 0",
+"explanation": "ଯଦି a = 0 ହୁଏ, ତେବେ ଏହା ଦ୍ୱିଘାତ ସମୀକରଣ ହୋଇ ରହିବ ନାହିଁ, ତେଣୁ a ≠ 0 ହେବା ଜରୁରୀ।"
+},
+{
+"questionEnglish": "What kind of polynomial is ax^2 + bx + c?",
+"questionOdia": "ax^2 + bx + c କି ପ୍ରକାରର ବହୁପଦୀ ଅଟେ?",
+"options": [
+"ରୈଖିକ ବହୁପଦୀ",
+"ଦ୍ୱିଘାତ ବହୁପଦୀ",
+"ତ୍ରିଘାତ ବହୁପଦୀ",
+"ଶୂନ୍ୟଘାତୀ ବହୁପଦୀ"
+],
+"answer": "ଦ୍ୱିଘାତ ବହୁପଦୀ",
+"explanation": "ଏଠାରେ x ର ସର୍ବାଧିକ ଘାତ 2 ହୋଇଥିବାରୁ ଏହା ଏକ ଦ୍ୱିଘାତ ବହୁପଦୀ।"
+},
+{
+"questionEnglish": "What does a_n x^n + a_{n-1} x^{n-1} + ... + a_0 = 0 represent?",
+"questionOdia": "a_n x^n + a_{n-1} x^{n-1} + ... + a_0 = 0 କ'ଣ ପ୍ରକାଶ କରେ?",
+"options": [
+"କେବଳ ଏକଘାତୀ ସମୀକରଣ",
+"କେବଳ ଦ୍ୱିଘାତ ସମୀକରଣ",
+"n-ଘାତ ବିଶିଷ୍ଟ ସମୀକରଣ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "n-ଘାତ ବିଶିଷ୍ଟ ସମୀକରଣ",
+"explanation": "ଏହା ଏକ n-ଘାତ ବିଶିଷ୍ଟ ବହୁପଦୀ ସମୀକରଣ, ଯାହାର n ସଂଖ୍ୟକ ବୀଜ ରହିପାରିବ।"
+},
+{
+"questionEnglish": "Which method is commonly used to solve the equation x^2 + x - 6 = 0?",
+"questionOdia": "x^2 + x - 6 = 0 ସମୀକରଣକୁ ସମାଧାନ କରିବା ପାଇଁ କେଉଁ ପଦ୍ଧତି ସାଧାରଣତଃ ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ଉତ୍ପାଦକୀୟ ବିଶ୍ଳେଷଣ",
+"କେବଳ ଜ୍ୟାମିତିକ ପ୍ରଣାଳୀ",
+"କେବଳ ବିୟୋଗ ପ୍ରଣାଳୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉତ୍ପାଦକୀୟ ବିଶ୍ଳେଷଣ",
+"explanation": "x^2 + x - 6 = 0 କୁ ଉତ୍ପାଦକୀୟ ବିଶ୍ଳେଷଣ (factorization) କରି (x+3)(x-2)=0 ଆକାରରେ ସହଜରେ ସମାଧାନ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "What is the first step in solving a quadratic equation by completing the square?",
+"questionOdia": "ପୂର୍ଣ୍ଣ ବର୍ଗରେ ପରିଣତ କରି ଦ୍ୱିଘାତ ସମୀକରଣ ସମାଧାନ କରିବାର ପ୍ରଥମ ପଦକ୍ଷେପ କ'ଣ?",
+"options": [
+"ମୂଳ ବାହାର କରିବା",
+"x^2 ର ସହଗକୁ 1 କରିବା",
+"ସମୀକରଣକୁ ଶୂନ ସହ ତୁଳନା କରିବା",
+"ବିବିକ୍ତକର ନିର୍ଣ୍ଣୟ କରିବା"
+],
+"answer": "x^2 ର ସହଗକୁ 1 କରିବା",
+"explanation": "ପୂର୍ଣ୍ଣ ବର୍ଗ ପଦ୍ଧତିରେ ପ୍ରଥମେ x^2 ର ସହଗକୁ 1 କରିବା ପାଇଁ ସମଗ୍ର ସମୀକରଣକୁ a ଦ୍ୱାରା ଭାଗ କରାଯାଏ।"
+},
+{
+"questionEnglish": "How many roots can a quadratic equation have at most?",
+"questionOdia": "ଏକ ଦ୍ୱିଘାତ ସମୀକରଣର ଅଧିକତଃ କେତୋଟି ମୂଳ ଥାଇପାରେ?",
+"options": [
+"ଶୂନ",
+"ଏକ",
+"ଦୁଇ",
+"ଅସଂଖ୍ୟ"
+],
+"answer": "ଦୁଇ",
+"explanation": "ଦ୍ୱିଘାତ ସମୀକରଣର ଘାତ 2 ହୋଇଥିବାରୁ ଏହାର ଅଧିକତଃ ଦୁଇଟି ମୂଳ ବା ବୀଜ ଥାଏ।"
+},
+{
+"questionEnglish": "Which formula is used to find the roots of a quadratic equation ax^2 + bx + c = 0 directly?",
+"questionOdia": "ax^2 + bx + c = 0 ଦ୍ୱିଘାତ ସମୀକରଣର ମୂଳ ସିଧାସଳଖ ବାହାର କରିବା ପାଇଁ କେଉଁ ସୂତ୍ର ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"x = (-b ± √(b^2 - 4ac)) / 2a",
+"x = (b ± √(b^2 - 4ac)) / 2a",
+"x = (-b ± √(b^2 + 4ac)) / 2a",
+"x = (-b ± √(b^2 - ac)) / a"
+],
+"answer": "x = (-b ± √(b^2 - 4ac)) / 2a",
+"explanation": "ଏହା ଦ୍ୱିଘାତ ସୂତ୍ର (Quadratic formula), ଯାହା ଯେକୌଣସି ଦ୍ୱିଘାତ ସମୀକରଣର ମୂଳ ନିର୍ଣ୍ଣୟ ପାଇଁ ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "What does the expression b^2 - 4ac represent in quadratic equations?",
+"questionOdia": "ଦ୍ୱିଘାତ ସମୀକରଣରେ b^2 - 4ac ପଦଟି କ'ଣ ସୂଚାଏ?",
+"options": [
+"ମୂଳର ସମଷ୍ଟି",
+"ମୂଳର ଗୁଣଫଳ",
+"ବିବିକ୍ତକ (Discriminant)",
+"ସହଗ"
+],
+"answer": "ବିବିକ୍ତକ (Discriminant)",
+"explanation": "b^2 - 4ac କୁ ବିବିକ୍ତକ (Discriminant) କୁହାଯାଏ, ଯାହା ମୂଳର ପ୍ରକୃତି ନିର୍ଦ୍ଧାରଣ କରେ।"
+},
+{
+"questionEnglish": "If b^2 - 4ac > 0, what is the nature of the roots?",
+"questionOdia": "ଯଦି b^2 - 4ac > 0 ହୁଏ, ତେବେ ମୂଳଗୁଡ଼ିକର ପ୍ରକୃତି କ'ଣ?",
+"options": [
+"ବାସ୍ତବ ଓ ସମାନ",
+"ବାସ୍ତବ ଓ ଅସମାନ",
+"କାଳ୍ପନିକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାସ୍ତବ ଓ ଅସମାନ",
+"explanation": "ବିବିକ୍ତକ ଧନାତ୍ମକ ହେଲେ ମୂଳଗୁଡ଼ିକ ବାସ୍ତବ ଏବଂ ପରସ୍ପରଠାରୁ ଭିନ୍ନ ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "If b^2 - 4ac = 0, what is the nature of the roots?",
+"questionOdia": "ଯଦି b^2 - 4ac = 0 ହୁଏ, ତେବେ ମୂଳଗୁଡ଼ିକର ପ୍ରକୃତି କ'ଣ?",
+"options": [
+"ବାସ୍ତବ ଓ ସମାନ",
+"ବାସ୍ତବ ଓ ଅସମାନ",
+"କାଳ୍ପନିକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାସ୍ତବ ଓ ସମାନ",
+"explanation": "ବିବିକ୍ତକ ଶୂନ ହେଲେ ମୂଳଗୁଡ଼ିକ ବାସ୍ତବ ଏବଂ ସମାନ ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "If b^2 - 4ac < 0, what is the nature of the roots?",
+"questionOdia": "ଯଦି b^2 - 4ac < 0 ହୁଏ, ତେବେ ମୂଳଗୁଡ଼ିକ କିପରି?",
+"options": [
+"ବାସ୍ତବ",
+"ଅବାସ୍ତବ ବା କାଳ୍ପନିକ",
+"ସମାନ",
+"ଶୂନ"
+],
+"answer": "ଅବାସ୍ତବ ବା କାଳ୍ପନିକ",
+"explanation": "ବିବିକ୍ତକ ଋଣାତ୍ମକ ହେଲେ ମୂଳଗୁଡ଼ିକ ବାସ୍ତବ ସଂଖ୍ୟା ନୁହନ୍ତି, ବରଂ କାଳ୍ପନିକ ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "What is the sum of the roots of a quadratic equation ax^2 + bx + c = 0?",
+"questionOdia": "ax^2 + bx + c = 0 ଦ୍ୱିଘାତ ସମୀକରଣର ମୂଳଦ୍ୱୟର ସମଷ୍ଟି କେତେ?",
+"options": [
+"b/a",
+"-b/a",
+"c/a",
+"-c/a"
+],
+"answer": "-b/a",
+"explanation": "ମୂଳଦ୍ୱୟର ସମଷ୍ଟି ସୂତ୍ର ଅନୁଯାୟୀ -b/a ଅଟେ।"
+},
+{
+"questionEnglish": "What is the product of the roots of a quadratic equation ax^2 + bx + c = 0?",
+"questionOdia": "ax^2 + bx + c = 0 ଦ୍ୱିଘାତ ସମୀକରଣର ମୂଳଦ୍ୱୟର ଗୁଣଫଳ କେତେ?",
+"options": [
+"b/a",
+"-b/a",
+"c/a",
+"-c/a"
+],
+"answer": "c/a",
+"explanation": "ମୂଳଦ୍ୱୟର ଗୁଣଫଳ ସୂତ୍ର ଅନୁଯାୟୀ c/a ଅଟେ।"
+},
+{
+"questionEnglish": "If the roots of an equation are α and β, what is the equation form?",
+"questionOdia": "ଯଦି ଏକ ସମୀକରଣର ମୂଳଗୁଡ଼ିକ α ଓ β ହୁଏ, ତେବେ ସମୀକରଣର ରୂପ କ'ଣ?",
+"options": [
+"x^2 + (α+β)x + αβ = 0",
+"x^2 - (α+β)x + αβ = 0",
+"x^2 - (α+β)x - αβ = 0",
+"x^2 + (α+β)x - αβ = 0"
+],
+"answer": "x^2 - (α+β)x + αβ = 0",
+"explanation": "ଯଦି ମୂଳଦ୍ୱୟ ଜଣାଥାଏ, ସମୀକରଣଟି x^2 - (ମୂଳର ସମଷ୍ଟି)x + (ମୂଳର ଗୁଣଫଳ) = 0 ଆକାରରେ ଲେଖାଯାଏ।"
+},
+{
+"questionEnglish": "How many roots does a linear equation have?",
+"questionOdia": "ଏକଘାତୀ ସମୀକରଣର କେତୋଟି ମୂଳ ଥାଏ?",
+"options": [
+"ଶୂନ",
+"ଏକ",
+"ଦୁଇ",
+"ତିନୋଟି"
+],
+"answer": "ଏକ",
+"explanation": "ଏକଘାତୀ ସମୀକରଣ (ax + b = 0) ର କେବଳ ଗୋଟିଏ ବୀଜ ବା ମୂଳ ଥାଏ।"
+},
+{
+"questionEnglish": "Is √3x^2 + 10x + 8√3 = 0 a quadratic equation?",
+"questionOdia": "√3x^2 + 10x + 8√3 = 0 ଏକ ଦ୍ୱିଘାତ ସମୀକରଣ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ଏହା ଏକଘାତୀ",
+"ଏହା ତ୍ରିଘାତୀ"
+],
+"answer": "ହଁ",
+"explanation": "ଏଠାରେ x ର ସର୍ବାଧିକ ଘାତ 2 ଏବଂ x^2 ର ସହଗ √3 (≠0) ହୋଇଥିବାରୁ ଏହା ଏକ ଦ୍ୱିଘାତ ସମୀକରଣ।"
+},
+{
+"questionEnglish": "If 2x^2 - 8x + 5 = 0, what is the sum of its roots?",
+"questionOdia": "2x^2 - 8x + 5 = 0 ସମୀକରଣର ମୂଳଗୁଡ଼ିକର ସମଷ୍ଟି କେତେ?",
+"options": [
+"4",
+"-4",
+"8",
+"5/2"
+],
+"answer": "4",
+"explanation": "ସୂତ୍ର ଅନୁଯାୟୀ ମୂଳର ସମଷ୍ଟି = -(-8)/2 = 8/2 = 4।"
+},
+{
+"questionEnglish": "If 2x^2 - 8x + 5 = 0, what is the product of its roots?",
+"questionOdia": "2x^2 - 8x + 5 = 0 ସମୀକରଣର ମୂଳଗୁଡ଼ିକର ଗୁଣଫଳ କେତେ?",
+"options": [
+"4",
+"5/2",
+"2/5",
+"-5/2"
+],
+"answer": "5/2",
+"explanation": "ସୂତ୍ର ଅନୁଯାୟୀ ମୂଳର ଗୁଣଫଳ = c/a = 5/2।"
+},
+{
+"questionEnglish": "What is the condition for roots to be real?",
+"questionOdia": "ମୂଳଗୁଡ଼ିକ ବାସ୍ତବ ହେବା ପାଇଁ ସର୍ତ୍ତ କ'ଣ?",
+"options": [
+"b^2 - 4ac > 0",
+"b^2 - 4ac = 0",
+"b^2 - 4ac ≥ 0",
+"b^2 - 4ac < 0"
+],
+"answer": "b^2 - 4ac ≥ 0",
+"explanation": "ମୂଳ ବାସ୍ତବ ହେବା ପାଇଁ ବିବିକ୍ତକ (b^2 - 4ac) ଶୂନ କିମ୍ବା ଧନାତ୍ମକ ହେବା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "What does 'a' in a quadratic equation represent?",
+"questionOdia": "ଦ୍ୱିଘାତ ସମୀକରଣରେ 'a' କ'ଣ ସୂଚାଏ?",
+"options": [
+"x ର ସହଗ",
+"x^2 ର ସହଗ",
+"ଧ୍ରୁବକ ପଦ",
+"ମୂଳ"
+],
+"answer": "x^2 ର ସହଗ",
+"explanation": "ax^2 + bx + c = 0 ରେ 'a' ହେଉଛି x^2 ର ସହଗ।"
+},
+{
+"questionEnglish": "What does 'c' in a quadratic equation represent?",
+"questionOdia": "ଦ୍ୱିଘାତ ସମୀକରଣରେ 'c' କ'ଣ ସୂଚାଏ?",
+"options": [
+"x ର ସହଗ",
+"x^2 ର ସହଗ",
+"ଧ୍ରୁବକ ପଦ",
+"ମୂଳ"
+],
+"answer": "ଧ୍ରୁବକ ପଦ",
+"explanation": "ax^2 + bx + c = 0 ରେ 'c' ଏକ ଧ୍ରୁବ ସଂଖ୍ୟା ବା ଧ୍ରୁବକ ପଦ।"
+},
+{
+"questionEnglish": "Can a quadratic equation have one real and one imaginary root?",
+"questionOdia": "ଦ୍ୱିଘାତ ସମୀକରଣର ଗୋଟିଏ ବାସ୍ତବ ଓ ଗୋଟିଏ କାଳ୍ପନିକ ମୂଳ ରହିପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି a=0",
+"ସବୁବେଳେ"
+],
+"answer": "ନା",
+"explanation": "ଦ୍ୱିଘାତ ସମୀକରଣର ମୂଳଗୁଡ଼ିକ ସର୍ବଦା ଯୁଗଳ ଭାବରେ ଆସନ୍ତି (ଯଦି ସହଗଗୁଡ଼ିକ ବାସ୍ତବ ହୁଏ), ତେଣୁ ସେମାନେ ଉଭୟ ବାସ୍ତବ କିମ୍ବା ଉଭୟ କାଳ୍ପନିକ ହେବେ।"
+},
+{
+"questionEnglish": "What is the nature of roots for x^2 + x + 1 = 0?",
+"questionOdia": "x^2 + x + 1 = 0 ସମୀକରଣର ମୂଳଗୁଡ଼ିକର ପ୍ରକୃତି କ'ଣ?",
+"options": [
+"ବାସ୍ତବ",
+"କାଳ୍ପନିକ",
+"ସମାନ",
+"ଶୂନ"
+],
+"answer": "କାଳ୍ପନିକ",
+"explanation": "ବିବିକ୍ତକ D = b^2 - 4ac = 1^2 - 4(1)(1) = -3. ଏହା < 0 ତେଣୁ ମୂଳଗୁଡ଼ିକ କାଳ୍ପନିକ।"
+},
+{
+"questionEnglish": "Solve x^2 - 9 = 0.",
+"questionOdia": "x^2 - 9 = 0 ସମୀକରଣର ସମାଧାନ କର।",
+"options": [
+"3",
+"-3",
+"±3",
+"9"
+],
+"answer": "±3",
+"explanation": "x^2 = 9, ତେଣୁ x = ±√9 = ±3।"
+},
+{
+"questionEnglish": "What is the product of roots of x^2 - 5x + 6 = 0?",
+"questionOdia": "x^2 - 5x + 6 = 0 ସମୀକରଣର ମୂଳଦ୍ୱୟର ଗୁଣଫଳ କେତେ?",
+"options": [
+"5",
+"-5",
+"6",
+"-6"
+],
+"answer": "6",
+"explanation": "ମୂଳଦ୍ୱୟର ଗୁଣଫଳ = c/a = 6/1 = 6।"
+},
+{
+"questionEnglish": "What is the sum of roots of x^2 - 5x + 6 = 0?",
+"questionOdia": "x^2 - 5x + 6 = 0 ସମୀକରଣର ମୂଳଦ୍ୱୟର ସମଷ୍ଟି କେତେ?",
+"options": [
+"5",
+"-5",
+"6",
+"-6"
+],
+"answer": "5",
+"explanation": "ମୂଳଦ୍ୱୟର ସମଷ୍ଟି = -b/a = -(-5)/1 = 5।"
+},
+{
+"questionEnglish": "Which of the following is not a quadratic equation?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଦ୍ୱିଘାତ ସମୀକରଣ ନୁହେଁ?",
+"options": [
+"x^2 + 5x + 6 = 0",
+"x^2 = 0",
+"x + 5 = 0",
+"2x^2 + 3 = 0"
+],
+"answer": "x + 5 = 0",
+"explanation": "x + 5 = 0 ଏକ ଏକଘାତୀ ସମୀକରଣ (linear equation)।"
+},
+{
+"questionEnglish": "How to transform a quadratic equation into standard form?",
+"questionOdia": "ଦ୍ୱିଘାତ ସମୀକରଣକୁ ଆଦର୍ଶ ରୂପକୁ କିପରି ପରିବର୍ତ୍ତନ କରିବ?",
+"options": [
+"ସବୁ ପଦକୁ ବାମ ପାର୍ଶ୍ୱକୁ ଆଣି ଶୂନ ସହ ସମାନ କରି",
+"ସବୁ ପଦକୁ ଡାହାଣ ପାର୍ଶ୍ୱକୁ ନେଇ",
+"କେବଳ x^2 ପଦ ରଖି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସବୁ ପଦକୁ ବାମ ପାର୍ଶ୍ୱକୁ ଆଣି ଶୂନ ସହ ସମାନ କରି",
+"explanation": "ଆଦର୍ଶ ରୂପ ax^2 + bx + c = 0 ପାଇବା ପାଇଁ ସମସ୍ତ ପଦକୁ ବାମ ପଟକୁ ଆଣି ସାଜିବାକୁ ହୁଏ।"
+},
+{
+"questionEnglish": "What happens if a = 0 in ax^2 + bx + c = 0?",
+"questionOdia": "ax^2 + bx + c = 0 ରେ a = 0 ହେଲେ କ'ଣ ହୁଏ?",
+"options": [
+"ଏହା ଦ୍ୱିଘାତ ରହିଯାଏ",
+"ଏହା ଏକଘାତୀ ହୋଇଯାଏ",
+"ସମୀକରଣଟି ଅସମ୍ଭବ ହୋଇଯାଏ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏହା ଏକଘାତୀ ହୋଇଯାଏ",
+"explanation": "a = 0 ହେଲେ x^2 ପଦଟି ରହିବ ନାହିଁ, ଫଳରେ ଏହା bx + c = 0 ଆକାରର ଏକ ଏକଘାତୀ ସମୀକରଣ ହୋଇଯିବ।"
+},
+{
+"questionEnglish": "Find the roots of x^2 - 4x + 4 = 0.",
+"questionOdia": "x^2 - 4x + 4 = 0 ର ମୂଳଗୁଡ଼ିକ କ'ଣ?",
+"options": [
+"2, 2",
+"1, 3",
+"4, 0",
+"-2, -2"
+],
+"answer": "2, 2",
+"explanation": "(x-2)^2 = 0 ତେଣୁ x = 2, 2।"
+},
+{
+"questionEnglish": "The roots of a quadratic equation are 2 and 3. What is the equation?",
+"questionOdia": "ଏକ ଦ୍ୱିଘାତ ସମୀକରଣର ମୂଳଗୁଡ଼ିକ 2 ଓ 3 ହେଲେ, ସମୀକରଣଟି କ'ଣ?",
+"options": [
+"x^2 + 5x + 6 = 0",
+"x^2 - 5x + 6 = 0",
+"x^2 + 5x - 6 = 0",
+"x^2 - 5x - 6 = 0"
+],
+"answer": "x^2 - 5x + 6 = 0",
+"explanation": "x^2 - (2+3)x + (2*3) = 0 => x^2 - 5x + 6 = 0।"
+},
+{
+"questionEnglish": "Is x^2 + 1/x^2 = 5 a quadratic equation?",
+"questionOdia": "x^2 + 1/x^2 = 5 ଏକ ଦ୍ୱିଘାତ ସମୀକରଣ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ଏହା ଚତୁର୍ଥଘାତୀ",
+"ଏହା ଏକଘାତୀ"
+],
+"answer": "ନା",
+"explanation": "ସରଳ କଲେ x^4 - 5x^2 + 1 = 0 ପାଇବା, ଯାହା ଚତୁର୍ଥଘାତୀ ସମୀକରଣ।"
+},
+{
+"questionEnglish": "Can a quadratic equation have more than two roots?",
+"questionOdia": "ଦ୍ୱିଘାତ ସମୀକରଣର ଦୁଇରୁ ଅଧିକ ମୂଳ ରହିପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଯଦି a=b=c=0",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ଦ୍ୱିଘାତ ସମୀକରଣର ଠିକ୍ ଦୁଇଟି ମୂଳ ଥାଏ (ସମାନ ହୋଇପାରନ୍ତି)।"
+},
+{
+"questionEnglish": "If roots are 1 and -1, what is the equation?",
+"questionOdia": "ଯଦି ମୂଳଗୁଡ଼ିକ 1 ଓ -1, ତେବେ ସମୀକରଣଟି କ'ଣ?",
+"options": [
+"x^2 + 1 = 0",
+"x^2 - 1 = 0",
+"x^2 + x = 0",
+"x^2 - x = 0"
+],
+"answer": "x^2 - 1 = 0",
+"explanation": "x^2 - (1-1)x + (1*-1) = 0 => x^2 - 1 = 0।"
+},
+{
+"questionEnglish": "If 3x^2 - 32x + 12 = 0, sum of roots is?",
+"questionOdia": "3x^2 - 32x + 12 = 0 ସମୀକରଣର ମୂଳଦ୍ୱୟର ସମଷ୍ଟି କେତେ?",
+"options": [
+"32",
+"-32/3",
+"32/3",
+"4"
+],
+"answer": "32/3",
+"explanation": "ସମଷ୍ଟି = -(-32)/3 = 32/3।"
+},
+{
+"questionEnglish": "What is the product of roots for 3x^2 - 32x + 12 = 0?",
+"questionOdia": "3x^2 - 32x + 12 = 0 ସମୀକରଣର ମୂଳଦ୍ୱୟର ଗୁଣଫଳ କେତେ?",
+"options": [
+"4",
+"12",
+"12/3 = 4",
+"3"
+],
+"answer": "4",
+"explanation": "ଗୁଣଫଳ = c/a = 12/3 = 4।"
+},
+{
+"questionEnglish": "What if b^2 - 4ac is a perfect square?",
+"questionOdia": "ଯଦି b^2 - 4ac ଏକ ପୂର୍ଣ୍ଣବର୍ଗ ସଂଖ୍ୟା ହୁଏ, ତେବେ ମୂଳଗୁଡ଼ିକ କିପରି?",
+"options": [
+"ପରିମେୟ",
+"ଅପରିମେୟ",
+"କାଳ୍ପନିକ",
+"ଶୂନ"
+],
+"answer": "ପରିମେୟ",
+"explanation": "ବିବିକ୍ତକ ପୂର୍ଣ୍ଣବର୍ଗ ହେଲେ ବର୍ଗମୂଳ ବାହାରିଯାଏ, ତେଣୁ ମୂଳଗୁଡ଼ିକ ପରିମେୟ ସଂଖ୍ୟା ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "What are the roots of x^2 + x - 6 = 0?",
+"questionOdia": "x^2 + x - 6 = 0 ର ମୂଳଗୁଡ଼ିକ କ'ଣ?",
+"options": [
+"2, -3",
+"-2, 3",
+"2, 3",
+"-2, -3"
+],
+"answer": "2, -3",
+"explanation": "(x-2)(x+3) = 0, ତେଣୁ x = 2, -3।"
+},
+{
+"questionEnglish": "Are the roots of 2x^2 - 9x + 4 = 0 real?",
+"questionOdia": "2x^2 - 9x + 4 = 0 ର ମୂଳଗୁଡ଼ିକ ବାସ୍ତବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ସେଗୁଡ଼ିକ କାଳ୍ପନିକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "D = (-9)^2 - 4(2)(4) = 81 - 32 = 49 > 0, ତେଣୁ ବାସ୍ତବ।"
+},
+{
+"questionEnglish": "What is the discriminant of 2x^2 - 9x + 4 = 0?",
+"questionOdia": "2x^2 - 9x + 4 = 0 ସମୀକରଣର ବିବିକ୍ତକ କେତେ?",
+"options": [
+"49",
+"81",
+"32",
+"0"
+],
+"answer": "49",
+"explanation": "D = b^2 - 4ac = 81 - 32 = 49।"
+},
+{
+"questionEnglish": "What is the coefficient of x in 2x^2 - 9x + 4 = 0?",
+"questionOdia": "2x^2 - 9x + 4 = 0 ରେ x ର ସହଗ କେତେ?",
+"options": [
+"2",
+"-9",
+"4",
+"0"
+],
+"answer": "-9",
+"explanation": "x ର ସହଗ b = -9।"
+},
+{
+"questionEnglish": "What is the product of the roots for 14x^2 + x - 3 = 0?",
+"questionOdia": "14x^2 + x - 3 = 0 ସମୀକରଣର ମୂଳଦ୍ୱୟର ଗୁଣଫଳ କେତେ?",
+"options": [
+"-3/14",
+"3/14",
+"1/14",
+"-1/14"
+],
+"answer": "-3/14",
+"explanation": "ଗୁଣଫଳ = c/a = -3/14।"
+},
+{
+"questionEnglish": "What is the sum of roots for 14x^2 + x - 3 = 0?",
+"questionOdia": "14x^2 + x - 3 = 0 ସମୀକରଣର ମୂଳଦ୍ୱୟର ସମଷ୍ଟି କେତେ?",
+"options": [
+"1/14",
+"-1/14",
+"3/14",
+"-3/14"
+],
+"answer": "-1/14",
+"explanation": "ସମଷ୍ଟି = -b/a = -1/14।"
+},
+{
+"questionEnglish": "What is the nature of roots for 25x^2 + 30x + 7 = 0?",
+"questionOdia": "25x^2 + 30x + 7 = 0 ର ମୂଳଗୁଡ଼ିକର ପ୍ରକୃତି କ'ଣ?",
+"options": [
+"ବାସ୍ତବ ଓ ସମାନ",
+"ବାସ୍ତବ ଓ ଅସମାନ",
+"କାଳ୍ପନିକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାସ୍ତବ ଓ ଅସମାନ",
+"explanation": "D = 30^2 - 4(25)(7) = 900 - 700 = 200 > 0, ତେଣୁ ବାସ୍ତବ ଓ ଅସମାନ।"
+},
+{
+"questionEnglish": "Solve x^2 = 25.",
+"questionOdia": "x^2 = 25 କୁ ସମାଧାନ କର।",
+"options": [
+"5",
+"-5",
+"±5",
+"25"
+],
+"answer": "±5",
+"explanation": "x = ±√25 = ±5।"
+},
+{
+"questionEnglish": "If roots of a quadratic equation are real and equal, D = ?",
+"questionOdia": "ଯଦି ଦ୍ୱିଘାତ ସମୀକରଣର ମୂଳଗୁଡ଼ିକ ବାସ୍ତବ ଓ ସମାନ, ତେବେ D = ?",
+"options": [
+"> 0",
+"< 0",
+"= 0",
+"≠ 0"
+],
+"answer": "= 0",
+"explanation": "ମୂଳଗୁଡ଼ିକ ସମାନ ହେଲେ ବିବିକ୍ତକ ଶୂନ ହୁଏ।"
+},
+{
+"questionEnglish": "Which of these is the quadratic formula?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଦ୍ୱିଘାତ ସୂତ୍ର?",
+"options": [
+"x = (-b ± √D) / 2a",
+"x = (-b ± √D) / a",
+"x = (b ± √D) / 2a",
+"x = (-b ± √D) / 4a"
+],
+"answer": "x = (-b ± √D) / 2a",
+"explanation": "ଦ୍ୱିଘାତ ସୂତ୍ର ହେଉଛି x = (-b ± √D) / 2a, ଯେଉଁଠାରେ D = b^2 - 4ac।"
+},
+{
+"questionEnglish": "Can roots be zero?",
+"questionOdia": "ମୂଳଗୁଡ଼ିକ ଶୂନ ହୋଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଗୋଟିଏ ମୂଳ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଯଦି ଧ୍ରୁବକ ପଦ c = 0 ହୁଏ, ତେବେ ଗୋଟିଏ ମୂଳ ଶୂନ ହେବ।"
+},
+{
+"questionEnglish": "Is x^2 + 2px - 3qx - 6pq = 0 a quadratic equation in x?",
+"questionOdia": "x^2 + 2px - 3qx - 6pq = 0, x ରେ ଏକ ଦ୍ୱିଘାତ ସମୀକରଣ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ଏହା ଏକଘାତୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଏହାକୁ x^2 + (2p-3q)x - 6pq = 0 ଆକାରରେ ଲେଖାଯାଇପାରେ।"
+},
+{
+"questionEnglish": "In ax^2 + bx + c = 0, what if a=1, b=0, c=-4?",
+"questionOdia": "ax^2 + bx + c = 0 ରେ ଯଦି a=1, b=0, c=-4, ତେବେ ସମୀକରଣଟି କ'ଣ?",
+"options": [
+"x^2 - 4 = 0",
+"x^2 + 4 = 0",
+"x^2 - 4x = 0",
+"x^2 + 4x = 0"
+],
+"answer": "x^2 - 4 = 0",
+"explanation": "1*x^2 + 0*x + (-4) = 0 => x^2 - 4 = 0।"
+},
+{
+"questionEnglish": "What are roots of x^2 - 4 = 0?",
+"questionOdia": "x^2 - 4 = 0 ର ମୂଳଗୁଡ଼ିକ କ'ଣ?",
+"options": [
+"2, -2",
+"4, -4",
+"1, -1",
+"0"
+],
+"answer": "2, -2",
+"explanation": "x^2 = 4, ତେଣୁ x = ±2।"
+},
+{
+"questionEnglish": "For a quadratic equation, if the discriminant is 0, the roots are?",
+"questionOdia": "ଦ୍ୱିଘାତ ସମୀକରଣ ପାଇଁ, ଯଦି ବିବିକ୍ତକ 0 ହୁଏ, ତେବେ ମୂଳଗୁଡ଼ିକ କିପରି?",
+"options": [
+"ସମାନ",
+"ଅସମାନ",
+"କାଳ୍ପନିକ",
+"ଶୂନ"
+],
+"answer": "ସମାନ",
+"explanation": "ବିବିକ୍ତକ ଶୂନ ହେଲେ ମୂଳଗୁଡ଼ିକ ସମାନ ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "If 3a^2x^2 + 8abx + 4b^2 = 0, what is the value of discriminant?",
+"questionOdia": "3a^2x^2 + 8abx + 4b^2 = 0 ପାଇଁ, ବିବିକ୍ତକର ମୂଲ୍ୟ କେତେ?",
+"options": [
+"0",
+"16a^2b^2",
+"64a^2b^2 - 48a^2b^2 = 16a^2b^2",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "16a^2b^2",
+"explanation": "D = (8ab)^2 - 4(3a^2)(4b^2) = 64a^2b^2 - 48a^2b^2 = 16a^2b^2।"
+},
+{
+"questionEnglish": "Are the roots of 3a^2x^2 + 8abx + 4b^2 = 0 real?",
+"questionOdia": "3a^2x^2 + 8abx + 4b^2 = 0 ର ମୂଳଗୁଡ଼ିକ ବାସ୍ତବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କାଳ୍ପନିକ",
+"ସମାନ"
+],
+"answer": "ହଁ",
+"explanation": "D = 16a^2b^2, ଯାହା ସବୁବେଳେ ≥ 0, ତେଣୁ ବାସ୍ତବ।"
+},
+{
+"questionEnglish": "What is the standard form coefficient of x^2 in 14x^2+x-3=0?",
+"questionOdia": "14x^2+x-3=0 ରେ x^2 ର ସହଗ କେତେ?",
+"options": [
+"14",
+"1",
+"-3",
+"0"
+],
+"answer": "14",
+"explanation": "x^2 ର ସହଗ ହେଉଛି 14।"
+},
+{
+"questionEnglish": "If x=2 is a root of x^2-kx+4=0, find k.",
+"questionOdia": "ଯଦି x=2, x^2-kx+4=0 ର ଏକ ମୂଳ ହୁଏ, ତେବେ k କେତେ?",
+"options": [
+"2",
+"4",
+"6",
+"8"
+],
+"answer": "4",
+"explanation": "(2)^2 - k(2) + 4 = 0 => 4 - 2k + 4 = 0 => 8 = 2k => k=4।"
+},
+{
+"questionEnglish": "Can a quadratic equation have one root?",
+"questionOdia": "ଦ୍ୱିଘାତ ସମୀକରଣର କେବଳ ଗୋଟିଏ ମୂଳ ଥାଇପାରେ କି?",
+"options": [
+"ହଁ (ଯଦି ମୂଳଦ୍ୱୟ ସମାନ)",
+"ନା, ସର୍ବଦା ଦୁଇଟି",
+"କେବଳ କାଳ୍ପନିକ କ୍ଷେତ୍ରରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ (ଯଦି ମୂଳଦ୍ୱୟ ସମାନ)",
+"explanation": "ଯଦି D=0, ତେବେ ମୂଳଗୁଡ଼ିକ ସମାନ (କେବଳ ଗୋଟିଏ ଭିନ୍ନ ମୂଲ୍ୟ) ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the formula for the roots of ax^2 + bx + c = 0?",
+"questionOdia": "ax^2 + bx + c = 0 ର ମୂଳଗୁଡ଼ିକ ପାଇଁ ସୂତ୍ର କ'ଣ?",
+"options": [
+"x = (-b ± √(b^2 - 4ac)) / 2a",
+"x = (b ± √(b^2 - 4ac)) / 2a",
+"x = (-b ± √(b^2 + 4ac)) / 2a",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "x = (-b ± √(b^2 - 4ac)) / 2a",
+"explanation": "ଏହା ହିଁ ଦ୍ୱିଘାତ ସୂତ୍ର।"
+},
+{
+"questionEnglish": "Solve x^2+x-6=0 by factorization.",
+"questionOdia": "x^2+x-6=0 କୁ ଉତ୍ପାଦକୀୟ ବିଶ୍ଳେଷଣ କରି ସମାଧାନ କର।",
+"options": [
+"x=2, -3",
+"x=-2, 3",
+"x=2, 3",
+"x=-2, -3"
+],
+"answer": "x=2, -3",
+"explanation": "(x+3)(x-2)=0 => x=-3, 2।"
+},
+{
+"questionEnglish": "What is the discriminant of x^2+x-6=0?",
+"questionOdia": "x^2+x-6=0 ର ବିବିକ୍ତକ କେତେ?",
+"options": [
+"25",
+"5",
+"-25",
+"0"
+],
+"answer": "25",
+"explanation": "D = 1^2 - 4(1)(-6) = 1 + 24 = 25।"
+},
+{
+"questionEnglish": "Are the roots of x^2+x-6=0 real?",
+"questionOdia": "x^2+x-6=0 ର ମୂଳଗୁଡ଼ିକ ବାସ୍ତବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କାଳ୍ପନିକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "D=25 > 0, ତେଣୁ ବାସ୍ତବ।"
+},
+{
+"questionEnglish": "Which root is greater for x^2+x-6=0?",
+"questionOdia": "x^2+x-6=0 ପାଇଁ କେଉଁ ମୂଳଟି ବଡ଼?",
+"options": [
+"2",
+"-3",
+"ଉଭୟ ସମାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "2",
+"explanation": "2 > -3।"
+},
+{
+"questionEnglish": "What is the sum of roots for 2x^2-9x+4=0?",
+"questionOdia": "2x^2-9x+4=0 ର ମୂଳଦ୍ୱୟର ସମଷ୍ଟି କେତେ?",
+"options": [
+"9/2",
+"-9/2",
+"2/9",
+"4"
+],
+"answer": "9/2",
+"explanation": "ସମଷ୍ଟି = -(-9)/2 = 9/2।"
+},
+{
+"questionEnglish": "What is the product of roots for 2x^2-9x+4=0?",
+"questionOdia": "2x^2-9x+4=0 ର ମୂଳଦ୍ୱୟର ଗୁଣଫଳ କେତେ?",
+"options": [
+"4/2 = 2",
+"4",
+"2",
+"-2"
+],
+"answer": "2",
+"explanation": "ଗୁଣଫଳ = 4/2 = 2।"
+},
+{
+"questionEnglish": "Solve x^2+2px-3qx-6pq=0.",
+"questionOdia": "x^2+2px-3qx-6pq=0 କୁ ସମାଧାନ କର।",
+"options": [
+"x = -2p, 3q",
+"x = 2p, -3q",
+"x = p, q",
+"x = 3p, -2q"
+],
+"answer": "x = -2p, 3q",
+"explanation": "x(x+2p) - 3q(x+2p) = 0 => (x-3q)(x+2p) = 0 => x=3q, -2p।"
+},
+{
+"questionEnglish": "Is 3x^2-32x+12=0 quadratic?",
+"questionOdia": "3x^2-32x+12=0 ଦ୍ୱିଘାତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ଏହା ଏକଘାତୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଏହା ଦ୍ୱିଘାତ ସମୀକରଣ।"
+},
+{
+"questionEnglish": "What is the discriminant of 3x^2-32x+12=0?",
+"questionOdia": "3x^2-32x+12=0 ର ବିବିକ୍ତକ କେତେ?",
+"options": [
+"(-32)^2 - 4(3)(12) = 1024 - 144 = 880",
+"880",
+"1024",
+"144"
+],
+"answer": "880",
+"explanation": "D = 1024 - 144 = 880।"
+},
+{
+"questionEnglish": "Are the roots of 3x^2-32x+12=0 real?",
+"questionOdia": "3x^2-32x+12=0 ର ମୂଳଗୁଡ଼ିକ ବାସ୍ତବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କାଳ୍ପନିକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "D=880 > 0, ତେଣୁ ବାସ୍ତବ।"
+},
+{
+"questionEnglish": "Find the roots of x^2+x-6=0.",
+"questionOdia": "x^2+x-6=0 ର ମୂଳଗୁଡ଼ିକ କ'ଣ?",
+"options": [
+"2, -3",
+"3, -2",
+"-2, -3",
+"2, 3"
+],
+"answer": "2, -3",
+"explanation": "x=2, -3।"
+},
+{
+"questionEnglish": "Sum of roots of x^2+x-6=0 is?",
+"questionOdia": "x^2+x-6=0 ର ମୂଳଦ୍ୱୟର ସମଷ୍ଟି କେତେ?",
+"options": [
+"-1",
+"1",
+"6",
+"-6"
+],
+"answer": "-1",
+"explanation": "ସମଷ୍ଟି = -1/1 = -1।"
+},
+{
+"questionEnglish": "Product of roots of x^2+x-6=0 is?",
+"questionOdia": "x^2+x-6=0 ର ମୂଳଦ୍ୱୟର ଗୁଣଫଳ କେତେ?",
+"options": [
+"-6",
+"6",
+"-1",
+"1"
+],
+"answer": "-6",
+"explanation": "ଗୁଣଫଳ = -6/1 = -6।"
+},
+{
+"questionEnglish": "What is the discriminant of 25x^2+30x+7=0?",
+"questionOdia": "25x^2+30x+7=0 ର ବିବିକ୍ତକ କେତେ?",
+"options": [
+"200",
+"900",
+"700",
+"0"
+],
+"answer": "200",
+"explanation": "D = 30^2 - 4(25)(7) = 900 - 700 = 200।"
+},
+{
+"questionEnglish": "Are the roots of 25x^2+30x+7=0 real?",
+"questionOdia": "25x^2+30x+7=0 ର ମୂଳଗୁଡ଼ିକ ବାସ୍ତବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କାଳ୍ପନିକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "D=200 > 0, ତେଣୁ ବାସ୍ତବ।"
+},
+{
+"questionEnglish": "Sum of roots of 25x^2+30x+7=0?",
+"questionOdia": "25x^2+30x+7=0 ର ମୂଳଦ୍ୱୟର ସମଷ୍ଟି କେତେ?",
+"options": [
+"-30/25 = -6/5",
+"30/25",
+"7/25",
+"-7/25"
+],
+"answer": "-6/5",
+"explanation": "ସମଷ୍ଟି = -30/25 = -6/5।"
+},
+{
+"questionEnglish": "Product of roots of 25x^2+30x+7=0?",
+"questionOdia": "25x^2+30x+7=0 ର ମୂଳଦ୍ୱୟର ଗୁଣଫଳ କେତେ?",
+"options": [
+"7/25",
+"-7/25",
+"30/25",
+"6/5"
+],
+"answer": "7/25",
+"explanation": "ଗୁଣଫଳ = 7/25।"
+},
+{
+"questionEnglish": "Solve x^2+bx=a^2-ab.",
+"questionOdia": "x^2+bx=a^2-ab କୁ ସମାଧାନ କର।",
+"options": [
+"x = a-b, -a",
+"x = a, -a-b",
+"x = a-b, a",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "x = a-b, -a",
+"explanation": "x^2 + bx - (a^2-ab) = 0 => x^2 + bx - a(a-b) = 0, ଉତ୍ପାଦକ କଲେ x=a-b, -a।"
+},
+{
+"questionEnglish": "What is the degree of a quadratic equation?",
+"questionOdia": "ଦ୍ୱିଘାତ ସମୀକରଣର ଘାତ କେତେ?",
+"options": [
+"1",
+"2",
+"3",
+"0"
+],
+"answer": "2",
+"explanation": "ଦ୍ୱିଘାତ ସମୀକରଣର ଘାତ ସର୍ବଦା 2।"
+},
+{
+"questionEnglish": "Can x^2 = -1 have real roots?",
+"questionOdia": "x^2 = -1 ର ବାସ୍ତବ ମୂଳ ରହିପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଏକ ମୂଳ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "କୌଣସି ବାସ୍ତବ ସଂଖ୍ୟାର ବର୍ଗ ଋଣାତ୍ମକ ହୋଇପାରିବ ନାହିଁ।"
+},
+{
+"questionEnglish": "What is the root of x^2=0?",
+"questionOdia": "x^2=0 ର ମୂଳ କେତେ?",
+"options": [
+"0, 0",
+"1, -1",
+"0, 1",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "0, 0",
+"explanation": "x=0, 0।"
+},
+{
+"questionEnglish": "Is x^2+x+1=0 quadratic?",
+"questionOdia": "x^2+x+1=0 ଦ୍ୱିଘାତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ଏହା ଏକଘାତୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଏହା ଏକ ଦ୍ୱିଘାତ ସମୀକରଣ।"
+},
+{
+"questionEnglish": "What is the discriminant of x^2+x+1=0?",
+"questionOdia": "x^2+x+1=0 ର ବିବିକ୍ତକ କେତେ?",
+"options": [
+"-3",
+"3",
+"1",
+"0"
+],
+"answer": "-3",
+"explanation": "D = 1^2 - 4(1)(1) = -3।"
+},
+{
+"questionEnglish": "Roots of x^2+x+1=0 are?",
+"questionOdia": "x^2+x+1=0 ର ମୂଳଗୁଡ଼ିକ କ'ଣ?",
+"options": [
+"ବାସ୍ତବ",
+"କାଳ୍ପନିକ",
+"ସମାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାଳ୍ପନିକ",
+"explanation": "D < 0, ତେଣୁ କାଳ୍ପନିକ।"
+},
+{
+"questionEnglish": "Sum of roots of x^2+x+1=0 is?",
+"questionOdia": "x^2+x+1=0 ର ମୂଳଦ୍ୱୟର ସମଷ୍ଟି କେତେ?",
+"options": [
+"-1",
+"1",
+"0",
+"2"
+],
+"answer": "-1",
+"explanation": "ସମଷ୍ଟି = -1/1 = -1।"
+},
+{
+"questionEnglish": "Product of roots of x^2+x+1=0 is?",
+"questionOdia": "x^2+x+1=0 ର ମୂଳଦ୍ୱୟର ଗୁଣଫଳ କେତେ?",
+"options": [
+"1",
+"-1",
+"0",
+"2"
+],
+"answer": "1",
+"explanation": "ଗୁଣଫଳ = 1/1 = 1।"
+},
+{
+"questionEnglish": "Solve x^2-5x+6=0.",
+"questionOdia": "x^2-5x+6=0 କୁ ସମାଧାନ କର।",
+"options": [
+"2, 3",
+"-2, -3",
+"1, 6",
+"-1, -6"
+],
+"answer": "2, 3",
+"explanation": "(x-2)(x-3)=0 => x=2, 3।"
+},
+{
+"questionEnglish": "Discriminant of x^2-5x+6=0?",
+"questionOdia": "x^2-5x+6=0 ର ବିବିକ୍ତକ କେତେ?",
+"options": [
+"1",
+"25",
+"24",
+"0"
+],
+"answer": "1",
+"explanation": "D = (-5)^2 - 4(1)(6) = 25 - 24 = 1।"
+},
+{
+"questionEnglish": "Are roots of x^2-5x+6=0 real?",
+"questionOdia": "x^2-5x+6=0 ର ମୂଳଗୁଡ଼ିକ ବାସ୍ତବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କାଳ୍ପନିକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "D=1 > 0, ତେଣୁ ବାସ୍ତବ।"
+},
+{
+"questionEnglish": "Is x^2+2x+1=0 quadratic?",
+"questionOdia": "x^2+2x+1=0 ଦ୍ୱିଘାତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ଏହା ଏକଘାତୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଏହା ଦ୍ୱିଘାତ।"
+},
+{
+"questionEnglish": "Discriminant of x^2+2x+1=0?",
+"questionOdia": "x^2+2x+1=0 ର ବିବିକ୍ତକ କେତେ?",
+"options": [
+"0",
+"4",
+"1",
+"-4"
+],
+"answer": "0",
+"explanation": "D = 2^2 - 4(1)(1) = 4 - 4 = 0।"
+},
+{
+"questionEnglish": "Nature of roots of x^2+2x+1=0?",
+"questionOdia": "x^2+2x+1=0 ର ମୂଳଗୁଡ଼ିକ କିପରି?",
+"options": [
+"ବାସ୍ତବ ଓ ସମାନ",
+"ବାସ୍ତବ ଓ ଅସମାନ",
+"କାଳ୍ପନିକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାସ୍ତବ ଓ ସମାନ",
+"explanation": "D=0, ତେଣୁ ବାସ୍ତବ ଓ ସମାନ।"
+},
+{
+"questionEnglish": "Roots of x^2+2x+1=0 are?",
+"questionOdia": "x^2+2x+1=0 ର ମୂଳଗୁଡ଼ିକ କ'ଣ?",
+"options": [
+"-1, -1",
+"1, 1",
+"0, 0",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "-1, -1",
+"explanation": "(x+1)^2=0 => x=-1, -1।"
+},
+{
+"questionEnglish": "Solve x^2-x-2=0.",
+"questionOdia": "x^2-x-2=0 କୁ ସମାଧାନ କର।",
+"options": [
+"2, -1",
+"-2, 1",
+"1, 2",
+"-1, -2"
+],
+"answer": "2, -1",
+"explanation": "(x-2)(x+1)=0 => x=2, -1।"
+},
+{
+"questionEnglish": "Discriminant of x^2-x-2=0?",
+"questionOdia": "x^2-x-2=0 ର ବିବିକ୍ତକ କେତେ?",
+"options": [
+"9",
+"-9",
+"1",
+"0"
+],
+"answer": "9",
+"explanation": "D = (-1)^2 - 4(1)(-2) = 1 + 8 = 9।"
+},
+{
+"questionEnglish": "Nature of roots of x^2-x-2=0?",
+"questionOdia": "x^2-x-2=0 ର ମୂଳଗୁଡ଼ିକ କିପରି?",
+"options": [
+"ବାସ୍ତବ ଓ ଅସମାନ",
+"ବାସ୍ତବ ଓ ସମାନ",
+"କାଳ୍ପନିକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାସ୍ତବ ଓ ଅସମାନ",
+"explanation": "D=9 > 0, ତେଣୁ ବାସ୍ତବ ଓ ଅସମାନ।"
+},
+{
+"questionEnglish": "Sum of roots of x^2-x-2=0?",
+"questionOdia": "x^2-x-2=0 ର ମୂଳଦ୍ୱୟର ସମଷ୍ଟି କେତେ?",
+"options": [
+"1",
+"-1",
+"2",
+"-2"
+],
+"answer": "1",
+"explanation": "ସମଷ୍ଟି = -(-1)/1 = 1।"
+},
+{
+"questionEnglish": "Product of roots of x^2-x-2=0?",
+"questionOdia": "x^2-x-2=0 ର ମୂଳଦ୍ୱୟର ଗୁଣଫଳ କେତେ?",
+"options": [
+"-2",
+"2",
+"1",
+"-1"
+],
+"answer": "-2",
+"explanation": "ଗୁଣଫଳ = -2/1 = -2।"
+},
+{
+"questionEnglish": "Can roots of a quadratic equation be irrational?",
+"questionOdia": "ଦ୍ୱିଘାତ ସମୀକରଣର ମୂଳଗୁଡ଼ିକ ଅପରିମେୟ ହୋଇପାରିବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ କାଳ୍ପନିକ ହେଲେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଯଦି D ଏକ ପୂର୍ଣ୍ଣବର୍ଗ ନୁହେଁ, ତେବେ ମୂଳଗୁଡ଼ିକ ଅପରିମେୟ ହୋଇପାରିବ।"
+},
+{
+"questionEnglish": "Is x^2+5=0 a quadratic equation?",
+"questionOdia": "x^2+5=0 ଏକ ଦ୍ୱିଘାତ ସମୀକରଣ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"ଏହା ଏକଘାତୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଏହା ଦ୍ୱିଘାତ।"
+},
+{
+"questionEnglish": "Discriminant of x^2+5=0?",
+"questionOdia": "x^2+5=0 ର ବିବିକ୍ତକ କେତେ?",
+"options": [
+"-20",
+"20",
+"0",
+"5"
+],
+"answer": "-20",
+"explanation": "D = 0^2 - 4(1)(5) = -20।"
+},
+{
+"questionEnglish": "Nature of roots of x^2+5=0?",
+"questionOdia": "x^2+5=0 ର ମୂଳଗୁଡ଼ିକ କିପରି?",
+"options": [
+"କାଳ୍ପନିକ",
+"ବାସ୍ତବ",
+"ସମାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କାଳ୍ପନିକ",
+"explanation": "D < 0, ତେଣୁ କାଳ୍ପନିକ।"
+},
+{
+"questionEnglish": "Are roots of x^2+5=0 real?",
+"questionOdia": "x^2+5=0 ର ମୂଳଗୁଡ଼ିକ ବାସ୍ତବ କି?",
+"options": [
+"ନା",
+"ହଁ",
+"ସେଗୁଡ଼ିକ ସମାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "D < 0, ତେଣୁ ବାସ୍ତବ ନୁହନ୍ତି।"
+},
+{
+"questionEnglish": "Sum of roots of x^2+5=0?",
+"questionOdia": "x^2+5=0 ର ମୂଳଦ୍ୱୟର ସମଷ୍ଟି କେତେ?",
+"options": [
+"0",
+"5",
+"-5",
+"1"
+],
+"answer": "0",
+"explanation": "ସମଷ୍ଟି = -0/1 = 0।"
+},
+{
+"questionEnglish": "Product of roots of x^2+5=0?",
+"questionOdia": "x^2+5=0 ର ମୂଳଦ୍ୱୟର ଗୁଣଫଳ କେତେ?",
+"options": [
+"5",
+"-5",
+"0",
+"1"
+],
+"answer": "5",
+"explanation": "ଗୁଣଫଳ = 5/1 = 5।"
+}
+]
