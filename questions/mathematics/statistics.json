@@ -1,0 +1,1179 @@
+
+[
+{
+"questionEnglish": "What is the primary objective of studying statistics in Class 10?",
+"questionOdia": "ଦଶମ ଶ୍ରେଣୀରେ ପରିସଂଖ୍ୟାନ ଅଧ୍ୟୟନ କରିବାର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ'ଣ?",
+"options": [
+"କେବଳ ସଂଖ୍ୟା ମନେ ରଖିବା",
+"ତଥ୍ୟ ସଂଗ୍ରହ, ଉପସ୍ଥାପନା ଏବଂ ବିଶ୍ଳେଷଣ କରିବା",
+"କେବଳ ଗ୍ରାଫ ତିଆରି କରିବା",
+"କେବଳ ଯୋଗଫଳ ନିର୍ଣ୍ଣୟ କରିବା"
+],
+"answer": "ତଥ୍ୟ ସଂଗ୍ରହ, ଉପସ୍ଥାପନା ଏବଂ ବିଶ୍ଳେଷଣ କରିବା",
+"explanation": "ପରିସଂଖ୍ୟାନ ହେଉଛି ତଥ୍ୟକୁ ସଠିକ୍ ଭାବରେ ସଂଗ୍ରହ, ଉପସ୍ଥାପନ ଏବଂ ବିଶ୍ଳେଷଣ କରିବାର ଏକ ବିଜ୍ଞାନ।"
+},
+{
+"questionEnglish": "Which type of data is collected by the investigator directly from the source?",
+"questionOdia": "ଅନୁସନ୍ଧାନକାରୀଙ୍କ ଦ୍ୱାରା ପ୍ରତ୍ୟକ୍ଷ ଭାବେ ଉତ୍ସରୁ ସଂଗୃହିତ ତଥ୍ୟକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ଗୌଣ ତଥ୍ୟ (Secondary data)",
+"ପ୍ରାଥମିକ ତଥ୍ୟ (Primary data)",
+"ସାଂଖ୍ୟକ ତଥ୍ୟ (Numerical data)",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ପ୍ରାଥମିକ ତଥ୍ୟ (Primary data)",
+"explanation": "ଯେତେବେଳେ ଅନୁସନ୍ଧାନକାରୀ ନିଜେ ଉତ୍ସରୁ ତଥ୍ୟ ସଂଗ୍ରହ କରନ୍ତି, ତାହାକୁ ପ୍ରାଥମିକ ତଥ୍ୟ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What are the common graphical methods used to represent frequency distribution data?",
+"questionOdia": "ବାରମ୍ବାରତା ବିତରଣ ତଥ୍ୟକୁ ପ୍ରକାଶ କରିବା ପାଇଁ କେଉଁ ସାଧାରଣ ଲେଖଚିତ୍ର ପ୍ରଣାଳୀ ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ହିଷ୍ଟୋଗ୍ରାମ ଓ ବାରମ୍ବାରତା ବହୁଭୁଜ",
+"ବୃତ୍ତଲେଖ",
+"ଛବିଲେଖ",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ତଥ୍ୟାବଳୀର ସଫଳ ଉପସ୍ଥାପନା ପାଇଁ ହିଷ୍ଟୋଗ୍ରାମ, ବାରମ୍ବାରତା ବହୁଭୁଜ, ବୃତ୍ତଲେଖ ଓ ଛବିଲେଖ ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "If the mean of 10 observations is M, what will be the new mean if each observation is increased by 2?",
+"questionOdia": "ଯଦି 10ଟି ଲବ୍‌ଧାଙ୍କର ମାଧ୍ୟମାନ M ହୁଏ, ତେବେ ପ୍ରତ୍ୟେକକୁ 2 ବଢ଼ାଇଲେ ନୂତନ ମାଧ୍ୟମାନ କେତେ ହେବ?",
+"options": [
+"M",
+"2M",
+"M + 2",
+"M^2"
+],
+"answer": "M + 2",
+"explanation": "ଯଦି ସମସ୍ତ ଲବ୍‌ଧାଙ୍କ ସହ କୌଣସି ସଂଖ୍ୟା k ଯୋଗ କରାଯାଏ, ତେବେ ମାଧ୍ୟମାନ ମଧ୍ୟ k ପରିମାଣରେ ବୃଦ୍ଧି ପାଏ।"
+},
+{
+"questionEnglish": "What is the mean of the first 'n' natural numbers?",
+"questionOdia": "ପ୍ରଥମ 'n' ସଂଖ୍ୟକ ପ୍ରାକୃତିକ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"n",
+"(n+1)/2",
+"n/2",
+"n+1"
+],
+"answer": "(n+1)/2",
+"explanation": "ପ୍ରଥମ n ସଂଖ୍ୟକ ସଂଖ୍ୟାର ଯୋଗଫଳ n(n+1)/2, ତେଣୁ ମାଧ୍ୟମାନ = [n(n+1)/2] / n = (n+1)/2।"
+},
+{
+"questionEnglish": "If each observation of a set is multiplied by 4, what happens to the mean M?",
+"questionOdia": "ଯଦି ଏକ ସେଟ୍‌ର ପ୍ରତ୍ୟେକ ଲବ୍‌ଧାଙ୍କକୁ 4 ଦ୍ୱାରା ଗୁଣ କରାଯାଏ, ତେବେ ମାଧ୍ୟମାନ M କ'ଣ ହେବ?",
+"options": [
+"M/4",
+"M",
+"4M",
+"M+4"
+],
+"answer": "4M",
+"explanation": "ଯଦି ସମସ୍ତ ଲବ୍‌ଧାଙ୍କକୁ k ଦ୍ୱାରା ଗୁଣ କରାଯାଏ, ତେବେ ମାଧ୍ୟମାନ ମଧ୍ୟ k ଗୁଣ ହୋଇଯାଏ।"
+},
+{
+"questionEnglish": "Which of the following is an example of secondary data?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଗୌଣ ତଥ୍ୟର ଉଦାହରଣ?",
+"options": [
+"ନିଜେ ସଂଗ୍ରହ କରିଥିବା ପରୀକ୍ଷା ନମ୍ବର",
+"ଖବରକାଗଜରୁ ସଂଗୃହିତ ଜନସଂଖ୍ୟା ତଥ୍ୟ",
+"ନିଜ ଶ୍ରେଣୀର ଛାତ୍ରଙ୍କ ଉଚ୍ଚତା ମାପିବା",
+"ନିଜେ କରିଥିବା ସାକ୍ଷାତକାର"
+],
+"answer": "ଖବରକାଗଜରୁ ସଂଗୃହିତ ଜନସଂଖ୍ୟା ତଥ୍ୟ",
+"explanation": "ଯେଉଁ ତଥ୍ୟ ଅନ୍ୟ କେହି ସଂଗ୍ରହ କରିଥାନ୍ତି ଓ ଆମେ ବ୍ୟବହାର କରୁ, ତାହା ଗୌଣ ତଥ୍ୟ।"
+},
+{
+"questionEnglish": "What is the tally mark for frequency 5?",
+"questionOdia": "5 ବାରମ୍ବାରତା ପାଇଁ ଟାଲି ଚିହ୍ନ କ'ଣ?",
+"options": [
+"||||",
+"|||||",
+"| | | | /",
+"None of these"
+],
+"answer": "|||| /",
+"explanation": "ଟାଲି ଚିହ୍ନରେ 4ଟି ରେଖା ପରେ 5ମ ରେଖାଟିକୁ କଡ଼ା ଭାବେ (diagonal) ଦିଆଯାଏ।"
+},
+{
+"questionEnglish": "If the mean of first 5 natural numbers is X, find X.",
+"questionOdia": "ଯଦି ପ୍ରଥମ 5ଟି ପ୍ରାକୃତିକ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ X ହୁଏ, ତେବେ X ର ମୂଲ୍ୟ କେତେ?",
+"options": [
+"2",
+"3",
+"4",
+"5"
+],
+"answer": "3",
+"explanation": "(1+2+3+4+5)/5 = 15/5 = 3।"
+},
+{
+"questionEnglish": "What do we call the numerical data collected for a specific study?",
+"questionOdia": "ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ଅଧ୍ୟୟନ ପାଇଁ ସଂଗୃହିତ ସାଂଖ୍ୟକ ତଥ୍ୟକୁ କ'ଣ କୁହାଯାଏ?",
+"options": [
+"ସାଂଖ୍ୟକ ତଥ୍ୟ (Numerical data)",
+"ବାରମ୍ବାରତା",
+"ଗ୍ରାଫ",
+"ଟାଲି"
+],
+"answer": "ସାଂଖ୍ୟକ ତଥ୍ୟ (Numerical data)",
+"explanation": "ଅଧ୍ୟୟନ ପାଇଁ ସଂଗୃହିତ ସଂଖ୍ୟାଗୁଡ଼ିକୁ ସାଂଖ୍ୟକ ତଥ୍ୟ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "In a histogram, the area of each rectangle is proportional to what?",
+"questionOdia": "ହିଷ୍ଟୋଗ୍ରାମରେ, ପ୍ରତ୍ୟେକ ଆୟତକ୍ଷେତ୍ରର କ୍ଷେତ୍ରଫଳ କାହା ସହ ସମାନୁପାତିକ?",
+"options": [
+"ବାରମ୍ବାରତା",
+"ଶ୍ରେଣୀ ଅନ୍ତରାଳ",
+"ମାଧ୍ୟମାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାରମ୍ବାରତା",
+"explanation": "ହିଷ୍ଟୋଗ୍ରାମରେ ଆୟତକ୍ଷେତ୍ରର ଉଚ୍ଚତା ବାରମ୍ବାରତା ସହ ସମାନୁପାତିକ ହୁଏ।"
+},
+{
+"questionEnglish": "Which visual tool represents data using pictures?",
+"questionOdia": "କେଉଁ ଦୃଶ୍ୟମାନ ଉପକରଣ ଚିତ୍ର ବ୍ୟବହାର କରି ତଥ୍ୟ ପ୍ରକାଶ କରେ?",
+"options": [
+"ବାରମ୍ବାରତା ବହୁଭୁଜ",
+"ଛବିଲେଖ (Pictograph)",
+"ହିଷ୍ଟୋଗ୍ରାମ",
+"ବୃତ୍ତଲେଖ"
+],
+"answer": "ଛବିଲେଖ (Pictograph)",
+"explanation": "ଛବିଲେଖରେ ସୂଚକ ଭାବେ ଚିତ୍ର ବ୍ୟବହାର କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is the mean of the first 'n' even numbers?",
+"questionOdia": "ପ୍ରଥମ 'n' ସଂଖ୍ୟକ ଯୁଗ୍ମ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"n",
+"n+1",
+"n-1",
+"2n"
+],
+"answer": "n+1",
+"explanation": "ଯୁଗ୍ମ ସଂଖ୍ୟାଗୁଡ଼ିକ: 2, 4, 6...2n। ଯୋଗଫଳ = n(n+1)। ମାଧ୍ୟମାନ = n(n+1)/n = n+1।"
+},
+{
+"questionEnglish": "What is the mean of the first 'n' odd numbers?",
+"questionOdia": "ପ୍ରଥମ 'n' ସଂଖ୍ୟକ ଅଯୁଗ୍ମ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"n",
+"n^2",
+"n-1",
+"n+1"
+],
+"answer": "n",
+"explanation": "ଅଯୁଗ୍ମ ସଂଖ୍ୟାଗୁଡ଼ିକ: 1, 3, 5... (2n-1)। ଯୋଗଫଳ = n^2। ମାଧ୍ୟମାନ = n^2/n = n।"
+},
+{
+"questionEnglish": "How is a frequency distribution table created?",
+"questionOdia": "ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀ କିପରି ପ୍ରସ୍ତୁତ କରାଯାଏ?",
+"options": [
+"ଟାଲି ଚିହ୍ନ ବ୍ୟବହାର କରି",
+"କେବଳ ସଂଖ୍ୟା ଲେଖି",
+"ଗ୍ରାଫ୍ ପେପରରେ ଚିତ୍ର ଆଙ୍କି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଟାଲି ଚିହ୍ନ ବ୍ୟବହାର କରି",
+"explanation": "ଟାଲି ଚିହ୍ନ ବ୍ୟବହାର କରି ଲବ୍‌ଧାଙ୍କଗୁଡ଼ିକର ବାରମ୍ବାରତା ନିରୂପଣ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What represents the 'center' of data distribution?",
+"questionOdia": "ତଥ୍ୟ ବିତରଣର 'କେନ୍ଦ୍ର' କାହାକୁ କୁହାଯାଏ?",
+"options": [
+"ବାରମ୍ବାରତା",
+"ମାଧ୍ୟମାନ (Mean)",
+"ଟାଲି ଚିହ୍ନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମାଧ୍ୟମାନ (Mean)",
+"explanation": "ମାଧ୍ୟମାନ ହେଉଛି କେନ୍ଦ୍ରୀୟ ପ୍ରବଣତାର ଏକ ମାପ।"
+},
+{
+"questionEnglish": "In statistical presentation, what is data classification?",
+"questionOdia": "ପରିସଂଖ୍ୟାନ ଉପସ୍ଥାପନାରେ, ତଥ୍ୟ ଶ୍ରେଣୀକରଣ କହିଲେ କ'ଣ ବୁଝାଏ?",
+"options": [
+"ତଥ୍ୟକୁ ସଜାଇ ରଖିବା",
+"ତଥ୍ୟକୁ ବିଭିନ୍ନ ବର୍ଗରେ ବିଭକ୍ତ କରିବା",
+"ତଥ୍ୟକୁ ଗୁଣିବା",
+"ତଥ୍ୟକୁ ଚିତ୍ର ଆଙ୍କିବା"
+],
+"answer": "ତଥ୍ୟକୁ ବିଭିନ୍ନ ବର୍ଗରେ ବିଭକ୍ତ କରିବା",
+"explanation": "ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀ ପାଇଁ ତଥ୍ୟକୁ ଶ୍ରେଣୀଭୁକ୍ତ କରିବା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "What does a Pie-chart represent?",
+"questionOdia": "ବୃତ୍ତଲେଖ (Pie-chart) କ'ଣ ପ୍ରକାଶ କରେ?",
+"options": [
+"ତଥ୍ୟର ଅଂଶବିଶେଷ",
+"ବାରମ୍ବାରତା",
+"କେବଳ ମାଧ୍ୟମାନ",
+"ଟାଲି"
+],
+"answer": "ତଥ୍ୟର ଅଂଶବିଶେଷ",
+"explanation": "ଏହା ଏକ ବୃତ୍ତ ମଧ୍ୟରେ ତଥ୍ୟର ବିଭିନ୍ନ ଭାଗକୁ ଦର୍ଶାଏ।"
+},
+{
+"questionEnglish": "What is the primary difference between Primary and Secondary data?",
+"questionOdia": "ପ୍ରାଥମିକ ଓ ଗୌଣ ତଥ୍ୟ ମଧ୍ୟରେ ମୁଖ୍ୟ ପାର୍ଥକ୍ୟ କ'ଣ?",
+"options": [
+"ସଂଗ୍ରହର ଉତ୍ସ",
+"ସଂଖ୍ୟା",
+"ଗ୍ରାଫ୍ ପଦ୍ଧତି",
+"କୌଣସି ପାର୍ଥକ୍ୟ ନାହିଁ"
+],
+"answer": "ସଂଗ୍ରହର ଉତ୍ସ",
+"explanation": "ପ୍ରାଥମିକ ତଥ୍ୟ ନିଜେ ସଂଗ୍ରହ କରାଯାଏ, ଗୌଣ ତଥ୍ୟ ଅନ୍ୟ ଉତ୍ସରୁ ମିଳେ।"
+},
+{
+"questionEnglish": "Why do we use Tally marks?",
+"questionOdia": "ଆମେ ଟାଲି ଚିହ୍ନ କାହିଁକି ବ୍ୟବହାର କରୁ?",
+"options": [
+"ଲବ୍‌ଧାଙ୍କର ବାରମ୍ବାରତା ଗଣିବା ପାଇଁ",
+"ଗ୍ରାଫ୍ ଆଙ୍କିବା ପାଇଁ",
+"ମାଧ୍ୟମାନ ବାହାର କରିବା ପାଇଁ",
+"ତଥ୍ୟର ପରିସର ବାଛିବା ପାଇଁ"
+],
+"answer": "ଲବ୍‌ଧାଙ୍କର ବାରମ୍ବାରତା ଗଣିବା ପାଇଁ",
+"explanation": "ଟାଲି ଚିହ୍ନ ବାରମ୍ବାରତା ସହଜରେ ଗଣିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "What is the sum of observations divided by the number of observations called?",
+"questionOdia": "ଲବ୍‌ଧାଙ୍କଗୁଡ଼ିକର ଯୋଗଫଳକୁ ଲବ୍‌ଧାଙ୍କ ସଂଖ୍ୟା ଦ୍ୱାରା ଭାଗ କଲେ କ'ଣ ମିଳେ?",
+"options": [
+"ମାଧ୍ୟମାନ",
+"ବାରମ୍ବାରତା",
+"ଶ୍ରେଣୀ ଅନ୍ତରାଳ",
+"ଟାଲି"
+],
+"answer": "ମାଧ୍ୟମାନ",
+"explanation": "ମାଧ୍ୟମାନ = (ଲବ୍‌ଧାଙ୍କର ଯୋଗଫଳ) / (ଲବ୍‌ଧାଙ୍କ ସଂଖ୍ୟା)।"
+},
+{
+"questionEnglish": "Is Pictograph suitable for large datasets?",
+"questionOdia": "ଛବିଲେଖ କ'ଣ ବହୁତ ବଡ଼ ତଥ୍ୟ ପାଇଁ ଉପଯୁକ୍ତ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଛୋଟ ପିଲାଙ୍କ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ବହୁତ ବଡ଼ ତଥ୍ୟ ପାଇଁ ହିଷ୍ଟୋଗ୍ରାମ କିମ୍ବା ଅନ୍ୟ ଲେଖଚିତ୍ର ଅଧିକ ସୁବିଧାଜନକ।"
+},
+{
+"questionEnglish": "What is the historical background of statistics?",
+"questionOdia": "ପରିସଂଖ୍ୟାନର ଐତିହାସିକ ପୃଷ୍ଠଭୂମି କ'ଣ?",
+"options": [
+"ଏହା କେବଳ ଆଧୁନିକ ଗଣିତ",
+"ଏହା ଅନେକ ପୁରୁଣା ପଦ୍ଧତିରୁ ଆସିଛି",
+"ଏହା କେବଳ କମ୍ପ୍ୟୁଟର ଯୁଗରୁ ଆସିଛି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏହା ଅନେକ ପୁରୁଣା ପଦ୍ଧତିରୁ ଆସିଛି",
+"explanation": "ପରିସଂଖ୍ୟାନର ବ୍ୟବହାର ପ୍ରାଚୀନ କାଳରୁ ବିଭିନ୍ନ ରୂପେ ରହିଆସିଛି।"
+},
+{
+"questionEnglish": "Can histogram be used for continuous frequency distribution?",
+"questionOdia": "କ'ଣ ହିଷ୍ଟୋଗ୍ରାମ କ୍ରମାଗତ ବାରମ୍ବାରତା ବିତରଣ ପାଇଁ ବ୍ୟବହାର କରାଯାଇପାରିବ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଅସମ୍ପୂର୍ଣ୍ଣ ତଥ୍ୟ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "କ୍ରମାଗତ ବାରମ୍ବାରତା ବିତରଣ ପାଇଁ ହିଷ୍ଟୋଗ୍ରାମ ସବୁଠାରୁ ଉପଯୁକ୍ତ।"
+},
+{
+"questionEnglish": "What does Frequency polygon show?",
+"questionOdia": "ବାରମ୍ବାରତା ବହୁଭୁଜ କ'ଣ ପ୍ରକାଶ କରେ?",
+"options": [
+"ବାରମ୍ବାରତା ପରିବର୍ତ୍ତନର ରେଖାଚିତ୍ର",
+"ବୃତ୍ତର ଆକାର",
+"ଟାଲି ଚିହ୍ନର ସମଷ୍ଟି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାରମ୍ବାରତା ପରିବର୍ତ୍ତନର ରେଖାଚିତ୍ର",
+"explanation": "ବାରମ୍ବାରତା ବହୁଭୁଜ ଲବ୍‌ଧାଙ୍କଗୁଡ଼ିକର ବାରମ୍ବାରତା ପରିବର୍ତ୍ତନକୁ ରେଖା ମାଧ୍ୟମରେ ଦର୍ଶାଏ।"
+},
+{
+"questionEnglish": "How do you define 'Data' in statistics?",
+"questionOdia": "ପରିସଂଖ୍ୟାନରେ 'ତଥ୍ୟ' (Data) କୁ କିପରି ସଂଜ୍ଞାୟିତ କରିବ?",
+"options": [
+"କେବଳ ସଂଖ୍ୟା",
+"ସୂଚନା ବା ତଥ୍ୟର ସମଷ୍ଟି",
+"କେବଳ ଗ୍ରାଫ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସୂଚନା ବା ତଥ୍ୟର ସମଷ୍ଟି",
+"explanation": "ଯେକୌଣସି ସଂଗୃହିତ ସୂଚନାକୁ ପରିସଂଖ୍ୟାନରେ ତଥ୍ୟ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Why is data representation important?",
+"questionOdia": "ତଥ୍ୟ ଉପସ୍ଥାପନା କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"ସହଜ ବୁଝାମଣା ପାଇଁ",
+"କେବଳ ସୁନ୍ଦର ଦେଖାଯିବା ପାଇଁ",
+"କେବଳ ସମୟ ନଷ୍ଟ କରିବା ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସହଜ ବୁଝାମଣା ପାଇଁ",
+"explanation": "ତଥ୍ୟକୁ ସହଜରେ ବିଶ୍ଳେଷଣ ଓ ବୁଝିବା ପାଇଁ ଉପସ୍ଥାପନା ଅତ୍ୟନ୍ତ ଜରୁରୀ।"
+},
+{
+"questionEnglish": "What is the mean of the first 4 even numbers?",
+"questionOdia": "ପ୍ରଥମ 4ଟି ଯୁଗ୍ମ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"3",
+"4",
+"5",
+"6"
+],
+"answer": "5",
+"explanation": "(2+4+6+8)/4 = 20/4 = 5।"
+},
+{
+"questionEnglish": "Is there a difference between Numerical data and Frequency?",
+"questionOdia": "କ'ଣ ସାଂଖ୍ୟକ ତଥ୍ୟ ଓ ବାରମ୍ବାରତା ମଧ୍ୟରେ ପାର୍ଥକ୍ୟ ଅଛି?",
+"options": [
+"ହଁ",
+"ନା",
+"ଉଭୟ ସମାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସାଂଖ୍ୟକ ତଥ୍ୟ ହେଉଛି ଲବ୍‌ଧାଙ୍କ, ବାରମ୍ବାରତା ହେଉଛି ସେହି ଲବ୍‌ଧାଙ୍କ କେତେଥର ଘଟିଲା।"
+},
+{
+"questionEnglish": "Can data be collected from secondary sources?",
+"questionOdia": "କ'ଣ ଗୌଣ ଉତ୍ସରୁ ତଥ୍ୟ ସଂଗ୍ରହ କରାଯାଇପାରିବ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ସରକାରୀ ଉତ୍ସରୁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଗୌଣ ତଥ୍ୟ ସର୍ବଦା ଗୌଣ ଉତ୍ସରୁ ହିଁ ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "Which method is best to compare two datasets?",
+"questionOdia": "ଦୁଇଟି ତଥ୍ୟ ସେଟ୍‌ର ତୁଳନା କରିବା ପାଇଁ କେଉଁ ପଦ୍ଧତି ସର୍ବୋତ୍ତମ?",
+"options": [
+"ଟାଲି ଚିହ୍ନ",
+"ଗ୍ରାଫ୍ କିମ୍ବା ମାଧ୍ୟମାନ",
+"କେବଳ ଲେଖିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗ୍ରାଫ୍ କିମ୍ବା ମାଧ୍ୟମାନ",
+"explanation": "ମାଧ୍ୟମାନ ବା ଗ୍ରାଫ୍ ଦ୍ୱାରା ଦୁଇଟି ତଥ୍ୟ ମଧ୍ୟରେ ସହଜରେ ତୁଳନା କରିହେବ।"
+},
+{
+"questionEnglish": "What is the range of a dataset?",
+"questionOdia": "ତଥ୍ୟ ସେଟ୍‌ର ପରିସର (Range) କହିଲେ କ'ଣ ବୁଝାଏ?",
+"options": [
+"ମାଧ୍ୟମାନ",
+"ସର୍ବାଧିକ ଓ ସର୍ବନିମ୍ନ ମୂଲ୍ୟ ମଧ୍ୟରେ ପାର୍ଥକ୍ୟ",
+"ଟାଲି ଚିହ୍ନର ସଂଖ୍ୟା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସର୍ବାଧିକ ଓ ସର୍ବନିମ୍ନ ମୂଲ୍ୟ ମଧ୍ୟରେ ପାର୍ଥକ୍ୟ",
+"explanation": "ପରିସର = ସର୍ବାଧିକ ମୂଲ୍ୟ - ସର୍ବନିମ୍ନ ମୂଲ୍ୟ।"
+},
+{
+"questionEnglish": "If data is 'Primary', who collected it?",
+"questionOdia": "ଯଦି ତଥ୍ୟ 'ପ୍ରାଥମିକ' ହୁଏ, ତେବେ ଏହା କିଏ ସଂଗ୍ରହ କରିଥାଏ?",
+"options": [
+"ଅନୁସନ୍ଧାନକାରୀ ନିଜେ",
+"ଅନ୍ୟ କେହି",
+"ଖବରକାଗଜ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅନୁସନ୍ଧାନକାରୀ ନିଜେ",
+"explanation": "ପ୍ରାଥମିକ ତଥ୍ୟ ସିଧାସଳଖ ଅନୁସନ୍ଧାନକାରୀଙ୍କ ଦ୍ୱାରା ସଂଗୃହିତ।"
+},
+{
+"questionEnglish": "Which graph is useful for large number of classes?",
+"questionOdia": "ବହୁତ ଶ୍ରେଣୀ ଥିଲେ କେଉଁ ଗ୍ରାଫ୍ ଉପଯୋଗୀ?",
+"options": [
+"ହିଷ୍ଟୋଗ୍ରାମ",
+"ଛବିଲେଖ",
+"ବାରମ୍ବାରତା ବହୁଭୁଜ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାରମ୍ବାରତା ବହୁଭୁଜ",
+"explanation": "ବାରମ୍ବାରତା ବହୁଭୁଜ ବହୁତ ଶ୍ରେଣୀ ପାଇଁ ସୁବିଧାଜନକ।"
+},
+{
+"questionEnglish": "What does a dot plot show?",
+"questionOdia": "ଡଟ୍ ପ୍ଲଟ୍ (Dot plot) କ'ଣ ପ୍ରକାଶ କରେ?",
+"options": [
+"ବାରମ୍ବାରତା",
+"ସଂଖ୍ୟା",
+"କେବଳ ମାଧ୍ୟମାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାରମ୍ବାରତା",
+"explanation": "ଡଟ୍ ପ୍ଲଟ୍ ଲବ୍‌ଧାଙ୍କର ବାରମ୍ବାରତାକୁ ବିନ୍ଦୁ ମାଧ୍ୟମରେ ଦର୍ଶାଏ।"
+},
+{
+"questionEnglish": "How is mean represented mathematically?",
+"questionOdia": "ମାଧ୍ୟମାନକୁ ଗାଣିତିକ ଭାବେ କିପରି ପ୍ରକାଶ କରାଯାଏ?",
+"options": [
+"X-bar (X̅)",
+"Y",
+"M^2",
+"Z"
+],
+"answer": "X-bar (X̅)",
+"explanation": "ମାଧ୍ୟମାନକୁ ସାଧାରଣତଃ X̅ ସଙ୍କେତରେ ଲେଖାଯାଏ।"
+},
+{
+"questionEnglish": "Are all secondary data reliable?",
+"questionOdia": "ସବୁ ଗୌଣ ତଥ୍ୟ କ'ଣ ନିର୍ଭରଯୋଗ୍ୟ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଅଧାରୁ ଅଧା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ଗୌଣ ତଥ୍ୟ କେଉଁ ଉତ୍ସରୁ ଆସିଛି ତା' ଉପରେ ଏହାର ନିର୍ଭରଯୋଗ୍ୟତା ନିର୍ଭର କରେ।"
+},
+{
+"questionEnglish": "Which statistical measure is the most common?",
+"questionOdia": "କେଉଁ ପରିସଂଖ୍ୟାନ ମାପ ସବୁଠାରୁ ସାଧାରଣ?",
+"options": [
+"ମାଧ୍ୟମାନ",
+"ବାରମ୍ବାରତା",
+"ଟାଲି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମାଧ୍ୟମାନ",
+"explanation": "ମାଧ୍ୟମାନ କେନ୍ଦ୍ରୀୟ ପ୍ରବଣତାର ସବୁଠାରୁ ବ୍ୟବହୃତ ମାପ।"
+},
+{
+"questionEnglish": "What is the mean of: 10, 20, 30?",
+"questionOdia": "10, 20, 30 ର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"10",
+"20",
+"30",
+"60"
+],
+"answer": "20",
+"explanation": "(10+20+30)/3 = 60/3 = 20।"
+},
+{
+"questionEnglish": "Does mean change if data order changes?",
+"questionOdia": "ତଥ୍ୟର କ୍ରମ ବଦଳିଲେ ମାଧ୍ୟମାନ ବଦଳେ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ କେତେକ କ୍ଷେତ୍ରରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ଯୋଗଫଳ ଓ ଲବ୍‌ଧାଙ୍କ ସଂଖ୍ୟା ସମାନ ରହୁଥିବାରୁ ମାଧ୍ୟମାନ ବଦଳେ ନାହିଁ।"
+},
+{
+"questionEnglish": "Why use Histogram for continuous data?",
+"questionOdia": "କ୍ରମାଗତ ତଥ୍ୟ ପାଇଁ ହିଷ୍ଟୋଗ୍ରାମ କାହିଁକି ବ୍ୟବହାର କରିବ?",
+"options": [
+"ଏହା ସହଜ",
+"ଶ୍ରେଣୀଗୁଡ଼ିକ ମଧ୍ୟରେ ସମ୍ପର୍କ ଦର୍ଶାଇବା ପାଇଁ",
+"କେବଳ ସୁନ୍ଦର ଦେଖାଯିବା ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଶ୍ରେଣୀଗୁଡ଼ିକ ମଧ୍ୟରେ ସମ୍ପର୍କ ଦର୍ଶାଇବା ପାଇଁ",
+"explanation": "ହିଷ୍ଟୋଗ୍ରାମରେ ଆୟତକ୍ଷେତ୍ରଗୁଡ଼ିକ ଲାଗିଲାଗି ରହି କ୍ରମାଗତ ତଥ୍ୟକୁ ସ୍ପଷ୍ଟ କରେ।"
+},
+{
+"questionEnglish": "Is 'Frequency' the same as 'Data point'?",
+"questionOdia": "କ'ଣ 'ବାରମ୍ବାରତା' ଓ 'ଲବ୍‌ଧାଙ୍କ' ସମାନ?",
+"options": [
+"ହଁ",
+"ନା",
+"ଉଭୟ ସମାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ଲବ୍‌ଧାଙ୍କ ହେଉଛି ତଥ୍ୟ, ବାରମ୍ବାରତା ହେଉଛି ତା'ର ସଂଖ୍ୟା।"
+},
+{
+"questionEnglish": "What is the sum of tally marks for 3 occurrences?",
+"questionOdia": "3 ଥର ଘଟିଥିବା ତଥ୍ୟ ପାଇଁ ଟାଲି ଚିହ୍ନ କ'ଣ ହେବ?",
+"options": [
+"||",
+"|||",
+"||||",
+"|/|"
+],
+"answer": "|||",
+"explanation": "3 ଥର ପାଇଁ 3ଟି ରେଖା।"
+},
+{
+"questionEnglish": "Which statistical tool helps in seeing data trends?",
+"questionOdia": "ତଥ୍ୟର ଧାରା (Trend) ଦେଖିବାରେ କେଉଁ ପରିସଂଖ୍ୟାନ ଉପକରଣ ସାହାଯ୍ୟ କରେ?",
+"options": [
+"ଟାଲି ଚିହ୍ନ",
+"ବାରମ୍ବାରତା ବହୁଭୁଜ",
+"କେବଳ ସଂଖ୍ୟା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାରମ୍ବାରତା ବହୁଭୁଜ",
+"explanation": "ରେଖା ମାଧ୍ୟମରେ ବାରମ୍ବାରତା ବହୁଭୁଜ ତଥ୍ୟର ଧାରା ଦର୍ଶାଏ।"
+},
+{
+"questionEnglish": "What is the simplest way to represent small data?",
+"questionOdia": "ଛୋଟ ତଥ୍ୟକୁ ପ୍ରକାଶ କରିବାର ସରଳତମ ଉପାୟ କ'ଣ?",
+"options": [
+"ବାରମ୍ବାରତା ସାରଣୀ",
+"ଜଟିଳ ଗ୍ରାଫ",
+"କେବଳ ଲେଖିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାରମ୍ବାରତା ସାରଣୀ",
+"explanation": "ବାରମ୍ବାରତା ସାରଣୀ ଛୋଟ ତଥ୍ୟ ପାଇଁ ସରଳ ଓ ସ୍ପଷ୍ଟ।"
+},
+{
+"questionEnglish": "If data mean is 15, and 5 is subtracted from each, mean is?",
+"questionOdia": "ଯଦି ତଥ୍ୟର ମାଧ୍ୟମାନ 15 ଓ ପ୍ରତ୍ୟେକରୁ 5 ବିୟୋଗ କରାଗଲା, ନୂଆ ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"5",
+"10",
+"15",
+"20"
+],
+"answer": "10",
+"explanation": "15 - 5 = 10।"
+},
+{
+"questionEnglish": "Are pie-charts suitable for showing changes over time?",
+"questionOdia": "କ'ଣ ବୃତ୍ତଲେଖ ସମୟ ସହ ପରିବର୍ତ୍ତନ ଦର୍ଶାଇବା ପାଇଁ ଉପଯୁକ୍ତ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ବର୍ଷ ଶେଷରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ସମୟ ସହ ପରିବର୍ତ୍ତନ ଦର୍ଶାଇବା ପାଇଁ ରେଖାଚିତ୍ର ଅଧିକ ଉପଯୁକ୍ତ।"
+},
+{
+"questionEnglish": "What is the first step in statistical analysis?",
+"questionOdia": "ପରିସଂଖ୍ୟାନ ବିଶ୍ଳେଷଣର ପ୍ରଥମ ପଦକ୍ଷେପ କ'ଣ?",
+"options": [
+"ତଥ୍ୟ ସଂଗ୍ରହ",
+"ଗ୍ରାଫ୍ ଆଙ୍କିବା",
+"ମାଧ୍ୟମାନ ବାହାର କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ତଥ୍ୟ ସଂଗ୍ରହ",
+"explanation": "ତଥ୍ୟ ସଂଗ୍ରହ ବିନା ବିଶ୍ଳେଷଣ ସମ୍ଭବ ନୁହେଁ।"
+},
+{
+"questionEnglish": "What does a tall bar in a histogram indicate?",
+"questionOdia": "ହିଷ୍ଟୋଗ୍ରାମରେ ଏକ ଲମ୍ବା ବାର୍ (Bar) କ'ଣ ସୂଚାଏ?",
+"options": [
+"ଅଧିକ ବାରମ୍ବାରତା",
+"କମ୍ ବାରମ୍ବାରତା",
+"କେବଳ ସଂଖ୍ୟା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅଧିକ ବାରମ୍ବାରତା",
+"explanation": "ବାର୍ ଲମ୍ବା ହେଲେ ବାରମ୍ବାରତା ଅଧିକ ବୋଲି ବୁଝାଏ।"
+},
+{
+"questionEnglish": "Is statistics only about numbers?",
+"questionOdia": "କ'ଣ ପରିସଂଖ୍ୟାନ କେବଳ ସଂଖ୍ୟା ସମ୍ବନ୍ଧୀୟ?",
+"options": [
+"ହଁ",
+"ନା",
+"ପ୍ରାୟତଃ ହଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ଏହା ସଂଖ୍ୟା ସହିତ ସେହି ସଂଖ୍ୟାର ଅର୍ଥପୂର୍ଣ୍ଣ ବିଶ୍ଳେଷଣ ସମ୍ବନ୍ଧୀୟ।"
+},
+{
+"questionEnglish": "How to represent 10 with tally marks?",
+"questionOdia": "ଟାଲି ଚିହ୍ନରେ 10 କିପରି ଲେଖିବ?",
+"options": [
+"||||||||||",
+"|||| / |||| /",
+"| | | | / | |",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "|||| / |||| /",
+"explanation": "5 + 5 ହିସାବରେ ଦୁଇଟି ଟାଲି ସେଟ୍।"
+},
+{
+"questionEnglish": "Which graph represents percentages?",
+"questionOdia": "କେଉଁ ଗ୍ରାଫ୍ ଶତକଡ଼ା (Percentage) ଦର୍ଶାଏ?",
+"options": [
+"ବୃତ୍ତଲେଖ (Pie-chart)",
+"ହିଷ୍ଟୋଗ୍ରାମ",
+"ଟାଲି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବୃତ୍ତଲେଖ (Pie-chart)",
+"explanation": "ବୃତ୍ତଲେଖରେ ଅଂଶଗୁଡ଼ିକୁ ଶତକଡ଼ା ଭାବେ ସହଜରେ ଦର୍ଶାଯାଇପାରେ।"
+},
+{
+"questionEnglish": "Can frequency be a decimal?",
+"questionOdia": "କ'ଣ ବାରମ୍ବାରତା ଦଶମିକ (Decimal) ହୋଇପାରିବ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ମାଧ୍ୟମାନ ବେଳେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ବାରମ୍ବାରତା ସର୍ବଦା ପୂର୍ଣ୍ଣସଂଖ୍ୟା ହେବ କାରଣ ଏହା ଗଣିତରୁ ଆସିଥାଏ।"
+},
+{
+"questionEnglish": "What is the sum of all tallies in a table?",
+"questionOdia": "ଏକ ସାରଣୀରେ ସମସ୍ତ ଟାଲିର ସମଷ୍ଟି କ'ଣ?",
+"options": [
+"ମୋଟ ତଥ୍ୟ ସଂଖ୍ୟା",
+"ମାଧ୍ୟମାନ",
+"କୌଣସିଟି ନୁହେଁ",
+"ଶ୍ରେଣୀ ସଂଖ୍ୟା"
+],
+"answer": "ମୋଟ ତଥ୍ୟ ସଂଖ୍ୟା",
+"explanation": "ଟାଲିଗୁଡ଼ିକର ମୋଟ ସଂଖ୍ୟା ହିଁ ମୋଟ ତଥ୍ୟ (Total data) କୁ ବୁଝାଏ।"
+},
+{
+"questionEnglish": "Why is Mean useful?",
+"questionOdia": "ମାଧ୍ୟମାନ କାହିଁକି ଉପଯୋଗୀ?",
+"options": [
+"ଏହା କେନ୍ଦ୍ରୀୟ ପ୍ରବଣତା ଦର୍ଶାଏ",
+"ଏହା ଜଟିଳ",
+"ଏହା ସବୁବେଳେ ଭୁଲ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଏହା କେନ୍ଦ୍ରୀୟ ପ୍ରବଣତା ଦର୍ଶାଏ",
+"explanation": "ମାଧ୍ୟମାନ ତଥ୍ୟାବଳୀର ସଠିକ୍ କେନ୍ଦ୍ରୀୟ ମୂଲ୍ୟ ଦିଏ।"
+},
+{
+"questionEnglish": "What does a frequency table show?",
+"questionOdia": "ବାରମ୍ବାରତା ସାରଣୀ କ'ଣ ଦର୍ଶାଏ?",
+"options": [
+"ଲବ୍‌ଧାଙ୍କ ଓ ତାର ବାରମ୍ବାରତା",
+"ଗ୍ରାଫ୍",
+"ଟାଲି ଚିହ୍ନ ମାତ୍ର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଲବ୍‌ଧାଙ୍କ ଓ ତାର ବାରମ୍ବାରତା",
+"explanation": "ସାରଣୀରେ ପ୍ରତ୍ୟେକ ଲବ୍‌ଧାଙ୍କ କେତେଥର ଘଟିଛି ତାହା ଦର୍ଶାଯାଏ।"
+},
+{
+"questionEnglish": "Are histograms only for numbers?",
+"questionOdia": "ହିଷ୍ଟୋଗ୍ରାମ କ'ଣ କେବଳ ସଂଖ୍ୟା ପାଇଁ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ଚିତ୍ର ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହିଷ୍ଟୋଗ୍ରାମ ସଂଖ୍ୟାତ୍ମକ ତଥ୍ୟ (Numerical data) ପାଇଁ ବ୍ୟବହୃତ।"
+},
+{
+"questionEnglish": "Which tool is used for frequency distribution?",
+"questionOdia": "ବାରମ୍ବାରତା ବିତରଣ ପାଇଁ କେଉଁ ଉପକରଣ ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"ସାରଣୀ",
+"ଟାଲି ଚିହ୍ନ",
+"ଉଭୟ 1 ଓ 2",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ 1 ଓ 2",
+"explanation": "ସାରଣୀ ଓ ଟାଲି ଚିହ୍ନ ଦ୍ୱାରା ବାରମ୍ବାରତା ବିତରଣ ପ୍ରସ୍ତୁତ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is the range of 10, 20, 30, 40?",
+"questionOdia": "10, 20, 30, 40 ର ପରିସର କେତେ?",
+"options": [
+"10",
+"20",
+"30",
+"40"
+],
+"answer": "30",
+"explanation": "40 - 10 = 30।"
+},
+{
+"questionEnglish": "What represents the 'Frequency'?",
+"questionOdia": "ବାରମ୍ବାରତା (Frequency) କ'ଣ ସୂଚାଏ?",
+"options": [
+"ଲବ୍‌ଧାଙ୍କର ଆବୃତ୍ତି ସଂଖ୍ୟା",
+"ସର୍ବାଧିକ ସଂଖ୍ୟା",
+"ସର୍ବନିମ୍ନ ସଂଖ୍ୟା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଲବ୍‌ଧାଙ୍କର ଆବୃତ୍ତି ସଂଖ୍ୟା",
+"explanation": "ବାରମ୍ବାରତା ହେଉଛି କୌଣସି ଲବ୍‌ଧାଙ୍କ କେତେଥର ପୁନରାବୃତ୍ତି ହେଉଛି।"
+},
+{
+"questionEnglish": "Which graph is like a bar chart?",
+"questionOdia": "କେଉଁ ଗ୍ରାଫ୍ ବାର୍ ଚାର୍ଟ ଭଳି?",
+"options": [
+"ହିଷ୍ଟୋଗ୍ରାମ",
+"ବୃତ୍ତଲେଖ",
+"ରେଖାଚିତ୍ର",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହିଷ୍ଟୋଗ୍ରାମ",
+"explanation": "ହିଷ୍ଟୋଗ୍ରାମ ଦେଖିବାକୁ ବାର୍ ଚାର୍ଟ ପରି କିନ୍ତୁ ଏଥିରେ ଆୟତକ୍ଷେତ୍ରଗୁଡ଼ିକ ଯୋଡ଼ି ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Is secondary data always old?",
+"questionOdia": "କ'ଣ ଗୌଣ ତଥ୍ୟ ସବୁବେଳେ ପୁରୁଣା?",
+"options": [
+"ହଁ",
+"ନା",
+"ପ୍ରାୟତଃ ହଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ଗୌଣ ତଥ୍ୟ ବର୍ତ୍ତମାନର ମଧ୍ୟ ହୋଇପାରେ, କିନ୍ତୁ ଏହା ଅନ୍ୟ କାହା ଦ୍ୱାରା ସଂଗୃହିତ।"
+},
+{
+"questionEnglish": "What does a Histogram show?",
+"questionOdia": "ହିଷ୍ଟୋଗ୍ରାମ କ'ଣ ଦର୍ଶାଏ?",
+"options": [
+"କ୍ରମାଗତ ତଥ୍ୟର ବିତରଣ",
+"ବୃତ୍ତର ଅଂଶ",
+"ଟାଲି ଚିହ୍ନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କ୍ରମାଗତ ତଥ୍ୟର ବିତରଣ",
+"explanation": "ହିଷ୍ଟୋଗ୍ରାମ ସିଧାସଳଖ ଶ୍ରେଣୀକୃତ ତଥ୍ୟର ବାରମ୍ବାରତା ଦର୍ଶାଏ।"
+},
+{
+"questionEnglish": "What is mean of first 3 odd numbers?",
+"questionOdia": "ପ୍ରଥମ 3ଟି ଅଯୁଗ୍ମ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "3",
+"explanation": "(1+3+5)/3 = 9/3 = 3।"
+},
+{
+"questionEnglish": "Which graph looks like a pie?",
+"questionOdia": "କେଉଁ ଗ୍ରାଫ୍ ଦେଖିବାକୁ ପାଇ (Pie) ଭଳି?",
+"options": [
+"ବୃତ୍ତଲେଖ",
+"ହିଷ୍ଟୋଗ୍ରାମ",
+"ବାରମ୍ବାରତା ବହୁଭୁଜ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବୃତ୍ତଲେଖ",
+"explanation": "ବୃତ୍ତଲେଖ (Pie-chart) ବୃତ୍ତ ଆକାରର, ତେଣୁ ପାଇ (Pie) ପରି।"
+},
+{
+"questionEnglish": "Why study Pie-chart?",
+"questionOdia": "ବୃତ୍ତଲେଖ କାହିଁକି ପଢ଼ିବ?",
+"options": [
+"ସମ୍ପୂର୍ଣ୍ଣର ଅଂଶ ବୁଝିବା ପାଇଁ",
+"କେବଳ ଚିତ୍ର ପାଇଁ",
+"ଜଟିଳ ଗଣିତ ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମ୍ପୂର୍ଣ୍ଣର ଅଂଶ ବୁଝିବା ପାଇଁ",
+"explanation": "ବୃତ୍ତଲେଖ ମୋଟ ତଥ୍ୟର କେଉଁ ଅଂଶ କେଉଁ ଭାଗରେ ଅଛି ତାହା ଦର୍ଶାଏ।"
+},
+{
+"questionEnglish": "What is raw data?",
+"questionOdia": "କଞ୍ଚା ତଥ୍ୟ (Raw data) କ'ଣ?",
+"options": [
+"ଅସଜଡ଼ା ତଥ୍ୟ",
+"ସଜଡ଼ା ତଥ୍ୟ",
+"ଗ୍ରାଫ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଅସଜଡ଼ା ତଥ୍ୟ",
+"explanation": "ସଂଗ୍ରହ ହେବା ପରେ କୌଣସି ପରିବର୍ତ୍ତନ କରାଯାଇନଥିବା ତଥ୍ୟକୁ କଞ୍ଚା ତଥ୍ୟ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Is it possible to have mean = max value?",
+"questionOdia": "ମାଧ୍ୟମାନ = ସର୍ବାଧିକ ମୂଲ୍ୟ ହେବା ସମ୍ଭବ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ସବୁ ତଥ୍ୟ ସମାନ ହେଲେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "କେବଳ ସବୁ ତଥ୍ୟ ସମାନ ହେଲେ",
+"explanation": "ଯଦି ସବୁ ସଂଖ୍ୟା ସମାନ, ତେବେ ମାଧ୍ୟମାନ ସେହି ସଂଖ୍ୟା ସହ ସମାନ।"
+},
+{
+"questionEnglish": "Are statistics and mathematics same?",
+"questionOdia": "ପରିସଂଖ୍ୟାନ ଓ ଗଣିତ କ'ଣ ସମାନ?",
+"options": [
+"ହଁ",
+"ନା",
+"ଉଭୟ ସମାନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ପରିସଂଖ୍ୟାନ ଗଣିତର ଏକ ଶାଖା, କିନ୍ତୁ ଉଭୟ ଭିନ୍ନ।"
+},
+{
+"questionEnglish": "What is the mean of first 2 natural numbers?",
+"questionOdia": "ପ୍ରଥମ 2ଟି ପ୍ରାକୃତିକ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"1",
+"1.5",
+"2",
+"2.5"
+],
+"answer": "1.5",
+"explanation": "(1+2)/2 = 1.5।"
+},
+{
+"questionEnglish": "Why classify data?",
+"questionOdia": "ତଥ୍ୟ ଶ୍ରେଣୀକରଣ କାହିଁକି କରିବ?",
+"options": [
+"ସହଜ ବିଶ୍ଳେଷଣ ପାଇଁ",
+"କେବଳ ଜଟିଳ କରିବାକୁ",
+"କୌଣସିଟି ନୁହେଁ",
+"କେବଳ ସୁନ୍ଦର ଦେଖାଯିବା ପାଇଁ"
+],
+"answer": "ସହଜ ବିଶ୍ଳେଷଣ ପାଇଁ",
+"explanation": "ଶ୍ରେଣୀକରଣ କରିବା ଦ୍ୱାରା ତଥ୍ୟ ସହଜରେ ବିଶ୍ଳେଷଣ କରାଯାଇପାରିବ।"
+},
+{
+"questionEnglish": "Which tool gives visual view of frequencies?",
+"questionOdia": "କେଉଁ ଉପକରଣ ବାରମ୍ବାରତାର ଦୃଶ୍ୟମାନ ଚିତ୍ର ଦିଏ?",
+"options": [
+"ଗ୍ରାଫ୍/ଚିତ୍ର",
+"ସାରଣୀ",
+"ଟାଲି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗ୍ରାଫ୍/ଚିତ୍ର",
+"explanation": "ଗ୍ରାଫ୍ ଦ୍ୱାରା ବାରମ୍ବାରତାକୁ ଦୃଶ୍ୟମାନ ଭାବେ ବୁଝିହୁଏ।"
+},
+{
+"questionEnglish": "Can statistics predict future?",
+"questionOdia": "କ'ଣ ପରିସଂଖ୍ୟାନ ଭବିଷ୍ୟତ କହିପାରିବ?",
+"options": [
+"ହଁ, ଆନୁମାନିକ",
+"ନା",
+"ସବୁବେଳେ ସଠିକ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ, ଆନୁମାନିକ",
+"explanation": "ପରିସଂଖ୍ୟାନ ତଥ୍ୟ ଆଧାରରେ ଭବିଷ୍ୟତର ଆନୁମାନିକ ଧାରା କହିପାରେ।"
+},
+{
+"questionEnglish": "What is the mean of 5, 5, 5?",
+"questionOdia": "5, 5, 5 ର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"0",
+"5",
+"10",
+"15"
+],
+"answer": "5",
+"explanation": "(5+5+5)/3 = 15/3 = 5।"
+},
+{
+"questionEnglish": "Is there mean for empty data?",
+"questionOdia": "ଖାଲି ତଥ୍ୟର ମାଧ୍ୟମାନ ଅଛି କି?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ 0",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ତଥ୍ୟ ନଥିଲେ ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ ଅସମ୍ଭବ।"
+},
+{
+"questionEnglish": "Why use Tally?",
+"questionOdia": "ଟାଲି ଚିହ୍ନ କାହିଁକି ବ୍ୟବହାର କରିବ?",
+"options": [
+"ଗଣନା ସହଜ କରିବାକୁ",
+"ଗଣନା ଜଟିଳ କରିବାକୁ",
+"କୌଣସିଟି ନୁହେଁ",
+"କେବଳ ପୁରୁଣା ପଦ୍ଧତି ପାଇଁ"
+],
+"answer": "ଗଣନା ସହଜ କରିବାକୁ",
+"explanation": "ଟାଲି ଚିହ୍ନ ଗଣିବାକୁ ସହଜ ଏବଂ ଭୁଲ୍ ହେବାର ସମ୍ଭାବନା କମ୍।"
+},
+{
+"questionEnglish": "What is the mean of first 5 natural numbers?",
+"questionOdia": "ପ୍ରଥମ 5ଟି ପ୍ରାକୃତିକ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"2",
+"3",
+"4",
+"5"
+],
+"answer": "3",
+"explanation": "1+2+3+4+5=15; 15/5=3।"
+},
+{
+"questionEnglish": "Which tool represents relative size?",
+"questionOdia": "କେଉଁ ଉପକରଣ ଆପେକ୍ଷିକ ଆକାର ଦର୍ଶାଏ?",
+"options": [
+"ବୃତ୍ତଲେଖ",
+"ଟାଲି",
+"ସାରଣୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବୃତ୍ତଲେଖ",
+"explanation": "ବୃତ୍ତଲେଖରେ ପ୍ରତ୍ୟେକ ଅଂଶର ଆପେକ୍ଷିକ ଆକାର ସ୍ପଷ୍ଟ ଜଣାପଡ଼େ।"
+},
+{
+"questionEnglish": "Is statistics only for studies?",
+"questionOdia": "ପରିସଂଖ୍ୟାନ କ'ଣ କେବଳ ପାଠପଢ଼ା ପାଇଁ?",
+"options": [
+"ନା, ପ୍ରତ୍ୟେକ କ୍ଷେତ୍ରରେ",
+"ହଁ",
+"କୌଣସିଟି ନୁହେଁ",
+"କେବଳ ଗଣିତ ପାଇଁ"
+],
+"answer": "ନା, ପ୍ରତ୍ୟେକ କ୍ଷେତ୍ରରେ",
+"explanation": "ବିଜ୍ଞାନ, ବାଣିଜ୍ୟ, ଅର୍ଥନୀତି ସବୁ କ୍ଷେତ୍ରରେ ପରିସଂଖ୍ୟାନ ବ୍ୟବହୃତ।"
+},
+{
+"questionEnglish": "What is mean of 2, 4, 6?",
+"questionOdia": "2, 4, 6 ର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"2",
+"3",
+"4",
+"6"
+],
+"answer": "4",
+"explanation": "(2+4+6)/3 = 12/3 = 4।"
+},
+{
+"questionEnglish": "How many tallies for 4?",
+"questionOdia": "4 ପାଇଁ କେତୋଟି ଟାଲି ଚିହ୍ନ?",
+"options": [
+"3",
+"4",
+"5",
+"2"
+],
+"answer": "4",
+"explanation": "4 ଟି ରେଖା।"
+},
+{
+"questionEnglish": "What is the mean of: 5, 10, 15, 20?",
+"questionOdia": "5, 10, 15, 20 ର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"10",
+"12.5",
+"15",
+"20"
+],
+"answer": "12.5",
+"explanation": "(5+10+15+20)/4 = 50/4 = 12.5।"
+},
+{
+"questionEnglish": "Why use frequency table?",
+"questionOdia": "ବାରମ୍ବାରତା ସାରଣୀ କାହିଁକି ବ୍ୟବହାର କରିବ?",
+"options": [
+"ତଥ୍ୟ ସଂଗଠିତ କରିବାକୁ",
+"କୌଣସିଟି ନୁହେଁ",
+"କେବଳ ଚିତ୍ର ପାଇଁ",
+"ଗଣନା ଜଟିଳ କରିବାକୁ"
+],
+"answer": "ତଥ୍ୟ ସଂଗଠିତ କରିବାକୁ",
+"explanation": "ବାରମ୍ବାରତା ସାରଣୀ ତଥ୍ୟକୁ ସଂଗଠିତ କରି ବୁଝିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Are all graphs frequency polygons?",
+"questionOdia": "ସବୁ ଗ୍ରାଫ୍ କ'ଣ ବାରମ୍ବାରତା ବହୁଭୁଜ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ସରଳ ଗ୍ରାଫ୍",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ନା, ହିଷ୍ଟୋଗ୍ରାମ ଓ ବୃତ୍ତଲେଖ ମଧ୍ୟ ଅଛି।"
+},
+{
+"questionEnglish": "What is mean of first 3 natural numbers?",
+"questionOdia": "ପ୍ରଥମ 3ଟି ପ୍ରାକୃତିକ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "2",
+"explanation": "(1+2+3)/3 = 6/3 = 2।"
+},
+{
+"questionEnglish": "Is range a statistical measure?",
+"questionOdia": "କ'ଣ ପରିସର ଏକ ପରିସଂଖ୍ୟାନ ମାପ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ମାଧ୍ୟମାନ ମାପ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ପରିସର ମଧ୍ୟ ପରିସଂଖ୍ୟାନର ଏକ ମାପ।"
+},
+{
+"questionEnglish": "Which graph shows changes over time?",
+"questionOdia": "କେଉଁ ଗ୍ରାଫ୍ ସମୟ ସହ ପରିବର୍ତ୍ତନ ଦର୍ଶାଏ?",
+"options": [
+"ରେଖାଚିତ୍ର",
+"ବୃତ୍ତଲେଖ",
+"ହିଷ୍ଟୋଗ୍ରାମ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରେଖାଚିତ୍ର",
+"explanation": "ରେଖାଚିତ୍ର ସମୟ ସହ ତଥ୍ୟର ପରିବର୍ତ୍ତନ ଦେଖାଇବା ପାଇଁ ସର୍ବୋତ୍ତମ।"
+},
+{
+"questionEnglish": "Why is statistics important?",
+"questionOdia": "ପରିସଂଖ୍ୟାନ କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"ତଥ୍ୟ ବୁଝିବା ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ",
+"କେବଳ ମଜା ପାଇଁ",
+"କେବଳ ପରୀକ୍ଷା ପାଇଁ"
+],
+"answer": "ତଥ୍ୟ ବୁଝିବା ପାଇଁ",
+"explanation": "ସମସ୍ତ ପ୍ରକାର ତଥ୍ୟକୁ ସଠିକ୍ ଭାବେ ବୁଝିବା ପାଇଁ ଏହା ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "What is the mean of 2, 2, 2, 2?",
+"questionOdia": "2, 2, 2, 2 ର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"1",
+"2",
+"4",
+"8"
+],
+"answer": "2",
+"explanation": "(2+2+2+2)/4 = 8/4 = 2।"
+},
+{
+"questionEnglish": "Is there a graph called Dot plot?",
+"questionOdia": "ଡଟ୍ ପ୍ଲଟ୍ ନାମକ କୌଣସି ଗ୍ରାଫ୍ ଅଛି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ ପୁରୁଣା ବହିରେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ହଁ, ଡଟ୍ ପ୍ଲଟ୍ ଏକ ବାରମ୍ବାରତା ଦର୍ଶାଇବା ଉପକରଣ।"
+},
+{
+"questionEnglish": "How to represent 5 in tallies?",
+"questionOdia": "ଟାଲି ଚିହ୍ନରେ 5 କିପରି ଲେଖିବ?",
+"options": [
+"||||/",
+"||||",
+"|/|",
+"|||||"
+],
+"answer": "||||/",
+"explanation": "5ମ ରେଖାଟି ତ୍ରିଛକା ଦିଆଯାଏ।"
+},
+{
+"questionEnglish": "What is the mean of first 2 odd numbers?",
+"questionOdia": "ପ୍ରଥମ 2ଟି ଅଯୁଗ୍ମ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "2",
+"explanation": "(1+3)/2 = 2।"
+},
+{
+"questionEnglish": "Why use histograms for continuous data?",
+"questionOdia": "କ୍ରମାଗତ ତଥ୍ୟ ପାଇଁ ହିଷ୍ଟୋଗ୍ରାମ କାହିଁକି?",
+"options": [
+"ସବୁଠାରୁ ଭଲ ଦେଖାଯାଏ",
+"ବାରମ୍ବାରତା ସହଜେ ବୁଝାଯାଏ",
+"କୌଣସିଟି ନୁହେଁ",
+"କେବଳ ଛୋଟ ପିଲାଙ୍କ ପାଇଁ"
+],
+"answer": "ବାରମ୍ବାରତା ସହଜେ ବୁଝାଯାଏ",
+"explanation": "ହିଷ୍ଟୋଗ୍ରାମ କ୍ରମାଗତ ତଥ୍ୟର ବାରମ୍ବାରତା ବୁଝିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "Are all statistics accurate?",
+"questionOdia": "ସବୁ ପରିସଂଖ୍ୟାନ କ'ଣ ସଠିକ୍?",
+"options": [
+"ନା",
+"ହଁ",
+"ପ୍ରାୟତଃ ହଁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ନା",
+"explanation": "ତଥ୍ୟ ସଂଗ୍ରହରେ ଭୁଲ୍ ରହିଲେ ପରିସଂଖ୍ୟାନ ମଧ୍ୟ ଭୁଲ୍ ହୋଇପାରେ।"
+},
+{
+"questionEnglish": "What is the mean of 10, 10?",
+"questionOdia": "10, 10 ର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"5",
+"10",
+"20",
+"100"
+],
+"answer": "10",
+"explanation": "(10+10)/2 = 10।"
+},
+{
+"questionEnglish": "Which graph is for qualitative data?",
+"questionOdia": "ଗୁଣାତ୍ମକ ତଥ୍ୟ ପାଇଁ କେଉଁ ଗ୍ରାଫ୍?",
+"options": [
+"ବୃତ୍ତଲେଖ",
+"ହିଷ୍ଟୋଗ୍ରାମ",
+"ବାରମ୍ବାରତା ବହୁଭୁଜ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବୃତ୍ତଲେଖ",
+"explanation": "ଗୁଣାତ୍ମକ ତଥ୍ୟ ପାଇଁ ବୃତ୍ତଲେଖ ସବୁଠାରୁ ଭଲ।"
+},
+{
+"questionEnglish": "Why use statistics in daily life?",
+"questionOdia": "ଦୈନନ୍ଦିନ ଜୀବନରେ ପରିସଂଖ୍ୟାନ କାହିଁକି ବ୍ୟବହାର କରିବ?",
+"options": [
+"ନିଷ୍ପତ୍ତି ନେବା ପାଇଁ",
+"କୌଣସିଟି ନୁହେଁ",
+"କେବଳ ଅଙ୍କ କଷିବା ପାଇଁ",
+"କେବଳ ପରୀକ୍ଷା ପାଇଁ"
+],
+"answer": "ନିଷ୍ପତ୍ତି ନେବା ପାଇଁ",
+"explanation": "ତଥ୍ୟ ଆଧାରରେ ସଠିକ୍ ନିଷ୍ପତ୍ତି ନେବା ପାଇଁ ପରିସଂଖ୍ୟାନ ଜରୁରୀ।"
+},
+{
+"questionEnglish": "What is the mean of first 5 even numbers?",
+"questionOdia": "ପ୍ରଥମ 5ଟି ଯୁଗ୍ମ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ କେତେ?",
+"options": [
+"4",
+"5",
+"6",
+"7"
+],
+"answer": "6",
+"explanation": "(2+4+6+8+10)/5 = 30/5 = 6।"
+}
+]
