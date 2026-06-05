@@ -1,0 +1,552 @@
+[
+{
+"questionEnglish": "What was the tragic industrial accident that occurred in Bhopal on 3 December 1984?",
+"options": [
+"A massive fire in a chemical plant",
+"Deadly gas escape from a Union Carbide plant",
+"A severe leak in a local water supply",
+"An explosion in a coal mine"
+],
+"answer": "Deadly gas escape from a Union Carbide plant",
+"explanation": "The text mentions the tragic accident at Bhopal on 3 December 1984, where a deadly gas from a chemical plant operated by Union Carbide escaped."
+},
+{
+"questionEnglish": "What is the estimated amount of air an average adult exchanges in a day?",
+"options": [
+"1.5 kg",
+"2.5 kg",
+"15 kg",
+"20 kg"
+],
+"answer": "15 kg",
+"explanation": "According to the text, an average adult exchanges 15 kg of air a day, compared to 1.5 kg of food and 2.5 kg of water intake."
+},
+{
+"questionEnglish": "Which element forms the highest percentage of dry air?",
+"options": [
+"Oxygen",
+"Argon",
+"Carbon dioxide",
+"Nitrogen"
+],
+"answer": "Nitrogen",
+"explanation": "Air consists of 78 percent nitrogen, 21 percent oxygen, less than 1 percent argon, and 0.03 percent carbon dioxide."
+},
+{
+"questionEnglish": "What determines if air is considered polluted?",
+"options": [
+"When the nitrogen level increases",
+"When the oxygen level is reduced or irritating gases enter",
+"When the argon level exceeds 1 percent",
+"When carbon dioxide is removed"
+],
+"answer": "When the oxygen level is reduced or irritating gases enter",
+"explanation": "The text states that air is polluted if its pure composition is altered, such as by a reduction in oxygen or the introduction of irritating gases."
+},
+{
+"questionEnglish": "Which industries are ranked first in discharging high amounts of smoke and ash?",
+"options": [
+"Cement factories",
+"Steel plants",
+"Thermal power stations",
+"Chemical plants"
+],
+"answer": "Thermal power stations",
+"explanation": "Thermal power stations are identified in the text as the primary industries that discharge large amounts of smoke and ash."
+},
+{
+"questionEnglish": "What are automobiles primarily responsible for releasing into the atmosphere, contributing to 60 percent of air pollution?",
+"options": [
+"Carbon dioxide",
+"Methane",
+"Nitrous oxide",
+"Carbon monoxide"
+],
+"answer": "Carbon monoxide",
+"explanation": "Automobiles are responsible for 60 percent of air pollution due to the release of carbon monoxide."
+},
+{
+"questionEnglish": "What effect does air pollution have on rubber tyres?",
+"options": [
+"They become stronger",
+"They crack and become porous",
+"They melt",
+"They change color"
+],
+"answer": "They crack and become porous",
+"explanation": "Air pollution causes rubber tyres on automobiles to crack and become porous."
+},
+{
+"questionEnglish": "What is a major consequence of increasing amounts of gases like carbon dioxide, methane, and nitrous oxide in the atmosphere?",
+"options": [
+"Cooling of the earth",
+"Increased ozone layer thickness",
+"Global warming",
+"Reduced rainfall"
+],
+"answer": "Global warming",
+"explanation": "These gases trap radiation from the sun, which can cause the atmosphere to become warmer, leading to global warming."
+},
+{
+"questionEnglish": "What is acid rain composed of?",
+"options": [
+"Pure water and oxygen",
+"Oxides of sulphur and nitrogen along with other chemicals",
+"Methane and dust particles",
+"Argon and carbon monoxide"
+],
+"answer": "Oxides of sulphur and nitrogen along with other chemicals",
+"explanation": "Acid rain contains oxides of sulphur and nitrogen, along with other chemicals."
+},
+{
+"questionEnglish": "What substance, used as a refrigerant and in spray cans, is a concern because it destroys the atmospheric protection layer?",
+"options": [
+"Carbon monoxide",
+"Chlorofluorocarbons",
+"Methane",
+"Sulphur dioxide"
+],
+"answer": "Chlorofluorocarbons",
+"explanation": "Chlorofluorocarbons, used in refrigerants and spray cans, are known to destroy the atmospheric layer that protects us."
+},
+{
+"questionEnglish": "What is one of the three basic approaches mentioned to control air pollution?",
+"options": [
+"Increasing industrial production",
+"Dispersal measures like raising the heights of smokestacks",
+"Ignoring the smoke emitted",
+"Reducing the number of people"
+],
+"answer": "Dispersal measures like raising the heights of smokestacks",
+"explanation": "The text lists three approaches to control air pollution: preventive measures, dispersal measures (like raising smokestacks), and collection measures."
+},
+{
+"questionEnglish": "How has the death of lakes in eastern Canada been explained?",
+"options": [
+"Natural drying up",
+"Acid rain originating in the United States",
+"Overfishing",
+"Pollution from local agriculture"
+],
+"answer": "Acid rain originating in the United States",
+"explanation": "The text notes that pollutants can travel thousands of miles, and acid rain from the United States caused the death of lakes in eastern Canada."
+},
+{
+"questionEnglish": "What device can be installed in new cars to change pollutants into harmless substances?",
+"options": [
+"Nasal filter",
+"Catalytic converter",
+"Smokestack",
+"Fuel injector"
+],
+"answer": "Catalytic converter",
+"explanation": "New cars are being equipped with catalytic converters, which change pollutants into harmless substances."
+},
+{
+"questionEnglish": "Why are scientists concerned about the increase of specific gases in our atmosphere?",
+"options": [
+"They are expensive to remove",
+"They trap radiation from the sun and lead to global warming",
+"They make the air taste bitter",
+"They increase the amount of food production"
+],
+"answer": "They trap radiation from the sun and lead to global warming",
+"explanation": "Gases like carbon dioxide and methane trap solar radiation, contributing to global warming."
+},
+{
+"questionEnglish": "What is the result of acid rain on forests?",
+"options": [
+"They grow faster",
+"They become more lush",
+"It kills large stretches of forests, leaving leafless skeletons of trees",
+"It changes the color of the leaves to blue"
+],
+"answer": "It kills large stretches of forests, leaving leafless skeletons of trees",
+"explanation": "Acid rain damages forests by leaching nutrients from the soil, eventually leaving trees as leafless skeletons."
+},
+{
+"questionEnglish": "What effect does acid rain have on the soil?",
+"options": [
+"It increases its fertility",
+"It makes it more solid",
+"It washes or leaches away nutrients like potassium, calcium, and magnesium",
+"It adds nitrogen"
+],
+"answer": "It washes or leaches away nutrients like potassium, calcium, and magnesium",
+"explanation": "Acid rain changes the soil's nutrient content by leaching away essential nutrients like potassium, calcium, and magnesium."
+},
+{
+"questionEnglish": "How does air pollution affect historical monuments, such as those in Athens?",
+"options": [
+"It makes them stronger",
+"It polishes the stone",
+"Acid rain eats into the marble",
+"It adds layers of protective paint"
+],
+"answer": "Acid rain eats into the marble",
+"explanation": "In Athens, acid rain is identified as the cause of damage to world-famous marble monuments."
+},
+{
+"questionEnglish": "Which of the following is NOT listed as a cause of air pollution?",
+"options": [
+"Industrial smoke from burning fuels",
+"Automobile exhausts",
+"Natural oxygen production from trees",
+"Chemical releases from industries"
+],
+"answer": "Natural oxygen production from trees",
+"explanation": "Industrial smoke, automobile exhausts, and chemical releases are causes of pollution, while trees produce oxygen, which is beneficial."
+},
+{
+"questionEnglish": "What does the term 'smog' refer to?",
+"options": [
+"A type of dust particle",
+"A mixture of smoke and fog",
+"A gas used in refrigerators",
+"A pollutant from industries"
+],
+"answer": "A mixture of smoke and fog",
+"explanation": "The glossary defines smog as a mixture of smoke and fog."
+},
+{
+"questionEnglish": "Why is the cost of controlling air pollution often justified?",
+"options": [
+"It creates more jobs for physicians",
+"It makes cars more attractive",
+"It is necessary to ensure cleaner air for people to breathe",
+"It increases the price of coal"
+],
+"answer": "It is necessary to ensure cleaner air for people to breathe",
+"explanation": "Despite the high costs, most people believe the price is justified because it leads to cleaner air for everyone."
+},
+{
+"questionEnglish": "What is a 'smokestack'?",
+"options": [
+"A tool to measure pollution",
+"A tall chimney that carries smoke away from factories",
+"A device in a car exhaust",
+"A chemical used to neutralize acid"
+],
+"answer": "A tall chimney that carries smoke away from factories",
+"explanation": "The glossary defines smokestacks as tall chimneys used to carry smoke away from factories."
+},
+{
+"questionEnglish": "What is the primary effect of breathing polluted air on humans?",
+"options": [
+"Improved lung capacity",
+"Respiratory disorders and serious diseases",
+"Better endurance",
+"Increased appetite"
+],
+"answer": "Respiratory disorders and serious diseases",
+"explanation": "The text emphasizes that breathing polluted air leads to respiratory disorders and contributes to various serious illnesses."
+},
+{
+"questionEnglish": "Which of the following cities in India is mentioned as having alarming pollution levels?",
+"options": [
+"Delhi, Mumbai, and Chennai",
+"Only Kolkata",
+"Bangalore and Pune",
+"Hyderabad"
+],
+"answer": "Delhi, Mumbai, and Chennai",
+"explanation": "The text notes that levels of pollution in Delhi, Mumbai, and Chennai are alarming, similar to Kolkata."
+},
+{
+"questionEnglish": "What did industries in Bhopal (Union Carbide) do that caused such a tragedy?",
+"options": [
+"They released contaminated water into the river",
+"Deadly gas escaped from their chemical plant",
+"They burned too much coal",
+"They produced toxic plastic"
+],
+"answer": "Deadly gas escaped from their chemical plant",
+"explanation": "The tragedy in Bhopal was caused by the escape of deadly gas from the Union Carbide chemical plant."
+},
+{
+"questionEnglish": "What happens to the lungs when exposed to pollutants over time?",
+"options": [
+"They become cleaner",
+"They adapt to the toxins",
+"They slowly become garbage dumps for the pollutants",
+"They increase in size"
+],
+"answer": "They slowly become garbage dumps for the pollutants",
+"explanation": "The text describes how our lungs slowly become 'garbage dumps' due to the accumulation of pollutants."
+},
+{
+"questionEnglish": "Why does the text claim that automobiles in Greater Kolkata are a significant health threat?",
+"options": [
+"They cause traffic jams",
+"They force residents to inhale toxic substances equivalent to smoking two packets of cigarettes a day",
+"They are too noisy",
+"They block the sunlight"
+],
+"answer": "They force residents to inhale toxic substances equivalent to smoking two packets of cigarettes a day",
+"explanation": "The text highlights that residents in Kolkata are forced to inhale toxic substances equivalent to smoking two packs of cigarettes daily."
+},
+{
+"questionEnglish": "What does the text mean by 'porous' in the context of rubber tyres?",
+"options": [
+"Extremely strong",
+"Having small holes",
+"Very smooth",
+"Highly elastic"
+],
+"answer": "Having small holes",
+"explanation": "The glossary defines 'porous' as having small holes."
+},
+{
+"questionEnglish": "What are 'lesions'?",
+"options": [
+"A type of lung disease",
+"Wounds or injuries",
+"Chemicals used to clean air",
+"A kind of forest tree"
+],
+"answer": "Wounds or injuries",
+"explanation": "The glossary defines 'lesions' as wounds or injuries, often in the context of health effects from pollution."
+},
+{
+"questionEnglish": "Which Swedish species is threatened by acid rain according to the text?",
+"options": [
+"The Brown Trout",
+"The Pied Flycatcher and Apollo Butterfly",
+"The Dipper fish",
+"None of the above"
+],
+"answer": "The Pied Flycatcher and Apollo Butterfly",
+"explanation": "The text specifically mentions the Pied Flycatcher and Apollo Butterfly in Sweden as species threatened by acid rain."
+},
+{
+"questionEnglish": "Why is the damage to buildings caused by air pollution considered a major issue?",
+"options": [
+"It makes the buildings look old",
+"It causes building surfaces to deteriorate and blackens walls with soot",
+"It requires more painting supplies",
+"It makes buildings too expensive"
+],
+"answer": "It causes building surfaces to deteriorate and blackens walls with soot",
+"explanation": "Fine buildings become shabby due to soot and their surfaces actually deteriorate because of air pollution."
+},
+{
+"questionEnglish": "What are 'dispersal measures' in the context of air pollution control?",
+"options": [
+"Cleaning the air with filters",
+"Ways of scattering things to reduce concentration",
+"Changing the type of fuel used",
+"Stopping all industrial work"
+],
+"answer": "Ways of scattering things to reduce concentration",
+"explanation": "The glossary defines dispersal measures as ways of scattering things, such as raising the height of chimneys."
+},
+{
+"questionEnglish": "What is the role of meteorologists in the context of air pollution?",
+"options": [
+"They study weather conditions to understand air pollution movement",
+"They design car engines",
+"They create new laws",
+"They clean the environment"
+],
+"answer": "They study weather conditions to understand air pollution movement",
+"explanation": "Meteorologists are mentioned as professionals who study weather conditions and participate in research to find ways to control air pollution."
+},
+{
+"questionEnglish": "Why is it difficult to manage air pollution internationally?",
+"options": [
+"Different countries have different languages",
+"Pollutants can be carried by wind across international borders for thousands of miles",
+"There is no money to pay for equipment",
+"Nobody cares about the problem"
+],
+"answer": "Pollutants can be carried by wind across international borders for thousands of miles",
+"explanation": "Pollutants do not stay within one country's borders; they travel via wind, causing damage in other nations."
+},
+{
+"questionEnglish": "What percentage of air is oxygen?",
+"options": [
+"78 percent",
+"21 percent",
+"0.03 percent",
+"1 percent"
+],
+"answer": "21 percent",
+"explanation": "Air is a mixture comprising 78 percent nitrogen and 21 percent oxygen."
+},
+{
+"questionEnglish": "What is an 'obnoxious' gas?",
+"options": [
+"A gas that helps plants grow",
+"An unpleasant or harmful gas",
+"A gas that has no smell",
+"A type of pure oxygen"
+],
+"answer": "An unpleasant or harmful gas",
+"explanation": "The glossary defines 'obnoxious' as unpleasant."
+},
+{
+"questionEnglish": "What does the term 'plying' mean?",
+"options": [
+"Increasing",
+"Stopping",
+"Running, as in buses on roads",
+"Cleaning"
+],
+"answer": "Running, as in buses on roads",
+"explanation": "The glossary defines 'plying' as running, especially in the context of buses."
+},
+{
+"questionEnglish": "Which gas is chemically inactive according to the glossary?",
+"options": [
+"Nitrogen",
+"Oxygen",
+"Argon",
+"Methane"
+],
+"answer": "Argon",
+"explanation": "The glossary defines argon as a chemically inactive gas."
+},
+{
+"questionEnglish": "What is the consequence of high pollution levels in the US and Europe?",
+"options": [
+"Increased life expectancy",
+"More tourism",
+"Linked to an increased number of deaths",
+"Better crop yields"
+],
+"answer": "Linked to an increased number of deaths",
+"explanation": "The text states that in both the United States and Europe, high pollution levels were linked to an increased number of deaths."
+},
+{
+"questionEnglish": "What are 'ingredients'?",
+"options": [
+"Things used to make something",
+"Things that cause pollution",
+"People who study the weather",
+"Tall chimneys"
+],
+"answer": "Things used to make something",
+"explanation": "The glossary defines ingredients as things used to make something."
+},
+{
+"questionEnglish": "Which industry contributes to air pollution alongside cement and steel?",
+"options": [
+"Textile mills",
+"Ore processing industries",
+"Paper recycling",
+"Food manufacturing"
+],
+"answer": "Ore processing industries",
+"explanation": "The text identifies cement, steel, and ore processing industries as significant contributors to air pollution."
+},
+{
+"questionEnglish": "Why might we need to wear nasal filters in the future?",
+"options": [
+"Because of a fashion trend",
+"Because the level of air pollution is reaching peak levels",
+"To protect against the common cold",
+"To save money on air conditioning"
+],
+"answer": "Because the level of air pollution is reaching peak levels",
+"explanation": "If the trend of automobile exhaust pollution continues, nasal filters might become necessary."
+},
+{
+"questionEnglish": "What does the text suggest about the future of global warming?",
+"options": [
+"It is a natural process that cannot be stopped",
+"It is a result of trapped solar radiation and is a major concern",
+"It will lead to a new ice age",
+"It will increase oxygen levels"
+],
+"answer": "It is a result of trapped solar radiation and is a major concern",
+"explanation": "The text explains that increasing greenhouse gases trap radiation and contribute to global warming."
+},
+{
+"questionEnglish": "What happens to trees near power plants?",
+"options": [
+"They grow taller",
+"They have been killed by pollution",
+"They produce more fruit",
+"They become more resistant to disease"
+],
+"answer": "They have been killed by pollution",
+"explanation": "Pollution from power plants has been linked to the death of trees."
+},
+{
+"questionEnglish": "How much carbon dioxide is in dry air?",
+"options": [
+"78 percent",
+"21 percent",
+"0.03 percent",
+"1 percent"
+],
+"answer": "0.03 percent",
+"explanation": "The text states that dry air contains 0.03 percent carbon dioxide."
+},
+{
+"questionEnglish": "What is meant by 'leaches away'?",
+"options": [
+"Adds nutrients to",
+"Protects from",
+"Washes away",
+"Covers with dirt"
+],
+"answer": "Washes away",
+"explanation": "The glossary defines 'leaches away' as washing away, typically referring to nutrients in the soil."
+},
+{
+"questionEnglish": "What is the primary goal of setting international standards and norms for air pollution?",
+"options": [
+"To make more money",
+"To control pollution and ensure quality air",
+"To compete with other nations",
+"To increase the number of cars"
+],
+"answer": "To control pollution and ensure quality air",
+"explanation": "Countries make laws and set standards to check pollution and ensure cleaner, higher-quality air."
+},
+{
+"questionEnglish": "What effect does acid rain have on the Dipper fish?",
+"options": [
+"It makes them grow larger",
+"It causes them to vanish from the river of Central Wales",
+"It changes their color",
+"It makes them immune to disease"
+],
+"answer": "It causes them to vanish from the river of Central Wales",
+"explanation": "The text notes that the Dipper fish has vanished from the rivers of Central Wales due to acid rain."
+},
+{
+"questionEnglish": "What is the overall tone of the essay on air pollution?",
+"options": [
+"Optimistic and lighthearted",
+"Serious and urgent",
+"Humorous and satirical",
+"Indifferent and neutral"
+],
+"answer": "Serious and urgent",
+"explanation": "The essay addresses a 'hidden menace' and emphasizes the 'greatest threat' posed to mankind, indicating a serious tone."
+},
+{
+"questionEnglish": "What does the text suggest is necessary to maintain air purity?",
+"options": [
+"Increasing the burning of furnace oil",
+"Maintaining the original composition of gases",
+"Reducing the number of industries completely",
+"Relying on nasal filters"
+],
+"answer": "Maintaining the original composition of gases",
+"explanation": "The text states that the air is pure as long as its original composition of gases is maintained."
+},
+{
+"questionEnglish": "What is a 'victim'?",
+"options": [
+"Someone who wins a competition",
+"Someone who suffers as a result of something",
+"A person who works in a factory",
+"A type of harmful gas"
+],
+"answer": "Someone who suffers as a result of something",
+"explanation": "The glossary defines a victim as someone who suffers as a result of something."
+}
+]
