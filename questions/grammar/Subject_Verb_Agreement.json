@@ -1,0 +1,553 @@
+
+[
+{
+"questionEnglish": "In the context of English grammar, what is the core purpose of the verb phrase in a sentence?",
+"options": [
+"To describe the subject only",
+"To agree with the subject in number and person",
+"To always be in the past tense",
+"To function as an adverbial modifier"
+],
+"answer": "To agree with the subject in number and person",
+"explanation": "According to the chapter, a verb in an English sentence must agree with its subject in both number and person."
+},
+{
+"questionEnglish": "Which of the following sentences correctly applies the subject-verb agreement rule for an introductory 'there'?",
+"options": [
+"There is many books on the table.",
+"There are a book on the desk.",
+"There is a book on the desk.",
+"There were a pen on the table."
+],
+"answer": "There is a book on the desk.",
+"explanation": "Verbs used after an introductory 'there' must agree with the noun (the real subject) that follows the verb. 'A book' is singular, so 'is' is correct."
+},
+{
+"questionEnglish": "When 'It' is used in the normal subject position to talk about time, distance, or weather, what verb form is used?",
+"options": [
+"Always singular",
+"Always plural",
+"It depends on the object",
+"It depends on the time"
+],
+"answer": "Always singular",
+"explanation": "When 'It' is used for time, distance, or weather, the verb is always singular (is or was)."
+},
+{
+"questionEnglish": "How should a plural number representing a single figure or quantity (like distance or money) be treated?",
+"options": [
+"As a plural subject taking a plural verb",
+"As a singular subject taking a singular verb",
+"As an adjective phrase",
+"As an uncountable noun"
+],
+"answer": "As a singular subject taking a singular verb",
+"explanation": "If a plural number represents a single figure or quantity, it is treated as singular and takes a singular verb, such as 'Fifty kilometres is a long distance'."
+},
+{
+"questionEnglish": "Which sentence demonstrates the rule that two nouns joined by 'and' representing a single notion take a singular verb?",
+"options": [
+"Gopal and his sister have come.",
+"Bread and butter is my favorite breakfast.",
+"Two boys and three girls are playing.",
+"The teacher and the students are in the hall."
+],
+"answer": "Bread and butter is my favorite breakfast.",
+"explanation": "When two nouns joined by 'and' are regarded as a single object or notion, the verb is singular."
+},
+{
+"questionEnglish": "Which of the following nouns usually takes a plural verb according to the textbook?",
+"options": [
+"Furniture",
+"Clothing",
+"Police",
+"Jewellery"
+],
+"answer": "Police",
+"explanation": "Nouns like police, people, poultry, and cattle usually take plural verbs."
+},
+{
+"questionEnglish": "If a clause separates the subject from the verb, how do you determine the correct verb?",
+"options": [
+"Make the verb agree with the noun closest to it.",
+"Make the verb agree with the actual subject-word.",
+"Always use a singular verb.",
+"Always use a plural verb."
+],
+"answer": "Make the verb agree with the actual subject-word.",
+"explanation": "If a clause separates the subject from the verb, the verb must agree with the original, actual subject-word."
+},
+{
+"questionEnglish": "What is the rule for 'either of', 'neither of', or 'none of' followed by a plural noun?",
+"options": [
+"The verb is usually singular.",
+"The verb is usually plural.",
+"The verb must be in the past tense.",
+"The verb must agree with the nearest noun."
+],
+"answer": "The verb is usually singular.",
+"explanation": "If a subject begins with 'either of', 'neither of', or 'none of' followed by a plural noun, the verb is usually singular."
+},
+{
+"questionEnglish": "When 'and' connects two titles of the same person, what is the verb agreement?",
+"options": [
+"The verb is plural.",
+"The verb is singular.",
+"The verb must be an auxiliary.",
+"The verb must be in the future tense."
+],
+"answer": "The verb is singular.",
+"explanation": "When 'and' connects two titles or designations of the same person, the verb is singular."
+},
+{
+"questionEnglish": "What is the verb agreement when a subject begins with a fraction?",
+"options": [
+"The verb is always singular.",
+"The verb is always plural.",
+"The verb agrees with the noun that follows the fraction.",
+"The verb agrees with the fraction itself."
+],
+"answer": "The verb agrees with the noun that follows the fraction.",
+"explanation": "If the subject begins with a fraction, the verb agrees with the noun that follows the fraction."
+},
+{
+"questionEnglish": "How does 'The number of' differ from 'A number of' in subject-verb agreement?",
+"options": [
+"Both take singular verbs.",
+"Both take plural verbs.",
+"'A number of' takes a plural verb, while 'The number of' takes a singular verb.",
+"'A number of' takes a singular verb, while 'The number of' takes a plural verb."
+],
+"answer": "'A number of' takes a plural verb, while 'The number of' takes a singular verb.",
+"explanation": "'A number of' + plural noun takes a plural verb, whereas 'The number of' + plural noun takes a singular verb because 'number' is the real subject."
+},
+{
+"questionEnglish": "Which category do nouns like 'Physics', 'Mathematics', and 'News' belong to regarding verb agreement?",
+"options": [
+"Uncountable nouns taking singular verbs",
+"Plural nouns taking plural verbs",
+"Collective nouns taking singular verbs",
+"Adjectives used as nouns"
+],
+"answer": "Uncountable nouns taking singular verbs",
+"explanation": "Statistics, Mathematics, Physics, Economics, News, etc., are uncountable nouns and take singular verbs."
+},
+{
+"questionEnglish": "If the subject of a sentence is a clause, what is the verb agreement?",
+"options": [
+"The verb is always plural.",
+"The verb is always singular.",
+"The verb agrees with the first word of the clause.",
+"The verb agrees with the last word of the clause."
+],
+"answer": "The verb is always singular.",
+"explanation": "If the subject of a sentence is a clause, the verb used must be singular."
+},
+{
+"questionEnglish": "When subjects are linked by 'as well as', 'together with', or 'with', how does the verb agree?",
+"options": [
+"It agrees with the nearest subject.",
+"It agrees with the second subject.",
+"It agrees with the first subject.",
+"It is always plural."
+],
+"answer": "It agrees with the first subject.",
+"explanation": "When words are linked by connectives like 'with', 'as well as', or 'together with', the verb agrees with the first word (the actual subject)."
+},
+{
+"questionEnglish": "When subjects are connected by 'not only... but also', 'either... or', or 'neither... nor' with differing numbers, where does the verb agree?",
+"options": [
+"With the first subject",
+"With the nearer subject",
+"With the plural subject",
+"With the singular subject"
+],
+"answer": "With the nearer subject",
+"explanation": "When words in the subject are connected by these correlatives and differ in number/person, the verb agrees with the nearer subject."
+},
+{
+"questionEnglish": "Why do nouns like 'scissors' or 'trousers' require plural verbs?",
+"options": [
+"Because they represent a class of people.",
+"Because they are made of two similar parts in a pair.",
+"Because they are uncountable nouns.",
+"Because they are collective nouns."
+],
+"answer": "Because they are made of two similar parts in a pair.",
+"explanation": "Nouns consisting of two similar parts like scissors, trousers, and spectacles are treated as plural subjects."
+},
+{
+"questionEnglish": "When an adjective is used as a noun to represent a class (e.g., 'The rich'), what verb form is required?",
+"options": [
+"Singular verb",
+"Plural verb",
+"No verb is required",
+"Past tense verb only"
+],
+"answer": "Plural verb",
+"explanation": "When an adjective is used as a noun representing a class, it takes a plural verb."
+},
+{
+"questionEnglish": "What is the verb agreement rule for a relative pronoun when the antecedent determines the verb?",
+"options": [
+"Always singular",
+"Always plural",
+"Depends on the number and person of the antecedent",
+"Depends on the verb in the main clause"
+],
+"answer": "Depends on the number and person of the antecedent",
+"explanation": "The verb in a relative clause is singular or plural depending on the number and person of the antecedent of the relative pronoun."
+},
+{
+"questionEnglish": "In the sentence 'There is plenty of room for improvement', why is 'is' used?",
+"options": [
+"Because 'plenty of' takes a singular verb.",
+"Because 'room' is the real subject and is uncountable.",
+"Because 'there' is the real subject.",
+"Because 'improvement' is the subject."
+],
+"answer": "Because 'room' is the real subject and is uncountable.",
+"explanation": "In sentences with 'there', the verb agrees with the noun that follows, and 'room' in this context is an uncountable singular noun."
+},
+{
+"questionEnglish": "Which of these is a correct example of agreement involving a collective noun?",
+"options": [
+"The committee were unanimous.",
+"The committee was unanimous.",
+"The committee have unanimous.",
+"The committee are unanimous."
+],
+"answer": "The committee was unanimous.",
+"explanation": "A collective noun in the singular takes a singular verb if the speaker considers it as a single unit."
+},
+{
+"questionEnglish": "What is the defining characteristic of a non-finite verb?",
+"options": [
+"It agrees with the subject in number and person.",
+"It always carries tense.",
+"It has no agreement with the subject.",
+"It must be an auxiliary verb."
+],
+"answer": "It has no agreement with the subject.",
+"explanation": "Non-finite verbs do not agree with the subject in number or person, nor do they carry tense."
+},
+{
+"questionEnglish": "In a verb group, which part is typically the finite verb?",
+"options": [
+"The last verb",
+"The main verb",
+"The first auxiliary",
+"The participle form"
+],
+"answer": "The first auxiliary",
+"explanation": "In a verb group, the first auxiliary takes the tense and is the finite verb; others are non-finite."
+},
+{
+"questionEnglish": "Which of these is NOT one of the four types of non-finite verbs?",
+"options": [
+"to + verb",
+"verb only (base form)",
+"en form (third form)",
+"s/es form (third-person singular)"
+],
+"answer": "s/es form (third-person singular)",
+"explanation": "Non-finite verbs are classified as 'to + verb', base verb, 'en' (past participle), or '-ing' (present participle/gerund) forms."
+},
+{
+"questionEnglish": "Why is the sentence '*Seema to write the letter' ungrammatical?",
+"options": [
+"It has no finite verb.",
+"It has too many non-finite verbs.",
+"Seema is a singular subject.",
+"The letter should be plural."
+],
+"answer": "It has no finite verb.",
+"explanation": "Every sentence must have at least one finite verb. A sentence cannot be formed using only non-finite verbs."
+},
+{
+"questionEnglish": "Which verbs are followed by the base form of the verb (without 'to')?",
+"options": [
+"want, expect, hope",
+"let, make, help, see",
+"decide, learn, plan",
+"advise, instruct, invite"
+],
+"answer": "let, make, help, see",
+"explanation": "Verbs like let, make, help, have, see, hear, watch, and notice are followed by the base verb form, not 'to + verb'."
+},
+{
+"questionEnglish": "When can a preposition appear without a noun or pronoun object?",
+"options": [
+"In exclamations",
+"In relative clauses",
+"In Wh-questions",
+"All of the above"
+],
+"answer": "All of the above",
+"explanation": "Prepositions can appear without an immediate object in Wh-questions, relative clauses, passives, infinitives, and exclamations."
+},
+{
+"questionEnglish": "Which preposition indicates a specific point, such as a station or house address?",
+"options": [
+"In",
+"On",
+"At",
+"Over"
+],
+"answer": "At",
+"explanation": "'At' is used for exact points, specific house numbers, stations, and public buildings."
+},
+{
+"questionEnglish": "What is the difference between 'over' and 'above'?",
+"options": [
+"There is no difference.",
+"'Over' means vertically above; 'above' means at a higher level.",
+"'Above' means vertically above; 'over' means at a higher level.",
+"'Over' is for objects; 'above' is for abstract concepts."
+],
+"answer": "'Over' means vertically above; 'above' means at a higher level.",
+"explanation": "'Over' implies a position directly above or covering, whereas 'above' generally indicates a higher level."
+},
+{
+"questionEnglish": "When is 'in' used for places of work?",
+"options": [
+"When the place is a building like an office or bank.",
+"When the place is a field.",
+"When the place is a farm.",
+"When the place is a plantation."
+],
+"answer": "When the place is a building like an office or bank.",
+"explanation": "'In' is used for places of work that are considered buildings, while 'on' is used for open areas like farms."
+},
+{
+"questionEnglish": "Which preposition is used when speaking of two persons or things?",
+"options": [
+"Among",
+"Between",
+"Through",
+"Against"
+],
+"answer": "Between",
+"explanation": "'Between' is used for two, while 'among' is used for three or more."
+},
+{
+"questionEnglish": "Which prepositional phrase is used to indicate the latest time an action will be completed?",
+"options": [
+"At",
+"In",
+"By",
+"Since"
+],
+"answer": "By",
+"explanation": "'By' is used to show the latest time by which an action will be finished."
+},
+{
+"questionEnglish": "What is the difference between 'on time' and 'in time'?",
+"options": [
+"'On time' means early; 'in time' means as per schedule.",
+"'On time' means as per schedule; 'in time' means earlier than the deadline.",
+"They are identical.",
+"'On time' is for formal events; 'in time' is for informal events."
+],
+"answer": "'On time' means as per schedule; 'in time' means earlier than the deadline.",
+"explanation": "'On time' refers to the exact scheduled time; 'in time' means with enough time to spare before the deadline."
+},
+{
+"questionEnglish": "How are phrasal verbs formed?",
+"options": [
+"By adding an adjective to a verb.",
+"By adding an adverb particle to a verb.",
+"By adding a noun to a verb.",
+"By adding a pronoun to a verb."
+],
+"answer": "By adding an adverb particle to a verb.",
+"explanation": "A phrasal verb is formed when an adverb particle is added to a main verb to create a new verb, often with a new meaning."
+},
+{
+"questionEnglish": "What does it mean for a phrasal verb to be 'transitive'?",
+"options": [
+"It doesn't need an object.",
+"It has an object.",
+"It changes meaning when used as an object.",
+"It can only be used in the past tense."
+],
+"answer": "It has an object.",
+"explanation": "Like ordinary verbs, transitive phrasal verbs require an object, whereas intransitive ones do not."
+},
+{
+"questionEnglish": "Which of these phrasal verbs means 'rejected'?",
+"options": [
+"Look into",
+"Turn down",
+"Fall out",
+"Break down"
+],
+"answer": "Turn down",
+"explanation": "According to the chapter, 'turn down' means to reject, and 'fall out' means to quarrel."
+},
+{
+"questionEnglish": "What does the phrasal verb 'look into' mean?",
+"options": [
+"To visit",
+"To investigate",
+"To consider",
+"To try to find"
+],
+"answer": "To investigate",
+"explanation": "'Look into' means to investigate or examine the facts of a matter."
+},
+{
+"questionEnglish": "Which phrase is synonymous with 'to stop functioning'?",
+"options": [
+"Break off",
+"Break down",
+"Break into",
+"Break in"
+],
+"answer": "Break down",
+"explanation": "'Break down' is commonly used to mean that a machine stops functioning."
+},
+{
+"questionEnglish": "What does 'bring up' mean?",
+"options": [
+"Publish",
+"Educate or rear a child",
+"Summon",
+"Visit"
+],
+"answer": "Educate or rear a child",
+"explanation": "'Bring up' refers to the process of raising or educating a child."
+},
+{
+"questionEnglish": "What is a 'Noun Clause'?",
+"options": [
+"A clause that describes a noun.",
+"A clause that works like a noun in a sentence.",
+"A clause that indicates time.",
+"A clause that is an independent sentence."
+],
+"answer": "A clause that works like a noun in a sentence.",
+"explanation": "Noun clauses are subordinate clauses that function as the subject, object, or complement in a sentence."
+},
+{
+"questionEnglish": "In the sentence 'I cannot express how sorry I am', what is the subordinate clause?",
+"options": [
+"I cannot express",
+"How sorry I am",
+"I am",
+"Express how"
+],
+"answer": "How sorry I am",
+"explanation": "'How sorry I am' is the subordinate clause acting as the object of the verb 'express'."
+},
+{
+"questionEnglish": "What are the three types of subordinate clauses?",
+"options": [
+"Noun, Relative, Adverb",
+"Noun, Verbal, Independent",
+"Relative, Adjective, Coordinate",
+"Subject, Predicate, Complement"
+],
+"answer": "Noun, Relative, Adverb",
+"explanation": "Subordinate clauses are divided into three types: noun clauses, relative (or adjective) clauses, and adverb clauses."
+},
+{
+"questionEnglish": "Why is a coordinate clause not a subordinate clause?",
+"options": [
+"Because it is too long.",
+"Because it can stand alone as an independent clause.",
+"Because it contains a noun clause.",
+"Because it has no verb."
+],
+"answer": "Because it can stand alone as an independent clause.",
+"explanation": "Coordinate clauses are independent and do not rely on the main clause, unlike subordinate clauses."
+},
+{
+"questionEnglish": "Which of these functions CANNOT a noun clause perform?",
+"options": [
+"Subject of the sentence",
+"Object of a transitive verb",
+"Complement of a verb of incomplete predication",
+"Independent main clause of a compound sentence"
+],
+"answer": "Independent main clause of a compound sentence",
+"explanation": "Noun clauses are subordinate by nature; they cannot function as the independent main clause of a compound sentence."
+},
+{
+"questionEnglish": "In the sentence 'That his father has come home is true', what is the noun clause?",
+"options": [
+"That his father has come home",
+"Is true",
+"His father",
+"Has come home"
+],
+"answer": "That his father has come home",
+"explanation": "The clause 'That his father has come home' is acting as the subject of the sentence."
+},
+{
+"questionEnglish": "Which word is often used to connect a noun clause in a complex sentence?",
+"options": [
+"That",
+"Although",
+"Because",
+"While"
+],
+"answer": "That",
+"explanation": "The word 'that' is commonly used to introduce noun clauses acting as objects or subjects."
+},
+{
+"questionEnglish": "What does a relative clause typically do?",
+"options": [
+"It acts as a subject.",
+"It modifies a noun or pronoun (like an adjective).",
+"It indicates time.",
+"It forms a coordinate clause."
+],
+"answer": "It modifies a noun or pronoun (like an adjective).",
+"explanation": "Relative clauses are also known as adjective clauses because they function to describe or modify a noun."
+},
+{
+"questionEnglish": "When we combine two sentences to form a complex sentence, what do we create?",
+"options": [
+"A main clause and a subordinate clause.",
+"Two coordinate main clauses.",
+"Two independent sentences.",
+"A phrase."
+],
+"answer": "A main clause and a subordinate clause.",
+"explanation": "Complex sentences consist of at least one main (independent) clause and at least one subordinate (dependent) clause."
+},
+{
+"questionEnglish": "Which of the following is an example of a simple sentence?",
+"options": [
+"I know that he is honest.",
+"He is honest and he is kind.",
+"He is an honest man.",
+"He is honest because he wants to be."
+],
+"answer": "He is an honest man.",
+"explanation": "A simple sentence has only one finite clause. The others involve complex or compound structures."
+},
+{
+"questionEnglish": "In 'He sealed and posted the letter', why are the clauses both independent?",
+"options": [
+"Because they both share the same subject.",
+"Because they are joined by a coordinating conjunction 'and'.",
+"Because 'sealed' and 'posted' are both non-finite.",
+"Because they are noun clauses."
+],
+"answer": "Because they are joined by a coordinating conjunction 'and'.",
+"explanation": "The use of 'and' here creates two coordinate main clauses, both independent."
+},
+{
+"questionEnglish": "What defines a complex sentence?",
+"options": [
+"It contains only one clause.",
+"It contains two or more coordinate clauses.",
+"It contains one or more subordinate clauses.",
+"It contains no verbs."
+],
+"answer": "It contains one or more subordinate clauses.",
+"explanation": "Complex sentences are defined by having one or more subordinate clauses dependent on a main clause."
+}
+]
