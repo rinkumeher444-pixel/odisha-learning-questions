@@ -1,1 +1,553 @@
+[
+{
+"questionEnglish": "What is the primary function of a phrasal verb in a sentence?",
+"options": [
+"To replace a noun phrase",
+"To create a new meaning by adding an adverb or preposition particle to a main verb",
+"To change the tense of the sentence",
+"To act as a synonym for a conjunction"
+],
+"answer": "To create a new meaning by adding an adverb or preposition particle to a main verb",
+"explanation": "A phrasal verb is formed when an adverb or preposition particle is added to a main verb to create a new, often idiomatic, meaning."
+},
+{
+"questionEnglish": "Which of the following is an example of an intransitive phrasal verb?",
+"options": [
+"He turned on the light",
+"The car has broken down",
+"I made out the words",
+"We set up a school"
+],
+"answer": "The car has broken down",
+"explanation": "An intransitive phrasal verb does not take a direct object. 'Broken down' here describes the state of the car without an object."
+},
+{
+"questionEnglish": "In the sentence 'The publishers have brought out a new edition', what is the meaning of 'brought out'?",
+"options": [
+"Carried something from outside",
+"Published",
+"Hidden",
+"Destroyed"
+],
+"answer": "Published",
+"explanation": "In this context, the phrasal verb 'brought out' means to publish or release a new book or edition."
+},
+{
+"questionEnglish": "What does the phrasal verb 'turn down' usually mean?",
+"options": [
+"To rotate something",
+"To decrease the volume",
+"To reject",
+"To accept"
+],
+"answer": "To reject",
+"explanation": "'Turn down' is an idiomatic phrasal verb meaning to refuse or reject a request or offer."
+},
+{
+"questionEnglish": "Which sentence correctly uses the phrasal verb 'look into'?",
+"options": [
+"I am looking into the mirror",
+"The police are looking into the matter",
+"She looked into the box",
+"He looked into the distance"
+],
+"answer": "The police are looking into the matter",
+"explanation": "'Look into' as a phrasal verb means to investigate, which fits the context of police and a matter."
+},
+{
+"questionEnglish": "What does 'get over' mean in the sentence 'He got over his difficulties'?",
+"options": [
+"To climb over",
+"To overcome or recover from",
+"To ignore",
+"To create"
+],
+"answer": "To overcome or recover from",
+"explanation": "'Get over' is a phrasal verb meaning to recover from an illness, setback, or difficulty."
+},
+{
+"questionEnglish": "Identify the meaning of 'put off' in the sentence 'Don't put off today's work for tomorrow.'",
+"options": [
+"To extinguish",
+"To postpone",
+"To wear",
+"To finish"
+],
+"answer": "To postpone",
+"explanation": "'Put off' means to delay or postpone an action to a later time."
+},
+{
+"questionEnglish": "Which phrasal verb means 'to tolerate' or 'to bear'?",
+"options": [
+"Put up with",
+"Put down",
+"Give up",
+"Run out"
+],
+"answer": "Put up with",
+"explanation": "'Put up with' is a phrasal-prepositional verb meaning to endure or tolerate something unpleasant."
+},
+{
+"questionEnglish": "What is the meaning of 'call off'?",
+"options": [
+"To visit",
+"To telephone",
+"To cancel",
+"To postpone"
+],
+"answer": "To cancel",
+"explanation": "'Call off' means to decide that a planned event will not take place; to cancel."
+},
+{
+"questionEnglish": "What does 'give up' mean in the context of a habit like smoking?",
+"options": [
+"To distribute",
+"To stop or quit",
+"To surrender",
+"To increase"
+],
+"answer": "To stop or quit",
+"explanation": "'Give up' is commonly used to mean stopping a habit or activity entirely."
+},
+{
+"questionEnglish": "Which phrasal verb means 'to start a journey'?",
+"options": [
+"Set up",
+"Set off",
+"Break down",
+"Bring up"
+],
+"answer": "Set off",
+"explanation": "'Set off' (or 'set out') means to begin a journey."
+},
+{
+"questionEnglish": "What does 'break into' mean when referring to a building?",
+"options": [
+"To enter by force",
+"To leave quickly",
+"To decorate",
+"To build"
+],
+"answer": "To enter by force",
+"explanation": "'Break into' implies entering a place, like a house, illegally or by force."
+},
+{
+"questionEnglish": "What is the meaning of 'make up' when used to mean 'settle a quarrel'?",
+"options": [
+"To invent",
+"To reconcile or become friends again",
+"To supply a deficiency",
+"To fabricate a story"
+],
+"answer": "To reconcile or become friends again",
+"explanation": "'Make up' has several meanings; in the context of a quarrel, it means to reconcile."
+},
+{
+"questionEnglish": "What does 'run out of' mean?",
+"options": [
+"To leave a room",
+"To have no more of something left",
+"To increase supply",
+"To run fast"
+],
+"answer": "To have no more of something left",
+"explanation": "'Run out of' means that your supply of something has been exhausted."
+},
+{
+"questionEnglish": "What does 'look after' mean?",
+"options": [
+"To search for",
+"To take care of",
+"To examine",
+"To investigate"
+],
+"answer": "To take care of",
+"explanation": "'Look after' means to provide care or supervision."
+},
+{
+"questionEnglish": "In the sentence 'He set up a school', what does 'set up' mean?",
+"options": [
+"To demolish",
+"To establish or start",
+"To clean",
+"To visit"
+],
+"answer": "To establish or start",
+"explanation": "'Set up' means to initiate or establish something like a business or organization."
+},
+{
+"questionEnglish": "What does 'take off' mean in relation to an airplane?",
+"options": [
+"To land",
+"To leave the ground",
+"To park",
+"To stop"
+],
+"answer": "To leave the ground",
+"explanation": "'Take off' describes the moment an airplane leaves the runway and starts flying."
+},
+{
+"questionEnglish": "Which phrasal verb means 'to omit'?",
+"options": [
+"Leave out",
+"Pick out",
+"Bring up",
+"Put off"
+],
+"answer": "Leave out",
+"explanation": "'Leave out' means to exclude or omit something."
+},
+{
+"questionEnglish": "What does 'carry out' mean?",
+"options": [
+"To bring something outside",
+"To execute or fulfill a task",
+"To ignore",
+"To stop"
+],
+"answer": "To execute or fulfill a task",
+"explanation": "'Carry out' is often used to mean completing or executing instructions or promises."
+},
+{
+"questionEnglish": "What does 'take over' mean?",
+"options": [
+"To give up",
+"To accept responsibility or control",
+"To help someone",
+"To watch"
+],
+"answer": "To accept responsibility or control",
+"explanation": "'Take over' means to assume control or duty from someone else."
+},
+{
+"questionEnglish": "What does 'break off' mean?",
+"options": [
+"To destroy",
+"To stop for a rest",
+"To continue",
+"To begin"
+],
+"answer": "To stop for a rest",
+"explanation": "'Break off' means to pause or stop an activity temporarily."
+},
+{
+"questionEnglish": "What does 'give away' mean?",
+"options": [
+"To distribute",
+"To steal",
+"To hide",
+"To buy"
+],
+"answer": "To distribute",
+"explanation": "'Give away' can mean to distribute items, especially for free."
+},
+{
+"questionEnglish": "What does 'make out' mean in 'I cannot make out his handwriting'?",
+"options": [
+"To write",
+"To understand or decipher",
+"To ignore",
+"To describe"
+],
+"answer": "To understand or decipher",
+"explanation": "'Make out' means to discern or understand something that is difficult to see or read."
+},
+{
+"questionEnglish": "What does 'look forward to' mean?",
+"options": [
+"To stare ahead",
+"To anticipate something with pleasure",
+"To ignore",
+"To worry"
+],
+"answer": "To anticipate something with pleasure",
+"explanation": "'Look forward to' means to wait for something with eager anticipation."
+},
+{
+"questionEnglish": "Which phrasal verb means 'to recover from an illness'?",
+"options": [
+"Pick up",
+"Put down",
+"Set in",
+"Call up"
+],
+"answer": "Pick up",
+"explanation": "'Pick up' can mean to improve or recover, especially after an illness."
+},
+{
+"questionEnglish": "What does 'bring up' mean in 'He was brought up by his uncle'?",
+"options": [
+"To educate or rear a child",
+"To carry upstairs",
+"To shout",
+"To forget"
+],
+"answer": "To educate or rear a child",
+"explanation": "'Bring up' means to raise a child."
+},
+{
+"questionEnglish": "What does 'put out' mean in 'Shall I put out the light?'",
+"options": [
+"To switch on",
+"To extinguish or turn off",
+"To repair",
+"To decorate"
+],
+"answer": "To extinguish or turn off",
+"explanation": "'Put out' refers to extinguishing fire or switching off lights."
+},
+{
+"questionEnglish": "What does 'get on with' mean?",
+"options": [
+"To dislike",
+"To make progress or have a good relationship",
+"To avoid",
+"To fight"
+],
+"answer": "To make progress or have a good relationship",
+"explanation": "'Get on with' implies progressing in work or having a good rapport with someone."
+},
+{
+"questionEnglish": "What does 'pick out' mean?",
+"options": [
+"To discard",
+"To choose or select",
+"To hide",
+"To write"
+],
+"answer": "To choose or select",
+"explanation": "'Pick out' means to single something out from a group."
+},
+{
+"questionEnglish": "What does 'set in' mean in 'Winter has set in'?",
+"options": [
+"To end",
+"To begin or start",
+"To change",
+"To hide"
+],
+"answer": "To begin or start",
+"explanation": "'Set in' describes the beginning of a period, especially of weather or a season."
+},
+{
+"questionEnglish": "What does 'go back on' mean?",
+"options": [
+"To return",
+"To fail to keep a promise",
+"To move forward",
+"To support"
+],
+"answer": "To fail to keep a promise",
+"explanation": "'Go back on' is an idiomatic way of saying someone has broken their word or promise."
+},
+{
+"questionEnglish": "What does 'keep up' mean?",
+"options": [
+"To lower",
+"To maintain the same speed or level",
+"To stop",
+"To give up"
+],
+"answer": "To maintain the same speed or level",
+"explanation": "'Keep up' means to sustain a certain pace or quality."
+},
+{
+"questionEnglish": "What does 'make off' mean?",
+"options": [
+"To arrive",
+"To depart hurriedly",
+"To build",
+"To wait"
+],
+"answer": "To depart hurriedly",
+"explanation": "'Make off' means to leave quickly, often to escape."
+},
+{
+"questionEnglish": "What does 'call on' mean?",
+"options": [
+"To phone",
+"To visit",
+"To cancel",
+"To wait"
+],
+"answer": "To visit",
+"explanation": "'Call on' means to pay a short visit to someone."
+},
+{
+"questionEnglish": "What does 'do up' mean?",
+"options": [
+"To destroy",
+"To fasten or decorate",
+"To open",
+"To ignore"
+],
+"answer": "To fasten or decorate",
+"explanation": "'Do up' can mean to fasten clothing or to renovate/decorate a room."
+},
+{
+"questionEnglish": "What does 'take down' mean?",
+"options": [
+"To climb",
+"To write down",
+"To ignore",
+"To build"
+],
+"answer": "To write down",
+"explanation": "'Take down' means to record or transcribe something."
+},
+{
+"questionEnglish": "Which phrasal verb means 'to distribute'?",
+"options": [
+"Give away",
+"Give in",
+"Give up",
+"Take away"
+],
+"answer": "Give away",
+"explanation": "'Give away' means to distribute or donate items."
+},
+{
+"questionEnglish": "What does 'look into' mean?",
+"options": [
+"To ignore",
+"To investigate",
+"To look at oneself",
+"To buy"
+],
+"answer": "To investigate",
+"explanation": "'Look into' signifies an inquiry or investigation."
+},
+{
+"questionEnglish": "What does 'make up for' mean?",
+"options": [
+"To invent a story",
+"To compensate for",
+"To quarrel",
+"To finish"
+],
+"answer": "To compensate for",
+"explanation": "'Make up for' means to balance or compensate for a loss or mistake."
+},
+{
+"questionEnglish": "Which phrasal verb means 'to give in' or 'surrender'?",
+"options": [
+"Give in",
+"Give out",
+"Give away",
+"Set out"
+],
+"answer": "Give in",
+"explanation": "'Give in' means to cease resistance; to surrender."
+},
+{
+"questionEnglish": "What does 'get away with' mean?",
+"options": [
+"To run away",
+"To escape punishment",
+"To fail",
+"To succeed"
+],
+"answer": "To escape punishment",
+"explanation": "'Get away with' means to avoid consequences for a wrongful act."
+},
+{
+"questionEnglish": "What does 'put down' mean in 'The police put the riot down'?",
+"options": [
+"To write",
+"To suppress by force",
+"To move away",
+"To decorate"
+],
+"answer": "To suppress by force",
+"explanation": "'Put down' in this context means to crush a disturbance."
+},
+{
+"questionEnglish": "Which phrasal verb means 'to consider'?",
+"options": [
+"Look on",
+"Look for",
+"Look into",
+"Look after"
+],
+"answer": "Look on",
+"explanation": "'Look on' can mean to consider something in a particular way."
+},
+{
+"questionEnglish": "What does 'break in' mean?",
+"options": [
+"To enter by force",
+"To interrupt a discussion",
+"To start",
+"To finish"
+],
+"answer": "To interrupt a discussion",
+"explanation": "'Break in' often refers to interrupting someone during a conversation."
+},
+{
+"questionEnglish": "What does 'call up' mean?",
+"options": [
+"To visit",
+"To telephone or summon",
+"To cancel",
+"To postpone"
+],
+"answer": "To telephone or summon",
+"explanation": "'Call up' is frequently used for making a phone call."
+},
+{
+"questionEnglish": "What does 'set off' mean?",
+"options": [
+"To start a journey",
+"To establish",
+"To finish",
+"To destroy"
+],
+"answer": "To start a journey",
+"explanation": "'Set off' is synonymous with starting an trip or journey."
+},
+{
+"questionEnglish": "What does 'carry on' mean?",
+"options": [
+"To stop",
+"To continue",
+"To change",
+"To ignore"
+],
+"answer": "To continue",
+"explanation": "'Carry on' means to proceed or continue with an action."
+},
+{
+"questionEnglish": "What does 'get over' mean?",
+"options": [
+"To cross",
+"To overcome",
+"To start",
+"To forget"
+],
+"answer": "To overcome",
+"explanation": "'Get over' means to successfully deal with a difficulty."
+},
+{
+"questionEnglish": "Which phrasal verb means 'to arrive at an understanding'?",
+"options": [
+"Make out",
+"Make up",
+"Make off",
+"Set up"
+],
+"answer": "Make out",
+"explanation": "'Make out' refers to understanding or perceiving something."
+},
+{
+"questionEnglish": "What does 'take off' mean in 'He took off his hat'?",
+"options": [
+"To wear",
+"To remove",
+"To buy",
+"To carry"
+],
+"answer": "To remove",
+"explanation": "'Take off' means to remove an item of clothing."
+}
+]
 
