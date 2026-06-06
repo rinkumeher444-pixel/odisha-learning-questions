@@ -1,131 +1,535 @@
 [
-  {
-    "questionEnglish": "What is the SI unit of current?",
-    "questionOdia": "କରେଣ୍ଟର SI unit କ'ଣ?",
-    "options": [
-      "Volt",
-      "Ampere",
-      "Ohm",
-      "Watt"
-    ],
-    "answer": "Ampere",
-    "explanation": "Ampere is the SI unit of electric current."
-  },
-
-  {
-    "questionEnglish": "What is the SI unit of resistance?",
-    "questionOdia": "ରେଜିଷ୍ଟାନ୍ସର SI unit କ'ଣ?",
-    "options": [
-      "Volt",
-      "Ampere",
-      "Ohm",
-      "Coulomb"
-    ],
-    "answer": "Ohm",
-    "explanation": "Ohm is the SI unit of resistance."
-  },
-
-  {
-    "questionEnglish": "Who discovered electricity?",
-    "questionOdia": "ବିଦ୍ୟୁତ୍ କେ ଆବିଷ୍କାର କରିଥିଲେ?",
-    "options": [
-      "Newton",
-      "Einstein",
-      "Benjamin Franklin",
-      "Faraday"
-    ],
-    "answer": "Benjamin Franklin",
-    "explanation": "Benjamin Franklin is famous for electricity experiments."
-  },
-
-  {
-    "questionEnglish": "Which device measures current?",
-    "questionOdia": "କରେଣ୍ଟ ମାପିବା ପାଇଁ କେଉଁ ଯନ୍ତ୍ର ବ୍ୟବହୃତ ହୁଏ?",
-    "options": [
-      "Voltmeter",
-      "Ammeter",
-      "Galvanometer",
-      "Thermometer"
-    ],
-    "answer": "Ammeter",
-    "explanation": "Ammeter is used to measure electric current."
-  },
-
-  {
-    "questionEnglish": "Which device measures voltage?",
-    "questionOdia": "ଭୋଲ୍ଟେଜ୍ ମାପିବା ପାଇଁ କେଉଁ ଯନ୍ତ୍ର ବ୍ୟବହୃତ ହୁଏ?",
-    "options": [
-      "Voltmeter",
-      "Ammeter",
-      "Barometer",
-      "Ohmmeter"
-    ],
-    "answer": "Voltmeter",
-    "explanation": "Voltmeter measures electric potential difference."
-  },
-
-  {
-    "questionEnglish": "What is the formula of Ohm’s Law?",
-    "questionOdia": "Ohm’s Law ର ସୂତ୍ର କ'ଣ?",
-    "options": [
-      "P = VI",
-      "V = IR",
-      "E = mc²",
-      "F = ma"
-    ],
-    "answer": "V = IR",
-    "explanation": "Ohm’s law states that V = IR."
-  },
-
-  {
-    "questionEnglish": "Which material is a good conductor?",
-    "questionOdia": "କେଉଁ ପଦାର୍ଥ ଭଲ conductor ଅଟେ?",
-    "options": [
-      "Plastic",
-      "Rubber",
-      "Copper",
-      "Wood"
-    ],
-    "answer": "Copper",
-    "explanation": "Copper is a good conductor of electricity."
-  },
-
-  {
-    "questionEnglish": "What is the SI unit of power?",
-    "questionOdia": "Power ର SI unit କ'ଣ?",
-    "options": [
-      "Joule",
-      "Watt",
-      "Volt",
-      "Ampere"
-    ],
-    "answer": "Watt",
-    "explanation": "Watt is the SI unit of power."
-  },
-
-  {
-    "questionEnglish": "Which energy is converted in an electric bulb?",
-    "questionOdia": "Electric bulb ରେ କେଉଁ energy conversion ହୁଏ?",
-    "options": [
-      "Mechanical to Electrical",
-      "Electrical to Light",
-      "Heat to Electrical",
-      "Chemical to Heat"
-    ],
-    "answer": "Electrical to Light",
-    "explanation": "Bulb converts electrical energy into light energy."
-  },
-
-  {
-    "questionEnglish": "What is a fuse used for?",
-    "questionOdia": "Fuse କାହିଁକି ବ୍ୟବହୃତ ହୁଏ?",
-    "options": [
-      "Increase current",
-      "Measure voltage",
-      "Protect circuit",
-      "Store charge"
-    ],
-    "answer": "Protect circuit",
-    "explanation": "Fuse protects circuit from overcurrent."
-  }
-]
+{
+"questionEnglish": "Where did the children discover the grain-like object mentioned in the story?",
+"options": [
+"In a vast agricultural field.",
+"In a ravine.",
+"Inside a royal barn.",
+"Hidden in a secret cellar."
+],
+"answer": "In a ravine.",
+"explanation": "The text states that some children found the object shaped like a grain of corn in a ravine."
+},
+{
+"questionEnglish": "What was the initial size of the grain found by the children compared to an ordinary grain?",
+"options": [
+"It was as small as a rice grain.",
+"It was twice the size of a normal corn grain.",
+"It was as large as a hen's egg.",
+"It was microscopic in size."
+],
+"answer": "It was as large as a hen's egg.",
+"explanation": "The story describes the object as shaped like a grain of corn but as large as a hen's egg."
+},
+{
+"questionEnglish": "How did the grain eventually reach the king?",
+"options": [
+"The children gave it to him directly.",
+"A traveller bought it from the children for a penny and sold it to the king as a curiosity.",
+"The wise men found it and presented it to the king.",
+"It was discovered in the king's own garden."
+],
+"answer": "A traveller bought it from the children for a penny and sold it to the king as a curiosity.",
+"explanation": "A traveller purchased the object from the children for a penny and sold it to the king as a curiosity."
+},
+{
+"questionEnglish": "How did the king's wise men initially react to the strange object?",
+"options": [
+"They identified it immediately as corn.",
+"They pondered and pondered but could not make head or tail of it.",
+"They refused to look at it.",
+"They threw it away as a useless stone."
+],
+"answer": "They pondered and pondered but could not make head or tail of it.",
+"explanation": "The wise men were unable to identify the object despite pondering over it for a long time."
+},
+{
+"questionEnglish": "What event finally led the wise men to realize the object was a grain of corn?",
+"options": [
+"A gardener told them what it was.",
+"A hen flew in and pecked at it, making a hole.",
+"They cut it open with a sharp knife.",
+"They found a book that described it."
+],
+"answer": "A hen flew in and pecked at it, making a hole.",
+"explanation": "The object was lying on a window-sill when a hen flew in, pecked at it, and exposed the grain underneath."
+},
+{
+"questionEnglish": "What did the king order the learned men to do after discovering the object was a grain of corn?",
+"options": [
+"To plant the grain in his garden.",
+"To find out when and where such corn had grown.",
+"To sell it for a higher price.",
+"To make more of these grains."
+],
+"answer": "To find out when and where such corn had grown.",
+"explanation": "The king was surprised and ordered his learned men to discover the origin and time of growth for such a large grain."
+},
+{
+"questionEnglish": "What happened when the learned men consulted their books to find the origin of the grain?",
+"options": [
+"They found detailed records in old books.",
+"They could find nothing about it in any of their books.",
+"They realized it came from another country.",
+"They lied to the king saying they knew."
+],
+"answer": "They could find nothing about it in any of their books.",
+"explanation": "The learned men searched their books but could find absolutely no information regarding such a large grain."
+},
+{
+"questionEnglish": "Whom did the king finally summon to ask about the origin of the grain?",
+"options": [
+"The children who found it.",
+"The traveller who sold it.",
+"An old peasant.",
+"A foreign ambassador."
+],
+"answer": "An old peasant.",
+"explanation": "After the learned men failed, the king summoned an old peasant who was brought into the court."
+},
+{
+"questionEnglish": "How is the old peasant described when he appears before the king?",
+"options": [
+"Tall, strong, and healthy.",
+"Old, bent, toothless, and walking with the help of a crutch.",
+"Young, energetic, and wearing expensive clothes.",
+"Blind and unable to hear the king."
+],
+"answer": "Old, bent, toothless, and walking with the help of a crutch.",
+"explanation": "The text describes the old peasant as being old, bent, toothless, and needing a crutch to walk."
+},
+{
+"questionEnglish": "What did the old peasant say when the king showed him the grain?",
+"options": [
+"He recognized it instantly and knew who grew it.",
+"He said he had never seen such a grain in his life.",
+"He claimed it was a gemstone, not corn.",
+"He said his father might know something about it."
+],
+"answer": "He said he had never seen such a grain in his life.",
+"explanation": "The peasant said he had never seen such a grain, neither in his own fields nor in those of others."
+},
+{
+"questionEnglish": "What did the peasant suggest when he couldn't identify the grain?",
+"options": [
+"To throw it away.",
+"To ask his father.",
+"To plant it and see what grows.",
+"To search for more in the ravine."
+],
+"answer": "To ask his father.",
+"explanation": "The peasant suggested asking his father, who might have heard of such grain."
+},
+{
+"questionEnglish": "How did the peasant's father walk when he appeared before the king?",
+"options": [
+"He walked without any support.",
+"He used two crutches.",
+"He was carried in a chair.",
+"He crawled on the floor."
+],
+"answer": "He used two crutches.",
+"explanation": "Unlike his son, the father was even older and required two crutches to move."
+},
+{
+"questionEnglish": "What was the father's reaction when he saw the grain?",
+"options": [
+"He was just as confused as his son.",
+"He recognized it immediately and said he used to grow such grain.",
+"He said he had seen even larger grains.",
+"He refused to speak to the king."
+],
+"answer": "He recognized it immediately and said he used to grow such grain.",
+"explanation": "The father recognized the grain immediately and stated that such corn was common in his time."
+},
+{
+"questionEnglish": "What did the father claim about the size of grains in his youth?",
+"options": [
+"They were smaller than today's grains.",
+"They were exactly the same size as today's grains.",
+"They were as large as this grain.",
+"They were twice as large as this grain."
+],
+"answer": "They were as large as this grain.",
+"explanation": "The father claimed that corn grains in his youth were just as large as the one shown to him."
+},
+{
+"questionEnglish": "What did the father say about the quality of the corn he used to grow?",
+"options": [
+"It was bitter and poor quality.",
+"It was excellent and very large.",
+"It was mostly used for animal feed.",
+"It never grew well."
+],
+"answer": "It was excellent and very large.",
+"explanation": "He noted that the corn grown in his time was always like this and of very good quality."
+},
+{
+"questionEnglish": "Who did the father suggest the king should ask for further details?",
+"options": [
+"The king's ministers.",
+"His own father (the peasant's grandfather).",
+"The wise men.",
+"A merchant."
+],
+"answer": "His own father (the peasant's grandfather).",
+"explanation": "The father suggested that the grandfather, who was still alive, might know more about it."
+},
+{
+"questionEnglish": "How did the grandfather walk when he was finally brought to the king?",
+"options": [
+"He needed three crutches.",
+"He walked easily without any crutches.",
+"He used a wheelchair.",
+"He needed someone to carry him."
+],
+"answer": "He walked easily without any crutches.",
+"explanation": "The grandfather, despite being the oldest, walked easily and without the aid of any crutches."
+},
+{
+"questionEnglish": "What was the condition of the grandfather's eyesight and hearing?",
+"options": [
+"He was blind and deaf.",
+"He had clear eyes and good hearing.",
+"He was partially blind.",
+"He could only hear if someone shouted."
+],
+"answer": "He had clear eyes and good hearing.",
+"explanation": "The grandfather is described as having clear eyes and good hearing, unlike his son and grandson."
+},
+{
+"questionEnglish": "What was the grandfather's reaction when the king showed him the grain?",
+"options": [
+"He was surprised.",
+"He looked at it and smiled.",
+"He said he had never seen such a thing.",
+"He laughed and claimed it was a small grain."
+],
+"answer": "He looked at it and smiled.",
+"explanation": "The grandfather recognized the grain immediately and smiled upon seeing it."
+},
+{
+"questionEnglish": "What did the grandfather say about grains during his time?",
+"options": [
+"They were small and rare.",
+"They were much larger than this.",
+"They were the same as this grain.",
+"They were not used for food."
+],
+"answer": "They were the same as this grain.",
+"explanation": "He stated that in his time, such corn was always grown and was the common size."
+},
+{
+"questionEnglish": "Why did the grandfather say the grain was so large in his day?",
+"options": [
+"Because they used better fertilizers.",
+"Because people lived by their own labor and did not covet others' property.",
+"Because the climate was better.",
+"Because they had magic seeds."
+],
+"answer": "Because people lived by their own labor and did not covet others' property.",
+"explanation": "He explained that in his time, people lived by their own labor and did not covet what others possessed."
+},
+{
+"questionEnglish": "What does 'covet' mean according to the glossary?",
+"options": [
+"To share willingly.",
+"To have a strong desire for something that belongs to others.",
+"To produce a lot of crops.",
+"To work very hard."
+],
+"answer": "To have a strong desire for something that belongs to others.",
+"explanation": "The glossary defines 'covet' as having a strong desire to have something that belongs to others."
+},
+{
+"questionEnglish": "How did the grandfather describe the lifestyle of people in his time compared to today?",
+"options": [
+"People today are more honest.",
+"People today are more greedy and rely on others' labor.",
+"Both times are exactly the same.",
+"People in his time were lazier."
+],
+"answer": "People today are more greedy and rely on others' labor.",
+"explanation": "The grandfather criticizes the modern lifestyle, saying people have become greedy and dependent on others."
+},
+{
+"questionEnglish": "According to the grandfather, what changed in the people that caused the grains to become smaller?",
+"options": [
+"The soil changed.",
+"The sun became less bright.",
+"People stopped being honest and lost the habit of relying on their own work.",
+"The rain stopped falling."
+],
+"answer": "People stopped being honest and lost the habit of relying on their own work.",
+"explanation": "He believes the decline in grain size is linked to a moral decline in people, specifically the loss of honesty and self-reliance."
+},
+{
+"questionEnglish": "What does 'pondered' mean?",
+"options": [
+"Talked loudly.",
+"Thought carefully.",
+"Ran away.",
+"Brought something to someone."
+],
+"answer": "Thought carefully.",
+"explanation": "The glossary states that 'pondered' means thought carefully."
+},
+{
+"questionEnglish": "What does 'ashy pale' mean?",
+"options": [
+"Very colorful.",
+"Unhealthy looking.",
+"Very dark.",
+"Glowing."
+],
+"answer": "Unhealthy looking.",
+"explanation": "The glossary defines 'ashy pale' as unhealthy."
+},
+{
+"questionEnglish": "What does 'totter' mean?",
+"options": [
+"To walk in an unsteady way.",
+"To run very fast.",
+"To stand perfectly still.",
+"To jump."
+],
+"answer": "To walk in an unsteady way.",
+"explanation": "The glossary defines 'totter' as walking in an unsteady way."
+},
+{
+"questionEnglish": "Why could the wise men not identify the grain at first?",
+"options": [
+"Because it was too small.",
+"Because it was covered in mud.",
+"Because it looked like a stone and had a groove in it.",
+"Because it was painted a different color."
+],
+"answer": "Because it looked like a stone and had a groove in it.",
+"explanation": "The grain was so large and unusual that it looked like a stone with a groove in the middle."
+},
+{
+"questionEnglish": "What did the peasant say about the land where such corn grew?",
+"options": [
+"He said it was very expensive land.",
+"He said it was poor soil.",
+"He said he had never seen such corn in his own fields or anywhere else.",
+"He said it only grew in the king's fields."
+],
+"answer": "He said he had never seen such corn in his own fields or anywhere else.",
+"explanation": "The peasant honestly told the king he had never encountered such corn in his life."
+},
+{
+"questionEnglish": "How did the father compare himself to his son (the peasant)?",
+"options": [
+"He was stronger and more active.",
+"He was even less active and older than his son.",
+"He was exactly the same age as his son.",
+"He knew less about farming."
+],
+"answer": "He was even less active and older than his son.",
+"explanation": "The father was visibly older and more frail than his son, needing two crutches to walk."
+},
+{
+"questionEnglish": "How did the grandfather compare himself to his son and grandson?",
+"options": [
+"He was the weakest of the three.",
+"He was the oldest yet the healthiest and most active.",
+"He was just as weak as the others.",
+"He couldn't stand up at all."
+],
+"answer": "He was the oldest yet the healthiest and most active.",
+"explanation": "Despite being the oldest, the grandfather is described as clear-eyed, having good hearing, and walking without crutches."
+},
+{
+"questionEnglish": "What was the main theme of the old grandfather's story?",
+"options": [
+"The history of the king's kingdom.",
+"The moral decline of people and its impact on the land/nature.",
+"The secrets of farming.",
+"The biography of the peasant family."
+],
+"answer": "The moral decline of people and its impact on the land/nature.",
+"explanation": "The story uses the size of the grain to reflect on how changes in human honesty and labor have affected the world."
+},
+{
+"questionEnglish": "Why was the king surprised by the wise men's initial findings?",
+"options": [
+"Because they told him the grain was expensive.",
+"Because they couldn't identify the grain for a long time.",
+"Because they told him it came from his own palace.",
+"Because they stole the grain."
+],
+"answer": "Because they couldn't identify the grain for a long time.",
+"explanation": "The king was surprised because his 'wise' men could not identify a grain of corn, despite their knowledge."
+},
+{
+"questionEnglish": "What did the grandfather say about the people's love for their own labor?",
+"options": [
+"People didn't love their work in his time.",
+"People used to live by their own labor and were happy with what they earned.",
+"People were always trying to steal from others.",
+"Hard work was considered a punishment."
+],
+"answer": "People used to live by their own labor and were happy with what they earned.",
+"explanation": "He emphasized that in the old days, people valued self-reliance and honest work."
+},
+{
+"questionEnglish": "How was the grain's groove described in the text?",
+"options": [
+"A deep hole.",
+"A groove down the middle.",
+"A spiral pattern.",
+"A flat surface."
+],
+"answer": "A groove down the middle.",
+"explanation": "The text describes the grain as having a groove down the middle."
+},
+{
+"questionEnglish": "What was the reaction of the king to the grandfather's explanation?",
+"options": [
+"He was angry and punished the grandfather.",
+"He was impressed and learned a valuable lesson.",
+"He ignored him.",
+"He didn't understand what the grandfather said."
+],
+"answer": "He was impressed and learned a valuable lesson.",
+"explanation": "The story implies that the king understood the moral behind the grandfather's words."
+},
+{
+"questionEnglish": "What does the word 'thrash' mean in the glossary?",
+"options": [
+"To walk slowly.",
+"To beat repeatedly.",
+"To plant seeds.",
+"To eat quickly."
+],
+"answer": "To beat repeatedly.",
+"explanation": "The glossary defines 'thrash' as to beat repeatedly."
+},
+{
+"questionEnglish": "Which of the three men was able to walk without any crutches?",
+"options": [
+"The peasant (grandson).",
+"The father.",
+"The grandfather.",
+"None of them."
+],
+"answer": "The grandfather.",
+"explanation": "The grandfather, despite being the oldest, was the only one who walked easily without crutches."
+},
+{
+"questionEnglish": "What was the grandfather's hearing ability compared to the others?",
+"options": [
+"He was deaf.",
+"He heard better than the others.",
+"His hearing was worse.",
+"He could not hear the king at all."
+],
+"answer": "He heard better than the others.",
+"explanation": "The text notes that he heard better than the father or the peasant."
+},
+{
+"questionEnglish": "How did the children obtain the penny mentioned in the story?",
+"options": [
+"They stole it.",
+"A traveller gave it to them in exchange for the grain.",
+"They found it in the ravine.",
+"The king gave it to them."
+],
+"answer": "A traveller gave it to them in exchange for the grain.",
+"explanation": "The traveller bought the grain from the children for a penny."
+},
+{
+"questionEnglish": "Who was the first person to identify the object as corn?",
+"options": [
+"The king.",
+"A wise man.",
+"A hen.",
+"The peasant."
+],
+"answer": "A hen.",
+"explanation": "The hen pecked a hole in the object, allowing everyone to see it was a grain of corn."
+},
+{
+"questionEnglish": "How did the peasant's father describe the corn in his time?",
+"options": [
+"Yellow and sweet.",
+"As large as the grain in the king's hand.",
+"Only for making bread.",
+"A very small variety."
+],
+"answer": "As large as the grain in the king's hand.",
+"explanation": "The father said the corn in his time was exactly as large as the grain presented to him."
+},
+{
+"questionEnglish": "What did the grandfather imply about the moral state of modern people?",
+"options": [
+"They are more moral than before.",
+"They are just as moral as before.",
+"They are less honest and more covetous.",
+"They are not interested in farming."
+],
+"answer": "They are less honest and more covetous.",
+"explanation": "He explicitly contrasts the honesty of his time with the covetousness of modern times."
+},
+{
+"questionEnglish": "How did the grandfather walk into the palace court?",
+"options": [
+"He was pushed in a wheelchair.",
+"He came in on his own, walking easily.",
+"He was carried on a stretcher.",
+"He was helped by two guards."
+],
+"answer": "He came in on his own, walking easily.",
+"explanation": "The text says he came in walking easily and without crutches."
+},
+{
+"questionEnglish": "What did the peasant's father do when he heard the king's questions?",
+"options": [
+"He told the truth based on his experience.",
+"He lied to the king.",
+"He asked his son to answer for him.",
+"He remained silent."
+],
+"answer": "He told the truth based on his experience.",
+"explanation": "He answered honestly that he used to grow such grain in his youth."
+},
+{
+"questionEnglish": "What did the wise men do when they couldn't find information about the grain in their books?",
+"options": [
+"They asked the king for help.",
+"They searched even more thoroughly in their books.",
+"They eventually admitted they couldn't find anything.",
+"They invented an answer to please the king."
+],
+"answer": "They eventually admitted they couldn't find anything.",
+"explanation": "After searching again, they returned to the king, unable to find information."
+},
+{
+"questionEnglish": "Why were the children initially playing in the ravine?",
+"options": [
+"They were looking for treasure.",
+"The story doesn't specify; they were just there and found the grain.",
+"They were farming there.",
+"They were hiding from someone."
+],
+"answer": "The story doesn't specify; they were just there and found the grain.",
+"explanation": "The text simply says, 'One day some children found, in a ravine, a thing shaped like a grain of corn'."
+},
+{
+"questionEnglish": "What does 'groove' mean in the context of the grain?",
+"options": [
+"A bump.",
+"A long, narrow cut or line in a surface.",
+"A color pattern.",
+"A seed."
+],
+"answer": "A long, narrow cut or line in a surface.",
+"explanation": "The glossary defines 'groove' as a long, narrow cut in a surface."
+},
+{
+"questionEnglish": "What was the grandfather's physical state like compared to his son?",
+"options": [
+"He was weaker.",
+"He was more physically fit.",
+  
