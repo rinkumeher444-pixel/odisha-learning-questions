@@ -1,0 +1,553 @@
+
+[
+{
+"questionEnglish": "In the context of English grammar, what is the primary purpose of translation from a source language to a target language?",
+"options": [
+"To change the meaning of the original text entirely",
+"To convey the meaning and intent of the source text in the target language accurately",
+"To summarize the text without preserving any original details",
+"To translate word-for-word regardless of the grammar rules"
+],
+"answer": "To convey the meaning and intent of the source text in the target language accurately",
+"explanation": "Translation aims to preserve the original message and tone while following the grammatical structures of the target language."
+},
+{
+"questionEnglish": "When reporting direct speech in English, what must be done to the tense if the reporting verb is in the past tense?",
+"options": [
+"The tense remains unchanged regardless of the reporting verb",
+"The tense is shifted to a corresponding past form",
+"The tense must always be changed to the future perfect",
+"The tense is changed only if the speaker is a third party"
+],
+"answer": "The tense is shifted to a corresponding past form",
+"explanation": "According to the rules of reported speech, when the reporting verb is in the past, the verb inside the quotation marks usually shifts back in time."
+},
+{
+"questionEnglish": "Which of the following changes occurs in pronouns when converting direct speech to indirect speech?",
+"options": [
+"Pronouns are never changed",
+"Only the first-person pronouns remain unchanged",
+"Pronouns are changed to reflect the perspective of the reporter",
+"All pronouns are replaced by nouns"
+],
+"answer": "Pronouns are changed to reflect the perspective of the reporter",
+"explanation": "In indirect speech, pronouns must be adjusted so they correctly identify the people being talked about from the reporter's point of view."
+},
+{
+"questionEnglish": "How should a command or request be reported when changing from direct to indirect speech?",
+"options": [
+"Using 'that' followed by the original verb",
+"Using an infinitive (to + verb) or a negative infinitive (not + to + verb)",
+"Using the present participle form of the verb",
+"Changing the imperative into a question"
+],
+"answer": "Using an infinitive (to + verb) or a negative infinitive (not + to + verb)",
+"explanation": "Commands and requests in indirect speech are typically reported using the structure: Reporting verb + object + to-infinitive."
+},
+{
+"questionEnglish": "Which of these words is commonly used to introduce reported questions starting with a helping verb (yes/no questions)?",
+"options": [
+"That",
+"Whether or if",
+"Because",
+"Although"
+],
+"answer": "Whether or if",
+"explanation": "When reporting a yes/no question, 'if' or 'whether' is used to connect the reporting clause to the reported question."
+},
+{
+"questionEnglish": "When translating from Odia to English, why is the sentence structure (Subject-Verb-Object) so important?",
+"options": [
+"Because it is the only way to write in English",
+"Because English grammar relies heavily on fixed word order to establish meaning",
+"Because it makes the sentence shorter",
+"Because it ignores the tense of the sentence"
+],
+"answer": "Because English grammar relies heavily on fixed word order to establish meaning",
+"explanation": "Unlike some languages with flexible word order, English requires a strict SVO structure to avoid ambiguity."
+},
+{
+"questionEnglish": "What happens to time and place expressions like 'today', 'now', or 'here' in reported speech?",
+"options": [
+"They remain exactly the same as in direct speech",
+"They are deleted from the sentence",
+"They change to 'that day', 'then', and 'there' respectively",
+"They are always converted into future time expressions"
+],
+"answer": "They change to 'that day', 'then', and 'there' respectively",
+"explanation": "These markers of time and place must be updated to reflect the temporal and spatial distance between the original statement and the report."
+},
+{
+"questionEnglish": "Choose the correct indirect form of: He said, 'I am busy.'",
+"options": [
+"He said that he is busy.",
+"He said that he was busy.",
+"He says that he was busy.",
+"He said that I was busy."
+],
+"answer": "He said that he was busy.",
+"explanation": "Since the reporting verb 'said' is in the past, 'am' shifts to 'was', and 'I' becomes 'he'."
+},
+{
+"questionEnglish": "In translation, what is a 'literal translation' and why is it often discouraged?",
+"options": [
+"It is translating word-for-word, which often sounds unnatural and ignores idiomatic expressions",
+"It is the best way to maintain the grammar of the source language",
+"It is only used for poetry and literature",
+"It is the standard method for all formal documentation"
+],
+"answer": "It is translating word-for-word, which often sounds unnatural and ignores idiomatic expressions",
+"explanation": "Literal translations often fail to capture the spirit and natural flow of the target language because languages have different idioms and structures."
+},
+{
+"questionEnglish": "Which reporting verb would best fit a sentence that expresses a polite request in reported speech?",
+"options": [
+"Ordered",
+"Requested",
+"Demanded",
+"Shouted"
+],
+"answer": "Requested",
+"explanation": "Choosing an appropriate reporting verb like 'requested' helps convey the original tone of the speaker."
+},
+{
+"questionEnglish": "How do you handle a universal truth when converting direct speech to indirect speech?",
+"options": [
+"Change the tense to the past tense",
+"Keep the tense in the present simple as it is a permanent fact",
+"Change it to the future tense",
+"Remove the tense entirely"
+],
+"answer": "Keep the tense in the present simple as it is a permanent fact",
+"explanation": "General or universal truths are not shifted to the past in reported speech because they remain true at all times."
+},
+{
+"questionEnglish": "What is the role of a 'conjunction' in reported speech?",
+"options": [
+"To act as a verb",
+"To link the reporting clause with the reported statement",
+"To change the tense of the sentence",
+"To replace the subject"
+],
+"answer": "To link the reporting clause with the reported statement",
+"explanation": "Conjunctions like 'that' are used to connect the reporting part (e.g., He said) with the content of the statement."
+},
+{
+"questionEnglish": "When translating an Odia sentence with an honorific (respectful) subject, how should the English translation reflect this?",
+"options": [
+"By adding extra words to the subject",
+"By choosing appropriate formal vocabulary and grammatical structures",
+"By using only passive voice",
+"It cannot be translated into English"
+],
+"answer": "By choosing appropriate formal vocabulary and grammatical structures",
+"explanation": "While English doesn't always have distinct honorific verb forms, formal tone is achieved through word choice."
+},
+{
+"questionEnglish": "Change to indirect speech: 'She said to me, Where are you going?'",
+"options": [
+"She asked me where I was going.",
+"She said to me where I am going.",
+"She asked me where was I going.",
+"She said me where I was going."
+],
+"answer": "She asked me where I was going.",
+"explanation": "Questions in indirect speech take a statement word order (Subject + Verb) and use 'asked'."
+},
+{
+"questionEnglish": "Why must punctuation be adjusted when converting direct speech to indirect speech?",
+"options": [
+"Because quotation marks are no longer necessary in indirect speech",
+"Because the sentence structure changes and requires different punctuation",
+"Because indirect speech must always end with an exclamation mark",
+"Because commas are not allowed in indirect speech"
+],
+"answer": "Because quotation marks are no longer necessary in indirect speech",
+"explanation": "Indirect speech incorporates the original words into the reporter's sentence, removing the need for quotation marks and the comma after the reporting verb."
+},
+{
+"questionEnglish": "In translation, what is the best strategy for handling idioms that do not exist in the target language?",
+"options": [
+"Translate them literally word-for-word",
+"Find an equivalent idiom in the target language that conveys the same meaning",
+"Delete the idiom entirely from the translation",
+"Explain the idiom in a footnote only"
+],
+"answer": "Find an equivalent idiom in the target language that conveys the same meaning",
+"explanation": "Translation is about capturing the meaning, and the best way to handle cultural idioms is to find a functional equivalent."
+},
+{
+"questionEnglish": "Which reporting verb is most appropriate for a sentence like: 'Don't go near the fire'?",
+"options": [
+"Said",
+"Warned",
+"Asked",
+"Told"
+],
+"answer": "Warned",
+"explanation": "'Warned' specifically captures the intent of a protective or cautionary statement."
+},
+{
+"questionEnglish": "If the direct speech is 'I will do it tomorrow', what is the correct indirect form?",
+"options": [
+"He said he would do it tomorrow.",
+"He said he would do it the next day.",
+"He said he will do it the next day.",
+"He said he do it the next day."
+],
+"answer": "He said he would do it the next day.",
+"explanation": "'Will' changes to 'would', and 'tomorrow' changes to 'the next day' or 'the following day'."
+},
+{
+"questionEnglish": "What does it mean to maintain 'register' during translation?",
+"options": [
+"Keeping the sentence length the same",
+"Using the same level of formality or informality as the original text",
+"Using only technical terms",
+"Translating everything into slang"
+],
+"answer": "Using the same level of formality or informality as the original text",
+"explanation": "Register refers to the style of language used; a formal text should be translated into formal language, and a casual text into casual language."
+},
+{
+"questionEnglish": "When reporting a sentence with 'must', how does it typically change in indirect speech?",
+"options": [
+"It stays 'must'",
+"It changes to 'had to'",
+"It changes to 'would have to'",
+"It is removed"
+],
+"answer": "It changes to 'had to'",
+"explanation": "In indirect speech, 'must' expressing obligation usually becomes 'had to' to reflect the past tense context."
+},
+{
+"questionEnglish": "What is the main challenge when translating passive voice sentences from Odia to English?",
+"options": [
+"Odia doesn't have passive voice",
+"English doesn't have passive voice",
+"Identifying the subject and the receiver of the action to ensure correct structure",
+"Passive voice always sounds wrong in English"
+],
+"answer": "Identifying the subject and the receiver of the action to ensure correct structure",
+"explanation": "Correctly translating passive voice requires precise placement of the object as the new subject in English."
+},
+{
+"questionEnglish": "When converting 'He said, I am reading a book', what happens to 'am reading'?",
+"options": [
+"It stays 'am reading'",
+"It becomes 'was reading'",
+"It becomes 'is reading'",
+"It becomes 'will be reading'"
+],
+"answer": "It becomes 'was reading'",
+"explanation": "The present continuous (am reading) shifts to the past continuous (was reading) in indirect speech."
+},
+{
+"questionEnglish": "In reported speech, what happens to the imperative 'Wait here'?",
+"options": [
+"He said to wait here.",
+"He said to wait there.",
+"He told me to wait here.",
+"He said he wait there."
+],
+"answer": "He told me to wait there.",
+"explanation": "The imperative uses an infinitive, and the adverb 'here' must change to 'there'."
+},
+{
+"questionEnglish": "What is the purpose of using synonyms during the translation process?",
+"options": [
+"To make the text longer",
+"To avoid repetition and find the most accurate word that fits the context",
+"To confuse the reader",
+"To change the meaning of the original sentence"
+],
+"answer": "To avoid repetition and find the most accurate word that fits the context",
+"explanation": "Synonyms are tools that help translators achieve greater clarity and precision by choosing the exact right word for the specific context."
+},
+{
+"questionEnglish": "How would you report the question: 'Do you like tea?'",
+"options": [
+"He asked if I liked tea.",
+"He asked that did I like tea.",
+"He asked if I like tea.",
+"He said if I liked tea."
+],
+"answer": "He asked if I liked tea.",
+"explanation": "Yes/no questions use 'if' or 'whether', and the tense shifts to the past (liked)."
+},
+{
+"questionEnglish": "Why is it important to understand the context of a sentence before translating it?",
+"options": [
+"Because context determines the actual meaning of words",
+"Because translation is only based on context, not grammar",
+"Because context helps in making the sentence longer",
+"Because context is not actually important"
+],
+"answer": "Because context determines the actual meaning of words",
+"explanation": "Words can have multiple meanings; context provides the necessary clues to choose the correct one."
+},
+{
+"questionEnglish": "What is the indirect speech version of: 'The teacher said, The earth moves round the sun'?",
+"options": [
+"The teacher said that the earth moved round the sun.",
+"The teacher said that the earth moves round the sun.",
+"The teacher said the earth will move round the sun.",
+"The teacher said the earth has moved round the sun."
+],
+"answer": "The teacher said that the earth moves round the sun.",
+"explanation": "This is a universal truth, so the present simple tense is retained."
+},
+{
+"questionEnglish": "What is the function of the reporting verb in a direct speech sentence?",
+"options": [
+"It connects the speaker to their spoken words",
+"It describes the weather",
+"It acts as a punctuation mark",
+"It replaces the subject"
+],
+"answer": "It connects the speaker to their spoken words",
+"explanation": "The reporting verb (e.g., said, asked, exclaimed) identifies who is speaking and how they are speaking."
+},
+{
+"questionEnglish": "When translating from Odia, how should one handle tenses that don't have exact one-to-one equivalents?",
+"options": [
+"Translate them using any tense",
+"Choose the closest equivalent based on the temporal context of the situation",
+"Ignore the tense completely",
+"Always use the present tense"
+],
+"answer": "Choose the closest equivalent based on the temporal context of the situation",
+"explanation": "Translation often requires functional equivalence rather than grammatical identity when languages differ in their tense systems."
+},
+{
+"questionEnglish": "Change to indirect: 'She said, Oh! I have lost my purse.'",
+"options": [
+"She exclaimed with sorrow that she had lost her purse.",
+"She said that she had lost her purse.",
+"She exclaimed that she has lost her purse.",
+"She said that she has lost her purse."
+],
+"answer": "She exclaimed with sorrow that she had lost her purse.",
+"explanation": "'Oh!' indicates emotion, so 'exclaimed with sorrow' is used, and 'have' shifts to 'had'."
+},
+{
+"questionEnglish": "What are the common errors made during translation?",
+"options": [
+"Ignoring context and literal translation",
+"Using dictionaries too much",
+"Writing too clearly",
+"Thinking about the meaning"
+],
+"answer": "Ignoring context and literal translation",
+"explanation": "Many translation errors occur because the translator forces a word-for-word translation or fails to consider the surrounding context."
+},
+{
+"questionEnglish": "What is the correct structure for a reported statement?",
+"options": [
+"Subject + Reporting Verb + That + Statement",
+"Reporting Verb + That + Statement",
+"Statement + Reporting Verb",
+"That + Statement + Reporting Verb"
+],
+"answer": "Subject + Reporting Verb + That + Statement",
+"explanation": "A standard reported statement starts with the subject and reporting verb, followed by 'that' and the reported clause."
+},
+{
+"questionEnglish": "How do you translate an imperative Odia sentence into a formal English sentence?",
+"options": [
+"By using 'Please' or 'Kindly' to soften the command",
+"By shouting the command",
+"By removing the verb",
+"By translating it into a question"
+],
+"answer": "By using 'Please' or 'Kindly' to soften the command",
+"explanation": "Imperative sentences in English can sound harsh; adding 'please' or 'kindly' effectively translates the respectful tone often present in Odia."
+},
+{
+"questionEnglish": "In reported speech, what should happen to 'shall'?",
+"options": [
+"It remains 'shall'",
+"It changes to 'should' or 'would'",
+"It changes to 'could'",
+"It is removed"
+],
+"answer": "It changes to 'should' or 'would'",
+"explanation": "In indirect speech, 'shall' is typically replaced by 'should' or 'would' depending on the intended meaning of obligation or future intention."
+},
+{
+"questionEnglish": "Why is it necessary to proofread a translation?",
+"options": [
+"To check for spelling and grammatical errors and ensure natural flow",
+"To change the meaning of the text",
+"To make the text harder to read",
+"To count the number of words"
+],
+"answer": "To check for spelling and grammatical errors and ensure natural flow",
+"explanation": "Proofreading is the final stage to polish the translation, ensuring it is error-free and reads like a native text."
+},
+{
+"questionEnglish": "Which word correctly completes the reported sentence: 'He said he ____ been working for hours.'",
+"options": [
+"has",
+"had",
+"have",
+"is"
+],
+"answer": "had",
+"explanation": "The past perfect 'had' is required to maintain backshifting in indirect speech for perfect continuous tenses."
+},
+{
+"questionEnglish": "What is the best way to translate a complex sentence from Odia to English?",
+"options": [
+"Breaking it into smaller, simpler sentences",
+"Trying to keep it as one long sentence regardless of readability",
+"Translating only the first part",
+"Using only passive voice"
+],
+"answer": "Breaking it into smaller, simpler sentences",
+"explanation": "Complex sentences in the source language can sometimes be clunky in English; breaking them down often results in a clearer, more natural translation."
+},
+{
+"questionEnglish": "What is the indirect form of: 'He said, I am going to buy a car'?",
+"options": [
+"He said he was going to buy a car.",
+"He said he is going to buy a car.",
+"He said he will be going to buy a car.",
+"He said he would buy a car."
+],
+"answer": "He said he was going to buy a car.",
+"explanation": "The present continuous (is going to) becomes past continuous (was going to) in indirect speech."
+},
+{
+"questionEnglish": "How are exclamations usually reported?",
+"options": [
+"Using 'exclaimed' with a word describing the emotion",
+"Using the original exclamation mark",
+"Using the word 'shouted'",
+"By removing the exclamation"
+],
+"answer": "Using 'exclaimed' with a word describing the emotion",
+"explanation": "Exclamations in indirect speech use verbs like 'exclaimed' followed by the feeling (e.g., with joy, with surprise)."
+},
+{
+"questionEnglish": "What must be considered when translating titles or names?",
+"options": [
+"Translating them literally",
+"Keeping them as they are or transliterating them",
+"Changing them to English names",
+"Deleting them"
+],
+"answer": "Keeping them as they are or transliterating them",
+"explanation": "Proper nouns, titles, and names should generally be kept in their original form to avoid misidentification."
+},
+{
+"questionEnglish": "Which reporting verb is used for suggestions?",
+"options": [
+"Suggested",
+"Commanded",
+"Asked",
+"Shouted"
+],
+"answer": "Suggested",
+"explanation": "'Suggested' is the specific reporting verb used to report advice or recommendations."
+},
+{
+"questionEnglish": "Why is 'I said to him' usually changed to 'I told him' in indirect speech?",
+"options": [
+"Because 'told' is more natural with an indirect object",
+"Because 'said' is forbidden in indirect speech",
+"Because 'told' is always formal",
+"Because 'said' can only be used with 'I'"
+],
+"answer": "Because 'told' is more natural with an indirect object",
+"explanation": "While 'said to him' is grammatically correct, 'told him' is the preferred and more standard way to report speech with an indirect object."
+},
+{
+"questionEnglish": "In translation, what is the 'target language'?",
+"options": [
+"The language from which the text is translated",
+"The language into which the text is being translated",
+"A language that is not used",
+"The native language of the author"
+],
+"answer": "The language into which the text is being translated",
+"explanation": "The target language is the language you are translating into, while the source language is the one you are translating from."
+},
+{
+"questionEnglish": "What happens to the pronoun 'we' if it refers to all mankind in indirect speech?",
+"options": [
+"It changes to 'they'",
+"It remains 'we'",
+"It changes to 'he/she'",
+"It is deleted"
+],
+"answer": "It remains 'we'",
+"explanation": "When 'we' refers to humanity or a universal group, it is often kept as 'we' even in reported speech."
+},
+{
+"questionEnglish": "What is the reported form of: 'He said, I can swim'?",
+"options": [
+"He said he could swim.",
+"He said he can swim.",
+"He said he could swam.",
+"He said I could swim."
+],
+"answer": "He said he could swim.",
+"explanation": "'Can' becomes 'could' when the reporting verb is in the past."
+},
+{
+"questionEnglish": "How should a direct quote that is already in the past tense be reported?",
+"options": [
+"It stays in the past tense",
+"It changes to the past perfect",
+"It changes to the present perfect",
+"It changes to the future"
+],
+"answer": "It changes to the past perfect",
+"explanation": "When reporting a past tense statement (e.g., 'I bought a pen'), it is typically shifted further back to the past perfect ('He said he had bought a pen')."
+},
+{
+"questionEnglish": "When is it appropriate to keep the reporting verb in the present tense?",
+"options": [
+"When the statement is a fact",
+"When the reporting verb is 'says' or 'will say'",
+"Never",
+"When the speaker is unknown"
+],
+"answer": "When the reporting verb is 'says' or 'will say'",
+"explanation": "If the reporting verb is in the present or future, there is no backshifting required in the reported speech."
+},
+{
+"questionEnglish": "Why should a translator avoid slang unless it is in the original text?",
+"options": [
+"Because slang is not a real language",
+"Because it may not accurately reflect the original author's intended tone",
+"Because slang is too hard to write",
+"Because translation should be shorter"
+],
+"answer": "Because it may not accurately reflect the original author's intended tone",
+"explanation": "Maintaining the original tone is crucial; adding slang where none existed changes the character of the text."
+},
+{
+"questionEnglish": "What is the indirect version of: 'He said, My mother is cooking'?",
+"options": [
+"He said that his mother was cooking.",
+"He said that my mother is cooking.",
+"He said his mother is cooking.",
+"He said that his mother has cooked."
+],
+"answer": "He said that his mother was cooking.",
+"explanation": "'My' changes to 'his', and 'is cooking' changes to 'was cooking'."
+},
+{
+"questionEnglish": "Which of the following is essential for a high-quality translation?",
+"options": [
+"Using only literal translations",
+"Understanding both the source and target languages deeply",
+"Always using the longest words possible",
+"Ignoring the original author's intent"
+],
+"answer": "Understanding both the source and target languages deeply",
+"explanation": "A deep understanding of grammar, vocabulary, and cultural nuance in both languages is fundamental for accurate translation."
+}
+]
