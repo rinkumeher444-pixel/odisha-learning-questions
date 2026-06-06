@@ -1,1 +1,553 @@
 
+[
+{
+"questionEnglish": "According to the textbook, what is the fundamental difference between time and tense?",
+"options": [
+"Time is a grammatical concept while tense is a physical flow",
+"Time is a continuous physical flow while tense is a specific grammatical concept",
+"Both are synonyms for the same concept",
+"Tense refers to future, while time refers only to past"
+],
+"answer": "Time is a continuous physical flow while tense is a specific grammatical concept",
+"explanation": "Time is measured in units like seconds and hours, whereas tense is a grammatical concept specific to language."
+},
+{
+"questionEnglish": "How many defined tenses does the English language have, according to the text?",
+"options": [
+"Three",
+"Four",
+"Two",
+"Five"
+],
+"answer": "Two",
+"explanation": "The English language has only two defined tenses of verbs: present and past."
+},
+{
+"questionEnglish": "Which tense is used to express general or scientific truths like 'The sun rises in the east'?",
+"options": [
+"Present progressive",
+"Past simple",
+"Present perfect",
+"Present simple"
+],
+"answer": "Present simple",
+"explanation": "Present simple is used for habitual actions, general truths, and scientific facts."
+},
+{
+"questionEnglish": "Which tense form is appropriate for describing an action happening exactly now?",
+"options": [
+"Present simple",
+"Present progressive",
+"Past progressive",
+"Present perfect"
+],
+"answer": "Present progressive",
+"explanation": "Present progressive is used for something happening now, over a period of time, or for a temporary action."
+},
+{
+"questionEnglish": "Which tense expresses a past action that has present relevance?",
+"options": [
+"Past simple",
+"Present perfect",
+"Past perfect",
+"Past progressive"
+],
+"answer": "Present perfect",
+"explanation": "Present perfect is used for a past action that has relevance to the present moment."
+},
+{
+"questionEnglish": "What does a 'Simple Sentence' consist of in terms of clauses?",
+"options": [
+"Two independent clauses",
+"One independent finite clause",
+"One subordinate clause only",
+"A main clause and a relative clause"
+],
+"answer": "One independent finite clause",
+"explanation": "A sentence is called a simple sentence if it has only one independent finite clause."
+},
+{
+"questionEnglish": "Which type of sentence expresses feelings of admiration or surprise?",
+"options": [
+"Declarative",
+"Imperative",
+"Exclamatory",
+"Interrogative"
+],
+"answer": "Exclamatory",
+"explanation": "Exclamatory sentences express admiration or surprise and usually end with an exclamation mark."
+},
+{
+"questionEnglish": "Identify the type of sentence: 'Don't touch a live wire.'",
+"options": [
+"Declarative",
+"Imperative",
+"Interrogative",
+"Exclamatory"
+],
+"answer": "Imperative",
+"explanation": "This sentence gives a warning or instruction, which is a function of an imperative sentence."
+},
+{
+"questionEnglish": "What is the primary characteristic of a compound sentence?",
+"options": [
+"It has one subordinate clause",
+"It has two or more independent clauses joined by coordinating conjunctions",
+"It contains only one finite verb",
+"It must be an interrogative sentence"
+],
+"answer": "It has two or more independent clauses joined by coordinating conjunctions",
+"explanation": "Compound sentences are formed by joining two or more independent clauses with coordinating conjunctions."
+},
+{
+"questionEnglish": "Which of the following is a coordinating conjunction used in compound sentences?",
+"options": [
+"Because",
+"Although",
+"Or",
+"If"
+],
+"answer": "Or",
+"explanation": "'Or' is a coordinating conjunction used to join two independent clauses in a compound sentence."
+},
+{
+"questionEnglish": "What is the definition of a finite verb?",
+"options": [
+"A verb that never changes tense",
+"A verb that can be changed into past tense forms",
+"A verb that only appears at the end of a sentence",
+"A verb that has no subject"
+],
+"answer": "A verb that can be changed into past tense forms",
+"explanation": "Finite verbs are those that agree with the subject and can change based on tense."
+},
+{
+"questionEnglish": "Which clause separates the subject from the verb in subject-verb agreement?",
+"options": [
+"Relative clause",
+"Independent clause",
+"Main clause",
+"Coordinate clause"
+],
+"answer": "Relative clause",
+"explanation": "When a relative clause separates the subject from the verb, the verb must still agree with the original subject."
+},
+{
+"questionEnglish": "Which of these nouns usually takes a singular verb despite its appearance?",
+"options": [
+"Cattle",
+"Police",
+"Physics",
+"People"
+],
+"answer": "Physics",
+"explanation": "Mathematics, Physics, Economics, etc., are uncountable nouns that take singular verbs."
+},
+{
+"questionEnglish": "What happens to the verb when two titles refer to the same person?",
+"options": [
+"It remains plural",
+"It becomes singular",
+"It depends on the article",
+"It is omitted"
+],
+"answer": "It becomes singular",
+"explanation": "When 'and' connects two titles of the same person, the verb is singular."
+},
+{
+"questionEnglish": "Which of these is a Non-finite verb form?",
+"options": [
+"Present tense",
+"Past tense",
+"en form (third form)",
+"Future tense"
+],
+"answer": "en form (third form)",
+"explanation": "Non-finite verbs include the 'en' form, '-ing' form, 'to+verb', and bare 'verb'."
+},
+{
+"questionEnglish": "Why are sentences like '*Seema write letters' considered ungrammatical?",
+"options": [
+"They have too many words",
+"They have no finite verb",
+"They have no object",
+"They are too short"
+],
+"answer": "They have no finite verb",
+"explanation": "Every sentence must have a finite verb to be grammatically correct."
+},
+{
+"questionEnglish": "In the sentence 'I want to win this match', what is the non-finite verb?",
+"options": [
+"I",
+"Want",
+"to win",
+"match"
+],
+"answer": "to win",
+"explanation": "'to win' is the non-finite verb as it does not carry tense."
+},
+{
+"questionEnglish": "What is the function of a preposition?",
+"options": [
+"To modify a verb",
+"To join a noun/pronoun to another expression in the sentence",
+"To express sudden emotion",
+"To connect two independent clauses"
+],
+"answer": "To join a noun/pronoun to another expression in the sentence",
+"explanation": "Prepositions show the relationship between a noun/pronoun and another word in the sentence."
+},
+{
+"questionEnglish": "Which preposition is typically used for exact points in time?",
+"options": [
+"In",
+"On",
+"At",
+"During"
+],
+"answer": "At",
+"explanation": "'At' is used for exact points of time like 3 o'clock, midday, or dawn."
+},
+{
+"questionEnglish": "What does a phrasal verb consist of?",
+"options": [
+"A verb and an adverb/preposition particle",
+"Two nouns",
+"A verb and an adjective",
+"Two prepositions"
+],
+"answer": "A verb and an adverb/preposition particle",
+"explanation": "Phrasal verbs are formed by adding an adverb or preposition particle to a main verb to create a new meaning."
+},
+{
+"questionEnglish": "When is a phrasal verb considered transitive?",
+"options": [
+"When it has no object",
+"When it has an object",
+"When it appears at the start of a sentence",
+"When it contains three words"
+],
+"answer": "When it has an object",
+"explanation": "Phrasal verbs that take objects are called transitive phrasal verbs."
+},
+{
+"questionEnglish": "What does 'break down' mean in the context of a machine?",
+"options": [
+"To repair",
+"To start working",
+"To stop functioning",
+"To sell"
+],
+"answer": "To stop functioning",
+"explanation": "In this context, 'break down' means the machine has failed or stopped working."
+},
+{
+"questionEnglish": "What type of clause is 'that it was a Friday' in 'Ajay remembers that it was a Friday'?",
+"options": [
+"Relative clause",
+"Noun clause",
+"Adverb clause",
+"Main clause"
+],
+"answer": "Noun clause",
+"explanation": "This clause functions as the object of the verb 'remembers', making it a noun clause."
+},
+{
+"questionEnglish": "Which of these functions can a noun clause perform?",
+"options": [
+"Adverb of time",
+"Subject of the sentence",
+"Modifying an adjective",
+"Describing a location"
+],
+"answer": "Subject of the sentence",
+"explanation": "Noun clauses can act as the subject, object, or complement in a sentence."
+},
+{
+"questionEnglish": "Which tense is used for habitual actions?",
+"options": [
+"Present simple",
+"Past perfect",
+"Present perfect progressive",
+"Future perfect"
+],
+"answer": "Present simple",
+"explanation": "Habitual actions are expressed using the present simple tense."
+},
+{
+"questionEnglish": "What is the purpose of a 'Wh-question'?",
+"options": [
+"To get a Yes/No answer",
+"To seek specific information starting with Wh-words",
+"To give a command",
+"To show surprise"
+],
+"answer": "To seek specific information starting with Wh-words",
+"explanation": "Wh-questions start with words like what, who, where, etc., to elicit information."
+},
+{
+"questionEnglish": "What does 'at' signify in 'He lives at 95, Bapuji Nagar'?",
+"options": [
+"A large city",
+"A state",
+"An exact point or specific address",
+"A country"
+],
+"answer": "An exact point or specific address",
+"explanation": "'At' is used for exact locations or specific addresses."
+},
+{
+"questionEnglish": "Which phrase is correct: 'on time' or 'in time' for a scheduled event?",
+"options": [
+"In time",
+"On time",
+"At time",
+"By time"
+],
+"answer": "On time",
+"explanation": "'On time' refers to something taking place exactly as per the schedule."
+},
+{
+"questionEnglish": "What kind of verb is 'He' in the sentence structure?",
+"options": [
+"Subject",
+"Object",
+"Verb",
+"Complement"
+],
+"answer": "Subject",
+"explanation": "'He' acts as the subject perform the action in the sentence."
+},
+{
+"questionEnglish": "In the sentence 'They found him dead', what is 'dead'?",
+"options": [
+"Object",
+"Complement",
+"Verb",
+"Subject"
+],
+"answer": "Complement",
+"explanation": "'dead' complements the object 'him' in the SVOC pattern."
+},
+{
+"questionEnglish": "Which sentence structure is represented by SVOO?",
+"options": [
+"Subject-Verb-Object-Object",
+"Subject-Verb-Object-Complement",
+"Subject-Verb-Complement",
+"Subject-Verb-Object"
+],
+"answer": "Subject-Verb-Object-Object",
+"explanation": "SVOO stands for Subject-Verb-Indirect Object-Direct Object."
+},
+{
+"questionEnglish": "What does 'beneath' mean?",
+"options": [
+"Higher than",
+"Directly under",
+"Beside",
+"In front of"
+],
+"answer": "Directly under",
+"explanation": "'Beneath' indicates a position directly under or in a lower position."
+},
+{
+"questionEnglish": "Which preposition means 'from one side to the other'?",
+"options": [
+"Along",
+"Across",
+"Behind",
+"Between"
+],
+"answer": "Across",
+"explanation": "'Across' refers to moving from one side of something to the other."
+},
+{
+"questionEnglish": "What is the function of the phrase 'to make some extra money' in sentence 24?",
+"options": [
+"Subject",
+"Adjunct (Purpose)",
+"Object",
+"Complement"
+],
+"answer": "Adjunct (Purpose)",
+"explanation": "It indicates the reason or purpose for the action, making it an adjunct."
+},
+{
+"questionEnglish": "What does 'get over' mean?",
+"options": [
+"To climb",
+"To overcome",
+"To distribute",
+"To finish"
+],
+"answer": "To overcome",
+"explanation": "'Get over' is a phrasal verb meaning to recover from or overcome difficulties."
+},
+{
+"questionEnglish": "Which preposition is used for means of communication?",
+"options": [
+"By",
+"On",
+"At",
+"In"
+],
+"answer": "By",
+"explanation": "We use 'by' for means of communication, e.g., 'by telephone' or 'by post'."
+},
+{
+"questionEnglish": "What does 'on purpose' mean?",
+"options": [
+"By accident",
+"Intentionally",
+"Quickly",
+"Carelessly"
+],
+"answer": "Intentionally",
+"explanation": "'On purpose' means doing something with intent."
+},
+{
+"questionEnglish": "Which of these is a correlative conjunction?",
+"options": [
+"And",
+"Either...or",
+"But",
+"So"
+],
+"answer": "Either...or",
+"explanation": "Correlative conjunctions, like 'either...or', come in pairs and relate items."
+},
+{
+"questionEnglish": "What is the main clause in 'I cannot express how sorry I am'?",
+"options": [
+"how sorry I am",
+"I cannot express",
+"I am",
+"express"
+],
+"answer": "I cannot express",
+"explanation": "'I cannot express' is the independent part of the sentence, thus the main clause."
+},
+{
+"questionEnglish": "What is a 'Non-finite verb'?",
+"options": [
+"A verb that always carries a tense",
+"A verb that has no agreement with the subject and no tense",
+"A verb used only in questions",
+"A verb that must be followed by a noun"
+],
+"answer": "A verb that has no agreement with the subject and no tense",
+"explanation": "Non-finite verbs do not carry tense or show agreement with the subject."
+},
+{
+"questionEnglish": "Which sentence contains a relative clause?",
+"options": [
+"He is a good boy.",
+"The man who is standing there is my father.",
+"I like mangoes.",
+"Run fast."
+],
+"answer": "The man who is standing there is my father.",
+"explanation": "'who is standing there' modifies the noun 'man', making it a relative clause."
+},
+{
+"questionEnglish": "What is the tense of 'has been praying'?",
+"options": [
+"Present perfect",
+"Present perfect progressive",
+"Past perfect",
+"Past simple"
+],
+"answer": "Present perfect progressive",
+"explanation": "The structure 'has been + -ing' indicates the present perfect progressive tense."
+},
+{
+"questionEnglish": "What is an 'imperative sentence'?",
+"options": [
+"A statement of fact",
+"A sentence giving a command, request, or advice",
+"A question",
+"An expression of extreme emotion"
+],
+"answer": "A sentence giving a command, request, or advice",
+"explanation": "Imperative sentences express commands, requests, advice, etc."
+},
+{
+"questionEnglish": "Which preposition is correct for 'He is sitting ___ the bench'?",
+"options": [
+"In",
+"On",
+"At",
+"To"
+],
+"answer": "On",
+"explanation": "'On' is used for sitting on surfaces like benches or floors."
+},
+{
+"questionEnglish": "What is the function of the noun clause in 'What he says is correct'?",
+"options": [
+"Object",
+"Subject",
+"Complement",
+"Adverbial"
+],
+"answer": "Subject",
+"explanation": "The clause 'What he says' acts as the subject of the sentence."
+},
+{
+"questionEnglish": "Which tense is used to talk about a planned future programme?",
+"options": [
+"Present simple",
+"Present progressive",
+"Past simple",
+"Present perfect"
+],
+"answer": "Present progressive",
+"explanation": "Present progressive is used for planned future arrangements."
+},
+{
+"questionEnglish": "What does 'look after' mean?",
+"options": [
+"To search",
+"To take care of",
+"To investigate",
+"To examine"
+],
+"answer": "To take care of",
+"explanation": "'Look after' is a phrasal verb meaning to care for someone or something."
+},
+{
+"questionEnglish": "Which type of verb is 'The plane took off late'?",
+"options": [
+"Transitive phrasal verb",
+"Intransitive phrasal verb",
+"Passive verb",
+"Infinitive verb"
+],
+"answer": "Intransitive phrasal verb",
+"explanation": "It has no object, hence it is an intransitive phrasal verb."
+},
+{
+"questionEnglish": "Which conjunction is used to contrast ideas?",
+"options": [
+"And",
+"But",
+"So",
+"For"
+],
+"answer": "But",
+"explanation": "'But' is used to join clauses that show contrast."
+},
+{
+"questionEnglish": "What is the past form of 'is/am'?",
+"options": [
+"Are",
+"Was",
+"Were",
+"Been"
+],
+"answer": "Was",
+"explanation": "'Was' is the past tense form of the singular verbs 'is' and 'am'."
+}
+]
