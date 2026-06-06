@@ -1,1 +1,553 @@
+[
+{
+"questionEnglish": "What is the fundamental characteristic that distinguishes a finite verb from a non-finite verb?",
+"options": [
+"A finite verb always indicates tense and agrees with the subject.",
+"A non-finite verb always indicates tense and agrees with the subject.",
+"A finite verb can never stand alone in a clause.",
+"A non-finite verb is the only type used in English sentences."
+],
+"answer": "A finite verb always indicates tense and agrees with the subject.",
+"explanation": "Finite verbs are limited by person, number, and tense, whereas non-finite verbs do not change based on these grammatical categories."
+},
+{
+"questionEnglish": "Which of the following is NOT one of the primary forms of non-finite verbs in English grammar?",
+"options": [
+"The infinitive (to + verb)",
+"The present participle (-ing form)",
+"The past participle (-en form)",
+"The future simple form"
+],
+"answer": "The future simple form",
+"explanation": "Non-finite verb forms include infinitives, gerunds/participles (-ing), and past participles (-en/-ed), but not future tense conjugations."
+},
+{
+"questionEnglish": "In the sentence 'She wants to learn music', identify the non-finite verb form.",
+"options": [
+"wants",
+"learn",
+"to learn",
+"music"
+],
+"answer": "to learn",
+"explanation": "'to learn' is an infinitive, which is a classic example of a non-finite verb."
+},
+{
+"questionEnglish": "How does the '-ing' form function when it acts as a Gerund?",
+"options": [
+"As a verb describing an action in progress",
+"As a noun form of the verb",
+"As an adjective modifying a noun",
+"As a past tense indicator"
+],
+"answer": "As a noun form of the verb",
+"explanation": "A gerund is a non-finite verb ending in -ing that functions as a noun within a sentence."
+},
+{
+"questionEnglish": "Identify the function of the non-finite verb in the sentence 'Swimming is a good exercise'.",
+"options": [
+"It acts as a verb.",
+"It acts as a noun (Gerund).",
+"It acts as an adverb.",
+"It acts as an adjective."
+],
+"answer": "It acts as a noun (Gerund).",
+"explanation": "In this sentence, 'Swimming' is the subject, making it a gerund functioning as a noun."
+},
+{
+"questionEnglish": "In the phrase 'the broken window', what is the grammatical role of 'broken'?",
+"options": [
+"It is a finite verb.",
+"It is a past participle used as an adjective.",
+"It is an infinitive.",
+"It is a gerund."
+],
+"answer": "It is a past participle used as an adjective.",
+"explanation": "Participles often function as adjectives to modify nouns, here describing the state of the window."
+},
+{
+"questionEnglish": "Which sentence below uses a 'bare infinitive'?",
+"options": [
+"I want to go.",
+"She made him cry.",
+"They decided to eat.",
+"He likes to read."
+],
+"answer": "She made him cry.",
+"explanation": "A bare infinitive is an infinitive used without the 'to' marker, often following certain verbs like 'make' or 'let'."
+},
+{
+"questionEnglish": "What is the primary role of the '-en' form (past participle) when it is used as a non-finite verb?",
+"options": [
+"To express an action in the present.",
+"To express a completed action or state, often as an adjective.",
+"To function as the subject of a sentence.",
+"To show a future obligation."
+],
+"answer": "To express a completed action or state, often as an adjective.",
+"explanation": "The past participle often conveys the result of an action and frequently modifies nouns."
+},
+{
+"questionEnglish": "Why is the word 'reading' in 'He is reading a book' a finite verb form, but 'reading' in 'Reading is his hobby' a non-finite form?",
+"options": [
+"Because the first one has an auxiliary verb and tense.",
+"Because the second one is shorter.",
+"Because the first one is an adjective.",
+"Because the second one has a subject."
+],
+"answer": "Because the first one has an auxiliary verb and tense.",
+"explanation": "When 'reading' is part of a verb phrase like 'is reading', it is finite. When it stands alone as a noun, it is a non-finite gerund."
+},
+{
+"questionEnglish": "Identify the infinitive in the sentence: 'It is important to study every day.'",
+"options": [
+"important",
+"to study",
+"every day",
+"It"
+],
+"answer": "to study",
+"explanation": "'to study' is an infinitive verb form."
+},
+{
+"questionEnglish": "What does a participle function as when it modifies a noun?",
+"options": [
+"An adverb",
+"An adjective",
+"A conjunction",
+"A subject"
+],
+"answer": "An adjective",
+"explanation": "Participles (both present and past) commonly function as adjectives when modifying a noun."
+},
+{
+"questionEnglish": "Which of these is a correct example of a participle used as an adjective?",
+"options": [
+"The sleeping baby is quiet.",
+"He is sleeping now.",
+"She wants to sleep.",
+"Sleep is necessary."
+],
+"answer": "The sleeping baby is quiet.",
+"explanation": "'Sleeping' is a present participle modifying the noun 'baby'."
+},
+{
+"questionEnglish": "Which of the following verbs typically takes a bare infinitive?",
+"options": [
+"Want",
+"Decide",
+"Let",
+"Hope"
+],
+"answer": "Let",
+"explanation": "Verbs like 'let', 'make', 'see', and 'hear' are followed by a bare infinitive (infinitive without 'to')."
+},
+{
+"questionEnglish": "In the sentence 'I saw him cross the road', what is 'cross'?",
+"options": [
+"A gerund",
+"A bare infinitive",
+"A finite verb",
+"A past participle"
+],
+"answer": "A bare infinitive",
+"explanation": "Verbs of perception like 'see' are followed by an object and a bare infinitive."
+},
+{
+"questionEnglish": "What is the grammatical term for the '-ing' form that acts as an adjective?",
+"options": [
+"Gerund",
+"Present Participle",
+"Infinitive",
+"Finite Verb"
+],
+"answer": "Present Participle",
+"explanation": "The present participle (-ing) is used to describe an action or state as an adjective."
+},
+{
+"questionEnglish": "In 'The door was locked', what form is 'locked'?",
+"options": [
+"Present participle",
+"Past participle",
+"Gerund",
+"Infinitive"
+],
+"answer": "Past participle",
+"explanation": "'Locked' here is the past participle form (-ed/en) indicating a state."
+},
+{
+"questionEnglish": "Which of the following is NOT true about non-finite verbs?",
+"options": [
+"They do not show tense.",
+"They do not show person.",
+"They do not show number.",
+"They must have an auxiliary verb."
+],
+"answer": "They must have an auxiliary verb.",
+"explanation": "Non-finite verbs can exist without auxiliary verbs; finite verbs are the ones that require tense marking, often via auxiliaries."
+},
+{
+"questionEnglish": "What is a major difference between a Gerund and a Present Participle?",
+"options": [
+"Gerunds are always verbs; Participles are always nouns.",
+"Gerunds act as nouns; Present Participles act as adjectives or parts of continuous verbs.",
+"Gerunds are shorter.",
+"Participles are always used at the start of a sentence."
+],
+"answer": "Gerunds act as nouns; Present Participles act as adjectives or parts of continuous verbs.",
+"explanation": "Gerunds occupy noun positions (subject/object), while present participles function as modifiers or verb tense markers."
+},
+{
+"questionEnglish": "In 'Walking is good for health', what is 'Walking'?",
+"options": [
+"Present participle",
+"Gerund",
+"Past participle",
+"Bare infinitive"
+],
+"answer": "Gerund",
+"explanation": "'Walking' is the subject of the sentence, acting as a noun."
+},
+{
+"questionEnglish": "What is the non-finite form in: 'He left the room to get a drink'?",
+"options": [
+"left",
+"room",
+"to get",
+"drink"
+],
+"answer": "to get",
+"explanation": "'to get' is an infinitive expressing purpose."
+},
+{
+"questionEnglish": "Which sentence uses a past participle as an adjective?",
+"options": [
+"She has written a letter.",
+"The written notes were helpful.",
+"He is writing.",
+"She wants to write."
+],
+"answer": "The written notes were helpful.",
+"explanation": "'written' is a past participle modifying the noun 'notes'."
+},
+{
+"questionEnglish": "Can a non-finite verb be the main verb of a sentence?",
+"options": [
+"Yes, always.",
+"No, a sentence must have a finite verb.",
+"Only in interrogative sentences.",
+"Only in imperative sentences."
+],
+"answer": "No, a sentence must have a finite verb.",
+"explanation": "A complete sentence requires a finite verb to anchor it in time and agreement."
+},
+{
+"questionEnglish": "What does the 'en form' refer to in non-finite verbs?",
+"options": [
+"The present participle",
+"The past participle",
+"The gerund",
+"The base form"
+],
+"answer": "The past participle",
+"explanation": "The term 'en form' is often used in grammar for the past participle, like 'broken', 'written', or 'seen'."
+},
+{
+"questionEnglish": "What is the function of the infinitive in 'To err is human'?",
+"options": [
+"Object",
+"Subject",
+"Adverb",
+"Adjective"
+],
+"answer": "Subject",
+"explanation": "Here, the infinitive 'To err' acts as the subject of the sentence."
+},
+{
+"questionEnglish": "Identify the non-finite verb in 'He enjoyed swimming'.",
+"options": [
+"He",
+"enjoyed",
+"swimming",
+"None"
+],
+"answer": "swimming",
+"explanation": "'swimming' is a gerund functioning as the direct object of 'enjoyed'."
+},
+{
+"questionEnglish": "Which sentence contains a non-finite verb functioning as an adverb of purpose?",
+"options": [
+"I went to the store to buy milk.",
+"I like to buy milk.",
+"Buying milk is a chore.",
+"The bought milk was fresh."
+],
+"answer": "I went to the store to buy milk.",
+"explanation": "'to buy' explains why the action happened, functioning as an adverb of purpose."
+},
+{
+"questionEnglish": "Which form of the verb is used after 'make' in 'make someone ___'?",
+"options": [
+"Infinitive with 'to'",
+"Bare infinitive",
+"Gerund",
+"Past participle"
+],
+"answer": "Bare infinitive",
+"explanation": "After the verb 'make', we use a bare infinitive (e.g., 'He made me laugh')."
+},
+{
+"questionEnglish": "Is 'running' in 'The running water is clean' a gerund or a participle?",
+"options": [
+"Gerund",
+"Present participle",
+"Past participle",
+"Infinitive"
+],
+"answer": "Present participle",
+"explanation": "It functions as an adjective modifying 'water', making it a present participle."
+},
+{
+"questionEnglish": "What is the main difference between finite and non-finite verbs regarding subjects?",
+"options": [
+"Non-finite verbs need a subject.",
+"Finite verbs must agree with a subject.",
+"Non-finite verbs are always singular.",
+"Finite verbs have no subject."
+],
+"answer": "Finite verbs must agree with a subject.",
+"explanation": "Subject-verb agreement is a property of finite verbs."
+},
+{
+"questionEnglish": "Identify the infinitive in: 'I want him to leave.'",
+"options": [
+"want",
+"him",
+"to leave",
+"leave"
+],
+"answer": "to leave",
+"explanation": "'to leave' is the infinitive verb form."
+},
+{
+"questionEnglish": "Which non-finite form can be used after prepositions?",
+"options": [
+"Infinitive",
+"Gerund",
+"Bare infinitive",
+"Past participle"
+],
+"answer": "Gerund",
+"explanation": "Gerunds (-ing forms) are the verb forms used after prepositions (e.g., 'interested in learning')."
+},
+{
+"questionEnglish": "What is the past participle of 'write'?",
+"options": [
+"Writing",
+"Wrote",
+"Written",
+"Writ"
+],
+"answer": "Written",
+"explanation": "'Written' is the past participle (en form) of 'write'."
+},
+{
+"questionEnglish": "In 'The song was sung beautifully', what is 'sung'?",
+"options": [
+"Present participle",
+"Past participle",
+"Infinitive",
+"Gerund"
+],
+"answer": "Past participle",
+"explanation": "'sung' is the past participle form here."
+},
+{
+"questionEnglish": "Which verb type does NOT carry person/number?",
+"options": [
+"Finite",
+"Non-finite",
+"Auxiliary",
+"Main"
+],
+"answer": "Non-finite",
+"explanation": "Non-finite verbs remain the same regardless of the person or number of the subject."
+},
+{
+"questionEnglish": "In 'He likes dancing', is 'dancing' a noun or a verb?",
+"options": [
+"It is a verb only.",
+"It is a noun form (gerund).",
+"It is an adjective.",
+"It is an adverb."
+],
+"answer": "It is a noun form (gerund).",
+"explanation": "It functions as the direct object of 'likes', acting as a noun."
+},
+{
+"questionEnglish": "Which of these is the infinitive form of 'went'?",
+"options": [
+"to go",
+"going",
+"gone",
+"went"
+],
+"answer": "to go",
+"explanation": "'to go' is the base infinitive form."
+},
+{
+"questionEnglish": "What is the function of the participle in 'Tired, he went to sleep'?",
+"options": [
+"It modifies the subject 'he'.",
+"It acts as a verb.",
+"It is the object.",
+"It is a preposition."
+],
+"answer": "It modifies the subject 'he'.",
+"explanation": "Participles can function as descriptive modifiers for the subject of the clause."
+},
+{
+"questionEnglish": "Why is 'She made him to cry' incorrect?",
+"options": [
+"Because 'made' should be followed by a bare infinitive.",
+"Because 'cry' should be a gerund.",
+"Because 'She' is not a subject.",
+"Because 'him' is incorrect."
+],
+"answer": "Because 'made' should be followed by a bare infinitive.",
+"explanation": "After 'make', we use a bare infinitive, so 'to' must be removed."
+},
+{
+"questionEnglish": "Can a participle follow a finite verb?",
+"options": [
+"Never.",
+"Yes, as part of a verb phrase or complement.",
+"Only if it is a gerund.",
+"Only at the end of a sentence."
+],
+"answer": "Yes, as part of a verb phrase or complement.",
+"explanation": "For example, in 'I am sleeping', the participle 'sleeping' follows the finite verb 'am'."
+},
+{
+"questionEnglish": "What does 'non-finite' mean literally?",
+"options": [
+"Not finished",
+"Not limited by tense/number",
+"Not useful",
+"Not a verb"
+],
+"answer": "Not limited by tense/number",
+"explanation": "The term 'non-finite' means it is not restricted or 'limited' by grammatical constraints."
+},
+{
+"questionEnglish": "Identify the Gerund in: 'My favorite activity is painting.'",
+"options": [
+"favorite",
+"activity",
+"is",
+"painting"
+],
+"answer": "painting",
+"explanation": "'painting' functions as the complement of the sentence."
+},
+{
+"questionEnglish": "Which participle is typically used to indicate a completed action?",
+"options": [
+"Present participle",
+"Past participle",
+"Bare infinitive",
+"Gerund"
+],
+"answer": "Past participle",
+"explanation": "The past participle is used to convey finished actions or states."
+},
+{
+"questionEnglish": "Is 'to' always used in an infinitive?",
+"options": [
+"Yes.",
+"No, bare infinitives exist.",
+"Only in past tense.",
+"Only in questions."
+],
+"answer": "No, bare infinitives exist.",
+"explanation": "Bare infinitives are used after certain verbs, proving 'to' is not always required."
+},
+{
+"questionEnglish": "What form is 'drinking' in 'He saw him drinking'?",
+"options": [
+"Gerund",
+"Present participle",
+"Infinitive",
+"Past participle"
+],
+"answer": "Present participle",
+"explanation": "It describes the action performed by 'him', acting as a participle."
+},
+{
+"questionEnglish": "What is the non-finite form of 'see' (past tense 'saw')?",
+"options": [
+"to see",
+"seeing",
+"seen",
+"All of the above"
+],
+"answer": "All of the above",
+"explanation": "Depending on the context, 'to see' (infinitive), 'seeing' (gerund/participle), or 'seen' (participle) are all non-finite forms."
+},
+{
+"questionEnglish": "In 'The car, driven fast, crashed', what is 'driven'?",
+"options": [
+"Gerund",
+"Past participle",
+"Present participle",
+"Infinitive"
+],
+"answer": "Past participle",
+"explanation": "'driven' describes the car, acting as a past participle."
+},
+{
+"questionEnglish": "Which sentence contains a Gerund?",
+"options": [
+"She is crying.",
+"She loves crying.",
+"She has cried.",
+"She wants to cry."
+],
+"answer": "She loves crying.",
+"explanation": "'crying' functions as the object (noun) of the verb 'loves'."
+},
+{
+"questionEnglish": "Can non-finite verbs be used as subjects?",
+"options": [
+"Only if they are infinitives.",
+"Only if they are gerunds.",
+"Both infinitives and gerunds can function as subjects.",
+"Never."
+],
+"answer": "Both infinitives and gerunds can function as subjects.",
+"explanation": "Both 'To swim is fun' and 'Swimming is fun' use non-finite verbs as subjects."
+},
+{
+"questionEnglish": "Why are non-finite verbs important in sentence construction?",
+"options": [
+"They allow for complex sentence structures and conciseness.",
+"They replace finite verbs entirely.",
+"They create confusion.",
+"They are only for poetry."
+],
+"answer": "They allow for complex sentence structures and conciseness.",
+"explanation": "They help combine clauses and add detail without needing multiple finite verb clauses."
+},
+{
+"questionEnglish": "Which is correct: 'He admitted to steal' or 'He admitted to stealing'?",
+"options": [
+"He admitted to steal",
+"He admitted to stealing",
+"He admitted steal",
+"He admitted steal to"
+],
+"answer": "He admitted to stealing",
+"explanation": "Prepositions (like 'to' in this context) are followed by gerunds (-ing)."
+}
+]
 
