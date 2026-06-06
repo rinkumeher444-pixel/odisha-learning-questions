@@ -1,0 +1,553 @@
+
+[
+{
+"questionEnglish": "What is the primary difference between time and tense as described in the chapter?",
+"options": [
+"Time is a grammatical concept, while tense is a measure of years.",
+"Time is a continuous flow, while tense is a grammatical concept.",
+"Both time and tense are identical concepts.",
+"Tense is a continuous flow, while time is a grammatical concept."
+],
+"answer": "Time is a continuous flow, while tense is a grammatical concept.",
+"explanation": "Time is measured in seconds, minutes, hours, days, or years, whereas tense is a grammatical concept specific to a language."
+},
+{
+"questionEnglish": "How many defined tenses of verbs does the English language have?",
+"options": [
+"Three",
+"Four",
+"Two",
+"One"
+],
+"answer": "Two",
+"explanation": "English has only two defined tenses of verbs: present and past."
+},
+{
+"questionEnglish": "Which of the following is a function of the present simple tense?",
+"options": [
+"Something happening now",
+"Temporary action",
+"General or scientific truths",
+"Something happening over a period of time"
+],
+"answer": "General or scientific truths",
+"explanation": "The present simple is used for habitual actions, laws of nature, scientific truths, and present facts."
+},
+{
+"questionEnglish": "Which tense is used to describe an action happening right now?",
+"options": [
+"Present simple",
+"Present progressive",
+"Past simple",
+"Past perfect"
+],
+"answer": "Present progressive",
+"explanation": "The present progressive is used for something happening now, over a period of time, or for a temporary action."
+},
+{
+"questionEnglish": "What does the 'Present perfect' tense express?",
+"options": [
+"Habitual action in the past",
+"A past action with present relevance",
+"An action in progress in the past",
+"Future intention"
+],
+"answer": "A past action with present relevance",
+"explanation": "Present perfect is used for a past action that has relevance in the present moment."
+},
+{
+"questionEnglish": "Which tense is used for an action that started in the past, is continuing now, and is likely to continue?",
+"options": [
+"Present perfect progressive",
+"Past simple",
+"Past perfect progressive",
+"Future simple"
+],
+"answer": "Present perfect progressive",
+"explanation": "Present perfect progressive is used for actions starting in the past and continuing into the present."
+},
+{
+"questionEnglish": "What is the structure 'Be going to + verb' used to express?",
+"options": [
+"An unplanned action",
+"An official program",
+"Future fulfillment of present cause or intention",
+"A past state"
+],
+"answer": "Future fulfillment of present cause or intention",
+"explanation": "'Be going to' indicates a future action based on present evidence or intention."
+},
+{
+"questionEnglish": "Which type of sentence has exactly one independent finite clause?",
+"options": [
+"Compound sentence",
+"Complex sentence",
+"Simple sentence",
+"Relative sentence"
+],
+"answer": "Simple sentence",
+"explanation": "A simple sentence consists of one single independent finite clause."
+},
+{
+"questionEnglish": "Which of these is not a type of simple sentence based on structure/function?",
+"options": [
+"Declarative",
+"Interrogative",
+"Imperative",
+"Conditional"
+],
+"answer": "Conditional",
+"explanation": "Simple sentences are classified into Declarative, Interrogative, Imperative, and Exclamatory."
+},
+{
+"questionEnglish": "What defines an interrogative sentence?",
+"options": [
+"It expresses admiration",
+"It makes a statement",
+"It asks a question",
+"It gives an order"
+],
+"answer": "It asks a question",
+"explanation": "Interrogative sentences are those that ask questions and typically end with a question mark."
+},
+{
+"questionEnglish": "Which of these is a characteristic of imperative sentences?",
+"options": [
+"The subject 'you' is usually omitted",
+"They always end with a question mark",
+"They must have a visible subject",
+"They are only used for commands"
+],
+"answer": "The subject 'you' is usually omitted",
+"explanation": "Imperative sentences begin with a base verb, the subject 'you' is implied, and they express commands, requests, or advice."
+},
+{
+"questionEnglish": "What punctuation mark is typically used at the end of an exclamatory sentence?",
+"options": [
+"Full stop",
+"Question mark",
+"Exclamation mark",
+"Comma"
+],
+"answer": "Exclamation mark",
+"explanation": "Exclamatory sentences express strong feelings and end with an exclamation mark."
+},
+{
+"questionEnglish": "What is a compound sentence?",
+"options": [
+"A sentence with only one clause",
+"A sentence with two or more independent clauses joined by coordinating conjunctions",
+"A sentence with a main clause and a subordinate clause",
+"A sentence with only a subordinate clause"
+],
+"answer": "A sentence with two or more independent clauses joined by coordinating conjunctions",
+"explanation": "Compound sentences use coordinators like 'and', 'but', 'or', 'so' to join independent clauses."
+},
+{
+"questionEnglish": "Which of these is a coordinating conjunction used in compound sentences?",
+"options": [
+"Although",
+"Because",
+"Otherwise",
+"If"
+],
+"answer": "Otherwise",
+"explanation": "'Otherwise', 'and', 'but', 'or', and 'so' are common coordinating conjunctions in compound sentences."
+},
+{
+"questionEnglish": "What defines a complex sentence?",
+"options": [
+"It has only two main clauses",
+"It has at least one main clause and at least one subordinate clause",
+"It has no clauses",
+"It is the same as a simple sentence"
+],
+"answer": "It has at least one main clause and at least one subordinate clause",
+"explanation": "Complex sentences contain a main clause and one or more dependent (subordinate) clauses."
+},
+{
+"questionEnglish": "Which of the following is not a type of subordinate clause?",
+"options": [
+"Noun clause",
+"Adverb clause",
+"Relative clause",
+"Main clause"
+],
+"answer": "Main clause",
+"explanation": "The main clause is independent, while Noun, Adverb, and Relative clauses are subordinate."
+},
+{
+"questionEnglish": "What does the principle of 'Subject-Verb Agreement' dictate?",
+"options": [
+"Verbs must always be plural",
+"Verbs must agree with their subject in number and person",
+"Verbs must always be singular",
+"The subject must always follow the verb"
+],
+"answer": "Verbs must agree with their subject in number and person",
+"explanation": "In English, the verb form depends on whether the subject is singular/plural and first/second/third person."
+},
+{
+"questionEnglish": "When two singular nouns joined by 'and' represent a single idea, what verb form is used?",
+"options": [
+"Plural",
+"Singular",
+"Future",
+"Past"
+],
+"answer": "Singular",
+"explanation": "If two nouns joined by 'and' are regarded as a single object or notion, the verb is singular (e.g., Bread and butter is my favorite breakfast)."
+},
+{
+"questionEnglish": "How are nouns like 'police', 'people', and 'cattle' treated regarding verb agreement?",
+"options": [
+"Always singular",
+"Always plural",
+"Depends on the article used",
+"They are uncountable"
+],
+"answer": "Always plural",
+"explanation": "Nouns like police, people, poultry, and cattle usually take plural verbs."
+},
+{
+"questionEnglish": "What happens to the verb when 'there' is used as an introductory word?",
+"options": [
+"It stays singular",
+"It stays plural",
+"It agrees with the noun following it",
+"It does not agree with anything"
+],
+"answer": "It agrees with the noun following it",
+"explanation": "The verb after 'there' must agree with the real subject (the noun) that follows it."
+},
+{
+"questionEnglish": "What are non-finite verbs?",
+"options": [
+"Verbs that change with the subject",
+"Verbs that carry tense",
+"Verbs that do not agree with the subject and do not carry tense",
+"Only the main verb in a sentence"
+],
+"answer": "Verbs that do not agree with the subject and do not carry tense",
+"explanation": "Non-finite verbs do not carry tense and do not change according to the subject's number or person."
+},
+{
+"questionEnglish": "Which is not a type of non-finite verb form?",
+"options": [
+"to + verb",
+"verb + ing",
+"past tense (-ed)",
+"en form (third form)"
+],
+"answer": "past tense (-ed)",
+"explanation": "Non-finite forms include 'to + verb', base verb form, '-ing' form, and 'en' (past participle) form."
+},
+{
+"questionEnglish": "Can a sentence be formed using only non-finite verbs?",
+"options": [
+"Yes, always",
+"Yes, if it is a question",
+"No, a finite verb is required",
+"Only in written English"
+],
+"answer": "No, a finite verb is required",
+"explanation": "Every sentence must have at least one finite verb to express tense."
+},
+{
+"questionEnglish": "What function can a 'to + verb' construction perform?",
+"options": [
+"Subject",
+"Object",
+"Adjunct",
+"All of the above"
+],
+"answer": "All of the above",
+"explanation": "A 'to + verb' (infinitive) can act as a subject, object, or adjunct in a sentence."
+},
+{
+"questionEnglish": "Which verbs are typically followed by 'base verb' (without 'to')?",
+"options": [
+"Expect, want",
+"Let, make, help",
+"Agree, refuse",
+"Manage, plan"
+],
+"answer": "Let, make, help",
+"explanation": "Verbs like let, make, help, see, and hear are followed by the base form of the verb."
+},
+{
+"questionEnglish": "What is the primary role of a preposition?",
+"options": [
+"To connect two clauses",
+"To show the relationship between a noun/pronoun and another word",
+"To express an action",
+"To modify a verb"
+],
+"answer": "To show the relationship between a noun/pronoun and another word",
+"explanation": "Prepositions link nouns or pronouns to other parts of a sentence, often showing time, place, or direction."
+},
+{
+"questionEnglish": "When is 'at' typically used for place?",
+"options": [
+"For a large country",
+"For an exact point or specific location",
+"For a container",
+"For surface contact"
+],
+"answer": "For an exact point or specific location",
+"explanation": "'At' is used for points like doors, bus stops, stations, and exact addresses."
+},
+{
+"questionEnglish": "What is the difference between 'over' and 'above'?",
+"options": [
+"They are exactly the same",
+"Over means vertically above, above means higher level",
+"Above means across, over means lower",
+"There is no difference"
+],
+"answer": "Over means vertically above, above means higher level",
+"explanation": "'Over' often implies direct vertical position or movement across, while 'above' implies a higher level."
+},
+{
+"questionEnglish": "When is 'among' used instead of 'between'?",
+"options": [
+"For exactly two people",
+"For three or more people or things",
+"For objects only",
+"For time only"
+],
+"answer": "For three or more people or things",
+"explanation": "'Between' is for two, 'among' is for three or more."
+},
+{
+"questionEnglish": "What is the correct preposition for modes of travel like 'bus' or 'train' when no article is used?",
+"options": [
+"On",
+"In",
+"By",
+"With"
+],
+"answer": "By",
+"explanation": "When used generally, we say 'by bus' or 'by train', but 'on the bus' when an article is used."
+},
+{
+"questionEnglish": "What defines a phrasal verb?",
+"options": [
+"A verb followed by a noun",
+"A main verb plus an adverb or prepositional particle",
+"A verb plus a subordinate clause",
+"A verb that is always intransitive"
+],
+"answer": "A main verb plus an adverb or prepositional particle",
+"explanation": "Phrasal verbs are created by combining a verb with a particle, often resulting in a new, idiomatic meaning."
+},
+{
+"questionEnglish": "Which of these is an example of an intransitive phrasal verb?",
+"options": [
+"Break down",
+"Turn off",
+"Make out",
+"Set up"
+],
+"answer": "Break down",
+"explanation": "An intransitive phrasal verb does not take a direct object, like 'break down' in 'The car has broken down'."
+},
+{
+"questionEnglish": "Can phrasal verbs be replaced by single-word verbs?",
+"options": [
+"Never",
+"Most of the time",
+"Only in informal speech",
+"Only if they have objects"
+],
+"answer": "Most of the time",
+"explanation": "Many idiomatic phrasal verbs, like 'turn down' (reject) or 'fall out' (quarrel), have single-word synonyms."
+},
+{
+"questionEnglish": "What does 'bring up' mean?",
+"options": [
+"To publish",
+"To rear or educate",
+"To postpone",
+"To start a journey"
+],
+"answer": "To rear or educate",
+"explanation": "'Bring up' means to raise a child."
+},
+{
+"questionEnglish": "What does 'call off' mean?",
+"options": [
+"To visit",
+"To cancel",
+"To telephone",
+"To start"
+],
+"answer": "To cancel",
+"explanation": "'Call off' is a phrasal verb meaning to cancel an event or activity."
+},
+{
+"questionEnglish": "What is the subject of 'What he says is correct'?",
+"options": [
+"What he says",
+"Correct",
+"Is",
+"He"
+],
+"answer": "What he says",
+"explanation": "'What he says' is a noun clause acting as the subject of the sentence."
+},
+{
+"questionEnglish": "How are noun clauses identified?",
+"options": [
+"They always function like nouns (subject, object, complement)",
+"They always start with an adverb",
+"They modify a noun",
+"They only appear at the end of sentences"
+],
+"answer": "They always function like nouns (subject, object, complement)",
+"explanation": "Noun clauses are called so because they perform the same roles as nouns or noun phrases."
+},
+{
+"questionEnglish": "What is a main clause?",
+"options": [
+"A clause that cannot stand alone",
+"An independent clause that can form a simple sentence",
+"A clause that starts with 'that'",
+"A clause that is always in the middle"
+],
+"answer": "An independent clause that can form a simple sentence",
+"explanation": "The main clause expresses a complete thought and can stand alone."
+},
+{
+"questionEnglish": "Which of these is a subordinate clause?",
+"options": [
+"He went to the park",
+"Because it was raining",
+"She sings well",
+"They are happy"
+],
+"answer": "Because it was raining",
+"explanation": "'Because it was raining' is a dependent or subordinate clause."
+},
+{
+"questionEnglish": "Can a sentence have more than one main clause?",
+"options": [
+"Yes, in compound sentences",
+"No, never",
+"Only in interrogative sentences",
+"Only if they are noun clauses"
+],
+"answer": "Yes, in compound sentences",
+"explanation": "Compound sentences are defined by having two or more independent (main) clauses joined together."
+},
+{
+"questionEnglish": "What is the function of a 'Relative Clause'?",
+"options": [
+"To act as a noun",
+"To modify a noun (like an adjective)",
+"To indicate time",
+"To express condition"
+],
+"answer": "To modify a noun (like an adjective)",
+"explanation": "Relative clauses (also called adjective clauses) provide information about a noun."
+},
+{
+"questionEnglish": "What type of verb is 'is' in 'The point is that he is honest'?",
+"options": [
+"Finite",
+"Non-finite",
+"Modal",
+"Auxiliary only"
+],
+"answer": "Finite",
+"explanation": "'Is' is a finite verb as it carries tense."
+},
+{
+"questionEnglish": "What is a coordinating conjunction?",
+"options": [
+"A word that connects a subordinate clause to a main clause",
+"A word that connects equal parts like independent clauses",
+"A type of noun",
+"A verb form"
+],
+"answer": "A word that connects equal parts like independent clauses",
+"explanation": "Coordinating conjunctions (e.g., 'and', 'but') connect grammatically equal elements."
+},
+{
+"questionEnglish": "Which tense is used to describe a permanent state or fact?",
+"options": [
+"Past progressive",
+"Present simple",
+"Future progressive",
+"Present perfect"
+],
+"answer": "Present simple",
+"explanation": "Permanent states, facts, and scientific truths are expressed using the present simple tense."
+},
+{
+"questionEnglish": "Which of these is NOT a function of the imperative mood?",
+"options": [
+"Making a request",
+"Giving an order",
+"Providing advice",
+"Asking about a fact"
+],
+"answer": "Asking about a fact",
+"explanation": "Imperatives are for commands, requests, and advice, not for asking questions about facts."
+},
+{
+"questionEnglish": "In the sentence 'He ate because he was hungry', what is 'because he was hungry'?",
+"options": [
+"Main clause",
+"Adverb clause",
+"Noun clause",
+"Imperative"
+],
+"answer": "Adverb clause",
+"explanation": "'Because he was hungry' explains the reason for the action, acting as an adverbial clause."
+},
+{
+"questionEnglish": "What does 'SVO' stand for in sentence patterns?",
+"options": [
+"Subject-Verb-Object",
+"Subject-Verb-Option",
+"Simple-Verb-Only",
+"Sentence-Voice-Object"
+],
+"answer": "Subject-Verb-Object",
+"explanation": "SVO represents the pattern of Subject followed by a transitive verb and an object."
+},
+{
+"questionEnglish": "Which of these is an example of an exclamatory sentence?",
+"options": [
+"What a beautiful day it is!",
+"It is a beautiful day.",
+"Is it a beautiful day?",
+"Go enjoy the day."
+],
+"answer": "What a beautiful day it is!",
+"explanation": "This expresses strong feeling/admiration and starts with 'What'."
+},
+{
+"questionEnglish": "What is 'in addition to' in terms of prepositions?",
+"options": [
+"Single word preposition",
+"Multi-word preposition",
+"Verb",
+"Noun clause"
+],
+"answer": "Multi-word preposition",
+"explanation": "'In addition to' is a multi-word prepositional phrase."
+},
+{
+"questionEnglish": "What type of verb is required if the subject is plural?",
+"options": [
+"Singular",
+"Plural",
+"None of the above",
+"Imperative"
+],
+"answer": "Plural",
+"explanation": "Subject-verb agreement requires a plural subject to take a plural verb."
+}
+]
