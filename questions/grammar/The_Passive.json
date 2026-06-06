@@ -1,0 +1,553 @@
+[
+{
+"questionEnglish": "In the passive voice, what is the primary focus of the sentence compared to the active voice?",
+"options": [
+"The person who performs the action",
+"The person or thing that receives the action",
+"The tense of the verb used",
+"The adverbial modifiers of the sentence"
+],
+"answer": "The person or thing that receives the action",
+"explanation": "Passive voice shifts the focus from the doer of the action (subject in active) to the receiver of the action (subject in passive)."
+},
+{
+"questionEnglish": "Which of the following is a fundamental requirement to convert an active sentence into a passive one?",
+"options": [
+"The verb must be intransitive",
+"The verb must be transitive",
+"The subject must be a pronoun",
+"The sentence must be in the future tense"
+],
+"answer": "The verb must be transitive",
+"explanation": "Only transitive verbs, which take a direct object, can be converted into the passive voice."
+},
+{
+"questionEnglish": "What happens to the subject of an active sentence when it is moved to the passive voice?",
+"options": [
+"It is removed from the sentence entirely",
+"It becomes the object and is usually preceded by 'by'",
+"It remains the subject but changes tense",
+"It is replaced by a pronoun"
+],
+"answer": "It becomes the object and is usually preceded by 'by'",
+"explanation": "In passive construction, the original subject is moved to the end of the sentence as the agent, typically introduced by 'by'."
+},
+{
+"questionEnglish": "Change the following active sentence to passive: 'The cat chased the mouse.'",
+"options": [
+"The mouse chased the cat.",
+"The mouse was chased by the cat.",
+"The mouse is being chased by the cat.",
+"The cat was chased by the mouse."
+],
+"answer": "The mouse was chased by the cat.",
+"explanation": "The object 'the mouse' becomes the subject, the verb 'chased' (past simple) becomes 'was chased', and the subject 'the cat' follows 'by'."
+},
+{
+"questionEnglish": "Which form of the verb is always used in the passive voice construction?",
+"options": [
+"The base form",
+"The present participle (-ing)",
+"The past participle (3rd form)",
+"The future tense"
+],
+"answer": "The past participle (3rd form)",
+"explanation": "The passive voice always requires the verb 'to be' plus the past participle of the main verb."
+},
+{
+"questionEnglish": "Convert 'She is writing a letter' into the passive voice.",
+"options": [
+"A letter is written by her.",
+"A letter was written by her.",
+"A letter is being written by her.",
+"A letter has been written by her."
+],
+"answer": "A letter is being written by her.",
+"explanation": "Present continuous passive is formed with 'is/am/are' + 'being' + past participle."
+},
+{
+"questionEnglish": "What is the passive form of 'They have completed the project'?",
+"options": [
+"The project is completed by them.",
+"The project was completed by them.",
+"The project has been completed by them.",
+"The project had been completed by them."
+],
+"answer": "The project has been completed by them.",
+"explanation": "Present perfect passive uses 'has/have' + 'been' + past participle."
+},
+{
+"questionEnglish": "When is the agent ('by + agent') omitted in a passive sentence?",
+"options": [
+"When the agent is unknown, unimportant, or obvious",
+"When the sentence is in the past tense",
+"When the subject is a pronoun",
+"When the sentence is a question"
+],
+"answer": "When the agent is unknown, unimportant, or obvious",
+"explanation": "The agent is frequently omitted if it is irrelevant or can be easily inferred from the context."
+},
+{
+"questionEnglish": "Passive of 'He will build a house'.",
+"options": [
+"A house will be built by him.",
+"A house is built by him.",
+"A house was built by him.",
+"A house will have been built by him."
+],
+"answer": "A house will be built by him.",
+"explanation": "Future simple passive is formed using 'will' + 'be' + past participle."
+},
+{
+"questionEnglish": "What is the passive form of 'Open the door'?",
+"options": [
+"The door was opened.",
+"Let the door be opened.",
+"The door is opened.",
+"The door should open."
+],
+"answer": "Let the door be opened.",
+"explanation": "Imperative sentences in the passive are often constructed using 'Let' + object + 'be' + past participle."
+},
+{
+"questionEnglish": "Convert 'Did he eat the apple?' to passive.",
+"options": [
+"Was the apple eaten by him?",
+"Is the apple eaten by him?",
+"Did the apple eaten by him?",
+"Had the apple been eaten by him?"
+],
+"answer": "Was the apple eaten by him?",
+"explanation": "The question structure maintains the tense, using 'was/were' for past simple passive questions."
+},
+{
+"questionEnglish": "How do you form the passive of an active sentence with two objects (e.g., 'He gave me a book')?",
+"options": [
+"Only the direct object can become the subject.",
+"Only the indirect object can become the subject.",
+"Either object can become the subject of the passive sentence.",
+"Neither object can become the subject."
+],
+"answer": "Either object can become the subject of the passive sentence.",
+"explanation": "Sentences with two objects allow for two different passive structures, focusing on either the person or the thing received."
+},
+{
+"questionEnglish": "Passive of 'I have been reading the book'.",
+"options": [
+"The book has been being read by me.",
+"The book is being read by me.",
+"The book was read by me.",
+"Passive is not common for perfect continuous tenses."
+],
+"answer": "Passive is not common for perfect continuous tenses.",
+"explanation": "Perfect continuous tenses (like present perfect continuous) are rarely used in the passive voice due to awkward construction."
+},
+{
+"questionEnglish": "Identify the active sentence: 'The report was finished by the team.'",
+"options": [
+"The team finished the report.",
+"The report finished the team.",
+"The team is finishing the report.",
+"The team has finished the report."
+],
+"answer": "The team finished the report.",
+"explanation": "The passive 'was finished' indicates past simple, so the active equivalent must also be past simple."
+},
+{
+"questionEnglish": "Which verb cannot be used in the passive voice?",
+"options": [
+"Write",
+"Die",
+"Eat",
+"Build"
+],
+"answer": "Die",
+"explanation": "'Die' is an intransitive verb and cannot take an object; therefore, it cannot be made passive."
+},
+{
+"questionEnglish": "Passive of 'They are painting the house'.",
+"options": [
+"The house is painted by them.",
+"The house was painted by them.",
+"The house is being painted by them.",
+"The house was being painted by them."
+],
+"answer": "The house is being painted by them.",
+"explanation": "This is present continuous; passive is 'is/am/are' + 'being' + past participle."
+},
+{
+"questionEnglish": "What is the passive form of 'People speak English all over the world'?",
+"options": [
+"English is spoken by people all over the world.",
+"English was spoken by people all over the world.",
+"English has been spoken by people all over the world.",
+"English is being spoken by people all over the world."
+],
+"answer": "English is spoken by people all over the world.",
+"explanation": "The active is present simple, so the passive uses 'is' + past participle."
+},
+{
+"questionEnglish": "Convert 'The gardener watered the plants' to passive.",
+"options": [
+"The plants are watered by the gardener.",
+"The plants were watered by the gardener.",
+"The plants have been watered by the gardener.",
+"The plants will be watered by the gardener."
+],
+"answer": "The plants were watered by the gardener.",
+"explanation": "The active is past simple; passive requires 'was/were' + past participle."
+},
+{
+"questionEnglish": "Passive of 'He can solve this problem'.",
+"options": [
+"This problem can be solved by him.",
+"This problem could be solved by him.",
+"This problem is solved by him.",
+"This problem must be solved by him."
+],
+"answer": "This problem can be solved by him.",
+"explanation": "Passive with modals is formed as 'modal' + 'be' + past participle."
+},
+{
+"questionEnglish": "Which sentence is correctly changed to passive: 'They will have finished the work.'",
+"options": [
+"The work will be finished by them.",
+"The work will have been finished by them.",
+"The work has been finished by them.",
+"The work was finished by them."
+],
+"answer": "The work will have been finished by them.",
+"explanation": "Future perfect passive is formed using 'will have been' + past participle."
+},
+{
+"questionEnglish": "Passive of 'She gave me a gift'.",
+"options": [
+"A gift was given to me by her.",
+"I was given a gift by her.",
+"Both A and B are correct.",
+"Neither A nor B is correct."
+],
+"answer": "Both A and B are correct.",
+"explanation": "Since 'gave' takes two objects ('me' and 'a gift'), both can be the subject of a passive sentence."
+},
+{
+"questionEnglish": "Convert 'Do not touch the wire' to passive.",
+"options": [
+"The wire should not be touched.",
+"Let the wire not be touched.",
+"Do not let the wire be touched.",
+"All of the above."
+],
+"answer": "All of the above.",
+"explanation": "Negative imperatives can be expressed in passive form in several ways, including 'should not be' or using 'let' with a negative."
+},
+{
+"questionEnglish": "What is the passive form of 'Whom did you see?'",
+"options": [
+"Who was seen by you?",
+"Whom were you seen by?",
+"Was seen by you?",
+"By whom was you seen?"
+],
+"answer": "Who was seen by you?",
+"explanation": "In passive questions, 'whom' as an object becomes 'who' as a subject."
+},
+{
+"questionEnglish": "Passive of 'We must respect our teachers'.",
+"options": [
+"Our teachers must respect us.",
+"Our teachers must be respected by us.",
+"Our teachers had to be respected.",
+"Our teachers are respected by us."
+],
+"answer": "Our teachers must be respected by us.",
+"explanation": "Modal 'must' in passive remains 'must be' + past participle."
+},
+{
+"questionEnglish": "Which sentence correctly uses the passive voice to describe a past state?",
+"options": [
+"The house was built in 1990.",
+"The house builds in 1990.",
+"The house is built in 1990.",
+"The house has built in 1990."
+],
+"answer": "The house was built in 1990.",
+"explanation": "Past events or states are described using the passive construction 'was/were' + past participle."
+},
+{
+"questionEnglish": "Passive form of 'They are decorating the room'.",
+"options": [
+"The room is decorated.",
+"The room is being decorated.",
+"The room was being decorated.",
+"The room has been decorated."
+],
+"answer": "The room is being decorated.",
+"explanation": "Present continuous passive: 'is/am/are' + 'being' + past participle."
+},
+{
+"questionEnglish": "Change 'Who wrote this book?' to passive.",
+"options": [
+"By whom was this book written?",
+"Who was this book written by?",
+"Both A and B are correct.",
+"Neither A nor B is correct."
+],
+"answer": "Both A and B are correct.",
+"explanation": "Both forms are grammatically acceptable, though 'By whom...' is more formal."
+},
+{
+"questionEnglish": "Passive of 'He has sent a message'.",
+"options": [
+"A message was sent by him.",
+"A message has been sent by him.",
+"A message is sent by him.",
+"A message had been sent by him."
+],
+"answer": "A message has been sent by him.",
+"explanation": "Present perfect passive: 'has/have been' + past participle."
+},
+{
+"questionEnglish": "Passive of 'They will announce the results tomorrow'.",
+"options": [
+"The results will be announced tomorrow.",
+"The results are announced tomorrow.",
+"The results were announced tomorrow.",
+"The results have been announced tomorrow."
+],
+"answer": "The results will be announced tomorrow.",
+"explanation": "Future simple passive: 'will be' + past participle."
+},
+{
+"questionEnglish": "Which sentence is in passive voice?",
+"options": [
+"The wind blew down the tree.",
+"The tree was blown down by the wind.",
+"The wind is blowing.",
+"The tree fell down."
+],
+"answer": "The tree was blown down by the wind.",
+"explanation": "This sentence uses the 'to be' + past participle construction ('was blown')."
+},
+{
+"questionEnglish": "Passive of 'Help the needy'.",
+"options": [
+"The needy should be helped.",
+"Let the needy be helped.",
+"Both A and B are correct.",
+"Neither A nor B is correct."
+],
+"answer": "Both A and B are correct.",
+"explanation": "Advice-based imperatives ('Help') can be turned into passive using 'should' or 'let'."
+},
+{
+"questionEnglish": "Passive form of 'I know him'.",
+"options": [
+"He is known by me.",
+"He is known to me.",
+"He was known by me.",
+"He is being known by me."
+],
+"answer": "He is known to me.",
+"explanation": "Some verbs like 'know' take 'to' instead of 'by' in the passive voice."
+},
+{
+"questionEnglish": "Convert 'Shut the window' into passive.",
+"options": [
+"Let the window be shut.",
+"The window should be shut.",
+"Both A and B.",
+"None of the above."
+],
+"answer": "Both A and B.",
+"explanation": "Imperatives can be passive-converted using both 'Let' and 'should'."
+},
+{
+"questionEnglish": "Passive of 'The police arrested the thief'.",
+"options": [
+"The thief is arrested by the police.",
+"The thief was arrested by the police.",
+"The thief has been arrested by the police.",
+"The thief had been arrested by the police."
+],
+"answer": "The thief was arrested by the police.",
+"explanation": "Active is past simple; passive requires 'was/were' + past participle."
+},
+{
+"questionEnglish": "Convert 'They have just finished the work' to passive.",
+"options": [
+"The work has just been finished by them.",
+"The work was just finished by them.",
+"The work is just finished by them.",
+"The work had just been finished by them."
+],
+"answer": "The work has just been finished by them.",
+"explanation": "Perfect tense passive retains the 'just' in the appropriate position."
+},
+{
+"questionEnglish": "Passive form of 'What are you doing?'",
+"options": [
+"What is being done by you?",
+"What was being done by you?",
+"What is done by you?",
+"What are you done by?"
+],
+"answer": "What is being done by you?",
+"explanation": "Present continuous passive question."
+},
+{
+"questionEnglish": "Passive form of 'He bought a pen'.",
+"options": [
+"A pen was bought by him.",
+"A pen is bought by him.",
+"A pen has been bought by him.",
+"A pen is being bought by him."
+],
+"answer": "A pen was bought by him.",
+"explanation": "Past simple passive."
+},
+{
+"questionEnglish": "Passive form of 'She will sing a song'.",
+"options": [
+"A song will be sung by her.",
+"A song is sung by her.",
+"A song was sung by her.",
+"A song is being sung by her."
+],
+"answer": "A song will be sung by her.",
+"explanation": "Future simple passive."
+},
+{
+"questionEnglish": "Change 'They were cleaning the room' to passive.",
+"options": [
+"The room was cleaned by them.",
+"The room was being cleaned by them.",
+"The room is being cleaned by them.",
+"The room has been cleaned by them."
+],
+"answer": "The room was being cleaned by them.",
+"explanation": "Past continuous passive: 'was/were' + 'being' + past participle."
+},
+{
+"questionEnglish": "Passive form of 'Close the door'.",
+"options": [
+"Let the door be closed.",
+"The door should be closed.",
+"Both A and B.",
+"None of the above."
+],
+"answer": "Both A and B.",
+"explanation": "Imperative passive conversion."
+},
+{
+"questionEnglish": "Passive form of 'They had finished the work before I arrived'.",
+"options": [
+"The work had been finished by them before I arrived.",
+"The work was finished by them before I arrived.",
+"The work is finished by them before I arrived.",
+"The work has been finished by them before I arrived."
+],
+"answer": "The work had been finished by them before I arrived.",
+"explanation": "Past perfect passive: 'had been' + past participle."
+},
+{
+"questionEnglish": "What is the passive of 'Please come here'?",
+"options": [
+"You are requested to come here.",
+"Let here be come.",
+"Here should be come.",
+"None of the above."
+],
+"answer": "You are requested to come here.",
+"explanation": "Imperatives starting with 'Please' are changed to passive using 'You are requested to'."
+},
+{
+"questionEnglish": "Change 'How did you do it?' to passive.",
+"options": [
+"How was it done by you?",
+"How is it done by you?",
+"How has it been done by you?",
+"How had it been done by you?"
+],
+"answer": "How was it done by you?",
+"explanation": "Past simple passive question."
+},
+{
+"questionEnglish": "Passive of 'He writes letters'.",
+"options": [
+"Letters are written by him.",
+"Letters were written by him.",
+"Letters have been written by him.",
+"Letters will be written by him."
+],
+"answer": "Letters are written by him.",
+"explanation": "Present simple passive."
+},
+{
+"questionEnglish": "Passive of 'She can do this'.",
+"options": [
+"This can be done by her.",
+"This could be done by her.",
+"This is done by her.",
+"This has to be done by her."
+],
+"answer": "This can be done by her.",
+"explanation": "Modal 'can' passive."
+},
+{
+"questionEnglish": "Convert 'They have invited us' to passive.",
+"options": [
+"We have been invited by them.",
+"We were invited by them.",
+"We are invited by them.",
+"We will be invited by them."
+],
+"answer": "We have been invited by them.",
+"explanation": "Present perfect passive."
+},
+{
+"questionEnglish": "Change 'Did they help you?' to passive.",
+"options": [
+"Were you helped by them?",
+"Are you helped by them?",
+"Have you been helped by them?",
+"Had you been helped by them?"
+],
+"answer": "Were you helped by them?",
+"explanation": "Past simple passive question."
+},
+{
+"questionEnglish": "Passive of 'He will have finished it'.",
+"options": [
+"It will have been finished by him.",
+"It will be finished by him.",
+"It is finished by him.",
+"It has been finished by him."
+],
+"answer": "It will have been finished by him.",
+"explanation": "Future perfect passive."
+},
+{
+"questionEnglish": "Convert 'Do it at once' to passive.",
+"options": [
+"Let it be done at once.",
+"It should be done at once.",
+"Both A and B.",
+"Neither A nor B."
+],
+"answer": "Both A and B.",
+"explanation": "Imperative passive conversion."
+},
+{
+"questionEnglish": "Change 'They told me a secret' to passive.",
+"options": [
+"A secret was told to me by them.",
+"I was told a secret by them.",
+"Both A and B.",
+"Neither A nor B."
+],
+"answer": "Both A and B.",
+"explanation": "Double-object passive conversion."
+}
+]
+
