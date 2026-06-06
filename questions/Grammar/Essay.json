@@ -1,1 +1,553 @@
 
+[
+{
+"questionEnglish": "In the context of English grammar as taught in the Odisha Board curriculum, what is the primary purpose of converting direct speech into indirect speech?",
+"options": [
+"To increase the word count of the sentence.",
+"To report what someone said without using their exact words.",
+"To make the sentence sound more formal and academic.",
+"To change the meaning of the original statement."
+],
+"answer": "To report what someone said without using their exact words.",
+"explanation": "Indirect speech is used to convey the content or meaning of a message spoken by someone, without quoting their exact words verbatim."
+},
+{
+"questionEnglish": "When a direct speech sentence uses inverted commas, how are they handled when changing it to indirect speech?",
+"options": [
+"They are replaced by parentheses.",
+"They are kept as they are.",
+"They are completely removed.",
+"They are replaced by a colon."
+],
+"answer": "They are completely removed.",
+"explanation": "In indirect speech, the inverted commas (quotation marks) used in direct speech are discarded to integrate the reported clause into the main sentence."
+},
+{
+"questionEnglish": "When the reporting verb of the direct speech is in the past tense (e.g., 'said'), what usually happens to the tense of the verb in the reported speech?",
+"options": [
+"It remains in the same tense.",
+"It shifts to the corresponding past tense (backshift).",
+"It changes to the present perfect tense.",
+"It changes to the future tense."
+],
+"answer": "It shifts to the corresponding past tense (backshift).",
+"explanation": "If the reporting verb is in the past, the verb inside the reported speech is moved back one step into the past to maintain logical sequence."
+},
+{
+"questionEnglish": "Which conjunction is most commonly used to connect the reporting clause to the reported speech in an assertive (statement) sentence?",
+"options": [
+"if",
+"whether",
+"that",
+"but"
+],
+"answer": "that",
+"explanation": "The conjunction 'that' is the standard connector used to introduce the reported clause in indirect statement sentences."
+},
+{
+"questionEnglish": "How does the pronoun 'I' in a direct speech sentence change if the speaker is a boy reporting his own words to someone else?",
+"options": [
+"It remains 'I'.",
+"It changes to 'he'.",
+"It changes to 'she'.",
+"It changes to 'we'."
+],
+"answer": "It changes to 'he'.",
+"explanation": "In indirect speech, pronouns must be adjusted to match the gender and number of the subject of the reporting verb."
+},
+{
+"questionEnglish": "What transformation occurs to the time-indicator 'now' when changing from direct to indirect speech?",
+"options": [
+"It remains 'now'.",
+"It changes to 'then'.",
+"It changes to 'at that moment'.",
+"It changes to 'tomorrow'."
+],
+"answer": "It changes to 'then'.",
+"explanation": "Adverbials of time like 'now' must be converted to 'then' to accurately reflect the past perspective of the reporting time."
+},
+{
+"questionEnglish": "If the reporting verb is in the present tense (e.g., 'says'), what happens to the tense of the reported speech?",
+"options": [
+"It shifts to the past.",
+"It shifts to the future.",
+"It remains exactly the same as in direct speech.",
+"It becomes a continuous tense."
+],
+"answer": "It remains exactly the same as in direct speech.",
+"explanation": "When the reporting verb is in the present tense, there is no backshift of the verb tense in the reported speech."
+},
+{
+"questionEnglish": "What rule applies to reported speech when the statement is a universal truth or a scientific fact?",
+"options": [
+"The tense must shift to the past.",
+"The tense must shift to the future.",
+"The tense remains the same, regardless of the reporting verb.",
+"The statement must be paraphrased entirely."
+],
+"answer": "The tense remains the same, regardless of the reporting verb.",
+"explanation": "Universal truths (e.g., 'The earth moves around the sun') are considered always true, so their tense does not change even if the reporting verb is in the past."
+},
+{
+"questionEnglish": "How should you correctly convert the sentence: He said, 'I am busy.'?",
+"options": [
+"He said that he was busy.",
+"He said that he is busy.",
+"He said that I am busy.",
+"He said that he has been busy."
+],
+"answer": "He said that he was busy.",
+"explanation": "The present tense 'am' shifts to the past tense 'was' because the reporting verb 'said' is in the past."
+},
+{
+"questionEnglish": "Which of the following changes is appropriate for 'today' when reporting a statement in indirect speech?",
+"options": [
+"It remains 'today'.",
+"It changes to 'that day'.",
+"It changes to 'the next day'.",
+"It changes to 'the previous day'."
+],
+"answer": "It changes to 'that day'.",
+"explanation": "Time-based expressions like 'today' are updated to 'that day' to maintain the correct temporal relation in the reported context."
+},
+{
+"questionEnglish": "When changing the modal verb 'can' from direct to indirect speech, what does it become?",
+"options": [
+"could",
+"would",
+"should",
+"might"
+],
+"answer": "could",
+"explanation": "As part of the backshift rule, modal verbs like 'can' are converted to their past forms, in this case 'could'."
+},
+{
+"questionEnglish": "What is the indirect form of the sentence: She said to me, 'I will go.'?",
+"options": [
+"She told me that she will go.",
+"She told me that she would go.",
+"She said to me that she will go.",
+"She told me that I would go."
+],
+"answer": "She told me that she would go.",
+"explanation": "The modal 'will' changes to 'would' in reported speech after a past tense reporting verb."
+},
+{
+"questionEnglish": "When an indirect object is present, how should the reporting verb 'said' be changed?",
+"options": [
+"It is replaced by 'told'.",
+"It is kept as 'said'.",
+"It is replaced by 'asked'.",
+"It is replaced by 'commented'."
+],
+"answer": "It is replaced by 'told'.",
+"explanation": "When reporting a statement to someone (an indirect object), 'said to' is replaced by 'told'."
+},
+{
+"questionEnglish": "What happens to the adverb 'yesterday' in indirect speech?",
+"options": [
+"It remains 'yesterday'.",
+"It changes to 'the previous day' or 'the day before'.",
+"It changes to 'the next day'.",
+"It changes to 'today'."
+],
+"answer": "It changes to 'the previous day' or 'the day before'.",
+"explanation": "To correctly report a past time reference, 'yesterday' is shifted to 'the previous day'."
+},
+{
+"questionEnglish": "How are imperative sentences (commands or requests) typically reported in indirect speech?",
+"options": [
+"By using a that-clause.",
+"By using an infinitive structure (to + verb).",
+"By keeping the original command form.",
+"By changing it into a question."
+],
+"answer": "By using an infinitive structure (to + verb).",
+"explanation": "Imperative sentences use the 'to' + infinitive structure (e.g., 'He told me to sit') to report the command or request."
+},
+{
+"questionEnglish": "How is the future time indicator 'tomorrow' reported in indirect speech?",
+"options": [
+"It becomes 'the next day' or 'the following day'.",
+"It remains 'tomorrow'.",
+"It becomes 'the day after'.",
+"It becomes 'the previous day'."
+],
+"answer": "It becomes 'the next day' or 'the following day'.",
+"explanation": "Future time indicators are shifted to show their relative position from the perspective of the reporting speaker."
+},
+{
+"questionEnglish": "Which of these is the correct way to report a yes/no question like 'Are you hungry?'?",
+"options": [
+"He asked me that if I was hungry.",
+"He asked me if I was hungry.",
+"He asked me that I was hungry.",
+"He told me if I was hungry."
+],
+"answer": "He asked me if I was hungry.",
+"explanation": "When reporting yes/no questions, we use 'if' or 'whether' and drop the 'that' conjunction."
+},
+{
+"questionEnglish": "What does the modal verb 'may' become when reported in indirect speech?",
+"options": [
+"might",
+"could",
+"must",
+"should"
+],
+"answer": "might",
+"explanation": "Following the backshift rule, 'may' changes to 'might' in indirect speech."
+},
+{
+"questionEnglish": "How would you report the sentence: 'He said, I have finished my task.'?",
+"options": [
+"He said that he has finished his task.",
+"He said that he had finished his task.",
+"He said that he finished his task.",
+"He said that he would finish his task."
+],
+"answer": "He said that he had finished his task.",
+"explanation": "The present perfect 'have finished' shifts to the past perfect 'had finished' in reported speech."
+},
+{
+"questionEnglish": "When changing 'this' to indirect speech, what is the most common replacement?",
+"options": [
+"It remains 'this'.",
+"It changes to 'that'.",
+"It changes to 'these'.",
+"It is omitted."
+],
+"answer": "It changes to 'that'.",
+"explanation": "Demonstratives shift to show distance in time or space; 'this' becomes 'that'."
+},
+{
+"questionEnglish": "What is the indirect form of the sentence: 'He said, I work every day.'?",
+"options": [
+"He said that he worked every day.",
+"He said that he works every day.",
+"He said that he had worked every day.",
+"He said that he will work every day."
+],
+"answer": "He said that he worked every day.",
+"explanation": "The present simple tense 'work' shifts to the past simple 'worked' when the reporting verb is in the past."
+},
+{
+"questionEnglish": "Why is the sentence 'The teacher said that the earth revolves around the sun' correct?",
+"options": [
+"Because the reporting verb is in the present.",
+"Because the statement is a universal scientific fact.",
+"Because the teacher is always right.",
+"Because the sentence has a past reporting verb but the fact is constant."
+],
+"answer": "Because the statement is a universal scientific fact.",
+"explanation": "Even with a past reporting verb, universal truths like planetary rotation remain in the present tense."
+},
+{
+"questionEnglish": "How is the location marker 'here' adjusted when reported in indirect speech?",
+"options": [
+"It remains 'here'.",
+"It changes to 'there'.",
+"It changes to 'everywhere'.",
+"It is omitted."
+],
+"answer": "It changes to 'there'.",
+"explanation": "Spatial indicators like 'here' change to 'there' to align with the new reporting perspective."
+},
+{
+"questionEnglish": "When reporting a polite request like 'Please help me', which reporting verb is most suitable?",
+"options": [
+"ordered",
+"requested",
+"asked",
+"said"
+],
+"answer": "requested",
+"explanation": "Polite requests require a reporting verb that conveys the nature of the speech act, such as 'requested'."
+},
+{
+"questionEnglish": "What is the indirect form of: 'He said, I am going to market.'?",
+"options": [
+"He said that he was going to market.",
+"He said that he is going to market.",
+"He said that he had been going to market.",
+"He said that he will be going to market."
+],
+"answer": "He said that he was going to market.",
+"explanation": "The present continuous tense 'am going' shifts to the past continuous 'was going'."
+},
+{
+"questionEnglish": "Which of these verb tenses does NOT shift when the reporting verb is in the past tense?",
+"options": [
+"Past perfect tense",
+"Present simple tense",
+"Future tense (will)",
+"Present continuous tense"
+],
+"answer": "Past perfect tense",
+"explanation": "The past perfect tense is the most distant tense in the sequence and does not change further in reported speech."
+},
+{
+"questionEnglish": "How is a negative command like 'Don't go there' reported?",
+"options": [
+"He said not to go there.",
+"He said to not go there.",
+"He told me not to go there.",
+"He asked me that I don't go there."
+],
+"answer": "He told me not to go there.",
+"explanation": "Negative commands are reported using the pattern 'not to' + the infinitive verb."
+},
+{
+"questionEnglish": "What does the word 'these' typically change into when reported in indirect speech?",
+"options": [
+"those",
+"this",
+"the",
+"their"
+],
+"answer": "those",
+"explanation": "Like 'this', the demonstrative 'these' is shifted to 'those' to reflect a shift in distance or time perspective."
+},
+{
+"questionEnglish": "If the direct speech is: 'She said, I took it.', what is the correct indirect form?",
+"options": [
+"She said that she met him.",
+"She said that she had taken it.",
+"She said that she has taken it.",
+"She said that she was taking it."
+],
+"answer": "She said that she had taken it.",
+"explanation": "The past simple 'took' backshifts to the past perfect 'had taken' in reported speech."
+},
+{
+"questionEnglish": "What is the correct approach to report an exclamatory sentence like 'How beautiful!'?",
+"options": [
+"Use 'that' and keep the exclamation mark.",
+"Convert it into a statement with an emotion-related verb like 'exclaimed with joy'.",
+"Use the word 'asked'.",
+"Use the word 'ordered'."
+],
+"answer": "Convert it into a statement with an emotion-related verb like 'exclaimed with joy'.",
+"explanation": "Exclamatory sentences lose their exclamation mark and are changed into declarative statements using descriptive reporting verbs."
+},
+{
+"questionEnglish": "In an indirect wh-question like 'He asked me where I was going', what is the word order?",
+"options": [
+"Question order (verb before subject).",
+"Statement order (subject before verb).",
+"Infinitive order.",
+"The order of the direct question remains."
+],
+"answer": "Statement order (subject before verb).",
+"explanation": "In reported questions, the word order changes from the direct question structure (interrogative) to the standard statement structure."
+},
+{
+"questionEnglish": "How does 'last night' change when reported in indirect speech?",
+"options": [
+"It becomes 'the previous night'.",
+"It becomes 'the next night'.",
+"It remains 'last night'.",
+"It becomes 'tonight'."
+],
+"answer": "It becomes 'the previous night'.",
+"explanation": "Time-sensitive adverbials like 'last night' are shifted to 'the previous night' to maintain accuracy."
+},
+{
+"questionEnglish": "If the direct speech is: 'He said, I will be there.', what does it become?",
+"options": [
+"He said he will be there.",
+"He said he would be there.",
+"He said he had been there.",
+"He said he would have been there."
+],
+"answer": "He said he would be there.",
+"explanation": "'Will' is backshifted to 'would' in indirect speech."
+},
+{
+"questionEnglish": "When reporting a suggestion such as 'Let's go', which reporting verb is most suitable?",
+"options": [
+"suggested",
+"ordered",
+"asked",
+"told"
+],
+"answer": "suggested",
+"explanation": "The structure 'let's' is used to make a suggestion, making 'suggested' the appropriate reporting verb."
+},
+{
+"questionEnglish": "What does 'shall' change to in indirect speech when the subject is the first person (I/we) and the reporting verb is in the past?",
+"options": [
+"should",
+"would",
+"could",
+"can"
+],
+"answer": "should",
+"explanation": "When reporting for the first person, 'shall' is typically shifted to 'should' in indirect speech."
+},
+{
+"questionEnglish": "What punctuation must be used after the reporting verb in direct speech?",
+"options": [
+"A period.",
+"A semicolon.",
+"A comma.",
+"No punctuation is required."
+],
+"answer": "A comma.",
+"explanation": "In direct speech, a comma is placed immediately after the reporting verb before starting the quotation."
+},
+{
+"questionEnglish": "How is 'thus' typically converted in reported speech?",
+"options": [
+"so",
+"there",
+"then",
+"this"
+],
+"answer": "so",
+"explanation": "The word 'thus' in direct speech is often converted to 'so' in indirect speech contexts."
+},
+{
+"questionEnglish": "What is the indirect form of: 'He said, I am reading.'?",
+"options": [
+"He said that he was reading.",
+"He said that he is reading.",
+"He said that he has been reading.",
+"He said that he will be reading."
+],
+"answer": "He said that he was reading.",
+"explanation": "The present continuous 'am reading' backshifts to the past continuous 'was reading'."
+},
+{
+"questionEnglish": "Why is it important to use 'if' or 'whether' for questions in reported speech?",
+"options": [
+"To distinguish them from statements.",
+"Because yes/no questions lack a question word to act as a connector.",
+"To improve formality.",
+"To change the tense."
+],
+"answer": "Because yes/no questions lack a question word to act as a connector.",
+"explanation": "Without a question word (like 'where' or 'what'), we need 'if' or 'whether' to join the reporting clause to the question."
+},
+{
+"questionEnglish": "How should you report: 'He said to me, You are my friend.'?",
+"options": [
+"He told me that I was his friend.",
+"He told me that you were his friend.",
+"He said to me that I am his friend.",
+"He told me that I had been his friend."
+],
+"answer": "He told me that I was his friend.",
+"explanation": "Pronouns are updated (you to I, my to his) and the verb 'are' shifts to 'was' to match the reporting context."
+},
+{
+"questionEnglish": "What does 'two days ago' become in indirect speech?",
+"options": [
+"two days before",
+"two days later",
+"two days after",
+"two days then"
+],
+"answer": "two days before",
+"explanation": "The time marker 'ago' shifts to 'before' when reporting past time."
+},
+{
+"questionEnglish": "If the direct speech is a command, which reporting verb is often used to convey an order?",
+"options": [
+"requested",
+"ordered",
+"suggested",
+"asked"
+],
+"answer": "ordered",
+"explanation": "When direct speech clearly indicates a command, 'ordered' or 'commanded' is the appropriate reporting verb."
+},
+{
+"questionEnglish": "In indirect speech, the phrase 'said to' followed by an object is changed to:",
+"options": [
+"told",
+"asked",
+"informed",
+"said"
+],
+"answer": "told",
+"explanation": "The verb phrase 'said to' is replaced by 'told' followed directly by the indirect object."
+},
+{
+"questionEnglish": "What occurs if the reporting verb is in the future tense?",
+"options": [
+"The reported speech verb shifts to the past.",
+"The reported speech verb remains in its original tense.",
+"The reported speech verb shifts to the present.",
+"The reported speech verb becomes a perfect tense."
+],
+"answer": "The reported speech verb remains in its original tense.",
+"explanation": "Similar to present tense reporting, future tense reporting verbs do not require a tense backshift."
+},
+{
+"questionEnglish": "What is the indirect form of: 'The boy said, I have done my work.'?",
+"options": [
+"The boy said that he had done his work.",
+"The boy said that he has done his work.",
+"The boy said that he did his work.",
+"The boy said that he would do his work."
+],
+"answer": "The boy said that he had done his work.",
+"explanation": "The present perfect 'have done' backshifts to the past perfect 'had done' after a past reporting verb."
+},
+{
+"questionEnglish": "Which is the correct indirect form for the command: 'Run fast!'?",
+"options": [
+"He told me to run fast.",
+"He told me that I run fast.",
+"He told me that I should run fast.",
+"He told me if I run fast."
+],
+"answer": "He told me to run fast.",
+"explanation": "Commands are turned into an infinitive phrase, using 'to' plus the verb."
+},
+{
+"questionEnglish": "If the direct speech mentions 'next month', what does it become in indirect speech?",
+"options": [
+"the following month",
+"the month before",
+"the next month",
+"this month"
+],
+"answer": "the following month",
+"explanation": "Future time indicators like 'next' shift to 'the following' in reported speech."
+},
+{
+"questionEnglish": "When 'must' is used in direct speech to express obligation, what can it be replaced with in indirect speech?",
+"options": [
+"had to",
+"would",
+"could",
+"might"
+],
+"answer": "had to",
+"explanation": "To express past obligation, 'must' is often converted to 'had to' in indirect speech."
+},
+{
+"questionEnglish": "Why is 'that' omitted when using 'if' or 'whether' in indirect questions?",
+"options": [
+"Because 'if' or 'whether' acts as the sole connector.",
+"Because it is considered grammatically incorrect.",
+"Because the sentence would be too long.",
+"Because questions do not accept connectors."
+],
+"answer": "Because 'if' or 'whether' acts as the sole connector.",
+"explanation": "Only one conjunction is required between the reporting clause and the question; using both would be redundant."
+},
+{
+"questionEnglish": "How is 'hence' typically handled in formal reported speech?",
+"options": [
+"thence",
+"there",
+"then",
+"so"
+],
+"answer": "thence",
+"explanation": "The word 'hence' is often replaced by the more formal 'thence' in reported speech."
+}
+]
