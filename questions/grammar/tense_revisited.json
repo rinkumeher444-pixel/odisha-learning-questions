@@ -1,0 +1,553 @@
+[
+{
+"questionEnglish": "In the sentence 'The sun rises in the east', what function does the present simple tense serve?",
+"options": [
+"To describe a temporary action",
+"To express a habitual action",
+"To state a scientific or general truth",
+"To indicate an action happening now"
+],
+"answer": "To state a scientific or general truth",
+"explanation": "The present simple tense is used for scientific truths and facts that are permanently true."
+},
+{
+"questionEnglish": "Which tense is used to describe an action happening at the current moment of speaking?",
+"options": [
+"Present simple",
+"Present progressive",
+"Past simple",
+"Past progressive"
+],
+"answer": "Present progressive",
+"explanation": "The present progressive tense indicates actions happening now or over a period of time."
+},
+{
+"questionEnglish": "Which of the following sentences correctly uses the present simple for a habitual action?",
+"options": [
+"He is eating breakfast every day.",
+"I go to school every day.",
+"She is studying science this year.",
+"They are playing football now."
+],
+"answer": "I go to school every day.",
+"explanation": "Present simple is used for habitual actions, such as going to school daily."
+},
+{
+"questionEnglish": "How is the present perfect tense defined in relation to time?",
+"options": [
+"It expresses a past action with present relevance.",
+"It expresses an action that will happen in the future.",
+"It describes an action that was in progress in the past.",
+"It describes a past action that happened at a specific moment."
+],
+"answer": "It expresses a past action with present relevance.",
+"explanation": "The present perfect tense connects a past action to the present, often highlighting its results."
+},
+{
+"questionEnglish": "Identify the tense in the sentence: 'I was studying in class IX last year.'",
+"options": [
+"Past simple",
+"Past progressive",
+"Past perfect",
+"Present progressive"
+],
+"answer": "Past progressive",
+"explanation": "Past progressive is used for an action that was in progress during a specific time in the past."
+},
+{
+"questionEnglish": "Which tense is used to express an older action in the past before another past action?",
+"options": [
+"Past simple",
+"Past progressive",
+"Past perfect",
+"Present perfect"
+],
+"answer": "Past perfect",
+"explanation": "Past perfect is used for an action completed before another point in the past."
+},
+{
+"questionEnglish": "Which form of future tense is used for an official or scheduled program?",
+"options": [
+"Will + verb",
+"Be going to + verb",
+"Present progressive",
+"Present simple"
+],
+"answer": "Present simple",
+"explanation": "The present simple is often used for scheduled official programs or facts regarding the future."
+},
+{
+"questionEnglish": "What does the sentence 'It is going to rain' indicate?",
+"options": [
+"A simple future action",
+"A scheduled program",
+"Future fulfillment based on present cause",
+"An action in progress"
+],
+"answer": "Future fulfillment based on present cause",
+"explanation": "'Be going to' is used when there is present evidence (like dark clouds) for a future event."
+},
+{
+"questionEnglish": "A sentence with one independent finite clause is called a:",
+"options": [
+"Compound sentence",
+"Complex sentence",
+"Simple sentence",
+"Co-ordinate sentence"
+],
+"answer": "Simple sentence",
+"explanation": "A sentence containing at least one independent finite clause is defined as a simple sentence."
+},
+{
+"questionEnglish": "What kind of sentence is 'Respect your elders'?",
+"options": [
+"Declarative",
+"Interrogative",
+"Imperative",
+"Exclamatory"
+],
+"answer": "Imperative",
+"explanation": "An imperative sentence expresses advice, command, or request."
+},
+{
+"questionEnglish": "Which type of sentence expresses strong admiration or surprise?",
+"options": [
+"Declarative",
+"Interrogative",
+"Imperative",
+"Exclamatory"
+],
+"answer": "Exclamatory",
+"explanation": "Exclamatory sentences express strong feelings and usually end with an exclamation mark."
+},
+{
+"questionEnglish": "What is the structure of a compound sentence?",
+"options": [
+"One independent clause",
+"Two or more independent clauses joined by coordinating conjunctions",
+"One independent clause and one dependent clause",
+"Only dependent clauses"
+],
+"answer": "Two or more independent clauses joined by coordinating conjunctions",
+"explanation": "Compound sentences consist of two or more independent clauses linked by coordinators like 'and', 'but', or 'so'."
+},
+{
+"questionEnglish": "Which of these is a correlative conjunction?",
+"options": [
+"And",
+"But",
+"Either... or",
+"Because"
+],
+"answer": "Either... or",
+"explanation": "Correlative conjunctions are pairs of words used to join elements, such as 'either... or' or 'neither... nor'."
+},
+{
+"questionEnglish": "A complex sentence contains:",
+"options": [
+"Only main clauses",
+"At least one subordinate clause",
+"Two coordinating clauses",
+"No verbs"
+],
+"answer": "At least one subordinate clause",
+"explanation": "A complex sentence consists of a main clause and one or more subordinate clauses."
+},
+{
+"questionEnglish": "In 'The teacher and the students are in the hall', why is the verb 'are' used?",
+"options": [
+"Because the subject is singular.",
+"Because the subject is a collective noun.",
+"Because the subject is plural (two combined subjects).",
+"Because it is a past tense."
+],
+"answer": "Because the subject is plural (two combined subjects).",
+"explanation": "When two subjects are joined by 'and', they form a plural subject requiring a plural verb."
+},
+{
+"questionEnglish": "Which of the following is correct regarding collective nouns?",
+"options": [
+"They always take singular verbs.",
+"They always take plural verbs.",
+"They take singular if the group is a unit and plural if members are considered individually.",
+"They take no verb."
+],
+"answer": "They take singular if the group is a unit and plural if members are considered individually.",
+"explanation": "Collective nouns like 'jury' or 'committee' depend on whether the group acts as one or as individuals."
+},
+{
+"questionEnglish": "Why is 'Physics is my favorite subject' grammatically correct?",
+"options": [
+"Physics is a plural noun.",
+"Physics is an uncountable noun and takes a singular verb.",
+"Physics is a collective noun.",
+"Because it refers to multiple topics."
+],
+"answer": "Physics is an uncountable noun and takes a singular verb.",
+"explanation": "Nouns ending in 's' like Physics, Economics, or Mathematics are uncountable and take singular verbs."
+},
+{
+"questionEnglish": "What defines a non-finite verb?",
+"options": [
+"It carries the tense of the sentence.",
+"It must agree with the subject in number and person.",
+"It does not carry any tense and has no agreement with the subject.",
+"It is the main verb of the sentence."
+],
+"answer": "It does not carry any tense and has no agreement with the subject.",
+"explanation": "Non-finite verbs do not change based on tense, person, or number, unlike finite verbs."
+},
+{
+"questionEnglish": "Which of the following is a non-finite verb form?",
+"options": [
+"He goes",
+"They ran",
+"To write",
+"She sings"
+],
+"answer": "To write",
+"explanation": "The infinitive 'to write' is a non-finite verb form."
+},
+{
+"questionEnglish": "Which verbs are followed by a verb without 'to'?",
+"options": [
+"Want",
+"Let",
+"Hope",
+"Decide"
+],
+"answer": "Let",
+"explanation": "Verbs like 'let', 'make', and 'help' are followed by the base form of the verb without 'to'."
+},
+{
+"questionEnglish": "What is the function of the preposition 'in' regarding place?",
+"options": [
+"To show an exact point.",
+"To show being within a larger area or building.",
+"To show touching a surface.",
+"To show a movement away from something."
+],
+"answer": "To show being within a larger area or building.",
+"explanation": "'In' is used for cities, villages, or enclosed spaces/buildings."
+},
+{
+"questionEnglish": "Which preposition is used for specific dates and days?",
+"options": [
+"At",
+"In",
+"On",
+"By"
+],
+"answer": "On",
+"explanation": "'On' is the standard preposition used before days and dates."
+},
+{
+"questionEnglish": "What is the difference between 'between' and 'among'?",
+"options": [
+"No difference.",
+"Between is for two, among is for three or more.",
+"Among is for two, between is for three or more.",
+"Between is for time, among is for place."
+],
+"answer": "Between is for two, among is for three or more.",
+"explanation": "'Between' indicates two entities, while 'among' indicates a group of more than two."
+},
+{
+"questionEnglish": "When is 'by' used in the context of time?",
+"options": [
+"To show a point of time.",
+"To show the latest time at which an action is finished.",
+"To show duration.",
+"To show past actions."
+],
+"answer": "To show the latest time at which an action is finished.",
+"explanation": "'By' indicates a deadline or the latest time an action occurs."
+},
+{
+"questionEnglish": "What is a phrasal verb?",
+"options": [
+"A verb that has no meaning.",
+"A verb formed by adding an adverb particle to the main verb to create a new meaning.",
+"A verb that only uses 'to'.",
+"A verb that is always followed by an object."
+],
+"answer": "A verb formed by adding an adverb particle to the main verb to create a new meaning.",
+"explanation": "Phrasal verbs consist of a verb plus an adverb particle, changing the original verb's meaning."
+},
+{
+"questionEnglish": "Which of these is a transitive phrasal verb?",
+"options": [
+"The car broke down.",
+"The plane took off.",
+"Turn on the light.",
+"He slept well."
+],
+"answer": "Turn on the light.",
+"explanation": "Transitive phrasal verbs require an object to complete their meaning, like 'the light'."
+},
+{
+"questionEnglish": "What does the phrasal verb 'turn down' mean?",
+"options": [
+"Accept",
+"Reject",
+"Rotate",
+"Listen"
+],
+"answer": "Reject",
+"explanation": "'Turn down' is a common phrasal verb meaning to refuse or reject a request or offer."
+},
+{
+"questionEnglish": "In the sentence 'I saw him off', what is the phrasal verb?",
+"options": [
+"I saw",
+"Saw off",
+"Saw him",
+"Off him"
+],
+"answer": "Saw off",
+"explanation": "'See off' means to accompany someone to their point of departure."
+},
+{
+"questionEnglish": "Which sentence contains a noun clause?",
+"options": [
+"I saw a blue car.",
+"He said that he was hungry.",
+"The man who is tall is my friend.",
+"Run fast."
+],
+"answer": "He said that he was hungry.",
+"explanation": "'That he was hungry' acts as the object of the verb 'said', functioning as a noun."
+},
+{
+"questionEnglish": "What is a Relative Clause?",
+"options": [
+"A clause that acts as the subject of the sentence.",
+"A clause that describes or modifies a noun.",
+"A clause that describes an action.",
+"A clause that is always independent."
+],
+"answer": "A clause that describes or modifies a noun.",
+"explanation": "Relative clauses provide more information about a noun mentioned in the main clause."
+},
+{
+"questionEnglish": "Which of these words is commonly used to introduce a relative clause?",
+"options": [
+"Because",
+"Who",
+"Although",
+"Since"
+],
+"answer": "Who",
+"explanation": "Relative pronouns like 'who', 'which', and 'that' are used to start relative clauses."
+},
+{
+"questionEnglish": "In 'The man who is tall is my friend', what is the subordinate clause?",
+"options": [
+"The man",
+"Is my friend",
+"Who is tall",
+"My friend"
+],
+"answer": "Who is tall",
+"explanation": "'Who is tall' is the relative clause modifying the noun 'man'."
+},
+{
+"questionEnglish": "A clause that functions as a noun in a sentence is called a:",
+"options": [
+"Relative clause",
+"Noun clause",
+"Adverbial clause",
+"Coordinate clause"
+],
+"answer": "Noun clause",
+"explanation": "Noun clauses perform the functions of a noun, such as a subject, object, or complement."
+},
+{
+"questionEnglish": "Which tense is indicated by 'has been'?",
+"options": [
+"Present perfect",
+"Past perfect",
+"Present simple",
+"Future perfect"
+],
+"answer": "Present perfect",
+"explanation": "The present perfect uses 'has/have' with a past participle."
+},
+{
+"questionEnglish": "Which of these is a correct example of past perfect tense?",
+"options": [
+"He eats.",
+"He had eaten.",
+"He is eating.",
+"He will eat."
+],
+"answer": "He had eaten.",
+"explanation": "Past perfect is formed with 'had' plus the past participle."
+},
+{
+"questionEnglish": "Identify the type of sentence: 'If you work hard, you will succeed.'",
+"options": [
+"Simple",
+"Compound",
+"Complex",
+"Exclamatory"
+],
+"answer": "Complex",
+"explanation": "This sentence contains an 'if' clause (subordinate) and a main clause, making it complex."
+},
+{
+"questionEnglish": "What does the phrase 'by all means' imply?",
+"options": [
+"Certainly",
+"Never",
+"Slowly",
+"Uncertainly"
+],
+"answer": "Certainly",
+"explanation": "'By all means' is an idiomatic phrase meaning 'definitely' or 'certainly'."
+},
+{
+"questionEnglish": "Which verb correctly completes the sentence: 'Physics ____ a hard subject.'",
+"options": [
+"Are",
+"Is",
+"Were",
+"Be"
+],
+"answer": "Is",
+"explanation": "Physics, as an uncountable noun, requires a singular verb."
+},
+{
+"questionEnglish": "What is the past participle of 'eat'?",
+"options": [
+"Ate",
+"Eaten",
+"Eating",
+"Eats"
+],
+"answer": "Eaten",
+"explanation": "The past participle form of eat is eaten."
+},
+{
+"questionEnglish": "What type of verb is 'He might come'?",
+"options": [
+"Finite",
+"Non-finite",
+"Infinitive",
+"Participle"
+],
+"answer": "Finite",
+"explanation": "Modal auxiliary verbs like 'might' are finite verbs."
+},
+{
+"questionEnglish": "Which preposition fits: 'He is good ___ English.'",
+"options": [
+"In",
+"At",
+"On",
+"With"
+],
+"answer": "At",
+"explanation": "We say someone is 'good at' a subject or skill."
+},
+{
+"questionEnglish": "What does the phrasal verb 'bring up' mean?",
+"options": [
+"Cancel",
+"Educate or rear",
+"Distribute",
+"Reject"
+],
+"answer": "Educate or rear",
+"explanation": "'Bring up' means to raise or educate a child."
+},
+{
+"questionEnglish": "What tense is 'They will have finished'?",
+"options": [
+"Future perfect",
+"Future simple",
+"Present perfect",
+"Past perfect"
+],
+"answer": "Future perfect",
+"explanation": "Future perfect is formed with 'will have' plus the past participle."
+},
+{
+"questionEnglish": "Which sentence uses the present progressive correctly?",
+"options": [
+"I am study now.",
+"I am studying now.",
+"I study now.",
+"I was study now."
+],
+"answer": "I am studying now.",
+"explanation": "Present progressive requires 'am/is/are' + verb-ing."
+},
+{
+"questionEnglish": "What function does a relative clause serve?",
+"options": [
+"To replace the subject.",
+"To define or identify a noun.",
+"To state the time.",
+"To connect two compound sentences."
+],
+"answer": "To define or identify a noun.",
+"explanation": "Relative clauses identify or provide extra info about nouns."
+},
+{
+"questionEnglish": "In 'The book that I bought', what is 'that'?",
+"options": [
+"A noun",
+"A relative pronoun",
+"An adverb",
+"A preposition"
+],
+"answer": "A relative pronoun",
+"explanation": "'That' functions as a relative pronoun connecting the clause to the noun 'book'."
+},
+{
+"questionEnglish": "Which is correct: 'Neither the boy nor his friends ___ responsible.'",
+"options": [
+"Is",
+"Are",
+"Be",
+"Was"
+],
+"answer": "Are",
+"explanation": "With 'neither... nor', the verb agrees with the nearer subject, which is 'friends' (plural)."
+},
+{
+"questionEnglish": "What is the meaning of 'put off'?",
+"options": [
+"Postpone",
+"Extinguish",
+"Start",
+"Finish"
+],
+"answer": "Postpone",
+"explanation": "'Put off' is a common phrasal verb for postponing an event."
+},
+{
+"questionEnglish": "What does 'in case' mean?",
+"options": [
+"Always",
+"As a precaution",
+"Never",
+"Immediately"
+],
+"answer": "As a precaution",
+"explanation": "'In case' indicates doing something as a precaution for a potential future event."
+},
+{
+"questionEnglish": "A sentence that contains more than one main clause is:",
+"options": [
+"Simple",
+"Complex",
+"Compound",
+"None"
+],
+"answer": "Compound",
+"explanation": "Compound sentences are built from two or more main (independent) clauses."
+}
+]
+
