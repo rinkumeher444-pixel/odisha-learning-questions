@@ -1,0 +1,553 @@
+[
+{
+"questionEnglish": "What are the common strategies mentioned for effective learning of grammar?",
+"options": [
+"Memorization, strict rules, and testing",
+"Learning, practice, stimulation, experimentation, realization, and revision",
+"Reading textbooks, passive listening, and copying",
+"Avoiding interaction and focusing only on written exercises"
+],
+"answer": "Learning, practice, stimulation, experimentation, realization, and revision",
+"explanation": "The preface emphasizes that grammar involves cognitive rule formation through learning, practice, stimulation, experimentation, realization, and revision."
+},
+{
+"questionEnglish": "According to the preface, what is the role of the teacher in the classroom?",
+"options": [
+"To be a dispenser of new knowledge",
+"To provide fixed sets of rules for students to memorize",
+"To act as a facilitator and encourage group interaction",
+"To lecture continuously without student input"
+],
+"answer": "To act as a facilitator and encourage group interaction",
+"explanation": "The text suggests teachers should be facilitators rather than just dispensers of knowledge, fostering group interaction and discussion."
+},
+{
+"questionEnglish": "Why should grammar lessons be integrated with other reading and writing activities?",
+"options": [
+"Because grammar cannot be taught in isolation",
+"To make the lessons more effective and relevant to actual usage",
+"To increase the number of textbook pages",
+"Because students dislike studying grammar separately"
+],
+"answer": "To make the lessons more effective and relevant to actual usage",
+"explanation": "Integrating grammar with reading and writing activities helps students see its practical application, making learning more effective."
+},
+{
+"questionEnglish": "What approach should teachers adopt regarding student activities in the classroom?",
+"options": [
+"Students should be discouraged from self-discovery",
+"Teachers should do all the work to avoid confusion",
+"Teachers should not leave activities to student self-discovery",
+"Teachers should encourage student interaction and self-discovery"
+],
+"answer": "Teachers should encourage student interaction and self-discovery",
+"explanation": "The text advises teachers not to hesitate to encourage students to have more interaction and to engage in self-discovery."
+},
+{
+"questionEnglish": "What constitutes the fundamental duty (a) mentioned in Article 51A?",
+"options": [
+"To cherish the noble ideals of the freedom struggle",
+"To protect the environment and wildlife",
+"To abide by the Constitution and respect its ideals and institutions",
+"To safeguard public property and abjure violence"
+],
+"answer": "To abide by the Constitution and respect its ideals and institutions",
+"explanation": "Article 51A, clause (a) explicitly states the duty to abide by the Constitution and respect its ideals, institutions, the National Flag, and the National Anthem."
+},
+{
+"questionEnglish": "What does the phrase 'transcending religious, linguistic and regional or sectional diversities' relate to?",
+"options": [
+"Defending the country",
+"Promoting harmony and the spirit of common brotherhood",
+"Valuing the rich heritage of culture",
+"Developing a scientific temper"
+],
+"answer": "Promoting harmony and the spirit of common brotherhood",
+"explanation": "Fundamental duty (e) speaks to promoting harmony and brotherhood amongst all people, transcending various diversities."
+},
+{
+"questionEnglish": "What is expected of every citizen under the duty related to public property?",
+"options": [
+"To improve natural environment",
+"To safeguard public property and abjure violence",
+"To develop a scientific temper",
+"To render national service"
+],
+"answer": "To safeguard public property and abjure violence",
+"explanation": "Fundamental duty (i) explicitly mentions the responsibility to safeguard public property and abjure (reject) violence."
+},
+{
+"questionEnglish": "According to the fundamental duties, who is responsible for providing education to children aged six to fourteen?",
+"options": [
+"The State Government only",
+"The Board of Secondary Education",
+"Parents or guardians",
+"The National School Board"
+],
+"answer": "Parents or guardians",
+"explanation": "Clause (k) states it is the duty of a parent or guardian to provide opportunities for education to his child/ward between the ages of six and fourteen."
+},
+{
+"questionEnglish": "What is the primary aim of including activities in the grammar textbook?",
+"options": [
+"To keep the learners busy",
+"To facilitate inductive learning and problem-solving",
+"To test student memory",
+"To replace the need for teachers"
+],
+"answer": "To facilitate inductive learning and problem-solving",
+"explanation": "The book aims to use activities for inductive learning, problem-solving, and classroom competition rather than just prescriptive rule-learning."
+},
+{
+"questionEnglish": "Which of the following is considered a 'correlative conjunction'?",
+"options": [
+"And",
+"But",
+"Neither... nor",
+"So"
+],
+"answer": "Neither... nor",
+"explanation": "Correlative conjunctions, such as 'neither... nor', 'either... or', and 'not only... but also', work in pairs and are related to each other."
+},
+{
+"questionEnglish": "In the sentence 'He found it increasingly difficult to read, for his eyes were failing', what does 'for' act as?",
+"options": [
+"A preposition",
+"A subordinating conjunction",
+"A coordinating conjunction",
+"An adverb"
+],
+"answer": "A coordinating conjunction",
+"explanation": "In this context, 'for' is used as a coordinating conjunction to show reason or cause, similar to 'because'."
+},
+{
+"questionEnglish": "When should 'among' be used instead of 'between'?",
+"options": [
+"When referring to two people",
+"When referring to three or more people or things",
+"When the objects are uncountable",
+"When referring to singular entities"
+],
+"answer": "When referring to three or more people or things",
+"explanation": "Grammatically, 'between' is typically used for two items, while 'among' is used for a group of three or more."
+},
+{
+"questionEnglish": "Which verb forms are followed by the base verb form without 'to'?",
+"options": [
+"Agree, refuse, manage",
+"Let, make, help",
+"Want, expect, plan",
+"Decide, promise, hope"
+],
+"answer": "Let, make, help",
+"explanation": "The text lists 'let', 'make', 'help', 'have', 'see', 'hear', 'watch', and 'notice' as verbs followed by the bare infinitive (base verb without 'to')."
+},
+{
+"questionEnglish": "Why are some sentences, such as 'We saw Seema writing the letter', considered to have non-finite verbs?",
+"options": [
+"Because they contain too many objects",
+"Because they do not contain a finite verb",
+"Because they lack a subject",
+"Because they change form according to tense"
+],
+"answer": "Because they do not contain a finite verb",
+"explanation": "Non-finite verb forms do not carry tense and do not change according to the subject's number or person, unlike finite verbs."
+},
+{
+"questionEnglish": "What characterizes a compound sentence?",
+"options": [
+"It contains one main clause and one subordinate clause",
+"It consists of two or more independent clauses joined by coordinating conjunctions",
+"It has only one single finite verb",
+"It does not contain any conjunctions"
+],
+"answer": "It consists of two or more independent clauses joined by coordinating conjunctions",
+"explanation": "Compound sentences are formed by joining independent clauses using coordinating conjunctions like 'and', 'but', 'or', 'so', etc."
+},
+{
+"questionEnglish": "How does a non-finite clause differ from a main clause in terms of verbs?",
+"options": [
+"Non-finite clauses have verbs that show tense",
+"Main clauses must have a non-finite verb",
+"A non-finite clause uses verb forms like participles (-ing or -ed) without tense",
+"There is no difference"
+],
+"answer": "A non-finite clause uses verb forms like participles (-ing or -ed) without tense",
+"explanation": "A main clause contains a finite verb that carries tense, whereas a non-finite clause uses non-finite verb forms like gerunds or participles."
+},
+{
+"questionEnglish": "What is the result of changing the order of clauses in 'He sealed and posted the letter'?",
+"options": [
+"The sentence becomes more formal",
+"The meaning remains identical",
+"The sentence remains grammatically correct but the meaning becomes absurd",
+"The sentence becomes ungrammatical"
+],
+"answer": "The sentence remains grammatically correct but the meaning becomes absurd",
+"explanation": "While 'He posted and sealed the letter' is grammatically structured correctly, it conveys an illogical sequence of actions."
+},
+{
+"questionEnglish": "Which phrasal verb means to 'anticipate eagerly'?",
+"options": [
+"Keep up with",
+"Look forward to",
+"Call off",
+"Turn down"
+],
+"answer": "Look forward to",
+"explanation": "The text defines 'look forward to' as anticipating eagerly."
+},
+{
+"questionEnglish": "When is a passive sentence used without a 'by-phrase'?",
+"options": [
+"Only when the subject is plural",
+"When it is not necessary to mention the agent",
+"When the verb is in the future tense",
+"When the object is a person"
+],
+"answer": "When it is not necessary to mention the agent",
+"explanation": "Passives are often used without the 'by-phrase' when the agent is unknown, irrelevant, or not necessary to mention."
+},
+{
+"questionEnglish": "Which of these is NOT a category of subordinate clauses?",
+"options": [
+"Noun clauses",
+"Relative clauses",
+"Adverb clauses",
+"Main clauses"
+],
+"answer": "Main clauses",
+"explanation": "A main clause is an independent clause; noun, relative (adjective), and adverb clauses are the three types of subordinate (dependent) clauses."
+},
+{
+"questionEnglish": "Which noun typically takes a singular verb?",
+"options": [
+"Police",
+"People",
+"Clothing",
+"Cattle"
+],
+"answer": "Clothing",
+"explanation": "Nouns like clothing, food, furniture, stationery, jewellery, and scenery generally take singular verbs, while police and people take plural verbs."
+},
+{
+"questionEnglish": "What is the purpose of using 'very' in reported speech involving exclamations?",
+"options": [
+"To make the sentence shorter",
+"To emphasize the intensity of the exclamation",
+"To change the tense of the sentence",
+"To replace the exclamation mark"
+],
+"answer": "To emphasize the intensity of the exclamation",
+"explanation": "The text notes that 'very' is used to emphasize the intensity when converting exclamations into indirect speech."
+},
+{
+"questionEnglish": "Which of these is a multi-word preposition?",
+"options": [
+"At",
+"In",
+"In addition to",
+"On"
+],
+"answer": "In addition to",
+"explanation": "'In addition to' is listed as an example of a multi-word prepositional phrase."
+},
+{
+"questionEnglish": "How are nouns like 'police' and 'cattle' generally treated in sentences?",
+"options": [
+"As singular nouns requiring singular verbs",
+"As plural nouns requiring plural verbs",
+"As uncountable nouns that take either",
+"As adjectives"
+],
+"answer": "As plural nouns requiring plural verbs",
+"explanation": "The text explicitly states that nouns like police, people, poultry, and cattle usually take plural verbs."
+},
+{
+"questionEnglish": "What does the sentence 'He could not keep up with the class' imply?",
+"options": [
+"He arrived at the class late",
+"He failed to maintain an equal pace with the class",
+"He was not allowed to enter the class",
+"He performed better than the class"
+],
+"answer": "He failed to maintain an equal pace with the class",
+"explanation": "The text defines 'keep up with' as going forward at an equal pace with someone or something."
+},
+{
+"questionEnglish": "In the context of grammar, what is time?",
+"options": [
+"A grammatical category for verb conjugation",
+"A continuous flow measured in seconds, minutes, hours, days, or years",
+"A system of rules handed down from generation to generation",
+"A set of sentence structures"
+],
+"answer": "A continuous flow measured in seconds, minutes, hours, days, or years",
+"explanation": "The text distinguishes between tense as a grammatical concept and time as a continuous, measurable flow."
+},
+{
+"questionEnglish": "What is the function of the 'by-phrase' in passive voice?",
+"options": [
+"To state the verb tense",
+"To identify the agent of the action",
+"To make the sentence shorter",
+"To replace the subject"
+],
+"answer": "To identify the agent of the action",
+"explanation": "The 'by-phrase' is used in passive constructions to indicate the agent performing the action."
+},
+{
+"questionEnglish": "Which of these pairs are correlative conjunctions?",
+"options": [
+"And, but",
+"Neither... nor, either... or",
+"So, yet",
+"Otherwise, for"
+],
+"answer": "Neither... nor, either... or",
+"explanation": "Correlative conjunctions are words that work in pairs to join alternatives, like neither... nor or either... or."
+},
+{
+"questionEnglish": "What type of verb is 'had' in the sentence 'He posted the letter after he had sealed it'?",
+"options": [
+"Non-finite verb",
+"Finite verb",
+"Modal verb",
+"Gerund"
+],
+"answer": "Finite verb",
+"explanation": "In 'he had sealed', 'had' carries the past tense, making it a finite verb."
+},
+{
+"questionEnglish": "What does the phrasal verb 'call off' mean?",
+"options": [
+"To visit someone",
+"To postpone an event",
+"To cancel an event or activity",
+"To start an activity"
+],
+"answer": "To cancel an event or activity",
+"explanation": "The phrase 'call off' is standard for canceling an event or activity."
+},
+{
+"questionEnglish": "What does 'SVO' stand for in grammatical structures?",
+"options": [
+"Subject-Verb-Object",
+"Simple-Verb-Option",
+"Sentence-Verb-Order",
+"Subject-Voice-Organization"
+],
+"answer": "Subject-Verb-Object",
+"explanation": "SVO is the standard grammatical pattern representing Subject-Verb-Object."
+},
+{
+"questionEnglish": "Which of the following is NOT an example of a noun clause?",
+"options": [
+"What he says about me does not affect me",
+"It isn't true that he cheated",
+"The house in which I lived",
+"What you told me is entirely false"
+],
+"answer": "The house in which I lived",
+"explanation": "This is a relative (adjective) clause modifying 'the house', not a noun clause acting as a subject or object."
+},
+{
+"questionEnglish": "What characterizes a passive reporting verb structure?",
+"options": [
+"It is always used with a by-phrase",
+"It allows for constructions like 'It is said that...'",
+"It only works with present tense verbs",
+"It is limited to writing"
+],
+"answer": "It allows for constructions like 'It is said that...'",
+"explanation": "Reported information can be expressed passively as 'It is said that [clause]' or '[Subject] is said to [infinitive]'."
+},
+{
+"questionEnglish": "Why is the textbook titled 'Learn and Practise Grammar' written in a specific style?",
+"options": [
+"To follow a rigid historical tradition",
+"To encourage inductive learning and stimulate student intellect",
+"To make grammar the most difficult subject",
+"To avoid the use of diagrams and pictures"
+],
+"answer": "To encourage inductive learning and stimulate student intellect",
+"explanation": "The text explains the book uses a practice-based, usage-oriented approach with inventiveness to engage student interest and intellect."
+},
+{
+"questionEnglish": "What does the term 'abjure violence' mean in the fundamental duties?",
+"options": [
+"To promote violence",
+"To use violence in self-defense",
+"To formally reject or renounce the use of violence",
+"To study the effects of violence"
+],
+"answer": "To formally reject or renounce the use of violence",
+"explanation": "To 'abjure' means to solemnly renounce, reject, or abandon a belief or practice, such as violence."
+},
+{
+"questionEnglish": "Which of these is an example of an imperative structure in passive voice?",
+"options": [
+"Shut the door",
+"The door was shut",
+"Let the door be shut",
+"The door is shutting"
+],
+"answer": "Let the door be shut",
+"explanation": "The passive form of a command like 'Shut the door' is 'Let the door be shut', which suggests rather than commands."
+},
+{
+"questionEnglish": "Why are nouns like 'clothing', 'furniture', and 'scenery' often confusing for students?",
+"options": [
+"They change form for plurals",
+"They are always plural",
+"They are uncountable and take singular verbs, unlike some other languages",
+"They can only be used as verbs"
+],
+"answer": "They are uncountable and take singular verbs, unlike some other languages",
+"explanation": "These collective nouns are uncountable in English and grammatically require singular verbs."
+},
+{
+"questionEnglish": "What does it mean to be a 'facilitator' in a classroom?",
+"options": [
+"To dictate all answers",
+"To guide students through the learning process and support their interactions",
+"To grade papers only",
+"To lecture for the entire period"
+],
+"answer": "To guide students through the learning process and support their interactions",
+"explanation": "A facilitator guides the learning process, supporting and encouraging students to participate rather than just telling them answers."
+},
+{
+"questionEnglish": "What is the primary function of a coordinate clause?",
+"options": [
+"To modify a verb in the main clause",
+"To express an idea independent of the main clause, joined by a coordinator",
+"To act as the subject of the sentence",
+"To explain the condition under which the action occurred"
+],
+"answer": "To express an idea independent of the main clause, joined by a coordinator",
+"explanation": "Coordinate clauses are independent clauses linked to other independent clauses using coordinating conjunctions."
+},
+{
+"questionEnglish": "What is indicated by the phrase 'composite culture' in the fundamental duties?",
+"options": [
+"A culture that is only found in one region",
+"A culture made up of multiple traditions and diverse influences",
+"A culture that is entirely new",
+"A culture that discourages science"
+],
+"answer": "A culture made up of multiple traditions and diverse influences",
+"explanation": "Composite culture refers to the rich blend of diverse traditions, values, and influences that form a national heritage."
+},
+{
+"questionEnglish": "Which phrase indicates a 'future' or 'anticipated' event in phrasal verbs?",
+"options": [
+"Turn down",
+"Look forward to",
+"Break down",
+"Call off"
+],
+"answer": "Look forward to",
+"explanation": "'Look forward to' expresses anticipation, which is inherently future-oriented."
+},
+{
+"questionEnglish": "What characterizes an 'unseen' passage in a grammar or language assessment?",
+"options": [
+"It is a text the student has studied in class",
+"It is a new text the student has not studied beforehand",
+"It is always a poem",
+"It does not require any comprehension"
+],
+"answer": "It is a new text the student has not studied beforehand",
+"explanation": "An 'unseen' passage is one not previously encountered in the curriculum, designed to test actual reading comprehension skills."
+},
+{
+"questionEnglish": "What does the duty to develop 'scientific temper' suggest?",
+"options": [
+"To reject all forms of technology",
+"To cultivate a rational, questioning, and objective approach to life",
+"To prioritize only arts over science",
+"To avoid inquiry"
+],
+"answer": "To cultivate a rational, questioning, and objective approach to life",
+"explanation": "Scientific temper involves fostering curiosity, rational inquiry, and objective thinking."
+},
+{
+"questionEnglish": "In the sentence 'It is said that elephants have good memories', what is the grammatical subject?",
+"options": [
+"Elephants",
+"It",
+"Memories",
+"Said"
+],
+"answer": "It",
+"explanation": "'It' functions as the dummy or formal subject for the passive reporting structure."
+},
+{
+"questionEnglish": "What is the purpose of the 'Activity' sections in the textbook?",
+"options": [
+"To test student patience",
+"To provide hands-on practice, application, and promote interactive learning",
+"To shorten the time teachers spend talking",
+"To force students to study alone"
+],
+"answer": "To provide hands-on practice, application, and promote interactive learning",
+"explanation": "Activities are designed to make learning practice-based, usage-oriented, and interactive."
+},
+{
+"questionEnglish": "Which prepositional phrase is used for indicating an alternative?",
+"options": [
+"In front of",
+"Instead of",
+"Due to",
+"Along with"
+],
+"answer": "Instead of",
+"explanation": "'Instead of' indicates an alternative or a replacement for something else."
+},
+{
+"questionEnglish": "What is the meaning of 'transcending' in the context of the fundamental duties?",
+"options": [
+"Focusing on",
+"Rising above or going beyond",
+"Being limited by",
+"Ignoring"
+],
+"answer": "Rising above or going beyond",
+"explanation": "To transcend means to go beyond or rise above limits, like going beyond religious or regional divides to promote unity."
+},
+{
+"questionEnglish": "What does it mean to be a 'sovereign' state?",
+"options": [
+"Controlled by another country",
+"Having supreme authority and independence",
+"A state without a government",
+"A state that is very small"
+],
+"answer": "Having supreme authority and independence",
+"explanation": "Sovereignty refers to a state's supreme, independent authority over its own territory and affairs."
+},
+{
+"questionEnglish": "Why is it important to use 'diagrams' and 'pictures' in a grammar textbook?",
+"options": [
+"To use up empty space",
+"To help capture interest and illustrate concepts clearly",
+"To make the book harder to read",
+"To replace the text"
+],
+"answer": "To help capture interest and illustrate concepts clearly",
+"explanation": "The text mentions using illustrations, diagrams, and pictures to make lessons more engaging and easier to understand."
+},
+{
+"questionEnglish": "What is the primary role of a 'relative clause'?",
+"options": [
+"To describe a verb",
+"To describe a noun",
+"To replace an entire sentence",
+"To act as a connector between two independent sentences"
+],
+"answer": "To describe a noun",
+"explanation": "Relative clauses function as adjectives, providing additional information or description about a noun."
+}
+]
+
