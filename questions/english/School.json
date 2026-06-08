@@ -1,552 +1,2524 @@
 [
 {
-"questionEnglish": "According to the lesson 'School's Goodbye', what does the author imply about a student's education when they leave school?",
+"questionEnglish": "According to the poem 'All Things Bright and Beautiful', who is the creator of all creatures, great and small?",
+"questionOdia": "'All Things Bright and Beautiful' କବିତା ଅନୁଯାୟୀ, ସମସ୍ତ ବଡ଼ ଓ ଛୋଟ ଜୀବଜନ୍ତୁଙ୍କ ସ୍ରଷ୍ଟା କିଏ?",
 "options": [
-"Education is fully completed once school is finished.",
-"Education does not end at school, and one must continue learning.",
-"The student no longer needs to learn anything new after leaving school.",
-"Only formal school education is considered valuable for success."
+"The Nature",
+"The Lord God",
+"The Holy Spirit",
+"The Mankind"
 ],
-"answer": "Education does not end at school, and one must continue learning.",
-"explanation": "The text emphasizes that when students move out into the wider world, they must continue their education to face life's challenges."
+"answer": "The Lord God",
+"explanation": "The poem explicitly states in its opening stanza that 'The Lord God made them all,' referring to all things bright, beautiful, wise, and wonderful."
 },
 {
-"questionEnglish": "What advice does the author give regarding the selection of a trade or profession?",
+"questionEnglish": "What glowing feature has God given to each little flower that opens, as described by C.F. Alexander?",
+"questionOdia": "ସି.ଏଫ୍. ଆଲେକଜାଣ୍ଡାରଙ୍କ ବର୍ଣ୍ଣନା ଅନୁଯାୟୀ, ଈଶ୍ଵର ପ୍ରତ୍ୟେକ ପ୍ରସ୍ଫୁଟିତ ଛୋଟ ଫୁଲକୁ କେଉଁ ଉଜ୍ଜ୍ଵଳ ବୈଶିଷ୍ଟ୍ୟ ପ୍ରଦାନ କରିଛନ୍ତି?",
 "options": [
-"Choose any job that pays the most money immediately.",
-"Select a job only if your friends are doing the same.",
-"Choose with great care and avoid occupations that lead nowhere.",
-"Always follow the path suggested by your family without question."
+"Glowing colours",
+"Tiny wings",
+"Sweet fragrance",
+"Bright petals"
 ],
-"answer": "Choose with great care and avoid occupations that lead nowhere.",
-"explanation": "The author advises students to choose carefully and avoid jobs that lack a promising or happy future."
+"answer": "Glowing colours",
+"explanation": "The poet mentions that for each little flower that opens, God made their glowing colours, adding beauty to nature."
 },
 {
-"questionEnglish": "What should a student do if they are forced to take a job that they do not like?",
+"questionEnglish": "What specific characteristic did God give to the little birds that sing, according to the poem?",
+"questionOdia": "କବିତା ଅନୁଯାୟୀ, ଗୀତ ଗାଉଥିବା ଛୋଟ ପକ୍ଷୀମାନଙ୍କୁ ଈଶ୍ଵର କେଉଁ ସ୍ଵତନ୍ତ୍ର ବୈଶିଷ୍ଟ୍ୟ ଦେଇଛନ୍ତି?",
 "options": [
-"Stay in that job forever to maintain stability.",
-"Quit immediately without finding a new one.",
-"Try to get a job that is to their liking as soon as possible.",
-"Complain to their employers until the job improves."
+"Beautiful voices",
+"Tiny wings",
+"Glowing feathers",
+"Small nests"
 ],
-"answer": "Try to get a job that is to their liking as soon as possible.",
-"explanation": "The text suggests that if one is forced into a short-term job they don't like, they should aim to change to something more suitable as soon as they can."
+"answer": "Tiny wings",
+"explanation": "The text says, 'Each little bird that sings, He made their tiny wings,' highlighting God's attention to small details."
 },
 {
-"questionEnglish": "In the context of the essay, who should students consult if they are in doubt about their future profession?",
+"questionEnglish": "How is the mountain described in the poem 'All Things Bright and Beautiful'?",
+"questionOdia": "'All Things Bright and Beautiful' କବିତାରେ ପର୍ବତକୁ କିପରି ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
 "options": [
-"Their parents only.",
-"Their classmates.",
-"Their teachers.",
-"Any stranger they meet."
+"Green-headed mountain",
+"Snow-capped mountain",
+"Purple-headed mountain",
+"Cloud-covered mountain"
 ],
-"answer": "Their teachers.",
-"explanation": "The author specifically suggests that if a student is in doubt about which choice to make, they should not hesitate to ask for advice from one of their teachers."
+"answer": "Purple-headed mountain",
+"explanation": "The poem describes the mountain as 'purple-headed' because the rays of the setting sun make the mountain-top appear bluish-red."
 },
 {
-"questionEnglish": "According to the author, what is the primary factor that success in life largely depends upon?",
+"questionEnglish": "What makes the mountain-top appear 'purple' or bluish-red according to the notes and glossary?",
+"questionOdia": "ଟିପ୍ପଣୀ ଏବଂ ଶବ୍ଦକୋଷ ଅନୁଯାୟୀ, କେଉଁ କାରଣରୁ ପର୍ବତର ଶିଖର 'ବାଇଗଣୀ' କିମ୍ବା ନୀଳ-ନାଲି ରଙ୍ଗର ଦେଖାଯାଏ?",
 "options": [
-"Financial inheritance.",
-"Good health.",
-"Knowing the right people.",
-"Always choosing the easiest path."
+"The blue mist of the morning",
+"The rays of the setting sun",
+"The green trees on the top",
+"The shadow of the dark clouds"
 ],
-"answer": "Good health.",
-"explanation": "The text states that success in life depends largely on good health, which enables one to play the game of life effectively."
+"answer": "The rays of the setting sun",
+"explanation": "The glossary explains that the rays of the setting sun make the mountain-top appear purple, which is a blend of bluish-red."
 },
 {
-"questionEnglish": "What are some of the ways mentioned to maintain a healthy body?",
+"questionEnglish": "Which two celestial phenomena are mentioned as brightening up the sky in the second stanza?",
+"questionOdia": "ଦ୍ଵିତୀୟ ଅନୁଚ୍ଛେଦରେ ଆକାଶକୁ ଆଲୋକିତ କରୁଥିବା କେଉଁ ଦୁଇଟି ମହାଜାଗତିକ ଦୃଶ୍ୟ ବିଷୟରେ ଉଲ୍ଲେଖ କରାଯାଇଛି?",
 "options": [
-"Ignoring physical exercise and staying indoors.",
-"Smoking to keep the brain alert.",
-"Cleanliness, fresh air, regular habits, and suitable recreations.",
-"Avoiding all forms of social interaction."
+"The sun and the moon",
+"The sunset and the morning",
+"The stars and the lightning",
+"The rainbow and the clouds"
 ],
-"answer": "Cleanliness, fresh air, regular habits, and suitable recreations.",
-"explanation": "The author lists these factors as essential to making oneself strong and fit for the challenges of life."
+"answer": "The sunset and the morning",
+"explanation": "The line from the poem states, 'The sunset and the morning, That brightens up the sky.'"
 },
 {
-"questionEnglish": "Why does the author advise against smoking in one's youth?",
+"questionEnglish": "What kind of wind blows in the winter season according to the poem?",
+"questionOdia": "କବିତା ଅନୁଯାୟୀ, ଶୀତଋତୁରେ କିପରି ପବନ ବହିଥାଏ?",
 "options": [
-"It is too expensive for young people.",
-"It stunts the body and clouds the brain.",
-"It is considered a sign of being unfriendly.",
-"It takes too much time away from studies."
+"The warm wind",
+"The pleasant breeze",
+"The cold wind",
+"The stormy wind"
 ],
-"answer": "It stunts the body and clouds the brain.",
-"explanation": "The text explicitly warns that smoking in youth hinders physical growth and negatively affects mental clarity."
+"answer": "The cold wind",
+"explanation": "The poem specifically mentions 'The cold wind in the winter' when listing the various creations of God."
 },
 {
-"questionEnglish": "What does the author describe as the 'deadly enemy of health and efficiency'?",
+"questionEnglish": "How does the poet describe the summer sun in 'All Things Bright and Beautiful'?",
+"questionOdia": "'All Things Bright and Beautiful' କବିତାରେ କବି ଗ୍ରୀଷ୍ମଋତୁର ସୂର୍ଯ୍ୟଙ୍କୁ କିପରି ବର୍ଣ୍ଣନା କରିଛନ୍ତି?",
 "options": [
-"Working too hard.",
-"The consumption of drink (alcohol).",
-"Reading too many books.",
-"Physical exercise."
+"The scorching sun",
+"The pleasant summer sun",
+"The bright morning sun",
+"The fiery summer sun"
 ],
-"answer": "The consumption of drink (alcohol).",
-"explanation": "The author cautions students to be temperate in all things and warns specifically against drink, calling it an enemy to health and efficiency."
+"answer": "The pleasant summer sun",
+"explanation": "The poem refers to it as 'The pleasant summer sun,' which reflects the perspective of a poet from a cold country like Ireland."
 },
 {
-"questionEnglish": "What does the author consider to be a 'priceless possession' that every student must keep untarnished?",
+"questionEnglish": "Where does the ripe fruit grow, as mentioned by the poet C.F. Alexander?",
+"questionOdia": "କବି ସି.ଏଫ୍. ଆଲେକଜାଣ୍ଡାରଙ୍କ ଦ୍ଵାରା ଉଲ୍ଲେଖ କରାଯାଇଥିବା ପାଚିଲା ଫଳ କେଉଁଠାରେ ବଢ଼ିଥାଏ?",
 "options": [
-"Academic certificates.",
-"Wealth and money.",
-"Character.",
-"Personal appearance."
+"In the forest",
+"In the garden",
+"On the mountain-top",
+"By the riverside"
 ],
-"answer": "Character.",
-"explanation": "The author emphasizes that character is a priceless possession and urges students to keep it free from any negative influence."
+"answer": "In the garden",
+"explanation": "The line 'The ripe fruit in the garden, He made them everyone' directly tells us that the ripe fruit is in the garden."
 },
 {
-"questionEnglish": "What does the author advise regarding the practice of gambling?",
+"questionEnglish": "Where are the tall trees located, according to the description in the poem?",
+"questionOdia": "କବିତାର ବର୍ଣ୍ଣନା ଅନୁଯାୟୀ, ଓଗାଳିଆ ଉଚ୍ଚ ଗଛଗୁଡ଼ିକ କେଉଁଠାରେ ଅବସ୍ଥିତ?",
 "options": [
-"It is a good way to test one's luck.",
-"It should be practiced only in moderation.",
-"It should be avoided in every form as it is a mean game.",
-"It is acceptable if you have extra money."
+"In the green wood",
+"Near the rushing river",
+"In the open meadow",
+"Around the church-yard"
 ],
-"answer": "It should be avoided in every form as it is a mean game.",
-"explanation": "The text describes gambling as trying to get something for nothing at someone else's cost and advises avoiding it completely."
+"answer": "In the green wood",
+"explanation": "The text states: 'The tall trees in the green wood,' indicating that they are found in the lush forests."
 },
 {
-"questionEnglish": "How does the author suggest spending one's leisure hours?",
+"questionEnglish": "What do we do in the meadows, according to the lines of 'All Things Bright and Beautiful'?",
+"questionOdia": "'All Things Bright and Beautiful' ର ଧାଡ଼ିଗୁଡ଼ିକ ଅନୁଯାୟୀ, ଆମେ ଘାସପଡ଼ିଆରେ କଣ କରୁ?",
 "options": [
-"By avoiding mere idling and engaging in interesting hobbies and good books.",
-"By sleeping as much as possible.",
-"By doing nothing to conserve energy.",
-"By focusing exclusively on making money."
+"We gather rushes",
+"We play",
+"We grow corn",
+"We sit silently"
 ],
-"answer": "By avoiding mere idling and engaging in interesting hobbies and good books.",
-"explanation": "The author encourages students to fill their leisure time with constructive activities and positive companionships."
+"answer": "We play",
+"explanation": "The poem mentions 'The meadows where we play,' defining meadows as an open area of grassland used for recreation."
 },
 {
-"questionEnglish": "What is the author's advice regarding the importance of the company one keeps?",
+"questionEnglish": "What are 'rushes' as defined in the notes and glossary of the text?",
+"questionOdia": "ପାଠ୍ୟପୁସ୍ତକର ଟିପ୍ପଣୀ ଓ ଶବ୍ଦକୋଷ ଅନୁଯାୟୀ 'rushes' ର ଅର୍ଥ କଣ?",
 "options": [
-"It doesn't matter who you spend your time with.",
-"To a large extent, you will be known by the company you keep.",
-"Always keep company with people who are wealthier than you.",
-"You should only spend time with your family."
+"Tall trees used for furniture",
+"Varieties of waterside plants",
+"Wild flowers growing in gardens",
+"Dry leaves found in winter"
 ],
-"answer": "To a large extent, you will be known by the company you keep.",
-"explanation": "The author highlights that the people we associate with influence us significantly and help define our reputation."
+"answer": "Varieties of waterside plants",
+"explanation": "The glossary defines 'rushes' as varieties of waterside plants, some of which are used for making mats and baskets."
 },
 {
-"questionEnglish": "What is the main message of the essay 'School's Goodbye'?",
+"questionEnglish": "Where do the rushes grow, and how often do we gather them according to the text?",
+"questionOdia": "ପାଠ୍ୟ ଅନୁଯାୟୀ, ରିଡ୍ ବା ରସେସ୍ ଗଛଗୁଡ଼ିକ କେଉଁଠାରେ ବଢ଼ନ୍ତି ଏବଂ ଆମେ ସେଗୁଡ଼ିକୁ କେତେବେଳେ ସଂଗ୍ରହ କରୁ?",
 "options": [
-"How to leave school as quickly as possible.",
-"The history of British education.",
-"Guidance for school children on becoming good human beings and citizens.",
-"The importance of avoiding teachers after graduation."
+"By the water, gathered every day",
+"On the mountain, gathered in winter",
+"In the green wood, gathered weekly",
+"In the garden, gathered during sunset"
 ],
-"answer": "Guidance for school children on becoming good human beings and citizens.",
-"explanation": "The text is an address to departing students, offering advice on health, character, and professional growth."
+"answer": "By the water, gathered every day",
+"explanation": "The text specifies, 'The rushes by the water, We gather every day.'"
 },
 {
-"questionEnglish": "What does the term 'welfare' mean in the context of the text?",
+"questionEnglish": "According to the poet, why has God given us eyes?",
+"questionOdia": "କବିଙ୍କ ଅନୁଯାୟୀ, ଈଶ୍ଵର ଆମକୁ ଚକ୍ଷୁ କାହିଁକି ପ୍ରଦାନ କରିଛନ୍ତି?",
 "options": [
-"The academic grades of a student.",
-"The health and happiness of people.",
-"The salary one earns from a job.",
-"The discipline maintained in school."
+"To read beautiful poems",
+"To see all the beautiful creations",
+"To look at the purple mountains",
+"To watch the sunset only"
 ],
-"answer": "The health and happiness of people.",
-"explanation": "The glossary provided in the text defines welfare as the health and happiness of people."
+"answer": "To see all the beautiful creations",
+"explanation": "The poem reads, 'He gave us eyes to see them,' referring to all the bright, beautiful, wise, and wonderful things God has made."
 },
 {
-"questionEnglish": "How is the word 'ambitious' defined in the glossary?",
+"questionEnglish": "What purpose do our lips serve according to the final stanza of the poem?",
+"questionOdia": "କବିତାର ଶେଷ ଅନୁଚ୍ଛେଦ ଅନୁଯାୟୀ ଆମ ଓଠ କେଉଁ ଉଦ୍ଦେଶ୍ୟ ସାଧନ କରେ?",
 "options": [
-"Being lazy and uninterested.",
-"Actively seeking success, wealth, status, etc.",
-"Being satisfied with what one has.",
-"Someone who is always complaining."
+"To taste the ripe fruits",
+"To praise how great is God Almighty",
+"To sing like the little birds",
+"To speak politely with everyone"
 ],
-"answer": "Actively seeking success, wealth, status, etc.",
-"explanation": "The glossary explains that being ambitious refers to the active pursuit of success and status."
+"answer": "To praise how great is God Almighty",
+"explanation": "The lines express, 'And lips that we might tell How great is God Almighty, who has made all things well.'"
 },
 {
-"questionEnglish": "What does the term 'untarnished' mean according to the text?",
+"questionEnglish": "In which famous book or collection by Cecil Frances Alexander is the poem 'All Things Bright and Beautiful' included?",
+"questionOdia": "ସେସିଲ୍ ଫ୍ରାନ୍ସିସ୍ ଆଲେକଜାଣ୍ଡାରଙ୍କ କେଉଁ ପ୍ରସିଦ୍ଧ ପୁସ୍ତକ କିମ୍ବା ସଂଗ୍ରହରେ 'All Things Bright and Beautiful' କବିତାଟି ସ୍ଥାନିତ ହୋଇଛି?",
 "options": [
-"Something that is very expensive.",
-"Something free from or without any black spot.",
-"Something that is very old.",
-"Something that is easily broken."
+"Christmas Carol",
+"Once in Royal David's City",
+"Verses for Holy Season",
+"Hymns for Children"
 ],
-"answer": "Something free from or without any black spot.",
-"explanation": "In the text, it is used to describe character, meaning it should be kept pure and free from blemish."
+"answer": "Hymns for Children",
+"explanation": "The section 'About the Poet' clearly states that this poem is included in her collection titled 'Hymns for Children'."
 },
 {
-"questionEnglish": "What does 'recreation' refer to in the context of the lesson?",
+"questionEnglish": "Where and when was Cecil Frances Alexander born?",
+"questionOdia": "ସେସିଲ୍ ଫ୍ରାନ୍ସିସ୍ ଆଲେକଜାଣ୍ଡାର କେଉଁଠାରେ ଏବଂ କେବେ ଜନ୍ମଗ୍ରହଣ କରିଥିଲେ?",
 "options": [
-"A hobby, amusement, game, or pastime.",
-"A type of school subject.",
-"A formal job interview.",
-"A medical check-up."
+"Dublin, Ireland in 1818",
+"London, England in 1770",
+"Allahabad, India in 1889",
+"Mexico City, Mexico in 1895"
 ],
-"answer": "A hobby, amusement, game, or pastime.",
-"explanation": "The glossary defines recreation as any activity used for relaxation or amusement."
+"answer": "Dublin, Ireland in 1818",
+"explanation": "The textbook mentions she was born in Dublin, Ireland, in the year 1818."
 },
 {
-"questionEnglish": "What does it mean to 'sap' one's health?",
+"questionEnglish": "What is the meaning of the word 'meadow' as given in the textbook's glossary?",
+"questionOdia": "ପାଠ୍ୟପୁସ୍ତକର ଶବ୍ଦକୋଷ ଅନୁଯାୟୀ 'meadow' ଶବ୍ଦର ଅର୍ଥ କଣ?",
 "options": [
-"To improve one's health.",
-"To exercise in the morning.",
-"To gradually weaken.",
-"To measure one's physical strength."
+"A deep narrow valley",
+"An open area of grassland",
+"A dense green forest",
+"A field filled with ripe corn"
 ],
-"answer": "To gradually weaken.",
-"explanation": "The text warns against things that will 'sap' health, meaning things that will slowly drain or weaken it."
+"answer": "An open area of grassland",
+"explanation": "The glossary defines meadow as 'an open area of grassland' where children usually play."
 },
 {
-"questionEnglish": "What is meant by the phrase 'stunt the body'?",
+"questionEnglish": "What items can be manufactured using some varieties of rushes?",
+"questionOdia": "କିଛି ନିର୍ଦ୍ଦିଷ୍ଟ ପ୍ରକାରର ରସେସ୍ (ଜଳଜ ଉଦ୍ଭିଦ) ବ୍ୟବହାର କରି କେଉଁ ସାମଗ୍ରୀ ତିଆରି କରାଯାଇପାରିବ?",
 "options": [
-"To make the body grow faster.",
-"To prevent someone from growing properly.",
-"To exercise the muscles of the body.",
-"To decorate the body with tattoos."
+"Wooden furniture and doors",
+"Mats and baskets",
+"Paper and ink",
+"Clothing and stockings"
 ],
-"answer": "To prevent someone from growing properly.",
-"explanation": "The glossary explains that to 'stunt' is to inhibit proper growth."
+"answer": "Mats and baskets",
+"explanation": "The notes specify that some varieties of waterside plants called rushes are used for making mats and baskets."
 },
 {
-"questionEnglish": "What is the definition of 'considerate' as used in the text?",
+"questionEnglish": "Through what means do human beings enjoy God's beautiful creation according to Activity-III?",
+"questionOdia": "କାର୍ଯ୍ୟକଳାପ-III ଅନୁଯାୟୀ ମନୁଷ୍ୟ ଭଗବାନଙ୍କ ସୁନ୍ଦର ସୃଷ୍ଟିକୁ କେଉଁ ମାଧ୍ୟମରେ ଉପଭୋଗ କରିଥାଏ?",
 "options": [
-"Someone who only cares about themselves.",
-"Someone who is very intelligent but rude.",
-"Unselfish, giving thought to the happiness and comfort of others.",
-"Someone who is very wealthy and powerful."
+"Through the five senses",
+"Through good books",
+"Through monetary wealth",
+"Through continuous traveling"
 ],
-"answer": "Unselfish, giving thought to the happiness and comfort of others.",
-"explanation": "The glossary defines being considerate as being thoughtful and kind towards the comfort of others."
+"answer": "Through the five senses",
+"explanation": "Activity-III states, 'We enjoy God's creation through the five senses mentioned above' (ears, eyes, tongue, skin, nose)."
 },
 {
-"questionEnglish": "Why is it necessary to 'make provision for hard times'?",
+"questionEnglish": "Who is the author of the prose piece 'A Letter to God' included in the textbook?",
+"questionOdia": "ପାଠ୍ୟପୁସ୍ତକରେ ଅନ୍ତର୍ଭୁକ୍ତ 'A Letter to God' ଗଦ୍ୟ ରଚନାର ସ୍ରଷ୍ଟା କିଏ?",
 "options": [
-"Because life is always easy and predictable.",
-"Because everyone likes to spend all their money.",
-"To be prepared for financial or personal crises in the future.",
-"To show off one's wealth to others."
+"William Wordsworth",
+"G. L. Fuentes",
+"Lord Eustace Percy",
+"George Herbert"
 ],
-"answer": "To be prepared for financial or personal crises in the future.",
-"explanation": "Making provisions like savings is a way to ensure security during difficult or unexpected periods."
+"answer": "G. L. Fuentes",
+"explanation": "The text explicitly names G. L. Fuentes as the author of the story 'A Letter to God'."
 },
 {
-"questionEnglish": "Which of the following is NOT an attribute of a good character mentioned in the text?",
+"questionEnglish": "Where was Lencho's house located inside the entire valley?",
+"questionOdia": "ସମଗ୍ର ଉପତ୍ୟକା ମଧ୍ୟରେ ଲେଞ୍ଚୋର ଘରଟି କେଉଁଠାରେ ଅବସ୍ଥିତ ଥିଲା?",
 "options": [
-"Being truthful in all things.",
-"Being kind and helpful to the weak.",
-"Being fair to your rivals.",
-"Being selfish to protect your own interests."
+"On the crest of a low hill",
+"Deep inside a dense green forest",
+"By the bank of a rushing river",
+"In the middle of a busy town market"
 ],
-"answer": "Being selfish to protect your own interests.",
-"explanation": "The text specifically encourages being considerate and unselfish, which is the opposite of being selfish."
+"answer": "On the crest of a low hill",
+"explanation": "The story describes Lencho's house as 'the only one in the entire valley- sat on the crest of a low hill.'"
 },
 {
-"questionEnglish": "What does the author mean by 'playing the game' in every sense of the word?",
+"questionEnglish": "What did the field of ripe corn dotted with flowers always promise?",
+"questionOdia": "ଫୁଲରେ ପରିପୂର୍ଣ୍ଣ ପାଚିଲା ମକା କ୍ଷେତଟି ସଦାସର୍ବଦା କଣ ପ୍ରତିଶ୍ରୁତି ଦେଉଥିଲା?",
 "options": [
-"Participating in outdoor sports only.",
-"Acting with fairness, integrity, and honor in all life situations.",
-"Always trying to win at any cost.",
-"Playing video games to pass the time."
+"A severe financial crisis",
+"A good harvest",
+"An attack by a plague of locusts",
+"A fast-flowing river stream"
 ],
-"answer": "Acting with fairness, integrity, and honor in all life situations.",
-"explanation": "It is a metaphorical expression for behaving ethically and responsibly, not just playing a physical game."
+"answer": "A good harvest",
+"explanation": "The text states that the field of ripe corn dotted with flowers 'always promised a good harvest.'"
 },
 {
-"questionEnglish": "What should be our attitude towards those who are 'weak and suffering'?",
+"questionEnglish": "What was the only thing that the earth needed according to Lencho's observation in the morning?",
+"questionOdia": "ସକାଳେ ଲେଞ୍ଚୋର ନିରୀକ୍ଷଣ ଅନୁଯାୟୀ ପୃଥିବୀକୁ କେଉଁ ଏକମାତ୍ର ଜିନିଷର ଆବଶ୍ୟକତା ଥିଲା?",
 "options": [
-"We should ignore them as they are not our problem.",
-"We should be kind and helpful to them.",
-"We should compete with them to win.",
-"We should blame them for their condition."
+"Chemical fertilizers",
+"A downpour or at least a shower",
+"Strong spinning winds",
+"New silver coins"
 ],
-"answer": "We should be kind and helpful to them.",
-"explanation": "The author advocates for showing kindness and support to those who are less fortunate."
+"answer": "A downpour or at least a shower",
+"explanation": "The story explicitly notes, 'The only thing the earth needed was a downpour or at least a shower.'"
 },
 {
-"questionEnglish": "What is an 'imperative sentence' as described in the text?",
+"questionEnglish": "In which direction did Lencho keep looking throughout the morning to anticipate rain?",
+"questionOdia": "ବର୍ଷାର ଆଶା ରଖି ଲେଞ୍ଚୋ ସକାଳସାରା କେଉଁ ଦିଗକୁ ଅନବରତ ଚାହିଁ ରହିଥିଲା?",
 "options": [
-"A sentence that asks a question.",
-"A sentence that expresses surprise.",
-"A sentence that expresses an order, request, advice, or warning.",
-"A sentence that only contains a subject and a verb."
+"Towards the South-West",
+"Towards the North-East",
+"Towards the North-West",
+"Towards the South-East"
 ],
-"answer": "A sentence that expresses an order, request, advice, or warning.",
-"explanation": "The text explains that imperative sentences, like 'Avoid anything that will sap your health', are used for giving directives."
+"answer": "Towards the North-East",
+"explanation": "Lencho had 'done nothing else but see the sky towards the north-east' expecting rain clouds."
 },
 {
-"questionEnglish": "In an imperative sentence, what is usually true about the subject?",
+"questionEnglish": "What were the older boys doing while the smaller ones were playing near the house?",
+"questionOdia": "ଛୋଟ ପିଲାମାନେ ଘର ପାଖରେ ଖେଳୁଥିବା ସମୟରେ ବଡ଼ ପିଲାମାନେ କଣ କରୁଥିଲେ?",
 "options": [
-"The subject 'you' is usually not expressed.",
-"The subject must always be 'he' or 'she'.",
-"The subject is always at the end of the sentence.",
-"The subject must be a plural noun."
+"They were studying in the room",
+"They were working in the field",
+"They were collecting frozen pearls",
+"They were carrying letters to town"
 ],
-"answer": "The subject 'you' is usually not expressed.",
-"explanation": "In English, the subject 'you' is implied in imperative sentences but rarely stated."
+"answer": "They were working in the field",
+"explanation": "The text states, 'The older boys were working in the field, while the smaller ones were playing near the house.'"
 },
 {
-"questionEnglish": "When should the conjunctions 'although' or 'though' be used?",
+"questionEnglish": "What did the woman call out to everyone when it was time for supper?",
+"questionOdia": "ରାତ୍ରି ଭୋଜନର ସମୟ ହେବାକ୍ଷଣି ମହିଳାଜଣକ ସମସ୍ତଙ୍କୁ କଣ କହି ଡାକିଥିଲେ?",
 "options": [
-"To join two similar ideas.",
-"To join two contrasting statements.",
-"To start a new paragraph.",
-"To ask a question about someone's age."
+"Come for dinner",
+"Look at the north-east sky",
+"Go to the post office",
+"Collect the frozen pearls"
 ],
-"answer": "To join two contrasting statements.",
-"explanation": "The text explains that 'although' and 'though' are used to connect ideas that are in contrast to each other."
+"answer": "Come for dinner",
+"explanation": "The woman called out to them all, saying 'Come for dinner' as she was preparing the evening meal."
 },
 {
-"questionEnglish": "Which of the following is an example of an imperative sentence?",
+"questionEnglish": "What began to fall during the meal, just as Lencho had predicted?",
+"questionOdia": "ଲେଞ୍ଚୋର ପୂର୍ବାନୁମାନ ଅନୁଯାୟୀ, ଖାଉଥିବା ସମୟରେ କଣ ପଡ଼ିବାକୁ ଆରମ୍ଭ କଲା?",
 "options": [
-"I am very happy today.",
-"Go ahead.",
-"Why are you late?",
-"The weather is beautiful."
+"Large silver coins",
+"Big drops of rain",
+"Plague of locusts",
+"Flakes of white snow"
 ],
-"answer": "Go ahead.",
-"explanation": "It is an instruction/command, which is the defining characteristic of an imperative sentence."
+"answer": "Big drops of rain",
+"explanation": "The prose mentions, 'It was during the meal that, just as Lencho had predicted, big drops of rain began to fall.'"
 },
 {
-"questionEnglish": "What is one way to continue education after leaving school?",
+"questionEnglish": "How did Lencho describe the value of the big raindrops falling from the sky?",
+"questionOdia": "ଆକାଶରୁ ପଡ଼ୁଥିବା ବଡ଼ ବର୍ଷା ବିନ୍ଦୁଗୁଡ଼ିକର ମୂଲ୍ୟକୁ ଲେଞ୍ଚୋ କିପରି ବର୍ଣ୍ଣନା କରିଥିଲା?",
 "options": [
-"Stop reading books entirely.",
-"Avoid learning anything new.",
-"Engage in self-study.",
-"Rely only on what you learned in primary school."
+"Five cent pieces",
+"Ten cent pieces",
+"Silver pesos",
+"Frozen pearls"
 ],
-"answer": "Engage in self-study.",
-"explanation": "Self-study is identified as a primary way to keep learning after formal schooling ends."
+"answer": "Ten cent pieces",
+"explanation": "Lencho exclaimed, 'The big drops are ten cent pieces and the little ones are fives.'"
 },
 {
-"questionEnglish": "How does the author describe the nature of success in life?",
+"questionEnglish": "What sudden change in the weather destroyed Lencho's hope of a good harvest?",
+"questionOdia": "ପାଣିପାଗରେ କେଉଁ ଅପ୍ରତ୍ୟାଶିତ ପରିବର୍ତ୍ତନ ଲେଞ୍ଚୋର ଭଲ ଫସଲର ଆଶାକୁ ସମ୍ପୂର୍ଣ୍ଣ ରୂପେ ନଷ୍ଟ କରିଦେଲା?",
 "options": [
-"It is easily secured by everyone.",
-"It only comes to those who work hard and continue learning.",
-"It is purely a matter of luck.",
-"It is guaranteed if you finish school."
+"A sudden severe drought",
+"A strong wind and very large hailstones",
+"An attack of crop insects",
+"A massive flood from the river"
 ],
-"answer": "It only comes to those who work hard and continue learning.",
-"explanation": "Success is portrayed as a result of sustained effort and continuous self-improvement."
+"answer": "A strong wind and very large hailstones",
+"explanation": "The text notes, 'But suddenly a strong wind began to blow and along with the rain very large hailstones began to fall.'"
 },
 {
-"questionEnglish": "What does the author mean by 'part from'?",
+"questionEnglish": "What did the frozen pearls resemble to the children running out into the rain?",
+"questionOdia": "ବର୍ଷାକୁ ଦୌଡ଼ି ଯାଉଥିବା ପିଲାମାନଙ୍କ ପାଇଁ ସେହି ବରଫର ମୋତିଗୁଡ଼ିକ କାହା ପରି ସଦୃଶ ଥିଲା?",
 "options": [
-"To meet someone.",
-"To leave someone.",
-"To fight with someone.",
-"To talk to someone."
+"Ten cent pieces",
+"New silver coins",
+"Grains of corn",
+"White salt particles"
 ],
-"answer": "To leave someone.",
-"explanation": "The glossary defines 'part from' as to leave someone or something."
+"answer": "New silver coins",
+"explanation": "The author notes that the hailstones 'truly did resemble new silver coins' and the boys ran to collect them."
 },
 {
-"questionEnglish": "What does it mean to 'secure' something?",
+"questionEnglish": "For how long did the hail rain on the entire valley, including Lencho's cornfield?",
+"questionOdia": "ଲେଞ୍ଚୋର ମକାକ୍ଷେତ ସମେତ ସମଗ୍ର ଉପତ୍ୟକାରେ କେତେ ସମୟ ଧରି କୁଆପଥର ବର୍ଷା ହୋଇଥିଲା?",
 "options": [
-"To lose something.",
-"To obtain something.",
-"To give something away.",
-"To hide something."
+"For half an hour",
+"For an hour",
+"For two full days",
+"Throughout the night"
 ],
-"answer": "To obtain something.",
-"explanation": "In the context of success, it means to achieve or obtain that success."
+"answer": "For an hour",
+"explanation": "According to the story, 'For an hour the hail rained on the house, the garden, the hillside, the cornfield, on the whole valley.'"
 },
 {
-"questionEnglish": "What does the phrase 'as far as' imply?",
+"questionEnglish": "How did the field look after the hailstorm was completed?",
+"questionOdia": "କୁଆପଥର ବର୍ଷା ସରିବା ପରେ କ୍ଷେତଟି କିପରି ଦେଖାଯାଉଥିଲା?",
 "options": [
-"To the extent that.",
-"A very long distance.",
-"A short time ago.",
-"A complete stop."
+"Green and beautiful",
+"White, as if covered with salt",
+"Draped in a golden curtain",
+"Muddy with river water"
 ],
-"answer": "To the extent that.",
-"explanation": "It is used to define the limit or range to which an action should be taken."
+"answer": "White, as if covered with salt",
+"explanation": "The text describes the aftermath by saying: 'The field was white, as if covered with salt.'"
 },
 {
-"questionEnglish": "What is meant by the term 'cloud' in the context of health?",
+"questionEnglish": "What statement did Lencho make to his sons regarding the complete destruction caused by the hail?",
+"questionOdia": "କୁଆପଥର ଦ୍ଵାରା ହୋଇଥିବା ସମ୍ପୂର୍ଣ୍ଣ ବିନାଶକୁ ନେଇ ଲେଞ୍ଚୋ ତା’ର ପୁଅମାନଙ୍କୁ କଣ କହିଥିଲା?",
 "options": [
-"To make clear.",
-"To make uncertain or confused.",
-"To make brighter.",
-"To make bigger."
+"The postmaster will help us",
+"A plague of locusts would have left more than this",
+"The raindrops are silver coins",
+"No corn is needed for this year"
 ],
-"answer": "To make uncertain or confused.",
-"explanation": "When smoking 'clouds the brain', it means it confuses the mind and hampers clear thinking."
+"answer": "A plague of locusts would have left more than this",
+"explanation": "Lencho stood in the middle of the field and lamented, 'A plague of locusts would have left more than this. The hail has left nothing.'"
 },
 {
-"questionEnglish": "What is the primary role of the teacher as mentioned in the text?",
+"questionEnglish": "What was the single hope left in the hearts of Lencho's family members living in that solitary house?",
+"questionOdia": "ସେହି ନିଛାଟିଆ ଘରେ ରହୁଥିବା ଲେଞ୍ଚୋର ପରିବାର ସଦସ୍ୟଙ୍କ ମନରେ କେଉଁ ଏକମାତ୍ର ଆଶା ବାକି ରହିଥିଲା?",
 "options": [
-"To force students to study hard.",
-"To act as an advisor for life and professional choices.",
-"To punish students for minor mistakes.",
-"To tell students they know everything."
+"Loan from the local bank",
+"Help from God",
+"Supplies from the town market",
+"Compensation from the government"
 ],
-"answer": "To act as an advisor for life and professional choices.",
-"explanation": "The text encourages students to seek guidance from teachers when they are in doubt about their future."
+"answer": "Help from God",
+"explanation": "The text states: 'there was a single hope: help from God' in the hearts of all who lived in that solitary house."
 },
 {
-"questionEnglish": "What is suggested as a duty of a good citizen?",
+"questionEnglish": "How is Lencho's hardworking nature described metaphorically in the chapter?",
+"questionOdia": "ଅଧ୍ୟାୟରେ ଲେଞ୍ଚୋର କଠିନ ପରିଶ୍ରମୀ ସ୍ଵଭାବକୁ ରୂପକ ରୂପେ କିପରି ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
 "options": [
-"Ignoring the laws of the nation.",
-"Making a sacrifice for the nation.",
-"Avoiding all social responsibilities.",
-"Focusing only on personal wealth."
+"An ox of a man",
+"A lion of the fields",
+"A bird of the valley",
+"A clever fox"
 ],
-"answer": "Making a sacrifice for the nation.",
-"explanation": "Loyalty to the nation and fulfilling duties are key traits of a good citizen as described in the text."
+"answer": "An ox of a man",
+"explanation": "The expression used is 'Lencho was an ox of a man, working like an animal in the fields,' highlighting his immense physical labor."
 },
 {
-"questionEnglish": "What does 'monetary crisis' mean in the context of provisions?",
+"questionEnglish": "When did Lencho begin to write his first letter to God?",
+"questionOdia": "ଲେଞ୍ଚୋ କେବେ ଭଗବାନଙ୍କୁ ତା’ର ପ୍ରଥମ ଚିଠି ଲେଖିବା ଆରମ୍ଭ କରିଥିଲା?",
 "options": [
-"A time of great happiness.",
-"A situation where one has too much money.",
-"A financial crisis or shortage of money.",
-"A holiday period."
+"On Saturday night",
+"The following Sunday, at daybreak",
+"Immediately during the storm",
+"On Monday morning"
 ],
-"answer": "A financial crisis or shortage of money.",
-"explanation": "It refers to a hard time where money is scarce, necessitating savings as a provision."
+"answer": "The following Sunday, at daybreak",
+"explanation": "The text specifies: 'The following Sunday, at daybreak, he began to write a letter which he himself would carry to town.'"
 },
 {
-"questionEnglish": "How should we act towards our 'rivals' according to the text?",
+"questionEnglish": "How much money did Lencho ask from God to resow his field and support his family?",
+"questionOdia": "ନିଜ କ୍ଷେତରେ ପୁନର୍ବାର ବିହନ ବୁଣିବା ଏବଂ ପରିବାର ପ୍ରତିପୋଷଣ ପାଇଁ ଲେଞ୍ଚୋ ଭଗବାନଙ୍କଠାରୁ କେତେ ଟଙ୍କା ମାଗିଥିଲା?",
 "options": [
-"Be mean and try to defeat them at any cost.",
-"Be fair to them.",
-"Ignore them completely.",
-"Try to become their friend immediately."
+"Seventy pesos",
+"A hundred pesos",
+"Fifty pesos",
+"A thousand pesos"
 ],
-"answer": "Be fair to them.",
-"explanation": "The text specifically instructs students to be fair to their rivals as part of maintaining a sound character."
+"answer": "A hundred pesos",
+"explanation": "Lencho wrote: 'I need a hundred pesos in order to sow my field again and to live until the crop comes.'"
 },
 {
-"questionEnglish": "What is meant by 'beware of'?",
+"questionEnglish": "What did Lencho write on the envelope of the letter before dropping it in the mailbox?",
+"questionOdia": "ଡାକବାକ୍ସରେ ପକାଇବା ପୂର୍ବରୁ ଲେଞ୍ଚୋ ଚିଠିର ଲଫାପା ଉପରେ କଣ ଲେଖିଥିଲା?",
 "options": [
-"To look for something.",
-"To be careful and on your guard against something.",
-"To like something very much.",
-"To forget something."
+"To the Postmaster",
+"To God",
+"To the Town Mayor",
+"To my Sons"
 ],
-"answer": "To be careful and on your guard against something.",
-"explanation": "The term is used as a warning to be cautious of potential dangers like drink."
+"answer": "To God",
+"explanation": "The story explicitly states, 'He wrote "To God" on the envelope, put the letter inside and, still troubled, went to town.'"
 },
 {
-"questionEnglish": "Why should we avoid 'idling' during our leisure hours?",
+"questionEnglish": "What was the immediate physical reaction of the postmaster upon seeing the letter addressed to God?",
+"questionOdia": "ଭଗବାନଙ୍କ ଉଦ୍ଦେଶ୍ୟରେ ଲେଖାଯାଇଥିବା ଚିଠିଟିକୁ ଦେଖି ପୋଷ୍ଟମାଷ୍ଟରଙ୍କ ତତ୍କାଳ ଶାରୀରିକ ପ୍ରତିକ୍ରିୟା କଣ ଥିଲା?",
 "options": [
-"Because we should be working at all times.",
-"Because idleness is not as beneficial as engaging in interesting hobbies.",
-"Because idling is illegal.",
-"Because leisure hours should be used for sleeping only."
+"He got angry and threw it away",
+"He broke out laughing, but almost immediately turned serious",
+"He started crying out of pity",
+"He ignored it completely"
 ],
-"answer": "Because idleness is not as beneficial as engaging in interesting hobbies.",
-"explanation": "The text encourages using leisure time for activities that exert a good influence rather than just wasting time."
+"answer": "He broke out laughing, but almost immediately turned serious",
+"explanation": "The text notes that the postmaster 'broke out laughing, but almost immediately he turned serious and, tapping the letter on his desk, commented on the faith.'"
 },
 {
-"questionEnglish": "What is the result of having a 'sound mind in a sound body'?",
+"questionEnglish": "How is the personality of the postmaster described by the author in the chapter?",
+"questionOdia": "ଅଧ୍ୟାୟରେ ଲେଖକଙ୍କ ଦ୍ଵାରା ପୋଷ୍ଟମାଷ୍ଟରଙ୍କ ବ୍ୟକ୍ତିତ୍ଵ କିପରି ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
 "options": [
-"You will become famous quickly.",
-"You will be a credit to your family and a success.",
-"You will never have to work again.",
-"You will be able to travel the world."
+"A thin and cruel man",
+"A fat, amiable fellow",
+"A serious and dishonest person",
+"A young and energetic clerk"
 ],
-"answer": "You will be a credit to your family and a success.",
-"explanation": "The combination of physical and mental health is presented as a pathway to being a useful citizen and a successful person."
+"answer": "A fat, amiable fellow",
+"explanation": "The descriptive phrase used in the text is 'The postmaster- a fat, amiable fellow- also broke out laughing.'"
 },
 {
-"questionEnglish": "What is the tone of Lord Eustace Percy in the essay 'School's Goodbye'?",
+"questionEnglish": "What idea did the postmaster come up with in order to protect the writer's deep faith in God?",
+"questionOdia": "ଲେଖକଙ୍କର ଈଶ୍ଵରଙ୍କ ପ୍ରତି ଥିବା ଗଭୀର ବିଶ୍ଵାସକୁ ବଜାୟ ରଖିବା ପାଇଁ ପୋଷ୍ଟମାଷ୍ଟର କେଉଁ ଉପାୟ ଚିନ୍ତା କରିଥିଲେ?",
 "options": [
-"Angry and demanding.",
-"Indifferent and cold.",
-"Warm, encouraging, and advisory.",
-"Confused and uncertain."
+"To answer the letter",
+"To hand it over to the police",
+"To throw the letter in the dustbin",
+"To trace Lencho's address and scold him"
 ],
-"answer": "Warm, encouraging, and advisory.",
-"explanation": "The essay is written as a farewell message to students, filled with best wishes and practical guidance for their future."
+"answer": "To answer the letter",
+"explanation": "The text states, 'So, in order not to shake the writer's faith in God, the postmaster came up with an idea: answer the letter.'"
 },
 {
-"questionEnglish": "In the sentence 'Although he is leaving school, he will not forget his school days', what does 'although' signify?",
+"questionEnglish": "Apart from goodwill, ink, and paper, what else was strictly required to answer Lencho's letter?",
+"questionOdia": "ସଦ୍ଭାବନା, କାଳି ଏବଂ କାଗଜ ବ୍ୟତୀତ ଲେଞ୍ଚୋର ଚିଠିର ଉତ୍ତର ଦେବା ପାଇଁ ଅନ୍ୟ କେଉଁ ଜିନିଷର ନିତାନ୍ତ ଆବଶ୍ୟକତା ଥିଲା?",
 "options": [
-"Cause and effect.",
-"Contrast between the two clauses.",
-"Agreement between two facts.",
-"A command."
+"Official permission",
+"Money",
+"A new stamp",
+"Agricultural seeds"
 ],
-"answer": "Contrast between the two clauses.",
-"explanation": "It shows a contrast between the act of leaving the physical school and the persistence of memories/loyalty."
+"answer": "Money",
+"explanation": "When he opened it, it was evident that to answer it he needed something more than goodwill, ink, and paper—he needed the 100 pesos requested."
 },
 {
-"questionEnglish": "Which of these is a way to maintain good health mentioned in the text?",
+"questionEnglish": "How did the postmaster manage to gather the money sent to Lencho?",
+"questionOdia": "ଲେଞ୍ଚୋ ପାଖକୁ ପଠାଯାଇଥିବା ଟଙ୍କା ପୋଷ୍ଟମାଷ୍ଟର କିପରି ସଂଗ୍ରହ କରିବାରେ ସଫଳ ହୋଇଥିଲେ?",
 "options": [
-"Eating fast food.",
-"Taking suitable recreations.",
-"Staying up late at night.",
-"Avoiding fresh air."
+"He took a loan from the local government",
+"He asked for money from employees, gave part of his salary, and took from friends",
+"He sold the post office building",
+"He discovered hidden coins in the valley"
 ],
-"answer": "Taking suitable recreations.",
-"explanation": "The text lists suitable recreations as one of the essential habits for maintaining good health."
+"answer": "He asked for money from employees, gave part of his salary, and took from friends",
+"explanation": "He collected contributions from his employees, gave part of his own salary, and involved friends for 'an act of charity'."
 },
 {
-"questionEnglish": "What is a 'courteous' person like?",
+"questionEnglish": "Why was the postmaster able to send only a little more than half of the requested amount?",
+"questionOdia": "ମଗାଯାଇଥିବା ଅର୍ଥର ଅଧାରୁ ସାମାନ୍ୟ ଅଧିକ ଟଙ୍କା ପଠାଇବା ପାଇଁ ପୋଷ୍ଟମାଷ୍ଟର କାହିଁକି ସମର୍ଥ ହୋଇଥିଲେ?",
 "options": [
-"Someone who is very rude.",
-"Someone who is polite and well-mannered.",
-"Someone who is always in a hurry.",
-"Someone who never speaks."
+"Because it was impossible for him to gather together the hundred pesos",
+"Because he wanted to keep the remaining for himself",
+"Because the mail office lost some coins",
+"Because God ordered him to send less"
 ],
-"answer": "Someone who is polite and well-mannered.",
-"explanation": "Courtesy is defined by one's polite behavior and good manners towards others."
+"answer": "Because it was impossible for him to gather together the hundred pesos",
+"explanation": "The text mentions, 'It was impossible for him to gather together the hundred pesos, so he was able to send the farmer only a little more than half.'"
 },
 {
-"questionEnglish": "What is an example of 'making provisions for hard times'?",
+"questionEnglish": "What single word did the postmaster write as a signature on the letter to Lencho?",
+"questionOdia": "ଲେଞ୍ଚୋକୁ ଦିଆଯାଇଥିବା ଚିଠିରେ ପୋଷ୍ଟମାଷ୍ଟର ସ୍ଵାକ୍ଷର ରୂପେ କେଉଁ ଏକମାତ୍ର ଶବ୍ଦ ଲେଖିଥିଲେ?",
 "options": [
-"Spending all your money on a party.",
-"Saving money for future needs.",
-"Borrowing money from friends.",
-"Ignoring financial issues."
+"Postmaster",
+"Charity",
+"God",
+"Friend"
 ],
-"answer": "Saving money for future needs.",
-"explanation": "Savings are a practical way to prepare for potential financial difficulties."
+"answer": "God",
+"explanation": "He put the money in an envelope and signed it with a single word as a signature: 'God', to preserve Lencho's faith."
 },
 {
-"questionEnglish": "What should be our reaction if we see something that is 'good, pure, and noble'?",
+"questionEnglish": "What was Lencho's reaction when he counted the money inside the envelope?",
+"questionOdia": "ଲଫାପା ଭିତରେ ଥିବା ଟଙ୍କା ଗଣିବା ପରେ ଲେଞ୍ଚୋର ପ୍ରତିକ୍ରିୟା କଣ ଥିଲା?",
 "options": [
-"We should ignore it.",
-"We should have the courage to stand up for it.",
-"We should make fun of it.",
-"We should be afraid of it."
+"He became extremely happy and danced",
+"He became angry",
+"He fainted due to high surprise",
+"He expressed gratitude to the postman"
 ],
-"answer": "We should have the courage to stand up for it.",
-"explanation": "The text explicitly states that one should have the courage to support what is righteous and noble."
+"answer": "He became angry",
+"explanation": "Lencho showed not the slightest surprise on seeing the money, but 'he became angry when he counted the money' because it was short."
 },
 {
-"questionEnglish": "What does the phrase 'the company you keep' refer to?",
+"questionEnglish": "Exactly how much money reached Lencho in the first envelope?",
+"questionOdia": "ପ୍ରଥମ ଲଫାପାରେ ଲେଞ୍ଚୋ ପାଖରେ ସଠିକ୍ ଭାବେ କେତେ ଟଙ୍କା ପହଞ୍ଚିଥିଲା?",
 "options": [
-"The books you read.",
-"The clothes you wear.",
-"The people you associate and spend time with.",
-"The money you save."
+"A hundred pesos",
+"Seventy pesos",
+"Fifty pesos",
+"Thirty pesos"
 ],
-"answer": "The people you associate and spend time with.",
-"explanation": "The author uses this phrase to warn that our associations influence our character and reputation."
+"answer": "Seventy pesos",
+"explanation": "In his second letter, Lencho notes: 'Of the money that I asked for, only seventy pesos reached me.'"
 },
 {
-"questionEnglish": "Which of the following activities is NOT recommended for leisure hours?",
+"questionEnglish": "What request did Lencho make to God regarding the delivery method of the remaining thirty pesos?",
+"questionOdia": "ବାକି ଥିବା ତିରିଶି ପେସୋ ପଠାଇବା ପ୍ରଣାଳୀକୁ ନେଇ ଲେଞ୍ଚୋ ଭଗବାନଙ୍କୁ କଣ ଅନୁରୋଧ କରିଥିଲା?",
 "options": [
-"Reading good books.",
-"Engaging in interesting hobbies.",
-"Mere idling.",
-"Building positive companionship."
+"Send it directly to my farm",
+"Don't send it to me through the mail",
+"Hand it over to my older boys",
+"Deposit it in the village bank"
 ],
-"answer": "Mere idling.",
-"explanation": "The author specifically advises against 'mere idling' and suggests more constructive ways to spend leisure time."
+"answer": "Don't send it to me through the mail",
+"explanation": "He requested 'don't send it to me through the mail because the post office employees are a bunch of crooks.'"
 },
 {
-"questionEnglish": "Who is the speaker in the essay 'School's Goodbye'?",
+"questionEnglish": "What descriptive phrase did Lencho use for the post office employees in his second letter?",
+"questionOdia": "ଲେଞ୍ଚୋ ତା’ର ଦ୍ଵାରା ଲିଖିତ ଦ୍ଵିତୀୟ ଚିଠିରେ ଡାକଘରର କର୍ମଚାରୀମାନଙ୍କ ପାଇଁ କେଉଁ ବର୍ଣ୍ଣନାତ୍ମକ ଶବ୍ଦ ବ୍ୟବହାର କରିଥିଲା?",
 "options": [
-"A student who is graduating.",
-"A former Minister of Education in Britain, Lord Eustace Percy.",
-"A famous athlete.",
-"A fictional character from a story."
+"A group of saints",
+"A bunch of crooks",
+"Kind-hearted fellows",
+"A set of simple friends"
 ],
-"answer": "A former Minister of Education in Britain, Lord Eustace Percy.",
-"explanation": "The text identifies the author as Lord Eustace Percy, who was a former Minister of Education."
+"answer": "A bunch of crooks",
+"explanation": "Lencho wrote that the mail should not be used because 'the post office employees are a bunch of crooks.'"
+},
+{
+"questionEnglish": "What was Gregorio Lopez Fuentes' nationality and during which historic event did he start writing?",
+"questionOdia": "ଗ୍ରେଗୋରିଓ ଲୋପେଜ୍ ଫୁଏଣ୍ଟେସଙ୍କ ଜାତୀୟତା କଣ ଥିଲା ଏବଂ କେଉଁ ଐତିହାସିକ ଘଟଣା ସମୟରେ ସେ ଲେଖିବା ଆରମ୍ଭ କରିଥିଲେ?",
+"options": [
+"Irish writer, Irish Revolution",
+"Mexican novelist, Mexican Revolution",
+"British essayist, World War I",
+"Indian journalist, Indian Freedom Struggle"
+],
+"answer": "Mexican novelist, Mexican Revolution",
+"explanation": "The text states Fuentes was a Mexican novelist who started writing at the age of 15 when the Mexican Revolution began."
+},
+{
+"questionEnglish": "What award was conferred upon Gregorio Lopez Fuentes in the year 1935?",
+"questionOdia": "୧୯୩୫ ମସିହାରେ ଗ୍ରେଗୋରିଓ ଲୋପେଜ୍ ଫୁଏଣ୍ଟେସଙ୍କୁ କେଉଁ ପୁରସ୍କାରରେ ସମ୍ମାନିତ କରାଯାଇଥିଲା?",
+"options": [
+"Arjuna Award",
+"Padma Bhushan",
+"National Prize of Arts and Science",
+"Nobel Prize for Literature"
+],
+"answer": "National Prize of Arts and Science",
+"explanation": "The biography section notes: 'He was awarded the National Prize of Arts and Science in 1935.'"
+},
+{
+"questionEnglish": "What is the meaning of the word 'conscience' as used in the context of Lencho's faith?",
+"questionOdia": "ଲେଞ୍ଚୋର ବିଶ୍ଵାସ ପ୍ରସଙ୍ଗରେ ବ୍ୟବହୃତ 'conscience' ଶବ୍ଦର ପ୍ରକୃତ ଅର୍ଥ କଣ?",
+"options": [
+"A firm business resolution",
+"An inner sense of right and wrong",
+"A feeling of absolute hunger",
+"A friendly and pleasant manner"
+],
+"answer": "An inner sense of right and wrong",
+"explanation": "The glossary defines conscience as 'an inner sense of right and wrong' which God's eyes can see deep within."
+},
+{
+"questionEnglish": "According to the vocabulary exercise, what is a violent tropical storm in which strong winds move in a circle called?",
+"questionOdia": "ଶବ୍ଦାବଳୀ ଅଭ୍ୟାସ ଅନୁଯାୟୀ, ଏକ ପ୍ରବଳ କ୍ରାନ୍ତୀୟ ବାତ୍ୟା ଯେଉଁଥିରେ ଶକ୍ତିଶାଳୀ ପବନ ବୃତ୍ତାକାରରେ ଗତି କରେ, ତାହାକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"Gale",
+"Cyclone",
+"Tornado",
+"Whirlwind"
+],
+"answer": "Cyclone",
+"explanation": "The blank exercise defines a violent tropical storm with circular wind movements as a cyclone."
+},
+{
+"questionEnglish": "What is defined as an extremely strong wind in the vocabulary section of the chapter?",
+"questionOdia": "ଅଧ୍ୟାୟର ଶବ୍ଦାବଳୀ ବିଭାଗରେ ଅତ୍ୟନ୍ତ ଶକ୍ତିଶାଳୀ ପବନକୁ କଣ ଭାବରେ ସଂଜ୍ଞାୟିତ କରାଯାଇଛି?",
+"options": [
+"Gale",
+"Typhoon",
+"Hurricane",
+"Tornado"
+],
+"answer": "Gale",
+"explanation": "The chapter vocabulary exercise identifies 'an extremely strong wind' as a gale."
+},
+{
+"questionEnglish": "What type of storm has its centre formed by a cloud in the shape of a funnel?",
+"questionOdia": "କେଉଁ ପ୍ରକାରର ବାତ୍ୟାର କେନ୍ଦ୍ର ଏକ କାହାଳୀ (funnel) ଆକୃତିର ମେଘ ଦ୍ଵାରା ଗଠିତ ହୋଇଥାଏ?",
+"options": [
+"Typhoon",
+"Tornado",
+"Hurricane",
+"Whirlwind"
+],
+"answer": "Tornado",
+"explanation": "The description provided is: 'A violent storm whose centre is a cloud in the shape of a funnel: tornado.'"
+},
+{
+"questionEnglish": "When 'hope' is used as a verb in a sentence, what does it mean?",
+"questionOdia": "ଯେତେବେଳେ ଏକ ବାକ୍ୟରେ 'hope' ଶବ୍ଦଟି କ୍ରିୟା (verb) ରୂପେ ବ୍ୟବହୃତ ହୁଏ, ସେତେବେଳେ ଏହାର ଅର୍ଥ କଣ?",
+"options": [
+"A chance for something to happen",
+"You wish for something to happen",
+"A complete loss of faith",
+"An act of writing a long letter"
+],
+"answer": "You wish for something to happen",
+"explanation": "The text explains: 'In sentence a, hope is used as a verb which means you wish for something to happen.'"
+},
+{
+"questionEnglish": "Who is the author of the poem 'We are Seven'?",
+"questionOdia": "'We are Seven' କବିତାର କବି କିଏ?",
+"options": [
+"C.F. Alexander",
+"William Wordsworth",
+"George Herbert",
+"Jawaharlal Nehru"
+],
+"answer": "William Wordsworth",
+"explanation": "The poem 'We are Seven' is written by the legendary nature poet William Wordsworth."
+},
+{
+"questionEnglish": "How old did the little cottage girl say she was when the narrator met her?",
+"questionOdia": "କଥକଙ୍କ ସହ ଦେଖାହେବା ସମୟରେ ସେହି କୁଟୀରର ଛୋଟ ଝିଅଟି ନିଜର ବୟସ କେତେ ବୋଲି କହିଥିଲା?",
+"options": [
+"Seven years old",
+"Eight years old",
+"Twelve years old",
+"Five years old"
+],
+"answer": "Eight years old",
+"explanation": "The line from the poem states, 'She was eight years old, she said; Her hair was thick with many a curl.'"
+},
+{
+"questionEnglish": "How does the poet describe the little girl's hair in 'We are Seven'?",
+"questionOdia": "'We are Seven' କବିତାରେ କବି ଛୋଟ ଝିଅଟିର କେଶକୁ କିପରି ବର୍ଣ୍ଣନା କରିଛନ୍ତି?",
+"options": [
+"Silky and straight",
+"Thick with many a curl",
+"Short and golden-coloured",
+"Tied in a tiny knot"
+],
+"answer": "Thick with many a curl",
+"explanation": "The poem notes: 'Her hair was thick with many a curl That clustered round her head.'"
+},
+{
+"questionEnglish": "Where do two of the little maid's brothers/sisters dwell, as she answered the narrator?",
+"questionOdia": "କଥକଙ୍କ ପ୍ରଶ୍ନର ଉତ୍ତର ଦେଇ ଛୋଟ ଝିଅଟି ତା’ର ଦୁଇ ଭାଇ/ଭଉଣୀ କେଉଁଠାରେ ବାସ କରନ୍ତି ବୋଲି କହିଥିଲା?",
+"options": [
+"At Conway",
+"At sea",
+"In the church-yard cottage",
+"In heaven"
+],
+"answer": "At Conway",
+"explanation": "She stated: 'And two of us at Conway dwell, And two are gone to sea.'"
+},
+{
+"questionEnglish": "According to the little cottage girl, where do two of her siblings lie dead?",
+"questionOdia": "କୁଟୀରର ଛୋଟ ଝିଅଟି ଅନୁଯାୟୀ, ତା’ର ଦୁଇ ଭାଇଭଉଣୀ ମୃତ୍ୟୁବରଣ କରି କେଉଁଠାରେ ଶୋଇଛନ୍ତି?",
+"options": [
+"At Conway port",
+"In the church-yard",
+"Deep inside the ocean",
+"Under the cottage floor"
+],
+"answer": "In the church-yard",
+"explanation": "She noted: 'Two of us in the church-yard lie, My sister and my brother.'"
+},
+{
+"questionEnglish": "With whom does the little cottage girl live near the church-yard cottage?",
+"questionOdia": "ଗିର୍ଜାର ଶ୍ମଶାନ ପାଖ କୁଟୀରରେ ଛୋଟ ଝିଅଟି କାହା ସହିତ ବାସ କରେ?",
+"options": [
+"With her father",
+"With her mother",
+"With her grandmother",
+"She lives completely alone"
+],
+"answer": "With her mother",
+"explanation": "The poem specifies, 'And, in the church-yard cottage, I Dwell near them with my mother.'"
+},
+{
+"questionEnglish": "What argument does the narrator use to try to convince the girl that they are only five siblings?",
+"questionOdia": "ଝିଅଟିକୁ ତାଙ୍କର ଭାଇଭଉଣୀ ସଂଖ୍ୟା ମାତ୍ର ପାଞ୍ଚ ଜଣ ବୋଲି ବୁଝାଇବାକୁ ଯାଇ କଥକ କେଉଁ ଯୁକ୍ତି ଦର୍ଶାଇଛନ୍ତି?",
+"options": [
+"Two are living at Conway",
+"Two are dead and laid in the church-yard",
+"Two are working at the sea",
+"All of them are currently in heaven"
+],
+"answer": "Two are dead and laid in the church-yard",
+"explanation": "The narrator states, 'If two are in the church-yard laid, Then ye are only five,' arguing that deceased siblings should not be counted."
+},
+{
+"questionEnglish": "How far are the siblings' graves located from the little girl's mother's door?",
+"questionOdia": "ମୃତ ଭାଇଭଉଣୀମାନଙ୍କର ସମାଧି ଛୋଟ ଝିଅଟିର ମା’ଙ୍କ କବାଟଠାରୁ କେତେ ଦୂରରେ ଅବସ୍ଥିତ?",
+"options": [
+"Five steps or less",
+"Twelve steps or more",
+"A mile away into the forest",
+"Across the running river"
+],
+"answer": "Twelve steps or more",
+"explanation": "The girl replied, 'Twelve steps or more from my mother's door, And they are side by side.'"
+},
+{
+"questionEnglish": "What activity does the little maid often do while sitting upon the ground near her siblings' graves?",
+"questionOdia": "ନିଜ ଭାଇଭଉଣୀଙ୍କ ସମାଧି ନିକଟରେ ଭୂମି ଉପରେ ବସିବା ସମୟରେ ଛୋଟ ଝିଅଟି ପ୍ରାୟତଃ କେଉଁ କାର୍ଯ୍ୟ କରିଥାଏ?",
+"options": [
+"She reads holy books",
+"She knits her stockings and hems her kerchief",
+"She prepares her dinner",
+"She plays with her friends"
+],
+"answer": "She knits her stockings and hems her kerchief",
+"explanation": "The text states, 'My stockings there I often knit, My kerchief there I hem; And there upon the ground I sit.'"
+},
+{
+"questionEnglish": "What does the little girl take with her to eat her supper near the graves after sunset?",
+"questionOdia": "ସୂର୍ଯ୍ୟାସ୍ତ ପରେ ସମାଧି ନିକଟରେ ରାତ୍ରି ଭୋଜନ କରିବା ପାଇଁ ଛୋଟ ଝିଅଟି ନିଜ ସହିତ କଣ ନେଇଯାଏ?",
+"options": [
+"A large metal plate",
+"Her little porringer",
+"A loaf of fresh bread",
+"Ripe fruits from the garden"
+],
+"answer": "Her little porringer",
+"explanation": "She mentions, 'I take my little porringer, And eat my supper there.'"
+},
+{
+"questionEnglish": "Who was the first sibling to die among the seven, according to the little maid?",
+"questionOdia": "ଛୋଟ ଝିଅଟିର କହିବା ଅନୁଯାୟୀ, ସାତ ଜଣଙ୍କ ମଧ୍ୟରୁ ପ୍ରଥମେ କେଉଁ ଭାଇ କିମ୍ବା ଭଉଣୀର ମୃତ୍ୟୁ ହୋଇଥିଲା?",
+"options": [
+"Brother John",
+"Sister Jane",
+"Conway",
+"The oldest brother"
+],
+"answer": "Sister Jane",
+"explanation": "The little girl recalls, 'The first that dies was sister Jane; In bed she moaning lay.'"
+},
+{
+"questionEnglish": "Who released sister Jane from her physical pain according to the poem?",
+"questionOdia": "କବିତା ଅନୁଯାୟୀ, ଭଉଣୀ ଜେନକୁ ଶାରୀରିକ କଷ୍ଟରୁ କିଏ ମୁକ୍ତି ଦେଇଥିଲେ?",
+"options": [
+"The local doctor",
+"God",
+"Her mother",
+"Brother John"
+],
+"answer": "God",
+"explanation": "The text says, 'Till God released her of her pain; And then she went away.'"
+},
+{
+"questionEnglish": "Who played together around sister Jane's grave when the grass was dry?",
+"questionOdia": "ଘାସ ଶୁଖିଲା ଥିବା ସମୟରେ ଭଉଣୀ ଜେନର ସମାଧି ଚାରିପାଖରେ କେଉଁମାନେ ଏକାଠି ଖେଳୁଥିଲେ?",
+"options": [
+"The narrator and the girl",
+"The little girl and her brother John",
+"The mother and the children",
+"The children of Conway"
+],
+"answer": "The little girl and her brother John",
+"explanation": "The lines mention, 'Together round her grave we played, My brother John and I.'"
+},
+{
+"questionEnglish": "What weather condition is described when brother John was forced to go and die?",
+"questionOdia": "ଭାଇ ଜନର ମୃତ୍ୟୁ ହେବା ସମୟରେ କେଉଁ ପାଣିପାଗ ଅବସ୍ଥା ବିଷୟରେ ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"options": [
+"The pleasant summer season",
+"When the ground was white with snow",
+"During a heavy rainy day",
+"During a dangerous cyclone storm"
+],
+"answer": "When the ground was white with snow",
+"explanation": "The stanza begins, 'And when the ground was white with snow... My brother John was forced to go.'"
+},
+{
+"questionEnglish": "What was the final conclusion of the little maid at the end of the poem's debate?",
+"questionOdia": "କବିତାର ଯୁକ୍ତିତର୍କ ଶେଷରେ ଛୋଟ ଝିଅଟିର ଚୂଡ଼ାନ୍ତ ନିଷ୍ପତ୍ତି ବା ଜବାବ କଣ ଥିଲା?",
+"options": [
+"Nay, we are five",
+"Nay, we are seven!",
+"Yes, we are only six",
+"We are none left alive"
+],
+"answer": "Nay, we are seven!",
+"explanation": "Despite the narrator's insistence that dead siblings don't count, the poem ends with her declaring: 'Nay, we are seven!'"
+},
+{
+"questionEnglish": "How does William Wordsworth regard nature in his legendary literary works?",
+"questionOdia": "ଉଇଲିୟମ ୱାର୍ଡ଼ସୱର୍ଥ ନିଜର କାଳଜୟୀ ସାହିତ୍ୟ କୃତିଗୁଡ଼ିକରେ ପ୍ରକୃତିକୁ କିପରି ବିବେଚନା କରନ୍ତି?",
+"options": [
+"As a dangerous force",
+"As a great teacher",
+"As a financial resource",
+"As a short-lived reality"
+],
+"answer": "As a great teacher",
+"explanation": "The 'About the Poet' section explicitly states: 'He regards nature as a great teacher and his poems seek to establish an intimate relationship with it.'"
+},
+{
+"questionEnglish": "Who delivered the historic speech titled 'Tryst with Destiny' on August 14, 1947?",
+"questionOdia": "୧୪ ଅଗଷ୍ଟ ୧୯୪୭ ରେ 'Tryst with Destiny' ଶୀର୍ଷକ ଐତିହାସିକ ଅଭିଭାଷଣ କିଏ ପ୍ରଦାନ କରିଥିଲେ?",
+"options": [
+"Mahatma Gandhi",
+"Jawaharlal Nehru",
+"Dr. Sarvapalli Radhakrishnan",
+"Sunil Gavaskar"
+],
+"answer": "Jawaharlal Nehru",
+"explanation": "The chapter includes the famous speech 'Tryst with Destiny' delivered by India's first Prime Minister, Jawaharlal Nehru."
+},
+{
+"questionEnglish": "What does Jawaharlal Nehru say about the pledge India made at the dawn of history?",
+"questionOdia": "ଇତିହାସର ପ୍ରାରମ୍ଭରେ ଭାରତ ନେଇଥିବା ପ୍ରତିଜ୍ଞା ସମ୍ପର୍କରେ ଜବାହରଲାଲ ନେହେରୁ କଣ କହିଛନ୍ତି?",
+"options": [
+"It was a temporary promise",
+"We shall redeem our pledge in full or in much measure",
+"It has been completely forgotten",
+"It is impossible to fulfill"
+],
+"answer": "We shall redeem our pledge in full or in much measure",
+"explanation": "Nehru states, 'the time comes when we shall redeem our pledge, not wholly or in full measure, but very substantially.'"
+},
+{
+"questionEnglish": "According to Jawaharlal Nehru's speech, what do freedom and power bring along with them?",
+"questionOdia": "ଜବାହରଲାଲ ନେହେରୁଙ୍କ ଅଭିଭାଷଣ ଅନୁଯାୟୀ, ସ୍ଵାଧୀନତା ଏବଂ କ୍ଷମତା ନିଜ ସହିତ କଣ ଆଣିଥାଏ?",
+"options": [
+"Absolute luxury",
+"Responsibility",
+"Communal conflicts",
+"Ignorance and disease"
+],
+"answer": "Responsibility",
+"explanation": "Nehru's famous line states, 'Freedom and power bring responsibility. The responsibility rests upon this Assembly...'"
+},
+{
+"questionEnglish": "What does the service of India truly mean, as expressed by Nehru?",
+"questionOdia": "ନେହେରୁଙ୍କ ଅଭିବ୍ୟକ୍ତି ଅନୁଯାୟୀ, ଭାରତର ସେବା କରିବାର ପ୍ରକୃତ ଅର୍ଥ କଣ?",
+"options": [
+"The service of the ruling elite classes",
+"The service of the millions who suffer",
+"Amassing a huge amount of foreign wealth",
+"Building large industrial factories only"
+],
+"answer": "The service of the millions who suffer",
+"explanation": "Nehru directly remarks: 'The service of India means the service of the millions who suffer. It means the ending of poverty and ignorance...'"
+},
+{
+"questionEnglish": "Whose ultimate ambition was 'to wipe every tear from every eye' according to Nehru's description?",
+"questionOdia": "ନେହେରୁଙ୍କ ବର୍ଣ୍ଣନା ଅନୁଯାୟୀ, କାହାର ଚୂଡ଼ାନ୍ତ ମହତ୍ତ୍ଵାକାଂକ୍ଷା 'ପ୍ରତ୍ୟେକ ଆଖିରୁ ଲୁହ ପୋଛିଦେବା' ଥିଲା?",
+"options": [
+"The greatest man of our generation (Mahatma Gandhi)",
+"The British monarchs",
+"The learned men of the Assembly",
+"The authors of ancient books"
+],
+"answer": "The greatest man of our generation (Mahatma Gandhi)",
+"explanation": "Nehru refers to Mahatma Gandhi's ideal when he says, 'The ambition of the greatest man of our generation has been to wipe every tear from every eye.'"
+},
+{
+"questionEnglish": "Where was Jawaharlal Nehru educated before joining active public service?",
+"questionOdia": "ସକ୍ରିୟ ଜନସେବାରେ ଯୋଗଦେବା ପୂର୍ବରୁ ଜବାହରଲାଲ ନେହେରୁ କେଉଁଠାରେ ଶିକ୍ଷା ଗ୍ରହଣ କରିଥିଲେ?",
+"options": [
+"Harrow Public School and Trinity College, Cambridge",
+"Dublin School of Arts",
+"Mexican National Institute",
+"Puri Jagannath High School"
+],
+"answer": "Harrow Public School and Trinity College, Cambridge",
+"explanation": "The biography notes he was educated at Harrow Public School, London, and Trinity College, Cambridge."
+},
+{
+"questionEnglish": "What type of people or thought process can never make a nation truly great, as cautioned by Nehru?",
+"questionOdia": "ନେହେରୁଙ୍କ ସତର୍କବାଣୀ ଅନୁଯାୟୀ, କେଉଁ ପ୍ରକାରର ବ୍ୟକ୍ତି କିମ୍ବା ଚିନ୍ତାଧାରା ଏକ ଦେଶକୁ କେବେହେଲେ ମହାନ କରିପାରିବ ନାହିଁ?",
+"options": [
+"Those who are ambitious to succeed",
+"Those who are narrow in thought or in action",
+"Those who perform manual labour",
+"Those who build educational institutions"
+],
+"answer": "Those who are narrow in thought or in action",
+"explanation": "Nehru mentions, 'no nation can be great whose people are narrow in thought or in action.'"
+},
+{
+"questionEnglish": "What is the synonym of the word 'pledge' as identified in the textbook matching exercise?",
+"questionOdia": "ପାଠ୍ୟପୁସ୍ତକର ମେଳକ ସଂଶୋଧନ ଅଭ୍ୟାସ ଅନୁଯାୟୀ 'pledge' ଶବ୍ଦର ସମାର୍ଥବୋଧକ ଶବ୍ଦ କଣ?",
+"options": [
+"Sovereign",
+"Promise",
+"Redeem",
+"Crucial"
+],
+"answer": "Promise",
+"explanation": "In the matching table on page 33, 'pledge' corresponds directly with the meaning 'promise'."
+},
+{
+"questionEnglish": "Who wrote the biographical text highlighting the simplicity and cricketing talents of Kapil Dev?",
+"questionOdia": "କପିଲ ଦେବଙ୍କ ସରଳତା ଏବଂ କ୍ରିକେଟ ପ୍ରତିଭାକୁ ଆଲୋକପାତ କରୁଥିବା ଜୀବନୀମୂଳକ ପାଠ୍ୟଟି କିଏ ଲେଖିଛନ୍ତି?",
+"options": [
+"Jawaharlal Nehru",
+"Sunil Manohar Gavaskar",
+"Sachin Tendulkar",
+"Kapil Dev himself"
+],
+"answer": "Sunil Manohar Gavaskar",
+"explanation": "The author of the chapter regarding Kapil Dev's rise is Sunil Manohar Gavaskar, a legendary former Indian opening batsman."
+},
+{
+"questionEnglish": "At which position did Kapil Dev bat during his early days in East Africa?",
+"questionOdia": "ପୂର୍ବ ଆଫ୍ରିକାରେ ନିଜର ପ୍ରାରମ୍ଭିକ ଦିନଗୁଡ଼ିକରେ କପିଲ ଦେବ କେଉଁ ସ୍ଥାନରେ (position) ବ୍ୟାଟିଂ କରୁଥିଲେ?",
+"options": [
+"Opening batsman",
+"No. 11 batsman",
+"No. 3 batsman",
+"Wicketkeeper batsman"
+],
+"answer": "No. 11 batsman",
+"explanation": "The text notes: 'It has been a rapid rise for a lad who batted at No.11 in East Africa to come to the fore as one of the leading all-rounders.'"
+},
+{
+"questionEnglish": "Which two civilian/sports awards did Sunil Gavaskar receive from the Government of India?",
+"questionOdia": "ସୁନୀଲ ଗାଭାସ୍କର ଭାରତ ସରକାରଙ୍କଠାରୁ କେଉଁ ଦୁଇଟି ବେସାମରିକ/କ୍ରୀଡ଼ା ପୁରସ୍କାର ଗ୍ରହଣ କରିଥିଲେ?",
+"options": [
+"National Arts Prize and Science Award",
+"Arjuna Award in 1975 and Padma Bhushan in 1980",
+"Param Vir Chakra and Khel Ratna",
+"Nobel Prize and Bharat Ratna"
+],
+"answer": "Arjuna Award in 1975 and Padma Bhushan in 1980",
+"explanation": "The profile states Gavaskar received the Arjuna Award in 1975 and the Padma Bhushan in 1980."
+},
+{
+"questionEnglish": "What is the title of Sunil Gavaskar's autobiography?",
+"questionOdia": "ସୁନୀଲ ଗାଭାସ୍କରଙ୍କ ଆତ୍ମଜୀବନୀର ଶୀର୍ଷକ କଣ?",
+"options": [
+"Idols",
+"Runs n' Ruins",
+"Sunny Days",
+"One Day Wonders"
+],
+"answer": "Sunny Days",
+"explanation": "The text explicitly names his autobiography as 'Sunny Days'."
+},
+{
+"questionEnglish": "Why was Indian captain M.S. Dhoni penalised in a match against Australia in June 2011?",
+"questionOdia": "ଜୁନ୍ ୨୦୧୧ ରେ ଅଷ୍ଟ୍ରେଲିଆ ବିପକ୍ଷ ଏକ ମ୍ୟାଚରେ ଭାରତୀୟ ଅଧିନାୟକ ଏମ.ଏସ. ଧୋନିଙ୍କୁ କାହିଁକି ଦଣ୍ଡିତ କରାଯାଇଥିଲା?",
+"options": [
+"For ball tampering",
+"For a slow over-rate offence",
+"For arguing with the umpire",
+"For missing the match coin toss"
+],
+"answer": "For a slow over-rate offence",
+"explanation": "The text exercise notes that Dhoni pleaded guilty to slow over-rates as the innings was extended by 28 minutes."
+},
+{
+"questionEnglish": "According to the multiple-choice question exercise in the textbook, who is the narrator of the poem 'The Brook'?",
+"questionOdia": "ପାଠ୍ୟପୁସ୍ତକର ବହୁବିକଳ୍ପ ପ୍ରଶ୍ନ ଅଭ୍ୟାସ ଅନୁଯାୟୀ, 'The Brook' କବିତାର କଥକ କିଏ?",
+"options": [
+"The Poet",
+"The Nature",
+"The Brook itself",
+"A local traveler"
+],
+"answer": "The Brook itself",
+"explanation": "The book exercise identifies that the poem is personified and narrated in the first person by the brook."
+},
+{
+"questionEnglish": "What is the core spiritual message conveyed in George Herbert's poem 'Virtue'?",
+"questionOdia": "ଜର୍ଜ ହର୍ବର୍ଟଙ୍କ କବିତା 'Virtue' ରେ ପ୍ରଦତ୍ତ ମୁଖ୍ୟ ଆଧ୍ୟାତ୍ମିକ ବାର୍ତ୍ତା କଣ?",
+"options": [
+"All physical elements die, but only a virtuous soul lives eternally",
+"The summer sun is always pleasant",
+"Everyone should write a letter to God",
+"Poverty can be ended by continuous labor"
+],
+"answer": "All physical elements die, but only a virtuous soul lives eternally",
+"explanation": "The introduction states: 'Flowers wither, seasons change... Only virtue has eternal value and never perishes.'"
+},
+{
+"questionEnglish": "To what does George Herbert compare a sweet and virtuous soul in his poem?",
+"questionOdia": "ଜର୍ଜ ହର୍ବର୍ଟ ନିଜ କବିତାରେ ଏକ ମଧୁର ଏବଂ ଗୁଣୀ ଆତ୍ମାକୁ କାହା ସହିତ ତୁଳନା କରିଛନ୍ତି?",
+"options": [
+"A sweet blooming rose",
+"Season'd timber",
+"A clear bright day",
+"Ashy pale coal"
+],
+"answer": "Season'd timber",
+"explanation": "The line reads: 'Only a sweet and virtuous soul, Like season'd timber, never gives.'"
+},
+{
+"questionEnglish": "Who is the speaker or author of the inspiring essay titled 'School's Goodbye'?",
+"questionOdia": "'School's Goodbye' ଶୀର୍ଷକ ପ୍ରେରଣାଦାୟୀ ପ୍ରବନ୍ଧର ବକ୍ତା କିମ୍ବା ଲେଖକ କିଏ?",
+"options": [
+"Lord Eustace Percy",
+"William Wordsworth",
+"Dr. Sarvapalli Radhakrishnan",
+"Gregorio Lopez"
+],
+"answer": "Lord Eustace Percy",
+"explanation": "The essay 'School's Goodbye' is a message written for outgoing students by Lord Eustace Percy."
+},
+{
+"questionEnglish": "What was Lord Eustace Percy's previous official administrative designation in Britain?",
+"questionOdia": "ବ୍ରିଟେନରେ ଲର୍ଡ଼ ଇଉଷ୍ଟାସ୍ ପର୍ସିଙ୍କ ପୂର୍ବ ସରକାରୀ ପ୍ରଶାସନିକ ପଦବୀ କଣ ଥିଲା?",
+"options": [
+"Prime Minister",
+"Minister of Education",
+"Chief Justice",
+"Foreign Ambassador"
+],
+"answer": "Minister of Education",
+"explanation": "The text notes that Lord Eustace Percy was a former Minister of Education in Britain."
+},
+{
+"questionEnglish": "What wrong notion do pupils generally have when they are about to leave school?",
+"questionOdia": "ବିଦ୍ୟାଳୟ ଛାଡ଼ିବା ସମୟରେ ଛାତ୍ରଛାତ୍ରୀମାନଙ୍କ ମନରେ ସାଧାରଣତଃ କେଉଁ ଭୁଲ ଧାରଣା ଥାଏ?",
+"options": [
+"That they need to secure good health",
+"That their education is finished",
+"That character is a priceless possession",
+"That they should consult their teachers"
+],
+"answer": "That their education is finished",
+"explanation": "The author notes that pupils often mistakenly think that their education is completely finished when they leave school."
+},
+{
+"questionEnglish": "According to 'School's Goodbye', what type of occupations should a student strictly avoid?",
+"questionOdia": "'School's Goodbye' ଅନୁଯାୟୀ, ଜଣେ ଛାତ୍ର କେଉଁ ପ୍ରକାରର ବୃତ୍ତିକୁ ସମ୍ପୂର୍ଣ୍ଣ ରୂପେ ବର୍ଜନ କରିବା ଉଚିତ?",
+"options": [
+"Ambitious professions",
+"Any occupation that leads nowhere",
+"Manual farming in fields",
+"Public welfare services"
+],
+"answer": "Any occupation that leads nowhere",
+"explanation": "The text advises: 'Choose with the greatest care and avoid as far as you can any occupation that leads nowhere.'"
+},
+{
+"questionEnglish": "Whom should an outgoing student consult if they are in doubt regarding the choice of a profession?",
+"questionOdia": "ଜୀବିକା ବା ବୃତ୍ତି ଚୟନରେ ସନ୍ଦେହ ପ୍ରକଟ ହେଲେ ଜଣେ ବିଦ୍ୟାଳୟ ଛାଡୁଥିବା ଛାତ୍ର କାହା ସହିତ ପରାମର୍ଶ କରିବା ଆବଶ୍ୟକ?",
+"options": [
+"The village head",
+"One of their teachers",
+"The local bank manager",
+"Their fellow classmates only"
+],
+"answer": "One of their teachers",
+"explanation": "Lord Percy advises: 'do not hesitate to ask advice from one of your teachers' when in doubt about your future path."
+},
+{
+"questionEnglish": "What physical habit in youth is described as stunting the body and clouding the brain?",
+"questionOdia": "ଯୌବନାବସ୍ଥାରେ କେଉଁ ଶାରୀରିକ ଅଭ୍ୟାସ ଶରୀରର ବୃଦ୍ଧିକୁ ରୋକିଥାଏ ଏବଂ ମସ୍ତିଷ୍କକୁ ଭ୍ରମିତ କରିଥାଏ ବୋଲି ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"options": [
+"Gambling",
+"Smoking",
+"Idling",
+"Playing sports"
+],
+"answer": "Smoking",
+"explanation": "The text states: 'Smoking in your youth stunts the body, and clouds the brain.'"
+},
+{
+"questionEnglish": "What is identified as the deadly enemy of health and efficiency in 'School's Goodbye'?",
+"questionOdia": "'School's Goodbye' ପ୍ରବନ୍ଧରେ ସ୍ଵାସ୍ଥ୍ୟ ଏବଂ କାର୍ଯ୍ୟଦକ୍ଷତାର ପରମ ଶତ୍ରୁ ଭାବରେ କାହାକୁ ଚିହ୍ନଟ କରାଯାଇଛି?",
+"options": [
+"Hard labor",
+"Drink (Alcohol)",
+"Playing games",
+"Interesting hobbies"
+],
+"answer": "Drink (Alcohol)",
+"explanation": "The author cautions: 'beware of drink. It is the deadly enemy of health and efficiency.'"
+},
+{
+"questionEnglish": "What invaluable attribute is termed as a 'priceless possession' that must be kept untarnished?",
+"questionOdia": "କେଉଁ ଅମୂଲ୍ୟ ଗୁଣକୁ ଏକ 'ମୂଲ୍ୟହୀନ ସମ୍ପତ୍ତି' (priceless possession) କୁହାଯାଇଛି ଯାହାକୁ ସଦାସର୍ବଦା ନିଷ୍ପାପ ରଖିବା ଉଚିତ?",
+"options": [
+"Monetary wealth",
+"Character",
+"Professional success",
+"School leaving certificate"
+],
+"answer": "Character",
+"explanation": "The text commands: 'Above all remember that your character is a priceless possession. Keep it therefore untarnished.'"
+},
+{
+"questionEnglish": "Why is gambling defined as a 'mean game' in Lord Eustace Percy's essay?",
+"questionOdia": "ଲର୍ଡ଼ ଇଉଷ୍ଟାସ୍ ପର୍ସିଙ୍କ ପ୍ରବନ୍ଧରେ ଜୁଆ ଖେଳକୁ କାହିଁକି ଏକ 'ନୀଚ ଖେଳ' (mean game) ଭାବରେ ସଂଜ୍ଞାୟିତ କରାଯାଇଛି?",
+"options": [
+"Because it requires long traveling",
+"Because it is a mean game trying to get something for nothing and at somebody's cost",
+"Because teachers do not like it",
+"Because it requires deep memory skills"
+],
+"answer": "Because it is a mean game trying to get something for nothing and at somebody's cost",
+"explanation": "The direct quote states: 'Avoid gambling in every form; it is a mean game trying to get something for nothing and at somebody's cost.'"
+},
+{
+"questionEnglish": "How should a student utilize their leisure hours to avoid mere idling?",
+"questionOdia": "କେବଳ ସମୟ ନଷ୍ଟ ବା ଆଳସ୍ୟରୁ ରକ୍ଷା ପାଇବା ପାଇଁ ଜଣେ ଛାତ୍ର ନିଜର ଅବସର ସମୟକୁ କିପରି ବ୍ୟବହାର କରିବା ଉଚିତ?",
+"options": [
+"By sleeping long hours",
+"With interesting hobbies, good books, and good companionships",
+"By visiting busy town markets",
+"By continuous professional training without break"
+],
+"answer": "With interesting hobbies, good books, and good companionships",
+"explanation": "The essay suggests filling leisure hours with 'interesting hobbies, good books, and with companionships and associations calculated to exercise over you an influence for good.'"
+},
+{
+"questionEnglish": "According to the proverb cited in the text, how will an individual be primarily known?",
+"questionOdia": "ପାଠ୍ୟରେ ଉଲ୍ଲେଖ ଥିବା ପ୍ରବାଦ ଅନୁଯାୟୀ, ଜଣେ ବ୍ୟକ୍ତି ମୁଖ୍ୟତଃ କିପରି ଜଣାଶୁଣା ହେବେ?",
+"options": [
+"By the amount of money earned",
+"By the company they keep",
+"By the scores achieved in exams",
+"By the tallness of their physical body"
+],
+"answer": "By the company they keep",
+"explanation": "The essay strictly states: 'To a large extent, you will be known by the company you keep.'"
+},
+{
+"questionEnglish": "What character in 'The Beggar' story is a wealthy lawyer who catches a tattered creature lying?",
+"questionOdia": "'The Beggar' ଗଳ୍ପରେ କେଉଁ ଚରିତ୍ର ଜଣେ ସମୃଦ୍ଧ ଓକିଲ ଯିଏ ଜଣେ ଚିରାଚରିତ ଭିକାରୀର ମିଛ ଧରିଥିଲେ?",
+"options": [
+"Lushkoff",
+"Sergei",
+"Olga",
+"Sahuji"
+],
+"answer": "Sergei",
+"explanation": "Sergei is the advocate/lawyer who confronts the beggar for changing his false identity statements."
+},
+{
+"questionEnglish": "What false identity did the beggar claim in Sadovya Street when Sergei first met him?",
+"questionOdia": "ସାଦୋଭ୍ୟା ଷ୍ଟ୍ରିଟ୍‌ରେ ସର୍ଗେଇ ପ୍ରଥମେ ଭେଟିବା ସମୟରେ ଭିକାରୀଜଣକ ନିଜକୁ କେଉଁ ମିଥ୍ୟା ପରିଚୟ ଦେଇଥିଲେ?",
+"options": [
+"A village school teacher",
+"A student who had been expelled",
+"A professional notary public",
+"An old town postmaster"
+],
+"answer": "A student who had been expelled",
+"explanation": "Sergei remembered that the beggar previously claimed to be an expelled student rather than a village school teacher."
+},
+{
+"questionEnglish": "What is the real name of the beggar revealed later in the story?",
+"questionOdia": "ଗଳ୍ପର ପରବର୍ତ୍ତୀ ଭାଗରେ ପ୍ରକାଶ ପାଇଥିବା ଭିକାରୀର ପ୍ରକୃତ ନାମ କଣ?",
+"options": [
+"Algu Chowdhury",
+"Lushkoff",
+"Jumman Shikh",
+"Lencho"
+],
+"answer": "Lushkoff",
+"explanation": "When asked by Sergei during employment arrangements, the beggar reveals his true name as Lushkoff."
+},
+{
+"questionEnglish": "What was the initial job given to Lushkoff at Sergei's house?",
+"questionOdia": "ସର୍ଗେଇଙ୍କ ଘରେ ଲୁସ୍କଫ୍‌କୁ ପ୍ରାରମ୍ଭିକ ଭାବେ କେଉଁ କାମ ଦିଆଯାଇଥିଲା?",
+"options": [
+"Hauling furniture wagons",
+"Chopping wood in the shed",
+"Shoveling snow from markets",
+"Copying administrative letters"
+],
+"answer": "Chopping wood in the shed",
+"explanation": "Lushkoff was taken to the wood-shed to earn half a rouble by chopping logs of wood."
+},
+{
+"questionEnglish": "Who was Olga, and what was her true contribution to Lushkoff's life reform?",
+"questionOdia": "ଓଲ୍‌ଗା କିଏ ଥିଲେ ଏବଂ ଲୁସ୍କଫ୍‌ର ଜୀବନ ସୁଧାରିବାରେ ତାଙ୍କର ପ୍ରକୃତ ଅବଦାନ କଣ ଥିଲା?",
+"options": [
+"A village teacher who taught him writing",
+"Sergei's cook who actually chopped the wood for him",
+"A notary public clerk who paid his salary",
+"Lencho's wife who provided dinner"
+],
+"answer": "Sergei's cook who actually chopped the wood for him",
+"explanation": "Lushkoff confesses later that it was the noble cook Olga who shed tears and did all the hard wood-chopping work for him, which changed his heart."
+},
+{
+"questionEnglish": "What professional position did Lushkoff attain after two years, earning thirty-five roubles a month?",
+"questionOdia": "ଦୁଇ ବର୍ଷ ପରେ ଲୁସ୍କଫ୍ କେଉଁ ବୃତ୍ତିଗତ ପଦବୀ ହାସଲ କରି ମାସକୁ ପଞ୍ଚତିରିଶି ରୁବେଲ୍ ରୋଜଗାର କରୁଥିଲା?",
+"options": [
+"Schoolmaster",
+"Notary",
+"Post office clerk",
+"Professional carter"
+],
+"answer": "Notary",
+"explanation": "When Sergei encounters him at a theatre ticket window, Lushkoff proudly reveals: 'I am a notary now and am paid thirty-five roubles a month.'"
+},
+{
+"questionEnglish": "Who is the central character in the story 'The Grain as Big as a Hen's Egg' written by Leo Tolstoy?",
+"questionOdia": "ଲିଓ ଟଲଷ୍ଟୟଙ୍କ ଦ୍ଵାରା ଲିଖିତ 'The Grain as Big as a Hen's Egg' ଗଳ୍ପର ମୁଖ୍ୟ ଚରିତ୍ର କିଏ?",
+"options": [
+"The Postmaster",
+"The Old Peasant's Grandfather",
+"Jumman's Old Aunt",
+"Kapil Dev"
+],
+"answer": "The Old Peasant's Grandfather",
+"explanation": "The story revolves around three generations of peasants, where the grandfather is the wisest and healthier figure explaining the giant corn."
+},
+{
+"questionEnglish": "How did the grand learned men of the king discover that the mysterious object was a grain of corn?",
+"questionOdia": "ରାଜାଙ୍କର ମହାନ ପଣ୍ଡିତମାନେ କିପରି ଆବିଷ୍କାର କଲେ ଯେ ସେହି ରହସ୍ୟମୟ ବସ୍ତୁଟି ଏକ ମକା ଦାନା ଥିଲା?",
+"options": [
+"By reading old history books",
+"When a hen flew in and pecked at it till a hole was made",
+"By measuring its absolute weight",
+"By asking the town postmaster"
+],
+"answer": "When a hen flew in and pecked at it till a hole was made",
+"explanation": "The wise men only discovered the truth after a hen pecked a hole into it, revealing it to be a massive grain of corn."
+},
+{
+"questionEnglish": "What was unique about the land during the grandfather's time as described in the story?",
+"questionOdia": "ଗଳ୍ପର ବର୍ଣ୍ଣନା ଅନୁଯାୟୀ ଜେଜେବାପାଙ୍କ ସମୟରେ ଭୂମି ବା ଜମିର କେଉଁ ସ୍ଵତନ୍ତ୍ରତା ଥିଲା?",
+"options": [
+"The land was heavily taxed by kings",
+"The land was free and no one owned it individually",
+"The land was covered with toxic chemicals",
+"The land produced only small fruits"
+],
+"answer": "The land was free and no one owned it individually",
+"explanation": "The grandfather states that during his time, land was free, private property didn't exist, and people lived on their own labor."
+},
+{
+"questionEnglish": "Who delivered the insightful address on Swami Vivekananda's 92nd birthday, titled 'A Great Son of India'?",
+"questionOdia": "ସ୍ଵାମୀ ବିବେକାନନ୍ଦଙ୍କ ୯୨ତମ ଜନ୍ମବାର୍ଷିକୀରେ 'A Great Son of India' ଶୀର୍ଷକ ଜ୍ଞାନବର୍ଦ୍ଧକ ଅଭିଭାଷଣ କିଏ ପ୍ରଦାନ କରିଥିଲେ?",
+"options": [
+"Jawaharlal Nehru",
+"Dr. Sarvapalli Radhakrishnan",
+"William Wordsworth",
+"G. L. Fuentes"
+],
+"answer": "Dr. Sarvapalli Radhakrishnan",
+"explanation": "The text states: 'Dr. Sarvapalli Radhakrishnan, the great teacher and philosopher speaks about him on the saint’s 92nd birth day.'"
+},
+{
+"questionEnglish": "What are the two dominant features of the modern world according to Dr. Radhakrishnan's address?",
+"questionOdia": "ଡକ୍ଟର ରାଧାକ୍ରିଷ୍ଣନଙ୍କ ଅଭିଭାଷଣ ଅନୁଯାୟୀ ଆଧୁନିକ ବିଶ୍ଵର ଦୁଇଟି ମୁଖ୍ୟ ବୈଶିଷ୍ଟ୍ୟ କଣ?",
+"options": [
+"Poverty and Ignorance",
+"Science and Democracy",
+"War and Colonization",
+"Religion and Monarchies"
+],
+"answer": "Science and Democracy",
+"explanation": "In his speech, Dr. Radhakrishnan highlights 'science and democracy' as the dominant and defining characteristics of the modern era."
+},
+{
+"questionEnglish": "What does true religion lead to according to the teachings of Swami Vivekananda summarized in the activity?",
+"questionOdia": "କାର୍ଯ୍ୟକଳାପରେ ସଂକ୍ଷିପ୍ତ ହୋଇଥିବା ସ୍ଵାମୀ ବିବେକାନନ୍ଦଙ୍କ ଶିକ୍ଷା ଅନୁଯାୟୀ ପ୍ରକୃତ ଧର୍ମ କେଉଁ ଦିଗକୁ ପରିଚାଳିତ କରେ?",
+"options": [
+"The creation of large corporate business houses",
+"The transformation of human society nearer to Ramrajya",
+"Rigid ecclesiastical organizations and narrow fights",
+"Destruction of nature's green woods"
+],
+"answer": "The transformation of human society nearer to Ramrajya",
+"explanation": "The text mentions a religion 'which leads to the transformation of human society and brings it nearer to the Ramrajya or the kingdom of God.'"
+},
+{
+"questionEnglish": "What does the poet William Wordsworth mean when he mentions 'wildly clad' for the little girl?",
+"questionOdia": "କବି ଉଇଲିୟମ ୱାର୍ଡ଼ସୱର୍ଥ ଛୋଟ ଝିଅଟି ପାଇଁ 'wildly clad' ଶବ୍ଦ ବ୍ୟବହାର କରି କଣ ବୁଝାଇବାକୁ ଚାହିଁଛନ୍ତି?",
+"options": [
+"Dressed in clean school uniforms",
+"Dressed in simple, rustic, untidy clothes",
+"Wearing beautiful costly silk garments",
+"Covered with white sheets of winter snow"
+],
+"answer": "Dressed in simple, rustic, untidy clothes",
+"explanation": "The expression 'wildly clad' alongside 'rustic, woodland air' indicates her simple, unpolished country background clothing."
+},
+{
+"questionEnglish": "What did the postmaster experience from his office window when Lencho was handed the letter?",
+"thought": "Let's check the exact phrase: 'experiencing the contentment of a man who has performed a good deed'.",
+"questionOdia": "ଲେଞ୍ଚୋ ହାତକୁ ଚିଠି ବଢ଼ାଇ ଦିଆଯିବା ସମୟରେ ପୋଷ୍ଟମାଷ୍ଟର ନିଜ ଅଫିସ୍ କବାଟରୁ କଣ ଅନୁଭବ କରୁଥିଲେ?",
+"options": [
+"Guilt of hiding thirty pesos",
+"The contentment of a man who has performed a good deed",
+"Fear of being caught by the police town",
+"Anger towards Lencho's rude face"
+],
+"answer": "The contentment of a man who has performed a good deed",
+"explanation": "The story notes the postmaster was 'experiencing the contentment of a man who has performed a good deed, looked on from his office.'"
+},
+{
+"questionEnglish": "According to the poem 'All Things Bright and Beautiful', who made the tiny wings of the singing birds?",
+"questionOdia": "'All Things Bright and Beautiful' କବିତା ଅନୁଯାୟୀ, ଗାଉଥିବା ପକ୍ଷୀମାନଙ୍କର ଛୋଟ ଡେଣାଗୁଡ଼ିକୁ କିଏ ଗଢ଼ିଛନ୍ତି?",
+"options": [
+"The Nature itself",
+"The Lord God Almighty",
+"The Little Flowers",
+"The Summer Sun"
+],
+"answer": "The Lord God Almighty",
+"explanation": "The poem states that 'He made their tiny wings' referring to the Lord God who created everything."
+},
+{
+"questionEnglish": "What color is attributed to the mountain head in C.F. Alexander's famous poem?",
+"questionOdia": "ସି.ଏଫ୍. ଆଲେକଜାଣ୍ଡାରଙ୍କ ପ୍ରସିଦ୍ଧ କବିତାରେ ପର୍ବତର ଶିଖରକୁ କେଉଁ ରଙ୍ଗର ବୋଲି କୁହାଯାଇଛି?",
+"options": [
+"Golden-headed",
+"Purple-headed",
+"Green-wooded",
+"White-capped"
+],
+"answer": "Purple-headed",
+"explanation": "The phrase used is 'The purple-headed mountain, The river running by'."
+},
+{
+"questionEnglish": "What celestial body is described as brightening up the sky along with the morning?",
+"questionOdia": "ସକାଳ ସହିତ ଆକାଶକୁ ଆଲୋକିତ କରୁଥିବା କେଉଁ ମହାଜାଗତିକ ଦୃଶ୍ୟ ବିଷୟରେ ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"options": [
+"The midnight moon",
+"The sunset",
+"The winter wind",
+"The dark storm cloud"
+],
+"answer": "The sunset",
+"explanation": "The text states: 'The sunset and the morning, That brightens up the sky.'"
+},
+{
+"questionEnglish": "Where can the tall trees be found according to the poem 'All Things Bright and Beautiful'?",
+"questionOdia": "'All Things Bright and Beautiful' କବିତା ଅନୁଯାୟୀ, ଉଚ୍ଚ ଗଛଗୁଡ଼ିକ କେଉଁଠାରେ ଦେଖିବାକୁ ମିଳେ?",
+"options": [
+"In the open meadows",
+"In the green wood",
+"By the running river water",
+"Inside the garden"
+],
+"answer": "In the green wood",
+"explanation": "The verse states: 'The tall trees in the green wood, The meadows where we play'."
+},
+{
+"questionEnglish": "What do people do with the rushes that grow by the water side?",
+"questionOdia": "ପାଣି କୂଳରେ ବଢ଼ୁଥିବା ରସେସ୍ (ଜଳଜ ଉଦ୍ଭିଦ) ଗୁଡ଼ିକ ସହିତ ଲୋକମାନେ କଣ କରନ୍ତି?",
+"options": [
+"They destroy them as wild grass",
+"They gather them every day for making mats and baskets",
+"They cook them as ripe fruit",
+"They use them for building high hills"
+],
+"answer": "They gather them every day for making mats and baskets",
+"explanation": "The textbook notes indicate that people gather rushes daily, and they are used for making mats and baskets."
+},
+{
+"questionEnglish": "Why did God give us lips according to the final stanza of C.F. Alexander's poem?",
+"questionOdia": "ସି.ଏଫ୍. ଆଲେକଜାଣ୍ଡାରଙ୍କ କବିତାର ଶେଷ ଅନୁଚ୍ଛେଦ ଅନୁଯାୟୀ ଭଗବାନ ଆମକୁ ଓଠ କାହିଁକି ଦେଇଛନ୍ତି?",
+"options": [
+"To taste ripe fruits in the garden",
+"To tell how great is God Almighty",
+"To whistle like singing birds",
+"To complain about the cold winter wind"
+],
+"answer": "To tell how great is God Almighty",
+"explanation": "The text states: 'And lips that we might tell How great is God Almighty'."
+},
+{
+"questionEnglish": "In which city was the hymn writer and poet Cecil Frances Alexander born?",
+"questionOdia": "ପ୍ରସିଦ୍ଧ ସ୍ତୋତ୍ର ଲେଖିକା ଏବଂ କବୟିତ୍ରୀ ସେସିଲ୍ ଫ୍ରାନ୍ସିସ୍ ଆଲେକଜାଣ୍ଡାର କେଉଁ ସହରରେ ଜନ୍ମଗ୍ରହଣ କରିଥିଲେ?",
+"options": [
+"London",
+"Dublin",
+"Conway",
+"Allahabad"
+],
+"answer": "Dublin",
+"explanation": "The text notes that Cecil Frances Alexander was born in Dublin, Ireland, in 1818."
+},
+{
+"questionEnglish": "What did the field of ripe corn always promise to Lencho?",
+"questionOdia": "ପାଚିଲା ମକା କ୍ଷେତଟି ଲେଞ୍ଚୋକୁ ସଦାସର୍ବଦା କଣ ପ୍ରତିଶ୍ରୁତି ଦେଉଥିଲା?",
+"options": [
+"A total structural failure",
+"A good harvest",
+"An attack of violent locusts",
+"A huge collection of silver coins"
+],
+"answer": "A good harvest",
+"explanation": "The story mentions that the field of ripe corn 'always promised a good harvest'."
+},
+{
+"questionEnglish": "Towards which direction did Lencho see the sky in the morning anticipating a downpour?",
+"questionOdia": "ବର୍ଷାର ଆଶା ରଖି ଲେଞ୍ଚୋ ସକାଳେ କେଉଁ ଦିଗର ଆକାଶକୁ ଚାହିଁ ରହିଥିଲା?",
+"options": [
+"The North-East",
+"The South-West",
+"The North-West",
+"The South-East"
+],
+"answer": "The North-East",
+"explanation": "Lencho spent the morning looking at the sky towards the north-east for potential rain clouds."
+},
+{
+"questionEnglish": "What were the smaller boys doing while the older ones were working in the field?",
+"questionOdia": "ବଡ଼ ପିଲାମାନେ କ୍ଷେତରେ କାମ କରୁଥିବା ସମୟରେ ସାନ ପିଲାମାନେ କଣ କରୁଥିଲେ?",
+"options": [
+"They were studying books inside",
+"They were playing near the house",
+"They were going to the town market",
+"They were writing letters to God"
+],
+"answer": "They were playing near the house",
+"explanation": "The text states: 'The older boys were working in the field, while the smaller ones were playing near the house'."
+},
+{
+"questionEnglish": "What did Lencho exclaim the large raindrops were when they started falling from the sky?",
+"questionOdia": "ଆକାଶରୁ ବଡ଼ ବଡ଼ ବର୍ଷା ବିନ୍ଦୁ ପଡ଼ିବା ଆରମ୍ଭ ହେବା ମାତ୍ରେ ଲେଞ୍ଚୋ ସେଗୁଡ଼ିକୁ କଣ ବୋଲି ଆଖ୍ୟା ଦେଇଥିଲା?",
+"options": [
+"Frozen pearls",
+"New coins (ten cent pieces)",
+"White salt flakes",
+"Pesos from heaven"
+],
+"answer": "New coins (ten cent pieces)",
+"explanation": "Lencho equated the rain to money, calling the big drops ten cent pieces and the small ones fives."
+},
+{
+"questionEnglish": "What started falling along with the rain that completely ruined Lencho's harvest?",
+"questionOdia": "ବର୍ଷା ସହିତ ଏପରି କଣ ପଡ଼ିବାକୁ ଆରମ୍ଭ କଲା ଯାହା ଲେଞ୍ଚୋର ଫସଲକୁ ସମ୍ପୂର୍ଣ୍ଣ ରୂପେ ନଷ୍ଟ କରିଦେଲା?",
+"options": [
+"White dust particles",
+"Very large hailstones",
+"A swarm of insects",
+"Dry twigs from tall trees"
+],
+"answer": "Very large hailstones",
+"explanation": "The story notes: 'But suddenly a strong wind began to blow and along with the rain very large hailstones began to fall.'"
+},
+{
+"questionEnglish": "For how long did the dangerous hailstorm rain on Lencho's entire valley?",
+"questionOdia": "ଲେଞ୍ଚୋର ସମଗ୍ର ଉପତ୍ୟକାରେ ସେହି ବିପଜ୍ଜନକ କୁଆପଥର ବର୍ଷା କେତେ ସମୟ ଧରି ଚାଲିଥିଲା?",
+"options": [
+"For ten minutes",
+"For an hour",
+"For an entire day",
+"For two full nights"
+],
+"answer": "For an hour",
+"explanation": "According to the story text, the hail rained on the cornfield and valley for exactly an hour."
+},
+{
+"questionEnglish": "How did Lencho's field look after the devastating hailstorm passed?",
+"questionOdia": "ଭୟାଭହ କୁଆପଥର ବର୍ଷା ସରିବା ପରେ ଲେଞ୍ଚୋର କ୍ଷେତଟି କିପରି ଦେଖାଯାଉଥିଲା?",
+"options": [
+"Lush green with fresh flowers",
+"White, as if covered with salt",
+"Golden with fully ripe corn",
+"Muddy with rushing river water"
+],
+"answer": "White, as if covered with salt",
+"explanation": "The field was completely blanketed in ice, looking 'white, as if covered with salt'."
+},
+{
+"questionEnglish": "What did Lencho compare the destruction of the hail to, stating it would have left more?",
+"questionOdia": "କୁଆପଥର ଦ୍ଵାରା ହୋଇଥିବା ଧ୍ଵଂସଲୀଳାକୁ ଲେଞ୍ଚୋ କାହା ସହିତ ତୁଳନା କରି କହିଥିଲା ଯେ ସେମାନେ ମଧ୍ୟ ଏହାଠାରୁ ଅଧିକ ଛାଡ଼ିଥାନ୍ତେ?",
+"options": [
+"A river flood",
+"A plague of locusts",
+"A violent whirlwind",
+"A winter snow storm"
+],
+"answer": "A plague of locusts",
+"explanation": "Lencho told his sons: 'A plague of locusts would have left more than this. The hail has left nothing.'"
+},
+{
+"questionEnglish": "What single hope kept the hearts of Lencho's family members comforted during that sorrowful night?",
+"questionOdia": "ସେହି ଦୁଃଖଦ ରାତିରେ ଲେଞ୍ଚୋର ପରିବାର ସଦସ୍ୟଙ୍କ ମନକୁ କେଉଁ ଏକମାତ୍ର ଆଶା ଆଶ୍ଵାସନା ଦେଇଥିଲା?",
+"options": [
+"Help from neighbors",
+"Help from God",
+"Government financial support",
+"Moving to the town market"
+],
+"answer": "Help from God",
+"explanation": "The text states that in the hearts of all who lived in that solitary house, there was a single hope: help from God."
+},
+{
+"questionEnglish": "How is Lencho's hardworking character described metaphorically by the author?",
+"questionOdia": "ଲେଖକଙ୍କ ଦ୍ଵାରା ଲେଞ୍ଚୋର କଠିନ ପରିଶ୍ରମୀ ସ୍ଵଭାବକୁ ରୂପକ ଶୈଳୀରେ କିପରି ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"options": [
+"A lion of the mountains",
+"An ox of a man",
+"A fox of the valley",
+"An eagle of the sky"
+],
+"answer": "An ox of a man",
+"explanation": "The chapter uses the expression 'Lencho was an ox of a man, working like an animal in the fields.'"
+},
+{
+"questionEnglish": "At what specific time did Lencho sit down to write his letter to God?",
+"questionOdia": "କେଉଁ ସ୍ଵତନ୍ତ୍ର ସମୟରେ ଲେଞ୍ଚୋ ଭଗବାନଙ୍କୁ ଚିଠି ଲେଖିବା ପାଇଁ ବସିଥିଲା?",
+"options": [
+"Saturday midnight",
+"The following Sunday, at daybreak",
+"Monday afternoon",
+"Friday evening"
+],
+"answer": "The following Sunday, at daybreak",
+"explanation": "The text specifies: 'The following Sunday, at daybreak, he began to write a letter'."
+},
+{
+"questionEnglish": "Exactly how many pesos did Lencho demand from God to sustain his family and resow the field?",
+"questionOdia": "ପରିବାର ପ୍ରତିପୋଷଣ ଏବଂ ପୁନର୍ବାର ବିହନ ବୁଣିବା ପାଇଁ ଲେଞ୍ଚୋ ଭଗବାନଙ୍କଠାରୁ ସଠିକ୍ ଭାବେ କେତେ ପେସୋ ମାଗିଥିଲା?",
+"options": [
+"Seventy pesos",
+"A hundred pesos",
+"Fifty pesos",
+"A thousand pesos"
+],
+"answer": "A hundred pesos",
+"explanation": "Lencho requested 'a hundred pesos in order to sow my field again and to live until the crop comes'."
+},
+{
+"questionEnglish": "What address did Lencho write on the envelope of his letter?",
+"questionOdia": "ଲେଞ୍ଚୋ ତା’ର ଚିଠିର ଲଫାପା ଉପରେ କେଉଁ ଠିକଣା ଲେଖିଥିଲା?",
+"options": [
+"To the Postmaster",
+"To God",
+"To the Mayor of Town",
+"To the Corn Valley Office"
+],
+"answer": "To God",
+"explanation": "He simply wrote 'To God' on the envelope and placed the letter inside."
+},
+{
+"questionEnglish": "What was the initial reaction of the post office employee who first found Lencho's letter?",
+"questionOdia": "ଲେଞ୍ଚୋର ଚିଠିଟିକୁ ପ୍ରଥମେ ପାଇଥିବା ଡାକଘର କର୍ମଚାରୀଙ୍କ ପ୍ରାରମ୍ଭିକ ପ୍ରତିକ୍ରିୟା କଣ ଥିଲା?",
+"options": [
+"He got frightened",
+"He went to his boss laughing heartily",
+"He tore the letter immediately",
+"He started crying silently"
+],
+"answer": "He went to his boss laughing heartily",
+"explanation": "The postman who found it 'went to his boss laughing heartily and showed him the letter to God'."
+},
+{
+"questionEnglish": "How does the author describe the physical and social traits of the postmaster?",
+"questionOdia": "ଲେଖକ ପୋଷ୍ଟମାଷ୍ଟରଙ୍କ ଶାରୀରିକ ଏବଂ ସାମାଜିକ ଗୁଣଗୁଡ଼ିକୁ କିପରି ବର୍ଣ୍ଣନା କରିଛନ୍ତି?",
+"options": [
+"A tall, thin and angry fellow",
+"A fat, amiable fellow",
+"A young, strict and silent executive",
+"A dishonest and old crook"
+],
+"answer": "A fat, amiable fellow",
+"explanation": "The text describes the postmaster as 'a fat, amiable fellow' who appreciated Lencho's immense faith."
+},
+{
+"questionEnglish": "What resolution did the postmaster make to avoid shaking Lencho's faith in God?",
+"questionOdia": "ଭଗବାନଙ୍କ ପ୍ରତି ଲେଞ୍ଚୋର ଥିବା ବିଶ୍ଵାସକୁ ନ ଭାଙ୍ଗିବା ପାଇଁ ପୋଷ୍ଟମାଷ୍ଟର କେଉଁ ସଂକଳ୍ପ ନେଇଥିଲେ?",
+"options": [
+"To write a scolding letter to Lencho",
+"To answer the letter by collecting money",
+"To forward it to the national headquarters",
+"To ignore it completely and drop it in the trash"
+],
+"answer": "To answer the letter by collecting money",
+"explanation": "The postmaster decided to answer the letter, which required gathering money from employees and friends."
+},
+{
+"questionEnglish": "From whom did the postmaster collect money to accumulate the amount for Lencho?",
+"questionOdia": "ଲେଞ୍ଚୋ ପାଇଁ ଅର୍ଥ ସଂଗ୍ରହ କରିବାକୁ ଯାଇ ପୋଷ୍ଟମାଷ୍ଟର କାହା କାହାଠାରୁ ଟଙ୍କା ଏକାଠି କରିଥିଲେ?",
+"options": [
+"From the local town mayor",
+"From his employees, his own salary, and several friends",
+"From wealthy corporate farmers of the valley",
+"From a bank loan system"
+],
+"answer": "From his employees, his own salary, and several friends",
+"explanation": "He asked for money from employees, gave a part of his salary, and received charity from friends."
+},
+{
+"questionEnglish": "Exactly how many pesos was the postmaster able to send to Lencho?",
+"questionOdia": "ପୋଷ୍ଟମାଷ୍ଟର ଲେଞ୍ଚୋ ପାଖକୁ ସଠିକ୍ ଭାବେ କେତେ ପେସୋ ପଠାଇବାକୁ ସମର୍ଥ ହୋଇଥିଲେ?",
+"options": [
+"Exactly a hundred pesos",
+"Seventy pesos",
+"Only fifty pesos",
+"Thirty pesos"
+],
+"answer": "Seventy pesos",
+"explanation": "The postmaster could only collect seventy pesos, which Lencho received and later mentioned in his second letter."
+},
+{
+"questionEnglish": "What single signature was put on the envelope sent back to Lencho?",
+"questionOdia": "ଲେଞ୍ଚୋ ପାଖକୁ ଫେରସ୍ତ ପଠାଯାଇଥିବା ଲଫାପା ଉପରେ କେଉଁ ଏକମାତ୍ର ସ୍ଵାକ୍ଷର କରାଯାଇଥିଲା?",
+"options": [
+"Postmaster",
+"Employee",
+"God",
+"Charity"
+],
+"answer": "God",
+"explanation": "The postmaster signed it as 'God' to keep Lencho's conviction and faith intact."
+},
+{
+"questionEnglish": "What was Lencho's reaction upon counting the money in the post office envelope?",
+"questionOdia": "ଡାକଘର ଲଫାପାରେ ଥିବା ଟଙ୍କା ଗଣିବା ପରେ ଲେଞ୍ଚୋର ପ୍ରତିକ୍ରିୟା କଣ ଥିଲା?",
+"options": [
+"He was deeply surprised and grateful",
+"He became angry because it was less than requested",
+"He laughed loudly with the postman",
+"He broke out crying in grief"
+],
+"answer": "He became angry because it was less than requested",
+"explanation": "Lencho became angry when he counted the money, believing that God could not make a mistake or deny him."
+},
+{
+"questionEnglish": "What did Lencho accuse the post office employees of being in his second letter to God?",
+"questionOdia": "ଭଗବାନଙ୍କ ଉଦ୍ଦେଶ୍ୟରେ ଲିଖିତ ଦ୍ଵାରା ଦ୍ଵିତୀୟ ଚିଠିରେ ଲେଞ୍ଚୋ ଡାକଘର କର୍ମଚାରୀମାନଙ୍କୁ କଣ ବୋଲି ଦୋଷାରୋପ କରିଥିଲା?",
+"options": [
+"A group of generous saints",
+"A bunch of crooks",
+"A pack of lazy animals",
+"Helpful neighbors"
+],
+"answer": "A bunch of crooks",
+"explanation": "He called them 'a bunch of crooks', assuming they stole the missing thirty pesos from his envelope."
+},
+{
+"questionEnglish": "What did Lencho ask for at the post office window immediately after counting the short money?",
+"questionOdia": "କମ୍ ଟଙ୍କା ପାଇବା ପରେ ତତ୍କାଳ ଡାକଘର କବାଟ ପାଖରେ ଲେଞ୍ଚୋ କଣ ମାଗିଥିଲା?",
+"options": [
+"A refund of his mail fees",
+"Paper and ink to write a second letter",
+"The address of the postmaster's house",
+"A fresh set of corn seeds"
+],
+"answer": "Paper and ink to write a second letter",
+"explanation": "He went up to the window to ask for paper and ink, then started writing a second letter on the public table."
+},
+{
+"questionEnglish": "What was Gregorio Lopez Fuentes' occupation besides being a novelist and poet?",
+"questionOdia": "ଜଣେ ଉପନ୍ୟାସକାର ଏବଂ କବି ହେବା ବ୍ୟତୀତ ଗ୍ରେଗୋରିଓ ଲୋପେଜ୍ ଫୁଏଣ୍ଟେସଙ୍କ ଅନ୍ୟ ବୃତ୍ତି କଣ ଥିଲା?",
+"options": [
+"Schoolteacher",
+"Journalist",
+"Notary Public",
+"Post Office Manager"
+],
+"answer": "Journalist",
+"explanation": "The text states that Gregorio Lopez Fuentes (1895-1966) was a Mexican novelist, poet, and journalist."
+},
+{
+"questionEnglish": "What is the meaning of the word 'solitary' as used to describe Lencho's house in the valley?",
+"questionOdia": "ଉପତ୍ୟକାରେ ଲେଞ୍ଚୋର ଘରକୁ ବୁଝାଉଥିବା 'solitary' ଶବ୍ଦର ପ୍ରକୃତ ଅର୍ଥ କଣ?",
+"options": [
+"Beautiful and luxurious",
+"Lonely / single",
+"Surrounded by rivers",
+"Highly crowded"
+],
+"answer": "Lonely / single",
+"explanation": "The glossary explicitly translates and defines the word 'solitary' as 'lonely / single'."
+},
+{
+"questionEnglish": "According to the textbook's vocabulary exercises, what is an extremely strong wind called?",
+"questionOdia": "ପାଠ୍ୟପୁସ୍ତକର ଶବ୍ଦାବଳୀ ଅଭ୍ୟାସ ଅନୁଯାୟୀ, ଅତ୍ୟନ୍ତ ପ୍ରବଳ ବେଗରେ ବହୁଥିବା ପବନକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"Gale",
+"Tornado",
+"Typhoon",
+"Cyclone"
+],
+"answer": "Gale",
+"explanation": "The fill-in-the-blank text answers specify that an extremely strong wind is called a 'gale'."
+},
+{
+"questionEnglish": "What is a violent storm whose center is a cloud in the shape of a funnel called?",
+"questionOdia": "ଏକ ପ୍ରଚଣ୍ଡ ବାତ୍ୟା ଯାହାର କେନ୍ଦ୍ର ଏକ କାହାଳୀ ଆକୃତିର ମେଘ ଦ୍ଵାରା ଗଠିତ ହୋଇଥାଏ, ତାହାକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"Hurricane",
+"Tornado",
+"Whirlwind",
+"Typhoon"
+],
+"answer": "Tornado",
+"explanation": "The textbook exercise answers trace 'a violent storm whose centre is a cloud in the shape of a funnel' as a tornado."
+},
+{
+"questionEnglish": "How old was the little cottage girl when met by the narrator in William Wordsworth's poem?",
+"questionOdia": "ଉଇଲିୟମ ୱାର୍ଡ଼ସୱର୍ଥଙ୍କ କବିତାରେ କଥକଙ୍କୁ ଭେଟିବା ସମୟରେ କୁଟୀରର ଛୋଟ ଝିଅଟିର ବୟସ କେତେ ଥିଲା?",
+"options": [
+"Seven years",
+"Eight years",
+"Five years",
+"Twelve years"
+],
+"answer": "Eight years",
+"explanation": "The poem states: 'She was eight years old, she said; Her hair was thick with many a curl'."
+},
+{
+"questionEnglish": "How many siblings in total did the little girl insist they were in her family?",
+"questionOdia": "ଝିଅଟି ନିଜ ପରିବାରରେ ସମୁଦାୟ କେତେ ଜଣ ଭାଇଭଉଣୀ ଅଛନ୍ତି ବୋଲି ବାରମ୍ବାର ଦୃଢ଼ ଭାବରେ କହୁଥିଲା?",
+"options": [
+"Five in all",
+"Seven in all",
+"Two in all",
+"Twelve in all"
+],
+"answer": "Seven in all",
+"explanation": "The girl answered the narrator's question directly by saying: 'How many? Seven in all, she said'."
+},
+{
+"questionEnglish": "Where did two of the little maid's brothers/sisters dwell or live?",
+"questionOdia": "ଛୋଟ ଝିଅଟିର ଦୁଇ ଜଣ ଭାଇ/ଭଉଣୀ କେଉଁ ସ୍ଥାନରେ ବାସ କରୁଥିଲେ?",
+"options": [
+"In the church-yard",
+"At Conway",
+"At the town market",
+"In the green wood"
+],
+"answer": "At Conway",
+"explanation": "She explains: 'And two of us at Conway dwell, And two are gone to sea.'"
+},
+{
+"questionEnglish": "Where do two of her siblings lie buried according to the lines of 'We are Seven'?",
+"questionOdia": "'We are Seven' ର ଧାଡ଼ିଗୁଡ଼ିକ ଅନୁଯାୟୀ, ତା’ର ଦୁଇ ମୃତ ଭାଇଭଉଣୀ କେଉଁଠାରେ ସମାଧିସ୍ଥ ହୋଇଛନ୍ତି?",
+"options": [
+"Under the cottage door step",
+"In the church-yard beneath the tree",
+"At Conway grassland",
+"Deep under the ocean water"
+],
+"answer": "In the church-yard beneath the tree",
+"explanation": "The girl notes: 'Two of us in the church-yard lie, Beneath the church-yard tree.'"
+},
+{
+"questionEnglish": "With whom does the little cottage girl stay inside her household near the graves?",
+"questionOdia": "ସମାଧି ନିକଟରେ ଥିବା ଘରେ ଛୋଟ ଝିଅଟି କାହା ସହିତ ରହେ?",
+"options": [
+"With her older brother John",
+"With her mother",
+"With her father and master",
+"She stays completely alone"
+],
+"answer": "With her mother",
+"explanation": "The line reads: 'And, in the church-yard cottage, I Dwell near them with my mother.'"
+},
+{
+"questionEnglish": "What was the name of the first sibling who died after lying moaning in bed?",
+"questionOdia": "ବିଛଣାରେ ପଡ଼ି କଷ୍ଟ ପାଇବା ପରେ ମୃତ୍ୟୁବରଣ କରିଥିବା ପ୍ରଥମ ଭଉଣୀର ନାମ କଣ ଥିଲା?",
+"options": [
+"Sister Jane",
+"Brother John",
+"Conway Girl",
+"Olga"
+],
+"answer": "Sister Jane",
+"explanation": "The text states: 'The first that dies was sister Jane; In bed she moaning lay, Till God released her'."
+},
+{
+"questionEnglish": "What did the little maid and her brother John do around Jane's grave when the grass was dry?",
+"questionOdia": "ଘାସ ଶୁଖିଗଲା ପରେ ଜେନର ସମାଧି ଚାରିପାଖରେ ଛୋଟ ଝିଅଟି ଏବଂ ତା’ର ଭାଇ ଜନ୍ କଣ କରୁଥିଲେ?",
+"options": [
+"They sat and cried together",
+"They played together",
+"They knit their stockings",
+"They ate their supper there"
+],
+"answer": "They played together",
+"explanation": "The poem states: 'Together round her grave we played, My brother John and I.'"
+},
+{
+"questionEnglish": "What weather event coincided with brother John's forced departure/death?",
+"questionOdia": "ଭାଇ ଜନର ମୃତ୍ୟୁ କେଉଁ ପ୍ରକୃତିର ପରିବର୍ତ୍ତନ ବା ପାଣିପାଗ ସମୟରେ ହୋଇଥିଲା?",
+"options": [
+"A dry pleasant summer",
+"When the ground was white with snow",
+"A violent tropical cyclone",
+"A heavy rainy morning"
+],
+"answer": "When the ground was white with snow",
+"explanation": "The text notes: 'And when the ground was white with snow... My brother John was forced to go'."
+},
+{
+"questionEnglish": "What was the final answer given by the little girl despite all logical arguments from the narrator?",
+"thought": "Let's check the end line: 'And said, "Nay, we are seven!"'",
+"questionOdia": "କଥକଙ୍କ ସମସ୍ତ ଯୁକ୍ତି ସତ୍ତ୍ଵେ ଛୋଟ ଝିଅଟି ଶେଷରେ କଣ ଉତ୍ତର ଦେଇଥିଲା?",
+"options": [
+"O Master! we are only five",
+"Nay, we are seven!",
+"We are all gone to heaven",
+"I do not know our number"
+],
+"answer": "Nay, we are seven!",
+"explanation": "The poem concludes with the little girl sticking firmly to her beliefs, saying: 'Nay, we are seven!'"
+},
+{
+"questionEnglish": "Who delivered the historical speech 'Tryst with Destiny' on the eve of India's independence?",
+"questionOdia": "ଭାରତର ସ୍ଵାଧୀନତା ପୂର୍ବ ସନ୍ଧ୍ୟାରେ କିଏ ଐତିହାସିକ ଅଭିଭାଷଣ 'Tryst with Destiny' ପ୍ରଦାନ କରିଥିଲେ?",
+"options": [
+"Mahatma Gandhi",
+"Jawaharlal Nehru",
+"Dr. S. Radhakrishnan",
+"Lord Eustace Percy"
+],
+"answer": "Jawaharlal Nehru",
+"explanation": "Jawaharlal Nehru delivered this iconic speech to the Indian Constituent Assembly at midnight on August 14, 1947."
+},
+{
+"questionEnglish": "According to Jawaharlal Nehru, upon whom does the responsibility of India's freedom rest?",
+"questionOdia": "ଜବାହରଲାଲ ନେହେରୁଙ୍କ ଅନୁଯାୟୀ, ଭାରତର ସ୍ଵାଧୀନତାର ଦାୟିତ୍ଵ କାହା ଉପରେ ନ୍ୟସ୍ତ ଅଛି?",
+"options": [
+"The British Monarchy rulers",
+"The Sovereign Constituent Assembly representing the sovereign people of India",
+"The local village peasants only",
+"The foreign administrative offices"
+],
+"answer": "The Sovereign Constituent Assembly representing the sovereign people of India",
+"explanation": "Nehru stated: 'Freedom and power bring responsibility. The responsibility rests upon this Assembly, a sovereign body representing the sovereign people of India.'"
+},
+{
+"questionEnglish": "What does the service of India mean according to the text of Nehru's speech?",
+"questionOdia": "ନେହେରୁଙ୍କ ଅଭିଭାଷଣର ପାଠ୍ୟ ଅନୁଯାୟୀ ଭାରତର ସେବା କରିବାର ଅର୍ଥ କଣ?",
+"options": [
+"Earning heavy foreign trade revenues",
+"The service of the millions who suffer",
+"Resting peacefully after gaining power",
+"Encouraging narrow communal ideas"
+],
+"answer": "The service of the millions who suffer",
+"explanation": "Nehru emphasized: 'The service of India means the service of the millions who suffer. It means the ending of poverty and ignorance...'"
+},
+{
+"questionEnglish": "Where was Jawaharlal Nehru educated during his early career life?",
+"questionOdia": "ଜବାହରଲାଲ ନେହେରୁ ନିଜ ପ୍ରାରମ୍ଭିକ ଜୀବନରେ କେଉଁଠାରେ ଶିକ୍ଷା ଗ୍ରହଣ କରିଥିଲେ?",
+"options": [
+"Harrow Public School and Trinity College, Cambridge",
+"Dublin National University",
+"Mexican Art Academy",
+"Puri Sanskrit Vidyalaya"
+],
+"answer": "Harrow Public School and Trinity College, Cambridge",
+"explanation": "The textbook profile notes that Nehru was educated at Harrow Public School, London, and Trinity College, Cambridge."
+},
+{
+"questionEnglish": "What warning did Nehru give regarding narrow-mindedness and communalism?",
+"questionOdia": "ସଂକୀର୍ଣ୍ଣ ମାନସିକତା ଏବଂ ସାମ୍ପ୍ରଦାୟିକତାକୁ ନେଇ ନେହେରୁ କେଉଁ ସତର୍କବାଣୀ ଦେଇଥିଲେ?",
+"options": [
+"They help a nation advance rapidly",
+"No nation can be great whose people are narrow in thought or in action",
+"They are essential for absolute security",
+"They provide equal rights to all citizens"
+],
+"answer": "No nation can be great whose people are narrow in thought or in action",
+"explanation": "Nehru explicitly stated: 'We cannot encourage communalism or narrow-mindedness, for no nation can be great whose people are narrow in thought or in action.'"
+},
+{
+"questionEnglish": "Who wrote the piece regarding Kapil Dev's extraordinary cricketing qualities and manners?",
+"questionOdia": "କପିଲ ଦେବଙ୍କ ଅସାଧାରଣ କ୍ରିକେଟ ପ୍ରତିଭା ଓ ଶିଷ୍ଟାଚାର ସମ୍ପର୍କିତ ପାଠ୍ୟଟି କିଏ ରଚନା କରିଛନ୍ତି?",
+"options": [
+"Jawaharlal Nehru",
+"Sunil Manohar Gavaskar",
+"Leo Tolstoy",
+"George Herbert"
+],
+"answer": "Sunil Manohar Gavaskar",
+"explanation": "Sunil Manohar Gavaskar is the author who highlighted Kapil Dev's humbleness and rise from East Africa."
+},
+{
+"questionEnglish": "What position did Kapil Dev bat at in East Africa during his early career days?",
+"questionOdia": "ନିଜ କ୍ରିକେଟ ଜୀବନର ପ୍ରାରମ୍ଭିକ ଦିନରେ ପୂର୍ବ ଆଫ୍ରିକାରେ କପିଲ ଦେବ କେଉଁ ସ୍ଥାନରେ (position) ବ୍ୟାଟିଂ କରୁଥିଲେ?",
+"options": [
+"No. 1 batsman",
+"No. 11 batsman",
+"No. 4 middle order",
+"Wicketkeeper position"
+],
+"answer": "No. 11 batsman",
+"explanation": "The text states: 'It has been a rapid rise for a lad who batted at No.11 in East Africa to come to the fore'."
+},
+{
+"questionEnglish": "Which awards did Sunil Gavaskar receive for his magnificent contribution to cricket?",
+"questionOdia": "କ୍ରିକେଟ୍ ପ୍ରତି ନିଜର ଅସାଧାରଣ ଅବଦାନ ପାଇଁ ସୁନୀଲ ଗାଭାସ୍କର କେଉଁ ପୁରସ୍କାର ପାଇଥିଲେ?",
+"options": [
+"National Arts Prize",
+"Arjuna Award in 1975 and Padma Bhushan in 1980",
+"Nobel Peace Prize",
+"Bharat Ratna Award"
+],
+"answer": "Arjuna Award in 1975 and Padma Bhushan in 1980",
+"explanation": "Gavaskar was honored with the Arjuna Award in 1975 and the prestigious civilian award Padma Bhushan in 1980."
+},
+{
+"questionEnglish": "What is the title of the book containing Sunil Gavaskar's official autobiography?",
+"questionOdia": "ସୁନୀଲ ଗାଭାସ୍କରଙ୍କ ସ୍ଵଲିଖିତ ଆତ୍ମଜୀବନୀ ପୁସ୍ତକର ନାମ କଣ?",
+"options": [
+"Idols",
+"Sunny Days",
+"Runs n' Ruins",
+"One Day Wonders"
+],
+"answer": "Sunny Days",
+"explanation": "The biographical profile listed his books, noting 'Sunny Days' as his autobiography."
+},
+{
+"questionEnglish": "Who is the author of the essay 'School's Goodbye' addressed to outbound high school students?",
+"questionOdia": "ବିଦ୍ୟାଳୟ ଛାଡୁଥିବା ହାଇସ୍କୁଲ ଛାତ୍ରମାନଙ୍କ ଉଦ୍ଦେଶ୍ୟରେ ଲିଖିତ 'School's Goodbye' ପ୍ରବନ୍ଧର ଲେଖକ କିଏ?",
+"options": [
+"Lord Eustace Percy",
+"William Wordsworth",
+"Swami Vivekananda",
+"G. L. Fuentes"
+],
+"answer": "Lord Eustace Percy",
+"explanation": "The text identifies the essay 'School's Goodbye' as a timeless message conveyed by Lord Eustace Percy."
+},
+{
+"questionEnglish": "What designation did Lord Eustace Percy hold previously in the government of Britain?",
+"questionOdia": "ବ୍ରିଟେନ ସରକାରରେ ଲର୍ଡ଼ ଇଉଷ୍ଟାସ୍ ପର୍ସି ପୂର୍ବରୁ କେଉଁ ପଦବୀରେ ଅବସ୍ଥାପିତ ଥିଲେ?",
+"options": [
+"Prime Minister",
+"Minister of Education",
+"Home Minister",
+"Foreign Secretary"
+],
+"answer": "Minister of Education",
+"explanation": "Lord Eustace Percy was a former Minister of Education in Britain, dedicated to students' future welfare."
+},
+{
+"questionEnglish": "What advice does Lord Eustace Percy provide regarding the selection of a trade or profession?",
+"questionOdia": "ଜୀବିକା ବା ବୃତ୍ତି ଚୟନକୁ ନେଇ ଲର୍ଡ଼ ଇଉଷ୍ଟାସ୍ ପର୍ସି ଛାତ୍ରମାନଙ୍କୁ କେଉଁ ପରାମର୍ଶ ଦେଇଛନ୍ତି?",
+"options": [
+"Choose any job that pays highest immediate money",
+"Avoid as far as you can any occupation that leads nowhere",
+"Never change your profession in life",
+"Follow what your classmates choose blindly"
+],
+"answer": "Avoid as far as you can any occupation that leads nowhere",
+"explanation": "He advises: 'Choose with the greatest care and avoid as far as you can any occupation that leads nowhere.'"
+},
+{
+"questionEnglish": "According to 'School's Goodbye', what habit in youth stunts the body and clouds the brain?",
+"questionOdia": "'School's Goodbye' ଅନୁଯାୟୀ, ଯୌବନାବସ୍ଥାରେ କେଉଁ ଅଭ୍ୟାସ ଶରୀରର ବୃଦ୍ଧିକୁ ରୋକିଥାଏ ଏବଂ ମସ୍ତିଷ୍କକୁ ଭ୍ରମିତ କରିଥାଏ?",
+"options": [
+"Gambling games",
+"Smoking",
+"Idling in leisure hours",
+"Heavy manual labor"
+],
+"answer": "Smoking",
+"explanation": "The text states: 'Avoid anything that will sap your health. Smoking in your youth stunts the body, and clouds the brain.'"
+},
+{
+"questionEnglish": "What is described as the deadly enemy of health and efficiency that students must beware of?",
+"questionOdia": "ସ୍ଵାସ୍ଥ୍ୟ ଏବଂ କାର୍ଯ୍ୟଦକ୍ଷତାର ପରମ ଶତ୍ରୁ ଭାବରେ କାହାକୁ ବର୍ଣ୍ଣନା କରାଯାଇଛି ଯେଉଁଥିରୁ ଛାତ୍ରମାନେ ସତର୍କ ରହିବା ଉଚିତ?",
+"options": [
+"Hard study books",
+"Drink (Alcohol)",
+"Continuous sports",
+"Leisure hobbies"
+],
+"answer": "Drink (Alcohol)",
+"explanation": "Lord Percy explicitly highlights: 'Be temperate in all things, and beware of drink. It is the deadly enemy of health and efficiency.'"
+},
+{
+"questionEnglish": "What character attribute is called a 'priceless possession' that must be kept completely untarnished?",
+"questionOdia": "କେଉଁ ଚରିତ୍ରଗତ ଗୁଣକୁ ଏକ 'ଅମୂଲ୍ୟ ସମ୍ପତ୍ତି' କୁହାଯାଇଛି ଯାହାକୁ ସମ୍ପୂର୍ଣ୍ଣ ରୂପେ ନିଷ୍କଳଙ୍କ ରଖିବା ଉଚିତ?",
+"options": [
+"Financial bank accounts",
+"Character",
+"Exam gold medals",
+"Cottage houses"
+],
+"answer": "Character",
+"explanation": "The text notes: 'Above all remember that your character is a priceless possession. Keep it therefore untarnished.'"
+},
+{
+"questionEnglish": "Why should gambling be strictly avoided according to Lord Eustace Percy's essay?",
+"questionOdia": "ଲର୍ଡ଼ ଇଉଷ୍ଟାସ୍ ପର୍ସିଙ୍କ ପ୍ରବନ୍ଧ ଅନୁଯାୟୀ ଜୁଆ ଖେଳକୁ କାହିଁକି ସମ୍ପୂର୍ଣ୍ଣ ଭାବେ ବର୍ଜନ କରାଯିବା ଉଚିତ?",
+"options": [
+"Because it is very hard to understand",
+"Because it is a mean game trying to get something for nothing and at somebody's cost",
+"Because it doesn't give any physical exercise",
+"Because it is played only in towns"
+],
+"answer": "Because it is a mean game trying to get something for nothing and at somebody's cost",
+"explanation": "He explicitly notes: 'Avoid gambling in every form; it is a mean game trying to get something for nothing and at somebody’s cost.'"
+},
+{
+"questionEnglish": "What filling elements are suggested for a student's leisure hours instead of mere idling?",
+"questionOdia": "କେବଳ ଅଳସୁଆ ହୋଇ ବସିବା ପରିବର୍ତ୍ତେ ଜଣେ ଛାତ୍ର ନିଜ ଅବସର ସମୟରେ କଣ କରିବା ଉଚିତ?",
+"options": [
+"Playing risky gambling games",
+"Interesting hobbies, good books, and good companionships",
+"Drinking in secret clubs",
+"Sleeping all the day"
+],
+"answer": "Interesting hobbies, good books, and good companionships",
+"explanation": "The text advises students to fill leisure hours with 'interesting hobbies, good books, and with companionships and associations calculated to exercise over you an influence for good.'"
+},
+{
+"questionEnglish": "Who is the advocate in 'The Beggar' story who confronts the ragged creature for lying?",
+"questionOdia": "'The Beggar' ଗଳ୍ପରେ ସେହି ଓକିଲ ଜଣକ କିଏ ଯିଏ ମିଛ କହୁଥିବା ଭିକାରୀକୁ ଚିହ୍ନଟ କରି କ୍ରୋଧ ପ୍ରକାଶ କରିଥିଲେ?",
+"options": [
+"Lushkoff",
+"Sergei",
+"Olga",
+"Algu"
+],
+"answer": "Sergei",
+"explanation": "Sergei is the lawyer whose eyes fall on the beggar's mismatched shoes, recalling his previous lies in Sadovya Street."
+},
+{
+"questionEnglish": "What true name does the beggar reveal to Sergei when he accepts the manual work arrangement?",
+"questionOdia": "ଶାରୀରିକ ଶ୍ରମ କାମକୁ ଗ୍ରହଣ କରିବା ସମୟରେ ଭିକାରୀଜଣକ ସର୍ଗେଇଙ୍କୁ ନିଜର କେଉଁ ପ୍ରକୃତ ନାମ କହିଥିଲା?",
+"options": [
+"Lencho",
+"Lushkoff",
+"John",
+"Fuentes"
+],
+"answer": "Lushkoff",
+"explanation": "The beggar introduces himself to Sergei by stating his real name: 'Lushkoff'."
+},
+{
+"questionEnglish": "What was the initial job assigned to Lushkoff at Sergei's household premises?",
+"questionOdia": "ସର୍ଗେଇଙ୍କ ଘର ପରିସର ମଧ୍ୟରେ ଲୁସ୍କଫ୍‌କୁ ପ୍ରଥମେ କେଉଁ କାର୍ଯ୍ୟ ଦିଆଯାଇଥିଲା?",
+"options": [
+"Shoveling snow from the road",
+"Chopping wood in the shed",
+"Packing and hauling furniture",
+"Beating dust out of mattresses"
+],
+"answer": "Chopping wood in the shed",
+"explanation": "Lushkoff was first ordered to go to the shed with the cook Olga and chop logs of wood."
+},
+{
+"questionEnglish": "Who actually performed the wood chopping task for Lushkoff, saving his life and changing his heart?",
+"questionOdia": "ଲୁସ୍କଫ୍ ବଦଳରେ ପ୍ରକୃତରେ କିଏ କାଠ କାଟିବା କାମ ସମ୍ପନ୍ନ କରୁଥିଲେ, ଯାହା ତା’ର ଜୀବନ ବଞ୍ଚାଇବା ସହ ହୃଦୟ ପରିବର୍ତ୍ତନ କରିଥିଲା?",
+"options": [
+"Sergei himself",
+"The noble cook Olga",
+"The village school teacher",
+"The furniture carter"
+],
+"answer": "The noble cook Olga",
+"explanation": "Lushkoff confesses that Sergei's cook Olga would shed tears for him and chop all the wood, which reformed his entire life."
+},
+{
+"questionEnglish": "What clean professional status did Lushkoff achieve after two years?",
+"questionOdia": "ଦୁଇ ବର୍ଷ ପରେ ଲୁସ୍କଫ୍ କେଉଁ ସ୍ଵଚ୍ଛ ବୃତ୍ତିଗତ ପଦବୀ ହାସଲ କରିବାରେ ସଫଳ ହୋଇଥିଲା?",
+"options": [
+"School Teacher",
+"Notary public public",
+"Post Office Manager",
+"Wagon Carter"
+],
+"answer": "Notary public public",
+"explanation": "Lushkoff tells Sergei that he has become a notary public and is paid thirty-five roubles a month."
+},
+{
+"questionEnglish": "Who wrote the story titled 'The Grain as Big as a Hen's Egg'?",
+"questionOdia": "'The Grain as Big as a Hen's Egg' ଶୀର୍ଷକ ଗଳ୍ପଟି କିଏ ରଚନା କରିଛନ୍ତି?",
+"options": [
+"G. L. Fuentes",
+"Leo Tolstoy",
+"William Wordsworth",
+"Sunil Gavaskar"
+],
+"answer": "Leo Tolstoy",
+"explanation": "The textbook attributes the story 'The Grain as Big as a Hen's Egg' to the world-renowned Russian writer Leo Tolstoy."
+},
+{
+"questionEnglish": "How did the wise learned men find out the identity of the mysterious egg-like object?",
+"questionOdia": "ପଣ୍ଡିତମାନେ କିପରି ସେହି ରହସ୍ୟମୟ ଅଣ୍ଡା ଆକୃତିର ବସ୍ତୁର ପ୍ରକୃତ ପରିଚୟ ଜାଣିବାକୁ ପାଇଲେ?",
+"options": [
+"By consulting ancient books of the state",
+"When a hen flew in and pecked a hole into it",
+"By melting it in a hot furnace",
+"By asking the town schoolmaster"
+],
+"answer": "When a hen flew in and pecked a hole into it",
+"explanation": "A hen pecked a hole into the object, revealing to the wise men that it was a giant grain of corn."
+},
+{
+"questionEnglish": "What was the property rule regarding land during the grandfather's time in Tolstoy's story?",
+"questionOdia": "ଟଲଷ୍ଟୟଙ୍କ ଗଳ୍ପରେ ଜେଜେବାପାଙ୍କ ସମୟରେ ଜମିର ମାଲିକାନା ସମ୍ପର୍କିତ କେଉଁ ନିୟମ ଥିଲା?",
+"options": [
+"Every piece was strictly owned by the king",
+"The land was free, private property didn't exist, and bread was not sold",
+"The land was divided using heavy fence walls",
+"Only schoolteachers could buy land"
+],
+"answer": "The land was free, private property didn't exist, and bread was not sold",
+"explanation": "The grandfather explains that land was free and shared by all, and buying/selling bread was considered a sin."
+},
+{
+"questionEnglish": "Who delivered the address 'A Great Son of India' honoring Swami Vivekananda?",
+"questionOdia": "ସ୍ଵାମୀ ବିବେକାନନ୍ଦଙ୍କୁ ସମ୍ମାନ ଜଣାଇ 'A Great Son of India' ଅଭିଭାଷଣ କିଏ ପ୍ରଦାନ କରିଥିଲେ?",
+"options": [
+"Jawaharlal Nehru",
+"Dr. Sarvapalli Radhakrishnan",
+"Lord Eustace Percy",
+"Cecil Frances Alexander"
+],
+"answer": "Dr. Sarvapalli Radhakrishnan",
+"explanation": "The text states that the great philosopher-statesman Dr. Sarvapalli Radhakrishnan delivered this historical speech."
+},
+{
+"questionEnglish": "What did Dr. Radhakrishnan term as the dominant features of the modern world?",
+"questionOdia": "ଡକ୍ଟର ରାଧାକ୍ରିଷ୍ଣନ କେଉଁ ଦୁଇଟି ବିଷୟକୁ ଆଧୁନିକ ବିଶ୍ଵର ମୁଖ୍ୟ ବୈଶିଷ୍ଟ୍ୟ ଭାବରେ ଆଖ୍ୟାୟିତ କରିଛନ୍ତି?",
+"options": [
+"War and Industrial Accidents",
+"Science and Democracy",
+"Poverty and Ignorance",
+"Religion and Doctrinal Sophistries"
+],
+"answer": "Science and Democracy",
+"explanation": "He mentions 'science and democracy' as the primary driving and dominant features of modern human society."
+},
+{
+"questionEnglish": "According to the poem 'All Things Bright and Beautiful', who made the glowing colors of the flowers?",
+"questionOdia": "'All Things Bright and Beautiful' କବିତା ଅନୁଯାୟୀ, ଫୁଲଗୁଡ଼ିକର ଉଜ୍ଜ୍ଵଳ ରଙ୍ଗ କିଏ ତିଆରି କରିଛନ୍ତି?",
+"options": [
+"The Gardeners",
+"The Lord God",
+"The Summer Sun",
+"The Morning Sky"
+],
+"answer": "The Lord God",
+"explanation": "The poet explicitly mentions that the Lord God made the glowing colors of each little flower that opens."
+},
+{
+"questionEnglish": "What term is used by C.F. Alexander to describe the mountain top under the rays of the setting sun?",
+"questionOdia": "ସୂର୍ଯ୍ୟାସ୍ତର କିରଣରେ ପର୍ବତ ଶିଖରର ଦୃଶ୍ୟକୁ ବୁଝାଇବା ପାଇଁ ସି.ଏଫ୍. ଆଲେକଜାଣ୍ଡାର କେଉଁ ଶବ୍ଦ ବ୍ୟବହାର କରିଛନ୍ତି?",
+"options": [
+"Snow-capped mountain",
+"Purple-headed mountain",
+"Green-wooded mountain",
+"Cloudy-headed mountain"
+],
+"answer": "Purple-headed mountain",
+"explanation": "The text uses 'The purple-headed mountain' because the setting sun's rays make it look bluish-red."
+},
+{
+"questionEnglish": "What two times of the day are mentioned as brightening up the sky in the poem?",
+"questionOdia": "କବିତାରେ ଆକାଶକୁ ଆଲୋକିତ କରୁଥିବା ଦିନର କେଉଁ ଦୁଇଟି ସମୟ ବିଷୟରେ ଉଲ୍ଲେଖ କରାଯାଇଛି?",
+"options": [
+"Noon and Midnight",
+"The sunset and the morning",
+"Dawn and Twilight only",
+"Afternoon and Evening"
+],
+"answer": "The sunset and the morning",
+"explanation": "The poem says: 'The sunset and the morning, That brightens up the sky.'"
+},
+{
+"questionEnglish": "Where do children run and play according to the lines of 'All Things Bright and Beautiful'?",
+"questionOdia": "'All Things Bright and Beautiful' ର ଧାଡ଼ି ଅନୁଯାୟୀ, ପିଲାମାନେ କେଉଁଠାରେ ଦୌଡ଼ାଦୌଡ଼ି କରି ଖେଳନ୍ତି?",
+"options": [
+"In the tall trees forest",
+"In the open meadows",
+"By the rushing river banks",
+"Inside the narrow church-yard"
+],
+"answer": "In the open meadows",
+"explanation": "The text lists 'The meadows where we play' as one of God's wonderful arrangements."
+},
+{
+"questionEnglish": "What items are manufactured by people using the rushes collected daily by the water side?",
+"questionOdia": "ପାଣି କୂଳରୁ ପ୍ରତିଦିନ ସଂଗ୍ରହ କରାଯାଉଥିବା ରସେସ୍ ଗଛଗୁଡ଼ିକରୁ ଲୋକମାନେ କେଉଁ ସାମଗ୍ରୀ ପ୍ରସ୍ତୁତ କରନ୍ତି?",
+"options": [
+"Wooden furniture houses",
+"Mats and baskets",
+"Stockings and kerchiefs",
+"Paper and writing ink"
+],
+"answer": "Mats and baskets",
+"explanation": "The glossary explicitly states that rushes are waterside plants used for making mats and baskets."
+},
+{
+"questionEnglish": "In which country was the famous poem 'All Things Bright and Beautiful' written by its author?",
+"questionOdia": "ପ୍ରସିଦ୍ଧ କବିତା 'All Things Bright and Beautiful' ଏହାର ଲେଖିକାଙ୍କ ଦ୍ଵାରା କେଉଁ ଦେଶରେ ରଚିତ ହୋଇଥିଲା?",
+"options": [
+"Mexico",
+"Ireland",
+"India",
+"Britain"
+],
+"answer": "Ireland",
+"explanation": "The poet Cecil Frances Alexander was born and raised in Dublin, Ireland."
+},
+{
+"questionEnglish": "Where sat the house of Lencho inside the entire valley?",
+"questionOdia": "ସମଗ୍ର ଉପତ୍ୟକା ମଧ୍ୟରେ ଲେଞ୍ଚୋର ଘରଟି କେଉଁଠାରେ ରହିଥିଲା?",
+"options": [
+"Deep inside the valley center",
+"On the crest of a low hill",
+"Near the post office town",
+"Behind the green wood forest"
+],
+"answer": "On the crest of a low hill",
+"explanation": "The story opens with: 'The house - the only one in the entire valley- sat on the crest of a low hill.'"
+},
+{
+"questionEnglish": "What did the field of ripe corn dotted with flowers always promise to the farmer?",
+"questionOdia": "ଫୁଲରେ ପରିପୂର୍ଣ୍ଣ ପାଚିଲା ମକା କ୍ଷେତଟି ଚାଷୀକୁ ସଦାସର୍ବଦା କଣ ପ୍ରତିଶ୍ରୁତି ଦେଉଥିଲା?",
+"options": [
+"A complete loss of corn",
+"A good harvest",
+"An attack by a plague of insects",
+"A collection of golden coins"
+],
+"answer": "A good harvest",
+"explanation": "The field of ripe corn dotted with flowers 'always promised a good harvest'."
+},
+{
+"questionEnglish": "In which specific direction did Lencho observe the sky for rain clouds in the morning?",
+"questionOdia": "ସକାଳେ ବର୍ଷା ମେଘର ଆଶା ରଖି ଲେଞ୍ଚୋ କେଉଁ ନିର୍ଦ୍ଦିଷ୍ଟ ଦିଗର ଆକାଶକୁ ନିରୀକ୍ଷଣ କରୁଥିଲା?",
+"options": [
+"The North-East",
+"The South-West",
+"The North-West",
+"The South-East"
+],
+"answer": "The North-East",
+"explanation": "The story notes that Lencho spent his morning looking at the sky towards the north-east."
+},
+{
+"questionEnglish": "What were the older boys of Lencho doing when the rain drops began to fall?",
+"questionOdia": "ବର୍ଷା ବିନ୍ଦୁ ପଡ଼ିବା ଆରମ୍ଭ ହେବା ସମୟରେ ଲେଞ୍ଚୋର ବଡ଼ ପୁଅମାନେ କଣ କରୁଥିଲେ?",
+"options": [
+"Playing near the house",
+"Working in the field",
+"Writing letters to town",
+"Collecting frozen pearls"
+],
+"answer": "Working in the field",
+"explanation": "The text states: 'The older boys were working in the field, while the smaller ones were playing near the house.'"
+},
+{
+"questionEnglish": "What did Lencho metaphorically name the large rain drops falling from the sky?",
+"questionOdia": "ଆକାଶରୁ ପଡ଼ୁଥିବା ବଡ଼ ବର୍ଷା ବିନ୍ଦୁଗୁଡ଼ିକୁ ଲେଞ୍ଚୋ ରୂପକ ଭାବେ କେଉଁ ନାମ ଦେଇଥିଲା?",
+"options": [
+"Frozen pearls",
+"Ten cent pieces",
+"Five cent pieces",
+"Silver pesos"
+],
+"answer": "Ten cent pieces",
+"explanation": "Lencho called the big rain drops 'ten cent pieces' and the smaller ones 'fives'."
+},
+{
+"questionEnglish": "What dangerous weather element followed the rain and destroyed Lencho's entire cornfield?",
+"questionOdia": "ବର୍ଷା ପରେ କେଉଁ ବିପଜ୍ଜନକ ପ୍ରାକୃତିକ ଦୁର୍ବିପାକ ଆସି ଲେଞ୍ଚୋର ସମଗ୍ର ମକା କ୍ଷେତକୁ ଧ୍ଵଂସ କରିଦେଲା?",
+"options": [
+"A severe river flood",
+"Very large hailstones",
+"A sudden forest fire",
+"A dry sand storm"
+],
+"answer": "Very large hailstones",
+"explanation": "Suddenly a strong wind blew and 'along with the rain very large hailstones began to fall' destroying everything."
+},
+{
+"questionEnglish": "For how long did the hailstones rain upon the entire valley and cornfields?",
+"questionOdia": "ସମଗ୍ର ଉପତ୍ୟକା ଏବଂ ମକା କ୍ଷେତ ଉପରେ କେତେ ସମୟ ଧରି କୁଆପଥର ବର୍ଷା ହୋଇଥିଲା?",
+"options": [
+"For ten minutes",
+"For an hour",
+"For two full days",
+"Throughout the night"
+],
+"answer": "For an hour",
+"explanation": "The story text states: 'For an hour the hail rained on the house, the garden, the hillside, the cornfield'."
+},
+{
+"questionEnglish": "How did the field look after the storm, as described by the author?",
+"questionOdia": "ଝଡ଼ ସରିବା ପରେ କ୍ଷେତଟି କିପରି ଦେଖାଯାଉଥିଲା ବୋଲି ଲେଖକ ବର୍ଣ୍ଣନା କରିଛନ୍ତି?",
+"options": [
+"Bright golden color",
+"White, as if covered with salt",
+"Lush green wood",
+"Muddy river delta"
+],
+"answer": "White, as if covered with salt",
+"explanation": "The destruction left the entire field looking 'white, as if covered with salt'."
+},
+{
+"questionEnglish": "What insect attack did Lencho refer to while mourning the destruction with his sons?",
+"questionOdia": "ନିଜ ପୁଅମାନଙ୍କ ସହ ଦୁଃଖ ପ୍ରକାଶ କରିବା ସମୟରେ ଲେଞ୍ଚୋ କେଉଁ କୀଟପତଙ୍ଗର ଆକ୍ରମଣ ବିଷୟରେ ଉଲ୍ଲେଖ କରିଥିଲା?",
+"options": [
+"A plague of locusts",
+"A attack of mosquitoes",
+"A garden ants infestation",
+"Forest moths swarm"
+],
+"answer": "A plague of locusts",
+"explanation": "Lencho lamented: 'A plague of locusts would have left more than this. The hail has left nothing.'"
+},
+{
+"questionEnglish": "What single hope was left in the hearts of Lencho's family members in their solitary house?",
+"questionOdia": "ଲେଞ୍ଚୋର ପରିବାର ସଦସ୍ୟଙ୍କ ମନରେ ସେମାନଙ୍କ ନିଛାଟିଆ ଘରେ କେଉଁ ଏକମାତ୍ର ଆଶା ବାକି ରହିଥିଲା?",
+"options": [
+"Loans from the town bank",
+"Help from God",
+"Moving to Conway dwellings",
+"Selling the remaining tall trees"
+],
+"answer": "Help from God",
+"explanation": "The text notes that in the hearts of all who lived in that solitary house, there was a single hope: help from God."
+},
+{
+"questionEnglish": "How is Lencho's working style described metaphorically in the field?",
+"questionOdia": "କ୍ଷେତରେ ଲେଞ୍ଚୋର କାମ କରିବା ଶୈଳୀକୁ ରୂପକ ଆକାରରେ କିପରି ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"options": [
+"A lion of fields",
+"An ox of a man",
+"A bird of meadows",
+"A clever forest fox"
+],
+"answer": "An ox of a man",
+"explanation": "The text uses the phrase: 'Lencho was an ox of a man, working like an animal in the fields'."
+},
+{
+"questionEnglish": "When did Lencho start writing his famous letter to God?",
+"questionOdia": "ଲେଞ୍ଚୋ କେବେ ଭଗବାନଙ୍କୁ ଉଦ୍ଦେଶ୍ୟ କରି ତା’ର ପ୍ରସିଦ୍ଧ ଚିଠି ଲେଖିବା ଆରମ୍ଭ କରିଥିଲା?",
+"options": [
+"The following Sunday, at daybreak",
+"Immediately during the hail storm",
+"Monday afternoon hours",
+"Saturday midnight hours"
+],
+"answer": "The following Sunday, at daybreak",
+"explanation": "The text specifies: 'The following Sunday, at daybreak, he began to write a letter which he himself would carry to town'."
+},
+{
+"questionEnglish": "How much money did Lencho ask from God in order to sow his field again?",
+"questionOdia": "ନିଜ କ୍ଷେତରେ ପୁନର୍ବାର ବିହନ ବୁଣିବା ପାଇଁ ଲେଞ୍ଚୋ ଭଗବାନଙ୍କଠାରୁ କେତେ ଟଙ୍କା ମାଗିଥିଲା?",
+"options": [
+"Seventy pesos",
+"A hundred pesos",
+"Fifty pesos",
+"A thousand pesos"
+],
+"answer": "A hundred pesos",
+"explanation": "Lencho wrote: 'I need a hundred pesos in order to sow my field again and to live until the crop comes'."
+},
+{
+"questionEnglish": "What did Lencho write on the envelope of his first letter?",
+"questionOdia": "ଲେଞ୍ଚୋ ତା’ର ପ୍ରଥମ ଚିଠିର ଲଫାପା ଉପରେ କଣ ଲେଖିଥିଲା?",
+"options": [
+"To the Postmaster Office",
+"To God",
+"To the Town Mayor House",
+"To the Field Workers"
+],
+"answer": "To God",
+"explanation": "He simply wrote 'To God' on the envelope, put the letter inside, and went to town."
+},
+{
+"questionEnglish": "What was the postmaster's character description as written by G. L. Fuentes?",
+"questionOdia": "ଜି. ଏଲ୍. ଫୁଏଣ୍ଟେସଙ୍କ ଦ୍ଵାରା ଲିଖିତ ପୋଷ୍ଟମାଷ୍ଟରଙ୍କ ଚରିତ୍ରର ବର୍ଣ୍ଣନା କଣ ଥିଲା?",
+"options": [
+"A thin, strict and cruel fellow",
+"A fat, amiable fellow",
+"A serious corporate executive clerk",
+"An old dishonest crook person"
+],
+"answer": "A fat, amiable fellow",
+"explanation": "The text describes the postmaster as 'a fat, amiable fellow' who broke out laughing but turned serious."
+},
+{
+"questionEnglish": "Why did the postmaster decide to collect money and answer Lencho's letter?",
+"questionOdia": "ପୋଷ୍ଟମାଷ୍ଟର କାହିଁକି ଟଙ୍କା ସଂଗ୍ରହ କରି ଲେଞ୍ଚୋର ଚିଠିର ଉତ୍ତର ଦେବାକୁ ନିଷ୍ପତ୍ତି ନେଇଥିଲେ?",
+"options": [
+"To play a funny joke on Lencho",
+"In order not to shake the writer's faith in God",
+"To earn a government post reward",
+"Because he knew Lencho personally"
+],
+"answer": "In order not to shake the writer's faith in God",
+"explanation": "The text states: 'So, in order not to shake the writer's faith in God, the postmaster came up with an idea: answer the letter.'"
+},
+{
+"questionEnglish": "How did the postmaster gather the money sent to the farmer?",
+"questionOdia": "ଚାଷୀ ପାଖକୁ ପଠାଯାଇଥିବା ଟଙ୍କା ପୋଷ୍ଟମାଷ୍ଟର କିପରି ସଂଗ୍ରହ କରିଥିଲେ?",
+"options": [
+"He took a formal town loan",
+"He asked from employees, gave part of his salary, and involved friends",
+"He sold post office stamps in bulk",
+"He demanded it from the local valley head"
+],
+"answer": "He asked from employees, gave part of his salary, and involved friends",
+"explanation": "He asked for contributions from employees, gave part of his own salary, and received funds from friends 'for an act of charity'."
+},
+{
+"questionEnglish": "Exactly how many pesos reached Lencho inside the first post office envelope?",
+"questionOdia": "ଡାକଘରର ପ୍ରଥମ ଲଫାପା ଭିତରେ ଲେଞ୍ଚୋ ପାଖରେ ସଠିକ୍ ଭାବେ କେତେ ପେସୋ ପହଞ୍ଚିଥିଲା?",
+"options": [
+"A hundred pesos",
+"Seventy pesos",
+"Fifty pesos",
+"Thirty pesos"
+],
+"answer": "Seventy pesos",
+"explanation": "The postmaster managed to collect and send only seventy pesos, which was a little more than half of what was asked."
+},
+{
+"questionEnglish": "What signature did the postmaster put on the letter to protect Lencho's faith?",
+"questionOdia": "ଲେଞ୍ଚୋର ବିଶ୍ଵାସକୁ ରକ୍ଷା କରିବା ପାଇଁ ପୋଷ୍ଟମାଷ୍ଟର ଚିଠିରେ କେଉଁ ସ୍ଵାକ୍ଷର କରିଥିଲେ?",
+"options": [
+"Postmaster Office",
+"Charity Leader",
+"God",
+"Amiable Friend"
+],
+"answer": "God",
+"explanation": "He signed the letter with a single word: 'God', to make it look like a direct divine response."
+},
+{
+"questionEnglish": "What did Lencho call the post office employees in his second letter to God?",
+"questionOdia": "ଭଗବାନଙ୍କୁ ଲେଖିଥିବା ଦ୍ଵାରା ଦ୍ଵିତୀୟ ଚିଠିରେ ଲେଞ୍ଚୋ ଡାକଘର କର୍ମଚାରୀମାନଙ୍କୁ କଣ ବୋଲି ସମ୍ବୋଧନ କରିଥିଲା?",
+"options": [
+"Kind-hearted friends",
+"A bunch of crooks",
+"Sovereign assembly members",
+"Honest manual workers"
+],
+"answer": "A bunch of crooks",
+"explanation": "Lencho wrote that the post office employees were 'a bunch of crooks' who stole thirty pesos of his money."
+},
+{
+"questionEnglish": "What was the nationality of the famous author Gregorio Lopez Fuentes?",
+"questionOdia": "ପ୍ରସିଦ୍ଧ ଲେଖକ ଗ୍ରେଗୋରିଓ ଲୋପେଜ୍ ଫୁଏଣ୍ଟେସଙ୍କ ଜାତୀୟତା କଣ ଥିଲା?",
+"options": [
+"Irish",
+"Mexican",
+"British",
+"Indian"
+],
+"answer": "Mexican",
+"explanation": "The text notes that Gregorio Lopez Fuentes (1895-1966) was a famous Mexican novelist, poet, and journalist."
 }
 ]
