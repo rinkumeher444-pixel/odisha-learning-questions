@@ -10,5 +10,17 @@
     ],
     "answer": "Flow of electrons",
     "explanation": "Current is flow of electrons."
-  }
+  },
+   {
+    "questionEnglish": "What is current?",
+    "questionOdia": "କରେଣ୍ଟ କ'ଣ?",
+    "options": [
+      "Flow of electrons",
+      "Resistance",
+      "Voltage",
+      "Power"
+    ],
+    "answer": "Flow of electrons",
+    "explanation": "Current is flow of electrons."
+   }
 ]
