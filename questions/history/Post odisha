@@ -1,0 +1,1502 @@
+[
+{
+"questionEnglish": "What was the population of Odisha after the merger of princely states, according to the chapter?",
+"questionOdia": "ସ୍ଵାଧୀନତା ପରେ ଗଡ଼ଜାତ ମିଶ୍ରଣ ପରେ ଓଡ଼ିଶାର ଲୋକସଂଖ୍ୟା କେତେ ଥିଲା?",
+"options": [
+"କୋଟିଏ ସଇଁତିରିଶ ଲକ୍ଷ",
+"କୋଟିଏ ଚଉଦ ଲକ୍ଷ",
+"ନବେ ଲକ୍ଷ",
+"ଦୁଇ କୋଟି"
+],
+"answer": "କୋଟିଏ ସଇଁତିରିଶ ଲକ୍ଷ",
+"explanation": "ସ୍ଵାଧୀନତା ପରେ ଓଡ଼ିଶାର ଲୋକସଂଖ୍ୟା କୋଟିଏ ସଇଁତିରିଶ ଲକ୍ଷରେ ପହଞ୍ଚିଥିଲା।"
+},
+{
+"questionEnglish": "How many tribal people were there among the population of Odisha after the merger of princely states?",
+"questionOdia": "ଗଡ଼ଜାତ ମିଶ୍ରଣ ପରେ ଓଡ଼ିଶାରେ ଆଦିବାସୀଙ୍କ ସଂଖ୍ୟା କେତେ ଥିଲା?",
+"options": [
+"୧୮ ଲକ୍ଷ ଷାଠିଏ ହଜାର",
+"୩୫ ଲକ୍ଷ",
+"୨୦ ଲକ୍ଷ",
+"୧୦ ଲକ୍ଷ"
+],
+"answer": "୩୫ ଲକ୍ଷ",
+"explanation": "ଓଡ଼ିଶାର ମୋଟ ଲୋକସଂଖ୍ୟା ମଧ୍ୟରୁ ୩୫ ଲକ୍ଷ ଥିଲେ ଆଦିବାସୀ।"
+},
+{
+"questionEnglish": "What was the population of Scheduled Castes in Odisha after the merger of princely states?",
+"questionOdia": "ଗଡ଼ଜାତ ମିଶ୍ରଣ ପରେ ଓଡ଼ିଶାରେ ଅନୁସୂଚିତ ଜାତିର ଲୋକସଂଖ୍ୟା କେତେ ଥିଲା?",
+"options": [
+"୩୫ ଲକ୍ଷ",
+"୧୮ ଲକ୍ଷ ଷାଠିଏ ହଜାର",
+"୨୫ ଲକ୍ଷ",
+"୧୫ ଲକ୍ଷ"
+],
+"answer": "୧୮ ଲକ୍ଷ ଷାଠିଏ ହଜାର",
+"explanation": "ଓଡ଼ିଶାର ମୋଟ ଲୋକସଂଖ୍ୟା ମଧ୍ୟରୁ ୧୮ ଲକ୍ଷ ଷାଠିଏ ହଜାର ଥିଲେ ଅନୁସୂଚିତ ଜାତିର ଜନତା।"
+},
+{
+"questionEnglish": "What is the traditional practice of clearing forest land for farming by setting fire called?",
+"questionOdia": "ଆଦିବାସୀମାନେ ଜଙ୍ଗଲରେ ଅଗ୍ନି ସଂଯୋଗ କରି ଚାଷଜମି ପ୍ରସ୍ତୁତ କରିବା ପଦ୍ଧତିକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ଗୋତି ଚାଷ",
+"ପୋଡ଼ୁ ଚାଷ",
+"ବେଠି ଚାଷ",
+"ମାଗଣ ଚାଷ"
+],
+"answer": "ପୋଡ଼ୁ ଚାଷ",
+"explanation": "ଆଦିବାସୀମାନେ ଜଙ୍ଗଲରେ ଅଗ୍ନି ସଂଯୋଗ କରି ଯେଉଁ ଚାଷଜମି ପ୍ରସ୍ତୁତ କରନ୍ତି, ତାହାକୁ ପୋଡ଼ୁଚାଷ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which Act was repealed by the government in 1949 to improve the condition of tribal people?",
+"questionOdia": "ଆଦିବାସୀମାନଙ୍କ ବିକାଶ ପାଇଁ ୧୯୪୯ ମସିହାରେ କେଉଁ ଅଗଣତାନ୍ତ୍ରିକ ଆଇନକୁ ରଦ୍ଦ କରାଯାଇଥିଲା?",
+"options": [
+"ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ଆଇନ",
+"ଅପରାଧୀ ଜନଜାତି ଆଇନ",
+"ଜମି ଜବରଦଖଲ ଆଇନ",
+"ମନ୍ଦିର ପ୍ରବେଶ ଆଇନ"
+],
+"answer": "ଅପରାଧୀ ଜନଜାତି ଆଇନ",
+"explanation": "୧୯୪୯ ମସିହାରେ ଅପରାଧୀ ଜନଜାତି ଆଇନ ଭଳି ଅଗଣତାନ୍ତ୍ରିକ ବିଧବ୍ୟବସ୍ଥାକୁ ରଦ୍ଦ କରିଦିଆଗଲା।"
+},
+{
+"questionEnglish": "When was the Odisha Goti System Abolition Regulation strictly implemented?",
+"questionOdia": "ଓଡ଼ିଶା ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ନିୟାମକ କେବେ କଡ଼ାକଡ଼ି ଭାବେ କାର୍ଯ୍ୟକାରୀ ହୋଇଥିଲା?",
+"options": [
+"୧୯୪୭ ଜୁନ",
+"୧୯୪୮ ଜୁନ",
+"୧୯୪୯ ମାର୍ଚ୍ଚ",
+"୧୯୫୦ ଜାନୁଆରୀ"
+],
+"answer": "୧୯୪୮ ଜୁନ",
+"explanation": "୧୯୪୮ ମସିହା ଜୁନ ମାସରେ ଓଡ଼ିଶା ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ନିୟାମକକୁ କଡ଼ାକଡ଼ି ପାଳନ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "Which act allowed Scheduled Caste devotees to enter the Jagannath Temple?",
+"questionOdia": "କେଉଁ ଆଇନ ବଳରେ ଅନୁସୂଚିତ ଜାତିର ଭକ୍ତମାନେ ଜଗନ୍ନାଥ ମନ୍ଦିରରେ ପ୍ରବେଶ କରିପାରିଲେ?",
+"options": [
+"ନାଗରିକ ଅଯୋଗ୍ୟତା ଦୂରୀକରଣ ଆଇନ",
+"ଓଡ଼ିଶା ମନ୍ଦିର ପ୍ରବେଶ ଅନୁମତି ଆଇନ",
+"ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ଆଇନ",
+"ଅପରାଧୀ ଜନଜାତି ଆଇନ"
+],
+"answer": "ଓଡ଼ିଶା ମନ୍ଦିର ପ୍ରବେଶ ଅନୁମତି ଆଇନ",
+"explanation": "ଓଡ଼ିଶା ମନ୍ଦିର ପ୍ରବେଶ ଅନୁମତି ଆଇନ, ୧୯୪୮ ବଳରେ ଅନୁସୂଚିତ ଜାତିର ଭକ୍ତମାନଙ୍କ ପାଇଁ ଜଗନ୍ନାଥ ମନ୍ଦିର ଉନ୍ମୁକ୍ତ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "When did the devotees enter the Sakshigopal Temple?",
+"questionOdia": "ଅନୁସୂଚିତ ଜାତିର ଭକ୍ତମାନେ ସାକ୍ଷୀଗୋପାଳ ମନ୍ଦିରରେ କେବେ ପ୍ରବେଶ କଲେ?",
+"options": [
+"୧୯୪୭ ମାର୍ଚ୍ଚ ୧",
+"୧୯୪୮ ମାର୍ଚ୍ଚ ୧",
+"୧୯୪୯ ଜାନୁଆରୀ ୧",
+"୧୯୫୦ ମାର୍ଚ୍ଚ ୧"
+],
+"answer": "୧୯୪୮ ମାର୍ଚ୍ଚ ୧",
+"explanation": "୧୯୪୮ ମସିହା ମାର୍ଚ୍ଚ ୧ ତାରିଖରେ ସାକ୍ଷୀଗୋପାଳ ମନ୍ଦିରରେ ଅନୁସୂଚିତ ଜାତିର ଭକ୍ତମାନେ ପ୍ରବେଶ କଲେ।"
+},
+{
+"questionEnglish": "What percentage of tribal people in Odisha were literate at that time?",
+"questionOdia": "ସ୍ଵାଧୀନତା ପରେ ଓଡ଼ିଶାରେ କେତେ ପ୍ରତିଶତ ଆଦିବାସୀ ସାକ୍ଷର ଥିଲେ?",
+"options": [
+"୧.୫ ପ୍ରତିଶତ",
+"୩.୩ ପ୍ରତିଶତ",
+"୫.୦ ପ୍ରତିଶତ",
+"୨.୦ ପ୍ରତିଶତ"
+],
+"answer": "୧.୫ ପ୍ରତିଶତ",
+"explanation": "ଓଡ଼ିଶାର ଆଦିବାସୀମାନଙ୍କ ମଧ୍ୟରେ ଶତକଡ଼ା ୧.୫ ଭାଗ ଲୋକ ସାକ୍ଷର ଥିଲେ।"
+},
+{
+"questionEnglish": "What was the literacy rate among Scheduled Castes in Odisha at that time?",
+"questionOdia": "ସ୍ଵାଧୀନତା ପରେ ଓଡ଼ିଶାରେ ଅନୁସୂଚିତ ଜାତିର ଲୋକଙ୍କ ସାକ୍ଷରତା ହାର କେତେ ଥିଲା?",
+"options": [
+"୧.୫ ପ୍ରତିଶତ",
+"୩.୩ ପ୍ରତିଶତ",
+"୫.୫ ପ୍ରତିଶତ",
+"୧୦ ପ୍ରତିଶତ"
+],
+"answer": "୩.୩ ପ୍ରତିଶତ",
+"explanation": "ଅନୁସୂଚିତ ଜାତିମାନଙ୍କ କ୍ଷେତ୍ରରେ ସାକ୍ଷରତା ହାର ମାତ୍ର ୩.୩ ପ୍ରତିଶତ ଥିଲା।"
+},
+{
+"questionEnglish": "Which disease were the Koya tribe of Koraput suffering from?",
+"questionOdia": "କୋରାପୁଟର କୋୟାମାନେ କେଉଁ ଭୟଙ୍କର ରୋଗର ଶିକାର ହେଉଥିଲେ?",
+"options": [
+"ମ୍ୟାଲେରିଆ",
+"ୟଜ୍",
+"ଯୌନରୋଗ",
+"କୁଷ୍ଠ"
+],
+"answer": "ୟଜ୍",
+"explanation": "କୋରାପୁଟର କୋୟାମାନେ ‘ୟଜ୍’ ନାମକ ଏକ ଭୟଙ୍କର ରୋଗର ଶିକାର ହେଉଥିଲେ।"
+},
+{
+"questionEnglish": "What is the primary objective of 'Mission Shakti'?",
+"questionOdia": "‘ମିଶନ ଶକ୍ତି’ର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ’ଣ?",
+"options": [
+"ଶିଶୁମାନଙ୍କ ଶିକ୍ଷା",
+"ମହିଳାମାନଙ୍କ ସାମାଜିକ ଓ ଆର୍ଥିକ ସ୍ଥିତିରେ ଉନ୍ନତି",
+"ଆଦିବାସୀମାନଙ୍କ ଜମି ଉଦ୍ଧାର",
+"ମନ୍ଦିର ପ୍ରବେଶ"
+],
+"answer": "ମହିଳାମାନଙ୍କ ସାମାଜିକ ଓ ଆର୍ଥିକ ସ୍ଥିତିରେ ଉନ୍ନତି",
+"explanation": "ମହିଳା ସ୍ଵୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ମାଧ୍ୟମରେ ଓଡ଼ିଶାର ମହିଳାମାନଙ୍କର ସାମାଜିକ ତଥା ଆର୍ଥିକ ସ୍ଥିତିରେ ଉନ୍ନତି ଆଣିବା ହେଉଛି ମିଶନ ଶକ୍ତିର ଉଦ୍ଦେଶ୍ୟ।"
+},
+{
+"questionEnglish": "When was the 'Mission Shakti' scheme started in Odisha?",
+"questionOdia": "ଓଡ଼ିଶାରେ ‘ମିଶନ ଶକ୍ତି’ କେବେ ଆରମ୍ଭ କରାଯାଇଥିଲା?",
+"options": [
+"୨୦୦୦ ମାର୍ଚ୍ଚ ୮",
+"୨୦୦୧ ମାର୍ଚ୍ଚ ୮",
+"୨୦୦୨ ମାର୍ଚ୍ଚ ୮",
+"୨୦୦୫ ମାର୍ଚ୍ଚ ୮"
+],
+"answer": "୨୦୦୧ ମାର୍ଚ୍ଚ ୮",
+"explanation": "୨୦୦୧ ମସିହା ମାର୍ଚ୍ଚ ୮ ତାରିଖରୁ ଓଡ଼ିଶାରେ ମହିଳା ସଶକ୍ତିକରଣ ଯୋଜନା ‘ମିଶନ ଶକ୍ତି’ ଆରମ୍ଭ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "What was the amount of medical treatment expense covered under the Health Insurance Scheme in specific districts?",
+"questionOdia": "ସ୍ଵାସ୍ଥ୍ୟ ବୀମା ଯୋଜନା ଅନୁଯାୟୀ ରୋଗୀର ଡାକ୍ତରଖାନା ଖର୍ଚ୍ଚ କେତେ ଟଙ୍କା ପର୍ଯ୍ୟନ୍ତ ଭରଣା କରାଯାଏ?",
+"options": [
+"୧୦ ହଜାର",
+"୨୦ ହଜାର",
+"୩୦ ହଜାର",
+"୫୦ ହଜାର"
+],
+"answer": "୩୦ ହଜାର",
+"explanation": "ଏହି ଯୋଜନା ଅନୁଯାୟୀ ରୋଗୀର ଡାକ୍ତରଖାନାରେ ଚିକିତ୍ସା ଖର୍ଚ୍ଚ ତିରିଶ ହଜାର ଟଙ୍କା ପର୍ଯ୍ୟନ୍ତ ଭରଣା କରାଯାଏ।"
+},
+{
+"questionEnglish": "When was the Madhu Babu Pension Yojana introduced in Odisha?",
+"questionOdia": "ଓଡ଼ିଶାରେ ମଧୁବାବୁ ପେନ୍‌ସନ୍ ଯୋଜନା କେବେ ପ୍ରବର୍ତ୍ତିତ ହୋଇଥିଲା?",
+"options": [
+"୨୦୦୭ ଜାନୁଆରୀ ୧",
+"୨୦୦୮ ଜାନୁଆରୀ ୧",
+"୨୦୦୯ ଜାନୁଆରୀ ୧",
+"୨୦୧୦ ଜାନୁଆରୀ ୧"
+],
+"answer": "୨୦୦୮ ଜାନୁଆରୀ ୧",
+"explanation": "୨୦୦୮ ମସିହା ଜାନୁଆରୀ ୧ ତାରିଖରୁ ଓଡ଼ିଶାରେ ମଧୁବାବୁ ପେନ୍‌ସନ୍ ଯୋଜନା ପ୍ରବର୍ତ୍ତିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "When was the Odisha Emergency Medical Ambulance Service introduced?",
+"questionOdia": "ଓଡ଼ିଶା ଜରୁରୀକାଳୀନ ମେଡ଼ିକାଲ ଆମ୍ବୁଲାନ୍ସ ସେବା କେବେ ପ୍ରବର୍ତ୍ତନ କରାଯାଇଛି?",
+"options": [
+"୨୦୧୦ ମାର୍ଚ୍ଚ ୫",
+"୨୦୧୧ ମାର୍ଚ୍ଚ ୫",
+"୨୦୧୨ ମାର୍ଚ୍ଚ ୫",
+"୨୦୧୩ ମାର୍ଚ୍ଚ ୫"
+],
+"answer": "୨୦୧୩ ମାର୍ଚ୍ଚ ୫",
+"explanation": "୨୦୧୩ ମସିହା ମାର୍ଚ୍ଚ ୫ ତାରିଖରୁ ଓଡ଼ିଶା ଜରୁରୀକାଳୀନ ମେଡ଼ିକାଲ ଆମ୍ବୁଲାନ୍ସ ସେବା ପ୍ରବର୍ତ୍ତନ କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "What is the age limit for a child worker (shishu shramika)?",
+"questionOdia": "କେଉଁ ବୟସରୁ କମ୍ ବୟସର ଶ୍ରମିକମାନଙ୍କୁ ଶିଶୁ ଶ୍ରମିକ କୁହାଯାଏ?",
+"options": [
+"୧୦ ବର୍ଷ",
+"୧୨ ବର୍ଷ",
+"୧୪ ବର୍ଷ",
+"୧୬ ବର୍ଷ"
+],
+"answer": "୧୪ ବର୍ଷ",
+"explanation": "୧୪ ବର୍ଷରୁ କମ୍ ବୟସର ଶ୍ରମିକମାନଙ୍କୁ ଶିଶୁ ଶ୍ରମିକ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which scheme provides 35 kg of rice at Rs 3 per kg to families below the poverty line?",
+"questionOdia": "କେଉଁ ଯୋଜନା ଅନ୍ତର୍ଗତ ଦାରିଦ୍ର୍ୟ ସୀମାରେଖା ତଳେ ରହୁଥିବା ପରିବାରଙ୍କୁ ମାସିକ ୩୫ କିଲୋଗ୍ରାମ ଚାଉଳ ମିଳିଥାଏ?",
+"options": [
+"ଅନ୍ତୋଦୟ ଯୋଜନା",
+"ଇନ୍ଦିରା ଆବାସ ଯୋଜନା",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ ଗ୍ରାମ ସଡ଼କ ଯୋଜନା",
+"ମିଶନ ଶକ୍ତି"
+],
+"answer": "ଅନ୍ତୋଦୟ ଯୋଜନା",
+"explanation": "କେନ୍ଦ୍ର ସରକାରଙ୍କର ଅନ୍ତୋଦୟ ଯୋଜନା ଦ୍ଵାରା ଦାରିଦ୍ର୍ୟ ସୀମାରେଖା ତଳେ ରହୁଥିବା ପରିବାରଙ୍କୁ ମାସିକ ୩୫ କିଲୋଗ୍ରାମ ଚାଉଳ ଦେବା ବ୍ୟବସ୍ଥା ହୋଇଛି।"
+},
+{
+"questionEnglish": "Which program was aimed at achieving self-reliance for women through Self-Help Groups?",
+"questionOdia": "ମହିଳାମାନଙ୍କୁ ଆତ୍ମନିର୍ଭରଶୀଳ କରିବା ପାଇଁ କେଉଁ ଗୋଷ୍ଠୀ ମାଧ୍ୟମରେ ପଦକ୍ଷେପ ନିଆଯାଇଛି?",
+"options": [
+"ଅଙ୍ଗନବାଡ଼ି",
+"ସ୍ଵୟଂସହାୟକ ଗୋଷ୍ଠୀ",
+"ମିଶନ ଶକ୍ତି ସମିତି",
+"ଗ୍ରାମ୍ୟ ସ୍ଵାସ୍ଥ୍ୟ ସମିତି"
+],
+"answer": "ସ୍ଵୟଂସହାୟକ ଗୋଷ୍ଠୀ",
+"explanation": "ସ୍ଵୟଂସହାୟକ ଗୋଷ୍ଠୀ ମାଧ୍ୟମରେ ମହିଳାମାନଙ୍କୁ ଆତ୍ମନିର୍ଭରଶୀଳ କରିବା ପାଇଁ ସେମାନଙ୍କ ଆର୍ଥିକ ବିକାଶ ଦିଗରେ ପଦକ୍ଷେପ ନିଆଯାଉଛି।"
+},
+{
+"questionEnglish": "What was the main purpose of establishing Anganwadi centres?",
+"questionOdia": "ଗ୍ରାମାଞ୍ଚଳରେ ଅଙ୍ଗନବାଡ଼ି କେନ୍ଦ୍ର ପ୍ରତିଷ୍ଠା କରିବାର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ’ଣ?",
+"options": [
+"ଶିଶୁମାନଙ୍କୁ ଶିକ୍ଷା ଦେବା",
+"ମହିଳାମାନଙ୍କୁ ଋଣ ଦେବା",
+"ବୃଦ୍ଧବ୍ୟକ୍ତିମାନଙ୍କୁ ପେନ୍‌ସନ୍ ଦେବା",
+"ରାସ୍ତାଘାଟ ନିର୍ମାଣ କରିବା"
+],
+"answer": "ଶିଶୁମାନଙ୍କୁ ଶିକ୍ଷା ଦେବା",
+"explanation": "ଶିଶୁମାନଙ୍କୁ ଶିକ୍ଷା ଦେବା ପାଇଁ ଗ୍ରାମାଞ୍ଚଳରେ ଅଙ୍ଗନବାଡ଼ି କେନ୍ଦ୍ର ପ୍ରତିଷ୍ଠା କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "What was the name of the scheme for supplying houses to poor people who lost their homes due to natural disasters?",
+"questionOdia": "ବନ୍ୟା, ଘରପୋଡ଼ି ଦ୍ୱାରା ଗୃହଶୂନ୍ୟ ଲୋକଙ୍କ ପାଇଁ କେଉଁ ଯୋଜନା କାର୍ଯ୍ୟକାରୀ ହୋଇଛି?",
+"options": [
+"ଇନ୍ଦିରା ଆବାସ ଯୋଜନା",
+"ମୋ କୁଡ଼ିଆ ଯୋଜନା",
+"ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଯୋଜନା",
+"ଅନ୍ତୋଦୟ ଯୋଜନା"
+],
+"answer": "ମୋ କୁଡ଼ିଆ ଯୋଜନା",
+"explanation": "ବନ୍ୟା, ଘରପୋଡ଼ି ଓ ହାତୀ ଉପଦ୍ରବ ଦ୍ୱାରା ଗୃହଶୂନ୍ୟ ଲୋକଙ୍କ ପାଇଁ ମୋ କୁଡ଼ିଆ ଯୋଜନା କାର୍ଯ୍ୟକାରୀ ହୋଇଛି।"
+},
+{
+"questionEnglish": "Which scheme is focused on electricity, road, and water in rural areas?",
+"questionOdia": "ବିଜୁଳି, ସଡ଼କ ଓ ପାଣିର ବ୍ୟବସ୍ଥା ପାଇଁ କେଉଁ ଗ୍ରାମୀଣ ଯୋଜନା କାର୍ଯ୍ୟକାରୀ ହେଉଛି?",
+"options": [
+"ଗୋପବନ୍ଧୁ ଗ୍ରାମୀଣ ଯୋଜନା",
+"ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଯୋଜନା",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ ଗ୍ରାମ ସଡ଼କ ଯୋଜନା",
+"ମହାତ୍ମା ଗାନ୍ଧୀ ଜାତୀୟ ଗ୍ରାମୀଣ ନିଶ୍ଚିତ କର୍ମନିଯୁକ୍ତି ଯୋଜନା"
+],
+"answer": "ଗୋପବନ୍ଧୁ ଗ୍ରାମୀଣ ଯୋଜନା",
+"explanation": "ଗୋପବନ୍ଧୁ ଗ୍ରାମୀଣ ଯୋଜନା ଦ୍ଵାରା ବିଜୁଳି, ସଡ଼କ ଓ ପାଣିର ପର୍ଯ୍ୟାପ୍ତ ବ୍ୟବସ୍ଥା ପାଇଁ ଉଦ୍ୟମ କରାଯାଉଛି।"
+},
+{
+"questionEnglish": "What is the primary aim of Biju Gramjyoti Yojana?",
+"questionOdia": "ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଯୋଜନାର ଲକ୍ଷ୍ୟ କ’ଣ?",
+"options": [
+"ଗ୍ରାମାଞ୍ଚଳରେ ବିଦ୍ୟୁତ ସଂଯୋଗ",
+"ରାସ୍ତା ନିର୍ମାଣ",
+"ପାଣି ଯୋଗାଣ",
+"ଶିକ୍ଷା ପ୍ରସାର"
+],
+"answer": "ଗ୍ରାମାଞ୍ଚଳରେ ବିଦ୍ୟୁତ ସଂଯୋଗ",
+"explanation": "ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଯୋଜନାରେ ରାଜ୍ୟର ସମସ୍ତ ଗ୍ରାମଗୁଡ଼ିକୁ ବିଦ୍ୟୁତ୍ ସଂଯୋଗ କରିବା ପାଇଁ ଲକ୍ଷ୍ୟ ରଖାଯାଇଛି।"
+},
+{
+"questionEnglish": "When was the National Rural Employment Guarantee Scheme started?",
+"questionOdia": "ଜାତୀୟ ନିଶ୍ଚିତ ଗ୍ରାମୀଣ କର୍ମନିଯୁକ୍ତି ଯୋଜନା କେବେ ଆରମ୍ଭ ହୋଇଥିଲା?",
+"options": [
+"୨୦୦୩ ମସିହାରେ",
+"୨୦୦୫ ମସିହାରେ",
+"୨୦୦୮ ମସିହାରେ",
+"୨୦୧୦ ମସିହାରେ"
+],
+"answer": "୨୦୦୫ ମସିହାରେ",
+"explanation": "୨୦୦୫ ମସିହାରେ ଜାତୀୟ ନିଶ୍ଚିତ ଗ୍ରାମୀଣ କର୍ମନିଯୁକ୍ତି ଯୋଜନା ଆରମ୍ଭ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "How many days of work is guaranteed per year under the Mahatma Gandhi National Rural Employment Guarantee Scheme?",
+"questionOdia": "ମହାତ୍ମା ଗାନ୍ଧୀ ଜାତୀୟ ନିଶ୍ଚିତ ଗ୍ରାମୀଣ କର୍ମନିଯୁକ୍ତି ଯୋଜନାରେ ବର୍ଷକୁ କେତେ ଦିନ କାମଧନ୍ଦା ଯୋଗାଇ ଦିଆଯାଏ?",
+"options": [
+"୫୦ ଦିନ",
+"୧୦୦ ଦିନ",
+"୧୫୦ ଦିନ",
+"୨୦୦ ଦିନ"
+],
+"answer": "୧୦୦ ଦିନ",
+"explanation": "ଏହି ଯୋଜନା ଅନୁଯାୟୀ ଗ୍ରାମାଞ୍ଚଳରେ ଲୋକମାନଙ୍କୁ ବର୍ଷକୁ ଅନ୍ୟୂନ ୧୦୦ ଦିନ କାମଧନ୍ଦା ଯୋଗାଇ ଦିଆଯାଏ।"
+},
+{
+"questionEnglish": "Which scheme provides medical and financial support to pregnant women?",
+"questionOdia": "ପ୍ରସବକାଳୀନ ଡାକ୍ତରୀ ଓ ଆର୍ଥିକ ସହାୟତା ପାଇଁ କେଉଁ ଯୋଜନା କାର୍ଯ୍ୟକାରୀ ହେଉଛି?",
+"options": [
+"ଜନନୀ ସୁରକ୍ଷା ଯୋଜନା",
+"ଜାତୀୟ ମାତୃତ୍ଵ ହିତକାରୀ ଯୋଜନା",
+"ମଧୁବାବୁ ପେନ୍‌ସନ୍ ଯୋଜନା",
+"ମିଶନ ଶକ୍ତି"
+],
+"answer": "ଜନନୀ ସୁରକ୍ଷା ଯୋଜନା",
+"explanation": "ଜନନୀ ସୁରକ୍ଷା ଯୋଜନା ମାଧ୍ୟମରେ ପ୍ରସବକାଳୀନ ଡାକ୍ତରୀ ଓ ଆର୍ଥିକ ସହାୟତା ପ୍ରଦାନ କରାଯାଉଛି।"
+},
+{
+"questionEnglish": "Which, among the following, is a type of social pension in Odisha?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଓଡ଼ିଶାରେ ଏକ ପେନ୍‌ସନ୍ ଯୋଜନା?",
+"options": [
+"ଜାତୀୟ ବୃଦ୍ଧାବସ୍ଥା ପେନ୍‌ସନ୍ ଯୋଜନା",
+"ମଧୁବାବୁ ପେନ୍‌ସନ୍ ଯୋଜନା",
+"ଉଭୟ 'କ' ଓ 'ଖ'",
+"ଏଗୁଡ଼ିକ ମଧ୍ୟରୁ କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ 'କ' ଓ 'ଖ'",
+"explanation": "ଉଭୟ ଜାତୀୟ ବୃଦ୍ଧାବସ୍ଥା ପେନ୍‌ସନ୍ ଯୋଜନା ଓ ମଧୁବାବୁ ପେନ୍‌ସନ୍ ଯୋଜନା ଓଡ଼ିଶାରେ କାର୍ଯ୍ୟକାରୀ ହେଉଛି।"
+},
+{
+"questionEnglish": "What are the common issues faced by Scheduled Caste and Scheduled Tribe people?",
+"questionOdia": "ଅନୁସୂଚିତ ଜାତି ଓ ଜନଜାତିର ଲୋକଙ୍କର ସମସ୍ୟା କିପରି ଥିଲା?",
+"options": [
+"ସମାନ ଥିଲା",
+"ଅଲଗା ଅଲଗା ଥିଲା",
+"ସମସ୍ୟା ନଥିଲା",
+"ଅର୍ଥନୈତିକ ସମସ୍ୟା ନଥିଲା"
+],
+"answer": "ଅଲଗା ଅଲଗା ଥିଲା",
+"explanation": "ଅନୁସୂଚିତ ଜାତି ଓ ଜନଜାତିର ଲୋକମାନଙ୍କର ସମସ୍ୟା ଅଲଗା ଅଲଗା ଥିଲା।"
+},
+{
+"questionEnglish": "Why were the non-tribals able to exploit the tribal people?",
+"questionOdia": "ଅଣଆଦିବାସୀମାନେ କାହିଁକି ଆଦିବାସୀମାନଙ୍କୁ ଶୋଷଣ କରୁଥିଲେ?",
+"options": [
+"ଆଦିବାସୀଙ୍କ ସରଳତାର ସୁଯୋଗ ନେଇ",
+"ଆଦିବାସୀଙ୍କ ଜମି ନଥିବାରୁ",
+"ଆଦିବାସୀମାନେ ଶିକ୍ଷିତ ହୋଇଥିବାରୁ",
+"ଆଦିବାସୀମାନେ ଧନୀ ହୋଇଥିବାରୁ"
+],
+"answer": "ଆଦିବାସୀଙ୍କ ସରଳତାର ସୁଯୋଗ ନେଇ",
+"explanation": "ଅଣଆଦିବାସୀଲୋକ ଆଦିବାସୀଙ୍କ ସରଳତାର ସୁଯୋଗ ନେଇ ସେମାନଙ୍କୁ ନାନା ଭାବରେ ଶୋଷଣ କରୁଥିଲେ।"
+},
+{
+"questionEnglish": "What was the impact of 'Podu Chasa' (shifting cultivation)?",
+"questionOdia": "ପୋଡ଼ୁଚାଷ ଦ୍ଵାରା କଣ ହୋଇଥାଏ?",
+"options": [
+"ଜଙ୍ଗଲ ନଷ୍ଟ ହୁଏ ଓ ପ୍ରାକୃତିକ ଭାରସାମ୍ୟ ହରାଏ",
+"ଜଙ୍ଗଲ ବଢ଼ିଥାଏ",
+"କୌଣସି ପ୍ରଭାବ ପଡ଼େ ନାହିଁ",
+"ଜମି ଉର୍ବର ହୁଏ"
+],
+"answer": "ଜଙ୍ଗଲ ନଷ୍ଟ ହୁଏ ଓ ପ୍ରାକୃତିକ ଭାରସାମ୍ୟ ହରାଏ",
+"explanation": "ପୋଡ଼ୁଚାଷ ଫଳରେ ଅନେକ ଜଙ୍ଗଲ ନଷ୍ଟ ହୁଏ ଏବଂ ପ୍ରାକୃତିକ ପରିବେଶ ଭାରସାମ୍ୟ ହରାଏ।"
+},
+{
+"questionEnglish": "What items were provided to tribal people to improve their economic conditions?",
+"questionOdia": "ଆଦିବାସୀମାନଙ୍କ ଆର୍ଥିକ ଅବସ୍ଥା ସୁଧାରିବା ପାଇଁ ସରକାର କଣ ଯୋଗାଇ ଦେଇଥିଲେ?",
+"options": [
+"ମାଗଣା ବଳଦ, କୃଷି ଉପକରଣ ଓ ଚରଖା",
+"କେବଳ ଟଙ୍କା",
+"କେବଳ ଜମି",
+"କୌଣସି ସହାୟତା ଦେଇନଥିଲେ"
+],
+"answer": "ମାଗଣା ବଳଦ, କୃଷି ଉପକରଣ ଓ ଚରଖା",
+"explanation": "ଆଦିବାସୀମାନଙ୍କୁ କାମଧନ୍ଦା ପାଇଁ ମାଗଣା ବଳଦ, କୃଷି ଉପକରଣ ଓ ଚରଖା ଯୋଗାଇ ଦିଆଗଲା।"
+},
+{
+"questionEnglish": "When was the law enacted to control the loan transactions of moneylenders (Mahajans) before independence?",
+"questionOdia": "ସ୍ଵାଧୀନତା ପୂର୍ବରୁ କେବେ ମହାଜନମାନଙ୍କ ଋଣ କାରବାରକୁ ନିୟନ୍ତ୍ରିତ କରିବା ପାଇଁ ଆଇନ ପ୍ରଣୀତ ହୋଇଥିଲା?",
+"options": [
+"୧୯୪୫ ମାର୍ଚ୍ଚ",
+"୧୯୪୬ ମାର୍ଚ୍ଚ",
+"୧୯୪୭ ମାର୍ଚ୍ଚ",
+"୧୯୪୮ ମାର୍ଚ୍ଚ"
+],
+"answer": "୧୯४୭ ମାର୍ଚ୍ଚ",
+"explanation": "ସ୍ଵାଧୀନତା ପୂର୍ବରୁ ୧୯୪୭ ମସିହା ମାର୍ଚ୍ଚ ମାସରେ ଏକ ଆଇନ ପ୍ରଣୀତ ହୋଇ ମହାଜନମାନଙ୍କର ଋଣ କାରବାରକୁ ନିୟନ୍ତ୍ରିତ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "What types of inhumane practices in the princely states were prohibited after independence?",
+"questionOdia": "ସ୍ଵାଧୀନତା ପରେ ଗଡ଼ଜାତ ଅଞ୍ଚଳରେ କେଉଁ ଅମାନୁଷିକ ପ୍ରଥାଗୁଡ଼ିକୁ ବନ୍ଦ କରାଯାଇଥିଲା?",
+"options": [
+"ବେଠି, ବେଗାରୀ, ମାଗଣ, ରସଦ ଓ ଭେଟି",
+"କେବଳ ଗୋତିପ୍ରଥା",
+"କେବଳ ବେଠି ପ୍ରଥା",
+"କୌଣସି ପ୍ରଥା ବନ୍ଦ ହୋଇନଥିଲା"
+],
+"answer": "ବେଠି, ବେଗାରୀ, ମାଗଣ, ରସଦ ଓ ଭେଟି",
+"explanation": "ଗଡ଼ଜାତ ଅଞ୍ଚଳରେ ଚାଲୁଥିବା ବେଠି, ବେଗାରୀ, ମାଗଣ, ରସଦ ଓ ଭେଟି ପ୍ରଥାକୁ ବନ୍ଦ କରିଦିଆଗଲା।"
+},
+{
+"questionEnglish": "How were Dalit people treated in Odisha in the past?",
+"questionOdia": "ଦଳିତମାନଙ୍କୁ ପୂର୍ବେ କଣ ବୋଲି ସମ୍ବୋଧନ କରାଯାଉଥିଲା?",
+"options": [
+"ଅସ୍ପୃଶ୍ୟ",
+"ସାଧାରଣ ନାଗରିକ",
+"ଆଦିବାସୀ",
+"ଉଚ୍ଚବର୍ଗ"
+],
+"answer": "ଅସ୍ପୃଶ୍ୟ",
+"explanation": "ଓଡ଼ିଶାରେ ବସବାସ କରୁଥିବା ଦଳିତମାନଙ୍କୁ ପୂର୍ବେ ଅସ୍ପୃଶ୍ୟ କହି ବିଭିନ୍ନ ସାମାଜିକ ଅନୁଷ୍ଠାନରୁ ବାସନ୍ଦ କରାଯାଉଥିଲା।"
+},
+{
+"questionEnglish": "What was the purpose of the Odisha Citizen Disability Removal Act?",
+"questionOdia": "ଓଡ଼ିଶା ନାଗରିକ ଅଯୋଗ୍ୟତା ଦୂରୀକରଣ ଆଇନର ଉଦ୍ଦେଶ୍ୟ କଣ?",
+"options": [
+"ଅସ୍ପୃଶ୍ୟତା ଦୂର କରିବା",
+"ମନ୍ଦିର ପ୍ରବେଶ କରାଇବା",
+"ଗୋତିପ୍ରଥା ବନ୍ଦ କରିବା",
+"ଜମି ଫେରାଇବା"
+],
+"answer": "ଅସ୍ପୃଶ୍ୟତା ଦୂର କରିବା",
+"explanation": "ନାଗରିକ ଅଯୋଗ୍ୟତା ଦୂରୀକରଣ ଆଇନ ବଳରେ ଅସ୍ପୃଶ୍ୟତା ଭଳି କଳଙ୍କିତ ପ୍ରଥା କ୍ରମଶଃ ଅପସରିଗଲା।"
+},
+{
+"questionEnglish": "Which of the following was a step taken to promote education among SC and ST students?",
+"questionOdia": "ଅନୁସୂଚିତ ଜାତି ଓ ଜନଜାତି ଛାତ୍ରଛାତ୍ରୀମାନଙ୍କୁ ଶିକ୍ଷା ପ୍ରତି ଆଗ୍ରହୀ କରିବା ପାଇଁ କଣ କରାଯାଇଥିଲା?",
+"options": [
+"ଛାତ୍ରବୃତ୍ତି ପ୍ରଦାନ",
+"ସ୍କୁଲ କଲେଜ ଦରମା ଛାଡ଼",
+"ଧନ୍ଦାମୂଳକ ଶିକ୍ଷା ବ୍ୟବସ୍ଥା",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ଛାତ୍ରବୃତ୍ତି ପ୍ରଦାନ, ସ୍କୁଲ କଲେଜ ଦରମା ଛାଡ଼ ଓ ଧନ୍ଦାମୂଳକ ଶିକ୍ଷା ବ୍ୟବସ୍ଥା ମାଧ୍ୟମରେ ସରକାର ସେମାନଙ୍କୁ ଶିକ୍ଷା ପ୍ରତି ଆଗ୍ରହୀ କରିବାକୁ ଚେଷ୍ଟା କଲେ।"
+},
+{
+"questionEnglish": "Where were the two Teacher Training Schools established by the Odisha government in 1947?",
+"questionOdia": "୧୯୪୭-୪୮ ଶିକ୍ଷାବର୍ଷରେ ରାଜ୍ୟ ସରକାର କେଉଁଠାରେ ଦୁଇଟି ଶିକ୍ଷକ ପ୍ରଶିକ୍ଷଣ ବିଦ୍ୟାଳୟ ଖୋଲିଥିଲେ?",
+"options": [
+"ଅନୁଗୁଳ ଓ ଭଞ୍ଜନଗର (ରସୁଲକୋଣ୍ଡା)",
+"କଟକ ଓ ପୁରୀ",
+"ଭୁବନେଶ୍ୱର ଓ ବ୍ରହ୍ମପୁର",
+"ସମ୍ବଲପୁର ଓ ବଲାଙ୍ଗୀର"
+],
+"answer": "ଅନୁଗୁଳ ଓ ଭଞ୍ଜନଗର (ରସୁଲକୋଣ୍ଡା)",
+"explanation": "ଅନୁଗୁଳ ଓ ରସୁଲକୋଣ୍ଡା (ଭଞ୍ଜନଗର) ଠାରେ ଦୁଇଟି ଶିକ୍ଷକ ପ୍ରଶିକ୍ଷଣ ବିଦ୍ୟାଳୟ ଖୋଲାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "What was the number of primary schools in Odisha in 1950?",
+"questionOdia": "୧୯୫୦ ମସିହାରେ ଓଡ଼ିଶାରେ ପ୍ରାଥମିକ ବିଦ୍ୟାଳୟର ସଂଖ୍ୟା କେତେ ଥିଲା?",
+"options": [
+"୫,୦୦୦",
+"୮,୦୦୦",
+"୧୦,୧୬୫",
+"୧୨,୦୦୦"
+],
+"answer": "୧୦,୧୬୫",
+"explanation": "୧୯୫୦ ମସିହାରେ ଓଡ଼ିଶାରେ ପ୍ରାଥମିକ ବିଦ୍ୟାଳୟର ସଂଖ୍ୟା ଥିଲା ୧୦,୧୬୫।"
+},
+{
+"questionEnglish": "Which year was observed as the 'Year of Elderly People' by the United Nations?",
+"questionOdia": "ମିଳିତ ଜାତି ସଂଘ କେଉଁ ବର୍ଷକୁ ‘ବୃଦ୍ଧବ୍ୟକ୍ତିମାନଙ୍କର ବର୍ଷ’ ଭାବରେ ପାଳନ କରିଥିଲା?",
+"options": [
+"୧୯୯୮",
+"୧୯୯୯",
+"୨୦୦୦",
+"୨୦୦୧"
+],
+"answer": "୧୯୯୯",
+"explanation": "୧୯୯୯ ମସିହାକୁ ମିଳିତ ଜାତି ସଂଘ ‘ବୃଦ୍ଧବ୍ୟକ୍ତିମାନଙ୍କର ବର୍ଷ’ ଭାବରେ ପାଳନ କରିଥିଲା।"
+},
+{
+"questionEnglish": "What was the purpose of the Odisha Health Insurance Scheme (Rashtriya Swasthya Bima Yojana) for families below the poverty line?",
+"questionOdia": "ଦାରିଦ୍ର୍ୟ ସୀମାରେଖା ତଳେ ରହୁଥିବା ପରିବାରମାନଙ୍କୁ ସ୍ୱାସ୍ଥ୍ୟ ସୁରକ୍ଷା ଯୋଗାଇବା ପାଇଁ କେଉଁ ଯୋଜନା ପ୍ରବର୍ତ୍ତିତ ହୋଇଥିଲା?",
+"options": [
+"ରାଷ୍ଟ୍ରୀୟ ସ୍ୱାସ୍ଥ୍ୟ ବୀମା ଯୋଜନା",
+"ଜନନୀ ସୁରକ୍ଷା ଯୋଜନା",
+"ମଧୁବାବୁ ପେନ୍‌ସନ୍ ଯୋଜନା",
+"ଇନ୍ଦିରା ଆବାସ ଯୋଜନା"
+],
+"answer": "ରାଷ୍ଟ୍ରୀୟ ସ୍ୱାସ୍ଥ୍ୟ ବୀମା ଯୋଜନା",
+"explanation": "ଦାରିଦ୍ର୍ୟ ସୀମାରେଖାର ନିମ୍ନରେ ରହୁଥିବା ପରିବାରମାନଙ୍କୁ ସ୍ୱାସ୍ଥ୍ୟ ସୁରକ୍ଷା ଯୋଗାଇବା ଉଦ୍ଦେଶ୍ୟରେ ରାଷ୍ଟ୍ରୀୟ ସ୍ୱାସ୍ଥ୍ୟ ବୀମା ଯୋଜନା ପ୍ରବର୍ତ୍ତିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Which districts are included under the Biju KBK scheme for development?",
+"questionOdia": "ବିଜୁ କେବିକେ ଯୋଜନାରେ କେଉଁ ଅବିଭକ୍ତ ଜିଲ୍ଲାଗୁଡ଼ିକ ଅନ୍ତର୍ଭୁକ୍ତ?",
+"options": [
+"କଳାହାଣ୍ଡି, ବଲାଙ୍ଗୀର, କୋରାପୁଟ",
+"କଟକ, ପୁରୀ, ଖୋର୍ଦ୍ଧା",
+"ବାଲେଶ୍ୱର, ଭଦ୍ରକ, କେନ୍ଦ୍ରାପଡ଼ା",
+"ସମ୍ବଲପୁର, ସୁନ୍ଦରଗଡ଼, ଦେବଗଡ଼"
+],
+"answer": "କଳାହାଣ୍ଡି, ବଲାଙ୍ଗୀର, କୋରାପୁଟ",
+"explanation": "ଅବିଭକ୍ତ କଳାହାଣ୍ଡି, ବଲାଙ୍ଗୀର ଓ କୋରାପୁଟ ଅଞ୍ଚଳର ବିକାଶ ପାଇଁ ବିଜୁ କେବିକେ ଯୋଜନା କାର୍ଯ୍ୟକାରୀ ହୋଇଛି।"
+},
+{
+"questionEnglish": "Who dreamt of the basic education system (Moulik Shiksha) implemented after independence?",
+"questionOdia": "ମୌଳିକ ଶିକ୍ଷା ପଦ୍ଧତି କାହାର ସ୍ଵପ୍ନ ଥିଲା?",
+"options": [
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ମହାତ୍ମା ଗାନ୍ଧୀ",
+"ମଧୁସୂଦନ ଦାସ",
+"ଗୋପବନ୍ଧୁ ଦାସ"
+],
+"answer": "ମହାତ୍ମା ଗାନ୍ଧୀ",
+"explanation": "ମୌଳିକ ଶିକ୍ଷା ପଦ୍ଧତି ମହାତ୍ମା ଗାନ୍ଧୀଙ୍କ ସ୍ଵପ୍ନ ଥିଲା।"
+},
+{
+"questionEnglish": "What was the secondary education in Odisha composed of?",
+"questionOdia": "ଓଡ଼ିଶାରେ ଷଷ୍ଠ ଶ୍ରେଣୀଠାରୁ ଏକାଦଶ ଶ୍ରେଣୀ ପର୍ଯ୍ୟନ୍ତ ଶିକ୍ଷାକୁ କଣ କୁହାଯାଉଥିଲା?",
+"options": [
+"ପ୍ରାଥମିକ ଶିକ୍ଷା",
+"ମାଧ୍ୟମିକ ଶିକ୍ଷା",
+"ଉଚ୍ଚ ଶିକ୍ଷା",
+"ବୈଷୟିକ ଶିକ୍ଷା"
+],
+"answer": "ମାଧ୍ୟମିକ ଶିକ୍ଷା",
+"explanation": "ଷଷ୍ଠ ଶ୍ରେଣୀଠାରୁ ଏକାଦଶ ଶ୍ରେଣୀ ପର୍ଯ୍ୟନ୍ତ ଶିକ୍ଷାକୁ ମାଧ୍ୟମିକ ଶିକ୍ଷା କୁହାଯାଉଥିଲା।"
+},
+{
+"questionEnglish": "What was the number of High Schools in Odisha in 1950?",
+"questionOdia": "୧୯୫୦ ବେଳକୁ ଓଡ଼ିଶାରେ ହାଇସ୍କୁଲ ଗୁଡ଼ିକର ସଂଖ୍ୟା କେତେ ଥିଲା?",
+"options": [
+"୧୦୦",
+"୧୫୩",
+"୨୦୦",
+"୨୫୦"
+],
+"answer": "୧୫୩",
+"explanation": "୧୯୫୦ ବେଳକୁ ଓଡ଼ିଶାରେ ହାଇସ୍କୁଲ ଗୁଡ଼ିକର ସଂଖ୍ୟା ଥିଲା ୧୫୩।"
+},
+{
+"questionEnglish": "What was the goal of making education 'Karmabhimukhi' (vocational)?",
+"questionOdia": "ଶିକ୍ଷାକୁ କର୍ମାଭିମୁଖୀ କରିବାର ଲକ୍ଷ୍ୟ କଣ ଥିଲା?",
+"options": [
+"ଛାତ୍ରଛାତ୍ରୀମାନଙ୍କୁ ସ୍ଵାବଲମ୍ବୀ କରିବା",
+"କେବଳ ପାଠ ପଢ଼ାଇବା",
+"ଚାକିରୀ ଦେବା",
+"ସାକ୍ଷରତା ବଢ଼ାଇବା"
+],
+"answer": "ଛାତ୍ରଛାତ୍ରୀମାନଙ୍କୁ ସ୍ଵାବଲମ୍ବୀ କରିବା",
+"explanation": "ଶିଶୁକୁ କର୍ମାଭିମୁଖୀ ଶିକ୍ଷା ପ୍ରଦାନ କରି ସ୍ଵାବଲମ୍ବୀ ହେବାର ବ୍ୟବସ୍ଥା କରାଯାଉଥିଲା।"
+},
+{
+"questionEnglish": "Which disease prevention medicine was distributed by the government?",
+"questionOdia": "ଲୋକଙ୍କୁ କେଉଁ ରୋଗରୁ ରକ୍ଷା କରିବା ପାଇଁ ସରକାର ବଟିକା ବିତରଣ କରିଥିଲେ?",
+"options": [
+"ମ୍ୟାଲେରିଆ",
+"ଯକ୍ଷ୍ମା",
+"କାମଳ",
+"ବାନ୍ତି"
+],
+"answer": "ମ୍ୟାଲେରିଆ",
+"explanation": "ମ୍ୟାଲେରିଆ ରୋଗରୁ ଲୋକଙ୍କୁ ରକ୍ଷା କରିବାପାଇଁ ସରକାର ମ୍ୟାଲେରିଆ ନିରାକରଣ ବଟିକା ବିତରଣର ବ୍ୟବସ୍ଥା କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What was the purpose of the 'National Family Benefit Scheme'?",
+"questionOdia": "ଜାତୀୟ ପରିବାର ହିତ ଯୋଜନାର ଉଦ୍ଦେଶ୍ୟ କଣ?",
+"options": [
+"ସାମାଜିକ ନିରାପତ୍ତା ପ୍ରଦାନ",
+"ଶିକ୍ଷା ଦାନ",
+"କୃଷି ଉନ୍ନତି",
+"ମହିଳା ଶକ୍ତି"
+],
+"answer": "ସାମାଜିକ ନିରାପତ୍ତା ପ୍ରଦାନ",
+"explanation": "ସାଧାରଣ ଲୋକମାନଙ୍କୁ ସାମାଜିକ ନିରାପତ୍ତା ଯୋଗାଇ ଦେବାପାଇଁ ଏହି ଯୋଜନା କାର୍ଯ୍ୟକାରୀ ହେଉଛି।"
+},
+{
+"questionEnglish": "What are the core duties of Mission Shakti?",
+"questionOdia": "‘ମିଶନ ଶକ୍ତି’ର ପ୍ରମୁଖ କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ତାଲିମ ପ୍ରଦାନ",
+"ଋଣ ଯୋଗାଇବା",
+"ନୂତନ ଗୋଷ୍ଠୀ ଗଠନରେ ସହାୟତା",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ତାଲିମ ପ୍ରଦାନ, ଋଣ ଯୋଗାଇବା ଏବଂ ନୂତନ ଗୋଷ୍ଠୀ ଗଠନରେ ସହାୟତା ହେଉଛି ମିଶନ ଶକ୍ତିର ପ୍ରମୁଖ କାର୍ଯ୍ୟ।"
+},
+{
+"questionEnglish": "Which of the following describes the Goti system?",
+"questionOdia": "ଗୋତିପ୍ରଥା କଣ?",
+"options": [
+"ଏକ ପ୍ରକାର ମଜୁରୀ ବ୍ୟବସ୍ଥା",
+"ଏକ ଅମାନୁଷିକ ପ୍ରଥା",
+"ଏକ କୃଷି ପ୍ରଥା",
+"ଏକ ଶିକ୍ଷା ପ୍ରଥା"
+],
+"answer": "ଏକ ଅମାନୁଷିକ ପ୍ରଥା",
+"explanation": "ଗୋତି ଭଳି ଅମାନୁଷିକ ପ୍ରଥା ଗ୍ରାମ୍ୟ ମହାଜନୀ ପ୍ରଥା ଯୋଗୁଁ ଆଦିବାସୀ ଅଞ୍ଚଳରେ ଜନ୍ମ ନେଇଥିଲା।"
+},
+{
+"questionEnglish": "What is the benefit of the Indira Awas Yojana?",
+"questionOdia": "ଇନ୍ଦିରା ଆବାସ ଯୋଜନା ମାଧ୍ୟମରେ ଲୋକମାନେ କଣ ପାଇଲେ?",
+"options": [
+"ନିଜସ୍ୱ ବାସଗୃହ",
+"ଚାକିରୀ",
+"ଟଙ୍କା",
+"ଖାଦ୍ୟ"
+],
+"answer": "ନିଜସ୍ୱ ବାସଗୃହ",
+"explanation": "ଇନ୍ଦିରା ଆବାସ ଯୋଜନା ମାଧ୍ୟମରେ ଗ୍ରାମାଞ୍ଚଳର ଲୋକମାନେ ନିଜସ୍ୱ ବାସଗୃହ ସୁବିଧା ପାଇଲେ।"
+},
+{
+"questionEnglish": "Which project aims to connect all villages with electricity?",
+"questionOdia": "ରାଜ୍ୟର ସମସ୍ତ ଗ୍ରାମଗୁଡ଼ିକୁ ବିଦ୍ୟୁତ୍ ସଂଯୋଗ କରିବା ପାଇଁ କେଉଁ ଯୋଜନା ରହିଛି?",
+"options": [
+"ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଯୋଜନା",
+"ଗୋପବନ୍ଧୁ ଗ୍ରାମୀଣ ଯୋଜନା",
+"ନିଶ୍ଚିତ ରୋଜଗାର ଯୋଜନା",
+"ଜବାହର ଗ୍ରାମ ସମୃଦ୍ଧି ଯୋଜନା"
+],
+"answer": "ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଯୋଜନା",
+"explanation": "ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଯୋଜନାରେ ରାଜ୍ୟର ସମସ୍ତ ଗ୍ରାମଗୁଡ଼ିକୁ ବିଦ୍ୟୁତ୍ ସଂଯୋଗ କରିବା ପାଇଁ ଲକ୍ଷ୍ୟ ରଖାଯାଇଛି।"
+},
+{
+"questionEnglish": "What is child labour defined as?",
+"questionOdia": "ଶିଶୁ ଶ୍ରମିକ କହିଲେ କଣ ବୁଝାଯାଏ?",
+"options": [
+"୧୪ ବର୍ଷରୁ କମ୍ ବୟସର ଶ୍ରମିକ",
+"୧୮ ବର୍ଷରୁ କମ୍ ବୟସର ଶ୍ରମିକ",
+"୨୦ ବର୍ଷରୁ କମ୍ ବୟସର ଶ୍ରମିକ",
+"୧୦ ବର୍ଷରୁ କମ୍ ବୟସର ଶ୍ରମିକ"
+],
+"answer": "୧୪ ବର୍ଷରୁ କମ୍ ବୟସର ଶ୍ରମିକ",
+"explanation": "୧୪ ବର୍ଷରୁ କମ ବୟସର ଶ୍ରମିକମାନଙ୍କୁ ଶିଶୁ ଶ୍ରମିକ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What was the purpose of Birth Control promotion?",
+"questionOdia": "ଜନ୍ମନିୟନ୍ତ୍ରଣକୁ ପ୍ରୋତ୍ସାହିତ କରିବାର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କଣ?",
+"options": [
+"ଅବାଞ୍ଛିତ ଗର୍ଭଧାରଣରୁ ମହିଳାମାନଙ୍କୁ ରକ୍ଷା କରିବା",
+"ଜନସଂଖ୍ୟା ବଢ଼ାଇବା",
+"ଅର୍ଥନୀତି ସୁଧାରିବା",
+"ଶିକ୍ଷା ବୃଦ୍ଧି"
+],
+"answer": "ଅବାଞ୍ଛିତ ଗର୍ଭଧାରଣରୁ ମହିଳାମାନଙ୍କୁ ରକ୍ଷା କରିବା",
+"explanation": "ଜନ୍ମନିୟନ୍ତ୍ରଣକୁ ପ୍ରୋତ୍ସାହିତ କରି ମହିଳାମାନଙ୍କୁ ଅବାଞ୍ଛିତ ଗର୍ଭଧାରଣ କରିବାରୁ ରକ୍ଷା କରାଯାଇପାରିଛି।"
+},
+{
+"questionEnglish": "Why did the government provide financial incentives for tribal people to go to hospitals?",
+"questionOdia": "ଆଦିବାସୀମାନଙ୍କୁ ଡାକ୍ତରଖାନାକୁ ଆଣିବା ପାଇଁ କଣ କରାଗଲା?",
+"options": [
+"ଆର୍ଥିକ ପ୍ରଲୋଭନ ଦିଆଗଲା",
+"ଧମକ ଦିଆଗଲା",
+"ବାଧ୍ୟ କରାଗଲା",
+"କୌଣସି ପଦକ୍ଷେପ ନିଆଗଲା ନାହିଁ"
+],
+"answer": "ଆର୍ଥିକ ପ୍ରଲୋଭନ ଦିଆଗଲା",
+"explanation": "ଆଦିବାସୀମାନଙ୍କୁ ଆର୍ଥିକ ପ୍ରଲୋଭନ ଦେଖାଇ ଚିକିତ୍ସାଳୟକୁ ଅଣାଗଲା।"
+},
+{
+"questionEnglish": "How did the government ensure the development of rural areas after independence?",
+"questionOdia": "ସ୍ଵାଧୀନତା ପରେ ଗ୍ରାମାଞ୍ଚଳ ବିକାଶ ପାଇଁ କେଉଁ କେଉଁ ଯୋଜନା ଗ୍ରହଣ କରାଯାଇଛି?",
+"options": [
+"ପ୍ରଧାନମନ୍ତ୍ରୀ ଗ୍ରାମ ସଡ଼କ ଯୋଜନା",
+"ଜବାହର ଗ୍ରାମ ସମୃଦ୍ଧି ଯୋଜନା",
+"ନିଶ୍ଚିତ ରୋଜଗାର ଯୋଜନା",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ବିଭିନ୍ନ ଯୋଜନା ଯଥା ପ୍ରଧାନମନ୍ତ୍ରୀ ଗ୍ରାମ ସଡ଼କ ଯୋଜନା, ଜବାହର ଗ୍ରାମ ସମୃଦ୍ଧି ଯୋଜନା ଓ ନିଶ୍ଚିତ ରୋଜଗାର ଯୋଜନା ମାଧ୍ୟମରେ ବିକାଶ ସାଧୂତ ହୋଇଛି।"
+},
+{
+"questionEnglish": "Which section of society was previously barred from entering temples?",
+"questionOdia": "ପୂର୍ବେ କେଉଁ ସମ୍ପ୍ରଦାୟର ଲୋକଙ୍କୁ ମନ୍ଦିରରେ ପ୍ରବେଶ କରିବାକୁ ବାରଣ କରାଯାଉଥିଲା?",
+"options": [
+"ଦଳିତମାନଙ୍କୁ",
+"ଆଦିବାସୀମାନଙ୍କୁ",
+"ସାଧାରଣ ଲୋକଙ୍କୁ",
+"ଉଚ୍ଚ ଜାତିର ଲୋକଙ୍କୁ"
+],
+"answer": "ଦଳିତମାନଙ୍କୁ",
+"explanation": "ଓଡ଼ିଶାରେ ବସବାସ କରୁଥିବା ଦଳିତମାନଙ୍କୁ ପୂର୍ବେ ମନ୍ଦିରରେ ପ୍ରବେଶ କରିବାକୁ ବାରଣ କରାଯାଉଥିଲା।"
+},
+{
+"questionEnglish": "What was the main resource to be developed for the nation according to the chapter?",
+"questionOdia": "ଦେଶର ସବୁଠାରୁ ମୂଲ୍ୟବାନ ସମ୍ପଦ କ’ଣ?",
+"options": [
+"ମାନବ ସମ୍ବଳ",
+"ଜଙ୍ଗଲ ସମ୍ପଦ",
+"ଖଣିଜ ସମ୍ପଦ",
+"ଜଳ ସମ୍ପଦ"
+],
+"answer": "ମାନବ ସମ୍ବଳ",
+"explanation": "ଦେଶର ସବୁଠାରୁ ମୂଲ୍ୟବାନ ସମ୍ପଦ ମାନବ ସମ୍ବଳକୁ ବିକଶିତ କରିବା ପାଇଁ ଶିକ୍ଷା ଓ ପ୍ରଶିକ୍ଷଣ ଏକାନ୍ତ ଜରୁରୀ।"
+},
+{
+"questionEnglish": "Which scheme was used for the upliftment of women's economic development?",
+"questionOdia": "ମହିଳାମାନଙ୍କର ଆର୍ଥିକ ବିକାଶ ପାଇଁ କେଉଁ ଗୋଷ୍ଠୀର ସହାୟତା ନିଆଯାଏ?",
+"options": [
+"ସ୍ଵୟଂସହାୟକ ଗୋଷ୍ଠୀ",
+"ପଞ୍ଚାୟତ ସମିତି",
+"ଗ୍ରାମ୍ୟ କମିଟି",
+"ଶିକ୍ଷକ ଗୋଷ୍ଠୀ"
+],
+"answer": "ସ୍ଵୟଂସହାୟକ ଗୋଷ୍ଠୀ",
+"explanation": "ସ୍ଵୟଂସହାୟକ ଗୋଷ୍ଠୀ ମାଧ୍ୟମରେ ମହିଳାମାନଙ୍କୁ ଆତ୍ମନିର୍ଭରଶୀଳ କରିବା ପାଇଁ ସେମାନଙ୍କ ଆର୍ଥିକ ବିକାଶ ଦିଗରେ ପଦକ୍ଷେପ ନିଆଯାଉଛି।"
+},
+{
+"questionEnglish": "When did the United Nations extend the 'Year of Elderly People'?",
+"questionOdia": "ବୃଦ୍ଧମାନଙ୍କ କଲ୍ୟାଣ ପାଇଁ ଉଦ୍ଦିଷ୍ଟ ବର୍ଷ ୨୦୦୦ ମସିହାରେ କ’ଣ ହୋଇଥିଲା?",
+"options": [
+"ସମ୍ପ୍ରସାରିତ ହୋଇଥିଲା",
+"ସମାପ୍ତ ହୋଇଥିଲା",
+"ପରିବର୍ତ୍ତନ ହୋଇଥିଲା",
+"କିଛି ହୋଇନଥିଲା"
+],
+"answer": "ସମ୍ପ୍ରସାରିତ ହୋଇଥିଲା",
+"explanation": "ବୃଦ୍ଧମାନଙ୍କ କଲ୍ୟାଣ ପାଇଁ ଉଦ୍ଦିଷ୍ଟ ଏହି ବର୍ଷ ୨୦୦୦ ମସିହାକୁ ସମ୍ପ୍ରସାରିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Which of the following is an objective of the Odisha Livelihood Mission?",
+"questionOdia": "ଓଡ଼ିଶା ଜୀବିକା ମିଶନର ଲକ୍ଷ୍ୟ କଣ?",
+"options": [
+"ଦାରିଦ୍ର୍ୟ ଦୂରୀକରଣ",
+"ଶିକ୍ଷା ବିକାଶ",
+"ସ୍ୱାସ୍ଥ୍ୟ ସୁବିଧା",
+"ରାସ୍ତା ନିର୍ମାଣ"
+],
+"answer": "ଦାରିଦ୍ର୍ୟ ଦୂରୀକରଣ",
+"explanation": "ଦାରିଦ୍ର୍ୟ ଦୂରୀକରଣ ଲକ୍ଷ୍ୟରେ ଓଡ଼ିଶା ଜୀବିକା ମିଶନ କାର୍ଯ୍ୟ କରୁଛି।"
+},
+{
+"questionEnglish": "Who established the Ashram schools for tribal development?",
+"questionOdia": "ଆଦିବାସୀମାନଙ୍କୁ ଶିକ୍ଷା ଦେବା ପାଇଁ କେଉଁ ପ୍ରକାର ବିଦ୍ୟାଳୟ ଖୋଲାଯାଇଥିଲା?",
+"options": [
+"ଆଶ୍ରମ ବିଦ୍ୟାଳୟ ଓ ସେବାଶ୍ରମ",
+"ଘରୋଇ ବିଦ୍ୟାଳୟ",
+"ମାଧ୍ୟମିକ ବିଦ୍ୟାଳୟ",
+"ବିଶ୍ଵବିଦ୍ୟାଳୟ"
+],
+"answer": "ଆଶ୍ରମ ବିଦ୍ୟାଳୟ ଓ ସେବାଶ୍ରମ",
+"explanation": "ଆଶ୍ରମ ବିଦ୍ୟାଳୟ ଓ ସେବାଶ୍ରମମାନ ଖୋଲାଯାଇ ସେମାନଙ୍କୁ ସେମାନଙ୍କର କାମରେ ଲାଗିବାଭଳି ସ୍ଵତନ୍ତ୍ର ଶିକ୍ଷା ପ୍ରଦାନ କରାଗଲା।"
+},
+{
+"questionEnglish": "What was the purpose of distributing mid-day meals in primary schools?",
+"questionOdia": "ପ୍ରାଥମିକ ବିଦ୍ୟାଳୟରେ ମଧ୍ୟାହ୍ନ ଭୋଜନ ଯୋଜନା କାହିଁକି କାର୍ଯ୍ୟକାରୀ କରାଗଲା?",
+"options": [
+"ଛାତ୍ରଛାତ୍ରୀଙ୍କୁ ବିଦ୍ୟାଳୟକୁ ଆକୃଷ୍ଟ କରିବା",
+"ପୋଷାକ ଦେବା",
+"ଖେଳକୁଦ ସୁବିଧା ଦେବା",
+"ସ୍କୁଲ ଦରମା କମାଇବା"
+],
+"answer": "ଛାତ୍ରଛାତ୍ରୀଙ୍କୁ ବିଦ୍ୟାଳୟକୁ ଆକୃଷ୍ଟ କରିବା",
+"explanation": "ମଧ୍ୟାହ୍ନ ଭୋଜନ ଯୋଜନା କାର୍ଯ୍ୟକାରୀ କରି ଶିଶୁମାନଙ୍କ ମଧ୍ୟରେ ବିଦ୍ୟାଳୟକୁ ଯିବା ପାଇଁ ଆଗ୍ରହ ସୃଷ୍ଟି କରାଯାଇପାରିଛି।"
+},
+{
+"questionEnglish": "What action was taken against the practice of female foeticide?",
+"questionOdia": "କନ୍ୟାଭ୍ରୂଣହତ୍ୟା ବିରୁଦ୍ଧରେ କଣ କରାଯାଇଛି?",
+"options": [
+"ନିଷେଧ କରାଯାଇଛି",
+"ପ୍ରୋତ୍ସାହିତ କରାଯାଇଛି",
+"କିଛି କରାଯାଇନାହିଁ",
+"ଅନୁମତି ଦିଆଯାଇଛି"
+],
+"answer": "ନିଷେଧ କରାଯାଇଛି",
+"explanation": "ଶିଶୁମାନଙ୍କ ସୁରକ୍ଷା ପାଇଁ କନ୍ୟାଭ୍ରୂଣହତ୍ୟାକୁ ନିଷେଧ କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "What was the role of the government in dealing with Ganjam and Koraput tribal health issues?",
+"questionOdia": "ଗଞ୍ଜାମ ଓ କୋରାପୁଟର ଆଦିବାସୀମାନଙ୍କର ଯୌନରୋଗ ନିରାକରଣ ପାଇଁ ସରକାର କଣ କରିଥିଲେ?",
+"options": [
+"ସ୍ଵତନ୍ତ୍ର ବ୍ୟବସ୍ଥା କରିଥିଲେ",
+"କିଛି କରିନଥିଲେ",
+"ଔଷଧ ବନ୍ଦ କରିଥିଲେ",
+"ଡାକ୍ତରଙ୍କୁ ବାରଣ କରିଥିଲେ"
+],
+"answer": "ସ୍ଵତନ୍ତ୍ର ବ୍ୟବସ୍ଥା କରିଥିଲେ",
+"explanation": "ଏହାର ମୂଳୋତ୍ପାଟନ ପାଇଁ ସରକାର ସ୍ଵତନ୍ତ୍ର ବ୍ୟବସ୍ଥା କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What was the main purpose of the Madhu Babu Pension Yojana?",
+"questionOdia": "ମଧୁବାବୁ ପେନ୍‌ସନ୍ ଯୋଜନାରେ କେଉଁମାନଙ୍କ ପାଇଁ ମାସିକ ଭତ୍ତା ଦେବାର ବ୍ୟବସ୍ଥା ଅଛି?",
+"options": [
+"ବୃଦ୍ଧ, ବିଧବା, ଭିନ୍ନକ୍ଷମ",
+"କୁଷ୍ଠରୋଗରୁ ଆରୋଗ୍ୟ ଲାଭ କରିଥିବା ବ୍ୟକ୍ତି",
+"ଉଭୟ 'କ' ଓ 'ଖ'",
+"କେବଳ ଛାତ୍ରଛାତ୍ରୀ"
+],
+"answer": "ଉଭୟ 'କ' ଓ 'ଖ'",
+"explanation": "ବୃଦ୍ଧ, ବିଧବା, ଭିନ୍ନକ୍ଷମ ଓ କୁଷ୍ଠରୋଗରୁ ଆରୋଗ୍ୟ ଲାଭ କରିଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ ଏହି ଯୋଜନାରେ ଭତ୍ତା ମିଳେ।"
+},
+{
+"questionEnglish": "Which act/regulation specifically targeted Goti practice?",
+"questionOdia": "ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ପାଇଁ କେଉଁ ଆଇନ କଡ଼ାକଡ଼ି ପାଳନ କରାଗଲା?",
+"options": [
+"ଓଡ଼ିଶା ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ନିୟାମକ",
+"ଅପରାଧୀ ଜନଜାତି ଆଇନ",
+"ନାଗରିକ ଅଯୋଗ୍ୟତା ଦୂରୀକରଣ ଆଇନ",
+"ମନ୍ଦିର ପ୍ରବେଶ ଆଇନ"
+],
+"answer": "ଓଡ଼ିଶା ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ନିୟାମକ",
+"explanation": "୧୯୪୮ ମସିହାରେ ଓଡ଼ିଶା ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ନିୟାମକକୁ କଡ଼ାକଡ଼ି ପାଳନ କରାଗଲା।"
+},
+{
+"questionEnglish": "Why is education and training essential for human resources?",
+"questionOdia": "ମାନବ ସମ୍ବଳକୁ ବିକଶିତ କରିବା ପାଇଁ କଣ ଜରୁରୀ?",
+"options": [
+"ଶିକ୍ଷା ଓ ପ୍ରଶିକ୍ଷଣ",
+"କେବଳ ଖାଦ୍ୟ",
+"କେବଳ ଟଙ୍କା",
+"କେବଳ ବାସଗୃହ"
+],
+"answer": "ଶିକ୍ଷା ଓ ପ୍ରଶିକ୍ଷଣ",
+"explanation": "ଦେଶର ସବୁଠାରୁ ମୂଲ୍ୟବାନ ସମ୍ପଦ ମାନବ ସମ୍ବଳକୁ ବିକଶିତ କରିବା ପାଇଁ ଶିକ୍ଷା ଓ ପ୍ରଶିକ୍ଷଣ ଏକାନ୍ତ ଜରୁରୀ।"
+},
+{
+"questionEnglish": "What was the significance of 1948 in the context of Temple Entry?",
+"questionOdia": "୧୯୪୮ ମସିହାରେ ଓଡ଼ିଶା ସରକାର କେଉଁ ପ୍ରସିଦ୍ଧ ଆଇନ ପ୍ରଣୟନ କଲେ?",
+"options": [
+"ଓଡ଼ିଶା ମନ୍ଦିର ପ୍ରବେଶ ଅନୁମତି ଆଇନ",
+"ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ଆଇନ",
+"ଶିଶୁ ଶ୍ରମିକ ନିଷେଧ ଆଇନ",
+"କୌଣସି ଆଇନ ନୁହେଁ"
+],
+"answer": "ଓଡ଼ିଶା ମନ୍ଦିର ପ୍ରବେଶ ଅନୁମତି ଆଇନ",
+"explanation": "ଓଡ଼ିଶା ମନ୍ଦିର ପ୍ରବେଶ ଅନୁମତି ଆଇନ, ୧୯୪୮ରେ ପ୍ରଣୟନ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "Which scheme was meant for those below the poverty line to get health protection?",
+"questionOdia": "ଦାରିଦ୍ର୍ୟ ସୀମାରେଖା ତଳେ ରହୁଥିବା ପରିବାରଙ୍କ ପାଇଁ ସ୍ୱାସ୍ଥ୍ୟ ସୁରକ୍ଷା ଯୋଜନା କେବେ ପ୍ରବର୍ତ୍ତିତ ହୋଇଥିଲା?",
+"options": [
+"୨୦୦୮ ଏପ୍ରିଲ ୧",
+"୨୦୦୯ ଏପ୍ରିଲ ୧",
+"୨୦୧୦ ଏପ୍ରିଲ ୧",
+"୨୦୦୫ ଏପ୍ରିଲ ୧"
+],
+"answer": "୨୦୦୮ ଏପ୍ରିଲ ୧",
+"explanation": "୨୦୦୮ ମସିହା ଏପ୍ରିଲ୍ ୧ ତାରିଖରୁ ଏହି ଯୋଜନା ପ୍ରବର୍ତ୍ତିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What was the purpose of having special government officers for tribal land?",
+"questionOdia": "ଆଦିବାସୀମାନଙ୍କ ଜମି ଚିହ୍ନଟ କରିବା ପାଇଁ କାହାକୁ ନିୟୋଜନ କରାଯାଇଥିଲା?",
+"options": [
+"ସ୍ଵତନ୍ତ୍ର ସରକାରୀ ଅଧିକାରୀଙ୍କୁ",
+"ଗ୍ରାମବାସୀଙ୍କୁ",
+"ପୋଲିସକୁ",
+"ଶିକ୍ଷକଙ୍କୁ"
+],
+"answer": "ସ୍ଵତନ୍ତ୍ର ସରକାରୀ ଅଧିକାରୀଙ୍କୁ",
+"explanation": "ସ୍ୱତନ୍ତ୍ର ସରକାରୀ ଅଧିକାରୀଙ୍କୁ ନିୟୋଜନ କରାଯାଇ ଆଦିବାସୀମାନଙ୍କ ଜମି ଚିହ୍ନଟ କରାଗଲା।"
+},
+{
+"questionEnglish": "What happens if tribal land is encroached upon by non-tribals?",
+"questionOdia": "ଅଣଆଦିବାସୀମାନେ ଆଦିବାସୀଙ୍କ ଜମିକୁ ଜବରଦଖଲ କରିପାରିବେ କି?",
+"options": [
+"ନାହିଁ",
+"ହଁ",
+"ସରକାରଙ୍କ ଅନୁମତିରେ ପାରିବେ",
+"କିଛି ନିୟମ ନାହିଁ"
+],
+"answer": "ନାହିଁ",
+"explanation": "୧୯୪୭ ମସିହାରେ ପ୍ରଣୀତ ଆଇନ ଅନୁଯାୟୀ, ଅଣଆଦିବାସୀମାନେ ଆଦିବାସୀମାନଙ୍କ ଜମି ଜବରଦଖଲ କରିପାରିବେ ନାହିଁ।"
+},
+{
+"questionEnglish": "What was the status of literacy among tribals compared to the general population?",
+"questionOdia": "ସ୍ଵାଧୀନତା ବେଳକୁ ଆଦିବାସୀଙ୍କ ଶିକ୍ଷା ସମ୍ପର୍କରେ କଣ ସତ?",
+"options": [
+"ଶିକ୍ଷା ଅପହଞ୍ଚ ଥିଲା",
+"ସମସ୍ତେ ସାକ୍ଷର ଥିଲେ",
+"ଅଧିକାଂଶ ସାକ୍ଷର ଥିଲେ",
+"କୌଣସି ଅସୁବିଧା ନଥିଲା"
+],
+"answer": "ଶିକ୍ଷା ଅପହଞ୍ଚ ଥିଲା",
+"explanation": "ଅନୁସୂଚିତ ଜାତି ଓ ଜନଜାତି ଲୋକମାନଙ୍କ ମଧ୍ୟରେ ଶିକ୍ଷା ସମ୍ପୂର୍ଣ୍ଣ ଅପହଞ୍ଚ ଥିଲା।"
+},
+{
+"questionEnglish": "What was the main outcome of the Mission Shakti scheme for women?",
+"questionOdia": "ମିଶନ ଶକ୍ତି ଯୋଜନାରେ ମହିଳାମାନଙ୍କୁ କଣ ପ୍ରଦାନ କରାଯାଏ?",
+"options": [
+"ତାଲିମ ଓ ଦିଗ୍‌ଦର୍ଶନ",
+"କେବଳ ଚାକିରୀ",
+"କେବଳ ପାଠ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ତାଲିମ ଓ ଦିଗ୍‌ଦର୍ଶନ",
+"explanation": "ଦଳଗୁଡ଼ିକୁ ପରିଚାଳନା କରିବା ପାଇଁ ତାଲିମ ଓ ଦିଗ୍‌ଦର୍ଶନ ପ୍ରଦାନ କରାଯାଏ।"
+},
+{
+"questionEnglish": "How many days of work did the NREGA scheme initially guarantee?",
+"questionOdia": "ଜାତୀୟ ନିଶ୍ଚିତ ଗ୍ରାମୀଣ କର୍ମନିଯୁକ୍ତି ଯୋଜନାରେ ବର୍ଷକୁ କେତେ ଦିନ କାମଧନ୍ଦା ମିଳିବାର ବ୍ୟବସ୍ଥା ଅଛି?",
+"options": [
+"୧୦୦ ଦିନ",
+"୫୦ ଦିନ",
+"୧୫୦ ଦିନ",
+"୨୦୦ ଦିନ"
+],
+"answer": "୧୦୦ ଦିନ",
+"explanation": "ଏହି ଯୋଜନା ଅନୁଯାୟୀ ବର୍ଷକୁ ଅନ୍ୟୂନ ୧୦୦ ଦିନ କାମଧନ୍ଦା ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "What is the primary work of Gopa Bandhu Rural Scheme?",
+"questionOdia": "ଗୋପବନ୍ଧୁ ଗ୍ରାମୀଣ ଯୋଜନାରେ କଣ କଣ କରାଯାଉଛି?",
+"options": [
+"ବିଜୁଳି, ସଡ଼କ ଓ ପାଣି",
+"କେବଳ ରାସ୍ତା",
+"କେବଳ ବିଜୁଳି",
+"କେବଳ ପାଣି"
+],
+"answer": "ବିଜୁଳି, ସଡ଼କ ଓ ପାଣି",
+"explanation": "ଗୋପବନ୍ଧୁ ଗ୍ରାମୀଣ ଯୋଜନା ଦ୍ଵାରା ବିଜୁଳି, ସଡ଼କ ଓ ପାଣିର ପର୍ଯ୍ୟାପ୍ତ ବ୍ୟବସ୍ଥା ପାଇଁ ଉଦ୍ୟମ କରାଯାଉଛି।"
+},
+{
+"questionEnglish": "What is meant by the term 'Koya' in the context of tribal diseases?",
+"questionOdia": "କୋରାପୁଟର କୋୟାମାନେ କେଉଁ ରୋଗରେ ଆକ୍ରାନ୍ତ ହେଉଥିଲେ?",
+"options": [
+"ୟଜ୍",
+"ମ୍ୟାଲେରିଆ",
+"କାମଳ",
+"ଯକ୍ଷ୍ମା"
+],
+"answer": "ୟଜ୍",
+"explanation": "କୋରାପୁଟର କୋୟାମାନେ ‘ୟଜ୍’ ନାମକ ଏକ ଭୟଙ୍କର ରୋଗର ଶିକାର ହେଉଥିଲେ।"
+},
+{
+"questionEnglish": "What is the full name of the scheme that was earlier called NREGA?",
+"questionOdia": "ମହାତ୍ମା ଗାନ୍ଧୀ ଜାତୀୟ ଗ୍ରାମୀଣ ନିଶ୍ଚିତ କର୍ମନିଯୁକ୍ତି ଯୋଜନା ପୂର୍ବରୁ କେଉଁ ନାମରେ ପରିଚିତ ଥିଲା?",
+"options": [
+"ଜାତୀୟ ନିଶ୍ଚିତ ଗ୍ରାମୀଣ କର୍ମନିଯୁକ୍ତି ଯୋଜନା",
+"ଗୋପବନ୍ଧୁ ଗ୍ରାମୀଣ ଯୋଜନା",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ ଗ୍ରାମ ସଡ଼କ ଯୋଜନା",
+"ମିଶନ ଶକ୍ତି"
+],
+"answer": "ଜାତୀୟ ନିଶ୍ଚିତ ଗ୍ରାମୀଣ କର୍ମନିଯୁକ୍ତି ଯୋଜନା",
+"explanation": "ଏହି ଯୋଜନା ବର୍ତ୍ତମାନ ମହାତ୍ମା ଗାନ୍ଧୀ ଜାତୀୟ ଗ୍ରାମୀଣ କର୍ମନିଯୁକ୍ତି ଯୋଜନା ଭାବେ ପରିଚିତ।"
+},
+{
+"questionEnglish": "What support is provided under the Janani Suraksha Yojana?",
+"questionOdia": "ଜନନୀ ସୁରକ୍ଷା ଯୋଜନାରେ କଣ ପ୍ରଦାନ କରାଯାଏ?",
+"options": [
+"ଡାକ୍ତରୀ ଓ ଆର୍ଥିକ ସହାୟତା",
+"କେବଳ ଖାଦ୍ୟ",
+"କେବଳ ଔଷଧ",
+"କୌଣସି ସହାୟତା ନୁହେଁ"
+],
+"answer": "ଡାକ୍ତରୀ ଓ ଆର୍ଥିକ ସହାୟତା",
+"explanation": "ଜନନୀ ସୁରକ୍ଷା ଯୋଜନା ମାଧ୍ୟମରେ ପ୍ରସବକାଳୀନ ଡାକ୍ତରୀ ଓ ଆର୍ଥିକ ସହାୟତା ପ୍ରଦାନ କରାଯାଉଛି।"
+},
+{
+"questionEnglish": "Which organization declared the year as the year of elderly people?",
+"questionOdia": "ମିଳିତ ଜାତି ସଂଘ କେଉଁ ବର୍ଷକୁ ବୃଦ୍ଧବ୍ୟକ୍ତିମାନଙ୍କର ବର୍ଷ ଭାବରେ ପାଳନ କରିଥିଲା?",
+"options": [
+"ମିଳିତ ଜାତି ସଂଘ",
+"ଭାରତ ସରକାର",
+"ଓଡ଼ିଶା ସରକାର",
+"କୌଣସି ଅନୁଷ୍ଠାନ ନୁହେଁ"
+],
+"answer": "ମିଳିତ ଜାତି ସଂଘ",
+"explanation": "ମିଳିତ ଜାତି ସଂଘ ୧୯୯୯ ମସିହାକୁ ବୃଦ୍ଧବ୍ୟକ୍ତିମାନଙ୍କର ବର୍ଷ ଭାବରେ ପାଳନ କରିଥିଲା।"
+},
+{
+"questionEnglish": "What was the purpose of the Odisha Citizen Disability Removal Act?",
+"questionOdia": "ଓଡ଼ିଶା ନାଗରିକ ଅଯୋଗ୍ୟତା ଦୂରୀକରଣ ଆଇନର ଉଦ୍ଦେଶ୍ୟ କଣ?",
+"options": [
+"ଅସ୍ପୃଶ୍ୟତା ଦୂରୀକରଣ",
+"ଶିକ୍ଷା ପ୍ରସାର",
+"ସ୍ୱାସ୍ଥ୍ୟ ସୁରକ୍ଷା",
+"ଜମି ବିତରଣ"
+],
+"answer": "ଅସ୍ପୃଶ୍ୟତା ଦୂରୀକରଣ",
+"explanation": "ନାଗରିକ ଅଯୋଗ୍ୟତା ଦୂରୀକରଣ ଆଇନ ବଳରେ ଅସ୍ପୃଶ୍ୟତା ଭଳି କଳଙ୍କିତ ପ୍ରଥା ଅପସରିଗଲା।"
+},
+{
+"questionEnglish": "What is the primary role of an Anganwadi center?",
+"questionOdia": "ଅଙ୍ଗନବାଡ଼ି କେନ୍ଦ୍ରର ପ୍ରମୁଖ କାର୍ଯ୍ୟ କଣ?",
+"options": [
+"ଶିଶୁମାନଙ୍କ ଶିକ୍ଷା ଓ ବିକାଶ",
+"ରାସ୍ତା ନିର୍ମାଣ",
+"କୃଷି ସହାୟତା",
+"ଋଣ ପ୍ରଦାନ"
+],
+"answer": "ଶିଶୁମାନଙ୍କ ଶିକ୍ଷା ଓ ବିକାଶ",
+"explanation": "ଶିଶୁମାନଙ୍କ ଶିକ୍ଷା ଓ ବିକାଶ ପାଇଁ ଗ୍ରାମାଞ୍ଚଳରେ ଅଙ୍ଗନବାଡ଼ି କେନ୍ଦ୍ର ପ୍ରତିଷ୍ଠା କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "What was the literacy rate of the Scheduled Caste community in 1947?",
+"questionOdia": "ସ୍ଵାଧୀନତା ସମୟରେ ଅନୁସୂଚିତ ଜାତିର ସାକ୍ଷରତା ହାର କେତେ ଥିଲା?",
+"options": [
+"୩.୩ ପ୍ରତିଶତ",
+"୧.୫ ପ୍ରତିଶତ",
+"୫.୦ ପ୍ରତିଶତ",
+"୧୦ ପ୍ରତିଶତ"
+],
+"answer": "୩.୩ ପ୍ରତିଶତ",
+"explanation": "ଅନୁସୂଚିତ ଜାତିମାନଙ୍କ କ୍ଷେତ୍ରରେ ସାକ୍ଷରତା ହାର ମାତ୍ର ୩.୩ ପ୍ରତିଶତ ଥିଲା।"
+},
+{
+"questionEnglish": "How many High Schools were there in Odisha in 1950?",
+"questionOdia": "୧୯୫୦ ମସିହାରେ ଓଡ଼ିଶାରେ ହାଇସ୍କୁଲ ସଂଖ୍ୟା କେତେ ଥିଲା?",
+"options": [
+"୧୫୩",
+"୧୦୦",
+"୨୦୦",
+"୨୫୦"
+],
+"answer": "୧୫୩",
+"explanation": "୧୯୫୦ ବେଳକୁ ଓଡ଼ିଶାରେ ହାଇସ୍କୁଲ ଗୁଡ଼ିକର ସଂଖ୍ୟା ଥିଲା ୧୫୩।"
+},
+{
+"questionEnglish": "Who established the Ashram Schools?",
+"questionOdia": "ଆଶ୍ରମ ବିଦ୍ୟାଳୟମାନ କେଉଁମାନଙ୍କ ପାଇଁ ଖୋଲାଯାଇଥିଲା?",
+"options": [
+"ଆଦିବାସୀ ଓ ଦଳିତ",
+"ଧନୀ ବ୍ୟକ୍ତି",
+"ସହରବାସୀ",
+"କେବଳ ଶିକ୍ଷକ"
+],
+"answer": "ଆଦିବାସୀ ଓ ଦଳିତ",
+"explanation": "ଆଦିବାସୀ ଓ ଦଳିତ ବର୍ଗର ପିଲାମାନଙ୍କ ପାଇଁ ଆଶ୍ରମ ବିଦ୍ୟାଳୟ ଖୋଲାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "What is the goal of Mission Shakti?",
+"questionOdia": "ମିଶନ ଶକ୍ତି କେଉଁଥିପାଇଁ ଗଠିତ?",
+"options": [
+"ମହିଳା ସଶକ୍ତିକରଣ",
+"ଶିଶୁ ସୁରକ୍ଷା",
+"ବୃଦ୍ଧ ସୁରକ୍ଷା",
+"ଜମି ଉଦ୍ଧାର"
+],
+"answer": "ମହିଳା ସଶକ୍ତିକରଣ",
+"explanation": "ମିଶନ ଶକ୍ତି ହେଉଛି ଏକ ମହିଳା ସଶକ୍ତିକରଣ ଯୋଜନା।"
+},
+{
+"questionEnglish": "What was the purpose of the Odisha Goti System Abolition Regulation?",
+"questionOdia": "ଓଡ଼ିଶା ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ନିୟାମକର ଉଦ୍ଦେଶ୍ୟ କଣ?",
+"options": [
+"ଗୋତିପ୍ରଥା ନିଷିଦ୍ଧ କରିବା",
+"ଗୋତିପ୍ରଥା ବଢ଼ାଇବା",
+"କୃଷି ବଢ଼ାଇବା",
+"ଶିକ୍ଷା ବଢ଼ାଇବା"
+],
+"answer": "ଗୋତିପ୍ରଥା ନିଷିଦ୍ଧ କରିବା",
+"explanation": "ଏହି ନିୟାମକ ଦ୍ଵାରା ଆଦିବାସୀ ଅଧ୍ୟୁଷିତ ଅଞ୍ଚଳରୁ ଗୋତିପ୍ରଥା ଆଇନତଃ ନିଷିଦ୍ଧ ହୋଇଗଲା।"
+},
+{
+"questionEnglish": "How many days of work did the NREGA guarantee?",
+"questionOdia": "ଜାତୀୟ ନିଶ୍ଚିତ ଗ୍ରାମୀଣ କର୍ମନିଯୁକ୍ତି ଯୋଜନାରେ କେତେ ଦିନ କାମଧନ୍ଦା ମିଳେ?",
+"options": [
+"୧୦୦ ଦିନ",
+"୫୦ ଦିନ",
+"୨୦୦ ଦିନ",
+"୧୨୦ ଦିନ"
+],
+"answer": "୧୦୦ ଦିନ",
+"explanation": "ଏହି ଯୋଜନା ଅନୁଯାୟୀ ବର୍ଷକୁ ଅନ୍ୟୂନ ୧୦୦ ଦିନ କାମଧନ୍ଦା ଯୋଗାଇ ଦିଆଯାଏ।"
+},
+{
+"questionEnglish": "Which project provided concrete roads in villages?",
+"questionOdia": "ଗାଁଗୁଡ଼ିକରେ ପକ୍କା ସଡ଼କ ନିର୍ମାଣ ପାଇଁ କେଉଁ ଯୋଜନା ରହିଛି?",
+"options": [
+"ପ୍ରଧାନମନ୍ତ୍ରୀ ଗ୍ରାମ ସଡ଼କ ଯୋଜନା",
+"ଗୋପବନ୍ଧୁ ଗ୍ରାମୀଣ ଯୋଜନା",
+"ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଯୋଜନା",
+"ଇନ୍ଦିରା ଆବାସ ଯୋଜନା"
+],
+"answer": "ପ୍ରଧାନମନ୍ତ୍ରୀ ଗ୍ରାମ ସଡ଼କ ଯୋଜନା",
+"explanation": "ପ୍ରଧାନମନ୍ତ୍ରୀ ଗ୍ରାମ ସଡ଼କ ଯୋଜନାରେ ଗାଁଗୁଡ଼ିକରେ ସିମେଣ୍ଟ କଂକ୍ରିଟର ପକ୍‌କା ସଡ଼କ ନିର୍ମିତ ହେଲା।"
+},
+{
+"questionEnglish": "What is the age limit for children in Mid-day meal schemes?",
+"questionOdia": "ମଧ୍ୟାହ୍ନ ଭୋଜନ କେଉଁଠାରେ ଦିଆଯାଏ?",
+"options": [
+"ପ୍ରାଥମିକ ବିଦ୍ୟାଳୟ",
+"ମାଧ୍ୟମିକ ବିଦ୍ୟାଳୟ",
+"କଲେଜ",
+"ଘରୋଇ ସ୍କୁଲ"
+],
+"answer": "ପ୍ରାଥମିକ ବିଦ୍ୟାଳୟ",
+"explanation": "ପ୍ରାଥମିକ ବିଦ୍ୟାଳୟମାନଙ୍କରେ ମଧ୍ୟାହ୍ନ ଭୋଜନ ଯୋଜନା କାର୍ଯ୍ୟକାରୀ କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "Which pension scheme supports leprosy survivors?",
+"questionOdia": "କୁଷ୍ଠରୋଗରୁ ଆରୋଗ୍ୟ ଲାଭ କରିଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ କେଉଁ ପେନ୍‌ସନ୍ ଯୋଜନା ରହିଛି?",
+"options": [
+"ମଧୁବାବୁ ପେନ୍‌ସନ୍ ଯୋଜନା",
+"ଜାତୀୟ ବୃଦ୍ଧାବସ୍ଥା ପେନ୍‌ସନ୍",
+"ଜନନୀ ସୁରକ୍ଷା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମଧୁବାବୁ ପେନ୍‌ସନ୍ ଯୋଜନା",
+"explanation": "ମଧୁବାବୁ ପେନ୍‌ସନ୍ ଯୋଜନା ଅନୁଯାୟୀ ବୃଦ୍ଧ, ବିଧବା, ଭିନ୍ନକ୍ଷମ ଓ କୁଷ୍ଠରୋଗରୁ ଆରୋଗ୍ୟ ଲାଭ କରିଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ ମାସିକ ଭତ୍ତା ଦେବାର ବ୍ୟବସ୍ଥା କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "How much rice is given to poor families monthly under the Antyodaya scheme?",
+"questionOdia": "ଅନ୍ତୋଦୟ ଯୋଜନାରେ ପରିବାର ପିଛା କେତେ କିଲୋଗ୍ରାମ ଚାଉଳ ମିଳେ?",
+"options": [
+"୩୫ କିଲୋଗ୍ରାମ",
+"୨୦ କିଲୋଗ୍ରାମ",
+"୧୦ କିଲୋଗ୍ରାମ",
+"୫ କିଲୋଗ୍ରାମ"
+],
+"answer": "୩୫ କିଲୋଗ୍ରାମ",
+"explanation": "ଅନ୍ତୋଦୟ ଯୋଜନା ଦ୍ଵାରା ଦାରିଦ୍ର୍ୟ ସୀମାରେଖା ତଳେ ରହୁଥିବା ପରିବାରଙ୍କୁ ମାସିକ ୩୫ କିଲୋଗ୍ରାମ ଚାଉଳ ଦେବା ବ୍ୟବସ୍ଥା ହେଲା।"
+},
+{
+"questionEnglish": "What was the purpose of abolishing child labour?",
+"questionOdia": "ଶିଶୁ ଶ୍ରମିକ ପ୍ରଥାକୁ କାହିଁକି ଉଚ୍ଛେଦ କରାଯାଇଛି?",
+"options": [
+"ଶିଶୁମାନଙ୍କ ସୁରକ୍ଷା ପାଇଁ",
+"ଅର୍ଥନୀତି ପାଇଁ",
+"କାମ ପାଇଁ",
+"କିଛି ଉଦ୍ଦେଶ୍ୟ ନାହିଁ"
+],
+"answer": "ଶିଶୁମାନଙ୍କ ସୁରକ୍ଷା ପାଇଁ",
+"explanation": "ଶିଶୁମାନଙ୍କ ସୁରକ୍ଷା ଓ ବିକାଶ ପାଇଁ ଶିଶୁ ଶ୍ରମିକ ପ୍ରଥାକୁ ଉଚ୍ଛେଦ କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "What are the core activities of the Biju Gramjyoti Yojana?",
+"questionOdia": "ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଯୋଜନାର ଲକ୍ଷ୍ୟ କଣ?",
+"options": [
+"ଗ୍ରାମଗୁଡ଼ିକୁ ବିଦ୍ୟୁତ୍ ସଂଯୋଗ",
+"ବିଦ୍ୟାଳୟ ନିର୍ମାଣ",
+"ହସ୍ପିଟାଲ ନିର୍ମାଣ",
+"ରାସ୍ତା ନିର୍ମାଣ"
+],
+"answer": "ଗ୍ରାମଗୁଡ଼ିକୁ ବିଦ୍ୟୁତ୍ ସଂଯୋଗ",
+"explanation": "ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଯୋଜନାରେ ରାଜ୍ୟର ସମସ୍ତ ଗ୍ରାମଗୁଡ଼ିକୁ ବିଦ୍ୟୁତ୍ ସଂଯୋଗ କରିବା ପାଇଁ ଲକ୍ଷ୍ୟ ରଖାଯାଇଛି।"
+},
+{
+"questionEnglish": "Who was eligible for the Madhu Babu Pension Yojana?",
+"questionOdia": "ମଧୁବାବୁ ପେନ୍‌ସନ୍ ଯୋଜନାରେ କିଏ ଉପକୃତ ହୁଅନ୍ତି?",
+"options": [
+"ବୃଦ୍ଧ, ବିଧବା ଓ ଭିନ୍ନକ୍ଷମ",
+"କେବଳ ବୃଦ୍ଧ",
+"କେବଳ ଶିଶୁ",
+"କେବଳ ମହିଳା"
+],
+"answer": "ବୃଦ୍ଧ, ବିଧବା ଓ ଭିନ୍ନକ୍ଷମ",
+"explanation": "ବୃଦ୍ଧ, ବିଧବା, ଭିନ୍ନକ୍ଷମ ଓ କୁଷ୍ଠରୋଗରୁ ଆରୋଗ୍ୟ ଲାଭ କରିଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ ଏହି ଯୋଜନାରେ ଭତ୍ତା ମିଳେ।"
+},
+{
+"questionEnglish": "What was the main outcome of the Odisha temple entry act?",
+"questionOdia": "ମନ୍ଦିର ପ୍ରବେଶ ଆଇନ ଫଳରେ କଣ ହେଲା?",
+"options": [
+"ଦଳିତମାନଙ୍କ ପାଇଁ ଜଗନ୍ନାଥ ମନ୍ଦିର ଉନ୍ମୁକ୍ତ ହେଲା",
+"ମନ୍ଦିର ବନ୍ଦ ହୋଇଗଲା",
+"ମନ୍ଦିରରେ ପୂଜା ବନ୍ଦ ହେଲା",
+"କିଛି ହେଲା ନାହିଁ"
+],
+"answer": "ଦଳିତମାନଙ୍କ ପାଇଁ ଜଗନ୍ନାଥ ମନ୍ଦିର ଉନ୍ମୁକ୍ତ ହେଲା",
+"explanation": "ଜଗନ୍ନାଥ ମନ୍ଦିରକୁ ଅନୁସୂଚିତ ଜାତିର ଭକ୍ତମାନଙ୍କ ପାଇଁ ଉନ୍ମୁକ୍ତ କରିଦିଆଗଲା।"
+},
+{
+"questionEnglish": "How many primary schools were established in Odisha by 1950?",
+"questionOdia": "୧୯୫୦ ମସିହାରେ ଓଡ଼ିଶାରେ ପ୍ରାଥମିକ ବିଦ୍ୟାଳୟ ସଂଖ୍ୟା କେତେ ଥିଲା?",
+"options": [
+"୧୦,୧୬୫",
+"୫,୦୦୦",
+"୮,୦୦୦",
+"୧୨,୦୦୦"
+],
+"answer": "୧୦,୧୬୫",
+"explanation": "୧୯୫୦ ମସିହାରେ ଓଡ଼ିଶାରେ ପ୍ରାଥମିକ ବିଦ୍ୟାଳୟର ସଂଖ୍ୟା ଥିଲା ୧୦,୧୬୫।"
+},
+{
+"questionEnglish": "Which scheme supports women through self-help groups?",
+"questionOdia": "ମହିଳା ସ୍ଵୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ମାଧ୍ୟମରେ କେଉଁ ଯୋଜନା କାର୍ଯ୍ୟକାରୀ ହୁଏ?",
+"options": [
+"ମିଶନ ଶକ୍ତି",
+"ଅନ୍ତୋଦୟ ଯୋଜନା",
+"ଇନ୍ଦିରା ଆବାସ ଯୋଜନା",
+"ଜନନୀ ସୁରକ୍ଷା ଯୋଜନା"
+],
+"answer": "ମିଶନ ଶକ୍ତି",
+"explanation": "ମହିଳା ସ୍ଵୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ଗଠନ ଓ ସେଗୁଡ଼ିକର ଦୃଢ଼ୀକରଣ କରିବା ହେଉଛି ମିଶନ ଶକ୍ତିର ଉଦ୍ଦେଶ୍ୟ।"
+},
+{
+"questionEnglish": "What is the primary benefit of the Rashtriya Swasthya Bima Yojana?",
+"questionOdia": "ରାଷ୍ଟ୍ରୀୟ ସ୍ୱାସ୍ଥ୍ୟ ବୀମା ଯୋଜନାରେ କଣ ମିଳିଥାଏ?",
+"options": [
+"ସ୍ୱାସ୍ଥ୍ୟ ସୁରକ୍ଷା",
+"ଶିକ୍ଷା ସୁରକ୍ଷା",
+"ଜମି ସୁରକ୍ଷା",
+"କୌଣସି ସୁରକ୍ଷା ନୁହେଁ"
+],
+"answer": "ସ୍ୱାସ୍ଥ୍ୟ ସୁରକ୍ଷା",
+"explanation": "ଦାରିଦ୍ର୍ୟ ସୀମାରେଖାର ନିମ୍ନରେ ରହୁଥିବା ପରିବାରମାନଙ୍କୁ ସ୍ୱାସ୍ଥ୍ୟ ସୁରକ୍ଷା ଯୋଗାଇବା ଉଦ୍ଦେଶ୍ୟରେ ଏହି ଯୋଜନା ପ୍ରବର୍ତ୍ତିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Who established the two primary Teacher Training schools in 1947?",
+"questionOdia": "୧୯୪୭ ମସିହାରେ କିଏ ଦୁଇଟି ଶିକ୍ଷକ ପ୍ରଶିକ୍ଷଣ ବିଦ୍ୟାଳୟ ଖୋଲିଥିଲେ?",
+"options": [
+"ରାଜ୍ୟ ସରକାର",
+"କେନ୍ଦ୍ର ସରକାର",
+"ଘରୋଇ ସଂସ୍ଥା",
+"କେହି ନୁହେଁ"
+],
+"answer": "ରାଜ୍ୟ ସରକାର",
+"explanation": "୧୯୪୭-୪୮ ଶିକ୍ଷାବର୍ଷରେ ରାଜ୍ୟ ସରକାର ଦୁଇଟି ଶିକ୍ଷକ ପ୍ରଶିକ୍ଷଣ ବିଦ୍ୟାଳୟ ଖୋଲିଲେ।"
+},
+{
+"questionEnglish": "What was the main problem for tribal people in remote areas?",
+"questionOdia": "ଦୁର୍ଗମ ଅଞ୍ଚଳରେ ରହୁଥିବା ଆଦିବାସୀମାନଙ୍କ ମୁଖ୍ୟ ସମସ୍ୟା କଣ ଥିଲା?",
+"options": [
+"ଶିକ୍ଷା ଓ ସାମାଜିକ ଅବହେଳା",
+"ଟଙ୍କାର ଅଭାବ",
+"ଖାଦ୍ୟର ଅଭାବ",
+"କୌଣସି ସମସ୍ୟା ନଥିଲା"
+],
+"answer": "ଶିକ୍ଷା ଓ ସାମାଜିକ ଅବହେଳା",
+"explanation": "ବଣଜଙ୍ଗଲ ଘେରା ପାର୍ବତ୍ୟ ଅଞ୍ଚଳରେ ଆଦିବାସୀମାନେ ଜାତୀୟସ୍ରୋତରୁ ବିଛିନ୍ନ ହୋଇ ନିଭୃତ ପରିବେଶରେ ରହୁଥିଲେ।"
+},
+{
+"questionEnglish": "Which of the following was a traditional practice abolished in princely states?",
+"questionOdia": "ଗଡ଼ଜାତ ଅଞ୍ଚଳରେ ଚାଲୁଥିବା କେଉଁ ପ୍ରଥାଗୁଡ଼ିକୁ ବନ୍ଦ କରାଯାଇଥିଲା?",
+"options": [
+"ବେଠି, ବେଗାରୀ, ରସଦ",
+"କେବଳ ବେଠି",
+"କେବଳ ବେଗାରୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବେଠି, ବେଗାରୀ, ରସଦ",
+"explanation": "ଗଡ଼ଜାତ ଅଞ୍ଚଳରେ ଚାଲୁଥିବା ବେଠି, ବେଗାରୀ, ମାଗଣ, ରସଦ ଓ ଭେଟି ପ୍ରଥାକୁ ମଧ୍ୟ ବନ୍ଦ କରିଦିଆଗଲା।"
+},
+{
+"questionEnglish": "How does the government help self-help groups?",
+"questionOdia": "ସ୍ଵୟଂ ସହାୟକ ଗୋଷ୍ଠୀକୁ କିପରି ସହାୟତା କରାଯାଏ?",
+"options": [
+"ଋଣ ଯୋଗାଇବା",
+"ତାଲିମ୍ ପ୍ରଦାନ",
+"ଉଭୟ 'କ' ଓ 'ଖ'",
+"କିଛି ସହାୟତା ନୁହେଁ"
+],
+"answer": "ଉଭୟ 'କ' ଓ 'ଖ'",
+"explanation": "ଦଳଗୁଡ଼ିକୁ ପରିଚାଳନା ଓ ଅନ୍ୟାନ୍ୟ ବିଷୟରେ ତାଲିମ୍ ପ୍ରଦାନ ଏବଂ ଋଣ ଯୋଗାଇବାର ବ୍ୟବସ୍ଥା କରାଯାଏ।"
+},
+{
+"questionEnglish": "What was the result of the Odisha Goti System Abolition Regulation?",
+"questionOdia": "ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ନିୟାମକ ଫଳରେ କଣ ହେଲା?",
+"options": [
+"ହଜାର ହଜାର ଗୋତି ଶ୍ରମିକ ଉଦ୍ଧାର ହେଲେ",
+"ଗୋତିପ୍ରଥା ବଢ଼ିଲା",
+"କିଛି ହେଲା ନାହିଁ",
+"ଲୋକମାନେ ଛାଡ଼ିଲେ ନାହିଁ"
+],
+"answer": "ହଜାର ହଜାର ଗୋତି ଶ୍ରମିକ ଉଦ୍ଧାର ହେଲେ",
+"explanation": "ଏହି ନିୟାମକ କାର୍ଯ୍ୟକାରୀ ହେବା ଦ୍ଵାରା ହଜାର ହଜାର ଗୋତି ଶ୍ରମିକଙ୍କୁ ଉଦ୍ଧାର କରାଗଲା।"
+},
+{
+"questionEnglish": "Which scheme provides pension to widows?",
+"questionOdia": "ବିଧବାମାନଙ୍କ ପାଇଁ କେଉଁ ପେନ୍‌ସନ୍ ଯୋଜନା ରହିଛି?",
+"options": [
+"ମଧୁବାବୁ ପେନ୍‌ସନ୍ ଯୋଜନା",
+"ଜନନୀ ସୁରକ୍ଷା ଯୋଜନା",
+"ଇନ୍ଦିରା ଆବାସ ଯୋଜନା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମଧୁବାବୁ ପେନ୍‌ସନ୍ ଯୋଜନା",
+"explanation": "ମଧୁବାବୁ ପେନ୍‌ସନ୍ ଯୋଜନା ଅନୁଯାୟୀ ବିଧବା ଓ ବୃଦ୍ଧମାନଙ୍କ ପାଇଁ ମାସିକ ଭତ୍ତା ଦେବାର ବ୍ୟବସ୍ଥା କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "What is the main goal of the Biju KBK scheme?",
+"questionOdia": "ବିଜୁ କେବିକେ ଯୋଜନାର ଲକ୍ଷ୍ୟ କଣ?",
+"options": [
+"ଅବିଭକ୍ତ କଳାହାଣ୍ଡି, ବଲାଙ୍ଗୀର ଓ କୋରାପୁଟର ବିକାଶ",
+"କେବଳ ରାସ୍ତା ନିର୍ମାଣ",
+"କେବଳ ଶିକ୍ଷା",
+"କେବଳ ସ୍ୱାସ୍ଥ୍ୟ"
+],
+"answer": "ଅବିଭକ୍ତ କଳାହାଣ୍ଡି, ବଲାଙ୍ଗୀର ଓ କୋରାପୁଟର ବିକାଶ",
+"explanation": "ଅବିଭକ୍ତ କଳାହାଣ୍ଡି, ବଲାଙ୍ଗୀର ଓ କୋରାପୁଟ ଅଞ୍ଚଳର ବିକାଶ ପାଇଁ ବିଜୁ କେବିକେ ଯୋଜନା କାର୍ଯ୍ୟକାରୀ ହୋଇଛି।"
+},
+{
+"questionEnglish": "What are the common social problems mentioned in the chapter?",
+"questionOdia": "ଅଧ୍ୟାୟରେ କେଉଁ କେଉଁ ସାମାଜିକ ସମସ୍ୟା ବିଷୟରେ ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"options": [
+"ଗୋତିପ୍ରଥା",
+"ଅସ୍ପୃଶ୍ୟତା",
+"ଶିଶୁ ଶ୍ରମିକ ପ୍ରଥା",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ଅଧ୍ୟାୟରେ ଗୋତିପ୍ରଥା, ଅସ୍ପୃଶ୍ୟତା ଓ ଶିଶୁ ଶ୍ରମିକ ପ୍ରଥା ଭଳି ସାମାଜିକ ସମସ୍ୟା ବିଷୟରେ ଆଲୋଚନା କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "How does the government encourage regular farming among tribal people?",
+"questionOdia": "ଆଦିବାସୀମାନଙ୍କୁ ନିୟମିତ କୃଷି ପାଇଁ କିପରି ପ୍ରୋତ୍ସାହିତ କରାଯାଉଛି?",
+"options": [
+"କୃଷିଉପଯୋଗୀ ଜମି ଯୋଗାଇ ଦେଇ",
+"କେବଳ ଟଙ୍କା ଦେଇ",
+"କୌଣସି ପଦକ୍ଷେପ ନାହିଁ",
+"ଜମି ଛଡ଼ାଇ ନେଇ"
+],
+"answer": "କୃଷିଉପଯୋଗୀ ଜମି ଯୋଗାଇ ଦେଇ",
+"explanation": "କୃଷିଉପଯୋଗୀ ଜମି ଯୋଗାଇଦେଇ ଆଦିବାସୀମାନଙ୍କୁ ନିୟମିତ କୃଷି ପାଇଁ ପ୍ରୋତ୍ସାହିତ କରାଗଲା।"
+},
+{
+"questionEnglish": "What was the purpose of the Odisha Citizen Disability Removal Act?",
+"questionOdia": "ନାଗରିକ ଅଯୋଗ୍ୟତା ଦୂରୀକରଣ ଆଇନର ମୂଳ ଲକ୍ଷ୍ୟ କଣ?",
+"options": [
+"ଅସ୍ପୃଶ୍ୟତା ଦୂର କରିବା",
+"ଶିକ୍ଷା ବଢ଼ାଇବା",
+"ଜମି ବଢ଼ାଇବା",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ଅସ୍ପୃଶ୍ୟତା ଦୂର କରିବା",
+"explanation": "ଏହି ଆଇନ ବଳରେ ଅସ୍ପୃଶ୍ୟତା ଭଳି କଳଙ୍କିତ ପ୍ରଥା ଅପସରିଗଲା।"
+},
+{
+"questionEnglish": "What was the result of the malaria prevention measures?",
+"questionOdia": "ମ୍ୟାଲେରିଆ ନିରାକରଣ ବଟିକା ବିତରଣର ଉଦ୍ଦେଶ୍ୟ କଣ ଥିଲା?",
+"options": [
+"ଲୋକଙ୍କୁ ମ୍ୟାଲେରିଆରୁ ରକ୍ଷା କରିବା",
+"କେବଳ ଚିକିତ୍ସା କରିବା",
+"କିଛି ନୁହେଁ",
+"ବିଜ୍ଞାପନ ଦେବା"
+],
+"answer": "ଲୋକଙ୍କୁ ମ୍ୟାଲେରିଆରୁ ରକ୍ଷା କରିବା",
+"explanation": "ମ୍ୟାଲେରିଆ ରୋଗରୁ ଲୋକଙ୍କୁ ରକ୍ଷା କରିବାପାଇଁ ସରକାର ବଟିକା ବିତରଣ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "How did the government provide houses to the landless?",
+"questionOdia": "ଗୃହଶୂନ୍ୟ ଲୋକଙ୍କ ପାଇଁ କେଉଁ ଯୋଜନା ଅଛି?",
+"options": [
+"ମୋ କୁଡ଼ିଆ ଯୋଜନା",
+"ଇନ୍ଦିରା ଆବାସ ଯୋଜନା",
+"ଉଭୟ 'କ' ଓ 'ଖ'",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ 'କ' ଓ 'ଖ'",
+"explanation": "ଉଭୟ ମୋ କୁଡ଼ିଆ ଯୋଜନା ଓ ଇନ୍ଦିରା ଆବାସ ଯୋଜନା ଜରିଆରେ ଗୃହ ଯୋଗାଣ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is the age limit for girls to be protected from child marriage mentioned implicitly?",
+"questionOdia": "ଶିଶୁମାନଙ୍କ ସୁରକ୍ଷା ପାଇଁ କଣ ନିଷେଧ କରାଯାଇଛି?",
+"options": [
+"କନ୍ୟାଭ୍ରୂଣହତ୍ୟା",
+"ପାଠ ପଢ଼ିବା",
+"ଖେଳିବା",
+"କିଛି ନୁହେଁ"
+],
+"answer": "କନ୍ୟାଭ୍ରୂଣହତ୍ୟା",
+"explanation": "ଶିଶୁମାନଙ୍କ ସୁରକ୍ଷା ପାଇଁ କନ୍ୟାଭ୍ରୂଣହତ୍ୟାକୁ ନିଷେଧ କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "What is the main task of the Mission Shakti regarding Self-Help Groups?",
+"questionOdia": "ମିଶନ ଶକ୍ତି ମହିଳା ଗୋଷ୍ଠୀଙ୍କ ପାଇଁ କଣ କରେ?",
+"options": [
+"ଗଠନ ଓ ଦୃଢ଼ୀକରଣ",
+"ଖେଳିବା",
+"ପଢ଼ିବା",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ଗଠନ ଓ ଦୃଢ଼ୀକରଣ",
+"explanation": "ମହିଳା ସ୍ଵୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ଗଠନ ଓ ସେଗୁଡ଼ିକର ଦୃଢ଼ୀକରଣ କରିବା ହେଉଛି ମିଶନ ଶକ୍ତିର ଉଦ୍ଦେଶ୍ୟ।"
+},
+{
+"questionEnglish": "Which of the following is a result of tribal development programs?",
+"questionOdia": "ଆଦିବାସୀ ବିକାଶ କାର୍ଯ୍ୟକ୍ରମର ଫଳ କଣ?",
+"options": [
+"ଅନେକ ଗୋତି ଶ୍ରମିକ ଉଦ୍ଧାର ହେଲେ",
+"କୃଷି ପ୍ରୋତ୍ସାହିତ ହେଲା",
+"ଶିକ୍ଷା ବୃଦ୍ଧି ପାଇଲା",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ଏହି କାର୍ଯ୍ୟକ୍ରମ ଦ୍ଵାରା ଶ୍ରମିକ ଉଦ୍ଧାର, କୃଷି ଓ ଶିକ୍ଷାର ବିକାଶ ହୋଇଛି।"
+},
+{
+"questionEnglish": "How does the government ensure that tribal lands are not taken over by others?",
+"questionOdia": "ଆଦିବାସୀଙ୍କ ଜମିକୁ ଅନ୍ୟମାନେ ନେଇପାରିବେ କି?",
+"options": [
+"ନାହିଁ",
+"ହଁ",
+"ଅନୁମତି ପାଇଲେ ପାରିବେ",
+"କିଛି ନିୟମ ନାହିଁ"
+],
+"answer": "ନାହିଁ",
+"explanation": "୧୯୪୭ ମସିହାର ଆଇନ ଅନୁଯାୟୀ ଆଦିବାସୀ ଜମି ଜବରଦଖଲ କରିବା ନିଷିଦ୍ଧ।"
+},
+{
+"questionEnglish": "What is the age limit to define a child as a 'Shishu Shramika'?",
+"questionOdia": "କେଉଁ ବୟସର ପିଲାମାନଙ୍କୁ ଶିଶୁ ଶ୍ରମିକ କୁହାଯାଏ?",
+"options": [
+"୧୪ ବର୍ଷରୁ କମ୍",
+"୧୮ ବର୍ଷରୁ କମ୍",
+"୨୦ ବର୍ଷରୁ କମ୍",
+"କେଉଁ ବୟସ ନାହିଁ"
+],
+"answer": "୧୪ ବର୍ଷରୁ କମ୍",
+"explanation": "୧୪ ବର୍ଷରୁ କମ୍ ବୟସର ଶ୍ରମିକମାନଙ୍କୁ ଶିଶୁ ଶ୍ରମିକ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What was the purpose of appointing special officers for tribal people?",
+"questionOdia": "ଆଦିବାସୀଙ୍କ ପାଇଁ ସରକାରୀ ଅଧିକାରୀ କାହିଁକି ନିଯୁକ୍ତ ହେଲେ?",
+"options": [
+"ଜମି ଚିହ୍ନଟ କରି ଫେରାଇ ଦେବା ପାଇଁ",
+"ଟଙ୍କା ମାଗିବା ପାଇଁ",
+"ଜବରଦଖଲ କରିବା ପାଇଁ",
+"କୌଣସି କାରଣ ନାହିଁ"
+],
+"answer": "ଜମି ଚିହ୍ରଟ କରି ଫେରାଇ ଦେବା ପାଇଁ",
+"explanation": "ସ୍ୱତନ୍ତ୍ର ସରକାରୀ ଅଧିକାରୀଙ୍କୁ ନିୟୋଜନ କରାଯାଇ ଆଦିବାସୀମାନଙ୍କ ଜମି ଚିହ୍ନଟ କରାଗଲା ଓ ଫେରାଇ ଦିଆଗଲା।"
+},
+{
+"questionEnglish": "Which scheme includes the 'Mo Kudia' scheme?",
+"questionOdia": "‘ମୋ କୁଡ଼ିଆ’ ଯୋଜନା କାହା ପାଇଁ ଉଦ୍ଦିଷ୍ଟ?",
+"options": [
+"ଗୃହଶୂନ୍ୟ ଲୋକ",
+"ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ସରକାରୀ ଚାକିରୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗୃହଶୂନ୍ୟ ଲୋକ",
+"explanation": "ବନ୍ୟା, ଘରପୋଡ଼ି ଦ୍ୱାରା ଗୃହଶୂନ୍ୟ ଲୋକଙ୍କ ପାଇଁ ମୋ କୁଡ଼ିଆ ଯୋଜନା କାର୍ଯ୍ୟକାରୀ ହୋଇଛି।"
+},
+{
+"questionEnglish": "What is the primary benefit of the Indira Awas Yojana?",
+"questionOdia": "ଇନ୍ଦିରା ଆବାସ ଯୋଜନାରେ କଣ ମିଳେ?",
+"options": [
+"ନିଜସ୍ୱ ବାସଗୃହ",
+"ଖାଦ୍ୟ",
+"ରାସ୍ତା",
+"ଶିକ୍ଷା"
+],
+"answer": "ନିଜସ୍ୱ ବାସଗୃହ",
+"explanation": "ଇନ୍ଦିରା ଆବାସ ଯୋଜନା ମାଧ୍ୟମରେ ଗ୍ରାମାଞ୍ଚଳର ଲୋକମାନେ ନିଜସ୍ୱ ବାସଗୃହ ସୁବିଧା ପାଇଲେ।"
+},
+{
+"questionEnglish": "Which scheme is focused on rural employment?",
+"questionOdia": "ଗ୍ରାମାଞ୍ଚଳରେ ରୋଜଗାର ପାଇଁ କେଉଁ ଯୋଜନା ରହିଛି?",
+"options": [
+"ମହାତ୍ମା ଗାନ୍ଧୀ ଜାତୀୟ ନିଶ୍ଚିତ ଗ୍ରାମୀଣ କର୍ମନିଯୁକ୍ତି ଯୋଜନା",
+"ମିଶନ ଶକ୍ତି",
+"ଜନନୀ ସୁରକ୍ଷା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମହାତ୍ମା ଗାନ୍ଧୀ ଜାତୀୟ ନିଶ୍ଚିତ ଗ୍ରାମୀଣ କର୍ମନିଯୁକ୍ତି ଯୋଜନା",
+"explanation": "ଏହି ଯୋଜନା ଦ୍ଵାରା ଗ୍ରାମାଞ୍ଚଳରେ ଲୋକମାନଙ୍କୁ କର୍ମନିଯୁକ୍ତି ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "What was the purpose of the 1947 Law regarding tribal land?",
+"questionOdia": "୧୯୪୭ ଆଇନର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କଣ ଥିଲା?",
+"options": [
+"ଆଦିବାସୀଙ୍କ ଜମି ସୁରକ୍ଷା",
+"ଜମି କାଢ଼ି ନେବା",
+"ବିକ୍ରି କରିବା",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ଆଦିବାସୀଙ୍କ ଜମି ସୁରକ୍ଷା",
+"explanation": "ଅଣଆଦିବାସୀମାନେ ଆଦିବାସୀମାନଙ୍କ ଜମି କୌଣସି ଆଳରେ ଜବରଦଖଲ କରିପାରିବେ ନାହିଁ ବୋଲି ଆଇନ ହେଲା।"
+},
+{
+"questionEnglish": "Which of the following is associated with the Dalit people?",
+"questionOdia": "ଦଳିତମାନଙ୍କ ବିଷୟରେ କଣ ସତ?",
+"options": [
+"ସେମାନଙ୍କୁ ପୂର୍ବେ ଅସ୍ପୃଶ୍ୟ କୁହାଯାଉଥିଲା",
+"ସେମାନେ ଧନୀ ଥିଲେ",
+"ସେମାନେ ଶିକ୍ଷିତ ଥିଲେ",
+"କୌଣସି ଅସୁବିଧା ନଥିଲା"
+],
+"answer": "ସେମାନଙ୍କୁ ପୂର୍ବେ ଅସ୍ପୃଶ୍ୟ କୁହାଯାଉଥିଲା",
+"explanation": "ଓଡ଼ିଶାରେ ବସବାସ କରୁଥିବା ଦଳିତମାନଙ୍କୁ ପୂର୍ବେ ଅସ୍ପୃଶ୍ୟ କହି ବାସନ୍ଦ କରାଯାଉଥିଲା।"
+},
+{
+"questionEnglish": "Which scheme aims to provide electricity to all villages?",
+"questionOdia": "ସମସ୍ତ ଗ୍ରାମକୁ ବିଦ୍ୟୁତ ସଂଯୋଗ ଦେବା ପାଇଁ କେଉଁ ଯୋଜନା ଅଛି?",
+"options": [
+"ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଯୋଜନା",
+"ଇନ୍ଦିରା ଆବାସ ଯୋଜନା",
+"ଜନନୀ ସୁରକ୍ଷା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଯୋଜନା",
+"explanation": "ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଯୋଜନାରେ ରାଜ୍ୟର ସମସ୍ତ ଗ୍ରାମଗୁଡ଼ିକୁ ବିଦ୍ୟୁତ୍ ସଂଯୋଗ କରିବା ପାଇଁ ଲକ୍ଷ୍ୟ ରଖାଯାଇଛି।"
+},
+{
+"questionEnglish": "What was the purpose of the Odisha Goti System Abolition Regulation?",
+"questionOdia": "ଓଡ଼ିଶା ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ନିୟାମକର ଉଦ୍ଦେଶ୍ୟ କଣ ଥିଲା?",
+"options": [
+"ଗୋତିପ୍ରଥାକୁ ଆଇନତଃ ନିଷିଦ୍ଧ କରିବା",
+"ଗୋତିପ୍ରଥା ବଢ଼ାଇବା",
+"ମଜୁରୀ ବଢ଼ାଇବା",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ଗୋତିପ୍ରଥାକୁ ଆଇନତଃ ନିଷିଦ୍ଧ କରିବା",
+"explanation": "ଏହି ନିୟାମକକୁ କଡ଼ାକଡ଼ି ପାଳନ କରିବା ଦ୍ଵାରା ଆଦିବାସୀ ଅଧ୍ୟୁଷିତ ଅଞ୍ଚଳରୁ ଗୋତିପ୍ରଥା ଆଇନତଃ ନିଷିଦ୍ଧ ହୋଇଗଲା।"
+},
+{
+"questionEnglish": "How does Mission Shakti help women become self-reliant?",
+"questionOdia": "ମିଶନ ଶକ୍ତି କିପରି ମହିଳାମାନଙ୍କୁ ଆତ୍ମନିର୍ଭରଶୀଳ କରେ?",
+"options": [
+"ସ୍ଵୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ମାଧ୍ୟମରେ",
+"କେବଳ ପାଠ ପଢ଼ାଇ",
+"କେବଳ ଚାକିରୀ ଦେଇ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ସ୍ଵୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ମାଧ୍ୟମରେ",
+"explanation": "ମହିଳା ସ୍ଵୟଂ ସହାୟକ ଗୋଷ୍ଠୀ ଗଠନ ଓ ସେଗୁଡ଼ିକର ଦୃଢ଼ୀକରଣ ମାଧ୍ୟମରେ ମହିଳାମାନଙ୍କୁ ଆତ୍ମନିର୍ଭରଶୀଳ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What are the common diseases in the tribal regions of Ganjam and Koraput?",
+"questionOdia": "ଗଞ୍ଜାମ ଓ କୋରାପୁଟର ଆଦିବାସୀମାନେ କେଉଁ ରୋଗରେ ଆକ୍ରାନ୍ତ ହେଉଥିଲେ?",
+"options": [
+"ଯୌନରୋଗ",
+"ମ୍ୟାଲେରିଆ",
+"ଉଭୟ 'କ' ଓ 'ଖ'",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ 'କ' ଓ 'ଖ'",
+"explanation": "ଗଞ୍ଜାମ ଓ କୋରାପୁଟର ଆଦିବାସୀମାନେ କେତେକ ଯୌନରୋଗର ଶିକାର ହେଉଥିଲେ ଏବଂ ମ୍ୟାଲେରିଆ ମଧ୍ୟ ପ୍ରବଳ ଥିଲା।"
+}
+]
