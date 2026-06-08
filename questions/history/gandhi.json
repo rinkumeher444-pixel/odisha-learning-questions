@@ -1,0 +1,1334 @@
+[
+{
+"questionEnglish": "Who is known as the 'Father of the Nation' and is a world-renowned leader mentioned in Indian history?",
+"questionOdia": "ଜାତିର ପିତା ଭାବେ କିଏ ଜଣାଶୁଣା ଏବଂ ଭାରତୀୟ ଇତିହାସରେ ବିଶ୍ଵସ୍ତରୀୟ ଜନନାୟକ ଭାବେ କିଏ ପରିଚିତ?",
+"options": [
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ମହାତ୍ମା ଗାନ୍ଧୀ",
+"ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ",
+"ଗୋପବନ୍ଧୁ ଦାସ"
+],
+"answer": "ମହାତ୍ମା ଗାନ୍ଧୀ",
+"explanation": "ମହାତ୍ମା ଗାନ୍ଧୀ ଜାତିର ପିତା ଏବଂ ଭାରତ ତଥା ବିଶ୍ଵରେ ଜଣେ ମହାନ ଜନନାୟକ ଭାବେ ପରିଚିତ।"
+},
+{
+"questionEnglish": "What was the full name of Mahatma Gandhi?",
+"questionOdia": "ମହାତ୍ମା ଗାନ୍ଧୀଙ୍କ ପୂରା ନାମ କ’ଣ ଥିଲା?",
+"options": [
+"ମୋହନଦାସ କରମଚାନ୍ଦ ଗାନ୍ଧୀ",
+"ମହାତ୍ମା କରମଚାନ୍ଦ ଗାନ୍ଧୀ",
+"ମୋହନ କରମଚାନ୍ଦ ଗାନ୍ଧୀ",
+"ମୋହନଦାସ ଗାନ୍ଧୀ"
+],
+"answer": "ମୋହନଦାସ କରମଚାନ୍ଦ ଗାନ୍ଧୀ",
+"explanation": "ମହାତ୍ମା ଗାନ୍ଧୀଙ୍କ ପୂରା ନାମ ଥିଲା ମୋହନଦାସ କରମଚାନ୍ଦ ଗାନ୍ଧୀ।"
+},
+{
+"questionEnglish": "In which place and year was Mahatma Gandhi born?",
+"questionOdia": "ମହାତ୍ମା ଗାନ୍ଧୀ କେଉଁ ସ୍ଥାନରେ ଏବଂ କେଉଁ ବର୍ଷ ଜନ୍ମଗ୍ରହଣ କରିଥିଲେ?",
+"options": [
+"୧୮୬୯, ପୋରବନ୍ଦର",
+"୧୮୭୯, ରାଜକୋଟ",
+"୧୮୬୯, ବମ୍ବେ",
+"୧୮୮୯, ନାଟାଲ"
+],
+"answer": "୧୮୬୯, ପୋରବନ୍ଦର",
+"explanation": "ଗାନ୍ଧିଜୀ ୧୮୬୯ ଖ୍ରୀଷ୍ଟାବ୍ଦ ଅକ୍ଟୋବର ୨ ତାରିଖରେ ଗୁଜୁରାଟର ପୋରବନ୍ଦରରେ ଜନ୍ମଗ୍ରହଣ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "In which year did Mahatma Gandhi marry Kasturba?",
+"questionOdia": "ମହାତ୍ମା ଗାନ୍ଧୀ କେଉଁ ବର୍ଷ କସ୍ତୁରବାଙ୍କୁ ବିବାହ କରିଥିଲେ?",
+"options": [
+"୧୮୮୦",
+"୧୮୮୧",
+"୧୮୮୨",
+"୧୮୮୩"
+],
+"answer": "୧୮୮୨",
+"explanation": "ମହାତ୍ମା ଗାନ୍ଧୀ ୧୮୮୨ ଖ୍ରୀଷ୍ଟାବ୍ଦରେ କସ୍ତୁରବାଙ୍କୁ ବିବାହ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "By what name was Kasturba affectionately called?",
+"questionOdia": "କସ୍ତୁରବାଙ୍କୁ ସମସ୍ତେ ଶ୍ରଦ୍ଧାରେ କ’ଣ ବୋଲି ସମ୍ବୋଧନ କରୁଥିଲେ?",
+"options": [
+"ମା",
+"ବା",
+"ଆଇ",
+"ଦିଦି"
+],
+"answer": "ବା",
+"explanation": "କସ୍ତୁରବାଙ୍କୁ ସମସ୍ତେ ଶ୍ରଦ୍ଧାରେ 'ବା' ବୋଲି ସମ୍ବୋଧନ କରୁଥିଲେ।"
+},
+{
+"questionEnglish": "For what purpose did Gandhi travel to England?",
+"questionOdia": "ଗାନ୍ଧିଜୀ କେଉଁ ଉଦ୍ଦେଶ୍ୟରେ ଇଂଲଣ୍ଡ ଯାତ୍ରା କରିଥିଲେ?",
+"options": [
+"ବ୍ୟବସାୟ କରିବା ପାଇଁ",
+"ବାରିଷ୍ଟରୀ ପଢ଼ିବା ପାଇଁ",
+"ରାଜନୀତି କରିବା ପାଇଁ",
+"ସମ୍ବାଦପତ୍ର ପ୍ରକାଶ ପାଇଁ"
+],
+"answer": "ବାରିଷ୍ଟରୀ ପଢ଼ିବା ପାଇଁ",
+"explanation": "ଗାନ୍ଧିଜୀ ବାରିଷ୍ଟରୀ ବା ଆଇନ ଶିକ୍ଷା ପଢ଼ିବା ପାଇଁ ଇଂଲଣ୍ଡ ଯାତ୍ରା କରିଥିଲେ।"
+},
+{
+"questionEnglish": "To fight a case for which Indian businessman did Gandhi go to South Africa?",
+"questionOdia": "ଗାନ୍ଧିଜୀ କେଉଁ ଭାରତୀୟ ବ୍ୟବସାୟୀଙ୍କ ମୋକଦ୍ଦମା ଲଢ଼ିବା ପାଇଁ ଦକ୍ଷିଣ ଆଫ୍ରିକା ଯାଇଥିଲେ?",
+"options": [
+"ଦାଦା ଅବଦୁଲ୍ଲା",
+"ଜାମସେଦଜୀ",
+"ଆଦିତ୍ୟ ବିର୍ଲା",
+"ରତନ ଟାଟା"
+],
+"answer": "ଦାଦା ଅବଦୁଲ୍ଲା",
+"explanation": "ଦାଦା ଅବଦୁଲ୍ଲା ନାମକ ଜଣେ ଭାରତୀୟ ମୁସଲମାନ ବ୍ୟବସାୟୀଙ୍କ ଓକିଲ ରୂପେ ମୋକଦ୍ଦମା ଲଢ଼ିବା ପାଇଁ ଗାନ୍ଧିଜୀ ଦକ୍ଷିଣ ଆଫ୍ରିକା ଯାଇଥିଲେ।"
+},
+{
+"questionEnglish": "What was the main reason for the suffering of Indians in South Africa?",
+"questionOdia": "ଦକ୍ଷିଣ ଆଫ୍ରିକାରେ ଭାରତୀୟମାନଙ୍କ ଦୁଃଖର ମୁଖ୍ୟ କାରଣ କ’ଣ ଥିଲା?",
+"options": [
+"ଶିକ୍ଷାର ଅଭାବ",
+"ବର୍ଣ୍ଣବୈଷମ୍ୟ ନୀତି",
+"ଅର୍ଥନୈତିକ ସଙ୍କଟ",
+"ପରିବହନ ସମସ୍ୟା"
+],
+"answer": "ବର୍ଣ୍ଣବୈଷମ୍ୟ ନୀତି",
+"explanation": "ଶ୍ଵେତାଙ୍ଗ ଇଂରେଜମାନଙ୍କ ବର୍ଣ୍ଣବୈଷମ୍ୟ ନୀତି ଯୋଗୁଁ ଭାରତୀୟମାନେ ବିଭିନ୍ନ ଅତ୍ୟାଚାରର ଶିକାର ହେଉଥିଲେ।"
+},
+{
+"questionEnglish": "What did the white Britishers call the Indian traders and workers in South Africa?",
+"questionOdia": "ଦକ୍ଷିଣ ଆଫ୍ରିକାରେ ଶ୍ଵେତାଙ୍ଗମାନେ ଭାରତୀୟମାନଙ୍କୁ କ’ଣ ବୋଲି ସମ୍ବୋଧନ କରୁଥିଲେ?",
+"options": [
+"ମାଲିକ",
+"କୁଲି",
+"ସାହେବ",
+"ବନ୍ଧୁ"
+],
+"answer": "କୁଲି",
+"explanation": "ଶ୍ଵେତାଙ୍ଗମାନେ ଭାରତୀୟ ବଣିକ ଓ ଶ୍ରମିକମାନଙ୍କୁ ନୀଚ ଦୃଷ୍ଟିରେ ଦେଖୁଥିଲେ ଏବଂ 'କୁଲି' ବୋଲି ସମ୍ବୋଧନ କରୁଥିଲେ।"
+},
+{
+"questionEnglish": "In which year did Gandhi form the 'Natal Indian Congress'?",
+"questionOdia": "ଗାନ୍ଧିଜୀ କେଉଁ ବର୍ଷ 'ନାଟାଲ ଭାରତୀୟ କଂଗ୍ରେସ' ଗଠନ କରିଥିଲେ?",
+"options": [
+"୧୮୯୦",
+"୧୮୯୨",
+"୧୮୯୪",
+"୧୮୯୬"
+],
+"answer": "୧୮୯୪",
+"explanation": "ଭାରତୀୟମାନଙ୍କ ମଧ୍ୟରେ ରାଜନୈତିକ ସଚେତନତା ପାଇଁ ଗାନ୍ଧିଜୀ ୧୮୯୪ରେ 'ନାଟାଲ ଭାରତୀୟ କଂଗ୍ରେସ' ଗଠନ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What was the name of the newspaper published by Gandhi in South Africa?",
+"questionOdia": "ଦକ୍ଷିଣ ଆଫ୍ରିକାରେ ଗାନ୍ଧିଜୀ କେଉଁ ସମ୍ବାଦ ପତ୍ରିକା ପ୍ରକାଶ କରିଥିଲେ?",
+"options": [
+"ୟଙ୍ଗ ଇଣ୍ଡିଆ",
+"ନବଜୀବନ",
+"ଇଣ୍ଡିଆନ ଓପିନିଅନ",
+"ହରିଜନ"
+],
+"answer": "ଇଣ୍ଡିଆନ ଓପିନିଅନ",
+"explanation": "ଶ୍ଵେତାଙ୍ଗମାନଙ୍କ ଅତ୍ୟାଚାର ବିଷୟରେ ଜନସାଧାରଣଙ୍କୁ ଜଣାଇବା ପାଇଁ ଗାନ୍ଧିଜୀ 'ଇଣ୍ଡିଆନ ଓପିନିଅନ' ପତ୍ରିକା ପ୍ରକାଶ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What new weapon did Gandhi use in his struggle against the British?",
+"questionOdia": "ଇଂରେଜମାନଙ୍କ ବିରୋଧରେ ସଂଗ୍ରାମ ପାଇଁ ଗାନ୍ଧିଜୀ କେଉଁ ନୂତନ ଅସ୍ତ୍ରର ପ୍ରବର୍ତ୍ତନ କରିଥିଲେ?",
+"options": [
+"ସତ୍ୟାଗ୍ରହ",
+"ଅସହଯୋଗ",
+"ହିଂସା",
+"ସଶସ୍ତ୍ର ବିଦ୍ରୋହ"
+],
+"answer": "ସତ୍ୟାଗ୍ରହ",
+"explanation": "ଗାନ୍ଧିଜୀ ସତ୍ୟ ଓ ଅହିଂସା ଉପରେ ଆଧାରିତ ନୂତନ ଅସ୍ତ୍ର 'ସତ୍ୟାଗ୍ରହ'ର ପ୍ରବର୍ତ୍ତନ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "When was the first Satyagraha used by Gandhi?",
+"questionOdia": "ଗାନ୍ଧିଜୀ ପ୍ରଥମେ କେଉଁ ଆନ୍ଦୋଳନରେ ସତ୍ୟାଗ୍ରହ ଅସ୍ତ୍ର ପ୍ରୟୋଗ କରିଥିଲେ?",
+"options": [
+"୧୯୦୬ରେ କଳା ଆଇନ ବିରୋଧରେ",
+"୧୯୧୭ ଚମ୍ପାରନ୍ ଆନ୍ଦୋଳନରେ",
+"୧୯୧୮ ଖେଡ଼ା ଆନ୍ଦୋଳନରେ",
+"୧୯୧୯ ରାଓଲାଟ ଆଇନ ବିରୋଧରେ"
+],
+"answer": "୧୯୦୬ରେ କଳା ଆଇନ ବିରୋଧରେ",
+"explanation": "୧୯୦୬ରେ ଦକ୍ଷିଣ ଆଫ୍ରିକା ସରକାରଙ୍କ କଳା ଆଇନ ବିରୋଧରେ ଗାନ୍ଧିଜୀ ପ୍ରଥମେ ସତ୍ୟାଗ୍ରହ ଅସ୍ତ୍ର ପ୍ରୟୋଗ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "In which city was the general meeting of Indians held on September 11, 1906, against the Black Act?",
+"questionOdia": "୧୯୦୬ ସେପ୍ଟେମ୍ବର ୧୧ରେ କେଉଁ ସହରରେ କଳା ଆଇନ ବିରୋଧରେ ସାଧାରଣ ସଭା ଅନୁଷ୍ଠିତ ହୋଇଥିଲା?",
+"options": [
+"ନାଟାଲ",
+"ଜୋହାନେସ୍‌ବର୍ଗ",
+"ପୋରବନ୍ଦର",
+"ରାଜକୋଟ"
+],
+"answer": "ଜୋହାନେସ୍‌ବର୍ଗ",
+"explanation": "ଜୋହାନେସ୍‌ବର୍ଗର ଏମ୍ପାୟାର ଥୁଏଟରରେ ଏହି ସାଧାରଣ ସଭା ଅନୁଷ୍ଠିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "In which year did Gandhi return to India from South Africa?",
+"questionOdia": "ଗାନ୍ଧିଜୀ ଦକ୍ଷିଣ ଆଫ୍ରିକାରୁ କେବେ ଭାରତକୁ ଫେରିଥିଲେ?",
+"options": [
+"୧୯୧୪ ଜାନୁୟାରୀ ୯",
+"୧୯୧୫ ଜାନୁୟାରୀ ୯",
+"୧୯୧୬ ଜାନୁୟାରୀ ୯",
+"୧୯୧୭ ଜାନୁୟାରୀ ୯"
+],
+"answer": "୧୯୧୫ ଜାନୁୟାରୀ ୯",
+"explanation": "ଗାନ୍ଧିଜୀ ୧୯୧୫ ଖ୍ରୀଷ୍ଟାବ୍ଦ ଜାନୁୟାରୀ ୯ ତାରିଖରେ ଭାରତକୁ ଫେରିଥିଲେ।"
+},
+{
+"questionEnglish": "Who was Gandhi's political guru?",
+"questionOdia": "ଗାନ୍ଧିଜୀଙ୍କ ରାଜନୈତିକ ଗୁରୁ କିଏ ଥିଲେ?",
+"options": [
+"ରବୀନ୍ଦ୍ରନାଥ ଠାକୁର",
+"ଗୋପାଳ କୃଷ୍ଣ ଗୋଖ୍ଲେ",
+"ବାଳ ଗଙ୍ଗାଧର ତିଲକ",
+"ସର୍ଦ୍ଦାର ପଟେଲ"
+],
+"answer": "ଗୋପାଳ କୃଷ୍ଣ ଗୋଖ୍ଲେ",
+"explanation": "ଗାନ୍ଧିଜୀ ଗୋପାଳ କୃଷ୍ଣ ଗୋଖ୍ଲେଙ୍କୁ ତାଙ୍କର ରାଜନୈତିକ ଗୁରୁ ଭାବେ ଗ୍ରହଣ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Who conferred the title of 'Mahatma' upon Gandhi?",
+"questionOdia": "ଗାନ୍ଧିଜୀଙ୍କୁ 'ମହାତ୍ମା' ଆଖ୍ୟା କିଏ ପ୍ରଦାନ କରିଥିଲେ?",
+"options": [
+"ଗୋପାଳ କୃଷ୍ଣ ଗୋଖ୍ଲେ",
+"ରବୀନ୍ଦ୍ରନାଥ ଠାକୁର",
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ"
+],
+"answer": "ରବୀନ୍ଦ୍ରନାଥ ଠାକୁର",
+"explanation": "ଦକ୍ଷିଣ ଆଫ୍ରିକାରେ ଗାନ୍ଧିଜୀଙ୍କ ମହାନ ନୀତି ଯୋଗୁଁ ବିଶ୍ୱକବି ରବୀନ୍ଦ୍ରନାଥ ଠାକୁର ତାଙ୍କୁ 'ମହାତ୍ମା' ଆଖ୍ୟା ପ୍ରଦାନ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Where did Gandhi establish an ashram in 1916?",
+"questionOdia": "ଗାନ୍ଧିଜୀ ୧୯୧୬ରେ କେଉଁଠାରେ ଆଶ୍ରମ ପ୍ରତିଷ୍ଠା କରିଥିଲେ?",
+"options": [
+"ସାବରମତୀ ନଦୀକୂଳରେ",
+"ଗଙ୍ଗା ନଦୀକୂଳରେ",
+"ଯମୁନା ନଦୀକୂଳରେ",
+"ନର୍ମଦା ନଦୀକୂଳରେ"
+],
+"answer": "ସାବରମତୀ ନଦୀକୂଳରେ",
+"explanation": "୧୯୧୬ ଖ୍ରୀଷ୍ଟାବ୍ଦରେ ଅହମ୍ମଦାବାଦ ନିକଟରେ ସାବରମତୀ ନଦୀକୂଳରେ ଗାନ୍ଧିଜୀ ଆଶ୍ରମ ପ୍ରତିଷ୍ଠା କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What was the first movement organized by Gandhi in India?",
+"questionOdia": "ଭାରତରେ ଗାନ୍ଧିଜୀଙ୍କ ଦ୍ଵାରା ସଂଗଠିତ ପ୍ରଥମ ଆନ୍ଦୋଳନ କ’ଣ ଥିଲା?",
+"options": [
+"ଖେଡ଼ା ଆନ୍ଦୋଳନ",
+"ଚମ୍ପାରନ୍ ଆନ୍ଦୋଳନ",
+"ଅସହଯୋଗ ଆନ୍ଦୋଳନ",
+"ଅହମ୍ମଦାବାଦ ଆନ୍ଦୋଳନ"
+],
+"answer": "ଚମ୍ପାରନ୍ ଆନ୍ଦୋଳନ",
+"explanation": "ଭାରତରେ ଗାନ୍ଧିଜୀଙ୍କ ନେତୃତ୍ୱରେ ସଂଗଠିତ ପ୍ରଥମ ସଫଳ ଆନ୍ଦୋଳନ ଥିଲା 'ଚମ୍ପାରନ୍ ଆନ୍ଦୋଳନ'।"
+},
+{
+"questionEnglish": "What was the 'Tinkathia' system in Champaran?",
+"questionOdia": "ଚମ୍ପାରନ୍‌ରେ 'ତିନିକାଠିଆ' ବ୍ୟବସ୍ଥା କ’ଣ ଥିଲା?",
+"options": [
+"ଜମିର କୋଡ଼ିଏ ଭାଗରୁ ତିନି ଭାଗରେ ନୀଳ ଚାଷ",
+"ଜମିର ଦଶ ଭାଗରୁ ଦୁଇ ଭାଗରେ ନୀଳ ଚାଷ",
+"ଜମିର ପାଞ୍ଚ ଭାଗରୁ ଏକ ଭାଗରେ ନୀଳ ଚାଷ",
+"ଜମିର ତିରିଶ ଭାଗରୁ ତିନି ଭାଗରେ ନୀଳ ଚାଷ"
+],
+"answer": "ଜମିର କୋଡ଼ିଏ ଭାଗରୁ ତିନି ଭାଗରେ ନୀଳ ଚାଷ",
+"explanation": "ଚମ୍ପାରନ୍ ଚାଷୀମାନଙ୍କୁ ଜମିର କୋଡ଼ିଏ ଭାଗରୁ ତିନି ଭାଗରେ ନୀଳ ଚାଷ କରିବାକୁ ବାଧ୍ୟ କରାଯାଉଥିଲା, ଯାହାକୁ ତିନିକାଠିଆ ବ୍ୟବସ୍ଥା କୁହାଯାଉଥିଲା।"
+},
+{
+"questionEnglish": "Who invited Gandhi to Champaran to study the farmers' problems?",
+"questionOdia": "ଚାଷୀମାନଙ୍କ ସମସ୍ୟାର ଅନୁଧ୍ୟାନ ପାଇଁ ଗାନ୍ଧିଜୀଙ୍କୁ ଚମ୍ପାରନ୍ କିଏ ନିମନ୍ତ୍ରଣ କରିଥିଲେ?",
+"options": [
+"ରାଜେନ୍ଦ୍ର ପ୍ରସାଦ",
+"ଜେ.ବି. କୃପାଳିନୀ",
+"ରାଜକୁମାର ଶୁକ୍ଳ",
+"ମହାଦେବ ଦେଶାଇ"
+],
+"answer": "ରାଜକୁମାର ଶୁକ୍ଳ",
+"explanation": "ରାଜକୁମାର ଶୁକ୍ଳ ନାମକ ଜଣେ ସ୍ଥାନୀୟ ବାସିନ୍ଦା ଗାନ୍ଧିଜୀଙ୍କୁ ଚମ୍ପାରନ୍ ଆସିବା ପାଇଁ ନିମନ୍ତ୍ରଣ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Where did Gandhi arrive in April 1917 to look into the problems of Champaran farmers?",
+"questionOdia": "୧୯୧୭ ଏପ୍ରିଲରେ ଗାନ୍ଧିଜୀ ଚମ୍ପାରନର କେଉଁଠାରେ ପହଞ୍ଚିଥିଲେ?",
+"options": [
+"ପାଟନା",
+"ମୋତିହାରି",
+"ରାଜକୋଟ",
+"ଦିଲ୍ଲୀ"
+],
+"answer": "ମୋତିହାରି",
+"explanation": "ଗାନ୍ଧିଜୀ ଚମ୍ପାରନ୍ ଜିଲ୍ଲାର ସଦର ମହକୁମା ମୋତିହାରିରେ ପହଞ୍ଚିଥିଲେ।"
+},
+{
+"questionEnglish": "Which movement was organized by Gandhi in 1918 due to the famine in Gujarat?",
+"questionOdia": "୧୯୧୮ ମସିହାରେ ଗୁଜୁରାଟରେ ଦୁର୍ଭିକ୍ଷ ଯୋଗୁଁ କେଉଁ ଆନ୍ଦୋଳନ ହୋଇଥିଲା?",
+"options": [
+"ଚମ୍ପାରନ୍ ଆନ୍ଦୋଳନ",
+"ଖେଡ଼ା ଆନ୍ଦୋଳନ",
+"ଅହମ୍ମଦାବାଦ ଆନ୍ଦୋଳନ",
+"ବାର୍ଦ୍ଦୋଳି ଆନ୍ଦୋଳନ"
+],
+"answer": "ଖେଡ଼ା ଆନ୍ଦୋଳନ",
+"explanation": "୧୯୧୮ ମସିହାରେ ଗୁଜୁରାଟର ଖେଡ଼ା ଜିଲ୍ଲାରେ ଦୁର୍ଭିକ୍ଷ ଯୋଗୁଁ ଖେଡ଼ା ଆନ୍ଦୋଳନ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Who was one of Gandhi's main collaborators in the Kheda movement?",
+"questionOdia": "ଖେଡ଼ା ଆନ୍ଦୋଳନରେ ଗାନ୍ଧିଜୀଙ୍କ ଜଣେ ମୁଖ୍ୟ ସହଯୋଗୀ କିଏ ଥିଲେ?",
+"options": [
+"ଇନ୍ଦୁଲାଲ ଯାଦ୍ଧିକ୍",
+"ରାଜେନ୍ଦ୍ର ପ୍ରସାଦ",
+"ଜେ.ବି. କୃପାଳିନୀ",
+"ମହାଦେବ ଦେଶାଇ"
+],
+"answer": "ଇନ୍ଦୁଲାଲ ଯାଦ୍ଧିକ୍",
+"explanation": "ଖେଡ଼ା ଆନ୍ଦୋଳନରେ ଇନ୍ଦୁଲାଲ ଯାଦ୍ଧିକ୍ ଗାନ୍ଧିଜୀଙ୍କ ଜଣେ ମୁଖ୍ୟ ସହଯୋଗୀ ଥିଲେ।"
+},
+{
+"questionEnglish": "Who became Gandhi's prime follower after being impressed by his leadership in the Kheda movement?",
+"questionOdia": "ଖେଡ଼ା ଆନ୍ଦୋଳନର ସଫଳତାରେ ପ୍ରଭାବିତ ହୋଇ କିଏ ଗାନ୍ଧିଜୀଙ୍କ ପ୍ରଧାନ ଅନୁଗାମୀ ହୋଇଥିଲେ?",
+"options": [
+"ସର୍ଦ୍ଦାର ବଲ୍ଲଭଭାଇ ପଟେଲ",
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ",
+"ଗୋପବନ୍ଧୁ ଦାସ"
+],
+"answer": "ସର୍ଦ୍ଦାର ବଲ୍ଲଭଭାଇ ପଟେଲ",
+"explanation": "ଖେଡ଼ା ଆନ୍ଦୋଳନର ସଫଳତାରେ ପ୍ରଭାବିତ ହୋଇ ସର୍ଦ୍ଦାର ବଲ୍ଲଭଭାଇ ପଟେଲ ଗାନ୍ଧିଜୀଙ୍କ ପ୍ରଧାନ ଅନୁଗାମୀ ହୋଇଥିଲେ।"
+},
+{
+"questionEnglish": "What was the cause of the dispute in the Ahmedabad mill movement?",
+"questionOdia": "ଅହମ୍ମଦାବାଦ ଲୁଗାକଳ ଆନ୍ଦୋଳନର କାରଣ କ’ଣ ଥିଲା?",
+"options": [
+"କାମ କରିବା ସମୟ",
+"ପ୍ଲେଗ୍ ବୋନସ ପ୍ରତ୍ୟାହାର",
+"ବେତନ ହ୍ରାସ",
+"ଛୁଟି ଦିବସର କଟକଣା"
+],
+"answer": "ପ୍ଲେଗ୍ ବୋନସ ପ୍ରତ୍ୟାହାର",
+"explanation": "ମାଲିକମାନେ ପ୍ଲେଗ୍ ମହାମାରୀ ପାଇଁ ଦିଆଯାଉଥିବା ସ୍ୱତନ୍ତ୍ର ଭତ୍ତା 'ପ୍ଲେଗ୍ ବୋନସ' ପ୍ରତ୍ୟାହାର କରିଦେବାରୁ କଳହର ସୂତ୍ରପାତ ହେଲା।"
+},
+{
+"questionEnglish": "What percentage of wage increase did the mill workers demand in Ahmedabad?",
+"questionOdia": "ଅହମ୍ମଦାବାଦର ଲୁଗାକଳ ଶ୍ରମିକମାନେ କେତେ ପ୍ରତିଶତ ମଜୁରୀ ବୃଦ୍ଧି ଦାବି କରିଥିଲେ?",
+"options": [
+"୨୦%",
+"୩୫%",
+"୪୫%",
+"୫୦%"
+],
+"answer": "୩୫%",
+"explanation": "ଶ୍ରମିକମାନେ ଶତକଡ଼ା ପଇଁତିରିଶ ଭାଗ ମଜୁରୀ ବୃଦ୍ଧି ଦାବି କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Which two magazines were edited and published by Gandhi?",
+"questionOdia": "ଗାନ୍ଧିଜୀଙ୍କ ସମ୍ପାଦନାରେ କେଉଁ ଦୁଇଟି ପତ୍ରିକା ପ୍ରକାଶିତ ହେଉଥିଲା?",
+"options": [
+"କେଶରୀ ଓ ମରାଠା",
+"ନବଜୀବନ ଓ ୟଙ୍ଗ ଇଣ୍ଡିଆ",
+"ସମାଜ ଓ ପ୍ରଜାତନ୍ତ୍ର",
+"ହରିଜନ ଓ ଭାରତୀ"
+],
+"answer": "ନବଜୀବନ ଓ ୟଙ୍ଗ ଇଣ୍ଡିଆ",
+"explanation": "ଗାନ୍ଧିଜୀଙ୍କ ସମ୍ପାଦନାରେ 'ନବଜୀବନ' ଓ 'ୟଙ୍ଗ ଇଣ୍ଡିଆ' ନାମକ ଦୁଇଟି ପତ୍ରିକା ପ୍ରକାଶିତ ହେଉଥିଲା।"
+},
+{
+"questionEnglish": "In which city did the incident of Chauri Chaura take place in 1922?",
+"questionOdia": "୧୯୨୨ରେ ଚୌରିଚୌରା ଘଟଣା କେଉଁଠାରେ ଘଟିଥିଲା?",
+"options": [
+"ବିହାର",
+"ଉତ୍ତର ପ୍ରଦେଶ",
+"ଗୁଜୁରାଟ",
+"ଓଡ଼ିଶା"
+],
+"answer": "ଉତ୍ତର ପ୍ରଦେଶ",
+"explanation": "୧୯୨୨ ଫେବୃଆରୀ ୫ ତାରିଖରେ ଉତ୍ତର ପ୍ରଦେଶର ଗୋରଖପୁର ଜିଲ୍ଲାର ଚୌରିଚୌରା ନାମକ ସ୍ଥାନରେ ଏହି ଘଟଣା ଘଟିଥିଲା।"
+},
+{
+"questionEnglish": "How many police personnel were killed in the Chauri Chaura incident?",
+"questionOdia": "ଚୌରିଚୌରା ଘଟଣାରେ କେତେଜଣ ପୋଲିସ୍ କର୍ମଚାରୀଙ୍କ ମୃତ୍ୟୁ ହୋଇଥିଲା?",
+"options": [
+"୧૨",
+"୨૨",
+"୩૨",
+"୪૨"
+],
+"answer": "୨૨",
+"explanation": "ଚୌରିଚୌରା ଘଟଣାରେ ୨୨ ଜଣ ପୋଲିସ୍ କର୍ମଚାରୀ ଜୀବନ୍ତ ଦଗ୍ଧ ହୋଇଥିଲେ।"
+},
+{
+"questionEnglish": "Who was the leader responsible for leading the Salt Satyagraha in Odisha?",
+"questionOdia": "ଓଡ଼ିଶାରେ ଲବଣ ସତ୍ୟାଗ୍ରହର ନେତୃତ୍ୱ କିଏ ନେଇଥିଲେ?",
+"options": [
+"ଗୋପବନ୍ଧୁ ଦାସ",
+"ଗୋପବନ୍ଧୁ ଚୌଧୁରୀ",
+"କୃଷ୍ଣଚନ୍ଦ୍ର ଗଜପତି",
+"ବିଶ୍ୱନାଥ ଦାସ"
+],
+"answer": "ଗୋପବନ୍ଧୁ ଚୌଧୁରୀ",
+"explanation": "ଓଡ଼ିଶାରେ ଲବଣ ସତ୍ୟାଗ୍ରହର ନେତୃତ୍ୱ ନେବା ପାଇଁ ଗୋପବନ୍ଧୁ ଚୌଧୁରୀଙ୍କୁ ଦାୟିତ୍ୱ ଦିଆଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "When was the decision to start the Salt Satyagraha in Odisha taken?",
+"questionOdia": "ଓଡ଼ିଶାରେ ଲବଣ ସତ୍ୟାଗ୍ରହ ଆରମ୍ଭ କରିବା ପାଇଁ କେବେ ନିଷ୍ପତ୍ତି ନିଆଯାଇଥିଲା?",
+"options": [
+"୧୯୩୦ ମାର୍ଚ୍ଚ ୧୬",
+"୧୯୩୦ ଏପ୍ରିଲ ୧୬",
+"୧୯୩୦ ମେ ୧୬",
+"୧୯୩୦ ଜୁନ ୧୬"
+],
+"answer": "୧୯୩୦ ମାର୍ଚ୍ଚ ୧୬",
+"explanation": "୧୯୩୦ ମାର୍ଚ୍ଚ ୧୬ରେ ବାଲେଶ୍ୱରରେ ଅନୁଷ୍ଠିତ କଂଗ୍ରେସ କମିଟି ସଭାରେ ଓଡ଼ିଶାରେ ଲବଣ ସତ୍ୟାଗ୍ରହ ଆରମ୍ଭ କରିବା ପାଇଁ ନିଷ୍ପତ୍ତି ନିଆଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "What was the name of the army formed by Satyagrahis during the Civil Disobedience Movement?",
+"questionOdia": "ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନ ସମୟରେ ସତ୍ୟାଗ୍ରହୀମାନଙ୍କ ଦ୍ଵାରା ଗଠିତ ବାହିନୀର ନାମ କ’ଣ ଥିଲା?",
+"options": [
+"ବାନର ସେନା",
+"ଭାରତ ସେନା",
+"ସ୍ଵରାଜ ସେନା",
+"ସତ୍ୟ ସେନା"
+],
+"answer": "ବାନର ସେନା",
+"explanation": "ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନ ସମୟରେ ବାନର ସେନା, ପତୀତ ବାହିନୀ, ଗ୍ରାମ ବାହିନୀ ଆଦି ଗଠନ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "Who was the leader of the Indian National Army (INA)?",
+"questionOdia": "ଆଜାଦ ହିନ୍ଦ ଫୌଜ (INA) ର ନେତା କିଏ ଥିଲେ?",
+"options": [
+"ମହାତ୍ମା ଗାନ୍ଧୀ",
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ",
+"ସର୍ଦ୍ଦାର ପଟେଲ"
+],
+"answer": "ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ",
+"explanation": "ଆଜାଦ ହିନ୍ଦ ଫୌଜ ବା ଭାରତୀୟ ଜାତୀୟ ବାହିନୀର ନେତୃତ୍ୱ ନେତାଜୀ ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ ନେଇଥିଲେ।"
+},
+{
+"questionEnglish": "When did Subhash Chandra Bose establish the 'Azad Hind Radio'?",
+"questionOdia": "ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ କେଉଁ ବର୍ଷ 'ଆଜାଦ ହିନ୍ଦ ରେଡିଓ' ପ୍ରତିଷ୍ଠା କରିଥିଲେ?",
+"options": [
+"୧୯୪୦",
+"୧୯୪୧",
+"୧୯୪୨",
+"୧୯୪୩"
+],
+"answer": "୧९୪୧",
+"explanation": "ଜର୍ମାନୀରେ ୧୯୪୧ ମସିହାରେ ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ 'ଆଜାଦ ହିନ୍ଦ ରେଡିଓ' ପ୍ରତିଷ୍ଠା କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What slogan was used by the Azad Hind Fauj?",
+"questionOdia": "ଆଜାଦ ହିନ୍ଦ ଫୌଜ ଦ୍ଵାରା କେଉଁ ସ୍ଲୋଗାନ ବ୍ୟବହୃତ ହେଉଥିଲା?",
+"options": [
+"ବନ୍ଦେ ମାତରମ୍",
+"ଜୟ ହିନ୍ଦ",
+"ଇନକିଲାବ ଜିନ୍ଦାବାଦ",
+"ସ୍ଵରାଜ ମୋର ଜନ୍ମଗତ ଅଧିକାର"
+],
+"answer": "ଜୟ ହିନ୍ଦ",
+"explanation": "ଆଜାଦ ହିନ୍ଦ ଫୌଜର ସୈନିକମାନେ ଅଭିବାଦନ ସ୍ୱରୂପ 'ଜୟ ହିନ୍ଦ' ଧ୍ୱନି ବ୍ୟବହାର କରୁଥିଲେ।"
+},
+{
+"questionEnglish": "In which city is the Red Fort where the INA trials were held?",
+"questionOdia": "INA ସୈନିକମାନଙ୍କ ବିଚାର କେଉଁଠାରେ ଥିବା ଲାଲକିଲ୍ଲାରେ ହୋଇଥିଲା?",
+"options": [
+"ମୁମ୍ବାଇ",
+"ଦିଲ୍ଲୀ",
+"କଲିକତା",
+"ଚେନ୍ନାଇ"
+],
+"answer": "ଦିଲ୍ଲୀ",
+"explanation": "ଦିଲ୍ଲୀର ଲାଲକିଲ୍ଲାରେ INA ସୈନିକମାନଙ୍କ ବିଚାର ଅନୁଷ୍ଠିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "When was Subhash Chandra Bose reported to have died in a plane crash?",
+"questionOdia": "ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ କେଉଁ ଦିନ ବିମାନ ଦୁର୍ଘଟଣାରେ ମୃତ୍ୟୁବରଣ କରିଥିବା ଖବର ପ୍ରକାଶ ପାଇଥିଲା?",
+"options": [
+"୧୯୪୫ ଅଗଷ୍ଟ ୧୫",
+"୧୯୪୫ ଅଗଷ୍ଟ ୧୮",
+"୧୯୪୫ ଅଗଷ୍ଟ ୨୦",
+"୧୯୪୫ ଅଗଷ୍ଟ ୨୨"
+],
+"answer": "୧୯୪୫ ଅଗଷ୍ଟ ୧୮",
+"explanation": "୧୯୪୫ ଅଗଷ୍ଟ ୧୮ ତାରିଖରେ ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ ଏକ ବିମାନ ଦୁର୍ଘଟଣାରେ ମୃତ୍ୟୁବରଣ କରିଥିବା ଖବର ପ୍ରକାଶ ପାଇଥିଲା।"
+},
+{
+"questionEnglish": "Who defended the INA officers in the court?",
+"questionOdia": "INA ଅଫିସରମାନଙ୍କ ପକ୍ଷରୁ କୋର୍ଟରେ କିଏ ମକଦ୍ଦମା ଲଢ଼ିଥିଲେ?",
+"options": [
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ଭୁଲାଭାଇ ଦେଶାଇ",
+"ଆସଫ ଅଲ୍ଲୀ",
+"ଉପରୋକ୍ତ ସମସ୍ତେ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତେ",
+"explanation": "ଭୁଲାଭାଇ ଦେଶାଇ, ଜବାହରଲାଲ ନେହେରୁ ଏବଂ ଆସଫ ଅଲ୍ଲୀ ପ୍ରମୁଖ ଆଇନଜୀବୀମାନେ INA ସୈନିକମାନଙ୍କ ପକ୍ଷରୁ ମକଦ୍ଦମା ଲଢ଼ିଥିଲେ।"
+},
+{
+"questionEnglish": "Which organization helped form the 'Tilak Swaraj Fund'?",
+"questionOdia": "କେଉଁ ଆନ୍ଦୋଳନ ସମୟରେ 'ତିଲକ ସ୍ଵରାଜ ପାଣ୍ଠି' ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"ଅସହଯୋଗ ଆନ୍ଦୋଳନ",
+"ଲବଣ ସତ୍ୟାଗ୍ରହ",
+"ଭାରତ ଛାଡ଼",
+"ଖିଲାଫତ ଆନ୍ଦୋଳନ"
+],
+"answer": "ଅସହଯୋଗ ଆନ୍ଦୋଳନ",
+"explanation": "ଅସହଯୋଗ ଆନ୍ଦୋଳନକୁ ଆର୍ଥିକ ସହାୟତା ପାଇଁ 'ତିଲକ ସ୍ଵରାଜ ପାଣ୍ଠି' ଗଠନ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "Who was the Viceroy of India in 1946 when the INA prisoners were released?",
+"questionOdia": "୧୯୪୬ରେ INA ବନ୍ଦୀମାନଙ୍କୁ ମୁକ୍ତ କରାଯିବା ସମୟରେ ଭାରତର ଭାଇସରୟ କିଏ ଥିଲେ?",
+"options": [
+"ଲର୍ଡ ମାଉଣ୍ଟବ୍ୟାଟେନ",
+"ଲର୍ଡ ୱେଭେଲ",
+"ଲର୍ଡ କର୍ଜନ",
+"ଲର୍ଡ ଇର୍ୱିନ"
+],
+"answer": "ଲର୍ଡ ୱେଭେଲ",
+"explanation": "୧୯୪୬ ଜାନୁୟାରୀ ୧ ତାରିଖରେ ଭାରତର ତତ୍କାଳୀନ ଭାଇସରୟ ଲର୍ଡ ୱେଭେଲ INA ବନ୍ଦୀମାନଙ୍କୁ ମୁକ୍ତ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Which incident forced Gandhi to suspend the Non-Cooperation Movement?",
+"questionOdia": "କେଉଁ ଘଟଣା ଯୋଗୁଁ ଗାନ୍ଧିଜୀ ଅସହଯୋଗ ଆନ୍ଦୋଳନ ସ୍ଥଗିତ ରଖିଥିଲେ?",
+"options": [
+"ଜାଲିଆନାୱାଲାବାଗ ହତ୍ୟାକାଣ୍ଡ",
+"ଚୌରିଚୌରା ଘଟଣା",
+"ଦାଣ୍ଡି ଯାତ୍ରା",
+"ବାର୍ଦ୍ଦୋଳି ଆନ୍ଦୋଳନ"
+],
+"answer": "ଚୌରିଚୌରା ଘଟଣା",
+"explanation": "ଚୌରିଚୌରା ଘଟଣାର ହିଂସାତ୍ମକ କାର୍ଯ୍ୟ ଯୋଗୁଁ ଗାନ୍ଧିଜୀ ଅସହଯୋଗ ଆନ୍ଦୋଳନ ସ୍ଥଗିତ ରଖିଥିଲେ।"
+},
+{
+"questionEnglish": "In which city was the Congress session held in December 1921 to continue the Non-Cooperation movement?",
+"questionOdia": "୧୯୨୧ ଡିସେମ୍ବରରେ ଅସହଯୋଗ ଆନ୍ଦୋଳନ ଜାରି ରଖିବା ପାଇଁ କଂଗ୍ରେସ ଅଧିବେଶନ କେଉଁଠାରେ ହୋଇଥିଲା?",
+"options": [
+"ଅହମ୍ମଦାବାଦ",
+"ଲାହୋର",
+"ସୁରଟ",
+"ନାଗପୁର"
+],
+"answer": "ଅହମ୍ମଦାବାଦ",
+"explanation": "୧୯୨୧ ଡିସେମ୍ବର ମାସରେ ଅହମ୍ମଦାବାଦ ବାର୍ଷିକ ଅଧିବେଶନରେ ଅସହଯୋଗ ଆନ୍ଦୋଳନ ଜାରି ରଖିବା ନିମନ୍ତେ ନିଷ୍ପତ୍ତି ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What was the core principle of Gandhi's Satyagraha?",
+"questionOdia": "ଗାନ୍ଧିଜୀଙ୍କ ସତ୍ୟାଗ୍ରହର ମୂଳ ନୀତି କ’ଣ ଥିଲା?",
+"options": [
+"ହିଂସା",
+"ସତ୍ୟ ଓ ଅହିଂସା",
+"ଶକ୍ତି ପ୍ରଦର୍ଶନ",
+"ରାଜନୈତିକ କ୍ଷମତା"
+],
+"answer": "ସତ୍ୟ ଓ ଅହିଂସା",
+"explanation": "ସତ୍ୟ ଓ ଅହିଂସା ଉପରେ ଆଧାରିତ ଏକ ଶାନ୍ତିପୂର୍ଣ୍ଣ ଆନ୍ଦୋଳନ ହେଉଛି ସତ୍ୟାଗ୍ରହ।"
+},
+{
+"questionEnglish": "Which region in Odisha was the Salt Satyagraha particularly active?",
+"questionOdia": "ଓଡ଼ିଶାର କେଉଁ ସ୍ଥାନରେ ଲବଣ ସତ୍ୟାଗ୍ରହ ବିଶେଷ ସକ୍ରିୟ ଥିଲା?",
+"options": [
+"ଇଞ୍ଚୁଡ଼ି",
+"କାକଟପୁର",
+"ଗଞ୍ଜାମ",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତ",
+"explanation": "ଇଞ୍ଚୁଡ଼ି, କାଟକପୁର, ଗଞ୍ଜାମ ଆଦି ସ୍ଥାନରେ ଲବଣ ସତ୍ୟାଗ୍ରହ ଓଡ଼ିଶାରେ ବିଶେଷ ସକ୍ରିୟ ଥିଲା।"
+},
+{
+"questionEnglish": "Which army, apart from Vanara Sena, was formed during the Civil Disobedience Movement in Odisha?",
+"questionOdia": "ଓଡ଼ିଶାରେ ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନ ସମୟରେ ବାନର ସେନା ବ୍ୟତୀତ ଆଉ କେଉଁ ବାହିନୀ ଗଠିତ ହୋଇଥିଲା?",
+"options": [
+"ପତୀତ ବାହିନୀ",
+"ଗ୍ରାମ ବାହିନୀ",
+"ଉଭୟ (କ) ଓ (ଖ)",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ (କ) ଓ (ଖ)",
+"explanation": "ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନ ସମୟରେ ବାନର ସେନା ସହିତ ପତୀତ ବାହିନୀ ଓ ଗ୍ରାମ ବାହିନୀ ମଧ୍ୟ ଗଠନ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "Who was the key partner in the Ahmedabad Mill movement besides Gandhi?",
+"questionOdia": "ଅହମ୍ମଦାବାଦ ଲୁଗାକଳ ଆନ୍ଦୋଳନରେ ଗାନ୍ଧିଜୀଙ୍କୁ ସହଯୋଗ କରିଥିବା ଅନ୍ୟତମ ବ୍ୟକ୍ତି କିଏ?",
+"options": [
+"ଶ୍ରମିକ ଓ ମାଲିକ",
+"ଅନୁସୂୟା ବେନ ସରାଭାଇ",
+"ସର୍ଦ୍ଦାର ପଟେଲ",
+"ଜବାହରଲାଲ ନେହେରୁ"
+],
+"answer": "ଅନୁସୂୟା ବେନ ସରାଭାଇ",
+"explanation": "ଅହମ୍ମଦାବାଦ ଲୁଗାକଳ ଆନ୍ଦୋଳନରେ ଗାନ୍ଧିଜୀଙ୍କ ସହିତ ଅନୁସୂୟା ବେନ ସରାଭାଇ ଶ୍ରମିକମାନଙ୍କ ପାଇଁ କାର୍ଯ୍ୟ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Where did Gandhi study law?",
+"questionOdia": "ଗାନ୍ଧିଜୀ କେଉଁଠାରେ ଆଇନ ଶିକ୍ଷା ସମାପ୍ତ କରିଥିଲେ?",
+"options": [
+"ଭାରତ",
+"ଇଂଲଣ୍ଡ",
+"ଆଫ୍ରିକା",
+"ଆମେରିକା"
+],
+"answer": "ଇଂଲଣ୍ଡ",
+"explanation": "ଗାନ୍ଧିଜୀ ଇଂଲଣ୍ଡରେ ତାଙ୍କର ଆଇନ ଶିକ୍ଷା ସମାପ୍ତ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What was the condition imposed by the British on Indians regarding fingerprints?",
+"questionOdia": "ଇଂରେଜ ସରକାର ଭାରତୀୟମାନଙ୍କ ପାଇଁ କେଉଁ ସର୍ତ୍ତ ରଖିଥିଲେ?",
+"options": [
+"ଅଙ୍ଗୁଳି ଛାପ ଥିବା ପ୍ରମାଣପତ୍ର ସବୁବେଳେ ସାଙ୍ଗରେ ରଖିବା",
+"କେବଳ ରାତିରେ ବାହାରକୁ ଯିବା",
+"ଟିକସ ଦେବା",
+"ଇଂରାଜୀ ଶିଖିବା"
+],
+"answer": "ଅଙ୍ଗୁଳି ଛାପ ଥିବା ପ୍ରମାଣପତ୍ର ସବୁବେଳେ ସାଙ୍ଗରେ ରଖିବା",
+"explanation": "ପ୍ରତ୍ୟେକ ଭାରତୀୟଙ୍କୁ ନିଜର ଅଙ୍ଗୁଳି ଛାପ ଥିବା ପଞ୍ଜୀକୃତ ପ୍ରମାଣପତ୍ର ସବୁ ସମୟରେ ସାଙ୍ଗରେ ବହନ କରିବାକୁ ବାଧ୍ୟ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "What was the result of the Champaran movement for the farmers?",
+"questionOdia": "ଚମ୍ପାରନ୍ ଆନ୍ଦୋଳନର ଫଳାଫଳ କ’ଣ ହୋଇଥିଲା?",
+"options": [
+"ତିନିକାଠିଆ ବ୍ୟବସ୍ଥା ଉଚ୍ଛେଦ ହେଲା",
+"କର ବୃଦ୍ଧି ପାଇଲା",
+"ଚାଷୀଙ୍କୁ ଜମିରୁ ଉଚ୍ଛେଦ କରାଗଲା",
+"କିଛି ହେଲାନାହିଁ"
+],
+"answer": "ତିନିକାଠିଆ ବ୍ୟବସ୍ଥା ଉଚ୍ଛେଦ ହେଲା",
+"explanation": "ଚମ୍ପାରନ୍ ଆନ୍ଦୋଳନ ସଫଳ ହେଲା ଏବଂ ତିନିକାଠିଆ ବ୍ୟବସ୍ଥା ଉଚ୍ଛେଦ କରାଗଲା।"
+},
+{
+"questionEnglish": "What was the status of Indian marriages according to the 1913 South African court ruling?",
+"questionOdia": "୧୯୧୩ ଦକ୍ଷିଣ ଆଫ୍ରିକା କୋର୍ଟର ରାୟ ଅନୁସାରେ ଭାରତୀୟ ବିବାହର ସ୍ଥିତି କ’ଣ ଥିଲା?",
+"options": [
+"ବୈଧ",
+"ଅବୈଧ",
+"ସ୍ଵୀକୃତି ପ୍ରତ୍ୟାହାର କରାଗଲା",
+"ପଞ୍ଜୀକରଣ ବାଧ୍ୟତାମୂଳକ ନୁହେଁ"
+],
+"answer": "ସ୍ଵୀକୃତି ପ୍ରତ୍ୟାହାର କରାଗଲା",
+"explanation": "ଖ୍ରୀଷ୍ଟିଆନ୍ ରୀତିରେ ନ ହୋଇଥିବା ଭାରତୀୟ ବିବାହର ସ୍ଵୀକୃତି ପ୍ରତ୍ୟାହାର କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "What was the main purpose of the 'Indian Opinion' newspaper?",
+"questionOdia": "'ଇଣ୍ଡିଆନ ଓପିନିଅନ' ସମ୍ବାଦପତ୍ରର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ’ଣ ଥିଲା?",
+"options": [
+"ରାଜନୀତି ପ୍ରଚାର",
+"ଶ୍ଵେତାଙ୍ଗମାନଙ୍କ ଅତ୍ୟାଚାର ସମ୍ବନ୍ଧରେ ଜନସାଧାରଣଙ୍କୁ ଅବଗତ କରାଇବା",
+"ସାହିତ୍ୟ ଚର୍ଚ୍ଚା",
+"ବ୍ୟବସାୟିକ ସୂଚନା"
+],
+"answer": "ଶ୍ଵେତାଙ୍ଗମାନଙ୍କ ଅତ୍ୟାଚାର ସମ୍ବନ୍ଧରେ ଜନସାଧାରଣଙ୍କୁ ଅବଗତ କରାଇବା",
+"explanation": "ଶ୍ଵେତାଙ୍ଗମାନଙ୍କ ଅତ୍ୟାଚାର ସମ୍ବନ୍ଧରେ ଜନସାଧାରଣଙ୍କୁ ଅବଗତ କରାଇବା ପାଇଁ ଏହି ପତ୍ରିକା ପ୍ରକାଶ ପାଇଥିଲା।"
+},
+{
+"questionEnglish": "Which leader accompanied Gandhi to Champaran?",
+"questionOdia": "ଚମ୍ପାରନ୍‌ରେ ଗାନ୍ଧିଜୀଙ୍କ ସହିତ କିଏ ଯାଇଥିଲେ?",
+"options": [
+"ରାଜେନ୍ଦ୍ର ପ୍ରସାଦ",
+"ମୁଜାହର ଉଲ୍ ହକ୍",
+"ଜେ.ବି. କୃପାଳିନୀ",
+"ଉପରୋକ୍ତ ସମସ୍ତେ"
+],
+"answer": "ଉପରୋକ୍ତ ସମସ୍ତେ",
+"explanation": "ରାଜେନ୍ଦ୍ର ପ୍ରସାଦ, ମୁଜାହର ଉଲ୍ ହକ୍, ଜେ.ବି. କୃପାଳିନୀ ପ୍ରମୁଖ ଗାନ୍ଧିଜୀଙ୍କ ସହିତ ଯାଇଥିଲେ।"
+},
+{
+"questionEnglish": "What did Gandhi offer when ordered to leave Champaran?",
+"questionOdia": "ଚମ୍ପାରନ୍ ଛାଡ଼ିବାକୁ ନିର୍ଦ୍ଦେଶ ମିଳିବାରୁ ଗାନ୍ଧିଜୀ କ’ଣ କହିଥିଲେ?",
+"options": [
+"ନିର୍ଦ୍ଦେଶ ମାନିଲେ",
+"ଦଣ୍ଡ ଭୋଗିବାକୁ ପ୍ରସ୍ତୁତ ବୋଲି ଘୋଷଣା କଲେ",
+"ଇଂରେଜ ଅଧିକାରୀଙ୍କୁ ବିରୋଧ କଲେ",
+"କିଛି କହିଲେ ନାହିଁ"
+],
+"answer": "ଦଣ୍ଡ ଭୋଗିବାକୁ ପ୍ରସ୍ତୁତ ବୋଲି ଘୋଷଣା କଲେ",
+"explanation": "ଗାନ୍ଧିଜୀ ନିର୍ଦ୍ଦେଶ ପ୍ରତ୍ୟାଖ୍ୟାନ କରି ଯେ କୌଣସି ଦଣ୍ଡ ଭୋଗିବାକୁ ପ୍ରସ୍ତୁତ ବୋଲି ଘୋଷଣା କରିଥିଲେ।"
+},
+{
+"questionEnglish": "In the Kheda movement, if the harvest was less than what fraction, taxes were to be waived?",
+"questionOdia": "ଖେଡ଼ା ଆନ୍ଦୋଳନ ସମୟରେ କେତେ ଭାଗରୁ କମ୍ ଶସ୍ୟ ଉତ୍ପାଦନ ହେଲେ ରାଜସ୍ଵ କୋହଳ କରାଯିବାର ନିୟମ ଥିଲା?",
+"options": [
+"ଏକ ଚତୁର୍ଥାଂଶ",
+"ଅଧା",
+"ତିନି-ଚତୁର୍ଥାଂଶ",
+"ଏକ-ତୃତୀୟାଂଶ"
+],
+"answer": "ଏକ ଚତୁର୍ଥାଂଶ",
+"explanation": "ରାଜସ୍ୱ ବିଭାଗ ନିୟମ ଅନୁଯାୟୀ ଚତୁର୍ଥାଂଶରୁ କମ୍ ଉତ୍ପାଦନ ହେଲେ ରାଜସ୍ଵ କୋହଳ କରିବାର ବ୍ୟବସ୍ଥା ଥିଲା।"
+},
+{
+"questionEnglish": "What did Gandhi do to force the factory owners in Ahmedabad to fulfill demands?",
+"questionOdia": "ଅହମ୍ମଦାବାଦରେ କାରଖାନା ମାଲିକମାନଙ୍କୁ ଦାବି ପୂରଣ କରିବା ପାଇଁ ଗାନ୍ଧିଜୀ କ’ଣ କଲେ?",
+"options": [
+"ଅନଶନ ଆରମ୍ଭ କଲେ",
+"ମାଲିକମାନଙ୍କୁ ଜେଲ ପଠାଇଲେ",
+"ଆଇନ ସହାୟତା ନେଲେ",
+"କାରଖାନା ବନ୍ଦ କରିଦେଲେ"
+],
+"answer": "ଅନଶନ ଆରମ୍ଭ କଲେ",
+"explanation": "ଦାବି ପୂରଣ ପର୍ଯ୍ୟନ୍ତ ଗାନ୍ଧିଜୀ ଅନଶନ ଚାଲୁ ରଖିବେ ବୋଲି ଘୋଷଣା କରି ଅନଶନ ଆରମ୍ଭ କଲେ।"
+},
+{
+"questionEnglish": "Who was the General in charge of South Africa at the time of Gandhi's movement?",
+"questionOdia": "ଗାନ୍ଧିଜୀଙ୍କ ଆନ୍ଦୋଳନ ସମୟରେ ଦକ୍ଷିଣ ଆଫ୍ରିକାର ଶାସନ ମୁଖ୍ୟ କିଏ ଥିଲେ?",
+"options": [
+"ଜେନେରାଲ୍ ସ୍ମଟ୍ସ",
+"ଜେନେରାଲ୍ ଡାୟାର",
+"ଜେନେରାଲ୍ ୱାଭେଲ",
+"ଜେନେରାଲ୍ କର୍ଜନ"
+],
+"answer": "ଜେନେରାଲ୍ ସ୍ମଟ୍ସ",
+"explanation": "ସେ ସମୟରେ ଦକ୍ଷିଣ ଆଫ୍ରିକାର ଶାସନ ମୁଖ୍ୟ ଥିଲେ ଜେନେରାଲ୍ ସ୍ମଟ୍ସ।"
+},
+{
+"questionEnglish": "What is the meaning of 'Satyagraha' according to Gandhi?",
+"questionOdia": "ଗାନ୍ଧିଜୀଙ୍କ ମତରେ 'ସତ୍ୟାଗ୍ରହ'ର ଅର୍ଥ କ’ଣ?",
+"options": [
+"ଭୀରୁତା",
+"ସତ୍ୟ ପ୍ରତି ଆଗ୍ରହ",
+"ହିଂସାତ୍ମକ ଆନ୍ଦୋଳନ",
+"ଅଧିକାର ପାଇଁ ଲଢ଼େଇ"
+],
+"answer": "ସତ୍ୟ ପ୍ରତି ଆଗ୍ରହ",
+"explanation": "ଗାନ୍ଧିଜୀଙ୍କ ମତରେ ସତ୍ୟାଗ୍ରହର ଅର୍ଥ ଭୀରୁତା ନୁହେଁ, ବରଂ ସତ୍ୟ ପ୍ରତି ଆଗ୍ରହ ଏବଂ ଏକ ଶାନ୍ତିପୂର୍ଣ୍ଣ ଆନ୍ଦୋଳନ।"
+},
+{
+"questionEnglish": "Which was the first successful non-violent movement led by Gandhi in India?",
+"questionOdia": "ଭାରତରେ ଗାନ୍ଧିଜୀଙ୍କ ନେତୃତ୍ୱରେ ପ୍ରଥମ ସଫଳ ଅହିଂସ ଆନ୍ଦୋଳନ କ’ଣ ଥିଲା?",
+"options": [
+"ଚମ୍ପାରନ୍ ଆନ୍ଦୋଳନ",
+"ଖେଡ଼ା ଆନ୍ଦୋଳନ",
+"ଅହମ୍ମଦାବାଦ ଆନ୍ଦୋଳନ",
+"ଅସହଯୋଗ ଆନ୍ଦୋଳନ"
+],
+"answer": "ଚମ୍ପାରନ୍ ଆନ୍ଦୋଳନ",
+"explanation": "ଚମ୍ପାରନ୍ ଆନ୍ଦୋଳନ ଗାନ୍ଧିଜୀଙ୍କ ନେତୃତ୍ୱରେ ଭାରତର ପ୍ରଥମ ସଫଳ ଅହିଂସ ଆନ୍ଦୋଳନ ଥିଲା।"
+},
+{
+"questionEnglish": "When was the Salt Satyagraha in Kujang started?",
+"questionOdia": "କୁଜଙ୍ଗଠାରେ ଲବଣ ସତ୍ୟାଗ୍ରହ କେବେ ଆରମ୍ଭ ହୋଇଥିଲା?",
+"options": [
+"୧୯୩୦",
+"୧୯୩୧",
+"୧୯୩୨",
+"୧୯୩୩"
+],
+"answer": "୧୯୩୦",
+"explanation": "୧୯୩୦ ମସିହାରେ କୁଜଙ୍ଗଠାରେ ଲବଣ ସତ୍ୟାଗ୍ରହ ଆରମ୍ଭ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What did the British government call the Azad Hind Fauj after the plane crash?",
+"questionOdia": "ବିମାନ ଦୁର୍ଘଟଣା ପରେ ବ୍ରିଟିଶ ସରକାର ଆଜାଦ ହିନ୍ଦ ଫୌଜକୁ କ’ଣ ବୋଲି ଘୋଷଣା କଲେ?",
+"options": [
+"ସରକାରୀ ସଂସ୍ଥା",
+"ନିଷିଦ୍ଧ",
+"ଦେଶଦ୍ରୋହୀ",
+"ବନ୍ଧୁତ୍ୱପୂର୍ଣ୍ଣ"
+],
+"answer": "ନିଷିଦ୍ଧ",
+"explanation": "ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷଙ୍କ ମୃତ୍ୟୁ ପରେ ଇଂରେଜ ସରକାର ଆଜାଦ ହିନ୍ଦ ଫୌଜକୁ ନିଷିଦ୍ଧ ବୋଲି ଘୋଷଣା କଲେ।"
+},
+{
+"questionEnglish": "Who was the leader of Salt Satyagraha in Puri district?",
+"questionOdia": "ପୁରୀ ଜିଲ୍ଲାରେ ଲବଣ ସତ୍ୟାଗ୍ରହର ନେତୃତ୍ୱ କିଏ ନେଇଥିଲେ?",
+"options": [
+"ଗୋପବନ୍ଧୁ ଚୌଧୁରୀ",
+"ଆଚାର୍ଯ୍ୟ ହରିହର",
+"ନୀଳକଣ୍ଠ ଦାସ",
+"କୃଷ୍ଣଚନ୍ଦ୍ର ଗଜପତି"
+],
+"answer": "ଆଚାର୍ଯ୍ୟ ହରିହର",
+"explanation": "ପୁରୀ ଜିଲ୍ଲାରେ ଲବଣ ସତ୍ୟାଗ୍ରହର ନେତୃତ୍ୱ ଆଚାର୍ଯ୍ୟ ହରିହର ନେଇଥିଲେ।"
+},
+{
+"questionEnglish": "Which act of the British in 1919 led to the Non-Cooperation Movement?",
+"questionOdia": "୧୯୧୯ ମସିହାର ବ୍ରିଟିଶ ଆଇନ ଯାହା ଅସହଯୋଗ ଆନ୍ଦୋଳନକୁ ଜନ୍ମ ଦେଲା ତାହା କ’ଣ?",
+"options": [
+"ରାଓଲାଟ ଆଇନ",
+"ପିଟ୍ସ ଇଣ୍ଡିଆ ଆଇନ",
+"ଭାରତ ଶାସନ ଆଇନ",
+"ଚାର୍ଟର ଆଇନ"
+],
+"answer": "ରାଓଲାଟ ଆଇନ",
+"explanation": "ରାଓଲାଟ ଆଇନ ବିରୋଧରେ ହିଁ ଅସହଯୋଗ ଆନ୍ଦୋଳନର ସୂତ୍ରପାତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Who established the 'Khudai Khidmatgar' organization?",
+"questionOdia": "'ଖୁଦାଇ ଖିଦମତଗାର'ର ପ୍ରତିଷ୍ଠାତା କିଏ ଥିଲେ?",
+"options": [
+"ଖାନ ଅବଦୁଲ ଗଫର ଖାନ",
+"ମହମ୍ମଦ ଅଲ୍ଲୀ ଜିନ୍ନା",
+"ମୌଲାନା ଆଜାଦ",
+"ଶୌକତ ଅଲ୍ଲୀ"
+],
+"answer": "ଖାନ ଅବଦୁଲ ଗଫର ଖାନ",
+"explanation": "ଖାନ ଅବଦୁଲ ଗଫର ଖାନ 'ଖୁଦାଇ ଖିଦମତଗାର'ର ପ୍ରତିଷ୍ଠାତା ଥିଲେ।"
+},
+{
+"questionEnglish": "When was the tricolor flag of independence hoisted in Lahore?",
+"questionOdia": "ଲାହୋରଠାରେ କେଉଁ ଦିନ ସ୍ଵାଧୀନତାର ତ୍ରିରଙ୍ଗା ପତାକା ଉତ୍ତୋଳନ କରାଯାଇଥିଲା?",
+"options": [
+"୧୯୨୯",
+"୧୯୩୦",
+"୧୯୩୧",
+"୧୯୩୨"
+],
+"answer": "୧୯୨୯",
+"explanation": "୧୯୨୯ ମସିହାରେ ଲାହୋରଠାରେ ସ୍ଵାଧୀନତାର ତ୍ରିରଙ୍ଗା ପତାକା ଉତ୍ତୋଳନ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "In which city did the public break the law during the Civil Disobedience Movement?",
+"questionOdia": "ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନ ସମୟରେ ଜନସାଧାରଣ କେଉଁଠାରେ ଆଇନ ଅମାନ୍ୟ କରିଥିଲେ?",
+"options": [
+"ଦିଲ୍ଲୀ",
+"ଲାହୋର",
+"ଓଡ଼ିଶାର ବିଭିନ୍ନ ସ୍ଥାନ",
+"ମାଡ୍ରାସ"
+],
+"answer": "ଓଡ଼ିଶାର ବିଭିନ୍ନ ସ୍ଥାନ",
+"explanation": "ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନ ସମୟରେ ଓଡ଼ିଶାର ଇଞ୍ଚୁଡ଼ି, କାଟକପୁର ଆଦି ଅନେକ ସ୍ଥାନରେ ଜନସାଧାରଣ ଆଇନ ଅମାନ୍ୟ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Who was arrested at the Lahore protest against the Simon Commission?",
+"questionOdia": "ସାଇମନ କମିଶନ ବିରୋଧୀ ଆନ୍ଦୋଳନରେ ଲାହୋରଠାରେ କିଏ ଆହତ ହୋଇଥିଲେ?",
+"options": [
+"ଲାଲା ଲଜପତ ରାୟ",
+"ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ",
+"ଗାନ୍ଧିଜୀ",
+"ଜବାହରଲାଲ ନେହେରୁ"
+],
+"answer": "ଲାଲା ଲଜପତ ରାୟ",
+"explanation": "ଲାହୋରଠାରେ ସାଇମନ କମିଶନ ବିରୋଧୀ ଶୋଭାଯାତ୍ରାରେ ପୋଲିସ୍ ଲାଠି ମାଡ଼ରେ ଲାଲା ଲଜପତ ରାୟ ଆହତ ହୋଇଥିଲେ।"
+},
+{
+"questionEnglish": "Which commission came to India in 1928?",
+"questionOdia": "୧୯୨୮ରେ କେଉଁ କମିଶନ ଭାରତ ଆସିଥିଲା?",
+"options": [
+"ସାଇମନ କମିଶନ",
+"କ୍ୟାବିନେଟ ମିଶନ",
+"ୱେଭେଲ ଯୋଜନା",
+"ମାଉଣ୍ଟବ୍ୟାଟେନ ଯୋଜନା"
+],
+"answer": "ସାଇମନ କମିଶନ",
+"explanation": "ସାଇମନ କମିଶନ ୧୯୨୮ ମସିହାରେ ଭାରତ ଆସିଥିଲା।"
+},
+{
+"questionEnglish": "Why did the Congress boycott the Simon Commission?",
+"questionOdia": "କଂଗ୍ରେସ କାହିଁକି ସାଇମନ କମିଶନକୁ ବର୍ଜନ କରିଥିଲା?",
+"options": [
+"ସେଥିରେ କୌଣସି ଭାରତୀୟ ସଦସ୍ୟ ନଥିଲେ",
+"ତାହା ଭାରତୀୟମାନଙ୍କ ପାଇଁ ଥିଲା",
+"ତାହା ଅଧିକ ଟିକସ ଆଦାୟ କରୁଥିଲା",
+"ତାହା ବହୁତ ଡେରିରେ ଆସିଥିଲା"
+],
+"answer": "ସେଥିରେ କୌଣସି ଭାରତୀୟ ସଦସ୍ୟ ନଥିଲେ",
+"explanation": "ସାଇମନ କମିଶନରେ କୌଣସି ଭାରତୀୟ ସଦସ୍ୟ ନଥିବାରୁ କଂଗ୍ରେସ ଏହାକୁ ବର୍ଜନ କରିଥିଲା।"
+},
+{
+"questionEnglish": "What was the result of the Indian National Army movement?",
+"questionOdia": "ଆଜାଦ ହିନ୍ଦ ଫୌଜ ଆନ୍ଦୋଳନର ଫଳ କ’ଣ ଥିଲା?",
+"options": [
+"ବ୍ରିଟିଶ ଶାସନ ଦୁର୍ବଳ ହେଲା",
+"ଭାରତ ସ୍ଵାଧୀନ ହେଲା",
+"ଜାପାନ ହାରିଗଲା",
+"କୌଣସି ପ୍ରଭାବ ପଡ଼ିଲା ନାହିଁ"
+],
+"answer": "ବ୍ରିଟିଶ ଶାସନ ଦୁର୍ବଳ ହେଲା",
+"explanation": "ଆଜାଦ ହିନ୍ଦ ଫୌଜ ଆନ୍ଦୋଳନ ବ୍ରିଟିଶ ଶାସନକୁ ଭିତରୁ ଦୁର୍ବଳ କରି ସ୍ଵାଧୀନତାର ପଥ ସୁଗମ କରିଥିଲା।"
+},
+{
+"questionEnglish": "Who was the first Indian woman leader beaten in the salt movement in Odisha?",
+"questionOdia": "ଓଡ଼ିଶାରେ ଲବଣ ସତ୍ୟାଗ୍ରହ ସମୟରେ ବିଦେଶୀ ମଦ ଦୋକାନ ଆଗରେ ପିକେଟିଂ କରି ବେତ୍ରାଘାତ ପାଇଥିବା ମହିଳା ନେତ୍ରୀ କିଏ?",
+"options": [
+"ରମାଦେବୀ",
+"ମାଳତୀ ଦେବୀ",
+"ସରଳା ଦେବୀ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ରମାଦେବୀ",
+"explanation": "ଲବଣ ସତ୍ୟାଗ୍ରହ ସମୟରେ ରମାଦେବୀ ପ୍ରମୁଖ ମହିଳା ନେତ୍ରୀମାନେ ପିକେଟିଂ କରି ବେତ୍ରାଘାତର ଶିକାର ହୋଇଥିଲେ।"
+},
+{
+"questionEnglish": "When was the Gandhi-Irwin Pact signed?",
+"questionOdia": "ଗାନ୍ଧି-ଇର୍ୱିନ ଚୁକ୍ତି କେବେ ସ୍ଵାକ୍ଷରିତ ହୋଇଥିଲା?",
+"options": [
+"୧୯୩୦",
+"୧୯୩୧",
+"୧୯୩୨",
+"୧୯୩୩"
+],
+"answer": "୧୯୩୧",
+"explanation": "୧୯୩୧ ମସିହାରେ ଗାନ୍ଧି-ଇର୍ୱିନ ଚୁକ୍ତି ସ୍ଵାକ୍ଷରିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Who led the Salt Satyagraha in Ganjam district?",
+"questionOdia": "ଗଞ୍ଜାମ ଜିଲ୍ଲାରେ ଲବଣ ସତ୍ୟାଗ୍ରହର ନେତୃତ୍ୱ କିଏ ନେଇଥିଲେ?",
+"options": [
+"ନୀଳକଣ୍ଠ ଦାସ",
+"ଗୋପବନ୍ଧୁ ଚୌଧୁରୀ",
+"ନିରଞ୍ଜନ ପଟ୍ଟନାୟକ",
+"କୃଷ୍ଣଚନ୍ଦ୍ର ଗଜପତି"
+],
+"answer": "ନିରଞ୍ଜନ ପଟ୍ଟନାୟକ",
+"explanation": "ଗଞ୍ଜାମ ଜିଲ୍ଲାରେ ଲବଣ ସତ୍ୟାଗ୍ରହର ନେତୃତ୍ୱ ନିରଞ୍ଜନ ପଟ୍ଟନାୟକ ନେଇଥିଲେ।"
+},
+{
+"questionEnglish": "What was the purpose of the second Round Table Conference?",
+"questionOdia": "ଦ୍ଵିତୀୟ ଗୋଲଟେବୁଲ ବୈଠକର ଉଦ୍ଦେଶ୍ୟ କ’ଣ ଥିଲା?",
+"options": [
+"ଭାରତର ସମ୍ବିଧାନ ଚର୍ଚ୍ଚା",
+"ସାମାଜିକ ସୁଧାର",
+"କର ବୃଦ୍ଧି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଭାରତର ସମ୍ବିଧାନ ଚର୍ଚ୍ଚା",
+"explanation": "ଦ୍ଵିତୀୟ ଗୋଲଟେବୁଲ ବୈଠକରେ ଭାରତର ସାମ୍ବିଧାନିକ ସଂସ୍କାର ବିଷୟରେ ଚର୍ଚ୍ଚା ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Who among these was a key figure in the Civil Disobedience Movement?",
+"questionOdia": "ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନରେ କିଏ ଜଣେ ପ୍ରମୁଖ ବ୍ୟକ୍ତି ଥିଲେ?",
+"options": [
+"ମହାତ୍ମା ଗାନ୍ଧୀ",
+"ଗୋପବନ୍ଧୁ ଦାସ",
+"ମଧୁସୂଦନ ଦାସ",
+"ଉପରୋକ୍ତ ସମସ୍ତ"
+],
+"answer": "ମହାତ୍ମା ଗାନ୍ଧୀ",
+"explanation": "ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନର ମୁଖ୍ୟ ପ୍ରେରଣାଦାତା ଓ ନେତା ଥିଲେ ମହାତ୍ମା ଗାନ୍ଧୀ।"
+},
+{
+"questionEnglish": "Which year was the Congress session in Lahore held?",
+"questionOdia": "ଲାହୋର କଂଗ୍ରେସ ଅଧିବେଶନ କେଉଁ ବର୍ଷ ହୋଇଥିଲା?",
+"options": [
+"୧୯୨୭",
+"୧୯୨୮",
+"୧୯୨୯",
+"୧୯୩୦"
+],
+"answer": "୧୯୨୯",
+"explanation": "ଲାହୋର କଂଗ୍ରେସ ଅଧିବେଶନ ୧୯୨୯ ମସିହାରେ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What was the main outcome of the Gandhi-Irwin Pact?",
+"questionOdia": "ଗାନ୍ଧି-ଇର୍ୱିନ ଚୁକ୍ତିର ମୁଖ୍ୟ ଫଳାଫଳ କ’ଣ ଥିଲା?",
+"options": [
+"ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନ ବନ୍ଦ",
+"ସତ୍ୟାଗ୍ରହୀମାନଙ୍କ ମୁକ୍ତି",
+"ଉଭୟ (କ) ଓ (ଖ)",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ (କ) ଓ (ଖ)",
+"explanation": "ଗାନ୍ଧି-ଇର୍ୱିନ ଚୁକ୍ତି ଅନୁଯାୟୀ ଆନ୍ଦୋଳନ ବନ୍ଦ ଓ ସତ୍ୟାଗ୍ରହୀମାନଙ୍କୁ ମୁକ୍ତ କରିବା ପାଇଁ ନିଷ୍ପତ୍ତି ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Where did Gandhi conduct the salt march?",
+"questionOdia": "ଗାନ୍ଧିଜୀ କେଉଁଠାରେ ଲବଣ ସତ୍ୟାଗ୍ରହ ପାଇଁ ଦାଣ୍ଡି ଯାତ୍ରା କରିଥିଲେ?",
+"options": [
+"ସାବରମତୀରୁ ଦାଣ୍ଡି",
+"ପୋରବନ୍ଦରରୁ ରାଜକୋଟ",
+"ବମ୍ବେରୁ ନାସିକ",
+"ଦିଲ୍ଲୀରୁ ଆଗ୍ରା"
+],
+"answer": "ସାବରମତୀରୁ ଦାଣ୍ଡି",
+"explanation": "ଗାନ୍ଧିଜୀ ସାବରମତୀ ଆଶ୍ରମରୁ ଦାଣ୍ଡି ପର୍ଯ୍ୟନ୍ତ ଲବଣ ସତ୍ୟାଗ୍ରହ ପାଇଁ ଯାତ୍ରା କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What was the age of Gandhi when he started the civil disobedience movement?",
+"questionOdia": "ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନ ଆରମ୍ଭ ବେଳକୁ ଗାନ୍ଧିଜୀଙ୍କ ବୟସ କେତେ ଥିଲା?",
+"options": [
+"୬୦",
+"୬୧",
+"୬୨",
+"୬୩"
+],
+"answer": "୬୧",
+"explanation": "୧୮୬୯ରେ ଜନ୍ମିତ ଗାନ୍ଧିଜୀ ୧୯୩୦ରେ ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନ ଆରମ୍ଭ କଲାବେଳକୁ ୬୧ ବର୍ଷର ଥିଲେ।"
+},
+{
+"questionEnglish": "Which of the following was a result of the Salt Satyagraha in Odisha?",
+"questionOdia": "ଓଡ଼ିଶାରେ ଲବଣ ସତ୍ୟାଗ୍ରହର ଏକ ଫଳାଫଳ କ’ଣ?",
+"options": [
+"ଜାତୀୟ ଚେତନାର ଜାଗରଣ",
+"ଇଂରେଜ ପ୍ରଶାସନର କୁଫଳ ସମ୍ପର୍କରେ ଜନସଚେତନତା",
+"ଉଭୟ (କ) ଓ (ଖ)",
+"କିଛି ପ୍ରଭାବ ପଡ଼ିଲାନାହିଁ"
+],
+"answer": "ଉଭୟ (କ) ଓ (ଖ)",
+"explanation": "ଓଡ଼ିଶାରେ ଲବଣ ସତ୍ୟାଗ୍ରହ ଜାତୀୟ ଚେତନା ଜାଗ୍ରତ କରିବା ସହ ଇଂରେଜ ପ୍ରଶାସନର କୁଫଳ ବିଷୟରେ ଜନସାଧାରଣଙ୍କୁ ସଚେତନ କରିଥିଲା।"
+},
+{
+"questionEnglish": "Who was one of the lawyers defending the INA officers?",
+"questionOdia": "INA ଅଫିସରମାନଙ୍କ ମକଦ୍ଦମା ଲଢ଼ିଥିବା ଜଣେ ଆଇନଜୀବୀ କିଏ?",
+"options": [
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ସର୍ଦ୍ଦାର ପଟେଲ",
+"ମହମ୍ମଦ ଅଲ୍ଲୀ ଜିନ୍ନା",
+"ବି.ଆର. ଆମ୍ବେଦକର"
+],
+"answer": "ଜବାହରଲାଲ ନେହେରୁ",
+"explanation": "ଜବାହରଲାଲ ନେହେରୁ INA ଅଫିସରମାନଙ୍କୁ ବଞ୍ଚାଇବା ପାଇଁ ଓକିଲ ଭାବେ ମକଦ୍ଦମା ଲଢ଼ିଥିଲେ।"
+},
+{
+"questionEnglish": "What did the INA soldiers do to fight the British?",
+"questionOdia": "ଇଂରେଜମାନଙ୍କ ବିରୋଧରେ ଲଢ଼ିବା ପାଇଁ INA ସୈନିକମାନେ କ’ଣ କରିଥିଲେ?",
+"options": [
+"ସଶସ୍ତ୍ର ବିଦ୍ରୋହ",
+"ଅହିଂସା ଆନ୍ଦୋଳନ",
+"ବର୍ଜନ",
+"ଉପବାସ"
+],
+"answer": "ସଶସ୍ତ୍ର ବିଦ୍ରୋହ",
+"explanation": "INA ସୈନିକମାନେ ବ୍ରିଟିଶ ଶାସନ ବିରୋଧରେ ସଶସ୍ତ୍ର ବିଦ୍ରୋହ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "When was the first Round Table Conference held?",
+"questionOdia": "ପ୍ରଥମ ଗୋଲଟେବୁଲ ବୈଠକ କେବେ ହୋଇଥିଲା?",
+"options": [
+"୧୯୨୯",
+"୧୯୩୦",
+"୧୯୩୧",
+"୧୯୩୨"
+],
+"answer": "୧୯୩୦",
+"explanation": "ପ୍ରଥମ ଗୋଲଟେବୁଲ ବୈଠକ ୧୯୩୦ ମସିହାରେ ଅନୁଷ୍ଠିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Who is known as the 'Architect' of Indian Constitution and was also involved in INA defense?",
+"questionOdia": "ସମ୍ବିଧାନ ପ୍ରଣେତା ଭାବେ କିଏ ଜଣାଶୁଣା ଏବଂ ସେ INA ବିଚାରରେ ମଧ୍ୟ ସମ୍ପୃକ୍ତ ଥିଲେ?",
+"options": [
+"ଡ. ବି.ଆର. ଆମ୍ବେଦକର",
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ସର୍ଦ୍ଦାର ପଟେଲ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଜବାହରଲାଲ ନେହେରୁ",
+"explanation": "ଜବାହରଲାଲ ନେହେରୁ INA ବିଚାରରେ ଓକିଲ ଭାବେ ସମ୍ପୃକ୍ତ ଥିଲେ।"
+},
+{
+"questionEnglish": "What was the main purpose of the salt law?",
+"questionOdia": "ଲବଣ ଆଇନର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ’ଣ ଥିଲା?",
+"options": [
+"ଲୁଣ ଉପରେ ଟିକସ ବୃଦ୍ଧି",
+"ଭାରତୀୟମାନଙ୍କୁ ଲୁଣ ତିଆରିରୁ ବଞ୍ଚିତ କରିବା",
+"ଉଭୟ (କ) ଓ (ଖ)",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ (କ) ଓ (ଖ)",
+"explanation": "ବ୍ରିଟିଶ ସରକାର ଲୁଣ ଉପରେ ଟିକସ ଲଗାଇବା ସହ ଭାରତୀୟମାନଙ୍କୁ ଲୁଣ ତିଆରି କରିବା ପାଇଁ ବାରଣ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What was the name of the radio station set up by Subhash Chandra Bose?",
+"questionOdia": "ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷଙ୍କ ଦ୍ଵାରା ପ୍ରତିଷ୍ଠିତ ରେଡିଓ ଷ୍ଟେସନର ନାମ କ’ଣ ଥିଲା?",
+"options": [
+"ଆଜାଦ ହିନ୍ଦ ରେଡିଓ",
+"ଭାରତ ରେଡିଓ",
+"ସ୍ଵାଧୀନତା ରେଡିଓ",
+"ନେତାଜୀ ରେଡିଓ"
+],
+"answer": "ଆଜାଦ ହିନ୍ଦ ରେଡିଓ",
+"explanation": "ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ 'ଆଜାଦ ହିନ୍ଦ ରେଡିଓ' ପ୍ରତିଷ୍ଠା କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Which struggle was the last under Gandhi's leadership in South Africa?",
+"questionOdia": "ଦକ୍ଷିଣ ଆଫ୍ରିକାରେ ଗାନ୍ଧିଜୀଙ୍କ ନେତୃତ୍ୱରେ ଶେଷ ଆନ୍ଦୋଳନ କ’ଣ ଥିଲା?",
+"options": [
+"କଳା ଆଇନ ବିରୋଧୀ",
+"ବିବାହ ସ୍ଵୀକୃତି ପ୍ରତ୍ୟାହାର ବିରୋଧୀ",
+"ଟିକସ ଆନ୍ଦୋଳନ",
+"ସ୍କୁଲ ଆନ୍ଦୋଳନ"
+],
+"answer": "ବିବାହ ସ୍ଵୀକୃତି ପ୍ରତ୍ୟାହାର ବିରୋଧୀ",
+"explanation": "ଦକ୍ଷିଣ ଆଫ୍ରିକାରେ ଭାରତୀୟ ବିବାହର ସ୍ଵୀକୃତି ପ୍ରତ୍ୟାହାର ବିରୋଧରେ ହୋଇଥିବା ଆନ୍ଦୋଳନ ଥିଲା ଗାନ୍ଧିଜୀଙ୍କ ଶେଷ ଆନ୍ଦୋଳନ।"
+},
+{
+"questionEnglish": "What was the main goal of the Azad Hind Fauj?",
+"questionOdia": "ଆଜାଦ ହିନ୍ଦ ଫୌଜର ମୁଖ୍ୟ ଲକ୍ଷ୍ୟ କ’ଣ ଥିଲା?",
+"options": [
+"ଭାରତକୁ ସ୍ଵାଧୀନ କରିବା",
+"ବ୍ରିଟିଶଙ୍କୁ ସମର୍ଥନ କରିବା",
+"ବ୍ୟବସାୟ ବୃଦ୍ଧି",
+"ସୈନ୍ୟ ସଂଖ୍ୟା ବଢ଼ାଇବା"
+],
+"answer": "ଭାରତକୁ ସ୍ଵାଧୀନ କରିବା",
+"explanation": "ଭାରତକୁ ବ୍ରିଟିଶ ଶାସନରୁ ମୁକ୍ତ କରିବା ଥିଲା ଆଜାଦ ହିନ୍ଦ ଫୌଜର ମୁଖ୍ୟ ଲକ୍ଷ୍ୟ।"
+},
+{
+"questionEnglish": "Who was one of the lawyers during the INA trials?",
+"questionOdia": "INA ବିଚାର ସମୟରେ ଓକିଲମାନଙ୍କ ମଧ୍ୟରେ କିଏ ଜଣେ ଥିଲେ?",
+"options": [
+"ଆସଫ ଅଲ୍ଲୀ",
+"ଗୋପବନ୍ଧୁ ଦାସ",
+"କୃଷ୍ଣଚନ୍ଦ୍ର ଗଜପତି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଆସଫ ଅଲ୍ଲୀ",
+"explanation": "ଆସଫ ଅଲ୍ଲୀ ଜଣେ ପ୍ରମୁଖ ଓକିଲ ଥିଲେ ଯିଏ INA ସୈନିକମାନଙ୍କ ପକ୍ଷରୁ ମକଦ୍ଦମା ଲଢ଼ିଥିଲେ।"
+},
+{
+"questionEnglish": "What was the title of the Indian Independence Law?",
+"questionOdia": "ଭାରତ ସ୍ଵାଧୀନତା ଆଇନର ନାମ କ’ଣ?",
+"options": [
+"ଭାରତ ସ୍ଵାଧୀନତା ଆଇନ ୧୯୪୭",
+"ଭାରତ ଶାସନ ଆଇନ ୧୯୩୫",
+"ରାଓଲାଟ ଆଇନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଭାରତ ସ୍ଵାଧୀନତା ଆଇନ ୧୯୪୭",
+"explanation": "୧୯୪୭ ମସିହାରେ ବ୍ରିଟିଶ ସଂସଦ ଭାରତ ସ୍ଵାଧୀନତା ଆଇନ ପାରିତ କରିଥିଲା।"
+},
+{
+"questionEnglish": "Where did the INA soldiers train?",
+"questionOdia": "INA ସୈନିକମାନେ କେଉଁଠାରେ ତାଲିମ ନେଉଥିଲେ?",
+"options": [
+"ଜର୍ମାନୀ",
+"ଜାପାନ",
+"ଉଭୟ (କ) ଓ (ଖ)",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ (କ) ଓ (ଖ)",
+"explanation": "INA ସୈନିକମାନେ ଜର୍ମାନୀ ଏବଂ ଜାପାନୀ ଉଭୟ ଦେଶରେ ତାଲିମ ନେବାର ସୁଯୋଗ ପାଇଥିଲେ।"
+},
+{
+"questionEnglish": "How did Gandhi treat his political guru?",
+"questionOdia": "ଗାନ୍ଧିଜୀ ତାଙ୍କ ରାଜନୈତିକ ଗୁରୁଙ୍କୁ କିପରି ସମ୍ମାନ ଦେଉଥିଲେ?",
+"options": [
+"ଗୁରୁ ଭାବେ",
+"ମିତ୍ର ଭାବେ",
+"ଶତ୍ରୁ ଭାବେ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଗୁରୁ ଭାବେ",
+"explanation": "ଗାନ୍ଧିଜୀ ଗୋପାଳ କୃଷ୍ଣ ଗୋଖ୍ଲେଙ୍କୁ ତାଙ୍କର ରାଜନୈତିକ ଗୁରୁ ଭାବେ ଗ୍ରହଣ କରି ସମ୍ମାନ ଦେଉଥିଲେ।"
+},
+{
+"questionEnglish": "What was the impact of the Non-Cooperation Movement on the British?",
+"questionOdia": "ଅସହଯୋଗ ଆନ୍ଦୋଳନ ବ୍ରିଟିଶମାନଙ୍କ ଉପରେ କି ପ୍ରଭାବ ପକାଇଥିଲା?",
+"options": [
+"ବ୍ରିଟିଶମାନଙ୍କ ମଧ୍ୟରେ ଭୟ ସୃଷ୍ଟି",
+"ବ୍ରିଟିଶମାନଙ୍କର ଶକ୍ତି ବୃଦ୍ଧି",
+"କୌଣସି ପ୍ରଭାବ ନାହିଁ",
+"ବ୍ରିଟିଶମାନଙ୍କୁ ସମର୍ଥନ"
+],
+"answer": "ବ୍ରିଟିଶମାନଙ୍କ ମଧ୍ୟରେ ଭୟ ସୃଷ୍ଟି",
+"explanation": "ଅସହଯୋଗ ଆନ୍ଦୋଳନ ବ୍ରିଟିଶମାନଙ୍କର ମୂଳଦୁଆ ହଲାଇ ଦେଇଥିଲା ଏବଂ ସେମାନଙ୍କ ମଧ୍ୟରେ ଭୟ ସୃଷ୍ଟି କରିଥିଲା।"
+},
+{
+"questionEnglish": "When was the Gandhi-Irwin Pact signed?",
+"questionOdia": "ଗାନ୍ଧି-ଇର୍ୱିନ ଚୁକ୍ତି କେବେ ସମ୍ପାଦିତ ହୋଇଥିଲା?",
+"options": [
+"୧୯୩୧",
+"୧୯୩୨",
+"୧୯୩୩",
+"୧୯୩୪"
+],
+"answer": "୧୯୩୧",
+"explanation": "ଗାନ୍ଧି-ଇର୍ୱିନ ଚୁକ୍ତି ୧୯୩୧ ମସିହାରେ ସମ୍ପାଦିତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Which movement was a peaceful protest against the British?",
+"questionOdia": "କେଉଁ ଆନ୍ଦୋଳନ ବ୍ରିଟିଶମାନଙ୍କ ବିରୋଧରେ ଏକ ଶାନ୍ତିପୂର୍ଣ୍ଣ ଆନ୍ଦୋଳନ ଥିଲା?",
+"options": [
+"ସତ୍ୟାଗ୍ରହ",
+"ସଶସ୍ତ୍ର ବିଦ୍ରୋହ",
+"ଦଙ୍ଗା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସତ୍ୟାଗ୍ରହ",
+"explanation": "ସତ୍ୟାଗ୍ରହ ସମ୍ପୂର୍ଣ୍ଣ ରୂପେ ଏକ ଶାନ୍ତିପୂର୍ଣ୍ଣ ଆନ୍ଦୋଳନ ଥିଲା।"
+},
+{
+"questionEnglish": "What was the role of 'Vanara Sena' in Odisha during the Salt movement?",
+"questionOdia": "ଓଡ଼ିଶାରେ ଲବଣ ସତ୍ୟାଗ୍ରହ ସମୟରେ 'ବାନର ସେନା'ର ଭୂମିକା କ’ଣ ଥିଲା?",
+"options": [
+"ଆନ୍ଦୋଳନକାରୀଙ୍କୁ ସୂଚନା ଦେବା",
+"ଲୁଣ ତିଆରି କରିବା",
+"ପୋଲିସକୁ ଆକ୍ରମଣ କରିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଆନ୍ଦୋଳନକାରୀଙ୍କୁ ସୂଚନା ଦେବା",
+"explanation": "ବାନର ସେନା ଆନ୍ଦୋଳନକାରୀଙ୍କୁ ପୋଲିସର ଗତିବିଧି ସମ୍ପର୍କରେ ସୂଚନା ଦେବାରେ ସାହାଯ୍ୟ କରୁଥିଲା।"
+},
+{
+"questionEnglish": "When was the second stage of the Civil Disobedience Movement suspended?",
+"questionOdia": "ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନର ଦ୍ଵିତୀୟ ପର୍ଯ୍ୟାୟ କେବେ ସ୍ଥଗିତ ରଖାଗଲା?",
+"options": [
+"୧୯୩୩",
+"୧୯୩୪",
+"୧୯୩୫",
+"୧୯୩୬"
+],
+"answer": "୧୯୩୩",
+"explanation": "ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନର ଦ୍ଵିତୀୟ ପର୍ଯ୍ୟାୟ ୧୯୩୩ ମସିହାରେ ସ୍ଥଗିତ ରଖାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "Who established a political organization called 'Natal Indian Congress'?",
+"questionOdia": "କେଉଁ ବ୍ୟକ୍ତି 'ନାଟାଲ ଭାରତୀୟ କଂଗ୍ରେସ' ନାମକ ଅନୁଷ୍ଠାନ ଗଠନ କରିଥିଲେ?",
+"options": [
+"ମହାତ୍ମା ଗାନ୍ଧୀ",
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ଗୋପବନ୍ଧୁ ଦାସ",
+"ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ"
+],
+"answer": "ମହାତ୍ମା ଗାନ୍ଧୀ",
+"explanation": "ମହାତ୍ମା ଗାନ୍ଧୀ 'ନାଟାଲ ଭାରତୀୟ କଂଗ୍ରେସ' ଗଠନ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "How did Gandhi feel about the violence in Chauri Chaura?",
+"questionOdia": "ଚୌରିଚୌରା ଘଟଣାର ହିଂସା ସମ୍ପର୍କରେ ଗାନ୍ଧିଜୀ କ’ଣ ଅନୁଭବ କରିଥିଲେ?",
+"options": [
+"ଖୁସି",
+"ବ୍ୟଥିତ",
+"ଉଦାସୀନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବ୍ୟଥିତ",
+"explanation": "ଚୌରିଚୌରା ଘଟଣାରେ ଗାନ୍ଧିଜୀ ବହୁତ ବ୍ୟଥିତ ହୋଇଥିଲେ।"
+},
+{
+"questionEnglish": "Which journal published information about the oppression of white Britishers in South Africa?",
+"questionOdia": "କେଉଁ ପତ୍ରିକା ଦକ୍ଷିଣ ଆଫ୍ରିକାରେ ଶ୍ଵେତାଙ୍ଗମାନଙ୍କ ଅତ୍ୟାଚାର ବିଷୟରେ ପ୍ରକାଶ କରୁଥିଲା?",
+"options": [
+"ଇଣ୍ଡିଆନ ଓପିନିଅନ",
+"ୟଙ୍ଗ ଇଣ୍ଡିଆ",
+"ନବଜୀବନ",
+"ସମାଜ"
+],
+"answer": "ଇଣ୍ଡିଆନ ଓପିନିଅନ",
+"explanation": "'ଇଣ୍ଡିଆନ ଓପିନିଅନ' ପତ୍ରିକା ଏହି ସବୁ ବିଷୟ ପ୍ରକାଶ କରୁଥିଲା।"
+},
+{
+"questionEnglish": "How long did Gandhi spend traveling through India after returning?",
+"questionOdia": "ଭାରତ ଫେରିବା ପରେ ଗାନ୍ଧିଜୀ କେତେ ସମୟ ଭାରତ ଭ୍ରମଣ କରିଥିଲେ?",
+"options": [
+"୬ ମାସ",
+"୧ ବର୍ଷ",
+"୨ ବର୍ଷ",
+"୩ ବର୍ଷ"
+],
+"answer": "୧ ବର୍ଷ",
+"explanation": "ଗୋଖ୍ଲେଙ୍କ ପରାମର୍ଶ କ୍ରମେ ଗାନ୍ଧିଜୀ ଏକ ବର୍ଷ କାଳ ଭାରତ ଭ୍ରମଣ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Who was one of the lawyers defending the INA officers in the military court?",
+"questionOdia": "ସାମରିକ କୋର୍ଟରେ INA ଅଫିସରମାନଙ୍କ ପକ୍ଷରୁ ମକଦ୍ଦମା ଲଢ଼ିଥିବା ଜଣେ ଓକିଲ କିଏ?",
+"options": [
+"ଭୁଲାଭାଇ ଦେଶାଇ",
+"ଗୋପବନ୍ଧୁ ଚୌଧୁରୀ",
+"ନିରଞ୍ଜନ ପଟ୍ଟନାୟକ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଭୁଲାଭାଇ ଦେଶାଇ",
+"explanation": "ଭୁଲାଭାଇ ଦେଶାଇ ପ୍ରମୁଖ ଓକିଲ ଥିଲେ ଯିଏ INA ସୈନିକମାନଙ୍କ ପାଇଁ ଓକିଲାତି କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What was the main outcome of the Azad Hind Fauj campaign?",
+"questionOdia": "ଆଜାଦ ହିନ୍ଦ ଫୌଜ ଅଭିଯାନର ମୁଖ୍ୟ ଫଳ କ’ଣ?",
+"options": [
+"ବ୍ରିଟିଶ ଶାସନ ବିରୋଧୀ ଜନସଚେତନତା",
+"ସୈନ୍ୟଶକ୍ତିର ପରାଜୟ",
+"କୌଣସିଟି ନୁହେଁ",
+"ବ୍ୟବସାୟିକ ସହଯୋଗ"
+],
+"answer": "ବ୍ରିଟିଶ ଶାସନ ବିରୋଧୀ ଜନସଚେତନତା",
+"explanation": "ଆଜାଦ ହିନ୍ଦ ଫୌଜ ଅଭିଯାନ ଭାରତରେ ବ୍ରିଟିଶ ଶାସନ ବିରୋଧୀ ଜନସଚେତନତା ସୃଷ୍ଟି କରିଥିଲା।"
+},
+{
+"questionEnglish": "What did the British government do to the Azad Hind Fauj?",
+"questionOdia": "ବ୍ରିଟିଶ ସରକାର ଆଜାଦ ହିନ୍ଦ ଫୌଜକୁ କ’ଣ କରିଥିଲେ?",
+"options": [
+"ନିଷିଦ୍ଧ",
+"ପୁରସ୍କୃତ",
+"ମାନ୍ୟତା",
+"ସମ୍ମାନିତ"
+],
+"answer": "ନିଷିଦ୍ଧ",
+"explanation": "ବ୍ରିଟିଶ ସରକାର ଆଜାଦ ହିନ୍ଦ ଫୌଜକୁ ନିଷିଦ୍ଧ ବୋଲି ଘୋଷଣା କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Which incident inspired the Non-Cooperation Movement?",
+"questionOdia": "କେଉଁ ଘଟଣା ଅସହଯୋଗ ଆନ୍ଦୋଳନକୁ ପ୍ରେରଣା ଦେଇଥିଲା?",
+"options": [
+"ରାଓଲାଟ ଆଇନ",
+"ଜାଲିଆନାୱାଲାବାଗ",
+"ଉଭୟ (କ) ଓ (ଖ)",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଭୟ (କ) ଓ (ଖ)",
+"explanation": "ରାଓଲାଟ ଆଇନ ଏବଂ ଜାଲିଆନାୱାଲାବାଗ ଘଟଣା ଅସହଯୋଗ ଆନ୍ଦୋଳନକୁ ପ୍ରେରଣା ଦେଇଥିଲା।"
+},
+{
+"questionEnglish": "Who was the main leader behind the Salt Satyagraha in Odisha?",
+"questionOdia": "ଓଡ଼ିଶାରେ ଲବଣ ସତ୍ୟାଗ୍ରହର ମୁଖ୍ୟ ନେତା କିଏ?",
+"options": [
+"ଗୋପବନ୍ଧୁ ଚୌଧୁରୀ",
+"ହରେକୃଷ୍ଣ ମହତାବ",
+"ବିଶ୍ୱନାଥ ଦାସ",
+"ନୀଳକଣ୍ଠ ଦାସ"
+],
+"answer": "ଗୋପବନ୍ଧୁ ଚୌଧୁରୀ",
+"explanation": "ଗୋପବନ୍ଧୁ ଚୌଧୁରୀ ଓଡ଼ିଶାରେ ଲବଣ ସତ୍ୟାଗ୍ରହର ମୁଖ୍ୟ ନେତା ଥିଲେ।"
+},
+{
+"questionEnglish": "What was the goal of the INA soldiers in the struggle for independence?",
+"questionOdia": "ସ୍ଵାଧୀନତା ସଂଗ୍ରାମରେ INA ସୈନିକମାନଙ୍କର ଲକ୍ଷ୍ୟ କ’ଣ ଥିଲା?",
+"options": [
+"ସମ୍ପୂର୍ଣ୍ଣ ସ୍ଵାଧୀନତା",
+"ଆଂଶିକ ସ୍ଵାଧୀନତା",
+"ବ୍ରିଟିଶଙ୍କ ସହ ବୁଝାମଣା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସମ୍ପୂର୍ଣ୍ଣ ସ୍ଵାଧୀନତା",
+"explanation": "INA ସୈନିକମାନଙ୍କର ଲକ୍ଷ୍ୟ ଥିଲା ଭାରତକୁ ସମ୍ପୂର୍ଣ୍ଣ ସ୍ଵାଧୀନ କରିବା।"
+},
+{
+"questionEnglish": "Which city is known for its role in the salt movement in Odisha?",
+"questionOdia": "ଓଡ଼ିଶାରେ ଲବଣ ସତ୍ୟାଗ୍ରହ ପାଇଁ କେଉଁ ସ୍ଥାନ ଜଣାଶୁଣା?",
+"options": [
+"ଇଞ୍ଚୁଡ଼ି",
+"କଟକ",
+"ପୁରୀ",
+"ଭୁବନେଶ୍ୱର"
+],
+"answer": "ଇଞ୍ଚୁଡ଼ି",
+"explanation": "ଇଞ୍ଚୁଡ଼ି ଲବଣ ସତ୍ୟାଗ୍ରହ ପାଇଁ ବେଶ୍ ପରିଚିତ।"
+},
+{
+"questionEnglish": "What were the demands of the Ahmedabad mill workers?",
+"questionOdia": "ଅହମ୍ମଦାବାଦ ମିଲ ଶ୍ରମିକମାନଙ୍କ ଦାବି କ’ଣ ଥିଲା?",
+"options": [
+"ମଜୁରୀ ବୃଦ୍ଧି",
+"କାରଖାନା ବନ୍ଦ",
+"ଉଭୟ (କ) ଓ (ଖ)",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମଜୁରୀ ବୃଦ୍ଧି",
+"explanation": "ଶ୍ରମିକମାନେ ମଜୁରୀ ବୃଦ୍ଧି ପାଇଁ ଦାବି କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What was the response of the British government to the civil disobedience movement?",
+"questionOdia": "ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନକୁ ବ୍ରିଟିଶ ସରକାର କିପରି ପ୍ରତିକ୍ରିୟା ଦେଇଥିଲେ?",
+"options": [
+"ଦମନମୂଳକ ନୀତି",
+"ବୁଝାମଣା",
+"ଉଭୟ (କ) ଓ (ଖ)",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଦମନମୂଳକ ନୀତି",
+"explanation": "ବ୍ରିଟିଶ ସରକାର ଆନ୍ଦୋଳନକୁ ଦମନ କରିବା ପାଇଁ ଦମନମୂଳକ ନୀତି ଆପଣେଇଥିଲେ।"
+},
+{
+"questionEnglish": "Who established the Ashram in 1916?",
+"questionOdia": "୧୯୧୬ରେ କିଏ ଆଶ୍ରମ ପ୍ରତିଷ୍ଠା କରିଥିଲେ?",
+"options": [
+"ମହାତ୍ମା ଗାନ୍ଧୀ",
+"ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ",
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ଗୋପବନ୍ଧୁ ଦାସ"
+],
+"answer": "ମହାତ୍ମା ଗାନ୍ଧୀ",
+"explanation": "ମହାତ୍ମା ଗାନ୍ଧୀ ୧୯୧୬ରେ ଆଶ୍ରମ ପ୍ରତିଷ୍ଠା କରିଥିଲେ।"
+}
+]
