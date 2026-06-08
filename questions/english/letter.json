@@ -1,553 +1,602 @@
-
 [
-{
-"questionEnglish": "Where was Lencho's house located according to the story 'A Letter to God'?",
-"options": [
-"On a high mountain peak",
-"On the crest of a low hill",
-"In the middle of a dense forest",
-"Beside a large bustling city"
-],
-"answer": "On the crest of a low hill",
-"explanation": "The text states that Lencho's house was the only one in the entire valley, sitting on the crest of a low hill."
-},
-{
-"questionEnglish": "What was the one thing that Lencho's field of ripe corn needed for a good harvest?",
-"options": [
-"More sunlight and warmth",
-"Stronger soil fertilizers",
-"A downpour or at least a shower",
-"Constant protection from insects"
-],
-"answer": "A downpour or at least a shower",
-"explanation": "Lencho knew his fields intimately and believed the earth only needed a downpour or at least a shower for a good harvest."
-},
-{
-"questionEnglish": "How did Lencho react when he saw the raindrops falling?",
-"options": [
-"He was worried about the harvest",
-"He rushed inside to protect his corn",
-"He went out to have the pleasure of feeling the rain on his body",
-"He shouted at his sons to collect the corn quickly"
-],
-"answer": "He went out to have the pleasure of feeling the rain on his body",
-"explanation": "Lencho went out specifically to enjoy the pleasure of feeling the rain on his body."
-},
-{
-"questionEnglish": "Why did Lencho compare the big raindrops to ten cent pieces and the little ones to fives?",
-"options": [
-"Because they were round and silver",
-"Because they promised a good harvest, which meant money for his family",
-"Because he found coins in his field during the rain",
-"Because the rain was accompanied by falling coins"
-],
-"answer": "Because they promised a good harvest, which meant money for his family",
-"explanation": "Lencho considered the rain valuable for his harvest, so he metaphorically called them coins."
-},
-{
-"questionEnglish": "What happened to the rain suddenly, changing the farmer's mood?",
-"options": [
-"It stopped completely",
-"It turned into a massive flood",
-"A strong wind began to blow and large hailstones fell",
-"It turned into a dry, hot wind"
-],
-"answer": "A strong wind began to blow and large hailstones fell",
-"explanation": "The text describes that suddenly a strong wind blew and large hailstones fell, which destroyed the crops."
-},
-{
-"questionEnglish": "What did the field look like after the hailstorm had passed?",
-"options": [
-"Like it was covered in snow",
-"Like it was covered with salt",
-"Like it was full of white flowers",
-"Like it was covered with silver coins"
-],
-"answer": "Like it was covered with salt",
-"explanation": "The hailstorm left the field white as if it were covered with salt."
-},
-{
-"questionEnglish": "What was Lencho's primary hope after the total destruction of his cornfield?",
-"options": [
-"Help from the local government",
-"Borrowing money from friends",
-"Help from God",
-"Finding work in the city"
-],
-"answer": "Help from God",
-"explanation": "Despite the destruction, there was a single hope in the hearts of those living in that house: help from God."
-},
-{
-"questionEnglish": "How does the story describe Lencho as a worker?",
-"options": [
-"He was lazy and relied on others",
-"He was an ox of a man, working like an animal in the fields",
-"He was a smart businessman who worked little",
-"He was a weak man who couldn't work hard"
-],
-"answer": "He was an ox of a man, working like an animal in the fields",
-"explanation": "Lencho is described as an ox of a man who worked very hard in the fields."
-},
-{
-"questionEnglish": "Why did Lencho write a letter to God?",
-"options": [
-"To thank Him for the rain",
-"To complain about the weather",
-"To ask for a hundred pesos to sow his field again",
-"To report the post office employees"
-],
-"answer": "To ask for a hundred pesos to sow his field again",
-"explanation": "Lencho wrote to God asking for a hundred pesos to sow his field again and survive until the next crop."
-},
-{
-"questionEnglish": "What was the reaction of the postman when he first saw Lencho's letter to God?",
-"options": [
-"He was deeply moved",
-"He laughed heartily",
-"He was angry at the address",
-"He threw it away immediately"
-],
-"answer": "He laughed heartily",
-"explanation": "The postman showed the letter to his boss while laughing heartily, having never seen such an address."
-},
-{
-"questionEnglish": "Why did the postmaster decide to answer the letter?",
-"options": [
-"Because he wanted to punish Lencho",
-"Because he was paid by the government to do so",
-"Because he did not want to shake the writer's faith in God",
-"Because he had extra money to give away"
-],
-"answer": "Because he did not want to shake the writer's faith in God",
-"explanation": "The postmaster wanted to maintain Lencho's faith in God, so he decided to answer the letter."
-},
-{
-"questionEnglish": "How much money was the postmaster able to collect for Lencho?",
-"options": [
-"Exactly a hundred pesos",
-"A little more than half the amount",
-"Less than a quarter of the amount",
-"Double the amount requested"
-],
-"answer": "A little more than half the amount",
-"explanation": "Despite his efforts, he could only gather a little more than half of the hundred pesos."
-},
-{
-"questionEnglish": "What was Lencho's reaction when he counted the money he received from God?",
-"options": [
-"He was grateful and happy",
-"He became angry",
-"He was confused and surprised",
-"He burst into tears of joy"
-],
-"answer": "He became angry",
-"explanation": "Lencho became angry when he counted the money because it was not the full amount."
-},
-{
-"questionEnglish": "What did Lencho call the post office employees in his second letter?",
-"options": [
-"Helpful friends",
-"Generous donors",
-"A bunch of crooks",
-"Hardworking people"
-],
-"answer": "A bunch of crooks",
-"explanation": "In his second letter, Lencho accused the post office employees of stealing the missing money, calling them a bunch of crooks."
-},
-{
-"questionEnglish": "Who was the author of the story 'A Letter to God'?",
-"options": [
-"C.F. Alexander",
-"Gregorio Lopez Fuentes",
-"Rabindranath Tagore",
-"William Wordsworth"
-],
-"answer": "Gregorio Lopez Fuentes",
-"explanation": "The text identifies Gregorio Lopez Fuentes as the author of the story."
-},
-{
-"questionEnglish": "What is the meaning of the word 'crest' as used in the story?",
-"options": [
-"The bottom of a valley",
-"The highest part of a hill",
-"A small village",
-"A water channel"
-],
-"answer": "The highest part of a hill",
-"explanation": "The glossary defines 'crest' as the top or the highest part of a hill."
-},
-{
-"questionEnglish": "What does 'dotted with' mean in the context of Lencho's cornfield?",
-"options": [
-"Completely covered by",
-"Scattered over an area",
-"Dug into holes",
-"Separated by walls"
-],
-"answer": "Scattered over an area",
-"explanation": "The glossary defines 'dotted with' as scattered over an area."
-},
-{
-"questionEnglish": "What was Lencho's profession?",
-"options": [
-"Postmaster",
-"Farmer",
-"Journalist",
-"Teacher"
-],
-"answer": "Farmer",
-"explanation": "Lencho is identified as a farmer who writes a letter to God when his crops fail."
-},
-{
-"questionEnglish": "How would you describe the postmaster based on the story?",
-"options": [
-"A rude and angry man",
-"A fat, amiable fellow",
-"A greedy and dishonest person",
-"A strict and serious official"
-],
-"answer": "A fat, amiable fellow",
-"explanation": "The text describes the postmaster as a fat, amiable fellow."
-},
-{
-"questionEnglish": "What was the significance of the signature in the letter Lencho received?",
-"options": [
-"It was signed by the postmaster",
-"It was signed 'God'",
-"It was signed by the postman",
-"It had no signature"
-],
-"answer": "It was signed 'God'",
-"explanation": "The postmaster put a single word as a signature: God."
-},
-{
-"questionEnglish": "What does the expression 'an act of charity' mean?",
-"options": [
-"A way to earn money",
-"An act of helping someone in need",
-"A dishonest business deal",
-"An official government duty"
-],
-"answer": "An act of helping someone in need",
-"explanation": "In the context of the story, collecting money for a needy person is considered an act of charity."
-},
-{
-"questionEnglish": "In the sentence, 'Lencho was an ox of a man', what does the phrase mean?",
-"options": [
-"He was a giant",
-"He was very strong and hardworking",
-"He was a foolish person",
-"He was very slow"
-],
-"answer": "He was very strong and hardworking",
-"explanation": "The phrase implies that Lencho was a very hardworking and strong person, similar to an ox in the fields."
-},
-{
-"questionEnglish": "What was the primary reason for Lencho's anger when receiving the second letter?",
-"options": [
-"He found the letter to be empty",
-"He found only seventy pesos instead of a hundred",
-"He was angry at God for sending so little",
-"He was angry because the letter was torn"
-],
-"answer": "He found only seventy pesos instead of a hundred",
-"explanation": "Lencho was angry because he requested a hundred pesos but only received seventy."
-},
-{
-"questionEnglish": "Which relative pronoun is used to provide extra information about Lencho in the sentence, 'Lencho - who knew his fields intimately - looked at the sky'?",
-"options": [
-"Which",
-"Who",
-"That",
-"Whom"
-],
-"answer": "Who",
-"explanation": "The relative clause begins with the relative pronoun 'who'."
-},
-{
-"questionEnglish": "What is a 'hailstorm'?",
-"options": [
-"A storm with heavy rain and wind",
-"A storm in which small balls of ice (hailstones) fall",
-"A storm with very high temperatures",
-"A dust storm in the desert"
-],
-"answer": "A storm in which small balls of ice (hailstones) fall",
-"explanation": "The text explains that a storm with hailstones is called a hailstorm."
-},
-{
-"questionEnglish": "What does the word 'conscience' mean in the text?",
-"options": [
-"A physical feeling of pain",
-"An inner sense of right and wrong",
-"A high level of intelligence",
-"A memory of past events"
-],
-"answer": "An inner sense of right and wrong",
-"explanation": "The glossary defines 'conscience' as an inner sense of right and wrong."
-},
-{
-"questionEnglish": "Why did Lencho say 'The hail has left nothing'?",
-"options": [
-"Because his garden was stolen",
-"Because his cornfield was totally destroyed",
-"Because the locusts ate everything else",
-"Because the wind blew his house away"
-],
-"answer": "Because his cornfield was totally destroyed",
-"explanation": "The hail destroyed the corn and left nothing behind."
-},
-{
-"questionEnglish": "How is 'hope' used in the sentence, 'I hope it passes quickly'?",
-"options": [
-"As a noun",
-"As a verb",
-"As an adjective",
-"As an adverb"
-],
-"answer": "As a verb",
-"explanation": "In that sentence, 'hope' is a verb expressing a wish for something to happen."
-},
-{
-"questionEnglish": "How is 'hope' used in the sentence, 'There was a single hope: help from God'?",
-"options": [
-"As a noun",
-"As a verb",
-"As an adjective",
-"As an adverb"
-],
-"answer": "As a noun",
-"explanation": "In that sentence, 'hope' is a noun meaning a chance or possibility for something to happen."
-},
-{
-"questionEnglish": "What does 'amiable' mean?",
-"options": [
-"Angry and cruel",
-"Friendly and pleasant",
-"Sad and lonely",
-"Smart and wealthy"
-],
-"answer": "Friendly and pleasant",
-"explanation": "The glossary defines 'amiable' as friendly and pleasant."
-},
-{
-"questionEnglish": "What does the word 'locusts' refer to in the story?",
-"options": [
-"A type of harmful bird",
-"A storm that brings rain",
-"Insects which fly in groups and destroy crops",
-"A machine used for farming"
-],
-"answer": "Insects which fly in groups and destroy crops",
-"explanation": "Locusts are defined as insects that fly in large groups and destroy crops."
-},
-{
-"questionEnglish": "When does Lencho begin to write his letter to God?",
-"options": [
-"On Saturday night",
-"The following Sunday at daybreak",
-"Immediately after the storm",
-"On Monday morning"
-],
-"answer": "The following Sunday at daybreak",
-"explanation": "Lencho began writing his letter to God on the following Sunday at daybreak."
-},
-{
-"questionEnglish": "What was the main purpose of Lencho's second letter to God?",
-"options": [
-"To thank Him for the money",
-"To complain that the post office employees were crooks",
-"To ask for a job at the post office",
-"To ask for more money and warn against the mail service"
-],
-"answer": "To ask for more money and warn against the mail service",
-"explanation": "Lencho requested the remaining money and asked God not to send it through the mail due to the employees."
-},
-{
-"questionEnglish": "How was Lencho's faith described by the postmaster?",
-"options": [
-"He wished he had the faith of the man who wrote this letter",
-"He thought the man was crazy",
-"He felt the man was very foolish",
-"He was suspicious of the man's intentions"
-],
-"answer": "He wished he had the faith of the man who wrote this letter",
-"explanation": "The postmaster was impressed by Lencho's faith and wished he had similar faith."
-},
-{
-"questionEnglish": "What does 'solitary' mean?",
-"options": [
-"Crowded and loud",
-"Lonely or single",
-"Bright and sunny",
-"Safe and secure"
-],
-"answer": "Lonely or single",
-"explanation": "The glossary defines 'solitary' as lonely or single."
-},
-{
-"questionEnglish": "How did Lencho show his frustration with the missing money?",
-"options": [
-"He walked into the post office and fought",
-"He wrote a second letter with intense effort and frustration",
-"He stopped writing letters forever",
-"He went to the police to report the theft"
-],
-"answer": "He wrote a second letter with intense effort and frustration",
-"explanation": "Lencho wrote a second letter, showing his frustration through the wrinkling of his brow."
-},
-{
-"questionEnglish": "What is the primary theme posed by the story 'A Letter to God'?",
-"options": [
-"The importance of hard work over faith",
-"The power of nature over man",
-"The role of faith in a person's life",
-"The corruption of government employees"
-],
-"answer": "The role of faith in a person's life",
-"explanation": "The story delicately poses the question of what we should put our faith in."
-},
-{
-"questionEnglish": "Why did Lencho use a blow of his fist to affix the stamp?",
-"options": [
-"Because he was angry",
-"Because he was in a hurry",
-"Because he was used to working with his hands",
-"Because the stamp was not sticking well"
-],
-"answer": "Because the stamp was not sticking well",
-"explanation": "Lencho licked the stamp and affixed it with a blow of his fist to ensure it stayed."
-},
-{
-"questionEnglish": "What does 'crooks' refer to in the story?",
-"options": [
-"A type of tool for farming",
-"A kind of crop",
-"Dishonest persons",
-"Friendly people"
-],
-"answer": "Dishonest persons",
-"explanation": "The glossary defines 'crooks' as dishonest persons."
-},
-{
-"questionEnglish": "What did the postmaster hope to achieve by helping Lencho?",
-"options": [
-"To be famous",
-"To keep the writer's faith in God",
-"To get money from the government",
-"To become a better farmer"
-],
-"answer": "To keep the writer's faith in God",
-"explanation": "The postmaster wanted to ensure the writer's faith in God was not shaken."
-},
-{
-"questionEnglish": "How does the story show Lencho's trust in God?",
-"options": [
-"He was surprised when he received money",
-"He was not surprised when he saw money in the envelope from God",
-"He checked the money many times",
-"He went to the post office to complain about the wait"
-],
-"answer": "He was not surprised when he saw money in the envelope from God",
-"explanation": "Lencho showed not the slightest surprise because he had total confidence in God."
-},
-{
-"questionEnglish": "What was the author's other occupation besides being a novelist and poet?",
-"options": [
-"Farmer",
-"Journalist",
-"Postmaster",
-"Soldier"
-],
-"answer": "Journalist",
-"explanation": "Gregorio Lopez Fuentes was a Mexican novelist, poet, and journalist."
-},
-{
-"questionEnglish": "Which year was Gregorio Lopez Fuentes awarded the National Prize of Arts and Science?",
-"options": [
-"1895",
-"1935",
-"1966",
-"1950"
-],
-"answer": "1935",
-"explanation": "He was awarded the National Prize of Arts and Science in 1935."
-},
-{
-"questionEnglish": "What happened to the flowers in Lencho's field?",
-"options": [
-"They were harvested",
-"They were destroyed by the hailstorm",
-"They grew into bigger fruits",
-"They were eaten by birds"
-],
-"answer": "They were destroyed by the hailstorm",
-"explanation": "The hailstorm was so severe that the flowers were gone from the plants."
-},
-{
-"questionEnglish": "How is a non-defining relative clause punctuated?",
-"options": [
-"With a question mark",
-"With commas",
-"With a semicolon",
-"With an exclamation mark"
-],
-"answer": "With commas",
-"explanation": "A non-defining relative clause usually has a comma preceding and following it."
-},
-{
-"questionEnglish": "What was the general mood in the valley after the hailstorm?",
-"options": [
-"Joyful and celebratory",
-"Sorrowful and filled with worry",
-"Calm and peaceful",
-"Excited and busy"
-],
-"answer": "Sorrowful and filled with worry",
-"explanation": "The night following the storm was described as a sorrowful one for Lencho and his family."
-},
-{
-"questionEnglish": "Why did Lencho look at the sky toward the north-east?",
-"options": [
-"He wanted to see the birds",
-"He was waiting for rain to fall on his crops",
-"He was waiting for the postman",
-"He was praying to the sun"
-],
-"answer": "He was waiting for rain to fall on his crops",
-"explanation": "Throughout the morning, Lencho, who knew his fields well, watched the sky looking for signs of rain."
-},
-{
-"questionEnglish": "Which phrase in the text illustrates the use of negative words for emphasis?",
-"options": [
-"The house was on a hill.",
-"Lencho showed not the slightest surprise.",
-"The sun was shining.",
-"The postman was laughing."
-],
-"answer": "Lencho showed not the slightest surprise.",
-"explanation": "This is an example of using negative words to emphasize the strength of Lencho's faith."
-},
-{
-"questionEnglish": "What were the 'frozen pearls' mentioned in the story?",
-"options": [
-"Raindrops",
-"Hailstones",
-"Corn seeds",
-"Ice cubes"
-],
-"answer": "Hailstones",
-"explanation": "The text refers to the hailstones as frozen pearls that the children went out to collect."
-},
-{
-"questionEnglish": "Which characteristic best defines Lencho based on his actions in the story?",
-"options": [
-"Dishonest",
-"Faithful and hardworking",
-"Aggressive and mean",
-"Lazy and indifferent"
-],
-"answer": "Faithful and hardworking",
-"explanation": "Lencho is shown as a deeply faithful person and a very hardworking farmer."
-}
+  {
+    "questionEnglish": "Where was Lencho's house located according to the story 'A Letter to God'?",
+    "questionenglish": "Where was Lencho's house located according to the story 'A Letter to God'?",
+    "options": [
+      "On a high mountain peak",
+      "On the crest of a low hill",
+      "In the middle of a dense forest",
+      "Beside a large bustling city"
+    ],
+    "answer": "On the crest of a low hill",
+    "explanation": "The text states that Lencho's house was the only one in the entire valley, sitting on the crest of a low hill."
+  },
+  {
+    "questionEnglish": "What was the one thing that Lencho's field of ripe corn needed for a good harvest?",
+    "questionenglish": "What was the one thing that Lencho's field of ripe corn needed for a good harvest?",
+    "options": [
+      "More sunlight and warmth",
+      "Stronger soil fertilizers",
+      "A downpour or at least a shower",
+      "Constant protection from insects"
+    ],
+    "answer": "A downpour or at least a shower",
+    "explanation": "Lencho knew his fields intimately and believed the earth only needed a downpour or at least a shower for a good harvest."
+  },
+  {
+    "questionEnglish": "How did Lencho react when he saw the raindrops falling?",
+    "questionenglish": "How did Lencho react when he saw the raindrops falling?",
+    "options": [
+      "He was worried about the harvest",
+      "He rushed inside to protect his corn",
+      "He went out to have the pleasure of feeling the rain on his body",
+      "He shouted at his sons to collect the corn quickly"
+    ],
+    "answer": "He went out to have the pleasure of feeling the rain on his body",
+    "explanation": "Lencho went out specifically to enjoy the pleasure of feeling the rain on his body."
+  },
+  {
+    "questionEnglish": "Why did Lencho compare the big raindrops to ten cent pieces and the little ones to fives?",
+    "questionenglish": "Why did Lencho compare the big raindrops to ten cent pieces and the little ones to fives?",
+    "options": [
+      "Because they were round and silver",
+      "Because they promised a good harvest, which meant money for his family",
+      "Because he found coins in his field during the rain",
+      "Because the rain was accompanied by falling coins"
+    ],
+    "answer": "Because they promised a good harvest, which meant money for his family",
+    "explanation": "Lencho considered the rain valuable for his harvest, so he metaphorically called them coins."
+  },
+  {
+    "questionEnglish": "What happened to the rain suddenly, changing the farmer's mood?",
+    "questionenglish": "What happened to the rain suddenly, changing the farmer's mood?",
+    "options": [
+      "It stopped completely",
+      "It turned into a massive flood",
+      "A strong wind began to blow and large hailstones fell",
+      "It turned into a dry, hot wind"
+    ],
+    "answer": "A strong wind began to blow and large hailstones fell",
+    "explanation": "The text describes that suddenly a strong wind blew and large hailstones fell, which destroyed the crops."
+  },
+  {
+    "questionEnglish": "What did the field look like after the hailstorm had passed?",
+    "questionenglish": "What did the field look like after the hailstorm had passed?",
+    "options": [
+      "Like it was covered in snow",
+      "Like it was covered with salt",
+      "Like it was full of white flowers",
+      "Like it was covered with silver coins"
+    ],
+    "answer": "Like it was covered with salt",
+    "explanation": "The hailstorm left the field white as if it were covered with salt."
+  },
+  {
+    "questionEnglish": "What was Lencho's primary hope after the total destruction of his cornfield?",
+    "questionenglish": "What was Lencho's primary hope after the total destruction of his cornfield?",
+    "options": [
+      "Help from the local government",
+      "Borrowing money from friends",
+      "Help from God",
+      "Finding work in the city"
+    ],
+    "answer": "Help from God",
+    "explanation": "Despite the destruction, there was a single hope in the hearts of those living in that house: help from God."
+  },
+  {
+    "questionEnglish": "How does the story describe Lencho as a worker?",
+    "questionenglish": "How does the story describe Lencho as a worker?",
+    "options": [
+      "He was lazy and relied on others",
+      "He was an ox of a man, working like an animal in the fields",
+      "He was a smart businessman who worked little",
+      "He was a weak man who couldn't work hard"
+    ],
+    "answer": "He was an ox of a man, working like an animal in the fields",
+    "explanation": "Lencho is described as an ox of a man who worked very hard in the fields."
+  },
+  {
+    "questionEnglish": "Why did Lencho write a letter to God?",
+    "questionenglish": "Why did Lencho write a letter to God?",
+    "options": [
+      "To thank Him for the rain",
+      "To complain about the weather",
+      "To ask for a hundred pesos to sow his field again",
+      "To report the post office employees"
+    ],
+    "answer": "To ask for a hundred pesos to sow his field again",
+    "explanation": "Lencho wrote to God asking for a hundred pesos to sow his field again and survive until the next crop."
+  },
+  {
+    "questionEnglish": "What was the reaction of the postman when he first saw Lencho's letter to God?",
+    "questionenglish": "What was the reaction of the postman when he first saw Lencho's letter to God?",
+    "options": [
+      "He was deeply moved",
+      "He laughed heartily",
+      "He was angry at the address",
+      "He threw it away immediately"
+    ],
+    "answer": "He laughed heartily",
+    "explanation": "The postman showed the letter to his boss while laughing heartily, having never seen such an address."
+  },
+  {
+    "questionEnglish": "Why did the postmaster decide to answer the letter?",
+    "questionenglish": "Why did the postmaster decide to answer the letter?",
+    "options": [
+      "Because he wanted to punish Lencho",
+      "Because he was paid by the government to do so",
+      "Because he did not want to shake the writer's faith in God",
+      "Because he had extra money to give away"
+    ],
+    "answer": "Because he did not want to shake the writer's faith in God",
+    "explanation": "The postmaster wanted to maintain Lencho's faith in God, so he decided to answer the letter."
+  },
+  {
+    "questionEnglish": "How much money was the postmaster able to collect for Lencho?",
+    "questionenglish": "How much money was the postmaster able to collect for Lencho?",
+    "options": [
+      "Exactly a hundred pesos",
+      "A little more than half the amount",
+      "Less than a quarter of the amount",
+      "Double the amount requested"
+    ],
+    "answer": "A little more than half the amount",
+    "explanation": "Despite his efforts, he could only gather a little more than half of the hundred pesos."
+  },
+  {
+    "questionEnglish": "What was Lencho's reaction when he counted the money he received from God?",
+    "questionenglish": "What was Lencho's reaction when he counted the money he received from God?",
+    "options": [
+      "He was grateful and happy",
+      "He became angry",
+      "He was confused and surprised",
+      "He burst into tears of joy"
+    ],
+    "answer": "He became angry",
+    "explanation": "Lencho became angry when he counted the money because it was not the full amount."
+  },
+  {
+    "questionEnglish": "What did Lencho call the post office employees in his second letter?",
+    "questionenglish": "What did Lencho call the post office employees in his second letter?",
+    "options": [
+      "Helpful friends",
+      "Generous donors",
+      "A bunch of crooks",
+      "Hardworking people"
+    ],
+    "answer": "A bunch of crooks",
+    "explanation": "In his second letter, Lencho accused the post office employees of stealing the missing money, calling them a bunch of crooks."
+  },
+  {
+    "questionEnglish": "Who was the author of the story 'A Letter to God'?",
+    "questionenglish": "Who was the author of the story 'A Letter to God'?",
+    "options": [
+      "C.F. Alexander",
+      "Gregorio Lopez Fuentes",
+      "Rabindranath Tagore",
+      "William Wordsworth"
+    ],
+    "answer": "Gregorio Lopez Fuentes",
+    "explanation": "The text identifies Gregorio Lopez Fuentes as the author of the story."
+  },
+  {
+    "questionEnglish": "What is the meaning of the word 'crest' as used in the story?",
+    "questionenglish": "What is the meaning of the word 'crest' as used in the story?",
+    "options": [
+      "The bottom of a valley",
+      "The highest part of a hill",
+      "A small village",
+      "A water channel"
+    ],
+    "answer": "The highest part of a hill",
+    "explanation": "The glossary defines 'crest' as the top or the highest part of a hill."
+  },
+  {
+    "questionEnglish": "What does 'dotted with' mean in the context of Lencho's cornfield?",
+    "questionenglish": "What does 'dotted with' mean in the context of Lencho's cornfield?",
+    "options": [
+      "Completely covered by",
+      "Scattered over an area",
+      "Dug into holes",
+      "Separated by walls"
+    ],
+    "answer": "Scattered over an area",
+    "explanation": "The glossary defines 'dotted with' as scattered over an area."
+  },
+  {
+    "questionEnglish": "What was Lencho's profession?",
+    "questionenglish": "What was Lencho's profession?",
+    "options": [
+      "Postmaster",
+      "Farmer",
+      "Journalist",
+      "Teacher"
+    ],
+    "answer": "Farmer",
+    "explanation": "Lencho is identified as a farmer who writes a letter to God when his crops fail."
+  },
+  {
+    "questionEnglish": "How would you describe the postmaster based on the story?",
+    "questionenglish": "How would you describe the postmaster based on the story?",
+    "options": [
+      "A rude and angry man",
+      "A fat, amiable fellow",
+      "A greedy and dishonest person",
+      "A strict and serious official"
+    ],
+    "answer": "A fat, amiable fellow",
+    "explanation": "The text describes the postmaster as a fat, amiable fellow."
+  },
+  {
+    "questionEnglish": "What was the significance of the signature in the letter Lencho received?",
+    "questionenglish": "What was the significance of the signature in the letter Lencho received?",
+    "options": [
+      "It was signed by the postmaster",
+      "It was signed 'God'",
+      "It was signed by the postman",
+      "It had no signature"
+    ],
+    "answer": "It was signed 'God'",
+    "explanation": "The postmaster put a single word as a signature: God."
+  },
+  {
+    "questionEnglish": "What does the expression 'an act of charity' mean?",
+    "questionenglish": "What does the expression 'an act of charity' mean?",
+    "options": [
+      "A way to earn money",
+      "An act of helping someone in need",
+      "A dishonest business deal",
+      "An official government duty"
+    ],
+    "answer": "An act of helping someone in need",
+    "explanation": "In the context of the story, collecting money for a needy person is considered an act of charity."
+  },
+  {
+    "questionEnglish": "In the sentence, 'Lencho was an ox of a man', what does the phrase mean?",
+    "questionenglish": "In the sentence, 'Lencho was an ox of a man', what does the phrase mean?",
+    "options": [
+      "He was a giant",
+      "He was very strong and hardworking",
+      "He was a foolish person",
+      "He was very slow"
+    ],
+    "answer": "He was very strong and hardworking",
+    "explanation": "The phrase implies that Lencho was a very hardworking and strong person, similar to an ox in the fields."
+  },
+  {
+    "questionEnglish": "What was the primary reason for Lencho's anger when receiving the second letter?",
+    "questionenglish": "What was the primary reason for Lencho's anger when receiving the second letter?",
+    "options": [
+      "He found the letter to be empty",
+      "He found only seventy pesos instead of a hundred",
+      "He was angry at God for sending so little",
+      "He was angry because the letter was torn"
+    ],
+    "answer": "He found only seventy pesos instead of a hundred",
+    "explanation": "Lencho was angry because he requested a hundred pesos but only received seventy."
+  },
+  {
+    "questionEnglish": "Which relative pronoun is used to provide extra information about Lencho in the sentence, 'Lencho - who knew his fields intimately - looked at the sky'?",
+    "questionenglish": "Which relative pronoun is used to provide extra information about Lencho in the sentence, 'Lencho - who knew his fields intimately - looked at the sky'?",
+    "options": [
+      "Which",
+      "Who",
+      "That",
+      "Whom"
+    ],
+    "answer": "Who",
+    "explanation": "The relative clause begins with the relative pronoun 'who'."
+  },
+  {
+    "questionEnglish": "What is a 'hailstorm'?",
+    "questionenglish": "What is a 'hailstorm'?",
+    "options": [
+      "A storm with heavy rain and wind",
+      "A storm in which small balls of ice (hailstones) fall",
+      "A storm with very high temperatures",
+      "A dust storm in the desert"
+    ],
+    "answer": "A storm in which small balls of ice (hailstones) fall",
+    "explanation": "The text explains that a storm with hailstones is called a hailstorm."
+  },
+  {
+    "questionEnglish": "What does the word 'conscience' mean in the text?",
+    "questionenglish": "What does the word 'conscience' mean in the text?",
+    "options": [
+      "A physical feeling of pain",
+      "An inner sense of right and wrong",
+      "A high level of intelligence",
+      "A memory of past events"
+    ],
+    "answer": "An inner sense of right and wrong",
+    "explanation": "The glossary defines 'conscience' as an inner sense of right and wrong."
+  },
+  {
+    "questionEnglish": "Why did Lencho say 'The hail has left nothing'?",
+    "questionenglish": "Why did Lencho say 'The hail has left nothing'?",
+    "options": [
+      "Because his garden was stolen",
+      "Because his cornfield was totally destroyed",
+      "Because the locusts ate everything else",
+      "Because the wind blew his house away"
+    ],
+    "answer": "Because his cornfield was totally destroyed",
+    "explanation": "The hail destroyed the corn and left nothing behind."
+  },
+  {
+    "questionEnglish": "How is 'hope' used in the sentence, 'I hope it passes quickly'?",
+    "questionenglish": "How is 'hope' used in the sentence, 'I hope it passes quickly'?",
+    "options": [
+      "As a noun",
+      "As a verb",
+      "As an adjective",
+      "As an adverb"
+    ],
+    "answer": "As a verb",
+    "explanation": "In that sentence, 'hope' is a verb expressing a wish for something to happen."
+  },
+  {
+    "questionEnglish": "How is 'hope' used in the sentence, 'There was a single hope: help from God'?",
+    "questionenglish": "How is 'hope' used in the sentence, 'There was a single hope: help from God'?",
+    "options": [
+      "As a noun",
+      "As a verb",
+      "As an adjective",
+      "As an adverb"
+    ],
+    "answer": "As a noun",
+    "explanation": "In that sentence, 'hope' is a noun meaning a chance or possibility for something to happen."
+  },
+  {
+    "questionEnglish": "What does 'amiable' mean?",
+    "questionenglish": "What does 'amiable' mean?",
+    "options": [
+      "Angry and cruel",
+      "Friendly and pleasant",
+      "Sad and lonely",
+      "Smart and wealthy"
+    ],
+    "answer": "Friendly and pleasant",
+    "explanation": "The glossary defines 'amiable' as friendly and pleasant."
+  },
+  {
+    "questionEnglish": "What does the word 'locusts' refer to in the story?",
+    "questionenglish": "What does the word 'locusts' refer to in the story?",
+    "options": [
+      "A type of harmful bird",
+      "A storm that brings rain",
+      "Insects which fly in groups and destroy crops",
+      "A machine used for farming"
+    ],
+    "answer": "Insects which fly in groups and destroy crops",
+    "explanation": "Locusts are defined as insects that fly in large groups and destroy crops."
+  },
+  {
+    "questionEnglish": "When does Lencho begin to write his letter to God?",
+    "questionenglish": "When does Lencho begin to write his letter to God?",
+    "options": [
+      "On Saturday night",
+      "The following Sunday at daybreak",
+      "Immediately after the storm",
+      "On Monday morning"
+    ],
+    "answer": "The following Sunday at daybreak",
+    "explanation": "Lencho began writing his letter to God on the following Sunday at daybreak."
+  },
+  {
+    "questionEnglish": "What was the main purpose of Lencho's second letter to God?",
+    "questionenglish": "What was the main purpose of Lencho's second letter to God?",
+    "options": [
+      "To thank Him for the money",
+      "To complain that the post office employees were crooks",
+      "To ask for a job at the post office",
+      "To ask for more money and warn against the mail service"
+    ],
+    "answer": "To ask for more money and warn against the mail service",
+    "explanation": "Lencho requested the remaining money and asked God not to send it through the mail due to the employees."
+  },
+  {
+    "questionEnglish": "How was Lencho's faith described by the postmaster?",
+    "questionenglish": "How was Lencho's faith described by the postmaster?",
+    "options": [
+      "He wished he had the faith of the man who wrote this letter",
+      "He thought the man was crazy",
+      "He felt the man was very foolish",
+      "He was suspicious of the man's intentions"
+    ],
+    "answer": "He wished he had the faith of the man who wrote this letter",
+    "explanation": "The postmaster was impressed by Lencho's faith and wished he had similar faith."
+  },
+  {
+    "questionEnglish": "What does 'solitary' mean?",
+    "questionenglish": "What does 'solitary' mean?",
+    "options": [
+      "Crowded and loud",
+      "Lonely or single",
+      "Bright and sunny",
+      "Safe and secure"
+    ],
+    "answer": "Lonely or single",
+    "explanation": "The glossary defines 'solitary' as lonely or single."
+  },
+  {
+    "questionEnglish": "How did Lencho show his frustration with the missing money?",
+    "questionenglish": "How did Lencho show his frustration with the missing money?",
+    "options": [
+      "He walked into the post office and fought",
+      "He wrote a second letter with intense effort and frustration",
+      "He stopped writing letters forever",
+      "He went to the police to report the theft"
+    ],
+    "answer": "He wrote a second letter with intense effort and frustration",
+    "explanation": "Lencho wrote a second letter, showing his frustration through the wrinkling of his brow."
+  },
+  {
+    "questionEnglish": "What is the primary theme posed by the story 'A Letter to God'?",
+    "questionenglish": "What is the primary theme posed by the story 'A Letter to God'?",
+    "options": [
+      "The importance of hard work over faith",
+      "The power of nature over man",
+      "The role of faith in a person's life",
+      "The corruption of government employees"
+    ],
+    "answer": "The role of faith in a person's life",
+    "explanation": "The story delicately poses the question of what we should put our faith in."
+  },
+  {
+    "questionEnglish": "Why did Lencho use a blow of his fist to affix the stamp?",
+    "questionenglish": "Why did Lencho use a blow of his fist to affix the stamp?",
+    "options": [
+      "Because he was angry",
+      "Because he was in a hurry",
+      "Because he was used to working with his hands",
+      "Because the stamp was not sticking well"
+    ],
+    "answer": "Because the stamp was not sticking well",
+    "explanation": "Lencho licked the stamp and affixed it with a blow of his fist to ensure it stayed."
+  },
+  {
+    "questionEnglish": "What does 'crooks' refer to in the story?",
+    "questionenglish": "What does 'crooks' refer to in the story?",
+    "options": [
+      "A type of tool for farming",
+      "A kind of crop",
+      "Dishonest persons",
+      "Friendly people"
+    ],
+    "answer": "Dishonest persons",
+    "explanation": "The glossary defines 'crooks' as dishonest persons."
+  },
+  {
+    "questionEnglish": "What did the postmaster hope to achieve by helping Lencho?",
+    "questionenglish": "What did the postmaster hope to achieve by helping Lencho?",
+    "options": [
+      "To be famous",
+      "To keep the writer's faith in God",
+      "To get money from the government",
+      "To become a better farmer"
+    ],
+    "answer": "To keep the writer's faith in God",
+    "explanation": "The postmaster wanted to ensure the writer's faith in God was not shaken."
+  },
+  {
+    "questionEnglish": "How does the story show Lencho's trust in God?",
+    "questionenglish": "How does the story show Lencho's trust in God?",
+    "options": [
+      "He was surprised when he received money",
+      "He was not surprised when he saw money in the envelope from God",
+      "He checked the money many times",
+      "He went to the post office to complain about the wait"
+    ],
+    "answer": "He was not surprised when he saw money in the envelope from God",
+    "explanation": "Lencho showed not the slightest surprise because he had total confidence in God."
+  },
+  {
+    "questionEnglish": "What was the author's other occupation besides being a novelist and poet?",
+    "questionenglish": "What was the author's other occupation besides being a novelist and poet?",
+    "options": [
+      "Farmer",
+      "Journalist",
+      "Postmaster",
+      "Soldier"
+    ],
+    "answer": "Journalist",
+    "explanation": "Gregorio Lopez Fuentes was a Mexican novelist, poet, and journalist."
+  },
+  {
+    "questionEnglish": "Which year was Gregorio Lopez Fuentes awarded the National Prize of Arts and Science?",
+    "questionenglish": "Which year was Gregorio Lopez Fuentes awarded the National Prize of Arts and Science?",
+    "options": [
+      "1895",
+      "1935",
+      "1966",
+      "1950"
+    ],
+    "answer": "1935",
+    "explanation": "He was awarded the National Prize of Arts and Science in 1935."
+  },
+  {
+    "questionEnglish": "What happened to the flowers in Lencho's field?",
+    "questionenglish": "What happened to the flowers in Lencho's field?",
+    "options": [
+      "They were harvested",
+      "They were destroyed by the hailstorm",
+      "They grew into bigger fruits",
+      "They were eaten by birds"
+    ],
+    "answer": "They were destroyed by the hailstorm",
+    "explanation": "The hailstorm was so severe that the flowers were gone from the plants."
+  },
+  {
+    "questionEnglish": "How is a non-defining relative clause punctuated?",
+    "questionenglish": "How is a non-defining relative clause punctuated?",
+    "options": [
+      "With a question mark",
+      "With commas",
+      "With a semicolon",
+      "With an exclamation mark"
+    ],
+    "answer": "With commas",
+    "explanation": "A non-defining relative clause usually has a comma preceding and following it."
+  },
+  {
+    "questionEnglish": "What was the general mood in the valley after the hailstorm?",
+    "questionenglish": "What was the general mood in the valley after the hailstorm?",
+    "options": [
+      "Joyful and celebratory",
+      "Sorrowful and filled with worry",
+      "Calm and peaceful",
+      "Excited and busy"
+    ],
+    "answer": "Sorrowful and filled with worry",
+    "explanation": "The night following the storm was described as a sorrowful one for Lencho and his family."
+  },
+  {
+    "questionEnglish": "Why did Lencho look at the sky toward the north-east?",
+    "questionenglish": "Why did Lencho look at the sky toward the north-east?",
+    "options": [
+      "He wanted to see the birds",
+      "He was waiting for rain to fall on his crops",
+      "He was waiting for the postman",
+      "He was praying to the sun"
+    ],
+    "answer": "He was waiting for rain to fall on his crops",
+    "explanation": "Throughout the morning, Lencho, who knew his fields well, watched the sky looking for signs of rain."
+  },
+  {
+    "questionEnglish": "Which phrase in the text illustrates the use of negative words for emphasis?",
+    "questionenglish": "Which phrase in the text illustrates the use of negative words for emphasis?",
+    "options": [
+      "The house was on a hill.",
+      "Lencho showed not the slightest surprise.",
+      "The sun was shining.",
+      "The postman was laughing."
+    ],
+    "answer": "Lencho showed not the slightest surprise.",
+    "explanation": "This is an example of using negative words to emphasize the strength of Lencho's faith."
+  },
+  {
+    "questionEnglish": "What were the 'frozen pearls' mentioned in the story?",
+    "questionenglish": "What were the 'frozen pearls' mentioned in the story?",
+    "options": [
+      "Raindrops",
+      "Hailstones",
+      "Corn seeds",
+      "Ice cubes"
+    ],
+    "answer": "Hailstones",
+    "explanation": "The text refers to the hailstones as frozen pearls that the children went out to collect."
+  },
+  {
+    "questionEnglish": "Which characteristic best defines Lencho based on his actions in the story?",
+    "questionenglish": "Which characteristic best defines Lencho based on his actions in the story?",
+    "options": [
+      "Dishonest",
+      "Faithful and hardworking",
+      "Aggressive and mean",
+      "Lazy and indifferent"
+    ],
+    "answer": "Faithful and hardworking",
+    "explanation": "Lencho is shown as a deeply faithful person and a very hardworking farmer."
+  }
 ]
