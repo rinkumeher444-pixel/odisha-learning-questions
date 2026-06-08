@@ -1,1 +1,552 @@
-
+[
+{
+"questionEnglish": "Who is the poet of the famous pastoral poem 'The Solitary Reaper' included in the Class 10 Odisha Board textbook?",
+"options": [
+"William Wordsworth",
+"C.F. Alexander",
+"John Keats",
+"Percy Bysshe Shelley"
+],
+"answer": "William Wordsworth",
+"explanation": "The poem 'The Solitary Reaper' was written by William Wordsworth, who is celebrated as a major nature poet in English literature."
+},
+{
+"questionEnglish": "What specific geographical region or setting forms the background of the poem 'The Solitary Reaper'?",
+"options": [
+"The Arabian Deserts",
+"The Highlands of Scotland",
+"The English Lake District",
+"The valleys of the Hebrides"
+],
+"answer": "The Highlands of Scotland",
+"explanation": "The text explicitly sets the scene in Scotland, referring to the young woman as a 'Highland Lass' working in the mountainous northern region."
+},
+{
+"questionEnglish": "What two physical activities is the young Scottish maiden performing simultaneously when the poet observes her?",
+"options": [
+"Sowing seeds and singing a joyful tune",
+"Reaping the grain and binding it while singing",
+"Threshing the wheat and dancing in the meadow",
+"Carrying water and chanting a religious hymn"
+],
+"answer": "Reaping the grain and binding it while singing",
+"explanation": "The poem notes that the solitary girl is 'reaping and singing by herself' and later describes her as she 'cuts and binds the grain'."
+},
+{
+"questionEnglish": "What command or advice does the poet initially give to passersby or travelers who happen to come near the girl?",
+"options": [
+"To go and help her complete her heavy work quickly",
+"To either stop and listen quietly or gently pass without disturbing her",
+"To throw coins at her to show appreciation for her voice",
+"To join her in chorus and sing along loudly"
+],
+"answer": "To either stop and listen quietly or gently pass without disturbing her",
+"explanation": "Wordsworth writes: 'Stop here, or gently pass!', indicating that travelers should respect her profound, uninterrupted moment."
+},
+{
+"questionEnglish": "What is the emotional tone or quality of the song sung by the solitary Highland girl as interpreted by the poet?",
+"options": [
+"An extremely cheerful and celebratory tone",
+"A deeply melancholy, sad, and plaintive strain",
+"An aggressive and patriotic battle chant",
+"A fast-paced, humorous comic tune"
+],
+"answer": "A deeply melancholy, sad, and plaintive strain",
+"explanation": "The poet describes her music as a 'melancholy strain' and notes that the valley is overflowing with this sad, beautiful sound."
+},
+{
+"questionEnglish": "According to the first stanza of the poem, what is happening to the deep, surrounding valley because of the girl's song?",
+"options": [
+"It is echoing with the terrifying sounds of wild birds.",
+"It is completely overflowing with the beautiful sound of her voice.",
+"It is falling into complete darkness as night approaches.",
+"It is filling up with water from a nearby running river."
+],
+"answer": "It is completely overflowing with the beautiful sound of her voice.",
+"explanation": "The poem states: 'O listen! for the Vale profound / Is overflowing with the sound.'"
+},
+{
+"questionEnglish": "Which bird does the poet first introduce to compare with the sweet voice of the Solitary Reaper?",
+"options": [
+"The Nightingale",
+"The Cuckoo-bird",
+"The Skylark",
+"The Golden Thrush"
+],
+"answer": "The Nightingale",
+"explanation": "In the second stanza, Wordsworth compares her voice to a nightingale, stating that no nightingale ever sang more welcome notes."
+},
+{
+"questionEnglish": "Where do the weary bands of travelers usually encounter the welcoming notes of the nightingale, according to the poem?",
+"options": [
+"Among the tall trees of the green Scottish woods",
+"Among shady haunts in the middle of Arabian deserts",
+"Near the cold running rivers of the northern islands",
+"Inside the old castles of traditional European kingdoms"
+],
+"answer": "Among shady haunts in the middle of Arabian deserts",
+"explanation": "The poem mentions nightingales chanting to 'weary bands / Of travellers in some shady haunt, / Among Arabian sands.'"
+},
+{
+"questionEnglish": "What second bird is introduced by the poet to illustrate the thrilling power of the maiden's singing voice?",
+"options": [
+"The Nightingale",
+"The Cuckoo-bird",
+"The Wild Eagle",
+"The White Swan"
+],
+"answer": "The Cuckoo-bird",
+"explanation": "The poet introduces the cuckoo-bird next, explaining that such a thrilling voice was never heard from a cuckoo-bird in springtime."
+},
+{
+"questionEnglish": "During which season of the year does the cuckoo-bird break the silence of the seas among the farthest Hebrides?",
+"options": [
+"In the middle of the cold winter",
+"In the fresh springtime months",
+"During the pleasant summer sun",
+"Late in the harvest autumn"
+],
+"answer": "In the fresh springtime months",
+"explanation": "The text specifically mentions the cuckoo-bird singing 'in spring-time', breaking the silence of the remote seas."
+},
+{
+"questionEnglish": "What geographical term does the poet use to describe the remote, northern group of islands near Scotland?",
+"options": [
+"Arabian sands",
+"Farthest Hebrides",
+"Vale profound",
+"Plaintive numbers"
+],
+"answer": "Farthest Hebrides",
+"explanation": "The poem reads: 'Breaking the silence of the seas / Among the farthest Hebrides,' referring to the islands off the northwest coast of Scotland."
+},
+{
+"questionEnglish": "Why is the poet unable to understand the exact literal meaning of the words the girl is singing?",
+"options": [
+"She is singing too far away from where he is standing.",
+"She is singing in a foreign or regional dialect (Gaelic) that he does not know.",
+"Her voice is too faint and weak to be heard properly.",
+"The strong mountain wind distorts the sounds of the words."
+],
+"answer": "She is singing in a foreign or regional dialect (Gaelic) that he does not know.",
+"explanation": "Because she sings in her native Gaelic language, the English-speaking poet cannot understand the specific words, prompting him to ask, 'Will no one tell me what she sings?'"
+},
+{
+"questionEnglish": "What guess or assumption does the poet make first regarding the subject matter of the maiden's sad song?",
+"options": [
+"That she is celebrating a recent wedding in her village",
+"That she is lamenting old, unhappy, far-off things, and battles fought long ago",
+"That she is practicing a new song for an upcoming harvest festival",
+"That she is cursing the travelers who are watching her work"
+],
+"answer": "That she is lamenting old, unhappy, far-off things, and battles fought long ago",
+"explanation": "The poet wonders if her song is about 'old, unhappy, far-off things, / And battles long ago.'"
+},
+{
+"questionEnglish": "What does the expression 'plaintive numbers' mean in the context of the Reaper's song?",
+"options": [
+"A mathematical calculation of the harvest crop",
+"A sorrowful or sad musical composition/poetry",
+"The total count of travelers passing through the valley",
+"A cheerful folksong popular among young farmers"
+],
+"answer": "A sorrowful or sad musical composition/poetry",
+"explanation": "In poetic language, 'numbers' refers to verses or music, and 'plaintive' means mournful, so 'plaintive numbers' indicates a sad song."
+},
+{
+"questionEnglish": "What alternative, everyday theme does the poet consider as a possible topic for the girl's sorrowful song?",
+"options": [
+"Some natural sorrow, loss, or pain that has happened and may happen again",
+"A complex philosophical theory about the origin of the universe",
+"A detailed description of the tools used for reaping crops",
+"A joyful prayer thanking God for a rich summer harvest"
+],
+"answer": "Some natural sorrow, loss, or pain that has happened and may happen again",
+"explanation": "The poet suggests it might be 'Some natural sorrow, loss, or pain, / That has been, and may be again', referring to ordinary human grief."
+},
+{
+"questionEnglish": "As the girl works and bends over her sickle, what does the poet notice about the potential ending of her song?",
+"options": [
+"The song changes into a joyful dance tune every ten minutes.",
+"The song seems to have no ending or natural limit, flowing continuously.",
+"The song ends abruptly when she notices the poet watching her.",
+"The song finishes precisely when the sun sets behind the mountains."
+],
+"answer": "The song seems to have no ending or natural limit, flowing continuously.",
+"explanation": "Wordsworth states: 'Whate'er the theme, the Maiden sang / As if her song could have no ending'."
+},
+{
+"questionEnglish": "What tool or instrument is the solitary girl using while cutting down the grain in the field?",
+"options": [
+"An automated mechanical tractor",
+"A sharp curved sickle",
+"A wooden spade",
+"An iron iron rake"
+],
+"answer": "A sharp curved sickle",
+"explanation": "The poem describes her 'bending over the sickle,' which is the traditional hand tool used for reaping grain."
+},
+{
+"questionEnglish": "How does the poet absorb or listen to the maiden's song as he stands on the mountain path?",
+"options": [
+"He listens while shouting questions at her.",
+"He stands completely motionless, still, and deeply quiet.",
+"He writes down the musical notes on a piece of paper.",
+"He sings along with her to experience the rhythm."
+],
+"answer": "He stands completely motionless, still, and deeply quiet.",
+"explanation": "Wordsworth notes: 'I listened, motionless and still', showing how transfixed and quiet he remained so as not to break the spell."
+},
+{
+"questionEnglish": "What happens to the music of the Solitary Reaper after the poet leaves the valley and climbs up the hill?",
+"options": [
+"He forgets the music immediately as he encounters new sights.",
+"The music continues to live on in his heart long after it can no longer be physically heard.",
+"He returns with a group of musicians to record the melody.",
+"The music becomes so loud that it causes him a severe headache."
+],
+"answer": "The music continues to live on in his heart long after it can no longer be physically heard.",
+"explanation": "The final lines read: 'The music in my heart I bore, / Long after it was heard no more', illustrating the lasting impression of art."
+},
+{
+"questionEnglish": "In the phrase 'Highland Lass', what does the regional word 'Lass' mean?",
+"options": [
+"An old peasant woman",
+"A young girl or unmarried young woman",
+"A sharp metal tool used for farming",
+"A deep valley surrounded by mountains"
+],
+"answer": "A young girl or unmarried young woman",
+"explanation": "In Scottish and Northern English dialects, 'lass' or 'lassie' refers specifically to a young girl."
+},
+{
+"questionEnglish": "What does the expression 'Vale profound' signify in the first stanza of the poem?",
+"options": [
+"A highly sophisticated musical scale",
+"A very deep, vast, and valley-like landscape",
+"A dense forest filled with tall pine trees",
+"A historical monument built in Scotland"
+],
+"answer": "A very deep, vast, and valley-like landscape",
+"explanation": "'Vale' is a poetic form for a valley, and 'profound' here means deep or far-reaching; hence, a deep valley."
+},
+{
+"questionEnglish": "Why does the poet describe the summer sun as 'pleasant' in nature poems of this region, unlike in tropical countries?",
+"options": [
+"Because it never rises in the morning hours",
+"Because the climate is generally cold, making the warm sun highly welcome and delightful",
+"Because the sun turns the mountain peaks into a bright purple color",
+"Because it stops the cold winds from blowing entirely"
+],
+"answer": "Because the climate is generally cold, making the warm sun highly welcome and delightful",
+"explanation": "In colder Western countries like Scotland and England, the summer sun provides a comfortable warmth that is considered pleasant and highly valued."
+},
+{
+"questionEnglish": "What is the central theme or core message of William Wordsworth's 'The Solitary Reaper'?",
+"options": [
+"The severe economic hardships faced by agricultural workers in Europe",
+"The beautiful, enduring power of simple human song and its lasting impact on the soul",
+"The necessity of learning multiple foreign languages to understand music",
+"The scientific migration patterns of nightingales and cuckoo-birds"
+],
+"answer": "The beautiful, enduring power of simple human song and its lasting impact on the soul",
+"explanation": "The poem celebrates how a simple, beautiful song heard in nature can touch the human spirit and remain as a source of joy forever."
+},
+{
+"questionEnglish": "Which of the following phrases from the poem contains an example of a word meaning 'sadness or grief'?",
+"options": [
+"Shady haunt",
+"Melancholy strain",
+"Welcome notes",
+"Thrilling voice"
+],
+"answer": "Melancholy strain",
+"explanation": "'Melancholy' means sad or sorrowful, which characterizes the emotional weight of the girl's song."
+},
+{
+"questionEnglish": "What does the poet mean by the word 'theme' when he says 'Whate'er the theme, the Maiden sang'?",
+"options": [
+"The mechanical rhythm of the sickle",
+"The subject matter or topic of the song",
+"The monetary value of the crop being reaped",
+"The physical speed of her work"
+],
+"answer": "The subject matter or topic of the song",
+"explanation": "'Theme' refers to the core topic, meaning that regardless of what specific story or message she was singing about, her voice was captivating."
+},
+{
+"questionEnglish": "How does Wordsworth view the girl's song in comparison to the music of the nightingale?",
+"options": [
+"He finds her song less appealing and more annoying than the nightingale's notes.",
+"He finds her song more welcome and soothing to weary travelers than any nightingale's notes.",
+"He believes the nightingale sings with a much wider vocal range.",
+"He notes that nightingales only sing during harvest time."
+],
+"answer": "He finds her song more welcome and soothing to weary travelers than any nightingale's notes.",
+"explanation": "The poet states that 'No Nightingale did ever chaunt / More welcome notes to weary bands', positioning her song above the bird's music."
+},
+{
+"questionEnglish": "What is the primary artistic value that the poem places on the concept of 'Solitude'?",
+"options": [
+"Solitude makes a person lazy and uncooperative.",
+"Solitude enhances the beauty of nature and allows deep emotional experiences to develop.",
+"Solitude is dangerous and should always be avoided by young students.",
+"Solitude prevents a poet from writing good verse."
+],
+"answer": "Solitude enhances the beauty of nature and allows deep emotional experiences to develop.",
+"explanation": "The solitary nature of the girl's work and her setting intensifies the beauty and emotional resonance of her song for the poet."
+},
+{
+"questionEnglish": "What grammatical function does the word 'Solitary' perform in the title 'The Solitary Reaper'?",
+"options": [
+"Noun",
+"Adjective",
+"Verb",
+"Adverb"
+],
+"answer": "Adjective",
+"explanation": "'Solitary' describes or modifies the noun 'Reaper', indicating that she is alone, which makes it an adjective."
+},
+{
+"questionEnglish": "Select the option that correctly describes the rhyme scheme of the opening stanza of 'The Solitary Reaper'.",
+"options": [
+"AABBCCDD",
+"ABABCCDD",
+"ABCBDEEF",
+"ABCDABCD"
+],
+"answer": "ABCBDEEF",
+"explanation": "Examining the ending words of the first stanza (lass, field, solitary, grain, by, strain, profound, sound) reveals a flexible variation of rhyme, characteristic of Wordsworth's ballads."
+},
+{
+"questionEnglish": "What figure of speech is dominant when the poet compares the maiden's voice to that of birds like the nightingale and cuckoo?",
+"options": [
+"Metaphor",
+"Hyperbole",
+"Simile / Comparison",
+"Personification"
+],
+"answer": "Simile / Comparison",
+"explanation": "The poet uses direct comparisons to illustrate the supreme beauty and thrilling nature of the girl's voice relative to iconic singing birds."
+},
+{
+"questionEnglish": "What does the poet mean by the word 'chaunt' used in the second stanza of the text?",
+"options": [
+"To shout out in extreme anger",
+"An archaic or old spelling of 'chant' or 'sing'",
+"To cut grain with a heavy blade",
+"To travel across long desert spaces"
+],
+"answer": "An archaic or old spelling of 'chant' or 'sing'",
+"explanation": "'Chaunt' is an older literary spelling of the word 'chant', which means to sing rhythmically."
+},
+{
+"questionEnglish": "In the line 'A voice so thrilling ne'er was heard', what word does 'ne'er' represent in modern English?",
+"options": [
+"Near",
+"Never",
+"Neither",
+"Next"
+],
+"answer": "Never",
+"explanation": "'Ne'er' is a poetic contraction commonly used in literature to represent the word 'never'."
+},
+{
+"questionEnglish": "What does the poet mean by the phrase 'farthest Hebrides' in terms of its poetic effect?",
+"options": [
+"A noisy, industrial town located near London",
+"A highly remote, isolated, and distant group of islands",
+"A dense jungle area found in tropical countries",
+"The central palace of the Scottish royal family"
+],
+"answer": "A highly remote, isolated, and distant group of islands",
+"explanation": "The phrase emphasizes extreme distance and isolation, showing how far her voice seems to carry its thrilling power."
+},
+{
+"questionEnglish": "What historical reality is hinted at when the poet mentions 'battles long ago' as a possible theme?",
+"options": [
+"The ancient clan wars and conflicts of Scottish history",
+"The industrial revolution occurring in big cities",
+"The building of the great pyramids in Egypt",
+"The maritime trade routes between India and Europe"
+],
+"answer": "The ancient clan wars and conflicts of Scottish history",
+"explanation": "Since the setting is the Scottish Highlands, 'battles long ago' refers to the historical, legendary conflicts fought in that mountainous territory."
+},
+{
+"questionEnglish": "Why does the poet describe the girl as a 'Maiden' in the third stanza?",
+"options": [
+"Because she is an elderly village worker",
+"Because it is a poetic term for a young, unmarried woman",
+"Because she is a trained professional musician",
+"Because she is a traveler from a distant country"
+],
+"answer": "Because it is a poetic term for a young, unmarried woman",
+"explanation": "'Maiden' is a traditional literary term used to describe a young girl or woman."
+},
+{
+"questionEnglish": "What kind of instrument is a 'sickle' as inferred from its use in harvesting?",
+"options": [
+"A musical wind instrument played in spring",
+"A tool with a crescent-shaped blade used for cutting agriculture crops",
+"A long wooden stick used for balancing on hills",
+"A special bag used for carrying reaped wheat grains"
+],
+"answer": "A tool with a crescent-shaped blade used for cutting agriculture crops",
+"explanation": "A sickle is a traditional hand-held agricultural tool with a distinct curved blade, used specifically for harvesting grain."
+},
+{
+"questionEnglish": "How does the poet's choice to remain 'motionless and still' reflect his experience?",
+"options": [
+"He was too tired from climbing the steep hill to move any further.",
+"He was completely spellbound and enchanted by the spiritual beauty of her song.",
+"He was trying to hide from the girl so she wouldn't see him.",
+"He was waiting for his fellow travelers to catch up with him."
+],
+"answer": "He was completely spellbound and enchanted by the spiritual beauty of her song.",
+"explanation": "Remaining perfectly still emphasizes how deeply affected the poet was; he did not want to make any sound that might interrupt the beautiful melody."
+},
+{
+"questionEnglish": "What does the word 'bore' mean in the final line: 'The music in my heart I bore'?",
+"options": [
+"To drill a hole through a hard mountain rock",
+"To feel tired, uninterested, or completely unexcited",
+"Carried or held onto an emotion/memory while moving away",
+"To lose something valuable during a journey"
+],
+"answer": "Carried or held onto an emotion/memory while moving away",
+"explanation": "Here, 'bore' is the past tense of 'bear', which means to carry. The poet carried the beautiful memory of the music deep within his heart."
+},
+{
+"questionEnglish": "Which of the following best describes the structural layout of the poem 'The Solitary Reaper'?",
+"options": [
+"A long epic poem written in continuous blank verse without any stanzas",
+"A beautifully structured lyric poem consisting of four distinct eight-line stanzas",
+"A precise fourteen-line sonnet divided into an octave and a sestet",
+"A modern free verse poem with completely irregular lines and no rhythm"
+],
+"answer": "A beautifully structured lyric poem consisting of four distinct eight-line stanzas",
+"explanation": "The poem has a balanced structure made up of exactly four stanzas, with each stanza containing eight lines (octave)."
+},
+{
+"questionEnglish": "What does the phrase 'frequent matter' refer to in the poem's third stanza?",
+"options": [
+"A scientific discussion that happens regularly in schools",
+"An ordinary, common event or familiar topic of everyday human life",
+"A high fine imposed by a school headmaster",
+"The fast physical rate at which grain is bound"
+],
+"answer": "An ordinary, common event or familiar topic of everyday human life",
+"explanation": "The poet uses 'frequent matter' to contrast legendary historical topics with normal, everyday human experiences like local loss or family sorrow."
+},
+{
+"questionEnglish": "What role does the 'sickle' play in the overall imagery of the final stanza?",
+"options": [
+"It shows that the girl is performing manual physical labor while creating art.",
+"It proves that she is an aggressive warrior preparing for an attack.",
+"It indicates that she is about to destroy the surrounding valley landscape.",
+"It represents an expensive modern technology used in global farming."
+],
+"answer": "It shows that the girl is performing manual physical labor while creating art.",
+"explanation": "The image of her singing while 'bending over the sickle' unites the ideas of hard manual work and spontaneous, beautiful art."
+},
+{
+"questionEnglish": "Why does Wordsworth bring up the 'Arabian sands' in a poem that takes place in cold Scotland?",
+"options": [
+"To show that the girl had recently migrated from an Arabic country",
+"To create a stark, imaginative contrast between the dry desert and the green hills of Scotland",
+"To prove that nightingales are incapable of flying to northern Europe",
+"To describe a journey he had taken right before visiting the Highlands"
+],
+"answer": "To create a stark, imaginative contrast between the dry desert and the green hills of Scotland",
+"explanation": "By comparing her song to a nightingale in the distant, hot Arabian desert, he emphasizes how refreshing and welcome her voice sounds in the cool Highlands."
+},
+{
+"questionEnglish": "What does the adjective 'plaintive' indicate about the nature of the girl's song?",
+"options": [
+"It means the song was extremely loud and noisy.",
+"It means the song carried an expression of deep sorrow, sadness, or mourning.",
+"It means the song was sung in a highly formal, operatic classical style.",
+"It means the song had an upbeat tempo suitable for children's games."
+],
+"answer": "It means the song carried an expression of deep sorrow, sadness, or mourning.",
+"explanation": "'Plaintive' is defined as sounding sad and mournful, which perfectly describes the 'melancholy strain' noted by the poet."
+},
+{
+"questionEnglish": "In the line 'O listen! for the Vale profound', what is the purpose of the exclamation mark?",
+"options": [
+"To show that the poet is in extreme physical danger",
+"To call the immediate, urgent attention of the reader to the beauty of the song",
+"To indicate that the girl has stopped singing her song",
+"To mark the end of the harvest season in the village"
+],
+"answer": "To call the immediate, urgent attention of the reader to the beauty of the song",
+"explanation": "The exclamation highlights the poet's excitement and deep emotional response, drawing the reader directly into the listening experience."
+},
+{
+"questionEnglish": "What does the word 'humble' mean in the expression 'humble lay' in the third stanza?",
+"options": [
+"An expensive, complex musical masterpiece",
+"A modest, simple, and ordinary song about everyday life",
+"A religious chant performed by high priests in churches",
+"A famous national anthem sung during wartime"
+],
+"answer": "A modest, simple, and ordinary song about everyday life",
+"explanation": "In this context, 'humble' means simple or modest, and 'lay' means a song or short narrative poem; thus, it represents a simple song."
+},
+{
+"questionEnglish": "What does the final couplet 'The music in my heart I bore, / Long after it was heard no more' reveal about the impact of poetry and art?",
+"options": [
+"True beauty is temporary and disappears as soon as we leave a place.",
+"Art and music possess an enduring, permanent value that continues to enrich the human soul indefinitely.",
+"It is impossible to remember musical melodies without recording devices.",
+"The poet decided to become a professional musician after that day."
+],
+"answer": "Art and music possess an enduring, permanent value that continues to enrich the human soul indefinitely.",
+"explanation": "The closing lines encapsulate the romantic ideal that a beautiful experience leaves a permanent mark on our inner spiritual life, providing ongoing comfort."
+},
+{
+"questionEnglish": "Which of the following is antonymous to the word 'Solitary' as used in the poem?",
+"options": [
+"Alone",
+"Accompanied / Crowded",
+"Single",
+"Isolated"
+],
+"answer": "Accompanied / Crowded",
+"explanation": "'Solitary' means being completely alone; therefore, its opposite or antonym is being accompanied or in a crowd."
+},
+{
+"questionEnglish": "How does the poem 'The Solitary Reaper' reflect William Wordsworth's philosophy as a Romantic Nature Poet?",
+"options": [
+"By focusing on elite high-society events inside grand city palaces",
+"By finding profound spiritual beauty and emotional depth in ordinary rustic people and natural settings",
+"By advocating for advanced scientific industrial machinery in agriculture",
+"By analyzing the strict political structures of the British parliament"
+],
+"answer": "By finding profound spiritual beauty and emotional depth in ordinary rustic people and natural settings",
+"explanation": "Wordsworth's poetry is famous for celebrating common rustic life, simple labor, and the deep emotional connections sparked by encounters in nature."
+},
+{
+"questionEnglish": "What does the phrase 'has been, and may be again' suggest about human life and sorrow in the third stanza?",
+"options": [
+"Sorrow is a completely unique event that only happens once in history.",
+"Grief, loss, and suffering are universal and recurring parts of the human experience.",
+"Human beings will eventually eliminate all natural pain through technology.",
+"The girl is singing about a fictional event that never actually occurred."
+],
+"answer": "Grief, loss, and suffering are universal and recurring parts of the human experience.",
+"explanation": "The phrase highlights that natural sorrows and losses are a normal part of life that have happened in the past and will inevitably occur again."
+},
+{
+"questionEnglish": "What mechanism does the poet use to show that the girl is completely unaware of his presence?",
+"options": [
+"He describes her looking directly at him and waving her hand.",
+"He notes that she continues her work and singing uninterrupted, absorbed in her own world.",
+"He mentions that she stops singing to ask him for financial help.",
+"He states that she runs away as soon as he climbs up the hill."
+],
+"answer": "He notes that she continues her work and singing uninterrupted, absorbed in her own world.",
+"explanation": "The maiden remains fully focused on her work, cutting and binding grain while singing, showing she is beautifully unaware of the observer on the hill."
+}
+]
