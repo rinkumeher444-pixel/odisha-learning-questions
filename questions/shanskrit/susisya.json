@@ -1,0 +1,615 @@
+[
+{
+"questionEnglish": "Who was the teacher of Upamanyu?",
+"questionOdia": "ଉପମନ୍ୟୁଙ୍କ ଗୁରୁ କିଏ ଥିଲେ?",
+"options": [
+"ଆୟୋଦଧୌମ୍ୟ",
+"ବଶିଷ୍ଠ",
+"ବିଶ୍ୱାମିତ୍ର",
+"ଦ୍ରୋଣାଚାର୍ଯ୍ୟ"
+],
+"answer": "ଆୟୋଦଧୌମ୍ୟ",
+"explanation": "ଆୟୋଦଧୌମ୍ୟ ମହର୍ଷି ଥିଲେ ଯିଏ ଉପମନ୍ୟୁଙ୍କୁ ଶିକ୍ଷା ପ୍ରଦାନ କରୁଥିଲେ।"
+},
+{
+"questionEnglish": "What was the primary duty assigned to Upamanyu by his guru?",
+"questionOdia": "ଗୁରୁଙ୍କ ଦ୍ୱାରା ଉପମନ୍ୟୁଙ୍କୁ କେଉଁ ମୁଖ୍ୟ କାର୍ଯ୍ୟ ଦିଆଯାଇଥିଲା?",
+"options": [
+"ଗାଈ ଚରାଇବା",
+"ଘର ସଫା କରିବା",
+"ଭିକ୍ଷା କରିବା",
+"ବେଦ ପଢ଼ିବା"
+],
+"answer": "ଗାଈ ଚରାଇବା",
+"explanation": "ଗୁରୁଙ୍କ ଆଦେଶ ଅନୁସାରେ ଉପମନ୍ୟୁ ଦିନସାରା ଗାଈ ଚରାଇବା କାର୍ଯ୍ୟ କରୁଥିଲେ।"
+},
+{
+"questionEnglish": "Why did Upamanyu become weak and pale?",
+"questionOdia": "ଉପମନ୍ୟୁ କାହିଁକି ଦୁର୍ବଳ ଓ ନିସ୍ତେଜ ହୋଇଯାଇଥିଲେ?",
+"options": [
+"ଉପଯୁକ୍ତ ଖାଦ୍ୟ ନ ପାଇବା ଯୋଗୁଁ",
+"ଅତ୍ୟଧିକ ପରିଶ୍ରମ ଯୋଗୁଁ",
+"ସୂର୍ଯ୍ୟତାପ ଯୋଗୁଁ",
+"ଗୁରୁଙ୍କ ଭୟରେ"
+],
+"answer": "ଉପଯୁକ୍ତ ଖାଦ୍ୟ ନ ପାଇବା ଯୋଗୁଁ",
+"explanation": "ଭିକ୍ଷା କରିଥିବା ସମସ୍ତ ଖାଦ୍ୟ ଗୁରୁଙ୍କୁ ଦେବା କାରଣରୁ ସେ ନିଜେ ଖାଇବାକୁ ପାଉନଥିଲେ।"
+},
+{
+"questionEnglish": "What did Upamanyu eat when he could not get food?",
+"questionOdia": "ଖାଦ୍ୟ ନ ମିଳିଲେ ଉପମନ୍ୟୁ କ'ଣ ଖାଉଥିଲେ?",
+"options": [
+"ଅର୍କ ପତ୍ର",
+"ଫଳ",
+"ମୂଳ",
+"କିଛି ବି ନୁହେଁ"
+],
+"answer": "ଅର୍କ ପତ୍ର",
+"explanation": "କ୍ଷୁଧା ନିବାରଣ ପାଇଁ ସେ ଅର୍କ (ଆକନ୍ଦ) ପତ୍ର ଖାଇ ଦେଇଥିଲେ, ଯାହା ଫଳରେ ସେ ଦୃଷ୍ଟିଶକ୍ତି ହରାଇଥିଲେ।"
+},
+{
+"questionEnglish": "What happened to Upamanyu after eating Ark leaves?",
+"questionOdia": "ଅର୍କ ପତ୍ର ଖାଇବା ପରେ ଉପମନ୍ୟୁଙ୍କର କ'ଣ ହେଲା?",
+"options": [
+"ସେ ଅନ୍ଧ ହୋଇଗଲେ",
+"ସେ ଅସୁସ୍ଥ ହୋଇଗଲେ",
+"ସେ କଥା କହିପାରିଲେ ନାହିଁ",
+"ସେ ଚାଲିପାରିଲେ ନାହିଁ"
+],
+"answer": "ସେ ଅନ୍ଧ ହୋଇଗଲେ",
+"explanation": "ଅର୍କ ପତ୍ର ବିଷାକ୍ତ ହୋଇଥିବାରୁ ତାହା ଖାଇ ସେ ନିଜର ଦୃଷ୍ଟିଶକ୍ତି ହରାଇଥିଲେ।"
+},
+{
+"questionEnglish": "How did Upamanyu get his eyesight back?",
+"questionOdia": "ଉପମନ୍ୟୁ କିପରି ତାଙ୍କର ଦୃଷ୍ଟିଶକ୍ତି ଫେରି ପାଇଲେ?",
+"options": [
+"ଅଶ୍ୱିନୀ କୁମାରଙ୍କ ପ୍ରସନ୍ନତା ଦ୍ୱାରା",
+"ଗୁରୁଙ୍କ ଆଶୀର୍ବାଦ ଦ୍ୱାରା",
+"ଔଷଧ ସେବନ ଦ୍ୱାରା",
+"ବିଶ୍ରାମ ନେବା ଦ୍ୱାରା"
+],
+"answer": "ଅଶ୍ୱିନୀ କୁମାରଙ୍କ ପ୍ରସନ୍ନତା ଦ୍ୱାରା",
+"explanation": "ଅଶ୍ୱିନୀ କୁମାରଙ୍କ ସ୍ତୁତି କରିବା ଦ୍ୱାରା ସେ ପ୍ରସନ୍ନ ହୋଇ ତାଙ୍କୁ ଦୃଷ୍ଟିଶକ୍ତି ପ୍ରଦାନ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What is the primary moral lesson of this story?",
+"questionOdia": "ଏହି କାହାଣୀର ପ୍ରଧାନ ନୈତିକ ଶିକ୍ଷା କ'ଣ?",
+"options": [
+"ଗୁରୁଭକ୍ତି",
+"ଧନ ଅର୍ଜନ",
+"ଶାରୀରିକ ଶକ୍ତି",
+"ବୁଦ୍ଧିମତା"
+],
+"answer": "ଗୁରୁଭକ୍ତି",
+"explanation": "ଗୁରୁଙ୍କ ପ୍ରତି ସମ୍ପୂର୍ଣ୍ଣ ସମର୍ପଣ ଓ ଭକ୍ତି ହିଁ ଜଣେ ଶିଷ୍ୟର ପ୍ରକୃତ ଗୁଣ।"
+},
+{
+"questionEnglish": "Where did Upamanyu fall while searching for cows?",
+"questionOdia": "ଗାଈ ଖୋଜୁଥିବା ସମୟରେ ଉପମନ୍ୟୁ କେଉଁଠାରେ ପଡ଼ିଗଲେ?",
+"options": [
+"ଗୋଟିଏ କୂଅରେ",
+"ଗୋଟିଏ ଗାତରେ",
+"ନଦୀରେ",
+"ପାହାଡ଼ରେ"
+],
+"answer": "ଗୋଟିଏ କୂଅରେ",
+"explanation": "ଗାଈ ଖୋଜୁ ଖୋଜୁ ସେ ଅନ୍ଧକାରରେ ନ ଦେଖି ଗୋଟିଏ ଗଭୀର କୂଅରେ ପଡ଼ିଯାଇଥିଲେ।"
+},
+{
+"questionEnglish": "What did the teacher ask Upamanyu to do with the alms he collected?",
+"questionOdia": "ଗୁରୁ ଉପମନ୍ୟୁଙ୍କୁ ଭିକ୍ଷା କରିଥିବା ଖାଦ୍ୟକୁ କ'ଣ କରିବାକୁ କହିଥିଲେ?",
+"options": [
+"ତାଙ୍କୁ ଦେବା ପାଇଁ",
+"ନିଜେ ଖାଇବା ପାଇଁ",
+"ଅନ୍ୟକୁ ବାଣ୍ଟିବା ପାଇଁ",
+"ଫିଙ୍ଗି ଦେବା ପାଇଁ"
+],
+"answer": "ତାଙ୍କୁ ଦେବା ପାଇଁ",
+"explanation": "ଗୁରୁଙ୍କ ନିର୍ଦ୍ଦେଶ ଥିଲା ଯେ ଭିକ୍ଷାରେ ମିଳିଥିବା ସବୁ ସାମଗ୍ରୀ ତାଙ୍କୁ ସମର୍ପଣ କରିବାକୁ ହେବ।"
+},
+{
+"questionEnglish": "What was the reason for Upamanyu eating Ark leaves?",
+"questionOdia": "ଉପମନ୍ୟୁ କାହିଁକି ଅର୍କ ପତ୍ର ଖାଇଥିଲେ?",
+"options": [
+"ଅତ୍ୟଧିକ କ୍ଷୁଧା ଯୋଗୁଁ",
+"ପରୀକ୍ଷା କରିବା ପାଇଁ",
+"ଗୁରୁଙ୍କ ଆଦେଶରେ",
+"ଖେଳ କୌତୁକରେ"
+],
+"answer": "ଅତ୍ୟଧିକ କ୍ଷୁଧା ଯୋଗୁଁ",
+"explanation": "ଖାଇବାକୁ କିଛି ନ ମିଳିବାରୁ କ୍ଷୁଧାର ଆତୁରତାରେ ସେ ଅର୍କ ପତ୍ର ଖାଇଥିଲେ।"
+},
+{
+"questionEnglish": "How many times did Upamanyu go for alms in a day?",
+"questionOdia": "ଉପମନ୍ୟୁ ଦିନକୁ କେତେ ଥର ଭିକ୍ଷା ପାଇଁ ଯାଉଥିଲେ?",
+"options": [
+"ଅନେକ ଥର",
+"ଥରେ",
+"ଦୁଇ ଥର",
+"ତିନି ଥର"
+],
+"answer": "ଅନେକ ଥର",
+"explanation": "ଗୁରୁଙ୍କ ପରୀକ୍ଷା ଯୋଗୁଁ ତାଙ୍କୁ ବାରମ୍ବାର ଭିକ୍ଷା କରିବାକୁ ପଡ଼ୁଥିଲା।"
+},
+{
+"questionEnglish": "What did the teacher say when Upamanyu offered his first alms?",
+"questionOdia": "ଉପମନ୍ୟୁ ପ୍ରଥମ ଭିକ୍ଷା ଦେଲା ବେଳେ ଗୁରୁ କ'ଣ କହିଲେ?",
+"options": [
+"ସବୁ ଖାଇଯିବ",
+"ଅଧା ରଖିବ",
+"ଅଳ୍ପ କିଛି ଦେବ",
+"କିଛି କହିଲେ ନାହିଁ"
+],
+"answer": "ସବୁ ଖାଇଯିବ",
+"explanation": "ଗୁରୁ ଉପମନ୍ୟୁଙ୍କୁ ଶିକ୍ଷା ଦେବା ପାଇଁ ସେହି ଭିକ୍ଷାକୁ ନିଜେ ଖାଇଯାଉଥିଲେ।"
+},
+{
+"questionEnglish": "How did Upamanyu maintain his body?",
+"questionOdia": "ଉପମନ୍ୟୁ ନିଜ ଶରୀରକୁ କିପରି ରକ୍ଷା କରୁଥିଲେ?",
+"options": [
+"ଗାଈଙ୍କ କ୍ଷୀର ପିଇ",
+"ଫଳ ଖାଇ",
+"କିଛି ନ ଖାଇ",
+"କନ୍ଦମୂଳ ଖାଇ"
+],
+"answer": "ଗାଈଙ୍କ କ୍ଷୀର ପିଇ",
+"explanation": "ପରେ ସେ ଗାଈଙ୍କ କ୍ଷୀର ପିଇ ନିଜ କ୍ଷୁଧା ମେଣ୍ଟାଉଥିଲେ।"
+},
+{
+"questionEnglish": "Did the teacher allow Upamanyu to drink milk?",
+"questionOdia": "ଗୁରୁ ଉପମନ୍ୟୁଙ୍କୁ କ୍ଷୀର ପିଇବାକୁ ଅନୁମତି ଦେଇଥିଲେ କି?",
+"options": [
+"ନା",
+"ହଁ",
+"କିଛି କହି ନଥିଲେ",
+"ମନା କରିଥିଲେ"
+],
+"answer": "ନା",
+"explanation": "ଗୁରୁଙ୍କ ଅନୁମତି ବିନା କ୍ଷୀର ପିଇବାକୁ ସେ ମନା କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What was the result of Upamanyu's devotion?",
+"questionOdia": "ଉପମନ୍ୟୁଙ୍କ ଭକ୍ତିର ଫଳ କ'ଣ ହେଲା?",
+"options": [
+"ସେ ଜ୍ଞାନୀ ହେଲେ",
+"ସେ ଧନୀ ହେଲେ",
+"ସେ ଶକ୍ତିଶାଳୀ ହେଲେ",
+"କିଛି ହେଲା ନାହିଁ"
+],
+"answer": "ସେ ଜ୍ଞାନୀ ହେଲେ",
+"explanation": "ଗୁରୁଙ୍କ କୃପା ଓ ନିଷ୍ଠା ଯୋଗୁଁ ସେ ସମସ୍ତ ବେଦ ଓ ବିଦ୍ୟାରେ ପାରଙ୍ଗମ ହେଲେ।"
+},
+{
+"questionEnglish": "What is the name of the chapter from which this story is taken?",
+"questionOdia": "ଏହି କାହାଣୀଟି କେଉଁ ଅଧ୍ୟାୟରୁ ନିଆଯାଇଛି?",
+"options": [
+"ସୁଶିଷ୍ୟ: ଉପମନ୍ୟୁଃ",
+"ଗୁରୁଭକ୍ତି",
+"ଶିଷ୍ୟର କର୍ତ୍ତବ୍ୟ",
+"ବେଦାଧ୍ୟୟନ"
+],
+"answer": "ସୁଶିଷ୍ୟ: ଉପମନ୍ୟୁଃ",
+"explanation": "ଏହି ଅଧ୍ୟାୟଟି ଆମ ପାଠ୍ୟପୁସ୍ତକରେ 'ସୁଶିଷ୍ୟ: ଉପମନ୍ୟୁଃ' ନାମରେ ରହିଛି।"
+},
+{
+"questionEnglish": "How did Upamanyu get food when he gave his alms to the guru?",
+"questionOdia": "ଗୁରୁଙ୍କୁ ଭିକ୍ଷା ଦେବା ପରେ ଉପମନ୍ୟୁ କିପରି ଖାଦ୍ୟ ପାଉଥିଲେ?",
+"options": [
+"ସେ ପୁଣି ଭିକ୍ଷା ପାଇଁ ଯାଉଥିଲେ",
+"ସେ ଖାଉ ନଥିଲେ",
+"ସେ ଚୋରି କରୁଥିଲେ",
+"ସେ ସଞ୍ଚୟ କରୁଥିଲେ"
+],
+"answer": "ସେ ପୁଣି ଭିକ୍ଷା ପାଇଁ ଯାଉଥିଲେ",
+"explanation": "ଗୁରୁଙ୍କୁ ଦେବା ପରେ ପୁନର୍ବାର ଭିକ୍ଷା କରି ଯାହା ମିଳୁଥିଲା ତାହା ସେ ଖାଉଥିଲେ।"
+},
+{
+"questionEnglish": "Who stopped Upamanyu from drinking milk?",
+"questionOdia": "ଉପମନ୍ୟୁଙ୍କୁ କ୍ଷୀର ପିଇବାରୁ କିଏ ଅଟକାଇଲେ?",
+"questionOdia": "ଉପମନ୍ୟୁଙ୍କୁ କ୍ଷୀର ପିଇବାରୁ କିଏ ଅଟକାଇଲେ?",
+"options": [
+"ତାଙ୍କର ଗୁରୁ",
+"ତାଙ୍କର ମାତା",
+"ତାଙ୍କର ବନ୍ଧୁ",
+"କେହି ନୁହେଁ"
+],
+"answer": "ତାଙ୍କର ଗୁରୁ",
+"explanation": "ଗୁରୁ ଜାଣିବା ପରେ ତାଙ୍କୁ କ୍ଷୀର ପିଇବାକୁ ମନା କରିଦେଲେ।"
+},
+{
+"questionEnglish": "What did Upamanyu do after his guru forbade him?",
+"questionOdia": "ଗୁରୁ ମନା କରିବା ପରେ ଉପମନ୍ୟୁ କ'ଣ କଲେ?",
+"options": [
+"ସେ କ୍ଷୀର ପିଇବା ବନ୍ଦ କଲେ",
+"ସେ ଲୁଚି କ୍ଷୀର ପିଇଲେ",
+"ସେ ଗୁରୁଙ୍କ ସହ ଯୁକ୍ତି କଲେ",
+"ସେ କାନ୍ଦିଲେ"
+],
+"answer": "ସେ କ୍ଷୀର ପିଇବା ବନ୍ଦ କଲେ",
+"explanation": "ଗୁରୁଭକ୍ତ ହୋଇଥିବାରୁ ସେ ଗୁରୁଙ୍କ ଆଦେଶ ପାଳନ କଲେ।"
+},
+{
+"questionEnglish": "What was the physical condition of Upamanyu in the forest?",
+"questionOdia": "ବଣରେ ଉପମନ୍ୟୁଙ୍କ ଶାରୀରିକ ଅବସ୍ଥା କିପରି ଥିଲା?",
+"options": [
+"ଅତ୍ୟନ୍ତ କ୍ଷୀଣ ଓ ଦୁର୍ବଳ",
+"ଖୁବ୍ ସୁସ୍ଥ",
+"ଅସୁସ୍ଥ",
+"ମୋଟା"
+],
+"answer": "ଅତ୍ୟନ୍ତ କ୍ଷୀଣ ଓ ଦୁର୍ବଳ",
+"explanation": "ଉପଯୁକ୍ତ ପୋଷଣ ଅଭାବରୁ ସେ ଦୁର୍ବଳ ହୋଇଯାଇଥିଲେ।"
+},
+{
+"questionEnglish": "Did the guru really want Upamanyu to starve?",
+"questionOdia": "ଗୁରୁ କ'ଣ ପ୍ରକୃତରେ ଉପମନ୍ୟୁଙ୍କୁ ଭୋକରେ ରଖିବାକୁ ଚାହୁଁଥିଲେ?",
+"options": [
+"ନା, ସେ ତାଙ୍କୁ ପରୀକ୍ଷା କରୁଥିଲେ",
+"ହଁ, ସେ କଠୋର ଥିଲେ",
+"ନା, ସେ ଭୁଲି ଯାଇଥିଲେ",
+"ହଁ, ସେ ତାଙ୍କୁ ଘୃଣା କରୁଥିଲେ"
+],
+"answer": "ନା, ସେ ତାଙ୍କୁ ପରୀକ୍ଷା କରୁଥିଲେ",
+"explanation": "ଗୁରୁ ଉପମନ୍ୟୁଙ୍କ ଭକ୍ତି ଓ ସହନଶୀଳତା ପରୀକ୍ଷା କରୁଥିଲେ।"
+},
+{
+"questionEnglish": "Why is Upamanyu an ideal disciple?",
+"questionOdia": "ଉପମନ୍ୟୁ କାହିଁକି ଜଣେ ଆଦର୍ଶ ଶିଷ୍ୟ?",
+"options": [
+"ଗୁରୁଙ୍କ ପ୍ରତି ସମର୍ପିତ ଓ ଆଜ୍ଞାବହ",
+"ସେ ବହୁତ ଜ୍ଞାନୀ ଥିଲେ",
+"ସେ ସୁନ୍ଦର ଥିଲେ",
+"ସେ ସମସ୍ତଙ୍କ ସାଙ୍ଗ ଥିଲେ"
+],
+"answer": "ଗୁରୁଙ୍କ ପ୍ରତି ସମର୍ପିତ ଓ ଆଜ୍ଞାବହ",
+"explanation": "ଗୁରୁଙ୍କ ପ୍ରତି ସମ୍ପୂର୍ଣ୍ଣ ଆନୁଗତ୍ୟ ତାଙ୍କୁ ଜଣେ ଆଦର୍ଶ ଶିଷ୍ୟ କରିଛି।"
+},
+{
+"questionEnglish": "What did the Ashwini Kumars want to know from Upamanyu?",
+"questionOdia": "ଅଶ୍ୱିନୀ କୁମାରମାନେ ଉପମନ୍ୟୁଙ୍କଠାରୁ କ'ଣ ଜାଣିବାକୁ ଚାହିଁଲେ?",
+"options": [
+"ତାଙ୍କର ଭକ୍ତି କାରଣ",
+"ତାଙ୍କର ବୟସ",
+"ତାଙ୍କର ଠିକଣା",
+"ତାଙ୍କର ନାମ"
+],
+"answer": "ତାଙ୍କର ଭକ୍ତି କାରଣ",
+"explanation": "ତାଙ୍କର ଗୁରୁଭକ୍ତି ଦେଖି ସେ ଆଶ୍ଚର୍ଯ୍ୟ ହୋଇଥିଲେ।"
+},
+{
+"questionEnglish": "Who are the Ashwini Kumars?",
+"questionOdia": "ଅଶ୍ୱିନୀ କୁମାରମାନେ କିଏ?",
+"options": [
+"ଦେବ ବୈଦ୍ୟ",
+"ରାକ୍ଷସ",
+"ମନୁଷ୍ୟ",
+"ପଶୁ"
+],
+"answer": "ଦେବ ବୈଦ୍ୟ",
+"explanation": "ଅଶ୍ୱିନୀ କୁମାରମାନେ ହେଉଛନ୍ତି ଦେବତାମାନଙ୍କର ବୈଦ୍ୟ।"
+},
+{
+"questionEnglish": "What does the word 'Su-shishya' mean?",
+"questionOdia": "'ସୁଶିଷ୍ୟ' ଶବ୍ଦର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଉତ୍ତମ ଶିଷ୍ୟ",
+"ଖରାପ ଶିଷ୍ୟ",
+"ଗୁରୁ",
+"ଅଜ୍ଞାନୀ"
+],
+"answer": "ଉତ୍ତମ ଶିଷ୍ୟ",
+"explanation": "ଯେଉଁ ଶିଷ୍ୟ ଗୁରୁଙ୍କର ଆଜ୍ଞା ପାଳନ କରେ ସେ ହେଉଛି ସୁଶିଷ୍ୟ।"
+},
+{
+"questionEnglish": "Did Upamanyu complain about his condition to his guru?",
+"questionOdia": "ଉପମନ୍ୟୁ ତାଙ୍କର ଅବସ୍ଥା ବିଷୟରେ ଗୁରୁଙ୍କ ପାଖରେ ଅଭିଯୋଗ କରିଥିଲେ କି?",
+"options": [
+"ନା",
+"ହଁ",
+"କିଛି କହି ନଥିଲେ",
+"ଅଳ୍ପ କହିଥିଲେ"
+],
+"answer": "ନା",
+"explanation": "ସେ କୌଣସି ଅଭିଯୋଗ ନ କରି ଗୁରୁଙ୍କ ଆଦେଶକୁ ଶିରୋଧାର୍ଯ୍ୟ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What is the role of a teacher in a student's life?",
+"questionOdia": "ଜଣେ ଶିଷ୍ୟର ଜୀବନରେ ଗୁରୁଙ୍କ ଭୂମିକା କ'ଣ?",
+"options": [
+"ସଠିକ୍ ମାର୍ଗଦର୍ଶନ",
+"କେବଳ ଦଣ୍ଡ ଦେବା",
+"କିଛି ନୁହେଁ",
+"ସମୟ ନଷ୍ଟ କରିବା"
+],
+"answer": "ସଠିକ୍ ମାର୍ଗଦର୍ଶନ",
+"explanation": "ଗୁରୁ ଶିଷ୍ୟକୁ ଅଜ୍ଞାନତାରୁ ଜ୍ଞାନ ଆଡ଼କୁ ନେଇଯାଆନ୍ତି।"
+},
+{
+"questionEnglish": "Why did Upamanyu go to the forest?",
+"questionOdia": "ଉପମନ୍ୟୁ କାହିଁକି ଜଙ୍ଗଲକୁ ଯାଇଥିଲେ?",
+"options": [
+"ଗାଈ ଚରାଇବାକୁ",
+"ଖେଳିବାକୁ",
+"ଫଳ ଆଣିବାକୁ",
+"ଲୁଚିବାକୁ"
+],
+"answer": "ଗାଈ ଚରାଇବାକୁ",
+"explanation": "ଗୁରୁଙ୍କ ଆଦେଶ ପାଳନ କରି ଗାଈ ଚରାଇବାକୁ ସେ ଜଙ୍ଗଲ ଯାଇଥିଲେ।"
+},
+{
+"questionEnglish": "What does the story teach about endurance?",
+"questionOdia": "ଏହି କାହାଣୀ ସହନଶୀଳତା ବିଷୟରେ କ'ଣ ଶିଖାଏ?",
+"options": [
+"କଷ୍ଟ ସହି ସଫଳତା ପାଇବା",
+"କଷ୍ଟ ପାଇଲେ ଛାଡ଼ିଦେବା",
+"ସହନଶୀଳତା ଆବଶ୍ୟକ ନୁହେଁ",
+"କଷ୍ଟକୁ ଡରିବା"
+],
+"answer": "କଷ୍ଟ ସହି ସଫଳତା ପାଇବା",
+"explanation": "ଉପମନ୍ୟୁଙ୍କ ସହନଶୀଳତା ତାଙ୍କୁ ଶ୍ରେଷ୍ଠ ଶିଷ୍ୟ ଭାବେ ଗଢ଼ିଥିଲା।"
+},
+{
+"questionEnglish": "What was the final reward of Upamanyu?",
+"questionOdia": "ଉପମନ୍ୟୁଙ୍କର ଶେଷ ପୁରସ୍କାର କ'ଣ ଥିଲା?",
+"options": [
+"ଗୁରୁଙ୍କ ଆଶୀର୍ବାଦ",
+"ଧନ ସମ୍ପତ୍ତି",
+"ରାଜ୍ୟ",
+"ସିଂହାସନ"
+],
+"answer": "ଗୁରୁଙ୍କ ଆଶୀର୍ବାଦ",
+"explanation": "ଗୁରୁଙ୍କ ଆଶୀର୍ବାଦ ହିଁ ଥିଲା ତାଙ୍କ ପାଇଁ ଶ୍ରେଷ୍ଠ ପୁରସ୍କାର।"
+},
+{
+"questionEnglish": "What was the guru's name?",
+"questionOdia": "ଗୁରୁଙ୍କ ନାମ କ'ଣ ଥିଲା?",
+"options": [
+"ଆୟୋଦଧୌମ୍ୟ",
+"ଉପମନ୍ୟୁ",
+"ବଶିଷ୍ଠ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଆୟୋଦଧୌମ୍ୟ",
+"explanation": "ଗୁରୁ ଆୟୋଦଧୌମ୍ୟ ଥିଲେ।"
+},
+{
+"questionEnglish": "What is meant by 'Bhiksha'?",
+"questionOdia": "'ଭିକ୍ଷା'ର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଦାନ ଆକାରରେ ମିଳୁଥିବା ଖାଦ୍ୟ",
+"ସମ୍ପତ୍ତି",
+"ଟଙ୍କା",
+"ଉପହାର"
+],
+"answer": "ଦାନ ଆକାରରେ ମିଳୁଥିବା ଖାଦ୍ୟ",
+"explanation": "ଶିଷ୍ୟମାନେ ସେ ସମୟରେ ଭିକ୍ଷା କରି ନିଜର ପୋଷଣ କରୁଥିଲେ।"
+},
+{
+"questionEnglish": "What did Upamanyu offer to his guru?",
+"questionOdia": "ଉପମନ୍ୟୁ ଗୁରୁଙ୍କୁ କ'ଣ ପ୍ରଦାନ କରୁଥିଲେ?",
+"options": [
+"ଭିକ୍ଷାରେ ମିଳିଥିବା ସବୁ ସାମଗ୍ରୀ",
+"ଫଳ",
+"କିଛି ନୁହେଁ",
+"ଧନ"
+],
+"answer": "ଭିକ୍ଷାରେ ମିଳିଥିବା ସବୁ ସାମଗ୍ରୀ",
+"explanation": "ସେ ନିଜର ଭିକ୍ଷା ସବୁ ଗୁରୁଙ୍କୁ ଦେଉଥିଲେ।"
+},
+{
+"questionEnglish": "Was Upamanyu a patient student?",
+"questionOdia": "ଉପମନ୍ୟୁ ଜଣେ ଧୈର୍ଯ୍ୟବାନ ଶିଷ୍ୟ ଥିଲେ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କିଛି କହିହେବ ନାହିଁ",
+"ଅଳ୍ପ ଧୈର୍ଯ୍ୟ ଥିଲା"
+],
+"answer": "ହଁ",
+"explanation": "ସେ ଅତ୍ୟନ୍ତ ଧୈର୍ଯ୍ୟବାନ ଥିଲେ, ତେଣୁ ସେ ସବୁ କଷ୍ଟ ସହିଥିଲେ।"
+},
+{
+"questionEnglish": "How did the guru test the student?",
+"questionOdia": "ଗୁରୁ ଶିଷ୍ୟଙ୍କୁ କିପରି ପରୀକ୍ଷା କରୁଥିଲେ?",
+"options": [
+"ବିଭିନ୍ନ କଠିନ କାର୍ଯ୍ୟ ଦେଇ",
+"ପ୍ରଶ୍ନ ପଚାରି",
+"କିଛି ନ କରି",
+"ଘରୁ ବାହାର କରିଦେଇ"
+],
+"answer": "ବିଭିନ୍ନ କଠିନ କାର୍ଯ୍ୟ ଦେଇ",
+"explanation": "କଠିନ ପରିଶ୍ରମ ଓ ସମର୍ପଣ ମାଧ୍ୟମରେ ସେ ପରୀକ୍ଷା କରୁଥିଲେ।"
+},
+{
+"questionEnglish": "What did Upamanyu pray for in the well?",
+"questionOdia": "କୂଅରେ ଥାଇ ଉପମନ୍ୟୁ କ'ଣ ପ୍ରାର୍ଥନା କରିଥିଲେ?",
+"options": [
+"ଦୃଷ୍ଟିଶକ୍ତି ପାଇଁ",
+"ଖାଦ୍ୟ ପାଇଁ",
+"ସାହାଯ୍ୟ ପାଇଁ",
+"ମୁକ୍ତି ପାଇଁ"
+],
+"answer": "ଦୃଷ୍ଟିଶକ୍ତି ପାଇଁ",
+"explanation": "ଦୃଷ୍ଟିଶକ୍ତି ହରାଇଥିବାରୁ ସେ ଅଶ୍ୱିନୀ କୁମାରଙ୍କୁ ପ୍ରାର୍ଥନା କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Who saved Upamanyu from the well?",
+"questionOdia": "କୂଅରୁ ଉପମନ୍ୟୁଙ୍କୁ କିଏ ରକ୍ଷା କଲେ?",
+"options": [
+"ଅଶ୍ୱିନୀ କୁମାର",
+"ଗୁରୁ",
+"ସାଙ୍ଗ",
+"କେହି ନୁହେଁ"
+],
+"answer": "ଅଶ୍ୱିନୀ କୁମାର",
+"explanation": "ତାଙ୍କ ସ୍ତୁତିରେ ପ୍ରସନ୍ନ ହୋଇ ଅଶ୍ୱିନୀ କୁମାର ତାଙ୍କୁ ଉଦ୍ଧାର କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What was the teacher's final reaction?",
+"questionOdia": "ଗୁରୁଙ୍କ ଶେଷ ପ୍ରତିକ୍ରିୟା କ'ଣ ଥିଲା?",
+"options": [
+"ସେ ଖୁସି ହେଲେ",
+"ସେ ରାଗିଲେ",
+"ସେ କାନ୍ଦିଲେ",
+"ସେ କିଛି କହିଲେ ନାହିଁ"
+],
+"answer": "ସେ ଖୁସି ହେଲେ",
+"explanation": "ଶିଷ୍ୟର ଭକ୍ତି ଦେଖି ଗୁରୁ ଅତ୍ୟନ୍ତ ପ୍ରସନ୍ନ ହୋଇଥିଲେ।"
+},
+{
+"questionEnglish": "What did Upamanyu learn at the end?",
+"questionOdia": "ଶେଷରେ ଉପମନ୍ୟୁ କ'ଣ ଶିଖିଲେ?",
+"options": [
+"ସମସ୍ତ ବିଦ୍ୟା",
+"କିଛି ନୁହେଁ",
+"କେବଳ ଭିକ୍ଷା କରିବା",
+"ଗାଈ ଚରାଇବା"
+],
+"answer": "ସମସ୍ତ ବିଦ୍ୟା",
+"explanation": "ଗୁରୁଙ୍କ କୃପାରୁ ସେ ସମସ୍ତ ବିଦ୍ୟାରେ ପାରଙ୍ଗମ ହେଲେ।"
+},
+{
+"questionEnglish": "Why did Upamanyu not eat the food he collected?",
+"questionOdia": "ଉପମନ୍ୟୁ କାହିଁକି ଭିକ୍ଷା କରିଥିବା ଖାଦ୍ୟ ଖାଉ ନଥିଲେ?",
+"options": [
+"ଗୁରୁଙ୍କୁ ଦେବା ପାଇଁ",
+"ଖରାପ ଥିଲା",
+"ଭୋକ ନଥିଲା",
+"କେହି ମନା କରିଥିଲେ"
+],
+"answer": "ଗୁରୁଙ୍କୁ ଦେବା ପାଇଁ",
+"explanation": "ଗୁରୁଙ୍କ ଆଦେଶ ପାଳନ ପାଇଁ ସେ ସବୁ ଦେଇ ଦେଉଥିଲେ।"
+},
+{
+"questionEnglish": "What is the importance of 'Guru-Shishya parampara'?",
+"questionOdia": "'ଗୁରୁ-ଶିଷ୍ୟ ପରମ୍ପରା'ର ଗୁରୁତ୍ଵ କ'ଣ?",
+"options": [
+"ଜ୍ଞାନର ଆଦାନ ପ୍ରଦାନ",
+"କେବଳ ପଢ଼ା",
+"କିଛି ନୁହେଁ",
+"ସମୟ ନଷ୍ଟ"
+],
+"answer": "ଜ୍ଞାନର ଆଦାନ ପ୍ରଦାନ",
+"explanation": "ଏହି ପରମ୍ପରା ଭାରତୀୟ ସଂସ୍କୃତିର ମୂଳଦୁଆ।"
+},
+{
+"questionEnglish": "How to become a good student?",
+"questionOdia": "ଉତ୍ତମ ଶିଷ୍ୟ କିପରି ହେବାକୁ ହୁଏ?",
+"options": [
+"ନମ୍ର ଓ ଆଜ୍ଞାବହ ହୋଇ",
+"ଗର୍ବୀ ହୋଇ",
+"ଅବହେଳା କରି",
+"ଅଳସୁଆ ହୋଇ"
+],
+"answer": "ନମ୍ର ଓ ଆଜ୍ଞାବହ ହୋଇ",
+"explanation": "ନମ୍ରତା ଓ ଆଜ୍ଞାବହତା ଜଣେ ଶିଷ୍ୟର ବଡ଼ ଗୁଣ।"
+},
+{
+"questionEnglish": "What was the lesson of this chapter?",
+"questionOdia": "ଏହି ଅଧ୍ୟାୟର ଶିକ୍ଷା କ'ଣ?",
+"options": [
+"ଗୁରୁଭକ୍ତି ହିଁ ସର୍ବଶ୍ରେଷ୍ଠ",
+"ଧନ ସର୍ବଶ୍ରେଷ୍ଠ",
+"ଶକ୍ତି ସର୍ବଶ୍ରେଷ୍ଠ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ଗୁରୁଭକ୍ତି ହିଁ ସର୍ବଶ୍ରେଷ୍ଠ",
+"explanation": "ଗୁରୁଭକ୍ତି ବିନା କୌଣସି ଜ୍ଞାନ ପୂର୍ଣ୍ଣ ହୁଏ ନାହିଁ।"
+},
+{
+"questionEnglish": "What is the meaning of 'Upa' in Upamanyu?",
+"questionOdia": "'ଉପମନ୍ୟୁ' ଶବ୍ଦରେ 'ଉପ'ର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ସମୀପ",
+"ଦୂର",
+"ଉପରେ",
+"ତଳେ"
+],
+"answer": "ସମୀପ",
+"explanation": "ଗୁରୁଙ୍କ ସମୀପରେ ରହୁଥିବାରୁ ତାଙ୍କ ନାମ ଉପମନ୍ୟୁ ହୋଇଥାଇପାରେ।"
+},
+{
+"questionEnglish": "What is the message of the story for today's students?",
+"questionOdia": "ଆଜିର ଛାତ୍ରମାନଙ୍କ ପାଇଁ ଏହି କାହାଣୀର ବାର୍ତ୍ତା କ'ଣ?",
+"options": [
+"ଗୁରୁଙ୍କୁ ସମ୍ମାନ ଦେବା",
+"କେବଳ ପଢ଼ିବା",
+"ଖେଳିବା",
+"କିଛି ନ କରିବା"
+],
+"answer": "ଗୁରୁଙ୍କୁ ସମ୍ମାନ ଦେବା",
+"explanation": "ଗୁରୁଙ୍କୁ ସମ୍ମାନ ଦେବା ଆମର ସାମାଜିକ ଦାୟିତ୍ୱ।"
+},
+{
+"questionEnglish": "Was Upamanyu a hardworking student?",
+"questionOdia": "ଉପମନ୍ୟୁ ଜଣେ ପରିଶ୍ରମୀ ଶିଷ୍ୟ ଥିଲେ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କିଛି କହିହେବ ନାହିଁ",
+"ସେ କାମ କରୁ ନଥିଲେ"
+],
+"answer": "ହଁ",
+"explanation": "ସେ କଠିନ ପରିଶ୍ରମୀ ଥିଲେ।"
+},
+{
+"questionEnglish": "How many cows did Upamanyu graze?",
+"questionOdia": "ଉପମନ୍ୟୁ କେତେ ଗାଈ ଚରାଉଥିଲେ?",
+"options": [
+"ସବୁ ଗାଈ",
+"ଗୋଟିଏ",
+"କିଛି ନୁହେଁ",
+"ଅନେକ ଥର"
+],
+"answer": "ସବୁ ଗାଈ",
+"explanation": "ଗୁରୁଙ୍କର ସବୁ ଗାଈଙ୍କୁ ସେ ଚରାଉଥିଲେ।"
+},
+{
+"questionEnglish": "What was the guru's main goal?",
+"questionOdia": "ଗୁରୁଙ୍କ ମୁଖ୍ୟ ଲକ୍ଷ୍ୟ କ'ଣ ଥିଲା?",
+"options": [
+"ଶିଷ୍ୟକୁ ଜ୍ଞାନୀ କରିବା",
+"କଷ୍ଟ ଦେବା",
+"ଗାଈ ଚରାଇବା",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ଶିଷ୍ୟକୁ ଜ୍ଞାନୀ କରିବା",
+"explanation": "ପରୀକ୍ଷା ମାଧ୍ୟମରେ ସେ ଶିଷ୍ୟକୁ ଗଢ଼ିବାକୁ ଚାହୁଁଥିଲେ।"
+},
+{
+"questionEnglish": "What is the story of Upamanyu an example of?",
+"questionOdia": "ଉପମନ୍ୟୁଙ୍କ କାହାଣୀ କେଉଁଥିର ଉଦାହରଣ?",
+"options": [
+"ଗୁରୁଭକ୍ତି",
+"ଚୋରି",
+"ଆଳସ୍ୟ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ଗୁରୁଭକ୍ତି",
+"explanation": "ଏହା ଗୁରୁଭକ୍ତିର ଏକ ଶ୍ରେଷ୍ଠ ଉଦାହରଣ।"
+},
+{
+"questionEnglish": "What did Upamanyu do after getting his eyes back?",
+"questionOdia": "ଦୃଷ୍ଟିଶକ୍ତି ପାଇବା ପରେ ଉପମନ୍ୟୁ କ'ଣ କଲେ?",
+"options": [
+"ଗୁରୁଙ୍କ ପାଖକୁ ଗଲେ",
+"ଘରକୁ ଗଲେ",
+"ସୋଇଗଲେ",
+"ଖେଳିଲେ"
+],
+"answer": "ଗୁରୁଙ୍କ ପାଖକୁ ଗଲେ",
+"explanation": "ସେ ତୁରନ୍ତ ଗୁରୁଙ୍କ ପାଖକୁ ଯାଇ ସବୁ କଥା କହିଲେ।"
+},
+{
+"questionEnglish": "What is the moral of the story?",
+"questionOdia": "କାହାଣୀର ନୀତି କ'ଣ?",
+"options": [
+"ଗୁରୁଭକ୍ତ ହୁଅ",
+"ଅଳସୁଆ ହୁଅ",
+"ମିଛ କୁହ",
+"କିଛି କର ନାହିଁ"
+],
+"answer": "ଗୁରୁଭକ୍ତ ହୁଅ",
+"explanation": "ଗୁରୁଙ୍କ ପ୍ରତି ସମ୍ପୂର୍ଣ୍ଣ ଭକ୍ତି ହିଁ ଶିଷ୍ୟର ସଫଳତା।"
+}
+]
