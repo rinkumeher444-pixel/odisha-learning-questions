@@ -1,0 +1,614 @@
+[
+{
+"questionEnglish": "In the Varahopakhyanam, what was the primary reason for Lord Vishnu to take the Varaha avatar?",
+"questionOdia": "ବରାହୋପାଖ୍ୟାନମ୍ ଅନୁଯାୟୀ, ଭଗବାନ ବିଷ୍ଣୁ ବରାହ ଅବତାର ଗ୍ରହଣ କରିବାର ମୁଖ୍ୟ କାରଣ କ'ଣ ଥିଲା?",
+"options": [
+"ପୃଥିବୀକୁ ରସାତଳରୁ ଉଦ୍ଧାର କରିବା ପାଇଁ",
+"ହିରଣ୍ୟାକ୍ଷକୁ ମାରିବା ପାଇଁ",
+"ଦେବତାମାନଙ୍କୁ ସାହାଯ୍ୟ କରିବା ପାଇଁ",
+"ବ୍ରହ୍ମାଙ୍କୁ ସନ୍ତୁଷ୍ଟ କରିବା ପାଇଁ"
+],
+"answer": "ପୃଥିବୀକୁ ରସାତଳରୁ ଉଦ୍ଧାର କରିବା ପାଇଁ",
+"explanation": "ଦୈତ୍ୟ ହିରଣ୍ୟାକ୍ଷ ପୃଥିବୀକୁ ରସାତଳକୁ ନେଇଯିବାରୁ ଭଗବାନ ବିଷ୍ଣୁ ବରାହ ରୂପ ଧାରଣ କରି ତାକୁ ଉଦ୍ଧାର କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Who was the demon responsible for taking the Earth to the Rasatala?",
+"questionOdia": "ପୃଥିବୀକୁ ରସାତଳକୁ ନେଇଯିବା ପାଇଁ ଦାୟୀ ରାକ୍ଷସ କିଏ ଥିଲା?",
+"options": [
+"ହିରଣ୍ୟାକ୍ଷ",
+"ହିରଣ୍ୟକଶ୍ୟପ",
+"ରାବଣ",
+"ମହିଷାସୁର"
+],
+"answer": "ହିରଣ୍ୟାକ୍ଷ",
+"explanation": "ହିରଣ୍ୟାକ୍ଷ ନାମକ ଅସୁର ପୃଥିବୀକୁ ନେଇ ସମୁଦ୍ର ମଧ୍ୟରେ ଲୁଚାଇ ରଖିଥିଲା।"
+},
+{
+"questionEnglish": "What form did Lord Vishnu assume to kill Hiranyaksha?",
+"questionOdia": "ହିରଣ୍ୟାକ୍ଷକୁ ବଧ କରିବା ପାଇଁ ଭଗବାନ ବିଷ୍ଣୁ କେଉଁ ରୂପ ଧାରଣ କରିଥିଲେ?",
+"options": [
+"ବରାହ",
+"ନୃସିଂହ",
+"ବାମନ",
+"ମତ୍ସ୍ୟ"
+],
+"answer": "ବରାହ",
+"explanation": "ଭଗବାନ ବିଷ୍ଣୁ ଏହି କଥାରେ ବରାହ (ଶୁକର) ରୂପ ଧାରଣ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Where did Varaha find the Earth after entering the ocean?",
+"questionOdia": "ସମୁଦ୍ର ଭିତରକୁ ପ୍ରବେଶ କରି ବରାହ ପୃଥିବୀକୁ କେଉଁଠାରେ ପାଇଥିଲେ?",
+"options": [
+"ରସାତଳରେ",
+"ପର୍ବତ ଶୀର୍ଷରେ",
+"ଗୁମ୍ଫାରେ",
+"ନଦୀ କୂଳରେ"
+],
+"answer": "ରସାତଳରେ",
+"explanation": "ବରାହ ଭଗବାନ ରସାତଳରେ ପହଞ୍ଚି ପୃଥିବୀକୁ ଖୋଜି ବାହାର କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What was the reaction of the gods when they saw Varaha bringing back the Earth?",
+"questionOdia": "ବରାହ ପୃଥିବୀକୁ ଫେରାଇ ଆଣୁଥିବାର ଦେଖି ଦେବତାମାନଙ୍କର ପ୍ରତିକ୍ରିୟା କ'ଣ ଥିଲା?",
+"options": [
+"ଦେବତାମାନେ ଭଗବାନଙ୍କୁ ସ୍ତୁତି କଲେ",
+"ଦେବତାମାନେ ଭୟଭୀତ ହେଲେ",
+"ଦେବତାମାନେ ରାଗିଗଲେ",
+"ଦେବତାମାନେ ନୀରବ ରହିଲେ"
+],
+"answer": "ଦେବତାମାନେ ଭଗବାନଙ୍କୁ ସ୍ତୁତି କଲେ",
+"explanation": "ଭଗବାନଙ୍କର ଏହି ମହତ୍ କାର୍ଯ୍ୟ ଦେଖି ସମସ୍ତ ଦେବତାମାନେ ତାଙ୍କର ସ୍ତୁତି ଗାନ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "How did Varaha support the Earth while lifting her?",
+"questionOdia": "ପୃଥିବୀକୁ ଉଠାଇବା ସମୟରେ ବରାହ କିପରି ତାକୁ ସମର୍ଥନ କରିଥିଲେ?",
+"options": [
+"ତାଙ୍କ ଦାନ୍ତ (ଦଂଷ୍ଟ୍ରା) ସାହାଯ୍ୟରେ",
+"ତାଙ୍କ ହାତ ସାହାଯ୍ୟରେ",
+"ତାଙ୍କ ମୁଣ୍ଡ ସାହାଯ୍ୟରେ",
+"ତାଙ୍କ ପିଠି ସାହାଯ୍ୟରେ"
+],
+"answer": "ତାଙ୍କ ଦାନ୍ତ (ଦଂଷ୍ଟ୍ରା) ସାହାଯ୍ୟରେ",
+"explanation": "ବରାହ ଭଗବାନ ନିଜର ଦୁଇଟି ଦାନ୍ତ (ଦଂଷ୍ଟ୍ରା) ଉପରେ ପୃଥିବୀକୁ ସ୍ଥାପନ କରି ଉପରକୁ ଆଣିଥିଲେ।"
+},
+{
+"questionEnglish": "Who was worried about the Earth being taken away?",
+"questionOdia": "ପୃଥିବୀ ଚାଲିଯିବାରୁ କିଏ ଚିନ୍ତିତ ଥିଲେ?",
+"options": [
+"ବ୍ରହ୍ମା",
+"ଇନ୍ଦ୍ର",
+"ଶିବ",
+"ବରୁଣ"
+],
+"answer": "ବ୍ରହ୍ମା",
+"explanation": "ପୃଥିବୀ ନଷ୍ଟ ହୋଇଯିବ ବୋଲି ବ୍ରହ୍ମା ଚିନ୍ତିତ ହୋଇ ଭଗବାନ ବିଷ୍ଣୁଙ୍କୁ ପ୍ରାର୍ଥନା କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What is the nature of Hiranyaksha described in the text?",
+"questionOdia": "ପାଠ୍ୟ ଅନୁଯାୟୀ ହିରଣ୍ୟାକ୍ଷର ସ୍ଵଭାବ କିପରି?",
+"options": [
+"ଅତ୍ୟନ୍ତ ଅହଂକାରୀ ଓ ଦୁଷ୍ଟ",
+"ଶାନ୍ତ ଓ ଭକ୍ତ",
+"ବୁଦ୍ଧିମାନ",
+"ସରଳ"
+],
+"answer": "ଅତ୍ୟନ୍ତ ଅହଂକାରୀ ଓ ଦୁଷ୍ଟ",
+"explanation": "ହିରଣ୍ୟାକ୍ଷ ଜଣେ ବଳବାନ କିନ୍ତୁ ଅତ୍ୟନ୍ତ ଅହଂକାରୀ ରାକ୍ଷସ ଥିଲା।"
+},
+{
+"questionEnglish": "What was the result of the battle between Varaha and Hiranyaksha?",
+"questionOdia": "ବରାହ ଏବଂ ହିରଣ୍ୟାକ୍ଷ ମଧ୍ୟରେ ହୋଇଥିବା ଯୁଦ୍ଧର ପରିଣାମ କ'ଣ ହେଲା?",
+"options": [
+"ହିରଣ୍ୟାକ୍ଷ ବଧ ହେଲା",
+"ବରାହ ପରାଜିତ ହେଲେ",
+"ଉଭୟ ମିତ୍ର ହେଲେ",
+"ଯୁଦ୍ଧ ଅଟକି ଗଲା"
+],
+"answer": "ହିରଣ୍ୟାକ୍ଷ ବଧ ହେଲା",
+"explanation": "ଭଗବାନ ବରାହ ହିରଣ୍ୟାକ୍ଷକୁ ନିଜର ଶକ୍ତି ଦ୍ଵାରା ବଧ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Why did the Earth feel distressed?",
+"questionOdia": "ପୃଥିବୀ କାହିଁକି ଦୁଃଖିତ ଅନୁଭବ କରୁଥିଲା?",
+"options": [
+"ସେ ରସାତଳରେ ବନ୍ଦୀ ଥିଲା",
+"ତାଙ୍କୁ କେହି ସମ୍ମାନ ଦେଉ ନଥିଲେ",
+"ସେ କ୍ଳାନ୍ତ ଥିଲା",
+"ତାଙ୍କୁ ସୂର୍ଯ୍ୟ ଆଲୋକ ମିଳୁ ନଥିଲା"
+],
+"answer": "ସେ ରସାତଳରେ ବନ୍ଦୀ ଥିଲା",
+"explanation": "ରାକ୍ଷସ ହିରଣ୍ୟାକ୍ଷ ପୃଥିବୀକୁ ନେଇ ଅନ୍ଧକାରମୟ ରସାତଳରେ ରଖିଥିଲା।"
+},
+{
+"questionEnglish": "What moral message does Varahopakhyanam convey?",
+"questionOdia": "ବରାହୋପାଖ୍ୟାନମ୍ କେଉଁ ନୈତିକ ବାର୍ତ୍ତା ପ୍ରଦାନ କରେ?",
+"options": [
+"ଅଧର୍ମର ବିନାଶ ଓ ଧର୍ମର ବିଜୟ",
+"ରାକ୍ଷସଙ୍କର ଜୟ",
+"କେବଳ ବଳର ପ୍ରଦର୍ଶନ",
+"ଭୟର ପ୍ରଭାବ"
+],
+"answer": "ଅଧର୍ମର ବିନାଶ ଓ ଧର୍ମର ବିଜୟ",
+"explanation": "ଭଗବାନ ସର୍ବଦା ଦୁଷ୍ଟଙ୍କୁ ବିନାଶ କରି ଧର୍ମକୁ ପ୍ରତିଷ୍ଠା କରନ୍ତି।"
+},
+{
+"questionEnglish": "Where does the story take place in the beginning?",
+"questionOdia": "ଗଳ୍ପର ଆରମ୍ଭରେ ଘଟଣା କେଉଁଠାରେ ଘଟୁଛି?",
+"options": [
+"ସୃଷ୍ଟିର ଆରମ୍ଭ ସମୟରେ",
+"ଆଧୁନିକ ଯୁଗରେ",
+"ଏକ ବନରେ",
+"ଏକ ନଗରରେ"
+],
+"answer": "ସୃଷ୍ଟିର ଆରମ୍ଭ ସମୟରେ",
+"explanation": "ଏହା ଏକ ପୁରାଣ ପ୍ରସିଦ୍ଧ କଥା ଯାହା ସୃଷ୍ଟିର ଆରମ୍ଭ କାଳକୁ ବୁଝାଏ।"
+},
+{
+"questionEnglish": "How is the strength of Varaha described?",
+"questionOdia": "ବରାହଙ୍କ ଶକ୍ତିକୁ କିପରି ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"options": [
+"ଅସୀମ ଓ ଅପାର",
+"କମ୍",
+"ସାଧାରଣ",
+"କେବଳ ଶାରୀରିକ"
+],
+"answer": "ଅସୀମ ଓ ଅପାର",
+"explanation": "ଭଗବାନଙ୍କ ଶକ୍ତି ଅପାର, ଯାହା ସମୁଦ୍ରକୁ ବିଦୀର୍ଣ୍ଣ କରି ପୃଥିବୀକୁ ଉଦ୍ଧାର କରିପାରେ।"
+},
+{
+"questionEnglish": "What does the word 'Varaha' mean in the text?",
+"questionOdia": "ପାଠ୍ୟରେ 'ବରାହ' ଶବ୍ଦର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ଶୁକର",
+"ସିଂହ",
+"ହାତୀ",
+"ଅଶ୍ଵ"
+],
+"answer": "ଶୁକର",
+"explanation": "ବରାହ ଅର୍ଥ ହେଉଛି ଶୁକର ବା ବନ୍ୟ ବରାହ।"
+},
+{
+"questionEnglish": "How did Lord Vishnu reach Rasatala?",
+"questionOdia": "ଭଗବାନ ବିଷ୍ଣୁ ରସାତଳରେ କିପରି ପହଞ୍ଚିଲେ?",
+"options": [
+"ସମୁଦ୍ରକୁ ବିଦୀର୍ଣ୍ଣ କରି ପ୍ରବେଶ କଲେ",
+"ଉଡ଼ି ଯାଇଥିଲେ",
+"ମାଟି ଖୋଳି ଯାଇଥିଲେ",
+"ମନ୍ତ୍ର ବଳରେ"
+],
+"answer": "ସମୁଦ୍ରକୁ ବିଦୀର୍ଣ୍ଣ କରି ପ୍ରବେଶ କଲେ",
+"explanation": "ସେ ନିଜର ଅପାର ଶକ୍ତି ବଳରେ ସମୁଦ୍ରକୁ ବିଦୀର୍ଣ୍ଣ କରି ରସାତଳରେ ପହଞ୍ଚିଲେ।"
+},
+{
+"questionEnglish": "What was the ultimate fate of the Earth?",
+"questionOdia": "ପୃଥିବୀର ଶେଷ ପରିଣତି କ'ଣ ହେଲା?",
+"options": [
+"ସେ ପୁନର୍ବାର ସ୍ଥାପିତ ହେଲା",
+"ସେ ନଷ୍ଟ ହୋଇଗଲା",
+"ସେ ପାଣିରେ ଭାସିଗଲା",
+"ସେ ଶୂନ୍ୟରେ ରହିଗଲା"
+],
+"answer": "ସେ ପୁନର୍ବାର ସ୍ଥାପିତ ହେଲା",
+"explanation": "ଭଗବାନ ପୃଥିବୀକୁ ସମୁଦ୍ରରୁ ଉଦ୍ଧାର କରି ପୂର୍ବପରି ସ୍ଥାପନ କଲେ।"
+},
+{
+"questionEnglish": "Who is the protector of the Earth according to this story?",
+"questionOdia": "ଏହି କାହାଣୀ ଅନୁଯାୟୀ ପୃଥିବୀର ରକ୍ଷକ କିଏ?",
+"options": [
+"ଭଗବାନ ବିଷ୍ଣୁ",
+"ହିରଣ୍ୟାକ୍ଷ",
+"ଦେବତାମାନେ",
+"ମାନବ"
+],
+"answer": "ଭଗବାନ ବିଷ୍ଣୁ",
+"explanation": "ବିଷ୍ଣୁ ସବୁବେଳେ ପୃଥିବୀର ରକ୍ଷାକର୍ତ୍ତା।"
+},
+{
+"questionEnglish": "What quality of Vishnu is emphasized?",
+"questionOdia": "ବିଷ୍ଣୁଙ୍କର କେଉଁ ଗୁଣ ଉପରେ ଗୁରୁତ୍ୱ ଦିଆଯାଇଛି?",
+"options": [
+"ସର୍ବଶକ୍ତିମାନ ଓ ଦୟାଳୁ",
+"କ୍ରୋଧୀ",
+"ଲୋଭୀ",
+"ଅଜ୍ଞାନ"
+],
+"answer": "ସର୍ବଶକ୍ତିମାନ ଓ ଦୟାଳୁ",
+"explanation": "ସେ ନିଜର ଶକ୍ତି ବଳରେ ଦୁଷ୍ଟଙ୍କୁ ବିନାଶ କରି ଭକ୍ତଙ୍କୁ ରକ୍ଷା କରନ୍ତି।"
+},
+{
+"questionEnglish": "How is the environment of Rasatala described?",
+"questionOdia": "ରସାତଳର ପରିବେଶକୁ କିପରି ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"options": [
+"ଅନ୍ଧକାରମୟ",
+"ଆଲୋକିତ",
+"ସୁନ୍ଦର",
+"ଶାନ୍ତ"
+],
+"answer": "ଅନ୍ଧକାରମୟ",
+"explanation": "ରସାତଳ ଅତ୍ୟନ୍ତ ଗଭୀର ଏବଂ ଅନ୍ଧକାରମୟ ବୋଲି ବର୍ଣ୍ଣନା କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "Did Varaha face any challenge?",
+"questionOdia": "ବରାହ କୌଣସି ଆହ୍ଵାନର ସମ୍ମୁଖୀନ ହୋଇଥିଲେ କି?",
+"options": [
+"ହଁ, ହିରଣ୍ୟାକ୍ଷ ସହ ଯୁଦ୍ଧ କରିଥିଲେ",
+"ନା, ସେ ସହଜରେ କାମ କରିଥିଲେ",
+"ହଁ, ପୃଥିବୀ ତାଙ୍କୁ ମନା କଲା",
+"ନା, କେହି ତାଙ୍କୁ ଅଟକାଇଲେ ନାହିଁ"
+],
+"answer": "ହଁ, ହିରଣ୍ୟାକ୍ଷ ସହ ଯୁଦ୍ଧ କରିଥିଲେ",
+"explanation": "ହିରଣ୍ୟାକ୍ଷ ତାଙ୍କୁ ଯୁଦ୍ଧ ପାଇଁ ଆହ୍ଵାନ ଦେଇଥିଲା, ଯାହା ସେ ସ୍ଵୀକାର କଲେ।"
+},
+{
+"questionEnglish": "How does the story highlight the victory of righteousness?",
+"questionOdia": "କାହାଣୀଟି ଧର୍ମର ବିଜୟକୁ କିପରି ଉପସ୍ଥାପନ କରେ?",
+"options": [
+"ଦୁଷ୍ଟ ରାକ୍ଷସର ବଧ ଦ୍ଵାରା",
+"ଦେବତାମାନଙ୍କ ସାହାଯ୍ୟ ଦ୍ଵାରା",
+"ତପସ୍ୟା ଦ୍ଵାରା",
+"ପ୍ରାର୍ଥନା ଦ୍ଵାରା"
+],
+"answer": "ଦୁଷ୍ଟ ରାକ୍ଷସର ବଧ ଦ୍ଵାରା",
+"explanation": "ହିରଣ୍ୟାକ୍ଷର ବିନାଶ ହିଁ ଧର୍ମର ଜୟକୁ ପ୍ରମାଣ କରେ।"
+},
+{
+"questionEnglish": "Who was the first being to worry about the Earth's disappearance?",
+"questionOdia": "ପୃଥିବୀର ଅଦୃଶ୍ୟ ହେବାକୁ ନେଇ ସର୍ବପ୍ରଥମେ କିଏ ଚିନ୍ତିତ ହୋଇଥିଲେ?",
+"options": [
+"ବ୍ରହ୍ମା",
+"ବିଷ୍ଣୁ",
+"ଶିବ",
+"ଇନ୍ଦ୍ର"
+],
+"answer": "ବ୍ରହ୍ମା",
+"explanation": "ସୃଷ୍ଟିକର୍ତ୍ତା ବ୍ରହ୍ମା ହିଁ ସର୍ବପ୍ରଥମେ ପୃଥିବୀର ଦୁର୍ଦ୍ଦଶା ଦେଖି ଚିନ୍ତିତ ହୋଇଥିଲେ।"
+},
+{
+"questionEnglish": "How do the gods acknowledge Vishnu's role?",
+"questionOdia": "ଦେବତାମାନେ ବିଷ୍ଣୁଙ୍କ ଭୂମିକାକୁ କିପରି ସ୍ଵୀକାର କରନ୍ତି?",
+"options": [
+"ସ୍ତୁତି ଓ ପ୍ରଶଂସା ମାଧ୍ୟମରେ",
+"ଉପହାର ଦେଇ",
+"ନୀରବ ରହି",
+"ଅସନ୍ତୋଷ ପ୍ରକାଶ କରି"
+],
+"answer": "ସ୍ତୁତି ଓ ପ୍ରଶଂସା ମାଧ୍ୟମରେ",
+"explanation": "ଦେବତାମାନେ ଭଗବାନଙ୍କୁ ସର୍ବଶକ୍ତିମାନ ବୋଲି ସ୍ଵୀକାର କରି ତାଙ୍କର ଗୁଣଗାନ କରନ୍ତି।"
+},
+{
+"questionEnglish": "What does the story symbolize?",
+"questionOdia": "ଏହି କାହାଣୀ କ'ଣ ସୂଚାଏ?",
+"options": [
+"ଭଗବାନଙ୍କର ଦୁଷ୍ଟ ନାଶକାରୀ ଶକ୍ତି",
+"ଜଳର ମହତ୍ତ୍ୱ",
+"ରାକ୍ଷସଙ୍କ ଶକ୍ତି",
+"ପ୍ରକୃତିର ସୌନ୍ଦର୍ଯ୍ୟ"
+],
+"answer": "ଭଗବାନଙ୍କର ଦୁଷ୍ଟ ନାଶକାରୀ ଶକ୍ତି",
+"explanation": "ଏହା ଭଗବାନଙ୍କର ଦୁଷ୍ଟଙ୍କୁ ଦମନ କରିବାର ଶକ୍ତିକୁ ସୂଚାଏ।"
+},
+{
+"questionEnglish": "Where did Varaha keep the Earth?",
+"questionOdia": "ବରାହ ପୃଥିବୀକୁ କେଉଁଠାରେ ରଖିଥିଲେ?",
+"options": [
+"ତାଙ୍କ ଦାନ୍ତରେ",
+"ତାଙ୍କ ହାତରେ",
+"ତାଙ୍କ ମୁଣ୍ଡରେ",
+"ତାଙ୍କ ପେଟରେ"
+],
+"answer": "ତାଙ୍କ ଦାନ୍ତରେ",
+"explanation": "ବରାହ ରୂପୀ ବିଷ୍ଣୁ ନିଜର ଦାନ୍ତ (ଦଂଷ୍ଟ୍ରା)ରେ ପୃଥିବୀକୁ ସମ୍ଭାଳି ରଖିଥିଲେ।"
+},
+{
+"questionEnglish": "What was Hiranyaksha's ego based on?",
+"questionOdia": "ହିରଣ୍ୟାକ୍ଷର ଅହଂକାର କାହା ଉପରେ ଆଧାରିତ ଥିଲା?",
+"options": [
+"ତା'ର ବଳ",
+"ତା'ର ଜ୍ଞାନ",
+"ତା'ର ଧନ",
+"ତା'ର ସୌନ୍ଦର୍ଯ୍ୟ"
+],
+"answer": "ତା'ର ବଳ",
+"explanation": "ହିରଣ୍ୟାକ୍ଷ ନିଜର ଶାରୀରିକ ବଳ ଓ ଶକ୍ତିକୁ ନେଇ ଗର୍ବ କରୁଥିଲା।"
+},
+{
+"questionEnglish": "What is the role of prayer in this story?",
+"questionOdia": "ଏହି କାହାଣୀରେ ପ୍ରାର୍ଥନାର ଭୂମିକା କ'ଣ?",
+"options": [
+"ଭଗବାନଙ୍କ ସହାୟତା ପାଇବା ପାଇଁ",
+"ଅଧିକ ଶକ୍ତି ପାଇବା ପାଇଁ",
+"ରାକ୍ଷସକୁ ଭୟଭୀତ କରିବା ପାଇଁ",
+"ଏହାର କିଛି ଭୂମିକା ନାହିଁ"
+],
+"answer": "ଭଗବାନଙ୍କ ସହାୟତା ପାଇବା ପାଇଁ",
+"explanation": "ବ୍ରହ୍ମାଙ୍କ ପ୍ରାର୍ଥନାରେ ହିଁ ଭଗବାନ ବିଷ୍ଣୁ ଅବତାର ନେଇଥିଲେ।"
+},
+{
+"questionEnglish": "Why is Vishnu called the protector of the Universe?",
+"questionOdia": "ବିଷ୍ଣୁଙ୍କୁ କାହିଁକି ସୃଷ୍ଟିର ପାଳନକର୍ତ୍ତା କୁହାଯାଏ?",
+"options": [
+"ସେ ବିପଦ ସମୟରେ ରକ୍ଷା କରନ୍ତି",
+"ସେ କେବଳ ସୃଷ୍ଟି କରନ୍ତି",
+"ସେ ସବୁବେଳେ କ୍ରୋଧିତ ରୁହନ୍ତି",
+"ସେ ଧନ ଦିଅନ୍ତି"
+],
+"answer": "ସେ ବିପଦ ସମୟରେ ରକ୍ଷା କରନ୍ତି",
+"explanation": "ପୃଥିବୀ ସଙ୍କଟରେ ଥିବା ବେଳେ ସେ ଉଦ୍ଧାର କରିଥିବାରୁ ତାଙ୍କୁ ରକ୍ଷାକର୍ତ୍ତା କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What did Hiranyaksha try to do with the Earth?",
+"questionOdia": "ହିରଣ୍ୟାକ୍ଷ ପୃଥିବୀକୁ କ'ଣ କରିବାକୁ ଚେଷ୍ଟା କରିଥିଲା?",
+"options": [
+"ରସାତଳରେ ଲୁଚାଇ ରଖିବାକୁ",
+"ନଷ୍ଟ କରିବାକୁ",
+"ସୁନ୍ଦର କରିବାକୁ",
+"ଅଧିକ ସମ୍ପତ୍ତି କରିବାକୁ"
+],
+"answer": "ରସାତଳରେ ଲୁଚାଇ ରଖିବାକୁ",
+"explanation": "ହିରଣ୍ୟାକ୍ଷ ପୃଥିବୀକୁ ଅପହରଣ କରି ରସାତଳକୁ ନେଇଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "How long did the battle last?",
+"questionOdia": "ଯୁଦ୍ଧ କେତେ ସମୟ ଧରି ଚାଲିଥିଲା?",
+"options": [
+"ଅତ୍ୟନ୍ତ ଭୀଷଣ ଯୁଦ୍ଧ ହୋଇଥିଲା",
+"ଖୁବ୍ କମ୍ ସମୟ",
+"ଶାନ୍ତିପୂର୍ଣ୍ଣ",
+"କିଛି ବି ହୋଇନଥିଲା"
+],
+"answer": "ଅତ୍ୟନ୍ତ ଭୀଷଣ ଯୁଦ୍ଧ ହୋଇଥିଲା",
+"explanation": "ଯୁଦ୍ଧ ଅତ୍ୟନ୍ତ ଭୀଷଣ ଓ ଶକ୍ତିଶାଳୀ ଥିଲା।"
+},
+{
+"questionEnglish": "What is the significance of the Varaha Avatar's tusks?",
+"questionOdia": "ବରାହ ଅବତାରର ଦାନ୍ତ (ଦଂଷ୍ଟ୍ରା)ର ଗୁରୁତ୍ଵ କ'ଣ?",
+"options": [
+"ପୃଥିବୀକୁ ଧାରଣ କରିବା ପାଇଁ",
+"ଖାଇବା ପାଇଁ",
+"ସୌନ୍ଦର୍ଯ୍ୟ ପାଇଁ",
+"ଦେଖାଇବା ପାଇଁ"
+],
+"answer": "ପୃଥିବୀକୁ ଧାରଣ କରିବା ପାଇଁ",
+"explanation": "ସେହି ଦାନ୍ତ ହିଁ ପୃଥିବୀକୁ ସମ୍ଭାଳିବା ଓ ଉଦ୍ଧାର କରିବା ପାଇଁ ସହାୟକ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Who helped Brahma in this story?",
+"questionOdia": "ଏହି କାହାଣୀରେ ବ୍ରହ୍ମାଙ୍କୁ କିଏ ସାହାଯ୍ୟ କଲେ?",
+"options": [
+"ଭଗବାନ ବିଷ୍ଣୁ",
+"ଶିବ",
+"ଇନ୍ଦ୍ର",
+"ଅଗ୍ନି"
+],
+"answer": "ଭଗବାନ ବିଷ୍ଣୁ",
+"explanation": "ବ୍ରହ୍ମାଙ୍କ ପ୍ରାର୍ଥନା ପରେ ବିଷ୍ଣୁ ସାହାଯ୍ୟ କରିବାକୁ ଆଗେଇ ଆସିଲେ।"
+},
+{
+"questionEnglish": "How does the story end?",
+"questionOdia": "କାହାଣୀର ଶେଷ କିପରି ହେଲା?",
+"options": [
+"ପୃଥିବୀର ପୁନଃ ପ୍ରତିଷ୍ଠା ଓ ଶାନ୍ତି",
+"ରାକ୍ଷସଙ୍କ ବିଜୟ",
+"ଦେବତାଙ୍କ ପରାଜୟ",
+"ଅନ୍ଧକାର"
+],
+"answer": "ପୃଥିବୀର ପୁନଃ ପ୍ରତିଷ୍ଠା ଓ ଶାନ୍ତି",
+"explanation": "ଦୁଷ୍ଟ ବଧ ପରେ ପୃଥିବୀ ସ୍ଥାପିତ ହେଲା ଓ ସୃଷ୍ଟିରେ ଶାନ୍ତି ଆସିଲା।"
+},
+{
+"questionEnglish": "Why did Vishnu choose the Varaha form?",
+"questionOdia": "ବିଷ୍ଣୁ କାହିଁକି ବରାହ ରୂପ ବାଛିଲେ?",
+"options": [
+"ଜଳରୁ ପୃଥିବୀକୁ ଉଦ୍ଧାର କରିବା ପାଇଁ",
+"ସେ ଶୁକରଙ୍କୁ ଭଲ ପାଉଥିଲେ",
+"ସେ କେବଳ ବୁଲିବାକୁ ଚାହୁଁଥିଲେ",
+"ଏହା ଏକ ସହଜ ରୂପ ଥିଲା"
+],
+"answer": "ଜଳରୁ ପୃଥିବୀକୁ ଉଦ୍ଧାର କରିବା ପାଇଁ",
+"explanation": "ଜଳ ମଧ୍ୟରୁ ପୃଥିବୀକୁ ଖୋଜି ଆଣିବା ପାଇଁ ବରାହ (ଶୁକର) ରୂପ ସବୁଠାରୁ ଉପଯୁକ୍ତ ଥିଲା।"
+},
+{
+"questionEnglish": "What does the defeat of Hiranyaksha represent?",
+"questionOdia": "ହିରଣ୍ୟାକ୍ଷର ପରାଜୟ କ'ଣ ସୂଚାଏ?",
+"options": [
+"ଅହଂକାରର ବିନାଶ",
+"ବିଜୟ",
+"ଧନ",
+"ଶକ୍ତି"
+],
+"answer": "ଅହଂକାରର ବିନାଶ",
+"explanation": "ହିରଣ୍ୟାକ୍ଷର ପରାଜୟ ଅହଂକାର ଓ ଦୁଷ୍ଟତାର ବିନାଶକୁ ସୂଚାଏ।"
+},
+{
+"questionEnglish": "What was the feeling of the Earth when rescued?",
+"questionOdia": "ଉଦ୍ଧାର ହେବା ସମୟରେ ପୃଥିବୀର ଅନୁଭବ କିପରି ଥିଲା?",
+"options": [
+"ଆଶ୍ୱସ୍ତି ଓ କୃତଜ୍ଞତା",
+"ରାଗ",
+"ଭୟ",
+"ଦୁଃଖ"
+],
+"answer": "ଆଶ୍ୱସ୍ତି ଓ କୃତଜ୍ଞତା",
+"explanation": "ଦୁର୍ଦ୍ଦଶାରୁ ମୁକ୍ତ ହୋଇ ପୃଥିବୀ ଆଶ୍ୱସ୍ତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "What is the primary message of the Puranas regarding avatars?",
+"questionOdia": "ଅବତାର ବିଷୟରେ ପୁରାଣର ମୁଖ୍ୟ ବାର୍ତ୍ତା କ'ଣ?",
+"options": [
+"ଧର୍ମ ରକ୍ଷା ପାଇଁ ଭଗବାନଙ୍କ ଆଗମନ",
+"କେବଳ ରଞ୍ଜନ",
+"ବିଜ୍ଞାନ",
+"ରାଜନୀତି"
+],
+"answer": "ଧର୍ମ ରକ୍ଷା ପାଇଁ ଭଗବାନଙ୍କ ଆଗମନ",
+"explanation": "ଯେତେବେଳେ ଧର୍ମ ହ୍ରାସ ପାଏ, ଭଗବାନ ଅବତାର ନିଅନ୍ତି।"
+},
+{
+"questionEnglish": "What are the key themes of Varahopakhyanam?",
+"questionOdia": "ବରାହୋପାଖ୍ୟାନମ୍‌ର ମୁଖ୍ୟ ବିଷୟବସ୍ତୁ କ'ଣ?",
+"options": [
+"ଦୁଷ୍ଟ ଦମନ ଓ ଧର୍ମ ପ୍ରତିଷ୍ଠା",
+"କେବଳ ଯୁଦ୍ଧ",
+"କେବଳ ରୂପ ବର୍ଣ୍ଣନା",
+"କେବଳ ଦେବତାଙ୍କ ପ୍ରଶଂସା"
+],
+"answer": "ଦୁଷ୍ଟ ଦମନ ଓ ଧର୍ମ ପ୍ରତିଷ୍ଠା",
+"explanation": "ଏହା ଦୁଷ୍ଟଙ୍କୁ ଦମନ କରି ଧର୍ମ ସ୍ଥାପନ କରିବାର କାହାଣୀ।"
+},
+{
+"questionEnglish": "What did Hiranyaksha represent?",
+"questionOdia": "ହିରଣ୍ୟାକ୍ଷ କାହାର ପ୍ରତୀକ ଥିଲା?",
+"options": [
+"ଅଜ୍ଞାନ ଓ ଦୁଷ୍ଟତା",
+"ଜ୍ଞାନ",
+"ଶାନ୍ତି",
+"ଦୟା"
+],
+"answer": "ଅଜ୍ଞାନ ଓ ଦୁଷ୍ଟତା",
+"explanation": "ସେ ଅହଂକାର ଓ ଦୁଷ୍ଟତାର ପ୍ରତୀକ ଥିଲା।"
+},
+{
+"questionEnglish": "How is the rescue mission described?",
+"questionOdia": "ଉଦ୍ଧାର କାର୍ଯ୍ୟକୁ କିପରି ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"options": [
+"ସାହସ ଓ ଶକ୍ତିର ପ୍ରଦର୍ଶନ",
+"ସାଧାରଣ କାମ",
+"କଷ୍ଟକର ନୁହେଁ",
+"କୌଣସି ଗୁରୁତ୍ଵ ନାହିଁ"
+],
+"answer": "ସାହସ ଓ ଶକ୍ତିର ପ୍ରଦର୍ଶନ",
+"explanation": "ଏହା ଏକ ଅସାଧାରଣ ସାହସିକ କାର୍ଯ୍ୟ ଥିଲା।"
+},
+{
+"questionEnglish": "What lessons can students learn from this?",
+"questionOdia": "ଛାତ୍ରମାନେ ଏଥିରୁ କ'ଣ ଶିକ୍ଷା କରିପାରିବେ?",
+"options": [
+"ଧୈର୍ଯ୍ୟ ଓ ସାହସ",
+"ଅହଂକାର",
+"ଭୟ",
+"ଆଳସ୍ୟ"
+],
+"answer": "ଧୈର୍ଯ୍ୟ ଓ ସାହସ",
+"explanation": "ବିପଦ ସମୟରେ ଧୈର୍ଯ୍ୟ ଓ ସାହସ ରଖିବା ଉଚିତ।"
+},
+{
+"questionEnglish": "Is Hiranyaksha's power greater than Vishnu's?",
+"questionOdia": "ହିରଣ୍ୟାକ୍ଷର ଶକ୍ତି ବିଷ୍ଣୁଙ୍କଠାରୁ ଅଧିକ କି?",
+"options": [
+"ନା, ବିଷ୍ଣୁ ସର୍ବଶକ୍ତିମାନ",
+"ହଁ",
+"ସମାନ",
+"କିଛି କୁହାଯାଇ ନାହିଁ"
+],
+"answer": "ନା, ବିଷ୍ଣୁ ସର୍ବଶକ୍ତିମାନ",
+"explanation": "ହିରଣ୍ୟାକ୍ଷ ଶକ୍ତିଶାଳୀ ଥିଲେ ମଧ୍ୟ ବିଷ୍ଣୁଙ୍କଠାରୁ ନୁହେଁ।"
+},
+{
+"questionEnglish": "Why did the Earth need to be rescued?",
+"questionOdia": "ପୃଥିବୀକୁ ଉଦ୍ଧାର କରିବା କାହିଁକି ଆବଶ୍ୟକ ଥିଲା?",
+"options": [
+"ସୃଷ୍ଟିର ସନ୍ତୁଳନ ରକ୍ଷା ପାଇଁ",
+"କେବଳ ଦେଖାଇବା ପାଇଁ",
+"କିଛି ନୁହେଁ",
+"କେବଳ ପାଣି ପାଇଁ"
+],
+"answer": "ସୃଷ୍ଟିର ସନ୍ତୁଳନ ରକ୍ଷା ପାଇଁ",
+"explanation": "ପୃଥିବୀ ନଥିଲେ ସୃଷ୍ଟିର ସନ୍ତୁଳନ ରହିବ ନାହିଁ।"
+},
+{
+"questionEnglish": "Who is the central character of the story?",
+"questionOdia": "ଏହି କାହାଣୀର କେନ୍ଦ୍ରୀୟ ଚରିତ୍ର କିଏ?",
+"options": [
+"ଭଗବାନ ବିଷ୍ଣୁ (ବରାହ)",
+"ହିରଣ୍ୟାକ୍ଷ",
+"ବ୍ରହ୍ମା",
+"ପୃଥିବୀ"
+],
+"answer": "ଭଗବାନ ବିଷ୍ଣୁ (ବରାହ)",
+"explanation": "ବରାହ ଅବତାର ହିଁ ସବୁ କାର୍ଯ୍ୟର କେନ୍ଦ୍ରବିନ୍ଦୁ।"
+},
+{
+"questionEnglish": "What does the ocean represent in the story?",
+"questionOdia": "ଏହି କାହାଣୀରେ ସମୁଦ୍ର କ'ଣ ସୂଚାଏ?",
+"options": [
+"ବାଧା ବା ସଙ୍କଟ",
+"ଶାନ୍ତି",
+"କିଛି ନୁହେଁ",
+"ସମ୍ପତ୍ତି"
+],
+"answer": "ବାଧା ବା ସଙ୍କଟ",
+"explanation": "ସମୁଦ୍ର ଗଭୀର ସଙ୍କଟର ପ୍ରତୀକ ଅଟେ।"
+},
+{
+"questionEnglish": "How did Varaha show his strength?",
+"questionOdia": "ବରାହ କିପରି ତାଙ୍କ ଶକ୍ତି ଦେଖାଇଲେ?",
+"options": [
+"ସମୁଦ୍ର ଭେଦ କରି ପୃଥିବୀ ଆଣି",
+"ଯୁଦ୍ଧ ଜିତି",
+"ବ୍ରହ୍ମାଙ୍କୁ ସାହାଯ୍ୟ କରି",
+"ସବୁକିଛି କରି"
+],
+"answer": "ସମୁଦ୍ର ଭେଦ କରି ପୃଥିବୀ ଆଣି",
+"explanation": "ତାଙ୍କର ଏହି କାର୍ଯ୍ୟ ହିଁ ତାଙ୍କ ଶକ୍ତିର ପ୍ରମାଣ।"
+},
+{
+"questionEnglish": "What was Hiranyaksha doing when Varaha arrived?",
+"questionOdia": "ବରାହ ପହଞ୍ଚିଲା ବେଳେ ହିରଣ୍ୟାକ୍ଷ କ'ଣ କରୁଥିଲା?",
+"options": [
+"ଯୁଦ୍ଧ ପାଇଁ ପ୍ରସ୍ତୁତ ଥିଲା",
+"ଶୋଇଥିଲା",
+"ଖାଉଥିଲା",
+"ହସୁଥିଲା"
+],
+"answer": "ଯୁଦ୍ଧ ପାଇଁ ପ୍ରସ୍ତୁତ ଥିଲା",
+"explanation": "ହିରଣ୍ୟାକ୍ଷ ଅହଂକାରରେ ଭଗବାନଙ୍କ ସହ ଯୁଦ୍ଧ କରିବାକୁ ପ୍ରସ୍ତୁତ ଥିଲା।"
+},
+{
+"questionEnglish": "Did the gods praise Vishnu after his victory?",
+"questionOdia": "ବିଜୟ ପରେ ଦେବତାମାନେ ବିଷ୍ଣୁଙ୍କୁ ପ୍ରଶଂସା କଲେ କି?",
+"options": [
+"ହଁ, ନିଶ୍ଚିତ ଭାବେ",
+"ନା",
+"ସେମାନେ ପଳାଇଲେ",
+"କିଛି କହିଲେ ନାହିଁ"
+],
+"answer": "ହଁ, ନିଶ୍ଚିତ ଭାବେ",
+"explanation": "ଦେବତାମାନେ ଅତ୍ୟନ୍ତ ଖୁସି ହୋଇ ସ୍ତୁତି ଗାନ କଲେ।"
+},
+{
+"questionEnglish": "What is the importance of this story in Sanskrit literature?",
+"questionOdia": "ସଂସ୍କୃତ ସାହିତ୍ୟରେ ଏହି କାହାଣୀର ଗୁରୁତ୍ଵ କ'ଣ?",
+"options": [
+"ଧର୍ମ ଓ ପୁରାଣର ଜ୍ଞାନ",
+"କେବଳ ଭାଷା",
+"କିଛି ନୁହେଁ",
+"ବିଜ୍ଞାନ"
+],
+"answer": "ଧର୍ମ ଓ ପୁରାଣର ଜ୍ଞାନ",
+"explanation": "ଏହା ପୁରାଣ ପ୍ରସିଦ୍ଧ ଓ ଧର୍ମଗ୍ରନ୍ଥର ଅଂଶ ଅଟେ।"
+},
+{
+"questionEnglish": "What feeling should students have towards righteousness?",
+"questionOdia": "ଧର୍ମ ପ୍ରତି ଛାତ୍ରଙ୍କର କିପରି ମନୋଭାବ ରହିବା ଉଚିତ?",
+"options": [
+"ସମ୍ମାନ ଓ ପାଳନ",
+"ଭୟ",
+"କିଛି ନୁହେଁ",
+"ଘୃଣା"
+],
+"answer": "ସମ୍ମାନ ଓ ପାଳନ",
+"explanation": "ଧର୍ମକୁ ସମ୍ମାନ ଦେବା ଓ ପାଳନ କରିବା ଉଚିତ।"
+},
+{
+"questionEnglish": "Who destroyed the pride of the demon?",
+"questionOdia": "କିଏ ରାକ୍ଷସର ଗର୍ବ ନାଶ କଲେ?",
+"options": [
+"ଭଗବାନ ବିଷ୍ଣୁ",
+"ବ୍ରହ୍ମା",
+"ଇନ୍ଦ୍ର",
+"ଅନ୍ୟ ରାକ୍ଷସ"
+],
+"answer": "ଭଗବାନ ବିଷ୍ଣୁ",
+"explanation": "ବିଷ୍ଣୁ ନିଜ ଶକ୍ତିରେ ହିରଣ୍ୟାକ୍ଷର ଗର୍ବ ଭାଙ୍ଗିଲେ।"
+}
+]
