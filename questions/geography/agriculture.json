@@ -1,1 +1,615 @@
+[
+{
+"questionEnglish": "What is the primary occupation of the majority of people in India, according to the geography textbook?",
+"questionOdia": "ଭାରତର ଅଧିକାଂଶ ଲୋକଙ୍କର ମୁଖ୍ୟ ବୃତ୍ତି କଣ ବୋଲି ଭୂଗୋଳ ପାଠ୍ୟପୁସ୍ତକରେ କୁହାଯାଇଛି?",
+"options": [
+"ଶିଳ୍ପ",
+"କୃଷି",
+"ବାଣିଜ୍ୟ",
+"ପରିବହନ"
+],
+"answer": "କୃଷି",
+"explanation": "ଭାରତ ଏକ କୃଷି ପ୍ରଧାନ ଦେଶ ଏବଂ ଏଠାରେ ଜନସଂଖ୍ୟାର ଏକ ବଡ଼ ଅଂଶ କୃଷି ଉପରେ ନିର୍ଭରଶୀଳ।"
+},
+{
+"questionEnglish": "Which type of farming is practiced in areas with high population pressure on land?",
+"questionOdia": "ଜମି ଉପରେ ଅଧିକ ଜନସଂଖ୍ୟା ଚାପ ଥିବା ଅଞ୍ଚଳରେ କେଉଁ ପ୍ରକାରର କୃଷି କରାଯାଏ?",
+"options": [
+"ସ୍ଥାନାନ୍ତରିତ କୃଷି",
+"ବିସ୍ତୃତ କୃଷି",
+"ପ୍ରଗାଢ଼ ଜୀବିକା ନିର୍ବାହୀ କୃଷି",
+"ବ୍ୟାବସାୟିକ କୃଷି"
+],
+"answer": "ପ୍ରଗାଢ଼ ଜୀବିକା ନିର୍ବାହୀ କୃଷି",
+"explanation": "ଜନସଂଖ୍ୟାର ଚାପ ଅଧିକ ଥିବାରୁ ଜମିରୁ ଅଧିକ ଉତ୍ପାଦନ ପାଇଁ ଏହି ପ୍ରକାର କୃଷି ଅବଲମ୍ବନ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is 'Slash and Burn' agriculture commonly known as in India?",
+"questionOdia": "ଭାରତରେ 'ସ୍ଲାସ୍ ଆଣ୍ଡ ବର୍ନ' (Slash and Burn) କୃଷିକୁ ସାଧାରଣତଃ କଣ କୁହାଯାଏ?",
+"options": [
+"ଉନ୍ନତ କୃଷି",
+"ସ୍ଥାନାନ୍ତରିତ କୃଷି",
+"ବାଣିଜ୍ୟିକ କୃଷି",
+"ବଗିଚା କୃଷି"
+],
+"answer": "ସ୍ଥାନାନ୍ତରିତ କୃଷି",
+"explanation": "ଏହି ପଦ୍ଧତିରେ ଜଙ୍ଗଲ ସଫା କରି ପୋଡ଼ି ଦିଆଯାଏ ଏବଂ କିଛି ବର୍ଷ ପରେ ସ୍ଥାନ ପରିବର୍ତ୍ତନ କରାଯାଏ।"
+},
+{
+"questionEnglish": "Which crop is considered as a plantation crop?",
+"questionOdia": "କେଉଁ ଫସଲକୁ ବଗିଚା କୃଷି (Plantation agriculture) ଅନ୍ତର୍ଭୁକ୍ତ କରାଯାଏ?",
+"options": [
+"ଧାନ",
+"ଗହମ",
+"ଚା",
+"ମୁଗ"
+],
+"answer": "ଚା",
+"explanation": "ଚା, କଫି, ରବର ଆଦି ବଗିଚା କୃଷିର ଉଦାହରଣ, ଯେଉଁଠାରେ ବୃହତ ଆକାରର ଜମିରେ ଗୋଟିଏ ପ୍ରକାର ଫସଲ ଚାଷ କରାଯାଏ।"
+},
+{
+"questionEnglish": "Which of the following is a Kharif crop in India?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଭାରତର ଏକ ଖରିଫ ଫସଲ?",
+"options": [
+"ଗହମ",
+"ସୋରିଷ",
+"ଧାନ",
+"ମଟର"
+],
+"answer": "ଧାନ",
+"explanation": "ଖରିଫ ଫସଲ ମୌସୁମୀ ଆଗମନ ସମୟରେ ବୁଣାଯାଏ ଏବଂ ଧାନ ଏହାର ଏକ ମୁଖ୍ୟ ଉଦାହରଣ।"
+},
+{
+"questionEnglish": "What are the crops grown in the winter season called?",
+"questionOdia": "ଶୀତଋତୁରେ ଚାଷ କରାଯାଉଥିବା ଫସଲକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ଖରିଫ ଫସଲ",
+"ରବି ଫସଲ",
+"ଜୈଦ ଫସଲ",
+"ବଗିଚା ଫସଲ"
+],
+"answer": "ରବି ଫସଲ",
+"explanation": "ଶୀତଦିନେ ଅକ୍ଟୋବର-ଡିସେମ୍ବର ମଧ୍ୟରେ ବୁଣାଯାଉଥିବା ଫସଲକୁ ରବି ଫସଲ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which state is the largest producer of Jute in India?",
+"questionOdia": "ଭାରତର କେଉଁ ରାଜ୍ୟ ପାଟ (Jute) ଉତ୍ପାଦନରେ ସର୍ବଶ୍ରେଷ୍ଠ?",
+"options": [
+"ଓଡ଼ିଶା",
+"ପଶ୍ଚିମବଙ୍ଗ",
+"ଆସାମ",
+"ବିହାର"
+],
+"answer": "ପଶ୍ଚିମବଙ୍ଗ",
+"explanation": "ପଶ୍ଚିମବଙ୍ଗର ଆର୍ଦ୍ର ଓ ଉଷ୍ମ ଜଳବାୟୁ ପାଟ ଚାଷ ପାଇଁ ଅନୁକୂଳ, ଯେଉଁଥିପାଇଁ ଏଠାରେ ସର୍ବାଧିକ ପାଟ ଉତ୍ପାଦନ ହୁଏ।"
+},
+{
+"questionEnglish": "Which crop is known as the 'Golden Fibre'?",
+"questionOdia": "କେଉଁ ଫସଲକୁ 'ସୁବର୍ଣ୍ଣ ତନ୍ତୁ' (Golden Fibre) ବୋଲି କୁହାଯାଏ?",
+"options": [
+"କାର୍ପାସ",
+"ପାଟ",
+"ରେଶମ",
+"ଉଲ୍"
+],
+"answer": "ପାଟ",
+"explanation": "ପାଟର ରଙ୍ଗ ଓ ଚମକ ପାଇଁ ଏହାକୁ ସୁବର୍ଣ୍ଣ ତନ୍ତୁ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the main requirement for growing tea?",
+"questionOdia": "ଚା ଚାଷ ପାଇଁ ମୁଖ୍ୟ ଆବଶ୍ୟକତା କଣ?",
+"options": [
+"ଅଧିକ ଖରା",
+"ନିଗିଡ଼ା ପାହାଡ଼ିଆ ଜମି ଓ ବର୍ଷା",
+"ଶୁଷ୍କ ପାଣିପାଗ",
+"ସମତଳ ଭୂମି"
+],
+"answer": "ନିଗିଡ଼ା ପାହାଡ଼ିଆ ଜମି ଓ ବର୍ଷା",
+"explanation": "ଚା ଗଛ ଚେରରେ ପାଣି ଜମିଲେ ତାହା ନଷ୍ଟ ହୋଇଯାଏ, ତେଣୁ ପାହାଡ଼ିଆ ଢାଲୁ ଜମି ଆବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "Which type of agriculture focuses on selling products in the market?",
+"questionOdia": "ବଜାରରେ ବିକ୍ରୟ କରିବା ପାଇଁ କେଉଁ ପ୍ରକାରର କୃଷି ମୁଖ୍ୟତଃ କରାଯାଏ?",
+"options": [
+"ଜୀବିକା ନିର୍ବାହୀ କୃଷି",
+"ବାଣିଜ୍ୟିକ କୃଷି",
+"ସ୍ଥାନାନ୍ତରିତ କୃଷି",
+"ପାରମ୍ପରିକ କୃଷି"
+],
+"answer": "ବାଣିଜ୍ୟିକ କୃଷି",
+"explanation": "ବାଣିଜ୍ୟିକ କୃଷିର ମୂଳ ଲକ୍ଷ୍ୟ ହେଉଛି ଅଧିକ ଫସଲ ଉତ୍ପାଦନ କରି ବଜାରରେ ବିକ୍ରୟ କରି ମୁନାଫା ଅର୍ଜନ କରିବା।"
+},
+{
+"questionEnglish": "Which of these is a cash crop?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଅର୍ଥକରୀ ଫସଲ (Cash crop)?",
+"options": [
+"ଧାନ",
+"ଗହମ",
+"କାର୍ପାସ",
+"ମାଣ୍ଡିଆ"
+],
+"answer": "କାର୍ପାସ",
+"explanation": "କାର୍ପାସ ଏକ ଶିଳ୍ପାଧାରିତ ଅର୍ଥକରୀ ଫସଲ, ଯାହା ବଜାରରେ ବିକ୍ରି ପାଇଁ ଉଦ୍ଦିଷ୍ଟ।"
+},
+{
+"questionEnglish": "What are the Zaid crops grown between Rabi and Kharif seasons?",
+"questionOdia": "ରବି ଓ ଖରିଫ ଋତୁ ମଧ୍ୟରେ ଯେଉଁ ଫସଲ ଚାଷ କରାଯାଏ, ତାକୁ କଣ କୁହାଯାଏ?",
+"options": [
+"ଖରିଫ",
+"ରବି",
+"ଜୈଦ",
+"ବାର୍ଷିକ"
+],
+"answer": "ଜୈଦ",
+"explanation": "ଗ୍ରୀଷ୍ମଋତୁରେ କରାଯାଉଥିବା ଚାଷକୁ ଜୈଦ ଫସଲ କୁହାଯାଏ, ଯେପରିକି ତରଭୂଜ, କାକୁଡ଼ି ଆଦି।"
+},
+{
+"questionEnglish": "Which state is known as the 'Rice Bowl of India'?",
+"questionOdia": "କେଉଁ ଅଞ୍ଚଳ ବା ରାଜ୍ୟକୁ 'ଭାରତର ଧାନ ଭଣ୍ଡାର' କୁହାଯାଏ?",
+"options": [
+"ପଞ୍ଜାବ",
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"ଓଡ଼ିଶା",
+"କୃଷ୍ଣା-ଗୋଦାବରୀ ଡେଲଟା ଅଞ୍ଚଳ"
+],
+"answer": "କୃଷ୍ଣା-ଗୋଦାବରୀ ଡେଲଟା ଅଞ୍ଚଳ",
+"explanation": "ଏହି ଅଞ୍ଚଳରେ ପ୍ରଚୁର ପରିମାଣରେ ଧାନ ଉତ୍ପାଦନ ହେଉଥିବାରୁ ଏହାକୁ ଧାନ ଭଣ୍ଡାର କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is 'White Revolution' associated with?",
+"questionOdia": "ଶ୍ଵେତ ବିପ୍ଳବ (White Revolution) କେଉଁଥି ସହିତ ଜଡ଼ିତ?",
+"options": [
+"ଶସ୍ୟ ଉତ୍ପାଦନ",
+"ଦୁଗ୍ଧ ଉତ୍ପାଦନ",
+"ମତ୍ସ୍ୟ ଉତ୍ପାଦନ",
+"ପାଟ ଉତ୍ପାଦନ"
+],
+"answer": "ଦୁଗ୍ଧ ଉତ୍ପାଦନ",
+"explanation": "ଦୁଗ୍ଧ ଉତ୍ପାଦନରେ ଅଭିବୃଦ୍ଧି ପାଇଁ ଭାରତରେ ଶ୍ଵେତ ବିପ୍ଳବ ଆରମ୍ଭ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Which type of soil is best for cotton cultivation?",
+"questionOdia": "କାର୍ପାସ ଚାଷ ପାଇଁ କେଉଁ ମୃତ୍ତିକା ସର୍ବୋତ୍ତମ?",
+"options": [
+"ଲାଲ ମୃତ୍ତିକା",
+"କଳା ମୃତ୍ତିକା",
+"ବାଲିଆ ମୃତ୍ତିକା",
+"ପର୍ବତୀୟ ମୃତ୍ତିକା"
+],
+"answer": "କଳା ମୃତ୍ତିକା",
+"explanation": "କଳା ମୃତ୍ତିକା (Regur soil) ପାଣି ଧରି ରଖିବାର କ୍ଷମତା ଅଧିକ ଥିବାରୁ କାର୍ପାସ ପାଇଁ ଉପଯୁକ୍ତ।"
+},
+{
+"questionEnglish": "Which is the most important cereal crop in India?",
+"questionOdia": "ଭାରତର ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଶସ୍ୟ ଫସଲ କେଉଁଟି?",
+"options": [
+"ଗହମ",
+"ଧାନ",
+"ମକା",
+"ଜଅ"
+],
+"answer": "ଧାନ",
+"explanation": "ଭାରତର ଜନସଂଖ୍ୟାର ଏକ ବଡ଼ ଭାଗ ଖାଦ୍ୟ ଭାବରେ ଧାନ (ଚାଉଳ) ଉପରେ ନିର୍ଭର କରନ୍ତି।"
+},
+{
+"questionEnglish": "What is the name of the system where high-yielding variety seeds are used with chemical fertilizers?",
+"questionOdia": "କେଉଁ ପ୍ରକାର ଚାଷରେ ଉନ୍ନତ ମାନର ମଞ୍ଜି ଏବଂ ରାସାୟନିକ ସାର ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ଆଧୁନିକ କୃଷି",
+"ପାରମ୍ପରିକ କୃଷି",
+"ସବୁଜ ବିପ୍ଳବ",
+"ଜୈବିକ କୃଷି"
+],
+"answer": "ସବୁଜ ବିପ୍ଳବ",
+"explanation": "ସବୁଜ ବିପ୍ଳବ ଅଧୀନରେ ଉନ୍ନତ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ଓ ସାର ବ୍ୟବହାର କରି ଉତ୍ପାଦନ ବୃଦ୍ଧି କରାଯାଇଛି।"
+},
+{
+"questionEnglish": "Which crop needs maximum water for irrigation?",
+"questionOdia": "କେଉଁ ଫସଲ ପାଇଁ ସର୍ବାଧିକ ଜଳସେଚନ ଆବଶ୍ୟକ?",
+"options": [
+"ଧାନ",
+"ମକା",
+"ଗହମ",
+"ବାଜରା"
+],
+"answer": "ଧାନ",
+"explanation": "ଧାନ ଚାଷରେ ଜମିରେ ସର୍ବଦା ପାଣି ଜମାଇ ରଖିବାକୁ ପଡ଼ିଥାଏ।"
+},
+{
+"questionEnglish": "What is the secondary economic activity related to agriculture?",
+"questionOdia": "କୃଷି ସମ୍ବନ୍ଧୀୟ ଦ୍ଵିତୀୟକ ଆର୍ଥିକ କାର୍ଯ୍ୟକଳାପ କଣ?",
+"options": [
+"ପଶୁପାଳନ",
+"ଶିଳ୍ପାୟନ",
+"ମତ୍ସ୍ୟଚାଷ",
+"ଖଣି କାର୍ଯ୍ୟ"
+],
+"answer": "ପଶୁପାଳନ",
+"explanation": "କୃଷି ସହିତ ପଶୁପାଳନ ଏକ ଅଭିନ୍ନ ଅଙ୍ଗ ଏବଂ ଏହାକୁ ମିଶ୍ରିତ କୃଷି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which state is a leading producer of coffee?",
+"questionOdia": "କେଉଁ ରାଜ୍ୟ କଫି ଉତ୍ପାଦନରେ ଅଗ୍ରଣୀ?",
+"options": [
+"କର୍ଣ୍ଣାଟକ",
+"ପଞ୍ଜାବ",
+"ହରିୟାଣା",
+"ମଧ୍ୟପ୍ରଦେଶ"
+],
+"answer": "କର୍ଣ୍ଣାଟକ",
+"explanation": "ଭାରତର ମୋଟ କଫି ଉତ୍ପାଦନର ଏକ ବଡ଼ ଅଂଶ କର୍ଣ୍ଣାଟକରୁ ଆସିଥାଏ।"
+},
+{
+"questionEnglish": "What is the primary factor affecting agriculture in India?",
+"questionOdia": "ଭାରତରେ କୃଷିକୁ ପ୍ରଭାବିତ କରୁଥିବା ମୁଖ୍ୟ କାରଣ କଣ?",
+"options": [
+"ଶିକ୍ଷା",
+"ମୌସୁମୀ ବର୍ଷା",
+"ରାଜନୀତି",
+"ଶିଳ୍ପ"
+],
+"answer": "ମୌସୁମୀ ବର୍ଷା",
+"explanation": "ଭାରତର ଅଧିକାଂଶ କୃଷି ଜଳସେଚନ ଅପେକ୍ଷା ମୌସୁମୀ ବର୍ଷା ଉପରେ ନିର୍ଭରଶୀଳ।"
+},
+{
+"questionEnglish": "Which crop is known as 'Dryland' crop?",
+"questionOdia": "କେଉଁ ଫସଲକୁ 'ଶୁଷ୍କ ଅଞ୍ଚଳର ଫସଲ' (Dryland crop) କୁହାଯାଏ?",
+"options": [
+"ଧାନ",
+"ବାଜରା",
+"କଫି",
+"ଚା"
+],
+"answer": "ବାଜରା",
+"explanation": "ବାଜରା କମ ବର୍ଷା ଓ ଶୁଷ୍କ ଜଳବାୟୁରେ ମଧ୍ୟ ଭଲ ଭାବରେ ବଢ଼ିପାରେ।"
+},
+{
+"questionEnglish": "Which method is used for increasing soil fertility in organic farming?",
+"questionOdia": "ଜୈବିକ କୃଷିରେ ମୃତ୍ତିକାର ଉର୍ବରତା ବୃଦ୍ଧି ପାଇଁ କଣ ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ରାସାୟନିକ ସାର",
+"ପ୍ରାକୃତିକ ସାର (ଖତ)",
+"କୀଟନାଶକ",
+"ଆଧୁନିକ ଯନ୍ତ୍ରପାତି"
+],
+"answer": "ପ୍ରାକୃତିକ ସାର (ଖତ)",
+"explanation": "ଜୈବିକ କୃଷିରେ ରାସାୟନିକ ପଦାର୍ଥ ପରିବର୍ତ୍ତେ ଗୋବର ଖତ ଓ କମ୍ପୋଷ୍ଟ ବ୍ୟବହାର ହୁଏ।"
+},
+{
+"questionEnglish": "Which crop is grown in the largest area in India?",
+"questionOdia": "ଭାରତରେ କେଉଁ ଫସଲ ସବୁଠାରୁ ବଡ଼ ଅଞ୍ଚଳରେ ଚାଷ କରାଯାଏ?",
+"options": [
+"ଗହମ",
+"ଧାନ",
+"ମକା",
+"ଚିନାବାଦାମ"
+],
+"answer": "ଧାନ",
+"explanation": "ଭାରତର କୃଷି ଯୋଗ୍ୟ ଜମିର ଏକ ବିଶାଳ ଅଂଶ ଧାନ ଚାଷ ଅଧୀନରେ ରହିଛି।"
+},
+{
+"questionEnglish": "What are pulses?",
+"questionOdia": "ଡାଲି ଜାତୀୟ ଫସଲ (Pulses) କଣ?",
+"options": [
+"ତୈଳବୀଜ",
+"ଶସ୍ୟ",
+"ପ୍ରୋଟିନ୍ ଯୁକ୍ତ ଖାଦ୍ୟ ଶସ୍ୟ",
+"ଅର୍ଥକରୀ ଫସଲ"
+],
+"answer": "ପ୍ରୋଟିନ୍ ଯୁକ୍ତ ଖାଦ୍ୟ ଶସ୍ୟ",
+"explanation": "ଡାଲି ଜାତୀୟ ଫସଲ ମାଟିର ନାଇଟ୍ରୋଜେନ ସ୍ତର ବୃଦ୍ଧି କରେ ଏବଂ ସ୍ୱାସ୍ଥ୍ୟ ପାଇଁ ପ୍ରୋଟିନ୍ ଯୋଗାଏ।"
+},
+{
+"questionEnglish": "Which state is a major producer of wheat?",
+"questionOdia": "କେଉଁ ରାଜ୍ୟ ଗହମ ଉତ୍ପାଦନରେ ପ୍ରମୁଖ?",
+"options": [
+"ଉତ୍ତର ପ୍ରଦେଶ",
+"କେରଳ",
+"ତାମିଲନାଡୁ",
+"ଓଡ଼ିଶା"
+],
+"answer": "ଉତ୍ତର ପ୍ରଦେଶ",
+"explanation": "ଉତ୍ତର ପ୍ରଦେଶ ଗହମ ଉତ୍ପାଦନରେ ଭାରତର ଅନ୍ୟତମ ଅଗ୍ରଣୀ ରାଜ୍ୟ।"
+},
+{
+"questionEnglish": "What is 'Mixed Farming'?",
+"questionOdia": "'ମିଶ୍ରିତ କୃଷି' (Mixed Farming) କଣ?",
+"options": [
+"କେବଳ ଏକ ଫସଲ ଚାଷ",
+"କୃଷି ସହିତ ପଶୁପାଳନ",
+"ବିଭିନ୍ନ ରାଜ୍ୟରେ ଚାଷ",
+"କେବଳ ବଗିଚା କୃଷି"
+],
+"answer": "କୃଷି ସହିତ ପଶୁପାଳନ",
+"explanation": "ଯେଉଁ କୃଷି ପଦ୍ଧତିରେ ଶସ୍ୟ ଉତ୍ପାଦନ ସହ ପଶୁପାଳନ ମଧ୍ୟ କରାଯାଏ, ତାହାକୁ ମିଶ୍ରିତ କୃଷି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which crop is known for being a Kharif crop that requires lots of heat?",
+"questionOdia": "କେଉଁ ଫସଲଟି ଖରିଫ ଋତୁରେ ଚାଷ କରାଯାଏ ଏବଂ ଅଧିକ ଉତ୍ତାପ ଦରକାର କରେ?",
+"options": [
+"ମକା",
+"ଗହମ",
+"ସୋରିଷ",
+"ମଟର"
+],
+"answer": "ମକା",
+"explanation": "ମକା ଏକ ଖରିଫ ଫସଲ ଯାହାକୁ ଅଧିକ ଉତ୍ତାପ ଓ ଆର୍ଦ୍ରତା ଆବଶ୍ୟକ ହୁଏ।"
+},
+{
+"questionEnglish": "Which farming method involves growing crops for sale?",
+"questionOdia": "କେଉଁ ଚାଷ ପଦ୍ଧତିରେ ଉତ୍ପାଦଗୁଡ଼ିକୁ ବିକ୍ରି କରିବା ଉଦ୍ଦେଶ୍ୟରେ ଚାଷ କରାଯାଏ?",
+"options": [
+"ଜୀବିକା ନିର୍ବାହୀ କୃଷି",
+"ବାଣିଜ୍ୟିକ କୃଷି",
+"ସ୍ଥାନାନ୍ତରିତ କୃଷି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବାଣିଜ୍ୟିକ କୃଷି",
+"explanation": "ଏହି ପ୍ରକାର କୃଷିରେ ଆଧୁନିକ ଯନ୍ତ୍ରପାତି ବ୍ୟବହାର କରି ବ୍ୟାପକ ଭାବରେ ଉତ୍ପାଦନ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is the primary role of nitrogen-fixing plants in agriculture?",
+"questionOdia": "କୃଷିରେ ନାଇଟ୍ରୋଜେନ ସ୍ଥାପନ କରୁଥିବା ଗଛଗୁଡ଼ିକର ମୁଖ୍ୟ ଭୂମିକା କଣ?",
+"options": [
+"ମାଟିକୁ ବିଷାକ୍ତ କରିବା",
+"ମାଟିର ଉର୍ବରତା ବୃଦ୍ଧି",
+"ଜଳ ପ୍ରଦୂଷଣ",
+"ଅତ୍ୟଧିକ ପାଣି ନେବା"
+],
+"answer": "ମାଟିର ଉର୍ବରତା ବୃଦ୍ଧି",
+"explanation": "ଡାଲି ଜାତୀୟ ଗଛଗୁଡ଼ିକ ମାଟିରେ ନାଇଟ୍ରୋଜେନ ପୂରଣ କରି ମାଟିର ଶକ୍ତି ବଢ଼ାନ୍ତି।"
+},
+{
+"questionEnglish": "What is irrigation?",
+"questionOdia": "ଜଳସେଚନ (Irrigation) କଣ?",
+"options": [
+"ବର୍ଷା କମ୍ ହେବା",
+"କୃତ୍ରିମ ଉପାୟରେ କ୍ଷେତକୁ ଜଳ ଯୋଗାଇବା",
+"ମାଟି ଖୋଳିବା",
+"ଫସଲ କାଟିବା"
+],
+"answer": "କୃତ୍ରିମ ଉପାୟରେ କ୍ଷେତକୁ ଜଳ ଯୋଗାଇବା",
+"explanation": "ବର୍ଷା ଅଭାବରେ କ୍ଷେତକୁ କେନାଲ, କୂଅ ବା ପମ୍ପ ସାହାଯ୍ୟରେ ପାଣି ଦେବାକୁ ଜଳସେଚନ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which state is a large producer of tea in India?",
+"questionOdia": "ଭାରତର କେଉଁ ରାଜ୍ୟ ଚା ଉତ୍ପାଦନରେ ପ୍ରସିଦ୍ଧ?",
+"options": [
+"ଆସାମ",
+"ପଞ୍ଜାବ",
+"ରାଜସ୍ଥାନ",
+"ମହାରାଷ୍ଟ୍ର"
+],
+"answer": "ଆସାମ",
+"explanation": "ଆସାମ ଭାରତର ସର୍ବାଧିକ ଚା ଉତ୍ପାଦନକାରୀ ରାଜ୍ୟ।"
+},
+{
+"questionEnglish": "What is the major constraint to agriculture in Rajasthan?",
+"questionOdia": "ରାଜସ୍ଥାନରେ କୃଷି ପାଇଁ ମୁଖ୍ୟ ପ୍ରତିବନ୍ଧକ କଣ?",
+"options": [
+"ଅତ୍ୟଧିକ ବର୍ଷା",
+"ଜଳର ଅଭାବ",
+"ଅଧିକ ଜନସଂଖ୍ୟା",
+"ଶିଳ୍ପାୟନ"
+],
+"answer": "ଜଳର ଅଭାବ",
+"explanation": "ରାଜସ୍ଥାନ ଏକ ଶୁଷ୍କ ଅଞ୍ଚଳ ହୋଇଥିବାରୁ ଜଳସେଚନର ଅଭାବ ଏଠାରେ କୃଷି ପାଇଁ ବଡ଼ ସମସ୍ୟା।"
+},
+{
+"questionEnglish": "Which type of farming uses heavy machinery and modern technology?",
+"questionOdia": "କେଉଁ ପ୍ରକାରର କୃଷିରେ ଭାରୀ ଯନ୍ତ୍ରପାତି ଓ ଆଧୁନିକ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ବ୍ୟବହୃତ ହୁଏ?",
+"options": [
+"ସ୍ଥାନାନ୍ତରିତ କୃଷି",
+"ବାଣିଜ୍ୟିକ କୃଷି",
+"ଜୀବିକା ନିର୍ବାହୀ କୃଷି",
+"ପାରମ୍ପରିକ କୃଷି"
+],
+"answer": "ବାଣିଜ୍ୟିକ କୃଷି",
+"explanation": "ବାଣିଜ୍ୟିକ କୃଷିରେ ସମୟ ଓ ଶ୍ରମ ବଞ୍ଚାଇବା ପାଇଁ ଟ୍ରାକ୍ଟର ଓ ହାର୍ଭେଷ୍ଟର ଆଦି ବ୍ୟବହାର ହୁଏ।"
+},
+{
+"questionEnglish": "Which season is associated with Rabi crops?",
+"questionOdia": "ରବି ଫସଲ କେଉଁ ଋତୁ ସହ ଜଡ଼ିତ?",
+"options": [
+"ଗ୍ରୀଷ୍ମଋତୁ",
+"ଶୀତଋତୁ",
+"ବର୍ଷାଋତୁ",
+"ଶରତଋତୁ"
+],
+"answer": "ଶୀତଋତୁ",
+"explanation": "ରବି ଫସଲଗୁଡ଼ିକ ଶୀତଋତୁରେ ବୁଣାଯାଏ ଏବଂ ବସନ୍ତ ଋତୁରେ ଅମଳ କରାଯାଏ।"
+},
+{
+"questionEnglish": "Why is the use of chemical fertilizers often criticized in modern agriculture?",
+"questionOdia": "ଆଧୁନିକ କୃଷିରେ ରାସାୟନିକ ସାରର ବ୍ୟବହାରକୁ କାହିଁକି ସମାଲୋଚନା କରାଯାଏ?",
+"options": [
+"ଏହା ଶସ୍ତା",
+"ଏହା ମାଟିର ଗୁଣ ଓ ପରିବେଶକୁ କ୍ଷତି କରେ",
+"ଏହା କମ୍ ଉତ୍ପାଦନ କରେ",
+"ଏହା କେବଳ ବାଜରା ପାଇଁ ଦରକାର"
+],
+"answer": "ଏହା ମାଟିର ଗୁଣ ଓ ପରିବେଶକୁ କ୍ଷତି କରେ",
+"explanation": "ଅତ୍ୟଧିକ ରାସାୟନିକ ସାର ବ୍ୟବହାର ମାଟିର ଉର୍ବରତା ନଷ୍ଟ କରିବା ସହ ଜଳ ପ୍ରଦୂଷଣ କରେ।"
+},
+{
+"questionEnglish": "Which of these is a vegetable crop usually grown as a Zaid crop?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁ ପରିବା ଜୈଦ ଫସଲ ଭାବରେ ଚାଷ କରାଯାଏ?",
+"options": [
+"କାକୁଡ଼ି",
+"ଗହମ",
+"ଧାନ",
+"ଚା"
+],
+"answer": "କାକୁଡ଼ି",
+"explanation": "କାକୁଡ଼ି, ତରଭୂଜ ଆଦି ଜୈଦ ଫସଲ ଯାହା ଗ୍ରୀଷ୍ମଋତୁରେ ଅଧିକ ଉତ୍ପାଦନ ହୁଏ।"
+},
+{
+"questionEnglish": "Which of the following is NOT an agricultural input?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି କୃଷି ପାଇଁ ଆବଶ୍ୟକ ଉପାଦାନ ନୁହେଁ?",
+"options": [
+"ମଞ୍ଜି",
+"ସାର",
+"ଶ୍ରମ",
+"ବିଦ୍ୟୁତ ମୋଟର"
+],
+"answer": "ବିଦ୍ୟୁତ ମୋଟର",
+"explanation": "ମଞ୍ଜି, ସାର ଓ ଶ୍ରମ ହେଉଛି କୃଷିର ମୌଳିକ ଆବଶ୍ୟକତା, ଯେଉଁଠାରେ ବିଦ୍ୟୁତ ମୋଟର ଏକ ସାହାଯ୍ୟକାରୀ ଯନ୍ତ୍ର।"
+},
+{
+"questionEnglish": "What does 'Subsistence Agriculture' mean?",
+"questionOdia": "'ଜୀବିକା ନିର୍ବାହୀ କୃଷି' (Subsistence Agriculture) ର ଅର୍ଥ କଣ?",
+"options": [
+"ବିଦେଶକୁ ରପ୍ତାନି",
+"କେବଳ ନିଜ ପରିବାରର ଚାହିଦା ପୂରଣ ପାଇଁ ଚାଷ",
+"ବଡ଼ କମ୍ପାନୀ ପାଇଁ ଚାଷ",
+"କେବଳ ଫୁଲ ଚାଷ"
+],
+"answer": "କେବଳ ନିଜ ପରିବାରର ଚାହିଦା ପୂରଣ ପାଇଁ ଚାଷ",
+"explanation": "ଏହି ଚାଷର ମୁଖ୍ୟ ଲକ୍ଷ୍ୟ ପରିବାରର ଖାଦ୍ୟ ଆବଶ୍ୟକତା ମେଣ୍ଟାଇବା।"
+},
+{
+"questionEnglish": "Which agricultural tool is used for tilling the soil?",
+"questionOdia": "ମାଟିକୁ ଚାଷ କରିବା ପାଇଁ କେଉଁ ଯନ୍ତ୍ର ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ଟ୍ରାକ୍ଟର/ହଳ",
+"କାତି",
+"କାମୁଡ଼ି",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଟ୍ରାକ୍ଟର/ହଳ",
+"explanation": "ମାଟିକୁ ଓଲଟାଇବା ଓ ପୋଲା କରିବା ପାଇଁ ହଳ ବା ଟ୍ରାକ୍ଟର ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which of these is a major fiber crop?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ମୁଖ୍ୟ ତନ୍ତୁ ଜାତୀୟ ଫସଲ?",
+"options": [
+"ଧାନ",
+"କାର୍ପାସ",
+"ମକା",
+"ମୁଗ"
+],
+"answer": "କାର୍ପାସ",
+"explanation": "କାର୍ପାସ ବା ସୂତା ସାରା ବିଶ୍ୱରେ ତନ୍ତୁ ପାଇଁ ବହୁଳ ଭାବରେ ଚାଷ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is the result of applying 'High Yielding Variety' seeds?",
+"questionOdia": "ଉନ୍ନତ କିସମର ମଞ୍ଜି (HYV seeds) ବ୍ୟବହାର କରିବାର ଫଳ କଣ?",
+"options": [
+"ଫସଲ କମ୍ ହୁଏ",
+"ଉତ୍ପାଦନ ବୃଦ୍ଧି ପାଏ",
+"ମାଟି ନଷ୍ଟ ହୁଏ",
+"କୌଣସି ପରିବର୍ତ୍ତନ ହୁଏ ନାହିଁ"
+],
+"answer": "ଉତ୍ପାଦନ ବୃଦ୍ଧି ପାଏ",
+"explanation": "ଏହି ମଞ୍ଜିଗୁଡ଼ିକ କମ ସମୟରେ ଅଧିକ ଫସଲ ଦେବା ପାଇଁ ତିଆରି ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What are the essential climatic conditions for sugarcane?",
+"questionOdia": "ଆଖୁ ଚାଷ ପାଇଁ କେଉଁ ଜଳବାୟୁ ଆବଶ୍ୟକ?",
+"options": [
+"ଶୁଷ୍କ ଓ ଥଣ୍ଡା",
+"ଉଷ୍ମ ଓ ଆର୍ଦ୍ର",
+"ଖୁବ୍ ଅଧିକ ଥଣ୍ଡା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଉଷ୍ମ ଓ ଆର୍ଦ୍ର",
+"explanation": "ଆଖୁ ଏକ ଉଷ୍ମମଣ୍ଡଳୀୟ ଫସଲ, ଏଥିପାଇଁ ଗରମ ଓ ଆର୍ଦ୍ର ପାଣିପାଗ ଦରକାର।"
+},
+{
+"questionEnglish": "What is the purpose of storing agricultural products?",
+"questionOdia": "କୃଷିଜାତ ଦ୍ରବ୍ୟ ଗଚ୍ଛିତ ରଖିବାର ଉଦ୍ଦେଶ୍ୟ କଣ?",
+"options": [
+"ଦ୍ରବ୍ୟ ନଷ୍ଟ କରିବା",
+"ବଜାରରେ ଭବିଷ୍ୟତ ଚାହିଦା ପାଇଁ ଓ ଅଭାବ ଦୂର କରିବା",
+"ଶସ୍ତାରେ ବିକିବା",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବଜାରରେ ଭବିଷ୍ୟତ ଚାହିଦା ପାଇଁ ଓ ଅଭାବ ଦୂର କରିବା",
+"explanation": "ଭଣ୍ଡାରରେ ରଖିବା ଦ୍ଵାରା ଅଭାବ ସମୟରେ ସାମଗ୍ରୀ ଉପଲବ୍ଧ କରାଯାଇପାରେ।"
+},
+{
+"questionEnglish": "Which state is a significant producer of groundnut?",
+"questionOdia": "କେଉଁ ରାଜ୍ୟ ଚିନାବାଦାମ ଉତ୍ପାଦନରେ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"ଗୁଜୁରାଟ",
+"ପଞ୍ଜାବ",
+"ହରିୟାଣା",
+"ହିମାଚଳ ପ୍ରଦେଶ"
+],
+"answer": "ଗୁଜୁରାଟ",
+"explanation": "ଗୁଜୁରାଟ ଭାରତର ସର୍ବାଧିକ ଚିନାବାଦାମ ଉତ୍ପାଦନକାରୀ ରାଜ୍ୟ।"
+},
+{
+"questionEnglish": "Which element helps plants grow better?",
+"questionOdia": "କେଉଁ ଉପାଦାନ ଗଛର ଅଭିବୃଦ୍ଧି ପାଇଁ ସହାୟକ?",
+"options": [
+"ସାର",
+"ପଥର",
+"ବିଷ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ସାର",
+"explanation": "ସାରରେ ଥିବା ପୋଷକ ତତ୍ତ୍ୱ ଗଛକୁ ଆବଶ୍ୟକ ଶକ୍ତି ଯୋଗାଇଥାଏ।"
+},
+{
+"questionEnglish": "Why do farmers rotate crops?",
+"questionOdia": "ଚାଷୀମାନେ କାହିଁକି ଫସଲ ପର୍ଯ୍ୟାୟ (Crop rotation) କରନ୍ତି?",
+"options": [
+"ମାଟିର ଶକ୍ତି ବଜାୟ ରଖିବାକୁ",
+"କାର୍ଯ୍ୟ ବଢ଼ାଇବାକୁ",
+"ଫସଲ ନଷ୍ଟ କରିବାକୁ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ମାଟିର ଶକ୍ତି ବଜାୟ ରଖିବାକୁ",
+"explanation": "ଅଲଗା ଅଲଗା ଫସଲ ଚାଷ କଲେ ମାଟିର ପୋଷକ ତତ୍ତ୍ୱ ସନ୍ତୁଳିତ ରହେ।"
+},
+{
+"questionEnglish": "Which of these is a major rabi crop?",
+"questionOdia": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ପ୍ରମୁଖ ରବି ଫସଲ?",
+"options": [
+"ଗହମ",
+"ଧାନ",
+"ମକା",
+"ଜୁଆର"
+],
+"answer": "ଗହମ",
+"explanation": "ଗହମ ଶୀତଦିନିଆ ଫସଲ ଯାହା ରବି ଋତୁରେ ଚାଷ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is the primary benefit of irrigation systems?",
+"questionOdia": "ଜଳସେଚନ ବ୍ୟବସ୍ଥାର ମୁଖ୍ୟ ଲାଭ କଣ?",
+"options": [
+"ଅଧିକ ଖର୍ଚ୍ଚ",
+"ଫସଲର ନିଶ୍ଚିତତା",
+"ମାଟିର କ୍ଷୟ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ଫସଲର ନିଶ୍ଚିତତା",
+"explanation": "ଜଳସେଚନ ବର୍ଷା ଉପରେ ନିର୍ଭରଶୀଳତା କମାଇ ଫସଲ ଅମଳକୁ ନିଶ୍ଚିତ କରେ।"
+},
+{
+"questionEnglish": "What does 'Agricultural Diversity' refer to?",
+"questionOdia": "'କୃଷି ବିବିଧତା' (Agricultural Diversity) କହିଲେ କଣ ବୁଝାଯାଏ?",
+"options": [
+"କେବଳ ଗୋଟିଏ ଫସଲ ଚାଷ",
+"ବିଭିନ୍ନ ପ୍ରକାରର ଫସଲ ଚାଷ କରିବା",
+"କେବଳ ପଶୁପାଳନ",
+"କୌଣସିଟି ନୁହେଁ"
+],
+"answer": "ବିଭିନ୍ନ ପ୍ରକାରର ଫସଲ ଚାଷ କରିବା",
+"explanation": "ବିଭିନ୍ନ ପ୍ରକାର ଫସଲ ଚାଷ କରିବା ଦ୍ଵାରା ଆର୍ଥିକ ନିରାପତ୍ତା ଓ ମାଟିର ଗୁଣବତ୍ତା ରକ୍ଷା ହୁଏ।"
+},
+{
+"questionEnglish": "Which state has a huge potential for plantation crops?",
+"questionOdia": "କେଉଁ ଅଞ୍ଚଳରେ ବଗିଚା କୃଷିର ବହୁଳ ସମ୍ଭାବନା ଅଛି?",
+"options": [
+"କେରଳ",
+"ପଞ୍ଜାବ",
+"ହରିୟାଣା",
+"ରାଜସ୍ଥାନ"
+],
+"answer": "କେରଳ",
+"explanation": "କେରଳର ପାହାଡ଼ିଆ ଅଞ୍ଚଳରେ ରବର, କଫି ଓ ମସଲା ଜାତୀୟ ଚାଷ ଭଲ ହୁଏ।"
+}
+  ]
 
