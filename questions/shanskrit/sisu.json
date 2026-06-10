@@ -1,0 +1,602 @@
+[
+{
+"questionEnglish": "In the chapter 'Shishuvatsalyam', who is the source of the story?",
+"questionOdia": "'ଶିଶୁବାତ୍ସଲ୍ୟମ୍' ପାଠରେ କାହାଠାରୁ ଏହି କଥାବସ୍ତୁ ସଂଗୃହୀତ ହୋଇଛି?",
+"options": [
+"ରାମାୟଣ",
+"ମହାଭାରତ",
+"ପଞ୍ଚତନ୍ତ୍ର",
+"ବିଦୁରନୀତି"
+],
+"answer": "ମହାଭାରତ",
+"explanation": "ଶିଶୁବାତ୍ସଲ୍ୟମ୍ ପାଠଟି ବ୍ୟାସଦେବ ବିରଚିତ ମହାଭାରତରୁ ସଂଗୃହିତ।"
+},
+{
+"questionEnglish": "What is the primary theme of the chapter 'Shishuvatsalyam'?",
+"questionOdia": "'ଶିଶୁବାତ୍ସଲ୍ୟମ୍' ପାଠର ମୁଖ୍ୟ ବିଷୟବସ୍ତୁ କ'ଣ?",
+"options": [
+"ଗୁରୁ-ଶିଷ୍ୟ ସମ୍ପର୍କ",
+"ମାତୃସ୍ନେହ ଓ ଶିଶୁ ପ୍ରତି ବାତ୍ସଲ୍ୟ",
+"ରାଜନୀତି",
+"ବିଜ୍ଞାନର ଉପଯୋଗିତା"
+],
+"answer": "ମାତୃସ୍ନେହ ଓ ଶିଶୁ ପ୍ରତି ବାତ୍ସଲ୍ୟ",
+"explanation": "ଏହି ପାଠଟି ମାତୃହୃଦୟର ସ୍ନେହ ଏବଂ ଶିଶୁ ପ୍ରତି ବାତ୍ସଲ୍ୟକୁ ପ୍ରକାଶ କରେ।"
+},
+{
+"questionEnglish": "Who is the main character showing love to the child in the story?",
+"questionOdia": "ଏହି କାହାଣୀରେ କିଏ ଶିଶୁ ପ୍ରତି ସ୍ନେହ ପ୍ରଦର୍ଶନ କରୁଛନ୍ତି?",
+"options": [
+"ଗୁରୁ",
+"ମାତା",
+"ଶିଷ୍ୟ",
+"ରାଜା"
+],
+"answer": "ମାତା",
+"explanation": "କାହାଣୀରେ ମାତାଙ୍କର ସ୍ନେହ ଓ ବାତ୍ସଲ୍ୟ ମୁଖ୍ୟ ଭାବେ ବର୍ଣ୍ଣିତ।"
+},
+{
+"questionEnglish": "What is the definition of 'Vatsalyam' according to the context?",
+"questionOdia": "ସନ୍ଦର୍ଭ ଅନୁଯାୟୀ 'ବାତ୍ସଲ୍ୟମ୍'ର ସଂଜ୍ଞା କ'ଣ?",
+"options": [
+"ଶତ୍ରୁତା",
+"ପିତା-ମାତାଙ୍କର ସନ୍ତାନ ପ୍ରତି ସ୍ନେହ",
+"ବନ୍ଧୁତ୍ୱ",
+"ଅଜ୍ଞାନତା"
+],
+"answer": "ପିତା-ମାତାଙ୍କର ସନ୍ତାନ ପ୍ରତି ସ୍ନେହ",
+"explanation": "ପିତାମାତାଙ୍କର ନିଜ ସନ୍ତାନ ପ୍ରତି ଥିବା ଅନନ୍ୟ ପ୍ରେମକୁ ବାତ୍ସଲ୍ୟ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Why is the love of a mother considered supreme?",
+"questionOdia": "ମାତାଙ୍କର ସ୍ନେହକୁ ସର୍ବଶ୍ରେଷ୍ଠ ବୋଲି କାହିଁକି କୁହାଯାଏ?",
+"options": [
+"କାରଣ ସେ ସବୁବେଳେ କଠୋର ହୁଅନ୍ତି",
+"କାରଣ ସେ ସନ୍ତାନର ମଙ୍ଗଳ ଚାହାଁନ୍ତି",
+"କାରଣ ସେ କେବଳ ଖାଇବା ଦିଅନ୍ତି",
+"କାରଣ ସେ କାମ କରନ୍ତି"
+],
+"answer": "କାରଣ ସେ ସନ୍ତାନର ମଙ୍ଗଳ ଚାହାଁନ୍ତି",
+"explanation": "ମାତା ନିଃସ୍ୱାର୍ଥପର ଭାବେ ସନ୍ତାନର ସର୍ବଦା ମଙ୍ଗଳ କାମନା କରନ୍ତି।"
+},
+{
+"questionEnglish": "What feeling does the mother have for her child?",
+"questionOdia": "ନିଜ ସନ୍ତାନ ପ୍ରତି ମାତାଙ୍କର କିପରି ଭାବନା ଥାଏ?",
+"options": [
+"କ୍ରୋଧ",
+"ବାତ୍ସଲ୍ୟ",
+"ଘୃଣା",
+"ଉଦାସୀନତା"
+],
+"answer": "ବାତ୍ସଲ୍ୟ",
+"explanation": "ମାତାଙ୍କର ସନ୍ତାନ ପ୍ରତି ଅଫୁରନ୍ତ ବାତ୍ସଲ୍ୟ ଓ ସ୍ନେହ ଥାଏ।"
+},
+{
+"questionEnglish": "How does a mother protect her child from troubles?",
+"questionOdia": "ମାତା ନିଜ ସନ୍ତାନକୁ ବିପଦରୁ କିପରି ରକ୍ଷା କରନ୍ତି?",
+"options": [
+"ଦୂରରେ ରହି",
+"ଯତ୍ନ ଓ ସ୍ନେହ ଦ୍ୱାରା",
+"କଠୋର ଶାସନ ଦ୍ୱାରା",
+"କିଛି ନ କରି"
+],
+"answer": "ଯତ୍ନ ଓ ସ୍ନେହ ଦ୍ୱାରା",
+"explanation": "ମାତା ସ୍ନେହ ଓ ଯତ୍ନ ସହିତ ସନ୍ତାନର ସବୁ ପ୍ରକାର ବିପଦରୁ ରକ୍ଷା କରନ୍ତି।"
+},
+{
+"questionEnglish": "Which emotion is central to the interaction between mother and child?",
+"questionOdia": "ମାତା ଓ ଶିଶୁଙ୍କ ମଧ୍ୟରେ କେଉଁ ଆବେଗ ସର୍ବାଧିକ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"ସହାନୁଭୂତି",
+"ବାତ୍ସଲ୍ୟ",
+"ଭୟ",
+"ଲଜ୍ଜା"
+],
+"answer": "ବାତ୍ସଲ୍ୟ",
+"explanation": "ମାତା-ଶିଶୁ ସମ୍ପର୍କର ମୂଳଦୁଆ ବାତ୍ସଲ୍ୟ ଉପରେ ପର୍ଯ୍ୟବସିତ।"
+},
+{
+"questionEnglish": "Does a mother ever stop loving her child?",
+"questionOdia": "ମାତା କେବେ ନିଜ ସନ୍ତାନକୁ ଭଲପାଇବା ବନ୍ଦ କରନ୍ତି କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବେକେବେ",
+"କେବଳ ଭୁଲ୍ କଲେ"
+],
+"answer": "ନା",
+"explanation": "ମାତାଙ୍କ ସ୍ନେହ ନିରନ୍ତର, ତାହା କେବେ ଶେଷ ହୁଏ ନାହିଁ।"
+},
+{
+"questionEnglish": "What does 'Shishu' mean in the chapter title?",
+"questionOdia": "ପାଠ ଶୀର୍ଷକରେ 'ଶିଶୁ'ର ଅର୍ଥ କ'ଣ?",
+"options": [
+"ବୃଦ୍ଧ",
+"ଛୋଟ ପିଲା",
+"ଯୁବକ",
+"ଜୀବଜନ୍ତୁ"
+],
+"answer": "ଛୋଟ ପିଲା",
+"explanation": "ଶିଶୁ ଅର୍ଥାତ୍ ଏଠାରେ ଛୋଟ ପିଲା ବା ସନ୍ତାନକୁ ବୁଝାଏ।"
+},
+{
+"questionEnglish": "How should a child behave towards their mother?",
+"questionOdia": "ସନ୍ତାନ ନିଜ ମାତାଙ୍କ ପ୍ରତି କିପରି ବ୍ୟବହାର କରିବା ଉଚିତ?",
+"options": [
+"ଅସମ୍ମାନ",
+"ସମ୍ମାନ ଓ ପ୍ରେମ",
+"ଉପେକ୍ଷା",
+"କ୍ରୋଧ"
+],
+"answer": "ସମ୍ମାନ ଓ ପ୍ରେମ",
+"explanation": "ମାତାଙ୍କର ସ୍ନେହ ବଦଳରେ ସନ୍ତାନ ସମ୍ମାନ ଓ ପ୍ରେମ ପ୍ରଦାନ କରିବା ଉଚିତ।"
+},
+{
+"questionEnglish": "Why is mother called 'Janani'?",
+"questionOdia": "ମାତାଙ୍କୁ 'ଜନନୀ' କାହିଁକି କୁହାଯାଏ?",
+"options": [
+"କାରଣ ସେ ଶିକ୍ଷା ଦିଅନ୍ତି",
+"କାରଣ ସେ ଜନ୍ମ ଦିଅନ୍ତି",
+"କାରଣ ସେ ଖାଦ୍ୟ ଦିଅନ୍ତି",
+"କାରଣ ସେ କାମ କରନ୍ତି"
+],
+"answer": "କାରଣ ସେ ଜନ୍ମ ଦିଅନ୍ତି",
+"explanation": "ଯିଏ ଜନ୍ମ ଦିଏ ତାଙ୍କୁ ଜନନୀ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Is the bond between mother and child natural?",
+"questionOdia": "ମାତା ଓ ଶିଶୁଙ୍କ ମଧ୍ୟରେ ସମ୍ପର୍କ ସ୍ୱାଭାବିକ କି?",
+"options": [
+"ହଁ",
+"ନା",
+"କୃତ୍ରିମ",
+"ବିବାଦପୂର୍ଣ୍ଣ"
+],
+"answer": "ହଁ",
+"explanation": "ଏହା ଏକ ସ୍ୱାଭାବିକ ଓ ପବିତ୍ର ସମ୍ପର୍କ।"
+},
+{
+"questionEnglish": "What does the word 'Vatsalyam' represent in Sanskrit literature?",
+"questionOdia": "ସଂସ୍କୃତ ସାହିତ୍ୟରେ 'ବାତ୍ସଲ୍ୟମ୍' ଶବ୍ଦ କ'ଣ ପ୍ରତିପାଦନ କରେ?",
+"options": [
+"ସଂସାରିକ ମୋହ",
+"ସନ୍ତାନ ପ୍ରତି ଗଭୀର ମାତୃସୁଲଭ ସ୍ନେହ",
+"କଠୋର ନିୟମ",
+"ଅଜ୍ଞାନତା"
+],
+"answer": "ସନ୍ତାନ ପ୍ରତି ଗଭୀର ମାତୃସୁଲଭ ସ୍ନେହ",
+"explanation": "ସଂସ୍କୃତ ସାହିତ୍ୟରେ ବାତ୍ସଲ୍ୟ ଏକ ମହାନ ଭାବନା, ଯାହା ମାତୃତ୍ୱକୁ ବର୍ଣ୍ଣନା କରେ।"
+},
+{
+"questionEnglish": "How is mother's affection described in the chapter?",
+"questionOdia": "ପାଠରେ ମାତାଙ୍କ ସ୍ନେହକୁ କିପରି ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"options": [
+"ସୀମିତ",
+"ଅସୀମ ଓ ପବିତ୍ର",
+"ସ୍ୱାର୍ଥପର",
+"ସାଧାରଣ"
+],
+"answer": "ଅସୀମ ଓ ପବିତ୍ର",
+"explanation": "ମାତାଙ୍କ ସ୍ନେହର କୌଣସି ସୀମା ନାହିଁ, ଏହା ଅତି ପବିତ୍ର।"
+},
+{
+"questionEnglish": "What role does the mother play in a child's development?",
+"questionOdia": "ଶିଶୁର ବିକାଶରେ ମାତାଙ୍କ ଭୂମିକା କ'ଣ?",
+"options": [
+"ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ",
+"କିଛି ନୁହେଁ",
+"ଅଳ୍ପ",
+"କେବଳ ଆର୍ଥିକ"
+],
+"answer": "ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ",
+"explanation": "ମାତା ପ୍ରତ୍ୟେକ ଶିଶୁର ପ୍ରଥମ ଶିକ୍ଷକ ଓ ବିକାଶର କାରଣ।"
+},
+{
+"questionEnglish": "Should we respect our parents?",
+"questionOdia": "ଆମେ ଆମର ପିତାମାତାଙ୍କୁ ସମ୍ମାନ କରିବା ଉଚିତ କି?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ପିତାଙ୍କୁ",
+"କେବଳ ମାତାଙ୍କୁ"
+],
+"answer": "ହଁ",
+"explanation": "ପିତାମାତାଙ୍କୁ ସମ୍ମାନ କରିବା ଆମର କର୍ତ୍ତବ୍ୟ।"
+},
+{
+"questionEnglish": "What does the story suggest about maternal care?",
+"questionOdia": "କାହାଣୀ ମାତୃତ୍ୱର ଯତ୍ନ ସମ୍ବନ୍ଧରେ କ'ଣ ସୂଚାଏ?",
+"options": [
+"ଯତ୍ନ ନେବା ବେକାର",
+"ମାତୃତ୍ୱର ଯତ୍ନ ଅମୂଲ୍ୟ",
+"କେବଳ ପିତାଙ୍କ ଯତ୍ନ ଆବଶ୍ୟକ",
+"କାହାର ଯତ୍ନ ଆବଶ୍ୟକ ନାହିଁ"
+],
+"answer": "ମାତୃତ୍ୱର ଯତ୍ନ ଅମୂଲ୍ୟ",
+"explanation": "ମାତୃତ୍ୱର ଯତ୍ନର ମୂଲ୍ୟ କେହି କଳନା କରିପାରିବେ ନାହିଁ।"
+},
+{
+"questionEnglish": "Are all mothers equally affectionate to their children?",
+"questionOdia": "ସମସ୍ତ ମାତା ନିଜ ସନ୍ତାନ ପ୍ରତି ସମାନ ଭାବେ ସ୍ନେହଶୀଳ କି?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ କିଛି",
+"କେହି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ମାତୃତ୍ୱର ସ୍ୱଭାବ ସବୁ ମାତାଙ୍କଠାରେ ସମାନ।"
+},
+{
+"questionEnglish": "What is the importance of 'Shishuvatsalyam'?",
+"questionOdia": "'ଶିଶୁବାତ୍ସଲ୍ୟମ୍'ର ମହତ୍ତ୍ୱ କ'ଣ?",
+"options": [
+"ମାତୃତ୍ୱକୁ ବୁଝିବା",
+"କେବଳ ମନୋରଞ୍ଜନ",
+"ଅଜ୍ଞାନତା ବଢ଼ାଇବା",
+"ସାମାଜିକ ବିବାଦ"
+],
+"answer": "ମାତୃତ୍ୱକୁ ବୁଝିବା",
+"explanation": "ଏହା ମାତୃତ୍ୱର ଗଭୀରତା ଓ ମହତ୍ତ୍ୱକୁ ବୁଝିବାରେ ସାହାଯ୍ୟ କରେ।"
+},
+{
+"questionEnglish": "How should a child reflect on their mother's sacrifices?",
+"questionOdia": "ସନ୍ତାନ ନିଜ ମାତାଙ୍କ ତ୍ୟାଗକୁ କିପରି ବିଚାର କରିବା ଉଚିତ?",
+"options": [
+"ଭୁଲିଯିବା",
+"କୃତଜ୍ଞ ରହିବା",
+"ଅପମାନ କରିବା",
+"ଅବହେଳା କରିବା"
+],
+"answer": "କୃତଜ୍ଞ ରହିବା",
+"explanation": "ମାତାଙ୍କ ତ୍ୟାଗ ପାଇଁ ସନ୍ତାନ ସର୍ବଦା କୃତଜ୍ଞ ହେବା ଉଚିତ।"
+},
+{
+"questionEnglish": "Is there any substitute for mother's love?",
+"questionOdia": "ମାତାଙ୍କ ସ୍ନେହର କୌଣସି ବିକଳ୍ପ ଅଛି କି?",
+"options": [
+"ହଁ, ବନ୍ଧୁ",
+"ନା, କେହି ନାହିଁ",
+"ହଁ, ଶିକ୍ଷକ",
+"ହଁ, ଟଙ୍କା"
+],
+"answer": "ନା, କେହି ନାହିଁ",
+"explanation": "ମାତାଙ୍କ ସ୍ନେହ ଅନନ୍ୟ, ଏହାର କୌଣସି ବିକଳ୍ପ ନାହିଁ।"
+},
+{
+"questionEnglish": "How can a mother support her child?",
+"questionOdia": "ମାତା କିପରି ନିଜ ସନ୍ତାନକୁ ସମର୍ଥନ କରିପାରିବେ?",
+"options": [
+"କେବଳ ଆର୍ଥିକ ଭାବେ",
+"ସାମାଜିକ ଭାବେ",
+"ଉଭୟ ମାନସିକ ଓ ଶାରୀରିକ ଭାବେ",
+"କିଛି ନ କରି"
+],
+"answer": "ଉଭୟ ମାନସିକ ଓ ଶାରୀରିକ ଭାବେ",
+"explanation": "ମାତା ସନ୍ତାନକୁ ସର୍ବଦା ମାନସିକ ଓ ଶାରୀରିକ ଭାବେ ସହଯୋଗ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Why do children feel safe with their mother?",
+"questionOdia": "ଶିଶୁମାନେ ମାତାଙ୍କ ପାଖରେ କାହିଁକି ସୁରକ୍ଷିତ ମନେ କରନ୍ତି?",
+"options": [
+"ଭୟ ପାଇଁ",
+"ସେଠାରେ ସ୍ନେହ ଓ ଆଶ୍ରୟ ଥାଏ",
+"କାରଣ ସେ ମାତା",
+"କେବଳ ଅଭ୍ୟାସ ପାଇଁ"
+],
+"answer": "ସେଠାରେ ସ୍ନେହ ଓ ଆଶ୍ରୟ ଥାଏ",
+"explanation": "ମାତାଙ୍କ ସ୍ନେହ ଓ ଆଶ୍ରୟ ଶିଶୁକୁ ସୁରକ୍ଷା ଦିଏ।"
+},
+{
+"questionEnglish": "What does a mother hope for her child?",
+"questionOdia": "ମାତା ନିଜ ସନ୍ତାନ ପାଇଁ କ'ଣ ଆଶା କରନ୍ତି?",
+"options": [
+"କଷ୍ଟ",
+"ଉଜ୍ଜ୍ୱଳ ଭବିଷ୍ୟତ",
+"କିଛି ନୁହେଁ",
+"ଟଙ୍କା"
+],
+"answer": "ଉଜ୍ଜ୍ୱଳ ଭବିଷ୍ୟତ",
+"explanation": "ମାତା ସର୍ବଦା ସନ୍ତାନର ଉଜ୍ଜ୍ୱଳ ଭବିଷ୍ୟତ କାମନା କରନ୍ତି।"
+},
+{
+"questionEnglish": "How should society view mothers?",
+"questionOdia": "ସମାଜ ମାତାମାନଙ୍କୁ କିପରି ଦେଖିବା ଉଚିତ?",
+"options": [
+"ସମ୍ମାନର ସହିତ",
+"ଅବହେଳା କରି",
+"କେବଳ କାମ କରୁଥିବା ବ୍ୟକ୍ତି ଭାବେ",
+"ସାଧାରଣ ଭାବେ"
+],
+"answer": "ସମ୍ମାନର ସହିତ",
+"explanation": "ମାତା ସମାଜର ମୂଳଦୁଆ, ତେଣୁ ସମ୍ମାନର ଯୋଗ୍ୟ।"
+},
+{
+"questionEnglish": "Does a child understand mother's love early?",
+"questionOdia": "ଶିଶୁ କ'ଣ ମାତାଙ୍କ ସ୍ନେହକୁ ଶୀଘ୍ର ବୁଝିପାରେ?",
+"options": [
+"ହଁ",
+"ନା",
+"ବୁଝିପାରେ ନାହିଁ",
+"ବିଳମ୍ବରେ"
+],
+"answer": "ହଁ",
+"explanation": "ଶିଶୁ ଜନ୍ମରୁ ହିଁ ମାତାଙ୍କ ସ୍ନେହ ଅନୁଭବ କରିପାରେ।"
+},
+{
+"questionEnglish": "What is the lesson of 'Shishuvatsalyam'?",
+"questionOdia": "'ଶିଶୁବାତ୍ସଲ୍ୟମ୍'ର ଶିକ୍ଷା କ'ଣ?",
+"options": [
+"ମାତୃତ୍ୱର ଗୁରୁତ୍ୱ",
+"କେବଳ ଗଳ୍ପ",
+"କୌଣସି ଶିକ୍ଷା ନାହିଁ",
+"ଅସମ୍ମାନ"
+],
+"answer": "ମାତୃତ୍ୱର ଗୁରୁତ୍ୱ",
+"explanation": "ମାତୃତ୍ୱର ଗୁରୁତ୍ୱ ଓ ମହତ୍ତ୍ୱ ବୁଝିବା ଏହି ପାଠର ମୂଳ ଶିକ୍ଷା।"
+},
+{
+"questionEnglish": "Can a mother sacrifice her own needs for the child?",
+"questionOdia": "ମାତା କ'ଣ ଶିଶୁ ପାଇଁ ନିଜ ଆବଶ୍ୟକତାକୁ ତ୍ୟାଗ କରିପାରନ୍ତି?",
+"options": [
+"ନା",
+"ହଁ, ନିଶ୍ଚିତ ଭାବେ",
+"କେବେକେବେ",
+"କେବଳ ଯଦି ଇଚ୍ଛା ଥାଏ"
+],
+"answer": "ହଁ, ନିଶ୍ଚିତ ଭାବେ",
+"explanation": "ମାତା ଶିଶୁର ଖୁସି ପାଇଁ ନିଜ ସବୁ ସୁଖ ସାଧନାକୁ ତ୍ୟାଗ କରିପାରନ୍ତି।"
+},
+{
+"questionEnglish": "Are mother-child interactions important for mental growth?",
+"questionOdia": "ମାତା-ଶିଶୁଙ୍କ ମଧ୍ୟରେ କଥାବାର୍ତ୍ତା ମାନସିକ ବିକାଶ ପାଇଁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ କି?",
+"options": [
+"ନା",
+"ହଁ",
+"ଅଳ୍ପ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ଏହା ଶିଶୁର ମାନସିକ ବିକାଶରେ ପ୍ରମୁଖ ଭୂମିକା ଗ୍ରହଣ କରେ।"
+},
+{
+"questionEnglish": "What does a mother teach her child through love?",
+"questionOdia": "ମାତା ସ୍ନେହ ମାଧ୍ୟମରେ ଶିଶୁକୁ କ'ଣ ଶିଖାନ୍ତି?",
+"options": [
+"କ୍ରୋଧ",
+"ସଂସ୍କାର ଓ ମୂଲ୍ୟବୋଧ",
+"ଅଳସୁଆପଣ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ସଂସ୍କାର ଓ ମୂଲ୍ୟବୋଧ",
+"explanation": "ମାତା ନିଜ ସ୍ନେହ ଓ ଆଚରଣ ମାଧ୍ୟମରେ ସନ୍ତାନକୁ ମୂଲ୍ୟବୋଧ ଶିଖାନ୍ତି।"
+},
+{
+"questionEnglish": "Does love bind the mother and child forever?",
+"questionOdia": "ସ୍ନେହ କ'ଣ ମାତା ଓ ଶିଶୁକୁ ଚିରକାଳ ବାନ୍ଧି ରଖେ?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ପିଲାଦିନ ପାଇଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସ୍ନେହର ବନ୍ଧନ ଅତୁଟ।"
+},
+{
+"questionEnglish": "Why should we value 'Shishuvatsalyam'?",
+"questionOdia": "ଆମେ 'ଶିଶୁବାତ୍ସଲ୍ୟମ୍'କୁ କାହିଁକି ଗୁରୁତ୍ୱ ଦେବା ଉଚିତ?",
+"options": [
+"ପାଠ୍ୟକ୍ରମ ପାଇଁ",
+"ମାତୃତ୍ୱକୁ ସମ୍ମାନ ଦେବା ପାଇଁ",
+"କେବଳ ପରୀକ୍ଷା ପାଇଁ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ମାତୃତ୍ୱକୁ ସମ୍ମାନ ଦେବା ପାଇଁ",
+"explanation": "ମାତୃତ୍ୱର ମହତ୍ତ୍ୱ ଓ ସମ୍ମାନ ବୁଝିବା ପାଇଁ।"
+},
+{
+"questionEnglish": "What is the essence of maternal love?",
+"questionOdia": "ମାତୃସ୍ନେହର ସାରତତ୍ତ୍ୱ କ'ଣ?",
+"options": [
+"ନିଃସ୍ୱାର୍ଥପରତା",
+"ସ୍ୱାର୍ଥପରତା",
+"କ୍ରୋଧ",
+"ଅବହେଳା"
+],
+"answer": "ନିଃସ୍ୱାର୍ଥପରତା",
+"explanation": "ମାତୃସ୍ନେହର ମୂଳ ହେଉଛି ନିଃସ୍ୱାର୍ଥପର ଭାବନା।"
+},
+{
+"questionEnglish": "How do children react to mother's love?",
+"questionOdia": "ଶିଶୁମାନେ ମାତାଙ୍କ ସ୍ନେହକୁ କିପରି ପ୍ରତିକ୍ରିୟା ଦିଅନ୍ତି?",
+"options": [
+"କ୍ରୋଧରେ",
+"ପ୍ରେମ ଓ ନିରାପତ୍ତା ଅନୁଭବ କରି",
+"ଉପେକ୍ଷା କରି",
+"ଭୟରେ"
+],
+"answer": "ପ୍ରେମ ଓ ନିରାପତ୍ତା ଅନୁଭବ କରି",
+"explanation": "ମାତାଙ୍କ ସ୍ନେହ ପାଇ ଶିଶୁ ପ୍ରେମ ଓ ସୁରକ୍ଷିତ ମନେ କରେ।"
+},
+{
+"questionEnglish": "Is love essential for child's upbringing?",
+"questionOdia": "ଶିଶୁର ଲାଳନପାଳନ ପାଇଁ ସ୍ନେହ ଆବଶ୍ୟକ କି?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ଶିକ୍ଷା ଆବଶ୍ୟକ",
+"କେବଳ ଖାଦ୍ୟ ଆବଶ୍ୟକ"
+],
+"answer": "ହଁ",
+"explanation": "ସ୍ନେହ ବିନା ଶିଶୁର ଉପଯୁକ୍ତ ବିକାଶ ଅସମ୍ଭବ।"
+},
+{
+"questionEnglish": "What is the ultimate truth about maternal love?",
+"questionOdia": "ମାତୃସ୍ନେହ ବିଷୟରେ ଚୂଡ଼ାନ୍ତ ସତ୍ୟ କ'ଣ?",
+"options": [
+"ଏହା ବଦଳିଯାଏ",
+"ଏହା ଚିରନ୍ତନ",
+"ଏହା କିଛି ନୁହେଁ",
+"ଏହା ଶେଷ ହୋଇଯାଏ"
+],
+"answer": "ଏହା ଚିରନ୍ତନ",
+"explanation": "ମାତୃସ୍ନେହ ଚିରନ୍ତନ, ଏହା କେବେ ଶେଷ ହୁଏ ନାହିଁ।"
+},
+{
+"questionEnglish": "How can we describe mother's role?",
+"questionOdia": "ମାତାଙ୍କ ଭୂମିକାକୁ କିପରି ବର୍ଣ୍ଣନା କରାଯାଇପାରିବ?",
+"options": [
+"ଦେବୀତୁଲ୍ୟ",
+"ସାଧାରଣ",
+"କଠିନ",
+"ଅଦରକାରୀ"
+],
+"answer": "ଦେବୀତୁଲ୍ୟ",
+"explanation": "ମାତାଙ୍କୁ ଦେବୀତୁଲ୍ୟ ସମ୍ମାନ ଦିଆଯାଇଛି।"
+},
+{
+"questionEnglish": "Do animals also show love to their children?",
+"questionOdia": "ପଶୁମାନେ ମଧ୍ୟ ନିଜ ସନ୍ତାନଙ୍କୁ ସ୍ନେହ କରନ୍ତି କି?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ମଣିଷ",
+"କେବଳ ପକ୍ଷୀ"
+],
+"answer": "ହଁ",
+"explanation": "ମାତୃତ୍ୱର ସ୍ନେହ ପ୍ରାଣୀଜଗତରେ ସର୍ବତ୍ର ଦେଖିବାକୁ ମିଳେ।"
+},
+{
+"questionEnglish": "Should we always be kind to mothers?",
+"questionOdia": "ଆମେ ମାତାମାନଙ୍କ ପ୍ରତି ସର୍ବଦା ଦୟାଳୁ ହେବା ଉଚିତ କି?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବେ କେବେ",
+"କାହିଁକି ହେବୁ"
+],
+"answer": "ହଁ",
+"explanation": "ମାତାଙ୍କୁ ସର୍ବଦା ସମ୍ମାନ ଓ ଦୟା ଦେଖାଇବା ଆମର କର୍ତ୍ତବ୍ୟ।"
+},
+{
+"questionEnglish": "Why is mother's smile important for the child?",
+"questionOdia": "ଶିଶୁ ପାଇଁ ମାତାଙ୍କ ହସ କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?",
+"options": [
+"କାରଣ ଏହା ଶିଶୁକୁ ଖୁସି ଦିଏ",
+"କାରଣ ଏହା ଟଙ୍କା ଦିଏ",
+"କିଛି ନୁହେଁ",
+"ଭୟ ପାଇଁ"
+],
+"answer": "କାରଣ ଏହା ଶିଶୁକୁ ଖୁସି ଦିଏ",
+"explanation": "ମାତାଙ୍କ ହସ ଶିଶୁର ମନରେ ଆନନ୍ଦ ସୃଷ୍ଟି କରେ।"
+},
+{
+"questionEnglish": "What does 'Janani' signify?",
+"questionOdia": "'ଜନନୀ' କ'ଣ ପ୍ରତିପାଦନ କରେ?",
+"options": [
+"କାମ",
+"ଜନ୍ମଦାତ୍ରୀ ମାତା",
+"ଶତ୍ରୁ",
+"ସାଙ୍ଗ"
+],
+"answer": "ଜନ୍ମଦାତ୍ରୀ ମାତା",
+"explanation": "ଜନନୀ ଅର୍ଥ ଜନ୍ମଦାତ୍ରୀ, ଅର୍ଥାତ୍ ମାତା।"
+},
+{
+"questionEnglish": "Is mother's love a source of strength?",
+"questionOdia": "ମାତାଙ୍କ ସ୍ନେହ ଶକ୍ତିର ଉତ୍ସ କି?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ ଦୁର୍ବଳତା",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ମାତାଙ୍କ ସ୍ନେହ ସନ୍ତାନ ପାଇଁ ସବୁଠାରୁ ବଡ଼ ଶକ୍ତି।"
+},
+{
+"questionEnglish": "How does mother guide the child?",
+"questionOdia": "ମାତା କିପରି ଶିଶୁକୁ ପଥ ପ୍ରଦର୍ଶନ କରନ୍ତି?",
+"options": [
+"କ୍ରୋଧ କରି",
+"ଭଲ ପରାମର୍ଶ ଓ ସ୍ନେହ ଦ୍ୱାରା",
+"କିଛି ନ କରି",
+"ଅବହେଳା କରି"
+],
+"answer": "ଭଲ ପରାମର୍ଶ ଓ ସ୍ନେହ ଦ୍ୱାରା",
+"explanation": "ମାତା ଭଲ ମାର୍ଗ ଦେଖାଇବା ପାଇଁ ସର୍ବଦା ଚେଷ୍ଟା କରନ୍ତି।"
+},
+{
+"questionEnglish": "Are mothers selfless?",
+"questionOdia": "ମାତାମାନେ ନିଃସ୍ୱାର୍ଥପର କି?",
+"options": [
+"ନା",
+"ହଁ",
+"କେବଳ କିଛି",
+"କେହି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ମାତାଙ୍କ ସ୍ନେହ ସର୍ବଦା ନିଃସ୍ୱାର୍ଥପର।"
+},
+{
+"questionEnglish": "What is the core emotion of Shishuvatsalyam?",
+"questionOdia": "ଶିଶୁବାତ୍ସଲ୍ୟମ୍‌ର ମୂଳ ଆବେଗ କ'ଣ?",
+"options": [
+"ଭୟ",
+"ବାତ୍ସଲ୍ୟ (ମାତୃସ୍ନେହ)",
+"କ୍ରୋଧ",
+"ଘୃଣା"
+],
+"answer": "ବାତ୍ସଲ୍ୟ (ମାତୃସ୍ନେହ)",
+"explanation": "ଏହି ପାଠଟି ମାତୃସ୍ନେହ ବା ବାତ୍ସଲ୍ୟ ଭାବନାକୁ ହିଁ ମୁଖ୍ୟ ଭାବେ ଉପସ୍ଥାପନ କରେ।"
+},
+{
+"questionEnglish": "How should we treat mothers as per the culture?",
+"questionOdia": "ସଂସ୍କୃତି ଅନୁଯାୟୀ ଆମେ ମାତାମାନଙ୍କ ସହିତ କିପରି ବ୍ୟବହାର କରିବା ଉଚିତ?",
+"options": [
+"ଦେବୀଙ୍କ ପରି ସମ୍ମାନ ଦେଇ",
+"ସାଧାରଣ ବ୍ୟକ୍ତି ପରି",
+"ଅସମ୍ମାନ କରି",
+"ଭୟ କରି"
+],
+"answer": "ଦେବୀଙ୍କ ପରି ସମ୍ମାନ ଦେଇ",
+"explanation": "ଭାରତୀୟ ସଂସ୍କୃତିରେ ମାତାଙ୍କୁ ଦେବୀଙ୍କ ସ୍ଥାନ ଦିଆଯାଇଛି।"
+},
+{
+"questionEnglish": "Does maternal affection increase over time?",
+"questionOdia": "ମାତୃସ୍ନେହ କ'ଣ ସମୟ ସହିତ ବଢ଼ିଥାଏ?",
+"options": [
+"ହଁ",
+"ନା, ସମାନ ରହେ",
+"କମିଯାଏ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ହଁ",
+"explanation": "ସନ୍ତାନର ଅଭିବୃଦ୍ଧି ସହିତ ମାତାଙ୍କ ସ୍ନେହ ମଧ୍ୟ ବଢ଼ିଥାଏ।"
+},
+{
+"questionEnglish": "What creates a bond between mother and child?",
+"questionOdia": "ମାତା ଓ ଶିଶୁଙ୍କ ମଧ୍ୟରେ ସମ୍ପର୍କ କ'ଣ ସୃଷ୍ଟି କରେ?",
+"options": [
+"ସ୍ନେହ ଓ ଆତ୍ମୀୟତା",
+"ଟଙ୍କା",
+"କାମ",
+"କିଛି ନୁହେଁ"
+],
+"answer": "ସ୍ନେହ ଓ ଆତ୍ମୀୟତା",
+"explanation": "ମାତା ଓ ଶିଶୁଙ୍କ ସମ୍ପର୍କର ମୂଳ ସ୍ନେହ ଓ ଆତ୍ମୀୟତା।"
+},
+{
+"questionEnglish": "Is 'Shishuvatsalyam' educational?",
+"questionOdia": "'ଶିଶୁବାତ୍ସଲ୍ୟମ୍' କ'ଣ ଶିକ୍ଷଣୀୟ?",
+"options": [
+"ହଁ",
+"ନା",
+"କେବଳ କାହାଣୀ",
+"ଅଜ୍ଞାନତା"
+],
+"answer": "ହଁ",
+"explanation": "ଏହା ମାତୃତ୍ୱର ମୂଲ୍ୟବୋଧ ଶିଖାଉଥିବାରୁ ଅତ୍ୟନ୍ତ ଶିକ୍ଷଣୀୟ।"
+}
+]
