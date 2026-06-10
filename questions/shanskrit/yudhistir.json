@@ -1,0 +1,590 @@
+[
+{
+"questionEnglish": "Who is the main questioner in the 'Yudhisthira-Yaksha Samvada'?",
+"questionOdia": "‘ଯୁଧିଷ୍ଠିର-ଯକ୍ଷ ସମ୍ବାଦ’ରେ ମୁଖ୍ୟ ପ୍ରଶ୍ନକର୍ତ୍ତା କିଏ?",
+"options": [
+"ଯୁଧିଷ୍ଠିର",
+"ଯକ୍ଷ",
+"ଅର୍ଜୁନ",
+"ଭୀମ"
+],
+"answer": "ଯକ୍ଷ",
+"explanation": "ଯକ୍ଷ ଏହି ସମ୍ବାଦରେ ମୁଖ୍ୟ ପ୍ରଶ୍ନକର୍ତ୍ତା ଥିଲେ, ଯିଏ ଯୁଧିଷ୍ଠିରଙ୍କୁ ବିଭିନ୍ନ ଗଭୀର ପ୍ରଶ୍ନ ପଚାରିଥିଲେ।"
+},
+{
+"questionEnglish": "What is the primary objective of the Yaksha's questions to Yudhisthira?",
+"questionOdia": "ଯୁଧିଷ୍ଠିରଙ୍କୁ ପଚରାଯାଇଥିବା ଯକ୍ଷଙ୍କ ପ୍ରଶ୍ନର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ'ଣ?",
+"options": [
+"ଯୁଧିଷ୍ଠିରଙ୍କ ବୁଦ୍ଧି ଓ ଧର୍ମଜ୍ଞାନର ପରୀକ୍ଷା କରିବା",
+"ଯୁଧିଷ୍ଠିରଙ୍କୁ ରାଜ୍ୟରୁ ବହିଷ୍କାର କରିବା",
+"ପାଣ୍ଡବମାନଙ୍କୁ ଭୟଭୀତ କରିବା",
+"କେବଳ ସମୟ ବିତାଇବା"
+],
+"answer": "ଯୁଧିଷ୍ଠିରଙ୍କ ବୁଦ୍ଧି ଓ ଧର୍ମଜ୍ଞାନର ପରୀକ୍ଷା କରିବା",
+"explanation": "ଯକ୍ଷଙ୍କ ପ୍ରଶ୍ନଗୁଡ଼ିକର ଲକ୍ଷ୍ୟ ଥିଲା ଯୁଧିଷ୍ଠିରଙ୍କ ବିବେକ, ଧର୍ମନିଷ୍ଠା ଏବଂ ସତ୍ୟବାଦିତାର ପରୀକ୍ଷା କରିବା।"
+},
+{
+"questionEnglish": "According to the dialogue, what is heavier than the earth?",
+"questionOdia": "ସମ୍ବାଦ ଅନୁଯାୟୀ, ପୃଥିବୀଠାରୁ ମଧ୍ୟ ଭାରୀ କିଏ?",
+"options": [
+"ମାତା",
+"ପିତା",
+"ଗୁରୁ",
+"ଧର୍ମ"
+],
+"answer": "ମାତା",
+"explanation": "ଶାସ୍ତ୍ର ଅନୁଯାୟୀ ମାତାଙ୍କ ମହତ୍ତ୍ବ ସବୁଠାରୁ ଅଧିକ, ତେଣୁ ତାଙ୍କୁ ପୃଥିବୀଠାରୁ ମଧ୍ୟ ଭାରୀ ବୋଲି କୁହାଯାଇଛି।"
+},
+{
+"questionEnglish": "Who is considered higher than the sky?",
+"questionOdia": "ଆକାଶଠାରୁ ମଧ୍ୟ ଉଚ୍ଚ କିଏ ବୋଲି କୁହାଯାଇଛି?",
+"options": [
+"ପିତା",
+"ମାତା",
+"ଭଗବାନ",
+"ସୂର୍ଯ୍ୟ"
+],
+"answer": "ପିତା",
+"explanation": "ପିତାଙ୍କ ସ୍ଥାନ ଆକାଶଠାରୁ ମଧ୍ୟ ଉଚ୍ଚତର ବୋଲି ଧର୍ମଶାସ୍ତ୍ରରେ ବର୍ଣ୍ଣିତ ଅଛି।"
+},
+{
+"questionEnglish": "What moves faster than the wind?",
+"questionOdia": "ପବନଠାରୁ ମଧ୍ୟ ଅଧିକ ଦ୍ରୁତଗାମୀ କିଏ?",
+"options": [
+"ମନ",
+"ଚିନ୍ତା",
+"ସମୟ",
+"ପକ୍ଷୀ"
+],
+"answer": "ମନ",
+"explanation": "ମନର ଗତି ଅତ୍ୟନ୍ତ ଦ୍ରୁତ, ଏହା କ୍ଷଣକ ମଧ୍ୟରେ ଯେକୌଣସି ସ୍ଥାନକୁ ଯାଇପାରେ, ତେଣୁ ଏହାକୁ ପବନଠାରୁ ଦ୍ରୁତ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is more numerous than grass?",
+"questionOdia": "ଘାସଠାରୁ ମଧ୍ୟ ଅଧିକ ସଂଖ୍ୟକ କିଏ?",
+"options": [
+"ମନର ଚିନ୍ତା",
+"ତାରା",
+"ବୃକ୍ଷ",
+"ଜଳ"
+],
+"answer": "ମନର ଚିନ୍ତା",
+"explanation": "ମଣିଷର ମନରେ ଗୋଟିଏ ପରେ ଗୋଟିଏ ଚିନ୍ତା ଏତେ ଶୀଘ୍ର ଆସେ ଯେ ତାହା ଘାସଠାରୁ ମଧ୍ୟ ଅଧିକ ବୋଲି କୁହାଯାଇଛି।"
+},
+{
+"questionEnglish": "What is the best friend of a traveler?",
+"questionOdia": "ଯାତ୍ରୀଙ୍କର ସର୍ବୋତ୍ତମ ବନ୍ଧୁ କିଏ?",
+"options": [
+"ସାଥୀ",
+"ଧନ",
+"ସହଯୋଗୀ",
+"ଅସହାୟତା"
+],
+"answer": "ସହଯୋଗୀ",
+"explanation": "ଯାତ୍ରା ସମୟରେ ଯିଏ ସାଥ ଦିଏ, ସେହି ବ୍ୟକ୍ତି ହିଁ ପ୍ରକୃତ ବନ୍ଧୁ।"
+},
+{
+"questionEnglish": "Who is the friend of one who stays at home?",
+"questionOdia": "ଘରେ ରହୁଥିବା ବ୍ୟକ୍ତିଙ୍କ ବନ୍ଧୁ କିଏ?",
+"options": [
+"ପତ୍ନୀ",
+"ପୁଅ",
+"ମାତା",
+"ପିତା"
+],
+"answer": "ପତ୍ନୀ",
+"explanation": "ଘରକରଣା ଚଳାଇବାରେ ପତ୍ନୀ ହିଁ ପ୍ରକୃତ ସହଯୋଗୀ ଓ ବନ୍ଧୁ।"
+},
+{
+"questionEnglish": "What is the friend of a sick person?",
+"questionOdia": "ରୋଗୀର ବନ୍ଧୁ କିଏ?",
+"options": [
+"ଡାକ୍ତର",
+"ଔଷଧ",
+"ନର୍ସ",
+"ପରିବାର"
+],
+"answer": "ଔଷଧ",
+"explanation": "ରୋଗୀକୁ ସୁସ୍ଥ କରିବାରେ ଔଷଧ ହିଁ ସାହାଯ୍ୟ କରେ, ତେଣୁ ଏହା ବନ୍ଧୁ ସଦୃଶ।"
+},
+{
+"questionEnglish": "Who is the friend of a dying person?",
+"questionOdia": "ମୃତ୍ୟୁ ପଥରେ ଥିବା ବ୍ୟକ୍ତିର ବନ୍ଧୁ କିଏ?",
+"options": [
+"ପୁଣ୍ୟ",
+"ଧନ",
+"ପରିବାର",
+"କର୍ମ"
+],
+"answer": "ପୁଣ୍ୟ",
+"explanation": "ମୃତ୍ୟୁ ପରେ କେବଳ ସେହି ବ୍ୟକ୍ତିର ପୁଣ୍ୟ ହିଁ ତା'ର ସାଥୀ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Which vessel holds all the world?",
+"questionOdia": "ସମଗ୍ର ଜଗତକୁ କେଉଁ ପାତ୍ର ଧାରଣ କରିଛି?",
+"options": [
+"ପୃଥିବୀ",
+"ଆକାଶ",
+"ସମୁଦ୍ର",
+"ବ୍ରହ୍ମାଣ୍ଡ"
+],
+"answer": "ପୃଥିବୀ",
+"explanation": "ପୃଥିବୀ ସମସ୍ତ ପ୍ରାଣୀଙ୍କୁ ନିଜ ଭିତରେ ଧାରଣ କରି ରଖିଛି, ତେଣୁ ଏହା ଏକ ପାତ୍ର ସଦୃଶ।"
+},
+{
+"questionEnglish": "What is happiness?",
+"questionOdia": "ସୁଖ କ'ଣ?",
+"options": [
+"ଧନ ସମ୍ପତ୍ତି",
+"ଧର୍ମ ବା ସଦାଚାର",
+"ଶାରୀରିକ ସୁସ୍ଥତା",
+"ସାମାଜିକ ପ୍ରତିଷ୍ଠା"
+],
+"answer": "ଧର୍ମ ବା ସଦାଚାର",
+"explanation": "ସଦାଚାର ଓ ଧର୍ମ ପାଳନ ହିଁ ପ୍ରକୃତ ସୁଖର ମୂଳ।"
+},
+{
+"questionEnglish": "What does a man lose by giving up which he becomes loved by all?",
+"questionOdia": "କ'ଣ ତ୍ୟାଗ କଲେ ମଣିଷ ସମସ୍ତଙ୍କର ପ୍ରିୟ ହୋଇଥାଏ?",
+"options": [
+"ଅହଂକାର",
+"ଧନ",
+"ସମୟ",
+"ଶତ୍ରୁତା"
+],
+"answer": "ଅହଂକାର",
+"explanation": "ଅହଂକାର ତ୍ୟାଗ କଲେ ମଣିଷ ସମସ୍ତଙ୍କର ପ୍ରିୟ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Why does a man not grieve by giving up anger?",
+"questionOdia": "କ୍ରୋଧ ତ୍ୟାଗ କଲେ ମଣିଷ କାହିଁକି ଦୁଃଖୀ ହୁଏ ନାହିଁ?",
+"options": [
+"କ୍ରୋଧ ଦୁଃଖର କାରଣ",
+"କ୍ରୋଧ ଶକ୍ତି ନଷ୍ଟ କରେ",
+"କ୍ରୋଧ ସମୟ ନଷ୍ଟ କରେ",
+"କ୍ରୋଧ ଶତ୍ରୁତା ବଢ଼ାଏ"
+],
+"answer": "କ୍ରୋଧ ଦୁଃଖର କାରଣ",
+"explanation": "କ୍ରୋଧ ସବୁବେଳେ ଦୁଃଖ ଓ ଅଶାନ୍ତି ସୃଷ୍ଟି କରେ, ତେଣୁ ଏହାକୁ ତ୍ୟାଗ କରିବା ହିତକର।"
+},
+{
+"questionEnglish": "By giving up what does a man become rich?",
+"questionOdia": "କ'ଣ ତ୍ୟାଗ କଲେ ମଣିଷ ଧନୀ ହୁଏ?",
+"options": [
+"ଲୋଭ",
+"ଇର୍ଷା",
+"ଅଳସୁଆମୀ",
+"ଭୟ"
+],
+"answer": "ଲୋଭ",
+"explanation": "ଲୋଭ ତ୍ୟାଗ କଲେ ମଣିଷ ନିଜ ପାଖରେ ଯାହା ଅଛି ସେଥିରେ ସନ୍ତୁଷ୍ଟ ରହି ଧନୀ ବୋଧ କରେ।"
+},
+{
+"questionEnglish": "What is the most amazing thing in the world?",
+"questionOdia": "ସଂସାରରେ ସବୁଠାରୁ ଆଶ୍ଚର୍ଯ୍ୟଜନକ କଥା କ'ଣ?",
+"options": [
+"ମୃତ୍ୟୁ ଦେଖୁଥିଲେ ମଧ୍ୟ ମଣିଷ ଅମର ଭାବିବା",
+"ସୂର୍ଯ୍ୟଙ୍କ ଉଦୟ",
+"ଋତୁ ପରିବର୍ତ୍ତନ",
+"ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ"
+],
+"answer": "ମୃତ୍ୟୁ ଦେଖୁଥିଲେ ମଧ୍ୟ ମଣିଷ ଅମର ଭାବିବା",
+"explanation": "ଲୋକେ ପ୍ରତିଦିନ ମୃତ୍ୟୁ ଦେଖୁଛନ୍ତି, କିନ୍ତୁ ନିଜେ ଚିରକାଳ ବଞ୍ଚିବେ ବୋଲି ଭାବୁଛନ୍ତି, ଏହାହିଁ ସବୁଠାରୁ ବଡ଼ ଆଶ୍ଚର୍ଯ୍ୟ।"
+},
+{
+"questionEnglish": "What is the path of righteousness?",
+"questionOdia": "ଧର୍ମର ପଥ କ'ଣ?",
+"options": [
+"ମହାତ୍ମାମାନଙ୍କ ଅନୁସରଣ",
+"ନିଜର ଇଚ୍ଛା",
+"ଶାସ୍ତ୍ରର ବିରୋଧ",
+"ଅନ୍ୟକୁ ଦମନ କରିବା"
+],
+"answer": "ମହାତ୍ମାମାନଙ୍କ ଅନୁସରଣ",
+"explanation": "ମହାପୁରୁଷମାନେ ଯେଉଁ ପଥରେ ଯାଇଛନ୍ତି, ତାହାହିଁ ଧର୍ମର ପଥ।"
+},
+{
+"questionEnglish": "What is considered a 'great' treasure?",
+"questionOdia": "କାହାକୁ ମହାନ ଧନ ବୋଲି କୁହାଯାଇଛି?",
+"options": [
+"ଦାନ",
+"ଶିକ୍ଷା",
+"ପରୋପକାର",
+"ସତ୍ୟ"
+],
+"answer": "ଦାନ",
+"explanation": "ଦାନ କରିବା ସବୁଠାରୁ ବଡ଼ ପୁଣ୍ୟ ଓ ଧନ।"
+},
+{
+"questionEnglish": "What makes a person truly wise?",
+"questionOdia": "କ'ଣ ମଣିଷକୁ ପ୍ରକୃତ ଜ୍ଞାନୀ କରେ?",
+"options": [
+"ବୟସ",
+"ଶାସ୍ତ୍ର ପାଠ",
+"ବ୍ୟବହାର",
+"ସମ୍ପତ୍ତି"
+],
+"answer": "ଶାସ୍ତ୍ର ପାଠ",
+"explanation": "ଶାସ୍ତ୍ର ଜ୍ଞାନ ହିଁ ମଣିଷକୁ ସଠିକ୍ ପଥ ଦେଖାଏ ଓ ଜ୍ଞାନୀ କରେ।"
+},
+{
+"questionEnglish": "What is the greatest enemy of man?",
+"questionOdia": "ମଣିଷର ସବୁଠାରୁ ବଡ଼ ଶତ୍ରୁ କିଏ?",
+"options": [
+"କ୍ରୋଧ",
+"ଅଳସୁଆମୀ",
+"ଲୋଭ",
+"ଅଜ୍ଞାନତା"
+],
+"answer": "କ୍ରୋଧ",
+"explanation": "କ୍ରୋଧ ମଣିଷର ବିବେକକୁ ନଷ୍ଟ କରିଦିଏ, ତେଣୁ ଏହା ସବୁଠାରୁ ବଡ଼ ଶତ୍ରୁ।"
+},
+{
+"questionEnglish": "Who is considered a happy person?",
+"questionOdia": "କାହାକୁ ସୁଖୀ ବୋଲି କୁହାଯାଇଛି?",
+"options": [
+"ଯିଏ ଋଣମୁକ୍ତ ଓ ସ୍ବଦେଶୀ",
+"ଯିଏ ଅଧିକ ଧନୀ",
+"ଯିଏ ଶକ୍ତିଶାଳୀ",
+"ଯିଏ ପ୍ରସିଦ୍ଧ"
+],
+"answer": "ଯିଏ ଋଣମୁକ୍ତ ଓ ସ୍ବଦେଶୀ",
+"explanation": "ଋଣ ନଥିବା ବ୍ୟକ୍ତି ହିଁ ପ୍ରକୃତ ସୁଖୀ, କାରଣ ସେ ଚିନ୍ତାମୁକ୍ତ।"
+},
+{
+"questionEnglish": "What is constant in the world?",
+"questionOdia": "ସଂସାରରେ କ'ଣ ସର୍ବଦା ପରିବର୍ତ୍ତନଶୀଳ?",
+"options": [
+"ସମୟ",
+"ପ୍ରକୃତି",
+"ଜୀବନ",
+"ଧନ"
+],
+"answer": "ସମୟ",
+"explanation": "ସମୟ କାହା ପାଇଁ ଅଟକେ ନାହିଁ, ଏହା ନିରନ୍ତର ବହି ଚାଲେ।"
+},
+{
+"questionEnglish": "How can one overcome anger?",
+"questionOdia": "କ୍ରୋଧକୁ କିପରି ଜୟ କରାଯାଇପାରିବ?",
+"options": [
+"ଶାନ୍ତ ରହି",
+"ପ୍ରତିଶୋଧ ନେଇ",
+"ଚୁପ୍ ରହି",
+"ଯୁକ୍ତି କରି"
+],
+"answer": "ଶାନ୍ତ ରହି",
+"explanation": "ଶାନ୍ତ ରହିବା କ୍ରୋଧର ଶ୍ରେଷ୍ଠ ଔଷଧ।"
+},
+{
+"questionEnglish": "What is the result of untruth?",
+"questionOdia": "ଅସତ୍ୟର ପରିଣାମ କ'ଣ?",
+"options": [
+"ବିନାଶ",
+"ସଫଳତା",
+"ସମ୍ମାନ",
+"ସୁଖ"
+],
+"answer": "ବିନାଶ",
+"explanation": "ଅସତ୍ୟର ମୂଳ ସବୁବେଳେ ନାଶ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Who is a truly learned person?",
+"questionOdia": "ପ୍ରକୃତ ପଣ୍ଡିତ କିଏ?",
+"options": [
+"ଯିଏ ଧର୍ମକୁ ବୁଝେ",
+"ଯିଏ ବହୁତ ପାଠ ପଢ଼େ",
+"ଯିଏ କେବଳ ପୂଜା କରେ",
+"ଯିଏ ଅଧିକ କଥା କହେ"
+],
+"answer": "ଯିଏ ଧର୍ମକୁ ବୁଝେ",
+"explanation": "ଧର୍ମ ଓ ସତ୍ୟର ମର୍ମ ଯିଏ ଜାଣେ, ସେହି ପ୍ରକୃତ ପଣ୍ଡିତ।"
+},
+{
+"questionEnglish": "Which is the highest duty of a man?",
+"questionOdia": "ମଣିଷର ସର୍ବୋଚ୍ଚ କର୍ତ୍ତବ୍ୟ କ'ଣ?",
+"options": [
+"ପରୋପକାର",
+"ସମ୍ପତ୍ତି ଅର୍ଜନ",
+"ବଂଶ ରକ୍ଷା",
+"ସମୟ କଟାଇବା"
+],
+"answer": "ପରୋପକାର",
+"explanation": "ଅନ୍ୟର ଉପକାର କରିବା ହିଁ ମଣିଷର ପରମ ଧର୍ମ।"
+},
+{
+"questionEnglish": "What is the source of all miseries?",
+"questionOdia": "ସମସ୍ତ ଦୁଃଖର ମୂଳ କାରଣ କ'ଣ?",
+"options": [
+"ଅଜ୍ଞାନତା",
+"ଦାରିଦ୍ର୍ୟ",
+"ଅସୁସ୍ଥତା",
+"ଅପମାନ"
+],
+"answer": "ଅଜ୍ଞାନତା",
+"explanation": "ଅଜ୍ଞାନତା ଯୋଗୁଁ ମଣିଷ ଭୁଲ୍ ନିଷ୍ପତ୍ତି ନିଏ ଓ ଦୁଃଖୀ ହୁଏ।"
+},
+{
+"questionEnglish": "What should a man guard most carefully?",
+"questionOdia": "ମଣିଷ କାହାର ସବୁଠାରୁ ଅଧିକ ରକ୍ଷା କରିବା ଉଚିତ?",
+"options": [
+"ଶୀଳ ବା ଚରିତ୍ର",
+"ଧନ",
+"ଘର",
+"ସମୟ"
+],
+"answer": "ଶୀଳ ବା ଚରିତ୍ର",
+"explanation": "ଚରିତ୍ର ହିଁ ମଣିଷର ସବୁଠାରୁ ବଡ଼ ସମ୍ପତ୍ତି, ତେଣୁ ଏହାର ସୁରକ୍ଷା ଜରୁରୀ।"
+},
+{
+"questionEnglish": "What is more lasting than gold?",
+"questionOdia": "ସୁନାଠାରୁ ମଧ୍ୟ କ'ଣ ଅଧିକ ମୂଲ୍ୟବାନ?",
+"options": [
+"ସତ୍ୟ",
+"ଚରିତ୍ର",
+"ଜ୍ଞାନ",
+"ସାହସ"
+],
+"answer": "ସତ୍ୟ",
+"explanation": "ସତ୍ୟର ମୂଲ୍ୟ କୌଣସି ବସ୍ତୁ ଠାରୁ ଅଧିକ।"
+},
+{
+"questionEnglish": "What creates a bridge between two people?",
+"questionOdia": "ଦୁଇ ବ୍ୟକ୍ତିଙ୍କ ମଧ୍ୟରେ ସେତୁ କିଏ ନିର୍ମାଣ କରେ?",
+"options": [
+"ପ୍ରେମ",
+"ସତ୍ୟ",
+"ସହଯୋଗ",
+"ଭୟ"
+],
+"answer": "ପ୍ରେମ",
+"explanation": "ପ୍ରେମ ହିଁ ଦୁଇଟି ହୃଦୟକୁ ଯୋଡ଼ିଥାଏ।"
+},
+{
+"questionEnglish": "Who is the most powerful?",
+"questionOdia": "ସବୁଠାରୁ ଶକ୍ତିଶାଳୀ କିଏ?",
+"options": [
+"ଯିଏ ନିଜକୁ ଜୟ କରିଛି",
+"ରାଜା",
+"ବଳବାନ ବ୍ୟକ୍ତି",
+"ଦେବତା"
+],
+"answer": "ଯିଏ ନିଜକୁ ଜୟ କରିଛି",
+"explanation": "ଆତ୍ମଜୟୀ ବ୍ୟକ୍ତି ହିଁ ସବୁଠାରୁ ଶକ୍ତିଶାଳୀ।"
+},
+{
+"questionEnglish": "What is the best way to live?",
+"questionOdia": "ଜୀବନ ଜିଇବାର ଶ୍ରେଷ୍ଠ ଉପାୟ କ'ଣ?",
+"options": [
+"ଧର୍ମ ପଥରେ ଚାଲିବା",
+"ସୁଖରେ ରହିବା",
+"ଧନ ସଞ୍ଚୟ କରିବା",
+"ସମସ୍ତଙ୍କ ସହ ମିଳିମିଶି ରହିବା"
+],
+"answer": "ଧର୍ମ ପଥରେ ଚାଲିବା",
+"explanation": "ଧର୍ମ ଅନୁସରଣ କରିବା ହିଁ ଜୀବନର ସର୍ବଶ୍ରେଷ୍ଠ ମାର୍ଗ।"
+},
+{
+"questionEnglish": "What is true wisdom?",
+"questionOdia": "ପ୍ରକୃତ ବୁଦ୍ଧି କ'ଣ?",
+"options": [
+"ଭଲ ଓ ମନ୍ଦର ପାର୍ଥକ୍ୟ ଜାଣିବା",
+"ବହୁତ କିଛି ଜାଣିବା",
+"ଅନ୍ୟକୁ ହରାଇବା",
+"ଧନ କମାଇବା"
+],
+"answer": "ଭଲ ଓ ମନ୍ଦର ପାର୍ଥକ୍ୟ ଜାଣିବା",
+"explanation": "ଯିଏ ଭଲ-ମନ୍ଦ ବୁଝିପାରେ, ସେହି ବୁଦ୍ଧିମାନ।"
+},
+{
+"questionEnglish": "What leads to salvation?",
+"questionOdia": "ମୁକ୍ତିର ମାର୍ଗ କ'ଣ?",
+"options": [
+"ନିଷ୍କାମ କର୍ମ",
+"ଅଧିକ ଧନ",
+"ପରିବାର ସେବା",
+"ପ୍ରସିଦ୍ଧି"
+],
+"answer": "ନିଷ୍କାମ କର୍ମ",
+"explanation": "ଫଳାଫଳର ଆଶା ନରଖି କର୍ମ କରିବା ହିଁ ମୁକ୍ତି ଦିଏ।"
+},
+{
+"questionEnglish": "What is the cause of fear?",
+"questionOdia": "ଭୟର କାରଣ କ'ଣ?",
+"options": [
+"ପାପ",
+"ଅସୁସ୍ଥତା",
+"ଶତ୍ରୁତା",
+"ଦାରିଦ୍ର୍ୟ"
+],
+"answer": "ପାପ",
+"explanation": "ପାପ କର୍ମ କଲେ ମନରେ ସବୁବେଳେ ଭୟ ରହିଥାଏ।"
+},
+{
+"questionEnglish": "What does a man earn by speaking the truth?",
+"questionOdia": "ସତ୍ୟ କହି ମଣିଷ କ'ଣ ପାଏ?",
+"options": [
+"ସମ୍ମାନ",
+"ଅଧିକ ଧନ",
+"ସମୟ",
+"ଶକ୍ତି"
+],
+"answer": "ସମ୍ମାନ",
+"explanation": "ସତ୍ୟବାଦୀ ବ୍ୟକ୍ତି ସବୁଠାରେ ସମ୍ମାନିତ ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "What is the best medicine?",
+"questionOdia": "ସର୍ବଶ୍ରେଷ୍ଠ ଔଷଧ କ'ଣ?",
+"options": [
+"ସନ୍ତୋଷ",
+"ଶାନ୍ତି",
+"ଯୋଗ",
+"ଧ୍ୟାନ"
+],
+"answer": "ସନ୍ତୋଷ",
+"explanation": "ସନ୍ତୁଷ୍ଟ ରହିବା ହିଁ ମାନସିକ ସୁସ୍ଥତାର ଶ୍ରେଷ୍ଠ ଔଷଧ।"
+},
+{
+"questionEnglish": "What is true knowledge?",
+"questionOdia": "ପ୍ରକୃତ ଜ୍ଞାନ କ'ଣ?",
+"options": [
+"ଆତ୍ମଜ୍ଞାନ",
+"ବିଜ୍ଞାନ",
+"ଭାଷା ଜ୍ଞାନ",
+"ସାମାଜିକ ଜ୍ଞାନ"
+],
+"answer": "ଆତ୍ମଜ୍ଞାନ",
+"explanation": "ନିଜକୁ ଚିହ୍ନିବା ହିଁ ପ୍ରକୃତ ଜ୍ଞାନ।"
+},
+{
+"questionEnglish": "Who is the destroyer of all?",
+"questionOdia": "ସମସ୍ତଙ୍କର ନାଶ କିଏ କରେ?",
+"options": [
+"କାଳ (ସମୟ)",
+"ମୃତ୍ୟୁ",
+"ଦେବତା",
+"ପ୍ରକୃତି"
+],
+"answer": "କାଳ (ସମୟ)",
+"explanation": "ସମୟ ସବୁକିଛି ନଷ୍ଟ କରିଦିଏ।"
+},
+{
+"questionEnglish": "What is the root of the world?",
+"questionOdia": "ସଂସାରର ମୂଳ କ'ଣ?",
+"options": [
+"କର୍ମ",
+"ଇଶ୍ୱର",
+"ପ୍ରକୃତି",
+"ମାୟା"
+],
+"answer": "କର୍ମ",
+"explanation": "କର୍ମ ଅନୁସାରେ ହିଁ ସଂସାର ଚଳେ।"
+},
+{
+"questionEnglish": "What makes a man respected?",
+"questionOdia": "କ'ଣ ମଣିଷକୁ ସମ୍ମାନିତ କରେ?",
+"options": [
+"ଗୁଣ",
+"ସମ୍ପତ୍ତି",
+"ବୟସ",
+"ପରିବାର"
+],
+"answer": "ଗୁଣ",
+"explanation": "ବ୍ୟକ୍ତିର ଗୁଣ ହିଁ ତାକୁ ସମାଜରେ ସମ୍ମାନ ଦିଏ।"
+},
+{
+"questionEnglish": "What is the beauty of a woman?",
+"questionOdia": "ନାରୀର ସୌନ୍ଦର୍ଯ୍ୟ କ'ଣ?",
+"options": [
+"ଶୀଳ (ସଦାଚାର)",
+"ସାଜସଜ୍ଜା",
+"ଅଳଙ୍କାର",
+"ଧନ"
+],
+"answer": "ଶୀଳ (ସଦାଚାର)",
+"explanation": "ଚରିତ୍ର ଓ ସଦାଚାର ହିଁ ନାରୀର ପ୍ରକୃତ ସୌନ୍ଦର୍ଯ୍ୟ।"
+},
+{
+"questionEnglish": "Who is the true friend of the poor?",
+"questionOdia": "ଗରିବର ବନ୍ଧୁ କିଏ?",
+"options": [
+"ଦୟା",
+"ଧନୀ",
+"ସରକାର",
+"ଭାଗ୍ୟ"
+],
+"answer": "ଦୟା",
+"explanation": "ଦୟା ଓ ସହାନୁଭୂତି ଗରିବଙ୍କ ପାଇଁ ବନ୍ଧୁ ସଦୃଶ।"
+},
+{
+"questionEnglish": "What leads to success?",
+"questionOdia": "ସଫଳତାର ମାର୍ଗ କ'ଣ?",
+"options": [
+"ଉଦ୍ୟମ",
+"ଭାଗ୍ୟ",
+"ଅନ୍ୟର ସାହାଯ୍ୟ",
+"ଧନ"
+],
+"answer": "ଉଦ୍ୟମ",
+"explanation": "କଠିନ ପରିଶ୍ରମ ବା ଉଦ୍ୟମ ହିଁ ସଫଳତା ଆଣିଥାଏ।"
+},
+{
+"questionEnglish": "What should be avoided in life?",
+"questionOdia": "ଜୀବନରେ କାହାକୁ ପରିହାର କରିବା ଉଚିତ?",
+"options": [
+"ଦୁଷ୍ଟ ସଙ୍ଗ",
+"କଠିନ କାମ",
+"ସାମାଜିକ ଦାୟିତ୍ୱ",
+"ଅଧ୍ୟୟନ"
+],
+"answer": "ଦୁଷ୍ଟ ସଙ୍ଗ",
+"explanation": "ଖରାପ ସଙ୍ଗ ମଣିଷର ଚରିତ୍ର ନଷ୍ଟ କରେ।"
+},
+{
+"questionEnglish": "What is the best decoration of a human?",
+"questionOdia": "ମଣିଷର ଶ୍ରେଷ୍ଠ ଅଳଙ୍କାର କ'ଣ?",
+"options": [
+"ସଦାଚାର",
+"ସୁନା",
+"ବସ୍ତ୍ର",
+"ସମ୍ପତ୍ତି"
+],
+"answer": "ସଦାଚାର",
+"explanation": "ଭଲ ବ୍ୟବହାର ହିଁ ମଣିଷର ପ୍ରକୃତ ଅଳଙ୍କାର।"
+},
+{
+"questionEnglish": "Who can be called 'learned'?",
+"questionOdia": "କାହାକୁ ଜ୍ଞାନୀ କୁହାଯିବ?",
+"options": [
+"ଯିଏ ନିଜକୁ ନିୟନ୍ତ୍ରଣ କରେ",
+"ଯିଏ ଅଧିକ କଥା କହିପାରେ",
+"ଯିଏ ଶକ୍ତିଶାଳୀ",
+"ଯିଏ ବହୁତ ଧନୀ"
+],
+"answer": "ଯିଏ ନିଜକୁ ନିୟନ୍ତ୍ରଣ କରେ",
+"explanation": "ଇନ୍ଦ୍ରିୟ ସଂଯମ ହିଁ ଜ୍ଞାନର ପରିଚୟ।"
+},
+{
+"questionEnglish": "What destroys the family?",
+"questionOdia": "କ'ଣ ବଂଶକୁ ନଷ୍ଟ କରେ?",
+"options": [
+"ଅହଂକାର",
+"ଦାରିଦ୍ର୍ୟ",
+"ଅଶିକ୍ଷା",
+"ରୋଗ"
+],
+"answer": "ଅହଂକାର",
+"explanation": "ଅହଂକାର ମଣିଷର ବୁଦ୍ଧିକୁ ନଷ୍ଟ କରି ପରିବାର ଓ ବଂଶର ଅବନତି ଘଟାଏ।"
+},
+{
+"questionEnglish": "What is the aim of life?",
+"questionOdia": "ଜୀବନର ଲକ୍ଷ୍ୟ କ'ଣ?",
+"options": [
+"ଧର୍ମ ଓ ମୋକ୍ଷ",
+"କେବଳ ଧନ",
+"କେବଳ ଭୋଗ",
+"କେବଳ ଖ୍ୟାତି"
+],
+"answer": "ଧର୍ମ ଓ ମୋକ୍ଷ",
+"explanation": "ଧର୍ମ ପାଳନ ଓ ମୁକ୍ତି ଲାଭ ହିଁ ମାନବ ଜୀବନର ଚୂଡ଼ାନ୍ତ ଲକ୍ଷ୍ୟ।"
+}
+]
