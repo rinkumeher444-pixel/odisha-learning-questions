@@ -1,0 +1,602 @@
+[
+{
+"questionEnglish": "Which river is known as the lifeline of Odisha and originates from the Chotanagpur Plateau?",
+"questionOdia": "କେଉଁ ନଦୀକୁ ଓଡ଼ିଶାର ଜୀବନରେଖା କୁହାଯାଏ ଏବଂ ଏହାର ଉତ୍ପତ୍ତି ଛୋଟନାଗପୁର ମାଳଭୂମିରୁ ହୋଇଛି?",
+"options": [
+"ମହାନଦୀ",
+"ବ୍ରାହ୍ମଣୀ",
+"ବୈତରଣୀ",
+"ଋଷିକୂଲ୍ୟା"
+],
+"answer": "ମହାନଦୀ",
+"explanation": "ମହାନଦୀ ଓଡ଼ିଶାର ସବୁଠାରୁ ବଡ଼ ନଦୀ ଏବଂ ଏହାକୁ ରାଜ୍ୟର ଜୀବନରେଖା କୁହାଯାଏ । ଏହା ଛୋଟନାଗପୁର ମାଳଭୂମିରୁ ବାହାରି ଓଡ଼ିଶାରେ ପ୍ରବାହିତ ହେଉଛି ।"
+},
+{
+"questionEnglish": "In which district of Odisha is the famous Chilika Lake, Asia's largest brackish water lagoon, primarily located?",
+"questionOdia": "ଏସିଆର ସବୁଠାରୁ ବଡ଼ କ୍ଷାରୀୟ ଜଳ ହ୍ରଦ ଚିଲିକା ମୁଖ୍ୟତଃ ଓଡ଼ିଶାର କେଉଁ ଜିଲ୍ଲାରେ ଅବସ୍ଥିତ?",
+"options": [
+"ଖୋର୍ଦ୍ଧା, ପୁରୀ ଏବଂ ଗଞ୍ଜାମ",
+"କଟକ, ପୁରୀ ଏବଂ ବାଲେଶ୍ୱର",
+"ଭଦ୍ରକ, କେନ୍ଦ୍ରାପଡ଼ା ଏବଂ ଜଗତସିଂହପୁର",
+"ଗଞ୍ଜାମ, ଗଜପତି ଏବଂ ରାୟଗଡ଼ା"
+],
+"answer": "ଖୋର୍ଦ୍ଧା, ପୁରୀ ଏବଂ ଗଞ୍ଜାମ",
+"explanation": "ଚିଲିକା ହ୍ରଦ ଓଡ଼ିଶାର ତିନୋଟି ଜିଲ୍ଲା ଯଥା ଖୋର୍ଦ୍ଧା, ପୁରୀ ଏବଂ ଗଞ୍ଜାମ ସୀମାରେ ବିସ୍ତାରିତ ହୋଇ ରହିଛି ।"
+},
+{
+"questionEnglish": "Which mountain peak is the highest point in Odisha, located in the Koraput district?",
+"questionOdia": "ଓଡ଼ିଶାର ସବୁଠାରୁ ଉଚ୍ଚତମ ଗିରିଶୃଙ୍ଗର ନାମ କଣ ଯାହା କୋରାପୁଟ ଜିଲ୍ଲାରେ ଅବସ୍ଥିତ?",
+"options": [
+"ମହେନ୍ଦ୍ରଗିରି",
+"ଦେଓମାଳୀ",
+"ଗନ୍ଧମାର୍ଦ୍ଦନ",
+"ମଳୟଗିରି"
+],
+"answer": "ଦେଓମାଳୀ",
+"explanation": "କୋରାପୁଟ ଜିଲ୍ଲାରେ ଅବସ୍ଥିତ ଦେଓମାଳୀ ପର୍ବତ ଶୃଙ୍ଗ ଓଡ଼ିଶାର ସବୁଠାରୁ ଉଚ୍ଚତମ ସ୍ଥାନ ଅଟେ, ଯାହାର ଉଚ୍ଚତା ପ୍ରାୟ ୧୬୭୨ ମିଟର ।"
+},
+{
+"questionEnglish": "Who was the first Chief Minister of Odisha after India gained independence in 1947?",
+"questionOdia": "୧୯୪୭ ମସିହାରେ ଭାରତ ସ୍ୱାଧୀନ ହେବା ପରେ ଓଡ଼ିଶାର ପ୍ରଥମ ମୁଖ୍ୟମନ୍ତ୍ରୀ କିଏ ହୋଇଥିଲେ?",
+"options": [
+"ନବକୃଷ୍ଣ ଚୌଧୁରୀ",
+"ବିଜୁ ପଟ୍ଟନାୟକ",
+"ଡଃ ହରେକୃଷ୍ଣ ମହତାବ",
+"ମହାରାଜା କୃଷ୍ଣଚନ୍ଦ୍ର ଗଜପତି"
+],
+"answer": "ଡଃ ହରେକୃଷ୍ଣ ମହତାବ",
+"explanation": "ସ୍ୱାଧୀନତା ପରେ ଡଃ ହରେକୃଷ୍ଣ ମହତାବ ଓଡ଼ିଶାର ପ୍ରଥମ ମୁଖ୍ୟମନ୍ତ୍ରୀ (ସେତେବେଳେ ପ୍ରଧାନମନ୍ତ୍ରୀ କୁହାଯାଉଥିଲା) ଭାବେ ଦାୟିତ୍ୱ ଗ୍ରହଣ କରିଥିଲେ ।"
+},
+{
+"questionEnglish": "Which historical event in 261 BC led to the transformation of Emperor Ashoka and influenced the spread of Buddhism?",
+"questionOdia": "ଖ୍ରୀଷ୍ଟପୂର୍ବ ୨୬୧ ରେ ଘଟିଥିବା କେଉଁ ଐତିହାସିକ ଯୁଦ୍ଧ ସମ୍ରାଟ ଅଶୋକଙ୍କ ହୃଦୟ ପରିବର୍ତ୍ତନ କରିଥିଲା ଏବଂ ବୌଦ୍ଧ ଧର୍ମର ପ୍ରଚାରକୁ ପ୍ରଭାବିତ କରିଥିଲା?",
+"options": [
+"କଳିଙ୍ଗ ଯୁଦ୍ଧ",
+"ପାଟଳିପୁତ୍ର ଯୁଦ୍ଧ",
+"ତୋଷାଳି ଯୁଦ୍ଧ",
+"ଖାରବେଳ ଯୁଦ୍ଧ"
+],
+"answer": "କଳିଙ୍ଗ ଯୁଦ୍ଧ",
+"explanation": "ଖ୍ରୀଷ୍ଟପୂର୍ବ ୨୬୧ ର କଳିଙ୍ଗ ଯୁଦ୍ଧରେ ହୋଇଥିବା ଭୟାବହ ନରସଂହାର ଦେଖି ସମ୍ରାଟ ଅଶୋକ ଚଣ୍ଡାଶୋକରୁ ଧର୍ମାଶୋକରେ ପରିଣତ ହୋଇଥିଲେ ।"
+},
+{
+"questionEnglish": "Which national park in Odisha is famous for its saltwater crocodiles and mangrove ecosystem?",
+"questionOdia": "ଓଡ଼ିଶାର କେଉଁ ଜାତୀୟ ଉଦ୍ୟାନ ଏହାର ବଉଳା କୁମ୍ଭୀର ଏବଂ ହେନ୍ତାଳବନ (ମେନଗ୍ରୋଭ୍) ପରିସଂସ୍ଥା ପାଇଁ ପ୍ରସିଦ୍ଧ?",
+"options": [
+"ଶିମିଳିପାଳ ଜାତୀୟ ଉଦ୍ୟାନ",
+"ଭିତରକନିକା ଜାତୀୟ ଉଦ୍ୟାନ",
+"ଚନ୍ଦକା ହାତୀ ଅଭୟାରଣ୍ୟ",
+"କାର୍ଲାପାଟ ଅଭୟାରଣ୍ୟ"
+],
+"answer": "ଭିତରକନିକା ଜାତୀୟ ଉଦ୍ୟାନ",
+"explanation": "କେନ୍ଦ୍ରାପଡ଼ା ଜିଲ୍ଲାରେ ଅବସ୍ଥିତ ଭିତରକନିକା ଜାତୀୟ ଉଦ୍ୟାନ ଲୁଣିଆ ଜଳର କୁମ୍ଭୀର ଏବଂ ସମୃଦ୍ଧ ହେନ୍ତାଳବନ ପାଇଁ ବିଶ୍ୱ ପ୍ରସିଦ୍ଧ ।"
+},
+{
+"questionEnglish": "Who is revered as the 'Utkal Mani' (Jewel of Odisha) for his dedicated social work and contribution to Odisha's freedom movement?",
+"questionOdia": "ଓଡ଼ିଶାର ସମାଜସେବା ଏବଂ ସ୍ୱାଧୀନତା ଆନ୍ଦୋଳନରେ ଅବଦାନ ପାଇଁ କାହାକୁ 'ଉତ୍କଳ ମଣି' ଉପାଧିରେ ଭୂଷିତ କରାଯାଇଛି?",
+"options": [
+"ମଧୁସୂଦନ ଦାସ",
+"ଗୋପବନ୍ଧୁ ଦାସ",
+"ହରେକୃଷ୍ଣ ମହତାବ",
+"ଗଙ୍ଗାଧର ମେହେର"
+],
+"answer": "ଗୋପବନ୍ଧୁ ଦାସ",
+"explanation": "ପଣ୍ଡିତ ଗୋପବନ୍ଧୁ ଦାସଙ୍କ ନିଃସ୍ୱାର୍ଥପର ଜନସେବା ଏବଂ ଦେଶପ୍ରେମ ପାଇଁ ତାଙ୍କୁ ସମସ୍ତେ ଆଦରରେ 'ଉତ୍କଳ ମଣି' ବୋଲି କହନ୍ତି ।"
+},
+{
+"questionEnglish": "The famous Konark Sun Temple, also known as the Black Pagoda, was built by which ruler of the Ganga Dynasty?",
+"questionOdia": "ବ୍ଲାକ୍ ପାଗୋଡା ନାମରେ ଜଣାଶୁଣା ପ୍ରସିଦ୍ଧ କୋଣାର୍କ ସୂର୍ଯ୍ୟ ମନ୍ଦିର ଗଙ୍ଗ ବଂଶର କେଉଁ ଶାସକଙ୍କ ଦ୍ୱାରା ନିର୍ମିତ ହୋଇଥିଲା?",
+"options": [
+"ଚୋଡ଼ଗଙ୍ଗ ଦେବ",
+"ଲାଙ୍ଗୁଳା ନରସିଂହ ଦେବ",
+"ଅନଙ୍ଗଭୀମ ଦେବ",
+"ପ୍ରତାପରୁଦ୍ର ଦେବ"
+],
+"answer": "ଲାଙ୍ଗୁଳା ନରସିଂହ ଦେବ",
+"explanation": "ତ୍ରୟୋଦଶ ଶତାବ୍ଦୀରେ ଗଙ୍ଗ ବଂଶର ରାଜା ପ୍ରଥମ ନରସିଂହ ଦେବ (ଲାଙ୍ଗୁଳା ନରସିଂହ ଦେବ) କୋଣାର୍କର ସୂର୍ଯ୍ୟ ମନ୍ଦିର ନିର୍ମାଣ କରିଥିଲେ ।"
+},
+{
+"questionEnglish": "Which city of Odisha is known as the 'Silver City' due to its famous silver filigree (Tarakasi) work?",
+"questionOdia": "ଏହାର ପ୍ରସିଦ୍ଧ ରୁପା ତାରକସି କାମ ପାଇଁ ଓଡ଼ିଶାର କେଉଁ ସହରକୁ 'ସିଲଭର ସିଟି' ବା ରୁପା ସହର କୁହାଯାଏ?",
+"options": [
+"ଭୁବନେଶ୍ୱର",
+"କଟକ",
+"ବ୍ରହ୍ମପୁର",
+"ସମ୍ବଲପୁର"
+],
+"answer": "କଟକ",
+"explanation": "କଟକ ସହର ଏହାର ସୂକ୍ଷ୍ମ ଏବଂ ପାରମ୍ପରିକ ରୁପା ତାରକସି ଶିଳ୍ପ ପାଇଁ ସାରା ବିଶ୍ୱରେ ସିଲଭର ସିଟି ଭାବେ ଜଣାଶୁଣା ।"
+},
+{
+"questionEnglish": "On which date is 'Utkala Diwasa' celebrated every year to commemorate the formation of Odisha as a separate state?",
+"questionOdia": "ଓଡ଼ିଶା ଏକ ସ୍ୱତନ୍ତ୍ର ପ୍ରଦେଶ ଭାବେ ଗଠନ ହେବା ସ୍ମୃତିରେ ପ୍ରତିବର୍ଷ କେଉଁ ତାରିଖକୁ 'ଉତ୍କଳ ଦିବସ' ଭାବେ ପାଳନ କରାଯାଏ?",
+"options": [
+"ଜାନୁଆରୀ ୨୬",
+"ଅପ୍ରେଲ ୧",
+"ଅଗଷ୍ଟ ୧୫",
+"ଅକ୍ଟୋବର ୨"
+],
+"answer": "ଅପ୍ରେଲ ୧",
+"explanation": "୧୯୩୬ ମସିହା ଅପ୍ରେଲ ୧ ତାରିଖରେ ଓଡ଼ିଶା ଭାଷା ଭିତ୍ତିରେ ଏକ ସ୍ୱତନ୍ତ୍ର ରାଜ୍ୟ ଭାବେ ଗଠିତ ହୋଇଥିବାରୁ ଏହି ଦିନକୁ ଉତ୍କଳ ଦିବସ କୁହାଯାଏ ।"
+},
+{
+"questionEnglish": "Which dance form of Odisha is recognized as one of the major classical dances of India?",
+"questionOdia": "ଓଡ଼ିଶାର କେଉଁ ନୃତ୍ୟ ଶୈଳୀକୁ ଭାରତର ଅନ୍ୟତମ ପ୍ରଧାନ ଶାସ୍ତ୍ରୀୟ ନୃତ୍ୟ ଭାବେ ସ୍ୱୀକୃତି ମିଳିଛି?",
+"options": [
+"ଛଉ ନୃତ୍ୟ",
+"ଓଡ଼ିଶୀ ନୃତ୍ୟ",
+"ସମ୍ବଲପୁରୀ ନୃତ୍ୟ",
+"ଘୁମୁରା ନୃତ୍ୟ"
+],
+"answer": "ଓଡ଼ିଶୀ ନୃତ୍ୟ",
+"explanation": "ଓଡ଼ିଶୀ ହେଉଛି ଓଡ଼ିଶାର ପ୍ରସିଦ୍ଧ ପାରମ୍ପରିକ ନୃତ୍ୟ ଯାହାକୁ ଭାରତ ସରକାର ଶାସ୍ତ୍ରୀୟ ନୃତ୍ୟର ମାନ୍ୟତା ଦେଇଛନ୍ତି ।"
+},
+{
+"questionEnglish": "The Hirakud Dam, one of the longest earthen dams in the world, is built across which river in Odisha?",
+"questionOdia": "ବିଶ୍ୱର ଅନ୍ୟତମ ଦୀର୍ଘତମ ମାଟି ବନ୍ଧ ଭାବେ ଜଣାଶୁଣା ହୀରାକୁଦ ବନ୍ଧ ଓଡ଼ିଶାର କେଉଁ ନଦୀ ଉପରେ ନିର୍ମିତ ହୋଇଛି?",
+"options": [
+"ବ୍ରାହ୍ମଣୀ",
+"ବୈତରଣୀ",
+"ମହାନଦୀ",
+"ସୁବର୍ଣ୍ଣରେଖା"
+],
+"answer": "ମହାନଦୀ",
+"explanation": "ସମ୍ବଲପୁର ଜିଲ୍ଲାରେ ମହାନଦୀ ଉପରେ ହୀରାକୁଦ ବନ୍ଧ ନିର୍ମାଣ କରାଯାଇଛି, ଯାହା ବନ୍ୟା ନିୟନ୍ତ୍ରଣ ଏବଂ ବିଦ୍ୟୁତ ଉତ୍ପାଦନରେ ସାହାଯ୍ୟ କରେ ।"
+},
+{
+"questionEnglish": "Who wrote the famous patriotic poem 'Bande Utkala Janani', which is the official state song of Odisha?",
+"questionOdia": "ଓଡ଼ିଶାର ରାଜ୍ୟ ସଙ୍ଗୀତ 'ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ'ର ରଚୟିତା କିଏ?",
+"options": [
+"ରାଧାନାଥ ରାୟ",
+"କାନ୍ତକବି ଲକ୍ଷ୍ମୀକାନ୍ତ ମହାପାତ୍ର",
+"ମଧୁସୂଦନ ରାଓ",
+"ଫକୀର ମୋହନ ସେନାପତି"
+],
+"answer": "କାନ୍ତକବି ଲକ୍ଷ୍ମୀକାନ୍ତ ମହାପାତ୍ର",
+"explanation": "କାନ୍ତକବି ଲକ୍ଷ୍ମୀକାନ୍ତ ମହାପାତ୍ରଙ୍କ ଦ୍ୱାରା ରଚିତ 'ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ' ଗୀତକୁ ଓଡ଼ିଶା ସରକାର ଆନୁଷ୍ଠାନିକ ଭାବେ ରାଜ୍ୟ ସଙ୍ଗୀତ ମାନ୍ୟତା ଦେଇଛନ୍ତି ।"
+},
+{
+"questionEnglish": "Which district is the largest by total land area in the state of Odisha?",
+"questionOdia": "ଭୌଗୋଳିକ କ୍ଷେତ୍ରଫଳ ଦୃଷ୍ଟିରୁ ଓଡ଼ିଶାର ସବୁଠାରୁ ବଡ଼ ଜିଲ୍ଲା କେଉଁଟି?",
+"options": [
+"ମୟୂରଭଞ୍ଜ",
+"ଗଞ୍ଜାମ",
+"ସୁନ୍ଦରଗଡ଼",
+"କୋରାପୁଟ"
+],
+"answer": "ମୟୂରଭଞ୍ଜ",
+"explanation": "ଓଡ଼ିଶାର ୩୦ଟି ଜିଲ୍ଲା ମଧ୍ୟରୁ ମୟୂରଭଞ୍ଜ ଜିଲ୍ଲାର କ୍ଷେତ୍ରଫଳ ସବୁଠାରୁ ଅଧିକ ଅଟେ ।"
+},
+{
+"questionEnglish": "Which district of Odisha has the highest population according to the latest census records?",
+"questionOdia": "ଜନସଂଖ୍ୟା ଦୃଷ୍ଟିରୁ ଓଡ଼ିଶାର ସବୁଠାରୁ ବଡ଼ ବା ସର୍ବାଧିକ ଜନସଂଖ୍ୟା ବିଶିଷ୍ଟ ଜିଲ୍ଲା କେଉଁଟି?",
+"options": [
+"ଖୋର୍ଦ୍ଧା",
+"ଗଞ୍ଜାମ",
+"କଟକ",
+"ବାଲେଶ୍ୱର"
+],
+"answer": "ଗଞ୍ଜାମ",
+"explanation": "ଓଡ଼ିଶାର ସମସ୍ତ ଜିଲ୍ଲା ମଧ୍ୟରେ ଗଞ୍ଜାମ ଜିଲ୍ଲାରେ ସର୍ବାଧିକ ଲୋକ ବାସ କରନ୍ତି ।"
+},
+{
+"questionEnglish": "Who is considered the father of modern Odia literature and wrote the famous novel 'Chha Mana Atha Guntha'?",
+"questionOdia": "କାହାକୁ ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ଜନକ କୁହାଯାଏ ଏବଂ ସିଏ ପ୍ରସିଦ୍ଧ ଉପନ୍ୟାସ 'ଛମାଣ ଆଠଗୁଣ୍ଠ' ରଚନା କରିଥିଲେ?",
+"options": [
+"ଗୋପୀନାଥ ମହାନ୍ତି",
+"ଫକୀର ମୋହନ ସେନାପତି",
+"ସାଚି ରାଉତରାୟ",
+"ସୁରେନ୍ଦ୍ର ମହାନ୍ତି"
+],
+"answer": "ଫକୀର ମୋହନ ସେନାପତି",
+"explanation": "ବ୍ୟାସକବି ଫକୀର ମୋହନ ସେନାପତିଙ୍କୁ ଆଧୁନିକ ଓଡ଼ିଆ କଥା ସାହିତ୍ୟର ଜନକ କୁହାଯାଏ, ଯିଏ ସାମାଜିକ ବ୍ୟବସ୍ଥା ଉପରେ 'ଛମାଣ ଆଠଗୁଣ୍ଠ' ଲେଖିଥିଲେ ।"
+},
+{
+"questionEnglish": "Which ancient port of Odisha was a major center for maritime trade with Southeast Asian countries like Java and Bali?",
+"questionOdia": "ଦକ୍ଷିଣ-ପୂର୍ବ ଏସିଆର ଜାଭା, ବାଲି ଆଦି ଦ୍ୱୀପ ସହିତ ସାମୁଦ୍ରିକ ବାଣିଜ୍ୟ ପାଇଁ ଓଡ଼ିଶାର କେଉଁ ପ୍ରାଚୀନ ବନ୍ଦର ପ୍ରସିଦ୍ଧ ଥିଲା?",
+"options": [
+"ପାରାଦୀପ",
+"ଗୋପାଳପୁର",
+"ତାମ୍ରଲିପ୍ତ / ପାଲୁର",
+"ଧାମରା"
+],
+"answer": "ତାମ୍ରଲିପ୍ତ / ପାଲୁର",
+"explanation": "ପ୍ରାଚୀନ କାଳରେ କଳିଙ୍ଗର ସାଧବପୁଅମାନେ ପାଲୁର ଓ ତାମ୍ରଲିପ୍ତ ଭଳି ପ୍ରାଚୀନ ବନ୍ଦରରୁ ବୋଇତ ନେଇ ଦୂର ଦେଶକୁ ବାଣିଜ୍ୟ କରିବାକୁ ଯାଉଥିଲେ ।"
+},
+{
+"questionEnglish": "Which hot spring in Odisha, located in the Khordha district, is famous for its medicinal sulfur-rich water?",
+"questionOdia": "ଖୋର୍ଦ୍ଧା ଜିଲ୍ଲାରେ ଅବସ୍ଥିତ ଓଡ଼ିଶାର କେଉଁ ପ୍ରସିଦ୍ଧ ଉଷ୍ଣପ୍ରସ୍ରବଣର ଜଳରେ ଗନ୍ଧକ ଥିବାରୁ ଏହା ଚର୍ମରୋଗ ଭଲ କରିବା ପାଇଁ ଜଣାଶୁଣା?",
+"options": [
+"ତପ୍ତପାଣି",
+"ଅତ୍ରି",
+"ତରବଲୋ",
+"ଦେଉଳଝରି"
+],
+"answer": "ଅତ୍ରି",
+"explanation": "ଖୋର୍ଦ୍ଧା ଜିଲ୍ଲାର ବାଘମାରୀ ନିକଟସ୍ଥ ଅତ୍ରି ଉଷ୍ଣପ୍ରସ୍ରବଣ ଏହାର ସଲଫର ବା ଗନ୍ଧକଯୁକ୍ତ ଗରମ ପାଣି କୁଣ୍ଡ ପାଇଁ ପ୍ରସିଦ୍ଧ ।"
+},
+{
+"questionEnglish": "Who was the legendary ruler of the Mahameghavahana dynasty who left behind the famous Hatigumpha inscription at Udayagiri?",
+"questionOdia": "ଉଦୟଗିରିଠାରେ ପ୍ରସିଦ୍ଧ ହାତୀଗୁମ୍ଫା ଶିଳାଲେଖ ଛାଡ଼ି ଯାଇଥିବା ମହାମେଘବାହନ ବଂଶର ପରାକ୍ରମୀ ରାଜା କିଏ ଥିଲେ?",
+"options": [
+"ସମ୍ରାଟ ଅଶୋକ",
+"ସମ୍ରାଟ ଖାରବେଳ",
+"ମୁକୁନ୍ଦ ଦେବ",
+"କପିଳେନ୍ଦ୍ର ଦେବ"
+],
+"answer": "ସମ୍ରାଟ ଖାରବେଳ",
+"explanation": "କଳିଙ୍ଗର ସମ୍ରାଟ ଖାରବେଳ ଜଣେ ମହାନ ଶାସକ ଥିଲେ ଏବଂ ଭୁବନେଶ୍ୱରର ଉଦୟଗିରିରେ ଥିବା ହାତୀଗୁମ୍ଫା ଅଭିଲେଖରୁ ତାଙ୍କ ବିଷୟରେ ଜଣାପଡ଼େ ।"
+},
+{
+"questionEnglish": "Which animal is the designated state animal of Odisha?",
+"questionOdia": "କେଉଁ ପଶୁକୁ ଓଡ଼ିଶାର ରାଜ୍ୟ ପଶୁ ଭାବେ ମାନ୍ୟତା ଦିଆଯାଇଛି?",
+"options": [
+"ରୟାଲ ବେଙ୍ଗଲ ଟାଇଗର",
+"ସମ୍ବର ହରିଣ",
+"ଏସୀୟ ହାତୀ",
+"ଭାରତୀୟ ଗଣ୍ଡା"
+],
+"answer": "ସମ୍ବର ହରିଣ",
+"explanation": "ସମ୍ବର ହରିଣ (Sambar Deer) ହେଉଛି ଓଡ଼ିଶାର ସରକାରୀ ଭାବେ ସ୍ୱୀକୃତ ରାଜ୍ୟ ପଶୁ ।"
+},
+{
+"questionEnglish": "Which beach in Odisha is highly crucial as the world's largest nesting ground for Olive Ridley sea turtles?",
+"questionOdia": "ଓଡ଼ିଶାର କେଉଁ ବେଳାଭୂମି ଅଲିଭ୍ ରିଡ୍‌ଲେ ସାମୁଦ୍ରିକ କାଉଁଶିଆ କଇଁଛମାନଙ୍କର ପୃଥିବୀର ସବୁଠାରୁ ବଡ଼ ଅଣ୍ଡାଦାନ ସ୍ଥଳୀ ଭାବେ ଜଣାଶୁଣା?",
+"options": [
+"ପୁରୀ ବେଳାଭୂମି",
+"ଗହୀରମଥା ବେଳାଭୂମି",
+"ଗୋପାଳପୁର ବେଳାଭୂମି",
+"ଚାନ୍ଦିପୁର ବେଳାଭୂମି"
+],
+"answer": "ଗହୀରମଥା ବେଳାଭୂମି",
+"explanation": "କେନ୍ଦ୍ରାପଡ଼ା ଜିଲ୍ଲାର ପ୍ରସିଦ୍ଧ ଗହୀରମଥା ସାମୁଦ୍ରିକ ଅଭୟାରଣ୍ୟ ବେଳାଭୂମିକୁ ପ୍ରତିବର୍ଷ ଲକ୍ଷ ଲକ୍ଷ ଅଲିଭ୍ ରିଡ୍‌ଲେ କଇଁଛ ଅଣ୍ଡା ଦେବାକୁ ଆସନ୍ତି ।"
+},
+{
+"questionEnglish": "Who was the first Odia writer to receive the prestigious Jnanpith Award for literature?",
+"questionOdia": "ସାହିତ୍ୟ ପାଇଁ ସର୍ବୋଚ୍ଚ ସମ୍ମାନଜନକ ଜ୍ଞାନପୀଠ ପୁରସ୍କାର ପାଇଥିବା ପ୍ରଥମ ଓଡ଼ିଆ ଲେଖକ କିଏ?",
+"options": [
+"ସଚ୍ଚିଦାନନ୍ଦ ରାଉତରାୟ",
+"ଗୋପୀନାଥ ମହାନ୍ତି",
+"ସୀତାକାନ୍ତ ମହାପାତ୍ର",
+"ପ୍ରତିଭା ରାୟ"
+],
+"answer": "ଗୋପୀନାଥ ମହାନ୍ତି",
+"explanation": "୧୯୭୩ ମସିହାରେ ତାଙ୍କର ପ୍ରସିଦ୍ଧ ଉପନ୍ୟାସ 'ମାଟିମଟାଳ' ପାଇଁ ଗୋପୀନାଥ ମହାନ୍ତି ପ୍ରଥମ ଓଡ଼ିଆ ଭାବେ ଜ୍ଞାନପୀଠ ପୁରସ୍କାର ପାଇଥିଲେ ।"
+},
+{
+"questionEnglish": "Which temple in Bhubaneswar is the largest and considered a masterpiece of Kalinga architecture?",
+"questionOdia": "ଭୁବନେଶ୍ୱରରେ ଅବସ୍ଥିତ କେଉଁ ମନ୍ଦିର ସବୁଠାରୁ ବଡ଼ ଏବଂ କଳିଙ୍ଗ ସ୍ଥାପତ୍ୟ କଳାର ଏକ ଶ୍ରେଷ୍ଠ ନିଦର୍ଶନ ଅଟେ?",
+"options": [
+"ମୁକ୍ତେଶ୍ୱର ମନ୍ଦିର",
+"ରାଜାରାଣୀ ମନ୍ଦିର",
+"ଲିଙ୍ଗରାଜ ମନ୍ଦିର",
+"ଅନନ୍ତ ବାସୁଦେବ ମନ୍ଦିର"
+],
+"answer": "ଲିଙ୍ଗରାଜ ମନ୍ଦିର",
+"explanation": "ଏକାମ୍ର କ୍ଷେତ୍ର ଭୁବନେଶ୍ୱରର ପ୍ରଭୁ ଲିଙ୍ଗରାଜ ମନ୍ଦିର ହେଉଛି ସେଠାକାର ସବୁଠାରୁ ଉଚ୍ଚ ଏବଂ ବୃହତ୍ତମ ମନ୍ଦିର ।"
+},
+{
+"questionEnglish": "The unique sea phenomenon where the water recedes up to 5 kilometers during low tide happens at which beach in Odisha?",
+"questionOdia": "ଭଟ୍ଟା ସମୟରେ ସମୁଦ୍ର ପାଣି ପ୍ରାୟ ୫ କିଲୋମିଟର ପଛକୁ ଚାଲିଯାଉଥିବା ପ୍ରାକୃତିକ ଦୃଶ୍ୟ ଓଡ଼ିଶାର କେଉଁ ଅଦ୍ଭୁତ ବେଳାଭୂମିରେ ଦେଖିବାକୁ ମିଳେ?",
+"options": [
+"ଗୋପାଳପୁର",
+"ଚାନ୍ଦିପୁର",
+"ପୁରୀ",
+"ପାରାଦୀପ"
+],
+"answer": "ଚାନ୍ଦିପୁର",
+"explanation": "ବାଲେଶ୍ୱର ଜିଲ୍ଲାର ଚାନ୍ଦିପୁର ବେଳାଭୂମି ଏକ ଅଦ୍ଭୁତ ଲୁଚକାଳି ଖେଳୁଥିବା ସମୁଦ୍ର ପାଇଁ ପ୍ରସିଦ୍ଧ, ଯେଉଁଠି ପାଣି ଜୁଆର-ଭଟ୍ଟା ସମୟରେ ବହୁ ଦୂରକୁ ଯାଏ ଓ ଆସେ ।"
+},
+{
+"questionEnglish": "Which tribe is the largest tribal community in Odisha based on population size?",
+"questionOdia": "ଜନସଂଖ୍ୟା ଭିତ୍ତିରେ ଓଡ଼ିଶାର ସବୁଠାରୁ ବଡ଼ ଆଦିବାସୀ ସମ୍ପ୍ରଦାୟ ବା ଜନଜାତି କେଉଁଟି?",
+"options": [
+"ସନ୍ତାଳ",
+"କନ୍ଧ",
+"ମୁଣ୍ଡା",
+"ଜୁଆଙ୍ଗ"
+],
+"answer": "କନ୍ଧ",
+"explanation": "ଓଡ଼ିଶାରେ ବାସ କରୁଥିବା ଅନେକ ଆଦିବାସୀ ସମ୍ପ୍ରଦାୟ ମଧ୍ୟରୁ କନ୍ଧ (Khond) ଜନଜାତିର ସଂଖ୍ୟା ସବୁଠାରୁ ଅଧିକ ।"
+},
+{
+"questionEnglish": "Who established the Gajapati Dynasty in Odisha during the 15th century?",
+"questionOdia": "୧୫ଶ ଶତାବ୍ଦୀରେ ଓଡ଼ିଶାରେ ସୂର୍ଯ୍ୟବଂଶୀ ଗଜପତି ରାଜବଂଶର ପ୍ରତିଷ୍ଠା କିଏ କରିଥିଲେ?",
+"options": [
+"ପ୍ରତାପରୁଦ୍ର ଦେବ",
+"କପିଳେନ୍ଦ୍ର ଦେବ",
+"ପୁରୁଷୋତ୍ତମ ଦେବ",
+"କଳାପାହାଡ଼"
+],
+"answer": "କପିଳେନ୍ଦ୍ର ଦେବ",
+"explanation": "୧୪୩୫ ଖ୍ରୀଷ୍ଟାବ୍ଦରେ କପିଳେନ୍ଦ୍ର ଦେବ ଗଜପତି ବଂଶ ପ୍ରତିଷ୍ଠା କରି କଳିଙ୍ଗ ସାମ୍ରାଜ୍ୟର ସୀମା ବହୁ ଦୂର ପର୍ଯ୍ୟନ୍ତ ବିସ୍ତାର କରିଥିଲେ ।"
+},
+{
+"questionEnglish": "Which multi-headed rocket system was successfully developed by DRDO and tested frequently from Chandipur, Odisha?",
+"questionOdia": "ଡି.ଆର.ଡି.ଓ ଦ୍ୱାରା ପ୍ରସ୍ତୁତ କେଉଁ ମଲ୍ଟି-ବାରେଲ୍ ରକେଟ୍ ପ୍ରଣାଳୀର ସଫଳ ପରୀକ୍ଷଣ ଓଡ଼ିଶାର ଚାନ୍ଦିପୁର କ୍ଷେପଣାସ୍ତ୍ର ଘାଟିରୁ ବାରମ୍ବାର କରାଯାଇଥାଏ?",
+"options": [
+"ପୃଥ୍ୱୀ",
+"ପିନାକ",
+"ଅଗ୍ନି",
+"ବ୍ରହ୍ମୋସ"
+],
+"answer": "ପିନାକ",
+"explanation": "ପିନାକ (Pinaka) ହେଉଛି ଭାରତର ଏକ ସ୍ୱଦେଶୀ ମଲ୍ଟି-ବାରେଲ୍ ରକେଟ୍ ଲଞ୍ଚର ସିଷ୍ଟମ୍ ଯାହା ଓଡ଼ିଶାର ସମୁଦ୍ର ଉପକୂଳରୁ ପରୀକ୍ଷଣ କରାଯାଏ ।"
+},
+{
+"questionEnglish": "Which place in Odisha is called the 'Tulasi Khetra' due to its association with Lord Baladevjew?",
+"questionOdia": "ପ୍ରଭୁ ବଳଦେବଜିଉଙ୍କ ମନ୍ଦିର ପାଇଁ ଓଡ଼ିଶାର କେଉଁ ସ୍ଥାନକୁ 'ତୁଳସୀ କ୍ଷେତ୍ର' ବୋଲି କୁହାଯାଏ?",
+"options": [
+"ପୁରୀ",
+"କେନ୍ଦ୍ରାପଡ଼ା",
+"ଯାଜପୁର",
+"କୋଣାର୍କ"
+],
+"answer": "କେନ୍ଦ୍ରାପଡ଼ା",
+"explanation": "ଓଡ଼ିଶାର ଧାର୍ମିକ ପରମ୍ପରାରେ କେନ୍ଦ୍ରାପଡ଼ାକୁ ପ୍ରଭୁ ବଳଭଦ୍ରଙ୍କ ବାସସ୍ଥାନ ଯୋଗୁଁ ତୁଳସୀ କ୍ଷେତ୍ର କୁହାଯାଏ ।"
+},
+{
+"questionEnglish": "What is the official state bird of Odisha?",
+"questionOdia": "ଓଡ଼ିଶାର ସରକାରୀ ରାଜ୍ୟ ପକ୍ଷୀ କିଏ?",
+"options": [
+"ମୟୂର",
+"ଭାଦଭାଦଳିଆ (ଇଣ୍ଡିଆନ୍ ରୋଲର୍)",
+"ଘରଚଟିଆ",
+"କୋଇଲି"
+],
+"answer": "ଭାଦଭାଦଳିଆ (ଇଣ୍ଡିଆନ୍ ରୋଲର୍)",
+"explanation": "ଭାଦଭାଦଳିଆ ପକ୍ଷୀ ଯାହାକୁ ଇଂରାଜୀରେ Indian Roller କୁହାଯାଏ, ତାହା ଓଡ଼ିଶାର ରାଜ୍ୟ ପକ୍ଷୀ ଅଟେ ।"
+},
+{
+"questionEnglish": "Which historic movement led by the Paikas of Khordha against the British East India Company occurred in 1817?",
+"questionOdia": "୧୮୧୭ ମସିହାରେ ବ୍ରିଟିଶ୍ ଇଷ୍ଟ ଇଣ୍ଡିଆ କମ୍ପାନୀ ବିରୁଦ୍ଧରେ ଖୋର୍ଦ୍ଧାର ପାଇକମାନଙ୍କ ଦ୍ୱାରା ହୋଇଥିବା ଐତିହାସିକ ବିଦ୍ରୋହର ନାମ କଣ?",
+"options": [
+"ସନ୍ଥାଳ ବିଦ୍ରୋହ",
+"ପାଇକ ବିଦ୍ରୋହ",
+"ସିପାହୀ ବିଦ୍ରୋହ",
+"ଲକ୍ଷ୍ମଣ ନାୟକ ବିଦ୍ରୋହ"
+],
+"answer": "ପାଇକ ବିଦ୍ରୋହ",
+"explanation": "୧٨୧୭ ମସିହାରେ ବକ୍ସି ଜଗବନ୍ଧୁଙ୍କ ନେତୃତ୍ୱରେ ବ୍ରିଟିଶ ସରକାରଙ୍କ ବିରୋଧରେ ସଶସ୍ତ୍ର ପାଇକ ବିଦ୍ରୋହ ସଂଗଠିତ ହୋଇଥିଲା ।"
+},
+{
+"questionEnglish": "Which district is famous for its handloom product called the 'Sambalpuri Saree' and holds an international reputation?",
+"questionOdia": "ହସ୍ତତନ୍ତ ବସ୍ତ୍ର 'ସମ୍ବଲପୁରୀ ଶାଢ଼ୀ' ପାଇଁ କେଉଁ ଅଞ୍ଚଳ ବିଶ୍ୱପ୍ରସିଦ୍ଧ ଏବଂ ଏହାର ବାନ୍ଧକଳା ପାଇଁ ଜଣାଶୁଣା?",
+"options": [
+"ବରଗଡ଼ ଏବଂ ସମ୍ବଲପୁର",
+"କଟକ ଏବଂ ଭଦ୍ରକ",
+"ଗଞ୍ଜାମ ଏବଂ ପୁରୀ",
+"କୋରାପୁଟ ଏବଂ ବଲାଙ୍ଗୀର"
+],
+"answer": "ବରଗଡ଼ ଏବଂ ସମ୍ବଲପୁର",
+"explanation": "ପଶ୍ଚିମ ଓଡ଼ିଶାର ବରଗଡ଼ ଓ ସମ୍ବଲପୁର ଅଞ୍ଚଳ ଏହାର ପାରମ୍ପରିକ ଇକାତ ବା ବାନ୍ଧ ସମ୍ବଲପୁରୀ ଶାଢ଼ୀ ପାଇଁ ପ୍ରସିଦ୍ଧ ।"
+},
+{
+"questionEnglish": "Who is recognized as the first martyr of the freedom struggle in Odisha, hanged by the British in 1806?",
+"questionOdia": "୧୮୦୬ ମସିହାରେ ବ୍ରିଟିଶମାନଙ୍କ ଦ୍ୱାରା ଫାଶୀ ପାଇଥିବା ଓଡ଼ିଶାର ପ୍ରଥମ ସ୍ୱାଧୀନତା ସଂଗ୍ରାମୀ ଶହୀଦ କିଏ ଥିଲେ?",
+"options": [
+"ବୀର ସୁରେନ୍ଦ୍ର ସାଏ",
+"ଜୟୀ ରାଜଗୁରୁ",
+"ଲକ୍ଷ୍ମଣ ନାୟକ",
+"ବାଜି ରାଉତ"
+],
+"answer": "ଜୟୀ ରାଜଗୁରୁ",
+"explanation": "ଖୋର୍ଦ୍ଧା ରାଜାଙ୍କ ମନ୍ତ୍ରୀ ଜୟକୃଷ୍ଣ ରାଜଗୁରୁ (ଜୟୀ ରାଜଗୁରୁ) ବ୍ରିଟିଶଙ୍କ ବିରୋଧରେ ଲଢ଼ି ପ୍ରଥମେ ଶହୀଦ ହୋଇଥିଲେ ।"
+},
+{
+"questionEnglish": "Which island in Odisha houses the missile testing facility and was renamed after Dr. APJ Abdul Kalam?",
+"questionOdia": "ଓଡ଼ିଶାର କେଉଁ ଦ୍ୱୀପରେ କ୍ଷେପଣାସ୍ତ୍ର ପରୀକ୍ଷଣ କେନ୍ଦ୍ର ରହିଛି ଏବଂ ଏହାର ନାମ ଡଃ ଏ.ପି.ଜେ. ଅବଦୁଲ କଲାମଙ୍କ ନାମରେ ନାମିତ କରାଯାଇଛି?",
+"options": [
+"ହୁଇଲର ଦ୍ୱୀପ",
+"ପାରାଦୀପ ଦ୍ୱୀପ",
+"ନାଳବଣ ଦ୍ୱୀପ",
+"ଅବଦୁଲ ଦ୍ୱୀପ"
+],
+"answer": "ହୁଇଲର ଦ୍ୱୀପ",
+"explanation": "ଭଦ୍ରକ ଉପକୂଳରେ ଥିବା ପୂର୍ବତନ ହୁଇଲର ଦ୍ୱୀପକୁ ସମ୍ମାନସ୍ୱରୂପ ଡଃ ଏପିଜେ ଅବଦୁଲ କଲାମ ଦ୍ୱୀପ ନାମରେ ନାମିତ କରାଯାଇଛି ।"
+},
+{
+"questionEnglish": "Which poet is known as 'Adikabi' for composing the epic Mahabharata in the Odia language?",
+"questionOdia": "ଓଡ଼ିଆ ଭାଷାରେ ମହାନ ଗ୍ରନ୍ଥ ମହାଭାରତ ରଚନା କରିଥିବାରୁ କେଉଁ କବିଙ୍କୁ 'ଆଦିକବି' ବୋଲି କୁହାଯାଏ?",
+"options": [
+"ଜଗନ୍ନାଥ ଦାସ",
+"ସାରଳା ଦାସ",
+"ଉପେନ୍ଦ୍ର ଭଞ୍ଜ",
+"ବଳରାମ ଦାସ"
+],
+"answer": "ସାରଳା ଦାସ",
+"explanation": "୧୫ଶ ଶତାବ୍ଦୀର କବି ସାରଳା ଦାସ ଓଡ଼ିଆ ମହାଭାରତ ଲେଖି ଓଡ଼ିଆ ସାହିତ୍ୟର ମୂଳଦୁଆ ପକାଇଥିବାରୁ ତାଙ୍କୁ ଆଦିକବି କୁହାଯାଏ ।"
+},
+{
+"questionEnglish": "Which waterfall in Odisha, formed by the Machkund River, is one of the highest waterfalls in India?",
+"questionOdia": "ମାଛକୁଣ୍ଡ ନଦୀ ଦ୍ୱାରା ସୃଷ୍ଟି ହୋଇଥିବା ଓଡ଼ିଶାର କେଉଁ ପ୍ରସିଦ୍ଧ ଜଳପ୍ରପାତ ଭାରତର ଅନ୍ୟତମ ଉଚ୍ଚ ଜଳପ୍ରପାତ ଅଟେ?",
+"options": [
+"ବରେହିପାଣି",
+"ଖଣ୍ଡାଧାର",
+"ଡୁଡୁମା ଜଳପ୍ରପାତ",
+"ହରିଶଙ୍କର"
+],
+"answer": "ଡୁଡୁମା ଜଳପ୍ରପାତ",
+"explanation": "କୋରାପୁଟ ଜିଲ୍ଲାରେ ଅବସ୍ଥିତ ପ୍ରସିଦ୍ଧ ଡୁଡୁମା ଜଳପ୍ରପାତ ମାଛକୁଣ୍ଡ ନଦୀ ଉପରେ ସୃଷ୍ଟି ହୋଇଛି ଏବଂ ଏଠାରେ ଜଳବିଦ୍ୟୁତ ପ୍ରକଳ୍ପ ମଧ୍ୟ ଅଛି ।"
+},
+{
+"questionEnglish": "Who is known as the 'Grand Old Man of Odisha' and worked tirelessly for the unification of Odia-speaking tracts?",
+"questionOdia": "ଓଡ଼ିଶାର ଏକତ୍ରୀକରଣ ପାଇଁ ଅକ୍ଲାନ୍ତ ପରିଶ୍ରମ କରିଥିବା କେଉଁ ବ୍ୟକ୍ତିଙ୍କୁ 'ଉତ୍କଳ ଗୌରବ' ବା 'ଗ୍ରାଣ୍ଡ ଓଲ୍ଡ ମ୍ୟାନ୍ ଅଫ୍ ଓଡ଼ିଶା' କୁହାଯାଏ?",
+"options": [
+"ଗୋପବନ୍ଧୁ ଦାସ",
+"ମଧୁସୂଦନ ଦାସ",
+"କୃଷ୍ଣଚନ୍ଦ୍ର ଗଜପତି",
+"ରାଧାନାଥ ରାୟ"
+],
+"answer": "ମଧୁସୂଦନ ଦାସ",
+"explanation": "ଉତ୍କଳ ଗୌରବ ମଧୁସୂଦନ ଦାସ ଓଡ଼ିଶାର ପ୍ରଥମ ବାରିଷ୍ଟର ଥିଲେ ଏବଂ ସ୍ୱତନ୍ତ୍ର ଓଡ଼ିଶା ପ୍ରଦେଶ ଗଠନର ମୁଖ୍ୟ ସୂତ୍ରଧର ଥିଲେ ।"
+},
+{
+"questionEnglish": "Which sanctuary in Odisha is specially designated for the protection of elephants near Bhubaneswar?",
+"questionOdia": "ଭୁବନେଶ୍ୱର ନିକଟରେ ଅବସ୍ଥିତ କେଉଁ ଅଭୟାରଣ୍ୟଟି ମୁଖ୍ୟତଃ ହାତୀମାନଙ୍କ ସଂରକ୍ଷଣ ପାଇଁ ଉଦ୍ଦିଷ୍ଟ?",
+"options": [
+"ଶିମିଳିପାଳ",
+"ଚନ୍ଦକା-ଡମ୍ପଡ଼ା ହାତୀ ଅଭୟାରଣ୍ୟ",
+"ଭିତରକନିକା",
+"ସାତକୋଶିଆ ଗଣ୍ଡ"
+],
+"answer": "ଚନ୍ଦକା-ଡମ୍ପଡ଼ା ହାତୀ ଅଭୟାରଣ୍ୟ",
+"explanation": "ଚନ୍ଦକା ଅରଣ୍ୟ ହାତୀମାନଙ୍କର ପ୍ରାକୃତିକ ବାସସ୍ଥାନ ଏବଂ ଏହାକୁ ଏକ ସ୍ୱତନ୍ତ୍ର ହାତୀ ଅଭୟାରଣ୍ୟ ଭାବେ ଘୋଷଣା କରାଯାଇଛି ।"
+},
+{
+"questionEnglish": "In which city of Odisha is the central rice research institute (NRRI) located?",
+"questionOdia": "ଓଡ଼ିଶାର କେଉଁ ସହରରେ ଜାତୀୟ ଧାନ ଗବେଷଣା ପ୍ରତିଷ୍ଠାନ (NRRI) ଅବସ୍ଥିତ?",
+"options": [
+"ଭୁବନେଶ୍ୱର",
+"ସମ୍ବଲପୁର",
+"କଟକ",
+"ବ୍ରହ୍ମପୁର"
+],
+"answer": "କଟକ",
+"explanation": "କଟକର ବିଦ୍ୟାଧରପୁରଠାରେ ଜାତୀୟ ଧାନ ଗବେଷଣା ପ୍ରତିଷ୍ଠାନ ଅବସ୍ଥିତ, ଯେଉଁଠାରେ ଧାନର ବିଭିନ୍ନ କିସମ ଉପରେ ଗବେଷଣା କରାଯାଏ ।"
+},
+{
+"questionEnglish": "Which festival in Odisha celebrates the annual journey of Lord Jagannath and his siblings to the Gundicha Temple?",
+"questionOdia": "ପ୍ରଭୁ ଜଗନ୍ନାଥ ଏବଂ ତାଙ୍କ ଭାଇଭଉଣୀଙ୍କ ଗୁଣ୍ଡିଚା ମନ୍ଦିରକୁ ବାର୍ଷିକ ଯାତ୍ରାକୁ ଓଡ଼ିଶାରେ କେଉଁ ପ୍ରସିଦ୍ଧ ପର୍ବ ଭାବେ ପାଳନ କରାଯାଏ?",
+"options": [
+"ଦୁର୍ଗା ପୂଜା",
+"ରଥଯାତ୍ରା",
+"ଚନ୍ଦନ ଯାତ୍ରା",
+"କୁମାର ପୂର୍ଣ୍ଣିମା"
+],
+"answer": "ରଥଯାତ୍ରା",
+"explanation": "ଆଷାଢ଼ ଶୁକ୍ଳ ଦ୍ୱିତୀୟା ତିଥିରେ ବିଶ୍ୱପ୍ରସିଦ୍ଧ ଶ୍ରୀଗୁଣ୍ଡିଚା ବା ରଥଯାତ୍ରା ଅନୁଷ୍ଠିତ ହୁଏ, ଯେଉଁଥିରେ ମହାପ୍ରଭୁ ବଡ଼ଦାଣ୍ଡକୁ ଓହ୍ଲାଇ ଆସନ୍ତି ।"
+},
+{
+"questionEnglish": "Which ruler of the Somavamsi dynasty constructed the magnificent Lingaraj Temple in the 11th century?",
+"questionOdia": "୧୧ଶ ଶତାବ୍ଦୀରେ ସୋମବଂଶର କେଉଁ ଶାସକ ଭୁବନେଶ୍ୱରର ପ୍ରସିଦ୍ଧ ଲିଙ୍ଗରାଜ ମନ୍ଦିରର ନିର୍ମାଣ କାର୍ଯ୍ୟ ଆରମ୍ଭ କରିଥିଲେ?",
+"options": [
+"ଯଯାତି କେଶରୀ",
+"ଲଲାଟେନ୍ଦୁ କେଶରୀ",
+"ଜନମେଜୟ",
+"ଉଦ୍ୟୋତ କେଶରୀ"
+],
+"answer": "ଯଯାତି କେଶରୀ",
+"explanation": "ସୋମବଂଶୀ ରାଜା ପ୍ରଥମ ଯଯାତି କେଶରୀ ମନ୍ଦିର ନିର୍ମାଣ ଆରମ୍ଭ କରିଥିଲେ ଏବଂ ପରବର୍ତ୍ତୀ ରାଜାମାନଙ୍କ ଦ୍ୱାରା ଏହା ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଥିଲା ।"
+},
+{
+"questionEnglish": "Which compilation of devotional poems by Jagannath Das is a household holy text across Odisha?",
+"questionOdia": "ଅତିବଡ଼ି ଜଗନ୍ନାଥ ଦାସଙ୍କ ଦ୍ୱାରା ରଚିତ କେଉଁ ପବିତ୍ର ଗ୍ରନ୍ଥ ଓଡ଼ିଶାର ପ୍ରତିଟି ଘରେ ଭାଗବତ ଟୁଙ୍ଗିରେ ପୂଜା ଓ ପାଠ କରାଯାଏ?",
+"options": [
+"ଓଡ଼ିଆ ରାମାୟଣ",
+"ଓଡ଼ିଆ ଭାଗବତ",
+"ଚଣ୍ଡୀ ପୁରାଣ",
+"ଲକ୍ଷ୍ମୀ ପୁରାଣ"
+],
+"answer": "ଓଡ଼ିଆ ଭାଗବତ",
+"explanation": "ଜଗନ୍ନାଥ ଦାସଙ୍କ ନବାକ୍ଷରୀ ବୃତ୍ତରେ ଲିଖିତ ଓଡ଼ିଆ ଶ୍ରୀମଦ୍ ଭାଗବତ ଓଡ଼ିଶାର ସାଂସ୍କୃତିକ ଓ ଆଧ୍ୟାତ୍ମିକ ଜୀବନର ପ୍ରଧାନ ଅଙ୍ଗ ଅଟେ ।"
+},
+{
+"questionEnglish": "Which district of Odisha has the lowest literacy rate according to statistical metrics?",
+"questionOdia": "ସାକ୍ଷରତା ହାର (Literacy Rate) ଦୃଷ୍ଟିରୁ ଓଡ଼ିଶାର କେଉଁ ଜିଲ୍ଲା ସବୁଠାରୁ ପଛରେ ଅର୍ଥାତ୍ ସର୍ବନିମ୍ନ ସ୍ତରରେ ରହିଛି?",
+"options": [
+"ନବରଙ୍ଗପୁର",
+"ମାଲକାନଗିରି",
+"ରାୟଗଡ଼ା",
+"କନ୍ଧମାଳ"
+],
+"answer": "ମାଲକାନଗିରି",
+"explanation": "ଜନଗଣନା ତଥ୍ୟ ଅନୁସାରେ ଓଡ଼ିଶାର ମାଲକାନଗିରି ଜିଲ୍ଲାରେ ସାକ୍ଷରତା ହାର ଅନ୍ୟ ସମସ୍ତ ଜିଲ୍ଲା ଅପେକ୍ଷା ସର୍ବନିମ୍ନ ଅଟେ ।"
+},
+{
+"questionEnglish": "What is the official flower designated to represent the cultural heritage of Odisha?",
+"questionOdia": "ଓଡ଼ିଶାର ରାଜ୍ୟ ସଂସ୍କୃତି ଓ ଐତିହ୍ୟକୁ ପ୍ରତିନିଧିତ୍ୱ କରୁଥିବା ରାଜ୍ୟ ଫୁଲଟିର ନାମ କଣ?",
+"options": [
+"ପଦ୍ମ",
+"ଅଶୋକ ଫୁଲ",
+"କମଳ",
+"ଟଗର"
+],
+"answer": "ଅଶୋକ ଫୁଲ",
+"explanation": "ଅଶୋକ ଫୁଲ (Ashoka Flower) କୁ ଓଡ଼ିଶା ସରକାର ସରକାରୀ ଭାବେ ରାଜ୍ୟ ଫୁଲର ସମ୍ମାନ ଦେଇଛନ୍ତି ।"
+},
+{
+"questionEnglish": "Which prominent tribal freedom fighter led a rebellion in the Koraput region and was hanged in 1943?",
+"questionOdia": "କୋରାପୁଟ ଅଞ୍ଚଳରେ ଭାରତ ଛାଡ଼ ଆନ୍ଦୋଳନ ସମୟରେ ବିଦ୍ରୋହର ନେତୃତ୍ୱ ନେଇଥିବା କେଉଁ ପ୍ରସିଦ୍ଧ ଆଦିବାସୀ ନେତାଙ୍କୁ ୧୯୪୩ ରେ ଫାଶୀ ଦିଆଯାଇଥିଲା?",
+"options": [
+"ବୀର ସୁରେନ୍ଦ୍ର ସାଏ",
+"ଲକ୍ଷ୍ମଣ ନାୟକ",
+"ବାଜି ରାଉତ",
+"ଚକରା ବିଷୋୟୀ"
+],
+"answer": "ଲକ୍ଷ୍ମଣ ନାୟକ",
+"explanation": "ଶହୀଦ ଲକ୍ଷ୍ମଣ ନାୟକ ଜଣେ ମହାନ ଦେଶପ୍ରେମୀ ଥିଲେ, ଯିଏ ବ୍ରିଟିଶ ଶାସନ ବିରୋଧରେ ଆଦିବାସୀମାନଙ୍କୁ ଏକତ୍ରିତ କରି ବଳିଦାନ ଦେଇଥିଲେ ।"
+},
+{
+"questionEnglish": "Which dynamic leader is widely remembered as the architect of modern industrial Odisha and former Chief Minister?",
+"questionOdia": "ଆଧୁନିକ ଓଡ଼ିଶାର ଶିଳ୍ପାୟନର ଜନକ ଏବଂ ପୂର୍ବତନ ସାହସୀ ମୁଖ୍ୟମନ୍ତ୍ରୀ ଭାବେ କାହାକୁ ସ୍ମରଣ କରାଯାଏ?",
+"options": [
+"ଜାନକୀ ବଲ୍ଲଭ ପଟ୍ଟନାୟକ",
+"ବିଜୁ ପଟ୍ଟନାୟକ",
+"ନବକୃଷ୍ଣ ଚୌଧୁରୀ",
+"ବିଶ୍ୱନାଥ ଦାସ"
+],
+"answer": "ବିଜୁ ପଟ୍ଟନାୟକ",
+"explanation": "ପ୍ରବାଦ ପୁରୁଷ ବିଜୁ ପଟ୍ଟନାୟକ ଓଡ଼ିଶାରେ ପାରାଦୀପ ବନ୍ଦର, ହାଲ୍ (HAL) ଭଳି ଅନେକ ବଡ଼ ପ୍ରକଳ୍ପ ପ୍ରତିଷ୍ଠା କରି ଶିଳ୍ପ ସମୃଦ୍ଧ କରିଥିଲେ ।"
+},
+{
+"questionEnglish": "Which sweet delicacy from Odisha recently received the Geographical Indication (GI) tag, solidifying its historical origin?",
+"questionOdia": "ଓଡ଼ିଶାର କେଉଁ ପାରମ୍ପରିକ ମିଠାକୁ ଏହାର ଐତିହାସିକ ଉତ୍ପତ୍ତି ପାଇଁ ଭାରତ ସରକାରଙ୍କ ଦ୍ୱାରା ଭୌଗୋଳିକ ସୂଚକାଙ୍କ (GI Tag) ପ୍ରଦାନ କରାଯାଇଛି?",
+"options": [
+"ଛେନାପୋଡ଼",
+"ଓଡ଼ିଶା ରସଗୋଲା",
+"ରସାବଳି",
+"ଛେନାଝିଲି"
+],
+"answer": "ଓଡ଼ିଶା ରସଗୋଲା",
+"explanation": "ସୁଦୀର୍ଘ ଆଇନଗତ ପ୍ରକ୍ରିୟା ପରେ 'ଓଡ଼ିଶା ରସଗୋଲା'କୁ ଶ୍ରୀମନ୍ଦିର ଜଗନ୍ନାଥ ସଂସ୍କୃତି ସହିତ ଜଡ଼ିତ ପ୍ରମାଣ ଆଧାରରେ ଜି.ଆଇ ଟ୍ୟାଗ୍ ମିଳିଛି ।"
+},
+{
+"questionEnglish": "Which steel city of Odisha was built as India's first public sector integrated steel plant with German collaboration?",
+"questionOdia": "ଜର୍ମାନୀର ସହାୟତାରେ ନିର୍ମିତ ଭାରତର ପ୍ରଥମ ସରକାରୀ ସ୍ତରର ସମନ୍ୱିତ ଇସ୍ପାତ କାରଖାନା ଓଡ଼ିଶାର କେଉଁ ସହରରେ ପ୍ରତିଷ୍ଠା ହୋଇଥିଲା?",
+"options": [
+"ଝାରସୁଗୁଡ଼ା",
+"ରାଉରକେଲା",
+"ଯାଜପୁର",
+"ଅନୁଗୋଳ"
+],
+"answer": "ରାଉରକେଲା",
+"explanation": "ସୁନ୍ଦରଗଡ଼ ଜିଲ୍ଲାର ରାଉରକେଲାଠାରେ ୧୯୫୦ ଦଶକରେ ଓଡ଼ିଶାର ସର୍ବପ୍ରଥମ ବୃହତ୍ ଇସ୍ପାତ ସହର ସ୍ଥାପନ କରାଯାଇଥିଲା ।"
+},
+{
+"questionEnglish": "Who is the youngest freedom struggle martyr of India, who refused to row British soldiers across the Brahmani River at the age of twelve?",
+"questionOdia": "ମାତ୍ର ୧୨ ବର୍ଷ ବୟସରେ ବ୍ରାହ୍ମଣୀ ନଦୀରେ ବ୍ରିଟିଶ ସୈନ୍ୟମାନଙ୍କୁ ଡଙ୍ଗା ପାରି କରିବାକୁ ମନା କରି ଶହୀଦ ହୋଇଥିବା ଭାରତର ସବୁଠାରୁ କନିଷ୍ଠ ଶହୀଦ କିଏ?",
+"options": [
+"ବାଜି ରାଉତ",
+"ଲକ୍ଷ୍ମଣ ନାୟକ",
+"ବୀର ସୁରେନ୍ଦ୍ର ସାଏ",
+"ଚକି ଖୁଣ୍ଟିଆ"
+],
+"answer": "ବାଜି ରାଉତ",
+"explanation": "ଢେଙ୍କାନାଳର ଶହୀଦ ବାଜି ରାଉତ ମାତ୍ର ବାର ବର୍ଷ ବୟସରେ ଦେଶ ପାଇଁ ନିଜ ପ୍ରାଣବଳି ଦେଇ ଅମର ଶହୀଦ ପାଲଟିଥିଲେ ।"
+},
+{
+"questionEnglish": "Which place in Jajpur district is known as the 'Biraja Khetra' and is a major Shakti Peetha of Goddess Durga?",
+"questionOdia": "ଯାଜପୁର ଜିଲ୍ଲାର କେଉଁ ପ୍ରସିଦ୍ଧ ପୀଠକୁ ମା' ବିରଜାଙ୍କ ମନ୍ଦିର ଯୋଗୁଁ 'ବିରଜା କ୍ଷେତ୍ର' ବୋଲି ଆଖ୍ୟା ଦିଆଯାଇଛି?",
+"options": [
+"କଟକ",
+"ଯାଜପୁର ଟାଉନ୍",
+"ଘଟଗାଁ",
+"କାକଟପୁର"
+],
+"answer": "ଯାଜପୁର ଟାଉନ୍",
+"explanation": "ଯାଜପୁରର ଅଧିଷ୍ଠାତ୍ରୀ ଦେବୀ ମା' ବିରଜା ଅଟନ୍ତି, ତେଣୁ ସେହି ସମଗ୍ର ପବିତ୍ର ଅଞ୍ଚଳକୁ ବିରଜା କ୍ଷେତ୍ର କୁହାଯାଏ ।"
+},
+{
+"questionEnglish": "Which historical fort in Cuttack, built during the Ganga Dynasty, stands as a testimony to Odisha's medieval military strength?",
+"questionOdia": "ଗଙ୍ଗ ବଂଶ ସମୟରେ କଟକରେ ନିର୍ମିତ କେଉଁ ଦୁର୍ଗ ଓଡ଼ିଶାର ମଧ୍ୟଯୁଗୀୟ ସାମରିକ ଶକ୍ତି ଓ ଗୌରବର ସାକ୍ଷୀ ବହନ କରେ?",
+"options": [
+"ଶିଶୁପାଳଗଡ଼",
+"ବାରବାଟୀ ଦୁର୍ଗ",
+"ଚୁଡ଼ଙ୍ଗଗଡ଼",
+"ରାୟବଣିଆ ଦୁର୍ଗ"
+],
+"answer": "ବାରବାଟୀ ଦୁର୍ଗ",
+"explanation": "କଟକର ପ୍ରସିଦ୍ଧ ବାରବାଟୀ ଦୁର୍ଗ ଏହାର ନଅ ମହଲା ପ୍ରାସାଦ ଓ ପ୍ରତିରକ୍ଷା ପରିଖା ପାଇଁ ପ୍ରାଚୀନ ଓ ମଧ୍ୟଯୁଗୀୟ ଇତିହାସରେ ପ୍ରସିଦ୍ଧ ଥିଲା ।"
+}
+]
