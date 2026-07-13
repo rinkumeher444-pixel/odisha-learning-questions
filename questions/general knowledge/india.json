@@ -1,0 +1,602 @@
+[
+{
+"questionEnglish": "Which city is known as the capital of India and serves as the seat of all three branches of the Government of India?",
+"questionOdia": "କେଉଁ ସହରକୁ ଭାରତର ରାଜଧାନୀ କୁହାଯାଏ ଏବଂ ଏହା ଭାରତ ସରକାରଙ୍କ ତିନୋଟି ଯାକ ମୁଖ୍ୟ ଅଙ୍ଗର କେନ୍ଦ୍ର ଅଟେ?",
+"options": [
+"ମୁମ୍ବାଇ",
+"ନୂଆଦିଲ୍ଲୀ",
+"କଲିକତା",
+"ଚେନ୍ନାଇ"
+],
+"answer": "ନୂଆଦିଲ୍ଲୀ",
+"explanation": "ନୂଆଦିଲ୍ଲୀ ହେଉଛି ଭାରତର ରାଜଧାନୀ, ଯେଉଁଠାରେ ଦେଶର ସଂସଦ, ରାଷ୍ଟ୍ରପତି ଭବନ ଏବଂ ସର୍ବୋଚ୍ଚ ନ୍ୟାୟାଳୟ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "What is the total number of states and union territories currently present in the Republic of India?",
+"questionOdia": "ବର୍ତ୍ତମାନ ସମୟରେ ଭାରତ ଗଣରାଜ୍ୟରେ ସମୁଦାୟ କେତେଗୋଟି ରାଜ୍ୟ ଏବଂ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ରହିଛି?",
+"options": [
+"୨୮ ଟି ରାଜ୍ୟ ଏବଂ ୯ ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ",
+"୨୯ ଟି ରାଜ୍ୟ ଏବଂ ୭ ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ",
+"୨୮ ଟି ରାଜ୍ୟ ଏବଂ ୮ ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ",
+"୨୭ ଟି ରାଜ୍ୟ ଏବଂ ୮ ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ"
+],
+"answer": "୨୮ ଟି ରାଜ୍ୟ ଏବଂ ୮ ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ",
+"explanation": "ଜାମ୍ମୁ ଓ କାଶ୍ମୀରର ପୁନର୍ଗଠନ ଏବଂ ଦାଦରା ଓ ନଗର ହାଭେଲୀ ଏବଂ ଦାମନ ଓ ଦିଉର ମିଶ୍ରଣ ପରେ ବର୍ତ୍ତମାନ ଭାରତରେ ୨୮ ଟି ରାଜ୍ୟ ଓ ୮ ଟି କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ଅଛି।"
+},
+{
+"questionEnglish": "Which river is considered the longest and most sacred river in India, flowing into the Bay of Bengal?",
+"questionOdia": "କେଉଁ ନଦୀକୁ ଭାରତର ସବୁଠାରୁ ଦୀର୍ଘତମ ଏବଂ ପବିତ୍ର ନଦୀ ଭାବରେ ଗଣନା କରାଯାଏ, ଯାହା ବଙ୍ଗୋପସାଗରରେ ପତିତ ହୋଇଥାଏ?",
+"options": [
+"ଗୋଦାବରୀ ନଦୀ",
+"ବ୍ରହ୍ମପୁତ୍ର ନଦୀ",
+"ଯମୁନା ନଦୀ",
+"ଗଙ୍ଗା ନଦୀ"
+],
+"answer": "ଗଙ୍ଗା ନଦୀ",
+"explanation": "ଗଙ୍ଗା ନଦୀ ଭାରତର ଦୀର୍ଘତମ ନଦୀ ଅଟେ, ଯାହାର ଲମ୍ବ ପ୍ରାୟ ୨୫୨୫ କିଲୋମିଟର ଏବଂ ଏହା ଭାରତୀୟ ସଂସ୍କୃତିରେ ଅତି ପବିତ୍ର।"
+},
+{
+"questionEnglish": "Who is officially recognized as the first citizen of India and holds the position of the supreme commander of the Indian Armed Forces?",
+"questionOdia": "କାହାକୁ ସରକାରୀ ଭାବରେ ଭାରତର ପ୍ରଥମ ନାଗରିକ କୁହାଯାଏ ଏବଂ ସେ ଭାରତୀୟ ସଶସ୍ତ୍ର ବାହିନୀର ସର୍ବୋଚ୍ଚ କମାଣ୍ଡର ଅଟନ୍ତି?",
+"options": [
+"ଭାରତର ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"ଭାରତର ରାଷ୍ଟ୍ରପତି",
+"ଭାରତର ପ୍ରଧାନ ବିଚାରପତି",
+"ଲୋକସଭାର ବାଚସ୍ପତି"
+],
+"answer": "ଭାରତର ରାଷ୍ଟ୍ରପତି",
+"explanation": "ଭାରତର ରାଷ୍ଟ୍ରପତି ହେଉଛନ୍ତି ଦେଶର ସାମ୍ବିଧାନିକ ମୁଖ୍ୟ, ପ୍ରଥମ ନାଗରିକ ଏବଂ ସମସ୍ତ ସେନା ବାହିନୀର ସର୍ବୋଚ୍ଚ ସେନାପତି।"
+},
+{
+"questionEnglish": "Which high mountain peak is the highest point located entirely within India, situated in the state of Sikkim?",
+"questionOdia": "ସିକିମ ରାଜ୍ୟରେ ଅବସ୍ଥିତ କେଉଁ ଉଚ୍ଚ ପର୍ବତ ଶୃଙ୍ଗଟି ସମ୍ପୂର୍ଣ୍ଣ ଭାବେ ଭାରତ ମଧ୍ୟରେ ଥିବା ସବୁଠାରୁ ଉଚ୍ଚତମ ଶୃଙ୍ଗ ଅଟେ?",
+"options": [
+"ମାଉଣ୍ଟ ଏଭରେଷ୍ଟ",
+"କାଞ୍ଚନଜଙ୍ଘା",
+"ନନ୍ଦା ଦେବୀ",
+"ଗଡ଼ୱିନ ଅଷ୍ଟିନ (K2)"
+],
+"answer": "କାଞ୍ଚନଜଙ୍ଘା",
+"explanation": "କାଞ୍ଚନଜଙ୍ଘା ହେଉଛି ପୃଥିବୀର ତୃତୀୟ ଉଚ୍ଚତମ ଶୃଙ୍ଗ ଏବଂ ଭାରତୀୟ ସୀମା ମଧ୍ୟରେ ଥିବା ସବୁଠାରୁ ଉଚ୍ଚତମ ପର୍ବତ ଶୃଙ୍ଗ।"
+},
+{
+"questionEnglish": "On which historic date did the Constitution of India come into effect, celebrated annually as Republic Day?",
+"questionOdia": "କେଉଁ ଐତିହାସିକ ତାରିଖରେ ଭାରତର ସମ୍ବିଧାନ କାର୍ଯ୍ୟକାରୀ ହୋଇଥିଲା, ଯାହାକୁ ପ୍ରତିବର୍ଷ ସାଧାରଣତନ୍ତ୍ର ଦିବସ ଭାବେ ପାଳନ କରାଯାଏ?",
+"options": [
+"୧୫ ଅଗଷ୍ଟ ୧୯୪୭",
+"୨୬ ଜାନୁଆରୀ ୧୯୫୦",
+"୨୬ ନଭେମ୍ବର ୧୯୪୯",
+"୨ ଅକ୍ଟୋବର ୧୯୫୨"
+],
+"answer": "୨୬ ଜାନୁଆରୀ ୧୯୫୦",
+"explanation": "୧୯୫୦ ମସିହା ଜାନୁଆରୀ ୨୬ ତାରିଖରେ ଭାରତୀୟ ସମ୍ବିଧାନ ସମ୍ପୂର୍ଣ୍ଣ ଭାବେ ଲାଗୁ ହେବା ସହ ଦେଶ ଏକ ସାର୍ବଭୌମ ଗଣତାନ୍ତ୍ରିକ ସାଧାରଣତନ୍ତ୍ରରେ ପରିଣତ ହୋଇଥିଲା।"
+},
+{
+"questionEnglish": "Who is known as the 'Father of the Indian Constitution' due to his monumental role as the chairman of the Drafting Committee?",
+"questionOdia": "ଖସଡ଼ା କମିଟିର ଅଧ୍ୟକ୍ଷ ଭାବରେ ଗୁରୁତ୍ଵପୂର୍ଣ୍ଣ ଭୂମିକା ଗ୍ରହଣ କରିଥିବାରୁ କାହାକୁ 'ଭାରତୀୟ ସମ୍ବିଧାନର ଜନକ' ବୋଲି କୁହାଯାଏ?",
+"options": [
+"ମହାତ୍ମା ଗାନ୍ଧୀ",
+"ଜବାହରଲାଲ ନେହେରୁ",
+"ଡକ୍ଟର ରାଜେନ୍ଦ୍ର ପ୍ରସାଦ",
+"ଡକ୍ଟର ବି. ଆର. ଆମ୍ବେଦକର"
+],
+"answer": "ଡକ୍ଟର ବି. ଆର. ଆମ୍ବେଦକର",
+"explanation": "ଡକ୍ଟର ଭୀମରାଓ ରାମଜୀ ଆମ୍ବେଦକର ଭାରତୀୟ ସମ୍ବିଧାନର ମୁଖ୍ୟ ସ୍ଥପତି ଥିଲେ ଏବଂ ତାଙ୍କୁ ସମ୍ବିଧାନର ଜନକ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which state is the largest by land area in India, characterized by the presence of the Great Indian Desert?",
+"questionOdia": "ଭାରତର ସବୁଠାରୁ ବଡ଼ ମରୁଭୂମି ଥିବା କେଉଁ ରାଜ୍ୟଟି ଆୟତନ ଦୃଷ୍ଟିରୁ ଭାରତର ସବୁଠାରୁ ବୃହତ୍ତମ ରାଜ୍ୟ ଅଟେ?",
+"options": [
+"ମଧ୍ୟପ୍ରଦେଶ",
+"ମହାରାଷ୍ଟ୍ର",
+"ରାଜସ୍ଥାନ",
+"ଉତ୍ତର ପ୍ରଦେଶ"
+],
+"answer": "ରାଜସ୍ଥାନ",
+"explanation": "ରାଜସ୍ଥାନ କ୍ଷେତ୍ରଫଳ ବା ଆୟତନ ଦୃଷ୍ଟିରୁ ଭାରତର ସବୁଠାରୁ ବଡ଼ ରାଜ୍ୟ, ଯେଉଁଠାରେ ଥର ମରୁଭୂମି ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "Which Indian state has the highest population according to the official demographic records of the country?",
+"questionOdia": "ଦେଶର ସରକାରୀ ଜନଗଣନା ତଥ୍ୟ ଅନୁସାରେ ଭାରତର କେଉଁ ରାଜ୍ୟରେ ସବୁଠାରୁ ଅଧିକ ଜନସଂଖ୍ୟା ବସବାସ କରନ୍ତି?",
+"options": [
+"ପଶ୍ଚିମବଙ୍ଗ",
+"ବିହାର",
+"ମହାରାଷ୍ଟ୍ର",
+"ଉତ୍ତର ପ୍ରଦେଶ"
+],
+"answer": "ଉତ୍ତର ପ୍ରଦେଶ",
+"explanation": "ଉତ୍ତର ପ୍ରଦେଶ ହେଉଛି ଭାରତର ସବୁଠାରୁ ଅଧିକ ଜନସଂଖ୍ୟା ବିଶିଷ୍ଟ ରାଜ୍ୟ, ଯାହାର ଜନସଂଖ୍ୟା ବହୁ ଦେଶର ସମୁଦାୟ ଜନସଂଖ୍ୟାଠାରୁ ମଧ୍ୟ ଅଧିକ।"
+},
+{
+"questionEnglish": "Which state in India achieved the top position by recording the highest literacy rate in the country?",
+"questionOdia": "ଭାରତର କେଉଁ ରାଜ୍ୟ ଦେଶ ମଧ୍ୟରେ ସବୁଠାରୁ ଅଧିକ ସାକ୍ଷରତା ହାର ହାସଲ କରି ପ୍ରଥମ ସ୍ଥାନରେ ରହିଛି?",
+"options": [
+"ଗୋଆ",
+"କେରଳ",
+"ମିଜୋରାମ",
+"ତାମିଲନାଡୁ"
+],
+"answer": "କେରଳ",
+"explanation": "କେରଳରେ ସାକ୍ଷରତା ହାର ସବୁଠାରୁ ଅଧିକ (ପ୍ରାୟ ୯୪% ରୁ ଅଧିକ), ଯାହା ଭାରତୀୟ ରାଜ୍ୟଗୁଡ଼ିକ ମଧ୍ୟରେ ସର୍ବୋଚ୍ଚ ଅଟେ।"
+},
+{
+"questionEnglish": "Which traditional dance form originated in the state of Kerala and is famous for its elaborate makeup and dramatic expressions?",
+"questionOdia": "କେଉଁ ପାରମ୍ପରିକ ନୃତ୍ୟ କେରଳ ରାଜ୍ୟରୁ ସୃଷ୍ଟି ହୋଇଛି ଏବଂ ଏହାର ଭାରୀ ପୋଷାକ, ମୁଖସଜ୍ଜା ଓ ନାଟକୀୟ ଅଭିନୟ ପାଇଁ ପ୍ରସିଦ୍ଧ?",
+"options": [
+"ଭରତନାଟ୍ୟମ୍",
+"କଥକ",
+"କଥକଳୀ",
+"କୁଚିପୁଡ଼ି"
+],
+"answer": "କଥକଳୀ",
+"explanation": "କଥକଳୀ ହେଉଛି କେରଳର ଏକ ପ୍ରସିଦ୍ଧ ଶାସ୍ତ୍ରୀୟ ନୃତ୍ୟ, ଯେଉଁଥିରେ କଳାକାରମାନେ ବିଭିନ୍ନ ପୌରାଣିକ ଚରିତ୍ରକୁ ନୃତ୍ୟ ଓ ଅଭିନୟ ମାଧ୍ୟମରେ ଉପସ୍ଥାପନ କରନ୍ତି।"
+},
+{
+"questionEnglish": "Who was the first female Prime Minister of India, known for her strong leadership during the 1970s?",
+"questionOdia": "ଭାରତର ପ୍ରଥମ ମହିଳା ପ୍ରଧାନମନ୍ତ୍ରୀ କିଏ ଥିଲେ, ଯିଏ ୧୯୭୦ ଦଶକରେ ନିଜର ଦୃଢ଼ ନେତୃତ୍ଵ ପାଇଁ ଜଣାଶୁଣା ଥିଲେ?",
+"options": [
+"ପ୍ରତିଭା ପାଟିଲ",
+"ଇନ୍ଦିରା ଗାନ୍ଧୀ",
+"ସରୋଜିନୀ ନାଇଡୁ",
+"ସୁଚେତା କୃପାଳିନୀ"
+],
+"answer": "ଇନ୍ଦିରା ଗାନ୍ଧୀ",
+"explanation": "ଇନ୍ଦିରା ଗାନ୍ଧୀ ଭାରତର ପ୍ରଥମ ଏବଂ ଏପର୍ଯ୍ୟନ୍ତ ଏକମାତ୍ର ମହିଳା ପ୍ରଧାନମନ୍ତ୍ରୀ ଅଟନ୍ତି, ଯିଏ ୧୯୬୬ ରୁ ୧୯୭୭ ଏବଂ ୧୯୮୦ ରୁ ୧୯୮୪ ପର୍ଯ୍ୟନ୍ତ ଦେଶର ସେବା କରିଥିଲେ।"
+},
+{
+"questionEnglish": "Which National Park in Assam is world-famous for protecting the population of the Great Indian One-Horned Rhinoceros?",
+"questionOdia": "ଆସାମର କେଉଁ ଜାତୀୟ ଉଦ୍ୟାନ ବିଲୁପ୍ତପ୍ରାୟ ଏକ ଶୃଙ୍ଗୀ ଗଣ୍ଡାର ସଂରକ୍ଷଣ ପାଇଁ ସାରା ବିଶ୍ଵରେ ପ୍ରସିଦ୍ଧ ଲାଭ କରିଛି?",
+"options": [
+"ଜିମ୍ କର୍ବେଟ୍ ଜାତୀୟ ଉଦ୍ୟାନ",
+"କାଜିରଙ୍ଗା ଜାତୀୟ ଉଦ୍ୟାନ",
+"ସୁନ୍ଦରବନ ଜାତୀୟ ଉଦ୍ୟାନ",
+"ଗିର୍ ଜାତୀୟ ଉଦ୍ୟାନ"
+],
+"answer": "କାଜିରଙ୍ଗା ଜାତୀୟ ଉଦ୍ୟାନ",
+"explanation": "କାଜିରଙ୍ଗା ଜାତୀୟ ଉଦ୍ୟାନ ଆସାମରେ ଅବସ୍ଥିତ ଏବଂ ଏହା ପୃଥିବୀର ଦୁଇ-ତୃତୀୟାଂଶ ଏକ ଶୃଙ୍ଗୀ ଗଣ୍ଡାମାନଙ୍କର ପ୍ରାକୃତିକ ବାସସ୍ଥଳୀ ଅଟେ।"
+},
+{
+"questionEnglish": "Which historical monument was built by Mughal Emperor Shah Jahan in Agra as a memorial for his wife Mumtaz Mahal?",
+"questionOdia": "ମୋଗଲ ସମ୍ରାଟ ଶାହଜାହାନ ନିଜ ପତ୍ନୀ ମମତାଜ ମହଲଙ୍କ ସ୍ମୃତିରେ ଆଗ୍ରାଠାରେ କେଉଁ ଐତିହାସିକ ସ୍ମାରକୀ ନିର୍ମାଣ କରିଥିଲେ?",
+"options": [
+"କୁତୁବ ମିନାର",
+"ଲାଲ କିଲ୍ଲା",
+"ତାଜମହଲ",
+"ଚାରମିନାର"
+],
+"answer": "ତାଜମହଲ",
+"explanation": "ତାଜମହଲ ହେଉଛି ଧଳା ମାର୍ବଲରେ ନିର୍ମିତ ଏକ ସୁନ୍ଦର ସ୍ମାରକୀ, ଯାହାକୁ ବିଶ୍ଵର ସପ୍ତାଶ୍ଚର୍ଯ୍ୟ ମଧ୍ୟରୁ ଏକ ବୋଲି ଗଣନା କରାଯାଏ।"
+},
+{
+"questionEnglish": "What animal is designated as the National Animal of India, symbolizing power, agility, and grace?",
+"questionOdia": "ଶକ୍ତି, ଚପଳତା ଏବଂ ଗରିମାର ପ୍ରତୀକ ଭାବରେ କେଉଁ ପଶୁକୁ ଭାରତର ଜାତୀୟ ପଶୁ ଭାବେ ମାନ୍ୟତା ଦିଆଯାଇଛି?",
+"options": [
+"ଏସୀୟ ସିଂହ",
+"ଭାରତୀୟ ହାତୀ",
+"ରୟାଲ ବେଙ୍ଗଲ ଟାଇଗର (ବାଘ)",
+"ଚିତାବାଘ"
+],
+"answer": "ରୟାଲ ବେଙ୍ଗଲ ଟାଇଗର (ବାଘ)",
+"explanation": "୧୯୭୨ ମସିହାରେ ବାଘ ସଂରକ୍ଷଣକୁ ପ୍ରୋତ୍ସାହନ ଦେବା ପାଇଁ ରୟାଲ ବେଙ୍ଗଲ ଟାଇଗରକୁ ଭାରତର ଜାତୀୟ ପଶୁ ଭାବେ ଘୋଷଣା କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "Which state is known as the 'Spices Garden of India' due to its massive production of various premium varieties of spices?",
+"questionOdia": "ବିଭିନ୍ନ ପ୍ରକାରର ଉତ୍କୃଷ୍ଟ ମସଲା ଉତ୍ପାଦନ ପାଇଁ ଭାରତର କେଉଁ ରାଜ୍ୟକୁ 'ଭାରତର ମସଲା ବଗିଚା' ବୋଲି କୁହାଯାଏ?",
+"options": [
+"କର୍ଣ୍ଣାଟକ",
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"କେରଳ",
+"ତାମିଲନାଡୁ"
+],
+"answer": "କେରଳ",
+"explanation": "ପ୍ରାଚୀନ କାଳରୁ କେରଳ କଳାମରିଚ, ଅଳେଇଚ, ଡାଲଚିନି ଆଦି ମସଲା ଉତ୍ପାଦନ ଓ ରପ୍ତାନି ପାଇଁ ସାରା ବିଶ୍ଵରେ ଜଣାଶୁଣା।"
+},
+{
+"questionEnglish": "Who was the first Indian scientist to receive the prestigious Nobel Prize in Physics for his discovery of the scattering of light?",
+"questionOdia": "ଆଲୋକର ବିଚ୍ଛୁରଣ ଆବିଷ୍କାର ପାଇଁ ପଦାର୍ଥ ବିଜ୍ଞାନରେ ପ୍ରତିଷ୍ଠିତ ନୋବେଲ ପୁରସ୍କାର ପାଇଥିବା ପ୍ରଥମ ଭାରତୀୟ ବୈଜ୍ଞାନିକ କିଏ ଥିଲେ?",
+"options": [
+"ଡକ୍ଟର ହୋମି ଭାଭା",
+"ସାର୍ ସି. ଭି. ରମଣ",
+"ଡକ୍ଟର ଏ. ପି. ଜେ. ଅବଦୁଲ କଲାମ",
+"ଜଗଦୀଶ ଚନ୍ଦ୍ର ବୋଷ"
+],
+"answer": "ସାର୍ ସି. ଭି. ରମଣ",
+"explanation": "ସାର୍ ଚନ୍ଦ୍ରଶେଖର ଭେଙ୍କଟ ରମଣଙ୍କୁ ୧୯୩୦ ମସିହାରେ 'ରମଣ ଇଫେକ୍ଟ' ଆବିଷ୍କାର ପାଇଁ ନୋବେଲ ପୁରସ୍କାର ମିଳିଥିଲା, ଯାହାଙ୍କ ସ୍ମୃତିରେ ଜାତୀୟ ବିଜ୍ଞାନ ଦିବସ ପାଳିତ ହୁଏ।"
+},
+{
+"questionEnglish": "Which text is considered the supreme law of the country, providing the framework for political principles and government structures?",
+"questionOdia": "କେଉଁ ଦଲିଲକୁ ଦେଶର ସର୍ବୋଚ୍ଚ ଆଇନ ବୋଲି ଧରାଯାଏ, ଯାହା ରାଜନୈତିକ ସିଦ୍ଧାନ୍ତ ଏବଂ ସରକାରୀ ବ୍ୟବସ୍ଥାର ରୂପରେଖ ପ୍ରଦାନ କରିଥାଏ?",
+"options": [
+"ଭାରତୀୟ ଦଣ୍ଡବିଧି ସଂହିତା",
+"ଭାରତୀୟ ସମ୍ବିଧାନ",
+"ସଂସଦୀୟ ନିୟମାବଳୀ",
+"ସର୍ବୋଚ୍ଚ ନ୍ୟାୟାଳୟର ନିର୍ଦ୍ଦେଶନାମା"
+],
+"answer": "ଭାରତୀୟ ସମ୍ବିଧାନ",
+"explanation": "ଭାରତୀୟ ସମ୍ବିଧାନ ହେଉଛି ଦେଶର ସର୍ବୋଚ୍ଚ ଆଇନ, ଯାହା ଆଧାରରେ ଦେଶର ସମସ୍ତ ବ୍ୟବସ୍ଥା ଓ ଶାସନ ପରିଚାଳିତ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Which state in India is the smallest in terms of geographical area, famous for its beaches and Portuguese heritage?",
+"questionOdia": "ଭୌଗୋଳିକ ଆୟତନ ଦୃଷ୍ଟିରୁ ଭାରତର ସବୁଠାରୁ ଛୋଟ ରାଜ୍ୟ କେଉଁଟି, ଯାହା ନିଜର ସମୁଦ୍ରକୂଳ ଏବଂ ପର୍ତ୍ତୁଗୀଜ୍ ସଂସ୍କୃତି ପାଇଁ ପ୍ରସିଦ୍ଧ?",
+"options": [
+"ସିକିମ",
+"ତ୍ରିପୁରା",
+"ଗୋଆ",
+"ମିଜୋରାମ"
+],
+"answer": "ଗୋଆ",
+"explanation": "ଗୋଆ ଆୟତନ ଦୃଷ୍ଟିରୁ ଭାରତର ସବୁଠାରୁ କ୍ଷୁଦ୍ରତମ ରାଜ୍ୟ, କିନ୍ତୁ ଏହା ପର୍ଯ୍ୟଟନ ଶିଳ୍ପ ପାଇଁ ଅତ୍ୟନ୍ତ ସମୃଦ୍ଧ।"
+},
+{
+"questionEnglish": "Which ocean lies entirely south of the Indian peninsula, named after the country itself?",
+"questionOdia": "ଭାରତୀୟ ଉପଦ୍ଵୀପର ଠିକ୍ ଦକ୍ଷିଣ ଦିଗରେ କେଉଁ ମହାସାଗର ଅବସ୍ଥିତ, ଯାହାର ନାମକରଣ ଭାରତ ଦେଶର ନାମ ଅନୁସାରେ ହୋଇଛି?",
+"options": [
+"ପ୍ରଶାନ୍ତ ମହାସାଗର",
+"ଆଟଲାଣ୍ଟିକ ମହାସାଗର",
+"ଭାରତ ମହାସାଗର",
+"ଆରବ ସାଗର"
+],
+"answer": "ଭାରତ ମହାସାଗର",
+"explanation": "ଭାରତ ମହାସାଗର (Indian Ocean) ହେଉଛି ପୃଥିବୀର ଏକମାତ୍ର ମହାସାଗର ଯାହା ଗୋଟିଏ ଦେଶ (ଭାରତ) ର ନାମ ଅନୁସାରେ ନାମିତ ହୋଇଛି।"
+},
+{
+"questionEnglish": "Who is known as the 'Iron Man of India' due to his extraordinary role in integrating the princely states into the Indian Union?",
+"questionOdia": "ଦେଶୀୟ ରାଜ୍ୟଗୁଡ଼ିକୁ ଭାରତୀୟ ସଂଘ ସହ ମିଶ୍ରଣ କରିବାରେ ଅସାଧାରଣ ଭୂମିକା ପାଇଁ କାହାକୁ 'ଭାରତର ଲୌହ ମାନବ' କୁହାଯାଏ?",
+"options": [
+"ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ",
+"ଭଗତ ସିଂହ",
+"ସର୍ଦ୍ଦାର ବଲ୍ଲଭଭାଇ ପଟେଲ",
+"ଲାଲା ଲାଜପତ ରାୟ"
+],
+"answer": "ସର୍ଦ୍ଦାର ବଲ୍ଲଭଭାଇ ପଟେଲ",
+"explanation": "ସର୍ଦ୍ଦାର ବଲ୍ଲଭଭାଇ ପଟେଲ ଭାରତର ପ୍ରଥମ ଗୃହମନ୍ତ୍ରୀ ଥିଲେ ଏବଂ ସେ ୫୦୦ ରୁ ଅଧିକ ଦେଶୀୟ ରାଜ୍ୟକୁ ଏକାଠି କରି ଅଖଣ୍ଡ ଭାରତ ଗଠନ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What is the name of the national emblem of India, adapted from the Lion Capital of Ashoka at Sarnath?",
+"questionOdia": "ସାରନାଥର ଅଶୋକ ସ୍ତମ୍ଭରୁ ନିଆଯାଇଥିବା ଭାରତର ଜାତୀୟ ପ୍ରତୀକର ନାମ କଣ ଅଟେ?",
+"options": [
+"ଅଶୋକ ଚକ୍ର",
+"ସିଂହ ଚତୁର୍ମୁଖ ପ୍ରତୀକ (ଅଶୋକ ମୁଦ୍ରା)",
+"ସୂର୍ଯ୍ୟ ପ୍ରତୀକ",
+"ତ୍ରିଶୂଳ ପ୍ରତୀକ"
+],
+"answer": "ସିଂହ ଚତୁର୍ମୁଖ ପ୍ରତୀକ (ଅଶୋକ ମୁଦ୍ରା)",
+"explanation": "ଭାରତର ଜାତୀୟ ପ୍ରତୀକ ସାରନାଥର ଅଶୋକ ସ୍ତମ୍ଭ ଶୀର୍ଷରୁ ନିଆଯାଇଛି, ଯେଉଁଥିରେ ଚାରୋଟି ସିଂହ ପରସ୍ପର ଆଡ଼କୁ ପିଠି କରି ଠିଆ ହୋଇଛନ୍ତି।"
+},
+{
+"questionEnglish": "Which traditional harvest festival is celebrated with great joy and modern sports like boat races in the state of Kerala?",
+"questionOdia": "କେଉଁ ପାରମ୍ପରିକ ଅମଳ ପର୍ବକୁ କେରଳ ରାଜ୍ୟରେ ନୌକା ବାଇଚ ପରି ପ୍ରତିଯୋଗିତା ସହ ଅତି ଆନନ୍ଦର ସହ ପାଳନ କରାଯାଏ?",
+"options": [
+"ପୋଙ୍ଗଲ",
+"ବିହୁ",
+"ଓଣମ୍",
+"ବୈଶାଖୀ"
+],
+"answer": "ଓଣମ୍",
+"explanation": "ଓଣମ୍ ହେଉଛି କେରଳର ମୁଖ୍ୟ ସାଂସ୍କୃତିକ ପର୍ବ, ଯାହା ରାଜା ମହାବଳୀଙ୍କ ସ୍ଵାଗତ ଉଦ୍ଦେଶ୍ୟରେ ଏବଂ ଭଲ ଅମଳ ପାଇଁ ପାଳନ କରାଯାଏ।"
+},
+{
+"questionEnglish": "Which dynamic Indian city is popularly known as the 'Silicon Valley of India' because of its leading position in IT industries?",
+"questionOdia": "ଭାରତର କେଉଁ ପ୍ରଗତିଶୀଳ ସହରକୁ ଆଇଟି (IT) ଶିଳ୍ପରେ ଅଗ୍ରଣୀ ସ୍ଥାନ ପାଇଁ 'ଭାରତର ସିଲିକନ ଭ୍ୟାଲି' ବୋଲି କୁହାଯାଏ?",
+"options": [
+"ହାଇଦ୍ରାବାଦ",
+"ମୁମ୍ବାଇ",
+"ପୁଣେ",
+"ବେଙ୍ଗାଲୁରୁ"
+],
+"answer": "ବେଙ୍ଗାଲୁରୁ",
+"explanation": "ବେଙ୍ଗାଲୁରୁ (ପୂର୍ବନାମ ବାଙ୍ଗାଲୋର) ହେଉଛି ଭାରତର ସବୁଠାରୁ ବଡ଼ ସୂଚନା ପ୍ରଯୁକ୍ତିବିଦ୍ୟା କେନ୍ଦ୍ର, ତେଣୁ ଏହାକୁ ସିଲିକନ ଭ୍ୟାଲି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which constitutional amendment added the words 'Socialist', 'Secular', and 'Integrity' to the Preamble of the Indian Constitution?",
+"questionOdia": "କେଉଁ ସାମ୍ବିଧାନିକ ସଂଶୋଧନ ଦ୍ଵାରା ଭାରତୀୟ ସମ୍ବିଧାନର ମୁଖବନ୍ଧରେ 'ସମାଜବାଦୀ', 'ଧର୍ମନିରପେକ୍ଷ' ଏବଂ 'ଅଖଣ୍ଡତା' ଶବ୍ଦ ଯୋଡ଼ାଯାଇଥିଲା?",
+"options": [
+"୪୪ ତମ ସଂଶୋଧନ",
+"୪୨ ତମ ସଂଶୋଧନ",
+"୮୬ ତମ ସଂଶୋଧନ",
+"୫୨ ତମ ସଂଶୋଧନ"
+],
+"answer": "୪୨ ତମ ସଂଶୋଧନ",
+"explanation": "୧ skipper ୭୬ ମସିହାର ୪୨ ତମ ସମ୍ବିଧାନ ସଂଶୋଧନକୁ 'ମିନି କନଷ୍ଟିଚ୍ୟୁସନ' କୁହାଯାଏ, ଯାହା ଦ୍ଵାରା ମୁଖବନ୍ଧରେ ଏହି ଗୁରୁତ୍ଵପୂର୍ଣ୍ଣ ଶବ୍ଦଗୁଡ଼ିକ ଯୋଡ଼ାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "Who was the first Indian woman to fly into outer space as a mission specialist aboard the Space Shuttle Columbia?",
+"questionOdia": "ସ୍ପେସ୍ ସଟଲ୍ କଲମ୍ବିଆ ମାଧ୍ୟମରେ ମହାକାଶକୁ ଯାତ୍ରା କରିଥିବା ପ୍ରଥମ ଭାରତୀୟ ମହିଳା ମହାକାଶଚାରୀ କିଏ ଥିଲେ?",
+"options": [
+"ସୁନିତା ୱିଲିୟମ୍ସ",
+"କଳ୍ପନା ଚାୱଲା",
+"ରାକେଶ ଶର୍ମା",
+"ଶିରିଶା ବାନ୍ଦଲା"
+],
+"answer": "କଳ୍ପନା ଚାୱଲା",
+"explanation": "କଳ୍ପନା ଚାୱଲା ୧୯୯୭ ମସିହାରେ ପ୍ରଥମ ଭାରତୀୟ ମହିଳା ଭାବେ ମହାକାଶ ଯାତ୍ରା କରି ଦେଶ ପାଇଁ ଗୌରବ ଆଣିଥିଲେ।"
+},
+{
+"questionEnglish": "Which plateau covers most of the southern part of India, bounded by the Western and Eastern Ghats?",
+"questionOdia": "ପୂର୍ବ ଓ ପଶ୍ଚିମ ଘାଟ ପର୍ବତମାଳା ମଧ୍ୟରେ ଆବଦ୍ଧ ହୋଇ ରହିଥିବା କେଉଁ ମାଳଭୂମି ଭାରତର ଦକ୍ଷିଣ ଭାଗର ଅଧିକାଂଶ ଅଞ୍ଚଳ ଆବୃତ କରିଛି?",
+"options": [
+"ମାଲବ ମାଳଭୂମି",
+"ଛୋଟନାଗପୁର ମାଳଭୂମି",
+"ଦାକ୍ଷିଣାତ୍ୟ ମାଳଭୂମି (ଡେକାନ ପ୍ଲାଟୋ)",
+"ତିବ୍ଦତ ମାଳଭୂମି"
+],
+"answer": "ଦାକ୍ଷିଣାତ୍ୟ ମାଳଭୂମି (ଡେକାନ ପ୍ଲାଟୋ)",
+"explanation": "ଦାକ୍ଷିଣାତ୍ୟ ମାଳଭୂମି ଏକ ତ୍ରିକୋଣାକାର ଉଚ୍ଚଭୂମି ଯାହା ଦକ୍ଷିଣ ଭାରତର ଭୌଗୋଳିକ ଗଠନର ମୁଖ୍ୟ ଅଂଶ ଅଟେ।"
+},
+{
+"questionEnglish": "Which state has the longest coastline among all the maritime states in the mainland of India?",
+"questionOdia": "ଭାରତର ମୁଖ୍ୟ ଭୂଭାଗରେ ଥିବା ସମସ୍ତ ଉପକୂଳବର୍ତ୍ତୀ ରାଜ୍ୟଗୁଡ଼ିକ ମଧ୍ୟରେ କେଉଁ ରାଜ୍ୟର ସମୁଦ୍ର ତଟରେଖା ସବୁଠାରୁ ଲମ୍ବା?",
+"options": [
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"ମହାରାଷ୍ଟ୍ର",
+"ଗୁଜରାଟ",
+"ତାମିଲନାଡୁ"
+],
+"answer": "ଗୁଜରାଟ",
+"explanation": "ଗୁଜରାଟ ରାଜ୍ୟର ସମୁଦ୍ର ଉପକୂଳର ଲମ୍ବ ସବୁଠାରୁ ଅଧିକ, ଯାହା ପ୍ରାୟ ୧୬୦୦ କିଲୋମିଟର ଦୀର୍ଘ ଅଟେ।"
+},
+{
+"questionEnglish": "Who is the supreme head of the executive branch of the Indian Government who exercises real executive authority?",
+"questionOdia": "ଭାରତ ସରକାରଙ୍କ କାର୍ଯ୍ୟପାଳିକାର ବାସ୍ତବ ପ୍ରମୁଖ କିଏ, ଯିଏ ଦେଶର ଶାସନ ବ୍ୟବସ୍ଥାର ମୁଖ୍ୟ ପରିଚାଳକ ଅଟନ୍ତି?",
+"options": [
+"ଭାରତର ରାଷ୍ଟ୍ରପତି",
+"ଭାରତର ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"କ୍ୟାବିନେଟ ସଚିବ",
+"ରାଜ୍ୟସଭାର ଅଧ୍ୟକ୍ଷ"
+],
+"answer": "ଭାରତର ପ୍ରଧାନମନ୍ତ୍ରୀ",
+"explanation": "ରାଷ୍ଟ୍ରପତି ସାମ୍ବିଧାନିକ ମୁଖ୍ୟ ହୋଇଥିବା ବେଳେ ପ୍ରଧାନମନ୍ତ୍ରୀ ହେଉଛନ୍ତି ମନ୍ତ୍ରୀପରିଷଦର ମୁଖ୍ୟ ଏବଂ ସରକାରଙ୍କ ବାସ୍ତବ କ୍ଷମତାର ଅଧିକାରୀ।"
+},
+{
+"questionEnglish": "Which pass connects India with Tibet and was reopened for bilateral trade in 2006, located in Sikkim?",
+"questionOdia": "ସିକିମରେ ଅବସ୍ଥିତ କେଉଁ ପ୍ରସିଦ୍ଧ ପାର୍ବତ୍ୟ ପଥ ଭାରତକୁ ତିବ୍ଦତ ସହିତ ଯୋଡ଼ିଥାଏ ଏବଂ ୨୦୦୬ ରେ ବାଣିଜ୍ୟ ପାଇଁ ପୁଣି ଖୋଲାଯାଇଥିଲା?",
+"options": [
+"ରୋହତାଙ୍ଗ ପାସ୍",
+"ନାଥୁଲା ପାସ୍",
+"ଜୋଜିଲା ପାସ୍",
+"ବାରାଲାଚା ପାସ୍"
+],
+"answer": "ନାଥୁଲା ପାସ୍",
+"explanation": "ନାଥୁଲା ପାସ୍ ହିମାଳୟର ଏକ ଗୁରୁତ୍ଵପୂର୍ଣ୍ଣ ପଥ, ଯାହା ପ୍ରାଚୀନ ରେଶମ ସଡ଼କ (Silk Route) ର ଏକ ଅଂଶ ଥିଲା ଏବଂ ଏହା ଭାରତ-ଚୀନ ସୀମାରେ ଅଛି।"
+},
+{
+"questionEnglish": "What are the two official houses that constitute the Parliament of the Republic of India?",
+"questionOdia": "ଭାରତ ଗଣରାଜ୍ୟର ସଂସଦ କେଉଁ ଦୁଇଟି ସରକାରୀ ଗୃହକୁ ନେଇ ଗଠିତ ହୋଇଛି?",
+"options": [
+"ବିଧାନସଭା ଏବଂ ବିଧାନପରିଷଦ",
+"ଲୋକସଭା ଏବଂ ରାଜ୍ୟସଭା",
+"ସର୍ବୋଚ୍ଚ ନ୍ୟାୟାଳୟ ଏବଂ ଉଚ୍ଚ ନ୍ୟାୟାଳୟ",
+"କ୍ୟାବିନେଟ ଏବଂ ସଚିବାଳୟ"
+],
+"answer": "ଲୋକସଭା ଏବଂ ରାଜ୍ୟସଭା",
+"explanation": "ଭାରତୀୟ ସଂସଦ ଦ୍ଵିସଦନୀୟ ଅଟେ। ଏହାର ନିମ୍ନ ସଦନକୁ ଲୋକସଭା (ଜନସାଧାରଣଙ୍କ ଗୃହ) ଏବଂ ଉଚ୍ଚ ସଦନକୁ ରାଜ୍ୟସଭା (ରାଜ୍ୟଗୁଡ଼ିକର ପରିଷଦ) କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "Which state in Northeast India is famously known as the 'Land of the Rising Sun' due to its geographical location?",
+"questionOdia": "ଉତ୍ତର-ପୂର୍ବ ଭାରତର କେଉଁ ରାଜ୍ୟକୁ ଏହାର ଭୌଗୋଳିକ ଅବସ୍ଥିତି ହେତୁ 'ସୂର୍ଯ୍ୟୋଦୟର ଦେଶ' ବୋଲି କୁହାଯାଏ?",
+"options": [
+"ଆସାମ",
+"ନାଗାଲାଣ୍ଡ",
+"ମଣିପୁର",
+"ଅରୁଣାଚଳ ପ୍ରଦେଶ"
+],
+"answer": "ଅରୁଣାଚଳ ପ୍ରଦେଶ",
+"explanation": "ଅରୁଣାଚଳ ପ୍ରଦେଶ ଭାରତର ସବୁଠାରୁ ପୂର୍ବ ଦିଗରେ ଥିବାରୁ ଏଠାରେ ଦେଶ ମଧ୍ୟରେ ସର୍ବପ୍ରଥମେ ସୂର୍ଯ୍ୟୋଦୟ ଦେଖିବାକୁ ମିଳିଥାଏ।"
+},
+{
+"questionEnglish": "Who composed India's inspiring national anthem 'Jana Gana Mana', which was officially adopted in 1950?",
+"questionOdia": "୧୯୫୦ ମସିହାରେ ସରକାରୀ ଭାବେ ଗୃହୀତ ହୋଇଥିବା ଭାରତର ଜାତୀୟ ସଙ୍ଗୀତ 'ଜନ ଗଣ ମନ' ର ରଚୟିତା କିଏ?",
+"options": [
+"ବଙ୍କିମଚନ୍ଦ୍ର ଚାଟାର୍ଜୀ",
+"ରବୀନ୍ଦ୍ରନାଥ ଟାଗୋର",
+"ସରୋଜିନୀ ନାଇଡୁ",
+"ସୁଭାଷ ଚନ୍ଦ୍ର ବୋଷ"
+],
+"answer": "ରବୀନ୍ଦ୍ରନାଥ ଟାଗୋର",
+"explanation": "କବିଗୁରୁ ରବୀନ୍ଦ୍ରନାଥ ଟାଗୋର ମୂଳ ରୂପେ ବଙ୍ଗଳା ଭାଷାରେ ଜନ ଗଣ ମନ ରଚନା କରିଥିଲେ, ଯାହାର ହିନ୍ଦୀ ସଂସ୍କରଣକୁ ଜାତୀୟ ସଙ୍ଗୀତ କରାଗଲା।"
+},
+{
+"questionEnglish": "Which line of latitude passes almost halfway through the middle of India, dividing the country into two climate zones?",
+"questionOdia": "କେଉଁ କାଳ୍ପନିକ ଅକ୍ଷାଂଶ ରେଖା ଭାରତର ପ୍ରାୟ ମଧ୍ୟଭାଗ ଦେଇ ଗତି କରିଛି ଏବଂ ଦେଶକୁ ଦୁଇଟି ଜଳବାୟୁ ଅଞ୍ଚଳରେ ବିଭକ୍ତ କରିଛି?",
+"options": [
+"ବିଷୁବ ରେଖା",
+"କର୍କଟ କ୍ରାନ୍ତି ରେଖା (Tropic of Cancer)",
+"ମକର କ୍ରାନ୍ତି ରେଖା",
+"କୁମେରୁ ବୃତ୍ତ"
+],
+"answer": "କର୍କଟ କ୍ରାନ୍ତି ରେଖା (Tropic of Cancer)",
+"explanation": "କର୍କଟ କ୍ରାନ୍ତି ରେଖା (୨୩.୫ ଡିଗ୍ରୀ ଉତ୍ତର ଅକ୍ଷାଂଶ) ଭାରତର ୮ ଟି ରାଜ୍ୟ ଦେଇ ଗତି କରିଛି ଏବଂ ଦେଶର ଜଳବାୟୁକୁ ପ୍ରଭାବିତ କରେ।"
+},
+{
+"questionEnglish": "Which unique wetland and mangrove forest region in West Bengal is famous as the habitat of the Royal Bengal Tiger?",
+"questionOdia": "ପଶ୍ଚିମବଙ୍ଗର କେଉଁ ଅନନ୍ୟ ଜଳାଭୂମି ଏବଂ ହେନ୍ତାଳ ବନ (ମ୍ୟାନଗ୍ରୋଭ୍) ଅଞ୍ଚଳ ରୟାଲ ବେଙ୍ଗଲ ଟାଇଗରଙ୍କ ବାସସ୍ଥଳୀ ଭାବେ ଜଣାଶୁଣା?",
+"options": [
+"ସୁନ୍ଦରବନ",
+"ଭିତରକନିକା",
+"ଚିଲିକା ଅଞ୍ଚଳ",
+"ବାନ୍ଦବଗଡ଼"
+],
+"answer": "ସୁନ୍ଦରବନ",
+"explanation": "ସୁନ୍ଦରବନ ହେଉଛି ବିଶ୍ଵର ସବୁଠାରୁ ବଡ଼ ମ୍ୟାନଗ୍ରୋଭ୍ ଜଙ୍ଗଲ ଏବଂ ଏକ ୟୁନେସ୍କୋ ବିଶ୍ଵ ଐତିହ୍ୟ ସ୍ଥଳ, ଯାହା ବାଘମାନଙ୍କ ପାଇଁ ପ୍ରସିଦ୍ଧ।"
+},
+{
+"questionEnglish": "What is the official term length of the President of India from the date on which he enters upon his office?",
+"questionOdia": "ଭାରତର ରାଷ୍ଟ୍ରପତି ନିଜ କାର୍ଯ୍ୟଭାର ଗ୍ରହଣ କରିବା ଦିନଠାରୁ ସେ କେତେ ବର୍ଷ ଅବଧି ପାଇଁ ନିର୍ବାଚିତ ହୋଇଥାନ୍ତି?",
+"options": [
+"୪ ବର୍ଷ",
+"୫ ବର୍ଷ",
+"୬ ବର୍ଷ",
+"୭ ବର୍ଷ"
+],
+"answer": "୫ ବର୍ଷ",
+"explanation": "ଭାରତୀୟ ସମ୍ବିଧାନ ଅନୁଯାୟୀ ରାଷ୍ଟ୍ରପତିଙ୍କ କାର୍ଯ୍ୟକାଳ ହେଉଛି ୫ ବର୍ଷ ଏବଂ ସେ ପୁନଃ ନିର୍ବାଚନ ପାଇଁ ମଧ୍ୟ ଯୋଗ୍ୟ ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "Which city is officially recognized as the financial capital of India and hosts the Reserve Bank of India?",
+"questionOdia": "କେଉଁ ସହରକୁ ସରକାରୀ ଭାବେ ଭାରତର ଆର୍ଥିକ ରାଜଧାନୀ କୁହାଯାଏ ଏବଂ ଏଠାରେ ଭାରତୀୟ ରିଜର୍ଭ ବ୍ୟାଙ୍କର ମୁଖ୍ୟାଳୟ ରହିଛି?",
+"options": [
+"ନୂଆଦିଲ୍ଲୀ",
+"ମୁମ୍ବାଇ",
+"କଲିକତା",
+"ଚେନ୍ନାଇ"
+],
+"answer": "ମୁମ୍ବାଇ",
+"explanation": "ମୁମ୍ବାଇ ଭାରତର ବୃହତ୍ତମ ବ୍ୟବସାୟିକ କେନ୍ଦ୍ର ଏବଂ ଏଠାରେ ବମ୍ବେ ଷ୍ଟକ୍ ଏକ୍ସଚେଞ୍ଜ (BSE) ଏବଂ ବଡ଼ ବଡ଼ ଆର୍ଥିକ ପ୍ରତିଷ୍ଠାନ ଅବସ୍ଥିତ।"
+},
+{
+"questionEnglish": "Which state in India has the historical distinction of being the first to be formed on a purely linguistic basis in 1953?",
+"questionOdia": "୧୯୫୩ ମସିହାରେ କେବଳ ଭାଷା ଆଧାରରେ ଗଠିତ ହୋଇଥିବା ଭାରତର ପ୍ରଥମ ରାଜ୍ୟ ହେବାର ଗୌରବ କେଉଁ ରାଜ୍ୟ ପାଇଛି?",
+"options": [
+"ଓଡ଼ିଶା",
+"ତାମିଲନାଡୁ",
+"ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"ପଞ୍ଜାବ"
+],
+"answer": "ଆନ୍ଧ୍ରପ୍ରଦେଶ",
+"explanation": "ସ୍ଵାଧୀନତା ପରେ ତେଲୁଗୁ ଭାଷାଭାଷୀ ଲୋକଙ୍କ ପାଇଁ ମାନ୍ଦ୍ରାଜ ରାଜ୍ୟରୁ ଅଲଗା କରି ଆନ୍ଧ୍ରପ୍ରଦେଶକୁ ପ୍ରଥମ ଭାଷାଭିତ୍ତିକ ରାଜ୍ୟ କରାଯାଇଥିଲା। (ସୂଚନା: ଓଡ଼ିଶା ସ୍ଵାଧୀନତା ପୂର୍ବରୁ ୧୯୩୬ ରେ ଗଠିତ ହୋଇଥିଲା)"
+},
+{
+"questionEnglish": "Who is the ex-officio Chairman of the Rajya Sabha, the upper house of the Indian Parliament?",
+"questionOdia": "ଭାରତୀୟ ସଂସଦର ଉଚ୍ଚ ସଦନ ଅର୍ଥାତ୍ ରାଜ୍ୟସଭାର ପଦାଧିକାର ବଳରେ ଅଧ୍ୟକ୍ଷ ବା ଚେୟାରମ୍ୟାନ କିଏ ହୋଇଥାନ୍ତି?",
+"options": [
+"ଭାରତର ରାଷ୍ଟ୍ରପତି",
+"ଲୋକସଭାର ବାଚସ୍ପତି",
+"ଭାରତର ଉପରାଷ୍ଟ୍ରପତି",
+"ଭାରତର ପ୍ରଧାନମନ୍ତ୍ରୀ"
+],
+"answer": "ଭାରତର ଉପରାଷ୍ଟ୍ରପତି",
+"explanation": "ଭାରତର ଉପରାଷ୍ଟ୍ରପତି ସ୍ଵତଃପ୍ରବୃତ୍ତ ଭାବେ ରାଜ୍ୟସଭାର ଅଧ୍ୟକ୍ଷତା କରନ୍ତି ଏବଂ ଗୃହର କାର୍ଯ୍ୟ ପରିଚାଳନା କରନ୍ତି।"
+},
+{
+"questionEnglish": "Which premium Indian research institution is responsible for planning and executing space exploration missions like Chandrayaan?",
+"questionOdia": "ଚନ୍ଦ୍ରଯାନ ପରି ମହାକାଶ ଅଭିଯାନର ଯୋଜନା ଓ ପରିଚାଳନା କରୁଥିବା ଭାରତର ପ୍ରମୁଖ ଗବେଷଣା ସଂସ୍ଥାର ନାମ କଣ?",
+"options": [
+"DRDO",
+"ISRO (ଇସ୍ରୋ)",
+"BARC",
+"CSIR"
+],
+"answer": "ISRO (ଇସ୍ରୋ)",
+"explanation": "ଇସ୍ରୋ (Indian Space Research Organisation) ହେଉଛି ଭାରତର ଜାତୀୟ ମହାକାଶ ସଂସ୍ଥା, ଯାହାର ମୁଖ୍ୟାଳୟ ବେଙ୍ଗାଲୁରୁରେ ରହିଛି।"
+},
+{
+"questionEnglish": "Which state is the leading producer of tea in India, known for its vast tea estates along the Brahmaputra valley?",
+"questionOdia": "ବ୍ରହ୍ମପୁତ୍ର ଉପତ୍ୟକାରେ ଥିବା ବିସ୍ତୀର୍ଣ୍ଣ ଚା ବଗିଚା ପାଇଁ ଜଣାଶୁଣା କେଉଁ ରାଜ୍ୟ ଭାରତରେ ସବୁଠାରୁ ଅଧିକ ଚା ଉତ୍ପାଦନ କରିଥାଏ?",
+"options": [
+"ପଶ୍ଚିମବଙ୍ଗ",
+"କେରଳ",
+"କର୍ଣ୍ଣାଟକ",
+"ଆସାମ"
+],
+"answer": "ଆସାମ",
+"explanation": "ଆସାମ ହେଉଛି ଭାରତର ସର୍ବବୃହତ୍ ଚା ଉତ୍ପାଦନକାରୀ ରାଜ୍ୟ। ଏଠାକାର କାଳିଆ ଏବଂ ସୁଗନ୍ଧିତ ଚା ସାରା ବିଶ୍ଵରେ ଆଦୃତ।"
+},
+{
+"questionEnglish": "What historic document contains the fundamental rights guaranteed to all citizens of India, inspired by the US Bill of Rights?",
+"questionOdia": "ଭାରତୀୟ ସମ୍ବିଧାନର କେଉଁ ଭାଗରେ ନାଗରିକମାନଙ୍କୁ ସାମ୍ବିଧାନିକ ସୁରକ୍ଷା ଦେଉଥିବା ମୌଳିକ ଅଧିକାରଗୁଡ଼ିକ ବିଷୟରେ ବର୍ଣ୍ଣନା କରାଯାଇଛି?",
+"options": [
+"ଭାଗ ୨ (Part II)",
+"ଭାଗ ୩ (Part III)",
+"ଭାଗ ୪ (Part IV)",
+"ଭାଗ ୫ (Part V)"
+],
+"answer": "ଭାଗ ୩ (Part III)",
+"explanation": "ସମ୍ବିଧାନର ଭାଗ ୩ ର ଧାରା ୧୨ ରୁ ୩୫ ମଧ୍ୟରେ ୬ ଟି ମୌଳିକ ଅଧିକାର ପ୍ରଦାନ କରାଯାଇଛି, ଯାହା ନାଗରିକଙ୍କ ବିକାଶ ପାଇଁ ଅତ୍ୟାବଶ୍ୟକ।"
+},
+{
+"questionEnglish": "Which monument in Hyderabad was built by Muhammad Quli Qutb Shah to commemorate the end of a deadly plague epidemic?",
+"questionOdia": "ହାଇଦ୍ରାବାଦଠାରେ ଏକ ଭୟଙ୍କର ପ୍ଲେଗ୍ ମହାମାରୀର ସମାପ୍ତି ଉଦ୍ଦେଶ୍ୟରେ ମହମ୍ମଦ କୁଲି କୁତବ ଶାହ କେଉଁ ସ୍ମାରକୀ ନିର୍ମାଣ କରିଥିଲେ?",
+"options": [
+"ଗୋଲକୋଣ୍ଡା ଦୁର୍ଗ",
+"ଚାରମିନାର",
+"କୁତୁବ ମିନାର",
+"ଜାମା ମସଜିଦ"
+],
+"answer": "ଚାରମିନାର",
+"explanation": "୧୫୯୧ ମସିହାରେ ନିର୍ମିତ ଚାରମିନାର ହାଇଦ୍ରାବାଦର ଏକ ପ୍ରସିଦ୍ଧ ମସଜିଦ ଏବଂ ବିଶ୍ଵସ୍ତରୀୟ ସ୍ମାରକୀ ସ୍ଥଳ ଅଟେ।"
+},
+{
+"questionEnglish": "Which dynamic sector constitutes the largest share of India's Gross Domestic Product (GDP) in modern times?",
+"questionOdia": "ଆଧୁନିକ ସମୟରେ ଭାରତର ସମୁଦାୟ ଘରୋଇ ଉତ୍ପାଦ (GDP) ରେ କେଉଁ କ୍ଷେତ୍ରର ଅବଦାନ ସବୁଠାରୁ ଅଧିକ ରହିଛି?",
+"options": [
+"କୃଷି କ୍ଷେତ୍ର (Primary Sector)",
+"ଶିଳ୍ପ କ୍ଷେତ୍ର (Secondary Sector)",
+"ସେବା କ୍ଷେତ୍ର (Service Sector)",
+"ଖଣିଜ ଉତ୍ତୋଳନ କ୍ଷେତ୍ର"
+],
+"answer": "ସେବା କ୍ଷେତ୍ର (Service Sector)",
+"explanation": "ଭାରତର ଜିଡିପିରେ ସେବା କ୍ଷେତ୍ର (ଯେପରିକି ବ୍ୟାଙ୍କିଙ୍ଗ, ଆଇଟି, ପର୍ଯ୍ୟଟନ) ର ଅଂଶ ପ୍ରାୟ ୫୦% ରୁ ଅଧିକ, ଯଦିଓ କୃଷି କ୍ଷେତ୍ରରେ ଅଧିକ ଲୋକ ନିୟୋଜିତ ଅଛନ୍ତି।"
+},
+{
+"questionEnglish": "Which constitutional body is responsible for conducting free and fair elections to the Parliament and State Legislatures in India?",
+"questionOdia": "ଭାରତରେ ସଂସଦ ଏବଂ ରାଜ୍ୟ ବିଧାନସଭାଗୁଡ଼ିକ ପାଇଁ ମୁକ୍ତ ଓ ନିରପେକ୍ଷ ନିର୍ବାଚନ ପରିଚାଳନା କରିବା କେଉଁ ସାମ୍ବିଧାନିକ ସଂସ୍ଥାର ଦାୟିତ୍ଵ?",
+"options": [
+"ଭାରତର ସର୍ବୋଚ୍ଚ ନ୍ୟାୟାଳୟ",
+"ଭାରତୀୟ ନିର୍ବାଚନ କମିଶନ",
+"ସଂସଦୀୟ ବ୍ୟାପାର ମନ୍ତ୍ରଣାଳୟ",
+"ନୀତି ଆୟୋଗ"
+],
+"answer": "ଭାରତୀୟ ନିର୍ବାଚନ କମିଶନ",
+"explanation": "ଭାରତୀୟ ନିର୍ବାଚନ କମିଶନ (Election Commission of India) ଏକ ସ୍ଵାଧୀନ ସାମ୍ବିଧାନିକ ସଂସ୍ଥା ଯାହା ସମସ୍ତ ପ୍ରମୁଖ ନିର୍ବାଚନ ପରିଚାଳନା କରେ।"
+},
+{
+"questionEnglish": "Which high mountain range acts as a natural northern barrier for India, protecting it from cold Siberian winds?",
+"questionOdia": "କେଉଁ ଉଚ୍ଚ ପର୍ବତମାଳା ଭାରତ ପାଇଁ ଏକ ପ୍ରାକୃତିକ ଉତ୍ତର ପ୍ରାଚୀର ଭାବେ କାର୍ଯ୍ୟ କରେ ଏବଂ ସାଇବେରିଆର ଶୀତଳ ପବନରୁ ରକ୍ଷା କରେ?",
+"options": [
+"ଆରାବଳୀ ପର୍ବତମାଳା",
+"ବିନ୍ଧ୍ୟ ପର୍ବତମାଳା",
+"ହିମାଳୟ ପର୍ବତମାଳା",
+"ସାତପୁରା ପର୍ବତମାଳା"
+],
+"answer": "ହିମାଳୟ ପର୍ବତମାଳା",
+"explanation": "ହିମାଳୟ ପର୍ବତମାଳା ଭାରତର ଉତ୍ତର ସୀମାରେ ଅବସ୍ଥିତ, ଯାହା ଶତ୍ରୁ ଏବଂ ପ୍ରତିକୂଳ ଜଳବାୟୁରୁ ଦେଶକୁ ସୁରକ୍ଷା ପ୍ରଦାନ କରିଥାଏ।"
+},
+{
+"questionEnglish": "Who holds the rank of the first non-royal Indian to win a Nobel Prize, awarded for his profound poetic work 'Gitanjali'?",
+"questionOdia": "ନିଜର ଗଭୀର କାବ୍ୟିକ କୃତି 'ଗୀତାଞ୍ଜଳି' ପାଇଁ ସାହିତ୍ୟରେ ନୋବେଲ ପୁରସ୍କାର ପାଇଥିବା ପ୍ରଥମ ଭାରତୀୟ ତଥା ଏସୀୟ ବ୍ୟକ୍ତି କିଏ?",
+"options": [
+"ସୁବ୍ରହ୍ମଣ୍ୟମ ଚନ୍ଦ୍ରଶେଖର",
+"ଅମର୍ତ୍ତ୍ୟ ସେନ",
+"ରବୀନ୍ଦ୍ରନାଥ ଟାଗୋର",
+"ମଦର ଟେରେସା"
+],
+"answer": "ରବୀନ୍ଦ୍ରନାଥ ଟାଗୋର",
+"explanation": "ରବୀନ୍ଦ୍ରନାଥ ଟାଗୋରଙ୍କୁ ୧୯୧୩ ମସିହାରେ ତାଙ୍କ କବିତା ସଂକଳନ 'ଗୀତାଞ୍ଜଳି' ପାଇଁ ସାହିତ୍ୟରେ ନୋବେଲ ପୁରସ୍କାର ପ୍ରଦାନ କରାଯାଇଥିଲା।"
+},
+{
+"questionEnglish": "Which water body lies to the east of the Indian subcontinent, forming the largest bay in the world?",
+"questionOdia": "ଭାରତୀୟ ଉପମହାଦ୍ଵୀପର ପୂର୍ବ ଦିଗରେ କେଉଁ ଜଳଭାଗ ଅବସ୍ଥିତ, ଯାହା ପୃଥିବୀର ବୃହତ୍ତମ ଉପସାଗର ଗଠନ କରେ?",
+"options": [
+"ଆରବ ସାଗର",
+"ଲୋହିତ ସାଗର",
+"ବଙ୍ଗୋପସାଗର",
+"କାସପିଆନ ସାଗର"
+],
+"answer": "ବଙ୍ଗୋପସାଗର",
+"explanation": "ଭାରତର ପୂର୍ବ ଉପକୂଳ ବଙ୍ଗୋପସାଗର (Bay of Bengal) ସହିତ ଲାଗିଛି, ଯେଉଁଠାରେ ମହାନଦୀ, ଗଙ୍ଗା, ଗୋଦାବରୀ ଭଳି ନଦୀ ପତିତ ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "What is the name of the highest civilian award in India, presented for exceptional service towards the advancement of art, literature, and science?",
+"questionOdia": "କଳା, ସାହିତ୍ୟ ଏବଂ ବିଜ୍ଞାନ କ୍ଷେତ୍ରରେ ଅସାଧାରଣ ଅବଦାନ ପାଇଁ ପ୍ରଦାନ କରାଯାଉଥିବା ଭାରତର ସର୍ବୋଚ୍ଚ ନାଗରିକ ସମ୍ମାନର ନାମ କଣ?",
+"options": [
+"ପଦ୍ମଭୂଷଣ",
+"ପଦ୍ମବିଭୂଷଣ",
+"ପରମବୀର ଚକ୍ର",
+"ଭାରତ ରତ୍ନ"
+],
+"answer": "ଭାରତ ରତ୍ନ",
+"explanation": "ଭାରତ ରତ୍ନ ହେଉଛି ଦେଶର ସର୍ବୋଚ୍ଚ ବେସାମରିକ ସମ୍ମାନ, ଯାହା ୧୯୫୪ ମସିହାରୁ ପ୍ରଦାନ କରାଯାଇ ଆସୁଛି।"
+},
+{
+"questionEnglish": "Which planet-observing or military surveillance satellite was India's historic first indigenous satellite, launched by the Soviet Union in 1975?",
+"questionOdia": "୧୯୭୫ ମସିହାରେ ସୋଭିଏତ୍ ୟୁନିଅନ୍ ଦ୍ଵାରା ମହାକାଶକୁ ପ୍ରେରିତ ହୋଇଥିବା ଭାରତର ପ୍ରଥମ ସ୍ଵଦେଶୀ ଜ୍ଞାନକୌଶଳରେ ନିର୍ମିତ କୃତ୍ରିମ ଉପଗ୍ରହର ନାମ କଣ?",
+"options": [
+"ଭାସ୍କର",
+"ରୋହିଣୀ",
+"ଆର୍ଯ୍ୟଭଟ୍ଟ",
+"ଇନସାଟ୍"
+],
+"answer": "ଆର୍ଯ୍ୟଭଟ୍ଟ",
+"explanation": "ପ୍ରସିଦ୍ଧ ପ୍ରାଚୀନ ଭାରତୀୟ ଗଣିତଜ୍ଞ ଓ ଜ୍ୟୋତିର୍ବିଜ୍ଞାନୀଙ୍କ ନାମାନୁସାରେ ଭାରତର ପ୍ରଥମ ଉପଗ୍ରହର ନାମ 'ଆର୍ଯ୍ୟଭଟ୍ଟ' ରଖାଯାଇଥିଲା।"
+}
+]
