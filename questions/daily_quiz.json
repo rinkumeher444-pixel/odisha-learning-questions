@@ -1,0 +1,20 @@
+[
+  {
+    "subject": "science",
+    "chapter": "chemical_reactions",
+    "questionEnglish": "...",
+    "questionOdia": "...",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A"
+  },
+  {
+    "subject": "math",
+    "chapter": "linear",
+    ...
+  }
+]
