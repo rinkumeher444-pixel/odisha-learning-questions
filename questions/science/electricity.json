@@ -1,26 +1,1479 @@
 [
-  {
-    "questionEnglish": "What is current?",
-    "questionOdia": "କରେଣ୍ଟ କ'ଣ?",
-    "options": [
-      "Flow of electrons",
-      "Resistance",
-      "Voltage",
-      "Power"
-    ],
-    "answer": "Flow of electrons",
-    "explanation": "Current is flow of electrons."
-  },
-   {
-    "questionEnglish": "What is current?",
-    "questionOdia": "କରେଣ୍ଟ କ'ଣ?",
-    "options": [
-      "Flow of electrons",
-      "Resistance",
-      "Voltage",
-      "Power"
-    ],
-    "answer": "Flow of electrons",
-    "explanation": "Current is flow of electrons."
-   }
+{
+"questionEnglish": "What is the SI unit of electric charge?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ଆବେଶ (Electric charge) ର ଏସ.ଆଇ (SI) ଏକକ କ’ଣ?",
+"options": [
+"ଆମ୍ପିୟର୍",
+"ଭୋଲ୍ଟ",
+"କୁଲମ୍ବ",
+"ଓହ୍ମ"
+],
+"answer": "କୁଲମ୍ବ",
+"explanation": "ବିଦ୍ୟୁତ୍ ଆବେଶର ଏସ.ଆଇ ଏକକ ହେଉଛି କୁଲମ୍ବ (Coulomb), ଯାହାକୁ 'C' ଦ୍ୱାରା ସୂଚିତ କରାଯାଏ।"
+},
+{
+"questionEnglish": "Which instrument is used to measure electric current in a circuit?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ସର୍କିଟରେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ମାପିବା ପାଇଁ କେଉଁ ଯନ୍ତ୍ର ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ଭୋଲ୍ଟମିଟର",
+"ଆମିଟର",
+"ଗାଲଭାନୋମିଟର",
+"ରିହୋଷ୍ଟାଟ"
+],
+"answer": "ଆମିଟର",
+"explanation": "ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ପରିମାଣ ମାପିବା ପାଇଁ ଆମିଟର (Ammeter) ବ୍ୟବହାର କରାଯାଏ ଏବଂ ଏହା ସର୍କିଟରେ ସର୍ବଦା ଶ୍ରେଣୀ ସମବାୟରେ ସଂଯୋଗ ହୁଏ।"
+},
+{
+"questionEnglish": "What does the potential difference between two points represent in an electric circuit?",
+"questionOdia": "ଏକ ବିଦ୍ୟୁତ୍ ସର୍କିଟରେ ଦୁଇଟି ବିନ୍ଦୁ ମଧ୍ୟରେ ବିଭବାନ୍ତର କ’ଣ ସୂଚାଏ?",
+"options": [
+"ଆବେଶ ପ୍ରବାହର ହାର",
+"କାର୍ଯ୍ୟ କିମ୍ବା ଶକ୍ତି ପ୍ରତି ଏକକ ଆବେଶ",
+"ରୋଧର ପରିମାଣ",
+"ବିଦ୍ୟୁତ୍ ଶକ୍ତିର ମୋଟ ପରିମାଣ"
+],
+"answer": "କାର୍ଯ୍ୟ କିମ୍ବା ଶକ୍ତି ପ୍ରତି ଏକକ ଆବେଶ",
+"explanation": "ଦୁଇଟି ବିନ୍ଦୁ ମଧ୍ୟରେ ବିଭବାନ୍ତର ହେଉଛି ଏକକ ଧନାତ୍ମକ ଆବେଶକୁ ଗୋଟିଏ ବିନ୍ଦୁରୁ ଅନ୍ୟ ବିନ୍ଦୁକୁ ନେବା ପାଇଁ କରାଯାଇଥିବା କାର୍ଯ୍ୟର ପରିମାଣ।"
+},
+{
+"questionEnglish": "State Ohm's law relationship between potential difference (V), current (I), and resistance (R).",
+"questionOdia": "ଓହ୍ମଙ୍କ ସୂତ୍ର ଅନୁଯାୟୀ ବିଭବାନ୍ତର (V), ବିଦ୍ୟୁତ୍ ପ୍ରବାହ (I) ଏବଂ ରୋଧ (R) ମଧ୍ୟରେ ସମ୍ବନ୍ଧ କ’ଣ?",
+"options": [
+"V = I / R",
+"V = R / I",
+"V = I × R",
+"I = V × R"
+],
+"answer": "V = I × R",
+"explanation": "ଓହ୍ମଙ୍କ ନିୟମ ଅନୁସାରେ ନିର୍ଦ୍ଦିଷ୍ଟ ତାପମାତ୍ରାରେ ପରିବାହୀର ବିଭବାନ୍ତର (V) ଏହାର ବିଦ୍ୟୁତ୍ ପ୍ରବାହ (I) ଓ ରୋଧ (R) ର ଗୁଣଫଳ ସହିତ ସମାନ ଅଟେ, ଅର୍ଥାତ୍ V = IR।"
+},
+{
+"questionEnglish": "What is the SI unit of electrical resistance?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ରୋଧ (Electrical resistance) ର ଏସ.ଆଇ (SI) ଏକକ କ’ଣ?",
+"options": [
+"ଓହ୍ମ",
+"ଓହ୍ମ-ମିଟର",
+"ଭୋଲ୍ଟ",
+"ୱାଟ୍"
+],
+"answer": "ଓହ୍ମ",
+"explanation": "ରୋଧର ଏସ.ଆଇ ଏକକ ହେଉଛି ଓହ୍ମ (Ohm), ଯାହାକୁ ଗ୍ରୀକ୍ ଅକ୍ଷର Ω ଦ୍ୱାରା ପ୍ରକାଶ କରାଯାଏ।"
+},
+{
+"questionEnglish": "On which factors does the resistance of a conductor not depend?",
+"questionOdia": "ପରିବାହୀର ରୋଧ ନିମ୍ନୋକ୍ତ ମଧ୍ୟରୁ କେଉଁଟି ଉପରେ ନିର୍ଭର କରେ ନାହିଁ?",
+"options": [
+"ପରିବାହୀର ଦୈର୍ଘ୍ୟ",
+"ପରିବାହୀର ପ୍ରସ୍ଥଚ୍ଛେଦର କ୍ଷେତ୍ରଫଳ",
+"ପରିବାହୀର ଆକାର (Shape) ବା ଜ୍ୟୋମିତିକ ଗଠନ",
+"ପରିବାହୀର ଉପାଦାନ (Material)"
+],
+"answer": "ପରିବାହୀର ଆକାର (Shape) ବା ଜ୍ୟୋମିତିକ ଗଠନ",
+"explanation": "ପରିବାହୀର ରୋଧ ଏହାର ଦୈର୍ଘ୍ୟ (l), ପ୍ରସ୍ଥଚ୍ଛେଦର କ୍ଷେତ୍ରଫଳ (A) ଏବଂ ଉପାଦାନର ପ୍ରକୃତି ଉପରେ ନିର୍ଭର କରେ, ମାତ୍ର ସାଧାରଣ ଆକାର ଉପରେ ସିଧାସଳଖ ନିର୍ଭର କରେ ନାହିଁ।"
+},
+{
+"questionEnglish": "What is electrical resistivity? What is its SI unit?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ରୋଧାଙ୍କ (Resistivity) ର ଏସ.ଆଇ ଏକକ କ’ଣ?",
+"options": [
+"ଓହ୍ମ",
+"ଓହ୍ମ-ମିଟର",
+"ଓହ୍ମ/ମିଟର",
+"କୁଲମ୍ବ-ମିଟର"
+],
+"answer": "ଓହ୍ମ-ମିଟର",
+"explanation": "ରୋଧାଙ୍କ ବା ବିଶିଷ୍ଟ ରୋଧର ଏସ.ଆଇ ଏକକ ହେଉଛି ଓହ୍ମ-ମିଟର (Ω·m)।"
+},
+{
+"questionEnglish": "How does the resistance of a wire change if its length is doubled while keeping its area constant?",
+"questionOdia": "ଯଦି ଏକ ତାରର ଦୈର୍ଘ୍ୟ ଦ୍ୱିଗୁଣିତ କରାଯାଏ ଏବଂ ପ୍ରସ୍ଥଚ୍ଛେଦ କ୍ଷେତ୍ରଫଳ ଅପରିବର୍ତ୍ତିତ ରହେ, ତେବେ ଏହାର ରୋଧ କିପରି ପରିବର୍ତ୍ତିତ ହେବ?",
+"options": [
+"ଅଧା ହୋଇଯିବ",
+"ଅପରିବର୍ତ୍ତିତ ରହିବ",
+"ଦ୍ୱିଗୁଣିତ ହେବ",
+"ଚାରିଗୁଣ ହେବ"
+],
+"answer": "ଦ୍ୱିଗୁଣିତ ହେବ",
+"explanation": "ରୋଧ (R) ପରିବାହୀର ଦୈର୍ଘ୍ୟ (l) ସହିତ ସମାନାନୁପାତିକ ଅଟେ (R ∝ l), ତେଣୁ ଦୈର୍ଘ୍ୟ ଦ୍ୱିଗୁଣିତ ହେଲେ ରୋଧ ମଧ୍ୟ ଦ୍ୱିଗୁଣିତ ହୁଏ।"
+},
+{
+"questionEnglish": "When resistors are connected in series, which physical quantity remains the same across each resistor?",
+"questionOdia": "ଯେତେବେଳେ ରୋଧକଗୁଡ଼ିକୁ ଶ୍ରେଣୀ ସମବାୟରେ ସଂଯୋଗ କରାଯାଏ, ସେତେବେଳେ ପ୍ରତ୍ୟେକ ରୋଧକ ମଧ୍ୟରେ କେଉଁ ଭୌତିକ ପରିମାଣ ସମାନ ରହେ?",
+"options": [
+"ବିଭବାନ୍ତର (Potential difference)",
+"ବିଦ୍ୟୁତ୍ ପ୍ରବାହ (Electric current)",
+"ରୋଧ (Resistance)",
+"ବିଦ୍ୟୁତ୍ ଶକ୍ତି (Electric power)"
+],
+"answer": "ବିଦ୍ୟୁତ୍ ପ୍ରବାହ (Electric current)",
+"explanation": "ଶ୍ରେଣୀ ସମବାୟରେ ସମସ୍ତ ରୋଧକ ମଧ୍ୟ ଦେଇ ସମାନ ପରିମାଣର ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "When resistors are connected in parallel, which physical quantity remains the same across each resistor?",
+"questionOdia": "ଯେତେବେଳେ ରୋଧକଗୁଡ଼ିକୁ ସମାନ୍ତରାଳ ସମବାୟରେ ସଂଯୋଗ କରାଯାଏ, ସେତେବେଳେ ପ୍ରତ୍ୟେକ ରୋଧକ ମଧ୍ୟରେ କେଉଁଟି ସମାନ ରହେ?",
+"options": [
+"ବିଦ୍ୟୁତ୍ ପ୍ରବାହ",
+"ବିଭବାନ୍ତର",
+"ରୋଧ",
+"ଚାର୍ଜ"
+],
+"answer": "ବିଭବାନ୍ତର",
+"explanation": "ସମାନ୍ତରାଳ ସମବାୟରେ ପ୍ରତ୍ୟେକ ରୋଧକର ଦୁଇ ପ୍ରାନ୍ତ ମଧ୍ୟରେ ବିଭବାନ୍ତର ସମାନ ରହିଥାଏ।"
+},
+{
+"questionEnglish": "What is the equivalent resistance when two resistors of 2 ohms and 3 ohms are connected in series?",
+"questionOdia": "ଯଦି 2 ଓହ୍ମ ଏବଂ 3 ଓହ୍ମ ବିଶିଷ୍ଟ ଦୁଇଟି ରୋଧକକୁ ଶ୍ରେଣୀ ସମବାୟରେ ସଂଯୋଗ କରାଯାଏ, ତେବେ ସମତୁଲ ରୋଧ (Equivalent resistance) କେତେ ହେବ?",
+"options": [
+"1.2 ଓହ୍ମ",
+"5 ଓହ୍ମ",
+"6 ଓହ୍ମ",
+"0.5 ଓହ୍ମ"
+],
+"answer": "5 ଓହ୍ମ",
+"explanation": "ଶ୍ରେଣୀ ସମବାୟରେ ସମତୁଲ ରୋଧ ହେଉଛି ବ୍ୟକ୍ତିଗତ ରୋଧଗୁଡ଼ିକର ଯୋଗଫଳ: R = R1 + R2 = 2 + 3 = 5 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "What is the equivalent resistance when two resistors of 6 ohms each are connected in parallel?",
+"questionOdia": "ଯଦି ପ୍ରତ୍ୟେକେ 6 ଓହ୍ମ ବିଶିଷ୍ଟ ଦୁଇଟି ରୋଧକକୁ ସମାନ୍ତରାଳ ସମବାୟରେ ସଂଯୋଗ କରାଯାଏ, ତେବେ ସମତୁଲ ରୋଧ କେତେ ହେବ?",
+"options": [
+"12 ଓହ୍ମ",
+"3 ଓହ୍ମ",
+"6 ଓହ୍ମ",
+"1 ଓହ୍ମ"
+],
+"answer": "3 ଓହ୍ମ",
+"explanation": "ସମାନ୍ତରାଳ ସମବାୟ ପାଇଁ 1/R = 1/6 + 1/6 = 2/6 = 1/3, ତେଣୁ R = 3 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "What is the heating effect of electric current called?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ତାପୀୟ ପ୍ରଭାବକୁ କେଉଁ ନିୟମ ଦ୍ୱାରା ପ୍ରକାଶ କରାଯାଏ?",
+"options": [
+"ଜୁଲଙ୍କ ତାପୀୟ ନିୟମ",
+"ଫାରାଡେଙ୍କ ନିୟମ",
+"ଓହ୍ମଙ୍କ ନିୟମ",
+"ଆମ୍ପିୟରଙ୍କ ନିୟମ"
+],
+"answer": "ଜୁଲଙ୍କ ତାପୀୟ ନିୟମ",
+"explanation": "ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ହେତୁ ପରିବାହୀରେ ସୃଷ୍ଟି ହେଉଥିବା ତାପ ପରିମାଣ ଜୁଲଙ୍କ ତାପୀୟ ନିୟମ (Joule's Law of Heating) ଦ୍ୱାରା ନିର୍ଣ୍ଣୟ କରାଯାଏ।"
+},
+{
+"questionEnglish": "According to Joule's law of heating, the heat produced in a resistor is proportional to:",
+"questionOdia": "ଜୁଲଙ୍କ ତାପୀୟ ନିୟମ ଅନୁସାରେ, ରୋଧକରେ ଉତ୍ପନ୍ନ ତାପ (H) କାହା ସହିତ ସମାନାନୁପାତିକ ଅଟେ?",
+"options": [
+"ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ବର୍ଗ (I²)",
+"ବିଦ୍ୟୁତ୍ ପ୍ରବାହ (I)",
+"ରୋଧର ବର୍ଗ (R²)",
+"ସମୟର ବର୍ଗ (t²)"
+],
+"answer": "ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ବର୍ଗ (I²)",
+"explanation": "ଜୁଲଙ୍କ ସୂତ୍ର ଅନୁଯାୟୀ H = I²Rt, ଅର୍ଥାତ୍ ଉତ୍ପନ୍ନ ତାପ ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ବର୍ଗ (I²), ରୋଧ (R) ଏବଂ ସମୟ (t) ସହିତ ସମାନାନୁପାତିକ।"
+},
+{
+"questionEnglish": "What is the SI unit of electric power?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ଶକ୍ତି ବା କ୍ଷମତା (Electric Power) ର ଏସ.ଆଇ ଏକକ କ’ଣ?",
+"options": [
+"ଜୁଲ୍",
+"ୱାଟ୍",
+"ଭୋଲ୍ଟ",
+"ଆମ୍ପିୟର୍"
+],
+"answer": "ୱାଟ୍",
+"explanation": "ବିଦ୍ୟୁତ୍ କ୍ଷମତାର ଏସ.ଆଇ ଏକକ ହେଉଛି ୱାଟ୍ (Watt), ଯାହାକୁ 'W' ଦ୍ୱାରା ସୂଚିତ କରାଯାଏ।"
+},
+{
+"questionEnglish": "Which of the following formulae correctly represents electric power (P)?",
+"questionOdia": "ନିମ୍ନୋକ୍ତ ମଧ୍ୟରୁ କେଉଁଟି ବିଦ୍ୟୁତ୍ କ୍ଷମତା (P) ର ସଠକ୍ ସୂତ୍ର ଅଟେ?",
+"options": [
+"P = V / I",
+"P = I² / R",
+"P = V × I",
+"P = R / V²"
+],
+"answer": "P = V × I",
+"explanation": "ବିଦ୍ୟୁତ୍ କ୍ଷମତା ହେଉଛି ବିଭବାନ୍ତର ଏବଂ ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ଗୁଣଫଳ, ଅର୍ଥାତ୍ P = VI।"
+},
+{
+"questionEnglish": "One kilowatt-hour (kWh) is equal to how many joules of electrical energy?",
+"questionOdia": "ଗୋଟିଏ କିଲୋୱାଟ୍-ଘଣ୍ଟା (kWh) କେତେ ଜୁଲ୍ ଶକ୍ତି ସହିତ ସମାନ?",
+"options": [
+"3.6 × 10⁵ J",
+"3.6 × 10⁶ J",
+"10³ J",
+"10⁶ J"
+],
+"answer": "3.6 × 10⁶ J",
+"explanation": "1 kWh (ଯାହାକୁ ଏକ ବିଦ୍ୟୁତ୍ ୟୁନିଟ୍ କୁହାଯାଏ) = 1000 W × 3600 s = 3.6 × 10⁶ ଜୁଲ୍।"
+},
+{
+"questionEnglish": "Why are the coils of electric toasters and electric irons made of an alloy rather than a pure metal?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ଇସ୍ତ୍ରୀ ଏବଂ ଟୋଷ୍ଟରର କଏଲଗୁଡ଼ିକ ବିଶୁଦ୍ଧ ଧାତୁ ବଦଳରେ ମିଶ୍ରଧାତୁ (Alloy) ଦ୍ୱାରା କାହିଁକି ପ୍ରସ୍ତୁତ କରାଯାଏ?",
+"options": [
+"ମିଶ୍ରଧାତୁର ରୋଧାଙ୍କ ଅଧିକ ଏବଂ ଏହା ଉଚ୍ଚ ତାପମାତ୍ରାରେ ଅକ୍ସିଡାଇଜ୍ ହୁଏ ନାହିଁ",
+"ମିଶ୍ରଧାତୁର ରୋଧ շୂନ୍ୟ ଅଟେ",
+"ମିଶ୍ରଧାତୁ ବହୁତ ଶସ୍ତା ଅଟେ",
+"ମିଶ୍ରଧାତୁର ବିଦ୍ୟୁତ୍ ପରିବାହିତା ବହୁତ ଅଧିକ"
+],
+"answer": "ମିଶ୍ରଧାତୁର ରୋଧାଙ୍କ ଅଧିକ ଏବଂ ଏହା ଉଚ୍ଚ ତାପମାତ୍ରାରେ ଅକ୍ସିଡାଇଜ୍ ହୁଏ ନାହିଁ",
+"explanation": "ମିଶ୍ରଧାତୁଗୁଡ଼ିକର ବିଶିଷ୍ଟ ରୋଧ (ରୋଧାଙ୍କ) ବିଶୁଦ୍ଧ ଧାତୁ ଅପେକ୍ଷା ଅଧିକ ଏବଂ ଉଚ୍ଚ ତାପମାତ୍ରାରେ ସେଗୁଡ଼ିକ ଶୀଘ୍ର ଜଳି କିମ୍ବା ଅକ୍ସିଡାଇଜ୍ ହୋଇଯାଆନ୍ତି ନାହିଁ।"
+},
+{
+"questionEnglish": "What is the function of an electric fuse in a domestic electric circuit?",
+"questionOdia": "ଘରୋଇ ବିଦ୍ୟୁତ୍ ସର୍କିଟରେ ବିଦ୍ୟୁତ୍ ଫ୍ୟୁଜର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କ’ଣ?",
+"options": [
+"ବିଦ୍ୟୁତ୍ ପ୍ରବାହକୁ ବଢ଼ାଇବା",
+"ସର୍କିଟକୁ ସର୍ଟ ସର୍କିଟ୍ ଓ ଓଭରଲୋଡିଂରୁ ସୁରକ୍ଷା ଦେବା",
+"ଭୋଲ୍ଟେଜ୍ ନିୟନ୍ତ୍ରଣ କରିବା",
+"ବିଦ୍ୟୁତ୍ ଶକ୍ତି ସଞ୍ଚୟ କରିବା"
+],
+"answer": "ସର୍କିଟକୁ ସର୍ଟ ସର୍କିଟ୍ ଓଭରଲୋଡିଂରୁ ସୁରକ୍ଷା ଦେବା",
+"explanation": "ବିଦ୍ୟୁତ୍ ଫ୍ୟୁଜ୍ ଏକ ସୁରକ୍ଷା ଯନ୍ତ୍ର, ଯାହା ଅଧିକ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ବା ସର୍ଟ ସର୍କିଟ୍ ସମୟରେ ତରଳିଯାଇ ସର୍କିଟ୍ କାଟିଦିଏ ଏବଂ ଉପକରଣଗୁଡ଼ିକୁ ରକ୍ଷା କରେ।"
+},
+{
+"questionEnglish": "What is the commercial unit of electrical energy?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ଶକ୍ତିର ବ୍ୟବସାୟିକ ଏକକ (Commercial unit) କ’ଣ?",
+"options": [
+"ୱାଟ୍",
+"ଜୁଲ୍",
+"କିଲୋୱାଟ୍-ଘଣ୍ଟା (kWh)",
+"ଆମ୍ପିୟର୍-ଘଣ୍ଟା"
+],
+"answer": "କିଲୋୱାଟ୍-ଘଣ୍ଟା (kWh)",
+"explanation": "ଘର କିମ୍ବା ଶିଳ୍ପରେ ବ୍ୟବହୃତ ବିଦ୍ୟୁତ୍ ଶକ୍ତିକୁ ମାପିବା ପାଇଁ କିଲୋୱାଟ୍-ଘଣ୍ଟା (kWh) କିମ୍ବା 'ୟୁନିଟ୍' ବ୍ୟବହାର କରାଯାଏ।"
+},
+{
+"questionEnglish": "How does an ammeter need to be connected in an electrical circuit?",
+"questionOdia": "ଗୋଟିଏ ବିଦ୍ୟୁତ୍ ସର୍କିଟରେ ଆମିଟରକୁ କିପରି ସଂଯୋଗ କରାଯିବା ଉଚିତ୍?",
+"options": [
+"ସମାନ୍ତରାଳ ସମବାୟରେ",
+"ଶ୍ରେଣୀ ସମବାୟରେ",
+"ଯେକୌଣସି ପ୍ରକାରେ",
+"କେବଳ ବ୍ୟାଟେରୀ ସହିତ ସିଧାସଳଖ"
+],
+"answer": "ଶ୍ରେଣୀ ସମବାୟରେ",
+"explanation": "ସର୍କିଟର ସମସ୍ତ ବିଦ୍ୟୁତ୍ ପ୍ରବାହକୁ ସଠିକ୍ ଭାବରେ ମାପିବା ପାଇଁ ଆମିଟରକୁ ସର୍ବଦା ଶ୍ରେଣୀ ସମବାୟ (Series) ରେ ସଂଯୋଗ କରାଯାଏ।"
+},
+{
+"questionEnglish": "How does a voltmeter need to be connected in an electrical circuit?",
+"questionOdia": "ଗୋଟିଏ ବିଦ୍ୟୁତ୍ ସର୍କିଟରେ ଭୋଲ୍ଟମିଟରକୁ କିପରି ସଂଯୋଗ କରାଯିବା ଉଚିତ୍?",
+"options": [
+"ଶ୍ରେଣୀ ସମବାୟରେ",
+"ସମାନ୍ତରାଳ ସମବାୟରେ",
+"ମୁଖ୍ୟ ତାର ସହିତ ସିଧାସଳଖ",
+"କୌଣସି ସଂଯୋଗ ଆବଶ୍ୟକ ନାହିଁ"
+],
+"answer": "ସମାନ୍ତରାଳ ସମବାୟରେ",
+"explanation": "ଦୁଇଟି ବିନ୍ଦୁ ମଧ୍ୟରେ ସଠିକ୍ ବିଭବାନ୍ତର ମାପିବା ପାଇଁ ଭୋଲ୍ଟମିଟରକୁ ସର୍ବଦା ସମାନ୍ତରାଳ ସମବାୟ (Parallel) ରେ ସଂଯୋଗ କରାଯାଏ।"
+},
+{
+"questionEnglish": "What happens to the resistance of a conductor if its cross-sectional area is increased?",
+"questionOdia": "ଯଦି ପରିବାହୀର ପ୍ରସ୍ଥଚ୍ଛେଦ କ୍ଷେତ୍ରଫଳ ବୃଦ୍ଧି କରାଯାଏ, ତେବେ ଏହାର ରୋଧ କ’ଣ ହେବ?",
+"options": [
+"ବୃଦ୍ଧି ପାଇବ",
+"ହ୍ରାସ ପାଇବ",
+"ଅପରିବର୍ତ୍ତିତ ରହିବ",
+"ପ୍ରଥମେ ବଢ଼ିବ ପରେ କମିବ"
+],
+"answer": "ହ୍ରାସ ପାଇବ",
+"explanation": "ରୋଧ ପ୍ରସ୍ଥଚ୍ଛେଦ କ୍ଷେତ୍ରଫଳ ସହିତ ବ୍ୟସ୍ତାନୁପାତିକ ଅଟେ (R ∝ 1/A), ତେଣୁ କ୍ଷେତ୍ରଫଳ ବଢ଼ିଲେ ରୋଧ କମିଥାଏ।"
+},
+{
+"questionEnglish": "Why are copper and aluminium wires usually used for electricity transmission?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ପରିବହନ ପାଇଁ ସାଧାରଣତଃ ତମ୍ବା (Copper) ଏବଂ ଆଲୁମିନିୟମ୍ ତାର କାହିଁକି ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ସେଗୁଡ଼ିକର ରୋଧାଙ୍କ ବହୁତ କମ୍ ଏବଂ ପରିବାହିତା ଅଧିକ",
+"ସେଗୁଡ଼ିକର ରୋଧାଙ୍କ ବହୁତ ଅଧିକ",
+"ସେଗୁଡ଼ିକ ବିଦ୍ୟୁତ୍ କୁପରିବାହୀ",
+"ସେଗୁଡ଼ିକ ବହୁତ ମହଙ୍ଗା ଅଟନ୍ତି"
+],
+"answer": "ସେଗୁଡ଼ିକର ରୋଧାଙ୍କ ବହୁତ କମ୍ ଏବଂ ପରିବାହିତା ଅଧିକ",
+"explanation": "ତମ୍ବା ଏବଂ ଆଲୁମିନିୟମ୍ର ବିଶିଷ୍ଟ ରୋଧ ବା ରୋଧାଙ୍କ ଅତି କମ୍ ହୋଇଥିବାରୁ ସେଗୁଡ଼ିକ ଭଲ ବିଦ୍ୟୁତ୍ ପରିବାହୀ ଅଟନ୍ତି।"
+},
+{
+"questionEnglish": "An electric bulb is rated 220V and 100W. What is its resistance?",
+"questionOdia": "ଗୋଟିଏ ବିଦ୍ୟୁତ୍ ବଲ୍ବରେ 220V ଏବଂ 100W ଲେଖା ଅଛି। ଏହାର ରୋଧ କେତେ?",
+"options": [
+"220 ଓହ୍ମ",
+"484 ଓହ୍ମ",
+"48.4 ଓହ୍ମ",
+"2.2 ଓହ୍ମ"
+],
+"answer": "484 ଓହ୍ମ",
+"explanation": "କ୍ଷମତା P = V² / R, ତେଣୁ R = V² / P = (220)² / 100 = 48400 / 100 = 484 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "What is the direction of conventional electric current in a circuit?",
+"questionOdia": "ସର୍କିଟରେ ପ୍ରଚଳିତ ବା ପାରମ୍ପରିକ ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ଦିଗ କେଉଁଠାରୁ କେଉଁଆଡ଼କୁ ହୋଇଥାଏ?",
+"options": [
+"ଋଣାତ୍ମକ ପ୍ରାନ୍ତରୁ ଧନାତ୍ମକ ପ୍ରାନ୍ତ",
+"ଧନାତ୍ମକ ପ୍ରାନ୍ତରୁ ଋଣାତ୍ମକ ପ୍ରାନ୍ତ",
+"ଯେକୌଣସି ଦିଗରେ",
+"କେବଳ ବୃତ୍ତାକାର ପଥରେ"
+],
+"answer": "ଧନାତ୍ମକ ପ୍ରାନ୍ତରୁ ଋଣାତ୍ମକ ପ୍ରାନ୍ତ",
+"explanation": "ପାରମ୍ପରିକ ଭାବରେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ଦିଗ ବ୍ୟାଟେରୀର ଧନାତ୍ମକ ପ୍ରାନ୍ତରୁ ଋଣାତ୍ମକ ପ୍ରାନ୍ତ ଆଡ଼କୁ ବୋଲି ଧରାଯାଏ।"
+},
+{
+"questionEnglish": "What are the charge carriers responsible for electric current in metallic conductors?",
+"questionOdia": "ଧାତବ ପରିବାହୀରେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ପାଇଁ କେଉଁ କଣିକାଗୁଡ଼ିକ ଦାୟୀ ଅଟନ୍ତି?",
+"options": [
+"ପ୍ରୋଟନ୍",
+"ନ୍ୟୁଟ୍ରନ୍",
+"ମୁକ୍ତ ଇଲେକ୍ଟ୍ରନ୍",
+"ଧନାତ୍ମକ ଆୟନ"
+],
+"answer": "ମୁକ୍ତ ଇଲେକ୍ଟ୍ରନ୍",
+"explanation": "ଧାତୁ ମଧ୍ୟରେ ମୁକ୍ତ ଭାବରେ ବୁଲୁଥିବା ଇଲେକ୍ଟ୍ରନ୍‌ଗୁଡ଼ିକର ପ୍ରବାହ ହିଁ ବିଦ୍ୟୁତ୍ ସୃଷ୍ଟି କରିଥାଏ।"
+},
+{
+"questionEnglish": "How much work is done in moving a charge of 2 C across two points having a potential difference 12 V?",
+"questionOdia": "12 V ବିଭବାନ୍ତର ଥିବା ଦୁଇଟି ବିନ୍ଦୁ ମଧ୍ୟରେ 2 C ଆବେଶକୁ ନେବା ପାଇଁ କେତେ କାର୍ଯ୍ୟ କରିବାକୁ ପଡ଼ିବ?",
+"options": [
+"6 ଜୁଲ୍",
+"14 ଜୁଲ୍",
+"24 ଜୁଲ୍",
+"6 ଜୁଲ୍"
+],
+"answer": "24 ଜୁଲ୍",
+"explanation": "କାର୍ଯ୍ୟ W = V × Q = 12 V × 2 C = 24 ଜୁଲ୍।"
+},
+{
+"questionEnglish": "What is the equivalent resistance of three resistors of values 2 ohms, 3 ohms, and 5 ohms connected in series?",
+"questionOdia": "2 ଓହ୍ମ, 3 ଓହ୍ମ ଏବଂ 5 ଓହ୍ମ ବିଶିଷ୍ଟ ତିନୋଟି ରୋଧକକୁ ଶ୍ରେଣୀ ସମବାୟରେ ସଂଯୋଗ କଲେ ସମତୁଲ ରୋଧ କେତେ ହେବ?",
+"options": [
+"10 ଓହ୍ମ",
+"1 ଓହ୍ମ",
+"30 ଓହ୍ମ",
+"5 ଓହ୍ମ"
+],
+"answer": "10 ଓହ୍ମ",
+"explanation": "ଶ୍ରେଣୀ ସମବାୟରେ R = R1 + R2 + R3 = 2 + 3 + 5 = 10 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "A current of 0.5 A is drawn by a filament of an electric bulb for 10 minutes. Find the amount of electric charge that flows through the circuit.",
+"questionOdia": "ଗୋଟିଏ ବିଦ୍ୟୁତ୍ ବଲ୍ବର ଫିଲାମେଣ୍ଟ ଦ୍ୱାରା 0.5 A ବିଦ୍ୟୁତ୍ ପ୍ରବାହ 10 ମିନିଟ୍ ପାଇଁ ପ୍ରବାହିତ ହେଲେ ସର୍କିଟ୍ ମଧ୍ୟଦେଇ ପ୍ରବାହିତ ଆବେଶର ପରିମାଣ କେତେ?",
+"options": [
+"5 କୁଲମ୍ବ",
+"300 କୁଲମ୍ବ",
+"60 କୁଲମ୍ବ",
+"120 କୁଲମ୍ବ"
+],
+"answer": "300 କୁଲମ୍ବ",
+"explanation": "ଆବେଶ Q = I × t, ଯେଉଁଠାରେ I = 0.5 A ଏବଂ t = 10 ମିନିଟ୍ = 600 ସେକେଣ୍ଡ। ତେଣୁ Q = 0.5 × 600 = 300 କୁଲମ୍ବ।"
+},
+{
+"questionEnglish": "Which of the following terms does not represent electrical power in a circuit?",
+"questionOdia": "ନିମ୍ନୋକ୍ତ ମଧ୍ୟରୁ କେଉଁଟି ସର୍କିଟରେ ବିଦ୍ୟୁତ୍ କ୍ଷମତା (Power) କୁ ସୂଚାଏ ନାହିଁ?",
+"options": [
+"I²R",
+"IR²",
+"VI",
+"V² / R"
+],
+"answer": "IR²",
+"explanation": "ବିଦ୍ୟୁତ୍ କ୍ଷମତାର ସୂତ୍ରଗୁଡ଼ିକ ହେଉଛି P = VI, P = I²R ଏବଂ P = V² / R; ତେଣୁ IR² ସଠକ୍ ନୁହେଁ।"
+},
+{
+"questionEnglish": "An electric heater is rated 1500 W. How much energy does it consume in 10 hours?",
+"questionOdia": "ଗୋଟିଏ ବିଦ୍ୟୁତ୍ ହୀଟରର କ୍ଷମତା 1500 W ଅଟେ। ଏହା 10 ଘଣ୍ଟାରେ କେତେ ପରିମାଣର ଶକ୍ତି ବ୍ୟବହାର କରିବ?",
+"options": [
+"15 ୟୁନିଟ୍ (kWh)",
+"150 ୟୁନିଟ୍ (kWh)",
+"1.5 ୟୁନିଟ୍ (kWh)",
+"15000 ୟୁନିଟ୍ (kWh)"
+],
+"answer": "15 ୟୁନିଟ୍ (kWh)",
+"explanation": "ଶକ୍ତି (kWh) = (କ୍ଷମତା ୱାଟ୍‌ରେ × ଘଣ୍ଟା) / 1000 = (1500 × 10) / 1000 = 15 kWh (ୟୁନିଟ୍)।"
+},
+{
+"questionEnglish": "What happens to the current in a circuit if the resistance is doubled while the voltage remains constant?",
+"questionOdia": "ଯଦି ଭୋଲ୍ଟେଜ୍ ସ୍ଥିର ରହି ରୋଧକୁ ଦ୍ୱିଗୁଣିତ କରାଯାଏ, ତେବେ ସର୍କିଟର ବିଦ୍ୟୁତ୍ ପ୍ରବାହ କ’ଣ ହେବ?",
+"options": [
+"ଦ୍ୱିଗୁଣିତ ହେବ",
+"ଅଧା ହୋଇଯିବ",
+"ଅପରିବର୍ତ୍ତିତ ରହିବ",
+"ଚାରିଗୁଣ ହେବ"
+],
+"answer": "ଅଧା ହୋଇଯିବ",
+"explanation": "ଓହ୍ମଙ୍କ ନିୟମ ଅନୁସାରେ I = V / R; ରୋଧ (R) ଦ୍ୱିଗୁଣିତ ହେଲେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ (I) ଅଧା ହୋଇଯାଏ।"
+},
+{
+"questionEnglish": "What is the main purpose of connecting household appliances in parallel?",
+"questionOdia": "ଘରୋଇ ବିଦ୍ୟୁତ୍ ଉପକରଣଗୁଡ଼ିକୁ ସମାନ୍ତରାଳ ସମବାୟରେ ସଂଯୋଗ କରିବାର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ’ଣ?",
+"options": [
+"ସବୁ ଉପକରଣରେ ସମାନ ବିଭବାନ୍ତର ଏବଂ ସ୍ୱାଧୀନ ଭାବରେ କାର୍ଯ୍ୟ କରିବା ସୁବିଧା",
+"ସର୍କିଟର ରୋଧ ବୃଦ୍ଧି କରିବା",
+"ବିଦ୍ୟୁତ୍ ପ୍ରବାହ କମାଇବା",
+"କେବଳ ଗୋଟିଏ ସୁଇଚ୍ ଦ୍ୱାରା ସବୁ ବନ୍ଦ କରିବା"
+],
+"answer": "ସବୁ ଉପକରଣରେ ସମାନ ବିଭବାନ୍ତର ଏବଂ ସ୍ୱାଧୀନ ଭାବରେ କାର୍ଯ୍ୟ କରିବା ସୁବିଧା",
+"explanation": "ସମାନ୍ତରାଳ ସମବାୟରେ ପ୍ରତ୍ୟେକ ଉପକରଣ ନିଜର ଆବଶ୍ୟକତା ଅନୁଯାୟୀ ସ୍ୱାଧୀନ ଭାବରେ କାମ କରେ ଏବଂ ଗୋଟିଏ ଖରାପ ହେଲେ ଅନ୍ୟଗୁଡ଼ିକ ପ୍ରଭାବିତ ହୁଅନ୍ତି ନାହିଁ।"
+},
+{
+"questionEnglish": "Which material is best suited for making heating elements of electric irons and heaters?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ଇସ୍ତ୍ରୀ ଏବଂ ହୀଟରର ତାପକ ଉପାଦାନ (Heating element) ପ୍ରସ୍ତୁତି ପାଇଁ କେଉଁ ମିଶ୍ରଧାତୁ ସର୍ବୋତ୍ତମ?",
+"options": [
+"ନାଇକ୍ରୋମ୍",
+"ଟଙ୍ଗଷ୍ଟେନ୍",
+"ତମ୍ବା",
+"ଆଲୁମିନିୟମ୍"
+],
+"answer": "ନାଇକ୍ରୋମ୍",
+"explanation": "ନାଇକ୍ରୋମ୍ (Nichrome) ଏକ ମିଶ୍ରଧାତୁ ଯାହାର ରୋଧାଙ୍କ ଅଧିକ ଏବଂ ଏହା ଉଚ୍ଚ ତାପମାତ୍ରାରେ ମଧ୍ୟ ସହଜରେ ଅକ୍ସିଡାଇଜ୍ ହୁଏ ନାହିଁ।"
+},
+{
+"questionEnglish": "Why is tungsten used exclusively for the filaments of electric lamps?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ବଲ୍ବର ଫିଲାମେଣ୍ଟ ପାଇଁ କେବଳ ଟଙ୍ଗଷ୍ଟେନ୍ କାହିଁକି ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ଏହାର ତରଳନାଙ୍କ (Melting point) ବହୁତ ଅଧିକ",
+"ଏହା ବହୁତ ଶସ୍ତା",
+"ଏହା ବିଦ୍ୟୁତ୍ କୁପରିବାହୀ",
+"ଏହା ଖୁବ୍ ଶୀଘ୍ର ତରଳିଯାଏ"
+],
+"answer": "ଏହାର ତରଳନାଙ୍କ (Melting point) ବହୁତ ଅଧିକ",
+"explanation": "ଟଙ୍ଗଷ୍ଟେନ୍ର ତରଳନାଙ୍କ ଅତି ଉଚ୍ଚ (ପ୍ରାୟ 3380°C) ହୋଇଥିବାରୁ ଏହା ଅଧିକ ତାପମାତ୍ରାରେ ମଧ୍ୟ ତରଳି ନ ଯାଇ ଉଜ୍ଜ୍ୱଳ ଆଲୋକ ଦେଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the potential difference between live wire and neutral wire in Indian domestic electric circuits?",
+"questionOdia": "ଭାରତୀୟ ଘରୋଇ ବିଦ୍ୟୁତ୍ ସର୍କିଟରେ ଲାଇଭ୍ ତାର ଏବଂ ନିଉଟ୍ରାଲ୍ ତାର ମଧ୍ୟରେ ବିଭବାନ୍ତର କେତେ?",
+"options": [
+"110 V",
+"220 V",
+"440 V",
+"240 V"
+],
+"answer": "220 V",
+"explanation": "ଆମ ଦେଶର ଘରୋଇ ସର୍କିଟ୍‌ରେ ସାଧାରଣତଃ ଲାଇଭ୍ ଏବଂ ନିଉଟ୍ରାଲ୍ ତାର ମଧ୍ୟରେ ବିଭବାନ୍ତର 220 ଭୋଲ୍ଟ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the color insulation of the earth wire in a standard domestic cable?",
+"questionOdia": "ସାଧାରଣ ଘରୋଇ କେବୁଲରେ ଆର୍ଥ (Earth) ତାରର ଆବରଣ ରଙ୍ଗ କ’ଣ ହୋଇଥାଏ?",
+"options": [
+"ନାଲି (Red)",
+"କଳା (Black)",
+"ସବୁଜ (Green)",
+"ହଳଦିଆ (Yellow)"
+],
+"answer": "ସବୁଜ (Green)",
+"explanation": "ଆର୍ଥ ତାରର ଇନସୁଲେସନ୍ ରଙ୍ଗ ସବୁଜ ହୋଇଥାଏ, ଲାଇଭ୍ ତାର ନାଲି ଏବଂ ନିଉଟ୍ରାଲ୍ ତାର କଳା ରଙ୍ଗର ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What causes overloading in a domestic electric circuit?",
+"questionOdia": "ଘରୋଇ ବିଦ୍ୟୁତ୍ ସର୍କିଟରେ ଓଭରଲୋଡିଂ (Overloading) କାହିଁକି ହୋଇଥାଏ?",
+"options": [
+"ସର୍କିଟରେ ବହୁତ ଅଧିକ ଉପକରଣ ଏକକାଳୀନ ଚାଲୁ କଲେ",
+"ବିଦ୍ୟୁତ୍ ସରବନ୍ଦ ହେଲେ",
+"ଫ୍ୟୁଜ୍ ତାର ତରଳିଗଲେ",
+"ବ୍ୟାଟେରୀ ଡିସ୍ଚାର୍ଜ ହେଲେ"
+],
+"answer": "ସର୍କିଟରେ ବହୁତ ଅଧିକ ଉପକରଣ ଏକକାଳୀନ ଚାଲୁ କଲେ",
+"explanation": "ଗୋଟିଏ ସକେଟ୍ ବା ସର୍କିଟ୍‌ରେ ଅନେକଗୁଡ଼ିକ ଉଚ୍ଚ କ୍ଷମତାସମ୍ପନ୍ନ ଉପକରଣ ଏକାସାଙ୍ଗରେ ସଂଯୋଗ କଲେ ମୋଟ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ଅଧିକ ହୋଇ ଓଭରଲୋଡିଂ ଘଟେ।"
+},
+{
+"questionEnglish": "What is short circuit?",
+"questionOdia": "ସର୍ଟ ସର୍କିଟ୍ (Short circuit) କିପରି ଘଟେ?",
+"options": [
+"ଲାଇଭ୍ ତାର ଏବଂ ନିଉଟ୍ରାଲ୍ ତାର ସିଧାସଳଖ ସଂସ୍ପର୍ଶରେ ଆସିଲେ",
+"ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ସଂପୂର୍ଣ୍ଣ ବନ୍ଦ ହୋଇଗଲେ",
+"ରୋଧରମାନ ଅତ୍ୟଧିକ ବୃଦ୍ଧି ପାଇଲେ",
+"ବଲ୍ବର ଫିଲାମେଣ୍ଟ ଜଳିଗଲେ"
+],
+"answer": "ଲାଇଭ୍ ତାର ଏବଂ ନିଉଟ୍ରାଲ୍ ତାର ସିଧାସଳଖ ସଂସ୍ପର୍ଶରେ ଆସିଲେ",
+"explanation": "ଯତେବେଳେ ତାରର ଇନସୁଲେସନ୍ ନଷ୍ଟ ହୋଇଯିବା କାରଣରୁ ଲାଇଭ୍ ତାର ଏବଂ ନିଉଟ୍ରାଲ୍ ତାର ସିଧାସଳଖ ସଂସ୍ପର୍ଶରେ ଆସନ୍ତି, ସେତେବେଳେ ସର୍ଟ ସର୍କିଟ୍ ଘଟେ।"
+},
+{
+"questionEnglish": "Calculate the resistance of a conductor if a potential difference of 10 V causes a current of 2 A to flow.",
+"questionOdia": "ଯଦି 10 ଭୋଲ୍ଟ ବିଭବାନ୍ତର ଯୋଗୁଁ ପରିବାହୀରେ 2 ଆମ୍ପିୟର୍ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ହୁଏ, ତେବେ ଏହାର ରୋଧ କେତେ?",
+"options": [
+"5 ଓହ୍ମ",
+"20 ଓହ୍ମ",
+"0.2 ଓହ୍ମ",
+"2 ଓହ୍ମ"
+],
+"answer": "5 ଓହ୍ମ",
+"explanation": "ଓହ୍ମଙ୍କ ନିୟମ ଅନୁସାରେ R = V / I = 10 V / 2 A = 5 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "What is the equivalent resistance of two 4-ohm resistors connected in parallel?",
+"questionOdia": "4 ଓହ୍ମ ବିଶିଷ୍ଟ ଦୁଇଟି ରୋଧକକୁ ସମାନ୍ତରାଳ ସମବାୟରେ ସଂଯୋଗ କଲେ ସମତୁଲ ରୋଧ କେତେ ହେବ?",
+"options": [
+"8 ଓହ୍ମ",
+"2 ଓହ୍ମ",
+"4 ଓହ୍ମ",
+"1 ଓହ୍ମ"
+],
+"answer": "2 ଓହ୍ମ",
+"explanation": "ସମାନ୍ତରାଳ ସମବାୟରେ 1/R = 1/4 + 1/4 = 2/4 = 1/2, ତେଣୁ R = 2 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "How does the resistivity of a metallic wire change when its length is doubled?",
+"questionOdia": "ଗୋଟିଏ ଧାତବ ତାରର ଦୈର୍ଘ୍ୟ ଦ୍ୱିଗୁଣିତ କଲେ ଏହାର ବିଶିଷ୍ଟ ରୋଧ ବା ରୋଧାଙ୍କ (Resistivity) କ’ଣ ପରିବର୍ତ୍ତନ ହୁଏ?",
+"options": [
+"ଦ୍ୱିଗୁଣିତ ହୁଏ",
+"ଅଧା ହୁଏ",
+"ଅପରିବର୍ତ୍ତିତ ରହେ",
+"ଚାରିଗୁଣ ହୁଏ"
+],
+"answer": "ଅପରିବର୍ତ୍ତିତ ରହେ",
+"explanation": "ରୋଧାଙ୍କ (Resistivity) କେବଳ ପରିବାହୀର ଉପାଦାନ ଏବଂ ତାପମାତ୍ରା ଉପରେ ନିର୍ଭର କରେ, ଏହା ଦୈର୍ଘ୍ୟ କିମ୍ବା କ୍ଷେତ୍ରଫଳ ଉପରେ ନିର୍ଭର କରେ ନାହିଁ।"
+},
+{
+"questionEnglish": "What is the unit of electric current?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ପ୍ରବାହ (Electric current) ର ଏକକ କ’ଣ?",
+"options": [
+"ଭୋଲ୍ଟ",
+"ଆମ୍ପିୟର୍",
+"କୁଲମ୍ବ",
+"ୱାଟ୍"
+],
+"answer": "ଆମ୍ପିୟର୍",
+"explanation": "ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ଏସ.ଆଇ ଏକକ ହେଉଛି ଆମ୍ପିୟର୍ (Ampere), ଯାହାକୁ 'A' ଦ୍ୱାରା ସୂଚାଯାଏ।"
+},
+{
+"questionEnglish": "How many electrons constitute a charge of 1 Coulomb?",
+"questionOdia": "1 କୁଲମ୍ବ ଆବେଶରେ କେତେସଂଖ୍ୟକ ଇଲେକ୍ଟ୍ରନ୍ ଥାଆନ୍ତି?",
+"options": [
+"6.25 × 10¹⁸",
+"1.6 × 10⁻¹⁹",
+"9.1 × 10⁻³¹",
+"3.0 × 10⁸"
+],
+"answer": "6.25 × 10¹⁸",
+"explanation": "ଗୋଟିଏ ଇଲେକ୍ଟ୍ରନ୍‌ର ଆବେଶ 1.6 × 10⁻¹⁹ C, ତେଣୁ 1 C = 1 / (1.6 × 10⁻¹⁹) = 6.25 × 10¹⁸ ଇଲେକ୍ଟ୍ରନ୍।"
+},
+{
+"questionEnglish": "Which instrument is used to measure potential difference?",
+"questionOdia": "ବିଭବାନ୍ତର ମାପିବା ପାଇଁ କେଉଁ ଯନ୍ତ୍ର ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ଆମିଟର",
+"ଭୋଲ୍ଟମିଟର",
+"ଗାଲଭାନୋମିଟର",
+"ଓହ୍ମମିଟର"
+],
+"answer": "ଭୋଲ୍ଟମିଟର",
+"explanation": "ଦୁଇଟି ବିନ୍ଦୁ ମଧ୍ୟରେ ବିଭବାନ୍ତର ବା ଭୋଲ୍ଟେଜ୍ ମାପିବା ପାଇଁ ଭୋଲ୍ଟମିଟର ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the resistance of an ideal ammeter?",
+"questionOdia": "ଏକ ଆଦର୍ଶ ଆମିଟର (Ideal ammeter) ର ରୋଧ କେତେ ହେବା ଉଚିତ୍?",
+"options": [
+"ଅସୀମ",
+"ଶୂନ୍ୟ",
+"ବହୁତ ଅଧିକ",
+"100 ଓହ୍ମ"
+],
+"answer": "ଶୂନ୍ୟ",
+"explanation": "ଆଦର୍ଶ ଆମିଟରର ରୋଧ ଶୂନ୍ୟ ହେବା ଆବଶ୍ୟକ, ଯାହାଦ୍ୱାରା ଏହା ସର୍କିଟର ବିଦ୍ୟୁତ୍ ପ୍ରବାହକୁ ପ୍ରଭାବିତ କରେ ନାହିଁ।"
+},
+{
+"questionEnglish": "What is the resistance of an ideal voltmeter?",
+"questionOdia": "ଏକ ଆଦର୍ଶ ଭୋଲ୍ଟମିଟର (Ideal voltmeter) ର ରୋଧ କେତେ ହେବା ଉଚିତ୍?",
+"options": [
+"ଶୂନ୍ୟ",
+"ଅସୀମ (Infinite)",
+"ଖୁବ୍ କମ୍",
+"1 ଓହ୍ମ"
+],
+"answer": "ଅସୀମ (Infinite)",
+"explanation": "ଆଦର୍ଶ ଭୋଲ୍ଟମିଟରର ରୋଧ ଅସୀମ ହେବା ଉଚିତ୍, ଯାହାଫଳରେ ଏହା ମାଧ୍ୟମରେ କୌଣସି ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ହୁଏ ନାହିଁ।"
+},
+{
+"questionEnglish": "If 4 A current flows through a resistor of 5 ohms, what is the potential difference across it?",
+"questionOdia": "ଯଦି 5 ଓହ୍ମ ବିଶିଷ୍ଟ ରୋଧକ ମଧ୍ୟଦେଇ 4 A ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ହୁଏ, ତେବେ ଏହାର ଦୁଇ ପ୍ରାନ୍ତରେ ବିଭବାନ୍ତର କେତେ ହେବ?",
+"options": [
+"9 ଭୋଲ୍ଟ",
+"20 ଭୋଲ୍ଟ",
+"1.25 ଭୋଲ୍ଟ",
+"0.8 ଭୋଲ୍ଟ"
+],
+"answer": "20 ଭୋଲ୍ଟ",
+"explanation": "ବିଭବାନ୍ତର V = I × R = 4 A × 5 Ω = 20 ଭୋଲ୍ଟ।"
+},
+{
+"questionEnglish": "What happens to equivalent resistance when resistors are connected in series?",
+"questionOdia": "ରୋଧକଗୁଡ଼ିକୁ ଶ୍ରେଣୀ ସମବାୟରେ ସଂଯୋଗ କଲେ ସମତୁଲ ରୋଧ କ’ଣ ହୁଏ?",
+"options": [
+"ବ୍ୟକ୍ତିଗତ ରୋଧଗୁଡ଼ିକଠାରୁ କମ୍ ହୁଏ",
+"ବ୍ୟକ୍ତିଗତ ରୋଧଗୁଡ଼ିକର ଯୋଗଫଳଠାରୁ ଅଧିକ ହୁଏ",
+"ଶୂନ୍ୟ ହୋଇଯାଏ",
+"ଅପରିବର୍ତ୍ତିତ ରହେ"
+],
+"answer": "ବ୍ୟକ୍ତିଗତ ରୋଧଗୁଡ଼ିକର ଯୋଗଫଳଠାରୁ ଅଧିକ ହୁଏ",
+"explanation": "ଶ୍ରେଣୀ ସମବାୟରେ ସମତୁଲ ରୋଧ ସମସ୍ତ ବ୍ୟକ୍ତିଗତ ରୋଧର ଯୋଗଫଳ ସହିତ ସମାନ ହେଉଥିବାରୁ ଏହା ସର୍ବଦା ବୃଦ୍ଧି ପାଏ।"
+},
+{
+"questionEnglish": "What happens to equivalent resistance when resistors are connected in parallel?",
+"questionOdia": "ରୋଧକଗୁଡ଼ିକୁ ସମାନ୍ତରାଳ ସମବାୟରେ ସଂଯୋଗ କଲେ ସମତୁଲ ରୋଧ କ’ଣ ହୁଏ?",
+"options": [
+"ସବୁଠାରୁ କମ୍ ରୋଧକଠାରୁ ମଧ୍ୟ କମ୍ ହୁଏ",
+"ସମସ୍ତ ରୋଧର ଯୋଗଫଳ ସହିତ ସମାନ ହୁଏ",
+"ବୃଦ୍ଧି ପାଏ",
+"ଅସୀମ ହୁଏ"
+],
+"answer": "ସବୁଠାରୁ କମ୍ ରୋଧକଠାରୁ ମଧ୍ୟ କମ୍ ହୁଏ",
+"explanation": "ସମାନ୍ତରାଳ ସମବାୟରେ ସମତୁଲ ରୋଧର ମୂଳସମ୍ପନ୍ନ ମାନ ସେଥିରେ ଥିବା ସବୁଠାରୁ ଛୋଟ ରୋଧଠାରୁ ମଧ୍ୟ କମ୍ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Which physical quantity is measured in kilowatt-hour (kWh)?",
+"questionOdia": "କିଲୋୱାଟ୍-ଘଣ୍ଟା (kWh) ରେ କେଉଁ ଭୌତିକ ପରିମାଣ ମାପ କରାଯାଏ?",
+"options": [
+"ବିଦ୍ୟୁତ୍ କ୍ଷମତା",
+"ବିଦ୍ୟୁତ୍ ଶକ୍ତି (Electric energy)",
+"ବିଦ୍ୟୁତ୍ ପ୍ରବାହ",
+"ରୋଧାଙ୍କ"
+],
+"answer": "ବିଦ୍ୟୁତ୍ ଶକ୍ତି (Electric energy)",
+"explanation": "କିଲୋୱାଟ୍-ଘଣ୍ଟା (kWh) ବା ୟୁନିଟ୍ ହେଉଛି ବିଦ୍ୟୁତ୍ ଶକ୍ତିର ବ୍ୟବସାୟିକ ମାପକ ଏକକ।"
+},
+{
+"questionEnglish": "How much heat is produced when a current of 2 A flows through a 5-ohm resistor for 10 seconds?",
+"questionOdia": "ଯଦି 2 A ବିଦ୍ୟୁତ୍ ପ୍ରବାହ 5 ଓହ୍ମ ରୋଧକ ମଧ୍ୟଦେଇ 10 ସେକେଣ୍ଡ ପାଇଁ ପ୍ରବାହିତ ହୁଏ, ତେବେ କେତେ ପରିମାଣର ତାପ ଉତ୍ପନ୍ନ ହେବ?",
+"options": [
+"100 ଜୁଲ୍",
+"200 ଜୁଲ୍",
+"50 ଜୁଲ୍",
+"1000 ଜୁଲ୍"
+],
+"answer": "200 ଜୁଲ୍",
+"explanation": "ଜୁଲ୍‌ଙ୍କ ସୂତ୍ର ଅନୁସାରେ H = I²Rt = (2)² × 5 × 10 = 4 × 5 × 10 = 200 ଜୁଲ୍।"
+},
+{
+"questionEnglish": "What is the role of electric fuse wire?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ଫ୍ୟୁଜ୍ ତାରର ବିଶେଷ ଗୁଣ କ’ଣ?",
+"explanation": "ଏହାର ଗଳନାଙ୍କ (Melting point) ବହୁତ କମ୍ ଅଟେ",
+"options": [
+"ଏହାର ଗଳନାଙ୍କ ବହୁତ କମ୍ ଅଟେ",
+"ଏହାର ଗଳନାଙ୍କ ବହୁତ ଅଧିକ ଅଟେ",
+"ଏହା କେବଳ ତମ୍ବାରେ ତିଆରି",
+"ଏହା କୌଣସି ତାପ ସୃଷ୍ଟି କରେ ନାହିଁ"
+],
+"answer": "ଏହାର ଗଳନାଙ୍କ ବହୁତ କମ୍ ଅଟେ",
+"explanation": "ଫ୍ୟୁଜ୍ ତାର ସ୍ୱଳ୍ପ ଗଳନାଙ୍କ ବିଶିଷ୍ଟ ଧାତୁ ବା ମିଶ୍ରଧାତୁରେ ତିଆରି ହୋଇଥାଏ, ଯାହାଦ୍ୱାରା ଅଧିକ ପ୍ରବାହରେ ଏହା ଶୀଘ୍ର ତରଳିଯାଏ।"
+},
+{
+"questionEnglish": "Why do transmission lines use aluminium instead of copper sometimes, even though copper is a better conductor?",
+"questionOdia": "ତମ୍ବା ଭଲ ପରିବାହୀ ହୋଇଥିଲେ ମଧ୍ୟ ବିଦ୍ୟୁତ୍ ଲାଇନ୍ ପାଇଁ କାହିଁକି ଆଲୁମିନିୟମ୍ ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ଆଲୁମିନିୟମ୍ ଓଜନରେ ହାଲୁକା ଏବଂ ଶସ୍ତା ଅଟେ",
+"ଆଲୁମିନିୟମ୍ ଅଧିକ ତାପ ସୃଷ୍ଟି କରେ",
+"ତମ୍ବା ମିଳେ ନାହିଁ",
+"ଆଲୁମିନିୟମ୍ର ରୋଧାଙ୍କ ଶୂନ୍ୟ"
+],
+"answer": "ଆଲୁମିନିୟମ୍ ଓଜନରେ ହାଲୁକା ଏବଂ ଶସ୍ତା ଅଟେ",
+"explanation": "ଆଲୁମିନିୟମ୍ ହାଲୁକା ଓ ଅପେକ୍ଷାକୃତ ଶସ୍ତା ହୋଇଥିବାରୁ ଦୂର ସ୍ଥାନକୁ ବିଦ୍ୟୁତ୍ ପରିବହନ ପାଇଁ ଏହା ବେଶ୍ ଉପଯୋଗୀ।"
+},
+{
+"questionEnglish": "What is the SI unit of electrical conductance or reciprocal of resistance?",
+"questionOdia": "ରୋଧର ବ୍ୟୁତ୍କ୍ରମ (Conductance) ର ଏକକ କ’ଣ?",
+"options": [
+"ସିମେନ୍ସ (Siemens) ବା ମହୋ (Mho)",
+"ଓହ୍ମ-ମିଟର",
+"ଜୁଲ୍",
+"ହେନ୍ରି"
+],
+"answer": "ସିମେନ୍ସ (Siemens) ବା ମହୋ (Mho)",
+"explanation": "ରୋଧର ବ୍ୟୁତ୍କ୍ରମ (1/R) କୁ ପରିବାହିତା କୁହାଯାଏ ଏବଂ ଏହାର ଏକକ ସିମେନ୍ସ (S) ବା ଓହ୍ମର ଓଲଟା 'Mho' ଅଟେ।"
+},
+{
+"questionEnglish": "If the length of a wire is tripled, what happens to its resistance?",
+"questionOdia": "ଯଦି ଏକ ତାରର ଦୈର୍ଘ୍ୟ ତିନିଗୁଣ କରାଯାଏ, ତେବେ ଏହାର ରୋଧ କେତେ ଗୁଣ ହେବ?",
+"options": [
+"ତିନିଗୁଣ",
+"ନଅଗୁଣ",
+"ଅପରିବର୍ତ୍ତିତ ରହିବ",
+"ତିନିଭାଗରୁ ଏକଭାଗ ହେବ"
+],
+"answer": "ତିନିଗୁଣ",
+"explanation": "ରୋଧ ଦୈର୍ଘ୍ୟ ସହିତ ସମାନାନୁପାତିକ ହୋଇଥିବାରୁ (R ∝ l) ଦୈର୍ଘ୍ୟ ତିନିଗୁଣ ହେଲେ ରୋଧ ମଧ୍ୟ ତିନିଗୁଣ ହୁଏ।"
+},
+{
+"questionEnglish": "Which of the following represents Ohm's law correctly in graphical form (V vs I)?",
+"questionOdia": "ଓହ୍ମଙ୍କ ନିୟମ ଅନୁସାରେ V ଏବଂ I ର ଲେଖଚିତ୍ର (Graph) କିପରି ହୁଏ?",
+"options": [
+"ଗୋଟିଏ ସରଳରେଖା ଯାହା ମୂଳବିନ୍ଦୁ ଦେଇ ଯାଏ",
+"ଗୋଟିଏ ବକ୍ରରେଖା",
+"ଉଭୟ ଅକ୍ଷର ସମାନ୍ତରାଳ",
+"ଗୋଟିଏ ବୃତ୍ତ"
+],
+"answer": "ଗୋଟିଏ ସରଳରେଖା ଯାହା ମୂଳବିନ୍ଦୁ ଦେଇ ଯାଏ",
+"explanation": "V ଏବଂ I ପରସ୍ପର ସମାନାନୁପାତିକ ହୋଇଥିବାରୁ ସେମାନଙ୍କର ଲେଖଚିତ୍ର ମୂଳବିନ୍ଦୁଗାମୀ ଏକ ସରଳରେଖା ହୁଏ।"
+},
+{
+"questionEnglish": "What is the electric power consumed by a device of resistance R connected across a voltage V?",
+"questionOdia": "V ଭୋଲ୍ଟେଜ୍ ପ୍ରୟୋଗ କରାଯାଇଥିବା R ରୋଧବିଶିଷ୍ଟ ଉପକରଣ ଦ୍ୱାରା ବ୍ୟବହୃତ ବିଦ୍ୟୁତ୍ କ୍ଷମତାର ସୂତ୍ର କ’ଣ?",
+"options": [
+"V² / R",
+"IR",
+"V / R²",
+"I² / V"
+],
+"answer": "V² / R",
+"explanation": "P = VI ଏବଂ I = V/R କୁ ମିଶାଇଲେ P = V(V/R) = V² / R ପ୍ରାପ୍ତ ହୁଏ।"
+},
+{
+"questionEnglish": "Why should electric appliances be earthed?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ଉପକରଣଗୁଡ଼ିକୁ ଆର୍ଥ (Earthing) କରିବା କାହିଁକି ଜରୁରୀ?",
+"options": [
+"ବିଦ୍ୟୁତ୍ ଆଘାତ (Electric shock) ରୁ ରକ୍ଷା ପାଇବା ପାଇଁ",
+"ବିଦ୍ୟୁତ୍ ବିଲ୍ କମାଇବା ପାଇଁ",
+"ଉପକରଣକୁ ଅଧିକ ଗରମ କରିବା ପାଇଁ",
+"ସର୍କିଟ୍‌ର ରୋଧ ବଢ଼ାଇବା ପାଇଁ"
+],
+"answer": "ବିଦ୍ୟୁତ୍ ଆଘାତ (Electric shock) ରୁ ରକ୍ଷା ପାଇବା ପାଇଁ",
+"explanation": "ଆର୍ଥ ତାର ଉପକରଣର ଧାତବ ଆବରଣରେ କୌଣସି କାରଣରୁ ଲାଇଭ୍ ତାର ଲାଗିଗଲେ ସେହି ଅତିରିକ୍ତ କରେଣ୍ଟକୁ ଭୂମିକୁ ପଠାଇ ଦେଇ ଦୁର୍ଘଟଣାରୁ ରକ୍ଷା କରେ।"
+},
+{
+"questionEnglish": "What is the total resistance of three 6-ohm resistors connected in parallel?",
+"questionOdia": "6 ଓହ୍ମ ବିଶିଷ୍ଟ ତିନୋଟି ରୋଧକକୁ ସମାନ୍ତରାଳ ସମବାୟରେ ସଂଯୋଗ କଲେ ସମତୁଲ ରୋଧ କେତେ ହେବ?",
+"options": [
+"18 ଓହ୍ମ",
+"2 ଓହ୍ମ",
+"6 ଓହ୍ମ",
+"3 ଓହ୍ମ"
+],
+"answer": "2 ଓହ୍ମ",
+"explanation": "1/R = 1/6 + 1/6 + 1/6 = 3/6 = 1/2, ତେଣୁ R = 2 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "How does temperature affect the resistance of pure metals?",
+"questionOdia": "ତାପମାତ୍ରା ବୃଦ୍ଧି ପାଇଲେ ବିଶୁଦ୍ଧ ଧାତୁର ରୋଧ କିପରି ପରିବର୍ତ୍ତିତ ହୁଏ?",
+"options": [
+"ବୃଦ୍ଧି ପାଏ",
+"ହ୍ରାସ ପାଏ",
+"ଅପରିବର୍ତ୍ତିତ ରହେ",
+"ପ୍ରଥମେ କମେ ପରେ ବଢ଼େ"
+],
+"answer": "ବୃଦ୍ଧି ପାଏ",
+"explanation": "ତାପମାତ୍ରା ବଢ଼ିଲେ ବିଶୁଦ୍ଧ ଧାତୁଗୁଡ଼ିକର ରୋଧ ଏବଂ ରୋଧାଙ୍କ ବୃଦ୍ଧି ପାଇଥାଏ।"
+},
+{
+"questionEnglish": "Which physical quantity does the slope of V-I graph represent?",
+"questionOdia": "V-I ଲେଖଚିତ୍ରର ଢାରୁ (Slope) କେଉଁ ଭୌତିକ ପରିମାଣକୁ ପ୍ରକାଶ କରେ?",
+"options": [
+"ରୋଧ (Resistance)",
+"ରୋଧାଙ୍କ",
+"ବିଦ୍ୟୁତ୍ କ୍ଷମତା",
+"ଆବେଶ"
+],
+"answer": "ରୋଧ (Resistance)",
+"explanation": "V-I ଗ୍ରାଫ୍‌ରେ ଢାଳ (ΔV / ΔI) ସର୍କିଟର ରୋଧ (R) କୁ ସୂଚିତ କରିଥାଏ।"
+},
+{
+"questionEnglish": "What is the amount of current flowing through an electric appliance of 1 kW connected to a 220 V source?",
+"questionOdia": "220 V ସ୍ରୋତ ସହିତ ସଂଯୋଗ ହୋଇଥିବା 1 kW ର ଉପକରଣ ମଧ୍ୟଦେଇ କେତେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ହେବ?",
+"options": [
+"4.54 A",
+"220 A",
+"0.22 A",
+"10 A"
+],
+"answer": "4.54 A",
+"explanation": "P = VI ତେଣୁ I = P / V = 1000 W / 220 V ≈ 4.54 A।"
+},
+{
+"questionEnglish": "What is the equivalent resistance of two resistors R1 and R2 connected in series?",
+"questionOdia": "R1 ଏବଂ R2 ଦୁଇଟି ରୋଧକ ଶ୍ରେଣୀ ସମବାୟରେ ଥିଲେ ସମତୁଲ ରୋଧ କେତେ ହେବ?",
+"options": [
+"R1 + R2",
+"R1 R2 / (R1 + R2)",
+"(R1 + R2) / R1R2",
+"R1 - R2"
+],
+"answer": "R1 + R2",
+"explanation": "ଶ୍ରେଣୀ ସମବାୟରେ ସମତୁଲ ରୋଧ ସମସ୍ତ ବ୍ୟକ୍ତିଗତ ରୋଧର ସିଧାସଳଖ ଯୋଗଫଳ ଅଟେ।"
+},
+{
+"questionEnglish": "What is the equivalent resistance of two resistors R1 and R2 connected in parallel?",
+"questionOdia": "R1 ଏବଂ R2 ଦୁଇଟି ରୋଧକ ସମାନ୍ତରାଳ ସମବାୟରେ ଥିଲେ ସମତୁଲ ରୋଧ କେତେ ହେବ?",
+"options": [
+"R1 + R2",
+"R1R2 / (R1 + R2)",
+"R1 / R2",
+"R2 / R1"
+],
+"answer": "R1R2 / (R1 + R2)",
+"explanation": "ସମାନ୍ତରାଳ ସମବାୟରେ 1/R = 1/R1 + 1/R2, ଯାହାକୁ ସରଳ କଲେ R = R1R2 / (R1 + R2) ମିଳେ।"
+},
+{
+"questionEnglish": "What happens to the brightness of two identical bulbs connected in series across a battery compared to when connected in parallel?",
+"questionOdia": "ଦୁଟି ସମାନ ବଲ୍ବକୁ ଶ୍ରେଣୀ ସମବାୟରେ ଜାଳିଲେ, ସେଗୁଡ଼ିକର ଉଜ୍ଜ୍ୱଳତା ସମାନ୍ତରାଳ ସମବାୟ ଅପେକ୍ଷା କିପରି ହେବ?",
+"options": [
+"କମ୍ ହେବ",
+"ଅଧିକ ହେବ",
+"ସମାନ ରହିବ",
+"ଜଳିବ ନାହିଁ"
+],
+"answer": "କମ୍ ହେବ",
+"explanation": "ଶ୍ରେଣୀ ସମବାୟରେ ମୋଟ ରୋଧ ବଢ଼ିଯାଏ ଏବଂ ପ୍ରତ୍ୟେକ ବଲ୍ବରେ ଭୋଲ୍ଟେଜ୍ କମିଯିବାରୁ ସେଗୁଡ଼ିକ କମ୍ ଉଜ୍ଜ୍ୱଳତା ଦିଅନ୍ତି।"
+},
+{
+"questionEnglish": "Which physical principle is involved in the working of an electric fuse?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ଫ୍ୟୁଜର କାର୍ଯ୍ୟକାରିତା କେଉଁ ନୀତି ଉପରେ ପର୍ଯ୍ୟବସିତ?",
+"options": [
+"ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ତାପୀୟ ପ୍ରଭାବ (Heating effect)",
+"ଚୁମ୍ବକୀୟ ପ୍ରଭାବ",
+"ରାସାୟନିକ ପ୍ରଭାବ",
+"ଆଲୋକ ପ୍ରଭାବ"
+],
+"answer": "ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ତାପୀୟ ପ୍ରଭାବ (Heating effect)",
+"explanation": "ଅଧିକ କରେଣ୍ଟ ପ୍ରବାହ ଯୋଗୁଁ ସୃଷ୍ଟି ହେଉଥିବା ଅଧିକ ତାପ (Joule heating) ଯୋଗୁଁ ଫ୍ୟୁଜ୍ ତାର ତରଳିଯାଏ।"
+},
+{
+"questionEnglish": "What is the value of 1 horse power (HP) in watts?",
+"questionOdia": "1 ହର୍ସ ପାୱାର୍ (HP) କେତେ ୱାଟ୍ ସହିତ ସମାନ?",
+"options": [
+"746 W",
+"1000 W",
+"500 W",
+"750 W"
+],
+"answer": "746 W",
+"explanation": "ବୈଦ୍ୟୁତିକ ଏବଂ ଯାନ୍ତ୍ରିକ କ୍ଷମତା ମାପରେ 1 ହର୍ସ ପାୱାର୍ (HP) ସଠିକ୍ ଭାବରେ 746 ୱାଟ୍ ଅଟେ।"
+},
+{
+"questionEnglish": "How does the area of cross-section of a wire affect its electrical resistance?",
+"questionOdia": "ତାରର ପ୍ରସ୍ଥଚ୍ଛେଦ କ୍ଷେତ୍ରଫଳ ଏହାର ରୋଧକୁ କିପରି ପ୍ରଭାବିତ କରେ?",
+"options": [
+"କ୍ଷେତ୍ରଫଳ ବଢ଼ିଲେ ରୋଧ କମେ",
+"କ୍ଷେତ୍ରଫଳ ବଢ଼ିଲେ ରୋଧ ବଢ଼େ",
+"କୌଣସି ପ୍ରଭାବ ପଡ଼େ ନାହିଁ",
+"ରୋଧ ଶୂନ୍ୟ ହୋଇଯାଏ"
+],
+"answer": "କ୍ଷେତ୍ରଫଳ ବଢ଼ିଲେ ରୋଧ କମେ",
+"explanation": "ରୋଧ ପ୍ରସ୍ଥଚ୍ଛେଦ କ୍ଷେତ୍ରଫଳ ସହିତ ବ୍ୟସ୍ତାନୁପାତିକ ହୋଇଥିବାରୁ (R ∝ 1/A) ମୋଟା ତାରର ରୋଧ କମ୍ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the commercial unit of electrical energy commonly known as?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ଶକ୍ତିର ବ୍ୟବସାୟିକ ଏକକକୁ ସାଧାରଣ ଭାବରେ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ୟୁନିଟ୍",
+"ଆମ୍ପିୟର୍",
+"ଜୁଲ୍",
+"ଭୋଲ୍ଟ"
+],
+"answer": "ୟୁନିଟ୍",
+"explanation": "ଘରେ ବ୍ୟବହୃତ କିଲୋୱାଟ୍-ଘଣ୍ଟା (kWh) ଶକ୍ତିକୁ ସାଧାରଣ ଭାବରେ 'ୟୁନିଟ୍' ବୋଲି କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the direction of flow of electrons in a metal conductor connected to a cell?",
+"questionOdia": "କୋଷ (Cell) ସହିତ ସଂଯୋଗ ହୋଇଥିବା ଧାତବ ପରିବାହୀରେ ଇଲେକ୍ଟ୍ରନ୍‌ଗୁଡ଼ିକ କେଉଁଆଡୁ କେଉଁଆଡ଼କୁ ପ୍ରବାହିତ ହୁଅନ୍ତି?",
+"options": [
+"ଋଣାତ୍ମକ ପ୍ରାନ୍ତରୁ ଧନାତ୍ମକ ପ୍ରାନ୍ତ",
+"ଧନାତ୍ମକ ପ୍ରାନ୍ତରୁ ଋଣାତ୍ମକ ପ୍ରାନ୍ତ",
+"ଯେକୌଣସି ଦିଗରେ",
+"କେବଳ ମଝିରୁ ଦୁଇ ପ୍ରାନ୍ତକୁ"
+],
+"answer": "ଋଣାତ୍ମକ ପ୍ରାନ୍ତରୁ ଧନାତ୍ମକ ପ୍ରାନ୍ତ",
+"explanation": "ଇଲେକ୍ଟ୍ରନ୍‌ଗୁଡ଼ିକ ଋଣାତ୍ମକ ଭାବେ ଆବେଷିତ ହୋଇଥିବାରୁ ସେମାନେ କୋଷର ଋଣାତ୍ମକ ପ୍ରାନ୍ତରୁ ଧନାତ୍ମକ ପ୍ରାନ୍ତ ଆଡ଼କୁ ଗତି କରନ୍ତି।"
+},
+{
+"questionEnglish": "If three 2-ohm resistors are connected in series, what is the total resistance?",
+"questionOdia": "ଯଦି 2 ଓହ୍ମ ବିଶିଷ୍ଟ ତିନୋଟି ରୋଧକକୁ ଶ୍ରେଣୀ ସମବାୟରେ ସଂଯୋଗ କରାଯାଏ, ତେବେ ମୋଟ ରୋଧ କେତେ ହେବ?",
+"options": [
+"6 ଓହ୍ମ",
+"2/3 ଓହ୍ମ",
+"0.67 ଓହ୍ମ",
+"1 ଓହ୍ମ"
+],
+"answer": "6 ଓହ୍ମ",
+"explanation": "ଶ୍ରେଣୀ ସମବାୟରେ R = 2 + 2 + 2 = 6 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "Why is a series arrangement not used for domestic circuits?",
+"questionOdia": "ଘରୋଇ ସର୍କିଟ୍‌ରେ ଶ୍ରେଣୀ ସମବାୟ କାହିଁକି ବ୍ୟବହାର କରାଯାଏ ନାହିଁ?",
+"options": [
+"ଗୋଟିଏ ଉପକରଣ ଖରାପ ହେଲେ ବା ସୁଇଚ୍ ଅଫ୍ କଲେ ଅନ୍ୟ ସବୁ ଉପକରଣ ବନ୍ଦ ହୋଇଯାଏ",
+"ଏହା ବହୁତ ଶସ୍ତା ଅଟେ",
+"ଏଥିରେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ବହୁତ ଅଧିକ ହୁଏ",
+"ଏହା ସ୍ଥାୟୀ ନୁହେଁ"
+],
+"answer": "ଗୋଟିଏ ଉପକରଣ ଖରାପ ହେଲେ ବା ସୁଇଚ୍ ଅଫ୍ କଲେ ଅନ୍ୟ ସବୁ ଉପକରଣ ବନ୍ଦ ହୋଇଯାଏ",
+"explanation": "ଶ୍ରେଣୀ ସମବାୟରେ ଗୋଟିଏ ପଥ ବା ଉପକରଣ ବିଚ୍ଛିନ୍ନ ହେଲେ ସମଗ୍ର ସର୍କିଟ୍‌ରେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ବନ୍ଦ ହୋଇଯାଏ, ଯାହା ଘରୋଇ ବ୍ୟବହାର ପାଇଁ ଅନୁପଯୁକ୍ତ।"
+},
+{
+"questionEnglish": "What is the equivalent resistance of four 4-ohm resistors connected in parallel?",
+"questionOdia": "4 ଓହ୍ମ ବିଶିଷ୍ଟ ଚାରୋଟି ରୋଧକକୁ ସମାନ୍ତରାଳ ସମବାୟରେ ସଂଯୋଗ କଲେ ସମତୁଲ ରୋଧ କେତେ ହେବ?",
+"options": [
+"16 ଓହ୍ମ",
+"1 ଓହ୍ମ",
+"4 ଓହ୍ମ",
+"2 ଓହ୍ମ"
+],
+"answer": "1 ଓହ୍ମ",
+"explanation": "1/R = 1/4 + 1/4 + 1/4 + 1/4 = 4/4 = 1, ତେଣୁ R = 1 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "Which physical quantity has the unit 'Volt'?",
+"questionOdia": "କେଉଁ ଭୌତିକ ପରିମାଣର ଏକକ 'ଭୋଲ୍ଟ' (Volt) ଅଟେ?",
+"options": [
+"ବିଭବାନ୍ତର (Potential difference)",
+"ବିଦ୍ୟୁତ୍ ପ୍ରବାହ",
+"ରୋଧ",
+"କ୍ଷମତା"
+],
+"answer": "ବିଭବାନ୍ତର (Potential difference)",
+"explanation": "ବିଭବାନ୍ତର ଏବଂ ବୈଦ୍ୟୁତିକ ବିଭବର ଏସ.ଆଇ ଏକକ ଭୋଲ୍ଟ ଅଟେ।"
+},
+{
+"questionEnglish": "What happens to the power of a resistor if the current flowing through it is doubled?",
+"questionOdia": "ଯଦି ରୋଧକ ମଧ୍ୟଦେଇ ପ୍ରବାହିତ ହେଉଥିବା ବିଦ୍ୟୁତ୍ ପ୍ରବାହକୁ ଦ୍ୱିଗୁଣିତ କରାଯାଏ, ତେବେ ଏହାର କ୍ଷମତା ବା ତାପ ଉତ୍ପନ୍ନ ହାର କେତେ ଗୁଣ ହେବ?",
+"options": [
+"ଦ୍ୱିଗୁଣ",
+"ଚାରିଗୁଣ",
+"ଅଧା",
+"ଅପରିବର୍ତ୍ତିତ"
+],
+"answer": "ଚାରିଗୁଣ",
+"explanation": "କ୍ଷମତା P = I²R; ତେଣୁ I ଦ୍ୱିଗୁଣିତ ହେଲେ I² ଚାରିଗୁଣ ହୋଇଯାଏ, ଫଳରେ କ୍ଷମତା ମଧ୍ୟ ଚାରିଗୁଣ ବଢ଼ିଯାଏ।"
+},
+{
+"questionEnglish": "What is the color code for live wire in modern electrical wiring?",
+"questionOdia": "ଆଧୁନିକ ବୈଦ୍ୟୁତିକ ତାର ସଂଯୋଗରେ ଲାଇଭ୍ (Live) ତାରର ରଙ୍ଗ କ’ଣ ହୋଇଥାଏ?",
+"options": [
+"ନାଲି (Red)",
+"କଳା (Black)",
+"ସବୁଜ (Green)",
+"ନୀଳ (Blue)"
+],
+"answer": "ନାଲି (Red)",
+"explanation": "ଆନ୍ତର୍ଜାତୀୟ ରଙ୍ଗ କୋଡ୍ ଅନୁସାରେ ଲାଇଭ୍ (ଧନାତ୍ମକ) ତାର ନାଲି (ବା ବ୍ରାଉନ୍) ରଙ୍ଗର ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the color code for neutral wire in modern electrical wiring?",
+"questionOdia": "ଆଧୁନିକ ବୈଦ୍ୟୁତିକ ତାର ସଂଯୋଗରେ ନିଉଟ୍ରାଲ୍ (Neutral) ତାରର ରଙ୍ଗ କ’ଣ ହୋଇଥାଏ?",
+"options": [
+"ନାଲି",
+"କଳା (Black)",
+"ସବୁଜ",
+"ହଳଦିଆ"
+],
+"answer": "କଳା (Black)",
+"explanation": "ନିଉଟ୍ରାଲ୍ (ଋଣାତ୍ମକ) ତାରର ରଙ୍ଗ ସାଧାରଣତଃ କଳା (ବା ଲାଇଟ୍ ବ୍ଲୁ) ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "Calculate the energy consumed in joules by a 100 W bulb lighted for 1 hour.",
+"questionOdia": "1 ଘଣ୍ଟା ପାଇଁ ଜଳୁଥିବା 100 W ର ବଲ୍ବ ଦ୍ୱାରା ବ୍ୟବହୃତ ଶକ୍ତି ଜୁଲ୍‌ରେ କେତେ?",
+"options": [
+"3.6 × 10⁵ J",
+"3.6 × 10⁶ J",
+"100 J",
+"3600 J"
+],
+"answer": "3.6 × 10⁵ J",
+"explanation": "ଶକ୍ତି E = P × t = 100 W × 3600 s = 360,000 J = 3.6 × 10⁵ ଜୁଲ୍।"
+},
+{
+"questionEnglish": "Which law states that the algebraic sum of currents meeting at a junction in a circuit is zero?",
+"questionOdia": "ସର୍କିଟର କୌଣସି ସନ୍ଧିରେ ମିଳିତ ହେଉଥିବା ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ବୀଜଗାଣିତୀୟ ଯୋଗଫଳ ଶୂନ୍ୟ ହୁଏ, ଏହା କେଉଁ ନିୟମ?",
+"options": [
+"କିରଚଫ୍‌ଙ୍କ ପ୍ରଥମ ନିୟମ (କରେଣ୍ଟ ନିୟମ)",
+"ଓହ୍ମଙ୍କ ନିୟମ",
+"ଜୁଲଙ୍କ ନିୟମ",
+"ଫାରାଡେ ନିୟମ"
+],
+"answer": "କିରଚଫ୍‌ଙ୍କ ପ୍ରଥମ ନିୟମ (କରେଣ୍ଟ ନିୟମ)",
+"explanation": "କିରଚଫ୍‌ଙ୍କ ସନ୍ଧି ନିୟମ (Kirchhoff's Current Law) ଅନୁସାରେ ସନ୍ଧି ଆଡ଼କୁ ଆସୁଥିବା କରେଣ୍ଟ ଓ ସନ୍ଧିଠାରୁ ଦୂରେଇ ଯାଉଥିବା କରେଣ୍ଟର ସମଷ୍ଟି ସମାନ।"
+},
+{
+"questionEnglish": "What happens to the resistance of a semiconductor when its temperature increases?",
+"questionOdia": "ତାପମାତ୍ରା ବୃଦ୍ଧି ପାଇଲେ ଅର୍ଦ୍ଧପରିବାହୀ (Semiconductor) ର ରୋଧ କିପରି ପରିବର୍ତ୍ତିତ ହୁଏ?",
+"options": [
+"ହ୍ରାସ ପାଏ",
+"ବୃଦ୍ଧି ପାଏ",
+"ଅପରିବର୍ତ୍ତିତ ରହେ",
+"ପ୍ରଥମେ ବଢ଼େ ପରେ ଶୂନ୍ୟ ହୁଏ"
+],
+"answer": "ହ୍ରାସ ପାଏ",
+"explanation": "ଅର୍ଦ୍ଧପରିବାହୀ (ଯେପରିକି ସିଲିକନ୍, ଜର୍ମାନିୟମ୍) ଗୁଡ଼ିକର ତାପମାତ୍ରା ବଢ଼ିଲେ ଅଧିକ ମୁକ୍ତ ଇଲେକ୍ଟ୍ରନ୍ ସୃଷ୍ଟି ହୁଏ, ଯାହାଫଳରେ ରୋଧ କମିଯାଏ।"
+},
+{
+"questionEnglish": "What is the equivalent resistance of two resistors of 3 ohms and 6 ohms connected in parallel?",
+"questionOdia": "3 ଓହ୍ମ ଏବଂ 6 ଓହ୍ମ ବିଶିଷ୍ଟ ଦୁଇଟି ରୋଧକକୁ ସମାନ୍ତରାଳ ସମବାୟରେ ସଂଯୋଗ କଲେ ସମତୁଲ ରୋଧ କେତେ ହେବ?",
+"options": [
+"9 ଓହ୍ମ",
+"2 ଓହ୍ମ",
+"18 ଓହ୍ମ",
+"4.5 ଓହ୍ମ"
+],
+"answer": "2 ଓହ୍ମ",
+"explanation": "R = (R1 × R2) / (R1 + R2) = (3 × 6) / (3 + 6) = 18 / 9 = 2 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "Why is the use of fuse necessary in all electrical circuits?",
+"questionOdia": "ସମସ୍ତ ବୈଦ୍ୟୁତିକ ସର୍କିଟରେ ଫ୍ୟୁଜ୍ ବ୍ୟବହାର କରିବା କାହିଁକି ଜରୁରୀ?",
+"options": [
+"ଅତ୍ୟଧିକ ବିଦ୍ୟୁତ୍ ପ୍ରବାହରୁ ଉପକରଣ ଓ ସର୍କିଟକୁ ଜଳିଯିବାରୁ ରକ୍ଷା କରିବା ପାଇଁ",
+"ବିଦ୍ୟୁତ୍ ବିଲ୍ କମାଇବା ପାଇଁ",
+"ବିଦ୍ୟୁତ୍ ପ୍ରବାହକୁ ବଢ଼ାଇବା ପାଇଁ",
+"ବଲ୍ବର ଆଲୋକ ତୀବ୍ର କରିବା ପାଇଁ"
+],
+"answer": "ଅତ୍ୟଧିକ ବିଦ୍ୟୁତ୍ ପ୍ରବାହରୁ ଉପକରଣ ଓ ସର୍କିଟକୁ ଜଳିଯିବାରୁ ରକ୍ଷା କରିବା ପାଇଁ",
+"explanation": "ଫ୍ୟୁଜ୍ ଅଧିକ କରେଣ୍ଟ ପ୍ରବାହକୁ ଅଟକାଇ ବୈଦ୍ୟୁତିକ ସର୍କିଟ୍ ଓ ଉପକରଣଗୁଡ଼ିକୁ ନଷ୍ଟ ହେବାରୁ ରକ୍ଷା କରେ।"
+},
+{
+"questionEnglish": "If the potential difference across a resistor is doubled, what happens to the current flowing through it?",
+"questionOdia": "ଯଦି ରୋଧକର ଦୁଇ ପ୍ରାନ୍ତରେ ବିଭବାନ୍ତର ଦ୍ୱିଗୁଣିତ କରାଯାଏ, ତେବେ ଏହା ମଧ୍ୟଦେଇ ପ୍ରବାହିତ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ କ’ଣ ହେବ?",
+"options": [
+"ଦ୍ୱିଗୁଣିତ ହେବ",
+"ଅଧା ହେବ",
+"ଅପରିବର୍ତ୍ତିତ ରହିବ",
+"ଚାରିଗୁଣ ହେବ"
+],
+"answer": "ଦ୍ୱିଗୁଣିତ ହେବ",
+"explanation": "ଓହ୍ମଙ୍କ ନିୟମ ଅନୁସାରେ I ∝ V; ତେଣୁ ବିଭବାନ୍ତର (V) ଦ୍ୱିଗୁଣିତ ହେଲେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ (I) ମଧ୍ୟ ସମାନ ଭାବେ ଦ୍ୱିଗୁଣିତ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the primary function of a rheostat in an electric circuit?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ସର୍କିଟରେ ରିହୋଷ୍ଟାଟ୍ (Rheostat) ର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କ’ଣ?",
+"options": [
+"ସର୍କିଟରେ ରୋଧକୁ ପରିବର୍ତ୍ତନ କରି ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ନିୟନ୍ତ୍ରଣ କରିବା",
+"ବିଦ୍ୟୁତ୍ ଶକ୍ତି ସଞ୍ଚୟ କରିବା",
+"ଭୋଲ୍ଟେଜ୍ ସ୍ଥିର ରଖିବା",
+"ବିଦ୍ୟୁତ୍ ଆବେଶ ମାପିବା"
+],
+"answer": "ସର୍କିଟରେ ରୋଧକୁ ପରିବର୍ତ୍ତନ କରି ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ନିୟନ୍ତ୍ରଣ କରିବା",
+"explanation": "ରିହୋଷ୍ଟାଟ୍ ହେଉଛି ଏକ ପରିବର୍ତ୍ତନଶୀଳ ରୋଧକ (Variable resistor), ଯାହା ସାହାଯ୍ୟରେ ସର୍କିଟର କରେଣ୍ଟକୁ କମ ବା ବେଶି କରାଯାଏ।"
+},
+{
+"questionEnglish": "What is the unit of electrical resistivity?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ରୋଧାଙ୍କ (Resistivity) ର ଏକକ କ’ଣ?",
+"options": [
+"ଓହ୍ମ-ମିଟର (Ω·m)",
+"ଓହ୍ମ/ମିଟର",
+"ଓହ୍ମ-ମିଟର²",
+"ଓହ୍ମ"
+],
+"answer": "ଓହ୍ମ-ମିଟର (Ω·m)",
+"explanation": "ରୋଧାଙ୍କର ସୂତ୍ର ρ = RA / l ଅଟେ, ଯାହାର ଏକକ ଓହ୍ମ-ମିଟର ଅଟେ।"
+},
+{
+"questionEnglish": "How does the resistance of a wire vary with its radius, if length remains constant?",
+"questionOdia": "ଦୈର୍ଘ୍ୟ ସ୍ଥିର ରହିଲେ ତାରର ବ୍ୟାସାର୍ଘ୍ୟ (Radius) ବୃଦ୍ଧି ପାଇଲେ ରୋଧ କିପରି ପରିବର୍ତ୍ତିତ ହୁଏ?",
+"options": [
+"ବ୍ୟାସାର୍ଘ୍ୟର ବର୍ଗର ବ୍ୟସ୍ତାନୁପାତିକ ଭାବେ ହ୍ରାସ ପାଏ",
+"ବ୍ୟାସାର୍ଘ୍ୟ ସହିତ ସମାନାନୁପାତିକ ଭାବେ ବଢ଼େ",
+"କୌଣସି ପରିବର୍ତ୍ତନ ହୁଏ ନାହିଁ",
+"ବ୍ୟାସାର୍ଘ୍ୟର ଘନ ସହିତ ବଦଳେ"
+],
+"answer": "ବ୍ୟାସାର୍ଘ୍ୟର ବର୍ଗର ବ୍ୟସ୍ତାନୁପାତିକ ଭାବେ ହ୍ରାସ ପାଏ",
+"explanation": "ପ୍ରସ୍ଥଚ୍ଛେଦ କ୍ଷେତ୍ରଫଳ A = πr² ହୋଇଥିବାରୁ R ∝ 1/r², ଅର୍ଥାତ୍ ବ୍ୟାସାର୍ଘ୍ୟ ବଢ଼ିଲେ ରୋଧ ତାର ବର୍ଗର ବ୍ୟସ୍ତାନୁପାତିକ ଭାବେ କମେ।"
+},
+{
+"questionEnglish": "Which of the following is a good conductor of electricity?",
+"questionOdia": "ନିମ୍ନୋକ୍ତ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ଭଲ ବିଦ୍ୟୁତ୍ ପରିବାହୀ?",
+"options": [
+"ଗ୍ରାଫାଇଟ୍",
+"ରବର",
+"ପ୍ଲାଷ୍ଟିକ୍",
+"କାଠ"
+],
+"answer": "ଗ୍ରାଫାଇଟ୍",
+"explanation": "ଅଧିକାଂଶ ଅଧାତୁ ବିଦ୍ୟୁତ୍ କୁପରିବାହୀ ହୋଇଥିଲେ ମଧ୍ୟ କାର୍ବନ୍ର ରୂପ ଗ୍ରାଫାଇଟ୍ ମୁକ୍ତ ଇଲେକ୍ଟ୍ରନ୍ ଯୋଗୁଁ ବିଦ୍ୟୁତ୍ ପରିବାହୀ ଅଟେ।"
+},
+{
+"questionEnglish": "What happens when a glass rod is rubbed with silk?",
+"questionOdia": "କାଚଦଣ୍ଡକୁ ପାଟ କପଡ଼ା (Silk) ରେ ଘଷିଲେ କ’ଣ ହୁଏ?",
+"options": [
+"କାଚଦଣ୍ଡ ଧନାତ୍ମକ ଭାବେ ଆବେଷିତ ହୁଏ",
+"କାଚଦଣ୍ଡ ଋଣାତ୍ମକ ଭାବେ ଆବେଷିତ ହୁଏ",
+"କୌଣସି ଆବେଶ ସୃଷ୍ଟି ହୁଏ ନାହିଁ",
+"ପାଟ କପଡ଼ା ନିରପେକ୍ଷ ରହେ"
+],
+"answer": "କାଚଦଣ୍ଡ ଧନାତ୍ମକ ଭାବେ ଆବେଷିତ ହୁଏ",
+"explanation": "ਘଷିବା ଦ୍ୱାରା କାଚଦଣ୍ଡରୁ ଇଲେକ୍ଟ୍ରନ୍ ପାଟ କପଡ଼ାକୁ ଚାଲିଯାଏ, ତେଣୁ କାଚଦଣ୍ଡ ଧନାତ୍ମକ ଆବେଶପ୍ରାପ୍ତ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the equivalent resistance of two 2-ohm resistors connected in series?",
+"questionOdia": "2 ଓହ୍ମ ବିଶିଷ୍ଟ ଦୁଇଟି ରୋଧକକୁ ଶ୍ରେଣୀ ସମବାୟରେ ସଂଯୋଗ କଲେ ସମତୁଲ ରୋଧ କେତେ ହେବ?",
+"options": [
+"4 ଓହ୍ମ",
+"1 ଓହ୍ମ",
+"2 ଓହ୍ମ",
+"0.5 ଓହ୍ମ"
+],
+"answer": "4 ଓହ୍ମ",
+"explanation": "ଶ୍ରେଣୀ ସମବାୟରେ R = 2 + 2 = 4 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "What is the formula relating electric charge (Q), current (I), and time (t)?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ଆବେଶ (Q), ବିଦ୍ୟୁତ୍ ପ୍ରବାହ (I) ଏବଂ ସମୟ (t) ମଧ୍ୟରେ ସମ୍ବନ୍ଧ କ’ଣ?",
+"options": [
+"Q = I × t",
+"I = Q × t",
+"t = I × Q",
+"Q = I / t"
+],
+"answer": "Q = I × t",
+"explanation": "ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ହେଉଛି ଆବେଶ ପ୍ରବାହର ହାର (I = Q/t), ଯାହାକୁ Q = I × t ଭାବେ ଲେଖାଯାଏ।"
+},
+{
+"questionEnglish": "Which metal is used in electric iron as a heating element?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ଇସ୍ତ୍ରୀରେ ତାପ ଉତ୍ପନ୍ନ କରିବା ପାଇଁ କେଉଁ ତାର ବ୍ୟବହାର କରାଯାଏ?",
+"options": [
+"ନାଇକ୍ରୋମ୍ ତାର",
+"ତମ୍ବା ତାର",
+"ଆଲୁମିନିୟମ୍ ତାର",
+"ରୂପା ତାର"
+],
+"answer": "ନାଇକ୍ରୋମ୍ ତାର",
+"explanation": "ନାଇକ୍ରୋମ୍ ତାର ଅଧିକ ରୋଧ ଏବଂ ଉଚ୍ଚ ତାପମାତ୍ରା ସହସ୍ର ପ୍ରତିରୋଧକତା ଯୋଗୁଁ ଇସ୍ତ୍ରୀ ଓ ହୀଟରରେ ବ୍ୟବହୃତ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the main reason why copper is preferred for household wiring cables?",
+"questionOdia": "ଘରୋଇ ତାର ସଂଯୋଗ ପାଇଁ ତମ୍ବାକୁ ଅଗ୍ରାଧିକାର ଦିଆଯିବାର ମୁଖ୍ୟ କାର୍ଣ କ’ଣ?",
+"options": [
+"ଏହାର ବିଦ୍ୟୁତ୍ ପରିବାହିତା ଅଧିକ ଏବଂ ରୋଧ କମ୍",
+"ଏହା ଓଜନରେ ବହୁତ ଭାରୀ",
+"ଏହା ଶସ୍ତା ଏବଂ ସହଜରେ ମିଳେ",
+"ଏହା କେବେବି ଗରମ ହୁଏ ନାହିଁ"
+],
+"answer": "ଏହାର ବିଦ୍ୟୁତ୍ ପରିବାହିତା ଅଧିକ ଏବଂ ରୋଧ କମ୍",
+"explanation": "ତମ୍ବାର ପରିବାହିତା ଅଧିକ ଏବଂ ରୋଧ କମ୍ ଥିବାରୁ ବିଦ୍ୟୁତ୍ କ୍ଷୟ (Power loss) ସର୍ବନିମ୍ନ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "How does the resistance of an alloy compare with that of its constituent pure metals?",
+"questionOdia": "ଗୋଟିଏ ମିଶ୍ରଧାତୁର ରୋଧାଙ୍କ ଏହାର ଉପାଦାନ ଧାତୁଗୁଡ଼ିକର ରୋଧାଙ୍କ ଅପେକ୍ଷା କିପରି ହୁଏ?",
+"options": [
+"ଅଧିକ ହୁଏ",
+"କମ୍ ହୁଏ",
+"ସମାନ ରହେ",
+"ଶୂନ୍ୟ ହୁଏ"
+],
+"answer": "ଅଧିକ ହୁଏ",
+"explanation": "ମିଶ୍ରଧାତୁଗୁଡ଼ିକର ବିଶିଷ୍ଟ ରୋଧ (ରୋଧାଙ୍କ) ସେଗୁଡ଼ିକର ଗଠନକାରୀ ବିଶୁଦ୍ଧ ଧାତୁଗୁଡ଼ିକ ଅପେକ୍ଷା ସାଧାରଣତଃ ଅଧିକ ହୋଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the potential difference if 10 J of work is done in moving a charge of 2 C?",
+"questionOdia": "ଯଦି 2 C ଆବେଶକୁ ଗୋଟିଏ ସ୍ଥାନରୁ ଅନ୍ୟ ସ୍ଥାନକୁ ନେବା ପାଇଁ 10 J କାର୍ଯ୍ୟ ହୁଏ, ତେବେ ସେଠାରେ ବିଭବାନ୍ତର କେତେ?",
+"options": [
+"5 ଭୋଲ୍ଟ",
+"20 ଭୋଲ୍ଟ",
+"0.2 ଭୋଲ୍ଟ",
+"2 ଭୋଲ୍ଟ"
+],
+"answer": "5 ଭୋଲ୍ଟ",
+"explanation": "ବିଭବାନ୍ତର V = W / Q = 10 J / 2 C = 5 ଭୋଲ୍ଟ।"
+},
+{
+"questionEnglish": "Why does an electric bulb glow when current passes through it?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ହେଲେ ବଲ୍ବ କାହିଁକି ଆଲୋକିତ ହୁଏ?",
+"options": [
+"ଫିଲାମେଣ୍ଟର ଅଧିକ ରୋଧ ଯୋଗୁଁ ତାପ ସୃଷ୍ଟି ହୋଇ ଏହା ଉଜ୍ଜ୍ୱଳ ହୁଏ",
+"ବଲ୍ବ ଭିତରେ ଜଳ ଥାଏ",
+"କରେଣ୍ଟ ଆଲୋକରେ ପରିଣତ ହୁଏ",
+"ଫିଲାମେଣ୍ଟ ତରଳିଯାଏ"
+],
+"answer": "ଫିଲାମେଣ୍ଟର ଅଧିକ ରୋଧ ଯୋଗୁଁ ତାପ ସୃଷ୍ଟି ହୋଇ ଏହା ଉଜ୍ଜ୍ୱଳ ହୁଏ",
+"explanation": "ଉଚ୍ଚ ରୋଧବିଶିଷ୍ଟ ଟଙ୍ଗଷ୍ଟେନ୍ ଫିଲାମେଣ୍ଟ ଦ୍ୱାରା ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ବେଳେ ପ୍ରବଳ ତାପ ସୃଷ୍ଟି ହୋଇ ଆଲୋକ ବିକିରଣ ହୁଏ।"
+},
+{
+"questionEnglish": "What is the power of an electrical appliance that consumes 1000 J of energy in 10 seconds?",
+"questionOdia": "10 ସେକେଣ୍ଡରେ 1000 J ଶକ୍ତି ବ୍ୟବହାର କରୁଥିବା ଉପକରଣର କ୍ଷମତା କେତେ?",
+"options": [
+"100 ୱାଟ୍",
+"10 ୱାଟ୍",
+"10000 ୱାଟ୍",
+"1 ୱାଟ୍"
+],
+"answer": "100 ୱାଟ୍",
+"explanation": "କ୍ଷମତା P = ଶକ୍ତି / ସମୟ = 1000 J / 10 s = 100 W (ୱାଟ୍)।"
+},
+{
+"questionEnglish": "Which safety device melts and breaks the circuit during excessive current flow?",
+"questionOdia": "ଅତ୍ୟଧିକ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ସମୟରେ ତରଳିଯାଇ ସର୍କିଟକୁ ବିଚ୍ଛିନ୍ନ କରୁଥିବା ସୁରକ୍ଷା ଯନ୍ତ୍ର କ’ଣ?",
+"options": [
+"ବିଦ୍ୟୁତ୍ ଫ୍ୟୁଜ୍",
+"ଆମିଟର",
+"ଭୋଲ୍ଟମିଟର",
+"ଟ୍ରାନ୍ସଫର୍ମର"
+],
+"answer": "ବିଦ୍ୟୁତ୍ ଫ୍ୟୁଜ୍",
+"explanation": "ଫ୍ୟୁଜ୍ ତାର ଅଧିକ କରେଣ୍ଟରେ ଗରମ ହୋଇ ତରଳିଯାଏ ଏବଂ ସର୍କିଟକୁ ସୁରକ୍ଷିତ ରଖେ।"
+},
+{
+"questionEnglish": "What is the role of the earth wire in domestic appliances with metallic bodies?",
+"questionOdia": "ଧାତବ ଆବରଣ ଥିବା ଘରୋଇ ଉପକରଣଗୁଡ଼ିକରେ ଆର୍ଥ ତାରର ଭୂମିକା କ’ଣ?",
+"options": [
+"ଧାତବ ଆବରଣରେ ଲାଇଭ୍ ତାର ଲାଗିଗଲେ ଉପକୋଣକୁ ସୁରକ୍ଷା ଦେବା ଓ ସକ୍ ନ ଲାଗିବା ପାଇଁ",
+"ଉପକରଣକୁ ଚଲାଇବା ପାଇଁ ମୁଖ୍ୟ କରେଣ୍ଟ ଦେବା",
+"ବିଦ୍ୟୁତ୍ କ୍ଷମତା ବଢ଼ାଇବା",
+"ଉପକରଣକୁ ଥଣ୍ଡା ରଖିବା"
+],
+"answer": "ଧାତବ ଆବରଣରେ ଲାଇଭ୍ ତାର ଲାଗିଗଲେ ଉପକୋଣକୁ ସୁରକ୍ଷା ଦେବା ଓ ସକ୍ ନ ଲାଗିବା ପାଇଁ",
+"explanation": "ଆର୍ଥ ତାର ଲିକେଜ୍ କରେଣ୍ଟକୁ ସିଧାସଳଖ ଭୂମିକୁ ପଠାଇ ଦେଇ ବ୍ୟବହାରକାରୀଙ୍କୁ ବିଦ୍ୟୁତ୍ ଆଘାତରୁ ରକ୍ଷା କରେ।"
+},
+{
+"questionEnglish": "If two resistors of 6 ohms and 3 ohms are connected in series, what is their equivalent resistance?",
+"questionOdia": "6 ଓହ୍ମ ଏବଂ 3 ଓହ୍ମ ବିଶିଷ୍ଟ ଦୁଇଟି ରୋଧକକୁ ଶ୍ରେଣୀ ସମବାୟରେ ସଂଯୋଗ କଲେ ସମତୁଲ ରୋଧ କେତେ ହେବ?",
+"options": [
+"9 ଓହ୍ମ",
+"2 ଓହ୍ମ",
+"18 ଓହ୍ମ",
+"0.5 ଓହ୍ମ"
+],
+"answer": "9 ଓହ୍ମ",
+"explanation": "ଶ୍ରେଣୀ ସମବାୟରେ R = R1 + R2 = 6 + 3 = 9 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "What is the equivalent resistance of two resistors of 10 ohms each connected in parallel?",
+"questionOdia": "ପ୍ରତ୍ୟେକେ 10 ଓହ୍ମ ବିଶିଷ୍ଟ ଦୁଇଟି ରୋଧକକୁ ସମାନ୍ତରାଳ ସମବାୟରେ ସଂଯୋଗ କଲେ ସମତୁଲ ରୋଧ କେତେ ହେବ?",
+"options": [
+"20 ଓହ୍ମ",
+"5 ଓହ୍ମ",
+"10 ଓହ୍ମ",
+"1 ଓହ୍ମ"
+],
+"answer": "5 ଓହ୍ମ",
+"explanation": "ସମାନ୍ତରାଳ ସମବାୟରେ 1/R = 1/10 + 1/10 = 2/10 = 1/5, ତେଣୁ R = 5 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "Which physical quantity represents the rate of flow of electric charge?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ଆବେଶ ପ୍ରବାହର ହାରକୁ କେଉଁ ଭୌତିକ ପରିମାଣ କୁହାଯାଏ?",
+"options": [
+"ବିଦ୍ୟୁତ୍ ପ୍ରବାହ (Electric current)",
+"ବିଦ୍ୟୁତ୍ କ୍ଷମତା",
+"ରୋଧ",
+"ବିଭବାନ୍ତର"
+],
+"answer": "ବିଦ୍ୟୁତ୍ ପ୍ରବାହ (Electric current)",
+"explanation": "ଏକକ ସମୟରେ ପ୍ରବାହିତ ହେଉଥିବା ଆବେଶର ପରିମାଣକୁ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ (I = Q/t) କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the unit of electrical energy when expressed in terms of watts and hours?",
+"questionOdia": "ୱାଟ୍ ଏବଂ ଘଣ୍ଟାରେ ପ୍ରକାଶ କରାଗଲେ ବିଦ୍ୟୁତ୍ ଶକ୍ତିର ଏକକ କ’ଣ ହୁଏ?",
+"options": [
+"ୱାଟ୍-ଘଣ୍ଟା (Wh) ବା କିଲୋୱାଟ୍-ଘଣ୍ଟା (kWh)",
+"ଜୁଲ୍-ସେକେଣ୍ଡ",
+"ଆମ୍ପିୟର୍-ଘଣ୍ଟା",
+"ଭୋଲ୍ଟ-ଆମ୍ପିୟର୍"
+],
+"answer": "ୱାଟ୍-ଘଣ୍ଟା (Wh) ବା କିଲୋୱାଟ୍-ଘଣ୍ଟା (kWh)",
+"explanation": "କ୍ଷମତା (ୱାଟ୍) ଏବଂ ସମୟ (ଘଣ୍ଟା) ର ଗୁଣଫଳକୁ ୱାଟ୍-ଘଣ୍ଟା ବା କିଲୋୱାଟ୍-ଘଣ୍ଟା କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the relation between potential difference, work done, and charge?",
+"questionOdia": "ବିଭବାନ୍ତର (V), କାର୍ଯ୍ୟ (W) ଏବଂ ଆବେଶ (Q) ମଧ୍ୟରେ ସଠକ୍ ସମ୍ବନ୍ଧ କ’ଣ?",
+"options": [
+"V = W / Q",
+"W = V × Q²",
+"Q = V × W",
+"V = Q / W"
+],
+"answer": "V = W / Q",
+"explanation": "ବିଭବାନ୍ତର ହେଉଛି ଏକକ ଆବେଶ ପ୍ରତି କରାଯାଇଥିବା କାର୍ଯ୍ୟ, ଅର୍ଥାତ୍ V = W / Q।"
+},
+{
+"questionEnglish": "Why does a metal wire offer electrical resistance?",
+"questionOdia": "ଧାତବ ତାରରେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ବେଳେ ରୋଧ କାହିଁକି ସୃଷ୍ଟି ହୁଏ?",
+"options": [
+"ଇଲେକ୍ଟ୍ରନ୍‌ଗୁଡ଼ିକର ଗତିବିଧି ସମୟରେ ଅନ୍ୟ ଇଲେକ୍ଟ୍ରନ୍ ଓ ଆୟନ ସହିତ ସଂଘର୍ଷ ଯୋଗୁଁ",
+"ତାର ଭିତରେ ବାୟୁ ଥିବାରୁ",
+"ତାରର ରଙ୍ଗ ପରିବର୍ତ୍ତନ ହେବାରୁ",
+"କୌଣସି ସଂଘର୍ଷ ନ ହେବାରୁ"
+],
+"answer": "ଇଲେକ୍ଟ୍ରନ୍‌ଗୁଡ଼ିକର ଗତିବିଧି ସମୟରେ ଅନ୍ୟ ଇଲେକ୍ଟ୍ରନ୍ ଓ ଆୟନ ସହିତ ସଂଘର୍ଷ ଯୋଗୁଁ",
+"explanation": "ମୁକ୍ତ ଇଲେକ୍ଟ୍ରନ୍‌ଗୁଡ଼ିକ ପରିବାହୀ ମଧ୍ୟଦେଇ ଗତି କରିବାବେଳେ ଧାତବ ପରମାଣୁ ଓ ଆୟନଗୁଡ଼ିକ ସହ ଧକ୍କା ହୋଇ ପ୍ରତିରୋଧର ସମ୍ମୁଖୀନ ହୁଅନ୍ତି।"
+},
+{
+"questionEnglish": "What is the effect of doubling the radius of a wire on its resistance, keeping length constant?",
+"questionOdia": "ଯଦି ଦୈର୍ଘ୍ୟ ସ୍ଥିର ରଖି ତାରର ବ୍ୟାସାର୍ଘ୍ୟକୁ ଦ୍ୱିଗୁଣିତ କରାଯାଏ, ତେବେ ଏହାର ରୋଧ କେତେ ପ୍ରଭାବିତ ହେବ?",
+"options": [
+"1 ଚତୁର୍ଥାଂଶ (1/4th) ହୋଇଯିବ",
+"ଦ୍ୱିଗୁଣିତ ହେବ",
+"ଅଧା ହୋଇଯିବ",
+"ଚାରିଗୁଣ ହେବ"
+],
+"answer": "1 ଚତୁର୍ଥାଂଶ (1/4th) ହୋଇଯିବ",
+"explanation": "ରୋଧ ବ୍ୟାସାର୍ଘ୍ୟର ବର୍ଗର ବ୍ୟସ୍ତାନୁପାତିକ (R ∝ 1/r²); ବ୍ୟାସାର୍ଘ୍ୟ ଦ୍ୱିଗୁଣିତ ହେଲେ 2² = 4, ତେଣୁ ରୋଧ 1/4 ଭାଗ ହୋଇଯିବ।"
+},
+{
+"questionEnglish": "Which of the following has the lowest electrical resistivity?",
+"questionOdia": "ନିମ୍ନୋକ୍ତ ମଧ୍ୟରୁ କାହାର ବିଶିଷ୍ଟ ରୋଧ ବା ରୋଧାଙ୍କ ସବୁଠାରୁ କମ୍?",
+"options": [
+"ରୂପା (Silver)",
+"ନାଇକ୍ରୋମ୍",
+"ଗ୍ଲାସ୍",
+"ରବର"
+],
+"answer": "ରୂପା (Silver)",
+"explanation": "ରୂପାର ରୋଧାଙ୍କ ସବୁଠାରୁ କମ୍ ହୋଇଥିବାରୁ ଏହା ସର୍ବୋତ୍ତମ ବିଦ୍ୟୁତ୍ ପରିବାହୀ ଅଟେ।"
+},
+{
+"questionEnglish": "What is the equivalent resistance of three 3-ohm resistors connected in series?",
+"questionOdia": "3 ଓହ୍ମ ବିଶିଷ୍ଟ ତିନୋଟି ରୋଧକକୁ ଶ୍ରେଣୀ ସମବାୟରେ ସଂଯୋଗ କଲେ ସମତୁଲ ରୋଧ କେତେ ହେବ?",
+"options": [
+"9 ଓହ୍ମ",
+"1 ଓହ୍ମ",
+"3 ଓହ୍ମ",
+"6 ଓହ୍ମ"
+],
+"answer": "9 ଓହ୍ମ",
+"explanation": "ଶ୍ରେଣୀ ସମବାୟରେ R = 3 + 3 + 3 = 9 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "What is the purpose of using a switch in an electric circuit?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ସର୍କିଟରେ ସୁଇଚ୍ ବ୍ୟବହାର କରିବାର ଉଦ୍ଦେଶ୍ୟ କ’ଣ?",
+"options": [
+"ସର୍କିଟକୁ ସଂଯୋଗ କିମ୍ବା ବିଚ୍ଛିନ୍ନ କରିବା (Make or break the circuit)",
+"ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ବଢ଼ାଇବା",
+"ଭୋଲ୍ଟେଜ୍ ଦ୍ୱିଗୁଣ କରିବା",
+"ରୋଧ ଶୂନ୍ୟ କରିବା"
+],
+"answer": "ସର୍କିଟକୁ ସଂଯୋଗ କିମ୍ବା ବିଚ୍ଛିନ୍ନ କରିବା (Make or break the circuit)",
+"explanation": "ସୁଇଚ୍ ଏକ ସରଳ ଯନ୍ତ୍ର, ଯାହା ସାହାଯ୍ୟରେ ସର୍କିଟକୁ ଚାଲୁ ବା ବନ୍ଦ କରାଯାଇଥାଏ।"
+},
+{
+"questionEnglish": "How does the current divide in a parallel combination of two unequal resistors?",
+"questionOdia": "ଦୁଇଟି ଅସମାନ ରୋଧକର ସମାନ୍ତରାଳ ସମବାୟରେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ କିପରି ବଣ୍ଟନ ହୁଏ?",
+"options": [
+"କମ୍ ରୋଧ ଥିବା ପଥରେ ଅଧିକ କରେଣ୍ଟ ପ୍ରବାହିତ ହୁଏ",
+"ସବୁ ପଥରେ ସମାନ କରେଣ୍ଟ ପ୍ରବାହିତ ହୁଏ",
+"ଅଧିକ ରୋଧ ଥିବା ପଥରେ ଅଧିକ କରେଣ୍ଟ ଯାଏ",
+"କୌଣସି କରେଣ୍ଟ ପ୍ରବାହ ହୁଏ ନାହିଁ"
+],
+"answer": "କମ୍ ରୋଧ ଥିବା ପଥରେ ଅଧିକ କରେଣ୍ଟ ପ୍ରବାହିତ ହୁଏ",
+"explanation": "ସମାନ୍ତରାଳ ସମବାୟରେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ରୋଧ ସହିତ ବ୍ୟସ୍ତାନୁପାତିକ ଭାବେ ବଣ୍ଟନ ହୁଏ (I ∝ 1/R), ତେଣୁ କମ୍ ରୋଧରେ ଅଧିକ କରେଣ୍ଟ ମିଳେ।"
+},
+{
+"questionEnglish": "What is the SI unit of potential difference?",
+"questionOdia": "ବିଭବାନ୍ତରର ଏସ.ଆଇ ଏକକ କ’ଣ?",
+"options": [
+"ଭୋଲ୍ଟ",
+"ଆମ୍ପିୟର୍",
+"ଜୁଲ୍",
+"ଓହ୍ମ"
+],
+"answer": "ଭୋଲ୍ଟ",
+"explanation": "ବିଭବାନ୍ତରର ଏସ.ଆଇ ଏକକ ଭୋଲ୍ଟ (Volt) ଅଟେ।"
+},
+{
+"questionEnglish": "Which scientist formulated the relationship between current, voltage, and resistance?",
+"questionOdia": "ବିଦ୍ୟୁତ୍ ପ୍ରବାହ, ଭୋଲ୍ଟେଜ୍ ଏବଂ ରୋଧ ମଧ୍ୟରେ ସମ୍ବନ୍ଧ କେଉଁ ବୈଜ୍ଞାନିକ ଆବଷ୍କାର କରିଥିଲେ?",
+"options": [
+"ଜର୍ଜ ସାଇମନ୍ ଓହ୍ମ",
+"ଆନ୍ଦ୍ରେ ମେରୀ ଆମ୍ପିୟର୍",
+"ଜେମ୍ସ ପ୍ରେସ୍କଟ୍ ଜୁଲ୍",
+"ଆଲେସାନ୍ଦ୍ରୋ ଭୋଲ୍ଟା"
+],
+"answer": "ଜର୍ଜ ସାଇମନ୍ ଓହ୍ମ",
+"explanation": "ଜର୍ଜ ସାଇମନ୍ ଓହ୍ମ (Georg Simon Ohm) ଏହି ସମ୍ବନ୍ଧକୁ ଓହ୍ମଙ୍କ ନିୟମ ଭାବେ ପ୍ରତିପାଦନ କରିଥିଲେ।"
+},
+{
+"questionEnglish": "What happens to the total resistance when more resistors are added in series?",
+"questionOdia": "ଶ୍ରେଣୀ ସମବାୟରେ ଅଧିକ ରୋଧକ ଯୋଡ଼ିଲେ ମୋଟ ରୋଧ କ’ଣ ହୁଏ?",
+"options": [
+"ବୃଦ୍ଧି ପାଏ",
+"ହ୍ରାସ ପାଏ",
+"ଅପରିବର୍ତ୍ତିତ ରହେ",
+"ଶୂନ୍ୟ ହୁଏ"
+],
+"answer": "ବୃଦ୍ଧି ପାଏ",
+"explanation": "ଶ୍ରେଣୀ ସମବାୟରେ ସମତୁଲ ରୋଧ ସମସ୍ତ ବ୍ୟକ୍ତିଗତ ରୋଧର ଯୋଗଫଳ ହୋଇଥିବାରୁ ଅଧିକ ରୋଧକ ଯୋଡ଼ିଲେ ମୋଟ ରୋଧ ବଢ଼ିଥାଏ।"
+},
+{
+"questionEnglish": "What happens to the total resistance when more resistors are added in parallel?",
+"questionOdia": "ସମାନ୍ତରାଳ ସମବାୟରେ ଅଧିକ ରୋଧକ ଯୋଡ଼ିଲେ ମୋଟ ରୋଧ କ’ଣ ହୁଏ?",
+"options": [
+"ହ୍ରାସ ପାଏ",
+"ବୃଦ୍ଧି ପାଏ",
+"ସମାନ ରହେ",
+"ଅସୀମ ହୁଏ"
+],
+"answer": "ହ୍ରାସ ପାଏ",
+"explanation": "ସମାନ୍ତରାଳ ସମବାୟରେ ଅଧିକ ପଥ ସୃଷ୍ଟି ହେତୁ ସମତୁଲ ରୋଧ କମିଯାଇଥାଏ।"
+},
+{
+"questionEnglish": "What is the formula for electrical energy (E) in terms of power (P) and time (t)?",
+"questionOdia": "କ୍ଷମତା (P) ଏବଂ ସମୟ (t) ପଦରେ ବିଦ୍ୟୁତ୍ ଶକ୍ତି (E) ର ସୂତ୍ର କ’ଣ?",
+"options": [
+"E = P × t",
+"E = P / t",
+"E = t / P",
+"E = P² × t"
+],
+"answer": "E = P × t",
+"explanation": "ବିଦ୍ୟୁତ୍ ଶକ୍ତି ହେଉଛି କ୍ଷମତା ଏବଂ ସମୟର ଗୁଣଫଳ, ଅର୍ଥାତ୍ E = P × t।"
+},
+{
+"questionEnglish": "Why are copper wires generally thicker than standard connection wires inside electronics?",
+"questionOdia": "ମେନ୍ସ ଲାଇଭ୍ ତାରଗୁଡ଼ିକ ସାଧାରଣତଃ କାହିଁକି ମୋଟା କରାଯାଇଥାଏ?",
+"options": [
+"ଅଧିକ କରେଣ୍ଟ ପ୍ରବାହକୁ ସହଜରେ ବହନ କରିବା ଏବଂ ଅଧିକ ଗରମ ନ ହେବା ପାଇଁ",
+"ସେଗୁଡ଼ିକ ଦେଖିବାକୁ ସୁନ୍ଦର ଦେଖାଯିବା ପାଇଁ",
+"ରୋଧ ବଢ଼ାଇବା ପାଇଁ",
+"ଓଜନ ବଢ଼ାଇବା ପାଇଁ"
+],
+"answer": "ଅଧିକ କରେଣ୍ଟ ପ୍ରବାହକୁ ସହଜରେ ବହନ କରିବା ଏବଂ ଅଧିକ ଗରମ ନ ହେବା ପାଇଁ",
+"explanation": "ମୋଟା ତାରର ରୋଧ କମ୍ ଥାଏ, ଯାହାଦ୍ୱାରା ଅଧିକ କରେଣ୍ଟ ପ୍ରବାହ ବେଳେ ଏହା ଅଧିକ ଗରମ ହୋଇ ନଷ୍ଟ ହୁଏ ନାହିଁ।"
+},
+{
+"questionEnglish": "What is the equivalent resistance of two 5-ohm resistors connected in series?",
+"questionOdia": "5 ଓହ୍ମ ବିଶିଷ୍ଟ ଦୁଇଟି ରୋଧକକୁ ଶ୍ରେଣୀ ସମବାୟରେ ସଂଯୋଗ କଲେ ସମତୁଲ ରୋଧ କେତେ ହେବ?",
+"options": [
+"10 ଓହ୍ମ",
+"2.5 ଓହ୍ମ",
+"5 ଓହ୍ମ",
+"25 ଓହ୍ମ"
+],
+"answer": "10 ଓହ୍ମ",
+"explanation": "ଶ୍ରେଣୀ ସମବାୟରେ R = 5 + 5 = 10 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "What is the equivalent resistance of two 5-ohm resistors connected in parallel?",
+"questionOdia": "5 ଓହ୍ମ ବିଶିଷ୍ଟ ଦୁଇଟି ରୋଧକକୁ ସମାନ୍ତରାଳ ସମବାୟରେ ସଂଯୋଗ କଲେ ସମତୁଲ ରୋଧ କେତେ ହେବ?",
+"options": [
+"2.5 ଓହ୍ମ",
+"10 ଓହ୍ମ",
+"5 ଓହ୍ମ",
+"1 ଓହ୍ମ"
+],
+"answer": "2.5 ଓହ୍ମ",
+"explanation": "ସମାନ୍ତରାଳ ସମବାୟରେ R = (5 × 5) / (5 + 5) = 25 / 10 = 2.5 ଓହ୍ମ।"
+},
+{
+"questionEnglish": "Which term describes the opposition offered by a substance to the flow of electric current?",
+"questionOdia": "ପଦାର୍ଥ ଦ୍ୱାରା ବିଦ୍ୟୁତ୍ ପ୍ରବାହକୁ କରାଯାଉଥିବା ପ୍ରତିରୋଧକୁ କ’ଣ କୁହାଯାଏ?",
+"options": [
+"ରୋଧ (Resistance)",
+"ପରିବାହିତା",
+"ବିଭବାନ୍ତର",
+"ଆବେଶ"
+],
+"answer": "ରୋଧ (Resistance)",
+"explanation": "ବିଦ୍ୟୁତ୍ ପ୍ରବାହକୁ ବାଧାପ୍ରାପ୍ତ କରୁଥିବା ଗୁଣକୁ ପଦାର୍ଥର ରୋଧ କୁହାଯାଏ।"
+},
+{
+"questionEnglish": "What is the primary reason for using alternating current (AC) for power transmission over long distances?",
+"questionOdia": "ଦୂର ସ୍ଥାନକୁ ବିଦ୍ୟୁତ୍ ପରିବହନ ପାଇଁ ପ୍ରତ୍ୟାବର୍ତ୍ତୀ ପ୍ରବାହ (AC) ବ୍ୟବହାର କରିବାର ମୁଖ୍ୟ କାର୍ଣ କ’ଣ?",
+"options": [
+"କମ୍ ଶକ୍ତି କ୍ଷୟ (Power loss) ସହିତ ବହୁ ଦୂରକୁ ପଠାଯାଇପାରିବ",
+"ଏହା ପ୍ରସ୍ତୁତ କରିବା ସହଜ",
+"ଏଥିରେ କୌଣସି ତାର ଆବଶ୍ୟକ ନାହିଁ",
+"ଏହା କେବେବି ଆଘାତ ଦିଏ ନାହିଁ"
+],
+"answer": "କମ୍ ଶକ୍ତି କ୍ଷୟ (Power loss) ସହିତ ବହୁ ଦୂରକୁ ପଠାଯାଇପାରିବ",
+"explanation": "ଟ୍ରାନ୍ସଫର୍ମର ସାହାଯ୍ୟରେ AC ଭୋଲ୍ଟେଜ୍‌କୁ ବଢ଼ାଇ କମ୍ କ୍ଷୟରେ ଦୂରଦୂରାନ୍ତକୁ ପଠାଯାଇପାରେ।"
+},
+{
+"questionEnglish": "How does an increase in length affect the resistivity of a material?",
+"questionOdia": "ପରିବାହୀର ଦୈର୍ଘ୍ୟ ବଢ଼ିଲେ ଏହାର ରୋଧାଙ୍କ (Resistivity) କିପରି ପରିବର୍ତ୍ତିତ ହୁଏ?",
+"options": [
+"ଅପରିବର୍ତ୍ତିତ ରହେ",
+"ବୃଦ୍ଧି ପାଏ",
+"ହ୍ରାସ ପାଏ",
+"ଶୂନ୍ୟ ହୁଏ"
+],
+"answer": "ଅପରିବର୍ତ୍ତିତ ରହେ",
+"explanation": "ରୋଧାଙ୍କ ଏକ ଆପେକ୍ଷିକ ଧର୍ମ ଏବଂ ଏହା ଉପାଦାନର ପ୍ରକୃତି ଓ ତାପମାତ୍ରା ଉପରେ ନିର୍ଭର କରେ, ଦୈର୍ଘ୍ୟ ବା କ୍ଷେତ୍ରଫଳ ଉପରେ ନୁହେଁ।"
+},
+{
+"questionEnglish": "What is the electric current if a charge of 60 C flows through a circuit in 2 minutes?",
+"questionOdia": "ଯଦି 2 ମିନିଟ୍ ସମୟ ମଧ୍ୟରେ ସର୍କିଟ୍ ମଧ୍ୟଦେଇ 60 C ଆବେଶ ପ୍ରବାହିତ ହୁଏ, ତେବେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ କେତେ?",
+"options": [
+"0.5 A",
+"30 A",
+"2 A",
+"120 A"
+],
+"answer": "0.5 A",
+"explanation": "I = Q / t, ଯେଉଁଠାରେ t = 2 ମିନିଟ୍ = 120 ସେକେଣ୍ଡ। ତେଣୁ I = 60 C / 120 s = 0.5 A।"
+}
 ]
