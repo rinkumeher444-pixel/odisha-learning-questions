@@ -1,223 +1,126 @@
-
 [
-  {
-    "title": "Author Introduction",
-    "content": "William Wordsworth (1770-1850) was one of the greatest poets of England and a true lover of natural life. He is widely regarded as a pioneer of the Romantic Age in English literature. Wordsworth regards nature as a great teacher, and his poems seek to establish an intimate and spiritual relationship with it. He also depicts simple rustic life with profound beauty and sensitivity in a number of poems. He is the author of several memorable lyrics such as 'Daffodils', 'The Solitary Reaper', and the 'Lucy Poems'. His poetic style is marked by simplicity of language and deep philosophical insights into human emotions and childhood innocence."
-  },
-  {
-    "title": "Literary Background",
-    "content": "The poem 'We are Seven' was inspired by the poet's meeting with a little child near Goodrich Castle in Wales in the year 1793. During the Romantic period, poets like Wordsworth turned away from artificial urban themes to focus on humble, rustic people, children, and unspoiled nature. Children, in the eyes of Romantic poets, possess a pure, uncorrupted vision of existence, unburdened by worldly dogmas or intellectual complications. This poem captures a philosophical dialogue between an adult mind, which views death as a permanent separation, and a child's intuitive mind, which perceives familial bonds and life as eternal and unbroken by physical death."
-  },
-  {
-    "title": "Chapter Introduction",
-    "content": "The chapter 'We are Seven' presents a fascinating exploration of how children perceive the world and life's ultimate realities, such as death, from a perspective completely different from adults. Children see things through a simple, innocent lens because of their uncorrupted nature. The poem highlights how an adult's intellectual understanding of death differs starkly from a little child's feeling of unbroken spiritual unity with her departed siblings. Through a simple yet deeply moving dialogue between the adult narrator and a charming eight-year-old cottage girl, the poem raises timeless questions about mortality, memory, and the enduring nature of love."
-  },
-  {
-    "title": "First Stanza Explanation",
-    "content": "The poem begins with a description of a simple child who lightly draws its breath and feels its life in every limb. The narrator wonders what such a child, full of vibrant life and physical energy, could possibly know of death. In Odia, this means: ଗୋଟିଏ ସରଳ ଶିଶୁ, ଯିଏ ଖୁବ୍‌ ହାଲୁକା ଭାବରେ ନିଶ୍ୱାସ ନିଏ ଏବଂ ତାର ପ୍ରତ୍ୟେକ ଅଙ୍ଗପ୍ରତ୍ୟଙ୍ଗରେ ଜୀବନର ସ୍ପନ୍ଦନ ଅନୁଭବ କରେ, ସେ ମୃତ୍ୟୁ ବିଷୟରେ କ’ଣ ବା ଜାଣିପାରେ? The poetic beauty here lies in establishing the pure, carefree vitality of childhood. The imagery is tactile and dynamic, emphasizing breath and limb, while the tone is inquisitive, gentle, and filled with wonder."
-  },
-  {
-    "title": "Second Stanza Explanation",
-    "content": "In the second stanza, the poet describes his meeting with a little cottage girl who is eight years old. Her hair is thick with many curls that cluster round her head. In Odia, this means: କବି ଜଣେ ସାନ କୁଟୀରବାସିନୀ ବାଳିକାକୁ ଭେଟିଲେ, ଯିଏ କହିଲା ଯେ ତାର ବୟସ ଆଠ ବର୍ଷ; ତାର କେଶାଞ୍ଚଳ ଘନ କୁଞ୍ଚାକୁଞ୍ଚିଆ ହୋଇ ମୁଣ୍ଡ ଚାରିପାଖରେ ଘେରି ରହିଥିଲା। The stanza paints a vivid visual picture of a rustic child. The phrase 'clustered round her head' creates a clear image of natural, untamed beauty. The mood is charming, warm, and sets an intimate conversational tone between the adult poet and the young girl."
-  },
-  {
-    "title": "Third Stanza Explanation",
-    "content": "The third stanza portrays the girl's rustic, woodland air and her wild, simple clothing. Her eyes are very fair, and her natural beauty makes the poet's heart glad. In Odia, this means: ତାର ଏକ ଗ୍ରାମ୍ୟ ଏବଂ ବଣୁଆ ବାୟୁମଣ୍ଡଳ ଥିଲା ଏବଂ ସେ ଅସଜଡ଼ା ଭାବରେ ପୋଷାକ ପିନ୍ଧିଥିଲା; ତାର ଆଖିଗୁଡ଼ିକ ଅତି ସୁନ୍ଦର ଥିଲା ଏବଂ ତାର ସୌନ୍ଦର୍ଯ୍ୟ କବିଙ୍କୁ ଆନନ୍ଦିତ କରିଥିଲା। This stanza uses rich visual and atmospheric imagery to depict a child living close to nature. The phrase 'wildly clad' indicates her freedom from artificial fashion, and her fair eyes reflect inner purity and innocence."
-  },
-  {
-    "title": "Fourth Stanza Explanation",
-    "content": "The poet initiates the conversation by asking the little maid how many brothers and sisters she has. Looking at him with wonder, she replies that there are seven in all. In Odia, this means: କବି ପଚାରିଲେ, \"ହେ ସାନ ବାଳିକା, ତୁମର ଭାଇ ଓ ଭଉଣୀମାନେ ମିଶି କେତେଜଣ ଅଛନ୍ତି?\" ସେ ଆଶ୍ଚର୍ଯ୍ୟ ହୋଇ କବିଙ୍କ ଆଡ଼କୁ ଚାହିଁ କହିଲା, \"ଆମେ ସମସ୍ତେ ମୋଟ ସାତଜଣ।\" The poet's question is direct, while the girl's immediate answer 'Seven in all' introduces the core paradox of the poem. Her look of wonder highlights her innocent inability to comprehend why an adult would ask such a basic question."
-  },
-  {
-    "title": "Fifth Stanza Explanation",
-    "content": "Curiously asking where they are, the poet receives her explanation: seven are they in total, out of which two dwell at Conway and two have gone to sea. In Odia, this means: କବି ପଚାରିଲେ, \"ସେମାନେ କେଉଁଠାରେ ଅଛନ୍ତି?\" ସେ ଉତ୍ତର ଦେଲା, \"ଆମେ ସାତଜଣ ଅଛୁ; ଆମ ଭିତରୁ ଦୁଇଜଣ କନୱେ ସହରରେ ବାସ କରନ୍ତି ଏବଂ ଦୁଇଜଣ ସମୁଦ୍ର ଯାତ୍ରାରେ ଯାଇଛନ୍ତି।\" This stanza deepens the dialogue, revealing the geographical distribution of the siblings as understood by the child. The tone remains light and conversational, hiding the deeper emotional undercurrent regarding the other siblings."
-  },
-  {
-    "title": "Sixth Stanza Explanation",
-    "content": "The girl further explains that two of them lie in the churchyard—her sister and her brother—while she dwells near them in the church-yard cottage with her mother. In Odia, this means: \"ଆମ ଭିତରୁ ଦୁଇଜଣ—ଜଣେ ଭଉଣୀ ଏବଂ ଜଣେ ଭାଇ—ଚର୍ଚ୍ଚର ସଂଲଗ୍ନ କବରସ୍ଥାନରେ ଶୋଇଛନ୍ତି ଏବଂ ମୁଁ ସେମାନଙ୍କ ପାଖରେ ଗାଁର କବରସ୍ଥାନ କୁଟୀରରେ ମାଆଙ୍କ ସହିତ ବାସ କରେ।\" This stanza introduces the concept of death into the dialogue for the first time, though the child treats her dead siblings with the same casual proximity as the living ones, living right beside their graves."
-  },
-  {
-    "title": "Seventh Stanza Explanation",
-    "content": "Puzzled by her statement that two dwell at Conway, two are gone to sea, yet they are seven, the poet repeats his query, asking how this can be. In Odia, this means: କବି କହିଲେ, \"ତୁମେ କହୁଛ ଯେ ଦୁଇଜଣ କନୱେରେ ଅଛନ୍ତି ଏବଂ ଦୁଇଜଣ ସମୁଦ୍ରକୁ ଯାଇଛନ୍ତି, ତଥାପି ତୁମେମାନେ ସାତଜଣ! ହେ ସୁନ୍ଦରୀ ବାଳିକା, କୁହ ଏହା କିପରି ସମ୍ଭବ?\" The adult intellect struggles with simple arithmetic mixed with mortality, assuming physical absence equals non-existence, while the child operates on a different plane of emotional reality."
-  },
-  {
-    "title": "Eighth Stanza Explanation",
-    "content": "The little maid replies firmly once more that seven boys and girls are they, and two of them lie in the churchyard beneath the churchyard tree. In Odia, this means: ତତକ୍ଷଣାତ ସାନ ବାଳିକାଟି ଉତ୍ତର ଦେଲା, \"ଆମେ ସାତଜଣ ଭାଇଭଉଣୀ ଅଛୁ; ଆମ ଭିତରୁ ଦୁଇଜଣ ଚର୍ଚ୍ଚର କବରସ୍ଥାନ ଗଛମୂଳେ ଶୋଇରହିଛନ୍ତି।\" Her repetition emphasizes her unwavering conviction. She refuses to subtract the dead siblings from the family total, demonstrating a profound spiritual bond that defies biological or numerical logic."
-  },
-  {
-    "title": "Ninth Stanza Explanation",
-    "content": "Pointing out that she runs about and her limbs are alive, the poet argues that if two are laid in the churchyard, then they are only five. In Odia, this means: କବି ଯୁକ୍ତି କଲେ, \"ମୋର ସାନ ବାଳିକା, ତୁମେ ଦୌଡ଼ାଦୌଡ଼ି କରୁଛ, ତୁମର ଅଙ୍ଗପ୍ରତ୍ୟଙ୍ଗ ସ୍ୱଚ୍ଛନ୍ଦରେ ଜୀବନ୍ତ ଅଛି; ଯଦି ଦୁଇଜଣଙ୍କୁ କବରସ୍ଥାନରେ ପୋତାଯାଇଛି, ତେବେ ତୁମେମାନେ କେବଳ ପାଞ୍ଚଜଣ ହେବା କଥା।\" The poet applies logical, adult mathematics to the situation. He attempts to correct the child's count based on the physical reality of death and burial."
-  },
-  {
-    "title": "Tenth Stanza Explanation",
-    "content": "The little maid counters that their graves are green and can be seen, lying twelve steps or more from her mother's door side by side. In Odia, this means: ସାନ ବାଳିକାଟି ଉତ୍ତର ଦେଲା, \"ସେମାନଙ୍କ କବରଗୁଡ଼ିକ ସବୁଜ ଏବଂ ସେଗୁଡ଼ିକ ସ୍ପଷ୍ଟ ଦେଖାଯାଏ; ମୋ ମାଆଙ୍କ ଦ୍ୱାରରୁ ବାର ପାଦ ବା ତାଠାରୁ ଅଧିକ ଦୂରରେ ସେମାନେ ପାଖାପାଖି ଶୋଇଛନ୍ତି।\" The green graves symbolize ongoing life and closeness rather than permanent loss. The physical proximity (twelve steps from her door) keeps her dead siblings active participants in her daily domestic existence."
-  },
-  {
-    "title": "Eleventh Stanza Explanation",
-    "content": "The child describes her daily intimate activities at the graves: she often knits her stockings there, hems her kerchief, sits upon the ground, and sings a song to them. In Odia, this means: \"ମୁଁ ପ୍ରାୟ ସେଠାରେ ବସି ମୋର ମୋଜା ବୁଣେ, ମୋର ରୁମାଲର ସିଲେଇ କରେ, ସେହି ମାଟିରେ ବସି ରହେ ଏବଂ ସେମାନଙ୍କ ପାଇଁ ଗୋଟିଏ ଗୀତ ଗାଏ।\" This stanza illustrates the innocence and comfort the child feels. Death does not evoke fear or alienation in her; instead, the graves are a cozy extension of her home where she works and plays."
-  },
-  {
-    "title": "Twelfth Stanza Explanation",
-    "content": "She adds that often after sunset, when it is light and fair, she takes her little porringer and eats her supper there by the graves. In Odia, this means: \"ଆଉ ପ୍ରାୟ ସୂର୍ଯ୍ୟାସ୍ତ ପରେ, ଯେତେବେଳେ ପାଗ ସଫା ଓ ସୁନ୍ଦର ଥାଏ, ମୁଁ ମୋର ଛୋଟ ପାତ୍ରଟି ଧରି ସେଠାରେ ମୋର ଜଳଖିଆ ବା ରାତ୍ରୀଭୋଜନ ଖାଏ।\" Sharing her meals by the graves shows that she treats her deceased siblings as living companions with whom she shares her daily life, bridging the gap between life and death effortlessly."
-  },
-  {
-    "title": "Thirteenth Stanza Explanation",
-    "content": "Recalling the past, the child explains that the first to die was sister Jane; she lay moaning in bed till God released her of her pain, and then she went away. In Odia, this means: \"ଆମ ଭିତରୁ ପ୍ରଥମେ ଯିଏ ମୃତ୍ୟୁବରଣ କଲା, ସେ ଥିଲା ଭଉଣୀ ଜେନ୍; ସେ ବିଛଣାରେ ଯନ୍ତ୍ରଣାରେ କାନ୍ଦୁଥିଲା, ଯେପର୍ଯ୍ୟନ୍ତ ଭଗବାନ ତାକୁ ଯନ୍ତ୍ରଣାରୁ ମୁକ୍ତ କଲେ ନାହିଁ, ଏବଂ ତା’ପରେ ସେ ଚାଲିଗଲା।\" This tender description reveals how the child witnessed her sister's prolonged suffering and death, viewing death not as a terrifying monster, but as a merciful release from pain granted by God."
-  },
-  {
-    "title": "Fourteenth Stanza Explanation",
-    "content": "After Jane was laid in the churchyard, when the grass was dry, her brother John and she together played round her grave. In Odia, this means: \"ତେଣୁ ତାକୁ କବରସ୍ଥାନରେ ପୋତାଗଲା; ଏବଂ ଯେତେବେଳେ ଘାସଗୁଡ଼ିକ ଶୁଖିଗଲା, ଆମେ ଦୁଇଜଣ—ମୋ ଭାଇ ଜନ୍ ଏବଂ ମୁଁ—ତାଙ୍କ କବର ଚାରିପାଖରେ ମିଶି ଖେଳୁଥିଲୁ।\" Playfulness around a grave highlights the child's unique emotional resilience. The dry grass marks the passage of time, while sibling play continues across the boundary of physical life."
-  },
-  {
-    "title": "Fifteenth Stanza Explanation",
-    "content": "When the ground was white with snow and she could run and slide, her brother John was forced to go, and he now lies by Jane's side. In Odia, this means: \"ଆଉ ଯେତେବେଳେ ମାଟି ବରଫରେ ଧଳା ହୋଇଯାଇଥିଲା ଏବଂ ମୁଁ ଦୌଡ଼ି ଓ ଖସି ଖେଳୁଥିଲି, ସେତେବେଳେ ମୋ ଭାଇ ଜନ୍ ମଧ୍ୟ ଚାଲିଯିବାକୁ ବାଧ୍ୟ ହୋଇଥିଲା ଏବଂ ସେ ଜେନ୍ ପାଖରେ ଶୋଇରହିଛି।\" The seasonal shift from summer play to winter snow mirrors the sorrowful departure of the second sibling, yet the child accepts it with a calm, matter-of-fact tone."
-  },
-  {
-    "title": "Sixteenth Stanza Explanation",
-    "content": "Astonished, the poet asks how many they are then if those two are in heaven, to which the little maid gives the quick reply, 'O Master! we are seven.' In Odia, this means: କବି ପଚାରିଲେ, \"ତେବେ ତୁମେମାନେ କେତେଜଣ ଅଛ, ଯଦି ସେମାନେ ଦୁଇଜଣ ସ୍ୱର୍ଗରେ ଅଛନ୍ତି?\" ସାନ ବାଳିକାଟି ତତକ୍ଷଣାତ ଉତ୍ତର ଦେଲା, \"ହେ ମାଷ୍ଟର୍! ଆମେ ସାତଜଣ ଅଛୁ।\" The poet tries to corner her logically by placing the dead in heaven, but the child refuses to disown them, maintaining her emotional unity with them."
-  },
-  {
-    "title": "Seventeenth Stanza Explanation",
-    "content": "The poet protests that they are dead and their spirits are in heaven, but arguing with her was like throwing words away, for the little maid still insisted, 'Nay, we are seven!' In Odia, this means: କବି କହିଲେ, \"କିନ୍ତୁ ସେମାନେ ମୃତ; ସେହି ଦୁଇଜଣ ମୃତ ଏବଂ ସେମାନଙ୍କ ଆତ୍ମା ସ୍ୱର୍ଗରେ ଅଛି!\" କିନ୍ତୁ ଏହା ପବନରେ କଥା ଫିଙ୍ଗିବା ଭଳି ଥିଲା, କାରଣ ସାନ ବାଳିକାଟି ନିଜ ଜିଦ୍‌ରେ ଅଟଳ ରହି କହିଲା, \"ନା, ଆମେ ସାତଜଣ!\" This concluding stanza underscores the victory of childlike imagination and unconditional love over cold adult logic."
-  },
-  {
-    "title": "About the Poet",
-    "content": "William Wordsworth (1770-1850) was one of the greatest poets of England and a pioneer of nature poetry. He regarded nature as a great teacher and sought to establish an intimate spiritual relationship with it in his works. He also depicted simple rustic life and ordinary people with deep empathy in numerous poems. He is the author of several memorable lyrics such as 'Daffodils', 'The Solitary Reaper', and the 'Lucy Poems'."
-  },
-  {
-    "title": "About the Poem",
-    "content": "This poem was inspired by the poet's meeting with a child near Goodrich Castle in Wales in 1793. It begins with an enchanting image of childhood characterized by simplicity, freedom from tension, and unclouded by the knowledge of death. The poet meets an eight-year-old charming rustic girl who insists that they are seven brothers and sisters, even though two are dead and buried in the churchyard. Her deep association with her dead siblings—knitting, singing, and eating by their graves—reflects an innocent belief that death cannot sever family ties."
-  },
-  {
-    "title": "Notes and Glossary",
-    "content": "Important difficult words from the poem include: cottage (a small, modest house of one storey), clustered (growing or joined together in a group), rustic (rural), woodland (pertaining to the woods), air (the apparent character assumed by a person), wildly (in a disorderly manner), clad (clothed or dressed), fair (beautiful or pretty), maid (a girl), wonder (to express surprise), dwell (live or reside), church-yard (a burial ground adjoining a church), stockings (close-fitting coverings for foot and leg), knit (to interweave with needles), kerchief (a cloth worn as a head-covering), hem (to sew down the edges of cloth), porringer (a small dish for soup or porridge), moaning (uttering a low sound of suffering), released (set free), and spirits (souls)."
-  },
-  {
-    "title": "Central Idea and Theme",
-    "content": "The central theme of 'We are Seven' is the contrasting perception of death between children and adults. Adults view death as an absolute separation, an ending of existence, and a permanent loss. Children, on the other hand, guided by pure imagination, uncorrupted love, and emotional intuition, view death as a mere transition. To the little girl, her deceased siblings remain an active part of her daily family life. The poem celebrates the spiritual unity of human beings that transcends the physical barrier of death."
-  },
-  {
-    "title": "Poetic Beauty and Literary Devices",
-    "content": "William Wordsworth employs a lyrical ballad style in 'We are Seven' with a simple ABAB rhyme scheme, making the poem musical and easy to recite. The poet uses vivid visual and auditory imagery, such as 'hair was thick with many a curl', 'ground was white with snow', and 'moaning lay'. Personification and dialogue are effectively used to dramatize the philosophical debate between the poet and the child. The repetition of the child's assertion 'Nay, we are seven!' acts as a powerful refrain emphasizing her unshakeable faith."
-  },
-  {
-    "title": "Very Short Question 1",
-    "content": "ପ୍ରଶ୍ନ: କବି ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ କେଉଁଠାରେ ଏବଂ କେତେସାଲରେ ଜନ୍ମଗ୍ରହଣ କରିଥିଲେ?\nଉତ୍ତର: ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ 1770 ମସିହାରେ ଇଂଲଣ୍ଡରେ ଜନ୍ମଗ୍ରହଣ କରିଥିଲେ।"
-  },
-  {
-    "title": "Very Short Question 2",
-    "content": "ପ୍ରଶ୍ନ: କବି କେଉଁ ସ୍ଥାନରେ ସେହି ସାନ ବାଳିକାକୁ ଭେଟିଥିଲେ?\nଉତ୍ତର: କବି 1793 ମସିହାରେ ଓ୍ୱେଲ୍‌ସ୍ର ଗୁଡ଼୍ରିଚ୍‌ କାସଲ୍‌ ନିକଟରେ ସାନ ବାଳିକାକୁ ଭେଟିଥିଲେ।"
-  },
-  {
-    "title": "Very Short Question 3",
-    "content": "ପ୍ରଶ୍ନ: କୁଟୀରବାସିନୀ ବାଳିକାର ବୟସ କେତେ ଥିଲା?\nଉତ୍ତର: ସେହି କୁଟୀରବାସିନୀ ବାଳିକାର ବୟସ ଆଠ ବର୍ଷ ଥିଲା."
-  },
-  {
-    "title": "Very Short Question 4",
-    "content": "ପ୍ରଶ୍ନ: ବାଳିକାର କେତେଜଣ ଭାଇଭଉଣୀ କନୱେରେ ବାସ କରୁଥିଲେ?\nଉତ୍ତର: ବାଳିକାର ଦୁଇଜଣ ଭାଇଭଉଣୀ କନୱେରେ ବାସ କରୁଥିଲେ."
-  },
-  {
-    "title": "Very Short Question 5",
-    "content": "ପ୍ରଶ୍ନ: ବାଳିକାର କେତେଜଣ ଭାଇଭଉଣୀ ସମୁଦ୍ରକୁ ଯାଇଥିଲେ?\nଉତ୍ତର: ବାଳିକାର ଦୁଇଜଣ ଭାଇଭଉଣୀ ସମୁଦ୍ରକୁ ଯାଇଥିଲେ."
-  },
-  {
-    "title": "Very Short Question 6",
-    "content": "ପ୍ରଶ୍ନ: ବାଳିକାର କେତେଜଣ ଭାଇଭଉଣୀ କବରସ୍ଥାନରେ ଶୋଇଥିଲେ?\nଉତ୍ତର: ବାଳିକାର ଦୁଇଜଣ ଭାଇଭଉଣୀ କବରସ୍ଥାନରେ ଶୋଇଥିଲେ."
-  },
-  {
-    "title": "Very Short Question 7",
-    "content": "ପ୍ରଶ୍ନ: ମୃତ୍ୟୁବରଣ କରିଥିବା ପ୍ରଥମ ଭଉଣୀଙ୍କ ନାମ କ’ଣ ଥିଲା?\nଉତ୍ତର: ମୃତ୍ୟୁବରଣ କରିଥିବା ପ୍ରଥମ ଭଉଣୀଙ୍କ ନାମ ଜେନ୍‌ ଥିଲା."
-  },
-  {
-    "title": "Very Short Question 8",
-    "content": "ପ୍ରଶ୍ନ: ବାଳିକାଟି କେଉଁଠାରେ ବସି ନିଜର ମୋଜା ବୁଣୁଥିଲା?\nଉତ୍ତର: ବାଳିକାଟି ତାଙ୍କ ଭାଇଭଉଣୀଙ୍କ କବର ପାଖରେ ବସି ନିଜର ମୋଜା ବୁଣୁଥିଲା."
-  },
-  {
-    "title": "Very Short Question 9",
-    "content": "ପ୍ରଶ୍ନ: ବାଳିକାଟି କେଉଁ ପାତ୍ରରେ କବର ପାଖରେ ଜଳଖିଆ ଖାଉଥିଲା?\nଉତ୍ତର: ବାଳିକାଟି ନିଜର ଛୋଟ ପରିଙ୍ଗର୍‌ (porringer) ବା ଖାଦ୍ୟପାତ୍ରରେ କବର ପାଖରେ ଜଳଖିଆ ଖାଉଥିଲା."
-  },
-  {
-    "title": "Very Short Question 10",
-    "content": "ପ୍ରଶ୍ନ: କବିତାଟିର ଶେଷରେ ବାଳିକାଟି କ'ଣ ବୋଲି ଦୃଢ଼ତା ସହକାରେ କହିଥିଲା?\nଉତ୍ତର: ବାଳିକାଟି ଦୃଢ଼ତା ସହକାରେ କହିଥିଲା, \"ନା, ଆମେ ସାତଜଣ!\""
-  },
-  {
-    "title": "Short Question 1",
-    "content": "ପ୍ରଶ୍ନ: କବି ପ୍ରଥମ ପଦରେ ସରଳ ଶିଶୁ ସମ୍ବନ୍ଧରେ କ’ଣ ବର୍ଣ୍ଣନା କରିଛନ୍ତି?\nଉତ୍ତର: କବି ପ୍ରଥମ ପଦରେ ବର୍ଣ୍ଣନା କରିଛନ୍ତି ଯେ ଏକ ସରଳ ଶିଶୁ ଅତି ହାଲୁକା ଭାବରେ ନିଶ୍ୱାସ ନିଏ ଏବଂ ତାର ପ୍ରତ୍ୟେକ ଅଙ୍ଗପ୍ରତ୍ୟଙ୍ଗରେ ଜୀବନର ସ୍ପନ୍ଦନ ଅନୁଭବ କରେ। ଏପରି ଜୀବନ୍ତ ଓ ନିର୍ବୋଧ ଶିଶୁ ମୃତ୍ୟୁ ବିଷୟରେ କିଛି ଜାଣିପାରେ ନାହିଁ。"
-  },
-  {
-    "title": "Short Question 2",
-    "content": "ପ୍ରଶ୍ନ: ସାନ ବାଳିକାର ଶାରୀରିକ ଗଠନ ଓ ଦୃଶ୍ୟ କିପରି ଥିଲା?\nଉତ୍ତର: ସାନ ବାଳିକାଟିର ବୟସ ଆଠ ବର୍ଷ ଥିଲା। ତାର କେଶ ଘନ କୁଞ୍ଚାକୁଞ୍ଚିଆ ହୋଇ ମୁଣ୍ଡ ଚାରିପାଖରେ ଘେରି ରହିଥିଲା। ତାର ଏକ ଗ୍ରାମ୍ୟ, ବଣୁଆ ସ୍ୱଭାବ ଥିଲା ଏବଂ ସେ ଅସଜଡ଼ା ଭାବରେ ପୋଷାକ ପିନ୍ଧିଥିଲା। ତାର ସୁନ୍ଦର ଆଖିଗୁଡ଼ିକ କବିଙ୍କୁ ଆନନ୍ଦିତ କରିଥିଲା।"
-  },
-  {
-    "title": "Short Question 3",
-    "content": "ପ୍ରଶ୍ନ: ବାଳିକାଟିର ପରିବାରରେ କେତେଜଣ ସଦସ୍ୟ ଥିଲେ ଏବଂ ସେମାନେ କେଉଁଠାରେ ଥିଲେ?\nଉତ୍ତର: ବାଳିକାଟିର ପରିବାରରେ ସମୁଦାୟ ସାତଜଣ ସଦସ୍ୟ ଥିଲେ। ସେମାନଙ୍କ ମଧ୍ୟରୁ ଦୁଇଜଣ କନୱେରେ ବାସ କରୁଥିଲେ, ଦୁଇଜଣ ସମୁଦ୍ର ଯାତ୍ରାରେ ଯାଇଥିଲେ ଏବଂ ଅନ୍ୟ ଦୁଇଜଣ ଭାଇ ଓ ଭଉଣୀ ଚର୍ଚ୍ଚ କବରସ୍ଥାନରେ ଶୋଇଥିଲେ। ବାଳିକାଟି ନିଜେ ମାଆଙ୍କ ସହିତ କବରସ୍ଥାନ ପାଖ କୁଟୀରରେ ରହୁଥିଲା।"
-  },
-  {
-    "title": "Short Question 4",
-    "content": "ପ୍ରଶ୍ନ: ବାଳିକାର ଉତ୍ତର ଶୁଣି କବି କାହିଁକି ଆଶ୍ଚର୍ଯ୍ୟ ହେଲେ?\nଉତ୍ତର: ବାଳିକାଟି କହିଲା ଯେ ସେମାନେ ସାତଜଣ ଭାଇଭଉଣୀ, କିନ୍ତୁ ସେମାନଙ୍କ ମଧ୍ୟରୁ ଦୁଇଜଣ ମୃତ୍ୟୁବରଣ କରି କବରସ୍ଥାନରେ ଅଛନ୍ତି। କବି ଭାବିଲେ ଯେ ଯଦି ଦୁଇଜଣ ମରିଯାଇଛନ୍ତି, ତେବେ ଜୀବିତ ସଦସ୍ୟମାନେ କେବଳ ପାଞ୍ଚଜଣ ହେବା କଥା। ଏହି କାରଣରୁ ବାଳିକାର ଗଣନା କବିଙ୍କୁ ଦ୍ୱନ୍ଦ୍ୱରେ ପକାଇଥିଲା।"
-  },
-  {
-    "title": "Short Question 5",
-    "content": "ପ୍ରଶ୍ନ: ମୃତ ଭାଇଭଉଣୀଙ୍କ ସହିତ ନିଜର ସମ୍ପର୍କ ବଜାୟ ରଖିବା ପାଇଁ ବାଳିକାଟି କ’ଣ କରୁଥିଲା?\nଉତ୍ତର: ବାଳିକାଟି ନିଜର ମୃତ ଭାଇଭଉଣୀଙ୍କ କବର ପାଖରେ ବସି ନିଜର ମୋଜା ବୁଣୁଥିଲା ଏବଂ ରୁମାଲ ସିଲେଇ କରୁଥିଲା। ସେ ସେଠାରେ ବସି ସେମାନଙ୍କ ଉଦ୍ଦେଶ୍ୟରେ ଗୀତ ଗାଉଥିଲା ଏବଂ ପ୍ରାୟ ସୂର୍ଯ୍ୟାସ୍ତ ପରେ ସେଠାରେ ନିଜର ରାତ୍ରୀଭୋଜନ ମଧ୍ୟ ଖାଉଥିଲା।"
-  },
-  {
-    "title": "Short Question 6",
-    "content": "ପ୍ରଶ୍ନ: ଜେନ୍‌ ଏବଂ ଜନ୍‌ଙ୍କ ମୃତ୍ୟୁ କିପରି ହୋଇଥିଲା?\nଉତ୍ତର: ପ୍ରଥମେ ଭଉଣୀ ଜେନ୍‌ ଗୁରୁତର ଅସୁସ୍ଥ ହୋଇ ବିଛଣାରେ ଯନ୍ତ୍ରଣାରେ କାନ୍ଦୁଥିଲା, ଶେଷରେ ଭଗବାନ ତାକୁ ସେହି ଯନ୍ତ୍ରଣାରୁ ମୁକ୍ତ କରିବାରୁ ତାର ମୃତ୍ୟୁ ହେଲା ଏବଂ ତାକୁ କବର ଦିଆଗଲା। ତା’ପରେ ଶୀତଦିନେ ଯେତେବେଳେ ମାଟି ବରଫରେ ଧଳା ହୋଇଯାଇଥିଲା, ଭାଇ ଜନ୍‌ ମଧ୍ୟ ମୃତ୍ୟୁବରଣ କଲା ଏବଂ ଜେନ୍‌ଙ୍କ ପାଖରେ ତାକୁ କବର ଦିଆଗଲା।"
-  },
-  {
-    "title": "Short Question 7",
-    "content": "ପ୍ରଶ୍ନ: କବିତାଟିର ମୂଳବାର୍ତ୍ତା ବା କେନ୍ଦ୍ରୀୟ ଭାବ କ’ଣ ଅଟେ?\nଉତ୍ତର: କବିତାଟିର ମୂଳବାର୍ତ୍ତା ହେଲା ଶିଶୁମାନଙ୍କର ନିଷ୍ପାପ ଦୃଷ୍ଟିକୋଣ ଏବଂ ମୃତ୍ୟୁ ପ୍ରତି ସେମାନଙ୍କର ସହଜ ବୁଝାମଣା। ବଡ଼ମାନଙ୍କ ପାଇଁ ମୃତ୍ୟୁ ଏକ ଚିରଦିନର ବିଚ୍ଛେଦ ହୋଇଥିବାବେଳେ, ଶିଶୁମାନଙ୍କ ପାଇଁ ପ୍ରକୃତ ସ୍ନେହ ଏବଂପରିବାରର ବନ୍ଧନ ମୃତ୍ୟୁ ଦ୍ୱାରା ଛିନ୍ନ ହୁଏ ନାହିଁ, ବରଂ ଅକ୍ଷୁର୍ଣ୍ଣ ରହିଥାଏ।"
-  },
-  {
-    "title": "Short Question 8",
-    "content": "ପ୍ରଶ୍ନ: କବି ଏବଂ ବାଳିକା ମଧ୍ୟରେ ହୋଇଥିବା ଯୁକ୍ତିର ପରିସମାପ୍ତି କିପରି ହେଲା?\nଉତ୍ତର: କବି ଯୁକ୍ତି କଲେ ଯେ ଯେହେତୁ ଦୁଇଜଣ ଭାଇଭଉଣୀ ମରିଯାଇଛନ୍ତି ଏବଂ ସେମାନଙ୍କ ଆତ୍ମା ସ୍ୱର୍ଗରେ ଅଛି, ତେବେ ସେମାନେ କେବଳ ପାଞ୍ଚଜଣ ଅଟନ୍ତି। କିନ୍ତୁ କବିଙ୍କ ଏହି ବୁଝାଇବା ବୃଥା ହେଲା, କାରଣ ସାନ ବାଳିକାଟି ନିଜ ଜିଦ୍‌ରେ ଅଟଳ ରହି ଦୃଢ଼ତାର ସହ କହିଲା ଯେ ସେମାନେ ସାତଜଣ।୍"
-  },
-  {
-    "title": "Short Question 9",
-    "content": "ପ୍ରଶ୍ନ: ବାଳିକାଟି ପାଇଁ କବରସ୍ଥାନ କାହିଁକି ଏକ ଭୟର ସ୍ଥାନ ନଥିଲା?\nଉତ୍ତର: ବାଳିକାଟି ପାଇଁ କବରସ୍ଥାନ କୌଣସି ଭୟାନକ କିମ୍ବା ଅଚেনা ସ୍ଥାନ ନଥିଲା। ତାର ମାଆଙ୍କ ଘରଠାରୁ ମାତ୍ର ବାର ପାଦ କିମ୍ବା ତାଠାରୁ ଅଧିକ ଦୂରରେ ଥିବା ସେହି ସବୁଜ କବରଗୁଡ଼ିକ ପାଖରେ ସେ ଖେଳୁଥିଲା, କାମ କରୁଥିଲା ଏବଂ ଖାଦ୍ୟ ଖାଉଥିଲା, ଯାହା ତାର ମୃତ ଭାଇଭଉଣୀଙ୍କ ସହ ନିରନ୍ତର ସମ୍ପର୍କକୁ ସୂଚାଏ।"
-  },
-  {
-    "title": "Short Question 10",
-    "content": "ପ୍ରଶ୍ନ: ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ କେଉଁ କେଉଁ ବିଶ୍ୱବିଖ୍ୟାତ କବିତାଗୁଡ଼ିକର ସ୍ରଷ୍ଟା ଅଟନ୍ତି?\nଉତ୍ତର: ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ 'ଡାଫୋଡିଲ୍‌ସ' (Daffodils), 'ଦ ସଲିଟାରୀ ରିପର୍‌' (The Solitary Reaper) ଏବଂ 'ଲୁସି ପୋଏମ୍‌ସ' (Lucy Poems) ଭଳି ସ୍ମରଣୀୟ ଗୀତିକବିତାଗୁଡ଼ିକର ସ୍ରଷ୍ଟା ଅଟନ୍ତି."
-  },
-  {
-    "title": "Long Question 1",
-    "content": "ପ୍ରଶ୍ନ: ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ଙ୍କ କବିତା 'We are Seven' ର କାହାଣୀ ସାରାଂଶ ନିଜ ଭାଷାରେ ବର୍ଣ୍ଣନା କରନ୍ତୁ।\nଉତ୍ତର: \n**ପରିଚୟ:** ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ଙ୍କ ଦ୍ୱାରା ରଚିତ 'We are Seven' ଏକ ବିଖ୍ୟାତ ମର୍ମସ୍ପର୍ଶୀ କବିତା ଅଟେ, ଯାହା ଏକ ଆଠ ବର୍ଷର ସାନ ଗ୍ରାମ୍ୟ ବାଳିକା ଏବଂ ଜଣେ ପ୍ରାପ୍ତବୟସ୍କ କବିଙ୍କ ମଧ୍ୟରେ ହୋଇଥିବା କଥୋପକଥନ ଉପରେ ପର୍ଯ୍ୟବସିତ। ଏହି କବିତାରେ ଶିଶୁର ନିଷ୍ପାପ ପ୍ରକୃତି ଏବଂ ମୃତ୍ୟୁ ପ୍ରତି ତାର ସହଜ ଭାବନାକୁ ଅତି ସୁନ୍ଦର ଭାବରେ ପ୍ରକାଶ କରାଯାଇଛି।\n\n**ବର୍ଣ୍ଣନା:** କବି ଦିନେ ଓ୍ୱେଲ୍‌ସ୍ର ଗୁଡ଼୍ରିଚ୍‌ କାସଲ୍‌ ନିକଟରେ ଜଣେ ସାନ କୁଟୀରବାସିନୀ ବାଳିକାକୁ ଭେଟିଲେ। ତାର ସୁନ୍ଦର କେଶ, ଗ୍ରାମ୍ୟ ସ୍ୱଭାବ ଏବଂ ନିର୍ମଳ ଆଖି କବିଙ୍କ ମନକୁ ଆନନ୍ଦିତ କଲା। କବି ତାଙ୍କ ପରିବାର ବିଷୟରେ ପଚାରିବାରୁ ବାଳିକାଟି ଉତ୍ତର ଦେଲା ଯେ ସେମାନେ ସମୁଦାୟ ସାତଜଣ ଭାଇଭଉଣୀ ଅଛନ୍ତି। କବି ପଚାରିବାରୁ ସେ କହିଲା ଯେ ସେମାନଙ୍କ ଭିତରୁ ଦୁଇଜଣ କନୱେରେ ବାସ କରନ୍ତି, ଦୁଇଜଣ ସମୁଦ୍ର ଯାତ୍ରାରେ ଯାଇଛନ୍ତି ଏବଂ ଅନ୍ୟ ଦୁଇଜଣ ଭାଇ ଓ ଭଉଣୀ ଚର୍ଚ୍ଚର କବରସ୍ଥାନରେ ଶୋଇରହିଛନ୍ତି। କିନ୍ତୁ ବାଳିକାଟି ନିଜେ ମାଆଙ୍କ ସହ କବରସ୍ଥାନ ପାଖରେ ଥିବା ଏକ କୁଟୀରରେ ରହେ। କବି ଯୁକ୍ତି କଲେ ଯେ ଯଦି ଦୁଇଜଣ ଭାଇଭଉଣୀ ମୃତ୍ୟୁବରଣ କରି କବରରେ ଅଛନ୍ତି, ତେବେ ଜୀବିତ ଭାଇଭଉଣୀଙ୍କ ସଂଖ୍ୟା ମାତ୍ର ପାଞ୍ଚ ହେବା ଉଚିତ। କିନ୍ତୁ ବାଳିକାଟି ସେ କଥା ମାନିଲା ନାହିଁ। ସେ ବୁଝାଇଲା ଯେ ସେମାନଙ୍କ କବରଗୁଡ଼ିକ ତାର ଘରଠାରୁ ମାତ୍ର ବାର ପାଦ ଦୂରରେ ଅଛି। ସେ ପ୍ରାୟ ସେହି କବର ପାଖରେ ବସି ନିଜର ମୋଜା ବୁଣେ, ରୁମାଲ ସିଲେଇ କରେ, ଗୀତ ଗାଏ ଏବଂ ସନ୍ଧ୍ୟାବେଳେ ସେଠାରେ ବସି ନିଜର ରାତ୍ରୀଭୋଜନ ମଧ୍ୟ ଖାଏ। ସେ ଜେନ୍‌ ଏବଂ ଜନ୍‌ଙ୍କ ଅସୁସ୍ଥତା ଓ ମୃତ୍ୟୁର କାହାଣୀ ମଧ୍ୟ କହିଲା। ଶେଷରେ କବି ଯେତେ ବୁଝାଇଲେ ମଧ୍ୟ ଯେ ସେମାନଙ୍କ ଆତ୍ମା ସ୍ୱର୍ଗରେ ଅଛି, ବାଳିକାଟି ନିଜ ଜିଦ୍‌ରେ ଅଟଳ ରହି ଦୃଢ଼ତାର ସହ କହିଲା, \"ନା, ଆମେ ସାତଜଣ!\"\n\n**ସଂପାଦନା/ସିଦ୍ଧନ୍ତ:** ଏହିପରି ଭାବରେ କବିତାଟି ପ୍ରମାଣ କରେ ଯେ ଶିଶୁମାନଙ୍କ ପାଇଁ ପ୍ରକୃତ ସ୍ନେହ ଏବଂ ପରିବାରର ବନ୍ଧନ କେବେହେଁ ମୃତ୍ୟୁ ଦ୍ୱାରା ଛିନ୍ନ ହୋଇଯାଏ ନାହିଁ। ବାଳିକାଟିର ନିଷ୍ପାପ ମନରେ ମୃତ ଭାଇଭଉଣୀମାନେ ମଧ୍ୟ ଜୀବିତ ସଦସ୍ୟଙ୍କ ଭଳି ସମାନ ଭାବରେ ସକ୍ରିୟ ଓ ଆପଣାର ଥିଲେ।"
-  },
-  {
-    "title": "Long Question 2",
-    "content": "ପ୍ରଶ୍ନ: ବାଳିକାଟି ତାର ମୃତ ଭାଇଭଉଣୀଙ୍କ ସହିତ କିପରି ସମ୍ପର୍କ ବଜାୟ ରଖିଥିଲା, ତାହା ବର୍ଣ୍ଣନା କରନ୍ତୁ।\nଉତ୍ତର: \n**ପରିଚୟ:** ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ଙ୍କ 'We are Seven' କବିତାରେ ଜଣେ ଆଠ ବର୍ଷର ସାନ ଗ୍ରାମ୍ୟ ବାଳିକା ନିଜର ମୃତ ଭାଇ ଓ ଭଉଣୀଙ୍କ ପ୍ରତି ଅଙ୍ଗାଙ୍ଗୀ ସ୍ନେହ ଏବଂ ଅନୁଗତ୍ୟ ପ୍ରଦର୍ଶନ କରିଛି। ବଡ଼ମାନଙ୍କ ପାଇଁ ମୃତ୍ୟୁ ଏକ ଅନ୍ତିମ ବିଚ୍ଛେଦ ହେଲେ ମଧ୍ୟ, ଏହି ସାନ ଶିଶୁଟି ପାଇଁ ମୃତ୍ୟୁ ସେମାନଙ୍କ ସମ୍ପର୍କକୁ କୌଣସି ପ୍ରକାରେ କ୍ଷୁଣ୍ଣ କରିପାରି ନଥିଲା।\n\n**ବର୍ଣ୍ଣନା:** ବାଳିକାଟିର ଦୁଇଜଣ ସାଥୀ—ଭଉଣୀ ଜେନ୍‌ ଏବଂ ଭାଇ ଜନ୍‌—ମୃତ୍ୟୁବରଣ କରି ଗ୍ରାମର କବରସ୍ଥାନରେ ଶୋଇଥିଲେ। ଜେନ୍‌ ଦୀର୍ଘଦିନ ଧରି ଅସୁସ୍ଥ ରହି ଯନ୍ତ୍ରଣା ଭୋଗିବା ପରେ ଭଗବାନଙ୍କ କୃପାରୁ ମୃତ୍ୟୁବରଣ କରିଥିଲା ଏବଂ ପରେ ଜନ୍‌ ମଧ୍ୟ ଶୀତଦିନେ ମୃତମୁଖରେ ପଡ଼ିଥିଲା। କିନ୍ତୁ ବାଳିକାଟି ସେମାନଙ୍କୁ କେବେହେଁ ନିଜଠାରୁ ଅଲଗା ବୋଲି ଭାବି ନଥିଲା। ସେ କହିଥିଲା ଯେ ସେମାନଙ୍କ ସବୁଜ କବରଗୁଡ଼ିକ ତାର ମାଆଙ୍କ ଘରର ଦ୍ୱାରଠାରୁ ମାତ୍ର ବାର ପାଦ ବା ତାଠାରୁ ଅଧିକ ଦୂରରେ ପାଖାପାଖି ଅଛି। ସେହି ସ୍ଥାନଟି ତାର ଘରଠାରୁ ଦୂରରେ ନଥିବାରୁ ସେ ନିତିଦିନ ସେଠାକୁ ଯାଉଥିଲା। ସେ ପ୍ରାୟ ସେହି କବର ଉପରେ ବସି ନିଜର ମୋଜା ବୁଣୁଥିଲା ଏବଂ ରୁମାଲର ସିଲେଇ କରୁଥିଲା। କେବଳ ସେତିକି ନୁହେଁ, ସେ ସେହି ମାଟିରେ ବସି ନିଜର ମୃତ ଭାଇଭଉଣୀଙ୍କ ଉଦ୍ଦେଶ୍ୟରେ ମଧୁର ଗୀତ ଗାଉଥିଲା। ଏପରିକି ପ୍ରାୟ ସୂର୍ଯ୍ୟାସ୍ତ ପରେ, ଯେତେବେଳେ ଚତୁର୍ଦ୍ଦିଗ ସଫା ଓ ସୁନ୍ଦର ଥାଏ, ସେ ନିଜର ଛୋଟ ଖାଦ୍ୟପାତ୍ର (porringer) ଧରି ସେହି କବର ପାଖରେ ବସି ନିଜର ରାତ୍ରୀଭୋଜନ ଖାଉଥିଲା। ଶୀତଦିନର ବରଫପାତ ସମୟରେ ମଧ୍ୟ ସେମାନଙ୍କ ସ୍ମୃତି ତାର ମନରୁ ଲିଭି ନଥିଲା।\n\n**ସଂପାଦନା/ସିଦ୍ଧନ୍ତ:** ପରିଶେଷରେ, ବାଳିକାଟିର ଏହି କାର୍ଯ୍ୟକଳାପରୁ ଏହା ସ୍ପଷ୍ଟ ହୁଏ ଯେ ଶିଶୁର ନିଷ୍ପାପ ପ୍ରେମ ଏବଂ କଳ୍ପନାଜଗତରେ ମୃତ୍ୟୁର କୌଣସି ଅସ୍ତିତ୍ୱ ନାହିଁ। ତାର ଦୃଷ୍ଟିରେ ସେମାନେ ଏବେ ମଧ୍ୟ ପରିବାରର ଅବିଚ୍ଛେଦ୍ୟ ଅଂଶ ହୋଇ ବଞ୍ଚିରହିଛନ୍ତି।"
-  },
-  {
-    "title": "Long Question 3",
-    "content": "ପ୍ରଶ୍ନ: କବି ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ ଏବଂ ସାନ ବାଳିକା ମଧ୍ୟରେ ହୋଇଥିବା ମୃତ୍ୟୁ ଏବଂ ସଂଖ୍ୟାଗତ ବିତର୍କକୁ ଆଲୋଚନା କରନ୍ତୁ।\nଉତ୍ତର: \n**ପରିଚୟ:** ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ଙ୍କ 'We are Seven' କବିତାରେ ପ୍ରାପ୍ତବୟସ୍କ ବୁଦ୍ଧି ଏବଂ ଶିଶୁର ସହଜ ଅନୁଭୂତି ମଧ୍ୟରେ ଏକ ଗଭୀର ଦାର୍ଶନିକ ବିତର୍କ ଦେଖିବାକୁ ମିଳେ। କବି ଜଣେ ପରିପକ୍ୱ ବ୍ୟକ୍ତି ଭାବରେ ସଂଖ୍ୟା ଓ ମୃତ୍ୟୁର ବାସ୍ତବତାକୁ ଗ୍ରହଣ କରୁଥିବାବେଳେ, ବାଳିକାଟି ଶୈଶବର ନିଷ୍ପାପ ପ୍ରେମ ଦ୍ୱାରା ପରିଚାଳିତ ହୋଇଥାଏ।\n\n**ବର୍ଣ୍ଣନା:** କବି ଯେତେବେଳେ ସାନ ବାଳିକାଟିକୁ ତାର ପରିବାର ସମ୍ବନ୍ଧରେ ପଚାରିଲେ, ସେ ଉତ୍ତର ଦେଲା ଯେ ସେମାନେ ସମୁଦାୟ ସାତଜଣ ଭାଇଭଉଣୀ ଅଛନ୍ତି। କିନ୍ତୁ ସେ ବର୍ଣ୍ଣନା କରିବା ସମୟରେ ଜଣାଇଲା ଯେ ସେମାନଙ୍କ ଭିତରୁ ଦୁଇଜଣ କନୱେରେ ବାସ କରନ୍ତି, ଦୁଇଜଣ ସମୁଦ୍ରକୁ ଯାଇଛନ୍ତି ଏବଂ ଅନ୍ୟ ଦୁଇଜଣ ମୃତ୍ୟୁବରଣ କରି ଚର୍ଚ୍ଚ କବରସ୍ଥାନରେ ଶୋଇଛନ୍ତି। ଏହି ତଥ୍ୟ ଶୁଣି କବିଙ୍କ ବୁଦ୍ଧିଜୀବୀ ମନ ଦ୍ୱନ୍ଦ୍ୱରେ ପଡ଼ିଗଲା। କବି ଯୁକ୍ତି କଲେ ଯେ ଯଦି ଦୁଇଜଣ ଭାଇଭଉଣୀ ମରିଯାଇଛନ୍ତି ଏବଂ ମାଟିତଳେ କବର ଦିଆଯାଇଛି, ତେବେ ଜୀବିତ ଭାଇଭଉଣୀଙ୍କ ସଂଖ୍ୟା କେବଳ ପାଞ୍ଚ ହେବା ଉଚିତ। କିନ୍ତୁ ବାଳିକାଟି କବିଙ୍କ ଏହି ଗଣିତକୁ ଗ୍ରହଣ କଲା ନାହିଁ। ସେ ସେମାନଙ୍କ କବରଗୁଡ଼ିକ ତାର ଘରଠାରୁ ମାତ୍ର ବାର ପାଦ ଦୂରରେ ଅଛି ବולି କହିଲା ଏବଂ ସେମାନଙ୍କ ସ୍ମୃତିକୁ ନେଇ ନିଜର ଦୈନନ୍ଦିନ ଜୀବନ ଯାପନ କରୁଥିବା କଥା ଦର୍ଶାଇଲା। କବି ପୁନର୍ବାର ବୁଝାଇବାକୁ ଚେଷ୍ଟା କଲେ ଯେ ସେମାନେ ମୃତ ଏବଂ ସେମାନଙ୍କ ଆତ୍ମା ସ୍ୱର୍ଗରେ ଅଛି, ତେଣୁ ସେମାନେ ଆଉ ପରିବାରର ସାଂସାରିକ ଗଣନାରେ ରହିପାରିବେ ନାହିଁ। କିନ୍ତୁ କବିଙ୍କ ଏହି ସମସ୍ତ ଯୁକ୍ତି ପବନରେ କଥା ଫିଙ୍ଗିବା ସମାନ ହେଲା। ବାଳିକାଟି ଟିକିଏ ମଧ୍ୟ ବିଚଳିତ ନହୋଇ ନିଜର ପୂର୍ବ କଥାକୁ ଦୋହରାଇଲା ଏବଂ ଦୃଢ଼ତାର ସହ କହିଲା ଯେ ସେମାନେ ସାତଜଣ ଅଟନ୍ତି।\n\n**ସଂପାଦନା/ସିଦ୍ଧନ୍ତ:** ଏହିପରି ଭାବରେ, ଏହି ବିତର୍କ ପ୍ରମାଣ କରେ ଯେ ବଡ଼ମାନଙ୍କ ପାଇଁ ମୃତ୍ୟୁ ଏକ ଶାରୀରିକ ବିଚ୍ଛେଦ ଓ ଶୂନ୍ୟତା ହୋଇଥିବାବେଳେ, ଶିଶୁମାନଙ୍କ ପାଇଁ ସ୍ନେହ ଓ ଆତ୍ମିକ ବନ୍ଧନ କେବେହେଁ ମରେ ନାହିଁ। ଶିଶୁର ନିଷ୍ପାପ କଳ୍ପନା ଆଗରେ ବୟସ୍କଙ୍କ ଯୁକ୍ତି ହାର ମାନିଥାଏ।"
-  },
-  {
-    "title": "Long Question 4",
-    "content": "ପ୍ରଶ୍ନ: କବିତାରେ ବର୍ଣ୍ଣିତ ବାଳିକାର ଦୈନନ୍ଦିନ ଜୀବନ ଏବଂ କବରସ୍ଥାନ ସହ ତାର ସଂପୃକ୍ତିକୁ ବର୍ଣ୍ଣନା କରନ୍ତୁ।\nଉତ୍ତର: \n**ପରିଚୟ:** ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ଙ୍କ ଦ୍ୱାରା ରଚିତ 'We are Seven' କବିତାରେ ସାନ ବାଳିକାଟିର ଜୀବନ ପ୍ରକୃତି ଏବଂ ମୃତ ଭାଇଭଉଣୀଙ୍କ ସ୍ମୃତି ସହିତ ଅନ୍ତରଙ୍ଗ ଭାବରେ ଜଡ଼ିତ ଥିବାର ଦେଖିବାକୁ ମିଳେ। ତାର ଜୀବନରେ ଭୟର କୌଣସି ସ୍ଥାନ ନାହିଁ, ବରଂ ପ୍ରକୃତି ଓ ପରିବାରର ସ୍ନେହ ହିଁ ମୁଖ୍ୟ ଅଟେ।\n\n**ବର୍ଣ୍ଣନା:** ବାଳିକାଟି ପ୍ରକୃତିର କୋଳରେ ବଢ଼ିଥିବା ଜଣେ ସରଳ ଗ୍ରାମ୍ୟ ବାଳିକା ଥିଲା। ତାର ପରିବାରର ଦୁଇଜଣ ସଦସ୍ୟ—ଭଉଣୀ ଜେନ୍‌ ଏବଂ ଭାଇ ଜନ୍‌—ମୃତ୍ୟୁବରଣ କରିବା ପରେ ମଧ୍ୟ ସେମାନେ ତାର ଦୈନନ୍ଦିନ ଜୀବନର ଏକ ଅଭିନ୍ନ ଅଙ୍ଗ ହୋଇ ରହିଥିଲେ। ସେମାନଙ୍କ କବରଗୁଡ଼ିକ ତାର ମାଆଙ୍କ ଘରର ଦ୍ୱାରଠାରୁ ମାତ୍ର ବାର ପାଦ କିମ୍ବା ତାଠାରୁ ଅଧିକ ଦୂରରେ ସବୁଜିମା ଭିତରେ ପାଖାପାଖି ଅବସ୍ଥିତ ଥିଲା। ଘରଠାରୁ ଏତେ ନିକଟରେ କବର ଥିବାରୁ ବାଳିକାଟି ପ୍ରତିଦିନ ସେଠାକୁ ଯାଉଥିଲା। ସେ ସେହି ସବୁଜ ମାଟି ଉପରେ ବସି ନିଜର ମୋଜା ବୁଣୁଥିଲା ଏବଂ ନିଜର ରୁମାଲରେ ସିଲେଇ (hem) କରୁଥିଲା। କେବଳ କାମ କରିବା ନୁହେଁ, ସେ ସେଠାରେ ଏକା ଏକା ବସି ନିଜର ମୃତ ଭାଇଭଉଣୀଙ୍କ ଉଦ୍ଦେଶ୍ୟରେ ମଧୁର ସ୍ୱରରେ ଗୀତ ଗାଉଥିଲା। ଏହା ବ୍ୟତୀତ, ଯେତେବେଳେ ସୂର୍ଯ୍ୟାସ୍ତ ପରେ ଚତୁର୍ଦ୍ଦିଗ ପରିଷ୍କାର ଓ ସୁନ୍ଦର ରହୁଥିଲା, ସେ ସେତେବେଳେ ନିଜର ଛୋଟ ଖାଦ୍ୟପାତ୍ରଟି (porringer) ଧରି ସେହି କବର ପାଖକୁ ଚାଲିଯାଉଥିଲା ଏବଂ ସେଠାରେ ବସି ନିଜର ରାତ୍ରୀଭୋଜନ ସମାପ୍ତ କରୁଥିଲା। ଶୀତଦିନର ପ୍ରବଳ ତୁଷାରପାତ ସମୟରେ ମଧ୍ୟ ସେ ଘର ପାଖରେ ଖେଳୁଥିଲା ଏବଂ ମୃତ ଭାଇମାନଙ୍କ ସ୍ମୃତିକୁ ମନେ ପକାଉଥିଲା।\n\n**ସଂପାଦନା/ସିଦ୍ଧନ୍ତ:** ଏହିପରି ଭାବରେ, ବାଳିକାଟିର ଦୈନନ୍ଦିନ କାର୍ଯ୍ୟକଳାପରୁ ପ୍ରମାଣିତ ହୁଏ ଯେ ଶିଶୁମାନଙ୍କ ପାଇଁ ମୃତ୍ୟୁ କୌଣସି ଭୟାନକ କିମ୍ବା ବିଚ୍ଛେଦକାରୀ ଶକ୍ତି ନୁହେଁ, ବରଂ ସ୍ନେହ ଓ ସ୍ମୃତିର ଏକ ନିରନ୍ତର ସେତୁ ଅଟେ।"
-  },
-  {
-    "title": "Long Question 5",
-    "content": "ପ୍ରଶ୍ନ: କବିତାଟିରେ ପ୍ରକାଶ ପାଇଥିବା ଶିଶୁର ନିଷ୍ପାପତା ଏବଂ ବୟସ୍କର ବୁଦ୍ଧିମତ୍ତା ମଧ୍ୟରେ ଥିବା ପାର୍ଥକ୍ୟକୁ ଆଲୋଚନା କରନ୍ତୁ।\nଉତ୍ତର: \n**ପରିଚୟ:** ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ଙ୍କ 'We are Seven' କବିତାରେ ମୂଳତଃ ଶୈଶବର ନିଷ୍ପାପ ଅନୁଭୂତି ଏବଂ ପ୍ରାପ୍ତବୟସ୍କ ବ୍ୟକ୍ତିଙ୍କ ବୌଦ୍ଧିକ ବିଚାରଧାରା ମଧ୍ୟରେ ଥିବା ବୈସାଦୃଶ୍ୟକୁ ସୁନ୍ଦର ଭաբରେ ଚିତ୍ରଣ କରାଯାଇଛି। କବି ଏକ ପରିପକ୍ୱ ଓ ଯୁକ୍ତିଯୁକ୍ତ ଦୃଷ୍ଟିକୋଣ ପ୍ରତିନିଧିତ୍ୱ କରୁଥିବାବେଳେ, ବାଳିକାଟି ଅନ୍ତର୍ବୋଧ ଏବଂ ଭାବପ୍ରବଣତାର ପ୍ରତୀକ ଅଟେ।\n\n**ବର୍ଣ୍ଣନା:** କବି ଯତେବେଳେ ସାନ ବାଳିକାଟିକୁ ତାର ପରିବାର ସଦସ୍ୟଙ୍କ ସଂଖ୍ୟା ବିଷୟରେ ପଚାରିଲେ, ସେ ଉତ୍ତର ଦେଲା ଯେ ସେମାନେ ସାତଜଣ ଅଛନ୍ତି। କିନ୍ତୁ ଯେତେବେଳେ ସେ ସ୍ପଷ୍ଟ କଲା ଯେ ସେମାନଙ୍କ ମଧ୍ୟରୁ ଦୁଇଜଣ ମୃତ୍ୟୁବରଣ କରି କବରସ୍ଥାନରେ ଅଛନ୍ତି, ସେତେବେଳେ କବିଙ୍କ ବୌଦ୍ଧିକ ମନ ସେକଥା ଗ୍ରହଣ କରିପାରିଲା ନାହିଁ। ବୟସ୍କ ମନ ସର୍ବଦା ଗଣିତ, ଯୁକ୍ତି ଏବଂ ବାସ୍ତବତା ଉପରେ ପ୍ରତିଷ୍ଠିତ ଥାଏ। କବିଙ୍କ ମତରେ ଯଦି ଦୁଇଜଣ ବ୍ୟକ୍ତି ମରିଯାଇଛନ୍ତି, ତେବେ ଜୀବିତ ବ୍ୟକ୍ତିଙ୍କ ସଂଖ୍ୟା କେବଳ ପାଞ୍ଚ ହେବା ଉଚିତ ଏବଂ ମୃତକମାନେ ସ୍ୱର୍ଗକୁ ଚାଲିଯାଇଛନ୍ତି। କିନ୍ତୁ ବାଳିକାଟିର ନିଷ୍ପାପ ମନ ଏହି ସାଂସାରିକ ଓ ଗାଣିତିକ ନିୟମକୁ ବୁଝେ ନାହିଁ। ତାର କୋମଳ ହୃଦୟରେ ମୃତ୍ୟୁ ମାନେ ପରିବାରରୁ ସବୁଦିନ ପାଇଁ ପୋଛି ହୋଇଯିବା ନୁହେଁ। ସେ ନିଜର ମୃତ ଭାଇଭଉଣୀଙ୍କ ସହିତ ସେହିପରି ସ୍ନେହ ଏବଂ ସମ୍ପର୍କ ବଜାୟ ରଖିଥିଲା, ଯେପରି ସେମାନେ ଜୀବିତ ଅଛନ୍ତି। କବି ଯେତେବେଳେ ତାକୁ ବୁଝାଇବାକୁ ଚେଷ୍ଟା କଲେ ଯେ ସେମାନେ ଆଉ ଏ ପୃଥିବୀରେ ନାହାନ୍ତି, ସେତେବେଳେ ବାଳିକାଟି କବିଙ୍କ ସମସ୍ତ ଯୁକ୍ତିକୁ ଅଗ୍ରାହ୍ୟ କରି ନିଜର ଦୃଢ଼ ବିଶ୍ୱାସରେ ଅଟଳ ରହିଲା।\n\n**ସଂପାଦନା/ସିଦ୍ଧନ୍ତ:** ଏହିପରି ଭାବରେ, କବିତାଟି ଏହା ପ୍ରମାଣ କରେ ଯେ ବୟସ୍କମାନେ ଜ୍ଞାନ ଓ ଯୁକ୍ତି ବଳରେ ଦୁନିଆକୁ ଦେଖନ୍ତି, କିନ୍ତୁ ଶିଶୁମାନେ ସେମାନଙ୍କର ନିର୍ମଳ ହୃଦୟ ଏବଂ ଶାଶ୍ୱତ ପ୍ରେମ ବଳରେ ଜୀବନ ଓ ମୃତ୍ୟୁର ସତ୍ୟକୁ ଅନୁଭବ କରନ୍ତି।"
-  },
-  {
-    "title": "Long Question 6",
-    "content": "ପ୍ରଶ୍ନ: କବିତାଟିରେ ପ୍ରକୃତିର ବର୍ଣ୍ଣନା ଏବଂ ତାହାର ଭୂମିକାକୁ ଆଲୋଚନା କରନ୍ତୁ।\nଉତ୍ତର: \n**ପରିଚୟ:** ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ ଜଣେ ପ୍ରକୃତିପ୍ରେମୀ କବି ଥିଲେ ଏବଂ ତାଙ୍କର ପ୍ରତ୍ୟେକ କବିତାରେ ପ୍ରକୃତି ଏକ ପ୍ରମୁଖ ଭୂମିକା ଗ୍ରହଣ କରିଥାଏ। 'We are Seven' କବିତାରେ ମଧ୍ୟ ପ୍ରକୃତି ଏକ ସରଳ, ଶାନ୍ତ ଏବଂ ଗ୍ରାମ୍ୟ ପରିବେଶ ସୃଷ୍ଟି କରିଛି, ଯାହା ବାଳିକାଟିର ନିଷ୍ପାପ ଜୀବନଧାରା ସହିତ ସମ୍ପୂର୍ଣ୍ଣ ଭାବରେ ସାମଞ୍ଜସ୍ୟପୂର୍ଣ୍ଣ ଅଟେ।\n\n**ବର୍ଣ୍ଣନା:** କବିତାଟିର ଆରମ୍ଭରେ ସେହି ସାନ ବାଳିକାଟିର ପ୍ରକୃତିସୁଲଭ ରୂପ ବର୍ଣ୍ଣନା କରାଯାଇଛି। ତାର କେଶାଞ୍ଚଳ କୁଞ୍ଚାକୁଞ୍ଚିଆ ଏବଂ ତାର ଏକ ଗ୍ରାମ୍ୟ, ବଣୁଆ ସ୍ୱଭାବ ଥିଲା, ଯାହା ସହରୀ କୃତ୍ରିମତାରୁ ସମ୍ପୂର୍ଣ୍ଣ ମୁକ୍ତ ଥିଲା। ସେ ଏକ ସବୁଜ ଓ ମନୋମୁଗ୍ଧକର ପରିବେଶରେ ବାସ କରୁଥିଲା। ତାର ଭାଇଭଉଣୀଙ୍କ କବରଗୁଡ଼ିକ ଘରଠାରୁ ମାତ୍ର ବାର ପାଦ ଦୂରରେ ଏକ ସବୁଜ ଆବରଣ ମଧ୍ୟରେ ଅବସ୍ଥିତ ଥିଲା। ସେହି ସବୁଜ କବରଗୁଡ଼ିକ ମୃତ୍ୟୁର କଳା ଛାୟାକୁ ଦୂର କରି ପ୍ରକୃତିର ଜୀବନ୍ତ ରୂପକୁ ପ୍ରକାଶ କରୁଥିଲା। କବିତାଟିରେ ପ୍ରକୃତିର ବିଭିନ୍ନଋତୁ ଏବଂ ସମୟର ପରିବର୍ତ୍ତନ ମଧ୍ୟ ଅତି ସୁନ୍ଦର ଭାବରେ ଚିତ୍ରିତ ହୋଇଛି। ଗ୍ରୀଷ୍ମକାଳରେ ଶୁଖିଲା ଘାସ ଉପରେ ଖେଳିବା, ଶୀତଦିନେ ମାଟି ବରଫରେ ଧଳା ହୋଇଯିବା ଏବଂ ସୂର୍ଯ୍ୟାସ୍ତ ପରର ସୁନ୍ଦର ଓ ସଫା ପାଗ—ଏସବୁ ପ୍ରକୃତିର ବିଭିନ୍ନ ରୂପକୁ ସୂଚାଏ। ବାଳିକାଟି ଏହି ସମସ୍ତ ପ୍ରାକୃତିକ ପରିବେଶ ମଧ୍ୟରେ ନିଜର ମୃତ ଭାଇଭଉଣୀଙ୍କ ସହିତ ସମୟ ଅତିବାହିତ କରୁଥିଲା।\n\n**ସଂପାଦନା/ସିଦ୍ଧନ୍ତ:** ପରିଶେଷରେ, ଏହି କବିତାରେ ପ୍ରକୃତି କେବଳ ଏକ ପୃଷ୍ଠଭୂମି ନୁହେଁ, ବରଂ ଜୀବନ, ମୃତ୍ୟୁ ଏବଂ ଶୈଶବର ସରଳତାକୁ ଏକତ୍ର ବାନ୍ଧି ରଖିବାର ଏକ ମାଧ୍ୟମ ଅଟେ। ପ୍ରକୃତିର ଏହି ଶାନ୍ତ ଓ ସବୁଜ ପରିବେଶ ଶିଶୁଟିର ମନରୁ ମୃତ୍ୟୁର ଭୟକୁ ସମ୍ପୂର୍ଣ୍ଣ ଭାବରେ ଦୂର କରିଦେଇଛି।"
-  },
-  {
-    "title": "Long Question 7",
-    "content": "ପ୍ରଶ୍ନ: କବିତାଟିରେ ବ୍ୟବହୃତ ଭାଷା, ଶୈଳୀ ଏବଂ କାବ୍ୟକ ସୌନ୍ଦର୍ଯ୍ୟ ଉପରେ ଏକ ନୋଟ୍‌ ଲେଖନ୍ତୁ।\nଉତ୍ତର: \n**ପରିଚୟ:** ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ଙ୍କ 'Weare Seven' ଏକ ମଧୁର ଓ ମର୍ମସ୍ପର୍ଶୀ ଗୀତିକବିତା ଅଟେ, ଯାହା ତାର ସରଳ ଭାଷା, ସ୍ୱଚ୍ଛନ୍ଦ ଗଳ୍ପ କହିବାର ଶୈଳୀ ଏବଂ ଗଭୀର ଭାବପ୍ରବଣତା ପାଇଁ ପାଠକର ମନକୁ ମୋହି ନେଇଥାଏ।\n\n**ବର୍ଣ୍ଣନା:** ଏହି କବିତାରେ କବି ଅତି ସରଳ ଏବଂ ବୋଧଗମ୍ୟ ଇଂରାଜୀ ଭାଷା ବ୍ୟବହାର କରିଛନ୍ତି, ଯାହା ସାଧାରଣ ପାଠକଠାରୁ ଆରମ୍ଭ କରି ଶିଶୁମାନଙ୍କ ପର୍ଯ୍ୟନ୍ତ ସମସ୍ତଙ୍କ ପାଇଁ ଆକର୍ଷକ ଅଟେ। କବିତାଟି ପ୍ରଶ୍ନୋତ୍ତର କିମ୍ବା କଥୋପକଥଳ (Dialogue) ଶୈଳୀରେ ଲିଖିତ ହୋଇଥିବାରୁ ଏହା ପଢ଼ିବା ସମୟରେ ଏକ ନାଟକୀୟ ପ୍ରଭାବ ସୃଷ୍ଟି ହୁଏ। କବି ପ୍ରଥମେ ନିଜେ କବିତାର ବର୍ଣ୍ଣନାକାର (Narrator) ଭାବରେ ପ୍ରବେଶ କରନ୍ତି ଏବଂ ପରେ ସାନ ବାଳିକାଟି ସହିତ ତାର କଥୋପକଥନ ମାଧ୍ୟମରେ କାହାଣୀକୁ ଆଗକୁ ବଢ଼ାନ୍ତି। କବିତାଟିର ପ୍ରତ୍ୟେକ ପଦରେ ଏକ ସୁନ୍ଦର ଓ ନିୟମିତ ଛନ୍ଦ (Rhyme Scheme - ABAB) ବ୍ୟବହୃତ ହୋଇଛି, ଯାହା ଏଥିରେ ଏକ ସଙ୍ଗୀତମୟତା ଓ ଲୟ ପ୍ରଦାନ କରିଥାଏ। ଏଥିରେ ବ୍ୟବହୃତ ବିଭିନ୍ନ ଚିତ୍ରକଳ୍ପ (Imagery) ଯଥା—'hair was thick with many a curl', 'ground was white with snow', ଏବଂ '12 steps or more from my mother's door' ପାଠକର ମାନସପଟରେ ଏକ ସ୍ପଷ୍ଟ ଦୃଶ୍ୟ ସୃଷ୍ଟି କରିଥାଏ। ସେହିପରି କବିତାର ଶେଷରେ ବାଳିକାଟିର ଦୃଢ଼ୋକ୍ତି 'Nay, we are seven!' ଏକ ଶକ୍ତିଶାଳୀ ରିଫ୍ରେନ୍‌ (Refrain) ଭାବରେ କାମ କରେ, ଯାହା କବିତାର ମୂଳବାର୍ତ୍ତାକୁ ଦୃଢ଼ୀଭୂତ କରେ।\n\n**ସଂପାଦନା/ସିଦ୍ଧନ୍ତ:** ପରିଶେଷରେ, ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ଙ୍କ ଏହି କବିତା ତାର ସରଳ ଶୈଳୀ ଏବଂ ଗଭୀର ଦାର୍ଶନିକ ଚିନ୍ତାଧାରା ପାଇଁ ଇଂରାଜୀ ସାହିତ୍ୟର ଏକ ଅମୂଲ୍ୟ ରତ୍ନ ହୋଇରହିଛି।"
-  },
-  {
-    "title": "Long Question 8",
-    "content": "ପ୍ରଶ୍ନ: କବିତାରେ ବାଳିକାଟିର ଚରିତ୍ରର ମୁଖ୍ୟ ବୈଶିଷ୍ଟ୍ୟଗୁଡ଼ିକ ଆଲୋଚନା କରନ୍ତୁ।\nଉତ୍ତର: \n**ପରିଚୟ:** ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ଙ୍କ 'We are Seven' କବିତାର ମୁଖ୍ୟ ଆକର୍ଷଣ ହେଲା ସେହି ଆଠ ବର୍ଷର ସାନ ଗ୍ରାମ୍ୟ ବାଳିକାଟି। ତାର ନିଷ୍ପାପତା, ସରଳତା ଏବଂ ପରିବାର ପ୍ରତି ଅଗାଧ ସ୍ନେହ ପାଠକର ପ୍ରାଣକୁ गଭୀର ଭାବରେ ସ୍ପର୍ଶ କରିଥାଏ।\n\n**ବର୍ଣ୍ଣନା:** ସାନ ବାଳିକାଟି ପ୍ରକୃତିର କୋଳରେ ବଢ଼ିଥିବା ଜଣେ ସାଧାରଣ ଗ୍ରାମ୍ୟ ବାଳିକା ଥିଲା, ଯାହାର ବାହ୍ୟରୂପ ଅତ୍ୟନ୍ତ ଆକର୍ଷକ ଓ ସରଳ ଥିଲା। ତାର କେଶାଞ୍ଚଳ କୁଞ୍ଚାକୁଞ୍ଚିଆ ଏବଂ ପୋଷାକପତ୍ର ଅସଜଡ଼ା ଥିଲେ ମଧ୍ୟ ତାର ଆଖିଗୁଡ଼ିକ ଅତ୍ୟନ୍ତ ନିର୍ମଳ ଓ ସୁନ୍ଦର ଥିଲା। ତାର ଚରିତ୍ରର ସବୁଠାରୁ ବଡ଼ ବୈଶିଷ୍ଟ୍ୟ ହେଲା ତାର ଅମାୟିକ ନିଷ୍ପାପତା ଏବଂ ନିର୍ଭୟ ସ୍ୱଭାବ। ବଡ଼ମାନଙ୍କ ପରି ସେ ମୃତ୍ୟୁକୁ ନେଇ କୌଣସି ଭୟ କିମ୍ବା ଜଟିଳତା ମଧ୍ୟରେ ନଥିଲା। ତାର ଦୁଇଜଣ ଭାଇଭଉଣୀ—ଜେନ୍‌ ଏବଂ ଜନ୍‌—ମୃତ୍ୟୁବରଣ କରି କବରସ୍ଥାନରେ ଥିଲେ ମଧ୍ୟ ସେମାନଙ୍କ ପ୍ରତି ତାର ସ୍ନେହରେ କୌଣସି କମି ନଥିଲା। ସେ ସେମାନଙ୍କ କବର ପାଖରେ ବସି କାମ କରିବା, ଗୀତ ଗାଇବା ଏବଂ ଖାଦ୍ୟ ଖାଇବା ଦ୍ୱାରା ତାର ଅଫୁରନ୍ତ ପ୍ରେମ ଓ ଆନୁଗତ୍ୟ ପ୍ରକାଶ ପାଇଥାଏ। ଏହା ବ୍ୟତୀତ, କବିଙ୍କ ଭଳି ଜଣେ ପରିପକ୍ୱ ବ୍ୟକ୍ତିଙ୍କ ସାମନାରେ ମଧ୍ୟ ସେ ନିଜର ମତରୁ ଓହରି ନଥିଲା। ସେ ସମ୍ପୂର୍ଣ୍ଣ ଆତ୍ମବିଶ୍ୱାସ ଏବଂ ଦୃଢ଼ତା ସହକାରେ କହିଥିଲା ଯେ ସେମାନେ ସାତଜଣ ଭାଇଭଉଣୀ ଅଟନ୍ତି।\n\n**ସଂପାଦନା/ସିଦ୍ଧନ୍ତ:** ଏହିପରି ଭାବରେ, ସାନ ବାଳିକାଟିର ଚରିତ୍ର କେବଳ ଏକ କାଳ୍ପନିକ ଚରିତ୍ର ନୁହେଁ, ବରଂ ଏହା ଶୈଶବର ଶାଶ୍ୱତ ପ୍ରେମ, ନିର୍ମଳତା ଏବଂ ଅଖଣ୍ଡ ପରିବାରବୋଧର ଏକ ଜୀବନ୍ତ ପ୍ରତିମୂର୍ତ୍ତି ଅଟେ।"
-  },
-  {
-    "title": "Long Question 9",
-    "content": "ପ୍ରଶ୍ନ: କବିତାଟିର ଶେଷ ଅଂଶର ମର୍ମ ଏବଂ ତାହାର ଗୁରୁତ୍ୱ ବର୍ଣ୍ଣନା କରନ୍ତୁ।\nଉତ୍ତର: \n**ପରିଚୟ:** ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ଙ୍କ 'We are Seven' କବିତାର ଶେଷ ଅଂଶଟି ଏକ ଅତ୍ୟନ୍ତ ନାଟକୀୟ ଏବଂ ଦାର୍ଶନିକ ପରିସମାପ୍ତି ଆଣିଦେଇଥାଏ। ଏହି ଅଂଶରେ କବି ଏବଂ ବାଳିକା ମଧ୍ୟରେ ଚାଲିଥିବା ଯୁକ୍ତି ଚରମ ସୀମାରେ ପହଞ୍ଚିଥାଏ ଏବଂ ଶିଶୁର ଅପରାଜେୟ ମନୋଭାବ ପ୍ରକାଶ ପାଇଥାଏ।\n\n**ବର୍ଣ୍ଣନା:** କବିତାଟିର ଶେଷଆଡ଼କୁ କବି ବାଳିକାଟିକୁ ବୁଝାଇବାକୁ ଚେଷ୍ଟା କରନ୍ତି ଯେ ଯେହେତୁ ସେମାନଙ୍କର ଦୁଇଜଣ ଭାଇଭଉଣୀ ମୃତ୍ୟୁବରଣ କରିଛନ୍ତି ଏବଂ ସେମାନଙ୍କ ଆତ୍ମା ସ୍ୱର୍ଗରେ ଅଛି, ତେଣୁ ସେମାନେ ଆଉ ପୃଥିବୀରେ ନାହାନ୍ତି ଏବଂ ସଂଖ୍ୟାରେ ସେମାନେ ମାତ୍ର ପାଞ୍ଚଜଣ ଅଟନ୍ତି। କବି ଭାବନ୍ତି ଯେ ଏହି ବୌଦ୍ଧିକ ଓ ଆଧ୍ୟାତ୍ମିକ ସତ୍ୟଟି ଶିଶୁଟିକୁ ବୁଝାଇ ଦେଲେ ସେ ତାଙ୍କ କଥା ମାନିବେ। କିନ୍ତୁ କବିଙ୍କ ଏହି ଚେଷ୍ଟା ସମ୍ପୂର୍ଣ୍ଣ ବିଫଳ ହୁଏ। କବିଙ୍କ ପାଇଁ ଏହା 'throwing words away' ଅର୍ଥାତ୍‌ ପବନରେ କଥା ଫିଙ୍ଗିବା ସମାନ ହୋଇଯାଏ, ଯାହାର କୌଣସି ମୂଲ୍ୟ ରହେ ନାହିଁ। ସାନ ବାଳିକାଟି କବିଙ୍କ ଗଣିତ କିମ୍ବା ସ୍ୱର୍ଗର ଧାରଣାକୁ ସମ୍ପୂର୍ଣ୍ଣ ଅଗ୍ରାହ୍ୟ କରିଦିଏ। ସେ କୌଣସି ଯୁକ୍ତି ଆଗରେ ନମ୍ର ହୁଏ ନାହିଁ କିମ୍ବା ବିଚଳିତ ହୁଏ ନାହିଁ। ବରଂ ସେ ପୁନର୍ବାର ସମାନ ଆତ୍ମବିଶ୍ୱାସ ଏବଂ ଦୃଢ଼ତା ସହକାରେ କହିଉଠେ, \"Nay, we are seven!\" ଅର୍ଥାତ୍‌ \"ନା, ଆମେ ସାତଜଣ!\" ଏହି ଶେଷ ଧାଡ଼ିଟି ଶିଶୁର ନିଷ୍ପାପ ହୃଦୟର ଅଖଣ୍ଡ ପ୍ରେମ ଏବଂ ଅପରାଜେୟ ମନୋଭାବର ପରିଚୟ ଦେଇଥାଏ।\n\n**ସଂପାଦନା/ସିଦ୍ଧନ୍ତ:** ପରିଶେଷରେ, କବିତାର ଏହି ଶେଷ ଅଂଶ ପାଠକର ମନରେ ଏକ ଗଭୀର ରେଖାପାତ କରେ ଏବଂ ବୁଝାଇଦିଏ ଯେ ପ୍ରକୃତ ସ୍ନେହ ଏବଂ ଆତ୍ମିକ ସମ୍ପର୍କ ଆଗରେ ବୟସ୍କମାନଙ୍କର ଜଟିଳ ଯୁକ୍ତି ଓ ବୌଦ୍ଧିକତା ସର୍ବଦା ଅର୍ଥହୀନ ହୋଇଯାଏ।"
-  },
-  {
-    "title": "Long Question 10",
-    "content": "ପ୍ରଶ୍ନ: 'We are Seven' କବିତାଟିର ମୂଳ ନିର୍ଯ୍ୟାସ ବା ଶିକ୍ଷା କ'ଣ, ନିଜ ଭାଷାରେ ଲେଖନ୍ତୁ।\nଉତ୍ତର: \n**ପରିଚୟ:** ଇଂରାଜୀ ସାହିତ୍ୟର ମହାନ ପ୍ରକୃତିବାଦୀ କବି ୱିଲିୟମ୍‌ ଓ୍ୱାର୍ଡ଼ସ୍‌ୱର୍ଥ୍‌ଙ୍କ ଦ୍ୱାରା ରଚିତ 'We are Seven' ଏକ ଅମୂଲ୍ୟ କବିତା ଅଟେ, ଯାହା ଜୀବନ, ମୃତ୍ୟୁ ଏବଂ ଶୈଶବର ନିର୍ମଳ ଭାବନା ସମ୍ବନ୍ଧରେ ଏକ ଗଭୀର ଦାର୍ଶନିକ ଶିକ୍ଷା ପ୍ରଦାନ କରିଥାଏ।\n\n**ବର୍ଣ୍ଣନା:** ଏହି କବିତାର ମୁଖ୍ୟ ଶିକ୍ଷା ହେଲା ଯେ ଶିଶୁମାନଙ୍କ ଦୃଷ୍ଟିକୋଣ ଏବଂ ଅନୁଭୂତି ବୟସ୍କମାନଙ୍କଠାରୁ ସମ୍ପୂର୍ଣ୍ଣ ଭାବରେ ସ୍ୱତନ୍ତ୍ର ଏବଂ ଅଧିକ ନିର୍ମଳ ହୋଇଥାଏ। ବଡ଼ମାନେ ସଂସାରକୁ ଗଣିତ, ଯୁକ୍ତି, ନିୟମ ଏବଂ ଶାରୀରିକ ବାସ୍ତବତା ଦୃଷ୍ଟିରୁ ଦେଖନ୍ତି। ବଡ଼ମାନଙ୍କ ପାଇଁ ମୃତ୍ୟୁ ଏକ ଅନ୍ତିମ ସତ୍ୟ ଏବଂ ଶାରୀରିକ ବିଚ୍ଛେଦ ଅଟେ, ଯେଉଁଠାରୁ ଆଉ ଫେରିବାର କୌଣସି ଉପାୟ ନାହିଁ। କିନ୍ତୁ ଶିଶୁମାନେ ସଂସାରକୁ କେବଳ ସ୍ନେହ, ପ୍ରେମ ଏବଂ କଳ୍ପନା ଦୃଷ୍ଟିରୁ ଦେଖନ୍ତି। ସେମାନଙ୍କ ପାଇଁ ଯେଉଁମାନେ ଆମକୁ ଛାଡ଼ି ଚାଲିଯାଇଛନ୍ତି, ସେମାନେ ମଧ୍ୟ ଆମ ହୃଦୟରେ ଏବଂ ସ୍ମୃତିରେ ସେହିପରି ଜୀବିତ ରହିଥାଆନ୍ତି। କବିତାର ସାନ ବାଳିକାଟି ପ୍ରମାଣ କରିଛି ଯେ ଶରୀର ନଷ୍ଟ ହୋଇଗଲେ ମଧ୍ୟ ପରିବାରର ସଦସ୍ୟମାନଙ୍କ ସହିତ ଆତ୍ମିକ ବନ୍ଧନ କେବେହେଁ ଛିନ୍ନ ହୁଏ ନାହିଁ। ସେ ନିଜର ମୃତ ଭାଇଭଉଣୀଙ୍କ କବର ପାଖରେ ବସି କାମ କରିବା ଏବଂ ଖାଦ୍ୟ ଖାଇବା ମାଧ୍ୟମରେ ଏହା ପ୍ରମାଣ କରେ ଯେ ପ୍ରକୃତ ପ୍ରେମ ମୃତ୍ୟୁଠାରୁ ମଧ୍ୟ ଅଧିକ ଶକ୍ତିଶାଳୀ ଅଟେ।\n\n**ସଂପାଦନା/ସିଦ୍ଧନ୍ତ:** ପରିଶେଷରେ, ଏହି କବିତା ଆମ୍ଭମାନଙ୍କୁ ଶିକ୍ଷା ଦିଏ ଯେ ଆମ୍ଭେମାନେ ଯେତେ ବଡ଼ ହେଲେ ମଧ୍ୟ ଶିଶୁମାନଙ୍କର ନିଷ୍ପାପ ପ୍ରେମ ଏବଂ ସରଳତାଠାରୁ շହ ଶହ ବର୍ଷର ଜ୍ଞାନ ଆହରଣ କରିପାରିବା। ମୃତ୍ୟୁ କେବେହେଁ ସ୍ନେହ ଓ ସ୍ମୃତିକୁ ନଷ୍ଟ କରିପାରେ ନାହିଁ।"
-  }
+{
+"title": "1. ଲେଖକ ପରିଚୟ (Writer Introduction)",
+"content": "William Wordsworth (1770-1850) ଇଂରାଜୀ ସାହିତ୍ୟର ଜଣେ ମହାନ ପ୍ରକୃତିକ କବି ଅଟନ୍ତି। ସେ ଇଂଲଣ୍ଡରେ ଜନ୍ମଗ୍ରହଣ କରିଥିଲେ। ସେ ପ୍ରକୃତିକୁ ମଣିଷର ମହାନ ଶିକ୍ଷକ ଭାବରେ ବିବେଚନା କରନ୍ତି ଏବଂ ତାଙ୍କ କବିତାଗୁଡ଼ିକ ପ୍ରକୃତି ସହିତ ଏକ ନିବିଡ଼ ସମ୍ପର୍କ ସ୍ଥାପନ କରେ।"
+},
+{
+"title": "2. ଲେଖକଙ୍କ ସାହିତ୍ୟିକ ପୃଷ୍ଠଭୂମି (Literary Background)",
+"content": "William Wordsworth 19ତମ ଶତାବ୍ଦୀର Romantic Movement ର ଅନ୍ୟତମ ପ୍ରତିଷ୍ଠାତା ଥିଲେ। ସେ ସରଳ ଗ୍ରାମାଞ୍ଚଳର ଜୀବନ ଏବଂ ପ୍ରକୃତିର ସୌନ୍ଦର୍ଯ୍ୟକୁ ନିଜ କବିତାରେ ସୁନ୍ଦର ଭାବରେ ପ୍ରକାଶ କରିଛନ୍ତି। ତାଙ୍କର ପ୍ରସିଦ୍ଧ ରଚନାଗୁଡ଼ିକ ମଧ୍ୟରେ Daffodils ଏବଂ The Solitary Reaper ଅନ୍ତର୍ଭୁକ୍ତ।"
+},
+{
+"title": "3. ଲେଖକଙ୍କ ଦୃଷ୍ଟିକୋଣ / ଉଦ୍ଦେଶ୍ୟ (Writer's View / Purpose)",
+"content": "ଏହି କବିତାର ମାଧ୍ୟମରେ କବି ଦର୍ଶାଇବାକୁ ଚାହାଁନ୍ତି ଯେ ପିଲାମାନେ ଦୁନିଆକୁ ଏକ ସରଳ ଏବଂ ନିର୍ମଳ ଦୃଷ୍ଟିକୋଣରୁ ଦେଖନ୍ତି। ବୟସ୍କମାନଙ୍କ ମୃତ୍ୟୁ ସମ୍ବନ୍ଧୀୟ ଧାରଣା ଏବଂ ପିଲାମାନଙ୍କର ନିରୀହ ହୃଦୟର ଅନନ୍ତ ଭାବନା ମଧ୍ୟରେ ଥିବା ପାର୍ଥକ୍ୟକୁ ଏଠାରେ ସୁନ୍ଦର ଭାବରେ ଉପସ୍ଥାପନ କରାଯାଇଛି।"
+},
+{
+"title": "4. ଅଧ୍ୟାୟ ପରିଚୟ (Chapter Introduction)",
+"content": "We are Seven କବିତାଟି William Wordsworth ଙ୍କ ଦ୍ୱାରା ଲିଖିତ ଏକ ପ୍ରସିଦ୍ଧ କବିତା। ଏହା ଜଣେ ପରିପକ୍ୱ କବି ଏବଂ ଏକ ଆଠ ବର୍ଷର ଛୋଟ ଗ୍ରାମୀଣ ବାଳିକା ମଧ୍ୟରେ ହୋଇଥିବା କଥୋପକଥନ ଉପରେ ଆଧାରିତ। ବାଳିକାଟି ଜିଦ୍ ଧରି କହେ ଯେ ସେମାନେ ମୋଟ ସାତ ଜଣ ଭାଇଭଉଣୀ।"
+},
+{
+"title": "5. ସରଳ କାହାଣୀ ବର୍ଣ୍ଣନା (Simple Story Narration)",
+"content": "କବି ଥରେ ଜଣେ ଆଠ ବର୍ଷର ଛୋଟ ଝିଅକୁ ଭେଟିଲେ ଏବଂ ତାଙ୍କ ପରିବାର ବିଷୟରେ ପଚାରିଲେ। ଝିଅଟି କହିଲା ଯେ ସେମାନେ ସାତ ଜଣ ଭାଇଭଉଣୀ ଅଛନ୍ତି। ସେମାନଙ୍କ ମଧ୍ୟରୁ ଦୁଇ ଜଣ Conway ରେ ରହନ୍ତି, ଦୁଇ ଜଣ ସମୁଦ୍ରକୁ ଯାଇଛନ୍ତି ଏବଂ ଦୁଇ ଜଣ କବରସ୍ଥାନରେ ଶୋଇଛନ୍ତି। କବି ବୁଝାଇଲେ ଯେ ମୃତମାନଙ୍କୁ ଛାଡ଼ିଲେ ସେମାନେ ମାତ୍ର ପାଞ୍ଚ ଜଣ, କିନ୍ତୁ ଝିଅଟି ଦୃଢ଼ ଭାବରେ କହିଲା ଯେ ସେମାନେ ସାତ ଜଣ ଅଛନ୍ତି।"
+},
+{
+"title": "6. Stanza-wise Explanation - Stanza 1 to 3",
+"content": "ପ୍ରଥମ ସ୍ତବକରେ କବି ଜଣେ ସରଳ, ନିର୍ମଳ ଏବଂ ଜୀବନ୍ତ ଶିଶୁର କଥା କହିଛନ୍ତି ଯେ କି ଜୀବନର ପ୍ରତିଟି ମୁହୂର୍ତ୍ତକୁ ଉପଭୋଗ କରେ ଏବଂ ମୃତ୍ୟୁର ପ୍ରକୃତ ଅର୍ଥ ଜାଣେ ନାହିଁ।ଦ୍ୱିତୀୟ ଓ ତୃତୀୟ ସ୍ତବକରେ କବି ଜଣେ ଆଠ ବର୍ଷର ସୁନ୍ଦର ଗ୍ରାମୀଣ ବାଳିକାକୁ ଭେଟିବା କାହାଣୀ ବର୍ଣ୍ଣନା କରିଛନ୍ତି, ଯାହାର କେଶରାଜି ଏବଂ ପ୍ରାକୃତିକ ସୌନ୍ଦର୍ଯ୍ୟ କବିଙ୍କ ମନକୁ ଆନନ୍ଦିତ କରିଥିଲା।"
+},
+{
+"title": "7. Stanza-wise Explanation - Stanza 4 to 6",
+"content": "ଚତୁର୍ଥ ଓ ପଞ୍ଚମ ସ୍ତବକରେ କବି ଝିଅଟିକୁ ତାର ଭାଇଭଉଣୀଙ୍କ ସଂଖ୍ୟା ପଚାରିବାରୁ ସେ ଉତ୍ତର ଦିଏ ଯେ ସେମାନେ ସାତ ଜଣ ଅଛନ୍ତି। ଝିଅଟି ବର୍ଣ୍ଣନା କରେ ଯେ ଦୁଇ ଜଣ Conway ରେ ରହନ୍ତି, ଦୁଇ ଜଣ ସମୁଦ୍ରକୁ ଯାଇଛନ୍ତି ଏବଂ ଦୁଇ ଜଣ ଚର୍ଚ୍ଚର କବରସ୍ଥାନରେ ମାଆଙ୍କ ପାଖରେ ଶୋଇଛନ୍ତି।"
+},
+{
+"title": "8. Stanza-wise Explanation - Stanza 7 to 9",
+"content": "ଷଷ୍ଠ ଓ ସପ୍ତମ ସ୍ତବକରେ କବି ଯୁକ୍ତି କରନ୍ତି ଯେ ଯଦି ଦୁଇ ଜଣ ଭାଇଭଉଣୀ ମୃତ୍ୟୁବରଣ କରି କବରରେ ଅଛନ୍ତି, ତେବେ ବଞ୍ଚିଥିବା ପିଲାମାନେ ମାତ୍ର ପାଞ୍ଚ ଜଣ ହେବା କଥା। କିନ୍ତୁ ଛୋଟ ଝିଅଟି ପୁଣିଥରେ ଜିଦ୍ ଧରି କହେ ଯେ ସେମାନଙ୍କର ମୋଟ ସଂଖ୍ୟା ସାତ ଜଣ ଅଟେ।"
+},
+{
+"title": "9. Stanza-wise Explanation - Stanza 10 to 12",
+"content": "ଏହି ସ୍ତବକଗୁଡ଼ିକରେ ଝିଅଟି ବର୍ଣ୍ଣନା କରେ ଯେ କିପରି ସେ ମୃତ ଭାଇଭଉଣୀଙ୍କ କବର ନିକଟରେ ବସି ମୋଜା ବୁଣେ, ରୁମାଲ ସିଏ ଏବଂ ସେମାନଙ୍କ ପାଇଁ ଗୀତ ଗାଏ। ସୂର୍ଯ୍ୟାସ୍ତ ପରେ ସେ ସେଠାରେ ନିଜର ରାତ୍ରୀଭୋଜନ ମଧ୍ୟ ଗ୍ରହଣ କରେ, ଯାହା ତାଙ୍କର ମୃତ ପ୍ରତି ଥିବା ଗଭୀର ଆତ୍ମୀୟତାକୁ ପ୍ରକାଶ କରେ।"
+},
+{
+"title": "10. Stanza-wise Explanation - Stanza 13 to 16",
+"content": "ଶେଷ ସ୍ତବକଗୁଡ଼ିକରେ ବାଳିକାଟି ତାର ଭଉଣୀ ଜେନ୍ ଏବଂ ଭାଇ ଜନ୍ ର ମୃତ୍ୟୁ ଏବଂ ସେମାନଙ୍କ କବର ବିଷୟରେ କହେ। କବି ଯେତେ ବୁଝାଇବାକୁ ଚେଷ୍ଟା କଲେ ମଧ୍ୟ ଯେ ସେମାନଙ୍କ ଆତ୍ମା ସ୍ୱର୍ଗରେ ଅଛି, ଝିଅଟି ନିଜର ଜିଦ୍ ରେ ଅଟଳ ରହି କହେ 'O Master! we are seven'।"
+},
+{
+"title": "11. Difficult English Words with Odia Meaning",
+"content": "Cottage - ଛୋଟ ଘର ବା କୁଟିର। Rustic - ଗ୍ରାମୀଣ। Clustered - ଏକାଠି ଜମା ହୋଇଥିବା। Maid - ଝିଅ ବା ବାଳିକା। Dwell - ବାସ କରିବା ବା ରହିବା। Church-yard - ଚର୍ଚ୍ଚ ସଂଲଗ୍ନ କବରସ୍ଥାନ। Porringer - ସୂପ କିମ୍ବା ପରିଜ୍ ଖାଇବା ପାଇଁ ଏକ ଛୋଟ ପାତ୍ର। Moaning - କଷ୍ଟରେ କାନ୍ଦିବା ବା ଗ୍ରୀନ୍ କରିବା।"
+},
+{
+"title": "12. New Vocabulary",
+"content": "Stockings - ଗୋଡ଼ ଏବଂ ପାଦ ପାଇଁ ତିଆରି ହୋଇଥିବା ପୋଷାକ। Kerchief - ମୁଣ୍ଡ କିମ୍ବା ବେକରେ ବନ୍ଧାଯାଉଥିବା ରୁମାଲ। Hem - କପଡ଼ାର କାନ୍ଥକୁ ମୋଡ଼ି ସିଲେଇ କରିବା। Spirits - ଆତ୍ମା ବା ପ୍ରାଣ। Wonder - ଆଶ୍ଚର୍ଯ୍ୟ ହେବା। Woodland - ଜଙ୍ଗଲପୂର୍ଣ୍ଣ ଅଞ୍ଚଳ।"
+},
+{
+"title": "13. Important Sentences with Explanation",
+"content": "1. 'A simple Child, / That lightly draws its breath, / And feels its life in every limb, / What should it know of death?' - ଏହି ପଂକ୍ତିରେ କବି କହିଛନ୍ତି ଯେ ଜଣେ ସରଳ ଶିଶୁ ଜୀବନର ଆନନ୍ଦରେ ଭରା ଥାଏ ଏବଂ ମୃତ୍ୟୁର ଭୟଙ୍କର ଅର୍ଥ ବୁଝିବାକୁ ସକ୍ଷମ ହୋଇ ନଥାଏ।"
+},
+{
+"title": "14. Characters",
+"content": "ଏହି କବିତାରେ ମୁଖ୍ୟତଃ ଦୁଇଟି ଚରିତ୍ର ରହିଛନ୍ତି: 1. କବି (William Wordsworth) - ଯିଏ ଜଣେ ବୟସ୍କ ଏବଂ ଯୁକ୍ତିଯୁକ୍ତ ବ୍ୟକ୍ତି ଯିଏ ମୃତ୍ୟୁକୁ ଜୀବନର ଶେଷ ବୋଲି ଭାବନ୍ତି। 2. ଆଠ ବର୍ଷର ଗ୍ରାମୀଣ ବାଳିକା - ଯିଏ ଅତ୍ୟନ୍ତ ସରଳ, ନିରୀହ ଏବଂ ମୃତ ଭାଇଭଉଣୀଙ୍କ ସହିତ ଆତ୍ମିକ ସମ୍ପର୍କ ବଜାୟ ରଖିଛି।"
+},
+{
+"title": "15. Character Sketch of the Little Girl",
+"content": "ଆଠ ବର୍ଷର ଝିଅଟି ଅତ୍ୟନ୍ତ ସୁନ୍ଦର, ସରଳ ଏବଂ ଗ୍ରାମୀଣ ପରିବେଶରେ ବଢ଼ିଥିବା ଏକ ବାଳିକା। ତାର ଆଖି ସୁନ୍ଦର ଏବଂ କେଶ କୁଣ୍ଡଳୀକୃତ। ସେ ମୃତ୍ୟୁକୁ ବିଚ୍ଛେଦ ଭାବରେ ଗ୍ରହଣ କରେ ନାହିଁ, ବରଂ ତାର ମୃତ ଭାଇଭଉଣୀମାନେ ମଧ୍ୟ ତାର ପରିବାରର ଅଂଶବିଶେଷ ବୋଲି ସେ ଦୃଢ଼ ଭାବରେ ବିଶ୍ୱାସ କରେ।"
+},
+{
+"title": "16. Plot Summary",
+"content": "କବି ଜଣେ ଗ୍ରାମୀଣ ଝିଅକୁ ଭେଟି ତାଙ୍କ ପରିବାରର ସଦସ୍ୟ ସଂଖ୍ୟା ପଚାରିଲେ। ଝିଅଟି ସାତ ଜଣ ବୋଲି କହିବାରୁ କବି ଆଶ୍ଚର୍ଯ୍ୟ ହେଲେ, କାରଣ ସେମାନଙ୍କ ମଧ୍ୟରୁ ଦୁଇ ଜଣ ମୃତ୍ୟୁବରଣ କରିସାରିଥିଲେ। କବି ଯେତେ ବୁଝାଇଲେ ମଧ୍ୟ ଝିଅଟି ନିଜର ଦୃଢ଼ ବିଶ୍ୱାସରେ ଅଟଳ ରହିଲା ଯେ ସେମାନେ ସାତ ଜଣ ଅଛନ୍ତି।"
+},
+{
+"title": "17. Sequence of Events",
+"content": "1. କବି ଏକ ଆଠ ବର୍ଷର ଝିଅକୁ ଭେଟିବା। 2. କବି ଝିଅଟିକୁ ତାର ଭାଇଭଉଣୀଙ୍କ ସଂଖ୍ୟା ପଚାରିବା। 3. ଝିଅଟି ସେମାନେ ସାତ ଜଣ ବୋଲି କହିବା। 4. ଝିଅଟି ସେମାନଙ୍କ ମଧ୍ୟରୁ ଦୁଇ ଜଣ କବରସ୍ଥାନରେ ଥିବା କଥା କହିବା। 5. କବି ସେମାନେ ମାତ୍ର ପାଞ୍ଚ ଜଣ ବୋଲି ଯୁକ୍ତି କରିବା। 6. ଝିଅଟି ଜିଦ୍ ଧରି କହିବା ଯେ ସେମାନେ ସାତ ଜଣ ଅଛନ୍ତି।"
+},
+{
+"title": "18. Central Idea",
+"content": "ଏହି କବିତାର କେନ୍ଦ୍ରୀୟ ଭାବ ହେଲା ପିଲାମାନଙ୍କର ନିରୀହତା ଏବଂ ମୃତ୍ୟୁ ପ୍ରତି ସେମାନଙ୍କର ସରଳ ଦୃଷ୍ଟିକୋଣ। ପିଲାମାନେ ପ୍ରିୟଜନଙ୍କ ମୃତ୍ୟୁକୁ ମଧ୍ୟ ସେମାନଙ୍କ ଠାରୁ ଦୂରେଇ ଯାଇଥିବାରୁ ଗ୍ରହଣ କରନ୍ତି ନାହିଁ, ବରଂ ସେମାନଙ୍କ ସହିତ ଏକ ଆତ୍ମିକ ସମ୍ପର୍କ ସବୁବେଳେ ରଖିଥାଆନ୍ତି।"
+},
+{
+"title": "19. Theme",
+"content": "କବିତାର ମୁଖ୍ୟ ଥିମ୍ ହେଲା ଶୈଶବର ନିରୀହତା, ପ୍ରକୃତିର ସୌନ୍ଦର୍ଯ୍ୟ ଏବଂ ମୃତ୍ୟୁ ଓ ଜୀବନର ଅବିଚ୍ଛେଦ୍ୟ ସମ୍ପର୍କ। ବୟସ୍କମାନେ ମୃତ୍ୟୁକୁ ଶେଷ ବୋଲି ଭାବନ୍ତି, କିନ୍ତୁ ପିଲାମାନେ ମୃତ୍ୟୁକୁ ମଧ୍ୟ ପ୍ରେମ ଓ ସ୍ମୃତିର ଏକ ବନ୍ଧନ ଭାବରେ ଦେଖନ୍ତି।"
+},
+{
+"title": "20. Moral of the Story",
+"content": "ପ୍ରକୃତ ପ୍ରେମ ଏବଂ ପରିବାର ପ୍ରତି ଆକର୍ଷଣ କେବଳ ଶାରୀରିକ ଉପସ୍ଥିତିରେ ସୀମିତ ନୁହେଁ। ପିଲାମାନଙ୍କର ନିର୍ମଳ ହୃଦୟ ଏବଂ ନିରୀହ ବିଶ୍ୱାସ ଆମ୍ଭକୁ ଶିକ୍ଷା ଦିଏ ଯେ ପ୍ରକୃତ ସମ୍ପୋକ କେବେ ମରେ ନାହିଁ।"
+},
+{
+"title": "21. Writer's Message",
+"content": "କବି William Wordsworth ଏହି କବିତା ମାଧ୍ୟମରେ ସନ୍ଦେଶ ଦେଇଛନ୍ତି ଯେ ପିଲାମାନଙ୍କର ଦୃଷ୍ଟିକୋଣ ବୟସ୍କମାନଙ୍କ ଅପେକ୍ଷା ଅଧିକ ସରଳ ଓ ପ୍ରାକୃତିକ ହୋଇଥାଏ। ସେମାନଙ୍କର ଭାବନା ଜଟିଳତାମୁକ୍ତ ଏବଂ ପ୍ରେମରେ ପରିପୂର୍ଣ୍ଣ।"
+},
+{
+"title": "22. Tone and Mood",
+"content": "ଏହି କବିତାର ଟୋନ୍ ଏବଂ ମୁଡ୍ ଅତ୍ୟନ୍ତ ଶାନ୍ତ, କାବ୍ଯିକ ଏବଂ ଆବେଗପୂର୍ଣ୍ଣ ଅଟେ। କବିଙ୍କ ମଧ୍ୟରେ ଆଶ୍ଚର୍ଯ୍ୟଭାବ ଏବଂ ବାଳିକାଟିର ମଧ୍ୟରେ ଅଚଳ ବିଶ୍ୱାସର ଏକ ସୁନ୍ଦର ମିଶ୍ରଣ ଏଠାରେ ଦେଖିବାକୁ ମିଳେ।"
+},
+{
+"title": "23. Literary Devices / Figures of Speech",
+"content": "ଏହି କବିତାରେ ବିଭିନ୍ନ ଲିଟେରାରୀ ଡିଭାଇସ୍ ବ୍ୟବହୃତ ହୋଇଛି ଯେପରିକି Rhyme Scheme (ABAB), Imagery (ପ୍ରାକୃତିକ ବର୍ଣ୍ଣନା ଏବଂ କବରସ୍ଥାନର ଚିତ୍ର), ଏବଂ Repetition ('We are seven' ବାକ୍ୟର ବାରମ୍ବାର ଆବୃତ୍ତି)।"
+},
+{
+"title": "24. Grammar Points",
+"content": "ଏହି କବିତାରେ ବ୍ୟବହୃତ ବିଭିନ୍ନ ପ୍ରକାରର ସର୍ବନାମ (Pronouns) ଯେପରିକି I, she, we, they ଏବଂ କ୍ରିୟାପଦଗୁଡ଼ିକ (Verbs) କାହାଣୀର ପ୍ରବାହକୁ ସୁନ୍ଦର କରିଥାଏ। ଏଥିରେ ପ୍ରଶ୍ନବାଚକ ଏବଂ ବିବୃତିମୂଳକ ବାକ୍ୟର ପ୍ରୟୋଗ କରାଯାଇଛି।"
+},
+{
+"title": "25. Important Exam Points",
+"content": "1. କବିଙ୍କ ନାମ: William Wordsworth। 2. ବାଳିକାର ବୟସ: ଆଠ ବର୍ଷ। 3. ଝିଅଟିର ମୃତ ଭାଇଭଉଣୀଙ୍କ ନାମ: Jane ଏବଂ John। 4. କବିତାଟି କେଉଁଠାରୁ ନିଆଯାଇଛି: Goodrich Castle ନିକଟରେ କବିଙ୍କ ଅନୁଭୂତିରୁ। 5. କବିତାର ମୁଖ୍ୟ ଶ୍ଳୋକ: 'O Master! we are seven'।"
+},
+{
+"title": "26. Complete Chapter Summary",
+"content": "We are Seven କବିତାଟି ଶୈଶବର ନିରୀହତା ଏବଂ ମୃତ୍ୟୁ ବିଷୟରେ ଏକ ଗଭୀର ଚିନ୍ତାଧାରା ଉପରେ ପର୍ଯ୍ୟବସିତ। କବି ଜଣେ ଆଠ ବର୍ଷର ଝିଅକୁ ଭେଟି ତାଙ୍କ ପରିବାରର ସଦସ୍ୟ ସଂଖ୍ୟା ପଚାରିଲେ। ଝିଅଟି ଜିଦ୍ ଧରି କହିଲା ଯେ ସେମାନେ ସାତ ଜଣ, ଯଦିଓ ଦୁଇ ଜଣ ମୃତ୍ୟୁବରଣ କରି କବରରେ ଅଛନ୍ତି। କବିଙ୍କ ଯୁକ୍ତିକୁ ଅଗ୍ରାହ୍ୟ କରି ଝିଅଟି କହିଲା ଯେ ମୃତ୍ୟୁ ସେମାନଙ୍କର ପରିବାର ବନ୍ଧନକୁ ଭାଙ୍ଗିପାରି ନାହିଁ।"
+},
+{
+"title": "27. Chapter Conclusion",
+"content": "ଶେଷରେ, ଏହି କବିତା ଆମ୍ଭକୁ ଶିକ୍ଷା ଦିଏ ଯେ ପିଲାମାନଙ୍କର ହୃଦୟରେ ପ୍ରେମ ଏବଂ ସମ୍ପର୍କର ସୀମା କେବଳ ଶାରୀରିକ ଉପସ୍ଥିତିରେ ସୀମିତ ନଥାଏ। ମୃତ୍ୟୁ ମଧ୍ୟ ପିଲାମାନଙ୍କର ନିରୀହ ମନରେ ସମ୍ପର୍କକୁ ଛିନ୍ନ କରିପାରେ ନାହିଁ, ଯାହା ଏହି କବିତାର ସବୁଠାରୁ ବଡ଼ ସୌନ୍ଦର୍ଯ୍ୟ ଅଟେ।"
+},
+{
+"title": "28. 10 Very Short Questions with Answers",
+"content": "1. Who is the author of the poem 'We are Seven'? Ans: William Wordsworth. \n2. How old was the little cottage girl? Ans: Eight years old. \n3. Where did the poet meet the little girl? Ans: Near a cottage/wild forest in Wales. \n4. How many brothers and sisters did the girl say they were in all? Ans: Seven in all. \n5. Where did two of her brothers live? Ans: At Conway. \n6. Where had two of her brothers gone? Ans: To sea. \n7. Where were her sister and brother buried? Ans: In the church-yard. \n8. What was the name of her sister who died first? Ans: Jane. \n9. What was the name of her brother who died after Jane? Ans: John. \n10. What is the final statement of the little girl in the poem? Ans: 'O Master! we are seven'."
+},
+{
+"title": "29. 10 Short Questions with Answers",
+"content": "1. What notable features of a simple child does the poet describe in the first stanza? Ans: The poet describes that a simple child lightly draws its breath and feels its life in every limb without knowing the true meaning of death. \n2. What was the appearance of the little girl? Ans: Her hair was thick with many curls clustered round her head, she had a rustic, woodland air, and was wildly clad with very fair eyes. \n3. Why did the girl look 'wondering' at the poet? Ans: The girl looked wondering because to her simple mind, her dead siblings were still a part of the family, and she could not understand why the poet kept counting them as five. \n4. What did the little girl do near the graves of her siblings? Ans: She often knitted her stockings, hemmed her kerchiefs, sat on the ground, sang a song, and ate her supper there. \n5. How did sister Jane suffer before her death? Ans: Sister Jane lay moaning in bed in pain until God released her and she went away. \n6. In what season did her brother John die? Ans: Her brother John died when the ground was white with snow and she could run and slide. \n7. Why did the poet say 'Twas throwing words away'? Ans: The poet said this because no matter how much he argued that the two children were dead, the little girl stubbornly insisted that they were seven. \n8. How does the poet view nature and children? Ans: William Wordsworth views children as innocent and close to nature, possessing a pure perspective on life and death that adults often fail to understand. \n9. What does the expression 'Their graves are green' imply? Ans: It implies that the graves are fresh, well-kept, and located close to her home, symbolizing a living connection with the dead. \n10. What is the main theme of the poem 'We are Seven'? Ans: The main theme is the innocence of childhood and the inability of a young mind to comprehend death as a permanent separation from loved ones."
+},
+{
+"title": "30. 10 Long Board-style Questions with Detailed Answers (Part 1)",
+"content": "1. Describe the meeting between the poet and the little cottage girl. \nIntroduction: William Wordsworth's poem 'We are Seven' presents a touching encounter between an adult poet and an eight-year-old rustic girl. \nExplanation: While walking in the countryside, the poet meets a charming little cottage girl. Out of curiosity, he asks her how many brothers and sisters she has. The girl innocently replies that they are seven in all. When the poet asks about their whereabouts, she explains that two live at Conway, two have gone to sea, and two lie buried in the church-yard. The poet gets puzzled and tries to convince her that since two are dead, they are only five. However, the little girl firmly maintains her stand. \nConclusion: This meeting highlights the contrasting views of an adult and a child regarding death and family bonds. \n\n2. Explain the little girl's perception of death as portrayed in the poem. \nIntroduction: The poem beautifully explores how children view death differently from adults. \nExplanation: For the adult poet, death means the end of life and permanent separation, which is why he insists that the girl's family has only five living members. However, the eight-year-old girl does not view death as separation. To her, her deceased sister Jane and brother John are still very much a part of her daily life. She visits their graves, knits, sings, and even eats her supper beside them. \nConclusion: The child's innocent mind bridges the gap between life and death through pure love and memory. \n\n3. How does the poet try to convince the girl that they are only five? \nIntroduction: Logic and arithmetic form the basis of the adult's argument in the poem. \nExplanation: When the little girl tells the poet that two of her siblings lie in the church-yard, the poet immediately applies mathematical logic. He points out that since two are buried under the church-yard tree and she and her other siblings are alive and running about, they can only be five in total. He repeats his question and uses arguments to make her understand that dead people cannot be counted among the living. \nConclusion: Despite the adult's logical reasoning, the child remains unaffected and sticks to her belief. \n\n4. Describe the daily association of the little girl with her dead brother and sister. \nIntroduction: The little girl's connection with her dead siblings is intimate and touching. \nExplanation: The girl explains to the poet that the graves of Jane and John are green and located just twelve steps from her mother's door. She spends her time near them by knitting her stockings and hemming her kerchiefs on the ground. She even sits there to sing songs to them. Furthermore, after sunset, she takes her small porringer and eats her supper right by their graves. \nConclusion: Her actions show a complete lack of fear or alienation regarding death, treating her siblings as if they were still alive. \n\n5. What light does the poem throw on the character of the eight-year-old girl? \nIntroduction: The little cottage girl is the central figure of Wordsworth's poem, embodying rustic innocence. \nExplanation: She possesses a 'rustic, woodland air' and is wildly and simply clad. Her hair is full of curls, and her eyes are very fair. Intellectually and emotionally, she is pure and uncorrupted by worldly complications. She is deeply affectionate, steadfast in her beliefs, and unintimidated by the adult poet's questioning. Her innocent persistence shows her unwavering love for her family. \nConclusion: The girl stands as a symbol of childhood purity and emotional integrity in Wordsworth's poetry."
+},
+{
+"title": "31. 10 Long Board-style Questions with Detailed Answers (Part 2)",
+"content": "6. Discuss the contrast between the adult's perspective and the child's perspective in 'We are Seven'. \nIntroduction: The central conflict of the poem lies in the differing viewpoints of the adult poet and the child. \nExplanation: The adult poet represents worldly wisdom, logic, and the conventional understanding of death as a permanent loss and separation. He relies on counting numbers and physical presence. On the other hand, the child represents uncorrupted innocence and spiritual oneness. She does not recognize death as an absolute barrier; for her, love transcends physical death, and her dead siblings remain an active part of her life and family. \nConclusion: The poet ultimately yields to the child's intuitive wisdom, recognizing the beauty of her perspective. \n\n7. Write a detailed summary of the poem 'We are Seven'. \nIntroduction: 'We are Seven' is a lyrical masterpiece by William Wordsworth that explores childhood innocence and mortality. \nExplanation: The poem narrates a conversation between the poet and an eight-year-old girl living near a church-yard. When asked about her family size, the girl insists they are seven brothers and sisters. She lists their locations, including two who are dead and buried in the church-yard. The poet repeatedly argues that two dead members cannot be counted, reducing their number to five. However, the girl calmly describes how she spends her time by their graves, eating and singing. \nConclusion: The poem concludes with the child's unyielding assertion, 'O Master! we are seven', leaving a lasting emotional impact on the reader. \n\n8. How does the poet describe the physical appearance and surroundings of the little girl? \nIntroduction: Wordsworth creates a vivid and picturesque image of the child and her natural environment. \nExplanation: The poet meets the girl near a cottage and notes her rustic and woodland air. She is wildly clad, has a thick mass of curls clustered around her head, and possesses very fair eyes that gladdened the poet's heart. Her home is near the church-yard where her siblings lie buried. The graves are green, located twelve steps from her mother's door, surrounded by nature, making the setting serene and peaceful. \nConclusion: The natural setting enhances the pure and unaffected charm of the little girl. \n\n9. Explain the significance of the closing lines of the poem. \nIntroduction: The ending of 'We are Seven' encapsulates the core message and emotional climax of the poem. \nExplanation: In the final stanzas, the poet reminds the girl that her two siblings are dead and their spirits are in heaven. However, his words are described as 'throwing words away'. The little girl refuses to alter her stance and repeats, 'Nay, we are seven!' The poet's logical persuasion fails against the unshakeable emotional and spiritual conviction of the child. \nConclusion: The closing lines powerfully emphasize that children possess a profound, intuitive understanding of eternal love and unity that surpasses adult logic. \n\n10. Why is William Wordsworth regarded as a poet of nature and simple rustic life through this poem? \nIntroduction: William Wordsworth's poetry is deeply rooted in nature and the lives of simple, rural folk. \nExplanation: In 'We are Seven', the poet chooses an ordinary cottage girl from the countryside as his subject rather than a grand historical figure. He highlights her close communion with nature—playing near graves, eating outdoors, and viewing life and death as an integrated continuum. The language is simple, lyrical, and closely tied to natural imagery. \nConclusion: Through this poem, Wordsworth successfully establishes how nature and rustic simplicity nurture pure human emotions and spiritual truths."
+}
 ]
