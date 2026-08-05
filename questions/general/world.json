@@ -1,602 +1,866 @@
 [
-{
-"questionEnglish": "Which river is known as the lifeline of Odisha and originates from the Chotanagpur Plateau?",
-"questionOdia": "କେଉଁ ନଦୀକୁ ଓଡ଼ିଶାର ଜୀବନରେଖା କୁହାଯାଏ ଏବଂ ଏହାର ଉତ୍ପତ୍ତି ଛୋଟନାଗପୁର ମାଳଭୂମିରୁ ହୋଇଛି?",
-"options": [
-"ମହାନଦୀ",
-"ବ୍ରାହ୍ମଣୀ",
-"ବୈତରଣୀ",
-"ଋଷିକୂଲ୍ୟା"
-],
-"answer": "ମହାନଦୀ",
-"explanation": "ମହାନଦୀ ଓଡ଼ିଶାର ସବୁଠାରୁ ବଡ଼ ନଦୀ ଏବଂ ଏହାକୁ ରାଜ୍ୟର ଜୀବନରେଖା କୁହାଯାଏ । ଏହା ଛୋଟନାଗପୁର ମାଳଭୂମିରୁ ବାହାରି ଓଡ଼ିଶାରେ ପ୍ରବାହିତ ହେଉଛି ।"
-},
-{
-"questionEnglish": "In which district of Odisha is the famous Chilika Lake, Asia's largest brackish water lagoon, primarily located?",
-"questionOdia": "ଏସିଆର ସବୁଠାରୁ ବଡ଼ କ୍ଷାରୀୟ ଜଳ ହ୍ରଦ ଚିଲିକା ମୁଖ୍ୟତଃ ଓଡ଼ିଶାର କେଉଁ ଜିଲ୍ଲାରେ ଅବସ୍ଥିତ?",
-"options": [
-"ଖୋର୍ଦ୍ଧା, ପୁରୀ ଏବଂ ଗଞ୍ଜାମ",
-"କଟକ, ପୁରୀ ଏବଂ ବାଲେଶ୍ୱର",
-"ଭଦ୍ରକ, କେନ୍ଦ୍ରାପଡ଼ା ଏବଂ ଜଗତସିଂହପୁର",
-"ଗଞ୍ଜାମ, ଗଜପତି ଏବଂ ରାୟଗଡ଼ା"
-],
-"answer": "ଖୋର୍ଦ୍ଧା, ପୁରୀ ଏବଂ ଗଞ୍ଜାମ",
-"explanation": "ଚିଲିକା ହ୍ରଦ ଓଡ଼ିଶାର ତିନୋଟି ଜିଲ୍ଲା ଯଥା ଖୋର୍ଦ୍ଧା, ପୁରୀ ଏବଂ ଗଞ୍ଜାମ ସୀମାରେ ବିସ୍ତାରିତ ହୋଇ ରହିଛି ।"
-},
-{
-"questionEnglish": "Which mountain peak is the highest point in Odisha, located in the Koraput district?",
-"questionOdia": "ଓଡ଼ିଶାର ସବୁଠାରୁ ଉଚ୍ଚତମ ଗିରିଶୃଙ୍ଗର ନାମ କଣ ଯାହା କୋରାପୁଟ ଜିଲ୍ଲାରେ ଅବସ୍ଥିତ?",
-"options": [
-"ମହେନ୍ଦ୍ରଗିରି",
-"ଦେଓମାଳୀ",
-"ଗନ୍ଧମାର୍ଦ୍ଦନ",
-"ମଳୟଗିରି"
-],
-"answer": "ଦେଓମାଳୀ",
-"explanation": "କୋରାପୁଟ ଜିଲ୍ଲାରେ ଅବସ୍ଥିତ ଦେଓମାଳୀ ପର୍ବତ ଶୃଙ୍ଗ ଓଡ଼ିଶାର ସବୁଠାରୁ ଉଚ୍ଚତମ ସ୍ଥାନ ଅଟେ, ଯାହାର ଉଚ୍ଚତା ପ୍ରାୟ ୧୬୭୨ ମିଟର ।"
-},
-{
-"questionEnglish": "Who was the first Chief Minister of Odisha after India gained independence in 1947?",
-"questionOdia": "୧୯୪୭ ମସିହାରେ ଭାରତ ସ୍ୱାଧୀନ ହେବା ପରେ ଓଡ଼ିଶାର ପ୍ରଥମ ମୁଖ୍ୟମନ୍ତ୍ରୀ କିଏ ହୋଇଥିଲେ?",
-"options": [
-"ନବକୃଷ୍ଣ ଚୌଧୁରୀ",
-"ବିଜୁ ପଟ୍ଟନାୟକ",
-"ଡଃ ହରେକୃଷ୍ଣ ମହତାବ",
-"ମହାରାଜା କୃଷ୍ଣଚନ୍ଦ୍ର ଗଜପତି"
-],
-"answer": "ଡଃ ହରେକୃଷ୍ଣ ମହତାବ",
-"explanation": "ସ୍ୱାଧୀନତା ପରେ ଡଃ ହରେକୃଷ୍ଣ ମହତାବ ଓଡ଼ିଶାର ପ୍ରଥମ ମୁଖ୍ୟମନ୍ତ୍ରୀ (ସେତେବେଳେ ପ୍ରଧାନମନ୍ତ୍ରୀ କୁହାଯାଉଥିଲା) ଭାବେ ଦାୟିତ୍ୱ ଗ୍ରହଣ କରିଥିଲେ ।"
-},
-{
-"questionEnglish": "Which historical event in 261 BC led to the transformation of Emperor Ashoka and influenced the spread of Buddhism?",
-"questionOdia": "ଖ୍ରୀଷ୍ଟପୂର୍ବ ୨୬୧ ରେ ଘଟିଥିବା କେଉଁ ଐତିହାସିକ ଯୁଦ୍ଧ ସମ୍ରାଟ ଅଶୋକଙ୍କ ହୃଦୟ ପରିବର୍ତ୍ତନ କରିଥିଲା ଏବଂ ବୌଦ୍ଧ ଧର୍ମର ପ୍ରଚାରକୁ ପ୍ରଭାବିତ କରିଥିଲା?",
-"options": [
-"କଳିଙ୍ଗ ଯୁଦ୍ଧ",
-"ପାଟଳିପୁତ୍ର ଯୁଦ୍ଧ",
-"ତୋଷାଳି ଯୁଦ୍ଧ",
-"ଖାରବେଳ ଯୁଦ୍ଧ"
-],
-"answer": "କଳିଙ୍ଗ ଯୁଦ୍ଧ",
-"explanation": "ଖ୍ରୀଷ୍ଟପୂର୍ବ ୨୬୧ ର କଳିଙ୍ଗ ଯୁଦ୍ଧରେ ହୋଇଥିବା ଭୟାବହ ନରସଂହାର ଦେଖି ସମ୍ରାଟ ଅଶୋକ ଚଣ୍ଡାଶୋକରୁ ଧର୍ମାଶୋକରେ ପରିଣତ ହୋଇଥିଲେ ।"
-},
-{
-"questionEnglish": "Which national park in Odisha is famous for its saltwater crocodiles and mangrove ecosystem?",
-"questionOdia": "ଓଡ଼ିଶାର କେଉଁ ଜାତୀୟ ଉଦ୍ୟାନ ଏହାର ବଉଳା କୁମ୍ଭୀର ଏବଂ ହେନ୍ତାଳବନ (ମେନଗ୍ରୋଭ୍) ପରିସଂସ୍ଥା ପାଇଁ ପ୍ରସିଦ୍ଧ?",
-"options": [
-"ଶିମିଳିପାଳ ଜାତୀୟ ଉଦ୍ୟାନ",
-"ଭିତରକନିକା ଜାତୀୟ ଉଦ୍ୟାନ",
-"ଚନ୍ଦକା ହାତୀ ଅଭୟାରଣ୍ୟ",
-"କାର୍ଲାପାଟ ଅଭୟାରଣ୍ୟ"
-],
-"answer": "ଭିତରକନିକା ଜାତୀୟ ଉଦ୍ୟାନ",
-"explanation": "କେନ୍ଦ୍ରାପଡ଼ା ଜିଲ୍ଲାରେ ଅବସ୍ଥିତ ଭିତରକନିକା ଜାତୀୟ ଉଦ୍ୟାନ ଲୁଣିଆ ଜଳର କୁମ୍ଭୀର ଏବଂ ସମୃଦ୍ଧ ହେନ୍ତାଳବନ ପାଇଁ ବିଶ୍ୱ ପ୍ରସିଦ୍ଧ ।"
-},
-{
-"questionEnglish": "Who is revered as the 'Utkal Mani' (Jewel of Odisha) for his dedicated social work and contribution to Odisha's freedom movement?",
-"questionOdia": "ଓଡ଼ିଶାର ସମାଜସେବା ଏବଂ ସ୍ୱାଧୀନତା ଆନ୍ଦୋଳନରେ ଅବଦାନ ପାଇଁ କାହାକୁ 'ଉତ୍କଳ ମଣି' ଉପାଧିରେ ଭୂଷିତ କରାଯାଇଛି?",
-"options": [
-"ମଧୁସୂଦନ ଦାସ",
-"ଗୋପବନ୍ଧୁ ଦାସ",
-"ହରେକୃଷ୍ଣ ମହତାବ",
-"ଗଙ୍ଗାଧର ମେହେର"
-],
-"answer": "ଗୋପବନ୍ଧୁ ଦାସ",
-"explanation": "ପଣ୍ଡିତ ଗୋପବନ୍ଧୁ ଦାସଙ୍କ ନିଃସ୍ୱାର୍ଥପର ଜନସେବା ଏବଂ ଦେଶପ୍ରେମ ପାଇଁ ତାଙ୍କୁ ସମସ୍ତେ ଆଦରରେ 'ଉତ୍କଳ ମଣି' ବୋଲି କହନ୍ତି ।"
-},
-{
-"questionEnglish": "The famous Konark Sun Temple, also known as the Black Pagoda, was built by which ruler of the Ganga Dynasty?",
-"questionOdia": "ବ୍ଲାକ୍ ପାଗୋଡା ନାମରେ ଜଣାଶୁଣା ପ୍ରସିଦ୍ଧ କୋଣାର୍କ ସୂର୍ଯ୍ୟ ମନ୍ଦିର ଗଙ୍ଗ ବଂଶର କେଉଁ ଶାସକଙ୍କ ଦ୍ୱାରା ନିର୍ମିତ ହୋଇଥିଲା?",
-"options": [
-"ଚୋଡ଼ଗଙ୍ଗ ଦେବ",
-"ଲାଙ୍ଗୁଳା ନରସିଂହ ଦେବ",
-"ଅନଙ୍ଗଭୀମ ଦେବ",
-"ପ୍ରତାପରୁଦ୍ର ଦେବ"
-],
-"answer": "ଲାଙ୍ଗୁଳା ନରସିଂହ ଦେବ",
-"explanation": "ତ୍ରୟୋଦଶ ଶତାବ୍ଦୀରେ ଗଙ୍ଗ ବଂଶର ରାଜା ପ୍ରଥମ ନରସିଂହ ଦେବ (ଲାଙ୍ଗୁଳା ନରସିଂହ ଦେବ) କୋଣାର୍କର ସୂର୍ଯ୍ୟ ମନ୍ଦିର ନିର୍ମାଣ କରିଥିଲେ ।"
-},
-{
-"questionEnglish": "Which city of Odisha is known as the 'Silver City' due to its famous silver filigree (Tarakasi) work?",
-"questionOdia": "ଏହାର ପ୍ରସିଦ୍ଧ ରୁପା ତାରକସି କାମ ପାଇଁ ଓଡ଼ିଶାର କେଉଁ ସହରକୁ 'ସିଲଭର ସିଟି' ବା ରୁପା ସହର କୁହାଯାଏ?",
-"options": [
-"ଭୁବନେଶ୍ୱର",
-"କଟକ",
-"ବ୍ରହ୍ମପୁର",
-"ସମ୍ବଲପୁର"
-],
-"answer": "କଟକ",
-"explanation": "କଟକ ସହର ଏହାର ସୂକ୍ଷ୍ମ ଏବଂ ପାରମ୍ପରିକ ରୁପା ତାରକସି ଶିଳ୍ପ ପାଇଁ ସାରା ବିଶ୍ୱରେ ସିଲଭର ସିଟି ଭାବେ ଜଣାଶୁଣା ।"
-},
-{
-"questionEnglish": "On which date is 'Utkala Diwasa' celebrated every year to commemorate the formation of Odisha as a separate state?",
-"questionOdia": "ଓଡ଼ିଶା ଏକ ସ୍ୱତନ୍ତ୍ର ପ୍ରଦେଶ ଭାବେ ଗଠନ ହେବା ସ୍ମୃତିରେ ପ୍ରତିବର୍ଷ କେଉଁ ତାରିଖକୁ 'ଉତ୍କଳ ଦିବସ' ଭାବେ ପାଳନ କରାଯାଏ?",
-"options": [
-"ଜାନୁଆରୀ ୨୬",
-"ଅପ୍ରେଲ ୧",
-"ଅଗଷ୍ଟ ୧୫",
-"ଅକ୍ଟୋବର ୨"
-],
-"answer": "ଅପ୍ରେଲ ୧",
-"explanation": "୧୯୩୬ ମସିହା ଅପ୍ରେଲ ୧ ତାରିଖରେ ଓଡ଼ିଶା ଭାଷା ଭିତ୍ତିରେ ଏକ ସ୍ୱତନ୍ତ୍ର ରାଜ୍ୟ ଭାବେ ଗଠିତ ହୋଇଥିବାରୁ ଏହି ଦିନକୁ ଉତ୍କଳ ଦିବସ କୁହାଯାଏ ।"
-},
-{
-"questionEnglish": "Which dance form of Odisha is recognized as one of the major classical dances of India?",
-"questionOdia": "ଓଡ଼ିଶାର କେଉଁ ନୃତ୍ୟ ଶୈଳୀକୁ ଭାରତର ଅନ୍ୟତମ ପ୍ରଧାନ ଶାସ୍ତ୍ରୀୟ ନୃତ୍ୟ ଭାବେ ସ୍ୱୀକୃତି ମିଳିଛି?",
-"options": [
-"ଛଉ ନୃତ୍ୟ",
-"ଓଡ଼ିଶୀ ନୃତ୍ୟ",
-"ସମ୍ବଲପୁରୀ ନୃତ୍ୟ",
-"ଘୁମୁରା ନୃତ୍ୟ"
-],
-"answer": "ଓଡ଼ିଶୀ ନୃତ୍ୟ",
-"explanation": "ଓଡ଼ିଶୀ ହେଉଛି ଓଡ଼ିଶାର ପ୍ରସିଦ୍ଧ ପାରମ୍ପରିକ ନୃତ୍ୟ ଯାହାକୁ ଭାରତ ସରକାର ଶାସ୍ତ୍ରୀୟ ନୃତ୍ୟର ମାନ୍ୟତା ଦେଇଛନ୍ତି ।"
-},
-{
-"questionEnglish": "The Hirakud Dam, one of the longest earthen dams in the world, is built across which river in Odisha?",
-"questionOdia": "ବିଶ୍ୱର ଅନ୍ୟତମ ଦୀର୍ଘତମ ମାଟି ବନ୍ଧ ଭାବେ ଜଣାଶୁଣା ହୀରାକୁଦ ବନ୍ଧ ଓଡ଼ିଶାର କେଉଁ ନଦୀ ଉପରେ ନିର୍ମିତ ହୋଇଛି?",
-"options": [
-"ବ୍ରାହ୍ମଣୀ",
-"ବୈତରଣୀ",
-"ମହାନଦୀ",
-"ସୁବର୍ଣ୍ଣରେଖା"
-],
-"answer": "ମହାନଦୀ",
-"explanation": "ସମ୍ବଲପୁର ଜିଲ୍ଲାରେ ମହାନଦୀ ଉପରେ ହୀରାକୁଦ ବନ୍ଧ ନିର୍ମାଣ କରାଯାଇଛି, ଯାହା ବନ୍ୟା ନିୟନ୍ତ୍ରଣ ଏବଂ ବିଦ୍ୟୁତ ଉତ୍ପାଦନରେ ସାହାଯ୍ୟ କରେ ।"
-},
-{
-"questionEnglish": "Who wrote the famous patriotic poem 'Bande Utkala Janani', which is the official state song of Odisha?",
-"questionOdia": "ଓଡ଼ିଶାର ରାଜ୍ୟ ସଙ୍ଗୀତ 'ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ'ର ରଚୟିତା କିଏ?",
-"options": [
-"ରାଧାନାଥ ରାୟ",
-"କାନ୍ତକବି ଲକ୍ଷ୍ମୀକାନ୍ତ ମହାପାତ୍ର",
-"ମଧୁସୂଦନ ରାଓ",
-"ଫକୀର ମୋହନ ସେନାପତି"
-],
-"answer": "କାନ୍ତକବି ଲକ୍ଷ୍ମୀକାନ୍ତ ମହାପାତ୍ର",
-"explanation": "କାନ୍ତକବି ଲକ୍ଷ୍ମୀକାନ୍ତ ମହାପାତ୍ରଙ୍କ ଦ୍ୱାରା ରଚିତ 'ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ' ଗୀତକୁ ଓଡ଼ିଶା ସରକାର ଆନୁଷ୍ଠାନିକ ଭାବେ ରାଜ୍ୟ ସଙ୍ଗୀତ ମାନ୍ୟତା ଦେଇଛନ୍ତି ।"
-},
-{
-"questionEnglish": "Which district is the largest by total land area in the state of Odisha?",
-"questionOdia": "ଭୌଗୋଳିକ କ୍ଷେତ୍ରଫଳ ଦୃଷ୍ଟିରୁ ଓଡ଼ିଶାର ସବୁଠାରୁ ବଡ଼ ଜିଲ୍ଲା କେଉଁଟି?",
-"options": [
-"ମୟୂରଭଞ୍ଜ",
-"ଗଞ୍ଜାମ",
-"ସୁନ୍ଦରଗଡ଼",
-"କୋରାପୁଟ"
-],
-"answer": "ମୟୂରଭଞ୍ଜ",
-"explanation": "ଓଡ଼ିଶାର ୩୦ଟି ଜିଲ୍ଲା ମଧ୍ୟରୁ ମୟୂରଭଞ୍ଜ ଜିଲ୍ଲାର କ୍ଷେତ୍ରଫଳ ସବୁଠାରୁ ଅଧିକ ଅଟେ ।"
-},
-{
-"questionEnglish": "Which district of Odisha has the highest population according to the latest census records?",
-"questionOdia": "ଜନସଂଖ୍ୟା ଦୃଷ୍ଟିରୁ ଓଡ଼ିଶାର ସବୁଠାରୁ ବଡ଼ ବା ସର୍ବାଧିକ ଜନସଂଖ୍ୟା ବିଶିଷ୍ଟ ଜିଲ୍ଲା କେଉଁଟି?",
-"options": [
-"ଖୋର୍ଦ୍ଧା",
-"ଗଞ୍ଜାମ",
-"କଟକ",
-"ବାଲେଶ୍ୱର"
-],
-"answer": "ଗଞ୍ଜାମ",
-"explanation": "ଓଡ଼ିଶାର ସମସ୍ତ ଜିଲ୍ଲା ମଧ୍ୟରେ ଗଞ୍ଜାମ ଜିଲ୍ଲାରେ ସର୍ବାଧିକ ଲୋକ ବାସ କରନ୍ତି ।"
-},
-{
-"questionEnglish": "Who is considered the father of modern Odia literature and wrote the famous novel 'Chha Mana Atha Guntha'?",
-"questionOdia": "କାହାକୁ ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ଜନକ କୁହାଯାଏ ଏବଂ ସିଏ ପ୍ରସିଦ୍ଧ ଉପନ୍ୟାସ 'ଛମାଣ ଆଠଗୁଣ୍ଠ' ରଚନା କରିଥିଲେ?",
-"options": [
-"ଗୋପୀନାଥ ମହାନ୍ତି",
-"ଫକୀର ମୋହନ ସେନାପତି",
-"ସାଚି ରାଉତରାୟ",
-"ସୁରେନ୍ଦ୍ର ମହାନ୍ତି"
-],
-"answer": "ଫକୀର ମୋହନ ସେନାପତି",
-"explanation": "ବ୍ୟାସକବି ଫକୀର ମୋହନ ସେନାପତିଙ୍କୁ ଆଧୁନିକ ଓଡ଼ିଆ କଥା ସାହିତ୍ୟର ଜନକ କୁହାଯାଏ, ଯିଏ ସାମାଜିକ ବ୍ୟବସ୍ଥା ଉପରେ 'ଛମାଣ ଆଠଗୁଣ୍ଠ' ଲେଖିଥିଲେ ।"
-},
-{
-"questionEnglish": "Which ancient port of Odisha was a major center for maritime trade with Southeast Asian countries like Java and Bali?",
-"questionOdia": "ଦକ୍ଷିଣ-ପୂର୍ବ ଏସିଆର ଜାଭା, ବାଲି ଆଦି ଦ୍ୱୀପ ସହିତ ସାମୁଦ୍ରିକ ବାଣିଜ୍ୟ ପାଇଁ ଓଡ଼ିଶାର କେଉଁ ପ୍ରାଚୀନ ବନ୍ଦର ପ୍ରସିଦ୍ଧ ଥିଲା?",
-"options": [
-"ପାରାଦୀପ",
-"ଗୋପାଳପୁର",
-"ତାମ୍ରଲିପ୍ତ / ପାଲୁର",
-"ଧାମରା"
-],
-"answer": "ତାମ୍ରଲିପ୍ତ / ପାଲୁର",
-"explanation": "ପ୍ରାଚୀନ କାଳରେ କଳିଙ୍ଗର ସାଧବପୁଅମାନେ ପାଲୁର ଓ ତାମ୍ରଲିପ୍ତ ଭଳି ପ୍ରାଚୀନ ବନ୍ଦରରୁ ବୋଇତ ନେଇ ଦୂର ଦେଶକୁ ବାଣିଜ୍ୟ କରିବାକୁ ଯାଉଥିଲେ ।"
-},
-{
-"questionEnglish": "Which hot spring in Odisha, located in the Khordha district, is famous for its medicinal sulfur-rich water?",
-"questionOdia": "ଖୋର୍ଦ୍ଧା ଜିଲ୍ଲାରେ ଅବସ୍ଥିତ ଓଡ଼ିଶାର କେଉଁ ପ୍ରସିଦ୍ଧ ଉଷ୍ଣପ୍ରସ୍ରବଣର ଜଳରେ ଗନ୍ଧକ ଥିବାରୁ ଏହା ଚର୍ମରୋଗ ଭଲ କରିବା ପାଇଁ ଜଣାଶୁଣା?",
-"options": [
-"ତପ୍ତପାଣି",
-"ଅତ୍ରି",
-"ତରବଲୋ",
-"ଦେଉଳଝରି"
-],
-"answer": "ଅତ୍ରି",
-"explanation": "ଖୋର୍ଦ୍ଧା ଜିଲ୍ଲାର ବାଘମାରୀ ନିକଟସ୍ଥ ଅତ୍ରି ଉଷ୍ଣପ୍ରସ୍ରବଣ ଏହାର ସଲଫର ବା ଗନ୍ଧକଯୁକ୍ତ ଗରମ ପାଣି କୁଣ୍ଡ ପାଇଁ ପ୍ରସିଦ୍ଧ ।"
-},
-{
-"questionEnglish": "Who was the legendary ruler of the Mahameghavahana dynasty who left behind the famous Hatigumpha inscription at Udayagiri?",
-"questionOdia": "ଉଦୟଗିରିଠାରେ ପ୍ରସିଦ୍ଧ ହାତୀଗୁମ୍ଫା ଶିଳାଲେଖ ଛାଡ଼ି ଯାଇଥିବା ମହାମେଘବାହନ ବଂଶର ପରାକ୍ରମୀ ରାଜା କିଏ ଥିଲେ?",
-"options": [
-"ସମ୍ରାଟ ଅଶୋକ",
-"ସମ୍ରାଟ ଖାରବେଳ",
-"ମୁକୁନ୍ଦ ଦେବ",
-"କପିଳେନ୍ଦ୍ର ଦେବ"
-],
-"answer": "ସମ୍ରାଟ ଖାରବେଳ",
-"explanation": "କଳିଙ୍ଗର ସମ୍ରାଟ ଖାରବେଳ ଜଣେ ମହାନ ଶାସକ ଥିଲେ ଏବଂ ଭୁବନେଶ୍ୱରର ଉଦୟଗିରିରେ ଥିବା ହାତୀଗୁମ୍ଫା ଅଭିଲେଖରୁ ତାଙ୍କ ବିଷୟରେ ଜଣାପଡ଼େ ।"
-},
-{
-"questionEnglish": "Which animal is the designated state animal of Odisha?",
-"questionOdia": "କେଉଁ ପଶୁକୁ ଓଡ଼ିଶାର ରାଜ୍ୟ ପଶୁ ଭାବେ ମାନ୍ୟତା ଦିଆଯାଇଛି?",
-"options": [
-"ରୟାଲ ବେଙ୍ଗଲ ଟାଇଗର",
-"ସମ୍ବର ହରିଣ",
-"ଏସୀୟ ହାତୀ",
-"ଭାରତୀୟ ଗଣ୍ଡା"
-],
-"answer": "ସମ୍ବର ହରିଣ",
-"explanation": "ସମ୍ବର ହରିଣ (Sambar Deer) ହେଉଛି ଓଡ଼ିଶାର ସରକାରୀ ଭାବେ ସ୍ୱୀକୃତ ରାଜ୍ୟ ପଶୁ ।"
-},
-{
-"questionEnglish": "Which beach in Odisha is highly crucial as the world's largest nesting ground for Olive Ridley sea turtles?",
-"questionOdia": "ଓଡ଼ିଶାର କେଉଁ ବେଳାଭୂମି ଅଲିଭ୍ ରିଡ୍‌ଲେ ସାମୁଦ୍ରିକ କାଉଁଶିଆ କଇଁଛମାନଙ୍କର ପୃଥିବୀର ସବୁଠାରୁ ବଡ଼ ଅଣ୍ଡାଦାନ ସ୍ଥଳୀ ଭାବେ ଜଣାଶୁଣା?",
-"options": [
-"ପୁରୀ ବେଳାଭୂମି",
-"ଗହୀରମଥା ବେଳାଭୂମି",
-"ଗୋପାଳପୁର ବେଳାଭୂମି",
-"ଚାନ୍ଦିପୁର ବେଳାଭୂମି"
-],
-"answer": "ଗହୀରମଥା ବେଳାଭୂମି",
-"explanation": "କେନ୍ଦ୍ରାପଡ଼ା ଜିଲ୍ଲାର ପ୍ରସିଦ୍ଧ ଗହୀରମଥା ସାମୁଦ୍ରିକ ଅଭୟାରଣ୍ୟ ବେଳାଭୂମିକୁ ପ୍ରତିବର୍ଷ ଲକ୍ଷ ଲକ୍ଷ ଅଲିଭ୍ ରିଡ୍‌ଲେ କଇଁଛ ଅଣ୍ଡା ଦେବାକୁ ଆସନ୍ତି ।"
-},
-{
-"questionEnglish": "Who was the first Odia writer to receive the prestigious Jnanpith Award for literature?",
-"questionOdia": "ସାହିତ୍ୟ ପାଇଁ ସର୍ବୋଚ୍ଚ ସମ୍ମାନଜନକ ଜ୍ଞାନପୀଠ ପୁରସ୍କାର ପାଇଥିବା ପ୍ରଥମ ଓଡ଼ିଆ ଲେଖକ କିଏ?",
-"options": [
-"ସଚ୍ଚିଦାନନ୍ଦ ରାଉତରାୟ",
-"ଗୋପୀନାଥ ମହାନ୍ତି",
-"ସୀତାକାନ୍ତ ମହାପାତ୍ର",
-"ପ୍ରତିଭା ରାୟ"
-],
-"answer": "ଗୋପୀନାଥ ମହାନ୍ତି",
-"explanation": "୧୯୭୩ ମସିହାରେ ତାଙ୍କର ପ୍ରସିଦ୍ଧ ଉପନ୍ୟାସ 'ମାଟିମଟାଳ' ପାଇଁ ଗୋପୀନାଥ ମହାନ୍ତି ପ୍ରଥମ ଓଡ଼ିଆ ଭାବେ ଜ୍ଞାନପୀଠ ପୁରସ୍କାର ପାଇଥିଲେ ।"
-},
-{
-"questionEnglish": "Which temple in Bhubaneswar is the largest and considered a masterpiece of Kalinga architecture?",
-"questionOdia": "ଭୁବନେଶ୍ୱରରେ ଅବସ୍ଥିତ କେଉଁ ମନ୍ଦିର ସବୁଠାରୁ ବଡ଼ ଏବଂ କଳିଙ୍ଗ ସ୍ଥାପତ୍ୟ କଳାର ଏକ ଶ୍ରେଷ୍ଠ ନିଦର୍ଶନ ଅଟେ?",
-"options": [
-"ମୁକ୍ତେଶ୍ୱର ମନ୍ଦିର",
-"ରାଜାରାଣୀ ମନ୍ଦିର",
-"ଲିଙ୍ଗରାଜ ମନ୍ଦିର",
-"ଅନନ୍ତ ବାସୁଦେବ ମନ୍ଦିର"
-],
-"answer": "ଲିଙ୍ଗରାଜ ମନ୍ଦିର",
-"explanation": "ଏକାମ୍ର କ୍ଷେତ୍ର ଭୁବନେଶ୍ୱରର ପ୍ରଭୁ ଲିଙ୍ଗରାଜ ମନ୍ଦିର ହେଉଛି ସେଠାକାର ସବୁଠାରୁ ଉଚ୍ଚ ଏବଂ ବୃହତ୍ତମ ମନ୍ଦିର ।"
-},
-{
-"questionEnglish": "The unique sea phenomenon where the water recedes up to 5 kilometers during low tide happens at which beach in Odisha?",
-"questionOdia": "ଭଟ୍ଟା ସମୟରେ ସମୁଦ୍ର ପାଣି ପ୍ରାୟ ୫ କିଲୋମିଟର ପଛକୁ ଚାଲିଯାଉଥିବା ପ୍ରାକୃତିକ ଦୃଶ୍ୟ ଓଡ଼ିଶାର କେଉଁ ଅଦ୍ଭୁତ ବେଳାଭୂମିରେ ଦେଖିବାକୁ ମିଳେ?",
-"options": [
-"ଗୋପାଳପୁର",
-"ଚାନ୍ଦିପୁର",
-"ପୁରୀ",
-"ପାରାଦୀପ"
-],
-"answer": "ଚାନ୍ଦିପୁର",
-"explanation": "ବାଲେଶ୍ୱର ଜିଲ୍ଲାର ଚାନ୍ଦିପୁର ବେଳାଭୂମି ଏକ ଅଦ୍ଭୁତ ଲୁଚକାଳି ଖେଳୁଥିବା ସମୁଦ୍ର ପାଇଁ ପ୍ରସିଦ୍ଧ, ଯେଉଁଠି ପାଣି ଜୁଆର-ଭଟ୍ଟା ସମୟରେ ବହୁ ଦୂରକୁ ଯାଏ ଓ ଆସେ ।"
-},
-{
-"questionEnglish": "Which tribe is the largest tribal community in Odisha based on population size?",
-"questionOdia": "ଜନସଂଖ୍ୟା ଭିତ୍ତିରେ ଓଡ଼ିଶାର ସବୁଠାରୁ ବଡ଼ ଆଦିବାସୀ ସମ୍ପ୍ରଦାୟ ବା ଜନଜାତି କେଉଁଟି?",
-"options": [
-"ସନ୍ତାଳ",
-"କନ୍ଧ",
-"ମୁଣ୍ଡା",
-"ଜୁଆଙ୍ଗ"
-],
-"answer": "କନ୍ଧ",
-"explanation": "ଓଡ଼ିଶାରେ ବାସ କରୁଥିବା ଅନେକ ଆଦିବାସୀ ସମ୍ପ୍ରଦାୟ ମଧ୍ୟରୁ କନ୍ଧ (Khond) ଜନଜାତିର ସଂଖ୍ୟା ସବୁଠାରୁ ଅଧିକ ।"
-},
-{
-"questionEnglish": "Who established the Gajapati Dynasty in Odisha during the 15th century?",
-"questionOdia": "୧୫ଶ ଶତାବ୍ଦୀରେ ଓଡ଼ିଶାରେ ସୂର୍ଯ୍ୟବଂଶୀ ଗଜପତି ରାଜବଂଶର ପ୍ରତିଷ୍ଠା କିଏ କରିଥିଲେ?",
-"options": [
-"ପ୍ରତାପରୁଦ୍ର ଦେବ",
-"କପିଳେନ୍ଦ୍ର ଦେବ",
-"ପୁରୁଷୋତ୍ତମ ଦେବ",
-"କଳାପାହାଡ଼"
-],
-"answer": "କପିଳେନ୍ଦ୍ର ଦେବ",
-"explanation": "୧୪୩୫ ଖ୍ରୀଷ୍ଟାବ୍ଦରେ କପିଳେନ୍ଦ୍ର ଦେବ ଗଜପତି ବଂଶ ପ୍ରତିଷ୍ଠା କରି କଳିଙ୍ଗ ସାମ୍ରାଜ୍ୟର ସୀମା ବହୁ ଦୂର ପର୍ଯ୍ୟନ୍ତ ବିସ୍ତାର କରିଥିଲେ ।"
-},
-{
-"questionEnglish": "Which multi-headed rocket system was successfully developed by DRDO and tested frequently from Chandipur, Odisha?",
-"questionOdia": "ଡି.ଆର.ଡି.ଓ ଦ୍ୱାରା ପ୍ରସ୍ତୁତ କେଉଁ ମଲ୍ଟି-ବାରେଲ୍ ରକେଟ୍ ପ୍ରଣାଳୀର ସଫଳ ପରୀକ୍ଷଣ ଓଡ଼ିଶାର ଚାନ୍ଦିପୁର କ୍ଷେପଣାସ୍ତ୍ର ଘାଟିରୁ ବାରମ୍ବାର କରାଯାଇଥାଏ?",
-"options": [
-"ପୃଥ୍ୱୀ",
-"ପିନାକ",
-"ଅଗ୍ନି",
-"ବ୍ରହ୍ମୋସ"
-],
-"answer": "ପିନାକ",
-"explanation": "ପିନାକ (Pinaka) ହେଉଛି ଭାରତର ଏକ ସ୍ୱଦେଶୀ ମଲ୍ଟି-ବାରେଲ୍ ରକେଟ୍ ଲଞ୍ଚର ସିଷ୍ଟମ୍ ଯାହା ଓଡ଼ିଶାର ସମୁଦ୍ର ଉପକୂଳରୁ ପରୀକ୍ଷଣ କରାଯାଏ ।"
-},
-{
-"questionEnglish": "Which place in Odisha is called the 'Tulasi Khetra' due to its association with Lord Baladevjew?",
-"questionOdia": "ପ୍ରଭୁ ବଳଦେବଜିଉଙ୍କ ମନ୍ଦିର ପାଇଁ ଓଡ଼ିଶାର କେଉଁ ସ୍ଥାନକୁ 'ତୁଳସୀ କ୍ଷେତ୍ର' ବୋଲି କୁହାଯାଏ?",
-"options": [
-"ପୁରୀ",
-"କେନ୍ଦ୍ରାପଡ଼ା",
-"ଯାଜପୁର",
-"କୋଣାର୍କ"
-],
-"answer": "କେନ୍ଦ୍ରାପଡ଼ା",
-"explanation": "ଓଡ଼ିଶାର ଧାର୍ମିକ ପରମ୍ପରାରେ କେନ୍ଦ୍ରାପଡ଼ାକୁ ପ୍ରଭୁ ବଳଭଦ୍ରଙ୍କ ବାସସ୍ଥାନ ଯୋଗୁଁ ତୁଳସୀ କ୍ଷେତ୍ର କୁହାଯାଏ ।"
-},
-{
-"questionEnglish": "What is the official state bird of Odisha?",
-"questionOdia": "ଓଡ଼ିଶାର ସରକାରୀ ରାଜ୍ୟ ପକ୍ଷୀ କିଏ?",
-"options": [
-"ମୟୂର",
-"ଭାଦଭାଦଳିଆ (ଇଣ୍ଡିଆନ୍ ରୋଲର୍)",
-"ଘରଚଟିଆ",
-"କୋଇଲି"
-],
-"answer": "ଭାଦଭାଦଳିଆ (ଇଣ୍ଡିଆନ୍ ରୋଲର୍)",
-"explanation": "ଭାଦଭାଦଳିଆ ପକ୍ଷୀ ଯାହାକୁ ଇଂରାଜୀରେ Indian Roller କୁହାଯାଏ, ତାହା ଓଡ଼ିଶାର ରାଜ୍ୟ ପକ୍ଷୀ ଅଟେ ।"
-},
-{
-"questionEnglish": "Which historic movement led by the Paikas of Khordha against the British East India Company occurred in 1817?",
-"questionOdia": "୧୮୧୭ ମସିହାରେ ବ୍ରିଟିଶ୍ ଇଷ୍ଟ ଇଣ୍ଡିଆ କମ୍ପାନୀ ବିରୁଦ୍ଧରେ ଖୋର୍ଦ୍ଧାର ପାଇକମାନଙ୍କ ଦ୍ୱାରା ହୋଇଥିବା ଐତିହାସିକ ବିଦ୍ରୋହର ନାମ କଣ?",
-"options": [
-"ସନ୍ଥାଳ ବିଦ୍ରୋହ",
-"ପାଇକ ବିଦ୍ରୋହ",
-"ସିପାହୀ ବିଦ୍ରୋହ",
-"ଲକ୍ଷ୍ମଣ ନାୟକ ବିଦ୍ରୋହ"
-],
-"answer": "ପାଇକ ବିଦ୍ରୋହ",
-"explanation": "୧٨୧୭ ମସିହାରେ ବକ୍ସି ଜଗବନ୍ଧୁଙ୍କ ନେତୃତ୍ୱରେ ବ୍ରିଟିଶ ସରକାରଙ୍କ ବିରୋଧରେ ସଶସ୍ତ୍ର ପାଇକ ବିଦ୍ରୋହ ସଂଗଠିତ ହୋଇଥିଲା ।"
-},
-{
-"questionEnglish": "Which district is famous for its handloom product called the 'Sambalpuri Saree' and holds an international reputation?",
-"questionOdia": "ହସ୍ତତନ୍ତ ବସ୍ତ୍ର 'ସମ୍ବଲପୁରୀ ଶାଢ଼ୀ' ପାଇଁ କେଉଁ ଅଞ୍ଚଳ ବିଶ୍ୱପ୍ରସିଦ୍ଧ ଏବଂ ଏହାର ବାନ୍ଧକଳା ପାଇଁ ଜଣାଶୁଣା?",
-"options": [
-"ବରଗଡ଼ ଏବଂ ସମ୍ବଲପୁର",
-"କଟକ ଏବଂ ଭଦ୍ରକ",
-"ଗଞ୍ଜାମ ଏବଂ ପୁରୀ",
-"କୋରାପୁଟ ଏବଂ ବଲାଙ୍ଗୀର"
-],
-"answer": "ବରଗଡ଼ ଏବଂ ସମ୍ବଲପୁର",
-"explanation": "ପଶ୍ଚିମ ଓଡ଼ିଶାର ବରଗଡ଼ ଓ ସମ୍ବଲପୁର ଅଞ୍ଚଳ ଏହାର ପାରମ୍ପରିକ ଇକାତ ବା ବାନ୍ଧ ସମ୍ବଲପୁରୀ ଶାଢ଼ୀ ପାଇଁ ପ୍ରସିଦ୍ଧ ।"
-},
-{
-"questionEnglish": "Who is recognized as the first martyr of the freedom struggle in Odisha, hanged by the British in 1806?",
-"questionOdia": "୧୮୦୬ ମସିହାରେ ବ୍ରିଟିଶମାନଙ୍କ ଦ୍ୱାରା ଫାଶୀ ପାଇଥିବା ଓଡ଼ିଶାର ପ୍ରଥମ ସ୍ୱାଧୀନତା ସଂଗ୍ରାମୀ ଶହୀଦ କିଏ ଥିଲେ?",
-"options": [
-"ବୀର ସୁରେନ୍ଦ୍ର ସାଏ",
-"ଜୟୀ ରାଜଗୁରୁ",
-"ଲକ୍ଷ୍ମଣ ନାୟକ",
-"ବାଜି ରାଉତ"
-],
-"answer": "ଜୟୀ ରାଜଗୁରୁ",
-"explanation": "ଖୋର୍ଦ୍ଧା ରାଜାଙ୍କ ମନ୍ତ୍ରୀ ଜୟକୃଷ୍ଣ ରାଜଗୁରୁ (ଜୟୀ ରାଜଗୁରୁ) ବ୍ରିଟିଶଙ୍କ ବିରୋଧରେ ଲଢ଼ି ପ୍ରଥମେ ଶହୀଦ ହୋଇଥିଲେ ।"
-},
-{
-"questionEnglish": "Which island in Odisha houses the missile testing facility and was renamed after Dr. APJ Abdul Kalam?",
-"questionOdia": "ଓଡ଼ିଶାର କେଉଁ ଦ୍ୱୀପରେ କ୍ଷେପଣାସ୍ତ୍ର ପରୀକ୍ଷଣ କେନ୍ଦ୍ର ରହିଛି ଏବଂ ଏହାର ନାମ ଡଃ ଏ.ପି.ଜେ. ଅବଦୁଲ କଲାମଙ୍କ ନାମରେ ନାମିତ କରାଯାଇଛି?",
-"options": [
-"ହୁଇଲର ଦ୍ୱୀପ",
-"ପାରାଦୀପ ଦ୍ୱୀପ",
-"ନାଳବଣ ଦ୍ୱୀପ",
-"ଅବଦୁଲ ଦ୍ୱୀପ"
-],
-"answer": "ହୁଇଲର ଦ୍ୱୀପ",
-"explanation": "ଭଦ୍ରକ ଉପକୂଳରେ ଥିବା ପୂର୍ବତନ ହୁଇଲର ଦ୍ୱୀପକୁ ସମ୍ମାନସ୍ୱରୂପ ଡଃ ଏପିଜେ ଅବଦୁଲ କଲାମ ଦ୍ୱୀପ ନାମରେ ନାମିତ କରାଯାଇଛି ।"
-},
-{
-"questionEnglish": "Which poet is known as 'Adikabi' for composing the epic Mahabharata in the Odia language?",
-"questionOdia": "ଓଡ଼ିଆ ଭାଷାରେ ମହାନ ଗ୍ରନ୍ଥ ମହାଭାରତ ରଚନା କରିଥିବାରୁ କେଉଁ କବିଙ୍କୁ 'ଆଦିକବି' ବୋଲି କୁହାଯାଏ?",
-"options": [
-"ଜଗନ୍ନାଥ ଦାସ",
-"ସାରଳା ଦାସ",
-"ଉପେନ୍ଦ୍ର ଭଞ୍ଜ",
-"ବଳରାମ ଦାସ"
-],
-"answer": "ସାରଳା ଦାସ",
-"explanation": "୧୫ଶ ଶତାବ୍ଦୀର କବି ସାରଳା ଦାସ ଓଡ଼ିଆ ମହାଭାରତ ଲେଖି ଓଡ଼ିଆ ସାହିତ୍ୟର ମୂଳଦୁଆ ପକାଇଥିବାରୁ ତାଙ୍କୁ ଆଦିକବି କୁହାଯାଏ ।"
-},
-{
-"questionEnglish": "Which waterfall in Odisha, formed by the Machkund River, is one of the highest waterfalls in India?",
-"questionOdia": "ମାଛକୁଣ୍ଡ ନଦୀ ଦ୍ୱାରା ସୃଷ୍ଟି ହୋଇଥିବା ଓଡ଼ିଶାର କେଉଁ ପ୍ରସିଦ୍ଧ ଜଳପ୍ରପାତ ଭାରତର ଅନ୍ୟତମ ଉଚ୍ଚ ଜଳପ୍ରପାତ ଅଟେ?",
-"options": [
-"ବରେହିପାଣି",
-"ଖଣ୍ଡାଧାର",
-"ଡୁଡୁମା ଜଳପ୍ରପାତ",
-"ହରିଶଙ୍କର"
-],
-"answer": "ଡୁଡୁମା ଜଳପ୍ରପାତ",
-"explanation": "କୋରାପୁଟ ଜିଲ୍ଲାରେ ଅବସ୍ଥିତ ପ୍ରସିଦ୍ଧ ଡୁଡୁମା ଜଳପ୍ରପାତ ମାଛକୁଣ୍ଡ ନଦୀ ଉପରେ ସୃଷ୍ଟି ହୋଇଛି ଏବଂ ଏଠାରେ ଜଳବିଦ୍ୟୁତ ପ୍ରକଳ୍ପ ମଧ୍ୟ ଅଛି ।"
-},
-{
-"questionEnglish": "Who is known as the 'Grand Old Man of Odisha' and worked tirelessly for the unification of Odia-speaking tracts?",
-"questionOdia": "ଓଡ଼ିଶାର ଏକତ୍ରୀକରଣ ପାଇଁ ଅକ୍ଲାନ୍ତ ପରିଶ୍ରମ କରିଥିବା କେଉଁ ବ୍ୟକ୍ତିଙ୍କୁ 'ଉତ୍କଳ ଗୌରବ' ବା 'ଗ୍ରାଣ୍ଡ ଓଲ୍ଡ ମ୍ୟାନ୍ ଅଫ୍ ଓଡ଼ିଶା' କୁହାଯାଏ?",
-"options": [
-"ଗୋପବନ୍ଧୁ ଦାସ",
-"ମଧୁସୂଦନ ଦାସ",
-"କୃଷ୍ଣଚନ୍ଦ୍ର ଗଜପତି",
-"ରାଧାନାଥ ରାୟ"
-],
-"answer": "ମଧୁସୂଦନ ଦାସ",
-"explanation": "ଉତ୍କଳ ଗୌରବ ମଧୁସୂଦନ ଦାସ ଓଡ଼ିଶାର ପ୍ରଥମ ବାରିଷ୍ଟର ଥିଲେ ଏବଂ ସ୍ୱତନ୍ତ୍ର ଓଡ଼ିଶା ପ୍ରଦେଶ ଗଠନର ମୁଖ୍ୟ ସୂତ୍ରଧର ଥିଲେ ।"
-},
-{
-"questionEnglish": "Which sanctuary in Odisha is specially designated for the protection of elephants near Bhubaneswar?",
-"questionOdia": "ଭୁବନେଶ୍ୱର ନିକଟରେ ଅବସ୍ଥିତ କେଉଁ ଅଭୟାରଣ୍ୟଟି ମୁଖ୍ୟତଃ ହାତୀମାନଙ୍କ ସଂରକ୍ଷଣ ପାଇଁ ଉଦ୍ଦିଷ୍ଟ?",
-"options": [
-"ଶିମିଳିପାଳ",
-"ଚନ୍ଦକା-ଡମ୍ପଡ଼ା ହାତୀ ଅଭୟାରଣ୍ୟ",
-"ଭିତରକନିକା",
-"ସାତକୋଶିଆ ଗଣ୍ଡ"
-],
-"answer": "ଚନ୍ଦକା-ଡମ୍ପଡ଼ା ହାତୀ ଅଭୟାରଣ୍ୟ",
-"explanation": "ଚନ୍ଦକା ଅରଣ୍ୟ ହାତୀମାନଙ୍କର ପ୍ରାକୃତିକ ବାସସ୍ଥାନ ଏବଂ ଏହାକୁ ଏକ ସ୍ୱତନ୍ତ୍ର ହାତୀ ଅଭୟାରଣ୍ୟ ଭାବେ ଘୋଷଣା କରାଯାଇଛି ।"
-},
-{
-"questionEnglish": "In which city of Odisha is the central rice research institute (NRRI) located?",
-"questionOdia": "ଓଡ଼ିଶାର କେଉଁ ସହରରେ ଜାତୀୟ ଧାନ ଗବେଷଣା ପ୍ରତିଷ୍ଠାନ (NRRI) ଅବସ୍ଥିତ?",
-"options": [
-"ଭୁବନେଶ୍ୱର",
-"ସମ୍ବଲପୁର",
-"କଟକ",
-"ବ୍ରହ୍ମପୁର"
-],
-"answer": "କଟକ",
-"explanation": "କଟକର ବିଦ୍ୟାଧରପୁରଠାରେ ଜାତୀୟ ଧାନ ଗବେଷଣା ପ୍ରତିଷ୍ଠାନ ଅବସ୍ଥିତ, ଯେଉଁଠାରେ ଧାନର ବିଭିନ୍ନ କିସମ ଉପରେ ଗବେଷଣା କରାଯାଏ ।"
-},
-{
-"questionEnglish": "Which festival in Odisha celebrates the annual journey of Lord Jagannath and his siblings to the Gundicha Temple?",
-"questionOdia": "ପ୍ରଭୁ ଜଗନ୍ନାଥ ଏବଂ ତାଙ୍କ ଭାଇଭଉଣୀଙ୍କ ଗୁଣ୍ଡିଚା ମନ୍ଦିରକୁ ବାର୍ଷିକ ଯାତ୍ରାକୁ ଓଡ଼ିଶାରେ କେଉଁ ପ୍ରସିଦ୍ଧ ପର୍ବ ଭାବେ ପାଳନ କରାଯାଏ?",
-"options": [
-"ଦୁର୍ଗା ପୂଜା",
-"ରଥଯାତ୍ରା",
-"ଚନ୍ଦନ ଯାତ୍ରା",
-"କୁମାର ପୂର୍ଣ୍ଣିମା"
-],
-"answer": "ରଥଯାତ୍ରା",
-"explanation": "ଆଷାଢ଼ ଶୁକ୍ଳ ଦ୍ୱିତୀୟା ତିଥିରେ ବିଶ୍ୱପ୍ରସିଦ୍ଧ ଶ୍ରୀଗୁଣ୍ଡିଚା ବା ରଥଯାତ୍ରା ଅନୁଷ୍ଠିତ ହୁଏ, ଯେଉଁଥିରେ ମହାପ୍ରଭୁ ବଡ଼ଦାଣ୍ଡକୁ ଓହ୍ଲାଇ ଆସନ୍ତି ।"
-},
-{
-"questionEnglish": "Which ruler of the Somavamsi dynasty constructed the magnificent Lingaraj Temple in the 11th century?",
-"questionOdia": "୧୧ଶ ଶତାବ୍ଦୀରେ ସୋମବଂଶର କେଉଁ ଶାସକ ଭୁବନେଶ୍ୱରର ପ୍ରସିଦ୍ଧ ଲିଙ୍ଗରାଜ ମନ୍ଦିରର ନିର୍ମାଣ କାର୍ଯ୍ୟ ଆରମ୍ଭ କରିଥିଲେ?",
-"options": [
-"ଯଯାତି କେଶରୀ",
-"ଲଲାଟେନ୍ଦୁ କେଶରୀ",
-"ଜନମେଜୟ",
-"ଉଦ୍ୟୋତ କେଶରୀ"
-],
-"answer": "ଯଯାତି କେଶରୀ",
-"explanation": "ସୋମବଂଶୀ ରାଜା ପ୍ରଥମ ଯଯାତି କେଶରୀ ମନ୍ଦିର ନିର୍ମାଣ ଆରମ୍ଭ କରିଥିଲେ ଏବଂ ପରବର୍ତ୍ତୀ ରାଜାମାନଙ୍କ ଦ୍ୱାରା ଏହା ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଥିଲା ।"
-},
-{
-"questionEnglish": "Which compilation of devotional poems by Jagannath Das is a household holy text across Odisha?",
-"questionOdia": "ଅତିବଡ଼ି ଜଗନ୍ନାଥ ଦାସଙ୍କ ଦ୍ୱାରା ରଚିତ କେଉଁ ପବିତ୍ର ଗ୍ରନ୍ଥ ଓଡ଼ିଶାର ପ୍ରତିଟି ଘରେ ଭାଗବତ ଟୁଙ୍ଗିରେ ପୂଜା ଓ ପାଠ କରାଯାଏ?",
-"options": [
-"ଓଡ଼ିଆ ରାମାୟଣ",
-"ଓଡ଼ିଆ ଭାଗବତ",
-"ଚଣ୍ଡୀ ପୁରାଣ",
-"ଲକ୍ଷ୍ମୀ ପୁରାଣ"
-],
-"answer": "ଓଡ଼ିଆ ଭାଗବତ",
-"explanation": "ଜଗନ୍ନାଥ ଦାସଙ୍କ ନବାକ୍ଷରୀ ବୃତ୍ତରେ ଲିଖିତ ଓଡ଼ିଆ ଶ୍ରୀମଦ୍ ଭାଗବତ ଓଡ଼ିଶାର ସାଂସ୍କୃତିକ ଓ ଆଧ୍ୟାତ୍ମିକ ଜୀବନର ପ୍ରଧାନ ଅଙ୍ଗ ଅଟେ ।"
-},
-{
-"questionEnglish": "Which district of Odisha has the lowest literacy rate according to statistical metrics?",
-"questionOdia": "ସାକ୍ଷରତା ହାର (Literacy Rate) ଦୃଷ୍ଟିରୁ ଓଡ଼ିଶାର କେଉଁ ଜିଲ୍ଲା ସବୁଠାରୁ ପଛରେ ଅର୍ଥାତ୍ ସର୍ବନିମ୍ନ ସ୍ତରରେ ରହିଛି?",
-"options": [
-"ନବରଙ୍ଗପୁର",
-"ମାଲକାନଗିରି",
-"ରାୟଗଡ଼ା",
-"କନ୍ଧମାଳ"
-],
-"answer": "ମାଲକାନଗିରି",
-"explanation": "ଜନଗଣନା ତଥ୍ୟ ଅନୁସାରେ ଓଡ଼ିଶାର ମାଲକାନଗିରି ଜିଲ୍ଲାରେ ସାକ୍ଷରତା ହାର ଅନ୍ୟ ସମସ୍ତ ଜିଲ୍ଲା ଅପେକ୍ଷା ସର୍ବନିମ୍ନ ଅଟେ ।"
-},
-{
-"questionEnglish": "What is the official flower designated to represent the cultural heritage of Odisha?",
-"questionOdia": "ଓଡ଼ିଶାର ରାଜ୍ୟ ସଂସ୍କୃତି ଓ ଐତିହ୍ୟକୁ ପ୍ରତିନିଧିତ୍ୱ କରୁଥିବା ରାଜ୍ୟ ଫୁଲଟିର ନାମ କଣ?",
-"options": [
-"ପଦ୍ମ",
-"ଅଶୋକ ଫୁଲ",
-"କମଳ",
-"ଟଗର"
-],
-"answer": "ଅଶୋକ ଫୁଲ",
-"explanation": "ଅଶୋକ ଫୁଲ (Ashoka Flower) କୁ ଓଡ଼ିଶା ସରକାର ସରକାରୀ ଭାବେ ରାଜ୍ୟ ଫୁଲର ସମ୍ମାନ ଦେଇଛନ୍ତି ।"
-},
-{
-"questionEnglish": "Which prominent tribal freedom fighter led a rebellion in the Koraput region and was hanged in 1943?",
-"questionOdia": "କୋରାପୁଟ ଅଞ୍ଚଳରେ ଭାରତ ଛାଡ଼ ଆନ୍ଦୋଳନ ସମୟରେ ବିଦ୍ରୋହର ନେତୃତ୍ୱ ନେଇଥିବା କେଉଁ ପ୍ରସିଦ୍ଧ ଆଦିବାସୀ ନେତାଙ୍କୁ ୧୯୪୩ ରେ ଫାଶୀ ଦିଆଯାଇଥିଲା?",
-"options": [
-"ବୀର ସୁରେନ୍ଦ୍ର ସାଏ",
-"ଲକ୍ଷ୍ମଣ ନାୟକ",
-"ବାଜି ରାଉତ",
-"ଚକରା ବିଷୋୟୀ"
-],
-"answer": "ଲକ୍ଷ୍ମଣ ନାୟକ",
-"explanation": "ଶହୀଦ ଲକ୍ଷ୍ମଣ ନାୟକ ଜଣେ ମହାନ ଦେଶପ୍ରେମୀ ଥିଲେ, ଯିଏ ବ୍ରିଟିଶ ଶାସନ ବିରୋଧରେ ଆଦିବାସୀମାନଙ୍କୁ ଏକତ୍ରିତ କରି ବଳିଦାନ ଦେଇଥିଲେ ।"
-},
-{
-"questionEnglish": "Which dynamic leader is widely remembered as the architect of modern industrial Odisha and former Chief Minister?",
-"questionOdia": "ଆଧୁନିକ ଓଡ଼ିଶାର ଶିଳ୍ପାୟନର ଜନକ ଏବଂ ପୂର୍ବତନ ସାହସୀ ମୁଖ୍ୟମନ୍ତ୍ରୀ ଭାବେ କାହାକୁ ସ୍ମରଣ କରାଯାଏ?",
-"options": [
-"ଜାନକୀ ବଲ୍ଲଭ ପଟ୍ଟନାୟକ",
-"ବିଜୁ ପଟ୍ଟନାୟକ",
-"ନବକୃଷ୍ଣ ଚୌଧୁରୀ",
-"ବିଶ୍ୱନାଥ ଦାସ"
-],
-"answer": "ବିଜୁ ପଟ୍ଟନାୟକ",
-"explanation": "ପ୍ରବାଦ ପୁରୁଷ ବିଜୁ ପଟ୍ଟନାୟକ ଓଡ଼ିଶାରେ ପାରାଦୀପ ବନ୍ଦର, ହାଲ୍ (HAL) ଭଳି ଅନେକ ବଡ଼ ପ୍ରକଳ୍ପ ପ୍ରତିଷ୍ଠା କରି ଶିଳ୍ପ ସମୃଦ୍ଧ କରିଥିଲେ ।"
-},
-{
-"questionEnglish": "Which sweet delicacy from Odisha recently received the Geographical Indication (GI) tag, solidifying its historical origin?",
-"questionOdia": "ଓଡ଼ିଶାର କେଉଁ ପାରମ୍ପରିକ ମିଠାକୁ ଏହାର ଐତିହାସିକ ଉତ୍ପତ୍ତି ପାଇଁ ଭାରତ ସରକାରଙ୍କ ଦ୍ୱାରା ଭୌଗୋଳିକ ସୂଚକାଙ୍କ (GI Tag) ପ୍ରଦାନ କରାଯାଇଛି?",
-"options": [
-"ଛେନାପୋଡ଼",
-"ଓଡ଼ିଶା ରସଗୋଲା",
-"ରସାବଳି",
-"ଛେନାଝିଲି"
-],
-"answer": "ଓଡ଼ିଶା ରସଗୋଲା",
-"explanation": "ସୁଦୀର୍ଘ ଆଇନଗତ ପ୍ରକ୍ରିୟା ପରେ 'ଓଡ଼ିଶା ରସଗୋଲା'କୁ ଶ୍ରୀମନ୍ଦିର ଜଗନ୍ନାଥ ସଂସ୍କୃତି ସହିତ ଜଡ଼ିତ ପ୍ରମାଣ ଆଧାରରେ ଜି.ଆଇ ଟ୍ୟାଗ୍ ମିଳିଛି ।"
-},
-{
-"questionEnglish": "Which steel city of Odisha was built as India's first public sector integrated steel plant with German collaboration?",
-"questionOdia": "ଜର୍ମାନୀର ସହାୟତାରେ ନିର୍ମିତ ଭାରତର ପ୍ରଥମ ସରକାରୀ ସ୍ତରର ସମନ୍ୱିତ ଇସ୍ପାତ କାରଖାନା ଓଡ଼ିଶାର କେଉଁ ସହରରେ ପ୍ରତିଷ୍ଠା ହୋଇଥିଲା?",
-"options": [
-"ଝାରସୁଗୁଡ଼ା",
-"ରାଉରକେଲା",
-"ଯାଜପୁର",
-"ଅନୁଗୋଳ"
-],
-"answer": "ରାଉରକେଲା",
-"explanation": "ସୁନ୍ଦରଗଡ଼ ଜିଲ୍ଲାର ରାଉରକେଲାଠାରେ ୧୯୫୦ ଦଶକରେ ଓଡ଼ିଶାର ସର୍ବପ୍ରଥମ ବୃହତ୍ ଇସ୍ପାତ ସହର ସ୍ଥାପନ କରାଯାଇଥିଲା ।"
-},
-{
-"questionEnglish": "Who is the youngest freedom struggle martyr of India, who refused to row British soldiers across the Brahmani River at the age of twelve?",
-"questionOdia": "ମାତ୍ର ୧୨ ବର୍ଷ ବୟସରେ ବ୍ରାହ୍ମଣୀ ନଦୀରେ ବ୍ରିଟିଶ ସୈନ୍ୟମାନଙ୍କୁ ଡଙ୍ଗା ପାରି କରିବାକୁ ମନା କରି ଶହୀଦ ହୋଇଥିବା ଭାରତର ସବୁଠାରୁ କନିଷ୍ଠ ଶହୀଦ କିଏ?",
-"options": [
-"ବାଜି ରାଉତ",
-"ଲକ୍ଷ୍ମଣ ନାୟକ",
-"ବୀର ସୁରେନ୍ଦ୍ର ସାଏ",
-"ଚକି ଖୁଣ୍ଟିଆ"
-],
-"answer": "ବାଜି ରାଉତ",
-"explanation": "ଢେଙ୍କାନାଳର ଶହୀଦ ବାଜି ରାଉତ ମାତ୍ର ବାର ବର୍ଷ ବୟସରେ ଦେଶ ପାଇଁ ନିଜ ପ୍ରାଣବଳି ଦେଇ ଅମର ଶହୀଦ ପାଲଟିଥିଲେ ।"
-},
-{
-"questionEnglish": "Which place in Jajpur district is known as the 'Biraja Khetra' and is a major Shakti Peetha of Goddess Durga?",
-"questionOdia": "ଯାଜପୁର ଜିଲ୍ଲାର କେଉଁ ପ୍ରସିଦ୍ଧ ପୀଠକୁ ମା' ବିରଜାଙ୍କ ମନ୍ଦିର ଯୋଗୁଁ 'ବିରଜା କ୍ଷେତ୍ର' ବୋଲି ଆଖ୍ୟା ଦିଆଯାଇଛି?",
-"options": [
-"କଟକ",
-"ଯାଜପୁର ଟାଉନ୍",
-"ଘଟଗାଁ",
-"କାକଟପୁର"
-],
-"answer": "ଯାଜପୁର ଟାଉନ୍",
-"explanation": "ଯାଜପୁରର ଅଧିଷ୍ଠାତ୍ରୀ ଦେବୀ ମା' ବିରଜା ଅଟନ୍ତି, ତେଣୁ ସେହି ସମଗ୍ର ପବିତ୍ର ଅଞ୍ଚଳକୁ ବିରଜା କ୍ଷେତ୍ର କୁହାଯାଏ ।"
-},
-{
-"questionEnglish": "Which historical fort in Cuttack, built during the Ganga Dynasty, stands as a testimony to Odisha's medieval military strength?",
-"questionOdia": "ଗଙ୍ଗ ବଂଶ ସମୟରେ କଟକରେ ନିର୍ମିତ କେଉଁ ଦୁର୍ଗ ଓଡ଼ିଶାର ମଧ୍ୟଯୁଗୀୟ ସାମରିକ ଶକ୍ତି ଓ ଗୌରବର ସାକ୍ଷୀ ବହନ କରେ?",
-"options": [
-"ଶିଶୁପାଳଗଡ଼",
-"ବାରବାଟୀ ଦୁର୍ଗ",
-"ଚୁଡ଼ଙ୍ଗଗଡ଼",
-"ରାୟବଣିଆ ଦୁର୍ଗ"
-],
-"answer": "ବାରବାଟୀ ଦୁର୍ଗ",
-"explanation": "କଟକର ପ୍ରସିଦ୍ଧ ବାରବାଟୀ ଦୁର୍ଗ ଏହାର ନଅ ମହଲା ପ୍ରାସାଦ ଓ ପ୍ରତିରକ୍ଷା ପରିଖା ପାଇଁ ପ୍ରାଚୀନ ଓ ମଧ୍ୟଯୁଗୀୟ ଇତିହାସରେ ପ୍ରସିଦ୍ଧ ଥିଲା ।"
-}
+  {
+    "questionEnglish": "Which is the largest ocean in the world by surface area and volume?",
+    "questionOdia": "ପୃଥିବୀର ପୃଷ୍ଠଭୂମି କ୍ଷେତ୍ରଫଳ ଏବଂ ଆୟତନ ଅନୁସାରେ ସବୁଠାରୁ ବଡ଼ ମହାସାଗର କେଉଁଟି?",
+    "options": [
+      "ପ୍ରଶାନ୍ତ ମହାସାଗର",
+      "ଅଟଲାଣ୍ଟିକ ମହାସାଗର",
+      "ଭାରତ ମହାସାଗର",
+      "ଉତ୍ତର ମେରୁ ମହାସାଗର"
+    ],
+    "answer": "ପ୍ରଶାନ୍ତ ମହାସାଗର",
+    "explanation": "ପ୍ରଶାନ୍ତ ମହାସାଗର ପୃଥିବୀର ସବୁଠାରୁ ବଡ଼ ଏବଂ ଗଭୀରତମ ମହାସାଗର ଅଟେ, ଯାହା ପୃଥିବୀର ଏକ ତୃତୀୟାଂଶ ପୃଷ୍ଠକୁ ଆବୃତ କରିଥାଏ ।"
+  },
+  {
+    "questionEnglish": "Which planet in our solar system is known as the Red Planet due to the presence of iron oxide on its surface?",
+    "questionOdia": "ପୃଷ୍ଠରେ ଆଇରନ ଅକ୍ସାଇଡ୍ ଉପସ୍ଥିତି ହେତୁ ଆମ ସୌରମଣ୍ଡଳର କେଉଁ ଗ୍ରହକୁ ଲାଲ ଗ୍ରହ କୁହାଯାଏ?",
+    "options": [
+      "ମଙ୍ଗଳ ଗ୍ରହ",
+      "ଶୁକ୍ର ଗ୍ରହ",
+      "ବୃହସ୍ପତି ଗ୍ରହ",
+      "ଶନି ଗ୍ରହ"
+    ],
+    "answer": "ମଙ୍ଗଳ ଗ୍ରହ",
+    "explanation": "ମଙ୍ଗଳ ଗ୍ରହର ପୃଷ୍ଠରେ ପ୍ରଚୁର ପରିମାଣରେ ଆଇରନ ଅକ୍ସାଇଡ୍ ବା କଳଙ୍କି ଥିବାରୁ ଏହା ନାଲି ଦେଖାଯାଏ, ତେଣୁ ଏହାକୁ ଲାଲ ଗ୍ରହ କୁହାଯାଏ ।"
+  },
+  {
+    "questionEnglish": "Which is the longest river in the world, flowing through northeastern Africa?",
+    "questionOdia": "ଉତ୍ତର-ପୂର୍ବ ଆଫ୍ରିକା ଦେଇ ପ୍ରବାହିତ ହେଉଥିବା ପୃଥିବୀର ସବୁଠାରୁ ଦୀର୍ଘତମ ନଦୀ କେଉଁଟି?",
+    "options": [
+      "ନୀଳ ନଦୀ",
+      "ଆମାଜନ ନଦୀ",
+      "ୟାଙ୍ଗସି ନଦୀ",
+      "ମିସିସିପି ନଦୀ"
+    ],
+    "answer": "ନୀଳ ନଦୀ",
+    "explanation": "ନୀଳ ନଦୀ ବିଶ୍ୱର ସବୁଠାରୁ ଦୀର୍ଘତମ ନଦୀ ଅଟେ, ଯାହାର ଲମ୍ବ ପ୍ରାୟ ୬,୬୫୦ କିଲୋମିଟର ।"
+  },
+  {
+    "questionEnglish": "Which country is popularly known as the Land of the Rising Sun?",
+    "questionOdia": "କେଉଁ ଦେଶକୁ ସୂର୍ଯ୍ୟୋଦୟର ଦେଶ ଭାବରେ ଜଣାଶୁଣା କୁହାଯାଏ?",
+    "options": [
+      "ଜାପାନ",
+      "ଚୀନ",
+      "ଦକ୍ଷିଣ କୋରିଆ",
+      "ଥାଇଲ୍ୟାଣ୍ଡ"
+    ],
+    "answer": "ଜାପାନ",
+    "explanation": "ଜାପାନ ପୃଥିବୀର ପୂର୍ବ ଦିଗରେ ଅବସ୍ଥିତ ଥିବାରୁ ଏଠାରେ ସୂର୍ଯ୍ୟୋଦୟ ସବୁଠାରୁ ପ୍ରଥମେ ଦେଖାଯାଇଥାଏ, ତେଣୁ ଏହାକୁ ସୂର୍ଯ୍ୟୋଦୟର ଦେଶ କୁହାଯାଏ ।"
+  },
+  {
+    "questionEnglish": "Which is the highest mountain peak in the world, located in the Himalayas?",
+    "questionOdia": "ହିମାଳୟ ପର୍ବତମାଳାରେ ଅବସ୍ଥିତ ପୃଥିବୀର ସବୁଠାରୁ ଉଚ୍ଚତମ ପର୍ବତ ଶୃଙ୍ଗ କେଉଁଟି?",
+    "options": [
+      "ମାଉଣ୍ଟ ଏଭରେଷ୍ଟ",
+      "କେ-୨ (ଗଡୱିନ ଅଷ୍ଟିନ)",
+      "କାଞ୍ଚନଜଙ୍ଘା",
+      "ଲହୋତ୍ସେ"
+    ],
+    "answer": "ମାଉଣ୍ଟ ଏଭରେଷ୍ଟ",
+    "explanation": "ମାଉଣ୍ଟ ଏଭରେଷ୍ଟ ସମୁଦ୍ର ପତ୍ତନଠାରୁ ୮,୮୪୮.୮୬ ମିଟର ଉଚ୍ଚତା ସହିତ ବିଶ୍ୱର ସବୁଠାରୁ ଉଚ୍ଚତମ ଶୃଙ୍ଗ ଅଟେ ।"
+  },
+  {
+    "questionEnglish": "Which is the smallest country in the world both by population and total land area?",
+    "questionOdia": "ଜନସଂଖ୍ୟା ଏବଂ ମୋଟ ସ୍ଥଳଭାଗ କ୍ଷେତ୍ରଫଳ ଉଭୟ ଦୃଷ୍ଟିରୁ ବିଶ୍ୱର ସବୁଠାରୁ ଛୋଟ ଦେଶ କେଉଁଟି?",
+    "options": [
+      "ଭାଟିକାନ ସିଟି",
+      "ମୋନାକୋ",
+      "ସାନ ମାରିନୋ",
+      "ନବରୁ"
+    ],
+    "answer": "ଭାଟିକାନ ସିଟି",
+    "explanation": "ଭାଟିକାନ ସିଟି ପୃଥିବୀର ସବୁଠାରୁ ଛୋଟ ସ୍ଵାଧୀନ ଦେଶ ଅଟେ, ଯାହା ଇଟାଲୀର ରୋମ ସହର ମଧ୍ୟରେ ଅବସ୍ଥିତ ।"
+  },
+  {
+    "questionEnglish": "Which deep canyon is considered one of the seven natural wonders of the world and is located in Arizona, USA?",
+    "questionOdia": "କେଉଁ ଗଭୀର ଗଣ୍ଡକୁ ପୃଥିବୀର ସାତୋଟି ପ୍ରାକୃତିକ ଆଶ୍ଚର୍ଯ୍ୟ ମଧ୍ୟରୁ ଏକ ବୋଲି ଗଣାଯାଏ ଏବଂ ଏହା ଆମେରିକାର ଆରିଜୋନାରେ ଅବସ୍ଥିତ?",
+    "options": [
+      "ଗ୍ରାଣ୍ଡ କ୍ୟାନିୟନ",
+      "କୋଲକା କ୍ୟାନିୟନ",
+      "ଫିସ ରିଭର କ୍ୟାନିୟନ",
+      "କାଲି ଗଣ୍ଡକି ଗଣ୍ଡ"
+    ],
+    "answer": "ଗ୍ରାଣ୍ଡ କ୍ୟାନିୟନ",
+    "explanation": "କଲୋରାଡୋ ନଦୀ ଦ୍ଵାରା ସୃଷ୍ଟି ହୋଇଥିବା ଗ୍ରାଣ୍ଡ କ୍ୟାନିୟନ ଏହାର ବିଶାଳ ଆକାର ଏବଂ ରଙ୍ଗୀନ ଦୃଶ୍ୟ ପାଇଁ ବିଶ୍ୱ ପ୍ରସିଦ୍ଧ ।"
+  },
+  {
+    "questionEnglish": "Which is the largest hot desert in the world, covering most of Northern Africa?",
+    "questionOdia": "ଉତ୍ତର ଆଫ୍ରିକାର ଅଧିକାଂଶ ଭାଗକୁ ଆବୃତ କରିଥିବା ପୃଥିବୀର ସବୁଠାରୁ ବଡ଼ ଉଷ୍ଣ ମରୁଭୂମି କେଉଁଟି?",
+    "options": [
+      "ସହାରା ମରୁଭୂମି",
+      "ଥର ମରୁଭୂମି",
+      "ଗୋବି ମରୁଭୂମି",
+      "କାଲାହାରୀ ମରୁଭୂମି"
+    ],
+    "answer": "ସହାରା ମରୁଭୂମି",
+    "explanation": "ସହାରା ମରୁଭୂମି ବିଶ୍ୱର ସବୁଠାରୁ ବଡ଼ ଉଷ୍ଣ ମରୁଭୂମି ଅଟେ । ଆଣ୍ଟାର୍କଟିକା ଏବଂ ଆର୍କଟିକ ପରେ ଏହା ତୃତୀୟ ବୃହତ୍ତମ ମରୁଭୂମି ।"
+  },
+  {
+    "questionEnglish": "Which international organization was established in 1945 to maintain international peace and security?",
+    "questionOdia": "ଆନ୍ତର୍ଜାତୀୟ ଶାନ୍ତି ଏବଂ ସୁରକ୍ଷା ବଜାୟ ରଖିବା ପାଇଁ ୧୯୪୫ ମସିହାରେ କେଉଁ ଆନ୍ତର୍ଜାତୀୟ ସଂଗଠନ ପ୍ରତିଷ୍ଠା କରାଯାଇଥିଲା?",
+    "options": [
+      "ମିଳିତ ଜାତିସଂଘ (UN)",
+      "ବିଶ୍ୱ ବ୍ୟାଙ୍କ",
+      "ଆନ୍ତର୍ଜାତୀୟ ମୁଦ୍ରା ପାଣ୍ଠି (IMF)",
+      "ଉତ୍ତର ଆଟଲାଣ୍ଟିକ ସନ୍ଧି ସଂଗଠନ (NATO)"
+    ],
+    "answer": "ମିଳିତ ଜାତିସଂଘ (UN)",
+    "explanation": "ଦ୍ୱିତୀୟ ବିଶ୍ୱଯୁଦ୍ଧ ପରେ ଭବିଷ୍ୟତର ଯୁଦ୍ଧକୁ ରୋକିବା ଏବଂ ଦେଶଗୁଡ଼ିକ ମଧ୍ୟରେ ସହଯୋଗ ବୃଦ୍ଧି ପାଇଁ ମିଳିତ ଜାତିସଂଘ ଗଠନ କରାଯାଇଥିଲା ।"
+  },
+  {
+    "questionEnglish": "Which country is the largest producer of coffee in the world, dominating the global market?",
+    "questionOdia": "ବିଶ୍ୱ ବଜାରରେ ପ୍ରଭାବ ବିସ୍ତାର କରିଥିବା କଫି ଉତ୍ପାଦନରେ ପୃଥିବୀର ସବୁଠାରୁ ବଡ଼ ଦେଶ କେଉଁଟି?",
+    "options": [
+      "ବ୍ରାଜିଲ",
+      "କଲୋମ୍ବିଆ",
+      "ଭିଏତନାମ",
+      "ଇଥିଓପିଆ"
+    ],
+    "answer": "ବ୍ରାଜିଲ",
+    "explanation": "ବ୍ରାଜିଲ ବିଗତ ୧୫୦ ବର୍ଷରୁ ଅଧିକ ସମୟ ଧରି ବିଶ୍ୱରେ ସବୁଠାରୁ ଅଧିକ କଫି ଉତ୍ପାଦନ କରୁଥିବା ଦେଶ ହୋଇ ରହିଛି ।"
+  },
+  {
+    "questionEnglish": "Which imaginary line divides the Earth into the Northern and Southern Hemispheres?",
+    "questionOdia": "କେଉଁ କାଳ୍ପନିକ ରେଖା ପୃଥିବୀକୁ ଉତ୍ତର ଏବଂ ଦକ୍ଷିଣ ଗୋଲାର୍ଦ୍ଧରେ ବିଭକ୍ତ କରେ?",
+    "options": [
+      "ଭୂମଧ୍ୟରେଖା",
+      "କର୍କଟକ୍ରାନ୍ତି",
+      "ମକରକ୍ରାନ୍ତି",
+      "ମୁଖ୍ୟ ମଧ୍ୟାହ୍ନ ରେଖା"
+    ],
+    "answer": "ଭୂମଧ୍ୟରେଖା",
+    "explanation": "ଭୂମଧ୍ୟରେଖା ବା ବିଷୁବ ରେଖା ହେଉଛି ୦ ଡିଗ୍ରୀ ଅକ୍ଷାଂଶ, ଯାହା ପୃଥିବୀର କେନ୍ଦ୍ର ଦେଇ ଯାଇ ଏହାକୁ ଦୁଇଟି ସମାନ ଭାଗରେ ବାଣ୍ଟିଥାଏ ।"
+  },
+  {
+    "questionEnglish": "Which historical monument in Egypt is considered one of the Seven Wonders of the Ancient World still standing?",
+    "questionOdia": "ଇଜିପ୍ଟର କେଉଁ ଐତିହାସିକ କୀର୍ତ୍ତିସ୍ତମ୍ଭ ପ୍ରାଚୀନ ବିଶ୍ୱର ସାତୋଟି ଆଶ୍ଚର୍ଯ୍ୟ ମଧ୍ୟରୁ ଏକମାତ୍ର ଏବେ ବି ତିଷ୍ଠି ରହିଛି?",
+    "options": [
+      "ଗିଜାର ମହାନ ପିରାମିଡ୍",
+      "ବେବିଲନର ଝୁଲନ୍ତା ବଗିଚା",
+      "ଆଲେକଜାଣ୍ଡ୍ରିଆର ଆଲୋକଘର",
+      "ରୋଡସର କୋଲୋସସ"
+    ],
+    "answer": "ଗିଜାର ମହାନ ପିରାମିଡ୍",
+    "explanation": "ଗିଜାର ମହାନ ପିରାମିଡ୍ ପ୍ରାୟ ୪୫୦୦ ବର୍ଷ ପୂର୍ବେ ନିର୍ମିତ ହୋଇଥିଲା ଏବଂ ଏହା ପ୍ରାଚୀନ ସାତୋଟି ଆଶ୍ଚର୍ଯ୍ୟ ମଧ୍ୟରୁ ଆଜି ବି ବିଦ୍ୟମାନ ଅଛି ।"
+  },
+  {
+    "questionEnglish": "Which is the largest internal organ in the human body responsible for detoxification?",
+    "questionOdia": "ଶରୀରରୁ ବିଷାକ୍ତ ପଦାର୍ଥ ବାହାର କରିବା ପାଇଁ ଦାୟୀ ମାନବ ଶରୀରର ସବୁଠାରୁ ବଡ଼ ଆଭ୍ୟନ୍ତରୀଣ ଅଙ୍ଗ କେଉଁଟି?",
+    "options": [
+      "ଯକୃତ (Liver)",
+      "ହୃଦୟ (Heart)",
+      "ଫୁସଫୁସ (Lung)",
+      "ବୃକକ (Kidney)"
+    ],
+    "answer": "ଯକୃତ (Liver)",
+    "explanation": "ଯକୃତ ମାନବ ଶରୀରର ବୃହତ୍ତମ ଆଭ୍ୟନ୍ତରୀଣ ଅଙ୍ଗ ଅଟେ, ଯାହା ହଜମ ପ୍ରକ୍ରିୟା ଏବଂ ମେଟାବୋଲିଜିମରେ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଭୂମିକା ଗ୍ରହଣ କରେ ।"
+  },
+  {
+    "questionEnglish": "Which country is famous for the architectural wonder 'Machu Picchu', an ancient Incan citadel?",
+    "questionOdia": "ପ୍ରାଚୀନ ଇନକା ସଭ୍ୟତାର ସ୍ଥାପତ୍ୟ ବିସ୍ମୟ 'ମାଚୁ ପିଚୁ' ପାଇଁ କେଉଁ ଦେଶ ପ୍ରସିଦ୍ଧ?",
+    "options": [
+      "ପେରୁ",
+      "ବ୍ରାଜିଲ",
+      "ମେକ୍ସିକୋ",
+      "ଚିଲି"
+    ],
+    "answer": "ପେରୁ",
+    "explanation": "ମାଚୁ ପିଚୁ ପେରୁ ଦେଶର ଆଣ୍ଡିଜ ପର୍ବତମାଳାରେ ଅବସ୍ଥିତ ୧୫ଶ ଶତାବ୍ଦୀର ଏକ ପ୍ରସିଦ୍ଧ ଇନକା ଦୁର୍ଗ ଅଟେ ।"
+  },
+  {
+    "questionEnglish": "Which gas is most abundant in the Earth's atmosphere, making up about 78% of the air?",
+    "questionOdia": "ପୃଥିବୀର ବାୟୁମଣ୍ଡଳରେ କେଉଁ ଗ୍ୟାସ ସବୁଠାରୁ ଅଧିକ ପରିମାଣରେ ଅଛି, ଯାହା ବାୟୁର ପ୍ରାୟ ୭୮% ଭାଗ ଅଟେ?",
+    "options": [
+      "ଯବକ୍ଷାରଜାନ (Nitrogen)",
+      "ଅମ୍ଳଜାନ (Oxygen)",
+      "ଅଙ୍ଗାରକାମ୍ଳ (Carbon Dioxide)",
+      "ହାଇଡ୍ରୋଜେନ"
+    ],
+    "answer": "ଯବକ୍ଷାରଜାନ (Nitrogen)",
+    "explanation": "ପୃଥିବୀର ବାୟୁମଣ୍ଡଳରେ ପ୍ରାୟ ୭୮% ଯବକ୍ଷାରଜାନ, ୨୧% ଅମ୍ଳଜାନ ଏବଂ ବାକି ୧% ଅନ୍ୟାନ୍ୟ ଗ୍ୟାସ ରହିଛି ।"
+  },
+  {
+    "questionEnglish": "Who is credited with inventing the telephone in the year 1876?",
+    "questionOdia": "୧୮୭୬ ମସିହାରେ ଟେଲିଫୋନ ଆବିଷ୍କାର କରିବାର ଶ୍ରେୟ କାହାକୁ ଦିଆଯାଏ?",
+    "options": [
+      "ଆଲେକଜାଣ୍ଡାର ଗ୍ରାହାମ ବେଲ",
+      "ଥୋମାସ ଆଲଭା ଏଡିସନ",
+      "ନିକୋଲା ଟେସଲା",
+      "ମାର୍କୋନି"
+    ],
+    "answer": "ଆଲେକଜାଣ୍ଡାର ଗ୍ରାହାମ ବେଲ",
+    "explanation": "ଆଲେକଜାଣ୍ଡାର ଗ୍ରାହାମ ବେଲ ପ୍ରଥମ ବ୍ୟବହାରିକ ଟେଲିଫୋନର ସଫଳ ଆବିଷ୍କାର କରି ପେଟେଣ୍ଟ ହାସଲ କରିଥିଲେ ।"
+  },
+  {
+    "questionEnglish": "Which is the largest island in the world, located between the Arctic and Atlantic oceans?",
+    "questionOdia": "ଉତ୍ତର ମେରୁ ଏବଂ ଆଟଲାଣ୍ଟିକ ମହାସାଗର ମଧ୍ୟରେ ଅବସ୍ଥିତ ପୃଥିବୀର ସବୁଠାରୁ ବଡ଼ ଦ୍ଵୀପ କେଉଁଟି?",
+    "options": [
+      "ଗ୍ରୀନଲ୍ୟାଣ୍ଡ",
+      "ନ୍ୟୁ ଗିନି",
+      "ମାଡାଗାସ୍କର",
+      "ସୁମାତ୍ରା"
+    ],
+    "answer": "ଗ୍ରୀନଲ୍ୟାଣ୍ଡ",
+    "explanation": "ଗ୍ରୀନଲ୍ୟାଣ୍ଡ ଏକ ସ୍ଵାଧୀନ ଦ୍ଵୀପ ଅଞ୍ଚଳ ଅଟେ ଯାହା ଭୌଗୋଳିକ ଦୃଷ୍ଟିରୁ ଉତ୍ତର ଆମେରିକାର ଏବଂ ରାଜନୈତିକ ଦୃଷ୍ଟିରୁ ଡେନମାର୍କ ସହ ଜଡ଼ିତ ।"
+  },
+  {
+    "questionEnglish": "Which chemical element has the symbol 'Fe' derived from its Latin name Ferrum?",
+    "questionOdia": "କେଉଁ ରାସାୟନିକ ମୌଳିକର ପ୍ରତୀକ 'Fe' ଅଟେ ଯାହା ଏହାର ଲାଟିନ ନାମ ଫେରମରୁ ଆସିଛି?",
+    "options": [
+      "ଲୁହା (Iron)",
+      "ସୁନା (Gold)",
+      "ତମ୍ବା (Copper)",
+      "ରୂପା (Silver)"
+    ],
+    "answer": "ଲୁହା (Iron)",
+    "explanation": "ଲୁହାର ଲାଟିନ ନାମ ଫେରମ (Ferrum) ହୋଇଥିବାରୁ ଏହାର ରାସାୟନିକ ପ୍ରତୀକ ଭାବେ 'Fe' ବ୍ୟବହାର କରାଯାଏ ।"
+  },
+  {
+    "questionEnglish": "Which city is known as the capital of the United States of America?",
+    "questionOdia": "କେଉଁ ସହର ଆମେରିକା (United States of America) ର ରାଜଧାନୀ ଭାବରେ ଜଣାଶୁଣା?",
+    "options": [
+      "ୱାଶିଂଟନ ଡି.ସି.",
+      "ନ୍ୟୁୟର୍କ ସିଟି",
+      "ଲସ ଆଞ୍ଜେଲସ",
+      "ସିକାଗୋ"
+    ],
+    "answer": "ୱାଶିଂଟନ ଡି.ସି.",
+    "explanation": "ୱାଶିଂଟନ ଡି.ସି. ହେଉଛି ଆମେରିକାର ସରକାରୀ ରାଜଧାନୀ, ଯେଉଁଠାରେ ହ୍ୱାଇଟ ହାଉସ ଏବଂ କ୍ୟାପିଟଲ ବିଲ୍ଡିଂ ଅବସ୍ଥିତ ।"
+  },
+  {
+    "questionEnglish": "Which is the deepest location on Earth, situated in the Western Pacific Ocean?",
+    "questionOdia": "ପଶ୍ଚିମ ପ୍ରଶାନ୍ତ ମହାସାଗରରେ ଅବସ୍ଥିତ ପୃଥିବୀର ସବୁଠାରୁ ଗଭୀରତମ ସ୍ଥାନ କେଉଁଟି?",
+    "options": [
+      "ମରିଆନା ଖାତ (Mariana Trench)",
+      "ପ୍ୟୁର୍ଟୋ ରିକୋ ଖାତ",
+      "ଜାଭା ଖାତ",
+      "ସୁନ୍ଦା ଖାତ"
+    ],
+    "answer": "ମରିଆନା ଖାତ (Mariana Trench)",
+    "explanation": "ମରିଆନା ଖାତର 'ଚ୍ୟାଲେଞ୍ଜର ଡିପ୍' ହେଉଛି ପୃଥିବୀର ଗଭୀରତମ ସ୍ଥାନ, ଯାହାର ଗଭୀରତା ପ୍ରାୟ ୧୧,୦୦୦ ମିଟର ।"
+  },
+  {
+    "questionEnglish": "Who wrote the famous English play 'Romeo and Juliet'?",
+    "questionOdia": "ପ୍ରସିଦ୍ଧ ଇଂରାଜୀ ନାଟକ 'ରୋମିଓ ଆଣ୍ଡ ଜୁଲିଏଟ୍' କିଏ ଲେଖିଥିଲେ?",
+    "options": [
+      "ଉଇଲିୟମ ଶେକ୍ସପିୟର",
+      "ଚାର୍ଲ୍ସ ଡିକେନ୍ସ",
+      "ମାର୍କ ଟ୍ୱେନ",
+      "ଜେନ ଅଷ୍ଟିନ"
+    ],
+    "answer": "ଉଇଲିୟମ ଶେକ୍ସପିୟର",
+    "explanation": "ଉଇଲିୟମ ଶେକ୍ସପିୟର ୧୬ଶ ଶତାବ୍ଦୀର ଶେଷ ଭାଗରେ ଏହି ପ୍ରସିଦ୍ଧ ପ୍ରେମଭିତ୍ତିକ ବିୟୋଗାନ୍ତକ ନାଟକ ରଚନା କରିଥିଲେ ।"
+  },
+  {
+    "questionEnglish": "Which currency is officially used in Japan?",
+    "questionOdia": "ଜାପାନରେ ଆଧିକାରିକ ଭାବରେ କେଉଁ ମୁଦ୍ରା ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "ୟେନ (Yen)",
+      "ୟୁଆନ (Yuan)",
+      "ଡଲାର (Dollar)",
+      "ୟୁରୋ (Euro)"
+    ],
+    "answer": "ୟେନ (Yen)",
+    "explanation": "ଜାପାନର ସରକାରୀ ମୁଦ୍ରାକୁ ୟେନ (¥) କୁହାଯାଏ, ଯାହା ବିଶ୍ୱ ବାଣିଜ୍ୟରେ ଏକ ପ୍ରମୁଖ ମୁଦ୍ରା ।"
+  },
+  {
+    "questionEnglish": "Which organ of the body is affected by the disease known as Cataract?",
+    "questionOdia": "ମୋତିଆବିନ୍ଦୁ (Cataract) ନାମକ ରୋଗ ଦ୍ଵାରା ଶରୀରର କେଉଁ ଅଙ୍ଗ ପ୍ରଭାବିତ ହୁଏ?",
+    "options": [
+      "ଆଖି (Eye)",
+      "କାନ (Ear)",
+      "ଗଳା (Throat)",
+      "ଫୁସଫୁସ (Lung)"
+    ],
+    "answer": "ଆଖି (Eye)",
+    "explanation": "ମୋତିଆବିନ୍ଦୁ ହେଉଛି ଏକ ଚକ୍ଷୁ ରୋଗ ଯେଉଁଥିରେ ଆଖିର ପ୍ରାକୃତିକ ଲେନ୍ସ ଅସ୍ପଷ୍ଟ ବା କୁହୁଡ଼ିଆ ହୋଇଯାଏ, ଯାହା ଦ୍ୱାରା ଦୃଷ୍ଟିଶକ୍ତି କମିଯାଏ ।"
+  },
+  {
+    "questionEnglish": "Which country is the smallest member state of the South Asian Association for Regional Cooperation (SAARC) by area?",
+    "questionOdia": "କ୍ଷେତ୍ରଫଳ ଦୃଷ୍ଟିରୁ ଦକ୍ଷିଣ ଏସୀୟ ଆଞ୍ଚଳିକ ସହଯୋଗ ସଂଗଠନ (SAARC) ର ସବୁଠାରୁ ଛୋଟ ସଦସ୍ୟ ଦେଶ କେଉଁଟି?",
+    "options": [
+      "ମାଳଦ୍ୱୀପ",
+      "ଭୁଟାନ",
+      "ଶ୍ରୀଲଙ୍କା",
+      "ନେପାଳ"
+    ],
+    "answer": "ମାଳଦ୍ୱୀପ",
+    "explanation": "ମାଳଦ୍ୱୀପ ଏସିଆର ସବୁଠାରୁ ଛୋଟ ଦେଶ ଏବଂ ଏହା ସାର୍କ (SAARC) ର ମଧ୍ୟ ସବୁଠାରୁ ଛୋଟ ସଦସ୍ୟ ଅଟେ ।"
+  },
+  {
+    "questionEnglish": "Which animal is officially recognized as the largest mammal currently living on Earth?",
+    "questionOdia": "ବର୍ତ୍ତମାନ ପୃଥିବୀରେ ବାସ କରୁଥିବା ସବୁଠାରୁ ବଡ଼ ସ୍ତନ୍ୟପାୟୀ ପ୍ରାଣୀ ଭାବରେ କେଉଁ ଜୀବକୁ ସ୍ୱୀକୃତି ଦିଆଯାଇଛି?",
+    "options": [
+      "ନୀଳ ତିମି (Blue Whale)",
+      "ଆଫ୍ରିକୀୟ ହାତୀ",
+      "ଜିରାଫ",
+      "ଧଳା ସାର୍କ"
+    ],
+    "answer": "ନୀଳ ତିମି (Blue Whale)",
+    "explanation": "ନୀଳ ତିମି ପୃଥିବୀର ଇତିହାସରେ ଏପର୍ଯ୍ୟନ୍ତ ଜଣାଶୁଣା ସବୁଠାରୁ ବଡ଼ ପ୍ରାଣୀ, ଯାହାର ଲମ୍ବ ୩୦ ମିଟର ଏବଂ ଓଜନ ୧୮୦ ଟନ ପର୍ଯ୍ୟନ୍ତ ହୋଇପାରେ ।"
+  },
+  {
+    "questionEnglish": "Which scientist discovered the three laws of motion and the law of universal gravitation?",
+    "questionOdia": "କେଉଁ ବିଜ୍ଞାନୀ ଗତିର ତିନୋଟି ନିୟମ ଏବଂ ମହାକର୍ଷଣ ନିୟମ ଆବିଷ୍କାର କରିଥିଲେ?",
+    "options": [
+      "ଆଇଜାକ ନ୍ୟୁଟନ",
+      "ଆଲବର୍ଟ ଆଇନଷ୍ଟାଇନ",
+      "ଗାଲିଲିଓ ଗାଲିଲି",
+      "ନିକୋଲାସ କୋପରନିକସ"
+    ],
+    "answer": "ଆଇଜାକ ନ୍ୟୁଟନ",
+    "explanation": "ସାର୍ ଆଇଜାକ ନ୍ୟୁଟନ ତାଙ୍କ ପୁସ୍ତକ 'ପ୍ରିନ୍ସିପିଆ'ରେ ଗତିର ନିୟମ ଏବଂ ମହାକର୍ଷଣ ଶକ୍ତିର ବ୍ୟାଖ୍ୟା କରି ଆଧୁନିକ ପଦାର୍ଥ ବିଜ୍ଞାନର ଭିତ୍ତିଭୂମି ସ୍ଥାପନ କରିଥିଲେ ।"
+  },
+  {
+    "questionEnglish": "Which canal connects the Mediterranean Sea to the Red Sea, cutting through Egypt?",
+    "questionOdia": "ଇଜିପ୍ଟ ମଧ୍ୟ ଦେଇ କେଉଁ କେନାଲ ଭୂମଧ୍ୟସାଗରକୁ ଲୋହିତ ସାଗର ସହିତ ସଂଯୋଗ କରୁଛି?",
+    "options": [
+      "ସୁଏଜ କେନାଲ",
+      "ପାନାମା କେନାଲ",
+      "କିଲ କେନାଲ",
+      "ଇରି କେନାଲ"
+    ],
+    "answer": "ସୁଏଜ କେନାଲ",
+    "explanation": "୧୮୬୯ ମସିହାରେ ଖୋଲାଯାଇଥିବା ସୁଏଜ କେନାଲ ଏସିଆ ଏବଂ ୟୁରୋପ ମଧ୍ୟରେ ସାମୁଦ୍ରିକ ଦୂରତାକୁ ଯଥେଷ୍ଟ ହ୍ରାସ କରିଛି ।"
+  },
+  {
+    "questionEnglish": "Which country is the global host and originator of the modern Olympic Games, inspired by the ancient ones?",
+    "questionOdia": "ପ୍ରାଚୀନ ଖେଳ ଦ୍ଵାରା ଅନୁପ୍ରାଣିତ ହୋଇ ଆଧୁନିକ ଅଲିମ୍ପିକ ଖେଳର ଆରମ୍ଭ କେଉଁ ଦେଶରୁ ହୋଇଥିଲା?",
+    "options": [
+      "ଗ୍ରୀସ",
+      "ଇଟାଲୀ",
+      "ଫ୍ରାନ୍ସ",
+      "ଯୁକ୍ତରାଜ୍ୟ (UK)"
+    ],
+    "answer": "ଗ୍ରୀସ",
+    "explanation": "ପ୍ରାଚୀନ ଅଲିମ୍ପିକ ଖେଳ ଖ୍ରୀଷ୍ଟପୂର୍ବ ୭୭୬ ରେ ଗ୍ରୀସର ଅଲିମ୍ପିଆରେ ଆରମ୍ଭ ହୋଇଥିଲା, ଏବଂ ପ୍ରଥମ ଆଧୁନିକ ଅଲିମ୍ପିକ ୧୮୯୬ ରେ ଏଥେନ୍ସରେ ଅନୁଷ୍ଠିତ ହୋଇଥିଲା ।"
+  },
+  {
+    "questionEnglish": "Which component of blood is responsible for carrying oxygen from the lungs to the rest of the body?",
+    "questionOdia": "ରକ୍ତର କେଉଁ ଉପାଦାନ ଫୁସଫୁସରୁ ଶରୀରର ଅନ୍ୟ ଅଙ୍ଗକୁ ଅମ୍ଳଜାନ ବହନ କରିବା ପାଇଁ ଦାୟୀ?",
+    "options": [
+      "ଲୋହିତ ରକ୍ତ କଣିକା (RBC)",
+      "ଶ୍ଵେତ ରକ୍ତ କଣିକା (WBC)",
+      "ଅଣୁଚକ୍ରିକା (Platelets)",
+      "ପ୍ଲାଜ୍ମା"
+    ],
+    "answer": "ଲୋହିତ ରକ୍ତ କଣିକା (RBC)",
+    "explanation": "ଲୋହିତ ରକ୍ତ କଣିକାରେ ହିମୋଗ୍ଲୋବିନ ଥାଏ, ଯାହା ଅମ୍ଳଜାନ ସହିତ ବାନ୍ଧି ହୋଇ ସାରା ଶରୀରରେ ପ୍ରବାହିତ ହୋଇଥାଏ ।"
+  },
+  {
+    "questionEnglish": "Which country has the largest population in the world according to recent demographic data?",
+    "questionOdia": "ସାମ୍ପ୍ରତିକ ଜନସଂଖ୍ୟା ତଥ୍ୟ ଅନୁଯାୟୀ ବିଶ୍ୱରେ ସବୁଠାରୁ ଅଧିକ ଜନସଂଖ୍ୟା ବିଶିଷ୍ଟ ଦେଶ କେଉଁଟି?",
+    "options": [
+      "ଭାରତ",
+      "ଚୀନ",
+      "ଆମେରିକା",
+      "ଇଣ୍ଡୋନେସିଆ"
+    ],
+    "answer": "ଭାରତ",
+    "explanation": "ନିକଟ ଅତୀତରେ ଭାରତ ଜନସଂଖ୍ୟା ମାମଲାରେ ଚୀନକୁ ପଛରେ ପକାଇ ବିଶ୍ୱର ସବୁଠାରୁ ଅଧିକ ଜନବହୁଳ ଦେଶରେ ପରିଣତ ହୋଇଛି ।"
+  },
+  {
+    "questionEnglish": "Which continent is known as the coldest, driest, and windiest continent on Earth?",
+    "questionOdia": "ପୃଥିବୀର ସବୁଠାରୁ ଶୀତଳ, ଶୁଷ୍କ ଏବଂ ସର୍ବାଧିକ ପବନ ବହୁଥିବା ମହାଦେଶ ଭାବରେ କେଉଁଟି ଜଣାଶୁଣା?",
+    "options": [
+      "ଆଣ୍ଟାର୍କଟିକା",
+      "ଏସିଆ",
+      "ଉତ୍ତର ଆମେରିକା",
+      "ୟୁରୋପ"
+    ],
+    "answer": "ଆଣ୍ଟାର୍କଟିକା",
+    "explanation": "ଆଣ୍ଟାର୍କଟିକା ଦକ୍ଷିଣ ମେରୁରେ ଅବସ୍ଥିତ ଏବଂ ଏହାର ୯୮% ଭାଗ ବରଫ ଦ୍ଵାରା ଆବୃତ ହୋଇ ରହିଥାଏ ।"
+  },
+  {
+    "questionEnglish": "Who is the artist behind the world-famous 16th-century portrait painting 'Mona Lisa'?",
+    "questionOdia": "ବିଶ୍ୱ ପ୍ରସିଦ୍ଧ ୧୬ଶ ଶତାବ୍ଦୀର ପ୍ରତିକୃତି ଚିତ୍ର 'ମୋନାଲିସା' ର ଚିତ୍ରଶିଳ୍ପୀ କିଏ?",
+    "options": [
+      "ଲିଓନାର୍ଡୋ ଦା ଭିଞ୍ଚି",
+      "ମାଇକେଲଆଞ୍ଜେଲୋ",
+      "ପାବ୍ଲୋ ପିକାସୋ",
+      "ଭିନସେଣ୍ଟ ଭାନ ଗଗ୍"
+    ],
+    "answer": "ଲିଓନାର୍ଡୋ ଦା ଭିଞ୍ଚି",
+    "explanation": "ଇଟାଲୀର ମହାନ ଚିତ୍ରଶିଳ୍ପୀ ଲିଓନାର୍ଡୋ ଦା ଭିଞ୍ଚି ୧୫୦୩ ରୁ ୧୫୧୯ ମଧ୍ୟରେ ମୋନାଲିସାର ଚିତ୍ର ଅଙ୍କନ କରିଥିଲେ ।"
+  },
+  {
+    "questionEnglish": "Which layer of the Earth's atmosphere absorbs most of the Sun's harmful ultraviolet (UV) radiation?",
+    "questionOdia": "ପୃଥିବୀ ବାୟୁମଣ୍ଡଳର କେଉଁ ସ୍ତର ସୂର୍ଯ୍ୟଙ୍କର କ୍ଷତିକାରକ ଅତିବାଇଗଣୀ (UV) ରଶ୍ମିକୁ ଅବଶୋଷଣ କରିଥାଏ?",
+    "options": [
+      "ଓଜୋନ ସ୍ତର (Ozone Layer)",
+      "କ୍ଷୋଭ ମଣ୍ଡଳ (Troposphere)",
+      "ଥର୍ମୋସ୍ପିୟର",
+      "ଏକ୍ସୋସ୍ପିୟର"
+    ],
+    "answer": "ଓଜୋନ ସ୍ତର (Ozone Layer)",
+    "explanation": "ଷ୍ଟ୍ରାଟୋସ୍ପିୟର ମଧ୍ୟରେ ଥିବା ଓଜୋନ ସ୍ତର ସୂର୍ଯ୍ୟରୁ ଆସୁଥିବା କ୍ଷତିକାରକ ୟୁଭି ରଶ୍ମିକୁ ରୋକି ପୃଥିବୀର ଜୀବଜଗତକୁ ରକ୍ଷା କରେ ।"
+  },
+  {
+    "questionEnglish": "Which country is the smallest in South America by land area?",
+    "questionOdia": "ସ୍ଥଳଭାଗ କ୍ଷେତ୍ରଫଳ ଅନୁସାରେ ଦକ୍ଷିଣ ଆମେରିକାର ସବୁଠାରୁ ଛୋଟ ଦେଶ କେଉଁଟି?",
+    "options": [
+      "ସୁରିନାମ",
+      "ଉରୁଗୁଏ",
+      "ଗାୟନା",
+      "ଇକ୍ୱାଡୋର"
+    ],
+    "answer": "ସୁରିନାମ",
+    "explanation": "ସୁରିନାମ କ୍ଷେତ୍ରଫଳ ଏବଂ ଜନସଂଖ୍ୟା ଉଭୟ ଦୃଷ୍ଟିରୁ ଦକ୍ଷିଣ ଆମେରିକାର ସବୁଠାରୁ ଛୋଟ ସ୍ଵାଧୀନ ଦେଶ ଅଟେ ।"
+  },
+  {
+    "questionEnglish": "Which organelle is universally referred to as the powerhouse of the biological cell?",
+    "questionOdia": "ଜୈବିକ କୋଷର କେଉଁ ଅଙ୍ଗିକାକୁ ସାର୍ବଜନୀନ ଭାବେ 'କୋଷର ଶକ୍ତି କେନ୍ଦ୍ର' କୁହାଯାଏ?",
+    "options": [
+      "ମାଇଟୋକଣ୍ଡ୍ରିଆ (Mitochondria)",
+      "ନ୍ୟଷ୍ଟି (Nucleus)",
+      "ରାଇବୋଜୋମ",
+      "ଗଲଗି ବଡି"
+    ],
+    "answer": "ମାଇଟୋକଣ୍ଡ୍ରିଆ (Mitochondria)",
+    "explanation": "ମାଇଟୋକଣ୍ଡ୍ରିଆ କୋଷ ପାଇଁ ଆବଶ୍ୟକ ରାସାୟନିକ ଶକ୍ତି ATP ଆକାରରେ ଉତ୍ପନ୍ନ କରୁଥିବାରୁ ଏହାକୁ ଶକ୍ତି କେନ୍ଦ୍ର କୁହାଯାଏ ।"
+  },
+  {
+    "questionEnglish": "Which unique country occupies an entire continent by itself?",
+    "questionOdia": "କେଉଁ ଅନନ୍ୟ ଦେଶ ଏକ ସମ୍ପୂର୍ଣ୍ଣ ମହାଦେଶକୁ ନିଜ ଅଧୀନରେ ରଖିଛି?",
+    "options": [
+      "ଅଷ୍ଟ୍ରେଲିଆ",
+      "କାନାଡା",
+      "ଋଷ",
+      "ବ୍ରାଜିଲ"
+    ],
+    "answer": "ଅଷ୍ଟ୍ରେଲିଆ",
+    "explanation": "ଅଷ୍ଟ୍ରେଲିଆ ହେଉଛି ଏକମାତ୍ର ଦେଶ ଯାହାକି ଏକ ସମ୍ପୂର୍ଣ୍ଣ ମହାଦେଶକୁ ନେଇ ଗଠିତ ଏବଂ ଏହାକୁ ଦ୍ଵୀପ ମହାଦେଶ ମଧ୍ୟ କୁହାଯାଏ ।"
+  },
+  {
+    "questionEnglish": "Who discovered Penicillin, the world's first effective antibiotic, in 1928?",
+    "questionOdia": "୧୯୨୮ ମସିହାରେ ପୃଥିବୀର ପ୍ରଥମ ପ୍ରଭାବଶାଳୀ ଆଣ୍ଟିବାୟୋଟିକ 'ପେନିସିଲିନ୍' କିଏ ଆବିଷ୍କାର କରିଥିଲେ?",
+    "options": [
+      "ଆଲେକଜାଣ୍ଡାର ଫ୍ଲେମିଙ୍ଗ",
+      "ଲୁଇ ପାସ୍ତୁର",
+      "ରବର୍ଟ କୋଚ୍",
+      "ଜୋନାସ ସାଲ୍କ"
+    ],
+    "answer": "ଆଲେକଜାଣ୍ଡାର ଫ୍ଲେମିଙ୍ଗ",
+    "explanation": "ସ୍କଟଲ୍ୟାଣ୍ଡର ବୈଜ୍ଞାନିକ ଆଲେକଜାଣ୍ଡାର ଫ୍ଲେମିଙ୍ଗ ହଠାତ ପେନିସିଲିୟମ ନୋଟାଟମ ନାମକ କବକରୁ ପେନିସିଲିନ ଆବିଷ୍କାର କରି ଚିକିତ୍ସା ବିଜ୍ଞାନରେ କ୍ରାନ୍ତି ଆଣିଥିଲେ ।"
+  },
+  {
+    "questionEnglish": "Which country won the first ever FIFA World Cup held in the year 1930?",
+    "questionOdia": "୧୯୩୦ ମସିହାରେ ଅନୁଷ୍ଠିତ ପ୍ରଥମ ଫିଫା (FIFA) ବିଶ୍ୱକପ୍ କେଉଁ ଦେଶ ଜିତିଥିଲା?",
+    "options": [
+      "ଉରୁଗୁଏ",
+      "ଆର୍ଜେଣ୍ଟିନା",
+      "ବ୍ରାଜିଲ",
+      "ଇଟାଲୀ"
+    ],
+    "answer": "ଉରୁଗୁଏ",
+    "explanation": "ପ୍ରଥମ ଫିଫା ବିଶ୍ୱକପ୍ ଉରୁଗୁଏରେ ଆୟୋଜିତ ହୋଇଥିଲା ଏବଂ ଫାଇନାଲରେ ଆର୍ଜେଣ୍ଟିନାକୁ ହରାଇ ଆୟୋଜକ ଦେଶ ଉରୁଗୁଏ ଚାମ୍ପିଅନ ହୋଇଥିଲା ।"
+  },
+  {
+    "questionEnglish": "Which instrument is specifically used by meteorologists to measure atmospheric pressure?",
+    "questionOdia": "ପାଣିପାଗ ବିଜ୍ଞାନୀମାନଙ୍କ ଦ୍ଵାରା ବାୟୁମଣ୍ଡଳୀୟ ଚାପ ମାପିବା ପାଇଁ ବିଶେଷ ଭାବରେ କେଉଁ ଯନ୍ତ୍ର ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "ବାରୋମିଟର (Barometer)",
+      "ଥର୍ମୋମିଟର",
+      "ହାଇଗ୍ରୋମିଟର",
+      "ଆନିମୋମିଟର"
+    ],
+    "answer": "ବାରୋମିଟର (Barometer)",
+    "explanation": "ଇଭାଞ୍ଜେଲିଷ୍ଟା ଟୋରିସେଲିଙ୍କ ଦ୍ଵାରା ଆବିଷ୍କୃତ ବାରୋମିଟର ବାୟୁମଣ୍ଡଳର ଚାପ ମାପିବା ଏବଂ ପାଣିପାଗ ପୂର୍ବାନୁମାନ ପାଇଁ ବ୍ୟବହୃତ ହୁଏ ।"
+  },
+  {
+    "questionEnglish": "Which city is globally recognized as the capital of France, famous for the Eiffel Tower?",
+    "questionOdia": "ଆଇଫେଲ ଟାୱାର ପାଇଁ ପ୍ରସିଦ୍ଧ ଫ୍ରାନ୍ସର ରାଜଧାନୀ ଭାବରେ କେଉଁ ସହର ବିଶ୍ୱରେ ଜଣାଶୁଣା?",
+    "options": [
+      "ପ୍ୟାରିସ",
+      "ଲଣ୍ଡନ",
+      "ବର୍ଲିନ",
+      "ରୋମ"
+    ],
+    "answer": "ପ୍ୟାରିସ",
+    "explanation": "ପ୍ୟାରିସ ହେଉଛି ଫ୍ରାନ୍ସର ରାଜଧାନୀ, ଯାହାକୁ କଳା, ଫ୍ୟାଶନ ଏବଂ ସଂସ୍କୃତିର ବିଶ୍ୱ କେନ୍ଦ୍ର ବୋଲି ମଧ୍ୟ କୁହାଯାଏ ।"
+  },
+  {
+    "questionEnglish": "Which is the largest snake species in the world by weight and thickness?",
+    "questionOdia": "ଓଜନ ଏବଂ ମୋଟେଇ ଦୃଷ୍ଟିରୁ ପୃଥିବୀର ସବୁଠାରୁ ବଡ଼ ସାପ ପ୍ରଜାତି କେଉଁଟି?",
+    "options": [
+      "ସବୁଜ ଆନାକୋଣ୍ଡା (Green Anaconda)",
+      "ଜାଲିଦାର ଅଜଗର (Reticulated Python)",
+      "ଅହିରାଜ (King Cobra)",
+      "ରସେଲ୍ସ ଭାଇପର"
+    ],
+    "answer": "ସବୁଜ ଆନାକୋଣ୍ଡା (Green Anaconda)",
+    "explanation": "ସବୁଜ ଆନାକୋଣ୍ଡା ଦକ୍ଷିଣ ଆମେରିକାର ଜଳଭାଗରେ ମିଳେ ଏବଂ ଏହା ଓଜନ ହିସାବରେ ବିଶ୍ୱର ସବୁଠାରୁ ବୃହତ ସାପ ଅଟେ ।"
+  },
+  {
+    "questionEnglish": "Which active volcano is widely known as the 'Lighthouse of the Mediterranean'?",
+    "questionOdia": "କେଉଁ ଜାଗ୍ରତ ଆଗ୍ନେୟଗିରିକୁ ବହୁଳ ଭାବରେ 'ଭୂମଧ୍ୟସାଗରର ଆଲୋକଘର' କୁହାଯାଏ?",
+    "options": [
+      "ଷ୍ଟ୍ରାମ୍ବୋଲି (Stromboli)",
+      "ମାଉଣ୍ଟ ଏଟନା",
+      "ମାଉଣ୍ଟ ଭେସୁଭିୟସ",
+      "ମାଉଣ୍ଟ କ୍ରାକାଟାଓ"
+    ],
+    "answer": "ଷ୍ଟ୍ରାମ୍ବୋଲି (Stromboli)",
+    "explanation": "ଇଟାଲୀର ଷ୍ଟ୍ରାମ୍ବୋଲି ଆଗ୍ନେୟଗିରି ବିଗତ ହଜାର ହଜାର ବର୍ଷ ଧରି କ୍ରମାଗତ ଭାବେ ଲାଭା ଏବଂ ଗ୍ୟାସ ନିର୍ଗତ କରୁଥିବାରୁ ଏହାକୁ ଭୂମଧ୍ୟସାଗରର ଆଲୋକଘର କୁହାଯାଏ ।"
+  },
+  {
+    "questionEnglish": "Which is the largest fresh water lake in the world by volume of water, located in Russia?",
+    "questionOdia": "ଋଷରେ ଅବସ୍ଥିତ ଜଳର ଆୟତନ ଦୃଷ୍ଟିରୁ ପୃଥିବୀର ସବୁଠାରୁ ବଡ଼ ମିଠାପାଣି ହ୍ରଦ କେଉଁଟି?",
+    "options": [
+      "ବୈକାଲ ହ୍ରଦ (Lake Baikal)",
+      "ସୁପିରିୟର ହ୍ରଦ",
+      "ଭିକ୍ଟୋରିଆ ହ୍ରଦ",
+      "କାସପିଆନ ସାଗର"
+    ],
+    "answer": "ବୈକାଲ ହ୍ରଦ (Lake Baikal)",
+    "explanation": "ବୈକାଲ ହ୍ରଦ ବିଶ୍ୱର ସବୁଠାରୁ ଗଭୀରତମ ଏବଂ ପୁରାତନ ହ୍ରଦ, ଯେଉଁଥିରେ ପୃଥିବୀର ପ୍ରାୟ ୨୦% ତରଳ ମିଠାପାଣି ରହିଛି ।"
+  },
+  {
+    "questionEnglish": "Who is the primary author of the famous book 'The Origin of Species' which introduced the theory of evolution?",
+    "questionOdia": "ବିବର୍ତ୍ତନବାଦ ତତ୍ତ୍ଵ ପ୍ରଦାନ କରିଥିବା ପ୍ରସିଦ୍ଧ ପୁସ୍ତକ 'ଦି ଓରିଜିନ ଅଫ୍ ସ୍ପେସିଜ୍' ର ମୁଖ୍ୟ ଲେଖକ କିଏ?",
+    "options": [
+      "ଚାର୍ଲ୍ସ ଡାର୍ୱିନ",
+      "ଜାଁ-ବାପ୍ଟିଷ୍ଟ ଲାମାର୍କ",
+      "ଗ୍ରେଗର ମେଣ୍ଡେଲ",
+      "ଆଲଫ୍ରେଡ ୱାଲେସ"
+    ],
+    "answer": "ଚାର୍ଲ୍ସ ଡାର୍ୱିନ",
+    "explanation": "୧୮୫୯ ମସିହାରେ ଚାର୍ଲ୍ସ ଡାର୍ୱିନ ପ୍ରାକୃତିକ ଚୟନ ଦ୍ଵାରା ଜୀବମାନଙ୍କର ବିବର୍ତ୍ତନ ପ୍ରକ୍ରିୟାକୁ ଏହି ପୁସ୍ତକରେ ଉପସ୍ଥାପନ କରିଥିଲେ ।"
+  },
+  {
+    "questionEnglish": "Which international human rights organization was awarded the Nobel Peace Prize in 1977?",
+    "questionOdia": "୧୯୭୭ ମସିହାରେ କେଉଁ ଆନ୍ତର୍ଜାତୀୟ ମାନବାଧିକାର ସଂଗଠନକୁ ନୋବେଲ ଶାନ୍ତି ପୁରସ୍କାର ପ୍ରଦାନ କରାଯାଇଥିଲା?",
+    "options": [
+      "ଆମ୍ନେଷ୍ଟି ଇଣ୍ଟରନ୍ୟାସନାଲ",
+      "ରେଡକ୍ରସ",
+      "ହ୍ୟୁମାନ ରାଇଟ୍ସ ୱାଚ୍",
+      "ୟୁନିସେଫ (UNICEF)"
+    ],
+    "answer": "ଆମ୍ନେଷ୍ଟି ଇଣ୍ଟରନ୍ୟାସନାଲ",
+    "explanation": "ଆମ୍ନେଷ୍ଟି ଇଣ୍ଟରନ୍ୟାସନାଲକୁ ନିର୍ଯାତନା ବିରୁଦ୍ଧରେ ଏବଂ ମାନବିକ ମର୍ଯ୍ୟାଦାର ସୁରକ୍ଷା ପାଇଁ ୧୯୭୭ ରେ ନୋବେଲ ଶାନ୍ତି ପୁରସ୍କାର ମିଳିଥିଲା ।"
+  },
+  {
+    "questionEnglish": "Which country is the world's largest producer of tea, with centuries of tradition?",
+    "questionOdia": "ଶତାବ୍ଦୀର ପରମ୍ପରା ସହିତ ଚା' ଉତ୍ପାଦନରେ ପୃଥିବୀର ସବୁଠାରୁ ବଡ଼ ଦେଶ କେଉଁଟି?",
+    "options": [
+      "ଚୀନ",
+      "ଭାରତ",
+      "ଶ୍ରୀଲଙ୍କା",
+      "କେନିଆ"
+    ],
+    "answer": "ଚୀନ",
+    "explanation": "ବିଶ୍ୱରେ ଚୀନ ସର୍ବାଧିକ ଚା' ଉତ୍ପାଦନ କରୁଥିବା ଦେଶ ଅଟେ, ଏହା ପରେ ଦ୍ଵିତୀୟ ସ୍ଥାନରେ ଭାରତ ରହିଛି ।"
+  },
+  {
+    "questionEnglish": "Which layer of the Earth is semi-fluid and located directly beneath the crust?",
+    "questionOdia": "ପୃଥିବୀର କେଉଁ ସ୍ତରଟି ଅର୍ଦ୍ଧ-ତରଳ ଏବଂ ଭୂ-ତ୍ଵକ୍ (Crust) ର ଠିକ୍ ତଳେ ଅବସ୍ଥିତ?",
+    "options": [
+      "ମ୍ୟାଣ୍ଟେଲ (Mantle)",
+      "ବାହ୍ୟ କୋର (Outer Core)",
+      "ଅନ୍ତଃ କୋର (Inner Core)",
+      "ଲିଥୋସ୍ପିୟର"
+    ],
+    "answer": "ମ୍ୟାଣ୍ଟେଲ (Mantle)",
+    "explanation": "ମ୍ୟାଣ୍ଟେଲ ପୃଥିବୀର ଭୂ-ତ୍ଵକ୍ ତଳେ ଥାଏ ଏବଂ ଏହା ପ୍ରାୟ ୨,୯୦୦ କିଲୋମିଟର ମୋଟେଇ ବିଶିଷ୍ଟ ଗରମ ଓ ପଥରିଆ ସ୍ତର ଅଟେ ।"
+  },
+  {
+    "questionEnglish": "Which historical event began on July 14, 1789, with the storming of the Bastille prison?",
+    "questionOdia": "୧୭୮୯ ଜୁଲାଇ ୧୪ ରେ ବାଷ୍ଟିଲ ଦୁର୍ଗ କାରାଗାର ଉପରେ ଆକ୍ରମଣ ସହିତ କେଉଁ ଐତିହାସିକ ଘଟଣା ଆରମ୍ଭ ହୋଇଥିଲା?",
+    "options": [
+      "ଫରାସୀ ବିପ୍ଳବ (French Revolution)",
+      "ଋଷ ବିପ୍ଳବ",
+      "ଶିଳ୍ପ ବିପ୍ଳବ",
+      "ଆମେରିକୀୟ ସ୍ଵାଧୀନତା ଯୁଦ୍ଧ"
+    ],
+    "answer": "ଫରାସୀ ବିପ୍ଳବ (French Revolution)",
+    "explanation": "ବାଷ୍ଟିଲ କାରାଗାରର ପତନ ଫରାସୀ ବିପ୍ଳବର ପ୍ରତୀକ ଥିଲା, ଯାହା ରାଜତନ୍ତ୍ରର ଅନ୍ତ ଏବଂ ଗଣତନ୍ତ୍ରର ଭିତ୍ତି ସ୍ଥାପନ କରିଥିଲା ।"
+  },
+  {
+    "questionEnglish": "Which chemical element is the lightest and most abundant in the entire universe?",
+    "questionOdia": "ସମଗ୍ର ବ୍ରହ୍ମାଣ୍ଡରେ କେଉଁ ରାସାୟନିକ ମୌଳିକ ସବୁଠାରୁ ହାଲୁକା ଏବଂ ସର୍ବାଧିକ ପରିମାଣରେ ଉପଲବ୍ଧ?",
+    "options": [
+      "ହାଇଡ୍ରୋଜେନ",
+      "ହିଲିୟମ",
+      "ଲିଥିୟମ",
+      "ଅମ୍ଳଜାନ"
+    ],
+    "answer": "ହାଇଡ୍ରୋଜେନ",
+    "explanation": "ବ୍ରହ୍ମାଣ୍ଡର ମୋଟ ବସ୍ତୁତ୍ଵର ପ୍ରାୟ ୭୫% ଭାଗ ହାଇଡ୍ରୋଜେନ ଦ୍ଵାରା ଗଠିତ ଏବଂ ଏହାର ପରମାଣୁ କ୍ରମାଙ୍କ ୧ ଅଟେ ।"
+  },
+  {
+    "questionEnglish": "Which country features the historic defense structure known as the Great Wall, visible from space?",
+    "questionOdia": "ମହାକାଶରୁ ଦୃଶ୍ୟମାନ ହେଉଥିବା ମହାନ ପ୍ରାଚୀର (Great Wall) ନାମକ ଐତିହାସିକ ପ୍ରତିରକ୍ଷା ସଂରଚନା କେଉଁ ଦେଶରେ ଅଛି?",
+    "options": [
+      "ଚୀନ",
+      "ମଙ୍ଗୋଲିଆ",
+      "ଜାପାନ",
+      "ଭାରତ"
+    ],
+    "answer": "ଚୀନ",
+    "explanation": "ଚୀନର ମହାନ ପ୍ରାଚୀର ବିଭିନ୍ନ ଶାସକମାନଙ୍କ ଦ୍ଵାରା ବାହ୍ୟ ଆକ୍ରମଣରୁ ରକ୍ଷା ପାଇବା ପାଇଁ ନିର୍ମିତ ହୋଇଥିବା ପୃଥିବୀର ଦୀର୍ଘତମ ମାନବ ନିର୍ମିତ ପ୍ରାଚୀର ।"
+  },
+  {
+    "questionEnglish": "Which vital vitamin is synthesized by the human body when exposed to sunlight?",
+    "questionOdia": "ସୂର୍ଯ୍ୟ କିରଣ ସଂସ୍ପର୍ଶରେ ଆସିଲେ ମାନବ ଶରୀର ଦ୍ଵାରା କେଉଁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଭିଟାମିନ୍ ପ୍ରସ୍ତୁତ ହୋଇଥାଏ?",
+    "options": [
+      "ଭିଟାମିନ୍ ଡି (Vitamin D)",
+      "ଭିଟାମିନ୍ ସି",
+      "ଭିଟାମିନ୍ ଏ",
+      "ଭିଟାମିନ୍ କେ"
+    ],
+    "answer": "ଭିଟାମିନ୍ ଡି (Vitamin D)",
+    "explanation": "ସୂର୍ଯ୍ୟର ଅତିବାଇଗଣୀ ରଶ୍ମି ସାହାଯ୍ୟରେ ଆମ ତ୍ଵଚା ଭିଟାମିନ୍ ଡି ତିଆରି କରେ, ଯାହା ହାଡ଼ର ସୁସ୍ଥତା ପାଇଁ ଆବଶ୍ୟକ ।"
+  },
+  {
+    "questionEnglish": "Which South American river carries the highest volume of water into the ocean globally?",
+    "questionOdia": "ବିଶ୍ୱ ସ୍ତରରେ ସମୁଦ୍ରକୁ ସର୍ବାଧିକ ପରିମାଣର ଜଳ ପ୍ରବାହିତ କରୁଥିବା ଦକ୍ଷିଣ ଆମେରିକାର ନଦୀ କେଉଁଟି?",
+    "options": [
+      "ଆମାଜନ ନଦୀ",
+      "ପାରାନା ନଦୀ",
+      "ଓରିନୋକୋ ନଦୀ",
+      "ମାଡେଇରା ନଦୀ"
+    ],
+    "answer": "ଆମାଜନ ନଦୀ",
+    "explanation": "ଆମାଜନ ନଦୀ ଜଳ ପ୍ରବାହ ଆୟତନ ଦୃଷ୍ଟିରୁ ବିଶ୍ୱର ସବୁଠାରୁ ବଡ଼ ଏବଂ କ୍ଷେତ୍ରଫଳ ହିସାବରେ ଦ୍ଵିତୀୟ ଦୀର୍ଘତମ ନଦୀ ।"
+  },
+  {
+    "questionEnglish": "Who is the legendary ancient Greek poet credited with composing the epic poems 'Iliad' and 'Odyssey'?",
+    "questionOdia": "ମହାକାବ୍ୟ 'ଇଲିଆଡ୍' ଏବଂ 'ଓଡ଼ିସୀ' ରଚନା କରିବାର ଶ୍ରେୟ କେଉଁ ପ୍ରସିଦ୍ଧ ପ୍ରାଚୀନ ଗ୍ରୀକ୍ କବିଙ୍କୁ ଦିଆଯାଏ?",
+    "options": [
+      "ହୋମର (Homer)",
+      "ଭର୍ଜିଲ",
+      "ସୋଫୋକ୍ଲିସ",
+      "ଆରିଷ୍ଟୋଫେନସ"
+    ],
+    "answer": "ହୋମର (Homer)",
+    "explanation": "ହୋମର ପ୍ରାଚୀନ ଗ୍ରୀସର ଜଣେ ଅନ୍ଧ କବି ଥିଲେ, ଯାହାଙ୍କର ଏହି ଦୁଇଟି କାବ୍ୟ ପାଶ୍ଚାତ୍ୟ ସାହିତ୍ୟର ସ୍ତମ୍ଭ ଭାବରେ ଗଣାଯାଏ ।"
+  },
+  {
+    "questionEnglish": "Which country is the largest in the world by land area, stretching across Eastern Europe and Northern Asia?",
+    "questionOdia": "ପୂର୍ବ ୟୁରୋପ ଏବଂ ଉତ୍ତର ଏସିଆ ବ୍ୟାପିଥିବା ସ୍ଥଳଭାଗ କ୍ଷେତ୍ରଫଳ ଅନୁସାରେ ବିଶ୍ୱର ସବୁଠାରୁ ବଡ଼ ଦେଶ କେଉଁଟି?",
+    "options": [
+      "ଋଷ (Russia)",
+      "କାନାଡା",
+      "ଚୀନ",
+      "ଆମେରିକା"
+    ],
+    "answer": "ଋଷ (Russia)",
+    "explanation": "ଋଷ କ୍ଷେତ୍ରଫଳ ଦୃଷ୍ଟିରୁ ବିଶ୍ୱର ବୃହତ୍ତମ ଦେଶ, ଯାହା ପୃଥିବୀର ବସବାସ ଯୋଗ୍ୟ ସ୍ଥଳଭାଗର ପ୍ରାୟ ଏକ-ଅଷ୍ଟମାଂଶ ଅଧିକାର କରିଛି ।"
+  },
+  {
+    "questionEnglish": "Which European city is famously built on a network of 118 small islands separated by canals and linked by bridges?",
+    "questionOdia": "କେଉଁ ୟୁରୋପୀୟ ସହର ୧୧୮ଟି ଛୋଟ ଦ୍ଵୀପକୁ ନେଇ ଗଠିତ, ଯାହା କେନାଲ ଦ୍ଵାରା ବିଭକ୍ତ ଏବଂ ପୋଲ ଦ୍ଵାରା ସଂଯୁକ୍ତ?",
+    "options": [
+      "ଭେନିସ",
+      "ଆମଷ୍ଟରଡାମ",
+      "ବ୍ରୁଗେସ",
+      "କୋପେନହେଗେନ"
+    ],
+    "answer": "ଭେନିସ",
+    "explanation": "ଇଟାଲୀର ଭେନିସ ସହର ଏହାର ଅପୂର୍ବ ସ୍ଥାପତ୍ୟ ଏବଂ ଗୋଣ୍ଡୋଲା (ଡଙ୍ଗା) ଚାଳନା ପାଇଁ ସାରା ବିଶ୍ୱରେ ପ୍ରସିଦ୍ଧ ।"
+  },
+  {
+    "questionEnglish": "Which specialized cell in the human body is responsible for transmitting electrical signals and nerve impulses?",
+    "questionOdia": "ବୈଦ୍ୟୁତିକ ସଙ୍କେତ ଏବଂ ସ୍ନାୟୁ ପ୍ରେରଣା ପଠାଇବା ପାଇଁ ମାନବ ଶରୀରର କେଉଁ ବିଶେଷ କୋଷ ଦାୟୀ?",
+    "options": [
+      "ସ୍ନାୟୁ କୋଷ (Neuron)",
+      "ଲିମ୍ଫୋସାଇଟ୍",
+      "ନେଫ୍ରୋନ",
+      "ଲୋହିତ ରକ୍ତ କୋଷ"
+    ],
+    "answer": "ସ୍ନାୟୁ କୋଷ (Neuron)",
+    "explanation": "ନ୍ୟୁରନ ବା ସ୍ନାୟୁ କୋଷ ମସ୍ତିଷ୍କ ଏବଂ ସ୍ନାୟୁ ପ୍ରଣାଳୀର ମୌଳିକ କାର୍ଯ୍ୟକାରୀ ଏକକ ଅଟେ ।"
+  },
+  {
+    "questionEnglish": "Which African country is completely surrounded by South Africa, making it a landlocked enclave?",
+    "questionOdia": "କେଉଁ ଆଫ୍ରିକୀୟ ଦେଶ ଦକ୍ଷିଣ ଆଫ୍ରିକା ଦ୍ଵାରା ସମ୍ପୂର୍ଣ୍ଣ ରୂପେ ପରିବେଷ୍ଟିତ, ଯାହା ଏକ ସ୍ଥଳବେଷ୍ଟିତ ଦେଶ?",
+    "options": [
+      "ଲେସୋଥୋ (Lesotho)",
+      "ଇସୋଆତିନି (ସ୍ଵାଜିଲ୍ୟାଣ୍ଡ)",
+      "ବୋତସ୍ୱାନା",
+      "ନାମିବିଆ"
+    ],
+    "answer": "ଲେସୋଥୋ (Lesotho)",
+    "explanation": "ଲେସୋଥୋ ହେଉଛି ଏକ ସ୍ଵାଧୀନ ସାର୍ବଭୌମ ରାଜ୍ୟ, ଯାହା ଭୌଗୋଳିକ ଦୃଷ୍ଟିରୁ କେବଳ ଦକ୍ଷିଣ ଆଫ୍ରିକା ଭିତରେ ହିଁ ଅବସ୍ଥିତ ।"
+  },
+  {
+    "questionEnglish": "Who was the prime architect of the theory of relativity, formulating the famous equation E=mc^2?",
+    "questionOdia": "ଆପେକ୍ଷିକତା ତତ୍ତ୍ଵର ପ୍ରଧାନ ସ୍ଥପତି କିଏ ଥିଲେ, ଯିଏ ପ୍ରସିଦ୍ଧ ସମୀକରଣ E=mc^2 ପ୍ରତିପାଦନ କରିଥିଲେ?",
+    "options": [
+      "ଆଲବର୍ଟ ଆଇନଷ୍ଟାଇନ",
+      "ନିଲ୍ସ ବୋର",
+      "ମ୍ୟାକ୍ସ ପ୍ଲାଙ୍କ",
+      "ଅର୍ନେଷ୍ଟ ରଦରଫୋର୍ଡ"
+    ],
+    "answer": "ଆଲବର୍ଟ ଆଇନଷ୍ଟାଇନ",
+    "explanation": "ଆଲବର୍ଟ ଆଇନଷ୍ଟାଇନ ଆଧୁନିକ ପଦାର୍ଥ ବିଜ୍ଞାନର ଦୁଇଟି ସ୍ତମ୍ଭ ମଧ୍ୟରୁ ଏକ 'ଆପେକ୍ଷିକତା ତତ୍ତ୍ଵ' (Theory of Relativity) ବିକଶିତ କରିଥିଲେ ।"
+  },
+  {
+    "questionEnglish": "Which desert is recognized as the driest non-polar desert in the world, located in South America?",
+    "questionOdia": "ଦକ୍ଷିଣ ଆମେରିକାରେ ଅବସ୍ଥିତ ପୃଥିବୀର ସବୁଠାରୁ ଶୁଷ୍କ ଅଣ-ମେରୁ ମରୁଭୂମି ଭାବରେ କେଉଁଟି ଜଣାଶୁଣା?",
+    "options": [
+      "ଆଟାକାମା ମରୁଭୂମି (Atacama)",
+      "ପାଟାଗୋନିଆ ମରୁଭୂମି",
+      "ସୋନୋରାନ ମରୁଭୂମି",
+      "ନାମିବ ମରୁଭୂମି"
+    ],
+    "answer": "ଆଟାକାମା ମରୁଭୂମି (Atacama)",
+    "explanation": "ଚିଲିରେ ଅବସ୍ଥିତ ଆଟାକାମା ମରୁଭୂମିରେ କେତେକ ସ୍ଥାନରେ ଶତାବ୍ଦୀ ଧରି ଆଦୌ ବର୍ଷା ହୋଇନାହିଁ, ଯାହା ଏହାକୁ ଶୁଷ୍କତମ କରିଛି ।"
+  },
+  {
+    "questionEnglish": "Which international body officially coordinates and governs global public health safety?",
+    "questionOdia": "କେଉଁ ଆନ୍ତର୍ଜାତୀୟ ସଂସ୍ଥା ଆଧିକାରିକ ଭାବରେ ବିଶ୍ୱ ଜନସ୍ୱାସ୍ଥ୍ୟ ସୁରକ୍ଷାକୁ ସମନ୍ୱୟ ଏବଂ ପରିଚାଳନା କରେ?",
+    "options": [
+      "ବିଶ୍ୱ ସ୍ୱାସ୍ଥ୍ୟ ସଂଗଠନ (WHO)",
+      "ୟୁନେସ୍କୋ (UNESCO)",
+      "ରୋଗ ନିୟନ୍ତ୍ରଣ କେନ୍ଦ୍ର (CDC)",
+      "ରେଡକ୍ରସ ସୋସାଇଟି"
+    ],
+    "answer": "ବିଶ୍ୱ ସ୍ୱାସ୍ଥ୍ୟ ସଂଗଠନ (WHO)",
+    "explanation": "ମିଳିତ ଜାତିସଂଘର ଏକ ବିଶେଷ ସଂସ୍ଥା ଭାବରେ WHO (World Health Organization) ୧୯୪୮ ମସିହାରୁ ଆନ୍ତର୍ଜାତୀୟ ଜନସ୍ୱାସ୍ଥ୍ୟ ପାଇଁ କାର୍ଯ୍ୟ କରୁଛି ।"
+  },
+  {
+    "questionEnglish": "Which city is officially recognized as the administrative and political capital of Australia?",
+    "questionOdia": "ଅଷ୍ଟ୍ରେଲିଆର ପ୍ରଶାସନିକ ଏବଂ ରାଜନୈତିକ ରାଜଧାନୀ ଭାବରେ କେଉଁ ସହର ସ୍ୱୀକୃତିପ୍ରାପ୍ତ?",
+    "options": [
+      "କାନବେରା (Canberra)",
+      "ସିଡନୀ",
+      "ମେଲବୋର୍ଣ୍ଣ",
+      "ବ୍ରିସବେନ"
+    ],
+    "answer": "କାନବେରା (Canberra)",
+    "explanation": "ସିଡନୀ ଏବଂ ମେଲବୋର୍ଣ୍ଣ ମଧ୍ୟରେ ଚାଲିଥିବା ବିବାଦର ସମାଧାନ ପାଇଁ ୧୯୦୮ ମସିହାରେ କାନବେରାକୁ ଏକ ପରିକଳ୍ପିତ ସହର ଭାବେ ରାଜଧାନୀ କରାଯାଇଥିଲା ।"
+  },
+  {
+    "questionEnglish": "Which country features the historic monument 'Taj Mahal', built by Emperor Shah Jahan?",
+    "questionOdia": "ସମ୍ରାଟ ଶାହଜାହାନଙ୍କ ଦ୍ଵାରା ନିର୍ମିତ ଐତିହାସିକ କୀର୍ତ୍ତିସ୍ତମ୍ଭ 'ତାଜମହଲ' କେଉଁ ଦେଶରେ ଅବସ୍ଥିତ?",
+    "options": [
+      "ଭାରତ",
+      "ପାକିସ୍ତାନ",
+      "ବାଂଲାଦେଶ",
+      "ଇରାନ"
+    ],
+    "answer": "ଭାରତ",
+    "explanation": "ଭାରତର ଆଗ୍ରାଠାରେ ମୁଘଲ ସମ୍ରାଟ ଶାହଜାହାନ ତାଙ୍କ ପତ୍ନୀ ମୁମତାଜଙ୍କ ସ୍ମୃତିରେ ଶ୍ଵେତ ମାର୍ବଲରେ ଏହି ବିଶ୍ୱ ପ୍ରସିଦ୍ଧ ସ୍ଥାପତ୍ୟ ନିର୍ମାଣ କରିଥିଲେ ।"
+  },
+  {
+    "questionEnglish": "Which mineral is the primary constituent of natural limestone and chalk?",
+    "questionOdia": "ପ୍ରାକୃତିକ ଚୂନ ପଥର (Limestone) ଏବଂ ଖଡ଼ିର ମୁଖ୍ୟ ଉପାଦାନ କେଉଁ ଖଣିଜ ପଦାର୍ଥ ଅଟେ?",
+    "options": [
+      "କାଲସିୟମ କାର୍ବୋନେଟ୍",
+      "ସିଲିକା",
+      "ସୋଡିୟମ କ୍ଲୋରାଇଡ୍",
+      "ଜିପସମ"
+    ],
+    "answer": "କାଲସିୟମ କାର୍ବୋନେଟ୍",
+    "explanation": "ଚୂନ ପଥର ମୁଖ୍ୟତଃ କାଲସିୟମ କାର୍ବୋନେଟ୍ (CaCO3) ଖଣିଜ ଦ୍ଵାରା ଗଠିତ ଏକ ସେଡିମେଣ୍ଟାରୀ ବା ଅବକ୍ଷିପ୍ତ ଶିଳା ।"
+  },
+  {
+    "questionEnglish": "Who was the first woman to be awarded a Nobel Prize, and the only person to win in two different sciences?",
+    "questionOdia": "ନୋବେଲ ପୁରସ୍କାର ପାଇଥିବା ପ୍ରଥମ ମହିଳା କିଏ ଥିଲେ, ଏବଂ ଦୁଇଟି ଭିନ୍ନ ବିଜ୍ଞାନ କ୍ଷେତ୍ରରେ ଜିତିଥିବା ଏକମାତ୍ର ବ୍ୟକ୍ତି କିଏ?",
+    "options": [
+      "ମ୍ୟାରୀ କ୍ୟୁରୀ (Marie Curie)",
+      "ରୋଜାଲିଣ୍ଡ ଫ୍ରାଙ୍କଲିନ",
+      "ଡୋରୋଥି ହଜକିନ",
+      "ଜେନ ଗୁଡାଲ"
+    ],
+    "answer": "ମ୍ୟାରୀ କ୍ୟୁରୀ (Marie Curie)",
+    "explanation": "ମ୍ୟାରୀ କ୍ୟୁରୀ ପଦାର୍ଥ ବିଜ୍ଞାନ (୧୯୦୩) ଏବଂ ରସାୟନ ବିଜ୍ଞାନ (୧୯୧୧) ଉଭୟ କ୍ଷେତ୍ରରେ ତେଜସ୍କ୍ରିୟତା ଉପରେ ଗବେଷଣା ପାଇଁ ନୋବେଲ ପୁରସ୍କାର ପାଇଥିଲେ ।"
+  },
+  {
+    "questionEnglish": "Which European peak is famously known as the highest mountain in the Alps range?",
+    "questionOdia": "ଆଲ୍ପସ ପର୍ବତମାଳାର ସବୁଠାରୁ ଉଚ୍ଚତମ ଶୃଙ୍ଗ ଭାବରେ କେଉଁ ୟୁରୋପୀୟ ଶିଖର ପ୍ରସିଦ୍ଧ?",
+    "options": [
+      "ମଣ୍ଟ ବ୍ଲାନକ (Mont Blanc)",
+      "ମ୍ୟାଟରହର୍ଣ୍ଣ",
+      "ମାଉଣ୍ଟ ଏଲବ୍ରୁସ",
+      "ଜୁଙ୍ଗଫ୍ରାଉ"
+    ],
+    "answer": "ମଣ୍ଟ ବ୍ଲାନକ (Mont Blanc)",
+    "explanation": "ମଣ୍ଟ ବ୍ଲାନକ ଫ୍ରାନ୍ସ ଏବଂ ଇଟାଲୀ ସୀମାରେ ଅବସ୍ଥିତ ଆଲ୍ପସ ପର୍ବତମାଳାର ସବୁଠାରୁ ଉଚ୍ଚ ଶୃଙ୍ଗ, ଯାହାର ଉଚ୍ଚତା ପ୍ରାୟ ୪,୮୦୭ ମିଟର ।"
+  },
+  {
+    "questionEnglish": "Which country is the second largest in the world by total geographical land area?",
+    "questionOdia": "ମୋଟ ଭୌଗୋଳିକ କ୍ଷେତ୍ରଫଳ ଅନୁସାରେ ପୃଥିବୀର ଦ୍ଵିତୀୟ ବୃହତ୍ତମ ଦେଶ କେଉଁଟି?",
+    "options": [
+      "କାନାଡା",
+      "ଆମେରିକା",
+      "ଚୀନ",
+      "ବ୍ରାଜିଲ"
+    ],
+    "answer": "କାନାଡା",
+    "explanation": "ଋଷ ପରେ କାନାଡା ହେଉଛି ବିଶ୍ୱର ଦ୍ଵିତୀୟ ବୃହତ୍ତମ ଦେଶ, ଯାହାର ସାମୁଦ୍ରିକ ଉପକୂଳରେଖା ବିଶ୍ୱର ସବୁଠାରୁ ଦୀର୍ଘତମ ।"
+  },
+  {
+    "questionEnglish": "Which device is designed to step up or step down AC electrical voltage in a power circuit?",
+    "questionOdia": "ପାୱାର ସର୍କିଟରେ ଏସି (AC) ବୈଦ୍ୟୁତିକ ଭୋଲଟେଜକୁ ବୃଦ୍ଧି ବା ହ୍ରାସ କରିବା ପାଇଁ କେଉଁ ଯନ୍ତ୍ର ନିର୍ମିତ ହୋଇଛି?",
+    "options": [
+      "ଟ୍ରାନ୍ସଫର୍ମର (Transformer)",
+      "ଜେନେରେଟର",
+      "ମୋଟର",
+      "ଇନଭର୍ଟର"
+    ],
+    "answer": "ଟ୍ରାନ୍ସଫର୍ମର (Transformer)",
+    "explanation": "ଟ୍ରାନ୍ସଫର୍ମର ବିଦ୍ୟୁତ ଚୁମ୍ବକୀୟ ପ୍ରେରଣ ନିୟମ ଆଧାରରେ କାମ କରି ଏସି ଭୋଲଟେଜକୁ ବଦଳାଇଥାଏ, କିନ୍ତୁ ଏହା ଆବୃତ୍ତି (frequency) ବଦଳାଏ ନାହିଁ ।"
+  },
+  {
+    "questionEnglish": "Which official currency is utilized in South Africa?",
+    "questionOdia": "ଦକ୍ଷିଣ ଆଫ୍ରିକାରେ ଆଧିକାରିକ ଭାବରେ କେଉଁ ମୁଦ୍ରା ବ୍ୟବହାର କରାଯାଏ?",
+    "options": [
+      "ରାଣ୍ଡ (Rand)",
+      "ଶିଲିଙ୍ଗ",
+      "ଦିନାର",
+      "ପାଉଣ୍ଡ"
+    ],
+    "answer": "ରାଣ୍ଡ (Rand)",
+    "explanation": "ଦକ୍ଷିଣ ଆଫ୍ରିକୀୟ ରାଣ୍ଡ (ZAR) ହେଉଛି ଦକ୍ଷିଣ ଆଫ୍ରିକାର ସରକାରୀ ମୁଦ୍ରା, ଯାହା ୧୯୬୧ ମସିହାରେ ପ୍ରଚଳିତ ହୋଇଥିଲା ।"
+  },
+  {
+    "questionEnglish": "Which fundamental particles orbit the central nucleus of an atom and carry a negative charge?",
+    "questionOdia": "କେଉଁ ମୌଳିକ କଣିକାଗୁଡ଼ିକ ପରମାଣୁର କେନ୍ଦ୍ରୀୟ ନ୍ୟଷ୍ଟି ଚାରିପଟେ ଘୁରିବୁଲନ୍ତି ଏବଂ ବିଯୁକ୍ତାତ୍ମକ ଚାର୍ଜ ବହନ କରନ୍ତି?",
+    "options": [
+      "ଇଲେକ୍ଟ୍ରୋନ",
+      "ପ୍ରୋଟୋନ",
+      "ନ୍ୟୁଟ୍ରୋନ",
+      "ପୋଜିଟ୍ରୋନ"
+    ],
+    "answer": "ଇଲେକ୍ଟ୍ରୋନ",
+    "explanation": "ପରମାଣୁର ନ୍ୟଷ୍ଟିରେ ଧନାତ୍ମକ ପ୍ରୋଟୋନ ଏବଂ ଚାର୍ଜହୀନ ନ୍ୟୁଟ୍ରୋନ ଥାଆନ୍ତି, ଯେତେବେଳେ କି ବିଯୁକ୍ତାତ୍ମକ ଇଲେକ୍ଟ୍ରୋନ ବାହାରେ ଘୁରିଥାନ୍ତି ।"
+  },
+  {
+    "questionEnglish": "Which country is completely landlocked within Italy, surrounding the Mount Titano?",
+    "questionOdia": "ଇଟାଲୀ ମଧ୍ୟରେ କେଉଁ ଦେଶ ସମ୍ପୂର୍ଣ୍ଣ ରୂପେ ସ୍ଥଳବେଷ୍ଟିତ ହୋଇ ରହିଛି, ଯାହା ମାଉଣ୍ଟ ଟିଟାନୋକୁ ଘେରି ରହିଛି?",
+    "options": [
+      "ସାନ ମାରିନୋ (San Marino)",
+      "ମୋନାକୋ",
+      "ଲିଚ୍ଟେନଷ୍ଟାଇନ",
+      "ଆଣ୍ଡୋରା"
+    ],
+    "answer": "ସାନ ମାରିନୋ (San Marino)",
+    "explanation": "ସାନ ମାରିନୋ ବିଶ୍ୱର ସବୁଠାରୁ ପୁରାତନ ସାମ୍ବିଧାନିକ ଗଣତନ୍ତ୍ର ଏବଂ ଏହା ଭାଟିକାନ ସିଟି ପରି ଇଟାଲୀ ଦ୍ଵାରା ଆବଦ୍ଧ ।"
+  },
+  {
+    "questionEnglish": "Which is the largest and most dense tropical rainforest in the world, covering South America?",
+    "questionOdia": "ଦକ୍ଷିଣ ଆମେରିକାରେ ଅବସ୍ଥିତ ପୃଥିବୀର ସବୁଠାରୁ ବଡ଼ ଏବଂ ସବୁଠାରୁ ଘଞ୍ଚ କ୍ରାନ୍ତୀୟ ବର୍ଷାରଣ୍ୟ କେଉଁଟି?",
+    "options": [
+      "ଆମାଜନ ବର୍ଷାରଣ୍ୟ",
+      "କଙ୍ଗୋ ବର୍ଷାରଣ୍ୟ",
+      "ଦକ୍ଷିଣ-ପୂର୍ବ ଏସିଆ ବର୍ଷାରଣ୍ୟ",
+      "ମାଡାଗାସ୍କର ବର୍ଷାରଣ୍ୟ"
+    ],
+    "answer": "ଆମାଜନ ବର୍ଷାରଣ୍ୟ",
+    "explanation": "ଆମାଜନ ବର୍ଷାରଣ୍ୟକୁ 'ପୃଥିବୀର ଫୁସଫୁସ' କୁହାଯାଏ କାରଣ ଏହା ବିଶ୍ୱର ବାୟୁମଣ୍ଡଳ ପାଇଁ ବହୁ ପରିମାଣର ଅମ୍ଳଜାନ ଉତ୍ପନ୍ନ କରିଥାଏ ।"
+  },
+  {
+    "questionEnglish": "Who is credited with inventing the world's first successful motor-operated airplane?",
+    "questionOdia": "ବିଶ୍ୱର ପ୍ରଥମ ସଫଳ ମୋଟର ଚାଳିତ ବିମାନ ଆବିଷ୍କାର କରିବାର ଶ୍ରେୟ କାହାକୁ ଦିଆଯାଏ?",
+    "options": [
+      "ୱ୍ରାଇଟ୍ ଭ୍ରାତା (Wright Brothers)",
+      "ଥୋମାସ ଆଲଭା ଏଡିସନ",
+      "ହେନରୀ ଫୋର୍ଡ",
+      "ଆଲେକ୍ସଜାଣ୍ଡାର୍ ଗ୍ରାହାମ୍ ବେଲ୍"
+    ],
+    "answer": "ୱ୍ରାଇଟ୍ ଭ୍ରାତା (Wright Brothers)",
+    "explanation": "୧୯୦୩ ମସିହାରେ ଅରଭିଲ୍ ଏବଂ ୱିଲବର୍ ୱ୍ରାଇଟ୍ (Wright Brothers) ବିଶ୍ୱର ପ୍ରଥମ ସଫଳ ନିୟନ୍ତ୍ରିତ ଓ ମୋଟର ଚାଳିତ ବିମାନ ଉଡ଼ାଇଥିଲେ ।"
+  }
 ]
