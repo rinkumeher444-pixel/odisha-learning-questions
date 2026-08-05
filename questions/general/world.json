@@ -1086,7 +1086,7 @@
 },
 {
 "questionEnglish": "Which chemical base is explicitly identified by having a pH numerical value of exactly 7?",
-"questionOdia": "ଠିକ୍ ୭ pH ମୂଲ୍ୟ ଥିବା ପଦାର୍ଥକୁ କଣ କୁହାଯାଏ?",
+"questionOdia": "ଠିକ୍ ୭ pH ମୂଲ୍ୟ ଥିବା ପଦାର୍ଥକୁ କଣ   କୁହାଯାଏ?/",
 "options": [
 "ପ୍ରଶମିତ (Neutral)",
 "ଅମ୍ଳୀୟ (Acidic)",
