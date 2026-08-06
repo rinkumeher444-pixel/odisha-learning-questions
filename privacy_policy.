@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - ଗୋପନୀୟତା ନୀତି</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Oriya:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --primary-light: #e0e7ff;
+            --accent: #06b6d4;
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --text-light: #94a3b8;
+            --bg-page: #f1f5f9;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --radius-xl: 24px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --text-main: #f1f5f9;
+                --text-muted: #94a3b8;
+                --text-light: #64748b;
+                --bg-page: #0f172a;
+                --card-bg: #1e293b;
+                --border-color: #334155;
+                --primary-light: #1e1b4b;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 100px;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans Oriya', 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-page);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* Progress Bar */
+        .progress-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: transparent;
+            z-index: 1000;
+        }
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            width: 0%;
+            transition: width 0.1s;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #06b6d4 100%);
+            color: white;
+            padding: 80px 24px 60px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+            opacity: 0.3;
+            animation: float 20s linear infinite;
+        }
+        @keyframes float {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(20px, 20px); }
+        }
+        .header-content {
+            position: relative;
+            z-index: 1;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .header-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 500;
+            margin-bottom: 24px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 16px;
+            font-weight: 800;
+            line-height: 1.2;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header p {
+            font-size: 17px;
+            opacity: 0.92;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .header-shield {
+            font-size: 56px;
+            margin-bottom: 20px;
+            display: inline-block;
+            animation: pulse 3s ease-in-out infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        /* Layout */
+        .main-wrapper {
+            max-width: 900px;
+            margin: -40px auto 0;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .container {
+            background: var(--card-bg);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-xl);
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+
+        .content {
+            padding: 40px 32px;
+        }
+
+        /* TOC */
+        .toc-wrapper {
+            background: linear-gradient(135deg, var(--primary-light), rgba(6,182,212,0.05));
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            margin-bottom: 40px;
+            position: sticky;
+            top: 20px;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+        .toc-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--primary-dark);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .toc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 8px;
+        }
+        .toc-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 14px;
+            background: var(--card-bg);
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            color: var(--text-muted);
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s;
+            border: 1px solid transparent;
+        }
+        .toc-item:hover {
+            color: var(--primary-dark);
+            border-color: var(--primary);
+            transform: translateX(4px);
+            box-shadow: var(--shadow-sm);
+        }
+        .toc-num {
+            background: var(--primary);
+            color: white;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        /* Section Headers */
+        h2 {
+            font-size: 22px;
+            color: var(--text-main);
+            margin-bottom: 20px;
+            margin-top: 40px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        h2:first-of-type {
+            margin-top: 0;
+        }
+        .section-icon {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            flex-shrink: 0;
+            box-shadow: 0 4px 12px rgba(99,102,241,0.3);
+        }
+
+        /* Cards */
+        .card-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            margin-bottom: 32px;
+        }
+        .policy-card {
+            display: flex;
+            align-items: flex-start;
+            gap: 18px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 20px 22px;
+            border-radius: var(--radius-md);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: default;
+            position: relative;
+            overflow: hidden;
+        }
+        .policy-card::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: linear-gradient(to bottom, var(--primary), var(--accent));
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .policy-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--primary-light);
+        }
+        .policy-card:hover::before {
+            opacity: 1;
+        }
+        .policy-icon {
+            background: linear-gradient(135deg, var(--primary-light), rgba(6,182,212,0.1));
+            color: var(--primary-dark);
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 20px;
+            transition: transform 0.3s;
+        }
+        .policy-card:hover .policy-icon {
+            transform: scale(1.1) rotate(-5deg);
+        }
+        .policy-text {
+            font-size: 15px;
+            color: var(--text-muted);
+            line-height: 1.6;
+            font-weight: 500;
+        }
+        .policy-text strong {
+            color: var(--text-main);
+            font-weight: 600;
+        }
+
+        /* Section Box */
+        .section-box {
+            background: linear-gradient(135deg, var(--primary-light), rgba(6,182,212,0.03));
+            border: 1px solid var(--border-color);
+            padding: 24px;
+            border-radius: var(--radius-md);
+            margin-bottom: 24px;
+            color: var(--text-muted);
+            font-size: 15px;
+            line-height: 1.8;
+            position: relative;
+            overflow: hidden;
+        }
+        .section-box::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, var(--primary), transparent 70%);
+            opacity: 0.05;
+            border-radius: 50%;
+        }
+
+        /* Accordion */
+        .accordion {
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            margin-bottom: 12px;
+            background: var(--card-bg);
+            transition: box-shadow 0.3s;
+        }
+        .accordion:hover {
+            box-shadow: var(--shadow-md);
+        }
+        .accordion-header {
+            padding: 18px 22px;
+            background: transparent;
+            border: none;
+            width: 100%;
+            text-align: left;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-main);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            transition: background 0.2s;
+            font-family: inherit;
+        }
+        .accordion-header:hover {
+            background: var(--primary-light);
+        }
+        .accordion-header-content {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .accordion-icon {
+            width: 32px;
+            height: 32px;
+            background: var(--primary-light);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+        .accordion-arrow {
+            transition: transform 0.3s;
+            color: var(--primary);
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .accordion.active .accordion-arrow {
+            transform: rotate(180deg);
+        }
+        .accordion-body {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out, padding 0.4s;
+            padding: 0 22px;
+        }
+        .accordion.active .accordion-body {
+            max-height: 500px;
+            padding: 0 22px 20px;
+        }
+        .accordion-body p {
+            color: var(--text-muted);
+            line-height: 1.8;
+            font-size: 15px;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background: linear-gradient(135deg, var(--primary), #7c3aed);
+            color: white;
+            padding: 32px;
+            border-radius: var(--radius-lg);
+            margin-top: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .contact-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .contact-section h3 {
+            font-size: 20px;
+            margin-bottom: 12px;
+            position: relative;
+        }
+        .contact-section p {
+            opacity: 0.9;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: white;
+            color: var(--primary-dark);
+            padding: 12px 28px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.3s;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .contact-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 28px;
+            font-size: 13px;
+            color: var(--text-light);
+            border-top: 1px solid var(--border-color);
+            background: linear-gradient(to bottom, var(--card-bg), var(--bg-page));
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+        .footer-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.6s ease forwards;
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .delay-1 { animation-delay: 0.1s; }
+        .delay-2 { animation-delay: 0.2s; }
+        .delay-3 { animation-delay: 0.3s; }
+        .delay-4 { animation-delay: 0.4s; }
+        .delay-5 { animation-delay: 0.5s; }
+
+        /* Print Styles */
+        @media print {
+            .progress-container, .toc-wrapper, .accordion-header, .contact-section { display: none; }
+            .accordion-body { max-height: none !important; padding: 0 22px 20px !important; }
+            body { background: white; }
+            .container { box-shadow: none; border: 1px solid #ddd; }
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .header { padding: 60px 20px 40px; }
+            .header h1 { font-size: 26px; }
+            .content { padding: 24px 20px; }
+            h2 { font-size: 18px; }
+            .toc-grid { grid-template-columns: 1fr; }
+            .policy-card { padding: 16px; }
+            .contact-section { padding: 24px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="header-content">
+            <div class="header-shield">🛡️</div>
+            <div class="header-badge">
+                <span>📅</span>
+                <span>Last Updated: August 2026</span>
+            </div>
+            <h1>ଆପଣଙ୍କ ଗୋପନୀୟତା ଆମ ପାଇଁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ</h1>
+            <p>ଆପଣଙ୍କ ବ୍ୟକ୍ତିଗତ ସୂଚନାର ସୁରକ୍ଷା ଏବଂ ଏକ ସୁରକ୍ଷିତ ଶିକ୍ଷାମୂଳକ ପରିବେଶ ପ୍ରଦାନ କରିବା ପାଇଁ ଆମେ ସର୍ବଦା ପ୍ରତିବଦ୍ଧ।</p>
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="content">
+
+                <!-- Table of Contents -->
+                <div class="toc-wrapper fade-in">
+                    <div class="toc-title">📑 Quick Navigation</div>
+                    <div class="toc-grid">
+                        <a href="#highlights" class="toc-item"><span class="toc-num">1</span> Key Highlights</a>
+                        <a href="#collect" class="toc-item"><span class="toc-num">2</span> Data Collection</a>
+                        <a href="#usage" class="toc-item"><span class="toc-num">3</span> How We Use</a>
+                        <a href="#thirdparty" class="toc-item"><span class="toc-num">4</span> Third Party</a>
+                        <a href="#security" class="toc-item"><span class="toc-num">5</span> Security</a>
+                        <a href="#rights" class="toc-item"><span class="toc-num">6</span> Your Rights</a>
+                    </div>
+                </div>
+
+                <!-- Key Highlights -->
+                <h2 id="highlights" class="fade-in delay-1">
+                    <span class="section-icon">✨</span>
+                    ମୁଖ୍ୟ ବିଷୟବସ୍ତୁ (Key Highlights)
+                </h2>
+                <div class="card-list">
+                    <div class="policy-card fade-in delay-1">
+                        <div class="policy-icon">🎓</div>
+                        <div class="policy-text">ଏହି ଆପ୍ କେବଳ <strong>ଶିକ୍ଷା ଏବଂ ଅଭ୍ୟାସ</strong> ଉଦ୍ଦେଶ୍ୟରେ ପ୍ରସ୍ତୁତ କରାଯାଇଛି।</div>
+                    </div>
+                    <div class="policy-card fade-in delay-2">
+                        <div class="policy-icon">🛡️</div>
+                        <div class="policy-text">ଆମେ ଛାତ୍ରଛାତ୍ରୀଙ୍କ <strong>କୌଣସି ସମ୍ବେଦନଶୀଳ ବ୍ୟକ୍ତିଗତ ସୂଚନା</strong> ସଂଗ୍ରହ କରୁନାହୁଁ।</div>
+                    </div>
+                    <div class="policy-card fade-in delay-3">
+                        <div class="policy-icon">📊</div>
+                        <div class="policy-text">ଲିଡରବୋର୍ଡ ଏବଂ XP ବୈଶିଷ୍ଟ୍ୟ ପାଇଁ କେବଳ <strong>ମୌଳିକ ପ୍ରୋଫାଇଲ୍ ସୂଚନା</strong> ବ୍ୟବହାର କରାଯାଇପାରେ।</div>
+                    </div>
+                    <div class="policy-card fade-in delay-4">
+                        <div class="policy-icon">🔒</div>
+                        <div class="policy-text">ଆପଣଙ୍କ ସୂଚନା <strong>ସୁରକ୍ଷିତ ରହିବ</strong>। ଏହା କେବେବି ବିକ୍ରୟ କିମ୍ବା ତୃତୀୟ ପକ୍ଷ ସହିତ ସେୟାର କରାଯିବ ନାହିଁ।</div>
+                    </div>
+                    <div class="policy-card fade-in delay-5">
+                        <div class="policy-icon">✅</div>
+                        <div class="policy-text">ଏହି ଆପ୍ ବ୍ୟବହାର କରି ଆପଣ ଏହି ଗୋପନୀୟତା ନୀତିକୁ <strong>ସ୍ୱୀକାର କରୁଛନ୍ତି</strong>।</div>
+                    </div>
+                </div>
+
+                <!-- Data Collection -->
+                <h2 id="collect" class="fade-in">
+                    <span class="section-icon">📋</span>
+                    ଆମେ କେଉଁ ସୂଚନା ସଂଗ୍ରହ କରୁ
+                </h2>
+                <div class="section-box fade-in">
+                    ଆମେ ବ୍ୟବହାରକାରୀଙ୍କ ଦ୍ୱାରା ସ୍ୱଇଚ୍ଛାରେ ପ୍ରଦାନ କରାଯାଇଥିବା ନାମ, ବିଦ୍ୟାଳୟର ନାମ ଏବଂ ମୋବାଇଲ୍ ନମ୍ବର ପରି ମୌଳିକ ସୂଚନା କେବଳ ଶିକ୍ଷାମୂଳକ ବୈଶିଷ୍ଟ୍ୟ ଏବଂ ଲିଡରବୋର୍ଡ ପାଇଁ ବ୍ୟବହାର କରିପାରିବୁ।
+                </div>
+
+                <!-- How We Use -->
+                <h2 id="usage" class="fade-in">
+                    <span class="section-icon">🎯</span>
+                    ସୂଚନାର ବ୍ୟବହାର
+                </h2>
+                <div class="accordion fade-in">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="accordion-header-content">
+                            <span class="accordion-icon">📚</span>
+                            ଶିକ୍ଷାମୂଳକ ଉଦ୍ଦେଶ୍ୟ
+                        </span>
+                        <span class="accordion-arrow">⌄</span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>ଆମେ ଆପଣଙ୍କ ସୂଚନାକୁ କେବଳ ଶିକ୍ଷାମୂଳକ ବୈଶିଷ୍ଟ୍ୟ ଯଥା କୁଇଜ୍, ପ୍ରଗତି ଟ୍ରାକିଂ, ଏବଂ ପର୍ସନାଲାଇଜଡ୍ ଲର୍ଣିଂ ପାଇଁ ବ୍ୟବହାର କରୁ।</p>
+                    </div>
+                </div>
+                <div class="accordion fade-in">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="accordion-header-content">
+                            <span class="accordion-icon">🏆</span>
+                            ଲିଡରବୋର୍ଡ ଏବଂ XP
+                        </span>
+                        <span class="accordion-arrow">⌄</span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>ଲିଡରବୋର୍ଡ ପ୍ରଦର୍ଶନ ଏବଂ XP ପଏଣ୍ଟ ଟ୍ରାକିଂ ପାଇଁ ଆପଣଙ୍କ ନାମ ଏବଂ ସ୍କୋର୍ ସାର୍ବଜନୀନ ଭାବରେ ଦେଖାଯାଇପାରେ।</p>
+                    </div>
+                </div>
+                <div class="accordion fade-in">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="accordion-header-content">
+                            <span class="accordion-icon">🔔</span>
+                            ନୋଟିଫିକେସନ୍
+                        </span>
+                        <span class="accordion-arrow">⌄</span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>ଶିକ୍ଷାମୂଳକ ଅପଡେଟ୍, ନୂଆ କୋର୍ସ ଏବଂ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଘୋଷଣା ପାଇଁ ଆମେ ପୁସ୍ ନୋଟିଫିକେସନ୍ ପଠାଇପାରୁ।</p>
+                    </div>
+                </div>
+
+                <!-- Third Party -->
+                <h2 id="thirdparty" class="fade-in">
+                    <span class="section-icon">🔗</span>
+                    Third Party Services
+                </h2>
+                <div class="section-box fade-in">
+                    ଏହି ଆପ୍ Google AdMob, Firebase ଏବଂ ଅନ୍ୟାନ୍ୟ ତୃତୀୟ ପକ୍ଷ ସେବା ବ୍ୟବହାର କରିପାରେ। ସେମାନେ ନିଜସ୍ୱ ଗୋପନୀୟତା ନୀତି ଅନୁଯାୟୀ ଡିଭାଇସ୍ ଏବଂ ବ୍ୟବହାର ସମ୍ବନ୍ଧୀୟ ସୂଚନା ସଂଗ୍ରହ କରିପାରନ୍ତି।
+                </div>
+
+                <!-- Security -->
+                <h2 id="security" class="fade-in">
+                    <span class="section-icon">🔐</span>
+                    ସୁରକ୍ଷା ବ୍ୟବସ୍ଥା
+                </h2>
+                <div class="card-list">
+                    <div class="policy-card fade-in">
+                        <div class="policy-icon">🔑</div>
+                        <div class="policy-text">SSL Encryption ମାଧ୍ୟମରେ ସମସ୍ତ ଡାଟା ଟ୍ରାନ୍ସମିସନ୍ ସୁରକ୍ଷିତ କରାଯାଇଥାଏ।</div>
+                    </div>
+                    <div class="policy-card fade-in">
+                        <div class="policy-icon">☁️</div>
+                        <div class="policy-text">Firebase Security Rules ଦ୍ୱାରା ଡାଟାବେସ୍ ସୁରକ୍ଷା ନିଶ୍ଚିତ କରାଯାଇଛି।</div>
+                    </div>
+                    <div class="policy-card fade-in">
+                        <div class="policy-icon">🗑️</div>
+                        <div class="policy-text">ଆପଣ ଚାହିଲେ ଯେକୋନୋସି ସମୟରେ ନିଜ ଡାଟା ଡିଲିଟ୍ କରିପାରିବେ।</div>
+                    </div>
+                </div>
+
+                <!-- Rights -->
+                <h2 id="rights" class="fade-in">
+                    <span class="section-icon">⚖️</span>
+                    ଆପଣଙ୍କ ଅଧିକାର
+                </h2>
+                <div class="section-box fade-in">
+                    <ul style="margin-left: 20px; margin-top: 8px;">
+                        <li>ନିଜର ଡାଟା ଦେଖିବାର ଅଧିକାର</li>
+                        <li>ଡାଟା ସଂଶୋଧନ କରିବାର ଅଧିକାର</li>
+                        <li>ଡାଟା ଡିଲିଟ୍ କରିବାର ଅଧିକାର (Right to be Forgotten)</li>
+                        <li>ମାର୍କେଟିଂ କମ୍ୟୁନିକେସନ୍ ରୁ ବିଦାୟ ନେବାର ଅଧିକାର</li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="contact-section fade-in">
+                    <h3>📧 ପ୍ରଶ୍ନ ଅଛି କି?</h3>
+                    <p>ଗୋପନୀୟତା ସମ୍ବନ୍ଧୀୟ ଯେକୋନୋସି ପ୍ରଶ୍ନରେ ଆମକୁ ସିଧାସଳଖ ଯୋଗାଯୋଗ କରନ୍ତୁ।</p>
+                    <a href="mailto:privacy@example.com" class="contact-btn">
+                        <span>✉️</span> Contact Us
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="footer">
+                <div class="footer-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">GDPR Compliance</a>
+                </div>
+                <div>&copy; 2026 App Privacy Policy. All rights reserved.</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Progress Bar
+        window.onscroll = function() {
+            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrolled = (winScroll / height) * 100;
+            document.getElementById("progressBar").style.width = scrolled + "%";
+        };
+
+        // Accordion
+        function toggleAccordion(button) {
+            const accordion = button.parentElement;
+            const isActive = accordion.classList.contains('active');
+
+            // Close all
+            document.querySelectorAll('.accordion').forEach(acc => {
+                acc.classList.remove('active');
+            });
+
+            // Open clicked if it wasn't active
+            if (!isActive) {
+                accordion.classList.add('active');
+            }
+        }
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationPlayState = 'running';
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            el.style.animationPlayState = 'paused';
+            observer.observe(el);
+        });
+    </script>
+
+</body>
+</html>
