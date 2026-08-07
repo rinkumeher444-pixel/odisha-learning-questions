@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delete Account - Odisha Learning</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: #f3f0ff;
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .ol-card {
+    background: #ffffff;
+    max-width: 720px;
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 0 20px 60px rgba(124, 58, 237, 0.15), 0 4px 12px rgba(124, 58, 237, 0.08);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .ol-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: #7c3aed;
+  }
+
+  .ol-header {
+    background: #7c3aed;
+    color: white;
+    padding: 40px 40px 30px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .ol-header::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    width: 120px;
+    height: 120px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 50%;
+  }
+
+  .ol-header::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 80px;
+    height: 80px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 50%;
+  }
+
+  .ol-header h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0 0 8px 0;
+    color: #ffffff;
+    letter-spacing: -0.5px;
+  }
+
+  .ol-header p {
+    margin: 0;
+    font-size: 15px;
+    opacity: 0.9;
+    font-weight: 400;
+  }
+
+  .ol-body {
+    padding: 35px 40px 40px;
+  }
+
+  .ol-section {
+    margin-bottom: 32px;
+  }
+
+  .ol-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .ol-section-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #6b21a8;
+    margin: 0 0 16px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ede9fe;
+  }
+
+  .ol-icon {
+    width: 32px;
+    height: 32px;
+    background: #ede9fe;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+
+  .ol-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ol-steps li {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px solid #f5f3ff;
+    transition: all 0.2s ease;
+    cursor: default;
+  }
+
+  .ol-steps li:last-child {
+    border-bottom: none;
+  }
+
+  .ol-steps li:hover {
+    background: #faf8ff;
+    margin: 0 -16px;
+    padding: 14px 16px;
+    border-radius: 12px;
+    border-bottom-color: transparent;
+  }
+
+  .step-num {
+    min-width: 36px;
+    height: 36px;
+    background: #8b5cf6;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+  }
+
+  .step-text {
+    font-size: 15px;
+    color: #4b5563;
+    line-height: 1.6;
+    padding-top: 6px;
+  }
+
+  .step-text b {
+    color: #6b21a8;
+    font-weight: 600;
+  }
+
+  .ol-data-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ol-data-list li {
+    background: #f5f3ff;
+    color: #6b21a8;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #ede9fe;
+    transition: all 0.2s ease;
+  }
+
+  .ol-data-list li:hover {
+    background: #ede9fe;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.1);
+  }
+
+  .ol-data-list li::before {
+    content: '✕';
+    color: #a855f7;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .ol-retention {
+    background: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 16px 20px;
+    border-radius: 0 12px 12px 0;
+    font-size: 15px;
+    color: #92400e;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .ol-retention-icon {
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+
+  .ol-footer {
+    background: #faf8ff;
+    padding: 24px 40px;
+    border-top: 1px solid #ede9fe;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .ol-email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: #4b5563;
+  }
+
+  .ol-email b {
+    color: #7c3aed;
+    background: #ede9fe;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .ol-badge {
+    background: #7c3aed;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+
+  @media (max-width: 600px) {
+    .ol-header { padding: 28px 24px 24px; }
+    .ol-header h1 { font-size: 24px; }
+    .ol-body { padding: 24px; }
+    .ol-footer { padding: 20px 24px; flex-direction: column; align-items: flex-start; }
+    .ol-data-list { grid-template-columns: 1fr; }
+  }
+</style>
+<base target="_blank">
+</head>
+<body>
+
+<div class="ol-card">
+  <div class="ol-header">
+    <h1>Delete Your Account</h1>
+    <p>If you wish to delete your Odisha Learning account and associated data, please follow the steps below.</p>
+  </div>
+
+  <div class="ol-body">
+    <div class="ol-section">
+      <h3 class="ol-section-title">
+        <span class="ol-icon">📋</span>
+        Steps to Delete
+      </h3>
+      <ol class="ol-steps">
+        <li>
+          <span class="step-num">1</span>
+          <span class="step-text">Open the <b>Odisha Learning</b> app on your device.</span>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <span class="step-text">Navigate to your <b>Profile</b> section.</span>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <span class="step-text">Tap on <b>Delete Account</b> option.</span>
+        </li>
+        <li>
+          <span class="step-num">4</span>
+          <span class="step-text">Confirm your request to proceed.</span>
+        </li>
+      </ol>
+    </div>
+
+    <div class="ol-section">
+      <h3 class="ol-section-title">
+        <span class="ol-icon">🗑️</span>
+        Data That Will Be Deleted
+      </h3>
+      <ul class="ol-data-list">
+        <li>Name</li>
+        <li>Mobile Number</li>
+        <li>School Name</li>
+        <li>Quiz Progress</li>
+        <li>XP Points</li>
+        <li>Leaderboard Data</li>
+      </ul>
+    </div>
+
+    <div class="ol-section">
+      <h3 class="ol-section-title">
+        <span class="ol-icon">⏳</span>
+        Data Retention
+      </h3>
+      <div class="ol-retention">
+        <span class="ol-retention-icon">⚠️</span>
+        <span>Your data will be permanently deleted within <b>30 days</b> of your request.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ol-footer">
+    <div class="ol-email">
+      📧 <b>lingarajmeher423@gmail.com</b>
+    </div>
+    <div class="ol-badge">Odisha Learning</div>
+  </div>
+</div>
+
+</body>
+</html>
