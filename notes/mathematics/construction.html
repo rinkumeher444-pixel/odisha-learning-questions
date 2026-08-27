@@ -1,1 +1,428 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ସମାନ୍ତର ପ୍ରଗତି — ଓଡ଼ିଆ Visual Mathematics Lecture</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f4f1e8;color:#182338;font-family:"Noto Sans Oriya","Nirmala UI","Noto Sans",sans-serif;line-height:1.78}
+.hero{background:linear-gradient(135deg,#10213f,#315f9b,#16766a);color:white;padding:52px 18px}
+.wrap{max-width:1100px;margin:auto;padding:0 18px 70px}
+.hero h1{font-size:46px;line-height:1.1;margin:12px 0 5px}
+.hero .en{font-size:20px;color:#ffe0a0}
+.hero p{max-width:950px;color:#e6edf8}
+.badge{display:inline-block;padding:6px 12px;border:1px solid #ffffff55;border-radius:999px;font-size:12px}
+.section{font-size:29px;margin:42px 0 15px;display:flex;gap:12px;align-items:center}
+.num{width:45px;height:45px;background:#10213f;color:#ffe0a0;border-radius:13px;display:grid;place-items:center;font-size:13px;flex:none}
+.teacher{display:flex;gap:12px;background:#e8f5f1;border:1px solid #b8ddd3;border-radius:18px;padding:14px 16px;margin:13px 0}
+.face{width:42px;height:42px;border-radius:50%;background:#16766a;color:white;display:grid;place-items:center;flex:none}
+.box{background:white;border:1px solid #ddd6c8;border-radius:19px;padding:17px;margin:13px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{background:white;border:1px solid #ddd6c8;border-radius:18px;padding:15px}
+.card h3{margin:0 0 5px;color:#10213f}
+.formula{font-family:"DejaVu Sans","Noto Sans",sans-serif;font-size:21px;font-weight:800;text-align:center;margin:10px 0}
+.def{background:linear-gradient(135deg,#10213f,#315f9b);color:white;border-radius:21px;padding:20px;margin:14px 0}
+.def .label{color:#ffe0a0;font-size:12px;font-weight:900;letter-spacing:.08em}
+.flow{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:14px 0}
+.node{padding:9px 13px;border-radius:13px;background:#eaf2ff;border:1px solid #c5d8f0;font-weight:800}
+.arrow{color:#d49a2c;font-size:22px;font-weight:900}
+.steps{display:grid;gap:9px}
+.step{display:grid;grid-template-columns:40px 1fr;gap:10px;background:white;border:1px solid #ddd6c8;border-radius:15px;padding:11px}
+.sn{width:33px;height:33px;border-radius:50%;background:#10213f;color:#ffe0a0;display:grid;place-items:center;font-weight:900}
+.example{background:white;border:1px solid #ddd6c8;border-left:6px solid #16766a;border-radius:0 18px 18px 0;padding:17px;margin:15px 0}
+.answer{background:#fff0c9;border:1px solid #e8cb83;border-radius:13px;padding:10px;text-align:center;font-weight:900;margin-top:11px}
+.check{background:#e9f5ee;border:1px solid #b8ddd3;border-radius:13px;padding:10px;margin-top:10px}
+.warn{background:#fff0f0;border:1px solid #eccaca;border-radius:16px;padding:14px;margin:14px 0}
+.call{background:#fff5dc;border:1px dashed #d49a2c;border-radius:16px;padding:13px;margin:14px 0}
+.table{width:100%;border-collapse:separate;border-spacing:0;background:white;border:1px solid #ddd6c8;border-radius:16px;overflow:hidden}
+.table th,.table td{padding:9px 11px;border-bottom:1px solid #ddd6c8;text-align:left;vertical-align:top}
+.table th{background:#10213f;color:white}.table tr:last-child td{border-bottom:0}
+svg{max-width:800px;width:100%;height:auto}.visual{background:white;border:1px solid #ddd6c8;border-radius:19px;padding:12px;text-align:center;margin:14px 0}
+.dark{background:linear-gradient(135deg,#10213f,#244d80);color:white;border-radius:23px;padding:22px;margin-top:40px}
+.dark h2{color:#ffe0a0}.rev{background:#ffffff10;border:1px solid #ffffff22;border-radius:14px;padding:12px}.rev h3{color:#ffe0a0;margin:0 0 5px}
+.revgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.q{background:white;border:1px solid #ddd6c8;border-radius:17px;padding:15px;margin:10px 0}
+.q h3{color:#16766a;margin:0 0 5px}
+.footer{text-align:center;color:#777064;padding:35px 0}
+@media(max-width:650px){.hero h1{font-size:34px}.section{font-size:23px}.formula{font-size:17px}.table{font-size:13px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<div class="badge">ଓଡ଼ିଶା ଦଶମ ଶ୍ରେଣୀ • ଗଣିତ • ଅଧ୍ୟାୟ ୩</div>
+<h1>ସମାନ୍ତର ପ୍ରଗତି</h1>
+<div class="en">Arithmetic Progression — A.P.</div>
+<p>ମୂଳ PDF ର ଦିଆଯାଇଥିବା ଧାରଣା, ସୂତ୍ର, solved examples ଓ ଅଭ୍ୟାସକୁ ଆଧାର କରି ଏହି ଓଡ଼ିଆ-ପ୍ରଧାନ visual lecture ତିଆରି କରାଯାଇଛି। ପ୍ରତ୍ୟେକ ଗଣିତୀୟ ସମସ୍ୟାକୁ Given → To Find → Formula/Method → Step-by-Step Solution → Answer → Verification ଭାବରେ ପଢ଼ାଯାଇଛି।</p>
+</div></header>
 
+<main class="wrap">
+
+<div class="call"><b>ପାଠର ରୋଡ୍‌ମ୍ୟାପ୍:</b> ପରିଚୟ → କ୍ରମ → ପ୍ରଗତି → A.P. → Common Difference → n-ତମ ପଦ → ପ୍ରଥମ n ପଦର ଯୋଗ → A.P. ର ଗୁଣଧର୍ମ → Difference Formula → Natural/Odd/Even Numbers → Squares/Cubes → Sigma Notation → Arithmetic Mean → A.M. ବସାଇବା → ଅଭ୍ୟାସ।</div>
+
+<h2 class="section"><span class="num">୧</span> କ୍ରମ (Sequence) ଓ ପଦ</h2>
+<div class="teacher"><div class="face">👨‍🏫</div><div>କିଛି ସଂଖ୍ୟାକୁ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ <b>Order</b> ବା କ୍ରମରେ ଲେଖିଲେ ତାହାକୁ <b>କ୍ରମ (Sequence)</b> କୁହାଯାଏ। ଉଦାହରଣ: 2,4,6,8,…; 1,3,5,7,… । କ୍ରମର ପ୍ରତ୍ୟେକ ସଂଖ୍ୟାକୁ <b>ପଦ (Term)</b> କୁହାଯାଏ।</div></div>
+<div class="visual"><svg viewBox="0 0 760 180"><line x1="60" y1="95" x2="700" y2="95" stroke="#10213f" stroke-width="4"/><g font-size="22" font-weight="700"><circle cx="110" cy="95" r="28" fill="#eaf2ff" stroke="#315f9b" stroke-width="3"/><text x="100" y="102">t₁</text><circle cx="255" cy="95" r="28" fill="#e8f5f1" stroke="#16766a" stroke-width="3"/><text x="245" y="102">t₂</text><circle cx="400" cy="95" r="28" fill="#fff0c9" stroke="#d49a2c" stroke-width="3"/><text x="390" y="102">t₃</text><circle cx="545" cy="95" r="28" fill="#eaf2ff" stroke="#315f9b" stroke-width="3"/><text x="535" y="102">t₄</text><text x="635" y="103">…</text></g><text x="250" y="45" font-size="20">ପ୍ରତ୍ୟେକ ସଂଖ୍ୟା = ଗୋଟିଏ ପଦ</text></svg></div>
+
+<h2 class="section"><span class="num">୨</span> ପ୍ରଗତି (Progression)</h2>
+<div class="box">ନିର୍ଦ୍ଦିଷ୍ଟ ନିୟମ ଅନୁସାରେ ଗଠିତ କ୍ରମକୁ <b>ପ୍ରଗତି (Progression)</b> କୁହାଯାଏ। ମୂଳ ପାଠରେ Arithmetic Progression, Geometric Progression ଓ Harmonic Progression ଉଲ୍ଲେଖ ଅଛି। ଏହି lecture ର କେନ୍ଦ୍ରବିଷୟ <b>Arithmetic Progression</b>।</div>
+
+<h2 class="section"><span class="num">୩</span> ସମାନ୍ତର ପ୍ରଗତି (A.P.)</h2>
+<div class="def"><div class="label">ପରିଭାଷା</div><p>ଯେଉଁ କ୍ରମରେ ପ୍ରତ୍ୟେକ ପଦ ଓ ତାହାର ପୂର୍ବ ପଦର ଅନ୍ତର ସମାନ, ସେହି କ୍ରମକୁ <b>ସମାନ୍ତର ପ୍ରଗତି</b> କୁହାଯାଏ। ସେହି ସମାନ ଅନ୍ତରକୁ <b>ସାଧାରଣ ଅନ୍ତର (Common Difference), d</b> କୁହାଯାଏ।</p></div>
+<div class="flow"><div class="node">a</div><div class="arrow">+d →</div><div class="node">a+d</div><div class="arrow">+d →</div><div class="node">a+2d</div><div class="arrow">+d →</div><div class="node">a+3d</div><div class="arrow">…</div><div class="node">a+(n−1)d</div></div>
+<div class="formula">t₁=a, t₂=a+d, t₃=a+2d, …, tₙ=a+(n−1)d</div>
+<div class="box"><div class="formula">d=t₂−t₁=t₃−t₂=…=tₙ−tₙ₋₁</div><p>ଏଠାରେ <b>a</b> = ପ୍ରଥମ ପଦ, <b>d</b> = ସାଧାରଣ ଅନ୍ତର, <b>tₙ</b> = n-ତମ ପଦ।</p></div>
+
+<h2 class="section"><span class="num">୪</span> A.P. ଚିହ୍ନଟ — Common Difference</h2>
+<div class="example"><h3>ଉଦାହରଣ ୧: −18, −16, −14, −12, …</h3>
+<p><b>Given:</b> −18, −16, −14, −12,…</p>
+<p><b>To Find:</b> d ଏବଂ A.P. କି ନୁହେଁ।</p>
+<p><b>Method:</b> ପରପର ପଦର ଅନ୍ତର ନିଅ।</p>
+<div class="formula">d = −16−(−18)=−16+18=2</div>
+<div class="formula">d = −14−(−16)=−14+16=2</div>
+<div class="formula">d = −12−(−14)=−12+14=2</div>
+<div class="answer">∴ d=2; ତେଣୁ ଏହା A.P.</div>
+<div class="check">ଯାଞ୍ଚ: ପ୍ରତ୍ୟେକ consecutive difference = 2.</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୨: −11, 0, 11, 22, 33, 44, …</h3>
+<p><b>Given:</b> −11,0,11,22,33,44,…</p><p><b>To Find:</b> d.</p>
+<div class="formula">d=0−(−11)=11</div>
+<div class="formula">d=11−0=11</div>
+<div class="formula">d=22−11=11</div>
+<div class="formula">d=33−22=11</div>
+<div class="answer">∴ d=11</div>
+<div class="check">ଯାଞ୍ଚ: ପ୍ରତ୍ୟେକ consecutive difference 11।</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୩: ଭଗ୍ନାଂଶର A.P.</h3>
+<p>ମୂଳ ପାଠର ପୃଷ୍ଠା 43 ରେ ଭଗ୍ନାଂଶ ଥିବା କ୍ରମ ପାଇଁ ମଧ୍ୟ ପରପର ପଦର ଅନ୍ତର ନେଇ common difference ଯାଞ୍ଚ କରାଯାଇଛି।</p>
+<div class="formula">d = t₂−t₁ = t₃−t₂</div>
+<div class="call">ଭଗ୍ନାଂଶ ଥିଲେ numerator/denominator ଅଲଗା ଭାବରେ ନୁହେଁ, ସମ୍ପୂର୍ଣ୍ଣ fraction ର difference ନିଅ।</div></div>
+
+<h2 class="section"><span class="num">୫</span> A.P. ର n-ତମ ପଦ</h2>
+<div class="def"><div class="label">ମୁଖ୍ୟ ସୂତ୍ର</div><div class="formula">tₙ=a+(n−1)d</div><p><b>n−1</b> କାରଣ ପ୍ରଥମ ପଦ a ଠାରୁ n-ତମ ପଦକୁ ପହଞ୍ଚିବା ପାଇଁ d କୁ n−1 ଥର ଯୋଗ କରିବାକୁ ପଡ଼େ।</p></div>
+<div class="steps">
+<div class="step"><div class="sn">1</div><div>ପ୍ରଥମ ପଦ ଚିହ୍ନଟ କର → <b>a</b></div></div>
+<div class="step"><div class="sn">2</div><div>Common Difference ଚିହ୍ନଟ କର → <b>d</b></div></div>
+<div class="step"><div class="sn">3</div><div>ଚାହିଁଥିବା ପଦର କ୍ରମ ସଂଖ୍ୟା ନିଅ → <b>n</b></div></div>
+<div class="step"><div class="sn">4</div><div>ସୂତ୍ରରେ ବସାଅ → <b>tₙ=a+(n−1)d</b></div></div>
+</div>
+
+<div class="example"><h3>ଉଦାହରଣ ୪: 2,4,6,8,… ର 10ମ ପଦ</h3>
+<p><b>Given:</b> a=2, d=2, n=10.</p><p><b>To Find:</b> t₁₀.</p><p><b>Formula:</b> tₙ=a+(n−1)d</p>
+<div class="formula">t₁₀=2+(10−1)×2</div>
+<div class="formula">=2+9×2</div>
+<div class="formula">=2+18</div>
+<div class="answer">∴ t₁₀=20</div>
+<div class="check">ଯାଞ୍ଚ: 2,4,6,8,10,12,14,16,18,20 → 10ମ ପଦ = 20.</div></div>
+
+<h2 class="section"><span class="num">୬</span> ପ୍ରଥମ n ପଦର ଯୋଗ — Sₙ</h2>
+<div class="def"><div class="label">ଦୁଇଟି ମୁଖ୍ୟ ସୂତ୍ର</div>
+<div class="formula">Sₙ = n/2(a+l)</div>
+<div class="formula">Sₙ = n/2[2a+(n−1)d]</div>
+<p>ଏଠାରେ <b>l</b> = ଶେଷ ପଦ। ଯଦି l ଜଣା ଅଛି, ପ୍ରଥମ ସୂତ୍ର ସୁବିଧାଜନକ। ଯଦି a,d,n ଜଣା ଅଛି, ଦ୍ୱିତୀୟ ସୂତ୍ର ବ୍ୟବହାର କରିପାରିବା।</p></div>
+
+<div class="visual"><svg viewBox="0 0 760 230"><rect x="55" y="55" width="285" height="120" rx="18" fill="#eaf2ff" stroke="#315f9b" stroke-width="3"/><rect x="420" y="55" width="285" height="120" rx="18" fill="#fff0c9" stroke="#d49a2c" stroke-width="3"/><text x="90" y="105" font-size="24" font-weight="700">a, a+d, …, l</text><text x="92" y="142" font-size="20">ପ୍ରଥମ n ପଦ</text><text x="355" y="125" font-size="31" font-weight="900">+</text><text x="455" y="105" font-size="24" font-weight="700">l, l−d, …, a</text><text x="455" y="142" font-size="20">ଉଲଟା କ୍ରମ</text></svg></div>
+<div class="steps">
+<div class="step"><div class="sn">1</div><div>Sₙ = a+(a+d)+(a+2d)+…+l ଲେଖ।</div></div>
+<div class="step"><div class="sn">2</div><div>ଉଲଟା କ୍ରମ: Sₙ = l+(l−d)+(l−2d)+…+a ଲେଖ।</div></div>
+<div class="step"><div class="sn">3</div><div>ଦୁଇଟି equation ଯୋଗ କଲେ ପ୍ରତ୍ୟେକ pair ର ଯୋଗ = a+l।</div></div>
+<div class="step"><div class="sn">4</div><div>nଟି ଏମିତି pair ଥିବାରୁ 2Sₙ=n(a+l)।</div></div>
+<div class="step"><div class="sn">5</div><div>2 ଦ୍ୱାରା ଭାଗ କଲେ → <b>Sₙ=n/2(a+l)</b>।</div></div>
+</div>
+<div class="formula">l=a+(n−1)d</div>
+<div class="formula">Sₙ=n/2[2a+(n−1)d]</div>
+
+<h2 class="section"><span class="num">୭</span> ପଦ ସଂଖ୍ୟା ନିର୍ଣ୍ଣୟ</h2>
+<div class="example"><h3>ଉଦାହରଣ ୫: 15 ରୁ 85 ପର୍ଯ୍ୟନ୍ତ</h3>
+<p><b>Given:</b> 15 ରୁ 85 ପର୍ଯ୍ୟନ୍ତ ସମସ୍ତ ପୂର୍ଣ୍ଣ ସଂଖ୍ୟା।</p>
+<p><b>To Find:</b> ପଦ ସଂଖ୍ୟା n ଏବଂ ଯୋଗ Sₙ.</p>
+<p><b>Step 1 — n:</b></p>
+<div class="formula">n=(85−15)+1</div>
+<div class="formula">=70+1</div>
+<div class="formula">=71</div>
+<p><b>Step 2 — Sum:</b> a=15, l=85.</p>
+<div class="formula">S₇₁=71/2(15+85)</div>
+<div class="formula">=71/2×100</div>
+<div class="formula">=71×50</div>
+<div class="answer">∴ S₇₁=3550</div>
+<div class="check">ଯାଞ୍ଚ: 15 ଓ 85 ସମେତ ମୋଟ 71ଟି ସଂଖ୍ୟା ଅଛି।</div></div>
+
+<h2 class="section"><span class="num">୮</span> ମୂଳ ପାଠର ଅନ୍ୟ solved examples</h2>
+<div class="example"><h3>ଉଦାହରଣ ୬: 2,4,6,8,… ର S₅₀</h3>
+<p><b>Given:</b> a=2, d=2, n=50.</p><p><b>To Find:</b> S₅₀.</p>
+<div class="formula">S₅₀=50/2[2(2)+(50−1)2]</div>
+<div class="formula">=25[4+98]</div>
+<div class="formula">=25×102</div>
+<div class="answer">∴ S₅₀=2550</div>
+<div class="check">ଯାଞ୍ଚ: 50ମ ପଦ = 2+(49×2)=100; ତେଣୁ S₅₀=50/2(2+100)=25×102=2550.</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୭: t₄=11 ଏବଂ t₁₀=16</h3>
+<p><b>Given:</b> t₄=11, t₁₀=16.</p><p><b>To Find:</b> A.P. ର a,d ଏବଂ ଆବଶ୍ୟକ sum.</p>
+<p><b>Step 1:</b> tₙ=a+(n−1)d.</p>
+<div class="formula">t₄=a+(4−1)d=a+3d=11 … (1)</div>
+<div class="formula">t₁₀=a+(10−1)d=a+9d=16 … (2)</div>
+<p><b>Step 2:</b> (2)−(1):</p>
+<div class="formula">(a+9d)−(a+3d)=16−11</div>
+<div class="formula">6d=5</div>
+<div class="formula">d=5/6</div>
+<p><b>Step 3:</b> (1) ରେ d ବସାଅ:</p>
+<div class="formula">a+3(5/6)=11</div>
+<div class="formula">a+5/2=11</div>
+<div class="formula">a=11−5/2=22/2−5/2=17/2</div>
+<div class="answer">∴ a=17/2, d=5/6</div>
+<p><b>Step 4:</b> ମୂଳ ପାଠର ଭଳି ପରବର୍ତ୍ତୀ n ଓ Sₙ ପ୍ରଶ୍ନରେ ଏହି a,d ବ୍ୟବହାର କର।</p></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୮: 27+24+21+… ର ଯୋଗ 132</h3>
+<p><b>Given:</b> a=27, d=24−27=−3, Sₙ=132.</p><p><b>To Find:</b> n.</p>
+<div class="formula">132=n/2[2(27)+(n−1)(−3)]</div>
+<div class="formula">132=n/2[54−3n+3]</div>
+<div class="formula">132=n/2(57−3n)</div>
+<div class="formula">264=n(57−3n)</div>
+<div class="formula">264=57n−3n²</div>
+<div class="formula">3n²−57n+264=0</div>
+<div class="formula">n²−19n+88=0</div>
+<div class="formula">(n−11)(n−8)=0</div>
+<div class="formula">n=11 କିମ୍ବା n=8</div>
+<div class="answer">∴ ସମ୍ଭାବ୍ୟ n = 8 ବା 11; ମୂଳ ପଦକ୍ରମରେ ଉପଯୁକ୍ତ n ବାଛିବା ପାଇଁ ଦିଆଯାଇଥିବା A.P. ର ପଦ ଯାଞ୍ଚ କର।</div>
+<div class="check">ଯାଞ୍ଚ ପଦ୍ଧତି: ମିଳିଥିବା n କୁ tₙ=a+(n−1)d ରେ ବସାଇ ଶେଷ ପଦ ଯାଞ୍ଚ କର।</div></div>
+
+<h2 class="section"><span class="num">୯</span> A.P. ର ଗୁଣଧର୍ମ</h2>
+<div class="def"><div class="label">ମଧ୍ୟପଦ ଗୁଣଧର୍ମ</div>
+<div class="formula">tₘ₋ₙ+tₘ₊ₙ=2tₘ</div>
+<p>ଅର୍ଥାତ୍ ମଧ୍ୟପଦ tₘ ଠାରୁ ସମାନ ଦୂରତାରେ ଥିବା ଦୁଇ ପଦର ଯୋଗ = ମଧ୍ୟପଦର ଦୁଇଗୁଣ।</p></div>
+<div class="example"><h3>ପ୍ରମାଣ</h3>
+<p><b>Step 1:</b></p><div class="formula">tₘ₋ₙ=a+(m−n−1)d</div>
+<p><b>Step 2:</b></p><div class="formula">tₘ₊ₙ=a+(m+n−1)d</div>
+<p><b>Step 3:</b> ଯୋଗ କର:</p>
+<div class="formula">tₘ₋ₙ+tₘ₊ₙ=2a+(2m−2)d</div>
+<div class="formula">=2[a+(m−1)d]</div>
+<div class="formula">=2tₘ</div>
+<div class="answer">∴ tₘ₋ₙ+tₘ₊ₙ=2tₘ</div>
+<div class="check">ଯାଞ୍ଚ: ମଧ୍ୟପଦକୁ ଘିରି equal-distance terms ନେଲେ ଏହି relation ସଦା ମିଳେ।</div></div>
+
+<h2 class="section"><span class="num">୧୦</span> Difference Formula — ଅନ୍ତର ରୂପ</h2>
+<div class="def"><div class="label">ମୁଖ୍ୟ ପରିଚୟ</div>
+<div class="formula">1/[n(n+1)] = 1/n − 1/(n+1)</div>
+<p>ଏହି ରୂପକୁ ବ୍ୟବହାର କଲେ ଅନେକ fraction ଥିବା ଯୋଗର ମଧ୍ୟବର୍ତ୍ତୀ terms ପରସ୍ପରକୁ cancel କରିଦିଅନ୍ତି।</p></div>
+<div class="example"><h3>ଉଦାହରଣ ୧୦: 1/(1×2)+1/(2×3)+…+1/[n(n+1)]</h3>
+<p><b>Given:</b> Sₙ=1/(1×2)+1/(2×3)+…+1/[n(n+1)].</p><p><b>To Find:</b> Sₙ.</p>
+<div class="formula">1/(1×2)=1−1/2</div>
+<div class="formula">1/(2×3)=1/2−1/3</div>
+<div class="formula">1/(3×4)=1/3−1/4</div>
+<div class="formula">⋮</div>
+<div class="formula">1/[n(n+1)]=1/n−1/(n+1)</div>
+<p>ସମସ୍ତ terms ଯୋଗ କଲେ:</p>
+<div class="formula">Sₙ=(1−1/2)+(1/2−1/3)+(1/3−1/4)+…+(1/n−1/(n+1))</div>
+<div class="formula">=1−1/(n+1)</div>
+<div class="formula">=(n+1−1)/(n+1)</div>
+<div class="answer">∴ Sₙ=n/(n+1)</div>
+<div class="check">ଯାଞ୍ଚ: ମଧ୍ୟବର୍ତ୍ତୀ −1/2,+1/2; −1/3,+1/3; … ସବୁ cancel ହୁଏ।</div></div>
+
+<h2 class="section"><span class="num">୧୧</span> ପ୍ରାକୃତିକ, ବିଜୋଡ଼ ଓ ଜୋଡ଼ ସଂଖ୍ୟାର ଯୋଗ</h2>
+<table class="table">
+<tr><th>ଯୋଗ</th><th>ସୂତ୍ର</th><th>ଅର୍ଥ</th></tr>
+<tr><td>1+2+3+…+n</td><td>n(n+1)/2</td><td>ପ୍ରଥମ n ପ୍ରାକୃତିକ ସଂଖ୍ୟା</td></tr>
+<tr><td>1+3+5+…+(2n−1)</td><td>n²</td><td>ପ୍ରଥମ n ବିଜୋଡ଼ ସଂଖ୍ୟା</td></tr>
+<tr><td>2+4+6+…+2n</td><td>n(n+1)</td><td>ପ୍ରଥମ n ଜୋଡ଼ ସଂଖ୍ୟା</td></tr>
+</table>
+
+<div class="example"><h3>ପ୍ରାକୃତିକ ସଂଖ୍ୟାର ଯୋଗ — ଧାପେ ଧାପେ</h3>
+<p><b>Given:</b> 1+2+3+…+n.</p><p><b>To Find:</b> ଯୋଗ।</p>
+<p>ଏହା A.P. ଯେଉଁଠାରେ a=1,d=1,l=n.</p>
+<div class="formula">Sₙ=n/2(a+l)</div>
+<div class="formula">=n/2(1+n)</div>
+<div class="answer">∴ 1+2+3+…+n=n(n+1)/2</div></div>
+
+<div class="example"><h3>ବିଜୋଡ଼ ସଂଖ୍ୟାର ଯୋଗ</h3>
+<p><b>Given:</b> 1,3,5,…,(2n−1).</p>
+<p><b>Formula:</b> Sₙ=n/2[2+(n−1)2].</p>
+<div class="formula">Sₙ=n/2[2+2n−2]</div>
+<div class="formula">=n/2(2n)</div>
+<div class="answer">∴ Sₙ=n²</div></div>
+
+<div class="example"><h3>ଜୋଡ଼ ସଂଖ୍ୟାର ଯୋଗ</h3>
+<p><b>Given:</b> 2,4,6,…,2n.</p>
+<div class="formula">Sₙ=n/2[2+(n−1)2]</div>
+<div class="formula">=n/2(2n)</div>
+<div class="answer">∴ Sₙ=n(n+1)</div></div>
+
+<h2 class="section"><span class="num">୧୨</span> ବର୍ଗ ଓ ଘନ ସଂଖ୍ୟାର ଯୋଗ</h2>
+<div class="def"><div class="label">ମୁଖ୍ୟ ସୂତ୍ର</div>
+<div class="formula">1²+2²+3²+…+n² = n(n+1)(2n+1)/6</div>
+<div class="formula">1³+2³+3³+…+n³ = [n(n+1)/2]²</div></div>
+<div class="teacher"><div class="face">🧠</div><div>ମୂଳ ପାଠର ପୃଷ୍ଠା 54–56 ରେ ବର୍ଗ ଓ ଘନର ଯୋଗକୁ algebraic manipulation ଦ୍ୱାରା derive କରାଯାଇଛି। ଏଠାରେ source formula ଓ ତାହାର ବ୍ୟବହାରକୁ ସ୍ପଷ୍ଟ କରାଯାଇଛି।</div></div>
+<div class="example"><h3>ବର୍ଗର ଯୋଗ — Formula Map</h3>
+<div class="flow"><div class="node">1²</div><div class="arrow">+</div><div class="node">2²</div><div class="arrow">+</div><div class="node">3²</div><div class="arrow">+ … +</div><div class="node">n²</div><div class="arrow">=</div><div class="node">n(n+1)(2n+1)/6</div></div>
+<div class="answer">∴ Σn²=n(n+1)(2n+1)/6</div></div>
+<div class="example"><h3>ଘନର ଯୋଗ — Formula Map</h3>
+<div class="flow"><div class="node">1³</div><div class="arrow">+</div><div class="node">2³</div><div class="arrow">+ … +</div><div class="node">n³</div><div class="arrow">=</div><div class="node">[n(n+1)/2]²</div></div>
+<div class="answer">∴ Σn³=[n(n+1)/2]²</div></div>
+
+<h2 class="section"><span class="num">୧୩</span> Sigma Notation (Σ)</h2>
+<div class="def"><div class="label">Σ ର ଅର୍ଥ</div><p>ଅନେକ terms ର ଯୋଗକୁ ସଂକ୍ଷେପରେ ଲେଖିବା ପାଇଁ <b>Σ</b> ଚିହ୍ନ ବ୍ୟବହାର କରାଯାଏ।</p>
+<div class="formula">Σn = n(n+1)/2</div>
+<div class="formula">Σn² = n(n+1)(2n+1)/6</div>
+<div class="formula">Σn³ = [n(n+1)/2]²</div></div>
+
+<h2 class="section"><span class="num">୧୪</span> ମିଶ୍ରିତ Sigma ଉଦାହରଣ</h2>
+<div class="example"><h3>ଉଦାହରଣ ୧୧: tₙ=n(n+1)</h3>
+<p><b>Given:</b> tₙ=n(n+1).</p><p><b>To Find:</b> Sₙ.</p>
+<div class="formula">tₙ=n(n+1)=n²+n</div>
+<div class="formula">Sₙ=Σtₙ=Σn²+Σn</div>
+<div class="formula">=n(n+1)(2n+1)/6+n(n+1)/2</div>
+<div class="formula">=n(n+1)[(2n+1)/6+1/2]</div>
+<div class="formula">=n(n+1)[(2n+1+3)/6]</div>
+<div class="formula">=n(n+1)(2n+4)/6</div>
+<div class="formula">=n(n+1)(n+2)/3</div>
+<div class="answer">∴ Sₙ=n(n+1)(n+2)/3</div>
+<div class="check">ଯାଞ୍ଚ: tₙ ର expression କୁ n²+n ରେ ଭାଙ୍ଗି Σn² ଓ Σn ଦୁଇଟି standard formula ବ୍ୟବହାର କରାଗଲା।</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୧୨: 1×2 + 2×3 + 3×4 + … + n(n+1)</h3>
+<p><b>Given:</b> Sₙ=Σ[n(n+1)].</p>
+<p><b>Method:</b> n(n+1)=n²+n.</p>
+<div class="formula">Sₙ=Σn²+Σn</div>
+<div class="formula">=n(n+1)(2n+1)/6+n(n+1)/2</div>
+<div class="formula">=n(n+1)(n+2)/3</div>
+<div class="answer">∴ Sₙ=n(n+1)(n+2)/3</div></div>
+
+<h2 class="section"><span class="num">୧୫</span> Arithmetic Mean (A.M.)</h2>
+<div class="def"><div class="label">ସମାନ୍ତର ମାଧ୍ୟମ</div>
+<div class="formula">A.M. = (a+b)/2</div>
+<p>ଦୁଇଟି ସଂଖ୍ୟା a ଓ b ମଧ୍ୟରେ A.M. ହେଉଛି ସେମାନଙ୍କ ଯୋଗର ଅର୍ଦ୍ଧ।</p></div>
+<div class="visual"><svg viewBox="0 0 760 200"><line x1="80" y1="115" x2="680" y2="115" stroke="#10213f" stroke-width="4"/><circle cx="100" cy="115" r="12" fill="#315f9b"/><circle cx="380" cy="115" r="12" fill="#d49a2c"/><circle cx="660" cy="115" r="12" fill="#16766a"/><text x="90" y="90" font-size="22">a</text><text x="370" y="90" font-size="22">M</text><text x="650" y="90" font-size="22">b</text><text x="280" y="55" font-size="23" font-weight="700">a —— M —— b</text><text x="290" y="165" font-size="22">M=(a+b)/2</text></svg></div>
+<div class="example"><h3>ଉଦାହରଣ ୧୩: 7 ଓ 15 ର A.M.</h3>
+<p><b>Given:</b> a=7,b=15.</p><p><b>To Find:</b> A.M.</p>
+<div class="formula">M=(7+15)/2</div>
+<div class="formula">=22/2</div>
+<div class="answer">∴ M=11</div>
+<div class="check">ଯାଞ୍ଚ: 7,11,15 ରେ 11−7=4 ଏବଂ 15−11=4.</div></div>
+
+<h2 class="section"><span class="num">୧୬</span> ଦୁଇଟି ସଂଖ୍ୟା ମଧ୍ୟରେ A.M. ବସାଇବା</h2>
+<div class="def"><div class="label">nଟି A.M. ପାଇଁ Common Difference</div>
+<div class="formula">d=(b−a)/(n+1)</div>
+<p>ତା’ପରେ A.M. ଗୁଡ଼ିକ: a+d, a+2d, a+3d,… ଭାବରେ ମିଳେ।</p></div>
+<div class="example"><h3>ଉଦାହରଣ ୧୪: 2 ଓ 62 ମଧ୍ୟରେ 3ଟି A.M.</h3>
+<p><b>Given:</b> a=2,b=62,n=3.</p><p><b>To Find:</b> 3ଟି A.M.</p>
+<div class="formula">d=(62−2)/(3+1)</div>
+<div class="formula">=60/4</div>
+<div class="formula">=15</div>
+<div class="formula">x₁=a+d=2+15=17</div>
+<div class="formula">x₂=a+2d=2+2×15=32</div>
+<div class="formula">x₃=a+3d=2+3×15=47</div>
+<div class="answer">∴ 3ଟି A.M. = 17, 32, 47</div>
+<div class="check">ଯାଞ୍ଚ: 2,17,32,47,62 → ସମସ୍ତ consecutive differences =15.</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୧୫: 2 ଓ 62 ମଧ୍ୟରେ 4ଟି A.M.</h3>
+<p><b>Given:</b> a=2,b=62,n=4.</p>
+<div class="formula">d=(62−2)/(4+1)</div>
+<div class="formula">=60/5</div>
+<div class="formula">=12</div>
+<div class="formula">x₁=2+12=14</div>
+<div class="formula">x₂=2+2×12=26</div>
+<div class="formula">x₃=2+3×12=38</div>
+<div class="formula">x₄=2+4×12=50</div>
+<div class="answer">∴ 4ଟି A.M. = 14, 26, 38, 50</div>
+<div class="check">ଯାଞ୍ଚ: 2,14,26,38,50,62 → d=12.</div></div>
+
+<h2 class="section"><span class="num">୧୭</span> Exam-Solution Flow</h2>
+<div class="flow">
+<div class="node">ପ୍ରଶ୍ନ</div><div class="arrow">↓</div>
+<div class="node">Given Information</div><div class="arrow">↓</div>
+<div class="node">What is Required?</div><div class="arrow">↓</div>
+<div class="node">Formula / Method</div><div class="arrow">↓</div>
+<div class="node">Step 1</div><div class="arrow">↓</div>
+<div class="node">Step 2</div><div class="arrow">↓</div>
+<div class="node">Step 3</div><div class="arrow">↓</div>
+<div class="node">Final Answer</div><div class="arrow">↓</div>
+<div class="node">Verification</div>
+</div>
+
+<div class="warn"><b>⚠️ ଗଣିତର ସାଧାରଣ ଭୁଲ:</b>
+<ul>
+<li>d=t₂−t₁; sign ଭୁଲ କରନ୍ତୁ ନାହିଁ।</li>
+<li>tₙ ରେ <b>n−1</b> ଥାଏ, n ନୁହେଁ।</li>
+<li>Sₙ=n/2(a+l) ରେ n/2 ଛାଡ଼ନ୍ତୁ ନାହିଁ।</li>
+<li>ଋଣାତ୍ମକ d ଥିଲେ bracket ଓ minus sign ସଠିକ୍ ରଖ।</li>
+<li>A.M. ବସାଇବା ବେଳେ d=(b−a)/(n+1)।</li>
+<li>Fraction addition ରେ denominator ର ଗୁଣନ/LCM ଧାପ ଛାଡ଼ନ୍ତୁ ନାହିଁ।</li>
+<li>Quadratic equation ର ଦୁଇଟି root ମିଳିଲେ original problem ରେ ପ୍ରତ୍ୟେକ root ଯାଞ୍ଚ କର।</li>
+</ul></div>
+
+<section class="dark">
+<h2>⚡ Visual Formula Revision</h2>
+<div class="revgrid">
+<div class="rev"><h3>A.P.</h3><p>Consecutive differences equal.</p><div class="formula">d=t₂−t₁</div></div>
+<div class="rev"><h3>n-ତମ ପଦ</h3><div class="formula">tₙ=a+(n−1)d</div></div>
+<div class="rev"><h3>ଶେଷ ପଦ</h3><div class="formula">l=a+(n−1)d</div></div>
+<div class="rev"><h3>Sum</h3><div class="formula">Sₙ=n/2(a+l)</div></div>
+<div class="rev"><h3>Sum by d</h3><div class="formula">Sₙ=n/2[2a+(n−1)d]</div></div>
+<div class="rev"><h3>Middle Terms</h3><div class="formula">tₘ₋ₙ+tₘ₊ₙ=2tₘ</div></div>
+<div class="rev"><h3>Difference</h3><div class="formula">1/[n(n+1)]=1/n−1/(n+1)</div></div>
+<div class="rev"><h3>Natural</h3><div class="formula">Σn=n(n+1)/2</div></div>
+<div class="rev"><h3>Odd</h3><div class="formula">Σ(2n−1)=n²</div></div>
+<div class="rev"><h3>Even</h3><div class="formula">Σ2n=n(n+1)</div></div>
+<div class="rev"><h3>Squares</h3><div class="formula">Σn²=n(n+1)(2n+1)/6</div></div>
+<div class="rev"><h3>Cubes</h3><div class="formula">Σn³=[n(n+1)/2]²</div></div>
+<div class="rev"><h3>A.M.</h3><div class="formula">(a+b)/2</div></div>
+<div class="rev"><h3>n A.M.</h3><div class="formula">d=(b−a)/(n+1)</div></div>
+</div>
+</section>
+
+<h2 class="section"><span class="num">୧୮</span> Very Short Questions</h2>
+<div class="q"><ol>
+<li>A.P. କ’ଣ?</li>
+<li>Common Difference କ’ଣ?</li>
+<li>tₙ ର ସୂତ୍ର ଲେଖ।</li>
+<li>l ର ସୂତ୍ର ଲେଖ।</li>
+<li>Sₙ ର ଦୁଇଟି ସୂତ୍ର ଲେଖ।</li>
+<li>1+2+…+n ର ଯୋଗ କେତେ?</li>
+<li>ପ୍ରଥମ n ବିଜୋଡ଼ ସଂଖ୍ୟାର ଯୋଗ କେତେ?</li>
+<li>ପ୍ରଥମ n ଜୋଡ଼ ସଂଖ୍ୟାର ଯୋଗ କେତେ?</li>
+<li>Σn² ର ସୂତ୍ର ଲେଖ।</li>
+<li>Σn³ ର ସୂତ୍ର ଲେଖ।</li>
+<li>A.M. ର ସୂତ୍ର କ’ଣ?</li>
+</ol></div>
+
+<h2 class="section"><span class="num">୧୯</span> Short Questions</h2>
+<div class="q"><ol>
+<li>−18,−16,−14,−12,… A.P. କି? d ନିର୍ଣ୍ଣୟ କର।</li>
+<li>−11,0,11,22,… ର d ନିର୍ଣ୍ଣୟ କର।</li>
+<li>tₙ=a+(n−1)d କାହିଁକି?</li>
+<li>Sₙ=n/2(a+l) କିପରି ମିଳେ?</li>
+<li>tₘ₋ₙ+tₘ₊ₙ=2tₘ ପ୍ରମାଣ କର।</li>
+<li>Difference formula ବ୍ୟବହାର କରି 1/(1×2)+1/(2×3)+… ସରଳ କର।</li>
+<li>Σ notation ର ଅର୍ଥ ବୁଝାଅ।</li>
+<li>ଦୁଇ ସଂଖ୍ୟା a,b ମଧ୍ୟରେ nଟି A.M. ପାଇଁ d ର ସୂତ୍ର ଲେଖ।</li>
+</ol></div>
+
+<h2 class="section"><span class="num">୨୦</span> Long / Problem-Solving Questions</h2>
+<div class="q"><ol>
+<li>15 ରୁ 85 ପର୍ଯ୍ୟନ୍ତ ସମସ୍ତ ପୂର୍ଣ୍ଣ ସଂଖ୍ୟାର ଯୋଗ step-by-step ନିର୍ଣ୍ଣୟ କର।</li>
+<li>2,4,6,8,… ର ପ୍ରଥମ 50 ପଦର ଯୋଗ ନିର୍ଣ୍ଣୟ କର।</li>
+<li>27,24,21,… ର ଯୋଗ 132 ହେଲେ n ନିର୍ଣ୍ଣୟ କର।</li>
+<li>t₄=11 ଓ t₁₀=16 ଥିବା A.P. ର a,d ନିର୍ଣ୍ଣୟ କର।</li>
+<li>1/(1×2)+1/(2×3)+…+1/[n(n+1)] ର ଯୋଗ difference formula ଦ୍ୱାରା ନିର୍ଣ୍ଣୟ କର।</li>
+<li>ପ୍ରଥମ n natural, odd ଓ even numbers ର sum formula ବ୍ୟାଖ୍ୟା କର।</li>
+<li>ପ୍ରଥମ n squares ଓ cubes ର sum formula ଲେଖ।</li>
+<li>2 ଓ 62 ମଧ୍ୟରେ 3ଟି A.M. ବସାଅ।</li>
+<li>2 ଓ 62 ମଧ୍ୟରେ 4ଟି A.M. ବସାଅ।</li>
+</ol></div>
+
+<h2 class="section"><span class="num">୨୧</span> Practice Problems — ପାଠ୍ୟ ଆଧାରିତ</h2>
+<div class="q"><ol>
+<li>ଦିଆଯାଇଥିବା sequence ଗୁଡ଼ିକରେ A.P. ଚିହ୍ନଟ କର ଏବଂ d ନିର୍ଣ୍ଣୟ କର।</li>
+<li>ଦିଆଯାଇଥିବା A.P. ର tₙ ନିର୍ଣ୍ଣୟ କର।</li>
+<li>ଦିଆଯାଇଥିବା a,d,n ରୁ Sₙ ନିର୍ଣ୍ଣୟ କର।</li>
+<li>ଦିଆଯାଇଥିବା two terms ରୁ a,d ନିର୍ଣ୍ଣୟ କର।</li>
+<li>ଦିଆଯାଇଥିବା sum ରୁ n ନିର୍ଣ୍ଣୟ କର।</li>
+<li>Difference formula ବ୍ୟବହାର କରି fraction series ସରଳ କର।</li>
+<li>Σn, Σn², Σn³ ବ୍ୟବହାର କରି mixed sums ନିର୍ଣ୍ଣୟ କର।</li>
+<li>ଦୁଇଟି ସଂଖ୍ୟା ମଧ୍ୟରେ 3ଟି, 4ଟି କିମ୍ବା ଆବଶ୍ୟକ ସଂଖ୍ୟକ A.M. ବସାଅ।</li>
+</ol></div>
+
+<div class="call"><b>Source fidelity:</b> ଏହି lecture ର ମୁଖ୍ୟ numerical examples ଓ formulas ମୂଳ uploaded <i>math.arti.In.pdf</i> ର ପୃଷ୍ଠା 1–20 ରେ ଦେଖାଯାଇଥିବା content ଅନୁସାରେ ରଖାଯାଇଛି। ବିଶେଷକରି A.P. ର definition ଓ examples ପୃଷ୍ଠା 2–6, properties ପୃଷ୍ଠା 7, exercises ପୃଷ୍ଠା 8–11, difference formula ପୃଷ୍ଠା 12, special sums ପୃଷ୍ଠା 13–17 ଏବଂ Arithmetic Mean/A.M. ପୃଷ୍ଠା 17–20 ରେ ଅଛି। fileciteturn34file0L14-L16 fileciteturn35file0L14-L44</div>
+
+<div class="footer">ସମାନ୍ତର ପ୍ରଗତି • Arithmetic Progression • </div>
+</main>
+</body>
+</html>
