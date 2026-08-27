@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="or">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ଦୁଇଟି ଚଳ ଥିବା ସମକାଳୀନ ସମୀକରଣ — Visual Lecture</title>
+<style>
+:root{--navy:#10213f;--blue:#315f9d;--teal:#15766c;--gold:#d79a2c;--paper:#f7f4ec;--card:#fff;--line:#e2dbce;--sky:#eaf3ff;--mint:#e6f6f1;--goldbg:#fff4dc;--redbg:#ffeded;--muted:#5e6b7c}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:#17243a;font-family:"Noto Sans Oriya","Nirmala UI","Noto Sans",sans-serif;line-height:1.72}
+.hero{background:linear-gradient(135deg,#0f203d,#315f9d 62%,#15766c);color:#fff;padding:54px 20px 50px;border-bottom:7px solid var(--gold)}.wrap,.heroIn{max-width:1080px;margin:auto}.tag{display:inline-block;border:1px solid #fff5;border-radius:999px;padding:6px 13px;font-size:12px;letter-spacing:.06em}.hero h1{font-size:46px;line-height:1.12;margin:16px 0 5px}.sub{font-size:21px;color:#ffe1a4}.hero p{max-width:930px;color:#dce8f8}
+.wrap{padding:0 18px 70px}.road{margin:22px 0;background:var(--goldbg);border:1px solid #efd39b;border-radius:18px;padding:15px 18px;font-weight:700;color:#6e4d18}
+.sec{display:flex;gap:12px;align-items:center;margin:46px 0 16px;font-size:29px}.num{width:48px;height:48px;border-radius:14px;background:var(--navy);color:#ffe1a4;display:grid;place-items:center;font-size:13px;flex:none}
+.teacher{display:flex;gap:13px;background:var(--mint);border:1px solid #b9dfd5;border-radius:18px;padding:15px 17px;margin:15px 0}.face{width:43px;height:43px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;flex:none;font-size:20px}
+.box,.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:19px;margin:15px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:13px}.card{margin:0}.ico{font-size:28px}.card h3{margin:4px 0;color:var(--navy);font-size:18px}.card p{margin:0;color:#536174}
+.def{background:linear-gradient(135deg,#10213f,#315f9d);color:#fff;border-radius:22px;padding:22px;margin:15px 0}.label{font-size:12px;color:#ffe1a4;letter-spacing:.08em;font-weight:800}
+.formula{font-family:"DejaVu Sans","Noto Sans",sans-serif;font-size:23px;text-align:center;font-weight:800;margin:8px 0}.small{font-size:18px}.tiny{font-size:15px}
+.flow{display:flex;flex-wrap:wrap;gap:9px;align-items:center;justify-content:center}.node{padding:11px 14px;border-radius:14px;background:var(--sky);border:1px solid #c7daf3;font-weight:800;text-align:center}.node.teal{background:var(--mint);border-color:#b8ded4}.node.gold{background:var(--goldbg);border-color:#efd39b}.node.dark{background:var(--navy);color:#fff;border-color:var(--navy)}.arrow{font-size:23px;color:var(--gold);font-weight:900}
+.compare{display:grid;grid-template-columns:1fr 55px 1fr;align-items:stretch;margin:15px 0}.side{background:var(--sky);border:1px solid #c7daf3;border-radius:17px;padding:18px}.side.alt{background:var(--goldbg);border-color:#efd39b}.vs{display:grid;place-items:center;color:var(--gold);font-weight:900}
+.steps{display:grid;gap:10px}.step{display:grid;grid-template-columns:44px 1fr;gap:12px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:13px}.sn{width:36px;height:36px;border-radius:50%;background:var(--navy);color:#ffe1a4;display:grid;place-items:center;font-weight:900;margin:auto}
+.graph{position:relative;height:330px;background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;margin:15px 0}.graph:before{content:"";position:absolute;left:9%;right:6%;top:50%;height:2px;background:#536174}.graph:after{content:"";position:absolute;top:7%;bottom:8%;left:50%;width:2px;background:#536174}.axisX,.axisY{position:absolute;font-family:Arial,sans-serif;font-weight:800;color:#536174}.axisX{right:3%;top:51%}.axisY{left:51%;top:3%}.line1,.line2{position:absolute;height:3px;left:8%;right:7%;top:50%;transform-origin:center}.line1{background:var(--teal);transform:rotate(-24deg)}.line2{background:var(--gold);transform:rotate(20deg)}.point{position:absolute;left:50%;top:50%;width:13px;height:13px;background:var(--navy);border-radius:50%;transform:translate(-50%,-50%);border:3px solid #fff}.pointLabel{position:absolute;left:51%;top:43%;font-weight:800;color:var(--navy)}
+.timeline{position:relative;padding-left:25px}.timeline:before{content:"";position:absolute;left:15px;top:0;bottom:0;width:3px;background:#cbd9e9}.event{position:relative;background:#fff;border:1px solid var(--line);border-radius:17px;padding:14px 16px;margin:0 0 14px 18px}.event:before{content:"";position:absolute;left:-29px;top:20px;width:14px;height:14px;border-radius:50%;background:var(--gold);border:3px solid var(--paper)}.event h3{margin:0;color:var(--navy);font-size:17px}.event p{margin:3px 0;color:#536174}
+.table{width:100%;border-collapse:separate;border-spacing:0;border:1px solid var(--line);border-radius:17px;overflow:hidden;background:#fff}.table th,.table td{padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top}.table th{background:var(--navy);color:#fff}.table tr:last-child td{border-bottom:0}
+.call{background:var(--goldbg);border:1px dashed var(--gold);border-radius:16px;padding:14px 16px;margin:15px 0}.exam{background:var(--redbg);border:1px solid #f0caca;border-radius:16px;padding:14px 16px;margin:15px 0}
+.dark{background:linear-gradient(145deg,#101a31,#1e406f);color:#fff;border-radius:25px;padding:25px;margin-top:43px}.dark h2{color:#ffe1a4;margin-top:0}.revgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(205px,1fr));gap:11px}.rev{background:#ffffff10;border:1px solid #ffffff1c;border-radius:15px;padding:14px}.rev h3{margin:0 0 7px;color:#ffe1a4;font-size:16px}.rev ul{margin:0;padding-left:18px}
+.q{background:#fff;border:1px solid var(--line);border-radius:18px;padding:17px;margin:12px 0}.q h3{margin:0 0 8px;color:var(--teal)}.q ol,.q ul{margin:0;padding-left:25px}.q li{margin:6px 0}.footer{text-align:center;color:#857e72;font-size:13px;padding:28px 0 55px}
+@media(max-width:650px){.hero h1{font-size:34px}.sec{font-size:23px}.compare{grid-template-columns:1fr}.vs{height:38px}.formula{font-size:18px}.table{font-size:13px}.graph{height:270px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="heroIn">
+<div class="tag">ODISHA • CLASS 10 • MATHEMATICS • VISUAL CLASSROOM</div>
+<h1>ଦୁଇଟି ଚଳ ଥିବା ସମକାଳୀନ ସମୀକରଣ</h1>
+<div class="sub">Linear Simultaneous Equations</div>
+<p>ସମୀକରଣର ଅର୍ଥରୁ ଆରମ୍ଭ କରି graphical representation, solution conditions, substitution, elimination, cross multiplication, determinants, Cramer's Rule ଏବଂ ପ୍ରୟୋଗମୂଳକ ସମସ୍ୟା ପର୍ଯ୍ୟନ୍ତ—step-by-step ଓ visual classroom format ରେ।</p>
+</div></header>
+
+<main class="wrap">
+<div class="road">🎯 <b>Learning Roadmap:</b> Basic Equation → Two Variables → Graph → Solution Types → Solvability → Substitution → Elimination → Cross Multiplication → Determinant → Cramer's Rule → Applications</div>
+
+<h2 class="sec"><span class="num">01</span> Introduction — ସମକାଳୀନ ସମୀକରଣ କ’ଣ?</h2>
+<div class="teacher"><div class="face">👨‍🏫</div><div>ପ୍ରଥମେ ଏହାକୁ ବୁଝିବା। ଯେତେବେଳେ ଦୁଇଟି equation ରେ ଦୁଇଟି variable ଥାଏ ଏବଂ ଦୁଇଟି equation କୁ ଏକାସାଙ୍ଗରେ satisfy କରୁଥିବା x ଓ y ର value ଖୋଜାଯାଏ, ସେତେବେଳେ ଏହା simultaneous equations ର problem ହୁଏ।</div></div>
+<div class="def"><div class="label">GENERAL FORM</div>
+<div class="formula">a₁x + b₁y + c₁ = 0</div>
+<div class="formula">a₂x + b₂y + c₂ = 0</div>
+<p style="text-align:center;margin-bottom:0">ଏଠାରେ x ଓ y ହେଉଛି variables; a₁, b₁, c₁, a₂, b₂, c₂ ହେଉଛି constants/co-efficients.</p></div>
+<div class="box"><div class="flow"><div class="node dark">Equation 1</div><div class="arrow">+</div><div class="node dark">Equation 2</div><div class="arrow">→</div><div class="node gold">Common values of x,y</div></div></div>
+
+<h2 class="sec"><span class="num">02</span> Geometrical Representation — Equation ରୁ Straight Line</h2>
+<div class="teacher"><div class="face">📈</div><div>ଏବେ equation କୁ graph ରେ ଦେଖିବା। ଦୁଇଟି linear equations ଦୁଇଟି straight lines କୁ represent କରେ। ସେହି lines ର mutual position ଦେଖି solution ବୁଝିପାରିବା।</div></div>
+<div class="graph"><div class="line1"></div><div class="line2"></div><div class="point"></div><div class="pointLabel">P(α,β)</div><div class="axisX">X</div><div class="axisY">Y</div></div>
+<div class="compare">
+<div class="side"><h3>Intersecting</h3><p>ଦୁଇଟି line ଗୋଟିଏ point ରେ ମିଳେ। ସେହି point ର coordinates ହେଉଛି common solution।</p><div class="formula small">1 solution</div></div>
+<div class="vs">VS</div>
+<div class="side alt"><h3>Parallel / Coincident</h3><p>Parallel ହେଲେ common point ନାହିଁ; coincident ହେଲେ ଦୁଇ line ଏକାଉପରେ ଏକ ଥାଏ।</p><div class="formula small">0 / ∞ solutions</div></div>
+</div>
+<div class="grid">
+<div class="card"><div class="ico">✖️</div><h3>Unique Solution</h3><p>Intersecting lines → exactly one ordered pair.</p></div>
+<div class="card"><div class="ico">∥</div><h3>No Solution</h3><p>Distinct parallel lines → no common point.</p></div>
+<div class="card"><div class="ico">═</div><h3>Infinite Solutions</h3><p>Coincident lines → infinitely many common points.</p></div>
+</div>
+
+<h2 class="sec"><span class="num">03</span> Graphical Method — ପଦକ୍ରମ</h2>
+<div class="box"><div class="steps">
+<div class="step"><div class="sn">1</div><div>ଦୁଇଟି equation କୁ ଯଥାସମ୍ଭବ <b>y = ...</b> form ରେ ଲେଖ।</div></div>
+<div class="step"><div class="sn">2</div><div>ପ୍ରତ୍ୟେକ equation ପାଇଁ କିଛି x-values ନେଇ corresponding y-values ବାହାର କର।</div></div>
+<div class="step"><div class="sn">3</div><div>Coordinates କୁ graph ରେ plot କରି ଦୁଇଟି straight line draw କର।</div></div>
+<div class="step"><div class="sn">4</div><div>Intersection point ର coordinates ପଢ଼ି solution ଲେଖ।</div></div>
+</div></div>
+<div class="box"><div class="label" style="color:var(--teal)">EXAMPLE 1</div>
+<div class="formula">x + 2y − 3 = 0</div>
+<div class="formula">2x − y − 1 = 0</div>
+<div class="formula small">y = ½(3−x) &nbsp;&nbsp;&nbsp; ; &nbsp;&nbsp;&nbsp; y = 2x−1</div>
+<div class="steps">
+<div class="step"><div class="sn">1</div><div>ପ୍ରଥମ line ପାଇଁ points: (1,1), (3,0) ଇତ୍ୟାଦି।</div></div>
+<div class="step"><div class="sn">2</div><div>ଦ୍ୱିତୀୟ line ପାଇଁ points: (1,1), (2,3) ଇତ୍ୟାଦି।</div></div>
+<div class="step"><div class="sn">3</div><div>Graph ରେ common point <b>(1,1)</b>।</div></div>
+</div><div class="formula">∴ Solution = (1,1)</div></div>
+
+<div class="box"><div class="label" style="color:var(--teal)">NO-SOLUTION EXAMPLE</div>
+<div class="formula">x − 2y − 7 = 0</div>
+<div class="formula">x + y + 2 = 0</div>
+<p>ଦୁଇଟି graph ର lines parallel; ତେଣୁ ସେମାନଙ୍କର common point ନାହିଁ।</p>
+<div class="formula">∴ No solution</div></div>
+
+<h2 class="sec"><span class="num">04</span> Conditions of Solvability — ତିନୋଟି Case</h2>
+<div class="def"><div class="label">MASTER TEST</div><div class="formula">a₁x+b₁y+c₁=0 &nbsp;&nbsp; ; &nbsp;&nbsp; a₂x+b₂y+c₂=0</div></div>
+<table class="table">
+<thead><tr><th>Ratio Condition</th><th>Graph</th><th>Result</th></tr></thead>
+<tbody>
+<tr><td><b>a₁/a₂ ≠ b₁/b₂</b></td><td>Intersecting</td><td>One solution — Consistent & Independent</td></tr>
+<tr><td><b>a₁/a₂ = b₁/b₂ ≠ c₁/c₂</b></td><td>Parallel</td><td>No solution — Inconsistent</td></tr>
+<tr><td><b>a₁/a₂ = b₁/b₂ = c₁/c₂</b></td><td>Coincident</td><td>Infinitely many solutions — Consistent & Dependent</td></tr>
+</tbody></table>
+<div class="box"><div class="flow"><div class="node">Compare a₁/a₂</div><div class="arrow">→</div><div class="node">Compare b₁/b₂</div><div class="arrow">→</div><div class="node">Compare c₁/c₂</div><div class="arrow">→</div><div class="node dark">Classify</div></div></div>
+
+<h2 class="sec"><span class="num">05</span> Algebraic Methods — 3 Main Methods</h2>
+<div class="box"><div class="branch" style="text-align:center"><div class="top" style="display:inline-block;background:var(--navy);color:#fff;border-radius:14px;padding:11px 19px;font-weight:800">Simultaneous Equations</div><div class="branches" style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:15px"><div class="node teal">Substitution</div><div class="node gold">Elimination</div><div class="node">Cross Multiplication</div></div></div></div>
+
+<h2 class="sec"><span class="num">06</span> Method of Substitution</h2>
+<div class="teacher"><div class="face">🔁</div><div>ଏହି method ରେ ଗୋଟିଏ equation ରୁ ଗୋଟିଏ variable କୁ isolate କରି, ସେହି value କୁ ଅନ୍ୟ equation ରେ substitute କରାଯାଏ।</div></div>
+<div class="box"><div class="flow"><div class="node dark">Eq. 1</div><div class="arrow">→</div><div class="node teal">x/y isolate</div><div class="arrow">→</div><div class="node gold">Substitute in Eq. 2</div><div class="arrow">→</div><div class="node">One variable</div><div class="arrow">→</div><div class="node dark">Other variable</div></div></div>
+<div class="box"><div class="label" style="color:var(--teal)">EXAMPLE 5</div>
+<div class="formula">5x + 2y + 2 = 0</div><div class="formula">3x + 4y − 10 = 0</div>
+<div class="steps">
+<div class="step"><div class="sn">1</div><div>ପ୍ରଥମ equation ରୁ <b>y = −½(5x+2)</b>।</div></div>
+<div class="step"><div class="sn">2</div><div>ଏହାକୁ second equation ରେ substitute କର।</div></div>
+<div class="step"><div class="sn">3</div><div>ସରଳୀକରଣ ପରେ <b>x = −2</b>।</div></div>
+<div class="step"><div class="sn">4</div><div>ପୁଣି substitute କଲେ <b>y = 4</b>।</div></div>
+</div>
+<div class="formula">∴ (x,y)=(-2,4)</div>
+<div class="call"><b>Verification:</b> ମିଳିଥିବା x,y values କୁ ଦୁଇଟି original equations ରେ ପକାଇ check କର।</div>
+</div>
+
+<h2 class="sec"><span class="num">07</span> Method of Elimination</h2>
+<div class="teacher"><div class="face">➖</div><div>ଏବେ coefficient କୁ ଏଭଳି ବଦଳାଇବା ଯାହାଦ୍ୱାରା x କିମ୍ବା y ର coefficient ସମାନ ହେବ। ପରେ add/subtract କରି ସେହି variable କୁ eliminate କରିବା।</div></div>
+<div class="box"><div class="flow"><div class="node">Coefficients</div><div class="arrow">→</div><div class="node teal">Multiply</div><div class="arrow">→</div><div class="node gold">Add/Subtract</div><div class="arrow">→</div><div class="node">Eliminate</div><div class="arrow">→</div><div class="node dark">Back substitute</div></div></div>
+<div class="box"><div class="label" style="color:var(--teal)">EXAMPLE 6</div>
+<div class="formula">2x + 3y − 8 = 0</div><div class="formula">3x + y − 5 = 0</div>
+<div class="formula small">3×(i): 6x+9y−24=0</div>
+<div class="formula small">2×(ii): 6x+2y−10=0</div>
+<div class="formula small">Subtract → 7y−14=0 → y=2</div>
+<div class="formula small">Substitute → 2x+6−8=0 → x=1</div>
+<div class="formula">∴ (x,y)=(1,2)</div></div>
+
+<h2 class="sec"><span class="num">08</span> Method of Cross Multiplication</h2>
+<div class="teacher"><div class="face">✖️</div><div>ଏହି method ରେ standard form ର coefficients ରୁ ଗଠିତ formula ବ୍ୟବହାର କରି x ଓ y କୁ ନିର୍ଣ୍ଣୟ କରାଯାଏ।</div></div>
+<div class="def"><div class="label">FORMULA</div>
+<div class="formula">x/(b₁c₂−b₂c₁) = y/(c₁a₂−c₂a₁) = 1/(a₁b₂−a₂b₁)</div></div>
+<div class="box"><div class="flow"><div class="node gold">x numerator<br>b₁c₂−b₂c₁</div><div class="node teal">y numerator<br>c₁a₂−c₂a₁</div><div class="node">Common denominator<br>a₁b₂−a₂b₁</div></div></div>
+<div class="box"><div class="label" style="color:var(--teal)">EXAMPLE 7</div>
+<div class="formula">2x − 3y − 1 = 0</div><div class="formula">4x + y − 9 = 0</div>
+<div class="formula small">Cross multiplication → x = 2, y = 1</div>
+<div class="formula">∴ (x,y)=(2,1)</div></div>
+
+<h2 class="sec"><span class="num">09</span> Special Case — Homogeneous Equations</h2>
+<div class="def"><div class="label">HOMOGENEOUS FORM</div>
+<div class="formula">a₁x+b₁y=0</div><div class="formula">a₂x+b₂y=0</div>
+<p style="text-align:center;margin-bottom:0">ଅର୍ଥାତ୍ constant terms c₁ ଓ c₂ ଶୂନ୍ୟ।</p></div>
+<div class="box"><div class="flow"><div class="node">c₁=0, c₂=0</div><div class="arrow">→</div><div class="node teal">Homogeneous pair</div><div class="arrow">→</div><div class="node gold">Coefficient relation check</div><div class="arrow">→</div><div class="node dark">Solution</div></div></div>
+
+<h2 class="sec"><span class="num">10</span> Determinant — 2×2 Visual</h2>
+<div class="grid">
+<div class="card"><div class="ico">▦</div><h3>Matrix</h3><div class="formula small">A = [ a&nbsp;&nbsp;b ; c&nbsp;&nbsp;d ]</div><p>2 rows × 2 columns ର matrix।</p></div>
+<div class="card"><div class="ico">↘↙</div><h3>Diagonal Products</h3><div class="formula small">ad &nbsp; and &nbsp; bc</div><p>ଦୁଇ diagonal product ନିଆଯାଏ।</p></div>
+<div class="card"><div class="ico">Δ</div><h3>Determinant</h3><div class="formula small">|A| = ad−bc</div><p>ପ୍ରଥମ product ରୁ ଦ୍ୱିତୀୟ product ବିୟୋଗ।</p></div>
+</div>
+<div class="box"><div class="formula">| 5&nbsp;&nbsp;7 ; 2&nbsp;&nbsp;1 | = 5×1 − 7×2 = −9</div></div>
+
+<h2 class="sec"><span class="num">11</span> Cramer's Rule</h2>
+<div class="teacher"><div class="face">Δ</div><div>Determinant ବ୍ୟବହାର କରି simultaneous equations ର solution ବାହାର କରିବାକୁ Cramer's Rule ବ୍ୟବହାର କରାଯାଏ।</div></div>
+<div class="def"><div class="label">THREE DETERMINANTS</div>
+<div class="formula">Δ = |a₁&nbsp;&nbsp;b₁ ; a₂&nbsp;&nbsp;b₂|</div>
+<div class="formula">Δₓ = |−c₁&nbsp;&nbsp;b₁ ; −c₂&nbsp;&nbsp;b₂|</div>
+<div class="formula">Δᵧ = |a₁&nbsp;&nbsp;−c₁ ; a₂&nbsp;&nbsp;−c₂|</div>
+<div class="formula">x = Δₓ/Δ &nbsp;&nbsp;&nbsp; y = Δᵧ/Δ</div></div>
+<div class="box"><div class="flow"><div class="node dark">Find Δ</div><div class="arrow">→</div><div class="node teal">Find Δₓ</div><div class="arrow">→</div><div class="node gold">Find Δᵧ</div><div class="arrow">→</div><div class="node">x=Δₓ/Δ</div><div class="arrow">+</div><div class="node">y=Δᵧ/Δ</div></div></div>
+<div class="box"><div class="label" style="color:var(--teal)">EXAMPLE 10</div>
+<div class="formula">x + 2y − 1 = 0</div><div class="formula">2x − 3y − 1 = 0</div>
+<div class="formula small">Δ = |1&nbsp;&nbsp;2; 2&nbsp;&nbsp;−3| = −7</div>
+<div class="formula small">Δₓ = |1&nbsp;&nbsp;2; 1&nbsp;&nbsp;−3| = −5</div>
+<div class="formula small">Δᵧ = |1&nbsp;&nbsp;1; 2&nbsp;&nbsp;1| = −1</div>
+<div class="formula">x=5/7 &nbsp;&nbsp; ; &nbsp;&nbsp; y=1/7</div>
+</div>
+
+<h2 class="sec"><span class="num">12</span> Word Problems — Equation Formation</h2>
+<div class="teacher"><div class="face">🧩</div><div>Word problem ରେ ପ୍ରଥମେ unknown quantities କୁ x ଓ y ଧରିବା। ପରେ question ର conditions ରୁ ଦୁଇଟି equations ବନାଇ solve କରିବା।</div></div>
+<div class="box"><div class="flow"><div class="node dark">Question read</div><div class="arrow">→</div><div class="node">Let x,y</div><div class="arrow">→</div><div class="node teal">Condition 1</div><div class="arrow">→</div><div class="node teal">Condition 2</div><div class="arrow">→</div><div class="node gold">2 equations</div><div class="arrow">→</div><div class="node dark">Solve</div></div></div>
+
+<div class="timeline">
+<div class="event"><h3>Example 11 — Age</h3><p>ବୟସ ସମ୍ବନ୍ଧୀୟ ପ୍ରଶ୍ନରେ ଅଜଣା ବୟସକୁ x,y ଧରି ଦିଆଯାଇଥିବା relation ରୁ simultaneous equations ଗଠନ କରାଯାଇଛି।</p></div>
+<div class="event"><h3>Example 12 — Two Numbers</h3><p>ଦୁଇଟି ସଂଖ୍ୟାର ଯୋଗ ଓ ଅନ୍ତରରୁ equations ଗଠନ କରି solution <b>7 ଓ 5</b> ମିଳେ।</p></div>
+<div class="event"><h3>Example 13 — Fraction</h3><p>Numerator ଓ denominator ସମ୍ବନ୍ଧୀୟ condition ରୁ equations ଗଠନ କରି fraction ର value ନିର୍ଣ୍ଣୟ କରାଯାଇଛି।</p></div>
+<div class="event"><h3>Example 15 — Number Relation</h3><p>ଦୁଇଟି ସଂଖ୍ୟାର ଯୋଗ ଓ reciprocal/related condition ରୁ equations ଗଠନ କରି values <b>10 ଓ 5</b> ମିଳେ।</p></div>
+</div>
+
+<h2 class="sec"><span class="num">13</span> Problem-Solving Checklist</h2>
+<div class="box"><div class="steps">
+<div class="step"><div class="sn">1</div><div><b>Given:</b> ପ୍ରଶ୍ନରେ କ’ଣ ଦିଆଯାଇଛି?</div></div>
+<div class="step"><div class="sn">2</div><div><b>Let:</b> ଅଜଣା ରାଶିକୁ x,y ଧର।</div></div>
+<div class="step"><div class="sn">3</div><div><b>Equations:</b> ଦୁଇଟି condition ରୁ ଦୁଇଟି equations ବନା।</div></div>
+<div class="step"><div class="sn">4</div><div><b>Method:</b> Substitution / Elimination / Cross Multiplication / Cramer's Rule ମଧ୍ୟରୁ suitable method ନିଅ।</div></div>
+<div class="step"><div class="sn">5</div><div><b>Verification:</b> ମିଳିଥିବା x,y କୁ original equations ରେ check କର।</div></div>
+<div class="step"><div class="sn">6</div><div><b>Answer:</b> Question ଯେଉଁ quantity ପଚାରିଛି, ସେହି ଭାବରେ final answer ଲେଖ।</div></div>
+</div></div>
+
+<div class="exam"><b>⚠️ Common Calculation Checks</b><ul>
+<li>Equation କୁ standard form ରେ ଆଣିବା ବେଳେ sign ଭୁଲ କରନ୍ତୁ ନାହିଁ।</li>
+<li>Substitution ପରେ bracket ସଠିକ୍ ଭାବେ expand କରନ୍ତୁ।</li>
+<li>Elimination ରେ ପୂରା equation କୁ multiply କରନ୍ତୁ।</li>
+<li>Cross multiplication ରେ coefficient ର order ଠିକ୍ ରଖନ୍ତୁ।</li>
+<li>Determinant ରେ <b>ad−bc</b> ମନେ ରଖନ୍ତୁ।</li>
+<li>Final answer କୁ original equations ରେ verify କରନ୍ତୁ।</li>
+</ul></div>
+
+<section class="dark">
+<h2>⚡ Quick Revision — One Screen Formula Map</h2>
+<div class="revgrid">
+<div class="rev"><h3>📌 General Form</h3><ul><li>a₁x+b₁y+c₁=0</li><li>a₂x+b₂y+c₂=0</li></ul></div>
+<div class="rev"><h3>📈 Graph</h3><ul><li>Intersect → 1</li><li>Parallel → 0</li><li>Coincident → ∞</li></ul></div>
+<div class="rev"><h3>⚖️ Conditions</h3><ul><li>a₁/a₂ ≠ b₁/b₂ → unique</li><li>a₁/a₂=b₁/b₂≠c₁/c₂ → none</li><li>all equal → infinite</li></ul></div>
+<div class="rev"><h3>🔁 Methods</h3><ul><li>Substitution</li><li>Elimination</li><li>Cross Multiplication</li></ul></div>
+<div class="rev"><h3>Δ</h3><ul><li>|a b;c d|=ad−bc</li><li>2×2 determinant</li></ul></div>
+<div class="rev"><h3>🧮 Cramer</h3><ul><li>x=Δₓ/Δ</li><li>y=Δᵧ/Δ</li></ul></div>
+<div class="rev"><h3>🧩 Word Problem</h3><ul><li>Let x,y</li><li>Make 2 equations</li><li>Solve + verify</li></ul></div>
+<div class="rev"><h3>🎯 Exam</h3><ul><li>Show all steps</li><li>Check signs</li><li>Box final answer</li></ul></div>
+</div>
+</section>
+
+<h2 class="sec"><span class="num">EXAM</span> Important Questions</h2>
+<div class="q"><h3>Very Short Questions</h3><ol>
+<li>ଦୁଇଟି ଚଳ ଥିବା linear simultaneous equations ର general form ଲେଖ।</li>
+<li>Intersecting lines କେତୋଟି solution ଦିଅନ୍ତି?</li>
+<li>Parallel lines କେତୋଟି solution ଦିଅନ୍ତି?</li>
+<li>Coincident lines କେତୋଟି solution ଦିଅନ୍ତି?</li>
+<li>2×2 determinant ର formula ଲେଖ।</li>
+<li>Cramer's Rule ରେ x ଓ y ର formula ଲେଖ।</li>
+</ol></div>
+<div class="q"><h3>Short / Concept Questions</h3><ol>
+<li>Graphical method ରେ simultaneous equations କିପରି solve କରାଯାଏ?</li>
+<li>Consistent ଓ inconsistent pair କ’ଣ?</li>
+<li>Consistent & independent ଏବଂ consistent & dependent pair ମଧ୍ୟରେ ପାର୍ଥକ୍ୟ ଲେଖ।</li>
+<li>Homogeneous simultaneous equations କ’ଣ?</li>
+<li>Substitution method ର ପଦକ୍ରମ ଲେଖ।</li>
+<li>Elimination method ରେ variable କିପରି eliminate କରାଯାଏ?</li>
+</ol></div>
+<div class="q"><h3>Long / Problem-Solving Questions</h3><ol>
+<li>x+2y−3=0 ଏବଂ 2x−y−1=0 କୁ graphical method ରେ solve କର।</li>
+<li>2x+3y−8=0 ଏବଂ 3x+y−5=0 କୁ elimination method ରେ solve କର।</li>
+<li>2x−3y−1=0 ଏବଂ 4x+y−9=0 କୁ cross multiplication ରେ solve କର।</li>
+<li>x+2y−1=0 ଏବଂ 2x−3y−1=0 କୁ Cramer's Rule ରେ solve କର।</li>
+<li>ଦିଆଯାଇଥିବା word problem ରୁ x,y ଧରି ଦୁଇଟି simultaneous equations ଗଠନ କରି solve କର।</li>
+</ol></div>
+
+<div class="call"><b>🏁 Final Memory:</b> <span class="formula small">Graph → Position of Lines → Type of Solution → Choose Algebraic Method → Solve Step-by-Step → Verify</span></div>
+<div class="footer">ଦୁଇଟି ଚଳ ଥିବା ସମକାଳୀନ ସମୀକରଣ • Linear Simultaneous Equations • Odisha Class 10 • Visual Mathematics Lecture</div>
+</main>
+</body>
+</html>
