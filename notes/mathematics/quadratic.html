@@ -1,1 +1,399 @@
 
+<!DOCTYPE html>
+<html lang="or">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ଦ୍ୱିଘାତ ସମୀକରଣ — Quadratic Equations | ଶ୍ରେଣୀ ୧୦</title>
+<style>
+:root{--ink:#18232d;--navy:#123f52;--teal:#0d766e;--gold:#b57920;--paper:#f5f2eb;--card:#fff;--line:#d9d2c4;--blue:#edf5fa;--green:#edf8f2;--rose:#fff0ee;--yellow:#fff7e5}
+*{box-sizing:border-box}body{margin:0;background:#e8e4dc;color:var(--ink);font-family:"Noto Sans Oriya","Noto Sans",Arial,sans-serif;line-height:1.7}
+.wrap{max-width:1100px;margin:auto;padding:22px}
+.hero{background:linear-gradient(135deg,#123b4a,#17677a);color:#fff;padding:40px 32px;border-radius:25px;position:relative;overflow:hidden;margin-bottom:22px}
+.hero:after{content:"ax² + bx + c = 0";position:absolute;right:-8px;bottom:-30px;font:700 62px Georgia;opacity:.12}
+.kicker{font-size:13px;letter-spacing:1.4px;opacity:.85}.hero h1{font-size:42px;margin:8px 0}.hero p{font-size:18px}
+h2{font-size:28px;color:var(--navy);margin:34px 0 12px}h3{font-size:21px;color:var(--teal);margin:19px 0 8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:20px;margin:14px 0;box-shadow:0 5px 18px #00000008}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}@media(max-width:760px){.grid{grid-template-columns:1fr}.hero h1{font-size:32px}}
+.formula{font:700 23px Georgia,serif;text-align:center;background:#eef7f6;border:2px solid #b7d9d5;border-radius:13px;padding:13px;margin:12px 0}
+.meaning{background:var(--yellow);border-left:5px solid var(--gold);padding:12px 15px;border-radius:10px}
+.teacher{background:var(--blue);border-left:5px solid #3f7da2;padding:12px 15px;border-radius:10px}
+.final{background:var(--green);border:2px solid #b9dac7;border-radius:12px;padding:13px;font-weight:700}
+.exam{background:var(--rose);border:1px solid #e3bcb6;border-radius:11px;padding:13px}
+.flow{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:14px 0}.box{background:#f7f8f9;border:1px solid #cbd4da;border-radius:11px;padding:10px 13px;text-align:center;min-width:130px}.arrow{font-size:24px;color:var(--gold);font-weight:bold}
+table{width:100%;border-collapse:collapse;margin:12px 0;background:#fff}th,td{border:1px solid var(--line);padding:10px;vertical-align:top}th{background:#edf4f4;color:var(--navy)}
+.diagram{display:flex;justify-content:center;align-items:center;background:#fcfbf7;border:1px dashed #cfc6b6;border-radius:15px;padding:12px;margin:13px 0}
+.badge{display:inline-block;background:#fff1d5;border:1px solid #dfc28a;border-radius:999px;padding:4px 10px;margin:3px;font-size:13px}.small{font-size:13px;color:#68737d}
+.step{display:grid;grid-template-columns:45px 1fr;gap:10px;align-items:start;margin:8px 0}.stepno{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--navy);color:#fff;font-weight:bold}
+.revision{background:#153f4e;color:#fff;border-radius:23px;padding:24px;margin-top:30px}.revision h2,.revision h3{color:#fff}.revision .card{color:var(--ink)}
+.section{border-top:1px solid var(--line);padding-top:5px;margin-top:30px}
+ul,ol{padding-left:25px}
+</style>
+</head>
+<body><div class="wrap">
+
+<section class="hero">
+<div class="kicker">ଶ୍ରେଣୀ–୧୦ • ଗଣିତ • ଅଧ୍ୟାୟ ୨ • ଦୃଶ୍ୟମୂଳକ ଶିକ୍ଷଣ</div>
+<h1>ଦ୍ୱିଘାତ ସମୀକରଣ</h1>
+<p><b>QUADRATIC EQUATIONS</b> — ବହୁପଦୀ → ଦ୍ୱିଘାତ ସମୀକରଣ → ମୂଳ → Quadratic Formula → ବିଭେଦକ → ମୂଳର ପ୍ରକୃତି → ମୂଳ ଓ ସହଗର ସମ୍ପର୍କ → ଗଠନ → ପ୍ରୟୋଗ</p>
+<span class="badge">ଦ୍ୱିଘାତ ବହୁପଦୀ</span><span class="badge">ଦ୍ୱିଘାତ ସମୀକରଣ</span><span class="badge">ମୂଳ</span><span class="badge">ବିଭେଦକ D</span><span class="badge">ଗଠନ</span>
+</section>
+
+<div class="card teacher"><b>ଶିକ୍ଷକଙ୍କ ଆରମ୍ଭ:</b> ପ୍ରଥମେ ଆମେ ଦ୍ୱିଘାତ ସମୀକରଣ କ’ଣ ତାହା ବୁଝିବା। ତାପରେ ଦୁଇଟି ମୂଳ କିପରି ବାହାରେ, ସେହି ମୂଳର ପ୍ରକୃତି କିପରି ଜାଣିବା, ଏବଂ ମୂଳ ଦିଆଯାଇଥିଲେ ସମୀକରଣ କିପରି ଗଠନ କରିବା—ସବୁକୁ ପଦକ୍ଷେପରେ ଶିଖିବା।</div>
+
+<h2>🎯 ଅଧ୍ୟାୟର ଶିକ୍ଷଣ ଯାତ୍ରା</h2>
+<div class="flow">
+<div class="box">ବହୁପଦୀ</div><div class="arrow">→</div><div class="box">ଦ୍ୱିଘାତ ସମୀକରଣ<br>ax²+bx+c=0</div><div class="arrow">→</div><div class="box">ମୂଳ α, β</div><div class="arrow">→</div><div class="box">D=b²−4ac</div><div class="arrow">→</div><div class="box">ମୂଳର ପ୍ରକୃତି</div>
+</div>
+
+<h2>2.1 ପରିଚୟ — Introduction</h2>
+<div class="card">
+<p>ଯେଉଁ ବହୁପଦୀର ସାଧାରଣ ରୂପ <b>P(x)=ax²+bx+c</b>, ଯେଉଁଠାରେ <b>a≠0</b>, ତାହାକୁ ଦ୍ୱିଘାତ ବହୁପଦୀ (Quadratic Polynomial) କୁହାଯାଏ।</p>
+<div class="formula">P(x)=ax²+bx+c, &nbsp; a≠0</div>
+<p>ଏହି ବହୁପଦୀକୁ ଶୂନ୍ୟର ସମାନ କଲେ ମିଳେ:</p>
+<div class="formula">ax²+bx+c=0, &nbsp; a≠0</div>
+<div class="meaning"><b>ଏହା ହେଉଛି ଦ୍ୱିଘାତ ସମୀକରଣ।</b> ଏଠାରେ a, b, c ହେଉଛି ସମୀକରଣର ସହଗ (coefficients) ଏବଂ a≠0।</div>
+<h3>ମୂଳ / Zero କ’ଣ?</h3>
+<p>ଯଦି x ର କୌଣସି ମାନ ପାଇଁ P(x)=0 ହୁଏ, ସେହି x ମାନକୁ ବହୁପଦୀର <b>ମୂଳ (zero)</b> କୁହାଯାଏ।</p>
+<div class="teacher">ଉଦାହରଣ: x²−5x+6=0 କୁ ଗୁଣନୀୟକରଣ କଲେ (x−2)(x−3)=0। ତେଣୁ x=2 କିମ୍ବା x=3 ହେଉଛି ମୂଳ।</div>
+</div>
+
+<h2>2.2 ବର୍ଗ ପୂରଣ ପ୍ରଣାଳୀ — Completing the Square</h2>
+<div class="card">
+<div class="formula">ax²+bx+c=0</div>
+<div class="step"><div class="stepno">1</div><div>x² + (b/a)x + c/a = 0</div></div>
+<div class="step"><div class="stepno">2</div><div>x² + 2·(b/2a)x + c/a = 0</div></div>
+<div class="step"><div class="stepno">3</div><div>ବାମପଟେ ବର୍ଗ ପୂରଣ ପାଇଁ (b/2a)² ଯୋଗ କରି ଡାହାଣପଟେ ମଧ୍ୟ ସମାନ ପରିମାଣ ଯୋଗ କରିବା।</div></div>
+<div class="formula">(x + b/2a)² = (b²−4ac)/(4a²)</div>
+<div class="step"><div class="stepno">4</div><div>ବର୍ଗମୂଳ ନେଲେ:</div></div>
+<div class="formula">x + b/2a = ±√(b²−4ac)/(2a)</div>
+<div class="step"><div class="stepno">5</div><div>ଶେଷରେ:</div></div>
+<div class="formula">x = (−b ± √(b²−4ac))/(2a)</div>
+<div class="final">ଦୁଇଟି ମୂଳ: α = (−b+√(b²−4ac))/(2a), &nbsp; β = (−b−√(b²−4ac))/(2a)</div>
+<div class="meaning"><b>ମନେ ରଖନ୍ତୁ:</b> ± ଥିବାରୁ ଦୁଇଟି ସମ୍ଭାବ୍ୟ ମୂଳ ମିଳେ।</div>
+</div>
+
+<h2>🧮 ଦ୍ୱିଘାତ ସୂତ୍ର — Quadratic Formula</h2>
+<div class="card">
+<div class="formula">x = (−b ± √(b²−4ac))/(2a)</div>
+<table><tr><th>ଚିହ୍ନ</th><th>ଅର୍ଥ</th></tr>
+<tr><td>a</td><td>x² ର ସହଗ</td></tr><tr><td>b</td><td>x ର ସହଗ</td></tr><tr><td>c</td><td>ଧ୍ରୁବ ପଦ</td></tr><tr><td>b²−4ac</td><td>ବିଭେଦକ (Discriminant), D</td></tr></table>
+<div class="teacher">ଏହି ସୂତ୍ରରେ ମାନ ବସାଇବା ସମୟରେ +/− ଚିହ୍ନ ଓ ବନ୍ଧନୀକୁ ସାବଧାନରେ ରଖନ୍ତୁ।</div>
+</div>
+
+<h2>📝 Source Example 1 — 6x²+11x+3=0</h2>
+<div class="card">
+<p><b>ପ୍ରଶ୍ନ:</b> 6x²+11x+3=0 ସମୀକରଣର ମୂଳ ନିର୍ଣ୍ଣୟ କର।</p>
+<p><b>ଦିଆଯାଇଛି:</b> a=6, b=11, c=3</p><p><b>ବାହାର କରିବା:</b> x ର ଦୁଇଟି ମୂଳ</p>
+<p><b>ସୂତ୍ର:</b></p><div class="formula">x=(−b±√(b²−4ac))/(2a)</div>
+<div class="step"><div class="stepno">1</div><div>D=b²−4ac = 11²−4×6×3 = 121−72 = 49</div></div>
+<div class="step"><div class="stepno">2</div><div>√D=√49=7</div></div>
+<div class="step"><div class="stepno">3</div><div>x=(−11±7)/(12)</div></div>
+<div class="step"><div class="stepno">4</div><div>x=(−11+7)/12 = −4/12 = −1/3</div></div>
+<div class="step"><div class="stepno">5</div><div>x=(−11−7)/12 = −18/12 = −3/2</div></div>
+<div class="final">ଉତ୍ତର: x = −1/3 ଏବଂ x = −3/2</div>
+</div>
+
+<h2>📝 Source Example 2 — x²+2x−63=0</h2>
+<div class="card">
+<p><b>ଦିଆଯାଇଛି:</b> a=1, b=2, c=−63</p>
+<div class="step"><div class="stepno">1</div><div>α=(−2+√(2²−4×1×(−63)))/(2×1)</div></div>
+<div class="step"><div class="stepno">2</div><div>= (−2+√(4+252))/2 = (−2+16)/2 = 7</div></div>
+<div class="step"><div class="stepno">3</div><div>β=(−2−16)/2 = −9</div></div>
+<div class="final">ଉତ୍ତର: α=7, β=−9</div>
+</div>
+
+<h2>2.3 ବିଭେଦକ — Discriminant</h2>
+<div class="card">
+<div class="formula">D = b² − 4ac</div>
+<p>ଦ୍ୱିଘାତ ସମୀକରଣ <b>ax²+bx+c=0</b> ପାଇଁ D ର ମାନ ଦେଖି ମୂଳର ପ୍ରକୃତି ଜାଣିହୁଏ।</p>
+<div class="flow"><div class="box">D>0</div><div class="arrow">→</div><div class="box">ଦୁଇଟି ବାସ୍ତବ ଓ ଭିନ୍ନ ମୂଳ</div></div>
+<div class="flow"><div class="box">D=0</div><div class="arrow">→</div><div class="box">ଦୁଇଟି ସମାନ ବାସ୍ତବ ମୂଳ</div></div>
+<div class="flow"><div class="box">D<0</div><div class="arrow">→</div><div class="box">ବାସ୍ତବ ମୂଳ ନାହିଁ</div></div>
+<div class="teacher">ଏହାକୁ ମନେ ରଖିବା ପାଇଁ: <b>Plus → ଦୁଇ ଭିନ୍ନ, Zero → ସମାନ, Minus → ବାସ୍ତବ ନାହିଁ।</b></div>
+</div>
+
+<h2>2.4 ମୂଳଗୁଡ଼ିକର ପ୍ରକୃତି — Nature of Roots</h2>
+<div class="card">
+<table>
+<tr><th>D</th><th>ମୂଳର ପ୍ରକୃତି</th><th>ମୂଳ</th></tr>
+<tr><td>D&gt;0</td><td>ଦୁଇଟି ବାସ୍ତବ ଓ ଭିନ୍ନ ମୂଳ</td><td>(−b+√D)/2a, (−b−√D)/2a</td></tr>
+<tr><td>D=0</td><td>ଦୁଇଟି ସମାନ ବାସ୍ତବ ମୂଳ</td><td>−b/2a</td></tr>
+<tr><td>D&lt;0</td><td>ବାସ୍ତବ ମୂଳ ନାହିଁ</td><td>ବାସ୍ତବ ମୂଳ ନାହିଁ</td></tr>
+</table>
+<p><b>ଉଦାହରଣ:</b> x²−2x−8=0 ପାଇଁ a=1,b=−2,c=−8.</p>
+<div class="formula">D=(−2)²−4(1)(−8)=4+32=36&gt;0</div>
+<div class="final">ତେଣୁ ଏହାର ଦୁଇଟି ବାସ୍ତବ ଓ ଭିନ୍ନ ମୂଳ ଅଛି।</div>
+</div>
+
+<h2>2.5 ମୂଳ ଓ ସହଗମାନଙ୍କ ମଧ୍ୟରେ ସମ୍ପର୍କ</h2>
+<div class="card">
+<p>ଯଦି <b>ax²+bx+c=0</b> ର ମୂଳ α ଓ β, ତେବେ:</p>
+<div class="formula">α+β = −b/a</div>
+<div class="formula">αβ = c/a</div>
+<div class="meaning"><b>ଏହି ଦୁଇଟି ସମ୍ପର୍କ ବହୁତ ଜରୁରୀ।</b> ମୂଳ ସିଧାସଳଖ ବାହାର କରିବା ଦରକାର ନଥିଲେ ମଧ୍ୟ α+β ଓ αβ ବାହାର କରିହୁଏ।</div>
+</div>
+
+<h2>📝 Source Example 4 — 25x²+30x+7=0</h2>
+<div class="card">
+<p><b>ଦିଆଯାଇଛି:</b> a=25, b=30, c=7</p>
+<div class="formula">α+β=−b/a=−30/25=−6/5</div>
+<div class="formula">αβ=c/a=7/25</div>
+<div class="final">ଉତ୍ତର: α+β=−6/5, αβ=7/25</div>
+</div>
+
+<h2>2.6 କିଛି ଜଣାଶୁଣା ଫଳ — Some Known Results</h2>
+<div class="card">
+<p>ଯଦି α+β=−b/a ଏବଂ αβ=c/a, ତେବେ:</p>
+<div class="formula">α−β = ±√((α+β)²−4αβ) = ±√D/a</div>
+<div class="formula">α²+β² = (α+β)²−2αβ = (b²−2ac)/a²</div>
+<div class="formula">α²−β² = (α+β)(α−β)</div>
+<div class="formula">α³+β³ = (α+β)³−3αβ(α+β)</div>
+<div class="formula">α/β + β/α = ((α+β)²−2αβ)/(αβ)</div>
+<div class="teacher">ଏଠାରେ ପ୍ରଥମେ α+β ଓ αβ ବାହାର କରନ୍ତୁ। ତାପରେ ଆବଶ୍ୟକ ଫଳରେ ସେଗୁଡ଼ିକ ବସାନ୍ତୁ।</div>
+</div>
+
+<h2>📝 Source Example 5 — 2x²−6x+3=0</h2>
+<div class="card">
+<p><b>ଦିଆଯାଇଛି:</b> a=2,b=−6,c=3</p>
+<div class="formula">α+β=−b/a=6/2=3</div>
+<div class="formula">αβ=c/a=3/2</div>
+<p>ତେଣୁ:</p>
+<div class="formula">α/β + β/α = ((α+β)²−2αβ)/(αβ)</div>
+<div class="formula">= (3²−2×3/2)/(3/2) = 4</div>
+<div class="final">ଉତ୍ତର: 4</div>
+</div>
+
+<h2>2.7 ମୂଳ ଦିଆଯାଇଲେ ଦ୍ୱିଘାତ ସମୀକରଣ ଗଠନ</h2>
+<div class="card">
+<p>ଯଦି ଏକ ଦ୍ୱିଘାତ ସମୀକରଣର ମୂଳ α ଓ β, ତେବେ:</p>
+<div class="formula">x²−(α+β)x+αβ=0</div>
+<p>କାରଣ:</p>
+<div class="formula">(x−α)(x−β)=0</div>
+<div class="formula">⇒ x²−(α+β)x+αβ=0</div>
+<div class="meaning">ଅର୍ଥାତ୍ ମୂଳ ଦିଆଯାଇଥିଲେ ପ୍ରଥମେ <b>α+β</b> ଓ <b>αβ</b> ବାହାର କରି ଏହି ରୂପରେ ସମୀକରଣ ଲେଖନ୍ତୁ।</div>
+</div>
+
+<h2>📝 Source Example 6 — ମୂଳର ଯୋଗ 5 ଓ ଗୁଣଫଳ 3</h2>
+<div class="card">
+<p><b>ଦିଆଯାଇଛି:</b> α+β=5, αβ=3</p>
+<div class="formula">x²−(α+β)x+αβ=0</div>
+<div class="formula">⇒ x²−5x+3=0</div>
+<div class="final">ଗଠିତ ଦ୍ୱିଘାତ ସମୀକରଣ: x²−5x+3=0</div>
+</div>
+
+<h2>📝 Source Example 7 — ମୂଳର ଯୋଗ 2 ଓ ଗୁଣଫଳ −1</h2>
+<div class="card">
+<p><b>ଦିଆଯାଇଛି:</b> α+β=2, αβ=−1</p>
+<div class="formula">x²−2x−1=0</div>
+<div class="final">ଉତ୍ତର: x²−2x−1=0</div>
+</div>
+
+<h2>📝 Source Example 8 — α+β ଓ αβ ସମାନ</h2>
+<div class="card">
+<p>ସମୀକରଣ: ax²+4x+6a=0, a≠0.</p>
+<div class="formula">α+β=−4/a</div>
+<div class="formula">αβ=6</div>
+<p>Source ର ସମ୍ପର୍କ ଅନୁସାରେ α+β=αβ ହେଲେ:</p>
+<div class="formula">−4/a=6 ⇒ a=−2/3</div>
+<div class="final">ଉତ୍ତର: a=−2/3</div>
+</div>
+
+<h2>2.8 ଦ୍ୱିଘାତ ରୂପକୁ ପରିବର୍ତ୍ତନ — Equations Reducible to Quadratic Form</h2>
+<div class="card">
+<p>କେତେକ ସମୀକରଣ ସିଧାସଳଖ ax²+bx+c=0 ଭଳି ଦେଖାଯାଏ ନାହିଁ। ଉପଯୁକ୍ତ substitution କରି ସେଗୁଡ଼ିକୁ ଦ୍ୱିଘାତ ରୂପକୁ ଆଣାଯାଏ।</p>
+<div class="flow"><div class="box">ଦିଆଯାଇଥିବା ସମୀକରଣ</div><div class="arrow">→</div><div class="box">ନୂଆ ଚଳ t / y</div><div class="arrow">→</div><div class="box">ଦ୍ୱିଘାତ ସମୀକରଣ</div><div class="arrow">→</div><div class="box">t / y ର ମୂଳ</div><div class="arrow">→</div><div class="box">x ର ମୂଳ</div></div>
+</div>
+
+<h2>📝 Source Example 9 — x⁴−21x²+20=0</h2>
+<div class="card">
+<p><b>ପଦ 1:</b> x² = y ନିଅ। ତେବେ x⁴=y².</p>
+<div class="formula">y²−21y+20=0</div>
+<p><b>ପଦ 2:</b> ଏହା ଏକ ଦ୍ୱିଘାତ ସମୀକରଣ।</p>
+<div class="formula">D=(−21)²−4×1×20=441−80=361=19²</div>
+<p><b>ପଦ 3:</b></p>
+<div class="formula">y=(21±19)/2 ⇒ y=20 କିମ୍ବା y=1</div>
+<p><b>ପଦ 4:</b> y=x² ଥିବାରୁ:</p>
+<div class="formula">x²=20 ⇒ x=±2√5</div>
+<div class="formula">x²=1 ⇒ x=±1</div>
+<div class="final">ଉତ୍ତର: x=±1, ±2√5</div>
+</div>
+
+<h2>📝 Source Example 10 — 4(x−1/x)²+8(x+1/x)−29=0</h2>
+<div class="card">
+<p><b>Substitution:</b> y=x+1/x.</p>
+<div class="formula">(x−1/x)²=(x+1/x)²−4=y²−4</div>
+<div class="step"><div class="stepno">1</div><div>4(y²−4)+8y−29=0</div></div>
+<div class="step"><div class="stepno">2</div><div>4y²+8y−45=0</div></div>
+<div class="step"><div class="stepno">3</div><div>ଦ୍ୱିଘାତ ସୂତ୍ର ଦ୍ୱାରା y=5/2 କିମ୍ବା y=−9/2.</div></div>
+<div class="step"><div class="stepno">4</div><div>ପ୍ରତ୍ୟେକ y ମାନକୁ x+1/x=y ରେ ବସାଇ x ବାହାର କରିବା।</div></div>
+<div class="final">ଏହି ପ୍ରକାରର ପ୍ରଶ୍ନରେ ପ୍ରଥମେ substitution କରି ସମୀକରଣକୁ ସରଳ ଦ୍ୱିଘାତ ରୂପକୁ ଆଣନ୍ତୁ।</div>
+</div>
+
+<h2>📝 Source Example 11 — √(x/(1−x)) + √((1−x)/x) = 13/6</h2>
+<div class="card">
+<p>Source ରେ ଏହି ପ୍ରଶ୍ନକୁ substitution ଦ୍ୱାରା ଦ୍ୱିଘାତ ରୂପକୁ ଆଣାଯାଇଛି।</p>
+<div class="formula">y + 1/y = 13/6</div>
+<div class="formula">⇒ 6y²−13y+6=0</div>
+<p>ତାପରେ ଦ୍ୱିଘାତ ସୂତ୍ର ଦ୍ୱାରା y ର ମୂଳ ବାହାର କରି, ପୁନଃ substitution ରେ x ନିର୍ଣ୍ଣୟ କରାଯାଏ।</p>
+<div class="teacher">ଏଠାରେ ପ୍ରତ୍ୟେକ ରୂପାନ୍ତରଣ ଲେଖିବା ଜରୁରୀ—ମଧ୍ୟର step ଛାଡ଼ିବା ନାହିଁ।</div>
+</div>
+
+<h2>📝 Source Example 12 — ଗୁଣନୀୟକରଣ ଦ୍ୱାରା ପରିବର୍ତ୍ତନ</h2>
+<div class="card">
+<p>Source ରେ x(x+5)(x+7)(x+12)+150=0 କୁ ଯୋଡ଼ି-ବିୟୋଗ ଓ ଗୁଣନୀୟକରଣ ଦ୍ୱାରା ଦ୍ୱିଘାତ ରୂପକୁ ଆଣାଯାଇଛି।</p>
+<div class="formula">x(x+5)(x+7)(x+12)+150=0</div>
+<div class="formula">⇒ (x²+12x)(x²+12x+35)+150=0</div>
+<div class="formula">y=x²+12x</div>
+<div class="formula">⇒ y²+35y+150=0</div>
+<p>ଏବେ y ର ମୂଳ ବାହାର କରି ପୁନଃ <b>y=x²+12x</b> ରେ ବସାଇ x ବାହାର କରାଯାଏ।</p>
+</div>
+
+<h2>2.9 ଦ୍ୱିଘାତ ସମୀକରଣର ପ୍ରୟୋଗ — Application</h2>
+<div class="card">
+<p>ଦୈନନ୍ଦିନ ଜୀବନର କେତେକ ପରିସ୍ଥିତିରେ ଅଜଣା ରାଶିକୁ x ଧରି, ପରିସ୍ଥିତିରୁ ଏକ ଦ୍ୱିଘାତ ସମୀକରଣ ଗଠନ କରାଯାଏ।</p>
+<div class="flow"><div class="box">ପ୍ରଶ୍ନର ତଥ୍ୟ</div><div class="arrow">→</div><div class="box">ଅଜଣା = x</div><div class="arrow">→</div><div class="box">ସମ୍ପର୍କ ସ୍ଥାପନ</div><div class="arrow">→</div><div class="box">ଦ୍ୱିଘାତ ସମୀକରଣ</div><div class="arrow">→</div><div class="box">x ର ମାନ</div><div class="arrow">→</div><div class="box">ଅର୍ଥପୂର୍ଣ୍ଣ ଉତ୍ତର</div></div>
+</div>
+
+<h2>📝 Source Example 13 — x²−x−90=0</h2>
+<div class="card">
+<p>Source ରେ ସମୀକରଣ:</p>
+<div class="formula">x²−x−90=0</div>
+<div class="step"><div class="stepno">1</div><div>x²−10x+9x−90=0</div></div>
+<div class="step"><div class="stepno">2</div><div>x(x−10)+9(x−10)=0</div></div>
+<div class="step"><div class="stepno">3</div><div>(x+9)(x−10)=0</div></div>
+<div class="final">x=−9 କିମ୍ବା x=10</div>
+</div>
+
+<h2>📝 Source Example 14 — ସଂଖ୍ୟାର ଗୁଣନଫଳ ଓ ସମ୍ପର୍କ</h2>
+<div class="card">
+<p>Source ରେ ଏକ ସଂଖ୍ୟାର ମାନକୁ x ଧରି ତାହାର ଅନ୍ୟ ସମ୍ବନ୍ଧିତ ମାନ ସହ probability/ratio ନୁହେଁ, ବରଂ ବୀଜଗାଣିତିକ ସମ୍ପର୍କ ଦ୍ୱାରା ଦ୍ୱିଘାତ ସମୀକରଣ ଗଠନ କରାଯାଇଛି। ମୁଖ୍ୟ ପଦ୍ଧତି ହେଉଛି ତଥ୍ୟକୁ x ରେ ପ୍ରକାଶ କରି ସମୀକରଣ ତିଆରି କରିବା।</p>
+</div>
+
+<h2>📝 Source Example 15 — ଦୂରତା/ଗତି ସମ୍ବନ୍ଧୀୟ ପ୍ରଶ୍ନ</h2>
+<div class="card">
+<p>Source ରେ ଦିଆଯାଇଥିବା ଗତି-ଦୂରତା ସମ୍ପର୍କକୁ ବୀଜଗାଣିତିକ ଭାବରେ ଲେଖି ଦ୍ୱିଘାତ ସମୀକରଣ ତିଆରି କରାଯାଇଛି।</p>
+<div class="flow"><div class="box">ଦୂରତା</div><div class="arrow">÷</div><div class="box">ଗତି</div><div class="arrow">=</div><div class="box">ସମୟ</div></div>
+<p>ତାପରେ ଦିଆଯାଇଥିବା ସମ୍ପର୍କକୁ ସରଳ କରି x ର ଦ୍ୱିଘାତ ସମୀକରଣ ପାଇଁ ସମାଧାନ କରାଯାଏ।</p>
+</div>
+
+<h2>🧠 ପ୍ରତ୍ୟେକ ଦ୍ୱିଘାତ ପ୍ରଶ୍ନର ସମାଧାନ ମାନଚିତ୍ର</h2>
+<div class="card">
+<div class="flow">
+<div class="box"><b>ପ୍ରଶ୍ନ</b></div><div class="arrow">↓</div>
+<div class="box"><b>ଦିଆଯାଇଛି</b></div><div class="arrow">↓</div>
+<div class="box"><b>କ’ଣ ବାହାର କରିବା?</b></div><div class="arrow">↓</div>
+<div class="box"><b>a,b,c ଚିହ୍ନଟ</b></div><div class="arrow">↓</div>
+<div class="box"><b>D=b²−4ac</b></div><div class="arrow">↓</div>
+<div class="box"><b>ସୂତ୍ର / ପଦ୍ଧତି</b></div><div class="arrow">↓</div>
+<div class="box"><b>Step 1→2→3</b></div><div class="arrow">↓</div>
+<div class="box"><b>ମୂଳ / ଉତ୍ତର</b></div><div class="arrow">↓</div>
+<div class="box"><b>ଯାଞ୍ଚ ✓</b></div>
+</div>
+</div>
+
+<h2>⚠️ ଗଣିତୀୟ ସଠିକତା — ମନେ ରଖନ୍ତୁ</h2>
+<div class="grid">
+<div class="card exam"><b>1.</b> a≠0 ନିଶ୍ଚିତ କରନ୍ତୁ।</div>
+<div class="card exam"><b>2.</b> b ଋଣାତ୍ମକ ହେଲେ b² ଓ −b ରେ ଭୁଲ କରନ୍ତୁ ନାହିଁ।</div>
+<div class="card exam"><b>3.</b> D=b²−4ac ରେ 4ac ସମ୍ପୂର୍ଣ୍ଣ ଗୁଣନ କରନ୍ତୁ।</div>
+<div class="card exam"><b>4.</b> 2a ହେଉଛି ସମଗ୍ର denominator।</div>
+<div class="card exam"><b>5.</b> ± ଦ୍ୱାରା ଦୁଇଟି ମୂଳ ଅଲଗା ଭାବରେ ଲେଖନ୍ତୁ।</div>
+<div class="card exam"><b>6.</b> ଶେଷ ଉତ୍ତରକୁ ମୂଳ ସମୀକରଣରେ ବସାଇ ଯାଞ୍ଚ କରନ୍ତୁ।</div>
+</div>
+
+<h2>📊 ମୂଳର ପ୍ରକୃତି — ଏକ ନଜରରେ</h2>
+<div class="diagram">
+<svg width="760" height="290" viewBox="0 0 760 290">
+<rect x="300" y="18" width="160" height="55" rx="12" fill="#edf4f4" stroke="#123f52" stroke-width="2"/>
+<text x="380" y="53" text-anchor="middle" font-size="22">D=b²−4ac</text>
+<line x1="380" y1="73" x2="150" y2="130" stroke="#b57920" stroke-width="3"/>
+<line x1="380" y1="73" x2="380" y2="130" stroke="#b57920" stroke-width="3"/>
+<line x1="380" y1="73" x2="610" y2="130" stroke="#b57920" stroke-width="3"/>
+<rect x="65" y="130" width="170" height="70" rx="12" fill="#edf8f2" stroke="#0d766e" stroke-width="2"/>
+<rect x="295" y="130" width="170" height="70" rx="12" fill="#fff7e5" stroke="#b57920" stroke-width="2"/>
+<rect x="525" y="130" width="170" height="70" rx="12" fill="#fff0ee" stroke="#a23b32" stroke-width="2"/>
+<text x="150" y="160" text-anchor="middle" font-size="21">D &gt; 0</text><text x="150" y="185" text-anchor="middle" font-size="16">ଦୁଇ ଭିନ୍ନ ବାସ୍ତବ</text>
+<text x="380" y="160" text-anchor="middle" font-size="21">D = 0</text><text x="380" y="185" text-anchor="middle" font-size="16">ସମାନ ବାସ୍ତବ</text>
+<text x="610" y="160" text-anchor="middle" font-size="21">D &lt; 0</text><text x="610" y="185" text-anchor="middle" font-size="16">ବାସ୍ତବ ମୂଳ ନାହିଁ</text>
+<text x="380" y="250" text-anchor="middle" font-size="19">ବିଭେଦକର ଚିହ୍ନ → ମୂଳର ପ୍ରକୃତି</text>
+</svg>
+</div>
+
+<h2>📌 ମୂଳ ଓ ସହଗର ସମ୍ପର୍କ — Formula Map</h2>
+<div class="card">
+<div class="formula">ax²+bx+c=0</div>
+<div class="flow"><div class="box">ମୂଳ α, β</div><div class="arrow">→</div><div class="box">α+β=−b/a</div><div class="arrow">+</div><div class="box">αβ=c/a</div></div>
+<div class="flow"><div class="box">α+β</div><div class="arrow">→</div><div class="box">α²+β²</div><div class="arrow">→</div><div class="box">α³+β³</div><div class="arrow">→</div><div class="box">ଅନ୍ୟ ରାଶି</div></div>
+</div>
+
+<h2>🎯 ପରୀକ୍ଷାମୁଖୀ ପ୍ରଶ୍ନ</h2>
+<div class="card">
+<h3>ଅତି ସଂକ୍ଷିପ୍ତ ପ୍ରଶ୍ନ</h3>
+<ol>
+<li>ଦ୍ୱିଘାତ ବହୁପଦୀର ସାଧାରଣ ରୂପ ଲେଖ।</li>
+<li>ଦ୍ୱିଘାତ ସମୀକରଣର ସାଧାରଣ ରୂପ କ’ଣ?</li>
+<li>ଦ୍ୱିଘାତ ସୂତ୍ର ଲେଖ।</li>
+<li>ବିଭେଦକ D ର ସୂତ୍ର ଲେଖ।</li>
+<li>D=0 ହେଲେ ମୂଳର ପ୍ରକୃତି କ’ଣ?</li>
+<li>α+β ର ସୂତ୍ର ଲେଖ।</li>
+<li>αβ ର ସୂତ୍ର ଲେଖ।</li>
+<li>ମୂଳ α,β ଦିଆଯାଇଥିଲେ ସମୀକରଣର ମାନକ ରୂପ ଲେଖ।</li>
+</ol>
+<h3>ସଂକ୍ଷିପ୍ତ ପ୍ରଶ୍ନ</h3>
+<ol>
+<li>ବର୍ଗ ପୂରଣ ପ୍ରଣାଳୀରେ ଦ୍ୱିଘାତ ସୂତ୍ର କିପରି ମିଳେ, ପଦକ୍ଷେପରେ ଦେଖାଅ।</li>
+<li>D&gt;0, D=0 ଓ D&lt;0 ରେ ମୂଳର ପ୍ରକୃତି ତୁଳନା କର।</li>
+<li>ମୂଳ ଓ ସହଗମାନଙ୍କ ସମ୍ପର୍କ ବୁଝାଅ।</li>
+<li>ମୂଳ ଦିଆଯାଇଥିଲେ ଦ୍ୱିଘାତ ସମୀକରଣ ଗଠନ କରିବାର ପଦ୍ଧତି ଲେଖ।</li>
+<li>ଏକ ସମୀକରଣକୁ substitution କରି ଦ୍ୱିଘାତ ରୂପକୁ କିପରି ଆଣିବା?</li>
+</ol>
+<h3>ଦୀର୍ଘ / ସମସ୍ୟା ସମାଧାନ</h3>
+<ol>
+<li>6x²+11x+3=0 କୁ ଦ୍ୱିଘାତ ସୂତ୍ର ଦ୍ୱାରା ସମାଧାନ କର।</li>
+<li>x²+2x−63=0 ର ମୂଳ ନିର୍ଣ୍ଣୟ କର।</li>
+<li>25x²+30x+7=0 ପାଇଁ α+β ଓ αβ ବାହାର କର।</li>
+<li>ମୂଳର ଯୋଗ 5 ଓ ଗୁଣଫଳ 3 ହେଲେ ସମୀକରଣ ଗଠନ କର।</li>
+<li>x⁴−21x²+20=0 କୁ y=x² substitution ଦ୍ୱାରା ସମାଧାନ କର।</li>
+<li>ଦିଆଯାଇଥିବା ମୂଳ α,β ରୁ x²−(α+β)x+αβ=0 ଗଠନ କରିବା ପ୍ରମାଣ କର।</li>
+</ol>
+</div>
+
+<h2>📚 ଅଭ୍ୟାସ — ଧାରଣା ମଜବୁତ କରନ୍ତୁ</h2>
+<div class="card">
+<p>ଅଭ୍ୟାସରେ ଦିଆଯାଇଥିବା ପ୍ରଶ୍ନଗୁଡ଼ିକୁ ତଳର ଶ୍ରେଣୀରେ ଭାଗ କରି ଅଭ୍ୟାସ କରନ୍ତୁ:</p>
+<div class="grid">
+<div class="card"><b>ଶ୍ରେଣୀ A — ମୂଳ ନିର୍ଣ୍ଣୟ</b><p>ଗୁଣନୀୟକରଣ, ଦ୍ୱିଘାତ ସୂତ୍ର ଓ ମୂଳର ଗୁଣଧର୍ମ ଉପରେ ପ୍ରଶ୍ନ।</p></div>
+<div class="card"><b>ଶ୍ରେଣୀ B — ମୂଳର ପ୍ରକୃତି</b><p>D ର ମାନ ଦ୍ୱାରା ମୂଳର ପ୍ରକୃତି ନିର୍ଣ୍ଣୟ।</p></div>
+<div class="card"><b>ଶ୍ରେଣୀ C — α+β, αβ</b><p>ମୂଳ ବାହାର ନକରି ମୂଳର ଯୋଗ, ଗୁଣଫଳ ଓ ସେଗୁଡ଼ିକରୁ ଅନ୍ୟ ରାଶି।</p></div>
+<div class="card"><b>ଶ୍ରେଣୀ D — ସମୀକରଣ ଗଠନ</b><p>ଦିଆଯାଇଥିବା ମୂଳ କିମ୍ବା ମୂଳର ଯୋଗ-ଗୁଣଫଳରୁ ସମୀକରଣ ତିଆରି।</p></div>
+<div class="card"><b>ଶ୍ରେଣୀ E — ଦ୍ୱିଘାତକୁ ପରିବର୍ତ୍ତନ</b><p>Substitution, reciprocal expression ଓ factorisation ଦ୍ୱାରା ଦ୍ୱିଘାତ ରୂପ।</p></div>
+<div class="card"><b>ଶ୍ରେଣୀ F — ପ୍ରୟୋଗ</b><p>ବାସ୍ତବ ପରିସ୍ଥିତିରୁ x ଧରି ଦ୍ୱିଘାତ ସମୀକରଣ ଗଠନ ଓ ସମାଧାନ।</p></div>
+</div>
+</div>
+
+<section class="revision">
+<h2>⚡ ଶେଷ ମୁହୂର୍ତ୍ତ Revision</h2>
+<div class="grid">
+<div class="card"><b>ଦ୍ୱିଘାତ ସମୀକରଣ</b><div class="formula">ax²+bx+c=0, a≠0</div></div>
+<div class="card"><b>ଦ୍ୱିଘାତ ସୂତ୍ର</b><div class="formula">x=(−b±√(b²−4ac))/(2a)</div></div>
+<div class="card"><b>ବିଭେଦକ</b><div class="formula">D=b²−4ac</div></div>
+<div class="card"><b>ମୂଳର ଯୋଗ</b><div class="formula">α+β=−b/a</div></div>
+<div class="card"><b>ମୂଳର ଗୁଣଫଳ</b><div class="formula">αβ=c/a</div></div>
+<div class="card"><b>ମୂଳରୁ ସମୀକରଣ</b><div class="formula">x²−(α+β)x+αβ=0</div></div>
+<div class="card"><b>D&gt;0</b><p>ଦୁଇଟି ବାସ୍ତବ ଓ ଭିନ୍ନ ମୂଳ</p></div>
+<div class="card"><b>D=0</b><p>ଦୁଇଟି ସମାନ ବାସ୍ତବ ମୂଳ</p></div>
+<div class="card"><b>D&lt;0</b><p>ବାସ୍ତବ ମୂଳ ନାହିଁ</p></div>
+<div class="card"><b>ଦ୍ୱିଘାତ ରୂପକୁ ପରିବର୍ତ୍ତନ</b><p>Substitution → ଦ୍ୱିଘାତ → ମୂଳ → ପୁନଃ substitution</p></div>
+</div>
+<h3>🎯 Exam Golden Steps</h3>
+<div class="flow">
+<div class="box">a,b,c ଚିହ୍ନଟ</div><div class="arrow">→</div><div class="box">D ନିର୍ଣ୍ଣୟ</div><div class="arrow">→</div><div class="box">ସଠିକ୍ ସୂତ୍ର</div><div class="arrow">→</div><div class="box">ସମସ୍ତ Step</div><div class="arrow">→</div><div class="box">Final Answer</div><div class="arrow">→</div><div class="box">Verification ✓</div>
+</div>
+</section>
+
+<footer class="small" style="margin:22px 4px">
+ଏହି ଶିକ୍ଷଣ ଫାଇଲ୍ ଅଧ୍ୟାୟରେ ଥିବା ଦ୍ୱିଘାତ ସମୀକରଣ, ଦ୍ୱିଘାତ ସୂତ୍ର, ବିଭେଦକ, ମୂଳର ପ୍ରକୃତି, ମୂଳ ଓ ସହଗର ସମ୍ପର୍କ, ସମୀକରଣ ଗଠନ, ଦ୍ୱିଘାତ ରୂପକୁ ପରିବର୍ତ୍ତନ ଏବଂ ପ୍ରୟୋଗ ଉପରେ ଗଠିତ।
+</footer>
+</div></body></html>
+
