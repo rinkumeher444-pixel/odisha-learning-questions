@@ -1,1 +1,421 @@
+<!doctype html>
+<html lang="or">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ତ୍ରିକୋଣମିତି — Trigonometry | Odia Visual Lecture</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f1e9;color:#18263d;font-family:"Noto Sans Oriya","Nirmala UI","Noto Sans",sans-serif;line-height:1.8}
+.wrap{max-width:1120px;margin:auto;padding:0 18px 70px}.hero{background:linear-gradient(135deg,#10213f,#235a8d,#157568);color:#fff;padding:48px 18px}.hero h1{font-size:46px;line-height:1.15;margin:10px 0}.hero .en{font-size:22px;color:#ffe1a3}.badge{display:inline-block;border:1px solid #ffffff55;border-radius:999px;padding:4px 12px;font-size:12px}
+.section{font-size:29px;margin:42px 0 14px;display:flex;gap:12px;align-items:center}.num{width:44px;height:44px;border-radius:13px;background:#10213f;color:#ffe1a3;display:grid;place-items:center;font-size:14px;flex:none}
+.teacher{background:#e5f4f0;border:1px solid #b6dcd2;border-radius:18px;padding:15px;margin:12px 0;display:flex;gap:12px}.face{width:42px;height:42px;border-radius:50%;background:#157568;color:#fff;display:grid;place-items:center;flex:none}
+.box,.card,.example,.q{background:#fff;border:1px solid #ded8cc;border-radius:18px;padding:16px;margin:12px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.formula{font-family:"DejaVu Sans","Noto Sans",sans-serif;font-size:21px;font-weight:800;text-align:center;margin:9px 0}.def{background:linear-gradient(135deg,#10213f,#2f5e94);color:#fff;border-radius:20px;padding:20px}.def .label{color:#ffe1a3;font-size:12px;font-weight:900}
+.flow{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;margin:15px 0}.node{background:#eaf2ff;border:1px solid #c7d9ef;border-radius:13px;padding:8px 12px;font-weight:800}.arrow{font-size:21px;font-weight:900;color:#c58b25}
+.visual{background:#fff;border:1px solid #ded8cc;border-radius:19px;padding:12px;text-align:center;margin:14px 0}.steps{display:grid;gap:9px}.step{display:grid;grid-template-columns:38px 1fr;gap:10px;background:#fff;border:1px solid #ded8cc;border-radius:15px;padding:10px}.sn{width:31px;height:31px;border-radius:50%;background:#10213f;color:#ffe1a3;display:grid;place-items:center;font-weight:900}
+.answer{background:#fff0c8;border:1px solid #e5c56e;border-radius:13px;padding:10px;text-align:center;font-weight:900;margin-top:10px}.check{background:#e8f5ed;border:1px solid #b6dcd2;border-radius:13px;padding:10px;margin-top:10px}.warn{background:#fff0f0;border:1px solid #e7c8c8;border-radius:16px;padding:14px}
+.table{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border:1px solid #ded8cc;border-radius:16px;overflow:hidden}.table th,.table td{padding:9px 10px;border-bottom:1px solid #ded8cc;text-align:center}.table th{background:#10213f;color:#fff}.table tr:last-child td{border-bottom:0}
+.dark{background:linear-gradient(135deg,#10213f,#244e7f);color:#fff;border-radius:22px;padding:21px;margin-top:40px}.dark h2{color:#ffe1a3}.rev{background:#ffffff10;border:1px solid #ffffff20;border-radius:14px;padding:12px}.rev h3{color:#ffe1a3;margin:0 0 5px}.revgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(205px,1fr));gap:10px}
+.footer{text-align:center;color:#756f64;padding:35px 0}.small{font-size:13px;color:#6d6a64}
+@media(max-width:650px){.hero h1{font-size:34px}.section{font-size:23px}.formula{font-size:17px}.table{font-size:13px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<div class="badge">ଓଡ଼ିଆ ମାଧ୍ୟମ • ଗଣିତ • ଅଧ୍ୟାୟ ୪</div>
+<h1>ତ୍ରିକୋଣମିତି</h1><div class="en">TRIGONOMETRY</div>
+<p>ଏହି visual lecture ଟି uploaded <b>math parimiti.pdf</b> ର ୨୪ ପୃଷ୍ଠାର content ଉପରେ ଆଧାରିତ। Source ରେ Trigonometric ratios, standard values, complementary angles, 180°−θ, 90°+θ, identities, compound angles ଏବଂ Heights & Distances ରହିଛି।</p>
+</div></header>
 
+<main class="wrap">
+<div class="call"><b>ପାଠର ମାନଚିତ୍ର:</b> ତ୍ରିକୋଣମିତିର ପରିଚୟ → sin, cos, tan, cot, sec, cosec → 0°, 30°, 45°, 60°, 90°, 120°, 135°, 150°, 180° → complementary ratios → 180°−θ → 90°+θ → identities → compound-angle formula → worked examples → Heights & Distances → exercise revision.</div>
+
+<h2 class="section"><span class="num">୧</span> ତ୍ରିକୋଣମିତିର ପରିଚୟ</h2>
+<div class="teacher"><div class="face">👨‍🏫</div><div>ତ୍ରିକୋଣମିତିରେ ତ୍ରିଭୁଜର କୋଣ ଓ ତାହାର ବାହୁମାନଙ୍କ ମଧ୍ୟର ସମ୍ପର୍କ ଅଧ୍ୟୟନ କରାଯାଏ। Source ର page 1 ରେ <b>sin θ, cos θ, tan θ, cot θ, sec θ, cosec θ</b> ଛଅଟି trigonometric function ର ପରିଚୟ ଦିଆଯାଇଛି।</div></div>
+<div class="visual">
+<svg viewBox="0 0 760 330">
+<polygon points="150,260 150,75 590,260" fill="#eaf2ff" stroke="#315f9b" stroke-width="4"/>
+<line x1="150" y1="75" x2="590" y2="260" stroke="#315f9b" stroke-width="4"/>
+<text x="125" y="285" font-size="22">B</text><text x="585" y="285" font-size="22">A</text><text x="145" y="65" font-size="22">C</text>
+<text x="315" y="275" font-size="21">ଅଧିକୋଣୀ ବାହୁ / Base</text><text x="110" y="175" font-size="20" transform="rotate(-90 110 175)">ଲମ୍ବ / Perpendicular</text>
+<text x="355" y="145" font-size="20">Hypotenuse</text><text x="515" y="245" font-size="20">θ</text>
+</svg>
+</div>
+<div class="box"><b>ମନେ ରଖ:</b> ଗୋଟିଏ acute angle θ ପାଇଁ—<br>
+<div class="formula">sin θ = Perpendicular / Hypotenuse</div>
+<div class="formula">cos θ = Base / Hypotenuse</div>
+<div class="formula">tan θ = Perpendicular / Base</div>
+<div class="formula">cot θ = Base / Perpendicular</div>
+<div class="formula">sec θ = Hypotenuse / Base</div>
+<div class="formula">cosec θ = Hypotenuse / Perpendicular</div></div>
+
+<h2 class="section"><span class="num">୨</span> ପ୍ରତ୍ୟେକ ratio ର ଅର୍ଥ</h2>
+<table class="table">
+<tr><th>Ratio</th><th>ଅର୍ଥ</th><th>ମନେ ରଖିବା ଉପାୟ</th></tr>
+<tr><td>sin θ</td><td>ଲମ୍ବ / କର୍ଣ୍ଣ</td><td>P/H</td></tr>
+<tr><td>cos θ</td><td>ଭୂମି / କର୍ଣ୍ଣ</td><td>B/H</td></tr>
+<tr><td>tan θ</td><td>ଲମ୍ବ / ଭୂମି</td><td>P/B</td></tr>
+<tr><td>cot θ</td><td>ଭୂମି / ଲମ୍ବ</td><td>B/P</td></tr>
+<tr><td>sec θ</td><td>କର୍ଣ୍ଣ / ଭୂମି</td><td>H/B</td></tr>
+<tr><td>cosec θ</td><td>କର୍ଣ୍ଣ / ଲମ୍ବ</td><td>H/P</td></tr>
+</table>
+
+<h2 class="section"><span class="num">୩</span> 0°, 90° ଓ 180° ର ବିଶେଷ ମୂଲ୍ୟ</h2>
+<div class="grid">
+<div class="card"><h3>θ = 0°</h3><div class="formula">sin0°=0</div><div class="formula">cos0°=1</div><div class="formula">tan0°=0</div><p>cot0° ଓ cosec0° ଅସଂଜ୍ଞ; sec0°=1.</p></div>
+<div class="card"><h3>θ = 90°</h3><div class="formula">sin90°=1</div><div class="formula">cos90°=0</div><div class="formula">cot90°=0</div><p>tan90° ଓ sec90° ଅସଂଜ୍ଞ; cosec90°=1.</p></div>
+<div class="card"><h3>θ = 180°</h3><div class="formula">sin180°=0</div><div class="formula">cos180°=−1</div><div class="formula">tan180°=0</div><p>sec180°=−1; cot180° ଓ cosec180° ଅସଂଜ୍ଞ।</p></div>
+</div>
+<div class="warn"><b>⚠️ ଭୁଲ କରନ୍ତୁ ନାହିଁ:</b> denominator 0 ହେଲେ ratio ଅସଂଜ୍ଞ। ଯଥା tan90° = sin90°/cos90° = 1/0, ତେଣୁ ଅସଂଜ୍ଞ।</div>
+
+<h2 class="section"><span class="num">୪</span> Complementary Angles — 90°−θ</h2>
+<div class="def"><div class="label">ମୁଖ୍ୟ ସୂତ୍ର</div>
+<div class="formula">sin(90°−θ)=cosθ</div>
+<div class="formula">cos(90°−θ)=sinθ</div>
+<div class="formula">tan(90°−θ)=cotθ</div>
+<div class="formula">cot(90°−θ)=tanθ</div>
+<div class="formula">sec(90°−θ)=cosecθ</div>
+<div class="formula">cosec(90°−θ)=secθ</div>
+</div>
+<p class="small">Source page 2 ର right-triangle proof ରେ m∠B=90° ନେଇ ଏହି ସମ୍ପର୍କଗୁଡ଼ିକ derive କରାଯାଇଛି। fileciteturn38file0L106-L130</p>
+
+<div class="example"><h3>ଉଦାହରଣ ୧ — sin(90°−θ) କାହିଁକି cosθ?</h3>
+<p><b>Given:</b> right triangle ରେ acute angle θ ଓ complementary angle 90°−θ।</p>
+<p><b>To Find:</b> sin(90°−θ)।</p>
+<p><b>Method:</b> complementary angle କୁ ନୂଆ reference angle ଭାବେ ନିଅ।</p>
+<div class="steps">
+<div class="step"><div class="sn">1</div><div>90°−θ ର opposite side = θ ର adjacent/base side।</div></div>
+<div class="step"><div class="sn">2</div><div>90°−θ ର hypotenuse ସମାନ ରହେ।</div></div>
+<div class="step"><div class="sn">3</div><div>ତେଣୁ sin(90°−θ)=Base/Hypotenuse।</div></div>
+<div class="step"><div class="sn">4</div><div>Base/Hypotenuse = cosθ।</div></div>
+</div>
+<div class="answer">∴ sin(90°−θ)=cosθ</div><div class="check">ଯାଞ୍ଚ: θ ର cosine = adjacent/base ÷ hypotenuse, ଯାହା ସମାନ ratio।</div></div>
+
+<h2 class="section"><span class="num">୫</span> 180°−θ ର ratios</h2>
+<div class="def"><div class="label">ମୁଖ୍ୟ ଫଳ</div>
+<div class="formula">sin(180°−θ)=sinθ</div>
+<div class="formula">cos(180°−θ)=−cosθ</div>
+<div class="formula">tan(180°−θ)=−tanθ</div>
+<div class="formula">cot(180°−θ)=−cotθ</div>
+<div class="formula">sec(180°−θ)=−secθ</div>
+<div class="formula">cosec(180°−θ)=cosecθ</div>
+</div>
+<p class="small">Source page 4–5 ର geometric derivation ରେ 180°−θ ର sign change ଦେଖାଯାଇଛି। fileciteturn38file4L547-L559</p>
+
+<h2 class="section"><span class="num">୬</span> 90°+θ ର ratios</h2>
+<table class="table">
+<tr><th>Ratio</th><th>ସୂତ୍ର</th></tr>
+<tr><td>sin</td><td>sin(90°+θ)=cosθ</td></tr>
+<tr><td>cos</td><td>cos(90°+θ)=−sinθ</td></tr>
+<tr><td>tan</td><td>tan(90°+θ)=−cotθ</td></tr>
+<tr><td>cot</td><td>cot(90°+θ)=−tanθ</td></tr>
+<tr><td>sec</td><td>sec(90°+θ)=−cosecθ</td></tr>
+<tr><td>cosec</td><td>cosec(90°+θ)=secθ</td></tr>
+</table>
+<p class="small">Source page 5 ରେ 90°+θ କୁ 180°−(90°−θ) ରୂପରେ ପରିବର୍ତ୍ତନ କରି ଏହି results ପାଇଯାଇଛି। fileciteturn38file4L628-L644</p>
+
+<h2 class="section"><span class="num">୭</span> Standard Values — 0° ରୁ 180°</h2>
+<table class="table">
+<tr><th>θ</th><th>sinθ</th><th>cosθ</th><th>tanθ</th><th>cotθ</th><th>secθ</th><th>cosecθ</th></tr>
+<tr><td>0°</td><td>0</td><td>1</td><td>0</td><td>ଅସଂଜ୍ଞ</td><td>1</td><td>ଅସଂଜ୍ଞ</td></tr>
+<tr><td>30°</td><td>1/2</td><td>√3/2</td><td>1/√3</td><td>√3</td><td>2/√3</td><td>2</td></tr>
+<tr><td>45°</td><td>1/√2</td><td>1/√2</td><td>1</td><td>1</td><td>√2</td><td>√2</td></tr>
+<tr><td>60°</td><td>√3/2</td><td>1/2</td><td>√3</td><td>1/√3</td><td>2</td><td>2/√3</td></tr>
+<tr><td>90°</td><td>1</td><td>0</td><td>ଅସଂଜ୍ଞ</td><td>0</td><td>ଅସଂଜ୍ଞ</td><td>1</td></tr>
+<tr><td>120°</td><td>√3/2</td><td>−1/2</td><td>−√3</td><td>−1/√3</td><td>−2</td><td>2/√3</td></tr>
+<tr><td>135°</td><td>1/√2</td><td>−1/√2</td><td>−1</td><td>−1</td><td>−√2</td><td>√2</td></tr>
+<tr><td>150°</td><td>1/2</td><td>−√3/2</td><td>−1/√3</td><td>−√3</td><td>−2/√3</td><td>2</td></tr>
+<tr><td>180°</td><td>0</td><td>−1</td><td>0</td><td>ଅସଂଜ୍ଞ</td><td>−1</td><td>ଅସଂଜ୍ଞ</td></tr>
+</table>
+<p class="small">ଏହି standard-value table source page 7 ରେ ଦିଆଯାଇଛି। fileciteturn38file2L787-L841</p>
+
+<div class="example"><h3>ଉଦାହରଣ ୨ — θ=120° ର ସମସ୍ତ ratio</h3>
+<p><b>Given:</b> θ=120°.</p><p><b>To Find:</b> sin120°, cos120°, tan120°, cot120°, sec120°, cosec120°.</p>
+<p><b>Method:</b> 120°=180°−60° ଏବଂ 60° ର standard values ବ୍ୟବହାର କର।</p>
+<div class="formula">sin120°=sin(180°−60°)=sin60°=√3/2</div>
+<div class="formula">cos120°=−cos60°=−1/2</div>
+<div class="formula">tan120°=−tan60°=−√3</div>
+<div class="formula">cot120°=−cot60°=−1/√3</div>
+<div class="formula">sec120°=−sec60°=−2</div>
+<div class="formula">cosec120°=cosec60°=2/√3</div>
+<div class="answer">∴ sin120°=√3/2, cos120°=−1/2, tan120°=−√3, cot120°=−1/√3, sec120°=−2, cosec120°=2/√3.</div>
+<div class="check">ଯାଞ୍ଚ: 120° ଦ୍ୱିତୀୟ quadrant ରେ; ସେଠାରେ sin positive ଓ cos/tan negative।</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୩ — θ=135°</h3>
+<p><b>Given:</b> θ=135°.</p><p><b>To Find:</b> ମୁଖ୍ୟ ratios।</p>
+<div class="formula">135°=180°−45°</div>
+<div class="formula">sin135°=sin45°=1/√2</div>
+<div class="formula">cos135°=−cos45°=−1/√2</div>
+<div class="formula">tan135°=−tan45°=−1</div>
+<div class="answer">∴ sin135°=1/√2, cos135°=−1/√2, tan135°=−1.</div>
+<div class="check">ଯାଞ୍ଚ: QII ରେ sin +, cos −, tan −।</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୪ — θ=150°</h3>
+<p><b>Given:</b> θ=150°.</p><p><b>Method:</b> 150°=180°−30°.</p>
+<div class="formula">sin150°=sin30°=1/2</div>
+<div class="formula">cos150°=−cos30°=−√3/2</div>
+<div class="formula">tan150°=−tan30°=−1/√3</div>
+<div class="formula">cot150°=−√3</div>
+<div class="formula">sec150°=−2/√3</div>
+<div class="formula">cosec150°=2</div>
+<div class="answer">∴ Source table ଅନୁସାରେ 150° ର ଉପରୋକ୍ତ values।</div>
+<div class="check">QII sign pattern ମେଳାଅ।</div></div>
+
+<h2 class="section"><span class="num">୮</span> Trigonometric Identities</h2>
+<div class="def"><div class="label">ମୁଖ୍ୟ ପରିଚୟ</div>
+<div class="formula">tanθ = sinθ/cosθ</div>
+<div class="formula">cotθ = cosθ/sinθ</div>
+<div class="formula">secθ = 1/cosθ</div>
+<div class="formula">cosecθ = 1/sinθ</div>
+</div>
+<div class="grid">
+<div class="card"><h3>Pythagorean Identity</h3><div class="formula">sin²θ+cos²θ=1</div></div>
+<div class="card"><h3>tan identity</h3><div class="formula">1+tan²θ=sec²θ</div></div>
+<div class="card"><h3>cot identity</h3><div class="formula">1+cot²θ=cosec²θ</div></div>
+</div>
+
+<div class="example"><h3>ଉଦାହରଣ ୫ — Identity ଦ୍ୱାରା expression simplify</h3>
+<p><b>Question:</b> sec²θ−tan²θ ର ମୂଲ୍ୟ ନିର୍ଣ୍ଣୟ କର।</p>
+<p><b>Given:</b> 1+tan²θ=sec²θ.</p><p><b>To Find:</b> sec²θ−tan²θ.</p>
+<div class="steps"><div class="step"><div class="sn">1</div><div>sec²θ=1+tan²θ ଲେଖ।</div></div><div class="step"><div class="sn">2</div><div>sec²θ−tan²θ=(1+tan²θ)−tan²θ.</div></div><div class="step"><div class="sn">3</div><div>=1+tan²θ−tan²θ.</div></div><div class="step"><div class="sn">4</div><div>=1.</div></div></div>
+<div class="answer">∴ sec²θ−tan²θ=1</div><div class="check">ଯାଞ୍ଚ: source exercise ର identity-based questions ରେ ଏହି ପ୍ରକାର cancellation ବ୍ୟବହୃତ ହୁଏ।</div></div>
+
+<h2 class="section"><span class="num">୯</span> Compound Angles — A+B ଓ A−B</h2>
+<div class="def"><div class="label">ମୂଳ ୪ଟି ସୂତ୍ର</div>
+<div class="formula">sin(A+B)=sinA·cosB+cosA·sinB</div>
+<div class="formula">cos(A+B)=cosA·cosB−sinA·sinB</div>
+<div class="formula">sin(A−B)=sinA·cosB−cosA·sinB</div>
+<div class="formula">cos(A−B)=cosA·cosB+sinA·sinB</div>
+</div>
+<p class="small">Source pages 13–14 ର geometric proof ରେ ଏହି four identities derive କରାଯାଇଛି। fileciteturn41file0L15-L16 fileciteturn41file0L84-L109</p>
+
+<div class="def"><div class="label">tan ଓ cot</div>
+<div class="formula">tan(A+B)=(tanA+tanB)/(1−tanA·tanB)</div>
+<div class="formula">tan(A−B)=(tanA−tanB)/(1+tanA·tanB)</div>
+<div class="formula">cot(A+B)=(cotA·cotB−1)/(cotA+cotB)</div>
+<div class="formula">cot(A−B)=(cotA·cotB+1)/(cotB−cotA)</div>
+</div>
+<p class="small">Source page 15 ରେ tan/cot compound-angle formula ର algebraic derivation ଅଛି। fileciteturn41file0L287-L395</p>
+
+<div class="example"><h3>ଉଦାହରଣ ୬ — sin15°</h3>
+<p><b>Given:</b> 15°=45°−30°.</p><p><b>To Find:</b> sin15°.</p><p><b>Formula:</b> sin(A−B)=sinA·cosB−cosA·sinB.</p>
+<div class="formula">sin15°=sin45°·cos30°−cos45°·sin30°</div>
+<div class="formula">=(1/√2)(√3/2)−(1/√2)(1/2)</div>
+<div class="formula">=√3/(2√2)−1/(2√2)</div>
+<div class="formula">=(√3−1)/(2√2)</div>
+<div class="answer">∴ sin15°=(√3−1)/(2√2)</div>
+<div class="check">ଯାଞ୍ଚ: 15°=45°−30° ସଠିକ୍। Source page 16 ରେ sin15° କୁ 45°−30° ଭାବରେ expand କରାଯାଇଛି।</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୭ — tan105°</h3>
+<p><b>Given:</b> 105°=60°+45°.</p><p><b>To Find:</b> tan105°.</p><div class="formula">tan105°=(tan60°+tan45°)/(1−tan60°·tan45°)</div>
+<div class="formula">=(√3+1)/(1−√3)</div>
+<div class="formula">=(√3+1)(1+√3)/[(1−√3)(1+√3)]</div>
+<div class="formula">=(√3+1)²/(1−3)</div>
+<div class="formula">=(4+2√3)/(−2)</div>
+<div class="answer">∴ tan105°=−(2+√3)</div>
+<div class="check">ଯାଞ୍ଚ: 105° QII ରେ, ତେଣୁ tan negative।</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୮ — cos70°+cos50°</h3>
+<p><b>Given:</b> cos70°+cos50°.</p><p><b>To Find:</b> ମୂଲ୍ୟକୁ ଗୋଟିଏ ratio ରେ ପ୍ରକାଶ କର।</p>
+<div class="formula">cos70°+cos50°=cos(60°+10°)+cos(60°−10°)</div>
+<div class="formula">=[cos60°cos10°−sin60°sin10°]+[cos60°cos10°+sin60°sin10°]</div>
+<div class="formula">=2cos60°cos10°</div>
+<div class="formula">=2×(1/2)cos10°</div>
+<div class="answer">∴ cos70°+cos50°=cos10°=sin80°</div>
+<div class="check">Source page 17 ର example 16 ର same transformation ଦିଆଯାଇଛି। fileciteturn41file0L582-L605</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୯ — tan70°·tan65°−tan70°−tan65°</h3>
+<p><b>Given:</b> 70°+65°=135°.</p><p><b>To Find:</b> tan70°·tan65°−tan70°−tan65°.</p>
+<div class="formula">tan(70°+65°)=tan135°=−1</div>
+<div class="formula">(tan70°+tan65°)/(1−tan70°tan65°)=−1</div>
+<div class="formula">tan70°+tan65°=−1+tan70°tan65°</div>
+<div class="formula">tan70°tan65°−tan70°−tan65°=1</div>
+<div class="answer">∴ ମୂଲ୍ୟ = 1</div>
+<div class="check">Source page 17 ର example 14 ର exact logic। fileciteturn41file0L545-L560</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୧୦ — A+B+C=180°</h3>
+<p><b>Given:</b> A+B+C=180°.</p><p><b>To Prove:</b> tanA+tanB+tanC=tanA·tanB·tanC.</p>
+<div class="formula">A+B=180°−C</div>
+<div class="formula">tan(A+B)=tan(180°−C)=−tanC</div>
+<div class="formula">(tanA+tanB)/(1−tanA·tanB)=−tanC</div>
+<div class="formula">tanA+tanB=−tanC+tanA·tanB·tanC</div>
+<div class="formula">tanA+tanB+tanC=tanA·tanB·tanC</div>
+<div class="answer">∴ tanA+tanB+tanC=tanA·tanB·tanC</div>
+<div class="check">Source page 17 ର example 15 ର proof। fileciteturn41file0L565-L577</div></div>
+
+<h2 class="section"><span class="num">୧୦</span> Compound-Angle Derived Results</h2>
+<div class="grid">
+<div class="card"><div class="formula">sin(A+B)+sin(A−B)=2sinA·cosB</div><p>ଦୁଇଟି sine ଯୋଗ କଲେ middle terms cancel ହୁଏ।</p></div>
+<div class="card"><div class="formula">sin(A+B)−sin(A−B)=2cosA·sinB</div><p>ଏଠାରେ sinA·cosB cancel ହୁଏ।</p></div>
+<div class="card"><div class="formula">cos(A+B)+cos(A−B)=2cosA·cosB</div></div>
+<div class="card"><div class="formula">cos(A−B)−cos(A+B)=2sinA·sinB</div></div>
+</div>
+<p class="small">Source page 16 ରେ ଏହି four derived formula ସ୍ପଷ୍ଟ ଭାବେ ଦିଆଯାଇଛି। fileciteturn41file0L407-L410</p>
+
+<h2 class="section"><span class="num">୧୧</span> Heights & Distances — ଉଚ୍ଚତା ଓ ଦୂରତା</h2>
+<div class="teacher"><div class="face">📐</div><div>ଏଠାରେ real-life figure କୁ right triangle ରେ ପରିଣତ କରି trigonometric ratio ବ୍ୟବହାର କରାଯାଏ। Source page 20 ରେ <b>angle of elevation</b> ଓ <b>angle of depression</b> ର diagram ଦିଆଯାଇଛି। fileciteturn42file0L14-L110</div></div>
+<div class="visual"><svg viewBox="0 0 760 350">
+<line x1="110" y1="290" x2="650" y2="290" stroke="#10213f" stroke-width="4"/>
+<line x1="510" y1="290" x2="510" y2="70" stroke="#10213f" stroke-width="5"/>
+<line x1="150" y1="290" x2="510" y2="70" stroke="#315f9b" stroke-width="4"/>
+<text x="500" y="55" font-size="22">A</text><text x="510" y="315" font-size="22">B</text><text x="135" y="315" font-size="22">P</text>
+<text x="275" y="275" font-size="21">horizontal distance</text><text x="525" y="190" font-size="21">h</text><text x="175" y="270" font-size="20">θ</text>
+<text x="185" y="65" font-size="21">Angle of elevation</text>
+</svg></div>
+<div class="flow"><div class="node">Figure</div><div class="arrow">→</div><div class="node">Right triangle</div><div class="arrow">→</div><div class="node">Known values</div><div class="arrow">→</div><div class="node">Choose sin/cos/tan</div><div class="arrow">→</div><div class="node">Solve</div><div class="arrow">→</div><div class="node">Unit check</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୧୧ — 75 ମିଟର ଦୂରରୁ ଉଚ୍ଚତା</h3>
+<p><b>Given:</b> ଭୂମିରେ ଦୂରତା BC=75 m, angle BCA=30°, √3=1.732.</p>
+<p><b>To Find:</b> BA, ଅର୍ଥାତ୍ ଅଟ୍ଟାଳିକାର ଉଚ୍ଚତା।</p>
+<p><b>Formula/Method:</b> tan30°=opposite/adjacent=BA/BC.</p>
+<div class="steps">
+<div class="step"><div class="sn">1</div><div>tan30°=BA/75.</div></div>
+<div class="step"><div class="sn">2</div><div>1/√3=BA/75.</div></div>
+<div class="step"><div class="sn">3</div><div>BA=75/√3.</div></div>
+<div class="step"><div class="sn">4</div><div>BA=(75√3)/3=25√3.</div></div>
+<div class="step"><div class="sn">5</div><div>BA=25×1.732=43.3 m.</div></div>
+</div>
+<div class="answer">∴ ଅଟ୍ଟାଳିକାର ଉଚ୍ଚତା = 43.3 ମିଟର।</div>
+<div class="check">ଯାଞ୍ଚ: tan30°=43.3/75≈0.577, ଯାହା 1/√3 ସହିତ ମେଳାଏ। Source page 21 ର example 17 ର exact numerical result 43.3 m। fileciteturn42file0L256-L290</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୧୨ — ଖୁଣ୍ଟର ଉଚ୍ଚତା</h3>
+<p><b>Given:</b> BA=30 m, angle APB=30°.</p><p><b>To Find:</b> BP.</p>
+<div class="formula">tan30°=AB/BP</div>
+<div class="formula">1/√3=30/BP</div>
+<div class="formula">BP=30√3</div>
+<div class="formula">BP=30×1.732=51.96 m</div>
+<div class="answer">∴ BP=51.96 ମିଟର।</div>
+<div class="check">Source page 21 ର example 18 ର result 51.96 m। fileciteturn42file0L294-L344</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୧୩ — ଦୁଇ observation ର angle</h3>
+<p><b>Given:</b> AB=h, BP=a, BQ=b, ∠APB=α, ∠AQB=β ଏବଂ α+β=90°.</p>
+<p><b>To Find:</b> h ର relation.</p>
+<div class="formula">tanα=h/a</div>
+<div class="formula">tanβ=h/b</div>
+<div class="formula">tan(α+β)=(tanα+tanβ)/(1−tanα·tanβ)</div>
+<div class="formula">tan90°=0=(h/a+h/b)/(1−h²/ab)</div>
+<div class="formula">h(a+b)/(ab−h²)=0</div>
+<div class="formula">ab−h²=0</div>
+<div class="formula">h²=ab</div>
+<div class="answer">∴ h=√ab</div>
+<div class="check">Source page 22 ର example 19 ର derivation ର final result AB=h=√ab। fileciteturn42file0L387-L434</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୧୪ — 45° ଓ 30° ରୁ ଉଚ୍ଚତା</h3>
+<p><b>Given:</b> ଦୁଇ observation point ମଧ୍ୟର distance CD=30 m; angles 45° ଓ 30°; √3=1.732.</p>
+<p><b>To Find:</b> ଅଟ୍ଟାଳିକାର height x.</p>
+<div class="steps">
+<div class="step"><div class="sn">1</div><div>tan45°=x/BD ⇒ BD=x.</div></div>
+<div class="step"><div class="sn">2</div><div>tan30°=x/BC ⇒ BC=x√3.</div></div>
+<div class="step"><div class="sn">3</div><div>BC−BD=CD ⇒ x√3−x=30.</div></div>
+<div class="step"><div class="sn">4</div><div>x(√3−1)=30.</div></div>
+<div class="step"><div class="sn">5</div><div>x=30/(√3−1).</div></div>
+<div class="step"><div class="sn">6</div><div>Rationalise: x=30(√3+1)/(3−1).</div></div>
+<div class="step"><div class="sn">7</div><div>x=15(√3+1)=15×2.732=40.98 m.</div></div>
+</div>
+<div class="answer">∴ ଅଟ୍ଟାଳିକାର ଉଚ୍ଚତା = 40.98 ମିଟର।</div>
+<div class="check">Source page 22 ର example 20 ର exact result 40.98 m। fileciteturn42file0L437-L536</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୧୫ — 100 m ଦୂରରେ ଦୁଇ angle 30° ଓ 60°</h3>
+<p><b>Given:</b> CD=100 m, ∠PBD=30°, ∠PBC=60°.</p><p><b>To Find:</b> AB=x.</p>
+<div class="steps">
+<div class="step"><div class="sn">1</div><div>BQ=AB−AQ=x−100.</div></div>
+<div class="step"><div class="sn">2</div><div>tan30°=BQ/QD ⇒ QD=(x−100)/tan30°.</div></div>
+<div class="step"><div class="sn">3</div><div>tan60°=AB/AC ⇒ AC=x/tan60°.</div></div>
+<div class="step"><div class="sn">4</div><div>QD=AC, ତେଣୁ (x−100)/tan30°=x/tan60°.</div></div>
+<div class="step"><div class="sn">5</div><div>tan30°=1/√3 ଓ tan60°=√3 ବସାଅ।</div></div>
+<div class="step"><div class="sn">6</div><div>√3(x−100)=x/√3 ⇒ 3(x−100)=x.</div></div>
+<div class="step"><div class="sn">7</div><div>3x−300=x ⇒ 2x=300 ⇒ x=150.</div></div>
+</div>
+<div class="answer">∴ AB=150 ମିଟର।</div>
+<div class="check">Source page 23 ର example 21 ର final answer 150 m। fileciteturn42file0L558-L643</div></div>
+
+<h2 class="section"><span class="num">୧୨</span> Angle of Elevation ବନାମ Angle of Depression</h2>
+<div class="grid">
+<div class="card"><h3>Elevation</h3><p>ଦୃଷ୍ଟିର horizontal line ଠାରୁ ଉପରକୁ object ଦିଗରେ ଯାଉଥିବା line ସହ ଯେ angle ହୁଏ, ତାହା angle of elevation।</p></div>
+<div class="card"><h3>Depression</h3><p>ଦୃଷ୍ଟିର horizontal line ଠାରୁ ତଳକୁ object ଦିଗରେ ଯାଉଥିବା line ସହ ଯେ angle ହୁଏ, ତାହା angle of depression।</p></div>
+</div>
+<div class="warn"><b>Exam trick:</b> Figure ଦେଖି ପ୍ରଥମେ horizontal line ଚିହ୍ନଟ କର। ତା’ପରେ right triangle ଚିହ୍ନଟ କରି opposite/adjacent/hypotenuse ଲେଖ। Formula ମୁଖସ୍ଥ କରିବା ପୂର୍ବରୁ ratio ଚିହ୍ନଟ କର।</div>
+
+<h2 class="section"><span class="num">୧୩</span> Exam-Solution Standard Flow</h2>
+<div class="flow"><div class="node">Question</div><div class="arrow">↓</div><div class="node">Given</div><div class="arrow">↓</div><div class="node">To Find</div><div class="arrow">↓</div><div class="node">Figure</div><div class="arrow">↓</div><div class="node">Ratio / Formula</div><div class="arrow">↓</div><div class="node">Substitute</div><div class="arrow">↓</div><div class="node">Simplify</div><div class="arrow">↓</div><div class="node">Answer</div><div class="arrow">↓</div><div class="node">Verification</div></div>
+
+<h2 class="section"><span class="num">୧୪</span> Common Calculation Mistakes</h2>
+<div class="warn">
+<ul>
+<li>sin, cos, tan ର numerator/denominator ବଦଳାନ୍ତୁ ନାହିଁ।</li>
+<li>90°−θ ରେ sin↔cos, tan↔cot, sec↔cosec।</li>
+<li>180°−θ ରେ sin ଓ cosec positive ରହେ; cos, tan, cot, sec ର sign negative ହୁଏ।</li>
+<li>90°+θ ରେ sign pattern ଭୁଲନ୍ତୁ ନାହିଁ।</li>
+<li>tan(A+B) ର denominator <b>1−tanA·tanB</b>; tan(A−B) ର denominator <b>1+tanA·tanB</b>।</li>
+<li>Degree symbol ° ଛାଡ଼ିବା ନାହିଁ।</li>
+<li>√3=1.732 ବ୍ୟବହାର କରିଲେ rounding step ଶେଷରେ କର।</li>
+<li>Heights & Distances ରେ unit ଶେଷ answer ରେ ଲେଖ।</li>
+<li>Rationalisation ରେ conjugate ସଠିକ୍ ନିଅ।</li>
+<li>Equation solving ରେ ଦୁଇ ପାର୍ଶ୍ୱର transformation ସ୍ପଷ୍ଟ ଦେଖାଅ।</li>
+</ul></div>
+
+<section class="dark">
+<h2>⚡ Visual Formula Revision</h2>
+<div class="revgrid">
+<div class="rev"><h3>Basic</h3><div class="formula">sinθ=P/H<br>cosθ=B/H<br>tanθ=P/B</div></div>
+<div class="rev"><h3>Reciprocal</h3><div class="formula">secθ=1/cosθ<br>cosecθ=1/sinθ<br>cotθ=1/tanθ</div></div>
+<div class="rev"><h3>Complementary</h3><div class="formula">sin(90−θ)=cosθ<br>tan(90−θ)=cotθ</div></div>
+<div class="rev"><h3>180−θ</h3><div class="formula">sin→sin<br>cos→−cos<br>tan→−tan</div></div>
+<div class="rev"><h3>Compound</h3><div class="formula">sin(A+B)=sinAcosB+cosAsinB</div></div>
+<div class="rev"><h3>Cos compound</h3><div class="formula">cos(A+B)=cosAcosB−sinAsinB</div></div>
+<div class="rev"><h3>Tan compound</h3><div class="formula">tan(A+B)=(tanA+tanB)/(1−tanAtanB)</div></div>
+<div class="rev"><h3>Identity</h3><div class="formula">sin²θ+cos²θ=1</div></div>
+<div class="rev"><h3>Heights</h3><div class="formula">tanθ=height/base</div></div>
+</div>
+</section>
+
+<h2 class="section"><span class="num">୧୫</span> Very Short Questions</h2>
+<div class="q"><ol>
+<li>Trigonometry କ’ଣ?</li><li>sinθ କାହାର ratio?</li><li>cosθ କାହାର ratio?</li><li>tanθ କାହାର ratio?</li><li>sin0° କେତେ?</li><li>cos90° କେତେ?</li><li>sin(90°−θ) କ’ଣ?</li><li>cos(180°−θ) କ’ଣ?</li><li>tan(90°+θ) କ’ଣ?</li><li>sin²θ+cos²θ କେତେ?</li><li>tan(A+B) ର denominator କ’ଣ?</li><li>Angle of elevation କ’ଣ?</li></ol></div>
+
+<h2 class="section"><span class="num">୧୬</span> Short Questions</h2>
+<div class="q"><ol>
+<li>0°, 90°, 180° ର special values ଲେଖ।</li>
+<li>Complementary-angle identities ଛଅଟି ଲେଖ।</li>
+<li>180°−θ ର six ratios ଲେଖ।</li>
+<li>90°+θ ର six ratios ଲେଖ।</li>
+<li>sin(A+B), cos(A+B), sin(A−B), cos(A−B) derive କରିବାର logic ବୁଝାଅ।</li>
+<li>tan(A+B) ଓ tan(A−B) ର difference ବୁଝାଅ।</li>
+<li>Angle of elevation ଓ depression ର diagram ଆଙ୍କ।</li>
+</ol></div>
+
+<h2 class="section"><span class="num">୧୭</span> Long / Problem-Solving Questions</h2>
+<div class="q"><ol>
+<li>120°, 135°, 150° ର ସମସ୍ତ trigonometric ratios standard-value table ରୁ ନିର୍ଣ୍ଣୟ କର।</li>
+<li>sin15° କୁ compound-angle formula ରେ step-by-step ନିର୍ଣ୍ଣୟ କର।</li>
+<li>tan105° କୁ compound-angle formula ରେ ନିର୍ଣ୍ଣୟ କର।</li>
+<li>tan70°·tan65°−tan70°−tan65°=1 ପ୍ରମାଣ କର।</li>
+<li>A+B+C=180° ହେଲେ tanA+tanB+tanC=tanA·tanB·tanC ପ୍ରମାଣ କର।</li>
+<li>75 m ଦୂରରୁ 30° angle of elevation ଥିଲେ building height ନିର୍ଣ୍ଣୟ କର।</li>
+<li>45° ଓ 30° observation ଏବଂ 30 m distance ଥିଲେ height ନିର୍ଣ୍ଣୟ କର।</li>
+<li>100 m separation ଏବଂ 30°,60° angles ଥିବା source problem ର height ନିର୍ଣ୍ଣୟ କର।</li>
+</ol></div>
+
+<h2 class="section"><span class="num">୧୮</span> Source Exercise — Practice Problems</h2>
+<div class="q">
+<p><b>ପୃଷ୍ଠା ୧୦–୧୨:</b> source ର objective ଓ short exercise ରେ sin80°, cos65°, sin180°, cos90°, cos110°+sin20°, sin75°−cos15° ଭଳି expressions; 111°–131° ପର୍ଯ୍ୟନ୍ତ ratios; 85°,75°,65°,49° ପରି angles ର sums; ratio simplification ଏବଂ identity problems ଅଛି। fileciteturn38file3L408-L496</p>
+<p><b>ପୃଷ୍ଠା ୧୮–୧୯:</b> compound-angle fill-ups, proofs, tan62°, tan70°, tan7A·tan4A·tan3A, (1+tan15°)(1+tan30°), cosec/cot expressions, ଏବଂ A+B+C ସମ୍ପର୍କିତ problems ଅଛି। fileciteturn41file0L632-L756 fileciteturn41file0L758-L834</p>
+<p><b>ପୃଷ୍ଠା ୨୩–୨୪:</b> Heights & Distances ର practice set ରେ 120 m, 27 m, 2 m/24 m, 30°,45°,60° ଇତ୍ୟାଦି ଦିଆଯାଇଛି। Source page 24 ରେ problem 5–16 ର continuation ଅଛି। fileciteturn42file0L555-L709 fileciteturn43file0L13-L84</p>
+</div>
+
+<h2 class="section"><span class="num">୧୯</span> Final Revision Checklist</h2>
+<div class="grid">
+<div class="card"><b>Formula:</b> ଛଅଟି basic ratio ମୁଖସ୍ଥ + meaning ବୁଝ।</div>
+<div class="card"><b>Values:</b> 0°,30°,45°,60°,90° ର values ନିଶ୍ଚିତ କର।</div>
+<div class="card"><b>Signs:</b> 120°,135°,150° ପାଇଁ quadrant sign ଯାଞ୍ଚ କର।</div>
+<div class="card"><b>Identities:</b> sin²+cos², 1+tan², 1+cot²।</div>
+<div class="card"><b>Compound:</b> A+B ଓ A−B ର sin/cos/tan।</div>
+<div class="card"><b>Heights:</b> figure → right triangle → ratio → equation → unit.</div>
+</div>
+
+<div class="call"><b>Source integrity note:</b> ଏହି lecture ରେ source ର ଗଣିତୀୟ ଗଠନ, standard values, examples ଓ numerical answers କୁ ଆଧାର କରାଯାଇଛି। OCR ରେ କେତେକ ଚିହ୍ନ ଅସ୍ପଷ୍ଟ ଥିବା ସ୍ଥାନରେ ଅନିଶ୍ଚିତ printed expression କୁ ନିଜରୁ ନୂଆ numerical answer ଦିଆଯାଇନାହିଁ।</div>
+
+<div class="footer">ତ୍ରିକୋଣମିତି • Trigonometry • Maximum Odia • </div>
+</main>
+</body>
+</html>
