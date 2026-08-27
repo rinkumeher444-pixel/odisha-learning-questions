@@ -1,1 +1,303 @@
 
+<!doctype html>
+<html lang="or">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ପରିସଂଖ୍ୟାନ — Statistics | ଶ୍ରେଣୀ ୧୦</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#e9e6df;color:#17242b;font-family:"Noto Sans Oriya","Noto Sans",Arial,sans-serif;line-height:1.72}
+.wrap{max-width:1120px;margin:auto;padding:22px}.hero{background:linear-gradient(135deg,#173e4b,#176d73);color:white;border-radius:26px;padding:40px 34px;position:relative;overflow:hidden}.hero:after{content:"Σf  •  M  •  Md  •  Mo";position:absolute;right:-10px;bottom:-18px;font:700 48px Georgia;opacity:.12}.hero h1{font-size:44px;margin:8px 0}.hero p{font-size:18px}.tag{display:inline-block;border:1px solid #ffffff55;border-radius:99px;padding:4px 12px;margin:4px;font-size:13px}
+h2{color:#123f52;font-size:28px;margin:34px 0 12px}h3{color:#0d766e;font-size:21px}.card{background:#fff;border:1px solid #d8d1c4;border-radius:17px;padding:20px;margin:14px 0;box-shadow:0 5px 18px #00000008}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}@media(max-width:760px){.grid{grid-template-columns:1fr}.hero h1{font-size:34px}}
+.formula{background:#edf7f6;border:2px solid #b7d8d4;border-radius:12px;text-align:center;font:700 22px Georgia,serif;padding:12px;margin:12px 0}.meaning{background:#fff7e4;border-left:5px solid #b57920;padding:12px 15px;border-radius:9px}.teacher{background:#edf5fa;border-left:5px solid #397a9d;padding:12px 15px;border-radius:9px}.final{background:#edf8f1;border:2px solid #b6d8c4;border-radius:12px;padding:12px;font-weight:700}.warn{background:#fff0ee;border-left:5px solid #a8493d;padding:12px 15px;border-radius:9px}
+table{width:100%;border-collapse:collapse;background:#fff;margin:12px 0}th,td{border:1px solid #d8d1c4;padding:9px;vertical-align:top}th{background:#edf4f4;color:#123f52}.flow{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center}.box{background:#f7f8f9;border:1px solid #cbd5da;border-radius:11px;padding:10px 13px;text-align:center}.arrow{font-size:23px;color:#b57920;font-weight:bold}.step{display:grid;grid-template-columns:42px 1fr;gap:10px;margin:9px 0}.num{width:34px;height:34px;border-radius:50%;background:#123f52;color:#fff;display:grid;place-items:center;font-weight:bold}.small{font-size:13px;color:#69757c}.revision{background:#143f4d;color:white;border-radius:24px;padding:25px}.revision h2,.revision h3{color:white}.revision .card{color:#17242b}
+</style>
+</head>
+<body><div class="wrap">
+
+<section class="hero">
+<div>ଶ୍ରେଣୀ–୧୦ • ଗଣିତ • ଅଧ୍ୟାୟ–୫ • ଦୃଶ୍ୟମୂଳକ ଶିକ୍ଷଣ</div>
+<h1>ପରିସଂଖ୍ୟାନ</h1>
+<p><b>STATISTICS</b> — ତଥ୍ୟ → ମାଧ୍ୟମାନ (Mean) → ମଧ୍ୟମା (Median) → ବହୁଳକ (Mode) → ଓଜାଇଭ୍ (Ogive)</p>
+<span class="tag">Numerical Data</span><span class="tag">Frequency</span><span class="tag">Mean</span><span class="tag">Median</span><span class="tag">Mode</span><span class="tag">Ogive</span>
+</section>
+
+<div class="card teacher"><b>ଶିକ୍ଷକଙ୍କ ଆରମ୍ଭ:</b> ଅନେକ ସଂଖ୍ୟାକୁ ଦେଖିଲେ ତଥ୍ୟ ବୁଝିବା କଷ୍ଟକର ହୁଏ। ପରିସଂଖ୍ୟାନ ଆମକୁ ସେହି ତଥ୍ୟକୁ ସଜାଇବା, ସାରାଂଶ କରିବା ଏବଂ ଏକ ପ୍ରତିନିଧି ମାନ ଦ୍ୱାରା ବୁଝିବାରେ ସାହାଯ୍ୟ କରେ। ଏହି ଅଧ୍ୟାୟରେ ମାଧ୍ୟମାନ, ମଧ୍ୟମା, ବହୁଳକ ଏବଂ ସଞ୍ଚୟୀ ଆବୃତ୍ତି ଗ୍ରାଫ୍ ଶିଖିବା।</div>
+
+<h2>🎯 ଅଧ୍ୟାୟର ଶିକ୍ଷଣ ମାନଚିତ୍ର</h2>
+<div class="flow">
+<div class="box">ତଥ୍ୟ</div><div class="arrow">→</div><div class="box">ଆବୃତ୍ତି ସାରଣୀ</div><div class="arrow">→</div><div class="box">ମାଧ୍ୟମାନ M</div><div class="arrow">→</div><div class="box">ମଧ୍ୟମା Md</div><div class="arrow">→</div><div class="box">ବହୁଳକ Mo</div><div class="arrow">→</div><div class="box">Ogive</div>
+</div>
+
+<h2>5.1 ପରିଚୟ — Introduction</h2>
+<div class="card">
+<p>ତଥ୍ୟକୁ ସଂଖ୍ୟାତ୍ମକ ତଥ୍ୟ (Numerical Data), ପ୍ରାଥମିକ ତଥ୍ୟ (Primary Data), ଦ୍ୱିତୀୟକ ତଥ୍ୟ (Secondary Data) ଇତ୍ୟାଦି ଭାବରେ ଦେଖାଯାଇପାରେ। ତଥ୍ୟକୁ ସଜାଇବା ପାଇଁ ଆବୃତ୍ତି ବିତରଣ (Frequency Distribution), Histogram, Pie-chart, Pictograph ଆଦି ବ୍ୟବହାର ହୁଏ।</p>
+<div class="meaning"><b>ମୁଖ୍ୟ ଲକ୍ଷ୍ୟ:</b> ବହୁତ ତଥ୍ୟକୁ ସରଳ ଭାବରେ ବୁଝିବା ଏବଂ ଏକ ପ୍ରତିନିଧି ମାନ ନିର୍ଣ୍ଣୟ କରିବା।</div>
+</div>
+
+<h2>5.2 କେନ୍ଦ୍ରୀୟ ପ୍ରବୃତ୍ତିର ମାପ</h2>
+<div class="card">
+<p>ଏକ ତଥ୍ୟ ସମୂହକୁ ପ୍ରତିନିଧିତ୍ୱ କରୁଥିବା କେନ୍ଦ୍ରୀୟ ମାନ ତିନୋଟି ମୁଖ୍ୟ ପ୍ରକାରର:</p>
+<div class="grid">
+<div class="card"><b>ମାଧ୍ୟମାନ (Mean)</b><p>ସମସ୍ତ ମାନର ଯୋଗକୁ ମୋଟ ମାନର ସଂଖ୍ୟା ଦ୍ୱାରା ଭାଗ।</p></div>
+<div class="card"><b>ମଧ୍ୟମା (Median)</b><p>ତଥ୍ୟକୁ କ୍ରମରେ ରଖିଲେ ମଧ୍ୟଭାଗର ମାନ।</p></div>
+<div class="card"><b>ବହୁଳକ (Mode)</b><p>ସର୍ବାଧିକ ଥର ଘଟୁଥିବା ମାନ।</p></div>
+</div>
+</div>
+
+<h2>5.2.1 ମାଧ୍ୟମାନ — Mean</h2>
+<div class="card">
+<h3>(କ) ବ୍ୟକ୍ତିଗତ ତଥ୍ୟର ମାଧ୍ୟମାନ</h3>
+<p>ଯଦି ତଥ୍ୟଗୁଡ଼ିକ x₁, x₂, x₃, …, xₙ ହୁଏ, ତେବେ:</p>
+<div class="formula">M = Σx / n</div>
+<table><tr><th>ଚିହ୍ନ</th><th>ଅର୍ଥ</th></tr><tr><td>Σx</td><td>ସମସ୍ତ ତଥ୍ୟମାନର ଯୋଗ</td></tr><tr><td>n</td><td>ତଥ୍ୟମାନର ମୋଟ ସଂଖ୍ୟା</td></tr><tr><td>M</td><td>ମାଧ୍ୟମାନ</td></tr></table>
+<div class="teacher"><b>ସହଜ କଥା:</b> ସମସ୍ତ ମାନକୁ ଯୋଗ କରି, କେତୋଟି ମାନ ଅଛି ସେହି ସଂଖ୍ୟାରେ ଭାଗ କଲେ ମାଧ୍ୟମାନ ମିଳେ।</div>
+</div>
+
+<h2>📝 ଉଦାହରଣ ୧ — ବ୍ୟକ୍ତିଗତ ତଥ୍ୟ</h2>
+<div class="card">
+<p><b>ପ୍ରଶ୍ନ:</b> 65, 67, 85, 78, 69, 78 ର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ କର।</p>
+<p><b>ଦିଆଯାଇଛି:</b> x = 65, 67, 85, 78, 69, 78</p><p><b>ବାହାର କରିବା:</b> M</p><p><b>ସୂତ୍ର:</b></p><div class="formula">M = Σx/n</div>
+<div class="step"><div class="num">1</div><div>Σx = 65+67+85+78+69+78</div></div>
+<div class="step"><div class="num">2</div><div>Σx = 442</div></div>
+<div class="step"><div class="num">3</div><div>n = 6</div></div>
+<div class="step"><div class="num">4</div><div>M = 442/6 = 73.66…</div></div>
+<div class="final">ଉତ୍ତର: M ≈ 73.67</div>
+<div class="meaning"><b>ଯାଞ୍ଚ:</b> ମାଧ୍ୟମାନ 65 ରୁ 85 ମଧ୍ୟରେ ଅଛି; ତେଣୁ ମାନଟି ତଥ୍ୟ ସୀମା ସହ ସଙ୍ଗତିପୂର୍ଣ୍ଣ।</div>
+</div>
+
+<h2>📝 ଉଦାହରଣ ୨ — ଆବୃତ୍ତି ବିତରଣର ମାଧ୍ୟମାନ</h2>
+<div class="card">
+<p>ତଥ୍ୟ x: 69, 70, 71, 72, 73 ଏବଂ ଆବୃତ୍ତି f: 4, 2, 3, 2, 1.</p>
+<table><tr><th>x</th><th>f</th><th>fx</th></tr>
+<tr><td>69</td><td>4</td><td>276</td></tr><tr><td>70</td><td>2</td><td>140</td></tr><tr><td>71</td><td>3</td><td>213</td></tr><tr><td>72</td><td>2</td><td>144</td></tr><tr><td>73</td><td>1</td><td>73</td></tr><tr><th>Σ</th><th>12</th><th>846</th></tr></table>
+<div class="formula">M = Σfx/Σf = 846/12 = 70.5</div>
+<div class="final">ଉତ୍ତର: M = 70.5</div>
+</div>
+
+<h2>📌 ମାଧ୍ୟମାନର ଅନ୍ୟ ପଦ୍ଧତି — Assumed Mean</h2>
+<div class="card">
+<p>ଯେତେବେଳେ ସଂଖ୍ୟାଗୁଡ଼ିକ ବଡ଼ ହୁଏ, ଏକ ସୁବିଧାଜନକ ମାନ <b>A</b> କୁ assumed mean ଭାବେ ନେଇ deviation ବ୍ୟବହାର କରି ଗଣନା ସରଳ କରାଯାଏ।</p>
+<div class="formula">y = x − A</div>
+<div class="formula">M = A + Σfy/Σf</div>
+<div class="meaning"><b>A</b> = assumed mean, <b>y</b> = deviation, <b>f</b> = frequency, <b>Σf</b> = ମୋଟ frequency, <b>Σfy</b> = frequency × deviation ର ଯୋଗ।</div>
+</div>
+
+<h2>📝 ଉଦାହରଣ ୩ — Assumed Mean Method</h2>
+<div class="card">
+<table><tr><th>x</th><th>f</th><th>y=x−70</th><th>fy</th></tr>
+<tr><td>69</td><td>4</td><td>−1</td><td>−4</td></tr><tr><td>70</td><td>2</td><td>0</td><td>0</td></tr><tr><td>71</td><td>3</td><td>1</td><td>3</td></tr><tr><td>72</td><td>2</td><td>2</td><td>4</td></tr><tr><td>73</td><td>1</td><td>3</td><td>3</td></tr><tr><th></th><th>12</th><th></th><th>6</th></tr></table>
+<p><b>Given:</b> A=70, Σf=12, Σfy=6</p>
+<div class="step"><div class="num">1</div><div>M=A+Σfy/Σf</div></div>
+<div class="step"><div class="num">2</div><div>M=70+6/12</div></div>
+<div class="step"><div class="num">3</div><div>M=70+0.5=70.5</div></div>
+<div class="final">ଉତ୍ତର: M = 70.5</div>
+</div>
+
+<h2>📊 Grouped Frequency Distribution — ଶ୍ରେଣୀଭୁକ୍ତ ଆବୃତ୍ତି</h2>
+<div class="card">
+<p>ଶ୍ରେଣୀଭୁକ୍ତ ତଥ୍ୟରେ ପ୍ରତ୍ୟେକ class interval ପାଇଁ class mark (ମଧ୍ୟବିନ୍ଦୁ) ନିଆଯାଏ।</p>
+<div class="formula">y = (l₁+l₂)/2</div>
+<div class="formula">M = Σfy/Σf</div>
+<table><tr><th>ଶ୍ରେଣୀ</th><th>f</th><th>ଶ୍ରେଣୀ ମଧ୍ୟବିନ୍ଦୁ y</th></tr>
+<tr><td>0–10</td><td>1</td><td>5</td></tr><tr><td>10–20</td><td>7</td><td>15</td></tr><tr><td>20–30</td><td>24</td><td>25</td></tr><tr><td>30–40</td><td>36</td><td>35</td></tr><tr><td>40–50</td><td>26</td><td>45</td></tr><tr><td>50–60</td><td>6</td><td>55</td></tr><tr><td>60–70</td><td>1</td><td>65</td></tr></table>
+<div class="teacher">ଏଠାରେ ପ୍ରଥମେ ପ୍ରତ୍ୟେକ class interval ର ମଧ୍ୟବିନ୍ଦୁ ବାହାର କରି, ପରେ fy ଏବଂ Σfy ନିର୍ଣ୍ଣୟ କରାଯାଏ।</div>
+</div>
+
+<h2>📝 ଉଦାହରଣ ୪ — Grouped Data</h2>
+<div class="card">
+<table><tr><th>ଶ୍ରେଣୀ</th><th>f</th><th>y</th><th>fy</th></tr>
+<tr><td>0–10</td><td>1</td><td>5</td><td>5</td></tr><tr><td>10–20</td><td>7</td><td>15</td><td>105</td></tr><tr><td>20–30</td><td>24</td><td>25</td><td>600</td></tr><tr><td>30–40</td><td>36</td><td>35</td><td>1260</td></tr><tr><td>40–50</td><td>26</td><td>45</td><td>1125</td></tr><tr><td>50–60</td><td>6</td><td>55</td><td>330</td></tr><tr><td>60–70</td><td>1</td><td>65</td><td>65</td></tr><tr><th></th><th>100</th><th></th><th>3490</th></tr></table>
+<div class="step"><div class="num">1</div><div>Σf=100</div></div><div class="step"><div class="num">2</div><div>Σfy=3490</div></div><div class="step"><div class="num">3</div><div>M=3490/100=34.9</div></div>
+<div class="final">ଉତ୍ତର: M = 34.9</div>
+</div>
+
+<h2>📌 Step-Deviation Method — ପଦକ୍ଷେପ ବିଚ୍ୟୁତି ପଦ୍ଧତି</h2>
+<div class="card">
+<p>ଯେତେବେଳେ class width ସମାନ ଥାଏ, deviation କୁ class width ଦ୍ୱାରା ଭାଗ କରି ଗଣନା ଆହୁରି ସରଳ କରାଯାଏ।</p>
+<div class="formula">y' = (x−A)/c</div>
+<div class="formula">M = A + (Σfy'/Σf) × c</div>
+<div class="meaning"><b>A</b> = assumed mean, <b>c</b> = class width, <b>y'</b> = coded deviation.</div>
+</div>
+
+<h2>📝 ଉଦାହରଣ ୫ — Step-Deviation</h2>
+<div class="card">
+<p>ଉଦାହରଣ ୪ ର data ପାଇଁ A=35 ନେଲେ, source table ଅନୁସାରେ Σf=100 ଏବଂ Σfy' = −10.</p>
+<div class="formula">M = A + (Σfy'/Σf)×c</div>
+<div class="step"><div class="num">1</div><div>M=35+(−10/100)×10</div></div>
+<div class="step"><div class="num">2</div><div>M=35−1</div></div>
+<div class="step"><div class="num">3</div><div>M=34.9</div></div>
+<div class="final">ଉତ୍ତର: M = 34.9</div>
+</div>
+
+<h2>🧠 ମାଧ୍ୟମାନର କିଛି ଜଣାଶୁଣା ଫଳ</h2>
+<div class="card">
+<p>ଯଦି n ଟି ତଥ୍ୟମାନର ମାଧ୍ୟମାନ M, ତେବେ:</p>
+<div class="formula">Σ(xᵢ−M)=0</div>
+<div class="formula">Σ(xᵢ−A)=n(M−A)</div>
+<div class="teacher">ଅର୍ଥ: mean ଠାରୁ ପ୍ରତ୍ୟେକ ମାନର deviation ନେଇ ସମସ୍ତ deviation ଯୋଗ କଲେ ଶୂନ୍ୟ ହୁଏ।</div>
+</div>
+
+<h2>📝 ଉଦାହରଣ ୯ — Deviation ଦ୍ୱାରା Mean</h2>
+<div class="card">
+<p>ଦିଆଯାଇଛି:</p>
+<div class="formula">Σ(xᵢ−12)=−10</div>
+<div class="formula">Σ(xᵢ−3)=62</div>
+<div class="step"><div class="num">1</div><div>Σ(xᵢ−12)=Σxᵢ−12n=−10</div></div>
+<div class="step"><div class="num">2</div><div>Σ(xᵢ−3)=Σxᵢ−3n=62</div></div>
+<div class="step"><div class="num">3</div><div>ଦୁଇ ସମୀକରଣରୁ n=8.</div></div>
+<div class="step"><div class="num">4</div><div>8M=86</div></div>
+<div class="final">ଉତ୍ତର: M=10.75</div>
+</div>
+
+<h2>5.2.2 ମଧ୍ୟମା — Median</h2>
+<div class="card">
+<p>ତଥ୍ୟକୁ ଆରୋହୀ କିମ୍ବା ଅବରୋହୀ କ୍ରମରେ ସଜାଇଲେ ମଧ୍ୟଭାଗର ମାନକୁ ମଧ୍ୟମା କୁହାଯାଏ।</p>
+<div class="formula">n ବିଜୋଡ଼ → Md = ((n+1)/2)ତମ ମାନ</div>
+<div class="formula">n ଯୁଗ୍ମ → Md = 1/2 × [n/2 ତମ ମାନ + (n/2+1)ତମ ମାନ]</div>
+<div class="teacher">ପ୍ରଥମ କାମ: ତଥ୍ୟକୁ କ୍ରମରେ ରଖିବା। ତାପରେ n ଯୁଗ୍ମ କି ବିଜୋଡ଼ ତାହା ଦେଖିବା।</div>
+</div>
+
+<h2>📝 ଉଦାହରଣ ୧୧ — Median</h2>
+<div class="card">
+<p>ଦିଆଯାଇଥିବା ତଥ୍ୟ: 40, 42, 44, 45, 46, 48, 49.</p>
+<div class="step"><div class="num">1</div><div>ତଥ୍ୟ ଆରୋହୀ କ୍ରମରେ ଅଛି।</div></div>
+<div class="step"><div class="num">2</div><div>n=7, ଯାହା ବିଜୋଡ଼।</div></div>
+<div class="step"><div class="num">3</div><div>Median = (7+1)/2 = 4ତମ ମାନ।</div></div>
+<div class="step"><div class="num">4</div><div>4ତମ ମାନ = 45.</div></div>
+<div class="final">ଉତ୍ତର: Md=45</div>
+</div>
+
+<h2>📊 Grouped Data ର Median</h2>
+<div class="card">
+<p>Grouped frequency distribution ରେ ପ୍ରଥମେ cumulative frequency (c.f.) ବାହାର କରାଯାଏ।</p>
+<div class="formula">m = n/2</div>
+<div class="formula">Md = l + ((m−c.f.)/f) × i</div>
+<table><tr><th>ଚିହ୍ନ</th><th>ଅର୍ଥ</th></tr><tr><td>l</td><td>Median class ର lower boundary</td></tr><tr><td>m</td><td>n/2</td></tr><tr><td>c.f.</td><td>Median class ପୂର୍ବର cumulative frequency</td></tr><tr><td>f</td><td>Median class ର frequency</td></tr><tr><td>i</td><td>Class width</td></tr></table>
+</div>
+
+<h2>📝 ଉଦାହରଣ ୧୩ — Grouped Median</h2>
+<div class="card">
+<p>ଉଦାହରଣରେ n=60. ତେଣୁ:</p>
+<div class="formula">m=n/2=60/2=30</div>
+<p>ସାରଣୀର cumulative frequency ଦେଖି 30ତମ observation ଥିବା class କୁ Median class ଭାବେ ନିଆଯାଏ। Source ର ଗଣନା ଅନୁସାରେ median class ହେଉଛି 30–40.</p>
+<div class="formula">Md = l + ((m−c.f.)/f)×i</div>
+<div class="teacher">ଏଠାରେ formula ରେ ପ୍ରତ୍ୟେକ ମାନ କେଉଁଠୁ ଆସିଲା ତାହା ସାରଣୀରୁ ଚିହ୍ନଟ କରିବା—ଏହା ହେଉଛି ପରୀକ୍ଷାର ମୁଖ୍ୟ ପଦକ୍ଷେପ।</div>
+</div>
+
+<h2>📈 Less-than Ogive — ସଞ୍ଚୟୀ ଆବୃତ୍ତି ବକ୍ର</h2>
+<div class="card">
+<p>Ogive ହେଉଛି cumulative frequency ଦ୍ୱାରା ତିଆରି ହେଉଥିବା ଏକ ବକ୍ର। Less-than ogive ରେ class ର upper boundary ଓ cumulative frequency ର point plot କରାଯାଏ।</p>
+<div class="flow"><div class="box">Class interval</div><div class="arrow">→</div><div class="box">c.f.</div><div class="arrow">→</div><div class="box">X-axis: Class boundary</div><div class="arrow">→</div><div class="box">Y-axis: c.f.</div><div class="arrow">→</div><div class="box">Points plot</div><div class="arrow">→</div><div class="box">Smooth curve</div></div>
+<div class="teacher"><b>Graph ର ନିୟମ:</b> X-axis ରେ ଶ୍ରେଣୀ ସୀମା ଏବଂ Y-axis ରେ cumulative frequency ର scale ସ୍ପଷ୍ଟ ରଖନ୍ତୁ।</div>
+</div>
+
+<h2>📈 Ogive ରୁ Median</h2>
+<div class="card">
+<p>Ogive ରେ <b>n/2</b> ନିର୍ଣ୍ଣୟ କରି Y-axis ରେ ସେହି value ଚିହ୍ନଟ କରାଯାଏ। ସେଠାରୁ horizontal line ଟାଣି ogive କୁ ଛୁଆଯାଏ; ପୁନଃ X-axis କୁ vertical line ଟାଣିଲେ ମିଳୁଥିବା ମାନ Median ହୁଏ।</p>
+<div class="flow"><div class="box">n</div><div class="arrow">→</div><div class="box">n/2</div><div class="arrow">→</div><div class="box">Y-axis</div><div class="arrow">→</div><div class="box">Ogive</div><div class="arrow">→</div><div class="box">X-axis</div><div class="arrow">→</div><div class="box">Median</div></div>
+</div>
+
+<h2>5.2.3 ବହୁଳକ — Mode</h2>
+<div class="card">
+<p>ଯେଉଁ ମାନଟି ସର୍ବାଧିକ ଥର ଘଟେ, ତାହାକୁ ବହୁଳକ (Mode) କୁହାଯାଏ।</p>
+<div class="meaning"><b>ଉଦାହରଣ:</b> 3, 5, 7, 3, 8, 5, 8, 7 ରେ ଏକାଧିକ ମାନ ସମାନ ଆବୃତ୍ତିରେ ଥାଇପାରେ; ତେଣୁ ଦିଆଯାଇଥିବା distribution କୁ ଭଲଭାବେ ଦେଖିବା ଆବଶ୍ୟକ।</div>
+<p>Grouped data ରେ ସର୍ବାଧିକ frequency ଥିବା class କୁ modal class କୁହାଯାଏ।</p>
+<div class="formula">Mo = 3Md − 2M</div>
+<div class="teacher">ଏହି empirical relation ତିନିଟି ମାପ—Mode, Median ଓ Mean—ମଧ୍ୟରେ ସମ୍ପର୍କ ଦେଖାଏ।</div>
+</div>
+
+<h2>📝 ଉଦାହରଣ ୨୦ — Empirical Relation</h2>
+<div class="card">
+<p>ଯଦି Mean = M ଏବଂ Median = Md, ତେବେ:</p>
+<div class="formula">Mo = 3Md − 2M</div>
+<div class="step"><div class="num">1</div><div>ଦିଆଯାଇଥିବା Mean ଓ Median ର ମାନ formula ରେ ବସାନ୍ତୁ।</div></div>
+<div class="step"><div class="num">2</div><div>ପ୍ରଥମେ 3Md ନିର୍ଣ୍ଣୟ କରନ୍ତୁ।</div></div>
+<div class="step"><div class="num">3</div><div>ତାହାରୁ 2M ବିୟୋଗ କରନ୍ତୁ।</div></div>
+<div class="final">ବହୁଳକ: Mo = 3Md − 2M</div>
+</div>
+
+<h2>🧠 ସମସ୍ତ ପଦ୍ଧତି — ଏକ ନଜରରେ</h2>
+<div class="card">
+<div class="flow">
+<div class="box"><b>Mean</b><br>Σx/n<br>Σfx/Σf</div><div class="arrow">→</div>
+<div class="box"><b>Assumed Mean</b><br>M=A+Σfy/Σf</div><div class="arrow">→</div>
+<div class="box"><b>Step-Deviation</b><br>M=A+(Σfy'/Σf)c</div><div class="arrow">→</div>
+<div class="box"><b>Median</b><br>ମଧ୍ୟଭାଗ</div><div class="arrow">→</div>
+<div class="box"><b>Mode</b><br>ସର୍ବାଧିକ ଆବୃତ୍ତି</div>
+</div>
+</div>
+
+<h2>⚠️ ସାଧାରଣ ଗଣନା ଭୁଲ</h2>
+<div class="grid">
+<div class="card warn"><b>1.</b> Σf ଓ Σfx ରେ ଭୁଲ କରନ୍ତୁ ନାହିଁ।</div>
+<div class="card warn"><b>2.</b> Class mark = (lower + upper)/2 ଭୁଲନ୍ତୁ ନାହିଁ।</div>
+<div class="card warn"><b>3.</b> Median ପାଇଁ cumulative frequency ସଠିକ୍ ଭାବେ ଲେଖନ୍ତୁ।</div>
+<div class="card warn"><b>4.</b> n/2 ର observation ଥିବା class କୁ ଠିକ୍ ଭାବରେ ଚିହ୍ନଟ କରନ୍ତୁ।</div>
+<div class="card warn"><b>5.</b> Step-deviation ରେ class width c କୁ ଭୁଲନ୍ତୁ ନାହିଁ।</div>
+<div class="card warn"><b>6.</b> Graph ର X-axis/Y-axis ଓ scale ସ୍ପଷ୍ଟ ରଖନ୍ତୁ।</div>
+</div>
+
+<h2>🎯 ପରୀକ୍ଷାମୁଖୀ Revision</h2>
+<div class="card">
+<h3>ଅତି ସଂକ୍ଷିପ୍ତ ପ୍ରଶ୍ନ</h3>
+<ol>
+<li>ମାଧ୍ୟମାନର ସୂତ୍ର ଲେଖ।</li>
+<li>ଆବୃତ୍ତି କ’ଣ?</li>
+<li>ମଧ୍ୟମା କ’ଣ?</li>
+<li>ବହୁଳକ କ’ଣ?</li>
+<li>cumulative frequency କ’ଣ?</li>
+<li>Assumed mean A ର ଅର୍ଥ କ’ଣ?</li>
+<li>Step-deviation ରେ c କ’ଣ?</li>
+<li>Empirical relation ଲେଖ।</li>
+</ol>
+<h3>ସଂକ୍ଷିପ୍ତ ପ୍ରଶ୍ନ</h3>
+<ol>
+<li>ବ୍ୟକ୍ତିଗତ ତଥ୍ୟର ମାଧ୍ୟମାନ କିପରି ନିର୍ଣ୍ଣୟ କରାଯାଏ?</li>
+<li>Frequency distribution ପାଇଁ Mean = Σfx/Σf କାହିଁକି?</li>
+<li>Assumed Mean ପଦ୍ଧତି ବୁଝାଅ।</li>
+<li>Step-deviation ପଦ୍ଧତିରେ y' କିପରି ନିର୍ଣ୍ଣୟ କରାଯାଏ?</li>
+<li>Median ପାଇଁ cumulative frequency କାହିଁକି ଦରକାର?</li>
+<li>Ogive ରୁ Median କିପରି ପଢ଼ାଯାଏ?</li>
+</ol>
+<h3>ଦୀର୍ଘ / Problem-solving ପ୍ରଶ୍ନ</h3>
+<ol>
+<li>ଦିଆଯାଇଥିବା ବ୍ୟକ୍ତିଗତ ତଥ୍ୟର Mean ନିର୍ଣ୍ଣୟ କର।</li>
+<li>Frequency distribution ରୁ Σfx ବାହାର କରି Mean ନିର୍ଣ୍ଣୟ କର।</li>
+<li>Grouped frequency distribution ପାଇଁ class mark ବାହାର କରି Mean ନିର୍ଣ୍ଣୟ କର।</li>
+<li>Assumed Mean ପଦ୍ଧତିରେ Mean ନିର୍ଣ୍ଣୟ କର।</li>
+<li>Step-deviation ପଦ୍ଧତିରେ Mean ନିର୍ଣ୍ଣୟ କର।</li>
+<li>Ungrouped data ର Median ନିର୍ଣ୍ଣୟ କର।</li>
+<li>Grouped data ର Median ନିର୍ଣ୍ଣୟ କର।</li>
+<li>Ogive ଅଙ୍କନ କରି Median ନିର୍ଣ୍ଣୟ କର।</li>
+<li>Mean ଓ Median ଦିଆଥିଲେ Mode ନିର୍ଣ୍ଣୟ କର।</li>
+</ol>
+</div>
+
+<h2>📚 Practice Strategy — ଅଭ୍ୟାସ ପଦ୍ଧତି</h2>
+<div class="card">
+<div class="flow">
+<div class="box">ତଥ୍ୟ ପଢ଼</div><div class="arrow">→</div><div class="box">n / Σf ଚିହ୍ନଟ</div><div class="arrow">→</div><div class="box">ସାରଣୀ ପୂରଣ</div><div class="arrow">→</div><div class="box">ସୂତ୍ର ଚୟନ</div><div class="arrow">→</div><div class="box">ପଦକ୍ଷେପ</div><div class="arrow">→</div><div class="box">ଉତ୍ତର</div><div class="arrow">→</div><div class="box">ଯାଞ୍ଚ</div>
+</div>
+<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ <b>ପ୍ରଶ୍ନ → ଦିଆଯାଇଛି → ବାହାର କରିବା → ସୂତ୍ର → Step 1 → Step 2 → Step 3 → ଉତ୍ତର → ଯାଞ୍ଚ</b> କ୍ରମକୁ ଅନୁସରଣ କରନ୍ତୁ।</p>
+</div>
+
+<section class="revision">
+<h2>⚡ ଶେଷ ମୁହୂର୍ତ୍ତ Formula Revision</h2>
+<div class="grid">
+<div class="card"><b>Individual Mean</b><div class="formula">M=Σx/n</div></div>
+<div class="card"><b>Frequency Mean</b><div class="formula">M=Σfx/Σf</div></div>
+<div class="card"><b>Assumed Mean</b><div class="formula">M=A+Σfy/Σf</div></div>
+<div class="card"><b>Step-Deviation</b><div class="formula">M=A+(Σfy'/Σf)c</div></div>
+<div class="card"><b>Median, n ବିଜୋଡ଼</b><div class="formula">Md=((n+1)/2)ତମ ମାନ</div></div>
+<div class="card"><b>Median, n ଯୁଗ୍ମ</b><div class="formula">Md=1/2[n/2 ତମ +(n/2+1)ତମ]</div></div>
+<div class="card"><b>Grouped Median</b><div class="formula">Md=l+((m−c.f.)/f)i</div></div>
+<div class="card"><b>Empirical Relation</b><div class="formula">Mo=3Md−2M</div></div>
+</div>
+<h3>🎯 Exam Golden Rule</h3>
+<p><b>ସାରଣୀ ସଠିକ୍ → Σ ସଠିକ୍ → ସୂତ୍ର ସଠିକ୍ → ପ୍ରତ୍ୟେକ ଗଣନାର Step → ଶେଷରେ ଯାଞ୍ଚ।</b></p>
+</section>
+
+<footer class="small" style="margin:22px 4px">ପରିସଂଖ୍ୟାନ: ତଥ୍ୟର ସଂଗଠନ, ମାଧ୍ୟମାନ, ମଧ୍ୟମା, ବହୁଳକ ଏବଂ Ogive ଉପରେ ଦୃଶ୍ୟମୂଳକ ପାଠ।</footer>
+</div></body></html>
+
