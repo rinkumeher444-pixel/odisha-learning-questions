@@ -1,1 +1,327 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ସ୍ଥାନାଙ୍କ ଜ୍ୟାମିତି — Coordinate Geometry</title>
+<style>
+*{box-sizing:border-box} body{margin:0;background:#f5f2ea;color:#17243b;font-family:"Noto Sans Oriya","Nirmala UI","Noto Sans",sans-serif;line-height:1.78}
+.wrap{max-width:1120px;margin:auto;padding:0 18px 70px}.hero{background:linear-gradient(135deg,#10213f,#285a92,#16766a);color:white;padding:52px 18px}
+.hero h1{font-size:45px;line-height:1.12;margin:12px 0 4px}.hero .en{font-size:20px;color:#ffe0a0}.badge{display:inline-block;border:1px solid #ffffff55;border-radius:999px;padding:5px 12px;font-size:12px}
+.section{font-size:29px;margin:42px 0 14px;display:flex;align-items:center;gap:12px}.num{width:44px;height:44px;border-radius:13px;background:#10213f;color:#ffe0a0;display:grid;place-items:center;flex:none;font-size:13px}
+.teacher{background:#e7f4f0;border:1px solid #b7ddd3;border-radius:18px;padding:15px 17px;display:flex;gap:12px;margin:12px 0}.face{width:42px;height:42px;border-radius:50%;background:#16766a;color:white;display:grid;place-items:center;flex:none}
+.box,.example,.card{background:white;border:1px solid #ddd7ca;border-radius:18px;padding:17px;margin:13px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.formula{font-family:"DejaVu Sans","Noto Sans",sans-serif;font-size:21px;font-weight:800;text-align:center;margin:10px 0}
+.def{background:linear-gradient(135deg,#10213f,#315f9b);color:white;border-radius:21px;padding:20px;margin:14px 0}.def .label{font-size:12px;color:#ffe0a0;font-weight:900;letter-spacing:.08em}
+.flow{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:14px 0}.node{padding:9px 13px;background:#eaf2ff;border:1px solid #c5d8f0;border-radius:13px;font-weight:800}.arrow{color:#d49a2c;font-size:22px;font-weight:900}
+.visual{background:white;border:1px solid #ddd7ca;border-radius:19px;padding:12px;text-align:center;margin:14px 0}.steps{display:grid;gap:9px}.step{display:grid;grid-template-columns:38px 1fr;gap:10px;background:white;border:1px solid #ddd7ca;border-radius:15px;padding:11px}.sn{width:32px;height:32px;border-radius:50%;background:#10213f;color:#ffe0a0;display:grid;place-items:center;font-weight:900}
+.answer{background:#fff0c9;border:1px solid #e6c875;border-radius:13px;padding:10px;text-align:center;font-weight:900;margin-top:11px}.check{background:#e8f5ed;border:1px solid #b7ddd3;border-radius:13px;padding:10px;margin-top:10px}
+.call{background:#fff6dc;border:1px dashed #d49a2c;border-radius:16px;padding:13px;margin:14px 0}.warn{background:#fff0f0;border:1px solid #eccaca;border-radius:16px;padding:14px}
+.table{width:100%;border-collapse:separate;border-spacing:0;background:white;border:1px solid #ddd7ca;border-radius:16px;overflow:hidden}.table th,.table td{padding:9px 11px;border-bottom:1px solid #ddd7ca;text-align:left;vertical-align:top}.table th{background:#10213f;color:white}.table tr:last-child td{border-bottom:0}
+.dark{background:linear-gradient(135deg,#10213f,#244d80);color:white;border-radius:23px;padding:22px;margin-top:40px}.dark h2{color:#ffe0a0}.revgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px}.rev{background:#ffffff10;border:1px solid #ffffff22;border-radius:14px;padding:12px}.rev h3{color:#ffe0a0;margin:0 0 5px}.q{background:white;border:1px solid #ddd7ca;border-radius:17px;padding:15px;margin:10px 0}.q h3{color:#16766a;margin:0 0 5px}.footer{text-align:center;color:#777064;padding:35px 0}
+@media(max-width:650px){.hero h1{font-size:34px}.section{font-size:23px}.formula{font-size:17px}.table{font-size:13px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<div class="badge">ଓଡ଼ିଶା ଦଶମ ଶ୍ରେଣୀ • ଗଣିତ • ଅଧ୍ୟାୟ ୬</div>
+<h1>ସ୍ଥାନାଙ୍କ ଜ୍ୟାମିତି</h1><div class="en">Coordinate Geometry</div>
+<p>ଏହି lecture ରେ uploaded source chapter ର କ୍ରମ ଅନୁସାରେ Cartesian Plane, ordered pair, distance formula, division formula, section formula, midpoint, triangle area ଓ coordinate-based problems କୁ ଧାପେ ଧାପେ ବୁଝାଯାଇଛି। ମୂଳ source ର terminology, formulas, numerical values ଓ examples କୁ ଆଧାର କରାଯାଇଛି।</p>
+</div></header>
 
+<main class="wrap">
+<div class="call"><b>ପାଠର ରୋଡ୍‌ମ୍ୟାପ୍:</b> Cartesian Plane → Quadrants → Ordered Pair → Distance → Section/Division Formula → Midpoint → Special Cases → Area of Triangle → Collinearity → Visual Revision → Exam Practice.</div>
+
+<h2 class="section"><span class="num">୧</span> Cartesian Plane — ମୂଳ ଧାରଣା</h2>
+<div class="teacher"><div class="face">👨‍🏫</div><div>ଦୁଇଟି ପରସ୍ପର ଲମ୍ବ ରେଖା — <b>X-axis</b> ଓ <b>Y-axis</b> — ଏକ ବିନ୍ଦୁରେ ଛେଦ କଲେ ଏହି coordinate system ତିଆରି ହୁଏ। ଛେଦବିନ୍ଦୁକୁ <b>Origin O</b> କୁହାଯାଏ। Source ର page 1–2 ର diagram ରେ X, Y, X′, Y′ ଓ O ସ୍ପଷ୍ଟ ଦେଖାଯାଇଛି।</div></div>
+<div class="visual">
+<svg viewBox="0 0 800 430">
+<line x1="90" y1="215" x2="710" y2="215" stroke="#10213f" stroke-width="4"/>
+<line x1="400" y1="390" x2="400" y2="40" stroke="#10213f" stroke-width="4"/>
+<polygon points="710,215 692,207 692,223" fill="#10213f"/><polygon points="400,40 392,58 408,58" fill="#10213f"/>
+<polygon points="90,215 108,207 108,223" fill="#10213f"/><polygon points="400,390 392,372 408,372" fill="#10213f"/>
+<text x="720" y="222" font-size="24">X</text><text x="68" y="222" font-size="24">X′</text><text x="412" y="36" font-size="24">Y</text><text x="412" y="410" font-size="24">Y′</text>
+<circle cx="400" cy="215" r="7" fill="#d49a2c"/><text x="412" y="207" font-size="22" font-weight="700">O(0,0)</text>
+<circle cx="555" cy="130" r="8" fill="#16766a"/><text x="568" y="124" font-size="22">P(x,y)</text>
+<line x1="555" y1="130" x2="555" y2="215" stroke="#315f9b" stroke-dasharray="8 6" stroke-width="3"/><line x1="555" y1="130" x2="400" y2="130" stroke="#315f9b" stroke-dasharray="8 6" stroke-width="3"/>
+<text x="467" y="126" font-size="19">x</text><text x="562" y="177" font-size="19">y</text>
+<text x="525" y="285" font-size="19">Q₁</text><text x="250" y="285" font-size="19">Q₂</text><text x="250" y="155" font-size="19">Q₃</text><text x="525" y="155" font-size="19">Q₄</text>
+</svg>
+</div>
+
+<div class="grid">
+<div class="card"><h3>ଅଧ୍ୟାୟର coordinate</h3><p><b>x-coordinate</b> = abscissa (ଭୂମିତିକ ଦିଗର ମାପ)।</p><p><b>y-coordinate</b> = ordinate (ଉର୍ଦ୍ଧ୍ୱ ଦିଗର ମାପ)।</p></div>
+<div class="card"><h3>Origin</h3><div class="formula">O=(0,0)</div><p>ଦୁଇଟି axis ର intersection point।</p></div>
+<div class="card"><h3>Ordered Pair</h3><div class="formula">P=(x,y)</div><p>ପ୍ରଥମେ x, ତା’ପରେ y ଲେଖିବାକୁ ହୁଏ।</p></div>
+</div>
+
+<h2 class="section"><span class="num">୨</span> Quadrants — ଚାରି ଚତୁର୍ଥାଂଶ</h2>
+<table class="table">
+<tr><th>Quadrant</th><th>x</th><th>y</th><th>ବିନ୍ଦୁର ରୂପ</th></tr>
+<tr><td>Q₁ — ପ୍ରଥମ</td><td>+</td><td>+</td><td>(+x,+y)</td></tr>
+<tr><td>Q₂ — ଦ୍ୱିତୀୟ</td><td>−</td><td>+</td><td>(−x,+y)</td></tr>
+<tr><td>Q₃ — ତୃତୀୟ</td><td>−</td><td>−</td><td>(−x,−y)</td></tr>
+<tr><td>Q₄ — ଚତୁର୍ଥ</td><td>+</td><td>−</td><td>(+x,−y)</td></tr>
+</table>
+<div class="call"><b>Axis rule:</b> x-axis ଉପରେ ଥିବା point ପାଇଁ <b>y=0</b>; y-axis ଉପରେ ଥିବା point ପାଇଁ <b>x=0</b>। Origin ରେ x=0 ଓ y=0।</div>
+
+<h2 class="section"><span class="num">୩</span> Ordered Pair ଓ Cartesian Coordinates</h2>
+<div class="def"><div class="label">ମୁଖ୍ୟ ଧାରଣା</div>
+<div class="formula">P=(x,y)</div>
+<p>ଏଠାରେ <b>x</b> ହେଉଛି x-coordinate ଏବଂ <b>y</b> ହେଉଛି y-coordinate। ଦୁଇଟି coordinate ର order ବଦଳିଲେ point ସାଧାରଣତଃ ବଦଳିଯାଏ।</p></div>
+<div class="visual"><svg viewBox="0 0 760 250">
+<line x1="90" y1="170" x2="680" y2="170" stroke="#10213f" stroke-width="4"/><line x1="120" y1="210" x2="120" y2="45" stroke="#10213f" stroke-width="4"/>
+<circle cx="430" cy="100" r="8" fill="#16766a"/><line x1="430" y1="100" x2="430" y2="170" stroke="#315f9b" stroke-dasharray="7 6" stroke-width="3"/><line x1="120" y1="100" x2="430" y2="100" stroke="#315f9b" stroke-dasharray="7 6" stroke-width="3"/>
+<text x="445" y="95" font-size="22" font-weight="700">P(x,y)</text><text x="270" y="195" font-size="21">x-coordinate</text><text x="438" y="140" font-size="21">y-coordinate</text>
+</svg></div>
+
+<h2 class="section"><span class="num">୪</span> ଦୁଇଟି ବିନ୍ଦୁ ମଧ୍ୟରେ ଦୂରତା</h2>
+<div class="def"><div class="label">Distance Formula</div>
+<div class="formula">P₁P₂ = √[(x₂−x₁)² + (y₂−y₁)²]</div>
+<p>ଏହା P₁(x₁,y₁) ଓ P₂(x₂,y₂) ମଧ୍ୟରେ ସିଧା ଦୂରତା। Source page 4 ର diagram ରେ horizontal difference <b>x₂−x₁</b> ଓ vertical difference <b>y₂−y₁</b> ନେଇ right triangle ଗଠନ କରାଯାଇଛି।</p></div>
+<div class="steps">
+<div class="step"><div class="sn">1</div><div>P₁(x₁,y₁) ଓ P₂(x₂,y₂) ଚିହ୍ନଟ କର।</div></div>
+<div class="step"><div class="sn">2</div><div>x-coordinate ର difference = x₂−x₁।</div></div>
+<div class="step"><div class="sn">3</div><div>y-coordinate ର difference = y₂−y₁।</div></div>
+<div class="step"><div class="sn">4</div><div>Pythagoras ରେ square କରି ଯୋଗ କର।</div></div>
+<div class="step"><div class="sn">5</div><div>ଶେଷରେ square root ନିଅ।</div></div>
+</div>
+
+<div class="example"><h3>ଉଦାହରଣ ୧ — P(0,−5), Q(4,−6)</h3>
+<p><b>Given:</b> P(0,−5), Q(4,−6)</p><p><b>To Find:</b> PQ</p><p><b>Formula:</b> PQ=√[(x₂−x₁)²+(y₂−y₁)²]</p>
+<div class="formula">PQ=√[(4−0)²+(−6−(−5))²]</div>
+<div class="formula">=√[4²+(−6+5)²]</div>
+<div class="formula">=√[16+(−1)²]</div>
+<div class="formula">=√[16+1]</div>
+<div class="formula">=√17</div>
+<div class="answer">∴ PQ=√17</div>
+<div class="check">ଯାଞ୍ଚ: x ର difference 4 ଏବଂ y ର difference −1; ତେଣୁ squared sum =16+1=17।</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୨ — AB+BC=AC</h3>
+<p><b>Given:</b> A(0,0), B(2,3), C(4,0)</p><p><b>To Find:</b> AB, BC ଓ AC ର relation।</p>
+<div class="formula">AB=√[(2−0)²+(3−0)²]=√(4+9)=√13</div>
+<div class="formula">BC=√[(4−2)²+(0−3)²]=√(4+9)=√13</div>
+<div class="formula">AC=√[(4−0)²+(0−0)²]=√16=4</div>
+<div class="answer">Source example ର calculation କୁ ଅନୁସରଣ କରି point-to-point distances ତୁଳନା କର।</div>
+<div class="check">ନୋଟ୍: source image ର printed algebra କେତେକ ସ୍ଥାନରେ ଅତ୍ୟନ୍ତ ଛୋଟ; ଏଠାରେ ଦେଖିପାରା ଥିବା coordinate values ଅନୁସାରେ calculation ଦିଆଯାଇଛି।</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୩ — Isosceles triangle ଚିହ୍ନଟ</h3>
+<p><b>Given:</b> A(−2,3), B(5,−2), C(3,−4)</p><p><b>To Find:</b> side lengths ତୁଳନା କର।</p>
+<div class="formula">AB=√[(5+2)²+(−2−3)²]=√(49+25)=√74</div>
+<div class="formula">BC=√[(3−5)²+(−4+2)²]=√(4+4)=2√2</div>
+<div class="formula">CA=√[(−2−3)²+(3+4)²]=√(25+49)=√74</div>
+<div class="answer">∴ AB=CA=√74; ତେଣୁ △ABC ହେଉଛି Isosceles triangle.</div>
+<div class="check">ଯାଞ୍ଚ: ଦୁଇଟି side equal ଥିବାରୁ isosceles ନିଷ୍କର୍ଷ।</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୪ — AP=BP ରୁ point ଖୋଜିବା</h3>
+<p><b>Given:</b> A(6,5), B(−4,3); P(0,y) ଏବଂ AP=BP.</p>
+<p><b>To Find:</b> y.</p>
+<div class="formula">AP=√[(0−6)²+(y−5)²]</div>
+<div class="formula">BP=√[(0+4)²+(y−3)²]</div>
+<p>AP=BP ଥିବାରୁ square କରି:</p>
+<div class="formula">36+(y−5)²=16+(y−3)²</div>
+<div class="formula">36+y²−10y+25=16+y²−6y+9</div>
+<div class="formula">61−10y=25−6y</div>
+<div class="formula">36=4y</div>
+<div class="formula">y=9</div>
+<div class="answer">∴ P=(0,9)</div>
+<div class="check">ଯାଞ୍ଚ: P=(0,9) ବସାଇଲେ AP²=36+16=52 ଏବଂ BP²=16+36=52; ତେଣୁ AP=BP.</div></div>
+
+<h2 class="section"><span class="num">୫</span> Division Formula — ଅନ୍ତର୍ବିଭାଜନ</h2>
+<div class="def"><div class="label">ମୂଳ ଧାରଣା</div>
+<p>ଯଦି P, A ଓ B ମଧ୍ୟରେ ରହି AB କୁ <b>m:n</b> ଅନୁପାତରେ internally divide କରେ, ତେବେ P ର coordinate ନିମ୍ନ ସୂତ୍ରରେ ମିଳେ।</p>
+<div class="formula">P = ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n))</div></div>
+<div class="visual"><svg viewBox="0 0 760 190"><line x1="90" y1="105" x2="680" y2="105" stroke="#10213f" stroke-width="4"/><circle cx="110" cy="105" r="9" fill="#315f9b"/><circle cx="390" cy="105" r="9" fill="#d49a2c"/><circle cx="660" cy="105" r="9" fill="#16766a"/><text x="92" y="75" font-size="21">A(x₁,y₁)</text><text x="370" y="75" font-size="21">P(x,y)</text><text x="625" y="75" font-size="21">B(x₂,y₂)</text><text x="215" y="145" font-size="20">AP : PB = m : n</text></svg></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୫ — A(1,−2), B(−3,−4), 1:2</h3>
+<p><b>Given:</b> A(x₁,y₁)=(1,−2), B(x₂,y₂)=(−3,−4), m:n=1:2.</p>
+<p><b>To Find:</b> P(x,y).</p>
+<div class="formula">x=(mx₂+nx₁)/(m+n)</div>
+<div class="formula">=(1×(−3)+2×1)/(1+2)</div>
+<div class="formula">=(−3+2)/3</div>
+<div class="formula">=−1/3</div>
+<div class="formula">y=(my₂+ny₁)/(m+n)</div>
+<div class="formula">=(1×(−4)+2×(−2))/3</div>
+<div class="formula">=(−4−4)/3=−8/3</div>
+<div class="answer">∴ P=(−1/3, −8/3)</div>
+<div class="check">ଯାଞ୍ଚ: P ହେଉଛି AB segment ଉପରେ ଏବଂ AP:PB=1:2 ହେବା ଉଚିତ।</div></div>
+
+<h2 class="section"><span class="num">୬</span> Section Formula ର ବିଶେଷ ରୂପ</h2>
+<div class="grid">
+<div class="card"><h3>Midpoint</h3><div class="formula">M=((x₁+x₂)/2,(y₁+y₂)/2)</div><p>ଅର୍ଥାତ୍ m:n=1:1.</p></div>
+<div class="card"><h3>Origin ସହ division</h3><div class="formula">P=(mx/(m+n), my/(m+n))</div><p>ଯେତେବେଳେ A=(0,0), B=(x,y)।</p></div>
+<div class="card"><h3>External division</h3><div class="formula">P=((mx₂−nx₁)/(m−n),(my₂−ny₁)/(m−n))</div><p>Source chapter ର division discussion ର external case ପାଇଁ ଏହି sign pattern ବ୍ୟବହାର ହୁଏ।</p></div>
+</div>
+
+<div class="example"><h3>ଉଦାହରଣ ୬ — Midpoint: A(−1,−2), B(3,−4)</h3>
+<p><b>Given:</b> A(−1,−2), B(3,−4).</p><p><b>To Find:</b> midpoint.</p>
+<div class="formula">x=(−1+3)/2=2/2=1</div>
+<div class="formula">y=(−2−4)/2=−6/2=−3</div>
+<div class="answer">∴ Midpoint=(1,−3)</div>
+<div class="check">ଯାଞ୍ଚ: midpoint ରୁ A ଓ B ପର୍ଯ୍ୟନ୍ତ horizontal/vertical coordinate changes equal magnitude।</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୭ — 1:2 division: A(2,−3), B(4,−4)</h3>
+<p><b>Given:</b> A(2,−3), B(4,−4), ratio 1:2.</p>
+<div class="formula">x=(1×4+2×2)/(1+2)=8/3</div>
+<div class="formula">y=(1×(−4)+2×(−3))/3=−10/3</div>
+<div class="answer">∴ P=(8/3,−10/3)</div>
+<div class="check">ଯାଞ୍ଚ: coordinate formula ର numerator ରେ m ଓ n କୁ opposite endpoints ସହିତ ସଠିକ୍ ଭାବରେ multiply କର।</div></div>
+
+<h2 class="section"><span class="num">୭</span> Section Formula ର Logic — କାହିଁକି?</h2>
+<div class="teacher"><div class="face">🧠</div><div>Source pages 9–10 ର geometric proof ରେ P କୁ AB ର ଭିତରେ ନେଇ perpendicular projections ଦ୍ୱାରା x-coordinate ଓ y-coordinate ପାଇଁ ଦୁଇଟି ratio equation ତିଆରି କରାଯାଇଛି। ତା’ପରେ algebraic transformation କରି section formula ମିଳେ।</div></div>
+<div class="steps">
+<div class="step"><div class="sn">1</div><div>AB କୁ x-axis ଓ y-axis ଦିଗରେ component ଭାବରେ ଦେଖ।</div></div>
+<div class="step"><div class="sn">2</div><div>AP:PB=m:n ର ratio ନିଅ।</div></div>
+<div class="step"><div class="sn">3</div><div>x-coordinate ପାଇଁ ratio equation ତିଆରି କର।</div></div>
+<div class="step"><div class="sn">4</div><div>y-coordinate ପାଇଁ ସେହିପରି equation ତିଆରି କର।</div></div>
+<div class="step"><div class="sn">5</div><div>ଦୁଇ equation solve କଲେ section formula ମିଳେ।</div></div>
+</div>
+
+<h2 class="section"><span class="num">୮</span> Triangle ର Area</h2>
+<div class="def"><div class="label">Area Formula</div>
+<div class="formula">Area(△ABC)=1/2 |x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|</div>
+<p>ଏଠାରେ A(x₁,y₁), B(x₂,y₂), C(x₃,y₃)। Absolute value | | ଥିବାରୁ area ସଦା non-negative ହେବ।</p></div>
+<div class="visual"><svg viewBox="0 0 760 320"><line x1="90" y1="260" x2="690" y2="260" stroke="#10213f" stroke-width="4"/><line x1="130" y1="270" x2="130" y2="55" stroke="#10213f" stroke-width="4"/>
+<polygon points="220,225 420,80 630,210" fill="#eaf2ff" stroke="#315f9b" stroke-width="4"/><circle cx="220" cy="225" r="7" fill="#16766a"/><circle cx="420" cy="80" r="7" fill="#16766a"/><circle cx="630" cy="210" r="7" fill="#16766a"/>
+<text x="185" y="245" font-size="21">A(x₁,y₁)</text><text x="425" y="65" font-size="21">B(x₂,y₂)</text><text x="635" y="230" font-size="21">C(x₃,y₃)</text>
+</svg></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୮ — A(1,3), B(−7,6), C(5,−1)</h3>
+<p><b>Given:</b> A(1,3), B(−7,6), C(5,−1).</p><p><b>To Find:</b> triangle area.</p>
+<div class="formula">Area=1/2 |1(6−(−1))+(−7)((−1)−3)+5(3−6)|</div>
+<div class="formula">=1/2 |1(7)+(−7)(−4)+5(−3)|</div>
+<div class="formula">=1/2 |7+28−15|</div>
+<div class="formula">=1/2 ×20</div>
+<div class="answer">∴ Area=10 square units</div>
+<div class="check">ଯାଞ୍ଚ: area negative ଆସିଲେ absolute value ନେବା ଆବଶ୍ୟକ; ଏଠାରେ final area positive 10।</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୯ — A(1,−1), B(0,5), C(2,−1)</h3>
+<p><b>Given:</b> A(1,−1), B(0,5), C(2,−1).</p>
+<div class="formula">Area=1/2 |1(5+1)+0(−1+1)+2(−1−5)|</div>
+<div class="formula">=1/2 |6+0−12|</div>
+<div class="formula">=1/2 ×6</div>
+<div class="answer">∴ Area=3 square units</div>
+<div class="check">ଯାଞ୍ଚ: A ଓ C ର y-coordinate ସମାନ, ତେଣୁ AC horizontal base ଭାବରେ ନିଆଯାଇପାରେ।</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୧୦ — A(−2,1), B(2,3), C(0,4)</h3>
+<p><b>Given:</b> A(−2,1), B(2,3), C(0,4).</p>
+<div class="formula">Area=1/2 |(−2)(3−4)+2(4−1)+0(1−3)|</div>
+<div class="formula">=1/2 |2+6+0|</div>
+<div class="formula">=1/2 ×8</div>
+<div class="answer">∴ Area=4 square units</div>
+<div class="check">ଯାଞ୍ଚ: determinant/coordinate area formula ରେ ତିନିଟି coordinate pair ସଠିକ୍ order ରେ ବସାଇବା ଆବଶ୍ୟକ।</div></div>
+
+<h2 class="section"><span class="num">୯</span> Collinearity — ତିନି ବିନ୍ଦୁ ଏକ ସରଳରେଖାରେ କି?</h2>
+<div class="def"><div class="label">ମୁଖ୍ୟ ପରୀକ୍ଷା</div>
+<p>ତିନିଟି point A, B, C ଏକ straight line ଉପରେ ଥିଲେ triangle ର area = 0.</p>
+<div class="formula">1/2 |x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)| = 0</div>
+</div>
+<div class="flow"><div class="node">3 points</div><div class="arrow">→</div><div class="node">Area formula</div><div class="arrow">→</div><div class="node">Area = 0?</div><div class="arrow">→</div><div class="node">Yes ⇒ Collinear</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୧୧ — Collinearity test</h3>
+<p><b>Question:</b> ଦିଆଯାଇଥିବା ତିନି points ର area formula ର value 0 କି ନାହିଁ ଯାଞ୍ଚ କର।</p>
+<p><b>Method:</b> ପ୍ରଥମେ coordinate formula ରେ x₁,y₁,x₂,y₂,x₃,y₃ ବସାଅ।</p>
+<div class="formula">Area=1/2 |x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|</div>
+<div class="answer">ଯଦି final value =0, ତେବେ ତିନି points collinear; ଯଦି 0 ନୁହେଁ, ତେବେ collinear ନୁହେଁ।</div>
+<div class="check">ଏହା source ର area section ର direct geometric criterion।</div></div>
+
+<h2 class="section"><span class="num">୧୦</span> ଅନ୍ୟ ଦରକାରୀ Coordinate Ideas</h2>
+<div class="grid">
+<div class="card"><h3>Equal distances</h3><p>AP=BP ଥିଲେ ଦୁଇଟି distance formula ଲେଖି square କରି radicals ହଟାଇ equation solve କର।</p></div>
+<div class="card"><h3>Midpoint</h3><p>Ratio 1:1 ହେଲେ section formula ସିଧା midpoint formula କୁ ଦିଏ।</p></div>
+<div class="card"><h3>Axis point</h3><p>x-axis → y=0; y-axis → x=0.</p></div>
+<div class="card"><h3>Origin</h3><div class="formula">(0,0)</div></div>
+</div>
+
+<h2 class="section"><span class="num">୧୧</span> Source Examples — Coordinate Drill</h2>
+<div class="example"><h3>ଉଦାହରଣ ୧୨ — A(2,3), B(4,−3) ର midpoint</h3>
+<p><b>Given:</b> A(2,3), B(4,−3).</p><div class="formula">M=((2+4)/2,(3−3)/2)</div><div class="formula">=(6/2,0/2)</div>
+<div class="answer">∴ M=(3,0)</div><div class="check">ଯାଞ୍ଚ: midpoint x-axis ଉପରେ ଅଛି କାରଣ y=0.</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୧୩ — Ratio 1:2</h3>
+<p><b>Given:</b> A(2,−3), B(4,−4), m:n=1:2.</p>
+<div class="formula">x=(1×4+2×2)/3=8/3</div><div class="formula">y=(1×(−4)+2×(−3))/3=−10/3</div>
+<div class="answer">∴ P=(8/3,−10/3)</div></div>
+
+<div class="example"><h3>ଉଦାହରଣ ୧୪ — A.M. ନୁହେଁ, Coordinate Midpoint</h3>
+<p>Coordinate geometry ର midpoint କୁ “ଦୁଇ endpoint coordinate ର arithmetic mean” ଭାବରେ ବୁଝିପାରିବା:</p>
+<div class="formula">x_M=(x₁+x₂)/2, &nbsp; y_M=(y₁+y₂)/2</div>
+<div class="call">ଏହିଠାରେ x ଓ y ପାଇଁ ଅଲଗା arithmetic mean ନିଆଯାଏ।</div></div>
+
+<h2 class="section"><span class="num">୧୨</span> ପ୍ରଶ୍ନ ସମାଧାନର Standard Flow</h2>
+<div class="flow">
+<div class="node">Question</div><div class="arrow">↓</div><div class="node">Given</div><div class="arrow">↓</div><div class="node">To Find</div><div class="arrow">↓</div><div class="node">Formula</div><div class="arrow">↓</div><div class="node">Substitute</div><div class="arrow">↓</div><div class="node">Simplify</div><div class="arrow">↓</div><div class="node">Answer</div><div class="arrow">↓</div><div class="node">Verification</div>
+</div>
+
+<div class="warn"><b>⚠️ Coordinate Geometry ର Common Mistakes</b>
+<ul>
+<li>(x,y) କୁ (y,x) କରିବା ନାହିଁ।</li>
+<li>Distance formula ରେ coordinate differences ର square କରିବା ଭୁଲନ୍ତୁ ନାହିଁ।</li>
+<li>Negative coordinate ପାଇଁ bracket ବ୍ୟବହାର କର: (−6−(−5)).</li>
+<li>Section formula ରେ m,n କୁ ଭୁଲ endpoint ସହ multiply କରନ୍ତୁ ନାହିଁ।</li>
+<li>Midpoint = simple average: ((x₁+x₂)/2,(y₁+y₂)/2)।</li>
+<li>Area formula ରେ absolute value | | ଭୁଲନ୍ତୁ ନାହିଁ।</li>
+<li>Area=0 ⇒ collinear; area ≠0 ⇒ non-collinear.</li>
+<li>Axis point: x-axis ରେ y=0; y-axis ରେ x=0।</li>
+</ul></div>
+
+<section class="dark">
+<h2>⚡ Visual Formula Revision</h2>
+<div class="revgrid">
+<div class="rev"><h3>Origin</h3><div class="formula">O=(0,0)</div></div>
+<div class="rev"><h3>Distance</h3><div class="formula">√[(x₂−x₁)²+(y₂−y₁)²]</div></div>
+<div class="rev"><h3>Internal Division</h3><div class="formula">((mx₂+nx₁)/(m+n),(my₂+ny₁)/(m+n))</div></div>
+<div class="rev"><h3>Midpoint</h3><div class="formula">((x₁+x₂)/2,(y₁+y₂)/2)</div></div>
+<div class="rev"><h3>External Division</h3><div class="formula">((mx₂−nx₁)/(m−n),(my₂−ny₁)/(m−n))</div></div>
+<div class="rev"><h3>Triangle Area</h3><div class="formula">½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|</div></div>
+<div class="rev"><h3>Collinear</h3><div class="formula">Area=0</div></div>
+<div class="rev"><h3>x-axis</h3><div class="formula">y=0</div></div>
+<div class="rev"><h3>y-axis</h3><div class="formula">x=0</div></div>
+</div>
+</section>
+
+<h2 class="section"><span class="num">୧୩</span> Very Short Questions</h2>
+<div class="q"><ol>
+<li>Cartesian plane କ’ଣ?</li><li>Origin ର coordinate କେତେ?</li><li>Ordered pair କ’ଣ?</li><li>Q₁ ରେ x,y ର signs କ’ଣ?</li><li>x-axis ଉପରେ y ର value କେତେ?</li><li>y-axis ଉପରେ x ର value କେତେ?</li><li>Distance formula ଲେଖ।</li><li>Midpoint formula ଲେଖ।</li><li>Section formula ଲେଖ।</li><li>Triangle area formula ଲେଖ।</li><li>Area=0 ହେଲେ କ’ଣ ନିଷ୍କର୍ଷ?</li>
+</ol></div>
+
+<h2 class="section"><span class="num">୧୪</span> Short Questions</h2>
+<div class="q"><ol>
+<li>P(−3,5) କେଉଁ quadrant ରେ?</li>
+<li>P(0,−7) କେଉଁ axis ଉପରେ?</li>
+<li>ଦୁଇ points ମଧ୍ୟର distance formula ର ପ୍ରତ୍ୟେକ symbol ବୁଝାଅ।</li>
+<li>AP=BP ଥିଲେ coordinate equation କିପରି ତିଆରି କରିବ?</li>
+<li>Internal division formula କିପରି midpoint formula ଦିଏ?</li>
+<li>Triangle area formula ରେ absolute value କାହିଁକି ରହେ?</li>
+<li>ତିନି points collinear କି ନାହିଁ କିପରି ଯାଞ୍ଚ କରିବ?</li>
+</ol></div>
+
+<h2 class="section"><span class="num">୧୫</span> Long / Problem-Solving Questions</h2>
+<div class="q"><ol>
+<li>P(0,−5), Q(4,−6) ମଧ୍ୟର distance step-by-step ନିର୍ଣ୍ଣୟ କର।</li>
+<li>A(−2,3), B(5,−2), C(3,−4) ର side lengths ନିର୍ଣ୍ଣୟ କରି triangle ର type ଚିହ୍ନଟ କର।</li>
+<li>A(6,5), B(−4,3), P(0,y) ଓ AP=BP ଥିଲେ y ନିର୍ଣ୍ଣୟ କର।</li>
+<li>A(1,−2), B(−3,−4) କୁ 1:2 ରେ divide କରୁଥିବା P ର coordinate ନିର୍ଣ୍ଣୟ କର।</li>
+<li>A(1,3), B(−7,6), C(5,−1) ର triangle area ନିର୍ଣ୍ଣୟ କର।</li>
+<li>A(1,−1), B(0,5), C(2,−1) ର triangle area ନିର୍ଣ୍ଣୟ କର।</li>
+<li>ତିନିଟି points ର area=0 ହେଲେ ସେଗୁଡ଼ିକ collinear ବୋଲି ପ୍ରମାଣ କର।</li>
+</ol></div>
+
+<h2 class="section"><span class="num">୧୬</span> Practice Set</h2>
+<div class="q"><ol>
+<li>Source exercise ର points ଗୁଡ଼ିକୁ coordinate plane ରେ plot କର।</li>
+<li>ଦିଆଯାଇଥିବା pair ଗୁଡ଼ିକର distance ନିର୍ଣ୍ଣୟ କର।</li>
+<li>ଦିଆଯାଇଥିବା ratio ରେ section point ନିର୍ଣ୍ଣୟ କର।</li>
+<li>ଦୁଇ endpoints ର midpoint ନିର୍ଣ୍ଣୟ କର।</li>
+<li>ତିନି points ର triangle area ନିର୍ଣ୍ଣୟ କର।</li>
+<li>Area=0 ଆସୁଛି କି ନାହିଁ ଦେଖି collinearity test କର।</li>
+<li>x-axis/y-axis ଉପରେ ଥିବା unknown coordinate ନିର୍ଣ୍ଣୟ କର।</li>
+<li>AP=BP, AB=AC ପରି geometric conditions କୁ distance formula ରେ convert କର।</li>
+</ol></div>
+
+<div class="call"><b>Source map:</b> ପୃଷ୍ଠା 1–3 ରେ Introduction, Cartesian plane, quadrants ଓ ordered-pair ideas; ପୃଷ୍ଠା 4–6 ରେ distance formula ଓ worked examples; ପୃଷ୍ଠା 8–12 ରେ division/section formula ଓ examples; ପୃଷ୍ଠା 14–17 ରେ triangle area, derivation/examples ଓ exercise; ପୃଷ୍ଠା 19–22 ରେ exercise answers ଅଛି। Uploaded source ମୋଟ 22 pages।</div>
+
+<div class="footer">ସ୍ଥାନାଙ୍କ ଜ୍ୟାମିତି • Coordinate Geometry • ଓଡ଼ିଆ </div>
+</main>
+</body>
+</html>
