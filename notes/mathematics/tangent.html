@@ -1,401 +1,86 @@
-<!DOCTYPE html>
-<html lang="or">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html><html lang="or"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>ବୃତ୍ତର ସ୍ପର୍ଶକ — Tangents to a Circle</title>
-
-<!-- Clear Odia rendering -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Odia:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
 <style>
-html,body{font-kerning:normal;text-rendering:optimizeLegibility;}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
- margin:0;
- background:#f3f0e9;
- color:#18262d;
- font-family:"Noto Sans Odia","Nirmala UI","Kalinga","Noto Sans Oriya","Noto Sans",sans-serif;
- font-size:17px;
- line-height:1.9;
-}
-.page{max-width:1120px;margin:auto;padding:22px}
-.hero{
- background:linear-gradient(135deg,#123f50,#0c706e);
- color:white;border-radius:26px;padding:36px 34px;
- box-shadow:0 10px 30px rgba(0,0,0,.12);
-}
-.hero .eyebrow{font-size:15px;font-weight:600;opacity:.9}
-.hero h1{font-size:42px;line-height:1.3;margin:10px 0}
-.hero h2{color:white;margin:0 0 8px;font-size:22px}
-.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
-.badge{border:1px solid rgba(255,255,255,.4);padding:4px 12px;border-radius:50px;font-size:14px}
+body{margin:0;background:#eeeae2;color:#17252b;font-family:"Noto Sans Oriya","Noto Sans",Arial,sans-serif;line-height:1.7}.w{max-width:1100px;margin:auto;padding:20px}
+.hero,.rev{background:#153f4d;color:#fff;border-radius:25px;padding:30px}.hero h1{font-size:42px;margin:5px 0}.card{background:#fff;border:1px solid #d8d0c3;border-radius:15px;padding:18px;margin:13px 0}h2{color:#123f52;margin-top:32px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.f{background:#edf7f5;border:2px solid #b9d8d3;border-radius:10px;padding:12px;text-align:center;font:700 22px Georgia}.step{display:grid;grid-template-columns:35px 1fr;gap:10px;margin:8px 0}.n{background:#123f52;color:#fff;border-radius:50%;width:30px;height:30px;text-align:center;padding-top:1px}.final{background:#eaf8f0;border:2px solid #b4d7c2;border-radius:10px;padding:12px;font-weight:bold}.note{background:#fff7e5;border-left:5px solid #b77a20;padding:12px}.warn{background:#fff0ed;border-left:5px solid #a94d42;padding:12px}table{border-collapse:collapse;width:100%;background:#fff}th,td{border:1px solid #d6cec1;padding:8px}th{background:#edf4f4}.flow{text-align:center;background:#f7f8f9;border:1px dashed #b8c4c9;padding:15px;border-radius:12px;font-weight:bold}.small{font-size:13px;color:#68757b}@media(max-width:700px){.grid{grid-template-columns:1fr}.hero h1{font-size:33px}}
+</style></head><body><div class="w">
 
-h2{color:#123f50;font-size:29px;margin:36px 0 12px}
-h3{color:#0b6c69;font-size:22px;margin:20px 0 8px}
+<div class="hero"><div>ଶ୍ରେଣୀ–୧୦ • ଗଣିତ • ଅଧ୍ୟାୟ–୩</div><h1>ବୃତ୍ତର ସ୍ପର୍ଶକ</h1><p><b>TANGENTS TO A CIRCLE</b></p><p>ସ୍ପର୍ଶକ • ସ୍ପର୍ଶବିନ୍ଦୁ • ଛେଦକ • Tangent–Chord • Tangent–Secant • Common Tangents</p></div>
 
-.card{
- background:#fff;border:1px solid #ddd5c8;border-radius:16px;
- padding:20px;margin:14px 0;box-shadow:0 5px 18px rgba(0,0,0,.045)
-}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
-@media(max-width:760px){
- .page{padding:12px}.grid{grid-template-columns:1fr}
- .hero{padding:26px 20px}.hero h1{font-size:32px}
- body{font-size:16px}
-}
-.formula{
- background:#edf8f6;border:2px solid #b6d9d3;border-radius:12px;
- padding:13px;text-align:center;margin:13px 0;
- font-family:"Noto Sans","DejaVu Sans",Arial,sans-serif;
- font-size:24px;font-weight:800;letter-spacing:.2px;
- direction:ltr
-}
-.meaning{
- background:#fff8e8;border-left:5px solid #b47b22;
- padding:12px 16px;border-radius:8px;margin:12px 0
-}
-.proof{
- background:#f8f5ef;border:1px solid #ded4c4;
- border-radius:14px;padding:16px
-}
-.step{display:grid;grid-template-columns:38px 1fr;gap:11px;margin:10px 0}
-.num{
- width:32px;height:32px;border-radius:50%;background:#123f50;color:#fff;
- display:flex;align-items:center;justify-content:center;font-weight:800;
- font-family:Arial,sans-serif
-}
-.final{
- background:#eaf8ef;border:2px solid #b4d7c0;
- padding:13px;border-radius:11px;font-weight:800;margin-top:12px
-}
-.warning{
- background:#fff0ed;border-left:5px solid #aa5045;
- padding:12px 16px;border-radius:8px
-}
-.flow{
- background:#f8fafb;border:1px dashed #b9c5ca;border-radius:14px;
- padding:18px;text-align:center;font-weight:700
-}
-table{width:100%;border-collapse:collapse;background:white;margin:12px 0}
-th,td{border:1px solid #d8d0c4;padding:9px;vertical-align:top}
-th{background:#edf4f4;color:#123f50}
-.diagram{
- background:#f8fafb;border:1px dashed #bdc9cd;border-radius:14px;
- padding:18px;text-align:center;font-family:"Noto Sans",Arial,sans-serif;
- direction:ltr;font-size:21px
-}
-.revision{
- background:#123f50;color:white;border-radius:25px;padding:25px
-}
-.revision h2{color:white}
-.small{font-size:13px;color:#66747a}
-.source{font-size:13px;color:#65737a}
-ol li{margin:7px 0}
-</style>
-</head>
+<div class="card"><b>ଶିକ୍ଷକଙ୍କ ଆରମ୍ଭ:</b> ଏକ ସରଳରେଖା ବୃତ୍ତକୁ ୦, ୧ କିମ୍ବା ୨ଟି ବିନ୍ଦୁରେ ଛେଦ କରିପାରେ। କେବଳ ୧ଟି ସାଧାରଣ ବିନ୍ଦୁ ଥିଲେ ସେହି ସରଳରେଖାକୁ ସ୍ପର୍ଶକ କୁହାଯାଏ। Source ର ଚିତ୍ର 3.1 ଏହି ତିନି ଅବସ୍ଥାକୁ ଦେଖାଏ।</div>
 
-<body>
-<div class="page">
+<h2>🎯 ଅଧ୍ୟାୟ ମାନଚିତ୍ର</h2><div class="flow">ସରଳରେଖା + ବୃତ୍ତ → ସ୍ପର୍ଶକ/ଛେଦକ → Radius ⟂ Tangent → ଦୁଇ Tangent ସମାନ → Tangent–Chord → Tangent–Secant → Common Tangents</div>
 
-<section class="hero">
-<div class="eyebrow">ଶ୍ରେଣୀ–୧୦ • ଗଣିତ • ଅଧ୍ୟାୟ–୩</div>
-<h1>ବୃତ୍ତର ସ୍ପର୍ଶକ</h1>
-<h2>Tangents to a Circle</h2>
-<p>ସ୍ପର୍ଶକ • ସ୍ପର୍ଶବିନ୍ଦୁ • ଛେଦକ • Tangent–Chord Theorem • Tangent–Secant Theorem • Common Tangents</p>
-<div class="badges">
-<span class="badge">OP ⟂ Tangent</span>
-<span class="badge">PQ = PR</span>
-<span class="badge">PT² = PA × PB</span>
-<span class="badge">PA × PB = PC × PD</span>
-</div>
-</section>
+<h2>1. ମୁଖ୍ୟ ପରିଭାଷା</h2><div class="card"><table><tr><th>ଧାରଣା</th><th>ସରଳ ଅର୍ଥ</th></tr>
+<tr><td>ସ୍ପର୍ଶକ (Tangent)</td><td>ବୃତ୍ତ ସହିତ କେବଳ ୧ଟି ସାଧାରଣ ବିନ୍ଦୁ ଥିବା ସରଳରେଖା।</td></tr>
+<tr><td>ସ୍ପର୍ଶବିନ୍ଦୁ</td><td>ସ୍ପର୍ଶକ ଓ ବୃତ୍ତର ସାଧାରଣ ବିନ୍ଦୁ।</td></tr>
+<tr><td>ଛେଦକ (Secant)</td><td>ବୃତ୍ତକୁ ୨ଟି ବିନ୍ଦୁରେ ଛେଦ କରୁଥିବା ସରଳରେଖା।</td></tr>
+<tr><td>ସ୍ପର୍ଶକ-ଖଣ୍ଡ</td><td>ବାହ୍ୟ ବିନ୍ଦୁରୁ ସ୍ପର୍ଶବିନ୍ଦୁ ପର୍ଯ୍ୟନ୍ତ ଥିବା ଖଣ୍ଡ।</td></tr></table>
+<p class="small">Source: Chapter 3.1–3.2. fileciteturn56file0L39-L53</p></div>
 
-<div class="card">
-<b>ଶିକ୍ଷକଙ୍କ ଆରମ୍ଭ:</b>
-ଏକ ସରଳରେଖା ଏକ ବୃତ୍ତକୁ ୦, ୧ କିମ୍ବା ୨ଟି ବିନ୍ଦୁରେ ଛେଦ କରିପାରେ।
-କେବଳ ଗୋଟିଏ ସାଧାରଣ ବିନ୍ଦୁ ଥିଲେ ସେହି ସରଳରେଖାକୁ <b>ସ୍ପର୍ଶକ</b> କୁହାଯାଏ।
-</div>
+<h2>2. ଉପପାଦ୍ୟ–12 — Radius ⟂ Tangent</h2><div class="card"><div class="f">OP ⟂ Tangent</div><p><b>କଥନ:</b> ସ୍ପର୍ଶବିନ୍ଦୁ ଦେଇ ଅଙ୍କିତ ବ୍ୟାସାର୍ଦ୍ଧ ସ୍ପର୍ଶକ ପ୍ରତି ଲମ୍ବ। fileciteturn60file0L15-L28</p>
+<div class="note"><b>Formula/Meaning:</b> O = କେନ୍ଦ୍ର, P = ସ୍ପର୍ଶବିନ୍ଦୁ; OP ବ୍ୟାସାର୍ଦ୍ଧ। ତେଣୁ tangent ସହିତ କୋଣ = 90°।</div>
+<h3>ପ୍ରମାଣ</h3><div class="step"><span class="n">1</span><span>କେନ୍ଦ୍ର O, ସ୍ପର୍ଶବିନ୍ଦୁ P ଏବଂ tangent L ନିଅ।</span></div>
+<div class="step"><span class="n">2</span><span>L ଉପରେ P ବ୍ୟତୀତ Q ନିଅ ଏବଂ OQ ଯୋଗ କର।</span></div>
+<div class="step"><span class="n">3</span><span>Q ବୃତ୍ତର ବାହ୍ୟ ବିନ୍ଦୁ; ତେଣୁ OQ &gt; OP।</span></div>
+<div class="step"><span class="n">4</span><span>OP ହେଉଛି O ରୁ L ପର୍ଯ୍ୟନ୍ତ କ୍ଷୁଦ୍ରତମ ଦୂରତା। କ୍ଷୁଦ୍ରତମ ଦୂରତା ସରଳରେଖା ପ୍ରତି ଲମ୍ବ।</span></div>
+<div class="final">∴ OP ⟂ L — ପ୍ରମାଣିତ।</div></div>
 
-<h2>ଅଧ୍ୟାୟର Learning Map</h2>
-<div class="flow">
-ସରଳରେଖା + ବୃତ୍ତ
-→ ସ୍ପର୍ଶକ / ଛେଦକ
-→ ବ୍ୟାସାର୍ଦ୍ଧ ⟂ ସ୍ପର୍ଶକ
-→ ଦୁଇ ସ୍ପର୍ଶକ-ଖଣ୍ଡ ସମାନ
-→ Tangent–Chord
-→ Tangent–Secant
-→ Common Tangents
-</div>
+<h2>3. Converse — ବିପରୀତ କଥନ</h2><div class="card"><div class="f">Radius ପ୍ରତି ଲମ୍ବ ସରଳରେଖା → Tangent</div><p>ବୃତ୍ତର P ବିନ୍ଦୁରେ ଅଙ୍କିତ OP ପ୍ରତି ଲମ୍ବ ଥିବା ସରଳରେଖା ବୃତ୍ତର tangent। Source ର proof ଏହି କଥାକୁ ସ୍ଥାପନ କରେ। fileciteturn60file1L45-L63</p></div>
 
-<h2>୧. ମୁଖ୍ୟ ପରିଭାଷା</h2>
-<div class="card">
-<table>
-<tr><th>ଧାରଣା</th><th>ଅର୍ଥ</th></tr>
-<tr><td><b>ସ୍ପର୍ଶକ (Tangent)</b></td><td>ବୃତ୍ତ ସହିତ କେବଳ ଗୋଟିଏ ସାଧାରଣ ବିନ୍ଦୁ ଥିବା ସରଳରେଖା।</td></tr>
-<tr><td><b>ସ୍ପର୍ଶବିନ୍ଦୁ</b></td><td>ସ୍ପର୍ଶକ ଓ ବୃତ୍ତର ସାଧାରଣ ବିନ୍ଦୁ।</td></tr>
-<tr><td><b>ଛେଦକ (Secant)</b></td><td>ବୃତ୍ତକୁ ଦୁଇଟି ବିନ୍ଦୁରେ ଛେଦ କରୁଥିବା ସରଳରେଖା।</td></tr>
-<tr><td><b>ସ୍ପର୍ଶକ-ଖଣ୍ଡ</b></td><td>ବାହ୍ୟ ବିନ୍ଦୁରୁ ସ୍ପର୍ଶବିନ୍ଦୁ ପର୍ଯ୍ୟନ୍ତ ଥିବା ରେଖାଖଣ୍ଡ।</td></tr>
-</table>
-<p class="source">Source: Chapter 3.1–3.2. </p>
-</div>
+<h2>4. ଉପପାଦ୍ୟ–13 — ଦୁଇ Tangent Segment ସମାନ</h2><div class="card"><div class="f">PQ = PR</div><p>ଏକ ବାହ୍ୟ ବିନ୍ଦୁ P ରୁ ବୃତ୍ତ ପ୍ରତି ଅଙ୍କିତ ଦୁଇ ସ୍ପର୍ଶକ-ଖଣ୍ଡର ଦୈର୍ଘ୍ୟ ସମାନ। fileciteturn58file13L527-L536</p>
+<div class="step"><span class="n">1</span><span>OQ, OR ଏବଂ OP ଯୋଗ କର।</span></div><div class="step"><span class="n">2</span><span>OQ ⟂ PQ ଏବଂ OR ⟂ PR।</span></div><div class="step"><span class="n">3</span><span>△OQP ଓ △ORP ସମକୋଣୀ ତ୍ରିଭୁଜ।</span></div><div class="step"><span class="n">4</span><span>OQ = OR ଏବଂ OP ସାଧାରଣ।</span></div><div class="step"><span class="n">5</span><span>RHS ଅନୁସାରେ △OQP ≅ △ORP।</span></div><div class="step"><span class="n">6</span><span>Corresponding sides ରୁ PQ = PR।</span></div><div class="final">∴ PQ = PR — ପ୍ରମାଣିତ।</div></div>
 
-<h2>୨. ଉପପାଦ୍ୟ–୧୨ — Radius ଓ Tangent</h2>
-<div class="card">
-<div class="formula">OP ⟂ Tangent</div>
-<p><b>କଥନ:</b> ସ୍ପର୍ଶବିନ୍ଦୁ ଦେଇ ଅଙ୍କିତ ବ୍ୟାସାର୍ଦ୍ଧ ସ୍ପର୍ଶକ ପ୍ରତି ଲମ୍ବ। </p>
+<h2>5. Tangent–Chord Theorem</h2><div class="card"><div class="f">∠(Tangent, Chord) = ∠(Angle in Alternate Arc)</div><p>ସ୍ପର୍ଶବିନ୍ଦୁ ଦେଇ ଯାଉଥିବା chord ଓ tangent ଦ୍ୱାରା ଗଠିତ କୋଣର ମାପ alternate arc ରେ inscribed angle ସହିତ ସମାନ। fileciteturn58file0L17-L20</p>
+<table><tr><th>କୋଣ</th><th>ସମାନ କୋଣ</th></tr><tr><td>∠APQ</td><td>∠PRQ</td></tr><tr><td>∠BPQ</td><td>∠PSQ</td></tr></table>
+<div class="final">m∠APQ = m∠PRQ; &nbsp; m∠BPQ = m∠PSQ</div></div>
 
-<div class="meaning">
-<b>ଚିହ୍ନଗୁଡ଼ିକର ଅର୍ଥ:</b>
-O = ବୃତ୍ତର କେନ୍ଦ୍ର, P = ସ୍ପର୍ଶବିନ୍ଦୁ, OP = ବ୍ୟାସାର୍ଦ୍ଧ।
-ତେଣୁ ସ୍ପର୍ଶକ ଓ OP ମଧ୍ୟରେ କୋଣ = <b>୯୦°</b>।
-</div>
+<h2>6. Converse of Tangent–Chord Theorem</h2><div class="card"><div class="f">Equal alternate-arc angle → line is Tangent</div><p>ଯଦି chord ଓ line ଦ୍ୱାରା ଗଠିତ କୋଣ alternate arc ର inscribed angle ସହିତ ସମାନ, ତେବେ lineଟି tangent। fileciteturn60file10L412-L423</p></div>
 
-<h3>ପ୍ରମାଣ — Step by Step</h3>
-<div class="proof">
-<div class="step"><div class="num">1</div><div>ବୃତ୍ତର କେନ୍ଦ୍ର O, ସ୍ପର୍ଶବିନ୍ଦୁ P ଏବଂ ସ୍ପର୍ଶକ L ନିଅ।</div></div>
-<div class="step"><div class="num">2</div><div>L ଉପରେ P ବ୍ୟତୀତ ଅନ୍ୟ ଏକ ବିନ୍ଦୁ Q ନିଅ ଏବଂ OQ ଯୋଗ କର।</div></div>
-<div class="step"><div class="num">3</div><div>Q ବୃତ୍ତର ବାହ୍ୟ ବିନ୍ଦୁ ହେତୁ OQ &gt; OP।</div></div>
-<div class="step"><div class="num">4</div><div>OP ହେଉଛି O ରୁ L ପର୍ଯ୍ୟନ୍ତ କ୍ଷୁଦ୍ରତମ ଦୂରତା। କ୍ଷୁଦ୍ରତମ ଦୂରତା ସରଳରେଖା ପ୍ରତି ଲମ୍ବ।</div></div>
-<div class="final">∴ OP ⟂ L — ପ୍ରମାଣିତ।</div>
-</div>
-</div>
+<h2>7. ଉପପାଦ୍ୟ–14 — Tangent–Secant</h2><div class="card"><div class="f">PT² = PA × PB</div><p>P-A-B ଏକ secant ଏବଂ PT tangent ହେଲେ ଏହି ସମ୍ପର୍କ ପ୍ରୟୋଜ୍ୟ। fileciteturn57file2L95-L109</p>
+<h3>ପ୍ରମାଣ</h3><div class="step"><span class="n">1</span><span>TA ଓ TB ଯୋଗ କର।</span></div><div class="step"><span class="n">2</span><span>Tangent–Chord theorem ରୁ m∠PTA = m∠TBA।</span></div><div class="step"><span class="n">3</span><span>∠TPA = ∠TPB — ସାଧାରଣ କୋଣ।</span></div><div class="step"><span class="n">4</span><span>ତେଣୁ △PTA ~ △PBT (AA)।</span></div><div class="step"><span class="n">5</span><span>PA/PT = PT/PB।</span></div><div class="step"><span class="n">6</span><span>Cross multiplication: PA×PB = PT×PT।</span></div><div class="final">∴ PA × PB = PT² — ପ୍ରମାଣିତ।</div>
+<div class="f">ଦୁଇ Secant: PA × PB = PC × PD</div></div>
 
-<h2>୩. ଉପପାଦ୍ୟ–୧୨ ର ବିପରୀତ କଥନ</h2>
-<div class="card">
-<div class="formula">Radius ପ୍ରତି ଲମ୍ବ ସରଳରେଖା → Tangent</div>
-<p>ବୃତ୍ତର P ବିନ୍ଦୁରେ ଅଙ୍କିତ ବ୍ୟାସାର୍ଦ୍ଧ OP ପ୍ରତି ଲମ୍ବ ଥିବା ସରଳରେଖାଟି ବୃତ୍ତର ସ୍ପର୍ଶକ। </p>
-</div>
+<h2>8. Solved Example — Source Exercise 3</h2><div class="card"><p><b>Question:</b> ବ୍ୟାସାର୍ଦ୍ଧ 8 cm, PO=17 cm। Tangent length PT ନିର୍ଣ୍ଣୟ କର। fileciteturn59file12L495-L509</p>
+<p><b>Given:</b> r=8 cm, PO=17 cm<br><b>To Find:</b> PT<br><b>Method:</b> Right triangle OPT</p><div class="f">PO² = PT² + OT²</div>
+<div class="step"><span class="n">1</span><span>OT = r = 8 cm.</span></div><div class="step"><span class="n">2</span><span>17² = PT² + 8²</span></div><div class="step"><span class="n">3</span><span>289 = PT² + 64</span></div><div class="step"><span class="n">4</span><span>PT² = 289−64 = 225</span></div><div class="step"><span class="n">5</span><span>PT = √225 = 15 cm</span></div><div class="final">ଉତ୍ତର: PT = 15 cm</div><div class="note">Verification: 15²+8² = 225+64 = 289 = 17²।</div></div>
 
-<h2>୪. ଉପପାଦ୍ୟ–୧୩ — ଦୁଇ ସ୍ପର୍ଶକ-ଖଣ୍ଡ ସମାନ</h2>
-<div class="card">
-<div class="formula">PQ = PR</div>
-<p>ଏକ ବାହ୍ୟ ବିନ୍ଦୁ P ରୁ ବୃତ୍ତ ପ୍ରତି ଅଙ୍କିତ ଦୁଇଟି ସ୍ପର୍ଶକ-ଖଣ୍ଡର ଦୈର୍ଘ୍ୟ ସମାନ। </p>
-<h3>ପ୍ରମାଣ</h3>
-<div class="proof">
-<div class="step"><div class="num">1</div><div>OQ, OR ଏବଂ OP ଯୋଗ କର।</div></div>
-<div class="step"><div class="num">2</div><div>ସ୍ପର୍ଶକ ହେତୁ OQ ⟂ PQ ଏବଂ OR ⟂ PR।</div></div>
-<div class="step"><div class="num">3</div><div>△OQP ଓ △ORP ସମକୋଣୀ ତ୍ରିଭୁଜ।</div></div>
-<div class="step"><div class="num">4</div><div>OQ = OR, କାରଣ ଦୁହେଁ ବ୍ୟାସାର୍ଦ୍ଧ; OP ସାଧାରଣ ବାହୁ।</div></div>
-<div class="step"><div class="num">5</div><div>RHS ନିୟମ ଅନୁସାରେ △OQP ≅ △ORP।</div></div>
-<div class="step"><div class="num">6</div><div>ସର୍ବସମ ତ୍ରିଭୁଜର ଅନୁରୂପ ବାହୁରୁ PQ = PR।</div></div>
-<div class="final">∴ PQ = PR — ପ୍ରମାଣିତ।</div>
-</div>
-</div>
+<h2>9. Solved Example — Two Secants</h2><div class="card"><p><b>Given:</b> PA=10 cm, PB=16 cm, PD=20 cm। P-A-B ଏବଂ P-C-D secants। <b>To Find:</b> CD। fileciteturn59file15L583-L589</p>
+<div class="f">PA×PB = PC×PD</div><div class="step"><span class="n">1</span><span>10×16 = PC×20</span></div><div class="step"><span class="n">2</span><span>160 = 20PC</span></div><div class="step"><span class="n">3</span><span>PC = 160/20 = 8 cm</span></div><div class="step"><span class="n">4</span><span>PD = PC+CD ⇒ 20=8+CD</span></div><div class="step"><span class="n">5</span><span>CD=20−8=12 cm</span></div><div class="final">ଉତ୍ତର: CD = 12 cm</div><div class="note">Verification: 10×16 = 8×20 = 160।</div></div>
 
-<h2>୫. Tangent–Chord Theorem</h2>
-<div class="card">
-<div class="formula">∠(Tangent, Chord) = ∠(Alternate Arc ର Inscribed Angle)</div>
-<p>ସ୍ପର୍ଶବିନ୍ଦୁରେ tangent ଓ chord ଦ୍ୱାରା ଗଠିତ କୋଣର ମାପ alternate arc ରେ ଅନ୍ତର୍ଲିଖିତ କୋଣ ସହିତ ସମାନ। </p>
-<table>
-<tr><th>ସ୍ପର୍ଶକ–ଜ୍ୟା କୋଣ</th><th>ସମାନ ବିକଳ୍ପ-ଚାପ କୋଣ</th></tr>
-<tr><td>∠APQ</td><td>∠PRQ</td></tr>
-<tr><td>∠BPQ</td><td>∠PSQ</td></tr>
-</table>
-<div class="final">m∠APQ = m∠PRQ &nbsp;&nbsp; ଏବଂ &nbsp;&nbsp; m∠BPQ = m∠PSQ</div>
-</div>
+<h2>10. Solved Example — PA=8 cm, AB=10 cm</h2><div class="card"><p>Source Exercise 6(iii)। fileciteturn59file15L587-L589</p><p><b>Given:</b> PA=8 cm, AB=10 cm। <b>To Find:</b> PT।</p><div class="step"><span class="n">1</span><span>PB=PA+AB=8+10=18 cm.</span></div><div class="step"><span class="n">2</span><span>PT²=PA×PB=8×18=144.</span></div><div class="step"><span class="n">3</span><span>PT=√144=12 cm.</span></div><div class="final">ଉତ୍ତର: PT = 12 cm</div><div class="note">Verification: 12²=144=8×18।</div></div>
 
-<h2>୬. Tangent–Chord Theorem ର Converse</h2>
-<div class="card">
-<div class="formula">Equal Alternate-Arc Angle → Tangent</div>
-<p>ଯଦି chord ଓ ଏକ ସରଳରେଖା ଦ୍ୱାରା ଗଠିତ କୋଣ alternate arc ର inscribed angle ସହିତ ସମାନ, ତେବେ ସେହି ସରଳରେଖାଟି tangent। </p>
-</div>
+<h2>11. Common Tangents</h2><div class="card"><p>ଦୁଇଟି ବୃତ୍ତକୁ ଏକେ ସରଳରେଖା ସ୍ପର୍ଶ କଲେ ସେହି lineକୁ common tangent କୁହାଯାଏ। Source ରେ direct ଓ transverse common tangent ଦୁଇ ପ୍ରକାର ଦେଖାଯାଇଛି। fileciteturn58file9L347-L366</p>
+<div class="grid"><div class="card"><b>Direct</b><div class="f">L²=d²−(r₁−r₂)²</div><p>Radii ର difference।</p></div><div class="card"><b>Transverse</b><div class="f">L²=d²−(r₁+r₂)²</div><p>Radii ର sum।</p></div></div>
+<div class="note"><b>ମନେ ରଖ:</b> Direct → Difference; Transverse → Sum।</div></div>
 
-<h2>୭. ଉପପାଦ୍ୟ–୧୪ — Tangent–Secant Theorem</h2>
-<div class="card">
-<div class="formula">PT² = PA × PB</div>
-<p>P-A-B ଏକ secant ଏବଂ PT tangent ହେଲେ ଏହି ସମ୍ପର୍କ ପ୍ରୟୋଗ କରାଯାଏ। </p>
+<h2>12. Solved Example — Direct Common Tangent</h2><div class="card"><p><b>Given:</b> r₁=4.5 cm, r₂=12.5 cm, d=20 cm। <b>To Find:</b> PQ। Source Exercise 4। fileciteturn59file12L511-L514</p>
+<div class="f">PQ²=d²−(r₂−r₁)²</div><div class="step"><span class="n">1</span><span>r₂−r₁=12.5−4.5=8 cm.</span></div><div class="step"><span class="n">2</span><span>PQ²=20²−8²=400−64=336.</span></div><div class="step"><span class="n">3</span><span>PQ=√336=4√21 cm ≈18.33 cm.</span></div><div class="final">ଉତ୍ତର: PQ = 4√21 cm ≈ 18.33 cm</div></div>
 
-<h3>ପ୍ରମାଣ — Step by Step</h3>
-<div class="proof">
-<div class="step"><div class="num">1</div><div>TA ଓ TB ଯୋଗ କର।</div></div>
-<div class="step"><div class="num">2</div><div>Tangent–Chord theorem ରୁ m∠PTA = m∠TBA।</div></div>
-<div class="step"><div class="num">3</div><div>∠TPA = ∠TPB — ସାଧାରଣ କୋଣ।</div></div>
-<div class="step"><div class="num">4</div><div>ତେଣୁ △PTA ~ △PBT (AA ସାଦୃଶ୍ୟ)।</div></div>
-<div class="step"><div class="num">5</div><div>ସାଦୃଶ୍ୟରୁ PA/PT = PT/PB।</div></div>
-<div class="step"><div class="num">6</div><div>Cross multiplication: PA × PB = PT × PT।</div></div>
-<div class="final">∴ PA × PB = PT² — ପ୍ରମାଣିତ।</div>
-</div>
-<div class="formula">ଦୁଇ Secant ପାଇଁ: PA × PB = PC × PD</div>
-</div>
+<h2>13. Solved Example — Transverse Common Tangent</h2><div class="card"><p><b>Given:</b> d=20 cm, r₁=7 cm, r₂=5 cm। Source Exercise 5। </p><div class="f">PQ²=d²−(r₁+r₂)²</div><div class="step"><span class="n">1</span><span>r₁+r₂=7+5=12 cm.</span></div><div class="step"><span class="n">2</span><span>PQ²=20²−12²=400−144=256.</span></div><div class="step"><span class="n">3</span><span>PQ=√256=16 cm.</span></div><div class="final">ଉତ୍ତର: PQ = 16 cm</div></div>
 
-<h2>୮. Solved Example — Radius ଓ OP ଦିଆଯାଇଛି</h2>
-<div class="card">
-<p><b>Question:</b> ଏକ ବୃତ୍ତର ବ୍ୟାସାର୍ଦ୍ଧ ୮ cm ଏବଂ PO = ୧୭ cm। P ରୁ ବୃତ୍ତ ପ୍ରତି ଅଙ୍କିତ tangent PT ର ଦୈର୍ଘ୍ୟ ନିର୍ଣ୍ଣୟ କର। </p>
-<p><b>Given:</b> r = 8 cm, PO = 17 cm</p>
-<p><b>To Find:</b> PT</p>
-<p><b>Method:</b> △OPT ସମକୋଣୀ, କାରଣ OT ⟂ PT।</p>
-<div class="formula">PO² = PT² + OT²</div>
-<div class="step"><div class="num">1</div><div>OT = r = 8 cm।</div></div>
-<div class="step"><div class="num">2</div><div>17² = PT² + 8²</div></div>
-<div class="step"><div class="num">3</div><div>289 = PT² + 64</div></div>
-<div class="step"><div class="num">4</div><div>PT² = 289 − 64 = 225</div></div>
-<div class="step"><div class="num">5</div><div>PT = √225 = 15 cm</div></div>
-<div class="final">ଉତ୍ତର: PT = 15 cm</div>
-<div class="meaning"><b>Verification:</b> 15² + 8² = 225 + 64 = 289 = 17²।</div>
-</div>
+<h2>14. ଦୁଇ ସ୍ପର୍ଶକ ବୃତ୍ତ</h2><div class="card"><div class="f">O₁, P, O₂ ଏକ ସରଳରେଖାରେ</div><p>ଦୁଇ tangent circles ର centres ଓ point of contact collinear। </p>
+<div class="grid"><div class="card"><b>Externally tangent</b><div class="f">d=r₁+r₂</div></div><div class="card"><b>Internally tangent</b><div class="f">d=|r₁−r₂|</div></div></div></div>
 
-<h2>୯. Solved Example — Two Secants</h2>
-<div class="card">
-<p><b>Question:</b> PA = 10 cm, PB = 16 cm, PD = 20 cm। P-A-B ଏବଂ P-C-D ଦୁଇଟି secant। CD ନିର୍ଣ୍ଣୟ କର। </p>
-<p><b>Given:</b> PA = 10 cm, PB = 16 cm, PD = 20 cm</p>
-<p><b>To Find:</b> CD</p>
-<div class="formula">PA × PB = PC × PD</div>
-<div class="step"><div class="num">1</div><div>10 × 16 = PC × 20</div></div>
-<div class="step"><div class="num">2</div><div>160 = 20PC</div></div>
-<div class="step"><div class="num">3</div><div>PC = 160 ÷ 20 = 8 cm</div></div>
-<div class="step"><div class="num">4</div><div>PD = PC + CD</div></div>
-<div class="step"><div class="num">5</div><div>20 = 8 + CD</div></div>
-<div class="step"><div class="num">6</div><div>CD = 20 − 8 = 12 cm</div></div>
-<div class="final">ଉତ୍ତର: CD = 12 cm</div>
-<div class="meaning"><b>Verification:</b> 10 × 16 = 8 × 20 = 160।</div>
-</div>
+<h2>15. Intersecting Circles — Radical Axis</h2><div class="card"><p>ଦୁଇ ବୃତ୍ତ P,Q ରେ ଛେଦ କଲେ PQ common chord; ଏହାକୁ radical axis ମଧ୍ୟ କୁହାଯାଏ। Radical axis ଉପରେ ଥିବା ବିନ୍ଦୁରୁ ଦୁଇ ବୃତ୍ତ ପ୍ରତି tangent segments ସମାନ। fileciteturn57file1L63-L78</p></div>
 
-<h2>୧୦. Solved Example — PA ଓ AB ରୁ Tangent</h2>
-<div class="card">
-<p><b>Given:</b> PA = 8 cm, AB = 10 cm। <b>To Find:</b> PT। Source Exercise 6(iii)। </p>
-<div class="step"><div class="num">1</div><div>PB = PA + AB = 8 + 10 = 18 cm।</div></div>
-<div class="step"><div class="num">2</div><div>PT² = PA × PB = 8 × 18 = 144।</div></div>
-<div class="step"><div class="num">3</div><div>PT = √144 = 12 cm।</div></div>
-<div class="final">ଉତ୍ତର: PT = 12 cm</div>
-<div class="meaning"><b>Verification:</b> 12² = 144 = 8 × 18।</div>
-</div>
+<h2>16. Incircle Application — Solved Example</h2><div class="card"><p><b>Question:</b> △ABC ର incircle AB, BC, CA କୁ P,Q,R ରେ touch କରେ। BQ=8 cm, CQ=6 cm, perimeter=36 cm। AB ଓ AC ନିର୍ଣ୍ଣୟ କର। Source Exercise 29। fileciteturn61file0L273-L296</p>
+<p><b>Given:</b> BQ=8, CQ=6, perimeter=36। <b>To Find:</b> AB, AC।</p>
+<div class="step"><span class="n">1</span><span>BP=BQ=8 cm।</span></div><div class="step"><span class="n">2</span><span>CR=CQ=6 cm।</span></div><div class="step"><span class="n">3</span><span>AP=AR=x cm।</span></div><div class="step"><span class="n">4</span><span>AB=x+8, AC=x+6, BC=8+6=14.</span></div><div class="step"><span class="n">5</span><span>(x+8)+(x+6)+14=36</span></div><div class="step"><span class="n">6</span><span>2x+28=36 ⇒ 2x=8 ⇒ x=4.</span></div><div class="step"><span class="n">7</span><span>AB=4+8=12 cm; AC=4+6=10 cm.</span></div><div class="final">ଉତ୍ତର: AB = 12 cm, AC = 10 cm</div><div class="note">Verification: 12+10+14=36 cm।</div></div>
 
-<h2>୧୧. Common Tangents — ସାଧାରଣ ସ୍ପର୍ଶକ</h2>
-<div class="card">
-<p>ଦୁଇଟି ବୃତ୍ତକୁ ଏକେ ସରଳରେଖା ସ୍ପର୍ଶ କଲେ ସେହି ସରଳରେଖାକୁ ଦୁଇ ବୃତ୍ତର <b>ସାଧାରଣ ସ୍ପର୍ଶକ</b> କୁହାଯାଏ। </p>
-<div class="grid">
-<div class="card"><b>Direct Common Tangent</b><div class="formula">L² = d² − (r₁ − r₂)²</div><p>ଏଠାରେ radii ର <b>ପାର୍ଥକ୍ୟ</b> ନିଆଯାଏ।</p></div>
-<div class="card"><b>Transverse Common Tangent</b><div class="formula">L² = d² − (r₁ + r₂)²</div><p>ଏଠାରେ radii ର <b>ଯୋଗଫଳ</b> ନିଆଯାଏ।</p></div>
-</div>
-<div class="meaning"><b>ମନେ ରଖ:</b> Direct → Difference; Transverse → Sum।</div>
-</div>
+<h2>⚠️ Common Mistakes</h2><div class="grid"><div class="card warn">PT²=PA×PB ରେ PB ସମ୍ପୂର୍ଣ୍ଣ secant length।</div><div class="card warn">P-A-B ହେଲେ PB=PA+AB।</div><div class="card warn">Direct tangent: r₁−r₂।</div><div class="card warn">Transverse tangent: r₁+r₂।</div><div class="card warn">Radius–tangent angle = 90°।</div><div class="card warn">Proof ରେ theorem → similarity/congruence → conclusion କ୍ରମ ରଖ।</div></div>
 
-<h2>୧୨. Solved Example — Direct Common Tangent</h2>
-<div class="card">
-<p><b>Given:</b> r₁ = 4.5 cm, r₂ = 12.5 cm, d = 20 cm। <b>To Find:</b> PQ। Source Exercise 4। </p>
-<div class="formula">PQ² = d² − (r₂ − r₁)²</div>
-<div class="step"><div class="num">1</div><div>r₂ − r₁ = 12.5 − 4.5 = 8 cm।</div></div>
-<div class="step"><div class="num">2</div><div>PQ² = 20² − 8² = 400 − 64 = 336।</div></div>
-<div class="step"><div class="num">3</div><div>PQ = √336 = 4√21 cm ≈ 18.33 cm।</div></div>
-<div class="final">ଉତ୍ତର: PQ = 4√21 cm ≈ 18.33 cm</div>
-</div>
+<h2>📚 Source Exercise Focus</h2><div class="card"><p>PDF ର Exercise ରେ concept fill-ups, statement correction ଏବଂ numerical/proof problems ରହିଛି। ପ୍ରଶ୍ନ 3–7 ରେ tangent length, common tangent ଓ secant products ଉପରେ numerical applications ଅଛି; 8–9 proof-based ଏବଂ ପରେ 10–32 advanced proof problems ଅଛି। fileciteturn61file0L43-L72 fileciteturn61file0L74-L112 fileciteturn61file0L234-L296</p></div>
 
-<h2>୧୩. Solved Example — Transverse Common Tangent</h2>
-<div class="card">
-<p><b>Given:</b> d = 20 cm, r₁ = 7 cm, r₂ = 5 cm। <b>To Find:</b> PQ। Source Exercise 5। </p>
-<div class="formula">PQ² = d² − (r₁ + r₂)²</div>
-<div class="step"><div class="num">1</div><div>r₁ + r₂ = 7 + 5 = 12 cm।</div></div>
-<div class="step"><div class="num">2</div><div>PQ² = 20² − 12² = 400 − 144 = 256।</div></div>
-<div class="step"><div class="num">3</div><div>PQ = √256 = 16 cm।</div></div>
-<div class="final">ଉତ୍ତର: PQ = 16 cm</div>
-<div class="meaning"><b>Verification:</b> 16² + 12² = 256 + 144 = 400 = 20²।</div>
-</div>
+<h2>🎯 Very Short Questions</h2><div class="card"><ol><li>ସ୍ପର୍ଶକ କ’ଣ?</li><li>ସ୍ପର୍ଶବିନ୍ଦୁ କ’ଣ?</li><li>ଛେଦକ କ’ଣ?</li><li>Radius ଓ tangent ମଧ୍ୟରେ କୋଣ କେତେ?</li><li>ଦୁଇ tangent segments ର ସମ୍ପର୍କ କ’ଣ?</li><li>PT² = ?</li><li>ଦୁଇ secants ର product relation ଲେଖ।</li><li>Direct common tangent ର formula ଲେଖ।</li><li>Transverse common tangent ର formula ଲେଖ।</li></ol></div>
 
-<h2>୧୪. ଦୁଇଟି ସ୍ପର୍ଶକ ବୃତ୍ତ</h2>
-<div class="card">
-<div class="formula">O₁, P, O₂ — ଏକ ସରଳରେଖାରେ</div>
-<p>ଦୁଇଟି tangent circles ର କେନ୍ଦ୍ର ଏବଂ ସ୍ପର୍ଶବିନ୍ଦୁ ଏକେ ସରଳରେଖାରେ ଅବସ୍ଥିତ। </p>
-<div class="grid">
-<div class="card"><b>ବାହ୍ୟ ସ୍ପର୍ଶ</b><div class="formula">d = r₁ + r₂</div></div>
-<div class="card"><b>ଅନ୍ତଃ ସ୍ପର୍ଶ</b><div class="formula">d = |r₁ − r₂|</div></div>
-</div>
-</div>
+<h2>📝 Short Questions</h2><div class="card"><ol><li>ଉପପାଦ୍ୟ–12 ପ୍ରମାଣ କର।</li><li>ଉପପାଦ୍ୟ–13 ପ୍ରମାଣ କର।</li><li>Tangent–Chord theorem ବୁଝାଅ।</li><li>ତାହାର converse ଲେଖ।</li><li>PT²=PA×PB ପ୍ରମାଣ କର।</li><li>Direct ଓ transverse common tangent ର ପାର୍ଥକ୍ୟ ଲେଖ।</li></ol></div>
 
-<h2>୧୫. Intersecting Circles — Radical Axis</h2>
-<div class="card">
-<p>ଦୁଇ ବୃତ୍ତ P ଓ Q ରେ ଛେଦ କଲେ PQ ସେମାନଙ୍କ common chord। ଏହି ରେଖାକୁ radical axis ଭାବେ ମଧ୍ୟ ବ୍ୟବହାର କରାଯାଏ। ଏହା ଉପରେ ଥିବା ବିନ୍ଦୁରୁ ଦୁଇ ବୃତ୍ତ ପ୍ରତି ଅଙ୍କିତ tangent segments ସମାନ। </p>
-</div>
+<h2>📐 Long / Problem-Solving</h2><div class="card"><ol><li>Radius 8 cm ଓ PO=17 cm ଥିଲେ tangent length ନିର୍ଣ୍ଣୟ କର।</li><li>PA=10, PB=16, PD=20 cm ଥିଲେ CD ନିର୍ଣ୍ଣୟ କର।</li><li>PA=8, AB=10 cm ଥିଲେ PT ନିର୍ଣ୍ଣୟ କର।</li><li>PT=2AP, AB=18 cm ଥିଲେ PT ନିର୍ଣ୍ଣୟ କର।</li><li>ଦୁଇ common tangent ର length ନିର୍ଣ୍ଣୟ କର।</li><li>Incircle ର tangent-length property ବ୍ୟବହାର କରି triangle sides ନିର୍ଣ୍ଣୟ କର।</li></ol></div>
 
-<h2>୧୬. Incircle Application — Solved Example</h2>
-<div class="card">
-<p><b>Question:</b> △ABC ର incircle, AB, BC ଓ CA କୁ P, Q ଓ R ରେ ସ୍ପର୍ଶ କରେ। BQ = 8 cm, CQ = 6 cm ଏବଂ △ABC ର ପରିସୀମା 36 cm। AB ଓ AC ନିର୍ଣ୍ଣୟ କର। </p>
-<p><b>Given:</b> BQ = 8 cm, CQ = 6 cm, perimeter = 36 cm</p>
-<p><b>To Find:</b> AB, AC</p>
-<div class="step"><div class="num">1</div><div>ଏକେ ବାହ୍ୟ ବିନ୍ଦୁରୁ tangent segments ସମାନ। ତେଣୁ BP = BQ = 8 cm।</div></div>
-<div class="step"><div class="num">2</div><div>CR = CQ = 6 cm।</div></div>
-<div class="step"><div class="num">3</div><div>AP = AR = x cm ଧର।</div></div>
-<div class="step"><div class="num">4</div><div>AB = x + 8, AC = x + 6, BC = 8 + 6 = 14 cm।</div></div>
-<div class="step"><div class="num">5</div><div>ପରିସୀମା: (x + 8) + (x + 6) + 14 = 36।</div></div>
-<div class="step"><div class="num">6</div><div>2x + 28 = 36 ⇒ 2x = 8 ⇒ x = 4।</div></div>
-<div class="step"><div class="num">7</div><div>AB = 4 + 8 = 12 cm।</div></div>
-<div class="step"><div class="num">8</div><div>AC = 4 + 6 = 10 cm।</div></div>
-<div class="final">ଉତ୍ତର: AB = 12 cm, AC = 10 cm</div>
-<div class="meaning"><b>Verification:</b> 12 + 10 + 14 = 36 cm।</div>
-</div>
+<div class="rev"><h2 style="color:white">⚡ Final Formula Revision</h2>
+<div class="grid"><div class="card"><b>Radius–Tangent</b><div class="f">OP ⟂ tangent</div></div><div class="card"><b>Two Tangents</b><div class="f">PQ=PR</div></div><div class="card"><b>Tangent–Secant</b><div class="f">PT²=PA×PB</div></div><div class="card"><b>Two Secants</b><div class="f">PA×PB=PC×PD</div></div><div class="card"><b>Direct Common Tangent</b><div class="f">L²=d²−(r₁−r₂)²</div></div><div class="card"><b>Transverse Common Tangent</b><div class="f">L²=d²−(r₁+r₂)²</div></div><div class="card"><b>External Tangency</b><div class="f">d=r₁+r₂</div></div><div class="card"><b>Internal Tangency</b><div class="f">d=|r₁−r₂|</div></div></div>
+<p><b>Exam Golden Flow:</b> ଚିତ୍ର ପଢ଼ → Given → To Find → Theorem/Formula → Step 1 → Step 2 → Step 3 → Final Answer → Verification.</p></div>
 
-<h2>⚠️ Common Calculation Mistakes</h2>
-<div class="grid">
-<div class="card warning"><b>୧.</b> ସ୍ପର୍ଶବିନ୍ଦୁରେ radius ଓ tangent ମଧ୍ୟରେ ୯୦° ହୁଏ।</div>
-<div class="card warning"><b>୨.</b> PT² = PA × PB ରେ PB ହେଉଛି ସମ୍ପୂର୍ଣ୍ଣ secant length।</div>
-<div class="card warning"><b>୩.</b> P-A-B ହେଲେ PB = PA + AB।</div>
-<div class="card warning"><b>୪.</b> Direct common tangent → (r₁ − r₂)।</div>
-<div class="card warning"><b>୫.</b> Transverse common tangent → (r₁ + r₂)।</div>
-<div class="card warning"><b>୬.</b> Square root ନେବା ପରେ length ର positive value ନିଅ।</div>
-</div>
-
-<h2>🎯 ପରୀକ୍ଷାମୁଖୀ Very Short Questions</h2>
-<div class="card">
-<ol>
-<li>ସ୍ପର୍ଶକ କ’ଣ?</li>
-<li>ସ୍ପର୍ଶବିନ୍ଦୁ କ’ଣ?</li>
-<li>ଛେଦକ କ’ଣ?</li>
-<li>ସ୍ପର୍ଶବିନ୍ଦୁରେ radius ଓ tangent ମଧ୍ୟରେ କୋଣ କେତେ?</li>
-<li>ଦୁଇ tangent segments ର ସମ୍ପର୍କ କ’ଣ?</li>
-<li>PT² = କ’ଣ?</li>
-<li>ଦୁଇ secants ପାଇଁ product relation ଲେଖ।</li>
-<li>Direct common tangent ର formula ଲେଖ।</li>
-<li>Transverse common tangent ର formula ଲେଖ।</li>
-</ol>
-</div>
-
-<h2>📝 Short Questions</h2>
-<div class="card">
-<ol>
-<li>ଉପପାଦ୍ୟ–୧୨ ର କଥନ ଓ ପ୍ରମାଣ ଲେଖ।</li>
-<li>ଉପପାଦ୍ୟ–୧୩ ପ୍ରମାଣ କର।</li>
-<li>Tangent–Chord theorem ବୁଝାଅ।</li>
-<li>Tangent–Chord theorem ର converse ଲେଖ।</li>
-<li>PT² = PA × PB ପ୍ରମାଣ କର।</li>
-<li>Direct ଓ Transverse common tangent ମଧ୍ୟରେ ପାର୍ଥକ୍ୟ ଲେଖ।</li>
-</ol>
-</div>
-
-<h2>📐 Long / Problem-Solving Questions</h2>
-<div class="card">
-<ol>
-<li>ଉପପାଦ୍ୟ–୧୨ ପ୍ରମାଣ କର।</li>
-<li>ଉପପାଦ୍ୟ–୧୨ ର converse ପ୍ରମାଣ କର।</li>
-<li>ଉପପାଦ୍ୟ–୧୩ ପ୍ରମାଣ କର।</li>
-<li>ଉପପାଦ୍ୟ–୧୪ ପ୍ରମାଣ କର।</li>
-<li>ଦୁଇ secant ର length ଦିଆଥିଲେ ଅଜଣା length ନିର୍ଣ୍ଣୟ କର।</li>
-<li>Direct/Transverse common tangent ର length ନିର୍ଣ୍ଣୟ କର।</li>
-<li>Incircle ର tangent-length property ବ୍ୟବହାର କରି triangle sides ନିର୍ଣ୍ଣୟ କର।</li>
-</ol>
-</div>
-
-<section class="revision">
-<h2>Final Formula Revision</h2>
-<div class="grid">
-<div class="card"><b>Radius–Tangent</b><div class="formula">OP ⟂ Tangent</div></div>
-<div class="card"><b>Two Tangents</b><div class="formula">PQ = PR</div></div>
-<div class="card"><b>Tangent–Secant</b><div class="formula">PT² = PA × PB</div></div>
-<div class="card"><b>Two Secants</b><div class="formula">PA × PB = PC × PD</div></div>
-<div class="card"><b>Direct Common Tangent</b><div class="formula">L² = d² − (r₁ − r₂)²</div></div>
-<div class="card"><b>Transverse Common Tangent</b><div class="formula">L² = d² − (r₁ + r₂)²</div></div>
-<div class="card"><b>External Tangency</b><div class="formula">d = r₁ + r₂</div></div>
-<div class="card"><b>Internal Tangency</b><div class="formula">d = |r₁ − r₂|</div></div>
-</div>
-<p><b>Exam Golden Flow:</b> ଚିତ୍ର ପଢ଼ → Given → To Find → Formula/Theorem → Step 1 → Step 2 → Step 3 → Final Answer → Verification</p>
-</section>
-
-<p class="small">
-ଆଧାର: ଅପଲୋଡ୍ କରାଯାଇଥିବା <b>math.tangant-3.pdf</b>। ଏହି lecture ରେ Odia Unicode ର ସ୍ପଷ୍ଟ rendering ପାଇଁ Noto Sans Odia font stack ବ୍ୟବହାର କରାଯାଇଛି।
-</p>
-
-</div>
-</body>
-</html>
+<p class="small"></p>
+</div></body></html>
