@@ -1,1 +1,201 @@
 
+from pathlib import Path
+
+out = Path("/mnt/data/enterprise_development_premium_visual_lecture.html")
+
+html = r'''<!DOCTYPE html>
+<html lang="or">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ଉଦ୍ୟମ ବିକାଶ | Enterprise Development | Premium Visual Lecture</title>
+<style>
+:root{
+ --ink:#14233b;--navy:#10213f;--blue:#2e5f9f;--sky:#eaf3ff;--teal:#11776d;
+ --mint:#e4f7f1;--gold:#d99a2b;--goldbg:#fff4dc;--red:#b95348;--redbg:#ffece9;
+ --paper:#f7f5ef;--card:#ffffff;--line:#e5dfd2;--muted:#627085;
+ --shadow:0 14px 32px rgba(18,35,59,.09)
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans Oriya","Nirmala UI",Arial,sans-serif;line-height:1.68}
+.hero{background:
+ radial-gradient(circle at 85% 10%,rgba(255,255,255,.13),transparent 25%),
+ radial-gradient(circle at 12% 0%,rgba(217,154,43,.25),transparent 22%),
+ linear-gradient(135deg,#0f1d36,#234b80 58%,#0b7068);
+ color:#fff;padding:58px 20px 50px;border-bottom:7px solid var(--gold)}
+.heroin,.wrap{max-width:1100px;margin:auto}.tag{display:inline-block;padding:6px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.08);font-size:12px;letter-spacing:.08em}
+h1{font-size:48px;line-height:1.12;margin:17px 0 6px}.eng{font-size:22px;color:#ffe2a6}.lead{max-width:850px;color:#dce9fb;font-size:17px}
+.wrap{padding:0 20px 80px}.path{margin:24px 0;background:var(--goldbg);border:1px solid #efd49c;border-radius:18px;padding:15px 18px;color:#75511a;font-weight:700}
+.sec{display:flex;align-items:center;gap:12px;font-size:30px;color:var(--navy);margin:52px 0 18px}.num{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:var(--navy);color:#ffe0a3;font-size:13px;flex:0 0 auto}
+.teacher{display:flex;gap:14px;background:var(--mint);border:1px solid #bde3d8;border-radius:19px;padding:16px 18px;margin:18px 0}.face{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--teal);color:#fff;font-size:23px;flex:0 0 auto}
+.box{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px;margin:18px 0;box-shadow:0 5px 18px rgba(18,35,59,.04)}
+.def{background:linear-gradient(135deg,#132542,#2d548c);color:#fff;border-radius:22px;padding:22px 24px;box-shadow:var(--shadow);margin:18px 0}.label{font-size:12px;font-weight:800;letter-spacing:.08em;color:#ffe0a3}
+.flow{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:9px}.node{min-width:145px;max-width:220px;text-align:center;padding:13px 15px;border-radius:15px;border:1px solid #c9dbf5;background:var(--sky);font-weight:800}.node.teal{background:var(--mint);border-color:#b5e0d5}.node.gold{background:var(--goldbg);border-color:#efd39b}.node.dark{background:var(--navy);border-color:var(--navy);color:#fff}.arrow{font-size:25px;color:var(--gold);font-weight:900}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:15px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:17px;box-shadow:0 5px 15px rgba(18,35,59,.035)}.ico{font-size:28px}.card h3{margin:7px 0;color:var(--navy);font-size:18px}.card p{margin:0;color:#4d596a}
+.branch{text-align:center;padding:18px}.branchtop{display:inline-block;background:var(--navy);color:#fff;padding:12px 22px;border-radius:14px;font-weight:800}.branches{display:flex;flex-wrap:wrap;justify-content:center;gap:11px;margin-top:17px}.branchitem{padding:11px 14px;background:var(--mint);border:1px solid #b8e1d6;border-radius:14px;font-weight:700}
+.compare{display:grid;grid-template-columns:1fr 62px 1fr;align-items:stretch}.side{padding:19px;border-radius:18px;background:var(--sky);border:1px solid #c8daf4}.side.alt{background:var(--goldbg);border-color:#efd39b}.vs{display:grid;place-items:center;color:var(--gold);font-size:20px;font-weight:900}
+.steps{display:grid;gap:10px}.step{display:grid;grid-template-columns:50px 1fr;gap:13px;align-items:center;padding:13px;border:1px solid var(--line);border-radius:16px;background:#fff}.sn{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:#ffe2a5;font-weight:900;margin:auto}
+.callout{background:var(--goldbg);border:1px dashed var(--gold);border-radius:16px;padding:14px 17px;margin:16px 0}.callout b{color:#875d0d}
+.pills{display:flex;flex-wrap:wrap;gap:9px}.pill{padding:8px 12px;border-radius:999px;background:var(--sky);border:1px solid #c9daf3;font-weight:700;font-size:14px}
+.dark{margin-top:48px;background:linear-gradient(145deg,#101a31,#1d3b69);color:#fff;border-radius:26px;padding:28px}.dark h2{margin:0 0 16px;color:#ffe0a4}.revgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.rev{padding:15px;border-radius:16px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.11)}.rev h3{font-size:16px;margin:0 0 8px;color:#ffe0a4}.rev ul{margin:0;padding-left:20px}
+.qgroup{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;margin:13px 0}.qgroup h3{color:var(--teal);margin:0 0 8px}.qgroup ol{margin:0;padding-left:25px}.qgroup li{margin:7px 0}
+footer{text-align:center;color:#8c8579;font-size:13px;padding-top:35px}
+@media(max-width:680px){h1{font-size:36px}.wrap{padding:0 14px 60px}.sec{font-size:24px}.compare{grid-template-columns:1fr}.vs{height:44px}.arrow{transform:rotate(90deg)}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="heroin">
+<div class="tag">ODISHA • CLASS 10 • ENTERPRISE DEVELOPMENT • VISUAL CLASSROOM</div>
+<h1>ଉଦ୍ୟମ ବିକାଶ</h1>
+<div class="eng">Enterprise Development</div>
+<p class="lead">Entrepreneurship, entrepreneurial characteristics, economic development, competencies, motivation, enterprise set-up, Startup India ଏବଂ startup funding ଧାରଣାଗୁଡ଼ିକୁ ସହଜ ଓଡ଼ିଆରେ visual flow, concept map, comparison ଓ exam revision ମାଧ୍ୟମରେ ବୁଝିବା।</p>
+</div></header>
+
+<main class="wrap">
+<div class="path">🎯 ଶିକ୍ଷଣ ପଥ: <b>Enterprise → Entrepreneurship → Characteristics → Economic Role → Competencies → Motivation → EDP → Enterprise Set-up → Startup India → Funding → Revision</b></div>
+
+<h2 class="sec"><span class="num">01</span> ଉଦ୍ୟମ ଓ ଉଦ୍ୟମିତା</h2>
+<div class="teacher"><div class="face">👨‍🏫</div><div>ପ୍ରଥମେ ମୂଳ ଧାରଣାକୁ ବୁଝିବା। ଏହି chapter ର କେନ୍ଦ୍ରବିନ୍ଦୁ ହେଉଛି <b>Enterprise Development</b> ଏବଂ <b>Entrepreneurship</b>। ପରବର୍ତ୍ତୀ ସମସ୍ତ topic—characteristics, competencies, motivation ଓ enterprise set-up—ଏହି ମୂଳ ଧାରଣା ସହ ଯୋଡ଼ିତ।</div></div>
+<div class="def"><div class="label">① ମୁଖ୍ୟ ଧାରଣା / CORE IDEA</div><div style="font-size:19px;margin-top:7px">Enterprise Development → Entrepreneurship → Entrepreneurial qualities → Economic contribution → Enterprise creation and growth</div></div>
+<div class="box"><div class="flow"><div class="node dark">Enterprise Development</div><div class="arrow">→</div><div class="node">Entrepreneurship</div><div class="arrow">→</div><div class="node teal">Entrepreneurial Competencies</div><div class="arrow">→</div><div class="node gold">Enterprise Set-up</div></div></div>
+
+<h2 class="sec"><span class="num">02</span> ଉଦ୍ୟମିତାର ବୈଶିଷ୍ଟ୍ୟ (Characteristics of Entrepreneurship)</h2>
+<div class="teacher"><div class="face">💡</div><div>ଏହାକୁ ସହଜରେ ଏଭଳି ବୁଝନ୍ତୁ—ଉଦ୍ୟମିତା କେବଳ business ଆରମ୍ଭ କରିବା ନୁହେଁ; ଏଥିରେ ଉଦ୍ୟମୀଙ୍କ ଦୃଷ୍ଟିଭଙ୍ଗୀ, କାର୍ଯ୍ୟଧାରା ଓ କ୍ଷମତା ମଧ୍ୟ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ। ପାଠରେ ଏହି ଗୁଣଗୁଡ଼ିକୁ ପରବର୍ତ୍ତୀ competencies ଓ values ସହ ଯୋଡ଼ାଯାଇଛି।</div></div>
+<div class="branch"><div class="branchtop">Entrepreneurship</div><div class="branches">
+<div class="branchitem">💡 Initiative</div><div class="branchitem">🎯 Opportunity</div><div class="branchitem">🔄 Persistence</div><div class="branchitem">📚 Information Seeking</div><div class="branchitem">📋 Planning</div><div class="branchitem">🧩 Problem-solving</div></div></div>
+<div class="callout"><b>🎯 Exam Point:</b> “Characteristics”, “Competencies” ଓ “Values and Attitudes” କୁ ଅଲଗା heading ଭାବେ ମନେ ରଖନ୍ତୁ।</div>
+
+<h2 class="sec"><span class="num">03</span> ଆର୍ଥିକ ବିକାଶରେ ଉଦ୍ୟମୀଙ୍କ ଭୂମିକା</h2>
+<div class="teacher"><div class="face">📈</div><div>ଏବେ ଆମେ ପରବର୍ତ୍ତୀ topic କୁ ଯିବା। ପାଠରେ entrepreneur ଙ୍କ ଭୂମିକାକୁ Economic Development ସହ ସିଧାସଳଖ ଭାବରେ ଯୋଡ଼ାଯାଇଛି।</div></div>
+<div class="box"><div class="flow"><div class="node dark">Entrepreneur</div><div class="arrow">→</div><div class="node">Economic Activities</div><div class="arrow">→</div><div class="node teal">Growth & Development</div></div></div>
+<div class="grid">
+<div class="card"><div class="ico">📊</div><h3>Contribution to GDP</h3><p>ପାଠରେ ଉଦ୍ୟମୀଙ୍କ ଆର୍ଥିକ କାର୍ଯ୍ୟକଳାପ ଓ GDP contribution ର ସମ୍ପର୍କ ଉଲ୍ଲେଖ ହୋଇଛି।</p></div>
+<div class="card"><div class="ico">🏗️</div><h3>Capital Formation</h3><p>Capital formation କୁ ଉଦ୍ୟମୀଙ୍କ ଆର୍ଥିକ ଭୂମିକାର ଏକ ପ୍ରମୁଖ ଅଂଶ ଭାବେ ରଖାଯାଇଛି।</p></div>
+<div class="card"><div class="ico">👷</div><h3>Generation of Employment</h3><p>ଉଦ୍ୟମୀ କାର୍ଯ୍ୟକଳାପ ନୂତନ employment generation ସହ ଯୋଡ଼ିତ।</p></div>
+<div class="card"><div class="ico">🚀</div><h3>Business Opportunities</h3><p>ପାଠରେ ଅନ୍ୟମାନଙ୍କ ପାଇଁ ମଧ୍ୟ business opportunities ସୃଷ୍ଟି ହେବାର ଧାରଣା ରହିଛି।</p></div>
+<div class="card"><div class="ico">🌐</div><h3>Increasing Scope</h3><p>Economic activities ର spectrum ଓ scope ବୃଦ୍ଧି ସହ entrepreneurship ର ସମ୍ପର୍କ ଦିଆଯାଇଛି।</p></div>
+<div class="card"><div class="ico">🏘️</div><h3>Impact on Local Communities</h3><p>Local communities ଉପରେ enterprise ଓ entrepreneurship ର ପ୍ରଭାବକୁ ମଧ୍ୟ ପାଠରେ ଆଲୋଚନା କରାଯାଇଛି।</p></div>
+</div>
+
+<h2 class="sec"><span class="num">04</span> Exploration, Experimentation ଓ Entrepreneurial Ecosystem</h2>
+<div class="box"><div class="flow"><div class="node">🔍 Exploration</div><div class="arrow">→</div><div class="node teal">🧪 Experimentation</div><div class="arrow">→</div><div class="node gold">⚡ Daring</div><div class="arrow">→</div><div class="node dark">Innovation</div></div></div>
+<div class="teacher"><div class="face">🧠</div><div>ଏହି point ଟି ମନେ ରଖନ୍ତୁ—ପାଠରେ <b>Fostering Exploration, Experimentation and Daring</b> କୁ entrepreneurship ସହ ଯୋଡ଼ାଯାଇଛି। ଏହା ନୂଆ ସମ୍ଭାବନା ଖୋଜିବା, ପରୀକ୍ଷା କରିବା ଓ ସାହସୀ ଭାବେ ଆଗକୁ ବଢ଼ିବାର visual sequence ଭାବେ ମନେ ରଖିପାରିବେ।</div></div>
+<div class="box"><div class="branch"><div class="branchtop">Entrepreneurial Ecosystem</div><div class="branches"><div class="branchitem">Entrepreneurship Clusters in India</div><div class="branchitem">Institutions</div><div class="branchitem">EDP</div><div class="branchitem">Start-up Support</div></div></div></div>
+
+<h2 class="sec"><span class="num">05</span> ଉଦ୍ୟମୀ ଦକ୍ଷତା (Entrepreneurial Competencies)</h2>
+<div class="teacher"><div class="face">🧩</div><div>ଏହି chapter ର ଅତ୍ୟନ୍ତ important exam area ହେଉଛି competencies। ପାଠରେ ବହୁତ ନିର୍ଦ୍ଦିଷ୍ଟ competency ନାମ ଦିଆଯାଇଛି। ସେଗୁଡ଼ିକୁ ଗୋଷ୍ଠୀଭିତ୍ତିକ ଭାବରେ ମନେ ରଖିବା ସହଜ।</div></div>
+<div class="grid">
+<div class="card"><div class="ico">🚦</div><h3>Initiative</h3><p>କାମ ଆରମ୍ଭ କରିବା ଓ ପଦକ୍ଷେପ ନେବା ସହ ଜଡିତ competency।</p></div>
+<div class="card"><div class="ico">👁️</div><h3>Sees and Acts on Opportunities</h3><p>ସୁଯୋଗକୁ ଚିହ୍ନଟ କରି ତାହା ଉପରେ କାର୍ଯ୍ୟ କରିବା।</p></div>
+<div class="card"><div class="ico">🔁</div><h3>Persistence</h3><p>ନିରନ୍ତରତା ଓ ଲଗାତାର ଚେଷ୍ଟାର competency।</p></div>
+<div class="card"><div class="ico">🔎</div><h3>Information Seeking</h3><p>ଆବଶ୍ୟକ ସୂଚନା ଖୋଜିବା ସହ ସମ୍ବନ୍ଧିତ।</p></div>
+<div class="card"><div class="ico">⭐</div><h3>Concern for High Quality of Work</h3><p>କାମର ଉଚ୍ଚ ଗୁଣମାନ ପ୍ରତି ଗୁରୁତ୍ୱ।</p></div>
+<div class="card"><div class="ico">🤝</div><h3>Commitment to Work Contract</h3><p>କାର୍ଯ୍ୟ ପ୍ରତି ପ୍ରତିବଦ୍ଧତା ସହ ଜଡିତ competency।</p></div>
+<div class="card"><div class="ico">⚙️</div><h3>Efficiency Orientation</h3><p>ଦକ୍ଷତା ଓ efficiency ଉପରେ ଗୁରୁତ୍ୱ।</p></div>
+<div class="card"><div class="ico">📋</div><h3>Systematic Planning</h3><p>ସୁସଂଗଠିତ ଓ ପଦ୍ଧତିଗତ planning।</p></div>
+<div class="card"><div class="ico">🧩</div><h3>Problem-solving</h3><p>ସମସ୍ୟା ଚିହ୍ନଟ ଓ ସମାଧାନ କ୍ଷମତା।</p></div>
+<div class="card"><div class="ico">💪</div><h3>Self-Confidence</h3><p>ନିଜ କ୍ଷମତା ପ୍ରତି ବିଶ୍ୱାସ।</p></div>
+<div class="card"><div class="ico">🗣️</div><h3>Assertiveness</h3><p>ନିଜ ମତ ଓ ନିଷ୍ପତ୍ତିକୁ ସ୍ପଷ୍ଟ ଭାବରେ ଉପସ୍ଥାପନ କରିବା।</p></div>
+<div class="card"><div class="ico">🧲</div><h3>Persuasion</h3><p>ଅନ୍ୟମାନଙ୍କୁ ବୁଝାଇବା ଓ ପ୍ରଭାବିତ କରିବା ସହ ଜଡିତ competency।</p></div>
+<div class="card"><div class="ico">🎯</div><h3>Use of Influence Strategies</h3><p>ପ୍ରଭାବ ସୃଷ୍ଟି କରିବା ପାଇଁ strategy ବ୍ୟବହାର।</p></div>
+<div class="card"><div class="ico">📡</div><h3>Monitoring</h3><p>କାର୍ଯ୍ୟ ଓ ପ୍ରଗତି ଉପରେ ନଜର ରଖିବା।</p></div>
+<div class="card"><div class="ico">👥</div><h3>Concern for Employee Welfare</h3><p>କର୍ମଚାରୀ କଲ୍ୟାଣ ପ୍ରତି ଗୁରୁତ୍ୱ।</p></div>
+</div>
+
+<h2 class="sec"><span class="num">06</span> Entrepreneurial Motivation</h2>
+<div class="box"><div class="flow"><div class="node dark">Motivation</div><div class="arrow">↓</div><div class="node">Need for Achievement<br>N-Ach</div><div class="node teal">Need for Autonomy<br>N-Ant</div><div class="node gold">Need for Power<br>N-Pow</div></div></div>
+<div class="teacher"><div class="face">🎯</div><div>ଏହି ତିନୋଟି term କୁ ଏକାସାଥିରେ ମନେ ରଖନ୍ତୁ: <b>N-Ach, N-Ant, N-Pow</b>। ପାଠରେ ଏଗୁଡ଼ିକୁ entrepreneurial motivation ସହ ଆଲୋଚନା କରାଯାଇଛି।</div></div>
+
+<h2 class="sec"><span class="num">07</span> Entrepreneurial Values, Attitudes ଓ KASH</h2>
+<div class="box"><div class="flow"><div class="node">K<br>Knowledge</div><div class="arrow">+</div><div class="node teal">A<br>Attitude</div><div class="arrow">+</div><div class="node gold">S<br>Skill</div><div class="arrow">+</div><div class="node dark">H<br>Habits</div></div></div>
+<div class="callout"><b>🔑 Memory Trick:</b> KASH = Knowledge + Attitude + Skill + Habits.</div>
+<div class="teacher"><div class="face">👨‍🏫</div><div>ପାଠରେ Values and Attitudes, KASH ଏବଂ behavioural choices for entrepreneurial success ମଧ୍ୟରେ ସମ୍ପର୍କ ଦିଆଯାଇଛି। ଅର୍ଥାତ୍ ଜ୍ଞାନ ସହିତ ଠିକ୍ ମନୋଭାବ, ଦକ୍ଷତା ଓ ଅଭ୍ୟାସ ମଧ୍ୟ ଉଦ୍ୟମୀ ସଫଳତାର ଅଂଶ।</div></div>
+
+<h2 class="sec"><span class="num">08</span> Behavioural Choices for Entrepreneurial Success</h2>
+<div class="teacher"><div class="face">🧭</div><div>ଏବେ ଆମେ decision-making ଦିଗକୁ ଯିବା। ପାଠରେ behavioural choices ର ବିଭିନ୍ନ dimensions ଓ behavioural alternatives ର ଉଲ୍ଲେଖ ଅଛି।</div></div>
+<div class="grid">
+<div class="card"><div class="ico">🏢</div><h3>Type of Enterprise</h3><p>କେମିତି enterprise ଚୟନ କରାଯିବ—ଏହା behavioural/business choice ର ଏକ dimension।</p></div>
+<div class="card"><div class="ico">🧾</div><h3>Business Decision</h3><p>Business ସମ୍ବନ୍ଧୀୟ decision-making।</p></div>
+<div class="card"><div class="ico">👥</div><h3>HRM</h3><p>Human Resource Management ସମ୍ବନ୍ଧୀୟ choice।</p></div>
+<div class="card"><div class="ico">📈</div><h3>Managing Growth</h3><p>Growth ର pace ଓ direction ପରିଚାଳନା ସହ ଜଡିତ।</p></div>
+<div class="card"><div class="ico">🤲</div><h3>Organising Ability</h3><p>କାର୍ଯ୍ୟ ବଣ୍ଟନ (delegation) ଓ organising ability।</p></div>
+<div class="card"><div class="ico">📣</div><h3>Marketing Management</h3><p>Market concept ଓ product planning and development ସହ ଜଡିତ।</p></div>
+<div class="card"><div class="ico">🏭</div><h3>Operations Management</h3><p>Locational decision, cost rationalisation ଓ research and development ପରି decision ଅଂଶ।</p></div>
+<div class="card"><div class="ico">⚔️</div><h3>Managing Competition</h3><p>Competition ପରିଚାଳନା ସହ ଜଡିତ behavioural/business choice।</p></div>
+<div class="card"><div class="ico">🗓️</div><h3>Planning</h3><p>Decision-making approach ଓ planning time horizon ର ଉଲ୍ଲେଖ।</p></div>
+<div class="card"><div class="ico">🧱</div><h3>Organising</h3><p>Organisation/formalisation ସହ ଜଡିତ choice।</p></div>
+<div class="card"><div class="ico">⚖️</div><h3>Ethics</h3><p>ନୈତିକତା ସମ୍ବନ୍ଧୀୟ choice।</p></div>
+<div class="card"><div class="ico">🔄</div><h3>Succession Planning</h3><p>Succession planning କୁ ପାଠରେ behavioural/business decision ଅଂଶରେ ରଖାଯାଇଛି।</p></div>
+</div>
+
+<h2 class="sec"><span class="num">09</span> Entrepreneurship Development Process ଓ EDP</h2>
+<div class="box"><div class="flow"><div class="node dark">Entrepreneurship Development</div><div class="arrow">→</div><div class="node">Motivation</div><div class="arrow">→</div><div class="node teal">Competencies</div><div class="arrow">→</div><div class="node gold">Training / Development</div><div class="arrow">→</div><div class="node dark">Enterprise</div></div></div>
+<div class="grid">
+<div class="card"><div class="ico">🏫</div><h3>EDP</h3><p>Entrepreneurship Development Programme (EDP) କୁ entrepreneurship development ର ଏକ ମୁଖ୍ୟ ଅଂଶ ଭାବେ ପାଠରେ ଉଲ୍ଲେଖ କରାଯାଇଛି।</p></div>
+<div class="card"><div class="ico">🏛️</div><h3>EDI</h3><p>Entrepreneurship Development Institute of India (EDI) ର ଉଲ୍ଲେଖ ଅଛି।</p></div>
+<div class="card"><div class="ico">🌐</div><h3>Development Institutions</h3><p>ପାଠରେ entrepreneurship development ସହ ସମ୍ବନ୍ଧିତ institution ଓ website reference ମଧ୍ୟ ଦିଆଯାଇଛି।</p></div>
+</div>
+
+<h2 class="sec"><span class="num">10</span> Enterprise Set-up ଓ Start-up Support</h2>
+<div class="teacher"><div class="face">🚀</div><div>ଏବେ ଆମେ enterprise ସୃଷ୍ଟି ଓ support system ଦିଗକୁ ଯିବା। ପାଠରେ Enterprise Set-up, Start-up India ଓ Startup India Action Plan ର ବିଭିନ୍ନ support mechanism ଦିଆଯାଇଛି।</div></div>
+<div class="box"><div class="flow"><div class="node">Idea</div><div class="arrow">→</div><div class="node teal">Enterprise Set-up</div><div class="arrow">→</div><div class="node gold">Support</div><div class="arrow">→</div><div class="node dark">Start-up Growth</div></div></div>
+<div class="grid">
+<div class="card"><div class="ico">🧾</div><h3>Simplification and Hand Holding</h3><p>Startup India Action Plan ର support element ଭାବେ ଉଲ୍ଲେଖ।</p></div>
+<div class="card"><div class="ico">🧭</div><h3>Startup India Hub</h3><p>Start-up support ecosystem ର ଏକ ଉଲ୍ଲେଖିତ ଅଂଶ।</p></div>
+<div class="card"><div class="ico">⚖️</div><h3>Legal Support & Patent Examination</h3><p>Legal support ଏବଂ fast tracking patent examination ର ଉଲ୍ଲେଖ ଅଛି।</p></div>
+<div class="card"><div class="ico">🔓</div><h3>Easy Exit</h3><p>Startup India Action Plan ର ଉଲ୍ଲେଖିତ feature।</p></div>
+<div class="card"><div class="ico">🧪</div><h3>Incubator Setup</h3><p>Private sector କୁ incubator setup ସହ ଯୋଡ଼ିଥିବା support model ର ଉଲ୍ଲେଖ।</p></div>
+<div class="card"><div class="ico">💸</div><h3>Tax Exemption</h3><p>Start-up support ଅଂଶରେ tax exemption ର ଉଲ୍ଲେଖ।</p></div>
+<div class="card"><div class="ico">©️</div><h3>IPR / SIPP</h3><p>Intellectual property protection ସମ୍ବନ୍ଧୀୟ support ଓ Startup Intellectual Property Protection (SIPP) ର ଉଲ୍ଲେଖ।</p></div>
+</div>
+
+<h2 class="sec"><span class="num">11</span> Start-up କୁ Fund କରିବାର ଉପାୟ</h2>
+<div class="box"><div class="branch"><div class="branchtop">Ways to Fund Startup</div><div class="branches">
+<div class="branchitem">Bootstrapping</div><div class="branchitem">Crowdfunding</div><div class="branchitem">Angel Investment</div><div class="branchitem">Venture Capital</div><div class="branchitem">Business Incubators & Accelerators</div><div class="branchitem">Microfinance & NBFC</div></div></div></div>
+<div class="teacher"><div class="face">💰</div><div>ଏହି list ଟି exam ପାଇଁ ଖୁବ important। ପାଠରେ startup funding ର ଏହି ବିଭିନ୍ନ source ଗୁଡ଼ିକୁ ଅଲଗା heading ଭାବରେ ଦିଆଯାଇଛି।</div></div>
+<div class="compare">
+<div class="side"><h3>Self / Community / Individual-linked</h3><div class="pills"><span class="pill">Bootstrapping</span><span class="pill">Crowdfunding</span><span class="pill">Angel Investment</span></div></div>
+<div class="vs">VS</div>
+<div class="side alt"><h3>Institutional / Organised Support</h3><div class="pills"><span class="pill">Venture Capital</span><span class="pill">Incubators & Accelerators</span><span class="pill">Microfinance & NBFC</span></div></div>
+</div>
+
+<h2 class="sec"><span class="num">12</span> Startup Odisha ଓ New Wave of Innovations</h2>
+<div class="box"><div class="flow"><div class="node dark">Startup Odisha</div><div class="arrow">→</div><div class="node">Entrepreneurship Support</div><div class="arrow">→</div><div class="node teal">Innovation</div><div class="arrow">→</div><div class="node gold">New Wave of Innovations</div></div></div>
+<div class="teacher"><div class="face">🌊</div><div>ପାଠର ଶେଷ ଅଂଶରେ <b>Startup Odisha</b> ଏବଂ <b>New Wave of Innovations</b> ର ଉଲ୍ଲେଖ ରହିଛି। ଏହାକୁ chapter ର ସମଗ୍ର flow ସହ ଯୋଡ଼ି ମନେ ରଖନ୍ତୁ—Entrepreneurship ରୁ Enterprise, Enterprise ରୁ Innovation ଓ Support Ecosystem ପର୍ଯ୍ୟନ୍ତ।</div></div>
+
+<section class="dark">
+<h2>⚡ Quick Revision — Visual Recall</h2>
+<div class="revgrid">
+<div class="rev"><h3>🏢 Core Chapter</h3><ul><li>Enterprise Development</li><li>Entrepreneurship</li><li>Characteristics</li><li>Economic Role</li></ul></div>
+<div class="rev"><h3>📈 Economic Role</h3><ul><li>Contribution to GDP</li><li>Capital Formation</li><li>Employment</li><li>Business Opportunities</li><li>Scope of Economic Activities</li></ul></div>
+<div class="rev"><h3>🧩 Competencies</h3><ul><li>Initiative</li><li>Opportunity</li><li>Persistence</li><li>Information Seeking</li><li>Quality</li><li>Planning</li><li>Problem-solving</li></ul></div>
+<div class="rev"><h3>🎯 Motivation</h3><ul><li>N-Ach</li><li>N-Ant</li><li>N-Pow</li></ul></div>
+<div class="rev"><h3>🧠 KASH</h3><ul><li>Knowledge</li><li>Attitude</li><li>Skill</li><li>Habits</li></ul></div>
+<div class="rev"><h3>🚀 Startup Support</h3><ul><li>Startup India Hub</li><li>Legal Support</li><li>Patent Support</li><li>Easy Exit</li><li>Incubators</li><li>Tax Exemption</li></ul></div>
+<div class="rev"><h3>💰 Funding</h3><ul><li>Bootstrapping</li><li>Crowdfunding</li><li>Angel Investment</li><li>Venture Capital</li><li>Incubators & Accelerators</li><li>Microfinance & NBFC</li></ul></div>
+<div class="rev"><h3>🌊 Odisha Link</h3><ul><li>Startup Odisha</li><li>New Wave of Innovations</li></ul></div>
+</div>
+</section>
+
+<h2 class="sec"><span class="num">EXAM</span> Important Exam Questions</h2>
+<div class="qgroup"><h3>Very Short Questions</h3><ol>
+<li>Enterprise Development କ’ଣ?</li><li>Entrepreneurship କ’ଣ?</li><li>GDP ର ପୂର୍ଣ୍ଣରୂପ ଲେଖ।</li><li>Capital Formation କ’ଣ?</li><li>EDP ର ପୂର୍ଣ୍ଣରୂପ ଲେଖ।</li><li>EDI ର ପୂର୍ଣ୍ଣରୂପ ଲେଖ।</li><li>KASH ର ଚାରିଟି ଅଂଶ ଲେଖ।</li><li>N-Ach, N-Ant ଓ N-Pow କ’ଣ?</li><li>Startup India Hub କ’ଣ?</li><li>SIPP ର ପୂର୍ଣ୍ଣରୂପ ଲେଖ।</li></ol></div>
+<div class="qgroup"><h3>Short Answer Questions</h3><ol>
+<li>ଆର୍ଥିକ ବିକାଶରେ entrepreneur ଙ୍କ ଭୂମିକା ଲେଖ।</li><li>Generation of Employment ଓ Generation of Business Opportunities କୁ ବୁଝାଅ।</li><li>Entrepreneurial competencies ର ଯେକୌଣସି ପାଞ୍ଚଟି ଲେଖ।</li><li>Systematic Planning ଓ Problem-solving ର ଗୁରୁତ୍ୱ ଲେଖ।</li><li>KASH କୁ ବୁଝାଅ।</li><li>Entrepreneurial motivation ର ତିନୋଟି need ଲେଖ।</li><li>Startup India Action Plan ର ଯେକୌଣସି ଚାରିଟି support feature ଲେଖ।</li><li>Startup funding ର ଯେକୌଣସି ପାଞ୍ଚଟି ଉପାୟ ଲେଖ।</li></ol></div>
+<div class="qgroup"><h3>Long / Explain-type Questions</h3><ol>
+<li>Entrepreneurship ର characteristics ଓ entrepreneurial competencies ଉପରେ ଆଲୋଚନା କର।</li>
+<li>ଆର୍ଥିକ ବିକାଶରେ entrepreneur ଙ୍କ ଭୂମିକାକୁ flowchart ସହ ବ୍ୟାଖ୍ୟା କର।</li>
+<li>Entrepreneurial motivation ଏବଂ KASH model କୁ ବ୍ୟାଖ୍ୟା କର।</li>
+<li>Entrepreneurship Development Process ଓ EDP ର ଗୁରୁତ୍ୱ ଲେଖ।</li>
+<li>Behavioural choices for entrepreneurial success ର ବିଭିନ୍ନ dimensions ବ୍ୟାଖ୍ୟା କର।</li>
+<li>Startup India Action Plan ରେ ଉଲ୍ଲେଖିତ startup support mechanism ଗୁଡ଼ିକୁ ଆଲୋଚନା କର।</li>
+<li>Startup କୁ fund କରିବାର ବିଭିନ୍ନ ଉପାୟକୁ ବ୍ୟାଖ୍ୟା କର।</li>
+<li>Startup Odisha ଓ New Wave of Innovations ସମ୍ବନ୍ଧୀୟ chapter ର ମୁଖ୍ୟ ଧାରଣା ଲେଖ।</li>
+</ol></div>
+
+<footer>ଉଦ୍ୟମ ବିକାଶ • Enterprise Development • Odisha Class 10 • Premium Visual Classroom Lecture</footer>
+</main>
+</body>
+</html>'''
+out.write_text(html, encoding="utf-8")
+print(out)
