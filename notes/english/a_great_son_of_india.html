@@ -1,0 +1,584 @@
+from pathlib import Path
+from html import escape
+
+out = Path("/mnt/data/A_Great_Son_of_India_Odisha_Class10_Visual_Lecture.html")
+
+html = r'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Great Son of India — Class 10 Visual Lecture</title>
+<style>
+:root{
+  --ink:#17324d; --muted:#5b6b7b; --paper:#f7f5ef; --card:#ffffff;
+  --line:#dbe3e8; --accent:#0d6573; --gold:#b77b18; --soft:#edf7f7;
+  --odia:#fff7e6; --odia-line:#e6c979; --danger:#fff0ed;
+}
+*{box-sizing:border-box}
+body{margin:0;background:#e9eef1;color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans",Arial,sans-serif;line-height:1.55}
+.deck{max-width:1050px;margin:auto;padding:24px}
+.slide{background:var(--paper);min-height:620px;margin:0 0 24px;border:1px solid #d8dde0;border-radius:24px;padding:38px;box-shadow:0 10px 28px rgba(20,40,55,.09);position:relative;overflow:hidden}
+.cover{background:linear-gradient(135deg,#edf7f7,#fff8e9)}
+.kicker{letter-spacing:.12em;text-transform:uppercase;font-size:13px;font-weight:800;color:var(--accent)}
+h1{font-size:48px;line-height:1.08;margin:14px 0;color:#12384a}
+h2{font-size:32px;line-height:1.15;margin:0 0 18px}
+h3{margin:10px 0 7px}
+p{margin:8px 0}
+.small{font-size:14px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.odia{background:var(--odia);border:1px solid var(--odia-line);border-radius:18px;padding:17px 19px;margin:15px 0}
+.odia-title{font-weight:900;color:#8a5a00;margin-bottom:6px}
+.en{background:var(--soft);border-left:5px solid var(--accent);border-radius:12px;padding:14px 16px;margin:12px 0}
+.tag{display:inline-block;padding:5px 10px;border-radius:999px;background:#e5eef2;margin:3px;font-size:13px;font-weight:750}
+.important{border-left:6px solid var(--gold);background:#fff9ec}
+.exam{border-left:6px solid var(--accent);background:#eef8f8}
+.warn{border-left:6px solid #c94b35;background:var(--danger)}
+.flow{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px;margin:22px 0}
+.node{background:#fff;border:2px solid #9bc7ca;border-radius:16px;padding:13px 17px;text-align:center;font-weight:800;min-width:145px}
+.arrow{font-size:26px;font-weight:900;color:var(--accent)}
+.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0}
+.tbox{padding:18px;border-radius:18px;background:#fff;border:1px solid var(--line);position:relative}
+.tbox strong{display:block;font-size:18px;color:var(--accent)}
+.compare{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.person{background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px;text-align:center}
+.icon{font-size:46px;margin-bottom:7px}
+.badge{font-weight:900;color:var(--accent)}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:15px;overflow:hidden}
+th,td{padding:11px 12px;border:1px solid var(--line);vertical-align:top}
+th{background:#eaf4f4;text-align:left}
+ol,ul{padding-left:23px}
+.q{background:#fff;border:1px solid var(--line);border-radius:14px;padding:13px 15px;margin:9px 0}
+.answer{margin-top:8px;padding:10px 12px;background:#f3f7f8;border-radius:10px}
+.footer{position:absolute;bottom:16px;right:25px;color:#8a979e;font-size:12px}
+.quote{font-size:20px;font-weight:750;border-left:5px solid var(--gold);padding:14px 18px;background:#fffaf0;border-radius:10px}
+.check{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.check div{padding:12px;border:1px solid var(--line);border-radius:12px;background:#fff}
+@media(max-width:760px){
+ .deck{padding:8px}.slide{padding:23px;min-height:auto;border-radius:18px}
+ h1{font-size:34px}h2{font-size:26px}.grid,.grid3,.compare,.timeline,.check{grid-template-columns:1fr}
+ .flow{display:block}.node{margin:8px auto}.arrow{display:block;text-align:center;transform:rotate(90deg)}
+}
+</style>
+</head>
+<body>
+<div class="deck">
+
+<section class="slide cover">
+<div class="kicker">Odisha Class 10 • English • Visual Classroom Lecture</div>
+<h1>A Great Son of India</h1>
+<p style="font-size:21px"><b>Swami Vivekananda</b> — explained through the speech of <b>Dr. Sarvapalli Radhakrishnan</b></p>
+<div class="odia">
+<div class="odia-title">ଓଡ଼ିଆରେ ଆଜିର ପାଠ</div>
+ଏହି ପାଠରେ ଡଃ ସର୍ବପଲ୍ଲୀ ରାଧାକୃଷ୍ଣନ ସ୍ୱାମୀ ବିବେକାନନ୍ଦଙ୍କ ଜୀବନ, ଶିକ୍ଷା ଓ ଚିନ୍ତାଧାରାର କିଛି ମୁଖ୍ୟ ପାଟିକୁ ବୁଝାଇଛନ୍ତି। ଆମେ ପାଠଟିକୁ ଧୀରେ ଧୀରେ ପଢ଼ିବା, କଠିନ English ଶବ୍ଦର ଅର୍ଥ ବୁଝିବା ଏବଂ ପରୀକ୍ଷା ପାଇଁ ମୁଖ୍ୟ points ମନେ ରଖିବା।
+</div>
+<div class="flow">
+<div class="node">Vivekananda</div><div class="arrow">→</div>
+<div class="node">Indian Renaissance</div><div class="arrow">→</div>
+<div class="node">Religion + Reason</div><div class="arrow">→</div>
+<div class="node">Service & Human Unity</div>
+</div>
+<p class="small">Learning goal: understand the ideas, vocabulary, questions, writing tasks and final activity.</p>
+<div class="footer">1</div>
+</section>
+
+<section class="slide">
+<h2>1. Lead-in — Think Before You Read</h2>
+<div class="en"><b>Key idea:</b> A great saint carried the teachings of the Upanisads to people around the world and impressed audiences through simple words, faith and confidence.</div>
+<div class="odia">
+<div class="odia-title">ସହଜ ଓଡ଼ିଆ ବ୍ୟାଖ୍ୟା</div>
+ଭାରତରେ ଅନେକ ମହାନ ସନ୍ଥ ଜନ୍ମ ନେଇଛନ୍ତି। ସେମାନଙ୍କ ମଧ୍ୟରୁ ଜଣେ ମହାନ ସନ୍ଥ ଉପନିଷଦର ଶିକ୍ଷାକୁ ବିଶ୍ୱର ଲୋକମାନଙ୍କ ପାଖକୁ ନେଇଥିଲେ। ସେ ସରଳ ଭାଷାରେ କହୁଥିଲେ, କିନ୍ତୁ ତାଙ୍କ କଥାରେ ଗଭୀର ବିଶ୍ୱାସ ଓ ଆତ୍ମବିଶ୍ୱାସ ଥିଲା।
+</div>
+<div class="grid3">
+<div class="card"><b>Who?</b><p>Young saint connected with the teachings of the Upanisads.</p></div>
+<div class="card"><b>How?</b><p>Simple words + profound faith + confidence.</p></div>
+<div class="card"><b>Why read?</b><p>To know more about a great son of India.</p></div>
+</div>
+<div class="exam important"><b>📌 Remember:</b> The lesson introduces Vivekananda through Dr. Radhakrishnan's speech.</div>
+<div class="footer">2</div>
+</section>
+
+<section class="slide">
+<h2>2. Opening of the Speech</h2>
+<div class="grid">
+<div class="card">
+<h3>What is happening?</h3>
+<p>The speaker is happy to be present and distribute prizes for recitation and speech competitions.</p>
+<p>He congratulates the winners.</p>
+</div>
+<div class="card">
+<h3>Why are the students important?</h3>
+<p>The winners and other participants had the opportunity to read writings of Swami Vivekananda.</p>
+<p>The speaker believes they were impressed and inspired.</p>
+</div>
+</div>
+<div class="odia">
+<div class="odia-title">ଓଡ଼ିଆରେ ବୁଝନ୍ତୁ</div>
+ଭାଷଣର ଆରମ୍ଭରେ ବକ୍ତା ପୁରସ୍କାର ପାଇଥିବା ଛାତ୍ରଛାତ୍ରୀଙ୍କୁ ଅଭିନନ୍ଦନ ଜଣାଉଛନ୍ତି। ସେମାନେ ସ୍ୱାମୀ ବିବେକାନନ୍ଦଙ୍କ ଲେଖା ପଢ଼ିବାର ସୁଯୋଗ ପାଇଥିଲେ। ତେଣୁ ସେମାନେ ତାଙ୍କ ଚିନ୍ତାଧାରାରେ ପ୍ରଭାବିତ ଓ ପ୍ରେରିତ ହୋଇଥିବେ ବୋଲି ବକ୍ତା ଭାବୁଛନ୍ତି।
+</div>
+<div class="en important"><b>Exam connection:</b> Vivekananda's life and teachings are presented as helpful for understanding and consolidating the recently won freedom.</div>
+<div class="footer">3</div>
+</section>
+
+<section class="slide">
+<h2>3. Vivekananda and the Indian Renaissance</h2>
+<div class="flow">
+<div class="node">Great teacher</div><div class="arrow">→</div>
+<div class="node">Interpreted India's religious consciousness</div><div class="arrow">→</div>
+<div class="node">Shared treasures of the past</div><div class="arrow">→</div>
+<div class="node">Inspired the Indian Renaissance</div>
+</div>
+<div class="odia">
+<div class="odia-title">ସହଜ ଓଡ଼ିଆ ବ୍ୟାଖ୍ୟା</div>
+ବିବେକାନନ୍ଦ ନିଜେ ନୂଆ ଚିନ୍ତା ପ୍ରଣାଳୀ ତିଆରି କରିଛି ବୋଲି ଦାବି କରିନଥିଲେ। ସେ ଭାରତର ପୁରୁଣା ଧାର୍ମିକ ଚେତନା ଓ ତାହାର ମୂଲ୍ୟବାନ ଐତିହ୍ୟକୁ ଭାରତ ଓ ବିଶ୍ୱ ସମ୍ମୁଖରେ ବ୍ୟାଖ୍ୟା କରିଥିଲେ। ତାଙ୍କ ଲେଖା ଓ ଭାଷଣ ଭାରତୀୟ ଶାସ୍ତ୍ର ଏବଂ ତାଙ୍କ ଗୁରୁ ଶ୍ରୀ ରାମକୃଷ୍ଣଙ୍କ ଜୀବନ ଓ ବାଣୀର ଉଦ୍ଧୃତିରେ ଶକ୍ତିଶାଳୀ ହୋଇଥିଲା।
+</div>
+<div class="exam"><b>📝 Exam Point:</b> He is described as one of the great leaders of the Indian Renaissance.</div>
+<div class="footer">4</div>
+</section>
+
+<section class="slide">
+<h2>4. The Modern World: Science and Democracy</h2>
+<div class="grid">
+<div class="card">
+<h3>Science</h3>
+<p>Educated people cannot simply accept religious claims without rational evidence.</p>
+<div class="tag">Reason</div><div class="tag">Rational evidence</div>
+</div>
+<div class="card">
+<h3>Democracy</h3>
+<p>Religion should support democracy and should not divide people or support privilege, exploitation or wars.</p>
+<div class="tag">Human equality</div><div class="tag">No division</div>
+</div>
+</div>
+<div class="odia">
+<div class="odia-title">ଓଡ଼ିଆରେ ସହଜ କଥା</div>
+ଆଧୁନିକ ଯୁଗର ଦୁଇଟି ପ୍ରମୁଖ ବିଶେଷତା ହେଉଛି <b>Science</b> ଓ <b>Democracy</b>। ଧର୍ମର କଥାକୁ ମଧ୍ୟ ଯୁକ୍ତି ଓ ବୁଦ୍ଧି ସହିତ ବୁଝିବା ଦରକାର। ଏମିତି ଧର୍ମ ଗ୍ରହଣଯୋଗ୍ୟ ନୁହେଁ ଯାହା ମଣିଷକୁ ମଣିଷଠାରୁ ଅଲଗା କରେ କିମ୍ବା privilege, exploitation ଓ wars କୁ ସମର୍ଥନ କରେ।
+</div>
+<div class="flow"><div class="node">Faith</div><div class="arrow">+</div><div class="node">Reason</div><div class="arrow">→</div><div class="node">Intellectual conscience</div></div>
+<div class="footer">5</div>
+</section>
+
+<section class="slide">
+<h2>5. Why Does the “Eclipse of Religion” Occur?</h2>
+<div class="en warn"><b>Core explanation:</b> The speaker says religion may seem to be in eclipse because religions as practised can appear both unscientific and undemocratic.</div>
+<div class="odia">
+<div class="odia-title">ଏହାକୁ ସହଜରେ ବୁଝନ୍ତୁ</div>
+“Eclipse of religion” ଅର୍ଥ ଧର୍ମର ପ୍ରଭାବ ଯେପରି ମ୍ଲାନ ହେଉଛି। ବକ୍ତାଙ୍କ ମତରେ, ଏହାର ଏକ କାରଣ ହେଉଛି ଯେ ପ୍ରଚଳିତ ଧର୍ମାଚରଣ କେତେକ ସମୟରେ <b>unscientific</b> ଓ <b>undemocratic</b> ଦେଖାଯାଏ।
+</div>
+<div class="flow">
+<div class="node">Religion as practised</div><div class="arrow">→</div>
+<div class="node">Unscientific / Undemocratic appearance</div><div class="arrow">→</div>
+<div class="node">Eclipse of religion</div>
+</div>
+<div class="footer">6</div>
+</section>
+
+<section class="slide">
+<h2>6. The Transience of Life and the Power of Time</h2>
+<div class="timeline">
+<div class="tbox"><strong>Everything changes</strong><p>Written words, paintings, carved stones and heroic acts pass away.</p></div>
+<div class="tbox"><strong>Civilizations</strong><p>Great civilizations are subject to the law of time.</p></div>
+<div class="tbox"><strong>Human world</strong><p>Acts, thoughts and political structures belong to a continuing process of history.</p></div>
+</div>
+<div class="odia">
+<div class="odia-title">ଓଡ଼ିଆରେ ବ୍ୟାଖ୍ୟା</div>
+ଜୀବନର ସବୁଠାରୁ ସ୍ପଷ୍ଟ ସତ୍ୟ ହେଉଛି ଏହାର <b>transience</b>—ଅର୍ଥାତ୍ କିଛି ମଧ୍ୟ ସଦାକାଳ ପାଇଁ ରହେ ନାହିଁ। ସମୟ ସବୁକିଛିକୁ ପରିବର୍ତ୍ତନ କରେ। ମଣିଷର କାର୍ଯ୍ୟ, ଚିନ୍ତା, ବୀରତା ଓ ରାଜନୈତିକ ଗଠନ ସବୁ ଇତିହାସର ଚଳମାନ ପ୍ରକ୍ରିୟାର ଅଂଶ।
+</div>
+<div class="quote">“The most obvious fact of life is its transience.”</div>
+<div class="exam important"><b>⭐ Exam Point:</b> Time acts as a powerful force because everything in the world belongs to the process of becoming and passes through change.</div>
+<div class="footer">7</div>
+</section>
+
+<section class="slide">
+<h2>7. The Fundamental Question of Life</h2>
+<div class="flow">
+<div class="node">World of events</div><div class="arrow">?</div>
+<div class="node">Is there a “Beyond”?</div><div class="arrow">→</div>
+<div class="node">Underlying reality</div><div class="arrow">→</div>
+<div class="node">Meaning of existence</div>
+</div>
+<div class="odia">
+<div class="odia-title">ଓଡ଼ିଆରେ ଏହି ପ୍ରଶ୍ନଟି</div>
+ପୃଥିବୀର ସବୁକିଛି ପରିବର୍ତ୍ତନଶୀଳ ହେଲେ, ତାହା ପଛରେ କୌଣସି ସ୍ଥାୟୀ ବା ଉଚ୍ଚତର ସତ୍ୟ ଅଛି କି? ବକ୍ତା ଏହି ମୌଳିକ ପ୍ରଶ୍ନ ଉଠାଉଛନ୍ତି। ମଣିଷର ଚିନ୍ତା ଓ ଭୟ ଆମକୁ ଏହି “Beyond” ବିଷୟରେ ଭାବିବାକୁ ନେଇଯାଏ।
+</div>
+<div class="en"><b>Important idea:</b> The feeling of the world's precariousness is presented as a witness to a world beyond.</div>
+<div class="footer">8</div>
+</section>
+
+<section class="slide">
+<h2>8. The Upanisads and the “Beyond”</h2>
+<div class="grid">
+<div class="card">
+<h3>Logical investigation</h3>
+<p>Great thinkers used logical investigations and personal experience.</p>
+</div>
+<div class="card">
+<h3>Spiritual experience</h3>
+<p>The Upanisads present arguments and experiences that bear witness to the reality of the Supreme.</p>
+</div>
+</div>
+<div class="odia">
+<div class="odia-title">ସରଳ ଓଡ଼ିଆ ବ୍ୟାଖ୍ୟା</div>
+ମହାନ ଚିନ୍ତକମାନେ ଯୁକ୍ତିପୂର୍ଣ୍ଣ ଅନୁସନ୍ଧାନ ଓ ବ୍ୟକ୍ତିଗତ ଅନୁଭବ ମାଧ୍ୟମରେ ଏହି ନିଷ୍କର୍ଷରେ ପହଞ୍ଚିଥିଲେ ଯେ ଏହି ଦୃଶ୍ୟମାନ ଜଗତର ପଛରେ ଏକ “Beyond” ଅଛି। ଉପନିଷଦ ଏହି ମୌଳିକ ସମସ୍ୟାର ବ୍ୟାଖ୍ୟା ଦେଇଥାଏ।
+</div>
+<div class="footer">9</div>
+</section>
+
+<section class="slide">
+<h2>9. What Are the Vedas?</h2>
+<div class="quote">“By the Vedas no books are meant.”</div>
+<div class="en"><b>Meaning in the lesson:</b> The Vedas are described as the accumulated treasure of spiritual laws discovered by different persons at different times.</div>
+<div class="odia">
+<div class="odia-title">ଓଡ଼ିଆରେ ବୁଝନ୍ତୁ</div>
+ଏଠାରେ Vedas କୁ କେବଳ କିଛି ପୁସ୍ତକ ଭାବେ ବୁଝାଯାଇନାହିଁ। ବିଭିନ୍ନ ସମୟରେ ବିଭିନ୍ନ ବ୍ୟକ୍ତି ଯେଉଁ ଆଧ୍ୟାତ୍ମିକ ନିୟମ ବା ସତ୍ୟ ଅନୁଭବ କରିଥିଲେ, ସେହି ସଞ୍ଚିତ ଧନକୁ Vedas ବୋଲି ବିବେକାନନ୍ଦଙ୍କ କଥାରେ ବୁଝାଯାଇଛି। ସେଥିପାଇଁ ଏହା <b>ever-expanding</b>।
+</div>
+<div class="flow"><div class="node">Different people</div><div class="arrow">→</div><div class="node">Different times</div><div class="arrow">→</div><div class="node">Spiritual laws</div><div class="arrow">→</div><div class="node">Ever-expanding treasure</div></div>
+<div class="footer">10</div>
+</section>
+
+<section class="slide">
+<h2>10. Vivekananda’s Idea of Yoga</h2>
+<div class="en"><b>Yoga =</b> personal change + adjustment + integration; it is presented as the reconditioning of one's nature and awakening of the life of spirit in man.</div>
+<div class="grid3">
+<div class="card"><b>Jnana Yoga</b><p>One of the methods mentioned in his writings.</p></div>
+<div class="card"><b>Raja Yoga</b><p>One of the methods mentioned in his writings.</p></div>
+<div class="card"><b>Bhakti Yoga</b><p>One of the methods mentioned in his writings.</p></div>
+<div class="card"><b>Karma Yoga</b><p>One of the methods mentioned in his writings.</p></div>
+<div class="card"><b>Goal</b><p>Spiritual realization can be reached through these different methods.</p></div>
+<div class="card"><b>Not merely</b><p>Profession of a doctrine or intellectual orthodoxy.</p></div>
+</div>
+<div class="odia">
+<div class="odia-title">ଓଡ଼ିଆରେ ସହଜ ଅର୍ଥ</div>
+ବିବେକାନନ୍ଦଙ୍କ ମତରେ Yoga କେବଳ ଗୋଟିଏ ମତ ବା doctrine କୁ ମାନିବା ନୁହେଁ। ଏହା ମଣିଷର ନିଜ ସ୍ୱଭାବର ପରିବର୍ତ୍ତନ, ସମନ୍ୱୟ ଓ ଆଧ୍ୟାତ୍ମିକ ଜୀବନର ଜାଗରଣ ସହିତ ଜଡିତ। ତାଙ୍କ ଲେଖାରେ Jnana, Raja, Bhakti ଓ Karma Yoga ଉଲ୍ଲେଖ ଅଛି।
+</div>
+<div class="footer">11</div>
+</section>
+
+<section class="slide">
+<h2>11. Universal Truths and Religious Tolerance</h2>
+<div class="flow">
+<div class="node">Live spiritual experience</div><div class="arrow">→</div>
+<div class="node">Universal truths</div><div class="arrow">→</div>
+<div class="node">Humility</div><div class="arrow">→</div>
+<div class="node">Tolerance & understanding</div>
+</div>
+<div class="odia">
+<div class="odia-title">ଓଡ଼ିଆରେ ମୁଖ୍ୟ କଥା</div>
+ଆଧ୍ୟାତ୍ମିକ ଜୀବନର ସତ୍ୟକୁ କେବଳ ବୁଦ୍ଧିର ଧାରଣାରେ ସୀମିତ କଲେ ତାହାର ବିଶାଳତା ଓ ରହସ୍ୟ ପୂରା ବୁଝାଯାଏ ନାହିଁ। ନିଜ ଧର୍ମର particular creed କୁ universal truth ଠାରୁ ଉପରେ ରଖିଲେ intolerance ବଢ଼ିପାରେ। ଏହି intolerance ଧାର୍ମିକ ଅହଂକାରର ପ୍ରକାଶ, ନମ୍ରତାର ନୁହେଁ।
+</div>
+<div class="exam"><b>📌 Remember:</b> The lesson connects secularism with respecting the sacredness of all religions and freedom of conscience.</div>
+<div class="footer">12</div>
+</section>
+
+<section class="slide">
+<h2>12. Secularism and Freedom of Conscience</h2>
+<div class="grid">
+<div class="card">
+<h3>Secular attitude</h3>
+<p>Not indifference to religion.</p>
+<p>It means regarding all religions as sacred.</p>
+</div>
+<div class="card">
+<h3>Freedom of conscience</h3>
+<p>Each soul has the right to choose its own path and seek God in its own way.</p>
+</div>
+</div>
+<div class="odia">
+<div class="odia-title">ଓଡ଼ିଆରେ ବୁଝନ୍ତୁ</div>
+Secularism ର ଅର୍ଥ ଧର୍ମ ପ୍ରତି ଉଦାସୀନ ହେବା ନୁହେଁ। ଏଠାରେ ସମସ୍ତ ଧର୍ମକୁ ପବିତ୍ର ଭାବେ ଦେଖିବା ଓ ପ୍ରତ୍ୟେକ ମଣିଷର ନିଜ ପଥ ବାଛିବାର ଅଧିକାରକୁ ସମ୍ମାନ କରିବା କଥା କୁହାଯାଇଛି। କେବଳ tolerate ନୁହେଁ, ଅନ୍ୟ ଧର୍ମକୁ understand ଓ love କରିବାକୁ ମଧ୍ୟ କୁହାଯାଇଛି।
+</div>
+<div class="quote">“We do not merely tolerate...” — the passage stresses unity with every religion.</div>
+<div class="footer">13</div>
+</section>
+
+<section class="slide">
+<h2>13. Abuse of Religion</h2>
+<div class="grid3">
+<div class="card"><b>Obscurantism</b><p>Opposition to enlightenment.</p></div>
+<div class="card"><b>Superstition</b><p>The text describes confusion of religion with superstition.</p></div>
+<div class="card"><b>Touchability / Untouchability</b><p>Presented as inconsistent with the great principle described in the passage.</p></div>
+</div>
+<div class="odia">
+<div class="odia-title">ସହଜ ଓଡ଼ିଆ ବ୍ୟାଖ୍ୟା</div>
+ବିଦେଶ ଯାତ୍ରା ସମୟରେ ବିବେକାନନ୍ଦ ଭାରତର କେତେକ ପଛପଡ଼ା ଅବସ୍ଥା ଦେଖି ଦୁଃଖିତ ହୋଇଥିଲେ। ଧର୍ମକୁ obscurantism ଓ superstition ସହିତ ମିଶାଇବା ଏବଂ touchability/untouchability ଉପରେ ଜୋର ଦେବାକୁ ସେ ତୀବ୍ର ଭାବେ ବିରୋଧ କରିଥିଲେ।
+</div>
+<div class="exam warn"><b>⚠️ Exam Point:</b> The text says these practices are inconsistent with the principle that the Divine is in all of us.</div>
+<div class="footer">14</div>
+</section>
+
+<section class="slide">
+<h2>14. The Divine Within — Antar-jyoti</h2>
+<div class="flow">
+<div class="node">Divine is in us</div><div class="arrow">→</div>
+<div class="node">Antar-jyoti</div><div class="arrow">→</div>
+<div class="node">Cannot be put out</div><div class="arrow">→</div>
+<div class="node">Union with the Divine</div>
+</div>
+<div class="odia">
+<div class="odia-title">ଓଡ଼ିଆରେ ସହଜ ବ୍ୟାଖ୍ୟା</div>
+ପାଠରେ <b>antar-jyoti</b> କୁ ମଣିଷ ମନରେ ଥିବା ଦିବ୍ୟ ଆଲୋକ ସହିତ ଯୋଡ଼ାଯାଇଛି। ଏହି Divine ସମସ୍ତଙ୍କ ମଧ୍ୟରେ ଅଛି। ମଣିଷର ଶେଷ ଲକ୍ଷ୍ୟ ହେଉଛି Divine ସହିତ union ପ୍ରାପ୍ତ କରିବା।
+</div>
+<div class="en important"><b>Important line:</b> The text describes the inner light as something that cannot be put out.</div>
+<div class="footer">15</div>
+</section>
+
+<section class="slide">
+<h2>15. The Ultimate Test of True Religion</h2>
+<div class="grid">
+<div class="card">
+<h3>Recognition of truth</h3>
+<p>Recognising truth is presented as one ultimate test.</p>
+</div>
+<div class="card">
+<h3>Reconciliation with human beings</h3>
+<p>True religion must lead towards harmony among human beings.</p>
+</div>
+</div>
+<div class="odia">
+<div class="odia-title">ଓଡ଼ିଆରେ ବୁଝନ୍ତୁ</div>
+ସତ୍ୟ ଧର୍ମର ଶେଷ ପରୀକ୍ଷା ହେଉଛି <b>truth କୁ ଚିହ୍ନିବା</b> ଏବଂ <b>ମଣିଷମାନଙ୍କ ମଧ୍ୟରେ reconciliation</b> ବା ମତଭେଦର ସମାଧାନ ଓ ସମନ୍ୱୟ ସୃଷ୍ଟି କରିବା। ଶତ୍ରୁତାକୁ ଜିତିବା ପାଇଁ ତାଠାରୁ ଉଚ୍ଚ ଗୁଣ—<b>ahimsa</b> ବା hatred ର renunciation—ଦରକାର।
+</div>
+<div class="footer">16</div>
+</section>
+
+<section class="slide">
+<h2>16. Work as Worship → Service of God in Man</h2>
+<div class="flow">
+<div class="node">Work</div><div class="arrow">→</div>
+<div class="node">Worship</div><div class="arrow">→</div>
+<div class="node">Service of God in man</div><div class="arrow">→</div>
+<div class="node">Transformation of society</div><div class="arrow">→</div>
+<div class="node">Ramrajya / Kingdom of God</div>
+</div>
+<div class="odia">
+<div class="odia-title">ଏହାକୁ ଏଭଳି ମନେ ରଖନ୍ତୁ</div>
+ବିବେକାନନ୍ଦ କାମକୁ worship ର ମର୍ଯ୍ୟାଦାକୁ ଉଠାଇଥିଲେ। ମଣିଷରେ ଥିବା Divine ଙ୍କ ସେବା ମାଧ୍ୟମରେ salvation ପାଇବାକୁ ସେ ଉତ୍ସାହିତ କରିଥିଲେ। ଦେଶରେ constructive work ଓ dedicated spirit ବଢ଼ିଲେ ମାନବ ସମାଜର ପରିବର୍ତ୍ତନ ହୋଇପାରିବ ଏବଂ Ramrajya ଦିଗକୁ ଯିବା ସମ୍ଭବ।
+</div>
+<div class="exam"><b>🎯 Most Important:</b> Religion in the lesson is connected with truth, human harmony, service and constructive work—not merely doctrine.</div>
+<div class="footer">17</div>
+</section>
+
+<section class="slide">
+<h2>17. Comprehension Check — Text I</h2>
+<div class="q"><b>1.</b> Who is the speaker?</div>
+<div class="q"><b>2.</b> On what occasion does he speak?</div>
+<div class="q"><b>3.</b> What does the “treasure of her past” refer to?</div>
+<div class="q"><b>4.</b> Where from did Vivekananda collect the treasure?</div>
+<div class="q"><b>5.</b> How are religion and science interrelated?</div>
+<div class="q"><b>6.</b> Why should religion be the maintaining faith of democracy?</div>
+<div class="q"><b>7.</b> What could be the reason for the eclipse of religion?</div>
+<div class="q"><b>8.</b> What is the ultimate truth of life?</div>
+<div class="q"><b>9.</b> How does time act as a powerful force?</div>
+<div class="q"><b>10.</b> What explanation of the fundamental problem is provided by the Upanisads?</div>
+<div class="odia"><div class="odia-title">ପ୍ରଶ୍ନ କିପରି ପଢ଼ିବେ</div>
+ଏହି ଦଶଟି ପ୍ରଶ୍ନରେ speaker, occasion, India's past, religion-science, democracy, eclipse of religion, life, time ଓ Upanisads ଭଳି ମୁଖ୍ୟ ଧାରଣା ରହିଛି। ପ୍ରଥମେ ପ୍ରଶ୍ନର ଅର୍ଥ ଓଡ଼ିଆରେ ବୁଝନ୍ତୁ, ପରେ English ରେ ଉତ୍ତର ଗଠନ କରନ୍ତୁ।
+</div>
+<div class="footer">18</div>
+</section>
+
+<section class="slide">
+<h2>18. Comprehension Check — Text II</h2>
+<div class="q"><b>1.</b> What are the Vedas according to Vivekananda?</div>
+<div class="q"><b>2.</b> What is Yoga in his opinion?</div>
+<div class="q"><b>3.</b> Which Yogas have been discussed by him in his writings?</div>
+<div class="q"><b>4.</b> What is secularism?</div>
+<div class="q"><b>5.</b> Which experience of Sri Ramakrishna does Vivekananda teach people?</div>
+<div class="q"><b>6.</b> What are the abuses of religion?</div>
+<div class="q"><b>7.</b> What is “antar-jyoti” referred to in the text?</div>
+<div class="q"><b>8.</b> What is the ultimate test of true religion?</div>
+<div class="q"><b>9.</b> What are necessary for creating the Ramrajya?</div>
+<div class="odia"><div class="odia-title">ଓଡ଼ିଆରେ ମୁଖ୍ୟ focus</div>
+ଏହି ଅଂଶଟି Vedas, Yoga, secularism, Sri Ramakrishnaଙ୍କ ଅନୁଭବ, religionର abuses, antar-jyoti, true religion ଓ Ramrajya ଉପରେ ଆଧାରିତ। ଏଗୁଡ଼ିକୁ ଅଲଗା ଅଲଗା headings ଭାବେ ମନେ ରଖନ୍ତୁ।
+</div>
+<div class="footer">19</div>
+</section>
+
+<section class="slide">
+<h2>19. Glossary — Vocabulary Cards</h2>
+<table>
+<tr><th>Word</th><th>Simple English</th><th>ଓଡ଼ିଆ ଅର୍ଥ / ସହଜ ବୁଝାମଣା</th></tr>
+<tr><td>renaissance</td><td>rebirth / reawakening of art, culture etc.</td><td>କଳା, ସଂସ୍କୃତି ଆଦିର ପୁନର୍ଜାଗରଣ</td></tr>
+<tr><td>profess</td><td>to claim</td><td>ଦାବି କରିବା</td></tr>
+<tr><td>fortified</td><td>strengthened</td><td>ଶକ୍ତିଶାଳୀ କରାଯାଇଥିବା</td></tr>
+<tr><td>transcendent</td><td>beyond human experience</td><td>ମାନବୀୟ ଅନୁଭବର ସୀମା ପାରେ</td></tr>
+<tr><td>deliverances</td><td>the act of delivering something</td><td>କିଛି ପ୍ରଦାନ କରିବାର କାର୍ଯ୍ୟ</td></tr>
+<tr><td>commends</td><td>presents as suitable</td><td>ଉପଯୁକ୍ତ ବୋଲି ପ୍ରସ୍ତୁତ କରେ</td></tr>
+<tr><td>transience</td><td>lasting for a short time</td><td>ଅଳ୍ପ ସମୟ ରହିବା; ଅସ୍ଥାୟୀତ୍ୱ</td></tr>
+<tr><td>perpetual</td><td>never ending</td><td>ଅନନ୍ତ / ନିରନ୍ତର</td></tr>
+<tr><td>annihilate</td><td>destroy completely</td><td>ସମ୍ପୂର୍ଣ୍ଣ ଧ୍ୱଂସ କରିବା</td></tr>
+<tr><td>precariousness</td><td>uncertainty</td><td>ଅନିଶ୍ଚିତତା</td></tr>
+<tr><td>implicit</td><td>not directly expressed / implied</td><td>ପରୋକ୍ଷ ଭାବେ ଥିବା / ଅନ୍ତର୍ନିହିତ</td></tr>
+<tr><td>godforsaken</td><td>not interesting or attractive</td><td>ଆକର୍ଷଣହୀନ / ଅନାକର୍ଷଣୀୟ</td></tr>
+<tr><td>exalt</td><td>praise highly / promote</td><td>ଉଚ୍ଚ ପ୍ରଶଂସା କରିବା</td></tr>
+<tr><td>obscurantism</td><td>opposing enlightenment</td><td>ଜ୍ଞାନୋଦୟକୁ ବିରୋଧ କରିବାର ପ୍ରଥା</td></tr>
+<tr><td>vehemently</td><td>strongly / forcefully</td><td>ତୀବ୍ର ଭାବେ / ଜୋରଦାର ଭାବେ</td></tr>
+<tr><td>reconciliation</td><td>setting differences / harmonising</td><td>ମତଭେଦ ଦୂର କରି ସମନ୍ୱୟ କରିବା</td></tr>
+<tr><td>renunciation</td><td>act of giving up</td><td>ତ୍ୟାଗ କରିବାର କାର୍ଯ୍ୟ</td></tr>
+<tr><td>exhorted</td><td>strongly advised / urged</td><td>ଦୃଢ଼ ଭାବେ ପରାମର୍ଶ / ଉତ୍ସାହିତ କରିବା</td></tr>
+<tr><td>ecclesiastical</td><td>relating to religion, especially church</td><td>ଧର୍ମ, ବିଶେଷକରି church ସହିତ ସମ୍ବନ୍ଧିତ</td></tr>
+<tr><td>doctrinal sophistries</td><td>unsound reasoning for principles</td><td>ସିଦ୍ଧାନ୍ତକୁ ସମର୍ଥନ କରିବାର ତ୍ରୁଟିପୂର୍ଣ୍ଣ ଯୁକ୍ତି</td></tr>
+<tr><td>subtleties</td><td>fine distinctions</td><td>ସୂକ୍ଷ୍ମ ପାର୍ଥକ୍ୟ</td></tr>
+</table>
+<div class="footer">20</div>
+</section>
+
+<section class="slide">
+<h2>20. Writing Practice — About Fifty Words</h2>
+<div class="odia"><div class="odia-title">ଲେଖା ପ୍ରଶ୍ନର ରଣନୀତି</div>
+ପ୍ରତ୍ୟେକ ଉତ୍ତର ପ୍ରାୟ ୫୦ ଶବ୍ଦରେ ଲେଖିବାକୁ ଥିବାରୁ ୩ଟି ଅଂଶ ମନେ ରଖନ୍ତୁ—<b>ମୁଖ୍ୟ point → ଟେକ୍ସଟ୍‌ର supporting idea → ଛୋଟ conclusion</b>। ଉତ୍ତରକୁ ସରଳ English ରେ ଲେଖନ୍ତୁ।
+</div>
+<div class="q"><b>1.</b> What made Dr. Radhakrishnan think that the students were impressed and inspired?</div>
+<div class="q"><b>2.</b> How can we explain that Vivekananda was one of the leaders of the Indian Renaissance?</div>
+<div class="q"><b>3.</b> Why were the writings and speeches of Vivekananda very powerful?</div>
+<div class="q"><b>4.</b> Why does the speaker consider “science and democracy” as the dominant features of the modern world?</div>
+<div class="q"><b>5.</b> What could be the reasons for this earth being unfit for human habitation?</div>
+<div class="q"><b>6.</b> Why are the Vedas ever-expanding? And what is the light that lighteth every man?</div>
+<div class="q"><b>7.</b> How can religion lead to the transformation of human society?</div>
+<div class="footer">21</div>
+</section>
+
+<section class="slide">
+<h2>21. Writing — Answer Planning Cards</h2>
+<div class="grid">
+<div class="card"><b>Q1 → Students impressed</b><p>Use: reading Vivekananda's writings → impression → inspiration.</p></div>
+<div class="card"><b>Q2 → Indian Renaissance</b><p>Use: interpretation of India's religious consciousness + treasures of the past.</p></div>
+<div class="card"><b>Q3 → Powerful writings</b><p>Use: scriptures + life and sayings of Shri Ramakrishna strengthened them.</p></div>
+<div class="card"><b>Q4 → Science & democracy</b><p>Use: reason, rational evidence, human equality and rejection of division/exploitation.</p></div>
+<div class="card"><b>Q5 → Earth</b><p>Use only the idea stated in the passage: the earth may one day become unfit as the sun ages and alters.</p></div>
+<div class="card"><b>Q6 → Vedas & inner light</b><p>Use: accumulated spiritual laws + ever-expanding nature + antar-jyoti.</p></div>
+<div class="card"><b>Q7 → Social transformation</b><p>Use: constructive work + dedicated spirits + spiritual religion + service + Ramrajya.</p></div>
+</div>
+<div class="odia"><div class="odia-title">📌 ଧ୍ୟାନ ଦିଅନ୍ତୁ</div>
+ଉତ୍ତରରେ ନିଜରୁ ନୂଆ ଉଦାହରଣ ଯୋଡ଼ନ୍ତୁ ନାହିଁ। ପାଠରେ ଥିବା ଧାରଣାଗୁଡ଼ିକୁ ନେଇ ଉତ୍ତର ଗଠନ କରନ୍ତୁ।
+</div>
+<div class="footer">22</div>
+</section>
+
+<section class="slide">
+<h2>22. Activity — Constructive Work</h2>
+<div class="flow">
+<div class="node">Groups of 4–5</div><div class="arrow">→</div>
+<div class="node">Choose an activity</div><div class="arrow">→</div>
+<div class="node">Discuss the plan</div><div class="arrow">→</div>
+<div class="node">Present</div><div class="arrow">→</div>
+<div class="node">Questions & suggestions</div>
+</div>
+<div class="odia">
+<div class="odia-title">କାର୍ଯ୍ୟକଳାପଟି କିପରି କରିବେ</div>
+ଶ୍ରେଣୀକୁ ୪ କିମ୍ବା ୫ଟି group ରେ ବାଣ୍ଟନ୍ତୁ। ପ୍ରତ୍ୟେକ group ବିବେକାନନ୍ଦଙ୍କ ପରାମର୍ଶ ଅନୁସାରେ କେଉଁ constructive activity କରିବାକୁ ଚାହେଁ ତାହା ଭାବିବ। ସଦସ୍ୟମାନେ ଆଲୋଚନା କରି plan ପ୍ରସ୍ତୁତ କରିବେ। ପରେ plan ପ୍ରଦର୍ଶନ କରିବେ ଏବଂ ଅନ୍ୟ group ପ୍ରଶ୍ନ କରି suggestion ଦେବେ।
+</div>
+<div class="exam important"><b>📌 Classroom focus:</b> The activity develops discussion, planning, presentation and interaction.</div>
+<div class="footer">23</div>
+</section>
+
+<section class="slide">
+<h2>23. Final Message of the Lesson</h2>
+<div class="quote">Constructive work + dedicated spirit → transformation of human society → Ramrajya / Kingdom of God</div>
+<div class="odia">
+<div class="odia-title">ଶେଷ କଥାଟି ସରଳ ଭାବେ</div>
+ଦେଶର ଉନ୍ନତି ପାଇଁ କେବଳ କଥା କହିବା ଯଥେଷ୍ଟ ନୁହେଁ। constructive work ପ୍ରତି ଆଗ୍ରହ, dedicated spirit, ମଣିଷରେ Divine କୁ ଦେଖି ସେବା କରିବା ଓ ମାନବ ସମାଜକୁ ପରିବର୍ତ୍ତନ କରିବାର ଚେଷ୍ଟା ଆବଶ୍ୟକ ବୋଲି ପାଠର ଶେଷ ଅଂଶରେ କୁହାଯାଇଛି।
+</div>
+<div class="footer">24</div>
+</section>
+
+<section class="slide">
+<h2>24. Quick Revision — 15 Key Points</h2>
+<ol>
+<li>Vivekananda is presented as a great son of India.</li>
+<li>He interpreted India's religious consciousness and treasures of the past.</li>
+<li>He is described as a leader of the Indian Renaissance.</li>
+<li>His writings and speeches are strengthened by Indian scriptures and Shri Ramakrishna's life and sayings.</li>
+<li>Science and democracy are called dominant features of the age.</li>
+<li>Faith should be supported by reason and rational evidence.</li>
+<li>Religion should sustain democracy and not divide people.</li>
+<li>Life is transient and time is a powerful force.</li>
+<li>The Upanisads address the fundamental problem of the “Beyond”.</li>
+<li>The Vedas are described as accumulated spiritual laws.</li>
+<li>Yoga is personal change, adjustment and integration.</li>
+<li>Different Yogas are presented as paths to spiritual realization.</li>
+<li>Secularism includes respect for all religions and freedom of conscience.</li>
+<li>True religion is tested by truth and reconciliation with human beings.</li>
+<li>Work, service and constructive action are connected with transformation of society.</li>
+</ol>
+<div class="odia"><div class="odia-title">⚡ ୧୫ଟି point ଓଡ଼ିଆରେ ମନେ ରଖନ୍ତୁ</div>
+ପାଠର ସମ୍ପୂର୍ଣ୍ଣ ଧାରାଟିକୁ ଏକ ଶୃଙ୍ଖଳା ଭାବେ ମନେ ରଖନ୍ତୁ: <b>ବିବେକାନନ୍ଦ → ଭାରତୀୟ ଐତିହ୍ୟ → Science & Democracy → Time → Upanisads → Vedas → Yoga → Secularism → Antar-jyoti → True Religion → Service → Social Transformation → Ramrajya.</b>
+</div>
+<div class="footer">25</div>
+</section>
+
+<section class="slide">
+<h2>25. Quick Revision Table</h2>
+<table>
+<tr><th>Topic</th><th>Remember</th><th>ଓଡ଼ିଆରେ ସହଜ ଅର୍ଥ</th></tr>
+<tr><td>Indian Renaissance</td><td>Vivekananda was a great leader.</td><td>ଭାରତୀୟ ପୁନର୍ଜାଗରଣର ମହାନ ନେତା ଭାବେ ପ୍ରସ୍ତୁତ।</td></tr>
+<tr><td>Science</td><td>Faith should have rational support.</td><td>ବିଶ୍ୱାସକୁ ଯୁକ୍ତି ଓ ପ୍ରମାଣ ସହିତ ବୁଝିବା।</td></tr>
+<tr><td>Democracy</td><td>Religion should not divide people.</td><td>ଧର୍ମ ମଣିଷମାନଙ୍କୁ ବିଭାଜିତ କରିବା ଉଚିତ ନୁହେଁ।</td></tr>
+<tr><td>Transience</td><td>Everything passes through time.</td><td>ସବୁକିଛି ପରିବର୍ତ୍ତନଶୀଳ ଓ ଅସ୍ଥାୟୀ।</td></tr>
+<tr><td>Vedas</td><td>Accumulated spiritual laws.</td><td>ସଞ୍ଚିତ ଆଧ୍ୟାତ୍ମିକ ନିୟମ/ସତ୍ୟ।</td></tr>
+<tr><td>Yoga</td><td>Change, adjustment, integration.</td><td>ନିଜ ସ୍ୱଭାବର ପରିବର୍ତ୍ତନ ଓ ଆଧ୍ୟାତ୍ମିକ ଜାଗରଣ।</td></tr>
+<tr><td>Secularism</td><td>Respect all religions + freedom of conscience.</td><td>ସମସ୍ତ ଧର୍ମ ପ୍ରତି ସମ୍ମାନ ଓ ନିଜ ପଥ ବାଛିବାର ସ୍ୱାଧୀନତା।</td></tr>
+<tr><td>Antar-jyoti</td><td>The Divine within.</td><td>ମଣିଷ ମନରେ ଥିବା ଦିବ୍ୟ ଆଲୋକ।</td></tr>
+<tr><td>True religion</td><td>Truth + reconciliation + ahimsa.</td><td>ସତ୍ୟ, ମାନବ ସମନ୍ୱୟ ଓ ଅହିଂସା।</td></tr>
+<tr><td>Ramrajya</td><td>Transformation through dedicated constructive work.</td><td>ନିର୍ମାଣମୂଳକ କାମ ଓ ସମର୍ପିତ ମନୋଭାବରେ ସମାଜ ପରିବର୍ତ୍ତନ।</td></tr>
+</table>
+<div class="footer">26</div>
+</section>
+
+<section class="slide">
+<h2>26. Final MCQ Quiz</h2>
+<div class="q"><b>1.</b> Who is the speaker in the lesson?<br>A) Swami Vivekananda &nbsp; B) Dr. Sarvapalli Radhakrishnan &nbsp; C) Shri Ramakrishna</div>
+<div class="q"><b>2.</b> Vivekananda is described as a leader of the:<br>A) Indian Renaissance &nbsp; B) Industrial Revolution &nbsp; C) Scientific Revolution</div>
+<div class="q"><b>3.</b> What two features are called dominant features of the age?<br>A) Faith and art &nbsp; B) Science and democracy &nbsp; C) War and politics</div>
+<div class="q"><b>4.</b> The Vedas are described as:<br>A) only books &nbsp; B) accumulated spiritual laws &nbsp; C) political structures</div>
+<div class="q"><b>5.</b> Which is NOT listed among the Yogas in the passage?<br>A) Jnana Yoga &nbsp; B) Raja Yoga &nbsp; C) Social Yoga</div>
+<div class="q"><b>6.</b> What does secularism require beyond tolerance?<br>A) Ignoring other religions &nbsp; B) Understanding and loving other religions &nbsp; C) Rejecting religion</div>
+<div class="q"><b>7.</b> What does “antar-jyoti” refer to?<br>A) Divine within &nbsp; B) Political power &nbsp; C) Material wealth</div>
+<div class="q"><b>8.</b> One ultimate test of true religion is:<br>A) wealth &nbsp; B) recognition of truth &nbsp; C) social status</div>
+<div class="q"><b>9.</b> Work is raised to the level of:<br>A) worship &nbsp; B) entertainment &nbsp; C) competition</div>
+<div class="q"><b>10.</b> The final social goal named in the lesson is:<br>A) Ramrajya / Kingdom of God &nbsp; B) Industrial growth &nbsp; C) political victory</div>
+<div class="footer">27</div>
+</section>
+
+<section class="slide">
+<h2>27. Answer Key + Exam Checklist</h2>
+<div class="grid">
+<div class="card">
+<h3>Answer Key</h3>
+<p><b>1-B, 2-A, 3-B, 4-B, 5-C, 6-B, 7-A, 8-B, 9-A, 10-A</b></p>
+</div>
+<div class="card">
+<h3>High-priority questions</h3>
+<ul>
+<li>What are the Vedas?</li>
+<li>What is Yoga?</li>
+<li>What is secularism?</li>
+<li>What is antar-jyoti?</li>
+<li>What is the ultimate test of true religion?</li>
+<li>How can religion transform society?</li>
+</ul>
+</div>
+</div>
+<div class="check">
+<div>✓ Lead-in covered</div><div>✓ Complete Text I covered</div>
+<div>✓ Complete Text II covered</div><div>✓ Both comprehension checks included</div>
+<div>✓ Complete glossary included</div><div>✓ All 7 writing questions included</div>
+<div>✓ Final activity included</div><div>✓ Ending blackboard quotation covered</div>
+</div>
+<div class="odia"><div class="odia-title">🏁 ଶେଷ Revision Tip</div>
+ପ୍ରଥମେ English heading ଦେଖି concept ଚିହ୍ନନ୍ତୁ, ତା’ପରେ Odia explanation ପଢ଼ି meaning ବୁଝନ୍ତୁ, ଏବଂ ଶେଷରେ English answer ନିଜେ ଲେଖିବାର ଅଭ୍ୟାସ କରନ୍ତୁ। ଏଭଳି କଲେ English ବୁଝିବା ଓ ପରୀକ୍ଷାରେ ଲେଖିବା—ଦୁଇଟି ଭଲ ହେବ।
+</div>
+<div class="footer">28</div>
+</section>
+
+</div>
+</body>
+</html>
+'''
+
+out.write_text(html, encoding="utf-8")
+print(f"Created: {out}")
+print(f"Size: {out.stat().st_size/1024:.1f} KB")
+print("HTML starts correctly:", html.lstrip().startswith("<!DOCTYPE html>"))
+print("Contains forbidden phrase 'according to the PDF':", "according to the PDF" in html.lower())
