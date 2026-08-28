@@ -1,0 +1,582 @@
+from pathlib import Path
+import html, re
+
+src = Path("/mnt/data/Eng.a son.In.pdf")
+out = Path("/mnt/data/A_Great_Son_of_India_Odisha_Class10_Visual_Lecture.html")
+
+# The uploaded source has been fully parsed in the conversation (8 pages).
+# Build a classroom/YouTube-friendly HTML lecture with source-derived content only.
+slides = []
+
+def esc(s):
+    return html.escape(s)
+
+def odia(text):
+    return f'<div class="odia"><div class="odia-title">ଓଡ଼ିଆରେ ସହଜ ବ୍ୟାଖ୍ୟା</div><p>{text}</p></div>'
+
+def card(title, text):
+    return f'<div class="card"><h3>{title}</h3><p>{text}</p></div>'
+
+def quote(text):
+    return f'<div class="quote">“{text}”</div>'
+
+def exam(text, cls="exam"):
+    return f'<div class="{cls}">{text}</div>'
+
+def slide(title, body, n, objective="Understand the key idea and connect it with the source text."):
+    return f'''<section class="slide">
+      <div class="kicker">Odisha Class 10 • English</div>
+      <h2>{title}</h2>
+      <div class="objective"><b>Learning Objective:</b> {objective}</div>
+      {body}
+      <div class="footer">{n}</div>
+    </section>'''
+
+# Cover
+slides.append(f'''<section class="slide cover">
+<div class="kicker">Odisha Class 10 • English • Complete Visual Lecture</div>
+<h1>A Great Son of India</h1>
+<p class="author">A speech by Dr. S. Radhakrishnan</p>
+<div class="hero-flow">
+<div class="hero-node">India</div><div class="arrow">→</div>
+<div class="hero-node">Swami Vivekananda</div><div class="arrow">→</div>
+<div class="hero-node">Teachings</div><div class="arrow">→</div>
+<div class="hero-node">Human & Social Transformation</div>
+</div>
+{odia("ଏହି lesson ରେ Dr. S. Radhakrishnan, Swami Vivekananda ଙ୍କ ଜୀବନ ଓ teachings ବିଷୟରେ କହୁଛନ୍ତି। Vivekananda ଭାରତର ଧାର୍ମିକ ଚେତନା, past ର treasures ଓ ମାନବ ସମାଜ ପାଇଁ ଏକ ବ୍ୟାପକ ଆଧ୍ୟାତ୍ମିକ ଦୃଷ୍ଟିକୋଣକୁ ବ୍ୟାଖ୍ୟା କରିଥିଲେ।")}
+<div class="goal"><b>Source coverage:</b> Lead-in → complete speech → both comprehension checks → glossary → writing → final activity.</div>
+<div class="footer">1</div>
+</section>''')
+
+slides.append(slide("1. Lead-in — Guess the Great Son of India",
+f'''<div class="grid">{card("The clue","Many great saints were born in India. One carried the teachings of the Upanisads to people around the world.")}
+{card("The speaker","Dr. Sarvapalli Radhakrishnan, described in the lesson as a great teacher and philosopher, speaks on the saint's 92nd birthday.")}
+{card("The question","Can you guess the name of the young saint?")}
+{card("Reading purpose","Read the lesson to know more about the great son of India.")}</div>
+{odia("Lead-in ରେ ଏକ great Indian saint ବିଷୟରେ clues ଦିଆଯାଇଛି। ସେ Upanisads ର teachings କୁ world ର people ଙ୍କ ପାଖକୁ ନେଇଥିଲେ। Lesson ରେ ଏହି saint ହେଉଛନ୍ତି Swami Vivekananda।")}
+{exam("<b>📌 Remember:</b> The lesson presents Vivekananda through a speech by Dr. S. Radhakrishnan.")}''', 2,
+"Identify the lesson’s central person, speaker and the purpose of the lead-in."))
+
+slides.append(slide("2. Opening of the Speech — Students and Vivekananda",
+f'''<div class="grid">
+{card("Occasion","The speaker is happy to be present and distribute prizes for recitation and speech competitions.")}
+{card("Students","Prize winners and other competitors had the opportunity to read writings of Swami Vivekananda.")}
+{card("Effect","The speaker has no doubt that they were impressed and inspired by what they read.")}
+{card("Freedom","Vivekananda’s life and teachings prepared people for the new age of freedom and showed how to consolidate that freedom.")}</div>
+{odia("Speech ର ଆରମ୍ଭରେ speaker students ଙ୍କ achievement କୁ congratulate କରୁଛନ୍ତି। Students Vivekananda ଙ୍କ writings ପଢ଼ିଥିଲେ ଏବଂ ସେଥିରୁ impressed ଓ inspired ହୋଇଥିଲେ। Speaker ଙ୍କ ମତରେ Vivekananda ଙ୍କ life ଓ teachings ନୂଆ freedom ର age ପାଇଁ people କୁ prepare କରିଥିଲା।")}
+{exam("<b>⭐ Exam Point:</b> Vivekananda is described as one of the great leaders of the <b>Indian Renaissance</b>.")}''', 3,
+"Understand why the speaker considers Vivekananda important to India’s new age of freedom."))
+
+slides.append(slide("3. Vivekananda — Interpreter, Not Formulator",
+f'''<div class="flow"><div class="node">India's past</div><div class="arrow">→</div><div class="node">Religious consciousness</div><div class="arrow">→</div><div class="node">Vivekananda interprets it</div><div class="arrow">→</div><div class="node">India + world</div></div>
+<div class="en"><b>Key idea:</b> Like the great teachers of India, Vivekananda did not claim to formulate a new system of thought. He interpreted India's religious consciousness and the treasures of her past.</div>
+<div class="card"><h3>Source connection</h3><p>His writings and speeches are strengthened by quotations from Indian scriptures and by the life and sayings of his great Master, Shri Ramakrishna.</p></div>
+{odia("Vivekananda ନୂଆ system of thought ତିଆରି କରିଛନ୍ତି ବୋଲି claim କରିନଥିଲେ। ସେ India ର religious consciousness ଓ past ର treasures କୁ interpret କରି India ଓ world ଙ୍କ ପାଇଁ explain କରିଥିଲେ।")}
+{exam("<b>📝 Exam Point:</b> “treasures of her past” refers to the spiritual and religious heritage of India presented through the lesson.")}''', 4,
+"Explain Vivekananda’s role as an interpreter of India’s religious heritage."))
+
+slides.append(slide("4. The Modern Age — Science and Democracy",
+f'''<div class="grid">
+{card("Science","The lesson says science is one of the two dominant features of the age and has come to stay.")}
+{card("Democracy","Democracy is the second dominant feature and must be supported by religion.")}
+{card("Reason","Educated people should not be asked to accept religious claims without rational evidence.")}
+{card("Intellectual conscience","What people are asked to accept should be justified and supported by reason.")}</div>
+<div class="cause"><span>Faith without reason</span><b>→</b><span>Wishful thinking</span></div>
+{odia("Modern age ର ଦୁଇଟି dominant feature ହେଉଛି science ଓ democracy। Education ଓ science ର age ରେ religious belief କୁ reason ବିନା accept କରିବାକୁ କୁହାଯାଇପାରେ ନାହିଁ। Faith ଓ reason ମଧ୍ୟରେ intellectual balance ଦରକାର।")}
+{exam("<b>⚠️ Common Mistake:</b> The text does not say science should replace religion. It says religious acceptance should be able to commend itself to reason.")}''', 5,
+"Understand the relationship among faith, reason, science and modern education."))
+
+slides.append(slide("5. Religion and Democracy",
+f'''<div class="flow"><div class="node">Religion</div><div class="arrow">+</div><div class="node">Democracy</div><div class="arrow">→</div><div class="node">Human unity</div></div>
+<div class="grid">
+{card("What religion should do","It should be the sustaining faith of democracy.")}
+{card("What religion should not support","Division among people, privileges, exploitation and wars.")}
+{card("Why religion may lose influence","The lesson says religions as practised may appear unscientific and undemocratic.")}</div>
+{odia("Religion ମଣିଷକୁ ମଣିଷଠାରୁ divide କରିବା ଉଚିତ ନୁହେଁ। Privilege, exploitation ଓ war କୁ support କଲେ religion ଆଜିର democratic society ପାଇଁ acceptable ହୋଇପାରେ ନାହିଁ।")}
+{exam("<b>🎯 Most Important:</b> Why should religion be the maintaining faith of democracy? Because it should support human unity rather than division, privilege or exploitation.")}''', 6,
+"Explain what kind of relationship the speech presents between religion and democracy."))
+
+slides.append(slide("6. The Eclipse of Religion",
+f'''<div class="card"><h3>Text’s explanation</h3><p>The speaker connects the “eclipse of religion” with the fact that religions, as they are practised, may seem <b>unscientific</b> and <b>undemocratic</b>.</p></div>
+<div class="comparison">
+<div><b>Unscientific</b><p>Not supported by the rational spirit expected in the modern age.</p></div>
+<div><b>Undemocratic</b><p>May divide people or support privileges and exploitation.</p></div>
+</div>
+{odia("“Eclipse of religion” ଏଠାରେ religion ସମ୍ପୂର୍ଣ୍ଣ ଶେଷ ହେବା ଅର୍ଥ ନୁହେଁ। Speaker ଙ୍କ argument ହେଉଛି—religion ଯେତେବେଳେ unscientific ଓ undemocratic ଭାବରେ practice ହୁଏ, ସେତେବେଳେ ତାହାର influence କମିଯାଏ।")}''', 7,
+"Interpret the phrase ‘eclipse of religion’ strictly through the source."))
+
+slides.append(slide("7. The Transience of Life",
+f'''<div class="grid3">
+{card("Written word","Passes away with time.")}
+{card("Painted picture","Belongs to the world of time.")}
+{card("Carved stone","Also subject to time.")}
+{card("Heroic act","Becomes part of history.")}
+{card("Civilizations","Great civilizations are subject to the law of time.")}
+{card("Earth","The speaker considers the possibility that the earth may one day become unfit for human habitation as the sun ages and alters.")}</div>
+{odia("Speaker କହୁଛନ୍ତି ଯେ ଏହି world ର ସବୁକିଛି transience ର ନିୟମ ଅଧୀନ। Written word, painting, stone, heroic act, civilization—ସବୁ time ର process ର ଅଂଶ।")}
+{exam("<b>📌 Remember:</b> <i>transience</i> = lasting for a short time.")}''', 8,
+"Understand the speech’s idea that worldly things are temporary and subject to time."))
+
+slides.append(slide("8. Time, Being and Becoming",
+f'''<div class="concept">
+<div class="bigword">TIME</div>
+<div class="sub">birth → death → history → process → change</div>
+</div>
+<div class="card"><h3>The fundamental question</h3><p>The speaker asks whether this world of continual events is self-sustaining and self-established, or whether there is a “Beyond” underlying it, unifying and inspiring it.</p></div>
+{odia("Time କୁ India ର tradition ରେ birth ଓ death ଦ୍ୱାରା symbolize କରାଯାଏ। World ର events ସବୁ becoming/process ର ଅଂଶ। Speaker ପ୍ରଶ୍ନ କରୁଛନ୍ତି—ଏହି changing world ପଛରେ କୌଣସି Beyond କିମ୍ବା Being ଅଛି କି?")}
+{exam("<b>📝 Exam Point:</b> The passage contrasts <b>becoming</b> with the possibility of a deeper <b>being</b> behind it.")}''', 9,
+"Follow the philosophical question raised by the speaker about time, becoming and being."))
+
+slides.append(slide("9. The World Beyond — Human Anxiety",
+f'''<div class="flow"><div class="node">Precarious world</div><div class="arrow">→</div><div class="node">Dread & anxiety</div><div class="arrow">→</div><div class="node">Longing for eternal life</div><div class="arrow">→</div><div class="node">Awareness of ultimate reality</div></div>
+<div class="card"><h3>The speaker's reasoning</h3><p>The feeling of the precariousness of the world is presented as a witness to a world beyond. It expresses a longing for life eternal in the midst of time.</p></div>
+{odia("World ର uncertainty ଦେଖି human being ଙ୍କ ମନରେ dread ଓ anxiety ଜନ୍ମ ନିଏ। Speaker ଏହି feeling କୁ world beyond ର ସୂଚନା ଭାବେ ଦେଖାଉଛନ୍ତି ଏବଂ eternal life ପାଇଁ longing ସହିତ ଯୋଡ଼ୁଛନ୍ତି।")}''', 10,
+"Understand how the speech connects human anxiety with the idea of a world beyond."))
+
+slides.append(slide("10. Comprehension Check I — Questions 1–5",
+f'''<div class="q"><b>1.</b> Who is the speaker?<div class="answer">Dr. S. Radhakrishnan.</div></div>
+<div class="q"><b>2.</b> On what occasion does he speak?<div class="answer">He speaks while distributing prizes for recitation and speech competitions, on the saint’s 92nd birthday as stated in the lead-in.</div></div>
+<div class="q"><b>3.</b> What does “treasure of her past” refer to?<div class="answer">India’s religious consciousness and the treasures of her past.</div></div>
+<div class="q"><b>4.</b> Where from did Vivekananda collect the treasure?<div class="answer">From India’s religious heritage, represented in the lesson through Indian scriptures and the life and sayings of Shri Ramakrishna.</div></div>
+<div class="q"><b>5.</b> How are religion and science interrelated?<div class="answer">The lesson says modern religious belief should be supported by reason and should commend itself to the intellectual conscience and spirit of science.</div></div>
+{odia("ଏହି answers ରେ source ର exact ideas ବ୍ୟବହାର କରନ୍ତୁ—speaker, occasion, India’s past, scriptures, Ramakrishna, reason ଓ science ଭଳି key words ରଖନ୍ତୁ।")}''', 11,
+"Prepare direct answers from the first comprehension check."))
+
+slides.append(slide("11. Comprehension Check I — Questions 6–10",
+f'''<div class="q"><b>6.</b> Why should religion be the maintaining faith of democracy?<div class="answer">Because religion should not divide people or support privileges, exploitation and wars; it should sustain democratic human unity.</div></div>
+<div class="q"><b>7.</b> What could be the reason for the eclipse of religion?<div class="answer">Religions as practised may seem unscientific and undemocratic.</div></div>
+<div class="q"><b>8.</b> What is the ultimate truth of life?<div class="answer">The passage points toward a Beyond/ultimate reality underlying and unifying the changing world.</div></div>
+<div class="q"><b>9.</b> How does time act as a powerful force?<div class="answer">Everything in the world passes away; civilizations and human acts become part of the process of history and time.</div></div>
+<div class="q"><b>10.</b> What explanation of the fundamental problem is provided by the Upanisads?<div class="answer">They explain that there is a Beyond of which the world is the expression, using logical arguments and experiences that witness to the Supreme.</div></div>''', 12,
+"Answer the remaining comprehension questions using the speaker’s argument."))
+
+slides.append(slide("12. The Upanisads and the Fundamental Problem",
+f'''<div class="grid">
+{card("Logical investigation","Great thinkers reached their conclusion through logical investigations.")}
+{card("Personal experience","They also relied on personal experience of people who witnessed the reality of the Supreme.")}
+{card("The Beyond","The Upanisads explain that there is a Beyond of which the world is the expression.")}
+{card("Spiritual experience","The Vedas are described as registers of spiritual experiences of great seers.")}</div>
+{odia("Upanisads ରେ fundamental problem ବିଷୟରେ logical arguments ଓ personal experiences ଦିଆଯାଇଛି। Source ଅନୁସାରେ, world ହେଉଛି ଏକ Beyond ର expression। Vedas କୁ great seers ଙ୍କ spiritual experiences ର registers ବୋଲି କୁହାଯାଇଛି।")}
+{exam("<b>⭐ Important:</b> Learn the distinction: Vedas here are presented as accumulated spiritual laws/experiences, not simply as books.")}''', 13,
+"Explain the source’s account of the Upanisads and the Vedas."))
+
+slides.append(slide("13. Vivekananda’s Meaning of the Vedas",
+f'''{quote("By the Vedas no books are meant. They mean the accumulated treasure of spiritual laws discovered by different persons in different times.")}
+<div class="flow"><div class="node">Different persons</div><div class="arrow">+</div><div class="node">Different times</div><div class="arrow">→</div><div class="node">Accumulated spiritual laws</div><div class="arrow">→</div><div class="node">Ever-expanding</div></div>
+{odia("ଏଠାରେ Vivekananda ଙ୍କ statement ଅନୁସାରେ Vedas କୁ କେବଳ books ଭାବରେ ନୁହେଁ, different people ଓ different times ରେ discover ହୋଇଥିବା spiritual laws ର accumulated treasure ଭାବରେ ବୁଝାଯାଏ। ସେଥିପାଇଁ ସେଗୁଡ଼ିକ ever-expanding ବୋଲି କୁହାଯାଇଛି।")}
+{exam("<b>🎯 Most Important Question:</b> What are the Vedas according to Vivekananda? — Learn the idea of accumulated spiritual laws discovered at different times by different persons.")}''', 14,
+"Understand the exact idea of the Vedas given in the speech."))
+
+slides.append(slide("14. Yoga — Personal Change and Spiritual Realization",
+f'''<div class="grid">
+{card("Yoga is","For Vivekananda, religion is Yoga: personal change, adjustment and integration.")}
+{card("Not merely","It is not simply profession of a doctrine or intellectual orthodoxy.")}
+{card("What it does","It is the reconditioning of one’s nature and awakening of the life of spirit in man.")}
+{card("Different paths","The goal of spiritual realization can be reached through different methods.")}</div>
+<div class="yoga-row"><span>Jnana Yoga</span><span>Raja Yoga</span><span>Bhakti Yoga</span><span>Karma Yoga</span></div>
+{odia("Vivekananda ଙ୍କ opinion ରେ religion ହେଉଛି Yoga—personal change, adjustment ଓ integration। Spiritual realization ପାଇଁ Jnana Yoga, Raja Yoga, Bhakti Yoga ଓ Karma Yoga ଭଳି different methods ଦିଆଯାଇଛି।")}
+{exam("<b>📌 Remember:</b> Four Yogas named in the source: <b>Jnana, Raja, Bhakti, Karma</b>.")}''', 15,
+"Learn the source’s definition of Yoga and the four Yogas named in the speech."))
+
+slides.append(slide("15. Spiritual Truth vs. Narrow Creeds",
+f'''<div class="comparison">
+<div><h3>Universal truths</h3><p>Broad spiritual truths connect with the immensity and mystery of spiritual life.</p></div>
+<div><h3>Particular creeds exalted above truth</h3><p>May lead people toward intolerance.</p></div>
+</div>
+<div class="cause"><span>Religious conceit</span><b>→</b><span>Intolerance</span></div>
+<div class="card"><h3>Humility</h3><p>The lesson says intolerance is an expression of religious conceit, not humility.</p></div>
+{odia("Spiritual life ବହୁତ ବିଶାଳ ଓ mysterious। Particular creed କୁ universal truth ଠାରୁ ଉପରେ ରଖିଲେ intolerance ବଢ଼ିପାରେ। Source ରେ intolerance କୁ religious conceit ର expression ବୋଲି କୁହାଯାଇଛି, humility ନୁହେଁ।")}''', 16,
+"Understand why the speech warns against intolerance and religious conceit."))
+
+slides.append(slide("16. Secularism and Freedom of Conscience",
+f'''<div class="grid">
+{card("Not indifference","The speaker says being secular does not mean being indifferent to religion.")}
+{card("Equal sacredness","They regard all religions as sacred.")}
+{card("Freedom of conscience","Each soul has the right to choose its own path and seek God in its own way.")}
+{card("More than tolerance","Secularism requires people not merely to tolerate, but to understand and love other religions.")}</div>
+{odia("Secularism ର meaning ଏଠାରେ religion କୁ ignore କରିବା ନୁହେଁ। All religions କୁ sacred ଭାବରେ respect କରିବା, freedom of conscience ଦେବା ଓ other religions କୁ understand ଓ love କରିବା—ଏହା lesson ର explanation।")}
+{exam("<b>📝 Exam Point:</b> “Freedom of conscience” = each soul’s right to choose its own path and seek God in its own way.")}''', 17,
+"Explain secularism and freedom of conscience exactly as presented in the text."))
+
+slides.append(slide("17. Shri Ramakrishna’s Experience — Unity of Religions",
+f'''<div class="card"><h3>The teaching presented through Vivekananda</h3><p>The source says Vivekananda taught people, keeping Shri Ramakrishna’s experience in mind, to unite themselves with every religion.</p></div>
+<div class="religion-flow">
+<div>Mohammedan<br><small>mosque</small></div><div>→</div><div>Zoroastrian<br><small>fire</small></div><div>→</div><div>Christian<br><small>Cross</small></div>
+</div>
+{odia("Ramakrishna ଙ୍କ experience କୁ ମନେ ରଖି Vivekananda religious unity ର teaching ଦେଇଥିଲେ। Source ରେ mosque, Zoroastrian fire ଓ Christian Cross ର examples ଦେଇ every religion ସହ unity ର idea ବୁଝାଯାଇଛି।")}
+{exam("<b>⭐ Important:</b> The point is unity with every religion, not mere tolerance.")}''', 18,
+"Understand the source’s example of religious unity."))
+
+slides.append(slide("18. Abuses of Religion — What Vivekananda Protested",
+f'''<div class="grid3">
+{card("Backwardness","The speech says Vivekananda felt miserable about India’s backwardness in several matters.")}
+{card("Obscurantism","Religion was sometimes confused with obscurantism and superstition.")}
+{card("Touchability / untouchability","He protested vehemently against the insistence on touchability and untouchability.")}
+{card("Core principle","These practices were inconsistent with the principle that the Divine is in all of us.")}</div>
+{odia("Vivekananda religion ର abuse ବିରୋଧରେ protest କରିଥିଲେ। Obscurantism, superstition ଓ touchability/untouchability ଭଳି practices କୁ source ରେ ତାଙ୍କ great religious principle ସହ inconsistent କୁହାଯାଇଛି।")}
+{exam("<b>⚠️ Common Mistake:</b> The lesson distinguishes religion itself from its abuse and harmful practices.")}''', 19,
+"Identify the abuses of religion that the source says Vivekananda opposed."))
+
+slides.append(slide("19. Antar-jyoti — The Divine Within",
+f'''<div class="concept"><div class="bigword">DIVINE</div><div class="sub">within us • in all of us • alive • ready to come to the surface</div></div>
+<div class="card"><h3>Antar-jyoti</h3><p>The text calls it the inner light and says it cannot be put out. The Divine is in us whether we know it or not.</p></div>
+<div class="cause"><span>Divine in man</span><b>→</b><span>Union with the Divine</span></div>
+{odia("“antar-jyoti” ଅର୍ଥ ହେଉଛି ଭିତରର light। Source କହୁଛି Divine ଆମ ଭିତରେ ଅଛି, alive ଅଛି ଓ suitable opportunity ରେ surface କୁ ଆସିପାରେ। Man ଙ୍କ end ହେଉଛି Divine ସହ union ପ୍ରାପ୍ତ କରିବା।")}
+{exam("<b>🎯 Most Important:</b> What is ‘antar-jyoti’ referred to in the text? — The inner light, the Divine present in all of us.")}''', 20,
+"Explain the meaning of ‘antar-jyoti’ from the source."))
+
+slides.append(slide("20. True Religion — The Ultimate Tests",
+f'''<div class="flow"><div class="node">Recognition of truth</div><div class="arrow">+</div><div class="node">Reconciliation with human beings</div><div class="arrow">→</div><div class="node">True religion</div></div>
+<div class="card"><h3>Overcoming enmity</h3><p>To overcome enemies, we must possess something that surpasses enmity: <b>ahimsa</b>, or renunciation of hatred.</p></div>
+{odia("True religion ର ultimate test ଦୁଇଟି—truth କୁ recognize କରିବା ଓ human beings ସହ reconciliation କରିବା। Enmity କୁ overcome କରିବା ପାଇଁ ahimsa, ଅର୍ଥାତ hatred କୁ renounce କରିବା, ଦରକାର।")}
+{exam("<b>📌 Remember:</b> <b>Ahimsa</b> is explained here as renunciation of hatred.")}''', 21,
+"Learn the two ultimate tests of true religion and the role of ahimsa."))
+
+slides.append(slide("21. Work as Worship — Service of God in Man",
+f'''<div class="flow"><div class="node">Work</div><div class="arrow">→</div><div class="node">Worship</div><div class="arrow">→</div><div class="node">Service of God in man</div><div class="arrow">→</div><div class="node">Human society changes</div></div>
+<div class="card"><h3>The national purpose</h3><p>The speaker says it is essential to be interested in constructive work and become dedicated spirits committed to a spiritual religion that transforms human society.</p></div>
+{odia("Vivekananda work କୁ worship ର level କୁ ଉଠାଇଥିଲେ। God in man ଙ୍କ service ମାଧ୍ୟମରେ salvation ଖୋଜିବାକୁ କୁହାଯାଇଛି। Constructive work ଓ dedication ଦ୍ୱାରା human society ର transformation ଲକ୍ଷ୍ୟ।")}
+{exam("<b>⭐ Exam Point:</b> Work → worship → service of God in man → transformation of human society.")}''', 22,
+"Understand the connection between work, worship, service and social transformation."))
+
+slides.append(slide("22. Ramrajya — The Final Social Ideal in the Speech",
+f'''<div class="card"><h3>What should constructive work achieve?</h3><p>A spiritual religion that transcends ecclesiastical organizations and doctrinal sophistries/subtleties and leads to the transformation of human society.</p></div>
+<div class="flow"><div class="node">Constructive work</div><div class="arrow">→</div><div class="node">Dedicated spirits</div><div class="arrow">→</div><div class="node">Spiritual religion</div><div class="arrow">→</div><div class="node">Transformation of society</div><div class="arrow">→</div><div class="node">Ramrajya / Kingdom of God</div></div>
+{odia("Country ର progress ପାଇଁ constructive work ଓ dedicated spirit ଦରକାର। ଏହା ଏମିତି spiritual religion ଦିଗରେ ନେଇଯିବା ଉଚିତ ଯାହା human society କୁ transform କରି Ramrajya କିମ୍ବା Kingdom of God ର ନିକଟକୁ ନେଇଯାଏ।")}
+{exam("<b>🎯 Most Important:</b> The source connects Ramrajya with the transformation of human society through constructive, dedicated work.")}''', 23,
+"Explain how the speech connects social transformation with Ramrajya."))
+
+slides.append(slide("23. Comprehension Check II — Questions 1–5",
+f'''<div class="q"><b>1.</b> What are the Vedas according to Vivekananda?<div class="answer">They are the accumulated treasure of spiritual laws discovered by different persons in different times.</div></div>
+<div class="q"><b>2.</b> What is Yoga in his opinion?<div class="answer">Religion is Yoga: personal change, adjustment and integration; it involves reconditioning one’s nature and awakening the life of spirit.</div></div>
+<div class="q"><b>3.</b> Which Yogas have been discussed in his writings?<div class="answer">Jnana Yoga, Raja Yoga, Bhakti Yoga and Karma Yoga.</div></div>
+<div class="q"><b>4.</b> What is secularism?<div class="answer">It is not indifference to religion; it regards all religions as sacred, respects freedom of conscience and requires understanding and love of other religions.</div></div>
+<div class="q"><b>5.</b> Which experience of Sri Ramakrishna does Vivekananda teach people?<div class="answer">The experience expressed through unity with every religion.</div></div>''', 24,
+"Prepare direct answers from the second comprehension check."))
+
+slides.append(slide("24. Comprehension Check II — Questions 6–9",
+f'''<div class="q"><b>6.</b> What are the abuses of religion?<div class="answer">The text points to obscurantism, superstition and insistence on touchability/untouchability, along with practices inconsistent with the Divine in all.</div></div>
+<div class="q"><b>7.</b> What is “antar-jyoti” referred to in the text?<div class="answer">The inner light—the Divine in us, in all of us, operative and alive.</div></div>
+<div class="q"><b>8.</b> What is the ultimate test of true religion?<div class="answer">Recognition of truth and reconciliation with human beings.</div></div>
+<div class="q"><b>9.</b> What are necessary for creating Ramrajya?<div class="answer">Constructive work and dedicated spirits committed to a spiritual religion that transforms human society.</div></div>
+{odia("Second comprehension check ର answers ର key words: Vedas, Yoga, secularism, Ramakrishna, abuses of religion, antar-jyoti, truth, reconciliation, constructive work ଓ dedicated spirits।")}''', 25,
+"Answer the remaining questions using the speech’s second half."))
+
+slides.append(slide("25. Glossary — Part 1",
+f'''<table><tr><th>Word</th><th>Simple English</th><th>ଓଡ଼ିଆ meaning</th></tr>
+<tr><td>renaissance</td><td>rebirth / reawakening of art, culture etc.</td><td>କଳା, ସଂସ୍କୃତି ଆଦିର ପୁନର୍ଜାଗରଣ</td></tr>
+<tr><td>profess</td><td>to claim</td><td>ଦାବି କରିବା</td></tr>
+<tr><td>fortified</td><td>strengthened</td><td>ସୁଦୃଢ଼ କରାଯାଇଥିବା</td></tr>
+<tr><td>transcendent</td><td>beyond human experience</td><td>ମାନବ ଅନୁଭବର ସୀମା ପରେ</td></tr>
+<tr><td>deliverances</td><td>the act of delivering something</td><td>ପ୍ରଦାନ / ପହଞ୍ଚାଇବାର କାର୍ଯ୍ୟ</td></tr>
+<tr><td>commends</td><td>presents as suitable</td><td>ଉପଯୁକ୍ତ ବୋଲି ପ୍ରସ୍ତୁତ କରେ</td></tr>
+<tr><td>transience</td><td>lasting for a short time</td><td>ଅଳ୍ପ ସମୟ ରହିବା / କ୍ଷଣସ୍ଥାୟୀତ୍ୱ</td></tr>
+<tr><td>perpetual</td><td>never ending</td><td>ଚିରନ୍ତନ / ଅବିରତ</td></tr>
+<tr><td>annihilate</td><td>destroy completely</td><td>ସମ୍ପୂର୍ଣ୍ଣ ନଷ୍ଟ କରିଦେବା</td></tr>
+<tr><td>precariousness</td><td>uncertainty</td><td>ଅନିଶ୍ଚିତତା</td></tr>
+</table>''', 26,
+"Build exam-ready vocabulary with simple English and Odia meanings."))
+
+slides.append(slide("26. Glossary — Part 2",
+f'''<table><tr><th>Word</th><th>Simple English</th><th>ଓଡ଼ିଆ meaning</th></tr>
+<tr><td>implicit</td><td>not directly expressed / implied</td><td>ପରୋକ୍ଷ / ନିହିତ</td></tr>
+<tr><td>godforsaken</td><td>not interesting or attractive in any way</td><td>ନିରସ / ଆକର୍ଷଣହୀନ</td></tr>
+<tr><td>exalt</td><td>praise highly or promote</td><td>ଅତ୍ୟଧିକ ପ୍ରଶଂସା / ଉଚ୍ଚ ସ୍ଥାନ ଦେବା</td></tr>
+<tr><td>obscurantism</td><td>practice of opposing enlightenment</td><td>ଜ୍ଞାନୋଦୟକୁ ବିରୋଧ କରିବାର ପ୍ରବୃତ୍ତି</td></tr>
+<tr><td>vehemently</td><td>strongly / forcefully</td><td>ତୀବ୍ର ଭାବରେ / ଜୋରଦାର ଭାବେ</td></tr>
+<tr><td>reconciliation</td><td>setting differences / harmonising</td><td>ମତଭେଦ ଦୂର କରି ସମନ୍ୱୟ</td></tr>
+<tr><td>renunciation</td><td>act of giving up</td><td>ତ୍ୟାଗ / ପରିତ୍ୟାଗ</td></tr>
+<tr><td>exhorted</td><td>strongly advised or urged</td><td>ଦୃଢ଼ ଭାବେ ପରାମର୍ଶ / ଆହ୍ୱାନ କରିବା</td></tr>
+<tr><td>ecclesiastical</td><td>relating to religion, especially church</td><td>ଧାର୍ମିକ, ବିଶେଷତଃ ଚର୍ଚ୍ଚ ସମ୍ବନ୍ଧୀୟ</td></tr>
+<tr><td>doctrinal sophistries</td><td>unsound reasoning for principles</td><td>ସିଦ୍ଧାନ୍ତ ସମ୍ବନ୍ଧୀୟ ଭ୍ରାନ୍ତ ଯୁକ୍ତି</td></tr>
+<tr><td>subtleties</td><td>fine distinctions / ability to make them</td><td>ସୂକ୍ଷ୍ମ ପାର୍ଥକ୍ୟ</td></tr>
+</table>''', 27,
+"Learn the remaining glossary words and their source meanings."))
+
+# Writing section with answers based on source
+writing_answers = [
+("1. What made Dr. Radhakrishnan think that the students were impressed and inspired?",
+ "They had the opportunity to read some of Swami Vivekananda’s writings, and the speaker says he had no doubt that they were impressed and inspired by what they had read."),
+("2. How can we explain that Vivekananda was one of the leaders of the Indian Renaissance?",
+ "He interpreted India’s religious consciousness and the treasures of her past, and his life and teachings prepared people for the new age of freedom. The speech therefore places him among the great leaders of the Indian Renaissance."),
+("3. Why were the writings and speeches of Vivekananda very powerful?",
+ "They were strengthened by quotations from Indian scriptures and by the life and sayings of his great Master, Shri Ramakrishna. They also interpreted India’s religious consciousness and its spiritual heritage."),
+("4. Why does the speaker consider ‘science and democracy’ as the dominant features of the modern world?",
+ "The speech says science and democracy have come to stay. Modern educated people require religious claims to be supported by reason, while religion should sustain democracy rather than divide people or support privilege and exploitation."),
+("5. What could be the reasons for this earth being unfit for human habitation?",
+ "The speech says that as the sun ages and alters, the earth on which we live may one day become unfit for human habitation. The answer should stay within this possibility stated by the speaker."),
+("6. Why are the Vedas ever-expanding? And what is the light that lighteth every man?",
+ "The Vedas are called an accumulated treasure of spiritual laws discovered by different persons in different times, so they are ever-expanding. The light that lighteth every man is the Divine or antar-jyoti present in all of us."),
+("7. How can religion lead to the transformation of human society?",
+ "Religion can do so through constructive work and dedicated spirits, through a spiritual religion that transcends ecclesiastical organization and doctrinal sophistries and leads society nearer to Ramrajya or the Kingdom of God.")
+]
+body = ""
+for q,a in writing_answers:
+    body += f'<div class="q"><b>{esc(q)}</b><div class="answer">{esc(a)}</div></div>'
+slides.append(slide("27. Writing — 50-Word Answers", body + odia("Writing section ର answers source ର ideas କୁ concise form ରେ arrange କରିଛି। Exam ରେ about fifty words ରେ clear, connected answer ଲେଖନ୍ତୁ।"), 28,
+"Prepare concise, source-based answers for all seven writing questions."))
+
+slides.append(slide("28. Writing Strategy — How to Score Better",
+f'''<div class="flow"><div class="node">Question keyword</div><div class="arrow">→</div><div class="node">Find source idea</div><div class="arrow">→</div><div class="node">2–4 linked points</div><div class="arrow">→</div><div class="node">Clear answer</div></div>
+<div class="grid">
+{card("For 50 words","Do not write unrelated background. Answer the exact question using the speech’s ideas.")}
+{card("Key vocabulary","Use terms such as Renaissance, reason, democracy, Vedas, Yoga, secularism, antar-jyoti, ahimsa, constructive work and Ramrajya when relevant.")}
+{card("Avoid","Do not add outside biographical or historical facts not present in the source.")}</div>
+{odia("Writing answer ରେ question ଯାହା ପଚାରିଛି ସେଇ point କୁ first identify କରନ୍ତୁ। Source ର key idea ନେଇ 2–4 connected points ରେ answer ଲେଖନ୍ତୁ। Unrelated outside facts ଦିଅନ୍ତୁ ନାହିଁ।")}
+{exam("<b>📝 Exam Point:</b> The writing section explicitly asks for answers in about fifty words.")}''', 29,
+"Turn source ideas into short, focused exam answers."))
+
+slides.append(slide("29. Activity — Group Work",
+f'''<div class="activity-flow">
+<div class="node">Class divided into 4–5 groups</div><div class="arrow">→</div>
+<div class="node">Choose an activity inspired by Vivekananda’s advice</div><div class="arrow">→</div>
+<div class="node">Discuss within group</div><div class="arrow">→</div>
+<div class="node">Present the plan</div><div class="arrow">→</div>
+<div class="node">Other groups ask, interact & suggest</div>
+</div>
+<div class="card"><h3>Blackboard focus from the source</h3><p>The activity points learners to constructive work, dedicated spirits, a spiritual religion, transformation of human society and Ramrajya/Kingdom of God.</p></div>
+{odia("Activity ରେ class କୁ 4 କିମ୍ବା 5 groups ରେ divide କରାଯିବ। ପ୍ରତ୍ୟେକ group Vivekananda ଙ୍କ advice ଅନୁସାରେ ଗୋଟିଏ activity ଭାବିବ, discuss କରିବ, plan present କରିବ ଏବଂ ଅନ୍ୟ group ର questions/suggestions ନେବ।")}
+{exam("<b>📌 Source instruction:</b> The final page states: <b>Questions not to be set in the examination from this topic.</b>") }''', 30,
+"Understand and reproduce the exact classroom activity procedure."))
+
+# Grammar note
+slides.append(slide("30. Grammar Check — What the Source Contains",
+f'''<div class="card"><h3>No separate grammar lesson appears in the uploaded chapter.</h3><p>The source contains Lead-in, The Text, two Comprehension Checks, Glossary, Writing and Activity. It does <b>not</b> provide a grammar topic with rules, structures, examples and grammar exercises.</p></div>
+{odia("ଏହି uploaded chapter ରେ ଅଲଗା Grammar section ନାହିଁ। ସେଥିପାଇଁ outside grammar rules ଯୋଡ଼ାଯାଇନାହିଁ। Source ର sequence ଓ accuracy rule ଅନୁସାରେ କେବଳ ଥିବା content କୁ lecture ରେ ରଖାଯାଇଛି।")}
+{exam("<b>⚠️ Accuracy Rule:</b> No outside grammar content has been invented for this chapter.")}''', 31,
+"Verify whether the uploaded chapter actually contains a grammar section."))
+
+slides.append(slide("31. Visual Concept Map — Entire Lesson",
+f'''<div class="map">
+<div class="mapbox">Vivekananda<br><small>Indian Renaissance</small></div>
+<div class="maprow"><span>India’s past</span><b>→</b><span>Religious consciousness</span><b>→</b><span>Interpretation</span></div>
+<div class="maprow"><span>Science</span><b>+</b><span>Reason</span><b>+</b><span>Democracy</span></div>
+<div class="maprow"><span>Vedas</span><b>→</b><span>Yoga</span><b>→</b><span>Spiritual realization</span></div>
+<div class="maprow"><span>Secularism</span><b>→</b><span>Freedom of conscience</span><b>→</b><span>Religious unity</span></div>
+<div class="maprow"><span>Antar-jyoti</span><b>→</b><span>Ahimsa</span><b>→</b><span>Human reconciliation</span></div>
+<div class="maprow"><span>Constructive work</span><b>→</b><span>Social transformation</span><b>→</b><span>Ramrajya</span></div>
+</div>
+{odia("ଏହି concept map ରେ lesson ର main ideas କୁ sequence ରେ ଦେଖାଯାଇଛି। Exam ର long answer ପାଇଁ ଏହି connections ମନେ ରଖିଲେ answer ଗଠନ କରିବା ସହଜ ହୁଏ।")}''', 32,
+"Connect the major ideas of the complete speech in one visual map."))
+
+slides.append(slide("32. 15 Key Revision Points",
+'''<ol>
+<li>Dr. S. Radhakrishnan is the speaker.</li>
+<li>The speech discusses Swami Vivekananda.</li>
+<li>Vivekananda is presented as a leader of the Indian Renaissance.</li>
+<li>He interpreted India’s religious consciousness and treasures of the past.</li>
+<li>His writings and speeches draw strength from Indian scriptures and Shri Ramakrishna.</li>
+<li>Science and democracy are called dominant features of the age.</li>
+<li>Modern religious belief should be able to meet reason and intellectual conscience.</li>
+<li>Religion should sustain democracy and should not support division, privilege, exploitation or wars.</li>
+<li>The world is transient and subject to time.</li>
+<li>The Upanisads explain a Beyond underlying the changing world.</li>
+<li>The Vedas are presented as accumulated spiritual laws discovered at different times by different persons.</li>
+<li>Yoga means personal change, adjustment and integration; four Yogas are named.</li>
+<li>Secularism includes freedom of conscience and understanding/loving other religions.</li>
+<li>The Divine/antar-jyoti is present in all; true religion involves truth and reconciliation.</li>
+<li>Constructive work and dedication should transform society toward Ramrajya/Kingdom of God.</li>
+</ol>''', 33,
+"Recall the complete chapter in fifteen exam-ready points."))
+
+slides.append(slide("33. Quick Revision Table",
+'''<table><tr><th>Topic</th><th>Remember this</th><th>ଓଡ଼ିଆ ସଙ୍କେତ</th></tr>
+<tr><td>Speaker</td><td>Dr. S. Radhakrishnan</td><td>ବକ୍ତା</td></tr>
+<tr><td>Great son</td><td>Swami Vivekananda</td><td>ମୁଖ୍ୟ ବ୍ୟକ୍ତି</td></tr>
+<tr><td>Renaissance</td><td>Vivekananda as a great leader</td><td>ପୁନର୍ଜାଗରଣ</td></tr>
+<tr><td>Modern age</td><td>Science + Democracy</td><td>ବିଜ୍ଞାନ + ଗଣତନ୍ତ୍ର</td></tr>
+<tr><td>Religion</td><td>Reason + democratic human unity</td><td>ଯୁକ୍ତି + ମାନବ ଏକତା</td></tr>
+<tr><td>Vedas</td><td>Accumulated spiritual laws</td><td>ଆଧ୍ୟାତ୍ମିକ ନିୟମର ସଞ୍ଚିତ ଧନ</td></tr>
+<tr><td>Yoga</td><td>Change, adjustment, integration</td><td>ପରିବର୍ତ୍ତନ, ସମନ୍ୱୟ</td></tr>
+<tr><td>Secularism</td><td>All religions sacred + freedom of conscience</td><td>ସମସ୍ତ ଧର୍ମ ପ୍ରତି ସମ୍ମାନ</td></tr>
+<tr><td>Antar-jyoti</td><td>Divine within all</td><td>ଭିତରର ଦିବ୍ୟ ଆଲୋକ</td></tr>
+<tr><td>True religion</td><td>Truth + reconciliation</td><td>ସତ୍ୟ + ମାନବ ସମନ୍ୱୟ</td></tr>
+<tr><td>Final ideal</td><td>Ramrajya / Kingdom of God</td><td>ସମାଜର ରୂପାନ୍ତରଣର ଆଦର୍ଶ</td></tr>
+</table>''', 34,
+"Use the table for rapid pre-exam revision."))
+
+slides.append(slide("34. Vocabulary Quick Quiz",
+f'''<div class="grid3">
+<div class="q"><b>1. renaissance</b><div class="answer">rebirth / reawakening of art, culture etc.</div></div>
+<div class="q"><b>2. transience</b><div class="answer">lasting for a short time</div></div>
+<div class="q"><b>3. precariousness</b><div class="answer">uncertainty</div></div>
+<div class="q"><b>4. obscurantism</b><div class="answer">opposing enlightenment</div></div>
+<div class="q"><b>5. reconciliation</b><div class="answer">setting differences / harmonising</div></div>
+<div class="q"><b>6. renunciation</b><div class="answer">giving up</div></div>
+<div class="q"><b>7. exhorted</b><div class="answer">strongly advised or urged</div></div>
+<div class="q"><b>8. exalt</b><div class="answer">praise highly or promote</div></div>
+<div class="q"><b>9. perpetual</b><div class="answer">never ending</div></div>
+</div>
+{odia("Vocabulary practice ରେ English word ଦେଖି meaning କହନ୍ତୁ। ପରେ Odia meaning ଦେଖି English word recall କରନ୍ତୁ। ଏହା ଦ୍ୱିମୁଖୀ revision।")}''', 35,
+"Recall important glossary words in both directions."))
+
+slides.append(slide("35. Most Important Questions",
+f'''<div class="grid">
+<div>
+<h3>Very Short / Short</h3>
+<p>• Who is the speaker?</p>
+<p>• What are the two dominant features of the age?</p>
+<p>• What are the Vedas according to Vivekananda?</p>
+<p>• What is Yoga?</p>
+<p>• What is secularism?</p>
+<p>• What is antar-jyoti?</p>
+</div>
+<div>
+<h3>Long / Analytical</h3>
+<p>• Why should religion sustain democracy?</p>
+<p>• Explain the Upanisadic explanation of the fundamental problem.</p>
+<p>• Explain Vivekananda’s idea of Yoga and spiritual realization.</p>
+<p>• What are the abuses of religion mentioned?</p>
+<p>• How can religion transform human society?</p>
+<p>• Explain the path toward Ramrajya.</p>
+</div>
+</div>
+{odia("Exam ରେ direct questions ସହ explanation-based questions ମଧ୍ୟ ଆସିପାରେ ବୋଲି preparation ପାଇଁ ଏହି list ଦିଆଯାଇଛି। ପ୍ରତ୍ୟେକ answer source ର argument ସହ ଲେଖନ୍ତୁ।")}''', 36,
+"Prioritise the questions that cover the chapter’s central ideas."))
+
+slides.append(slide("36. Final MCQ Quiz — Round 1",
+f'''<div class="q"><b>1.</b> Who is the speaker? <b>A</b> Swami Vivekananda &nbsp; <b>B</b> Dr. S. Radhakrishnan &nbsp; <b>C</b> Shri Ramakrishna</div>
+<div class="q"><b>2.</b> Vivekananda is called a leader of the: <b>A</b> Indian Renaissance &nbsp; <b>B</b> Industrial Revolution &nbsp; <b>C</b> Green Revolution</div>
+<div class="q"><b>3.</b> The two dominant features of the age are: <b>A</b> art and music &nbsp; <b>B</b> science and democracy &nbsp; <b>C</b> war and politics</div>
+<div class="q"><b>4.</b> According to the source, the Vedas are: <b>A</b> only books &nbsp; <b>B</b> accumulated spiritual laws &nbsp; <b>C</b> political structures</div>
+<div class="q"><b>5.</b> Which is NOT one of the four Yogas named? <b>A</b> Jnana &nbsp; <b>B</b> Raja &nbsp; <b>C</b> Social &nbsp; <b>D</b> Karma</div>
+<div class="q"><b>6.</b> Secularism requires us to: <b>A</b> ignore religions &nbsp; <b>B</b> understand and love other religions &nbsp; <b>C</b> support only one religion</div>
+<div class="q"><b>7.</b> Antar-jyoti refers to: <b>A</b> political power &nbsp; <b>B</b> the Divine within &nbsp; <b>C</b> scientific law</div>''', 37,
+"Test your understanding of the first set of core concepts."))
+
+slides.append(slide("37. Final MCQ Quiz — Round 2 + Answer Key",
+f'''<div class="q"><b>8.</b> The ultimate tests of true religion are: <b>A</b> wealth and power &nbsp; <b>B</b> truth and reconciliation &nbsp; <b>C</b> victory and privilege</div>
+<div class="q"><b>9.</b> Ahimsa is explained as: <b>A</b> renunciation of hatred &nbsp; <b>B</b> victory over others &nbsp; <b>C</b> intellectual orthodoxy</div>
+<div class="q"><b>10.</b> Vivekananda raised ______ to the level of worship. <b>A</b> work &nbsp; <b>B</b> argument &nbsp; <b>C</b> competition</div>
+<div class="q"><b>11.</b> The final social ideal named is: <b>A</b> Ramrajya / Kingdom of God &nbsp; <b>B</b> isolation &nbsp; <b>C</b> exploitation</div>
+<div class="exam"><b>ANSWER KEY:</b> 1-B, 2-A, 3-B, 4-B, 5-C, 6-B, 7-B, 8-B, 9-A, 10-A, 11-A</div>
+{odia("MCQ ରେ option ମନେ ରଖିବା ଠାରୁ concept ମନେ ରଖନ୍ତୁ: speaker, Renaissance, science-democracy, Vedas, Yogas, secularism, antar-jyoti, truth-reconciliation, ahimsa, work ଓ Ramrajya।")}''', 38,
+"Complete the final MCQ round and self-check with the answer key."))
+
+slides.append(slide("38. Completeness Check — Every Section Included",
+f'''<div class="check">
+<div>✓ A. Lead-in</div><div>✓ B. The Text — complete speech</div>
+<div>✓ Comprehension Check I — 10 questions</div><div>✓ Comprehension Check II — 9 questions</div>
+<div>✓ C. Glossary — all listed words</div><div>✓ D. Writing — all 7 questions</div>
+<div>✓ E. Activity — complete group procedure</div><div>✓ Final-page instruction checked</div>
+</div>
+<div class="card"><h3>Source boundary</h3><p>No separate grammar section is present in the uploaded chapter, so no outside grammar lesson has been added.</p></div>
+{odia("ପୂରା chapter ର beginning ଠାରୁ last page ପର୍ଯ୍ୟନ୍ତ section-by-section cover କରାଯାଇଛି। Final page ର activity ଓ “Questions not to be set…” instruction ମଧ୍ୟ include କରାଯାଇଛି।")}
+{exam("<b>⭐ Final Check:</b> Do not skip the two Comprehension Checks, the seven Writing questions, or the last-page Activity.")}''', 39,
+"Verify that no source section, exercise or final-page instruction has been skipped."))
+
+slides.append(slide("39. Final Teacher Recap",
+f'''<div class="hero-flow">
+<div class="hero-node">Vivekananda</div><div class="arrow">→</div>
+<div class="hero-node">India’s spiritual heritage</div><div class="arrow">→</div>
+<div class="hero-node">Reason + Democracy</div><div class="arrow">→</div>
+<div class="hero-node">Religious unity</div><div class="arrow">→</div>
+<div class="hero-node">Divine within</div><div class="arrow">→</div>
+<div class="hero-node">Truth + Ahimsa</div><div class="arrow">→</div>
+<div class="hero-node">Constructive work</div><div class="arrow">→</div>
+<div class="hero-node">Ramrajya</div>
+</div>
+<div class="quote">Faith, reason, human unity and constructive service are connected in the speech’s vision of transformed society.</div>
+{odia("ଏକ sentence ରେ lesson: Swami Vivekananda India ର spiritual heritage କୁ interpret କରି, reason ଓ democracy ସହ compatible religion, all religions ପ୍ରତି unity, ମନୁଷ୍ୟ ଭିତରେ Divine, truth ଓ ahimsa, ଏବଂ constructive work ମାଧ୍ୟମରେ human society କୁ Ramrajya ଦିଗକୁ ନେବାର vision ଦେଇଥିଲେ।")}
+<div class="goal"><b>Final memory chain:</b> <i>Renaissance → Science & Democracy → Beyond → Vedas → Yoga → Secularism → Antar-jyoti → Ahimsa → Work as Worship → Ramrajya.</i></div>''', 40,
+"Revise the entire chapter as one connected idea."))
+
+css = r'''
+:root{
+ --ink:#173b4d;--muted:#667b84;--paper:#fbfaf5;--bg:#e9eff0;--card:#fff;
+ --accent:#146b73;--accent2:#2f8790;--gold:#b77a17;--line:#d6e1e4;
+ --soft:#edf8f7;--odia:#fff6df;--exam:#eef6ff;--warn:#fff0ec;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans",Arial,sans-serif;line-height:1.52}
+.deck{max-width:1160px;margin:auto;padding:18px}
+.slide{background:var(--paper);min-height:660px;margin:0 0 22px;padding:34px;border:1px solid #d2dee1;border-radius:22px;box-shadow:0 8px 25px rgba(20,55,70,.09);position:relative;overflow:hidden}
+.cover{background:linear-gradient(135deg,#edf9f7,#fff8e7)}
+.kicker{text-transform:uppercase;letter-spacing:.11em;font-size:12px;font-weight:900;color:var(--accent)}
+h1{font-size:55px;line-height:1.03;margin:12px 0;color:#11374b}
+h2{font-size:30px;line-height:1.12;margin:0 0 13px;color:#123c51}
+h3{margin:4px 0 7px}
+p{margin:5px 0}
+.author{font-size:21px;font-weight:800}
+.objective{background:#f1f6f7;border-left:5px solid var(--accent);padding:9px 13px;border-radius:9px;margin:0 0 14px;color:#355c69}
+.goal{margin-top:18px;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.card,.q{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:13px}
+.odia{background:var(--odia);border:1px solid #dfc174;border-radius:15px;padding:13px 16px;margin:13px 0}
+.odia-title{font-weight:900;color:#8a5a00;margin-bottom:4px}
+.en{background:var(--soft);border-left:5px solid var(--accent);padding:13px 15px;border-radius:9px;margin:12px 0}
+.exam{background:var(--exam);border-left:6px solid var(--accent);padding:11px 14px;border-radius:9px;margin:12px 0}
+.quote{font-size:20px;font-weight:750;background:#fff9e9;border-left:5px solid var(--gold);padding:12px 16px;border-radius:9px;margin:13px 0}
+.warn{background:var(--warn);border-left-color:#bf5540}
+.flow,.hero-flow,.activity-flow{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;margin:17px 0}
+.node,.hero-node{background:#fff;border:2px solid #9dc7c9;border-radius:13px;padding:10px 13px;text-align:center;font-weight:850}
+.hero-node{font-size:15px;min-width:125px}
+.arrow{font-size:22px;color:var(--accent);font-weight:900}
+.cause{display:flex;justify-content:center;align-items:center;gap:18px;margin:17px auto;padding:13px;background:#f4f7f6;border-radius:13px;max-width:760px;font-weight:800}
+.cause span{background:#fff;border:1px solid var(--line);border-radius:10px;padding:9px 13px}
+.cause b{color:var(--accent);font-size:20px}
+.comparison{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0}
+.comparison>div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px}
+.concept{text-align:center;background:#f2f8f7;border:1px solid #b8d4d5;border-radius:17px;padding:15px;margin:12px 0}
+.bigword{font-size:31px;font-weight:950;letter-spacing:.08em;color:var(--accent)}
+.sub{font-weight:700;color:#52727a}
+.yoga-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:15px 0}
+.yoga-row span{background:#fff;border:2px solid #b8d4d5;border-radius:12px;padding:12px;text-align:center;font-weight:850}
+.religion-flow{display:flex;justify-content:center;align-items:center;gap:13px;text-align:center;font-weight:850;margin:18px 0}
+.religion-flow>div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:13px;min-width:135px}
+.map{background:#f3f8f7;border:1px solid #c5dada;border-radius:18px;padding:15px}
+.mapbox{width:230px;margin:0 auto 12px;background:#fff;border:2px solid #83b8bb;border-radius:14px;padding:13px;text-align:center;font-weight:900;font-size:19px}
+.maprow{display:flex;justify-content:center;align-items:center;gap:9px;flex-wrap:wrap;margin:9px 0}
+.maprow span{background:#fff;border:1px solid var(--line);border-radius:9px;padding:8px 11px;font-weight:750}
+.maprow b{color:var(--accent)}
+table{width:100%;border-collapse:collapse;background:#fff}
+th,td{border:1px solid var(--line);padding:8px 9px;vertical-align:top}
+th{background:#eaf4f4;text-align:left}
+.answer{background:#f1f6f7;border-radius:8px;padding:8px 10px;margin-top:6px}
+.q{margin:8px 0}
+.activity-flow .node{max-width:190px}
+.check{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}
+.check div{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px}
+.footer{position:absolute;right:20px;bottom:11px;color:#8b999f;font-size:11px}
+.small{font-size:13px;color:var(--muted)}
+ol{margin-top:7px}
+li{margin:5px 0}
+@media(max-width:760px){
+ .deck{padding:6px}.slide{padding:21px;min-height:auto;border-radius:16px}
+ h1{font-size:38px}h2{font-size:25px}
+ .grid,.grid3,.comparison,.check{grid-template-columns:1fr}
+ .yoga-row{grid-template-columns:1fr 1fr}
+ .flow,.hero-flow,.activity-flow{display:block}
+ .node,.hero-node{margin:7px auto;max-width:90%}
+ .arrow{display:block;text-align:center;transform:rotate(90deg)}
+ .religion-flow{display:grid;grid-template-columns:1fr;gap:5px}
+ .maprow{display:block}.maprow span{display:inline-block;margin:3px}
+ table{font-size:12px}
+}
+'''
+html_doc = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>A Great Son of India — Odisha Class 10 Visual Lecture</title>
+<style>{css}</style>
+</head>
+<body>
+<div class="deck">
+{''.join(slides)}
+</div>
+</body>
+</html>'''
+
+out.write_text(html_doc, encoding="utf-8")
+
+print("Created:", out)
+print("Slides:", len(slides))
+print("File size:", round(out.stat().st_size/1024, 1), "KB")
+print("Source exists:", src.exists(), "(", src.stat().st_size, "bytes )")
+print("Odia explanation sections:", html_doc.count("ଓଡ଼ିଆରେ ସହଜ ବ୍ୟାଖ୍ୟା"))
+print("Comprehension checks included:", "Comprehension Check I" in html_doc and "Comprehension Check II" in html_doc)
+print("All 7 writing questions included:", all(str(i)+". " in html_doc for i in range(1,8)))
+print("Final activity + no-exam instruction included:", "Questions not to be set in the examination" in html_doc)
