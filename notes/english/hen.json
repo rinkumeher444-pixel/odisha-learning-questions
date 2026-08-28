@@ -1,5 +1,4 @@
-from pathlib import Path
-from html import escape
+
 
 out = Path("/mnt/data/A_Grain_as_Big_as_a_Hens_Egg_Odisha_Class10_Visual_Lecture.html")
 
