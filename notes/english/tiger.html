@@ -1,202 +1,292 @@
-from pathlib import Path
-import html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>A Tiger in the House</title>
+  <style>
+    :root{--bg:#eef5f6;--text:#173247;--accent:#0b7285;--card:#ffffff}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:"Noto Sans Oriya","Nirmala UI","Kalinga","Segoe UI",Arial,sans-serif;line-height:1.7}
+    .wrap{max-width:1100px;margin:24px auto;padding:18px}
+    .hero{background:linear-gradient(90deg,#dff3f6,#f7fbfc);padding:22px;border-radius:8px;margin-bottom:18px}
+    .badge{display:inline-block;background:var(--accent);color:#fff;padding:6px 10px;border-radius:6px;font-weight:700;margin-bottom:8px}
+    h1{margin:8px 0 4px;font-size:28px}
+    h2{margin:6px 0 10px;font-size:20px;color:var(--accent)}
+    section{background:var(--card);padding:16px;border-radius:8px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,0.04)}
+    .steps{display:block;margin-top:8px}
+    .step{padding:8px 0;border-bottom:1px dashed #e6f0f2}
+    .step:last-child{border-bottom:0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:12px}
+    .card{background:#fbffff;padding:10px;border-radius:6px;border:1px solid #e6f0f2}
+    .flow{display:flex;gap:10px;align-items:center;margin-top:10px;flex-wrap:wrap}
+    .key{margin-top:10px;padding:10px;background:#fff8e6;border-radius:6px;border:1px solid #f3e2b9}
+    .exam{margin-top:10px;padding:10px;background:#eef8ff;border-radius:6px;border:1px solid #d7ecff}
+    table{width:100%;border-collapse:collapse;margin-top:10px}
+    th,td{padding:9px;border:1px solid #ccd9de;text-align:left}
+    .footer{text-align:center;color:#7a8b92;margin-top:18px;font-size:14px}
+    @media (max-width:560px){h1{font-size:22px}} 
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <span class="badge">ODISHA CLASS 10 • ENGLISH</span>
+      <h1>A TIGER IN THE HOUSE</h1>
+      <p><b>Ruskin Bond</b></p>
+      <div class="flow"><span>Jungle Discovery</span><b>→</b><span>Home Life</span><b>→</b><span>Turn at 6 months</span><b>→</b><span>Zoo Visit</span></div>
+    </section>
 
-p=Path("/mnt/data/A_Tiger_in_the_House_Class10_English_Visual_Lecture.html")
-css='''body{margin:0;background:#eef5f6;color:#173247;font-family:"Noto Sans Oriya","Nirmala UI","Kalinga","Segoe UI",Arial,sans-serif;line-height:1.7}.wrap{max-width:1100px;margin:auto;padding:14px}section{background:#fffdf9;border:1px solid #d5e0e5;border-radius:22px;margin:15px 0;padding:22px;box-shadow:0 6px 18px #0000000d}h1{font-size:44px;line-height:1.05}h2{font-size:28px}.badge{background:#126676;color:white;border-radius:20px;padding:5px 13px;font-weight:bold;font-size:12px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:11px}.card,.q,.word{background:white;border:1px solid #d6e1e5;border-radius:14px;padding:12px}.a{background:#eaf8f7}.b{background:#fff3df}.c{background:#f1effb}.d{background:#fff0f1}.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:13px 0}.flow span{background:white;border:2px solid #aac8cd;border-radius:13px;padding:7px 11px;font-weight:bold}.steps{counter-reset:x}.step{position:relative;padding:9px 7px 9px 46px;border-bottom:1px dashed #ccd9de}.step:before{counter-increment:x;content:counter(x);position:absolute;left:6px;top:8px;width:28px;height:28px;border-radius:50%;background:#126676;color:white;text-align:center;line-height:28px;font-weight:bold}.key{background:#edf9f8;border:2px solid #126676;border-radius:14px;padding:12px}.exam{background:#fff8eb;border-left:5px solid #df9630;padding:12px;border-radius:8px}.quote{background:#f4f7f9;border-left:5px solid #8da8b2;padding:12px;border-radius:8px;font-style:italic}.small{font-size:13px;color:#657985}.footer{text-align:center;color:#657985;padding:25px}@media(max-width:650px){h1{font-size:31px}h2{font-size:23px}section{padding:16px}}'''
-def esc(x): return html.escape(x)
-def st(xs): return '<div class="steps">'+''.join('<div class="step">'+esc(x)+'</div>' for x in xs)+'</div>'
-def grid(xs):
-    c=['a','b','c','d']
-    return '<div class="grid">'+''.join('<div class="card '+c[i%4]+'">'+esc(x)+'</div>' for i,x in enumerate(xs))+'</div>'
+    <section>
+      <span class="badge">PART I</span>
+      <h2>Discovery in the Jungle</h2>
+      <div class="steps">
+        <div class="step">Timothy was a tiger-cub discovered by Grandfather on a hunting expedition in the Terai Jungle near Dehra.</div>
+        <div class="step">Grandfather was not a shikari, but he knew the Siwalik hill forests very well.</div>
+        <div class="step">He was asked to accompany an important hunting party and advise about the land and the direction of the beaters.</div>
+        <div class="step">The camp was sumptuous: seven large tents, a dining tent and servants’ tents; there were also about fifteen elephants.</div>
+        <div class="step">The sportsmen did not find a tiger. Grandfather later found a litter tiger, about eighteen inches long, hiding among the intricate roots of a banyan tree.</div>
+        <div class="step">He picked up the cub and brought him home after the camp broke up.</div>
+      </div>
+      <div class="key">🧠 Visual memory: <b>Expedition → Terai Jungle → Banyan roots → Timothy → Home</b></div>
+    </section>
 
-s=['<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>A Tiger in the House</title><style>'+css+'</style></head><body><div class="wrap">']
-s.append('<section class="hero"><span class="badge">ODISHA CLASS 10 • ENGLISH</span><h1>A TIGER IN THE HOUSE</h1><p><b>Ruskin Bond</b></p><div class="flow"><span>Jungle Discovery</span><b>→</b><span>Home</span><b>→</b><span>Family Life</span><b>→</b><span>Zoo</span><b>→</b><span>Surprise</span></div>'+grid(["Timothy — the tiger-cub.","Grandfather — discovers and raises Timothy.","Turning point — Timothy becomes less friendly at about six months.","Ending — the tiger in the cage is not Timothy."])+'</section>')
+    <section>
+      <span class="badge">COMPREHENSION I</span>
+      <h2>ପ୍ରଥମ ଅଂଶର ପ୍ରଶ୍ନ</h2>
+      <div class="grid">
+        <div class="card">Who was Timothy and where was he discovered?</div>
+        <div class="card">Why did Grandfather accompany the party?</div>
+        <div class="card">Why was the camp described as very splendid?</div>
+        <div class="card">Who discovered Timothy and when?</div>
+        <div class="card">Do you think Grandfather was very bold? Why?</div>
+        <div class="card">What special quality did Grandfather have? How was he different from other members?</div>
+        <div class="card">Do you think Grandfather will pet the tiger cub at home?</div>
+      </div>
+    </section>
 
-s.append('<section><span class="badge">PART I</span><h2>Discovery in the Jungle</h2>'+st([
-"Timothy was a tiger-cub discovered by Grandfather on a hunting expedition in the Terai Jungle near Dehra.",
-"Grandfather was not a shikari, but he knew the Siwalik hill forests very well.",
-"He was asked to accompany an important hunting party and advise about the land and the direction of the beaters.",
-"The camp was sumptuous: seven large tents, a dining tent and servants’ tents; there were also about fifteen elephants.",
-"The sportsmen did not find a tiger. Grandfather later found a litter tiger, about eighteen inches long, hiding among the intricate roots of a banyan tree.",
-"He picked up the cub and brought him home after the camp broke up."
-])+'<div class="key">🧠 Visual memory: <b>Expedition → Terai Jungle → Banyan roots → Timothy → Home</b></div></section>')
+    <section>
+      <span class="badge">PART II</span>
+      <h2>Timothy at Home</h2>
+      <div class="flow"><span>Milk</span><b>→</b><span>Raw mutton + cod liver oil</span><b>→</b><span>Pigeons + rabbits</span></div>
+      <div class="steps">
+        <div class="step">Grandmother named the tiger-cub Timothy.</div>
+        <div class="step">Our cook Mahmoud brought him up. At first Timothy was given milk in a feeding bottle.</div>
+        <div class="step">The milk was too rich, so he was put on raw mutton and cod liver oil, followed later by pigeons and rabbits.</div>
+        <div class="step">His companions were Toto, the monkey, and a small mongrel puppy found on the road by Grandfather.</div>
+        <div class="step">At first Timothy was afraid of the puppy; later he allowed the puppy to crawl on his back and rest there.</div>
+        <div class="step">Timothy loved stalking anyone who played with him. When the writer came to live with Grandfather, the writer became one of Timothy’s favourites.</div>
+        <div class="step">Timothy would creep towards the writer, dash at his feet, roll over, kick with delight and pretend to bite his ankles.</div>
+        <div class="step">He became as large as a full-grown retriever. People on the road kept a wide berth when he was taken for walks.</div>
+        <div class="step">His favourite place was the drawing room sofa. He also had clean habits and scrubbed his face with his paws like a cat.</div>
+        <div class="step">He slept at night in the cook’s quarters and was delighted when Mahmoud let him out in the morning.</div>
+      </div>
+    </section>
 
-s.append('<section><span class="badge">COMPREHENSION I</span><h2>ପ୍ରଥମ ଅଂଶର ପ୍ରଶ୍ନ</h2>'+grid([
-"Who was Timothy and where was he discovered?",
-"Why did Grandfather accompany the party?",
-"Why was the camp described as very splendid?",
-"Who discovered Timothy and when?",
-"Do you think Grandfather was very bold? Why?",
-"What special quality did Grandfather have? How was he different from other members?",
-"Do you think Grandfather will pet the tiger cub at home?"
-])+'</section>')
+    <section>
+      <span class="badge">TURNING POINT</span>
+      <h2>ଛଅ ମାସ ପରେ ପରିବର୍ତ୍ତନ</h2>
+      <div class="flow"><span>Friendly Timothy</span><b>→</b><span>About 6 months: change</span></div>
+      <div class="steps">
+        <div class="step">At about six months, a change came over Timothy; he became steadily less friendly.</div>
+        <div class="step">During walks he tried to steal away to stalk a cat or someone’s pet Pekinese.</div>
+        <div class="step">At night there was frenzied cackling from the poultry house; feathers were found all over the veranda in the morning.</div>
+        <div class="step">Timothy had to be chained up more often.</div>
+        <div class="step">When he began to show what looked like villainous intent towards Mahmoud, Grandfather decided to transfer him to a zoo.</div>
+        <div class="step">The nearest zoo was at Lucknow, two hundred miles away.</div>
+        <div class="step">Grandfather reserved a first-class compartment for himself and Timothy and took him to Lucknow.</div>
+        <div class="step">The zoo authorities were glad to receive a well-fed and fairly civilized tiger as a gift.</div>
+      </div>
+      <div class="exam">⭐ <b>Exam Point:</b> Timothy’s behaviour changes at about six months. This change leads directly to the decision to transfer him to the zoo.</div>
+    </section>
 
-s.append('<section><span class="badge">PART II</span><h2>Timothy at Home</h2><div class="flow"><span>Milk</span><b>→</b><span>Raw mutton + cod liver oil</span><b>→</b><span>Pigeons + rabbits</span></div>')
-s.append(st([
-"Grandmother named the tiger-cub Timothy.",
-"Our cook Mahmoud brought him up. At first Timothy was given milk in a feeding bottle.",
-"The milk was too rich, so he was put on raw mutton and cod liver oil, followed later by pigeons and rabbits.",
-"His companions were Toto, the monkey, and a small mongrel puppy found on the road by Grandfather.",
-"At first Timothy was afraid of the puppy; later he allowed the puppy to crawl on his back and rest there.",
-"Timothy loved stalking anyone who played with him. When the writer came to live with Grandfather, the writer became one of Timothy’s favourites.",
-"Timothy would creep towards the writer, dash at his feet, roll over, kick with delight and pretend to bite his ankles.",
-"He became as large as a full-grown retriever. People on the road kept a wide berth when he was taken for walks.",
-"His favourite place was the drawing room sofa. He also had clean habits and scrubbed his face with his paws like a cat.",
-"He slept at night in the cook’s quarters and was delighted when Mahmoud let him out in the morning."
-])+'</section>')
+    <section>
+      <span class="badge">COMPREHENSION II</span>
+      <h2>ଦ୍ୱିତୀୟ ଅଂଶର ପ୍ରଶ୍ନ</h2>
+      <div class="grid">
+        <div class="card">Who are there in this part of the story?</div>
+        <div class="card">Who named the tiger-cub and who brought it up?</div>
+        <div class="card">What was the diet of the tiger-cub?</div>
+        <div class="card">Who were Timothy’s companions at home?</div>
+        <div class="card">What was Timothy’s favourite amusement? How did the writer become Timothy’s favourite?</div>
+        <div class="card">What kind of change came over Timothy when he was six months old?</div>
+        <div class="card">Why did Grandfather decide to transfer Timothy to a zoo?</div>
+        <div class="card">Where did Grandfather take him and how?</div>
+        <div class="card">Do you think Timothy will be happy at the new place?</div>
+      </div>
+    </section>
 
-s.append('<section><span class="badge">TURNING POINT</span><h2>ଛଅ ମାସ ପରେ ପରିବର୍ତ୍ତନ</h2><div class="flow"><span>Friendly Timothy</span><b>→</b><span>About 6 months</span><b>→</b><span>Less friendly</span><b>→</b><span>More dangerous behaviour</span><b>→</b><span>Zoo</span></div>')
-s.append(st([
-"At about six months, a change came over Timothy; he became steadily less friendly.",
-"During walks he tried to steal away to stalk a cat or someone’s pet Pekinese.",
-"At night there was frenzied cackling from the poultry house; feathers were found all over the veranda in the morning.",
-"Timothy had to be chained up more often.",
-"When he began to show what looked like villainous intent towards Mahmoud, Grandfather decided to transfer him to a zoo.",
-"The nearest zoo was at Lucknow, two hundred miles away.",
-"Grandfather reserved a first-class compartment for himself and Timothy and took him to Lucknow.",
-"The zoo authorities were glad to receive a well-fed and fairly civilized tiger as a gift."
-])+'<div class="exam">⭐ <b>Exam Point:</b> Timothy’s behaviour changes at about six months. This change leads directly to the decision to transfer him to the zoo.</div></section>')
+    <section>
+      <span class="badge">PART III</span>
+      <h2>The Visit to the Zoo</h2>
+      <div class="steps">
+        <div class="step">About six months later, while the grandparents were visiting relatives in Lucknow, Grandfather visited the zoo to see how Timothy was getting on.</div>
+        <div class="step">He went straight to Timothy’s cage. The tiger was full-grown and had a magnificent striped coat.</div>
+        <div class="step">Grandfather climbed the railing, put his arm through the bars and greeted Timothy.</div>
+        <div class="step">The tiger came to the bars and allowed Grandfather to put both hands around his head.</div>
+        <div class="step">Grandfather stroked the forehead and ticked the ear. When the tiger growled, Grandfather smacked him across the mouth, his old way of keeping him quiet.</div>
+        <div class="step">The tiger licked Grandfather’s hands and sprang away only when a leopard in the next cage snarled.</div>
+        <div class="step">Grandfather suggested moving the tiger because the leopard frightened him.</div>
+        <div class="step">He searched for the Superintendent but the Superintendent had gone home early. At dark, Grandfather returned to say goodbye.</div>
+        <div class="step">A keeper who had been there when Timothy first came to the zoo told Grandfather: “it is not your tiger”.</div>
+        <div class="step">The keeper explained that Grandfather’s tiger had died two months earlier of pneumonia. The tiger in the cage had been trapped in the hills only the previous month and was very dangerous.</div>
+        <div class="step">Grandfather withdrew his hand with difficulty, said “Goodnight, Timothy”, gave the keeper a scornful look and left the zoo.</div>
+      </div>
+    </section>
 
-s.append('<section><span class="badge">COMPREHENSION II</span><h2>ଦ୍ୱିତୀୟ ଅଂଶର ପ୍ରଶ୍ନ</h2>'+grid([
-"Who are there in this part of the story?",
-"Who named the tiger-cub and who brought it up?",
-"What was the diet of the tiger-cub?",
-"Who were Timothy’s companions at home?",
-"What was Timothy’s favourite amusement? How did the writer become Timothy’s favourite?",
-"What kind of change came over Timothy when he was six months old?",
-"Why did Grandfather decide to transfer Timothy to a zoo?",
-"Where did Grandfather take him and how?",
-"Do you think Timothy will be happy at the new place?"
-])+'</section>')
+    <section>
+      <span class="badge">SURPRISE ENDING</span>
+      <h2>Timothy କିଏ?</h2>
+      <div class="flow"><span>Grandfather thinks: Timothy</span><b>→</b><span>Keeper says: not your tiger</span></div>
+    </section>
 
-s.append('<section><span class="badge">PART III</span><h2>The Visit to the Zoo</h2>'+st([
-"About six months later, while the grandparents were visiting relatives in Lucknow, Grandfather visited the zoo to see how Timothy was getting on.",
-"He went straight to Timothy’s cage. The tiger was full-grown and had a magnificent striped coat.",
-"Grandfather climbed the railing, put his arm through the bars and greeted Timothy.",
-"The tiger came to the bars and allowed Grandfather to put both hands around his head.",
-"Grandfather stroked the forehead and ticked the ear. When the tiger growled, Grandfather smacked him across the mouth, his old way of keeping him quiet.",
-"The tiger licked Grandfather’s hands and sprang away only when a leopard in the next cage snarled.",
-"Grandfather suggested moving the tiger because the leopard frightened him.",
-"He searched for the Superintendent but the Superintendent had gone home early. At dark, Grandfather returned to say goodbye.",
-"A keeper who had been there when Timothy first came to the zoo told Grandfather: “it is not your tiger”.",
-"The keeper explained that Grandfather’s tiger had died two months earlier of pneumonia. The tiger in the cage had been trapped in the hills only the previous month and was very dangerous.",
-"Grandfather withdrew his hand with difficulty, said “Goodnight, Timothy”, gave the keeper a scornful look and left the zoo."
-])+'</section>')
+    <section>
+      <span class="badge">COMPREHENSION III</span>
+      <h2>ଶେଷ ଅଂଶର ପ୍ରଶ୍ନ</h2>
+      <div class="grid">
+        <div class="card">What is the last part of the story about?</div>
+        <div class="card">When did Grandfather visit the zoo and why?</div>
+        <div class="card">What did Grandfather do at the cage where Timothy was kept?</div>
+        <div class="card">How did the tiger behave towards Grandfather?</div>
+        <div class="card">What did Grandfather suggest to the keeper?</div>
+        <div class="card">Was the tiger really Timothy? How do you know?</div>
+        <div class="card">What did the keeper say about the tiger?</div>
+        <div class="card">What made Grandfather give a scornful look to the keeper?</div>
+        <div class="card">Which character do you like most and why?</div>
+        <div class="card">Can you give another title to the story? Give reasons.</div>
+      </div>
+    </section>
 
-s.append('<section><span class="badge">SURPRISE ENDING</span><h2>Timothy କିଏ?</h2><div class="flow"><span>Grandfather thinks: Timothy</span><b>→</b><span>Keeper says: not your tiger</span><b>→</b><span>Timothy died 2 months ago</span><b>→</b><span>This tiger was trapped only last month</span></div><div class="key">🎯 <b>Climax:</b> Grandfather’s loving reunion turns into a shock when he learns that Timothy had already died.</div></section>')
+    <section>
+      <span class="badge">CHARACTER MAP</span>
+      <h2>ମୁଖ୍ୟ ଚରିତ୍ର</h2>
+      <div class="grid">
+        <div class="card">Grandfather — knows the forest well; discovers Timothy; brings him home; cares for him; transfers him to the zoo; later visits him.</div>
+        <div class="card">Timothy — tiger-cub; playful and friendly at first; later becomes less friendly and more furious.</div>
+        <div class="card">Grandmother — names the tiger-cub Timothy.</div>
+        <div class="card">Mahmoud — cook who feeds Timothy and lets him out in the morning.</div>
+        <div class="card">Toto — monkey companion who pulls Timothy’s tail and climbs the curtains when Timothy loses his temper.</div>
+        <div class="card">Small mongrel puppy — another companion; Timothy first fears it, then lets it rest on his back.</div>
+        <div class="card">The writer — becomes one of Timothy’s favourites.</div>
+        <div class="card">Zoo keeper — explains that the tiger is not Timothy and that Timothy died of pneumonia.</div>
+      </div>
+    </section>
 
-s.append('<section><span class="badge">COMPREHENSION III</span><h2>ଶେଷ ଅଂଶର ପ୍ରଶ୍ନ</h2>'+grid([
-"What is the last part of the story about?",
-"When did Grandfather visit the zoo and why?",
-"What did Grandfather do at the cage where Timothy was kept?",
-"How did the tiger behave towards Grandfather?",
-"What did Grandfather suggest to the keeper?",
-"Was the tiger really Timothy? How do you know?",
-"What did the keeper say about the tiger?",
-"What made Grandfather give a scornful look to the keeper?",
-"Which character do you like most and why?",
-"Can you give another title to the story? Give reasons."
-])+'</section>')
+    <section>
+      <span class="badge">GLOSSARY</span>
+      <h2>ଶବ୍ଦାର୍ଥ</h2>
+      <div class="grid">
+        <div class="card">expedition → party / trip → ଯାତ୍ରା / ଅଭିଯାନ</div>
+        <div class="card">sumptuous → impressive → ଆଡମ୍ବରପୂର୍ଣ୍ଣ / ଚମତ୍କାର</div>
+        <div class="card">howdah → a seat for riding on the back of an elephant or camel → ହାତୀ/ଉଠ ପିଠିରେ ବସିବା ଆସନ</div>
+        <div class="card">stroll → slow relaxed walk → ଧୀରେ ଆରାମରେ ଚାଲିବା</div>
+        <div class="card">intricate → having many small parts/details fitting together → ଜଟିଳ</div>
+        <div class="card">tempting → attractive → ଆକର୍ଷଣୀୟ</div>
+        <div class="card">mongrel → dog of mixed breeds → ବିଭିନ୍ନ ଜାତିର ମିଶ୍ରିତ କୁକୁର</div>
+        <div class="card">dart → run suddenly → ହଠାତ୍ ଦୌଡ଼ିବା</div>
+        <div class="card">stalk → follow stealthily / quietly → ଲୁଚିଲୁଚି ପିଛା କରିବା</div>
+        <div class="card">crouch → bend down with upper body forward → ନଇଁ ରହିବା</div>
+        <div class="card">retriever → large dog with thick black or light-brown fur → ଏକ ବଡ଼ କୁକୁରର ଜାତି</div>
+      </div>
+    </section>
 
-s.append('<section><span class="badge">CHARACTER MAP</span><h2>ମୁଖ୍ୟ ଚରିତ୍ର</h2>'+grid([
-"Grandfather — knows the forest well; discovers Timothy; brings him home; cares for him; transfers him to the zoo; later visits him.",
-"Timothy — tiger-cub; playful and friendly at first; later becomes less friendly and more furious.",
-"Grandmother — names the tiger-cub Timothy.",
-"Mahmoud — cook who feeds Timothy and lets him out in the morning.",
-"Toto — monkey companion who pulls Timothy’s tail and climbs the curtains when Timothy loses his temper.",
-"Small mongrel puppy — another companion; Timothy first fears it, then lets it rest on his back.",
-"The writer — becomes one of Timothy’s favourites.",
-"Zoo keeper — explains that the tiger is not Timothy and that Timothy died of pneumonia."
-])+'</section>')
+    <section>
+      <span class="badge">WRITING • ABOUT 50 WORDS</span>
+      <h2>ଲେଖନ ଅଭ୍ୟାସ</h2>
+      <div class="grid">
+        <div class="card">1) Who was Timothy? What made Grandfather bring him home with him?</div>
+        <div class="card">2) Who were Timothy’s companions and how was he brought up at home?</div>
+        <div class="card">3) Why did Grandfather decide to transfer Timothy to a zoo?</div>
+        <div class="card">4) What things did Grandfather do at the cage when he visited the zoo?</div>
+        <div class="card">5) How did the tiger react to Grandfather’s activities?</div>
+        <div class="card">6) What made Grandfather become so sad and what happened to him in the end?</div>
+        <div class="card">7) Can you suggest some more lines to end the story in a different way?</div>
+      </div>
+    </section>
 
-s.append('<section><span class="badge">GLOSSARY</span><h2>ଶବ୍ଦାର୍ଥ</h2>'+grid([
-"expedition → party / trip → ଯାତ୍ରା / ଅଭିଯାନ",
-"sumptuous → impressive → ଆଡମ୍ବରପୂର୍ଣ୍ଣ / ଚମତ୍କାର",
-"howdah → a seat for riding on the back of an elephant or camel → ହାତୀ/ଉଠ ପିଠିରେ ବସିବା ଆସନ",
-"stroll → slow relaxed walk → ଧୀରେ ଆରାମରେ ଚାଲିବା",
-"intricate → having many small parts/details fitting together → ଜଟିଳ",
-"tempting → attractive → ଆକର୍ଷଣୀୟ",
-"mongrel → dog of mixed breeds → ବିଭିନ୍ନ ଜାତିର ମିଶ୍ରିତ କୁକୁର",
-"dart → run suddenly → ହଠାତ୍ ଦୌଡ଼ିବା",
-"stalk → follow stealthily / quietly → ଲୁଚିଲୁଚି ପିଛା କରିବା",
-"crouch → bend down with upper body forward → ନଇଁ ରହିବା",
-"retriever → large dog with thick black or light-brown fur → ଏକ ବଡ଼ କୁକୁରର ଜାତି"
-])+'</section>')
+    <section>
+      <span class="badge">ACTIVITY I</span>
+      <h2>Who said? — To whom?</h2>
+      <table>
+        <tr><th>Statement</th><th>Speaker</th><th>To whom</th></tr>
+        <tr><td>I become one of the tiger’s favourites</td><td>The writer</td><td>The readers</td></tr>
+        <tr><td>I’m talking to Timothy.</td><td>Grandfather</td><td>The keeper</td></tr>
+        <tr><td>It is not your tiger.</td><td>The keeper</td><td>Grandfather</td></tr>
+        <tr><td>I realize he is no longer mine.</td><td>Grandfather</td><td>The keeper</td></tr>
+        <tr><td>He died two months ago.</td><td>The keeper</td><td>Grandfather</td></tr>
+        <tr><td>Good night! Timothy</td><td>Grandfather</td><td>Timothy</td></tr>
+      </table>
+    </section>
 
-s.append('<section><span class="badge">WRITING • ABOUT 50 WORDS</span><h2>ଲେଖନ ଅଭ୍ୟାସ</h2>'+grid([
-"1) Who was Timothy? What made Grandfather bring him home with him?",
-"2) Who were Timothy’s companions and how was he brought up at home?",
-"3) Why did Grandfather decide to transfer Timothy to a zoo?",
-"4) What things did Grandfather do at the cage when he visited the zoo?",
-"5) How did the tiger react to Grandfather’s activities?",
-"6) What made Grandfather become so sad and what happened to him in the end?",
-"7) Can you suggest some more lines to end the story in a different way?"
-])+'</section>')
+    <section>
+      <span class="badge">ACTIVITY II</span>
+      <h2>Jumbled Summary — Correct Order</h2>
+      <div class="steps">
+        <div class="step">1) Grandfather took Timothy to a zoo at Lucknow.</div>
+        <div class="step">2) Timothy was brought up properly by attractive and good diet.</div>
+        <div class="step">3) Timothy was discovered by Grandfather on a hunting expedition and was brought home.</div>
+        <div class="step">4) The zoo authorities were glad to receive the well fed and fairly civilized tiger as a gift.</div>
+        <div class="step">5) When Timothy was about six months old, a change came over him and he became less friendly and more furious.</div>
+        <div class="step">6) About six months later, Grandfather visited the zoo to see Timothy, the tiger.</div>
+        <div class="step">7) Grandfather left the zoo very sadly.</div>
+        <div class="step">8) The Keeper said that the tiger had died two months before.</div>
+        <div class="step">9) Timothy lived happily like one of the members of the writer’s family.</div>
+      </div>
+      <div class="exam"><b>Answer:</b> 3 → 2 → 9 → 5 → 1 → 4 → 6 → 8 → 7</div>
+    </section>
 
-s.append('<section><span class="badge">ACTIVITY I</span><h2>Who said? — To whom?</h2><table style="width:100%;border-collapse:collapse"><tr><th style="padding:9px;border:1px solid #ccd9de">Statement</th><th style="padding:9px;border:1px solid #ccd9de">Who said?</th><th style="padding:9px;border:1px solid #ccd9de">To whom?</th></tr>')
-rows=[
-("I become one of the tiger’s favourites","The writer","The readers"),
-("I’m talking to Timothy.","Grandfather","The keeper"),
-("It is not your tiger.","The keeper","Grandfather"),
-("I realize he is no longer mine.","Grandfather","The keeper"),
-("He died two months ago.","The keeper","Grandfather"),
-("Good night! Timothy","Grandfather","Timothy")
-]
-for a,b,c in rows:s.append(f'<tr><td style="padding:9px;border:1px solid #ccd9de">{esc(a)}</td><td style="padding:9px;border:1px solid #ccd9de">{esc(b)}</td><td style="padding:9px;border:1px solid #ccd9de">{esc(c)}</td></tr>')
-s.append('</table></section>')
+    <section>
+      <span class="badge">FINAL REVISION</span>
+      <h2>୧୫ଟି ମୁଖ୍ୟ ପଏଣ୍ଟ</h2>
+      <div class="grid">
+        <div class="card">1. Timothy was a tiger-cub discovered by Grandfather in the Terai Jungle near Dehra.</div>
+        <div class="card">2. Grandfather knew the Siwalik hill forests well.</div>
+        <div class="card">3. Timothy was about eighteen inches long when discovered.</div>
+        <div class="card">4. Grandmother named him Timothy.</div>
+        <div class="card">5. Mahmoud brought him up and fed him.</div>
+        <div class="card">6. Toto and a small mongrel puppy were his companions.</div>
+        <div class="card">7. The writer became one of Timothy’s favourites.</div>
+        <div class="card">8. Timothy became as large as a full-grown retriever.</div>
+        <div class="card">9. At about six months he became less friendly.</div>
+        <div class="card">10. He began stalking animals and had to be chained more often.</div>
+        <div class="card">11. Grandfather transferred him to the Lucknow zoo.</div>
+        <div class="card">12. About six months later Grandfather visited the zoo.</div>
+        <div class="card">13. He believed the tiger in the cage was Timothy.</div>
+        <div class="card">14. The keeper said Timothy had died two months earlier of pneumonia.</div>
+        <div class="card">15. Grandfather sadly left after learning the truth.</div>
+      </div>
+    </section>
 
-s.append('<section><span class="badge">ACTIVITY II</span><h2>Jumbled Summary — Correct Order</h2><p>ନିମ୍ନଲିଖିତ sentencesକୁ storyର events ଅନୁସାରେ ଠିକ୍ କ୍ରମରେ ରଖ।</p>'+grid([
-"1) Grandfather took Timothy to a zoo at Lucknow.",
-"2) Timothy was brought up properly by attractive and good diet.",
-"3) Timothy was discovered by Grandfather on a hunting expedition and was brought home.",
-"4) The zoo authorities were glad to receive the well fed and fairly civilized tiger as a gift.",
-"5) When Timothy was about six months old, a change came over him and he became less friendly and more furious.",
-"6) About six months later, Grandfather visited the zoo to see Timothy, the tiger.",
-"7) Grandfather left the zoo very sadly.",
-"8) The Keeper said that the tiger had died two months before.",
-"9) Timothy lived happily like one of the members of the writer’s family."
-])+'<div class="exam"><b>Answer:</b> 3 → 2 → 9 → 5 → 1 → 4 → 6 → 8 → 7</div></section>')
+    <section>
+      <span class="badge">QUICK EXAM QUIZ</span>
+      <h2>MCQ</h2>
+      <div class="grid">
+        <div class="card">1. Who discovered Timothy? (a) Mahmoud (b) Grandfather (c) The writer (d) The keeper</div>
+        <div class="card">2. Where was Timothy discovered? (a) Lucknow (b) Dehra town (c) Terai Jungle near Dehra (d) Delhi</div>
+        <div class="card">3. Who named the tiger-cub Timothy? (a) Grandmother (b) Mahmoud (c) The writer (d) The keeper</div>
+        <div class="card">4. Who was Timothy’s monkey companion? (a) John (b) Toto (c) Sahu (d) Pekinese</div>
+        <div class="card">5. What was Timothy’s favourite place in the house? (a) Kitchen (b) Veranda (c) Drawing room (d) Garden</div>
+        <div class="card">6. At about what age did Timothy change? (a) Two months (b) Six months (c) One year (d) Two years</div>
+        <div class="card">7. Where was Timothy taken? (a) Delhi (b) Dehra (c) Lucknow zoo (d) Siwalik hills</div>
+        <div class="card">8. Why did Grandfather visit the zoo? (a) To buy a tiger (b) To see Timothy (c) To meet the Superintendent (d) To see the leopard</div>
+        <div class="card">9. What had happened to Grandfather’s real Timothy? (a) He escaped (b) He was sold (c) He died of pneumonia (d) He returned home</div>
+        <div class="card">10. What was the tiger in the cage? (a) Timothy (b) A tiger trapped in the hills only the previous month (c) A leopard (d) A cub</div>
+      </div>
+      <div class="key"><b>Answer Key:</b> 1-b, 2-c, 3-a, 4-b, 5-c, 6-b, 7-c, 8-b, 9-c, 10-b</div>
+    </section>
 
-s.append('<section><span class="badge">FINAL REVISION</span><h2>୧୫ଟି ମୁଖ୍ୟ ପଏଣ୍ଟ</h2>'+grid([
-"1. Timothy was a tiger-cub discovered by Grandfather in the Terai Jungle near Dehra.",
-"2. Grandfather knew the Siwalik hill forests well.",
-"3. Timothy was about eighteen inches long when discovered.",
-"4. Grandmother named him Timothy.",
-"5. Mahmoud brought him up and fed him.",
-"6. Toto and a small mongrel puppy were his companions.",
-"7. The writer became one of Timothy’s favourites.",
-"8. Timothy became as large as a full-grown retriever.",
-"9. At about six months he became less friendly.",
-"10. He began stalking animals and had to be chained more often.",
-"11. Grandfather transferred him to the Lucknow zoo.",
-"12. About six months later Grandfather visited the zoo.",
-"13. He believed the tiger in the cage was Timothy.",
-"14. The keeper said Timothy had died two months earlier of pneumonia.",
-"15. Grandfather sadly left after learning the truth."
-])+'</section>')
+    <section>
+      <span class="badge">EXAM FOCUS</span>
+      <h2>ମନେ ରଖନ୍ତୁ</h2>
+      <div class="grid">
+        <div class="card">⭐ Important: Timothy’s change at six months.</div>
+        <div class="card">📌 Remember: Grandfather takes Timothy to Lucknow zoo, two hundred miles away.</div>
+        <div class="card">📝 Exam Point: Timothy died two months before Grandfather’s final zoo visit.</div>
+        <div class="card">⚠️ Common Mistake: The tiger Grandfather meets in the final scene is NOT Timothy.</div>
+        <div class="card">🎯 Most Important: Explain the surprise ending and Grandfather’s reaction.</div>
+      </div>
+    </section>
 
-s.append('<section><span class="badge">QUICK EXAM QUIZ</span><h2>MCQ</h2>'+grid([
-"1. Who discovered Timothy? (a) Mahmoud (b) Grandfather (c) The writer (d) The keeper",
-"2. Where was Timothy discovered? (a) Lucknow (b) Dehra town (c) Terai Jungle near Dehra (d) Delhi",
-"3. Who named the tiger-cub Timothy? (a) Grandmother (b) Mahmoud (c) The writer (d) The keeper",
-"4. Who was Timothy’s monkey companion? (a) John (b) Toto (c) Sahu (d) Pekinese",
-"5. What was Timothy’s favourite place in the house? (a) Kitchen (b) Veranda (c) Drawing room (d) Garden",
-"6. At about what age did Timothy change? (a) Two months (b) Six months (c) One year (d) Two years",
-"7. Where was Timothy taken? (a) Delhi (b) Dehra (c) Lucknow zoo (d) Siwalik hills",
-"8. Why did Grandfather visit the zoo? (a) To buy a tiger (b) To see Timothy (c) To meet the Superintendent (d) To see the leopard",
-"9. What had happened to Grandfather’s real Timothy? (a) He escaped (b) He was sold (c) He died of pneumonia (d) He returned home",
-"10. What was the tiger in the cage? (a) Timothy (b) A tiger trapped in the hills only the previous month (c) A leopard (d) A cub"
-])+'<div class="key"><b>Answer Key:</b> 1-b, 2-c, 3-a, 4-b, 5-c, 6-b, 7-c, 8-b, 9-c, 10-b</div></section>')
-
-s.append('<section><span class="badge">EXAM FOCUS</span><h2>ମନେ ରଖନ୍ତୁ</h2>'+grid([
-"⭐ Important: Timothy’s change at six months.",
-"📌 Remember: Grandfather takes Timothy to Lucknow zoo, two hundred miles away.",
-"📝 Exam Point: Timothy died two months before Grandfather’s final zoo visit.",
-"⚠️ Common Mistake: The tiger Grandfather meets in the final scene is NOT Timothy.",
-"🎯 Most Important: Explain the surprise ending and Grandfather’s reaction."
-])+'</section>')
-
-s.append('<div class="footer">A Tiger in the House • Class 10 English • Visual Classroom Lecture</div></div></body></html>')
-p.write_text(''.join(s),encoding='utf-8')
-print("Created:",p)
-print("Size:",round(p.stat().st_size/1024,1),"KB")
+    <div class="footer">A Tiger in the House • Class 10 English • Visual Classroom Lecture</div>
+  </div>
+</body>
+</html>
