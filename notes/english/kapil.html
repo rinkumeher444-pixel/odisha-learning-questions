@@ -1,0 +1,257 @@
+from pathlib import Path
+
+out = Path("/mnt/data/Kapil_Dev_Odisha_Class10_English_Complete_Visual_Lecture.html")
+
+css = r"""
+*{box-sizing:border-box}body{margin:0;background:#edf4f5;color:#173447;font-family:"Noto Sans Oriya","Nirmala UI","Kalinga","Segoe UI",Arial,sans-serif;line-height:1.6}
+main{max-width:1120px;margin:auto;padding:14px}section{background:#fffdf9;border:1px solid #d4e1e5;border-radius:22px;margin:16px 0;padding:22px;box-shadow:0 7px 20px #17344712}
+.hero{background:linear-gradient(135deg,#e2f7f5,#fff0d2)}h1{font-size:48px;line-height:1.05;margin:8px 0}h2{font-size:29px;line-height:1.2}h3{font-size:21px}
+.badge{display:inline-block;background:#126575;color:#fff;border-radius:999px;padding:5px 13px;font-size:12px;font-weight:800}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:12px}
+.card,.q{background:#fff;border:1px solid #d4e1e5;border-radius:15px;padding:13px}.a{background:#e8f6f5}.b{background:#fff2d6}.c{background:#f1effa}.d{background:#fff0ed}.e{background:#edf7ee}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0}.flow span{background:#fff;border:2px solid #aac9ce;border-radius:12px;padding:7px 11px;font-weight:800}.arrow{font-size:21px;color:#126575}
+.key{background:#edf9f8;border:2px solid #126575;border-radius:14px;padding:13px;margin-top:12px}.exam{background:#fff8eb;border-left:5px solid #d8922e;padding:12px 15px;border-radius:8px;margin-top:12px}.warn{background:#fff1ed;border-left:5px solid #c56c4d;padding:12px 15px;border-radius:8px;margin-top:12px}
+.original{font-family:Georgia,serif;background:#f7faf9;border-radius:12px;padding:13px;font-size:18px}.timeline{border-left:4px solid #126575;margin-left:10px;padding-left:18px}.event{margin:11px 0;padding:11px 14px;background:#f8fbfb;border-radius:12px;border:1px solid #d4e1e5}
+table{width:100%;border-collapse:collapse;background:#fff}th,td{border:1px solid #d4e0e4;padding:9px;vertical-align:top;text-align:left}th{background:#e9f6f5}.small{font-size:13px;color:#647985}.footer{text-align:center;color:#647985;padding:28px}
+@media(max-width:650px){h1{font-size:32px}h2{font-size:23px}section{padding:16px}.original{font-size:16px}}
+"""
+def cards(items):
+    return '<div class="grid">'+''.join('<div class="card '+['a','b','c','d','e'][i%5]+'">'+x+'</div>' for i,x in enumerate(items))
+
+html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kapil Dev | Odisha Class 10 English</title><style>{css}</style></head><body><main>
+
+<section class="hero"><span class="badge">ODISHA CLASS 10 • ENGLISH</span><h1>Kapil Dev</h1><p><b>Complete Visual Lecture</b> • Reading • Vocabulary • Comprehension • Grammar • Speaking • Writing • Revision</p><div class="flow"><span>Young Bowler</span><b class="arrow">→</b><span>Quick Learner</span><b class="arrow">→</b><span>All-rounder</span><b class="arrow">→</b><span>Captain</span><b class="arrow">→</b><span>1983 World Cup</span></div><div class="key">🎯 <b>Learning Objective:</b> Understand Kapil Dev's cricketing journey, his qualities as a player and person, and every textbook activity through simple English + helpful Odia.</div></section>
+
+<section><span class="badge">A. LEAD-IN</span><h2>Why do we admire Kapil Dev?</h2>{cards([
+"Cricket is an <b>immensely popular game in India</b>.",
+"India won the previous <b>Prudential World Cup in 1983</b> under Kapil Dev's captaincy.",
+"He became a <b>household name</b> in India and wherever cricket is played.",
+"He is known as one of the <b>best all-rounders in the world</b>.",
+"The lesson also asks us to learn about his <b>admirable qualities as a human being</b>."
+])}<div class="exam">⭐ <b>Exam Point:</b> The lesson presents both Kapil's cricketing achievement and his human qualities.</div></section>
+
+<section><span class="badge">B. THE TEXT • 1978</span><h2>Gavaskar notices a young Kapil</h2><div class="timeline"><div class="event"><b>1978:</b> Raj Singh Dungarpur called Gavaskar to discuss the East Africa team.</div><div class="event">Gavaskar remembered an over bowled by a <b>young Kapil Dev</b> in the Wills Trophy.</div><div class="event">Kapil showed <b>enormous potential</b> and a <b>willingness to learn</b>.</div><div class="event">Gavaskar advised him to come closer to the stumps so his <b>outswinger</b> would be more effective.</div></div><div class="original">“A young lad called Kapil Dev had shown not only enormous potential but also a willingness to learn.”</div><div class="key">📌 <b>Odia:</b> Kapilଙ୍କର talent ସହିତ ଶିଖିବାର ଇଚ୍ଛା ଥିଲା।</div></section>
+
+<section><span class="badge">QUICK LEARNER</span><h2>Gamesmanship? No — genuine advice</h2>{cards([
+"Some players thought Gavaskar was using <b>gamesmanship</b> to make Kapil bowl the wrong line.",
+"That was farthest from Gavaskar's mind; he wanted to play against good, fast bowlers.",
+"Kapil acted on the advice in the <b>next over</b> and came closer to the stumps.",
+"Once he got it right, Gavaskar saw that Kapil was going to be a <b>force in cricket</b>."
+])}<div class="exam">📝 <b>Gamesmanship:</b> In this context, a competitive tactic/trick intended to gain an advantage.</div></section>
+
+<section><span class="badge">EAST AFRICA TOUR</span><h2>Experience of foreign conditions</h2>{cards([
+"Kapil bowled extremely well, got vital breakthroughs and helped his side win.",
+"The team included experienced Test players and promising youngsters.",
+"<b>Test stalwarts:</b> Pataudi, Vishwanath, Yajurvinder Singh and Eknath Solkar.",
+"<b>Youngsters:</b> Kapil Dev and Suru Nayak.",
+"Playing abroad against different opposition, conditions, bowlers and players helps make a better cricketer.",
+"Kapil hit many <b>towering sixes</b> and won East African cricket lovers' hearts.",
+"He improved match by match and was <b>wellnigh unplayable</b> against the strongest East African side."
+])}<div class="exam">🎯 <b>Answer:</b> The youngsters selected were <b>Kapil Dev and Suru Nayak</b>.</div></section>
+
+<section><span class="badge">PAKISTAN TOUR</span><h2>Trial → Selection → Test</h2><div class="flow"><span>Irani Trophy • Bangalore</span><b>→</b><span>Hurricane 61</span><b>→</b><span>Pakistan tour</span><b>→</b><span>Faisalabad Test</span></div><p>Kapil played for the <b>Rest of India</b> in the Irani Trophy at Bangalore, scored a hurricane 61 and bowled impressively. He earned a place in the Pakistan side, though his Test place was still doubtful.</p><p>His early Pakistan performance was so strong that he could not be ignored and he was selected for the first Test at <b>Faisalabad</b>.</p><div class="key">📌 The selectors wanted the tour to give him experience so he could be useful when the West Indies later came to India.</div></section>
+
+<section><span class="badge">FAISALABAD</span><h2>The helmet moment</h2><div class="flow"><span>Bounce</span><b>→</b><span>Sadiq discards cap</span><b>→</b><span>Bouncer</span><b>→</b><span>Helmet hit</span><b>→</b><span>4 byes</span></div><p>The pitch gave useful bounce to new-ball bowlers. Kapil forced Sadiq to replace his green Pakistan cap with a helmet. His bouncer hit Sadiq flush on the helmet and went away for four byes.</p><div class="exam">⭐ The delivery showed that Kapil could use the new ball with <b>fire</b> and should not be taken lightly in Test cricket.</div></section>
+
+<section><span class="badge">THE ALL-ROUNDER</span><h2>Batting + Bowling</h2><div class="flow"><span>59 as night-watchman</span><b>→</b><span>All-rounder tag</span><b>→</b><span>Century vs West Indies</span></div>{cards([
+"Kapil scored <b>59 as a night-watchman</b> and earned the all-rounder tag.",
+"He later scored a <b>century against the West Indians</b>.",
+"On the <b>1979 tour of England</b>, he failed with the bat but bowled with customary fire and efficiency.",
+"He got out in eagerness to hit the ball in the air instead of taking his time.",
+"This was due to <b>inexperience</b>; on the <b>1982 England tour</b> he scored 300 runs in three Tests."
+])}</section>
+
+<section><span class="badge">LEADING ALL-ROUNDERS</span><h2>The four names in the source</h2><div class="grid"><div class="card a"><b>Imran Khan</b></div><div class="card b"><b>Ian Botham</b></div><div class="card c"><b>Kapil Dev</b></div><div class="card d"><b>Richard Hadlee</b></div></div><p>The author says it is difficult to pick the best. Any captain would love all four because they were attacking cricketers, gave sterling performances under pressure, and had the flamboyance and ability to take on opponents.</p><div class="warn">⚠️ The paragraph in the source prints “Irman Khan”; the intended name in the same discussion is Imran Khan. This wording issue is flagged, not silently altered.</div></section>
+
+<section><span class="badge">PRESSURE ON KAPIL</span><h2>Why did he not always get expected wickets?</h2><div class="flow"><span>No strike bowler beside him</span><b>→</b><span>Opponents careful</span><b>→</b><span>Fewer expected wickets</span></div><div class="flow"><span>Inconsistent batting</span><b>→</b><span>Rescue role</span><b>→</b><span>Pressure</span><b>→</b><span>Loose shots</span></div><div class="key">📝 He carried much of the wicket-taking pressure, opponents were extra careful against him, and India's inconsistent batting often forced him into rescue situations.</div></section>
+
+<section><span class="badge">EXPERIENCE</span><h2>From mistakes to maturity</h2>{cards([
+"Greater experience and responsibility after becoming captain made loose shots rare.",
+"The author thinks India could have won the <b>1979 Oval Test</b>, drawn after falling nine runs short.",
+"Kapil was promoted in the batting order but hit the first delivery and was caught at long on.",
+"The mature Kapil, the author says, would have taken singles and twos, watched the bowling and then played his shots.",
+"<b>“There is no place for ifs and buts in cricket.”</b>"
+])}</section>
+
+<section><span class="badge">1983 PRUDENTIAL WORLD CUP</span><h2>Kapil's Greatest Triumph</h2><div class="timeline"><div class="event"><b>June 1983:</b> India won the Prudential World Cup under Kapil's captaincy.</div><div class="event">Against <b>Zimbabwe</b>, five Indian wickets fell for <b>17 runs</b>.</div><div class="event">His first 70–80 runs were calculated: he pushed and nudged and hit only suitable balls.</div><div class="event">After gaining confidence and finding partners, he launched a powerful <b>counter-attack</b>.</div><div class="event">At around <b>160</b>, everyone feared he might get out before the record score of 171.</div><div class="event">He made <b>175 not out</b>, a record in the Prudential World Cup.</div><div class="event">He then bowled four overs of tight medium pace and gave Zimbabwe no respite.</div></div><div class="exam">🎯 <b>Turning point:</b> The text calls this the turning point of the tournament; India then went from strength to strength against Australia, England and the West Indies.</div></section>
+
+<section><span class="badge">IMPACT</span><h2>Victory inspired youngsters</h2>{cards([
+"Kapil's grinning face holding the Prudential Trophy became as memorable as the win.",
+"His brothers started <b>Hotel Kapil</b> as a tribute.",
+"His success gave encouragement and impetus to thousands of youngsters across the country.",
+"His advent was described as a major positive development because India had not previously had a fast bowler who lifted national prestige so high.",
+"His example inspired boys to take up fast bowling and helped Indian batsmen get practice against pace.",
+"His attacking brand made him a <b>crowd puller</b> and encouraged attractive cricket."
+])}</section>
+
+<section><span class="badge">JET AGE CRICKET</span><h2>Speed + Attacking Style</h2><div class="flow"><span>Speed</span><b>→</b><span>Attacking cricket</span><b>→</b><span>Crowd puller</span><b>→</b><span>Attractive cricket</span></div><p>The author calls modern cricket <b>“jet age cricket”</b>: speed is more important than the subtleties of spin and speed follows the batsman wherever he goes.</p><div class="exam">📌 The author says Indian cricket would no longer be called <b>“dull dogs”</b> as in the early fifties.</div></section>
+
+<section><span class="badge">KAPIL AS A PERSON</span><h2>Success did not change his attitude</h2>{cards([
+"He rose from a lad batting at <b>No.11 in East Africa</b> to a leading all-rounder.",
+"He remained the <b>same simple fellow</b> he was in 1978.",
+"Success brought greater confidence in dealing with people.",
+"He remained <b>polite and courteous to senior cricketers</b>.",
+"He was prepared to <b>listen to everyone</b>.",
+"The author believed his character and cricketing talent would help Indian cricket reach new heights."
+])}<div class="key">⭐ <b>Human qualities:</b> simple • confident • polite • courteous • willing to listen.</div></section>
+
+<section><span class="badge">C. ABOUT THE AUTHOR</span><h2>Sunil Manohar Gavaskar</h2>{cards([
+"<b>Born:</b> 10 July 1949.",
+"Former Indian cricketer who played for India in the 1970s and 1980s.",
+"Regarded as one of the greatest opening batsmen in cricket history.",
+"Held the record of <b>34 Test centuries</b> for almost two decades before Sachin Tendulkar broke it in December 2005.",
+"Received the <b>Arjuna Award (1975)</b> and <b>Padma Bhusan (1980)</b>.",
+"Books listed: <b>Sunny Days</b> (autobiography), <b>Idols</b>, <b>Runs n’ Ruins</b>, <b>One Day Wonders</b>."
+])}<div class="key">📌 The piece was written in <b>1983</b> and focuses on Kapil's early days and his performance as player and captain in the 1983 Prudential World Cup.</div></section>
+
+<section><span class="badge">D. NOTES & GLOSSARY</span><h2>Vocabulary Cards</h2>{cards([
+"<b>memorable</b> → worth remembering → ମନେ ରଖିବା ଯୋଗ୍ୟ",
+"<b>wellnigh</b> → nearly → ପ୍ରାୟ",
+"<b>hurricane</b> → violent storm → ଭୟଙ୍କର ଝଡ଼",
+"<b>customary</b> → usual → ସାଧାରଣ / ଅଭ୍ୟସ୍ତ",
+"<b>reckoned</b> → not to be ignored → ଅବହେଳା କରିହେବ ନାହିଁ",
+"<b>sterling</b> → excellent in quality → ଉତ୍କୃଷ୍ଟ",
+"<b>flamboyance</b> → confident → ଆତ୍ମବିଶ୍ୱାସୀ ଶୈଳୀ",
+"<b>whack out</b> → strike with a hard blow → ଜୋରରେ ମାରିବା",
+"<b>incredible</b> → unbelievable → ଅବିଶ୍ୱସନୀୟ",
+"<b>applaud</b> → show approval by clapping → ତାଳି ଦେଇ ପ୍ରଶଂସା କରିବା",
+"<b>nudged</b> → pushed gently → ହାଲୁକା ଭାବେ ଠେଲିବା",
+"<b>tribute</b> → gift → ସମ୍ମାନର ଉପହାର",
+"<b>impetus</b> → inspiration / boost → ପ୍ରେରଣା / ଉତ୍ସାହ",
+"<b>spur</b> → give encouragement to → ଉତ୍ସାହ ଦେବା",
+"<b>dull dogs</b> → boring / not watch-worthy → ଆକର୍ଷଣହୀନ / ବୋରିଂ"
+])}</section>
+
+<section><span class="badge">E(a). LET'S UNDERSTAND</span><h2>All 12 Text Questions — Answers</h2>{cards([
+"<b>1.</b> The youngsters were <b>Kapil Dev and Suru Nayak</b>.",
+"<b>2.</b> Playing abroad against different opposition, conditions, bowlers and players is useful and helps make a better cricketer.",
+"<b>3.</b> Kapil won East African hearts through vital breakthroughs, magnificent batting, towering sixes and match-by-match improvement.",
+"<b>4.</b> The trial game was the <b>Irani Trophy match at Bangalore</b> for the Rest of India.",
+"<b>5.</b> The selectors wanted the Pakistan tour to give Kapil experience so he could be useful when the West Indies later came to India.",
+"<b>6.</b> He scored 300 runs in three Tests on the <b>1982 tour of England</b>.",
+"<b>7.</b> Imran Khan, Ian Botham, Kapil Dev and Richard Hadlee.",
+"<b>8.</b> They were attacking cricketers who gave sterling performances under pressure and could take on opponents.",
+"<b>9.</b> He had no strike bowler beside him, opponents were careful against him, and India's inconsistent batting increased his pressure.",
+"<b>10.</b> Leading India to win the <b>Prudential World Cup in June 1983</b>.",
+"<b>11.</b> His 1983 World Cup achievement made him famous in India and wherever cricket is played.",
+"<b>12.</b> His brothers started a hotel named <b>Hotel Kapil</b> as a tribute."
+])}</section>
+
+<section><span class="badge">E(b). CHOOSE CORRECT</span><h2>MCQ Answers</h2><table><tr><th>Item</th><th>Correct answer</th></tr>
+<tr><td>(i) “I” stands for</td><td><b>c) Sunil M. Gavaskar</b></td></tr>
+<tr><td>(ii) Good fun to play against</td><td><b>b) good bowlers</b></td></tr>
+<tr><td>(iii) Wills Trophy: Gavaskar and Kapil were</td><td><b>b) against each other</b></td></tr>
+<tr><td>(iv) Kapil proved himself as</td><td><b>c) an all rounder</b></td></tr>
+<tr><td>(v) Exercise wording says 1979 tour of Pakistan; correct choice</td><td><b>b) bat</b></td></tr></table>
+<div class="warn">⚠️ The main text says Kapil failed with the bat on the <b>1979 tour of England</b>, while the exercise prints “1979 tour of Pakistan.” Source inconsistency is flagged, not silently corrected.</div></section>
+
+<section><span class="badge">E(c). SEQUENCE</span><h2>Zimbabwe Events in Correct Order</h2><div class="flow"><span>5 wickets for 17</span><b>→</b><span>Unforgettable innings</span><b>→</b><span>Hitting at will</span><b>→</b><span>Around 160</span><b>→</b><span>175 not out</span></div><div class="key"><b>Order:</b> (i)=1 given • (iii)=2 • (vi)=3 • (v)=4 • (iv)=5 • (ii)=6</div></section>
+
+<section><span class="badge">F. READ BETWEEN THE LINES</span><h2>All 8 Thinking Questions — Answers</h2>{cards([
+"<b>1. Gamesmanship:</b> a competitive tactic/trick; here players wrongly thought Gavaskar wanted Kapil to bowl the wrong line.",
+"<b>2. Gavaskar's intention:</b> to help Kapil become a more effective bowler; he genuinely wanted to play against a good bowler.",
+"<b>3. Quick learner:</b> Kapil followed the advice in the next over and moved closer to the stumps.",
+"<b>4. Sadiq's helmet:</b> wise because Kapil's bouncer hit the helmet, showing the danger and pace of the bowling.",
+"<b>5. Night-watchman:</b> a batsman used to protect specialist batsmen at the end of a day's play; Kapil's 59 showed his batting value.",
+"<b>6. Two turning points:</b> The text explicitly calls Kapil's Zimbabwe innings and his tight four-over spell the <b>turning point of the tournament</b>; it does not separately name two different turning points.",
+"<b>7. Jet age cricket:</b> modern cricket where speed is more important than the subtleties of spin and speed follows the batsman.",
+"<b>8. Dull Dog?</b> The source presents Kapil's attacking style as helping Indian cricket move away from the “dull dogs” image toward attractive cricket."
+])}</section>
+
+<section><span class="badge">G. WORDS / EXPRESSIONS</span><h2>Games & Sports Vocabulary</h2><table><tr><th>Game</th><th>Place</th><th>Equipment</th><th>Score example</th></tr>
+<tr><td>Football</td><td>Ground</td><td>Net, football</td><td>Two goals to one</td></tr><tr><td>Volleyball</td><td>Court</td><td>Net, volleyball</td><td>Fifteen points to ten</td></tr><tr><td>Cricket</td><td>Pitch</td><td>Ball, bat, stumps</td><td>251 runs in 50 overs</td></tr><tr><td>Basketball</td><td>Court</td><td>Basket, a ball</td><td>60–44 points</td></tr><tr><td>Tennis</td><td>Court</td><td>Net, racket, tennis ball</td><td>Six games to three / 6–2 one set</td></tr><tr><td>Rugby</td><td>Pitch / ground</td><td>Rugby ball</td><td>Ten points to six</td></tr><tr><td>Hockey</td><td>Ground</td><td>Stick, ball, net</td><td>Five goals to three</td></tr></table>
+<h3>True / False + corrections</h3>{cards([
+"<b>1.</b> You score goals in basketball. <b>F</b> → You score points.",
+"<b>2.</b> You play rugby with a puck. <b>F</b> → You play with a rugby ball.",
+"<b>3.</b> You score runs in cricket. <b>T</b>.",
+"<b>4.</b> You play football on a court. <b>F</b> → You play on a ground.",
+"<b>5.</b> You score points in hockey. <b>F</b> → You score goals.",
+"<b>6.</b> You have a net in tennis and volleyball. <b>T</b>.",
+"<b>7.</b> You play cricket with a stick. <b>F</b> → Ball, bat and stumps are listed."
+])}</section>
+
+<section><span class="badge">H. LANGUAGE • NOT ONLY … BUT ALSO</span><h2>Balanced Structures</h2><div class="original">“A young lad called Kapil Dev had shown <b>not only</b> enormous potential <b>but also</b> a willingness to learn.”</div><div class="key"><b>Rule:</b> <i>not only … but also</i> joins two balanced elements; normally the same kind of word/phrase follows <b>only</b> and <b>also</b>.</div><table><tr><th>Type</th><th>Source example</th></tr><tr><td>Noun + Noun</td><td>Shakespeare was not only a writer but also an actor.</td></tr><tr><td>Adjective + Adjective</td><td>The story is not only interesting but also instructive.</td></tr><tr><td>Verb + Verb</td><td>He not only studies hard but also plays well.</td></tr><tr><td>Adverb + Adverb</td><td>She writes not only fast but also legibly.</td></tr></table><h3>8 Practice Answers</h3>{cards([
+"He can speak English. He can speak French. → <b>He can speak not only English but also French.</b>",
+"Mr Das is a brilliant writer. He is an excellent speaker. → <b>Mr Das is not only a brilliant writer but also an excellent speaker.</b>",
+"The teacher is sincere. He is honest. → <b>The teacher is not only sincere but also honest.</b>",
+"My friend is a good sportsman. He is a good student. → <b>My friend is not only a good sportsman but also a good student.</b>",
+"We study at school. We play there. → <b>We not only study at school but also play there.</b>",
+"Meera can stitch dresses. She can knit sweaters. → <b>Meera can not only stitch dresses but also knit sweaters.</b>",
+"I can drive a car. I can repair a car. → <b>I can not only drive a car but also repair a car.</b>",
+"She speaks fluently. She speaks distinctly. → <b>She speaks not only fluently but also distinctly.</b>"
+])}</section>
+
+<section><span class="badge">H. LANGUAGE • USED TO</span><h2>Past Habit / Past State</h2><div class="original">“He <b>used to get out</b> in his eagerness to hit the ball in the air.”</div><div class="flow"><span>used to</span><b>+</b><span>base verb</span><b>→</b><span>past habit / state / situation</span></div>{cards([
+"Past habitual action: <b>I used to run ten kilometers at a stretch when I was young.</b>",
+"Past habitual state: <b>I used to have a Robin Hood bicycle in my childhood.</b>",
+"Do not use it for exact duration/number: “My father went to England ten times when he was young.”",
+"Do not say “I used to live in Kolkata for three years”; the source gives “I lived in Kolkata for three years.”",
+"Present habit: <b>I usually play football.</b> — not “I use to play football.”",
+"Do not use it for a very recent past habit such as “Last week I used to get up at 5 a.m.”"
+])}<h3>5 Practice Answers</h3><table><tr><th>No.</th><th>Answer</th></tr><tr><td>1</td><td>At home I <b>used to get up</b> early.</td></tr><tr><td>2</td><td>I <b>used to study</b> at a co-education school.</td></tr><tr><td>3</td><td>My father <b>used to go</b> to school at 10 a.m. every day.</td></tr><tr><td>4</td><td>My headmaster <b>used to have</b> a Bajaj Scooter.</td></tr><tr><td>5</td><td>When he was on holiday, he <b>used to sit</b> for hours watching television.</td></tr></table></section>
+
+<section><span class="badge">I. LISTEN & SPEAK</span><h2>Apology → Response</h2><div class="grid"><div class="card a"><b>Apology:</b><br>sorry • I'm sorry • I'm so sorry</div><div class="card b"><b>Response:</b><br>That's all right • It doesn't matter • Never mind • Don't worry</div></div><div class="original"><b>Arjun:</b> Ouch!<br><b>Sachin:</b> I'm sorry, my dear son.<br><b>Arjun:</b> That's all right. It wasn't really your fault. So cheer up!</div>{cards([
+"<b>A:</b> I've done very badly in the monthly test.<br><b>B:</b> Don't worry. You can do better next time.",
+"<b>A:</b> Sorry, I couldn't come to your birthday party last evening.<br><b>B:</b> That's all right.",
+"<b>A:</b> Ouch! You stepped on my foot!<br><b>B:</b> I'm sorry.",
+"<b>A:</b> You're late! I asked you to come on time.<br><b>B:</b> I'm sorry."
+])}</section>
+
+<section><span class="badge">J. LET'S WRITE • SCOREBOARD</span><h2>India–Australia One-Day Match</h2><table><tr><th>Player</th><th>How out</th><th>Runs</th><th>Balls</th><th>4s</th><th>6s</th></tr>
+<tr><td>G. Gambhir</td><td>C. Wade b. Lee</td><td>5</td><td>5</td><td>1</td><td>0</td></tr><tr><td>Tendulkar</td><td>C. Doherty b. Hilfenhaus</td><td>35</td><td>32</td><td>4</td><td>1</td></tr><tr><td>Kohli</td><td>C. D. Hussey b. Hilfenhaus</td><td>12</td><td>25</td><td>0</td><td>0</td></tr><tr><td>Rohit</td><td>C. Wade b. Lee</td><td>10</td><td>10</td><td>0</td><td>0</td></tr><tr><td>Raina</td><td>C. Wade b. Christian</td><td>28</td><td>41</td><td>1</td><td>1</td></tr><tr><td>Dhoni</td><td>C. Christian b. Hilfenhaus</td><td>56</td><td>84</td><td>2</td><td>1</td></tr><tr><td>Jadeja</td><td>C. Forrest b. Stanc</td><td>28</td><td>35</td><td>1</td><td>0</td></tr><tr><td>Irfan Pathan</td><td>C. Wade b. Hilfen Haus</td><td>29</td><td>27</td><td>1</td><td>1</td></tr><tr><td>Vinay Kumar</td><td>b. Lee</td><td>16</td><td>26</td><td>1</td><td>0</td></tr><tr><td>Zaheer</td><td>C. Wade b. Hilfenhaus</td><td>9</td><td>11</td><td>2</td><td>0</td></tr><tr><td>Umesh Yadab</td><td>Not out</td><td>02</td><td>—</td><td>0</td><td>0</td></tr></table><h3>Fall of wickets</h3><div class="flow"><span>1–8</span><span>2–15</span><span>3–16</span><span>4–36</span><span>5–82</span><span>6–164</span><span>7–172</span><span>8–180</span><span>9–201</span><span>10–228</span></div><div class="warn">⚠️ The source scan has an unclear balls entry beside Umesh Yadab. The page image clearly shows <b>Not out</b> and <b>02 runs</b>; the unclear figure is not treated as reliable.</div></section>
+
+<section><span class="badge">J(b). SCOREBOARD ANSWERS</span><h2>Five Data Questions</h2>{cards([
+"<b>1.</b> Runs when the 3rd wicket fell: <b>16</b>.",
+"<b>2.</b> Total fours: <b>13</b>.",
+"<b>3.</b> Highest Australian wicket-taker: <b>Hilfenhaus — 5 wickets</b>.",
+"<b>4.</b> Umesh Yadav scored <b>02 runs</b>.",
+"<b>5.</b> Top scorer: <b>Dhoni — 56 runs</b>."
+])}</section>
+
+<section><span class="badge">FINAL REVISION</span><h2>15 Key Points</h2>{cards([
+"Kapil is introduced as one of the best all-rounders in the world.",
+"1978: Gavaskar noticed enormous potential and willingness to learn.",
+"Kapil acted immediately on bowling advice and showed he was a quick learner.",
+"East Africa gave him valuable experience of foreign conditions.",
+"He contributed with both ball and bat and won East African hearts.",
+"Irani Trophy at Bangalore: hurricane 61 + impressive bowling.",
+"Pakistan tour: strong performance earned him the first Test at Faisalabad.",
+"59 as night-watchman + century vs West Indies confirmed his all-rounder status.",
+"1979 England batting failure was linked to inexperience; 1982 England brought 300 runs in three Tests.",
+"The source names Imran Khan, Ian Botham, Kapil Dev and Richard Hadlee as leading all-rounders.",
+"Kapil faced pressure because he lacked a strike bowler alongside him and often had to rescue India's batting.",
+"Greatest triumph: leading India to the June 1983 Prudential World Cup.",
+"Against Zimbabwe: five wickets for 17; Kapil made 175 not out.",
+"His attacking style inspired youngsters and changed the image of Indian cricket.",
+"Despite success, he remained simple, polite, courteous and willing to listen."
+])}</section>
+
+<section><span class="badge">QUICK REVISION TABLE</span><h2>One-Look Memory Map</h2><table><tr><th>Topic</th><th>Key memory</th></tr><tr><td>1978</td><td>Potential + willingness to learn + quick response to advice</td></tr><tr><td>East Africa</td><td>Breakthroughs + sixes + improvement + foreign experience</td></tr><tr><td>Pakistan</td><td>Hurricane 61 → Faisalabad Test → new-ball fire</td></tr><tr><td>All-rounder</td><td>59 as night-watchman → century vs West Indies</td></tr><tr><td>1982 England</td><td>300 runs in three Tests</td></tr><tr><td>1983 World Cup</td><td>Zimbabwe: 5 wickets for 17 → 175 not out → tournament turning point</td></tr><tr><td>Character</td><td>Simple • confident • polite • courteous • listens</td></tr><tr><td>Grammar</td><td>not only … but also • used to + base verb</td></tr></table></section>
+
+<section><span class="badge">EXAM FOCUS</span><h2>Most Important Questions</h2>{cards([
+"<b>Very Short:</b> Who were the East Africa youngsters? • What was the trial game? • Where was the first Pakistan Test? • What was Kapil's greatest triumph?",
+"<b>Short:</b> Why did Kapil win East African hearts? • Why did he not always get expected wickets? • Why was Sadiq's helmet a wise move?",
+"<b>Long:</b> Describe Kapil's rise from a young bowler to a leading all-rounder. • Explain his role in India's 1983 World Cup victory.",
+"<b>Language:</b> Explain <i>not only … but also</i>. • Explain <i>used to</i> and its restrictions.",
+"<b>Writing:</b> Describe the India–Australia scoreboard and answer the five data questions."
+])}<div class="exam">🎯 <b>Most Important Question:</b> What was Kapil Dev's greatest triumph and how did his Zimbabwe innings contribute to India's World Cup journey?</div></section>
+
+<section><span class="badge">FINAL MCQ QUIZ</span><h2>10-Question Revision Test</h2>{cards([
+"<b>1.</b> East Africa youngsters: a) Pataudi & Vishwanath b) Kapil Dev & Suru Nayak c) Botham & Hadlee d) Tendulkar & Kapil",
+"<b>2.</b> Hurricane score in Irani Trophy: a) 59 b) 61 c) 175 d) 300",
+"<b>3.</b> First Test in Pakistan tour: a) Bangalore b) Faisalabad c) Oval d) Zimbabwe",
+"<b>4.</b> 300 runs in three Tests: a) 1979 England b) 1982 England c) 1983 World Cup d) East Africa",
+"<b>5.</b> Greatest triumph: a) Irani Trophy b) Pakistan tour c) 1983 Prudential World Cup d) East Africa",
+"<b>6.</b> Five Indian wickets fell for: a) 17 b) 70 c) 160 d) 171",
+"<b>7.</b> Record World Cup score: a) 59 b) 61 c) 160 d) 175 not out",
+"<b>8.</b> not only … but also normally joins: a) unrelated forms b) balanced elements c) only nouns d) only verbs",
+"<b>9.</b> used to expresses: a) future action b) past habit/state c) exact duration only d) present habit",
+"<b>10.</b> Top scorer in the scoreboard: a) Tendulkar b) Raina c) Dhoni d) Umesh Yadav"
+])}<div class="key"><b>Answer Key:</b> 1-b • 2-b • 3-b • 4-b • 5-c • 6-a • 7-d • 8-b • 9-b • 10-c</div></section>
+
+<section><span class="badge">COMPLETE SOURCE CHECK</span><h2>All 15 Pages Covered</h2><div class="key">✓ Pages 1–6: Lead-in, complete Kapil Dev narrative, World Cup, character qualities, About the Author<br>✓ Pages 7–8: Full glossary + 12 comprehension questions + 5 MCQs<br>✓ Page 9: Event sequencing + reading-between-the-lines<br>✓ Page 10: All 8 inference questions + sports vocabulary + T/F<br>✓ Pages 11–13: not only … but also + used to + all practice items<br>✓ Pages 13–14: apology/listening/speaking activity<br>✓ Pages 14–15: complete cricket score-board + fall of wickets + 5 data questions<br>✓ Last page checked separately<br>✓ Final revision + important questions + final MCQ + answer key</div><div class="warn">⚠️ Source inconsistencies/unclear scan entries are flagged rather than silently corrected.</div></section>
+
+<div class="footer">Kapil Dev • Odisha Class 10 English • Complete Visual Lecture</div></main></body></html>"""
+
+out.write_text(html, encoding="utf-8")
+print(f"Created: {out}")
+print(f"Size: {out.stat().st_size/1024:.1f} KB")
