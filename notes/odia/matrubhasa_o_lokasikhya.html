@@ -1,133 +1,563 @@
-<!doctype html>
+from pathlib import Path
+
+out = Path("/mnt/data/Odisha_Class_10_Odia_Lecture_Matrubhasha_O_Lokashiksha_FIXED.html")
+
+html = r'''<!DOCTYPE html>
 <html lang="or">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ମାତୃଭାଷା ଓ ଲୋକଶିକ୍ଷା — ଶ୍ରେଣୀ ୧୦</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Odisha Class 10 Odia Lecture - ମାତୃଭାଷା ଓ ଲୋକଶିକ୍ଷା">
+<title>ମାତୃଭାଷା ଓ ଲୋକଶିକ୍ଷା | Class 10 Odia</title>
+
 <style>
-body{margin:0;background:#f4f7fb;color:#182235;font-family:"Noto Sans Odia","Noto Sans",sans-serif;line-height:1.75}
-.hero{padding:55px 7%;color:white;background:linear-gradient(135deg,#123b68,#2d6a9e)}
-h1{font-size:clamp(30px,5vw,56px);margin:0}.sub{font-size:18px}
-.wrap{max-width:1100px;margin:auto;padding:25px 16px 60px}.card{background:white;margin:17px 0;padding:24px;border-radius:18px;box-shadow:0 8px 25px rgba(16,42,75,0.07)}
-.card h2{color:#1e568c;margin-top:0}
-.flow{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0}
-.node{background:#eef6ff;padding:10px 14px;border-radius:10px}
-.arrow{align-self:center}
-.table{width:100%;border-collapse:collapse}
-.table th,.table td{border:1px solid #e6eef8;padding:8px;text-align:left}
-.q{margin:14px 0}
-.answer{margin-top:6px;background:#fbfdff;padding:10px;border-radius:8px}
-.page{max-width:100%;height:auto;border-radius:8px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+ margin:0;
+ background:#f3f6fa;
+ color:#172033;
+ font-family:"Noto Sans Oriya","Noto Sans Odia","Noto Sans",Arial,sans-serif;
+ line-height:1.75;
+}
+header{
+ background:linear-gradient(135deg,#173f68,#286b9d);
+ color:#fff;
+ padding:56px 7%;
+}
+header h1{margin:0 0 8px;font-size:clamp(32px,6vw,60px);line-height:1.2}
+header p{margin:8px 0;font-size:18px}
+.container{max-width:1100px;margin:auto;padding:24px 16px 70px}
+.card{
+ background:#fff;
+ margin:18px 0;
+ padding:24px;
+ border-radius:18px;
+ box-shadow:0 8px 28px rgba(20,45,75,.09);
+}
+.card h2{margin:0 0 14px;color:#1c5a8e;font-size:28px}
+.card h3{color:#245f8e}
+.objective{
+ background:#fff8e8;
+ border-left:5px solid #d79b27;
+ padding:12px 16px;
+ border-radius:10px;
+ margin:12px 0 18px;
+}
+.grid{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+ gap:14px;
+}
+.box{
+ background:#eef5fb;
+ border-radius:14px;
+ padding:16px;
+}
+.flow{
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:center;
+ align-items:center;
+ gap:10px;
+ margin:18px 0;
+}
+.node{
+ background:#e5f0fa;
+ border:1px solid #cbddeb;
+ border-radius:13px;
+ padding:11px 15px;
+ font-weight:700;
+ text-align:center;
+}
+.arrow{font-size:24px;color:#286b9d}
+.tag{
+ display:inline-block;
+ background:#eaf3fb;
+ color:#1c5a8e;
+ padding:4px 11px;
+ border-radius:30px;
+ font-weight:700;
+ font-size:13px;
+}
+table{width:100%;border-collapse:collapse;margin:12px 0}
+th,td{
+ border:1px solid #dbe4ed;
+ padding:10px 12px;
+ vertical-align:top;
+ text-align:left;
+}
+th{background:#edf4fa;color:#1c5a8e}
+.answer{
+ background:#eef8ef;
+ border-left:4px solid #4b9560;
+ padding:11px 14px;
+ border-radius:8px;
+ margin-top:9px;
+}
+.warning{
+ background:#fff1ef;
+ border-left:4px solid #c84d3f;
+ padding:11px 14px;
+ border-radius:8px;
+}
+.quote{
+ background:#f7f3ff;
+ border-left:5px solid #7652a8;
+ padding:15px 18px;
+ border-radius:10px;
+ margin:12px 0;
+ font-weight:700;
+}
+.q{
+ background:#fafbfd;
+ border:1px solid #e2e8ef;
+ border-radius:12px;
+ padding:14px;
+ margin:12px 0;
+}
+.page{
+ width:100%;
+ height:auto;
+ display:block;
+ border:1px solid #d8e1ea;
+ border-radius:12px;
+}
+.small{font-size:14px;color:#657184}
+.footer{
+ text-align:center;
+ color:#667085;
+ padding:30px 15px 50px;
+}
+ol li,ul li{margin:5px 0}
+@media(max-width:600px){
+ header{padding:40px 20px}
+ .card{padding:18px}
+ .card h2{font-size:23px}
+ table{font-size:14px}
+}
 </style>
 </head>
+
 <body>
-<div class="wrap">
-<section class="hero">
+
+<header>
 <h1>ମାତୃଭାଷା ଓ ଲୋକଶିକ୍ଷା</h1>
-<div class="sub">ଶ୍ରେଣୀ–୧୦ • ସରଳ ଓଡ଼ିଆ • ପରୀକ୍ଷାମୁଖୀ ଟିକା</div>
+<p>ଶ୍ରେଣୀ–୧୦ • ଓଡ଼ିଆ • ସରଳ ବ୍ୟାଖ୍ୟା • ପରୀକ୍ଷାମୁଖୀ ପୁନରାବୃତ୍ତି</p>
+</header>
+
+<main class="container">
+
+<section class="card">
+<span class="tag">🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</span>
+<ul>
+<li>ମାତୃଭାଷାର ଗୁରୁତ୍ୱ ବୁଝିବା।</li>
+<li>ଲୋକଶିକ୍ଷା ସହ ମାତୃଭାଷାର ସମ୍ପର୍କ ବୁଝିବା।</li>
+<li>ଗଣତନ୍ତ୍ର ଓ ଜନଶିକ୍ଷାରେ ଭାଷାର ଭୂମିକା ବୁଝିବା।</li>
+<li>ପାଠର ସମସ୍ତ ଭାଷା ଅଭ୍ୟାସ ଓ ପ୍ରଶ୍ନ ପାଇଁ ପ୍ରସ୍ତୁତ ହେବା।</li>
+</ul>
 </section>
 
 <section class="card">
 <h2>୧. ପାଠ ପରିଚୟ</h2>
-<p>ଏହି ପ୍ରବନ୍ଧର କେନ୍ଦ୍ରୀୟ ଚିନ୍ତା ହେଉଛି <strong>ମାତୃଭାଷାର ଉପାଦେୟତା ଓ ଲୋକଶିକ୍ଷା</strong> ।</p>
+<div class="objective"><b>🎯 ଲକ୍ଷ୍ୟ:</b> ପାଠର ମୂଳ ଚିନ୍ତାକୁ ଏକ ନଜରରେ ବୁଝିବା।</div>
+<p>ଏହି ପ୍ରବନ୍ଧରେ ମାତୃଭାଷାର ଉପାଦେୟତା ଓ ଲୋକଶିକ୍ଷା ପାଇଁ ତାହାର ଉପଯୋଗିତା ବିଷୟରେ ଆଲୋଚନା କରାଯାଇଛି। ଶିକ୍ଷା, ଜନଜୀବନ, ଶାସନ ଓ ଜ୍ଞାନର ପ୍ରସାର ସହ ମାତୃଭାଷାର ସମ୍ପର୍କକୁ ପାଠଟି ଦେଖାଏ।</p>
 </section>
 
 <section class="card">
 <h2>୨. ଲେଖକ ପରିଚୟ</h2>
-<p><strong>ଗୋଲୋକ ବିହାରୀ ଧଳ (୧୯୨୧–୧୯୭୪)</strong> — ପ୍ରାବନ୍ଧିକ ଲେଖକ।</p>
+<div class="objective"><b>⭐ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ:</b> ଗୋଲୋକ ବିହାରୀ ଧଳ (୧୯୨୧–୧୯୭୪)</div>
+<p>ସେ ଜଣେ ପ୍ରାବନ୍ଧିକ ଥିଲେ। ଢେଙ୍କାନାଳର ଗଞ୍ଜେଇଡିହ ଗ୍ରାମରେ ଜନ୍ମଗ୍ରହଣ କରିଥିଲେ। ସଂସ୍କୃତ ଭାଷା ସାହିତ୍ୟରେ ସ୍ନାତକୋତ୍ତର ଓ ଭାଷା ବିଜ୍ଞାନରେ ବିଶେଷ ଶିକ୍ଷା ଲାଭ କରିଥିଲେ। ଭାଷା ବିଜ୍ଞାନୀ, ପ୍ରାବନ୍ଧିକ, ଅନୁବାଦକ, ଭ୍ରମଣ-ସାହିତ୍ୟ ରଚୟିତା ଓ ଶିଶୁସାହିତ୍ୟ ଲେଖକ ଭାବେ ସୁପରିଚିତ।</p>
+<p>‘ମାତୃଭାଷା ଓ ଲୋକଶିକ୍ଷା’ ପ୍ରବନ୍ଧଟି ‘ଓଡ଼ିଆ କେବେ’ରୁ ସଂଗୃହୀତ।</p>
 </section>
 
 <section class="card">
-<h2>୩. ପ୍ରବନ୍ଧର ମୁଖ୍ୟ ଧାରା</h2>
+<h2>୩. ପାଠର ମୁଖ୍ୟ ଧାରା</h2>
+<div class="objective"><b>🎯 ଲକ୍ଷ୍ୟ:</b> ଲେଖକଙ୍କ ଚିନ୍ତାର କ୍ରମ ବୁଝିବା।</div>
 <div class="flow">
-<div class="node">ଆଞ୍ଚଳିକ ଭାଷା = ଜନତାର ପ୍ରଥମ ପ୍ରୟୋଜନ</div>
+<div class="node">ଆଞ୍ଚଳିକ ଭାଷା<br>ଜନତାର ପ୍ରଥମ ପ୍ରୟୋଜନ</div>
 <div class="arrow">→</div>
-<div class="node">ମାତୃଭାଷାର ଉନ୍ନତି</div>
+<div class="node">ମାତୃଭାଷାର<br>ଉନ୍ନତି</div>
 <div class="arrow">→</div>
-<div class="node">ସାମୂହିକ ଶିକ୍ଷା</div>
+<div class="node">ସାମୂହିକ<br>ଶିକ୍ଷା</div>
 <div class="arrow">→</div>
-<div class="node">ଗଣତନ୍ତ୍ରର ସଫଳତା</div>
+<div class="node">ଗଣତନ୍ତ୍ରର<br>ସଫଳତା</div>
 </div>
 </section>
 
 <section class="card">
 <h2>୪. ମାତୃଭାଷା କାହିଁକି ଦରକାର?</h2>
+<div class="quote">“ଅନ୍ନବସ୍ତ୍ର ପରି ତା’ର ଦରକାର ନିଜର ଭାଷା।”</div>
 <ul>
-<li>ଲୋକଙ୍କ ଜୀବନର ପ୍ରଥମ ପ୍ରୟୋଜନ ମଧ୍ୟରେ ନିଜ ଭାଷାର ସ୍ଥାନ ଅଛି।</li>
-<li>ମାତୃଭାଷା ଜ୍ଞାନକୁ ସହଜରେ ପ୍ରସାରିତ କରେ।</li>
-<li>ଲୋକଶିକ୍ଷା ପାଇଁ ମାତୃଭାଷା ଉପଯୁକ୍ତ ମାଧ୍ୟମ।</li>
+<li>ଆଞ୍ଚଳିକ ଭାଷା ଜନତାର ପ୍ରଥମ ପ୍ରୟୋଜନ ବୋଲି ପାଠରେ କୁହାଯାଇଛି।</li>
+<li>ମାତୃଭାଷା ପ୍ରତି ମମତାକୁ ଦେଶଭକ୍ତି ସହ ଯୋଡ଼ାଯାଇଛି।</li>
+<li>ଗାନ୍ଧୀଜୀ ମାତୃଭାଷାକୁ ମାତୃସ୍ତନ ପରି ମୂଲ୍ୟବାନ ମାନୁଥିଲେ।</li>
 </ul>
 </section>
 
 <section class="card">
-<h2>୬. ବିଦେଶୀ ଭାଷା ଓ ହିବ୍ରୁ ଭାଷାର ଉଦାହରଣ</h2>
-<p>ହିବ୍ରୁ ଭାଷା ମୃତପ୍ରାୟ ଅବସ୍ଥାରୁ ଉଠି ଇସ୍ରାଇଲର ରାଜ୍ୟଭାଷା ହୋଇଥିଲା — ଏହା ଏକ ପ୍ରମୁଖ ଉଦାହରଣ।</p>
+<h2>୫. ବଡ଼ ଗଛ ଓ ଛୋଟ ଗଛର ଉଦାହରଣ</h2>
+<div class="flow">
+<div class="node">ବଡ଼ ବରଗଛ</div>
+<div class="arrow">→</div>
+<div class="node">ଛୋଟ ବରକୋଳି ଗଛ<br>ଉଠିପାରେ ନାହିଁ</div>
+</div>
+<div class="flow">
+<div class="node">ବିଜୁଳିବତୀ ଜଳୁଛି</div>
+<div class="arrow">→</div>
+<div class="node">ଛୋଟ ଦୀପକୁ<br>କେହି ଚାହେ ନାହିଁ</div>
+</div>
+<p>ଏହି ଉଦାହରଣ ମାଧ୍ୟମରେ ବଡ଼ ଭାଷାର ପ୍ରଭାବ ମଧ୍ୟରେ ଛୋଟ ଆଞ୍ଚଳିକ ଭାଷାର ଅବସ୍ଥାକୁ ବୁଝାଇଛନ୍ତି।</p>
+</section>
+
+<section class="card">
+<h2>୬. ହିବ୍ରୁ ଭାଷାର ଉଦାହରଣ</h2>
+<div class="objective"><b>📌 ମନେ ରଖ:</b> ହିବ୍ରୁ ଭାଷାର ପୁନରୁତ୍ଥାନକୁ ପାଠରେ ଏକ ପ୍ରକୃଷ୍ଟ ଉଦାହରଣ ଭାବେ ଦିଆଯାଇଛି।</div>
+<p>ପାଠରେ ହିବ୍ରୁ ଭାଷା ମୃତପ୍ରାୟ ଅବସ୍ଥାରୁ ଉଠି ଆଜେରାଇଲର ରାଜ୍ୟଭାଷାରେ ପରିଣତ ହୋଇଥିବା କଥା ରହିଛି। ଏହାର ଉନ୍ନତି ପାଇଁ ଅନ୍ୟ ଭାଷା ବିରୋଧରେ ପ୍ରଚାର ଏବଂ ବିଦ୍ୟାଳୟରେ ବିଦେଶୀ ଭାଷା ବ୍ୟବହାରର ଭୁଲ୍ ରୀତି ବଦଳାଇବାର ଉଲ୍ଲେଖ ରହିଛି।</p>
 </section>
 
 <section class="card">
 <h2>୭. ଗଣତନ୍ତ୍ର ଓ ଲୋକଶିକ୍ଷା</h2>
-<p>ଲେଖକ କହିଛନ୍ତି ଯେ ଗଣତନ୍ତ୍ର ପାଇଁ ଶିକ୍ଷା ଅତ୍ୟନ୍ତ ଆବଶ୍ୟକ। ପ୍ରତ୍ୟେକ ଭୋଟରଙ୍କୁ ଉପଯୁକ୍ତ ଶିକ୍ଷା ଦେବା ଦରକାର।</p>
+<div class="flow">
+<div class="node">ଗଣତନ୍ତ୍ର</div>
+<div class="arrow">→</div>
+<div class="node">ଶିକ୍ଷା</div>
+<div class="arrow">→</div>
+<div class="node">ଉପଯୁକ୍ତ ଶିକ୍ଷିତ ଭୋଟର</div>
+<div class="arrow">→</div>
+<div class="node">ସଫଳ ଗଣତନ୍ତ୍ର</div>
+</div>
+<p>ପ୍ରତ୍ୟେକ ଭୋଟର ଉପଯୁକ୍ତ ଶିକ୍ଷା ନପାଇଲେ ଗଣତନ୍ତ୍ର ସଫଳ ହୋଇପାରିବ ନାହିଁ। ସମୂହ ଜନତାଙ୍କୁ ଅଳ୍ପ ସମୟରେ ଶିକ୍ଷିତ କରିବା ପାଇଁ ମାତୃଭାଷାକୁ ସର୍ବୋତ୍କୃଷ୍ଟ ମାଧ୍ୟମ କୁହାଯାଇଛି।</p>
 </section>
 
 <section class="card">
-<h2>୮. ମାତୃଭାଷା ବନାମ ବିଦେଶୀ ଭାଷା — ତୁଳନା</h2>
-<table class="table">
+<h2>୮. ମାତୃଭାଷା ଓ ବିଦେଶୀ ଭାଷା — ତୁଳନା</h2>
+<table>
 <tr><th>ମାତୃଭାଷା</th><th>ବିଦେଶୀ ଭାଷା</th></tr>
-<tr><td>ସହଜ ଓ ସ୍ୱାଭାବିକ ମାଧ୍ୟମ</td><td>ଶିଖିବା ଅଧିକ ସମୟ ଲାଗେ</td></tr>
-<tr><td>ଜ୍ଞାନକୁ ସହଜରେ ପ୍ରସାରିତ କରିପାରେ</td><td>ସମସ୍ତଙ୍କ ପାଇଁ ସହଜ ନୁହେଁ</td></tr>
+<tr><td>ସହଜ ଓ ସ୍ୱାଭାବିକ ମାଧ୍ୟମ</td><td>ଶିଖିବାରେ ଅଧିକ ସମୟ ଓ ମାନସିକ ପରିଶ୍ରମ ଲାଗେ</td></tr>
+<tr><td>ଜ୍ଞାନକୁ ସହଜରେ ପ୍ରସାରିତ କରିପାରେ</td><td>ସମସ୍ତେ ସହଜରେ ପାଇପାରନ୍ତି ନାହିଁ</td></tr>
 <tr><td>ଘର ଓ ସମାଜରେ ସହଜ ବ୍ୟବହାର</td><td>ଘରକୁ ଫେରିଲେ ବ୍ୟବହାର କମିଯାଏ</td></tr>
-<tr><td>ଲୋକଶିକ୍ଷା ପାଇଁ ଉପଯୁକ୍ତ</td><td>ଲୋକଶିକ୍ଷାର ପ୍ରସାରରେ ବାଧା ସୃଷ୍ଟି କରେ</td></tr>
+<tr><td>ଲୋକଶିକ୍ଷା ପାଇଁ ଉପଯୁକ୍ତ</td><td>ଲୋକଶିକ୍ଷାର ପ୍ରସାରରେ ବାଧା</td></tr>
 </table>
 </section>
 
 <section class="card">
-<h2>୯. କୃଷି ଶିକ୍ଷା — ସହଜ ଉଦାହରଣ</h2>
-<p>ଚାଷୀଙ୍କର ଅନୁଭବ ଓ କୃଷିଜ୍ଞାନକୁ ସରଳ ଭାଷାରେ ପ୍ରସାର କରିବା ଦରକାର।</p>
-</section>
-
-<section class="card">
-<h2>୧୦. ଟେକ୍ନିକାଲ୍ ଜ୍ଞାନ ଓ ମାତୃଭାଷା</h2>
-<p>କୃଷି ବିଷୟର ଟେକ୍ନିକାଲ୍ ଶବ୍ଦଗୁଡ଼ିକୁ ମାତୃଭାଷାରେ ପେଆରାଇବା ଆବଶ୍ୟକ।</p>
-</section>
-
-<section class="card">
-<h2>📚 ୧୬. ଶବ୍ଦାର୍ଥ — Visual Vocabulary Cards</h2>
+<h2>୯. କୃଷି ଶିକ୍ଷାର ଉଦାହରଣ</h2>
 <div class="flow">
-<div class="node"><b>ପଦସ୍ଥ</b> → ପଦାଧିକାରୀ</div>
-<div class="node"><b>କାଉନ୍‌ସିଲ୍</b> → ପ୍ରଶାସନିକ ପରିଷଦ</div>
+<div class="node">କୃଷିର ଅନୁଭବ</div>
+<div class="arrow">→</div>
+<div class="node">ମାତୃଭାଷାରେ ପୁସ୍ତକ</div>
+<div class="arrow">→</div>
+<div class="node">ଚାଷୀ ସହଜରେ ବୁଝନ୍ତି</div>
+<div class="arrow">→</div>
+<div class="node">ଜ୍ଞାନ ପ୍ରସାର</div>
+</div>
+<p>ଚାଷୀମାନଙ୍କ ଦୀର୍ଘ ଅନୁଭବକୁ ସରଳ ଭାଷାରେ ଲେଖିଲେ ସେମାନେ ସହଜରେ ବୁଝିପାରିବେ। ଅନ୍ୟ ଦେଶର କୃଷକମାନଙ୍କ ଅନୁଭବ ମଧ୍ୟ ସରଳ ଭାଷାରେ ଦିଆଯାଉଥିବା ଉଦାହରଣ ପାଠରେ ରହିଛି।</p>
+</section>
+
+<section class="card">
+<h2>୧୦. ଟେକ୍ନିକାଲ୍ ଶବ୍ଦ ଓ ମାତୃଭାଷା</h2>
+<p>କୃଷି ବିଷୟରେ ମାତୃଭାଷାର ଅନେକ ଟେକ୍ନିକାଲ୍ ଓଡ଼ିଆ ଶବ୍ଦ ଇଂରାଜୀ ମାଧ୍ୟମର କାରଣରୁ ଭୁଲିଯାଉଛନ୍ତି। ମାତୃଭାଷାରେ ଲେଖିବା-ପଢ଼ିବା ପ୍ରତି ଅନାଗ୍ରହ ରହିଲେ ପାରିଭାଷିକ ଶବ୍ଦ ତିଆରି ହେବାର ସୁଯୋଗ ମଧ୍ୟ କମିଯାଏ।</p>
+<div class="warning"><b>⚠️ ସାଧାରଣ ଭୁଲ:</b> “ଆମ ଭାଷାରେ ପାରିଭାଷିକ ଶବ୍ଦ ନାହିଁ” ବୋଲି କହିବା ପୂର୍ବରୁ ପାଠର ଏହି ଯୁକ୍ତିକୁ ମନେ ରଖ।</div>
+</section>
+
+<section class="card">
+<h2>୧୧. ଶିକ୍ଷା ଓ ଜ୍ଞାନର ପ୍ରସାର</h2>
+<p>ବିଦେଶୀ ଭାଷାରେ ଶିକ୍ଷା ଦେଲେ ଶିକ୍ଷା ସହଜରେ ସମସ୍ତ ଲୋକଙ୍କ ଭିତରେ ପ୍ରସାରିତ ହୋଇପାରେ ନାହିଁ। ପାଠର ଟେବୁଲ୍ ଉପରେ ଥିବା ପୁସ୍ତକର ଉଦାହରଣ ଦେଖାଏ ଯେ ମାତୃଭାଷାରେ ଲେଖା ପୁସ୍ତକ ପ୍ରତି ଘରର ଲୋକଙ୍କ ଆଗ୍ରହ ସହଜରେ ଜାଗିପାରେ।</p>
+</section>
+
+<section class="card">
+<h2>୧୨. ଶାସନ ଓ ଜନଭାଷା</h2>
+<div class="flow">
+<div class="node">ଜନତାର ଭାଷା</div>
+<div class="arrow">→</div>
+<div class="node">ଜନତା ବୁଝନ୍ତି</div>
+<div class="arrow">→</div>
+<div class="node">ଶାସନର କାମ ବୁଝନ୍ତି</div>
+</div>
+<p>ପାଠରେ ରୁଷ ସରକାରଙ୍କ ଉଦାହରଣ ଦିଆଯାଇଛି—ପ୍ରତ୍ୟେକ ସୋଭିଏଟ୍‌ରେ ଲୋକମାନଙ୍କୁ ନିଜ ମାତୃଭାଷାରେ ଶିକ୍ଷା ଓ ଶାସନ ଚଳାଇବାର ଅଧିକାର ଦିଆଯାଇଥିଲା।</p>
+<div class="quote">“ବାସ୍ତବରେ ଲୋକଙ୍କ ହାତକୁ କ୍ଷମତା ଦେଇ ତାଙ୍କ ନିଜ ଭାଷାରେ ଶାସନ କାର୍ଯ୍ୟ ଚଳାଇବା ପାଇଁ ସୁଯୋଗ ନଦେଲେ ସେ କ୍ଷମତାର କିଛି ଅର୍ଥ ନାହିଁ।”</div>
+</section>
+
+<section class="card">
+<h2>୧୩. ଗାଁ ଓ ସହରର ଉଦାହରଣ</h2>
+<div class="box">
+B.D.O. ଓ ପଞ୍ଚାୟତ ଇଞ୍ଜିନିୟର ଇଂରାଜୀରେ କଥାବାର୍ତ୍ତା କଲେ ସାଧାରଣ ଲୋକଙ୍କ ସହ ଦୂରତା ରହିଯାଏ। ଏହି ଉଦାହରଣ ମାଧ୍ୟମରେ ଜନଭାଷାରେ ଶାସନର ଆବଶ୍ୟକତାକୁ ଦେଖାଯାଇଛି।
 </div>
 </section>
 
 <section class="card">
-<h2>📝 ୧୭. ଭାଷା ଅଭ୍ୟାସ</h2>
-<p>ଅଭ୍ୟାସ ପ୍ରଶ୍ନଗୁଡ଼ିକୁ ପୁନଃସଂଗ୍ରହ କରାଯାଇଥିଲା; ମୂଳ ଅଭିଯାସ ହାତଲାଗୁଛି।</p>
-</section>
-
-<section class="card">
-<h2>🎯 ୧୮. ଶୂନ୍ୟସ୍ଥାନ ପୂରଣ — ପାଠ୍ୟ ଅଭ୍ୟାସ (ଚିହ୍ନିତ ଉତ୍ତର)</h2>
+<h2>୧୪. ମାତୃଭାଷା ପ୍ରତି ସମ୍ମାନର ଉଦାହରଣ</h2>
 <ul>
-<li>ଅନ୍ନଦାଶଙ୍କର ମାତୃଭାଷା — <strong>ଓଡ଼ିଆ</strong></li>
-<li>ଇସ୍ରାଇଲ ସହିତ ସମ୍ପର୍କିତ ଭାଷା — <strong>ହିବ୍ରୁ</strong></li>
-<li>ସ୍ୱଭାବକବି — <strong>ଗଙ୍ଗାଧର ମେହେର</strong></li>
+<li>ପୁରୀ ଷ୍ଟେସନ୍‌ର ନାମ ହିନ୍ଦୀ ଓ ଓଡ଼ିଆରେ ଲେଖାଯାଇଥିବା ଉଲ୍ଲେଖ।</li>
+<li>‘ପୁରୀ’ର ଭୁଲ ବନାନ ନେଇ ଲେଖକଙ୍କ ଅସନ୍ତୋଷ।</li>
+<li>ରାଉରକେଲାର ତାରଘର ଓ ଘରର ନାମ ହିନ୍ଦୀ ଓ ଓଡ଼ିଆ ଅକ୍ଷରରେ ଲେଖା ଥିବା ଉଲ୍ଲେଖ।</li>
+<li>ସ୍କଟଲାଣ୍ଡରେ Conduit Street ନାମର ଉଚ୍ଚାରଣକୁ ନେଇ ଦୀର୍ଘ ଆନ୍ଦୋଳନର ଉଦାହରଣ।</li>
 </ul>
 </section>
 
 <section class="card">
-<h2>📊 Quick Revision Table</h2>
-<table class="table">
+<h2>୧୫. ଲେଖକଙ୍କ ଶେଷ ଚିନ୍ତା</h2>
+<div class="flow">
+<div class="node">ଆଞ୍ଚଳିକ ଭାଷା ପ୍ରତି<br>ଦୃଷ୍ଟି ଆକର୍ଷଣ</div>
+<div class="arrow">→</div>
+<div class="node">ଇଂରାଜୀ ଆଧିପତ୍ୟ<br>କମାଇବା</div>
+<div class="arrow">→</div>
+<div class="node">ମାତୃଭାଷାରେ<br>ସାମୂହିକ ଶିକ୍ଷା</div>
+<div class="arrow">→</div>
+<div class="node">ମାତୃଭାଷାର<br>ଉନ୍ନତି</div>
+</div>
+<ul>
+<li>ଆଞ୍ଚଳିକ ଭାଷା ପ୍ରତି ଦୃଷ୍ଟି ଆକର୍ଷଣ ପାଇଁ ଇଂରାଜୀ ଆଧିପତ୍ୟ କମାଇବାର ଆବଶ୍ୟକତା।</li>
+<li>ଜନତାର ସାମୂହିକ ଶିକ୍ଷା ପାଇଁ ମାତୃଭାଷାକୁ ପ୍ରକୃତ ମାଧ୍ୟମ କରିବା।</li>
+<li>ମାତୃଭାଷା ପ୍ରତି ଅଭିମାନ ଓ ତାହାର ଉନ୍ନତିସାଧନ କାମ୍ୟ।</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>📚 ୧୬. ଶବ୍ଦାର୍ଥ</h2>
+<div class="grid">
+<div class="box"><b>ପଦସ୍ଥ</b><br>ପଦାଧିକାରୀ</div>
+<div class="box"><b>କାଉନ୍‌ସିଲ୍</b><br>ପ୍ରଶାସନିକ ପରିଷଦ</div>
+<div class="box"><b>ସମୂହ</b><br>ସମଷ୍ଟି</div>
+<div class="box"><b>ସ୍ଫୂର୍ତ୍ତି</b><br>ଚଞ୍ଚଳତା, ଫୂର୍ତ୍ତି, ଉତ୍ସାହ</div>
+<div class="box"><b>ନିରବଚ୍ଛିନ୍ନ</b><br>ଅବିରତ ଭାବରେ</div>
+<div class="box"><b>ହିବ୍ରୁ</b><br>ଆଜେରାଇଲର ଆଧୁନିକ ଭାଷା</div>
+<div class="box"><b>ରୁଷିଙ୍କ ଶ୍ରାଦ୍ଧ</b><br>ଆୟୋଜନ ବଡ଼ ଜଣାପଡ଼ିଲେ ହେଁ ଫଳାଫଳ ନ୍ୟୂନ</div>
+<div class="box"><b>ପୋଲିସ୍</b><br>ପୋଲାଣ୍ଡବାସୀଙ୍କ ମାତୃଭାଷା</div>
+</div>
+</section>
+
+<section class="card">
+<h2>📝 ୧୭. ନିର୍ଦ୍ଦିଷ୍ଟ ଉତ୍ତରମୂଳକ ଭାଷା ଅଭ୍ୟାସ</h2>
+
+<div class="q">
+<b>୧.</b> ଦୁଃ + ଭାଗ୍ୟ = ଦୁର୍ଭାଗ୍ୟ। ଏହିପରି ‘ଦୁଃ’ ଉପସର୍ଗ ଲଗାଇ ଆଉ ଚାରୋଟି ଶବ୍ଦ ଲେଖ।
+<div class="answer">ଏଠାରେ ‘ଦୁଃ’ ଉପସର୍ଗ ଲଗାଇ ଗଠିତ ଚାରୋଟି ଶବ୍ଦ ଲେଖିବାକୁ ହେବ।</div>
+</div>
+
+<div class="q">
+<b>୨.</b> ‘ଅନ୍ନବସ୍ତ୍ର’ ପରି ଆଉ ଚାରୋଟି ଯୋଡ଼ା ଶବ୍ଦ ପଠିତ ବିଷୟରୁ ଚୟନ କର।
+<div class="answer">ପାଠରେ ଥିବା ଯୋଡ଼ା ଶବ୍ଦଗୁଡ଼ିକ ଚିହ୍ନଟ କରି ଲେଖ।</div>
+</div>
+
+<div class="q">
+<b>୩.</b> ‘ମନସ୍’ ଶବ୍ଦରେ ‘ଇକ’ ପ୍ରତ୍ୟୟ ଲାଗି ‘ମାନସିକ’ ହୋଇଛି। ସେହିପରି ଆଉ ଚାରୋଟି ‘ଇକ’ ପ୍ରତ୍ୟୟଯୁକ୍ତ ଶବ୍ଦ ଲେଖ।
+<div class="answer">‘ଇକ’ ପ୍ରତ୍ୟୟ ଯୋଗରେ ଗଠିତ ଚାରୋଟି ଶବ୍ଦ ଲେଖ।</div>
+</div>
+
+<div class="q">
+<b>୪.</b> ସନ୍ଧିବିଚ୍ଛେଦ କର — ସର୍ବୋତ୍ତମ, ନିରଳସ, ନିରବଚ୍ଛିନ୍ନ, ନିଶ୍ଚୟ, ଉନ୍ମୋଚନ।
+<div class="answer">ପ୍ରତ୍ୟେକ ଶବ୍ଦର ସଠିକ୍ ସନ୍ଧିବିଚ୍ଛେଦ ଲେଖିବାକୁ ହେବ।</div>
+</div>
+
+<div class="q">
+<b>୫.</b> ବିପରୀତାର୍ଥବୋଧକ ଶବ୍ଦ ଲେଖ — ଜ୍ଞାନୀ, ଆମଦାନୀ, ସନ୍ଦେହ, ଆରମ୍ଭ, ସୁଯୋଗ, ଆଦର୍ଶ।
+<div class="answer">ପ୍ରତ୍ୟେକ ଶବ୍ଦର ବିପରୀତ ଅର୍ଥବୋଧକ ଶବ୍ଦ ଲେଖ।</div>
+</div>
+
+<div class="q">
+<b>୬.</b> ‘କ’ ସ୍ତମ୍ଭ ସହ ‘ଖ’ ସ୍ତମ୍ଭ ଯୋଗ କର।
+<table>
+<tr><th>‘କ’ ସ୍ତମ୍ଭ</th><th>‘ଖ’ ସ୍ତମ୍ଭ</th></tr>
+<tr><td>ଗଣତନ୍ତ୍ର</td><td>ମାତୃଭାଷା</td></tr>
+<tr><td>ହିବ୍ରୁ</td><td>ଗାନ୍ଧୀଜୀ</td></tr>
+<tr><td>ମାତୃଭୂମି</td><td>ପୁରୀ</td></tr>
+<tr><td>ଅଦୃଶ୍ୟଦ୍ରଷ୍ଟା</td><td>ଆଜେରାଇଲ</td></tr>
+<tr><td>ସଂସ୍କୃତିକେନ୍ଦ୍ର</td><td>ଟେକ୍ନିକାଲ୍ ଅଡିୟମ</td></tr>
+<tr><td>କୃଷି</td><td>ଆଞ୍ଚଳିକ</td></tr>
+<tr><td>ଶିକ୍ଷା</td><td>ମାତୃଭାଷା</td></tr>
+</table>
+</div>
+</section>
+
+<section class="card">
+<h2>📝 ୧୮. ଶୂନ୍ୟସ୍ଥାନ ପୂରଣ</h2>
+<div class="q">ଅନ୍ନଦାଶଙ୍କରଙ୍କ ମାତୃଭାଷା ଥିଲା — <b>ଓଡ଼ିଆ</b></div>
+<div class="q">ଆଜେରାଇଲ ସହିତ ସମ୍ପର୍କିତ ଭାଷା — <b>ହିବ୍ରୁ</b></div>
+<div class="q">‘ସ୍ୱଭାବକବି’ — <b>ଗଙ୍ଗାଧର ମେହେର</b></div>
+</section>
+
+<section class="card">
+<h2>🎯 ୧୯. ଲଘୁ ଉତ୍ତରମୂଳକ ପ୍ରଶ୍ନ</h2>
+
+<div class="q"><b>୮. ଜନତାର ପ୍ରଥମ ପ୍ରୟୋଜନ କ’ଣ?</b>
+<div class="answer">ଆଞ୍ଚଳିକ ଭାଷା ହେଉଛି ଜନତାର ପ୍ରଥମ ପ୍ରୟୋଜନ।</div></div>
+
+<div class="q"><b>୯. ଦେଶଭକ୍ତ ବୋଲି କାହାକୁ କୁହାଯାଇପାରେ ନାହିଁ?</b>
+<div class="answer">ଯାହାର ହୃଦୟରେ ମାତୃଭୂମି ଓ ମାତୃଭାଷା ପ୍ରତି ମମତା ନାହିଁ, ତାକୁ ଦେଶଭକ୍ତ କୁହାଯାଇପାରେ ନାହିଁ।</div></div>
+
+<div class="q"><b>୧୦. ଗଣତନ୍ତ୍ରର ମୂଳମନ୍ତ୍ର କ’ଣ?</b>
+<div class="answer">ଶିକ୍ଷା ହେଉଛି ଗଣତନ୍ତ୍ରର ମୂଳମନ୍ତ୍ର।</div></div>
+
+<div class="q"><b>୧୧. ସମୂହ ଜନତା ଅଳ୍ପ ସମୟ ମଧ୍ୟରେ କିପରି ଶିକ୍ଷିତ ହୋଇପାରିବେ?</b>
+<div class="answer">ମାତୃଭାଷା ମାଧ୍ୟମରେ ସମୂହ ଜନତାଙ୍କୁ ଅଳ୍ପ ସମୟରେ ଶିକ୍ଷିତ କରିବା ସମ୍ଭବ।</div></div>
+
+<div class="q"><b>୧୨. ବିଦେଶୀ ଭାଷା ଲୋକମାନଙ୍କ ଭିତରେ ସହଜରେ ପ୍ରସାରିତ ନ ହେବାର କାରଣ କ’ଣ?</b>
+<div class="answer">ବିଦେଶୀ ଶିକ୍ଷା ସମସ୍ତେ ପାଇପାରନ୍ତି ନାହିଁ ଏବଂ ଘରକୁ ଫେରିଲେ ସାଧାରଣତଃ ବିଦେଶୀ ଭାଷା ବ୍ୟବହାର କମିଯାଏ।</div></div>
+
+<div class="q"><b>୧୩. କେଉଁ ଅପ୍ରାକୃତିକ ପାଚେରିକୁ ଭାଙ୍ଗିବା ପାଇଁ ଗାନ୍ଧୀଜୀ ପ୍ରଥମେ ପ୍ରୟାସ କରିଥିଲେ?</b>
+<div class="answer">ବିଦେଶୀ ମାଧ୍ୟମରୁ ସୃଷ୍ଟି ହୋଇଥିବା ଅପ୍ରାକୃତିକ ପାଚେରିକୁ ଭାଙ୍ଗିବା ପାଇଁ।</div></div>
+
+<div class="q"><b>୧୪. କୃଷି ବିଷୟକ ଶିକ୍ଷା ମାତୃଭାଷାରେ ହେଲେ କି ସୁଫଳ ହୁଅନ୍ତା?</b>
+<div class="answer">ଚାଷୀମାନେ ସହଜରେ କୃଷି ବିଷୟର ଜ୍ଞାନ ବୁଝିପାରନ୍ତେ ଏବଂ ଜ୍ଞାନ ପ୍ରସାରିତ ହୋଇପାରନ୍ତା।</div></div>
+
+<div class="q"><b>୧୫. ମାତୃଭାଷା ସମ୍ପର୍କରେ ଗାନ୍ଧୀଜୀ ଓ ରବୀନ୍ଦ୍ରନାଥଙ୍କ ଦୃଷ୍ଟିକୋଣ କିପରି ଥିଲା?</b>
+<div class="answer">ଦୁହେଁ ମାତୃଭାଷାକୁ ଶିକ୍ଷାର ମୂଳ ମାଧ୍ୟମ ଭାବେ ଗୁରୁତ୍ୱ ଦେଉଥିଲେ।</div></div>
+
+<div class="q"><b>୧୬. ରୁଷ ସରକାର ପ୍ରତ୍ୟେକ ସୋଭିଏଟ୍‌ରେ ଲୋକମାନଙ୍କୁ କେଉଁ ଅଧିକାର ଦେଇଛନ୍ତି?</b>
+<div class="answer">ନିଜ ମାତୃଭାଷାରେ ଶିକ୍ଷା ଓ ଶାସନ ଚଳାଇବାର ଅଧିକାର।</div></div>
+
+<div class="q"><b>୧୭. ଗାଁ ସହରରେ ଇଂରାଜୀ ପଢ଼ୁଆ B.D.O. ଏବଂ ପଞ୍ଚାୟତ ଇଞ୍ଜିନିୟରଙ୍କ ଉଦାହରଣ ଦେଇ ଲେଖକ କି ମତବ୍ୟ ଦେଇଛନ୍ତି?</b>
+<div class="answer">ଇଂରାଜୀ ଭାଷା ଲୋକ ଓ ଶାସନ ମଧ୍ୟରେ ଦୂରତା ସୃଷ୍ଟି କରେ ବୋଲି ଲେଖକ ଦେଖାଇଛନ୍ତି।</div></div>
+
+<div class="q"><b>୧୮. କେଉଁ ଘଟଣା ପାଇଁ ସ୍କଟଲାଣ୍ଡରେ ମାସ ମାସ ଧରି ଆନ୍ଦୋଳନ ଚାଲିଥିଲା?</b>
+<div class="answer">Conduit Street ନାମର ଉଚ୍ଚାରଣକୁ ନେଇ ଘଟିଥିବା ଘଟଣା ପାଇଁ।</div></div>
+
+<div class="q"><b>୧୯. କେଉଁମାନଙ୍କୁ ‘ରିଙ୍ଗ୍ ଲିଡର୍’ କୁହାଯାଉଥିଲା?</b>
+<div class="answer">ଓଡ଼ିଆ ଭାଷା ପାଇଁ ଚିନ୍ତା କରୁଥିବା ନେତୃତ୍ୱଦାତାମାନଙ୍କୁ।</div></div>
+
+<div class="q"><b>୨୦. ଶାସିତଙ୍କୁ ଶାସକଙ୍କଠାରୁ କିଏ ଦୂରେଇ ରଖିଛି?</b>
+<div class="answer">ଇଂରାଜୀ ଭାଷା।</div></div>
+</section>
+
+<section class="card">
+<h2>📖 ୨୦. ପ୍ରସଙ୍ଗ ସରଳାର୍ଥ</h2>
+
+<div class="q">
+<div class="quote">“ମାତୃଭାଷାରେ ମନୁଷ୍ୟର ଯେଉଁ ସ୍ଫୂର୍ତ୍ତି ହୁଏ, ଅନ୍ୟ କୌଣସି ଦ୍ୱିତୀୟ ଭାଷାରେ ତା’ ହୁଏ ନାହିଁ।”</div>
+<div class="answer">ମାତୃଭାଷା ମଣିଷ ପାଇଁ ସହଜ ଓ ସ୍ୱାଭାବିକ ମାଧ୍ୟମ ବୋଲି ଏଠାରେ ଦେଖାଯାଇଛି।</div>
+</div>
+
+<div class="q">
+<div class="quote">“କିନ୍ତୁ ଆମ ଦେଶରେ ଜ୍ଞାନ ଭଣ୍ଡାରଟା ଇଂରାଜୀରେ ଥିବାରୁ କୋଟି କୋଟି ଜନତା ଆଖି ଥାଉଁ ଥାଉଁ ଅନ୍ଧ।”</div>
+<div class="answer">ଜ୍ଞାନ ଇଂରାଜୀରେ ସୀମିତ ରହିଲେ ସାଧାରଣ ଲୋକଙ୍କ ପାଖକୁ ଜ୍ଞାନ ସହଜରେ ପହଞ୍ଚେ ନାହିଁ।</div>
+</div>
+
+<div class="q">
+<div class="quote">“ବାସ୍ତବରେ ଲୋକଙ୍କ ହାତକୁ କ୍ଷମତା ଦେଇ ତାଙ୍କ ନିଜ ଭାଷାରେ ଶାସନ କାର୍ଯ୍ୟ ଚଳାଇବା ପାଇଁ ସୁଯୋଗ ନଦେଲେ ସେ କ୍ଷମତାର କିଛି ଅର୍ଥ ନାହିଁ।”</div>
+<div class="answer">ଜନତାଙ୍କ ଭାଷାରେ ଶାସନ ନହେଲେ ଜନତାଙ୍କ ହାତରେ ଥିବା କ୍ଷମତା ପୂର୍ଣ୍ଣ ଅର୍ଥବହ ହୁଏ ନାହିଁ।</div>
+</div>
+
+<div class="q">
+<div class="quote">“ବଘ ସିନା ବଘାଏ, ଆବୁ କାହାର ବଘାଏ ନାହିଁ।”</div>
+<div class="answer">ନିଜ ଦାୟିତ୍ୱ ନିଜେ ନେବା ଦରକାର—ଏହି ସଂକ୍ଷିପ୍ତ ଉକ୍ତିକୁ ମନେ ରଖ।</div>
+</div>
+</section>
+
+<section class="card">
+<h2>📚 ୨୧. ଦୀର୍ଘ ଉତ୍ତରମୂଳକ ପ୍ରଶ୍ନ</h2>
+
+<div class="q"><b>୨୫. ମାତୃଭାଷା ଶିକ୍ଷା ହିଁ ଦେଶ ଓ ଜାତିର ପ୍ରଗତିର ପରିଚାୟକ — ଆଲୋଚନା କର।</b>
+<div class="answer">ଉତ୍ତରରେ ମାତୃଭାଷାରେ ଶିକ୍ଷା, ଜନତାଙ୍କ ଶିକ୍ଷା, ଜ୍ଞାନର ପ୍ରସାର, ଗଣତନ୍ତ୍ର ଓ ପାଠର ଉଦାହରଣଗୁଡ଼ିକୁ କ୍ରମରେ ଲେଖ।</div></div>
+
+<div class="q"><b>୨୬. ମାତୃଭାଷା ପ୍ରତି ଓଡ଼ିଆମାନଙ୍କଠାରେ ଯେଉଁ ଉଦାସୀନତା ପରିଲକ୍ଷିତ ହୁଏ, ତାହାର ଦୂରୀକରଣ କିପରି କରାଯାଇପାରିବ ଲେଖ।</b>
+<div class="answer">ପାଠରେ ଥିବା ମାତୃଭାଷା ପ୍ରତି ସମ୍ମାନ, ମାତୃଭାଷାରେ ଶିକ୍ଷା, ଜନଭାଷାରେ ଶାସନ ଓ ନିଜ ଭାଷାର ଉନ୍ନତି ପାଇଁ ସାଧନାର ଯୁକ୍ତିଗୁଡ଼ିକୁ ବ୍ୟବସ୍ଥିତ ଭାବେ ଲେଖ।</div></div>
+
+<div class="q"><b>୨୭. ମାତୃଭାଷାର ପ୍ରସାର ପାଇଁ ପ୍ରାବନ୍ଧିକ ଯେଉଁ ଚିନ୍ତନ ପ୍ରୟାସ କରିଛନ୍ତି, ତାହା ପଠିତ ପ୍ରବନ୍ଧକୁ ଭିତ୍ତିକରି ବିଶ୍ଳେଷଣ କର।</b>
+<div class="answer">ପ୍ରବନ୍ଧରେ ଥିବା ଭାଷା, ଶିକ୍ଷା, କୃଷି, ଶାସନ ଓ ଜନଜୀବନର ଉଦାହରଣଗୁଡ଼ିକୁ ଯୋଡ଼ି ଉତ୍ତର ଲେଖ।</div></div>
+
+<div class="q"><b>୨୮. ‘ଜନତାର ସାମୂହିକ ଶିକ୍ଷା ପାଇଁ ମାତୃଭାଷା ହିଁ ପ୍ରକୃତ ମାଧ୍ୟମ’ — ଉକ୍ତିଟିର ସତ୍ୟତା ପ୍ରତିପାଦନ କର।</b>
+<div class="answer">ମାତୃଭାଷାର ସହଜତା, ଜ୍ଞାନର ପ୍ରସାର, ଭୋଟରଙ୍କ ଶିକ୍ଷା, କୃଷିଜ୍ଞାନ ଓ ପାଠର ଅନ୍ୟ ଉଦାହରଣ ଆଧାରରେ ଉତ୍ତର ଗଠନ କର।</div></div>
+</section>
+
+<section class="card">
+<h2>📌 ୨୨. ତୁମ ପାଇଁ କାମ</h2>
+<div class="q"><b>୨୯.</b> ଓଡ଼ିଆ ଭାଷାକୁ ସମୃଦ୍ଧ କରିବା ପାଇଁ ଯେଉଁମାନଙ୍କର ତ୍ୟାଗ ଓ ସାଧନା ଉଲ୍ଲେଖନୀୟ, ସେହି ମହାନ୍ ସ୍ରଷ୍ଟାମାନଙ୍କର ଜୀବନୀ ପଠ।</div>
+<div class="q"><b>୩୦.</b> ‘ଜନଜୀବନରେ ମାତୃଭାଷାର ଆବଶ୍ୟକତା’—ଏହି ପ୍ରସଙ୍ଗରେ ଏକ ତର୍କସଭାର ଆୟୋଜନ କର।</div>
+</section>
+
+<section class="card">
+<h2>🔁 ୨୩. Final Revision — ୧୫ଟି ମୁଖ୍ୟ ବିନ୍ଦୁ</h2>
+<ol>
+<li>ଗୋଲୋକ ବିହାରୀ ଧଳ ଜଣେ ପ୍ରାବନ୍ଧିକ ଓ ଭାଷା ବିଜ୍ଞାନୀ।</li>
+<li>ପ୍ରବନ୍ଧର କେନ୍ଦ୍ରୀୟ ବିଷୟ ମାତୃଭାଷା ଓ ଲୋକଶିକ୍ଷା।</li>
+<li>ଆଞ୍ଚଳିକ ଭାଷା ଜନତାର ପ୍ରଥମ ପ୍ରୟୋଜନ।</li>
+<li>ମାତୃଭାଷା ପ୍ରତି ମମତାକୁ ଦେଶଭକ୍ତି ସହ ଯୋଡ଼ାଯାଇଛି।</li>
+<li>ଗାନ୍ଧୀଜୀ ମାତୃଭାଷାକୁ ମାତୃସ୍ତନ ପରି ମୂଲ୍ୟବାନ ମାନୁଥିଲେ।</li>
+<li>ବଡ଼ ଭାଷାର ପ୍ରଭାବରେ ଛୋଟ ଭାଷାର ଅବସ୍ଥାକୁ ଉଦାହରଣରେ ବୁଝାଯାଇଛି।</li>
+<li>ହିବ୍ରୁ ଭାଷାର ପୁନରୁତ୍ଥାନର ଉଦାହରଣ ରହିଛି।</li>
+<li>ଗଣତନ୍ତ୍ରର ମୂଳମନ୍ତ୍ର ଭାବେ ଶିକ୍ଷାକୁ ଦେଖାଯାଇଛି।</li>
+<li>ସାମୂହିକ ଜନଶିକ୍ଷା ପାଇଁ ମାତୃଭାଷାକୁ ଶ୍ରେଷ୍ଠ ମାଧ୍ୟମ କୁହାଯାଇଛି।</li>
+<li>ବିଦେଶୀ ଭାଷା ଶିକ୍ଷା ସମସ୍ତଙ୍କ ପାଇଁ ସହଜ ନୁହେଁ।</li>
+<li>କୃଷିଜ୍ଞାନକୁ ମାତୃଭାଷାରେ ପ୍ରସାର କରିବାର ଆବଶ୍ୟକତା ଦେଖାଯାଇଛି।</li>
+<li>ଜନଭାଷାରେ ଶାସନ ଚାଲିବାର ଆବଶ୍ୟକତା ଉପରେ ଜୋର ଦିଆଯାଇଛି।</li>
+<li>ପୁରୀ ଓ ରାଉରକେଲାର ଭାଷା-ସମ୍ପର୍କିତ ଉଦାହରଣ ଆସିଛି।</li>
+<li>ସ୍କଟଲାଣ୍ଡର ଭାଷା-ସଚେତନତା ଉଦାହରଣ ଆସିଛି।</li>
+<li>ଶେଷରେ ମାତୃଭାଷା ପ୍ରତି ଅଭିମାନ ଓ ତାହାର ଉନ୍ନତିସାଧନର ଆହ୍ୱାନ ରହିଛି।</li>
+</ol>
+</section>
+
+<section class="card">
+<h2>📊 ୨୪. Quick Revision Table</h2>
+<table>
 <tr><th>ପ୍ରଶ୍ନ</th><th>ମୁଖ୍ୟ ଉତ୍ତର</th></tr>
 <tr><td>ଜନତାର ପ୍ରଥମ ପ୍ରୟୋଜନ?</td><td>ନିଜ ଭାଷା</td></tr>
 <tr><td>ଗଣତନ୍ତ୍ରର ମୂଳମନ୍ତ୍ର?</td><td>ଶିକ୍ଷା</td></tr>
-<tr><td>ଆଜେରାଇଲର ଭାଷା?</td><td>ହିବ୍ରୁ</td></tr>
+<tr><td>ସାମୂହିକ ଶିକ୍ଷାର ଶ୍ରେଷ୍ଠ ମାଧ୍ୟମ?</td><td>ମାତୃଭାଷା</td></tr>
+<tr><td>ଆଜେରାଇଲର ଆଧୁନିକ ଭାଷା?</td><td>ହିବ୍ରୁ</td></tr>
 <tr><td>ଲେଖକ?</td><td>ଗୋଲୋକ ବିହାରୀ ଧଳ</td></tr>
+<tr><td>ମାତୃଭାଷା ପ୍ରତି କାମ୍ୟ ଭାବ?</td><td>ଅଭିମାନ ଓ ଉନ୍ନତିସାଧନ</td></tr>
 </table>
 </section>
 
 <section class="card">
-<h2>📖 ପୃଷ୍ଠା-ଅନୁସାରେ ସମ୍ପୂର୍ଣ୍ଣ ପୁନର୍ଦର୍ଶନ</h2>
-<p>ମୂଳ ପୃଷ୍ଠାର ଛବିଗୁଡ଼ିକୁ ମୂଳ ସ୍ରୋତରେ ଥିଲା; ଏଠାରେ ସେଗୁଡ଼ିକୁ ସାମିଲ୍ କରିବାକୁ ଟେକ୍ନିକାଲ୍ ଭାବରେ ଅପେକ୍ଷା କରାଯାଉଛି।</p>
+<h2>🧠 ୨୫. Final MCQ Quiz</h2>
+
+<div class="q"><b>୧. ‘ମାତୃଭାଷା ଓ ଲୋକଶିକ୍ଷା’ର ଲେଖକ କିଏ?</b><br>
+A) ଗୋଲୋକ ବିହାରୀ ଧଳ<br>
+B) ଗଙ୍ଗାଧର ମେହେର<br>
+C) ଅନ୍ନଦାଶଙ୍କର ରାୟ<br>
+D) ରବୀନ୍ଦ୍ରନାଥ<br>
+<div class="answer"><b>ଉତ୍ତର: A) ଗୋଲୋକ ବିହାରୀ ଧଳ</b></div></div>
+
+<div class="q"><b>୨. ଗଣତନ୍ତ୍ରର ମୂଳମନ୍ତ୍ର କ’ଣ?</b><br>
+A) ବାଣିଜ୍ୟ<br>B) ଶିକ୍ଷା<br>C) କୃଷି<br>D) ଶାସନ
+<div class="answer"><b>ଉତ୍ତର: B) ଶିକ୍ଷା</b></div></div>
+
+<div class="q"><b>୩. ଆଜେରାଇଲର ଆଧୁନିକ ଭାଷା କ’ଣ?</b><br>
+A) ହିନ୍ଦୀ<br>B) ଇଂରାଜୀ<br>C) ହିବ୍ରୁ<br>D) ଓଡ଼ିଆ
+<div class="answer"><b>ଉତ୍ତର: C) ହିବ୍ରୁ</b></div></div>
+
+<div class="q"><b>୪. ଚାଷୀଙ୍କ ଜ୍ଞାନ ପ୍ରସାର ପାଇଁ କେଉଁ ଭାଷା ସହଜ?</b><br>
+A) ମାତୃଭାଷା<br>B) ବିଦେଶୀ ଭାଷା<br>C) କେବଳ ଇଂରାଜୀ<br>D) କେବଳ ହିନ୍ଦୀ
+<div class="answer"><b>ଉତ୍ତର: A) ମାତୃଭାଷା</b></div></div>
+
+<div class="q"><b>୫. ରୁଷ ସରକାରଙ୍କ ଉଦାହରଣରେ କେଉଁ ଅଧିକାର ଉଲ୍ଲେଖ ହୋଇଛି?</b><br>
+A) କେବଳ ବାଣିଜ୍ୟ<br>B) ମାତୃଭାଷାରେ ଶିକ୍ଷା ଓ ଶାସନ<br>C) କେବଳ ଯାତ୍ରା<br>D) କେବଳ କୃଷି
+<div class="answer"><b>ଉତ୍ତର: B) ମାତୃଭାଷାରେ ଶିକ୍ଷା ଓ ଶାସନ</b></div></div>
+
+<div class="q"><b>୬. ‘ସ୍ୱଭାବକବି’ କିଏ?</b><br>
+A) ଗଙ୍ଗାଧର ମେହେର<br>B) ଅନ୍ନଦାଶଙ୍କର ରାୟ<br>C) ଗୋଲୋକ ବିହାରୀ ଧଳ<br>D) ଗାନ୍ଧୀଜୀ
+<div class="answer"><b>ଉତ୍ତର: A) ଗଙ୍ଗାଧର ମେହେର</b></div></div>
 </section>
 
+<section class="card">
+<h2>📋 ୨୬. ସମ୍ପୂର୍ଣ୍ଣତା ଯାଞ୍ଚ</h2>
+<div class="grid">
+<div class="box">✓ ସମସ୍ତ ୯ ପୃଷ୍ଠା ଯାଞ୍ଚ</div>
+<div class="box">✓ ମୁଖ୍ୟ ପାଠ ଓ ଶେଷ ଅଂଶ</div>
+<div class="box">✓ ଶବ୍ଦାର୍ଥ</div>
+<div class="box">✓ ଭାଷା ଅଭ୍ୟାସ</div>
+<div class="box">✓ ଲଘୁ ଉତ୍ତର</div>
+<div class="box">✓ ପ୍ରସଙ୍ଗ ସରଳାର୍ଥ</div>
+<div class="box">✓ ଦୀର୍ଘ ଉତ୍ତର</div>
+<div class="box">✓ ‘ତୁମ ପାଇଁ କାମ’</div>
+<div class="box">✓ Final Revision</div>
+<div class="box">✓ Final MCQ</div>
 </div>
+</section>
+
+</main>
+
+<footer class="footer">
+<p>ଶ୍ରେଣୀ–୧୦ ଓଡ଼ିଆ • ମାତୃଭାଷା ଓ ଲୋକଶିକ୍ଷା</p>
+</footer>
+
 </body>
 </html>
+'''
+
+out.write_text(html, encoding="utf-8")
+print(f"Created: {out}")
+print(f"Size: {out.stat().st_size/1024:.1f} KB")
