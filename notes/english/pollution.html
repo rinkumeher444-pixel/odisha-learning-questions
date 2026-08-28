@@ -1,0 +1,310 @@
+from pathlib import Path
+from html import escape
+
+path = Path("/mnt/data/Air_Pollution_A_Hidden_Menace_Class10_English_Lecture.html")
+
+CSS = """
+*{box-sizing:border-box}body{margin:0;background:#edf4f5;color:#173447;font-family:"Noto Sans Oriya","Nirmala UI","Kalinga","Segoe UI",Arial,sans-serif;line-height:1.65}
+main{max-width:1100px;margin:auto;padding:14px}section{background:#fffdf9;border:1px solid #d4e1e5;border-radius:22px;margin:16px 0;padding:22px;box-shadow:0 7px 20px #17344712}
+.hero{background:linear-gradient(135deg,#e2f7f5,#fff0d3)}h1{font-size:46px;line-height:1.08;margin:8px 0}h2{font-size:29px;line-height:1.25}h3{font-size:21px}
+.badge{display:inline-block;background:#126575;color:white;border-radius:999px;padding:5px 13px;font-size:12px;font-weight:800}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.card,.q{padding:13px;border:1px solid #d4e1e5;border-radius:15px;background:white}.a{background:#e9f7f6}.b{background:#fff2d8}.c{background:#f1effa}.d{background:#fff0ed}.e{background:#edf7ee}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0}.flow span{background:white;border:2px solid #aac9ce;border-radius:12px;padding:7px 11px;font-weight:800}.arrow{color:#126575;font-size:21px}
+.key{background:#edf9f8;border:2px solid #126575;border-radius:14px;padding:13px;margin-top:12px}.exam{background:#fff8eb;border-left:5px solid #d8922e;padding:12px 15px;border-radius:8px;margin-top:12px}.warn{background:#fff1ed;border-left:5px solid #c56c4d;padding:12px 15px;border-radius:8px;margin-top:12px}
+table{width:100%;border-collapse:collapse}th,td{border:1px solid #d4e0e4;padding:9px;text-align:left;vertical-align:top}th{background:#e9f6f5}.quote{background:#f5f7f8;border-left:5px solid #8ba5ad;padding:13px 16px;font-style:italic}
+.original{font-family:Georgia,"Times New Roman",serif;font-size:18px;background:#f7faf9;border-radius:12px;padding:13px}.stanza{background:#fbfcfc;border:1px solid #dbe4e7;border-radius:17px;padding:15px;margin:13px 0}
+.small{font-size:13px;color:#647985}.footer{text-align:center;color:#647985;padding:25px}
+@media(max-width:650px){h1{font-size:32px}h2{font-size:23px}section{padding:16px}.original{font-size:16px}}
+"""
+
+def cards(items):
+    return '<div class="grid">'+''.join(f'<div class="card {["a","b","c","d","e"][i%5]}">{x}</div>' for i,x in enumerate(items))+'</div>'
+
+html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Air Pollution – A Hidden Menace | Class 10</title>
+<style>{CSS}</style></head><body><main>
+
+<section class="hero"><span class="badge">ODISHA CLASS 10 • ENGLISH</span>
+<h1>Air Pollution – A Hidden Menace</h1><p><b>Complete Visual Lecture</b> • Reading • Vocabulary • Language • Activities • Writing • Project • Revision</p>
+<div class="flow"><span>Air</span><b class="arrow">→</b><span>Pollution</span><b class="arrow">→</b><span>Causes</span><b class="arrow">→</b><span>Effects</span><b class="arrow">→</b><span>Control</span></div>
+<div class="key">🎯 <b>Learning Objective:</b> ବାୟୁ ପ୍ରଦୂଷଣର କାରଣ, ପ୍ରଭାବ, acid rain, global warming ଏବଂ control measuresକୁ ସହଜ English + Odiaରେ ବୁଝିବା।</div></section>
+
+<section><span class="badge">A. LEAD-IN</span><h2>ପ୍ରଥମେ ଭାବନ୍ତୁ</h2>{cards([
+"Outsideରୁ ଫେରିଲେ <b>running nose</b> ବା <b>coughing</b> ହୋଇଛି କି?",
+"କେବେ <b>rain drops tasted sour</b> ଲାଗିଛି କି?",
+"Public roadsରେ polluted air ନିଶ୍ୱାସ ନେଲେ uneasy ଲାଗିପାରେ।",
+"<b>Air pollution is a hidden menace</b> ଏବଂ ଭବିଷ୍ୟତରେ mankind ପାଇଁ ଏହା ବଡ଼ threat।"
+])}</section>
+
+<section><span class="badge">B. THE TEXT • BHOPAL</span><h2>Bhopal ଦୁର୍ଘଟଣା ଓ Airର ଗୁରୁତ୍ୱ</h2>{cards([
+"<b>3 December 1984:</b> Bhopalରେ Union Carbide ଚାଳିତ chemical plantରୁ deadly gas atmosphereକୁ escape କଲା।",
+"<b>Tragic result:</b> 4000ରୁ ଅଧିକ local residents ମୃତ୍ୟୁବରଣ କଲେ ଏବଂ ଅନେକ survivor blind ଓ crippled ହେଲେ।",
+"ମଣିଷ food ବିନା ଏକ ମାସ ଓ water ବିନା ଦୁଇ-ତିନି ଦିନ ବଞ୍ଚିପାରେ; breathing ବିନା ଏକ minute ମଧ୍ୟ ନୁହେଁ।",
+"Average adult ପ୍ରତିଦିନ ପ୍ରାୟ <b>15 kg air</b> exchange କରେ; food ପ୍ରାୟ 1.5 kg ଓ water 2.5 kg।"
+])}<div class="exam">⭐ <b>Exam Point:</b> Respiration ଦ୍ୱାରା pollutants ଶରୀରକୁ ପ୍ରବେଶ କରିପାରେ; polluted airର ଗୁରୁତ୍ୱ lessonର central concern।</div></section>
+
+<section><span class="badge">AIR COMPOSITION</span><h2>Airର ସଂରଚନା</h2>{cards([
+"<h3>78%</h3><b>Nitrogen</b>","<h3>21%</h3><b>Oxygen</b>","<h3>&lt; 1%</h3><b>Argon</b>","<h3>0.03%</h3><b>Carbon dioxide</b>"
+])}<div class="flow"><span>Normal composition</span><b>→</b><span>Pure air</span><b>⚠</b><span>Composition altered</span><b>→</b><span>Polluted air</span><b>→</b><span>Respiratory disorders</span></div>
+<div class="exam">📝 <b>Remember:</b> Oxygen level reduced କିମ୍ବା irritating gases atmosphereକୁ ପ୍ରବେଶ କଲେ air polluted କୁହାଯାଏ।</div></section>
+
+<section><span class="badge">INDUSTRIAL POLLUTION</span><h2>Industries କିପରି Pollution କରେ?</h2>
+<div class="flow"><span>Coal / Coke / Furnace oil</span><b>→</b><span>Burning</span><b>→</b><span>Heat + Smoke</span><b>→</b><span>Atmosphere</span><b>→</b><span>Lungs</span></div>
+{cards([
+"Factories steam ଉତ୍ପାଦନ ପାଇଁ coal, coke, furnace oil ଭଳି fuels burn କରନ୍ତି।",
+"Smoke ଅଦୃଶ୍ୟ ହେଲା ପରି ଲାଗିଲେ ମଧ୍ୟ atmospheric air ସହ ମିଶିଯାଏ।",
+"Polluted airରେ obnoxious gases, ash ଓ dust particles ଥାଇପାରେ।",
+"<b>Thermal power stations</b> high amounts of smoke and ash discharge କରୁଥିବା industries ମଧ୍ୟରେ first।",
+"<b>Cement, steel, ore processing</b> industries ମଧ୍ୟ significant contributors।",
+"<b>Chemical industries</b> toxic fumes ସହ smoke release କରିପାରନ୍ତି।"
+])}<div class="warn">⚠️ <b>Expression:</b> “Our lungs slowly become garbage dumps” — pollutants lungsକୁ ପ୍ରଭାବିତ କରୁଥିବା ଚିତ୍ରଣ।</div></section>
+
+<section><span class="badge">AUTOMOBILE POLLUTION</span><h2>Automobile Exhaust</h2>{cards([
+"Buses, lorries, goods carriers, cars, jeeps ଓ two-wheelersର ବ୍ୟବହାର ବଢ଼ିଛି।",
+"Greater Kolkataର automobiles ପ୍ରତିଦିନ ପ୍ରାୟ <b>1500 tonnes</b> pollutants atmosphereକୁ ଛାଡ଼ୁଥିବା report ଦିଆଯାଇଛି।",
+"Automobiles କେତେକ parts of the worldର air pollutionର <b>60%</b> ପାଇଁ responsible ବୋଲି textରେ stated।",
+"Automobiles maximum <b>carbon monoxide</b> release କରନ୍ତି ବୋଲି lessonରେ କୁହାଯାଇଛି।"
+])}<div class="exam">🎯 Trend continue କଲେ futureରେ nasal filters ପିନ୍ଧିବା ପର୍ଯ୍ୟନ୍ତ ଅବସ୍ଥା ହୋଇପାରେ ବୋଲି lesson ସତର୍କ କରେ।</div></section>
+
+<section><span class="badge">EFFECTS</span><h2>Air Pollutionର ପ୍ରଭାବ</h2>
+<table><tr><th>କ୍ଷେତ୍ର</th><th>ପ୍ରଭାବ</th></tr>
+<tr><td>🌱 Crops</td><td>Flower ଓ vegetable crops car exhaust gasesର ill effects ଭୋଗନ୍ତି।</td></tr>
+<tr><td>🌳 Trees</td><td>Power plantsର pollution ଦ୍ୱାରା trees killed ହୋଇପାରନ୍ତି।</td></tr>
+<tr><td>🐄 Cattle</td><td>Smeltersର fumes cattleକୁ poison କରିପାରେ।</td></tr>
+<tr><td>🚗 Tyres</td><td>Rubber tyres crack ଓ porous ହୋଇପାରେ।</td></tr>
+<tr><td>🏢 Buildings</td><td>Soot wallsକୁ blacken କରେ; surfaces deteriorate ହୋଇପାରେ।</td></tr>
+<tr><td>👁️ Health</td><td>Eye irritation, scratchy throat, respiratory illnesses ଓ serious diseases ସହ ସମ୍ପର୍କ ଦିଆଯାଇଛି।</td></tr></table></section>
+
+<section><span class="badge">GLOBAL WARMING</span><h2>Greenhouse Gases → Global Warming</h2>
+<div class="flow"><span>Carbon dioxide</span><b>+</b><span>Methane</span><b>+</b><span>Nitrous oxide</span><b>→</b><span>Radiation trapped</span><b>→</b><span>Warmer atmosphere</span><b>→</b><span>Global warming</span></div>
+<div class="key">📌 Scientists are concerned because these gases are increasing and tend to trap radiation reaching Earth from the Sun.</div></section>
+
+<section><span class="badge">ATMOSPHERIC LAYER</span><h2>Chlorofluorocarbons</h2>
+<div class="key">Scientists are concerned about a substance/group of chemicals that may destroy the atmospheric layer protecting us from harmful kinds of solar energy. <b>Chlorofluorocarbons</b> were used as refrigerants and cleaners and were once widely used in spray cans.</div>
+<p><b>ଓଡ଼ିଆ:</b> ଏହି chemicals ବାୟୁମଣ୍ଡଳର ସୁରକ୍ଷାକାରୀ layerକୁ କ୍ଷତି କରିପାରେ ବୋଲି lessonରେ ଚିନ୍ତା ପ୍ରକାଶ କରାଯାଇଛି।</p></section>
+
+<section><span class="badge">ACID RAIN</span><h2>Acid Rain — କାରଣ ଓ ପ୍ରଭାବ</h2>
+<div class="flow"><span>Oxides of sulphur + nitrogen</span><b>→</b><span>Rain / precipitation</span><b>→</b><span>Acid rain</span><b>→</b><span>Water • Soil • Forest • Health • Buildings</span></div>
+<table><tr><th>କେଉଁଠି?</th><th>କ’ଣ ହୁଏ?</th></tr>
+<tr><td>Lakes & rivers</td><td>Water becomes acidic; aquatic plants and animals are harmed.</td></tr>
+<tr><td>Soil</td><td>Potassium, calcium and magnesium upper layerରୁ leach ହୋଇଯାଏ।</td></tr>
+<tr><td>Forests</td><td>Large stretches of forests die; animals and birds follow.</td></tr>
+<tr><td>Health</td><td>Eyes/lungs irritate, especially in children; skin lesions may occur.</td></tr>
+<tr><td>Buildings</td><td>Acidic smog/rain damages old buildings and marble monuments.</td></tr></table>
+<div class="exam">📝 <b>Example:</b> Swedenରେ 4000 lakes ଏତେ severely affected ହୋଇଥିଲା ଯେ no fish survived ବୋଲି lessonରେ ଦିଆଯାଇଛି।</div></section>
+
+<section><span class="badge">CONTROL</span><h2>Air Pollution ନିୟନ୍ତ୍ରଣର 3 ମୂଳ ଉପାୟ</h2>{cards([
+"<h3>1. Preventive</h3>Industryର raw materials ବା fuel ingredients ପରିବର୍ତ୍ତନ କରି pollution କମାଇବା।",
+"<h3>2. Dispersal</h3>Smokestacksର height ବଢ଼ାଇ pollutantsକୁ disperse କରିବା।",
+"<h3>3. Collection</h3>Pollutants atmosphereକୁ escape କରିବା ପୂର୍ବରୁ equipment ଦ୍ୱାରା trap କରିବା।"
+])}<div class="key">🧠 <b>Memory:</b> Prevent → Disperse → Collect</div></section>
+
+<section><span class="badge">COUNTRIES & PROGRAMMES</span><h2>Pollution Control ପାଇଁ ପଦକ୍ଷେପ</h2>{cards([
+"Highly industrialized countriesରେ air pollution prevent/control ପାଇଁ legislation ରହିଛି।",
+"Wind pollutantsକୁ ଏକ countryରୁ ଅନ୍ୟ countryକୁ thousands of miles ନେଇଯାଇପାରେ।",
+"Low-sulphur coal ଓ oil ବ୍ୟବହାର କେତେକ citiesର pollution କମାଇଛି।",
+"Automobile engines redesign କରାଯାଇଛି ଏବଂ catalytic converter ଭଳି devices ବ୍ୟବହାର ହୋଇଛି।",
+"Catalytic converter pollutantsକୁ harmless substancesରେ ପରିବର୍ତ୍ତନ କରେ ବୋଲି lessonରେ ଦିଆଯାଇଛି।",
+"Physicians, engineers, meteorologists, botanists ଓ others research କରୁଛନ୍ତି।"
+])}</section>
+
+<section><span class="badge">C. NOTES & GLOSSARY</span><h2>Vocabulary Cards</h2>{cards([
+"<b>industrial</b> → relating to industry → ଶିଳ୍ପ ସମ୍ବନ୍ଧୀୟ",
+"<b>crippling</b> → damaging → କ୍ଷତିକାରକ / ଅକ୍ଷମ କରୁଥିବା",
+"<b>victim</b> → someone who suffers → କ୍ଷତିଗ୍ରସ୍ତ ବ୍ୟକ୍ତି",
+"<b>intake</b> → consumption → ଗ୍ରହଣ",
+"<b>manifold</b> → of many different kinds → ବହୁ ପ୍ରକାରର",
+"<b>contaminated</b> → impure → ଅଶୁଦ୍ଧ",
+"<b>argon</b> → chemically inactive gas → ନିଷ୍କ୍ରିୟ ଗ୍ୟାସ",
+"<b>severity</b> → seriousness → ଗମ୍ଭୀରତା",
+"<b>spew</b> → throw out → ବାହାରକୁ ଛାଡ଼ିବା",
+"<b>obnoxious</b> → unpleasant → ଅପ୍ରୀତିକର",
+"<b>exhausts</b> → gas/steam out of an engine → ଇଞ୍ଜିନରୁ ବାହାରୁଥିବା ଗ୍ୟାସ",
+"<b>plying</b> → running → ଚାଲୁଥିବା",
+"<b>menace</b> → threat → ବିପଦ / ଭୟ",
+"<b>smelters</b> → furnaces → ଧାତୁ ଗଳାଇବାର ଭଟ୍ଟି",
+"<b>porous</b> → having small holes → ଛୋଟ ଛିଦ୍ର ଥିବା",
+"<b>chlorofluorocarbons</b> → chemicals used for cooling in refrigerators → ରେଫ୍ରିଜରେଟର cooling chemicals",
+"<b>precipitation</b> → fall of rain, snow or hail → ବର୍ଷା/ତୁଷାର/ଶିଳାବୃଷ୍ଟି ପତନ",
+"<b>leaches away</b> → washes away → ଧୋଇ ନେଇଯିବା",
+"<b>lesions</b> → wounds or injuries → କ୍ଷତ / ଆଘାତ",
+"<b>smog</b> → mixture of smoke and fog → ଧୂଆଁ ଓ କୁହୁଡ଼ିର ମିଶ୍ରଣ",
+"<b>ingredients</b> → things used to make something → ଉପାଦାନ",
+"<b>dispersal measures</b> → ways of scattering things → ବିସ୍ତାର କରିବାର ଉପାୟ",
+"<b>smokestacks</b> → tall chimneys carrying smoke away → ଉଚ୍ଚ ଧୂଆଁ ଚିମଣି",
+"<b>trap</b> → retain → ଧରି ରଖିବା",
+"<b>legislation</b> → a body of laws → ଆଇନର ସମୂହ",
+"<b>meteorologists</b> → persons studying weather → ପାଣିପାଗ ଅଧ୍ୟୟନକାରୀ",
+"<b>emission system</b> → system of sending out smoke → ଧୂଆଁ ବାହାର କରିବା ବ୍ୟବସ୍ଥା"
+])}</section>
+
+<section><span class="badge">D. LET’S UNDERSTAND</span><h2>25 Text Questions — Exam Answers</h2>
+<div class="grid">
+{cards([
+"<b>1. What accident took place at Bhopal?</b><br>On 3 December 1984, deadly gas escaped from a Union Carbide chemical plant at Bhopal.",
+"<b>2. Why industrial accident?</b><br>It occurred at a chemical plant and deadly gas escaped into the atmosphere.",
+"<b>3. Tragic consequences?</b><br>Over 4000 local residents were killed; many survivors were rendered blind and crippled.",
+"<b>4. How is air important?</b><br>Man cannot live without breathing even for a minute.",
+"<b>5. Major source of contamination?</b><br>Pollutants entering the body through respiration are emphasized.",
+"<b>6. Composition of air?</b><br>78% nitrogen, 21% oxygen, a little less than 1% argon and 0.03% carbon dioxide.",
+"<b>7. When is air polluted?</b><br>When its composition is altered, such as reduced oxygen or irritating gases entering the atmosphere.",
+"<b>8. Fuels used by industries?</b><br>Coal, coke and furnace oil.",
+"<b>9. Effect of released smoke on man?</b><br>It mixes with air; people breathe obnoxious gases, ash and dust particles.",
+"<b>10. Why thermal power stations cause more pollution?</b><br>They discharge high amounts of smoke and ash.",
+"<b>11. Other harmful industries?</b><br>Cement, steel, ore processing and some chemical industries.",
+"<b>12. Why automobiles increasing?</b><br>To meet demands of an exploding population; buses and other vehicles have increased.",
+"<b>13. How automobiles pollute?</b><br>Their exhausts release pollutants, including maximum carbon monoxide as stated.",
+"<b>14. Effects on crops and trees?</b><br>Car exhaust harms flower/vegetable crops; power-plant pollution can kill trees.",
+"<b>15. Buildings?</b><br>Soot blackens walls and surfaces may deteriorate.",
+"<b>16. Health problems?</b><br>Eye irritation, scratchy throats, respiratory illnesses and serious diseases.",
+"<b>17. How does pollution increase temperature?</b><br>CO₂, methane and nitrous oxide trap radiation, making the atmosphere warmer and eventually causing global warming.",
+"<b>18. Harm from refrigerant chemicals?</b><br>They may destroy the atmospheric layer protecting us from harmful solar energy.",
+"<b>19. What is acid rain?</b><br>Rain/precipitation containing oxides of sulphur and nitrogen with other chemicals.",
+"<b>20. Effect on water?</b><br>Lakes and rivers become acidic; aquatic plants and animals are harmed.",
+"<b>21. Effect on soil?</b><br>Potassium, calcium and magnesium are washed/leached from the upper layer.",
+"<b>22. Ways to control?</b><br>Preventive, dispersal and collection measures.",
+"<b>23. How countries check it?</b><br>Laws, standards, norms, low-sulphur fuels, redesigned engines and catalytic converters.",
+"<b>24. Benefits of air-quality programmes?</b><br>They have brought improvements and helped lower pollution in many areas.",
+"<b>25. Why better ways still needed?</b><br>New developments, research and large expenditure are needed to clean and keep air clean."
+])}
+</div></section>
+
+<section><span class="badge">E. LET’S GO BEYOND THE TEXT</span><h2>Thinking Questions</h2>{cards([
+"<b>1. Why does oxygen level get reduced and consequences?</b><br>Think from the lesson’s air-composition and respiratory-disorder discussion.",
+"<b>2. How do chemical industries cause dangerous pollution?</b><br>They can release toxic fumes along with smoke; the lesson connects pollution with wide-ranging effects.",
+"<b>3. How is acid rain caused?</b><br>Oxides of sulphur and nitrogen, with other chemicals, occur in rain/precipitation.",
+"<b>4. How does polluted air travel between countries?</b><br>Wind can carry pollutants from one country to another over thousands of miles.",
+"<b>5. How can automobile pollution be reduced?</b><br>The lesson mentions redesigned engines and catalytic converters among control measures.",
+"<b>Is air pollution a global problem?</b><br>Yes. The lesson discusses pollution across countries and movement of pollutants by wind."
+])}</section>
+
+<section><span class="badge">E(ii) TABLE ACTIVITY</span><h2>Cause → Impact → Nature of Damage</h2>
+<table><tr><th>Caused by</th><th>Impact on</th><th>Nature of Damage</th></tr>
+<tr><td>Industries</td><td>Air</td><td>Smoke and ash in air</td></tr>
+<tr><td>Automobiles</td><td>Air</td><td>Exhaust pollutants</td></tr>
+<tr><td>Air pollution</td><td>Soil</td><td>Nutrients washed/leached away</td></tr>
+<tr><td>Air pollution</td><td>Atmosphere</td><td>Destroying atmospheric layers</td></tr></table></section>
+
+<section><span class="badge">F. ACTIVITIES</span><h2>Think • Speak • Write • Debate</h2>{cards([
+"<b>1. Let’s think together:</b> Groups suggest more steps for dealing with air pollution. Newspapers/journals and group discussion may be used.",
+"<b>2. Let’s speak and listen:</b> Each group presents ideas; other groups listen and react; common points are finalized.",
+"<b>3. Let’s write:</b> Write a letter to the Editor / Minister, Department of Environment about clean air and ways to keep it clean and pure.",
+"<b>4. Let’s debate:</b> (i) Private vehicles should be banned to control air pollution. (ii) Industries being major sources need to be disestablished."
+])}</section>
+
+<section><span class="badge">G. VOCABULARY ENRICHMENT</span><h2>Word Formation</h2>
+<div class="flow"><span>smoke</span><b>+</b><span>fog</span><b>→</b><span><b>smog</b></span></div>
+<p><b>Blending:</b> smoke + fog = smog. ଦୁଇଟି wordର ଅଂଶ ମିଶି ନୂଆ word ତିଆରି ହେବାକୁ blending କୁହାଯାଏ।</p>
+<table><tr><th>Noun</th><th>Verb</th><th>Noun</th><th>Verb</th></tr>
+<tr><td>Resident</td><td>Consume</td><td>Pollution</td><td>Alter</td></tr>
+<tr><td>Composition</td><td>Believe</td><td>Inhalation</td><td>Reduce</td></tr>
+<tr><td>Emission</td><td>Produce</td><td>Comparison</td><td>Operate</td></tr>
+<tr><td>Knowledge</td><td>Expect</td><td>Recovery</td><td>Represent</td></tr>
+<tr><td>Destruction</td><td>Radiate</td><td>Contamination</td><td>Illustrate</td></tr>
+<tr><td>Precipitation</td><td>Justify</td><td>Deterioration</td><td>Prevent</td></tr></table>
+<div class="exam">📌 Activity instruction: ଏହି noun/verb forms ପାଇଁ dictionary ବ୍ୟବହାର କରିବାକୁ କୁହାଯାଇଛି।</div></section>
+
+<section><span class="badge">SINGLE-WORD EXPRESSIONS</span><h2>Expression → Word</h2>{cards([
+"<b>a great threat</b> → menace",
+"<b>getting worse day by day</b> → deterioration",
+"<b>things used to make something</b> → ingredients",
+"<b>a body of laws</b> → legislation",
+"<b>one who studies weather conditions</b> → meteorologist"
+])}</section>
+
+<section><span class="badge">H. LET’S LEARN LANGUAGE</span><h2>Participle Adjectives</h2>{cards([
+"<b>Present participle adjective:</b> irritating → “irritating gases”",
+"<b>Past participle adjective:</b> polluted → “polluted air”"
+])}
+<div class="key">🧠 Textର examplesରେ “irritating” ଓ “polluted” nounକୁ qualify କରୁଛି।</div>
+<h3>Practice — Answers</h3>
+<table><tr><th>No.</th><th>Sentence</th><th>Answer</th></tr>
+<tr><td>1</td><td>The beggar is wearing a ______ shirt. (tear)</td><td>torn</td></tr>
+<tr><td>2</td><td>My father bought me a ______ suit. (swim)</td><td>swimming</td></tr>
+<tr><td>3</td><td>My friend wanted a ______ instrument. (clean)</td><td>cleaning</td></tr>
+<tr><td>4</td><td>I never like to take a ______ egg. (boil)</td><td>boiled</td></tr>
+<tr><td>5</td><td>Air pollution causes ______ problem. (breathe)</td><td>breathing</td></tr>
+<tr><td>6</td><td>People get deceased in a ______ atmosphere. (pollute)</td><td>polluted</td></tr>
+<tr><td>7</td><td>Air pollution has ______ effect on buildings. (damage)</td><td>damaging</td></tr>
+<tr><td>8</td><td>Severity of air pollution is more found in ______ countries. (develop)</td><td>developing</td></tr></table></section>
+
+<section><span class="badge">PUNCTUATION</span><h2>Correctly Punctuated Passage</h2>
+<div class="quote">In the United States, control of air pollution is chiefly the responsibility of the state and local governments. All the states have air quality management programmes which are patterned after federal laws. The basic federal law dealing with air pollution is the Clean Air Act of 1970, amended in 1990. Under this law, the federal environment protection agency sets standards for air quality. What are the standards?</div>
+<div class="exam">📝 Focus: Capital letters, commas, full stops and the final question mark.</div></section>
+
+<section><span class="badge">I. PROJECT</span><h2>Local Pollution Survey</h2>
+<div class="flow"><span>Survey locality</span><b>→</b><span>Nature</span><b>→</b><span>Causes</span><b>→</b><span>Ill effects</span><b>→</b><span>Control</span><b>→</b><span>Analyse</span><b>→</b><span>Project</span></div>
+<table><tr><th>Project part</th><th>What to include</th></tr>
+<tr><td>Nature of pollution</td><td>Air / water / soil / noise</td></tr>
+<tr><td>Ill effects</td><td>Effects identified in the locality</td></tr>
+<tr><td>Causes</td><td>Causes of the pollution</td></tr>
+<tr><td>Measures</td><td>Measures to control it</td></tr>
+<tr><td>Analysis</td><td>Analyse and interpret collected data/information</td></tr></table>
+<div class="key">📌 Individual କିମ୍ବା group project ଭାବରେ କରାଯାଇପାରେ।</div></section>
+
+<section><span class="badge">FINAL REVISION</span><h2>15 Key Points</h2>{cards([
+"Air pollution is a hidden menace and a major future threat.",
+"Bhopal industrial accident: 3 December 1984; deadly gas escaped from a chemical plant.",
+"Breathing is essential; an adult exchanges about 15 kg air a day.",
+"Dry air: 78% nitrogen, 21% oxygen, less than 1% argon, 0.03% carbon dioxide.",
+"Altered composition can make air polluted.",
+"Industries burn coal, coke and furnace oil and release smoke.",
+"Thermal power stations, cement, steel, ore processing and chemical industries contribute.",
+"Automobile exhaust is a major contributor discussed in the lesson.",
+"Pollution damages crops, trees, cattle, tyres and buildings.",
+"Human effects include eye irritation, scratchy throat and respiratory illnesses.",
+"CO₂, methane and nitrous oxide are linked with global warming in the lesson.",
+"Chlorofluorocarbons may damage a protective atmospheric layer.",
+"Acid rain harms water, soil, forests, living beings, health and buildings.",
+"Control approaches: preventive, dispersal and collection.",
+"Laws, cleaner fuels, redesigned engines, catalytic converters and research are discussed."
+])}</section>
+
+<section><span class="badge">QUICK REVISION TABLE</span><h2>One-Page Memory Map</h2>
+<table><tr><th>Topic</th><th>Remember</th></tr>
+<tr><td>Air</td><td>78% N₂ • 21% O₂ • &lt;1% argon • 0.03% CO₂</td></tr>
+<tr><td>Industry</td><td>Fuel burning → smoke/ash → atmosphere</td></tr>
+<tr><td>Automobile</td><td>Exhaust → pollutants → air pollution</td></tr>
+<tr><td>Global warming</td><td>CO₂ + methane + nitrous oxide → trapped radiation → warmer atmosphere</td></tr>
+<tr><td>Acid rain</td><td>Sulphur/nitrogen oxides + precipitation → environmental damage</td></tr>
+<tr><td>Control</td><td>Preventive • Dispersal • Collection</td></tr>
+<tr><td>Language</td><td>irritating = present participle adjective • polluted = past participle adjective</td></tr>
+<tr><td>Blending</td><td>smoke + fog = smog</td></tr></table></section>
+
+<section><span class="badge">EXAM FOCUS</span><h2>Important Questions</h2>{cards([
+"<b>Very Short:</b> What is acid rain? What is smog? Name the three control approaches. What is a catalytic converter?",
+"<b>Short:</b> How do industries pollute air? How do automobiles contribute? How does acid rain affect soil? Why is air important?",
+"<b>Long:</b> Explain causes and effects of air pollution. Discuss acid rain. Explain the three approaches to control air pollution.",
+"<b>🎯 Most Important:</b> What are the ways to control air pollution? — Preventive, dispersal and collection measures."
+])}</section>
+
+<section><span class="badge">FINAL MCQ QUIZ</span><h2>🎯 Test Yourself</h2>
+<div class="grid">
+<div class="q"><b>1.</b> Bhopal accident took place on: a) 3 Dec 1984 b) 3 Dec 1990 c) 5 Jun 1984 d) 15 Aug 1984</div>
+<div class="q"><b>2.</b> Nitrogen is about: a) 21% b) 78% c) 0.03% d) 1.5%</div>
+<div class="q"><b>3.</b> Oxygen is about: a) 21% b) 78% c) 2.5% d) 60%</div>
+<div class="q"><b>4.</b> Which is an industrial fuel? a) Coal b) Water c) Oxygen d) Argon</div>
+<div class="q"><b>5.</b> Which discharges high amounts of smoke and ash? a) Cement b) Thermal power stations c) Steel d) Chemical</div>
+<div class="q"><b>6.</b> Automobiles release maximum: a) Nitrogen b) Carbon monoxide c) Argon d) Calcium</div>
+<div class="q"><b>7.</b> Acid rain contains oxides of: a) sulphur and nitrogen b) calcium and magnesium c) carbon and argon d) oxygen and hydrogen</div>
+<div class="q"><b>8.</b> Which is a soil nutrient named in the lesson? a) Potassium b) Iron only c) Sodium only d) Chlorine</div>
+<div class="q"><b>9.</b> The three control approaches are: a) Preventive, dispersal, collection b) Burning, washing, painting c) Heating, cooling, freezing d) Cutting, filling, digging</div>
+<div class="q"><b>10.</b> smoke + fog = a) smog b) fogsmoke c) smoggy d) smoke</div>
+</div>
+<div class="key"><b>Answer Key:</b> 1-a • 2-b • 3-a • 4-a • 5-b • 6-b • 7-a • 8-a • 9-a • 10-a</div></section>
+
+<section><span class="badge">PRACTICE</span><h2>Fill in the Blanks + True/False</h2>{cards([
+"<b>Fill:</b> 1. Air contains about ______ nitrogen. 2. Air pollution can lead to ______ disorders. 3. Smoke mingles with ______ air. 4. Acid rain affects lakes and ______. 5. One control approach is ______ measures.",
+"<b>True/False:</b> 1. Oxygen is about 78% of dry air. 2. Thermal power stations discharge high amounts of smoke and ash. 3. Acid rain can affect soil nutrients. 4. Catalytic converters change pollutants into harmless substances. 5. Wind cannot carry pollutants across countries."
+])}<div class="key"><b>Answers:</b> Fill: 1. 78% • 2. respiratory • 3. atmospheric • 4. rivers • 5. preventive.<br>True/False: 1. False • 2. True • 3. True • 4. True • 5. False.</div></section>
+
+<section><span class="badge">COMPLETENESS CHECK</span><h2>ଶେଷ ଯାଞ୍ଚ</h2>
+<div class="key">✓ Lead-in • ✓ Complete reading • ✓ Air composition • ✓ Industries • ✓ Automobiles • ✓ Effects • ✓ Global warming • ✓ Chlorofluorocarbons • ✓ Acid rain • ✓ Control measures • ✓ Country initiatives • ✓ Glossary • ✓ 25 text questions • ✓ Beyond-text questions • ✓ Table activity • ✓ Group/speaking/writing/debate • ✓ Vocabulary • ✓ Blending • ✓ Single-word expressions • ✓ Participle adjectives • ✓ Punctuation • ✓ Project • ✓ Final revision • ✓ MCQ + Answer Key</div>
+</section>
+
+<div class="footer">Air Pollution – A Hidden Menace • Odisha Class 10 English • Complete Visual Lecture</div>
+</main></body></html>"""
+
+path.write_text(html, encoding="utf-8")
+print(f"Created: {path}")
+print(f"Size: {path.stat().st_size/1024:.1f} KB")
