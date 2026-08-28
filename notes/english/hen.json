@@ -1,532 +1,152 @@
+from pathlib import Path
 
+src = Path("/mnt/data/A_Grain_as_Big_as_a_Hens_Egg_Odisha_Class10_Visual_Lecture.html")
+html = src.read_text(encoding="utf-8")
 
-out = Path("/mnt/data/A_Grain_as_Big_as_a_Hens_Egg_Odisha_Class10_Visual_Lecture.html")
+# Strengthen the existing lecture with dedicated Odia teaching explanations
+# without changing the source-derived English content.
+insert_css = r'''
+.odia{background:#fff8e8;border:1px solid #ead39a;border-radius:15px;padding:14px 17px;margin:12px 0;color:#493b1e}
+.odia b{color:#8a5a00}
+.odia-title{font-weight:800;color:#8a5a00;margin-bottom:5px}
+.lesson-voice{background:#eef7ff;border-left:6px solid #3977a8;border-radius:12px;padding:14px 17px;margin:13px 0}
+'''
+html = html.replace("</style>", insert_css + "</style>")
 
-html = r'''<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>A Grain as Big as a Hen’s Egg — Class 10 English Visual Lecture</title>
-<style>
-:root{
-  --ink:#173042; --muted:#5b6b76; --paper:#fffdf8; --panel:#eef7f5;
-  --accent:#12616f; --accent2:#e6a43a; --line:#cbdcd9; --dark:#102a3a;
-  --good:#e8f4e8; --warn:#fff2d8; --blue:#eaf2fb;
+# Add a global bilingual teaching layer after each major slide heading.
+replacements = {
+'<h2>Before You Read — Think First</h2>':
+'''<h2>Before You Read — Think First</h2>
+<div class="odia"><div class="odia-title">ଓଡ଼ିଆରେ ବୁଝନ୍ତୁ</div>
+ଏହି ଗଳ୍ପ ପଢ଼ିବା ପୂର୍ବରୁ ଆମେ ଏକ ଅସାଧାରଣ କଥା କଳ୍ପନା କରିବା—ଯଦି ଗୋଟିଏ ଧାନ ବା ଗହମର ଦାନା ଗୋଟିଏ କୁକୁଡ଼ା ଅଣ୍ଡା ପରି ବଡ଼ ହୁଏ, ତେବେ ସେହି ଦାନା କେଉଁଠି ଓ କିଏ ଚାଷ କରିଥାନ୍ତା? ଏହି ପ୍ରଶ୍ନଗୁଡ଼ିକ ଆମକୁ ଗଳ୍ପର ମୁଖ୍ୟ ରହସ୍ୟ ଦିଗକୁ ନେଇଯିବ।
+</div>''',
+
+'<h2>Text I — How the Grain Reached the King</h2>':
+'''<h2>Text I — How the Grain Reached the King</h2>
+<div class="odia"><div class="odia-title">ଓଡ଼ିଆରେ ସହଜ ବ୍ୟାଖ୍ୟା</div>
+କିଛି ପିଲା ଗୋଟିଏ <b>ravine</b> ମଧ୍ୟରେ ଅଦ୍ଭୁତ ଜିନିଷଟି ପାଇଲେ। ଏହା ମକା ଦାନା ପରି ଦେଖାଯାଉଥିଲା, ମଝିରେ ଗୋଟିଏ ଗଭୀର ରେଖା ଥିଲା ଏବଂ ଏହା କୁକୁଡ଼ା ଅଣ୍ଡା ପରି ବଡ଼ ଥିଲା। ଜଣେ ଯାତ୍ରୀ ଏହାକୁ ପିଲାମାନଙ୍କଠାରୁ ଗୋଟିଏ penny ଦେଇ କିଣି ରାଜାଙ୍କୁ ଏକ ଅଦ୍ଭୁତ ବସ୍ତୁ ଭାବରେ ବିକ୍ରି କଲେ।
+</div>''',
+
+'<h2>The Wise Men Investigate</h2>':
+'''<h2>The Wise Men Investigate</h2>
+<div class="odia"><div class="odia-title">ଶିକ୍ଷକଙ୍କ ସହଜ ବ୍ୟାଖ୍ୟା</div>
+ରାଜାଙ୍କ ଡାକରେ ଜ୍ଞାନୀମାନେ ଏହି ବସ୍ତୁଟି କ’ଣ ତାହା ଜାଣିବାକୁ ବହୁତ ଚିନ୍ତା କଲେ। କିନ୍ତୁ ସେମାନେ ଚିହ୍ନି ପାରିଲେ ନାହିଁ। ପରେ ଜଣେ କୁକୁଡ଼ା ଆସି ବସ୍ତୁଟିକୁ ଥଣ୍ଟରେ ଖୁମ୍ପି ଗୋଟିଏ ଛିଦ୍ର କଲା। ସେତେବେଳେ ସମସ୍ତେ ବୁଝିଲେ—ଏହା ମକା ଦାନା।
+</div>''',
+
+'<h2>The Search Moves to the Peasants</h2>':
+'''<h2>The Search Moves to the Peasants</h2>
+<div class="odia"><div class="odia-title">ଓଡ଼ିଆରେ ବୁଝନ୍ତୁ</div>
+ଜ୍ଞାନୀମାନେ ପୁସ୍ତକରେ ଖୋଜିଲେ ମଧ୍ୟ କୌଣସି ଉତ୍ତର ପାଇଲେ ନାହିଁ। ତେଣୁ ସେମାନେ ରାଜାଙ୍କୁ କୃଷକମାନଙ୍କୁ ପଚାରିବାକୁ କହିଲେ। ହୋଇପାରେ ସେମାନେ ନିଜ ପୂର୍ବପୁରୁଷଙ୍କଠାରୁ ଏପରି ବଡ଼ ଦାନା ବିଷୟରେ ଶୁଣିଥିବେ।
+</div>''',
+
+'<h2>The First Old Peasant — A Generational Clue</h2>':
+'''<h2>The First Old Peasant — A Generational Clue</h2>
+<div class="odia"><div class="odia-title">ଓଡ଼ିଆରେ ସହଜ ବ୍ୟାଖ୍ୟା</div>
+ପ୍ରଥମ ବୃଦ୍ଧ କୃଷକ ବହୁତ ବୟସ୍କ ଥିଲେ। ସେ ନଇଁ ପଡ଼ି ଚାଲୁଥିଲେ, ତାଙ୍କ ମୁହଁ ଫିକା ଥିଲା ଏବଂ ଦାନ୍ତ ନଥିଲା। ସେ ଦୁଇଟି crutch ର ସାହାଯ୍ୟ ନେଉଥିଲେ। ସେ ଏପରି ଦାନା କେବେ ଚାଷ କିମ୍ବା କିଣିନଥିବା କହିଲେ ଏବଂ ରାଜାଙ୍କୁ ନିଜ ବାପାଙ୍କୁ ପଚାରିବାକୁ କହିଲେ।
+</div>''',
+
+'<h2>Text II — The Second Old Man</h2>':
+'''<h2>Text II — The Second Old Man</h2>
+<div class="odia"><div class="odia-title">ଓଡ଼ିଆରେ ବୁଝନ୍ତୁ</div>
+ଦ୍ୱିତୀୟ ବୃଦ୍ଧ ନିଜ ପୁଅଠାରୁ ଭଲ ଶୁଣିପାରୁଥିଲେ। ତାଙ୍କ ସମୟରେ ଟଙ୍କା ବ୍ୟବହାର ହେଉନଥିଲା। ପ୍ରତ୍ୟେକେ ନିଜ ପାଇଁ ମକା ଚାଷ କରୁଥିଲେ ଏବଂ ଆବଶ୍ୟକ ହେଲେ ପରସ୍ପରକୁ ବାଣ୍ଟି ଦେଉଥିଲେ। ସେ କହିଲେ ଯେ ତାଙ୍କ ସମୟର ଦାନା ବର୍ତ୍ତମାନର ଦାନାଠାରୁ ବଡ଼ ଥିଲା ଏବଂ ଅଧିକ ମଇଦା ଦେଉଥିଲା।
+</div>''',
+
+'<h2>The Grandfather Recognises the Grain</h2>':
+'''<h2>The Grandfather Recognises the Grain</h2>
+<div class="odia"><div class="odia-title">ଓଡ଼ିଆରେ ସହଜ ବ୍ୟାଖ୍ୟା</div>
+ଏବେ ରାଜାଙ୍କ ସମ୍ମୁଖରେ ତାଙ୍କ ଜେଜେବାପା ଆସିଲେ। ସେ ବିନା crutch ରେ ସହଜରେ ଚାଲୁଥିଲେ, ତାଙ୍କ ଆଖି ସ୍ପଷ୍ଟ ଥିଲା, ଶୁଣିବା ଶକ୍ତି ଭଲ ଥିଲା ଏବଂ ସେ ସ୍ପଷ୍ଟ ଭାବରେ କଥା କହୁଥିଲେ। ସେ ଦାନାଟିକୁ ଦେଖି, ହାତରେ ଘୁରାଇ, ଟିକିଏ କାମୁଡ଼ି ସ୍ୱାଦ ନେଇ ଚିହ୍ନିଲେ—ଏହା ସେହି ପ୍ରକାରର ଦାନା।
+</div>''',
+
+'<h2>The Grandfather’s World</h2>':
+'''<h2>The Grandfather’s World</h2>
+<div class="odia"><div class="odia-title">ଓଡ଼ିଆରେ ବୁଝନ୍ତୁ</div>
+ଜେଜେବାପାଙ୍କ ସମୟରେ ଏପରି ମକା ସବୁଠାରେ ହେଉଥିଲା। ଲୋକମାନେ ନିଜେ ନିଜ ମକା ଚାଷ କରୁଥିଲେ। ଆବଶ୍ୟକ ସମୟରେ ପରସ୍ପରକୁ ବାଣ୍ଟୁଥିଲେ। ସେମାନେ ଟଙ୍କା ବିଷୟରେ ଜାଣୁନଥିଲେ ଏବଂ ରୁଟି କିଣାବିକା ନେଇ ଚିନ୍ତା କରୁନଥିଲେ। ଜମିକୁ ମୁକ୍ତ ବୋଲି ମନେ କରାଯାଉଥିଲା ଏବଂ ଶ୍ରମକୁ ନିଜର ବୋଲି କୁହାଯାଉଥିଲା।
+</div>''',
+
+'<h2>The King’s Final Two Questions</h2>':
+'''<h2>The King’s Final Two Questions</h2>
+<div class="odia"><div class="odia-title">ରାଜାଙ୍କ ଶେଷ ଦୁଇଟି ପ୍ରଶ୍ନ</div>
+ରାଜା ଦୁଇଟି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ପ୍ରଶ୍ନ ପଚାରିଲେ—ପ୍ରଥମେ, ସେତେବେଳେ ପୃଥିବୀ ଏପରି ବଡ଼ ଦାନା କାହିଁକି ଦେଉଥିଲା ଏବଂ ଏବେ କାହିଁକି ଦେଉନାହିଁ? ଦ୍ୱିତୀୟରେ, ନାତି ଦୁଇଟି crutch, ପୁଅ ଗୋଟିଏ crutch ବ୍ୟବହାର କରୁଥିବାବେଳେ ଜେଜେବାପା କାହିଁକି ସୁସ୍ଥ ଥିଲେ?
+</div>''',
+
+'<h2>The Grandfather’s Answer — Central Idea</h2>':
+'''<h2>The Grandfather’s Answer — Central Idea</h2>
+<div class="odia"><div class="odia-title">⭐ ଗଳ୍ପର ମୁଖ୍ୟ କଥା</div>
+ଜେଜେବାପାଙ୍କ ଉତ୍ତର ଅନୁସାରେ, ଲୋକମାନେ ନିଜ ଶ୍ରମରେ ଜୀବନ ଯାପନ କରିବା ଛାଡ଼ି ଅନ୍ୟମାନଙ୍କ ଶ୍ରମ ଉପରେ ନିର୍ଭର କରିବାକୁ ଲାଗିଲେ। ପୁରୁଣା ସମୟରେ ସେମାନେ God’s law ଅନୁସାରେ ବଞ୍ଚୁଥିଲେ ଏବଂ ଅନ୍ୟର ଉତ୍ପାଦିତ ଜିନିଷ ପାଇବାକୁ ଲୋଭ କରୁନଥିଲେ। ଏହାହିଁ ଗଳ୍ପର ଶେଷ ବ୍ୟାଖ୍ୟା।
+</div>''',
+
+'<h2>Three Generations — Visual Comparison</h2>':
+'''<h2>Three Generations — Visual Comparison</h2>
+<div class="odia"><div class="odia-title">ଓଡ଼ିଆରେ ତିନି ପିଢ଼ିକୁ ତୁଳନା କରନ୍ତୁ</div>
+ପ୍ରଥମ ବୃଦ୍ଧଙ୍କ ଶାରୀରିକ ଅବସ୍ଥା ସବୁଠାରୁ ଦୁର୍ବଳ—ଦୁଇଟି crutch। ତାଙ୍କ ବାପା ଗୋଟିଏ crutch ବ୍ୟବହାର କରୁଥିଲେ। କିନ୍ତୁ ଜେଜେବାପା ବିନା crutch ରେ ଚାଲୁଥିଲେ ଏବଂ ତାଙ୍କ ଆଖି, କାନ, ଦାନ୍ତ ଓ କଥା କହିବା ଶକ୍ତି ଭଲ ଥିଲା। ଏହି ତୁଳନାଟି ପରୀକ୍ଷା ପାଇଁ ଖୁବ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ।
+</div>''',
+
+'<h2>Glossary — Learn the Words Visually</h2>':
+'''<h2>Glossary — Learn the Words Visually</h2>
+<div class="odia"><div class="odia-title">ଶବ୍ଦଗୁଡ଼ିକୁ ଓଡ଼ିଆରେ ମନେ ରଖନ୍ତୁ</div>
+ପ୍ରତ୍ୟେକ ନୂଆ English word ସହିତ ତାହାର ସରଳ ଓଡ଼ିଆ ଅର୍ଥ ମଧ୍ୟ ମନେ ରଖନ୍ତୁ। ବିଶେଷକରି <b>ravine, groove, pondered, ashy pale, totter, thrash, have taken to, coveted</b> ଶବ୍ଦଗୁଡ଼ିକ ଗଳ୍ପ ବୁଝିବାରେ ଦରକାରୀ।
+</div>''',
+
+'<h2>Writing — Answer in About Fifty Words</h2>':
+'''<h2>Writing — Answer in About Fifty Words</h2>
+<div class="odia"><div class="odia-title">ଲେଖା ପ୍ରଶ୍ନ ପାଇଁ ଓଡ଼ିଆରେ ମାର୍ଗଦର୍ଶନ</div>
+ପ୍ରାୟ ୫୦ ଶବ୍ଦର ଉତ୍ତର ଲେଖିବାବେଳେ ଗଳ୍ପର ମୁଖ୍ୟ ଘଟଣାଗୁଡ଼ିକୁ କ୍ରମରେ ରଖନ୍ତୁ। ଅନାବଶ୍ୟକ କଥା ଯୋଡ଼ନ୍ତୁ ନାହିଁ। ଉତ୍ତରରେ ଗଳ୍ପର ମୁଖ୍ୟ English terms ରଖିଲେ English writing practice ମଧ୍ୟ ହେବ।
+</div>''',
+
+'<h2>Writing — Continued</h2>':
+'''<h2>Writing — Continued</h2>
+<div class="odia"><div class="odia-title">ପରୀକ୍ଷା ପାଇଁ ମନେ ରଖନ୍ତୁ</div>
+ଏହି ପ୍ରଶ୍ନଗୁଡ଼ିକର ଉତ୍ତରରେ ତିନି ବୃଦ୍ଧଙ୍କ ବର୍ଣ୍ଣନା, ଜେଜେବାପାଙ୍କ ସମୟର ଜୀବନଶୈଳୀ ଏବଂ ଆଜିର ଜୀବନ ବିଷୟରେ ତାଙ୍କ ମତାମତକୁ ସ୍ପଷ୍ଟ ଭାବେ ଲେଖନ୍ତୁ।
+</div>''',
+
+'<h2>Activity — Family Tree</h2>':
+'''<h2>Activity — Family Tree</h2>
+<div class="odia"><div class="odia-title">କାର୍ଯ୍ୟକଳାପକୁ ସହଜରେ କରନ୍ତୁ</div>
+ପରିବାର ବୃକ୍ଷରେ ତିନି ପିଢ଼ିର ସମ୍ପର୍କ ଦେଖାନ୍ତୁ—Grandfather → Father → Son। ତା’ପରେ ପ୍ରତ୍ୟେକଙ୍କ ବର୍ଣ୍ଣନା ପାଇଁ ଦିଆଯାଇଥିବା English expressions ବ୍ୟବହାର କରନ୍ତୁ।
+</div>''',
+
+'<h2>Final Revision — 15 Key Points</h2>':
+'''<h2>Final Revision — 15 Key Points</h2>
+<div class="odia"><div class="odia-title">⚡ ଶେଷ ପୁନରାବୃତ୍ତି — ଓଡ଼ିଆରେ</div>
+ଗଳ୍ପଟିକୁ ଏକ ଶୃଙ୍ଖଳା ଭାବରେ ମନେ ରଖନ୍ତୁ: <b>ଅଦ୍ଭୁତ ଦାନା → ରାଜା → ଜ୍ଞାନୀମାନେ → କୃଷକ → ତିନି ପିଢ଼ି → ଜେଜେବାପାଙ୍କ ଉତ୍ତର</b>। ଏହି କ୍ରମ ମନେ ରହିଲେ ଗଳ୍ପର ଅଧିକାଂଶ ପ୍ରଶ୍ନ ସହଜ ହେବ।
+</div>''',
+
+'<h2>Quick Revision Table</h2>':
+'''<h2>Quick Revision Table</h2>
+<div class="odia"><div class="odia-title">📌 ତୁରନ୍ତ ପୁନରାବୃତ୍ତି</div>
+ଏଠାରେ ଦାନାର ରହସ୍ୟ, ତିନି ପିଢ଼ିର ଅବସ୍ଥା, ଜେଜେବାପାଙ୍କ ସମୟର ଜୀବନ, ଜମି, ଶ୍ରମ ଓ ଅନ୍ୟର ଶ୍ରମ ଉପରେ ନିର୍ଭରତା—ଏହି ସବୁ ମୁଖ୍ୟ କଥାକୁ ଏକାଠି ମନେ ରଖନ୍ତୁ।
+</div>''',
+
+'<h2>Exam-Focused Question Bank</h2>':
+'''<h2>Exam-Focused Question Bank</h2>
+<div class="odia"><div class="odia-title">📝 ପରୀକ୍ଷା ପାଇଁ ଓଡ଼ିଆ ମାର୍ଗଦର୍ଶନ</div>
+ପ୍ରଥମେ ପ୍ରଶ୍ନଟିର ଅର୍ଥ ଓଡ଼ିଆରେ ବୁଝନ୍ତୁ, ପରେ ଉତ୍ତରଟି ସରଳ ଓ ସଠିକ୍ English ରେ ଲେଖିବାର ଅଭ୍ୟାସ କରନ୍ତୁ। ଏହି ପ୍ରକ୍ରିୟା Class 10 English ପରୀକ୍ଷା ପାଇଁ ଉପଯୋଗୀ।
+</div>''',
+
+'<h2>Final MCQ Quiz</h2>':
+'''<h2>Final MCQ Quiz</h2>
+<div class="odia"><div class="odia-title">🎯 ପ୍ରଥମେ ଓଡ଼ିଆରେ ବୁଝନ୍ତୁ, ପରେ ଉତ୍ତର ଦିଅନ୍ତୁ</div>
+ପ୍ରତ୍ୟେକ MCQ ରେ ଗଳ୍ପର ଘଟଣା, ବ୍ୟକ୍ତି ଓ ମୁଖ୍ୟ ଧାରଣା ଉପରେ ଧ୍ୟାନ ଦିଅନ୍ତୁ। ଶେଷରେ Answer Key ସହିତ ମିଳାନ୍ତୁ।
+</div>''',
+
+'<h2>Answer Key + Completeness Check</h2>':
+'''<h2>Answer Key + Completeness Check</h2>
+<div class="odia"><div class="odia-title">✅ ସମ୍ପୂର୍ଣ୍ଣତା ଯାଞ୍ଚ</div>
+ଶେଷ ପର୍ଯ୍ୟନ୍ତ ଗଳ୍ପର ସମସ୍ତ ଅଂଶ, comprehension, glossary, writing ଓ final activity ଦିଆଯାଇଛି। ଏହାକୁ ଶେଷଥର ପଢ଼ିବାବେଳେ English answer ଲେଖିବାର ଅଭ୍ୟାସ ସହିତ ପ୍ରତ୍ୟେକ ଘଟଣାର ଅର୍ଥ ଓଡ଼ିଆରେ ନିଶ୍ଚିତ କରନ୍ତୁ।
+</div>'''
 }
-*{box-sizing:border-box}
-body{margin:0;background:#e9eeec;color:var(--ink);font-family:Arial,"Noto Sans",sans-serif;line-height:1.55}
-.wrap{max-width:1100px;margin:auto;padding:22px}
-.slide{background:var(--paper);margin:24px 0;padding:34px;border-radius:24px;box-shadow:0 8px 28px rgba(20,45,55,.10);border:1px solid #dbe5e2;page-break-after:always}
-.cover{background:linear-gradient(145deg,#f7fcfa,#e8f4f1);text-align:center;min-height:620px;display:flex;flex-direction:column;justify-content:center}
-.kicker{display:inline-block;padding:7px 13px;border-radius:999px;background:#d8eeea;color:var(--accent);font-weight:700;font-size:14px;letter-spacing:.4px}
-h1{font-size:48px;line-height:1.08;margin:18px 0 8px;color:var(--dark)}
-h2{font-size:30px;color:var(--accent);margin:0 0 18px}
-h3{font-size:21px;margin:18px 0 8px;color:var(--dark)}
-p{margin:8px 0}
-.small{color:var(--muted);font-size:14px}
-.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
-.card{background:white;border:1px solid var(--line);border-radius:17px;padding:18px}
-.callout{border-left:6px solid var(--accent2);background:var(--warn);padding:15px 18px;border-radius:12px;margin:15px 0}
-.exam{border-left:6px solid var(--accent);background:var(--blue);padding:15px 18px;border-radius:12px;margin:15px 0}
-.visual{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:15px;margin:15px 0;text-align:center}
-.flow{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin:18px 0}
-.node{background:#fff;border:2px solid #9bc8c2;border-radius:14px;padding:13px 17px;font-weight:700}
-.arrow{font-size:25px;color:var(--accent)}
-.quote{font-size:22px;font-weight:700;color:var(--dark);padding:20px;background:#f3f8f7;border-radius:16px;border:1px solid var(--line)}
-ul{margin-top:8px}
-li{margin:6px 0}
-table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden}
-th,td{border:1px solid #d4dfdd;padding:11px;text-align:left;vertical-align:top}
-th{background:#e7f2f0;color:var(--dark)}
-.badge{display:inline-block;padding:5px 9px;border-radius:8px;font-weight:700;background:#e8f4e8}
-.two{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;align-items:center}
-.family{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;text-align:center;align-items:center}
-.person{background:white;border:2px solid #a9cbc6;border-radius:16px;padding:14px;font-weight:700}
-.center{grid-column:1/-1}
-.question{padding:13px 15px;border:1px solid var(--line);border-radius:13px;background:#fff;margin:10px 0}
-.answer{margin-top:7px;color:#245a52}
-.sectionno{float:right;background:var(--dark);color:white;border-radius:999px;padding:6px 10px;font-size:12px}
-.footer{font-size:12px;color:#728087;margin-top:18px;border-top:1px solid #d8e2df;padding-top:10px}
-@media(max-width:750px){.grid,.grid3,.two{grid-template-columns:1fr}h1{font-size:35px}.slide{padding:23px}.cover{min-height:500px}}
-@media print{body{background:white}.slide{box-shadow:none;margin:0;border:0}}
-</style>
-</head>
-<body>
-<div class="wrap">
+for old,new in replacements.items():
+    html = html.replace(old,new)
 
-<section class="slide cover">
-  <span class="kicker">ODISHA CLASS 10 • ENGLISH • VISUAL CLASSROOM LECTURE</span>
-  <h1>A Grain as Big as a Hen’s Egg</h1>
-  <p style="font-size:22px;color:#49606b">A story about a remarkable grain, three generations, labour, land and the way people lived.</p>
-  <div class="visual">
-    <svg width="100%" height="220" viewBox="0 0 760 220" aria-label="grain visual">
-      <ellipse cx="380" cy="115" rx="190" ry="75" fill="#f1d28a" stroke="#9d7b32" stroke-width="5"/>
-      <path d="M380 47 Q355 112 380 183" fill="none" stroke="#9d7b32" stroke-width="5"/>
-      <ellipse cx="155" cy="130" rx="38" ry="28" fill="#fff" stroke="#557" stroke-width="3"/>
-      <circle cx="140" cy="122" r="5" fill="#222"/><path d="M193 130 q25 -10 30 0" fill="none" stroke="#557" stroke-width="4"/>
-      <text x="380" y="214" text-anchor="middle" font-size="17" fill="#173042">grain as large as a hen’s egg</text>
-    </svg>
-  </div>
-  <p class="small">Complete lesson • Text • Comprehension • Glossary • Writing • Activity • Final-page coverage</p>
-</section>
+# Add a stronger bilingual note to the cover.
+html = html.replace(
+'<p class="small">Complete lesson • Text • Comprehension • Glossary • Writing • Activity • Final-page coverage</p>',
+'<p class="small">Complete lesson • Text • Comprehension • Glossary • Writing • Activity • Final-page coverage</p>'
+'<div class="odia"><div class="odia-title">ଓଡ଼ିଶା Class 10 ଛାତ୍ରଛାତ୍ରୀଙ୍କ ପାଇଁ</div>'
+'ପ୍ରତ୍ୟେକ କଠିନ English ଅଂଶକୁ ସରଳ ଓଡ଼ିଆରେ ବୁଝାଇ ଦିଆଯାଇଛି, ଯାହାଦ୍ୱାରା ଅର୍ଥ ବୁଝିବା ସହିତ English ଶିଖିବା ମଧ୍ୟ ହେବ।</div>'
+)
 
-<section class="slide">
-<span class="sectionno">01</span>
-<h2>Before You Read — Think First</h2>
-<div class="grid">
-<div class="card">
-<h3>Questions to think about</h3>
-<ul>
-<li>Every day we eat rice and chapati. Have you seen a grain of rice or wheat?</li>
-<li>How big are these grains?</li>
-<li>Ask your parents or grandparents about the size of grains during their time.</li>
-<li>Imagine a grain as big as a hen’s egg. Where might it grow, and who grows it?</li>
-<li>Why can’t we grow grains of that size in our fields?</li>
-<li>Discuss in groups and note down the ideas.</li>
-</ul>
-</div>
-<div class="visual">
-<h3>Imagine the size</h3>
-<svg width="100%" height="250" viewBox="0 0 500 250">
-<ellipse cx="250" cy="125" rx="145" ry="80" fill="#f1d28a" stroke="#9d7b32" stroke-width="5"/>
-<path d="M250 45 Q225 125 250 205" fill="none" stroke="#9d7b32" stroke-width="5"/>
-<text x="250" y="235" text-anchor="middle" font-size="18">as big as a hen’s egg</text>
-</svg>
-</div>
-</div>
-<div class="callout"><b>Learning objective:</b> Build curiosity about the unusual grain before entering the story.</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">02</span>
-<h2>Text I — How the Grain Reached the King</h2>
-<div class="flow">
-<div class="node">Children find a strange object</div><div class="arrow">→</div>
-<div class="node">Traveller buys it</div><div class="arrow">→</div>
-<div class="node">Traveller sells it to the King</div>
-</div>
-<div class="two">
-<div>
-<p>The children found a thing in a ravine. It was shaped like a grain of corn, had a groove down the middle, and was as large as a hen’s egg.</p>
-<p>A traveller passing by bought it from the children for a penny. He took it to town and sold it to the King as a curiosity.</p>
-</div>
-<div class="visual">
-<svg width="100%" height="220" viewBox="0 0 500 220">
-<path d="M60 175 Q110 80 180 170" fill="none" stroke="#6a8c86" stroke-width="15"/>
-<ellipse cx="275" cy="120" rx="105" ry="58" fill="#f1d28a" stroke="#9d7b32" stroke-width="4"/>
-<text x="275" y="205" text-anchor="middle" font-size="16">strange grain</text>
-<path d="M380 120 H455" stroke="#12616f" stroke-width="5"/><path d="M445 110 L460 120 L445 130" fill="none" stroke="#12616f" stroke-width="5"/>
-</svg>
-</div>
-</div>
-<div class="exam"><b>📝 Exam Point:</b> The object reached the King through the traveller, who bought it from the children and sold it as a curiosity.</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">03</span>
-<h2>The Wise Men Investigate</h2>
-<div class="grid">
-<div class="card">
-<h3>The mystery</h3>
-<p>The King called his wise men and ordered them to find out what the object was.</p>
-<p>They pondered and could not make head or tail of it.</p>
-</div>
-<div class="card">
-<h3>The clue</h3>
-<p>The object was lying on a window-sill. A hen flew in and pecked at it until she made a hole.</p>
-<p>Then everyone saw that it was a grain of corn.</p>
-</div>
-</div>
-<div class="visual">
-<div class="flow">
-<div class="node">Strange object</div><div class="arrow">→</div><div class="node">Hen pecks it</div><div class="arrow">→</div><div class="node">Hole appears</div><div class="arrow">→</div><div class="node">It is a grain of corn</div>
-</div>
-</div>
-<div class="callout"><b>Easy explanation:</b> The wise men could not identify the object by thinking and searching. The hen’s action revealed what it was.</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">04</span>
-<h2>The Search Moves to the Peasants</h2>
-<div class="flow">
-<div class="node">King asks learned men</div><div class="arrow">→</div>
-<div class="node">Books give no answer</div><div class="arrow">→</div>
-<div class="node">Ask the peasants</div><div class="arrow">→</div>
-<div class="node">Find a very old peasant</div>
-</div>
-<p>The King ordered the learned men to find out when and where such corn had grown. They searched their books but found nothing.</p>
-<p>They suggested asking the peasants, perhaps some of them had heard from their fathers when and where grain grew to such a size.</p>
-<div class="exam"><b>⭐ Remember:</b> The learned men’s suggestion was to ask the peasants because their books contained no information about the unusual grain.</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">05</span>
-<h2>The First Old Peasant — A Generational Clue</h2>
-<div class="two">
-<div>
-<p>The first old peasant was old and bent, ashy pale and toothless. He needed two crutches to enter the King’s presence.</p>
-<p>He could hardly see the grain. He was also so deaf that he could hardly hear the King.</p>
-<p>He said he had never sown, reaped or bought such corn. He said grains were always as small as they are now and suggested asking his father.</p>
-</div>
-<div class="visual">
-<svg width="100%" height="270" viewBox="0 0 420 270">
-<circle cx="210" cy="65" r="30" fill="#d8b79c"/>
-<path d="M175 105 Q210 85 245 105 L270 190 H150 Z" fill="#9fb7b4"/>
-<path d="M155 190 L110 245 M265 190 L310 245" stroke="#555" stroke-width="10"/>
-<path d="M145 160 L90 235 M275 160 L330 235" stroke="#765a3b" stroke-width="7"/>
-<text x="210" y="265" text-anchor="middle" font-size="15">two crutches</text>
-</svg>
-</div>
-</div>
-<div class="callout"><b>🧠 Key idea:</b> The first peasant could not provide the answer from his own experience, so the search moved one generation further back.</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">06</span>
-<h2>Comprehension Check I</h2>
-<div class="question"><b>1.</b> What did the children find in the ravine?<div class="answer">A thing shaped like a grain of corn, with a groove down the middle, but as large as a hen’s egg.</div></div>
-<div class="question"><b>2.</b> How did the wise men know that it was a grain of corn?<div class="answer">A hen pecked at it and made a hole in it, revealing that it was a grain of corn.</div></div>
-<div class="question"><b>3.</b> What did the King do to collect information about the grain?<div class="answer">He asked the learned men to investigate, and then ordered that a very old peasant be brought before him.</div></div>
-<div class="question"><b>4.</b> Could the learned men find out the answer? What was their suggestion?<div class="answer">No. They could not find it in their books and suggested asking the peasants.</div></div>
-<div class="question"><b>5.</b> What was the King’s question to the old peasant who came first?<div class="answer">He asked where such grain grew and whether the old man had ever bought or sown such corn in his fields.</div></div>
-</section>
-
-<section class="slide">
-<span class="sectionno">07</span>
-<h2>Comprehension Check I — Continued</h2>
-<div class="question"><b>6.</b> Was he able to hear and see? What was his answer?<div class="answer">He could hardly hear and could hardly see the grain. He said he had never sown, reaped or bought such corn and suggested asking his father.</div></div>
-<div class="question"><b>7.</b> How did the old peasant’s father come to the King? Was he able to see?<div class="answer">He came walking with one crutch. He was still able to see.</div></div>
-<div class="question"><b>8.</b> The King asked the same question to the old man’s father. What could be his answer? Will he recognise the grain?<div class="answer">The story asks the reader to continue reading to find out when such grains were harvested and whether he would recognise the grain.</div></div>
-<div class="visual">
-<div class="flow"><div class="node">Grandson: two crutches</div><div class="arrow">→</div><div class="node">Son: one crutch</div><div class="arrow">→</div><div class="node">Father: able to see</div></div>
-</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">08</span>
-<h2>Text II — The Second Old Man</h2>
-<p>The old man heard better than his son. He said he had never sown or reaped such grain and had never bought any because money was not yet in use in his time.</p>
-<div class="grid">
-<div class="card">
-<h3>Life in his time</h3>
-<ul>
-<li>Everyone grew his own corn.</li>
-<li>When there was a need, people shared with one another.</li>
-<li>Their grain was larger and yielded more flour than present-day grain.</li>
-<li>He had heard his father say that in his time grain grew larger and yielded more flour than theirs.</li>
-</ul>
-</div>
-<div class="card">
-<h3>One more generation</h3>
-<p>He advised the King to ask his father.</p>
-<div class="flow"><div class="node">Own corn</div><div class="arrow">→</div><div class="node">Share when needed</div><div class="arrow">→</div><div class="node">No money</div></div>
-</div>
-</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">09</span>
-<h2>The Grandfather Recognises the Grain</h2>
-<div class="visual">
-<svg width="100%" height="250" viewBox="0 0 700 250">
-<circle cx="350" cy="60" r="32" fill="#d8b79c"/>
-<path d="M315 100 Q350 82 385 100 L420 205 H280 Z" fill="#a8bbb6"/>
-<path d="M305 150 L240 210 M395 150 L460 210" stroke="#555" stroke-width="9"/>
-<ellipse cx="350" cy="132" rx="80" ry="42" fill="#f1d28a" stroke="#9d7b32" stroke-width="4"/>
-<text x="350" y="238" text-anchor="middle" font-size="17">looks • turns it • bites • tastes • recognises</text>
-</svg>
-</div>
-<p>The grandfather entered walking easily and without crutches. His eye was clear, his hearing good, and he spoke distinctly.</p>
-<p>He looked at the grain, turned it about in his hand, bit a piece off and tasted it. He said it was the very same kind.</p>
-<div class="exam"><b>🎯 Most Important:</b> The grandfather could recognise the grain because he had seen and lived on such grain in his young days.</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">10</span>
-<h2>The Grandfather’s World</h2>
-<div class="grid3">
-<div class="card"><b>🌾 Grain</b><p>Corn like this used to grow everywhere in his time.</p></div>
-<div class="card"><b>🤝 Sharing</b><p>People grew their own corn and shared when there was need.</p></div>
-<div class="card"><b>💰 Money</b><p>They knew nothing of money.</p></div>
-</div>
-<div class="quote">“Each man had corn enough of his own.”</div>
-<p>The King asked where the grandfather’s field was. His answer: his field was God’s earth; wherever he ploughed, there was his field. Land was free and no man called it his own. Labour was the only thing men called their own.</p>
-<div class="visual">
-<div class="flow"><div class="node">God’s earth</div><div class="arrow">→</div><div class="node">Free land</div><div class="arrow">→</div><div class="node">Labour was one’s own</div></div>
-</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">11</span>
-<h2>The King’s Final Two Questions</h2>
-<div class="grid">
-<div class="card">
-<h3>Question 1</h3>
-<p>Why did the earth bear such grain then and cease to do so now?</p>
-</div>
-<div class="card">
-<h3>Question 2</h3>
-<p>Why does the grandson walk with two crutches, the son with one, while the grandfather has none and has bright eyes, sound teeth and clear speech?</p>
-</div>
-</div>
-<div class="visual">
-<div class="flow">
-<div class="node">People’s way of living</div><div class="arrow">→</div>
-<div class="node">Own labour vs. dependence on others’ labour</div><div class="arrow">→</div>
-<div class="node">Difference between generations</div>
-</div>
-</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">12</span>
-<h2>The Grandfather’s Answer — Central Idea</h2>
-<p>The grandfather explains that these differences came about because people had ceased to live by their own labour and had taken to depending on the labour of others.</p>
-<p>In the old time, they lived according to God’s law. They had what was their own and did not covet what others had produced.</p>
-<div class="two">
-<div class="visual">
-<div class="flow">
-<div class="node">Own labour</div><div class="arrow">→</div>
-<div class="node">God’s law</div><div class="arrow">→</div>
-<div class="node">Did not covet others’ produce</div>
-</div>
-</div>
-<div class="callout"><b>📌 Remember:</b> The final explanation connects the size of grain and the condition of the three generations with the change in people’s way of living.</div>
-</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">13</span>
-<h2>Three Generations — Visual Comparison</h2>
-<table>
-<tr><th>Person</th><th>Physical description</th><th>What he says about the grain</th></tr>
-<tr><td>First old peasant</td><td>Old and bent, ashy pale, toothless, two crutches; could hardly see and hear.</td><td>Never sowed, reaped or bought such grain; asks the King to question his father.</td></tr>
-<tr><td>His father</td><td>One crutch; still able to see; heard better than his son.</td><td>Never sowed, reaped or bought such grain; says his grain was larger and yielded more flour than present-day grain; refers to his father.</td></tr>
-<tr><td>Grandfather</td><td>Walks without crutches; clear eye, good hearing, distinct speech, sound teeth.</td><td>Recognises the grain as the very same kind and says such corn grew everywhere in his time.</td></tr>
-</table>
-<div class="exam"><b>⭐ Exam Point:</b> The physical condition improves as the story moves from the grandson’s generation back to the grandfather’s generation.</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">14</span>
-<h2>Comprehension Check II</h2>
-<div class="question"><b>1.</b> How big was the corn in his father’s time?<div class="answer">The old man says that in his father’s time the grain grew larger and yielded more flour than theirs.</div></div>
-<div class="question"><b>2.</b> Read the lines that describe the old man’s grandfather.<div class="answer">He entered walking easily and without crutches; his eye was clear, his hearing good, and he spoke distinctly.</div></div>
-<div class="question"><b>3.</b> What was the grandfather’s reply to the King’s question?<div class="answer">Corn like this used to grow everywhere in his time; he lived on it, fed others on it, and sowed, reaped and thrashed it.</div></div>
-<div class="question"><b>4.</b> Did people in grandfather’s time buy or sell bread?<div class="answer">No. No one thought of buying or selling bread, and they knew nothing of money.</div></div>
-<div class="question"><b>5.</b> Was the land free during his time?<div class="answer">Yes. He said the land was God’s earth, land was free, and no man called it his own.</div></div>
-</section>
-
-<section class="slide">
-<span class="sectionno">15</span>
-<h2>Comprehension Check II — Continued</h2>
-<div class="question"><b>6.</b> What were the last two questions of the King?<div class="answer">Why the earth bore such grain then but had ceased to do so now; and why the grandson, son and grandfather had such different physical conditions.</div></div>
-<div class="question"><b>7.</b> What reply did the grandfather give?<div class="answer">He said people had ceased to live by their own labour and had begun depending on the labour of others. In the old time they lived according to God’s law and did not covet what others had produced.</div></div>
-<div class="callout"><b>🧠 Teaching transition:</b> Now that the story’s central answer is clear, we can revise its key vocabulary and then move to the writing tasks.</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">16</span>
-<h2>Glossary — Learn the Words Visually</h2>
-<table>
-<tr><th>Word / expression</th><th>Meaning in simple English</th><th>ଓଡ଼ିଆ ଅର୍ଥ</th></tr>
-<tr><td>Ravine</td><td>A very deep narrow valley.</td><td>ଗଭୀର ଓ ସଂକୀର୍ଣ୍ଣ ଉପତ୍ୟକା</td></tr>
-<tr><td>groove</td><td>A long, narrow, deep line cut in a surface.</td><td>ପୃଷ୍ଠରେ ଥିବା ଲମ୍ବା, ସଂକୀର୍ଣ୍ଣ ଗଭୀର ରେଖା</td></tr>
-<tr><td>pondered</td><td>Thought carefully.</td><td>ଭଲଭାବେ ଚିନ୍ତା କଲେ</td></tr>
-<tr><td>ashy pale</td><td>Unhealthy.</td><td>ଅସୁସ୍ଥ / ଫିକା ଦେଖାଯାଉଥିବା</td></tr>
-<tr><td>totter</td><td>To walk in an unsteady way.</td><td>ଅସ୍ଥିର ଭାବରେ ଚାଲିବା</td></tr>
-<tr><td>thrash</td><td>To beat repeatedly.</td><td>ବାରମ୍ବାର ପିଟିବା</td></tr>
-<tr><td>have taken to</td><td>Are attracted to / liked to.</td><td>ଆକର୍ଷିତ ହେବା / ପସନ୍ଦ କରିବା</td></tr>
-<tr><td>coveted</td><td>Strong desire to have something that belongs to others.</td><td>ଅନ୍ୟର ଜିନିଷକୁ ନିଜର କରିବାର ତୀବ୍ର ଇଚ୍ଛା</td></tr>
-</table>
-</section>
-
-<section class="slide">
-<span class="sectionno">17</span>
-<h2>Writing — Answer in About Fifty Words</h2>
-<div class="grid">
-<div class="card">
-<p><b>1.</b> How did the grain of corn reach the King?</p>
-<p><b>Answer:</b> Some children found the unusual grain in a ravine. A traveller saw it, bought it from them for a penny, took it to town and sold it to the King as a curiosity.</p>
-</div>
-<div class="card">
-<p><b>2.</b> How did the wise men know that it was a grain of corn?</p>
-<p><b>Answer:</b> The wise men could not identify it. When it lay on a window-sill, a hen pecked at it and made a hole. Then everyone saw that it was a grain of corn.</p>
-</div>
-<div class="card">
-<p><b>3.</b> What suggestion did the learned men give?</p>
-<p><b>Answer:</b> They searched their books but found nothing. They suggested that the King should ask the peasants, perhaps some had heard from their fathers when and where grain grew to such a size.</p>
-</div>
-<div class="card">
-<p><b>4.</b> What were the replies of the old peasant and his father?</p>
-<p><b>Answer:</b> The first old peasant had never sown, reaped or bought such grain and asked the King to question his father. His father also had not seen such grain but said grain in his time was larger and yielded more flour than present-day grain.</p>
-</div>
-</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">18</span>
-<h2>Writing — Continued</h2>
-<div class="grid">
-<div class="card">
-<p><b>5.</b> How were the three old men described?</p>
-<p><b>Answer:</b> The first was old and bent, ashy pale and toothless and used two crutches. His father used one crutch and could still see. The grandfather walked without crutches, had clear eyes, good hearing, sound teeth and distinct speech.</p>
-</div>
-<div class="card">
-<p><b>6.</b> Briefly describe the lifestyle during grandfather’s time.</p>
-<p><b>Answer:</b> Corn grew everywhere. People grew and harvested their own corn, shared when needed, knew nothing of money, and did not buy or sell bread. The land was free and labour was the only thing men called their own.</p>
-</div>
-<div class="card">
-<p><b>7.</b> What comments did the grandfather give on today’s lifestyle?</p>
-<p><b>Answer:</b> He said people had ceased to live by their own labour and had begun depending on the labour of others. In the old time they lived according to God’s law and did not covet what others had produced.</p>
-</div>
-</div>
-<div class="exam"><b>🎯 Exam strategy:</b> Keep answers focused on the events, descriptions and statements actually given in the lesson.</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">19</span>
-<h2>Activity — Family Tree</h2>
-<div class="family">
-<div class="person">Grandfather<br><span class="small">without crutches • eyes clear • hearing good • spoke distinctly</span></div>
-<div class="person">↓</div>
-<div class="person">Father<br><span class="small">one crutch • still able to see • heard better</span></div>
-<div class="person">↓</div>
-<div class="person">Son<br><span class="small">old and bent • ashy pale • toothless • two crutches</span></div>
-<div class="person center">Three old men in the story</div>
-</div>
-<div class="callout"><b>Task:</b> Use the words and expressions from the box to complete the diagram, then use them in your own sentences to describe the three old men and arrange the sentences in story order.</div>
-<div class="visual">
-<p><b>Words / expressions supplied:</b></p>
-<p>toothless • one crutch • eyes clear • old and bent • two crutches • without crutches • heard better • spoke distinctly • ashy pale • still able to see • hearing good</p>
-</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">20</span>
-<h2>Final Revision — 15 Key Points</h2>
-<ol>
-<li>Children found a strange grain in a ravine.</li>
-<li>It was shaped like a grain of corn and as large as a hen’s egg.</li>
-<li>A traveller bought it for a penny and sold it to the King as a curiosity.</li>
-<li>The wise men could not identify it at first.</li>
-<li>A hen pecked it and revealed that it was a grain of corn.</li>
-<li>The learned men found nothing about it in their books.</li>
-<li>They suggested asking the peasants.</li>
-<li>The first old peasant had never seen or bought such grain and referred to his father.</li>
-<li>The second old man said grain in his time was larger and yielded more flour than present-day grain.</li>
-<li>The grandfather recognised the grain.</li>
-<li>He said such corn used to grow everywhere in his time.</li>
-<li>People grew their own corn and shared when needed.</li>
-<li>They knew nothing of money and did not buy or sell bread.</li>
-<li>Land was free; labour was the only thing men called their own.</li>
-<li>The grandfather connected the change with people depending on others’ labour and coveting what others produced.</li>
-</ol>
-</section>
-
-<section class="slide">
-<span class="sectionno">21</span>
-<h2>Quick Revision Table</h2>
-<table>
-<tr><th>Area</th><th>Remember</th></tr>
-<tr><td>Strange object</td><td>A grain of corn as large as a hen’s egg.</td></tr>
-<tr><td>First clue</td><td>A hen pecked a hole in the object.</td></tr>
-<tr><td>Investigation</td><td>Wise men → books → peasants → older generations.</td></tr>
-<tr><td>Three generations</td><td>Two crutches → one crutch → no crutches.</td></tr>
-<tr><td>Grandfather’s grain</td><td>Grew everywhere and yielded more flour.</td></tr>
-<tr><td>Money</td><td>Unknown in the grandfather’s time.</td></tr>
-<tr><td>Land</td><td>God’s earth; land was free.</td></tr>
-<tr><td>Labour</td><td>The only thing men called their own.</td></tr>
-<tr><td>Final explanation</td><td>People ceased to live by their own labour and depended on the labour of others.</td></tr>
-</table>
-<div class="callout"><b>Grammar:</b> No separate grammar section or grammar rules are included in the supplied lesson content.</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">22</span>
-<h2>Exam-Focused Question Bank</h2>
-<div class="grid">
-<div class="card">
-<h3>Very Short Answer</h3>
-<ul>
-<li>What did the children find?</li>
-<li>Who bought the grain from the children?</li>
-<li>What revealed that the object was corn?</li>
-<li>Who did the learned men suggest the King should ask?</li>
-<li>How many crutches did the first old peasant use?</li>
-<li>How many crutches did his father use?</li>
-</ul>
-</div>
-<div class="card">
-<h3>Short Answer</h3>
-<ul>
-<li>Why could the wise men not identify the object at first?</li>
-<li>Why did the learned men ask the King to question the peasants?</li>
-<li>How did the grandfather recognise the grain?</li>
-<li>Why did people not buy or sell bread in his time?</li>
-<li>Why was the land called free?</li>
-</ul>
-</div>
-<div class="card">
-<h3>Long Answer</h3>
-<ul>
-<li>Describe the three old men and compare their physical conditions.</li>
-<li>Describe the lifestyle of people during the grandfather’s time.</li>
-<li>Explain the grandfather’s answer to the King’s final two questions.</li>
-<li>Describe how the grain reached the King and how its identity was discovered.</li>
-</ul>
-</div>
-</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">23</span>
-<h2>Final MCQ Quiz</h2>
-<div class="question"><b>1.</b> Where did the children find the unusual object?<br>A) Garden &nbsp; B) Ravine &nbsp; C) Window-sill &nbsp; D) Field</div>
-<div class="question"><b>2.</b> Who bought it from the children?<br>A) King &nbsp; B) Peasant &nbsp; C) Traveller &nbsp; D) Wise man</div>
-<div class="question"><b>3.</b> What made a hole in the object?<br>A) Bird &nbsp; B) Hen &nbsp; C) Rat &nbsp; D) Dog</div>
-<div class="question"><b>4.</b> Where did the learned men search for information?<br>A) Fields &nbsp; B) Their books &nbsp; C) Market &nbsp; D) Ravine</div>
-<div class="question"><b>5.</b> How many crutches did the first old peasant use?<br>A) None &nbsp; B) One &nbsp; C) Two &nbsp; D) Three</div>
-<div class="question"><b>6.</b> What was not yet in use in the second old man’s time?<br>A) Corn &nbsp; B) Bread &nbsp; C) Money &nbsp; D) Land</div>
-<div class="question"><b>7.</b> Who recognised the grain?<br>A) The King &nbsp; B) The traveller &nbsp; C) The grandfather &nbsp; D) The wise men</div>
-<div class="question"><b>8.</b> What was the grandfather’s field?<br>A) A private farm &nbsp; B) God’s earth &nbsp; C) A garden &nbsp; D) A market</div>
-<div class="question"><b>9.</b> What did people share when there was need?<br>A) Money &nbsp; B) Their own corn &nbsp; C) Land ownership &nbsp; D) Books</div>
-<div class="question"><b>10.</b> What did the grandfather say people had begun depending on?<br>A) Books &nbsp; B) The labour of others &nbsp; C) Travellers &nbsp; D) Kings</div>
-</section>
-
-<section class="slide">
-<span class="sectionno">24</span>
-<h2>Answer Key + Completeness Check</h2>
-<div class="grid">
-<div class="card">
-<h3>MCQ Answer Key</h3>
-<p><b>1-B, 2-C, 3-B, 4-B, 5-C, 6-C, 7-C, 8-B, 9-B, 10-B</b></p>
-</div>
-<div class="card">
-<h3>Complete Coverage Check</h3>
-<ul>
-<li>✓ Before You Read</li>
-<li>✓ Text I</li>
-<li>✓ Comprehension Check I — 8 questions</li>
-<li>✓ Text II</li>
-<li>✓ Comprehension Check II — 7 questions</li>
-<li>✓ Glossary — 8 entries</li>
-<li>✓ Writing — all 7 questions</li>
-<li>✓ Activity — family tree and description task</li>
-<li>✓ Final page checked</li>
-</ul>
-</div>
-</div>
-<div class="exam"><b>📌 Final study focus:</b> Learn the sequence of the story, the three generations, the grandfather’s lifestyle, the unusual grain, and the grandfather’s final explanation.</div>
-<div class="footer">End of visual classroom lecture.</div>
-</section>
-
-</div>
-</body>
-</html>'''
-
+out = Path("/mnt/data/A_Grain_as_Big_as_a_Hens_Egg_Odisha_Class10_Bilingual_Visual_Lecture.html")
 out.write_text(html, encoding="utf-8")
 print(f"Created: {out}")
 print(f"Size: {out.stat().st_size/1024:.1f} KB")
