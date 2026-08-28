@@ -1,0 +1,494 @@
+from pathlib import Path
+
+out = Path("/mnt/data/A_Letter_to_God_Odisha_Class10_Visual_Lecture.html")
+
+slides = []
+
+def esc(s): return s
+
+def slide(title, body, num):
+    return f'''<section class="slide">
+      <div class="kicker">Odisha Class 10 • English</div>
+      <h2>{title}</h2>
+      {body}
+      <div class="footer">{num}</div>
+    </section>'''
+
+def odia(text):
+    return f'<div class="odia"><div class="odia-title">ଓଡ଼ିଆରେ ସହଜ ବ୍ୟାଖ୍ୟା</div>{text}</div>'
+
+def card(title, text):
+    return f'<div class="card"><h3>{title}</h3><p>{text}</p></div>'
+
+# 1
+slides.append(f'''<section class="slide cover">
+<div class="kicker">Odisha Class 10 • English • Complete Visual Lecture</div>
+<h1>A Letter to God</h1>
+<p class="author">G. L. Fuentes</p>
+{odia("ଏହି story ର କେନ୍ଦ୍ରରେ ଅଛି Lencho ଙ୍କ ଅଟୁଟ faith। ତାଙ୍କର corn crop hailstorm ଦ୍ୱାରା ନଷ୍ଟ ହେବା ପରେ ସେ God ଙ୍କୁ ଟଙ୍କା ପାଇଁ letter ଲେଖନ୍ତି। Story ଟି faith, hope, human kindness ଏବଂ Lencho ଙ୍କ ଅଦ୍ଭୁତ ବିଶ୍ୱାସକୁ ଦେଖାଏ।")}
+<div class="flow">
+<div class="node">Good Crop</div><div class="arrow">→</div>
+<div class="node">Hailstorm</div><div class="arrow">→</div>
+<div class="node">Crop Destroyed</div><div class="arrow">→</div>
+<div class="node">Letter to God</div><div class="arrow">→</div>
+<div class="node">Money Arrives</div><div class="arrow">→</div>
+<div class="node">Unexpected Ending</div>
+</div>
+<p class="goal"><b>Learning Goal:</b> Understand the story, vocabulary, activities, grammar and writing task completely.</p>
+<div class="footer">1</div>
+</section>''')
+
+slides.append(slide("1. Lead-in — Faith Can Move Mountains", 
+f'''<div class="grid">{card("Think First","Have you ever written a letter to God? Have you ever seen someone writing a letter to God?")}
+{card("Central Question","What should we put our faith in?")}
+{card("Story Setup","Lencho is a farmer who writes a letter to God asking for money when his crops fail.")}</div>
+{odia("ପାଠ ଆରମ୍ଭରେ faith ବିଷୟରେ ଭାବିବାକୁ କୁହାଯାଇଛି। Lencho ଜଣେ farmer। Crop fail ହେବା ପରେ ସେ God ଙ୍କୁ ଟଙ୍କା ମାଗି letter ଲେଖନ୍ତି। ପ୍ରଥମେ ଭାବନ୍ତୁ—letter God ଙ୍କ ପାଖକୁ ପହଞ୍ଚିବ କି? God ଟଙ୍କା ପଠାଇବେ କି?")}
+<div class="exam important"><b>📌 Remember:</b> The story deliberately makes the reader think about faith and its power.</div>''', 2))
+
+slides.append(slide("2. The Setting — A Valley, a Hill and a Cornfield",
+f'''<div class="grid">{card("House","The only house in the entire valley sat on the crest of a low hill.")}
+{card("View","From the height, one could see the river and the field of ripe corn.")}
+{card("Need of the Earth","The earth needed a downpour or at least a shower.")}</div>
+<div class="flow"><div class="node">Low Hill</div><div class="arrow">→</div><div class="node">River</div><div class="arrow">+</div><div class="node">Ripe Cornfield</div><div class="arrow">→</div><div class="node">Hope of Harvest</div></div>
+{odia("Lencho ଙ୍କ ଘର ଗୋଟିଏ low hill ର crest ଉପରେ ଥିଲା। ତଳେ river ଓ ripe cornfield ଦେଖାଯାଉଥିଲା। Good harvest ପାଇଁ ମାଟିକୁ rain ଦରକାର ଥିଲା।")}
+<div class="quote">“The only thing the earth needed was a downpour or at least a shower.”</div>''', 3))
+
+slides.append(slide("3. Lencho Watches the Sky", 
+f'''<div class="en"><b>Character clue:</b> Lencho knew his fields intimately and kept looking towards the north-east sky.</div>
+<div class="grid">{card("Lencho","A farmer deeply connected with his fields.")}
+{card("Prediction","He believed rain was coming.")}</div>
+<div class="quote">“Now we’re really going to get some water, woman.”</div>
+{odia("Lencho ନିଜ field ବିଷୟରେ ଭଲଭାବେ ଜାଣୁଥିଲେ। ସେ ସକାଳ ସାରା north-east ଆକାଶକୁ ଦେଖୁଥିଲେ, କାରଣ ସେ rain ଆସିବ ବୋଲି ଆଶା କରୁଥିଲେ।")}''', 4))
+
+slides.append(slide("4. Rain Arrives — “New Coins”", 
+f'''<div class="grid">{card("Family","The older boys were working in the field; the smaller ones were playing near the house.")}
+{card("Rain","Big drops began to fall during the meal.")}
+{card("Lencho's Joy","He went outside to feel the rain on his body.")}</div>
+<div class="quote">“These aren’t raindrops falling from the sky, they are new coins.”</div>
+<div class="flow"><div class="node">Big drops</div><div class="arrow">≈</div><div class="node">Ten-cent pieces</div><div class="arrow">+</div><div class="node">Little drops</div><div class="arrow">≈</div><div class="node">Fives</div></div>
+{odia("Lencho ପାଇଁ rain ମାନେ ଧନ। ବଡ଼ drops କୁ ସେ ten-cent pieces ଓ ଛୋଟ drops କୁ fives ସହିତ ତୁଳନା କରିଥିଲେ। କାରଣ rain ହେଲେ corn harvest ଭଲ ହେବ ବୋଲି ସେ ଭାବିଥିଲେ।")}
+<div class="exam"><b>⭐ Exam Point:</b> Raindrops are compared to new coins because rain promised a good harvest.</div>''', 5))
+
+slides.append(slide("5. The Rain Changes into a Hailstorm", 
+f'''<div class="flow"><div class="node">Rain</div><div class="arrow">→</div><div class="node">Strong Wind</div><div class="arrow">+</div><div class="node">Large Hailstones</div><div class="arrow">→</div><div class="node">Disaster</div></div>
+<div class="grid">{card("Hailstones","Very large frozen drops began falling with the rain.")}
+{card("Children","The boys ran out to collect the frozen pearls.")}
+{card("Lencho","He hoped the bad weather would pass quickly.")}</div>
+{odia("ଆରମ୍ଭରେ rain ଦେଖି Lencho ଖୁସି ଥିଲେ। କିନ୍ତୁ ହଠାତ୍ strong wind ସହ large hailstones ପଡ଼ିଲା। ଭଲ rain ଏକ dangerous hailstorm ରେ ପରିଣତ ହେଲା।")}''', 6))
+
+slides.append(slide("6. One Hour of Hail — The Crop Is Destroyed", 
+f'''<div class="timeline">
+<div class="t"><strong>For an hour</strong><p>Hail rained on the house, garden, hillside, cornfield and whole valley.</p></div>
+<div class="t"><strong>White field</strong><p>The field looked as if it were covered with salt.</p></div>
+<div class="t"><strong>No leaves</strong><p>Not a leaf remained on the trees.</p></div>
+<div class="t"><strong>No crop</strong><p>The corn was totally destroyed and flowers were gone.</p></div>
+</div>
+{odia("ଏକ ଘଣ୍ଟା ଧରି hail ପଡ଼ିଲା। ସମଗ୍ର valley ଧଳା ହୋଇଗଲା। ଗଛରେ leaf ରହିଲା ନାହିଁ, corn ସମ୍ପୂର୍ଣ୍ଣ ନଷ୍ଟ ହେଲା, flowers ମଧ୍ୟ ଚାଲିଗଲା। Lencho ଙ୍କ ସମସ୍ତ ଆଶା ଭାଙ୍ଗିଗଲା।")}
+<div class="exam important"><b>📝 Exam Point:</b> The storm changes the story from hope for a good harvest to complete loss.</div>''', 7))
+
+slides.append(slide("7. Lencho’s Sorrow and His Faith", 
+f'''<div class="quote">“A plague of locusts would have left more than this. The hail has left nothing.”</div>
+<div class="grid">{card("Loss","Lencho believed the hail had destroyed everything.")}
+{card("Family fear","The family worried that they would go hungry.")}
+{card("Single hope","Their hope was help from God.")}</div>
+{odia("Lencho hailstorm ର damage କୁ locusts ଠାରୁ ମଧ୍ୟ ଅଧିକ ଭୟଙ୍କର ଭାବିଥିଲେ। Family ଭୋକର ଭୟରେ ଥିଲା। ତଥାପି ସମସ୍ତଙ୍କ ହୃଦୟରେ ଗୋଟିଏ hope ଥିଲା—God ଙ୍କ help।")}
+<div class="exam"><b>📌 Remember:</b> Even after total loss, Lencho's faith does not disappear.</div>''', 8))
+
+slides.append(slide("8. Lencho Writes a Letter to God", 
+f'''<div class="flow"><div class="node">Crop destroyed</div><div class="arrow">→</div><div class="node">Hope in God</div><div class="arrow">→</div><div class="node">Writes letter</div><div class="arrow">→</div><div class="node">Posts it in town</div></div>
+<div class="card"><h3>The Request</h3><p>Lencho asks God for <b>a hundred pesos</b> to sow his field again and live until the next crop comes.</p></div>
+{odia("Lencho Sunday ସକାଳେ letter ଲେଖିଲେ। ସେ God ଙ୍କୁ 100 pesos ମାଗିଲେ—field କୁ ପୁଣି sow କରିବା ଓ next crop ଆସିବା ପର୍ଯ୍ୟନ୍ତ ବଞ୍ଚିବା ପାଇଁ। ସେ envelope ଉପରେ “To God” ଲେଖିଲେ।")}
+<div class="quote">“God,” he wrote, “if you don’t help me, my family and I will go hungry this year.”</div>''', 9))
+
+slides.append(slide("9. The Post Office Sees the Letter", 
+f'''<div class="grid">{card("Postman","He laughed heartily when he saw the letter addressed to God.")}
+{card("Postmaster","At first he laughed too, then became serious and admired Lencho's faith.")}
+{card("Faith","The postmaster wished he had the same faith.")}</div>
+<div class="quote">“What faith! I wish I had the faith of the man who wrote this letter.”</div>
+{odia("Postman ଏହି unusual address ଦେଖି ହସିଲେ। Postmaster ମଧ୍ୟ ପ୍ରଥମେ ହସିଲେ, କିନ୍ତୁ ପରେ Lencho ଙ୍କ faith ଦେଖି serious ହେଲେ। ସେ Lencho ଙ୍କ ଭଳି faith ନିଜ ପାଖରେ ଥାଆନ୍ତା ବୋଲି ଇଚ୍ଛା କଲେ।")}''', 10))
+
+slides.append(slide("10. The Postmaster’s Act of Kindness", 
+f'''<div class="flow"><div class="node">Letter to God</div><div class="arrow">→</div><div class="node">Postmaster protects faith</div><div class="arrow">→</div><div class="node">Collects money</div><div class="arrow">→</div><div class="node">Sends more than half</div></div>
+<div class="grid">{card("Resolution","He decided to answer the letter so that Lencho's faith would not be shaken.")}
+{card("Charity","He asked employees for money, gave part of his own salary and got help from friends.")}
+{card("Result","He could not collect the full 100 pesos; he sent a little more than half.")}</div>
+{odia("Postmaster Lencho ଙ୍କ faith କୁ ଭାଙ୍ଗିବାକୁ ଚାହୁଁନଥିଲେ। ସେ employees ଓ friends ଠାରୁ money collect କଲେ ଏବଂ ନିଜ salary ରୁ ମଧ୍ୟ ଦେଲେ। 100 pesos ପୂରା ହେଲା ନାହିଁ, ତେଣୁ little more than half ପଠାଇଲେ।")}
+<div class="exam important"><b>⭐ Important:</b> The postmaster's action is an “act of charity” motivated by Lencho's faith.</div>''', 11))
+
+slides.append(slide("11. Lencho Receives the Money", 
+f'''<div class="grid">{card("Confidence","Lencho was not surprised to find money because of his complete confidence in God.")}
+{card("Problem","He counted the money and found that it was less than the 100 pesos he had requested.")}
+{card("Reaction","He became angry because he believed God could not have made a mistake.")}</div>
+{odia("Lencho money ମିଳିଥିବାରେ surprise ହେଲେ ନାହିଁ। ତାଙ୍କର God ଉପରେ complete confidence ଥିଲା। କିନ୍ତୁ money ଗଣିବା ପରେ କେବଳ 70 pesos ଥିବାରୁ ସେ angry ହେଲେ।")}
+<div class="quote">“God could not have made a mistake, nor could he have denied Lencho what he had requested.”</div>''', 12))
+
+slides.append(slide("12. The Second Letter — The Twist", 
+f'''<div class="quote">“Of the money that I asked for, only seventy pesos reached me. Send me the rest…”</div>
+<div class="grid">{card("Lencho's belief","He still believed the money had come from God.")}
+{card("His accusation","He thought the post office employees were “a bunch of crooks”.")}
+{card("The irony","The people who helped him were exactly the people he suspected.")}</div>
+{odia("Lencho ଙ୍କ faith God ଉପରେ ଏତେ strong ଥିଲା ଯେ ସେ ଏହା ଭାବିଲେ ନାହିଁ ଯେ post office ର people ତାଙ୍କୁ help କରିଥିଲେ। 70 pesos ମିଳିଥିବାରୁ ସେ ଅବଶିଷ୍ଟ money God ଙ୍କୁ ମାଗିଲେ ଏବଂ employees କୁ crooks କହିଲେ।")}
+<div class="exam"><b>🎯 Most Important:</b> The ending is built around dramatic irony: the helpers are blamed by the person they helped.</div>''', 13))
+
+slides.append(slide("13. Story in One Visual Flow", 
+f'''<div class="flow">
+<div class="node">Ripe Corn</div><div class="arrow">→</div>
+<div class="node">Rain</div><div class="arrow">→</div>
+<div class="node">Hailstorm</div><div class="arrow">→</div>
+<div class="node">Total Loss</div><div class="arrow">→</div>
+<div class="node">Faith in God</div><div class="arrow">→</div>
+<div class="node">Letter</div><div class="arrow">→</div>
+<div class="node">Postmaster's Charity</div><div class="arrow">→</div>
+<div class="node">70 Pesos</div><div class="arrow">→</div>
+<div class="node">Second Letter</div>
+</div>
+{odia("Story ର ପ୍ରତ୍ୟେକ event ପରବର୍ତ୍ତୀ event କୁ ନେଇଯାଏ। Good harvest ର hope → hailstorm ଦ୍ୱାରା loss → God ଉପରେ faith → letter → human charity → money → misunderstanding।")}
+<div class="exam important"><b>📌 Revision:</b> Learn the sequence; it makes long answers much easier.</div>''', 14))
+
+# Author + glossary
+slides.append(slide("14. About the Author — G. L. Fuentes", 
+f'''<div class="card"><h3>Gregorio Lopez Fuentes (1895–1966)</h3><p>Mexican novelist, poet and journalist. He started writing at the age of 15, when the Mexican Revolution began. Many of his books relate to the civil conflict. His stories are exciting and humorous. Many works concern the oppression of Americans. He received the National Prize of Arts and Science in 1935.</p></div>
+{odia("Author ଙ୍କ ନାମ Gregorio Lopez Fuentes। ସେ Mexican novelist, poet ଓ journalist ଥିଲେ। Source ରେ ତାଙ୍କ writing career, books, stories ଓ 1935 ର National Prize of Arts and Science ବିଷୟରେ information ଦିଆଯାଇଛି।")}
+<div class="exam"><b>⭐ Remember:</b> 1895–1966; Mexican novelist, poet and journalist; National Prize of Arts and Science — 1935.</div>''', 15))
+
+slides.append(slide("15. Notes & Glossary — Part 1", 
+'''<table><tr><th>Word</th><th>Simple English</th><th>ଓଡ଼ିଆ ଅର୍ଥ</th></tr>
+<tr><td>crest</td><td>top / highest part of a hill</td><td>ପାହାଡ଼ର ଶିଖର / ଉପର ଅଂଶ</td></tr>
+<tr><td>dotted with</td><td>scattered over an area</td><td>ଚାରିଆଡ଼େ ଛିଟିଆ ହୋଇଥିବା</td></tr>
+<tr><td>predict</td><td>foretell the future</td><td>ଭବିଷ୍ୟତ ବିଷୟରେ ଅନୁମାନ କରିବା</td></tr>
+<tr><td>drape</td><td>cover</td><td>ଢାଙ୍କିବା</td></tr>
+<tr><td>locusts</td><td>insects that fly in big groups and destroy crops</td><td>ଫସଲ ନଷ୍ଟ କରୁଥିବା ପଙ୍ଗପାଳ</td></tr>
+<tr><td>solitary</td><td>lonely / single</td><td>ଏକାକୀ</td></tr>
+<tr><td>upset</td><td>disturbed</td><td>ବିଚଳିତ / ଦୁଃଖିତ</td></tr>
+<tr><td>conscience</td><td>inner sense of right and wrong</td><td>ଭଲ-ମନ୍ଦ ବିଷୟରେ ମନର ଅନ୍ତର୍ବୋଧ</td></tr>
+<tr><td>peso</td><td>currency of several Latin American countries</td><td>କେତେକ Latin American ଦେଶର ମୁଦ୍ରା</td></tr>
+</table>''', 16))
+
+slides.append(slide("16. Notes & Glossary — Part 2", 
+'''<table><tr><th>Word</th><th>Simple English</th><th>ଓଡ଼ିଆ ଅର୍ଥ</th></tr>
+<tr><td>amiable</td><td>friendly and pleasant</td><td>ମିତ୍ରସୁଲଭ ଓ ମଧୁର</td></tr>
+<tr><td>correspondence</td><td>an act of writing letters</td><td>ଚିଠି ଲେଖାଲେଖି</td></tr>
+<tr><td>resolution</td><td>a firm decision</td><td>ଦୃଢ଼ ସଙ୍କଳ୍ପ / ନିଷ୍ପତ୍ତି</td></tr>
+<tr><td>contentment</td><td>satisfaction</td><td>ସନ୍ତୋଷ</td></tr>
+<tr><td>crooks</td><td>dishonest persons</td><td>ଅସାଧୁ / ଠକ ବ୍ୟକ୍ତି</td></tr>
+</table>
+{odia("Vocabulary ମନେ ରଖିବା ପାଇଁ Word → Simple English meaning → ଓଡ଼ିଆ meaning → Story context ଭାବେ practice କରନ୍ତୁ।")}''', 17))
+
+# E questions
+slides.append(slide("17. Let’s Understand the Text — Q1–Q6", 
+'''<div class="q"><b>1.</b> Where did Lencho live?<div class="answer">He lived in the solitary house in the middle of the valley, on the crest of a low hill.</div></div>
+<div class="q"><b>2.</b> What did he hope for?<div class="answer">He hoped for rain—a downpour or at least a shower—to help the crop.</div></div>
+<div class="q"><b>3.</b> What did he say about the raindrops?<div class="answer">He said they were like new coins: big drops were ten-cent pieces and little ones were fives.</div></div>
+<div class="q"><b>4.</b> How did the rain change?<div class="answer">A strong wind began to blow and very large hailstones began to fall with the rain.</div></div>
+<div class="q"><b>5.</b> What happened to Lencho’s corn fields?<div class="answer">The corn was totally destroyed and the flowers were gone.</div></div>
+<div class="q"><b>6.</b> Who did Lencho have faith in?<div class="answer">He had faith in God.</div></div>
+{odia("ଏହି six questions ର answer story ର opening ଠାରୁ hailstorm ଓ Lencho ଙ୍କ faith ପର୍ଯ୍ୟନ୍ତ ଘଟଣାରୁ ଆସେ। Answer ଲେଖିବାବେଳେ key words ରଖନ୍ତୁ: rain, new coins, hailstones, destroyed, God.")}''', 18))
+
+slides.append(slide("18. Let’s Understand the Text — Q7–Q11", 
+'''<div class="q"><b>7.</b> Who did he write a letter to?<div class="answer">He wrote a letter to God.</div></div>
+<div class="q"><b>8.</b> Who read the letter?<div class="answer">The postman saw it and showed it to the postmaster, who read it.</div></div>
+<div class="q"><b>9.</b> What did the postmaster do?<div class="answer">He decided to answer it, collected money from employees and friends, added part of his salary, and sent Lencho a little more than half of the requested amount.</div></div>
+<div class="q"><b>10.</b> Was Lencho surprised to find a letter for him with money in it?<div class="answer">No. His confidence was so strong that he showed not the slightest surprise.</div></div>
+<div class="q"><b>11.</b> What was Lencho’s reaction after getting the letter?<div class="answer">He became angry after counting the money because only seventy pesos had reached him.</div></div>
+<div class="exam"><b>⭐ Important:</b> Q10 and Q11 are often connected: <b>no surprise → anger after counting the money.</b></div>''', 19))
+
+# F
+slides.append(slide("19. Read Between the Lines — Q1–Q6", 
+'''<div class="q"><b>(i)</b> Why did Lencho keep looking at the sky throughout the morning?<div class="answer">He was watching for rain because his fields needed water for a good harvest.</div></div>
+<div class="q"><b>(ii)</b> Why was the field white after the storm?<div class="answer">It was covered by hailstones, making it look as if covered with salt.</div></div>
+<div class="q"><b>(iii)</b> Why did Lencho say the raindrops were like “new coins”?<div class="answer">Rain promised a good harvest, so he saw the drops as valuable money.</div></div>
+<div class="q"><b>(iv)</b> Why did Lencho prefer locusts to the storm?<div class="answer">He said a plague of locusts would have left more than the hailstorm did; the hail had left nothing.</div></div>
+<div class="q"><b>(v)</b> Did Lencho try to find who sent the money? Why / why not?<div class="answer">No. His complete faith made him believe the money came from God, so he did not question its source.</div></div>
+<div class="q"><b>(vi)</b> What would be the reaction of the post office employees when they read the second letter?<div class="answer">They would likely be surprised or hurt by Lencho calling them “a bunch of crooks,” because they had collected the money for him.</div></div>
+{odia("ଏଠାରେ text ର ଘଟଣା ସହ character thinking କୁ ଯୋଡ଼ି answer କରନ୍ତୁ। Lencho ଙ୍କ faith ହେଉଛି ସମସ୍ତ answers ର key।")}''', 20))
+
+slides.append(slide("20. Read Between the Lines — Passage Questions", 
+'''<div class="q"><b>1.</b> Who does Lencho have complete faith in?<div class="answer">God.</div></div>
+<div class="q"><b>2.</b> “Lencho was an ox of a man” — what does it mean?<div class="answer">He was extremely strong and hardworking, working like an animal in the fields.</div></div>
+<div class="q"><b>3.</b> What was the postmaster like?<div class="answer">He was a fat, amiable fellow who admired Lencho’s faith and acted kindly.</div></div>
+<div class="q"><b>4.</b> Why did the postmaster send money to Lencho?<div class="answer">He wanted to protect Lencho’s faith in God and answer his letter.</div></div>
+<div class="q"><b>5.</b> What does “an act of charity” mean?<div class="answer">An act of helping someone by giving support or money out of kindness.</div></div>
+{odia("“ox of a man” literal ox ନୁହେଁ। ଏଠାରେ Lencho ଙ୍କ strength ଓ hard work ବୁଝାଯାଏ। Postmaster ଙ୍କ charity ର ମୁଖ୍ୟ reason ଥିଲା Lencho ଙ୍କ faith କୁ protect କରିବା।")}''', 21))
+
+# G storms
+slides.append(slide("21. Let’s Learn New Words — Storm Vocabulary", 
+'''<div class="grid3">
+<div class="card"><h3>Hailstorm</h3><p>Storm in which hailstones fall.</p></div>
+<div class="card"><h3>Gale</h3><p>An extremely strong wind.</p></div>
+<div class="card"><h3>Whirlwind</h3><p>A very strong wind moving in a spinning movement.</p></div>
+<div class="card"><h3>Cyclone</h3><p>A violent tropical storm with strong winds moving in a circle.</p></div>
+<div class="card"><h3>Hurricane</h3><p>A violent storm with strong winds, especially in the Western Atlantic Ocean.</p></div>
+<div class="card"><h3>Tornado</h3><p>A violent storm whose centre is a funnel-shaped cloud.</p></div>
+<div class="card"><h3>Typhoon</h3><p>A violent tropical storm with very strong winds.</p></div>
+</div>
+{odia("Storm ମାନଙ୍କର nature ଅନୁସାରେ different names ଥାଏ। Exam ପାଇଁ description ଦେଖି correct word identify କରିବା practice କରନ୍ତୁ।")}
+<div class="exam"><b>📝 Exercise answers:</b> 1) cyclone &nbsp; 2) gale &nbsp; 3) typhoon &nbsp; 4) hurricane &nbsp; 5) tornado &nbsp; 6) whirlwind.</div>''', 22))
+
+# Hope
+slides.append(slide("22. Word Study — “Hope” as Verb and Noun", 
+'''<div class="grid">
+<div class="card"><h3>Hope = Verb</h3><p>“I hope it passes quickly.”<br>Meaning: you wish for something to happen.</p></div>
+<div class="card"><h3>Hope = Noun</h3><p>“There was a single hope: help from God.”<br>Meaning: a chance for something to happen.</p></div>
+</div>
+<div class="flow"><div class="node">hope (verb)</div><div class="arrow">→</div><div class="node">wish for something</div><div class="arrow">↔</div><div class="node">hope (noun)</div><div class="arrow">→</div><div class="node">a chance / expectation</div></div>
+{odia("“hope” sentence ରେ verb କି noun ତାହା context ଦେଖି ବୁଝନ୍ତୁ। “I hope…” ରେ action ଅଛି, ତେଣୁ verb। “a single hope” ରେ hope ଗୋଟିଏ thing/idea ଭାବେ ଆସିଛି, ତେଣୁ noun।")}''', 23))
+
+slides.append(slide("23. “Hope” — Complete Matching Exercise", 
+'''<table><tr><th>Sentence</th><th>Meaning of “hope”</th></tr>
+<tr><td>1. Will you get the subjects you want to study in a college? — I hope so.</td><td>A feeling that something good will probably happen.</td></tr>
+<tr><td>2. I hope you don’t mind my saying this...</td><td>Thinking that this would happen; it may or may not have happened.</td></tr>
+<tr><td>3. This discovery will give new hope to HIV/AIDS sufferers.</td><td>A feeling/chance that something good may happen.</td></tr>
+<tr><td>4. We are hoping against hope that the judges would not notice our mistakes.</td><td>Wanting something to happen and thinking it quite possible / hoped for despite difficulty.</td></tr>
+<tr><td>5. I called early in the hope of speaking to her...</td><td>Wanting something to happen.</td></tr>
+<tr><td>6. Just when everybody had given up hope...</td><td>Stopped believing that the good thing would happen.</td></tr>
+</table>
+<div class="small">The exercise asks learners to match each sentence with the appropriate sense of “hope”; wording above follows the meanings supplied with the exercise.</div>
+{odia("ଏଠାରେ “hope” ର meaning sentence ଅନୁସାରେ ବଦଳିଥାଏ। “give up hope” = ଆଶା ଛାଡ଼ିଦେବା। “in the hope of” = କିଛି ଘଟିବ ବୋଲି ଆଶା କରି।")}''', 24))
+
+slides.append(slide("24. Verb and Noun — Same Word, Different Use", 
+'''<div class="en"><b>Activity:</b> Read the story, make a list of words used as verbs and nouns, and frame your own sentences using them in both roles.</div>
+<div class="grid3">
+<div class="card"><b>hope</b><p>Verb: I hope it passes.<br>Noun: a single hope.</p></div>
+<div class="card"><b>work</b><p>Verb: working in the field.<br>Noun: all our work.</p></div>
+<div class="card"><b>rain</b><p>Verb/context: it rained.<br>Noun: the rain.</p></div>
+</div>
+{odia("ଏହି activity ର ଉଦ୍ଦେଶ୍ୟ ହେଉଛି same word ଭିନ୍ନ grammatical role ରେ ବ୍ୟବହାର କରିବା। Story ର words ଦେଖି verb ଓ noun ଭାବେ sentence ତିଆରି କରନ୍ତୁ।")}''', 25))
+
+# Listen speak
+slides.append(slide("25. Let’s Listen and Speak — Father & Son", 
+'''<div class="grid">
+<div class="card"><h3>Situation</h3><p>It is late at night and the son has a final examination tomorrow.</p></div>
+<div class="card"><h3>Key idea</h3><p>The father tells the son to go to bed and stresses the importance of clear concepts and reading books.</p></div>
+</div>
+<div class="dialogue"><p><b>Dad:</b> It’s quite late. Go to bed.</p><p><b>Son:</b> I’ve got the final examination tomorrow.</p><p><b>Dad:</b> It’s almost 12.30 in the night. No more argument. Off to bed.</p><p><b>Son:</b> I have a lot to learn yet.</p><p><b>Dad:</b> It’s essential to get your concepts clear.</p><p><b>Son:</b> But I need to make sure that I know everything that’s required.</p><p><b>Dad:</b> Isn’t it necessary to read the books to get the concepts clear?</p><p><b>Son:</b> All right, father.</p></div>
+{odia("ଏହା pair-work speaking activity। Father ଓ son ର role-play କରିବାକୁ କୁହାଯାଇଛି। ପରେ ଦିଆଯାଇଥିବା pattern ଭଳି ନିଜ dialogue ପ୍ରସ୍ତୁତ କରି role play କରନ୍ତୁ।")}''', 26))
+
+# Relative clauses
+slides.append(slide("26. Grammar — Relative Clauses", 
+'''<div class="quote">“Throughout the morning Lencho — who knew his fields intimately — looked at the sky.”</div>
+<div class="en"><b>Relative Clause:</b> A part of a sentence that provides more information about a person or thing. It begins with a relative pronoun.</div>
+<div class="grid3">
+<div class="card"><b>who</b><p>used in the example for a person</p></div>
+<div class="card"><b>whom</b><p>common relative pronoun</p></div>
+<div class="card"><b>which / that / whose</b><p>other common relative pronouns named in the lesson</p></div>
+</div>
+{odia("Relative clause ମୁଖ୍ୟ noun/person ବିଷୟରେ extra information ଦିଏ। Example ରେ “who knew his fields intimately” Lencho ବିଷୟରେ ଅଧିକ information ଦେଉଛି।")}''', 27))
+
+slides.append(slide("27. Non-defining Relative Clause", 
+'''<div class="en"><b>Non-defining relative clause:</b> We already know the identity of the person or thing, so the clause is additional information.</div>
+<div class="grid">
+<div class="card"><h3>Punctuation</h3><p>Usually a comma comes before and after it.</p></div>
+<div class="card"><h3>Alternative</h3><p>Some writers use a dash, as in the story.</p></div>
+</div>
+<div class="quote">Lencho, who knew his fields intimately, looked at the sky.</div>
+{odia("Person କିମ୍ବା thing କିଏ/କ’ଣ ତାହା already clear ଥିଲେ additional information ପାଇଁ non-defining relative clause ବ୍ୟବହାର ହୁଏ। ସାଧାରଣତଃ comma ଦ୍ୱାରା clause କୁ ଅଲଗା କରାଯାଏ।")}''', 28))
+
+slides.append(slide("28. Relative Pronouns — Join the Sentences", 
+'''<div class="q"><b>i.</b> My mother is going to host a T.V. show on cooking. She cooks very well.<div class="answer">My mother, <b>who cooks very well</b>, is going to host a T.V. show on cooking.</div></div>
+<div class="q"><b>ii.</b> Our institution is highly popular. It works for public welfare.<div class="answer">Our institution, <b>which works for public welfare</b>, is highly popular.</div></div>
+<div class="q"><b>iii.</b> Satish scored a goal in the last minute. He was fortunate.<div class="answer">Satish, <b>who scored a goal in the last minute</b>, was fortunate.</div></div>
+<div class="q"><b>iv.</b> Mother Teresa is revered as a saint. She served mankind.<div class="answer">Mother Teresa, <b>who served mankind</b>, is revered as a saint.</div></div>
+{odia("ପ୍ରଥମ sentence ର noun/person identify କରନ୍ତୁ। ଦ୍ୱିତୀୟ sentence ର extra information କୁ who/which ଦ୍ୱାରା join କରନ୍ତୁ।")}''', 29))
+
+slides.append(slide("29. Relative Pronouns — Join the Remaining Sentences", 
+'''<div class="q"><b>v.</b> I often go to Mumbai. Mumbai is the commercial capital of India.<div class="answer">I often go to Mumbai, <b>which is the commercial capital of India.</b></div></div>
+<div class="q"><b>vi.</b> These sports-persons are going to meet the President. Their performance has been excellent.<div class="answer">These sports-persons, <b>whose performance has been excellent</b>, are going to meet the President.</div></div>
+<div class="exam"><b>📌 Remember:</b> <b>who</b> → person; <b>which</b> → thing/place in these examples; <b>whose</b> → possession/relationship.</div>
+{odia("Relative pronoun ବାଛିବାବେଳେ antecedent କୁ ଦେଖନ୍ତୁ। Person ପାଇଁ who, possession ପାଇଁ whose, thing/place ପାଇଁ which ଏଠାରେ ବ୍ୟବହାର ହୋଇଛି।")}''', 30))
+
+slides.append(slide("30. Hidden Relative Pronoun", 
+'''<div class="quote">“The house — the only one in the entire valley — sat on the crest of a low hill.”</div>
+<div class="en">It can be rewritten as: <b>The house — which was the only one in the entire valley — sat on the crest of a low hill.</b></div>
+<div class="grid"><div class="card"><b>Original</b><p>The relative pronoun “which” and the verb “was” are hidden.</p></div>
+<div class="card"><b>Expanded</b><p>which + was are shown explicitly.</p></div></div>
+{odia("Original sentence ରେ relative pronoun “which” ଓ verb “was” ଲୁଚିଥାଏ। Full form କଲେ “which was the only one…” ହୁଏ। Meaning ବଦଳେ ନାହିଁ।")}''', 31))
+
+# Negatives
+slides.append(slide("31. Grammar — Using Negatives for Emphasis", 
+'''<div class="grid3">
+<div class="card"><b>no</b><p>“We will have <b>no</b> corn.”</p></div>
+<div class="card"><b>nothing</b><p>“The hail has left <b>nothing</b>.”</p></div>
+<div class="card"><b>aren’t</b><p>“These <b>aren’t</b> raindrops...”</p></div>
+</div>
+<div class="en">Negative words can show absence or contradiction. Sometimes they are used emphatically to strengthen an idea.</div>
+{odia("No, not, nothing ସାଧାରଣତଃ absence/contradiction ଦେଖାଏ। କିନ୍ତୁ story ର କେତେକ sentence ରେ negative word ଦ୍ୱାରା idea କୁ ଅଧିକ strongly emphasize କରାଯାଇଛି।")}''', 32))
+
+slides.append(slide("32. Negative Emphasis — Examples from the Story", 
+'''<div class="q">“Lencho ... had done <b>nothing else but</b> see the sky...”<div class="answer">Meaning: He had done only this.</div></div>
+<div class="q">“The man went out for <b>no other reason than</b> to have the pleasure of feeling the rain...”<div class="answer">Meaning: This was his only reason.</div></div>
+<div class="q">“Lencho showed <b>not the slightest surprise</b>...”<div class="answer">Meaning: He showed no surprise at all.</div></div>
+{odia("ଏଠାରେ negative words sentence କୁ weak କରୁନାହିଁ; opposite ଭାବେ emphasis ବଢ଼ାଉଛି। “nothing else but” = only; “no other reason than” = only reason; “not the slightest” = no...at all.")}''', 33))
+
+slides.append(slide("33. Negative Emphasis — Complete Exercise", 
+'''<div class="q"><b>1.</b> The trees lost all their leaves.<div class="answer">“Not a leaf remained on the trees.”</div></div>
+<div class="q"><b>2.</b> The letter was addressed to God himself.<div class="answer">“It was nothing less than a letter to God.”</div></div>
+<div class="q"><b>3.</b> The postman saw this address for the first time in his life.<div class="answer">“Never in his career as a postman had he known that address.”</div></div>
+<div class="exam"><b>⚠️ Common Mistake:</b> Do not change the meaning while rewriting for emphasis. Keep the negative expression connected to the original idea.</div>
+{odia("ଏହି exercise ରେ simple positive idea କୁ story ର negative-emphasis sentence ଦ୍ୱାରା express କରିବାକୁ ହୁଏ। Exact story wording ମନେ ରଖିଲେ marks ପାଇବା ସହଜ।")}''', 34))
+
+# Writing
+slides.append(slide("34. Let’s Write — Newspaper Report", 
+'''<div class="card"><h3>Model report structure shown in the lesson</h3>
+<p><b>Title</b> → headline of the event<br>
+<b>Source</b> → newspaper name<br>
+<b>Place & date</b> → where and when<br>
+<b>Topic sentence / Introduction</b> → main event<br>
+<b>Details</b> → important developments<br>
+<b>Further details</b> → problems, response and authorities’ action</p></div>
+<div class="odia"><div class="odia-title">ଓଡ଼ିଆରେ</div>
+Newspaper report ଲେଖିବାରେ title, source, place/date, introduction, event details ଓ authorities’ action ଭଳି information କ୍ରମରେ ରଖାଯାଏ। Lesson ରେ Rath Yatra report ଦ୍ୱାରା ଏହି structure ଦେଖାଯାଇଛି।
+</div>''', 35))
+
+slides.append(slide("35. Report Writing — What the Exercise Asks", 
+'''<div class="en"><b>Task:</b> Imagine that you are a reporter of “The Indian Express”. You have received news about the recent cyclone that hit Odisha. Using the report guidelines, complete a similar newspaper report.</div>
+<div class="grid">
+<div class="card"><h3>Use these fields</h3><p>Title • Source • Place & date • Topic sentence • Details • Further details • Authorities’ action</p></div>
+<div class="card"><h3>Accuracy rule</h3><p>Do not invent cyclone facts. Fill the report with the actual details supplied by your teacher/current task context.</p></div>
+</div>
+{odia("ଏହି exercise ରେ Odisha ର recent cyclone ଉପରେ report ଲେଖିବାକୁ କୁହାଯାଇଛି। ଏଠାରେ specific cyclone details ଦିଆଯାଇନାହିଁ, ତେଣୁ ତଥ୍ୟ ନିଜେ ଘଢ଼ାଇବା ଠିକ୍ ନୁହେଁ। Teacher ଦେଇଥିବା current facts ଆଧାରରେ report complete କରନ୍ତୁ।")}''', 36))
+
+# revision
+slides.append(slide("36. Character Map — Lencho & Postmaster", 
+'''<div class="grid">
+<div class="card"><h3>Lencho</h3><ul><li>Farmer</li><li>Hardworking</li><li>Deep faith in God</li><li>Strong confidence</li><li>Does not doubt God</li><li>Misunderstands the helpers</li></ul></div>
+<div class="card"><h3>Postmaster</h3><ul><li>Fat, amiable fellow</li><li>Admired Lencho's faith</li><li>Firm resolution</li><li>Collected money</li><li>Gave part of his salary</li><li>Performed an act of charity</li></ul></div>
+</div>
+{odia("Lencho ଙ୍କ strongest quality ହେଉଛି God ଉପରେ ଅଟୁଟ faith। Postmaster ଙ୍କ strongest quality ହେଉଛି human kindness—ସେ Lencho ଙ୍କ faith କୁ ରକ୍ଷା କରିବା ପାଇଁ money collect କଲେ।")}''', 37))
+
+slides.append(slide("37. Themes & Key Ideas", 
+'''<div class="grid3">
+<div class="card"><h3>Faith</h3><p>Lencho has complete faith in God.</p></div>
+<div class="card"><h3>Hope</h3><p>Hope remains even after the crop is destroyed.</p></div>
+<div class="card"><h3>Human kindness</h3><p>The postmaster and others help Lencho.</p></div>
+<div class="card"><h3>Nature</h3><p>Rain changes from blessing to destructive hail.</p></div>
+<div class="card"><h3>Irony</h3><p>The people who help Lencho are called crooks by him.</p></div>
+<div class="card"><h3>Misunderstanding</h3><p>Lencho interprets the missing money through his faith.</p></div>
+</div>
+{odia("Story ର major ideas: faith, hope, human kindness, nature ର unpredictable effect, irony ଓ misunderstanding। Exam answer ରେ theme କୁ story event ସହ connect କରନ୍ତୁ।")}''', 38))
+
+slides.append(slide("38. 15-Point Final Revision", 
+'''<ol>
+<li>Lencho is a farmer living in a solitary house in a valley.</li>
+<li>His ripe cornfield needs rain.</li>
+<li>He watches the north-east sky.</li>
+<li>Rain begins and he compares drops with coins.</li>
+<li>A strong wind and hailstones follow.</li>
+<li>The hail destroys the corn and flowers.</li>
+<li>Lencho and his family fear hunger.</li>
+<li>Their single hope is help from God.</li>
+<li>Lencho writes to God asking for 100 pesos.</li>
+<li>The postmaster reads the letter and admires Lencho's faith.</li>
+<li>The postmaster and others collect money.</li>
+<li>They send Lencho a little more than half of the requested amount.</li>
+<li>Lencho is not surprised but becomes angry when he counts the money.</li>
+<li>He believes the missing money was taken by post office employees.</li>
+<li>The second letter creates the story's ironic ending.</li>
+</ol>''', 39))
+
+slides.append(slide("39. Important Vocabulary — Quick Test", 
+'''<div class="grid3">
+<div class="q"><b>crest</b><div class="answer">top of a hill</div></div>
+<div class="q"><b>locusts</b><div class="answer">crop-destroying insects</div></div>
+<div class="q"><b>solitary</b><div class="answer">lonely / single</div></div>
+<div class="q"><b>amiable</b><div class="answer">friendly and pleasant</div></div>
+<div class="q"><b>resolution</b><div class="answer">firm decision</div></div>
+<div class="q"><b>contentment</b><div class="answer">satisfaction</div></div>
+<div class="q"><b>correspondence</b><div class="answer">writing letters</div></div>
+<div class="q"><b>crooks</b><div class="answer">dishonest persons</div></div>
+<div class="q"><b>conscience</b><div class="answer">inner sense of right and wrong</div></div>
+</div>
+{odia("Exam ପାଇଁ word ର spelling + simple meaning + ଓଡ଼ିଆ meaning—ତିନୋଟି ଭାବେ revise କରନ୍ତୁ।")}''', 40))
+
+slides.append(slide("40. Final MCQ Quiz", 
+'''<div class="q"><b>1.</b> Lencho was a: A) postman B) farmer C) postmaster</div>
+<div class="q"><b>2.</b> Lencho hoped for: A) snow B) rain C) wind</div>
+<div class="q"><b>3.</b> He compared raindrops with: A) flowers B) coins C) pearls</div>
+<div class="q"><b>4.</b> What destroyed the crop? A) hailstorm B) drought C) locusts</div>
+<div class="q"><b>5.</b> Lencho asked God for: A) 50 pesos B) 70 pesos C) 100 pesos</div>
+<div class="q"><b>6.</b> Who collected money for Lencho? A) postmaster B) Lencho's sons C) farmer</div>
+<div class="q"><b>7.</b> How much reached Lencho? A) 70 pesos B) 100 pesos C) 50 pesos</div>
+<div class="q"><b>8.</b> Lencho called the post office employees: A) friends B) crooks C) farmers</div>
+<div class="q"><b>9.</b> “who” in the grammar section introduces a: A) relative clause B) question C) command</div>
+<div class="q"><b>10.</b> “Not a leaf remained” is an example of: A) comparison B) negative emphasis C) imperative</div>''', 41))
+
+slides.append(slide("41. MCQ Answer Key + Fill in the Blanks", 
+'''<div class="exam"><b>MCQ Key:</b> 1-B, 2-B, 3-B, 4-A, 5-C, 6-A, 7-A, 8-B, 9-A, 10-B</div>
+<div class="grid">
+<div>
+<div class="q">1. Lencho had complete ________ in God.</div>
+<div class="q">2. The field was white as if covered with ________.</div>
+<div class="q">3. Lencho asked for a hundred ________.</div>
+<div class="q">4. The postmaster called Lencho's faith ________.</div>
+<div class="q">5. Only ________ pesos reached Lencho.</div>
+</div>
+<div>
+<div class="answer">1. faith</div>
+<div class="answer">2. salt</div>
+<div class="answer">3. pesos</div>
+<div class="answer">4. faith / strong faith</div>
+<div class="answer">5. seventy</div>
+</div>
+</div>
+{odia("Fill in the blanks ରେ story ର exact key words ମନେ ରଖନ୍ତୁ: faith, salt, pesos, faith, seventy।")}''', 42))
+
+slides.append(slide("42. True / False + Exam Points", 
+'''<div class="grid">
+<div>
+<div class="q">1. Lencho had no faith in God.<div class="answer">False</div></div>
+<div class="q">2. The hail destroyed the corn.<div class="answer">True</div></div>
+<div class="q">3. The postmaster ignored the letter.<div class="answer">False</div></div>
+<div class="q">4. Lencho was surprised to receive money.<div class="answer">False</div></div>
+<div class="q">5. Lencho thanked the post office employees.<div class="answer">False</div></div>
+</div>
+<div>
+<h3>🎯 Most Important Questions</h3>
+<p>• Why did Lencho write to God?</p>
+<p>• Why did the postmaster help Lencho?</p>
+<p>• Why was Lencho angry after receiving the money?</p>
+<p>• Explain the irony in the ending.</p>
+<p>• Explain non-defining relative clauses with an example.</p>
+<p>• Explain negative words used for emphasis.</p>
+</div>
+</div>''', 43))
+
+slides.append(slide("43. Complete Coverage Check", 
+'''<div class="check">
+<div>✓ Lead-in</div><div>✓ Entire story</div>
+<div>✓ About the Author</div><div>✓ Complete Notes & Glossary</div>
+<div>✓ Let’s Understand the Text Q1–Q11</div><div>✓ Read Between the Lines Q1–Q6</div>
+<div>✓ Passage questions</div><div>✓ Storm vocabulary exercise</div>
+<div>✓ “Hope” verb/noun activity</div><div>✓ Hope matching activity</div>
+<div>✓ Verb/noun activity</div><div>✓ Listen and Speak</div>
+<div>✓ Relative Clauses</div><div>✓ All 6 relative-clause sentence pairs</div>
+<div>✓ Hidden relative pronoun</div><div>✓ Negatives for emphasis</div>
+<div>✓ All 3 negative-emphasis items</div>
+<div>✓ Newspaper report structure</div><div>✓ Final cyclone-report task</div>
+</div>
+{odia("ଶେଷରେ ମନେ ରଖନ୍ତୁ: story ପରେ vocabulary, speaking, grammar ଓ writing—ସବୁ section ପାଠର ଅଂଶ। କେବଳ story ପଢ଼ିଲେ complete preparation ହୁଏ ନାହିଁ।")}''', 44))
+
+slides.append(slide("44. Final Teacher Revision — 60 Seconds", 
+'''<div class="flow">
+<div class="node">Lencho</div><div class="arrow">→</div>
+<div class="node">Rain = Hope</div><div class="arrow">→</div>
+<div class="node">Hail = Loss</div><div class="arrow">→</div>
+<div class="node">God = Faith</div><div class="arrow">→</div>
+<div class="node">Postmaster = Charity</div><div class="arrow">→</div>
+<div class="node">70 Pesos</div><div class="arrow">→</div>
+<div class="node">Crooks?</div><div class="arrow">→</div>
+<div class="node">Irony</div>
+</div>
+<div class="quote">Faith remains strong, but human help is misunderstood.</div>
+{odia("ଏକ line ରେ: Lencho ଙ୍କ crop hailstorm ରେ ନଷ୍ଟ ହେଲା, ସେ God ଙ୍କୁ letter ଲେଖିଲେ, postmaster human kindness ଦେଖାଇ money ପଠାଇଲେ, କିନ୍ତୁ Lencho ଅବଶିଷ୍ଟ money ପାଇଁ ପୁଣି God ଙ୍କୁ ଲେଖିଲେ ଏବଂ post office employees କୁ crooks ଭାବିଲେ।")}
+<p class="goal"><b>Final exam memory:</b> <i>Faith → Hope → Hailstorm → Letter → Charity → 70 pesos → Misunderstanding → Irony.</i></p>''', 45))
+
+css = r'''
+:root{--ink:#17394d;--muted:#647782;--bg:#e9eff1;--paper:#fbfaf5;--card:#fff;--accent:#166b73;--gold:#b57919;--line:#d5e0e4;--soft:#edf8f7;--odia:#fff7e5;--odiaLine:#dfbf68;--exam:#eef7ff;--warn:#fff0ec}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans",Arial,sans-serif;line-height:1.52}.deck{max-width:1120px;margin:auto;padding:20px}.slide{background:var(--paper);min-height:650px;margin:0 0 22px;padding:36px;border:1px solid #d4dfe2;border-radius:23px;box-shadow:0 8px 25px rgba(20,50,65,.09);position:relative;overflow:hidden}.cover{background:linear-gradient(135deg,#edf9f7,#fff8e8)}.kicker{text-transform:uppercase;letter-spacing:.1em;font-size:12px;font-weight:900;color:var(--accent)}h1{font-size:54px;line-height:1.02;margin:13px 0;color:#11384d}h2{font-size:31px;line-height:1.12;margin:0 0 18px}h3{margin:5px 0 6px}p{margin:6px 0}.author{font-size:21px;font-weight:800}.goal{font-size:17px;margin-top:20px}.small{font-size:13px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.card,.q{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:14px}.odia{background:var(--odia);border:1px solid var(--odiaLine);border-radius:16px;padding:15px 17px;margin:14px 0}.odia-title{font-weight:900;color:#8a5a00;margin-bottom:5px}.en{background:var(--soft);border-left:5px solid var(--accent);padding:13px 16px;border-radius:10px;margin:12px 0}.exam{background:var(--exam);border-left:6px solid var(--accent);padding:12px 15px;border-radius:10px;margin:13px 0}.important{background:#fff8e8;border-left-color:var(--gold)}.warn{background:var(--warn);border-left-color:#c5503b}.quote{font-size:20px;font-weight:750;background:#fff9eb;border-left:5px solid var(--gold);padding:13px 17px;border-radius:10px;margin:14px 0}.flow{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;margin:19px 0}.node{background:#fff;border:2px solid #9ec8ca;border-radius:14px;padding:11px 14px;text-align:center;font-weight:850;min-width:125px}.arrow{font-size:22px;color:var(--accent);font-weight:900}.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.t{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px}.t strong{display:block;color:var(--accent);font-size:17px}table{width:100%;border-collapse:collapse;background:#fff}th,td{border:1px solid var(--line);padding:9px 10px;vertical-align:top}th{background:#eaf4f4;text-align:left}.q{margin:9px 0}.answer{background:#f1f6f7;border-radius:9px;padding:8px 10px;margin-top:6px}.dialogue{background:#fff;border:1px solid var(--line);border-radius:16px;padding:15px}.check{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.check div{background:#fff;border:1px solid var(--line);border-radius:11px;padding:11px}.footer{position:absolute;right:22px;bottom:13px;color:#8b999f;font-size:11px}ul{margin-top:6px}@media(max-width:760px){.deck{padding:7px}.slide{padding:22px;min-height:auto;border-radius:17px}h1{font-size:38px}h2{font-size:26px}.grid,.grid3,.timeline,.check{grid-template-columns:1fr}.flow{display:block}.node{margin:7px auto}.arrow{display:block;text-align:center;transform:rotate(90deg)}table{font-size:12px}}
+'''
+full = f'''<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>A Letter to God — Odisha Class 10 Visual Lecture</title><style>{css}</style></head><body><div class="deck">{''.join(slides)}</div></body></html>'''
+out.write_text(full, encoding="utf-8")
+print(f"Created: {out}")
+print(f"Slides: {len(slides)}")
+print(f"Size: {out.stat().st_size/1024:.1f} KB")
+print("Odia explanation blocks:", full.count('ଓଡ଼ିଆରେ'))
+print("Final writing task included:", "recent cyclone that hit Odisha" in full)
