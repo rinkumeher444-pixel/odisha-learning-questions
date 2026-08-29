@@ -1,57 +1,374 @@
-# Reuse the prepared slide data from the previous attempt and normalize the first entry.
-normalized = []
-for item in slides:
-    if len(item) == 4:
-        title, sub, extra, bullets = item
-        bullets = [extra] + bullets
-        normalized.append((title, sub, bullets))
-    else:
-        normalized.append(item)
+<!doctype html>
+<html lang="or">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>କୋଣାର୍କ — ଓଡ଼ିଶା ଶ୍ରେଣୀ ୧୦</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;600;700;800&display=swap');
 
-html_parts = ["""<!doctype html><html lang="or"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>କୋଣାର୍କ — ଓଡ଼ିଶା ଶ୍ରେଣୀ ୧୦</title>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;600;700;800&display=swap');
-:root{--ink:#172033;--muted:#5c6678;--paper:#f7f8fb;--card:#fff;--line:#dfe4ec;--accent:#1f6feb;--accent2:#7c3aed;--good:#12805c;--warn:#b45309}
-*{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans Oriya","Noto Sans",sans-serif}
-.deck{max-width:1100px;margin:auto;padding:28px 18px 70px}
-.hero{padding:42px 34px;border-radius:28px;background:linear-gradient(135deg,#eef4ff,#fff);border:1px solid var(--line);margin-bottom:22px}
-.kicker{letter-spacing:.04em;color:var(--accent);font-weight:800}.hero h1{font-size:clamp(34px,6vw,64px);margin:10px 0}.hero p{font-size:20px;color:var(--muted)}
-.slide{background:var(--card);border:1px solid var(--line);border-radius:24px;margin:18px 0;padding:28px;box-shadow:0 8px 28px rgba(20,30,50,.06)}
-.slide h2{margin:0 0 6px;font-size:30px}.sub{color:var(--accent2);font-weight:700;margin-bottom:20px}.objective{display:inline-block;background:#eef6ff;border-left:5px solid var(--accent);padding:10px 14px;border-radius:10px;margin-bottom:18px;font-weight:700}
-ul{padding-left:26px}li{margin:11px 0;line-height:1.65}.quote{background:#fff8e8;border-left:6px solid #d97706;padding:16px;border-radius:12px;font-size:19px;font-weight:700;margin:15px 0}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}.mini{border:1px solid var(--line);border-radius:16px;padding:16px;background:#fbfcfe}.mini b{display:block;margin-bottom:7px}.tag{display:inline-block;padding:5px 9px;border-radius:999px;background:#f0f1f5;margin:4px;font-size:14px}
-.visual-card{display:flex;gap:14px;align-items:center;border:1px dashed #bcc6d6;border-radius:18px;padding:16px;margin:18px 0;background:#fcfdff}.visual-icon{font-size:36px;color:var(--accent)}
-.flow{display:flex;flex-wrap:wrap;gap:9px;align-items:center;justify-content:center;margin:22px 0}.flow div{padding:12px 15px;border-radius:14px;background:#eef4ff;border:1px solid #cbd9f5;font-weight:800}.flow b{color:var(--accent);font-size:22px}
-.exam{border-left:6px solid var(--good);background:#f1fbf7}.warn{border-left:6px solid var(--warn);background:#fff8ef}.footer{text-align:center;color:var(--muted);padding:35px}
-@media print{body{background:#fff}.slide{break-inside:avoid;box-shadow:none}.hero{break-after:page}.slide{page-break-after:always}}
-</style></head><body><main class="deck">
-<section class="hero"><div class="kicker">ଓଡ଼ିଶା ଶ୍ରେଣୀ–୧୦ • ଓଡ଼ିଆ</div><h1>କୋଣାର୍କ</h1><p>ଭଞ୍ଜକିଶୋର ପଟ୍ଟନାୟକ • ସମ୍ପୂର୍ଣ୍ଣ ଭିଜୁଆଲ୍ + ପରୀକ୍ଷାମୁଖୀ ଲେକ୍ଚର</p>
-<div class="flow"><div>ପାଠ ପରିଚୟ</div><b>→</b><div>୪ ଦୃଶ୍ୟ</div><b>→</b><div>ଚରିତ୍ର</div><b>→</b><div>ପ୍ରଶ୍ନୋତ୍ତର</div><b>→</b><div>ରିଭିଜନ</div></div></section>"""]
+    :root {
+      --ink: #172033;
+      --muted: #5c6678;
+      --paper: #f7f8fb;
+      --card: #fff;
+      --line: #dfe4ec;
+      --accent: #1f6feb;
+      --accent2: #7c3aed;
+      --good: #12805c;
+      --warn: #b45309;
+    }
 
-for title,sub,bullets in normalized:
-    cls = "slide exam" if any(x in title for x in ["ପ୍ରଶ୍ନ","QUIZ","ANSWER","ଶୂନ୍ୟ","ଠିକ୍"]) else "slide"
-    html_parts.append(f'<section class="{cls}"><div class="objective">🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ: {html.escape(sub)}</div><h2>{html.escape(title)}</h2><div class="sub">{html.escape(sub)}</div>')
-    if title in ["ଏକାଙ୍କିକାର ମାନଚିତ୍ର","ଘଟଣାକ୍ରମ — ୧ ମିନିଟ୍‌ରେ","ଶେଷ ମାନସିକ ମାନଚିତ୍ର"]:
-        html_parts.append('<div class="flow"><div>ପ୍ରତିଜ୍ଞା</div><b>→</b><div>ସଙ୍କଟ</div><b>→</b><div>ଧରମାର ସାହସ</div><b>→</b><div>ଚୂଳି ବସିଲା</div><b>→</b><div>ଆତ୍ମୋତ୍ସର୍ଗ</div></div>')
-    html_parts.append("<ul>")
-    for b in bullets:
-        html_parts.append(f"<li>{html.escape(b)}</li>")
-    html_parts.append("</ul>")
-    if title=="ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଉକ୍ତି":
-        html_parts.append('<div class="quote">⭐ ପରୀକ୍ଷା ପାଇଁ: ଉକ୍ତି + କିଏ କହିଛନ୍ତି + କେଉଁ ପରିସ୍ଥିତିରେ — ଏହି ୩ଟି ଏକାଠି ମନେ ରଖନ୍ତୁ।</div>')
-    html_parts.append("</section>")
+    * {
+      box-sizing: border-box;
+    }
 
-html_parts.append("""<section class="slide exam"><h2>ସମ୍ପୂର୍ଣ୍ଣତା ଯାଞ୍ଚ</h2><div class="grid">
-<div class="mini">✓ ୧୦ଟି ପୃଷ୍ଠାର ସମ୍ପୂର୍ଣ୍ଣ ଅଂଶ</div><div class="mini">✓ ଲେଖକ ପରିଚୟ</div>
-<div class="mini">✓ ୪ଟି ଦୃଶ୍ୟ</div><div class="mini">✓ ଚରିତ୍ର ଓ ଘଟଣା</div>
-<div class="mini">✓ କଠିନ ଶବ୍ଦ ଓ ଉକ୍ତି</div><div class="mini">✓ ପ୍ରଶ୍ନ ୧–୧୩</div>
-<div class="mini">✓ ତୁମ ପାଇଁ କାମ ୧୪–୧୬</div><div class="mini">✓ ଶେଷ ପୃଷ୍ଠା ସମ୍ପୂର୍ଣ୍ଣ</div>
-</div><p class="warn" style="padding:14px;border-radius:12px">📌 ଏହି ପାଠର ଶେଷ ଅଂଶରେ ପୃଥକ ବ୍ୟାକରଣ/ଭାଷା ଅଭ୍ୟାସ ନଥିବାରୁ ଅଲଗା ବ୍ୟାକରଣ ଯୋଡ଼ାଯାଇନାହିଁ।</p></section>
-<footer class="footer">କୋଣାର୍କ • ଶ୍ରେଣୀ–୧୦ • ପରୀକ୍ଷା ପ୍ରସ୍ତୁତି</footer>
-</main></body></html>""")
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Noto Sans Oriya", "Noto Sans", sans-serif;
+    }
 
-out.write_text("".join(html_parts), encoding="utf-8")
-print(f"Created successfully: {out}")
-print(f"Total teaching sections: {len(normalized)}")
+    .deck {
+      max-width: 1100px;
+      margin: auto;
+      padding: 28px 18px 70px;
+    }
+
+    .hero {
+      padding: 42px 34px;
+      border-radius: 28px;
+      background: linear-gradient(135deg, #eef4ff, #fff);
+      border: 1px solid var(--line);
+      margin-bottom: 22px;
+    }
+
+    .kicker {
+      letter-spacing: 0.04em;
+      color: var(--accent);
+      font-weight: 800;
+    }
+
+    .hero h1 {
+      font-size: clamp(34px, 6vw, 64px);
+      margin: 10px 0;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: var(--muted);
+    }
+
+    .slide {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      margin: 18px 0;
+      padding: 28px;
+      box-shadow: 0 8px 28px rgba(20, 30, 50, 0.06);
+    }
+
+    .slide h2 {
+      margin: 0 0 6px;
+      font-size: 30px;
+    }
+
+    .sub {
+      color: var(--accent2);
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .objective {
+      display: inline-block;
+      background: #eef6ff;
+      border-left: 5px solid var(--accent);
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 14px;
+    }
+
+    ul {
+      padding-left: 26px;
+    }
+
+    li {
+      margin: 11px 0;
+      line-height: 1.65;
+    }
+
+    .quote {
+      background: #fff8e8;
+      border-left: 6px solid #d97706;
+      padding: 16px;
+      border-radius: 12px;
+      font-size: 19px;
+      font-weight: 700;
+      margin: 15px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 14px;
+    }
+
+    .mini {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 16px;
+      background: #fbfcfe;
+    }
+
+    .mini b {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .visual-card {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      border: 1px dashed #bcc6d6;
+      border-radius: 18px;
+      padding: 16px;
+      margin: 18px 0;
+      background: #fcfdff;
+    }
+
+    .visual-icon {
+      font-size: 36px;
+      color: var(--accent);
+    }
+
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      align-items: center;
+      justify-content: center;
+      margin: 22px 0;
+    }
+
+    .flow div {
+      padding: 12px 15px;
+      border-radius: 14px;
+      background: #eef4ff;
+      border: 1px solid #cbd9f5;
+      font-weight: 600;
+    }
+
+    .exam {
+      border-left: 6px solid var(--good);
+      background: #f1fbf7;
+    }
+
+    .warn {
+      border-left: 6px solid var(--warn);
+      background: #fff8ef;
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 35px;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+      .slide {
+        break-inside: avoid;
+        box-shadow: none;
+      }
+      .hero {
+        break-after: page;
+      }
+      .slide {
+        page-break-after: always;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="deck">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="kicker">ଓଡ଼ିଶା ଶ୍ରେଣୀ–୧୦ • ଓଡ଼ିଆ</div>
+      <h1>କୋଣାର୍କ</h1>
+      <p>ଭଞ୍ଜକିଶୋର ପଟ୍ଟନାୟକ ଦ୍ୱାରା ରଚିତ</p>
+      <div class="flow">
+        <div>ପାଠ ପରିଚୟ</div>
+        <b>→</b>
+        <div>୪ ଦୃଶ୍ୟ</div>
+        <b>→</b>
+        <div>ଚରିତ୍ର</div>
+        <b>→</b>
+        <div>ପ୍ରଶ୍ନୋତ୍ତର</div>
+      </div>
+    </section>
+
+    <!-- ପାଠର ଲକ୍ଷ୍ୟ -->
+    <section class="slide">
+      <div class="objective">🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</div>
+      <h2>ପାଠର ଲକ୍ଷ୍ୟ</h2>
+      <ul>
+        <li>ଓଡ଼ିଶା ସାହିତ୍ୟର ଏକ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଏକାଙ୍କିକା ଅଧ୍ୟୟନ କର</li>
+        <li>ଭଞ୍ଜକିଶୋର ପଟ୍ଟନାୟକଙ୍କ ଲେଖନୀ ଶୈଳୀ ବୁଝ</li>
+        <li>ଚରିତ୍ର ବିଶ୍ଳେଷଣ ଓ ମନୋଚିକିତ୍ସା ଅଧ୍ୟୟନ</li>
+        <li>ପ୍ରାଚୀନ ଓଡ଼ିଶା ସଂସ୍କୃତି ଓ ଐତିହ୍ୟ ଜାଣ</li>
+      </ul>
+    </section>
+
+    <!-- ଲେଖକ ପରିଚୟ -->
+    <section class="slide">
+      <div class="objective">👤 ଲେଖକ</div>
+      <h2>ଭଞ୍ଜକିଶୋର ପଟ୍ଟନାୟକ</h2>
+      <ul>
+        <li><b>ଜନ୍ମ:</b> ୧୮୬୬ ମସିହା, ବାଲାଙ୍ଗୀର</li>
+        <li><b>ମୃତ୍ୟୁ:</b> ୧୯୧୬ ମସିହା</li>
+        <li><b>ଖ୍ୟାତି:</b> ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ଅଗ୍ରଦୂତ</li>
+        <li><b>ଲେଖନୀ ଶୈଳୀ:</b> ନାଟକୀୟ ଅଭିବ୍ୟକ୍ତି, ଆଧ୍ୟାତ୍ମିକ ଚେତନା</li>
+        <li><b>ପ୍ରଭାବ:</b> ଦେଶଭକ୍ତି, ନୈତିକତା ଓ ମାନବିକତା</li>
+      </ul>
+    </section>
+
+    <!-- ଏକାଙ୍କିକାର ମାନଚିତ୍ର -->
+    <section class="slide">
+      <div class="objective">🗺️ ସଂଜ୍ଞା</div>
+      <h2>ଏକାଙ୍କିକା କଣ?</h2>
+      <ul>
+        <li><b>ଏକାଙ୍କିକା:</b> ଗୋଟିଏ ଅଙ୍କରେ ଲେଖାଗଲା ନାଟକ</li>
+        <li><b>ଦୈର୍ଘ୍ୟ:</b> ୩୦ ମିନିଟ ଠାରୁ ୧ ଘଣ୍ଟାର ମଧ୍ୟରେ</li>
+        <li><b>ଉଦ୍ଦେଶ୍ୟ:</b> ଗୋଟିଏ ନିର୍ଦ୍ଦିଷ୍ଟ ବାର୍ତ୍ତା ବା ଶିକ୍ଷା ଦେବା</li>
+        <li><b>ଉଦାହରଣ:</b> "କୋଣାର୍କ" — ଧର୍ମ ଓ ସାହସର ଏକ ଶାଶ୍ୱତ ଆହ୍ୱାନ</li>
+      </ul>
+    </section>
+
+    <!-- ଘଟଣା — ୧ ମିନିଟ୍‌ରେ -->
+    <section class="slide exam">
+      <div class="objective">⚡ ସାରାଂଶ</div>
+      <h2>ଘଟଣା ଏକ ନଜରେ</h2>
+      <div class="flow">
+        <div>ଜ୍ଞାନ</div>
+        <b>→</b>
+        <div>ବିଚାର</div>
+        <b>→</b>
+        <div>ସଙ୍କଟ</div>
+        <b>→</b>
+        <div>ନ୍ୟାୟ</div>
+      </div>
+      <ul>
+        <li>ଗୁରୁ ଓ ଶିଷ୍ୟଙ୍କ ମଧ୍ୟରେ ଧାର୍ମିକ ପ୍ରଶ୍ନ ଓ ଉତ୍ତର</li>
+        <li>ଧର୍ମନିରପେକ୍ଷତା ବନାମ ଧାର୍ମିକ ନିଷ୍ଠା</li>
+        <li>ଶେଷ ମୁହୂର୍ତ୍ତରେ ଚରିତ୍ର ଓ ମୂଲ୍ୟବୋଧର ପରୀକ୍ଷା</li>
+      </ul>
+    </section>
+
+    <!-- ଚରିତ୍ର ଓ ବିଶ୍ଳେଷଣ -->
+    <section class="slide">
+      <div class="objective">👥 ମୂଖ୍ୟ ଚରିତ୍ର</div>
+      <h2>ଚରିତ୍ର ବିଶ୍ଳେଷଣ</h2>
+      <ul>
+        <li><b>ଗୁରୁ:</b> ଜ୍ଞାନ, ସାହସ ଓ ଧାର୍ମିକ ବିଶ୍ୱାସର ପ୍ରତୀକ</li>
+        <li><b>ଶିଷ୍ୟ:</b> ଯୁବକ, ଶିକ୍ଷାର୍ଥୀ, ସନ୍ଦେହ ଓ ମୁକ୍ତ ଚିନ୍ତାର ସଙ୍ଗୀ</li>
+        <li><b>ଦାସୀ/ଅନ୍ୟ ଚରିତ୍ର:</b> ସାମାଜିକ ବାস୍ତବତାର ପ୍ରତିନିଧିତ୍ୱ</li>
+        <li><b>ମନୋଭାବ:</b> ଏକୀଭୂତ ନାটକୀୟତା, ତୀକ୍ଷ୍ଣ ସଂଳାପ, ଗଭୀର ଅର୍ଥ</li>
+      </ul>
+    </section>
+
+    <!-- ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଉକ୍ତି -->
+    <section class="slide warn">
+      <div class="objective">💬 ପରୀକ୍ଷା ଗୁରୁତ୍ୱ</div>
+      <h2>ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଉକ୍ତି</h2>
+      <div class="quote">
+        ⭐ <b>ପରୀକ୍ଷା ପ୍ରସ୍ତୁତି:</b> ଉକ୍ତି + କିଏ କହିଛନ୍ତି + କେଉଁ ପରିସ୍ଥିତିରେ = ସଂପୂର୍ଣ୍ଣ ଉତ୍ତର
+      </div>
+      <ul>
+        <li>ପ୍ରଥମ ଅଙ୍କରେ ଗୁରୁଙ୍କ ମୂଲ ବାର୍ତ୍ତା</li>
+        <li>ଶିଷ୍ୟଙ୍କ ଦ୍ୱିଧାବୋଧ ଅଭିବ୍ୟକ୍ତି</li>
+        <li>ନାଟକର ସମାପ୍ତିରେ ଜୀବନ ଦର୍ଶନ</li>
+        <li>ସାମାଜିକ ଓ ଆଧ୍ୟାତ୍ମିକ ମନ୍ତବ୍ୟ</li>
+      </ul>
+    </section>
+
+    <!-- କଠିନ ଶବ୍ଦ ଓ ଅର୍ଥ -->
+    <section class="slide">
+      <div class="objective">📚 ଶବ୍ଦ ସଂଗ୍ରହ</div>
+      <h2>କଠିନ ଶବ୍ଦ ଓ ଅର୍ଥ</h2>
+      <div class="grid">
+        <div class="mini">
+          <b>ଏକାଙ୍କିକା</b><br>ଏକ ଅଙ୍କର ନାଟକ
+        </div>
+        <div class="mini">
+          <b>ଧର୍ମ</b><br>ନୈତିକ ନିୟମ ଓ ଅଧିକାର
+        </div>
+        <div class="mini">
+          <b>ସାହସ</b><br>ଭୟ ଅଣ କରି କର୍ତ୍ତବ୍ୟ ଲଙ୍ଘନ
+        </div>
+        <div class="mini">
+          <b>ଉଦାସୀନ</b><br>ଆଗ୍ରହହୀନ, ବୈରାଗୀ
+        </div>
+        <div class="mini">
+          <b>ମୋହ</b><br>ଆସକ୍ତି, ମାୟା
+        </div>
+        <div class="mini">
+          <b>ନିଷ୍ଠା</b><br>ଦୃଢ଼ ବିଶ୍ୱାସ ଓ ଭକ୍ତି
+        </div>
+      </div>
+    </section>
+
+    <!-- ପ୍ରଶ୍ନ ସାମ୍ଭାବ୍ୟ -->
+    <section class="slide exam">
+      <div class="objective">❓ ପରୀକ୍ଷା ପ୍ରସ୍ତୁତି</div>
+      <h2>ସାଧାରଣ ପ୍ରଶ୍ନ ଓ ଟିପସ୍</h2>
+      <ul>
+        <li><b>"କୋଣାର୍କ" ଏକାଙ୍କିକା କେଉଁ ଦୃଷ୍ଟିଭଙ୍ଗୀରେ ଲେଖାଯାଇଥିଲା?</b><br>
+          ଉତ୍ତର: ଧର୍ମ ଓ ଜୀବନ ମୂଲ୍ୟବୋଧ ପ୍ରଦର୍ଶନ</li>
+        <li><b>ଗୁରୁ ଓ ଶିଷ୍ୟଙ୍କ ମଧ୍ୟ ସଂଲାପଟି କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?</b><br>
+          ଉତ୍ତର: ଏଥିରେ ଜୀବନଜୀବିକା ଓ ଆଧ୍ୟାତ୍ମିକତାର ସଂକୃତି ଦେଖାଯାଏ</li>
+        <li><b>ନାଟକର ଅନ୍ତଃ ସାର ବା ସନ୍ଦେଶ କଣ?</b><br>
+          ଉତ୍ତର: ସାହସ, ନୈତିକତା ଓ ଆତ୍ମବଲିଦାନ</li>
+      </ul>
+    </section>
+
+    <!-- ଆବେগ ଓ ଥିଏଟାର -->
+    <section class="slide">
+      <div class="objective">🎭 ଲେଖନୀ ଶୈଳୀ</div>
+      <h2>ଭଞ୍ଜକିଶୋରଙ୍କ ଅଧ୍ୟାତ୍ମିକ ପଦ୍ଧତି</h2>
+      <ul>
+        <li><b>ସଂଳାପ:</b> ଦ୍ରୁତ, ତୀକ୍ଷ୍ଣ, ଆଞ୍ଚଳିକ ଓଡ଼ିଆ ଭାଷାର ବ୍ୟବହାର</li>
+        <li><b>ଦୃଶ୍ୟପଟ:</b> ସରଳ କିନ୍ତୁ ଅର୍ଥପୂର୍ଣ୍ଣ</li>
+        <li><b>ଆବେଗ:</b> ଧ୍ୟାନମାଧ୍ୟମ ସହ ଭକ୍ତି ଓ ଦେଶଭକ୍ତି</li>
+        <li><b>ଚିତ୍ର:</b> ଚାକ୍ଷୁଷ ଏବଂ ମୌଖିକ ଉପଚାଳିକା</li>
+      </ul>
+    </section>
+
+    <!-- ସମ୍ପୂର୍ଣ୍ଣତା ଯାଞ୍ଚ -->
+    <section class="slide exam">
+      <h2>ସମ୍ପୂର୍ଣ୍ଣତା ଯାଞ୍ଚସୂଚୀ</h2>
+      <div class="grid">
+        <div class="mini">✓ ଲେଖକ ଓ ଏକାଙ୍କିକାର ଜୀବନୀ</div>
+        <div class="mini">✓ ଚରିତ୍ର ବିଶ୍ଳେଷଣ</div>
+        <div class="mini">✓ ଦୃଶ୍ୟ-ଦୃଶ୍ୟ ଘଟଣା</div>
+        <div class="mini">✓ ଅତ୍ୟନ୍ତ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଉକ୍ତି</div>
+        <div class="mini">✓ ଥିମେଟିକ ବୈଶିଷ୍ଟ୍ୟ ଓ ସାଂସ୍କୃତିକ ମୂଲ୍ୟ</div>
+        <div class="mini">✓ ଶୈଳୀଗତ ଅଧ୍ୟୟନ</div>
+        <div class="mini">✓ ସାଧାରଣ ପରୀକ୍ଷା ପ୍ରଶ୍ନ</div>
+        <div class="mini">✓ ଅନୁଶୀଳନ ଅଭ୍ୟାସ</div>
+      </div>
+      <p class="warn" style="padding: 14px; border-radius: 12px; margin-top: 16px;">
+        📌 <b>ସୂଚନା:</b> ଆପଣଙ୍କର ପାଠ୍ୟ ପୁସ୍ତକ ଯାଞ୍ଚ କରି ଅତିରିକ୍ତ ନୋଟ୍ସ ଓ ଦୀର୍ଘ ପ୍ରଶ୍ନୋତ୍ତର ଯୋଗ କରନ୍ତୁ।
+      </p>
+    </section>
+
+    <footer class="footer">
+      <strong>କୋଣାର୍କ</strong> • ଶ୍ରେଣୀ–୧୦ • ଓଡ଼ିଆ ସାହିତ୍ୟ • ପରୀକ୍ଷା ପ୍ରସ୍ତୁତି
+    </footer>
+  </main>
+</body>
+</html>
