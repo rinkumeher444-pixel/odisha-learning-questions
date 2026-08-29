@@ -1,0 +1,669 @@
+from pathlib import Path
+
+html = r'''<!DOCTYPE html>
+<html lang="or">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="theme-color" content="#102a43">
+<title>ମଙ୍ଗଳେ ଅଇଲା ଉଷା — Class 10 Odisha Lecture</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#eef3f8;color:#17202a;font-family:"Noto Sans Oriya","Nirmala UI","Noto Sans",Arial,sans-serif}
+body{min-height:100vh}
+.deck{max-width:1100px;margin:auto;padding:16px 12px 90px}
+.slide{background:#fff;border:1px solid #d7e1ea;border-radius:22px;margin:18px 0;padding:24px;box-shadow:0 8px 28px rgba(24,55,80,.08);page-break-after:always}
+.hero{background:linear-gradient(135deg,#102a43,#1f5f7a);color:#fff;overflow:hidden}
+.hero h1{font-size:clamp(30px,6vw,58px);margin:8px 0;line-height:1.18}
+.hero p{font-size:18px;line-height:1.7}
+.badge{display:inline-block;padding:7px 12px;border-radius:999px;background:#e8f2f8;color:#174a67;font-weight:700;font-size:13px;margin:4px}
+.hero .badge{background:rgba(255,255,255,.15);color:#fff}
+h2{font-size:clamp(23px,4vw,36px);margin:0 0 12px;color:#12344d}
+h3{font-size:21px;margin:16px 0 8px;color:#245a76}
+p,li{font-size:17px;line-height:1.8}
+ul,ol{padding-left:24px}
+.objective{background:#f1f7fb;border-left:5px solid #3b82a0;padding:10px 14px;border-radius:10px;margin:10px 0 18px;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.card{background:#f8fafc;border:1px solid #dce6ee;border-radius:16px;padding:15px}
+.poem{background:#fbf7ed;border-left:5px solid #c58a22;padding:18px;border-radius:14px;white-space:pre-line;font-size:18px;line-height:2}
+.meaning{background:#f2f8f3;border-left:5px solid #4d8b61;padding:14px;border-radius:12px}
+.exam{background:#fff8e7;border:1px solid #ead59c;border-radius:14px;padding:14px}
+.warn{background:#fff1f1;border-left:5px solid #b34a4a;padding:13px;border-radius:12px}
+.key{background:#eef6ff;border-left:5px solid #2e6da4;padding:13px;border-radius:12px}
+.timeline{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch}
+.step{flex:1;min-width:150px;background:#eef6fb;border:1px solid #cfe0eb;border-radius:15px;padding:14px;text-align:center}
+.arrow{font-size:28px;align-self:center;color:#4d748b}
+.term{display:grid;grid-template-columns:1fr 1.5fr;gap:8px;margin:8px 0}
+.term b{background:#eaf2f7;padding:9px;border-radius:9px}
+.term span{padding:9px;background:#fafafa;border-radius:9px;border:1px solid #e5e5e5}
+.qa{margin:12px 0;border:1px solid #d9e2e9;border-radius:14px;overflow:hidden}
+.q{padding:12px 14px;background:#f5f8fa;font-weight:700}
+.a{padding:12px 14px;line-height:1.8}
+.mcq{display:grid;gap:10px}
+.option{padding:11px;border:1px solid #dce5eb;border-radius:10px}
+.correct{background:#edf8ef;border-color:#a8d5b1;font-weight:700}
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:16px}
+th,td{border:1px solid #d8e1e8;padding:10px;text-align:left;vertical-align:top}
+th{background:#eaf2f7}
+.nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid #d7e1ea;padding:9px 10px;display:flex;gap:8px;align-items:center;justify-content:space-between}
+.nav button{border:0;border-radius:10px;padding:10px 13px;background:#123f5a;color:#fff;font-weight:700}
+.progress{height:6px;background:#dce7ef;border-radius:9px;overflow:hidden;flex:1;margin:0 8px}
+.progress i{display:block;height:100%;width:0;background:#3d86a8}
+.mini{font-size:13px;color:#607786}
+.visual{margin:16px 0;padding:14px;border-radius:18px;background:#f7fafc;border:1px solid #dde7ee}
+svg{max-width:100%;height:auto;display:block;margin:auto}
+@media(max-width:700px){
+ .slide{padding:17px;border-radius:17px}
+ .grid{grid-template-columns:1fr}
+ p,li{font-size:16px}
+ .poem{font-size:16px}
+ .term{grid-template-columns:1fr}
+ .arrow{display:none}
+}
+@media print{
+ .nav{display:none}.slide{box-shadow:none;margin:0 0 12px}
+ body{background:#fff}.deck{max-width:none}
+}
+</style>
+</head>
+<body>
+<div class="nav">
+  <button onclick="prev()">◀ ପୂର୍ବ</button>
+  <div class="progress"><i id="bar"></i></div>
+  <span class="mini" id="count">1</span>
+  <button onclick="next()">ପରବର୍ତ୍ତୀ ▶</button>
+</div>
+
+<main class="deck" id="deck">
+
+<section class="slide hero">
+  <span class="badge">ଓଡ଼ିଶା ଶ୍ରେଣୀ–୧୦</span>
+  <span class="badge">ପଦ୍ୟ</span>
+  <h1>ମଙ୍ଗଳେ ଅଇଲା ଉଷା</h1>
+  <p><b>କବି — ଗଙ୍ଗାଧର ମେହେର (୧୮୬୨–୧୯୨୪)</b></p>
+  <p>ସରଳ ଓଡ଼ିଆରେ ପଦ୍ୟ ବୁଝିବା • ମୁଖ୍ୟ ଭାବ • ଶବ୍ଦାର୍ଥ • ସମ୍ପୂର୍ଣ୍ଣ ପ୍ରଶ୍ନାବଳୀ • ପରୀକ୍ଷା ପୁନରାବୃତ୍ତି</p>
+  <div class="visual">
+    <svg viewBox="0 0 800 220" role="img" aria-label="ପ୍ରଭାତର ଶିକ୍ଷାମୂଳକ ଚିତ୍ର">
+      <rect x="0" y="0" width="800" height="220" rx="20" fill="#e9f3f8"/>
+      <circle cx="650" cy="75" r="48" fill="#f3c66a"/>
+      <path d="M0 175 Q160 125 320 170 T800 160 V220 H0Z" fill="#b9d6c0"/>
+      <path d="M0 190 Q170 155 350 190 T800 180" fill="none" stroke="#6b9db4" stroke-width="8"/>
+      <text x="35" y="55" font-size="30" fill="#174a67">ଉଷା → ଆଲୋକ → ଜାଗରଣ</text>
+      <text x="35" y="100" font-size="22" fill="#365d70">ସୀତାଙ୍କ ଆଗମନ • ଆଶ୍ରମ • ତମସା</text>
+    </svg>
+  </div>
+</section>
+
+<section class="slide">
+<h2>୧. ଆଜିର ଶିକ୍ଷା ଲକ୍ଷ୍ୟ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: କବିତାରେ ଉଷାଙ୍କ ଆଗମନ, ସୀତାଙ୍କ ସହ ସମ୍ପର୍କ, ପ୍ରକୃତିର ମାନବୀକରଣ ଓ ପ୍ରଶ୍ନାବଳୀକୁ ସ୍ପଷ୍ଟ ଭାବେ ବୁଝିବା।</div>
+<div class="grid">
+<div class="card"><b>କବିତା</b><br>ପଦ ୧–୧୦ କ୍ରମକ୍ରମେ ବୁଝିବା।</div>
+<div class="card"><b>ଭାଷା</b><br>ଶବ୍ଦାର୍ଥ, ପ୍ରତିଶବ୍ଦ, ସନ୍ଧି/ସମାସ ଅଭ୍ୟାସ।</div>
+<div class="card"><b>ପରୀକ୍ଷା</b><br>ନିର୍ଦ୍ଦିଷ୍ଟ, କ୍ଷୁଦ୍ର, ସପ୍ରସଙ୍ଗ ଓ ଦୀର୍ଘ ଉତ୍ତର।</div>
+<div class="card"><b>ପୁନରାବୃତ୍ତି</b><br>ଶେଷରେ ମୁଖ୍ୟ ବିନ୍ଦୁ, ଶବ୍ଦ ଓ ତ୍ୱରିତ ଅଭ୍ୟାସ।</div>
+</div>
+</section>
+
+<section class="slide">
+<h2>୨. କବି ପରିଚୟ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ପାଠରେ ଦିଆଯାଇଥିବା କବିଙ୍କ ପରିଚୟକୁ ମନେ ରଖିବା।</div>
+<p>ଗଙ୍ଗାଧର ମେହେର ଆଧୁନିକ ଓଡ଼ିଆ କାବ୍ୟଯୁଗର ଜଣେ ପ୍ରମୁଖ କବି। ସେ ବରଗଡ଼ ଜିଲ୍ଲାର ବରପାଲିରେ ଜନ୍ମିଥିଲେ। ପୁରାତନରେ ନୂତନତା ଆଣିବାରେ ତାଙ୍କ କବି-ଚାତୁରୀ ଅନନ୍ୟ। ସଂସ୍କୃତ ସାହିତ୍ୟର କାବ୍ୟ ଓ ନାଟକ ଆଧାରରେ ମଧ୍ୟ ସେ ଓଡ଼ିଆ କାବ୍ୟ ରଚନା କରିଥିଲେ।</p>
+<p>ପ୍ରକୃତିକୁ ଜୀବନ୍ତ ସତ୍ତାର ରୂପ ଦେଇବା ତାଙ୍କ ଲେଖନୀର ଏକ ବିଶେଷତ୍ୱ। ତାଙ୍କ କାବ୍ୟ-ପ୍ରତିଭାର ସ୍ମାରକ ଭାବେ <b>ତପସ୍ଵିନୀ, ପ୍ରଣୟ ବଲ୍ଲରୀ, କୀଚକ ବଧ, ଇନ୍ଦୁମତୀ, ପଦ୍ମିନୀ, ଅଯୋଧ୍ୟା ଦୃଶ୍ୟ, ଉତ୍କଳ ଲକ୍ଷ୍ମୀ</b> ଆଦିର ନାମ ଦିଆଯାଇଛି।</p>
+<div class="key">📌 <b>ମନେ ରଖ:</b> “ମଙ୍ଗଳେ ଅଇଲା ଉଷା” — <b>ତପସ୍ଵିନୀ</b> କାବ୍ୟର ଚତୁର୍ଥ ସର୍ଗରୁ ସଂଗୃହୀତ କାବ୍ୟାଂଶ।</div>
+</section>
+
+<section class="slide">
+<h2>୩. କବିତାର ପରିପ୍ରେକ୍ଷିତ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: କବିତାରେ କେଉଁ ପରିବେଶ ଓ କେଉଁ ଘଟଣାକୁ କେନ୍ଦ୍ର କରାଯାଇଛି ବୁଝିବା।</div>
+<p>ବାଲ୍ମୀକି ଆଶ୍ରମରେ ନିର୍ବାସିତା ସୀତାଙ୍କୁ ପ୍ରକୃତି ସ୍ୱାଗତ କରୁଛି। ଉଷାକୁ ଜଣେ ମାନବୀୟ ଚରିତ୍ର ପରି ଉପସ୍ଥାପନ କରାଯାଇଛି। ସେ ସୀତାଙ୍କୁ ଦର୍ଶନ ଦେବାକୁ ଡାକୁଛନ୍ତି, ନବ ଜୀବନର ଆଶ୍ୱାସ ଦେଉଛନ୍ତି ଏବଂ ଆଶ୍ରମର ପ୍ରଭାତ ପରିବେଶକୁ ମଙ୍ଗଳମୟ କରୁଛନ୍ତି।</p>
+<div class="timeline">
+<div class="step"><b>ରାତି ଶେଷ</b><br>ଅନ୍ଧକାର କମେ</div><div class="arrow">→</div>
+<div class="step"><b>ଉଷାର ଆଗମନ</b><br>ଆଲୋକର ସୂଚନା</div><div class="arrow">→</div>
+<div class="step"><b>ସୀତାଙ୍କୁ ଡାକ</b><br>“ଦରଶନ ଦିଅ ସତି”</div><div class="arrow">→</div>
+<div class="step"><b>ତମସାର ସ୍ୱାଗତ</b><br>ସ୍ନେହରେ ଆଲିଙ୍ଗନ</div>
+</div>
+</section>
+
+<section class="slide">
+<h2>୪. ପଦ ୧ — ଉଷାର ପ୍ରଥମ ଆଗମନ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ଉଷା କିପରି ଆସି ସୀତାଙ୍କୁ ଡାକୁଛନ୍ତି ତାହା ବୁଝିବା।</div>
+<div class="poem">ମଙ୍ଗଳେ ଅଇଲା ଉଷା ବିକଚ-ରାଜୀବ ଦୃଶା
+ଜାନକୀ-ଦର୍ଶନ-ତୃଷା ହୃଦୟେ ବହି,
+କରପଲ୍ଲବେ ନୀହାର-ମୁକ୍ତାଧରି ଉପହାର
+ସତୀଙ୍କ ବାସ-ବାହାର ପ୍ରାଙ୍ଗଣେ ରହି,
+କଳକଣ୍ଠ କଣ୍ଠେ କହିଲା
+“ଦରଶନ ଦିଅ ସତି, ରାତି ପାହିଲା।”</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ଉଷା ମଙ୍ଗଳମୟ ଭାବରେ ଆସିଛନ୍ତି। ତାଙ୍କ ମନରେ ଜାନକୀଙ୍କୁ ଦେଖିବାର ଆଗ୍ରହ। ହାତରେ ଶିଶିରବିନ୍ଦୁକୁ ମୁକ୍ତା ପରି ଉପହାର ଧରି ସୀତାଙ୍କ ଆଶ୍ରମ ବାହାରେ ରହି କୋଇଲି ପରି ମଧୁର କଣ୍ଠରେ କହୁଛନ୍ତି—ରାତି ପାହିଗଲା, ଦର୍ଶନ ଦିଅ।</div>
+<div class="exam">⭐ <b>ପରୀକ୍ଷା ପାଇଁ:</b> “ଦରଶନ ଦିଅ ସତି, ରାତି ପାହିଲା” — ଉଷା ସୀତାଙ୍କୁ କହିଛନ୍ତି।</div>
+</section>
+
+<section class="slide">
+<h2>୫. ପଦ ୨ — ଉଷାର ରୂପ ଓ ଆଶ୍ୱାସ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ଉଷାଙ୍କ ରୂପ ଓ ତାଙ୍କ ଆଗମନର ଉଦ୍ଦେଶ୍ୟ ବୁଝିବା।</div>
+<div class="poem">ଅରୁଣ କଷାୟ ବାସ, କୁସୁମକାନ୍ତି ବିକାଶ,
+ପ୍ରଶାନ୍ତ ରୂପ, ବିଶ୍ୱାସ ଦିଅନ୍ତି ମନେ,
+କେଉଁ ଯୋଗେଶ୍ୱରୀ ଆସି ମଧୁର ଭାଷେ ଆଶ୍ୱାସି
+ଡାକୁଛନ୍ତି ଦୁଃଖରାଶି-ଉପଶମନେ,
+ଦେବାପାଇଁ ନବ ଜୀବନ
+ସ୍ୱର୍ଗୁ କି ଓହ୍ଲାଇଛନ୍ତି ମର୍ତ୍ତ୍ୟ ଭୁବନ!</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ଉଷା ଲାଲ ରଙ୍ଗର ବସ୍ତ୍ର ପିନ୍ଧି, ଫୁଲ ପରି କାନ୍ତିମୟ ଓ ଶାନ୍ତ ରୂପରେ ଆସିଛନ୍ତି। ତାଙ୍କ ମଧୁର କଥା ମନରେ ବିଶ୍ୱାସ ଜଗାଏ। ଦୁଃଖ କମାଇ ନବ ଜୀବନ ଦେବା ପାଇଁ ସେ ଯେପରି ସ୍ୱର୍ଗରୁ ମର୍ତ୍ତ୍ୟକୁ ଆସିଛନ୍ତି।</div>
+</section>
+
+<section class="slide">
+<h2>୬. ପଦ ୩ — ପ୍ରଭାତର ସଙ୍ଗୀତ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ପ୍ରଭାତରେ ପ୍ରକୃତି କିପରି ଜାଗିଉଠୁଛି ବୁଝିବା।</div>
+<div class="poem">ସମୀର ସଙ୍ଗୀତ ଗାଏ, ଭ୍ରମର ବୀଣା ବଜାଏ,
+ସୁରଭି ନର୍ତ୍ତନେ ଥାଏ ଉଷା ନିର୍ଦେଶେ,
+କୁମ୍ଭାଟୁଆ ହୋଇ ଭାଟ ଆରମ୍ଭିଲା ସ୍ତବ ପାଠ
+କଳିଙ୍ଗ ଅଇଲା ପାଟ ମାଗଧ ବେଶେ,
+ଲଳିତ ମଧୁରେ କହିଲା,
+“ଉଠ ସତୀ ରାଜ୍ୟରାଣୀ, ରାତି ପାହିଲା।”</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ଉଷାଙ୍କ ନିର୍ଦ୍ଦେଶରେ ପବନ ସଙ୍ଗୀତ ଗାଉଛି, ଭ୍ରମର ବୀଣା ବଜାଉଛି, ସୁଗନ୍ଧିତ ପରିବେଶ ନୃତ୍ୟ କରୁଛି। କୁମ୍ଭାଟୁଆ ଭାଟ ହୋଇ ସ୍ତୁତି କରୁଛି ଏବଂ କଳିଙ୍ଗ ପାଟ ମାଗଧ ଭାବରେ ଆସି ସୀତାଙ୍କୁ ଜାଗିବାକୁ କହୁଛି।</div>
+</section>
+
+<section class="slide">
+<h2>୭. ପଦ ୪ — ବେଦସ୍ୱନ ଓ ଆଲୋକ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ଆଶ୍ରମର ପ୍ରଭାତକାଳୀନ ଧ୍ୱନି ଓ ଆଲୋକର ବର୍ଣ୍ଣନା ବୁଝିବା।</div>
+<div class="poem">ମୁନି-ମୁଖ ବେଦ-ସ୍ୱନ ପୂର୍ଣ୍ଣ କଲା ଶ୍ୟାମବନ
+ଉଠିଲା ଭେଦି ଗଗନ ଉଚ୍ଚ ଓଁକାର
+ବୈକୁଣ୍ଠେ ଦେଇ ତୃପତି ଅନନ୍ତ ଶ୍ରୁତିକି ଗତି,
+ବିହିଲା କି ସରସ୍ୱତୀ ବୀଣାଝଙ୍କାର;
+ବେଳୁ ବେଳ ବନ ଉଜ୍ଜ୍ୱଳ,
+ମନ୍ତ୍ର ବଳେ ଯେହ୍ନେ ବଢ଼ି ଆସିଲା ବଳ।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ମୁନିମାନଙ୍କ ମୁଖରୁ ବେଦଧ୍ୱନି ଶ୍ୟାମବନକୁ ପୂର୍ଣ୍ଣ କରିଲା। ଉଚ୍ଚ ଓଁକାର ଆକାଶକୁ ଭେଦି ଉଠିଲା। ସରସ୍ୱତୀଙ୍କ ବୀଣାଝଙ୍କାର ପରି ଧ୍ୱନି ହେଲା ଏବଂ ମନ୍ତ୍ରବଳରେ ଯେପରି ବନର ଉଜ୍ଜ୍ୱଳତା ବଢ଼ିଲା।</div>
+</section>
+
+<section class="slide">
+<h2>୮. ପଦ ୫ — ଅନୁକମ୍ପାଙ୍କ ଆଗମନ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ଅନୁକମ୍ପା କିଏ ଏବଂ ସେ ସୀତାଙ୍କୁ କ’ଣ କହିଥିଲେ ବୁଝିବା।</div>
+<div class="poem">ଏ କାଳେ ବ୍ରହ୍ମଚାରିଣୀ ଅନୁକମ୍ପା ତପସ୍ୱିନୀ
+ଆସି ଜନକନନ୍ଦିନୀ ପାଶେ ଗମ୍ଭୀରେ
+ବୋଇଲେ, “ଉଠ ବୈଦେହି, ଉଷା ସୁକୁମାର ଦେହୀ
+ଆସିଛି, ଦର୍ଶନ ଦେଇ ତୋଷ ବିଧୂରେ,
+ତମସା ରହିଛି ଅନାଇ
+କୋଳ କରି ଥରେ ସୁଖ ଲଭିବା ପାଇଁ।”</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ବ୍ରହ୍ମଚାରିଣୀ ତପସ୍ୱିନୀ ଅନୁକମ୍ପା ସୀତାଙ୍କ ପାଖକୁ ଆସି ତାଙ୍କୁ “ବୈଦେହି” ବୋଲି ଡାକିଲେ। ସେ କହିଲେ ଉଷା ଆସିଛନ୍ତି; ତାଙ୍କୁ ଦର୍ଶନ ଦେଇ ସନ୍ତୁଷ୍ଟ କର। ତମସା ମଧ୍ୟ ତାଙ୍କୁ କୋଳରେ ନେବାକୁ ଅପେକ୍ଷା କରୁଛି।</div>
+</section>
+
+<section class="slide">
+<h2>୯. ପଦ ୬ — ସୀତାଙ୍କ ହୃଦୟରେ ରାମ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ସୀତାଙ୍କ ମନର ଶୋକ ଓ ରାମଙ୍କ ସ୍ମୃତିର ଚିତ୍ରଣ ବୁଝିବା।</div>
+<div class="poem">ପଦ୍ମିନୀ-ହୃଦ-ଶିଶିର-ବିନ୍ଦୁରେ ଖର-ରଶ୍ମିର
+ପ୍ରତିବିମ୍ବ ପରି, ବୀର ରାମ-ମୂରତି
+ଶୋକ ଜର୍ଜରିତ ଚିତ୍ତ-ଫଳକେ କରି ଚିତ୍ରିତ
+ହେଲେ ଆସନୁ ଉତ୍ଥିତ ଜାନକୀ ସତୀ,
+ନମି ଅନୁକମ୍ପା ପୟରେ
+ବନ୍ଦିଲେ ଉଷାର ପଦ ସବିନୟରେ।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ଶିଶିରବିନ୍ଦୁରେ ସୂର୍ଯ୍ୟକିରଣର ପ୍ରତିବିମ୍ବ ପରି ସୀତାଙ୍କ ଶୋକାକୁଳ ହୃଦୟରେ ବୀର ରାମଙ୍କ ମୂର୍ତ୍ତି ଅଙ୍କିତ ଥିଲା। ସୀତା ଉଠି ଅନୁକମ୍ପାଙ୍କ ପାଦରେ ନମସ୍କାର କରି ଉଷାଙ୍କ ପାଦକୁ ସବିନୟରେ ବନ୍ଦନା କଲେ।</div>
+<div class="exam">🎯 <b>ମନେ ରଖ:</b> ସୀତାଙ୍କ ହୃଦୟ ଶୋକ-ଜର୍ଜରିତ; ତାହାରେ ବୀର ରାମଙ୍କ ମୂର୍ତ୍ତି ପ୍ରତିବିମ୍ବିତ।</div>
+</section>
+
+<section class="slide">
+<h2>୧୦. ପଦ ୭ — ସୀତାଙ୍କ ଦ୍ୱାରା ଉଷାର ପ୍ରଶଂସା</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ସୀତା ଉଷାଙ୍କୁ କିପରି ପ୍ରଶଂସା କରିଛନ୍ତି ମନେ ରଖିବା।</div>
+<div class="poem">ବୋଇଲେ ତାକୁ ପ୍ରଶଂସି, “ତୁମେ ତିମିର ବିଧ୍ୱଂସି
+ରବି-ଆଗମନ-ଶଂସୀ ହୁଅ ସଂସାରେ,
+ତୁମ୍ଭ କୋମଳ ଚରଣ କରେ ଜ୍ୟୋତି ଆହରଣ
+ତହିଁ ଯାଉଛି ଶରଣ ଦୃଢ଼ ଆଶାରେ,
+ଶୁଭ୍ର ସଉରଭ ରସିକେ
+ଶୁଭ-ସମ୍ପାଦିନୀ ହୁଅ ରଘୁବଂଶିକେ।”</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ସୀତା ଉଷାଙ୍କୁ ଅନ୍ଧକାର ନାଶକ ଓ ସୂର୍ଯ୍ୟର ଆଗମନର ସୂଚକ ବୋଲି ପ୍ରଶଂସା କରନ୍ତି। ତାଙ୍କ କୋମଳ ଚରଣ ଜ୍ୟୋତି ଆଣେ; ସୀତା ଦୃଢ଼ ଆଶାରେ ସେହି ଜ୍ୟୋତିର ଶରଣ ନେଉଛନ୍ତି।</div>
+</section>
+
+<section class="slide">
+<h2>୧୧. ପଦ ୮ — ତମସାର ଅପେକ୍ଷା</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ତମସା ନଦୀ ସୀତାଙ୍କ ସ୍ୱାଗତ ପାଇଁ କିପରି ପ୍ରସ୍ତୁତ ହୋଇଥିଲା ବୁଝିବା।</div>
+<div class="poem">ଉତ୍ସୁକ ହୃଦୟେ ରାତ୍ରୀ-ଶେଷରେ ଆଶ୍ରମଧାତ୍ରୀ
+ତମସା ନିର୍ମଳ-ଗାତ୍ରୀ ପବିତ୍ର-ଧାରା
+ପ୍ରାଙ୍ଗଣେ କୁସୁମ ବିଞ୍ଚି ସୁବାସିତ ନୀର ସିଞ୍ଚି
+ମଙ୍ଗଳ ପ୍ରଦୀପ ରଚି ପ୍ରଭାତୀ ତାରା,
+ମୁହୂର୍ମୁହୁଃ ମୀନ-ନୟନେ
+ଚାହୁଁଥିଲା ସୀତା-ସତୀ ଶୁଭାଗମନେ।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ତମସା ନଦୀକୁ ଆଶ୍ରମର ମାଆ ପରି ଦେଖାଯାଇଛି। ରାତି ଶେଷରେ ସେ ସୀତାଙ୍କ ଆଗମନ ପାଇଁ ଫୁଲ ବିଞ୍ଚି, ସୁଗନ୍ଧିତ ଜଳ ସିଞ୍ଚି, ପ୍ରଭାତୀ ତାରାକୁ ମଙ୍ଗଳ ପ୍ରଦୀପ ପରି ରଖି ଅପେକ୍ଷା କରୁଥିଲା।</div>
+</section>
+
+<section class="slide">
+<h2>୧୨. ପଦ ୯ — ତମସାର ସ୍ନେହମୟ ସ୍ୱାଗତ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ତମସା ସୀତାଙ୍କୁ କିପରି ସ୍ୱାଗତ କଲା ବୁଝିବା।</div>
+<div class="poem">ଉଟଜୁ ତାପସକନ୍ୟା-ଗଣଙ୍କ ଆଦର-ବନ୍ୟା
+ପ୍ଲାବନେ ଜଗତ-ଧନ୍ୟା-ସତୀ ରତନ
+ବାହାରି ଅବଗାହନେ ଅନୁକମ୍ପାଙ୍କ ଗହଣେ
+ତମସା ଧାର ବହନେ କଲେ ଗମନ;
+ସତୀଙ୍କି ତମସା ଅଙ୍କରେ
+ଘେନି ସ୍ନେହେ ଆଲିଙ୍ଗିଲା ତରଙ୍ଗ-କରେ।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ତାପସକନ୍ୟାମାନଙ୍କ ଆଦର ପାଇ ସୀତା ବାହାରିଲେ। ଅନୁକମ୍ପାଙ୍କ ସହ ତମସାର ଧାର ଦିଗକୁ ଗଲେ। ତମସା ନିଜ ତରଙ୍ଗକୁ ହାତ ପରି କରି ସ୍ନେହରେ ସୀତାଙ୍କୁ ଆଲିଙ୍ଗନ କଲା।</div>
+</section>
+
+<section class="slide">
+<h2>୧୩. ପଦ ୧୦ — ତମସାର ଆନନ୍ଦ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ସୀତାଙ୍କୁ ପାଇ ତମସା ନିଜକୁ ଭାଗ୍ୟବତୀ କାହିଁକି ଭାବିଲା ବୁଝିବା।</div>
+<div class="poem">ଅମୃତ ମଧୁର ସ୍ୱରେ ଭାଷିଲା ପରିତୋଷରେ
+“ମାଆଗୋ, ମୋ ମାନସରେ ନ ଥିଲା ଆଶା,
+କରିବ ଅଙ୍କେ ବିହାର ରାଜଲକ୍ଷ୍ମୀ ହୃଦହାର
+ସୀତା କରି ପରିହାର ଭୋଗ-ପିପାସା,
+ଭାଗ୍ୟବତୀ ମୋତେ ସଂସାରେ
+ବୋଲିବେ ତୋ’ ଯୋଗୁଁ ଏକା ପରଶଂସାରେ।”</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ତମସା ମଧୁର ସ୍ୱରରେ କହିଲା—ସୀତା ପରି ରାଜଲକ୍ଷ୍ମୀ ତାଙ୍କ ଅଙ୍କରେ ବିହାର କରିବେ ବୋଲି ସେ ଆଶା କରିନଥିଲା। ସୀତାଙ୍କୁ ପାଇବାରୁ ସଂସାର ତାଙ୍କୁ ଭାଗ୍ୟବତୀ ବୋଲି ପ୍ରଶଂସା କରିବ।</div>
+</section>
+
+<section class="slide">
+<h2>୧୪. କବିତାର ସମ୍ପୂର୍ଣ୍ଣ ଘଟଣାକ୍ରମ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ୧୦ଟି ପଦର ସମ୍ପର୍କକୁ ଗୋଟିଏ ଦୃଶ୍ୟରେ ମନେ ରଖିବା।</div>
+<div class="timeline">
+<div class="step">୧<br><b>ଉଷା ଆସିଲେ</b></div><div class="arrow">→</div>
+<div class="step">୨<br><b>ଆଶ୍ୱାସ ଦେଲେ</b></div><div class="arrow">→</div>
+<div class="step">୩<br><b>ପ୍ରକୃତି ଗାଇଲା</b></div><div class="arrow">→</div>
+<div class="step">୪<br><b>ବେଦସ୍ୱନ ଶୁଭିଲା</b></div><div class="arrow">→</div>
+<div class="step">୫<br><b>ଅନୁକମ୍ପା ଡାକିଲେ</b></div><div class="arrow">→</div>
+<div class="step">୬<br><b>ସୀତା ଉଠିଲେ</b></div>
+</div>
+<div class="timeline" style="margin-top:12px">
+<div class="step">୭<br><b>ସୀତା ଉଷାଙ୍କୁ ପ୍ରଶଂସିଲେ</b></div><div class="arrow">→</div>
+<div class="step">୮<br><b>ତମସା ଅପେକ୍ଷା କଲା</b></div><div class="arrow">→</div>
+<div class="step">୯<br><b>ତମସା ଆଲିଙ୍ଗନ କଲା</b></div><div class="arrow">→</div>
+<div class="step">୧୦<br><b>ତମସା ଭାଗ୍ୟବତୀ ହେଲା</b></div>
+</div>
+</section>
+
+<section class="slide">
+<h2>୧୫. ମୁଖ୍ୟ ଭାବ ଓ ପ୍ରକୃତିର ଚିତ୍ରଣ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: କବିତାର କେନ୍ଦ୍ରୀୟ ଭାବକୁ ସରଳ ଭାବେ ଧରିବା।</div>
+<div class="grid">
+<div class="card"><b>ଉଷା</b><br>ଆଲୋକ, ଆଶ୍ୱାସ ଓ ନବଜୀବନର ଆଗମନ ସହ ମାନବୀୟ ରୂପରେ ଆସିଛନ୍ତି।</div>
+<div class="card"><b>ସୀତା</b><br>ଶୋକ-ଜର୍ଜରିତ ହେଲେ ମଧ୍ୟ ଉଷାର ଆଲୋକରେ ଆଶା ଦେଖୁଛନ୍ତି।</div>
+<div class="card"><b>ପ୍ରକୃତି</b><br>ସମୀର, ଭ୍ରମର, ସୁରଭି, କୁମ୍ଭାଟୁଆ, କଳିଙ୍ଗ, ତମସା—ସମସ୍ତେ ମାନବ ପରି କାମ କରୁଛନ୍ତି।</div>
+<div class="card"><b>ସ୍ୱାଗତ</b><br>ଫୁଲ, ସୁଗନ୍ଧିତ ଜଳ, ପ୍ରଭାତୀ ତାରା ଓ ତରଙ୍ଗ ଦ୍ୱାରା ତମସା ସୀତାଙ୍କୁ ସ୍ୱାଗତ କରୁଛି।</div>
+</div>
+<div class="key">📌 <b>ପ୍ରକୃତି ଚିତ୍ରଣର ବିଶେଷତ୍ୱ:</b> ପ୍ରକୃତିକୁ କବି ମାନବ ଚରିତ୍ର ପରି ଚିନ୍ତା, ଭାବ ଓ କାର୍ଯ୍ୟ ଦେଇଛନ୍ତି।</div>
+</section>
+
+<section class="slide">
+<h2>୧୬. କଠିନ ଶବ୍ଦ — ସରଳ ଅର୍ଥ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: କବିତାର ମୁଖ୍ୟ ଶବ୍ଦଗୁଡ଼ିକର ସରଳ ଅର୍ଥ ମନେ ରଖିବା।</div>
+<div class="term"><b>ବିକଚ</b><span>ପ୍ରସ୍ଫୁଟିତ, ବିକଶିତ</span></div>
+<div class="term"><b>ରାଜୀବ ଦୃଶା</b><span>ପଦ୍ମ ସଦୃଶ ଦୃଷ୍ଟି ବା ଚାହାଣି</span></div>
+<div class="term"><b>ନୀହାର</b><span>ଶିଶିର</span></div>
+<div class="term"><b>ପଲ୍ଲବ</b><span>କଅଁଳିଆ ପତ୍ର</span></div>
+<div class="term"><b>କଳକଣ୍ଠ</b><span>କୋଇଲି</span></div>
+<div class="term"><b>ଅରୁଣ କଷାୟ ବାସ</b><span>ଲାଲ ରଙ୍ଗର ପାଟ ବସ୍ତ୍ର</span></div>
+<div class="term"><b>କଳିଙ୍ଗ</b><span>କଜଳପାତି ଚଢ଼େଇ</span></div>
+<div class="term"><b>ପାଟ ମାଗଧ</b><span>ଶ୍ରେଷ୍ଠ ଭାଟ</span></div>
+<div class="term"><b>ବୈକୁଣ୍ଠେ</b><span>ବିଷ୍ଣୁଙ୍କ ଧାମରେ</span></div>
+<div class="term"><b>ଆଗମନଶଂସୀ</b><span>ଆଗମନର ସୂଚକ</span></div>
+<div class="term"><b>ତାପସ</b><span>ମୁନି</span></div>
+<div class="term"><b>ତମସା</b><span>ବାଲ୍ମୀକି ଆଶ୍ରମ ନିକଟରେ ପ୍ରବାହିତ କ୍ଷୁଦ୍ର ନଦୀ</span></div>
+<div class="term"><b>ଉଟଜ</b><span>କୁଡ଼ିଆ</span></div>
+</section>
+
+<section class="slide">
+<h2>୧୭. ନାମ ଓ ସମ୍ବୋଧନ — ଶୀଘ୍ର ପୁନରାବୃତ୍ତି</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: କବିତାରେ ବ୍ୟବହୃତ ବିଶେଷ ନାମ/ସମ୍ବୋଧନକୁ ଗୋଟିଏ ଦୃଷ୍ଟିରେ ମନେ ରଖିବା।</div>
+<table>
+<tr><th>ନାମ/ପଦ</th><th>କାହାକୁ/କାହାର ଅର୍ଥ</th></tr>
+<tr><td>ଜାନକୀ / ଜନକନନ୍ଦିନୀ</td><td>ସୀତା</td></tr>
+<tr><td>ବୈଦେହୀ</td><td>ସୀତାଙ୍କ ଅନ୍ୟନାମ; ପ୍ରଶ୍ନାବଳୀରେ ଏହାର କାରଣ “ବିଦେହର କନ୍ୟା” ଭାବେ ଦିଆଯାଇଛି।</td></tr>
+<tr><td>ରଘୁବଂଶିକେ</td><td>ସୀତାଙ୍କୁ ସମ୍ବୋଧନ</td></tr>
+<tr><td>ରାଜ୍ୟରାଣୀ</td><td>ସୀତାଙ୍କୁ ଉଷାଙ୍କ ସମ୍ବୋଧନ</td></tr>
+<tr><td>ଆଶ୍ରମଧାତ୍ରୀ</td><td>ତମସାକୁ କୁହାଯାଇଥିବା ନାମ</td></tr>
+</table>
+<div class="warn">⚠️ <b>ସାବଧାନ:</b> ନାମଗୁଡ଼ିକୁ ପ୍ରଶ୍ନରେ ଯେପରି ଆସିଛି ସେହି ରୂପରେ ଲେଖ।</div>
+</section>
+
+<section class="slide">
+<h2>୧୮. ଭାଷା ଅଭ୍ୟାସ — ରୂପକ କର୍ମଧାରୟ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ପ୍ରଶ୍ନାବଳୀରେ ଦିଆଯାଇଥିବା ପଦଗୁଡ଼ିକୁ ଚିହ୍ନିବା।</div>
+<p>ପ୍ରଶ୍ନ: ନିମ୍ନଲିଖିତ ପଦଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟି ରୂପକ କର୍ମଧାରୟ ନୁହେଁ?</p>
+<div class="mcq">
+<div class="option">କ) କରପଲ୍ଲବ</div>
+<div class="option">ଖ) ନୀହାରମୁକ୍ତା</div>
+<div class="option correct">ଗ) ବୀଣାଝଙ୍କାର ✓</div>
+<div class="option">ଘ) ତରଙ୍ଗକର</div>
+</div>
+<div class="key">📝 <b>ଉତ୍ତର:</b> ଗ) ବୀଣାଝଙ୍କାର</div>
+</section>
+
+<section class="slide">
+<h2>୧୯. ଅର୍ଥଗତ ଅଭ୍ୟାସ — ଦୁଇଟି ଭିନ୍ନ ଅର୍ଥ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ଏକେ ଶବ୍ଦର ଭିନ୍ନ ଅର୍ଥ ଲେଖିବାର ଅଭ୍ୟାସ।</div>
+<p>ପ୍ରଶ୍ନାବଳୀରେ ଦିଆଯାଇଛି: <b>ବାସ, ଅଙ୍କ, କର, ପଦ, ବନ, ବିଧ, ଶ୍ରୁତି</b> — ପ୍ରତ୍ୟେକର ଦୁଇଟି ଭିନ୍ନ ଅର୍ଥ ଲେଖ।</p>
+<div class="warn">📌 ଏହି ଅଭ୍ୟାସରେ ପ୍ରଶ୍ନ ଦିଆଯାଇଛି; ନିର୍ଦ୍ଦିଷ୍ଟ ଦୁଇ-ଅର୍ଥର ଉତ୍ତର ପାଠ୍ୟରେ ଅଲଗା ଭାବେ ଦିଆଯାଇନାହିଁ। ତେଣୁ ଏଠାରେ ଅନୁମାନ କରି ଉତ୍ତର ଯୋଡ଼ାଯାଇନାହିଁ।</div>
+</section>
+
+<section class="slide">
+<h2>୨୦. ପ୍ରତିଶବ୍ଦ ଅଭ୍ୟାସ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ପ୍ରଶ୍ନାବଳୀରେ ଦିଆଯାଇଥିବା ପ୍ରତିଶବ୍ଦ ଅଭ୍ୟାସକୁ ଚିହ୍ନିବା।</div>
+<p>ଦିଆଯାଇଥିବା ଶବ୍ଦ: <b>କୁସୁମ, ରାଜୀବ, ନୀର, ରାତ୍ରି, ଗଗନ</b> — ପ୍ରତ୍ୟେକର ତିନୋଟି ପ୍ରତିଶବ୍ଦ ଲେଖ।</p>
+<div class="warn">📌 ପ୍ରଶ୍ନଟି ପାଠ୍ୟରେ ରହିଛି, କିନ୍ତୁ ନିର୍ଦ୍ଦିଷ୍ଟ ପ୍ରତିଶବ୍ଦର ଉତ୍ତରସୂଚୀ ଦିଆଯାଇନାହିଁ। ଅନୁମାନିତ ଉତ୍ତରକୁ ମୂଳ ଉତ୍ତର ଭାବେ ଦିଆଯାଇନାହିଁ।</div>
+</section>
+
+<section class="slide">
+<h2>୨୧. “କ”–“ଖ” ମେଳକ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ଠିକ୍ ପଦଯୁଗଳ ଗଠନ କରିବା।</div>
+<table>
+<tr><th>“କ” ସ୍ତମ୍ଭ</th><th>“ଖ” ସ୍ତମ୍ଭର ଉପଯୁକ୍ତ ପଦ</th></tr>
+<tr><td>ସରସ୍ୱତୀ</td><td>ବୀଣାଝଙ୍କାର</td></tr>
+<tr><td>ମୁକ୍ତା</td><td>ଉପହାର</td></tr>
+<tr><td>ଉଷା</td><td>ପ୍ରଭାତୀ ତାରା</td></tr>
+<tr><td>କୁମ୍ଭାଟୁଆ</td><td>ସ୍ତବପାଠ</td></tr>
+<tr><td>ମଙ୍ଗଳ ପ୍ରଦୀପ</td><td>ଆଶ୍ରମଧାତ୍ରୀ</td></tr>
+<tr><td>ତମସା</td><td>ସୁକୁମାରଦେହୀ</td></tr>
+<tr><td>ତାପସ</td><td>କନ୍ୟା</td></tr>
+</table>
+</section>
+
+<section class="slide">
+<h2>୨୨. ଶୂନ୍ୟସ୍ଥାନ ପୂରଣ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ପାଠର ଠିକ୍ ଶବ୍ଦ ଚୟନ କରିବା।</div>
+<div class="qa"><div class="q">କ) ତୁମ୍ଭ କୋମଳ ଚରଣ କରେ ______ ଆହରଣ। (କିରଣ, ଜ୍ୟୋତି, ରଶ୍ମି)</div><div class="a"><b>ଉତ୍ତର: ଜ୍ୟୋତି</b></div></div>
+<div class="qa"><div class="q">ଖ) ବନ୍ଦିଲେ ଉଷାର ______ ସବିନୟରେ। (ପଦ, ପାଦ, ଚରଣ)</div><div class="a"><b>ଉତ୍ତର: ପଦ</b></div></div>
+<div class="qa"><div class="q">ଗ) ଜାନକୀ ଦର୍ଶନ ______ ହୃଦୟେ ବହି। (ଦୃଶା, ତୃଷା, ଆଶା)</div><div class="a"><b>ଉତ୍ତର: ତୃଷା</b></div></div>
+<div class="qa"><div class="q">ଘ) ପ୍ରାଙ୍ଗଣେ କୁସୁମ ବିଞ୍ଚି ସୁବାସିତ ______ ସିଞ୍ଚି। (ନୀର, ଜଳ, ସଲିଳ)</div><div class="a"><b>ଉତ୍ତର: ନୀର</b></div></div>
+</section>
+
+<section class="slide">
+<h2>୨୩. ନିର୍ଦ୍ଦିଷ୍ଟ ଉତ୍ତରମୂଳକ — ୧</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ପ୍ରଥମ ୩ଟି ବହୁନିର୍ବାଚନୀ ପ୍ରଶ୍ନ ଠିକ୍ ଭାବେ ସମାଧାନ କରିବା।</div>
+<div class="qa"><div class="q">୧. “ବିକଚ ରାଜୀବ ଦୃଶା” କେଉଁ ଅର୍ଥକୁ ବୁଝାଉଛି?</div><div class="a">କ) ପ୍ରସ୍ଫୁଟିତ ପଦ୍ମଫୁଲ ସଦୃଶ ଆଖି ଯାହାର<br>ଖ) ପ୍ରସ୍ଫୁଟିତ ପଦ୍ମଫୁଲର ପାଖୁଡ଼ା ସଦୃଶ ଆଖି ଯାହାର<br><b>ଗ) ପ୍ରସ୍ଫୁଟିତ ପଦ୍ମଫୁଲର ସୌନ୍ଦର୍ଯ୍ୟଯୁକ୍ତ ଆଖି ଯାହାର</b><br>ଘ) ପ୍ରସ୍ଫୁଟିତ ପଦ୍ମଫୁଲ ସଦୃଶ ମୁଖ ଯାହାର</div></div>
+<div class="qa"><div class="q">୨. “ଅରୁଣ କଷାୟ ବାସ”ର ଠିକ୍ ଅର୍ଥ କ’ଣ?</div><div class="a">କ) ଅରୁଣଙ୍କ ନିମନ୍ତେ କଷାୟ ବସ୍ତ୍ର<br>ଖ) ଅରୁଣଙ୍କର କଷାୟ ବସ୍ତ୍ର<br><b>ଗ) ଅରୁଣ ରଙ୍ଗର କଷାୟ ବସ୍ତ୍ର</b><br>ଘ) କଷାୟ ରଙ୍ଗର ଅରୁଣ ବସ୍ତ୍ର</div></div>
+<div class="qa"><div class="q">୩. ଉଷାକୁ ପ୍ରଶଂସା କରି ସତୀ ସୀତା କେଉଁ ବାକ୍ୟଟି କହିଛନ୍ତି?</div><div class="a">କ) ଉଷା ତିମିର-ବିଧ୍ୱଂସୀ<br><b>ଖ) ଉଷା ତିମିର-ବିଧ୍ୱଂସୀ, ରବି-ଆଗମନ-ଶଂସୀ</b><br>ଗ) ଉଷା ମଙ୍ଗଳ ଆଗମନୀ<br>ଘ) ଉଷା ବିକଚ-ରାଜୀବ ଦୃଶା</div></div>
+</section>
+
+<section class="slide">
+<h2>୨୪. ନିର୍ଦ୍ଦିଷ୍ଟ ଉତ୍ତରମୂଳକ — ୪ ଓ ୫</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: “ବୈଦେହୀ” ଓ ରୂପକ କର୍ମଧାରୟ ସମ୍ବନ୍ଧୀୟ ପ୍ରଶ୍ନ ମନେ ରଖିବା।</div>
+<div class="qa"><div class="q">୪. ସୀତାଙ୍କର ଅନ୍ୟନାମ ବୈଦେହୀ ହେବାର କାରଣ କ’ଣ?</div><div class="a">କ) ବିଶେଷ ଦେହଧାରିଣୀ କନ୍ୟା<br><b>ଖ) ବିଦେହର କନ୍ୟା ✓</b><br>ଗ) ଦେହହୀନା କନ୍ୟା<br>ଘ) ବିଦେଶିନୀ କନ୍ୟା</div></div>
+<div class="qa"><div class="q">୫. ନିମ୍ନ ପଦଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟି ରୂପକ କର୍ମଧାରୟ ନୁହେଁ?</div><div class="a">କ) କରପଲ୍ଲବ<br>ଖ) ନୀହାରମୁକ୍ତା<br><b>ଗ) ବୀଣାଝଙ୍କାର ✓</b><br>ଘ) ତରଙ୍ଗକର</div></div>
+</section>
+
+<section class="slide">
+<h2>୨୫. କ୍ଷୁଦ୍ର ଉତ୍ତର — ୧୦–୧୪</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନର ଉତ୍ତର ୧–୩ଟି ସ୍ପଷ୍ଟ ବାକ୍ୟରେ କହିପାରିବା।</div>
+<div class="qa"><div class="q">୧୦. “ଦରଶନ ଦିଅ ସତି, ରାତି ପାହିଲା” କିଏ କାହାକୁ କହିଛନ୍ତି?</div><div class="a">ଉଷା ସୀତାଙ୍କୁ ଏ କଥା କହିଛନ୍ତି।</div></div>
+<div class="qa"><div class="q">୧୧. ବାଲ୍ମୀକି ଆଶ୍ରମକୁ ଉଷା କାହିଁକି ଆଗମନ କରିଥିଲେ?</div><div class="a">ସୀତାଙ୍କୁ ଦର୍ଶନ ଦେବାକୁ ଡାକିବା, ଦୁଃଖରାଶି ଉପଶମ କରି ନବ ଜୀବନର ଆଶ୍ୱାସ ଦେବା ପାଇଁ ଉଷା ଆସିଥିଲେ।</div></div>
+<div class="qa"><div class="q">୧୨. ଉଷା ମଙ୍ଗଳ ମୁହୂର୍ତ୍ତରେ ଆସିଥିବା କଥା କେଉଁ ପଦରୁ ଜଣାପଡ଼ୁଛି?</div><div class="a">“ମଙ୍ଗଳେ ଅଇଲା ଉଷା” ପଦରୁ ଏହା ଜଣାପଡ଼େ।</div></div>
+<div class="qa"><div class="q">୧୩. ଉଷା ଉପହାର ସ୍ୱରୂପ କ’ଣ ଆଣିଛନ୍ତି?</div><div class="a">ଉଷା କରପଲ୍ଲବରେ ନୀହାର-ମୁକ୍ତା, ଅର୍ଥାତ୍ ଶିଶିରବିନ୍ଦୁକୁ ମୁକ୍ତା ପରି ଧରି ଆଣିଛନ୍ତି।</div></div>
+<div class="qa"><div class="q">୧୪. ଉଷାଙ୍କ କର ବୋଲି କବି କାହାକୁ କଳ୍ପନା କରିଛନ୍ତି?</div><div class="a">“କରପଲ୍ଲବ” ବୋଲି କବି ଉଷାଙ୍କ କରକୁ କଅଁଳିଆ ପତ୍ର ପରି କଳ୍ପନା କରିଛନ୍ତି।</div></div>
+</section>
+
+<section class="slide">
+<h2>୨୬. କ୍ଷୁଦ୍ର ଉତ୍ତର — ୧୫–୧୯</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ଉଷାର ରୂପ, ବସ୍ତ୍ର ଓ ଉଦ୍ଦେଶ୍ୟ ସମ୍ବନ୍ଧୀୟ ପ୍ରଶ୍ନର ଉତ୍ତର ଦେବା।</div>
+<div class="qa"><div class="q">୧୫. ଉଷା କେଉଁ ସ୍ଥାନରେ ରହି ସୀତାଙ୍କୁ ଡାକିଲେ?</div><div class="a">ସତୀଙ୍କ ବାସ-ବାହାର ପ୍ରାଙ୍ଗଣରେ ରହି ସୀତାଙ୍କୁ ଡାକିଲେ।</div></div>
+<div class="qa"><div class="q">୧୬. କଳକଣ୍ଠ କଣ୍ଠରେ କିଏ କହିଲା?</div><div class="a">ଉଷା କୋଇଲି ପରି ମଧୁର କଣ୍ଠରେ କହିଲେ।</div></div>
+<div class="qa"><div class="q">୧୭. ଉଷା କି ପ୍ରକାର ବସ୍ତ୍ର ପିନ୍ଧିଛନ୍ତି?</div><div class="a">ଉଷା “ଅରୁଣ କଷାୟ ବାସ”, ଅର୍ଥାତ୍ ଲାଲ ରଙ୍ଗର ପାଟ ବସ୍ତ୍ର ପିନ୍ଧିଛନ୍ତି।</div></div>
+<div class="qa"><div class="q">୧୮. କବି ଉଷାଙ୍କୁ କେଉଁ ରୂପରେ ବର୍ଣ୍ଣନା କରିଛନ୍ତି?</div><div class="a">କବି ଉଷାଙ୍କୁ ଅରୁଣ କଷାୟ ବସ୍ତ୍ରଧାରିଣୀ, କୁସୁମକାନ୍ତିମୟ ଓ ପ୍ରଶାନ୍ତ ରୂପରେ ବର୍ଣ୍ଣନା କରିଛନ୍ତି।</div></div>
+<div class="qa"><div class="q">୧୯. ମର୍ତ୍ତ୍ୟଭୁବନକୁ ଉଷା ଆସିବାର ଉଦ୍ଦେଶ୍ୟ କ’ଣ?</div><div class="a">ଦୁଃଖରାଶି ଉପଶମ କରି ନବ ଜୀବନ ଦେବା ପାଇଁ ଉଷା ମର୍ତ୍ତ୍ୟଭୁବନକୁ ଆସିଛନ୍ତି।</div></div>
+</section>
+
+<section class="slide">
+<h2>୨୭. କ୍ଷୁଦ୍ର ଉତ୍ତର — ୨୦–୨୪</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ସୀତାଙ୍କ ସ୍ୱାଗତ ଓ ଅନୁକମ୍ପାଙ୍କ ଭୂମିକା ବୁଝିବା।</div>
+<div class="qa"><div class="q">୨୦. ସୀତାଙ୍କୁ ଅଭିନନ୍ଦନ ଜଣାଇବା ପାଇଁ ଉଷା କି ବ୍ୟବସ୍ଥା କରାଇଥିଲେ?</div><div class="a">ପ୍ରକୃତିକୁ ଉଷାଙ୍କ ନିର୍ଦ୍ଦେଶରେ ସଜାଯାଇଛି—ସମୀର ସଙ୍ଗୀତ ଗାଇଲା, ଭ୍ରମର ବୀଣା ବଜାଇଲା, ସୁରଭି ନର୍ତ୍ତନ କଲା; କୁମ୍ଭାଟୁଆ ଓ କଳିଙ୍ଗ ସ୍ତବ/ମଙ୍ଗଳବାଣୀ କହିଲେ।</div></div>
+<div class="qa"><div class="q">୨୧. ଉଷା ସୀତାଙ୍କୁ ସତୀ, ରାଜ୍ୟରାଣୀ ବୋଲି ସମ୍ବୋଧନ କଲେ କାହିଁକି?</div><div class="a">ସୀତାଙ୍କ ପ୍ରତି ଉଷାର ସମ୍ମାନ ଓ ତାଙ୍କ ରାଜଲକ୍ଷ୍ମୀ ସ୍ୱରୂପକୁ ଧ୍ୟାନରେ ରଖି ଏପରି ସମ୍ବୋଧନ କରାଯାଇଛି।</div></div>
+<div class="qa"><div class="q">୨୨. ସରସ୍ୱତୀଙ୍କ ବୀଣାଝଙ୍କାର ସହିତ କାହାକୁ ତୁଳନା କରାଯାଇଛି?</div><div class="a">ପ୍ରଭାତର ବେଦସ୍ୱନ/ଧ୍ୱନିକୁ ସରସ୍ୱତୀଙ୍କ ବୀଣାଝଙ୍କାର ସହିତ ତୁଳନା କରାଯାଇଛି।</div></div>
+<div class="qa"><div class="q">୨୩. ଏହାଦ୍ୱାରା ବନଭୂମିରେ କି ପରିବର୍ତ୍ତନ ଆସିଲା?</div><div class="a">ବନ ଧୀରେ ଧୀରେ ଉଜ୍ଜ୍ୱଳ ହେଲା; ମନ୍ତ୍ରବଳରେ ଯେପରି ତାହାର ଆଲୋକ ବଢ଼ି ଆସିଲା।</div></div>
+<div class="qa"><div class="q">୨୪. ଅନୁକମ୍ପା କିଏ?</div><div class="a">ଅନୁକମ୍ପା ଜଣେ ବ୍ରହ୍ମଚାରିଣୀ ତପସ୍ୱିନୀ, ଯିଏ ସୀତାଙ୍କ ପାଖକୁ ଆସି ତାଙ୍କୁ ଉଷାଙ୍କ ଆଗମନର କଥା କହିଥିଲେ।</div></div>
+</section>
+
+<section class="slide">
+<h2>୨୮. କ୍ଷୁଦ୍ର ଉତ୍ତର — ୨୫–୨୯</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ଅନୁକମ୍ପାଙ୍କ କଥା, ସୀତାଙ୍କ ହୃଦୟ ଓ ଉଷାର ପ୍ରଶଂସା ବୁଝିବା।</div>
+<div class="qa"><div class="q">୨୫. ଅନୁକମ୍ପା ସୀତାଙ୍କୁ କ’ଣ କହିଲେ?</div><div class="a">ସେ ସୀତାଙ୍କୁ “ବୈଦେହି” ବୋଲି ଡାକି ଉଷା ଆସିଥିବାରୁ ଦର୍ଶନ ଦେଇ ତୋଷ କରିବାକୁ କହିଲେ; ତମସା ମଧ୍ୟ ସୁଖ ପାଇଁ କୋଳ କରିବାକୁ ଅପେକ୍ଷା କରୁଛି ବୋଲି କହିଲେ।</div></div>
+<div class="qa"><div class="q">୨୬. ସୀତାଙ୍କ ହୃଦୟରେ ପ୍ରତିବିମ୍ବିତ ବୀର ରାମମୂର୍ତ୍ତିକୁ କବି କାହାପରି ବୋଲି କହିଛନ୍ତି?</div><div class="a">ପଦ୍ମିନୀ-ହୃଦର ଶିଶିରବିନ୍ଦୁରେ ଖରରଶ୍ମିର ପ୍ରତିବିମ୍ବ ପରି ବୋଲି କହିଛନ୍ତି।</div></div>
+<div class="qa"><div class="q">୨୭. ସୀତାଙ୍କ ହୃଦୟ ଶୋକ-ଜର୍ଜରିତ ହେବାର କାରଣ କ’ଣ?</div><div class="a">କବିତାରେ ସୀତାଙ୍କ ନିର୍ବାସିତା ଅବସ୍ଥା ଓ ତାଙ୍କ ହୃଦୟରେ ବୀର ରାମଙ୍କ ମୂର୍ତ୍ତିର ପ୍ରତିବିମ୍ବନ ମାଧ୍ୟମରେ ତାଙ୍କ ଶୋକାକୁଳ ମନକୁ ଦେଖାଯାଇଛି।</div></div>
+<div class="qa"><div class="q">୨୮. ସୀତା ଉଷାଙ୍କ ପଦ ବନ୍ଦନା କରି କ’ଣ କହିଲେ?</div><div class="a">ଉଷା ତିମିର-ବିଧ୍ୱଂସୀ, ରବି-ଆଗମନ-ଶଂସୀ; ତାଙ୍କ କୋମଳ ଚରଣ ଜ୍ୟୋତି ଆଣେ—ଏହି ପ୍ରଶଂସା କରିଲେ।</div></div>
+<div class="qa"><div class="q">୨୯. ଉଷାଙ୍କୁ “ଶୁଭ୍ର ସଉରଭ ରସିକେ” ବୋଲି ସୀତା କହିଲେ କାହିଁକି?</div><div class="a">କବିତାରେ ଉଷାଙ୍କୁ ଶୁଭ୍ର ସଉରଭ ସହ ଯୋଡ଼ି ଶୁଭ-ସମ୍ପାଦିନୀ ରୂପେ ପ୍ରଶଂସା କରାଯାଇଛି; ସେହି ପ୍ରଶଂସାରେ ସୀତା ଏହି ସମ୍ବୋଧନ କରିଛନ୍ତି।</div></div>
+</section>
+
+<section class="slide">
+<h2>୨୯. କ୍ଷୁଦ୍ର ଉତ୍ତର — ୩୦–୩୪</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ତମସାର ମାନବୀକରଣ ଓ ସୀତାଙ୍କ ସ୍ୱାଗତକୁ ବୁଝିବା।</div>
+<div class="qa"><div class="q">୩୦. “ଶୁଭ ସମ୍ପାଦିନୀ ହୁଅ ରଘୁବଂଶିକେ” କିଏ କାହାକୁ କହିଛନ୍ତି?</div><div class="a">ସୀତା ଉଷାଙ୍କୁ ଏ କଥା କହିଛନ୍ତି।</div></div>
+<div class="qa"><div class="q">୩୧. ତମସାକୁ ଆଶ୍ରମଧାତ୍ରୀ ବୋଲି କାହିଁକି କୁହାଯାଇଛି?</div><div class="a">ତମସାକୁ ଆଶ୍ରମର ମାଆ ପରି ଦେଖାଯାଇଛି; ସେ ସୀତାଙ୍କ ଆଗମନ ପାଇଁ ଅପେକ୍ଷା କରି ସ୍ନେହରେ ସ୍ୱାଗତ କରିଥିବାରୁ ଆଶ୍ରମଧାତ୍ରୀ ବୋଲି କୁହାଯାଇଛି।</div></div>
+<div class="qa"><div class="q">୩୨. ତମସା ନଦୀ କି କି ଆୟୋଜନ କରି ସୀତାଙ୍କ ଆଗମନକୁ ଅପେକ୍ଷା କରିଥିଲେ?</div><div class="a">ପ୍ରାଙ୍ଗଣେ କୁସୁମ ବିଞ୍ଚି, ସୁବାସିତ ନୀର ସିଞ୍ଚି, ମଙ୍ଗଳ ପ୍ରଦୀପ ରଚି ପ୍ରଭାତୀ ତାରା ସହ ଅପେକ୍ଷା କରିଥିଲେ।</div></div>
+<div class="qa"><div class="q">୩୩. ତମସା ନଦୀ ସୀତାଙ୍କୁ କିପରି ସ୍ୱାଗତ ଜଣାଇଥିଲା?</div><div class="a">ତରଙ୍ଗକୁ ହାତ ପରି କରି ସ୍ନେହରେ ସୀତାଙ୍କୁ ନିଜ ଅଙ୍କରେ ନେଇ ଆଲିଙ୍ଗନ କରିଥିଲା।</div></div>
+<div class="qa"><div class="q">୩୪. ସୀତାଙ୍କୁ ଲାଭ କରି ତମସା ନିଜକୁ ଭାଗ୍ୟବତୀ ବୋଲି ଭାବିଛନ୍ତି କାହିଁକି?</div><div class="a">ସୀତା ପରି ରାଜଲକ୍ଷ୍ମୀ ତାଙ୍କ ଅଙ୍କରେ ବିହାର କରିବାରୁ ସଂସାର ତାଙ୍କୁ ଭାଗ୍ୟବତୀ ବୋଲି ପ୍ରଶଂସା କରିବ ବୋଲି ତମସା ଭାବିଛି।</div></div>
+</section>
+
+<section class="slide">
+<h2>୩୦. ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ — ୩୫</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ଉଦ୍ଧୃତିର ଅର୍ଥକୁ ପ୍ରସଙ୍ଗ ସହିତ ବୁଝିବା।</div>
+<div class="poem">“ଦେବା ପାଇଁ ନବ ଜୀବନ
+ସ୍ୱର୍ଗୁ କି ଓହ୍ଲାଇଛନ୍ତି ମର୍ତ୍ତ୍ୟ ଭୁବନ?”</div>
+<div class="meaning"><b>ସରଳାର୍ଥ:</b> ଉଷାଙ୍କ ଶାନ୍ତ, କାନ୍ତିମୟ ରୂପ ଓ ମଧୁର ଆଶ୍ୱାସ ଦେଖି କବିଙ୍କ ମନରେ ଏପରି ଭାବ ଆସିଛି—ଦୁଃଖ ଦୂର କରି ନୂଆ ଜୀବନ ଦେବା ପାଇଁ ଉଷା ଯେପରି ସ୍ୱର୍ଗରୁ ମର୍ତ୍ତ୍ୟଭୁବନକୁ ଓହ୍ଲାଇ ଆସିଛନ୍ତି।</div>
+</section>
+
+<section class="slide">
+<h2>୩୧. ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ — ୩୬</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ପ୍ରଭାତର ଧ୍ୱନିକୁ କବି କିପରି ଚିତ୍ରିତ କରିଛନ୍ତି ବୁଝିବା।</div>
+<div class="poem">“ବୈକୁଣ୍ଠେ ଦେଇ ତୃପତି ଅନନ୍ତ ଶ୍ରୁତିକି ଗତି
+ବିହିଲା କି ସରସ୍ୱତୀ ବୀଣାଝଙ୍କାର”</div>
+<div class="meaning"><b>ସରଳାର୍ଥ:</b> ଆଶ୍ରମର ପ୍ରଭାତୀୟ ଧ୍ୱନି ଏତେ ମଧୁର ଓ ତୃପ୍ତିଦାୟକ ଯେ, ତାହା ସରସ୍ୱତୀଙ୍କ ବୀଣାଝଙ୍କାର ପରି ମନେ ହୁଏ। ଏହାର ଧ୍ୱନି ଶ୍ରବଣକୁ ଆନନ୍ଦ ଦେଉଛି।</div>
+</section>
+
+<section class="slide">
+<h2>୩୨. ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ — ୩୭</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ତମସାର ଆନନ୍ଦ ଓ ଭାଗ୍ୟବୋଧକୁ ବୁଝିବା।</div>
+<div class="poem">“ଭାଗ୍ୟବତୀ ମୋତେ ସଂସାରେ
+ବୋଲିବେ ତୋ’ ଯୋଗୁଁ ଏକା ପରଶଂସାରେ।”</div>
+<div class="meaning"><b>ସରଳାର୍ଥ:</b> ସୀତାଙ୍କୁ ପାଇ ତମସା ଅତ୍ୟନ୍ତ ଖୁସି। ସୀତା ପରି ରାଜଲକ୍ଷ୍ମୀ ତାଙ୍କ ଅଙ୍କରେ ବିହାର କରିଥିବାରୁ ଲୋକେ ତାଙ୍କୁ ଭାଗ୍ୟବତୀ ବୋଲି ପ୍ରଶଂସା କରିବେ ବୋଲି ସେ କହୁଛି।</div>
+</section>
+
+<section class="slide">
+<h2>୩୩. ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ — ୩୮</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ସୀତାଙ୍କ ଦ୍ୱାରା ଉଷାଙ୍କ ପ୍ରଶଂସାର ମୂଳ ଭାବ ବୁଝିବା।</div>
+<div class="poem">“ଶୁଭ୍ର ସଉରଭ ରସିକେ
+ଶୁଭ-ସମ୍ପାଦିନୀ ହୁଅ ରଘୁବଂଶିକେ।”</div>
+<div class="meaning"><b>ସରଳାର୍ଥ:</b> ସୀତା ଉଷାଙ୍କୁ ଶୁଭ୍ର ସୁଗନ୍ଧର ରସିକା ଏବଂ ଶୁଭ ସମ୍ପାଦନ କରୁଥିବା ରଘୁବଂଶର ସଦସ୍ୟା ବୋଲି ପ୍ରଶଂସା କରିଛନ୍ତି।</div>
+</section>
+
+<section class="slide">
+<h2>୩୪. ଦୀର୍ଘ ଉତ୍ତର — ୩୯</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ବାଲ୍ମୀକି ଆଶ୍ରମର ପ୍ରଭାତକାଳୀନ ପ୍ରାକୃତିକ ସୌନ୍ଦର୍ଯ୍ୟକୁ କ୍ରମରେ ଲେଖିବା।</div>
+<div class="meaning"><b>ଉତ୍ତରର ମୁଖ୍ୟ ଧାରା:</b></div>
+<ol>
+<li>ଉଷା ମଙ୍ଗଳମୟ ଭାବେ ଆସିଥାନ୍ତି ଓ ଅରୁଣ କଷାୟ ବସ୍ତ୍ରରେ ଦେଖାଯାନ୍ତି।</li>
+<li>ସମୀର ସଙ୍ଗୀତ ଗାଏ, ଭ୍ରମର ବୀଣା ବଜାଏ ଓ ସୁରଭି ନର୍ତ୍ତନ କରେ।</li>
+<li>କୁମ୍ଭାଟୁଆ ଓ କଳିଙ୍ଗ ଭାଟ/ମାଗଧ ପରି ମଙ୍ଗଳବାଣୀ କହନ୍ତି।</li>
+<li>ମୁନିମୁଖରୁ ବେଦସ୍ୱନ ଓ ଗଗନଭେଦୀ ଓଁକାର ଶୁଭିଥାଏ।</li>
+<li>ବନ ଧୀରେ ଧୀରେ ଉଜ୍ଜ୍ୱଳ ହୁଏ।</li>
+<li>ତମସା ଫୁଲ, ସୁଗନ୍ଧିତ ଜଳ ଓ ପ୍ରଭାତୀ ତାରାର ମଙ୍ଗଳ ପ୍ରଦୀପ ସହ ସୀତାଙ୍କ ଆଗମନ ଅପେକ୍ଷା କରେ।</li>
+</ol>
+</section>
+
+<section class="slide">
+<h2>୩୫. ଦୀର୍ଘ ଉତ୍ତର — ୪୦</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ଆଶ୍ରମରେ ଉଷାଙ୍କ ସୀତା-ସ୍ୱାଗତକୁ ଘଟଣାକ୍ରମରେ ବର୍ଣ୍ଣନା କରିବା।</div>
+<div class="meaning"><b>ଉତ୍ତରର ମୁଖ୍ୟ ଧାରା:</b></div>
+<ol>
+<li>ଉଷା ସୀତାଙ୍କ ବାସ-ବାହାର ପ୍ରାଙ୍ଗଣରେ ଆସି ଶିଶିରବିନ୍ଦୁକୁ ମୁକ୍ତା ପରି ଉପହାର ଧରି ଅପେକ୍ଷା କରନ୍ତି।</li>
+<li>କୋଇଲି ପରି ମଧୁର କଣ୍ଠରେ “ଦରଶନ ଦିଅ ସତି, ରାତି ପାହିଲା” କହନ୍ତି।</li>
+<li>ଦୁଃଖରାଶି ଉପଶମ କରି ନବ ଜୀବନ ଦେବାର ଆଶ୍ୱାସ ତାଙ୍କ ରୂପରେ ରହିଛି।</li>
+<li>ଅନୁକମ୍ପା ସୀତାଙ୍କୁ ଉଠାଇ ଉଷାଙ୍କ ଦର୍ଶନ ଦେବାକୁ କହନ୍ତି।</li>
+<li>ସୀତା ଉଷାଙ୍କ ପଦ ବନ୍ଦନା କରି ତାଙ୍କୁ ତିମିର-ବିଧ୍ୱଂସୀ ଓ ରବି-ଆଗମନ-ଶଂସୀ ବୋଲି ପ୍ରଶଂସା କରନ୍ତି।</li>
+</ol>
+</section>
+
+<section class="slide">
+<h2>୩୬. ଦୀର୍ଘ ଉତ୍ତର — ୪୧</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: କବିଙ୍କ ପ୍ରକୃତି ଚିତ୍ରଣର ବିଶେଷତ୍ୱ ଲେଖିବା।</div>
+<div class="grid">
+<div class="card"><b>ମାନବୀକରଣ</b><br>ସମୀର, ଭ୍ରମର, ସୁରଭି, ପକ୍ଷୀ ଓ ତମସାକୁ ମାନବ ପରି କାର୍ଯ୍ୟ କରୁଥିବା ଦେଖାଯାଇଛି।</div>
+<div class="card"><b>ଶ୍ରବଣୀୟ ଚିତ୍ର</b><br>ସଙ୍ଗୀତ, ବୀଣାଝଙ୍କାର, ବେଦସ୍ୱନ ଓ ଓଁକାର ଦ୍ୱାରା ପ୍ରଭାତର ଧ୍ୱନି ଜୀବନ୍ତ।</div>
+<div class="card"><b>ଦୃଶ୍ୟ ଚିତ୍ର</b><br>ଅରୁଣ ବସ୍ତ୍ର, କୁସୁମକାନ୍ତି, ଆଲୋକ ଓ ପ୍ରଭାତୀ ତାରାର ଚିତ୍ର।</div>
+<div class="card"><b>ସ୍ନେହ</b><br>ତମସାର ତରଙ୍ଗକୁ ହାତ ପରି କରି ସୀତାଙ୍କୁ ଆଲିଙ୍ଗନ କରିବାରେ ପ୍ରକୃତିର ସମ୍ବେଦନଶୀଳତା ଦେଖାଯାଏ।</div>
+</div>
+</section>
+
+<section class="slide">
+<h2>୩୭. ଦୀର୍ଘ ଉତ୍ତର — ୪୨</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ପ୍ରକୃତିକୁ ମାନବ ଭଳି ସମ୍ବେଦନଶୀଳ ଭାବେ କିପରି ଦେଖାଯାଇଛି ବୁଝିବା।</div>
+<p>କବି ଗଙ୍ଗାଧର ମେହେରଙ୍କ ଲେଖନୀରେ ପ୍ରକୃତି ନିର୍ଜୀବ ନୁହେଁ। ଉଷା ଆସି ସୀତାଙ୍କୁ ଡାକୁଛନ୍ତି, ସମୀର ସଙ୍ଗୀତ ଗାଉଛି, ଭ୍ରମର ବୀଣା ବଜାଉଛି, ସୁରଭି ନର୍ତ୍ତନ କରୁଛି, ପକ୍ଷୀମାନେ ଭାଟ/ମାଗଧ ପରି ମଙ୍ଗଳବାଣୀ କହୁଛନ୍ତି। ତମସା ସୀତାଙ୍କ ଆଗମନ ପାଇଁ ଅପେକ୍ଷା କରି ଫୁଲ ବିଞ୍ଚେ, ଜଳ ସିଞ୍ଚେ ଏବଂ ତରଙ୍ଗକୁ ହାତ ପରି କରି ସ୍ନେହରେ ଆଲିଙ୍ଗନ କରେ। ଏହି ଚିତ୍ରଗୁଡ଼ିକ ପ୍ରକୃତିକୁ ମାନବୀୟ ଭାବନାରେ ପୂର୍ଣ୍ଣ କରିଛି।</p>
+</section>
+
+<section class="slide">
+<h2>୩୮. ତୁମ ପାଇଁ କାମ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ଅଧ୍ୟାୟ ପଢ଼ି ନିଜେ ଅଭ୍ୟାସ କରିବା।</div>
+<ol>
+<li>କବି ଗଙ୍ଗାଧର ମେହେରଙ୍କ ରଚିତ <b>ତପସ୍ଵିନୀ</b> କାବ୍ୟଟି ଅବସର ସମୟରେ ପଢ଼।</li>
+<li>ତୁମେ ପଢ଼ିଥିବା ବିଭିନ୍ନ କାବ୍ୟକବିତାରୁ ପ୍ରକୃତି ବର୍ଣ୍ଣନା ଥିବା ଅଂଶ ଟିପା ଖାତାରେ ଲେଖି ରଖ ଏବଂ ଉଦ୍ଧୃତି ରୂପେ ବ୍ୟବହାର କର।</li>
+<li>‘ପ୍ରଭାତ’ ବିଷୟରେ ସ୍କୁଲର ପ୍ରାଚୀର ପତ୍ର ପାଇଁ ଏକ କବିତା ଲେଖିବାକୁ ଚେଷ୍ଟା କର।</li>
+</ol>
+</section>
+
+<section class="slide">
+<h2>୩୯. ସମ୍ପୂର୍ଣ୍ଣ ପ୍ରଶ୍ନାବଳୀ — ନିର୍ଦ୍ଦିଷ୍ଟ ଉତ୍ତରମୂଳକ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ପ୍ରଶ୍ନ ୧–୫ ର ଉତ୍ତରକୁ ଏକାଠି ପୁନରାବୃତ୍ତି କରିବା।</div>
+<table>
+<tr><th>ପ୍ରଶ୍ନ</th><th>ଉତ୍ତର</th></tr>
+<tr><td>୧. “ବିକଚ ରାଜୀବ ଦୃଶା”</td><td>ପ୍ରସ୍ଫୁଟିତ ପଦ୍ମଫୁଲର ସୌନ୍ଦର୍ଯ୍ୟଯୁକ୍ତ ଆଖି ଯାହାର</td></tr>
+<tr><td>୨. “ଅରୁଣ କଷାୟ ବାସ”</td><td>ଅରୁଣ ରଙ୍ଗର କଷାୟ ବସ୍ତ୍ର</td></tr>
+<tr><td>୩. ଉଷାଙ୍କ ପ୍ରଶଂସା</td><td>“ତୁମେ ତିମିର ବିଧ୍ୱଂସି, ରବି-ଆଗମନ-ଶଂସୀ...”</td></tr>
+<tr><td>୪. ବୈଦେହୀ</td><td>ବିଦେହର କନ୍ୟା</td></tr>
+<tr><td>୫. ରୂପକ କର୍ମଧାରୟ ନୁହେଁ</td><td>ବୀଣାଝଙ୍କାର</td></tr>
+</table>
+</section>
+
+<section class="slide">
+<h2>୪୦. ପ୍ରଶ୍ନାବଳୀ — ୧୦–୩୪ ତ୍ୱରିତ ପୁନରାବୃତ୍ତି</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ୨୫ଟି କ୍ଷୁଦ୍ର ପ୍ରଶ୍ନର ଉତ୍ତରକୁ keyword ଭାବରେ ମନେ ରଖିବା।</div>
+<table>
+<tr><th>ନଂ</th><th>ମୁଖ୍ୟ ଉତ୍ତର-ସଙ୍କେତ</th></tr>
+<tr><td>୧୦</td><td>ଉଷା → ସୀତା</td></tr>
+<tr><td>୧୧</td><td>ଦର୍ଶନ + ଦୁଃଖ ଉପଶମ + ନବଜୀବନ</td></tr>
+<tr><td>୧୨</td><td>“ମଙ୍ଗଳେ ଅଇଲା ଉଷା”</td></tr>
+<tr><td>୧୩</td><td>ନୀହାର-ମୁକ୍ତା</td></tr>
+<tr><td>୧୪</td><td>କରପଲ୍ଲବ</td></tr>
+<tr><td>୧୫</td><td>ସତୀଙ୍କ ବାସ-ବାହାର ପ୍ରାଙ୍ଗଣ</td></tr>
+<tr><td>୧୬</td><td>ଉଷା — କଳକଣ୍ଠ ପରି</td></tr>
+<tr><td>୧୭</td><td>ଅରୁଣ କଷାୟ ବାସ</td></tr>
+<tr><td>୧୮</td><td>କୁସୁମକାନ୍ତି, ପ୍ରଶାନ୍ତ ରୂପ</td></tr>
+<tr><td>୧୯</td><td>ନବ ଜୀବନ ଦେବା</td></tr>
+<tr><td>୨୦</td><td>ସମୀର–ଭ୍ରମର–ସୁରଭି–ପକ୍ଷୀମାନଙ୍କ ମଙ୍ଗଳ ପରିବେଶ</td></tr>
+<tr><td>୨୧</td><td>ସୀତାଙ୍କ ପ୍ରତି ସମ୍ମାନ/ରାଜଲକ୍ଷ୍ମୀ ରୂପ</td></tr>
+<tr><td>୨୨</td><td>ପ୍ରଭାତୀୟ ବେଦସ୍ୱନ</td></tr>
+<tr><td>୨୩</td><td>ବନ ଉଜ୍ଜ୍ୱଳ</td></tr>
+<tr><td>୨୪</td><td>ବ୍ରହ୍ମଚାରିଣୀ ତପସ୍ୱିନୀ</td></tr>
+<tr><td>୨୫</td><td>ବୈଦେହି; ଉଷାଙ୍କ ଦର୍ଶନ</td></tr>
+<tr><td>୨୬</td><td>ଶିଶିରବିନ୍ଦୁରେ ସୂର୍ଯ୍ୟକିରଣର ପ୍ରତିବିମ୍ବ</td></tr>
+<tr><td>୨୭</td><td>ଶୋକାକୁଳ ହୃଦୟ; ରାମସ୍ମୃତି</td></tr>
+<tr><td>୨୮</td><td>ତିମିର-ବିଧ୍ୱଂସୀ, ରବି-ଆଗମନ-ଶଂସୀ</td></tr>
+<tr><td>୨୯</td><td>ଶୁଭ୍ର ସଉରଭ ଓ ଶୁଭ-ସମ୍ପାଦିନୀ ପ୍ରଶଂସା</td></tr>
+<tr><td>୩୦</td><td>ସୀତା → ଉଷା</td></tr>
+<tr><td>୩୧</td><td>ତମସା = ଆଶ୍ରମଧାତ୍ରୀ</td></tr>
+<tr><td>୩୨</td><td>କୁସୁମ + ସୁବାସିତ ନୀର + ମଙ୍ଗଳ ପ୍ରଦୀପ</td></tr>
+<tr><td>୩୩</td><td>ତରଙ୍ଗ-କରରେ ଆଲିଙ୍ଗନ</td></tr>
+<tr><td>୩୪</td><td>ସୀତା ରାଜଲକ୍ଷ୍ମୀ; ତମସା ଭାଗ୍ୟବତୀ</td></tr>
+</table>
+</section>
+
+<section class="slide">
+<h2>୪୧. ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ — ତ୍ୱରିତ ମାନଚିତ୍ର</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ୩୫–୩୮ ଉଦ୍ଧୃତିର ଭାବକୁ ଚାରିଟି ମୁଖ୍ୟ ଶବ୍ଦରେ ମନେ ରଖିବା।</div>
+<div class="timeline">
+<div class="step"><b>୩୫</b><br>ନବ ଜୀବନ</div><div class="arrow">→</div>
+<div class="step"><b>୩୬</b><br>ବୀଣାଝଙ୍କାର ପରି ମଧୁର ଧ୍ୱନି</div><div class="arrow">→</div>
+<div class="step"><b>୩୭</b><br>ତମସାର ଭାଗ୍ୟ</div><div class="arrow">→</div>
+<div class="step"><b>୩୮</b><br>ଉଷାର ପ୍ରଶଂସା</div>
+</div>
+</section>
+
+<section class="slide">
+<h2>୪୨. ଶେଷ ଅଭ୍ୟାସ — ୧୦ଟି ମୁଖ୍ୟ ବିନ୍ଦୁ</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ପରୀକ୍ଷା ପୂର୍ବରୁ ସମଗ୍ର କବିତାକୁ ୧୦ଟି ବିନ୍ଦୁରେ ମନେ ପକାଇବା।</div>
+<ol>
+<li>“ମଙ୍ଗଳେ ଅଇଲା ଉଷା” ଗଙ୍ଗାଧର ମେହେରଙ୍କ <b>ତପସ୍ଵିନୀ</b> କାବ୍ୟର ଚତୁର୍ଥ ସର୍ଗରୁ ସଂଗୃହୀତ।</li>
+<li>ଉଷା ସୀତାଙ୍କ ଦର୍ଶନ ପାଇଁ ଆସିଛନ୍ତି।</li>
+<li>ନୀହାର-ମୁକ୍ତା ତାଙ୍କ ଉପହାର।</li>
+<li>ଉଷାଙ୍କ କଣ୍ଠ ମଧୁର; ସେ ସୀତାଙ୍କୁ ଜାଗିବାକୁ ଡାକନ୍ତି।</li>
+<li>ଉଷା ନବ ଜୀବନର ଆଶ୍ୱାସ ଦେଉଛନ୍ତି।</li>
+<li>ପ୍ରଭାତରେ ପ୍ରକୃତିର ବିଭିନ୍ନ ଉପାଦାନ ସଙ୍ଗୀତ ଓ ମଙ୍ଗଳ ପରିବେଶ ସୃଷ୍ଟି କରେ।</li>
+<li>ଅନୁକମ୍ପା ସୀତାଙ୍କୁ ଉଷାଙ୍କ ଦର୍ଶନ ଦେବାକୁ କହନ୍ତି।</li>
+<li>ସୀତାଙ୍କ ହୃଦୟରେ ରାମଙ୍କ ମୂର୍ତ୍ତି ପ୍ରତିବିମ୍ବିତ।</li>
+<li>ତମସା ସୀତାଙ୍କୁ ଫୁଲ, ଜଳ, ପ୍ରଭାତୀ ତାରା ଓ ତରଙ୍ଗର ସ୍ନେହରେ ସ୍ୱାଗତ କରେ।</li>
+<li>ପ୍ରକୃତିକୁ ମାନବୀୟ ଭାବନାରେ ଦେଖାଇବା କବିତାର ମୁଖ୍ୟ ବିଶେଷତ୍ୱମଧ୍ୟରୁ ଗୋଟିଏ।</li>
+</ol>
+</section>
+
+<section class="slide">
+<h2>୪୩. ତ୍ୱରିତ ପୁନରାବୃତ୍ତି ତାଲିକା</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ଶେଷ ମୁହୂର୍ତ୍ତରେ କ’ଣ କ’ଣ ପଢ଼ିବା ଜାଣିବା।</div>
+<table>
+<tr><th>ଅଂଶ</th><th>ମନେ ରଖିବାକୁ</th></tr>
+<tr><td>କବି</td><td>ଗଙ୍ଗାଧର ମେହେର</td></tr>
+<tr><td>କାବ୍ୟ</td><td>ତପସ୍ଵିନୀ — ଚତୁର୍ଥ ସର୍ଗ</td></tr>
+<tr><td>ମୁଖ୍ୟ ପାତ୍ର/ସତ୍ତା</td><td>ଉଷା, ସୀତା, ଅନୁକମ୍ପା, ତମସା</td></tr>
+<tr><td>ଉଷାର ଉଦ୍ଦେଶ୍ୟ</td><td>ଦର୍ଶନ + ଦୁଃଖ ଉପଶମ + ନବ ଜୀବନ</td></tr>
+<tr><td>ଉପହାର</td><td>ନୀହାର-ମୁକ୍ତା</td></tr>
+<tr><td>ପ୍ରଭାତ ଧ୍ୱନି</td><td>ସମୀର, ଭ୍ରମର, ବେଦସ୍ୱନ, ଓଁକାର</td></tr>
+<tr><td>ସୀତାଙ୍କ ଅବସ୍ଥା</td><td>ଶୋକ-ଜର୍ଜରିତ ହୃଦୟ; ରାମଙ୍କ ସ୍ମୃତି</td></tr>
+<tr><td>ତମସା</td><td>ଆଶ୍ରମଧାତ୍ରୀ; ସ୍ନେହମୟ ସ୍ୱାଗତ</td></tr>
+<tr><td>ମୁଖ୍ୟ ପ୍ରକୃତି-ଚିତ୍ର</td><td>ପ୍ରକୃତିର ମାନବୀକରଣ</td></tr>
+</table>
+</section>
+
+<section class="slide">
+<h2>୪୪. Final MCQ Quiz</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ପରୀକ୍ଷା ପୂର୍ବରୁ ନିଜର ପ୍ରସ୍ତୁତି ଯାଞ୍ଚ କରିବା।</div>
+<div class="qa"><div class="q">୧. “ମଙ୍ଗଳେ ଅଇଲା ଉଷା” କେଉଁ କାବ୍ୟରୁ ସଂଗୃହୀତ?</div><div class="a">କ) ପ୍ରଣୟ ବଲ୍ଲରୀ &nbsp; ଖ) ତପସ୍ଵିନୀ &nbsp; ଗ) ପଦ୍ମିନୀ &nbsp; ଘ) ଉତ୍କଳ ଲକ୍ଷ୍ମୀ<br><b>ଉତ୍ତର: ଖ) ତପସ୍ଵିନୀ</b></div></div>
+<div class="qa"><div class="q">୨. ଉଷା ଉପହାର ଭାବେ କ’ଣ ଧରିଛନ୍ତି?</div><div class="a">କ) ଫୁଲ &nbsp; ଖ) ନୀହାର-ମୁକ୍ତା &nbsp; ଗ) ଦୀପ &nbsp; ଘ) ବୀଣା<br><b>ଉତ୍ତର: ଖ) ନୀହାର-ମୁକ୍ତା</b></div></div>
+<div class="qa"><div class="q">୩. “ଦରଶନ ଦିଅ ସତି, ରାତି ପାହିଲା” କିଏ କହିଛନ୍ତି?</div><div class="a">କ) ତମସା &nbsp; ଖ) ଅନୁକମ୍ପା &nbsp; ଗ) ଉଷା &nbsp; ଘ) ସୀତା<br><b>ଉତ୍ତର: ଗ) ଉଷା</b></div></div>
+<div class="qa"><div class="q">୪. ଅନୁକମ୍ପା କିଏ?</div><div class="a">କ) ରାଜଲକ୍ଷ୍ମୀ &nbsp; ଖ) ବ୍ରହ୍ମଚାରିଣୀ ତପସ୍ୱିନୀ &nbsp; ଗ) ନଦୀ &nbsp; ଘ) ପକ୍ଷୀ<br><b>ଉତ୍ତର: ଖ) ବ୍ରହ୍ମଚାରିଣୀ ତପସ୍ୱିନୀ</b></div></div>
+<div class="qa"><div class="q">୫. ତମସା କିପରି ସୀତାଙ୍କୁ ସ୍ୱାଗତ କଲା?</div><div class="a">କ) ଗୀତ ଗାଇ &nbsp; ଖ) ତରଙ୍ଗ-କରରେ ଆଲିଙ୍ଗନ କରି &nbsp; ଗ) ଦୀପ ଦେଇ &nbsp; ଘ) ଫୁଲ ଦେଇ<br><b>ଉତ୍ତର: ଖ) ତରଙ୍ଗ-କରରେ ଆଲିଙ୍ଗନ କରି</b></div></div>
+<div class="qa"><div class="q">୬. ସୀତା ଉଷାଙ୍କୁ କେଉଁ ରୂପରେ ପ୍ରଶଂସା କରିଛନ୍ତି?</div><div class="a">କ) ତିମିର-ବିଧ୍ୱଂସୀ ଓ ରବି-ଆଗମନ-ଶଂସୀ &nbsp; ଖ) ଆଶ୍ରମଧାତ୍ରୀ &nbsp; ଗ) ଭାଟ &nbsp; ଘ) ତାପସ<br><b>ଉତ୍ତର: କ)</b></div></div>
+</section>
+
+<section class="slide">
+<h2>୪୫. ଶେଷ ଯାଞ୍ଚ — କିଛି ଛାଡ଼ିଗଲା କି?</h2>
+<div class="objective">ଲକ୍ଷ୍ୟ: ସମ୍ପୂର୍ଣ୍ଣ ପାଠକୁ ଏକଥର ଯାଞ୍ଚ କରିବା।</div>
+<div class="grid">
+<div class="card">✓ କବି ପରିଚୟ</div>
+<div class="card">✓ କବିତାର ପଦ ୧–୧୦</div>
+<div class="card">✓ ପଦ୍ୟାଂଶର ସରଳ ଅର୍ଥ</div>
+<div class="card">✓ କଠିନ ଶବ୍ଦାର୍ଥ</div>
+<div class="card">✓ ମୁଖ୍ୟ ଭାବ</div>
+<div class="card">✓ ପ୍ରକୃତି ଚିତ୍ରଣ</div>
+<div class="card">✓ ନିର୍ଦ୍ଦିଷ୍ଟ ଉତ୍ତରମୂଳକ</div>
+<div class="card">✓ କ୍ଷୁଦ୍ର ଉତ୍ତର ୧୦–୩୪</div>
+<div class="card">✓ ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ ୩୫–୩୮</div>
+<div class="card">✓ ଦୀର୍ଘ ଉତ୍ତର ୩୯–୪୨</div>
+<div class="card">✓ ତୁମ ପାଇଁ କାମ ୪୩–୪୫</div>
+<div class="card">✓ ଶେଷ ପୁନରାବୃତ୍ତି ଓ MCQ</div>
+</div>
+<div class="exam">🎯 <b>Most Important:</b> ଉଷାର ଆଗମନ, ସୀତାଙ୍କ ଅବସ୍ଥା, ତମସାର ସ୍ୱାଗତ, ପ୍ରକୃତିର ମାନବୀକରଣ ଏବଂ ୩୯–୪୨ ଦୀର୍ଘ ଉତ୍ତର ଭଲ ଭାବେ ପ୍ରସ୍ତୁତ କର।</div>
+</section>
+
+<section class="slide hero">
+  <h2 style="color:#fff">ଅନ୍ତିମ ମନେ ରଖିବା ମନ୍ତ୍ର</h2>
+  <p style="font-size:22px"><b>ଉଷା → ଆଲୋକ → ଆଶ୍ୱାସ → ସୀତା → ତମସା → ସ୍ନେହ</b></p>
+  <p>କବିତାର ଘଟଣାକ୍ରମକୁ ଏହି କ୍ରମରେ ମନେ ରଖିଲେ ସମଗ୍ର ପାଠ ପୁନରାବୃତ୍ତି କରିବା ସହଜ ହେବ।</p>
+</section>
+
+</main>
+
+<script>
+const slides=[...document.querySelectorAll('.slide')];
+let idx=0;
+function show(n){
+ idx=Math.max(0,Math.min(slides.length-1,n));
+ slides[idx].scrollIntoView({behavior:'smooth',block:'start'});
+ document.getElementById('count').textContent=(idx+1)+' / '+slides.length;
+ document.getElementById('bar').style.width=((idx+1)/slides.length*100)+'%';
+}
+function next(){show(idx+1)}
+function prev(){show(idx-1)}
+window.addEventListener('keydown',e=>{
+ if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){e.preventDefault();next()}
+ if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();prev()}
+});
+show(0);
+</script>
+</body>
+</html>'''
+
+out = Path("/mnt/data/mangale_aila_usha_class10_odisha_complete_lecture.html")
+out.write_text(html, encoding="utf-8")
+print(f"Created: {out}")
+print(f"Size: {out.stat().st_size/1024:.1f} KB")
+print("Slides:", html.count('<section class="slide">'))
