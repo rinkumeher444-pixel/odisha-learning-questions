@@ -1,0 +1,402 @@
+from pathlib import Path
+import html
+
+out = Path("/mnt/data/sarvamsaha_mati_class10_odisha_lecture.html")
+
+poem_stanzas = [
+"""ସରବ ସହଣୀ ମାଟି
+ସବୁରି ଉପରେ ସେନେହ ତୋହର
+ସମାନେ ଦେଇଛୁ ବାଣ୍ଟି।
+ତୋର ମିଠାପାଣି ତୋ' ଧୀର ପବନ
+ଦେହେ ମୋ ଦେଇଛି ବଳ
+ଶକତି ଦେଇଛି ତୃପତି ଦେଇଛି
+ତୋ' ଗଛ ଲତାର ଫଳ।""",
+"""ସବୁଜ ଘାସର କଅଁଳ ବିଛଣା
+ଦିଏ କି ଆରାମ ମତେ
+ମାଆ ପରି ମୋର ଅଳି ଅରଦଳି
+କେତେ ନ ସହିଛୁ ସତେ।
+ଦେହ ଦୁଃଖ ପାଇଁ ସାଇତିଛୁ କେତେ
+ଚେରମୂଳି ଗଛଲତା
+ମନ ସୁଖ ଲାଗି ନଇ ସମୁଦ୍ରରେ
+ଭରିଅଛୁ ହସ କଥା।""",
+"""ବୁକୁ ମୋ ଫୁଲାଏ ଆଖି ମୋ ଭୁଲାଏ
+ତୋ' ବଣ ପକ୍ଷୀର ଡାକ
+ସରଗ ଡାକିଲେ ମନ ବଳେ ନାହିଁ
+ଛାଡ଼ିବାକୁ ତୋର କାଖ।
+ଜନମ କାଳୁ ଯେ ଦେହେ ତୋ' ଆଘାତ
+କେତେ ନ ଦେଇଛି ମୁହିଁ
+ନିଜ ଛୁଆ ବୋଲି ସବୁ ଦୋଷ ସିନା
+କ୍ଷମିଅଛୁ ଏକା ତୁହି।""",
+"""ଯେତେ ରାଗ ରୋଷ କରେ ତୋହ ପାଖେ
+ମାଆ ବୋଲି ଯାଉ ଭୁଲି
+କେତେ ତପ କରି ଏଇ ଜନମରେ
+ଆସିଛି ତୋ' ଦେଶେ ବୁଲି।
+ଅମାପ ଧରିଯୁଁ ଦେଏ ଟିକେ ମତେ
+ନିଦା ହେଉ ମୋର ଛାତି
+ନିଜେ ଦୁଃଖ ସହି ଏ ଜଗତ ପାଇଁ
+ଲାଗିପଡ଼େ ଦିନ ରାତି।""",
+"""ଦିହ ସିନା ତୋର ପାହାଡ଼ ପଥର
+କଅଁଳ ପତର ପ୍ରାଣ
+ଦୁଃଖ ଦଡ଼ମଡ଼ି ସହିବାକୁ ମତେ
+କରି ଦେ ତୋ' ପରି ଟାଣ।
+ତୋର ମୁକତିରେ ମୋର ମୁକତି ମା
+ତୋର ହସେ ମୋର ହସ
+ତୋହରି ଅନ୍ତର ଆଦେଶେ ଚଳେ ମୁଁ
+ଘୋଷି ତୋର ମହାଯଶ।""",
+"""ଚିର ଦୁଃଖର ତୋ' ପାହାନ୍ତି ଅନ୍ଧାର
+ରାତି ଆସୁଅଛି ପାହି
+ସେ ନୂଆ ସପନେ ଫୁଲେ ମୁଁ ଆନନ୍ଦେ
+ଜୟଗାନ ତୋର ଗାଇ।
+ତୁହିଁ ଦେବଭୂମି ତୁହି ବୀରଭୂମି
+ତୁହି ମୋ ଭାରତ ମାଆ
+ତୋର ପାଦଧୂଳି ମୁଣ୍ଡେ ହୋଇ ବୋଳି
+ରଖିବି ତୋହର ନାଆଁ।""",
+"""ଚେତନ-ଗରଭା-ମାଟି
+କେଉଁଠି ହଜିଛି ଖୋଜି ଦେଏ ମୋର
+ଚେତନାର ଚାବିକାଠି।"""
+]
+
+questions = [
+("୧. ଶୂନ୍ୟସ୍ଥାନ ପୂରଣ", [
+"ଦିହ ସିନା ତୋର ପାହାଡ଼ ପଥର ______ ପତର ପ୍ରାଣ। (ସବୁଜ, କଅଁଳ, ବହଳ)",
+"ତୋହରି ଅନ୍ତର ଆଦେଶେ ଚଳେ ମୁଁ ଘୋଷି ତୋର ______। (ଜୟଗାନ, ମହାକୀର୍ତ୍ତି, ମହାଯଶ)",
+"କେଉଁଠି ହଜିଛି ଖୋଜି ଦେଏ ମୋର ______ର ଚାବିକାଠି। (ପ୍ରେରଣା, ଭାବନା, ଚେତନା)",
+"ଅମାପ ଧରିଯୁଁ ଦେଏ ଟିକେ ମତେ ______ ହେଉ ମୋର ଛାତି। (ଟାଣ, ଦୃଢ଼, ନିଦା)"
+]),
+("୨. ବିପରୀତାର୍ଥବୋଧକ ଶବ୍ଦ", ["ଜନ୍ମ, ଦୁଃଖ, ଦୋଷ, ନିଦା, ଧୀର, ଅମାପ, କଅଁଳ, ସ୍ନେହ"]),
+("୩. ଦୁଇଟି ଲେଖାଏଁ ପ୍ରତିଶବ୍ଦ", ["ମା, ଦେହ, ଜଳ, ପବନ, ବୁକୁ, ପାଦ"]),
+("୪. ଗଦ୍ୟରୂପ ଲେଖ", ["ସେନେହ, ମୁକତି, ଶକତି, ତୃପତି, ସରଗ, ସପନ"]),
+("୫. ସାର୍ଥକ ବାକ୍ୟରେ ବ୍ୟବହାର କର", ["ଅମାପ, ଅଳି, ଜୟଗାନ, ଚେତନା, ଆଘାତ"]),
+("୬–୧୫. ଉତ୍ତରମୂଳକ ପ୍ରଶ୍ନ", [
+"କବି କାହାକୁ ସର୍ବସହଣୀ ବୋଲି କହିଛନ୍ତି?",
+"କେଉଁଠାରୁ ଆମେ ଶକ୍ତି ଓ ତୃପ୍ତି ପାଉ ବୋଲି କବି କହିଛନ୍ତି?",
+"ଆମ ମନସୁଖ ଲାଗି ହସକଥା କେଉଁଠାରେ ଭରି ରହିଛି?",
+"କବି କାହାକୁ ମା' ବୋଲି କହିଛନ୍ତି?",
+"ମାଟି ଚେରମୂଳି ଗଛଲତା ସାଇତି ରଖିବା ପଛରେ କି ଉଦ୍ଦେଶ୍ୟ ଅଛି?",
+"ସ୍ୱର୍ଗଠାରୁ ମାଟିର ଆକର୍ଷଣ କବିଙ୍କ ପାଇଁ ଅଧିକ — ଏହା କବିତାର କେଉଁ ପଦରୁ ଜଣାଯାଏ?",
+"କେଉଁ କର୍ମହେତୁ କବି ଏ ଦେଶକୁ ବୁଲିବାକୁ ଆସିଛନ୍ତି?",
+"ମାଟିର ମହାଯଶ ଘୋଷିବାକୁ କବି କାହାଠାରୁ ଆଦେଶ ପାଇଛନ୍ତି?",
+"ମାଟିର ମା' ଆମ ଦୋଷକୁ କାହିଁକି କ୍ଷମା କରିଛି?",
+"ବଣ ପକ୍ଷୀର ଡାକ ଶୁଣି ଦେହରେ କି ଭାବ ସୃଷ୍ଟି ହୁଏ?"
+]),
+("୧୬–୧୮. ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ", [
+"ଜନମ କାଳୁ ଯେ ଦେହେ ତୋ' ଆଘାତ / କେତେ ନ ଦେଇଛି ମୁହିଁ / ନିଜ ଛୁଆ ବୋଲି ସବୁ ଦୋଷ ସିନା / କ୍ଷମିଅଛୁ ଏକା ତୁହି।",
+"ଅମାପ ଧରିଯୁଁ ଦେଏ ଟିକେ ମତେ / ନିଦା ହେଉ ମୋର ଛାତି / ନିଜେ ଦୁଃଖ ସହି ଏ ଜଗତ ପାଇଁ / ଲାଗିପଡ଼େ ଦିନ ରାତି।",
+"ତୋର ମୁକତିରେ ମୋର ମୁକତି ମା / ତୋର ହସେ ମୋର ହସ / ତୋହରି ଅନ୍ତର ଆଦେଶେ ଚଳେ ମୁଁ / ଘୋଷି ତୋର ମହାଯଶ।"
+]),
+("୧୯–୨୧. ଦୀର୍ଘ ଉତ୍ତରମୂଳକ", [
+"ପଠିତ କବିତା ଅବଲମ୍ବନରେ ମାଟି ପ୍ରତି କବିଙ୍କ ମନୋଭାବର ପରିଚୟ ପ୍ରଦାନ କର।",
+"ମାଟି ‘ସର୍ବଂସହା’ — ଏହାର ଯଥାର୍ଥତା ପ୍ରତିପାଦନ କର।",
+"କବି ମାଟିମାଆର ଜୟଗାନରେ ଶତମୁଖ — ଏହାକୁ ପଠିତ କବିତା ଅନୁସରଣରେ ବର୍ଣ୍ଣନା କର।"
+]),
+("୨୨–୨୪. ତୁମ ପାଇଁ କାମ", [
+"କବି ବିଦ୍ୟୁତ୍ପ୍ରଭା ଦେବୀଙ୍କର ଅନ୍ୟ କବିତାଗୁଡ଼ିକୁ ସଂଗ୍ରହ କରି ପଢ଼।",
+"ଉକ୍ତ କବିତାଟିକୁ ଆବୃତ୍ତି ଅଥବା ସ୍ୱରସହ ଗାନ କର।",
+"ମାଟି ମା' ଉଦ୍ଦେଶ୍ୟରେ ଲିଖିତ ଅନ୍ୟ କବିମାନଙ୍କର କବିତାଗୁଡ଼ିକୁ ସଂଗ୍ରହ କରି ଶିକ୍ଷକଙ୍କୁ ଦେଖାଅ।"
+])
+]
+
+def esc(s): return html.escape(s).replace("\n","<br>")
+
+stanza_html = ""
+for i, st in enumerate(poem_stanzas, 1):
+    stanza_html += f"""
+    <section class="card stanza">
+      <div class="tag">ପଦ୍ୟାଂଶ {i}</div>
+      <h3>ମୂଳ ପଦ୍ୟ</h3>
+      <div class="poem">{esc(st)}</div>
+      <div class="explain"><b>ସରଳ ବୁଝାମଣା:</b> ଏହି ପଦ୍ୟାଂଶରେ ମାଟିକୁ ମାଆ ପରି ଦେଖାଯାଇଛି। ମାଟି ଦେଇଥିବା ସୁଖ, ଶକ୍ତି, କ୍ଷମା, ଆଶ୍ରୟ ଓ ଦେଶପ୍ରେମର ଭାବକୁ କବି ପ୍ରକାଶ କରିଛନ୍ତି।</div>
+    </section>"""
+
+q_html = ""
+for title, qs in questions:
+    items = "".join(f"<li>{esc(q)}</li>" for q in qs)
+    q_html += f"<section class='card'><div class='tag'>{esc(title)}</div><ol>{items}</ol></section>"
+
+html_doc = f"""<!DOCTYPE html>
+<html lang="or">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="theme-color" content="#123c5a">
+<title>ସର୍ବଂସହା ମାଟି — ଦଶମ ଶ୍ରେଣୀ ଓଡ଼ିଆ</title>
+<style>
+:root{{--navy:#123c5a;--blue:#1e6b8f;--sky:#eaf5fb;--gold:#d79b20;--ink:#17212b;--muted:#536371;--white:#fff;--green:#e9f6ee;--red:#fff0ee;}}
+*{{box-sizing:border-box}}
+html{{scroll-behavior:smooth}}
+body{{margin:0;background:#f4f7f9;color:var(--ink);font-family:"Noto Sans Oriya","Nirmala UI","Kalinga","Lohit Odia",sans-serif;line-height:1.75}}
+header{{background:linear-gradient(135deg,#123c5a,#1e6b8f);color:#fff;padding:28px 18px 22px;position:sticky;top:0;z-index:10;box-shadow:0 3px 15px #0002}}
+.wrap{{max-width:980px;margin:auto}}
+h1{{font-size:clamp(28px,6vw,48px);margin:0 0 6px;font-weight:900}}
+h2{{font-size:clamp(23px,5vw,34px);margin:0 0 14px;color:var(--navy)}}
+h3{{font-size:21px;color:var(--blue);margin:8px 0}}
+p{{margin:8px 0}}
+.nav{{display:flex;gap:8px;overflow:auto;margin-top:16px;padding-bottom:3px}}
+.nav a{{white-space:nowrap;color:#fff;text-decoration:none;border:1px solid #ffffff55;padding:7px 11px;border-radius:999px;font-size:13px}}
+main{{padding:18px}}
+.hero{{background:var(--white);border-radius:22px;padding:25px;margin:8px 0 18px;border:1px solid #dce7ed}}
+.hero-grid{{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:center}}
+.badge{{display:inline-block;background:#fff4d7;color:#755000;padding:5px 10px;border-radius:999px;font-weight:800;font-size:13px}}
+.meta{{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:15px}}
+.meta div{{background:var(--sky);padding:12px;border-radius:14px;text-align:center;font-weight:700}}
+.card{{background:#fff;border:1px solid #dfe7ec;border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 5px 18px #123c5a0b}}
+.grid{{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}}
+.tag{{display:inline-block;background:var(--navy);color:#fff;padding:4px 9px;border-radius:8px;font-size:12px;font-weight:800}}
+.callout{{border-left:6px solid var(--gold);background:#fff8e6;padding:13px 15px;border-radius:12px;margin:12px 0}}
+.remember{{border-left-color:var(--blue);background:var(--sky)}}
+.mistake{{border-left-color:#bd4a38;background:var(--red)}}
+.poem{{font-size:19px;line-height:2.05;background:#fbfcfd;border:1px solid #e5ecef;border-radius:14px;padding:16px;white-space:normal}}
+.explain{{margin-top:12px;background:var(--green);padding:12px;border-radius:12px}}
+table{{width:100%;border-collapse:collapse;overflow:hidden;border-radius:12px}}
+th,td{{border:1px solid #dbe4e9;padding:9px;text-align:left;vertical-align:top}}
+th{{background:var(--navy);color:#fff}}
+.timeline{{display:flex;gap:8px;flex-wrap:wrap;align-items:stretch}}
+.step{{flex:1 1 130px;background:var(--sky);padding:12px;border-radius:14px;text-align:center;font-weight:800}}
+.step:not(:last-child)::after{{content:" →";font-size:20px}}
+.visual{{background:linear-gradient(180deg,#eef8fc,#fff);border-radius:18px;padding:12px;text-align:center;border:1px solid #dcecf3}}
+svg{{max-width:100%;height:auto}}
+.footer{{padding:28px 18px;text-align:center;color:var(--muted);font-size:13px}}
+details{{margin:9px 0;border:1px solid #dfe7ec;border-radius:12px;padding:10px;background:#fff}}
+summary{{cursor:pointer;font-weight:800;color:var(--navy)}}
+ol,ul{{padding-left:25px}}
+.kicker{{font-size:15px;color:#dbeefa;font-weight:700}}
+@media(max-width:720px){{
+  .hero-grid,.grid{{grid-template-columns:1fr}}
+  .meta{{grid-template-columns:1fr}}
+  main{{padding:10px}}
+  .card{{padding:14px}}
+  .poem{{font-size:17px}}
+  header{{position:relative}}
+}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="kicker">ଓଡ଼ିଶା ଦଶମ ଶ୍ରେଣୀ • ଓଡ଼ିଆ</div>
+<h1>ସର୍ବଂସହା ମାଟି</h1>
+<div class="kicker">କବି — ବିଦ୍ୟୁତ୍ପ୍ରଭା ଦେବୀ (୧୯୨୬–୧୯୭୭)</div>
+<div class="nav">
+<a href="#intro">ପରିଚୟ</a><a href="#poem">କବିତା</a><a href="#words">ଶବ୍ଦାର୍ଥ</a><a href="#meaning">ଭାବ</a><a href="#qa">ପ୍ରଶ୍ନାବଳୀ</a><a href="#revision">ପୁନରାବୃତ୍ତି</a>
+</div>
+</div>
+</header>
+
+<main class="wrap">
+<section class="hero" id="intro">
+<div class="hero-grid">
+<div>
+<span class="badge">ପାଠ ଶିଖିବାର ଲକ୍ଷ୍ୟ</span>
+<h2>ମାଟିକୁ ମାଆ ଭାବରେ ବୁଝିବା</h2>
+<p>ଏହି କବିତାରେ ମାଟିର ସହନଶୀଳତା, ସ୍ନେହ, ଦାନଶୀଳତା, କ୍ଷମା ଓ ଦେଶପ୍ରେମର ଭାବକୁ କବି ପ୍ରକାଶ କରିଛନ୍ତି।</p>
+<div class="callout"><b>⭐ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ:</b> କବି ମାଟିକୁ ‘ମା’ ଓ ‘ସର୍ବସହଣୀ’ ଭାବରେ ସମ୍ବୋଧନ କରିଛନ୍ତି।</div>
+</div>
+<div class="visual">
+<svg viewBox="0 0 420 250" role="img" aria-label="ମାଟି, ଗଛ, ପବନ ଓ ପକ୍ଷୀର ଶିକ୍ଷଣମୂଳକ ଚିତ୍ର">
+<rect width="420" height="250" rx="18" fill="#eaf5fb"/>
+<circle cx="330" cy="55" r="30" fill="#f2c85b"/>
+<path d="M0 190 Q100 150 210 190 T420 185 V250 H0Z" fill="#b98a58"/>
+<path d="M115 185 V80 M115 110 Q75 75 55 100 M115 120 Q155 80 175 105 M115 145 Q75 115 50 140 M115 150 Q155 120 190 140" stroke="#2f7d4c" stroke-width="12" fill="none" stroke-linecap="round"/>
+<path d="M260 80 q25 -20 50 0 q-25 20 -50 0" fill="none" stroke="#1e6b8f" stroke-width="5"/>
+<path d="M270 82 l-10 -12 M300 82 l10 -12" stroke="#1e6b8f" stroke-width="5"/>
+<text x="18" y="225" font-size="18" fill="#fff" font-family="sans-serif">ମାଟି → ଜଳ • ପବନ • ଫଳ • ଆଶ୍ରୟ</text>
+</svg>
+</div>
+</div>
+<div class="meta">
+<div>🌱 ସ୍ନେହ</div><div>🛡️ ସହନଶୀଳତା</div><div>🇮🇳 ମାଟିପ୍ରେମ</div>
+</div>
+</section>
+
+<section class="card">
+<h2>କବି ପରିଚୟ</h2>
+<p>ବିଦ୍ୟୁତ୍ପ୍ରଭା ଦେବୀ (୧୯୨୬–୧୯୭୭) ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ଜଣେ ବିଶିଷ୍ଟ କବି। ତାଙ୍କ ସୃଷ୍ଟିରେ ସ୍ୱଦେଶପ୍ରୀତି, ସାଂସ୍କୃତିକ ଚେତନା, ଜୀବନବୋଧ, ଆଧ୍ୟାତ୍ମିକତା ଓ ନିସର୍ଗଦୃଷ୍ଟିର ପ୍ରକାଶ ଦେଖାଯାଏ।</p>
+<div class="callout remember"><b>📌 ମନେ ରଖ:</b> ପଠିତ କବିତାଟି <b>‘ମାଟି ପାଣି ପବନ’</b> କବିତା ପୁସ୍ତକରୁ ସଂଗୃହୀତ।</div>
+</section>
+
+<section id="poem">
+<h2>କବିତା — ପଦ୍ୟାଂଶ ଅନୁସାରେ</h2>
+{stanza_html}
+</section>
+
+<section id="meaning" class="card">
+<h2>କବିତାର ମୁଖ୍ୟ ଭାବ</h2>
+<div class="timeline">
+<div class="step">ମାଟିର ସ୍ନେହ</div><div class="step">ଜୀବନର ଶକ୍ତି</div><div class="step">ସୁଖ ଓ ଆରାମ</div><div class="step">କ୍ଷମା ଓ ସହନଶୀଳତା</div><div class="step">ଦେଶପ୍ରେମ</div><div class="step">ଚେତନାର ଜାଗରଣ</div>
+</div>
+<div class="grid">
+<div class="callout"><b>⭐ ସର୍ବସହଣୀ ମାଟି:</b> ମାଟି ମଣିଷର ଅଳିଅରଦଳି, ଆଘାତ ଓ ଦୋଷ ସହି ମଧ୍ୟ ତାକୁ ଆଶ୍ରୟ ଦେଇଥାଏ।</div>
+<div class="callout"><b>📝 ପରୀକ୍ଷା ପାଇଁ:</b> “ସରଗ ଡାକିଲେ ମନ ବଳେ ନାହିଁ / ଛାଡ଼ିବାକୁ ତୋର କାଖ” — ଏହି ଧାଡ଼ିରେ ମାଟି ପ୍ରତି କବିଙ୍କ ଗଭୀର ଆକର୍ଷଣ ପ୍ରକାଶ ପାଇଛି।</div>
+</div>
+</section>
+
+<section id="words" class="card">
+<h2>କଠିନ ଶବ୍ଦ ଓ ସରଳ ଅର୍ଥ</h2>
+<table>
+<tr><th>ଶବ୍ଦ</th><th>ସରଳ ଅର୍ଥ</th></tr>
+<tr><td>ସର୍ବସହଣୀ</td><td>ସବୁ ଅଳିଅରଦଳି ସହିପାରୁଥିବା</td></tr>
+<tr><td>ଅଳିଅରଦଳି</td><td>ଅଳି ଓ ଅନୁରୋଧ; ଅନେକ ଦାବି</td></tr>
+<tr><td>କ୍ଷମିଅଛୁ</td><td>କ୍ଷମା କରିଛୁ</td></tr>
+<tr><td>ରୋଷ</td><td>ରାଗ</td></tr>
+<tr><td>ଦଡ଼ମଡ଼ି</td><td>ଜଞ୍ଜାଳ / କଷ୍ଟକର ଅବସ୍ଥା</td></tr>
+<tr><td>ମୁକତି</td><td>ମୁକ୍ତି</td></tr>
+<tr><td>ଶକତି</td><td>ଶକ୍ତି</td></tr>
+<tr><td>ତୃପତି</td><td>ତୃପ୍ତି</td></tr>
+<tr><td>ସରଗ</td><td>ସ୍ୱର୍ଗ</td></tr>
+<tr><td>ସପନ</td><td>ସ୍ୱପ୍ନ</td></tr>
+</table>
+</section>
+
+<section class="card">
+<h2>ଚିତ୍ରମାଧ୍ୟମରେ ଧାରଣା</h2>
+<div class="grid">
+<div class="visual">
+<svg viewBox="0 0 360 220">
+<rect width="360" height="220" rx="18" fill="#eef8fc"/>
+<circle cx="180" cy="100" r="60" fill="#c89a63"/>
+<text x="120" y="106" font-size="22" font-weight="700" fill="#fff" font-family="sans-serif">ମାଟି</text>
+<path d="M70 45 L130 75 M290 45 L230 75 M70 170 L130 130 M290 170 L230 130" stroke="#1e6b8f" stroke-width="4"/>
+<text x="18" y="34" font-size="16" font-family="sans-serif">ସ୍ନେହ</text><text x="280" y="34" font-size="16" font-family="sans-serif">ଶକ୍ତି</text>
+<text x="10" y="202" font-size="16" font-family="sans-serif">କ୍ଷମା</text><text x="280" y="202" font-size="16" font-family="sans-serif">ଆଶ୍ରୟ</text>
+</svg>
+</div>
+<div>
+<div class="callout"><b>ମାଟି →</b> ମିଠା ପାଣି + ଧୀର ପବନ + ଗଛଲତାର ଫଳ</div>
+<div class="callout"><b>ମାଟି →</b> ଘାସର କଅଁଳ ବିଛଣା + ଚେରମୂଳି + ବଣପକ୍ଷୀର ଡାକ</div>
+<div class="callout"><b>ମାଟି →</b> କ୍ଷମା + ଧୈର୍ଯ୍ୟ + ଦେଶପ୍ରେମ + ଚେତନା</div>
+</div>
+</div>
+</section>
+
+<section id="qa">
+<h2>ପ୍ରଶ୍ନାବଳୀ — ସମ୍ପୂର୍ଣ୍ଣ</h2>
+{q_html}
+</section>
+
+<section class="card">
+<h2>ପ୍ରଶ୍ନ ୬–୧୫ : ଉତ୍ତର ଲେଖିବା ପାଇଁ ମୁଖ୍ୟ ସଙ୍କେତ</h2>
+<ul>
+<li><b>୬:</b> ମାଟିକୁ — “ସର୍ବସହଣୀ” ବୋଲି କହାଯାଇଛି।</li>
+<li><b>୭:</b> ମିଠା ପାଣି, ଧୀର ପବନ ଓ ଗଛଲତାର ଫଳରୁ ଶକ୍ତି ଓ ତୃପ୍ତି।</li>
+<li><b>୮:</b> ନଇ-ସମୁଦ୍ରରେ ମାଟି ହସକଥା ଭରି ରଖିଛି।</li>
+<li><b>୯:</b> ମାଟିକୁ “ମା'” ବୋଲି କହାଯାଇଛି।</li>
+<li><b>୧୦:</b> ଦେହର ଦୁଃଖ ପାଇଁ ଚେରମୂଳି ଓ ଗଛଲତା ସାଇତି ରଖିବା।</li>
+<li><b>୧୧:</b> ସ୍ୱର୍ଗର ଡାକ ଠାରୁ ମାଟିର କାଖ ଛାଡ଼ିବାକୁ ମନ ନ ଚାହିବା ଧାଡ଼ି।</li>
+<li><b>୧୨:</b> ମାଟି ଦେଶରେ ବୁଲିବା ଓ ତାହାର ମହାଯଶ ଘୋଷିବାର ଭାବ।</li>
+<li><b>୧୩:</b> ମାଟିର ଅନ୍ତର ଆଦେଶରେ ଚଳିବା।</li>
+<li><b>୧୪:</b> ନିଜ ଛୁଆ ବୋଲି ମାଟି ମଣିଷର ଦୋଷ କ୍ଷମା କରିଛି।</li>
+<li><b>୧୫:</b> ବଣପକ୍ଷୀର ଡାକରେ ବୁକୁ ଫୁଲେ ଓ ଆଖି ଭୁଲେ; ମାଟି ପ୍ରତି ଆନନ୍ଦ ଓ ଆକର୍ଷଣ ଜାଗେ।</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ — କିପରି ଲେଖିବେ</h2>
+<div class="grid">
+<div>
+<h3>୧୬ ନମ୍ବର</h3>
+<p><b>ଭାବ:</b> କବି ମାଟିକୁ ମାଆ ଭାବରେ ମାନିଛନ୍ତି। ଜୀବନରେ ମାଟିକୁ ଯେତେ ଆଘାତ ଦେଇଥିଲେ ମଧ୍ୟ, ମାଟି ନିଜ ଛୁଆ ଭାବି ସବୁ ଦୋଷ କ୍ଷମା କରିଛି।</p>
+</div>
+<div>
+<h3>୧୭ ନମ୍ବର</h3>
+<p><b>ଭାବ:</b> କବି ମାଟି ପରି ଦୃଢ଼ ହେବାକୁ ଚାହୁଁଛନ୍ତି। ନିଜେ ଦୁଃଖ ସହି ଜଗତ ପାଇଁ ଦିନରାତି କାମ କରିବାର ଆଦର୍ଶ ଏଠାରେ ଦେଖାଯାଏ।</p>
+</div>
+<div>
+<h3>୧୮ ନମ୍ବର</h3>
+<p><b>ଭାବ:</b> ମାଟିର ମୁକ୍ତିକୁ ନିଜର ମୁକ୍ତି, ମାଟିର ହସକୁ ନିଜର ହସ ଭାବି କବି ତାହାର ଆଦେଶରେ ଚାଲି ମହାଯଶ ଘୋଷଣା କରିବାକୁ ଚାହୁଁଛନ୍ତି।</p>
+</div>
+</div>
+</section>
+
+<section class="card">
+<h2>ଦୀର୍ଘ ଉତ୍ତର ପାଇଁ ଗଠନ</h2>
+<div class="timeline">
+<div class="step">ପ୍ରସ୍ତାବନା</div><div class="step">କବିଙ୍କ ମନୋଭାବ</div><div class="step">ମାଟିର ଗୁଣ</div><div class="step">ଉଦାହରଣ/ପଦ୍ୟଧାଡ଼ି</div><div class="step">ଉପସଂହାର</div>
+</div>
+<div class="callout">📝 <b>ପରୀକ୍ଷା ପାଇଁ:</b> ଉତ୍ତର ଲେଖିବା ବେଳେ କବିତାର ମୁଖ୍ୟ ଭାବ ସହିତ ସମ୍ପର୍କିତ ପଦ୍ୟଧାଡ଼ି ଦେଲେ ଉତ୍ତର ଅଧିକ ସ୍ପଷ୍ଟ ହୁଏ।</div>
+</section>
+
+<section id="revision">
+<h2>ଶେଷ ପୁନରାବୃତ୍ତି</h2>
+<div class="card">
+<h3>୧. ପାଠର ୧୦–୧୫ଟି ମୁଖ୍ୟ ବିନ୍ଦୁ</h3>
+<ol>
+<li>ମାଟି ସର୍ବସହଣୀ।</li>
+<li>ମାଟି ସବୁଙ୍କୁ ସମାନ ସ୍ନେହ ଦିଏ।</li>
+<li>ମିଠା ପାଣି ଓ ଧୀର ପବନ ଦେହକୁ ବଳ ଦିଏ।</li>
+<li>ଗଛଲତାର ଫଳ ଶକ୍ତି ଓ ତୃପ୍ତି ଦିଏ।</li>
+<li>ଘାସର କଅଁଳ ବିଛଣା ଆରାମ ଦିଏ।</li>
+<li>ଚେରମୂଳି ଓ ଗଛଲତା ଦେହଦୁଃଖ ପାଇଁ ଉପକାରୀ।</li>
+<li>ବଣପକ୍ଷୀର ଡାକ ମାଟି ପ୍ରତି ଆକର୍ଷଣ ବଢ଼ାଏ।</li>
+<li>ମାଟି ମଣିଷର ଦୋଷ କ୍ଷମା କରେ।</li>
+<li>କବି ମାଟିକୁ ନିଜ ମାଆ ଭାବିଛନ୍ତି।</li>
+<li>ମାଟି ପରି ଦୃଢ଼ ହେବାକୁ କବି ଇଚ୍ଛା କରିଛନ୍ତି।</li>
+<li>କବି ମାଟିର ମହାଯଶ ଘୋଷିବାକୁ ଚାହୁଁଛନ୍ତି।</li>
+<li>ମାଟି ଦେବଭୂମି, ବୀରଭୂମି ଓ ଭାରତମାଆ ଭାବେ ପ୍ରକାଶିତ।</li>
+<li>ମାଟିର ମୁକ୍ତି ସହ କବି ନିଜ ମୁକ୍ତିକୁ ଯୋଡ଼ିଛନ୍ତି।</li>
+<li>ମାଟିର ଚେତନା ହିଁ କବିଙ୍କ ପାଇଁ ଚେତନାର ଚାବିକାଠି।</li>
+</ol>
+</div>
+
+<div class="card">
+<h3>୨. ଦ୍ରୁତ ପୁନରାବୃତ୍ତି ତାଲିକା</h3>
+<table>
+<tr><th>ଧାରଣା</th><th>ମନେ ରଖିବା କଥା</th></tr>
+<tr><td>ମାଟିର ଗୁଣ</td><td>ସ୍ନେହ, ସହନଶୀଳତା, କ୍ଷମା, ଦୃଢ଼ତା</td></tr>
+<tr><td>ମାଟିର ଦାନ</td><td>ପାଣି, ପବନ, ଫଳ, ଚେରମୂଳି, ଆଶ୍ରୟ</td></tr>
+<tr><td>କବିଙ୍କ ଭାବ</td><td>ମାଟିପ୍ରେମ, ଆକର୍ଷଣ, ଶ୍ରଦ୍ଧା, ଜୟଗାନ</td></tr>
+<tr><td>ଦେଶଭାବ</td><td>ଦେବଭୂମି, ବୀରଭୂମି, ଭାରତମାଆ</td></tr>
+<tr><td>ଶେଷ ଧାରଣା</td><td>ଚେତନାର ଚାବିକାଠି</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h3>୩. ଅତ୍ୟନ୍ତ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ପ୍ରଶ୍ନ</h3>
+<ul>
+<li>କବି କାହାକୁ ସର୍ବସହଣୀ ବୋଲି କହିଛନ୍ତି?</li>
+<li>ମାଟି ‘ସର୍ବଂସହା’ — ଏହାର ଯଥାର୍ଥତା ପ୍ରତିପାଦନ କର।</li>
+<li>ମାଟି ପ୍ରତି କବିଙ୍କ ମନୋଭାବ ବର୍ଣ୍ଣନା କର।</li>
+<li>ମାଟିମାଆର ଜୟଗାନରେ କବି କିପରି ଶତମୁଖ ହୋଇଛନ୍ତି?</li>
+<li>“ତୋର ମୁକତିରେ ମୋର ମୁକତି ମା” — ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ ଲେଖ।</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>୪. ଦ୍ରୁତ MCQ</h3>
+<ol>
+<li>‘ସର୍ବସହଣୀ’ କାହାକୁ କୁହାଯାଇଛି? <b>ମାଟିକୁ</b></li>
+<li>ମାଟିର ମିଠାପାଣି ଓ ଧୀର ପବନ ଦେହକୁ କ’ଣ ଦିଏ? <b>ବଳ</b></li>
+<li>ମାଟିର ଗଛଲତାର ଫଳ କ’ଣ ଦିଏ? <b>ଶକ୍ତି ଓ ତୃପ୍ତି</b></li>
+<li>କବି କାହାକୁ ‘ମା’ ବୋଲି କହିଛନ୍ତି? <b>ମାଟିକୁ</b></li>
+<li>କବି କାହାର ମହାଯଶ ଘୋଷିବାକୁ ଚାହୁଁଛନ୍ତି? <b>ମାଟିର</b></li>
+<li>“ତୋର ମୁକତିରେ ମୋର ମୁକତି” — ଏଠାରେ ‘ତୋର’ କାହାକୁ ସୂଚାଏ? <b>ମାଟିକୁ</b></li>
+</ol>
+</div>
+
+<div class="card">
+<h3>୫. ଉତ୍ତର ଯାଞ୍ଚ</h3>
+<div class="callout remember">📌 ମନେ ରଖ: ଶୂନ୍ୟସ୍ଥାନ ପାଇଁ ଠିକ୍ ଶବ୍ଦ — <b>କଅଁଳ, ମହାଯଶ, ଚେତନା, ନିଦା</b>।</div>
+<div class="callout mistake">⚠️ ସାଧାରଣ ଭୁଲ: କବିତାର ଶବ୍ଦଗୁଡ଼ିକୁ ନିଜ ମନରୁ ବଦଳାଇ ଲେଖନି। ପ୍ରଶ୍ନରେ ଦିଆଯାଇଥିବା ଶବ୍ଦ ଓ ପଦ୍ୟଧାଡ଼ିର ଅର୍ଥକୁ ଧ୍ୟାନ ଦିଅ।</div>
+</div>
+</section>
+
+<section class="card">
+<h2>ସମ୍ପୂର୍ଣ୍ଣତା ଯାଞ୍ଚ</h2>
+<ul>
+<li>ପାଠ ପରିଚୟ ଓ କବି ପରିଚୟ</li>
+<li>ସମ୍ପୂର୍ଣ୍ଣ କବିତା — ସମସ୍ତ ପଦ୍ୟାଂଶ</li>
+<li>କଠିନ ଶବ୍ଦ ଓ ସରଳ ଅର୍ଥ</li>
+<li>ମୁଖ୍ୟ ଭାବ ଓ ଚିତ୍ରମାଧ୍ୟମରେ ଧାରଣା</li>
+<li>ପ୍ରଶ୍ନ ୧–୨୪ ସମ୍ମିଳିତ</li>
+<li>ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ ପାଇଁ ବ୍ୟାଖ୍ୟା</li>
+<li>ଦୀର୍ଘ ଉତ୍ତର ପାଇଁ ଲେଖନ ଗଠନ</li>
+<li>ଶେଷ ପୁନରାବୃତ୍ତି ଓ MCQ</li>
+</ul>
+</section>
+</main>
+<div class="footer">ଦଶମ ଶ୍ରେଣୀ • ଓଡ଼ିଆ • ସର୍ବଂସହା ମାଟି</div>
+</body>
+</html>"""
+
+out.write_text(html_doc, encoding="utf-8")
+print(out)
+print("bytes:", out.stat().st_size)
