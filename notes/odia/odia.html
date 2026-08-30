@@ -1,213 +1,541 @@
-from pathlib import Path
-import html, textwrap, re
-
-out = Path("/mnt/data/Odisha_Class10_Odia_Sahitya_Katha_Modern_Lecture.html")
-
-sections = [
-("ପାଠ ପରିଚୟ","ଓଡ଼ିଆ ସାହିତ୍ୟ କଥା — ଆଧୁନିକ ଭାଗ (୧୮୭୦–)",[
-"ଊନବିଂଶ ଶତାବ୍ଦୀରେ ଓଡ଼ିଶାର ସାମାଜିକ, ଶିକ୍ଷାଗତ ଓ ଭାଷାଗତ ପରିସ୍ଥିତି ମଧ୍ୟରୁ ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ନୂଆ ଯାତ୍ରା ଆରମ୍ଭ ହେଲା।",
-"୧୮୬୬ର ନଅଙ୍କ ଦୁର୍ଭିକ୍ଷ ଓଡ଼ିଆ ଜାତିର ଜାଗରଣର ଏକ ମୁଖ୍ୟ ପୃଷ୍ଠଭୂମି ହେଲା।",
-"ମାତୃଭାଷା ଓ ମାତୃଭୂମି ପ୍ରତି ପ୍ରେମ ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ବିକାଶକୁ ଶକ୍ତି ଦେଲା।"
-]),
-("ଜାଗରଣର ପୃଷ୍ଠଭୂମି","ଅନ୍ଧକାରରୁ ନବଜାଗରଣ",[
-"୧୮୨୨ ମସିହାରୁ ଖ୍ରୀଷ୍ଟିୟାନ ମିଶନାରୀମାନେ ଓଡ଼ିଶାରେ ମିଶନ ସ୍କୁଲ ପ୍ରତିଷ୍ଠା କରି ଶିକ୍ଷାଦାନର ବ୍ୟବସ୍ଥା କଲେ।",
-"ଭୟ, ଆତଙ୍କ, ଅଶିକ୍ଷା ଓ ଅନ୍ଧବିଶ୍ୱାସ ମଧ୍ୟରେ ଜାତିର ନିର୍ବେଦତା ଦେଖାଦେଇଥିଲା।",
-"ନଅଙ୍କ ଦୁର୍ଭିକ୍ଷ (୧୮୬୬) ପରେ ଆତ୍ମଜାଗୃତି ଓ ଜାତୀୟ ଚେତନା ଅଧିକ ତୀବ୍ର ହେଲା।"
-]),
-("ପତ୍ରପତ୍ରିକାର ଭୂମିକା","ଆଧୁନିକ ସାହିତ୍ୟର ବାର୍ତ୍ତାବହ",[
-"ଗୌରୀଶଙ୍କର ରାୟଙ୍କ ପ୍ରତିଷ୍ଠିତ ଓ ସମ୍ପାଦିତ ‘ଉତ୍କଳ ଦୀପିକା’ (୧୮୬୬) ଜାତୀୟ ଜାଗରଣର ସ୍ୱରକୁ ପ୍ରଚାର କଲା।",
-"‘ବାଲେଶ୍ୱର ସମ୍ବାଦ ବାହିକା’ (୧୮୬୮), ‘ଉତ୍କଳ ହିତୈଷିଣୀ’ (୧୮୬୯), ‘ଉତ୍କଳ ପୁତ୍ର’ (୧୮୭୩), ‘ଉତ୍କଳ ସାହିତ୍ୟ’ (୧୮୯୭), ‘ମୁକୁର’ (୧୯୦୬), ‘ସତ୍ୟବାଦୀ’ (୧୯୧୫) ଆଦି ପତ୍ରପତ୍ରିକା ସାହିତ୍ୟ ବିକାଶର ମାଧ୍ୟମ ହେଲା।",
-"ଏହି ପତ୍ରପତ୍ରିକାମାନେ ଆଧୁନିକ ଲେଖକମାନଙ୍କ ଆତ୍ମପ୍ରକାଶର ମଞ୍ଚ ହେଲା।"
-]),
-("ଆଧୁନିକତାର ଉଦୟ","ନୂଆ ରୁଚି • ନୂଆ ଚେତନା • ନୂଆ ସାହିତ୍ୟ",[
-"୧୮୭୦ ମସିହା ବେଳକୁ ଓଡ଼ିଶାରେ ନବଶିକ୍ଷିତ ଗୋଷ୍ଠୀର ଆବିର୍ଭାବ ଘଟିଲା।",
-"ଓଡ଼ିଆ ଭାଷାକୁ ହଟାଇବାର ସରକାରୀ ଉଦ୍ୟମ ବିରୋଧରେ ୧୮୬୯/୭୦ରେ ଭାଷା-ସୁରକ୍ଷା ଆନ୍ଦୋଳନ ଆରମ୍ଭ ହେଲା।",
-"କାବ୍ୟ, କବିତା, ଗଳ୍ପ, ଉପନ୍ୟାସ, ନାଟକ, ପ୍ରବନ୍ଧ, ରମ୍ୟରଚନା, ଜୀବନୀ, ଆତ୍ମଜୀବନୀ, ଭ୍ରମଣକାହାଣୀ ଓ ସମାଲୋଚନା ପରି ନୂଆ ସାହିତ୍ୟ ରୂପର ବିକାଶ ହେଲା।"
-]),
-("ଯୁଗ ବିଭାଗ","ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ୬ଟି ପର୍ବ",[
-"୧. ରାଧାନାଥ ଯୁଗ ବା ଆଧୁନିକ ଯୁଗ",
-"୨. ସତ୍ୟବାଦୀ ପର୍ବ",
-"୩. ସବୁଜ ପର୍ବ",
-"୪. ପ୍ରଗତି ପର୍ବ",
-"୫. ଅତ୍ୟାଧୁନିକ ପର୍ବ",
-"୬. ଉତ୍ତର-ଆଧୁନିକ ପର୍ବ"
-]),
-("ରାଧାନାଥ ଯୁଗ","ଆଧୁନିକ ଯୁଗର ଆଦିପର୍ବ (୧୮୭୦–୧୯୨୦)",[
-"କବିବର ରାଧାନାଥ ରାୟ (୧୮୪୮–୧୯୦୮) ଏହି ଯୁଗର ପ୍ରମୁଖ ସ୍ରଷ୍ଟା। ‘ବିବେକୀ’ (୧୮୭୩) ଓଡ଼ିଆ ସାହିତ୍ୟର ପ୍ରଥମ ପ୍ରବନ୍ଧ ଭାବେ ଉଲ୍ଲେଖିତ।",
-"‘ଇତାଲୀୟ ଯୁବା’ (୧୮୭୪), ‘କେଦାରଗୌରୀ’, ‘ଉଷା’, ‘ଚନ୍ଦ୍ରଭାଗା’, ‘ନନ୍ଦିକେଶ୍ୱରୀ’, ‘ପାର୍ବତୀ’, ‘ଚିଲିକା’, ‘ମହାଯାତ୍ରା’, ‘ଦରବାର’ ଆଦି ତାଙ୍କ କୃତି।",
-"ଇତିହାସ ଓ ଐତିହ୍ୟପ୍ରୀତି, ଉତ୍କଳୀୟ ଓ ଭାରତୀୟ ଜାତୀୟତାବୋଧ, ପ୍ରକୃତିବନ୍ଦନା, ସୌନ୍ଦର୍ଯ୍ୟବୋଧ ଓ ନୈତିକତାବୋଧ ତାଙ୍କ ସାହିତ୍ୟର ମୁଖ୍ୟ ଦିଗ।"
-]),
-("ଭକ୍ତକବି ମଧୁସୂଦନ ରାଓ","ଆଦର୍ଶବାଦ ଓ ନୈତିକତା",[
-"ମଧୁସୂଦନ ରାଓ (୧୮୫୩–୧୯୧୨) ରାଧାନାଥ ରାୟଙ୍କ ପ୍ରିୟ ଶିଷ୍ୟ ଥିଲେ।",
-"‘ବସନ୍ତ ଗାଥା’ ଚତୁର୍ଦ୍ଦଶପଦୀ କବିତାର ସଂକଳନ। ‘କୁସୁମାଞ୍ଜଳି’, ‘ଛାନ୍ଦମାଳା’, ‘କବିତାବଳୀ’, ‘ଉତ୍କଳଗାଥା’ ଆଦି ତାଙ୍କ କୃତି।",
-"ସେ ପ୍ରବନ୍ଧକାର, ଶିଶୁସାହିତ୍ୟିକ ଓ ବ୍ୟଙ୍ଗକବିତାର ଲେଖକ ଭାବେ ମଧ୍ୟ ପରିଚିତ।"
-]),
-("ବ୍ୟାସକବି ଫକୀରମୋହନ ସେନାପତି","ଗଳ୍ପ ଓ ଉପନ୍ୟାସର ଶକ୍ତିଶାଳୀ ସ୍ରଷ୍ଟା",[
-"ଫକୀରମୋହନ ସେନାପତି (୧୮୪୩–୧୯୧୮) ଓଡ଼ିଆ ଭାଷା ସୁରକ୍ଷା ଆନ୍ଦୋଳନର ଅନ୍ୟତମ ମହାରଥୀ।",
-"‘ଉତ୍କଳ ଭ୍ରମଣଂ’ (୧୮୯୨), ‘ଛ ମାଣ ଆଠଗୁଣ୍ଠ’, ‘ଲଛମା’, ‘ମାମୁ’, ‘ପ୍ରାୟଶ୍ଚିତ୍ତ’ ଆଦି ତାଙ୍କ ପ୍ରମୁଖ କୃତି।",
-"‘ରେବତୀ’ (୧୮୯୮) ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ପ୍ରଥମ ଗଳ୍ପ ଭାବେ ଉଲ୍ଲେଖିତ। ‘ଆତ୍ମଚରିତ’ ପ୍ରଥମ ପୂର୍ଣ୍ଣାଙ୍ଗ ଆତ୍ମଚରିତ ଭାବେ ଉଲ୍ଲେଖିତ।"
-]),
-("ଗଙ୍ଗାଧର ମେହେର ଓ ନନ୍ଦକିଶୋର ବଳ","କାବ୍ୟରୁ ପଲ୍ଲୀଜୀବନ ପର୍ଯ୍ୟନ୍ତ",[
-"ଗଙ୍ଗାଧର ମେହେର (୧୮୬୨–୧୯୨୪): ‘ଇନ୍ଦୁମତୀ’, ‘କୀଚକବଧ’, ‘ଉତ୍କଳଲକ୍ଷ୍ମୀ’, ‘ପ୍ରଣୟବଲ୍ଲରୀ’, ‘ତପସ୍ୱିନୀ’, ‘ପଦ୍ମିନୀ’ ଆଦି ତାଙ୍କ କାବ୍ୟ।",
-"ପଲ୍ଲୀକବି ନନ୍ଦକିଶୋର ବଳ (୧୮୭୫–୧୯୨୮) ସରଳ ଲୋକମୁଖର ଭାଷାରେ ପଲ୍ଲୀପ୍ରକୃତି, ପଲ୍ଲୀଜୀବନ ଓ ପଲ୍ଲୀସଂସ୍କୃତିକୁ କବିତାରେ ରୂପ ଦେଲେ।",
-"‘ପଲ୍ଲୀଚିତ୍ର’, ‘ନିର୍ଝରିଣୀ’, ‘ଜନ୍ମଭୂମି’, ‘ବସନ୍ତ କୋକିଳ’, ‘କନକଲତା’ ଆଦି ତାଙ୍କ କୃତି।"
-]),
-("ଆଦିପର୍ବର ଅନ୍ୟ ସ୍ରଷ୍ଟା","ନାଟକ • ଉପନ୍ୟାସ • ପ୍ରବନ୍ଧ • ଭାଷାକୋଷ",[
-"ଜଗମୋହନ ଲାଲଙ୍କ ‘ବାବାଜୀ’ (୧୮୭୭) ତାଙ୍କ ପ୍ରଥମ ନାଟକ।",
-"ଉମେଶଚନ୍ଦ୍ର ସରକାରଙ୍କ ‘ପଦ୍ମମାଳୀ’ (୧୮୮୮) ଓଡ଼ିଆ ସାହିତ୍ୟର ପ୍ରଥମ ପୂର୍ଣ୍ଣାଙ୍ଗ ଉପନ୍ୟାସ ଭାବେ ଉଲ୍ଲେଖିତ।",
-"ବିଶ୍ୱନାଥ କର ‘ଉତ୍କଳ ସାହିତ୍ୟ’ (୧୮୯୭) ପତ୍ରିକାର ସୁଯୋଗ୍ୟ ସମ୍ପାଦକ ଥିଲେ।",
-"ଗୋପାଳଚନ୍ଦ୍ର ପ୍ରହରାଜଙ୍କ ‘ପୂର୍ଣ୍ଣଚନ୍ଦ୍ର ଓଡ଼ିଆ ଭାଷାକୋଷ’ ସାତଖଣ୍ଡରେ ପ୍ରକାଶିତ।"
-]),
-("ସତ୍ୟବାଦୀ ପର୍ବ","ଜାତୀୟ ଚେତନା ଓ ମାନବସେବା (୧୯୦୯–୧୯୨୫)",[
-"ଏହି ପର୍ବର ମୁଖ୍ୟ ଆଦର୍ଶ—ଉତ୍କଳୀୟ ଜାତୀୟ ଚେତନା, ସର୍ବଭାରତୀୟ ଜାତୀୟତାବୋଧ, ମାନବସେବା, ଇତିହାସ-ଐତିହ୍ୟର ପୁନଃଆବିଷ୍କାର ଓ ଜାତୀୟ ଚରିତ୍ର ଗଠନ।",
-"ପଣ୍ଡିତ ଗୋପବନ୍ଧୁ ଦାସ ଏହି ଯୁଗର କର୍ଣ୍ଣଧାର। ୧୯୦୯ରେ ସତ୍ୟବାଦୀ ବନବିଦ୍ୟାଳୟ ପ୍ରତିଷ୍ଠା ହେଲା।",
-"‘ସତ୍ୟବାଦୀ’ (୧୯୧୫) ଓ ‘ସମାଜ’ (୧୯୧୯) ସହ ଗୋପବନ୍ଧୁଙ୍କ ସାହିତ୍ୟ ଓ ଜନଜାଗରଣ ଜଡ଼ିତ।"
-]),
-("ସତ୍ୟବାଦୀର ସାରସ୍ୱତ ସାଧକ","ଗୋପବନ୍ଧୁଙ୍କ ସହଯାତ୍ରୀ",[
-"ପଣ୍ଡିତ ନୀଳକଣ୍ଠ ଦାସ, ପଣ୍ଡିତ ଗୋଦାବରୀଶ ମିଶ୍ର, ପଣ୍ଡିତ କୃପାସିନ୍ଧୁ ମିଶ୍ର, ଆଚାର୍ଯ୍ୟ ହରିହର ଓ ପଣ୍ଡିତ ବାସୁଦେବ ମହାପାତ୍ର ଆଦି ସତ୍ୟବାଦୀ ବନବିଦ୍ୟାଳୟ ସହ ଜଡ଼ିତ ଥିଲେ।",
-"ନୀଳକଣ୍ଠ ଦାସଙ୍କ ‘କୋଣାର୍କ’, ‘ଖାରବେଳ’ ଇତିହାସ-ଆଧାରିତ ଜାତୀୟ ଭାବଧାରାର କାବ୍ୟ।",
-"ଗୋଦାବରୀଶ ମିଶ୍ରଙ୍କ ‘ଆଲେଖିକା’, ‘ଗୀତାୟନ’, ‘କିଶଳୟ’, ‘ଚୟନିକା’, ‘କଳିକା’ ଆଦି ଉଲ୍ଲେଖିତ।"
-]),
-("ସବୁଜ ପର୍ବ","ସ୍ୱପ୍ନ • କଳ୍ପନା • ପ୍ରେମ • ପ୍ରକୃତି (୧୯୨୧–୧୯୩୫)",[
-"ଏହି ପର୍ବର ପାଞ୍ଚ ଯୁବ ଲେଖକ—ଅନ୍ନଦାଶଙ୍କର ରାୟ, କାଳିନ୍ଦୀଚରଣ ପାଣିଗ୍ରାହୀ, ବୈକୁଣ୍ଠନାଥ ପଟ୍ଟନାୟକ, ଶରତଚନ୍ଦ୍ର ମୁଖାର୍ଜୀ ଓ ହରିହର ମହାପାତ୍ର।",
-"ସେମାନଙ୍କ ଲେଖାରେ ସ୍ୱପ୍ନ, କଳ୍ପନା, ପ୍ରେମ, ଯୌବନ, ପ୍ରକୃତି ଓ ସୌନ୍ଦର୍ଯ୍ୟବୋଧର ପ୍ରକାଶ ଦେଖାଗଲା।",
-"କାଳିନ୍ଦୀଚରଣଙ୍କ ସୃଷ୍ଟିମନ ୧୯୩୦ ପରେ କ୍ରମେ ପ୍ରଗତିବାଦୀ ଭାବଧାରା ପ୍ରତି ଆକୃଷ୍ଟ ହେଲା।"
-]),
-("ପ୍ରଗତି ପର୍ବ","ସମାଜମୁଖୀ ନୂଆ ଧାରା",[
-"୧୯୩୦ ପରେ ମାର୍କ୍ସବାଦର ପ୍ରଭାବ ଭାରତରେ ବଢ଼ିଲା।",
-"ଭଗବତୀଚରଣ ପାଣିଗ୍ରାହୀ ୧୯୩୫ ଡିସେମ୍ବରରେ ‘ନବଯୁଗ ସାହିତ୍ୟ ସଂସଦ’ ପ୍ରତିଷ୍ଠା କଲେ; ୧୯୩୬ ମେରେ ‘ଆଧୁନିକ’ ପତ୍ରିକା ପ୍ରକାଶ ପାଇଲା।",
-"ଭଗବତୀଚରଣ, ଅନନ୍ତ ପଟ୍ଟନାୟକ, ସୁନନ୍ଦ କର ଆଦି ଏହି ଧାରା ସହ ଜଡ଼ିତ।",
-"ସଚ୍ଚିଦାନନ୍ଦ ରାଉତରାୟ ପ୍ରଗତିବାଦୀ କବିତାରୁ ପ୍ରୟୋଗବାଦୀ କବିତା ଦିଗକୁ ଗତି କଲେ।"
-]),
-("ସ୍ୱାଧୀନତା ପୂର୍ବ ଓ ପରବର୍ତ୍ତୀ ସୃଷ୍ଟି","କବିତା, ଗଳ୍ପ, ଉପନ୍ୟାସ ଓ ନାଟକର ବିସ୍ତାର",[
-"ସଚ୍ଚିଦାନନ୍ଦ ରାଉତରାୟଙ୍କ ‘ପଲ୍ଲୀଶ୍ରୀ’, ‘ଅଭିଯାନ’, ‘ଭାନୁମତୀର ଦେଶ’, ‘ବାଜିରାଉତ’, ‘ପାଣ୍ଡୁଲିପି’ ଆଦି କବିତା ପୁସ୍ତକ ଉଲ୍ଲେଖିତ।",
-"କାହ୍ନୁଚରଣ ମହାନ୍ତିଙ୍କ ‘ବାଲିରାଜା’, ‘ହା ଅନ୍ନ’, ‘ପଳାତକ’, ‘ଶାସ୍ତି’, ପରେ ‘ଝଞ୍ଜା’, ‘ବଜ୍ରବାହୁ’, ‘ତମସା ତୀରେ’ ଆଦି ଉପନ୍ୟାସ।",
-"ଗୋପୀନାଥ ମହାନ୍ତିଙ୍କ ‘ଦାଦିବୁଢ଼ା’, ‘ପରଜା’, ‘ଅମୃତର ସନ୍ତାନ’, ‘ଶିବଭାଇ’, ‘ଅପହଞ୍ଚ’, ‘ଅନାମ’ ଆଦି ଆଦିବାସୀ ଜୀବନଧାରାକୁ ନେଇ ରଚିତ।"
-]),
-("ନାଟକର ବିକାଶ","ରଙ୍ଗମଞ୍ଚରୁ ନୂଆ ପ୍ରୟୋଗ",[
-"ଅଶ୍ୱିନୀକୁମାର ଘୋଷଙ୍କ ନାଟ୍ୟରଚନା ଓଡ଼ିଆ ନାଟ୍ୟସାହିତ୍ୟର ମଧ୍ୟପର୍ବରେ ଉଲ୍ଲେଖଯୋଗ୍ୟ।",
-"କାଳିଚରଣ ପଟ୍ଟନାୟକ, ରାମଚନ୍ଦ୍ର ମିଶ୍ର, ଗୋପାଳ ଛୋଟରାୟ, ଭଞ୍ଜକିଶୋର ପଟ୍ଟନାୟକ, କମଳଲୋଚନ ମହାନ୍ତି ଆଦିଙ୍କ ଅବଦାନ ଉଲ୍ଲେଖନୀୟ।",
-"ମନୋରଞ୍ଜନ ଦାସଙ୍କ ‘ଆଗାମୀ’, ‘ସାଗର ମନ୍ଥନ’, ‘ଅରଣ୍ୟ ଫସଲ’, ‘ବନହଂସୀ’, ‘ଶବ୍ଦଲିପି’, ‘କାଠଘୋଡ଼ା’, ‘ନନ୍ଦିକାକେଶରୀ’ ଆଦି ନୂତନ ଶୈଳୀର ନାଟକ।"
-]),
-("ଅତ୍ୟାଧୁନିକ ପର୍ବ","ବ୍ୟକ୍ତିଚେତନା ଓ ନୂଆ ପରୀକ୍ଷା",[
-"ସ୍ୱାଧୀନତା ପରେ ପାଶ୍ଚାତ୍ୟ ସଂକ୍ରମଣର ପ୍ରଭାବରେ ଅତ୍ୟାଧୁନିକ ଯୁଗର ଉନ୍ମେଷ ହେଲା।",
-"ସମାଜ ଅପେକ୍ଷା ବ୍ୟକ୍ତି-ମଣିଷ ପ୍ରାଧାନ୍ୟ ଲାଭ କଲା; ସ୍ୱାଧୀନତାର ସ୍ୱପ୍ନଭଙ୍ଗ, ଗଣତନ୍ତ୍ରର ବ୍ୟର୍ଥତା, ଆଦର୍ଶ ଓ ମୂଲ୍ୟବୋଧର ଅବକ୍ଷୟ, ଅସ୍ତିତ୍ୱବାଦୀ ଚେତନା ଆଦି ବିଷୟ ସାହିତ୍ୟରେ ପ୍ରକାଶ ପାଇଲା।",
-"ବ୍ୟକ୍ତି-ସ୍ୱାତନ୍ତ୍ର୍ୟ, ଆତ୍ମଅନ୍ୱେଷା ଓ ନାରୀବାଦ ବିଶେଷ ଗୁରୁତ୍ୱ ପାଇଲା।"
-]),
-("ଉତ୍ତର-ଆଧୁନିକ ପର୍ବ","ମଣିଷ, ପରମ୍ପରା ଓ ଲୋକଚେତନାର ପୁନଃସ୍ଥାପନ",[
-"ଅତ୍ୟାଧୁନିକତାର କିଛି ସୀମାବଦ୍ଧତା ମଧ୍ୟରେ ଉତ୍ତର-ଆଧୁନିକ ପର୍ବର ଉନ୍ମେଷ ହେଲା।",
-"ସାହିତ୍ୟର କେନ୍ଦ୍ରରେ ପୁଣି ମଣିଷକୁ ସ୍ଥାପନ, ପରମ୍ପରାର ଅନୁସନ୍ଧାନ ଓ ପୁନଃସଂସ୍ଥାନ, ଲୋକାନୁଷଙ୍ଗ ଓ ଲୋକାୟତ ଚିନ୍ତାଧାରାକୁ ଗୁରୁତ୍ୱ ଦିଆଗଲା।",
-"ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟ ନିରନ୍ତର ପରୀକ୍ଷା-ନିରୀକ୍ଷା ମାଧ୍ୟମରେ ଆଗକୁ ଗତି କରିଛି।"
-]),
-]
-
-timeline = [
-("୧୮୨୨","ମିଶନ ସ୍କୁଲ ପ୍ରତିଷ୍ଠାର ଆରମ୍ଭ"),
-("୧୮୬୬","ନଅଙ୍କ ଦୁର୍ଭିକ୍ଷ • ‘ଉତ୍କଳ ଦୀପିକା’"),
-("୧୮୬୯/୭୦","ଭାଷା-ସୁରକ୍ଷା ଆନ୍ଦୋଳନ"),
-("୧୮୭୦","ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ଆଦିପର୍ବ"),
-("୧୯୦୯","ସତ୍ୟବାଦୀ ବନବିଦ୍ୟାଳୟ"),
-("୧୯୨୧–୩୫","ସବୁଜ ଚେତନା"),
-("୧୯୩୫–୩୬","ନବଯୁଗ ସାହିତ୍ୟ ସଂସଦ • ‘ଆଧୁନିକ’"),
-("ସ୍ୱାଧୀନତା ପରେ","ଅତ୍ୟାଧୁନିକ → ଉତ୍ତର-ଆଧୁନିକ")
-]
-
-revision = [
-"୧୮୬୬ର ନଅଙ୍କ ଦୁର୍ଭିକ୍ଷ ପରେ ଓଡ଼ିଆ ଜାତୀୟ ଜାଗରଣ ତୀବ୍ର ହେଲା।",
-"‘ଉତ୍କଳ ଦୀପିକା’ (୧୮୬୬) ଜାତୀୟ ଚେତନାର ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ପତ୍ରିକା।",
-"୧୮୬୯/୭୦ର ଭାଷା-ସୁରକ୍ଷା ଆନ୍ଦୋଳନ ଓଡ଼ିଆ ଭାଷାର ସୁରକ୍ଷା ସହ ଜଡ଼ିତ।",
-"ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟକୁ ଛଅଟି ପର୍ବରେ ବିଚାର କରାଯାଇଛି।",
-"ରାଧାନାଥ ଯୁଗ ଆଧୁନିକ ଯୁଗର ଆଦିପର୍ବ।",
-"ଫକୀରମୋହନଙ୍କ ‘ରେବତୀ’ (୧୮୯୮) ପ୍ରଥମ ଆଧୁନିକ ଓଡ଼ିଆ ଗଳ୍ପ ଭାବେ ଉଲ୍ଲେଖିତ।",
-"‘ପଦ୍ମମାଳୀ’ (୧୮୮୮) ପ୍ରଥମ ପୂର୍ଣ୍ଣାଙ୍ଗ ଓଡ଼ିଆ ଉପନ୍ୟାସ ଭାବେ ଉଲ୍ଲେଖିତ।",
-"ସତ୍ୟବାଦୀ ପର୍ବର କେନ୍ଦ୍ରରେ ଜାତୀୟତା, ମାନବସେବା ଓ ଚରିତ୍ରଗଠନ ରହିଛି।",
-"ସବୁଜ ପର୍ବରେ ସ୍ୱପ୍ନ, କଳ୍ପନା, ପ୍ରେମ, ଯୌବନ, ପ୍ରକୃତି ଓ ସୌନ୍ଦର୍ଯ୍ୟବୋଧ ପ୍ରମୁଖ।",
-"ପ୍ରଗତି ପର୍ବରେ ସମାଜମୁଖୀ ଓ ପ୍ରଗତିବାଦୀ ଚେତନା ପ୍ରଭାବଶାଳୀ।",
-"ସ୍ୱାଧୀନତା ପରେ ସାହିତ୍ୟରେ ଦ୍ରୁତ ପରିବର୍ତ୍ତନ ଓ ନୂଆ ପରୀକ୍ଷା ଦେଖାଗଲା।",
-"ଅତ୍ୟାଧୁନିକ ପର୍ବରେ ବ୍ୟକ୍ତି-ସ୍ୱାତନ୍ତ୍ର୍ୟ ଓ ଆତ୍ମଅନ୍ୱେଷା ଗୁରୁତ୍ୱ ପାଇଲା।",
-"ଉତ୍ତର-ଆଧୁନିକ ପର୍ବରେ ମଣିଷ, ପରମ୍ପରା ଓ ଲୋକାୟତ ଚିନ୍ତା ପୁନଃଗୁରୁତ୍ୱ ପାଇଲା।"
-]
-
-qa = [
-("ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ଆଦିପର୍ବକୁ କେଉଁ ଯୁଗ କୁହାଯାଏ?","ରାଧାନାଥ ଯୁଗ ବା ଆଧୁନିକ ଯୁଗ।"),
-("ସତ୍ୟବାଦୀ ପର୍ବର କର୍ଣ୍ଣଧାର କିଏ?","ପଣ୍ଡିତ ଗୋପବନ୍ଧୁ ଦାସ।"),
-("ସବୁଜ ପର୍ବର ଲେଖାରେ କେଉଁ ଭାବଗୁଡ଼ିକ ପ୍ରମୁଖ?","ସ୍ୱପ୍ନ, କଳ୍ପନା, ପ୍ରେମ, ଯୌବନ, ପ୍ରକୃତି ଓ ସୌନ୍ଦର୍ଯ୍ୟବୋଧ।"),
-("‘ରେବତୀ’ର ରଚୟିତା କିଏ?","ଫକୀରମୋହନ ସେନାପତି।"),
-("‘ପଦ୍ମମାଳୀ’ର ରଚୟିତା କିଏ?","ଉମେଶଚନ୍ଦ୍ର ସରକାର।"),
-("ଉତ୍ତର-ଆଧୁନିକ ପର୍ବରେ କେଉଁ ଦିଗଗୁଡ଼ିକ ଗୁରୁତ୍ୱ ପାଇଲା?","ମଣିଷର ପୁନଃସ୍ଥାପନ, ପରମ୍ପରାର ଅନୁସନ୍ଧାନ ଓ ପୁନଃସଂସ୍ଥାନ, ଲୋକାନୁଷଙ୍ଗ ଓ ଲୋକାୟତ ଚିନ୍ତାଧାରା।")
-]
-
-css = """
-:root{--ink:#172033;--muted:#5d667a;--paper:#f6f8fc;--card:#fff;--accent:#6c4cff;--accent2:#0ea5a4;--gold:#f4b740;--rose:#e85778;--line:#e5e9f2}
-*{box-sizing:border-box} html{scroll-behavior:smooth}
-body{margin:0;font-family:"Noto Sans Oriya","Nirmala UI","Kalinga","Lohit Odia",sans-serif;background:var(--paper);color:var(--ink);line-height:1.75}
-.hero{min-height:88vh;padding:70px 7vw 50px;display:grid;place-items:center;background:radial-gradient(circle at 15% 15%,#efeaff,transparent 35%),radial-gradient(circle at 90% 25%,#d9fbf7,transparent 30%),linear-gradient(135deg,#fff,#f5f7ff)}
-.hero-inner{max-width:1100px;width:100%}.kicker{display:inline-block;padding:7px 13px;border:1px solid #d9d1ff;border-radius:999px;background:#f5f1ff;color:#5a3ee6;font-weight:800}
-h1{font-size:clamp(2.4rem,6vw,5.3rem);line-height:1.12;margin:.35em 0 .2em}.subtitle{font-size:clamp(1.05rem,2vw,1.4rem);color:var(--muted);max-width:760px}
-.hero-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:32px}.hero-chip{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:0 10px 30px #24324a0b}
-nav{position:sticky;top:0;z-index:20;background:#ffffffea;backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding:10px 5vw;overflow:auto;white-space:nowrap}
-nav a{display:inline-block;text-decoration:none;color:var(--ink);font-weight:700;padding:8px 11px;border-radius:10px}nav a:hover{background:#f0edff;color:#5b43df}
-main{max-width:1180px;margin:auto;padding:38px 5vw 90px}.section{margin:32px 0 50px;scroll-margin-top:80px}
-.section-head{display:flex;align-items:center;gap:14px;margin-bottom:18px}.num{width:48px;height:48px;display:grid;place-items:center;border-radius:15px;background:linear-gradient(135deg,var(--accent),#8f78ff);color:#fff;font-weight:900;box-shadow:0 8px 22px #6c4cff33}
-h2{font-size:clamp(1.55rem,3vw,2.35rem);margin:0}.eyebrow{font-weight:800;color:var(--accent2);letter-spacing:.02em}
-.grid{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:0 12px 32px #26344f0b}
-.card ul{margin:0;padding-left:1.25em}.card li{margin:.55em 0}.visual{background:linear-gradient(145deg,#f1efff,#eefcf9);display:flex;flex-direction:column;justify-content:center}
-.big-icon{font-size:3.2rem}.key{margin-top:12px;padding:12px 14px;border-left:5px solid var(--gold);background:#fff9e8;border-radius:10px;font-weight:800}
-.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.time{position:relative;background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px}.year{font-size:1.25rem;font-weight:900;color:var(--accent)}
-.era-map{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.era{padding:18px;border-radius:18px;background:#fff;border:1px solid var(--line);font-weight:800;text-align:center}.arrow{color:var(--accent);font-size:1.4rem}
-.qa{display:grid;gap:12px}.qa details{background:#fff;border:1px solid var(--line);border-radius:16px;padding:15px 18px}.qa summary{font-weight:850;cursor:pointer}.answer{margin-top:10px;padding:12px;border-radius:12px;background:#eefaf7;color:#175c55}
-.revision{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.rev{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px}.rev b{color:var(--accent)}
-.table-wrap{overflow:auto;background:#fff;border:1px solid var(--line);border-radius:20px}table{width:100%;border-collapse:collapse;min-width:720px}th,td{padding:14px 16px;border-bottom:1px solid var(--line);text-align:left}th{background:#f2efff}
-.note{padding:16px 18px;border-radius:16px;background:#fff2f5;border:1px solid #ffd7e1}.footer{text-align:center;color:var(--muted);padding:35px}
-@media(max-width:780px){.hero{padding:48px 20px 32px;min-height:auto}.hero-grid,.grid,.timeline,.era-map,.revision{grid-template-columns:1fr}.section{margin-bottom:38px}main{padding:25px 16px 60px}.card{padding:18px}nav{padding-left:8px}}
-@media print{nav{display:none}.hero{min-height:auto}.section{break-inside:avoid}.card{box-shadow:none}}
-"""
-
-nav = ''.join(f'<a href="#s{i}">{html.escape(t)}</a>' for i,(t,_,_) in enumerate(sections,1))
-sec_html=[]
-icons=["📚","🌅","📰","💡","🧭","✍️","🌼","🖋️","🌾","🏛️","🇮🇳","🤝","🌿","⚙️","📖","🎭","🧠","🔄"]
-for i,(title,sub,bullets) in enumerate(sections,1):
-    lis=''.join(f'<li>{html.escape(x)}</li>' for x in bullets)
-    sec_html.append(f"""
-<section class="section" id="s{i}">
-  <div class="section-head"><div class="num">{i:02d}</div><div><div class="eyebrow">ଶିକ୍ଷା ଲକ୍ଷ୍ୟ</div><h2>{html.escape(title)}</h2></div></div>
-  <div class="grid">
-    <article class="card"><h3>{html.escape(sub)}</h3><ul>{lis}</ul>
-      <div class="key">📌 ମନେ ରଖ: ନାମ, ବର୍ଷ, ଯୁଗ, କୃତି ଓ ମୁଖ୍ୟ ଭାବକୁ ଏକାସାଙ୍ଗେ ମନେ ରଖିଲେ ପୁନରାବୃତ୍ତି ସହଜ ହେବ।</div>
-    </article>
-    <aside class="card visual"><div class="big-icon">{icons[(i-1)%len(icons)]}</div><h3>ଦୃଶ୍ୟ ସଙ୍କେତ</h3><p>{html.escape(title)} → {html.escape(sub)}</p><div class="note">⭐ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ: ଏହି ଅଂଶର ତାରିଖ, ଲେଖକ ଓ କୃତିକୁ ଯୋଡ଼ି ପଢ଼।</div></aside>
-  </div>
-</section>""")
-
-timeline_html=''.join(f'<div class="time"><div class="year">{y}</div><div>{d}</div></div>' for y,d in timeline)
-rev_html=''.join(f'<div class="rev"><b>{i+1:02d}.</b> {html.escape(x)}</div>' for i,x in enumerate(revision))
-qa_html=''.join(f'<details><summary>🎯 {html.escape(q)}</summary><div class="answer"><b>ଉତ୍ତର:</b> {html.escape(a)}</div></details>' for q,a in qa)
-
-eras = [
-("ରାଧାନାଥ ଯୁଗ","୧୮୭୦–୧୯୨୦","ଆଧୁନିକତାର ଆଦିପର୍ବ"),
-("ସତ୍ୟବାଦୀ ପର୍ବ","୧୯୦୯–୧୯୨୫","ଜାତୀୟତା • ମାନବସେବା"),
-("ସବୁଜ ପର୍ବ","୧୯୨୧–୧୯୩୫","ସ୍ୱପ୍ନ • ପ୍ରେମ • ପ୍ରକୃତି"),
-("ପ୍ରଗତି ପର୍ବ","୧୯୩୦ ପରବର୍ତ୍ତୀ ଧାରା","ସମାଜମୁଖୀ ଚେତନା"),
-("ଅତ୍ୟାଧୁନିକ ପର୍ବ","ସ୍ୱାଧୀନତା ପରେ","ବ୍ୟକ୍ତି • ଆତ୍ମଅନ୍ୱେଷା"),
-("ଉତ୍ତର-ଆଧୁନିକ ପର୍ବ","ପରବର୍ତ୍ତୀ ଧାରା","ମଣିଷ • ପରମ୍ପରା • ଲୋକଚେତନା")
-]
-rows=''.join(f"<tr><td><b>{a}</b></td><td>{b}</td><td>{c}</td></tr>" for a,b,c in eras)
-
-doc=f"""<!doctype html><html lang="or"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ଓଡ଼ିଆ ସାହିତ୍ୟ କଥା — ଆଧୁନିକ ଭାଗ</title><style>{css}</style></head><body>
-<header class="hero"><div class="hero-inner"><span class="kicker">ଶ୍ରେଣୀ ୧୦ • ଓଡ଼ିଆ</span>
-<h1>ଓଡ଼ିଆ ସାହିତ୍ୟ କଥା<br><span style="color:#6c4cff">ଆଧୁନିକ ଭାଗ — ୧୮୭୦ରୁ</span></h1>
-<p class="subtitle">ସରଳ ବ୍ୟାଖ୍ୟା • ଯୁଗକ୍ରମ • ଲେଖକ–କୃତି ସମ୍ପର୍କ • ପରୀକ୍ଷାମୁଖୀ ପୁନରାବୃତ୍ତି</p>
-<div class="hero-grid"><div class="hero-chip"><b>🎯 ଲକ୍ଷ୍ୟ</b><br>ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର କ୍ରମବିକାଶ ବୁଝିବା</div><div class="hero-chip"><b>🧭 ପଦ୍ଧତି</b><br>ଘଟଣା → ଯୁଗ → ଲେଖକ → କୃତି</div><div class="hero-chip"><b>📝 ପରୀକ୍ଷା ପାଇଁ</b><br>ମୁଖ୍ୟ ତାରିଖ, କୃତି ଓ ଭାବଧାରା</div></div></div></header>
-<nav>{nav}<a href="#timeline">ସମୟରେଖା</a><a href="#revision">ପୁନରାବୃତ୍ତି</a><a href="#qa">ପ୍ରଶ୍ନୋତ୍ତର</a></nav>
+<!doctype html>
+<html lang="or">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ଓଡ଼ିଆ ସାହିତ୍ୟ କଥା — ଆଧୁନିକ ଭାଗ | ଶ୍ରେଣୀ ୧୦</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;500;600;700;800&display=swap');
+:root{--bg:#07111f;--card:#0e1b2d;--card2:#13243a;--text:#f5f7fb;--muted:#b8c6d9;--accent:#6ee7f2;--accent2:#a78bfa;--good:#7ee787;--warn:#ffd166}
+*{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at top,#122746 0,#07111f 46%,#050b14 100%);color:var(--text);font-family:"Noto Sans Oriya","Noto Sans",sans-serif;line-height:1.75}
+header{min-height:70vh;display:grid;place-items:center;padding:40px 7%;text-align:center;background:linear-gradient(135deg,#10243e,#0b1425)}
+.hero{max-width:1050px} .tag{display:inline-block;padding:7px 16px;border:1px solid #45607e;border-radius:999px;color:var(--accent);font-weight:700}
+h1{font-size:clamp(2.3rem,6vw,5.4rem);line-height:1.15;margin:22px 0 14px} .hero p{font-size:clamp(1rem,2vw,1.35rem);color:var(--muted);max-width:850px;margin:0 auto}
+nav{position:sticky;top:0;z-index:10;background:#07111fee;backdrop-filter:blur(14px);border-bottom:1px solid #263852;padding:10px 5%;display:flex;gap:8px;overflow:auto}
+nav a{white-space:nowrap;color:#dce7f4;text-decoration:none;border:1px solid #29415d;border-radius:12px;padding:5px 10px;font-size:.85rem}
+main{max-width:1180px;margin:auto;padding:35px 18px 80px}
+.slide{position:relative;background:linear-gradient(145deg,var(--card),#0a1626);border:1px solid #243952;border-radius:24px;padding:30px clamp(20px,4vw,48px);margin:24px 0;box-shadow:0 18px 50px #0005;overflow:hidden}
+.slide::after{content:"";position:absolute;right:-90px;top:-90px;width:220px;height:220px;border-radius:50%;background:linear-gradient(135deg,#6ee7f233,#a78bfa22);filter:blur(4px)}
+.num{position:absolute;right:24px;top:18px;color:#7890aa;font-weight:800;font-size:1.1rem}
+.objective{display:inline-block;background:#12263c;border:1px solid #2d4967;color:#cde7ff;padding:7px 12px;border-radius:10px;font-size:.9rem}
+h2{font-size:clamp(1.55rem,3vw,2.45rem);margin:18px 0 16px;color:#fff}
+ul{margin:0;padding-left:1.3rem} li{margin:10px 0;color:#e5edf6} li::marker{color:var(--accent)}
+.visual{float:right;width:min(39%,370px);margin:0 0 18px 28px;background:linear-gradient(180deg,#142941,#0a1728);border:1px solid #2b4865;border-radius:20px;padding:18px;text-align:center}
+.visual-title{font-weight:800;color:var(--accent);margin-bottom:14px} .flow{border:1px solid #42627f;border-radius:14px;padding:12px;font-weight:800;background:#10243a}
+.flow.small{font-size:.92rem;color:#d6e4f3} .arrow{font-size:1.8rem;color:var(--accent)}
+@media(max-width:760px){.visual{float:none;width:100%;margin:0 0 18px} .slide{padding:23px 18px}}
+.callout{padding:18px;border-radius:16px;background:#11263b;border-left:5px solid var(--accent);margin:20px 0}
+.exam{border-left-color:var(--warn)} .memory{border-left-color:var(--good)}
+footer{text-align:center;color:#93a7bd;padding:30px;border-top:1px solid #20334b}
+.badge{display:inline-block;margin:4px;padding:5px 10px;border-radius:8px;background:#172b43;border:1px solid #2b4662;color:#d9e7f4}
+</style>
+</head>
+<body>
+<header><div class="hero">
+<span class="tag">ଶ୍ରେଣୀ ୧୦ • ପରୀକ୍ଷା ପ୍ରସ୍ତୁତି</span>
+<h1>ଓଡ଼ିଆ ସାହିତ୍ୟ କଥା</h1>
+<p>ଆଧୁନିକ ଭାଗ — ୧୮୭୦ ପରଠାରୁ ଓଡ଼ିଆ ସାହିତ୍ୟର କ୍ରମବିକାଶ, ପ୍ରମୁଖ ପର୍ବ, ସ୍ରଷ୍ଟା, କୃତି ଓ ପ୍ରଶ୍ନୋତ୍ତର।</p>
+<div style="margin-top:24px">
+<span class="badge">⭐ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ</span><span class="badge">📌 ମନେ ରଖ</span><span class="badge">📝 ପରୀକ୍ଷା ପାଇଁ</span><span class="badge">🎯 ପୁନରାବୃତ୍ତି</span>
+</div>
+</div></header>
+<nav><a href="#s1">1. ପାଠ ପରିଚୟ</a><a href="#s2">2. ପ୍ରାରମ୍ଭିକ ପରିସ୍ଥିତି</a><a href="#s3">3. ଶିକ୍ଷା ଓ ଦୁର୍ଭିକ୍ଷ</a><a href="#s4">4. ଉତ୍କଳଦୀପିକା</a><a href="#s5">5. ନବଜାଗରଣ</a><a href="#s6">6. ଭାଷା ସୁରକ୍ଷା</a><a href="#s7">7. ଛଅଟି ପର୍ବ</a><a href="#s8">8. ରାଧାନାଥ ଯୁଗ</a><a href="#s9">9. କବିବର ରାଧାନାଥ ରାୟ</a><a href="#s10">10. ରାଧାନାଥଙ୍କ କୃତି</a><a href="#s11">11. ଭକ୍ତକବି ମଧୁସୂଦନ ରାଓ</a><a href="#s12">12. ବ୍ୟାସକବି ଫକୀରମୋହନ ସେନାପତି</a><a href="#s13">13. ଫକୀରମୋହନଙ୍କ କୃତି</a><a href="#s14">14. ଗଙ୍ଗାଧର ମେହେର</a><a href="#s15">15. ପଲ୍ଲୀକବି ନନ୍ଦକିଶୋର ବଳ</a><a href="#s16">16. ରାଧାନାଥ ଯୁଗର ଅନ୍ୟମାନେ</a><a href="#s17">17. ସତ୍ୟବାଦୀ ପର୍ବ</a><a href="#s18">18. ସତ୍ୟବାଦୀ ପର୍ବର କୃତି</a><a href="#s19">19. ସବୁଜ ପର୍ବ</a><a href="#s20">20. ପ୍ରଗତି ପର୍ବ</a><a href="#s21">21. ସଚ୍ଚିଦାନନ୍ଦ ରାଉତରାୟ</a><a href="#s22">22. ମାୟାଧର ଓ ରାଧାମୋହନ</a><a href="#s23">23. ଗଳ୍ପ ଓ ଉପନ୍ୟାସ</a><a href="#s24">24. ଆଦିବାସୀ ଜୀବନଧାରା</a><a href="#s25">25. ସୁରେନ୍ଦ୍ର ମହାନ୍ତି</a><a href="#s26">26. ଅତ୍ୟାଧୁନିକ ପର୍ବ</a><a href="#s27">27. ନାଟକର ବିକାଶ</a><a href="#s28">28. ପ୍ରବନ୍ଧ, ରମ୍ୟରଚନା ଓ ସମାଲୋଚନା</a><a href="#s29">29. ସାହିତ୍ୟର ଇତିହାସ ଓ ଶିଶୁସାହିତ୍ୟ</a><a href="#s30">30. ଉତ୍ତର-ଆଧୁନିକ ପର୍ବ</a><a href="#s31">31. ପାଠର ସାରାଂଶ</a><a href="#s32">32. ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଶବ୍ଦ</a><a href="#s33">33. ପାଠ୍ୟପୁସ୍ତକ ନିର୍ଦ୍ଦିଷ୍ଟ ପ୍ରଶ୍ନ</a><a href="#s34">34. କ୍ଷୁଦ୍ର ଉତ୍ତରମୂଳକ</a><a href="#s35">35. କ୍ଷୁଦ୍ର ଉତ୍ତରମୂଳକ</a><a href="#s36">36. କ୍ଷୁଦ୍ର ଉତ୍ତରମୂଳକ</a><a href="#s37">37. ଦୀର୍ଘ ଉତ୍ତର ପାଇଁ</a><a href="#s38">38. ତୁମ ପାଇଁ କାମ</a><a href="#s39">39. ଦ୍ରୁତ ପୁନରାବୃତ୍ତି</a><a href="#s40">40. ଶେଷ ପରୀକ୍ଷା</a><a href="#s41">41. ଉତ୍ତର ସୂଚୀ</a></nav>
 <main>
-<section class="section" id="timeline"><div class="section-head"><div class="num">★</div><div><div class="eyebrow">ଦୃଶ୍ୟ ସମୟରେଖା</div><h2>ଘଟଣାରୁ ସାହିତ୍ୟର ଯାତ୍ରା</h2></div></div><div class="timeline">{timeline_html}</div></section>
-<section class="section"><div class="section-head"><div class="num">6</div><div><div class="eyebrow">Concept Map</div><h2>ଛଅଟି ପର୍ବ — ଏକ ନଜରରେ</h2></div></div><div class="era-map">{"".join(f'<div class="era">{a}<br><small>{b}</small></div>' for a,b,_ in eras)}</div></section>
-{''.join(sec_html)}
-<section class="section" id="revision"><div class="section-head"><div class="num">R</div><div><div class="eyebrow">Final Revision</div><h2>ପାଠର ୧୩ଟି ମୁଖ୍ୟ ବିନ୍ଦୁ</h2></div></div><div class="revision">{rev_html}</div></section>
-<section class="section"><div class="section-head"><div class="num">Q</div><div><div class="eyebrow">Quick Revision Table</div><h2>ଯୁଗ → ସମୟ → ମୁଖ୍ୟ ଦିଗ</h2></div></div><div class="table-wrap"><table><thead><tr><th>ପର୍ବ</th><th>ସମୟ/ପରିପ୍ରେକ୍ଷ୍ୟ</th><th>ମୁଖ୍ୟ ଦିଗ</th></tr></thead><tbody>{rows}</tbody></table></div></section>
-<section class="section" id="qa"><div class="section-head"><div class="num">?</div><div><div class="eyebrow">ପରୀକ୍ଷା ଅଭ୍ୟାସ</div><h2>ଅତି ସଂକ୍ଷିପ୍ତ ଓ ସଂକ୍ଷିପ୍ତ ପ୍ରଶ୍ନୋତ୍ତର</h2></div></div><div class="qa">{qa_html}</div>
-<div class="note" style="margin-top:18px">📝 ପରୀକ୍ଷା ପାଇଁ: ଲେଖକ–କୃତି, ପ୍ରଥମ ସୃଷ୍ଟି, ପତ୍ରପତ୍ରିକା, ଯୁଗର ସମୟସୀମା ଓ ମୁଖ୍ୟ ଭାବଧାରାକୁ ବିଶେଷ ଭାବେ ପୁନରାବୃତ୍ତି କର।</div></section>
-</main><div class="footer">ଓଡ଼ିଆ ସାହିତ୍ୟ କଥା • ଆଧୁନିକ ଭାଗ • ଶ୍ରେଣୀ ୧୦</div></body></html>"""
-out.write_text(doc, encoding="utf-8")
-print(f"Created: {out} ({out.stat().st_size/1024:.1f} KB)")
+<div class="callout"><b>📌 ପଢ଼ିବାର ମାନଚିତ୍ର:</b> ପ୍ରଥମେ ଐତିହାସିକ ପୃଷ୍ଠଭୂମି → ଭାଷା ସୁରକ୍ଷା → ଛଅ ପର୍ବ → ପ୍ରମୁଖ ସ୍ରଷ୍ଟା → ସାହିତ୍ୟର ବିଭିନ୍ନ ବିଭାଗ → ପ୍ରଶ୍ନାବଳୀ → ଶେଷ ପୁନରାବୃତ୍ତି।</div>
+
+    <section class="slide" id="s1">
+      <div class="num">01</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ଓଡ଼ିଆ ସାହିତ୍ୟ କଥା — ଆଧୁନିକ ଭାଗ (୧୮୭୦-)</div>
+      <h2>ପାଠ ପରିଚୟ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ପାଠ ପରିଚୟ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ଓଡ଼ିଆ ସାହିତ୍ୟ କଥା — ଆଧୁନିକ ଭାଗ (୧୮୭୦-)</div>
+      </div>
+      <ul><li>ଏହି ପାଠରେ ୧୮୭୦ ମସିହା ପରଠାରୁ ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର କ୍ରମବିକାଶ ବିଷୟରେ ଆଲୋଚନା ହୋଇଛି।</li><li>ଆଧୁନିକ ସାହିତ୍ୟର ବିଭିନ୍ନ ପର୍ବ, ପ୍ରମୁଖ କବି, ଲେଖକ, ନାଟ୍ୟକାର, ପ୍ରବନ୍ଧକାର, ସମାଲୋଚକ ଓ ଗବେଷକଙ୍କ ଅବଦାନ ଏଥିରେ ଦିଆଯାଇଛି।</li><li>ପାଠର ଶେଷରେ ପ୍ରଶ୍ନାବଳୀ ଓ ‘ତୁମ ପାଇଁ କାମ’ ମଧ୍ୟ ରହିଛି।</li></ul>
+    </section>
+    <section class="slide" id="s2">
+      <div class="num">02</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ଊନବିଂଶ ଶତାବ୍ଦୀର ପ୍ରଭାବ</div>
+      <h2>ପ୍ରାରମ୍ଭିକ ପରିସ୍ଥିତି</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ପ୍ରାରମ୍ଭିକ ପରିସ୍ଥିତି</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ଊନବିଂଶ ଶତାବ୍ଦୀର ପ୍ରଭାବ</div>
+      </div>
+      <ul><li>ଇଂରେଜମାନେ ଓଡ଼ିଶାକୁ ଅଧିକାର କରିବା ପରେ ଓଡ଼ିଶା ସମେତ ଭାରତବର୍ଷ ଇଂରେଜ ଶାସନାଧୀନ ହୋଇଗଲା।</li><li>ବକ୍ସି ଜଗବନ୍ଧୁ ବିଦ୍ୟାଧର ମହାପାତ୍ର, ସୁରେନ୍ଦ୍ର ସାଏ, ତାପଙ୍ଗ ଦଳବେହେରା ପ୍ରମୁଖ ବିଦ୍ରୋହ କରିଥିଲେ; ଇଂରେଜ ସେନା ଦ୍ୱାରା ସେଗୁଡ଼ିକ ଅବଦମିତ ହୋଇଥିଲା।</li><li>ସୂର୍ଯ୍ୟାସ୍ତ ନିଲାମ ଆଇନ ଦ୍ୱାରା କୃଷକ ଓ ଜମିମାଲିକଙ୍କ ଜମି ହସ୍ତାନ୍ତରିତ ହେଲା ଏବଂ ନୂତନ ଅନୁଗତ ଜମିଦାରଙ୍କ ଦାୟିତ୍ୱରେ ଦିଆଗଲା।</li><li>ଫଳରେ ଦାରିଦ୍ର୍ୟ, କୁସଂସ୍କାର, ଅତ୍ୟାଚାର, ଶୋଷଣ ଓ ପୀଡ଼ନ ବଢ଼ିଲା।</li></ul>
+    </section>
+    <section class="slide" id="s3">
+      <div class="num">03</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ନିଦ୍ରାଭଙ୍ଗର ପୃଷ୍ଠଭୂମି</div>
+      <h2>ଶିକ୍ଷା ଓ ଦୁର୍ଭିକ୍ଷ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଶିକ୍ଷା ଓ ଦୁର୍ଭିକ୍ଷ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ନିଦ୍ରାଭଙ୍ଗର ପୃଷ୍ଠଭୂମି</div>
+      </div>
+      <ul><li>୧୮୨୨ ମସିହାରୁ ଖ୍ରୀଷ୍ଟୀୟାନ ମିଶନାରୀମାନେ ଓଡ଼ିଶାରେ ମିଶନ ସ୍କୁଲ ପ୍ରତିଷ୍ଠା କରିଥିଲେ; ତଥାପି ଓଡ଼ିଆମାନେ ସେଠାକୁ ପିଲାମାନଙ୍କୁ ପଠାଇଲେ ନାହିଁ।</li><li>ଊନବିଂଶ ଶତାବ୍ଦୀର ପ୍ରଥମାର୍ଦ୍ଧରେ ଭୟ, ଆତଙ୍କ, ଅଶିକ୍ଷା ଓ ଅନ୍ଧବିଶ୍ୱାସର ପ୍ରଭାବ ଥିଲା।</li><li>୧୮୬୬ ମସିହାର ନଅଙ୍କ ଦୁର୍ଭିକ୍ଷକୁ ଜାତିର ନିର୍ବେଦତା ଓ ଆତ୍ମବିଲୁପ୍ତିର ଚରମ ନିଦର୍ଶନ ବୋଲି ପାଠରେ କୁହାଯାଇଛି।</li><li>ଏହି ମହାଶ୍ମଶାନରୁ ସୁପ୍ତ ଓଡ଼ିଆ ଜାତିର ନିଦ୍ରାଭଙ୍ଗ ଓ ଆତ୍ମଜାଗୃତି ହେଲା।</li></ul>
+    </section>
+    <section class="slide" id="s4">
+      <div class="num">04</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ଜାତୀୟ ଚେତନାର ଶୁଭଶଙ୍ଖ</div>
+      <h2>ଉତ୍କଳଦୀପିକା</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଉତ୍କଳଦୀପିକା</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ଜାତୀୟ ଚେତନାର ଶୁଭଶଙ୍ଖ</div>
+      </div>
+      <ul><li>ମାତୃଭାଷା ଓ ମାତୃଭୂମିକୁ ଆଧାର କରି ଓଡ଼ିଆ ଜାତୀୟତାର ଶୁଭଶଙ୍ଖ ନିନାଦିତ ହେଲା।</li><li>କର୍ମଯୋଗୀ ଗୌରୀଶଙ୍କର ରାୟଙ୍କ ପ୍ରତିଷ୍ଠିତ ଓ ସମ୍ପାଦିତ ‘ଉତ୍କଳଦୀପିକା’ (୧୮୬୬) ପ୍ରଥମେ ଏହାର ବାଦନ କରିଥିଲା।</li><li>ପରେ ‘ବାଲେଶ୍ୱର ସମ୍ବାଦ ବାହିକା’ (୧୮୬୮), ‘ଉତ୍କଳ ହିତୈଷିଣୀ’ (୧୮୬୯), ‘ଉତ୍କଳପୁତ୍ର’ (୧୮୭୩) ଆଦି ପତ୍ରିକା ପ୍ରକାଶ ପାଇଲା।</li><li>‘ଉତ୍କଳ ଦର୍ପଣ’ (୧୮୭୩), ‘ଉତ୍କଳ-ମଧୁପ’ (୧୮୭୮), ‘ଉତ୍କଳ ପ୍ରଭା’ (୧୮୯୧), ‘ଉତ୍କଳ ସାହିତ୍ୟ’ (୧୮୯୭), ‘ମୁକୁର’ (୧୯୦୬), ‘ସତ୍ୟବାଦୀ’ (୧୯୧୫) ଆଦି ସାହିତ୍ୟ ପତ୍ରିକା ମଧ୍ୟ ପ୍ରକାଶ ପାଇଲା।</li></ul>
+    </section>
+    <section class="slide" id="s5">
+      <div class="num">05</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ବଙ୍ଗଳାର ପ୍ରଭାବ ଓ ନୂତନ ଚେତନା</div>
+      <h2>ନବଜାଗରଣ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ନବଜାଗରଣ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ବଙ୍ଗଳାର ପ୍ରଭାବ ଓ ନୂତନ ଚେତନା</div>
+      </div>
+      <ul><li>କଲିକତାରେ ଇଂରାଜି ଶିକ୍ଷାର ପ୍ରସାର ସହ ନବଶିକ୍ଷିତ ଗୋଷ୍ଠୀର ଆବିର୍ଭାବ ହେଲା; ବଙ୍ଗଳାରେ ରେନେସାଁ ବା ନବଜାଗରଣ ଦେଖାଦେଲା।</li><li>ରାଜା ରାମମୋହନ ରାୟ ୧୮୨୮ରେ ବ୍ରାହ୍ମଧର୍ମ ପ୍ରତିଷ୍ଠା କଲେ। ଏହା ପିତୁଳାପୂଜାକୁ ବିରୋଧ କରି ଏକେଶ୍ୱର ବ୍ରହ୍ମବାଦ ଉପରେ ଗୁରୁତ୍ୱ ଦେଲା।</li><li>ନୂତନ ଚେତନାର ଆଭିମୁଖ୍ୟ: ମାନବବନ୍ଦନା, ସମାଜ-ସଂସ୍କାର, ମାତୃଭୂମି-ମାତୃଭାଷା ପ୍ରୀତି, ପ୍ରକୃତିପ୍ରୀତି, ନାରୀସ୍ୱାତନ୍ତ୍ର୍ୟ, ନାରୀଶିକ୍ଷା, ବ୍ୟକ୍ତିସ୍ୱାତନ୍ତ୍ର୍ୟ, ଇତିହାସ-ଐତିହ୍ୟ ପ୍ରତି ଶ୍ରଦ୍ଧା, ବିଜ୍ଞାନମନସ୍କତା, ବିଧବାବିବାହ ସମର୍ଥନ, ବାଲ୍ୟବିବାହ ବିରୋଧ ଓ ସ୍ୱାଧୀନତାବୋଧ।</li><li>ଓଡ଼ିଶାରେ ୧୮୭୦ ବେଳକୁ ନବଶିକ୍ଷିତ ଗୋଷ୍ଠୀର ଆବିର୍ଭାବ, ବ୍ରାହ୍ମଧର୍ମର ପ୍ରସାର ଓ ପତ୍ରପତ୍ରିକାର ପ୍ରକାଶ ଦେଖାଗଲା।</li></ul>
+    </section>
+    <section class="slide" id="s6">
+      <div class="num">06</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ଜନ୍ମଭୂମି</div>
+      <h2>ଭାଷା ସୁରକ୍ଷା</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଭାଷା ସୁରକ୍ଷା</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ଜନ୍ମଭୂମି</div>
+      </div>
+      <ul><li>ଓଡ଼ିଆ ଭାଷାକୁ ଓଡ଼ିଶାରୁ ଉଠାଇଦେବାର ସରକାରୀ ଆଦେଶନାମା ବିରୋଧରେ ଭାଷା-ସୁରକ୍ଷା-ଆନ୍ଦୋଳନ (୧୮୬୯/୭୦) ଆରମ୍ଭ ହେଲା।</li><li>ଓଡ଼ିଆ ଭାଷା ମରଣସଂକଟରୁ ରକ୍ଷା ପାଇଲା।</li><li>ମାତୃଭାଷା-ପ୍ରୀତିରୁ ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ଜନ୍ମ ହେଲା।</li><li>ପାଶ୍ଚାତ୍ୟ ସାହିତ୍ୟର ଆଦର୍ଶରେ କାବ୍ୟ, କବିତା, ଗଳ୍ପ, ଉପନ୍ୟାସ, ନାଟକ, ପ୍ରବନ୍ଧ, ରମ୍ୟରଚନା, ଜୀବନୀ, ଆତ୍ମଜୀବନୀ, ଭ୍ରମଣକାହାଣୀ ଓ ସମାଲୋଚନା ଆଦିର ବିକାଶ ହେଲା।</li></ul>
+    </section>
+    <section class="slide" id="s7">
+      <div class="num">07</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର କ୍ରମ</div>
+      <h2>ଛଅଟି ପର୍ବ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଛଅଟି ପର୍ବ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର କ୍ରମ</div>
+      </div>
+      <ul><li>୧. ରାଧାନାଥ ଯୁଗ ବା ଆଧୁନିକ ଯୁଗ</li><li>୨. ସତ୍ୟବାଦୀ ପର୍ବ</li><li>୩. ସବୁଜ ପର୍ବ</li><li>୪. ପ୍ରଗତି ପର୍ବ</li><li>୫. ଅତ୍ୟାଧୁନିକ ପର୍ବ</li><li>୬. ଉତ୍ତର-ଆଧୁନିକ ପର୍ବ</li></ul>
+    </section>
+    <section class="slide" id="s8">
+      <div class="num">08</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ୧୮୭୦–୧୯୨୦</div>
+      <h2>ରାଧାନାଥ ଯୁଗ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ରାଧାନାଥ ଯୁଗ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">୧୮୭୦–୧୯୨୦</div>
+      </div>
+      <ul><li>ଆଧୁନିକ ଯୁଗର ଆଦି ପର୍ବ (୧୮୭୦–୧୯୨୦)କୁ ରାଧାନାଥ ଯୁଗ କୁହାଯାଏ।</li><li>ସତ୍ୟବାଦୀ ପର୍ବ (୧୯୦୯–୧୯୨୫) ଏହି ଯୁଗର ଗୋଧୂଳିଲଗ୍ନରେ ଆରମ୍ଭ ଓ ବିକାଶ ପାଇଥିଲା।</li><li>କେତେକ ରାଧାନାଥ ଯୁଗର କବି ଓ ଲେଖକ ସତ୍ୟବାଦୀ ଓ ସବୁଜ ପର୍ବକୁ ମଧ୍ୟ ଅଙ୍ଗେ ନିଭାଇଥିଲେ।</li></ul>
+    </section>
+    <section class="slide" id="s9">
+      <div class="num">09</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ୧୮୪୮–୧୯୦୮</div>
+      <h2>କବିବର ରାଧାନାଥ ରାୟ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">କବିବର ରାଧାନାଥ ରାୟ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">୧୮୪୮–୧୯୦୮</div>
+      </div>
+      <ul><li>ଉଚ୍ଚଶିକ୍ଷିତ; ଶିକ୍ଷକ ଭାବେ କାର୍ଯ୍ୟ ଆରମ୍ଭ କରି ଓଡ଼ିଶାର ସ୍କୁଲସମୂହର ପରିଦର୍ଶକ ହୋଇଥିଲେ।</li><li>ଇଂରାଜି, ସଂସ୍କୃତ, ବଙ୍ଗଳା ଆଦି ଭାଷାରେ ସୁପଣ୍ଡିତ। ପ୍ରଥମେ ବଙ୍ଗଳାରେ ଲେଖୁଥିଲେ, ପରେ ଓଡ଼ିଆରେ ଲେଖିଲେ।</li><li>‘ବିବେକୀ’ (୧୮୭୩) ଓଡ଼ିଆ ସାହିତ୍ୟର ପ୍ରଥମ ପ୍ରବନ୍ଧ। ‘ଇତାଲୀୟ ଯୁବା’ (୧୮୭୪) ଏକ ଗଳ୍ପ।</li><li>୧୮୮୫ରୁ ଗ୍ରୀକ୍ ଓ ଇଂରାଜି ସାହିତ୍ୟରୁ କଥାବସ୍ତୁ ଚୟନ କରି ଓଡ଼ିଶାର ସ୍ଥାନିକ ପଟ୍ଟଭୂମି ସହ ସମନ୍ୱୟ କରି ଗାଥାକାବ୍ୟ ରଚନା କଲେ।</li></ul>
+    </section>
+    <section class="slide" id="s10">
+      <div class="num">10</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — କୃତି ଓ ବୈଶିଷ୍ଟ୍ୟ</div>
+      <h2>ରାଧାନାଥଙ୍କ କୃତି</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ରାଧାନାଥଙ୍କ କୃତି</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">କୃତି ଓ ବୈଶିଷ୍ଟ୍ୟ</div>
+      </div>
+      <ul><li>ପ୍ରଥମ ପାଞ୍ଚ ଗାଥାକାବ୍ୟ: ‘କେଦାରଗୌରୀ’, ‘ଉଷା’, ‘ଚନ୍ଦ୍ରଭାଗା’, ‘ନନ୍ଦିକେଶ୍ୱରୀ’, ‘ପାର୍ବତୀ’।</li><li>ପ୍ରକୃତିକାବ୍ୟ: ‘ଚିଲିକା’। ଅମିତ୍ରାକ୍ଷର ଛନ୍ଦରେ ‘ମହାଯାତ୍ରା’ — ଅସଂପୂର୍ଣ୍ଣ ମହାକାବ୍ୟ। ‘ଦରବାର’ — ବ୍ୟଙ୍ଗକାବ୍ୟ।</li><li>ଅନ୍ୟ କୃତି: ‘ଯଯାତିକେଶରୀ’, ‘ଦଶରଥ ବିୟୋଗ’, ‘ସାବିତ୍ରୀ ଚରିତ’, ‘ଉର୍ବଶୀ’, ‘ଶିବାଜୀଙ୍କର ଉତ୍ସାହବାକ୍ୟ’, ‘ଦୁର୍ଯ୍ୟୋଧନଙ୍କର ରକ୍ତନଦୀ ସନ୍ତରଣ’।</li><li>ବୈଶିଷ୍ଟ୍ୟ: ଇତିହାସ ଓ ଐତିହ୍ୟପ୍ରୀତି, ଉତ୍କଳୀୟ ଓ ଭାରତୀୟ ଜାତୀୟତାବୋଧ, ବହିଃପ୍ରକୃତି-ଅନ୍ତଃପ୍ରକୃତିର ସମନ୍ୱୟରେ ପ୍ରକୃତିବନ୍ଦନା; ସୌନ୍ଦର୍ଯ୍ୟବୋଧ ଓ ନୈତିକତାବୋଧ।</li></ul>
+    </section>
+    <section class="slide" id="s11">
+      <div class="num">11</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ୧୮୫୩–୧୯୧୨</div>
+      <h2>ଭକ୍ତକବି ମଧୁସୂଦନ ରାଓ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଭକ୍ତକବି ମଧୁସୂଦନ ରାଓ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">୧୮୫୩–୧୯୧୨</div>
+      </div>
+      <ul><li>ରାଧାନାଥ ରାୟଙ୍କ ପ୍ରିୟ ଶିଷ୍ୟ। ବ୍ରାହ୍ମଧର୍ମ ଗ୍ରହଣ କରି ସାହିତ୍ୟରେ ଆଦର୍ଶବାଦ ଓ ନୈତିକତାବୋଧକୁ ଗୁରୁତ୍ୱ ଦେଇଥିଲେ।</li><li>ଉଦାର ଧର୍ମଭାବ ତାଙ୍କ ସାହିତ୍ୟର ଅନ୍ତଃସ୍ୱର।</li><li>ଚତୁର୍ଦ୍ଦଶପାଦୀ ବା ସନେଟ୍ ରଚନାରେ ଦକ୍ଷ। ‘ବସନ୍ତ ଗାଥା’ ଚତୁର୍ଦ୍ଦଶପାଦୀ କବିତାର ସଂକଳନ।</li><li>ଅନ୍ୟ କୃତି: ‘କୁସୁମାଞ୍ଜଳି’, ‘ଛାନ୍ଦମାଳା’, ‘କବିତାବଳୀ’, ‘ଉତ୍କଳଗାଥା’।</li></ul>
+    </section>
+    <section class="slide" id="s12">
+      <div class="num">12</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ୧୮୪୩–୧୯୧୮</div>
+      <h2>ବ୍ୟାସକବି ଫକୀରମୋହନ ସେନାପତି</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ବ୍ୟାସକବି ଫକୀରମୋହନ ସେନାପତି</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">୧୮୪୩–୧୯୧୮</div>
+      </div>
+      <ul><li>ପିଲାଦିନରୁ ପିତାମାତାଙ୍କୁ ହରାଇଥିଲେ; ଠାକୁରମାଆଙ୍କ ସ୍ନେହରେ ଲାଳିତପାଳିତ ହୋଇ ମାତ୍ର ପଞ୍ଚମ ଶ୍ରେଣୀ ପର୍ଯ୍ୟନ୍ତ ପଢ଼ିଥିଲେ।</li><li>ଅଝାଲ ସିଲାଇ ଓ ନିମକ ମାହାଲରେ ମେଟ୍‌ବୟ ଭାବରେ କାମ କରି ସାଧନାବଳରେ ସ୍କୁଲ ଶିକ୍ଷକ ଓ ପରେ ବିଭିନ୍ନ ଷ୍ଟେଟର ପ୍ରଶାସକ ହୋଇଥିଲେ।</li><li>‘ବାଲେଶ୍ୱର ସମ୍ବାଦ ବାହିକା’ ଓ ପ୍ରଥମ ସାହିତ୍ୟ ପତ୍ରିକା ‘ବୋଧଦାୟିନୀ’ (୧୮୬୮) ସହ ତାଙ୍କ ଅବଦାନ ଉଲ୍ଲେଖିତ।</li><li>ଓଡ଼ିଆ ଭାଷା ସୁରକ୍ଷା ଆନ୍ଦୋଳନରେ ଅନ୍ୟତମ ମହାରଥୀ।</li></ul>
+    </section>
+    <section class="slide" id="s13">
+      <div class="num">13</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ଗଳ୍ପ, ଉପନ୍ୟାସ ଓ ଆତ୍ମଚରିତ</div>
+      <h2>ଫକୀରମୋହନଙ୍କ କୃତି</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଫକୀରମୋହନଙ୍କ କୃତି</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ଗଳ୍ପ, ଉପନ୍ୟାସ ଓ ଆତ୍ମଚରିତ</div>
+      </div>
+      <ul><li>ରାମାୟଣ, ମହାଭାରତ, ଉପନିଷଦ ଆଦିର ଅନୁବାଦ ତାଙ୍କ ପ୍ରାଥମିକ ଅବଦାନ।</li><li>‘ଉତ୍କଳ ଭ୍ରମଣଂ’ (୧୮୯୨) ପ୍ରଥମ ଭିନ୍ନ ସ୍ୱାଦର କବିତା ପୁସ୍ତକ। ପରେ ‘ପୁଷ୍ପମାଳା’, ‘ପୂଜାଫୁଲ’, ‘ଅବସର ବାସରେ’, ‘ଧୂଳି’, ‘ବୌଦ୍ଧାବତାର କାବ୍ୟ’।</li><li>ଶ୍ରେଷ୍ଠ ଅବଦାନ ଗଳ୍ପ ଓ ଉପନ୍ୟାସ: ‘ଛ’ ମାଣ ଆଠଗୁଣ୍ଠ’, ‘ଲଛମା’, ‘ମାମୁ’, ‘ପାୟଶ୍ଚିତ୍ତ’।</li><li>‘ରେବତୀ’ (୧୮୯୮) ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ପ୍ରଥମ ଗଳ୍ପ। ‘ଆତ୍ମଚରିତ’ ଓଡ଼ିଆ ସାହିତ୍ୟର ପ୍ରଥମ ପୂର୍ଣ୍ଣାଙ୍ଗ ଆତ୍ମଚରିତ।</li><li>ବାମଣ୍ଡା ରାଜସଭାରୁ ‘ସରସ୍ୱତୀ’ ସମ୍ମାନ ପାଇଥିଲେ।</li></ul>
+    </section>
+    <section class="slide" id="s14">
+      <div class="num">14</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ୧୮୬୨–୧୯୨୪</div>
+      <h2>ଗଙ୍ଗାଧର ମେହେର</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଗଙ୍ଗାଧର ମେହେର</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">୧୮୬୨–୧୯୨୪</div>
+      </div>
+      <ul><li>ସମ୍ବଲପୁରର ବରପାଲିରେ ଜନ୍ମ ଓ କର୍ମସାଧନା। ସାଧାରଣ ଜୁଡିସିଆଲ୍ ମୋହରିର ହୋଇ ମଧ୍ୟ ଅନେକ କାବ୍ୟ-କବିତା ରଚନା କଲେ।</li><li>କାବ୍ୟ: ‘ଇନ୍ଦୁମତୀ’, ‘କୀଚକବଧ’, ‘ଉତ୍କଳଲକ୍ଷ୍ମୀ’, ‘ପ୍ରଣୟବଲ୍ଲରୀ’, ‘ତପସ୍ୱିନୀ’, ‘ପଦ୍ମିନୀ’।</li><li>ଅନ୍ୟ ଦାନ: ‘ଅର୍ଘ୍ୟଥାଳୀ’, ‘କବିତା-କଲ୍ଲୋଳ’, ‘କବିତାମାଳା’, ‘ଭାରତୀ ଭାବନା’, ‘ଅହଲ୍ୟାସ୍ତବ’, ‘ମହିମା’, ‘କୃଷକସଙ୍ଗୀତ’।</li></ul>
+    </section>
+    <section class="slide" id="s15">
+      <div class="num">15</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ୧୮୭୫–୧୯୨୮</div>
+      <h2>ପଲ୍ଲୀକବି ନନ୍ଦକିଶୋର ବଳ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ପଲ୍ଲୀକବି ନନ୍ଦକିଶୋର ବଳ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">୧୮୭୫–୧୯୨୮</div>
+      </div>
+      <ul><li>ରାଧାନାଥ ଯୁଗର ଭିନ୍ନ ରୁଚି ଓ ଭିନ୍ନ ଭାବନାର କବି।</li><li>ସରଳ ସାବଲୀଳ ଲୋକମୁଖର ଭାଷାରେ ପଲ୍ଲୀକବିତା ରଚନା କଲେ।</li><li>ପଲ୍ଲୀ-ପ୍ରକୃତି, ପଲ୍ଲୀ-ଜୀବନ ଓ ପଲ୍ଲୀ-ସଂସ୍କୃତି ତାଙ୍କ କବିତାରେ ପ୍ରକାଶ ପାଇଛି।</li><li>କୃତି: ‘ପଲ୍ଲୀଚିତ୍ର’, ‘ନିର୍ଝରିଣୀ’, ‘ଜନ୍ମଭୂମି’, ‘ବସନ୍ତ କୋକିଳ’, ‘ତରଙ୍ଗିଣୀ’, ‘ଚାରୁଚିତ୍ର’, ‘ନିର୍ମାଲ୍ୟ’, ‘ପ୍ରଭାତ ସଙ୍ଗୀତ’, ‘ସନ୍ଧ୍ୟାସଙ୍ଗୀତ’, ‘ନାନାବାୟା ଗୀତ’ ଆଦି।</li></ul>
+    </section>
+    <section class="slide" id="s16">
+      <div class="num">16</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ନାଟକ, ପ୍ରବନ୍ଧ ଓ ଭାଷାକୋଷ</div>
+      <h2>ରାଧାନାଥ ଯୁଗର ଅନ୍ୟମାନେ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ରାଧାନାଥ ଯୁଗର ଅନ୍ୟମାନେ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ନାଟକ, ପ୍ରବନ୍ଧ ଓ ଭାଷାକୋଷ</div>
+      </div>
+      <ul><li>ଜଗନ୍ନାଥଲାଲ ଓ ରାମଶଙ୍କର ରାୟ, ଉମେଶଚନ୍ଦ୍ର ସରକାର, ବିଶ୍ୱନାଥ କର, ଗୋପାଳଚନ୍ଦ୍ର ପ୍ରହରାଜ, ଚନ୍ଦ୍ରମୋହନ ମହାରଣା, ଗୋପୀନାଥ ନନ୍ଦ, ଶଶିଭୂଷଣ ରାୟ, ମୃତ୍ୟୁଞ୍ଜୟ ରଥ, ଚନ୍ଦ୍ରଶେଖର ନନ୍ଦ, ଦୟାନିଧି ମିଶ୍ର, ଦିବ୍ୟସିଂହ ପାଣିଗ୍ରାହୀ, ମଦନମୋହନ ପଟ୍ଟନାୟକ, ଗୋବିନ୍ଦ ରଥ ପ୍ରମୁଖଙ୍କ ଉଲ୍ଲେଖ ରହିଛି।</li><li>ଜଗନ୍ନାଥଲାଲ ଓଡ଼ିଆ ସାହିତ୍ୟର ପ୍ରଥମ ନାଟ୍ୟକାର; ‘ବାବାଜୀ’ (୧୮୭୭) ପ୍ରଥମ ନାଟକ।</li><li>ରାମଶଙ୍କର ରାୟଙ୍କ ‘କାଞ୍ଚିକାବେରୀ’ (୧୮୮୦) ପ୍ରଥମ ନାଟକ।</li><li>ଉମେଶଚନ୍ଦ୍ର ସରକାରଙ୍କ ‘ପଦ୍ମମାଳୀ’ (୧୮୮୮) ଓଡ଼ିଆ ସାହିତ୍ୟର ପ୍ରଥମ ପୂର୍ଣ୍ଣାଙ୍ଗ ଉପନ୍ୟାସ।</li><li>ଗୋପାଳଚନ୍ଦ୍ର ପ୍ରହରାଜଙ୍କ ‘ପୂର୍ଣ୍ଣଚନ୍ଦ୍ର ଓଡ଼ିଆ ଭାଷାକୋଷ’ ଅକ୍ଷୟ କୀର୍ତ୍ତି।</li></ul>
+    </section>
+    <section class="slide" id="s17">
+      <div class="num">17</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ୧୯୦୯–୧୯୨୫</div>
+      <h2>ସତ୍ୟବାଦୀ ପର୍ବ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ସତ୍ୟବାଦୀ ପର୍ବ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">୧୯୦୯–୧୯୨୫</div>
+      </div>
+      <ul><li>ମୁଖ୍ୟ ଆଦର୍ଶ: ଉତ୍କଳୀୟ ଜାତୀୟ ଚେତନାର ଜାଗରଣ, ସର୍ବଭାରତୀୟ ଜାତୀୟତାବୋଧର ପ୍ରତିଷ୍ଠା, ମାନବସେବା, ଇତିହାସ-ଐତିହ୍ୟ ଦ୍ୱାରା ଅତୀତର ଐଶ୍ୱର୍ଯ୍ୟ ଦେଖାଇବା ଓ ଜାତୀୟ ଚରିତ୍ର ଗଠନ।</li><li>ପଣ୍ଡିତ ଗୋପବନ୍ଧୁ ଦାସ ସତ୍ୟବାଦୀ ଯୁଗର କର୍ଣ୍ଣଧାର। ୧୯୦୯ରେ ସତ୍ୟବାଦୀ ବନବିଦ୍ୟାଳୟ ପ୍ରତିଷ୍ଠା କଲେ।</li><li>ସହଯୋଗୀ ଶିକ୍ଷକ: ପଣ୍ଡିତ ନୀଳକଣ୍ଠ ଦାସ, ପଣ୍ଡିତ ଗୋଦାବରୀଶ ମିଶ୍ର, ପଣ୍ଡିତ କୃପାସିନ୍ଧୁ ମିଶ୍ର, ଆଚାର୍ଯ୍ୟ ହରିହର, ପଣ୍ଡିତ ବାସୁଦେବ ମହାପାତ୍ର।</li><li>ଗୋପବନ୍ଧୁ ଦେଶପ୍ରେମୀ, ତ୍ୟାଗୀ, ସତ୍ୟ ଓ ଅହିଂସାର ପୂଜକ ବୋଲି ପାଠରେ ଉଲ୍ଲେଖ।</li></ul>
+    </section>
+    <section class="slide" id="s18">
+      <div class="num">18</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ପତ୍ରିକା ଓ ସାହିତ୍ୟ</div>
+      <h2>ସତ୍ୟବାଦୀ ପର୍ବର କୃତି</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ସତ୍ୟବାଦୀ ପର୍ବର କୃତି</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ପତ୍ରିକା ଓ ସାହିତ୍ୟ</div>
+      </div>
+      <ul><li>ଗୋପବନ୍ଧୁଙ୍କ ‘ସତ୍ୟବାଦୀ’ (୧୯୧୫) ଆଲୋଚନାଧର୍ମୀ ସାହିତ୍ୟ ପତ୍ରିକା; ‘ସମାଜ’ (୧୯୧୯) ତାଙ୍କର ଅମଳିନ କୀର୍ତ୍ତି।</li><li>କବିତା/ପ୍ରବନ୍ଧ: ‘ଅବକାଶ ଚିନ୍ତା’, ‘ଧର୍ମପଥ’, ‘କାରାକବିତା’, ‘ବନ୍ଦୀର ଆତ୍ମକଥା’, ‘ବ୍ରହ୍ମତତ୍ତ୍ୱ ବା ନଚିକେତା ଉପାଖ୍ୟାନ’, ‘ଗୋମାହାତ୍ମ୍ୟ’ ଆଦି।</li><li>ନୀଳକଣ୍ଠ ଦାସଙ୍କ ‘କୋଣାର୍କ’ ଓ ‘ଖାରବେଳ’ ଇତିହାସଆଧାରିତ ଜାତୀୟ ଭାବଧାରାର କାବ୍ୟ; ସେ ସଂସ୍କାରଧର୍ମୀ ମଧ୍ୟ ଥିଲେ।</li><li>ଗୋଦାବରୀଶ ମିଶ୍ର ଓ ଅନ୍ୟ ସତ୍ୟବାଦୀ ଲେଖକମାନଙ୍କ କୃତିରେ ଆଦର୍ଶ ପ୍ରତିଧ୍ୱନିତ ହୋଇଛି।</li></ul>
+    </section>
+    <section class="slide" id="s19">
+      <div class="num">19</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ୧୯୨୧–୧୯୩୫</div>
+      <h2>ସବୁଜ ପର୍ବ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ସବୁଜ ପର୍ବ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">୧୯୨୧–୧୯୩୫</div>
+      </div>
+      <ul><li>ସତ୍ୟବାଦୀ ପର୍ବର ଅବସାନ ନ ଘଟୁଣୁ ଓଡ଼ିଆ ସାହିତ୍ୟରେ ସବୁଜ ଚେତନାର ନୂତନ ପର୍ବ ଆରମ୍ଭ ହେଲା।</li><li>ପାଞ୍ଚଜଣ ପ୍ରମୁଖ ତରୁଣ ଲେଖକ: ଅନ୍ନଦାଶଙ୍କର ରାୟ, କାଳିନ୍ଦୀଚରଣ ପାଣିଗ୍ରାହୀ, ବୈକୁଣ୍ଠନାଥ ପଟ୍ଟନାୟକ, ଶରତଚନ୍ଦ୍ର ମୁଖାର୍ଜୀ ଓ ହରିହର ମହାପାତ୍ର।</li><li>ସ୍ୱପ୍ନ, କଳ୍ପନା, ପ୍ରେମ, ଯୌବନ, ପ୍ରକୃତି ଓ ସୌନ୍ଦର୍ଯ୍ୟବୋଧର ବିଭିନ୍ନ ଭାବ ଏମାନଙ୍କ ଲେଖାରେ ପ୍ରକାଶ ପାଇଲା।</li><li>ସମକାଳୀନ ସ୍ୱାଧୀନତା ସଂଗ୍ରାମ ଓ ସତ୍ୟବାଦୀ ଚେତନା ପ୍ରତି ଏମାନେ ଅନାସକ୍ତ ରହିଲେ।</li></ul>
+    </section>
+    <section class="slide" id="s20">
+      <div class="num">20</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ସାହିତ୍ୟରେ ପ୍ରଗତିବାଦୀ ଭାବଧାରା</div>
+      <h2>ପ୍ରଗତି ପର୍ବ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ପ୍ରଗତି ପର୍ବ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ସାହିତ୍ୟରେ ପ୍ରଗତିବାଦୀ ଭାବଧାରା</div>
+      </div>
+      <ul><li>୧୯୩୦ ପରେ ମାନସିକ ଧାରା କ୍ରମେ ପ୍ରଗତିବାଦୀ ଭାବଧାରା ପ୍ରତି ଆକୃଷ୍ଟ ହେଲା।</li><li>ମାୟାଧର ମାନସିଂହ, ରାଧାମୋହନ ଗଡ଼ନାୟକ, ପରେ ବିନୋଦଚନ୍ଦ୍ର ନାୟକ ଓ କୁଂଜବିହାରୀ ଦାଶ କବିତା ରଚନା କଲେ।</li><li>ମାୟାଧର ମାନସିଂହଙ୍କ କବିତାରେ ପ୍ରେମ, ପ୍ରଣୟ, ସୌନ୍ଦର୍ଯ୍ୟବୋଧ, ଜାତୀୟତାବୋଧ ଓ ମାନବବନ୍ଦନାର ମାର୍ମିକ ଆଲେଖ୍ୟ ରହିଛି।</li><li>ରାଧାମୋହନ ଗଡ଼ନାୟକ ଜଣେ ବିଶିଷ୍ଟ ଗାଥାକବି; ତାଙ୍କ କବିତାରେ ଜାତୀୟତାବୋଧ ଓ ମାନବବନ୍ଦନା ମୁଖ୍ୟ।</li></ul>
+    </section>
+    <section class="slide" id="s21">
+      <div class="num">21</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ପ୍ରଗତିବାଦରୁ ପ୍ରୟୋଗବାଦ</div>
+      <h2>ସଚ୍ଚିଦାନନ୍ଦ ରାଉତରାୟ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ସଚ୍ଚିଦାନନ୍ଦ ରାଉତରାୟ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ପ୍ରଗତିବାଦରୁ ପ୍ରୟୋଗବାଦ</div>
+      </div>
+      <ul><li>ସ୍ୱାଧୀନତାର ବହୁ ପୂର୍ବରୁ କବିତା ଲେଖୁଥିଲେ ଏବଂ ସ୍ୱାଧୀନତା ପରେ ମଧ୍ୟ ଲେଖିଛନ୍ତି।</li><li>ପ୍ରଗତିବାଦୀ କବିତାରୁ ପ୍ରୟୋଗବାଦୀ କବିତା ରଚନାକୁ ଗତି କଲେ।</li><li>ସ୍ୱାଧୀନତାପୂର୍ବ କୃତି: ‘ପଲ୍ଲୀଶ୍ରୀ’, ‘ଅଭିଯାନ’, ‘ଭାନୁମତୀର ଦେଶ’, ‘ବାଜିରାଉତ’, ‘ପାଣ୍ଡୁଲିପି’।</li><li>ଉପନ୍ୟାସ ‘ଚିତ୍ରଗ୍ରୀବ’; ଗଳ୍ପପୁସ୍ତକ ‘ମଶାଣିର ଫୁଲ’, ‘ମାଟିର ତାଜ୍’। ସ୍ୱାଧୀନତା ପରେ ‘ସ୍ୱଗତ’, ‘କବିତା-୧୯୬୨’, ‘କବିତା-୧୯୬୯’, ‘କବିତା-୧୯୭୪’, ‘କବିତା-୧୯୮୫’, ‘କବିତା-୧୯୯୪’, ‘କବିତା-୨୦୦୪’ ଆଦି।</li><li>ଆତ୍ମଚରିତ ‘ଉତ୍ତରକକ୍ଷ’ ଦୁଇ ଭାଗରେ ପ୍ରକାଶିତ।</li></ul>
+    </section>
+    <section class="slide" id="s22">
+      <div class="num">22</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — କାବ୍ୟିକ ବିଶେଷତ୍ୱ</div>
+      <h2>ମାୟାଧର ଓ ରାଧାମୋହନ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ମାୟାଧର ଓ ରାଧାମୋହନ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">କାବ୍ୟିକ ବିଶେଷତ୍ୱ</div>
+      </div>
+      <ul><li>ମାୟାଧର ମାନସିଂହ — ପ୍ରେମ, ପ୍ରଣୟ, ସୌନ୍ଦର୍ଯ୍ୟବୋଧ, ଜାତୀୟତାବୋଧ ଓ ମାନବବନ୍ଦନା।</li><li>ରାଧାମୋହନ ଗଡ଼ନାୟକ — ବିଶିଷ୍ଟ ଗାଥାକବି; ଜାତୀୟତାବୋଧ ଓ ମାନବବନ୍ଦନା ମୁଖ୍ୟ।</li><li>ଏହି ଦୁଇ କବିଙ୍କ ବିଶେଷତ୍ୱ ପାଠରେ ସ୍ପଷ୍ଟ ଭାବେ ଦିଆଯାଇଛି।</li></ul>
+    </section>
+    <section class="slide" id="s23">
+      <div class="num">23</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ସ୍ୱାଧୀନତା ପୂର୍ବ ଓ ପରବର୍ତ୍ତୀ ଧାରା</div>
+      <h2>ଗଳ୍ପ ଓ ଉପନ୍ୟାସ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଗଳ୍ପ ଓ ଉପନ୍ୟାସ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ସ୍ୱାଧୀନତା ପୂର୍ବ ଓ ପରବର୍ତ୍ତୀ ଧାରା</div>
+      </div>
+      <ul><li>କାହ୍ନୁଚରଣ ମହାନ୍ତି ସ୍ୱାଧୀନତା ପୂର୍ବରୁ ‘ବାଲିରାଜା’, ‘ହା’ଅନ୍ଧ’, ‘ପଳାତକ’, ‘ଶାସ୍ତି’ ଆଦି ଉପନ୍ୟାସ ରଚନା କଲେ; ପରେ ‘ଝଞ୍ଜା’, ‘ବଜ୍ରବାହୁ’, ‘ତମସା ତୀରେ’, ‘ଛୁଟିଲେ ଘଟ’, ‘ମେଲାଣି ମାଗୁଣି’ ଆଦି।</li><li>ରାଜକିଶୋର ରାୟ, ରାଜକିଶୋର ପଟ୍ଟନାୟକ ଓ ପ୍ରାଣବନ୍ଧୁ କର ମଧ୍ୟ ଗଳ୍ପ ରଚନା କରିଥିଲେ।</li><li>ଅନନ୍ତ ପ୍ରସାଦ ପଣ୍ଡା, ରାମପ୍ରସାଦ ସିଂହ, ଚକ୍ରଧର ମହାପାତ୍ର, ରାମଚନ୍ଦ୍ର ଆଚାର୍ଯ୍ୟ ପ୍ରମୁଖ ଗଳ୍ପ ଓ ଉପନ୍ୟାସ ଲେଖିଛନ୍ତି।</li></ul>
+    </section>
+    <section class="slide" id="s24">
+      <div class="num">24</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ଗୋପାଳବଲ୍ଲଭ ଦାସ ଓ ଗୋପୀନାଥ ମହାନ୍ତି</div>
+      <h2>ଆଦିବାସୀ ଜୀବନଧାରା</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଆଦିବାସୀ ଜୀବନଧାରା</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ଗୋପାଳବଲ୍ଲଭ ଦାସ ଓ ଗୋପୀନାଥ ମହାନ୍ତି</div>
+      </div>
+      <ul><li>ଆଦିବାସୀ ଜୀବନଧାରାକୁ ନେଇ ଓଡ଼ିଆ ସାହିତ୍ୟରେ ପ୍ରଥମେ ଗୋପାଳବଲ୍ଲଭ ଦାସ ‘ଭୀମା ଭୂୟୀ’ (୧୯୦୮) ଉପନ୍ୟାସ ରଚନା କରିଥିଲେ।</li><li>ଗୋପୀନାଥ ମହାନ୍ତି ସେହି ଧାରାରେ ଦକ୍ଷତା ପ୍ରଦର୍ଶନ କଲେ। ଉପନ୍ୟାସ: ‘ଦାଦିବୁଢ଼ା’, ‘ପରଜା’, ‘ଅମୃତର ସନ୍ତାନ’, ‘ଶିବଭାଇ’, ‘ଅପହଞ୍ଚ’, ‘ଅନାମ’।</li><li>ଅନ୍ୟ ଉପନ୍ୟାସ: ‘ହରିଜନ’, ‘ରାହୁର ଛାୟା’, ‘ଦାନାପାଣି’, ‘ମାଟିମଟାଳ’, ‘ଆକାଶ ସୁନ୍ଦରୀ’, ‘ବୁନ୍ଦାଏ ପାଣି’।</li><li>ଗଳ୍ପପୁସ୍ତକ: ‘ଘାସଫୁଲ’, ‘ଉଡ଼ନ୍ତା ଖଇ’, ‘ଗୁପ୍ତଗଙ୍ଗା’।</li></ul>
+    </section>
+    <section class="slide" id="s25">
+      <div class="num">25</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ଗଳ୍ପ ଓ ଉପନ୍ୟାସ</div>
+      <h2>ସୁରେନ୍ଦ୍ର ମହାନ୍ତି</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ସୁରେନ୍ଦ୍ର ମହାନ୍ତି</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ଗଳ୍ପ ଓ ଉପନ୍ୟାସ</div>
+      </div>
+      <ul><li>ସ୍ୱାଧୀନତା ପୂର୍ବରୁ ଓ ପରେ ମୃତ୍ୟୁ ପର୍ଯ୍ୟନ୍ତ ଲେଖନ କରିଥିଲେ।</li><li>କୃତି: ‘ବଧୂ ଓ ପ୍ରିୟା’, ‘ଅନ୍ଧ ଦିଗନ୍ତ’, ‘ନୀଳଶୈଳ’, ‘ନୀଳାଦ୍ରି ବିଜୟ’, ‘କୃଷ୍ଣାବେଣୀରେ ସନ୍ଧ୍ୟା’, ‘ହଂସଗୀତି’, ‘କାଳାନ୍ତର’, ‘ସବୁଜ ପତ୍ର ଓ ଧୂସର ଗୋଲାପ’, ‘ମରାଳର ମୃତ୍ୟୁ’, ‘ମହାନିର୍ବାଣ’, ‘ମହାନଗରୀରେ ରାତି’, ‘ଓଃ କାଲ୍‌କାଟା’, ‘ଦୁଇ ସୀମାନ୍ତ’, ‘କବି ଓ ନର୍ତ୍ତକୀ’, ‘ରାଜଧାନୀ ଓ ଅନ୍ୟାନ୍ୟ ଗଳ୍ପ’, ‘ଯଦୁବଂଶ ଓ ଅନ୍ୟାନ୍ୟ ଗଳ୍ପ’।</li><li>ସେ ସମାଲୋଚକ, ପ୍ରାବନ୍ଧିକ, ଆତ୍ମକାହାଣୀ ଓ ଭ୍ରମଣକାହାଣୀ ଲେଖକ ଭାବରେ ମଧ୍ୟ ପରିଚିତ।</li></ul>
+    </section>
+    <section class="slide" id="s26">
+      <div class="num">26</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ବ୍ୟକ୍ତି-ମଣିଷର ପ୍ରାଧାନ୍ୟ</div>
+      <h2>ଅତ୍ୟାଧୁନିକ ପର୍ବ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଅତ୍ୟାଧୁନିକ ପର୍ବ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ବ୍ୟକ୍ତି-ମଣିଷର ପ୍ରାଧାନ୍ୟ</div>
+      </div>
+      <ul><li>ସ୍ୱାଧୀନତା ପରେ ପାଶ୍ଚାତ୍ୟ ସଂକ୍ରମଣ ଫଳରେ ଅତ୍ୟାଧୁନିକ ଯୁଗର ଉନ୍ମେଷ ହେଲା।</li><li>ସମାଜ ଅପେକ୍ଷା ବ୍ୟକ୍ତି-ମଣିଷ ପ୍ରାଧାନ୍ୟ ପାଇଲା। ସ୍ୱାଧୀନତାର ସ୍ୱପ୍ନଭଙ୍ଗ, ଗଣତନ୍ତ୍ରର ବ୍ୟର୍ଥତା, ଆଦର୍ଶ ଓ ମୂଲ୍ୟବୋଧର ଅବକ୍ଷୟ, ଅସ୍ତିତ୍ୱବାଦୀ ଚେତନା ଆଦି ବିଷୟ ପ୍ରକାଶ ପାଇଲା।</li><li>କବିତା, ଗଳ୍ପ, ଉପନ୍ୟାସ ଓ ନାଟକ ସବୁ କ୍ଷେତ୍ରରେ ଦ୍ରୁତ ପରିବର୍ତ୍ତନ ହେଲା।</li><li>ପ୍ରମୁଖ କବିମାନଙ୍କ ମଧ୍ୟରେ ଗୁରୁପ୍ରସାଦ ମହାନ୍ତି, ବେଣୁଧର ରାଉତ, ଚିନ୍ତାମଣି ବେହେରା, କୃଷ୍ଣଚରଣ ବେହେରା, ରମାକାନ୍ତ ରଥ, ସୀତାକାନ୍ତ ମହାପାତ୍ର, ରାଜେନ୍ଦ୍ର କିଶୋର ପଣ୍ଡା, ଦୀପକ ମିଶ୍ର, ହରିହର ମିଶ୍ର, କମଳାକାନ୍ତ ଲେଙ୍କା, ପ୍ରତିଭା ଶତପଥୀ ଆଦି।</li></ul>
+    </section>
+    <section class="slide" id="s27">
+      <div class="num">27</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ପ୍ରୟୋଗ ଓ ନୂତନ ଶୈଳୀ</div>
+      <h2>ନାଟକର ବିକାଶ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ନାଟକର ବିକାଶ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ପ୍ରୟୋଗ ଓ ନୂତନ ଶୈଳୀ</div>
+      </div>
+      <ul><li>କାଳୀଚରଣ ପଟ୍ଟନାୟକ, ରାମଚନ୍ଦ୍ର ମିଶ୍ର, ଗୋପାଳ ଛୋଟରାୟ, ଭଞ୍ଜକିଶୋର ପଟ୍ଟନାୟକ, କମଳ ଲୋଚନ ମହାନ୍ତି, ରଘୁନାଥ ପଣ୍ଡା, ଭୁବନେଶ୍ୱର ମହାପାତ୍ର ଓ କୃଷ୍ଣପ୍ରସାଦ ବେହେରାଙ୍କ ଅବଦାନ ଉଲ୍ଲେଖିତ।</li><li>କାଳୀଚରଣଙ୍କ ‘ଭାତ’, ‘ରକ୍ତମାଟି’, ‘ଅଭିଯାନ’; ରାମଚନ୍ଦ୍ର ମିଶ୍ରଙ୍କ ‘ଭାଇଭାଉଜ’, ‘ଘରସଂସାର’; ଭଞ୍ଜକିଶୋରଙ୍କ ‘ମାଣିକଯୋଡ଼ି’, ‘ଜୟମାଲ୍ୟ’; ଗୋପାଳ ଛୋଟରାୟଙ୍କ ‘ଭରସା’, ‘ପରକଲମ’।</li><li>ମନୋରଂଜନ ଦାସଙ୍କ ‘ଆଗାମୀ’ ଓ ‘ସାଗର ମନ୍ଥନ’ ପରେ ଓଡ଼ିଆ ନାଟକର ପରିବର୍ତ୍ତନ ହେଲା; ପରେ ‘ଅରଣ୍ୟ ଫସଲ’, ‘ବନହଂସୀ’, ‘ଶବ୍ଦଲିପି’, ‘କାଠଘୋଡ଼ା’, ‘ନନ୍ଦିକାକେଶରୀ’ ଆଦି ନୂତନ ଶୈଳୀର ନାଟକ ରଚିତ ହେଲା।</li><li>ଏହି ପ୍ରାୟୋଗିକ ଶୈଳୀକୁ ନେଇ ବିଶ୍ୱଜିତ ଦାସ, ବିଜୟ ମିଶ୍ର, ରମେଶ ପ୍ରସାଦ ପାଣିଗ୍ରାହୀ ପ୍ରମୁଖ ନାଟକ ରଚନା କଲେ।</li></ul>
+    </section>
+    <section class="slide" id="s28">
+      <div class="num">28</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ସାହିତ୍ୟର ବିସ୍ତାର</div>
+      <h2>ପ୍ରବନ୍ଧ, ରମ୍ୟରଚନା ଓ ସମାଲୋଚନା</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ପ୍ରବନ୍ଧ, ରମ୍ୟରଚନା ଓ ସମାଲୋଚନା</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ସାହିତ୍ୟର ବିସ୍ତାର</div>
+      </div>
+      <ul><li>କୃଷ୍ଣଚନ୍ଦ୍ର ପାଣିଗ୍ରାହୀ, ସତ୍ୟନାରାୟଣ ରାଜଗୁରୁ, ପରମାନନ୍ଦ ଆଚାର୍ଯ୍ୟ, ଚିତ୍ତରଞ୍ଜନ ଦାସ, ସଦାଶିବ ମିଶ୍ର, ଚନ୍ଦ୍ରଶେଖର ରଥ, ମହାପାତ୍ର ନୀଳମଣି ସାହୁ, ଶରତ କୁମାର ମହାନ୍ତି, ବାମାଚରଣ ମିତ୍ର ପ୍ରମୁଖ ପ୍ରବନ୍ଧ ଓ ରମ୍ୟରଚନା କ୍ଷେତ୍ରରେ ପରିଚିତ।</li><li>ସ୍ୱାଧୀନତା ପରେ ଆତ୍ମଚରିତ ରଚନାର ନୂତନ ପ୍ରବଣତା ଦେଖାଦେଲା; ପ୍ରାୟ ଶତାଧିକ ଆତ୍ମଚରିତ ଲେଖାଗଲା।</li><li>ଭ୍ରମଣକାହାଣୀ ବହୁ ସଂଖ୍ୟାରେ ରଚିତ ହୋଇ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ସ୍ଥାନ ପାଇଲା।</li><li>ସମାଲୋଚନାର ଭୂୟୋବିକାଶ ହେଲା। ମାୟାଧର ମାନସିଂହ, ସୁରେନ୍ଦ୍ର ମହାନ୍ତି, ନଟବର ସାମନ୍ତରାୟ, ନରେନ୍ଦ୍ର ନାଥ ମିଶ୍ର, କୁଂଜବିହାରୀ ଦାଶ ପ୍ରମୁଖ ନିଜ ଦକ୍ଷତା ପ୍ରଦର୍ଶନ କଲେ।</li></ul>
+    </section>
+    <section class="slide" id="s29">
+      <div class="num">29</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ଗବେଷଣାର ବିକାଶ</div>
+      <h2>ସାହିତ୍ୟର ଇତିହାସ ଓ ଶିଶୁସାହିତ୍ୟ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ସାହିତ୍ୟର ଇତିହାସ ଓ ଶିଶୁସାହିତ୍ୟ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ଗବେଷଣାର ବିକାଶ</div>
+      </div>
+      <ul><li>ପଣ୍ଡିତ ବିନାୟକ ମିଶ୍ର ସମାଲୋଚନା ଲେଖିବା ସହ ଓଡ଼ିଆ ସାହିତ୍ୟର ଇତିହାସ ଲେଖିଥିଲେ।</li><li>ପରେ ପଣ୍ଡିତ ସୂର୍ଯ୍ୟନାରାୟଣ ଦାଶ, ସୁରେନ୍ଦ୍ର ମହାନ୍ତି, ମାୟାଧର ମାନସିଂହ, ନଟବର ସାମନ୍ତରାୟ, କୃଷ୍ଣଚରଣ ବେହେରା, ବଂଶୀଧର ମହାନ୍ତି ପ୍ରମୁଖ ଓଡ଼ିଆ ସାହିତ୍ୟର ଇତିହାସ ରଚନା କରିଛନ୍ତି।</li><li>ଏହି ସମୟରେ ଶିଶୁସାହିତ୍ୟର ମଧ୍ୟ ବିକାଶ ହୋଇଛି।</li><li>ବହୁ ସାହିତ୍ୟ ପତ୍ରିକା ଓ ସମ୍ବାଦପତ୍ର ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ପ୍ରକାଶ ଓ ପ୍ରସାରରେ ପ୍ରେରଣାଦାୟୀ ଭୂମିକା ନେଇଛି।</li></ul>
+    </section>
+    <section class="slide" id="s30">
+      <div class="num">30</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ମଣିଷକୁ ପୁଣି କେନ୍ଦ୍ରରେ</div>
+      <h2>ଉତ୍ତର-ଆଧୁନିକ ପର୍ବ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଉତ୍ତର-ଆଧୁନିକ ପର୍ବ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ମଣିଷକୁ ପୁଣି କେନ୍ଦ୍ରରେ</div>
+      </div>
+      <ul><li>ଅତ୍ୟାଧୁନିକ ପର୍ବରେ ବ୍ୟକ୍ତି-ସ୍ୱାତନ୍ତ୍ର୍ୟ, ଆତ୍ମଅନ୍ୱେଷା ଓ ବାମାବାଦ/ନାରୀବାଦ ଗୁରୁତ୍ୱ ପାଇଲା।</li><li>ଆଧୁନିକତା ନାମରେ ମଣିଷକୁ ସାହିତ୍ୟର କେନ୍ଦ୍ରରୁ ନିର୍ବାସନ କରାଯାଇଥିଲା; ଇତିହାସ ଓ ଆଦର୍ଶର ମୃତ୍ୟୁ ଘୋଷଣା ହୋଇଥିଲା।</li><li>ଉତ୍ତର-ଆଧୁନିକ ପର୍ବରେ ପୁଣି ସାହିତ୍ୟର କେନ୍ଦ୍ରରେ ମଣିଷକୁ ସ୍ଥାପନ କରାଗଲା।</li><li>ପରମ୍ପରାନୁସନ୍ଧାନ ଓ ପୁନଃସଂସ୍ଥାନ, ଲୋକାନୁଷଙ୍ଗ ଓ ଲୋକାୟତ ଚିନ୍ତାଧାରା ଗୁରୁତ୍ୱ ପାଇଲା।</li><li>‘ବାମାବାଦ ବା ନାରୀବାଦ’ର ଅର୍ଥ ନାରୀ-ମୁକ୍ତି, ନାରୀ-ସ୍ୱାତନ୍ତ୍ର୍ୟ ଓ ନାରୀ-ଅଧିକାର ସୂଚିତ କରେ।</li></ul>
+    </section>
+    <section class="slide" id="s31">
+      <div class="num">31</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ଏକ ଦୃଷ୍ଟିରେ ସମଗ୍ର ଯାତ୍ରା</div>
+      <h2>ପାଠର ସାରାଂଶ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ପାଠର ସାରାଂଶ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ଏକ ଦୃଷ୍ଟିରେ ସମଗ୍ର ଯାତ୍ରା</div>
+      </div>
+      <ul><li>ଅବନତି ଓ ନିର୍ବେଦତା → ନଅଙ୍କ ଦୁର୍ଭିକ୍ଷ → ଆତ୍ମଜାଗୃତି → ପତ୍ରପତ୍ରିକା → ଭାଷା ସୁରକ୍ଷା → ଆଧୁନିକ ସାହିତ୍ୟ।</li><li>୧୮୭୦–୧୯୨୦ ରାଧାନାଥ ଯୁଗ → ୧୯୦୯–୧୯୨୫ ସତ୍ୟବାଦୀ → ୧୯୨୧–୧୯୩୫ ସବୁଜ → ପ୍ରଗତି → ଅତ୍ୟାଧୁନିକ → ଉତ୍ତର-ଆଧୁନିକ।</li><li>କବିତା, ଗଳ୍ପ, ଉପନ୍ୟାସ, ନାଟକ, ପ୍ରବନ୍ଧ, ରମ୍ୟରଚନା, ଆତ୍ମଚରିତ, ଭ୍ରମଣକାହାଣୀ ଓ ସମାଲୋଚନା — ସମସ୍ତ କ୍ଷେତ୍ରରେ ପରିବର୍ତ୍ତନ ଓ ପରୀକ୍ଷା-ନିରୀକ୍ଷା ହୋଇଛି।</li><li>ଓଡ଼ିଆ ସାହିତ୍ୟ ଆଗକୁ ଗତି କରି ଜାତୀୟ ସମ୍ପର୍କ ସହ ଆନ୍ତର୍ଜାତିକ ସମ୍ପର୍କ ପ୍ରତିଷ୍ଠାରେ ସମର୍ଥ ହୋଇଛି।</li></ul>
+    </section>
+    <section class="slide" id="s32">
+      <div class="num">32</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ସରଳ ଅର୍ଥ</div>
+      <h2>ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଶବ୍ଦ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଶବ୍ଦ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ସରଳ ଅର୍ଥ</div>
+      </div>
+      <ul><li>ନବଜାଗରଣ → ନୂଆ ଚେତନାର ଜାଗରଣ।</li><li>ଜାତୀୟତାବୋଧ → ନିଜ ଦେଶ/ଜାତି ପ୍ରତି ସଚେତନତା।</li><li>ଐତିହ୍ୟ → ପୂର୍ବପୁରୁଷରୁ ଆସିଥିବା ପରମ୍ପରା ଓ ସାଂସ୍କୃତିକ ସମ୍ପଦ।</li><li>ପ୍ରଗତିବାଦ → ପ୍ରଗତିମୁଖୀ ଭାବଧାରା।</li><li>ଆତ୍ମଅନ୍ୱେଷା → ନିଜକୁ ଖୋଜିବା/ବୁଝିବାର ଚେଷ୍ଟା।</li><li>ନାରୀବାଦ → ନାରୀ-ମୁକ୍ତି, ନାରୀ-ସ୍ୱାତନ୍ତ୍ର୍ୟ ଓ ନାରୀ-ଅଧିକାର।</li></ul>
+    </section>
+    <section class="slide" id="s33">
+      <div class="num">33</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — MCQ — ୧ରୁ ୬</div>
+      <h2>ପାଠ୍ୟପୁସ୍ତକ ନିର୍ଦ୍ଦିଷ୍ଟ ପ୍ରଶ୍ନ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ପାଠ୍ୟପୁସ୍ତକ ନିର୍ଦ୍ଦିଷ୍ଟ ପ୍ରଶ୍ନ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">MCQ — ୧ରୁ ୬</div>
+      </div>
+      <ul><li>୧. ୧୮୨୨ରୁ ମିଶନାରୀମାନେ କ’ଣ ପ୍ରତିଷ୍ଠା କରିଥିଲେ? — ଗ) ମିଶନ ସ୍କୁଲ।</li><li>୨. ୧୮୬୬ରେ ‘ଉତ୍କଳ ଦୀପିକା’ ସମ୍ପାଦନା — ଗ) ଗୌରୀଶଙ୍କର ରାୟ।</li><li>୩. ରାଧାନାଥଙ୍କ କୃତି ନୁହେଁ — ଘ) ଅବସରବାସରେ।</li><li>୪. ‘କନକଲତା’ର ରଚୟିତା — କ) ଗଙ୍ଗାଧର ମେହେର।</li><li>୫. ସଚ୍ଚିଦାନନ୍ଦ ରାଉତରାୟଙ୍କ କୃତି — କ) କାଳାନ୍ତର।</li><li>୬. ‘ଅଭିଯାନ’ ନାଟକର ରଚୟିତା — ଖ) କାଳୀଚରଣ ପଟ୍ଟନାୟକ।</li></ul>
+    </section>
+    <section class="slide" id="s34">
+      <div class="num">34</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ୭ରୁ ୧୮</div>
+      <h2>କ୍ଷୁଦ୍ର ଉତ୍ତରମୂଳକ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">କ୍ଷୁଦ୍ର ଉତ୍ତରମୂଳକ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">୭ରୁ ୧୮</div>
+      </div>
+      <ul><li>୭. ସୂର୍ଯ୍ୟାସ୍ତ ନିଲାମ ଆଇନରେ କୃଷକ ଓ ଜମିମାଲିକଙ୍କ ଜମି ହସ୍ତାନ୍ତରିତ ହୋଇ ଅନୁଗତ ଜମିଦାରଙ୍କ ଦାୟିତ୍ୱରେ ଦିଆଗଲା; ଏହାରେ ଲୋକେ ଦାରିଦ୍ର୍ୟ ଓ ଶୋଷଣରେ ପଡ଼ିଲେ।</li><li>୮. ଭାରତବର୍ଷରେ ବ୍ରାହ୍ମଧର୍ମ/ବ୍ରାହ୍ମସମାଜର ପରିକଳ୍ପନା — ରାଜା ରାମମୋହନ ରାୟ।</li><li>୯. ଓଡ଼ିଆ ସାହିତ୍ୟର ପ୍ରଥମ ପ୍ରବନ୍ଧ — ‘ବିବେକୀ’।</li><li>୧୦. ରାଧାନାଥଙ୍କ କୃତି: ‘ବିବେକୀ’, ‘ଇତାଲୀୟ ଯୁବା’, ‘କେଦାରଗୌରୀ’, ‘ଉଷା’, ‘ଚନ୍ଦ୍ରଭାଗା’, ‘ନନ୍ଦିକେଶ୍ୱରୀ’, ‘ପାର୍ବତୀ’, ‘ଚିଲିକା’, ‘ମହାଯାତ୍ରା’, ‘ଦରବାର’ ଆଦି।</li><li>୧୧. ଫକୀରମୋହନ ଭାଷା ସୁରକ୍ଷା ଆନ୍ଦୋଳନରେ ଅନ୍ୟତମ ମହାରଥୀ ଭାବରେ ଅବତୀର୍ଣ୍ଣ ହୋଇଥିଲେ; ସେ ‘ବାଲେଶ୍ୱର ସମ୍ବାଦ ବାହିକା’ ଓ ‘ବୋଧଦାୟିନୀ’ ପ୍ରକାଶ ସହ ଭାଷା-ସାହିତ୍ୟରେ ଅବଦାନ ଦେଇଥିଲେ।</li><li>୧୨. ବାମଣ୍ଡା ରାଜସଭାରୁ ଫକୀରମୋହନ ‘ସରସ୍ୱତୀ’ ସମ୍ମାନ ପାଇଥିଲେ।</li><li>୧୩. ‘କୃଷକ ସଙ୍ଗୀତ’ର ରଚୟିତା — ଗଙ୍ଗାଧର ମେହେର।</li><li>୧୪. ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ପ୍ରଥମ ନାଟ୍ୟକାର — ଜଗନ୍ନାଥଲାଲ।</li><li>୧୫. ପ୍ରଥମ ପୂର୍ଣ୍ଣାଙ୍ଗ ଉପନ୍ୟାସ — ‘ପଦ୍ମମାଳୀ’।</li><li>୧୬. ଗୋପାଳଚନ୍ଦ୍ର ପ୍ରହରାଜଙ୍କ ଅକ୍ଷୟ କୀର୍ତ୍ତି — ‘ପୂର୍ଣ୍ଣଚନ୍ଦ୍ର ଓଡ଼ିଆ ଭାଷାକୋଷ’।</li><li>୧୭. ସତ୍ୟବାଦୀ ପର୍ବର ମୁଖ୍ୟ ଆଦର୍ଶ — ଜାତୀୟ ଚେତନାର ଜାଗରଣ, ଜାତୀୟତାବୋଧ, ମାନବସେବା ଓ ଜାତୀୟ ଚରିତ୍ର ଗଠନ।</li><li>୧୮. ସତ୍ୟବାଦୀ ବନବିଦ୍ୟାଳୟର ଶିକ୍ଷକ — ନୀଳକଣ୍ଠ ଦାସ, ଗୋଦାବରୀଶ ମିଶ୍ର, କୃପାସିନ୍ଧୁ ମିଶ୍ର, ଆଚାର୍ଯ୍ୟ ହରିହର, ବାସୁଦେବ ମହାପାତ୍ର।</li></ul>
+    </section>
+    <section class="slide" id="s35">
+      <div class="num">35</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ୧୯ରୁ ୨୩</div>
+      <h2>କ୍ଷୁଦ୍ର ଉତ୍ତରମୂଳକ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">କ୍ଷୁଦ୍ର ଉତ୍ତରମୂଳକ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">୧୯ରୁ ୨୩</div>
+      </div>
+      <ul><li>୧୯. ‘କୋଣାର୍କ’ — ପଣ୍ଡିତ ନୀଳକଣ୍ଠ ଦାସଙ୍କ କୃତି।</li><li>୨୦. କୁନ୍ତଳାକୁମାରୀଙ୍କ ତିନି କୃତି: ‘ଅଞ୍ଜଳି’, ‘ଉଚ୍ଛ୍ୱାସ’, ‘ସ୍ଫୁଲିଙ୍ଗ’ (ଅନ୍ୟମାନଙ୍କ ମଧ୍ୟରେ ‘ଅର୍ଚ୍ଚନା’, ‘ଆହ୍ୱାନ’, ‘ପ୍ରେମଚିନ୍ତାମଣି’, ‘ଗଡ଼ଜାତ କୃଷକ’, ‘ଓଡ଼ିଆଙ୍କ କାନ୍ଦଣା’ ଉଲ୍ଲେଖିତ)।</li><li>୨୧. ସବୁଜ ଚେତନାର ପାଞ୍ଚଜଣ — ଅନ୍ନଦାଶଙ୍କର ରାୟ, କାଳିନ୍ଦୀଚରଣ ପାଣିଗ୍ରାହୀ, ବୈକୁଣ୍ଠନାଥ ପଟ୍ଟନାୟକ, ଶରତଚନ୍ଦ୍ର ମୁଖାର୍ଜୀ, ହରିହର ମହାପାତ୍ର।</li><li>୨୨. ଜାତୀୟ ଉଦ୍‌ବୋଧନମୂଳକ ଗୀତିକା — ବୀରକିଶୋର ଦାସ ଓ ବାଞ୍ଛାନିଧି ମହାନ୍ତିଙ୍କ ନାମ ପାଠରେ ଉଲ୍ଲେଖିତ।</li><li>୨୩. ନବଯୁଗ ସାହିତ୍ୟ ସଂସଦର ପ୍ରତିଷ୍ଠାତା — ଭଗବତୀଚରଣ ପାଣିଗ୍ରାହୀ।</li></ul>
+    </section>
+    <section class="slide" id="s36">
+      <div class="num">36</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ୨୪ରୁ ୩୦</div>
+      <h2>କ୍ଷୁଦ୍ର ଉତ୍ତରମୂଳକ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">କ୍ଷୁଦ୍ର ଉତ୍ତରମୂଳକ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">୨୪ରୁ ୩୦</div>
+      </div>
+      <ul><li>୨୪. ମାୟାଧର ମାନସିଂହଙ୍କ କାବ୍ୟରେ ପ୍ରେମ, ପ୍ରଣୟ, ସୌନ୍ଦର୍ଯ୍ୟବୋଧ, ଜାତୀୟତାବୋଧ ଓ ମାନବବନ୍ଦନା; ରାଧାମୋହନ ଗଡ଼ନାୟକ ବିଶିଷ୍ଟ ଗାଥାକବି, ତାଙ୍କ କାବ୍ୟରେ ଜାତୀୟତାବୋଧ ଓ ମାନବବନ୍ଦନା ମୁଖ୍ୟ।</li><li>୨୫. ସ୍ୱାଧୀନତା ପୂର୍ବ ଓ ପରେ ଗଳ୍ପ-ଉପନ୍ୟାସରେ କାହ୍ନୁଚରଣ ମହାନ୍ତି, ରାଜକିଶୋର ରାୟ, ରାଜକିଶୋର ପଟ୍ଟନାୟକ, ପ୍ରାଣବନ୍ଧୁ କର, ଅନନ୍ତ ପ୍ରସାଦ ପଣ୍ଡା, ରାମପ୍ରସାଦ ସିଂହ, ଚକ୍ରଧର ମହାପାତ୍ର, ରାମଚନ୍ଦ୍ର ଆଚାର୍ଯ୍ୟ ପ୍ରମୁଖ ସ୍ମରଣୀୟ।</li><li>୨୬. ‘ଭୀମା ଭୂୟୀ’ (୧୯୦୮) — ଗୋପାଳବଲ୍ଲଭ ଦାସ।</li><li>୨୭. ସୁରେନ୍ଦ୍ର ମହାନ୍ତିଙ୍କ ଦୁଇ କୃତି — ‘କାଳାନ୍ତର’ ଓ ‘ନୀଳଶୈଳ’।</li><li>୨୮. ‘ଗାଁ ମଜଲିସ୍’ — ହରେକୃଷ୍ଣ ମହତାବଙ୍କ ଚିନ୍ତାମୂଳକ ରମ୍ୟରଚନା ଓ ପ୍ରବନ୍ଧ।</li><li>୨୯. ଓଡ଼ିଆ ସାହିତ୍ୟର ଇତିହାସ ରଚନାକାର: ପଣ୍ଡିତ ବିନାୟକ ମିଶ୍ର, ପଣ୍ଡିତ ସୂର୍ଯ୍ୟନାରାୟଣ ଦାଶ, ସୁରେନ୍ଦ୍ର ମହାନ୍ତି, ମାୟାଧର ମାନସିଂହ, ନଟବର ସାମନ୍ତରାୟ, କୃଷ୍ଣଚରଣ ବେହେରା, ବଂଶୀଧର ମହାନ୍ତି।</li><li>୩୦. ଗୀତାଭିନୟ ଜଗତରେ ପାଠରେ ଜଗନ୍ନାଥ ପାଣିଙ୍କ ଧାରା ଓ ପରବର୍ତ୍ତୀ ବୈଷ୍ଣବ ପାଣି, ଗୋପାଳ ଦାଶ, ବାଳକୃଷ୍ଣ ମହାନ୍ତି, କୃଷ୍ଣପ୍ରସାଦ ବସୁ, କୃଷ୍ଣପ୍ରସାଦ ବେହେରାଙ୍କ ଉଲ୍ଲେଖ ମିଳେ।</li></ul>
+    </section>
+    <section class="slide" id="s37">
+      <div class="num">37</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ପ୍ରଶ୍ନ ୨୨–୨୪ ଧାରଣା</div>
+      <h2>ଦୀର୍ଘ ଉତ୍ତର ପାଇଁ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଦୀର୍ଘ ଉତ୍ତର ପାଇଁ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">ପ୍ରଶ୍ନ ୨୨–୨୪ ଧାରଣା</div>
+      </div>
+      <ul><li>୨୨. ‘ଲଙ୍କା ଯାତ୍ରା’ ପରି ପ୍ରଶ୍ନ ନୁହେଁ; ଏଠାରେ ଜାତୀୟ ଉଦ୍‌ବୋଧନମୂଳକ ଗୀତିକା, ସ୍ୱାଧୀନତା ଆନ୍ଦୋଳନ ଓ ସାହିତ୍ୟର ସମ୍ପର୍କକୁ ପାଠରେ ଦିଆଯାଇଥିବା ନାମ ଓ ଧାରା ଆଧାରରେ ଲେଖିବା।</li><li>୨୩. ନବଯୁଗ ସାହିତ୍ୟ ସଂସଦ ସମ୍ବନ୍ଧୀୟ ଉତ୍ତରରେ ପ୍ରତିଷ୍ଠାତା ଭଗବତୀଚରଣ ପାଣିଗ୍ରାହୀଙ୍କ ନାମ ରଖିବା।</li><li>୨୪. ମାୟାଧର ମାନସିଂହ ଓ ରାଧାମୋହନ ଗଡ଼ନାୟକଙ୍କ ବିଶେଷତ୍ୱ ଲେଖିବାବେଳେ ପାଠର ଦୁଇଟି ମୁଖ୍ୟ ସୂତ୍ର — ମାନସିଂହଙ୍କ ପ୍ରେମ-ସୌନ୍ଦର୍ଯ୍ୟ-ଜାତୀୟତା-ମାନବବନ୍ଦନା ଓ ଗଡ଼ନାୟକଙ୍କ ଗାଥାକବିତା-ଜାତୀୟତା-ମାନବବନ୍ଦନା — ନିଶ୍ଚୟ ରଖିବା।</li></ul>
+    </section>
+    <section class="slide" id="s38">
+      <div class="num">38</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ୩୧–୩୨</div>
+      <h2>ତୁମ ପାଇଁ କାମ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ତୁମ ପାଇଁ କାମ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">୩୧–୩୨</div>
+      </div>
+      <ul><li>୩୧. ଓଡ଼ିଆ ସାହିତ୍ୟର ଇତିହାସ ସମ୍ପର୍କରେ ଜାଣିବା ପାଇଁ ଅବସର ସମୟରେ ବିଦ୍ୟାଳୟ ପାଠାଗାରରୁ ବହି ସଂଗ୍ରହ କରି ପଢ଼।</li><li>୩୨. ଭଲ ଲାଗୁଥିବା କବି ବା ଲେଖକଙ୍କ ଜୀବନୀ ଓ କୃତିଗୁଡ଼ିକୁ ସଂଗ୍ରହ କରି ପଢ଼ ଓ ତାଲିକା କର।</li></ul>
+    </section>
+    <section class="slide" id="s39">
+      <div class="num">39</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — ୧୫ଟି ମୁଖ୍ୟ ବିନ୍ଦୁ</div>
+      <h2>ଦ୍ରୁତ ପୁନରାବୃତ୍ତି</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଦ୍ରୁତ ପୁନରାବୃତ୍ତି</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">୧୫ଟି ମୁଖ୍ୟ ବିନ୍ଦୁ</div>
+      </div>
+      <ul><li>୧. ୧୮୭୦ ପରଠାରୁ ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର କ୍ରମବିକାଶ।</li><li>୨. ନଅଙ୍କ ଦୁର୍ଭିକ୍ଷ (୧୮୬୬) ପରେ ଆତ୍ମଜାଗୃତି।</li><li>୩. ‘ଉତ୍କଳଦୀପିକା’ (୧୮୬୬) ଜାତୀୟ ଚେତନାର ମୁଖ୍ୟ ମାଧ୍ୟମ।</li><li>୪. ଭାଷା-ସୁରକ୍ଷା-ଆନ୍ଦୋଳନ (୧୮୬୯/୭୦)।</li><li>୫. ଛଅଟି ପର୍ବ — ରାଧାନାଥ, ସତ୍ୟବାଦୀ, ସବୁଜ, ପ୍ରଗତି, ଅତ୍ୟାଧୁନିକ, ଉତ୍ତର-ଆଧୁନିକ।</li><li>୬. ରାଧାନାଥଙ୍କ ‘ବିବେକୀ’ — ପ୍ରଥମ ପ୍ରବନ୍ଧ।</li><li>୭. ରାଧାନାଥଙ୍କ ‘ଚିଲିକା’ — ପ୍ରକୃତିକାବ୍ୟ।</li><li>୮. ମଧୁସୂଦନ ରାଓ — ସନେଟ୍‌ରେ ଦକ୍ଷ।</li><li>୯. ଫକୀରମୋହନ — ‘ରେବତୀ’ ଓ ‘ଆତ୍ମଚରିତ’।</li><li>୧୦. ଗଙ୍ଗାଧର — ‘କୃଷକସଙ୍ଗୀତ’।</li><li>୧୧. ନନ୍ଦକିଶୋର ବଳ — ପଲ୍ଲୀକବି।</li><li>୧୨. ସତ୍ୟବାଦୀ ପର୍ବ — ଜାତୀୟ ଚେତନା ଓ ମାନବସେବା।</li><li>୧୩. ସବୁଜ ପର୍ବ — ସ୍ୱପ୍ନ, କଳ୍ପନା, ପ୍ରେମ, ଯୌବନ, ପ୍ରକୃତି।</li><li>୧୪. ପ୍ରଗତି ପର୍ବ — ପ୍ରଗତିବାଦୀ ଭାବଧାରା; ସଚ୍ଚିଦାନନ୍ଦଙ୍କ ପ୍ରୟୋଗବାଦକୁ ଗତି।</li><li>୧୫. ଉତ୍ତର-ଆଧୁନିକ ପର୍ବ — ମଣିଷ, ପରମ୍ପରା ଓ ଲୋକଚିନ୍ତା ପୁଣି କେନ୍ଦ୍ରରେ।</li></ul>
+    </section>
+    <section class="slide" id="s40">
+      <div class="num">40</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — Final MCQ Quiz</div>
+      <h2>ଶେଷ ପରୀକ୍ଷା</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଶେଷ ପରୀକ୍ଷା</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">Final MCQ Quiz</div>
+      </div>
+      <ul><li>୧. ‘ବିବେକୀ’ କାହାର? କ) ରାଧାନାଥ ରାୟ  ଖ) ଫକୀରମୋହନ  ଗ) ଗଙ୍ଗାଧର  ଘ) ନନ୍ଦକିଶୋର</li><li>୨. ‘କୃଷକସଙ୍ଗୀତ’ କାହାର? କ) ଗଙ୍ଗାଧର ମେହେର  ଖ) ମଧୁସୂଦନ ରାଓ  ଗ) ଗୋପବନ୍ଧୁ  ଘ) ନୀଳକଣ୍ଠ</li><li>୩. ‘ରେବତୀ’ କାହାର? କ) ଫକୀରମୋହନ ସେନାପତି  ଖ) ରାଧାନାଥ ରାୟ  ଗ) ଗୋପାଳବଲ୍ଲଭ ଦାସ  ଘ) ସୁରେନ୍ଦ୍ର ମହାନ୍ତି</li><li>୪. ସତ୍ୟବାଦୀ ପର୍ବର କର୍ଣ୍ଣଧାର କିଏ? କ) ଗୋପବନ୍ଧୁ ଦାସ  ଖ) ମାୟାଧର ମାନସିଂହ  ଗ) ଫକୀରମୋହନ  ଘ) ଗଙ୍ଗାଧର</li><li>୫. ‘ପଦ୍ମମାଳୀ’ କାହାର? କ) ଉମେଶଚନ୍ଦ୍ର ସରକାର  ଖ) ରାମଶଙ୍କର ରାୟ  ଗ) ଜଗନ୍ନାଥଲାଲ  ଘ) ଗୋପାଳଚନ୍ଦ୍ର ପ୍ରହରାଜ</li><li>୬. ‘ଭୀମା ଭୂୟୀ’ କିଏ ଲେଖିଥିଲେ? କ) ଗୋପାଳବଲ୍ଲଭ ଦାସ  ଖ) ଗୋପୀନାଥ ମହାନ୍ତି  ଗ) ସୁରେନ୍ଦ୍ର ମହାନ୍ତି  ଘ) କାହ୍ନୁଚରଣ ମହାନ୍ତି</li></ul>
+    </section>
+    <section class="slide" id="s41">
+      <div class="num">41</div>
+      <div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</b> — Final Answer Key</div>
+      <h2>ଉତ୍ତର ସୂଚୀ</h2>
+      <div class="visual">
+        <div class="visual-title">🧠 ଧାରଣା ଚିତ୍ର</div>
+        <div class="flow">ଉତ୍ତର ସୂଚୀ</div>
+        <div class="arrow">↓</div>
+        <div class="flow small">Final Answer Key</div>
+      </div>
+      <ul><li>୧—କ, ୨—କ, ୩—କ, ୪—କ, ୫—କ, ୬—କ</li></ul>
+    </section>
+<div class="callout exam"><b>⚠️ ପରୀକ୍ଷା ସତର୍କତା:</b> କୃତିର ନାମ, ରଚୟିତା, ସାହିତ୍ୟର ପ୍ରଥମତ୍ୱ, ବର୍ଷ ଓ ପର୍ବର ସମୟସୀମା ଭୁଲ କରିବା ନାହିଁ।</div>
+</main>
+<footer>ଓଡ଼ିଆ ସାହିତ୍ୟ କଥା • ଆଧୁନିକ ଭାଗ • ଶ୍ରେଣୀ ୧୦</footer>
+</body></html>
