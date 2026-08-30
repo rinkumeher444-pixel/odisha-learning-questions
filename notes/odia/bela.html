@@ -1,158 +1,75 @@
-import fitz, base64, os, html, textwrap, re
+from pathlib import Path
+from html import escape
 
-pdf_path = "/mnt/data/mil bela -x.pdf"
-out_html = "/mnt/data/Odisha_Class_10_Odia_Lecture_Bela_Ashwatha_Batabruksha.html"
+out = Path("/mnt/data/bela_ashwattha_batabruksha_class10_regenerated_visual_lecture.html")
 
-doc = fitz.open(pdf_path)
+# One anchor per section; generated from section index to avoid broken navigation.
+anchors = [f"s{i+1}" for i in range(len(sections))]
 
-# Render each source page for visual reference inside the lecture.
-page_imgs = []
-for i, page in enumerate(doc):
-    pix = page.get_pixmap(matrix=fitz.Matrix(1.25, 1.25), alpha=False)
-    data = pix.tobytes("jpeg", jpg_quality=72)
-    page_imgs.append(base64.b64encode(data).decode("ascii"))
-
-# The chapter's visible title/content supports this high-level structure.
-sections = [
-    ("ପାଠ ପରିଚୟ", "‘ବେଲ, ଅଶ୍ୱତ୍ଥ ଓ ବଟବୃକ୍ଷ’ ଏକ ଗଳ୍ପ। ଗଳ୍ପରେ ଗ୍ରୀଷ୍ମର ପ୍ରଚଣ୍ଡ ତାପ, ଜଳାଭାବ, ମାନବଜୀବନର କଷ୍ଟ ଏବଂ ପ୍ରକୃତି ସହ ମଣିଷର ଗଭୀର ସମ୍ପର୍କକୁ ଚିତ୍ରଣ କରାଯାଇଛି।"),
-    ("ଲେଖକ ପରିଚୟ", "ରବି ପଟ୍ଟନାୟକ (୧୯୩୫–୧୯୯୧)ଙ୍କ ଲେଖକ ପରିଚୟ ପାଠର ଆରମ୍ଭରେ ଦିଆଯାଇଛି। ତାଙ୍କ ରଚନାରେ ମୂଲ୍ୟବୋଧ, ସାମାଜିକ ଆଦର୍ଶ ଓ ମାନବିକତାର ଗୁରୁତ୍ୱ ଦେଖାଯାଏ।"),
-    ("କାହାଣୀର ଆରମ୍ଭ", "ନଟବର ବାବୁ ବସ୍‌ରୁ ଓହ୍ଲାଇ ଗାଁ ଦିଗକୁ ଯାଉଛନ୍ତି। ପ୍ରଚଣ୍ଡ ବୈଶାଖୀ ଖରାରେ ଚାରିଆଡ଼େ ତାପ ଓ ଶୁଖିଲା ପରିବେଶ। ତାଙ୍କ ମନରେ ଘର, ମାଆ ଓ ପିଲାମାନଙ୍କ ଚିନ୍ତା ଚାଲିଥାଏ।"),
-    ("ହରି ଗୁଡ଼ିଆଙ୍କ ଦୋକାନ", "ବସ୍‌ଷ୍ଟାଣ୍ଡ ପାଖରେ ହରି ଗୁଡ଼ିଆଙ୍କ ଛୋଟ ଦୋକାନ। ଗରମରେ ଲୋକମାନେ ପାଣି ଚାହାନ୍ତି। ଏହି ଦୃଶ୍ୟ ଖରାର କଷ୍ଟ ଓ ଗାଁଜୀବନର ସରଳତାକୁ ଦେଖାଏ।"),
-    ("ମାଆଙ୍କ ପାଇଁ ଚିନ୍ତା", "ନଟବର ବାବୁ ନିଜ ମାଆଙ୍କ ଅସୁସ୍ଥତାକୁ ନେଇ ଚିନ୍ତିତ। ସେ ନିଜ ସୁଖସୁବିଧା ଠାରୁ ପରିବାରକୁ ଅଧିକ ଗୁରୁତ୍ୱ ଦିଅନ୍ତି। ପିଲାମାନେ ଭଲରେ ରହୁନ୍ତୁ—ଏହା ତାଙ୍କ ମୁଖ୍ୟ ଚିନ୍ତା।"),
-    ("ମଣିଷ ଓ ସମାଜ", "ଗଳ୍ପରେ ମଣିଷର ସ୍ୱାର୍ଥପରତା ଓ ଆତ୍ମକେନ୍ଦ୍ରିକତା ପ୍ରତି ପ୍ରଶ୍ନ ଉଠିଛି। ନିଜ ପାଇଁ ନୁହେଁ, ଅନ୍ୟଙ୍କ ପାଇଁ କିଛି କରିବାର ମାନବିକ ମୂଲ୍ୟକୁ ଗଳ୍ପ ଗୁରୁତ୍ୱ ଦିଏ।"),
-    ("ଶୁଖିଯାଉଥିବା ଗାଁ", "ହରିଚନ୍ଦନପୁର ଗାଁର ଦୃଶ୍ୟରେ ଶୁଖିଯାଇଥିବା ପୋଖରୀ, ଧୂଳି, ଶୁଖିଲା ଗଛ ଓ ତୀବ୍ର ତାପର ଚିତ୍ର ମିଳେ। ପ୍ରକୃତିର ଏହି ପରିବର୍ତ୍ତନ ମଣିଷର ଜୀବନକୁ କିପରି ପ୍ରଭାବିତ କରେ, ତାହା ସ୍ପଷ୍ଟ ହୁଏ।"),
-    ("ଶିବ ମନ୍ଦିର ପରିବେଶ", "ଗାଁର ପୁରୁଣା ଶିବମନ୍ଦିର ମଧ୍ୟ ଖରାର ପ୍ରଭାବରୁ ମୁକ୍ତ ନୁହେଁ। ମନ୍ଦିର, ପୋଖରୀ ଓ ଗଛପଲାର ଶୁଖିଲା ଦୃଶ୍ୟ ଗଳ୍ପର ପରିବେଶକୁ ଅଧିକ ଗଭୀର କରିଥାଏ।"),
-    ("ବଟବୃକ୍ଷର ଛାୟା", "ତୀବ୍ର ଗରମରେ ନଟବର ବାବୁ ବଡ଼ ବଟଗଛ ତଳେ ପହଞ୍ଚନ୍ତି। ଛାୟାର ଶୀତଳ ସ୍ପର୍ଶ ତାଙ୍କୁ ଆରାମ ଦିଏ। ବଟଗଛ ଏଠାରେ ଆଶ୍ରୟ, ସ୍ନେହ ଓ ମାତୃତ୍ୱର ଭାବକୁ ଜାଗ୍ରତ କରେ।"),
-    ("ବେଲ, ଅଶ୍ୱତ୍ଥ ଓ ବଟବୃକ୍ଷର ଅର୍ଥ", "ଗଳ୍ପର ନାମର ତିନୋଟି ଗଛ ପ୍ରକୃତି, ଜୀବନ ଓ ମଣିଷର ସମ୍ପର୍କର ପ୍ରତୀକୀୟ ଭାବକୁ ଉଜାଗର କରେ। ଗଛ କେବଳ କାଠ କିମ୍ବା ପତ୍ର ନୁହେଁ; ସେ ଛାୟା, ଜୀବନ ଓ ଆଶ୍ରୟ ଦେଇଥାଏ।"),
-    ("ପ୍ରକୃତିର ନିୟମ", "ଗଳ୍ପରେ ପ୍ରକୃତିର ନିୟମ ଓ ପୁନର୍ଜୀବନର ଆଶାକୁ ନେଇ ଚିନ୍ତନ ରହିଛି। ଖରା ପରେ ବର୍ଷା ଆସିବ, ଶୁଖିଲା ମାଟି ପୁଣି ଜୀବନ ପାଇବ—ଏହି ଆଶା ଗଳ୍ପର ଶେଷ ଭାଗରେ ଗୁରୁତ୍ୱ ପାଏ।"),
-    ("ନଟବର ବାବୁଙ୍କ ଅନୁଭୂତି", "ବଟଗଛ ତଳେ ବସି ନଟବର ବାବୁଙ୍କ ମନରେ ଅନେକ ସ୍ମୃତି ଓ ଭାବନା ଜାଗେ। ମାଆଙ୍କ ସ୍ନେହ, ପିଲାମାନଙ୍କ ଭବିଷ୍ୟତ ଓ ଜୀବନର କଷ୍ଟ ସବୁ ଏକାସାଙ୍ଗେ ତାଙ୍କ ଚେତନାରେ ଆସିଥାଏ।"),
-    ("ମୁଖ୍ୟ ଭାବ", "ମାନବିକତା, ମାତୃସ୍ନେହ, ଆତ୍ମତ୍ୟାଗ, ପ୍ରକୃତି ପ୍ରତି ସଚେତନତା ଓ ଜୀବନର ପୁନର୍ଜୀବନ—ଏହି ଭାବଗୁଡ଼ିକ ଗଳ୍ପରେ ପ୍ରମୁଖ।"),
-    ("ପରୀକ୍ଷା ପ୍ରସ୍ତୁତି", "ପାଠର ଘଟଣାକ୍ରମ, ନଟବର ବାବୁଙ୍କ ଚିନ୍ତା, ହରି ଗୁଡ଼ିଆଙ୍କ ଦୋକାନ, ଗାଁର ଖରା ଦୃଶ୍ୟ, ଶିବମନ୍ଦିର, ବଟଗଛ ଓ ଗଳ୍ପର ନାମକରଣ—ଏଗୁଡ଼ିକ ଉପରେ ଲିଖିତ ଉତ୍ତର ପ୍ରସ୍ତୁତ କର।"),
-]
-
-questions = [
-("ନଟବର ବାବୁ ବସ୍‌ରୁ ଓହ୍ଲାଇ କାହିଁକି ଦୋଦୋପାଞ୍ଚ ହେଉଥିଲେ?", "ଗାଁକୁ ଯିବେ କି ନାହିଁ—ଏହି ଦ୍ୱନ୍ଦ୍ୱ ଓ ଚାରିପାଖର ପ୍ରଚଣ୍ଡ ଖରା ତାଙ୍କୁ ଦ୍ୱିଧାରେ ପକାଇଥିଲା।"),
-("ହରି ଗୁଡ଼ିଆଙ୍କ ଦୋକାନ କିପରି ଥିଲା?", "ବସ୍‌ଷ୍ଟାଣ୍ଡ ପାଖରେ ଥିବା ଏକ ଛୋଟ, ସରଳ ଦୋକାନ; ସେଠାରେ ପାଣି ଓ ଛୋଟ ଖାଦ୍ୟଦ୍ରବ୍ୟ ମିଳୁଥିଲା।"),
-("ନଟବର ବାବୁ ନିଜ ମାଆଙ୍କ ପାଇଁ କ’ଣ ଚିନ୍ତା କରୁଥିଲେ?", "ମାଆଙ୍କ ଅସୁସ୍ଥତା ଓ ତାଙ୍କୁ ଭଲରେ ରଖିବା ନେଇ ସେ ଚିନ୍ତିତ ଥିଲେ।"),
-("ଗଳ୍ପରେ ମଣିଷ ଜାତିକୁ କାହିଁକି ‘ଅକୃତଜ୍ଞ’ ବୋଲି ଭାବାଯାଇଛି?", "ପ୍ରକୃତି ଓ ଅନ୍ୟମାନଙ୍କ ଠାରୁ ଲାଭ ନେଇ ମଣିଷ ପଛକୁ ଫେରି ଉପକାର ସ୍ମରଣ କରେ ନାହିଁ—ଏହି ଭାବରେ ପ୍ରଶ୍ନ ଉଠାଯାଇଛି।"),
-("ଗଳ୍ପରେ ପ୍ରାଣୀଜଗତର ନିୟମ କ’ଣ ବୋଲି କୁହାଯାଇଛି?", "ସୃଷ୍ଟିର ପ୍ରାକୃତିକ ନିୟମ ଅନୁସାରେ ଜୀବନ ଚାଲେ; ଗଛପଲା ମଧ୍ୟ ନିଜ ସ୍ୱାଭାବିକ ନିୟମରେ ନୂଆ ପତ୍ର ଓ ଫୁଲ ଦେଇଥାଏ।"),
-("ନଟବର ବାବୁ ବଟଗଛ ତଳେ ପହଞ୍ଚି କ’ଣ ଅନୁଭବ କଲେ?", "ପ୍ରଚଣ୍ଡ ଗରମ ମଧ୍ୟରେ ବଟଗଛର ଶୀତଳ ଛାୟା ତାଙ୍କୁ ଗଭୀର ଆରାମ ଦେଲା ଏବଂ ମନରେ ସ୍ମୃତି ଓ ଭାବନା ଜାଗିଲା।"),
-("‘ବେଲ, ଅଶ୍ୱତ୍ଥ ଓ ବଟବୃକ୍ଷ’ ନାମକରଣର ସାର୍ଥକତା କ’ଣ?", "ଗଳ୍ପର ଘଟଣା, ପରିବେଶ, ପ୍ରକୃତି ଓ ମଣିଷର ଜୀବନ ସହ ଏହି ଗଛଗୁଡ଼ିକର ସମ୍ପର୍କ ଥିବାରୁ ନାମଟି ଅର୍ଥପୂର୍ଣ୍ଣ।"),
-]
-
-html_parts = ["""<!doctype html>
-<html lang="or">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ବେଲ, ଅଶ୍ୱତ୍ଥ ଓ ବଟବୃକ୍ଷ — Class 10 Odia Lecture</title>
+parts = ["""<!doctype html><html lang="or"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ବେଲ, ଅଶ୍ୱତ୍ଥ ଓ ବଟବୃକ୍ଷ — ଶ୍ରେଣୀ ୧୦ ଓଡ଼ିଆ</title>
 <style>
-:root{--bg:#f5f7fb;--card:#fff;--ink:#172033;--muted:#5d687b;--accent:#234f8f;--gold:#d39a2c;--soft:#edf3fb}
-*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans Odia","Noto Sans",sans-serif;line-height:1.75}
-.hero{padding:56px 7%;background:linear-gradient(135deg,#102a50,#3566a1);color:#fff}
-.hero h1{font-size:clamp(30px,5vw,58px);margin:0 0 8px}.hero p{margin:6px 0;font-size:18px;opacity:.95}
-.wrap{max-width:1100px;margin:auto;padding:28px 18px 70px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
-.card{background:var(--card);border-radius:18px;padding:24px;box-shadow:0 8px 25px #18345a12;margin:18px 0}
-.card h2{margin-top:0;color:var(--accent);font-size:25px}.tag{display:inline-block;background:var(--soft);color:var(--accent);padding:3px 10px;border-radius:999px;font-size:13px;font-weight:700}
-.obj{border-left:4px solid var(--gold);padding:10px 14px;background:#fffaf0;margin:12px 0}
-.visual{background:#f8fafc;border:1px solid #dce4ef;border-radius:16px;padding:18px;text-align:center}
-.flow{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:center}.node{background:#eaf1fb;padding:10px 14px;border-radius:12px;font-weight:700}.arrow{font-size:22px;color:var(--accent)}
-table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden}th,td{padding:12px;border-bottom:1px solid #e6ebf2;text-align:left;vertical-align:top}th{background:#eef4fb;color:var(--accent)}
-.quiz{counter-reset:q}.q{margin:15px 0;padding:15px;background:#fafbfe;border-radius:12px}.q b{color:var(--accent)}
-.answer{background:#eef8ef;padding:10px 13px;border-radius:10px;margin-top:8px}
-.pageimg{width:100%;border-radius:12px;border:1px solid #d9e0ea;display:block}
-.footer{text-align:center;color:var(--muted);padding:25px}
-@media print{.card{break-inside:avoid}.hero{background:#234f8f}}
+:root{--ink:#172033;--muted:#5c6678;--navy:#13294b;--blue:#2563eb;--violet:#6d28d9;--green:#047857;--gold:#b7791f;--red:#b91c1c;--bg:#f3f6fb;--card:#fff;--line:#dbe3ee}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(#eef4ff,#f8fafc 40%,#f2f5f9);color:var(--ink);font-family:"Noto Sans Oriya","Noto Sans Odia","Kalinga","Nirmala UI",sans-serif;line-height:1.85}
+.wrap{max-width:1120px;margin:auto;padding:16px}.hero{background:linear-gradient(135deg,#11294b,#25457d 55%,#5b21b6);color:#fff;border-radius:28px;padding:32px 24px;box-shadow:0 18px 50px #13294b30}.hero h1{margin:0;font-size:clamp(30px,6vw,55px);font-weight:900}.hero h2{margin:4px 0 0;color:#e8edff;font-size:clamp(18px,3vw,25px)}
+.badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:17px}.badge{border:1px solid #fff4;background:#fff2;border-radius:999px;padding:4px 11px;font-size:13px}
+nav{position:sticky;top:0;z-index:10;background:#ffffffed;backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}.nav{max-width:1120px;margin:auto;padding:8px 16px;display:flex;gap:7px;overflow:auto}.nav a{white-space:nowrap;text-decoration:none;color:#1e3a8a;background:#eef4ff;padding:4px 10px;border-radius:999px;font-size:13px}
+section{margin-top:27px}h2{font-size:clamp(22px,4vw,34px);margin:0 0 12px}h3{margin:0 0 7px;font-size:20px}.obj{background:#eaf2ff;border-left:5px solid var(--blue);padding:11px 14px;border-radius:12px;margin:10px 0 16px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:17px;box-shadow:0 7px 22px #1720330b;margin-bottom:13px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.key{background:#fff8e8;border-left:5px solid var(--gold);padding:12px;border-radius:12px}.exam{background:#ecfdf5;border-left:5px solid var(--green);padding:12px;border-radius:12px}.warn{background:#fff1f2;border-left:5px solid var(--red);padding:12px;border-radius:12px}
+.flow{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap}.box{background:#fff;border:2px solid #c7d2fe;border-radius:14px;padding:10px 14px;font-weight:800;text-align:center}.arrow{font-size:23px;color:var(--blue)}
+.scene{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.scene .box{min-height:100px;display:flex;align-items:center;justify-content:center}.num{display:inline-flex;width:30px;height:30px;border-radius:50%;align-items:center;justify-content:center;background:var(--blue);color:#fff;font-weight:900;margin-right:7px}
+.question{background:#fff;border:1px solid var(--line);border-radius:15px;padding:14px;margin:9px 0}.answer{background:#f8fafc;border-radius:10px;padding:9px;margin-top:8px}.quote{background:#f5f3ff;border-left:5px solid var(--violet);padding:12px;border-radius:12px;font-weight:700}.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.t{background:#fff;border:1px solid var(--line);border-radius:14px;padding:11px;text-align:center}.small{font-size:13px;color:var(--muted)}
+.footer{text-align:center;color:var(--muted);padding:28px}
+@media(max-width:760px){.grid,.grid3{grid-template-columns:1fr}.scene{grid-template-columns:1fr 1fr}.timeline{grid-template-columns:1fr 1fr}.wrap{padding:11px}}
+@media print{nav{display:none}.card,section{break-inside:avoid}.hero{color:#000;background:#fff;border:2px solid #13294b}}
 </style></head><body>
-<section class="hero"><h1>ବେଲ, ଅଶ୍ୱତ୍ଥ ଓ ବଟବୃକ୍ଷ</h1><p>ଓଡ଼ିଶା ଶ୍ରେଣୀ–୧୦ • ସରଳ ଓଡ଼ିଆରେ ଶିକ୍ଷଣ • ପରୀକ୍ଷାମୁଖୀ ପୁନରାବୃତ୍ତି</p></section>
-<div class="wrap">
-<div class="card"><span class="tag">ଆଜିର ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ</span>
-<ul><li>ଗଳ୍ପର ଘଟଣାକ୍ରମ ବୁଝିବା</li><li>ନଟବର ବାବୁଙ୍କ ମନୋଭାବ ବୁଝିବା</li><li>ପ୍ରକୃତି, ମାତୃସ୍ନେହ ଓ ମାନବିକତାର ସମ୍ପର୍କ ବୁଝିବା</li><li>ପାଠର ପ୍ରଶ୍ନୋତ୍ତର ପାଇଁ ପ୍ରସ୍ତୁତ ହେବା</li></ul></div>
-"""]
+<nav><div class="nav">"""]
 
-for title, body in sections:
-    html_parts.append(f"""<section class="card"><h2>{html.escape(title)}</h2><div class="obj"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ:</b> ଏହି ଅଂଶର ମୁଖ୍ୟ ଭାବକୁ ସରଳ ଭାବରେ ବୁଝିବା।</div><p>{html.escape(body)}</p></section>""")
+for i,(k,t,o,p) in enumerate(sections):
+    parts.append(f'<a href="#{anchors[i]}">{escape(t)}</a>')
+parts.append('</div></nav><main class="wrap">')
+parts.append("""<header class="hero"><h1>ବେଲ, ଅଶ୍ୱତ୍ଥ ଓ ବଟବୃକ୍ଷ</h1><h2>ଲେଖକ — ରବି ପଟ୍ଟନାୟକ (୧୯୩୫–୧୯୯୧)</h2>
+<div class="badges"><span class="badge">ଶ୍ରେଣୀ–୧୦</span><span class="badge">ଗଳ୍ପ</span><span class="badge">ସରଳ ଓଡ଼ିଆ</span><span class="badge">ପରୀକ୍ଷା ପ୍ରସ୍ତୁତି</span><span class="badge">ଭିଜୁଆଲ୍ ଲେକ୍ଚର</span></div></header>""")
 
-html_parts.append("""<section class="card"><h2>📌 ଘଟଣାକ୍ରମ — ଏକ ନଜରରେ</h2>
-<div class="visual"><div class="flow">
-<div class="node">ବସ୍‌ଷ୍ଟାଣ୍ଡ</div><div class="arrow">→</div>
-<div class="node">ହରି ଗୁଡ଼ିଆଙ୍କ ଦୋକାନ</div><div class="arrow">→</div>
-<div class="node">ଖରାରେ ଗାଁ ରାସ୍ତା</div><div class="arrow">→</div>
-<div class="node">ଶିବମନ୍ଦିର</div><div class="arrow">→</div>
-<div class="node">ବଟଗଛର ଛାୟା</div><div class="arrow">→</div>
-<div class="node">ସ୍ମୃତି ଓ ଆତ୍ମଚିନ୍ତନ</div>
-</div></div></section>
+for idx,(k,t,o,points) in enumerate(sections):
+    parts.append(f'<section id="{anchors[idx]}"><h2>{idx+1}. {escape(t)}</h2><div class="obj"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ:</b> {escape(o)}</div>')
+    if "ଘଟଣାକ୍ରମ" in t:
+        flow=["ବସ୍‌ଷ୍ଟେଣ୍ଡ","ହରି ଗୁଡ଼ିଆ","ଗାଁକୁ ଯାତ୍ରା","ବୋଉଙ୍କ ସ୍ମୃତି","ଶିବମନ୍ଦିର","ଅଶ୍ୱତ୍ଥ","ବରଗଛ","ଶେଷ ଛବି"]
+        parts.append('<div class="timeline">'+''.join(f'<div class="t"><span class="num">{j+1}</span>{escape(x)}</div>' for j,x in enumerate(flow))+'</div>')
+    elif t=="ମୁଖ୍ୟ ଚରିତ୍ର":
+        chars=["ନଟବର ବାବୁ","ବୋଉ","ହରି ଗୁଡ଼ିଆ","ପିଲାମାନେ"]
+        parts.append('<div class="scene">'+''.join(f'<div class="box">{escape(x)}</div>' for x in chars)+'</div>')
+    elif "ସ୍ନେହମୟୀ ଜନନୀ" in t:
+        parts.append('<div class="flow"><div class="box">ବରଗଛ</div><span class="arrow">→</span><div class="box">ଘଞ୍ଚ ଛାଇ</div><span class="arrow">→</span><div class="box">ଆଶ୍ରୟ</div><span class="arrow">→</span><div class="box">ଜନନୀ</div></div>')
+    elif "କେନ୍ଦ୍ରୀୟ ଚିନ୍ତା" in t:
+        parts.append('<div class="flow"><div class="box">ମାତୃତ୍ୱ</div><span class="arrow">+</span><div class="box">କୃତଜ୍ଞତା</div><span class="arrow">+</span><div class="box">ପ୍ରକୃତି</div><span class="arrow">→</span><div class="box">ମୁଖ୍ୟ ଭାବ</div></div>')
+    elif "ତିନୋଟି ଛବି" in t:
+        parts.append('<div class="flow"><div class="box">ବରଗଛ</div><span class="arrow">→</span><div class="box">ବୋଉ</div><span class="arrow">→</span><div class="box">ନିଜ ଛବି</div></div>')
+    elif "ସାରଣୀ" in t:
+        parts.append('<div class="flow"><div class="box">ଚରିତ୍ର</div><span class="arrow">→</span><div class="box">ଘଟଣା</div><span class="arrow">→</span><div class="box">ଭାବ</div></div>')
+    else:
+        parts.append('<div class="key"><b>📌 ମୁଖ୍ୟ ଧାରଣା:</b> ପାଠର ଘଟଣା ଓ ଭାବକୁ ଛୋଟ ଛୋଟ ଧାପରେ ବୁଝନ୍ତୁ।</div>')
+    if "ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ବାକ୍ୟ" in t:
+        for p in points: parts.append(f'<div class="quote">{escape(p)}</div>')
+    elif "ଶବ୍ଦ କାର୍ଡ" in t:
+        cards=[]
+        for p in points:
+            if " → " in p:
+                a,b=p.split(" → ",1); cards.append(f'<div class="card"><h3>🟦 {escape(a)}</h3><p>{escape(b)}</p></div>')
+            else: cards.append(f'<div class="card">{escape(p)}</div>')
+        parts.append('<div class="grid3">'+''.join(cards)+'</div>')
+    elif t.startswith("ପ୍ରଶ୍ନ"):
+        for p in points:
+            if " → " in p:
+                q,a=p.split(" → ",1)
+                parts.append(f'<div class="question"><b>{escape(q)}</b><div class="answer"><b>ଉତ୍ତର:</b> {escape(a)}</div></div>')
+            else: parts.append(f'<div class="card">{escape(p)}</div>')
+    else:
+        parts.append('<div class="grid">'+''.join(f'<div class="card">{escape(p)}</div>' for p in points)+'</div>')
+    parts.append('</section>')
 
-<section class="card"><h2>🌳 ପ୍ରକୃତି ଓ ମାନବଜୀବନ — Concept Map</h2>
-<div class="visual"><div class="flow">
-<div class="node">ଖରା</div><div class="arrow">→</div><div class="node">ଜଳାଭାବ</div><div class="arrow">→</div><div class="node">ମଣିଷର କଷ୍ଟ</div>
-</div><br><div class="flow">
-<div class="node">ଗଛ</div><div class="arrow">→</div><div class="node">ଛାୟା</div><div class="arrow">→</div><div class="node">ଆଶ୍ରୟ ଓ ଆରାମ</div>
-</div><br><div class="flow">
-<div class="node">ବର୍ଷା</div><div class="arrow">→</div><div class="node">ନୂଆ ପତ୍ର/ଫୁଲ</div><div class="arrow">→</div><div class="node">ପୁନର୍ଜୀବନର ଆଶା</div>
-</div></div></section>
-
-<section class="card"><h2>⭐ ମୁଖ୍ୟ ବିଷୟ</h2><div class="grid">
-<div class="visual"><b>ମାତୃସ୍ନେହ</b><br>ମାଆଙ୍କ ପ୍ରତି ଗଭୀର ଚିନ୍ତା ଓ ଭାବନା।</div>
-<div class="visual"><b>ଆତ୍ମତ୍ୟାଗ</b><br>ନିଜ ସୁଖ ଠାରୁ ଅନ୍ୟଙ୍କ ମଙ୍ଗଳକୁ ଗୁରୁତ୍ୱ।</div>
-<div class="visual"><b>ପ୍ରକୃତି</b><br>ଗଛ, ଖରା, ବର୍ଷା ଓ ଜୀବନର ଅବିଚ୍ଛିନ୍ନ ସମ୍ପର୍କ।</div>
-<div class="visual"><b>ମାନବିକତା</b><br>ସ୍ୱାର୍ଥରୁ ଉପରେ ମଣିଷ ହେବାର ଚେତନା।</div>
-</div></section>
-
-<section class="card"><h2>📝 ପାଠ୍ୟଭିତ୍ତିକ ପ୍ରଶ୍ନୋତ୍ତର</h2>""")
-for q,a in questions:
-    html_parts.append(f'<div class="q"><b>ପ୍ରଶ୍ନ:</b> {html.escape(q)}<div class="answer"><b>ଉତ୍ତର:</b> {html.escape(a)}</div></div>')
-html_parts.append("</section>")
-
-html_parts.append("""<section class="card"><h2>🎯 ନାମକରଣ — ପରୀକ୍ଷା ପାଇଁ</h2>
-<p>ଗଳ୍ପର ନାମରେ ଥିବା <b>ବେଲ, ଅଶ୍ୱତ୍ଥ ଓ ବଟବୃକ୍ଷ</b> କେବଳ ଗଛର ନାମ ନୁହେଁ। ଗଳ୍ପର ପ୍ରକୃତିମୟ ପରିବେଶ, ମଣିଷର ଜୀବନ, ଆଶ୍ରୟ, ସ୍ନେହ ଓ ପୁନର୍ଜୀବନର ଭାବ ସହ ଏମାନଙ୍କ ସମ୍ପର୍କ ରହିଛି। ତେଣୁ ଗଳ୍ପର ନାମକରଣ ଅର୍ଥପୂର୍ଣ୍ଣ।</p>
-</section>
-
-<section class="card"><h2>🔁 ଶେଷ ପୁନରାବୃତ୍ତି — 12ଟି ମୁଖ୍ୟ ବିନ୍ଦୁ</h2>
-<ol>
-<li>ଗଳ୍ପର କେନ୍ଦ୍ରୀୟ ପାତ୍ର ନଟବର ବାବୁ।</li>
-<li>ଗଳ୍ପର ପରିବେଶରେ ପ୍ରଚଣ୍ଡ ବୈଶାଖୀ ଖରା ଦେଖାଯାଏ।</li>
-<li>ହରି ଗୁଡ଼ିଆଙ୍କ ଦୋକାନ ବସ୍‌ଷ୍ଟାଣ୍ଡ ପାଖରେ ଅଛି।</li>
-<li>ଜଳାଭାବ ଓ ତାପ ଗାଁଜୀବନକୁ କଷ୍ଟଦାୟକ କରେ।</li>
-<li>ନଟବର ବାବୁ ନିଜ ମାଆଙ୍କୁ ନେଇ ଚିନ୍ତିତ।</li>
-<li>ପିଲାମାନଙ୍କ ଭବିଷ୍ୟତ ନେଇ ତାଙ୍କ ମନରେ ଚିନ୍ତା ରହେ।</li>
-<li>ଗଳ୍ପରେ ମଣିଷର ସ୍ୱାର୍ଥପରତା ପ୍ରତି ପ୍ରଶ୍ନ ଉଠିଛି।</li>
-<li>ପ୍ରକୃତିର ନିଜସ୍ୱ ନିୟମ ଓ ପୁନର୍ଜୀବନର ଧାରଣା ଆସିଛି।</li>
-<li>ଶିବମନ୍ଦିର ପରିବେଶ ଗଳ୍ପର ଗ୍ରାମ୍ୟ ଚିତ୍ରକୁ ଗଭୀର କରେ।</li>
-<li>ବଟଗଛର ଛାୟା ନଟବର ବାବୁଙ୍କୁ ଆରାମ ଦିଏ।</li>
-<li>ଗଛଗୁଡ଼ିକ ମଣିଷ ଓ ପ୍ରକୃତିର ସମ୍ପର୍କର ଗୁରୁତ୍ୱକୁ ଦେଖାଏ।</li>
-<li>ଗଳ୍ପର ଶେଷ ଭାଗରେ ବର୍ଷା ଓ ପୁନର୍ଜୀବନର ଆଶା ଦେଖାଯାଏ।</li>
-</ol></section>
-
-<section class="card"><h2>📊 Quick Revision Table</h2>
-<table><tr><th>ବିଷୟ</th><th>ମନେ ରଖିବା କଥା</th></tr>
-<tr><td>ମୁଖ୍ୟ ପାତ୍ର</td><td>ନଟବର ବାବୁ</td></tr>
-<tr><td>ପରିବେଶ</td><td>ପ୍ରଚଣ୍ଡ ଖରା, ଶୁଖିଲା ଗାଁ, ଜଳାଭାବ</td></tr>
-<tr><td>ମାନବିକ ଭାବ</td><td>ମାଆ ଓ ପିଲାମାନଙ୍କ ପ୍ରତି ଚିନ୍ତା</td></tr>
-<tr><td>ପ୍ରକୃତି</td><td>ଗଛ, ଛାୟା, ଖରା ଓ ବର୍ଷା</td></tr>
-<tr><td>ମୁଖ୍ୟ ଚିନ୍ତା</td><td>ମାନବିକତା ବନାମ ସ୍ୱାର୍ଥପରତା</td></tr>
-<tr><td>ପ୍ରତୀକୀୟ ଭାବ</td><td>ଗଛ = ଆଶ୍ରୟ, ସ୍ନେହ, ଜୀବନର ଆଶା</td></tr>
-</table></section>
-
-<section class="card"><h2>📚 ଶେଷ ପ୍ରଶ୍ନମାଳା</h2>
-<p><b>🎯 ଦୀର୍ଘ ଉତ୍ତର ପାଇଁ:</b> ‘ବେଲ, ଅଶ୍ୱତ୍ଥ ଓ ବଟବୃକ୍ଷ’ ନାମକରଣର ସାର୍ଥକତା ବ୍ୟାଖ୍ୟା କର।</p>
-<p><b>🎯 ଦୀର୍ଘ ଉତ୍ତର ପାଇଁ:</b> ଗଳ୍ପରେ ନଟବର ବାବୁଙ୍କ ମାନବିକ ଚରିତ୍ରକୁ ଆଲୋଚନା କର।</p>
-<p><b>🎯 ଦୀର୍ଘ ଉତ୍ତର ପାଇଁ:</b> ଖରାର ପ୍ରଭାବରେ ଗାଁର ପରିବେଶ କିପରି ଚିତ୍ରିତ ହୋଇଛି?</p>
-</section>
-
-<section class="card"><h2>📖 ପ୍ରଦତ୍ତ ପୃଷ୍ଠାଗୁଡ଼ିକ — Visual Source Check</h2>
-<p>ନିମ୍ନରେ ଅଧ୍ୟାୟର ସମସ୍ତ ୯ଟି ପୃଷ୍ଠାକୁ ଭିଜୁଆଲ୍ ଭାବରେ ରଖାଯାଇଛି, ଯାହାଦ୍ୱାରା ଶେଷ ପୃଷ୍ଠାର ପ୍ରଶ୍ନମାଳା ଓ ‘ତୁମ ପାଇଁ କାମ’ ଅଂଶ ମଧ୍ୟ ଯାଞ୍ଚ କରିହେବ।</p>
-""")
-for i, img in enumerate(page_imgs,1):
-    html_parts.append(f'<div class="card"><h3>ପୃଷ୍ଠା {i}</h3><img class="pageimg" src="data:image/jpeg;base64,{img}" alt="ପୃଷ୍ଠା {i}"></div>')
-html_parts.append("""</section>
-<div class="footer">ଓଡ଼ିଶା ଶ୍ରେଣୀ–୧୦ • ଶିକ୍ଷଣ + ପୁନରାବୃତ୍ତି</div>
-</div></body></html>""")
-
-with open(out_html,"w",encoding="utf-8") as f:
-    f.write("".join(html_parts))
-
-print(f"Created: {out_html}")
-print(f"Pages included: {len(doc)}")
-print(f"File size: {os.path.getsize(out_html)/1024/1024:.1f} MB")
+parts.append('<div class="footer">— ସମ୍ପୂର୍ଣ୍ଣ ଭିଜୁଆଲ୍ ଲେକ୍ଚର —</div></main></body></html>')
+out.write_text("".join(parts),encoding="utf-8")
+print(f"ସଫଳତାର ସହ ପୁନଃ ତିଆରି ହୋଇଛି: {out}")
+print(f"ମୋଟ ଭାଗ: {len(sections)}")
+print("MCQ: ନାହିଁ")
