@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ଓଡ଼ିଆ ସାହିତ୍ୟ କଥା (ଆଧୁନିକ ଭାଗ) - ୧୦ମ ଶ୍ରେଣୀ ଅଧ୍ୟୟନ ମାର୍ଗଦର୍ଶିକା</title>
+    <style>
+        :root {
+            --deep-navy: #123c5a;
+            --sky-blue: #eaf5fb;
+            --accent-gold: #d79b20;
+            --soft-green: #e9f6ee;
+            --soft-red: #fff0ee;
+            --ink-text: #17212b;
+            --card-bg: #ffffff;
+            --border-color: #d1e3f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f8fb;
+            color: var(--ink-text);
+            line-height: 1.7;
+        }
+
+        body {
+            padding-bottom: 60px;
+        }
+
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Sticky Header */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: linear-gradient(135deg, var(--deep-navy), #1e6b8f);
+            color: #ffffff;
+            padding: 15px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .kicker {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--accent-gold);
+            font-weight: 700;
+        }
+
+        .header-title {
+            font-size: 1.6rem;
+            font-weight: 800;
+            text-align: center;
+        }
+
+        .author-info {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        nav.pills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 8px;
+        }
+
+        nav.pills a {
+            color: #ffffff;
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        nav.pills a:hover {
+            background: var(--accent-gold);
+            color: var(--deep-navy);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 8px 24px rgba(18, 60, 90, 0.08);
+            border: 1px solid var(--border-color);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            align-items: center;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: var(--sky-blue);
+            color: var(--deep-navy);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .hero-title {
+            font-size: 1.5rem;
+            color: var(--deep-navy);
+            margin-bottom: 12px;
+        }
+
+        .meta-badges {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .meta-tag {
+            background: var(--soft-green);
+            color: #1e7e34;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* Card UI */
+        .card {
+            background: var(--card-bg);
+            border-radius: 18px;
+            padding: 28px;
+            margin-bottom: 30px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 6px 18px rgba(18, 60, 90, 0.05);
+        }
+
+        .section-title {
+            font-size: 1.35rem;
+            color: var(--deep-navy);
+            margin-bottom: 18px;
+            padding-bottom: 8px;
+            border-bottom: 3px solid var(--sky-blue);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .tag {
+            background: var(--accent-gold);
+            color: #fff;
+            padding: 3px 10px;
+            border-radius: 10px;
+            font-size: 0.75rem;
+            font-weight: bold;
+        }
+
+        /* Callout Boxes */
+        .callout {
+            background: var(--sky-blue);
+            border-left: 5px solid var(--deep-navy);
+            padding: 16px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-size: 0.95rem;
+        }
+
+        .remember {
+            background: var(--soft-green);
+            border-left: 5px solid #28a745;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-size: 0.95rem;
+        }
+
+        .mistake {
+            background: var(--soft-red);
+            border-left: 5px solid #dc3545;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-size: 0.95rem;
+        }
+
+        /* Era Breakdown Grid */
+        .era-box {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 15px;
+            background: #fdfdfd;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 15px;
+        }
+
+        .era-title {
+            background: var(--sky-blue);
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            color: var(--deep-navy);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .era-desc {
+            font-size: 0.95rem;
+        }
+
+        /* Timeline Flex Layout */
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            position: relative;
+            padding-left: 20px;
+            border-left: 4px solid var(--deep-navy);
+            margin: 20px 0;
+        }
+
+        .timeline-item {
+            background: #fff;
+            border: 1px solid var(--border-color);
+            padding: 15px;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -27px;
+            top: 18px;
+            width: 12px;
+            height: 12px;
+            background: var(--accent-gold);
+            border-radius: 50%;
+            border: 3px solid var(--deep-navy);
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid var(--border-color);
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        th {
+            background-color: var(--deep-navy);
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9fbfd;
+        }
+
+        /* Q&A Section */
+        .qa-item {
+            margin-bottom: 18px;
+            padding-bottom: 12px;
+            border-bottom: 1px dashed var(--border-color);
+        }
+
+        .question {
+            font-weight: 700;
+            color: var(--deep-navy);
+            margin-bottom: 5px;
+        }
+
+        .answer {
+            color: var(--ink-text);
+            font-size: 0.95rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero {
+                grid-template-columns: 1fr;
+            }
+
+            .era-box {
+                grid-template-columns: 1fr;
+            }
+
+            .header-title {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Navigation Pills -->
+    <header>
+        <div class="container header-content">
+            <span class="kicker">୧୦ମ ଶ୍ରେଣୀ | ଓଡ଼ିଆ ସାହିତ୍ୟ</span>
+            <h1 class="header-title">ଓଡ଼ିଆ ସାହିତ୍ୟ କଥା (ଆଧୁନିକ ଭାଗ – ୧୮୭୦-)[span_0](start_span)[span_0](end_span)</h1>
+            <div class="author-info">ପ୍ରସ୍ତୁତି: ଓଡ଼ିଆ ସିଲାବସ୍ କମିଟି[span_1](start_span)[span_1](end_span)</div>
+            <nav class="pills">
+                <a href="#intro">ପୃଷ୍ଠଭୂମି</a>
+                <a href="#content">ଯୁଗ ବିଭାଜନ</a>
+                <a href="#meaning">ମୁଖ୍ୟ ଭାବଧାରା</a>
+                <a href="#words">କଠିନ ଶବ୍ଦାର୍ଥ</a>
+                <a href="#qa">ପ୍ରଶ୍ନୋତ୍ତର</a>
+                <a href="#revision">ସଂକ୍ଷିପ୍ତ ପୁନରୀକ୍ଷଣ</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Hero Banner -->
+        <section class="hero">
+            <div>
+                <span class="hero-badge">🎯 ଶିକ୍ଷଣ ଉଦ୍ଦେଶ୍ୟ</span>
+                <h2 class="hero-title">ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ବିକାଶ ଧାରା[span_2](start_span)[span_2](end_span)</h2>
+                <p>ଏହି ଅଧ୍ୟାୟରେ ଊନବିଂଶ ଶତାବ୍ଦୀର ଉତ୍ତରାର୍ଦ୍ଧରୁ (୧୮୭୦) ଆରମ୍ଭ ହୋଇଥିବା ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ବିଭିନ୍ନ ଯୁଗ, କବି, ଲେଖକ ଓ ସେମାନଙ୍କ କୃତି ସମ୍ପର୍କରେ ସମ୍ୟକ୍ ପରିଚୟ ପ୍ରଦାନ କରାଯାଇଛି[span_3](start_span)[span_3](end_span) ।</p>
+                <div class="meta-badges">
+                    <span class="meta-tag">ପରୀକ୍ଷା ଉପଯୋଗୀ</span>
+                    <span class="meta-tag">ସଂକ୍ଷିପ୍ତ ଟିପ୍ପଣୀ</span>
+                </div>
+            </div>
+            <div>
+                <!-- Inline SVG Conceptual Diagram -->
+                <svg viewBox="0 0 400 220" width="100%" height="100%">
+                    <rect x="10" y="10" width="380" height="200" rx="15" fill="#eaf5fb" stroke="#123c5a" stroke-width="2"/>
+                    <text x="200" y="35" text-anchor="middle" fill="#123c5a" font-weight="bold" font-size="14">ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ବିକାଶ କ୍ରମ[span_4](start_span)[span_4](end_span)</text>
+                    
+                    <circle cx="60" cy="80" r="25" fill="#123c5a"/>
+                    <text x="60" y="85" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">ରାଧାନାଥ[span_5](start_span)[span_5](end_span)</text>
+                    
+                    <line x1="85" y1="80" x2="115" y2="80" stroke="#d79b20" stroke-width="3"/>
+                    
+                    <circle cx="140" cy="80" r="25" fill="#123c5a"/>
+                    <text x="140" y="85" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">ସତ୍ୟବାଦୀ[span_6](start_span)[span_6](end_span)</text>
+                    
+                    <line x1="165" y1="80" x2="195" y2="80" stroke="#d79b20" stroke-width="3"/>
+                    
+                    <circle cx="220" cy="80" r="25" fill="#123c5a"/>
+                    <text x="220" y="85" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">ସବୁଜ[span_7](start_span)[span_7](end_span)</text>
+                    
+                    <line x1="245" y1="80" x2="275" y2="80" stroke="#d79b20" stroke-width="3"/>
+
+                    <circle cx="300" cy="80" r="25" fill="#123c5a"/>
+                    <text x="300" y="85" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">ପ୍ରଗତି[span_8](start_span)[span_8](end_span)</text>
+
+                    <rect x="50" y="130" width="130" height="40" rx="8" fill="#d79b20"/>
+                    <text x="115" y="155" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">ଅତ୍ୟାଧୁନିକ ପର୍ବ[span_9](start_span)[span_9](end_span)</text>
+
+                    <line x1="180" y1="150" x2="210" y2="150" stroke="#123c5a" stroke-width="3"/>
+
+                    <rect x="210" y="130" width="140" height="40" rx="8" fill="#28a745"/>
+                    <text x="280" y="155" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">ଉତ୍ତର-ଆଧୁନିକ ପର୍ବ[span_10](start_span)[span_10](end_span)</text>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Chapter & Author Background Card -->
+        <section id="intro" class="card">
+            <div class="section-title">
+                <span>୧. ଐତିହାସିକ ପୃଷ୍ଠଭୂମି ଓ ଆତ୍ମପ୍ରକାଶ[span_11](start_span)[span_11](end_span)</span>
+                <span class="tag">ପୃଷ୍ଠଭୂମି</span>
+            </div>
+            <p>ଇଂରେଜ ଶାସନ କାଳରେ ଓଡ଼ିଶାରେ ନାନା ଶୋଷଣ, ଅତ୍ୟାଚାର ଓ ଅଶିକ୍ଷା ଲାଗିରହିଥିଲା[span_12](start_span)[span_12](end_span)। ୧୮୬୬ ମସିହାର ମର୍ମନ୍ତୁଦ <strong>ନ'ଅଙ୍କ ଦୁର୍ଭିକ୍ଷ</strong> ଓଡ଼ିଆ ଜାତିକୁ ସୁପ୍ତ ନିଦ୍ରାରୁ ଜାଗ୍ରତ କରାଇଥିଲା[span_13](start_span)[span_13](end_span)। ଏହି ମହାଶ୍ମଶାନରୁ ଓଡ଼ିଆ ଜାତୀୟତାର ଶୁଭଶଙ୍ଖ ନିନାଦିତ ହୋଇଥିଲା[span_14](start_span)[span_14](end_span) ।</p>
+            
+            <div class="callout">
+                <strong>💡 ପ୍ରଥମ ସମ୍ବାଦପତ୍ର ଓ ସାହିତ୍ୟ ପତ୍ରିକା[span_15](start_span)[span_15](end_span):</strong>
+                <ul>
+                    <li><strong>ଉତ୍କଳ ଦୀପିକା (୧୮୬୬):</strong> ଗୌରୀଶଙ୍କର ରାୟଙ୍କ ସମ୍ପାଦନାରେ ପ୍ରକାଶିତ ପ୍ରଥମ ସମ୍ବାଦପତ୍ର, ଯାହା ଜାତୀୟତାବୋଧର ସୂତ୍ରପାତ କରିଥିଲା[span_16](start_span)[span_16](end_span) ।</li>
+                    <li><strong>ଅନ୍ୟାନ୍ୟ ସମ୍ବାଦପତ୍ର:</strong> ବାଲେଶ୍ୱର ସମ୍ବାଦ ବାହିକା (୧୮୬୮), ଉତ୍କଳ ହିତୈଷିଣୀ (୧୮୬୯), ସମ୍ବଲପୁର ହିତୈଷିଣୀ (୧୮୮୯)[span_17](start_span)[span_17](end_span)।</li>
+                    <li><strong>ସାହିତ୍ୟ ପତ୍ରିକା:</strong> ଉତ୍କଳ ଦର୍ପଣ (୧୮୭୩), ଉତ୍କଳ ପ୍ରଭା (୧୮୯୧), ଉତ୍କଳ ସାହିତ୍ୟ (୧୮୯୭), ମୁକୁର (୧୯୦୬), ସତ୍ୟବାଦୀ (୧୯୧୫)[span_18](start_span)[span_18](end_span)।</li>
+                </ul>
+            </div>
+
+            <div class="remember">
+                <strong>📌 ଭାଷା ସୁରକ୍ଷା ଆନ୍ଦୋଳନ (୧୮୬୯/୭୦)[span_19](start_span)[span_19](end_span):</strong> ଓଡ଼ିଆ ଭାଷାକୁ ଉଚ୍ଛେଦ କରିବାର ଚକ୍ରାନ୍ତ ବିରୋଧରେ ଆରମ୍ଭ ହୋଇଥିବା ଭାଷା-ସୁରକ୍ଷା-ଆନ୍ଦୋଳନରୁ ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ଜନ୍ମ ହୋଇଥିଲା[span_20](start_span)[span_20](end_span) ।
+            </div>
+        </section>
+
+        <!-- Section-by-Section Breakdown -->
+        <section id="content" class="card">
+            <div class="section-title">
+                <span>୨. ଯୁଗାନୁସାରେ ସାହିତ୍ୟିକ ବିକାଶ[span_21](start_span)[span_21](end_span)</span>
+                <span class="tag">ମୁଖ୍ୟ ପର୍ବ</span>
+            </div>
+
+            <!-- Era 1 -->
+            <div class="era-box">
+                <div class="era-title">
+                    <span>ରାଧାନାଥ ଯୁଗ[span_22](start_span)[span_22](end_span)</span>
+                    <small>(୧୮୭୦ - ୧୯୨୦)[span_23](start_span)[span_23](end_span)</small>
+                </div>
+                <div class="era-desc">
+                    <p><strong>ମୁଖ୍ୟ ସ୍ରଷ୍ଟା:</strong> ରାଧାନାଥ ରାୟ, ମଧୁସୂଦନ ରାଓ, ଫକୀରମୋହନ ସେନାପତି, ଗଙ୍ଗାଧର ମେହେର, ନନ୍ଦକିଶୋର ବଳ[span_24](start_span)[span_24](end_span) ।</p>
+                    <p><strong>ବିଶେଷତା:</strong> ପାଶ୍ଚାତ୍ୟ ସାହିତ୍ୟର ଆଦର୍ଶ, ପ୍ରକୃତି ବନ୍ଦନା, ଜାତୀୟତାବୋଧ, ନୂତନ କାବ୍ୟ ଓ ଉପନ୍ୟାସ ରଚନା[span_25](start_span)[span_25](end_span) ।</p>
+                    <ul style="margin-left:20px; margin-top:5px;">
+                        <li><strong>ରାଧାନାଥ ରାୟ:</strong> 'ବିବେକୀ' (ପ୍ରଥମ ପ୍ରବନ୍ଧ - ୧୮୭୩), କେଦାରଗୌରୀ, ଚିଲିକା, ମହାଯାତ୍ରା[span_26](start_span)[span_26](end_span) ।</li>
+                        <li><strong>ଫକୀରମୋହନ ସେନାପତି:</strong> 'ଛ'ମାଣ ଆଠଗୁଣ୍ଠ', 'ରେବତୀ' (ପ୍ରଥମ ଗଳ୍ପ - ୧୮୯୮), 'ଆତ୍ମଚରିତ[span_27](start_span)'[span_27](end_span)।</li>
+                        <li><strong>ମଧୁସୂଦନ ରାଓ:</strong> ଭକ୍ତକବି, ସନେଟ୍/ଚତୁର୍ଦ୍ଦଶପାଦୀ କବିତା ('ବସନ୍ତ ଗାଥା')[span_28](start_span)[span_28](end_span)।</li>
+                        <li><strong>ଗଙ୍ଗାଧର ମେହେର:</strong> ସ୍ୱଭାବ କବି, 'ତପସ୍ୱିନୀ', 'ପ୍ରଣୟବଲ୍ଲରୀ', 'କୀଚକ ବଧ[span_29](start_span)'[span_29](end_span)।</li>
+                        <li><strong>ନନ୍ଦକିଶୋର ବଳ:</strong> ପଲ୍ଲୀକବି, 'ପଲ୍ଲୀଚିତ୍ର', 'କନକଲତା' (ଉପନ୍ୟାସ)[span_30](start_span)[span_30](end_span)।</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Era 2 -->
+            <div class="era-box">
+                <div class="era-title">
+                    <span>ସତ୍ୟବାଦୀ ପର୍ବ[span_31](start_span)[span_31](end_span)</span>
+                    <small>(୧୯୦୯ - ୧୯୨୫)[span_32](start_span)[span_32](end_span)</small>
+                </div>
+                <div class="era-desc">
+                    <p><strong>ମୁଖ୍ୟ ସ୍ରଷ୍ଟା:</strong> ପଣ୍ଡିତ ଗୋପବନ୍ଧୁ ଦାସ, ନୀଳକଣ୍ଠ ଦାସ, ଗୋଦାବରୀଶ ମିଶ୍ର, କୃପାସିନ୍ଧୁ ମିଶ୍ର[span_33](start_span)[span_33](end_span)।</p>
+                    <p><strong>ବିଶେଷତା:</strong> ଉତ୍କଳୀୟ ଓ ସର୍ବଭାରତୀୟ ଜାତୀୟତାବୋଧ, ମାନବ ସେବା, ଇତିହାସ ଓ ଐତିହ୍ୟର ଆବିଷ୍କାର[span_34](start_span)[span_34](end_span) ।</p>
+                    <ul style="margin-left:20px; margin-top:5px;">
+                        <li><strong>ଗୋପବନ୍ଧୁ ଦାସ:</strong> 'ବନ୍ଦୀର ଆତ୍ମକଥା', 'ଧର୍ମପଦ', 'କାରାକବିତା', 'ସମାଜ' (୧୯୧୯)[span_35](start_span)[span_35](end_span) ।</li>
+                        <li><strong>ନୀଳକଣ୍ଠ ଦାସ:</strong> 'କୋଣାର୍କେ', 'ଖାରବେଳ', 'ଓଡ଼ିଆ ସାହିତ୍ୟର କ୍ରମ ପରିଣାମ[span_36](start_span)'[span_36](end_span)।</li>
+                        <li><strong>ଗୋଦାବରୀଶ ମିଶ୍ର:</strong> 'ଆଲେଖିକା' (ଗାଥା କବିତା), 'ମୁକୁନ୍ଦଦେବ', 'ଅର୍ଦ୍ଧଶତାବ୍ଦୀର ଓଡ଼ିଶା ଓ ତହିଁରେ ମୋ ସ୍ଥାନ[span_37](start_span)'[span_37](end_span)।</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Era 3 -->
+            <div class="era-box">
+                <div class="era-title">
+                    <span>ସବୁଜ ପର୍ବ[span_38](start_span)[span_38](end_span)</span>
+                    <small>(୧୯୨୧ - ୧୯୩୫)[span_39](start_span)[span_39](end_span)</small>
+                </div>
+                <div class="era-desc">
+                    <p><strong>ମୁଖ୍ୟ ସ୍ରଷ୍ଟା:</strong> ଅନ୍ନଦାଶଙ୍କର ରାୟ, କାଳିନ୍ଦୀଚରଣ ପାଣିଗ୍ରାହୀ, ବୈକୁଣ୍ଠନାଥ ପଟ୍ଟନାୟକ, ଶରତଚନ୍ଦ୍ର ମୁଖାର୍ଜୀ, ହରିହର ମହାପାତ୍ର[span_40](start_span)[span_40](end_span)।</p>
+                    <p><strong>ବିଶେଷତା:</strong> ସ୍ୱପ୍ନ, କଳ୍ପନା, ପ୍ରେମ, ଯୌବନ, ପ୍ରକୃତି ଓ ସୌନ୍ଦର୍ଯ୍ୟବୋଧ[span_41](start_span)[span_41](end_span)।</p>
+                    <p><strong>କାଳିନ୍ଦୀଚରଣ ପାଣିଗ୍ରାହୀଙ୍କ ପ୍ରସିଦ୍ଧ ଉପନ୍ୟାସ:</strong> 'ମାଟିର ମଣିଷ', 'ଲୁହାର ମଣିଷ[span_42](start_span)'[span_42](end_span)।</p>
+                </div>
+            </div>
+
+            <!-- Era 4 -->
+            <div class="era-box">
+                <div class="era-title">
+                    <span>ପ୍ରଗତି ପର୍ବ[span_43](start_span)[span_43](end_span)</span>
+                    <small>(୧୯୩୫ ରୁ ଆରମ୍ଭ)[span_44](start_span)[span_44](end_span)</small>
+                </div>
+                <div class="era-desc">
+                    <p><strong>ମୁଖ୍ୟ ସ୍ରଷ୍ଟା:</strong> ଭଗବତୀ ଚରଣ ପାଣିଗ୍ରାହୀ, ଅନନ୍ତ ପଟ୍ଟନାୟକ, ସଚ୍ଚିଦାନନ୍ଦ ରାଉତରାୟ[span_45](start_span)[span_45](end_span)।</p>
+                    <p><strong>ବିଶେଷତା:</strong> ମାର୍କ୍ସବାଦ, ସମାଜବାଦୀ ଚେତନା, ଶୋଷିତ ଶ୍ରେଣୀ ପାଇଁ ସ୍ୱର[span_46](start_span)[span_46](end_span) । ୧୯୩୫ରେ 'ନବଯୁଗ ସାହିତ୍ୟ ସଂସଦ' ଓ ୧୯୩୬ରେ 'ଆଧୁନିକ' ପତ୍ରିକା ପ୍ରକାଶିତ[span_47](start_span)[span_47](end_span)।</p>
+                    <p><strong>ଭଗବତୀ ଚରଣଙ୍କ ଗଳ୍ପ:</strong> 'ଶିକାର', 'ହାତୁଡ଼ି ଓ ଦା[span_48](start_span)'[span_48](end_span) ।</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Chapter Core Meaning (Timeline Step-by-Step) -->
+        <section id="meaning" class="card">
+            <div class="section-title">
+                <span>୩. ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର କ୍ରମବିକାଶ ଟାଇମ୍‌ଲାଇନ୍[span_49](start_span)[span_49](end_span)</span>
+                <span class="tag">କ୍ରମବିକାଶ</span>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <strong>୧୮୬୬:</strong> ନ'ଅଙ୍କ ଦୁର୍ଭିକ୍ଷ ଓ 'ଉତ୍କଳ ଦୀପିକା'ର ପ୍ରକାଶନ – ଓଡ଼ିଆ ଜାତୀୟତାର ସୂତ୍ରପାତ[span_50](start_span)[span_50](end_span)।
+                </div>
+                <div class="timeline-item">
+                    <strong>୧୮୬୯-୭୦:</strong> ଭାଷା-ସୁରକ୍ଷା-ଆନ୍ଦୋଳନ ଏବଂ ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ଜନ୍ମ[span_51](start_span)[span_51](end_span)।
+                </div>
+                <div class="timeline-item">
+                    <strong>୧୮୭୦-୧୯୨୦ (ରାଧାନାଥ ଯୁଗ):</strong> ପ୍ରଥମ ପ୍ରବନ୍ଧ ('ବିବେକୀ'), ପ୍ରଥମ ନାଟକ ('ବାବାଜୀ' - ୧୮୭୭), ପ୍ରଥମ ପୂର୍ଣ୍ଣାଙ୍ଗ ଉପନ୍ୟାସ ('ପଦ୍ମମାଳୀ' - ୧୮୮୮), ପ୍ରଥମ ଗଳ୍ପ ('ରେବତୀ' - ୧୮୯୮)[span_52](start_span)[span_52](end_span)।
+                </div>
+                <div class="timeline-item">
+                    <strong>୧୯୦୯-୧୯୨୫ (ସତ୍ୟବାଦୀ ପର୍ବ):</strong> ଗୋପବନ୍ଧୁଙ୍କ ଦ୍ୱାରା ସତ୍ୟବାଦୀ ବନବିଦ୍ୟାଳୟ ପ୍ରତିଷ୍ଠା ଓ ଜାତୀୟତାବାଦୀ ଚେତନାର ବିକାଶ[span_53](start_span)[span_53](end_span)।
+                </div>
+                <div class="timeline-item">
+                    <strong>୧୯୩୫ (ପ୍ରଗତି ପର୍ବ):</strong> ନବଯୁଗ ସାହିତ୍ୟ ସଂସଦ ଗଠନ ଓ ମାର୍କ୍ସବାଦୀ ପ୍ରଗତିଶୀଳ ସାହିତ୍ୟର ଆରମ୍ଭ[span_54](start_span)[span_54](end_span)।
+                </div>
+                <div class="timeline-item">
+                    <strong>ସ୍ୱାଧୀନତା ପରବର୍ତ୍ତୀ (ଅତ୍ୟାଧୁନିକ ଓ ଉତ୍ତର-ଆଧୁନିକ ପର୍ବ):</strong> ବ୍ୟକ୍ତି-ସ୍ୱାତନ୍ତ୍ର୍ୟ, ଅସ୍ତିତ୍ୱବାଦ, ନାରୀବାଦ (ଫେମିନିଜିମ୍) ଏବଂ ଉତ୍ତର-ଆଧୁନିକ ପର୍ବରେ ପୁନର୍ବାର ମଣିଷ ଓ ଲୋକସଂସ୍କୃତିକୁ ସେଣ୍ଟରରେ ସ୍ଥାପନ[span_55](start_span)[span_55](end_span)।
+                </div>
+            </div>
+        </section>
+
+        <!-- Vocabulary & Hard Words Table -->
+        <section id="words" class="card">
+            <div class="section-title">
+                <span>୪. ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ସାହିତ୍ୟିକ ଶବ୍ଦାବଳୀ ଓ ପାରିଭାଷିକ ଶବ୍ଦ[span_56](start_span)[span_56](end_span)</span>
+                <span class="tag">ଶବ୍ଦକୋଷ</span>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ଶବ୍ଦ / ପାରିଭାଷିକ ପଦ</th>
+                        <th>ଅର୍ଥ / ବ୍ୟାଖ୍ୟା</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>ରେନେସାଁ (Renaisance)[span_57](start_span)[span_57](end_span)</strong></td>
+                        <td>ନବଜାଗରଣ; ଚିନ୍ତା ଓ ଚେତନାରେ ନୂତନ ଜାଗୃତି[span_58](start_span)[span_58](end_span)।</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ଗାଥା କାବ୍ୟ (Ballad)[span_59](start_span)[span_59](end_span)</strong></td>
+                        <td>କୌଣସି ଐତିହାସିକ କିମ୍ବା କିମ୍ବଦନ୍ତୀମୂଳକ କାହାଣୀକୁ ନେଇ ରଚିତ କବିତା (ଯଥା: ରାଧାନାଥଙ୍କ 'କେଦାରଗୌରୀ', ଗୋଦାବରୀଶଙ୍କ 'ଆଲେଖିକା')[span_60](start_span)[span_60](end_span)।</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ସନେଟ୍ (Sonnet)[span_61](start_span)[span_61](end_span)</strong></td>
+                        <td>ଚତୁର୍ଦ୍ଦଶପାଦୀ କବିତା; ୧୪ ଧାଡ଼ିବିଶିଷ୍ଟ କବିତା (ମଧୁସୂଦନ ରାଓଙ୍କ 'ବସନ୍ତ ଗାଥା')[span_62](start_span)[span_62](end_span)।</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ଅମିତ୍ରାକ୍ଷର ଛନ୍ଦ (Blank Verse)[span_63](start_span)[span_63](end_span)</strong></td>
+                        <td>ଅମିତ୍ରାକ୍ଷର ବା ଅମେଳ ଛନ୍ଦ (ରାଧାନାଥଙ୍କ 'ମହାଯାତ୍ରା')[span_64](start_span)[span_64](end_span)।</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ବାମାବାଦ / ନାରୀବାଦ (Feminism)[span_65](start_span)[span_65](end_span)</strong></td>
+                        <td>ନାରୀ-ମୁକ୍ତି, ନାରୀ-ସ୍ୱାତନ୍ତ୍ର୍ୟ ଓ ନାରୀ-ଅଧିକାର ପାଇଁ ସାହିତ୍ୟିକ ସ୍ୱର[span_66](start_span)[span_66](end_span)।</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Visual Concept Diagram -->
+        <section class="card">
+            <div class="section-title">
+                <span>୫. ବିଭାଗାନୁସାରେ ପ୍ରଥମ ଓଡ଼ିଆ କୃତି ସାରଣୀ[span_67](start_span)[span_67](end_span)</span>
+                <span class="tag">ପ୍ରଥମ କୃତି</span>
+            </div>
+
+            <svg viewBox="0 0 500 200" width="100%" height="100%">
+                <rect x="0" y="0" width="500" height="200" fill="#ffffff"/>
+                
+                <g transform="translate(20, 20)">
+                    <rect x="0" y="0" width="130" height="60" rx="8" fill="#eaf5fb" stroke="#123c5a"/>
+                    <text x="65" y="25" text-anchor="middle" font-size="11" font-weight="bold" fill="#123c5a">ପ୍ରଥମ ପ୍ରବନ୍ଧ[span_68](start_span)[span_68](end_span)</text>
+                    <text x="65" y="45" text-anchor="middle" font-size="12" font-weight="bold" fill="#d79b20">ବିବେକୀ (୧୮୭୩)[span_69](start_span)[span_69](end_span)</text>
+                </g>
+
+                <g transform="translate(180, 20)">
+                    <rect x="0" y="0" width="130" height="60" rx="8" fill="#eaf5fb" stroke="#123c5a"/>
+                    <text x="65" y="25" text-anchor="middle" font-size="11" font-weight="bold" fill="#123c5a">ପ୍ରଥମ ନାଟକ[span_70](start_span)[span_70](end_span)</text>
+                    <text x="65" y="45" text-anchor="middle" font-size="12" font-weight="bold" fill="#d79b20">ବାବାଜୀ (୧୮୭୭)[span_71](start_span)[span_71](end_span)</text>
+                </g>
+
+                <g transform="translate(340, 20)">
+                    <rect x="0" y="0" width="140" height="60" rx="8" fill="#eaf5fb" stroke="#123c5a"/>
+                    <text x="70" y="25" text-anchor="middle" font-size="11" font-weight="bold" fill="#123c5a">ପ୍ରଥମ ଉପନ୍ୟାସ[span_72](start_span)[span_72](end_span)</text>
+                    <text x="70" y="45" text-anchor="middle" font-size="12" font-weight="bold" fill="#d79b20">ପଦ୍ମମାଳୀ (୧୮୮୮)[span_73](start_span)[span_73](end_span)</text>
+                </g>
+
+                <g transform="translate(100, 110)">
+                    <rect x="0" y="0" width="130" height="60" rx="8" fill="#e9f6ee" stroke="#28a745"/>
+                    <text x="65" y="25" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e7e34">ପ୍ରଥମ କ୍ଷୁଦ୍ରଗଳ୍ପ[span_74](start_span)[span_74](end_span)</text>
+                    <text x="65" y="45" text-anchor="middle" font-size="12" font-weight="bold" fill="#123c5a">ରେବତୀ (୧୮୯୮)[span_75](start_span)[span_75](end_span)</text>
+                </g>
+
+                <g transform="translate(260, 110)">
+                    <rect x="0" y="0" width="140" height="60" rx="8" fill="#e9f6ee" stroke="#28a745"/>
+                    <text x="70" y="25" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e7e34">ପ୍ରଥମ ଆତ୍ମଚରିତ[span_76](start_span)[span_76](end_span)</text>
+                    <text x="70" y="45" text-anchor="middle" font-size="12" font-weight="bold" fill="#123c5a">ଆତ୍ମଚରିତ[span_77](start_span)[span_77](end_span)</text>
+                </g>
+            </svg>
+        </section>
+
+        <!-- Exercises & Q&A -->
+        <section id="qa" class="card">
+            <div class="section-title">
+                <span>୬. ସମ୍ପୂର୍ଣ୍ଣ ପ୍ରଶ୍ନୋତ୍ତର (Exercises)[span_78](start_span)[span_78](end_span)</span>
+                <span class="tag">Q & A</span>
+            </div>
+
+            <div class="qa-item">
+                <div class="question">ପ୍ରଶ୍ନ ୧. ୧୮୨୨ ମସିହାରୁ ଖ୍ରୀଷ୍ଟିୟାନ ମିଶନାରୀମାନେ ଓଡ଼ିଶାରେ କ’ଣ ପ୍ରତିଷ୍ଠା କରିଥିଲେ ?[span_79](start_span)[span_79](end_span)</div>
+                <div class="answer"><strong>ଉତ୍ତର:</strong> ଗ) ମିଶନ ସ୍କୁଲ[span_80](start_span)[span_80](end_span) ।</div>
+            </div>
+
+            <div class="qa-item">
+                <div class="question">ପ୍ରଶ୍ନ ୨. ୧୮୬୬ ରେ ‘ଉତ୍କଳ ଦୀପିକା’ ପତ୍ରିକାର ସମ୍ପାଦନା କିଏ କରୁଥିଲେ ?[span_81](start_span)[span_81](end_span)</div>
+                <div class="answer"><strong>ଉତ୍ତର:</strong> ଗ) ଗୌରୀଶଙ୍କର ରାୟ[span_82](start_span)[span_82](end_span) ।</div>
+            </div>
+
+            <div class="qa-item">
+                <div class="question">ପ୍ରଶ୍ନ ୩. କେଉଁଟି କବିବର ରାଧାନାଥଙ୍କ କୃତି ନୁହେଁ ?[span_83](start_span)[span_83](end_span)</div>
+                <div class="answer"><strong>ଉତ୍ତର:</strong> ଘ) ଅବସରବାସରେ (ଏହା ଫକୀରମୋହନ ସେନାପତିଙ୍କ ରଚନା)[span_84](start_span)[span_84](end_span) ।</div>
+            </div>
+
+            <div class="qa-item">
+                <div class="question">ପ୍ରଶ୍ନ ୪. ‘କନକଲତା’ ଉପନ୍ୟାସର ରଚୟିତା କିଏ ?[span_85](start_span)[span_85](end_span)</div>
+                <div class="answer"><strong>ଉତ୍ତର:</strong> ଗ) ନନ୍ଦକିଶୋର ବଳ[span_86](start_span)[span_86](end_span) ।</div>
+            </div>
+
+            <div class="qa-item">
+                <div class="question">ପ୍ରଶ୍ନ ୫. କେଉଁ କୃତିଟି ସଚ୍ଚିଦାନନ୍ଦ ରାଉତରାୟଙ୍କର ?[span_87](start_span)[span_87](end_span)</div>
+                <div class="answer"><strong>ଉତ୍ତର:</strong> ଗ) ମଶାଣିର ଫୁଲ[span_88](start_span)[span_88](end_span) ।</div>
+            </div>
+
+            <div class="qa-item">
+                <div class="question">ପ୍ରଶ୍ନ ୬. ‘ଅଭିଯାନ’ ନାଟକର ରଚୟିତା କିଏ ?[span_89](start_span)[span_89](end_span)</div>
+                <div class="answer"><strong>ଉତ୍ତର:</strong> ଖ) କାଳୀଚରଣ ପଟ୍ଟନାୟକ[span_90](start_span)[span_90](end_span) ।</div>
+            </div>
+
+            <div class="qa-item">
+                <div class="question">ପ୍ରଶ୍ନ ୭ (ସଂକ୍ଷିପ୍ତ ଉତ୍ତର): ସତ୍ୟବାଦୀ ପର୍ବର ମୁଖ୍ୟ ଆଦର୍ଶ କ’ଣ ଥିଲା ?[span_91](start_span)[span_91](end_span)</div>
+                <div class="answer"><strong>ଉତ୍ତର:</strong> ଉତ୍କଳୀୟ ଜାତୀୟ ଚେତନାର ଜାଗରଣ, ସର୍ବଭାରତୀୟ ଜାତୀୟତାବୋଧ, ମାନବ ସେବା, ଇତିହାସ ଓ ଐତିହ୍ୟର ଜାଗରଣ ଏବଂ ଜାତୀୟ ଚରିତ୍ର ଗଠନ ପାଇଁ ପ୍ରେରଣା ଦେବା ସତ୍ୟବାଦୀ ପର୍ବର ମୁଖ୍ୟ ଆଦର୍ଶ ଥିଲା[span_92](start_span)[span_92](end_span) ।</div>
+            </div>
+
+            <div class="qa-item">
+                <div class="question">ପ୍ରଶ୍ନ ୮ (ଦୀର୍ଘ ଉତ୍ତର/ମୂଲ୍ୟବୋଧ): ଓଡ଼ିଆ ଭାଷା-ସୁରକ୍ଷା-ଆନ୍ଦୋଳନର ସାହିତ୍ୟିକ ଗୁରୁତ୍ୱ ଆଲୋଚନା କର[span_93](start_span)[span_93](end_span)।</div>
+                <div class="answer"><strong>ଉତ୍ତର:</strong> ଊନବିଂଶ ଶତାବ୍ଦୀର ଦ୍ୱିତୀୟାର୍ଦ୍ଧରେ (୧୮୬୯-୭୦) ଓଡ଼ିଆ ଭାଷାକୁ ସ୍କୁଲ ଓ ସରକାରୀ ସ୍ତରରୁ ଉଠାଇ ଦେବା ପାଇଁ ଷଡ଼ଯନ୍ତ୍ର କରାଯାଇଥିଲା[span_94](start_span)[span_94](end_span)। ଏହାର ପ୍ରତିବାଦରେ ଫକୀରମୋହନ ସେନାପତି, ଗୌରୀଶଙ୍କର ରାୟ ଆଦି ସାହିତ୍ୟିକମାନେ ଭାଷା ସୁରକ୍ଷା ଆନ୍ଦୋଳନ ଆରମ୍ଭ କରିଥିଲେ[span_95](start_span)[span_95](end_span)। ଏହି ମାତୃଭାଷା ପ୍ରୀତିରୁ ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ଜନ୍ମ ହେଲା, ଯାହା ଓଡ଼ିଆ ଜାତିକୁ ଏକ ସ୍ୱତନ୍ତ୍ର ପରିଚୟ ପ୍ରଦାନ କଲା[span_96](start_span)[span_96](end_span)।</div>
+            </div>
+        </section>
+
+        <!-- Quick Revision & MCQ Checklist -->
+        <section id="revision" class="card">
+            <div class="section-title">
+                <span>୭. ଝଟପଟ୍ ପୁନରୀକ୍ଷଣ ଓ ପରୀକ୍ଷା ଟିପ୍ସ[span_97](start_span)[span_97](end_span)</span>
+                <span class="tag">Revision</span>
+            </div>
+
+            <div class="remember">
+                <strong>⚡ ୧୦ଟି ମୁଖ୍ୟ ସ୍ମରଣୀୟ ପଏଣ୍ଟ:</strong>
+                <ol style="margin-left:20px; margin-top:8px;">
+                    <li>୧୮୬୬: ନ'ଅଙ୍କ ଦୁର୍ଭିକ୍ଷ ଓ 'ଉତ୍କଳ ଦୀପିକା[span_98](start_span)'[span_98](end_span) ।</li>
+                    <li>୧୮୭୩: 'ବିବେକୀ' - ପ୍ରଥମ ଓଡ଼ିଆ ପ୍ରବନ୍ଧ (ରାଧାନାଥ ରାୟ)[span_99](start_span)[span_99](end_span) ।</li>
+                    <li>୧୮୭୭: 'ବାବାଜୀ' - ପ୍ରଥମ ଓଡ଼ିଆ ନାଟକ (ଜଗନ୍ମୋହନ ଲାଲ)[span_100](start_span)[span_100](end_span) ।</li>
+                    <li>୧୮୮୮: 'ପଦ୍ମମାଳୀ' - ପ୍ରଥମ ପୂର୍ଣ୍ଣାଙ୍ଗ ଉପନ୍ୟାସ (ଉମେଶଚନ୍ଦ୍ର ସରକାର)[span_101](start_span)[span_101](end_span) ।</li>
+                    <li>୧୮୯୮: 'ରେବତୀ' - ପ୍ରଥମ କ୍ଷୁଦ୍ରଗଳ୍ପ (ଫକୀରମୋହନ ସେନାପତି)[span_102](start_span)[span_102](end_span) ।</li>
+                    <li>୧୯୦୯: ଗୋପବନ୍ଧୁଙ୍କ ଦ୍ୱାରା ସତ୍ୟବାଦୀ ବନବିଦ୍ୟାଳୟ ପ୍ରତିଷ୍ଠା[span_103](start_span)[span_103](end_span) ।</li>
+                    <li>୧୯୩୫: 'ନବଯୁଗ ସାହିତ୍ୟ ସଂସଦ' (ଭଗବତୀ ଚରଣ ପାଣିଗ୍ରାହୀ)[span_104](start_span)[span_104](end_span) ।</li>
+                    <li>'ପୂର୍ଣ୍ଣଚନ୍ଦ୍ର ଓଡ଼ିଆ ଭାଷାକୋଷ': ଗୋପାଳଚନ୍ଦ୍ର ପ୍ରହରାଜ (୭ ଖଣ୍ଡ)[span_105](start_span)[span_105](end_span) ।</li>
+                    <li>'ଭୀମା ଭୂୟାଁ' (୧୯୦୮): ଗୋପାଳବଲ୍ଲଭ ଦାସଙ୍କ ଆଦିବାସୀ ଜୀବନ ଆଧାରିତ ପ୍ରଥମ ଉପନ୍ୟାସ[span_106](start_span)[span_106](end_span) ।</li>
+                    <li>'ଛ'ମାଣ ଆଠଗୁଣ୍ଠ': ଫକୀରମୋହନଙ୍କ କ୍ରାନ୍ତିକାରୀ ସାମାଜିକ ଉପନ୍ୟାସ[span_107](start_span)[span_107](end_span) ।</li>
+                </ol>
+            </div>
+
+            <div class="mistake">
+                <strong>⚠️ ସାଧାରଣତଃ ଛାତ୍ରଛାତ୍ରୀ କରୁଥିବା ଭୁଲ୍ (Mistakes to Avoid):</strong>
+                <ul>
+                    <li>'ବାବାଜୀ' ନାଟକର ରଚୟିତା ଜଗନ୍ମୋହନ ଲାଲ, ରାମଶଙ୍କର ରାୟ ନୁହଁନ୍ତି ('କାଞ୍ଚିକାବେରୀ' ରଚୟିତା ରାମଶଙ୍କର ରାୟ)[span_108](start_span)[span_108](end_span)।</li>
+                    <li>'ପଦ୍ମମାଳୀ' ପ୍ରଥମ ଉପନ୍ୟାସ, 'ଛ'ମାଣ ଆଠଗୁଣ୍ଠ' ପ୍ରଥମ ସାମାଜିକ କ୍ରାନ୍ତିକାରୀ ଉପନ୍ୟାସ[span_109](start_span)[span_109](end_span)।</li>
+                    <li>ରାଧାନାଥ ଯୁଗ ଓ ସତ୍ୟବାଦୀ ଯୁଗର କବିମାନଙ୍କ ନାମ ମଧ୍ୟରେ ଗୁଳେଇ ଗୁଚ୍ଛେଇ ହୁଅନ୍ତୁ ନାହିଁ[span_110](start_span)[span_110](end_span)।</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
