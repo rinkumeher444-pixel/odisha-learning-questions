@@ -1,0 +1,431 @@
+from pathlib import Path
+
+html = r'''<!doctype html>
+<html lang="or">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ଜାଗ ବନ୍ଧନହରା — ଓଡ଼ିଶା ଦଶମ ଶ୍ରେଣୀ</title>
+<style>
+:root{
+  --bg:#f4f7fb; --card:#fff; --ink:#172033; --muted:#5b6475;
+  --accent:#1d4ed8; --accent2:#7c3aed; --gold:#b7791f;
+  --good:#047857; --warn:#b45309; --danger:#b91c1c;
+  --line:#dbe3ef; --soft:#eef4ff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(180deg,#eef4ff 0,#f8fafc 38%,#f4f7fb 100%);
+font-family:"Noto Sans Oriya","Noto Sans Odia","Kalinga","Nirmala UI",sans-serif;color:var(--ink);line-height:1.75}
+.wrap{max-width:1120px;margin:auto;padding:18px}
+.hero{background:linear-gradient(135deg,#102a56,#243b77 55%,#5b21b6);color:#fff;border-radius:28px;padding:34px 24px;box-shadow:0 18px 50px #132b5b22}
+.hero h1{font-size:clamp(30px,6vw,58px);margin:0 0 8px;font-weight:900}
+.hero h2{margin:0;color:#e8edff;font-size:clamp(18px,3vw,26px)}
+.badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+.badge{padding:6px 11px;border-radius:999px;background:#ffffff18;border:1px solid #ffffff38;font-size:14px}
+nav{position:sticky;top:0;z-index:10;background:#ffffffec;backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.navin{max-width:1120px;margin:auto;padding:8px 18px;display:flex;gap:8px;overflow:auto}
+.navin a{white-space:nowrap;text-decoration:none;color:#243b77;background:#eef4ff;padding:5px 10px;border-radius:999px;font-size:13px}
+.sec{margin-top:28px}
+.sec h2{font-size:clamp(22px,4vw,34px);margin:0 0 12px}
+.objective{background:#eaf2ff;border-left:5px solid var(--accent);padding:12px 15px;border-radius:12px;margin:10px 0 18px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 7px 22px #1720330b}
+.card h3{margin-top:0;font-size:20px}
+.poem{background:linear-gradient(135deg,#fffdf5,#fff);border:1px solid #ecdcae;border-radius:18px;padding:20px;text-align:center;font-weight:700;font-size:19px;white-space:pre-line}
+.meaning{background:#f5f3ff;border-left:5px solid var(--accent2);padding:14px;border-radius:12px}
+.key{border-left:5px solid var(--gold);background:#fff9e8;padding:13px;border-radius:12px}
+.exam{border-left:5px solid var(--good);background:#ecfdf5;padding:13px;border-radius:12px}
+.warn{border-left:5px solid var(--danger);background:#fff1f2;padding:13px;border-radius:12px}
+ul{margin-top:8px}.small{font-size:14px;color:var(--muted)}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden}
+th,td{padding:10px;border:1px solid var(--line);vertical-align:top;text-align:left}
+th{background:#eef4ff}
+.timeline{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.t{padding:12px;border-radius:14px;background:#fff;border:1px solid var(--line);text-align:center}
+.num{display:inline-flex;width:30px;height:30px;border-radius:50%;align-items:center;justify-content:center;background:var(--accent);color:#fff;font-weight:800}
+.flow{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center}
+.flow .box{padding:12px 15px;background:#fff;border:2px solid #c7d2fe;border-radius:14px;font-weight:700}
+.arrow{font-size:24px;color:var(--accent)}
+.vocab{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.vc{border:1px solid var(--line);border-radius:14px;padding:12px;background:#fff}
+.vc b{color:#1e3a8a}
+.question{background:#fff;border:1px solid var(--line);border-radius:15px;padding:15px;margin:10px 0}
+.answer{margin-top:8px;padding:10px;background:#f8fafc;border-radius:10px}
+details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 13px;margin:9px 0}
+summary{font-weight:800;cursor:pointer}
+.mcq label{display:block;padding:6px 0}
+.footer{margin:35px 0 10px;text-align:center;color:var(--muted);font-size:13px}
+@media(max-width:760px){
+ .wrap{padding:12px}.grid,.grid3,.vocab{grid-template-columns:1fr}
+ .timeline{grid-template-columns:1fr 1fr}.poem{font-size:17px}
+ th,td{font-size:14px;padding:8px}
+}
+</style>
+</head>
+<body>
+<nav><div class="navin">
+<a href="#intro">ପରିଚୟ</a><a href="#poem">କବିତା</a><a href="#vocab">ଶବ୍ଦାର୍ଥ</a>
+<a href="#grammar">ଭାଷା</a><a href="#questions">ପ୍ରଶ୍ନାବଳୀ</a><a href="#long">ଦୀର୍ଘ ଉତ୍ତର</a><a href="#revision">ପୁନରାବୃତ୍ତି</a>
+</div></nav>
+<div class="wrap">
+
+<section class="hero">
+<h1>ଜାଗ ବନ୍ଧନହରା</h1>
+<h2>କବି — ଅନନ୍ତ ପଟ୍ଟନାୟକ (୧୯୧୨–୧୯୮୭)</h2>
+<div class="badges"><span class="badge">ଓଡ଼ିଶା ଦଶମ ଶ୍ରେଣୀ</span><span class="badge">ପଦ୍ୟ</span><span class="badge">ପରୀକ୍ଷାମୁଖୀ ଅଧ୍ୟୟନ</span><span class="badge">ସରଳ ଓଡ଼ିଆ</span></div>
+</section>
+
+<section class="sec" id="intro">
+<h2>୧. ପାଠ ପରିଚୟ ଓ କବି ପରିଚୟ</h2>
+<div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ:</b> କବିତାର ମୂଳ ଆହ୍ୱାନ, କବିଙ୍କ ପରିଚୟ ଓ ଉଦ୍‌ବୋଧନର ଭାବକୁ ବୁଝିବା।</div>
+<div class="grid">
+<div class="card">
+<h3>କବିଙ୍କ ପରିଚୟ</h3>
+<p>ଅନନ୍ତ ପଟ୍ଟନାୟକଙ୍କ ଜନ୍ମ ଖୋର୍ଦ୍ଧା ଜିଲ୍ଲାର ଚଣାହାଟ ଗ୍ରାମରେ ହୋଇଥିଲା। ସାମ୍ୟବାଦୀ ଚିନ୍ତାଧାରାର କବିତା ରଚନା ପାଇଁ ସେ ପରିଚିତ। ‘ନବଯୁଗ ସାହିତ୍ୟ ସଂସଦ’ ଆୟୋଜିତ ଆନ୍ଦୋଳନରେ ସେ ଅଂଶ ନେଇଥିଲେ।</p>
+<p>‘ନବଯୁଗ ସାହିତ୍ୟ ସଂସଦ’ର ପ୍ରଥମ ଅଧିବେଶନରେ ପ୍ରାରମ୍ଭିକ ସଙ୍ଗୀତ ରୂପେ ଏହି କବିତାଟି ଗାନ କରାଯାଇଥିଲା।</p>
+</div>
+<div class="card">
+<h3>ରଚନା ଓ ଭାବଧାରା</h3>
+<p>‘ରକ୍ତଶିଖା’, ‘ଛାଇର ଛିଟା’, ‘ଅଲୋଡ଼ାଲୋଡ଼ା’, ‘ଅବାନ୍ତର’, ‘କିଞ୍ଚିତ’ ଆଦି କବିତା ସଂକଳନ ତାଙ୍କ କାବ୍ୟକୃତିର ସାର୍ଥକ ପରିଚୟ।</p>
+<p>‘ଅବାନ୍ତର’ କବିତା ପୁସ୍ତକ ପାଇଁ ସେ କେନ୍ଦ୍ର ସାହିତ୍ୟ ଏକାଡେମୀ ଦ୍ୱାରା ପୁରସ୍କୃତ ହୋଇଥିଲେ। ଶୋଷଣମୁକ୍ତ ଓ ଶ୍ରେଣୀହୀନ ସାମାଜିକ-ସାଂସ୍କୃତିକ ବ୍ୟବସ୍ଥା ପ୍ରବର୍ତ୍ତନ ଓ ମାନବବାଦର ଜୟଗାନ ଏହି କବିତାର ଅନ୍ତଃସ୍ୱର।</p>
+</div>
+</div>
+<div class="key"><b>⭐ ମନେ ରଖ:</b> କବିତାର କେନ୍ଦ୍ରୀୟ ଆହ୍ୱାନ — <b>“ଜାଗ ବନ୍ଧନହରା”</b>।</div>
+</section>
+
+<section class="sec" id="poem">
+<h2>୨. ପଦ୍ୟାଂଶ ଅନୁସାରେ ସରଳ ବ୍ୟାଖ୍ୟା</h2>
+<div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ:</b> ପ୍ରତ୍ୟେକ ପଦ୍ୟାଂଶର ମୁଖ୍ୟ ଭାବକୁ ଚିହ୍ନଟ କରିବା ଓ ପରୀକ୍ଷାରେ ସରଳ ଭାବେ ଲେଖିବା।</div>
+
+<div class="card">
+<h3>ପଦ୍ୟାଂଶ–୧ : ନବଯୁଗର ତରୁଣଙ୍କୁ ଆହ୍ୱାନ</h3>
+<div class="poem">ନବୀନଯୁଗର ତରୁଣ ଜାଗରେ
+ଜାଗ ବନ୍ଧନହରା,
+ବକ୍ଷ ଶୋଣିତେ ଲକ୍ଷ ଜୀବନେ
+ଖେଳାଅ ଆଲୋକଧାରା ।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ନବଯୁଗର ତରୁଣମାନେ ଜାଗି ଉଠନ୍ତୁ। ନିଜର ଶକ୍ତି ଓ ଉତ୍ସାହରେ ଅସଂଖ୍ୟ ଜୀବନରେ ଆଲୋକ ଓ ଜାଗରଣର ଧାରା ବିସ୍ତାର କରନ୍ତୁ।</div>
+<div class="exam"><b>📝 ପରୀକ୍ଷା ପାଇଁ:</b> “ଲକ୍ଷ ଜୀବନେ ଖେଳାଅ” — <b>ଆଲୋକଧାରା</b>।</div>
+</div>
+
+<div class="card">
+<h3>ପଦ୍ୟାଂଶ–୨ : ବନ୍ଧନ ଓ ବିଭେଦ ଦୂର କରିବା</h3>
+<div class="poem">ଛିନ୍ନ କରରେ ବନ୍ଧନରାଜି
+କ୍ରନ୍ଦନ ହେଉ ଶେଷ,
+ଲୁପ୍ତ ହେଉରେ ଜାତି ଉପଜାତି
+ଖଣ୍ଡିତ ଶତ ଦେଶ ।
+ମହାମାନବର ଶଙ୍ଖ ଶବଦେ ଶମୁରେ ଦୁଃଖ ଜ୍ୱାଳା
+ଜାଗ ବନ୍ଧନହରା ।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ସମସ୍ତ ପ୍ରକାରର ବନ୍ଧନ ଛିନ୍ନ ହେଉ, କାନ୍ଦନ ଶେଷ ହେଉ। ଜାତି-ଉପଜାତିର ଭେଦ ଓ ଖଣ୍ଡିତତା ଦୂର ହେଉ। ମହାମାନବର ଶଙ୍ଖଧ୍ୱନିରେ ଦୁଃଖର ଜ୍ୱାଳା ପ୍ରଶମିତ ହେଉ।</div>
+</div>
+
+<div class="card">
+<h3>ପଦ୍ୟାଂଶ–୩ : ଅମର ଗାନ ଓ ତିମିର ଭାଙ୍ଗିବା</h3>
+<div class="poem">ମରଣ ଦୁଆରେ ଚରଣ ଅରପି
+ଗାଅରେ ଅମର ଗାନ,
+ପୋଛିଦିଅ ଆଜି ମାନବ ଶିରସୁଁ
+ସଞ୍ଚିତ ଅପମାନ,
+ଲଂଘି ବନାନୀ ଶୈଳ ସାଗର
+ଚୂରରେ ତିମିର କାରା ।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ମରଣର ଭୟକୁ ଅତିକ୍ରମ କରି ଅମର ଗାନ ଗାଇବାକୁ ଆହ୍ୱାନ। ମାନବ ମୁଣ୍ଡରେ ସଞ୍ଚିତ ଅପମାନକୁ ଦୂର କରିବା ଓ ବନ, ପାହାଡ଼, ସାଗର ଭଳି ବାଧା ଅତିକ୍ରମ କରି ଅନ୍ଧକାରର କାରା ଭାଙ୍ଗିବାର ଆହ୍ୱାନ ଦିଆଯାଇଛି।</div>
+</div>
+
+<div class="card">
+<h3>ପଦ୍ୟାଂଶ–୪ : ମରୁପଥରେ ନିର୍ଝର ଓ ପ୍ରଦୀପ</h3>
+<div class="poem">ମରୁ ପଥେ ପଥେ ନିର୍ଝର ସୃଜି
+ଯାତ୍ରା କର ହେ କର,
+ସ୍ପନ୍ଦନ ବହି ଅନ୍ତରେ କୋଟି
+ପ୍ରଦୀପ ଉଚ୍ଚେ ଧର ।
+ଶଙ୍କିତ ହେଉ କଂପିତ ପ୍ରାଣେ
+ଚନ୍ଦ୍ର ତପନ ତାରା ।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ଶୁଷ୍କ ଓ କଷ୍ଟକର ପଥରେ ମଧ୍ୟ ଜୀବନର ଧାରା ସୃଷ୍ଟି କରି ଆଗକୁ ବଢ଼ିବାକୁ କୁହାଯାଇଛି। ଅନ୍ତରର ସ୍ପନ୍ଦନ ସହିତ କୋଟି ପ୍ରଦୀପ ଉଚ୍ଚରେ ଧରିବା ଓ ଜାଗରଣର ଆଲୋକ ବିସ୍ତାର କରିବାର ଭାବ ଏଠାରେ ରହିଛି।</div>
+</div>
+
+<div class="card">
+<h3>ପଦ୍ୟାଂଶ–୫ : ମୋହ-ମମତାର ତନ୍ଦ୍ରା ଦୂର କରିବା</h3>
+<div class="poem">ସନ୍ଧାନୀ ତବ ସନ୍ଧାନ ପଥେ
+କଣ୍ଟକ ଟେକେ ଶିର,
+ସମ୍ମୁଖେ ତବ କୁହେଳି ରଚଇ
+ମୋହ ମମତାର ନୀର ।
+ଭିନ୍ନ କରି ସେ ତନ୍ଦ୍ରା ପରଶ
+ହସାଅ ଭୁବନ ସାରା ।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ସନ୍ଧାନର ପଥରେ କଣ୍ଟକ ବାଧା ଦେଉଛି। ସମ୍ମୁଖରେ ମୋହ ଓ ମମତା କୁହେଳି ସୃଷ୍ଟି କରୁଛି। ଏହି ତନ୍ଦ୍ରାଜନକ ସ୍ପର୍ଶକୁ ଦୂର କରି ସମଗ୍ର ଭୁବନକୁ ହସାଇବାକୁ କବି ଆହ୍ୱାନ କରିଛନ୍ତି।</div>
+</div>
+
+<div class="card">
+<h3>ପଦ୍ୟାଂଶ–୬ : ଅତୀତକୁ ଚିରି ଭବିଷ୍ୟତକୁ ଜାଗ୍ରତ କରିବା</h3>
+<div class="poem">ଚିରି ଅତୀତର ଜୀର୍ଣ୍ଣ ଜୀବନ
+ଜାଗ ଆହେ ଭବିଷ୍ୟତ,
+ଚୂର୍ଣ୍ଣ କରୁରେ ସ୍ୟନ୍ଦନ ତବ
+ପୀଡ଼ନର ପର୍ବତ ।
+ଭାଜି ପଡ଼ୁ ଆଜି ଅର୍ଗଳ ରାଜି
+ଘେନ ବିଜୟର ମାଳା,
+ଜାଗ ବନ୍ଧନହରା ।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ଅତୀତର ଜୀର୍ଣ୍ଣ ଜୀବନକୁ ଭେଦି ଭବିଷ୍ୟତକୁ ଜାଗ୍ରତ କରିବାକୁ କୁହାଯାଇଛି। ପୀଡ଼ନର ପର୍ବତକୁ ଚୂର୍ଣ୍ଣ କରି ଅର୍ଗଳ ବା ବନ୍ଧନଗୁଡ଼ିକ ଭାଙ୍ଗି ପଡ଼ୁ ଏବଂ ବିଜୟର ମାଳା ଗ୍ରହଣ କରିବାର ଆହ୍ୱାନ ଦିଆଯାଇଛି।</div>
+</div>
+
+<div class="key"><b>📌 ଭାବର ଧାରା:</b> ତରୁଣ ଜାଗରଣ → ବନ୍ଧନ ଛିନ୍ନ → ଅପମାନ ଦୂର → ତିମିର ଭାଙ୍ଗିବା → ବାଧା ଅତିକ୍ରମ → ତନ୍ଦ୍ରା ଦୂର → ପୀଡ଼ନର ପର୍ବତ ଚୂର୍ଣ୍ଣ → ବିଜୟ।</div>
+</section>
+
+<section class="sec">
+<h2>୩. ଚିନ୍ତାମାନଚିତ୍ର — କବିତାର ମୂଳ ଆହ୍ୱାନ</h2>
+<div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ:</b> କବିତାର ଭାବଗୁଡ଼ିକୁ ଏକ ଦୃଷ୍ଟିରେ ମନେ ରଖିବା।</div>
+<div class="flow">
+<div class="box">ନବଯୁଗର ତରୁଣ</div><span class="arrow">→</span>
+<div class="box">ଜାଗରଣ</div><span class="arrow">→</span>
+<div class="box">ବନ୍ଧନ ଛିନ୍ନ</div><span class="arrow">→</span>
+<div class="box">ଦୁଃଖ ଶେଷ</div><span class="arrow">→</span>
+<div class="box">ଆଲୋକ</div>
+</div>
+<br>
+<div class="flow">
+<div class="box">ତିମିର ଭାଙ୍ଗିବା</div><span class="arrow">→</span>
+<div class="box">ତନ୍ଦ୍ରା ଦୂର</div><span class="arrow">→</span>
+<div class="box">ପୀଡ଼ନ ଚୂର୍ଣ୍ଣ</div><span class="arrow">→</span>
+<div class="box">ବିଜୟର ମାଳା</div>
+</div>
+</section>
+
+<section class="sec" id="vocab">
+<h2>୪. ସୂଚନା — ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଶବ୍ଦାର୍ଥ</h2>
+<div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ:</b> ପାଠର ଦୁର୍ବୋଧ ଶବ୍ଦକୁ ସରଳ ଅର୍ଥ ସହ ମନେ ରଖିବା।</div>
+<div class="vocab">
+<div class="vc"><b>ବନ୍ଧନହରା</b> → ସକଳ ପ୍ରକାରର ବନ୍ଧନରୁ ମୁକ୍ତ ହୋଇଥିବା</div>
+<div class="vc"><b>ଶିରସୁଁ</b> → ମୁଣ୍ଡରୁ</div>
+<div class="vc"><b>ଶୋଣିତ</b> → ରକ୍ତ</div>
+<div class="vc"><b>ସ୍ପନ୍ଦନ</b> → ଶିହରଣ, କମ୍ପନ</div>
+<div class="vc"><b>ଛିନ୍ନ</b> → ଛିଣ୍ଡେଇବା</div>
+<div class="vc"><b>ଶଙ୍କିତ</b> → ଭୟଭୀତ</div>
+<div class="vc"><b>ଲୁପ୍ତ</b> → ଲୋପ ପାଇଥିବା</div>
+<div class="vc"><b>ତନ୍ଦ୍ରା</b> → ନିଦ୍ରା</div>
+<div class="vc"><b>ଜୀର୍ଣ୍ଣ</b> → ଦୁର୍ବଳ</div>
+<div class="vc"><b>ଶମୁ</b> → ପ୍ରଶମିତ ହେଉ, କମିଯାଉ</div>
+<div class="vc"><b>ଅମର ଗାନ</b> → ଚିରନ୍ତନ ଗୀତି</div>
+<div class="vc"><b>ସ୍ୟନ୍ଦନ</b> → ରଥ</div>
+<div class="vc"><b>ଅର୍ଗଳ</b> → ବନ୍ଧନ (ଯୁପ)</div>
+</div>
+<div class="key"><b>⭐ ଶବ୍ଦ ମନେ ରଖ:</b> ତିମିର = ଅନ୍ଧାର; ନିର୍ଝର = ଝରଣା ସଦୃଶ ଜଳଧାରା; ଭୁବନ = ଜଗତ/ସମଗ୍ର ଜଗତ।</div>
+</section>
+
+<section class="sec" id="grammar">
+<h2>୫. ଭାଷା ଓ ବ୍ୟାକରଣ</h2>
+<div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ:</b> ଅଭ୍ୟାସରେ ଥିବା ପଦ, ପ୍ରତିଶବ୍ଦ, ସମାସ, ପ୍ରତ୍ୟୟ ଓ ସନ୍ଧିବିଚ୍ଛେଦକୁ ଚିହ୍ନଟ କରିବା।</div>
+
+<div class="grid">
+<div class="card">
+<h3>“ସଞ୍ଚିତ” — ପଦ ପରିଚୟ</h3>
+<p><b>ଠିକ୍ ଉତ୍ତର:</b> ବିଶେଷଣ</p>
+<p>“ସଞ୍ଚିତ ଅପମାନ”ରେ “ସଞ୍ଚିତ” ଶବ୍ଦଟି “ଅପମାନ”ର ବିଶେଷତା କହୁଛି।</p>
+</div>
+<div class="card">
+<h3>“ତିମିର” — ପ୍ରତିଶବ୍ଦ</h3>
+<p><b>ଠିକ୍ ଉତ୍ତର:</b> ଅନ୍ଧାର</p>
+<p>ଏହା ପାଠର ଶବ୍ଦାର୍ଥ ଓ ବିକଳ୍ପ ଆଧାରିତ ପ୍ରଶ୍ନ।</p>
+</div>
+<div class="card">
+<h3>“ତନ୍ଦ୍ରାପରଶ” — ସମାସ</h3>
+<p><b>ଠିକ୍ ଉତ୍ତର:</b> ଷଷ୍ଠୀ ତତ୍ପୁରୁଷ</p>
+<p class="small">ପରୀକ୍ଷାରେ ସମାସର ନାମଟି ସ୍ପଷ୍ଟ ଭାବେ ଲେଖ।</p>
+</div>
+<div class="card">
+<h3>“ନିର୍ଝର” — ସନ୍ଧିବିଚ୍ଛେଦ</h3>
+<p><b>ଠିକ୍ ଉତ୍ତର:</b> ନିଃ + ଝର</p>
+<p class="small">ବିକଳ୍ପରୁ ସଠିକ୍ ରୂପ ବାଛିବାକୁ ହେବ।</p>
+</div>
+</div>
+
+<div class="card">
+<h3>“ଭୁବନ” — ପ୍ରତ୍ୟୟ ଅଭ୍ୟାସ</h3>
+<p><b>ପ୍ରଶ୍ନ:</b> “ଭୁବନ” — ଏହିପରି ‘ଅନ’ ପର ପ୍ରତ୍ୟୟ ଲାଗିଥିବା ୩ଟି ଶବ୍ଦ ଲେଖ।</p>
+<div class="warn"><b>⚠️ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ:</b> ଏହି ପ୍ରଶ୍ନ ପାଇଁ ନିର୍ଦ୍ଦିଷ୍ଟ ତିନୋଟି ଉଦାହରଣ ଅଭ୍ୟାସ ଅଂଶରେ ଦିଆଯାଇନାହିଁ। ତେଣୁ ଏଠାରେ ନିଜରୁ ଉତ୍ତର ଯୋଡ଼ାଯାଇନାହିଁ।</div>
+</div>
+</section>
+
+<section class="sec" id="questions">
+<h2>୬. ନିର୍ଦ୍ଦିଷ୍ଟ ଉତ୍ତରମୂଳକ ପ୍ରଶ୍ନ</h2>
+<div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ:</b> ଶୂନ୍ୟସ୍ଥାନ, ବହୁବିକଳ୍ପୀୟ ଓ ଭାଷାଭିତ୍ତିକ ପ୍ରଶ୍ନ ଶୀଘ୍ର ସମାଧାନ କରିବା।</div>
+
+<div class="question"><b>୧.</b> ନବଯୁଗର ______ ମାନଙ୍କୁ ଜାଗି ଉଠିବା ପାଇଁ କୁହାଯାଇଛି।<div class="answer">ଉତ୍ତର: <b>ତରୁଣ</b></div></div>
+<div class="question"><b>୨.</b> “ଲକ୍ଷ ଜୀବନେ ଖେଳାଅ ______”<div class="answer">ଉତ୍ତର: <b>ଆଲୋକଧାରା</b></div></div>
+<div class="question"><b>୩.</b> “ସଞ୍ଚିତ” କେଉଁ ପଦ?<div class="answer">ଉତ୍ତର: <b>ବିଶେଷଣ</b></div></div>
+<div class="question"><b>୪.</b> “ତିମିର”ର ପ୍ରତିଶବ୍ଦ କେଉଁଟି?<div class="answer">ଉତ୍ତର: <b>ଅନ୍ଧାର</b></div></div>
+<div class="question"><b>୫.</b> ତନ୍ଦ୍ରାପରଶ କେଉଁ ସମାସ?<div class="answer">ଉତ୍ତର: <b>ଷଷ୍ଠୀ ତତ୍ପୁରୁଷ</b></div></div>
+<div class="question"><b>୬.</b> “ଭୁବନ” — ଏହିପରି ‘ଅନ’ ପର ପ୍ରତ୍ୟୟ ଲାଗିଥିବା ୩ଟି ଶବ୍ଦ ଲେଖ।<div class="answer">ଉତ୍ତର: <b>ନିର୍ଦ୍ଦିଷ୍ଟ ଉତ୍ତର ଦିଆଯାଇନାହିଁ; ଅଭ୍ୟାସ କର।</b></div></div>
+<div class="question"><b>୭.</b> “ନିର୍ଝର” ଶବ୍ଦର ସନ୍ଧିବିଚ୍ଛେଦ କ’ଣ?<div class="answer">ଉତ୍ତର: <b>ନିଃ + ଝର</b></div></div>
+</section>
+
+<section class="sec">
+<h2>୭. କ୍ଷୁଦ୍ର ଉତ୍ତରମୂଳକ — ପ୍ରଶ୍ନ ଓ ପାଠ୍ୟଭିତ୍ତିକ ଉତ୍ତର</h2>
+<div class="question"><b>୮.</b> ବନ୍ଧନହରା କେଉଁମାନଙ୍କ ଉଦ୍ଦେଶ୍ୟରେ କୁହାଯାଇଛି?
+<div class="answer">ଉତ୍ତର: <b>ନବଯୁଗର ତରୁଣମାନଙ୍କ ଉଦ୍ଦେଶ୍ୟରେ।</b></div></div>
+<div class="question"><b>୯.</b> କେଉଁଠାରେ ଆଲୋକଧାରା ଖେଳାଇବାକୁ କବି କହିଛନ୍ତି?
+<div class="answer">ଉତ୍ତର: <b>ଲକ୍ଷ ଜୀବନରେ।</b></div></div>
+<div class="question"><b>୧୦.</b> କବି କ’ଣ ଲୁପ୍ତ ହେବାକୁ କହିଛନ୍ତି?
+<div class="answer">ଉତ୍ତର: <b>ଜାତି ଉପଜାତି ଓ ଖଣ୍ଡିତ ଶତ ଦେଶର ଭେଦ/ବିଭେଦ ଲୁପ୍ତ ହେବାକୁ କହିଛନ୍ତି।</b></div></div>
+<div class="question"><b>୧୧.</b> କାହାର ଶଙ୍ଖଧ୍ୱନିରେ ଦୁଃଖ ଜ୍ୱାଳା ପ୍ରଶମିତ ହେବ?
+<div class="answer">ଉତ୍ତର: <b>ମହାମାନବର ଶଙ୍ଖ ଶବ୍ଦରେ।</b></div></div>
+<div class="question"><b>୧୨.</b> କେଉଁଠାରେ ଅମର ଗାନ ଗାଇବାପାଇଁ କବି କହିଛନ୍ତି?
+<div class="answer">ଉତ୍ତର: <b>ମରଣ ଦୁଆରେ ଚରଣ ଅରପି।</b></div></div>
+<div class="question"><b>୧୩.</b> ତିମିରକାରା ଭାଙ୍ଗିଦେବା କଥା କବି କାହିଁକି କହିଛନ୍ତି?
+<div class="answer">ଉତ୍ତର: <b>ବାଧା ଅତିକ୍ରମ କରି ଅନ୍ଧକାରର କାରା ଚୂର୍ଣ୍ଣ କରି ଆଲୋକ ଓ ଜାଗରଣ ଆଣିବା ପାଇଁ।</b></div></div>
+<div class="question"><b>୧୪.</b> ମରୁ ପଥରେ କବି କ’ଣ ସୃଷ୍ଟି କରିବାକୁ କହିଛନ୍ତି?
+<div class="answer">ଉତ୍ତର: <b>ନିର୍ଝର ସୃଷ୍ଟି କରିବାକୁ।</b></div></div>
+<div class="question"><b>୧୫.</b> “ସମ୍ମୁଖେ ତବ” — “ତବ” ଏଠାରେ କାହା ଉଦ୍ଦେଶ୍ୟରେ କୁହାଯାଇଛି?
+<div class="answer">ଉତ୍ତର: <b>ନବଯୁଗର ତରୁଣ/ଆହ୍ୱାନ ଗ୍ରହଣକାରୀଙ୍କ ଉଦ୍ଦେଶ୍ୟରେ।</b></div></div>
+<div class="question"><b>୧୬.</b> ଭୁବନସାରା ହସାଇବା ପାଇଁ କ’ଣ ଭିନ୍ନ କରିବାକୁ କୁହାଯାଇଛି?
+<div class="answer">ଉତ୍ତର: <b>ତନ୍ଦ୍ରାର ପରଶକୁ ଭିନ୍ନ କରିବାକୁ।</b></div></div>
+<div class="question"><b>୧୭.</b> ଭବିଷ୍ୟତର ତରୁଣମାନେ କ’ଣ କଲେ ଜାଗି ଉଠିବେ ବୋଲି କବି କହିଛନ୍ତି?
+<div class="answer">ଉତ୍ତର: <b>ଅତୀତର ଜୀର୍ଣ୍ଣ ଜୀବନକୁ ଚିରି, ପୀଡ଼ନର ପର୍ବତକୁ ଚୂର୍ଣ୍ଣ କରି, ଅର୍ଗଳରାଜି ଭାଙ୍ଗି ବିଜୟର ମାଳା ଗ୍ରହଣ କଲେ।</b></div></div>
+<div class="question"><b>୧୮.</b> ବିଜୟର ମାଳା ଘେନିବା ପୂର୍ବରୁ କ’ଣ ହେଉ ବୋଲି କବି କହିଛନ୍ତି?
+<div class="answer">ଉତ୍ତର: <b>ଅର୍ଗଳ ରାଜି ଭାଜି ପଡ଼ୁ।</b></div></div>
+</section>
+
+<section class="sec">
+<h2>୮. ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ</h2>
+<div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ:</b> ଦିଆଯାଇଥିବା ପଦ୍ୟାଂଶର ମୁଖ୍ୟ ଭାବକୁ ସଂକ୍ଷେପରେ ଲେଖିବା।</div>
+<details open><summary>୧୯. “ମରଣ ଦୁଆରେ ଚରଣ ଅରପି… ସଂଚିତ ଅପମାନ।”</summary>
+<p><b>ସରଳାର୍ଥ:</b> ମରଣକୁ ଭୟ ନକରି ଅମର ଗାନ ଗାଇବାକୁ କବି ଆହ୍ୱାନ କରିଛନ୍ତି। ମାନବ ମୁଣ୍ଡରେ ସଞ୍ଚିତ ଅପମାନକୁ ଦୂର କରିବାକୁ କୁହାଯାଇଛି।</p></details>
+<details><summary>୨୦. “ଭିନ୍ନ କରି ସେ ତନ୍ଦ୍ରା ପରଶ… ହସାଅ ଭୁବନ ସାରା।”</summary>
+<p><b>ସରଳାର୍ଥ:</b> ମୋହ-ମମତାରୁ ଜନ୍ମିଥିବା ତନ୍ଦ୍ରାକୁ ଦୂର କରି ସମଗ୍ର ଭୁବନରେ ହସ ଓ ଜାଗରଣ ଆଣିବାକୁ କବି କହିଛନ୍ତି।</p></details>
+<details><summary>୨୧. “ଭାଜି ପଡ଼ୁ ଆଜି ଅର୍ଗଳ ରାଜି… ଘେନ ବିଜୟର ମାଳା।”</summary>
+<p><b>ସରଳାର୍ଥ:</b> ସମସ୍ତ ବନ୍ଧନ ଓ ବାଧା ଭାଙ୍ଗି ପଡ଼ୁ। ତା’ପରେ ବିଜୟର ମାଳା ଗ୍ରହଣ କରିବାକୁ କବି ଆହ୍ୱାନ କରିଛନ୍ତି।</p></details>
+</section>
+
+<section class="sec" id="long">
+<h2>୯. ଦୀର୍ଘ ଉତ୍ତରମୂଳକ ପ୍ରଶ୍ନ</h2>
+<div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ:</b> ଦୀର୍ଘ ଉତ୍ତରରେ କବିତାର ଭାବକୁ କ୍ରମବଦ୍ଧ ଭାବେ ଉପସ୍ଥାପନ କରିବା।</div>
+<div class="question"><b>୨୨.</b> ଏକ ସାର୍ଥକ ଉଦ୍‌ବୋଧନ ଗୀତିକା ଭାବରେ “ଜାଗ ବନ୍ଧନହରା” କବିତାର ମର୍ମ ଆଲୋଚନା କର।
+<div class="answer"><b>ଉତ୍ତର ଲେଖିବାର ପାଠ୍ୟଭିତ୍ତିକ ବିନ୍ଦୁ:</b>
+<ul><li>ନବଯୁଗର ତରୁଣଙ୍କୁ ଜାଗିବାର ଆହ୍ୱାନ</li><li>ଲକ୍ଷ ଜୀବନରେ ଆଲୋକଧାରା</li><li>ବନ୍ଧନ, କ୍ରନ୍ଦନ ଓ ବିଭେଦ ଶେଷ</li><li>ତିମିରକାରା ଚୂର୍ଣ୍ଣ କରିବା</li><li>ମରୁପଥରେ ନିର୍ଝର ସୃଷ୍ଟି</li><li>ତନ୍ଦ୍ରା ଭିନ୍ନ କରି ଭୁବନକୁ ହସାଇବା</li><li>ପୀଡ଼ନର ପର୍ବତ ଚୂର୍ଣ୍ଣ କରି ବିଜୟର ମାଳା ଘେନିବା</li></ul></div></div>
+<div class="question"><b>୨୩.</b> ନବଯୁଗର ତରୁଣମାନଙ୍କୁ ଯୁଗର ଆହ୍ୱାନ ସଂପର୍କରେ କବି କ’ଣ କହିଛନ୍ତି ବିଚାର କର।
+<div class="answer"><b>ଉତ୍ତର ଲେଖିବାର ପାଠ୍ୟଭିତ୍ତିକ ବିନ୍ଦୁ:</b> ଜାଗି ଉଠିବା, ଆଲୋକଧାରା ଖେଳାଇବା, ବନ୍ଧନରାଜି ଛିନ୍ନ କରିବା, କ୍ରନ୍ଦନ ଶେଷ କରିବା, ଜାତି-ଉପଜାତିର ଭେଦ ଲୁପ୍ତ କରିବା, ତିମିର ଭାଙ୍ଗିବା, ପୀଡ଼ନର ପର୍ବତ ଚୂର୍ଣ୍ଣ କରି ବିଜୟ ଆଣିବା।</div></div>
+<div class="question"><b>୨୪.</b> “ଜାଗ ବନ୍ଧନହରା” କବିତାରେ ବନ୍ଧନରାଜିକୁ ଛିନ୍ନ କରିବା ପାଇଁ କବି ଦେଇଥିବା ଆହ୍ୱାନକୁ ବିଶ୍ଲେଷଣ କର।
+<div class="answer"><b>ଉତ୍ତର ଲେଖିବାର ପାଠ୍ୟଭିତ୍ତିକ ବିନ୍ଦୁ:</b> ବନ୍ଧନରାଜି ଛିନ୍ନ କରିବା, କ୍ରନ୍ଦନ ଶେଷ କରିବା, ଜାତି-ଉପଜାତିର ବିଭେଦ ଲୁପ୍ତ କରିବା, ତିମିରକାରା ଚୂର୍ଣ୍ଣ କରିବା, ତନ୍ଦ୍ରା ଦୂର କରିବା, ପୀଡ଼ନର ପର୍ବତ ଚୂର୍ଣ୍ଣ କରିବା ଓ ଅର୍ଗଳରାଜି ଭାଙ୍ଗି ବିଜୟ ମାଳା ଘେନିବା।</div></div>
+<div class="warn"><b>⚠️ ଉତ୍ତର-ସତର୍କତା:</b> ଉପରୋକ୍ତ ଦୀର୍ଘ ଉତ୍ତର ପାଇଁ କେବଳ ପଦ୍ୟରେ ଥିବା ଭାବଗୁଡ଼ିକୁ କ୍ରମରେ ଦିଆଯାଇଛି; ଅନ୍ୟ କୌଣସି ବାହ୍ୟ ତଥ୍ୟ ଯୋଡ଼ାଯାଇନାହିଁ।</div>
+</section>
+
+<section class="sec">
+<h2>୧୦. ତୁମ ପାଇଁ କାମ</h2>
+<div class="grid">
+<div class="card"><h3>୨୫. ପାଠନ କାର୍ଯ୍ୟ</h3><p>ଅନନ୍ତ ପଟ୍ଟନାୟକଙ୍କ ଅନ୍ୟାନ୍ୟ କବିତା ସଂଗ୍ରହ କରି ପଢ଼।</p></div>
+<div class="card"><h3>୨୬. ଚିଠି ଲେଖନ</h3><p>ତୁମର ପ୍ରିୟସାଙ୍ଗ ନିକଟକୁ ନବଯୁଗର ଆହ୍ୱାନ ସମ୍ପର୍କରେ ଚିଠି ଲେଖ।</p></div>
+</div>
+<div class="key"><b>📝 ଲେଖନ ସୂତ୍ର:</b> ଚିଠିରେ କବିତାରେ ଥିବା ନବଯୁଗର ତରୁଣଙ୍କ ଜାଗରଣ, ଆଲୋକଧାରା, ବନ୍ଧନ ଛିନ୍ନ କରିବା ଓ ବିଜୟର ଆହ୍ୱାନକୁ ଆଧାର କରି ଲେଖ।</div>
+</section>
+
+<section class="sec">
+<h2>୧୧. ପରୀକ୍ଷା ପାଇଁ ଦ୍ରୁତ ଅଭ୍ୟାସ</h2>
+<div class="grid3">
+<div class="card"><h3>ଖାଲିସ୍ଥାନ</h3><p>ଲକ୍ଷ ଜୀବନେ ଖେଳାଅ — ?</p><b>ଆଲୋକଧାରା</b></div>
+<div class="card"><h3>ପ୍ରତିଶବ୍ଦ</h3><p>ତିମିର — ?</p><b>ଅନ୍ଧାର</b></div>
+<div class="card"><h3>ସମାସ</h3><p>ତନ୍ଦ୍ରାପରଶ — ?</p><b>ଷଷ୍ଠୀ ତତ୍ପୁରୁଷ</b></div>
+<div class="card"><h3>ସନ୍ଧି</h3><p>ନିର୍ଝର — ?</p><b>ନିଃ + ଝର</b></div>
+<div class="card"><h3>ପଦ</h3><p>ସଞ୍ଚିତ — ?</p><b>ବିଶେଷଣ</b></div>
+<div class="card"><h3>ଉଦ୍ଦେଶ୍ୟ</h3><p>“ଜାଗ ବନ୍ଧନହରା” — ?</p><b>ନବଯୁଗର ତରୁଣ</b></div>
+</div>
+</section>
+
+<section class="sec" id="revision">
+<h2>୧୨. ଫାଇନାଲ୍ ରିଭିଜନ୍</h2>
+<div class="objective"><b>🎯 ଶିକ୍ଷଣ ଲକ୍ଷ୍ୟ:</b> ପରୀକ୍ଷା ପୂର୍ବରୁ ସମଗ୍ର କବିତାକୁ ଶୀଘ୍ର ପୁନରାବୃତ୍ତି କରିବା।</div>
+<div class="card">
+<h3>⭐ ୧୪ଟି ମୁଖ୍ୟ ବିନ୍ଦୁ</h3>
+<ol>
+<li>କବି — ଅନନ୍ତ ପଟ୍ଟନାୟକ।</li>
+<li>ଜନ୍ମ — ଖୋର୍ଦ୍ଧା ଜିଲ୍ଲାର ଚଣାହାଟ ଗ୍ରାମରେ।</li>
+<li>କବିତାର ମୁଖ୍ୟ ଆହ୍ୱାନ — “ଜାଗ ବନ୍ଧନହରା”।</li>
+<li>ନବଯୁଗର ତରୁଣମାନଙ୍କୁ ଜାଗିବାକୁ କୁହାଯାଇଛି।</li>
+<li>ଲକ୍ଷ ଜୀବନରେ ଆଲୋକଧାରା ଖେଳାଇବାକୁ କୁହାଯାଇଛି।</li>
+<li>ବନ୍ଧନରାଜି ଛିନ୍ନ କରିବାର ଆହ୍ୱାନ ଅଛି।</li>
+<li>କ୍ରନ୍ଦନ ଶେଷ ହେଉ ବୋଲି କବି କହିଛନ୍ତି।</li>
+<li>ଜାତି-ଉପଜାତିର ବିଭେଦ ଲୁପ୍ତ ହେଉ ବୋଲି କୁହାଯାଇଛି।</li>
+<li>ମହାମାନବର ଶଙ୍ଖ ଶବ୍ଦରେ ଦୁଃଖ ଜ୍ୱାଳା ପ୍ରଶମିତ ହେଉ।</li>
+<li>ମରଣ ଦୁଆରେ ଅମର ଗାନ ଗାଇବାର ଆହ୍ୱାନ।</li>
+<li>ତିମିରକାରା ଚୂର୍ଣ୍ଣ କରିବାକୁ କୁହାଯାଇଛି।</li>
+<li>ମରୁପଥରେ ନିର୍ଝର ସୃଷ୍ଟି କରି ଯାତ୍ରା କରିବାକୁ କୁହାଯାଇଛି।</li>
+<li>ତନ୍ଦ୍ରା ଦୂର କରି ଭୁବନସାରା ହସାଇବାର ଆହ୍ୱାନ।</li>
+<li>ପୀଡ଼ନର ପର୍ବତ ଚୂର୍ଣ୍ଣ କରି ଅର୍ଗଳ ଭାଙ୍ଗି ବିଜୟର ମାଳା ଘେନିବାର ଆହ୍ୱାନ।</li>
+</ol>
+</div>
+
+<div class="card">
+<h3>📚 ଶବ୍ଦାର୍ଥ ଦ୍ରୁତ ତାଲିକା</h3>
+<table><tr><th>ଶବ୍ଦ</th><th>ସରଳ ଅର୍ଥ</th></tr>
+<tr><td>ବନ୍ଧନହରା</td><td>ବନ୍ଧନରୁ ମୁକ୍ତ</td></tr>
+<tr><td>ଶୋଣିତ</td><td>ରକ୍ତ</td></tr>
+<tr><td>ଶିରସୁଁ</td><td>ମୁଣ୍ଡରୁ</td></tr>
+<tr><td>ସ୍ପନ୍ଦନ</td><td>ଶିହରଣ, କମ୍ପନ</td></tr>
+<tr><td>ଶଙ୍କିତ</td><td>ଭୟଭୀତ</td></tr>
+<tr><td>ତନ୍ଦ୍ରା</td><td>ନିଦ୍ରା</td></tr>
+<tr><td>ଜୀର୍ଣ୍ଣ</td><td>ଦୁର୍ବଳ</td></tr>
+<tr><td>ସ୍ୟନ୍ଦନ</td><td>ରଥ</td></tr>
+<tr><td>ଅର୍ଗଳ</td><td>ବନ୍ଧନ</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h3>🧠 ମୁଖ୍ୟ ଭାବ — ଏକ ଲାଇନ୍</h3>
+<p><b>ଜାଗରଣ → ଆଲୋକ → ବନ୍ଧନମୁକ୍ତି → ତିମିର ଦୂରୀକରଣ → ପୀଡ଼ନର ଶେଷ → ବିଜୟ।</b></p>
+</div>
+
+<div class="card">
+<h3>🎯 ଅତ୍ୟନ୍ତ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ପ୍ରଶ୍ନ</h3>
+<ul>
+<li>ବନ୍ଧନହରା କେଉଁମାନଙ୍କ ଉଦ୍ଦେଶ୍ୟରେ କୁହାଯାଇଛି?</li>
+<li>ଲକ୍ଷ ଜୀବନରେ କ’ଣ ଖେଳାଇବାକୁ କୁହାଯାଇଛି?</li>
+<li>କବି କ’ଣ ଲୁପ୍ତ ହେବାକୁ କହିଛନ୍ତି?</li>
+<li>ମରୁ ପଥରେ କ’ଣ ସୃଷ୍ଟି କରିବାକୁ କୁହାଯାଇଛି?</li>
+<li>ତନ୍ଦ୍ରା ପରଶ ଭିନ୍ନ କରିବାର ଉଦ୍ଦେଶ୍ୟ କ’ଣ?</li>
+<li>ବିଜୟର ମାଳା ଘେନିବା ପୂର୍ବରୁ କ’ଣ ହେବା ଦରକାର?</li>
+<li>“ଜାଗ ବନ୍ଧନହରା” କବିତାର ମର୍ମ ଆଲୋଚନା କର।</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>📝 ଶେଷ MCQ Quiz</h3>
+<div class="mcq">
+<p><b>୧.</b> “ଲକ୍ଷ ଜୀବନେ ଖେଳାଅ” —</p>
+<label>☐ କ) ଅନ୍ଧକାରଧାରା</label><label>☑ ଖ) ଆଲୋକଧାରା</label><label>☐ ଗ) ଉତ୍ସାହବାଣୀ</label><label>☐ ଘ) ସମାଜବାଦୀଧାରା</label>
+<p><b>୨.</b> “ସଞ୍ଚିତ” କେଉଁ ପଦ?</p>
+<label>☐ କ) ବିଶେଷ୍ୟ</label><label>☑ ଖ) ବିଶେଷଣ</label><label>☐ ଗ) ସର୍ବନାମ</label><label>☐ ଘ) ଅବ୍ୟୟ</label>
+<p><b>୩.</b> “ତିମିର”ର ପ୍ରତିଶବ୍ଦ —</p>
+<label>☑ କ) ଅନ୍ଧାର</label><label>☐ ଖ) ରାତ୍ରି</label><label>☐ ଗ) ସନ୍ଧ୍ୟା</label><label>☐ ଘ) କଳା</label>
+<p><b>୪.</b> “ତନ୍ଦ୍ରାପରଶ” କେଉଁ ସମାସ?</p>
+<label>☐ କ) କର୍ମଧାରୟ</label><label>☑ ଖ) ଷଷ୍ଠୀ ତତ୍ପୁରୁଷ</label><label>☐ ଗ) ପଞ୍ଚମୀ ତତ୍ପୁରୁଷ</label><label>☐ ଘ) ବହୁବ୍ରୀହି</label>
+<p><b>୫.</b> “ନିର୍ଝର”ର ସନ୍ଧିବିଚ୍ଛେଦ —</p>
+<label>☑ କ) ନିଃ + ଝର</label><label>☐ ଖ) ନିର + ଝର</label><label>☐ ଗ) ନି + ଝର</label><label>☐ ଘ) ନୀ + ଝର</label>
+</div>
+</div>
+
+<div class="card">
+<h3>🔑 ଉତ୍ତର କୀ</h3>
+<table><tr><th>ପ୍ରଶ୍ନ</th><th>ଉତ୍ତର</th></tr>
+<tr><td>୧</td><td>ଖ — ଆଲୋକଧାରା</td></tr>
+<tr><td>୨</td><td>ଖ — ବିଶେଷଣ</td></tr>
+<tr><td>୩</td><td>କ — ଅନ୍ଧାର</td></tr>
+<tr><td>୪</td><td>ଖ — ଷଷ୍ଠୀ ତତ୍ପୁରୁଷ</td></tr>
+<tr><td>୫</td><td>କ — ନିଃ + ଝର</td></tr>
+</table>
+</div>
+</section>
+
+<section class="sec">
+<h2>୧୩. ଏକ ନଜରରେ ସମଗ୍ର ପାଠ</h2>
+<div class="timeline">
+<div class="t"><span class="num">୧</span><br><b>ତରୁଣ ଜାଗ</b><br><span class="small">ଜାଗରଣ</span></div>
+<div class="t"><span class="num">୨</span><br><b>ଆଲୋକ</b><br><span class="small">ଲକ୍ଷ ଜୀବନ</span></div>
+<div class="t"><span class="num">୩</span><br><b>ବନ୍ଧନ ଛିନ୍ନ</b><br><span class="small">କ୍ରନ୍ଦନ ଶେଷ</span></div>
+<div class="t"><span class="num">୪</span><br><b>ତିମିର ଭାଙ୍ଗ</b><br><span class="small">ଅପମାନ ଦୂର</span></div>
+<div class="t"><span class="num">୫</span><br><b>ବିଜୟ</b><br><span class="small">ଅର୍ଗଳ ଭାଙ୍ଗ</span></div>
+</div>
+<div class="footer">ଜାଗ ବନ୍ଧନହରା — ସମ୍ପୂର୍ଣ୍ଣ ଅଧ୍ୟୟନ ଓ ପରୀକ୍ଷା ପୁନରାବୃତ୍ତି</div>
+</section>
+</div>
+</body>
+</html>'''
+
+path = Path("/mnt/data/jaga_bandhanahara_odisha_class10_complete_lecture.html")
+path.write_text(html, encoding="utf-8")
+print(f"Created: {path}")
+print(f"Size: {path.stat().st_size:,} bytes")
