@@ -1,0 +1,483 @@
+from pathlib import Path
+
+html = r'''<!doctype html>
+<html lang="or">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ଓଡ଼ିଶା ଶ୍ରେଣୀ ୧୦ — ସମ୍ପୂର୍ଣ୍ଣ ପଦ୍ୟ ଲେକ୍ଚର</title>
+<style>
+:root{--ink:#142536;--muted:#5f7280;--line:#d9e3ea;--soft:#f5f9fc;--blue:#1d5877;--gold:#a46d16;--green:#3d7552;--red:#9b4545}
+*{box-sizing:border-box} body{margin:0;background:#edf3f7;color:var(--ink);font-family:"Noto Sans Oriya","Nirmala UI","Noto Sans",Arial,sans-serif}
+.nav{position:sticky;top:0;z-index:99;background:#fff;border-bottom:1px solid var(--line);display:flex;gap:8px;align-items:center;padding:9px 12px}
+button{background:var(--blue);color:white;border:0;border-radius:10px;padding:9px 13px;font-weight:700}
+.bar{height:6px;background:#dce7ee;border-radius:8px;flex:1;overflow:hidden}.bar i{display:block;height:100%;width:0;background:#4a87a4}
+.count{font-size:13px;color:var(--muted);min-width:55px;text-align:center}
+.deck{max-width:1100px;margin:auto;padding:15px}
+.slide{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;margin:16px 0;box-shadow:0 8px 24px rgba(20,45,65,.07);page-break-after:always}
+.hero{background:linear-gradient(135deg,#173b52,#276b83);color:#fff}.hero h1,.hero h2{color:#fff}
+h1{font-size:clamp(30px,6vw,58px);line-height:1.15;margin:8px 0}h2{font-size:clamp(24px,4vw,36px);color:var(--blue);margin:0 0 10px}h3{color:var(--blue);font-size:21px}
+p,li{font-size:17px;line-height:1.85}.objective{background:#eef7fb;border-left:5px solid #3b7d9d;padding:10px 14px;border-radius:10px;margin:10px 0 17px;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.card{background:var(--soft);border:1px solid var(--line);border-radius:15px;padding:14px}
+.poem{background:#fcf7ec;border-left:5px solid var(--gold);border-radius:12px;padding:16px;font-size:18px;line-height:2.05;white-space:pre-line}
+.meaning{background:#f1f8f3;border-left:5px solid var(--green);padding:14px;border-radius:12px;line-height:1.8}
+.key{background:#eef6ff;border-left:5px solid #2f7099;padding:13px;border-radius:12px}.warn{background:#fff2f2;border-left:5px solid var(--red);padding:13px;border-radius:12px}
+.exam{background:#fff8e8;border:1px solid #ead7a3;border-radius:13px;padding:13px;margin-top:12px}
+.timeline{display:flex;flex-wrap:wrap;gap:9px}.step{flex:1;min-width:145px;background:#eef6fa;border:1px solid #d2e1e9;border-radius:14px;padding:13px;text-align:center}.arrow{align-self:center;font-size:25px;color:#5a7a8c}
+.term{display:grid;grid-template-columns:1fr 1.6fr;gap:7px;margin:7px 0}.term b,.term span{padding:9px;border-radius:9px}.term b{background:#eaf2f7}.term span{border:1px solid #e1e7eb}
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:15px}th,td{border:1px solid #d7e1e8;padding:9px;vertical-align:top}th{background:#eaf2f7}
+.qa{border:1px solid var(--line);border-radius:13px;overflow:hidden;margin:10px 0}.q{background:#f4f8fa;padding:11px 13px;font-weight:700}.a{padding:11px 13px;line-height:1.8}
+.svgbox{background:#f7fafc;border:1px solid #dce6ed;border-radius:16px;padding:10px;margin:14px 0}svg{display:block;max-width:100%;height:auto;margin:auto}
+.badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#e9f3f8;color:#174b67;font-weight:700;margin:3px}.hero .badge{background:rgba(255,255,255,.15);color:#fff}
+.small{font-size:13px;color:var(--muted)}
+@media(max-width:700px){.slide{padding:16px;border-radius:16px}.grid{grid-template-columns:1fr}p,li{font-size:16px}.poem{font-size:16px}.term{grid-template-columns:1fr}.arrow{display:none}}
+@media print{.nav{display:none}body{background:#fff}.slide{box-shadow:none;margin-bottom:8px}}
+</style>
+</head>
+<body>
+<div class="nav"><button onclick="prev()">◀ ପୂର୍ବ</button><div class="bar"><i id="prog"></i></div><span class="count" id="cnt"></span><button onclick="next()">ପରବର୍ତ୍ତୀ ▶</button></div>
+<main class="deck">
+
+<section class="slide hero">
+<span class="badge">ଓଡ଼ିଶା ଶ୍ରେଣୀ–୧୦</span><span class="badge">ପଦ୍ୟ</span>
+<h1>ମାନଗୋବିନ୍ଦଙ୍କ ମହାନତା</h1>
+<p><b>ସାରଳା ଦାସ • ପଞ୍ଚଦଶ ଶତାବ୍ଦୀ</b></p>
+<p>ମହାଭାରତର ଯୁଦ୍ଧ ପରିପ୍ରେକ୍ଷିତରେ ମାନଗୋବିନ୍ଦଙ୍କ ମହାନତା ଓ ଦୁର୍ଯ୍ୟୋଧନଙ୍କ ଦୁଃଖର ଚିତ୍ରଣ।</p>
+<div class="svgbox"><svg viewBox="0 0 900 220"><rect width="900" height="220" rx="18" fill="#eaf4f7"/><circle cx="720" cy="65" r="42" fill="#e9bf62"/><path d="M0 170 Q180 125 350 170 T900 155V220H0Z" fill="#b9d2be"/><path d="M120 165 Q270 120 420 165" fill="none" stroke="#638aa0" stroke-width="7"/><text x="35" y="55" font-size="29" fill="#174b67">ମାନଗୋବିନ୍ଦ → ଅଶ୍ୱତ୍ଥାମା → ପାଣ୍ଡବଙ୍କ ମୁଣ୍ଡ</text><text x="35" y="98" font-size="22" fill="#355e70">ପ୍ରଶଂସା → ସତ୍ୟ ଜାଣିବା → ଭର୍ତ୍ସନା</text></svg></div>
+</section>
+
+<section class="slide">
+<h2>୧. ଶିକ୍ଷା ଲକ୍ଷ୍ୟ</h2><div class="objective">ଲକ୍ଷ୍ୟ: କବିତାର ଘଟଣାକ୍ରମ, ମାନଗୋବିନ୍ଦଙ୍କ ଚରିତ୍ର, ଦୁର୍ଯ୍ୟୋଧନଙ୍କ ମନୋଭାବ ଓ ସମସ୍ତ ପ୍ରଶ୍ନାବଳୀକୁ ବୁଝିବା।</div>
+<div class="grid"><div class="card">⭐ କବି ପରିଚୟ ଓ ପାଠ ପରିଚୟ</div><div class="card">⭐ କବିତାର ପଦ୍ୟାଂଶ ଓ ସରଳ ଅର୍ଥ</div><div class="card">⭐ ଶବ୍ଦାର୍ଥ ଓ ଭାଷା ଅଭ୍ୟାସ</div><div class="card">⭐ ପ୍ରଶ୍ନ ୧–୨୩ ଓ ଶେଷ ପୁନରାବୃତ୍ତି</div></div>
+</section>
+
+<section class="slide">
+<h2>୨. କବି ପରିଚୟ — ସାରଳା ଦାସ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ପାଠରେ ଦିଆଯାଇଥିବା କବି ପରିଚୟର ମୁଖ୍ୟ କଥା ମନେ ରଖିବା।</div>
+<p>ଓଡ଼ିଆ ଭାଷାରେ ସାହିତ୍ୟ ରଚନା କରିଥିବା ସ୍ରଷ୍ଟାମାନଙ୍କ ମଧ୍ୟରେ ସାରଳା ଦାସ ଆଦିକବି ରୂପେ ପରିଚିତ। ସଂସ୍କୃତ ଭାଷାରେ ବ୍ୟାସଦେବ ମହାଭାରତ ଲେଖିଥିବା ପରି ଓଡ଼ିଆ ଭାଷାରେ ସାରଳା ଦାସ ମହାଭାରତ ଲେଖିଥିବାରୁ ତାଙ୍କୁ କେହି କେହି “ଉତ୍କଳ-ବ୍ୟାସ” ବୋଲି ସମ୍ବୋଧନ କରିଥାନ୍ତି।</p>
+<p>ତାଙ୍କ ଲେଖାରେ ଓଡ଼ିଶାର ମାଟି, ପାଣି, ପବନ, ପ୍ରକୃତି ଓ ମଣିଷ ଜୀବନର ବାସ୍ତବ ଗାଥା କଳାତ୍ମକ ଭାବରେ ପରିବେଶିତ ହୋଇଥିବାରୁ ତାଙ୍କୁ “ମାଟିର ମହାକବି” ବୋଲି କୁହାଯାଏ। ପାଠରେ ତାଙ୍କର <b>ମହାଭାରତ, ଚଣ୍ଡୀପୁରାଣ, ବିଚିତ୍ର ରାମାୟଣ</b> ଆଦି କୃତିର ଉଲ୍ଲେଖ ଅଛି।</p>
+<div class="key">📌 ଜନ୍ମସ୍ଥାନ: ସମ୍ବଲପୁର ଜିଲ୍ଲାର ଝାଡ଼ଗାଁ ଠାରେ — ପାଠରେ ଏହି ତଥ୍ୟ ଦିଆଯାଇଛି।</div>
+</section>
+
+<section class="slide">
+<h2>୩. ପାଠ ପରିଚୟ</h2><div class="objective">ଲକ୍ଷ୍ୟ: କବିତାର ଘଟଣା କେଉଁ ପର୍ଯ୍ୟାୟରେ ଘଟୁଛି ବୁଝିବା।</div>
+<p>ବିରୋଧୀ ପାଣ୍ଡବଙ୍କ ପାଞ୍ଚ ଶିଶୁପୁତ୍ରଙ୍କ ନିଧନରେ ଦୁର୍ଯ୍ୟୋଧନଙ୍କ ମନର ବ୍ୟାକୁଳତା, ପିତୃସୁଲଭ ହୃଦୟର ପରିଚୟ ଓ ବିଳାପ, ବଂଶରକ୍ଷା ନିମନ୍ତେ ଆକୁଳତା, ନିଷ୍ପାପ ଶିଶୁମାନଙ୍କ ମୃତ୍ୟୁ ପାଇଁ ଗୁରୁପୁତ୍ର ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ତିରସ୍କାର—ଏହି ଘଟଣାମାନେ କବିତାରେ ଆସିଛି।</p>
+<div class="timeline"><div class="step">ଅଶ୍ୱତ୍ଥାମା<br>ପାଣ୍ଡବଙ୍କ ମୁଣ୍ଡ ଆଣେ</div><div class="arrow">→</div><div class="step">ଦୁର୍ଯ୍ୟୋଧନ<br>ପ୍ରଥମେ ଖୁସି</div><div class="arrow">→</div><div class="step">ପାଣ୍ଡବ ନୁହନ୍ତି<br>ବୋଲି ବୁଝେ</div><div class="arrow">→</div><div class="step">ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ<br>ଭର୍ତ୍ସନା</div></div>
+</section>
+
+<section class="slide">
+<h2>୪. ପଦ୍ୟାଂଶ — ପ୍ରଥମ ଅଂଶ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଅଶ୍ୱତ୍ଥାମାଙ୍କ ଆଗମନ ଓ ମାନଗୋବିନ୍ଦଙ୍କ ପ୍ରାରମ୍ଭିକ ପ୍ରତିକ୍ରିୟା ବୁଝିବା।</div>
+<div class="poem">ଦୃଦକ୍ଷ ବୋଇଲା ସ୍ୱାମୀ ଶୁଣିମା ଦଣ୍ଡଧାରୀ
+ଅଶ୍ୱତ୍ଥାମା ପାଣ୍ଡବଙ୍କ ମୁଣ୍ଡଛେଦି ଆଣଇ ଭାର କରି।
+ନୟନ ଫେଡ଼ି ରାଜା ଚାହିଁଲା ମାନଗୋବିନ୍ଦ
+ପାଣ୍ଡବନ୍ତ ପ୍ରାୟେ ବୁଝି ମନେଣ ସାନନ୍ଦ।
+ସାଧୁ ସାଧୁ ଅଶ୍ୱତ୍ଥାମା ବୋଲି ମାନଗୋବିନ୍ଦ ପ୍ରଶଂସି
+ତୋତେ ସେନାପତି ନ କରି ଅଗାଦ ସମୋଦ୍ରେ ଗଲି ଭାସି।
+ହରାଇ କରି ପଛେ ଶିଖିଲି ମୁଁ ବୁଦ୍ଧି
+ପାଦେଣ ଟାଳିଲି ମୁଁ ଯେଡ଼େକ ସଂପ୍ରଧି।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ଅଶ୍ୱତ୍ଥାମା ପାଣ୍ଡବଙ୍କ ମୁଣ୍ଡ କାଟି ଆଣିଛି ବୋଲି ଖବର ଦିଆଗଲା। ମାନଗୋବିନ୍ଦ ସେଗୁଡ଼ିକୁ ପାଣ୍ଡବଙ୍କ ମୁଣ୍ଡ ପରି ଭାବି ଆନନ୍ଦିତ ହେଲେ ଏବଂ ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ପ୍ରଶଂସା କଲେ।</div>
+<div class="exam">📝 ମୁଖ୍ୟ ପଦ: “ସାଧୁ ସାଧୁ ଅଶ୍ୱତ୍ଥାମା” — ମାନଗୋବିନ୍ଦଙ୍କ ପ୍ରଶଂସା।</div>
+</section>
+
+<section class="slide">
+<h2>୫. ପଦ୍ୟାଂଶ — ମାନଗୋବିନ୍ଦଙ୍କ ଅନୁତାପ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ସତ୍ୟ ଜାଣିବା ପରେ ମାନଗୋବିନ୍ଦଙ୍କ ମନର ପରିବର୍ତ୍ତନ ବୁଝିବା।</div>
+<div class="poem">ବାଳୁତ କାଳହୁଁ ଯାହାକୁ ପାଇଲଇଂ ସାଖି
+ଚିହ୍ନି ନୂଆରିଲି ମୁଁ ତାକୁ ହୋଇଲି ନିରିମାଖି।
+ଅନେକ ଉତ୍ସଲ୍ୟ ଦେଖିଣ ଧୃତିରାଷ୍ଟ୍ରୀ
+ଛାମୁରେ ନେଇ ପକାଇଲା ପାଞ୍ଚଂକରି ମୁଣ୍ଡଗୋଟି।
+ବୋଲଇ ଅଶ୍ୱତ୍ଥାମା ଶୁଣ ହୋ ଦୁର୍ଯ୍ୟୋଧନ
+ପିତାର ଶତ୍ରୁ ଯେଟି ଧୃଷ୍ଟ ଯେ ଦ୍ୟୁମନ।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ଯେମାନଙ୍କୁ ଛୋଟବେଳୁ ଜାଣିଥିଲେ, ସେମାନଙ୍କୁ ଚିହ୍ନି ପାରିନଥିବାରେ ମାନଗୋବିନ୍ଦ ଅନୁତପ୍ତ। ଧୃତରାଷ୍ଟ୍ରଙ୍କ ସମ୍ମୁଖରେ ପାଞ୍ଚଟି ମୁଣ୍ଡ ରଖାଯାଏ ଏବଂ ଘଟଣାର ସତ୍ୟ ପ୍ରକାଶ ପାଏ।</div>
+</section>
+
+<section class="slide">
+<h2>୬. ସତ୍ୟ ପ୍ରକାଶ — ପାଣ୍ଡବ ନୁହନ୍ତି</h2><div class="objective">ଲକ୍ଷ୍ୟ: ମୁଣ୍ଡଗୁଡ଼ିକ କାହାର ଥିଲା ବୁଝିବା।</div>
+<div class="poem">ଦେଖିଣ ସାନନ୍ଦ ହୋଇଲେ ଦୁର୍ଯ୍ୟୋଧନ ରାୟେ
+ବୋଇଲେ ବେଗେ ଦଣ୍ଡଛତ୍ର ଧର ତୁ ରାଜାୟେ।
+ଦେଖିଣ ବୋଇଲା ଚିହ୍ନି ଯେ କୁମାର ଦୃଦକ୍ଷ
+ପାଣ୍ଡବେ ନୋହନ୍ତି ଏ ଦ୍ରୌପଦୀ ପାଞ୍ଚବସ।</div>
+<div class="key">🎯 <b>ଅତ୍ୟନ୍ତ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ:</b> ମୁଣ୍ଡଗୁଡ଼ିକ ପାଣ୍ଡବଙ୍କର ନୁହେଁ; ଦ୍ରୌପଦୀଙ୍କ ପାଞ୍ଚ ପୁତ୍ରଙ୍କର ବୋଲି ଜଣାପଡ଼େ।</div>
+</section>
+
+<section class="slide">
+<h2>୭. ମାନଗୋବିନ୍ଦଙ୍କ ବିଳାପ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଦୁର୍ଯ୍ୟୋଧନ କାହିଁକି ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ଭର୍ତ୍ସନା କଲେ ବୁଝିବା।</div>
+<div class="poem">ରଜନୀ ପ୍ରଭାତରେ ଦେଖିଲା ଧୃତିରାଷ୍ଟ୍ରୀ
+ପାଞ୍ଚାଳୀ କୁମରଙ୍କର ଶିର ପାଞ୍ଚଗୋଟି।
+ମୂର୍ଚ୍ଛାଗତ ହୋଇଲା ଦେଖି ମାନଗୋବିନ୍ଦ
+ହା ହା ଦଇବ ବୋଲି କପୋଳେ କରଧୁନ୍ଦ।
+ଆହୋ ଅଶ୍ୱତ୍ଥାମା ଆଦିହୁଁ ଅଟୁ ନଷ୍ଟ
+ତୋହୋର ପ୍ରକୃତି ଜାଣି ମୁଁ ନ ବାନ୍ଧିଲି ମୁକୁଟ।
+ସମର ଶେଷକାଳେ ମୋତେ ଯେ କଲୁ ଏହା
+ବାଳୁତ ବଧ ଦୋଷେ କଲୁ ରେ ପାମର ଦୋରେହା।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ପ୍ରଭାତରେ ସତ୍ୟ ଜଣାପଡ଼ିଲାପରେ ମାନଗୋବିନ୍ଦ ମୂର୍ଚ୍ଛିତ ହେଲେ। ନିଷ୍ପାପ ଶିଶୁମାନଙ୍କୁ ମାରିଥିବାରୁ ସେ ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ଦୋଷୀ ବୋଲି ତିରସ୍କାର କଲେ।</div>
+</section>
+
+<section class="slide">
+<h2>୮. ବଂଶରକ୍ଷାର ଆଶା ଭାଙ୍ଗିଗଲା</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଦୁର୍ଯ୍ୟୋଧନଙ୍କ ଅନୁତାପର ଆଉ ଏକ କାରଣ ବୁଝିବା।</div>
+<div class="poem">ଅଭିମନ୍ୟୁ ମଲା ଘଟଉତ୍କଚ ନାଶଗଲା
+ଲକ୍ଷ୍ମଣକୁମାରହିଁ ପଡ଼ିଲା ବଂଶହିଁ ସରିଲା।
+ଏହାନ୍ତ ରଖିଲି ମୁଁ ବଂଶରକ୍ଷାର ନିମନ୍ତେ
+ଗତ ଆଗତ ବୁଡ଼ିଲା ଯେ ତୋହୋର କୃତ୍ୟ।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ଅଭିମନ୍ୟୁ, ଘଟୋତ୍କଚ ଓ ଲକ୍ଷ୍ମଣକୁମାରଙ୍କ ମୃତ୍ୟୁ ପରେ ବଂଶରକ୍ଷାର ଆଶା ଅବଶିଷ୍ଟ ଥିଲା। କିନ୍ତୁ ଅଶ୍ୱତ୍ଥାମାଙ୍କ କାର୍ଯ୍ୟରେ ସେହି ଆଶା ମଧ୍ୟ ନଷ୍ଟ ହୋଇଗଲା ବୋଲି ଦୁର୍ଯ୍ୟୋଧନ ବିଳାପ କରନ୍ତି।</div>
+</section>
+
+<section class="slide">
+<h2>୯. ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ତୀବ୍ର ଭର୍ତ୍ସନା</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଦୁର୍ଯ୍ୟୋଧନଙ୍କ ଭାଷାରେ ଥିବା ଦୁଃଖ ଓ କ୍ରୋଧ ବୁଝିବା।</div>
+<div class="poem">ଭୋ ଦଇବ ସନ୍ତାନ କଳପତରୁଂ ଯେ ବୋଲ ବୋଲି
+ଅଶ୍ୱତ୍ଥାମା ପ୍ରସନ୍ନେ ଗତ ଆଗତ ଦୁଇକୁଳ ବୁଡ଼ାଇଲି।
+ତୋହୋର ମୁଖ ପୁଣି ମୁଁ ନ ଚାହିଁ ରେ ଦୋରେହା
+ବଂଶ ନିଅଂଶ କଲୁ ରେ ମୋହୋର ମୁଖ ତୁ ନ ଚାହାଁ।
+ପଞ୍ଚଭୂତ ଆତ୍ମା କିମ୍ପେ ଅଛି ହୋ ନିର୍ଲଜ
+ଏ ପାଞ୍ଚ ପୁଅଙ୍କ ଅବସ୍ଥା ଦେଖି କିମ୍ପେ ନୁହଇ ଦହିଜ।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ଦୁର୍ଯ୍ୟୋଧନ ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ନିର୍ଲଜ୍ଜ ବୋଲି ଭର୍ତ୍ସନା କରିଛନ୍ତି। ପାଞ୍ଚ ପୁଅଙ୍କ ଅବସ୍ଥା ଦେଖି ତାଙ୍କ ମନ ଦୁଃଖରେ ଜଳୁନଥିବାକୁ ସେ ପ୍ରଶ୍ନ କରନ୍ତି।</div>
+</section>
+
+<section class="slide">
+<h2>୧୦. ଶେଷ ଦୃଶ୍ୟ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଦୁର୍ଯ୍ୟୋଧନଙ୍କ ମୃତ୍ୟୁର ଶେଷ ଦୃଶ୍ୟ ମନେ ରଖିବା।</div>
+<div class="poem">ପାଞ୍ଚଂକରି ମୁଣ୍ଡ ଦିଅ ମୋହୋରି କୋଳାଗ୍ରତେ
+କୋଳ କରି ଧରି ମୁଁ ହୋଇବି କିନା ମୁକତେ।
+ଦୁର୍ଯ୍ୟୋଧନ ବାକ୍ୟ ଶୁଣି ଦୃଦକ୍ଷ ସତ୍ୱର
+ରାଜା କୋଳେ ଦିଲା ନେଇ ପଞ୍ଚବଚୁ ଶିର।
+ପାଞ୍ଚଂକରି ମୁଣ୍ଡ କୋଳେ ଦେଖିଣ ଧୃତିରାଷ୍ଟ୍ରୀ
+ପ୍ରାଣ ବିସର୍ଜିଲା ମୃଧୁନା ଗଲା ଫାଟି।</div>
+<div class="key">📌 ଶେଷ ଘଟଣା: ପାଞ୍ଚଟି ମୁଣ୍ଡ କୋଳରେ ନେବା ପରେ ଦୁର୍ଯ୍ୟୋଧନ ପ୍ରାଣ ବିସର୍ଜନ କଲେ।</div>
+</section>
+
+<section class="slide">
+<h2>୧୧. ଘଟଣାକ୍ରମ — ଗୋଟିଏ ଚିତ୍ରରେ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ସମଗ୍ର କବିତାକୁ କ୍ରମରେ ମନେ ରଖିବା।</div>
+<div class="timeline"><div class="step">ଅଶ୍ୱତ୍ଥାମା<br>ପାଞ୍ଚ ମୁଣ୍ଡ ଆଣିଲେ</div><div class="arrow">→</div><div class="step">ଦୁର୍ଯ୍ୟୋଧନ<br>ଆନନ୍ଦିତ</div><div class="arrow">→</div><div class="step">ସତ୍ୟ ପ୍ରକାଶ<br>ପାଣ୍ଡବ ନୁହେଁ</div><div class="arrow">→</div><div class="step">ଦୁର୍ଯ୍ୟୋଧନ<br>ମୂର୍ଚ୍ଛିତ/ବିଳାପ</div><div class="arrow">→</div><div class="step">ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ<br>ଭର୍ତ୍ସନା</div><div class="arrow">→</div><div class="step">ପାଞ୍ଚ ମୁଣ୍ଡ କୋଳେ<br>ପ୍ରାଣ ବିସର୍ଜନ</div></div>
+</section>
+
+<section class="slide">
+<h2>୧୨. ମାନଗୋବିନ୍ଦଙ୍କ ମହାନତା — ମୁଖ୍ୟ ଧାରଣା</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଦୀର୍ଘ ଉତ୍ତର ପାଇଁ ଚରିତ୍ରର ମୁଖ୍ୟ ପାଟଗୁଡ଼ିକୁ ଗଠନ କରିବା।</div>
+<div class="grid"><div class="card"><b>ପ୍ରଥମ ପ୍ରତିକ୍ରିୟା</b><br>ପାଣ୍ଡବଙ୍କ ମୁଣ୍ଡ ଭାବି ଆନନ୍ଦିତ ହେଲେ।</div><div class="card"><b>ସତ୍ୟ ଜାଣିବା</b><br>ପାଣ୍ଡବ ନୁହେଁ, ଦ୍ରୌପଦୀଙ୍କ ପାଞ୍ଚ ପୁତ୍ର ବୋଲି ବୁଝିଲେ।</div><div class="card"><b>ହୃଦୟର ପରିବର୍ତ୍ତନ</b><br>ଶିଶୁବଧ ପାଇଁ ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ଭର୍ତ୍ସନା କଲେ।</div><div class="card"><b>ବଂଶରକ୍ଷା</b><br>ବଂଶର ଶେଷ ଆଶା ମଧ୍ୟ ନଷ୍ଟ ହୋଇଥିବାରେ ଦୁଃଖିତ ହେଲେ।</div></div>
+<div class="exam">🎯 ଦୀର୍ଘ ଉତ୍ତରରେ ଏହି ୪ଟି ପାଟକୁ ଘଟଣାକ୍ରମରେ ଲେଖିବା ଉପଯୋଗୀ।</div>
+</section>
+
+<section class="slide">
+<h2>୧୩. ପ୍ରଥମ ପାଠ — ଶବ୍ଦାର୍ଥ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ନିର୍ଦ୍ଦିଷ୍ଟ କଠିନ ଶବ୍ଦକୁ ସରଳ ଅର୍ଥ ସହ ମନେ ରଖିବା।</div>
+<div class="term"><b>ମାନଗୋବିନ୍ଦ</b><span>ଦୁର୍ଯ୍ୟୋଧନ</span></div><div class="term"><b>ଦଣ୍ଡଧାରୀ</b><span>ରାଜା (ଦୁର୍ଯ୍ୟୋଧନ)</span></div><div class="term"><b>ଅଶ୍ୱତ୍ଥାମା</b><span>ଗୁରୁଦ୍ରୋଣଙ୍କ ପୁତ୍ର</span></div><div class="term"><b>ପାଣ୍ଡବନ୍ତ</b><span>ପାଣ୍ଡବମାନଙ୍କ</span></div><div class="term"><b>ସାନନ୍ଦ</b><span>ଆନନ୍ଦର ସହିତ</span></div><div class="term"><b>ଭାରକରି</b><span>ବହନ କରି</span></div><div class="term"><b>ଫେଡ଼ି</b><span>ଖୋଲି</span></div><div class="term"><b>ପ୍ରଶଂସି</b><span>ପ୍ରଶଂସା କରି</span></div><div class="term"><b>ସମୋଦ୍ରେ</b><span>ସମୁଦ୍ରରେ</span></div><div class="term"><b>ଅଗାଦ</b><span>ଅଗାଧ</span></div><div class="term"><b>ୟେଡ଼େକ</b><span>ଏତେବଡ଼</span></div><div class="term"><b>ସଂପ୍ରଧି</b><span>ସମୃଦ୍ଧି, ସମ୍ପତ୍ତି</span></div>
+</section>
+
+<section class="slide">
+<h2>୧୪. ପ୍ରଥମ ପାଠ — ଆହୁରି ଶବ୍ଦାର୍ଥ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ପ୍ରଶ୍ନାବଳୀର ଶବ୍ଦଗୁଡ଼ିକୁ ଚିହ୍ନିବା।</div>
+<div class="term"><b>ଚିହ୍ନି ନୂଆରିଲି</b><span>ଚିହ୍ନି ନ ପାରିଲି</span></div><div class="term"><b>ନିରିମାଖି</b><span>ଅସହାୟ</span></div><div class="term"><b>ଉତ୍ସଲ୍ୟ</b><span>ଉଲ୍ଲାସ</span></div><div class="term"><b>ଧୃତରାଷ୍ଟ୍ରୀ</b><span>ଧୃତରାଷ୍ଟ୍ରଙ୍କ ପୁତ୍ର — ଦୁର୍ଯ୍ୟୋଧନ</span></div><div class="term"><b>ଛାମୁରେ</b><span>ସମ୍ମୁଖରେ</span></div><div class="term"><b>ଦ୍ରିଯୋଧନ</b><span>ଦୁର୍ଯ୍ୟୋଧନ</span></div><div class="term"><b>ଦ୍ରୋପତୀ / ପାଞ୍ଚାଳୀ</b><span>ଦ୍ରୌପଦୀ</span></div><div class="term"><b>ଅଭିମନ୍ୟୁ</b><span>ଅର୍ଜୁନଙ୍କ ପୁତ୍ର</span></div><div class="term"><b>ଘଟଉତ୍କଚ</b><span>ଘଟୋତ୍କଚ</span></div><div class="term"><b>ଲକ୍ଷ୍ମଣକୁମାର</b><span>ଦୁର୍ଯ୍ୟୋଧନଙ୍କ ପୁତ୍ର</span></div><div class="term"><b>ପଞ୍ଚଭୂତ</b><span>ପୃଥିବୀ, ଆକାଶ, ବାୟୁ, ଜଳ, ଅଗ୍ନି</span></div>
+</section>
+
+<section class="slide">
+<h2>୧୫. ନିର୍ଦ୍ଦିଷ୍ଟ ଉତ୍ତରମୂଳକ — ୧</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଏକପଦରେ ପ୍ରକାଶ କରିବାର ଅଭ୍ୟାସ।</div>
+<table><tr><th>ପ୍ରଶ୍ନ</th><th>ଉତ୍ତର</th></tr><tr><td>ରାବଣଙ୍କ ପୁତ୍ର</td><td>ଇନ୍ଦ୍ରଜିତ</td></tr><tr><td>ପବନର ପୁତ୍ର</td><td>ହନୁମାନ</td></tr><tr><td>ବିନତାଙ୍କ ପୁତ୍ର</td><td>ଗରୁଡ଼</td></tr><tr><td>ଦଶରଥଙ୍କ ପୁତ୍ର</td><td>ରାମ</td></tr><tr><td>ସୁମିତ୍ରାଙ୍କ ପୁତ୍ର</td><td>ଲକ୍ଷ୍ମଣ</td></tr><tr><td>କୁନ୍ତୀଙ୍କ ପୁତ୍ର</td><td>ପାଣ୍ଡବ</td></tr></table>
+<div class="small">📌 ଏହି ଉତ୍ତରଗୁଡ଼ିକ ପାଠର ପ୍ରଶ୍ନାବଳୀର ଏକପଦୀୟ ଅଭ୍ୟାସ ସହ ସମ୍ପୃକ୍ତ।</div>
+</section>
+
+<section class="slide">
+<h2>୧୬. ପ୍ରତିଶବ୍ଦ ଅଭ୍ୟାସ — ପ୍ରଥମ ପାଠ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ପ୍ରଶ୍ନରେ ଦିଆଯାଇଥିବା ଶବ୍ଦର ଦୁଇଟି ପ୍ରତିଶବ୍ଦ ଲେଖିବା।</div>
+<table><tr><th>ଶବ୍ଦ</th><th>ପ୍ରତିଶବ୍ଦ</th></tr><tr><td>ଶିର</td><td>ମୁଣ୍ଡ, ମସ୍ତକ</td></tr><tr><td>ରଜନୀ</td><td>ରାତି, ନିଶା</td></tr><tr><td>ପ୍ରଭାତ</td><td>ସକାଳ, ଉଷା</td></tr><tr><td>ଶତ୍ରୁ</td><td>ରିପୁ, ବୈରୀ</td></tr><tr><td>ସମର</td><td>ଯୁଦ୍ଧ, ଲଢ଼େଇ</td></tr></table>
+</section>
+
+<section class="slide">
+<h2>୧୭. ସମାସ — ପ୍ରଥମ ପାଠ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ବ୍ୟାସବାକ୍ୟ ସହ ସମାସର ନାମ ଚିହ୍ନିବା।</div>
+<table><tr><th>ସମସ୍ତପଦ</th><th>ବ୍ୟାସବାକ୍ୟ</th><th>ସମାସ</th></tr><tr><td>ନିର୍ଲଜ</td><td>ଲଜ୍ଜା ନାହିଁ ଯାହାର</td><td>ବହୁବ୍ରୀହି</td></tr><tr><td>ଦଣ୍ଡଧାରୀ</td><td>ଦଣ୍ଡ ଧାରଣ କରିଥିବା</td><td>ବହୁବ୍ରୀହି</td></tr><tr><td>ସାନନ୍ଦ</td><td>ଆନନ୍ଦ ସହିତ</td><td>ଅବ୍ୟୟୀଭାବ</td></tr></table>
+<div class="warn">⚠️ ସମାସର ନାମ ଲେଖିବାବେଳେ ବ୍ୟାସବାକ୍ୟର ସମ୍ପର୍କଟି ପ୍ରଥମେ ବୁଝ।</div>
+</section>
+
+<section class="slide">
+<h2>୧୮. ଶୂନ୍ୟସ୍ଥାନ ପୂରଣ — ପ୍ରଥମ ପାଠ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ପଠିତ ପଦ୍ୟର ଠିକ୍ ଶବ୍ଦ ମନେ ପକାଇବା।</div>
+<div class="qa"><div class="q">(କ) ପାଦେଣ ଟାଳିଲି ମୁଁ ଯେଡ଼େକ ______।</div><div class="a"><b>ଉତ୍ତର: ସଂପ୍ରଧି</b></div></div>
+<div class="qa"><div class="q">(ଖ) ପାଣ୍ଡବେ ନୋହନ୍ତି ଏ ଦ୍ରୋପତୀ ______।</div><div class="a"><b>ଉତ୍ତର: ପାଞ୍ଚବସ / ପାଞ୍ଚବଚ</b></div></div>
+<div class="qa"><div class="q">(ଗ) ଅଭିମନ୍ୟୁ ମଲା ______ ନାଶଗଲା।</div><div class="a"><b>ଉତ୍ତର: ଘଟଉତ୍କଚ</b></div></div>
+<div class="qa"><div class="q">(ଘ) ପ୍ରାଣ ବିସର୍ଜିଲା ______ ଗଲା ଫାଟି।</div><div class="a"><b>ଉତ୍ତର: ମୃଧୁନା</b></div></div>
+</section>
+
+<section class="slide">
+<h2>୧୯. କ୍ଷୁଦ୍ର ଉତ୍ତର — ୫–୧୧</h2><div class="objective">ଲକ୍ଷ୍ୟ: ପାଠର ମୂଳ ତଥ୍ୟକୁ ଛୋଟ ଉତ୍ତରରେ ଲେଖିବା।</div>
+<div class="qa"><div class="q">୫. ମାନଗୋବିନ୍ଦ କିଏ?</div><div class="a">ମାନଗୋବିନ୍ଦ ହେଉଛନ୍ତି ଦୁର୍ଯ୍ୟୋଧନ।</div></div>
+<div class="qa"><div class="q">୬. ଦୃଦକ୍ଷ ମାନଗୋବିନ୍ଦଙ୍କୁ କି ବାର୍ତ୍ତା ଦେଇଥିଲେ?</div><div class="a">ଅଶ୍ୱତ୍ଥାମା ପାଣ୍ଡବଙ୍କ ମୁଣ୍ଡଛେଦ କରି ଆଣିଥିବାର ବାର୍ତ୍ତା ଦେଇଥିଲେ।</div></div>
+<div class="qa"><div class="q">୭. ଦୁର୍ଯ୍ୟୋଧନ ଅତ୍ୟନ୍ତ ଖୁସି ହେଲେ କାହିଁକି?</div><div class="a">ସେ ପାଞ୍ଚଟି ମୁଣ୍ଡକୁ ପାଣ୍ଡବଙ୍କ ମୁଣ୍ଡ ବୋଲି ଭାବିଥିଲେ।</div></div>
+<div class="qa"><div class="q">୮. ମାନଗୋବିନ୍ଦ ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ପ୍ରଶଂସା କରିଥିବା ପାଦ ଦୁଇଟି ଲେଖ।</div><div class="a">“ସାଧୁ ସାଧୁ ଅଶ୍ୱତ୍ଥାମା ବୋଲି ମାନଗୋବିନ୍ଦ ପ୍ରଶଂସି / ତୋତେ ସେନାପତି ନ କରି ଅଗାଦ ସମୋଦ୍ରେ ଗଲି ଭାସି।”</div></div>
+<div class="qa"><div class="q">୯. ଧୃଷ୍ଟଦ୍ୟୁମ୍ନ କିଏ? ସେ କାହାର ଶତ୍ରୁ ଥିଲେ?</div><div class="a">ଧୃଷ୍ଟଦ୍ୟୁମ୍ନ ପାଣ୍ଡବ ପକ୍ଷର ଯୋଦ୍ଧା; ସେ ଦ୍ରୋଣଙ୍କ ଶତ୍ରୁ ଥିଲେ।</div></div>
+<div class="qa"><div class="q">୧୦. ଅଶ୍ୱତ୍ଥାମା ଭାର ଦେଖି ଦୁର୍ଯ୍ୟୋଧନ କ’ଣ କହିଲେ?</div><div class="a">ପାଣ୍ଡବମାନଙ୍କ ମୁଣ୍ଡ ଆଣିଥିବା ବୋଲି ଭାବି ସେ ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ପ୍ରଶଂସା କଲେ।</div></div>
+<div class="qa"><div class="q">୧୧. ଘଟୋତ୍କଚଙ୍କ ପିତାଙ୍କ ନାମ କ’ଣ?</div><div class="a">ଭୀମ।</div></div>
+</section>
+
+<section class="slide">
+<h2>୨୦. କ୍ଷୁଦ୍ର ଉତ୍ତର — ୧୨–୧୫</h2><div class="objective">ଲକ୍ଷ୍ୟ: ପାଠର ଶେଷ ଘଟଣାଗୁଡ଼ିକ ମନେ ରଖିବା।</div>
+<div class="qa"><div class="q">୧୨. ପଞ୍ଚଭୂତ କାହାକୁ କହନ୍ତି?</div><div class="a">ପୃଥିବୀ, ଆକାଶ, ବାୟୁ, ଜଳ ଓ ଅଗ୍ନିକୁ ପଞ୍ଚଭୂତ କହନ୍ତି।</div></div>
+<div class="qa"><div class="q">୧୩. ମାନଗୋବିନ୍ଦ କାହିଁକି ଅଧୈର୍ଯ୍ୟ ହୋଇ ପଡ଼ିଲେ?</div><div class="a">ପାଣ୍ଡବ ଭାବିଥିବା ପାଞ୍ଚଟି ମୁଣ୍ଡ ଦ୍ରୌପଦୀଙ୍କ ପାଞ୍ଚ ପୁତ୍ରଙ୍କର ବୋଲି ଜାଣିବା ଏବଂ ବଂଶରକ୍ଷାର ଆଶା ନଷ୍ଟ ହେବାରୁ ସେ ଅଧୈର୍ଯ୍ୟ ହେଲେ।</div></div>
+<div class="qa"><div class="q">୧୪. ଦୁର୍ଯ୍ୟୋଧନ କିପରି ପ୍ରାଣ ବିସର୍ଜନ କଲେ?</div><div class="a">ପାଞ୍ଚଟି ମୁଣ୍ଡ କୋଳରେ ଦେଖିବା ପରେ ସେ ପ୍ରାଣ ବିସର୍ଜନ କଲେ।</div></div>
+<div class="qa"><div class="q">୧୫. ପଠିତ କବିତାଟି ସାରଳା ମହାଭାରତର କେଉଁ ପର୍ବରୁ ଆସିଛି?</div><div class="a">କାଂଶିକା ପର୍ବ।</div></div>
+</section>
+
+<section class="slide">
+<h2>୨୧. ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ — ୧୬</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଉଦ୍ଧୃତିର ଅର୍ଥ ଓ ପ୍ରସଙ୍ଗକୁ ଯୋଡ଼ିବା।</div>
+<div class="poem">“ହରାଇ କରି ପଛେ ଶିଖିଲି ମୁଁ ବୁଦ୍ଧି
+ପାଦେଣ ଟାଳିଲି ମୁଁ ଯେଡ଼େକ ସଂପ୍ରଧି।”</div>
+<div class="meaning">ମାନଗୋବିନ୍ଦ ପୂର୍ବରୁ ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ସେନାପତି ନ କରିବାର ନିଷ୍ପତ୍ତି ନେଇଥିଲେ। ଏବେ ତାଙ୍କ କାର୍ଯ୍ୟର ପରିଣାମ ଦେଖି ସେ ନିଜର ନିଷ୍ପତ୍ତି ଓ ବୁଦ୍ଧିକୁ ନେଇ ଅନୁତାପ କରୁଛନ୍ତି।</div>
+</section>
+
+<section class="slide">
+<h2>୨୨. ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ — ୧୭</h2><div class="objective">ଲକ୍ଷ୍ୟ: ବଂଶରକ୍ଷାର ଆଶା କିପରି ନଷ୍ଟ ହେଲା ବୁଝିବା।</div>
+<div class="poem">“ଏହାନ୍ତ ରଖିଲି ମୁଁ ବଂଶରକ୍ଷାର ନିମନ୍ତେ
+ଗତ ଆଗତ ବୁଡ଼ିଲା ଯେ ତୋହୋର କୃତ୍ୟ।”</div>
+<div class="meaning">ଦୁର୍ଯ୍ୟୋଧନ କହୁଛନ୍ତି—ବଂଶରକ୍ଷା ପାଇଁ ଯେତିକି ଆଶା ରଖିଥିଲି, ଅଶ୍ୱତ୍ଥାମାଙ୍କ କାର୍ଯ୍ୟରେ ସେହି ଆଶା ମଧ୍ୟ ନଷ୍ଟ ହୋଇଗଲା।</div>
+</section>
+
+<section class="slide">
+<h2>୨୩. ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ — ୧୮</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଶେଷ ଦୃଶ୍ୟର ଭାବ ବୁଝିବା।</div>
+<div class="poem">“ପାଞ୍ଚଂକରି ମୁଣ୍ଡ କୋଳେ ଦେଖିଣ ଧୃତିରାଷ୍ଟ୍ରୀ
+ପ୍ରାଣ ବିସର୍ଜିଲା ମୃଧୁନା ଗଲା ଫାଟି।”</div>
+<div class="meaning">ପାଞ୍ଚଟି ମୁଣ୍ଡ କୋଳରେ ନେଇ ଦେଖିବା ପରେ ଦୁର୍ଯ୍ୟୋଧନଙ୍କ ଦୁଃଖ ଚରମରେ ପହଞ୍ଚିଲା ଏବଂ ସେ ପ୍ରାଣ ବିସର୍ଜନ କଲେ।</div>
+</section>
+
+<section class="slide">
+<h2>୨୪. ଦୀର୍ଘ ଉତ୍ତର — ୧୯</h2><div class="objective">ଲକ୍ଷ୍ୟ: ମାନଗୋବିନ୍ଦଙ୍କ ମହାନତାକୁ ପ୍ରମାଣ ସହ ଲେଖିବା।</div>
+<p><b>ଉତ୍ତରର ଗଠନ:</b></p>
+<ol><li>ମାନଗୋବିନ୍ଦ ଅର୍ଥାତ୍ ଦୁର୍ଯ୍ୟୋଧନ ପ୍ରଥମେ ପାଣ୍ଡବଙ୍କ ମୁଣ୍ଡ ଭାବି ଖୁସି ହୋଇଥିଲେ।</li><li>ପରେ ସେଗୁଡ଼ିକ ପାଣ୍ଡବଙ୍କର ନୁହେଁ, ଦ୍ରୌପଦୀଙ୍କ ପାଞ୍ଚ ପୁତ୍ରଙ୍କର ବୋଲି ଜାଣି ମୂର୍ଚ୍ଛିତ ହେଲେ।</li><li>ନିଷ୍ପାପ ଶିଶୁବଧ ପାଇଁ ଗୁରୁପୁତ୍ର ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ତୀବ୍ର ଭାବେ ଭର୍ତ୍ସନା କଲେ।</li><li>ନିଜ ବଂଶରକ୍ଷାର ଆଶା ନଷ୍ଟ ହୋଇଥିବାରେ ବିଳାପ କଲେ।</li><li>ଶେଷରେ ପାଞ୍ଚ ମୁଣ୍ଡ କୋଳରେ ନେଇ ପ୍ରାଣ ବିସର୍ଜନ କଲେ।</li></ol>
+<div class="exam">🎯 ଉତ୍ତରରେ “ପ୍ରଶଂସା → ସତ୍ୟ ଜ୍ଞାନ → ଶୋକ → ଭର୍ତ୍ସନା → ବଂଶରକ୍ଷାର ଦୁଃଖ” କ୍ରମ ରଖ।</div>
+</section>
+
+<section class="slide">
+<h2>୨୫. ଦୀର୍ଘ ଉତ୍ତର — ୨୦</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ଭର୍ତ୍ସନା କରିବାର କାରଣ ଆଲୋଚନା କରିବା।</div>
+<div class="grid"><div class="card">ପାଞ୍ଚ ମୁଣ୍ଡକୁ ପାଣ୍ଡବଙ୍କର ବୋଲି ଭାବିଥିଲେ।</div><div class="card">ସତ୍ୟରେ ସେଗୁଡ଼ିକ ଦ୍ରୌପଦୀଙ୍କ ପାଞ୍ଚ ପୁତ୍ରଙ୍କର ଥିଲା।</div><div class="card">ନିଷ୍ପାପ ଶିଶୁମାନଙ୍କ ବଧ ହୋଇଥିଲା।</div><div class="card">ଏହାରେ ବଂଶରକ୍ଷାର ଆଶା ନଷ୍ଟ ହୋଇଗଲା।</div></div>
+<p>ଏହି କାରଣରୁ ଦୁର୍ଯ୍ୟୋଧନ ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ପାମର, ଦୋରେହା, ନିର୍ଲଜ୍ଜ ଭାବେ ତିରସ୍କାର କରିଛନ୍ତି।</p>
+</section>
+
+<section class="slide">
+<h2>୨୬. “ତୁମ ପାଇଁ କାମ” — ପ୍ରଥମ ପାଠ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ପାଠ ସହିତ ଜଡ଼ିତ ଅତିରିକ୍ତ ଅଭ୍ୟାସ ସମ୍ପୂର୍ଣ୍ଣ କରିବା।</div>
+<ol><li>ସାରଳା ଦାସଙ୍କ ଅନ୍ୟାନ୍ୟ କୃତି ସମ୍ପର୍କରେ ଲେଖି ଶିକ୍ଷକଙ୍କୁ ଦେଖାଅ।</li><li>ମହାଭାରତର ଅଠରଟି ପର୍ବର ନାମ ସଂଗ୍ରହ କର।</li><li>ଦୁର୍ଯ୍ୟୋଧନଙ୍କ ପ୍ରତି ନିଜ ଧାରଣା କବିତା ପଢ଼ିବା ପରେ କିପରି ପରିବର୍ତ୍ତନ ହୋଇଛି ଲେଖ।</li></ol>
+</section>
+
+<section class="slide hero">
+<span class="badge">ଦ୍ୱିତୀୟ ପଦ୍ୟ</span>
+<h1>ରାଘବଙ୍କ ଲଙ୍କା ଯାତ୍ରାନୁକୂଳ</h1>
+<p><b>ଉପେନ୍ଦ୍ର ଭଞ୍ଜ • ସପ୍ତଦଶ–ଅଷ୍ଟାଦଶ ଶତାବ୍ଦୀ</b></p>
+<p>ରାମଙ୍କ ସୀତାପ୍ରାପ୍ତିର ଆଶା, ସମୁଦ୍ର ପାର ହେବାର ପ୍ରୟାସ ଏବଂ ରାବଣଙ୍କ କୂଟନୀତିର ଚିତ୍ରଣ।</p>
+<div class="svgbox"><svg viewBox="0 0 900 230"><rect width="900" height="230" rx="18" fill="#e8f3f7"/><path d="M0 170 Q150 120 300 170 T600 160 T900 170V230H0Z" fill="#9fc5d0"/><path d="M90 165 L180 125 L260 165" fill="#9fbaa7"/><path d="M640 165 L730 120 L820 165" fill="#9fbaa7"/><path d="M275 160 Q450 130 625 160" fill="none" stroke="#d7b25b" stroke-width="14"/><text x="35" y="48" font-size="28" fill="#174b67">ରାଘବ → ସିନ୍ଧୁ → ସେତୁର ପ୍ରୟାସ → ଲଙ୍କା</text><text x="35" y="92" font-size="21" fill="#355e70">ରାବଣ → ଶୁକ–ସାରଣ → ବିଭୀଷଣ/ଅଙ୍ଗଦଙ୍କ ପାଖକୁ ବାର୍ତ୍ତା</text></svg></div>
+</section>
+
+<section class="slide">
+<h2>୨୭. କବି ପରିଚୟ — ଉପେନ୍ଦ୍ର ଭଞ୍ଜ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ପାଠରେ ଥିବା କବି ପରିଚୟ ଓ କୃତିଗୁଡ଼ିକୁ ମନେ ରଖିବା।</div>
+<p>ଓଡ଼ିଆ ସାହିତ୍ୟରେ ବଳିଷ୍ଠ କବିତ୍ୱ ପାଇଁ ଉପେନ୍ଦ୍ର ଭଞ୍ଜ କବିସମ୍ରାଟ ଭାବେ ପରିଚିତ। ସେ ସପ୍ତଦଶ ଶତାବ୍ଦୀର ଶେଷ ପର୍ଯ୍ୟାୟରେ ବଞ୍ଜନଗର ଅନତିଦୂରରେ ଅବସ୍ଥିତ ଘୁମୁସର ରାଜବଂଶର କନ୍ଦଳରେ ଜନ୍ମଗ୍ରହଣ କରିଥିଲେ।</p>
+<p>ପାଠରେ <b>ବୈଦେହୀଶ ବିଳାସ, କୋଟିବ୍ରହ୍ମାଣ୍ଡ ସୁନ୍ଦରୀ, ଲାବଣ୍ୟବତୀ, ବୈଦେହୀଶ ବିଳାସ, ରସିକ ହାରାବଳୀ, ପ୍ରେମ ସୁଧାନିଧି, ସୁଭଦ୍ରା ପରିଣୟ, କଳା କୌତୁକ, ଛାନ୍ଦଭୂଷଣ</b> ଆଦି କୃତିର ନାମ ଆସିଛି।</p>
+<p>“ରାଘବଙ୍କ ଲଙ୍କା ଯାତ୍ରାନୁକୂଳ” ପଦ୍ୟଟି <b>ବୈଦେହୀଶ ବିଳାସ</b> କାବ୍ୟର ଚାଳିଶ ଛାନ୍ଦରୁ ଆନୀତ।</p>
+</section>
+
+<section class="slide">
+<h2>୨୮. କବିତାର ରୂପ ଓ ଗଠନ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଛାନ୍ଦ ଓ ପଦର ବିଶେଷତ୍ୱ ଚିହ୍ନିବା।</div>
+<div class="grid"><div class="card"><b>ରାଗ</b><br>ଆଶାବରୀ</div><div class="card"><b>କାବ୍ୟ</b><br>ବୈଦେହୀଶ ବିଳାସ</div><div class="card"><b>ଛାନ୍ଦ</b><br>ଚାଳିଶ ଛାନ୍ଦ</div><div class="card"><b>ବିଶେଷତ୍ୱ</b><br>ପ୍ରତ୍ୟେକ ପଦ “ବ” ଆଦ୍ୟ ବର୍ଣ୍ଣ ନିୟମରେ ରଚିତ।</div></div>
+<div class="key">📌 ଏହି କବିତାରେ ଅଳଙ୍କାରପ୍ରିୟତା, ଶବ୍ଦ ସଂଯୋଜନ କୌଶଳ ଓ ସମାଜପ୍ରତି ନୀତିନିଷ୍ଠ ବାର୍ତ୍ତାର ଉଲ୍ଲେଖ ରହିଛି।</div>
+</section>
+
+<section class="slide">
+<h2>୨୯. ପଦ ୧–୩ — ସମୁଦ୍ର ପାରର ପ୍ରୟାସ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ରାମଚନ୍ଦ୍ର ସମୁଦ୍ର ତରିବା ପାଇଁ କିପରି ପ୍ରୟାସ କଲେ ବୁଝିବା।</div>
+<div class="poem">ବଳିଲା ରାଘବ ଆଶା ସୀତା ପ୍ରାପ୍ତିରେ
+ବିଚାରିଲେ ସିନ୍ଧୁ ପୋତି ଯିବା ପର୍ବତରେ ଯେ। ୧।
+ବୁଡ଼ିଗଲା ପକାଇଲେ କପି ଯେତେ ଗିରି
+ବୁଦ୍ବୁଦ ନ ଦିଶେ ଜଳ ଫି ଫି କୃତ କରି ଯେ। ୨।
+ବିସ୍ମଇ ନିଃଶ୍ୱାସ ତେଜି ବରୁଣ ପ୍ରସନ୍ନେ
+ବିନାଶନରେ ଶୟନ ସେ ଦର୍ଭଶୟନେ ଯେ। ୩।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ସୀତାଙ୍କୁ ପାଇବାର ଆଶାରେ ରାଘବ ସମୁଦ୍ର ପାର ହେବାକୁ ପର୍ବତ ପକାଇବାର ଚିନ୍ତା କଲେ। କପିମାନେ ପର୍ବତ ପକାଇଲେ ମଧ୍ୟ ସେଗୁଡ଼ିକ ବୁଡ଼ିଗଲା। ପରେ ବରୁଣଙ୍କୁ ପ୍ରସନ୍ନ କରିବା ପାଇଁ ରାମ ଦର୍ଭଶଯ୍ୟାରେ ଶୟନ କଲେ।</div>
+</section>
+
+<section class="slide">
+<h2>୩୦. ପଦ ୪–୬ — ରାବଣର ମନ୍ତ୍ରୀ ଓ ବିଭୀଷଣ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ରାବଣ କିପରି ଶୁକ–ସାରଣଙ୍କୁ ବ୍ୟବହାର କଲା ବୁଝିବା।</div>
+<div class="poem">ବୁଧେ ଶୁଣ ଅନ୍ୟ ପ୍ରସଙ୍ଗକୁ ଦଶଶିର
+ବରଗିଲା ସେ ଶୁକ ସାରଣ କରି ଚାର ଯେ। ୪।
+ବିଭୀଷଣେ କହ ଜ୍ୟେଷ୍ଠଭ୍ରାତା ପିତା ସରି
+ବୁଝି ନ ବୁଝି କୋପି ତା ବାଣୀ ପିତା କରି ଯେ। ୫।
+ବିଭୂତିକି ଭୁଞ୍ଜୁଥିଲୁ ବିଭୂତିଭୂଷଣେ
+ବଡ଼କୁଳେ ଜନମି ଶରଣ କି କାରଣେ ଯେ? ୬।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ରାବଣ ଶୁକ ଓ ସାରଣଙ୍କୁ ଦୂତ/ଚାର ଭାବେ ପଠାଇଲା। ବିଭୀଷଣଙ୍କୁ ଜ୍ୟେଷ୍ଠଭାଇ ଓ ପିତା ପରି ସମ୍ମାନ ଦେବାକୁ କହିବା ସହିତ ତାଙ୍କ ଶରଣଗ୍ରହଣକୁ ପ୍ରଶ୍ନ କରିବାର ବାର୍ତ୍ତା ଦିଆଗଲା।</div>
+</section>
+
+<section class="slide">
+<h2>୩୧. ପଦ ୭–୧୦ — ଅଙ୍ଗଦଙ୍କ ପାଖକୁ ବାର୍ତ୍ତା</h2><div class="objective">ଲକ୍ଷ୍ୟ: ରାବଣଙ୍କ କୂଟନୀତିର ପରବର୍ତ୍ତୀ ପଦକ୍ଷେପ ବୁଝିବା।</div>
+<div class="poem">ବୋଲ ଅଙ୍ଗଦକୁ ପିତା ଶତ୍ରୁ ଭକ୍ତ ପୁଣ୍ୟ
+ବାଦ ରଚାଇ ପିତୃବ୍ୟ ବାହୁଡ଼ାଅ ସୈନ୍ୟ ଯେ। ୭।
+ବିହାୟସେ ବିହରି ସାଗର ଜିଣି ଯାଇ
+ବର୍ତ୍ତକ ସ୍ୱରୂପ ଧୂତ କୈ କୈ ଟିହୋ କହି ଯେ। ୮।
+ବିଖ୍ୟାତ କରୁ ବିଂଶତିକର କହିବାର
+ବୋଧ ଉଭୟ ଭୟରେ ପଳାଇ ସତ୍ୱର ଯେ। ୯।
+ବାହୁଡ଼ି ରାବଣେ କହି ଶୁଣ ଦେବ ରିପୁ
+ବୋଇଲା ଅନୁଜ ଯିବି ସୀତାଙ୍କୁ ସମର୍ପୁ ଯେ। ୧୦।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ଅଙ୍ଗଦଙ୍କୁ ପଠାଯାଇଥିବା ବାର୍ତ୍ତାରେ ବାଳୀଙ୍କ ପୁତ୍ର ଅଙ୍ଗଦଙ୍କୁ ତାଙ୍କ ପିତା ଓ ପିତୃବ୍ୟ ସମ୍ପର୍କର କଥା ଉଠାଇ ସୈନ୍ୟ ବାହୁଡ଼ାଇବାକୁ କୁହାଯାଏ। ରାବଣଙ୍କ ଦୂତମାନେ ଭୟରେ ଫେରି ଆସନ୍ତି।</div>
+</section>
+
+<section class="slide">
+<h2>୩୨. ପଦ ୧୧–୧୫ — ଅଙ୍ଗଦଙ୍କ ଶକ୍ତି ଓ ସମୁଦ୍ର</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଅଙ୍ଗଦଙ୍କ ପ୍ରତିକ୍ରିୟା ଓ ସମୁଦ୍ର ସମ୍ବନ୍ଧୀୟ ଅଂଶ ବୁଝିବା।</div>
+<div class="poem">ବଞ୍ଚିଲୁଁ ଅଙ୍ଗଦେ ଅଙ୍ଗ ଦେବାରୁ କି ଧର୍ମେ
+ବଜ୍ରାଘାତ ସମ ତଳ ପ୍ରହାରିଲା ବ୍ୟୋମେ ଯେ। ୧୧।
+ବାଜିଥିଲେ ଚୂର୍ଣ୍ଣ ବା ପାତାଳେ ଭଜିଥିବ
+ବିନ୍ଧ୍ୟ ଭାନୁ ତୋଷି ହେଲେ ବଞ୍ଚାଇ ଦଇବ ଯେ। ୧୨।
+ବଳ କେତେ ବୋଲୁଁ ବୋଲେ ଯେତେ ଶଙ୍ଖ ସେହି
+ବାରି ରାଶିରେ ଜନିତ ତେତେ ଶଙ୍ଖ ନାହିଁ ଯେ। ୧୩।
+ବିତରଣେ ସାଗର କି ପାଞ୍ଚ ପଚାରିଲା
+ବିହେ ରାମ କୁଶଶଯ୍ୟା ପ୍ରତ୍ୟୁତ୍ତର ଦେଲା ଯେ। ୧୪।
+ବିରସକୁ ମନ୍ଦ କରି ମନ୍ଦହାସ ଜନ୍ମେ
+ବୋଲେ କି କରିବ ଏଡ଼େ ହୀନ ପରାକ୍ରମେ ଯେ। ୧୫।</div>
+<div class="meaning"><b>ସରଳ ଅର୍ଥ:</b> ଅଙ୍ଗଦଙ୍କ ଶକ୍ତିଶାଳୀ ପ୍ରହାରର ଭୟଙ୍କରତା, ତାଙ୍କର ବଳ ସମ୍ପର୍କରେ ମନ୍ତ୍ରୀମାନଙ୍କ ଭୟ, ସମୁଦ୍ର ତରିବା ପାଇଁ ରାମଙ୍କ କୁଶଶଯ୍ୟାରେ ଶୟନ ଓ ସମୁଦ୍ରର ପ୍ରତ୍ୟୁତ୍ତର—ଏଠାରେ ଆସିଛି।</div>
+</section>
+
+<section class="slide">
+<h2>୩୩. ଦ୍ୱିତୀୟ ପାଠ — ଶବ୍ଦାର୍ଥ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ପାଠର କଠିନ ଶବ୍ଦକୁ ସରଳ ଅର୍ଥ ସହ ମନେ ରଖିବା।</div>
+<div class="term"><b>ରାଘବ</b><span>ରାମଚନ୍ଦ୍ର</span></div><div class="term"><b>ବୁଦ୍ବୁଦ</b><span>ପାଣିଫୋଟକା</span></div><div class="term"><b>ଫିଫି କୃତ</b><span>ଫିଫିକାର ଶବ୍ଦ</span></div><div class="term"><b>ବରୁଣ</b><span>ଜଳାଧିପତି</span></div><div class="term"><b>ବିସ୍ମଇ</b><span>ବିସ୍ମୟରେ, ଆଶ୍ଚର୍ଯ୍ୟାନ୍ୱିତ ହୋଇ</span></div><div class="term"><b>ବିନାଶନରେ</b><span>ବିନା ଅଶନରେ, ଅର୍ଥାତ୍ ଅନାହାରରେ</span></div><div class="term"><b>ଦର୍ଭ</b><span>କୁଶ</span></div><div class="term"><b>ବୁଧେ</b><span>ପଣ୍ଡିତମାନେ</span></div><div class="term"><b>ବରଗିଲା</b><span>ପଠାଇଲା</span></div><div class="term"><b>ଶୁକ, ସାରଣ</b><span>ରାବଣଙ୍କ ଦୁଇ ମନ୍ତ୍ରୀ</span></div><div class="term"><b>ଚାର</b><span>ଦୂତ</span></div><div class="term"><b>ବିଂଶତିକର</b><span>୨୦ ହାତ ଯାହାର — ରାବଣ</span></div>
+</section>
+
+<section class="slide">
+<h2>୩୪. ଦ୍ୱିତୀୟ ପାଠ — ଆହୁରି ଶବ୍ଦାର୍ଥ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ପ୍ରଶ୍ନାବଳୀରେ ଥିବା ଶବ୍ଦଗୁଡ଼ିକୁ ବୁଝିବା।</div>
+<div class="term"><b>ବ୍ୟୋମ</b><span>ଆକାଶ</span></div><div class="term"><b>ତଳ</b><span>କରତାଳ; ଏଠାରେ ଚାପୁଡ଼ା</span></div><div class="term"><b>ବିନ୍ଧ୍ୟ</b><span>ପର୍ବତର ନାମ</span></div><div class="term"><b>ଜନିତ</b><span>ଜନ୍ମିତ</span></div><div class="term"><b>ଶଙ୍ଖ</b><span>ସଂଖ୍ୟା ବିଶେଷ; ଏଠାରେ ବହୁତ ବଡ଼ ସଂଖ୍ୟା</span></div><div class="term"><b>ବିତରଣେ</b><span>ପାରହେବା ପାଇଁ</span></div><div class="term"><b>ପାଞ୍ଚ</b><span>ଉପାୟ</span></div><div class="term"><b>ବିହେ</b><span>ବିଧାନ କରେ</span></div><div class="term"><b>ବିରସ</b><span>ଅଳ୍ପ ଉତ୍ସାହ/ମନମରା ଭାବ</span></div><div class="term"><b>ମନ୍ଦହାସ</b><span>ଅଳ୍ପହାସ</span></div><div class="term"><b>ପିତୃବ୍ୟ</b><span>ବାପାଙ୍କର ସାନ ଭାଇ</span></div><div class="term"><b>ବିହାୟସେ</b><span>ଆକାଶରେ</span></div>
+</section>
+
+<section class="slide">
+<h2>୩୫. ପ୍ରତିଶବ୍ଦ — ଦ୍ୱିତୀୟ ପାଠ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ତିନୋଟି କରି ପ୍ରତିଶବ୍ଦ ଲେଖିବାର ଅଭ୍ୟାସ।</div>
+<table><tr><th>ଶବ୍ଦ</th><th>ପ୍ରତିଶବ୍ଦ</th></tr><tr><td>ସିନ୍ଧୁ</td><td>ସମୁଦ୍ର, ସାଗର, ରତ୍ନାକର</td></tr><tr><td>ପର୍ବତ</td><td>ଗିରି, ଶୈଳ, ନଗ</td></tr><tr><td>ଆକାଶ</td><td>ଗଗନ, ବ୍ୟୋମ, ଅମ୍ବର</td></tr></table>
+</section>
+
+<section class="slide">
+<h2>୩୬. ଗଦ୍ୟରୂପ — ଦ୍ୱିତୀୟ ପାଠ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ପଦ୍ୟରୂପ ଶବ୍ଦକୁ ସାଧାରଣ ଗଦ୍ୟରୂପରେ ଚିହ୍ନିବା।</div>
+<table><tr><th>ପଦ୍ୟରୂପ</th><th>ଗଦ୍ୟରୂପ</th></tr><tr><td>ପ୍ରାପ୍ତି</td><td>ପାଇବା</td></tr><tr><td>ଜନମି</td><td>ଜନ୍ମି</td></tr><tr><td>ଦଇବ</td><td>ଦେଇବ / ଦୈବ</td></tr></table>
+<div class="warn">⚠️ ଶବ୍ଦର ରୂପ ପରିବର୍ତ୍ତନ କରିବାବେଳେ ମୂଳ ଅର୍ଥ ବଦଳାଇବା ନାହିଁ।</div>
+</section>
+
+<section class="slide">
+<h2>୩୭. ବିପରୀତାର୍ଥବୋଧକ ଶବ୍ଦ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଦିଆଯାଇଥିବା ଶବ୍ଦର ବିପରୀତ ଅର୍ଥ ଚିହ୍ନିବା।</div>
+<table><tr><th>ଶବ୍ଦ</th><th>ବିପରୀତାର୍ଥ</th></tr><tr><td>ଆଶା</td><td>ନିରାଶା</td></tr><tr><td>ନିଃଶ୍ୱାସ</td><td>ଶ୍ୱାସ</td></tr><tr><td>ପ୍ରସନ୍ନ</td><td>ବିଷଣ୍ଣ</td></tr><tr><td>ଜ୍ୟେଷ୍ଠ</td><td>କନିଷ୍ଠ</td></tr><tr><td>ଜନ୍ମ</td><td>ମୃତ୍ୟୁ</td></tr><tr><td>ପୁଣ୍ୟ</td><td>ପାପ</td></tr><tr><td>ବିରସ</td><td>ପ୍ରସନ୍ନ</td></tr></table>
+</section>
+
+<section class="slide">
+<h2>୩୮. ସାର୍ଥକ ବାକ୍ୟ ରଚନା</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଶବ୍ଦକୁ ବାକ୍ୟରେ ଠିକ୍ ଭାବରେ ବ୍ୟବହାର କରିବା।</div>
+<table><tr><th>ଶବ୍ଦ</th><th>ଉଦାହରଣ ବାକ୍ୟ</th></tr><tr><td>ପିତୃବ୍ୟ</td><td>ପିତୃବ୍ୟ ଆମକୁ ସ୍ନେହ କରନ୍ତି।</td></tr><tr><td>ବ୍ୟୋମ</td><td>ବ୍ୟୋମରେ ମେଘ ଦେଖାଯାଉଛି।</td></tr><tr><td>ପ୍ରସନ୍ନ</td><td>ରାମଙ୍କୁ ଦେଖି ସେ ପ୍ରସନ୍ନ ହେଲେ।</td></tr><tr><td>ଅନୁଜ</td><td>ଲକ୍ଷ୍ମଣ ରାମଙ୍କ ଅନୁଜ।</td></tr><tr><td>ସତ୍ୱର</td><td>ସେ ସତ୍ୱର ଫେରି ଆସିଲେ।</td></tr></table>
+</section>
+
+<section class="slide">
+<h2>୩୯. ସନ୍ଧିବିଚ୍ଛେଦ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ସନ୍ଧିଯୁକ୍ତ ଶବ୍ଦକୁ ଭାଙ୍ଗି ମୂଳ ରୂପ ଚିହ୍ନିବା।</div>
+<table><tr><th>ଶବ୍ଦ</th><th>ସନ୍ଧିବିଚ୍ଛେଦ</th></tr><tr><td>ବଜ୍ରାଘାତ</td><td>ବଜ୍ର + ଆଘାତ</td></tr><tr><td>ପ୍ରତ୍ୟୁତ୍ତର</td><td>ପ୍ରତି + ଉତ୍ତର</td></tr><tr><td>ନିଃଶ୍ୱାସ</td><td>ନିଃ + ଶ୍ୱାସ</td></tr></table>
+<div class="key">📌 ପଦକ୍ଷେପ: (୧) ଶବ୍ଦକୁ ଦୁଇ ଭାଗ କର → (୨) ମୂଳ ଶବ୍ଦ ଚିହ୍ନ → (୩) ସନ୍ଧିର ନାମ ଥାଇଲେ ଲେଖ।</div>
+</section>
+
+<section class="slide">
+<h2>୪୦. ସମାସ — ଦ୍ୱିତୀୟ ପାଠ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ବ୍ୟାସବାକ୍ୟ ଓ ସମାସର ନାମ ଚିହ୍ନିବା।</div>
+<table><tr><th>ସମସ୍ତପଦ</th><th>ବ୍ୟାସବାକ୍ୟ</th><th>ସମାସ</th></tr><tr><td>ବିଭୂତିଭୂଷଣ</td><td>ବିଭୂତି ଭୂଷଣ ଯାହାର</td><td>ବହୁବ୍ରୀହି</td></tr><tr><td>ବିଂଶତିକର</td><td>ବିଂଶତି କର ଯାହାର</td><td>ବହୁବ୍ରୀହି</td></tr><tr><td>ଦେବରିପୁ</td><td>ଦେବମାନଙ୍କର ରିପୁ</td><td>ଷଷ୍ଠୀ ତତ୍ପୁରୁଷ</td></tr><tr><td>ହୀନପରାକ୍ରମ</td><td>ହୀନ ପରାକ୍ରମ ଯାହାର</td><td>ବହୁବ୍ରୀହି</td></tr></table>
+</section>
+
+<section class="slide">
+<h2>୪୧. ଧ୍ୱନ୍ୟାତ୍ମକ ଯୁଗ୍ମଶବ୍ଦ</h2><div class="objective">ଲକ୍ଷ୍ୟ: “କୈ କୈ” ପରି ଧ୍ୱନି ସୂଚକ ଯୁଗ୍ମଶବ୍ଦ ଚିହ୍ନିବା।</div>
+<p>ପ୍ରଶ୍ନ: “କୈ କୈ” ଭଳି ଆଉ ପାଞ୍ଚଗୋଟି ଧ୍ୱନ୍ୟାତ୍ମକ ଯୁଗ୍ମଶବ୍ଦ ଲେଖ।</p>
+<div class="warn">📌 ଏହି ପ୍ରଶ୍ନରେ ନିର୍ଦ୍ଦିଷ୍ଟ ଉତ୍ତରସୂଚୀ ଦିଆଯାଇନାହିଁ। ତେଣୁ ଏଠାରେ ନିଜରୁ ଉତ୍ତର ଯୋଡ଼ାଯାଇନାହିଁ।</div>
+</section>
+
+<section class="slide">
+<h2>୪୨. କ୍ଷୁଦ୍ର ଉତ୍ତର — ୮–୧୮</h2><div class="objective">ଲକ୍ଷ୍ୟ: ରାଘବଙ୍କ ପ୍ରୟାସ ଓ ରାବଣଙ୍କ କୂଟନୀତିର ମୁଖ୍ୟ ତଥ୍ୟ ମନେ ରଖିବା।</div>
+<div class="qa"><div class="q">୮. ସିନ୍ଧୁକୁ ପୋତିବା ପାଇଁ ରାମଚନ୍ଦ୍ର କାହିଁକି ସ୍ଥିର କଲେ?</div><div class="a">ସୀତାଙ୍କୁ ପ୍ରାପ୍ତ କରିବା ଏବଂ ସମୁଦ୍ର ପାର ହୋଇ ଲଙ୍କାକୁ ଯିବା ପାଇଁ।</div></div>
+<div class="qa"><div class="q">୯. କବିତାରେ “ରାଘବ” ଶବ୍ଦଟି କାହା ଉଦ୍ଦେଶ୍ୟରେ ବ୍ୟବହାର କରାଯାଇଛି?</div><div class="a">ରାମଚନ୍ଦ୍ରଙ୍କ ଉଦ୍ଦେଶ୍ୟରେ।</div></div>
+<div class="qa"><div class="q">୧୦. ବରୁଣଙ୍କୁ ପ୍ରସନ୍ନ କରିବା ପାଇଁ ରାମଚନ୍ଦ୍ର କ’ଣ କଲେ?</div><div class="a">ଦର୍ଭଶଯ୍ୟାରେ ଶୟନ କଲେ।</div></div>
+<div class="qa"><div class="q">୧୧. ରାବଣ ଶୁକ, ସାରଣଙ୍କ ମାଧ୍ୟମରେ ବିଭୀଷଣଙ୍କ ପାଖକୁ କି ବାର୍ତ୍ତା ପଠାଇଲେ?</div><div class="a">ବିଭୀଷଣଙ୍କୁ ଜ୍ୟେଷ୍ଠଭ୍ରାତା ପିତା ପରି ସମ୍ମାନ ଦେଇ ତାଙ୍କ ଶରଣଗ୍ରହଣର କାରଣ ପଚାରି ଫେରିବାର ସୂଚନା ଦେଲେ।</div></div>
+<div class="qa"><div class="q">୧୨. ଅଙ୍ଗଦ ନିକଟକୁ ରାବଣ କି ସନ୍ଦେଶ ପ୍ରେରଣ କଲେ?</div><div class="a">ସୈନ୍ୟ ବାହୁଡ଼ାଇବା ଓ ବାଦ ରଚାଇବାର ମାଧ୍ୟମରେ ଫେରିବାକୁ ସୂଚନା ଦେଲେ।</div></div>
+<div class="qa"><div class="q">୧୩. ରାବଣର ବାର୍ତ୍ତା ନେଇ ଅଙ୍ଗଦ ନିକଟକୁ କିଏ ଆସିଥିଲେ?</div><div class="a">ରାବଣଙ୍କ ଦୂତ/ଚାରମାନେ।</div></div>
+<div class="qa"><div class="q">୧୪. ରାବଣର ବାର୍ତ୍ତା ଶୁଣି ଅଙ୍ଗଦ କି ପ୍ରତିକ୍ରିୟା ପ୍ରକାଶ କଲେ?</div><div class="a">ତାଙ୍କ ଶକ୍ତି ପ୍ରଦର୍ଶନ କରି ଦୂତମାନଙ୍କୁ ଭୟଭୀତ କରିଥିଲେ।</div></div>
+<div class="qa"><div class="q">୧୫. ମନ୍ତ୍ରୀଦ୍ୱୟ ରାବଣ ନିକଟରେ କି ଉକ୍ତି ପ୍ରକାଶ କଲେ?</div><div class="a">ଅଙ୍ଗଦଙ୍କ ଶକ୍ତି ଓ ରାମଙ୍କ ସୈନ୍ୟର ବଳ ସମ୍ପର୍କରେ ଭୟଭୀତ ହୋଇ କଥା କହିଲେ।</div></div>
+<div class="qa"><div class="q">୧୬. ଅଙ୍ଗଦଙ୍କ ଶକ୍ତ ଚାପୁଡ଼ା ପ୍ରହାରରେ ମନ୍ତ୍ରୀଦ୍ୱୟଙ୍କର କି ଅବସ୍ଥା ହୋଇଥାନ୍ତା?</div><div class="a">ତାଙ୍କର ଅବସ୍ଥା ଅତ୍ୟନ୍ତ ଭୟଙ୍କର ହୋଇଥାନ୍ତା; ଆଘାତରେ ଚୂର୍ଣ୍ଣ ହୋଇପାରନ୍ତା ବୋଲି କବିତାର ଭାବ।</div></div>
+<div class="qa"><div class="q">୧୭. ଶ୍ରୀରାମଙ୍କ ସୈନ୍ୟ ସଂଖ୍ୟା କେତେ ବୋଲି ମନ୍ତ୍ରୀଦ୍ୱୟ କଳନା କଲେ?</div><div class="a">ସଂଖ୍ୟା ଏତେ ବହୁତ ବୋଲି କୁହାଯାଇଛି ଯେ ବାରିରାଶିରେ ଜନିତ ଶଙ୍ଖର ସଂଖ୍ୟା ସହିତ ତୁଳନା କରାଯାଇଛି।</div></div>
+<div class="qa"><div class="q">୧୮. ସମୁଦ୍ର ତରିବା ନିମନ୍ତେ ରାଘବ କ’ଣ ପାଞ୍ଚିଲେ?</div><div class="a">କୁଶଶଯ୍ୟାରେ ଶୟନ କରି ସମୁଦ୍ରକୁ ପ୍ରସନ୍ନ କରିବାର ପ୍ରୟାସ କଲେ।</div></div>
+</section>
+
+<section class="slide">
+<h2>୪୩. ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ — ୧୯</h2><div class="objective">ଲକ୍ଷ୍ୟ: ବରୁଣଙ୍କୁ ପ୍ରସନ୍ନ କରିବାର ଘଟଣାକୁ ବୁଝିବା।</div>
+<div class="poem">“ବିସ୍ମଇ ନିଃଶ୍ୱାସ ତେଜି ବରୁଣ ପ୍ରସନ୍ନେ
+ବିନାଶନରେ ଶୟନ ସେ ଦର୍ଭଶୟନେ ଯେ।”</div>
+<div class="meaning">ସୀତାପ୍ରାପ୍ତିର ଆଶାରେ ରାମ ସମୁଦ୍ର ପାର ହେବାକୁ ଚାହିଲେ। ସମୁଦ୍ରର ଅଧିପତି ବରୁଣଙ୍କୁ ପ୍ରସନ୍ନ କରିବା ପାଇଁ ରାମ ଦର୍ଭଶଯ୍ୟାରେ ଶୟନ କଲେ।</div>
+</section>
+
+<section class="slide">
+<h2>୪୪. ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ — ୨୦</h2><div class="objective">ଲକ୍ଷ୍ୟ: ବିଭୀଷଣଙ୍କ ଶରଣଗ୍ରହଣକୁ ନେଇ ରାବଣଙ୍କ ପ୍ରଶ୍ନ ବୁଝିବା।</div>
+<div class="poem">“ବିଭୂତିକି ଭୁଞ୍ଜୁଥିଲୁ ବିଭୂତିଭୂଷଣେ
+ବଡ଼କୁଳେ ଜନମି ଶରଣ କି କାରଣେ ଯେ?”</div>
+<div class="meaning">ରାବଣ ବିଭୀଷଣଙ୍କୁ ପ୍ରଶ୍ନ କରୁଛି—ବଡ଼ କୁଳରେ ଜନ୍ମ ନେଇ, ଐଶ୍ୱର୍ଯ୍ୟ ଭୋଗ କରିଥିବା ବ୍ୟକ୍ତି ହୋଇ କାହିଁକି ଅନ୍ୟ ପକ୍ଷର ଶରଣ ନେଲୁ?</div>
+</section>
+
+<section class="slide">
+<h2>୪୫. ସପ୍ରସଙ୍ଗ ସରଳାର୍ଥ — ୨୧</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଅଙ୍ଗଦଙ୍କ ଶକ୍ତିର ଚିତ୍ରଣ ବୁଝିବା।</div>
+<div class="poem">“ବାଜିଥିଲେ ଚୂର୍ଣ୍ଣ ବା ପାତାଳେ ଭଜିଥିବ
+ବିନ୍ଧ୍ୟ ଭାନୁ ତୋଷି ହେଲେ ବଞ୍ଚାଇ ଦଇବ ଯେ।”</div>
+<div class="meaning">ଅଙ୍ଗଦଙ୍କ ପ୍ରହାରର ଶକ୍ତିକୁ ଅତ୍ୟନ୍ତ ପ୍ରବଳ ଭାବେ ଚିତ୍ରିତ କରାଯାଇଛି। ଏପରି ଆଘାତରେ ଚୂର୍ଣ୍ଣ ହୋଇଯିବାର ଭୟ ଦୂତମାନଙ୍କ ମନରେ ଜନ୍ମିଥାଏ।</div>
+</section>
+
+<section class="slide">
+<h2>୪୬. ଦୀର୍ଘ ଉତ୍ତର — ୨୨</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଲଙ୍କା ଯାତ୍ରା ପାଇଁ ରାଘବଙ୍କ ପ୍ରୟାସକୁ କ୍ରମରେ ଲେଖିବା।</div>
+<ol><li>ସୀତାଙ୍କୁ ପାଇବାର ଆଶାରେ ରାଘବ ସମୁଦ୍ର ପାର ହେବାକୁ ଚିନ୍ତା କଲେ।</li><li>ପର୍ବତ ପକାଇ ସମୁଦ୍ର ପୋତିବାର ପ୍ରୟାସ କରାଗଲା; ପର୍ବତଗୁଡ଼ିକ ବୁଡ଼ିଗଲା।</li><li>ବରୁଣଙ୍କୁ ପ୍ରସନ୍ନ କରିବା ପାଇଁ ଦର୍ଭଶଯ୍ୟାରେ ଶୟନ କଲେ।</li><li>ସମୁଦ୍ର ପାର ହେବାର ଉପାୟ ପାଇଁ ପ୍ରୟାସ ଚାଲିଲା।</li><li>ସମୁଦ୍ର ତରିବା ନିମନ୍ତେ ରାମଙ୍କ ଦୃଢ଼ ଚେଷ୍ଟା ଓ ଧୈର୍ଯ୍ୟ ଏହି ଅଂଶର ମୁଖ୍ୟ କଥା।</li></ol>
+</section>
+
+<section class="slide">
+<h2>୪୭. ଦୀର୍ଘ ଉତ୍ତର — ୨୩</h2><div class="objective">ଲକ୍ଷ୍ୟ: ରାବଣଙ୍କ କୂଟନୀତିକୁ ପାଠର ଘଟଣା ଆଧାରରେ ଆଲୋଚନା କରିବା।</div>
+<div class="grid"><div class="card"><b>ଶୁକ–ସାରଣ</b><br>ବିଭୀଷଣଙ୍କ ପାଖକୁ ବାର୍ତ୍ତା ନେଇ ପଠାଇଲେ।</div><div class="card"><b>ବିଭୀଷଣ</b><br>ଜ୍ୟେଷ୍ଠଭ୍ରାତା–ପିତା ସମ୍ପର୍କର ଭାବ ଦେଖାଇ ଫେରାଇବାର ଚେଷ୍ଟା।</div><div class="card"><b>ଅଙ୍ଗଦ</b><br>ତାଙ୍କ ପିତା ବାଳୀ ଓ ପିତୃବ୍ୟ ସୁଗ୍ରୀବଙ୍କ ସମ୍ପର୍କ ଉଠାଇ ସୈନ୍ୟ ବାହୁଡ଼ାଇବାର ଚେଷ୍ଟା।</div><div class="card"><b>ଭୟ ସୃଷ୍ଟି</b><br>ରାମଙ୍କ ସୈନ୍ୟର ବିପୁଳତା ଓ ଅଙ୍ଗଦଙ୍କ ଶକ୍ତି ଦେଖି ଦୂତ/ମନ୍ତ୍ରୀମାନଙ୍କ ଭୟ ପ୍ରକାଶ।</div></div>
+</section>
+
+<section class="slide">
+<h2>୪୮. ଦୀର୍ଘ ଉତ୍ତର — ୨୪</h2><div class="objective">ଲକ୍ଷ୍ୟ: ପଦ୍ୟର ସମାଜ ପ୍ରତି ବାର୍ତ୍ତାକୁ ପାଠର ଭାବ ଆଧାରରେ ଲେଖିବା।</div>
+<p>ପାଠରେ ନିଷ୍ଠା, ସାହସ, ଦୃଢ଼ ପ୍ରୟାସ, ନୀତି ଓ କାର୍ଯ୍ୟର ପରିଣାମ ସମ୍ପର୍କରେ ଭାବ ଦେଖାଯାଏ। ରାଘବଙ୍କ ସୀତାପ୍ରାପ୍ତିର ଆଶା ଓ ସମୁଦ୍ର ପାର ହେବାର ପ୍ରୟାସ ଦୃଢ଼ତାକୁ ଦେଖାଏ। ଅନ୍ୟପକ୍ଷରେ ରାବଣଙ୍କ ବାର୍ତ୍ତାପ୍ରେରଣ ଓ ବିଭୀଷଣ/ଅଙ୍ଗଦଙ୍କୁ ଫେରାଇବାର ଚେଷ୍ଟାରେ କୂଟନୀତିର ଚିତ୍ର ମିଳେ।</p>
+<div class="exam">📝 ପତ୍ର ଲେଖିବାବେଳେ ଏହି ପାଠରୁ ମିଳୁଥିବା ବାର୍ତ୍ତାକୁ ସରଳ ଭାଷାରେ ଗଠିତ କର।</div>
+</section>
+
+<section class="slide">
+<h2>୪୯. “ତୁମ ପାଇଁ କାମ” — ଦ୍ୱିତୀୟ ପାଠ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଶେଷର ସମସ୍ତ କାର୍ଯ୍ୟକୁ ମନେ ରଖିବା।</div>
+<ol><li>ସେତୁବନ୍ଧ ସମ୍ବନ୍ଧୀୟ ଚିତ୍ର ସଂଗ୍ରହ କରି ଶ୍ରେଣୀଗୃହ କାନ୍ଥରେ ସଂଲଗ୍ନ କର।</li><li>ବୈଦେହୀଶ ବିଳାସ ପୁସ୍ତକରୁ ଭଲ ଲାଗୁଥିବା ପଦଗୁଡ଼ିକୁ ଲେଖି ରଖି ଆବୃତ୍ତି କର।</li></ol>
+</section>
+
+<section class="slide">
+<h2>୫୦. ଦୁଇଟି ପାଠ — ତୁଳନାତ୍ମକ ମାନଚିତ୍ର</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଦୁଇଟି ପଦ୍ୟର ମୁଖ୍ୟ କେନ୍ଦ୍ରବିନ୍ଦୁକୁ ଅଲଗା କରି ମନେ ରଖିବା।</div>
+<table><tr><th>ପ୍ରଥମ ପାଠ</th><th>ଦ୍ୱିତୀୟ ପାଠ</th></tr><tr><td>ମାନଗୋବିନ୍ଦଙ୍କ ମହାନତା</td><td>ରାଘବଙ୍କ ଲଙ୍କା ଯାତ୍ରାନୁକୂଳ</td></tr><tr><td>ସାରଳା ଦାସ</td><td>ଉପେନ୍ଦ୍ର ଭଞ୍ଜ</td></tr><tr><td>ମହାଭାରତ</td><td>ବୈଦେହୀଶ ବିଳାସ</td></tr><tr><td>ଦୁର୍ଯ୍ୟୋଧନ–ଅଶ୍ୱତ୍ଥାମା</td><td>ରାମ–ସମୁଦ୍ର–ରାବଣ</td></tr><tr><td>ଶିଶୁବଧ ପରେ ବିଳାପ</td><td>ସୀତାପ୍ରାପ୍ତି ପାଇଁ ସମୁଦ୍ର ପାରର ପ୍ରୟାସ</td></tr><tr><td>ପ୍ରଶଂସା → ସତ୍ୟ → ଭର୍ତ୍ସନା</td><td>ପ୍ରୟାସ → ଦୂତପ୍ରେରଣ → ଭୟ/କୂଟନୀତି</td></tr></table>
+</section>
+
+<section class="slide">
+<h2>୫୧. ଶେଷ ପୁନରାବୃତ୍ତି — ପ୍ରଥମ ପାଠର ୧୫ଟି ବିନ୍ଦୁ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ପରୀକ୍ଷା ପୂର୍ବରୁ ପ୍ରଥମ ପାଠକୁ ଦ୍ରୁତ ଭାବେ ମନେ ପକାଇବା।</div>
+<ol><li>କବି — ସାରଳା ଦାସ।</li><li>ଯୁଗ — ପଞ୍ଚଦଶ ଶତାବ୍ଦୀ।</li><li>ସାରଳା ଦାସ — ଆଦିକବି/ଉତ୍କଳ-ବ୍ୟାସ ଭାବେ ପରିଚିତ।</li><li>ପାଠ — ମାନଗୋବିନ୍ଦଙ୍କ ମହାନତା।</li><li>ମାନଗୋବିନ୍ଦ = ଦୁର୍ଯ୍ୟୋଧନ।</li><li>ଅଶ୍ୱତ୍ଥାମା ପାଞ୍ଚ ମୁଣ୍ଡ ଆଣିଲେ।</li><li>ଦୁର୍ଯ୍ୟୋଧନ ପ୍ରଥମେ ଖୁସି ହେଲେ।</li><li>ପରେ ସେଗୁଡ଼ିକ ଦ୍ରୌପଦୀଙ୍କ ପାଞ୍ଚ ପୁତ୍ରଙ୍କର ବୋଲି ଜଣାଗଲା।</li><li>ଦୁର୍ଯ୍ୟୋଧନ ମୂର୍ଚ୍ଛିତ ହେଲେ।</li><li>ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ଭର୍ତ୍ସନା କଲେ।</li><li>ବଂଶରକ୍ଷାର ଆଶା ନଷ୍ଟ ହେଲା।</li><li>ଅଭିମନ୍ୟୁ, ଘଟୋତ୍କଚ, ଲକ୍ଷ୍ମଣକୁମାରଙ୍କ ମୃତ୍ୟୁର ଉଲ୍ଲେଖ ଅଛି।</li><li>ପଞ୍ଚଭୂତ — ପୃଥିବୀ, ଆକାଶ, ବାୟୁ, ଜଳ, ଅଗ୍ନି।</li><li>ପାଠଟି କାଂଶିକା ପର୍ବରୁ ସଂଗୃହୀତ ବୋଲି ପ୍ରଶ୍ନାବଳୀରେ ଦିଆଯାଇଛି।</li><li>ଶେଷରେ ଦୁର୍ଯ୍ୟୋଧନ ପ୍ରାଣ ବିସର୍ଜନ କଲେ।</li></ol>
+</section>
+
+<section class="slide">
+<h2>୫୨. ଶେଷ ପୁନରାବୃତ୍ତି — ଦ୍ୱିତୀୟ ପାଠର ୧୫ଟି ବିନ୍ଦୁ</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଦ୍ୱିତୀୟ ପାଠର ସମସ୍ତ ମୁଖ୍ୟ ଧାରଣାକୁ ଦ୍ରୁତ ଭାବେ ମନେ ପକାଇବା।</div>
+<ol><li>କବି — ଉପେନ୍ଦ୍ର ଭଞ୍ଜ।</li><li>କବିସମ୍ରାଟ ଭାବେ ପରିଚିତ।</li><li>ପାଠ — ରାଘବଙ୍କ ଲଙ୍କା ଯାତ୍ରାନୁକୂଳ।</li><li>କାବ୍ୟ — ବୈଦେହୀଶ ବିଳାସ।</li><li>ଚାଳିଶ ଛାନ୍ଦରୁ ପାଠ ଆନୀତ।</li><li>ରାଗ — ଆଶାବରୀ।</li><li>ପ୍ରତ୍ୟେକ ପଦ “ବ” ଆଦ୍ୟ ବର୍ଣ୍ଣ ନିୟମରେ ରଚିତ।</li><li>ରାଘବ = ରାମଚନ୍ଦ୍ର।</li><li>ସୀତାପ୍ରାପ୍ତି ପାଇଁ ସମୁଦ୍ର ପାର ହେବାର ପ୍ରୟାସ।</li><li>ପର୍ବତ ପକାଇ ସମୁଦ୍ର ପୋତିବାର ଚେଷ୍ଟା।</li><li>ବରୁଣଙ୍କୁ ପ୍ରସନ୍ନ କରିବା ପାଇଁ ଦର୍ଭଶଯ୍ୟା।</li><li>ରାବଣ ଶୁକ–ସାରଣଙ୍କୁ ଦୂତ ଭାବେ ପଠାଇଲେ।</li><li>ବିଭୀଷଣ ଓ ଅଙ୍ଗଦଙ୍କୁ ବାର୍ତ୍ତା ଦେବାର ଚେଷ୍ଟା।</li><li>ଅଙ୍ଗଦଙ୍କ ଶକ୍ତିରେ ଦୂତ/ମନ୍ତ୍ରୀମାନଙ୍କ ଭୟ।</li><li>ସମୁଦ୍ର ତରିବା ଓ ରାବଣଙ୍କ କୂଟନୀତି ପାଠର ମୁଖ୍ୟ ଅଂଶ।</li></ol>
+</section>
+
+<section class="slide">
+<h2>୫୩. Most Important Questions</h2><div class="objective">ଲକ୍ଷ୍ୟ: ପରୀକ୍ଷା ପାଇଁ ସର୍ବାଧିକ ଗୁରୁତ୍ୱର ପ୍ରଶ୍ନଗୁଡ଼ିକୁ ଚିହ୍ନିବା।</div>
+<div class="grid">
+<div class="card">🎯 ମାନଗୋବିନ୍ଦଙ୍କ ମହାନତା ପ୍ରତିପାଦନ କର।</div>
+<div class="card">🎯 ଅଶ୍ୱତ୍ଥାମାଙ୍କୁ ଦୁର୍ଯ୍ୟୋଧନ ଭର୍ତ୍ସନା କରିବାର କାରଣ ଆଲୋଚନା କର।</div>
+<div class="card">🎯 ଲଙ୍କା ଯାତ୍ରା ନିମନ୍ତେ ରାଘବଙ୍କ ପ୍ରୟାସ ବର୍ଣ୍ଣନା କର।</div>
+<div class="card">🎯 ପଠିତ କବିତାରୁ ରାବଣଙ୍କ କୂଟନୀତି ସମ୍ପର୍କରେ ଆଲୋଚନା କର।</div>
+<div class="card">📝 ସନ୍ଧିବିଚ୍ଛେଦ: ବଜ୍ରାଘାତ, ପ୍ରତ୍ୟୁତ୍ତର, ନିଃଶ୍ୱାସ।</div>
+<div class="card">📝 ସମାସ: ବିଭୂତିଭୂଷଣ, ବିଂଶତିକର, ଦେବରିପୁ, ହୀନପରାକ୍ରମ।</div>
+</div>
+</section>
+
+<section class="slide">
+<h2>୫୪. Final MCQ Quiz</h2><div class="objective">ଲକ୍ଷ୍ୟ: ଶେଷ ଥର ପାଇଁ ନିଜର ପ୍ରସ୍ତୁତି ଯାଞ୍ଚ କରିବା।</div>
+<div class="qa"><div class="q">୧. ମାନଗୋବିନ୍ଦ କିଏ?</div><div class="a">କ) ଅଶ୍ୱତ୍ଥାମା &nbsp; ଖ) ଦୁର୍ଯ୍ୟୋଧନ &nbsp; ଗ) ଧୃଷ୍ଟଦ୍ୟୁମ୍ନ &nbsp; ଘ) ଦ୍ରୋଣ<br><b>ଉତ୍ତର: ଖ)</b></div></div>
+<div class="qa"><div class="q">୨. ପାଞ୍ଚଟି ମୁଣ୍ଡ କାହାର ଥିଲା?</div><div class="a">କ) ପାଣ୍ଡବଙ୍କର &nbsp; ଖ) ରାକ୍ଷସଙ୍କର &nbsp; ଗ) ଦ୍ରୌପଦୀଙ୍କ ପାଞ୍ଚ ପୁତ୍ରଙ୍କର &nbsp; ଘ) କୌରବଙ୍କର<br><b>ଉତ୍ତର: ଗ)</b></div></div>
+<div class="qa"><div class="q">୩. “ରାଘବ” କାହାର ନାମ?</div><div class="a">କ) ରାବଣ &nbsp; ଖ) ରାମଚନ୍ଦ୍ର &nbsp; ଗ) ବିଭୀଷଣ &nbsp; ଘ) ଅଙ୍ଗଦ<br><b>ଉତ୍ତର: ଖ)</b></div></div>
+<div class="qa"><div class="q">୪. ବରୁଣଙ୍କୁ ପ୍ରସନ୍ନ କରିବା ପାଇଁ ରାମ କ’ଣ କଲେ?</div><div class="a">କ) ଯୁଦ୍ଧ କଲେ &nbsp; ଖ) ଦର୍ଭଶଯ୍ୟାରେ ଶୟନ କଲେ &nbsp; ଗ) ଲଙ୍କାକୁ ଗଲେ &nbsp; ଘ) ଦୂତ ପଠାଇଲେ<br><b>ଉତ୍ତର: ଖ)</b></div></div>
+<div class="qa"><div class="q">୫. ରାବଣଙ୍କ ଦୁଇ ମନ୍ତ୍ରୀ କିଏ?</div><div class="a">କ) ଶୁକ ଓ ସାରଣ &nbsp; ଖ) ଅଙ୍ଗଦ ଓ ସୁଗ୍ରୀବ &nbsp; ଗ) ରାମ ଓ ଲକ୍ଷ୍ମଣ &nbsp; ଘ) ଭୀମ ଓ ଅର୍ଜୁନ<br><b>ଉତ୍ତର: କ)</b></div></div>
+<div class="qa"><div class="q">୬. “ବୈଦେହୀଶ ବିଳାସ” କାହାର କାବ୍ୟ?</div><div class="a">କ) ସାରଳା ଦାସ &nbsp; ଖ) ଉପେନ୍ଦ୍ର ଭଞ୍ଜ &nbsp; ଗ) ବ୍ୟାସଦେବ &nbsp; ଘ) ଦୁର୍ଯ୍ୟୋଧନ<br><b>ଉତ୍ତର: ଖ)</b></div></div>
+</section>
+
+<section class="slide hero">
+<h2>୫୫. ଶେଷ ମନେ ରଖିବା ମନ୍ତ୍ର</h2>
+<p style="font-size:22px"><b>ମାନଗୋବିନ୍ଦ → ପାଞ୍ଚ ମୁଣ୍ଡ → ସତ୍ୟ → ଭର୍ତ୍ସନା → ବିଳାପ</b></p>
+<p style="font-size:22px"><b>ରାଘବ → ସୀତାପ୍ରାପ୍ତି → ସିନ୍ଧୁ → ଦର୍ଭଶଯ୍ୟା → ରାବଣଙ୍କ କୂଟନୀତି</b></p>
+<p>ଶେଷ ପୁନରାବୃତ୍ତି ପାଇଁ ଶବ୍ଦାର୍ଥ, ସମାସ, ସନ୍ଧି, ପ୍ରଶ୍ନୋତ୍ତର ଓ ଦୀର୍ଘ ଉତ୍ତରକୁ ଏକଥର ଆଉ ଲେଖି ଅଭ୍ୟାସ କର।</p>
+</section>
+
+</main>
+<script>
+const slides=[...document.querySelectorAll('.slide')];let i=0;
+function show(n){i=Math.max(0,Math.min(slides.length-1,n));slides[i].scrollIntoView({behavior:'smooth',block:'start'});document.getElementById('cnt').textContent=(i+1)+' / '+slides.length;document.getElementById('prog').style.width=((i+1)/slides.length*100)+'%'}
+function next(){show(i+1)} function prev(){show(i-1)}
+addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();next()}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();prev()}})
+show(0)
+</script>
+</body>
+</html>'''
+out=Path("/mnt/data/rage.html")
+out.write_text(html,encoding="utf-8")
+print(out)
+print("slides",html.count('<section class="slide">'),"size_kb",round(out.stat().st_size/1024,1))
+
