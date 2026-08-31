@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ନିୟନ୍ତ୍ରଣ ଓ ସମନ୍ବୟ (Control and Coordination) | BSE Odisha Class 10 Life Science</title>
+    <!-- Google Fonts for Odia & Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;600;700;800&family=Noto+Sans+Oriya:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #1e40af;
+            --primary-dark: #1e3a8a;
+            --primary-light: #eff6ff;
+            --secondary: #0d9488;
+            --secondary-light: #ccfbf1;
+            --accent: #d97706;
+            --accent-light: #fef3c7;
+            --danger: #dc2626;
+            --success: #16a34a;
+            --bg-main: #f8fafc;
+            --bg-card: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border-color: #e2e8f0;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --radius: 12px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Noto Sans Oriya', 'Baloo Bhaina 2', 'Inter', sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding-bottom: 60px;
+        }
+
+        /* Hero Banner */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+            color: white;
+            padding: 40px 20px 30px;
+            text-align: center;
+            position: relative;
+            box-shadow: var(--shadow);
+        }
+
+        .hero-tags {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+
+        .tag {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .hero h1 {
+            font-family: 'Baloo Bhaina 2', sans-serif;
+            font-size: 2.4rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Sticky Navigation Bar */
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            background: white;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            display: flex;
+            justify-content: center;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 10px 15px;
+            gap: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .sticky-nav a {
+            color: var(--text-main);
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+            background: var(--bg-main);
+        }
+
+        .sticky-nav a:hover, .sticky-nav a.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Container & Layout */
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 30px;
+            margin-bottom: 35px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border-color);
+            scroll-margin-top: 70px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            border-bottom: 3px solid var(--primary-light);
+            padding-bottom: 12px;
+            margin-bottom: 25px;
+        }
+
+        .section-header .icon {
+            width: 36px;
+            height: 36px;
+            background: var(--primary);
+            color: white;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .section-header h2 {
+            font-family: 'Baloo Bhaina 2', sans-serif;
+            font-size: 1.6rem;
+            color: var(--primary-dark);
+        }
+
+        /* Typography & Utility Styles */
+        .eng-term {
+            color: var(--primary);
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 0.92em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        /* Callout / Highlight Cards */
+        .highlight-card {
+            background: var(--primary-light);
+            border-left: 5px solid var(--primary);
+            padding: 18px 22px;
+            border-radius: 0 var(--radius) var(--radius) 0;
+            margin: 20px 0;
+        }
+
+        .highlight-card.warning {
+            background: var(--accent-light);
+            border-left-color: var(--accent);
+        }
+
+        .highlight-card.success {
+            background: var(--secondary-light);
+            border-left-color: var(--secondary);
+        }
+
+        .badge-board {
+            display: inline-block;
+            background: var(--danger);
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        /* Grid Layouts */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .feature-box {
+            background: var(--bg-main);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 20px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .feature-box h4 {
+            font-size: 1.15rem;
+            color: var(--primary-dark);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Data Tables */
+        .table-responsive {
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        th, td {
+            padding: 14px 18px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background: var(--primary-dark);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        tr:hover {
+            background-color: #f1f5f9;
+        }
+
+        /* Visual Diagram Placeholders & SVG Cards */
+        .diagram-card {
+            background: #f1f5f9;
+            border: 2px dashed #cbd5e1;
+            border-radius: var(--radius);
+            padding: 25px;
+            text-align: center;
+            margin: 25px 0;
+        }
+
+        .diagram-card svg {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .diagram-title {
+            font-weight: 700;
+            color: var(--text-muted);
+            margin-top: 10px;
+            font-size: 0.95rem;
+        }
+
+        /* Flowchart Components */
+        .flowchart {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin: 25px 0;
+            padding: 15px;
+            background: var(--bg-main);
+            border-radius: var(--radius);
+        }
+
+        .flow-step {
+            background: white;
+            border: 2px solid var(--primary);
+            color: var(--primary-dark);
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            box-shadow: var(--shadow);
+            text-align: center;
+        }
+
+        .flow-arrow {
+            color: var(--primary);
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+
+        /* Collapsible Q&A (<details>) */
+        details {
+            background: var(--bg-main);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 12px;
+            padding: 14px 18px;
+            transition: background 0.2s ease;
+        }
+
+        details[open] {
+            background: white;
+            border-color: var(--primary);
+            box-shadow: var(--shadow);
+        }
+
+        summary {
+            font-weight: 700;
+            cursor: pointer;
+            outline: none;
+            color: var(--primary-dark);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 1.05rem;
+        }
+
+        summary::after {
+            content: "+";
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        details[open] summary::after {
+            content: "−";
+        }
+
+        .qa-answer {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px border-color #e2e8f0;
+            color: var(--text-main);
+        }
+
+        /* MCQ Quiz System */
+        .quiz-card {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow);
+        }
+
+        .quiz-q {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            color: var(--primary-dark);
+        }
+
+        .quiz-options {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+
+        .quiz-opt {
+            background: var(--bg-main);
+            border: 1px solid var(--border-color);
+            padding: 12px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-weight: 500;
+            text-align: left;
+            width: 100%;
+        }
+
+        .quiz-opt:hover {
+            background: var(--primary-light);
+            border-color: var(--primary);
+        }
+
+        .quiz-opt.correct {
+            background: #dcfce7 !important;
+            border-color: var(--success) !important;
+            color: #15803d;
+            font-weight: 700;
+        }
+
+        .quiz-opt.wrong {
+            background: #fee2e2 !important;
+            border-color: var(--danger) !important;
+            color: #b91c1c;
+        }
+
+        .quiz-feedback {
+            margin-top: 12px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            display: none;
+        }
+
+        .score-board {
+            background: linear-gradient(135deg, var(--secondary) 0%, #0f766e 100%);
+            color: white;
+            padding: 20px;
+            border-radius: var(--radius);
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .score-board h3 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.8rem; }
+            section { padding: 20px 15px; }
+            .flowchart { flex-direction: column; }
+            .flow-arrow { transform: rotate(90deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Hero Banner -->
+    <header class="hero">
+        <div class="hero-tags">
+            <span class="tag">BSE Odisha Class 10</span>
+            <span class="tag">ଜୀବବିଜ୍ଞାନ (Life Science)</span>
+            <span class="tag">ଅଧ୍ୟାୟ ୫</span>
+        </div>
+        <h1>ନିୟନ୍ତ୍ରଣ ଓ ସମନ୍ବୟ</h1>
+        <p>Control and Coordination - Complete Master Lecture Notes & Exam Revision Guide</p>
+    </header>
+
+    <!-- Sticky Navigation Bar -->
+    <nav class="sticky-nav">
+        <a href="#plant-control">ଉଦ୍ଭିଦରେ ନିୟନ୍ତ୍ରଣ</a>
+        <a href="#human-brain">ମାନବ ମସ୍ତିଷ୍କ</a>
+        <a href="#neuron-reflex">ସ୍ନାୟୁକୋଷ & ପ୍ରତିକ୍ଷେପ</a>
+        <a href="#endocrine-system">ଅନ୍ତଃସ୍ରାବୀ ତନ୍ତ୍ର</a>
+        <a href="#qa-section">ପାଠ୍ୟପୁସ୍ତକ Q&A</a>
+        <a href="#mcq-quiz">ମକ୍ ଟେଷ୍ଟ MCQ</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- SECTION 1: PLANT CONTROL & COORDINATION -->
+        <section id="plant-control">
+            <div class="section-header">
+                <div class="icon">1</div>
+                <h2>ଉଦ୍ଭିଦରେ ନିୟନ୍ତ୍ରଣ ଓ ସମନ୍ବୟ <span class="eng-term">(Control & Coordination in Plants)</span></h2>
+            </div>
+
+            <p>
+                ଉଦ୍ଭିଦମାନଙ୍କରେ ପ୍ରାଣୀମାନଙ୍କ ପରି କୌଣସି ସ୍ନାୟବିକ ତନ୍ତ୍ର <span class="eng-term">(Nervous System)</span> ନଥାଏ। ଉଦ୍ଭିଦ ଶରୀରରେ ବାହ୍ୟ ଉଦ୍ଦୀପନା <span class="eng-term">(Stimulus)</span> ଯଥା- ଆଲୋକ, ମାଧ୍ୟାକର୍ଷଣ ଓ ସ୍ପର୍ଶ ଇତ୍ୟାଦିର ଅନୁକ୍ରିୟା <span class="eng-term">(Response)</span> ରାସାୟନିକ ପଦ୍ଧତିରେ ସମ୍ପାଦିତ ହୋଇଥାଏ।
+            </p>
+
+            <div class="highlight-card">
+                <span class="badge-board">ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ତଥ୍ୟ</span>
+                <strong>ଫାଇଟୋହର୍ମୋନ୍ <span class="eng-term">(Phytohormone)</span>:</strong> ଉଦ୍ଭିଦ ଶରୀରରେ ପ୍ରସ୍ତୁତ ହେଉଥିବା ଜୈବ ରାସାୟନିକ ପଦାର୍ଥ ଯାହା ଉଦ୍ଭିଦର ବୃଦ୍ଧି, ବିକାଶ ଓ ଚଳନକୁ ସୁବ୍ୟବସ୍ଥିତ ଭାବେ ନିୟନ୍ତ୍ରଣ କରେ। ଏଗୁଡ଼ିକ ଖୁବ୍ କମ୍ ପରିମାଣରେ ଓ କମ୍ ସାନ୍ଦ୍ରତାରେ <span class="eng-term">(Low Concentration)</span> କାର୍ଯ୍ୟ କରନ୍ତି।
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: var(--primary-dark);">୧.୧ ଫାଇଟୋହର୍ମୋନ୍‌ର ପ୍ରକାରଭେଦ <span class="eng-term">(Types of Phytohormones)</span></h3>
+            <p>ଉଦ୍ଭିଦ ହର୍ମୋନ୍ ମୁଖ୍ୟତଃ ୫ ପ୍ରକାରର। ଏଗୁଡ଼ିକୁ କାର୍ଯ୍ୟ ଆଧାରରେ ଦୁଇଟି ଶ୍ରେଣୀରେ ବିଭକ୍ତ କରାଯାଇଛି:</p>
+
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ହର୍ମୋନ୍‌ର ନାମ</th>
+                            <th>ଶ୍ରେଣୀ <span class="eng-term">(Category)</span></th>
+                            <th>ମୁଖ୍ୟ କାର୍ଯ୍ୟ <span class="eng-term">(Main Functions)</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>ଅକ୍ସିନ୍ <span class="eng-term">(Auxin)</span></strong></td>
+                            <td>ବୃଦ୍ଧି ନିୟନ୍ତ୍ରକ <span class="eng-term">(Growth Promoter)</span></td>
+                            <td>କୋଷ ବିଭାଜନ, କାଣ୍ଡ ଓ ମୂଳର ଅଗ୍ରଭାଗ ବୃଦ୍ଧି, ଫୁଲ ଓ ଫଳ ଗଠନ, ଆଲୋକାନୁବର୍ତ୍ତନ।</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ଜିବରେଲିନ୍ <span class="eng-term">(Gibberellin)</span></strong></td>
+                            <td>ବୃଦ୍ଧି ନିୟନ୍ତ୍ରକ <span class="eng-term">(Growth Promoter)</span></td>
+                            <td>ଶାଖା ଓ କାଣ୍ଡର ଲମ୍ବ ବୃଦ୍ଧି, ମଞ୍ଜିର ଅଙ୍କୁରୋଦ୍‌ଗମ।</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ସାଇଟୋକାଇନିନ୍ <span class="eng-term">(Cytokinin)</span></strong></td>
+                            <td>ବୃଦ୍ଧି ନିୟନ୍ତ୍ରକ <span class="eng-term">(Growth Promoter)</span></td>
+                            <td>ଦ୍ରୁତ କୋଷ ବିଭାଜନ <span class="eng-term">(Cell Division)</span>, କଳିକା ଓ ଫଳର ବୃଦ୍ଧି।</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ଏଥିଲିନ୍ <span class="eng-term">(Ethylene)</span></strong></td>
+                            <td>ବୃଦ୍ଧି ହ୍ରାସକ <span class="eng-term">(Growth Retardant)</span></td>
+                            <td>ଫଳ ପାଚିବାରେ ସାହାଯ୍ୟ କରେ, ପତ୍ର ଓ ଫଳ ଝଡ଼ାଇବା ତ୍ୱରାନ୍ୱିତ କରେ। (ଗ୍ୟାସୀୟ ହର୍ମୋନ୍)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ଆବସିସିକ୍ ଏସିଡ୍ <span class="eng-term">(Abscisic Acid)</span></strong></td>
+                            <td>ବୃଦ୍ଧି ହ୍ରାସକ <span class="eng-term">(Growth Retardant)</span></td>
+                            <td>ବୃଦ୍ଧିରୋଧକ, ପତ୍ର ଝାଉଁଳିବା, ସ୍ଟୋମାଟା <span class="eng-term">(Stomata)</span> ବନ୍ଦ କରିବା।</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="grid-2">
+                <div class="feature-box">
+                    <h4>ଫଟୋପିରିଅଡିଜମ୍ <span class="eng-term">(Photoperiodism)</span></h4>
+                    <p>ଉଦ୍ଭିଦରେ ଫୁଲ ଧରିବା ପ୍ରକ୍ରିୟା ଆଲୋକର ଅବଧି <span class="eng-term">(Photoperiod)</span> ଉପରେ ନିର୍ଭର କରେ।</p>
+                    <ul style="padding-left: 20px;">
+                        <li><strong>ଫ୍ଲୋରିଜେନ୍ <span class="eng-term">(Florigen)</span>:</strong> ପତ୍ରରେ ତିଆରି ହୋଇ ଅଗ୍ରଭାଗକୁ ପରିବାହିତ ହୋଇ ଫୁଲ ଫୁଟାଏ।</li>
+                        <li><strong>ଫାଇଟୋକ୍ରୋମ୍ <span class="eng-term">(Phytochrome)</span>:</strong> ଉଦ୍ଭିଦରେ ଥିବା ବିଶେଷ ବର୍ଣ୍ଣକଣା <span class="eng-term">(Pigment)</span>।</li>
+                    </ul>
+                </div>
+                <div class="feature-box">
+                    <h4>ଡାର୍ୱିନ୍‌ଙ୍କ ପରୀକ୍ଷା <span class="eng-term">(Darwin's Experiment)</span></h4>
+                    <p>ଚାର୍ଲସ ଡାର୍ୱିନ୍ ଅଙ୍କୁରିତ ବୁଟମଞ୍ଜିର ଭ୍ରୂଣକାଣ୍ଡକୁ ନେଇ ଆଲୋକାନୁବର୍ତ୍ତନ ପରୀକ୍ଷା କରିଥିଲେ।</p>
+                    <p>ଅଗ୍ରଭାଗ କାଟିଦେଲେ କିମ୍ବା କଳାଟୋପି ଲଗାଇଦେଲେ ଭ୍ରୂଣକାଣ୍ଡ ଆଲୋକ ଆଡ଼କୁ ବଙ୍କାଏ ନାହିଁ, ଯାହା ପ୍ରମାଣ କରେ ଯେ ଅଗ୍ରଭାଗରେ ଆଲୋକ ସମ୍ବେଦୀ ଅକ୍ସିନ୍ ସଂଶ୍ଳେଷିତ ହୁଏ।</p>
+                </div>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: var(--primary-dark);">୧.୨ ଉଦ୍ଭିଦର ଗତି / ଚଳନ <span class="eng-term">(Plant Movements)</span></h3>
+            
+            <div class="grid-2">
+                <div class="feature-box">
+                    <h4>କ) ବୃଦ୍ଧି ନିର୍ଭରଶୀଳ ଚଳନ - ଅନୁବର୍ତ୍ତନ <span class="eng-term">(Tropism)</span></h4>
+                    <p>ବାହ୍ୟ ଉଦ୍ଦୀପନାର ଦିଗ ଦ୍ୱାରା ପ୍ରଭାବିତ ହୋଇ ହେଉଥିବା ବୃଦ୍ଧିଜନିତ ଗତି।</p>
+                    <ul style="padding-left: 20px;">
+                        <li><strong>ଆଲୋକାନୁବର୍ତ୍ତନ <span class="eng-term">(Phototropism)</span>:</strong> କାଣ୍ଡ = ଅନୁକୂଳ (Positive), ମୂଳ = ପ୍ରତିକୂଳ (Negative)।</li>
+                        <li><strong>ଜ୍ୟାନୁବର୍ତ୍ତନ <span class="eng-term">(Geotropism)</span>:</strong> ମୂଳ = ଅନୁକୂଳ, କାଣ୍ଡ = ପ୍ରତିକୂଳ। (ଅକ୍ସିନ୍ ସାନ୍ଦ୍ରତା ଅସମତା ହେତୁ ઘટે)।</li>
+                    </ul>
+                </div>
+                <div class="feature-box">
+                    <h4>ଖ) ବୃଦ୍ଧି ସ୍ୱତନ୍ତ୍ର ଚଳନ - ଅନ୍ତର୍କୁଞ୍ଚନ <span class="eng-term">(Nastic Movement)</span></h4>
+                    <p>ଉଦ୍ଦୀପନା ଦ୍ୱାରା ବୃଦ୍ଧି ସଂଘଟିତ ନହୋଇ ଦ୍ରୁତ ରାସାୟନିକ/ରସସ୍ଫୀତି ପରିବର୍ତ୍ତନ ହେବା।</p>
+                    <p><strong>ଉଦାହରଣ:</strong> ଲାଜକୁଳୀ ଲତା <span class="eng-term">(Touch-me-not / Mimosa pudica)</span> ପତ୍ରକୁ ଛୁଇଁଦେଲେ ରସସ୍ଫୀତି <span class="eng-term">(Turgor Pressure)</span> ପରିବର୍ତ୍ତନ ହୋଇ ପତ୍ର ଝାଉଁଳିପଡ଼େ।</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: HUMAN NERVOUS SYSTEM & BRAIN -->
+        <section id="human-brain">
+            <div class="section-header">
+                <div class="icon">2</div>
+                <h2>ମାନବ ସ୍ନାୟୁତନ୍ତ୍ର ଓ ମସ୍ତିଷ୍କ <span class="eng-term">(Human Nervous System & Brain)</span></h2>
+            </div>
+
+            <p>ମଣିଷ ଶରୀରରେ ସ୍ନାୟୁତନ୍ତ୍ର <span class="eng-term">(Nervous System)</span> ଓ ସଂବେଦକ ଅଙ୍ଗ <span class="eng-term">(Sensory Organs)</span> ନିୟନ୍ତ୍ରଣ ଓ ସମନ୍ବୟ ରକ୍ଷା କରନ୍ତି।</p>
+
+            <div class="flowchart">
+                <div class="flow-step">ମାନବ ସ୍ନାୟୁତନ୍ତ୍ର</div>
+                <div class="flow-arrow">➔</div>
+                <div class="flow-step">କେନ୍ଦ୍ରୀୟ ସ୍ନାୟୁତନ୍ତ୍ର (CNS)<br><small>ମସ୍ତିଷ୍କ + ସୁଷୁମ୍ନାକାଣ୍ଡ</small></div>
+                <div class="flow-arrow">➔</div>
+                <div class="flow-step">ପ୍ରାନ୍ତୀୟ ସ୍ନାୟୁତନ୍ତ୍ର (PNS)<br><small>12 ଯୋଡ଼ା କରୋଟି + 31 ଯୋଡ଼ା ସୁଷୁମ୍ନା ସ୍ନାୟୁ</small></div>
+                <div class="flow-arrow">➔</div>
+                <div class="flow-step">ସ୍ୱୟଂକ୍ରିୟ ସ୍ନାୟୁତନ୍ତ୍ର (ANS)<br><small>ଅନୈଚ୍ଛିକ କ୍ରିୟା ନିୟନ୍ତ୍ରଣ</small></div>
+            </div>
+
+            <div class="highlight-card success">
+                <span class="badge-board">ମସ୍ତିଷ୍କର ମହତ୍ତ୍ୱପୂର୍ଣ୍ଣ ତଥ୍ୟ</span>
+                <ul>
+                    <li><strong>ସୁରକ୍ଷା:</strong> ମସ୍ତିଷ୍କ ଟାଣ ଖପୁରୀ <span class="eng-term">(Skull)</span> ମଧ୍ୟରେ ସୁରକ୍ଷିତ। ଏହାର ବାହ୍ୟ ଆବରଣକୁ <strong>ମେନିଞ୍ଜେସ୍ <span class="eng-term">(Meninges)</span></strong> କୁହାଯାଏ।</li>
+                    <li><strong>ସେରିବ୍ରୋସ୍ପାଇନାଲ୍ ଦ୍ରବ <span class="eng-term">(Cerebrospinal Fluid - CSF)</span>:</strong> ନିଳୟ <span class="eng-term">(Ventricles)</span> ଓ ମସ୍ତିଷ୍କ ଚାରିପାଖରେ ଥିବା ତରଳ ଯାହା ବାୟୁମଣ୍ଡଳୀୟ ଚାପରୁ ରକ୍ଷା କରେ, ଖାଦ୍ୟ/ଅମ୍ଳଜାନ ଯୋଗାଏ।</li>
+                    <li><strong>ଓଜନ:</strong> ନବଜାତ ଶିଶୁ = ~୪୦୦ ଗ୍ରାମ୍, ବୟସ୍କ ବ୍ୟକ୍ତି = ~୧୫୦୦ ଗ୍ରାମ୍। (ରକ୍ତ ପ୍ରବାହ: ୭୫୦ ମିଲି/ମିନିଟ୍)।</li>
+                </ul>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: var(--primary-dark);">୨.୧ ମସ୍ତିଷ୍କର ବିଭିନ୍ନ ଅଂଶ ଓ ସେଗୁଡ଼ିକର କାର୍ଯ୍ୟ</h3>
+
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ମୁଖ୍ୟ ଭାଗ</th>
+                            <th>ଉପ-ଅଂଶ <span class="eng-term">(Sub-parts)</span></th>
+                            <th>ମୁଖ୍ୟ କାର୍ଯ୍ୟ <span class="eng-term">(Functions)</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3"><strong>୧. ଅଗ୍ରମସ୍ତିଷ୍କ <span class="eng-term">(Forebrain)</span></strong></td>
+                            <td>ଘ୍ରାଣପାଳି <span class="eng-term">(Olfactory Lobe)</span></td>
+                            <td>ଗନ୍ଧ ବାରିବା/ସୁଙ୍ଘିବା ଶକ୍ତି (ମଣିଷଠାରେ କ୍ଷୀଣ, କୁକୁର/ବିରାଡ଼ିଠାରେ ଉନ୍ନତ)।</td>
+                        </tr>
+                        <tr>
+                            <td>ପ୍ରମସ୍ତିଷ୍କ <span class="eng-term">(Cerebrum)</span></td>
+                            <td>ମସ୍ତିଷ୍କର ସବୁଠାରୁ ବଡ଼ ଭାଗ। ସ୍ମରଣ ଶକ୍ତି, ଚିନ୍ତାଶକ୍ତି, ତାପ, କଷ୍ଟ, ଚାପ, ସ୍ପର୍ଶ ବାରିବା।</td>
+                        </tr>
+                        <tr>
+                            <td>ପଶ୍ଚ ଅଗ୍ରମସ୍ତିଷ୍କ <span class="eng-term">(Diencephalon)</span></td>
+                            <td>ପିନିଆଲ୍ ଗ୍ରନ୍ଥି ଓ <strong>ହାଇପୋଥାଲାମସ୍ <span class="eng-term">(Hypothalamus)</span></strong> ଥାଏ। ଶରୀର ତାପମାତ୍ରା, ହୃଦ୍‌ସ୍ପନ୍ଦନ, ରକ୍ତଚାପ, ନିଦ୍ରା, ଭୟ, ରାଗ ନିୟନ୍ତ୍ରଣ।</td>
+                        </tr>
+                        <tr>
+                            <td><strong>୨. ମଧ୍ୟମସ୍ତିଷ୍କ <span class="eng-term">(Midbrain)</span></strong></td>
+                            <td>ପିଣ୍ଡଚତୁଷ୍ଟୟ <span class="eng-term">(Corpora Quadrigemina)</span></td>
+                            <td>୪ଟି ବର୍ତ୍ତୁଳ ପିଣ୍ଡ। ଉପର ୨ଟି: ଦୃଷ୍ଟି ପ୍ରତିକ୍ଷେପ <span class="eng-term">(Vision Reflex)</span>, ତଳ ୨ଟି: ଶ୍ରବଣ ପ୍ରତିକ୍ଷେପ <span class="eng-term">(Auditory Reflex)</span>।</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2"><strong>୩. ପଶ୍ଚମସ୍ତିଷ୍କ <span class="eng-term">(Hindbrain)</span></strong></td>
+                            <td>ଅନୁମସ୍ତିଷ୍କ <span class="eng-term">(Cerebellum)</span></td>
+                            <td>ମସ୍ତିଷ୍କର ଦ୍ୱିତୀୟ ବୃହତ୍ତମ ଅଂଶ। ଶରୀରର ସନ୍ତୁଳନ <span class="eng-term">(Balance)</span> ଓ ଭାରସାମ୍ୟ ରକ୍ଷା କରିବା।</td>
+                        </tr>
+                        <tr>
+                            <td>ସୁଷୁମ୍ନାଶୀର୍ଷକ <span class="eng-term">(Medulla Oblongata)</span></td>
+                            <td>ଶ୍ୱାସକେନ୍ଦ୍ର <span class="eng-term">(Respiratory Centre)</span> ଓ ହୃଦ୍‌କେନ୍ଦ୍ର <span class="eng-term">(Cardiac Centre)</span>। ରକ୍ତଚାପ, ଛିଙ୍କ, କାଶ, ବାନ୍ତି, ଖାଦ୍ୟ ଗିଳିବା।</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- SECTION 3: NEURON & REFLEX ACTION -->
+        <section id="neuron-reflex">
+            <div class="section-header">
+                <div class="icon">3</div>
+                <h2>ସ୍ନାୟୁକୋଷ ଓ ପ୍ରତିକ୍ଷେପ କ୍ରିୟା <span class="eng-term">(Neuron & Reflex Action)</span></h2>
+            </div>
+
+            <p><strong>ସ୍ନାୟୁକୋଷ <span class="eng-term">(Neuron)</span>:</strong> ସ୍ନାୟୁତନ୍ତ୍ରର ଗାଠନିକ <span class="eng-term">(Structural)</span> ଓ କ୍ରିୟାତ୍ମକ <span class="eng-term">(Functional)</span> ଏକକ। ଏହା ଆମ ଶରୀରର ଦୀର୍ଘତମ କୋଷ। ସ୍ନାୟୁକୋଷରେ ସେଣ୍ଟ୍ରୋଜୋମ୍ <span class="eng-term">(Centrosome)</span> ନଥାଏ, ତେଣୁ ପରିପକ୍ୱ ସ୍ନାୟୁକୋଷର ବିଭାଜନ ହୁଏନାହିଁ।</p>
+
+            <!-- SVG Diagram Placeholder for Neuron -->
+            <div class="diagram-card">
+                <svg viewBox="0 0 800 200" width="100%" height="160">
+                    <!-- Dendrites -->
+                    <path d="M 50 100 L 100 100 M 70 60 L 110 85 M 70 140 L 110 115" stroke="#1e40af" stroke-width="4" stroke-linecap="round"/>
+                    <!-- Cell Body -->
+                    <polygon points="100,70 160,50 200,100 160,150 100,130 90,100" fill="#ccfbf1" stroke="#0d9488" stroke-width="3"/>
+                    <circle cx="140" cy="100" r="18" fill="#1e40af"/>
+                    <text x="133" y="105" fill="white" font-size="12" font-weight="bold">Nucleus</text>
+                    <!-- Axon Hillock & Axon -->
+                    <path d="M 200 100 L 600 100" stroke="#d97706" stroke-width="8"/>
+                    <!-- Myelin Sheath segments -->
+                    <rect x="230" y="85" width="70" height="30" rx="5" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+                    <rect x="330" y="85" width="70" height="30" rx="5" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+                    <rect x="430" y="85" width="70" height="30" rx="5" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+                    <rect x="530" y="85" width="70" height="30" rx="5" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+                    <!-- Telodendria & End Knobs -->
+                    <path d="M 600 100 L 660 70 M 600 100 L 670 100 M 600 100 L 660 130" stroke="#1e40af" stroke-width="3"/>
+                    <circle cx="660" cy="70" r="6" fill="#dc2626"/>
+                    <circle cx="670" cy="100" r="6" fill="#dc2626"/>
+                    <circle cx="660" cy="130" r="6" fill="#dc2626"/>
+                    <!-- Labels -->
+                    <text x="50" y="40" fill="#1e40af" font-weight="bold">ଡେନ୍‌ଡ୍ରାଇଟ୍ (Dendrite)</text>
+                    <text x="110" y="30" fill="#0d9488" font-weight="bold">ସେଲବଡି (Cell Body)</text>
+                    <text x="360" y="70" fill="#d97706" font-weight="bold">ଆକ୍‌ସନ୍ (Axon)</text>
+                    <text x="640" y="45" fill="#dc2626" font-weight="bold">ଏଣ୍ଡ ନବ (End Knob)</text>
+                </svg>
+                <div class="diagram-title">ଚିତ୍ର ୩.୧: ସ୍ନାୟୁକୋଷର ଗଠନ (Structure of a Neuron)</div>
+            </div>
+
+            <div class="grid-2">
+                <div class="feature-box">
+                    <h4>ସିନାପ୍‌ସ୍ <span class="eng-term">(Synapse)</span></h4>
+                    <p>ଗୋଟିଏ ସ୍ନାୟୁକୋଷର ଆକ୍‌ସନ୍‌ର ଶେଷଭାଗ (ଏଣ୍ଡ ନବ) ଏବଂ ନିକଟବର୍ତ୍ତୀ ଅନ୍ୟ ସ୍ନାୟୁକୋଷର ଡେନ୍‌ଡ୍ରାଇଟ୍‌ର ସଂଯୋଗ ସ୍ଥଳକୁ <strong>ସିନାପ୍‌ସ୍</strong> କୁହାଯାଏ।</p>
+                    <p><strong>ନ୍ୟୁରୋଟ୍ରାନ୍ସମିଟର <span class="eng-term">(Neurotransmitter)</span>:</strong> ଏଣ୍ଡ ନବ୍‌ର ସିନାପ୍ଟିକ ଭେସିକଲ୍‌ରୁ <strong>ଏସିଟିଲ୍‌କୋଲିନ୍ <span class="eng-term">(Acetylcholine)</span></strong> ନାମକ ରାସାୟନିକ ପଦାର୍ଥ କ୍ଷରିତ ହୋଇ ଆବେଗକୁ ସଞ୍ଚାରିତ କରେ।</p>
+                </div>
+
+                <div class="feature-box">
+                    <h4>ପ୍ରତିକ୍ଷେପ କ୍ରିୟା <span class="eng-term">(Reflex Action)</span></h4>
+                    <p>ମସ୍ତିଷ୍କ ବା ସୁଷୁମ୍ନାକାଣ୍ଡ ଦ୍ୱାରା ପରିଚାଳିତ ସ୍ୱତଃସ୍ଫୂର୍ତ୍ତ <span class="eng-term">(Spontaneous)</span> ଓ ସ୍ୱତଃପ୍ରବୃତ୍ତ <span class="eng-term">(Automatic)</span> ପ୍ରକ୍ରିୟା।</p>
+                    <p><strong>ଉଦାହରଣ:</strong> ନିଆଁରେ ହାତ ବାଜିଲେ ତୁରନ୍ତ ଘୁଞ୍ଚାଇ ଆଣିବା, ଆଖି ଆଗକୁ ପୋକ ଆସିଲେ ପତା ବନ୍ଦ ହେବା, ସୁସ୍ୱାଦୁ ଖାଦ୍ୟ ଦେଖି ପାଟିରୁ ଲାଳ ବାହାରିବା।</p>
+                </div>
+            </div>
+
+            <div class="highlight-card warning">
+                <span class="badge-board">ପରୀକ୍ଷା ଉପଯୋଗୀ</span>
+                <strong>ଇଭାନ୍ ପି. ପାଭ୍‌ଲୋଭ୍ <span class="eng-term">(Ivan P. Pavlov)</span>:</strong> ରୁଷୀୟ ବୈଜ୍ଞାନିକ। ସେ କୁକୁରକୁ ଘଣ୍ଟି ବଜାଇ ଖାଦ୍ୟ ଦେବା ପରୀକ୍ଷା ଦ୍ୱାରା ପ୍ରମାଣିତ କରିଥିଲେ ଯେ ଲାଳ କ୍ଷରଣ ସ୍ନାୟୁତନ୍ତ୍ରର ପ୍ରତିକ୍ଷେପ କ୍ରିୟା ଦ୍ୱାରା ପରିଚାଳିତ। (ଏଥିପାଇଁ ୧୯୦୪ ରେ ନୋବେଲ୍ ପୁରସ୍କାର ପାଇଥିଲେ)।
+            </div>
+
+            <h3 style="margin: 20px 0 10px; color: var(--primary-dark);">ଏକକ ସିନାପ୍‌ଟିକ ପ୍ରତିକ୍ଷେପ ଚାପ <span class="eng-term">(Reflex Arc)</span></h3>
+            <div class="flowchart">
+                <div class="flow-step">ଗ୍ରାହୀ ଅଙ୍ଗ (Receptor)<br><small>ଚର୍ମ / ଆଖି / କାନ</small></div>
+                <div class="flow-arrow">➔</div>
+                <div class="flow-step">ସଂଜ୍ଞାବହ ସ୍ନାୟୁ<br><small>(Sensory Nerve)</small></div>
+                <div class="flow-arrow">➔</div>
+                <div class="flow-step">ସୁଷୁମ୍ନାକାଣ୍ଡ<br><small>(Spinal Cord)</small></div>
+                <div class="flow-arrow">➔</div>
+                <div class="flow-step">ଆଜ୍ଞାବହ ସ୍ନାୟୁ<br><small>(Motor Nerve)</small></div>
+                <div class="flow-arrow">➔</div>
+                <div class="flow-step">କାର୍ଯ୍ୟକାରୀ ଅଙ୍ଗ (Effector)<br><small>ପେଶୀ / ଗ୍ରନ୍ଥି</small></div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: CHEMICAL COORDINATION & ENDOCRINE SYSTEM -->
+        <section id="endocrine-system">
+            <div class="section-header">
+                <div class="icon">4</div>
+                <h2>ରାସାୟନିକ ସମନ୍ବୟ ଓ ଅନ୍ତଃସ୍ରାବୀ ତନ୍ତ୍ର <span class="eng-term">(Chemical Coordination & Endocrine System)</span></h2>
+            </div>
+
+            <p>ଆମ ଶରୀରରେ ଦୁଇ ପ୍ରକାର ଗ୍ରନ୍ଥି ରହିଛି: <strong>ବହିଃସ୍ରାବୀ ଗ୍ରନ୍ଥି <span class="eng-term">(Exocrine Glands)</span></strong> ଓ <strong>ଅନ୍ତଃସ୍ରାବୀ ଗ୍ରନ୍ଥି <span class="eng-term">(Endocrine Glands)</span></strong>।</p>
+
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ବିଷୟ</th>
+                            <th>ବହିଃସ୍ରାବୀ ଗ୍ରନ୍ଥି <span class="eng-term">(Exocrine Gland)</span></th>
+                            <th>ଅନ୍ତଃସ୍ରାବୀ ଗ୍ରନ୍ଥି <span class="eng-term">(Endocrine Gland)</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>ନଳୀର ଉପସ୍ଥିତି</strong></td>
+                            <td>ନଳୀଯୁକ୍ତ <span class="eng-term">(Duct present)</span></td>
+                            <td>ନଳୀବିହୀନ / ଅନାଳ ଗ୍ରନ୍ଥି <span class="eng-term">(Ductless)</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>କ୍ଷରିତ ପଦାର୍ଥ</strong></td>
+                            <td>ଏନ୍‌ଜାଇମ୍ <span class="eng-term">(Enzyme)</span> ଓ ଅନ୍ୟ ରସ</td>
+                            <td>ହର୍ମୋନ୍ <span class="eng-term">(Hormone)</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>ପରିବହନ</strong></td>
+                            <td>ନିର୍ଦ୍ଦିଷ୍ଟ ନଳୀ ଦେଇ ଗ୍ରନ୍ଥି ବାହାରକୁ ଆସେ</td>
+                            <td>ସିଧାସଳଖ ରକ୍ତରେ ମିଶି ଲକ୍ଷ୍ୟ ଅଙ୍ଗକୁ ଯାଏ</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ଉଦାହରଣ</strong></td>
+                            <td>ଲାଳଗ୍ରନ୍ଥି, ଯକୃତ୍, ଘର୍ମଗ୍ରନ୍ଥି</td>
+                            <td>ପିଟୁଇଟାରି, ଥାଇରଏଡ୍, ଏଡ୍ରିନାଲ୍</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 style="margin: 25px 0 15px; color: var(--primary-dark);">୪.୧ ମାନବ ଶରୀରର ମୁଖ୍ୟ ଅନ୍ତଃସ୍ରାବୀ ଗ୍ରନ୍ଥି ଓ ହର୍ମୋନ୍</h3>
+
+            <div class="grid-3">
+                <div class="feature-box">
+                    <h4>ପିଟୁଇଟାରି ଗ୍ରନ୍ଥି <span class="eng-term">(Pituitary)</span></h4>
+                    <p><strong>ମାଷ୍ଟର ଗ୍ରନ୍ଥି / ପୋଷ ଗ୍ରନ୍ଥି:</strong></p>
+                    <ul style="font-size: 0.88rem; padding-left: 15px;">
+                        <li><strong>GH:</strong> ବୃଦ୍ଧି ନିୟନ୍ତ୍ରଣ। ଅଭାବ = ବାମନତା <span class="eng-term">(Dwarfism)</span>, ଅଧିକ = ଅତିକାୟତ୍ୱ <span class="eng-term">(Gigantism)</span>।</li>
+                        <li><strong>PRL:</strong> ସ୍ତନ୍ୟଗ୍ରନ୍ଥିରେ କ୍ଷୀର ତିଆରି।</li>
+                        <li><strong>Oxytocin:</strong> ପ୍ରସବ ସମୟରେ ଜରାୟୁ ସଙ୍କୋଚନ, କ୍ଷୀର ଝରାଇବା।</li>
+                        <li><strong>Vasopressin (ADH):</strong> ବୃକ୍କରୁ ଜଳ ପୁନଃଶୋଷଣ। ଅଭାବ = <strong>ଡାଇବେଟିସ୍ ଇନ୍‌ସିପିଡସ୍ / ବହୁମୂତ୍ର</strong>।</li>
+                    </ul>
+                </div>
+
+                <div class="feature-box">
+                    <h4>ଥାଇରଏଡ୍ ଗ୍ରନ୍ଥି <span class="eng-term">(Thyroid)</span></h4>
+                    <p><strong>ସ୍ଥାନ:</strong> ବେକର ତଳ ଭାଗରେ ଶ୍ୱାସନଳୀର ଦୁଇପଟେ।</p>
+                    <ul style="font-size: 0.88rem; padding-left: 15px;">
+                        <li><strong>ଥାଇରକ୍ସିନ୍ <span class="eng-term">(Thyroxin)</span>:</strong> କୋଷର ଅମ୍ଳଜାନ ବିନିଯୋଗ ଓ ଶକ୍ତି ସୃଷ୍ଟି ବଢ଼ାଏ।</li>
+                        <li>ବେଙ୍ଗଫୁଲାର ରୂପାନ୍ତରଣ <span class="eng-term">(Metamorphosis)</span> ରେ ସାହାଯ୍ୟ କରେ।</li>
+                    </ul>
+                </div>
+
+                <div class="feature-box">
+                    <h4>ଏଡ୍ରିନାଲ୍ ଗ୍ରନ୍ଥି <span class="eng-term">(Adrenal)</span></h4>
+                    <p><strong>ଆପଦକାଳୀନ ଗ୍ରନ୍ଥି <span class="eng-term">(Emergency Gland)</span>:</strong></p>
+                    <ul style="font-size: 0.88rem; padding-left: 15px;">
+                        <li>ବୃକ୍କର ଉପରିଭାଗରେ ଥାଏ।</li>
+                        <li><strong>ଏଡ୍ରିନାଲିନ୍ <span class="eng-term">(Adrenaline)</span>:</strong> ଭୟ, ରାଗ, ଆକସ୍ମିକ ଆଘାତ ଓ ଉତ୍ତେଜିତ ଅବସ୍ଥାରେ କ୍ଷରିତ ହୋଇ ଶରୀରକୁ ସାମ୍ନା କରିବାକୁ ପ୍ରସ୍ତୁତ କରେ।</li>
+                    </ul>
+                </div>
+
+                <div class="feature-box">
+                    <h4>ଅଗ୍ନ୍ୟାଶୟ <span class="eng-term">(Pancreas)</span></h4>
+                    <p><strong>ମିଶ୍ରିତ ଗ୍ରନ୍ଥି <span class="eng-term">(Mixed Gland)</span>:</strong></p>
+                    <ul style="font-size: 0.88rem; padding-left: 15px;">
+                        <li>ଆଇଲେଟ୍‌ସ୍ ଅଫ୍ ଲାଙ୍ଗର୍‌ହାନସ୍ <span class="eng-term">(Islets of Langerhans)</span>:</li>
+                        <li><strong>α-କୋଷ:</strong> ଗ୍ଲୁକାଗନ୍ <span class="eng-term">(Glucagon)</span></li>
+                        <li><strong>β-କୋଷ:</strong> ଇନ୍‌ସୁଲିନ୍ <span class="eng-term">(Insulin)</span> - ରକ୍ତ ଶର୍କରା ନିୟନ୍ତ୍ରଣ କରେ। ଅଭାବ = <strong>ମଧୁମେହ <span class="eng-term">(Diabetes Mellitus)</span></strong>।</li>
+                    </ul>
+                </div>
+
+                <div class="feature-box">
+                    <h4>ଜନନ ଗ୍ରନ୍ଥି <span class="eng-term">(Gonads)</span></h4>
+                    <p><strong>ଶୁକ୍ରାଶୟ ଓ ଡିମ୍ବାଶୟ:</strong></p>
+                    <ul style="font-size: 0.88rem; padding-left: 15px;">
+                        <li><strong>ଶୁକ୍ରାଶୟ (Leydig cells):</strong> ଟେଷ୍ଟୋଷ୍ଟେରନ୍ (ପୁରୁଷ ଗୌଣ ଲିଙ୍ଗୀୟ ଲକ୍ଷଣ)।</li>
+                        <li><strong>ଡିମ୍ବାଶୟ:</strong> ଇଷ୍ଟ୍ରୋଜେନ୍ ଓ ପ୍ରୋଜେଷ୍ଟେରନ୍। (ପ୍ରୋଜେଷ୍ଟେରନ୍ = <strong>ଗର୍ଭାବସ୍ଥାର ହର୍ମୋନ୍</strong>)।</li>
+                    </ul>
+                </div>
+
+                <div class="feature-box">
+                    <h4>ପିନିଆଲ୍ & ଭ୍ରୂଣବନ୍ଧ</h4>
+                    <p><strong>ଅନ୍ୟାନ୍ୟ ଅନ୍ତଃସ୍ରାବୀ ଅଙ୍ଗ:</strong></p>
+                    <ul style="font-size: 0.88rem; padding-left: 15px;">
+                        <li><strong>ପିନିଆଲ୍ ଗ୍ରନ୍ଥି (150mg):</strong> ମେଲାଟୋନିନ୍ (ଜୈବିକ ଘଡ଼ି / Biological Clock)।</li>
+                        <li><strong>ଭ୍ରୂଣବନ୍ଧ <span class="eng-term">(Placenta)</span>:</strong> ସାମୟିକ ଗ୍ରନ୍ଥି। <strong>HCG ହର୍ମୋନ୍</strong> କ୍ଷରଣ କରେ (ଗର୍ଭସଞ୍ଚାର ନିର୍ଣ୍ଣୟ ପରୀକ୍ଷା/Pregnancy Test)।</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="highlight-card">
+                <span class="badge-board">ଫେରନ୍ତାସଙ୍କେତ ନିୟନ୍ତ୍ରଣ</span>
+                <strong>Feedback Control & Homeostasis:</strong> ଶରୀରର ଅନ୍ତଃପରିବେଶକୁ ସ୍ଥାୟୀ ରଖିବା ପ୍ରକ୍ରିୟାକୁ <strong>ସମସ୍ଥିତି <span class="eng-term">(Homeostasis)</span></strong> କୁହାଯାଏ। ରକ୍ତରେ ଥାଇରକ୍ସିନ୍ କମିଗଲେ ହାଇପୋଥାଲାମସ୍ ରିଲିଜିଙ୍ଗ୍ ହର୍ମୋନ୍ ପଠାଏ ➔ ପିଟୁଇଟାରିରୁ TSH କ୍ଷରିତ ହୁଏ ➔ ଥାଇରଏଡ୍‌ରୁ ଥାଇରକ୍ସିନ୍ ତିଆରି ହୁଏ। ପରିମାଣ ସ୍ୱାଭାବିକ ହେଲେ କ୍ଷରଣ ଆପେ ଆପେ ବନ୍ଦ ହୁଏ।
+            </div>
+        </section>
+
+        <!-- SECTION 5: INTERACTIVE TEXTBOOK Q&A -->
+        <section id="qa-section">
+            <div class="section-header">
+                <div class="icon">5</div>
+                <h2>ପାଠ୍ୟପୁସ୍ତକ ଅଭ୍ୟାସ ପ୍ରଶ୍ନୋତ୍ତର <span class="eng-term">(Textbook Q&A Solution)</span></h2>
+            </div>
+
+            <details>
+                <summary>୧. ଫାଇଟୋହର୍ମୋନ୍ କ’ଣ ? ସେଗୁଡ଼ିକର ପ୍ରକାରଭେଦ ଓ କାର୍ଯ୍ୟ ବର୍ଣ୍ଣନା କର।</summary>
+                <div class="qa-answer">
+                    <p><strong>ଉତ୍ତର:</strong> ଉଦ୍ଭିଦ ଶରୀରରେ ବୃଦ୍ଧି, ବିକାଶ ଓ ଚଳନକୁ ନିୟନ୍ତ୍ରଣ କରୁଥିବା ଜୈବ ରାସାୟନିକ ପଦାର୍ଥଗୁଡ଼ିକୁ ଫାଇଟୋହର୍ମୋନ୍ କୁହାଯାଏ।</p>
+                    <p>ଏଗୁଡ଼ିକ ମୁଖ୍ୟତଃ ୫ ପ୍ରକାରର: (୧) ଅକ୍ସିନ୍ (କୋଷ ପ୍ରସାରଣ ଓ ବୃଦ୍ଧି), (୨) ଜିବରେଲିନ୍ (କାଣ୍ଡର ଲମ୍ବ ବୃଦ୍ଧି), (୩) ସାଇଟୋକାଇନିନ୍ (ଦ୍ରୁତ କୋଷ ବିଭାଜନ), (୪) ଏଥିଲିନ୍ (ଫଳ ପାଚିବା), (୫) ଆବସିସିକ୍ ଏସିଡ୍ (ବୃଦ୍ଧି ହ୍ରାସକ)।</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>୨. ସିନାପ୍‌ସ୍ <span class="eng-term">(Synapse)</span> କହିଲେ କ’ଣ ବୁଝ ?</summary>
+                <div class="qa-answer">
+                    <p><strong>ଉତ୍ତର:</strong> ଗୋଟିଏ ସ୍ନାୟୁକୋଷର ଆକ୍‌ସନ୍‌ର ଶାଖାଯୁକ୍ତ ଶେଷଭାଗ (ଏଣ୍ଡ ନବ୍) ଏବଂ ନିକଟବର୍ତ୍ତୀ ଅନ୍ୟ ସ୍ନାୟୁକୋଷର ଡେନ୍‌ଡ୍ରାଇଟ୍ ମଧ୍ୟରେ ଥିବା ସୂକ୍ଷ୍ମ ସଂଯୋଗ ସ୍ଥଳକୁ ସିନାପ୍‌ସ୍ କୁହାଯାଏ। ଏଠାରୁ ଏସିଟିଲ୍‌କୋଲିନ୍ କ୍ଷରିତ ହୋଇ ଆବେଗ ପରିବାହିତ କରେ।</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>୩. ଆଇଲେଟ୍‌ସ୍ ଅଫ୍ ଲାଙ୍ଗର୍‌ହାନସ୍ କେଉଁଠି ଥାଏ ? ଏହାର କୋଷଗୁଡ଼ିକର ନାମ ଓ କାର୍ଯ୍ୟ ଲେଖ।</summary>
+                <div class="qa-answer">
+                    <p><strong>ଉତ୍ତର:</strong> ଆଇଲେଟ୍‌ସ୍ ଅଫ୍ ଲାଙ୍ଗର୍‌ହାନସ୍ ଅଗ୍ନ୍ୟାଶୟ <span class="eng-term">(Pancreas)</span> ର ହର୍ମୋନ୍ କ୍ଷରଣକାରୀ ଅଂଶରେ ଥାଏ।</p>
+                    <ul>
+                        <li><strong>ଆଲ୍‌ଫା-କୋଷ (α-cells):</strong> ଗ୍ଲୁକାଗନ୍ <span class="eng-term">(Glucagon)</span> କ୍ଷରଣ କରେ।</li>
+                        <li><strong>ବିଟା-କୋଷ (β-cells):</strong> ଇନ୍‌ସୁଲିନ୍ <span class="eng-term">(Insulin)</span> କ୍ଷରଣ କରି ରକ୍ତରେ ଶର୍କରା ସ୍ତର ନିୟନ୍ତ୍ରଣ କରେ।</li>
+                        <li><strong>ଡେଲ୍‌ଟା-କୋଷ (σ-cells):</strong> ସୋମାଟୋଷ୍ଟାଟିନ୍ <span class="eng-term">(Somatostatin)</span> କ୍ଷରଣ କରେ।</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details>
+                <summary>୪. ଏଡ୍ରିନାଲ୍‌କୁ କାହିଁକି ଆପଦକାଳୀନ ଗ୍ରନ୍ଥି <span class="eng-term">(Emergency Gland)</span> କୁହାଯାଏ ?</summary>
+                <div class="qa-answer">
+                    <p><strong>ଉତ୍ତର:</strong> ଆକସ୍ମିକ ଆଘାତ, ଭୟ, ରାଗ, ଅବଶ ଓ ଉତ୍ତେଜିତ ଅବସ୍ଥାରେ ଏଡ୍ରିନାଲ୍ ଗ୍ରନ୍ଥିରୁ 'ଏଡ୍ରିନାଲିନ୍' ହର୍ମୋନ୍ ଦ୍ରୁତ କ୍ଷରିତ ହୋଇ ଶରୀରକୁ ଏହି ଆପଦକାଳୀନ ପରିସ୍ଥିତିର ସାମ୍ନା କରିବା ପାଇଁ ତୁରନ୍ତ ପ୍ରସ୍ତୁତ କରିଥାଏ। ତେଣୁ ଏହାକୁ ଆପଦକାଳୀନ ଗ୍ରନ୍ଥି କୁହାଯାଏ।</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>୫. ଡାଇବେଟିସ୍ ଇନ୍‌ସିପିଡସ୍ ଓ ଡାଇବେଟିସ୍ ମେଲିଟସ୍ ମଧ୍ୟରେ ପ୍ରଭେଦ ଦର୍ଶାଅ।</summary>
+                <div class="qa-answer">
+                    <p><strong>ଉତ୍ତର:</strong></p>
+                    <ul>
+                        <li><strong>ଡାଇବେଟିସ୍ ଇନ୍‌ସିପିଡସ୍ (ବହୁମୂତ୍ର):</strong> ପିଟୁଇଟାରି ଗ୍ରନ୍ଥିରୁ <strong>ଭାସୋପ୍ରେସିନ୍ (ADH)</strong> ହର୍ମୋନ୍ ଅଳ୍ପ କ୍ଷରିତ ହେଲେ ହୁଏ। ଏଥିରେ ରୋଗୀ ଦିନକୁ ପ୍ରାୟ ୨୦ ଲିଟର ପରିସ୍ରା କରେ।</li>
+                        <li><strong>ଡାଇବେଟିସ୍ ମେଲିଟସ୍ (ମଧୁମେହ):</strong> ଅଗ୍ନ୍ୟାଶୟର ବିଟା-କୋଷରୁ <strong>ଇନ୍‌ସୁଲିନ୍</strong> ହର୍ମୋନ୍ ଅଭାବ ହେଲେ ରକ୍ତରେ ଶର୍କରା ପରିମାଣ ବଢ଼ି ଏହି ରୋଗ ହୁଏ।</li>
+                    </ul>
+                </div>
+            </details>
+        </section>
+
+        <!-- SECTION 6: GRAND REVISION MCQ QUIZ -->
+        <section id="mcq-quiz">
+            <div class="section-header">
+                <div class="icon">6</div>
+                <h2>ଗ୍ରାଣ୍ଡ୍ ରିଭିଜନ୍ MCQ କୁଇଜ୍ <span class="eng-term">(BSE Odisha Board Pattern)</span></h2>
+            </div>
+
+            <div class="score-board">
+                <h3>ସ୍କୋର୍ କାର୍ଡ (Score Card)</h3>
+                <p id="score-text">ପ୍ରଶ୍ନଗୁଡ଼ିକର ଉତ୍ତର ଦିଅନ୍ତୁ: 0 / 5</p>
+            </div>
+
+            <!-- Quiz Q1 -->
+            <div class="quiz-card" id="q1">
+                <div class="quiz-q">Q1. ଉଦ୍ଭିଦରେ ଫୁଲ ଫୁଟିବା ପ୍ରକ୍ରିୟାକୁ କେଉଁ ହର୍ମୋନ୍ ସାହାଯ୍ୟ କରେ ?</div>
+                <div class="quiz-options">
+                    <button class="quiz-opt" onclick="checkAnswer('q1', 0, false)">A) ଅକ୍ସିନ୍ (Auxin)</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q1', 1, true)">B) ଫ୍ଲୋରିଜେନ୍ (Florigen)</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q1', 2, false)">C) ଏଥିଲିନ୍ (Ethylene)</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q1', 3, false)">D) ଆବସିସିକ୍ ଏସିଡ୍ (ABA)</button>
+                </div>
+                <div class="quiz-feedback" id="q1-fb"></div>
+            </div>
+
+            <!-- Quiz Q2 -->
+            <div class="quiz-card" id="q2">
+                <div class="quiz-q">Q2. ଜଣେ ବୟସ୍କ ବ୍ୟକ୍ତିଙ୍କ ମସ୍ତିଷ୍କର ଓଜନ ପ୍ରାୟ କେତେ ଗ୍ରାମ୍ ?</div>
+                <div class="quiz-options">
+                    <button class="quiz-opt" onclick="checkAnswer('q2', 0, false)">A) ୪୦୦ ଗ୍ରାମ୍</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q2', 1, false)">B) ୭୫୦ ଗ୍ରାମ୍</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q2', 2, true)">C) ୧୫୦୦ ଗ୍ରାମ୍</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q2', 3, false)">D) ୨୦୦୦ ଗ୍ରାମ୍</button>
+                </div>
+                <div class="quiz-feedback" id="q2-fb"></div>
+            </div>
+
+            <!-- Quiz Q3 -->
+            <div class="quiz-card" id="q3">
+                <div class="quiz-q">Q3. ମଣିଷ ଶରୀରରେ କେତେ ଯୋଡ଼ା କରୋଟି ସ୍ନାୟୁ (Cranial Nerves) ରହିଛି ?</div>
+                <div class="quiz-options">
+                    <button class="quiz-opt" onclick="checkAnswer('q3', 0, true)">A) ୧୨ ଯୋଡ଼ା</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q3', 1, false)">B) ୩୧ ଯୋଡ଼ା</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q3', 2, false)">C) ୧୦ ଯୋଡ଼ା</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q3', 3, false)">D) ୨୪ ଯୋଡ଼ା</button>
+                </div>
+                <div class="quiz-feedback" id="q3-fb"></div>
+            </div>
+
+            <!-- Quiz Q4 -->
+            <div class="quiz-card" id="q4">
+                <div class="quiz-q">Q4. ଗର୍ଭାବସ୍ଥାର ହର୍ମୋନ୍ (Pregnancy Hormone) ଭାବେ କେଉଁଟି ପରିଚିତ ?</div>
+                <div class="quiz-options">
+                    <button class="quiz-opt" onclick="checkAnswer('q4', 0, false)">A) ଇଷ୍ଟ୍ରୋଜେନ୍ (Estrogen)</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q4', 1, true)">B) ପ୍ରୋଜେଷ୍ଟେରନ୍ (Progesterone)</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q4', 2, false)">C) ଟେଷ୍ଟୋଷ୍ଟେରନ୍ (Testosterone)</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q4', 3, false)">D) ଥାଇରକ୍ସିନ୍ (Thyroxin)</button>
+                </div>
+                <div class="quiz-feedback" id="q4-fb"></div>
+            </div>
+
+            <!-- Quiz Q5 -->
+            <div class="quiz-card" id="q5">
+                <div class="quiz-q">Q5. ବେଙ୍ଗଫୁଲାର ରୂପାନ୍ତରଣ (Metamorphosis) ରେ କେଉଁ ହର୍ମୋନ୍ ସାହାଯ୍ୟ କରେ ?</div>
+                <div class="quiz-options">
+                    <button class="quiz-opt" onclick="checkAnswer('q5', 0, false)">A) ଇନ୍‌ସୁଲିନ୍ (Insulin)</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q5', 1, false)">B) ଏଡ୍ରିନାଲିନ୍ (Adrenaline)</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q5', 2, true)">C) ଥାଇରକ୍ସିନ୍ (Thyroxin)</button>
+                    <button class="quiz-opt" onclick="checkAnswer('q5', 3, false)">D) ମେଲାଟୋନିନ୍ (Melatonin)</button>
+                </div>
+                <div class="quiz-feedback" id="q5-fb"></div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JavaScript for Interactivity -->
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('.sticky-nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+                
+                document.querySelectorAll('.sticky-nav a').forEach(a => a.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Quiz Logic
+        let score = 0;
+        let answeredQ = new Set();
+
+        function checkAnswer(qId, optIdx, isCorrect) {
+            if (answeredQ.has(qId)) return; // Prevent re-answering
+            
+            answeredQ.add(qId);
+            const card = document.getElementById(qId);
+            const opts = card.querySelectorAll('.quiz-opt');
+            const fb = document.getElementById(qId + '-fb');
+
+            opts.forEach((btn, idx) => {
+                btn.disabled = true;
+                if (idx === optIdx) {
+                    btn.classList.add(isCorrect ? 'correct' : 'wrong');
+                }
+            });
+
+            fb.style.display = 'block';
+            if (isCorrect) {
+                score++;
+                fb.style.color = '#15803d';
+                fb.innerText = "✓ ସଠିକ୍ ଉତ୍ତର! (Correct Answer)";
+            } else {
+                fb.style.color = '#b91c1c';
+                fb.innerText = "✗ ଭୁଲ୍ ଉତ୍ତର! ସଠିକ୍ ଉତ୍ତରଟି ବିକଳ୍ପରେ ସବୁଜ ରଙ୍ଗରେ ଦର୍ଶାଯାଇଛି।";
+                // highlight correct one
+                opts.forEach((btn) => {
+                    if (btn.getAttribute('onclick').includes('true')) {
+                        btn.classList.add('correct');
+                    }
+                });
+            }
+
+            document.getElementById('score-text').innerText = `ଆପଣଙ୍କ ସ୍କୋର୍: ${score} / 5`;
+        }
+    </script>
+</body>
+</html>
