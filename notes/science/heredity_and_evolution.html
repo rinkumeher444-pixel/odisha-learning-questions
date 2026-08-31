@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ବଂଶାନୁକ୍ରମ ଓ ବିବର୍ତ୍ତନ — Class 10 Life Science</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Oriya:wght@400;500;600;700;800&display=swap');
+:root{
+ --ink:#172033;--muted:#667085;--paper:#f7f8fc;--card:#fff;--line:#e6e9f0;
+ --navy:#11182d;--iris:#5967d8;--iris2:#7c88ed;--gold:#e3a51b;
+ --green:#198754;--red:#d94b5b;--teal:#087f8c;--violet:#805ad5;
+ --shadow:0 14px 40px rgba(25,35,65,.09);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'Noto Sans Oriya','Noto Sans Odia',system-ui,sans-serif;line-height:1.78}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:linear-gradient(rgba(89,103,216,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(89,103,216,.025) 1px,transparent 1px);background-size:32px 32px}
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#10162b 0%,#182347 55%,#34428d 100%);color:white;padding:72px 20px 80px}
+.hero:after{content:"";position:absolute;width:520px;height:520px;border:1px solid rgba(255,255,255,.12);border-radius:50%;right:-150px;top:-170px;box-shadow:0 0 0 70px rgba(255,255,255,.025),0 0 0 140px rgba(255,255,255,.018)}
+.wrap{width:min(1080px,calc(100% - 32px));margin:auto}
+.eyebrow{display:inline-flex;gap:8px;align-items:center;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.08);padding:7px 13px;border-radius:99px;font-size:13px;font-weight:700}
+.hero h1{font-size:clamp(35px,6vw,66px);line-height:1.12;margin:22px 0 8px;letter-spacing:-1px}
+.hero .en{font-family:Inter,sans-serif;font-size:18px;color:#cdd4ff}
+.lede{max-width:780px;font-size:17px;color:#e5e8f6;margin:18px 0 0}
+.hero-art{position:absolute;right:8%;bottom:22px;width:230px;opacity:.75}
+.progress{position:sticky;top:0;z-index:50;height:5px;background:#e8ebf5}
+.progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),#ffe08b,var(--iris2))}
+.toc{position:sticky;top:5px;z-index:40;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.toc .wrap{display:flex;gap:7px;overflow:auto;padding:9px 0}
+.toc a{white-space:nowrap;text-decoration:none;color:#495268;border:1px solid transparent;border-radius:9px;padding:7px 10px;font-size:12px;font-weight:700}
+.toc a:hover{background:#f0f2fb;border-color:#dfe3f4;color:var(--iris)}
+main{padding:30px 0 70px}
+section{margin:58px 0;scroll-margin-top:80px}
+.kicker{font-family:Inter,sans-serif;color:var(--iris);font-size:11px;letter-spacing:1.7px;font-weight:800;margin:0 0 6px}
+h2{font-size:clamp(25px,4vw,38px);line-height:1.25;margin:0 0 12px}
+h2 .en{display:block;font-family:Inter,sans-serif;color:#8991a5;font-size:13px;font-weight:600;margin-top:5px;letter-spacing:.3px}
+.lead{font-size:16px;color:#475467;max-width:850px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:20px;box-shadow:var(--shadow)}
+.card h3,.card h4{margin:0 0 8px;line-height:1.4}
+.card p:last-child{margin-bottom:0}
+.concept{border-left:5px solid #77a9ff;background:#edf5ff}
+.exam{border-left:5px solid var(--gold);background:#fff9e8}
+.warn{border-left:5px solid var(--red);background:#fff0f2}
+.success{border-left:5px solid var(--green);background:#edf9f2}
+.purple{border-left:5px solid var(--violet);background:#f5f0ff}
+.label{display:inline-block;font-family:Inter,sans-serif;font-size:11px;font-weight:800;padding:4px 9px;border-radius:99px;background:#eef1fb;color:#5260c9;margin-bottom:9px}
+.flow{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin:20px 0}
+.flow .node{background:white;border:1px solid #d8def0;border-radius:12px;padding:11px 14px;font-weight:700;text-align:center;box-shadow:0 5px 16px rgba(50,60,100,.06)}
+.flow .arrow{font-family:Inter;font-weight:900;color:var(--gold);font-size:20px}
+table{width:100%;border-collapse:collapse;background:white;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+th{background:#f0f2f8;color:#29324a;text-align:left}
+th,td{padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+.diagram{background:#10172c;border-radius:18px;padding:15px;margin:18px 0;overflow:auto;box-shadow:var(--shadow)}
+.diagram svg{display:block;width:100%;min-width:620px;max-height:470px}
+.caption{text-align:center;color:#6d7488;font-size:12px;margin-top:7px}
+.timeline{position:relative;border-left:3px solid #cdd3f4;margin:20px 0 10px 16px;padding-left:22px}
+.timeline .item{position:relative;margin:0 0 22px}
+.timeline .item:before{content:"";position:absolute;left:-31px;top:8px;width:12px;height:12px;border-radius:50%;background:var(--iris);border:3px solid white;box-shadow:0 0 0 2px #cdd3f4}
+.timeline strong{font-family:Inter,sans-serif;color:#4d59bd}
+details{background:white;border:1px solid var(--line);border-radius:13px;margin:10px 0;padding:0 15px}
+summary{cursor:pointer;padding:13px 0;font-weight:700}
+details p{margin-top:0}
+.q{background:white;border:1px solid var(--line);border-radius:14px;padding:16px;margin:12px 0}
+.q .type{font-family:Inter;font-size:10px;font-weight:800;color:var(--iris);letter-spacing:1px}
+.q p{margin:7px 0}
+footer{background:#11182d;color:#c9cfe1;padding:38px 20px;text-align:center;font-size:13px}
+.badge{display:inline-block;padding:3px 8px;border-radius:7px;font:700 11px Inter;background:#eaf7f0;color:#147345}
+.big-number{font:800 30px Inter;color:var(--iris)}
+.quiz label{display:block;padding:9px;border:1px solid #e2e5ed;border-radius:9px;margin:6px 0;cursor:pointer}
+.quiz label:hover{background:#f7f8fd}
+.quiz input{accent-color:var(--iris)}
+.reveal{background:#11182d;color:white;border-radius:14px;padding:17px}
+.reveal b{color:#ffd777}
+.two-col{columns:2;column-gap:34px}
+.two-col li{break-inside:avoid;margin-bottom:7px}
+@media(max-width:760px){
+ .hero{padding:48px 16px 58px}.hero-art{display:none}
+ .wrap{width:min(100% - 22px,1080px)}
+ .grid2,.grid3{grid-template-columns:1fr}
+ section{margin:42px 0}
+ .two-col{columns:1}
+ table{font-size:13px}
+ th,td{padding:9px}
+}
+@media print{
+ .toc,.progress{display:none}.hero{color:#000;background:white}.hero .lede,.hero .en{color:#333}
+ .card,.diagram{box-shadow:none;break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<div class="hero">
+ <div class="wrap">
+  <span class="eyebrow">✦ ଜୀବ ବିଜ୍ଞାନ · ଅଧ୍ୟାୟ ୭ · Class 10</span>
+  <h1>ବଂଶାନୁକ୍ରମ ଓ ବିବର୍ତ୍ତନ</h1>
+  <div class="en">Heredity and Evolution</div>
+  <p class="lede">ମାତା–ପିତାଙ୍କ ଗୁଣ ସନ୍ତାନକୁ କେମିତି ଯାଏ, ମେଣ୍ଡେଲ୍‌ଙ୍କ ପରୀକ୍ଷାରୁ ବଂଶାନୁକ୍ରମର ନିୟମ କେମିତି ମିଳିଲା, ଏବଂ ବିଭିନ୍ନ ପ୍ରମାଣ ଆଧାରରେ ଜୀବମାନଙ୍କ ବିବର୍ତ୍ତନକୁ କେମିତି ବୁଝାଯାଏ—ସବୁକୁ ସହଜ ଭାବରେ ପଢ଼ିବା।</p>
+ </div>
+ <svg class="hero-art" viewBox="0 0 240 220" fill="none">
+  <path d="M45 20C155 65 85 105 195 145C225 156 218 190 180 202" stroke="#FFD777" stroke-width="4"/>
+  <path d="M195 20C85 65 155 105 45 145C15 156 22 190 60 202" stroke="#9AA6FF" stroke-width="4"/>
+  <g fill="#fff"><circle cx="69" cy="37" r="5"/><circle cx="171" cy="37" r="5"/><circle cx="105" cy="91" r="5"/><circle cx="135" cy="91" r="5"/><circle cx="70" cy="146" r="5"/><circle cx="170" cy="146" r="5"/></g>
+ </svg>
+</div>
+<div class="progress"><i id="bar"></i></div>
+<nav class="toc"><div class="wrap">
+ <a href="#intro">7.0 ବଂଶାନୁକ୍ରମ</a><a href="#mendel">7.2 ମେଣ୍ଡେଲ୍</a><a href="#hybrid">7.3 ସଂକରଣ</a>
+ <a href="#genes">ଜିନ୍/ଜିନୋଟାଇପ୍</a><a href="#sex">ଲିଙ୍ଗ ନିର୍ଦ୍ଧାରଣ</a><a href="#evolution">ବିବର୍ତ୍ତନ</a>
+ <a href="#evidence">ପ୍ରମାଣ</a><a href="#darwin">ଡାରୱିନ୍</a><a href="#human">ମଣିଷର ବିବର୍ତ୍ତନ</a>
+ <a href="#revision">Revision</a><a href="#quiz">Quiz</a>
+</div></nav>
+
+<main class="wrap">
+
+<section id="intro">
+ <p class="kicker">01 — ମୂଳ ଧାରଣା</p>
+ <h2>ବଂଶାନୁକ୍ରମ କ'ଣ?<span class="en">Heredity & Phenotypic Variation</span></h2>
+ <p class="lead">ମାତା–ପିତାଙ୍କ ଗୁଣ ପରବର୍ତ୍ତୀ ପିଢ଼ିରେ ପ୍ରକାଶିତ ହେବାର ପ୍ରକ୍ରିୟାକୁ <b>ବଂଶାନୁକ୍ରମ</b> କୁହାଯାଏ। ସନ୍ତାନମାନଙ୍କ ମଧ୍ୟରେ କେତେକ ଗୁଣ ମାତାଙ୍କ ଓ କେତେକ ଗୁଣ ପିତାଙ୍କ ଗୁଣ ସହ ସାମଞ୍ଜସ୍ୟ ରଖେ।</p>
+ <div class="grid2">
+  <div class="card concept"><span class="label">💡 ଉଦାହରଣ</span><h3>ଦେଖାଯାଉଥିବା ଗୁଣ</h3><p>ସନ୍ତାନର ମୁହଁ, କେଶର ରଙ୍ଗ, ଦେହର ରଙ୍ଗ ଇତ୍ୟାଦିରେ ମାତା–ପିତାଙ୍କ ସହ ସାମଞ୍ଜସ୍ୟ ଦେଖାଯାଏ। ମଟର ଗଛର ଫୁଲର ରଙ୍ଗ କିମ୍ବା ଆମ୍ବର ରସାଳୁତା ଭଳି ଲକ୍ଷଣ ମଧ୍ୟ ଉଦାହରଣ।</p></div>
+  <div class="card purple"><span class="label">🔬 ମୁଖ୍ୟ ଶବ୍ଦ</span><h3>Phenotypic variation</h3><p>ଜୀବମାନଙ୍କ ଦୃଶ୍ୟମାନ ବା ଲକ୍ଷଣପ୍ରରୂପୀ ଗୁଣରେ ଦେଖାଯାଉଥିବା ଭିନ୍ନତାକୁ <b>ଲକ୍ଷଣପ୍ରରୂପୀ ବିଭିନ୍ନତା</b> କୁହାଯାଏ। ପିଢ଼ି ପରେ ପିଢ଼ି ଏପରି ଭିନ୍ନତା ରହିଲେ ବିଭିନ୍ନତା ବଢ଼ିପାରେ।</p></div>
+ </div>
+ <div class="flow">
+  <div class="node">ମାତା–ପିତାଙ୍କ ଗୁଣ</div><div class="arrow">→</div>
+  <div class="node">ଜିନୀୟ ପଦାର୍ଥ</div><div class="arrow">→</div>
+  <div class="node">ଯୁଗ୍ମକ</div><div class="arrow">→</div>
+  <div class="node">ସନ୍ତାନ</div><div class="arrow">→</div>
+  <div class="node">ଗୁଣ ପ୍ରକାଶ / ଲୁଚି ରହିବା</div>
+ </div>
+ <div class="card exam"><b>⭐ ପରୀକ୍ଷା ପଏଣ୍ଟ:</b> ଜିନୀୟ ପଦାର୍ଥ ମାତା–ପିତାଙ୍କ ଗୁଣ ବହନ କରେ; ପିଢ଼ି ପରେ ପିଢ଼ି ଏହାର ସଞ୍ଚାର ଫଳରେ ବିଭିନ୍ନ ପିଢ଼ିରେ ଭିନ୍ନ ଗୁଣ ଦେଖାଯାଇପାରେ।</div>
+</section>
+
+<section id="mendel">
+ <p class="kicker">02 — ବଂଶାନୁକ୍ରମ ବିଜ୍ଞାନର ଆରମ୍ଭ</p>
+ <h2>ଗ୍ରେଗର୍ ଜୋହାନ୍ ମେଣ୍ଡେଲ୍<span class="en">Gregor Johann Mendel — Father of Genetics</span></h2>
+ <p class="lead">ମେଣ୍ଡେଲ୍ ମଟର ଗଛ <i>Pisum sativum</i> ଉପରେ ନିରନ୍ତର ଅଧ୍ୟୟନ କରି ବଂଶାନୁକ୍ରମ ସମ୍ପର୍କିତ ସୂତ୍ର ପ୍ରଦାନ କରିଥିଲେ।</p>
+ <div class="grid2">
+  <div class="card"><span class="big-number">7</span><h3>ଯୋଡ଼ା ବିକଳ୍ପୀ ଗୁଣ</h3><p>ମେଣ୍ଡେଲ୍ ମଟର ଗଛରେ ୭ ଯୋଡ଼ା contrasting characters ଚିହ୍ନଟ କରିଥିଲେ।</p></div>
+  <div class="card success"><span class="big-number">1857–1865</span><h3>ଦୀର୍ଘ ଅଧ୍ୟୟନ</h3><p>ମେଣ୍ଡେଲ୍ ୧୮୫୭ରୁ ୧୮୬୫ ପର୍ଯ୍ୟନ୍ତ ଦୀର୍ଘ ସମୟ ଗବେଷଣା କରି ବଂଶାନୁକ୍ରମର ମୌଳିକ ତଥ୍ୟ ପ୍ରତିପାଦନ କରିଥିଲେ।</p></div>
+ </div>
+ <h3>ମଟର ଗଛର ୭ ଯୋଡ଼ା ବିକଳ୍ପୀ ଗୁଣ</h3>
+ <table>
+  <tr><th>#</th><th>ଲକ୍ଷଣ</th><th>ପ୍ରଭାବୀ (Dominant)</th><th>ଅପ୍ରଭାବୀ (Recessive)</th></tr>
+  <tr><td>1</td><td>ଗଛର ଉଚ୍ଚତା</td><td>ଡେଙ୍ଗା</td><td>ଗେଡ଼ା</td></tr>
+  <tr><td>2</td><td>ମଞ୍ଜିର ଆକାର</td><td>ଗୋଲ</td><td>କୁଞ୍ଚିତ</td></tr>
+  <tr><td>3</td><td>ଫୁଲର ସ୍ଥାନ</td><td>ଅକ୍ଷ</td><td>ଅଗ୍ର</td></tr>
+  <tr><td>4</td><td>ମଞ୍ଜିର ରଙ୍ଗ</td><td>ହଳଦିଆ</td><td>ସବୁଜ</td></tr>
+  <tr><td>5</td><td>ଚୋପାର ରଙ୍ଗ</td><td>ଧୂସରିଆ</td><td>ଧଳା</td></tr>
+  <tr><td>6</td><td>ଚୋପାର ଆକାର</td><td>ଫୁଲିତ</td><td>ସଂକୁଚିତ</td></tr>
+  <tr><td>7</td><td>କାଣ୍ଡିଆର ରଙ୍ଗ</td><td>ସବୁଜ</td><td>ହଳଦିଆ</td></tr>
+ </table>
+ <div class="card concept"><b>କାହିଁକି ମଟର?</b><p>ମେଣ୍ଡେଲ୍ ବିଭିନ୍ନ ପ୍ରକାରର ମଟର ମଞ୍ଜି ସଂଗ୍ରହ କରି ବଗିଚାରେ ଲଗାଇ ପିଢ଼ି ପରେ ପିଢ଼ି ଲକ୍ଷଣ ଅନୁସରଣ କରିଥିଲେ। ଏହି ଗୁଣମାନଙ୍କର ଗଣିତୀୟ ବିଶ୍ଳେଷଣ ତାଙ୍କ ନିଷ୍କର୍ଷକୁ ମଜବୁତ କରିଥିଲା।</p></div>
+</section>
+
+<section id="hybrid">
+ <p class="kicker">03 — ମେଣ୍ଡେଲ୍‌ଙ୍କ ସଂକରଣ ପ୍ରଣାଳୀ</p>
+ <h2>Hybridisation → F₁ → F₂<span class="en">Crossing contrasting characters</span></h2>
+ <p class="lead">ବିପରୀତ ଗୁଣ ଥିବା ଦୁଇଟି ଗଛକୁ ପିତୃକ ଗଛ ଭାବେ ନେଇ ନିୟନ୍ତ୍ରିତ ପରାଗସ୍ଥାପନ କରାଯାଇଥିଲା।</p>
+ <div class="flow">
+  <div class="node">ପିତୃକ ପିଢ଼ି (P)</div><div class="arrow">→</div>
+  <div class="node">କୃତ୍ରିମ ସଂକରଣ</div><div class="arrow">→</div>
+  <div class="node">F₁ ପିଢ଼ି</div><div class="arrow">→</div>
+  <div class="node">ସ୍ୱପରାଗଣ</div><div class="arrow">→</div>
+  <div class="node">F₂ ପିଢ଼ି</div>
+ </div>
+ <div class="grid2">
+  <div class="card"><h3>କୃତ୍ରିମ ସଂକରଣର ମୁଖ୍ୟ ପଦକ୍ରମ</h3><ol><li>ନିର୍ଦ୍ଧାରିତ ମାତୃଗଛ ବାଛିବା।</li><li>ଫୁଲର କେଶର ଚକ୍ର ପାକଳ ହେବା ପୂର୍ବରୁ ହଟାଇବା।</li><li>ଅନ୍ୟ ଗଛରୁ ପରାଗରେଣୁ ସଂଗ୍ରହ କରି stigma ଉପରେ ଦେବା।</li><li>ବାହାରର ପରାଗ ନ ଆସିବା ପାଇଁ ଫୁଲକୁ କାଗଜ ଥଳିରେ ଢାକିବା।</li><li>ମଞ୍ଜି ପାକିଲେ ସଂଗ୍ରହ କରି ପରବର୍ତ୍ତୀ ପିଢ଼ି ଅଧ୍ୟୟନ କରିବା।</li></ol></div>
+  <div class="card exam"><h3>ପିଢ଼ିର ନାମ</h3><p><b>P generation:</b> ପିତୃକ ପିଢ଼ି</p><p><b>F₁:</b> ପ୍ରଥମ ଅଜାତ୍ୟ/filial ପିଢ଼ି</p><p><b>F₂:</b> F₁ ଗଛର ମଞ୍ଜିରୁ ହୋଇଥିବା ଦ୍ୱିତୀୟ filial ପିଢ଼ି</p></div>
+ </div>
+
+ <div class="diagram">
+ <svg viewBox="0 0 900 430">
+  <text x="30" y="35" fill="#ffd777" font-size="21" font-weight="700">ଏକସଂକରଣ ପରୀକ୍ଷଣ — Monohybrid</text>
+  <g font-family="Noto Sans Oriya, sans-serif" fill="#fff">
+   <text x="45" y="80" font-size="18">ଶୁଦ୍ଧ ଡେଙ୍ଗା TT</text><text x="700" y="80" font-size="18">ଶୁଦ୍ଧ ଗେଡ଼ା tt</text>
+   <text x="390" y="82" font-size="28">×</text>
+   <text x="420" y="128" font-size="20" fill="#ffd777">F₁ = Tt → ସମସ୍ତ ଡେଙ୍ଗା</text>
+   <text x="380" y="168" font-size="17">Tt × Tt</text>
+  </g>
+  <g stroke="#9aa6ff" stroke-width="2">
+   <rect x="300" y="195" width="120" height="85" fill="#1c2647"/><rect x="420" y="195" width="120" height="85" fill="#1c2647"/>
+   <rect x="300" y="280" width="120" height="85" fill="#1c2647"/><rect x="420" y="280" width="120" height="85" fill="#1c2647"/>
+  </g>
+  <g fill="#fff" font-size="22" text-anchor="middle">
+   <text x="360" y="245">TT</text><text x="480" y="245">Tt</text><text x="360" y="330">Tt</text><text x="480" y="330">tt</text>
+  </g>
+  <text x="580" y="245" fill="#ffd777" font-size="18">F₂ ଦୃଶ୍ୟ ଗୁଣ</text>
+  <text x="580" y="280" fill="#fff" font-size="18">୩ ଡେଙ୍ଗା : ୧ ଗେଡ଼ା</text>
+  <text x="580" y="320" fill="#aeb7d9" font-size="16">Monohybrid ratio = 3 : 1</text>
+  <text x="580" y="355" fill="#aeb7d9" font-size="16">ପ୍ରଭାବୀ : ଅପ୍ରଭାବୀ</text>
+ </svg>
+ </div>
+ <div class="card success"><b>ମନେ ରଖ:</b> F₁ ରେ Tt ଥିଲେ ମଧ୍ୟ T ପ୍ରଭାବୀ ଥିବାରୁ ଡେଙ୍ଗା ଗୁଣ ପ୍ରକାଶ ପାଏ। F₂ ରେ ଡେଙ୍ଗା : ଗେଡ଼ା = <b>3 : 1</b>।</div>
+</section>
+
+<section id="laws">
+ <p class="kicker">04 — ବଂଶାନୁକ୍ରମର ନିୟମ</p>
+ <h2>ମେଣ୍ଡେଲ୍‌ଙ୍କ ମୁଖ୍ୟ ନିୟମ<span class="en">Principle of Unit Character · Dominance · Law of Segregation</span></h2>
+ <div class="grid3">
+  <div class="card"><span class="label">1</span><h3>ଏକକ ଗୁଣ ନୀତି</h3><p>ଉଦ୍ଭିଦରେ ପ୍ରତ୍ୟେକ ବିକଶିତ ଗୁଣ ଗୋଟିଏ ଯୋଡ଼ା factor ଦ୍ୱାରା ନିୟନ୍ତ୍ରିତ। Factor ଯୋଡ଼ା ଯୋଡ଼ା ରହେ।</p></div>
+  <div class="card"><span class="label">2</span><h3>ପ୍ରଭାବୀ ଗୁଣ ନୀତି</h3><p>ଦୁଇଟି ବିକଳ୍ପ factor ମଧ୍ୟରୁ ଗୋଟିଏ ପ୍ରଭାବୀ ହେଲେ ତାହାର ଗୁଣ ପ୍ରକାଶିତ ହୁଏ; ଅନ୍ୟଟି ଅପ୍ରଭାବୀ ଭାବେ ଲୁଚି ରହିପାରେ।</p></div>
+  <div class="card"><span class="label">3</span><h3>ପୃଥକୀକରଣ ନିୟମ</h3><p>ଅର୍ଦ୍ଧବିଭାଜନ ସମୟରେ ଗୋଟିଏ ଯୋଡ଼ା factor ରୁ ଗୋଟିଏ factor ପ୍ରତ୍ୟେକ ଯୁଗ୍ମକକୁ ଯାଏ। ଦୁଇ factor ପରସ୍ପରଠାରୁ ପୃଥକ ହୁଅନ୍ତି।</p></div>
+ </div>
+ <div class="grid2">
+  <div class="card concept"><h3>TT / Tt / tt ବୁଝ</h3><p><b>TT</b> — ଦୁଇଟି ଏକ ପ୍ରକାର factor; <b>tt</b> — ଦୁଇଟି ଅନ୍ୟ ପ୍ରକାର factor; <b>Tt</b> — ଦୁଇଟି ବିକଳ୍ପ factor। ଅର୍ଦ୍ଧବିଭାଜନ ସମୟରେ ପ୍ରତ୍ୟେକ ଯୁଗ୍ମକକୁ ଗୋଟିଏ factor ଯାଏ।</p></div>
+  <div class="card exam"><h3>ପ୍ରଭାବୀ ଗୁଣର ଉଦାହରଣ</h3><p>Tt ଡେଙ୍ଗା ଗଛରେ T ଓ t ଉଭୟ ଥିଲେ ମଧ୍ୟ T ପ୍ରଭାବୀ ହେତୁ ଗଛ ଡେଙ୍ଗା ଦେଖାଯାଏ। tt ରେ T ନଥିବାରୁ ଅପ୍ରଭାବୀ ଗେଡ଼ା ଗୁଣ ପ୍ରକାଶିତ ହୁଏ।</p></div>
+ </div>
+</section>
+
+<section id="dihybrid">
+ <p class="kicker">05 — ଦ୍ୱିସଂକରଣ</p>
+ <h2>ଦୁଇ ଯୋଡ଼ା ଗୁଣ ଏକାସାଙ୍ଗେ<span class="en">Dihybrid Cross & Independent Assortment</span></h2>
+ <p class="lead">ମେଣ୍ଡେଲ୍ ଗୋଲ–ହଳଦିଆ ମଞ୍ଜି <b>RRYY</b> ଓ କୁଞ୍ଚିତ–ସବୁଜ ମଞ୍ଜି <b>rryy</b> ଥିବା ମଟର ଗଛକୁ ସଂକରଣ କରିଥିଲେ। F₁ ରେ <b>RrYy</b> ଓ ସମସ୍ତ ମଞ୍ଜି ଗୋଲ–ହଳଦିଆ ହୋଇଥିଲା।</p>
+ <div class="diagram">
+ <svg viewBox="0 0 900 500">
+  <text x="25" y="34" fill="#ffd777" font-size="21" font-weight="700">Dihybrid Punnett Square</text>
+  <text x="30" y="75" fill="#fff" font-size="18">P: RRYY × rryy</text>
+  <text x="30" y="108" fill="#aeb7d9" font-size="16">F₁: RrYy → ସମସ୍ତ ଗୋଲ ଓ ହଳଦିଆ</text>
+  <g transform="translate(260,135)">
+   <g stroke="#8e9af0" fill="#182244"><rect x="0" y="0" width="115" height="55"/><rect x="115" y="0" width="115" height="55"/><rect x="230" y="0" width="115" height="55"/><rect x="345" y="0" width="115" height="55"/></g>
+   <g fill="#ffd777" font-size="17" text-anchor="middle"><text x="57" y="35">RY</text><text x="172" y="35">Ry</text><text x="287" y="35">rY</text><text x="402" y="35">ry</text></g>
+   <g stroke="#8e9af0" fill="#182244">
+    <rect y="55" width="115" height="75"/><rect x="115" y="55" width="115" height="75"/><rect x="230" y="55" width="115" height="75"/><rect x="345" y="55" width="115" height="75"/>
+    <rect y="130" width="115" height="75"/><rect x="115" y="130" width="115" height="75"/><rect x="230" y="130" width="115" height="75"/><rect x="345" y="130" width="115" height="75"/>
+    <rect y="205" width="115" height="75"/><rect x="115" y="205" width="115" height="75"/><rect x="230" y="205" width="115" height="75"/><rect x="345" y="205" width="115" height="75"/>
+    <rect y="280" width="115" height="75"/><rect x="115" y="280" width="115" height="75"/><rect x="230" y="280" width="115" height="75"/><rect x="345" y="280" width="115" height="75"/>
+   </g>
+   <g fill="#fff" font-size="15" text-anchor="middle">
+    <text x="57" y="98">RRYY</text><text x="172" y="98">RRYy</text><text x="287" y="98">RrYY</text><text x="402" y="98">RrYy</text>
+    <text x="57" y="173">RRYy</text><text x="172" y="173">RRyy</text><text x="287" y="173">RrYy</text><text x="402" y="173">Rryy</text>
+    <text x="57" y="248">RrYY</text><text x="172" y="248">RrYy</text><text x="287" y="248">rrYY</text><text x="402" y="248">rrYy</text>
+    <text x="57" y="323">RrYy</text><text x="172" y="323">Rryy</text><text x="287" y="323">rrYy</text><text x="402" y="323">rryy</text>
+   </g>
+  </g>
+  <text x="30" y="465" fill="#fff" font-size="18">F₂ phenotypic ratio = 9 : 3 : 3 : 1</text>
+ </svg>
+ </div>
+ <div class="card exam"><b>ଗଣିତୀୟ ସମ୍ପର୍କ:</b> (3 : 1)² = 9 : 3 : 3 : 1 । ଏଠାରୁ ମେଣ୍ଡେଲ୍ <b>ସ୍ୱାଧୀନ ଅବବ୍ୟୂହନ ନିୟମ (Law of Independent Assortment)</b> ପ୍ରତିପାଦନ କରିଥିଲେ।</div>
+ <div class="card"><h3>ସ୍ୱାଧୀନ ଅବବ୍ୟୂହନ ନିୟମ</h3><p>ଗୋଟିଏ ଯୋଡ଼ା ବିକଳ୍ପୀ factor ର ଅବବ୍ୟୂହନ ଅନ୍ୟ ଯୋଡ଼ାରୁ ସ୍ୱାଧୀନ ଭାବରେ ହୋଇପାରେ। F₁ ର RrYy ରୁ R, r ଓ Y, y ର ବିଭିନ୍ନ ସଂଯୋଜନ ଯୁଗ୍ମକରେ ହୋଇଥାଏ।</p></div>
+</section>
+
+<section id="genes">
+ <p class="kicker">06 — ଜିନ୍, Genotype ଓ Phenotype</p>
+ <h2>Factor ଠାରୁ Gene ପର୍ଯ୍ୟନ୍ତ<span class="en">Gene · Genotype · Phenotype</span></h2>
+ <p class="lead">ମେଣ୍ଡେଲ୍‌ଙ୍କ factor ଧାରଣାକୁ ପରେ Wilhelm Johannsen 1909 ମସିହାରେ <b>Gene</b> ନାମ ଦେଇଥିଲେ। ସେ Genotype ଓ Phenotype ଶବ୍ଦର ପ୍ରଚଳନ ମଧ୍ୟ ଆରମ୍ଭ କରିଥିଲେ।</p>
+ <div class="grid3">
+  <div class="card concept"><h3>Gene</h3><p>DNAର ଏକ ବିଶେଷ ଅଂଶ, ଯାହା ଶରୀରର ବିଭିନ୍ନ ପ୍ରକ୍ରିୟା ଓ ଲକ୍ଷଣର ନିୟନ୍ତ୍ରଣ ସହ ସମ୍ପର୍କିତ।</p></div>
+  <div class="card"><h3>Genotype</h3><p>ଜୀବର ଜିନୀୟ ଗଠନ; ଉଦାହରଣ: TT, Tt, tt।</p></div>
+  <div class="card"><h3>Phenotype</h3><p>ଜୀବରେ ପ୍ରକାଶ ପାଉଥିବା ଦୃଶ୍ୟମାନ ବା ଲକ୍ଷଣପ୍ରରୂପୀ ଗୁଣ।</p></div>
+ </div>
+ <div class="flow">
+  <div class="node">DNA</div><div class="arrow">→</div><div class="node">Gene</div><div class="arrow">→</div><div class="node">ଲକ୍ଷଣର ନିୟନ୍ତ୍ରଣ</div><div class="arrow">→</div><div class="node">Phenotype</div>
+ </div>
+</section>
+
+<section id="sex">
+ <p class="kicker">07 — ଲିଙ୍ଗ ନିର୍ଦ୍ଧାରଣ</p>
+ <h2>ମଣିଷରେ Sex Determination<span class="en">Sex Chromosomes & Autosomes</span></h2>
+ <div class="grid2">
+  <div class="card"><h3>କ୍ରୋମୋସୋମ୍</h3><p>ମଣିଷରେ <b>23 ଯୋଡ଼ା</b> କ୍ରୋମୋସୋମ୍ ଥାଏ। ସେଥିରୁ 22 ଯୋଡ଼ା autosome ଓ 1 ଯୋଡ଼ା sex chromosome।</p></div>
+  <div class="card exam"><h3>XX / XY</h3><p>ମହିଳାର sex chromosome = <b>XX</b>; ପୁରୁଷର = <b>XY</b>। ଅଣ୍ଡାଣୁରେ 22 autosome + X ଥାଏ। ଶୁକ୍ରାଣୁ ଦୁଇ ପ୍ରକାର—22 autosome + X ବା 22 autosome + Y।</p></div>
+ </div>
+ <div class="diagram">
+  <svg viewBox="0 0 900 380">
+   <text x="30" y="34" fill="#ffd777" font-size="22" font-weight="700">Sex determination in humans</text>
+   <g font-size="19" text-anchor="middle">
+    <text x="170" y="90" fill="#fff">ମାତା: XX</text><text x="720" y="90" fill="#fff">ପିତା: XY</text>
+    <text x="170" y="145" fill="#aeb7d9">ଅଣ୍ଡାଣୁ → X</text>
+    <text x="630" y="145" fill="#aeb7d9">ଶୁକ୍ରାଣୁ → X</text><text x="810" y="145" fill="#aeb7d9">Y</text>
+    <line x1="190" y1="165" x2="620" y2="235" stroke="#9aa6ff" stroke-width="2"/><line x1="190" y1="165" x2="805" y2="235" stroke="#ffd777" stroke-width="2"/>
+    <text x="610" y="285" fill="#fff">XX → କନ୍ୟା ସନ୍ତାନ</text>
+    <text x="610" y="325" fill="#fff">XY → ପୁତ୍ର ସନ୍ତାନ</text>
+   </g>
+  </svg>
+ </div>
+ <div class="card warn"><b>ବିଜ୍ଞାନସମ୍ମତ ନିଷ୍କର୍ଷ:</b> Y କ୍ରୋମୋସୋମ୍ ଥିବା ଶୁକ୍ରାଣୁ ସହ ଅଣ୍ଡାଣୁର ସଂଯୋଗ ହେଲେ XY ହୁଏ। ତେଣୁ ସନ୍ତାନର ଲିଙ୍ଗ ପାଇଁ ପିତାଙ୍କ ଶୁକ୍ରାଣୁ ଦାୟୀ; ପୁଅ ନ ହେଲେ ମା'ଙ୍କୁ ଦୋଷ ଦେବା ବିଜ୍ଞାନସମ୍ମତ ନୁହେଁ।</div>
+</section>
+
+<section id="evolution">
+ <p class="kicker">08 — ବିବର୍ତ୍ତନ</p>
+ <h2>ବିବର୍ତ୍ତନ କ'ଣ?<span class="en">Evolution / Organic Evolution</span></h2>
+ <p class="lead">ଜୀବମାନେ ଦୀର୍ଘ ସମୟ ଧରି ଛୋଟ ଛୋଟ ପରିବର୍ତ୍ତନ ମଧ୍ୟଦ୍ୱାରା ସରଳ ଅବସ୍ଥାରୁ ଜଟିଳ ଓ ଉନ୍ନତ ଅବସ୍ଥାକୁ ପହଞ୍ଚିବା ପ୍ରକ୍ରିୟାକୁ ବିବର୍ତ୍ତନ କୁହାଯାଏ। ଜୀବ ଓ ଉଦ୍ଭିଦରେ ଘଟୁଥିବା ବିବର୍ତ୍ତନକୁ ଜୈବ ବିବର୍ତ୍ତନ କୁହାଯାଏ।</p>
+ <div class="flow">
+  <div class="node">ପୁରୁଣା ସରଳ ଜୀବ</div><div class="arrow">→</div>
+  <div class="node">ବିଭିନ୍ନତା</div><div class="arrow">→</div>
+  <div class="node">ପରିବେଶୀୟ ଚାପ</div><div class="arrow">→</div>
+  <div class="node">ବଞ୍ଚିବାରେ ତଫାତ</div><div class="arrow">→</div>
+  <div class="node">ଦୀର୍ଘକାଳୀନ ବିବର୍ତ୍ତନ</div>
+ </div>
+ <div class="card"><h3>ଜୀବନର ଉତ୍ପତ୍ତି ସମ୍ପର୍କରେ ପାଠରେ ଉଲ୍ଲେଖିତ ମତ</h3><p>ଜୀବ ଈଶ୍ୱରଙ୍କ ଦ୍ୱାରା ସୃଷ୍ଟି, ଅନ୍ୟ ଗ୍ରହରୁ ଜୀବ ଆସିଥିଲା, କିମ୍ବା ଧୂମକେତୁ ସଂଘାତ ମାଧ୍ୟମରେ ପୃଥିବୀକୁ ଜୀବନର ମୌଳିକ ଉପାଦାନ ଆସିଥିବା ଭଳି ମତ ଥିଲା। ପାଠରେ ଜୀବ ବିଜ୍ଞାନୀମାନଙ୍କ ଅଜୈବିକ ପଦାର୍ଥରୁ ଜୀବନ ସୃଷ୍ଟି ସମ୍ପର୍କିତ ଧାରଣା ମଧ୍ୟ ଦିଆଯାଇଛି।</p></div>
+ <div class="card concept"><h3>Oparin–Haldane → Miller–Urey</h3><p>1920 ଦଶକରେ A.I. Oparin ଓ J.B.S. Haldane ଜୀବନର ରାସାୟନିକ ଉତ୍ପତ୍ତି ସମ୍ପର୍କରେ ମତ ଦେଇଥିଲେ। 1953ରେ Stanley Miller ଓ Harold Urey ମିଥେନ୍, ଆମୋନିଆ, ଉଦ୍‌ଜାନ ଓ ଜଳୀୟ ବାଷ୍ପ ଆଦିର ସଂଯୋଗରେ କିଛି amino acid ଉତ୍ପନ୍ନ କରିଥିଲେ। ପରେ ନ୍ୟୁକ୍ଲିଓଟାଇଡ୍ ସମ୍ପର୍କିତ ଫଳ ମଧ୍ୟ ପାଠରେ ଉଲ୍ଲେଖିତ।</p></div>
+</section>
+
+<section id="evidence">
+ <p class="kicker">09 — ବିବର୍ତ୍ତନର ପ୍ରମାଣ</p>
+ <h2>ବିବର୍ତ୍ତନକୁ କେମିତି ପ୍ରମାଣ କରାଯାଏ?<span class="en">Evidence for Evolution</span></h2>
+ <div class="grid3">
+  <div class="card"><span class="label">①</span><h3>ଜୀବାଶ୍ମ ଆଧାରିତ ପ୍ରମାଣ</h3><p>ପୁରୁଣା ଜୀବମାନଙ୍କ ଅବଶେଷକୁ Fossil କୁହାଯାଏ। Archaeopteryx ରେ ସରୀସୃପ ଓ ପକ୍ଷୀ—ଉଭୟର ଲକ୍ଷଣ ମିଳିଥିବାରୁ ଦୁଇ ଗୋଷ୍ଠୀର ସମ୍ପର୍କ ବୁଝାଯାଏ।</p></div>
+  <div class="card"><span class="label">②</span><h3>ଗଠନଭିତ୍ତିକ ପ୍ରମାଣ</h3><p>ଜୀବମାନଙ୍କ ଅଙ୍ଗର ଗଠନ, ଉତ୍ପତ୍ତି ଓ ବିକାଶକ୍ରମରେ ଥିବା ସାମଞ୍ଜସ୍ୟରୁ ସମ୍ପର୍କ ବୁଝାଯାଏ।</p></div>
+  <div class="card"><span class="label">③</span><h3>ଭ୍ରୂଣବିଜ୍ଞାନ ଆଧାରିତ ପ୍ରମାଣ</h3><p>ମେରୁଦଣ୍ଡୀ ପ୍ରାଣୀମାନଙ୍କ ଭ୍ରୂଣବିକାଶରେ ମାଛ, ଉଭୟଚର, ସରୀସୃପ, ପକ୍ଷୀ ଓ ସ୍ତନ୍ୟପାୟୀରେ ସାମଞ୍ଜସ୍ୟ ଦେଖାଯାଏ।</p></div>
+ </div>
+ <h3>Homologous vs Analogous</h3>
+ <div class="grid2">
+  <div class="card success"><h3>ସମଜାତ ଅଙ୍ଗ — Homologous organs</h3><p>ମଣିଷର ହାତ, ଘୋଡ଼ାର ଗୋଡ଼, ବାଦୁଡ଼ି/ପକ୍ଷୀର ପକ୍ଷ, ତିମିର flipper ଭଳି ଅଙ୍ଗର ମୌଳିକ ଗଠନ ଓ ଉତ୍ପତ୍ତିରେ ସାମଞ୍ଜସ୍ୟ ରହେ, କିନ୍ତୁ କାର୍ଯ୍ୟ ଭିନ୍ନ ହୋଇପାରେ। ଉଦ୍ଭିଦରେ କାଣ୍ଡରୁ ଆକର୍ଷୀ ଓ Bougainvilleaର କଣ୍ଟା ଏହାର ଉଦାହରଣ।</p></div>
+  <div class="card purple"><h3>ଅନୁରୂପ ଅଙ୍ଗ — Analogous organs</h3><p>କାର୍ଯ୍ୟ ସମାନ ହେଲେ ମଧ୍ୟ ମୌଳିକ ଗଠନ, ଉତ୍ପତ୍ତି ଓ ବିକାଶକ୍ରମ ଭିନ୍ନ ଥାଏ। ପତଙ୍ଗର ପକ୍ଷ ଓ ପକ୍ଷୀ/ବାଦୁଡ଼ିର ପକ୍ଷ ଉଦାହରଣ। ନାଗଫେଣୀର କଣ୍ଟା ଓ ବରକୋଳି ଗଛର କଣ୍ଟା ମଧ୍ୟ ଅନୁରୂପ ଅଙ୍ଗ ଭାବେ ଦିଆଯାଇଛି।</p></div>
+ </div>
+ <div class="diagram">
+ <svg viewBox="0 0 900 420">
+  <text x="25" y="34" fill="#ffd777" font-size="22" font-weight="700">ଗଠନଭିତ୍ତିକ ପ୍ରମାଣ — ତୁଳନା</text>
+  <g fill="#fff" font-size="17" text-anchor="middle">
+   <text x="180" y="78">ସମଜାତ ଅଙ୍ଗ</text><text x="180" y="105" fill="#aeb7d9">ଗଠନ/ଉତ୍ପତ୍ତି ସମାନ</text><text x="180" y="132" fill="#aeb7d9">କାର୍ଯ୍ୟ ଭିନ୍ନ ହୋଇପାରେ</text>
+   <text x="675" y="78">ଅନୁରୂପ ଅଙ୍ଗ</text><text x="675" y="105" fill="#aeb7d9">କାର୍ଯ୍ୟ ସମାନ</text><text x="675" y="132" fill="#aeb7d9">ଗଠନ/ଉତ୍ପତ୍ତି ଭିନ୍ନ</text>
+  </g>
+  <g stroke="#9aa6ff" stroke-width="3" fill="none">
+   <path d="M80 210L110 160M110 160L125 235M125 235L160 180M160 180L190 250M190 250L230 190"/>
+   <path d="M520 220Q610 145 705 220Q760 260 845 195"/>
+  </g>
+  <g fill="#ffd777" font-size="16"><text x="80" y="300">ମଣିଷର ହାତ</text><text x="155" y="325">ଘୋଡ଼ାର ଗୋଡ଼</text><text x="520" y="300">ପତଙ୍ଗର ପକ୍ଷ</text><text x="720" y="325">ପକ୍ଷୀ/ବାଦୁଡ଼ିର ପକ୍ଷ</text></g>
+ </svg>
+ </div>
+ <div class="card"><h3>ଅବଶେଷାଙ୍ଗ — Vestigeal organ</h3><p>କିଛି ଅଙ୍ଗର ବର୍ତ୍ତମାନ ବ୍ୟବହାର ନଥିଲେ ମଧ୍ୟ ତାହାର କିଛି ଅବଶେଷ ଶରୀରରେ ରହିଥାଏ। ମଣିଷର ବୃହଦନ୍ତ୍ର ସହ ଥିବା appendix ପାଠରେ ଏକ ଅବଶେଷାଙ୍ଗ ଭାବେ ଦିଆଯାଇଛି।</p></div>
+</section>
+
+<section id="lamarck">
+ <p class="kicker">10 — ଲାମାର୍କବାଦ</p>
+ <h2>ଅର୍ଜିତ ଲକ୍ଷଣର ବଂଶାନୁକ୍ରମ<span class="en">Lamarckism</span></h2>
+ <p class="lead">Jean-Baptiste Lamarck 1809 ମସିହାରେ ଜୈବ ବିବର୍ତ୍ତନ ସମ୍ପର୍କିତ ତତ୍ତ୍ୱ ପ୍ରସ୍ତାବ କରିଥିଲେ। ଏହା <b>Inheritance of Acquired Characters</b> ନାମରେ ପରିଚିତ।</p>
+ <div class="flow">
+  <div class="node">ପରିବେଶର ପ୍ରଭାବ</div><div class="arrow">→</div>
+  <div class="node">ଅଙ୍ଗର ବ୍ୟବହାର/ଅବ୍ୟବହାର</div><div class="arrow">→</div>
+  <div class="node">ଅର୍ଜିତ ଲକ୍ଷଣ</div><div class="arrow">→</div>
+  <div class="node">ପରବର୍ତ୍ତୀ ପିଢ଼ିକୁ ସଞ୍ଚାର</div>
+ </div>
+ <div class="grid2">
+  <div class="card"><h3>ଲାମାର୍କଙ୍କ ଉଦାହରଣ</h3><p>ଗଛର ଉପର ଡାଳର ପତ୍ର ଖାଇବା ପାଇଁ ଜିରାଫ୍‌ର ଲମ୍ବା ବେକ ଓ ଆଗ ଗୋଡ଼କୁ ସେ ଅର୍ଜିତ ଲକ୍ଷଣ ଭାବେ ବ୍ୟାଖ୍ୟା କରିଥିଲେ।</p></div>
+  <div class="card"><h3>Weismannଙ୍କ ପରୀକ୍ଷା</h3><p>August Weismann 22 ପିଢ଼ି ପର୍ଯ୍ୟନ୍ତ ମୂଷାର ଲାଞ୍ଜ କାଟି ପରୀକ୍ଷା କଲେ; ପରବର୍ତ୍ତୀ ପିଢ଼ିର ମୂଷା ଲମ୍ବା ଲାଞ୍ଜ ନେଇ ଜନ୍ମ ନେଲା। ଏହା Lamarckଙ୍କ ଧାରଣାକୁ ପ୍ରଶ୍ନ କରିଥିଲା।</p></div>
+ </div>
+</section>
+
+<section id="darwin">
+ <p class="kicker">11 — ଡାରୱିନ୍‌ଙ୍କ ତତ୍ତ୍ୱ</p>
+ <h2>ଜୀବନ ସଂଗ୍ରାମ ଓ ପ୍ରାକୃତିକ ଉଦ୍‌ବରଣ<span class="en">Darwin · Struggle for Existence · Natural Selection</span></h2>
+ <div class="timeline">
+  <div class="item"><strong>1809</strong> — Charles Robert Darwin ଇଂଲଣ୍ଡରେ ଜନ୍ମଗ୍ରହଣ କରିଥିଲେ।</div>
+  <div class="item"><strong>27.12.1831 → 2.10.1836</strong> — HMS Beagle ଜାହାଜରେ ପ୍ରକୃତି ବୈଜ୍ଞାନିକ ଭାବେ ଭ୍ରମଣ; Galapagos Islandsରେ ଅନେକ ଜୀବ ଅଧ୍ୟୟନ।</div>
+  <div class="item"><strong>1859</strong> — <i>On the Origin of Species</i> ପ୍ରକାଶିତ; ଜୀବନ ସଂଗ୍ରାମ ଓ ପ୍ରାକୃତିକ ଉଦ୍‌ବରଣ ମାଧ୍ୟମରେ ନୂତନ ଜାତି ସୃଷ୍ଟିର ବ୍ୟାଖ୍ୟା।</div>
+  <div class="item"><strong>1935 ଦଶକ</strong> — Dobzhansky, Julian Huxley, Sewall Wright, J.B.S. Haldane ଆଦିଙ୍କ ଉଦ୍ୟମରେ ବଂଶାଗତତା, mutation ଓ natural selectionର ସମନ୍ୱୟ ହୋଇ Modern Synthetic Theory ଗଠିତ ହେଲା।</div>
+  <div class="item"><strong>1882</strong> — Darwinଙ୍କ ମୃତ୍ୟୁ।</div>
+ </div>
+ <div class="card exam"><h3>ଡାରୱିନ୍‌ଙ୍କ ତତ୍ତ୍ୱ — ସହଜ ଫ୍ଲୋ</h3>
+  <div class="flow"><div class="node">ଅପରିସୀମ ପ୍ରଜନନ କ୍ଷମତା</div><div class="arrow">+</div><div class="node">ସୀମିତ ସମ୍ବଳ</div><div class="arrow">→</div><div class="node">ଜୀବନ ସଂଗ୍ରାମ</div><div class="arrow">→</div><div class="node">ପ୍ରାକୃତିକ ଉଦ୍‌ବରଣ</div><div class="arrow">→</div><div class="node">ନୂତନ ଜାତି</div></div>
+ </div>
+ <div class="card"><h3>ପ୍ରାକୃତିକ ଉଦ୍‌ବରଣ</h3><p>ଯେଉଁ ଜୀବ ନୂତନ ଲକ୍ଷଣ ସହ ପରିବେଶକୁ ନିଜକୁ ଭଲଭାବେ ଖାପ ଖୁଆଇପାରେ, ସେ ବଞ୍ଚିବାରେ ସଫଳ ହୋଇ ପ୍ରଜନନ କରିଥାଏ। ପ୍ରକୃତି ତାହାକୁ ବାଛି ନେଉଥିବା ଘଟଣାକୁ Natural Selection କୁହାଯାଏ।</p></div>
+ <div class="card concept"><h3>ଡାଇନୋସର୍ ଉଦାହରଣ</h3><p>ପାଠରେ ପ୍ରାୟ 230 କୋଟି ବର୍ଷ ପୂର୍ବର Mesozoic ମହାଯୁଗର ବିଶାଳକାୟ dinosaur ଭଳି ସରୀସୃପ ଉଲ୍ଲେଖ ଅଛି। ତୀବ୍ର ଶୀତରେ ବିଶାଳକାୟ dinosaurମାନେ ନିଜକୁ ରକ୍ଷା କରିପାରିନଥିଲେ; ଛୋଟ ସରୀସୃପ, ଉଷ୍ଣରକ୍ତ ସ୍ତନ୍ୟପାୟୀ ଓ ପକ୍ଷୀ ଭଳି ଜୀବମାନେ ପରିବର୍ତ୍ତିତ ପରିବେଶରେ ରହିପାରିଥିଲେ।</p></div>
+</section>
+
+<section id="modern">
+ <p class="kicker">12 — ଆଧୁନିକ ଦୃଷ୍ଟିକୋଣ</p>
+ <h2>Modern Synthetic Theory<span class="en">Modern Synthetic Theory of Evolution</span></h2>
+ <p class="lead">Molecular biology ଓ geneticsର ଉନ୍ନତି ପରେ Darwinଙ୍କ natural selection ଧାରଣାକୁ ନୂତନ ଭାବରେ ବୁଝାଯାଇଲା।</p>
+ <div class="grid2">
+  <div class="card"><h3>ପରିବର୍ତ୍ତନର ଉତ୍ସ</h3><ul><li>Mutation — ଜିନ୍‌ରେ ପରିବର୍ତ୍ତନ</li><li>Chromosomal aberration — କ୍ରୋମୋସୋମ୍‌ରେ ତ୍ରୁଟି/ପରିବର୍ତ୍ତନ</li><li>Genetic recombination — ଜିନୀୟ ପୁନଃସଂଯୋଜନ</li></ul></div>
+  <div class="card"><h3>Variation → Selection → Isolation</h3><p>ବିଭିନ୍ନତା ହେଉଛି ପରିବର୍ତ୍ତନର ଉତ୍ସ। ପ୍ରକୃତିରେ ଅନୁକୂଳ ଲକ୍ଷଣ ବଞ୍ଚିପାରେ। Isolating mechanisms ଦ୍ୱାରା ସମ୍ପୃକ୍ତ ଜୀବମାନଙ୍କୁ ଅଲଗା ରଖାଯାଇପାରେ। ଦୀର୍ଘକାଳରେ ଏହା ନୂତନ species ଗଠନ ସହ ସମ୍ପର୍କିତ।</p></div>
+ </div>
+ <div class="diagram">
+  <svg viewBox="0 0 900 280">
+   <g font-size="19" text-anchor="middle">
+    <rect x="30" y="90" width="180" height="90" rx="14" fill="#1d294d" stroke="#9aa6ff"/><text x="120" y="125" fill="#fff">Mutation</text><text x="120" y="153" fill="#aeb7d9">ପରିବର୍ତ୍ତନ</text>
+    <text x="240" y="145" fill="#ffd777" font-size="30">→</text>
+    <rect x="270" y="90" width="180" height="90" rx="14" fill="#1d294d" stroke="#9aa6ff"/><text x="360" y="125" fill="#fff">Variation</text><text x="360" y="153" fill="#aeb7d9">ବିଭିନ୍ନତା</text>
+    <text x="480" y="145" fill="#ffd777" font-size="30">→</text>
+    <rect x="510" y="90" width="180" height="90" rx="14" fill="#1d294d" stroke="#9aa6ff"/><text x="600" y="125" fill="#fff">Selection</text><text x="600" y="153" fill="#aeb7d9">ଉଦ୍‌ବରଣ</text>
+    <text x="720" y="145" fill="#ffd777" font-size="30">→</text>
+    <rect x="750" y="90" width="120" height="90" rx="14" fill="#1d294d" stroke="#ffd777"/><text x="810" y="125" fill="#fff">Isolation</text><text x="810" y="153" fill="#aeb7d9">ଅନ୍ତରଣ</text>
+   </g>
+  </svg>
+ </div>
+</section>
+
+<section id="human">
+ <p class="kicker">13 — ମଣିଷର ବିବର୍ତ୍ତନ</p>
+ <h2>ମଣିଷର ବିବର୍ତ୍ତନ<span class="en">Human Evolution</span></h2>
+ <p class="lead">ମଣିଷର ଉନ୍ନତ ମସ୍ତିଷ୍କ ଓ ଦୁଇ ବାହୁ ତାଙ୍କୁ ପରିବେଶକୁ ନିଜ ଅନୁକୂଳ କରିବାର ସୁଯୋଗ ଦେଇଛି। ପାଠରେ ମଣିଷର ପୂର୍ବଜ ସମ୍ପର୍କରେ ବିଭିନ୍ନ ଜୀବାଶ୍ମ ଓ ଜୀବ ବିବର୍ତ୍ତନୀୟ ତଥ୍ୟ ଦିଆଯାଇଛି।</p>
+ <div class="timeline">
+  <div class="item"><strong>Ramapithecus / Sivapithecus</strong> — ଜୀବାଶ୍ମ ଆଧାରରେ ମଣିଷର ଦୂର ପୂର୍ବଜ ଭାବେ ଉଲ୍ଲେଖିତ।</div>
+  <div class="item"><strong>Australopithecus</strong> — ବାନରସଦୃଶ ମଣିଷ; ପ୍ରଥମେ ଦୁଇ ଗୋଡ଼ରେ ମୁଣ୍ଡ ଟେକି ଚାଲିବାର ବର୍ଣ୍ଣନା, ଯାହା ଦ୍ୱାରା ଦୁଇ ବାହୁ ମୁକ୍ତ ହେଲା।</div>
+  <div class="item"><strong>Homo habilis</strong> — Homo ବଂଶର ଉଲ୍ଲେଖିତ ପର୍ଯ୍ୟାୟ।</div>
+  <div class="item"><strong>Homo erectus</strong> — ପରବର୍ତ୍ତୀ Homo ପର୍ଯ୍ୟାୟ।</div>
+  <div class="item"><strong>Homo sapiens</strong> — ଆଧୁନିକ ମଣିଷ; ପାଠରେ ପ୍ରାୟ ୫ ଲକ୍ଷ ବର୍ଷ ପୂର୍ବେ ଆଫ୍ରିକାରେ ବସବାସ କରିଥିବା ଓ ପରେ ପୃଥିବୀର ବିଭିନ୍ନ ଅଞ୍ଚଳକୁ ଯାଇଥିବା ବର୍ଣ୍ଣନା ଅଛି।</div>
+ </div>
+ <div class="card success"><h3>ଜୈବ ବିବର୍ତ୍ତନ → ସାଂସ୍କୃତିକ ବିବର୍ତ୍ତନ</h3><p>ଜୈବ ବିବର୍ତ୍ତନ ପରେ ମଣିଷର ସାଂସ୍କୃତିକ ବିବର୍ତ୍ତନ ଆରମ୍ଭ ହେଲା। ଅସ୍ତ୍ର ଓ ହାତିଆର ବ୍ୟବହାର, ଅଗ୍ନିର ବ୍ୟବହାର, ପରିବେଶକୁ ବଦଳାଇବା ଭଳି କ୍ଷମତା ମଣିଷର ବିଶେଷତା ଭାବେ ପାଠରେ ଆସିଛି।</p></div>
+ <div class="card"><h3>ମଣିଷର ଅନ୍ତରିକ୍ଷ ସମ୍ପର୍କିତ ପୁରୁଣା ଧାରଣା</h3><p>ପାଠରେ ପୃଥିବୀ ବ୍ରହ୍ମାଣ୍ଡର କେନ୍ଦ୍ର ବୋଲି ଥିବା ପୁରୁଣା ଧାରଣା ଓ ପରେ Nicolaus Copernicusଙ୍କ ଧାରଣା ଉଲ୍ଲେଖିତ। Darwinଙ୍କ ମତ ମଧ୍ୟ ଆରମ୍ଭରେ ବିରୋଧ ସାମ୍ନା କରିଥିଲା, ପରେ ପ୍ରମାଣ ବଢ଼ିବା ସହ ଗ୍ରହଣଯୋଗ୍ୟତା ବଢ଼ିଲା।</p></div>
+</section>
+
+<section id="activities">
+ <p class="kicker">14 — ପାଠର କାର୍ଯ୍ୟ</p>
+ <h2>ତୁମ ପାଇଁ କାମ<span class="en">Activities</span></h2>
+ <div class="q">
+  <div class="type">କାର୍ଯ୍ୟ–୧</div>
+  <p>ହଳଦିଆ ଓ ସବୁଜ ମଟର ମଞ୍ଜି ସଂଗ୍ରହ କରି ନିଜ ବଗିଚା/ସ୍କୁଲ୍ ବଗିଚାରେ ଲଗାଅ। ଉତ୍ପନ୍ନ ମଞ୍ଜି ଦେଖି ଲକ୍ଷ୍ୟ କର—ସବୁଜ ମଞ୍ଜିରୁ ହଳଦିଆ ମଞ୍ଜି ହେଉଛି କି? ହଳଦିଆ ମଞ୍ଜିରୁ ସବୁଜ ମଞ୍ଜି ହେଉଛି କି? ସମସ୍ତ ହଳଦିଆ ମଞ୍ଜିରୁ ହଳଦିଆ ମଞ୍ଜି ହେଉଛି କି? ନିଜ ନିଷ୍କର୍ଷ ଲେଖ।</p>
+ </div>
+ <div class="q">
+  <div class="type">କାର୍ଯ୍ୟ–୨</div>
+  <p>ମେଣ୍ଡେଲ୍‌ଙ୍କ ଗାଣିତିକ ସୂତ୍ର ବ୍ୟବହାର କରି ଚାରି ଯୋଡ଼ା ବିକଳ୍ପୀ factor ଥିବା ସଂକର ଗଛର ସ୍ୱପରାଗଣ ପରେ F₂ ପିଢ଼ିରେ କେଉଁ ପ୍ରକାର ଗଛ ଦେଖାଯିବ ଓ ସେମାନଙ୍କ ଅନୁପାତ କେତେ ହେବ ଲେଖ।</p>
+ </div>
+</section>
+
+<section id="learned">
+ <p class="kicker">15 — ଆମେ କ'ଣ ଶିଖିଲୁ</p>
+ <h2>ଅଧ୍ୟାୟର ନିଷ୍କର୍ଷ<span class="en">What We Learned</span></h2>
+ <div class="grid2">
+  <div class="card concept"><ol>
+   <li>ମାତା–ପିତାଙ୍କ ଗୁଣ ସନ୍ତାନରେ ପ୍ରକାଶିତ ହେବାର ପ୍ରଣାଳୀକୁ ବଂଶାନୁକ୍ରମ କୁହାଯାଏ।</li>
+   <li>ମେଣ୍ଡେଲ୍ ମଟର ଗଛର ବିକଳ୍ପୀ ଗୁଣର ବଂଶଗତିକୁ ଗାଣିତିକ ଭାବେ ଅଧ୍ୟୟନ କରିଥିଲେ।</li>
+   <li>ଏକସଂକରଣ ଓ ଦ୍ୱିସଂକରଣ ଦ୍ୱାରା ବଂଶାନୁକ୍ରମର ନୀତି ଓ ନିୟମ ଦିଆଯାଇଥିଲା।</li>
+   <li>ପୃଥକୀକରଣ ଓ ସ୍ୱାଧୀନ ଅବବ୍ୟୂହନ ଯୋଗୁଁ ବିଭିନ୍ନ ପିଢ଼ିରେ ବିକଳ୍ପୀ ଗୁଣ ପ୍ରକାଶିତ ହୁଏ।</li>
+   <li>ବିବର୍ତ୍ତନ ଦୀର୍ଘକାଳୀନ ଓ ନିରବଚ୍ଛିନ୍ନ ପ୍ରକ୍ରିୟା।</li>
+  </ol></div>
+  <div class="card success"><ol start="6">
+   <li>ଜୀବାଶ୍ମ, ଗଠନ ଓ ଭ୍ରୂଣବିଜ୍ଞାନ ବିବର୍ତ୍ତନର ପ୍ରମାଣ ଦିଏ।</li>
+   <li>ସମଜାତ, ଅନୁରୂପ ଓ ଅବଶେଷାଙ୍ଗ ବିବର୍ତ୍ତନୀୟ ସମ୍ପର୍କ ବୁଝିବାରେ ସାହାଯ୍ୟ କରେ।</li>
+   <li>Lamarck ପରିବେଶ ଓ ଅର୍ଜିତ ଲକ୍ଷଣର ବଂଶାନୁକ୍ରମ ଉପରେ ଜୋର ଦେଇଥିଲେ।</li>
+   <li>Darwin ଜୀବନ ସଂଗ୍ରାମ ଓ ପ୍ରାକୃତିକ ଉଦ୍‌ବରଣ ମାଧ୍ୟମରେ ବିବର୍ତ୍ତନ ବ୍ୟାଖ୍ୟା କରିଥିଲେ।</li>
+   <li>Modern Synthetic Theoryରେ variation, selection ଓ isolation ସହ geneticsର ଧାରଣା ସମନ୍ୱିତ ହୋଇଛି।</li>
+  </ol></div>
+ </div>
+</section>
+
+<section id="revision">
+ <p class="kicker">16 — FINAL REVISION</p>
+ <h2>ଏକ ନଜରରେ ସମ୍ପୂର୍ଣ୍ଣ ଅଧ୍ୟାୟ</h2>
+
+ <h3>1. 15ଟି Key Points</h3>
+ <div class="card"><ol class="two-col">
+  <li>ବଂଶାନୁକ୍ରମ = ମାତା–ପିତାଙ୍କ ଗୁଣ ସନ୍ତାନରେ ପ୍ରକାଶ।</li>
+  <li>Phenotypic variation ଦ୍ୱାରା ଜୀବମାନଙ୍କ ମଧ୍ୟରେ ଦୃଶ୍ୟମାନ ଭିନ୍ନତା ଦେଖାଯାଏ।</li>
+  <li>Mendel = Father of Genetics.</li>
+  <li>ମେଣ୍ଡେଲ୍ ମଟର ଗଛରେ ୭ ଯୋଡ଼ା contrasting characters ଚିହ୍ନଟ କରିଥିଲେ।</li>
+  <li>Hybridisationରେ P → F₁ → F₂ ପିଢ଼ି ଅଧ୍ୟୟନ କରାଯାଏ।</li>
+  <li>Monohybrid F₂ phenotypic ratio = 3 : 1.</li>
+  <li>Dominant factor ପ୍ରକାଶିତ ହୁଏ; recessive factor ଲୁଚିପାରେ।</li>
+  <li>Law of Segregationରେ ଯୋଡ଼ା factor ପୃଥକ ହୁଏ।</li>
+  <li>Dihybrid F₂ ratio = 9 : 3 : 3 : 1.</li>
+  <li>Law of Independent Assortment ଦୁଇ ଯୋଡ଼ା factorର ସ୍ୱାଧୀନ ଅବବ୍ୟୂହନ ବୁଝାଏ।</li>
+  <li>1909ରେ Johannsen factorକୁ Gene ନାମ ଦେଇଥିଲେ।</li>
+  <li>ମଣିଷରେ 23 ଯୋଡ଼ା chromosome: 22 autosome + 1 sex chromosome।</li>
+  <li>XX → କନ୍ୟା; XY → ପୁତ୍ର।</li>
+  <li>Fossil, homologous/analogous organs ଓ embryological evidence ବିବର୍ତ୍ତନର ପ୍ରମାଣ।</li>
+  <li>Modern Synthetic Theoryରେ variation, selection ଓ isolation ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ।</li>
+ </ol></div>
+
+ <h3>2. Important Definitions</h3>
+ <div class="grid2">
+  <div class="card"><b>ବଂଶାନୁକ୍ରମ:</b> ମାତା–ପିତାଙ୍କ ଗୁଣ ପରବର୍ତ୍ତୀ ପିଢ଼ିରେ ପ୍ରକାଶିତ ହେବା।<br><br>
+  <b>Gene:</b> ଲକ୍ଷଣ ନିୟନ୍ତ୍ରଣ ସହ ସମ୍ପର୍କିତ DNAର ବିଶେଷ ଅଂଶ।<br><br>
+  <b>Genotype:</b> ଜୀବର ଜିନୀୟ ଗଠନ।<br><br>
+  <b>Phenotype:</b> ପ୍ରକାଶିତ ଲକ୍ଷଣ।</div>
+  <div class="card"><b>ଜୈବ ବିବର୍ତ୍ତନ:</b> ଜୀବମାନଙ୍କର ଦୀର୍ଘକାଳୀନ ପରିବର୍ତ୍ତନ।<br><br>
+  <b>Fossil:</b> ପ୍ରାଚୀନ ଜୀବର ଅବଶେଷ।<br><br>
+  <b>Homologous organs:</b> ମୌଳିକ ଗଠନ/ଉତ୍ପତ୍ତିରେ ସାମଞ୍ଜସ୍ୟ ଥିବା ଅଙ୍ଗ।<br><br>
+  <b>Analogous organs:</b> କାର୍ଯ୍ୟ ସମାନ କିନ୍ତୁ ମୌଳିକ ଗଠନ/ଉତ୍ପତ୍ତି ଭିନ୍ନ ଅଙ୍ଗ।</div>
+ </div>
+
+ <h3>3. Important Ratios / Formulae</h3>
+ <div class="grid3">
+  <div class="card exam"><span class="big-number">3 : 1</span><p>Monohybrid F₂ phenotypic ratio</p></div>
+  <div class="card exam"><span class="big-number">9 : 3 : 3 : 1</span><p>Dihybrid F₂ phenotypic ratio</p></div>
+  <div class="card exam"><span class="big-number">(3:1)²</span><p>= 9 : 3 : 3 : 1</p></div>
+ </div>
+
+ <h3>4. Important Diagrams / Concepts</h3>
+ <div class="grid3">
+  <div class="card"><b>ଚିତ୍ର 7.1</b><p>Monohybrid cross — TT × tt → Tt → F₂ = 3:1.</p></div>
+  <div class="card"><b>ଚିତ୍ର 7.2</b><p>Dihybrid cross — ଦୁଇ ଯୋଡ଼ା factorର independent assortment।</p></div>
+  <div class="card"><b>ଚିତ୍ର 7.3</b><p>Dihybrid test arrangement / F₂ ର ଚାରି ପ୍ରକାର ଦୃଶ୍ୟମାନ ଗୁଣ।</p></div>
+  <div class="card"><b>ଚିତ୍ର 7.4</b><p>Homologous organs।</p></div>
+  <div class="card"><b>ଚିତ୍ର 7.5</b><p>Analogous organs।</p></div>
+  <div class="card"><b>ଚିତ୍ର 7.6</b><p>ମଣିଷର appendix — vestigeal organ।</p></div>
+ </div>
+
+ <h3>5. Important Questions</h3>
+ <div class="q"><b>1.</b> ଦ୍ୱିସଂକରଣ କ'ଣ? ଏହା ଦ୍ୱାରା ମେଣ୍ଡେଲ୍ କିପରି ସ୍ୱାଧୀନ ଅବବ୍ୟୂହନ ନିୟମ ପ୍ରତିପାଦନ କଲେ?<details><summary>ଉତ୍ତର ଦେଖ</summary><p>ଦୁଇ ଯୋଡ଼ା ବିକଳ୍ପୀ ଗୁଣକୁ ନେଇ କରାଯାଇଥିବା ପରୀକ୍ଷା ଦ୍ୱିସଂକରଣ। F₂ରେ ଚାରି ପ୍ରକାର phenotypic combination 9:3:3:1 ଅନୁପାତରେ ମିଳିଲା। ଦୁଇ ଯୋଡ଼ା factor ସ୍ୱାଧୀନ ଭାବେ ଅବବ୍ୟୂହିତ ହେବାରୁ ଏହି ନିୟମ ପ୍ରତିପାଦନ କରାଗଲା।</p></details></div>
+ <div class="q"><b>2.</b> ଏକସଂକରଣ ଦ୍ୱାରା ମେଣ୍ଡେଲ୍ କେଉଁ ନିୟମ ପ୍ରତିପାଦନ କଲେ?<details><summary>ଉତ୍ତର ଦେଖ</summary><p>ଏକକ ଗୁଣ ନୀତି, ପ୍ରଭାବୀ ଗୁଣ ନୀତି ଓ ପୃଥକୀକରଣ ନିୟମ ସମ୍ପର୍କରେ ମେଣ୍ଡେଲ୍ ନିଷ୍କର୍ଷରେ ପହଞ୍ଚିଥିଲେ।</p></details></div>
+ <div class="q"><b>3.</b> Darwinଙ୍କ ତତ୍ତ୍ୱ ବୁଝାଅ।<details><summary>ଉତ୍ତର ଦେଖ</summary><p>ଜୀବମାନଙ୍କର ଅପରିସୀମ ପ୍ରଜନନ କ୍ଷମତା ଥିଲେ ମଧ୍ୟ ଖାଦ୍ୟ, ବାସସ୍ଥାନ ଓ ଉପଯୁକ୍ତ ସଙ୍ଗୀ ସୀମିତ। ତେଣୁ ଜୀବନ ସଂଗ୍ରାମ ହୁଏ। ପରିବେଶ ସହ ନିଜକୁ ଭଲ ଭାବେ ଖାପ ଖୁଆଇଥିବା ଜୀବ ବଞ୍ଚି ପ୍ରଜନନ କରେ; ଏହାକୁ ପ୍ରାକୃତିକ ଉଦ୍‌ବରଣ କୁହାଯାଏ।</p></details></div>
+ <div class="q"><b>4.</b> ସମଜାତ ଓ ଅନୁରୂପ ଅଙ୍ଗର ଉଦାହରଣ ଦିଅ।<details><summary>ଉତ୍ତର ଦେଖ</summary><p>ମଣିଷର ହାତ, ଘୋଡ଼ାର ଗୋଡ଼ ଓ ବାଦୁଡ଼ି/ପକ୍ଷୀର ପକ୍ଷ ସମଜାତ ଅଙ୍ଗର ଉଦାହରଣ। ପତଙ୍ଗର ପକ୍ଷ ଓ ପକ୍ଷୀ/ବାଦୁଡ଼ିର ପକ୍ଷ ଅନୁରୂପ ଅଙ୍ଗର ଉଦାହରଣ।</p></details></div>
+ <div class="q"><b>5.</b> ଜୀବାଶ୍ମ କ'ଣ? ଜୀବାଶ୍ମ ଅଧ୍ୟୟନରୁ କ'ଣ ଜଣାଯାଏ?<details><summary>ଉତ୍ତର ଦେଖ</summary><p>ଲକ୍ଷ ଲକ୍ଷ ବର୍ଷ ପୂର୍ବେ ଥିବା ଜୀବମାନଙ୍କର ଅବଶେଷକୁ ଜୀବାଶ୍ମ କୁହାଯାଏ। ଏହାର ଅଧ୍ୟୟନରୁ ପ୍ରାଚୀନ ଜୀବ ଓ ବର୍ତ୍ତମାନ ଜୀବମାନଙ୍କ ମଧ୍ୟରେ ସମ୍ପର୍କ ସ୍ଥାପନ କରିବାରେ ସାହାଯ୍ୟ ମିଳେ।</p></details></div>
+ </div>
+
+ <h3>6. Quick Revision Table</h3>
+ <table>
+  <tr><th>ବିଷୟ</th><th>ମନେ ରଖିବା କଥା</th></tr>
+  <tr><td>Mendel</td><td>ମଟର ଗଛ, 7 ଯୋଡ଼ା contrasting characters</td></tr>
+  <tr><td>Monohybrid</td><td>TT × tt → F₁ Tt → F₂ 3:1</td></tr>
+  <tr><td>Dihybrid</td><td>RRYY × rryy → F₁ RrYy → F₂ 9:3:3:1</td></tr>
+  <tr><td>Gene</td><td>Johannsen, 1909</td></tr>
+  <tr><td>Sex determination</td><td>XX / XY; 22 pairs autosomes + 1 pair sex chromosome</td></tr>
+  <tr><td>Fossil</td><td>ପ୍ରାଚୀନ ଜୀବର ଅବଶେଷ</td></tr>
+  <tr><td>Lamarck</td><td>Inheritance of Acquired Characters</td></tr>
+  <tr><td>Darwin</td><td>Struggle for Existence + Natural Selection</td></tr>
+  <tr><td>Modern Synthetic Theory</td><td>Variation + Selection + Isolation; geneticsର ଭୂମିକା</td></tr>
+ </table>
+</section>
+
+<section id="exercise">
+ <p class="kicker">17 — TEXTBOOK EXERCISE</p>
+ <h2>ଅଭ୍ୟାସ ପ୍ରଶ୍ନ — ଉତ୍ତର ସହିତ</h2>
+
+ <div class="q"><div class="type">LONG ANSWER</div><p><b>1.</b> ଦ୍ୱିସଂକରଣ କ'ଣ? ଏହା ଦ୍ୱାରା ମେଣ୍ଡେଲ୍ କିପରି ସ୍ୱାଧୀନ ଅବବ୍ୟୂହନ ନିୟମ ପ୍ରତିପାଦନ କଲେ ବୁଝାଅ।</p><details><summary>ଉତ୍ତର</summary><p>ଦୁଇ ଯୋଡ଼ା ବିକଳ୍ପୀ ଗୁଣକୁ ନେଇ କରାଯାଇଥିବା ସଂକରଣକୁ ଦ୍ୱିସଂକରଣ କୁହାଯାଏ। ମେଣ୍ଡେଲ୍ RRYY × rryy ଗଛ ନେଇ F₁ରେ RrYy ପାଇଥିଲେ। F₁ ସ୍ୱପରାଗଣ ପରେ F₂ରେ ଚାରି ପ୍ରକାର phenotypic combination 9:3:3:1 ଅନୁପାତରେ ଦେଖାଗଲା। ଦୁଇ ଯୋଡ଼ା factor ପରସ୍ପରଠାରୁ ସ୍ୱାଧୀନ ଭାବରେ ଅବବ୍ୟୂହିତ ହେବାରୁ ଏହି ନିୟମ ପ୍ରତିପାଦିତ ହେଲା।</p></details></div>
+
+ <div class="q"><div class="type">LONG ANSWER</div><p><b>2.</b> ଏକସଂକରଣ ଦ୍ୱାରା ମେଣ୍ଡେଲ୍ କିପରି ବଂଶାନୁକ୍ରମର ନୀତି ଓ ନିୟମ ପ୍ରଣୟନ କଲେ ବର୍ଣ୍ଣନା କର।</p><details><summary>ଉତ୍ତର</summary><p>ଶୁଦ୍ଧ ଡେଙ୍ଗା TT ଓ ଶୁଦ୍ଧ ଗେଡ଼ା tt ମଟର ଗଛକୁ ସଂକରଣ କରି F₁ରେ Tt ପାଇଥିଲେ; T ପ୍ରଭାବୀ ହେତୁ ସମସ୍ତ ଗଛ ଡେଙ୍ଗା ହେଲା। F₁ ସ୍ୱପରାଗଣରୁ F₂ରେ ଡେଙ୍ଗା ଓ ଗେଡ଼ା ଗଛ 3:1 ଅନୁପାତରେ ମିଳିଲା। ଏଥିରୁ ଏକକ ଗୁଣ ନୀତି, ପ୍ରଭାବୀ ଗୁଣ ନୀତି ଓ ପୃଥକୀକରଣ ନିୟମ ସମ୍ପର୍କରେ ନିଷ୍କର୍ଷ ମିଳିଲା।</p></details></div>
+
+ <div class="q"><div class="type">LONG ANSWER</div><p><b>3.</b> Darwinଙ୍କ ତତ୍ତ୍ୱ ବୁଝାଅ।</p><details><summary>ଉତ୍ତର</summary><p>ପ୍ରତ୍ୟେକ ଜୀବରେ ଅପରିସୀମ ପ୍ରଜନନ କ୍ଷମତା ଥାଏ। କିନ୍ତୁ ଖାଦ୍ୟ, ବାସସ୍ଥାନ ଓ ଉପଯୁକ୍ତ ସଙ୍ଗୀ ସୀମିତ। ତେଣୁ ଜୀବମାନଙ୍କ ମଧ୍ୟରେ ଜୀବନ ସଂଗ୍ରାମ ହୁଏ। ପରିବେଶ ସହ ନିଜକୁ ଖାପ ଖୁଆଇପାରୁଥିବା ଜୀବ ବଞ୍ଚିଥାଏ ଓ ବଂଶବୃଦ୍ଧି କରେ। ଏହି ପ୍ରକ୍ରିୟାକୁ Darwin ପ୍ରାକୃତିକ ଉଦ୍‌ବରଣ ବା Natural Selection କହିଥିଲେ।</p></details></div>
+
+ <div class="q"><div class="type">SHORT ANSWER</div><p><b>4.</b> ନୂତନ ଜୀବ ସୃଷ୍ଟି ସମ୍ପର୍କରେ ବିଭିନ୍ନ ମତବାଦ ଲେଖ।</p><details><summary>ଉତ୍ତର</summary><p>ପାଠରେ ଈଶ୍ୱରଙ୍କ ଦ୍ୱାରା ଜୀବ ସୃଷ୍ଟି, ଅନ୍ୟ ଗ୍ରହରୁ ଉନ୍ନତ ଜୀବ ଆସିବା, ଧୂମକେତୁ ସଂଘାତ ମାଧ୍ୟମରେ ମୌଳିକ ଉପାଦାନ ଆସିବା ଓ ଅଜୈବିକ ପଦାର୍ଥରୁ ଜୀବନ ସୃଷ୍ଟି ଭଳି ମତ ଉଲ୍ଲେଖ ଅଛି।</p></details></div>
+
+ <div class="q"><div class="type">SHORT ANSWER</div><p><b>5.</b> ସମଜାତ ଓ ଅନୁରୂପ ଅଙ୍ଗ କ'ଣ? ଉଦାହରଣ ସହ ବର୍ଣ୍ଣନା କର।</p><details><summary>ଉତ୍ତର</summary><p>ମୌଳିକ ଗଠନ, ଉତ୍ପତ୍ତି ଓ ବିକାଶରେ ସାମଞ୍ଜସ୍ୟ ଥିବା ଅଙ୍ଗକୁ ସମଜାତ ଅଙ୍ଗ କୁହାଯାଏ। ମଣିଷର ହାତ ଓ ଘୋଡ଼ାର ଗୋଡ଼ ଉଦାହରଣ। କାର୍ଯ୍ୟ ସମାନ କିନ୍ତୁ ମୌଳିକ ଗଠନ ଓ ଉତ୍ପତ୍ତି ଭିନ୍ନ ଥିବା ଅଙ୍ଗକୁ ଅନୁରୂପ ଅଙ୍ଗ କୁହାଯାଏ; ପତଙ୍ଗ ଓ ପକ୍ଷୀର ପକ୍ଷ ଉଦାହରଣ।</p></details></div>
+
+ <div class="q"><div class="type">SHORT ANSWER</div><p><b>6.</b> Modern Synthetic Theory ଆଲୋଚନା କର।</p><details><summary>ଉତ୍ତର</summary><p>ଆଧୁନିକ ଜୀବବିଜ୍ଞାନ ଓ geneticsର ଉନ୍ନତି ପରେ Darwinଙ୍କ natural selectionକୁ ବଂଶାନୁକ୍ରମ ଓ mutation ସହ ସମନ୍ୱୟ କରାଗଲା। Variation, selection ଓ isolationର ଗୁରୁତ୍ୱ ଏହି ତତ୍ତ୍ୱରେ ରହିଛି।</p></details></div>
+
+ <div class="q"><div class="type">SHORT ANSWER</div><p><b>7.</b> ଜୀବାଶ୍ମ କ'ଣ? ଜୀବାଶ୍ମ ଅଧ୍ୟୟନରୁ କ'ଣ ଜାଣିହେବ?</p><details><summary>ଉତ୍ତର</summary><p>ପ୍ରାଚୀନ ଜୀବର ଅବଶେଷକୁ ଜୀବାଶ୍ମ କୁହାଯାଏ। ଏହାର ଅଧ୍ୟୟନରୁ ପୁରୁଣା ଓ ବର୍ତ୍ତମାନ ଜୀବଗୋଷ୍ଠୀର ସମ୍ପର୍କ ବୁଝିହେବ। Archaeopteryx ଏକ ଉଲ୍ଲେଖିତ ଉଦାହରଣ।</p></details></div>
+
+ <div class="q"><div class="type">ONE LINE</div><p><b>8.</b> (କ) ଜୀବନର ପ୍ରାଥମିକ ଅଣୁମାନଙ୍କର ନାମ ଲେଖ। (ଖ) ଜୈବ ବିବର୍ତ୍ତନ କ'ଣ? (ଗ) ଜୀବାଶ୍ମ ଆଧାରିତ ପ୍ରମାଣ କ'ଣ? (ଘ) ଅବଶେଷାଙ୍ଗ କ'ଣ?</p><details><summary>ଉତ୍ତର</summary><p>(କ) ନ୍ୟୁକ୍ଲିକ୍ ଅମ୍ଳ, ପ୍ରୋଟିନ୍, କାର୍ବୋହାଇଡ୍ରେଟ୍ ଇତ୍ୟାଦି ବୃହତ୍ ଅଣୁ ସମ୍ପର୍କିତ ଉଲ୍ଲେଖ ଅଛି। (ଖ) ପ୍ରାଣୀ ଓ ଉଦ୍ଭିଦରେ ହେଉଥିବା ବିବର୍ତ୍ତନ। (ଗ) ଜୀବାଶ୍ମରୁ ପ୍ରାଚୀନ ଓ ବର୍ତ୍ତମାନ ଜୀବମାନଙ୍କ ସମ୍ପର୍କ ବୁଝିବା। (ଘ) ବର୍ତ୍ତମାନ ଅତ୍ୟଳ୍ପ/ନଥିବା ବ୍ୟବହାରର ଅଙ୍ଗର ଅବଶେଷ।</p></details></div>
+
+ <div class="q"><div class="type">SHORT NOTES</div><p><b>9.</b> ସଂକ୍ଷିପ୍ତ ଟିପ୍ପଣୀ: କୃତ୍ରିମ ସଂକରଣ ପ୍ରଣାଳୀ, ସମଜାତ ଅଙ୍ଗ, ପୃଥକୀକରଣ ନିୟମ, ସ୍ୱାଧୀନ ଅବବ୍ୟୂହନ ନିୟମ, ଦ୍ୱିସଂକରଣ ପରୀକ୍ଷଣ, ଅନୁରୂପ ଅଙ୍ଗ।</p><details><summary>ଉତ୍ତର ସାର</summary><p>ଏହି ସମସ୍ତ ବିଷୟର ମୂଳ ଧାରଣା ଉପରୋକ୍ତ sectionsରେ step-by-step ଦିଆଯାଇଛି—କୃତ୍ରିମ ପରାଗସ୍ଥାପନ, ସାମାନ୍ୟ ମୌଳିକ ଗଠନ, factorର ପୃଥକତା, ଦୁଇ ଯୋଡ଼ା factorର ସ୍ୱାଧୀନ ଅବବ୍ୟୂହନ ଏବଂ 9:3:3:1 ଫଳ ଏହାର ମୁଖ୍ୟ ପଏଣ୍ଟ।</p></details></div>
+
+ <div class="q"><div class="type">ONE WORD</div><p><b>10.</b> ମେଣ୍ଡେଲ୍ କେଉଁ ଗଛରେ ପରୀକ୍ଷା କରିଥିଲେ? ଏକସଂକରଣରେ କେତୋଟି ବିକଳ୍ପୀ factor? F₂ରେ ଦ୍ୱିସଂକରଣର ଅନୁପାତ? ପତଙ୍ଗର ପକ୍ଷ ଓ ପକ୍ଷୀର ପକ୍ଷ କେଉଁ ପ୍ରକାର ଅଙ୍ଗ?</p><details><summary>ଉତ୍ତର</summary><p>ମଟର (Pisum sativum); ଗୋଟିଏ ଯୋଡ଼ା; 9:3:3:1; ଅନୁରୂପ ଅଙ୍ଗ।</p></details></div>
+
+ <div class="q"><div class="type">FILL IN THE BLANKS</div>
+ <p>(କ) F₁ ଡେଙ୍ଗା ଗଛର ସ୍ୱପରାଗଣ ପରେ F₂ରେ ଡେଙ୍ଗା : ଗେଡ଼ା ଅନୁପାତ ___ ଅଟେ।<br>
+ (ଖ) ଉତ୍ପତ୍ତି, ଗଠନ, ହାଡ଼ ବିନ୍ୟାସ ଓ ବିକାଶରେ ସାମଞ୍ଜସ୍ୟ ଥିବା ଅଙ୍ଗକୁ ___ ଅଙ୍ଗ କୁହାଯାଏ।<br>
+ (ଗ) ମଣିଷ କୋଷରେ ___ ଯୋଡ଼ା autosome ଥାଏ।<br>
+ (ଘ) Darwinଙ୍କ 1859ର ପୁସ୍ତକର ନାମ ___।</p>
+ <details><summary>ଉତ୍ତର</summary><p>(କ) 3:1 &nbsp; (ଖ) ସମଜାତ / Homologous &nbsp; (ଗ) 22 &nbsp; (ଘ) On the Origin of Species</p></details></div>
+
+ <div class="q"><div class="type">MATCH THE RELATION</div>
+ <p>(କ) Mendelଙ୍କ ଏକସଂକରଣ : 3:1 :: Mendelଙ୍କ ଦ୍ୱିସଂକରଣ : ___</p>
+ <p>(ଖ) ଶୁଦ୍ଧ ଡେଙ୍ଗା : TT :: ଶୁଦ୍ଧ ଗେଡ଼ା : ___</p>
+ <p>(ଗ) ବାଦୁଡ଼ିର ପକ୍ଷ, ମଣିଷର ହାତ : ସମଜାତ ଅଙ୍ଗ :: ପତଙ୍ଗର ପକ୍ଷ, ବାଦୁଡ଼ିର ପକ୍ଷ : ___</p>
+ <details><summary>ଉତ୍ତର</summary><p>(କ) 9:3:3:1 &nbsp; (ଖ) tt &nbsp; (ଗ) ଅନୁରୂପ ଅଙ୍ଗ</p></details></div>
+
+ <div class="q"><div class="type">TEXTBOOK TRUE / FALSE STYLE</div>
+ <p>1. ବିବର୍ତ୍ତନ ଅତି ମନ୍ଥର ଓ ନିରବଚ୍ଛିନ୍ନ ପ୍ରକ୍ରିୟା।<br>
+ 2. ଅନୁରୂପ ଅଙ୍ଗର ମୌଳିକ ଉତ୍ପତ୍ତି ସମାନ।<br>
+ 3. ମଣିଷର 23 ଯୋଡ଼ା chromosome ଅଛି।<br>
+ 4. ପିତାଙ୍କ ଶୁକ୍ରାଣୁର X ବା Y ରହିପାରେ।</p>
+ <details><summary>ଉତ୍ତର</summary><p>1. ସତ୍ୟ &nbsp; 2. ମିଥ୍ୟା &nbsp; 3. ସତ୍ୟ &nbsp; 4. ସତ୍ୟ</p></details></div>
+
+ <div class="q"><div class="type">NUMERICAL / FORMULA BASED</div>
+ <p>ଯଦି ଦୁଇ ଯୋଡ଼ା ବିକଳ୍ପୀ ଗୁଣ ପାଇଁ Monohybrid ratio 3:1 ଧରାଯାଏ, ତେବେ Dihybrid ratio କେତେ?</p>
+ <details><summary>ସମାଧାନ</summary><div class="reveal">(3 : 1)² = <b>9 : 3 : 3 : 1</b></div></details></div>
+</section>
+
+<section id="quiz">
+ <p class="kicker">18 — FINAL MCQ QUIZ</p>
+ <h2>ପରୀକ୍ଷା ପୂର୍ବରୁ ନିଜକୁ ଚେକ୍ କର</h2>
+ <div class="quiz">
+  <div class="q"><div class="type">MCQ 01</div><p>ମେଣ୍ଡେଲ୍ କେଉଁ ଉଦ୍ଭିଦରେ ବଂଶାନୁକ୍ରମ ଅଧ୍ୟୟନ କରିଥିଲେ?</p>
+   <label><input type="radio" name="q1"> ମଟର</label><label><input type="radio" name="q1"> ଧାନ</label><label><input type="radio" name="q1"> ଗହମ</label><label><input type="radio" name="q1"> ମକା</label>
+   <details><summary>ଉତ୍ତର</summary><p>ମଟର (Pisum sativum)</p></details></div>
+  <div class="q"><div class="type">MCQ 02</div><p>Monohybrid F₂ phenotypic ratio କେତେ?</p>
+   <label><input type="radio" name="q2"> 1:1</label><label><input type="radio" name="q2"> 3:1</label><label><input type="radio" name="q2"> 9:3:3:1</label><label><input type="radio" name="q2"> 2:1</label>
+   <details><summary>ଉତ୍ତର</summary><p>3:1</p></details></div>
+  <div class="q"><div class="type">MCQ 03</div><p>Dihybrid F₂ ratio କେତେ?</p>
+   <label><input type="radio" name="q3"> 3:1</label><label><input type="radio" name="q3"> 1:2:1</label><label><input type="radio" name="q3"> 9:3:3:1</label><label><input type="radio" name="q3"> 4:1</label>
+   <details><summary>ଉତ୍ତର</summary><p>9:3:3:1</p></details></div>
+  <div class="q"><div class="type">MCQ 04</div><p>1909ରେ factorକୁ Gene ନାମ କିଏ ଦେଇଥିଲେ?</p>
+   <label><input type="radio" name="q4"> Darwin</label><label><input type="radio" name="q4"> Johannsen</label><label><input type="radio" name="q4"> Lamarck</label><label><input type="radio" name="q4"> Weismann</label>
+   <details><summary>ଉତ୍ତର</summary><p>Wilhelm Johannsen</p></details></div>
+  <div class="q"><div class="type">MCQ 05</div><p>ମଣିଷର sex chromosome କେଉଁଠି XX?</p>
+   <label><input type="radio" name="q5"> ପୁରୁଷ</label><label><input type="radio" name="q5"> ମହିଳା</label><label><input type="radio" name="q5"> ଉଭୟ XY</label><label><input type="radio" name="q5"> କୌଣସିଟି ନୁହେଁ</label>
+   <details><summary>ଉତ୍ତର</summary><p>ମହିଳା</p></details></div>
+  <div class="q"><div class="type">MCQ 06</div><p>Archaeopteryx କେଉଁ ପ୍ରକାର ପ୍ରମାଣର ଉଦାହରଣ?</p>
+   <label><input type="radio" name="q6"> ଜୀବାଶ୍ମ</label><label><input type="radio" name="q6"> ରାସାୟନିକ</label><label><input type="radio" name="q6"> ଧ୍ୱନି</label><label><input type="radio" name="q6"> ଆଲୋକ</label>
+   <details><summary>ଉତ୍ତର</summary><p>ଜୀବାଶ୍ମ ଆଧାରିତ ପ୍ରମାଣ</p></details></div>
+  <div class="q"><div class="type">MCQ 07</div><p>ମଣିଷର ହାତ ଓ ଘୋଡ଼ାର ଗୋଡ଼ କେଉଁ ପ୍ରକାର ଅଙ୍ଗ?</p>
+   <label><input type="radio" name="q7"> ଅନୁରୂପ</label><label><input type="radio" name="q7"> ସମଜାତ</label><label><input type="radio" name="q7"> ଅବଶେଷ</label><label><input type="radio" name="q7"> କୌଣସିଟି ନୁହେଁ</label>
+   <details><summary>ଉତ୍ତର</summary><p>ସମଜାତ (Homologous)</p></details></div>
+  <div class="q"><div class="type">MCQ 08</div><p>ଲାମାର୍କଙ୍କ ତତ୍ତ୍ୱ କେଉଁ ନାମରେ ପରିଚିତ?</p>
+   <label><input type="radio" name="q8"> Lamarckism</label><label><input type="radio" name="q8"> Darwinism</label><label><input type="radio" name="q8"> Mutation theory</label><label><input type="radio" name="q8"> Cell theory</label>
+   <details><summary>ଉତ୍ତର</summary><p>Lamarckism</p></details></div>
+  <div class="q"><div class="type">MCQ 09</div><p>Darwinଙ୍କ ମୁଖ୍ୟ ଧାରଣା କେଉଁ ଦୁଇଟି ସହ ସମ୍ପର୍କିତ?</p>
+   <label><input type="radio" name="q9"> Photosynthesis + Respiration</label><label><input type="radio" name="q9"> Struggle for Existence + Natural Selection</label><label><input type="radio" name="q9"> Digestion + Excretion</label><label><input type="radio" name="q9"> Cell division + Growth</label>
+   <details><summary>ଉତ୍ତର</summary><p>Struggle for Existence + Natural Selection</p></details></div>
+  <div class="q"><div class="type">MCQ 10</div><p>Modern Synthetic Theoryରେ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ କାରକ କେଉଁଗୁଡ଼ିକ?</p>
+   <label><input type="radio" name="q10"> Variation, Selection, Isolation</label><label><input type="radio" name="q10"> Respiration, Digestion, Excretion</label><label><input type="radio" name="q10"> Light, Sound, Heat</label><label><input type="radio" name="q10"> Water only</label>
+   <details><summary>ଉତ୍ତର</summary><p>Variation, Selection, Isolation</p></details></div>
+ </div>
+
+ <div class="card exam">
+  <h3>Answer Key</h3>
+  <p><b>1–10:</b> 1. ମଟର · 2. 3:1 · 3. 9:3:3:1 · 4. Johannsen · 5. ମହିଳା · 6. ଜୀବାଶ୍ମ · 7. ସମଜାତ · 8. Lamarckism · 9. Struggle for Existence + Natural Selection · 10. Variation + Selection + Isolation</p>
+ </div>
+</section>
+
+<section>
+ <p class="kicker">QUICK GLOSSARY</p>
+ <h2>ଶବ୍ଦାବଳୀ</h2>
+ <table>
+ <tr><th>ଓଡ଼ିଆ</th><th>English</th></tr>
+ <tr><td>ଜିନୀୟ ପଦାର୍ଥ</td><td>Genetic material</td></tr>
+ <tr><td>ଲକ୍ଷଣପ୍ରରୂପୀ ବିଭିନ୍ନତା</td><td>Phenotypic variation</td></tr>
+ <tr><td>ବିକଳ୍ପୀ ଗୁଣ</td><td>Contrasting characters</td></tr>
+ <tr><td>ସଂକରଣ</td><td>Hybridisation</td></tr>
+ <tr><td>ଅଜାତ୍ୟ ପିଢ଼ି</td><td>Filial generation</td></tr>
+ <tr><td>ପ୍ରଭାବୀ / ଅପ୍ରଭାବୀ</td><td>Dominant / Recessive</td></tr>
+ <tr><td>ଜୈବ ବିବର୍ତ୍ତନ</td><td>Organic evolution</td></tr>
+ <tr><td>ଜୀବାଶ୍ମ</td><td>Fossil</td></tr>
+ <tr><td>ସମଜାତ ଅଙ୍ଗ</td><td>Homologous organs</td></tr>
+ <tr><td>ଅନୁରୂପ ଅଙ୍ଗ</td><td>Analogous organs</td></tr>
+ <tr><td>ଅବଶେଷାଙ୍ଗ</td><td>Vestigeal organ</td></tr>
+ <tr><td>ପ୍ରାକୃତିକ ଉଦ୍‌ବରଣ</td><td>Natural selection</td></tr>
+ <tr><td>ଅନ୍ତରଣ</td><td>Isolation</td></tr>
+ <tr><td>ନବୋଦ୍ଭବନ</td><td>Mutation</td></tr>
+ <tr><td>ବଂଶଗତି ବିଜ୍ଞାନ</td><td>Genetics</td></tr>
+ <tr><td>ଜୀବନ ସଂଗ୍ରାମ</td><td>Struggle for existence</td></tr>
+ <tr><td>ଆଧୁନିକ ସାଂଶ୍ଲେଷିକ ତତ୍ତ୍ୱ</td><td>Modern Synthetic Theory</td></tr>
+ <tr><td>ପୃଥକୀକରଣ ନିୟମ</td><td>Law of Segregation</td></tr>
+ <tr><td>ସ୍ୱାଧୀନ ଅବବ୍ୟୂହନ ନିୟମ</td><td>Law of Independent Assortment</td></tr>
+ <tr><td>ପ୍ରଜାତି</td><td>Genus</td></tr>
+ <tr><td>ଜାତି</td><td>Species</td></tr>
+ <tr><td>ଆକାଶୀୟ</td><td>Aerial</td></tr>
+ </table>
+</section>
+
+<section>
+ <div class="card warn">
+  <h3>⚠️ Common Mistakes to Avoid</h3>
+  <ul>
+   <li>3:1 ଓ 9:3:3:1 ଅନୁପାତକୁ ଗୋଲମାଲ କରନି।</li>
+   <li>TT, Tt ଓ ttକୁ phenotype ସହ ସିଧାସଳଖ ଏକ କରନି—Genotype ଓ Phenotype ଭିନ୍ନ।</li>
+   <li>Homologous = ମୌଳିକ ଗଠନ/ଉତ୍ପତ୍ତିର ସାମଞ୍ଜସ୍ୟ; Analogous = କାର୍ଯ୍ୟର ସାମଞ୍ଜସ୍ୟ।</li>
+   <li>XX/XYରେ X ଓ Yର ଭୂମିକା ମନେ ରଖ।</li>
+   <li>Darwinଙ୍କ Natural Selectionକୁ Lamarckଙ୍କ acquired characters ସହ ମିଶାଇବା ନାହିଁ।</li>
+  </ul>
+ </div>
+</section>
+
+</main>
+<footer>
+ ବଂଶାନୁକ୍ରମ ଓ ବିବର୍ତ୍ତନ · Class 10 Life Science · Visual Exam Lecture
+</footer>
+<script>
+const bar=document.getElementById('bar');
+window.addEventListener('scroll',()=>{
+ const h=document.documentElement.scrollHeight-innerHeight;
+ bar.style.width=(h>0?(scrollY/h)*100:0)+'%';
+});
+</script>
+</body>
+</html>
