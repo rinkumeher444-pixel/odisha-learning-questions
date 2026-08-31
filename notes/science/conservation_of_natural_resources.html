@@ -1,0 +1,975 @@
+
+<!DOCTYPE html>
+<html lang="or">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ଦଶମ ଅଧ୍ୟାୟ: ପ୍ରାକୃତିକ ସମ୍ପଦର ସଂରକ୍ଷଣ (Conservation of Natural Resources)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;500;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --primary-light: #eff6ff;
+            --secondary: #0d9488;
+            --accent: #d97706;
+            --bg-main: #f8fafc;
+            --text-dark: #1e293b;
+            --card-bg: #ffffff;
+            
+            --key-concept-bg: #e0f2fe;
+            --key-concept-border: #0284c7;
+            --caution-bg: #ffe4e6;
+            --caution-border: #e11d48;
+            --exam-tip-bg: #fef3c7;
+            --exam-tip-border: #d97706;
+            --activity-bg: #dcfce7;
+            --activity-border: #16a34a;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Noto Sans Oriya', 'Inter', sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-dark);
+            line-height: 1.8;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1050px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3a8a, #0d9488);
+            color: white;
+            padding: 40px 25px;
+            text-align: center;
+            border-radius: 16px;
+            margin-bottom: 35px;
+            box-shadow: 0 10px 20px -5px rgba(30, 58, 138, 0.3);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.15rem;
+            opacity: 0.95;
+        }
+
+        .badge-header {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin-bottom: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        section {
+            background: var(--card-bg);
+            padding: 32px;
+            margin-bottom: 35px;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e2e8f0;
+        }
+
+        h2 {
+            color: var(--primary);
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 10px;
+            margin-bottom: 22px;
+            font-size: 1.6rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h3 {
+            color: #0f766e;
+            font-size: 1.3rem;
+            margin: 25px 0 15px 0;
+            border-left: 4px solid #0f766e;
+            padding-left: 10px;
+        }
+
+        h4 {
+            color: #334155;
+            font-size: 1.1rem;
+            margin: 15px 0 10px 0;
+        }
+
+        p {
+            margin-bottom: 14px;
+            font-size: 1.05rem;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 15px 0 20px 25px;
+            font-size: 1.03rem;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Callout Containers */
+        .callout {
+            padding: 20px;
+            border-left: 6px solid;
+            border-radius: 8px;
+            margin: 22px 0;
+            font-size: 1.02rem;
+        }
+
+        .callout-key {
+            background-color: var(--key-concept-bg);
+            border-color: var(--key-concept-border);
+            color: #0c4a6e;
+        }
+
+        .callout-caution {
+            background-color: var(--caution-bg);
+            border-color: var(--caution-border);
+            color: #881337;
+        }
+
+        .callout-exam {
+            background-color: var(--exam-tip-bg);
+            border-color: var(--exam-tip-border);
+            color: #78350f;
+        }
+
+        .callout-activity {
+            background-color: var(--activity-bg);
+            border-color: var(--activity-border);
+            color: #14532d;
+        }
+
+        .callout-title {
+            font-weight: 700;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Diagrams & Visuals */
+        .diagram-container {
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            margin: 25px 0;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.03);
+        }
+
+        .diagram-caption {
+            font-weight: 600;
+            color: #475569;
+            margin-top: 12px;
+            font-size: 0.98rem;
+        }
+
+        /* Flowcharts & Cause-Effect */
+        .flow-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        .flow-card {
+            background: #f1f5f9;
+            border: 2px solid #3b82f6;
+            border-radius: 10px;
+            padding: 12px 18px;
+            font-weight: 600;
+            color: #1e3a8a;
+            text-align: center;
+            min-width: 140px;
+        }
+
+        .flow-arrow {
+            font-size: 1.6rem;
+            color: #3b82f6;
+            font-weight: bold;
+        }
+
+        /* Step Cards Grid */
+        .step-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 18px;
+            margin: 22px 0;
+        }
+
+        .step-card {
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-top: 4px solid var(--primary);
+            border-radius: 10px;
+            padding: 18px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .step-num {
+            background: var(--primary);
+            color: white;
+            font-weight: bold;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 22px 0;
+            font-size: 1rem;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        th, td {
+            border: 1px solid #cbd5e1;
+            padding: 12px 16px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        /* Accordion */
+        details {
+            background: #f8fafc;
+            border: 1px solid #cbd5e1;
+            border-radius: 10px;
+            margin-bottom: 14px;
+            padding: 14px 18px;
+            transition: all 0.3s ease;
+        }
+
+        details[open] {
+            background: #ffffff;
+            border-color: var(--primary);
+            box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+        }
+
+        summary {
+            font-weight: 700;
+            cursor: pointer;
+            color: var(--primary);
+            font-size: 1.08rem;
+            outline: none;
+        }
+
+        details[open] summary {
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+            margin-bottom: 12px;
+        }
+
+        /* Quiz Box */
+        .quiz-card {
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .quiz-q {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 14px;
+            color: #0f172a;
+        }
+
+        .quiz-opt {
+            display: block;
+            background: #f1f5f9;
+            padding: 12px 16px;
+            margin: 8px 0;
+            border-radius: 8px;
+            cursor: pointer;
+            border: 1px solid #cbd5e1;
+            font-size: 1rem;
+            transition: background 0.2s ease;
+        }
+
+        .quiz-opt:hover {
+            background: #e2e8f0;
+        }
+
+        .feedback {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 6px;
+            font-weight: 600;
+            display: none;
+        }
+
+        .feedback.correct {
+            background-color: #dcfce7;
+            color: #15803d;
+            border: 1px solid #86efac;
+        }
+
+        .feedback.incorrect {
+            background-color: #ffe4e6;
+            color: #b91c1c;
+            border: 1px solid #fca5a5;
+        }
+
+        .tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 15px 0;
+        }
+
+        .tag-item {
+            background: #e0f2fe;
+            color: #0369a1;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            body { padding: 10px; }
+            section { padding: 20px; }
+            header h1 { font-size: 1.7rem; }
+            .flow-wrapper { flex-direction: column; }
+            .flow-arrow { transform: rotate(90deg); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <span class="badge-header">ଦଶମ ଶ୍ରେଣୀ : ଜୀବ ବିଜ୍ଞାନ (Life Science)</span>
+        <h1>ଦଶମ ଅଧ୍ୟାୟ: ପ୍ରାକୃତିକ ସମ୍ପଦର ସଂରକ୍ଷଣ</h1>
+        <p>CONSERVATION OF NATURAL RESOURCES — ସମ୍ପୂର୍ଣ୍ଣ ପାଠ୍ୟଖସଡ଼ା, କୌଶଳ, ପ୍ରଶ୍ନୋତ୍ତର ଓ ମୋକ୍ ଟେଷ୍ଟ</p>
+    </header>
+
+    <section id="intro">
+        <h2>🌿 ଭୂମିକା (Introduction)</h2>
+        <p>
+            ପ୍ରକୃତି ସହିତ ମିଳିମିଶି ଜୀବନଯାପନ କରିବା ହେଉଛି ଭାରତୀୟ ସଂସ୍କୃତି ଓ ପରମ୍ପରାର ମୂଳ ପିଣ୍ଡ। ଆମର କଳା, ସଂସ୍କୃତି, ପର୍ବପର୍ବାଣୀ, ଖାଦ୍ୟପେୟ, ବିଶ୍ୱାସ ଓ ଲୋକକଥା ପ୍ରକୃତି ଏବଂ ପ୍ରାକୃତିକ ସମ୍ପଦ ସହିତ ଅଙ୍ଗାଙ୍ଗୀ ଭାବେ ଜଡ଼ିତ।
+        </p>
+        <p>
+            ଆମର ସମସ୍ତ ମୌଳିକ ଆବଶ୍ୟକତା (ଯଥା: ଖାଦ୍ୟ, ବସ୍ତ୍ର, ଆଶ୍ରୟ) ପୂରଣ ପାଇଁ ପ୍ରକୃତି ଆମକୁ <strong>ବାୟୁ, ଜଳ, ମାଟି, ଆଲୋକ, ଜୀବଜନ୍ତୁ ଓ ଉଭିଦଜଗତ</strong> ପ୍ରଦାନ କରିଛି। ଏଗୁଡ଼ିକର ଉପଯୋଗ କରି ଆମେ ଆମ ଜୀବନକୁ ସହଜ ଓ ସୁଖମୟ କରିପାରିଛେ।
+        </p>
+
+        <div class="callout callout-caution">
+            <div class="callout-title">⚠️ ଶିଳ୍ପ ବିପ୍ଳବ ଓ ସମ୍ପଦର ଅବକ୍ଷୟ (Post-Industrial Revolution Impact)</div>
+            ଦୁର୍ଭାଗ୍ୟବଶତଃ, ଶିଳ୍ପ ବିପ୍ଳବ ପରବର୍ତ୍ତୀ କାଳରୁ ମଣିଷ ନିଜର ସଂକୀର୍ଣ୍ଣ ସ୍ୱାର୍ଥ ହାସଲ ପାଇଁ ପ୍ରାକୃତିକ ସମ୍ପଦର ସଂରକ୍ଷଣ ଭୁଲି ଦ୍ରୁତ ଅବକ୍ଷୟ ଘଟାଉଛି। ଏହା ଅବିରାମ ଚାଲିଲେ ପୃଥିବୀରେ ମଣିଷ ସମେତ ସମଗ୍ର ଜୀବଜଗତ ତିଷ୍ଠି ରହିବା ଅସମ୍ଭବ ହୋଇପଡ଼ିବ।
+        </div>
+    </section>
+
+    <section id="section-10-1">
+        <h2>10.1 ପ୍ରାକୃତିକ ସମ୍ପଦ (Natural Resources)</h2>
+        <p>
+            <strong>ସଂଜ୍ଞା (Definition):</strong> ପ୍ରାକୃତିକ ଉପାୟରେ ଉତ୍ପତ୍ତିଲାଭ କରିଥିବା ଏବଂ ପୃଥିବୀରେ ବାସ କରୁଥିବା ସମସ୍ତ ଉଭିଦ ଓ ପ୍ରାଣୀଙ୍କ ଦ୍ୱାରା ବ୍ୟବହୃତ, ପୃଥିବୀରେ ବିଦ୍ୟମାନ ସାମୂହିକ ଉତ୍ସକୁ <strong>ପ୍ରାକୃତିକ ସମ୍ପଦ</strong> କୁହାଯାଏ।
+        </p>
+
+        <h3>ପ୍ରାକୃତିକ ସମ୍ପଦର ଶ୍ରେଣୀବିଭାଗ (Classification)</h3>
+        <p>ପ୍ରାକୃତିକ ସମ୍ପଦକୁ ମୁଖ୍ୟତଃ ଦୁଇ ଭାଗରେ ବିଭକ୍ତ କରାଯାଏ:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ସମ୍ପଦର ପ୍ରକାର (Category)</th>
+                    <th>ବୈଶିଷ୍ଟ୍ୟ (Characteristics)</th>
+                    <th>ଉଦାହରଣ (Examples)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>୧. ନବୀକରଣଯୋଗ୍ୟ ସମ୍ପଦ (Renewable Resources)</strong></td>
+                    <td>ଏହି ସମ୍ପଦଗୁଡ଼ିକର ପରିମାଣ ପରିବେଶରେ ହ୍ରାସ ପାଏ ନାହିଁ। ଜୀବ ଓ ପରିବେଶ ମଧ୍ୟରେ କ୍ରିୟା-ପ୍ରତିକ୍ରିୟା ଦ୍ୱାରା ଚକ୍ରାକାରରେ ଆବର୍ତ୍ତନ କରିଥାନ୍ତି।</td>
+                    <td>ମୃତ୍ତିକା, ଜଳ, ବାୟୁ (ଅମ୍ଳଜାନ, ଯବକ୍ଷାରଜାନ)</td>
+                </tr>
+                <tr>
+                    <td><strong>୨. ନବୀକରଣଅଯୋଗ୍ୟ ସମ୍ପଦ (Non-renewable Resources)</strong></td>
+                    <td>ଏହି ପ୍ରକାର ସମ୍ପଦର ପରିମାଣ ଅତି ସୀମିତ। ଅତ୍ୟଧିକ ବ୍ୟବହାର କଲେ ଏହା ଶେଷ ହୋଇଯାଏ ଓ ସହଜରେ ପୁନଃସୃଷ୍ଟି ହୋଇପାରେନାହିଁ।</td>
+                    <td>ବନ୍ୟଜୀବ, କୋଇଲା, ପେଟ୍ରୋଲିୟମ୍</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="diagram-container">
+            <svg width="100%" height="180" viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="150" cy="90" r="65" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+                <text x="150" y="85" text-anchor="middle" font-weight="bold" fill="#0369a1" font-size="15">ନବୀକରଣଯୋଗ୍ୟ</text>
+                <text x="150" y="105" text-anchor="middle" fill="#0284c7" font-size="13">(ବାୟୁ, ଜଳ, ମୃତ୍ତିକା)</text>
+                <path d="M 90 90 A 60 60 0 0 1 210 90" fill="none" stroke="#0284c7" stroke-width="2" stroke-dasharray="4"/>
+
+                <rect x="390" y="30" width="150" height="120" rx="10" fill="#ffe4e6" stroke="#e11d48" stroke-width="3"/>
+                <text x="465" y="85" text-anchor="middle" font-weight="bold" fill="#be123c" font-size="15">ନବୀକରଣଅଯୋଗ୍ୟ</text>
+                <text x="465" y="105" text-anchor="middle" fill="#e11d48" font-size="13">(କୋଇଲା, ପେଟ୍ରୋଲ)</text>
+                <line x1="410" y1="120" x2="520" y2="120" stroke="#be123c" stroke-width="4"/>
+            </svg>
+            <div class="diagram-caption">ଚିତ୍ର ୧୦.୧: ନବୀକରଣଯୋଗ୍ୟ (ଚକ୍ରୀୟ) ଏବଂ ନବୀକରଣଅଯୋଗ୍ୟ (ସୀମିତ) ସମ୍ପଦ</div>
+        </div>
+    </section>
+
+    <section id="section-10-2">
+        <h2>10.2 ପ୍ରାକୃତିକ ସମ୍ପଦର ସଂରକ୍ଷଣ (Conservation of Natural Resources)</h2>
+        <p>
+            ଜନସଂଖ୍ୟା ବୃଦ୍ଧି, ବିଜ୍ଞାନର ଅଗ୍ରଗତି ଓ ମଣିଷର ଅତ୍ୟଧିକ <strong>ଲୋଭ (Greed)</strong> ଯୋଗୁଁ ପ୍ରତ୍ୟେକ ମଣିଷ ତା’ର <strong>ଆବଶ୍ୟକତା (Need)</strong> ଠାରୁ ଅଧିକ ସମ୍ପଦ ବ୍ୟବହାର କରୁଛି। ଫଳରେ ଅପରିମିତ ମନେହେଉଥିବା ସମ୍ପଦ ଏବେ ସୀମିତ ହୋଇପଡ଼ିଛି।
+        </p>
+
+        <div class="flow-wrapper">
+            <div class="flow-card">ଅତ୍ୟଧିକ ବ୍ୟବହାର ଓ ଅପବ୍ୟବହାର</div>
+            <div class="flow-arrow">➔</div>
+            <div class="flow-card">ପ୍ରଦୂଷଣ (Pollution)</div>
+            <div class="flow-arrow">➔</div>
+            <div class="flow-card">ବିଶ୍ୱତାପନ (Global Warming)</div>
+            <div class="flow-arrow">➔</div>
+            <div class="flow-card">ଜଳବାୟୁ ପରିବର୍ତ୍ତନ</div>
+        </div>
+
+        <h3>10.2.1 ପ୍ରାକୃତିକ ସମ୍ପଦ ସଂରକ୍ଷଣର କୌଶଳ: ୫-'R' ନୀତି (5-'R' Principles)</h3>
+        <p>ପରିବେଶ ଓ ସମ୍ପଦର ସଂରକ୍ଷଣ ପାଇଁ <strong>୫-'R' (5-Rs) ନୀତି</strong>କୁ ଏକ ମୁଖ୍ୟ ମାଧ୍ୟମ ଭାବେ ଗ୍ରହଣ କରାଯାଇଛି:</p>
+
+        <div class="step-grid">
+            <div class="step-card">
+                <div class="step-num">1</div>
+                <h4>ପ୍ରତ୍ୟାଖ୍ୟାନ (Refuse)</h4>
+                <p>ଆବଶ୍ୟକ ନଥିବା ଜିନିଷକୁ ଗ୍ରହଣ ନକରିବା। ପରିବେଶକୁ କ୍ଷତି ପହଞ୍ଚାଉଥିବା ପଦାର୍ଥ (ଯଥା: ଥରେ ବ୍ୟବହୃତ ପ୍ଲାଷ୍ଟିକ୍ ବ୍ୟାଗ୍) କିଣିବା ପାଇଁ ମନା କରିବା।</p>
+            </div>
+            <div class="step-card">
+                <div class="step-num">2</div>
+                <h4>ସମ୍ବରଣ (Reduce)</h4>
+                <p>ଆବଶ୍ୟକତା ଦୃଷ୍ଟିରୁ ସମ୍ପଦର ସୀମିତ ବ୍ୟବହାର କରିବା। ଅପଚୟ ରୋକିବା (ଯଥା: ବ୍ରଶ୍ କଲାବେଳେ ଟ୍ୟାପ୍ ବନ୍ଦ ରଖିବା, ବିଦ୍ୟୁତ୍ ପଙ୍ଖା/ଲାଇଟ୍ ଅଯଥାରେ ନଚଲାଇବା)।</p>
+            </div>
+            <div class="step-card">
+                <div class="step-num">3</div>
+                <h4>ପୁନଃବ୍ୟବହାର (Reuse)</h4>
+                <p>ଗୋଟିଏ ପଦାର୍ଥକୁ ବାରମ୍ବାର ବ୍ୟବହାର କରିବା। <strong>ଏହା ପୁନଶ୍ଚକ୍ରଣଠାରୁ ଉତ୍ତମ</strong>, କାରଣ ଏଥିରେ ଶକ୍ତି ଖର୍ଚ୍ଚ ହୁଏନାହିଁ। (ଯଥା: ବ୍ୟବହୃତ ଲଫାପାକୁ ଓଲଟାଇ ବ୍ୟବହାର, ପ୍ଲାଷ୍ଟିକ୍ ବୋତଲରେ ଜିନିଷ ରଖିବା)।</p>
+            </div>
+            <div class="step-card">
+                <div class="step-num">4</div>
+                <h4>ପୁନଃଉପଯୋଗ (Repurpose)</h4>
+                <p>ଗୋଟିଏ ଉତ୍ପାଦ ମୂଳ କାର୍ଯ୍ୟ ପାଇଁ ଅନୁପଯୋଗୀ ହେଲେ, ଏହାର ବିକଳ୍ପ ବ୍ୟବହାର କରିବା। (ଯଥା: ଫଟା ଚିନାମାଟି କପ୍‌ରେ ଚଢ଼େଇଙ୍କ ପାଇଁ ଖାଦ୍ୟ/ପାଣି ଦେବା, କଣା ଟିଣ/ବାଲ୍‌ଟିରେ ଗଛ ଲଗାଇବା)।</p>
+            </div>
+            <div class="step-card">
+                <div class="step-num">5</div>
+                <h4>ପୁନଶ୍ଚକ୍ରଣ (Recycle)</h4>
+                <p>ବର୍ଜ୍ୟବସ୍ତୁକୁ କଞ୍ଚାମାଲ ଭାବେ ବ୍ୟବହାର କରି ନୂଆ ଜିନିଷ ତିଆରି କରିବା। (ଯଥା: ରଦି କାଗଜ, କାଚ, ଧାତୁକୁ ଅଲଗା କରି ପୁନଶ୍ଚକ୍ରଣ ପାଇଁ ଦେବା; ଜୈବ ଆବର୍ଜନାରୁ କମ୍ପୋଷ୍ଟ ଖତ ତିଆରି କରିବା)।</p>
+            </div>
+        </div>
+
+        <div class="callout callout-exam">
+            <div class="callout-title">📌 ପରୀକ୍ଷା ଉପଯୋଗୀ ଟିପ୍ସ (Exam Tip)</div>
+            ପରୀକ୍ଷାରେ ପଚରାଯାଏ: <em>"ପୁନଃବ୍ୟବହାର (Reuse) କାହିଁକି ପୁନଶ୍ଚକ୍ରଣ (Recycle) ଠାରୁ ଶ୍ରେଷ୍ଠ?"</em><br>
+            <strong>ଉତ୍ତର:</strong> ପୁନଶ୍ଚକ୍ରଣ ପ୍ରକ୍ରିୟାରେ ବର୍ଜ୍ୟବସ୍ତୁକୁ ନୂତନ ରୂପ ଦେବା ପାଇଁ ଶକ୍ତି (Energy) ର ଆବଶ୍ୟକତା ଥାଏ; କିନ୍ତୁ ପୁନଃବ୍ୟବହାର ପ୍ରକ୍ରିୟାରେ ବିନା ଶକ୍ତି ବ୍ୟୟରେ ବସ୍ତୁଟିକୁ ବାରମ୍ବାର ବ୍ୟବହାର କରାଯାଇପାରେ।
+        </div>
+    </section>
+
+    <section id="section-10-3">
+        <h2>10.3 ପ୍ରାକୃତିକ ସମ୍ପଦର ଗୁରୁତ୍ଵ ଓ ସୁପରିଚାଳନା</h2>
+        <p>
+            ଆମର ପ୍ରାୟ <strong>୪୦ ଭାଗ ଔଷଧ ଆବଶ୍ୟକତା</strong> ଜଙ୍ଗଲ ଓ ବନ୍ୟଜୀବଙ୍କଠାରୁ ପୂରଣ ହୋଇଥାଏ (ଉଦାହରଣ: କୁଇନାଇନ୍, ସର୍ପଗନ୍ଧା)।
+        </p>
+        <p>
+            <strong>ପରିବେଶ ସନ୍ତୁଳନରେ ବନ୍ୟପ୍ରାଣୀଙ୍କ ଭୂମିକା:</strong>
+        </p>
+        <ul>
+            <li>କୀଟପତଙ୍ଗ ଓ ଚଢ଼େଇଙ୍କ ଦ୍ୱାରା <strong>ପରାଗସଙ୍ଗମ (Pollination)</strong> ଓ <strong>ବୀଜବିକ୍ଷେପ (Seed dispersal)</strong>।</li>
+            <li>ବାଦୁଡ଼ି ଓ କୀଟଭକ୍ଷୀ ପକ୍ଷୀଙ୍କ ଦ୍ୱାରା ଅନିଷ୍ଟକାରୀ କୀଟପତଙ୍ଗ ନିୟନ୍ତ୍ରଣ।</li>
+            <li>ବନ୍ୟଜୀବ ହେଉଛନ୍ତି ଆମର <strong>ଜିନୀୟ ଭଣ୍ଡାର (Genetic Reserve)</strong>। ଆଜିର ଅଧିକ ଅମଳକ୍ଷମ ଧାନ, ଗହମ, କପା, ଅଧିକ ଦୁଗ୍ଧ ଦେଉଥିବା ଗାଈ ଓ ବ୍ରଏଲର କୁକୁଡ଼ା ଦେଶୀୟ ଉଦ୍ଭିଦ ଓ ପ୍ରାଣୀଙ୍କ ଜିନ୍‌ରୁ ହିଁ ବିକଶିତ ହୋଇଛନ୍ତି।</li>
+        </ul>
+
+        <h3>10.3.1 ପରିପୋଷଣୀୟ ବିକାଶ (Sustainable Development)</h3>
+        <p>
+            ପ୍ରାକୃତିକ ସମ୍ପଦକୁ ଏପରି ଭାବେ ବ୍ୟବହାର କରିବା, ଯେପରିକି ଆମର ବର୍ତ୍ତମାନର ଆବଶ୍ୟକତା ପୂରଣ ହେବା ସହ ଆଗାମୀ ପିଢ଼ି (Future Generations) ପାଇଁ ଏହା ସୁରକ୍ଷିତ ରହିବ।
+        </p>
+
+        <div class="callout callout-key">
+            <div class="callout-title">💡 ପରିପୋଷଣୀୟ ବିକାଶର ମୁଖ୍ୟ ନୀତିସମୂହ</div>
+            <ol>
+                <li><strong>ସମବଣ୍ଟନ:</strong> ଧନୀ-ଗରିବ ନିର୍ବିଶେଷରେ ପ୍ରାକୃତିକ ସମ୍ପଦ ଉପରେ ସମସ୍ତଙ୍କର ସମାନ ଅଧିକାର ରହିଛି।</li>
+                <li><strong>ବର୍ଜ୍ୟର ସୁପରିଚାଳନା:</strong> ଉଦାହରଣ: ତାପଜ ବିଦ୍ୟୁତ୍ କେନ୍ଦ୍ରରୁ ନିର୍ଗତ <strong>କୋଇଲା ପାଉଁଶ (Fly ash)</strong> କୁ ବ୍ୟବହାର କରି ଇଟା ତିଆରି କରିବା।</li>
+                <li><strong>ସମ୍ପଦର ଭରଣା ଦର:</strong> ସମ୍ପଦ ହ୍ରାସ ପରିମାଣଠାରୁ ମଣିଷର ଆବଶ୍ୟକତା ଯେପରି ଅଧିକ ନ ହୁଏ।</li>
+                <li><strong>ଜୈବମଣ୍ଡଳ ସଂରକ୍ଷଣ:</strong> ପୃଥିବୀ ସମସ୍ତ ପ୍ରାଣୀଙ୍କ ଆବାସସ୍ଥଳୀ, ତେଣୁ ସମଗ୍ର ପରିସଂସ୍ଥାର ସଂରକ୍ଷଣ।</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="section-10-4">
+        <h2>10.4 ଜଙ୍ଗଲ ଓ ବନ୍ୟଜୀବ ସଂରକ୍ଷଣ (Forest & Wildlife Conservation)</h2>
+        <p>
+            <strong>ଜଙ୍ଗଲ (Forest):</strong> ଏହା ହେଉଛି ଏକ ‘ବାସସ୍ଥଳୀ’ (Habitat) – ଯେଉଁଠାରେ ଭିନ୍ନ ଭିନ୍ନ ଜାତିର ବୃକ୍ଷ, ଲତା ଓ ପ୍ରାଣୀ ଏକତ୍ର ବଢ଼ିଥାନ୍ତି।<br>
+            <strong>ବନ୍ୟଜୀବ (Wildlife):</strong> ଏମାନେ ହେଉଛନ୍ତି ‘ବନନିବାସୀ’ (Inhabitants) – ଜଙ୍ଗଲରେ ବାସ କରୁଥିବା ସମସ୍ତ ଉଭିଦ, ଅଣୁଜୀବ ଓ ପ୍ରାଣୀସମୂହ।<br>
+            <strong>ଜୈବବିବିଧତା (Biodiversity):</strong> ଗୋଟିଏ ସ୍ଥାନରେ ଭାରସାମ୍ୟ ରକ୍ଷା କରି ବାସ କରୁଥିବା ସମସ୍ତ ଉଭିଦ, ପ୍ରାଣୀ ଓ ଅଣୁଜୀବଙ୍କର ସାମୂହିକ ସାନ୍ଦ୍ରତା।
+        </p>
+
+        <h3>10.4.1 ଜଙ୍ଗଲ ଓ ବନ୍ୟଜୀବଙ୍କ ବିନିଯୋଗକାରୀ (Stakeholders of Forest)</h3>
+        <p>ଜଙ୍ଗଲ ଉପରେ ନିର୍ଭର କରୁଥିବା ଲୋକଙ୍କୁ ୪ଟି ଶ୍ରେଣୀରେ ବିଭକ୍ତ କରାଯାଇଛି:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ବିନିଯୋଗକାରୀ ଗୋଷ୍ଠୀ</th>
+                    <th>ନିର୍ଭରଶୀଳତା ଓ ଭୂମିକା</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>୧. ଜଙ୍ଗଲ ଅଧିବାସୀ (Local Dwellers)</strong></td>
+                    <td>ଖାଦ୍ୟ, ବସ୍ତ୍ର, ଆଶ୍ରୟ ଓ ଜାଳେଣି ପାଇଁ ସମ୍ପୂର୍ଣ୍ଣ ନିର୍ଭରଶୀଳ। ଏମାନେ ପରିପୋଷଣୀୟ ବ୍ୟବହାର କରୁଥିବାରୁ ଜଙ୍ଗଲ ସମ୍ପୂର୍ଣ୍ଣ କ୍ଷୟ ହୁଏନାହିଁ।</td>
+                </tr>
+                <tr>
+                    <td><strong>୨. ଜଙ୍ଗଲ ବିଭାଗ (Forest Department)</strong></td>
+                    <td>ସରକାରୀ କର୍ମଚାରୀ ଯେଉଁମାନେ ଜଙ୍ଗଲ ଅଞ୍ଚଳ ଓ ସମ୍ପଦକୁ ନିୟନ୍ତ୍ରଣ କରନ୍ତି।</td>
+                </tr>
+                <tr>
+                    <td><strong>୩. ଶିଳ୍ପପତି (Industrialists)</strong></td>
+                    <td>କାରଖାନା ପାଇଁ କଞ୍ଚାମାଲ (ଯଥା: ଶାଗୁଆନ କାଠ, କାଗଜ ପାଇଁ ବାଉଁଶ) ସଂଗ୍ରହ କରନ୍ତି। ଏମାନଙ୍କ ଅନିୟନ୍ତ୍ରିତ କାଟ ଯୋଗୁଁ ଜଙ୍ଗଲ ଧ୍ୱଂସ ହୁଏ।</td>
+                </tr>
+                <tr>
+                    <td><strong>୪. ପରିବେଶବିତ୍ ଓ ପ୍ରକୃତିପ୍ରେମୀ</strong></td>
+                    <td>ସିଧାସଳଖ ନିର୍ଭର କରନ୍ତି ନାହିଁ, କିନ୍ତୁ ଜୈବବିବିଧତା ଓ ସମ୍ପୂର୍ଣ୍ଣ ପରିସଂସ୍ଥାର ସଂରକ୍ଷଣ ପାଇଁ କାର୍ଯ୍ୟ କରନ୍ତି।</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="callout callout-activity">
+            <div class="callout-title">🌳 ବିଷୋଇ ସମ୍ପ୍ରଦାୟ ଓ ଖେଜରାଲି ବଳିଦାନ (1730 ମସିହା)</div>
+            <p>
+                ରାଜସ୍ଥାନର <strong>ଖେଜରାଲି ଗ୍ରାମ</strong>ରେ ଯୋଧପୁର ରାଜା ଅଭୟ ସିଂହଙ୍କ ସୈନ୍ୟମାନେ ଦୁର୍ଗ ନିର୍ମାଣ ପାଇଁ ଗଛ କାଟିବାକୁ ଆସିଥିଲେ। <strong>ଶ୍ରୀମତୀ ଅମ୍ରିତା ଦେବୀ ବିଷୋଇ</strong>ଙ୍କ ନେତୃତ୍ୱରେ ଗ୍ରାମବାସୀମାନେ ଗଛଗୁଡ଼ିକୁ କୁଣ୍ଢାଇ ଧରିଥିଲେ। ଗଛ ରକ୍ଷା କରିବାକୁ ଯାଇ <strong>୩୭୩ ଜଣ ଗ୍ରାମବାସୀ</strong> ନିଜ ଜୀବନ ବଳିଦାନ ଦେଇଥିଲେ।
+            </p>
+            <p>
+                ଏହି ବଳିଦାନକୁ ସ୍ମରଣୀୟ କରିବା ପାଇଁ ଭାରତ ସରକାର <strong>'ଅମ୍ରିତା ଦେବୀ ବିଷୋଇ ବନ୍ୟପ୍ରାଣୀ ସଂରକ୍ଷଣ ଜାତୀୟ ପୁରସ୍କାର'</strong> ପ୍ରଦାନ କରୁଛନ୍ତି।
+            </p>
+        </div>
+
+        <h3>10.4.2 ଜଙ୍ଗଲ ଓ ବନ୍ୟଜୀବ କ୍ଷୟର କାରଣ</h3>
+        <ul>
+            <li><strong>ଅଯୋଜିତ ବିକାଶ:</strong> ଖଣି ଉତ୍ତୋଳନ, କାରଖାନା, ଜାତୀୟ ରାଜପଥ, ବୃହତ୍ ଡ୍ୟାମ୍ ନିର୍ମାଣ।</li>
+            <li><strong>ଏକକ ସଂରୋପଣ (Monoculture):</strong> ପ୍ରାକୃତିକ ଜଙ୍ଗଲ ସଫା କରି କେବଳ ଶାଗୁଆନ, ପାଇନ୍, ଇଉକାଲିପଟାସ ପରି ଗୋଟିଏ ପ୍ରକାର ଗଛ ଲଗାଇବା।</li>
+            <li><strong>ଅବାଧ ଶିକାର (Poaching):</strong> ହାତୀଦାନ୍ତ, ବାଘଛାଲ ପାଇଁ ଶିକାର। (비ଂଶ ଶତାବ୍ଦୀ ଆରମ୍ଭରେ ୪୦,୦୦୦ ବାଘ ଥିବା ବେଳେ ୧୯୭୨ ସୁଦ୍ଧା କମିଯାଇ ୧୮୨୭ ହୋଇଥିଲେ। ଫଳରେ <strong>୧୯୭୨ ମସିହାରେ ବନ୍ୟପ୍ରାଣୀ ସଂରକ୍ଷଣ ଆଇନ</strong> ପ୍ରଣୟନ ହେଲା)।</li>
+            <li><strong>ପୋଡ଼ୁଚାଷ (Podu Cultivation):</strong> ଜଙ୍ଗଲ ଅଧିବାସୀଙ୍କ ଗରିବୀ ଯୋଗୁଁ ଜଙ୍ଗଲ ପୋଡ଼ି ଚାଷ କରିବା।</li>
+        </ul>
+
+        <h3>10.4.3 ଜଙ୍ଗଲ ସମ୍ପଦର ସଂରକ୍ଷଣ ଓ ପୁନରୁଦ୍ଧାର</h3>
+        <ol>
+            <li><strong>ନୂଆ ଜଙ୍ଗଲ ସୃଷ୍ଟି (Afforestation):</strong> ନଷ୍ଟ ହୋଇଥିବା ପତିତ ଜମିରେ ନୂଆ ଚାରାଗଛ ଲଗାଇବା।</li>
+            <li><strong>ସାମାଜିକ ବନପ୍ରକଳ୍ପ (Social Forestry):</strong> ୧୯୭୬ ରୁ ଆରମ୍ଭ। ରାସ୍ତାକଡ଼, କେନାଲ ବନ୍ଧ, ରେଳଲାଇନ୍ କଡ଼, ସ୍କୁଲ/କଲେଜ ହତାରେ ଗଛ ଲଗାଇବା।</li>
+            <li><strong>ଯୁଗ୍ମ ଜଙ୍ଗଲ ପରିଚାଳନା (Joint Forest Management - JFM):</strong> ସଂରକ୍ଷିତ ଜଙ୍ଗଲ ନିକଟସ୍ଥ ଗ୍ରାମବାସୀଙ୍କୁ ଅଂଶୀଦାର କରି ଜଙ୍ଗଲ ରକ୍ଷା କରିବା।</li>
+        </ol>
+
+        <h3>10.4.4 ବନ୍ୟଜୀବ ସଂରକ୍ଷଣର ପ୍ରକାରଭେଦ (Types of Conservation)</h3>
+        
+        <div class="diagram-container">
+            <svg width="100%" height="220" viewBox="0 0 650 220" xmlns="http://www.w3.org/2000/svg">
+                <rect x="230" y="10" width="190" height="40" rx="6" fill="#1e3a8a" stroke="#1e3a8a"/>
+                <text x="325" y="35" text-anchor="middle" font-weight="bold" fill="white" font-size="15">ବନ୍ୟଜୀବ ସଂରକ୍ଷଣ</text>
+
+                <line x1="230" y1="30" x2="140" y2="80" stroke="#64748b" stroke-width="2"/>
+                <line x1="420" y1="30" x2="510" y2="80" stroke="#64748b" stroke-width="2"/>
+
+                <rect x="50" y="80" width="180" height="35" rx="6" fill="#0d9488" stroke="#0d9488"/>
+                <text x="140" y="103" text-anchor="middle" font-weight="bold" fill="white" font-size="14">୧. ଅନ୍ତଃସ୍ଥାନେ (In-situ)</text>
+                
+                <rect x="20" y="130" width="240" height="75" rx="6" fill="#ccfbf1" stroke="#0d9488"/>
+                <text x="140" y="152" text-anchor="middle" font-weight="bold" fill="#0f766e" font-size="13">• ଜାତୀୟ ଉଦ୍ୟାନ (Similipal)</text>
+                <text x="140" y="172" text-anchor="middle" fill="#0f766e" font-size="13">• ଅଭୟାରଣ୍ୟ (Nalabana, Chandaka)</text>
+                <text x="140" y="192" text-anchor="middle" fill="#0f766e" font-size="13">• ଜୈବମଣ୍ଡଳ ସଂରକ୍ଷିତ ଅଞ୍ଚଳ</text>
+
+                <rect x="420" y="80" width="180" height="35" rx="6" fill="#d97706" stroke="#d97706"/>
+                <text x="510" y="103" text-anchor="middle" font-weight="bold" fill="white" font-size="14">୨. ବାହ୍ୟସ୍ଥାନେ (Ex-situ)</text>
+
+                <rect x="390" y="130" width="240" height="75" rx="6" fill="#fef3c7" stroke="#d97706"/>
+                <text x="510" y="155" text-anchor="middle" font-weight="bold" fill="#78350f" font-size="13">• ଚିଡ଼ିଆଖାନା (Zoo)</text>
+                <text x="510" y="175" text-anchor="middle" fill="#78350f" font-size="13">• ଉଦ୍ଭିଦ ଉଦ୍ୟାନ (Botanical Garden)</text>
+                <text x="510" y="195" text-anchor="middle" fill="#78350f" font-size="13">• କୃତ୍ରିମ ପୁନଃ ଥଇଥାନ କେନ୍ଦ୍ର</text>
+            </svg>
+            <div class="diagram-caption">ଚିତ୍ର ୧୦.୨: ବନ୍ୟଜୀବ ସଂରକ୍ଷଣର ପ୍ରକାରଭେଦ (In-situ vs Ex-situ)</div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ସଂରକ୍ଷଣ ପ୍ରକାର</th>
+                    <th>ନିୟନ୍ତ୍ରଣ ଓ ବୈଶିଷ୍ଟ୍ୟ</th>
+                    <th>ଓଡ଼ିଶାର ଉଦାହରଣ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>ଜାତୀୟ ଉଦ୍ୟାନ (National Park)</strong></td>
+                    <td>କେନ୍ଦ୍ର ସରକାରଙ୍କ ଦ୍ୱାରା ନିୟନ୍ତ୍ରିତ। ଶିକାର, ଗୃହପାଳିତ ପଶୁଚାରଣ, କାଠ/ଦ୍ରବ୍ୟ ସଂଗ୍ରହ <strong>ସମ୍ପୂର୍ଣ୍ଣ ନିଷିଦ୍ଧ</strong>।</td>
+                    <td>ଶିମିଳିପାଳ ଜାତୀୟ ଉଦ୍ୟାନ</td>
+                </tr>
+                <tr>
+                    <td><strong>ଅଭୟାରଣ୍ୟ (Sanctuary)</strong></td>
+                    <td>ରାଜ୍ୟ ସରକାରଙ୍କ ଦ୍ୱାରା ଘୋଷିତ। ଶିକାର ନିଷିଦ୍ଧ; କିନ୍ତୁ କାଠ, ଫଳ ସଂଗ୍ରହ ଓ ପଶୁଚାରଣ ଅନୁମତିପ୍ରାପ୍ତ।</td>
+                    <td>ଚିଲିକା (ନଳବନ - ପକ୍ଷୀ), ଚନ୍ଦକା-ଡମ୍ପଡ଼ା (ହାତୀ)</td>
+                </tr>
+                <tr>
+                    <td><strong>ଜୈବମଣ୍ଡଳ ଅଞ୍ଚଳ (Biosphere Reserve)</strong></td>
+                    <td>୧୯୭୩ରୁ <strong>UNESCO</strong> ଦ୍ୱାରା ଆରମ୍ଭ। ସମ୍ପୂର୍ଣ୍ଣ ପରିସଂସ୍ଥା ଓ ଆଦିମ ଅଧିବାସୀଙ୍କ ସଂରକ୍ଷଣ। (ଭାରତରେ ୧୮ଟି)।</td>
+                    <td>ଶିମିଳିପାଳ ଜୈବମଣ୍ଡଳ ଅଞ୍ଚଳ</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>10.4.5 ପ୍ରସିଦ୍ଧ ଜନ ଆନ୍ଦୋଳନ (People's Movements)</h3>
+        <p>
+            <strong>୧. ଚିପ୍‌କୋ ଆନ୍ଦୋଳନ (Chipko Movement - 1973):</strong><br>
+            ହିମାଳୟ ପାଦଦେଶ (ଉତ୍ତରାଖଣ୍ଡ) ର ଗଡ଼ୱାଲ ଅଞ୍ଚଳରେ ସରକାର କମ୍ପାନୀମାନଙ୍କୁ ଗଛ କାଟିବାକୁ ଅନୁମତି ଦେଲେ। ୧୯୬୪ ବନ୍ୟାରେ ୧୦୦ ଜଣଙ୍କ ମୃତ୍ୟୁ ପରେ <strong>ଶ୍ରୀ ଚଣ୍ଡୀପ୍ରସାଦ ଭଟ୍ଟ</strong> (ରମନ ମାଗାସାସେ ପୁରସ୍କାର ବିଜେତା) 'ଦାଶୋଳି ଗ୍ରାମସ୍ୱରାଜ୍ୟ ମଣ୍ଡଳ' ଗଠନ କରି ମଣ୍ଡଳଗ୍ରାମରୁ ଚିପ୍‌କୋ ଆନ୍ଦୋଳନ ଆରମ୍ଭ କରିଥିଲେ। ପରବର୍ତ୍ତୀ ସମୟରେ <strong>ସୁନ୍ଦରଲାଲ ବହୁଗୁଣା</strong> ଏହାର ନେତୃତ୍ୱ ନେଇଥିଲେ। ଗ୍ରାମବାସୀମାନେ ଗଛକୁ କୁଣ୍ଢାଇ ଧରି ଗଛ କାଟିବା ବନ୍ଦ କରିଥିଲେ।
+        </p>
+        <p>
+            <strong>୨. ସାଇଲେଣ୍ଟ ଭ୍ୟାଲି ଆନ୍ଦୋଳନ (Silent Valley Movement):</strong><br>
+            କେରଳର ପାଲକାଡ଼ ଜିଲ୍ଲାର କୁନ୍ଥିପୁଝା ନଦୀରେ ଜଳବିଦ୍ୟୁତ୍ ପ୍ରକଳ୍ପ ପାଇଁ କ୍ରାନ୍ତୀୟ ଚିରହରିତ୍ ଜଙ୍ଗଲ (Tropical Rain forest) ନଷ୍ଟ ହେଉଥିବାରୁ ଜନଆନ୍ଦୋଳନ ହୋଇଥିଲା। ୧୯୮୪ରେ ସରକାର ଏହି ପ୍ରକଳ୍ପ ବାତିଲ କରି ସାଇଲେଣ୍ଟ ଭ୍ୟାଲିକୁ ଜାତୀୟ ଉଦ୍ୟାନ ଘୋଷଣା କଲେ।
+        </p>
+
+        <h3>10.4.6 ଆନ୍ତର୍ଜାତୀୟ ଓ ଜାତୀୟ ପରିବେଶ ସଂସ୍ଥା</h3>
+        <ul>
+            <li><strong>IUCN (International Union for Conservation of Nature):</strong> ମୁଖ୍ୟାଳୟ ସ୍ୱିଜରଲ୍ୟାଣ୍ଡ। ଏହା ବିପନ୍ନ ଜୀବଙ୍କ ତଥ୍ୟ <strong>'ରେଡ଼ ଡାଟା ବୁକ୍' (Red Data Book)</strong> ରେ ପ୍ରକାଶ କରେ।</li>
+            <li><strong>WWF (World Wildlife Fund):</strong> ୬ଟି ମୁଖ୍ୟ ବିଷୟ (ଖାଦ୍ୟ, ଜଳବାୟୁ, ବନ୍ୟଜୀବ, ଜଙ୍ଗଲ, ମଧୁର ଜଳ, ସମୁଦ୍ର) ଉପରେ କାର୍ଯ୍ୟ କରେ।</li>
+        </ul>
+    </section>
+
+    <section id="section-10-5">
+        <h2>10.5 କୋଇଲା ଓ ପେଟ୍ରୋଲିୟମ୍‌ର ପରିଚାଳନା (Management of Coal & Petroleum)</h2>
+        <p>
+            କୋଇଲା ଓ ପେଟ୍ରୋଲିୟମ୍ ହେଉଛନ୍ତି <strong>ଜୀବାଶ୍ମ ଇନ୍ଧନ (Fossil Fuels)</strong>। ଲକ୍ଷ ଲକ୍ଷ ବର୍ଷ ତଳେ ମାଟି ତଳେ ପୋତି ହୋଇ ରହିଥିବା ଜୈବବସ୍ତୁରୁ ଏଗୁଡ଼ିକ ସୃଷ୍ଟି ହୋଇଛନ୍ତି।
+        </p>
+
+        <div class="callout callout-caution">
+            <div class="callout-title">⚠️ ଦହନ ଜନିତ ପ୍ରଦୂଷଣ (Combustion Hazards)</div>
+            କୋଇଲା ଓ ପେଟ୍ରୋଲିୟମ୍ ଦହନ ଦ୍ୱାରା ବାୟୁମଣ୍ଡଳକୁ CO, CO<sub>2</sub>, SO<sub>2</sub>, ଏବଂ ନାଇଟ୍ରୋଜେନ୍ ଅକ୍ସାଇଡ୍ ନିର୍ଗତ ହୁଏ। CO<sub>2</sub> ବୃଦ୍ଧି ଯୋଗୁଁ <strong>ସବୁଜ କୋଠରି ପ୍ରଭାବ (Greenhouse Effect)</strong> ଓ ବିଶ୍ୱତାପନ ଘଟୁଛି।
+        </div>
+
+        <h3>ସଂରକ୍ଷଣ ପାଇଁ ପଦକ୍ଷେପ:</h3>
+        <ul>
+            <li>କମ୍ ୱାଟ୍‌ର <strong>CFL ଓ LED</strong> ଲ୍ୟାମ୍ପ ବ୍ୟବହାର କରିବା।</li>
+            <li>ଅଯଥାରେ ବିଜୁଳି ବତି, ପଙ୍ଖା, ଲିଫ୍ଟ ଚାଲୁ ନରଖିବା।</li>
+            <li>ନିଜସ୍ୱ ଗାଡ଼ି ବଦଳରେ ସାଧାରଣ ପରିବହନ (Bus/Train) ବା ସାଇକେଲ୍ ବ୍ୟବହାର କରିବା।</li>
+            <li>ସୌର ଶକ୍ତି, ପବନ ଶକ୍ତି ପରି ବିକଳ୍ପ ନବୀକରଣଯୋଗ୍ୟ ଶକ୍ତିର ବ୍ୟବହାର ବୃଦ୍ଧି କରିବା।</li>
+        </ul>
+    </section>
+
+    <section id="section-10-6">
+        <h2>10.6 ଜଳସମ୍ପଦ ସଂରକ୍ଷଣ ଓ ପରିଚାଳନା (Water Resources Management)</h2>
+        <p>
+            ଭାରତରେ ମୁଖ୍ୟତଃ ମୌସୁମୀ ବାୟୁ ପ୍ରଭାବରୁ ବୃଷ୍ଟିପାତ ହୁଏ। ଆମେ ଶତକଡ଼ା <strong>୮୫ ଭାଗ ବୃଷ୍ଟିପାତ ଜୁନ୍‌ରୁ ସେପ୍ଟେମ୍ବର</strong> ମାସ ମଧ୍ୟରେ ପାଇଥାଉ।
+        </p>
+
+        <h3>ବୃହତ୍ ନଦୀବନ୍ଧ ଯୋଜନା (Large Dam Projects)</h3>
+        <p>
+            <strong>ଉଦାହରଣ:</strong> ଓଡ଼ିଶାର <strong>ହୀରାକୁଦ</strong>, କର୍ଣ୍ଣାଟକର <strong>ବିଶ୍ୱେଶ୍ୱରାୟା</strong>, ଗୁଜରାଟର <strong>ସର୍ଦ୍ଦାର ସରୋବର</strong> ନଦୀବନ୍ଧ।
+        </p>
+
+        <div class="callout callout-caution">
+            <div class="callout-title">⚠️ ବୃହତ୍ ନଦୀବନ୍ଧର ୩ଟି ମୁଖ୍ୟ ଅସୁବିଧା / ସମସ୍ୟା</div>
+            <ol>
+                <li><strong>ସାମାଜିକ ସମସ୍ୟା:</strong> ବହୁ ସଂଖ୍ୟକ କୃଷକ ଓ ଆଦିବାସୀ ବିସ୍ଥାପିତ ହୁଅନ୍ତି ଏବଂ ଉପଯୁକ୍ତ ଥଇଥାନ ପାଆନ୍ତି ନାହିଁ।</li>
+                <li><strong>ଆର୍ଥିକ ସମସ୍ୟା:</strong> ପ୍ରଚୁର ସରକାରୀ ଅର୍ଥ ବିନିଯୋଗ ତୁଳନାରେ ଆଶାନୁରୂପ ଲାଭ ମିଳେନାହିଁ।</li>
+                <li><strong>ପରିବେଶଗତ ସମସ୍ୟା:</strong> ବ୍ୟାପକ ଜଙ୍ଗଲ ଓ ଜୈବବିବିଧତା ବୁଡ଼ିଯାଇ ଲୋପ ପାଏ।</li>
+            </ol>
+        </div>
+
+        <h3>ଜଳଛାୟା ପରିଚାଳନା (Watershed Management)</h3>
+        <p>
+            ପାହାଡ଼ିଆ ଅଞ୍ଚଳର ଗଡ଼ାଣିରେ ଜଙ୍ଗଲ ସୃଷ୍ଟି କରି, ଛୋଟ ଛୋଟ ପଥର ବନ୍ଧ (Check Dams) ଦ୍ୱାରା ବର୍ଷାଜଳର ବେଗ କମାଇ <strong>ଭୂତଳ ଜଳ (Groundwater)</strong> ପରିମାଣ ବୃଦ୍ଧି କରିବା ଏବଂ ମୃତ୍ତିକା କ୍ଷୟ ରୋକିବା।
+        </p>
+
+        <div class="diagram-container">
+            <svg width="100%" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="100,80 200,30 300,80" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+                <rect x="120" y="80" width="160" height="70" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+                <path d="M 150 20 L 145 35 M 200 10 L 195 25 M 250 20 L 245 35" stroke="#3b82f6" stroke-width="3" stroke-dasharray="2"/>
+                <path d="M 280 75 L 340 75 L 340 140 L 400 140" fill="none" stroke="#0284c7" stroke-width="4"/>
+                <rect x="400" y="110" width="120" height="70" rx="4" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                <text x="460" y="145" text-anchor="middle" font-size="12" font-weight="bold" fill="#0369a1">ଭୂତଳ ଜଳ ରିଚାର୍ଜ</text>
+                <line x1="50" y1="150" x2="550" y2="150" stroke="#15803d" stroke-width="4"/>
+            </svg>
+            <div class="diagram-caption">ଚିତ୍ର ୧୦.୩: ବର୍ଷାଜଳ ଅମଳ ଓ ଭୂତଳ ଜଳ ସଂରକ୍ଷଣ (Rainwater Harvesting)</div>
+        </div>
+
+        <h3>ପ୍ରାଚୀନ ଓ ପାରମ୍ପରିକ ଜଳ ସଂରକ୍ଷଣ କୌଶଳ</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ରାଜ୍ୟ / ଅଞ୍ଚଳ</th>
+                    <th>ପାରମ୍ପରିକ ଜଳ ସଂରକ୍ଷଣ ପ୍ରକଳ୍ପର ନାମ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>ରାଜସ୍ଥାନ (Rajasthan)</td><td><strong>ଖାଦିନ୍ (Khadin), ଜୋହାଡ୍ (Johad), ଟାଙ୍କା (Tanka)</strong></td></tr>
+                <tr><td>ବିହାର (Bihar)</td><td><strong>ଆହାର୍ (Ahars) ଓ ପାଇନ୍ସ (Pyns)</strong></td></tr>
+                <tr><td>ମଧ୍ୟପ୍ରଦେଶ ଓ ଉତ୍ତରପ୍ରଦେଶ</td><td><strong>ବୁନ୍ଧିସ୍ (Bundhis)</strong></td></tr>
+                <tr><td>କର୍ଣ୍ଣାଟକ / ଓଡ଼ିଶା</td><td><strong>କଟାସ୍ (Kattas) / ବନ୍ଧ</strong></td></tr>
+                <tr><td>ତାମିଲନାଡୁ (Tamil Nadu)</td><td><strong>ଏରିସ୍ (Eris)</strong></td></tr>
+                <tr><td>ମହାରାଷ୍ଟ୍ର (Maharashtra)</td><td><strong>ବନ୍ଧାରାସ୍ (Bandharas) ଓ ତାଲ୍ (Tals)</strong></td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="activities">
+        <h2>🧪 ତୁମ ପାଇଁ କାମ (Textbook Activities & Tasks)</h2>
+
+        <div class="callout callout-activity">
+            <div class="callout-title">🧪 କାମ - ୧: ସମ୍ପଦର ଶ୍ରେଣୀବିଭାଗ</div>
+            <p>ନିଜ ଘରେ ଦୈନନ୍ଦିନ ବ୍ୟବହୃତ ୫ଟି ସମ୍ପଦର ତାଲିକା କରି ସେଗୁଡ଼ିକୁ ନବୀକରଣଯୋଗ୍ୟ ଓ ନବୀକରଣଅଯୋଗ୍ୟ ଶ୍ରେଣୀରେ ସଜାଅ।</p>
+        </div>
+
+        <div class="callout callout-activity">
+            <div class="callout-title">🧪 କାମ - ୨: ୫-'R' ର ପ୍ରୟୋଗ</div>
+            <p>ନିଜ ଘରେ ଜଳ ଓ ବିଦ୍ୟୁତ୍ ଅପଚୟ ରୋକିବା ପାଇଁ ୫-'R' ନୀତି ଅନୁସାରେ କି କି ପଦକ୍ଷେପ ନେଇପାରିବ ଲେଖ।</p>
+        </div>
+
+        <div class="callout callout-activity">
+            <div class="callout-title">🧪 କାମ - ୩: ରଦି ଜିନିଷର ପୁନଶ୍ଚକ୍ରଣ</div>
+            <p>ତୁମ ଅଞ୍ଚଳର ରଦି ସଂଗ୍ରହକାରୀ (Ragpickers) ଙ୍କ ସହ ଆଲୋଚନା କରି କେଉଁ କେଉଁ ଜିନିଷ ପୁନଶ୍ଚକ୍ରଣ (Recycle) ପାଇଁ ପଠାଯାଏ ତାଲିକା କର।</p>
+        </div>
+
+        <div class="callout callout-activity">
+            <div class="callout-title">🧪 କାମ - ୪: ଚିପ୍‌କୋ ଓ ବିଷୋଇ ଆନ୍ଦୋଳନ ଚାର୍ଟ</div>
+            <p>ବିଷୋଇ ବଳିଦାନ ଓ ଚିପ୍‌କୋ ଆନ୍ଦୋଳନର ତଥ୍ୟ ସଂଗ୍ରହ କରି ଏକ ଆକର୍ଷଣୀୟ ୱାଲ୍‌-ଚାର୍ଟ ତିଆରି କର।</p>
+        </div>
+
+        <div class="callout callout-activity">
+            <div class="callout-title">🧪 କାମ - ୫: କାରଖାନାର ଜଙ୍ଗଲଜାତ ଦ୍ରବ୍ୟ</div>
+            <p>କଳକାରଖାନାରେ ବ୍ୟବହୃତ ଜଙ୍ଗଲଜାତ ଦ୍ରବ୍ୟ (ଯଥା: ବାଉଁଶ, କାଠ, ରବର) ର ତାଲିକା ପ୍ରସ୍ତୁତ କର।</p>
+        </div>
+
+        <div class="callout callout-activity">
+            <div class="callout-title">🧪 କାମ - ୬: ତର୍କ / ବକ୍ତୃତା ପ୍ରତିଯୋଗିତା</div>
+            <p>ବିଷୟ: <em>"ମଣିଷର ଅନିୟନ୍ତ୍ରିତ କାର୍ଯ୍ୟକଳାପ ଯୋଗୁଁ ଜଙ୍ଗଲ ସମ୍ପଦର ଅବକ୍ଷୟ"</em> — ଶ୍ରେଣୀଗୃହରେ ଏକ ବକ୍ତୃତା ଆୟୋଜନ କର।</p>
+        </div>
+    </section>
+
+    <section id="glossary">
+        <h2>📖 ଶବ୍ଦାବଳୀ (Glossary)</h2>
+        <div class="tag-list">
+            <span class="tag-item">କୃଷିଜୈବବିବିଧତା (Agrobiodiversity)</span>
+            <span class="tag-item">ଜାତୀୟ ଉଦ୍ୟାନ (National Park - NP)</span>
+            <span class="tag-item">ଉଦ୍ଭିଦ ଉଦ୍ୟାନ (Botanical Garden)</span>
+            <span class="tag-item">ଚିଡ଼ିଆଖାନା (Zoo)</span>
+            <span class="tag-item">ପ୍ରାଣୀ ଉଦ୍ୟାନ (Animal Park)</span>
+            <span class="tag-item">ଅଭୟାରଣ୍ୟ (Sanctuary)</span>
+            <span class="tag-item">ସଂରକ୍ଷିତ ଜୈବମଣ୍ଡଳ (Biosphere Reserve)</span>
+            <span class="tag-item">ଜାତୀୟ ବନ୍ୟଜୀବ ସମିତି (National Wildlife Committee)</span>
+            <span class="tag-item">ଭାରତୀୟ ବନ୍ୟଜୀବ ପରିଷଦ (Indian Board of Wildlife)</span>
+            <span class="tag-item">ଜାତୀୟ ଜୈବବିବିଧତା ପରିଷଦ (National Biodiversity Board)</span>
+            <span class="tag-item">ରେଡ଼ ଡାଟା ବୁକ୍ (Red Data Book)</span>
+        </div>
+    </section>
+
+    <section id="exercises">
+        <h2>📝 ପାଠ୍ୟପୁସ୍ତକ ଅଭ୍ୟାସ ପ୍ରଶ୍ନୋତ୍ତର (Textbook Exercises)</h2>
+        <p><em>(ଉତ୍ତର ଦେଖିବା ପାଇଁ ପ୍ରଶ୍ନ ଉପରେ କ୍ଲିକ୍ କରନ୍ତୁ)</em></p>
+
+        <details>
+            <summary>୧. ନବୀକରଣଯୋଗ୍ୟ ଓ ନବୀକରଣଅଯୋଗ୍ୟ ସମ୍ପଦ ମଧ୍ୟରେ ଫରକ୍ ଲେଖ।</summary>
+            <p><strong>ଉତ୍ତର:</strong> ନବୀକରଣଯୋଗ୍ୟ ସମ୍ପଦ (ଯଥା: ବାୟୁ, ଜଳ) ବ୍ୟବହାର କଲେ ମଧ୍ୟ ଚକ୍ରାକାରରେ ବାୟୁମଣ୍ଡଳରେ ପୁନଃପୂରଣ ହୋଇଥାଏ, ତେଣୁ ସରେ ନାହିଁ। କିନ୍ତୁ ନବୀକରଣଅଯୋଗ୍ୟ ସମ୍ପଦ (ଯଥା: କୋଇଲା, ପେଟ୍ରୋଲ) ର ପରିମାଣ ସୀମିତ, ବ୍ୟବହାର ଦ୍ୱାରା ଏହା ଶୀଘ୍ର ନିଃଶେଷ ହୋଇଯାଏ।</p>
+        </details>
+
+        <details>
+            <summary>୨. ପରିପୋଷଣୀୟ ବିକାଶ କହିଲେ କ’ଣ ବୁଝ?</summary>
+            <p><strong>ଉତ୍ତର:</strong> ପରିବେଶର ସନ୍ତୁଳନ ନଷ୍ଟ ନକରି, ସମ୍ପଦର ସୁବିନିଯୋଗ ଓ ସମବଣ୍ଟନ ଦ୍ୱାରା ବର୍ତ୍ତମାନ ପିଢ଼ିର ଆବଶ୍ୟକତା ପୂରଣ ସହ ଆଗାମୀ ପିଢ଼ି ପାଇଁ ସମ୍ପଦ ସୁରକ୍ଷିତ ରଖିବାକୁ ପରିପୋଷଣୀୟ ବିକାଶ କୁହାଯାଏ।</p>
+        </details>
+
+        <details>
+            <summary>୩. ୫-'R' ନୀତି କ’ଣ? ସଂକ୍ଷେପରେ ବୁଝାଅ।</summary>
+            <p><strong>ଉତ୍ତର:</strong> ୫-'R' ନୀତି ହେଲା: (i) Refuse (ପ୍ରତ୍ୟାଖ୍ୟାନ), (ii) Reduce (ସମ୍ବରଣ), (iii) Reuse (ପୁନଃବ୍ୟବହାର), (iv) Repurpose (ପୁନଃଉପଯୋଗ), (v) Recycle (ପୁନଶ୍ଚକ୍ରଣ)। ଏହା ସମ୍ପଦ ସଂରକ୍ଷଣର ୫ଟି ମୁଖ୍ୟ କୌଶଳ।</p>
+        </details>
+
+        <details>
+            <summary>୪. ଜାତୀୟ ଉଦ୍ୟାନ ଓ ଅଭୟାରଣ୍ୟ ମଧ୍ୟରେ ପାର୍ଥକ୍ୟ ଲେଖ।</summary>
+            <p><strong>ଉତ୍ତର:</strong> ଜାତୀୟ ଉଦ୍ୟାନ କେନ୍ଦ୍ର ସରକାରଙ୍କ ଦ୍ୱାରା ନିୟନ୍ତ୍ରିତ ଓ ଏଠାରେ କୌଣସି ଜଙ୍ଗଲଜାତ ଦ୍ରବ୍ୟ ସଂଗ୍ରହ/ପଶୁଚାରଣ ସମ୍ପୂର୍ଣ୍ଣ ନିଷିଦ୍ଧ। ଅଭୟାରଣ୍ୟ ରାଜ୍ୟ ସରକାରଙ୍କ ଦ୍ୱାରା ଘୋଷିତ ଓ ଏଠାରେ ନିଷିଦ୍ଧ ଶିକାର ବ୍ୟତୀତ ସୀମିତ ପଶୁଚାରଣ ଓ କାଠ/ଫଳ ସଂଗ୍ରହ ଅନୁମତି ଥାଏ।</p>
+        </details>
+
+        <details>
+            <summary>୫. ଅମ୍ରିତା ଦେବୀ ବିଷୋଇଙ୍କ ବଳିଦାନ ସମ୍ପର୍କରେ ଟିପ୍ପଣୀ ଲେଖ।</summary>
+            <p><strong>ଉତ୍ତର:</strong> ୧୭୩୦ ମସିହାରେ ରାଜସ୍ଥାନର ଖେଜରାଲି ଗାଁରେ ଗଛ ରକ୍ଷା କରିବା ପାଇଁ ଅମ୍ରିତା ଦେବୀ ବିଷୋଇଙ୍କ ନେତୃତ୍ୱରେ ୩୭୩ ଜଣ ବିଷୋଇ ସମ୍ପ୍ରଦାୟର ଲୋକ ଗଛକୁ କୁଣ୍ଢାଇ ଧରି ନିଜ ଜୀବନ ବଳିଦାନ ଦେଇଥିଲେ।</p>
+        </details>
+
+        <details>
+            <summary>୬. ଚିପ୍‌କୋ ଆନ୍ଦୋଳନ କାହିଁକି ଓ କାହା ନେତୃତ୍ୱରେ ହୋଇଥିଲା?</summary>
+            <p><strong>ଉତ୍ତର:</strong> ୧୯୭୩ ମସିହାରେ ଉତ୍ତରାଖଣ୍ଡର ଗଡ଼ୱାଲ୍ ଅଞ୍ଚଳରେ ଅବାଧ ଗଛକଟା ବିରୁଦ୍ଧରେ ଶ୍ରୀ ଚଣ୍ଡୀପ୍ରସାଦ ଭଟ୍ଟ ଓ ସୁନ୍ଦରଲାଲ ବହୁଗୁଣାଙ୍କ ନେତୃତ୍ୱରେ ଗ୍ରାମବାସୀମାନେ ଗଛ କୁଣ୍ଢାଇ ଚିପ୍‌କୋ ଆନ୍ଦୋଳନ କରିଥିଲେ।</p>
+        </details>
+
+        <details>
+            <summary>୭. ରେଡ଼ ଡାଟା ବୁକ୍ (Red Data Book) କ’ଣ?</summary>
+            <p><strong>ଉତ୍ତର:</strong> IUCN ଦ୍ୱାରା ପ୍ରକାଶିତ ଏକ ଗ୍ରନ୍ଥ, ଯେଉଁଥିରେ ପୃଥିବୀର ସମସ୍ତ ବିପନ୍ନ ଓ ଲୁପ୍ତପ୍ରାୟ ଉଭିଦ ଓ ପ୍ରାଣୀଙ୍କ ତଥ୍ୟ ସଂଗୃହିତ ହୋଇ ରହିଥାଏ।</p>
+        </details>
+
+        <details>
+            <summary>୮. ବୃହତ୍ ନଦୀବନ୍ଧ ଯୋଜନାର ଦୋଷଗୁଡ଼ିକ ଆଲୋଚନା କର।</summary>
+            <p><strong>ଉତ୍ତର:</strong> ୧. ସାମାଜିକ: ଲୋକଙ୍କ ବିସ୍ଥାପନ ଓ ଥଇଥାନ ସମସ୍ୟା। ୨. ଆର୍ଥିକ: ଅଧିକ ଖର୍ଚ୍ଚ ତୁଳନାରେ କମ୍ ଲାଭ। ୩. ପରିବେଶଗତ: ବ୍ୟାପକ ଜଙ୍ଗଲ ଓ ଜୈବବିବିଧତା ବିଲୋପ।</p>
+        </details>
+
+        <details>
+            <summary>୯. ସଂକ୍ଷେପରେ ଉତ୍ତର ଦିଅ: (K) ଜଳଛାୟା ପରିଚାଳନା, (L) କ୍ଷୁଦ୍ର ନଦୀବନ୍ଧ, (M) ସମତଳ ଅଞ୍ଚଳରେ ଜଳ ସଂରକ୍ଷଣ, (N) ଜଳର ପୁନଶ୍ଚକ୍ରଣ।</summary>
+            <p><strong>ଉତ୍ତର:</strong><br>
+            (K) ଜଳଛାୟା ପରିଚାଳନା: ପାହାଡ଼ିଆ ଅଞ୍ଚଳରେ ବର୍ଷାଜଳକୁ ଅଟକାଇ ଭୂତଳ ଜଳସ୍ତର ବୃଦ୍ଧି କରିବା।<br>
+            (L) କ୍ଷୁଦ୍ର ନଦୀବନ୍ଧ: ସ୍ଥାନୀୟ ବୃଷ୍ଟିଜଳକୁ ରଖି ପରିବେଶ କ୍ଷତି ନକରି ଚାଷକାର୍ଯ୍ୟରେ ବ୍ୟବହାର।<br>
+            (M) ସମତଳ ଜଳ ସଂରକ୍ଷଣ: ଛାତ ବର୍ଷାଜଳ ଅମଳ ଓ ଖାଦିନ୍/ଜୋହାଡ୍ ସଂରଚନା।<br>
+            (N) ଜଳ ପୁନଶ୍ଚକ୍ରଣ: କାରଖାନାର ଦୂଷିତ ଜଳକୁ ବିଶୋଧନ କରି ପୁନଃବ୍ୟବହାର କରିବା।</p>
+        </details>
+    </section>
+
+    <section id="final-revision">
+        <h2>⚡ ଫାଇନାଲ୍ ରିଭିଜନ୍ ଓ କ୍ୱିକ୍ ସାରାଂଶ (Final Revision Sheet)</h2>
+
+        <h3>📌 ୧୦ଟି ମୁଖ୍ୟ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ପଏଣ୍ଟ:</h3>
+        <ul>
+            <li>୧. ବାୟୁ, ଜଳ, ମୃତ୍ତିକା ହେଉଛନ୍ତି <strong>ନବୀକରଣଯୋଗ୍ୟ</strong>; କୋଇଲା, ପେଟ୍ରୋଲିୟମ୍ ହେଉଛନ୍ତି <strong>ନବୀକରଣଅଯୋଗ୍ୟ</strong>।</li>
+            <li>୨. ସମ୍ପଦ ସଂରକ୍ଷଣର ୫-'R': <strong>Refuse, Reduce, Reuse, Repurpose, Recycle</strong>।</li>
+            <li>୩. <strong>Reuse (ପୁନଃବ୍ୟବହାର)</strong> Recycling ଠାରୁ ଶ୍ରେଷ୍ଠ କାରଣ ଏଥିରେ ଶକ୍ତି ଖର୍ଚ୍ଚ ହୁଏନାହିଁ।</li>
+            <li>୪. ୧୭୩୦ ମସିହାରେ <strong>ଅମ୍ରିତା ଦେବୀ ବିଷୋଇ</strong> ୩୭୩ ଜଣ ଗ୍ରାମବାସୀଙ୍କ ସହ ଗଛ ରକ୍ଷା ପାଇଁ ଖେଜରାଲି ଗାଁରେ ବଳିଦାନ ଦେଇଥିଲେ।</li>
+            <li>୫. <strong>୧୯୭୨</strong> ମସିହାରେ ଭାରତରେ ବନ୍ୟପ୍ରାଣୀ ସଂରକ୍ଷଣ ଆଇନ ଲାଗୁ ହୋଇଥିଲା। (ସେତେବେଳେ ବାଘ ସଂଖ୍ୟା ୧୮୨୭ ଥିଲା)।</li>
+            <li>୬. <strong>ସାମାଜିକ ବନପ୍ରକଳ୍ପ</strong> ୧୯୭୬ ରୁ ଆରମ୍ଭ ହୋଇଥିଲା।</li>
+            <li>୭. <strong>ଜାତୀୟ ଉଦ୍ୟାନ (Similipal)</strong> ରେ ସମସ୍ତ ମାନବୀୟ କାର୍ଯ୍ୟକଳାପ ନିଷିଦ୍ଧ; <strong>ଅଭୟାରଣ୍ୟ (Nalabana, Chandaka)</strong> ରେ ସୀମିତ ଅନୁମତି ଥାଏ।</li>
+            <li>୮. UNESCO ଦ୍ୱାରା <strong>୧୯୭୩</strong> ରୁ ଜୈବମଣ୍ଡଳ ସଂରକ୍ଷିତ ଅଞ୍ଚଳ (Biosphere Reserve) ଆରମ୍ଭ। ଭାରତରେ ୧୮ଟି ରହିଛି।</li>
+            <li>୯. ୧୯୭୩ ରେ <strong>ଚଣ୍ଡୀପ୍ରସାଦ ଭଟ୍ଟ</strong> ଓ <strong>ସୁନ୍ଦରଲାଲ ବହୁଗୁଣା</strong>ଙ୍କ ଦ୍ୱାରା ଚିପ୍‌କୋ ଆନ୍ଦୋଳନ ଆରମ୍ଭ।</li>
+            <li>୧୦. <strong>IUCN</strong> ର ମୁଖ୍ୟାଳୟ ସ୍ୱିଜରଲ୍ୟାଣ୍ଡରେ ଅବସ୍ଥିତ ଓ ଏହା <strong>Red Data Book</strong> ପ୍ରକାଶ କରେ।</li>
+        </ul>
+
+        <h3>⚡ କ୍ୱିକ୍ ରିଭିଜନ୍ ତୁଳନାତ୍ମକ ସାରଣୀ</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ସଂସ୍ଥା / ଆନ୍ଦୋଳନ</th>
+                    <th>ବର୍ଷ / ସ୍ଥାନ</th>
+                    <th>ମୁଖ୍ୟ ନେତା / ବିଷୟবস্তୁ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>ଖେଜରାଲି ବଳିଦାନ</td><td>୧୭୩୦ (ରାଜସ୍ଥାନ)</td><td>ଅମ୍ରିତା ଦେବୀ ବିଷୋଇ (୩୭୩ ଶହିଦ)</td></tr>
+                <tr><td>ଚିପ୍‌କୋ ଆନ୍ଦୋଳନ</td><td>୧୯୭୩ (ଉତ୍ତରାଖଣ୍ଡ)</td><td>ଚଣ୍ଡୀପ୍ରସାଦ ଭଟ୍ଟ, ସୁନ୍ଦରଲାଲ ବହୁଗୁଣା</td></tr>
+                <tr><td>ସାଇଲେଣ୍ଟ ଭ୍ୟାଲି</td><td>୧୯୮୪ (କେରଳ)</td><td>କୁନ୍ଥିପୁଝା ନଦୀ ଡ୍ୟାମ୍ ବିରୋଧରେ</td></tr>
+                <tr><td>ବନ୍ୟପ୍ରାଣୀ ଆଇନ</td><td>୧୯୭୨ (ଭାରତ)</td><td>ବାଘ ଓ ବନ୍ୟଜୀବ ସଂରକ୍ଷଣ</td></tr>
+                <tr><td>ସାମାଜିକ ବନପ୍ରକଳ୍ପ</td><td>୧୯୭୬ (ଭାରତ)</td><td>ରାସ୍ତା, କେନାଲ କଡ଼ରେ ଚାରାରୋପଣ</td></tr>
+            </tbody>
+        </table>
+
+        <h3>🎯 ଫାଇନାଲ୍ MCQ କ୍ୱିଜ୍ (Instant Feedback Test)</h3>
+
+        <div class="quiz-card" id="q1">
+            <div class="quiz-q">୧. ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ନବୀକରଣଅଯୋଗ୍ୟ ସମ୍ପଦ?</div>
+            <div class="quiz-opt" onclick="checkQuiz(1, false, this)">(A) ବାୟୁ</div>
+            <div class="quiz-opt" onclick="checkQuiz(1, false, this)">(B) ଜଳ</div>
+            <div class="quiz-opt" onclick="checkQuiz(1, true, this)">(C) କୋଇଲା</div>
+            <div class="quiz-opt" onclick="checkQuiz(1, false, this)">(D) ମୃତ୍ତିକା</div>
+            <div class="feedback" id="fb1"></div>
+        </div>
+
+        <div class="quiz-card" id="q2">
+            <div class="quiz-q">୨. ଖେଜରାଲି ଗ୍ରାମରେ ଗଛ ରକ୍ଷା ପାଇଁ କେତେ ଜଣ ଗ୍ରାମବାସୀ ଜୀବନ ବଳିଦାନ ଦେଇଥିଲେ?</div>
+            <div class="quiz-opt" onclick="checkQuiz(2, false, this)">(A) ୧୦୦</div>
+            <div class="quiz-opt" onclick="checkQuiz(2, true, this)">(B) ୩୭୩</div>
+            <div class="quiz-opt" onclick="checkQuiz(2, false, this)">(C) ୧୮୨୭</div>
+            <div class="quiz-opt" onclick="checkQuiz(2, false, this)">(D) ୫୦୦</div>
+            <div class="feedback" id="fb2"></div>
+        </div>
+
+        <div class="quiz-card" id="q3">
+            <div class="quiz-q">୩. ଚିପ୍‌କୋ ଆନ୍ଦୋଳନର ପ୍ରଥମ ସୂତ୍ରପାତ କେଉଁ ସଂଗଠନ ଦ୍ୱାରା ହୋଇଥିଲା?</div>
+            <div class="quiz-opt" onclick="checkQuiz(3, true, this)">(A) ଦାଶୋଳି ଗ୍ରାମସ୍ୱରାଜ୍ୟ ମଣ୍ଡଳ</div>
+            <div class="quiz-opt" onclick="checkQuiz(3, false, this)">(B) IUCN</div>
+            <div class="quiz-opt" onclick="checkQuiz(3, false, this)">(C) WWF</div>
+            <div class="quiz-opt" onclick="checkQuiz(3, false, this)">(D) କେନ୍ଦ୍ରୀୟ ଚିଡ଼ିଆଖାନା ସଂସ୍ଥା</div>
+            <div class="feedback" id="fb3"></div>
+        </div>
+
+        <div class="quiz-card" id="q4">
+            <div class="quiz-q">୪. 'ରେଡ଼ ଡାଟା ବୁକ୍' (Red Data Book) କେଉଁ ସଂସ୍ଥା ଦ୍ୱାରା ପ୍ରକାଶିତ ହୁଏ?</div>
+            <div class="quiz-opt" onclick="checkQuiz(4, false, this)">(A) UNESCO</div>
+            <div class="quiz-opt" onclick="checkQuiz(4, true, this)">(B) IUCN</div>
+            <div class="quiz-opt" onclick="checkQuiz(4, false, this)">(C) WWF</div>
+            <div class="quiz-opt" onclick="checkQuiz(4, false, this)">(D) JFM</div>
+            <div class="feedback" id="fb4"></div>
+        </div>
+
+        <div class="quiz-card" id="q5">
+            <div class="quiz-q">୫. ରାଜସ୍ଥାନର ପାରମ୍ପରିକ ଜଳ ସଂରକ୍ଷଣ ସଂରଚନାକୁ କ’ଣ କୁହାଯାଏ?</div>
+            <div class="quiz-opt" onclick="checkQuiz(5, false, this)">(A) ଆହାର୍</div>
+            <div class="quiz-opt" onclick="checkQuiz(5, false, this)">(B) ଏରିସ୍</div>
+            <div class="quiz-opt" onclick="checkQuiz(5, true, this)">(C) ଖାଦିନ୍ ଓ ଜୋହାଡ୍</div>
+            <div class="quiz-opt" onclick="checkQuiz(5, false, this)">(D) ବୁନ୍ଧିସ୍</div>
+            <div class="feedback" id="fb5"></div>
+        </div>
+
+        <details id="answer-key-box">
+            <summary>🔑 MCQ Answer Key (ଉତ୍ତର ସୂଚୀ)</summary>
+            <ul>
+                <li>୧. (C) କୋଇଲା</li>
+                <li>୨. (B) ୩୭୩ ଜଣ</li>
+                <li>୩. (A) ଦାଶୋଳି ଗ୍ରାମସ୍ୱରାଜ୍ୟ ମଣ୍ଡଳ</li>
+                <li>୪. (B) IUCN</li>
+                <li>୫. (C) ଖାଦିନ୍ ଓ ଜୋହାଡ୍</li>
+            </ul>
+        </details>
+    </section>
+
+</div>
+
+<script>
+    function checkQuiz(qNum, isCorrect, element) {
+        var feedbackEl = document.getElementById('fb' + qNum);
+        var options = element.parentElement.getElementsByClassName('quiz-opt');
+        
+        for (var i = 0; i < options.length; i++) {
+            options[i].style.pointerEvents = 'none';
+        }
+
+        feedbackEl.style.display = 'block';
+        if (isCorrect) {
+            element.style.backgroundColor = '#dcfce7';
+            element.style.borderColor = '#16a34a';
+            feedbackEl.className = 'feedback correct';
+            feedbackEl.innerText = '✅ ସଠିକ୍ ଉତ୍ତର! (Correct Answer)';
+        } else {
+            element.style.backgroundColor = '#ffe4e6';
+            element.style.borderColor = '#e11d48';
+            feedbackEl.className = 'feedback incorrect';
+            feedbackEl.innerText = '❌ ଭୁଲ୍ ଉତ୍ତର! ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ।';
+        }
+    }
+</script>
+
+</body>
+</html>
