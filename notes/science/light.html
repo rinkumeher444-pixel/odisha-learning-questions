@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ଆଲୋକ – ପ୍ରତିଫଳନ ଓ ପ୍ରତିସରଣ (Light Reflection and Refraction)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0e1420;
+            --bg-panel: #141d2e;
+            --bg-card: #1a2436;
+            --text-main: #e2e8f0;
+            --text-muted: #94a3b8;
+            --primary: #f59e0b; /* Gold/Amber */
+            --secondary: #14b8a6; /* Teal */
+            --accent-green: #22c55e; /* Green */
+            --accent-coral: #f43f5e; /* Coral */
+            --border-color: rgba(255, 255, 255, 0.08);
+            --radius: 12px;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding-bottom: 5rem;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(20, 184, 166, 0.05) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(245, 158, 11, 0.05) 0%, transparent 40%);
+            background-attachment: fixed;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Merriweather', serif;
+            color: var(--text-main);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Hero Header */
+        .hero {
+            background: linear-gradient(135deg, var(--bg-panel), var(--bg-card));
+            border-bottom: 1px solid var(--border-color);
+            padding: 4rem 1.5rem 3rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary), var(--accent-green));
+        }
+
+        .chapter-badge {
+            display: inline-block;
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--primary);
+            padding: 0.35rem 1rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+            background: linear-gradient(120deg, #ffffff, var(--primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            color: var(--text-muted);
+            font-size: 1.15rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Pill Navigation */
+        .pillnav {
+            display: flex;
+            gap: 0.5rem;
+            overflow-x: auto;
+            padding: 1rem 0;
+            margin: 2rem 0;
+            scrollbar-width: none;
+        }
+
+        .pillnav::-webkit-scrollbar {
+            display: none;
+        }
+
+        .pill {
+            background: var(--bg-panel);
+            color: var(--text-muted);
+            padding: 0.5rem 1.25rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            text-decoration: none;
+            white-space: nowrap;
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+
+        .pill:hover, .pill.active {
+            background: var(--primary);
+            color: #000;
+            border-color: var(--primary);
+            font-weight: 600;
+        }
+
+        /* Sections */
+        section {
+            background: var(--bg-panel);
+            border-radius: var(--radius);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        section h2 {
+            font-size: 1.75rem;
+            color: var(--primary);
+            margin-bottom: 1.25rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid rgba(245, 158, 11, 0.2);
+        }
+
+        section h3 {
+            font-size: 1.35rem;
+            color: var(--secondary);
+            margin: 1.5rem 0 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-main);
+        }
+
+        ul, ol {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+        }
+
+        /* Structured Callout Boxes */
+        .callout {
+            border-left: 4px solid;
+            border-radius: 0 var(--radius) var(--radius) 0;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            position: relative;
+        }
+
+        .def-box {
+            background: rgba(245, 158, 11, 0.05);
+            border-color: var(--primary);
+        }
+
+        .example-box {
+            background: rgba(20, 184, 166, 0.05);
+            border-color: var(--secondary);
+        }
+
+        .activity-box {
+            background: rgba(34, 197, 94, 0.05);
+            border-color: var(--accent-green);
+        }
+
+        .mistake-box {
+            background: rgba(244, 63, 94, 0.05);
+            border-color: var(--accent-coral);
+        }
+
+        .callout-title {
+            font-weight: 700;
+            font-family: 'Merriweather', serif;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .def-box .callout-title { color: var(--primary); }
+        .example-box .callout-title { color: var(--secondary); }
+        .activity-box .callout-title { color: var(--accent-green); }
+        .mistake-box .callout-title { color: var(--accent-coral); }
+
+        /* Comparison Grids */
+        .compare {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .compare-col {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+        }
+
+        .compare-col h4 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        /* Flowcharts */
+        .flow {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+            margin: 2rem 0;
+            background: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border-color);
+        }
+
+        .flow-node {
+            background: var(--bg-panel);
+            border: 1px solid var(--secondary);
+            color: var(--text-main);
+            padding: 0.75rem 1.25rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-align: center;
+            flex: 1;
+            min-width: 140px;
+        }
+
+        .flow-arrow {
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 1.25rem;
+        }
+
+        /* Embedded SVG Diagrams */
+        .diagram-container {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            text-align: center;
+            margin: 1.5rem 0;
+        }
+
+        .diagram-container svg {
+            max-width: 100%;
+            height: auto;
+        }
+
+        figcaption {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        /* Data Tables */
+        .table-container {
+            overflow-x: auto;
+            margin: 1.5rem 0;
+            border-radius: var(--radius);
+            border: 1px solid var(--border-color);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background: var(--bg-card);
+            color: var(--primary);
+            font-family: 'Merriweather', serif;
+        }
+
+        tr:nth-child(even) {
+            background: rgba(255, 255, 255, 0.01);
+        }
+
+        tr:hover {
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        /* Math / Formula styling */
+        .formula {
+            background: var(--bg-card);
+            border: 1px dashed var(--primary);
+            padding: 1rem;
+            text-align: center;
+            border-radius: 8px;
+            margin: 1rem 0;
+            font-size: 1.1rem;
+            color: var(--primary);
+            font-family: monospace;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            section { padding: 1.25rem; }
+            .flow { flex-direction: column; }
+            .flow-arrow { transform: rotate(90deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Header -->
+    <header class="hero">
+        <div class="container">
+            <span class="chapter-badge">ଷଷ୍ଠ ଅଧ୍ୟାୟ • ଦଶମ ଶ୍ରେଣୀ ଭୌତିକ ବିଜ୍ଞାନ</span>
+            <h1>ଆଲୋକ – ପ୍ରତିଫଳନ ଓ ପ୍ରତିସରଣ</h1>
+            <p>Light Reflection and Refraction: Comprehensive Lecture Notes and Concepts</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Pill Navigation -->
+        <nav class="pillnav">
+            <a href="#intro" class="pill active">ପରିଚୟ ଓ ପ୍ରକୃତି</a>
+            <a href="#reflection" class="pill">ଆଲୋକର ପ୍ରତିଫଳନ</a>
+            <a href="#spherical" class="pill">ବର୍ତ୍ତୁଳାକାର ଦର୍ପଣ</a>
+            <a href="#refraction" class="pill">ଆଲୋକର ପ୍ରତିସରଣ</a>
+            <a href="#lenses" class="pill">ବର୍ତ୍ତୁଳାକାର ଲେନ୍ସ</a>
+        </nav>
+
+        <!-- Section 1: Introduction & Nature of Light -->
+        <section id="intro">
+            <h2>1. ଆଲୋକର ପ୍ରକୃତି ଓ ଧର୍ମ (Nature and Properties of Light)</h2>
+            <p>ଆମ ଚାରିପଟେ ଥିବା ବସ୍ତୁଗୁଡ଼ିକୁ ଦେଖିବା ପାଇଁ ଆଲୋକ ଅପରିହାର୍ଯ୍ୟ[span_0](start_span)[span_0](end_span)। ବସ୍ତୁ ଉପରେ ଆଲୋକ ପଡ଼ିଲେ ତାହାର ପୃଷ୍ଠରୁ ତାହା ପ୍ରତିଫଳିତ ହୁଏ ଏବଂ ସେହି ପ୍ରତିଫଳିତ ଆଲୋକ ଆମ ଚକ୍ଷୁ ଗ୍ରହଣ କଲେ ଆମେ ବସ୍ତୁକୁ ଦେଖିପାରୁ[span_1](start_span)[span_1](end_span)।</p>
+
+            <div class="callout def-box">
+                <div class="callout-title">📌 ଆଲୋକର ଦ୍ଵୈତ ପ୍ରକୃତି (Dual Nature of Light)</div>
+                <p>ଆଧୁନିକ କ୍ୱାଣ୍ଟମ ତତ୍ତ୍ୱ ଅନୁଯାୟୀ, ଆଲୋକ କେବଳ ତରଙ୍ଗ ନୁହେଁ କି କେବଳ କଣିକା ନୁହେଁ; ବରଂ ଏହା <strong>ତରଙ୍ଗ (Wave)</strong> ଓ <strong>କଣିକା (Particle)</strong> ଉଭୟର ଗୁଣ ପ୍ରଦର୍ଶନ କରେ[span_2](start_span)[span_2](end_span)。</p>
+            </div>
+
+            <div class="flow">
+                <div class="flow-node">ସରଳରୈଖିକ ଗତି</div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-node">ବିକୀର୍ଶନ (Diffraction)</div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-node">ଦ୍ଵୈତ ପ୍ରକୃତି (Dual Nature)</div>
+            </div>
+        </section>
+
+        <!-- Section 2: Reflection of Light -->
+        <section id="reflection">
+            <h2>2. ଆଲୋକର ପ୍ରତିଫଳନ (Reflection of Light)</h2>
+            <p>ଏକ ଚିକ୍କଣ ପୃଷ୍ଠ ଉପରେ ଆଲୋକ ପଡ଼ିଲେ ତାହାର ଅଧିକାଂଶ ଭାଗ ପ୍ରତିଫଳିତ ହୋଇଥାଏ[span_3](start_span)[span_3](end_span)。</p>
+
+            <div class="callout def-box">
+                <div class="callout-title">📐 ପ୍ରତିଫଳନର ନିୟମଗୁଡ଼ିକ (Laws of Reflection)</div>
+                <ol>
+                    <li>ଆପତନ କୋଣ ଓ ପ୍ରତିଫଳନ କୋଣ ସମାନ ହୋଇଥାଏ[span_4](start_span)[span_4](end_span) ($\angle i = \angle r$)।</li>
+                    <li>ଆପତିତ ରଶ୍ମି, ପ୍ରତିଫଳିତ ରଶ୍ମି ଏବଂ ଆପତନ ବିନ୍ଦୁରେ ପ୍ରତିଫଳନ ପୃଷ୍ଠ ପ୍ରତି ଅଙ୍କିତ ଲମ୍ବ ଗୋଟିଏ ସମତଳରେ ରହିଥାଆନ୍ତି[span_5](start_span)[span_5](end_span)।</li>
+                </ol>
+            </div>
+
+            <h3>ସମତଳ ଦର୍ପଣ ଦ୍ବାରା ସୃଷ୍ଟି ହେଉଥିବା ପ୍ରତିବିମ୍ବର ଗୁଣ:</h3>
+            <ul>
+                <li>ସର୍ବଦା ଆଭାସୀ ଓ ସଳଖ ହୋଇଥାଏ[span_6](start_span)[span_6](end_span)।</li>
+                <li>ପ୍ରତିବିମ୍ବର ଆକାର ବସ୍ତୁର ଆକାର ସହିତ ସମାନ ହୋଇଥାଏ[span_7](start_span)[span_7](end_span)।</li>
+                <li>ଦର୍ପଣର ସମ୍ମୁଖରେ ବସ୍ତୁ ଯେତିକି ଦୂରରେ ଥାଏ, ପ୍ରତିବିମ୍ବ ଦର୍ପଣର ପଛପଟେ ସେତିକି ଦୂରରେ ରହିଥାଏ[span_8](start_span)[span_8](end_span)।</li>
+                <li>ପ୍ରତିବିମ୍ବର ପାର୍ଶ୍ଵ ଓଲଟା (Lateral Inversion) ହୋଇଥାଏ[span_9](start_span)[span_9](end_span)।</li>
+            </ul>
+        </section>
+
+        <!-- Section 3: Spherical Mirrors -->
+        <section id="spherical">
+            <h2>3. ବର୍ତ୍ତୁଳାକାର ଦର୍ପଣ (Spherical Mirrors)</h2>
+            <p>ଯେଉଁ ଦର୍ପଣର ପ୍ରତିଫଳନ ପୃଷ୍ଠ ଏକ ଗୋଲକପୃଷ୍ଠର ଅଂଶ ଅଟେ, ତାହାକୁ ବର୍ତ୍ତୁଳାକାର ଦର୍ପଣ କୁହାଯାଏ[span_10](start_span)[span_10](end_span)。</p>
+
+            <div class="compare">
+                <div class="compare-col">
+                    <h4>ଅବତଳ ଦର୍ପଣ (Concave Mirror)</h4>
+                    <p>ପ୍ରତିଫଳନ ପୃଷ୍ଠ ଭିତର ଆଡ଼କୁ ବକ୍ର ହୋଇରହିଥାଏ[span_11](start_span)[span_11](end_span)। ଏହାକୁ ଅଭିସାରୀ (Converging) ଦର୍ପଣ କୁହାଯାଏ[span_12](start_span)[span_12](end_span)。</p>
+                </div>
+                <div class="compare-col">
+                    <h4>ଉତ୍ତଳ ଦର୍ପଣ (Convex Mirror)</h4>
+                    <p>ପ୍ରତିଫଳନ ପୃଷ୍ଠ ବାହାର ଆଡ଼କୁ ବକ୍ର ହୋଇରହିଥାଏ[span_13](start_span)[span_13](end_span)। ଏହାକୁ ଅପସାରୀ (Diverging) ଦର୍ପଣ କୁହାଯାଏ。</p>
+                </div>
+            </div>
+
+            <h3>ବର୍ତ୍ତୁଳାକାର ଦର୍ପଣ ସମ୍ବନ୍ଧୀୟ ବୈଷୟିକ ଶବ୍ଦ:</h3>
+            <ul>
+                <li><strong>ପୋଲ୍ (Pole - P):</strong> ଦର୍ପଣର ବକ୍ର ପ୍ରତିଫଳନ ପୃଷ୍ଠର ମଧ୍ୟବିନ୍ଦୁ[span_14](start_span)[span_14](end_span)।</li>
+                <li><strong>ବକ୍ରତା କେନ୍ଦ୍ର (Centre of Curvature - C):</strong> ଦର୍ପଣ ଯେଉଁ ଗୋଲକର ଅଂଶ, ସେହି ଗୋଲକର କେନ୍ଦ୍ର।</li>
+                <li><strong>ବକ୍ରତା ବ୍ୟାସାଦ୍ଧ (Radius of Curvature - R):</strong> ପୋଲ୍ (P) ଓ ବକ୍ରତାକେନ୍ଦ୍ର (C) ମଧ୍ୟରେ ଥିବା ଦୂରତା।</li>
+                <li><strong>ମୁଖ୍ୟ ଅକ୍ଷ (Principal Axis):</strong> ପୋଲ୍ ଓ ବକ୍ରତା କେନ୍ଦ୍ରକୁ ଯୋଗ କରୁଥିବା ସରଳରେଖା।</li>
+                <li><strong>ପ୍ରମୁଖ ଫୋକସ୍ (Principal Focus - F):</strong> ମୁଖ୍ୟ ଅକ୍ଷ ସହିତ ସମାନ୍ତର ଆଲୋକ ରଶ୍ମିଗୁଡ଼ିକ ପ୍ରତିଫଳିତ ହୋଇ ଯେଉଁ ବିନ୍ଦୁରେ ମିଳିତ ହୁଅନ୍ତି ବା ମିଳିତ ହେଲାପରି ଜଣାପଡ଼ନ୍ତି।</li>
+            </ul>
+
+            <div class="formula">
+                ବକ୍ରତା ବ୍ୟାସାଦ୍ଧ ଓ ଫୋକସ୍ ଦୂରତା ମଧ୍ୟରେ ସମ୍ପର୍କ: $R = 2f$
+            </div>
+
+            <div class="callout example-box">
+                <div class="callout-title">💡 ଦର୍ପଣ ସୂତ୍ର ଏବଂ ପରିବର୍ଦ୍ଧନ (Mirror Formula & Magnification)</div>
+                <p>ଦର୍ପଣ ସୂତ୍ର: $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$</p>
+                <p>ପରିବର୍ଦ୍ଧନ ($m$): $m = \frac{h'}{h} = -\frac{v}{u}$</p>
+            </div>
+        </section>
+
+        <!-- Section 4: Refraction of Light -->
+        <section id="refraction">
+            <h2>4. ଆଲୋକର ପ୍ରତିସରଣ (Refraction of Light)</h2>
+            <p>ଆଲୋକ ତୀର୍ଯ୍ୟକ୍ ଭାବରେ ଗୋଟିଏ ସ୍ୱଚ୍ଛ ମାଧ୍ୟମରୁ ଅନ୍ୟ ଏକ ସ୍ୱଚ୍ଛ ମାଧ୍ୟମ ଭିତରକୁ ପ୍ରବେଶ କଲେ ତା’ର ସଞ୍ଚାରଣ ଦିଗ ଦ୍ଵିତୀୟ ମାଧ୍ୟମରେ ବଦଳିଯାଏ। ଏହି ଘଟଣାକୁ ଆଲୋକର ପ୍ରତିସରଣ କୁହାଯାଏ。</p>
+
+            <div class="callout def-box">
+                <div class="callout-title">📜 ପ୍ରତିସରଣର ନିୟମଗୁଡ଼ିକ (Laws of Refraction)</div>
+                <ol>
+                    <li>ଆପତିତ ରଶ୍ମି, ପ୍ରତିସୃତ ରଶ୍ମି ଏବଂ ଦୁଇଟି ମାଧ୍ୟମର ବ୍ୟବଧାନପୃଷ୍ଠ ପ୍ରତି ଅଙ୍କିତ ଅଭିଲମ୍ବ ଗୋଟିଏ ସମତଳରେ ରହେ।</li>
+                    <li>ଦୁଇଟି ନିର୍ଦ୍ଦିଷ୍ଟ ମାଧ୍ୟମ ଓ ନିର୍ଦ୍ଦିଷ୍ଟ ବର୍ଣ୍ଣର ଆଲୋକ ପାଇଁ ଆପତନ କୋଣର ସାଇନ୍ (Sine) ଓ ପ୍ରତିସରଣ କୋଣର ସାଇନ୍‌ର ଅନୁପାତ ଏକ ସ୍ଥିରାଙ୍କ ($\frac{\sin i}{\sin r} = \text{ସ୍ଥିରାଙ୍କ}$)। (ଏହାକୁ ସ୍ଲେଲ୍‌ଙ୍କ ପ୍ରତିସରଣ ନିୟମ କୁହାଯାଏ।)</li>
+                </ol>
+            </div>
+
+            <h3>ପ୍ରତିସରଣାଙ୍କ (Refractive Index):</h3>
+            <p>ଶୂନ୍ୟ ମାଧ୍ୟମ ତୁଳନାରେ ଅନ୍ୟ ଏକ ମାଧ୍ୟମର ପରମ ପ୍ରତିସରଣାଙ୍କ:</p>
+            <div class="formula">
+                $n = \frac{C}{V}$ (ଯେଉଁଠାରେ $C$ = ଶୂନ୍ୟରେ ଆଲୋକର ବେଗ ଏବଂ $V$ = ମାଧ୍ୟମରେ ଆଲୋକର ବେଗ)
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ଜଡ଼ୀୟ ମାଧ୍ୟମ</th>
+                            <th>ପ୍ରତିସରଣାଙ୍କ ($n$)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>ବାୟୁ (Air)</td><td>1.0003</td></tr>
+                        <tr><td>ଜଳ (Water)</td><td>1.33</td></tr>
+                        <tr><td>କ୍ରାଉନ୍ କାଚ (Crown Glass)</td><td>1.52</td></tr>
+                        <tr><td>ହୀରା (Diamond)</td><td>2.42</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Section 5: Spherical Lenses -->
+        <section id="lenses">
+            <h2>5. ବର୍ତ୍ତୁଳାକାର ଲେନ୍ସରେ ପ୍ରତିସରଣ (Refraction by Spherical Lenses)</h2>
+            <p>ଦୁଇଟି ପୃଷ୍ଠ ଥିବା ଏକ ସ୍ୱଚ୍ଛ ପ୍ରତିସରଣକାରୀ ମାଧ୍ୟମର ଗୋଟିଏ ପୃଷ୍ଠ ବା ଉଭୟ ପୃଷ୍ଠ ବକ୍ର ହୋଇଥିଲେ ତାକୁ ଲେନ୍ସ କୁହାଯାଏ。</p>
+
+            <div class="compare">
+                <div class="compare-col">
+                    <h4>ଉତ୍ତଳ ଲେନ୍ସ (Convex Lens)</h4>
+                    <p>ମଝି ଅଂଶ ଧାର ଅଂଶଠାରୁ ଅଧିକ ମୋଟା। ଏହା ଆଲୋକ ରଶ୍ମିଗୁଚ୍ଛକୁ କେନ୍ଦ୍ରାଭିମୁଖୀ କରେ, ତେଣୁ ଏହାକୁ <strong>ଅଭିସାରୀ ଲେନ୍ସ</strong> କୁହାଯାଏ。</p>
+                </div>
+                <div class="compare-col">
+                    <h4>ଅବତଳ ଲେନ୍ସ (Concave Lens)</h4>
+                    <p>ଧାର ଅଂଶ ମଝି ଅଂଶ ଅପେକ୍ଷା ଅଧିକ ମୋଟା। ଏହା ଆଲୋକ ରଶ୍ମିକୁ ଅପସାରଣ କରେ, ତେଣୁ ଏହାକୁ <strong>ଅପସାରୀ ଲେନ୍ସ</strong> କୁହାଯାଏ。</p>
+                </div>
+            </div>
+
+            <div class="callout activity-box">
+                <div class="callout-title">⚡ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ପଏଣ୍ଟ ଓ ପ୍ରୟୋଗ</div>
+                <ul>
+                    <li><strong>ଆଲୋକ କେନ୍ଦ୍ର (Optical Centre - O):</strong> ଲେନ୍ସର ମଧ୍ୟବିନ୍ଦୁ ଯେଉଁଥିଦାୟୀ ଆଲୋକ ରଶ୍ମି ବିପଥନ ନ ହୋଇ ସିଧା ଗତି କରେ।</li>
+                    <li><strong>ଉତ୍ତଳ ଦର୍ପଣର ବ୍ୟବହାର:</strong> ଯାନଗୁଡ଼ିକରେ ପଛପାଖ (Rear-View) ଦେଖିବା ପାଇଁ ବ୍ୟବହୃତ ହୁଏ କାରଣ ଏହା ସର୍ବଦା ସଳଖ ଓ ଛୋଟ ପ୍ରତିବିମ୍ବ ଦେଖାଏ ଏବଂ ଅଧିକ କ୍ଷେତ୍ରକୁ କଭର୍ କରେ।</li>
+                    <li><strong>ଅବତଳ ଦର୍ପଣର ବ୍ୟବହାର:</strong> ଟର୍ଚ୍ଚ, ହେଡ୍‌ଲାଇଟ୍, ଦାଢ଼ି କାଟିବା ଦର୍ପଣ ଏବଂ ଦନ୍ତ ଚିକିତ୍ସକଙ୍କ ଦ୍ୱାରା ବ୍ୟବହୃତ ହୁଏ।</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
