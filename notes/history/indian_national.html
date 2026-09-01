@@ -1,5 +1,907 @@
 
-[
+[<!DOCTYPE html>
+<html lang="or">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ଦଶମ ଶ୍ରେଣୀ ଇତିହାସ - ସ୍ୱାଧୀନତୋତ୍ତର ଭାରତ ଓ ଓଡ଼ିଶାର ବିକାଶ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(56, 189, 248, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(20, 184, 166, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Sans Oriya', 'Outfit', sans-serif;
+      line-height: 1.75;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1060px;
+      margin: 0 auto;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.25;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 760px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.15rem;
+      color: #e2e8f0;
+      margin: 22px 0 12px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 0.98rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.05rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 16px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#38bdf8" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#10b981" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#38bdf8"/>
+      <circle cx="45" cy="130" r="7" fill="#10b981"/>
+    </svg>
+    <div class="badge">🏛️ ଦଶମ ଶ୍ରେଣୀ • ଇତିହାସ • ତୃତୀୟ ଓ ଚତୁର୍ଥ ଅଧ୍ୟାୟ</div>
+    <h1>ସ୍ୱାଧୀନତା ପରବର୍ତ୍ତୀ ଭାରତ ଓ ଓଡ଼ିଶାର ବିକାଶ</h1>
+    <p>ଦେଶୀୟ ରାଜ୍ୟ ଓ ଓଡ଼ିଶାର ଗଡ଼ଜାତ ମିଶ୍ରଣ, ଫରାସୀ-ପର୍ତ୍ତୁଗୀଜ ଉପନିବେଶ ମୁକ୍ତି, ଜାତୀୟ ଅର୍ଥନୀତି, ବିଜ୍ଞାନ-ପ୍ରଯୁକ୍ତି ଏବଂ ସ୍ୱାଧୀନତୋତ୍ତର ଓଡ଼ିଶାର ସାମାଜିକ, ଶିକ୍ଷା, କୃଷି, ଶିଳ୍ପ ଓ ଭିତ୍ତିଭୂମି ବିକାଶର ସମଗ୍ର ସାରାଂଶ।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#ch3-pat1">୧. ଦେଶୀୟ ରାଜ୍ୟ ମିଶ୍ରଣ</a>
+    <a href="#ch3-pat2">୨. ଓଡ଼ିଶାରେ ଗଡ଼ଜାତ ମିଶ୍ରଣ</a>
+    <a href="#ch3-pat3">୩. ଗୋଆ ଓ ପୁଦୁଚେରୀ ମୁକ୍ତି</a>
+    <a href="#ch3-pat4">୪. ଭାରତୀୟ ଅର୍ଥନୀତି ଓ ଯୋଜନା</a>
+    <a href="#ch3-pat5">୫. ବିଜ୍ଞାନ, ପରମାଣୁ ଓ ମହାକାଶ</a>
+    <a href="#ch4-pat1">୬. ଓଡ଼ିଶାର ସାମାଜିକ ବିକାଶ</a>
+    <a href="#ch4-pat2">୭. ଓଡ଼ିଶାରେ ଶିକ୍ଷାର ବିକାଶ</a>
+    <a href="#ch4-pat3">୮. କୃଷି ଓ ଜଳସେଚନ ବିକାଶ</a>
+    <a href="#ch4-pat4">୯. ଶିଳ୍ପାୟନର ଧାରା</a>
+    <a href="#ch4-pat5">୧୦. ଆଧାରିକ ଭିତ୍ତିଭୂମି</a>
+    <a href="#summary-table">ସାରସଂକ୍ଷେପ ସାରଣୀ</a>
+    <a href="#exercises">ପ୍ରଶ୍ନୋତ୍ତର</a>
+  </nav>
+
+  <!-- 1. Chapter 3 Lesson 1: Integration of Princely States -->
+  <section id="ch3-pat1">
+    <h2 class="sec-title">👑 ୧. ତୃତୀୟ ଅଧ୍ୟାୟ (ପାଠ-୧) : ଦେଶୀୟ ରାଜ୍ୟମାନଙ୍କର ମିଶ୍ରଣ</h2>
+    <p>
+      ୧୯୪୭ ମସିହାରେ ବ୍ରିଟିଶ ଶାସିତ ଭାରତ ସମୁଦାୟ ଭୂଭାଗର ୬୦% ଥିଲା ଏବଂ ଅବଶିଷ୍ଟ ୪୦% ଅଞ୍ଚଳ ୫୦୦ ରୁ ଊର୍ଦ୍ଧ୍ୱ ଦେଶୀୟ ରାଜାମାନଙ୍କ ଅଧୀନରେ ଥିଲା। ୧୯୪୭ ଭାରତ ସ୍ୱାଧୀନତା ଆଇନ ଅନୁଯାୟୀ ବ୍ରିଟିଶ ସର୍ବୋଚ୍ଚ କ୍ଷମତାର ଅବସାନ ଘଟିବାରୁ ଏହି ରାଜ୍ୟଗୁଡ଼ିକ ସ୍ୱାଧୀନ ହୋଇଗଲେ।
+    </p>
+
+    <div class="flow">
+      <div class="flow-node">୨୭ ଜୁନ୍ ୧୯୪୭: ଦେଶୀୟ ରାଜ୍ୟ ବିଭାଗ ଗଠନ (ପଟେଲ ଓ ମେନନ)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">୨୫ ଜୁଲାଇ ୧୯୪୭: ମାଉଣ୍ଟବ୍ୟାଟେନଙ୍କ ରାଜନ୍ୟ ମଣ୍ଡଳୀ ସମ୍ବୋଧନ</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ମିଳନ ପତ୍ର (Instrument of Accession) ସ୍ୱାକ୍ଷର</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ଅଖଣ୍ଡ ଭାରତ ଗଠନ ଓ ଗଣତନ୍ତ୍ରୀକରଣ</div>
+    </div>
+
+    <div class="callout def-box">
+      <strong>ମିଳନ ପତ୍ର (Instrument of Accession):</strong><br>
+      ଏହି ଆଇନଗତ ଦସ୍ତାବିଜ୍ ଅନୁସାରେ ଦେଶୀୟ ରାଜାମାନେ ତିନୋଟି ମୁଖ୍ୟ କ୍ଷମତା ଭାରତ ସରକାରଙ୍କୁ ହସ୍ତାନ୍ତର କରିବା ବାଧ୍ୟତାମୂଳକ ଥିଲା: <strong>(୧) ପ୍ରତିରକ୍ଷା, (୨) ବୈଦେଶିକ ବ୍ୟାପାର, ଏବଂ (୩) ଯୋଗାଯୋଗ</strong>।
+    </div>
+
+    <h3 class="sub-title">ସମସ୍ୟା ସୃଷ୍ଟିକାରୀ ପ୍ରମୁଖ ରାଜ୍ୟ ଓ ମିଶ୍ରଣ ସମାଧାନ:</h3>
+    <div class="compare">
+      <div class="card gold">
+        <h4>ଯୋଧପୁର ଓ ଜୁନାଗଡ଼</h4>
+        <ul>
+          <li><strong>ଯୋଧପୁର:</strong> ରାଜା ହନ୍ୱନ୍ତ ସିଂହ ପାକିସ୍ତାନ ସହ ମିଶିବାକୁ ମସୁଧା କରୁଥିଲେ ମଧ୍ୟ ସର୍ଦ୍ଦାର ପଟେଲଙ୍କ ବୁଝାସୁଝା ପରେ ଭାରତ ସହ ମିଳନ ପତ୍ରରେ ସ୍ୱାକ୍ଷର କଲେ।</li>
+          <li><strong>ଜୁନାଗଡ଼:</strong> ମୁସଲିମ ନୱାବ ପାକିସ୍ତାନ ସପକ୍ଷରେ ସାମରିକ ଶକ୍ତି ପ୍ରଦର୍ଶନ କଲେ। ଭାରତ ସରକାରଙ୍କ ଦ୍ୱାରା ଅନୁଷ୍ଠିତ ଗଣଭୋଟରେ ପ୍ରାୟ ୨ ଲକ୍ଷ ଭୋଟରଙ୍କ ମଧ୍ୟରୁ ମାତ୍ର ୯୦ ଜଣଙ୍କ ବ୍ୟତୀତ ସମସ୍ତେ ଭାରତ ସପକ୍ଷରେ ମତ ଦେଲେ ଓ ନୱାବ ପଳାୟନ କଲେ।</li>
+        </ul>
+      </div>
+      <div class="card coral">
+        <h4>ଜାମ୍ମୁ ଓ କାଶ୍ମୀର</h4>
+        <ul>
+          <li>ମହାରାଜା ହରିସିଂହ ସ୍ୱାଧୀନ ରହିବାକୁ ଚାହୁଁଥିଲେ।</li>
+          <li>ପାକିସ୍ତାନର <strong>‘ଅପରେସନ ଗୁଲମାର୍ଗ’</strong> ଜରିଆରେ ପଠାଣ ଆକ୍ରମଣ ପରେ ହରିସିଂହ ଭାରତର ସାମରିକ ସହାୟତା ଲୋଡ଼ି ମିଳନ ପତ୍ରରେ ସ୍ୱାକ୍ଷର କଲେ।</li>
+          <li>ଭାରତୀୟ ସମ୍ବିଧାନର <strong>୩୭୦ ଧାରା</strong> ଅଧୀନରେ କାଶ୍ମୀର ପାଇଁ ସ୍ୱତନ୍ତ୍ର ବ୍ୟବସ୍ଥା ରଖାଗଲା।</li>
+        </ul>
+      </div>
+      <div class="card teal">
+        <h4>ହାଇଦ୍ରାବାଦ ମୁକ୍ତି</h4>
+        <ul>
+          <li>ନିଜାମ ଓସ୍‌ମାନ ଅଲ୍ଲୀ ଖାଁଙ୍କ ସମର୍ଥନରେ ସୟଦ କାଶିମ୍ ରଜ୍‌ଭିଙ୍କ ନେତୃତ୍ୱାଧୀନ <strong>‘ରଜାକାର’</strong> ସଶସ୍ତ୍ର ବାହିନୀ ଅତ୍ୟାଚାର ଚଳାଇଲେ।</li>
+          <li>ସର୍ଦ୍ଦାର ପଟେଲ <strong>‘ଅପରେସନ ପୋଲୋ’ (Operation Polo)</strong> ସାମରିକ କାର୍ଯ୍ୟାନୁଷ୍ଠାନ ଗ୍ରହଣ କଲେ (୧୩ ସେପ୍ଟେମ୍ବର ୧୯୪୮)। ୫ ଦିନରେ ନିଜାମ ଆତ୍ମସମର୍ପଣ କରି ୧୯୪୯ ନଭେମ୍ବରରେ ମିଳନ ପତ୍ରରେ ସ୍ୱାକ୍ଷର କଲେ।</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout mistake-box">
+      <strong>ଭାରତର ବିସ୍‌ମାର୍କ ଓ ଲୌହ ମାନବ:</strong> କୂଟନୈତିକ ବିଚକ୍ଷଣତା ଓ ଦୃଢ଼ ନେତୃତ୍ୱ ବଳରେ ଦେଶୀୟ ରାଜ୍ୟଗୁଡ଼ିକୁ ଏକତ୍ର କରି ଅଖଣ୍ଡ ଭାରତ ଗଠନ କରିଥିବାରୁ <strong>ସର୍ଦ୍ଦାର ବଲ୍ଲଭଭାଇ ପଟେଲ</strong>ଙ୍କୁ ‘ଭାରତର ବିସ୍‌ମାର୍କ’ ଓ ‘ଲୌହ ମାନବ’ କୁହାଯାଏ।
+    </div>
+  </section>
+
+  <!-- 2. Chapter 3 Lesson 2: Garhjat Integration in Odisha -->
+  <section id="ch3-pat2">
+    <h2 class="sec-title">🏛️ ୨. ତୃତୀୟ ଅଧ୍ୟାୟ (ପାଠ-୨) : ଓଡ଼ିଶା ସହିତ ଗଡ଼ଜାତ ରାଜ୍ୟମାନଙ୍କର ମିଶ୍ରଣ</h2>
+    <p>
+      ଓଡ଼ିଆ ଭାଷାଭାଷୀ ଗଡ଼ଜାତଗୁଡ଼ିକର ସଂଖ୍ୟା ଥିଲା <strong>୨୬</strong>। ଆୟତନ ଦୃଷ୍ଟିରୁ ଏଗୁଡ଼ିକ ତିନି ଶ୍ରେଣୀରେ ବିଭକ୍ତ ଥିଲା:
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଗଡ଼ଜାତଗୁଡ଼ିକର ଶ୍ରେଣୀବିଭାଗ</h4>
+        <ul>
+          <li><strong>‘କ’ ଶ୍ରେଣୀ (୧୧ଟି):</strong> ଢେଙ୍କାନାଳ, କେନ୍ଦୁଝର, ମୟୂରଭଞ୍ଜ, ବାମଣ୍ଡା, ବୌଦ୍ଧ, ଗାଙ୍ଗପୁର, ପାଟଣା, କଳାହାଣ୍ଡି, ସୋନପୁର, ଷଢ଼େଇକଳା ଓ ନୟାଗଡ଼।</li>
+          <li><strong>‘ଖ’ ଶ୍ରେଣୀ (୧୨ଟି):</strong> ଆଠଗଡ଼, ବଡ଼ମ୍ବା, ନରସିଂହପୁର, ଆଠମଲ୍ଲିକ, ହିନ୍ଦୋଳ, ଦଶପଲ୍ଲା, ଖଣ୍ଡପଡ଼ା, ଖରସୁଆଁ, ରେଢ଼ାଖୋଲ, ତାଳଚେର, ସମ୍ବଲପୁର ଓ ନୀଳଗିରି।</li>
+          <li><strong>‘ଗ’ ଶ୍ରେଣୀ (୩ଟି):</strong> ପାଲଲହଡ଼ା, ତିଗିରିଆ ଓ ରଣପୁର।</li>
+        </ul>
+      </div>
+      <div class="card coral">
+        <h4>ପ୍ରଜାମାରଣ ପ୍ରଥା ସମୂହ</h4>
+        <ul>
+          <li><strong>ବେଠି:</strong> ରାସ୍ତା ବା ପ୍ରାସାଦ ନିର୍ମାଣ ପାଇଁ ବିନା ପାରିଶ୍ରମିକରେ ଶ୍ରମଦାନ।</li>
+          <li><strong>ବେଗାରୀ:</strong> ରାଜା ବା କର୍ମଚାରୀଙ୍କୁ ବିନା ମଜୁରିରେ ପାଲିଙ୍କି/ସବାରୀରେ ବୋହିବା।</li>
+          <li><strong>ମାଗଣ:</strong> ରାଜକୀୟ ଉତ୍ସବରେ ପ୍ରଜାମାନେ ଅର୍ଥ/ଦ୍ରବ୍ୟ ଉପହାର ଦେବା।</li>
+          <li><strong>ରସଦ ଓ ଭେଟି:</strong> ଶିବିରରେ ମାଗଣା ଖାଦ୍ୟପେୟ ଯୋଗାଣ ଓ ରାଜଉଆସକୁ ଉପହାର ପ୍ରେରଣ।</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout def-box">
+      <strong>ଓଡ଼ିଶା ଗଡ଼ଜାତ ତଦନ୍ତ କମିଟି (୧୯୩୮):</strong><br>
+      ଅଧ୍ୟକ୍ଷ: <strong>ହରେକୃଷ୍ଣ ମହତାବ</strong>, ସମ୍ପାଦକ: <strong>ସାରଙ୍ଗଧର ଦାସ</strong>, ସଭ୍ୟ: ଲାଲମୋହନ ପଟ୍ଟନାୟକ ଓ ବଳବନ୍ତରାୟ ମେହେଟ୍ଟା। ୧୯୩୯ ବିବରଣୀରେ ଗଡ଼ଜାତଗୁଡ଼ିକୁ ଓଡ଼ିଶା ପ୍ରଦେଶ ସହ ମିଶାଇବା ପାଇଁ ପ୍ରଥମ ସୁପାରିସ କରାଗଲା।
+    </div>
+
+    <h3 class="sub-title">ନୀଳଗିରିରୁ ଆରମ୍ଭ ଓ କଟକ ଐତିହାସିକ ସମ୍ମିଳନୀ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ନୀଳଗିରି ଦଖଲ</h4>
+        <p>ନୀଳଗିରି ରାଜାଙ୍କ ଅରାଜକତା ଯୋଗୁଁ <strong>୧୪ ନଭେମ୍ବର ୧୯୪୭ ରେ ନବକୃଷ୍ଣ ଚୌଧୁରୀଙ୍କ ପରିଚାଳନାରେ ଓଡ଼ିଶା ସରକାର ନୀଳଗିରି ଦଖଲ କଲେ</strong>। ଏହା ସମଗ୍ର ଭାରତରେ ଦେଶୀୟ ରାଜ୍ୟ ମିଶ୍ରଣର ପ୍ରଥମ ଘଟଣା ଥିଲା!</p>
+      </div>
+      <div class="card gold">
+        <h4>କଟକ ସମ୍ମିଳନୀ (୧୪ ଡିସେମ୍ବର ୧୯୪୭)</h4>
+        <p>ସର୍ଦ୍ଦାର ପଟେଲ ଓ ଭି.ପି. ମେନନଙ୍କ ଉପସ୍ଥିତିରେ ରାଜାମାନଙ୍କ ସହ ଆଲୋଚନା ପରେ <strong>୧ ଜାନୁଆରୀ ୧୯୪୮ ରୁ ୨୪ଟି ଗଡ଼ଜାତ ଓଡ଼ିଶାରେ ମିଶିଲା</strong>।</p>
+      </div>
+    </div>
+
+    <div class="callout mistake-box">
+      <strong>ମୟୂରଭଞ୍ଜ ଓ ଷଢ଼େଇକଳା-ଖରସୁଆଁ:</strong>
+      <ul>
+        <li><strong>୧ ଜାନୁଆରୀ ୧୯୪୯:</strong> ମୟୂରଭଞ୍ଜ ଓଡ଼ିଶା ସହିତ ମିଶିଲା।</li>
+        <li><strong>୧୮ ମଇ ୧୯୪୮:</strong> ଭୌଗୋଳିକ ଅସଂଲଗ୍ନତା ଦର୍ଶାଇ ଷଢ଼େଇକଳା ଓ ଖରସୁଆଁକୁ ବିହାରରେ ମିଶାଇ ଦିଆଗଲା।</li>
+        <li>ଚୂଡ଼ାନ୍ତ ଭାବେ <strong>୨୪ଟି ଗଡ଼ଜାତ ଓଡ଼ିଶାରେ ରହିଲା</strong> ଏବଂ ବିଧାନସଭା ଆସନ ୬୦ ରୁ ବୃଦ୍ଧି ପାଇ <strong>୯୧ ହେଲା</strong> ତଥା <strong>୧୩ଟି ଜିଲ୍ଲା ଗଠିତ ହେଲା</strong>।</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 3. Chapter 3 Lesson 3: Goa and Puducherry -->
+  <section id="ch3-pat3">
+    <h2 class="sec-title">🏖️ ୩. ତୃତୀୟ ଅଧ୍ୟାୟ (ପାଠ-୩) : ଗୋଆ ଓ ପୁଦୁଚେରୀର ମୁକ୍ତି</h2>
+    <div class="compare">
+      <div class="card coral">
+        <h4>ଗୋଆ, ଦାମନ ଓ ଡିଉ ମୁକ୍ତି (ପର୍ତ୍ତୁଗୀଜ ଶାସନ)</h4>
+        <ul>
+          <li>୧୫୧୦ ମସିହାରୁ ଗୋଆରେ ପର୍ତ୍ତୁଗୀଜ ଶାସନ ଚାଲିଥିଲା।</li>
+          <li>୧୯୫୪ ରେ ‘ଗୋଆର ମିଳିତ ସାମ୍ମୁଖ୍ୟ’ ଦ୍ୱାରା ଦାଦ୍ରା ଏବଂ ‘ଆଜାଦ ଗୋମନ୍ତକ ଦଳ’ ଦ୍ୱାରା ନଗରହାବେଳି ମୁକ୍ତ ହେଲା।</li>
+          <li><strong>ଅପରେସନ ବିଜୟ (୧୮ ଡିସେମ୍ବର ୧୯୬୧):</strong> ଭାରତୀୟ ସେନା ଗୋଆରେ ପ୍ରବେଶ କଲେ। <strong>୧୯ ଡିସେମ୍ବର ୧୯୬୧ ରେ ପର୍ତ୍ତୁଗୀଜ ଗଭର୍ଣ୍ଣର ଶରଣପତ୍ର ସ୍ୱାକ୍ଷର କଲେ</strong>।</li>
+          <li><strong>୩୦ ମଇ ୧୯୮୭:</strong> ଗୋଆ ଭାରତର <strong>୨୫ତମ ରାଜ୍ୟ</strong> ମାନ୍ୟତା ପାଇଲା ଏବଂ ଦାମନ-ଡିଉ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ରହିଲା।</li>
+        </ul>
+      </div>
+      <div class="card blue">
+        <h4>ପୁଦୁଚେରୀ ଓ ଫରାସୀ ଅନ୍ତଃକ୍ଷେତ୍ର</h4>
+        <ul>
+          <li>୫ଟି ଫରାସୀ ଅନ୍ତଃକ୍ଷେତ୍ର: ପୁଦୁଚେରୀ, ଚନ୍ଦରନଗର, କରାଇକଲ, ମାହେ ଓ ୟାନାମ।</li>
+          <li><strong>ଚନ୍ଦରନଗର:</strong> ୧୯ ଜୁନ ୧୯୪୯ ଗଣଭୋଟ ପରେ <strong>୨ ମଇ ୧୯୫୦ ରେ ଭାରତରେ ମିଶିଲା</strong>।</li>
+          <li><strong>ପୁଦୁଚେରୀ ଓ କରାଇକଲ:</strong> ୧୯୫୪ ଅକ୍ଟୋବର ଜନମତ ପରେ <strong>୧ ନଭେମ୍ବର ୧୯୫୪ ରେ ବାସ୍ତବ ଶାସନ ହସ୍ତାନ୍ତର ହେଲା</strong>।</li>
+          <li>୧୯୬୨ ମଇ ରେ ଫରାସୀ ଜାତୀୟ ସଭାର ଅନୁମୋଦନ ପରେ କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ ହେଲା।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Chapter 3 Lesson 4: Post-Independence Economy -->
+  <section id="ch3-pat4">
+    <h2 class="sec-title">📈 ୪. ତୃତୀୟ ଅଧ୍ୟାୟ (ପାଠ-୪) : ସ୍ୱାଧୀନତା ପରବର୍ତ୍ତୀ ଭାରତୀୟ ଅର୍ଥନୀତି</h2>
+    <p>
+      ସ୍ୱାଧୀନତା ପରେ ଭାରତ <strong>‘ମିଶ୍ରିତ ଓ ନିୟନ୍ତ୍ରିତ ଅର୍ଥନୀତି’ (Mixed Economy)</strong> ଗ୍ରହଣ କଲା। <strong>୧୫ ମାର୍ଚ୍ଚ ୧୯୫୦ ରେ ଯୋଜନା ଆୟୋଗ</strong> ଏବଂ <strong>୬ ଅଗଷ୍ଟ ୧୯୫୨ ରେ ଜାତୀୟ ଉନ୍ନୟନ ପରିଷଦ (NDC)</strong> ପ୍ରତିଷ୍ଠିତ ହେଲା।
+    </p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ପଞ୍ଚବାର୍ଷିକ ଯୋଜନା</th>
+            <th>କାର୍ଯ୍ୟକାଳ</th>
+            <th>ମୁଖ୍ୟ ଲକ୍ଷ୍ୟ ଓ ପ୍ରମୁଖ ସଫଳତା</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ପ୍ରଥମ ଯୋଜନା</strong></td>
+            <td>୧୯୫୧ - ୧୯୫୬</td>
+            <td>କୃଷି, ଜଳସେଚନ ଓ ଶକ୍ତି ପ୍ରକଳ୍ପକୁ ପ୍ରାଥମିକତା।</td>
+          </tr>
+          <tr>
+            <td><strong>ଦ୍ୱିତୀୟ ଯୋଜନା</strong></td>
+            <td>୧୯୫୬ - ୧୯୬୧</td>
+            <td><strong>ପ୍ରଫେସର ପି.ସି. ମହାଲାନୋବିସ୍ ମଡେଲ୍;</strong> ସମାଜବାଦୀ ଢାଞ୍ଚା, ଭାରି ଶିଳ୍ପ ଓ ୩ଟି ଇସ୍ପାତ ପ୍ରକଳ୍ପ (ରାଉରକେଲା, ଭିଲାଇ, ଦୁର୍ଗାପୁର)।</td>
+          </tr>
+          <tr>
+            <td><strong>ତୃତୀୟ ଯୋଜନା</strong></td>
+            <td>୧୯୬୧ - ୧୯୬୬</td>
+            <td>ଆତ୍ମନିର୍ଭରଶୀଳତା; ୧୯୬୨ ଚୀନ ଓ ୧୯୬୫ ପାକ୍ ଯୁଦ୍ଧ ଯୋଗୁଁ ବାଧାପ୍ରାପ୍ତ (୧୯୬୬-୬୯: ୩ଟି ବାର୍ଷିକ ଯୋଜନା)।</td>
+          </tr>
+          <tr>
+            <td><strong>ଚତୁର୍ଥ ଯୋଜନା</strong></td>
+            <td>୧୯୬୯ - ୧୯୭୪</td>
+            <td>କୃଷି ଉତ୍ପାଦନ ଓ ସାମାଜିକ ନ୍ୟାୟ; <strong>୧୯୬୯ ରେ ୧୪ଟି ପ୍ରମୁଖ ବ୍ୟାଙ୍କ୍ ଜାତୀୟକରଣ</strong>।</td>
+          </tr>
+          <tr>
+            <td><strong>ପଞ୍ଚମ ଓ ଷଷ୍ଠ</strong></td>
+            <td>୧୯୭୪-୭୯ / ୧୯୮୦-୮୫</td>
+            <td>ଦାରିଦ୍ର୍ୟ ଦୂରୀକରଣ (ଗରିବୀ ହଟାଓ) ଓ ଆତ୍ମନିର୍ଭରଶୀଳତା।</td>
+          </tr>
+          <tr>
+            <td><strong>ସପ୍ତମ ଓ ଅଷ୍ଟମ</strong></td>
+            <td>୧୯୮୫-୯୦ / ୧୯୯୨-୯୭</td>
+            <td>ଜବାହର ରୋଜଗାର ଯୋଜନା; ଅଷ୍ଟମ ଯୋଜନାରେ ବାର୍ଷିକ ଅଭିବୃଦ୍ଧି <strong>୬.୮%</strong> ହାସଲ।</td>
+          </tr>
+          <tr>
+            <td><strong>ନବମ ଓ ଦଶମ</strong></td>
+            <td>୧୯୯୭-୨୦୦୨ / ୨୦୦୨-୦୭</td>
+            <td>ଗ୍ରାମ୍ୟ ଉନ୍ନୟନ, ମୌଳିକ ସେବା ଓ ମହିଳା ସଶକ୍ତୀକରଣ।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout def-box">
+      <strong>୧୯୯୧ ର ଆର୍ଥିକ ଉଦାରୀକରଣ (LPG):</strong><br>
+      ୧୯୯୧ ମସିହାରୁ ଭାରତରେ <strong>ଉଦାରୀକରଣ, ଘରୋଇକରଣ ଓ ଜଗତୀକରଣ (LPG)</strong> ଯୁଗ ଆରମ୍ଭ ହେଲା। ୧୯୯୭ ରେ ଲାଭଜନକ ରାଷ୍ଟ୍ରାୟତ୍ତ ଉଦ୍ୟୋଗଙ୍କୁ <strong>‘ନବରତ୍ନ’ (Navaratna)</strong> ମାନ୍ୟତା ଦିଆଗଲା।
+    </div>
+  </section>
+
+  <!-- 5. Chapter 3 Lesson 5: Science, Nuclear & Space -->
+  <section id="ch3-pat5">
+    <h2 class="sec-title">🚀 ୫. ତୃତୀୟ ଅଧ୍ୟାୟ (ପାଠ-୫) : ବିଜ୍ଞାନ, ପ୍ରତିରକ୍ଷା ଓ ମହାକାଶ ଗବେଷଣା</h2>
+    <p>
+      ଜବାହରଲାଲ ନେହେରୁଙ୍କ ପ୍ରଧାନମନ୍ତ୍ରୀତ୍ୱ କାଳ (୧୯୪୬-୧୯୬୪) କୁ <strong>‘ନେହେରୁ ଯୁଗ’</strong> କୁହାଯାଏ।
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ବୈଷୟିକ ଶିକ୍ଷା ଓ IIT</h4>
+        <ul>
+          <li>୪ ଜାନୁଆରୀ ୧୯୪୭: <strong>ଜାତୀୟ ଭୌତିକ ପରୀକ୍ଷାଗାର (NPL)</strong> ଭିତ୍ତିପ୍ରସ୍ତର।</li>
+          <li>ଆମେରିକାର MIT ଢାଞ୍ଚାରେ <strong>୧୮ ଅଗଷ୍ଟ ୧୯୫୧ ରେ ଖଡ଼ଗପୁର (WB) ଠାରେ ପ୍ରଥମ IIT ପ୍ରତିଷ୍ଠିତ ହେଲା</strong>।</li>
+          <li>୧୯୭୩ ରେ ଭାରତୀୟ ଇସ୍ପାତ ପ୍ରାଧିକରଣ ଲିମିଟେଡ୍ (SAIL) ଗଠିତ ହେଲା।</li>
+        </ul>
+      </div>
+      <div class="card coral">
+        <h4>ପରମାଣୁ ଶକ୍ତି ଗବେଷଣା</h4>
+        <ul>
+          <li>ଅଗଷ୍ଟ ୧୯୪୮: <strong>ପରମାଣୁ ଶକ୍ତି ଆୟୋଗ (AEC)</strong> ଗଠନ; ପ୍ରଥମ ଅଧ୍ୟକ୍ଷ: <strong>ଡକ୍ଟର ହୋମି ଜାହାଙ୍ଗୀର ଭାବା</strong>।</li>
+          <li>୧୯୫୬: ଟ୍ରମ୍ବେଠାରେ <strong>ଭାବା ଆଣବିକ ଗବେଷଣା କେନ୍ଦ୍ର (BARC)</strong> ଓ ପ୍ରଥମ ରିଆକ୍ଟର <strong>‘ଅପ୍‌ସରା’</strong> ପ୍ରତିଷ୍ଠିତ ହେଲା। (ଅନ୍ୟ ରିଆକ୍ଟର: ସର୍କସ, ଜେରଲିନା, ଧ୍ରୁବ, ପୂର୍ଣ୍ଣିମା, କାମିନୀ)।</li>
+          <li><strong>ପରମାଣୁ ପରୀକ୍ଷଣ:</strong> ପ୍ରଥମ ପୋଖରାନ୍: <strong>୧୮ ମଇ ୧୯୭୪</strong> ଏବଂ ଦ୍ୱିତୀୟ ପୋଖରାନ୍: <strong>୧୧ ଓ ୧୩ ମଇ ୧୯୯୮</strong>।</li>
+        </ul>
+      </div>
+      <div class="card green">
+        <h4>ପ୍ରତିରକ୍ଷା ଗବେଷଣା (DRDO - ୧୯୫୮)</h4>
+        <ul>
+          <li><strong>୧୯୮୩:</strong> ଏକୀଭୂତ ନିୟନ୍ତ୍ରିତ କ୍ଷେପଣାସ୍ତ୍ର କାର୍ଯ୍ୟକ୍ରମ (IGMDP) ଆରମ୍ଭ।</li>
+          <li>କ୍ଷେପଣାସ୍ତ୍ର ସମୂହ: <strong>ପୃଥ୍ୱୀ, ଅଗ୍ନି, ତ୍ରିଶୂଳ, ଆକାଶ, ନାଗ, ଧନୁଷ, ଶୌର୍ଯ୍ୟ ଓ ବ୍ରହ୍ମୋସ</strong>।</li>
+          <li><strong>ପରୀକ୍ଷଣ କେନ୍ଦ୍ର:</strong> ଓଡ଼ିଶାର ଚାନ୍ଦିପୁର ଓ ହୁଇଲର ଦ୍ୱୀପ (ଡ. ଅବଦୁଲ କାଲାମ ଦ୍ୱୀପ)।</li>
+        </ul>
+      </div>
+      <div class="card blue">
+        <h4>ମହାକାଶ ଗବେଷଣା (ISRO)</h4>
+        <ul>
+          <li>୧୯୬୨ ରେ କାର୍ଯ୍ୟକ୍ରମ ଆରମ୍ଭ ଓ <strong>୧୯୬୯ ରେ ISRO ପ୍ରତିଷ୍ଠା</strong> (ଜନକ: <strong>ଡକ୍ଟର ବିକ୍ରମ ସରାଭାଇ</strong>)।</li>
+          <li>୧୯୬୩: କେରଳର ଥୁମ୍ବାଠାରେ ରକେଟ୍ ଉତ୍‌କ୍ଷେପଣ କେନ୍ଦ୍ର (TERLS) ଓ ଆନ୍ଧ୍ରର ଶ୍ରୀହରିକୋଟା ସ୍ପେସ୍ ସେଣ୍ଟର।</li>
+          <li><strong>୧୯ ଏପ୍ରିଲ ୧୯୭୫:</strong> ପ୍ରଥମ କୃତ୍ରିମ ଉପଗ୍ରହ <strong>‘ଆର୍ଯ୍ୟଭଟ୍ଟ’</strong> ମହାକାଶକୁ ପ୍ରେରିତ। ୧୯୭୯ ରେ ‘ଭାସ୍କର-୧’ ଏବଂ ୧୯ ଜୁନ ୧୯୮୧ ରେ ପ୍ରଥମ ଯୋଗାଯୋଗ ଉପଗ୍ରହ <strong>‘ଆପଲ୍’ (APPLE)</strong> ପ୍ରେରଣ।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Chapter 4 Lesson 1: Social Development in Odisha -->
+  <section id="ch4-pat1">
+    <h2 class="sec-title">👥 ୬. ଚତୁର୍ଥ ଅଧ୍ୟାୟ (ପାଠ-୧) : ସ୍ୱାଧୀନତୋତ୍ତର ଓଡ଼ିଶାର ସାମାଜିକ ବିକାଶ</h2>
+    <p>
+      ସ୍ୱାଧୀନତା ବେଳେ ଓଡ଼ିଶାର ୧ କୋଟି ୩୭ ଲକ୍ଷ ଜନସଂଖ୍ୟା ମଧ୍ୟରୁ <strong>୩୫ ଲକ୍ଷ ଆଦିବାସୀ (ST)</strong> ଏବଂ <strong>୧୮ ଲକ୍ଷ ୬୦ ହଜାର ଅନୁସୂଚିତ ଜାତି (SC)</strong> ର ଲୋକ ଥିଲେ।
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଆଦିବାସୀ ଓ ଦଳିତ କଲ୍ୟାଣ</h4>
+        <ul>
+          <li><strong>ଜମି ସୁରକ୍ଷା (୧୯୪୭):</strong> ଅଣଆଦିବାସୀଙ୍କ ଦ୍ୱାରା ଜମି ଜବରଦଖଲ ନିଷିଦ୍ଧ ହେଲା ଓ ହସ୍ତାନ୍ତରିତ ଜମି ଫେରସ୍ତ ଦିଆଗଲା।</li>
+          <li><strong>ପ୍ରଥା ଉଚ୍ଛେଦ:</strong> ୧୯୪୮ ରେ ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ନିୟମ ଏବଂ ପରେ ବେଠି, ବେଗାରୀ, ମାଗଣ, ରସଦ ଓ ଭେଟି ବନ୍ଦ ହେଲା। ୧୯୪୯ ରେ <strong>ଅପରାଧୀ ଜନଜାତି ଆଇନ</strong> ରଦ୍ଦ ହେଲା।</li>
+          <li><strong>ମନ୍ଦିର ପ୍ରବେଶ ଆଇନ (୧୯୪୮):</strong> ୧ ମାର୍ଚ୍ଚ ୧୯୪୮ ରେ ସାକ୍ଷୀଗୋପାଳ ମନ୍ଦିରରେ ଦଳିତ ପ୍ରବେଶ ସହ ସମସ୍ତ ମନ୍ଦିର ଉନ୍ମୁକ୍ତ ହେଲା।</li>
+          <li><strong>ସ୍ୱାସ୍ଥ୍ୟ ସେବା:</strong> କୋରାପୁଟର କୋୟା ଆଦିବାସୀଙ୍କ ମଧ୍ୟରେ <strong>‘ୟଜ୍’ (Yaws)</strong> ରୋଗ, ଯୌନରୋଗ ଓ ମ୍ୟାଲେରିଆ ନିରାକରଣ।</li>
+        </ul>
+      </div>
+      <div class="card green">
+        <h4>ମହିଳା, ଶିଶୁ ଓ ସାମାଜିକ ନିରାପତ୍ତା</h4>
+        <ul>
+          <li><strong>ମିଶନ ଶକ୍ତି (୮ ମାର୍ଚ୍ଚ ୨୦୦୧):</strong> ମହିଳା ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ (WSHG) ମାଧ୍ୟମରେ ମହିଳା ସଶକ୍ତୀକରଣ।</li>
+          <li><strong>ମଧୁବାବୁ ପେନ୍‌ସନ ଯୋଜନା (୧ ଜାନୁଆରୀ ୨୦୦୮):</strong> ବୃଦ୍ଧ, ବିଧବା, ଭିନ୍ନକ୍ଷମ ଓ କୁଷ୍ଠରୋଗୀଙ୍କୁ ମାସିକ ଭତ୍ତା।</li>
+          <li><strong>ରାଷ୍ଟ୍ରୀୟ ସ୍ୱାସ୍ଥ୍ୟ ବୀମା (୨୦୦୮):</strong> BPL ପରିବାରକୁ ୩୦ ଟଙ୍କା ପଞ୍ଜୀକରଣରେ ୩୦,୦୦୦ ଟଙ୍କା ଚିକିତ୍ସା ଖର୍ଚ୍ଚ ଭରଣା।</li>
+          <li><strong>୧୦୮ ଆମ୍ବୁଲାନ୍ସ ସେବା:</strong> ୫ ମାର୍ଚ୍ଚ ୨୦୧୩ ରୁ ପ୍ରବର୍ତ୍ତିତ।</li>
+          <li><strong>କର୍ମନିଯୁକ୍ତି:</strong> MGNREGA (୨୦୦୫) ରେ ୧୦୦ ଦିନର କାମ; ଅନ୍ତୋଦୟ ଅନ୍ନ ଯୋଜନା, ଇନ୍ଦିରା ଆବାସ ଓ ମୋ କୁଡ଼ିଆ।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Chapter 4 Lesson 2: Educational Development in Odisha -->
+  <section id="ch4-pat2">
+    <h2 class="sec-title">🎓 ୭. ଚତୁର୍ଥ ଅଧ୍ୟାୟ (ପାଠ-୨) : ଓଡ଼ିଶାରେ ଶିକ୍ଷାର ବିକାଶ</h2>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ବିଦ୍ୟାଳୟ ଶିକ୍ଷା ଓ ମାଧ୍ୟମିକ ବୋର୍ଡ଼</h4>
+        <ul>
+          <li><strong>ମୌଳିକ ଶିକ୍ଷା:</strong> ୧୯୪୭-୪୮ ରେ ଅନୁଗୁଳ ଓ ରସୁଲକୋଣ୍ଡା (ଭଞ୍ଜନଗର) ଠାରେ ଶିକ୍ଷକ ପ୍ରଶିକ୍ଷଣ ବିଦ୍ୟାଳୟ ସ୍ଥାପିତ।</li>
+          <li><strong>ଓଡ଼ିଶା ମାଧ୍ୟମିକ ଶିକ୍ଷା ପରିଷଦ (BSE):</strong> ୧୯୫୩ ଆଇନ ବଳରେ ଗଠିତ।</li>
+          <li><strong>DPEP (୧୯୯୬), SSA ଓ RMSA (୨୦୦୯-୧୦):</strong> ୧୯୯୫ ରୁ ମଧ୍ୟାହ୍ନ ଭୋଜନ (Mid-day Meal)।</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <h4>ବିଶ୍ୱବିଦ୍ୟାଳୟ ଓ ବୈଷୟିକ ଶିକ୍ଷା</h4>
+        <ul>
+          <li><strong>ବିଶ୍ୱବିଦ୍ୟାଳୟ:</strong> ଉତ୍କଳ (୧୯୪୩), ସମ୍ବଲପୁର ଓ ବ୍ରହ୍ମପୁର (୧୯୬୭), ଶ୍ରୀଜଗନ୍ନାଥ ସଂସ୍କୃତ (୧୯୮୧), ଫକୀରମୋହନ ଓ ଉତ୍ତର ଓଡ଼ିଶା (୧୯୯୯), ଉତ୍କଳ ସଂସ୍କୃତି (୨୦୦୦), BPUT (୨୦୦୨), CUO କୋରାପୁଟ।</li>
+          <li><strong>ଇଞ୍ଜିନିୟରିଂ:</strong> VSSUT ବୁର୍ଲା (୧୯୫୬), NIT ରାଉରକେଲା (୧୯୬୧), CET ଭୁବନେଶ୍ୱର, IGIT ସାରଙ୍ଗ, IIT, IIIT, NISER।</li>
+          <li><strong>ମେଡିକାଲ:</strong> SCB କଟକ (୧୯୪୯-୫୦), VSS ବୁର୍ଲା (୧୯୫୯), MKCG ବ୍ରହ୍ମପୁର, AIIMS ଭୁବନେଶ୍ୱର (୨୦୧୨), SVNIRTAR ଓଲଟପୁର।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Chapter 4 Lesson 3: Agriculture & Irrigation in Odisha -->
+  <section id="ch4-pat3">
+    <h2 class="sec-title">🌾 ୮. ଚତୁର୍ଥ ଅଧ୍ୟାୟ (ପାଠ-୩) : କୃଷି ଓ ଜଳସେଚନର ବିକାଶ</h2>
+    <div class="compare">
+      <div class="card gold">
+        <h4>ଭୂମି ସଂସ୍କାର ଓ ସମବାୟ ବ୍ୟାଙ୍କ୍</h4>
+        <ul>
+          <li>ଡ. ହରେକୃଷ୍ଣ ମହତାବଙ୍କ ଦ୍ୱାରା <strong>ଜମିଦାରୀ ପ୍ରଥା ଉଚ୍ଛେଦ ବିଧେୟକ</strong> ଆଗତ ଓ ଆଚାର୍ଯ୍ୟ ବିନୋବା ଭାବେଙ୍କ <strong>ଭୂଦାନ ଆନ୍ଦୋଳନ (୧୯୫୫)</strong>।</li>
+          <li><strong>୧୯୪୮:</strong> ଓଡ଼ିଶା ରାଜ୍ୟ ସମବାୟ ବ୍ୟାଙ୍କ (OSCB) ପ୍ରତିଷ୍ଠା ଓ ବିପର୍ଯ୍ୟୟ ବେଳେ ‘ତକାଭି’ ଋଣ।</li>
+          <li><strong>ଟେଷ୍ଟ ରିଲିଫ୍ (Test Relief):</strong> ବିପର୍ଯ୍ୟୟ ବେଳେ ଶ୍ରମଦାନ ବଦଳରେ ଅର୍ଥ ବା ଖାଦ୍ୟଶସ୍ୟ ଯୋଗାଣ।</li>
+        </ul>
+      </div>
+      <div class="card teal">
+        <h4>ହୀରାକୁଦ ଓ ଗବେଷଣା କେନ୍ଦ୍ର</h4>
+        <ul>
+          <li><strong>ହୀରାକୁଦ ଡ୍ୟାମ୍ (୧୯୪୮-୧୯୫୬/୫୭):</strong> ବନ୍ୟା ନିୟନ୍ତ୍ରଣ, ଜଳସେଚନ ଓ ଜଳବିଦ୍ୟୁତ୍ ଉତ୍ପାଦନ।</li>
+          <li>ମାଛକୁଣ୍ଡ, ଅପର କୋଲାବ, ଇନ୍ଦ୍ରାବତୀ, ରେଙ୍ଗାଲି ଓ ଭୀମକୁଣ୍ଡ ପ୍ରକଳ୍ପ।</li>
+          <li><strong>କେନ୍ଦ୍ରୀୟ ଧାନ ଗବେଷଣା କେନ୍ଦ୍ର (CRRI):</strong> କଟକ।</li>
+          <li><strong>ମଧୁରଜଳ ମତ୍ସ୍ୟ ଗବେଷଣା କେନ୍ଦ୍ର (CIFA):</strong> କୌଶଲ୍ୟାଗଙ୍ଗ (୧୯୭୭)।</li>
+          <li>OUAT (୧୯୬୨), ସାକ୍ଷୀଗୋପାଳ ନାରିକେଳ ଗବେଷଣା, ଅନୁଗୁଳ/ପଟ୍ଟାଙ୍ଗୀ/ଜି.ଉଦୟଗିରି ଫଳଚାଷ କେନ୍ଦ୍ର।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Chapter 4 Lesson 4: Industrialization in Odisha -->
+  <section id="ch4-pat4">
+    <h2 class="sec-title">🏭 ୯. ଚତୁର୍ଥ ଅଧ୍ୟାୟ (ପାଠ-୪) : ଶିଳ୍ପର ବିକାଶ</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ପ୍ରମୁଖ ଶିଳ୍ପ ପ୍ରକଳ୍ପ</th>
+            <th>ଅବସ୍ଥିତି (ସ୍ଥାନ)</th>
+            <th>ସହଯୋଗ / ବିଶେଷ ସୂଚନା</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ରାଉରକେଲା ଇସ୍ପାତ କାରଖାନା (RSP)</strong></td>
+            <td>ରାଉରକେଲା (ସୁନ୍ଦରଗଡ଼)</td>
+            <td>ପଶ୍ଚିମ ଜର୍ମାନୀ ସହାୟତାରେ ପ୍ରତିଷ୍ଠିତ ଇସ୍ପାତ ପ୍ରକଳ୍ପ</td>
+          </tr>
+          <tr>
+            <td><strong>ନାଲ୍‌କୋ (NALCO)</strong></td>
+            <td>ଦାମନଯୋଡ଼ି ଓ ଅନୁଗୁଳ</td>
+            <td>ପଞ୍ଚପଟ୍ଟମାଳୀ ବକ୍ସାଇଟ୍ ଖଣି ଆଧାରିତ; ମୁଖ୍ୟାଳୟ ଭୁବନେଶ୍ୱର (୧୯୮୧)</td>
+          </tr>
+          <tr>
+            <td><strong>ମିଗ୍ (MIG) ବିମାନ ଇଞ୍ଜିନ କାରଖାନା (HAL)</strong></td>
+            <td>ସୁନାବେଡ଼ା (କୋରାପୁଟ)</td>
+            <td>ସୋଭିଏତ୍ ଋଷିଆ ସହଯୋଗରେ ପ୍ରତିଷ୍ଠିତ</td>
+          </tr>
+          <tr>
+            <td><strong>ସାର କାରଖାନା (FCI ଓ PPL)</strong></td>
+            <td>ତାଳଚେର (୧୯୭୧) ଓ ପାରାଦୀପ (୧୯୮୧)</td>
+            <td>କୋଇଲା ଓ ଫସଫେଟ୍ ଭିତ୍ତିକ ସାର କାରଖାନା</td>
+          </tr>
+          <tr>
+            <td><strong>ପରମାଣୁ ଶକ୍ତି ପ୍ରକଳ୍ପ</strong></td>
+            <td>ଛତ୍ରପୁର (IRE) ଓ ତାଳଚେର</td>
+            <td>ଛତ୍ରପୁରରେ ବିରଳ ମୃତ୍ତିକା ଓ ତାଳଚେରରେ ଭାରୀଜଳ ପ୍ରକଳ୍ପ</td>
+          </tr>
+          <tr>
+            <td><strong>୨୦୦୭ ନୂତନ ଶିଳ୍ପନୀତି ଓ IT</strong></td>
+            <td>କଳିଙ୍ଗନଗର, ଇନ୍‌ଫୋସିଟି ଭୁବନେଶ୍ୱର</td>
+            <td>ଟାଟା ଷ୍ଟିଲ୍, ଜିନ୍ଦଲ, ପାରାଦୀପ ତୈଳ ବିଶୋଧନାଗାର, TCS, Infosys</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 10. Chapter 4 Lesson 5: Infrastructure in Odisha -->
+  <section id="ch4-pat5">
+    <h2 class="sec-title">🏗️ ୧୦. ଚତୁର୍ଥ ଅଧ୍ୟାୟ (ପାଠ-୫) : ଆଧାରିକ ଭିତ୍ତିଭୂମିର ବିକାଶ</h2>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ପରିବହନ (ରାଜପଥ, ରେଳ ଓ ବନ୍ଦର)</h4>
+        <ul>
+          <li><strong>ଜାତୀୟ ରାଜପଥ:</strong> ଓଡ଼ିଶାରେ ୧୫ଟି ଜାତୀୟ ରାଜପଥ (୩,୬୫୫ କିମି); ପ୍ରମୁଖ: NH-5, NH-5A, NH-6, NH-42, NH-203।</li>
+          <li><strong>ପୂର୍ବତଟ ରେଳପଥ (ECoR):</strong> ୧୯୯୬ ରେ ଶୁଭାରମ୍ଭ, <strong>୧ ଏପ୍ରିଲ ୨୦୦୩ ରୁ ଭୁବନେଶ୍ୱର ମୁଖ୍ୟ କାର୍ଯ୍ୟାଳୟ ସହ କାର୍ଯ୍ୟକ୍ଷମ</strong>।</li>
+          <li><strong>ବନ୍ଦର:</strong> ପାରାଦୀପ (ଗଭୀର ବନ୍ଦର - ୧୯୭୫ ରେ ରେଳ ସଂଯୋଗ), ଗୋପାଳପୁର (୧୯୮୭) ଓ ଧାମରା।</li>
+          <li><strong>ବିମାନ ବନ୍ଦର:</strong> ଭୁବନେଶ୍ୱର ବିଜୁ ପଟ୍ଟନାୟକ ବିମାନବନ୍ଦର (୧୯୯୫ ରୁ ଏୟାର କାର୍ଗୋ)।</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <h4>ବୈଦ୍ୟୁତିକ ସଂସ୍କାର ଆଇନ ୧୯୯୫</h4>
+        <p><strong>୧ ଏପ୍ରିଲ ୧୯୯୬ ରୁ କାର୍ଯ୍ୟକାରୀ:</strong> OSEB ଭାଙ୍ଗି ନୂଆ ସଂସ୍ଥା ଗଠନ:</p>
+        <ul>
+          <li><strong>GRIDCO:</strong> ବିଦ୍ୟୁତ୍ ସରବରାହ ଓ ପରିବହନ</li>
+          <li><strong>OHPC:</strong> ଜଳବିଦ୍ୟୁତ୍ କେନ୍ଦ୍ର ପରିଚାଳନା (୧୯୭୬ ମେଗାୱାଟ)</li>
+          <li><strong>OPGC:</strong> ତାପଜ ବିଦ୍ୟୁତ୍ (ଇବ୍ ଓ ତାଳଚେର - ୮୮୦ ମେଗାୱାଟ)</li>
+          <li>ବିତରଣ: WESCO, NESCO, SOUTHCO ଓ CESU</li>
+          <li><strong>ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି (୨୦୦୭):</strong> &lt;୧୦୦ ଲୋକ ଥିବା ଗାଁକୁ ବିଦ୍ୟୁତୀକରଣ।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. Summary Table -->
+  <section id="summary-table">
+    <h2 class="sec-title">📅 ୧୧. ପ୍ରମୁଖ ଐତିହାସିକ ଘଟଣାବଳୀ ଓ ତାରିଖ ସାରଣୀ</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ତାରିଖ / ବର୍ଷ</th>
+            <th>ଐତିହାସିକ ଘଟଣା / ମାଇଲଖୁଣ୍ଟ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>୨୭ ଜୁନ୍ ୧୯୪୭</strong></td><td>ଦେଶୀୟ ରାଜ୍ୟ ବିଭାଗ ଗଠନ (ସର୍ଦ୍ଦାର ପଟେଲ ଓ ଭି.ପି. ମେନନ)।</td></tr>
+          <tr><td><strong>୧୪ ନଭେମ୍ବର ୧୯୪୭</strong></td><td>ଓଡ଼ିଶା ସରକାରଙ୍କ ଦ୍ୱାରା ନୀଳଗିରି ଦଖଲ (ଭାରତରେ ଦେଶୀୟ ରାଜ୍ୟ ମିଶ୍ରଣର ଆରମ୍ଭ)।</td></tr>
+          <tr><td><strong>୧ ଜାନୁଆରୀ ୧୯୪୮</strong></td><td>୨୪ଟି ଗଡ଼ଜାତ ରାଜ୍ୟ ଆନୁଷ୍ଠାନିକ ଭାବେ ଓଡ଼ିଶା ପ୍ରଦେଶ ସହ ମିଶିଲା।</td></tr>
+          <tr><td><strong>୧ ମାର୍ଚ୍ଚ ୧୯୪୮</strong></td><td>ସାକ୍ଷୀଗୋପାଳ ମନ୍ଦିରରେ ଦଳିତ ଭକ୍ତଙ୍କ ପ୍ରବେଶ।</td></tr>
+          <tr><td><strong>୧୩-୧୮ ସେପ୍ଟେମ୍ବର ୧୯୪୮</strong></td><td>ହାଇଦ୍ରାବାଦରେ ‘ଅପରେସନ ପୋଲୋ’ ସାମରିକ କାର୍ଯ୍ୟାନୁଷ୍ଠାନ।</td></tr>
+          <tr><td><strong>୧ ଜାନୁଆରୀ ୧୯୪୯</strong></td><td>ମୟୂରଭଞ୍ଜ ଓଡ଼ିଶା ସହିତ ମିଶିଲା।</td></tr>
+          <tr><td><strong>୧୫ ମାର୍ଚ୍ଚ ୧୯୫୦</strong></td><td>ଭାରତରେ ଯୋଜନା ଆୟୋଗ (Planning Commission) ପ୍ରତିଷ୍ଠା।</td></tr>
+          <tr><td><strong>୧୮ ଅଗଷ୍ଟ ୧୯୫୧</strong></td><td>ଖଡ଼ଗପୁରଠାରେ ଭାରତର ପ୍ରଥମ IIT ପ୍ରତିଷ୍ଠା।</td></tr>
+          <tr><td><strong>୧୯ ଡିସେମ୍ବର ୧୯୬୧</strong></td><td>‘ଅପରେସନ ବିଜୟ’ ଦ୍ୱାରା ଗୋଆ ପର୍ତ୍ତୁଗୀଜ ଶାସନରୁ ମୁକ୍ତ ହେଲା।</td></tr>
+          <tr><td><strong>୧୮ ମଇ ୧୯୭୪</strong></td><td>ପୋଖରାନ୍‌ରେ ଭାରତର ପ୍ରଥମ ପରମାଣୁ ବୋମା ବିସ୍ଫୋରଣ ପରୀକ୍ଷଣ।</td></tr>
+          <tr><td><strong>୧୯ ଏପ୍ରିଲ ୧୯୭୫</strong></td><td>ପ୍ରଥମ କୃତ୍ରିମ ଉପଗ୍ରହ ‘ଆର୍ଯ୍ୟଭଟ୍ଟ’ ମହାକାଶକୁ ପ୍ରେରିତ।</td></tr>
+          <tr><td><strong>୩୦ ମଇ ୧୯୮୭</strong></td><td>ଗୋଆକୁ ଭାରତର ୨୫ତମ ପୂର୍ଣ୍ଣାଙ୍ଗ ରାଜ୍ୟ ମାନ୍ୟତା ପ୍ରଦାନ।</td></tr>
+          <tr><td><strong>୧ ଏପ୍ରିଲ ୨୦୦୩</strong></td><td>ପୂର୍ବତଟ ରେଳପଥ (ECoR) ଭୁବନେଶ୍ୱର ମୁଖ୍ୟାଳୟ ସହ କାର୍ଯ୍ୟକ୍ଷମ ହେଲା।</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 12. Exercise & Assessment -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ୧୨. ଅଧ୍ୟାୟ ପ୍ରଶ୍ନୋତ୍ତର (Self-Assessment)</h2>
+
+    <h3 class="sub-title">୧. ସଠିକ୍ ବିକଳ୍ପ ବାଛି ଲେଖ:</h3>
+    <div class="compare">
+      <div class="card">
+        <p><strong>(କ) କେଉଁ ସ୍ଥାନରୁ ଭାରତରେ ଦେଶୀୟ ରାଜ୍ୟ ମିଶ୍ରଣ ପ୍ରକ୍ରିୟା ଆରମ୍ଭ ହୋଇଥିଲା ?</strong></p>
+        <p>(i) ମୟୂରଭଞ୍ଜ (ii) ନୀଳଗିରି (iii) ଜୁନାଗଡ଼ (iv) କଳାହାଣ୍ଡି</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: (ii) ନୀଳଗିରି</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଖ) ଗୋଆ କେବେ ପର୍ତ୍ତୁଗୀଜ ଶାସନରୁ ମୁକ୍ତ ହେଲା ?</strong></p>
+        <p>(i) ୧୫ ଅଗଷ୍ଟ ୧୯୪୭ (ii) ୧୯ ଡିସେମ୍ବର ୧୯୬୧ (iii) ୩୦ ମଇ ୧୯୮୭</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: (ii) ୧୯ ଡିସେମ୍ବର ୧୯୬୧</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଗ) ଓଡ଼ିଶା ରାଜ୍ୟ ସମବାୟ ବ୍ୟାଙ୍କ୍ କେବେ ପ୍ରତିଷ୍ଠିତ ହୋଇଥିଲା ?</strong></p>
+        <p>(i) ୧୯୪୭ (ii) ୧୯୪୮ (iii) ୧୯୪୯ (iv) ୧୯୫୦</p>
+        <p style="color: var(--gold); font-weight: 600;">👉 ଉତ୍ତର: (ii) ୧୯୪୮</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଘ) ପୂର୍ବତଟ ରେଳପଥ କେବେଠାରୁ ବିଧିବଦ୍ଧ କାର୍ଯ୍ୟକ୍ଷମ ହେଲା ?</strong></p>
+        <p>(i) ୧୯୯୬ (ii) ୧୯୯୮ (iii) ୨୦୦୩ ଏପ୍ରିଲ୍ (iv) ୨୦୦୫</p>
+        <p style="color: var(--gold); font-weight: 600;">👉 ଉତ୍ତର: (iii) ୨୦୦୩ ଏପ୍ରିଲ୍</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">୨. ସଂକ୍ଷିପ୍ତ ଟିପ୍ପଣୀ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଟେଷ୍ଟ୍ ରିଲିଫ୍ (Test Relief)</h4>
+        <p>ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ ସମୟରେ ଗ୍ରାମାଞ୍ଚଳ ଲୋକଙ୍କୁ ମାଗଣା ରିଲିଫ୍ ବଦଳରେ ରାସ୍ତାଘାଟ ଓ ପୋଖରୀ ଖନନ ଭଳି କାମ ଯୋଗାଇ ମଜୁରି ବା ଖାଦ୍ୟଶସ୍ୟ ଦେବାର ସରକାରୀ ବ୍ୟବସ୍ଥା ।</p>
+      </div>
+      <div class="card gold">
+        <h4>ମିଶନ ଶକ୍ତି (Mission Shakti)</h4>
+        <p>୮ ମାର୍ଚ୍ଚ ୨୦୦୧ ରୁ ପ୍ରବର୍ତ୍ତିତ ମହିଳା ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ (WSHG) ମାଧ୍ୟମରେ ମହିଳାମାନଙ୍କୁ ସାମାଜିକ ଓ ଆର୍ଥିକ ଭାବେ ସଶକ୍ତ ଓ ଆତ୍ମନିର୍ଭରଶୀଳ କରାଇବାର ଯୋଜନା ।</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>ଦଶମ ଶ୍ରେଣୀ ଇତିହାସ • ତୃତୀୟ ଓ ଚତୁର୍ଥ ଅଧ୍ୟାୟ: ସ୍ୱାଧୀନତୋତ୍ତର ଭାରତ ଓ ଓଡ଼ିଶାର ବିକାଶ | Digital Learning Note System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
 {
 "title": "ଗାନ୍ଧୀ ଯୁଗର ଆରମ୍ଭ",
 "content": "ଗାନ୍ଧୀ ଯୁଗ ଭାରତୀୟ ସ୍ଵାଧୀନତା ସଂଗ୍ରାମର ଏକ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ସମୟ। ଏହି ଯୁଗ 1920 ମସିହାରୁ 1947 ମସିହା ପର୍ଯ୍ୟନ୍ତ ବ୍ୟାପିଥିଲା। ଏହି ସମୟରେ ମହାତ୍ମା ଗାନ୍ଧୀଙ୍କ ନେତୃତ୍ୱରେ ଅହିଂସା ଏବଂ ସତ୍ୟାଗ୍ରହ ମାଧ୍ୟମରେ ସ୍ଵାଧୀନତା ଆନ୍ଦୋଳନ ପରିଚାଳିତ ହୋଇଥିଲା। ଏହି ଯୁଗଟି ଭାରତର ଇତିହାସରେ ଏକ ନୂଆ ମୋଡ଼ ଆଣିଥିଲା।"
