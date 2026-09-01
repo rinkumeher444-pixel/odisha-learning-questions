@@ -1,1 +1,764 @@
 
+<!DOCTYPE html>
+<html lang="or">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ - ଦ୍ୱିତୀୟ ଅଧ୍ୟାୟ: ଅରଣ୍ୟ ସମ୍ବଳ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(16, 185, 129, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(245, 158, 11, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Sans Oriya', 'Outfit', sans-serif;
+      line-height: 1.75;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1060px;
+      margin: 0 auto;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.25;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--green-glow);
+      color: var(--green);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #a7f3d0, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 720px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--green);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.15rem;
+      color: #e2e8f0;
+      margin: 22px 0 12px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 0.98rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.05rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 16px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#f59e0b" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#10b981"/>
+      <circle cx="100" cy="35" r="5" fill="#f59e0b"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">🌲 ଦଶମ ଶ୍ରେଣୀ • ଭୂଗୋଳ • ଦ୍ୱିତୀୟ ଅଧ୍ୟାୟ (ଜୈବ ସମ୍ବଳ)</div>
+    <h1>ପ୍ରଥମ ପାଠ : ଅରଣ୍ୟ ସମ୍ବଳ (Forest Resources)</h1>
+    <p>ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ ଓ ଜୈବମଣ୍ଡଳ, ଅରଣ୍ୟର ପ୍ରଶାସନିକ ଓ ସାମ୍ବିଧାନିକ ଶ୍ରେଣୀବିଭାଗ, ଭାରତର ପ୍ରମୁଖ ୯ ପ୍ରକାର ଅରଣ୍ୟ, ଉପକାରିତା ଏବଂ ସଂରକ୍ଷଣ ପଦ୍ଧତି।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#intro">ଜୈବମଣ୍ଡଳ ଓ ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ</a>
+    <a href="#classification">ଅରଣ୍ୟ ଶ୍ରେଣୀବିଭାଗ</a>
+    <a href="#forest-types">୯ ପ୍ରକାର ଅରଣ୍ୟ</a>
+    <a href="#special-species">ବିଶେଷ ଉଦ୍ଭିଦ ଓ ୟିଉ</a>
+    <a href="#uses">ଅରଣ୍ୟର ଉପକାରିତା</a>
+    <a href="#conservation">ଅରଣ୍ୟ ସଂରକ୍ଷଣ</a>
+    <a href="#exercises">ପ୍ରଶ୍ନୋତ୍ତର</a>
+  </nav>
+
+  <!-- 1. Biosphere & Natural Vegetation -->
+  <section id="intro">
+    <h2 class="sec-title">🌿 ୧. ଜୈବମଣ୍ଡଳ, ପରିସଂସ୍ଥା ଓ ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ</h2>
+    <p>
+      କୌଣସି ଅଞ୍ଚଳରେ ମନୁଷ୍ୟର ବିନା ସାହାଯ୍ୟରେ ଆପେ ଆପେ ଜନ୍ମି ବୃଦ୍ଧି ପାଉଥିବା ନାନା ପ୍ରକାର ବୃକ୍ଷ, ଲତା, ତୃଣ ଓ ଗୁଳ୍ମକୁ <strong>ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ</strong> କୁହାଯାଏ[span_0](start_span)[span_0](end_span)। ଜଳବାୟୁ, ମୃତ୍ତିକା ଓ ଉଦ୍ଭିଦ ମଧ୍ୟରେ ଘନିଷ୍ଠ ସମ୍ପର୍କ ରହିଛି[span_1](start_span)[span_1](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>ଜୈବମଣ୍ଡଳ (Biosphere):</strong><br>
+      ଭୂ-ମଣ୍ଡଳର ତିନି ମୁଖ୍ୟ ମଣ୍ଡଳ (ଅଶ୍ମମଣ୍ଡଳ, ବାରିମଣ୍ଡଳ ଓ ବାୟୁମଣ୍ଡଳ)ର ମିଳନ ସ୍ଥଳରେ ଥିବା ସଂକୀର୍ଣ୍ଣ ମଣ୍ଡଳ, ଯେଉଁଠାରେ ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ, ବନ୍ୟପ୍ରାଣୀ, ମନୁଷ୍ୟ ଓ ଅଣୁଜୀବ ପାରସ୍ପରିକ କ୍ରିୟା ସାଧନ କରି ବାସ କରନ୍ତି, ତାକୁ <strong>ଜୈବମଣ୍ଡଳ</strong> କୁହାଯାଏ[span_2](start_span)[span_2](end_span)।
+    </div>
+
+    <!-- Biosphere Diagram -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 460 260" width="420" height="240" xmlns="http://www.w3.org/2000/svg">
+          <!-- Atmosphere Circle -->
+          <circle cx="230" cy="95" r="75" fill="rgba(56, 189, 248, 0.15)" stroke="#38bdf8" stroke-width="2"/>
+          <text x="230" y="55" fill="#38bdf8" font-size="13" font-weight="bold" text-anchor="middle">ବାୟୁମଣ୍ଡଳ (୧୦,୦୦୦ ମି.)</text>
+
+          <!-- Hydrosphere Circle -->
+          <circle cx="165" cy="165" r="75" fill="rgba(20, 184, 166, 0.15)" stroke="#14b8a6" stroke-width="2"/>
+          <text x="120" y="210" fill="#14b8a6" font-size="12" font-weight="bold" text-anchor="middle">ବାରିମଣ୍ଡଳ (୧୧,୦୦୦ ମି.)</text>
+
+          <!-- Lithosphere Circle -->
+          <circle cx="295" cy="165" r="75" fill="rgba(245, 158, 11, 0.15)" stroke="#f59e0b" stroke-width="2"/>
+          <text x="340" y="210" fill="#f59e0b" font-size="12" font-weight="bold" text-anchor="middle">ଅଶ୍ମମଣ୍ଡଳ (୨୫୦ ମି.)</text>
+
+          <!-- Biosphere Center Intersection -->
+          <circle cx="230" cy="145" r="32" fill="#10b981" fill-opacity="0.3" stroke="#10b981" stroke-width="3"/>
+          <text x="230" y="142" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">ଜୈବ ମଣ୍ଡଳ</text>
+          <text x="230" y="158" fill="#a7f3d0" font-size="10" font-weight="bold" text-anchor="middle">(Biosphere)</text>
+        </svg>
+        <figcaption>ଚିତ୍ର: ବାୟୁମଣ୍ଡଳ, ବାରିମଣ୍ଡଳ ଓ ଅଶ୍ମମଣ୍ଡଳର ସଂଯୋଗସ୍ଥଳରେ ‘ଜୈବମଣ୍ଡଳ’</figcaption>
+      </figure>
+    </div>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଜୈବମଣ୍ଡଳର ପରିସୀମା</h4>
+        <ul>
+          <li><strong>ବାୟୁମଣ୍ଡଳରେ:</strong> ୧୦,୦୦୦ ମିଟର ଉଚ୍ଚତା ପର୍ଯ୍ୟନ୍ତ[span_3](start_span)[span_3](end_span)</li>
+          <li><strong>ବାରିମଣ୍ଡଳ (ମହାସାଗର)ରେ:</strong> ୧୧,୦୦୦ ମିଟର ଗଭୀରତା ପର୍ଯ୍ୟନ୍ତ[span_4](start_span)[span_4](end_span)</li>
+          <li><strong>ଅଶ୍ମମଣ୍ଡଳ (ଭୂ-ପୃଷ୍ଠ ନିମ୍ନ)ରେ:</strong> ୨୫୦ ମିଟର ଗଭୀରତା ପର୍ଯ୍ୟନ୍ତ[span_5](start_span)[span_5](end_span)</li>
+        </ul>
+      </div>
+      <div class="card green">
+        <h4>ପରିସଂସ୍ଥା (Ecosystem)</h4>
+        <p>ଜୈବମଣ୍ଡଳରେ ଥିବା ସମସ୍ତ ଉଦ୍ଭିଦ, ପ୍ରାଣୀ ଓ ଅଣୁଜୀବ ବଞ୍ଚି ରହିବା ପାଇଁ ପରସ୍ପର ସହିତ ସମ୍ପୃକ୍ତ ଓ ନିର୍ଭରଶୀଳ ରହି ପାରସ୍ପରିକ ସହାବସ୍ଥାନ କରିବା ବ୍ୟବସ୍ଥାକୁ <strong>ପରିସଂସ୍ଥା</strong> କୁହାଯାଏ[span_6](start_span)[span_6](end_span) ।</p>
+      </div>
+    </div>
+
+    <div class="callout example-box">
+      <strong>ଭାରତର ଅରଣ୍ୟ ସମ୍ବନ୍ଧୀୟ କେତେକ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ତଥ୍ୟ:</strong>
+      <ul>
+        <li>ପ୍ରାୟ ୪-୫ ହଜାର ବର୍ଷ ପୂର୍ବେ ଭାରତ ଘଞ୍ଚ ଅରଣ୍ୟରେ ପରିପୂର୍ଣ୍ଣ ଥିଲା; ବର୍ତ୍ତମାନ ଏହା ସମୁଦାୟ ଆୟତନର ମାତ୍ର <strong>୨୨.୫ ଶତାଂଶ</strong> ରେ ସୀମିତ ରହିଛି[span_7](start_span)[span_7](end_span)।</li>
+        <li><strong>ବରଗଛ (Banyan Tree)</strong> କୁ ଭାରତର ଜାତୀୟ ବୃକ୍ଷ ଭାବେ ମାନ୍ୟତା ଦିଆଯାଇଛି[span_8](start_span)[span_8](end_span)।</li>
+        <li>ଅରଣ୍ୟ ଓ ବୃକ୍ଷ ଆଚ୍ଛାଦନ ଦୃଷ୍ଟିରୁ ପୃଥିବୀରେ ଭାରତର ସ୍ଥାନ <strong>ଦଶମ (10th)</strong>[span_9](start_span)[span_9](end_span)।</li>
+        <li>ଭାରତର ଅରଣ୍ୟ ସମଗ୍ର ପୃଥିବୀର ୧୭% ମନୁଷ୍ୟ ଓ ୧୮% ପ୍ରାଣୀଙ୍କର ଜୀବନଧାରଣ ଆବଶ୍ୟକତା ପୂରଣ କରେ[span_10](start_span)[span_10](end_span)।</li>
+        <li><strong>ଅରଣ୍ୟ ସ୍ଥିତି:</strong> ମଧ୍ୟପ୍ରଦେଶ, ଅରୁଣାଚଳ ପ୍ରଦେଶ ଓ ଛତିଶଗଡ଼ରେ ସର୍ବାଧିକ ଅରଣ୍ୟ ରହିଛି[span_11](start_span)[span_11](end_span); ଶତକଡ଼ା ଆୟତନ ଦୃଷ୍ଟିରୁ ମିଜୋରାମ, ନାଗାଲ୍ୟାଣ୍ଡ ଓ ଆଣ୍ଡାମାନ ଆଗରେ[span_12](start_span)[span_12](end_span)। <strong>ହରିୟାଣାରେ ସର୍ବନିମ୍ନ ଅରଣ୍ୟ</strong> ରହିଛି[span_13](start_span)[span_13](end_span)।</li>
+      </ul>
+    </div>
+
+    <h3 class="sub-title">ଦେଶଜ ଓ ବିଦେଶଜ ଉଦ୍ଭିଦ:</h3>
+    <div class="compare">
+      <div class="card gold">
+        <h4>ଦେଶଜ ଉଦ୍ଭିଦ (Endemic Vegetation)</h4>
+        <p>ପ୍ରାଚୀନ କାଳରୁ ପ୍ରାକୃତିକ ଭାବରେ ଭାରତୀୟ ଭୂଖଣ୍ଡରେ ହିଁ ସୃଷ୍ଟି ହୋଇ ବଞ୍ଚି ରହିଆସିଥିବା ଉଦ୍ଭିଦ[span_14](start_span)[span_14](end_span) ।</p>
+      </div>
+      <div class="card coral">
+        <h4>ବିଦେଶଜ ଉଦ୍ଭିଦ (Exotic Vegetation)</h4>
+        <p>ସମୟକ୍ରମେ ଅନ୍ୟ ଦେଶରୁ ଭାରତକୁ ଆସିଥିବା ଉଦ୍ଭିଦ[span_15](start_span)[span_15](end_span):</p>
+        <ul>
+          <li><strong>ବୋରିୟଲ ଉଦ୍ଭିଦ:</strong> ଚୀନ୍ ଓ ମଧ୍ୟ ଏସିଆରୁ ଆସିଥିବା ସୂଚ୍ୟଗ୍ରପତ୍ରୀ ସରଳବର୍ଗୀୟ ବୃକ୍ଷ (ହିମାଳୟରେ ଦେଖାଯାଏ)[span_16](start_span)[span_16](end_span)।</li>
+          <li><strong>ଉଷ୍ଣକ୍ରାନ୍ତୀୟ ଉଦ୍ଭିଦ:</strong> ଆଫ୍ରିକା, ଇଣ୍ଡୋନେସିଆ ଓ ମାଲୟେସିଆରୁ ଆସିଥିବା ଉଦ୍ଭିଦ[span_17](start_span)[span_17](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Classification of Forests -->
+  <section id="classification">
+    <h2 class="sec-title">🗂️ ୨. ଅରଣ୍ୟର ପ୍ରଶାସନିକ ଓ ସାମ୍ବିଧାନିକ ଶ୍ରେଣୀବିଭାଗ</h2>
+
+    <h3 class="sub-title">(କ) ପ୍ରଶାସନିକ ଦୃଷ୍ଟିକୋଣରୁ ଶ୍ରେଣୀବିଭାଗ:</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ଅରଣ୍ୟର ପ୍ରକାର</th>
+            <th>ପରିଚାଳନା ଓ ନିୟମ</th>
+            <th>ସମୁଦାୟ ଅରଣ୍ୟର ଶତକଡ଼ା ଭାଗ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ସଂରକ୍ଷିତ ଅରଣ୍ୟ</strong><br><small>(Reserved Forests)</small></td>
+            <td>ସରକାରଙ୍କ ପ୍ରତ୍ୟକ୍ଷ ତତ୍ତ୍ୱାବଧାନରେ ଥାଏ। ଏଥିରୁ କାଠ ସଂଗ୍ରହ ଓ ପଶୁଚାରଣ ସମ୍ପୂର୍ଣ୍ଣ ନିଷିଦ୍ଧ[span_18](start_span)[span_18](end_span)।</td>
+            <td><strong>ପ୍ରାୟ ୫୩%</strong>[span_19](start_span)[span_19](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ସୁରକ୍ଷିତ ଅରଣ୍ୟ</strong><br><small>(Protected Forests)</small></td>
+            <td>ସରକାରଙ୍କ ନିୟନ୍ତ୍ରଣରେ ଥାଏ, ମାତ୍ର ନିୟମିତ ଭାବେ କାଠ ସଂଗ୍ରହ ଓ ପଶୁଚାରଣ ପାଇଁ ସାଧାରଣ ଜନତାଙ୍କୁ ଅନୁମତି ମିଳେ[span_20](start_span)[span_20](end_span)।</td>
+            <td><strong>ପ୍ରାୟ ୨୯%</strong>[span_21](start_span)[span_21](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ଅବର୍ଗୀକୃତ / ମୁକ୍ତ ଅରଣ୍ୟ</strong><br><small>(Unclassified / Open Forests)</small></td>
+            <td>କୌଣସି ପ୍ରତିବନ୍ଧକ ନଥାଏ। ମୁକ୍ତ ଭାବରେ କାଠ ସଂଗ୍ରହ ଓ ପଶୁଚାରଣ ପାଇଁ ବ୍ୟବହୃତ ହୁଏ[span_22](start_span)[span_22](end_span)।</td>
+            <td><strong>ପ୍ରାୟ ୧୮%</strong>[span_23](start_span)[span_23](end_span)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">(ଖ) ଭାରତର ସମ୍ବିଧାନ ଅନୁସାରେ ଶ୍ରେଣୀବିଭାଗ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>୧. ରାଜ୍ୟ ଅରଣ୍ୟ (State Forests)</h4>
+        <p>ରାଜ୍ୟ ସରକାରଙ୍କ ପ୍ରତ୍ୟକ୍ଷ ନିୟନ୍ତ୍ରଣରେ ରହିଥାଏ। ଏହା ଭାରତର ସର୍ବାଧିକ <strong>୯୩.୮ ଶତାଂଶ</strong> ଅଞ୍ଚଳ ଅଧିକାର କରିଛି[span_24](start_span)[span_24](end_span) ।</p>
+      </div>
+      <div class="card blue">
+        <h4>୨. ଗୋଷ୍ଠୀଗତ ଅରଣ୍ୟ (Community Forests)</h4>
+        <p>ସ୍ଥାନୀୟ ଶାସନ ସଂସ୍ଥା (ପଞ୍ଚାୟତ, ନଗରପାଳିକା, ଜିଲ୍ଲା ପରିଷଦ) ଦ୍ୱାରା ପରିଚାଳିତ (<strong>୪.୯ ଶତାଂଶ</strong>)[span_25](start_span)[span_25](end_span) ।</p>
+      </div>
+      <div class="card gold">
+        <h4>୩. ବେସରକାରୀ ଅରଣ୍ୟ (Private Forests)</h4>
+        <p>ବ୍ୟକ୍ତିଗତ ମାଲିକାନାରେ ଥାଏ (<strong>୧.୩ ଶତାଂଶ</strong>)। ଓଡ଼ିଶା, ମେଘାଳୟ, ପଞ୍ଜାବ ଓ ହିମାଚଳରେ ଦେଖାଯାଏ[span_26](start_span)[span_26](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. 9 Types of Forests in India -->
+  <section id="forest-types">
+    <h2 class="sec-title">🌳 ୩. ଭାରତର ପ୍ରମୁଖ ୯ ପ୍ରକାର ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ ଓ ଅରଣ୍ୟ</h2>
+    <p>ଜଳବାୟୁ, ବୃଷ୍ଟିପାତ, ତାପମାତ୍ରା ଓ ଭୂ-ଉଚ୍ଚାବଚ୍ଚ ଅନୁସାରେ ଭାରତର ଅରଣ୍ୟକୁ ୯ ଭାଗରେ ବିଭକ୍ତ କରାଯାଇଛି[span_27](start_span)[span_27](end_span):</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ଅରଣ୍ୟର ପ୍ରକାର</th>
+            <th>ବୃଷ୍ଟିପାତ ଓ ଜଳବାୟୁ</th>
+            <th>ଭୌଗୋଳିକ ଅବସ୍ଥିତି</th>
+            <th>ମୁଖ୍ୟ ବୃକ୍ଷଲତା ଓ ବୈଶିଷ୍ଟ୍ୟ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>(କ) କ୍ରାନ୍ତୀୟ ଆର୍ଦ୍ର ଚିରହରିତ୍</strong><br><small>(Tropical Wet Evergreen)</small></td>
+            <td>ବୃଷ୍ଟିପାତ > ୨୫୦ ସେମି, ତାପମାତ୍ରା ୨୦°-୨୫°C, ଆର୍ଦ୍ରତା > ୭୭%[span_28](start_span)[span_28](end_span)</td>
+            <td>ଉତ୍ତର-ପୂର୍ବ ପାର୍ବତ୍ୟାଞ୍ଚଳ (ଆସାମ, ମେଘାଳୟ), ପଶ୍ଚିମଘାଟର ପଶ୍ଚିମ ପାର୍ଶ୍ୱ, ଆଣ୍ଡାମାନ ଓ ନିକୋବର[span_29](start_span)[span_29](end_span)</td>
+            <td>ଶ୍ୱେତ ସେଦାର, ଚନ୍ଦନ, ରୋଜ୍‌ଉଡ଼, ଶିଶୁ, ବେତ, ବାଉଁଶ, ଗୁର୍ଜନ। ଅତି ଘଞ୍ଚ ଓ ଉଚ୍ଚ ବୃକ୍ଷ[span_30](start_span)[span_30](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>(ଖ) କ୍ରାନ୍ତୀୟ ଆର୍ଦ୍ର ଅର୍ଦ୍ଧ-ଚିରହରିତ୍</strong><br><small>(Tropical Semi-Evergreen)</small></td>
+            <td>ବୃଷ୍ଟିପାତ ୨୦୦ - ୨୫୦ ସେମି, ଆର୍ଦ୍ରତା ପ୍ରାୟ ୭୫%[span_31](start_span)[span_31](end_span)</td>
+            <td>ପଶ୍ଚିମ ଉପକୂଳ, ଉତ୍ତର ଆସାମ, ପୂର୍ବ ହିମାଳୟ ନିମ୍ନ ଢାଲୁ, ଓଡ଼ିଶା ଉପକୂଳ ନିକଟ ପାହାଡ଼[span_32](start_span)[span_32](end_span)</td>
+            <td>ଚିରହରିତ୍ ଓ ପର୍ଣ୍ଣମୋଚୀର ମିଶ୍ରିତ ବନ। କଦମ୍ବ, ରୋଜ୍‌ଉଡ଼, କାଜୁ, ବିଜାଶାଳ, କୁସୁମ, ଚମ୍ପା (୨୪-୩୬ ମି. ଉଚ୍ଚ)[span_33](start_span)[span_33](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>(ଗ) କ୍ରାନ୍ତୀୟ ଆର୍ଦ୍ର ପର୍ଣ୍ଣମୋଚୀ / ମୌସୁମୀ</strong><br><small>(Moist Deciduous / Monsoon)</small></td>
+            <td>ବୃଷ୍ଟିପାତ ୧୦୦ - ୨୦୦ ସେମି। (ଦେଶର ସମୁଦାୟ ଅରଣ୍ୟର ପ୍ରାୟ ଅର୍ଦ୍ଧେକ)[span_34](start_span)[span_34](end_span)</td>
+            <td>ସହ୍ୟାଦ୍ରି ପୂର୍ବ ଢାଲୁ, ସିଓ୍ୱାଲିକ୍, ଭାବର, ତରାଇ, ଓଡ଼ିଶା, ଛୋଟନାଗପୁର, ମଧ୍ୟପ୍ରଦେଶ, ଛତିଶଗଡ଼[span_35](start_span)[span_35](end_span)</td>
+            <td>ଶାଳ, ଶାଗୁଆନ, ଶିଶୁ, ଚନ୍ଦନ, ମହୁଲ, ଖଇର, କୁସୁମ। ଗ୍ରୀଷ୍ମ ପୂର୍ବରୁ ୬-୮ ସପ୍ତାହ ପତ୍ର ଝଡ଼ା ଦିଅନ୍ତି[span_36](start_span)[span_36](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>(ଘ) କ୍ରାନ୍ତୀୟ ଶୁଷ୍କ ପର୍ଣ୍ଣମୋଚୀ</strong><br><small>(Tropical Dry Deciduous)</small></td>
+            <td>ବୃଷ୍ଟିପାତ ୭୦ - ୧୦୦ ସେମି, ତାପମାତ୍ରା ୧୫.୫° - ୨୨.୨°C[span_37](start_span)[span_37](end_span)</td>
+            <td>ହିମାଳୟ ପାଦଦେଶରୁ କନ୍ୟାକୁମାରୀ (ୟୁପି, ମହାରାଷ୍ଟ୍ର, ତାମିଲନାଡୁ, କର୍ଣ୍ଣାଟକ)[span_38](start_span)[span_38](end_span)</td>
+            <td>ଶାଗୁଆନ, କେନ୍ଦୁ, ଶାଳ, ବୀଜାଶାଳ, ରୋଜଉଡ଼, ପଳାଶ, ବେଲ, ଖଇର। କୃଷି ପାଇଁ ବ୍ୟାପକ ସଫା କରାଯାଇଛି[span_39](start_span)[span_39](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>(ଙ) ଜୁଆରିଆ / ହେନ୍ତାଳବନ</strong><br><small>(Tidal / Mangrove Forest)</small></td>
+            <td>ଜୁଆର ପ୍ଲାବିତ ଲୁଣି କାଦୁଆ ଉପକୂଳ (ଭାରତର ୪୬୫୦ ବର୍ଗ କିମି; ୦.୧୪%)[span_40](start_span)[span_40](end_span)</td>
+            <td>ଗଙ୍ଗା-ବ୍ରହ୍ମପୁତ୍ର ସୁନ୍ଦରବନ, ଓଡ଼ିଶାର ଭିତରକନିକା (ମହାନଦୀ-ବ୍ରାହ୍ମଣୀ-ବୈତରଣୀ ତ୍ରିକୋଣଭୂମି), କୃଷ୍ଣା-ଗୋଦାବରୀ[span_41](start_span)[span_41](end_span)</td>
+            <td>ସୁନ୍ଦରୀ (କାଣ୍ଡଲା), ହେନ୍ତାଳ, ଝାଉଁ (କାଜୁରିନା)। ବାତ୍ୟା ଓ ଜୁଆର ରୋକିବା ପାଇଁ <strong>ଆଶ୍ରୟ ବଳୟ (Shelter Belt)</strong> ସଦୃଶ[span_42](start_span)[span_42](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>(ଚ) କ୍ରାନ୍ତୀୟ କଣ୍ଟାବନ ଓ ଗୁଳ୍ମ</strong><br><small>(Thorny and Shrub Forest)</small></td>
+            <td>ବୃଷ୍ଟିପାତ ୫୦ - ୭୫ ସେମି (ଶୁଷ୍କ/ଅର୍ଦ୍ଧଶୁଷ୍କ), ଆର୍ଦ୍ରତା < ୪୭%[span_43](start_span)[span_43](end_span)</td>
+            <td>ଦକ୍ଷିଣ-ପଶ୍ଚିମ ପଞ୍ଜାବ, ହରିୟାଣା, ରାଜସ୍ଥାନ, ଗୁଜରାଟ (ସୌରାଷ୍ଟ୍ର/କଚ୍ଛ), ଦାକ୍ଷିଣାତ୍ୟ ବୃଷ୍ଟିଚ୍ଛାୟା[span_44](start_span)[span_44](end_span)</td>
+            <td>ଲମ୍ବା ଚେର ଓ କଣ୍ଟାଯୁକ୍ତ। ବାବୁଲ (ଅଠା ମିଳେ), ଆକାଶିଆ (ଚମଡ଼ା କଷା), କାକ୍ଟସ୍, ଶିମିଳି, ସବାଇ ଘାସ, ବେଣା[span_45](start_span)[span_45](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>(ଛ) ଉପକ୍ରାନ୍ତୀୟ ପାର୍ବତ୍ୟ ଅରଣ୍ୟ</strong><br><small>(Subtropical Montane Forest)</small></td>
+            <td>୧୦୦୦ - ୧୮୦୦ ମି. ଉଚ୍ଚତା, ବୃଷ୍ଟିପାତ ୧୦୦ - ୨୦୦ ସେମି[span_46](start_span)[span_46](end_span)</td>
+            <td>ଉତ୍ତର-ପଶ୍ଚିମ ହିମାଳୟ, ଖାସୀ ପାହାଡ଼, ନାଗାଲ୍ୟାଣ୍ଡ, ମଣିପୁର, ନୀଳଗିରି, ପାଲ୍‌ନି ପର୍ବତ[span_47](start_span)[span_47](end_span)</td>
+            <td>ଚିର୍ (ପ୍ରଧାନ ବୃକ୍ଷ), ଓକ୍, ଚେଷ୍ଟନଟ୍, ଜାମୁ, ରୋଡ଼ୋଡ଼େଣ୍ଡ୍ରନ୍, ଅଲିଭ୍[span_48](start_span)[span_48](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>(ଜ) ନାତିଶୀତୋଷ୍ଣ ପାର୍ବତ୍ୟ ଅରଣ୍ୟ</strong><br><small>(Temperate Montane Forest)</small></td>
+            <td>୧୫୦୦ - ୩୩୦୦ ମି. ଉଚ୍ଚତା, ଶୀତଦିନେ ହିମାଙ୍କ ନିମ୍ନ ତାପମାତ୍ରା[span_49](start_span)[span_49](end_span)</td>
+            <td>ଦକ୍ଷିଣ ଭାରତରେ ନୀଳଗିରି, ଆନାମଲାଇ; ହିମାଳୟରେ କାଶ୍ମୀରରୁ ଅରୁଣାଚଳ ପ୍ରଦେଶ[span_50](start_span)[span_50](end_span)</td>
+            <td>ଦକ୍ଷିଣ ଭାରତରେ ଏହାକୁ <strong>ଶୋଲାସ୍ (Sholas)</strong> କୁହାଯାଏ[span_51](start_span)[span_51](end_span)। ଦେବଦାରୁ, ଓକ୍, ଫିର୍, ସ୍ପ୍ରୁସ୍, ସେଦାର, ମ୍ୟାପଲ୍, ଇଉକାଲିପ୍ଟସ୍[span_52](start_span)[span_52](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>(ଝ) ଆଲ୍‌ପୀୟ ଅରଣ୍ୟ</strong><br><small>(Alpine Forest)</small></td>
+            <td>୨୭୦୦ - ୪୦୦୦ ମି. ଉଚ୍ଚ ହିମାଳୟ ଅଞ୍ଚଳ[span_53](start_span)[span_53](end_span)</td>
+            <td>ହିମାଳୟର ସମଗ୍ର ଉଚ୍ଚାଞ୍ଚଳ ଓ ପୀରପଞ୍ଜାଲ ପର୍ବତଶ୍ରେଣୀ[span_54](start_span)[span_54](end_span)</td>
+            <td>ସିଲଭର ଫିର୍, ଜୁନିପର, ପାଇନ୍, ବାର୍ଚ୍ଚ। ଆଲପୀୟ ତୃଣଭୂମିରେ ଗୁଜ୍ଜରମାନେ <strong>ଋତୁକାଳୀନ ସ୍ଥାନାନ୍ତରଣ (Transhumance)</strong> କରନ୍ତି[span_55](start_span)[span_55](end_span)।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 4. Special Species & Himalayan Yew -->
+  <section id="special-species">
+    <h2 class="sec-title">🌸 ୪. ବିଶେଷ ଉଦ୍ଭିଦ, ଅତର ଓ ହିମାଳୟାନ୍ ୟିଉ (Himalayan Yew)</h2>
+
+    <div class="compare">
+      <div class="card green">
+        <h4>ସୁଗନ୍ଧିତ ପୁଷ୍ପ ଉଦ୍ଭିଦ (ପଶ୍ଚିମ ହିମାଳୟ)</h4>
+        <p>ପଶ୍ଚିମ ହିମାଳୟରେ ମିଳୁଥିବା <strong>ବ୍ରହ୍ମକମଳ (Brahma Kamal)</strong> ଏବଂ <strong>କୁବ୍ଜ</strong> ନାମକ ଉଦ୍ଭିଦର ସୁଗନ୍ଧିତ ଫୁଲରୁ ମୂଲ୍ୟବାନ ଅତର (Perfume) ପ୍ରସ୍ତୁତ କରାଯାଇ ବିଦେଶକୁ ରପ୍ତାନି ହୁଏ[span_56](start_span)[span_56](end_span) ।</p>
+      </div>
+      <div class="card coral">
+        <h4>ବିପଦଗ୍ରସ୍ତ ହିମାଳୟାନ୍ ୟିଉ (The Himalayan Yew)</h4>
+        <ul>
+          <li>ହିମାଚଳ ପ୍ରଦେଶ ଓ ଅରୁଣାଚଳ ପ୍ରଦେଶରେ ମିଳୁଥିବା ଏକ ଅତି ମୂଲ୍ୟବାନ ଔଷଧୀୟ ବୃକ୍ଷ[span_57](start_span)[span_57](end_span)।</li>
+          <li>ଏହାର ଛାଲ, ପତ୍ର, ଚେର ଓ ଡାଳର ରସରୁ <strong>ଟାକ୍ସୋଲ (Taxol)</strong> ନାମକ ରାସାୟନିକ ଯୌଗିକ ଔଷଧ ତିଆରି ହୁଏ[span_58](start_span)[span_58](end_span)।</li>
+          <li>ଏହା <strong>କର୍କଟ ରୋଗ (Cancer)</strong> ର ଏକ ଅବ୍ୟର୍ଥ ଔଷଧ[span_59](start_span)[span_59](end_span)।</li>
+          <li>ଅତ୍ୟଧିକ କାଟିବା ଯୋଗୁଁ ଏହି ବୃକ୍ଷ ବର୍ତ୍ତମାନ <strong>ଲୁପ୍ତପ୍ରାୟ / ବିପଦଗ୍ରସ୍ତ</strong> ହୋଇପଡ଼ିଛି[span_60](start_span)[span_60](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Uses and Benefits -->
+  <section id="uses">
+    <h2 class="sec-title">🪵 ୫. ଅରଣ୍ୟର ବ୍ୟବହାର ଓ ଉପକାରିତା</h2>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ପାରିବେଶିକ ଓ ପ୍ରତ୍ୟକ୍ଷ ଉପକାରିତା</h4>
+        <ul>
+          <li>ଜଳବାୟୁ ନିୟନ୍ତ୍ରଣ ଓ ଅମ୍ଳଜାନ-ଅଙ୍ଗାରକାମ୍ଳ ମଧ୍ୟରେ ସନ୍ତୁଳନ ରକ୍ଷା[span_61](start_span)[span_61](end_span)।</li>
+          <li>ବୃଷ୍ଟିଜଳ ପ୍ରବାହ ଓ ପବନର ବେଗ ହ୍ରାସ କରି ବନ୍ୟା, ବାତ୍ୟା ଓ ଭୂକ୍ଷୟ ନିବାରଣ[span_62](start_span)[span_62](end_span)।</li>
+          <li>ଭୂଗର୍ଭସ୍ଥ ଜଳ ସଞ୍ଚୟ ଓ ଜଳଶୀର୍ଷ (Water table) ବୃଦ୍ଧି[span_63](start_span)[span_63](end_span)।</li>
+          <li>ବନ୍ୟପ୍ରାଣୀଙ୍କୁ ପ୍ରାକୃତିକ ଆଶ୍ରୟ ଓ ଚାରଣଭୂମି ପ୍ରଦାନ[span_64](start_span)[span_64](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <h4>ଆର୍ଥନୀତିକ ଓ ଶିଳ୍ପଭିତ୍ତିକ ଉପକାରିତା</h4>
+        <ul>
+          <li>କାଠ, ଔଷଧ, ମହୁ, ଝୁଣା, ଅଠା, ଚମଡ଼ା, ଲାଖ ଇତ୍ୟାଦି ପ୍ରଦାନ[span_65](start_span)[span_65](end_span)।</li>
+          <li><strong>ଅରଣ୍ୟଭିତ୍ତିକ ଶିଳ୍ପ:</strong> କାଗଜ, ଦିଆସିଲି, ଖେଳ ଉପକରଣ, ରବର, ରେୟନ, ଚମଡ଼ା ଓ ଔଷଧ ଶିଳ୍ପର କଞ୍ଚାମାଲ ଯୋଗାଣ[span_66](start_span)[span_66](end_span)।</li>
+          <li>ପ୍ରାକୃତିକ ସୌନ୍ଦର୍ଯ୍ୟ, ଜଳପ୍ରପାତ ଓ ପର୍ଯ୍ୟଟନ ମାଧ୍ୟମରେ ବୈଦେଶିକ ମୁଦ୍ରା ଅର୍ଜନ[span_67](start_span)[span_67](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Forest Conservation -->
+  <section id="conservation">
+    <h2 class="sec-title">🛡️ ୬. ଅରଣ୍ୟ ସମ୍ବଳର ସଂରକ୍ଷଣ ନୀତି</h2>
+    <p>
+      ଜାତୀୟ ଅରଣ୍ୟ ନୀତି (1952, 1988 ଓ 2018) ଅନୁସାରେ ଦେଶର ଭାରସାମ୍ୟ ରକ୍ଷା ପାଇଁ ନିମ୍ନୋକ୍ତ ପଦକ୍ଷେପ ଜରୁରୀ[span_68](start_span)[span_68](end_span):
+    </p>
+
+    <div class="compare">
+      <div class="card green">
+        <h4>ଜାତୀୟ ଲକ୍ଷ୍ୟ ଓ ନିୟମ</h4>
+        <ul>
+          <li>ଦେଶର ସମୁଦାୟ କ୍ଷେତ୍ରଫଳର <strong>ଏକ-ତୃତୀୟାଂଶ (୩୩%) ଭୂମିରେ ଅରଣ୍ୟ</strong> ରହିବା ଆବଶ୍ୟକ[span_69](start_span)[span_69](end_span)।</li>
+          <li><strong>ପାର୍ବତ୍ୟାଞ୍ଚଳରେ ୬୦%</strong> ଏବଂ <strong>ସମତଳ ଭୂମିରେ ୨୦%</strong> ଅରଣ୍ୟ ରହିବା ବିଧେୟ[span_70](start_span)[span_70](end_span)।</li>
+          <li>ପୋଡ଼ୁ ଚାଷ (ସ୍ଥାନାନ୍ତରିତ କୃଷି) କୁ ସମ୍ପୂର୍ଣ୍ଣ ରୋକିବା[span_71](start_span)[span_71](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card blue">
+        <h4>ସାମାଜିକ ଓ ବ୍ୟବହାରିକ ପଦକ୍ଷେପ</h4>
+        <ul>
+          <li>ପ୍ରତିବର୍ଷ ଜୁଲାଇ-ଅଗଷ୍ଟରେ <strong>ବନ ମହୋତ୍ସବ ଓ ବୃକ୍ଷରୋପଣ ସପ୍ତାହ</strong> ପାଳନ[span_72](start_span)[span_72](end_span)।</li>
+          <li>ନଦୀ, କେନାଲ କୂଳ ଓ କୃଷି ଅନୁପଯୋଗୀ ଜମିରେ ସବୁଜ ବଳୟ ସୃଷ୍ଟି[span_73](start_span)[span_73](end_span)।</li>
+          <li>ଶିଳ୍ପ ଓ ବାଣିଜ୍ୟ ପାଇଁ ଦ୍ରୁତ ବୃଦ୍ଧିଶୀଳ ବୃକ୍ଷ ରୋପଣ ଓ ପୁନଃ ବନୀକରଣ[span_74](start_span)[span_74](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout activity-box">
+      <strong>ସାମ୍ପ୍ରତିକ ସଫଳତା:</strong> ୨୦୧୯ ଅରଣ୍ୟ ସ୍ଥିତି ବିବରଣୀ ଅନୁଯାୟୀ, ବ୍ୟାପକ ପୁନଃ ବନୀକରଣ ଯୋଗୁଁ ୨୦୧୭ ପରଠାରୁ ଭାରତରେ ଅରଣ୍ୟର ଆୟତନ ପ୍ରାୟ <strong>୩୯୭୬ ବର୍ଗ କିଲୋମିଟର ବୃଦ୍ଧି</strong> ପାଇଛି[span_75](start_span)[span_75](end_span)।
+    </div>
+  </section>
+
+  <!-- 7. Questions & Exercises -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ୭. ଅଧ୍ୟାୟ ପ୍ରଶ୍ନୋତ୍ତର (Self-Assessment)</h2>
+
+    <h3 class="sub-title">୧. ସଂକ୍ଷିପ୍ତ ପ୍ରଶ୍ନୋତ୍ତର:</h3>
+    <div class="compare">
+      <div class="card">
+        <p><strong>(କ) ଆଶ୍ରୟ ବଳୟ (Shelter Belt) କାହାକୁ କୁହାଯାଏ ?</strong>[span_76](start_span)[span_76](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ସମୁଦ୍ର ଉପକୂଳରେ ବାତ୍ୟା ଓ ଉଚ୍ଚ ଜୁଆରର ପ୍ରକୋପକୁ ପ୍ରତିହତ କରିବା ପାଇଁ ଝାଉଁ ଓ ହେନ୍ତାଳ ବୃକ୍ଷ ଦ୍ୱାରା ସୃଷ୍ଟି କରାଯାଇଥିବା ପ୍ରତିରୋଧକ ସବୁଜ ବଳୟକୁ ଆଶ୍ରୟ ବଳୟ କୁହାଯାଏ[span_77](start_span)[span_77](end_span) ।</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଖ) ଋତୁକାଳୀନ ସ୍ଥାନାନ୍ତରଣ (Transhumance) କ’ଣ ?</strong>[span_78](start_span)[span_78](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ହିମାଳୟର ଆଲ୍‌ପୀୟ ଚାରଣଭୂମିରେ ଗୁଜ୍ଜର ସମ୍ପ୍ରଦାୟର ଲୋକମାନେ ଋତୁ ଅନୁସାରେ ଉଚ୍ଚ ଓ ନିମ୍ନ ଭୂମି ମଧ୍ୟରେ ପଶୁପଲଙ୍କୁ ନେଇ ସ୍ଥାନ ପରିବର୍ତ୍ତନ କରିବା ପ୍ରକ୍ରିୟାକୁ ଋତୁକାଳୀନ ସ୍ଥାନାନ୍ତରଣ କୁହାଯାଏ[span_79](start_span)[span_79](end_span) ।</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଗ) ବୋରିୟଲ ଉଦ୍ଭିଦ କହିଲେ କ’ଣ ବୁଝ ?</strong>[span_80](start_span)[span_80](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଚୀନ୍ ଓ ମଧ୍ୟ ଏସିଆରୁ ଆସି ହିମାଳୟର ଉଚ୍ଚ ପର୍ବତଶ୍ରେଣୀରେ ବଢ଼ୁଥିବା ବିଦେଶଜ ସୂଚ୍ୟଗ୍ରପତ୍ରୀ ସରଳବର୍ଗୀୟ ବୃକ୍ଷକୁ ବୋରିୟଲ ଉଦ୍ଭିଦ କୁହାଯାଏ[span_81](start_span)[span_81](end_span) ।</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଘ) ୟିଉ (Yew) ବୃକ୍ଷ କେଉଁଠାରେ ଦେଖାଯାଏ ଓ ଏହାର ଉପଯୋଗିତା କ’ଣ ?</strong>[span_82](start_span)[span_82](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଏହା ହିମାଚଳ ପ୍ରଦେଶ ଓ ଅରୁଣାଚଳ ପ୍ରଦେଶରେ ଦେଖାଯାଏ[span_83](start_span)[span_83](end_span)। ଏହାର ରସରୁ କର୍କଟ (Cancer) ରୋଗର ଔଷଧ 'ଟାକ୍ସୋଲ' ପ୍ରସ୍ତୁତ ହୁଏ[span_84](start_span)[span_84](end_span)।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">୨. ପାର୍ଥକ୍ୟ ଦର୍ଶାଅ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଚିରହରିତ୍ ଅରଣ୍ୟ</h4>
+        <p>ବର୍ଷସାରା ସବୁଜ ପତ୍ର ଦ୍ୱାରା ଆଚ୍ଛାଦିତ ରହିଥାଏ[span_85](start_span)[span_85](end_span)। ବୃଷ୍ଟିପାତ ୨୫୦ ସେମିରୁ ଅଧିକ[span_86](start_span)[span_86](end_span)। ଯଥା: ରୋଜଉଡ୍, ଚନ୍ଦନ, ଶ୍ୱେତ ସେଦାର[span_87](start_span)[span_87](end_span) ।</p>
+      </div>
+      <div class="card coral">
+        <h4>ପର୍ଣ୍ଣମୋଚୀ ଅରଣ୍ୟ</h4>
+        <p>ଗ୍ରୀଷ୍ମଋତୁ ପୂର୍ବରୁ ୬ ରୁ ୮ ସପ୍ତାହ ପର୍ଯ୍ୟନ୍ତ ନିଜର ପତ୍ର ଝଡ଼ାଇ ଦିଅନ୍ତି[span_88](start_span)[span_88](end_span)। ବୃଷ୍ଟିପାତ ୧୦୦-୨୦୦ ସେମି[span_89](start_span)[span_89](end_span)। ଯଥା: ଶାଳ, ଶାଗୁଆନ, ମହୁଲ[span_90](start_span)[span_90](end_span) ।</p>
+      </div>
+      <div class="card gold">
+        <h4>ସୁନ୍ଦରବନ</h4>
+        <p>ପଶ୍ଚିମବଙ୍ଗର ଗଙ୍ଗା-ବ୍ରହ୍ମପୁତ୍ର ତ୍ରିକୋଣଭୂମିରେ ସୁନ୍ଦରୀ ଗଛର ବିଶାଳ ଜୁଆରିଆ ଅରଣ୍ୟ[span_91](start_span)[span_91](end_span) ।</p>
+      </div>
+      <div class="card green">
+        <h4>କ୍ଷୁଦ୍ର ସୁନ୍ଦରବନ (ହେନ୍ତାଳବନ)</h4>
+        <p>ଓଡ଼ିଶାର ଭିତରକନିକା (ମହାନଦୀ-ବ୍ରାହ୍ମଣୀ-ବୈତରଣୀ ତ୍ରିକୋଣଭୂମି) ରେ ଥିବା ହେନ୍ତାଳ ବୃକ୍ଷର ଜୁଆରିଆ ଅରଣ୍ୟ[span_92](start_span)[span_92](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ • ଦ୍ୱିତୀୟ ଅଧ୍ୟାୟ: ଅରଣ୍ୟ ସମ୍ବଳ | Digital Learning Note System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
