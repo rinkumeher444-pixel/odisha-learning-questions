@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ଶ୍ରେଣୀ ୧୦ - ରସାୟନ ବିଜ୍ଞାନ | ମୌଳିକ ଗୁଡ଼ିକର ପର୍ଯ୍ୟାୟୀ ଶ୍ରେଣୀବିଭାଗ</title>
+<style>
+  :root {
+    --bg: #0e1420;
+    --bg-panel: #141d2e;
+    --bg-card: #1a2436;
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
+    --gold: #f59e0b;
+    --teal: #14b8a6;
+    --green: #10b981;
+    --coral: #f43f5e;
+    --border: #2a364f;
+    --font-serif: "Georgia", serif;
+    --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background-color: var(--bg);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    line-height: 1.7;
+    padding: 0;
+    margin: 0;
+  }
+  header.hero {
+    background: linear-gradient(135deg, var(--bg-panel), var(--bg-card));
+    border-bottom: 2px solid var(--border);
+    padding: 3rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%; width: 200%; height: 200%;
+    background: radial-gradient(circle, rgba(245, 158, 11, 0.05) 0%, transparent 70%);
+    z-index: 0;
+  }
+  .hero-content { position: relative; z-index: 1; max-width: 900px; margin: 0 auto; }
+  .chapter-badge {
+    display: inline-block;
+    background: rgba(245, 158, 11, 0.15);
+    color: var(--gold);
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+  }
+  h1 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #f59e0b, #14b8a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.75rem;
+  }
+  p.subtitle { color: var(--text-muted); font-size: 1.1rem; }
+
+  /* Pill Navigation */
+  .pillnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    background: var(--bg-panel);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(10px);
+  }
+  .pillnav a {
+    color: var(--text-muted);
+    background: var(--bg-card);
+    padding: 0.5rem 1.25rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid var(--border);
+    transition: all 0.3s ease;
+  }
+  .pillnav a:hover, .pillnav a.active {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: rgba(245, 158, 11, 0.1);
+  }
+
+  main { max-width: 1000px; margin: 2rem auto; padding: 0 1.5rem; }
+  section { margin-bottom: 3.5rem; scroll-margin-top: 5rem; }
+  h2 {
+    font-family: var(--font-serif);
+    font-size: 1.8rem;
+    color: var(--gold);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    color: var(--teal);
+    margin: 1.5rem 0 0.75rem 0;
+  }
+  p { margin-bottom: 1rem; color: #cbd5e1; }
+
+  /* Callout Boxes */
+  .callout {
+    border-left: 5px solid;
+    border-radius: 0 8px 8px 0;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    background: var(--bg-panel);
+  }
+  .def-box { border-color: var(--gold); background: rgba(245, 158, 11, 0.05); }
+  .def-box strong { color: var(--gold); }
+  .example-box { border-color: var(--teal); background: rgba(20, 184, 166, 0.05); }
+  .example-box strong { color: var(--teal); }
+  .activity-box { border-color: var(--green); background: rgba(16, 185, 129, 0.05); }
+  .activity-box strong { color: var(--green); }
+  .mistake-box { border-color: var(--coral); background: rgba(244, 63, 94, 0.05); }
+  .mistake-box strong { color: var(--coral); }
+
+  /* Comparison Grids */
+  .compare {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .compare-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  .compare-card h4 { font-size: 1.1rem; margin-bottom: 0.75rem; color: var(--gold); }
+
+  /* Flowcharts */
+  .flow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 2rem 0;
+    background: var(--bg-panel);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  .flow-node {
+    background: var(--bg-card);
+    border: 1px solid var(--teal);
+    color: var(--text-main);
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  .flow-arrow {
+    color: var(--gold);
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  /* Diagrams */
+  .diagram {
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .diagram svg { max-width: 100%; height: auto; }
+  .diagram figcaption {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  /* Data Tables */
+  .table-container {
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  table.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-panel);
+    text-align: left;
+    font-size: 0.95rem;
+  }
+  table.table th {
+    background: var(--bg-card);
+    color: var(--gold);
+    padding: 1rem;
+    border-bottom: 2px solid var(--border);
+  }
+  table.table td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--border);
+    color: #cbd5e1;
+  }
+  table.table tr:nth-child(even) { background: rgba(26, 36, 54, 0.4); }
+  table.table tr:hover { background: rgba(20, 184, 166, 0.05); }
+
+  ul, ol { margin-left: 1.5rem; margin-bottom: 1rem; color: #cbd5e1; }
+  li { margin-bottom: 0.5rem; }
+  footer {
+    text-align: center;
+    padding: 2.5rem;
+    background: var(--bg-panel);
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="chapter-badge">ଶ୍ରେଣୀ ୧୦ • ରସାୟନ ବିଜ୍ଞାନ (Class 10 Chemistry)</div>
+    <h1>ମୌଳିକ ଗୁଡ଼ିକର ପର୍ଯ୍ୟାୟୀ ଶ୍ରେଣୀବିଭାଗ</h1>
+    <p class="subtitle">Periodic Classification of Elements - ପ୍ରାରମ୍ଭିକ ପ୍ରୟାସ, ମେଣ୍ଡେଲିଭ୍ ଓ ଆଧୁନିକ ପର୍ଯ୍ୟାୟ ସାରଣୀର ସମ୍ପୂର୍ଣ୍ଣ ଅଧ୍ୟୟନ</p>
+  </div>
+</header>
+
+<nav class="pillnav">
+  <a href="#intro">ପରିଚୟ</a>
+  <a href="#dobereiner">ଡୋବରେନର୍‌ଙ୍କ ତ୍ରୟୀ</a>
+  <a href="#newlands">ନ୍ୟୁଲ୍ୟାଣ୍ଡଙ୍କ ଅଷ୍ଟକ</a>
+  <a href="#mendeleev">ମେଣ୍ଡେଲିଭ୍ ସାରଣୀ</a>
+  <a href="#modern">ଆଧୁନିକ ସାରଣୀ</a>
+</nav>
+
+<main>
+  <!-- 1. Introduction -->
+  <section id="intro">
+    <h2>୧. ପରିଚୟ ଏବଂ ଶ୍ରେଣୀବିଭାଗର ଆବଶ୍ୟକତା</h2>
+    <p>ବର୍ତ୍ତମାନ ପର୍ଯ୍ୟନ୍ତ ଆବିଷ୍କୃତ ହୋଇଥିବା ମୌଳିକ ଗୁଡ଼ିକର ସଂଖ୍ୟା ୧୧୮। ଏତେସବୁ ମୌଳିକର ସ୍ୱତନ୍ତ୍ର ଧର୍ମ ଏବଂ ଗୁଣଗୁଡ଼ିକୁ ଅଲଗା ଅଲଗା ଭାବରେ ଅଧ୍ୟୟନ କରିବା କଷ୍ଟସାଧ୍ୟ। ସେଥିପାଇଁ ମୌଳିକଗୁଡ଼ିକର ସମାନତା ଓ ପାର୍ଥକ୍ୟ ଆଧାରରେ ସେଗୁଡ଼ିକୁ ଶ୍ରେଣୀଭୁକ୍ତ କରିବାର ଆବଶ୍ୟକତା ପଡ଼ିଥିଲା।</p>
+    
+    <div class="callout def-box">
+      <strong>ପର୍ଯ୍ୟାୟୀ ଶ୍ରେଣୀବିଭାଗ (Periodic Classification):</strong>
+      <p>ବିଭିନ୍ନ ମୌଳିକଗୁଡ଼ିକୁ ସେମାନଙ୍କର ପରମାଣୁ ଭର ଓ ରାସାୟନିକ ଧର୍ମର ସାମଞ୍ଜସ୍ୟ ଅନୁସାରେ ସୁବ୍ୟବସ୍ଥିତ କରିବାର ପ୍ରକ୍ରିୟାକୁ ପର୍ଯ୍ୟାୟୀ ଶ୍ରେଣୀବିଭାଗ କୁହାଯାଏ।</p>
+    </div>
+  </section>
+
+  <!-- 2. Dobereiner's Triads -->
+  <section id="dobereiner">
+    <h2>୨. ଡୋବରେନର୍‌ଙ୍କ ତ୍ରୟୀ ନିୟମ (Dobereiner's Triads)</h2>
+    <p>୧୮୧୭ ମସିହାରେ ଜର୍ମାନ୍ ବୈଜ୍ଞାନିକ ଜନ୍ ଓ୍ୱାଲ୍‌ଫଗାଙ୍ଗ୍ ଡୋବରେନର୍ ସମାନ ଧର୍ମ ବିଶିଷ୍ଟ ମୌଳିକଗୁଡ଼ିକୁ ତିନୋଟି ଲେଖାଏଁ ଗୋଷ୍ଠୀରେ ସଜ୍ଜିତ କରିବାକୁ ଚେଷ୍ଟା କରିଥିଲେ। ଏହାକୁ 'ତ୍ରୟୀ' (Triads) କୁହାଯାଏ।</p>
+
+    <div class="callout example-box">
+      <strong>ତ୍ରୟୀ ନିୟମ:</strong>
+      <p>ଗୋଟିଏ ତ୍ରୟୀର ତିନୋଟି ମୌଳିକକୁ ସେମାନଙ୍କର ପରମାଣୁ ଭରର ବର୍ଦ୍ଧିତ କ୍ରମରେ ସଜାଇଲେ, ମଧ୍ୟବର୍ତ୍ତୀ ମୌଳିକର ପରମାଣୁ ଭର ଅନ୍ୟ ଦୁଇଟି ମୌଳିକର ପରମାଣୁ ଭରର ହାରାହାରି (average) ସହିତ ପ୍ରାୟ ସମାନ ହୋଇଥାଏ।</p>
+    </div>
+
+    <div class="table-container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ତ୍ରୟୀ (Triad)</th>
+            <th>ମୌଳିକଗୁଡ଼ିକ</th>
+            <th>ପରମାଣୁ ଭର</th>
+            <th>ହାରାହାରି (Average)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ଗ୍ରୁପ୍ ୧</strong></td>
+            <td>Lodium (Li), Sodium (Na), Potassium (K)</td>
+            <td>Li = 6.9, K = 39.1</td>
+            <td>(6.9 + 39.1)/2 = 23.0 (Na)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 3. Newlands' Law of Octaves -->
+  <section id="newlands">
+    <h2>୩. ନ୍ୟୁଲ୍ୟାଣ୍ଡଙ୍କ ଅଷ୍ଟକ ନିୟମ (Newlands' Law of Octaves)</h2>
+    <p>୧୮୬୬ ମସିହାରେ ବ୍ରିଟିଶ୍ ବୈଜ୍ଞାନିକ ଜନ୍ ନ୍ୟୁଲ୍ୟାଣ୍ଡସ୍ ସେତେବେଳେ ଜଣାଥିବା ମୌଳିକଗୁଡ଼ିକୁ ସେମାନଙ୍କ ପରମାଣୁ ଭରର ବର୍ଦ୍ଧିତ କ୍ରମରେ ସଜ୍ଜିତ କରିଥିଲେ।</p>
+
+    <div class="callout def-box">
+      <strong>ଅଷ୍ଟକ ନିୟମ (Law of Octaves):</strong>
+      <p>ଯେତେବେଳେ ମୌଳିକଗୁଡ଼ିକୁ ପରମାଣୁ ଭରର ବର୍ଦ୍ଧିତ କ୍ରମରେ ସଜାଯାଏ, ସେତେବେଳେ ପ୍ରତ୍ୟେକ ଅଷ୍ଟମ ମୌଳିକର ଧର୍ମ ପ୍ରଥମ ମୌଳିକର ଧର୍ମ ସହିତ ମିଳିଥାଏ (ଯେପରି ସଙ୍ଗୀତର ସା, ରେ, ଗ, ମ, ପ, ଧ, ନି ପରେ ପୁଣି 'ସା' ଆସେ)।</p>
+    </div>
+
+    <div class="mistake-box callout">
+      <strong>ସୀମାବଦ୍ଧତା (Limitations):</strong>
+      <p>ନ୍ୟୁଲ୍ୟାଣ୍ଡଙ୍କ ଅଷ୍ଟକ ନିୟମ କେବଳ କ୍ୟାଲସିୟମ୍ (Calcium) ପର୍ଯ୍ୟନ୍ତ ମୌଳିକଗୁଡ଼ିକ ପାଇଁ ପ୍ରଯୁଜ୍ୟ ଥିଲା। ଏହାଠାରୁ ଅଧିକ ପରମାଣୁ ଭର ବିଶିଷ୍ଟ ମୌଳିକଗୁଡ଼ିକ ପାଇଁ ଏହି ନିୟମ କାର୍ଯ୍ୟକାରୀ ହୋଇନଥିଲା।</p>
+    </div>
+  </section>
+
+  <!-- 4. Mendeleev's Periodic Table -->
+  <section id="mendeleev">
+    <h2>୪. ମେଣ୍ଡେଲିଭ୍‌ଙ୍କ ପର୍ଯ୍ୟାୟ ସାରଣୀ (Mendeleev's Periodic Table)</h2>
+    <p>ଋଷିଆର ରସାୟନବିତ୍ ଡିମିତ୍ରୀ ମେଣ୍ଡେଲିଭ୍ ମୌଳିକଗୁଡ଼ିକର ଶ୍ରେଣୀବିଭାଗରେ ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଅବଦାନ ରଖିଥିଲେ। ସେ ମୌଳିକଗୁଡ଼ିକର ପରମାଣୁ ଭର ଏବଂ ସେମାନଙ୍କର ଅକ୍ସାଇଡ୍ ଓ ହାଇଡ୍ରାଇଡ୍ ଗଠନକୁ ଆଧାର କରି ସାରଣୀ ପ୍ରସ୍ତୁତ କରିଥିଲେ।</p>
+
+    <div class="callout activity-box">
+      <strong>ମେଣ୍ଡେଲିଭ୍‌ଙ୍କ ପର୍ଯ୍ୟାୟ ନିୟମ (Mendeleev's Periodic Law):</strong>
+      <p>ମୌଳିକଗୁଡ଼ିକର ଭୌତିକ ଓ ରାସାୟନିକ ଧର୍ମଗୁଡ଼ିକ ସେମାନଙ୍କର ପରମାଣୁ ଭରର ପର୍ଯ୍ୟାୟୀ ଅଭିବୃଦ୍ଧି (Periodic function of their atomic masses) ଅଟେ।</p>
+    </div>
+
+    <div class="compare">
+      <div class="compare-card">
+        <h4>ସଫଳତା (Merits)</h4>
+        <p>୧. ଅନଭିଜ୍ଞ ମୌଳିକ ପାଇଁ ସ୍ଥାନ ଛାଡ଼ିବା।<br>୨. ସଠିକ୍ ପରମାଣୁ ଭର ସଂଶୋଧନ।<br>୩. ନିଷ୍କ୍ରିୟ ଗ୍ୟାସ୍ ପାଇଁ ସ୍ୱତନ୍ତ୍ର ସ୍ଥାନ।</p>
+      </div>
+      <div class="compare-card">
+        <h4>ତ୍ରୁଟି (Anomalies / Limitations)</h4>
+        <p>୧. ହାଇଡ୍ରୋଜେନ୍‌ର ସଠିକ୍ ସ୍ଥାନ ନିରୂପଣରେ ଅସୁବିଧା।<br>୨. ଆଇସୋଟୋପ୍ (Isotopes) ଗୁଡ଼ିକର ସ୍ଥାନ।<br>୩. ପରମାଣୁ ଭରର ଅନିୟମିତ ବୃଦ୍ଧି।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Modern Periodic Table -->
+  <section id="modern">
+    <h2>୫. ଆଧୁନିକ ପର୍ଯ୍ୟାୟ ସାରଣୀ (Modern Periodic Table)</h2>
+    <p>୧୯୧୩ ମସିହାରେ ହେନ୍ରି ମୋସଲେ (Henry Moseley) ପ୍ରମାଣ କଲେ ଯେ ପରମାଣୁ ଭର ଅପେକ୍ଷା <strong>ପରମାଣୁ କ୍ରମାଙ୍କ (Atomic Number, Z)</strong> ହେଉଛି ମୌଳିକଗୁଡ଼ିକର ଅଧିକ ମୌଳିକ ଧର୍ମ।</p>
+
+    <div class="callout def-box">
+      <strong>ଆଧୁନିକ ପର୍ଯ୍ୟାୟ ନିୟମ (Modern Periodic Law):</strong>
+      <p>ମୌଳିକଗୁଡ଼ିକର ଭୌତିକ ଓ ରାସାୟନିକ ଧର୍ମଗୁଡ଼ିକ ସେମାନଙ୍କର ପରମାଣୁ କ୍ରମାଙ୍କର ପର୍ଯ୍ୟାୟୀ ଧର୍ମ ଅଟେ।</p>
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">ପରମାଣୁ କ୍ରମାଙ୍କ (Z) ବୃଦ୍ଧି</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ଇଲେକ୍ଟ୍ରନ୍ ବିନ୍ୟାସ ପରିବର୍ତ୍ତନ</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ପର୍ଯ୍ୟାୟୀ ଧର୍ମର ପୁନରାବୃତ୍ତି</div>
+    </div>
+
+    <div class="table-container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ବିଶେଷତା</th>
+            <th>ବିବରଣୀ (Description)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ପର୍ଯ୍ୟାୟ (Periods)</strong></td>
+            <td>ଆଧୁନିକ ପର୍ଯ୍ୟାୟ ସାରଣୀରେ ମୋଟ <strong>୭ଟି</strong> ଭୂସମାନ୍ତର ଧାଡ଼ି ବା ପର୍ଯ୍ୟାୟ ଅଛି।</td>
+          </tr>
+          <tr>
+            <td><strong>ଗ୍ରୁପ୍ (Groups)</strong></td>
+            <td>ସାରଣୀରେ ମୋଟ <strong>୧୮ଟି</strong> ଖାଡ଼ା ସ୍ତମ୍ଭ ବା ଗ୍ରୁପ୍ ରହିଛି।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Class 10 Chemistry Educational Notes | Chapter: ମୌଳିକ ଗୁଡ଼ିକର ପର୍ଯ୍ୟାୟୀ ଶ୍ରେଣୀବିଭାଗ</p>
+</footer>
+
+</body>
+</html>
