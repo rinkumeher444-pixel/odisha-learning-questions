@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ଶ୍ରେଣୀ ୧୦ - ରସାୟନ ବିଜ୍ଞାନ | କାର୍ବନ୍ ଏବଂ ଏହାର ଯୌଗିକ</title>
+<style>
+  :root {
+    --bg: #0e1420;
+    --bg-panel: #141d2e;
+    --bg-card: #1a2436;
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
+    --gold: #f59e0b;
+    --teal: #14b8a6;
+    --green: #10b981;
+    --coral: #f43f5e;
+    --border: #2a364f;
+    --font-serif: "Georgia", serif;
+    --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background-color: var(--bg);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    line-height: 1.7;
+    padding: 0;
+    margin: 0;
+  }
+  header.hero {
+    background: linear-gradient(135deg, var(--bg-panel), var(--bg-card));
+    border-bottom: 2px solid var(--border);
+    padding: 3rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%; width: 200%; height: 200%;
+    background: radial-gradient(circle, rgba(245, 158, 11, 0.05) 0%, transparent 70%);
+    z-index: 0;
+  }
+  .hero-content { position: relative; z-index: 1; max-width: 900px; margin: 0 auto; }
+  .chapter-badge {
+    display: inline-block;
+    background: rgba(245, 158, 11, 0.15);
+    color: var(--gold);
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+  }
+  h1 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #f59e0b, #14b8a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.75rem;
+  }
+  p.subtitle { color: var(--text-muted); font-size: 1.1rem; }
+
+  /* Pill Navigation */
+  .pillnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    background: var(--bg-panel);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(10px);
+  }
+  .pillnav a {
+    color: var(--text-muted);
+    background: var(--bg-card);
+    padding: 0.5rem 1.25rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid var(--border);
+    transition: all 0.3s ease;
+  }
+  .pillnav a:hover, .pillnav a.active {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: rgba(245, 158, 11, 0.1);
+  }
+
+  main { max-width: 1000px; margin: 2rem auto; padding: 0 1.5rem; }
+  section { margin-bottom: 3.5rem; scroll-margin-top: 5rem; }
+  h2 {
+    font-family: var(--font-serif);
+    font-size: 1.8rem;
+    color: var(--gold);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    color: var(--teal);
+    margin: 1.5rem 0 0.75rem 0;
+  }
+  p { margin-bottom: 1rem; color: #cbd5e1; }
+
+  /* Callout Boxes */
+  .callout {
+    border-left: 5px solid;
+    border-radius: 0 8px 8px 0;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    background: var(--bg-panel);
+  }
+  .def-box { border-color: var(--gold); background: rgba(245, 158, 11, 0.05); }
+  .def-box strong { color: var(--gold); }
+  .example-box { border-color: var(--teal); background: rgba(20, 184, 166, 0.05); }
+  .example-box strong { color: var(--teal); }
+  .activity-box { border-color: var(--green); background: rgba(16, 185, 129, 0.05); }
+  .activity-box strong { color: var(--green); }
+  .mistake-box { border-color: var(--coral); background: rgba(244, 63, 94, 0.05); }
+  .mistake-box strong { color: var(--coral); }
+
+  /* Comparison Grids */
+  .compare {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .compare-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  .compare-card h4 { font-size: 1.1rem; margin-bottom: 0.75rem; color: var(--gold); }
+
+  /* Flowcharts */
+  .flow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 2rem 0;
+    background: var(--bg-panel);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  .flow-node {
+    background: var(--bg-card);
+    border: 1px solid var(--teal);
+    color: var(--text-main);
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  .flow-arrow {
+    <color class="gold"></color>
+    color: var(--gold);
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  /* Diagrams */
+  .diagram {
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .diagram svg { max-width: 100%; height: auto; }
+  .diagram figcaption {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  /* Data Tables */
+  .table-container {
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  table.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-panel);
+    text-align: left;
+    font-size: 0.95rem;
+  }
+  table.table th {
+    background: var(--bg-card);
+    color: var(--gold);
+    padding: 1rem;
+    border-bottom: 2px solid var(--border);
+  }
+  table.table td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--border);
+    color: #cbd5e1;
+  }
+  table.table tr:nth-child(even) { background: rgba(26, 36, 54, 0.4); }
+  table.table tr:hover { background: rgba(20, 184, 166, 0.05); }
+
+  ul, ol { margin-left: 1.5rem; margin-bottom: 1rem; color: #cbd5e1; }
+  li { margin-bottom: 0.5rem; }
+  footer {
+    text-align: center;
+    padding: 2.5rem;
+    background: var(--bg-panel);
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="chapter-badge">ଶ୍ରେଣୀ ୧୦ • ରସାୟନ ବିଜ୍ଞାନ (Class 10 Chemistry)</div>
+    <h1>କାର୍ବନ୍ ଏବଂ ଏହାର ଯୌଗିକ</h1>
+    <p class="subtitle">Carbon and its Compounds - ସମଯୋଜୀ ବନ୍ଧନ, କାର୍ବନ୍‌ର ବହୁରୂପତା, ହାଇଡ୍ରୋକାର୍ବନ୍ ଓ ସାବୁନ୍‌ର କାର୍ଯ୍ୟକାରିତା</p>
+  </div>
+</header>
+
+<nav class="pillnav">
+  <a href="#bonding">ସମଯୋଜୀ ବନ୍ଧନ</a>
+  <a href="#versatile">କାର୍ବନ୍‌ର ପ୍ରକୃତି</a>
+  <a href="#allotropy">ବହୁରୂପତା</a>
+  <a href="#hydrocarbons">ହାଇଡ୍ରୋକାର୍ବନ୍</a>
+  <a href="#soaps">ସାବୁନ୍ ଓ ଡିଟରଜେଣ୍ଟ୍</a>
+</nav>
+
+<main>
+  <!-- 1. Covalent Bonding -->
+  <section id="bonding">
+    <h2>୧. କାର୍ବନ୍ ଯୌଗିକରେ ବନ୍ଧନ - ସମଯୋଜୀ ବନ୍ଧନ (Covalent Bonding)</h2>
+    <p>କାର୍ବନ୍ ଏକ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ମୌଳିକ ଯାହା ଆମର ଦୈନନ୍ଦିନ ଜୀବନରେ ବ୍ୟବହୃତ ଅନେକ ବସ୍ତୁ ଓ ଜୀବଜଗତର ମୂଳ ଆଧାର ଅଟେ। କାର୍ବନ୍ ପରମାଣୁର ପରମାଣୁ କ୍ରମାଙ୍କ ୬ ଏବଂ ଏହାର ଇଲେକ୍ଟ୍ରନ୍ ବିନ୍ୟାସ (2, 4) ଅଟେ।</p>
+    
+    <div class="callout def-box">
+      <strong>ସମଯୋଜୀ ବନ୍ଧନ (Covalent Bond):</strong>
+      <p>ଦୁଇଟି ପରମାଣୁ ମଧ୍ୟରେ ଇଲେକ୍ଟ୍ରନ୍ ଯୁଗଳର ପାରସ୍ପରିକ ଭାଗିଦାରୀ (sharing of electrons) ଦ୍ୱାରା ଯେଉଁ ରାସାୟନିକ ବନ୍ଧ ସୃଷ୍ଟି ହୁଏ, ତାହାକୁ ସମଯୋଜୀ ବନ୍ଧନ କୁହାଯାଏ। କାର୍ବନ୍ ନିଜର ୪ଟି ଯୋଜକ ଇଲେକ୍ଟ୍ରନ୍ ଭାଗ କରି ଅଷ୍ଟକ ପୂର୍ଣ୍ଣ କରିଥାଏ।</p>
+    </div>
+
+    <div class="compare">
+      <div class="compare-card">
+        <h4>ଆୟନୀୟ ଯୌଗିକ (Ionic Compounds)</h4>
+        <p>ଇଲେକ୍ଟ୍ରନ୍ ସ୍ଥାନାନ୍ତର (transfer) ଦ୍ୱାରା ଗଠିତ ହୁଏ। ଏଗୁଡ଼ିକର ଗଳନାଙ୍କ ଓ ସ୍ଫୁଟନାଙ୍କ ଉଚ୍ଚ ଏବଂ ଜଳରେ ଦ୍ରବଣୀୟ।</p>
+      </div>
+      <div class="compare-card">
+        <h4>ସମଯୋଜୀ ଯୌଗିକ (Covalent Compounds)</h4>
+        <p>ଇଲେକ୍ଟ୍ରନ୍ ଭାଗିଦାରୀ ଦ୍ୱାରା ଗଠିତ ହୁଏ। ଏଗୁଡ଼ିକର ଗଳନାଙ୍କ ଓ ସ୍ଫୁଟନାଙ୍କ ତୁଳନାତ୍ମକ ଭାବେ କମ୍ ଏବଂ ବିଦ୍ୟୁତ୍ ଅପରିବାହୀ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Versatile Nature of Carbon -->
+  <section id="versatile">
+    <h2>୨. କାର୍ବନ୍‌ର ସର୍ବମୁଖୀ ପ୍ରକୃତି (Versatile Nature of Carbon)</h2>
+    <p>ପ୍ରକୃତିରେ ଅନ୍ୟ କୌଣସି ମୌଳିକ ଏତେ ବଡ଼ ସଂଖ୍ୟାରେ ଯୌଗିକ ସୃଷ୍ଟି କରେ ନାହିଁ ଯେତିକି କାର୍ବନ୍ କରେ। ଏହାର ମୁଖ୍ୟ ଦୁଇଟି କାରଣ ରହିଛି:</p>
+
+    <div class="flow">
+      <div class="flow-node">ଶୃଙ୍ଖଳନ (Catenation)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ଚତୁଃସଂଯୋଜୀ (Tetravalency)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ବିପୁଳ ସଂଖ୍ୟକ ଯୌଗିକ ସୃଷ୍ଟି</div>
+    </div>
+
+    <div class="callout example-box">
+      <strong>ଶୃଙ୍ଖଳନ (Catenation):</strong>
+      <p>କାର୍ବନ୍ ପରମାଣୁଗୁଡ଼ିକ ପରସ୍ପର ସହିତ ସମଯୋଜୀ ବନ୍ଧନ ଦ୍ୱାରା ଯୁକ୍ତ ହୋଇ ଦୀର୍ଘ ଶୃଙ୍ଖଳା, ଶାଖାଯୁକ୍ତ ଶୃଙ୍ଖଳା କିମ୍ବା ବଳୟ (ring) ଗଠନ କରିବାର ଅନନ୍ୟକ୍ଷମତା ରଖିଛନ୍ତି। ଏହି ଗୁଣକୁ ଶୃଙ୍ଖଳନ କୁହାଯାଏ।</p>
+    </div>
+  </section>
+
+  <!-- 3. Allotropy of Carbon -->
+  <section id="allotropy">
+    <h2>୩. କାର୍ବନ୍‌ର ବହୁରୂପତା (Allotropy of Carbon)</h2>
+    <p>ଗୋଟିଏ ମୌଳିକ ବିଭିନ୍ନ ରୂପରେ ପ୍ରକୃତିରେ ମିଳିପାରେ ଯାହାର ଭୌତିକ ଧର୍ମ ଭିନ୍ନ କିନ୍ତୁ ରାସାୟନିକ ଧର୍ମ ସମାନ ହୋଇଥାଏ। ଏହି ଗୁଣକୁ ବହୁରୂପତା କୁହାଯାଏ।</p>
+
+    <div class="table-container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ବହୁରୂପ (Allotrope)</th>
+            <th>ଗଠନ ଓ ସଂରଚନା</th>
+            <th>ବୈଶିଷ୍ଟ୍ୟ ଓ ବ୍ୟବହାର</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ହିରା (Diamond)</strong></td>
+            <td>ପ୍ରତ୍ୟେକ କାର୍ବନ୍ ପରମାଣୁ ଅନ୍ୟ ୪ଟି କାର୍ବନ୍ ସହ ଯୁକ୍ତ।</td>
+            <td>ପ୍ରକୃତିର ସର୍ବାଧିକ କଠିନ ପଦାର୍ଥ; ବିଦ୍ୟୁତ୍ ଅପରିବାହୀ।</td>
+          </tr>
+          <tr>
+            <td><strong>ଗ୍ରାଫାଇଟ୍ (Graphite)</strong></td>
+            <td>ଷଡ଼ଭୁଜାକାର ସ୍ତରୀୟ ଗଠନ (Hexagonal layers)।</td>
+            <td>ବିଦ୍ୟୁତ୍ ସୁପରିବାହୀ ଏବଂ ଚିକ୍କଣ; ପେନ୍ସିଲ୍ ଲେଡ୍‌ରେ ବ୍ୟବହୃତ।</td>
+          </tr>
+          <tr>
+            <td><strong>ଫୁଲରିନ୍ (Fullerenes)</strong></td>
+            <td>ଫୁଟବଲ୍ ଆକୃତିର କାର୍ବନ୍ ପରମାଣୁର ଗୁଚ୍ଛ (ଯଥା- $C_{60}$)।</td>
+            <td>ନୂତନ ଭାବେ ଆବିଷ୍କୃତ ବହୁରୂପ।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 4. Hydrocarbons & Homologous Series -->
+  <section id="hydrocarbons">
+    <h2>୪. ହାଇଡ୍ରୋକାର୍ବନ୍ ଏବଂ ସମଗ୍ରୋତୀ ଶ୍ରେଣୀ (Hydrocarbons & Homologous Series)</h2>
+    <p>କାର୍ବନ୍ ଏବଂ ହାଇଡ୍ରୋଜେନ୍ ନେଇ ଗଠିତ ଯୌଗିକଗୁଡ଼ିକୁ ହାଇଡ୍ରୋକାର୍ବନ୍ କୁହାଯାଏ। ଏଗୁଡ଼ିକ ସନ୍ତୁକ୍ତ (Saturated - Alkanes) ଏବଂ ଅସନ୍ତୁକ୍ତ (Unsaturated - Alkenes, Alkynes) ହୋଇଥାଆନ୍ତି।</p>
+
+    <div class="callout def-box">
+      <strong>ସମଗ୍ରୋତୀ ଶ୍ରେଣୀ (Homologous Series):</strong>
+      <p>ଯୌଗିକଗୁଡ଼ିକର ଏପରି ଏକ ଶ୍ରେଣୀ ଯେଉଁଥିରେ ସମାନ କାର୍ଯ୍ୟକାରୀ ଗୋଷ୍ଠୀ (functional group) ଥାଏ ଏବଂ କ୍ରମିକ ଯୌଗିକଗୁଡ଼ିକ ମଧ୍ୟରେ ଏକ $-CH_2-$ ଗୋଷ୍ଠୀର ପାର୍ଥକ୍ୟ ରହିଥାଏ।</p>
+    </div>
+  </section>
+
+  <!-- 5. Soaps and Detergents -->
+  <section id="soaps">
+    <h2>୫. ସାବୁନ୍ ଏବଂ ଡିଟରଜେଣ୍ଟ୍ (Soaps and Detergents)</h2>
+    <p>ସାବୁନ୍ ହେଉଛି ଉଚ୍ଚ ଫ୍ୟାଟି ଏସିଡ୍‌ର ସୋଡିୟମ୍ କିମ୍ବା ପୋଟାସିୟମ୍ ଲବଣ। ଏହା ଜଳରେ ମଇଳା ସଫା କରିବାରେ ବ୍ୟବହୃତ ହୁଏ।</p>
+
+    <div class="diagram">
+      <svg width="450" height="150" viewBox="0 0 450 150" xmlns="http://www.w3.org/2000/svg">
+        <rect x="20" y="20" width="410" height="110" rx="8" fill="#141d2e" stroke="#2a364f" stroke-width="2"/>
+        <circle cx="100" cy="75" r="25" fill="#f59e0b"/>
+        <text x="90" y="80" fill="#0e1420" font-size="12" font-weight="bold">հାଇଡ୍ରୋଫିଲିକ୍</text>
+        <line x1="125" y1="75" x2="350" y2="75" stroke="#14b8a6" stroke-width="6"/>
+        <text x="210" y="60" fill="#14b8a6" font-size="12" font-weight="bold">ହାଇଡ୍ରୋଫୋବିକ୍ ଲାଞ୍ଜ (ଟେଲ୍)</text>
+        <text x="225" y="120" fill="#f1f5f9" font-size="13">ଚିତ୍ର: ସାବୁନ୍ ଅଣୁର ଗଠନ (Ionic head + Hydrocarbon tail)</text>
+      </svg>
+      <figcaption>ଚିତ୍ର: ସାବୁନ୍ ଅଣୁ ଜଳପ୍ରିୟ (Hydrophilic) ମୁଣ୍ଡ ଏବଂ ଜଳବିଦ୍ୱେଷୀ (Hydrophobic) ଲାଞ୍ଜକୁ ନେଇ ଗଠିତ।</figcaption>
+    </div>
+
+    <div class="callout activity-box">
+      <strong>ମାଇସେଲ୍ (Micelle) ଗଠନ:</strong>
+      <p>ସାବୁନ୍ ଜଳରେ ଦ୍ରବୀଭୂତ ହେଲେ ଏହାର ଅଣୁଗୁଡ଼ିକ ଏକତ୍ରିତ ହୋଇ ଗୋଲାକାର ଗୁଚ୍ଛ ସୃଷ୍ଟି କରନ୍ତି ଯାହାକୁ ମାଇସେଲ୍ କୁହାଯାଏ। ଏହା ମଇଳା ଓ ଚର୍ବିକୁ ଧରି ରଖି ପାଣିରେ ଧୋଇ ଦେବାରେ ସାହାଯ୍ୟ କରେ।</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Class 10 Chemistry Educational Notes | Chapter: କାର୍ବନ୍ ଏବଂ ଏହାର ଯୌଗିକ</p>
+</footer>
+
+</body>
+</html>
