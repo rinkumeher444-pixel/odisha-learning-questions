@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ଶ୍ରେଣୀ ୧୦ - ଜୀବବିଜ୍ଞାନ | ଅଧ୍ୟୟନ ୯: ପରିବେଶ (Our Environment)</title>
+<style>
+  :root {
+    --bg: #0e1420;
+    --bg-panel: #141d2e;
+    --bg-card: #1a2436;
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
+    --gold: #f59e0b;
+    --teal: #14b8a6;
+    --green: #10b981;
+    --coral: #f43f5e;
+    --border: #2a364f;
+    --font-serif: "Georgia", serif;
+    --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background-color: var(--bg);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    line-height: 1.7;
+    padding: 0;
+    margin: 0;
+  }
+  header.hero {
+    background: linear-gradient(135deg, var(--bg-panel), var(--bg-card));
+    border-bottom: 2px solid var(--border);
+    padding: 3rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%; width: 200%; height: 200%;
+    background: radial-gradient(circle, rgba(245, 158, 11, 0.05) 0%, transparent 70%);
+    z-index: 0;
+  }
+  .hero-content { position: relative; z-index: 1; max-width: 900px; margin: 0 auto; }
+  .chapter-badge {
+    display: inline-block;
+    background: rgba(245, 158, 11, 0.15);
+    color: var(--gold);
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+  }
+  h1 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #f59e0b, #14b8a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.75rem;
+  }
+  p.subtitle { color: var(--text-muted); font-size: 1.1rem; }
+
+  /* Pill Navigation */
+  .pillnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    background: var(--bg-panel);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(10px);
+  }
+  .pillnav a {
+    color: var(--text-muted);
+    background: var(--bg-card);
+    padding: 0.5rem 1.25rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid var(--border);
+    transition: all 0.3s ease;
+  }
+  .pillnav a:hover, .pillnav a.active {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: rgba(245, 158, 11, 0.1);
+  }
+
+  main { max-width: 1000px; margin: 2rem auto; padding: 0 1.5rem; }
+  section { margin-bottom: 3.5rem; scroll-margin-top: 5rem; }
+  h2 {
+    font-family: var(--font-serif);
+    font-size: 1.8rem;
+    color: var(--gold);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    color: var(--teal);
+    margin: 1.5rem 0 0.75rem 0;
+  }
+  p { margin-bottom: 1rem; color: #cbd5e1; }
+
+  /* Callout Boxes */
+  .callout {
+    border-left: 5px solid;
+    border-radius: 0 8px 8px 0;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    background: var(--bg-panel);
+  }
+  .def-box { border-color: var(--gold); background: rgba(245, 158, 11, 0.05); }
+  .def-box strong { color: var(--gold); }
+  .example-box { border-color: var(--teal); background: rgba(20, 184, 166, 0.05); }
+  .example-box strong { color: var(--teal); }
+  .activity-box { border-color: var(--green); background: rgba(16, 185, 129, 0.05); }
+  .activity-box strong { color: var(--green); }
+  .mistake-box { border-color: var(--coral); background: rgba(244, 63, 94, 0.05); }
+  .mistake-box strong { color: var(--coral); }
+
+  /* Comparison Grids */
+  .compare {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .compare-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  .compare-card h4 { font-size: 1.1rem; margin-bottom: 0.75rem; color: var(--gold); }
+
+  /* Flowcharts */
+  .flow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 2rem 0;
+    background: var(--bg-panel);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  .flow-node {
+    background: var(--bg-card);
+    border: 1px solid var(--teal);
+    color: var(--text-main);
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  .flow-arrow {
+    color: var(--gold);
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  /* Diagrams */
+  .diagram {
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .diagram svg { max-width: 100%; height: auto; }
+  .diagram figcaption {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  /* Data Tables */
+  .table-container {
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  table.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-panel);
+    text-align: left;
+    font-size: 0.95rem;
+  }
+  table.table th {
+    background: var(--bg-card);
+    color: var(--gold);
+    padding: 1rem;
+    border-bottom: 2px solid var(--border);
+  }
+  table.table td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--border);
+    color: #cbd5e1;
+  }
+  table.table tr:nth-child(even) { background: rgba(26, 36, 54, 0.4); }
+  table.table tr:hover { background: rgba(20, 184, 166, 0.05); }
+
+  ul, ol { margin-left: 1.5rem; margin-bottom: 1rem; color: #cbd5e1; }
+  li { margin-bottom: 0.5rem; }
+  footer {
+    text-align: center;
+    padding: 2.5rem;
+    background: var(--bg-panel);
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="chapter-badge">ଶ୍ରେଣୀ ୧୦ • ଜୀବବିଜ୍ଞାନ (Class 10 Life Science)</div>
+    <h1>ଅଧ୍ୟୟନ ୯: ପରିବେଶ (Our Environment)</h1>
+    <p class="subtitle">ଜୀବମଣ୍ଡଳ, ପରିସଂସ୍ଥା, ଶକ୍ତି ପ୍ରବାହ, ପୋଷକ ଚକ୍ର ଏବଂ ପରିବେଶ ସମସ୍ୟାର ସମ୍ପୂର୍ଣ୍ଣ ଅଧ୍ୟୟନ</p>
+  </div>
+</header>
+
+<nav class="pillnav">
+  <a href="#biosphere">ଜୀବମଣ୍ଡଳ</a>
+  <a href="#ecosystem">ପରିସଂସ୍ଥା</a>
+  <a href="#functional">କ୍ରିୟାତ୍ମକ ଦିଗ</a>
+  <a href="#nutrient">ପୋଷକ ଚକ୍ର</a>
+  <a href="#problems">ପରିବେଶ ସମସ୍ୟା</a>
+  <a href="#protection">ଆମେ କ'ଣ କରିପାରିବା</a>
+</nav>
+
+<main>
+  <!-- 1. Biosphere -->
+  <section id="biosphere">
+    <h2>୯.୧ ଜୀବମଣ୍ଡଳର ମୁଖ୍ୟ ଉପାଦାନ (Biosphere)</h2>
+    <p>ପୃଥିବୀର ପ୍ରାୟ 640 କି.ମି. ଚାରିପାଖେ ଆବୃତ ହୋଇରହିଥିବା ଆବରଣକୁ <strong>ବାୟୁମଣ୍ଡଳ (Atmosphere)</strong> କୁହାଯାଏ। ବାୟୁମଣ୍ଡଳରେ 78.62% ନାଇଟ୍ରୋଜେନ୍, 20.84% ଅମ୍ଳଜାନ, 0.03% ଅଙ୍ଗାରକାମ୍ଳ, ଆରଗନ୍, ଜଳୀୟବାଷ୍ପ ଓ ଅନ୍ୟାନ୍ୟ ଗ୍ୟାସ୍ ରହିଛି।</p>
+    
+    <div class="compare">
+      <div class="compare-card">
+        <h4>ଅଶ୍ମମଣ୍ଡଳ (Lithosphere)</h4>
+        <p>ପୃଥିବୀ ପୃଷ୍ଠରେ ଥିବା ସମସ୍ତ ପ୍ରକାର ମାଟି, ପଥର, ପାହାଡ଼, ପର୍ବତ ଆଦିକୁ ନେଇ ଅଶ୍ମମଣ୍ଡଳ ଗଠିତ।</p>
+      </div>
+      <div class="compare-card">
+        <h4>ଜଳମଣ୍ଡଳ (Hydrosphere)</h4>
+        <p>ପୃଥିବୀ ପୃଷ୍ଠରେ ଥିବା ସମସ୍ତ ପ୍ରକାର ଜଳର ଉତ୍ସ ଯଥା: ସମୁଦ୍ର, ହିମପ୍ରବାହ, ନଦୀ, ହ୍ରଦ ଓ ଭୂତଳ ଜଳ।</p>
+      </div>
+    </div>
+
+    <div class="callout def-box">
+      <strong>ଜୀବମଣ୍ଡଳ (Biosphere) Definition:</strong>
+      <p>ଜଳମଣ୍ଡଳ, ବାୟୁମଣ୍ଡଳ ଓ ଅଶ୍ମମଣ୍ଡଳର ସମାହାର ସ୍ଥଳରେ ପରସ୍ପର ମଧ୍ୟରେ ସମନ୍ୱୟ ଯୋଗୁଁ ଜୀବସୃଷ୍ଟି ତଥା ବିକାଶ ଓ ଜୀବନଧାରଣ ସମ୍ଭବ ହୋଇଥାଏ। ଏହି ଅନୁକୂଳ ବାତାବରଣକୁ ଜୀବମଣ୍ଡଳ କୁହାଯାଏ। ଏହା ସୌରଶକ୍ତି ଦ୍ୱାରା ପରିଚାଳିତ ଏବଂ ଆତ୍ମନିୟନ୍ତ୍ରଣକ୍ଷମ ଏକ ପ୍ରାକୃତିକ ସଂସ୍ଥା।</p>
+    </div>
+  </section>
+
+  <!-- 2. Ecosystem -->
+  <section id="ecosystem">
+    <h2>୯.୨ ଓ ୯.୩ ପରିସଂସ୍ଥା ଏବଂ ଏହାର ଗାଠନିକ ଉପାଦାନ</h2>
+    <p>ଗୋଟିଏ ଅଞ୍ଚଳରେ ବାସକରୁଥିବା ସମସ୍ତ ସଜୀବ (ଉଦ୍ଭିଦ, ପ୍ରାଣୀ, ଅଣୁଜୀବ) ଓ ନିର୍ଜୀବ ବସ୍ତୁ (ମାଟି, ପାଣି, ପବନ) କୁ ନେଇ <strong>ପରିସଂସ୍ଥା (Ecosystem)</strong> ଗଠିତ। ‘ଇକୋସିଷ୍ଟମ’ ଶବ୍ଦର ବ୍ୟବହାର ପ୍ରଥମେ 1935 ମସିହାରେ <strong>ଏ.ଜି. ଟାନ୍‌ସ୍‌ଲେ (A.G. Tansley)</strong> କରିଥିଲେ।</p>
+
+    <h3>ପରିସଂସ୍ଥାର ୪ଟି ମୁଖ୍ୟ ଉପାଦାନ:</h3>
+    <div class="table-container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ଉପାଦାନର ପ୍ରକାର</th>
+            <th>ବିବରଣୀ ଓ ଉଦାହରଣ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>(i) ଅଜୈବିକ ଉପାଦାନ (Abiotic)</strong></td>
+            <td>ମାଟି, ପାଣି, ପବନ, ତାପମାତ୍ରା, ଆର୍ଦ୍ରତା, ଆଲୋକ ଏବଂ ବିଭିନ୍ନ ମୌଳିକ/ଯୌଗିକ ପଦାର୍ଥ।</td>
+          </tr>
+          <tr>
+            <td><strong>(ii) ଉତ୍ପାଦକ (Producer)</strong></td>
+            <td>ସମସ୍ତ ସବୁଜ ଉଦ୍ଭିଦ (ଯଥା- ଘାସ, ଗଛ, ଫାଇଟୋପ୍ଲାଙ୍କଟନ୍)। ଏମାନେ ସ୍ୱପୋଷୀ (Autotrophs)।</td>
+          </tr>
+          <tr>
+            <td><strong>(iii) ଭକ୍ଷକ (Consumer)</strong></td>
+            <td>ପରପୋଷୀ ପ୍ରାଣୀ, ଯେଉଁମାନେ ପ୍ରତ୍ୟକ୍ଷ ବା ପରୋକ୍ଷ ଭାବେ ଉଦ୍ଭିଦ ଉପରେ ନିର୍ଭରଶୀଳ (ପ୍ରାଥମିକ, ଦ୍ୱିତୀୟକ, ତୃତୀୟକ ଓ ଶୀର୍ଷ ଭକ୍ଷକ)।</td>
+          </tr>
+          <tr>
+            <td><strong>(iv) ଅପଘଟକ (Decomposer)</strong></td>
+            <td>ବୀଜାଣୁ (Bacteria), କବକ (Fungi) ଆଦି, ଯେଉଁମାନେ ମୃତ ଜୀବ ଓ ବର୍ଜ୍ୟବସ୍ତୁକୁ ଅପଘଟନ କରନ୍ତି।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 3. Functional Aspects -->
+  <section id="functional">
+    <h2>୯.୪ ଓ ୯.୫ ପରିସଂସ୍ଥାର କ୍ରିୟାତ୍ମକ ଦିଗ ଓ ଶକ୍ତି ପ୍ରବାହ</h2>
+    <p>ପ୍ରତ୍ୟେକ ପରିସଂସ୍ଥାର ୪ଟି ମୁଖ୍ୟ କାର୍ଯ୍ୟକାରୀ ପ୍ରଣାଳୀ ଅଛି: ଖାଦ୍ୟ ଶୃଙ୍ଖଳ, ଶକ୍ତି ପ୍ରବାହ, ପୋଷକ ଚକ୍ର ଏବଂ ସମସ୍ଥିତି (Homeostasis)।</p>
+
+    <div class="callout example-box">
+      <strong>ଖାଦ୍ୟ ଶୃଙ୍ଖଳ (Food Chain) & ଇଂରେଜ ପରିବେଶବିତ୍ ଚାର୍ଲସ୍ ଏଲ୍‌ଟନ୍:</strong>
+      <p>ଚାର୍ଲସ୍ ଏଲ୍‌ଟନ୍ (Charles Elton) ଙ୍କ ଅନୁସାରେ, ଯେକୌଣସି ଖାଦ୍ୟଶୃଙ୍ଖଳରେ ଖୁବ୍ ବେଶୀରେ ୫ଟି ଖାଦ୍ୟସ୍ତର (Trophic levels) ଥାଏ। ଶକ୍ତି ପ୍ରବାହ ସମୟରେ କିଛି ଶକ୍ତି ଉତ୍ତାପ ରୂପେ ବାତାବରଣକୁ ଚାଲିଯାଏ।</p>
+    </div>
+
+    <h3>ଶକ୍ତି ପ୍ରବାହର ନକସା (Energy Flow & Ten Percent Rule)</h3>
+    <div class="flow">
+      <div class="flow-node">ସୂର୍ଯ୍ୟାଲୋକ</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ଉତ୍ପାଦକ (ସବୁଜ ଉଦ୍ଭିଦ)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ପ୍ରାଥମିକ ଭକ୍ଷକ (ତୃଣଭୋଜୀ)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ଦ୍ୱିତୀୟକ ଭକ୍ଷକ (ମାଂସାଶୀ)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ତୃତୀୟକ/ଶୀର୍ଷ ଭକ୍ଷକ</div>
+    </div>
+
+    <p>ଆର.ଏଲ୍. ଲିଣ୍ଡେମ୍ୟାନ୍ (R.L. Lindeman, 1942) <strong>'ଦଶ ପ୍ରତିଶତ ନିୟମ' (Ten per cent Rule)</strong> ପ୍ରଣୟନ କରିଥିଲେ। ଯଦି ଉତ୍ପାଦକ ସ୍ତରରେ ଶକ୍ତି 100 କ୍ୟାଲୋରି ହୁଏ, ତେବେ ତୃଣଭୋଜୀ ସ୍ତରରେ 10 କ୍ୟାଲୋରି, ମାଂସାଶୀ କ୍ରମ-୧ ଠାରେ 1 କ୍ୟାଲୋରି ଏବଂ କ୍ରମ-୨ ଠାରେ ମାତ୍ର 0.1 କ୍ୟାଲୋରି ଶକ୍ତି ମିଳିବ। ଶକ୍ତିର ପ୍ରବାହ ସର୍ବଦା <strong>ଏକତରଫା (Unidirectional)</strong> ଅଟେ।</p>
+  </section>
+
+  <!-- 4. Nutrient Cycle -->
+  <section id="nutrient">
+    <h2>୯.୭ ପୋଷକ ଚକ୍ର (Nutrient Cycle / Biogeochemical Cycle)</h2>
+    <p>ଜୀବ ଶରୀର ପାଇଁ ଅଧିକ ପରିମାଣରେ ଆବଶ୍ୟକ ହେଉଥିବା ଅଙ୍ଗାରକ, ଯବକ୍ଷାରଜାନ, ଅମ୍ଳଜାନ, ଉଦ୍ଜାନ, ପଟାସିୟମ୍, କ୍ୟାଲସିୟମ୍ ଆଦିକୁ <strong>ସ୍ଥୂଳ ପୋଷକ (Macronutrient)</strong> ଏବଂ କମ୍ ପରିମାଣରେ ଆବଶ୍ୟକ ହେଉଥିବା କପର୍, ଜିଙ୍କ୍, ଲୌହ ଆଦିକୁ <strong>ସୂକ୍ଷ୍ମ ପୋଷକ (Micronutrient)</strong> କୁହାଯାଏ।</p>
+
+    <div class="compare">
+      <div class="compare-card">
+        <h4>ଅମ୍ଳଜାନ ଚକ୍ର (Oxygen Cycle)</h4>
+        <p>ବାୟୁମଣ୍ଡଳରେ 21% ଅମ୍ଳଜାନ ଅଛି। ଜୀବମାନେ ଶ୍ୱସକ୍ରିୟା ଦ୍ୱାରା ଅମ୍ଳଜାନ ଗ୍ରହଣ କରି ଅଙ୍ଗାରକାମ୍ଳ ଛାଡ଼ନ୍ତି ଏବଂ ଉଦ୍ଭିଦମାନେ ଆଲୋକଶ୍ଳେଷଣ ଜରିଆରେ ଅମ୍ଳଜାନ ଫେରାଇଥାଆନ୍ତି।</p>
+      </div>
+      <div class="compare-card">
+        <h4>ଯବକ୍ଷାରଜାନ ଚକ୍ର (Nitrogen Cycle)</h4>
+        <p>ବାୟୁମଣ୍ଡଳରେ ନାଇଟ୍ରୋଜେନ୍ ପ୍ରଚୁର ଥିଲେ ମଧ୍ୟ ସିଧାସଳଖ ବ୍ୟବହାର ହୋଇପାରେ ନାହିଁ। ରାଇଜୋବିଅମ୍ (Rhizobium), ଆଜୋଟୋବାକ୍ଟର (Azotobacter) ଆଦି ବ୍ୟାକ୍ଟେରିଆ ବିବନ୍ଧନ ଓ ନାଇଟ୍ରିଫିକେସନ୍ ଦ୍ୱାରା ଏହାକୁ ଉଦ୍ଭିଦ ଉପଯୋଗୀ କରନ୍ତି।</p>
+      </div>
+    </div>
+
+    <div class="callout mistake-box">
+      <strong>ଜୈବପରିବର୍ଦ୍ଧନ (Biomagnification):</strong>
+      <p>ବିଷାକ୍ତ କୀଟନାଶକ ଓ ରାସାୟନିକ ପଦାର୍ଥଗୁଡ଼ିକ ଖାଦ୍ୟଶୃଙ୍ଖଳର ବିଭିନ୍ନ ସ୍ତର ଦେଇ ଗତିକରି ଶୀର୍ଷ ଭକ୍ଷକ (ଯଥା ମଣିଷ ଓ ପକ୍ଷୀ) ପାଖରେ ପହଞ୍ଚିବା ବେଳକୁ ବହୁଗୁଣିତ ହୋଇଯାଏ। ଏହି କ୍ରମାଗତ ବୃଦ୍ଧିକୁ ଜୈବପରିବର୍ଦ୍ଧନ କୁହାଯାଏ।</p>
+    </div>
+  </section>
+
+  <!-- 5. Environmental Problems -->
+  <section id="problems">
+    <h2>୯.୧୦ ପରିବେଶ ସମସ୍ୟା (Environmental Problems)</h2>
+    <p>ମଣିଷର ଅସଂଯତ ବ୍ୟବହାର ଓ ଲୋଭ ଯୋଗୁଁ ପ୍ରାକୃତିକ ସମ୍ପଦର ଅପବ୍ୟବହାର ଘଟି ନିମ୍ନଲିଖିତ ପରିବେଶ ସମସ୍ୟା ଦେଖାଦେଇଛି:</p>
+    <ul>
+      <li><strong>ବିଶ୍ୱତାପନ (Global warming):</strong> ବାୟୁମଣ୍ଡଳରେ ଅଙ୍ଗାରକାମ୍ଳ ଓ ସବୁଜ କୋଠରି ଗ୍ୟାସ୍ (Greenhouse gases) ବୃଦ୍ଧି ପାଇବା ଯୋଗୁଁ ପୃଥିବୀର ତାପମାତ୍ରା ବଢ଼ୁଛି।</li>
+      <li><strong>ଓଜୋନ୍ ଛିଦ୍ର (Ozone hole):</strong> ଫ୍ରିଜ୍ ଓ ଏସିରେ ବ୍ୟବହୃତ CFC (କ୍ଲୋରୋଫ୍ଲୋରୋକାର୍ବନ) ଯୋଗୁଁ ଓଜୋନ୍ ସ୍ତର ନଷ୍ଟ ହେଉଛି, ଯାହାଫଳରେ ଅତିବାଇଗଣିତ ରଶ୍ମି ସିଧାସଳଖ ପୃଥିବୀକୁ ଆସି ଚର୍ମ କର୍କଟ (Skin cancer) ସୃଷ୍ଟି କରୁଛି।</li>
+      <li><strong>ଅମ୍ଳବର୍ଷା (Acid rain):</strong> କଳକାରଖାନା ଓ ମୋଟରଯାନରୁ ବାହାରୁଥିବା ସଲଫର୍ ଡାଇଅକ୍ସାଇଡ୍ ଓ ନାଇଟ୍ରୋଜେନ୍ ଅକ୍ସାଇଡ୍ ଜଳୀୟବାଷ୍ପ ସହ ମିଶି ସଲଫୁରିକ୍ ଅମ୍ଳ ଓ ନାଇଟ୍ରିକ୍ ଅମ୍ଳ ରୂପେ ବର୍ଷା ଜଳରେ ପଡ଼ୁଛି।</li>
+      <li><strong>ବର୍ଜ୍ୟବସ୍ତୁ ସମସ୍ୟା:</strong> ଜୈବ ଅବନମିତକ୍ଷମ (Biodegradable - ପନିପରିବା, କାଗଜ) ଏବଂ ଜୈବ ଅବନମିତଅକ୍ଷମ (Non-biodegradable - ପ୍ଲାଷ୍ଟିକ, ପାରଦ) ବର୍ଜ୍ୟର ସୁପରିଚାଳନା ଅଭାବରୁ ପ୍ରଦୂଷଣ ବଢ଼ୁଛି।</li>
+    </ul>
+  </section>
+
+  <!-- 6. What We Can Do -->
+  <section id="protection">
+    <h2>୯.୧୧ ଆମେ କ'ଣ କରିପାରିବା (Environmental Protection & Organizations)</h2>
+    <p>ଚୀନ୍ ଦେଶର ଏକ ଲୋକପ୍ରବାଦ ଅଛି: <em>“ଯଦି ୧ ବର୍ଷ ପାଇଁ ଯୋଜନା କରୁଛ ତେବେ ଧାନଚାଷ କର। ଯଦି ୧୦ ବର୍ଷ ପାଇଁ ଯୋଜନା କରୁଛ ତେବେ ଗଛ ଲଗାଅ। ଯଦି ୧୦୦ ବର୍ଷ ପାଇଁ ଯୋଜନା କରୁଛ ତେବେ ଜନସାଧାରଣଙ୍କୁ ଶିକ୍ଷିତ କର।”</em></p>
+
+    <h3>ପରିବେଶ ସୁରକ୍ଷା ପାଇଁ କାର୍ଯ୍ୟ କରୁଥିବା ସଂସ୍ଥାଗୁଡ଼ିକ:</h3>
+    <div class="table-container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ସଂସ୍ଥାର ନାମ</th>
+            <th>ପ୍ରତିଷ୍ଠା / କାର୍ଯ୍ୟକ୍ଷେତ୍ର</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>କଳ୍ପବୃକ୍ଷ (Kalpavriksha)</strong></td>
+            <td>ଦିଲ୍ଲୀ ଓ ଆଖପାଖ ଅଞ୍ଚଳରେ 1979 ମସିହାରୁ ବାୟୁ ପ୍ରଦୂଷଣ, ସବୁଜ ବଳୟ ସୃଷ୍ଟି ଓ ଡେରାଡୁନ୍ରେ ଖଣି ସମସ୍ୟା ଉପରେ କାର୍ଯ୍ୟ କରୁଛି।</td>
+          </tr>
+          <tr>
+            <td><strong>କେରଳ ଶାସ୍ତ୍ର ସାହିତ୍ୟ ପରିଷଦ</strong></td>
+            <td>1970 ମସିହାରେ ଗୋବର ଗ୍ୟାସ୍, ଧୂମହୀନ ଚୁଲା ବ୍ୟବହାର ପାଇଁ ଗ୍ରାମମାନଙ୍କରେ ସଚେତନତା ସୃଷ୍ଟି କରୁଛି।</td>
+          </tr>
+          <tr>
+            <td><strong>ବମ୍ବେ ନାଚୁରାଲ୍ ହିଷ୍ଟ୍ରି ସୋସାଇଟି (BNHS)</strong></td>
+            <td>1883 ମସିହାରେ ପ୍ରତିଷ୍ଠିତ, ବନ୍ୟଜୀବ ସଂରକ୍ଷଣ ଓ ପରିବେଶ ସୁରକ୍ଷା ଉପରେ କାର୍ଯ୍ୟ କରୁଛି।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Class 10 Life Science Educational Notes | Chapter 9: Our Environment (ପରିବେଶ)</p>
+</footer>
+
+</body>
+</html>
