@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ - ତୃତୀୟ ପାଠ: ମୃତ୍ତିକା ସମ୍ବଳ</title>
+  <title>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ - ଦ୍ୱିତୀୟ ପାଠ: ଭୂ-ସମ୍ବଳ</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -48,8 +48,8 @@
     body {
       background-color: var(--bg);
       background-image: 
-        radial-gradient(at 0% 0%, rgba(20, 184, 166, 0.08) 0px, transparent 50%),
-        radial-gradient(at 100% 100%, rgba(245, 158, 11, 0.06) 0px, transparent 50%),
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
         radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
       color: var(--text-main);
       font-family: 'Noto Sans Oriya', 'Outfit', sans-serif;
@@ -403,364 +403,427 @@
   <!-- Hero Header -->
   <header class="hero">
     <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="100" cy="100" r="90" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
       <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
-      <circle cx="100" cy="100" r="40" stroke="#f59e0b" stroke-width="1"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
       <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
       <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
       <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
     </svg>
-    <div class="badge">🌱 ଦଶମ ଶ୍ରେଣୀ • ଭୂଗୋଳ • ତୃତୀୟ ପାଠ</div>
-    <h1>ମୃତ୍ତିକା ସମ୍ବଳ (Soil Resources)</h1>
-    <p>ମୃତ୍ତିକାର ଗଠନ, ନିୟାମକ, ପାର୍ଶ୍ୱଚ୍ଛେଦ, ICAR ଦ୍ୱାରା ବର୍ଗୀକୃତ ଭାରତର ୯ ପ୍ରକାର ମୃତ୍ତିକା, ମୃତ୍ତିକା କ୍ଷୟ ଏବଂ ସଂରକ୍ଷଣ ପଦ୍ଧତିର ବିସ୍ତୃତ ସାରାଂଶ।</p>
+    <div class="badge">🗺️ ଦଶମ ଶ୍ରେଣୀ • ଭୂଗୋଳ • ଦ୍ୱିତୀୟ ପାଠ</div>
+    <h1>ଭୂ-ସମ୍ବଳ (Land Resources)</h1>
+    <p>ଭାରତର ଭୌଗୋଳିକ ଅବସ୍ଥିତି, ଆକାର ଓ ସୀମାରେଖା, ଭୂ-ସମ୍ବଳର ବିନିଯୋଗ, ଭୂ-ପ୍ରକୃତିକ ଶ୍ରେଣୀବିଭାଗ, ସାଧାରଣ ଭୂ-ବ୍ୟବହାର ଢାଞ୍ଚା, ଭୂ-ଅବକ୍ଷୟ ଏବଂ ସଂରକ୍ଷଣ ଉପାୟ।</p>
   </header>
 
   <!-- Pill Navigation -->
   <nav class="pillnav">
-    <a href="#formation">ମୃତ୍ତିକା ଗଠନ ଓ ନିୟାମକ</a>
-    <a href="#profile">ମୃତ୍ତିକାର ପାର୍ଶ୍ୱଚ୍ଛେଦ</a>
-    <a href="#classification">ମୃତ୍ତିକାର ପ୍ରକାରଭେଦ</a>
-    <a href="#icar-types">ICAR ୯ ପ୍ରକାର ମୃତ୍ତିକା</a>
-    <a href="#erosion">ମୃତ୍ତିକା କ୍ଷୟ ଓ ସମସ୍ୟା</a>
-    <a href="#conservation">ମୃତ୍ତିକା ସଂରକ୍ଷଣ</a>
-    <a href="#exercises">ଅଧ୍ୟାୟ ପ୍ରଶ୍ନୋତ୍ତର</a>
+    <a href="#intro">ଭୂ-ସମ୍ବଳ ଓ ବିନିଯୋଗ</a>
+    <a href="#location">ଭାରତର ଅବସ୍ଥିତି ଓ ସୀମା</a>
+    <a href="#relief">ଭୂ-ପ୍ରକୃତି ଓ ବିତରଣ</a>
+    <a href="#landuse-pattern">ଭୂ-ବ୍ୟବହାର ଶ୍ରେଣୀବିଭାଗ</a>
+    <a href="#landuse-table">ଭୂ-ବ୍ୟବହାର ତଥ୍ୟ (ସାରଣୀ ୦୧)</a>
+    <a href="#forest-pasture">ଅରଣ୍ୟ ଓ ଗୋଚର ଭୂମି</a>
+    <a href="#agriculture">କୃଷିଭୂମି ଓ ଅଣକୃଷି ଭୂମି</a>
+    <a href="#degradation">ଭୂ-ଅବକ୍ଷୟ ଓ ସମାଧାନ</a>
+    <a href="#exercises">ପ୍ରଶ୍ନୋତ୍ତର</a>
   </nav>
 
-  <!-- 1. Soil Formation & Controls -->
-  <section id="formation">
-    <h2 class="sec-title">🌍 ୧. ମୃତ୍ତିକାର ଗଠନ ଓ ନିୟାମକ</h2>
+  <!-- 1. Introduction & Utilization -->
+  <section id="intro">
+    <h2 class="sec-title">🌍 ୧. ଭୂ-ସମ୍ବଳର ଗୁରୁତ୍ୱ ଓ ବିନିଯୋଗ</h2>
     <p>
-      ମୃତ୍ତିକା ପ୍ରକୃତିର ଏକ ମୂଲ୍ୟବାନ୍ ନବୀକରଣ ଯୋଗ୍ୟ ସମ୍ବଳ[span_0](start_span)[span_0](end_span)। ମାତ୍ର ଏହାର ଗଠନ ପାଇଁ ବହୁ ବର୍ଷ ଲାଗୁଥିବାରୁ କେତେକ ଏହାକୁ ନବୀକରଣ ଅଯୋଗ୍ୟ ସମ୍ବଳ ଶ୍ରେଣୀରେ ମଧ୍ୟ ଅନ୍ତର୍ଭୁକ୍ତ କରିଥା’ନ୍ତି[span_1](start_span)[span_1](end_span)। ସମସ୍ତ ଜୀବଜଗତ ପ୍ରତ୍ୟକ୍ଷ ବା ପରୋକ୍ଷ ଭାବେ ଖାଦ୍ୟ ଓ କୃଷି ପାଇଁ ମୃତ୍ତିକା ଉପରେ ନିର୍ଭରଶୀଳ[span_2](start_span)[span_2](end_span)।
+      ଆମ୍ଭେମାନେ ଭୂମି ଉପରେ ବାସ କରୁ ଏବଂ ଆମର ସମସ୍ତ ସାମାଜିକ ତଥା ଅର୍ଥନୈତିକ କାର୍ଯ୍ୟକଳାପ ଏହା ଉପରେ ସମ୍ପାଦିତ ହୁଏ[span_0](start_span)[span_0](end_span)। ଭୂମି ପ୍ରକୃତିର ସମସ୍ତ ପରିସଂସ୍ଥାରେ ଥିବା ସମଗ୍ର ଜୀବଜଗତର ଭାର ବହନ କରୁଥିବାରୁ ଏହା ଏକ ମୌଳିକ ପ୍ରାକୃତିକ ସମ୍ବଳ[span_1](start_span)[span_1](end_span)।
     </p>
 
     <div class="callout def-box">
-      <strong>ମୃତ୍ତିକାର ସଂଜ୍ଞା:</strong><br>
-      ଭୂପୃଷ୍ଠସ୍ଥ ଆଗ୍ନେୟ, ସ୍ତରୀଭୂତ ଓ ରୂପାନ୍ତରିତ ଶିଳା ଉତ୍ତାପର ହ୍ରାସବୃଦ୍ଧି, ବୃଷ୍ଟିପାତ, କରକା, ହିମବାହ, ଉଦ୍ଭିଦ ଓ ପ୍ରାଣୀଙ୍କ ଦ୍ୱାରା ଚୂର୍ଣ୍ଣୀଭୂତ ହୋଇ ଜଳ, ବାୟୁ, ଜୈବାଂଶ ଓ ଖଣିଜ ପଦାର୍ଥ ସହିତ ମିଶି ଭୂମିର ଉପରିଭାଗରେ ଯେଉଁ ପତଳା ଆସ୍ତରଣ ସୃଷ୍ଟି କରେ, ତାକୁ <strong>ମୃତ୍ତିକା</strong> କୁହାଯାଏ[span_3](start_span)[span_3](end_span)। ତେଣୁ ମୃତ୍ତିକା ଏକ <strong>ଯୌଗିକ ପଦାର୍ଥ</strong>[span_4](start_span)[span_4](end_span)।
+      <strong>ମୌଳିକ ଆବଶ୍ୟକତା ପୂରଣ:</strong><br>
+      ମନୁଷ୍ୟ ତା’ର ମୌଳିକ ଆବଶ୍ୟକତା (ଖାଦ୍ୟ, ବସ୍ତ୍ର, ବାସଗୃହ) ର ପ୍ରାୟ <strong>୯୫ ଶତକଡ଼ା (95%) ଭାଗ</strong> ସିଧାସଳଖ ଭୂମିରୁ ହିଁ ପାଇଥାଏ[span_2](start_span)[span_2](end_span)।
     </div>
 
-    <div class="flow">
-      <div class="flow-node">ପ୍ରାଥମିକ ଶିଳା (Parent Rock)</div>
-      <div class="flow-arrow">→</div>
-      <div class="flow-node">ଚୂର୍ଣ୍ଣୀଭବନ (Weathering)</div>
-      <div class="flow-arrow">→</div>
-      <div class="flow-node">ଜଳ, ବାୟୁ, ଜୈବାଂଶ ଓ ଖଣିଜର ମିଶ୍ରଣ</div>
-      <div class="flow-arrow">→</div>
-      <div class="flow-node">ମୃତ୍ତିକା (ମାତ୍ର ୨ ସେମି ଗଠନ ପାଇଁ ହଜାର ହଜାର ବର୍ଷ)</div>
-    </div>
-
-    <h3 class="sub-title">ମୃତ୍ତିକା ଗଠନରେ ପରିବେଶର ୬ଟି ମୁଖ୍ୟ କାରକ (ସାରଣୀ - ୦୨):</h3>
+    <h3 class="sub-title">ଭୂ-ସମ୍ବଳର ପ୍ରମୁଖ ବିନିଯୋଗ:</h3>
     <div class="compare">
       <div class="card teal">
-        <h4>୧. ପୃଷ୍ଠ ସଂରଚନା (Parent Rock)</h4>
-        <p>ପ୍ରାଥମିକ ଶିଳା ମୃତ୍ତିକାର ରଙ୍ଗ, ବିନ୍ୟାସ, ରାସାୟନିକ ଗୁଣ, ଖଣିଜ ପଦାର୍ଥ ଓ ଭେଦ୍ୟତା ନିର୍ଦ୍ଧାରଣ କରେ[span_5](start_span)[span_5](end_span) ।</p>
+        <h4>୧. ମୌଳିକ ଆଧାର ଓ କୃଷି</h4>
+        <ul>
+          <li>ଖାଦ୍ୟ, ବସ୍ତ୍ର ଓ ବାସଗୃହର ମୌଳିକ ଆବଶ୍ୟକତା ଯୋଗାଣ[span_3](start_span)[span_3](end_span)।</li>
+          <li>ବିଭିନ୍ନ ପ୍ରକାର କୃଷିକାର୍ଯ୍ୟ ମାଧ୍ୟମରେ ଖାଦ୍ୟଶସ୍ୟ ଉତ୍ପାଦନ[span_4](start_span)[span_4](end_span)।</li>
+        </ul>
       </div>
       <div class="card gold">
-        <h4>୨. ପୃଷ୍ଠ ଉଚ୍ଚାବଚ୍ଚ / ଢାଲୁ (Relief)</h4>
-        <p>ଭୂମିର ଢାଲୁ ଓ ଉଚ୍ଚାବଚ୍ଚ ମୃତ୍ତିକାର ସଞ୍ଚୟ ପରିମାଣ ଓ ସ୍ତରର ଘନତ୍ୱକୁ ନିୟନ୍ତ୍ରଣ କରେ[span_6](start_span)[span_6](end_span) ।</p>
-      </div>
-      <div class="card blue">
-        <h4>୩. ଜଳବାୟୁ (Climate)</h4>
-        <p>ତାପମାତ୍ରା, ବୃଷ୍ଟିପାତ ଓ ବାୟୁପ୍ରବାହ ଚୂର୍ଣ୍ଣୀଭବନର ହାର ଓ ରାସାୟନିକ ପ୍ରକ୍ରିୟାକୁ ନିୟନ୍ତ୍ରଣ କରେ[span_7](start_span)[span_7](end_span) ।</p>
+        <h4>୨. ବସତି ଓ ଭିତ୍ତିଭୂମି ସ୍ଥାପନ</h4>
+        <ul>
+          <li>ଗ୍ରାମ, ସହର, ଶିଳ୍ପକେନ୍ଦ୍ର, ଶିକ୍ଷା, ସ୍ୱାସ୍ଥ୍ୟ, ବଜାର ଓ ପ୍ରଶାସନିକ ଅନୁଷ୍ଠାନ ସ୍ଥାପନ[span_5](start_span)[span_5](end_span)।</li>
+          <li>ରାସ୍ତାଘାଟ, ରେଳପଥ, ବିମାନବନ୍ଦର, ସାମୁଦ୍ରିକ ବନ୍ଦର ଓ କେନାଲ ନିର୍ମାଣ[span_6](start_span)[span_6](end_span)।</li>
+        </ul>
       </div>
       <div class="card green">
-        <h4>୪. ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ ଓ ଜୀବଜଗତ</h4>
-        <p>ଉଦ୍ଭିଦ ଓ ପ୍ରାଣୀଙ୍କ ଅବଶେଷ ମୃତ୍ତିକାରେ ଜୈବାଂଶ (Humus) ପରିମାଣ ବୃଦ୍ଧି କରେ[span_8](start_span)[span_8](end_span) ।</p>
-      </div>
-      <div class="card coral">
-        <h4>୫. ଜୈବାଂଶ (Organic Matter)</h4>
-        <p>ଜୀବାଣୁ ଓ ଅଣୁଜୀବଙ୍କ କାର୍ଯ୍ୟକଳାପ ଦ୍ୱାରା ମୃତ୍ତିକାରେ ରାସାୟନିକ ପରିବର୍ତ୍ତନ ଓ ଉର୍ବରତା ଆସେ[span_9](start_span)[span_9](end_span) ।</p>
-      </div>
-      <div class="card teal">
-        <h4>୬. ସମୟ (Time)</h4>
-        <p>ମୃତ୍ତିକାର ପରିପକ୍ୱତା ଓ ସ୍ତରର ମୋଟେଇ ନିର୍ଣ୍ଣୟ କରେ[span_10](start_span)[span_10](end_span) ।</p>
+        <h4>୩. ଖଣିଜ ଉତ୍ତୋଳନ ଓ ପରିବେଶ ସନ୍ତୁଳନ</h4>
+        <ul>
+          <li>ଭୂ-ଅଭ୍ୟନ୍ତରରୁ ଖଣିଜ ଦ୍ରବ୍ୟ ଉତ୍ତୋଳନ କରି ଶିଳ୍ପ ପାଇଁ କଞ୍ଚାମାଲ ଯୋଗାଣ[span_7](start_span)[span_7](end_span)।</li>
+          <li>ଅରଣ୍ୟ ଓ ତୃଣଭୂମି ମାଧ୍ୟମରେ ପରିସଂସ୍ଥା ରକ୍ଷା ଓ ବିଶ୍ୱ ଜଳବାୟୁ ନିୟନ୍ତ୍ରଣ[span_8](start_span)[span_8](end_span)।</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- 2. Soil Profile Diagram -->
-  <section id="profile">
-    <h2 class="sec-title">📐 ୨. ମୃତ୍ତିକାର ପାର୍ଶ୍ୱଚ୍ଛେଦ (Soil Profile)</h2>
+  <!-- 2. Location & Boundaries -->
+  <section id="location">
+    <h2 class="sec-title">📍 ୨. ଭାରତର ଅବସ୍ଥିତି, ଆକାର ଓ ସୀମାରେଖା</h2>
     <p>
-      ମୃତ୍ତିକାର ଉଲ୍ଲମ୍ବ ଛେଦକୁ ଅନୁଧ୍ୟାନ କଲେ ଚାରୋଟି ସ୍ପଷ୍ଟ ପାର୍ଶ୍ୱଚ୍ଛେଦ ସ୍ତର (Horizons) ଦେଖିବାକୁ ମିଳେ[span_11](start_span)[span_11](end_span):
+      ଭାରତ ଉତ୍ତର ଗୋଲାର୍ଦ୍ଧରେ ଏସିଆ ମହାଦେଶର ଦକ୍ଷିଣାଂଶରେ ଅବସ୍ଥିତ[span_9](start_span)[span_9](end_span)। କର୍କଟକ୍ରାନ୍ତି (23°30′ ଉତ୍ତର ସମାକ୍ଷରେଖା) ଭାରତର ମଧ୍ୟଭାଗ ଦେଇ ଗତି କରି ଦେଶକୁ ପ୍ରାୟ ଦୁଇ ସମାନ ଭାଗରେ ବିଭକ୍ତ କରିଛି[span_10](start_span)[span_10](end_span)।
     </p>
 
-    <div class="diagram-container">
-      <figure>
-        <svg viewBox="0 0 540 380" width="500" height="350" xmlns="http://www.w3.org/2000/svg">
-          <!-- Horizon A: Topsoil -->
-          <rect x="140" y="30" width="260" height="70" fill="#1e3a2f" stroke="#10b981" stroke-width="2"/>
-          <text x="270" y="60" fill="#a7f3d0" font-size="13" font-weight="bold" text-anchor="middle">ଉପର ମୃତ୍ତିକା ସ୍ତର (କ-ପାର୍ଶ୍ୱଚ୍ଛେଦ)</text>
-          <text x="270" y="80" fill="#6ee7b7" font-size="11" text-anchor="middle">ଜୈବାଂଶ ଓ ଉଦ୍ଭିଦଯୁକ୍ତ ସ୍ତର (Topsoil)</text>
-
-          <!-- Trees on top -->
-          <path d="M 170,30 L 170,15 M 160,15 L 180,15 L 170,0 Z" stroke="#10b981" fill="#10b981"/>
-          <path d="M 270,30 L 270,15 M 260,15 L 280,15 L 270,0 Z" stroke="#10b981" fill="#10b981"/>
-          <path d="M 370,30 L 370,15 M 360,15 L 380,15 L 370,0 Z" stroke="#10b981" fill="#10b981"/>
-
-          <!-- Horizon B: Subsoil -->
-          <rect x="140" y="100" width="260" height="75" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
-          <text x="270" y="135" fill="#bae6fd" font-size="13" font-weight="bold" text-anchor="middle">ଉପ ମୃତ୍ତିକା ସ୍ତର (ଖ-ପାର୍ଶ୍ୱଚ୍ଛେଦ)</text>
-          <text x="270" y="155" fill="#93c5fd" font-size="11" text-anchor="middle">ବାଲି, ପଟୁ ଓ କର୍ଦ୍ଦମ ମିଶ୍ରିତ ଉପମୃତ୍ତିକା (Subsoil)</text>
-
-          <!-- Horizon C: Substratum -->
-          <rect x="140" y="175" width="260" height="85" fill="#2d2215" stroke="#f59e0b" stroke-width="2"/>
-          <text x="270" y="210" fill="#fde68a" font-size="13" font-weight="bold" text-anchor="middle">ଅଧଃସ୍ତର (ଗ-ପାର୍ଶ୍ୱଚ୍ଛେଦ)</text>
-          <text x="270" y="230" fill="#fcd34d" font-size="11" text-anchor="middle">ପ୍ରାଥମିକ ଶିଳାର ଚୂର୍ଣ୍ଣୀଭୂତ ଶିଳାଖଣ୍ଡ (Substratum)</text>
-
-          <!-- Horizon D: Bedrock -->
-          <rect x="140" y="260" width="260" height="90" fill="#261b2e" stroke="#f43f5e" stroke-width="2"/>
-          <text x="270" y="300" fill="#fecdd3" font-size="13" font-weight="bold" text-anchor="middle">ପ୍ରାଥମିକ ଶିଳାସ୍ତର (ଘ-ପାର୍ଶ୍ୱଚ୍ଛେଦ)</text>
-          <text x="270" y="320" fill="#fda4af" font-size="11" text-anchor="middle">ଅଚୂର୍ଣ୍ଣୀଭୂତ ମୂଳ ଶିଳାସ୍ତର (Bedrock)</text>
-        </svg>
-        <figcaption>ଚିତ୍ର ୦୩: ମୃତ୍ତିକାର ବିଭିନ୍ନ ସ୍ତର ଓ ପାର୍ଶ୍ୱଚ୍ଛେଦ (Soil Profile)</figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <!-- 3. General Classification -->
-  <section id="classification">
-    <h2 class="sec-title">🧬 ୩. ମୃତ୍ତିକାର ସାଧାରଣ ଶ୍ରେଣୀବିଭାଗ</h2>
-
-    <h3 class="sub-title">(କ) ଗଠନଶୈଳୀ ଅନୁସାରେ:</h3>
-    <div class="compare">
-      <div class="card teal">
-        <h4>ଅବଶିଷ୍ଟ ମୃତ୍ତିକା (Residual Soil)</h4>
-        <p>ଚୂର୍ଣ୍ଣୀଭବନ ପ୍ରକ୍ରିୟାରେ ଶିଳା ରେଣୁରେ ପରିଣତ ହୋଇ <strong>ମୂଳ ସ୍ଥାନରେ ହିଁ ଜମାହୋଇ</strong> ଯେଉଁ ମୃତ୍ତିକା ସୃଷ୍ଟି କରେ[span_12](start_span)[span_12](end_span) ।</p>
-      </div>
-      <div class="card gold">
-        <h4>ପରିବାହିତ / ଅପସୃତ ମୃତ୍ତିକା (Transported)</h4>
-        <p>ଚୂର୍ଣ୍ଣୀଭୂତ ଶିଳାରେଣୁ ନଦୀ, ବାୟୁ ବା ହିମବାହ ଦ୍ୱାରା <strong>ଅନ୍ୟତ୍ର ବାହିତ ଓ ସଞ୍ଚିତ</strong> ହୋଇ ଗଠିତ ହୁଏ (ଯଥା: ପଟୁମାଟି, ଲୋଏସ୍)[span_13](start_span)[span_13](end_span) ।</p>
-      </div>
-    </div>
-
-    <h3 class="sub-title">(ଖ) ଶିଳାରେଣୁର ଆକାର ଅନୁସାରେ:</h3>
-    <p>ପଟୁମାଟି (Alluvial), ବାଲିଆ (Sandy), ଦୋରସା (Loamy), ଓ ମଟାଳ (Clayey)[span_14](start_span)[span_14](end_span)।</p>
-    <div class="callout def-box">
-      <strong>ଦୋରସା ମୃତ୍ତିକା (Loamy Soil):</strong> ବାଲିଆ, ପଟୁ ଓ ମଟାଳ ମାଟିର ସମାନୁପାତିକ ମିଶ୍ରଣରେ ଗଠିତ[span_15](start_span)[span_15](end_span)। ଏହା ଅତ୍ୟନ୍ତ ଉର୍ବର ଏବଂ <strong>ଆଖୁ ଚାଷ ପାଇଁ ସର୍ବୋତ୍କୃଷ୍ଟ</strong>[span_16](start_span)[span_16](end_span)।
-    </div>
-
-    <h3 class="sub-title">(ଗ) ଜଳବାୟୁର ପ୍ରଭାବ ଅନୁସାରେ:</h3>
-    <div class="compare">
-      <div class="card coral">
-        <h4>ପେଡ଼ାଲଫର ମୃତ୍ତିକା (Pedalfer)</h4>
-        <p>ଅଧିକ ବୃଷ୍ଟିପାତଯୁକ୍ତ ଆର୍ଦ୍ର ଅଞ୍ଚଳରେ ଲବଣ ଧୋଇ ହୋଇ <strong>ଲୌହ (Fe) ଓ ଆଲୁମିନିୟମ୍ (Al)</strong> ରହିଯାଏ[span_17](start_span)[span_17](end_span)। ଏହା ଅମ୍ଳୀୟ ଲାଲ ମୃତ୍ତିକା (ଦକ୍ଷିଣ ଭାରତରେ ଦେଖାଯାଏ)[span_18](start_span)[span_18](end_span)।</p>
-      </div>
-      <div class="card green">
-        <h4>ପେଡ଼ୋକାଲ ମୃତ୍ତିକା (Pedocal)</h4>
-        <p>ଶୁଷ୍କ/ଅର୍ଦ୍ଧଶୁଷ୍କ ଅଞ୍ଚଳରେ କମ୍ ବୃଷ୍ଟିପାତ ଯୋଗୁଁ <strong>ଚୂନ (Calcium)</strong> ସଞ୍ଚିତ ହୋଇ ରହେ[span_19](start_span)[span_19](end_span)। ଏହା କମ୍ ଅମ୍ଳୀୟ ଓ ଅଧିକ କ୍ଷାରୀୟ (ଉତ୍ତର-ପଶ୍ଚିମ ଭାରତରେ ଦେଖାଯାଏ)[span_20](start_span)[span_20](end_span)।</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- 4. ICAR 9 Types of Soils -->
-  <section id="icar-types">
-    <h2 class="sec-title">🗺️ ୪. ଭାରତର ୯ ପ୍ରକାର ମୃତ୍ତିକା (ICAR ବର୍ଗୀକରଣ)</h2>
-    <p>ଭାରତୀୟ କୃଷି ଗବେଷଣା ପରିଷଦ (ICAR) ଦ୍ୱାରା ଭାରତର ମୃତ୍ତିକାକୁ ନଅ ଭାଗରେ ବିଭକ୍ତ କରାଯାଇଛି[span_21](start_span)[span_21](end_span):</p>
-
-    <!-- 1. Alluvial -->
-    <div class="card teal" style="margin-bottom: 16px;">
-      <h4>୧. ପଟୁ ମୃତ୍ତିକା (Alluvial Soil) - <span style="font-size: 0.85rem; color: var(--text-muted);">ଭାରତର ପ୍ରାୟ ୪୩% ଆୟତନ[span_22](start_span)[span_22](end_span)</span></h4>
-      <ul>
-        <li><strong>ଉତ୍ପତ୍ତି ଓ ବିସ୍ତାର:</strong> ସିନ୍ଧୁ, ଗଙ୍ଗା, ବ୍ରହ୍ମପୁତ୍ର ଓ ଉପକୂଳବର୍ତ୍ତୀ ମହାନଦୀ, ଗୋଦାବରୀ, କୃଷ୍ଣା, କାବେରୀର ପ୍ଲାବନଭୂମି ଓ ତ୍ରିକୋଣଭୂମି[span_23](start_span)[span_23](end_span)। ଏହା ଭାରତର ସର୍ବପ୍ରଧାନ ଅପସୃତ ମୃତ୍ତିକା[span_24](start_span)[span_24](end_span)।</li>
-        <li><strong>ଉପାଦାନ:</strong> ପଟାସ୍ ଓ ଚୂନ ପ୍ରଚୁର, କିନ୍ତୁ ଯବକ୍ଷାରଜାନର ଅଭାବ[span_25](start_span)[span_25](end_span)। ଏହା ଅତ୍ୟନ୍ତ ଉର୍ବର[span_26](start_span)[span_26](end_span)।</li>
-        <li><strong>ଉପବିଭାଗ:</strong>
-          <ul>
-            <li><strong>ଖାଦର (Khadar):</strong> ନୂତନ ପଟୁମାଟି, ପ୍ରତିବର୍ଷ ବନ୍ୟା ଦ୍ୱାରା ଗଠିତ, ଅଳ୍ପ କଳା ରଙ୍ଗ ଓ ଅତି ଉର୍ବର[span_27](start_span)[span_27](end_span)।</li>
-            <li><strong>ଭାଙ୍ଗର (Bhangar):</strong> ପୁରାତନ ପଟୁମାଟି, ବନ୍ୟାଜଳ ପହଞ୍ଚୁ ନଥିବା ଉଚ୍ଚଭୂମି, ରଙ୍ଗ କଳା[span_28](start_span)[span_28](end_span)। ଚୂନଗୋଡ଼ି ଥିଲେ ଏହାକୁ <strong>କଂକର</strong> କୁହାଯାଏ[span_29](start_span)[span_29](end_span)।</li>
-            <li><strong>ଭାବର (Bhabar):</strong> ଶିବାଲିକ୍ ପାଦଦେଶରେ ୮-୧୬ କିମି ପ୍ରସ୍ଥର ଗୋଡ଼ିମିଶା ମୋଟା ମୃତ୍ତିକା[span_30](start_span)[span_30](end_span)।</li>
-            <li><strong>ତରାଇ (Tarai):</strong> ଭାବର ତଳେ ଥିବା ସନ୍ତସନ୍ତିଆ, ପତଳା ଓ ଜୈବାଂଶପୂର୍ଣ୍ଣ ମୃତ୍ତିକା[span_31](start_span)[span_31](end_span)।</li>
-            <li><strong>ରେ (Reh):</strong> ଶୁଷ୍କ ଅଞ୍ଚଳରେ ଦେଖାଯାଉଥିବା କ୍ଷାରୀୟ ପଟୁମାଟି[span_32](start_span)[span_32](end_span)।</li>
-            <li><strong>ଲୋଏସ୍ (Loess):</strong> ଥର ମରୁଭୂମିରୁ ପବନ ଦ୍ୱାରା ବାହିତ ବାଲିକଣା ସୃଷ୍ଟ ଅନୁର୍ବର ମାଟି[span_33](start_span)[span_33](end_span)।</li>
-          </ul>
-        </li>
-        <li><strong>ଚାଷ:</strong> ଧାନ, ଗହମ, ଆଖୁ, ଝୋଟ, ତୈଳବୀଜ[span_34](start_span)[span_34](end_span)। ଏହାକୁ <strong>"ଭାରତର ଧାନ ଓ ଗହମର ଉଦର" (Rice & Wheat Bowl of India)</strong> କୁହାଯାଏ[span_35](start_span)[span_35](end_span)।</li>
-      </ul>
-    </div>
-
-    <!-- 2. Red Soil -->
-    <div class="card coral" style="margin-bottom: 16px;">
-      <h4>୨. ଲୋହିତ ମୃତ୍ତିକା (Red Soil) - <span style="font-size: 0.85rem; color: var(--text-muted);">ପ୍ରାୟ ୧୮.୫% ଆୟତନ[span_36](start_span)[span_36](end_span)</span></h4>
-      <ul>
-        <li>ସ୍ଫଟିକ ଆଗ୍ନେୟ ଓ ରୂପାନ୍ତରିତ ଶିଳାରୁ କମ୍ ବୃଷ୍ଟିପାତ ଅଞ୍ଚଳରେ ସୃଷ୍ଟି[span_37](start_span)[span_37](end_span)। ଲୌହ ଅଂଶ ଅଧିକ ଥିବାରୁ ରଙ୍ଗ ଲାଲ[span_38](start_span)[span_38](end_span)।</li>
-        <li>ଜଳୀୟ ଅଂଶ ମିଶିଲେ ଏହାର ରଙ୍ଗ ହଳଦିଆ ଦେଖାଯାଏ, ତେଣୁ ଏହାକୁ <strong>ପୀତ ମୃତ୍ତିକା (Yellow Soil)</strong> ମଧ୍ୟ କୁହାଯାଏ[span_39](start_span)[span_39](end_span)।</li>
-        <li><strong>ବିସ୍ତାର:</strong> ଛୋଟନାଗପୁର ମାଳଭୂମି, ଓଡ଼ିଶା, କର୍ଣ୍ଣାଟକ, ତାମିଲନାଡୁ, ତେଲେଙ୍ଗାନା, ଉତ୍ତର-ପୂର୍ବାଞ୍ଚଳ[span_40](start_span)[span_40](end_span)।</li>
-        <li><strong>ଚାଷ:</strong> ବାଜରା, ମକା, ମାଣ୍ଡିଆ, ଚିନାବାଦାମ, କପା ଓ ଫଳଚାଷ[span_41](start_span)[span_41](end_span)।</li>
-      </ul>
-    </div>
-
-    <!-- 3. Black Soil -->
-    <div class="card" style="margin-bottom: 16px; border-color: #64748b;">
-      <h4 style="color: #94a3b8;">୩. କୃଷ୍ଣ ମୃତ୍ତିକା (Black Soil / Regur)</h4>
-      <ul>
-        <li><strong>ଅନ୍ୟନାମ:</strong> ରେଗୁର ମୃତ୍ତିକା, କୃଷ୍ଣ କାର୍ପାସ ମୃତ୍ତିକା (Black Cotton Soil), କ୍ରାନ୍ତୀୟ ଚେର୍ଣ୍ଣୋଜେମ୍ (Tropical Chernozem)[span_42](start_span)[span_42](end_span)।</li>
-        <li><strong>ଉତ୍ପତ୍ତି:</strong> ଦାକ୍ଷିଣାତ୍ୟ ଲାଭାଗଠିତ ବାସାଲ୍ଟ (Basalt) ଶିଳାର ଚୂର୍ଣ୍ଣୀଭବନରୁ ସୃଷ୍ଟି[span_43](start_span)[span_43](end_span)।</li>
-        <li><strong>ଗୁଣଧର୍ମ:</strong> ଉଚ୍ଚ ଜଳଧାରଣ ଓ ଉତ୍ତାପ ଧାରଣ କ୍ଷମତା, ଅତ୍ୟନ୍ତ ଉର୍ବର[span_44](start_span)[span_44](end_span)। ଶୁଖିଗଲେ ଫାଟିଯାଏ[span_45](start_span)[span_45](end_span)।</li>
-        <li><strong>ବିସ୍ତାର:</strong> ମହାରାଷ୍ଟ୍ର, ଗୁଜରାଟ, ମଧ୍ୟପ୍ରଦେଶ[span_46](start_span)[span_46](end_span)। ଓଡ଼ିଶାର ଅନୁଗୁଳ, ଆଠମଲ୍ଲିକ ଓ ବୌଦ୍ଧ[span_47](start_span)[span_47](end_span)।</li>
-        <li><strong>ଚାଷ:</strong> କପା (କାର୍ପାସ), ଆଖୁ, ଧୂଆଁପତ୍ର, ଗହମ, ଜଓ୍ୱାର[span_48](start_span)[span_48](end_span)।</li>
-      </ul>
-    </div>
-
-    <!-- 4. Laterite Soil -->
-    <div class="card coral" style="margin-bottom: 16px;">
-      <h4>୪. ଲାଟେରାଇଟ୍ ମୃତ୍ତିକା (Laterite Soil)</h4>
-      <ul>
-        <li>ଅଧିକ ତାପମାତ୍ରା ଓ ପ୍ରବଳ ବୃଷ୍ଟିପାତଯୁକ୍ତ କ୍ରାନ୍ତୀୟ ମୌସୁମୀ ଅଞ୍ଚଳରେ <strong>ପ୍ରକ୍ଷାଳନ (Leaching) ପ୍ରକ୍ରିୟା</strong> ଦ୍ୱାରା ଗଠିତ[span_49](start_span)[span_49](end_span)।</li>
-        <li>ବାଲୁକା (ସିଲିକା) ଧୋଇଯାଇ ଲୌହ ଓ ଆଲୁମିନିୟମ ରହିଯାଏ[span_50](start_span)[span_50](end_span)। ଓଦା ଥିଲେ ଲହୁଣୀ ପରି ନରମ ଓ ଶୁଖିଗଲେ ଅତ୍ୟନ୍ତ ଶକ୍ତ ହୁଏ[span_51](start_span)[span_51](end_span)।</li>
-        <li><strong>ବିସ୍ତାର:</strong> ପଶ୍ଚିମଘାଟ, ପୂର୍ବଘାଟ, ବିନ୍ଧ୍ୟ-ସାତପୁରା[span_52](start_span)[span_52](end_span)। ଓଡ଼ିଶାର ବାଲେଶ୍ୱର, କଟକ, ଖୋର୍ଦ୍ଧା, ଗଞ୍ଜାମ, କୋରାପୁଟ, ମୟୂରଭଞ୍ଜ[span_53](start_span)[span_53](end_span)।</li>
-        <li><strong>ଚାଷ:</strong> ଚାହା, କଫି, କାଜୁବାଦାମ, ଧାନ, ରାଶି[span_54](start_span)[span_54](end_span)।</li>
-      </ul>
-    </div>
-
-    <!-- 5 to 9 in table -->
-    <h3 class="sub-title">ଅନ୍ୟାନ୍ୟ ୫ ପ୍ରକାର ମୃତ୍ତିକାର ସାରାଂଶ:</h3>
     <div class="table-wrap">
       <table>
         <thead>
           <tr>
-            <th>ମୃତ୍ତିକାର ପ୍ରକାର</th>
-            <th>ମୁଖ୍ୟ ବୈଶିଷ୍ଟ୍ୟ ଓ ଉପାଦାନ</th>
-            <th>ଭୌଗୋଳିକ ବିସ୍ତାର</th>
-            <th>ଉପଯୋଗୀ ଫସଲ</th>
+            <th>ବିଷୟ / ବୈଶିଷ୍ଟ୍ୟ</th>
+            <th>ପରିମାପ / ବିସ୍ତାର</th>
+            <th>ବିଶେଷ ସୂଚନା</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><strong>୫. ପାର୍ବତ୍ୟ ମୃତ୍ତିକା</strong><br><small>(Mountain Soil)</small></td>
-            <td>୨୧୦୦-୩୦୦୦ ମି. ଉଚ୍ଚତାରେ ଅପରିପକ୍ୱ ଓ ଅଗଭୀର ମାଟି; ପଡଜୋଲୀୟ ଧୂସର ରଙ୍ଗ[span_55](start_span)[span_55](end_span)।</td>
-            <td>ହିମାଳୟ ଅଞ୍ଚଳ (ଜାମ୍ମୁ-କାଶ୍ମୀର, ହିମାଚଳ, ଉତ୍ତରାଖଣ୍ଡ, ଆସାମ)[span_56](start_span)[span_56](end_span)।</td>
-            <td>ଫଳ ଚାଷ (ସେଓ ଇତ୍ୟାଦି)[span_57](start_span)[span_57](end_span)।</td>
+            <td><strong>ଅକ୍ଷାଂଶୀୟ ବିସ୍ତାର (Latitude)</strong></td>
+            <td>8°4′ ଉତ୍ତର ରୁ 37°6′ ଉତ୍ତର[span_11](start_span)[span_11](end_span)</td>
+            <td>ସମୁଦାୟ ଦକ୍ଷିଣତମ ବିନ୍ଦୁ (ଇନ୍ଦିରା ପଏଣ୍ଟ) 6°45′ ଉତ୍ତରରେ ଅବସ୍ଥିତ[span_12](start_span)[span_12](end_span)</td>
           </tr>
           <tr>
-            <td><strong>୬. ଅରଣ୍ୟ ମୃତ୍ତିକା</strong><br><small>(Forest Soil)</small></td>
-            <td>୩୦୦୦-୩୫୦୦ ମି. ଉଚ୍ଚ ସରଳବର୍ଗୀୟ ବଣରେ ପତ୍ର ପଚି ଜୈବାଂଶପୂର୍ଣ୍ଣ କଳା ମାଟି[span_58](start_span)[span_58](end_span)।</td>
-            <td>ହିମାଳୟ, ଆସାମ, ସିକିମ, କର୍ଣ୍ଣାଟକ, ପଶ୍ଚିମଘାଟ[span_59](start_span)[span_59](end_span)।</td>
-            <td>ଚାହା, କଫି, ମସଲା, ଫଳ[span_60](start_span)[span_60](end_span)।</td>
+            <td><strong>ଦ୍ରାଘିମାଗତ ବିସ୍ତାର (Longitude)</strong></td>
+            <td>68°7′ ପୂର୍ବ ରୁ 97°25′ ପୂର୍ବ[span_13](start_span)[span_13](end_span)</td>
+            <td>ପୂର୍ବ-ପଶ୍ଚିମ ବିସ୍ତୃତି ମଧ୍ୟରେ ଅବସ୍ଥିତ[span_14](start_span)[span_14](end_span)</td>
           </tr>
           <tr>
-            <td><strong>୭. ମରୁସ୍ଥଳୀ ମୃତ୍ତିକା</strong><br><small>(Desert Soil - ୧୫%)</small></td>
-            <td>ବାଲିଆ, ଅଧିକ ଲବଣ ଓ କମ୍ ଜଳଧାରଣ ଶକ୍ତି; ଲିଥୋଜଲିକ ଓ ରୋଗୋଲିଥ୍ ପ୍ରକାର[span_61](start_span)[span_61](end_span)।</td>
-            <td>ଥର ମରୁଭୂମି (ରାଜସ୍ଥାନ, ଗୁଜରାଟର କଚ୍ଛ, ପଞ୍ଜାବ, ହରିୟାଣା)[span_62](start_span)[span_62](end_span)।</td>
-            <td>ଜଳସେଚନ ଦ୍ୱାରା ବାଜରା, ଜଓ୍ୱାର, କପା (ଗଙ୍ଗାନଗର)[span_63](start_span)[span_63](end_span)।</td>
+            <td><strong>ସମୁଦାୟ କ୍ଷେତ୍ରଫଳ (Area)</strong></td>
+            <td>୩.୨୮ ନିୟୁତ ବର୍ଗ କି.ମି. (୩୨,୮୭,୨୬୩ ବର୍ଗ କିମି)[span_15](start_span)[span_15](end_span)</td>
+            <td>ପୃଥିବୀର ସମୁଦାୟ ଆୟତନର ପ୍ରାୟ <strong>୨.୪% (ସପ୍ତମ ବୃହତ୍ତମ ଦେଶ)</strong>[span_16](start_span)[span_16](end_span)</td>
           </tr>
           <tr>
-            <td><strong>୮. ଲୁଣା ଓ କ୍ଷାରୀୟ</strong><br><small>(Saline & Alkaline / ଉସର)</small></td>
-            <td>ସୋଡ଼ିୟମ, କ୍ୟାଲସିୟମ ଲବଣ ଯୁକ୍ତ; ଉତ୍ତର ପ୍ରଦେଶ ଓ ପଞ୍ଜାବରେ ଏହାକୁ <strong>ଉସର</strong> କୁହାଯାଏ[span_64](start_span)[span_64](end_span)।</td>
-            <td>ଶୁଷ୍କ ଅଞ୍ଚଳ ଏବଂ ସମୁଦ୍ର ଉପକୂଳବର୍ତ୍ତୀ ଅଞ୍ଚଳ[span_65](start_span)[span_65](end_span)।</td>
-            <td>ଜିପ୍‌ସମ ଓ ଜଳସେଚନ ଦ୍ୱାରା ଧାନ, ଗହମ, ଆଖୁ[span_66](start_span)[span_66](end_span)।</td>
+            <td><strong>ସ୍ଥଳଭାଗ ସୀମାରେଖା (Land Boundary)</strong></td>
+            <td>ପ୍ରାୟ ୧୫,୨୦୦ କିଲୋମିଟର[span_17](start_span)[span_17](end_span)</td>
+            <td>ପଡ଼ୋଶୀ: ପାକିସ୍ତାନ, ଆଫଗାନିସ୍ତାନ, ଚୀନ୍, ନେପାଳ, ଭୁଟାନ, ବାଂଲାଦେଶ, ମିଆଁମାର[span_18](start_span)[span_18](end_span)</td>
           </tr>
           <tr>
-            <td><strong>୯. ପିଟ୍ ଓ ଜଳାଭୂମି</strong><br><small>(Peaty & Marshy / କରି)</small></td>
-            <td>ଅତ୍ୟଧିକ ଜଳବନ୍ଦୀ ଓ ଜୈବାଂଶ ପଚି କଳା ରଙ୍ଗର ଭାରୀ ଅମ୍ଳୀୟ ମାଟି; କେରଳରେ ଏହାକୁ <strong>କରି (Kari)</strong> କୁହାଯାଏ[span_67](start_span)[span_67](end_span)।</td>
-            <td>କେରଳର କୋଟାୟାମ, ଆଲାପୁଜା; ଓଡ଼ିଶା, ବଙ୍ଗଳା ଓ ତାମିଲନାଡୁ ଉପକୂଳ ହ୍ରଦ/ପାଟ[span_68](start_span)[span_68](end_span)।</td>
-            <td>ଜଳନିଷ୍କାସନ ପରେ ଧାନ ଚାଷ[span_69](start_span)[span_69](end_span)।</td>
+            <td><strong>ଉପକୂଳ ରେଖା (Coastline)</strong></td>
+            <td>ପ୍ରାୟ ୭,୫୧୬.୬ କିଲୋମିଟର[span_19](start_span)[span_19](end_span)</td>
+            <td>ମୂଳ ଭୂଖଣ୍ଡ: ୬,୧୦୦ କିମି; ଦ୍ୱୀପପୁଞ୍ଜ ସହିତ ସମୁଦାୟ[span_20](start_span)[span_20](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ଉତ୍ତର-ଦକ୍ଷିଣ ଓ ପୂର୍ବ-ପଶ୍ଚିମ ଦୂରତା</strong></td>
+            <td>ଉ-ଦ: ୩,୨୧୪ କି.ମି. | ପୂ-ପ: ୨,୯୩୩ କି.ମି.[span_21](start_span)[span_21](end_span)</td>
+            <td>ଦେଶର ବିଶାଳ ଆୟତନକୁ ସୂଚିତ କରେ[span_22](start_span)[span_22](end_span)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">ଭାରତର ଚାରି ପ୍ରାନ୍ତ ବିନ୍ଦୁ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଉତ୍ତର ଓ ଦକ୍ଷିଣ ସୀମା</h4>
+        <ul>
+          <li><strong>ଉତ୍ତରତମ ସ୍ଥାନ:</strong> ଇନ୍ଦିରା କଲ୍ / ଦଫାଦାର (ଲାଦାଖ/ଗିଲଗିଟ୍)[span_23](start_span)[span_23](end_span)</li>
+          <li><strong>ମୂଳ ଭୂଖଣ୍ଡର ଦକ୍ଷିଣତମ ସ୍ଥାନ:</strong> କନ୍ୟାକୁମାରୀ (ତାମିଲନାଡୁ - ତିନି ସମୁଦ୍ରର ମିଳନ ସ୍ଥଳ)[span_24](start_span)[span_24](end_span)</li>
+          <li><strong>ଦେଶର ସର୍ବଦକ୍ଷିଣ ସ୍ଥାନ:</strong> ଇନ୍ଦିରା ପଏଣ୍ଟ (ପୂର୍ବ ନାମ: ପିଗ୍‌ମେଲିଅନ୍ ପଏଣ୍ଟ, ଗ୍ରେଟ୍ ନିକୋବର - 6°45′ ଉ.)[span_25](start_span)[span_25](end_span)</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <h4>ପୂର୍ବ ଓ ପଶ୍ଚିମ ସୀମା</h4>
+        <ul>
+          <li><strong>ପୂର୍ବତମ ସ୍ଥାନ:</strong> କିବିଥୁ (ଅରୁଣାଚଳ ପ୍ରଦେଶ)[span_26](start_span)[span_26](end_span)</li>
+          <li><strong>ପଶ୍ଚିମତମ ସ୍ଥାନ:</strong> ଗୁହାରମୋତି / ଗୁହାରମୋତା (କଚ୍ଛ, ଗୁଜରାଟ)[span_27](start_span)[span_27](end_span)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Relief and Landform Distribution -->
+  <section id="relief">
+    <h2 class="sec-title">🏔️ ୩. ଭାରତର ଭୂ-ପ୍ରକୃତି ଓ ଭୂ-ସମ୍ବଳ ବିତରଣ</h2>
+    <p>
+      ଉଚ୍ଚାବଚ୍ଚ ଦୃଷ୍ଟିରୁ ଭାରତର ସମୁଦାୟ ୩୨ ଲକ୍ଷ ୮୭ ହଜାର ବର୍ଗ କିଲୋମିଟର ଭୂ-ସମ୍ବଳକୁ ୩ଟି ମୁଖ୍ୟ ଭୂ-ରୂପରେ ବିଭକ୍ତ କରାଯାଇଛି[span_28](start_span)[span_28](end_span):
+    </p>
+
+    <!-- Diagram of Landforms -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 460 220" width="420" height="200" xmlns="http://www.w3.org/2000/svg">
+          <!-- Pie/Donut Chart Graphic -->
+          <circle cx="150" cy="110" r="85" fill="#141d2e" stroke="#2a3958" stroke-width="2"/>
+          
+          <!-- Plains Slice (43%) -->
+          <path d="M 150,110 L 150,25 A 85,85 0 0,1 233,135 Z" fill="#10b981" fill-opacity="0.8"/>
+          <!-- Mountains Slice (30%) -->
+          <path d="M 150,110 L 233,135 A 85,85 0 0,1 85,165 Z" fill="#38bdf8" fill-opacity="0.8"/>
+          <!-- Plateau Slice (27%) -->
+          <path d="M 150,110 L 85,165 A 85,85 0 0,1 150,25 Z" fill="#f59e0b" fill-opacity="0.8"/>
+          
+          <!-- Inner Cutout for Donut look -->
+          <circle cx="150" cy="110" r="45" fill="#1a2436"/>
+          <text x="150" y="115" fill="#f1f5f9" font-size="11" font-weight="bold" text-anchor="middle">ଭୂ-ରୂପ</text>
+
+          <!-- Legend -->
+          <rect x="270" y="45" width="16" height="16" rx="3" fill="#10b981"/>
+          <text x="295" y="58" fill="#cbd5e1" font-size="12" font-weight="600">ସମତଳଭୂମି (୪୩%)</text>
+
+          <rect x="270" y="90" width="16" height="16" rx="3" fill="#38bdf8"/>
+          <text x="295" y="103" fill="#cbd5e1" font-size="12" font-weight="600">ପାର୍ବତ୍ୟଭୂମି (୩୦%)</text>
+
+          <rect x="270" y="135" width="16" height="16" rx="3" fill="#f59e0b"/>
+          <text x="295" y="148" fill="#cbd5e1" font-size="12" font-weight="600">ମାଳଭୂମି (୨୭%)</text>
+        </svg>
+        <figcaption>ଚିତ୍ର: ଭାରତର ସମୁଦାୟ ଭୂ-ପରିମାଣର ଉଚ୍ଚାବଚ୍ଚ ଭିତ୍ତିକ ଶତକଡ଼ା ବିତରଣ</figcaption>
+      </figure>
+    </div>
+
+    <div class="compare">
+      <div class="card green">
+        <h4>୧. ସମତଳଭୂମି (୪୩%)</h4>
+        <p>ଗଙ୍ଗା-ବ୍ରହ୍ମପୁତ୍ର ସମତଳ ଅଞ୍ଚଳ ଓ ଉପକୂଳବର୍ତ୍ତୀ ସମତଳଭୂମି[span_29](start_span)[span_29](end_span)। ଏହା ଉର୍ବର ପଟୁମାଟି ଯୁକ୍ତ ହୋଇଥିବାରୁ <strong>କୃଷି, ଶିଳ୍ପ ଓ ଜନବସତି</strong> ପାଇଁ ସର୍ବୋତ୍କୃଷ୍ଟ[span_30](start_span)[span_30](end_span) ।</p>
+      </div>
+      <div class="card blue">
+        <h4>୨. ପାର୍ବତ୍ୟ ଭୂମି (୩୦%)</h4>
+        <p>ହିମାଳୟ, ବିନ୍ଧ୍ୟ, ଆରାବଳୀ, ପୂର୍ବଘାଟ ଓ ପଶ୍ଚିମଘାଟ ପର୍ବତମାଳା[span_31](start_span)[span_31](end_span)। ଏହା <strong>ଜଳ ଉତ୍ସ (ନଦୀର ଉତ୍ପତ୍ତି), ପର୍ଯ୍ୟଟନ ଓ ପାରିବେଶିକ ସନ୍ତୁଳନ</strong> ରକ୍ଷା କରେ[span_32](start_span)[span_32](end_span) ।</p>
+      </div>
+      <div class="card gold">
+        <h4>୩. ମାଳଭୂମି (୨୭%)</h4>
+        <p>ଦାକ୍ଷିଣାତ୍ୟ ମାଳଭୂମି, ଛୋଟନାଗପୁର, ମାଳବ ଓ ରେୱା ମାଳଭୂମି[span_33](start_span)[span_33](end_span)। ଏହା <strong>ଖଣିଜ ସମ୍ପଦ, କୋଇଲା, ଅରଣ୍ୟ ଓ ବନ୍ୟପ୍ରାଣୀଙ୍କ</strong> ପ୍ରଧାନ ଗନ୍ତାଘର[span_34](start_span)[span_34](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Land-Use Pattern and Factors -->
+  <section id="landuse-pattern">
+    <h2 class="sec-title">📊 ୪. ଭୂ-ବ୍ୟବହାର (Land Use) ର ନିୟାମକ ଓ ବର୍ଗୀକରଣ</h2>
+    <p>
+      ମନୁଷ୍ୟ ଜୀବନଧାରଣ ପାଇଁ ଭୂ-ସମ୍ବଳକୁ ବସତି, କୃଷି, ପଶୁପାଳନ, ଯାତାୟାତ, ଖଣି ଓ ଶିଳ୍ପରେ ଉପଯୋଗ କରିବାକୁ <strong>ଭୂ-ବ୍ୟବହାର</strong> କୁହାଯାଏ[span_35](start_span)[span_35](end_span)। ଭୂ-ବ୍ୟବହାର ମୁଖ୍ୟତଃ ଦୁଇଟି କାରକ ଉପରେ ନିର୍ଭର କରେ[span_36](start_span)[span_36](end_span):
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>(କ) ପ୍ରାକୃତିକ ଅବସ୍ଥା (Physical Factors)</h4>
+        <p>ଭୂ-ପ୍ରକୃତି, ମୃତ୍ତିକାର ଗୁଣ, ଜଳବାୟୁ, ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ ଓ ଖଣିଜ ପଦାର୍ଥର ଉପଲବ୍ଧତା[span_37](start_span)[span_37](end_span) ।</p>
+      </div>
+      <div class="card gold">
+        <h4>(ଖ) ମାନବୀୟ ଅବସ୍ଥା (Human Factors)</h4>
+        <p>ଜନସଂଖ୍ୟାର ଘନତ୍ୱ, ଶିକ୍ଷା, ବୈଷୟିକ ଜ୍ଞାନକୌଶଳ, ପରମ୍ପରା ଓ ସାମାଜିକ-ଆର୍ଥିକ ବିକାଶର ସ୍ତର[span_38](start_span)[span_38](end_span) ।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">ଭୂ-ବ୍ୟବହାରର ୫ଟି ପ୍ରଧାନ ବର୍ଗ:</h3>
+    <ol>
+      <li><strong>ଅରଣ୍ୟଭୂମି (Forest Land)</strong>[span_39](start_span)[span_39](end_span)</li>
+      <li><strong>ଚାଷ ପାଇଁ ମିଳୁନଥିବା ଭୂମି (Land not available for cultivation):</strong> ଅଣକୃଷି ବ୍ୟବହୃତ ଭୂମି (ବସତି, ରାସ୍ତା, ଶିଳ୍ପ) ଏବଂ କୃଷି ଅନୁପଯୁକ୍ତ ଅନୁର୍ବର ପାହାଡ଼ିଆ ଭୂମି[span_40](start_span)[span_40](end_span)।</li>
+      <li><strong>ଅନ୍ୟାନ୍ୟ ଚାଷ ହେଉନଥିବା ଭୂମି (Other uncultivated land):</strong> ସ୍ଥାୟୀ ଚାରଣ ଓ ଗୋଚର ଭୂମି, ଫଳ ବଗିଚା, ଏବଂ କୃଷିକ୍ଷମ ପତିତ ଭୂମି (୫ ବର୍ଷରୁ ଅଧିକ ପଡ଼ିଆ ପଡ଼ିଥିବା ଭୂମି)[span_41](start_span)[span_41](end_span)।</li>
+      <li><strong>ପତିତ ଭୂମି (Fallow Land):</strong> ଚଳନ୍ତି ପତିତ ଭୂମି (୧ ବର୍ଷ ବା ତା’ଠାରୁ କମ୍ ପଡ଼ିଆ) ଏବଂ ପୁରୁଣା ପତିତ ଭୂମି (୧ ରୁ ୫ ବର୍ଷ ପର୍ଯ୍ୟନ୍ତ ଚାଷ ହୋଇନଥିବା ଭୂମି)[span_42](start_span)[span_42](end_span)।</li>
+      <li><strong>କୃଷିଭୂମି (Agricultural Land):</strong> ମୋଟ ଚାଷଜମି (Net Sown Area), ଏକାଧିକ ଥର ଫସଲ ହେଉଥିବା ଭୂମି ଏବଂ ସମୁଦାୟ ଶସ୍ୟଭୂମି[span_43](start_span)[span_43](end_span)।</li>
+    </ol>
+  </section>
+
+  <!-- 5. Land-Use Data Table -->
+  <section id="landuse-table">
+    <h2 class="sec-title">📑 ୫. ଭାରତର ସାଧାରଣ ଭୂ-ବ୍ୟବହାର (୨୦୧୭-୧୮ ତଥ୍ୟ - ସାରଣୀ ୦୧)</h2>
+    <p>କୃଷି ବିଭାଗ, ଭାରତ ସରକାରଙ୍କ ଅନୁଯାୟୀ ଭୂ-ବ୍ୟବହାର ପରିସଂଖ୍ୟାନ[span_44](start_span)[span_44](end_span):</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>କ୍ରମିକ</th>
+            <th>ଭୂମିର ପ୍ରକାର / ବର୍ଗ</th>
+            <th>ଆୟତନ (ନିୟୁତ ହେକ୍ଟରରେ)</th>
+            <th>ଶତକଡ଼ା ହାର (%)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>୧</td>
+            <td><strong>ସମୁଦାୟ ଭୌଗୋଳିକ ଆୟତନ</strong></td>
+            <td><strong>୩୨୮.୭୪</strong></td>
+            <td><strong>୧୦୦.୦୦%</strong>[span_45](start_span)[span_45](end_span)</td>
+          </tr>
+          <tr>
+            <td>୨</td>
+            <td>ଭୂ-ବ୍ୟବହାର ନିମିତ୍ତ ଦର୍ଶାଯାଇଥିବା ସମୁଦାୟ ଭୂମି</td>
+            <td>୩୦୮.୦୦</td>
+            <td>୯୩.୬%[span_46](start_span)[span_46](end_span)</td>
+          </tr>
+          <tr>
+            <td>୩</td>
+            <td><strong>ଅରଣ୍ୟଭୂମି (Forest Land)</strong></td>
+            <td><strong>୭୧.୭୯</strong></td>
+            <td><strong>୨୪.୩୯%</strong>[span_47](start_span)[span_47](end_span)</td>
+          </tr>
+          <tr>
+            <td>୪</td>
+            <td><strong>ଚାଷ ପାଇଁ ମିଳୁନଥିବା ଭୂମି</strong><br>
+                • କ - ଅଣକୃଷି ବ୍ୟବହୃତ ଭୂମି (ରାସ୍ତା, ଶିଳ୍ପ, ଗୃହ)<br>
+                • ଖ - ଅନୁର୍ବର ଓ ଚାଷ ହେଉନଥିବା ଭୂମି (ପାହାଡ଼, ମରୁ)</td>
+            <td>୪୩.୫୮<br>
+                ୨୬.୫୪<br>
+                ୧୭.୦୪</td>
+            <td>୧୪.୧୦%[span_48](start_span)[span_48](end_span)<br>
+                ୮.୬୨%[span_49](start_span)[span_49](end_span)<br>
+                ୫.୪୮%[span_50](start_span)[span_50](end_span)</td>
+          </tr>
+          <tr>
+            <td>୫</td>
+            <td><strong>ଅନ୍ୟାନ୍ୟ ଚାଷ ହେଉନଥିବା ଭୂମି (ପତିତ ବ୍ୟତୀତ)</strong><br>
+                • କ - ସ୍ଥାୟୀ ଚାରଣ ଓ ଗୋଚର ଭୂମି<br>
+                • ଖ - ଫଳ ବଗିଚା ଓ ବୃକ୍ଷଲତା ଭୂମି<br>
+                • ଗ - କୃଷିକ୍ଷମ ଅବ୍ୟବହୃତ ଭୂମି (>୫ ବର୍ଷ ପଡ଼ିଆ)</td>
+            <td>୨୬.୮୨<br>
+                ୧୦.୩୪<br>
+                ୩.୯୧<br>
+                ୧୨.୫୭</td>
+            <td>୮.୬୮%[span_51](start_span)[span_51](end_span)<br>
+                ୩.୩୦%[span_52](start_span)[span_52](end_span)<br>
+                ୧.୨୦%[span_53](start_span)[span_53](end_span)<br>
+                ୪.୧୮%[span_54](start_span)[span_54](end_span)</td>
+          </tr>
+          <tr>
+            <td>୬</td>
+            <td><strong>ପତିତ ଭୂମି (Fallow Land)</strong><br>
+                • କ - ଚଳନ୍ତି ପତିତ ଭୂମି (&le;୧ ବର୍ଷ ପଡ଼ିଆ)<br>
+                • ଖ - ପୁରୁଣା ପତିତ ଭୂମି (୧ ରୁ ୫ ବର୍ଷ ପଡ଼ିଆ)</td>
+            <td>୨୬.୩୬<br>
+                ୧୩.୯୩<br>
+                ୧୨.୪୩</td>
+            <td>୮.୫୦%[span_55](start_span)[span_55](end_span)<br>
+                ୪.୦୫%[span_56](start_span)[span_56](end_span)<br>
+                ୩.୦୪%[span_57](start_span)[span_57](end_span)</td>
+          </tr>
+          <tr>
+            <td>୭</td>
+            <td><strong>କୃଷିଭୂମି</strong><br>
+                • <strong>କ - ମୋଟ ଚାଷ ଜମି (Net Sown Area)</strong><br>
+                • ଖ - ଏକାଧିକ ଥର ଫସଲ କରାଯାଉଥିବା କୃଷିଭୂମି<br>
+                • <strong>ଗ - ସମୁଦାୟ ଶସ୍ୟଭୂମି (Gross Cropped Area)</strong><br>
+                • ଘ - ଜଳସେଚିତ କୃଷିଭୂମି</td>
+            <td><br>
+                <strong>୧୩୯.୪</strong>[span_58](start_span)[span_58](end_span)<br>
+                ୫୪.୩୨[span_59](start_span)[span_59](end_span)<br>
+                <strong>୧୮୯.୭୪</strong>[span_60](start_span)[span_60](end_span)<br>
+                ୬୮.୩୮[span_61](start_span)[span_61](end_span)</td>
+            <td><br>
+                <strong>୪୭.୧୫%</strong>[span_62](start_span)[span_62](end_span)<br>
+                ୧୭.୬୦%[span_63](start_span)[span_63](end_span)<br>
+                <strong>୬୧.୦୨%</strong>[span_64](start_span)[span_64](end_span)<br>
+                ୨୨.୨୦%[span_65](start_span)[span_65](end_span)</td>
           </tr>
         </tbody>
       </table>
     </div>
   </section>
 
-  <!-- 5. Soil Erosion and Problems -->
-  <section id="erosion">
-    <h2 class="sec-title">⚠️ ୫. ମୃତ୍ତିକା କ୍ଷୟ ଓ ସମସ୍ୟା (Soil Erosion)</h2>
-    <p>
-      ପ୍ରାକୃତିକ କାରକ (ଜଳ, ବାୟୁ, ହିମବାହ, ତରଙ୍ଗ) କିମ୍ବା ମନୁଷ୍ୟକୃତ କାରଣ ଯୋଗୁଁ ଭୂପୃଷ୍ଠର ଉର୍ବର ଉପରସ୍ତର ନଷ୍ଟ ହେବାକୁ <strong>ମୃତ୍ତିକା କ୍ଷୟ</strong> କୁହାଯାଏ[span_70](start_span)[span_70](end_span)। ଭାରତର ପ୍ରାୟ <strong>୨୧% ଅଞ୍ଚଳରେ ପ୍ରତିବର୍ଷ ମୃତ୍ତିକା କ୍ଷୟ</strong> ଘଟୁଛି[span_71](start_span)[span_71](end_span)।
-    </p>
+  <!-- 6. Forest and Pasture Lands -->
+  <section id="forest-pasture">
+    <h2 class="sec-title">🌲 ୬. ଅରଣ୍ୟ ଓ ଚାରଣ ଭୂମିର ସ୍ଥିତି</h2>
 
-    <h3 class="sub-title">ଜଳପ୍ରବାହ ଦ୍ୱାରା ୩ ପ୍ରକାର ମୃତ୍ତିକା କ୍ଷୟ:</h3>
     <div class="compare">
       <div class="card teal">
-        <h4>୧. ପୃଷ୍ଠ ମୃତ୍ତିକା କ୍ଷୟ (Sheet Erosion)</h4>
-        <p>ପ୍ରବଳ ବର୍ଷା ଯୋଗୁଁ ସମତଳ ଭୂମିରୁ ମାଟିର ପତଳା ଉପରସ୍ତର ସମାନ ଭାବେ ଧୋଇ ହୋଇଯାଏ[span_72](start_span)[span_72](end_span) ।</p>
+        <h4>ଅରଣ୍ୟଭୂମି (Forest Land - ୨୪.୩୯%)</h4>
+        <ul>
+          <li><strong>ଜାତୀୟ ଅରଣ୍ୟ ନୀତି (1952, 1988, 2018):</strong> ପାରିବେଶିକ ସନ୍ତୁଳନ ପାଇଁ ଦେଶରେ <strong>୩୩% ଅରଣ୍ୟ</strong> ରହିବା ବାଧ୍ୟତାମୂଳକ[span_66](start_span)[span_66](end_span)।</li>
+          <li><strong>ନିୟମ ଅନୁପାତ:</strong> ପାର୍ବତ୍ୟାଞ୍ଚଳରେ <strong>୬୦%</strong> ଏବଂ ସମତଳ ଅଞ୍ଚଳରେ <strong>୨୦%</strong> ଅରଣ୍ୟ ରହିବା ଆବଶ୍ୟକ[span_67](start_span)[span_67](end_span)।</li>
+          <li><strong>ସର୍ବାଧିକ ଅରଣ୍ୟ (%):</strong> ଲାକ୍ଷାଦ୍ୱୀପ (୯୦%), ମିଜୋରାମ (୮୬%), ଆଣ୍ଡାମାନ (୮୨%), ଅରୁଣାଚଳ (୮୦%), ମେଘାଳୟ (୭୬%), ନାଗାଲାଣ୍ଡ (୭୫%)[span_68](start_span)[span_68](end_span)।</li>
+          <li><strong>ଅତି କମ୍ ଅରଣ୍ୟ (&lt;୨୦%):</strong> ପଞ୍ଜାବ, ହରିୟାଣା, ଉତ୍ତରପ୍ରଦେଶ, ବିହାର, ପଶ୍ଚିମବଙ୍ଗ[span_69](start_span)[span_69](end_span)।</li>
+        </ul>
       </div>
-      <div class="card gold">
-        <h4>୨. ଅଙ୍ଗୁଳି ଆକୃତିର ଧାରାକ୍ଷୟ (Rill Erosion)</h4>
-        <p>ପାର୍ବତ୍ୟ ଢାଲୁରେ ଜଳ ସ୍ରୋତ ପ୍ରବାହିତ ହୋଇ ଅଙ୍ଗୁଳି ଭଳି ଛୋଟ ଛୋଟ ନାଳି ସୃଷ୍ଟି କରି କ୍ଷୟ ଘଟାଏ[span_73](start_span)[span_73](end_span) ।</p>
-      </div>
-      <div class="card coral">
-        <h4>୩. ଗର୍ଭକ୍ଷୟ (Gully Erosion)</h4>
-        <p>ଧାରାକ୍ଷୟ ଗଭୀର ହୋଇ ଖାଲଖମା ସୃଷ୍ଟି କରେ ଏବଂ <strong>ଦୁର୍ଗମ ଭୂମି (Badland / Ravines)</strong> ସୃଷ୍ଟି କରେ[span_74](start_span)[span_74](end_span)। ମଧ୍ୟପ୍ରଦେଶ, ରାଜସ୍ଥାନ ଓ UP ର ଚମ୍ବଲ ଉପତ୍ୟକାରେ ଏହା ପ୍ରଚୁର[span_75](start_span)[span_75](end_span)। ପଞ୍ଜାବ-ହରିୟାଣାରେ ଏହାକୁ <strong>ଚୋଷ (Chos)</strong> କୁହାଯାଏ[span_76](start_span)[span_76](end_span)।</p>
-      </div>
-    </div>
-
-    <div class="callout mistake-box">
-      <strong>କ୍ଷୟର ପରିସଂଖ୍ୟାନ:</strong> ଭାରତରେ <strong>ରାଜସ୍ଥାନରେ ସର୍ବାଧିକ</strong> ଏବଂ <strong>ଅରୁଣାଚଳ ପ୍ରଦେଶ ଓ ପଞ୍ଜାବରେ ସବୁଠାରୁ କମ୍</strong> ମୃତ୍ତିକା କ୍ଷୟ ହୋଇଥାଏ[span_77](start_span)[span_77](end_span)। ଓଡ଼ିଶାରେ ମଧ୍ୟମ ଧରଣର କ୍ଷୟ ଦେଖାଯାଏ[span_78](start_span)[span_78](end_span)।
-    </div>
-  </section>
-
-  <!-- 6. Soil Conservation -->
-  <section id="conservation">
-    <h2 class="sec-title">🛡️ ୬. ମୃତ୍ତିକା ସଂରକ୍ଷଣ ପଦ୍ଧତି (Soil Conservation)</h2>
-    <p>
-      ମୃତ୍ତିକାର ଉର୍ବରତା ବଜାୟ ରଖିବା ଏବଂ ଭୂପୃଷ୍ଠ କ୍ଷୟକୁ ରୋକିବା ପାଇଁ ଦୁଇଟି ସ୍ତରରେ ପଦକ୍ଷେପ ଗ୍ରହଣ କରାଯାଏ[span_79](start_span)[span_79](end_span):
-    </p>
-
-    <div class="compare">
       <div class="card green">
-        <h4>(କ) ସ୍ଥାନୀୟ ଓ ବ୍ୟକ୍ତିଗତ କ୍ଷୁଦ୍ର ପଦକ୍ଷେପ</h4>
+        <h4>ଚାରଣ ଓ ଗୋଚର ଭୂମି (Pasture Land - ୩.୩%)</h4>
         <ul>
-          <li><strong>ପୁନଃ ବନୀକରଣ (Afforestation):</strong> ପତିତ ଜମିରେ ବୃକ୍ଷରୋପଣ[span_80](start_span)[span_80](end_span)।</li>
-          <li><strong>ସମୋଚ୍ଚରେଖା / ରୈଖିକ କର୍ଷଣ (Contour Ploughing):</strong> ପାହାଡ଼ିଆ ଢାଲୁରେ ଢାଲୁ ଆଡ଼କୁ ଚାଷ ନକରି ସମାନ୍ତରାଳ କର୍ଷଣ[span_81](start_span)[span_81](end_span)।</li>
-          <li><strong>ଆବାସ ବଳୟ (Shelter Belts):</strong> ପବନର ଗତି ରୋକିବା ପାଇଁ ଧାଡ଼ି ଧାଡ଼ି ଗଛ ଲଗାଇବା[span_82](start_span)[span_82](end_span)।</li>
-          <li>ଶକ୍ତ ତୃଣ ଓ ବୁଦା ରୋପଣ ଏବଂ ଅତ୍ୟଧିକ ପଶୁଚାରଣ ନିୟନ୍ତ୍ରଣ[span_83](start_span)[span_83](end_span)।</li>
-          <li><strong>ପୋଡ଼ୁ ଚାଷ (Shifting Cultivation) କୁ ନିରୁତ୍ସାହିତ କରିବା</strong>[span_84](start_span)[span_84](end_span)।</li>
-        </ul>
-      </div>
-      <div class="card blue">
-        <h4>(ଖ) ସରକାରୀ ବୃହତ୍ ପଦକ୍ଷେପ</h4>
-        <ul>
-          <li>ଖାଲଖମା ଓ ଦୁର୍ଗମ ଭୂମି (Ravines) କୁ ପୁନରୁଦ୍ଧାର କରି କୃଷି ଓ ଶିଳ୍ପରେ ଲଗାଇବା[span_85](start_span)[span_85](end_span)।</li>
-          <li>ପଶୁଚାରଣ ରୋକିବା ପାଇଁ କଠୋର ଆଇନ ପ୍ରଣୟନ[span_86](start_span)[span_86](end_span)।</li>
-          <li>ବୁନ୍ଦା ଜଳସେଚନ (Drip Irrigation) ବ୍ୟବସ୍ଥାର ପ୍ରସାର[span_87](start_span)[span_87](end_span)।</li>
-          <li>ନଦୀରେ ବନ୍ଧ ଓ ଜଳଭଣ୍ଡାର ନିର୍ମାଣ ଦ୍ୱାରା ବନ୍ୟା ନିୟନ୍ତ୍ରଣ[span_88](start_span)[span_88](end_span)।</li>
-          <li>ନଦୀ ସଂଯୋଗୀକରଣ (River Linking Projects) ଯୋଜନା[span_89](start_span)[span_89](end_span)।</li>
+          <li>ଭାରତରେ ସ୍ଥାୟୀ ଚାରଣ ଭୂମିର ପରିମାଣ ମାତ୍ର <strong>୩.୩%</strong>, ଯାହା ଅତ୍ୟନ୍ତ ନଗଣ୍ୟ[span_70](start_span)[span_70](end_span)।</li>
+          <li>ଜନସଂଖ୍ୟା ଚାପ ଯୋଗୁଁ ଅନେକ ଗୋଚର ଜମି ବସତି ଓ ଶିଳ୍ପରେ ପରିଣତ ହୋଇଛି[span_71](start_span)[span_71](end_span)।</li>
+          <li><strong>ହିମାଚଳ ପ୍ରଦେଶରେ ସର୍ବାଧିକ ଚାରଣ ଭୂମି</strong> ଦେଖାଯାଏ ଏବଂ ଏଠାରେ ପଶୁପାଳନ ମୁଖ୍ୟ ଜୀବିକା[span_72](start_span)[span_72](end_span)।</li>
         </ul>
       </div>
     </div>
   </section>
 
-  <!-- 7. Exercise Section -->
-  <section id="exercises">
-    <h2 class="sec-title">📝 ୭. ଅଧ୍ୟାୟ ପ୍ରଶ୍ନୋତ୍ତର (Self-Assessment)</h2>
+  <!-- 7. Agriculture and Non-Agricultural Lands -->
+  <section id="agriculture">
+    <h2 class="sec-title">🌾 ୭. କୃଷିଭୂମି ଓ ଅଣ-କୃଷି ଭୂମିର ପ୍ରକାର</h2>
 
-    <h3 class="sub-title">୧. ଗୋଟିଏ ବାକ୍ୟରେ ଉତ୍ତର ଦିଅ:</h3>
     <div class="compare">
-      <div class="card">
-        <p><strong>(କ) ଅବଶିଷ୍ଟ ମୃତ୍ତିକା କ’ଣ ?</strong>[span_90](start_span)[span_90](end_span)</p>
-        <p style="color: var(--teal); font-weight: 600;">👉 ଶିଳା ଚୂର୍ଣ୍ଣୀଭୂତ ହୋଇ ଅନ୍ୟତ୍ର ସ୍ଥାନାନ୍ତରିତ ନହୋଇ ମୂଳସ୍ଥାନରେ ଜମା ହୋଇ ସୃଷ୍ଟି ହୋଇଥିବା ମାଟିକୁ ଅବଶିଷ୍ଟ ମୃତ୍ତିକା କୁହାଯାଏ[span_91](start_span)[span_91](end_span) ।</p>
-      </div>
-      <div class="card">
-        <p><strong>(ଖ) ଚେର୍ଣ୍ଣୋଜେମ୍ କାହାକୁ କୁହାଯାଏ ?</strong>[span_92](start_span)[span_92](end_span)</p>
-        <p style="color: var(--teal); font-weight: 600;">👉 ଆନ୍ତର୍ଜାତିକ ସ୍ତରରେ ଭାରତର କୃଷ୍ଣ କାର୍ପାସ (ରେଗୁର) ମୃତ୍ତିକାକୁ କ୍ରାନ୍ତୀୟ ଚେର୍ଣ୍ଣୋଜେମ୍ (Tropical Chernozem) କୁହାଯାଏ[span_93](start_span)[span_93](end_span) ।</p>
-      </div>
-    </div>
-
-    <h3 class="sub-title">୨. ପାର୍ଥକ୍ୟ ଦର୍ଶାଅ:</h3>
-    <div class="compare">
-      <div class="card teal">
-        <h4>ଖାଦର (Khadar)</h4>
-        <p>ନଦୀର ବନ୍ୟାପ୍ଲାବିତ ଅଞ୍ଚଳରେ ପ୍ରତିବର୍ଷ ନୂତନ ପଟୁ ଜମା ହୋଇ ଗଠିତ ଅତି ଉର୍ବର ମୃତ୍ତିକା[span_94](start_span)[span_94](end_span) ।</p>
+      <div class="card gold">
+        <h4>ଭାରତର କୃଷିଭୂମିର ବିଶେଷତ୍ୱ</h4>
+        <ul>
+          <li>ଦେଶର <strong>୫୮% ରୁ ଅଧିକ ଲୋକ</strong> କୃଷି ଉପରେ ପ୍ରତ୍ୟକ୍ଷ ବା ପରୋକ୍ଷ ଭାବେ ନିର୍ଭରଶୀଳ[span_73](start_span)[span_73](end_span)। ଏହା ଜାତୀୟ ଆୟ (GDP) ର ପ୍ରାୟ <strong>୧୫.୮%</strong> ପ୍ରଦାନ କରେ[span_74](start_span)[span_74](end_span)।</li>
+          <li>ପୃଥିବୀର ହାରାହାରି କୃଷିଭୂମି ମାତ୍ର ୧୧% ଥିବାବେଳେ ଭାରତର ପ୍ରାୟ <strong>୫୫% ଭୂମିରେ କୃଷିକାର୍ଯ୍ୟ ହୁଏ</strong>[span_75](start_span)[span_75](end_span)।</li>
+          <li><strong>ଚାଷଜମି ବୃଦ୍ଧି:</strong> ୧୯୫୦-୫୧ ରେ ସମୁଦାୟ ଶସ୍ୟଭୂମି ୧୧୮.୭୫ ନିୟୁତ ହେକ୍ଟର ଥିବାବେଳେ ୨୦୧୮-୧୯ ରେ <strong>୧୮୯.୭୪ ନିୟୁତ ହେକ୍ଟରକୁ ବୃଦ୍ଧି</strong> ପାଇଛି[span_76](start_span)[span_76](end_span)।</li>
+        </ul>
       </div>
       <div class="card coral">
-        <h4>ଭାଙ୍ଗର (Bhangar)</h4>
-        <p>ନଦୀର ପ୍ଲାବନ ଭୂମିଠାରୁ ଦୂରରେ ଥିବା ବନ୍ୟାଜଳ ପହଞ୍ଚୁ ନଥିବା ଅଞ୍ଚଳର ପୁରାତନ ପଟୁ ମୃତ୍ତିକା[span_95](start_span)[span_95](end_span) ।</p>
+        <h4>କୃଷି ପଦ୍ଧତି ଓ ସ୍ଥାନାନ୍ତରିତ କୃଷି</h4>
+        <ul>
+          <li>ସମତଳ ଅଞ୍ଚଳରେ ସଘନ କୃଷି, ପାର୍ବତ୍ୟ ଅଞ୍ଚଳରେ ସୋପାନ କୃଷି (Terrace farming) ଓ ଶୁଷ୍କ କୃଷି କରାଯାଏ[span_77](start_span)[span_77](end_span)।</li>
+          <li><strong>ସ୍ଥାନାନ୍ତରିତ କୃଷି (Shifting Cultivation):</strong> ଜଙ୍ଗଲ କାଟି ପୋଡ଼ି ଚାଷ କରିବା[span_78](start_span)[span_78](end_span)। ଏହାକୁ ଓଡ଼ିଶାରେ <strong>ପୋଡ଼ୁଚାଷ</strong> ଏବଂ ଆସାମ/ଉତ୍ତର-ପୂର୍ବାଞ୍ଚଳରେ <strong>ଝୁମ୍ (Jhum)</strong> କୁହାଯାଏ[span_79](start_span)[span_79](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Land Degradation and Conservation -->
+  <section id="degradation">
+    <h2 class="sec-title">⚠️ ୮. ଭୂ-ଅବକ୍ଷୟ (Land Degradation) ଓ ସଂରକ୍ଷଣ ଉପାୟ</h2>
+    <p>
+      ଅଧୁନା (୨୦୧୯ ତଥ୍ୟ) ଭାରତରେ ପ୍ରାୟ <strong>୯୬.୪ ନିୟୁତ ହେକ୍ଟର ଭୂମି କ୍ଷୟିତ (Degraded Land)</strong> ହୋଇପଡ଼ିଛି[span_80](start_span)[span_80](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card coral">
+        <h4>କ୍ଷୟିତ ଭୂମିର ବିଭାଜନ ଓ କାରଣ</h4>
+        <ul>
+          <li><strong>ଜଳପ୍ରବାହ ଦ୍ୱାରା କ୍ଷୟିତ:</strong> ୫୬% (ସର୍ବାଧିକ)[span_81](start_span)[span_81](end_span)</li>
+          <li><strong>ଅରଣ୍ୟ କ୍ଷୟ ଯୋଗୁଁ କ୍ଷୟିତ:</strong> ୨୮%[span_82](start_span)[span_82](end_span)</li>
+          <li><strong>ମନୁଷ୍ୟକୃତ କାରଣ:</strong> ଅତ୍ୟଧିକ ପଶୁଚାରଣ, ଖଣି ଖନନ, ଅବିଚାରିତ ରାସାୟନିକ ସାର ପ୍ରୟୋଗ ଓ ନଗରୀକରଣ[span_83](start_span)[span_83](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card green">
+        <h4>ଭୂ-ସଂରକ୍ଷଣର ୬ ଗୋଟି ପ୍ରମୁଖ ଉପାୟ</h4>
+        <ol>
+          <li><strong>ପୁନଃ ବନୀକରଣ (Afforestation)</strong> ଓ ନିୟନ୍ତ୍ରିତ ପଶୁଚାରଣ[span_84](start_span)[span_84](end_span)।</li>
+          <li>ବାଲୁକା ପାହାଡ଼ (Sand dunes) ସ୍ଥିରୀକରଣ ପାଇଁ କଣ୍ଟାଜାତୀୟ ବୃକ୍ଷରୋପଣ[span_85](start_span)[span_85](end_span)।</li>
+          <li>ପବନର ବେଗ ରୋକିବା ପାଇଁ <strong>ସବୁଜ ପ୍ରତିରକ୍ଷା ବଳୟ (Shelter Belts)</strong> ନିର୍ମାଣ[span_86](start_span)[span_86](end_span)।</li>
+          <li>ଶିଳ୍ପ ବର୍ଜ୍ୟବସ୍ତୁର ବିଶୋଧନ ଓ ଉପଯୁକ୍ତ ପରିଚାଳନା[span_87](start_span)[span_87](end_span)।</li>
+          <li>ଜଳଛାୟା ଉନ୍ନୟନ (Watershed Management) ଓ ବନ୍ୟା ନିୟନ୍ତ୍ରଣ[span_88](start_span)[span_88](end_span)।</li>
+          <li>ବୈଜ୍ଞାନିକ ଭିତ୍ତିରେ ସୁଚିନ୍ତିତ ଭୂ-ବ୍ୟବହାର ଯୋଜନା ପ୍ରଣୟନ[span_89](start_span)[span_89](end_span)।</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Exercises -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ୯. ଅଧ୍ୟାୟ ଅଭ୍ୟାସ ପ୍ରଶ୍ନୋତ୍ତର</h2>
+
+    <h3 class="sub-title">୧. ସଂକ୍ଷିପ୍ତ ପ୍ରଶ୍ନୋତ୍ତର:</h3>
+    <div class="compare">
+      <div class="card">
+        <p><strong>(କ) ଅନାବାଦୀ / ପତିତ ଭୂମି କାହାକୁ କୁହାଯାଏ ?</strong>[span_90](start_span)[span_90](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଯେଉଁ କୃଷିଯୋଗ୍ୟ ଜମିରେ ଏକ ବା ଏକାଧିକ ବର୍ଷ ଧରି କୌଣସି କୃଷିକାର୍ଯ୍ୟ କରାଯାଇ ନଥାଏ, ତାହାକୁ ପତିତ ବା ଅନାବାଦୀ ଭୂମି କୁହାଯାଏ[span_91](start_span)[span_91](end_span) ।</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଖ) କ୍ଷୟିତ ଭୂମି (Degraded Land) କ’ଣ ?</strong>[span_92](start_span)[span_92](end_span)</p>
+        <p style="color: var(--gold); font-weight: 600;">👉 ପ୍ରାକୃତିକ କାରକ (ଜଳ, ପବନ) ବା ମନୁଷ୍ୟକୃତ କାର୍ଯ୍ୟ (ଜଙ୍ଗଲ କ୍ଷୟ, ଖନନ) ଯୋଗୁଁ ଉର୍ବରତା ଓ ଉତ୍ପାଦନ କ୍ଷମତା ହରାଇଥିବା ଅନୁପଯୋଗୀ ଭୂମିକୁ କ୍ଷୟିତ ଭୂମି କୁହାଯାଏ[span_93](start_span)[span_93](end_span) ।</p>
       </div>
     </div>
 
     <div class="callout activity-box">
-      <strong>ଛାତ୍ରଛାତ୍ରୀଙ୍କ ପାଇଁ କାର୍ଯ୍ୟ (Self-Activity):</strong>
+      <strong>ଛାତ୍ରଛାତ୍ରୀଙ୍କ ପାଇଁ କାର୍ଯ୍ୟ:</strong>
       <ol>
-        <li>ତୁମ ନିଜ ଅଞ୍ଚଳରୁ ବିଭିନ୍ନ ପ୍ରକାରର ମୃତ୍ତିକା ନମୁନା ସଂଗ୍ରହ କରି ଏହାର ରଙ୍ଗ ଓ ଗଠନର ଏକ ତାଲିକା ପ୍ରସ୍ତୁତ କର[span_96](start_span)[span_96](end_span)।</li>
-        <li>ତୁମ ଘର ପାଖ ଓ ବିଦ୍ୟାଳୟ ପରିସରର ମାଟି ମଧ୍ୟରେ ଥିବା ପାର୍ଥକ୍ୟ ତୁଳନା କର[span_97](start_span)[span_97](end_span)।</li>
+        <li>ତୁମ ଗ୍ରାମ ବା ସହରରେ ଭୂ-ସମ୍ବଳ କି କି କାର୍ଯ୍ୟରେ ବ୍ୟବହୃତ ହେଉଛି ତା’ର ଏକ ତାଲିକା ପ୍ରସ୍ତୁତ କର[span_94](start_span)[span_94](end_span)।</li>
+        <li>ଭାରତର ରେଖାଙ୍କିତ ମାନଚିତ୍ରରେ କର୍କଟକ୍ରାନ୍ତି, ଇନ୍ଦିରା ପଏଣ୍ଟ ଓ କନ୍ୟାକୁମାରୀ ଚିହ୍ନଟ କର[span_95](start_span)[span_95](end_span)।</li>
       </ol>
     </div>
   </section>
 
   <footer>
-    <p>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ • ତୃତୀୟ ପାଠ: ମୃତ୍ତିକା ସମ୍ବଳ | Digital Learning Note System</p>
+    <p>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ • ଦ୍ୱିତୀୟ ପାଠ: ଭୂ-ସମ୍ବଳ | Digital Learning Note System</p>
   </footer>
 
 </div>
 
 </body>
 </html>
-
