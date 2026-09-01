@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ଦଶମ ଶ୍ରେଣୀ ଇତିହାସ - ଚତୁର୍ଥ ଅଧ୍ୟାୟ: ସ୍ୱାଧୀନତୋତ୍ତର ଓଡ଼ିଶାର ବିକାଶ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(56, 189, 248, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(20, 184, 166, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Sans Oriya', 'Outfit', sans-serif;
+      line-height: 1.75;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1060px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.25;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 760px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.15rem;
+      color: #e2e8f0;
+      margin: 22px 0 12px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 0.98rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.05rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 16px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#38bdf8" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#10b981" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#38bdf8"/>
+      <circle cx="45" cy="130" r="7" fill="#10b981"/>
+    </svg>
+    <div class="badge">🏛️ ଦଶମ ଶ୍ରେଣୀ • ଇତିହାସ • ଚତୁର୍ଥ ଅଧ୍ୟାୟ</div>
+    <h1>ସ୍ୱାଧୀନତୋତ୍ତର ଓଡ଼ିଶାର ବିକାଶ</h1>
+    <p>ସ୍ୱାଧୀନତା ପରବର୍ତ୍ତୀ ଓଡ଼ିଶାରେ ସାମାଜିକ ବିକାଶ, ଶିକ୍ଷାର ପ୍ରସାର, କୃଷି ଓ ଜଳସେଚନର ଉନ୍ନତି, ଶିଳ୍ପାୟନ ଏବଂ ଆଧାରିକ ଭିତ୍ତିଭୂମି ବିକାଶର ଏକ ସମ୍ପୂର୍ଣ୍ଣ ସାରାଂଶ।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#pat-1">୧. ସାମାଜିକ ବିକାଶ</a>
+    <a href="#pat-2">୨. ଶିକ୍ଷାର ବିକାଶ</a>
+    <a href="#pat-3">୩. କୃଷିର ବିକାଶ</a>
+    <a href="#pat-4">୪. ଶିଳ୍ପର ବିକାଶ</a>
+    <a href="#pat-5">୫. ଭିତ୍ତିଭୂମିର ବିକାଶ</a>
+    <a href="#schemes-table">ଯୋଜନା ଓ ଅନୁଷ୍ଠାନ ସାରଣୀ</a>
+    <a href="#exercises">ଅଭ୍ୟାସ ପ୍ରଶ୍ନୋତ୍ତର</a>
+  </nav>
+
+  <!-- 1. Lesson 1: Social Development -->
+  <section id="pat-1">
+    <h2 class="sec-title">👥 ୧. ପ୍ରଥମ ପାଠ : ସାମାଜିକ ବିକାଶ</h2>
+    <p>
+      ସ୍ୱାଧୀନତା ଓ ଗଡ଼ଜାତ ମିଶ୍ରଣ ପରେ ଓଡ଼ିଶାର ଲୋକସଂଖ୍ୟା ୧ କୋଟି ୩୭ ଲକ୍ଷରେ ପହଞ୍ଚିଲା[span_0](start_span)[span_0](end_span)। ସେଥିମଧ୍ୟରୁ ପ୍ରାୟ <strong>୩୫ ଲକ୍ଷ ଆଦିବାସୀ (ଅନୁସୂଚିତ ଜନଜାତି)</strong> ଏବଂ <strong>୧୮ ଲକ୍ଷ ୬୦ ହଜାର ଅନୁସୂଚିତ ଜାତି</strong>ର ଲୋକ ଥିଲେ[span_1](start_span)[span_1](end_span)।
+    </p>
+
+    <div class="flow">
+      <div class="flow-node">୧୯୪୭: ଜମି ଜବରଦଖଲ ନିଷେଧ ଓ ଋଣ କାରବାର ନିୟନ୍ତ୍ରଣ[span_2](start_span)[span_2](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">୧୯୪୮: ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ଓ ମନ୍ଦିର ପ୍ରବେଶ ଆଇନ[span_3](start_span)[span_3](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">୧୯୪୯: ଅପରାଧୀ ଜନଜାତି ଆଇନ ରଦ୍ଦ[span_4](start_span)[span_4](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ସାମାଜିକ ନ୍ୟାୟ ଓ ସଶକ୍ତୀକରଣ[span_5](start_span)[span_5](end_span)</div>
+    </div>
+
+    <h3 class="sub-title">(କ) ଅନୁସୂଚିତ ଜାତି ଓ ଜନଜାତିଙ୍କ ବିକାଶ ପାଇଁ ପଦକ୍ଷେପ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଆଇନଗତ ଓ ଆର୍ଥିକ ସଂସ୍କାର</h4>
+        <ul>
+          <li><strong>ଜମି ସୁରକ୍ଷା (୧୯୪୭):</strong> ଅଣଆଦିବାସୀମାନଙ୍କ ଦ୍ୱାରା ଆଦିବାସୀଙ୍କ ଜମି ଜବରଦଖଲ ନିଷିଦ୍ଧ ହେଲା ଏବଂ ହସ୍ତାନ୍ତରିତ ଜମି ଚିହ୍ନଟ କରି ଫେରସ୍ତ କରାଗଲା[span_6](start_span)[span_6](end_span)।</li>
+          <li><strong>ପୋଡ଼ୁଚାଷ ନିୟନ୍ତ୍ରଣ:</strong> ପୋଡ଼ୁଚାଷକୁ ନିରୁତ୍ସାହିତ କରି ସ୍ଥାୟୀ କୃଷି ପାଇଁ ମାଗଣା ବଳଦ, କୃଷି ଉପକରଣ ଓ ଚରଖା ପ୍ରଦାନ କରାଗଲା[span_7](start_span)[span_7](end_span)।</li>
+          <li><strong>ଅମାନୁଷିକ ପ୍ରଥା ଉଚ୍ଛେଦ:</strong> ୧୯୪୮ ରେ ଗୋତିପ୍ରଥା ଉଚ୍ଛେଦ ନିୟମ ଏବଂ ପରେ ବେଠି, ବେଗାରୀ, ମାଗଣ, ରସଦ ଓ ଭେଟି ପ୍ରଥା ବନ୍ଦ କରାଗଲା[span_8](start_span)[span_8](end_span)। ୧୯୪୯ ରେ <strong>ଅପରାଧୀ ଜନଜାତି ଆଇନ</strong> ରଦ୍ଦ ହେଲା[span_9](start_span)[span_9](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <h4>ଅସ୍ପୃଶ୍ୟତା ନିବାରଣ ଓ ସାମାଜିକ ସମାନତା</h4>
+        <ul>
+          <li><strong>ମନ୍ଦିର ପ୍ରବେଶ ଆଇନ (୧୯୪୮):</strong> ଜଗନ୍ନାଥ ମନ୍ଦିର ସମେତ ସମସ୍ତ ମନ୍ଦିର ଦଳିତଙ୍କ ପାଇଁ ଉନ୍ମୁକ୍ତ ହେଲା[span_10](start_span)[span_10](end_span)। <strong>୧୯୪୮ ମାର୍ଚ୍ଚ ୧ ରେ ସାକ୍ଷୀଗୋପାଳ ମନ୍ଦିରରେ ଦଳିତମାନେ ପ୍ରବେଶ କଲେ</strong>[span_11](start_span)[span_11](end_span)।</li>
+          <li><strong>ନାଗରିକ ଅଯୋଗ୍ୟତା ଦୂରୀକରଣ ଆଇନ:</strong> ଏହି ଆଇନ ବଳରେ ଅସ୍ପୃଶ୍ୟତା ଭଳି କଳଙ୍କିତ ପ୍ରଥା ସମାପ୍ତ ହେଲା[span_12](start_span)[span_12](end_span)।</li>
+          <li><strong>ସ୍ୱାସ୍ଥ୍ୟ ସେବା:</strong> କୋରାପୁଟର କୋୟା ଆଦିବାସୀଙ୍କ ମଧ୍ୟରେ ବ୍ୟାପିଥିବା <strong>‘ୟଜ୍’ (Yaws)</strong> ରୋଗ, ଯୌନରୋଗ ଓ ମ୍ୟାଲେରିଆ ନିରାକରଣ ପାଇଁ ସ୍ୱତନ୍ତ୍ର ଚିକିତ୍ସା ବ୍ୟବସ୍ଥା କରାଗଲା[span_13](start_span)[span_13](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub-title">(ଖ) ଗ୍ରାମାଞ୍ଚଳ ବିକାଶ, ଶିଶୁ କଲ୍ୟାଣ ଓ ମହିଳା ସଶକ୍ତୀକରଣ:</h3>
+    <div class="compare">
+      <div class="card green">
+        <h4>ଗ୍ରାମୀଣ କର୍ମନିଯୁକ୍ତି ଓ ଗୃହ ନିର୍ମାଣ</h4>
+        <ul>
+          <li><strong>MGNREGA:</strong> ୨୦୦୫ ରୁ ଗ୍ରାମାଞ୍ଚଳ ଲୋକଙ୍କୁ ବର୍ଷକୁ ଅନ୍ୟୁନ <strong>୧୦୦ ଦିନର ନିଶ୍ଚିତ କର୍ମନିଯୁକ୍ତି</strong>[span_14](start_span)[span_14](end_span)।</li>
+          <li><strong>ଖାଦ୍ୟ ନିରାପତ୍ତା:</strong> ଅନ୍ତୋଦୟ ଯୋଜନାରେ BPL ପରିବାରକୁ ମାସିକ ୩୫ କିଗ୍ରା ଚାଉଳ (ପରେ ରାଜ୍ୟ ସରକାରଙ୍କ ଦ୍ୱାରା ୨ ଟଙ୍କିଆ/୧ ଟଙ୍କିଆ ଚାଉଳ)[span_15](start_span)[span_15](end_span)।</li>
+          <li><strong>ଆବାସ ଓ ବିଦ୍ୟୁତ:</strong> ଇନ୍ଦିରା ଆବାସ, ‘ମୋ କୁଡ଼ିଆ’ ଯୋଜନା, ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଓ ଗୋପବନ୍ଧୁ ଗ୍ରାମୀଣ ଯୋଜନା[span_16](start_span)[span_16](end_span)[span_17](start_span)[span_17](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card blue">
+        <h4>ମିଶନ ଶକ୍ତି ଓ ମହିଳା ବିକାଶ</h4>
+        <ul>
+          <li><strong>ମିଶନ ଶକ୍ତି (୮ ମାର୍ଚ୍ଚ ୨୦୦୧):</strong> ମହିଳା ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ (WSHG) ମାଧ୍ୟମରେ ମହିଳାମାନଙ୍କୁ ସାମାଜିକ ଓ ଆର୍ଥିକ ଭାବେ ଆତ୍ମନିର୍ଭରଶୀଳ କରାଗଲା[span_18](start_span)[span_18](end_span)।</li>
+          <li><strong>ମାତୃ ଓ ଶିଶୁ ମଙ୍ଗଳ:</strong> ଜନନୀ ସୁରକ୍ଷା ଯୋଜନା (ପ୍ରସବକାଳୀନ ସହାୟତା), ଅଙ୍ଗନବାଡ଼ି କେନ୍ଦ୍ର ଓ ମଧ୍ୟାହ୍ନ ଭୋଜନ ବ୍ୟବସ୍ଥା[span_19](start_span)[span_19](end_span)। କନ୍ୟାଭ୍ରୂଣ ହତ୍ୟା ନିଷେଧ ଓ ୧୪ ବର୍ଷରୁ କମ୍ ଶିଶୁଶ୍ରମିକ ପ୍ରଥା ଉଚ୍ଛେଦ[span_20](start_span)[span_20](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout def-box">
+      <strong>ସାମାଜିକ ନିରାପତ୍ତା ଯୋଜନା ସମୂହ:</strong><br>
+      • <strong>ମଧୁବାବୁ ପେନ୍‌ସନ ଯୋଜନା (୧ ଜାନୁଆରୀ ୨୦୦୮):</strong> ବୃଦ୍ଧ, ବିଧବା, ଭିନ୍ନକ୍ଷମ ଓ କୁଷ୍ଠରୋଗୀଙ୍କୁ ମାସିକ ଭତ୍ତା ପ୍ରଦାନ[span_21](start_span)[span_21](end_span)।<br>
+      • <strong>ରାଷ୍ଟ୍ରୀୟ ସ୍ୱାସ୍ଥ୍ୟ ବୀମା ଯୋଜନା (୧ ଏପ୍ରିଲ ୨୦୦୮):</strong> BPL ପରିବାରକୁ ମାତ୍ର ୩୦ ଟଙ୍କା ପଞ୍ଜୀକରଣରେ ବାର୍ଷିକ ୩୦,୦୦୦ ଟଙ୍କା ପର୍ଯ୍ୟନ୍ତ ଚିକିତ୍ସା ଖର୍ଚ୍ଚ ଭରଣା[span_22](start_span)[span_22](end_span)।<br>
+      • <strong>୧୦୮ ଜରୁରୀକାଳୀନ ଆମ୍ବୁଲାନ୍ସ ସେବା:</strong> ୫ ମାର୍ଚ୍ଚ ୨୦୧୩ ରୁ ପ୍ରବର୍ତ୍ତିତ[span_23](start_span)[span_23](end_span)।
+    </div>
+  </section>
+
+  <!-- 2. Lesson 2: Educational Development -->
+  <section id="pat-2">
+    <h2 class="sec-title">🎓 ୨. ଦ୍ୱିତୀୟ ପାଠ : ଶିକ୍ଷାର ବିକାଶ</h2>
+    <p>
+      ସ୍ୱାଧୀନତା ପରେ ମହାତ୍ମା ଗାନ୍ଧୀଙ୍କ ପରିକଳ୍ପିତ <strong>ମୌଳିକ ଶିକ୍ଷା (Basic Education)</strong> ବା କର୍ମାଭିମୁଖୀ ଶିକ୍ଷା ଉପରେ ପ୍ରାଥମିକ ସ୍ତରରେ ଗୁରୁତ୍ୱ ଦିଆଗଲା[span_24](start_span)[span_24](end_span)।
+    </p>
+
+    <!-- School Education -->
+    <h3 class="sub-title">(କ) ପ୍ରାଥମିକ ଓ ମାଧ୍ୟମିକ ଶିକ୍ଷା:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ପ୍ରାଥମିକ ଶିକ୍ଷାର ପ୍ରସାର</h4>
+        <ul>
+          <li><strong>୧୯୪୭-୪୮:</strong> ମୌଳିକ ଶିକ୍ଷା ଶିକ୍ଷକ ପ୍ରଶିକ୍ଷଣ ବିଦ୍ୟାଳୟ <strong>ଅନୁଗୁଳ ଓ ରସୁଲକୋଣ୍ଡା (ଭଞ୍ଜନଗର)</strong> ଠାରେ ସ୍ଥାପିତ ହେଲା[span_25](start_span)[span_25](end_span)।</li>
+          <li>୧୯୫୦ ବେଳକୁ ଓଡ଼ିଶାରେ ୧୦,୧୬୫ ପ୍ରାଥମିକ ବିଦ୍ୟାଳୟ ଓ ୪,୪୧,୯୬୭ ଛାତ୍ରଛାତ୍ରୀ ଥିଲେ[span_26](start_span)[span_26](end_span)।</li>
+          <li><strong>ସର୍ବ ଶିକ୍ଷା ଅଭିଯାନ (SSA) ଓ DPEP (୧୯୯୬):</strong> ପ୍ରାଥମିକ ଶିକ୍ଷାର ସାର୍ବଜନୀନକରଣ ଓ ୧୯୯୫ ରୁ <strong>ମଧ୍ୟାହ୍ନ ଭୋଜନ (Mid-day Meal)</strong> ଯୋଜନା[span_27](start_span)[span_27](end_span)[span_28](start_span)[span_28](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <h4>ମାଧ୍ୟମିକ ଶିକ୍ଷା ଓ ବୋର୍ଡ଼ ପ୍ରତିଷ୍ଠା</h4>
+        <ul>
+          <li><strong>ଓଡ଼ିଶା ମାଧ୍ୟମିକ ଶିକ୍ଷା ପରିଷଦ (BSE, Odisha):</strong> ଓଡ଼ିଶା ସେକେଣ୍ଡାରୀ ଏଡୁକେସନ୍ ଆକ୍ଟ <strong>୧୯୫୩</strong> ବଳରେ ଗଠିତ[span_29](start_span)[span_29](end_span)।</li>
+          <li><strong>ରାଷ୍ଟ୍ରୀୟ ମାଧ୍ୟମିକ ଶିକ୍ଷା ଅଭିଯାନ (RMSA - ୨୦୦୯-୧୦):</strong> ୧୪-୧୮ ବର୍ଷ ବୟସର ପିଲାଙ୍କ ପାଇଁ ଘରଠାରୁ ୫ କିମି ମଧ୍ୟରେ ମାଧ୍ୟମିକ ଓ ୭-୧୦ କିମି ମଧ୍ୟରେ ଉଚ୍ଚ ମାଧ୍ୟମିକ ବିଦ୍ୟାଳୟ ସୁବିଧା[span_30](start_span)[span_30](end_span)।</li>
+          <li>ଅନଗ୍ରସର ବ୍ଲକ୍‌ରେ ମଡେଲ୍ ସ୍କୁଲ୍ ଓ ଛାତ୍ରୀନିବାସ ନିର୍ମାଣ[span_31](start_span)[span_31](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Higher Education & Universities -->
+    <h3 class="sub-title">(ଖ) ଉଚ୍ଚଶିକ୍ଷା ଓ ବିଶ୍ୱବିଦ୍ୟାଳୟ ସମୂହ:</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ବିଶ୍ୱବିଦ୍ୟାଳୟ / ଅନୁଷ୍ଠାନର ନାମ</th>
+            <th>ପ୍ରତିଷ୍ଠା ବର୍ଷ / ସ୍ଥାନ</th>
+            <th>ବିଶେଷ ସୂଚନା</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ଉତ୍କଳ ବିଶ୍ୱବିଦ୍ୟାଳୟ (Utkal University)</strong></td>
+            <td>୧୯୪୩ (ଭୁବନେଶ୍ୱର)[span_32](start_span)[span_32](end_span)</td>
+            <td>ଓଡ଼ିଶାର ପ୍ରଥମ ବିଶ୍ୱବିଦ୍ୟାଳୟ[span_33](start_span)[span_33](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ସମ୍ବଲପୁର ଓ ବ୍ରହ୍ମପୁର ବିଶ୍ୱବିଦ୍ୟାଳୟ</strong></td>
+            <td>୧୯୬୭ (ସମ୍ବଲପୁର ଓ ବ୍ରହ୍ମପୁର)[span_34](start_span)[span_34](end_span)</td>
+            <td>ପଶ୍ଚିମ ଓ ଦକ୍ଷିଣ ଓଡ଼ିଶାର ଉଚ୍ଚଶିକ୍ଷା ପ୍ରସାର[span_35](start_span)[span_35](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ଶ୍ରୀଜଗନ୍ନାଥ ସଂସ୍କୃତ ବିଶ୍ୱବିଦ୍ୟାଳୟ</strong></td>
+            <td>୧୯୮୧ (ପୁରୀ)[span_36](start_span)[span_36](end_span)</td>
+            <td>ସଂସ୍କୃତ ଶିକ୍ଷା ଓ ଗବେଷଣା[span_37](start_span)[span_37](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ଫକୀରମୋହନ ଓ ଉତ୍ତର ଓଡ଼ିଶା ବିଶ୍ୱବିଦ୍ୟାଳୟ</strong></td>
+            <td>୧୯୯୯ (ବାଲେଶ୍ୱର ଓ ବାରିପଦା)[span_38](start_span)[span_38](end_span)</td>
+            <td>ଉତ୍ତର ଓଡ଼ିଶାର ଶିକ୍ଷା ବିକାଶ[span_39](start_span)[span_39](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ଉତ୍କଳ ସଂସ୍କୃତି ବିଶ୍ୱବିଦ୍ୟାଳୟ</strong></td>
+            <td>୨୦୦୦ (ଭୁବନେଶ୍ୱର)[span_40](start_span)[span_40](end_span)</td>
+            <td>ସଂସ୍କୃତି, ଚାରୁକଳା ଓ ସଙ୍ଗୀତ ଶିକ୍ଷା[span_41](start_span)[span_41](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ବିଜୁ ପଟ୍ଟନାୟକ ବୈଷୟିକ ବିଶ୍ୱବିଦ୍ୟାଳୟ (BPUT)</strong></td>
+            <td>୨୦୦୨ (ରାଉରକେଲା)[span_42](start_span)[span_42](end_span)</td>
+            <td>ବୈଷୟିକ ଶିକ୍ଷା ନିୟନ୍ତ୍ରଣ[span_43](start_span)[span_43](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ଓଡ଼ିଶା କେନ୍ଦ୍ରୀୟ ବିଶ୍ୱବିଦ୍ୟାଳୟ (CUO)</strong></td>
+            <td>କୋରାପୁଟ[span_44](start_span)[span_44](end_span)</td>
+            <td>କେନ୍ଦ୍ରୀୟ ବିଶ୍ୱବିଦ୍ୟାଳୟ[span_45](start_span)[span_45](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ରାଧାନାଥ ଇନଷ୍ଟିଚ୍ୟୁଟ୍ (RNIASE)</strong></td>
+            <td>କଟକ[span_46](start_span)[span_46](end_span)</td>
+            <td>ପୂର୍ବର କଟକ ଟ୍ରେନିଂ କଲେଜ୍ (ଶିକ୍ଷକ ପ୍ରଶିକ୍ଷଣ)[span_47](start_span)[span_47](end_span)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Technical & Medical Education -->
+    <h3 class="sub-title">(ଗ) ବୈଷୟିକ, କୃଷି ଓ ଡାକ୍ତରୀ ଶିକ୍ଷା:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଯାନ୍ତ୍ରିକ ଓ ବୈଷୟିକ ଶିକ୍ଷାନୁଷ୍ଠାନ</h4>
+        <ul>
+          <li><strong>୧୯୫୬:</strong> ବୁର୍ଲା ଯାନ୍ତ୍ରିକ ମହାବିଦ୍ୟାଳୟ (ବର୍ତ୍ତମାନ VSSUT)[span_48](start_span)[span_48](end_span)।</li>
+          <li><strong>୧୯୬୧:</strong> ରାଉରକେଲା ଆଞ୍ଚଳିକ ଯାନ୍ତ୍ରିକ ମହାବିଦ୍ୟାଳୟ (ବର୍ତ୍ତମାନ NIT Rourkela)[span_49](start_span)[span_49](end_span)।</li>
+          <li>CET ଭୁବନେଶ୍ୱର, IGIT ସାରଙ୍ଗ, IIT ଭୁବନେଶ୍ୱର, IIIT ଓ NISER ଭୁବନେଶ୍ୱର[span_50](start_span)[span_50](end_span)।</li>
+          <li>ଜାତୀୟ ଆଇନ ବିଶ୍ୱବିଦ୍ୟାଳୟ (NLU, କଟକ) ଓ IIMC ଢେଙ୍କାନାଳ[span_51](start_span)[span_51](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card coral">
+        <h4>ଚିକିତ୍ସା ବିଜ୍ଞାନ ଓ ଆୟୁର୍ବିଜ୍ଞାନ</h4>
+        <ul>
+          <li><strong>SCB ମେଡିକାଲ କଲେଜ (କଟକ):</strong> ୧୯୪୯-୫୦ ରେ ଶ୍ରୀରାମଚନ୍ଦ୍ର ଭଞ୍ଜଙ୍କ ନାମରେ ନାମିତ[span_52](start_span)[span_52](end_span)।</li>
+          <li><strong>VSS ମେଡିକାଲ କଲେଜ (ବୁର୍ଲା):</strong> ୧୯୫୯ ରେ ସ୍ଥାପିତ[span_53](start_span)[span_53](end_span)।</li>
+          <li><strong>MKCG ମେଡିକାଲ କଲେଜ (ବ୍ରହ୍ମପୁର)</strong>[span_54](start_span)[span_54](end_span)।</li>
+          <li><strong>AIIMS ଭୁବନେଶ୍ୱର:</strong> ୨୦୧୨ ରୁ କାର୍ଯ୍ୟକ୍ଷମ[span_55](start_span)[span_55](end_span)।</li>
+          <li>କଟକ ଓଲଟପୁରଠାରେ <strong>SVNIRTAR (ଜାତୀୟ ପୁନଃ ଥଇଥାନ ପ୍ରଶିକ୍ଷଣ ଓ ଗବେଷଣା ପ୍ରତିଷ୍ଠାନ)</strong> ଏବଂ ଭୁବନେଶ୍ୱରରେ RMRC[span_56](start_span)[span_56](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Lesson 3: Agricultural Development -->
+  <section id="pat-3">
+    <h2 class="sec-title">🌾 ୩. ତୃତୀୟ ପାଠ : କୃଷିର ବିକାଶ</h2>
+    <p>
+      ସ୍ୱାଧୀନତା ବେଳେ ଓଡ଼ିଶାର ସବୁଠାରୁ ବଡ଼ ସମସ୍ୟା ଥିଲା ଚାଷୀକୁ ଜମିର ସ୍ୱତ୍ୱାଧିକାର ପ୍ରଦାନ[span_57](start_span)[span_57](end_span)। ୧୭୯୩ ର ଚିରସ୍ଥାୟୀ ବନ୍ଦୋବସ୍ତ (ଲର୍ଡ଼ କର୍ଣ୍ଣୱାଲିସ୍ ଓ ସାର୍ ଜନ୍ ସୋର) ଯୋଗୁଁ ଚଳିଆସୁଥିବା ଜମିଦାରୀ ପ୍ରଥା ଏଥିରେ ମୁଖ୍ୟ ପ୍ରତିବନ୍ଧକ ଥିଲା[span_58](start_span)[span_58](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card gold">
+        <h4>ଭୂମି ସଂସ୍କାର ଓ ଭୂଦାନ ଆନ୍ଦୋଳନ</h4>
+        <ul>
+          <li>ମୁଖ୍ୟମନ୍ତ୍ରୀ <strong>ହରେକୃଷ୍ଣ ମହତାବ</strong>ଙ୍କ ଉଦ୍ୟମରେ ବିଧାନସଭାରେ ବିଧେୟକ ଆଗତ ହୋଇ ୧୯୫୦ ଦଶକରେ <strong>ଜମିଦାରୀ ପ୍ରଥା ଉଚ୍ଛେଦ</strong> ହେଲା[span_59](start_span)[span_59](end_span)।</li>
+          <li><strong>ଭୂଦାନ ଆନ୍ଦୋଳନ (୧୯୫୫):</strong> ଆଚାର୍ଯ୍ୟ ବିନୋବା ଭାବେ (ମୂଳ ନାମ: ବିନାୟକ ନରହରି ଭାବେ) ଙ୍କ ଦ୍ୱାରା ସଂଗୃହୀତ ଜମି ଭୂମିହୀନ ଚାଷୀଙ୍କୁ ବଣ୍ଟାଗଲା[span_60](start_span)[span_60](end_span)।</li>
+          <li>ଭାଗଚାଷୀ ସୁରକ୍ଷା ଆଇନ ଓ ଆଦିବାସୀ ଜମି ସଂରକ୍ଷଣ ବ୍ୟବସ୍ଥା[span_61](start_span)[span_61](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card teal">
+        <h4>କୃଷି ଋଣ ଓ ଆର୍ଥିକ ସହାୟତା</h4>
+        <ul>
+          <li><strong>୧୯୪୮:</strong> ଓଡ଼ିଶା ରାଜ୍ୟ ସମବାୟ ବ୍ୟାଙ୍କ (OSCB) ପ୍ରତିଷ୍ଠା[span_62](start_span)[span_62](end_span)।</li>
+          <li>ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ ସମୟରେ ଚାଷୀଙ୍କୁ <strong>‘ତକାଭି’ (Taccavi) ଋଣ</strong> ପ୍ରଦାନ ଓ ଋଣ ଛାଡ଼[span_63](start_span)[span_63](end_span)।</li>
+          <li><strong>ଟେଷ୍ଟ ରିଲିଫ୍ (Test Relief):</strong> ବିପର୍ଯ୍ୟୟ ବେଳେ ଗ୍ରାମାଞ୍ଚଳରେ ରାସ୍ତା ଓ ପୋଖରୀ ଖନନ କାମ ଯୋଗାଇ ମଜୁରି ବା ଖାଦ୍ୟଶସ୍ୟ ଦେବାର ସରକାରୀ ବ୍ୟବସ୍ଥା[span_64](start_span)[span_64](end_span)।</li>
+          <li>ଧାନର ‘ଅଭାବୀ ବିକ୍ରି’ (Distress Sale) ରୋକିବାକୁ ସିଧାସଳଖ ମଣ୍ଡିରୁ ଧାନ ସଂଗ୍ରହ[span_65](start_span)[span_65](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub-title">ପ୍ରମୁଖ ବହୁମୁଖୀ ନଦୀବନ୍ଧ ଓ ଜଳସେଚନ ପ୍ରକଳ୍ପ:</h3>
+    <div class="compare">
+      <div class="card blue">
+        <h4>ହୀରାକୁଦ ନଦୀବନ୍ଧ ଯୋଜନା</h4>
+        <p>କେନ୍ଦ୍ରୀୟ ଜଳ ଆୟୋଗ ଦ୍ୱାରା <strong>୧୯୪୮ ରେ ଆରମ୍ଭ ହୋଇ ୧୯୫୬-୫୭ ରେ କାର୍ଯ୍ୟକ୍ଷମ ହେଲା</strong>[span_66](start_span)[span_66](end_span)[span_67](start_span)[span_67](end_span) ।</p>
+        <small class="badge-tag blue">୩ଟି ଲକ୍ଷ୍ୟ</small> ମହାନଦୀ ତ୍ରିକୋଣଭୂମିରେ ବନ୍ୟା ନିୟନ୍ତ୍ରଣ, ସମ୍ବଲପୁର-ବଲାଙ୍ଗୀରରେ ଜଳସେଚନ ଓ ଜଳବିଦ୍ୟୁତ୍ ଉତ୍ପାଦନ[span_68](start_span)[span_68](end_span)।
+      </div>
+      <div class="card green">
+        <h4>ଅନ୍ୟାନ୍ୟ ଜଳସେଚନ ପ୍ରକଳ୍ପ</h4>
+        <ul>
+          <li><strong>ମାଛକୁଣ୍ଡ:</strong> ଓଡ଼ିଶା-ଆନ୍ଧ୍ରପ୍ରଦେଶ ଯୌଥ ପ୍ରକଳ୍ପ[span_69](start_span)[span_69](end_span)</li>
+          <li><strong>ଅପର କୋଲାବ ଓ ଇନ୍ଦ୍ରାବତୀ ପ୍ରକଳ୍ପ:</strong> କୋରାପୁଟ ଓ ନବରଙ୍ଗପୁର[span_70](start_span)[span_70](end_span)</li>
+          <li><strong>ରେଙ୍ଗାଲି ଓ ଭୀମକୁଣ୍ଡ ପ୍ରକଳ୍ପ:</strong> ବ୍ରାହ୍ମଣୀ ଓ ବୈତରଣୀ[span_71](start_span)[span_71](end_span)</li>
+          <li>ମହାନଦୀ ଡେଲ୍ଟା କେନାଲ୍: ତାଳଦଣ୍ଡା, ମାଛଗାଁ, କେନ୍ଦ୍ରାପଡ଼ା, ପଟ୍ଟାମୁଣ୍ଡାଇ ଓ ପୁରୀ ମୁଖ୍ୟ କେନାଲ[span_72](start_span)[span_72](end_span)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout example-box">
+      <strong>କୃଷି ଗବେଷଣା ଓ ସହାୟକ ଅନୁଷ୍ଠାନ:</strong>
+      <ul>
+        <li><strong>କେନ୍ଦ୍ରୀୟ ଧାନ ଗବେଷଣା ପ୍ରତିଷ୍ଠାନ (CRRI):</strong> ବିଦ୍ୟାଧରପୁର, କଟକ[span_73](start_span)[span_73](end_span)।</li>
+        <li><strong>କେନ୍ଦ୍ରୀୟ ମଧୁରଜଳ ମତ୍ସ୍ୟଚାଷ ଗବେଷଣା କେନ୍ଦ୍ର (CIFA):</strong> କୌଶଲ୍ୟାଗଙ୍ଗ, ଭୁବନେଶ୍ୱର (୧୯୭୭)[span_74](start_span)[span_74](end_span)।</li>
+        <li><strong>OUAT:</strong> ୧୯୫୪ କୃଷି କଲେଜ୍‌ରୁ ୧୯୬୨ ରେ ବିଶ୍ୱବିଦ୍ୟାଳୟରେ ରୂପାନ୍ତରିତ[span_75](start_span)[span_75](end_span)। ଚିପିଲିମାଠାରେ କୃଷି କଲେଜ[span_76](start_span)[span_76](end_span)।</li>
+        <li><strong>ନାରିକେଳ ଗବେଷଣା କେନ୍ଦ୍ର:</strong> ସାକ୍ଷୀଗୋପାଳ (ପୁରୀ)[span_77](start_span)[span_77](end_span)।</li>
+        <li><strong>ଫଳଚାଷ କେନ୍ଦ୍ର:</strong> ଅନୁଗୁଳ, ପଟ୍ଟାଙ୍ଗୀ (କୋରାପୁଟ) ଓ ଜି. ଉଦୟଗିରି (କନ୍ଧମାଳ)[span_78](start_span)[span_78](end_span)।</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 4. Lesson 4: Industrial Development -->
+  <section id="pat-4">
+    <h2 class="sec-title">🏭 ୪. ଚତୁର୍ଥ ପାଠ : ଶିଳ୍ପର ବିକାଶ</h2>
+    <p>
+      ସ୍ୱାଧୀନତା ବେଳେ ଓଡ଼ିଶାରେ ଶିଳ୍ପ କହିଲେ ଚୌଦ୍ୱାରରେ ଗୋଟିଏ କାଗଜକଳ, ଗୋଟିଏ କାଚ କାରଖାନା, ଗୋଟିଏ ସାବୁନ କାରଖାନା, ଆସ୍କାରେ ଚିନିକଳ ଓ କିଛି ଧାନକଳ ଥିଲା[span_79](start_span)[span_79](end_span)[span_80](start_span)[span_80](end_span)। ଉଦ୍ୟୋଗପତି ଓ ପୁଞ୍ଜିର ଘୋର ଅଭାବ ଥିଲା[span_81](start_span)[span_81](end_span)।
+    </p>
+
+    <!-- Post-Independence Initiatives -->
+    <h3 class="sub-title">ଡକ୍ଟର ହରେକୃଷ୍ଣ ମହତାବଙ୍କ ପ୍ରାରମ୍ଭିକ ପଦକ୍ଷେପ:</h3>
+    <ul>
+      <li>ଆମେରିକାରୁ ବୈଷୟିକ ପରାମର୍ଶଦାତା <strong>ଡେଭିଡ୍ ଏଫ୍. ରୋଜେନ୍ (David F. Rosen)</strong> ଙ୍କୁ ଅଣାଯାଇ ଶିଳ୍ପ ସର୍ବେକ୍ଷଣ କରାଗଲା[span_82](start_span)[span_82](end_span)।</li>
+      <li>ଚୌଦ୍ୱାରଠାରେ <strong>ଓଡ଼ିଶା ଟେକ୍ସଟାଇଲ୍ ମିଲ୍ (OTM)</strong> ପ୍ରତିଷ୍ଠା ହେଲା[span_83](start_span)[span_83](end_span)।</li>
+      <li>ହୀରାକୁଦ ଡ୍ୟାମ୍ ଚାହିଦା ପାଇଁ ରାଜଗାଙ୍ଗପୁରଠାରେ <strong>ଡାଲମିଆ ସିମେଣ୍ଟ କାରଖାନା</strong> ସ୍ଥାପନ ହେଲା[span_84](start_span)[span_84](end_span)।</li>
+    </ul>
+
+    <!-- Major Public & Heavy Industries -->
+    <h3 class="sub-title">ଭାରି ଶିଳ୍ପ ଓ ରାଷ୍ଟ୍ରାୟତ୍ତ ଉଦ୍ୟୋଗ ସମୂହ:</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ଶିଳ୍ପ କାରଖାନା / ପ୍ରକଳ୍ପ</th>
+            <th>ଅବସ୍ଥିତି (ସ୍ଥାନ)</th>
+            <th>ବୈଦେଶିକ ସହଯୋଗ / ବୈଶିଷ୍ଟ୍ୟ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ରାଉରକେଲା ଇସ୍ପାତ କାରଖାନା (RSP)</strong></td>
+            <td>ରାଉରକେଲା (ସୁନ୍ଦରଗଡ଼)[span_85](start_span)[span_85](end_span)</td>
+            <td>ପଶ୍ଚିମ ଜର୍ମାନୀର ବୈଷୟିକ ସହାୟତାରେ ପ୍ରତିଷ୍ଠିତ (SAIL ଅଧୀନ)[span_86](start_span)[span_86](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ନାଲ୍‌କୋ (NALCO)</strong></td>
+            <td>ଦାମନଯୋଡ଼ି (ଆଲୁମିନା) ଓ ଅନୁଗୁଳ (ସ୍ମେଲ୍ଟର)[span_87](start_span)[span_87](end_span)</td>
+            <td>ପଞ୍ଚପଟ୍ଟମାଳୀ ବକ୍ସାଇଟ୍ ଖଣି ଆଧାରିତ; ମୁଖ୍ୟ ଦପ୍ତର ଭୁବନେଶ୍ୱର (୧୯୮୧)[span_88](start_span)[span_88](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ମିଗ୍ (MIG) ବିମାନ ଇଞ୍ଜିନ କାରଖାନା (HAL)</strong></td>
+            <td>ସୁନାବେଡ଼ା (କୋରାପୁଟ)[span_89](start_span)[span_89](end_span)</td>
+            <td>ସୋଭିଏତ୍ ଋଷିଆ ସହଯୋଗରେ ପ୍ରତିଷ୍ଠିତ[span_90](start_span)[span_90](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ପାରାଦୀପ ଫସ୍‌ଫେଟ୍‌ସ ଲିମିଟେଡ୍ (PPL)</strong></td>
+            <td>ପାରାଦୀପ (ଜଗତସିଂହପୁର)[span_91](start_span)[span_91](end_span)</td>
+            <td>୧୯୮୧ ରେ ପ୍ରତିଷ୍ଠିତ ରାସାୟନିକ ସାର କାରଖାନା[span_92](start_span)[span_92](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ଭାରତୀୟ ସାର ନିଗମ (FCI)</strong></td>
+            <td>ତାଳଚେର (ଅନୁଗୁଳ)[span_93](start_span)[span_93](end_span)</td>
+            <td>୧୯୭୧ ରେ ପ୍ରତିଷ୍ଠିତ କୋଇଲା ଭିତ୍ତିକ ସାର କାରଖାନା[span_94](start_span)[span_94](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ଭାରତୀୟ ଆଣବିକ ଶକ୍ତି ଆୟୋଗ ପ୍ରକଳ୍ପ</strong></td>
+            <td>ଛତ୍ରପୁର (IRE) ଓ ତାଳଚେର[span_95](start_span)[span_95](end_span)</td>
+            <td>ଛତ୍ରପୁରରେ ବିରଳ ମୃତ୍ତିକା (OSCOM) ଓ ତାଳଚେରରେ ଭାରୀଜଳ ପ୍ରକଳ୍ପ[span_96](start_span)[span_96](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ଅର୍ଡ଼ନାନ୍ସ ଫ୍ୟାକ୍ଟ୍ରି (ଗୋଳାବାରୁଦ)</strong></td>
+            <td>ବଡ଼ମାଳ (ବଲାଙ୍ଗୀର)[span_97](start_span)[span_97](end_span)</td>
+            <td>ପ୍ରତିରକ୍ଷା ବିଭାଗ କାରଖାନା[span_98](start_span)[span_98](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ଫେରୋ-ଆଲୟେଜ୍ ଓ ମାଙ୍ଗାନିଜ୍</strong></td>
+            <td>ଥେରୁଭାଲି, ଚୌଦ୍ୱାର, ଯୋଡ଼ା, ଯାଜପୁର ରୋଡ଼[span_99](start_span)[span_99](end_span)</td>
+            <td>ଫେରୋସିଲିକନ, ଫେରୋମାଙ୍ଗାନିଜ୍ ଓ ଫେରୋକ୍ରୋମ କାରଖାନା[span_100](start_span)[span_100](end_span)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout activity-box">
+      <strong>୨୦୦୭ ଶିଳ୍ପନୀତି ଓ ଏକବିଂଶ ଶତାବ୍ଦୀର ଶିଳ୍ପାୟନ:</strong>
+      <ul>
+        <li><strong>ମୁଖ୍ୟ ଲକ୍ଷ୍ୟ:</strong> ବିଦେଶୀ ପୁଞ୍ଜିନିବେଶକୁ ଆକର୍ଷିତ କରିବା, ଅନୁକୂଳ ଶିଳ୍ପ ପରିବେଶ ସୃଷ୍ଟି ଓ ବ୍ୟାପକ ନିଯୁକ୍ତି ସୁଯୋଗ ସୃଷ୍ଟି କରି ବେକାରୀ ଦୂର କରିବା[span_101](start_span)[span_101](end_span)।</li>
+        <li><strong>ମେଗା ପ୍ରକଳ୍ପ ସମୂହ:</strong> କଳିଙ୍ଗନଗରରେ ଟାଟା ଷ୍ଟିଲ୍, ଜିନ୍ଦଲ ଷ୍ଟିଲ୍ (ଅନୁଗୁଳ/ଯାଜପୁର), ପାରାଦୀପ ତୈଳ ବିଶୋଧନାଗାର (IOCL)[span_102](start_span)[span_102](end_span)।</li>
+        <li><strong>IT ଶିଳ୍ପ:</strong> ଇନ୍‌ଫୋସିଟି ଭୁବନେଶ୍ୱରରେ TCS, Infosys, Wipro, Tech Mahindra କାର୍ଯ୍ୟରତ[span_103](start_span)[span_103](end_span)।</li>
+        <li><strong>କୁଟୀର ଓ ହସ୍ତତନ୍ତ:</strong> ସମ୍ବଲପୁରୀ ବସ୍ତ୍ର, ପିପିଲି ଚାନ୍ଦୁଆ ଓ କଟକ ତାରକସି କାମର ଆନ୍ତର୍ଜାତିକ ବଜାର ସୃଷ୍ଟି[span_104](start_span)[span_104](end_span)।</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 5. Lesson 5: Infrastructure Development -->
+  <section id="pat-5">
+    <h2 class="sec-title">🏗️ ୫. ପଞ୍ଚମ ପାଠ : ଭିତ୍ତିଭୂମିର ବିକାଶ</h2>
+    <p>
+      ଭିତ୍ତିଭୂମି ହେଉଛି ସାମାଜିକ ଐକ୍ୟ ଓ ଅର୍ଥନୈତିକ ସମୃଦ୍ଧିର ମୂଳଦୁଆ[span_105](start_span)[span_105](end_span)। ୧୯୩୬ ରୁ ୧୯୪୬ ମଧ୍ୟରେ ରାଜନୈତିକ ଅସ୍ଥିରତା, ଦ୍ୱିତୀୟ ବିଶ୍ୱଯୁଦ୍ଧ ଓ ଭାରତଛାଡ଼ ଆନ୍ଦୋଳନ ଯୋଗୁଁ ବିକାଶ ବାଧାପ୍ରାପ୍ତ ହୋଇଥିଲା[span_106](start_span)[span_106](end_span)। ୧୯୪୬ ପରେ ପ୍ରକୃତ ଭିତ୍ତିଭୂମି ବିକାଶ ଆରମ୍ଭ ହେଲା[span_107](start_span)[span_107](end_span)।
+    </p>
+
+    <!-- Roads & Transport -->
+    <h3 class="sub-title">(କ) ରାସ୍ତାଘାଟ ଓ ଜାତୀୟ ରାଜପଥ:</h3>
+    <p>ସ୍ୱାଧୀନତା ବେଳେ ଓଡ଼ିଶା ଦେଇ ଯାଇଥିବା ଜାତୀୟ ରାଜପଥ ସଂଖ୍ୟା ୫ ଥିଲା[span_108](start_span)[span_108](end_span)। ବର୍ତ୍ତମାନ ଏହା <strong>୧୫ଟି ଜାତୀୟ ରାଜପଥ (ମୋଟ ଦୈର୍ଘ୍ୟ: ୩,୬୫୫ କିମି)</strong> ରେ ପହଞ୍ଚିଛି[span_109](start_span)[span_109](end_span):</p>
+    <ul>
+      <li><strong>ଜାତୀୟ ରାଜପଥ ୫ (NH-5):</strong> ଝାଡ଼ପୋଖରିଆ (ମୟୂରଭଞ୍ଜ) ରୁ ଗୋଳନ୍ତରା (ଆନ୍ଧ୍ର ସୀମା) - ୪୮୮ କିମି[span_110](start_span)[span_110](end_span)।</li>
+      <li><strong>ଜାତୀୟ ରାଜପଥ ୫A:</strong> ଧାନମଣ୍ଡଳରୁ ପାରାଦୀପ ବନ୍ଦର - ୭୭ କିମି (ଏକ୍ସପ୍ରେସ୍ ୱେ)[span_111](start_span)[span_111](end_span)।</li>
+      <li><strong>ଜାତୀୟ ରାଜପଥ ୬ (NH-6):</strong> ଓଡ଼ିଶା-ଛତିଶଗଡ଼ ସୀମାରୁ ଓଡ଼ିଶା-ପଶ୍ଚିମବଙ୍ଗ ସୀମା - ୪୬୨ କିମି[span_112](start_span)[span_112](end_span)।</li>
+      <li><strong>ଜାତୀୟ ରାଜପଥ ୪୨:</strong> ସମ୍ବଲପୁରରୁ ଚୌଦ୍ୱାର ମଙ୍ଗୁଳି ଛକ (NH-5 ସଂଯୋଗ) - ୨୬୧ କିମି[span_113](start_span)[span_113](end_span)।</li>
+      <li><strong>ଜାତୀୟ ରାଜପଥ ୨୦୩ / ୨୦୩A:</strong> ଭୁବନେଶ୍ୱରରୁ ପୁରୀ, ବାଲିଘାଇ ଦେଇ କୋଣାର୍କ ଓ ସାତପଡ଼ା[span_114](start_span)[span_114](end_span)।</li>
+    </ul>
+
+    <!-- Railways, Ports & Aviation -->
+    <h3 class="sub-title">(ଖ) ରେଳପଥ, ବନ୍ଦର ଓ ବିମାନ ଚଳାଚଳ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ରେଳପଥ ଓ ପୂର୍ବତଟ ରେଳବାଇ</h4>
+        <ul>
+          <li>ଓଡ଼ିଶାରେ ପ୍ରଥମ ରେଳ ଚଳାଚଳ: <strong>୧୮୯୭</strong> (ଧାନମଣ୍ଡଳ-କୋଲାଘାଟ ଓ ଖୋର୍ଦ୍ଧାରୋଡ଼-ରାଜମହେନ୍ଦ୍ରୀ)[span_115](start_span)[span_115](end_span)।</li>
+          <li><strong>ପୂର୍ବତଟ ରେଳପଥ (East Coast Railway):</strong> ୮ ଅଗଷ୍ଟ ୧୯୯୬ ରେ ପ୍ରଧାନମନ୍ତ୍ରୀ ଏଚ୍.ଡି. ଦେବଗୌଡ଼ା ଶୁଭାରମ୍ଭ କଲେ; <strong>୧ ଏପ୍ରିଲ ୨୦୦୩ ରୁ ଭୁବନେଶ୍ୱର ମୁଖ୍ୟ କାର୍ଯ୍ୟାଳୟ ସହ କାର୍ଯ୍ୟକ୍ଷମ ହେଲା</strong> (ଡିଭିଜନ: ଖୋର୍ଦ୍ଧାରୋଡ଼, ସମ୍ବଲପୁର, ୱାଲଟିଅର)[span_116](start_span)[span_116](end_span)।</li>
+          <li>ଦୈତାରୀ-ବାଂଶପାଣି, ହରିଦାସପୁର-ପାରାଦୀପ ଓ ଖୋର୍ଦ୍ଧା-ବଲାଙ୍ଗୀର ରେଳପଥ[span_117](start_span)[span_117](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card blue">
+        <h4>ପୋତାଶ୍ରୟ ଓ ବିମାନ ବନ୍ଦର</h4>
+        <ul>
+          <li><strong>ପାରାଦୀପ ବନ୍ଦର:</strong> ୧୯୬୦ ଦଶକରେ ପ୍ରତିଷ୍ଠିତ ଗଭୀର ସମୁଦ୍ର ବନ୍ଦର (୧୯୭୫ ରେ ରେଳ ସଂଯୋଗ)[span_118](start_span)[span_118](end_span)[span_119](start_span)[span_119](end_span)।</li>
+          <li><strong>ଅନ୍ୟ ବନ୍ଦର:</strong> ଗୋପାଳପୁର (୧୯୮୭ ରୁ ମଧ୍ୟମ ବନ୍ଦର) ଓ ଧାମରା (ଟାଟା ସହଯୋଗରେ)[span_120](start_span)[span_120](end_span)।</li>
+          <li><strong>ବିଜୁ ପଟ୍ଟନାୟକ ବିମାନବନ୍ଦର (ଭୁବନେଶ୍ୱର):</strong> କଷ୍ଟମ୍ସ ଓ ଏୟାର କାର୍ଗୋ କମ୍ପ୍ଲେକ୍ସ (୧୯୯୫) ଯୁକ୍ତ ପ୍ରମୁଖ ବିମାନବନ୍ଦର[span_121](start_span)[span_121](end_span)। ରାଜ୍ୟରେ ୧୩ଟି ଏୟାରଷ୍ଟ୍ରିପ୍ ଓ ୧୬ଟି ହେଲିପ୍ୟାଡ୍[span_122](start_span)[span_122](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Power & Energy Reforms -->
+    <h3 class="sub-title">(ଗ) ଶକ୍ତି କ୍ଷେତ୍ର ଓ ବୈଦ୍ୟୁତିକ ସଂସ୍କାର:</h3>
+    <div class="callout def-box">
+      <strong>ଓଡ଼ିଶା ବୈଦ୍ୟୁତିକ ସଂସ୍କାର ଆଇନ ୧୯୯୫ (୧ ଏପ୍ରିଲ ୧୯୯୬ ରୁ କାର୍ଯ୍ୟକାରୀ):</strong><br>
+      ଓଡ଼ିଶା ରାଜ୍ୟ ବିଦ୍ୟୁତ୍ ପରିଷଦ (OSEB) କୁ ଭାଙ୍ଗି ନୂତନ ସଂସ୍ଥାମାନ ଗଠନ କରାଗଲା[span_123](start_span)[span_123](end_span):<br>
+      • <strong>GRIDCO:</strong> ବିଦ୍ୟୁତ୍ ସରବରାହ ଓ ପରିବହନ ଦାୟିତ୍ୱ[span_124](start_span)[span_124](end_span)।<br>
+      • <strong>OHPC:</strong> ଜଳବିଦ୍ୟୁତ୍ କେନ୍ଦ୍ରଗୁଡ଼ିକର ପରିଚାଳନା (ହୀରାକୁଦ, ବାଲିମେଳା, ରେଙ୍ଗାଲି, କୋଲାବ, ଇନ୍ଦ୍ରାବତୀ, ମାଛକୁଣ୍ଡ - ୧୯୭୬ ମେଗାୱାଟ)[span_125](start_span)[span_125](end_span)।<br>
+      • <strong>OPGC:</strong> ତାପଜ ବିଦ୍ୟୁତ୍ କେନ୍ଦ୍ର ପରିଚାଳନା (ଇବ୍ ଓ ତାଳଚେର - ୮୮୦ ମେଗାୱାଟ)[span_126](start_span)[span_126](end_span)।<br>
+      • <strong>ବିତରଣ କମ୍ପାନୀ:</strong> WESCO, NESCO, SOUTHCO ଓ CESCO (ବର୍ତ୍ତମାନ CESU)[span_127](start_span)[span_127](end_span)।<br>
+      • <strong>ଗ୍ରାମୀଣ ବିଦ୍ୟୁତୀକରଣ:</strong> ରାଜୀବ ଗାନ୍ଧୀ ଗ୍ରାମୀଣ ବିଦ୍ୟୁତୀକରଣ (୨୦୦୫) ଓ <strong>ବିଜୁ ଗ୍ରାମଜ୍ୟୋତି ଯୋଜନା (୨୦୦୭ - ୧୦୦ ରୁ କମ୍ ଲୋକସଂଖ୍ୟା ଥିବା ଗାଁ ପାଇଁ)</strong>[span_128](start_span)[span_128](end_span)।
+    </div>
+  </section>
+
+  <!-- 6. Summary Table of Key Organizations -->
+  <section id="schemes-table">
+    <h2 class="sec-title">🏛️ ୬. ପ୍ରମୁଖ ଉନ୍ନୟନ ନିଗମ ଓ ସରକାରୀ ସଂସ୍ଥା ସାରଣୀ</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>କ୍ରମିକ</th>
+            <th>ନିଗମ / ସଂସ୍ଥାର ନାମ</th>
+            <th>ମୁଖ୍ୟ କାର୍ଯ୍ୟ ଓ କ୍ଷେତ୍ର</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>୧</td><td><strong>IPICOL (ଓଡ଼ିଶା ଶିଳ୍ପ ଉନ୍ନୟନ ଓ ଅର୍ଥ ନିବେଶ ନିଗମ)</strong></td><td>ବୃହତ୍ ଓ ମଧ୍ୟମ ଶିଳ୍ପରେ ପୁଞ୍ଜି ବିନିଯୋଗ ପ୍ରୋତ୍ସାହନ[span_129](start_span)[span_129](end_span)</td></tr>
+          <tr><td>୨</td><td><strong>IDC (ଓଡ଼ିଶା ଶିଳ୍ପ ଉନ୍ନୟନ ନିଗମ)</strong></td><td>ରାଜ୍ୟରେ ଶିଳ୍ପ ପ୍ରତିଷ୍ଠା ଓ ପରିଚାଳନା[span_130](start_span)[span_130](end_span)</td></tr>
+          <tr><td>୩</td><td><strong>IDCO (ଶିଳ୍ପ ଭିତ୍ତିଭୂମି ବିକାଶ ନିଗମ)</strong></td><td>ଶିଳ୍ପାଞ୍ଚଳ ଚିହ୍ନଟ, ଜମି ଅଧିଗ୍ରହଣ ଓ ଭିତ୍ତିଭୂମି ଯୋଗାଣ[span_131](start_span)[span_131](end_span)[span_132](start_span)[span_132](end_span)</td></tr>
+          <tr><td>୪</td><td><strong>OSFC (ଓଡ଼ିଶା ରାଜ୍ୟ ଅର୍ଥ ନିଗମ)</strong></td><td>କ୍ଷୁଦ୍ର ଓ ମଧ୍ୟମ ଶିଳ୍ପୋଦ୍ୟୋଗୀଙ୍କୁ ଋଣ ପ୍ରଦାନ[span_133](start_span)[span_133](end_span)</td></tr>
+          <tr><td>୫</td><td><strong>OSIC (ଓଡ଼ିଶା କ୍ଷୁଦ୍ର ଶିଳ୍ପ ନିଗମ)</strong></td><td>କ୍ଷୁଦ୍ର ଶିଳ୍ପ ସଂସ୍ଥାମାନଙ୍କୁ କଞ୍ଚାମାଲ ଓ ସହାୟତା ଯୋଗାଣ[span_134](start_span)[span_134](end_span)</td></tr>
+          <tr><td>୬</td><td><strong>ELCO (ଓଡ଼ିଶା ରାଜ୍ୟ ବୈଦ୍ୟୁତିକ ସାମଗ୍ରୀ ଉନ୍ନୟନ ନିଗମ)</strong></td><td>ଇଲେକ୍ଟ୍ରୋନିକ୍ସ ଓ ଆଇଟି ଶିଳ୍ପର ବିକାଶ[span_135](start_span)[span_135](end_span)</td></tr>
+          <tr><td>୭</td><td><strong>ଓଡ଼ିଶା ଚଳଚ୍ଚିତ୍ର ଉନ୍ନୟନ ନିଗମ (OFDC) ଓ କଳିଙ୍ଗ ଷ୍ଟୁଡିଓ</strong></td><td>ଓଡ଼ିଆ ସିନେମା ଓ ଚଳଚ୍ଚିତ୍ର ଶିଳ୍ପର ଭିତ୍ତିଭୂମି ବିକାଶ[span_136](start_span)[span_136](end_span)[span_137](start_span)[span_137](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 7. Exercise Section -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ୭. ଅଧ୍ୟାୟ ପ୍ରଶ୍ନୋତ୍ତର (Self-Assessment)</h2>
+
+    <h3 class="sub-title">୧. ସଠିକ୍ ବିକଳ୍ପ ବାଛ:</h3>
+    <div class="compare">
+      <div class="card">
+        <p><strong>(କ) ନାଗରିକ ଅଯୋଗ୍ୟତା ଦୂରୀକରଣ ଆଇନ୍ କେଉଁ ପ୍ରଥା ସହିତ ସମ୍ପୃକ୍ତ ?</strong>[span_138](start_span)[span_138](end_span)</p>
+        <p>(i) ମହାଜନୀ ପ୍ରଥା (ii) ଗୋତି ପ୍ରଥା (iii) ଅସ୍ପୃଶ୍ୟତା ପ୍ରଥା (iv) ବେଗାରୀ ପ୍ରଥା[span_139](start_span)[span_139](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: (iii) ଅସ୍ପୃଶ୍ୟତା ପ୍ରଥା[span_140](start_span)[span_140](end_span)</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଖ) ବିଜୁ ପଟ୍ଟନାୟକ ବୈଷୟିକ ବିଶ୍ୱବିଦ୍ୟାଳୟ (BPUT) କେଉଁଠାରେ ଅବସ୍ଥିତ ?</strong>[span_141](start_span)[span_141](end_span)</p>
+        <p>(i) ପୁରୀ (ii) ରାଉରକେଲା (iii) ବୁର୍ଲା (iv) ଭୁବନେଶ୍ୱର[span_142](start_span)[span_142](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: (ii) ରାଉରକେଲା[span_143](start_span)[span_143](end_span)</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଗ) ଓଡ଼ିଶା ରାଜ୍ୟ ସମବାୟ ବ୍ୟାଙ୍କ କେବେ ପ୍ରତିଷ୍ଠିତ ହୋଇଥିଲା ?</strong>[span_144](start_span)[span_144](end_span)</p>
+        <p>(i) ୧୯୪୭ (ii) ୧୯୪୮ (iii) ୧୯୪୯ (iv) ୧୯୫୦[span_145](start_span)[span_145](end_span)</p>
+        <p style="color: var(--gold); font-weight: 600;">👉 ଉତ୍ତର: (ii) ୧୯୪୮[span_146](start_span)[span_146](end_span)</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଘ) କେବେ ପାରାଦୀପକୁ ରେଳପଥ ଦ୍ୱାରା ସଂଯୁକ୍ତ କରାଗଲା ?</strong>[span_147](start_span)[span_147](end_span)</p>
+        <p>(i) ୧୯୫୦ (ii) ୧୯୭୧ (iii) ୧୯୭୫ (iv) ୧୯୮୧[span_148](start_span)[span_148](end_span)</p>
+        <p style="color: var(--gold); font-weight: 600;">👉 ଉତ୍ତର: (iii) ୧୯୭୫[span_149](start_span)[span_149](end_span)</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">୨. ସଂକ୍ଷିପ୍ତ ପାର୍ଥକ୍ୟ ଓ ଟିପ୍ପଣୀ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଟେଷ୍ଟ୍ ରିଲିଫ୍ (Test Relief)</h4>
+        <p>ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ ସମୟରେ ଗ୍ରାମାଞ୍ଚଳ ଲୋକଙ୍କୁ ମାଗଣା ସାହାଯ୍ୟ ନଦେଇ ରାସ୍ତାଘାଟ ଓ ପୋଖରୀ ଖନନ ଭଳି ଶ୍ରମଦାନ କାମ ବଦଳରେ ଅର୍ଥ ବା ଖାଦ୍ୟଶସ୍ୟ ଯୋଗାଇବାର ସରକାରୀ ବ୍ୟବସ୍ଥା[span_150](start_span)[span_150](end_span) ।</p>
+      </div>
+      <div class="card gold">
+        <h4>ମିଶନ ଶକ୍ତି (Mission Shakti)</h4>
+        <p>୮ ମାର୍ଚ୍ଚ ୨୦୦୧ ରୁ ପ୍ରବର୍ତ୍ତିତ ମହିଳା ସ୍ୱୟଂ ସହାୟକ ଗୋଷ୍ଠୀ (WSHG) ମାଧ୍ୟମରେ ମହିଳାମାନଙ୍କୁ ତାଲିମ, ଋଣ ଓ ମାର୍ଗଦର୍ଶନ ଦେଇ ଆତ୍ମନିର୍ଭରଶୀଳ କରାଇବାର ଯୋଜନା[span_151](start_span)[span_151](end_span) ।</p>
+      </div>
+    </div>
+
+    <div class="callout activity-box">
+      <strong>ଛାତ୍ରଛାତ୍ରୀଙ୍କ ପାଇଁ କାର୍ଯ୍ୟ:</strong>
+      <ol>
+        <li>ସ୍ୱାଧୀନତା ପରେ ଓଡ଼ିଶାରେ ସ୍ଥାପିତ ହୋଇଥିବା ପ୍ରମୁଖ ଶିଳ୍ପ କାରଖାନା ଓ ସେଗୁଡ଼ିକର ଅବସ୍ଥିତିର ଏକ ତାଲିକା ପ୍ରସ୍ତୁତ କର[span_152](start_span)[span_152](end_span)।</li>
+        <li>ଓଡ଼ିଶାର ଏକ ରେଖାଙ୍କିତ ମାନଚିତ୍ରରେ ହୀରାକୁଦ, ରାଉରକେଲା, ପାରାଦୀପ ବନ୍ଦର, ଦାମନଯୋଡ଼ି ଓ ଭୁବନେଶ୍ୱର ଚିହ୍ନଟ କର[span_153](start_span)[span_153](end_span)।</li>
+      </ol>
+    </div>
+  </section>
+
+  <footer>
+    <p>ଦଶମ ଶ୍ରେଣୀ ଇତିହାସ • ଚତୁର୍ଥ ଅଧ୍ୟାୟ: ସ୍ୱାଧୀନତୋତ୍ତର ଓଡ଼ିଶାର ବିକାଶ | Digital Learning Note System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
