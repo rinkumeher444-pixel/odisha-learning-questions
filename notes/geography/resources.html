@@ -1,1 +1,739 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ - ପ୍ରଥମ ଅଧ୍ୟାୟ: ସମ୍ବଳ ଓ ତା’ର ବିକାଶ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b111e;
+      --bg-panel: #131d31;
+      --bg-card: #1b263e;
+      --bg-card-hover: #22304d;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(20, 184, 166, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(245, 158, 11, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Sans Oriya', 'Outfit', sans-serif;
+      line-height: 1.7;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 280px;
+      height: 280px;
+      opacity: 0.25;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.9rem, 4vw, 2.7rem);
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #93c5fd, #fde68a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 680px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--teal);
+      transform: translateY(-1px);
+    }
+
+    /* Section & Content Blocks */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.15rem;
+      color: #e2e8f0;
+      margin: 22px 0 12px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 0.98rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+
+    .def-box strong {
+      color: var(--gold);
+    }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+
+    .example-box strong {
+      color: var(--teal);
+    }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+
+    .activity-box strong {
+      color: var(--green);
+    }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+
+    .mistake-box strong {
+      color: var(--coral);
+    }
+
+    /* Comparison Grid */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.05rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 16px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 6px;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#f59e0b" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 ଦଶମ ଶ୍ରେଣୀ • ଭୂଗୋଳ • ପ୍ରଥମ ଅଧ୍ୟାୟ</div>
+    <h1>ସମ୍ବଳ ଓ ତା’ର ବିକାଶ</h1>
+    <p>ସମ୍ବଳର ସଂଜ୍ଞା, ଅନ୍ତଃନିର୍ଭରଶୀଳତା, ବିଭିନ୍ନ ପ୍ରକାର ଭେଦ, ବିକାଶ ଯୋଜନା ଓ ସଂରକ୍ଷଣ ପ୍ରଣାଳୀର ଏକ ସମ୍ପୂର୍ଣ୍ଣ ସାରାଂଶ।</p>
+  </header>
+
+  <nav class="pillnav">
+    <a href="#intro">ସମ୍ବଳ କ’ଣ?</a>
+    <a href="#interdependence">ଅନ୍ତଃନିର୍ଭରଶୀଳତା</a>
+    <a href="#types">ସମ୍ବଳର ପ୍ରକାରଭେଦ</a>
+    <a href="#development">ବିକାଶ ଓ ସମସ୍ୟା</a>
+    <a href="#conservation">ସମ୍ବଳ ସଂରକ୍ଷଣ</a>
+    <a href="#planning">ଭାରତରେ ଯୋଜନା</a>
+    <a href="#exercises">ପ୍ରଶ୍ନୋତ୍ତର</a>
+  </nav>
+
+  <section id="intro">
+    <h2 class="sec-title">📌 ୧. ସମ୍ବଳର ସଂଜ୍ଞା ଓ ବିଶେଷତ୍ୱ</h2>
+    <p>
+      ମନୁଷ୍ୟ ତା’ର ଜୀବନଧାରଣ ପାଇଁ ପ୍ରାକୃତିକ ପରିବେଶ ଉପରେ ସଦାସର୍ବଦା ନିର୍ଭର କରିଥାଏ। ପରିବେଶରୁ ମିଳୁଥିବା ବିଭିନ୍ନ ବସ୍ତୁକୁ ପ୍ରତ୍ୟକ୍ଷ ବା ପରୋକ୍ଷ ଭାବେ ବ୍ୟବହାର କରି ସେ ନିଜର ଆବଶ୍ୟକତା ପୂରଣ କରେ।
+    </p>
+
+    <div class="callout def-box">
+      <strong>ସମ୍ବଳ (Resource) ର ସଂଜ୍ଞା:</strong><br>
+      ମନୁଷ୍ୟର ବ୍ୟକ୍ତିଗତ ତଥା ସାମାଜିକ ଆବଶ୍ୟକତା ପୂରଣ କରିବାରେ ଉପଯୋଗୀ ଓ ମୂଲ୍ୟବାନ ବିବେଚିତ ହେଉଥିବା ପରିବେଶର ବିଭିନ୍ନ ପଦାର୍ଥ (ଜୈବ, ଅଜୈବ ତଥା ଶକ୍ତି), ଯାହା <strong>ପ୍ରାଦ୍ୟୋଗିକ ଦୃଷ୍ଟିକୋଣରୁ ସୁଗମ୍ୟ</strong>, <strong>ଆର୍ଥନୀତିକ ଦୃଷ୍ଟିକୋଣରୁ ସମ୍ଭବ</strong> ଏବଂ <strong>ସାଂସ୍କୃତିକ ଦୃଷ୍ଟିକୋଣରୁ ଗ୍ରହଣଯୋଗ୍ୟ</strong>, ତାକୁ ସମ୍ବଳ କୁହାଯାଏ।
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">କଞ୍ଚାମାଲ (ତୁଳା / କାଠ / ଖଣିଜ)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ପ୍ରାଦ୍ୟୋଗିକ ରୂପାନ୍ତରଣ</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ମୂଲ୍ୟବାନ ସାମଗ୍ରୀ (ଲୁଗା / ଉପକରଣ / ଯନ୍ତ୍ରାଂଶ)</div>
+    </div>
+
+    <div class="callout mistake-box">
+      <strong>ଭ୍ରାନ୍ତ ଧାରଣା ନିବାରଣ:</strong> ଅନେକ ଭାବନ୍ତି ଯେ ସମ୍ବଳ ହେଉଛି ପ୍ରକୃତିର ଏକ 'ମୁକ୍ତ ଦାନ' (Free gift of nature)। କିନ୍ତୁ ଏହା ଯଥାର୍ଥ ନୁହେଁ। ସମ୍ବଳ ହେଉଛି ମାନବୀୟ କାର୍ଯ୍ୟକଳାପର ଏକ କ୍ରିୟାତ୍ମକ ବସ୍ତୁ। ମନୁଷ୍ୟ ସମ୍ବଳର ସ୍ରଷ୍ଟା, ଉପଭୋକ୍ତା ଓ କ୍ଷୟକାରୀ କାରକ।
+    </div>
+
+    <h3 class="sub-title">ସମ୍ବଳର ୪ ଗୋଟି ମୁଖ୍ୟ ବିଶେଷତ୍ୱ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>୧. ଉପଯୋଗିତା (Utility)</h4>
+        <p>ସମ୍ବଳଟି ମନୁଷ୍ୟର ପ୍ରତ୍ୟକ୍ଷ ବା ପରୋକ୍ଷ ବ୍ୟବହାର ଉପଯୋଗୀ ହୋଇଥିବା ଆବଶ୍ୟକ।</p>
+      </div>
+      <div class="card gold">
+        <h4>୨. କାର୍ଯ୍ୟଦକ୍ଷତା (Functionality)</h4>
+        <p>ବିଭିନ୍ନ ପ୍ରକ୍ରିୟା ମାଧ୍ୟମରେ ମାନବର କାର୍ଯ୍ୟ ଓ ଚାହିଦା ସମାଧାନ କରିବାର ଦକ୍ଷତା ଥିବା ଦରକାର।</p>
+      </div>
+      <div class="card green">
+        <h4>୩. ସୁଲଭତା (Availability)</h4>
+        <p>ସମ୍ବଳଟି ପ୍ରକୃତିରେ ସହଜରେ ବା ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ଦ୍ୱାରା ପ୍ରାପ୍ତ ହେବା ଭଳି ହୋଇଥିବା ଆବଶ୍ୟକ।</p>
+      </div>
+      <div class="card coral">
+        <h4>୪. ପରିବର୍ତ୍ତନଶୀଳତା (Changeability)</h4>
+        <p>ବୈଜ୍ଞାନିକ ଉପାୟରେ ବ୍ୟବହାର ଅନୁସାରେ ଏହାର ଗୁଣ ଓ ରୂପ ପରିବର୍ତ୍ତନ କରାଯାଇ ପାରୁଥିବ।</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="interdependence">
+    <h2 class="sec-title">🔄 ୨. ମନୁଷ୍ୟ, ପ୍ରକୃତି, ଅନୁଷ୍ଠାନ ଓ ପ୍ରାଦ୍ୟୋଗ ମଧ୍ୟରେ ଅନ୍ତଃନିର୍ଭରଶୀଳତା</h2>
+    <p>
+      ପ୍ରାକୃତିକ ପରିବେଶରେ ଥିବା ପଦାର୍ଥଗୁଡ଼ିକୁ ରୂପାନ୍ତରିତ କରି ବ୍ୟବହାରଯୋଗ୍ୟ କରିବା ପାଇଁ ପ୍ରକୃତି, ପ୍ରଯୁକ୍ତିବିଦ୍ୟା (ପ୍ରାଦ୍ୟୋଗ) ଏବଂ ଅନୁଷ୍ଠାନ ମଧ୍ୟରେ ଏକ ଅନ୍ତଃସମ୍ପର୍କ ରହିଛି, ଯାହାର କେନ୍ଦ୍ରବିନ୍ଦୁ ହେଉଛି <strong>ମନୁଷ୍ୟ</strong>।
+    </p>
+
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 400 320" width="380" height="300" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="200,40 60,260 340,260" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linejoin="round"/>
+          
+          <line x1="200" y1="160" x2="200" y2="60" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrow-gold)"/>
+          <line x1="200" y1="160" x2="80" y2="245" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrow-gold)"/>
+          <line x1="200" y1="160" x2="320" y2="245" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrow-gold)"/>
+
+          <defs>
+            <marker id="arrow-gold" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/>
+            </marker>
+          </defs>
+
+          <circle cx="200" cy="40" r="8" fill="#14b8a6"/>
+          <text x="200" y="22" fill="#38bdf8" font-size="14" font-weight="bold" text-anchor="middle">ଭୌତିକ ପରିବେଶ (ପ୍ରକୃତି)</text>
+
+          <circle cx="60" cy="260" r="8" fill="#14b8a6"/>
+          <text x="50" y="290" fill="#38bdf8" font-size="14" font-weight="bold" text-anchor="middle">ପ୍ରାଦ୍ୟୋଗିକୀ</text>
+
+          <circle cx="340" cy="260" r="8" fill="#14b8a6"/>
+          <text x="345" y="290" fill="#38bdf8" font-size="14" font-weight="bold" text-anchor="middle">ଅନୁଷ୍ଠାନ</text>
+
+          <circle cx="200" cy="160" r="32" fill="#1b263e" stroke="#f59e0b" stroke-width="3"/>
+          <text x="200" y="165" fill="#f1f5f9" font-size="14" font-weight="bold" text-anchor="middle">ମନୁଷ୍ୟ</text>
+        </svg>
+        <figcaption>ଚିତ୍ର: ପ୍ରକୃତି, ମନୁଷ୍ୟ, ପ୍ରାଦ୍ୟୋଗିକୀ ଓ ଅନୁଷ୍ଠାନ ମଧ୍ୟରେ ଅନ୍ତଃନିର୍ଭରଶୀଳତା</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="types">
+    <h2 class="sec-title">🗂️ ୩. ସମ୍ବଳର ବିଭିନ୍ନ ପ୍ରକାରଭେଦ</h2>
+    <p>ଉତ୍ପତ୍ତି, ପ୍ରକୃତି, ବ୍ୟବହାର, ପରିମାଣ, ଭରଣ, ବଣ୍ଟନ, ବିକାଶ ଓ ମାଲିକାନା ଅନୁସାରେ ସମ୍ବଳକୁ ନିମ୍ନଲିଖିତ ଭାଗରେ ବିଭକ୍ତ କରାଯାଇଛି:</p>
+
+    <h3 class="sub-title">(କ) ପ୍ରକୃତି ଅନୁସାରେ (According to Nature)</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ପ୍ରାକୃତିକ ସମ୍ବଳ (Natural)</h4>
+        <p>ପ୍ରକୃତିରୁ ସିଧାସଳଖ ମିଳୁଥିବା ପଦାର୍ଥ ଓ ଶକ୍ତି।</p>
+        <small class="badge-tag blue">ଉଦାହରଣ</small> ଭୂମି, ଜଳ, ବାୟୁ, ଅରଣ୍ୟ, ଖଣିଜ।
+      </div>
+      <div class="card gold">
+        <h4>ସାଂସ୍କୃତିକ ସମ୍ବଳ (Cultural)</h4>
+        <p>ମନୁଷ୍ୟର ଦକ୍ଷତା ଓ ଜ୍ଞାନକୌଶଳ ଦ୍ୱାରା ନିର୍ମିତ ବ୍ୟବସ୍ଥା ଓ ଭିତ୍ତିଭୂମି।</p>
+        <small class="badge-tag blue">ଉଦାହରଣ</small> ଶିଳ୍ପ, ଶିକ୍ଷା, ସ୍ୱାସ୍ଥ୍ୟ, ବାଣିଜ୍ୟ, ପରିବହନ।
+      </div>
+      <div class="card green">
+        <h4>ମାନବ ସମ୍ବଳ (Human Resources)</h4>
+        <p>ମନୁଷ୍ୟ ନିଜେ ଏକ ସ୍ୱତନ୍ତ୍ର ସମ୍ବଳ; ତା’ର ଗୁଣବତ୍ତା, ଜନସଂଖ୍ୟା ଓ କାର୍ଯ୍ୟଦକ୍ଷତା।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">(ଖ) ଉତ୍ପତ୍ତି ଅନୁସାରେ (According to Origin)</h3>
+    <div class="compare">
+      <div class="card green">
+        <h4>ଜୈବ ସମ୍ବଳ (Biotic Resources)</h4>
+        <p>ଜୈବମଣ୍ଡଳ ଅନ୍ତର୍ଗତ ସମସ୍ତ ସଜୀବ ବସ୍ତୁ। ଯଥା: ମନୁଷ୍ୟ, ଉଦ୍ଭିଦ, ପ୍ରାଣୀ, ମାଛ, ଅଣୁଜୀବ।</p>
+      </div>
+      <div class="card coral">
+        <h4>ଅଜୈବ ସମ୍ବଳ (Abiotic Resources)</h4>
+        <p>ପରିବେଶର ସମସ୍ତ ନିର୍ଜୀବ ଉପାଦାନ। ଯଥା: ଶିଳା, ମୃତ୍ତିକା, ଭୂମି, ଖଣିଜ ଧାତୁ, ଜଳ।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">(ଗ) ଭରଣ ଓ ସୁଲଭତା ଅନୁସାରେ (Renewability)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ଶ୍ରେଣୀ ବିଭାଗ</th>
+            <th>ବିଶେଷତ୍ୱ</th>
+            <th>ମୁଖ୍ୟ ଉଦାହରଣ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ନବୀକରଣ ଯୋଗ୍ୟ / ଅକ୍ଷୟ / ଅବିରାମ</strong><br><small>(Renewable / Flow)</small></td>
+            <td>ବାରମ୍ବାର ବ୍ୟବହାର ସତ୍ତ୍ୱେ ସମ୍ପୂର୍ଣ୍ଣ କ୍ଷୟ ହୁଏ ନାହିଁ ଏବଂ ପ୍ରାକୃତିକ ବା ଚକ୍ରୀୟ ପ୍ରକ୍ରିୟାରେ ପୁନଃଭରଣ ହୁଏ।</td>
+            <td>ସୌରଶକ୍ତି, ପବନ ଶକ୍ତି, ଜଳ, ଜଙ୍ଗଲଜାତ ସାମଗ୍ରୀ।</td>
+          </tr>
+          <tr>
+            <td><strong>ନବୀକରଣ ଅଯୋଗ୍ୟ / କ୍ଷୟଶୀଳ / ଅପୂରଣୀୟ</strong><br><small>(Non-renewable / Irreplenishable)</small></td>
+            <td>ବ୍ୟବହାର ଦ୍ୱାରା କ୍ରମଶଃ ଶେଷ ହୁଏ ଏବଂ ପୁନଃ ସୃଷ୍ଟି ବା ଭରଣ ହେବା ଅସମ୍ଭବ।</td>
+            <td>କୋଇଲା, ପେଟ୍ରୋଲିୟମ୍, ପ୍ରାକୃତିକ ଗ୍ୟାସ୍।</td>
+          </tr>
+          <tr>
+            <td><strong>ପୁନରୁଦ୍ଧାର ଯୋଗ୍ୟ ଧାତୁ</strong><br><small>(Recoverable / Recyclable)</small></td>
+            <td>ବ୍ୟବହାର ପରେ ଯାନ୍ତ୍ରିକ ଉପାୟରେ ପୁନଃଚକ୍ରଣ କରି ବ୍ୟବହାର କରାଯାଇପାରେ।</td>
+            <td>ଲୁହା, ଆଲୁମିନିୟମ, ତମ୍ବା।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">(ଘ) ବିକାଶସ୍ତର ଅନୁସାରେ (Status of Development)</h3>
+    <div class="compare">
+      <div class="card gold">
+        <h4>ପ୍ରଚ୍ଛନ୍ନ / ଗଚ୍ଛିତ ସମ୍ବଳ (Potential)</h4>
+        <p>ପ୍ରକୃତିରେ ମହଜୁଦ ଅଛି ମାତ୍ର ସମ୍ପୂର୍ଣ୍ଣ ବିକାଶ ହୋଇପାରି ନାହିଁ।<br><strong>ଉଦା:</strong> ଗୁଜରାଟ ଓ ରାଜସ୍ଥାନର ସୌର ଓ ପବନ ଶକ୍ତି।</p>
+      </div>
+      <div class="card blue">
+        <h4>ସମ୍ବଳ ଭଣ୍ଡାର (Stock)</h4>
+        <p>ଆବଶ୍ୟକତା ପୂରଣ କରିପାରିବ କିନ୍ତୁ ଉପଯୁକ୍ତ ଜ୍ଞାନକୌଶଳ ଅଭାବରୁ ବ୍ୟବହାର ହୋଇପାରୁନାହିଁ।<br><strong>ଉଦା:</strong> ଜଳରୁ ହାଇଡ୍ରୋଜେନ୍ ଶକ୍ତି ଉତ୍ପାଦନ।</p>
+      </div>
+      <div class="card green">
+        <h4>ବିକଶିତ ସମ୍ବଳ (Developed)</h4>
+        <p>ଯାହାର ସର୍ବେକ୍ଷଣ ସରିଛି ଏବଂ ପ୍ରଯୁକ୍ତି ଦ୍ୱାରା ବର୍ତ୍ତମାନ ବ୍ୟବହାର ଚାଲିଛି।<br><strong>ଉଦା:</strong> ଜଳବିଦ୍ୟୁତ୍, ଖଣିଜ ତୈଳ, ଅରଣ୍ୟ।</p>
+      </div>
+      <div class="card teal">
+        <h4>ସଂରକ୍ଷିତ ସମ୍ବଳ (Reserve)</h4>
+        <p>ସନ୍ଧାନ ମିଳିଛି, ବର୍ତ୍ତମାନର ଜ୍ଞାନରେ ବ୍ୟବହାର ସମ୍ଭବ ମାତ୍ର ଭବିଷ୍ୟତ ଆବଶ୍ୟକତା ପାଇଁ ସାଇତା ହୋଇଛି।<br><strong>ଉଦା:</strong> ନଦୀଜଳ (ଅଣ-ବିଦ୍ୟୁତ୍ ପ୍ରବାହ)।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">(ଙ) ମାଲିକାନା ଅନୁସାରେ (Ownership)</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ବ୍ୟକ୍ତିଗତ ସମ୍ବଳ (Individual)</h4>
+        <p>ନିଜସ୍ୱ ଅଧିକାରରେ ଥିବା ସମ୍ପତ୍ତି। ଯଥା: ଚାଷଜମି, ବାସଗୃହ, ପୋଖରୀ, କୂପ।</p>
+      </div>
+      <div class="card blue">
+        <h4>ଗୋଷ୍ଠୀଗତ ସମ୍ବଳ (Community)</h4>
+        <p>ସମଗ୍ର ଗୋଷ୍ଠୀର ସମୂହ ମାଲିକାନା। ଯଥା: ଗୋଚର ଭୂମି, ଶ୍ମଶାନ, ଖେଳପଡ଼ିଆ, ପାର୍କ।</p>
+      </div>
+      <div class="card gold">
+        <h4>ଜାତୀୟ ସମ୍ବଳ (National)</h4>
+        <p>ଦେଶର ସୀମାରେଖା ଓ ଉପକୂଳରୁ <strong>୧୨ ନଟିକାଲ୍ ମାଇଲ୍ (୨୨.୨ କି.ମି.)</strong> ସାମୁଦ୍ରିକ ଜଳଭାଗ ଅନ୍ତର୍ଗତ ସମସ୍ତ ସମ୍ପଦ।</p>
+      </div>
+      <div class="card coral">
+        <h4>ଆନ୍ତର୍ଜାତୀୟ ସମ୍ବଳ (International)</h4>
+        <p>ଉପକୂଳ EEZ ର <strong>୨୦୦ ନଟିକାଲ୍ ମାଇଲ୍ (୩୭୦ କି.ମି.)</strong> ପରବର୍ତ୍ତୀ ମୁକ୍ତ ସାମୁଦ୍ରିକ ଅଞ୍ଚଳ (UN କର୍ତ୍ତୃତ୍ୱାଧୀନ)।</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="development">
+    <h2 class="sec-title">⚠️ ୪. ସମ୍ବଳର ଅବିଚାରିତ ବ୍ୟବହାର ଓ ସମସ୍ୟା</h2>
+    <p>ସମ୍ବଳର ଅତ୍ୟଧିକ ଏବଂ ଯୋଜନାବିହୀନ ଦୋହନ ଯୋଗୁଁ ବିଶ୍ୱସ୍ତରରେ ବିଭିନ୍ନ ସଙ୍କଟ ସୃଷ୍ଟି ହୋଇଛି:</p>
+    
+    <ul>
+      <li><strong>ସମ୍ବଳ କ୍ଷୟ:</strong> କୋଇଲା, ପେଟ୍ରୋଲିୟମ୍ ଭଳି ଶକ୍ତି ସମ୍ବଳ ଦ୍ରୁତଗତିରେ ଶେଷ ହେବାକୁ ବସିଲାଣି।</li>
+      <li><strong>ସାମାଜିକ ବିଭାଜନ:</strong> ସମ୍ବଳ କିଛି ମୁଷ୍ଟିମେୟ ବ୍ୟକ୍ତିଙ୍କ ହାତରେ କେନ୍ଦ୍ରୀଭୂତ ହେବାରୁ ଧନୀ ଓ ଦରିଦ୍ର ଶ୍ରେଣୀ ସୃଷ୍ଟି ହୋଇଛି।</li>
+      <li><strong>ପାରିବେଶିକ ବିପର୍ଯ୍ୟୟ:</strong> ଭୂତାପନ (Global Warming), ଓଜୋନ ସ୍ତର କ୍ଷୟ, ଭୂକ୍ଷୟ ଏବଂ ଜଳବାୟୁ ପରିବର୍ତ୍ତନ (ବାତ୍ୟା, ମରୁଡ଼ି, ବନ୍ୟା)।</li>
+    </ul>
+
+    <div class="callout def-box">
+      <strong>ଧାରଣୀୟ ବିକାଶ (Sustainable Development):</strong><br>
+      ସମ୍ବଳର ବିନିଯୋଗ ଆବଶ୍ୟକତା ପୂରଣ କରିବା ସଙ୍ଗେ ସଙ୍ଗେ ଭବିଷ୍ୟତ ବଂଶଧରଙ୍କ ପାଇଁ ଏହାର ସଂରକ୍ଷଣ ମଧ୍ୟରେ ଉପଯୁକ୍ତ ସନ୍ତୁଳନ ରକ୍ଷା କରିବାକୁ ଧାରଣୀୟ ବିକାଶ କୁହାଯାଏ।
+    </div>
+  </section>
+
+  <section id="conservation">
+    <h2 class="sec-title">🌱 ୫. ସମ୍ବଳ ସଂରକ୍ଷଣ ଓ ଉପାୟ</h2>
+    <p>ସମ୍ବଳର ଯତ୍ନବାନ ଉପଯୋଗ ତଥା ଏହାର ନବୀକରଣ ପାଇଁ ଯଥେଷ୍ଟ ସମୟ ଦେବାକୁ <strong>ସମ୍ବଳ ସଂରକ୍ଷଣ</strong> କୁହାଯାଏ।</p>
+
+    <div class="compare">
+      <div class="card coral">
+        <h4>୧. ବ୍ୟବହାର ହ୍ରାସ (Reduce)</h4>
+        <p>ଅନାବଶ୍ୟକ ଓ ଅପଚୟ ବନ୍ଦ କରି ମିତବ୍ୟୟିତାର ସହ ସମ୍ବଳ ବ୍ୟବହାର କରିବା।</p>
+      </div>
+      <div class="card teal">
+        <h4>୨. ପୁନଃଚକ୍ରଣ (Recycle)</h4>
+        <p>ଅଦରକାରୀ ଧାତବ ଓ ପ୍ଲାଷ୍ଟିକ୍ ପଦାର୍ଥକୁ ଯାନ୍ତ୍ରିକ ପ୍ରଣାଳୀରେ ନୂତନ ରୂପ ଦେବା।</p>
+      </div>
+      <div class="card green">
+        <h4>୩. ପୁନଃ ବ୍ୟବହାର (Reuse)</h4>
+        <p>ବସ୍ତୁଗୁଡ଼ିକୁ ଫିଙ୍ଗି ନ ଦେଇ ବାରମ୍ବାର ବିଭିନ୍ନ ଉଦ୍ଦେଶ୍ୟରେ ଉପଯୋଗ କରିବା।</p>
+      </div>
+    </div>
+
+    <div class="callout example-box">
+      <strong>ବିଶେଷ ତଥ୍ୟ:</strong>
+      <ul>
+        <li>ଭାରତ ମହାସାଗରର EEZ ଅଞ୍ଚଳରୁ ଭାରତକୁ <strong>ମାଙ୍ଗାନିଜ୍ ପିଣ୍ଡ (Manganese Nodules)</strong> ଉତ୍ତୋଳନ କରିବାର ଅଧିକାର ମିଳିଛି।</li>
+        <li>୧୯୯୨ ମସିହାରେ ବ୍ରାଜିଲର <strong>ରିଓ-ଡି-ଜାନେରିଓ (Rio de Janeiro Earth Summit)</strong> ଠାରେ ଧାରଣୀୟ ବିକାଶ ପାଇଁ ବିଶ୍ୱ ବୈଠକ ଅନୁଷ୍ଠିତ ହୋଇଥିଲା।</li>
+        <li><strong>IUCN</strong> (International Union for Conservation of Nature) ବନ୍ୟପ୍ରାଣୀ ସଂରକ୍ଷଣ ପାଇଁ ୫ଟି ଜାତି ଚିହ୍ନଟ କରିଛି: <em>ନିଶ୍ଚିହ୍ନ (Extinct), ବିପଦସଙ୍କୁଳ (Endangered), ଅସୁରକ୍ଷିତ (Vulnerable), ଦୁର୍ଲ୍ଲଭ (Rare), ଅଜଣା (Insufficiently Known)</em>।</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="planning">
+    <h2 class="sec-title">🇮🇳 ୬. ଭାରତରେ ସମ୍ବଳ ଯୋଜନା (Resource Planning)</h2>
+    <p>
+      ଭାରତରେ ସମ୍ବଳର ବଣ୍ଟନ ଅତ୍ୟନ୍ତ ଅସମାନ। ତେଣୁ ଏକ ସୁସଂହତ ଜାତୀୟ ଯୋଜନାର ଆବଶ୍ୟକତା ରହିଛି:
+    </p>
+
+    <ul>
+      <li><strong>ଖଣିଜ ସମୃଦ୍ଧ ରାଜ୍ୟ:</strong> ଝାଡ଼ଖଣ୍ଡ, ଛତିଶଗଡ଼, ଓଡ଼ିଶା, ମଧ୍ୟପ୍ରଦେଶ।</li>
+      <li><strong>ଜଳ ସମ୍ବଳରେ ଧନୀ କିନ୍ତୁ ଭିତ୍ତିଭୂମିହୀନ:</strong> ଅରୁଣାଚଳ ପ୍ରଦେଶ।</li>
+      <li><strong>ଶୀତଳ ମରୁଭୂମି ଓ ସଂଯୋଗ ବିହୀନ:</strong> ଲାଦାଖ (ସାଂସ୍କୃତିକ ଐତିହ୍ୟ ଧନୀ ହେଲେ ମଧ୍ୟ ଜଳ ଓ ଖଣିଜର ଅଭାବ)।</li>
+      <li><strong>ସୌର ଓ ପବନ ଶକ୍ତି ପ୍ରଚୁର:</strong> ରାଜସ୍ଥାନ ଓ ଗୁଜରାଟ।</li>
+    </ul>
+
+    <h3 class="sub-title">ସମ୍ବଳ ଯୋଜନାର ୫ଟି ମୁଖ୍ୟ ସୋପାନ:</h3>
+    <ol>
+      <li>ସମ୍ବଳ ପ୍ରାପ୍ତିସ୍ଥାନ ଚିହ୍ନଟ ଓ ଚାହିଦା ଆକଳନ।</li>
+      <li>ସର୍ବେକ୍ଷଣ, ମାନଚିତ୍ର ପ୍ରସ୍ତୁତି ଏବଂ ଗୁଣାତ୍ମକ/ସଂଖ୍ୟାତ୍ମକ ମୂଲ୍ୟାୟନ।</li>
+      <li>ଉପଯୁକ୍ତ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା, କୌଶଳ ଓ ଅନୁଷ୍ଠାନିକ ଭିତ୍ତିଭୂମି ଗଠନ।</li>
+      <li>ସମ୍ବଳ ବିକାଶ ଯୋଜନା ସହ <strong>ଜାତୀୟ ବିକାଶ ଯୋଜନାର ସମନ୍ୱୟ</strong> ସ୍ଥାପନ।</li>
+      <li>ପରିବେଶ ସୁରକ୍ଷା ଓ ବିକଳ୍ପ ସମ୍ବଳର ନିରନ୍ତର ଗବେଷଣା।</li>
+    </ol>
+  </section>
+
+  <section id="exercises">
+    <h2 class="sec-title">📝 ୭. ଅଧ୍ୟାୟ ଅଭ୍ୟାସ ପ୍ରଶ୍ନୋତ୍ତର</h2>
+
+    <h3 class="sub-title">୧. ସଠିକ୍ ଉତ୍ତର ବାଛ:</h3>
+    <div class="compare">
+      <div class="card">
+        <p><strong>(କ) କେଉଁଟି ଅପୂରଣୀୟ ସମ୍ବଳ ?</strong></p>
+        <p>(i) ପବନ ଶକ୍ତି (ii) ଶିକ୍ଷାନୁଷ୍ଠାନ (iii) କୋଇଲା (iv) ଜଳ</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: (iii) କୋଇଲା</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଖ) କେଉଁଟି ଗୋଷ୍ଠୀଗତ ସମ୍ବଳ ?</strong></p>
+        <p>(i) ଗୃହ (ii) ଶ୍ମଶାନ (iii) ଚାଷ ଜମି (iv) ରୋପଣ କୃଷି ଭୂମି</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: (ii) ଶ୍ମଶାନ</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">୨. ପାର୍ଥକ୍ୟ ଦର୍ଶାଅ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ନବୀକରଣ ଯୋଗ୍ୟ ସମ୍ବଳ</h4>
+        <p>ବାରମ୍ବାର ବ୍ୟବହାର ସତ୍ତ୍ୱେ ଶେଷ ହୁଏ ନାହିଁ ଏବଂ ପ୍ରାକୃତିକ ଉପାୟରେ ପୁନଃଭରଣ ହୋଇପାରେ। ଯଥା: ସୌରଶକ୍ତି, ଜଙ୍ଗଲ।</p>
+      </div>
+      <div class="card coral">
+        <h4>ନବୀକରଣ ଅଯୋଗ୍ୟ ସମ୍ବଳ</h4>
+        <p>ଅନବରତ ବ୍ୟବହାର ଫଳରେ ନଷ୍ଟ ବା କ୍ଷୟ ହୋଇଗଲେ ଆଉ ପୁନଃଭରଣ ସମ୍ଭବ ହୋଇନଥାଏ। ଯଥା: କୋଇଲା, ପେଟ୍ରୋଲିୟମ୍।</p>
+      </div>
+    </div>
+
+    <div class="callout activity-box">
+      <strong>ଛାତ୍ରଛାତ୍ରୀଙ୍କ ପାଇଁ କାର୍ଯ୍ୟ (Self-Activity):</strong>
+      <ol>
+        <li>ତୁମ ଘରେ ଏବଂ ବିଦ୍ୟାଳୟରେ ବ୍ୟବହାର ହେଉଥିବା ୫ଟି ଲେଖାଏଁ ସମ୍ବଳର ତାଲିକା ତିଆରି କର।</li>
+        <li>ତୁମ ଅଞ୍ଚଳରେ ଥିବା ବ୍ୟକ୍ତିଗତ, ଗୋଷ୍ଠୀଗତ ଓ ଜାତୀୟ ସମ୍ବଳ ଚିହ୍ନଟ କର।</li>
+      </ol>
+    </div>
+  </section>
+
+  <footer>
+    <p>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ • ପ୍ରଥମ ଅଧ୍ୟାୟ ସମ୍ପୂର୍ଣ୍ଣ ସାରାଂଶ ନୋଟ୍ | Digital Learning Note System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
 
