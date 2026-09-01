@@ -1,1 +1,817 @@
 
+<!DOCTYPE html>
+<html lang="or">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ - ଦ୍ୱିତୀୟ ଅଧ୍ୟାୟ: ବନ୍ୟପ୍ରାଣୀ ସମ୍ବଳ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(16, 185, 129, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(245, 158, 11, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Sans Oriya', 'Outfit', sans-serif;
+      line-height: 1.75;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1060px;
+      margin: 0 auto;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.25;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--green-glow);
+      color: var(--green);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #a7f3d0, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 720px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--green);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.15rem;
+      color: #e2e8f0;
+      margin: 22px 0 12px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 0.98rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.05rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 16px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#f59e0b" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#10b981"/>
+      <circle cx="100" cy="35" r="5" fill="#f59e0b"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">🐅 ଦଶମ ଶ୍ରେଣୀ • ଭୂଗୋଳ • ଦ୍ୱିତୀୟ ଅଧ୍ୟାୟ (ଜୈବ ସମ୍ବଳ)</div>
+    <h1>ଦ୍ୱିତୀୟ ପାଠ : ବନ୍ୟପ୍ରାଣୀ ସମ୍ବଳ (Wildlife Resources)</h1>
+    <p>ଜୈବ ବିବିଧତା, ପୋଷଣ ସ୍ତର, ଭାରତର ପ୍ରାଣୀ-ଭୌଗୋଳିକ ଅଞ୍ଚଳ, IUCN ଲାଲ୍ ତଥ୍ୟ ପୁସ୍ତକ, ଜାତୀୟ ଉଦ୍ୟାନ, ଅଭୟାରଣ୍ୟ ଓ ଜୈବମଣ୍ଡଳ ସଂରକ୍ଷିତ ଅଞ୍ଚଳ।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#biodiversity">ଜୈବ ବିବିଧତା ଓ ପରିସଂସ୍ଥା</a>
+    <a href="#trophic">ପୋଷଣ ସ୍ତର ଓ ପିରାମିଡ୍</a>
+    <a href="#distribution">ଭାରତରେ ବନ୍ୟପ୍ରାଣୀ ବିତରଣ</a>
+    <a href="#threats-iucn">IUCN ଓ ଲାଲ୍ ତଥ୍ୟ ପୁସ୍ତକ</a>
+    <a href="#species-classes">ଜୀବଜାତିର ଶ୍ରେଣୀବିଭାଗ</a>
+    <a href="#biosphere-reserves">ଜୈବମଣ୍ଡଳ ସଂରକ୍ଷିତ କ୍ଷେତ୍ର</a>
+    <a href="#parks-sanctuaries">ଜାତୀୟ ଉଦ୍ୟାନ ଓ ଅଭୟାରଣ୍ୟ</a>
+    <a href="#conservation">ପ୍ରକଳ୍ପ ଓ ସଂରକ୍ଷଣ ନୀତି</a>
+    <a href="#exercises">ପ୍ରଶ୍ନୋତ୍ତର</a>
+  </nav>
+
+  <!-- 1. Biodiversity & Ecosystem -->
+  <section id="biodiversity">
+    <h2 class="sec-title">🌿 ୧. ଜୈବ ବିବିଧତା (Biodiversity) ଓ ପରିସଂସ୍ଥା</h2>
+    <p>
+      ପଶୁ, ପକ୍ଷୀ, କୀଟପତଙ୍ଗ, ମାଛ, କଇଁଛ, କୁମ୍ଭୀର, ସାପ, ବେଙ୍ଗ, ଜୋକ ଓ ଅଣୁଜୀବ ପ୍ରଭୃତି ଜୀବଜନ୍ତୁମାନଙ୍କୁ ବନ୍ୟପ୍ରାଣୀ (Wildlife) ରୂପେ ବିଚାର କରାଯାଏ[span_0](start_span)[span_0](end_span)। ଏହା ଏକ ମୂଲ୍ୟବାନ ଅସରନ୍ତି ବା ଅକ୍ଷୟ ପ୍ରାକୃତିକ ସମ୍ବଳ[span_1](start_span)[span_1](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>ଜୈବ ବିବିଧତାର ସଂଜ୍ଞା:</strong><br>
+      ଭୂ-ପୃଷ୍ଠର କୌଣସି ଅଞ୍ଚଳର ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ, ପ୍ରାଣୀ, ଅନ୍ୟାନ୍ୟ ଜୀବଜନ୍ତୁ ଓ ପରିସଂସ୍ଥାର ସମଷ୍ଟିକୁ <strong>ଜୈବ ବିବିଧତା (Biodiversity)</strong> କୁହାଯାଏ[span_2](start_span)[span_2](end_span)। ଏହା ତିନି ପ୍ରକାରର:
+      <ol>
+        <li><strong>ଜିନୀୟ (Genetic) ଜୈବ ବିବିଧତା:</strong> ଗୋଟିଏ ପ୍ରଜାତିର ଜୀବମାନଙ୍କ ମଧ୍ୟରେ ଥିବା ଜିନୀୟ ପାର୍ଥକ୍ୟ[span_3](start_span)[span_3](end_span)।</li>
+        <li><strong>ଜାତି (Species) ବିବିଧତା:</strong> ପରିବେଶରେ ଥିବା ବିଭିନ୍ନ ପ୍ରଜାତିର ଜୀବମାନଙ୍କର ବିବିଧତା[span_4](start_span)[span_4](end_span)।</li>
+        <li><strong>ପରିସଂସ୍ଥୀୟ (Ecosystem) ଜୈବ ବିବିଧତା:</strong> ବିଭିନ୍ନ ପ୍ରକାର ପରିସଂସ୍ଥା ଓ ବାସସ୍ଥଳୀର ବିବିଧତା[span_5](start_span)[span_5](end_span)।</li>
+      </ol>
+    </div>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ବୈଶ୍ୱିକ ଜୈବ ବିବିଧତା କେନ୍ଦ୍ର</h4>
+        <ul>
+          <li>ସମଗ୍ର ପୃଥିବୀକୁ <strong>୧୨ଟି ବୃହତ୍ କେନ୍ଦ୍ର (Mega Centres)</strong> ଏବଂ <strong>୧୮ଟି ତପ୍ତ ସ୍ଥଳ (Hot Spots)</strong> ରେ ବିଭକ୍ତ କରାଯାଇଛି[span_6](start_span)[span_6](end_span)।</li>
+          <li>ଭାରତ ପୃଥିବୀର ଏକ ପ୍ରମୁଖ <strong>ବୃହତ୍ କେନ୍ଦ୍ର (Mega Biodiversity Country)</strong>[span_7](start_span)[span_7](end_span)।</li>
+          <li>ଭାରତରେ ୨ଟି ପ୍ରମୁଖ ତପ୍ତ ସ୍ଥଳ ରହିଛି: <strong>(୧) ଉତ୍ତର-ପୂର୍ବ ଭାରତ</strong> ଏବଂ <strong>(୨) ପଶ୍ଚିମଘାଟ ପର୍ବତମାଳା</strong>[span_8](start_span)[span_8](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card green">
+        <h4>ପରିସଂସ୍ଥାର ସନ୍ତୁଳନ ଚକ୍ର</h4>
+        <p>ପରିସଂସ୍ଥାରେ ସନ୍ତୁଳନ ରକ୍ଷା ପାଇଁ ଜୀବ ଓ ପରିବେଶ ମଧ୍ୟରେ ନିମ୍ନଲିଖିତ ପ୍ରକ୍ରିୟା ସମ୍ପାଦିତ ହୁଏ[span_9](start_span)[span_9](end_span):</p>
+        <ul>
+          <li>ପୋଷକ ଚକ୍ର (Nutrient Cycle)[span_10](start_span)[span_10](end_span)</li>
+          <li>ଜୀବ-ଭୂ-ରାସାୟନିକ ଚକ୍ର (Biogeochemical Cycle)[span_11](start_span)[span_11](end_span)</li>
+          <li>ଶକ୍ତିପ୍ରବାହ (Flow of Energy)[span_12](start_span)[span_12](end_span)</li>
+          <li>ଖାଦ୍ୟ ଶୃଙ୍ଖଳ (Food Chain) ଓ ଖାଦ୍ୟ ଜାଲି (Food Web)[span_13](start_span)[span_13](end_span)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Trophic Level & Ecological Pyramid -->
+  <section id="trophic">
+    <h2 class="sec-title">🔺 ୨. ପୋଷଣ ସ୍ତର (Trophic Level) ଓ ଜୈବିକ ପିରାମିଡ୍</h2>
+    <p>
+      ଜୈବିକ ପିରାମିଡ୍ (Biological Pyramid) ମାଧ୍ୟମରେ ପରିସଂସ୍ଥାରେ ଶକ୍ତି ପ୍ରବାହ, ଉତ୍ପାଦିକତା, ସ୍ୱଚ୍ଛତା ତଥା ସନ୍ତୁଳନ ରକ୍ଷା ହୋଇଥାଏ[span_14](start_span)[span_14](end_span)।
+    </p>
+
+    <!-- Ecological Pyramid Diagram -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 500 280" width="460" height="260" xmlns="http://www.w3.org/2000/svg">
+          <!-- Top Tier: Tertiary -->
+          <polygon points="250,20 180,80 320,80" fill="#f43f5e" fill-opacity="0.25" stroke="#f43f5e" stroke-width="2"/>
+          <text x="250" y="55" fill="#f43f5e" font-size="11" font-weight="bold" text-anchor="middle">ତୃତୀୟକ ଭକ୍ଷକ / ଉଭୟଭୋଜୀ</text>
+
+          <!-- Middle Tier: Secondary -->
+          <polygon points="180,80 120,150 380,150 320,80" fill="#f59e0b" fill-opacity="0.25" stroke="#f59e0b" stroke-width="2"/>
+          <text x="250" y="120" fill="#f59e0b" font-size="12" font-weight="bold" text-anchor="middle">ଦ୍ୱିତୀୟକ ଭକ୍ଷକ (ମାଂସାହାରୀ - Carnivores)</text>
+
+          <!-- Lower Tier: Primary -->
+          <polygon points="120,150 60,220 440,220 380,150" fill="#38bdf8" fill-opacity="0.25" stroke="#38bdf8" stroke-width="2"/>
+          <text x="250" y="190" fill="#38bdf8" font-size="12" font-weight="bold" text-anchor="middle">ପ୍ରାଥମିକ ଭକ୍ଷକ (ତୃଣଭୋଜୀ - Herbivores)</text>
+
+          <!-- Base Tier: Producer -->
+          <polygon points="60,220 10,270 490,270 440,220" fill="#10b981" fill-opacity="0.25" stroke="#10b981" stroke-width="2"/>
+          <text x="250" y="250" fill="#10b981" font-size="13" font-weight="bold" text-anchor="middle">ଉତ୍ପାଦକ (ସ୍ୱପୋଷୀ ସବୁଜ ଉଦ୍ଭିଦ - Producers)</text>
+        </svg>
+        <figcaption>ଚିତ୍ର: ପରିସଂସ୍ଥାର ଜୈବିକ ପିରାମିଡ୍ ଓ ପୋଷଣ ସ୍ତର (Trophic Levels)</figcaption>
+      </figure>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ପୋଷଣ ଶ୍ରେଣୀ</th>
+            <th>ଜୀବର ପ୍ରକାର</th>
+            <th>ବୈଶିଷ୍ଟ୍ୟ ଓ କାର୍ଯ୍ୟ</th>
+            <th>ଉଦାହରଣ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ଉତ୍ପାଦକ (Producers)</strong></td>
+            <td>ସ୍ୱପୋଷୀ / ସ୍ୱଭୋଜୀ (Autotrophs)[span_15](start_span)[span_15](end_span)</td>
+            <td>ସୂର୍ଯ୍ୟାଲୋକରୁ ନିଜ ଖାଦ୍ୟ ନିଜେ ପ୍ରସ୍ତୁତ କରନ୍ତି[span_16](start_span)[span_16](end_span)।</td>
+            <td>ସବୁଜ ବୃକ୍ଷଲତା, ତୃଣ, ଗୁଳ୍ମ, ଶୈବାଳ[span_17](start_span)[span_17](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ପ୍ରାଥମିକ ଭକ୍ଷକ (Primary)</strong></td>
+            <td>ଶାକାହାରୀ / ତୃଣଭୋଜୀ (Herbivores)[span_18](start_span)[span_18](end_span)</td>
+            <td>ସିଧାସଳଖ ଉଦ୍ଭିଦକୁ ଖାଦ୍ୟ ରୂପେ ଗ୍ରହଣ କରନ୍ତି[span_19](start_span)[span_19](end_span)।</td>
+            <td>ହରିଣ, ଗାଈ, ଠେକୁଆ, ହାତୀ, କୀଟପତଙ୍ଗ[span_20](start_span)[span_20](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ଦ୍ୱିତୀୟକ ଭକ୍ଷକ (Secondary)</strong></td>
+            <td>ମାଂସାହାରୀ / ମାଂସାଶୀ (Carnivores)[span_21](start_span)[span_21](end_span)</td>
+            <td>ତୃଣଭୋଜୀ ପ୍ରାଣୀଙ୍କୁ ଶିକାର କରି ଖାଆନ୍ତି[span_22](start_span)[span_22](end_span)।</td>
+            <td>ବାଘ, ସିଂହ, ଚିତାବାଘ, ସାପ, ଶାଗୁଣା[span_23](start_span)[span_23](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ତୃତୀୟକ ଭକ୍ଷକ (Tertiary)</strong></td>
+            <td>ଉଭୟଭୋଜୀ (Omnivores)[span_24](start_span)[span_24](end_span)</td>
+            <td>ଉଭୟ ଉଦ୍ଭିଦ ଓ ପ୍ରାଣୀଜାତ ପଦାର୍ଥ ଭକ୍ଷଣ କରନ୍ତି[span_25](start_span)[span_25](end_span)।</td>
+            <td>ମନୁଷ୍ୟ, କୁଆ, କୁକୁର, ଭାଲୁ[span_26](start_span)[span_26](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ଅପଘଟକ (Decomposers)</strong></td>
+            <td>ମୃତୋପଜୀବୀ / ସୂକ୍ଷ୍ମଭକ୍ଷକ (Saprophytes)[span_27](start_span)[span_27](end_span)</td>
+            <td>ମୃତ ଜୀବଶରୀରକୁ ଅପଘଟନ କରି ମାଟିରେ ପୋଷକ ଫେରାନ୍ତି[span_28](start_span)[span_28](end_span)।</td>
+            <td>ବ୍ୟାକ୍ଟେରିଆ, କବକ, ଅଣୁଜୀବ[span_29](start_span)[span_29](end_span)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 3. Wildlife Distribution in India -->
+  <section id="distribution">
+    <h2 class="sec-title">🐅 ୩. ଭାରତରେ ବନ୍ୟପ୍ରାଣୀ ସମ୍ପଦ ଓ ବିତରଣ</h2>
+    <p>
+      ପୃଥିବୀର ସମୁଦାୟ ଭୂ-ଆୟତନର ମାତ୍ର <strong>୨.୪%</strong> ଭାରତରେ ଥିବାବେଳେ ଏଠାରେ ପୃଥିବୀର ଜୈବ ବିବିଧତାର ପ୍ରାୟ <strong>୭.୩%</strong> ବିଦ୍ୟମାନ[span_30](start_span)[span_30](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଭାରତର ୬ ଗୋଟି ପ୍ରାଣୀ-ଭୌଗୋଳିକ ଅଞ୍ଚଳ</h4>
+        <ol>
+          <li>ହିମାଳୟ ଅଞ୍ଚଳ[span_31](start_span)[span_31](end_span)</li>
+          <li>ଉତ୍ତରସ୍ଥ ସମତଳ ଅଞ୍ଚଳ[span_32](start_span)[span_32](end_span)</li>
+          <li>ମରୁଭୂମି ଅଞ୍ଚଳ (ଥର ମରୁଭୂମି)[span_33](start_span)[span_33](end_span)</li>
+          <li>ଦାକ୍ଷିଣାତ୍ୟ ମାଳଭୂମି[span_34](start_span)[span_34](end_span)</li>
+          <li>ମାଲାବାର ଉପକୂଳ ଅଞ୍ଚଳ[span_35](start_span)[span_35](end_span)</li>
+          <li>ନୀଳଗିରି ପାର୍ବତ୍ୟାଞ୍ଚଳ[span_36](start_span)[span_36](end_span)</li>
+        </ol>
+      </div>
+      <div class="card gold">
+        <h4>ଜୀବଜନ୍ତୁ ସଂଖ୍ୟା ପରିସଂଖ୍ୟାନ (ସାରଣୀ ୦୩)</h4>
+        <ul>
+          <li>ସମୁଦାୟ ଜୀବଜନ୍ତୁ: <strong>୮୯,୪୫୧ ପ୍ରଜାତି</strong>[span_37](start_span)[span_37](end_span)</li>
+          <li>କୀଟ ପ୍ରଜାତି: <strong>୬୮,୩୮୯</strong> | ପକ୍ଷୀ: <strong>୧,୨୩୨</strong>[span_38](start_span)[span_38](end_span)</li>
+          <li>ମାଛ ପ୍ରଜାତି: <strong>୨,୫୪୬</strong> | ସ୍ତନ୍ୟପାୟୀ: <strong>୩୯୦</strong>[span_39](start_span)[span_39](end_span)</li>
+          <li>ସରୀସୃପ: <strong>୪୫୬</strong> | ଉଭୟଚର: <strong>୨୦୦</strong>[span_40](start_span)[span_40](end_span)</li>
+          <li>ଉଦ୍ଭିଦ ପ୍ରଜାତି: <strong>୪୫,୦୦୦ ରୁ ଊର୍ଦ୍ଧ୍ୱ</strong>[span_41](start_span)[span_41](end_span)</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub-title">ପ୍ରମୁଖ ଆଞ୍ଚଳିକ ବନ୍ୟପ୍ରାଣୀ:</h3>
+    <div class="compare">
+      <div class="card green">
+        <h4>ସ୍ୱତନ୍ତ୍ର ପଶୁପକ୍ଷୀ ଓ ବାସସ୍ଥାନ</h4>
+        <ul>
+          <li><strong>ଏସୀୟ ସିଂହ:</strong> ଗୁଜରାଟର ସୌରାଷ୍ଟ୍ରସ୍ଥିତ ଗୀର ଅରଣ୍ୟ[span_42](start_span)[span_42](end_span)</li>
+          <li><strong>ମହାବଳ ବାଘ:</strong> ପଶ୍ଚିମବଙ୍ଗର ସୁନ୍ଦରବନ, ଓଡ଼ିଶା, ମଧ୍ୟପ୍ରଦେଶ[span_43](start_span)[span_43](end_span)</li>
+          <li><strong>ଧଳା ବାଘ:</strong> ଓଡ଼ିଶାର ନନ୍ଦନକାନନ ଓ ମଧ୍ୟପ୍ରଦେଶର ରେୱା ମାଳଭୂମି[span_44](start_span)[span_44](end_span)</li>
+          <li><strong>ଗଣ୍ଡା (ଏକ ଶିଙ୍ଗା):</strong> ଆସାମ (କାଜିରଙ୍ଗା, ମାନସ) ଓ ପଶ୍ଚିମବଙ୍ଗ[span_45](start_span)[span_45](end_span)</li>
+          <li><strong>ଜଙ୍ଗଲୀ ଗଧ ଓ ଓଟ:</strong> ଗୁଜରାଟର କଚ୍ଛ ରନ୍ ଓ ରାଜସ୍ଥାନ ଥର ମରୁଭୂମି[span_46](start_span)[span_46](end_span)</li>
+          <li><strong>ହିମାଳୟ ଅଞ୍ଚଳ:</strong> ଚମରୀ ଗାଈ, କସ୍ତୁରୀ ମୃଗ, ହିମ ଚିତାବାଘ (Snow Leopard), ଲାଲ୍ ପାଣ୍ଡା (ସିକିମ, ଦାର୍ଜିଲିଂ)[span_47](start_span)[span_47](end_span)</li>
+          <li><strong>ହୁଲକ୍ ଗିବନ (ବଣ ମଣିଷ):</strong> ଆସାମ ଓ ଉତ୍ତର-ପୂର୍ବ ଭାରତ[span_48](start_span)[span_48](end_span)</li>
+          <li><strong>ଭାରତୀୟ ବଷ୍ଟାର୍ଡ଼:</strong> ରାଜସ୍ଥାନ ମରୁଭୂମି[span_49](start_span)[span_49](end_span)</li>
+        </ul>
+      </div>
+      <div class="card blue">
+        <h4>ଓଡ଼ିଶାର ବିରଳ ଜଳଚର ଓ ବନ୍ୟପ୍ରାଣୀ</h4>
+        <ul>
+          <li><strong>ଅଲିଭ୍ ରିଡ଼ଲେ କଇଁଛ (Olive Ridley):</strong> ପ୍ରତିବର୍ଷ ଅଣ୍ଡା ଦେବା ପାଇଁ ଗହିରମଥା (ଭିତରକନିକା) ଓ ଋଷିକୁଲ୍ୟା ନଦୀ ମୁହାଣକୁ ଆସନ୍ତି[span_50](start_span)[span_50](end_span)।</li>
+          <li><strong>ଇରାବତୀ ଡଲଫିନ୍ (Irrawaddy Dolphin):</strong> ବିଶ୍ୱବିଖ୍ୟାତ ଚିଲିକା ହ୍ରଦରେ ଦେଖାଯାଆନ୍ତି[span_51](start_span)[span_51](end_span)।</li>
+          <li><strong>ନୀଳ କଙ୍କଡ଼ା ଓ ଲବଣାକ୍ତ କୁମ୍ଭୀର:</strong> ଭିତରକନିକା ଜାତୀୟ ଉଦ୍ୟାନ[span_52](start_span)[span_52](end_span)।</li>
+          <li><strong>ଘଡ଼ିଆଳ କୁମ୍ଭୀର:</strong> ମହାନଦୀର ଟିକରପଡ଼ା[span_53](start_span)[span_53](end_span)।</li>
+          <li><strong>ଜାତୀୟ ପ୍ରତୀକ:</strong> ବାଘ (ଜାତୀୟ ପଶୁ), ମୟୂର (ଜାତୀୟ ପକ୍ଷୀ), ହାତୀ (ଜାତୀୟ ଐତିହ୍ୟ ପ୍ରାଣୀ), ଡଲଫିନ୍ (ଜାତୀୟ ଜଳଚର ପ୍ରାଣୀ)[span_54](start_span)[span_54](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Threats & IUCN Red Data Book -->
+  <section id="threats-iucn">
+    <h2 class="sec-title">📕 ୪. ଜୈବ ବିବିଧତା କ୍ଷୟ, IUCN ଓ ଲାଲ୍ ତଥ୍ୟ ପୁସ୍ତକ</h2>
+    <p>
+      ଜନସଂଖ୍ୟା ବୃଦ୍ଧି, ଅରଣ୍ୟ କ୍ଷୟ, ନଗରୀକରଣ, ଅତ୍ୟଧିକ ଶିକାର, ରାସାୟନିକ ସାର/କୀଟନାଶକ ପ୍ରୟୋଗ (ଯଥା DDT) ଏବଂ ବାସସ୍ଥଳୀ ଧ୍ୱଂସ ଯୋଗୁଁ ବନ୍ୟପ୍ରାଣୀ ଦ୍ରୁତଗତିରେ ହ୍ରାସ ପାଉଛନ୍ତି[span_55](start_span)[span_55](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>IUCN (World Conservation Union):</strong><br>
+      <strong>International Union for Conservation of Nature and Natural Resources</strong> — ଏହାର ମୁଖ୍ୟ କାର୍ଯ୍ୟାଳୟ ସୁଇଜରଲ୍ୟାଣ୍ଡର <strong>ମୋର୍ଗସ୍ (Morges)</strong> ସହରରେ ଅବସ୍ଥିତ[span_56](start_span)[span_56](end_span)। ଏହା ସଙ୍କଟାପନ୍ନ ଜୀବଜନ୍ତୁ ଓ ଉଦ୍ଭିଦମାନଙ୍କର ତାଲିକା ପ୍ରକାଶ କରେ[span_57](start_span)[span_57](end_span)।
+    </div>
+
+    <div class="callout mistake-box">
+      <strong>ଲାଲ୍ ତଥ୍ୟ ପୁସ୍ତକ (Red Data Book):</strong>
+      <ul>
+        <li>ଏହା ପ୍ରଥମେ <strong>୧୯୬୬ ମସିହାରେ</strong> IUCN ଦ୍ୱାରା ପ୍ରକାଶିତ ହୋଇଥିଲା[span_58](start_span)[span_58](end_span)।</li>
+        <li><strong>୨୦୧୯ ତଥ୍ୟ ଅନୁସାରେ:</strong> ବିଶ୍ୱରେ ସଙ୍କଟାପନ୍ନ ଜାତିଙ୍କ ସଂଖ୍ୟା <strong>୨୮,୩୩୮ କୁ ବୃଦ୍ଧି</strong> ପାଇଛି[span_59](start_span)[span_59](end_span)।</li>
+        <li>ଏଥିରେ ଭାରତର ସର୍ବାଧିକ ସଂଖ୍ୟକ ସଙ୍କଟାପନ୍ନ ଜାତି ସ୍ଥାନ ପାଇଛନ୍ତି (୪୭୪ ଉଦ୍ଭିଦ ଓ ୧୦୦ ରୁ ଊର୍ଦ୍ଧ୍ୱ ପ୍ରାଣୀ)[span_60](start_span)[span_60](end_span)।</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 5. Classification of Threatened Species -->
+  <section id="species-classes">
+    <h2 class="sec-title">⚠️ ୫. ସଙ୍କଟାପନ୍ନ ଜୀବଜାତିର ଶ୍ରେଣୀବିଭାଗ</h2>
+
+    <div class="compare">
+      <div class="card coral">
+        <h4>୧. ବିଲୁପ୍ତ ଜାତି (Extinct Species)</h4>
+        <p>ଗତ <strong>୫୦ ବର୍ଷରୁ ଊର୍ଦ୍ଧ୍ୱ ସମୟ</strong> ଧରି ପ୍ରାକୃତିକ ପରିବେଶରେ ଦୃଶ୍ୟମାନ ନହୋଇ ସମ୍ପୂର୍ଣ୍ଣ ଲୋପ ପାଇଯାଇଥିବା ଜାତି[span_61](start_span)[span_61](end_span) ।</p>
+        <small class="badge-tag coral">ଉଦାହରଣ</small> ଭାରତୀୟ ଚିତାବାଘ, ଗୋଲାପୀ-ମସ୍ତକ ବତକ (Pink-headed duck), ଜଙ୍ଗଲୀ ପେଚା, ପାର୍ବତୀୟ ବର୍ତ୍ତକ, ଡାଇନୋସର[span_62](start_span)[span_62](end_span)।
+      </div>
+      <div class="card gold">
+        <h4>୨. ବିପଦସଙ୍କୁଳ / ଲୁପ୍ତପ୍ରାୟ ଜାତି (Endangered)</h4>
+        <p>ପ୍ରତିକୂଳ କାରଣ ଯୋଗୁଁ ତୁରନ୍ତ ସଂରକ୍ଷଣ ନକଲେ ନିକଟ ଭବିଷ୍ୟତରେ ବିଲୁପ୍ତ ହୋଇଯିବାର ସର୍ବାଧିକ ଆଶଙ୍କା ଥିବା ଜୀବ[span_63](start_span)[span_63](end_span) ।</p>
+        <small class="badge-tag gold">ଉଦାହରଣ</small> ସିଂହଲାଞ୍ଜ ହନୁମାଙ୍କଡ଼ (Lion-tailed Macaque), ବାଘ, ଭାରତୀୟ ବନ୍ୟଗଧ, ଶାଗୁଣା[span_64](start_span)[span_64](end_span)।
+      </div>
+      <div class="card teal">
+        <h4>୩. ବିପଦପ୍ରବଣ ଜାତି (Vulnerable Species)</h4>
+        <p>ବର୍ତ୍ତମାନ ଚରମ ସଙ୍କଟରେ ନଥିଲେ ମଧ୍ୟ ସଂଖ୍ୟା କ୍ରମାଗତ ହ୍ରାସ ପାଉଥିବାରୁ ଭବିଷ୍ୟତରେ ବିପଦସଙ୍କୁଳ ହେବାର ଆଶଙ୍କା ଥିବା ଜୀବ[span_65](start_span)[span_65](end_span) ।</p>
+        <small class="badge-tag teal">ଉଦାହରଣ</small> କୃଷ୍ଣସାର ମୃଗ (Blackbuck), ବିଭିନ୍ନ କୀଟପତଙ୍ଗ ଓ ପକ୍ଷୀ[span_66](start_span)[span_66](end_span)।
+      </div>
+      <div class="card blue">
+        <h4>୪. ଦୁର୍ଲ୍ଲଭ ଜାତି (Rare Species)</h4>
+        <p>ପ୍ରାକୃତିକ ଭାବେ ଅତି କମ୍ ସଂଖ୍ୟାରେ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ସୀମିତ ଭୌଗୋଳିକ ଅଞ୍ଚଳରେ ଦେଖାଯାଉଥିବା ଜୀବ[span_67](start_span)[span_67](end_span) ।</p>
+        <small class="badge-tag blue">ଉଦାହରଣ</small> ମେଘୁଆ ଚିତାବାଘ (Clouded Leopard), ସ୍ୱର୍ଣ୍ଣ ମର୍କଟ (Golden Langur), ଗ୍ରେଟ୍ ଇଣ୍ଡିଆନ୍ ବଷ୍ଟାର୍ଡ଼[span_68](start_span)[span_68](end_span)।
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Biosphere Reserves -->
+  <section id="biosphere-reserves">
+    <h2 class="sec-title">🌐 ୬. ଭାରତର ୧୮ଟି ଜୈବମଣ୍ଡଳ ସଂରକ୍ଷିତ କ୍ଷେତ୍ର (Biosphere Reserves)</h2>
+    <p>
+      ଜୈବମଣ୍ଡଳ ସଂରକ୍ଷିତ କ୍ଷେତ୍ରରେ ସମଗ୍ର ପରିସଂସ୍ଥା, ଭୂମି, ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ ଓ ବନ୍ୟଜନ୍ତୁଙ୍କୁ ସେମାନଙ୍କ ପ୍ରାକୃତିକ ପରିବେଶରେ ସମ୍ପୂର୍ଣ୍ଣ ସୁରକ୍ଷା ଦିଆଯାଏ[span_69](start_span)[span_69](end_span)।
+    </p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>କ୍ରମିକ</th>
+            <th>ଜୈବମଣ୍ଡଳ ସଂରକ୍ଷିତ ଅଞ୍ଚଳ</th>
+            <th>ଅବସ୍ଥିତ ରାଜ୍ୟ / କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ</th>
+            <th>ମୁଖ୍ୟ ସଂରକ୍ଷିତ ବନ୍ୟପ୍ରାଣୀ (ସାରଣୀ - ୦୫)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>୧</td><td><strong>ନୀଳଗିରି (Nilgiri)</strong></td><td>ତାମିଲନାଡୁ, କେରଳ, କର୍ଣ୍ଣାଟକ</td><td>ନୀଳଗିରି ତାହେର, ସିଂହପୁଚ୍ଛ ମର୍କଟ[span_70](start_span)[span_70](end_span)</td></tr>
+          <tr><td>୨</td><td><strong>ନନ୍ଦାଦେବୀ (Nanda Devi)</strong></td><td>ଉତ୍ତରାଖଣ୍ଡ</td><td>ନୀଳଗିରି ତାହେର, ସିଂହପୁଚ୍ଛ ମର୍କଟ[span_71](start_span)[span_71](end_span)</td></tr>
+          <tr><td>୩</td><td><strong>ନକ୍‌ରେକ୍ (Nokrek)</strong></td><td>ମେଘାଳୟ</td><td>ଲାଲ୍ ପାଣ୍ଡା[span_72](start_span)[span_72](end_span)</td></tr>
+          <tr><td>୪</td><td><strong>ମାନସ (Manas)</strong></td><td>ଆସାମ</td><td>ଲାଲ୍ ପାଣ୍ଡା, ସ୍ୱର୍ଣ୍ଣ ଲାଙ୍ଗୁର, ଗଣ୍ଡା[span_73](start_span)[span_73](end_span)</td></tr>
+          <tr><td>୫</td><td><strong>ସୁନ୍ଦରବନ (Sundarbans)</strong></td><td>ପଶ୍ଚିମବଙ୍ଗ</td><td>ମହାବଳ ବାଘ (Royal Bengal Tiger)[span_74](start_span)[span_74](end_span)</td></tr>
+          <tr><td>୬</td><td><strong>ମାନ୍ନାର ଉପସାଗର (Gulf of Mannar)</strong></td><td>ତାମିଲନାଡୁ</td><td>ଡୁଗଙ୍ଗ ବା ସମୁଦ୍ରଗାଈ (Sea Cow)[span_75](start_span)[span_75](end_span)</td></tr>
+          <tr><td>୭</td><td><strong>ଗ୍ରେଟ୍ ନିକୋବର (Great Nicobar)</strong></td><td>ଆଣ୍ଡାମାନ ଓ ନିକୋବର ଦ୍ୱୀପପୁଞ୍ଜ</td><td>ଲବଣଜଳ କୁମ୍ଭୀର[span_76](start_span)[span_76](end_span)</td></tr>
+          <tr><td>୮</td><td><strong>ଶିମିଳିପାଳ (Similipal)</strong></td><td>ଓଡ଼ିଶା (ମୟୂରଭଞ୍ଜ)</td><td>ମହାବଳ ବାଘ, ହାତୀ, ଗୟଳ (ଗୌର)[span_77](start_span)[span_77](end_span)</td></tr>
+          <tr><td>୯</td><td><strong>ଦିବ୍ରୁ ସାଇଖୋୱା</strong></td><td>ଅରୁଣାଚଳ ପ୍ରଦେଶ / ଆସାମ</td><td>ସ୍ୱର୍ଣ୍ଣ ଲାଙ୍ଗୁର[span_78](start_span)[span_78](end_span)</td></tr>
+          <tr><td>୧୦</td><td><strong>ଦିହାଙ୍ଗ ଦିବାଙ୍ଗ</strong></td><td>ଅରୁଣାଚଳ ପ୍ରଦେଶ</td><td>ମସ୍କ ମୃଗ, ମିଶାମି ତାଙ୍କନ୍, ଏସୀୟ କୃଷ୍ଣ ଭଲ୍ଲୁକ[span_79](start_span)[span_79](end_span)</td></tr>
+          <tr><td>୧୧</td><td><strong>ପଞ୍ଚମାଢ଼ି (Pachmarhi)</strong></td><td>ମଧ୍ୟପ୍ରଦେଶ</td><td>ବୃହତ୍ ଗୁଣ୍ଡୁଚିମୂଷା, ଉଡ଼ନ୍ତା ଗୁଣ୍ଡୁଚି[span_80](start_span)[span_80](end_span)</td></tr>
+          <tr><td>୧୨</td><td><strong>କାଞ୍ଚନଜଙ୍ଘା (Khangchendzonga)</strong></td><td>ସିକିମ</td><td>ଲାଲ୍ ପାଣ୍ଡା, ହିମ ଚିତାବାଘ[span_81](start_span)[span_81](end_span)</td></tr>
+          <tr><td>୧୩</td><td><strong>ଅଗସ୍ତ୍ୟମଲାଇ</strong></td><td>କେରଳ, ତାମିଲନାଡୁ</td><td>ନୀଳଗିରି ତାହେର, ହାତୀ[span_82](start_span)[span_82](end_span)</td></tr>
+          <tr><td>୧୪</td><td><strong>ଅଚନକମାର-ଅମରକଣ୍ଟକ</strong></td><td>ମଧ୍ୟପ୍ରଦେଶ, ଛତିଶଗଡ଼</td><td>ବ୍ଲାକ୍ ବକ୍, ଚିଙ୍କାରା, ଗଧିଆ[span_83](start_span)[span_83](end_span)</td></tr>
+          <tr><td>୧୫</td><td><strong>କଚ୍ଛ (Kachchh)</strong></td><td>ଗୁଜରାଟ</td><td>ଭାରତୀୟ ବନ୍ୟ ଗଧ[span_84](start_span)[span_84](end_span)</td></tr>
+          <tr><td>୧୬</td><td><strong>ଶୀତଳ ମରୁଭୂମି (Cold Desert)</strong></td><td>ହିମାଚଳ ପ୍ରଦେଶ ଓ ଲାଦାଖ</td><td>ହିମ ଚିତାବାଘ[span_85](start_span)[span_85](end_span)</td></tr>
+          <tr><td>୧୭</td><td><strong>ଶେଷାଚଳମ୍ (Seshachalam)</strong></td><td>ଆନ୍ଧ୍ରପ୍ରଦେଶ</td><td>ସ୍ଲେଣ୍ଡର ଲୋରିସ୍, ପାଙ୍ଗୋଲିନ୍ (ବଜ୍ରକାପ୍ତା)[span_86](start_span)[span_86](end_span)</td></tr>
+          <tr><td>୧୮</td><td><strong>ପାନ୍ନା (Panna)</strong></td><td>ମଧ୍ୟପ୍ରଦେଶ</td><td>ବାଘ, ଚିତ୍ତଲ, ଚିଙ୍କାରା, ସମ୍ବର, ସ୍ଲଥ୍ ଭାଲୁ[span_87](start_span)[span_87](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 7. National Parks & Sanctuaries -->
+  <section id="parks-sanctuaries">
+    <h2 class="sec-title">🏞️ ୭. ଜାତୀୟ ଉଦ୍ୟାନ ଓ ବନ୍ୟପ୍ରାଣୀ ଅଭୟାରଣ୍ୟ</h2>
+
+    <div class="compare">
+      <div class="card gold">
+        <h4>ଜାତୀୟ ଉଦ୍ୟାନ (National Park)</h4>
+        <p>ସରକାରଙ୍କ ଦ୍ୱାରା ସମ୍ପୂର୍ଣ୍ଣ ନିୟନ୍ତ୍ରିତ ସଂରକ୍ଷିତ ଅଞ୍ଚଳ[span_88](start_span)[span_88](end_span)। ଏଠାରେ ପଶୁଚାରଣ, କାଠ ସଂଗ୍ରହ ଓ ବ୍ୟକ୍ତିଗତ ଭୂ-ବ୍ୟବହାର <strong>ସମ୍ପୂର୍ଣ୍ଣ ନିଷିଦ୍ଧ</strong>[span_89](start_span)[span_89](end_span)।</p>
+        <small class="badge-tag gold">ସଂଖ୍ୟା</small> ଭାରତରେ ୧୦୩ଟି ଜାତୀୟ ଉଦ୍ୟାନ ରହିଛି (୨୦୧୯ ତଥ୍ୟ)[span_90](start_span)[span_90](end_span)।
+      </div>
+      <div class="card teal">
+        <h4>ବନ୍ୟପ୍ରାଣୀ ଅଭୟାରଣ୍ୟ (Sanctuary)</h4>
+        <p>ବନ୍ୟପ୍ରାଣୀଙ୍କ ନିରାପଦ ବଂଶବୃଦ୍ଧି ପାଇଁ ଉଦ୍ଦିଷ୍ଟ[span_91](start_span)[span_91](end_span)। ଏଠାରେ ନିୟନ୍ତ୍ରିତ ଭାବେ ସର୍ତ୍ତମୂଳକ ଭାବେ ଚାରଣ ଓ ସାଧାରଣ ଅନୁମତି ମିଳିଥାଏ[span_92](start_span)[span_92](end_span)।</p>
+        <small class="badge-tag teal">ସଂଖ୍ୟା</small> ଭାରତରେ ୫୩୫ଟି ଅଭୟାରଣ୍ୟ ରହିଛି (୨୦୧୯ ତଥ୍ୟ)[span_93](start_span)[span_93](end_span)।
+      </div>
+    </div>
+
+    <h3 class="sub-title">ଭାରତର କେତେକ ବିଖ୍ୟାତ ଜାତୀୟ ଉଦ୍ୟାନ ଓ ଅଭୟାରଣ୍ୟ (ସାରଣୀ ୦୪):</h3>
+    <div class="compare">
+      <div class="card green">
+        <h4>ପ୍ରମୁଖ ଅଞ୍ଚଳ - ଭାଗ ୧</h4>
+        <ul>
+          <li><strong>ଜିମ୍ କର୍ବେଟ୍:</strong> ଉତ୍ତରାଖଣ୍ଡ (ଭାରତର ପ୍ରଥମ ଜାତୀୟ ଉଦ୍ୟାନ)[span_94](start_span)[span_94](end_span)</li>
+          <li><strong>କାଜିରଙ୍ଗା:</strong> ଆସାମ (ଏକଶୃଙ୍ଗୀ ଗଣ୍ଡା ପାଇଁ ପ୍ରସିଦ୍ଧ)[span_95](start_span)[span_95](end_span)</li>
+          <li><strong>କାହ୍ନା ଓ ବାନ୍ଧବଗଡ଼:</strong> ମଧ୍ୟପ୍ରଦେଶ[span_96](start_span)[span_96](end_span)</li>
+          <li><strong>ଗୀର ଜାତୀୟ ଉଦ୍ୟାନ:</strong> ଗୁଜରାଟ (ଏସୀୟ ସିଂହ)[span_97](start_span)[span_97](end_span)</li>
+          <li><strong>କେଓଲାଦେଓ ଘାନା / ସାରିସ୍କା:</strong> ରାଜସ୍ଥାନ[span_98](start_span)[span_98](end_span)</li>
+          <li><strong>ପୁଷ୍ପ ଉପତ୍ୟକା (Valley of Flowers):</strong> ଉତ୍ତରାଖଣ୍ଡ[span_99](start_span)[span_99](end_span)</li>
+        </ul>
+      </div>
+      <div class="card blue">
+        <h4>ପ୍ରମୁଖ ଅଞ୍ଚଳ - ଭାଗ ୨</h4>
+        <ul>
+          <li><strong>ପେରିୟାର ଓ ସାଇଲେଣ୍ଟ ଭ୍ୟାଲି:</strong> କେରଳ[span_100](start_span)[span_100](end_span)</li>
+          <li><strong>ମହାତ୍ମା ଗାନ୍ଧୀ ସାମୁଦ୍ରିକ ପାର୍କ:</strong> ଆଣ୍ଡାମାନ ଓ ନିକୋବର[span_101](start_span)[span_101](end_span)</li>
+          <li><strong>ସ୍ୟାଡଲ ଶୃଙ୍ଗ (Saddle Peak):</strong> ଉତ୍ତର ଆଣ୍ଡାମାନ[span_102](start_span)[span_102](end_span)</li>
+          <li><strong>ନାମଦାଫା:</strong> ଅରୁଣାଚଳ ପ୍ରଦେଶ[span_103](start_span)[span_103](end_span)</li>
+          <li><strong>କାଙ୍ଗେର ଉପତ୍ୟକା:</strong> ଛତିଶଗଡ଼[span_104](start_span)[span_104](end_span)</li>
+          <li><strong>ଜଲଦାପାରା:</strong> ପଶ୍ଚିମବଙ୍ଗ[span_105](start_span)[span_105](end_span)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Conservation Measures & Special Projects -->
+  <section id="conservation">
+    <h2 class="sec-title">🛡️ ୮. ବନ୍ୟପ୍ରାଣୀ ସଂରକ୍ଷଣ ଯୋଜନା ଓ ଆଇନ</h2>
+
+    <div class="compare">
+      <div class="card coral">
+        <h4>ବ୍ୟାଘ୍ର ପ୍ରକଳ୍ପ ଯୋଜନା (Project Tiger)</h4>
+        <p>ଦେଶର ୧୪ଟି ରାଜ୍ୟରେ <strong>୨୭ଟି ପ୍ରମୁଖ ବ୍ୟାଘ୍ର ପ୍ରକଳ୍ପ</strong> କାର୍ଯ୍ୟକାରୀ[span_106](start_span)[span_106](end_span):</p>
+        <ul>
+          <li><strong>ଓଡ଼ିଶା:</strong> ଶିମିଳିପାଳ[span_107](start_span)[span_107](end_span)</li>
+          <li><strong>ପଶ୍ଚିମବଙ୍ଗ:</strong> ସୁନ୍ଦରବନ[span_108](start_span)[span_108](end_span)</li>
+          <li><strong>ଉତ୍ତରାଖଣ୍ଡ:</strong> ଜିମ୍ କର୍ବେଟ୍[span_109](start_span)[span_109](end_span)</li>
+          <li><strong>ରାଜସ୍ଥାନ:</strong> ରନ୍ଥାମ୍ବୋର[span_110](start_span)[span_110](end_span)</li>
+          <li><strong>କର୍ଣ୍ଣାଟକ:</strong> ବାନ୍ଦୀପୁର | <strong>ଆସାମ:</strong> ମାନସ[span_111](start_span)[span_111](end_span)</li>
+          <li><strong>ମଧ୍ୟପ୍ରଦେଶ:</strong> କାହ୍ନା | <strong>ୟୁପି:</strong> ଦୁଧୱା[span_112](start_span)[span_112](end_span)</li>
+        </ul>
+      </div>
+      <div class="card teal">
+        <h4>ଅନ୍ୟାନ୍ୟ ସ୍ୱତନ୍ତ୍ର ସଂରକ୍ଷଣ ପ୍ରକଳ୍ପ</h4>
+        <ul>
+          <li><strong>ଲାଲ୍ ପାଣ୍ଡା ପ୍ରକଳ୍ପ:</strong> ୧୯୯୬ ରେ ଦାର୍ଜିଲିଂସ୍ଥିତ ପଦ୍ମଜା ନାଇଡୁ ହିମାଳୟାନ୍ ପ୍ରାଣୀ ଉଦ୍ୟାନରେ ସ୍ଥାପିତ[span_113](start_span)[span_113](end_span)।</li>
+          <li><strong>ହାତୀ ସଂରକ୍ଷଣ:</strong> ଓଡ଼ିଶାର ଚନ୍ଦକା ଅଭୟାରଣ୍ୟ[span_114](start_span)[span_114](end_span)।</li>
+          <li><strong>କୁମ୍ଭୀର ପ୍ରକଳ୍ପ:</strong> ଓଡ଼ିଶାର ଟିକରପଡ଼ା (ମହାନଦୀ) ଓ ଭିତରକନିକା[span_115](start_span)[span_115](end_span)।</li>
+          <li><strong>ପକ୍ଷୀ ବିହାର:</strong> ଚିଲିକା (ଓଡ଼ିଶା), ଭରତପୁର (ରାଜସ୍ଥାନ), ବେଦାନ୍ତାଙ୍ଗଲ (ତାମିଲନାଡୁ)[span_116](start_span)[span_116](end_span)।</li>
+          <li><strong>ଆଇନଗତ ବ୍ୟବସ୍ଥା:</strong> ୨୦୦୨ ମସିହାରେ <strong>ଜୈବ ବିବିଧତା ଆଇନ (Biological Diversity Act)</strong> ପ୍ରଣୟନ[span_117](start_span)[span_117](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout activity-box">
+      <strong>ସଂରକ୍ଷଣ ପାଇଁ ତ୍ରିବିଧ ସୂତ୍ର:</strong>
+      <ol>
+        <li>ଜୀବଜନ୍ତୁଙ୍କ ବ୍ୟବସାୟିକ ଶିକାର ଓ ଅଙ୍ଗପ୍ରତ୍ୟଙ୍ଗ ଚୋରାଚାଲାଣ ସମ୍ପୂର୍ଣ୍ଣ ବନ୍ଦ କରିବା[span_118](start_span)[span_118](end_span)।</li>
+        <li>କୃତ୍ରିମ ପ୍ରଜନନ (Captive Breeding) ମାଧ୍ୟମରେ ସଙ୍କଟାପନ୍ନ ଜୀବଙ୍କ ସଂଖ୍ୟା ବୃଦ୍ଧି କରିବା[span_119](start_span)[span_119](end_span)।</li>
+        <li>ଅସୁସ୍ଥ ଓ ଆହତ ବନ୍ୟଜନ୍ତୁଙ୍କ ଚିକିତ୍ସା ପାଇଁ ଅଭୟାରଣ୍ୟ ନିକଟରେ ପ୍ରାଣୀ ଚିକିତ୍ସାଳୟ ସ୍ଥାପନ କରିବା[span_120](start_span)[span_120](end_span)।</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 9. Exercises -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ୯. ଅଧ୍ୟାୟ ପ୍ରଶ୍ନୋତ୍ତର (Self-Assessment)</h2>
+
+    <h3 class="sub-title">୧. ସଂକ୍ଷିପ୍ତ ଉତ୍ତର ଦିଅ:</h3>
+    <div class="compare">
+      <div class="card">
+        <p><strong>(କ) ଜୈବ ବିବିଧତା କ’ଣ ?</strong>[span_121](start_span)[span_121](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଭୂପୃଷ୍ଠର କୌଣସି ଅଞ୍ଚଳରେ ଥିବା ପ୍ରାକୃତିକ ଉଦ୍ଭିଦ, ପ୍ରାଣୀ, ଅଣୁଜୀବ ଓ ସେମାନଙ୍କ ପରିସଂସ୍ଥାର ସାମଗ୍ରିକ ସମଷ୍ଟିକୁ ଜୈବ ବିବିଧତା କୁହାଯାଏ[span_122](start_span)[span_122](end_span) ।</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଖ) ଲାଲ୍ ତଥ୍ୟ ପୁସ୍ତକ (Red Data Book) କ’ଣ ?</strong>[span_123](start_span)[span_123](end_span)</p>
+        <p style="color: var(--gold); font-weight: 600;">👉 IUCN ସଂସ୍ଥା ଦ୍ୱାରା ପ୍ରକାଶିତ ଯେଉଁ ପୁସ୍ତକରେ ପୃଥିବୀର ବିଲୁପ୍ତପ୍ରାୟ ଓ ସଙ୍କଟାପନ୍ନ ଉଦ୍ଭିଦ ଏବଂ ପ୍ରାଣୀମାନଙ୍କର ତାଲିକା ଲିପିବଦ୍ଧ ଥାଏ, ତାକୁ ଲାଲ୍ ତଥ୍ୟ ପୁସ୍ତକ କୁହାଯାଏ[span_124](start_span)[span_124](end_span) ।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">୨. ପାର୍ଥକ୍ୟ ଦର୍ଶାଅ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଅପଘଟକ (Decomposers)</h4>
+        <p>ଯେଉଁ ଅଣୁଜୀବ (ବ୍ୟାକ୍ଟେରିଆ, କବକ) ମୃତ ଉଦ୍ଭିଦ ଓ ପ୍ରାଣୀ ଶରୀରକୁ ଅପଘଟନ କରି ସେଥିରୁ ପୋଷକ ଗ୍ରହଣ କରନ୍ତି ଓ ପରିବେଶ ସଫା ରଖନ୍ତି[span_125](start_span)[span_125](end_span) ।</p>
+      </div>
+      <div class="card coral">
+        <h4>ପରିପୋଷୀ / ଭକ୍ଷକ (Consumers)</h4>
+        <p>ଯେଉଁ ଜୀବମାନେ ନିଜ ଖାଦ୍ୟ ନିଜେ ପ୍ରସ୍ତୁତ ନକରି ଖାଦ୍ୟ ପାଇଁ ଅନ୍ୟ ଉଦ୍ଭିଦ ବା ପ୍ରାଣୀଙ୍କ ଉପରେ ନିର୍ଭର କରନ୍ତି[span_126](start_span)[span_126](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ • ଦ୍ୱିତୀୟ ଅଧ୍ୟାୟ: ବନ୍ୟପ୍ରାଣୀ ସମ୍ବଳ | Digital Learning Note System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
