@@ -1,1 +1,781 @@
 
+<!DOCTYPE html>
+<html lang="or">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ - ପଞ୍ଚମ ଅଧ୍ୟାୟ: ଶକ୍ତି ସମ୍ବଳ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Sans Oriya', 'Outfit', sans-serif;
+      line-height: 1.75;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1060px;
+      margin: 0 auto;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.25;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #38bdf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 720px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.15rem;
+      color: #e2e8f0;
+      margin: 22px 0 12px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 0.98rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.05rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 16px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#38bdf8" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#10b981" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#38bdf8"/>
+      <circle cx="45" cy="130" r="7" fill="#10b981"/>
+    </svg>
+    <div class="badge">⚡ ଦଶମ ଶ୍ରେଣୀ • ଭୂଗୋଳ • ପଞ୍ଚମ ଅଧ୍ୟାୟ</div>
+    <h1>ଶକ୍ତି ସମ୍ବଳ (Energy Resources)</h1>
+    <p>ପାରମ୍ପରିକ ଶକ୍ତି (କୋଇଲା, ପେଟ୍ରୋଲିୟମ, ପ୍ରାକୃତିକ ଗ୍ୟାସ, ବିଦ୍ୟୁତ୍) ଓ ଅଣପାରମ୍ପରିକ ଶକ୍ତି (ଆଣବିକ, ସୌର, ପବନ, ଜୈବବାଷ୍ପ, ଜୁଆର, ଭୂ-ତାପଜ) ର ବିସ୍ତୃତ ସାରାଂଶ।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#intro">ଶକ୍ତି ସମ୍ବଳର ପ୍ରକାରଭେଦ</a>
+    <a href="#coal">କୋଇଲା (କୃଷ୍ଣହୀରକ)</a>
+    <a href="#petroleum">ପେଟ୍ରୋଲିୟମ ଓ ବିଶୋଧନାଗାର</a>
+    <a href="#gas-electricity">ପ୍ରାକୃତିକ ଗ୍ୟାସ ଓ ବିଦ୍ୟୁତ୍ ଶକ୍ତି</a>
+    <a href="#nuclear">ଆଣବିକ ଶକ୍ତି (Nuclear)</a>
+    <a href="#renewable">ସୌର, ପବନ ଓ ଜୈବବାଷ୍ପ</a>
+    <a href="#tidal-geothermal">ଜୁଆର ଓ ଭୂ-ତାପୀୟ ଶକ୍ତି</a>
+    <a href="#conservation">ଶକ୍ତି ସଂରକ୍ଷଣ</a>
+    <a href="#exercises">ପ୍ରଶ୍ନୋତ୍ତର</a>
+  </nav>
+
+  <!-- 1. Introduction & Classification -->
+  <section id="intro">
+    <h2 class="sec-title">⚡ ୧. ଶକ୍ତି ସମ୍ବଳର ପ୍ରକାରଭେଦ</h2>
+    <p>
+      ଆର୍ଥିକ ବିକାଶ ଓ ଉନ୍ନତ ଜୀବନଯାପନ ପାଇଁ ଶକ୍ତି ଏକ ମୌଳିକ ଆବଶ୍ୟକତା[span_0](start_span)[span_0](end_span)। ରନ୍ଧନ କାର୍ଯ୍ୟ, ଆଲୋକ ପ୍ରଦାନ, ଯାନବାହାନ ଓ କଳକାରଖାନା ଚଳାଇବା ପାଇଁ ଶକ୍ତି ବ୍ୟବହୃତ ହୁଏ[span_1](start_span)[span_1](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card coral">
+        <h4>୧. ପାରମ୍ପରିକ ଶକ୍ତି ସମ୍ବଳ (Conventional)</h4>
+        <p>ଯାହା ପ୍ରାଚୀନ କାଳରୁ ବହୁଳ ଭାବରେ ବ୍ୟବହୃତ ହୋଇଆସୁଛି ଏବଂ ଏଗୁଡ଼ିକ କ୍ଷୟଶୀଳ[span_2](start_span)[span_2](end_span) ।</p>
+        <ul>
+          <li>ଜାଳେଣି କାଠ ଓ ଗୋବର ଘସି[span_3](start_span)[span_3](end_span)</li>
+          <li>କୋଇଲା, ପେଟ୍ରୋଲିୟମ ଓ ପ୍ରାକୃତିକ ଗ୍ୟାସ[span_4](start_span)[span_4](end_span)</li>
+          <li>ବିଦ୍ୟୁତ୍ ଶକ୍ତି (ତାପଜ ଓ ଜଳବିଦ୍ୟୁତ୍)[span_5](start_span)[span_5](end_span)</li>
+        </ul>
+      </div>
+      <div class="card green">
+        <h4>୨. ଅଣପାରମ୍ପରିକ ଶକ୍ତି ସମ୍ବଳ (Non-Conventional)</h4>
+        <p>ଯାହା ସାମ୍ପ୍ରତିକ କାଳରେ ବୈଜ୍ଞାନିକ ପ୍ରଯୁକ୍ତି ଦ୍ୱାରା ଉଦ୍ଭାବିତ ହୋଇଛି ଏବଂ ଏଗୁଡ଼ିକ ଅକ୍ଷୟ ଓ ନବୀକରଣ ଯୋଗ୍ୟ[span_6](start_span)[span_6](end_span) ।</p>
+        <ul>
+          <li>ସୌରଶକ୍ତି ଓ ପବନ ଶକ୍ତି[span_7](start_span)[span_7](end_span)</li>
+          <li>ଜୈବବାଷ୍ପ (Biogas)[span_8](start_span)[span_8](end_span)</li>
+          <li>ଜୁଆର ଶକ୍ତି ଓ ଭୂ-ତାପଜ ଶକ୍ତି[span_9](start_span)[span_9](end_span)</li>
+          <li>ପରମାଣୁ / ଆଣବିକ ଶକ୍ତି[span_10](start_span)[span_10](end_span)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout mistake-box">
+      <strong>ଗ୍ରାମାଞ୍ଚଳର ଚାହିଦା ଓ ସତର୍କତା:</strong> ଗ୍ରାମାଞ୍ଚଳ ଶକ୍ତି ଚାହିଦାର ପ୍ରାୟ <strong>୭୦% ଭାଗ</strong> କେବଳ ଜାଳେଣି କାଠ ଓ ଗୋବର ଘସି ଦ୍ୱାରା ପୂରଣ ହୁଏ[span_11](start_span)[span_11](end_span)। ମାତ୍ର ଜଙ୍ଗଲ କ୍ଷୟ ରୋକିବା ପାଇଁ କାଠ କାଟିବା ଅନୁଚିତ୍ ଏବଂ ଗୋବରକୁ ନ ପୋଡ଼ି ଉତ୍କୃଷ୍ଟ ଜୈବିକ ସାର ତଥା ଗୋବର ଗ୍ୟାସରେ ବ୍ୟବହାର କରିବା ଉଚିତ[span_12](start_span)[span_12](end_span)।
+    </div>
+  </section>
+
+  <!-- 2. Coal -->
+  <section id="coal">
+    <h2 class="sec-title">⛏️ ୨. କୋଇଲା (Coal - କୃଷ୍ଣହୀରକ)</h2>
+    <p>
+      ଭାରତରେ ମିଳୁଥିବା ଜୀବାଶ୍ମ ଇନ୍ଧନ ମଧ୍ୟରେ କୋଇଲା ସର୍ବାଧିକ ପରିମାଣରେ ମିଳେ ଏବଂ ବାଣିଜ୍ୟିକ ଶକ୍ତି ଚାହିଦାର ମୁଖ୍ୟ ଅଂଶ ପୂରଣ କରେ[span_13](start_span)[span_13](end_span)।
+    </p>
+
+    <div class="flow">
+      <div class="flow-node">ପ୍ରାଚୀନ ଉଦ୍ଭିଦ (ନିୟୁତ ନିୟୁତ ବର୍ଷ)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ଭୂଗର୍ଭରେ ଚାପି ହୋଇ ସଙ୍କୁଚିତ</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ବାୟୁହୀନ ରାସାୟନିକ ବିଘଟନ</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">କୋଇଲା (ଜୀବାଶ୍ମ ଇନ୍ଧନ)</div>
+    </div>
+
+    <h3 class="sub-title">କୋଇଲାର ୪ ଗୋଟି ଶ୍ରେଣୀବିଭାଗ (ଅଙ୍ଗାରକ ପରିମାଣ ଅନୁସାରେ):</h3>
+    <div class="compare">
+      <div class="card coral">
+        <h4>୧. ପିଟ୍ (Peat)</h4>
+        <p>ଜଳାକୀର୍ଣ୍ଣ ଭୂମିର ଉଦ୍ଭିଦରୁ ସୃଷ୍ଟି[span_14](start_span)[span_14](end_span)। ଅଙ୍ଗାରକ (Carbon) < ୫୦%, ଜଳୀୟ ଅଂଶ ଅଧିକ, ପ୍ରବଳ ଧୂଆଁ ବାହାରେ ଓ ତାପ ଶକ୍ତି କମ୍[span_15](start_span)[span_15](end_span) ।</p>
+      </div>
+      <div class="card gold">
+        <h4>୨. ଲିଗ୍‌ନାଇଟ୍ (Lignite)</h4>
+        <p>ନିମ୍ନ ମାନର ବାଦାମୀ କୋଇଲା[span_16](start_span)[span_16](end_span)। କୋମଳ, ଅଙ୍ଗାରକ ପ୍ରାୟ ୬୦%[span_17](start_span)[span_17](end_span)। ତାମିଲନାଡୁର <strong>ନେଭେଲି</strong> ଠାରେ ମିଳେ (ତାପଜ ବିଦ୍ୟୁତ ପାଇଁ ବ୍ୟବହୃତ)[span_18](start_span)[span_18](end_span) ।</p>
+      </div>
+      <div class="card teal">
+        <h4>୩. ବିଟୁମିନସ୍ (Bituminous)</h4>
+        <p>ଗଭୀର ଭୂଗର୍ଭରେ ଅଧିକ ତାପ-ଚାପରେ ସୃଷ୍ଟି[span_19](start_span)[span_19](end_span)। ଅଙ୍ଗାରକ ୬୦-୮୦%[span_20](start_span)[span_20](end_span)। ଲୌହ-ଇସ୍ପାତ ବ୍ଲାଷ୍ଟ ଫର୍ଣ୍ଣେସ୍ ଓ ଘରୋଇ ଇନ୍ଧନରେ ସର୍ବାଧିକ ବ୍ୟବହୃତ[span_21](start_span)[span_21](end_span) ।</p>
+      </div>
+      <div class="card blue">
+        <h4>୪. ଆନ୍ଥ୍ରାସାଇଟ୍ (Anthracite)</h4>
+        <p>ସର୍ବୋତ୍କୃଷ୍ଟ, କଠିନ, ଚିକ୍କଣ ଓ ଗାଢ଼ ରଙ୍ଗର କୋଇଲା[span_22](start_span)[span_22](end_span)। ଅଙ୍ଗାରକ <strong>୯୦-୯୫%</strong>, ସର୍ବାଧିକ ତାପ ପ୍ରଦାନ କରେ[span_23](start_span)[span_23](end_span) ।</p>
+      </div>
+    </div>
+
+    <div class="callout def-box">
+      <strong>କୃଷ୍ଣହୀରକ (Black Diamond):</strong><br>
+      କୋଇଲାରୁ ଆଲକାତରା, ସଲଫର, ବେଞ୍ଜିନ୍, ଆମୋନିଆ ବାଷ୍ପ ଓ ନାଫଥା ଭଳି ଅନେକ ମୂଲ୍ୟବାନ ଉପ-ଉତ୍ପାଦ (By-products) ଏବଂ ରାସାୟନିକ କଞ୍ଚାମାଲ ମିଳୁଥିବାରୁ ଏହାକୁ <strong>"କୃଷ୍ଣହୀରକ"</strong> କୁହାଯାଏ[span_24](start_span)[span_24](end_span)।
+    </div>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଗଣ୍ଡୱାନା ଯୁଗର କୋଇଲା</h4>
+        <p><strong>୨୦୦ ନିୟୁତ ବର୍ଷରୁ ପୁରୁଣା</strong>[span_25](start_span)[span_25](end_span)। ଧାତୁ ନିଷ୍କାସନରେ ବ୍ୟବହୃତ[span_26](start_span)[span_26](end_span)। ଦାମୋଦର, ମହାନଦୀ, ଗୋଦାବରୀ, ସୋନ ଓ ୱାର୍ଦ୍ଧା ଉପତ୍ୟକାରେ ମିଳେ[span_27](start_span)[span_27](end_span) ।</p>
+      </div>
+      <div class="card gold">
+        <h4>ଟର୍ସିୟାରୀ ଯୁଗର କୋଇଲା</h4>
+        <p><strong>୫୦ ନିୟୁତ ବର୍ଷ ପୁରୁଣା</strong>[span_28](start_span)[span_28](end_span)। ଉତ୍ତର-ପୂର୍ବ ଭାରତର ଆସାମ, ମେଘାଳୟ, ଅରୁଣାଚଳ ପ୍ରଦେଶ ଓ ନାଗାଲାଣ୍ଡରେ ମିଳେ[span_29](start_span)[span_29](end_span) ।</p>
+      </div>
+    </div>
+
+    <div class="callout example-box">
+      <strong>ପ୍ରମୁଖ କୋଇଲା ଖଣି:</strong>
+      <ul>
+        <li><strong>ଝାଡ଼ଖଣ୍ଡ:</strong> ଝରିଆ, ବୋକାରୋ, ଗିରିଡ଼ିହ[span_30](start_span)[span_30](end_span)</li>
+        <li><strong>ପଶ୍ଚିମବଙ୍ଗ:</strong> ରାଣୀଗଞ୍ଜ[span_31](start_span)[span_31](end_span)</li>
+        <li><strong>ଛତିଶଗଡ଼:</strong> କୋର୍ବା[span_32](start_span)[span_32](end_span)</li>
+        <li><strong>ଓଡ଼ିଶା:</strong> ତାଳଚେର, ରାମପୁର, ଇବ୍ ଉପତ୍ୟକା[span_33](start_span)[span_33](end_span)</li>
+        <li><strong>ମଧ୍ୟପ୍ରଦେଶ:</strong> ସିଙ୍ଗ୍ରୌଲି[span_34](start_span)[span_34](end_span)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 3. Petroleum -->
+  <section id="petroleum">
+    <h2 class="sec-title">🛢️ ୩. ପେଟ୍ରୋଲିୟମ (Petroleum / ଖଣିଜ ତୈଳ)</h2>
+    <p>
+      ପେଟ୍ରା (Petra = ଶିଳା) ଓ ଓଲିଅମ (Oleum = ତୈଳ) ରୁ ପେଟ୍ରୋଲିୟମ ଶବ୍ଦର ଉତ୍ପତ୍ତି[span_35](start_span)[span_35](end_span)। ଏହା ଉଭୟ ତାପ, ଆଲୋକ ଓ ଘର୍ଷଣହ୍ରାସକ (Lubricant) ଭାବେ ବ୍ୟବହୃତ ହୁଏ[span_36](start_span)[span_36](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card blue">
+        <h4>ଭାରତର ତୈଳ ଉତ୍ପାଦନ ବିତରଣ</h4>
+        <ul>
+          <li><strong>ବମ୍ବେ ହାଇ (Mumbai High):</strong> ଦେଶର <strong>୪୪%</strong> ତୈଳ ଉତ୍ପାଦନ କରେ[span_37](start_span)[span_37](end_span)</li>
+          <li><strong>ଗୁଜରାଟ:</strong> ୧୮% (ଆଙ୍କଲେଶ୍ୱର, କାଲୋଲ, ମେହେସାନା, ଆଲିଆବେଟ୍)[span_38](start_span)[span_38](end_span)</li>
+          <li><strong>ଆସାମ (ସର୍ବପୁରାତନ):</strong> ୧୬% (ଦିଗ୍‌ବୋଇ, ନହରକାଟିଆ, ମୋରାନ, ହୁଗ୍ରିଜାନ)[span_39](start_span)[span_39](end_span)</li>
+          <li><strong>ପୂର୍ବ ଉପକୂଳ:</strong> କୃଷ୍ଣା-ଗୋଦାବରୀ ମୁହାଣର ରାୱା (Rawa) କ୍ଷେତ୍ର[span_40](start_span)[span_40](end_span)</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <h4>ଭୌଗୋଳିକ ସ୍ଥିତି ଓ ବିଶୋଧନାଗାର</h4>
+        <p>ଟର୍ସିଆରୀ ଯୁଗର ଭଙ୍ଗ ପର୍ବତର ଗମ୍ବୁଜ ମଧ୍ୟରେ ଛିଦ୍ରଯୁକ୍ତ ଚୂନପଥର ଓ ବାଲୁକାପଥର ସ୍ତର ମଧ୍ୟରେ ତୈଳ ସଞ୍ଚିତ ଥାଏ[span_41](start_span)[span_41](end_span)।</p>
+        <p>ଭାରତ ଆମେରିକା ଓ ଚୀନ୍ ପରେ <strong>ବିଶ୍ୱର ତୃତୀୟ ବୃହତ୍ ତୈଳ ଆମଦାନୀକାରୀ ଦେଶ</strong>[span_42](start_span)[span_42](end_span)।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">ଭାରତର ପ୍ରମୁଖ ତୈଳ ବିଶୋଧନାଗାର (Oil Refineries - ସାରଣୀ ୧୪):</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ରାଜ୍ୟ</th>
+            <th>ତୈଳ ବିଶୋଧନାଗାରର ନାମ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>ଆସାମ</strong></td><td>ଦିଗ୍‌ବୋଇ (ସର୍ବପୁରାତନ), ନୂନାମାଟି, ବୋଙ୍ଗାଇଗାଁ, ନୁମାଲିଗଡ଼[span_43](start_span)[span_43](end_span)</td></tr>
+          <tr><td><strong>ମହାରାଷ୍ଟ୍ର</strong></td><td>ଟ୍ରମ୍ବେ[span_44](start_span)[span_44](end_span)</td></tr>
+          <tr><td><strong>ଗୁଜରାଟ</strong></td><td>କୋୟାଲି, ଜାମନଗର[span_45](start_span)[span_45](end_span)</td></tr>
+          <tr><td><strong>ଓଡ଼ିଶା</strong></td><td>ପାରାଦୀପ[span_46](start_span)[span_46](end_span)</td></tr>
+          <tr><td><strong>ବିହାର / ପଶ୍ଚିମବଙ୍ଗ</strong></td><td>ବରାଉଣୀ (ବିହାର), ହଳଦିଆ (ପଶ୍ଚିମବଙ୍ଗ)[span_47](start_span)[span_47](end_span)</td></tr>
+          <tr><td><strong>ଉତ୍ତରପ୍ରଦେଶ / ହରିୟାଣା</strong></td><td>ମଥୁରା (ୟୁପି), କର୍ଣ୍ଣାଲ (ହରିୟାଣା)[span_48](start_span)[span_48](end_span)</td></tr>
+          <tr><td><strong>ଦକ୍ଷିଣ ଭାରତ</strong></td><td>ବିଶାଖାପାଟଣା (ଆନ୍ଧ୍ର), କୋଚି (କେରଳ), ଚେନ୍ନାଇ, ପାନାଗୁଣ୍ଡି (ତାମିଲନାଡୁ), ମାଙ୍ଗାଲୋର (କର୍ଣ୍ଣାଟକ)[span_49](start_span)[span_49](end_span)</td></tr>
+          <tr><td><strong>ରାଜସ୍ଥାନ / ମଧ୍ୟପ୍ରଦେଶ</strong></td><td>ପଚପାଦ୍ରା (ରାଜସ୍ଥାନ), ବୀଣା (ମଧ୍ୟପ୍ରଦେଶ)[span_50](start_span)[span_50](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 4. Natural Gas & Electricity -->
+  <section id="gas-electricity">
+    <h2 class="sec-title">🔥 ୪. ପ୍ରାକୃତିକ ଗ୍ୟାସ ଓ ବିଦ୍ୟୁତ୍ ଶକ୍ତି</h2>
+
+    <div class="callout def-box">
+      <strong>ପ୍ରାକୃତିକ ଗ୍ୟାସ (ଚଳିତ ଶତାବ୍ଦୀର ଇନ୍ଧନ):</strong><br>
+      ଏଥିରୁ ଅତି କମ୍ କାର୍ବନ ଡାଇଅକ୍ସାଇଡ୍ ନିର୍ଗତ ହେଉଥିବାରୁ ଏହା ପରିବେଶ ପ୍ରଦୂଷଣ କରେ ନାହିଁ[span_51](start_span)[span_51](end_span)। ପରିବହନରେ ଏହାକୁ <strong>CNG (Compressed Natural Gas)</strong> ଭାବେ ବ୍ୟବହାର କରାଯାଉଛି[span_52](start_span)[span_52](end_span)।
+    </div>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>HVJ ପାଇପ୍ ଲାଇନ୍</h4>
+        <p><strong>୩,୪୭୪ କି.ମି.</strong> ଦୀର୍ଘ ହାଜିରା-ବିଜୟପୁର-ଜଗଦୀଶପୁର (HVJ) ପାଇପ୍ ଲାଇନ୍ ବମ୍ବେ ହାଇ ଓ ବାସେଇନ୍ ତୈଳକ୍ଷେତ୍ରକୁ ଉତ୍ତର ଓ ପଶ୍ଚିମ ଭାରତର ସାର ଓ ଶକ୍ତି କେନ୍ଦ୍ର ସହ ସଂଯୋଗ କରେ[span_53](start_span)[span_53](end_span) ।</p>
+      </div>
+      <div class="card gold">
+        <h4>ବିଦ୍ୟୁତ୍ ଶକ୍ତି ଉତ୍ପାଦନ</h4>
+        <ul>
+          <li><strong>ଜଳବିଦ୍ୟୁତ୍:</strong> ପ୍ରବାହିତ ଜଳର ଗତିଜ ଶକ୍ତି ଦ୍ୱାରା ଟରବାଇନ୍ ଘୂରାଇ (ନବୀକରଣ ଯୋଗ୍ୟ)[span_54](start_span)[span_54](end_span)।</li>
+          <li><strong>ତାପଜ ବିଦ୍ୟୁତ୍:</strong> କୋଇଲା, ପେଟ୍ରୋଲିୟମ ବା ଗ୍ୟାସ ଜାଳି ଟରବାଇନ୍ ଘୂରାଇ (କ୍ଷୟଶୀଳ)[span_55](start_span)[span_55](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout example-box">
+      <strong>ଐତିହାସିକ ଜଳବିଦ୍ୟୁତ୍ କେନ୍ଦ୍ର:</strong>
+      <ul>
+        <li><strong>୧୮୯୮:</strong> ଦାର୍ଜିଲିଂ (ପଶ୍ଚିମବଙ୍ଗ) - ଭାରତର ପ୍ରଥମ ଜଳବିଦ୍ୟୁତ୍ କେନ୍ଦ୍ର[span_56](start_span)[span_56](end_span)</li>
+        <li><strong>୧୮୯୯:</strong> ମେଟୁର (ତାମିଲନାଡୁ)[span_57](start_span)[span_57](end_span)</li>
+        <li><strong>୧୯୦୨:</strong> ଶିବସମୁଦ୍ରମ୍ (କର୍ଣ୍ଣାଟକ)[span_58](start_span)[span_58](end_span)</li>
+        <li><strong>୧୯୦୯:</strong> ମୋହରା (ଝେଲମ୍ ନଦୀ, ପଞ୍ଜାବ/କାଶ୍ମୀର)[span_59](start_span)[span_59](end_span)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 5. Nuclear Energy -->
+  <section id="nuclear">
+    <h2 class="sec-title">⚛️ ୫. ପରମାଣୁ ବା ଆଣବିକ ଶକ୍ତି (Nuclear Energy)</h2>
+    <p>
+      ଅଣୁର ସଂରଚନାରେ ପରିବର୍ତ୍ତନ ଘଟାଇ ପ୍ରଚୁର ତାପଶକ୍ତି ନିର୍ଗତ କରାଯାଏ ଏବଂ ତାହାକୁ ବିନିଯୋଗ କରି ବିଦ୍ୟୁତ୍ ଉତ୍ପାଦନ ହୁଏ[span_60](start_span)[span_60](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ମୁଖ୍ୟ କଞ୍ଚାମାଲ</h4>
+        <ul>
+          <li><strong>ୟୁରାନିୟମ:</strong> ଝାଡ଼ଖଣ୍ଡର ଯାଦୁଗୁଡ଼ା[span_61](start_span)[span_61](end_span)</li>
+          <li><strong>ଥୋରିୟମ:</strong> ରାଜସ୍ଥାନର ଆରାବଳୀ ପର୍ବତ ଏବଂ କେରଳ ଉପକୂଳର <strong>ମୋନାଜାଇଟ୍ ବାଲି (Monazite Sand)</strong>[span_62](start_span)[span_62](end_span)</li>
+        </ul>
+      </div>
+      <div class="card blue">
+        <h4>ଭାରତର କାର୍ଯ୍ୟକ୍ଷମ ଆଣବିକ ଶକ୍ତି କେନ୍ଦ୍ର (୮ଟି):</h4>
+        <ol>
+          <li><strong>ତାରାପୁର:</strong> ମହାରାଷ୍ଟ୍ର (୧୯୬୯)[span_63](start_span)[span_63](end_span)</li>
+          <li><strong>ରାୱତଭଟ୍ଟା:</strong> ରାଜସ୍ଥାନ (୧୯୭୩)[span_64](start_span)[span_64](end_span)</li>
+          <li><strong>କଳ୍ପକମ୍:</strong> ତାମିଲନାଡୁ (୧୯୮୪)[span_65](start_span)[span_65](end_span)</li>
+          <li><strong>ନରୋରା:</strong> ଉତ୍ତରପ୍ରଦେଶ (୧୯୮୯)[span_66](start_span)[span_66](end_span)</li>
+          <li><strong>କାକ୍ରାପରା:</strong> ଗୁଜରାଟ (୧୯୯୩)[span_67](start_span)[span_67](end_span)</li>
+          <li><strong>କାଇଗା:</strong> କର୍ଣ୍ଣାଟକ (୧୯୯୩)[span_68](start_span)[span_68](end_span)</li>
+          <li><strong>କୁଦାଙ୍କୁଲମ୍:</strong> ତାମିଲନାଡୁ (୨୦୦୨)[span_69](start_span)[span_69](end_span)</li>
+          <li><strong>ଜଇତାପୁର:</strong> ମହାରାଷ୍ଟ୍ର (୨୦୧୦)[span_70](start_span)[span_70](end_span)</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Solar, Wind & Biogas -->
+  <section id="renewable">
+    <h2 class="sec-title">☀️ ୬. ସୌର, ପବନ ଓ ଜୈବବାଷ୍ପ ଶକ୍ତି</h2>
+
+    <!-- Solar -->
+    <h3 class="sub-title">(କ) ସୌରତାପ ଶକ୍ତି (Solar Energy)</h3>
+    <p>
+      <strong>ଫଟୋଭୋଲଟାଇକ୍ (Photovoltaic)</strong> ପ୍ରଯୁକ୍ତି ଦ୍ୱାରା ସୂର୍ଯ୍ୟକିରଣରୁ ସିଧାସଳଖ ବିଦ୍ୟୁତ୍ ଶକ୍ତି ମିଳେ[span_71](start_span)[span_71](end_span)।
+    </p>
+    <div class="compare">
+      <div class="card gold">
+        <h4>ପ୍ରମୁଖ ସୌର କେନ୍ଦ୍ର</h4>
+        <ul>
+          <li><strong>ମାଧପୁର (ଗୁଜରାଟ):</strong> ଏଠାରେ ସୌରଶକ୍ତି ଦ୍ୱାରା ଦୁଗ୍ଧ ଡବା ଜୀବାଣୁମୁକ୍ତ (Sterilize) କରାଯାଏ[span_72](start_span)[span_72](end_span)।</li>
+          <li><strong>ଯୋଧପୁର (ରାଜସ୍ଥାନ):</strong> ବୃହତ୍ ସୌରତାପ ଶକ୍ତି କେନ୍ଦ୍ର[span_73](start_span)[span_73](end_span)।</li>
+          <li><strong>ସାଗରଦ୍ୱୀପ (ସୁନ୍ଦରବନ, ପଶ୍ଚିମବଙ୍ଗ):</strong> ମୁଖ୍ୟ ସୌରଶକ୍ତି ଉତ୍ପାଦନ କେନ୍ଦ୍ର[span_74](start_span)[span_74](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card green">
+        <h4>ଉପଯୋଗ</h4>
+        <p>ରୋଷେଇ, ପାଣି ଗରମ, ସୌର ଲଣ୍ଠନ, ଫ୍ରିଜ୍, ରାସ୍ତାରେ ଆଲୋକ ଓ ଶୀତଦିନେ ଘର ଉଷୁମ ରଖିବା[span_75](start_span)[span_75](end_span) ।</p>
+      </div>
+    </div>
+
+    <!-- Wind -->
+    <h3 class="sub-title">(ଖ) ପବନ ଶକ୍ତି (Wind Energy)</h3>
+    <p>
+      ପବନ ଶକ୍ତି ଉତ୍ପାଦନରେ <strong>ଭାରତ ବିଶ୍ୱରେ ଚତୁର୍ଥ ସ୍ଥାନ</strong> (ଚୀନ୍, ଆମେରିକା, ଜର୍ମାନୀ ପରେ) ଅଧିକାର କରିଛି[span_76](start_span)[span_76](end_span)। ପବନର ଗତି ଘଣ୍ଟା ପ୍ରତି ୫ ରୁ ୧୦ କି.ମି.ରୁ ଅଧିକ ହେବା ଆବଶ୍ୟକ[span_77](start_span)[span_77](end_span)।
+    </p>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ତାମିଲନାଡୁ (ବୃହତ୍ତମ ବଳୟ)</h4>
+        <p>ନଗରକୋଏଲ୍‌ରୁ ମଦୁରାଇ ଏବଂ କନ୍ୟାକୁମାରୀର <strong>ମୁପାଣ୍ଡଲ୍ (Muppandal)</strong> ଭାରତର ପ୍ରଧାନ ପବନ ଶକ୍ତି କେନ୍ଦ୍ର[span_78](start_span)[span_78](end_span) ।</p>
+      </div>
+      <div class="card blue">
+        <h4>ଜୈସାଲମିର ଓ ଦାମନଯୋଡ଼ି</h4>
+        <p>ଜୈସାଲମିର (ରାଜସ୍ଥାନ) ରେ ଦେଶର ସବୁଠାରୁ ବଡ଼ ପବନଚକ ଅବସ୍ଥିତ[span_79](start_span)[span_79](end_span)। ଓଡ଼ିଶାର <strong>ଦାମନଯୋଡ଼ି</strong> ଠାରେ ଏକ ବୃହତ୍ ପବନ ଶକ୍ତି କେନ୍ଦ୍ର ରହିଛି[span_80](start_span)[span_80](end_span) ।</p>
+      </div>
+    </div>
+
+    <!-- Biogas -->
+    <h3 class="sub-title">(ଗ) ଜୈବ ବାଷ୍ପ (Biogas / ଗୋବର ଗ୍ୟାସ)</h3>
+    <div class="callout def-box">
+      <strong>ଚାଷୀଙ୍କୁ ଦୁଇ ଆଡ଼ୁ ଲାଭ:</strong> କୃଷି ଆବର୍ଜନା, ମଳମୂତ୍ର ଓ ଗୋବରର ଅପଘଟନ ଦ୍ୱାରା ଉତ୍ତମ ରନ୍ଧନ ଗ୍ୟାସ ସହ ଉତ୍କୃଷ୍ଟ <strong>ଜୈବିକ ସାର</strong> ମିଳିଥାଏ[span_81](start_span)[span_81](end_span)। ଏହାର ତାପ ପ୍ରଦାନ କ୍ଷମତା କିରୋସିନ ଓ କାଠକୋଇଲାଠାରୁ ଅଧିକ[span_82](start_span)[span_82](end_span)। ମହାରାଷ୍ଟ୍ର ଓ ଗୁଜରାଟ ଏଥିରେ ଆଗରେ[span_83](start_span)[span_83](end_span)।
+    </div>
+  </section>
+
+  <!-- 7. Tidal & Geothermal -->
+  <section id="tidal-geothermal">
+    <h2 class="sec-title">🌊 ୭. ଜୁଆର ଓ ଭୂ-ତାପୀୟ ଶକ୍ତି</h2>
+
+    <div class="compare">
+      <div class="card blue">
+        <h4>ଜୁଆର ଶକ୍ତି (Tidal Energy)</h4>
+        <p>ସମୁଦ୍ର ମୁହାଣରେ ବନ୍ଧ ବାନ୍ଧି ଜୁଆର ଜଳକୁ ଆବଦ୍ଧ କରି ଭଟ୍ଟା ସମୟରେ ଟରବାଇନ୍ ଦେଇ ଛାଡ଼ି ବିଦ୍ୟୁତ୍ ଉତ୍ପାଦନ କରାଯାଏ[span_84](start_span)[span_84](end_span) ।</p>
+        <small class="badge-tag blue">ଅନୁକୂଳ ସ୍ଥାନ</small> ଗୁଜରାଟର <strong>କଚ୍ଛ ଉପସାଗର</strong> (NHPC ଦ୍ୱାରା ପ୍ରକଳ୍ପ ସ୍ଥାପିତ)[span_85](start_span)[span_85](end_span)।
+      </div>
+      <div class="card coral">
+        <h4>ଭୂ-ତାପୀୟ ଶକ୍ତି (Geothermal Energy)</h4>
+        <p>ଭୂ-ଗର୍ଭର ଉତ୍ତପ୍ତ ଶିଳା ସଂସ୍ପର୍ଶରେ ଆସି ଜଳ ବାଷ୍ପରେ ପରିଣତ ହୋଇ ପ୍ରବଳ ବେଗରେ ନିର୍ଗତ ହେଲେ ଟରବାଇନ୍ ଘୂରାଇ ବିଦ୍ୟୁତ୍ ଉତ୍ପନ୍ନ ହୁଏ[span_86](start_span)[span_86](end_span) ।</p>
+        <small class="badge-tag coral">୨ଟି ପ୍ରାୟୋଗିକ ପ୍ରକଳ୍ପ</small>
+        <ul>
+          <li><strong>ମଣିକରଣ:</strong> ହିମାଚଳ ପ୍ରଦେଶ (ପାର୍ବତୀ ଉପତ୍ୟକା)[span_87](start_span)[span_87](end_span)</li>
+          <li><strong>ପୁଗା ଉପତ୍ୟକା:</strong> ଲାଦାଖ[span_88](start_span)[span_88](end_span)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Energy Conservation -->
+  <section id="conservation">
+    <h2 class="sec-title">🛡️ ୮. ଶକ୍ତି ସମ୍ବଳର ସଂରକ୍ଷଣ</h2>
+    <div class="callout def-box">
+      <strong>"Energy Saved is Energy Produced" — ଶକ୍ତି ସଞ୍ଚୟର ଅର୍ଥ ଶକ୍ତି ଉତ୍ପାଦନ[span_89](start_span)[span_89](end_span)।</strong>
+    </div>
+
+    <div class="compare">
+      <div class="card green">
+        <h4>ନାଗରିକଙ୍କ କର୍ତ୍ତବ୍ୟ ଓ ପଦକ୍ଷେପ</h4>
+        <ul>
+          <li>ବ୍ୟକ୍ତିଗତ ଗାଡ଼ି ବଦଳରେ ସରକାରୀ / ସାମୂହିକ ପରିବହନ ବ୍ୟବସ୍ଥା ବ୍ୟବହାର କରିବା[span_90](start_span)[span_90](end_span)।</li>
+          <li>ଆବଶ୍ୟକ ନଥିବା ବେଳେ ପଙ୍ଖା ଓ ଆଲୋକର ସୁଇଚ୍ ବନ୍ଦ ରଖିବା[span_91](start_span)[span_91](end_span)।</li>
+          <li>ବିଦ୍ୟୁତ୍ ସଞ୍ଚୟକାରୀ ଉପକରଣ (Power-saving devices) ବ୍ୟବହାର କରିବା[span_92](start_span)[span_92](end_span)।</li>
+          <li>ଯାନବାହାନ ଓ ବିଦ୍ୟୁତ୍ ଯନ୍ତ୍ରର ନିୟମିତ ଯାଞ୍ଚ କରିବା[span_93](start_span)[span_93](end_span)।</li>
+          <li>ଜୀବାଶ୍ମ ଇନ୍ଧନ ବଦଳରେ ଅଣପାରମ୍ପରିକ ଅକ୍ଷୟ ଶକ୍ତିର ବ୍ୟବହାର ବୃଦ୍ଧି କରିବା[span_94](start_span)[span_94](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Exercises -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ୯. ଅଧ୍ୟାୟ ପ୍ରଶ୍ନୋତ୍ତର (Self-Assessment)</h2>
+
+    <h3 class="sub-title">୧. ସଠିକ୍ ଉତ୍ତର ବାଛ:</h3>
+    <div class="compare">
+      <div class="card">
+        <p><strong>(a) କେଉଁଟି ଏକ ପାରମ୍ପରିକ ଶକ୍ତି ସମ୍ବଳ ?</strong>[span_95](start_span)[span_95](end_span)</p>
+        <p>(i) ପବନ (ii) କୋଇଲା (iii) ସୌରତାପ (iv) ଜୁଆର[span_96](start_span)[span_96](end_span)</p>
+        <p style="color: var(--gold); font-weight: 600;">👉 ଉତ୍ତର: (ii) କୋଇଲା[span_97](start_span)[span_97](end_span)</p>
+      </div>
+      <div class="card">
+        <p><strong>(b) ପେଟ୍ରୋଲିୟମ ଉତ୍ପାଦନ କ୍ଷେତ୍ରରେ କେଉଁଟି ସର୍ବପୁରାତନ ରାଜ୍ୟ ?</strong>[span_98](start_span)[span_98](end_span)</p>
+        <p>(i) ମହାରାଷ୍ଟ୍ର (ii) ଗୁଜରାଟ (iii) ଆସାମ (iv) ଆନ୍ଧ୍ର ପ୍ରଦେଶ[span_99](start_span)[span_99](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: (iii) ଆସାମ[span_100](start_span)[span_100](end_span)</p>
+      </div>
+      <div class="card">
+        <p><strong>(c) ମୋନାଜାଇଟ୍ ବାଲିରୁ କେଉଁ ଖଣିଜ ମିଳେ ?</strong>[span_101](start_span)[span_101](end_span)</p>
+        <p>(i) କୋଇଲା (ii) ୟୁରାନିୟମ (iii) ଖଣିଜତେଲ (iv) ଥୋରିୟମ୍[span_102](start_span)[span_102](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: (iv) ଥୋରିୟମ୍[span_103](start_span)[span_103](end_span)</p>
+      </div>
+      <div class="card">
+        <p><strong>(d) ବାଣିଜ୍ୟିକ କ୍ଷେତ୍ରରେ କେଉଁ କୋଇଲା ସର୍ବାଧିକ ଲୋକପ୍ରିୟ ?</strong>[span_104](start_span)[span_104](end_span)</p>
+        <p>(i) ପିଟ୍ (ii) ବିଟୁମିନସ୍ (iii) ଲିଗ୍‌ନାଇଟ୍ (iv) ଆନ୍ଥ୍ରାସାଇଟ୍[span_105](start_span)[span_105](end_span)</p>
+        <p style="color: var(--gold); font-weight: 600;">👉 ଉତ୍ତର: (ii) ବିଟୁମିନସ୍[span_106](start_span)[span_106](end_span)</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">୨. ପାର୍ଥକ୍ୟ ଦର୍ଶାଅ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଜଳ ବିଦ୍ୟୁତ୍ ଶକ୍ତି</h4>
+        <p>ପ୍ରବାହିତ ନଦୀଜଳର ଗତିଜ ଶକ୍ତିରୁ ଉତ୍ପାଦିତ ହୁଏ[span_107](start_span)[span_107](end_span)। ଏହା ଏକ ପ୍ରଦୂଷଣମୁକ୍ତ ଓ ନବୀକରଣ ଯୋଗ୍ୟ ଅକ୍ଷୟ ଶକ୍ତି[span_108](start_span)[span_108](end_span) ।</p>
+      </div>
+      <div class="card coral">
+        <h4>ତାପଜ ବିଦ୍ୟୁତ୍ ଶକ୍ତି</h4>
+        <p>କୋଇଲା, ପେଟ୍ରୋଲିୟମ ବା ପ୍ରାକୃତିକ ଗ୍ୟାସ ଜାଳି ଉତ୍ପାଦିତ ହୁଏ[span_109](start_span)[span_109](end_span)। ଏହା କ୍ଷୟଶୀଳ ଓ ପରିବେଶ ପ୍ରଦୂଷଣ କରେ[span_110](start_span)[span_110](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ • ପଞ୍ଚମ ଅଧ୍ୟାୟ: ଶକ୍ତି ସମ୍ବଳ | Digital Learning Note System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
