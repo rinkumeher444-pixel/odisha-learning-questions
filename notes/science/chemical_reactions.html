@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ଶ୍ରେଣୀ ୧୦ - ରସାୟନ ବିଜ୍ଞାନ | ଅଧ୍ୟୟନ ୧: ରାସାୟନିକ ପ୍ରତିକ୍ରିୟା ଓ ରାସାୟନିକ ସମୀକରଣ</title>
+<style>
+  :root {
+    --bg: #0e1420;
+    --bg-panel: #141d2e;
+    --bg-card: #1a2436;
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
+    --gold: #f59e0b;
+    --teal: #14b8a6;
+    --green: #10b981;
+    --coral: #f43f5e;
+    --border: #2a364f;
+    --font-serif: "Georgia", serif;
+    --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background-color: var(--bg);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    line-height: 1.7;
+    padding: 0;
+    margin: 0;
+  }
+  header.hero {
+    background: linear-gradient(135deg, var(--bg-panel), var(--bg-card));
+    border-bottom: 2px solid var(--border);
+    padding: 3rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%; width: 200%; height: 200%;
+    background: radial-gradient(circle, rgba(245, 158, 11, 0.05) 0%, transparent 70%);
+    z-index: 0;
+  }
+  .hero-content { position: relative; z-index: 1; max-width: 900px; margin: 0 auto; }
+  .chapter-badge {
+    display: inline-block;
+    background: rgba(245, 158, 11, 0.15);
+    color: var(--gold);
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+  }
+  h1 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #f59e0b, #14b8a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.75rem;
+  }
+  p.subtitle { color: var(--text-muted); font-size: 1.1rem; }
+
+  /* Pill Navigation */
+  .pillnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    background: var(--bg-panel);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(10px);
+  }
+  .pillnav a {
+    color: var(--text-muted);
+    background: var(--bg-card);
+    padding: 0.5rem 1.25rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid var(--border);
+    transition: all 0.3s ease;
+  }
+  .pillnav a:hover, .pillnav a.active {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: rgba(245, 158, 11, 0.1);
+  }
+
+  main { max-width: 1000px; margin: 2rem auto; padding: 0 1.5rem; }
+  section { margin-bottom: 3.5rem; scroll-margin-top: 5rem; }
+  h2 {
+    font-family: var(--font-serif);
+    font-size: 1.8rem;
+    color: var(--gold);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    color: var(--teal);
+    margin: 1.5rem 0 0.75rem 0;
+  }
+  p { margin-bottom: 1rem; color: #cbd5e1; }
+
+  /* Callout Boxes */
+  .callout {
+    border-left: 5px solid;
+    border-radius: 0 8px 8px 0;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    background: var(--bg-panel);
+  }
+  .def-box { border-color: var(--gold); background: rgba(245, 158, 11, 0.05); }
+  .def-box strong { color: var(--gold); }
+  .example-box { border-color: var(--teal); background: rgba(20, 184, 166, 0.05); }
+  .example-box strong { color: var(--teal); }
+  .activity-box { border-color: var(--green); background: rgba(16, 185, 129, 0.05); }
+  .activity-box strong { color: var(--green); }
+  .mistake-box { border-color: var(--coral); background: rgba(244, 63, 94, 0.05); }
+  .mistake-box strong { color: var(--coral); }
+
+  /* Comparison Grids */
+  .compare {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .compare-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  .compare-card h4 { font-size: 1.1rem; margin-bottom: 0.75rem; color: var(--gold); }
+
+  /* Flowcharts */
+  .flow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 2rem 0;
+    background: var(--bg-panel);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  .flow-node {
+    background: var(--bg-card);
+    border: 1px solid var(--teal);
+    color: var(--text-main);
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  .flow-arrow {
+    color: var(--gold);
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  /* Diagrams */
+  .diagram {
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .diagram svg { max-width: 100%; height: auto; }
+  .diagram figcaption {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  /* Data Tables */
+  .table-container {
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  table.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-panel);
+    text-align: left;
+    font-size: 0.95rem;
+  }
+  table.table th {
+    background: var(--bg-card);
+    color: var(--gold);
+    padding: 1rem;
+    border-bottom: 2px solid var(--border);
+  }
+  table.table td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--border);
+    color: #cbd5e1;
+  }
+  table.table tr:nth-child(even) { background: rgba(26, 36, 54, 0.4); }
+  table.table tr:hover { background: rgba(20, 184, 166, 0.05); }
+
+  ul, ol { margin-left: 1.5rem; margin-bottom: 1rem; color: #cbd5e1; }
+  li { margin-bottom: 0.5rem; }
+  footer {
+    text-align: center;
+    padding: 2.5rem;
+    background: var(--bg-panel);
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="chapter-badge">ଶ୍ରେଣୀ ୧୦ • ରସାୟନ ବିଜ୍ଞାନ (Class 10 Chemistry)</div>
+    <h1>ଅଧ୍ୟୟନ ୧: ରାସାୟନିକ ପ୍ରତିକ୍ରିୟା ଓ ରାସାୟନିକ ସମୀକରଣ</h1>
+    <p class="subtitle">Chemical Reactions and Equations - ମୌଳିକ ଧାର୍ଯ୍ୟ, ପରୀକ୍ଷା ଓ ପ୍ରତିକ୍ରିୟାର ସଂପୂର୍ଣ୍ଣ ଅଧ୍ୟୟନ</p>
+  </div>
+</header>
+
+<nav class="pillnav">
+  <a href="#intro">ପରିଚୟ</a>
+  <a href="#dailylife">ପ୍ରତିଦିନର ଘଟଣା</a>
+  <a href="#activity11">କାର୍ଯ୍ୟ ୧.୧</a>
+  <a href="#summary">ସାରାଂଶ</a>
+</nav>
+
+<main>
+  <!-- 1. Introduction & Physical vs Chemical Change -->
+  <section id="intro">
+    <h2>୧. ପରିଚୟ ଏବଂ ପରିବର୍ତ୍ତନର ସ୍ୱରୂପ</h2>
+    <p>ଆମେ ପ୍ରତିଦିନ ଆଖପାଖରେ ଅନେକ ପରିବର୍ତ୍ତନ ଦେଖିଥାଉ। ପୂର୍ବ ଶ୍ରେଣୀରେ ଆମେ ବସ୍ତୁର ଭୌତିକ (Physical) ଏବଂ ରାସାୟନିକ (Chemical) ପରିବର୍ତ୍ତନ ସମ୍ପର୍କରେ ପଢିଛେ। ଯେତେବେଳେ କୌଣସି ରାସାୟନିକ ପରିବର୍ତ୍ତନ ଘଟେ, ସେତେବେଳେ ଆମେ କହୁ ଯେ ଏକ <strong>ରାସାୟନିକ ପ୍ରତିକ୍ରିୟା (Chemical Reaction)</strong> ଘଟିଛି।</p>
+    
+    <div class="compare">
+      <div class="compare-card">
+        <h4>ଭୌତିକ ପରିବର୍ତ୍ତନ</h4>
+        <p>ଏଥିରେ କୌଣସି ନୂତନ ପଦାର୍ଥ ସୃଷ୍ଟି ହୁଏ ନାହିଁ ଏବଂ ଏହା ସାଧାରଣତଃ ଏକ ଅସ୍ଥାୟୀ ପରିବର୍ତ୍ତନ (ଯଥା- ବରଫ ତରଳିବା)।</p>
+      </div>
+      <div class="compare-card">
+        <h4>ରାସାୟନିକ ପରିବର୍ତ୍ତନ</h4>
+        <p>ଏଥିରେ ମୂଳ ପଦାର୍ଥର ପ୍ରକୃତି ଓ ଧର୍ମ ସମ୍ପୂର୍ଣ୍ଣ ବଦଳିଯାଇ ଏକ ବା ଏକାଧିକ ନୂତନ ପଦାର୍ଥ ସୃଷ୍ଟି ହୁଏ (ଯଥା- ଲୁହାରେ କଳଙ୍କି ଲାଗିବା)।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Everyday Situations -->
+  <section id="dailylife">
+    <h2>୨. ପ୍ରତିଦିନ ଜୀବନରେ ଘଟୁଥିବା ରାସାୟନିକ ପରିବର୍ତ୍ତନ</h2>
+    <p>ନିମ୍ନଲିଖିତ ପରିସ୍ଥିତିଗୁଡ଼ିକରେ ପ୍ରକୃତରେ କ’ଣ ହୁଏ ତାହା ବୁଝିବା ପାଇଁ ରାସାୟନିକ ପ୍ରତିକ୍ରିୟାର ଧାର୍ଯ୍ୟ ଜରୁରୀ:</p>
+    
+    <div class="table-container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ଅବସ୍ଥା / ଘଟଣା</th>
+            <th>ବିବରଣୀ ଓ ପ୍ରକୃତି</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ଲୀରେକ୍ (Milk)</strong></td>
+            <td>ଗ୍ରୀଷ୍ମଦିନରେ କ୍ଷୀରକୁ ସାଧାରଣ ତାପମାତ୍ରାରେ ଛାଡ଼ିଦେଲେ ଏହା ଖଟା ହୋଇ ଫାଟିଯାଏ।</td>
+          </tr>
+          <tr>
+            <td><strong>ଲୁହା ଜିନିଷ</strong></td>
+            <td>ଲୁହାର ତାୱା / କଣ୍ଟା / କଟୁରୀ ଆର୍ଦ୍ର ବାୟୁରେ ପଡ଼ିରହିଲେ ଏଥିରେ କଳଙ୍କି (Rust) ଲାଗେ।</td>
+          </tr>
+          <tr>
+            <td><strong>ଅଙ୍ଗୁର</strong></td>
+            <td>ଅଙ୍ଗୁର ପଡ଼ି ପଚିଗଲେ (Fermentation) ସେଥିରୁ ନୂତନ ପଦାର୍ଥ ସୃଷ୍ଟି ହୁଏ।</td>
+          </tr>
+          <tr>
+            <td><strong>ଖାଦ୍ୟ</strong></td>
+            <td>ଖାଦ୍ୟ ରନ୍ଧା ହେବା ଏବଂ ଶରୀର ଭିତରେ ଖାଦ୍ୟ ହଜମ ହେବା (Digestion)।</td>
+          </tr>
+          <tr>
+            <td><strong>ଶ୍ୱାସକ୍ରିୟା</strong></td>
+            <td>ଆମର ଶ୍ୱାସକ୍ରିୟା (Respiration) ସମୟରେ ଅଙ୍ଗଜାନ ଗ୍ରହଣ ଓ ଶକ୍ତି ଉତ୍ପନ୍ନ ହୁଏ।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 3. Activity 1.1 -->
+  <section id="activity11">
+    <h2>୩. କାର୍ଯ୍ୟ ୧.୧ : ମ୍ୟାଗ୍ନେସିୟମ୍ ପତଳା ପାତର ଜ୍ୱଳନ</h2>
+    
+    <div class="callout activity-box">
+      <strong>ସତର୍କ ସୂଚନା (Caution):</strong>
+      <p>କାର୍ଯ୍ୟଟିକୁ ଶିକ୍ଷକଙ୍କ ସହାୟତାରେ କରନ୍ତୁ। ଏହି ପରୀକ୍ଷା ସମୟରେ ଆଖିର ସୁରକ୍ଷା ପାଇଁ ଚଷମା ପିନ୍ଧିବା ଉଚିତ। ମ୍ୟାଗ୍ନେସିୟମ୍ ପାତକୁ ଆଖିଠାରୁ ଯଥାସମ୍ଭବ ଦୂରରେ ରଖି ପ୍ରଜ୍ୱଳିତ କରିବେ।</p>
+    </div>
+
+    <p><strong>ପଦକ୍ଷେପଗୁଡ଼ିକ:</strong></p>
+    <ol>
+      <li>୨ ସି.ମି. ଲମ୍ବା ଏକ ମ୍ୟାଗ୍ନେସିୟମ୍‌ର ପତଳା ପାତକୁ ବାଲି କାଗଜ (Sandpaper) ସାହାଯ୍ୟରେ ଭଲଭାବେ ସଫା କରନ୍ତୁ।</li>
+      <li>ଏହାର ଗୋଟିଏ ପାର୍ଶ୍ୱକୁ ଚିମୁଟା (Tongs) ରେ ଧରି ଅନ୍ୟ ପାର୍ଶ୍ୱକୁ ବର୍ନର (Burner) କିମ୍ବା ସ୍ପିରିଟ୍ ल्याମ୍ପରେ ଜଳାନ୍ତୁ।</li>
+      <li>ବାହାରିଥିବା ପାଉଁଶ (Ash) କୁ ଗୋଟିଏ ୱାଚ୍ ଗ୍ଲାସରେ (Watch glass) ସଂଗ୍ରହ କରନ୍ତୁ।</li>
+    </ol>
+
+    <div class="diagram">
+      <svg width="450" height="200" viewBox="0 0 450 200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Background panel inside diagram -->
+        <rect x="20" y="20" width="410" height="160" rx="8" fill="#141d2e" stroke="#2a364f" stroke-width="2"/>
+        
+        <!-- Burner flame -->
+        <path d="M 120 150 Q 130 110 125 90 Q 135 120 140 150 Z" fill="#f59e0b"/>
+        <path d="M 123 150 Q 128 120 125 100 Q 130 130 135 150 Z" fill="#f43f5e"/>
+        <rect x="110" y="150" width="30" height="20" fill="#94a3b8" rx="2"/>
+
+        <!-- Tongs and Magnesium Ribbon -->
+        <line x1="220" y1="80" x2="135" y2="95" stroke="#94a3b8" stroke-width="4"/>
+        <line x1="220" y1="90" x2="135" y2="105" stroke="#94a3b8" stroke-width="4"/>
+        <line x1="130" y1="95" x2="110" y2="92" stroke="#f1f5f9" stroke-width="3"/>
+
+        <!-- Watch glass and Ash -->
+        <path d="M 280 140 Q 320 160 360 140" fill="none" stroke="#14b8a6" stroke-width="3"/>
+        <ellipse cx="320" cy="142" rx="25" ry="5" fill="#f1f5f9" opacity="0.8"/>
+
+        <!-- Labels -->
+        <text x="50" y="55" fill="#f59e0b" font-size="13" font-weight="bold">ଚିତ୍ର ୧.୧: ମ୍ୟାଗ୍ନେସିୟମ୍ ପାତ ଜ୍ୱଳନ</text>
+        <text x="235" y="85" fill="#cbd5e1" font-size="11">ଚିମୁଟା (Tongs)</text>
+        <text x="315" y="125" fill="#14b8a6" font-size="11">ମ୍ୟାଗ୍ନେସିୟମ୍ ଅକ୍ସାଇଡ୍ ପାଉଁଶ</text>
+      </svg>
+      <figcaption>ଚିତ୍ର ୧.୧: ବାୟୁରେ ମ୍ୟାଗ୍ନେସିୟମ୍ ପାତ ପ୍ରଜ୍ୱଳନ ଏବଂ ୱାଚ୍ ଗ୍ଲାସରେ ମ୍ୟାଗ୍ନେସିୟମ୍ ଅକ୍ସାଇଡ୍ ସଂଗ୍ରହ।</figcaption>
+    </div>
+
+    <div class="callout def-box">
+      <strong>ପରୀକ୍ଷାଗାରରୁ ସିଦ୍ଧାନ୍ତ:</strong>
+      <p>ମ୍ୟାଗ୍ନେସିୟମ୍ ପାଟଟି ଅତି ଉଜ୍ଜ୍ୱଳ ଧଳାଶିଖା ସହିତ ଜଳେ ଏବଂ ଏହା ଏକ ଧଳା ପାଉଁଶରେ ପରିଣତ ହୁଏ। ଏହି ଧଳା ପାଉଁଶଟି ହେଉଛି <strong>ମ୍ୟାଗ୍ନେସିୟମ୍ ଅକ୍ସାଇଡ୍ (Magnesium oxide)</strong>। ଏହା ମ୍ୟାଗ୍ନେସିୟମ୍ ଏବଂ ବାୟୁରେ ଥିବା ଅମ୍ଳଜାନ ମଧ୍ୟରେ ଘଟିଥିବା ରାସାୟନିକ ପ୍ରତିକ୍ରିୟା ଯୋଗୁଁ ସୃଷ୍ଟି ହୁଏ।</p>
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">ମ୍ୟାଗ୍ନେସିୟମ୍ (Mg)</div>
+      <div class="flow-arrow">+</div>
+      <div class="flow-node">ଅମ୍ଳଜାନ (O₂)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ମ୍ୟାଗ୍ନେସିୟମ୍ ଅକ୍ସାଇଡ୍ (MgO)</div>
+    </div>
+  </section>
+
+  <!-- 4. Summary & Key Takeaways -->
+  <section id="summary">
+    <h2>୪. ରାସାୟନିକ ପ୍ରତିକ୍ରିୟାର ମୁଖ୍ୟ ବିଶେଷତା</h2>
+    <p>କୌଣସି ରାସାୟନିକ ପ୍ରତିକ୍ରିୟା ଘଟିଛି ବולି ଜାଣିବା ପାଇଁ ନିମ୍ନଲିଖିତ ପରିବର୍ତ୍ତନଗୁଡ଼ିକ ଲକ୍ଷ୍ୟ କରାଯାଏ:</p>
+    <ul>
+      <li><strong>ଅବସ୍ଥା ପରିବର୍ତ୍ତନ (Change in State):</strong> ପ୍ରତିକ୍ରିୟାରେ ଅଂଶଗ୍ରହଣ କରୁଥିବା ପଦାର୍ଥର ଭୌତିକ ଅବସ୍ଥା ବଦଳିଯାଇପାରେ।</li>
+      <li><strong>ରଙ୍ଗ ପରିବର୍ତ୍ତନ (Change in Color):</strong> ପ୍ରତିକ୍ରିୟା ଫଳରେ ପଦାର୍ଥର ରଙ୍ଗରେ ପରିବର୍ତ୍ତନ ଘଟିପାରେ।</li>
+      <li><strong>ଗ୍ୟାସ୍ ନିର୍ଗମନ (Evolution of Gas):</strong> କେତେକ ପ୍ରତିକ୍ରିୟାରେ ବିଭିନ୍ନ ଗ୍ୟାସ୍ ବାହାରିଥାଏ।</li>
+      <li><strong>ତାପମାତ୍ରା ପରିବର୍ତ୍ତନ (Change in Temperature):</strong> ପ୍ରତିକ୍ରିୟା ଫଳରେ ତାପ ଉତ୍ପନ୍ନ ହୋଇପାରେ କିମ୍ବା ତାପ ଶୋଷିତ ହୋଇପାରେ।</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Class 10 Chemistry Educational Notes | Chapter 1: ରାସାୟନିକ ପ୍ରତିକ୍ରିୟା ଓ ରାସାୟନିକ ସମୀକରଣ</p>
+</footer>
+
+</body>
+</html>
