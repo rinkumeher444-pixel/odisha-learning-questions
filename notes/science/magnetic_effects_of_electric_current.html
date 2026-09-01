@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ନବମ ଅଧ୍ୟାୟ - ବିଦ୍ୟୁତ୍ ସ୍ରୋତର ଚୁମ୍ବକୀୟ ପ୍ରଭାବ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Odia:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0e1420;
+            --bg-panel: #141d2e;
+            --bg-card: #1a2436;
+            --text-main: #e2e8f0;
+            --text-muted: #94a3b8;
+            --gold: #f59e0b;
+            --gold-light: rgba(245, 158, 11, 0.15);
+            --teal: #14b8a6;
+            --teal-light: rgba(20, 184, 166, 0.15);
+            --green: #10b981;
+            --green-light: rgba(16, 185, 129, 0.15);
+            --coral: #f43f5e;
+            --coral-light: rgba(244, 63, 94, 0.15);
+            --border: rgba(255, 255, 255, 0.08);
+            --radius: 12px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            line-height: 1.7;
+            padding: 0;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(20, 184, 166, 0.05) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(245, 158, 11, 0.05) 0%, transparent 40%);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 4rem 1.5rem;
+        }
+
+        /* Hero Header */
+        .hero {
+            background: linear-gradient(135deg, var(--bg-panel), var(--bg-card));
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 3rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 2rem;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
+        }
+
+        .chapter-badge {
+            display: inline-block;
+            background: var(--gold-light);
+            color: var(--gold);
+            padding: 0.4rem 1rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+
+        .hero h1 {
+            font-family: 'Noto Serif Odia', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #fff, var(--gold));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero .subtitle {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        /* Pill Navigation */
+        .pillnav {
+            display: flex;
+            gap: 0.75rem;
+            overflow-x: auto;
+            padding: 0.5rem 0 1.5rem 0;
+            margin-bottom: 2rem;
+            scrollbar-width: thin;
+            scrollbar-color: var(--teal) var(--bg-panel);
+        }
+
+        .pillnav::-webkit-scrollbar {
+            height: 6px;
+        }
+
+        .pillnav::-webkit-scrollbar-thumb {
+            background: var(--teal);
+            border-radius: 3px;
+        }
+
+        .pill {
+            background: var(--bg-panel);
+            color: var(--text-muted);
+            padding: 0.6rem 1.2rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            white-space: nowrap;
+            text-decoration: none;
+            border: 1px solid var(--border);
+            transition: all 0.3s ease;
+        }
+
+        .pill:hover, .pill.active {
+            background: var(--teal-light);
+            color: var(--teal);
+            border-color: var(--teal);
+            transform: translateY(-2px);
+        }
+
+        /* Typography & Sections */
+        section {
+            background: var(--bg-panel);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            font-family: 'Noto Serif Odia', serif;
+            font-size: 1.8rem;
+            color: var(--gold);
+            margin-bottom: 1.2rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        h3 {
+            font-family: 'Noto Serif Odia', serif;
+            font-size: 1.3rem;
+            color: var(--teal);
+            margin: 1.5rem 0 0.8rem 0;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-main);
+            font-size: 1.05rem;
+        }
+
+        ul {
+            margin-bottom: 1.2rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+        }
+
+        /* Callout Boxes */
+        .callout {
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+            position: relative;
+        }
+
+        .def-box {
+            background: var(--gold-light);
+            border-left: 5px solid var(--gold);
+        }
+
+        .example-box {
+            background: var(--teal-light);
+            border-left: 5px solid var(--teal);
+        }
+
+        .activity-box {
+            background: var(--green-light);
+            border-left: 5px solid var(--green);
+        }
+
+        .mistake-box {
+            background: var(--coral-light);
+            border-left: 5px solid var(--coral);
+        }
+
+        .callout-title {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .def-box .callout-title { color: var(--gold); }
+        .example-box .callout-title { color: var(--teal); }
+        .activity-box .callout-title { color: var(--green); }
+        .mistake-box .callout-title { color: var(--coral); }
+
+        /* Comparison Grids */
+        .compare {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        @media(max-width: 768px) {
+            .compare { grid-template-columns: 1fr; }
+        }
+
+        .compare-col {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+
+        .compare-col h4 {
+            font-family: 'Noto Serif Odia', serif;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .compare-col.ac h4 { color: var(--teal); }
+        .compare-col.dc h4 { color: var(--gold); }
+
+        /* Flowcharts */
+        .flow {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            overflow-x: auto;
+            gap: 1rem;
+        }
+
+        .flow-node {
+            background: var(--bg-panel);
+            border: 1px solid var(--teal);
+            color: var(--teal);
+            padding: 0.8rem 1.2rem;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 0.95rem;
+            min-width: 130px;
+            flex-shrink: 0;
+        }
+
+        .flow-arrow {
+            color: var(--gold);
+            font-size: 1.5rem;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        /* Embedded SVG Diagrams */
+        .diagram-container {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .diagram-container svg {
+            max-width: 100%;
+            height: auto;
+        }
+
+        figcaption {
+            margin-top: 1rem;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        /* Data Tables */
+        .table-wrapper {
+            overflow-x: auto;
+            margin: 1.5rem 0;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            background: var(--bg-card);
+        }
+
+        th, td {
+            padding: 1rem 1.25rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            background: var(--bg-panel);
+            color: var(--gold);
+            font-family: 'Noto Serif Odia', serif;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:nth-child(even) {
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Hero Header -->
+        <header class="hero">
+            <div class="chapter-badge">ନବମ ଅଧ୍ୟାୟ • ପରିଚ୍ଛେଦ ନୋଟ୍</div>
+            <h1>ବିଦ୍ୟୁତ୍ ସ୍ରୋତର ଚୁମ୍ବକୀୟ ପ୍ରଭାବ</h1>
+            <p class="subtitle">Magnetic Effects of Electric Current — ଶିକ୍ଷଣୀୟ ପାଠ୍ୟକ୍ରମ ଓ ସାରାଂଶ</p>
+        </header>
+
+        <!-- Pill Navigation -->
+        <nav class="pillnav">
+            <a href="#sec1" class="pill">ବିଦ୍ୟୁତ୍ ସ୍ରୋତର ଚୁମ୍ବକୀୟ ପ୍ରଭାବ</a>
+            <a href="#sec2" class="pill">ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ର ଓ ରେଖା</a>
+            <a href="#sec3" class="pill">ପରିବାହୀରେ ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ର</a>
+            <a href="#sec4" class="pill">ପରିବାହୀ ଉପରେ ବଳ</a>
+            <a href="#sec5" class="pill">ବୈଦ୍ୟୁତିକ ମୋଟର</a>
+            <a href="#sec6" class="pill">ବିଦ୍ୟୁତ୍‌ଚୁମ୍ବକୀୟ ପ୍ରେରଣ</a>
+            <a href="#sec7" class="pill">ଜେନେରେଟର</a>
+            <a href="#sec8" class="pill">ଗୃହ ବୈଦ୍ୟୁତିକ ପରିପଥ</a>
+        </nav>
+
+        <!-- Section 1 -->
+        <section id="sec1">
+            <h2>9.1 ବିଦ୍ୟୁତ୍ ସ୍ରୋତର ଚୁମ୍ବକୀୟ ପ୍ରଭାବ (Magnetic Effects of Electric Current)</h2>
+            <p>ପରିବାହୀ ତାରରେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ହେଲେ ତାହା ଚୁମ୍ବକ ଭଳି କାର୍ଯ୍ୟ କରିବା ଦେଖାଯାଏ। ଏହା ବିଦ୍ୟୁତ୍ର ଚୁମ୍ବକୀୟ ପ୍ରଭାବର ଏକ ଉଦାହରଣ ଅଟେ[span_0](start_span)[span_0](end_span)।</p>
+            
+            <div class="callout activity-box">
+                <div class="callout-title">🛠️ ତୁମ ପାଇଁ କାମ : 9.1</div>
+                <p>ଖଣ୍ଡିଏ ସଳଖ ମୋଟା ତମ୍ବା ତାର ନେଇ ଗୋଟିଏ ବିଦ୍ୟୁତ୍ ପରିପଥର ଦୁଇବିନ୍ଦୁ X ଓ Y ମଧ୍ୟରେ ରଖ। ତାର ପାଖାପାଖି ଏକ ଛୋଟ କମ୍ପାସ ରଖନ୍ତୁ। ପରିପଥରେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ କରାଇଲେ କମ୍ପାସ ସୂଚୀର ବିକ୍ଷେପ (Deflection) ହେବ[span_1](start_span)[span_1](end_span)!</p>
+            </div>
+
+            <h3>ଓର୍‌ଷ୍ଟେଡ୍‌ଙ୍କ ଆବିଷ୍କାର (Oersted's Discovery)</h3>
+            <p>1820 ମସିହାରେ ଡେନମାର୍କର ବୈଜ୍ଞାନିକ ହାନ୍ସ ଖ୍ରୀଷ୍ଟିଆନ୍ ଓର୍‌ଷ୍ଟେଡ୍ (Hans Christian Oersted) ପ୍ରଥମେ ଦର୍ଶାଇଲେ ଯେ ତାରରେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ହେବାରୁ ତାହା ଗୋଟିଏ ଚୁମ୍ବକ ଭଳି କାର୍ଯ୍ୟ କରୁଛି[span_2](start_span)[span_2](end_span)। ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ର ତୀବ୍ରତାର cgs ଏକକକୁ ଓର୍‌ଷ୍ଟେଡ୍‌ଙ୍କ ନାମାନୁସାରେ <strong>ଓର୍‌ଷ୍ଟେଡ୍</strong> କୁହାଯାଏ[span_3](start_span)[span_3](end_span)。</p>
+
+            <div class="callout def-box">
+                <div class="callout-title">💡 ମୁଖ୍ୟ ଧାରଣା</div>
+                <p>ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ଏବଂ ଚୁମ୍ବକତ୍ଵ ପରସ୍ପର ସହ ଗଭୀର ଭାବେ ଜଡ଼ିତ। ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ଯୋଗୁଁ ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ର ସୃଷ୍ଟି ହୋଇଥାଏ[span_4](start_span)[span_4](end_span)。</p>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section id="sec2">
+            <h2>9.2 ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ର ଓ କ୍ଷେତ୍ର ରେଖା (Magnetic Field and Field Lines)</h2>
+            <p>ଚୁମ୍ବକର ପ୍ରଭାବ ଅନୁଭୂତ ହେଉଥିବା ଅଞ୍ଚଳକୁ <strong>ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ର (Magnetic Field)</strong> କୁହାଯାଏ[span_5](start_span)[span_5](end_span)। ଲୁହାଗୁଣ୍ଡ ଯେଉଁସବୁ କାଳ୍ପନିକ ରେଖାରେ ସଜାଇ ହେଲା ପରି ଦିଶେ ତାକୁ <strong>ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ରରେଖା (Magnetic Field Lines)</strong> କୁହାଯାଏ[span_6](start_span)[span_6](end_span)。</p>
+
+            <div class="callout def-box">
+                <div class="callout-title">⭐ ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ରରେଖାର ଧର୍ମଗୁଡ଼ିକ</div>
+                <ul>
+                    <li>ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ରରେଖାଗୁଡ଼ିକ ଚୁମ୍ବକର <strong>ଉତ୍ତର ମେରୁରୁ ବାହାରି ଦକ୍ଷିଣ ମେରୁରେ ମିଶେ</strong>[span_7](start_span)[span_7](end_span)।</li>
+                    <li>ଚୁମ୍ବକ ଭିତରେ ଏହା ଦକ୍ଷିଣ ମେରୁରୁ ଉତ୍ତର ମେରୁ ପର୍ଯ୍ୟନ୍ତ ଯାଇ ଏକ ଅବିଚ୍ଛିନ୍ନ ଓ ମୁଦିତ (Closed loop) ରେଖା ଗଠନ କରେ[span_8](start_span)[span_8](end_span)।</li>
+                    <li>କ୍ଷେତ୍ରରେଖାଗୁଡ଼ିକର ଘନତ୍ଵ ଯେଉଁଠାରେ ଅଧିକ, ସେଠାରେ ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ରର ସାମର୍ଥ୍ୟ ଅଧିକ ହୋଇଥାଏ[span_9](start_span)[span_9](end_span)।</li>
+                    <li><strong>ଦୁଇଟି ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ରରେଖା କେବେବି ପରସ୍ପରକୁ ଛେଦ କରନ୍ତି ନାହିଁ</strong>; ଯଦି କରନ୍ତା ତେବେ ଛେଦବିନ୍ଦୁରେ କମ୍ପାସ ସୂଚୀ ଏକସମୟରେ ଦୁଇଟି ଦିଗ ଦର୍ଶାନ୍ତା, ଯାହା ଅସମ୍ଭବ[span_10](start_span)[span_10](end_span)।</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section id="sec3">
+            <h2>9.3 ପରିବାହୀରେ ବିଦ୍ୟୁତ୍ ସ୍ରୋତ ଜନିତ ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ର</h2>
+            <p>ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ବହନ କରୁଥିବା ପରିବାହୀର ଆକୃତି ଅନୁସାରେ ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ରର ଢାଞ୍ଚା ବଦଳିଥାଏ[span_11](start_span)[span_11](end_span)。</p>
+
+            <h3>9.3.1 ସଳଖ ପରିବାହୀରେ ବିଦ୍ୟୁତ୍ ସ୍ରୋତ ଜନିତ ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ର</h3>
+            <p>ସଳଖ ତାରରେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ କଲେ ଲୁହାଗୁଣ୍ଡଗୁଡ଼ିକ ତାର ଚାରିପାଖେ <strong>ସମକେନ୍ଦ୍ରିକ ବୃତ୍ତ (Concentric circles)</strong> ଆକାରରେ ସଜାଇ ହୋଇଯାଏ[span_12](start_span)[span_12](end_span)。</p>
+
+            <h3>9.3.2 ଦକ୍ଷିଣ ହସ୍ତ ବୃଦ୍ଧାଙ୍ଗୁଳି ନିୟମ (Right-Hand Thumb Rule)</h3>
+            <div class="callout def-box">
+                <div class="callout-title">📌 ନିୟମ</div>
+                <p>ଯଦି ତାରକୁ ଡାହାଣ ହାତରେ ଏମିତି ମୁଠାଇ ଧରିଛ ଯେ ବୁଢ଼ା ଆଙ୍ଗୁଳିଟି ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ଦିଗରେ ଲମ୍ବିରହିଛି ଓ ଅନ୍ୟ ଆଙ୍ଗୁଳିଗୁଡ଼ିକ ତାର ଚାରିପଟେ ବେଢ଼ି ରହିଛି, ତେବେ ଆଙ୍ଗୁଳିର ଟିପଗୁଡ଼ିକ ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ରର ଦିଗ ସୂଚାଇବ[span_13](start_span)[span_13](end_span)। ଏହାକୁ ମାକ୍ସୱେଲଙ୍କ କର୍କସ୍କ୍ରୁ ନିୟମ ମଧ୍ୟ କୁହାଯାଏ[span_14](start_span)[span_14](end_span)。</p>
+            </div>
+
+            <h3>9.3.4 ସଲେନଏଡ୍‌ରେ ବିଦ୍ୟୁତ୍ ସ୍ରୋତ ଜନିତ ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ର</h3>
+            <p>ବିଦ୍ୟୁତ୍‌ରୋଧୀ ଆବରଣ ଯୁକ୍ତ ତମ୍ବା ତାରରୁ ତିଆରି ବହୁ ବୃତ୍ତାକାର ଘେର ବିଶିଷ୍ଟ ସିଲିଣ୍ଡର ଆକୃତିର କୁଣ୍ଡଳୀକୁ <strong>ସଲେନଏଡ୍ (Solenoid)</strong> କୁହାଯାଏ[span_15](start_span)[span_15](end_span)। ସଲେନଏଡ୍ ଭିତରପଟେ କ୍ଷେତ୍ରରେଖାଗୁଡ଼ିକ ପରସ୍ପର ସହ ସମାନ୍ତର ହୋଇଥିବାରୁ ଏହା ଏକ <strong>ସମଚୁମ୍ବକୀୟ କ୍ଷେତ୍ର (Uniform magnetic field)</strong> ସୃଷ୍ଟି କରେ[span_16](start_span)[span_16](end_span)। ନରମ ଲୌହଖଣ୍ଡକୁ ସଲେନଏଡ୍ ଭିତରେ ରଖି <strong>ବିଦ୍ୟୁତ୍ ଚୁମ୍ବକ (Electromagnet)</strong> ପ୍ରସ୍ତୁତ କରାଯାଏ[span_17](start_span)[span_17](end_span)。</p>
+        </section>
+
+        <!-- Section 4 -->
+        <section id="sec4">
+            <h2>9.4 ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ରରେ ବିଦ୍ୟୁତ୍ ସ୍ରୋତଧାରୀ ପରିବାହୀ ଉପରେ ବଳ</h2>
+            <p>ଫ୍ରାନ୍ସର ବୈଜ୍ଞାନିକ ଆନ୍ଦ୍ରେ-ମ୍ୟାର୍ ଆମ୍ପିୟର୍ ଦର୍ଶାଇଲେ ଯେ ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ରରେ ଥିବା ବିଦ୍ୟୁତ୍ ସ୍ରୋତଧାରୀ ପରିବାହୀ ଉପରେ ଏକ ବଳ କାର୍ଯ୍ୟକାରୀ ହୁଏ[span_18](start_span)[span_18](end_span)。</p>
+
+            <div class="callout def-box">
+                <div class="callout-title">✋ ଫ୍ଲେମିଂଙ୍କ ବାମହସ୍ତ ନିୟମ (Fleming's Left-Hand Rule)</div>
+                <p>ବାମହସ୍ତର ବୃଦ୍ଧାଙ୍ଗୁଳି (Thumb), ତର୍ଜନୀ (Forefinger) ଓ ମଧ୍ୟମା (Middle finger) କୁ ପରସ୍ପର ପ୍ରତି ଲମ୍ବ ଭାବେ ରଖନ୍ତୁ[span_19](start_span)[span_19](end_span)։</p>
+                <ul>
+                    <li><strong>ତର୍ଜନୀ (Forefinger):</strong> ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ରର ଦିଗ[span_20](start_span)[span_20](end_span)</li>
+                    <li><strong>ମଧ୍ୟମା (Middle finger):</strong> ବିଦ୍ୟୁତ୍ ସ୍ରୋତର ଦିଗ[span_21](start_span)[span_21](end_span)</li>
+                    <li><strong>ବୃଦ୍ଧାଙ୍ଗୁଳି (Thumb):</strong> ପରିବାହୀ ଉପରେ କାର୍ଯ୍ୟକାରୀ ହେଉଥିବା ବଳର ଦିଗ (ଗତିର ଦିଗ)[span_22](start_span)[span_22](end_span)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 5 -->
+        <section id="sec5">
+            <h2>9.5 ବୈଦ୍ୟୁତିକ ମୋଟର (Electric Motor)</h2>
+            <p>ବୈଦ୍ୟୁତିକ ମୋଟର ଏକ ଘୂର୍ଣ୍ଣାୟମାନ ଯନ୍ତ୍ର ଯାହା <strong>ବିଦ୍ୟୁତ୍ ଶକ୍ତିକୁ ଯାନ୍ତ୍ରିକ ଶକ୍ତିରେ</strong> ରୂପାନ୍ତରିତ କରେ[span_23](start_span)[span_23](end_span)। ପଙ୍ଖା, ମିକ୍ସର, ରେଫ୍ରିଜେରେଟର ଆଦିରେ ଏହା ବ୍ୟବହୃତ ହୁଏ[span_24](start_span)[span_24](end_span)。</p>
+
+            <div class="flow">
+                <div class="flow-node">ବିଦ୍ୟୁତ୍ ଶକ୍ତି</div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-node">ଆର୍ମେଚର କୁଣ୍ଡଳୀ ଓ କମ୍ୟୁଟେଟର</div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-node">ଯାନ୍ତ୍ରିକ ଶକ୍ତି (ଘୂର୍ଣ୍ଣନ)</div>
+            </div>
+
+            <p>ମୋଟରରେ <strong>ବିଖଣ୍ଡିତ ବଳୟ (Split ring)</strong> ଏକ <strong>କମ୍ୟୁଟେଟର (Commutator)</strong> ରୂପେ କାର୍ଯ୍ୟକରି ପ୍ରତି ଅର୍ଦ୍ଧ ଘୂର୍ଣ୍ଣନ ପରେ ବିଦ୍ୟୁତ୍ ସ୍ରୋତର ଦିଗ ବଦଳାଇଥାଏ, ଯାହାଫଳରେ କୁଣ୍ଡଳୀଟି ଗୋଟିଏ ଦିଗରେ ଅନବରତ ଘୂରିଥାଏ[span_25](start_span)[span_25](end_span)。</p>
+        </section>
+
+        <!-- Section 6 -->
+        <section id="sec6">
+            <h2>9.6 ବିଦ୍ୟୁତ୍‌ଚୁମ୍ବକୀୟ ପ୍ରେରଣ (Electromagnetic Induction)</h2>
+            <p>1831 ମସିହାରେ ମାଇକେଲ୍ ଫାରାଡେ ଆବିଷ୍କାର କଲେ ଯେ ଗତିଶୀଳ ଚୁମ୍ବକ ବା ପରିବର୍ତ୍ତନଶୀଳ ଚୁମ୍ବକୀୟ କ୍ଷେତ୍ର ଦ୍ଵାରା କୁଣ୍ଡଳୀରେ ବିଦ୍ୟୁତ୍ ସ୍ରୋତ ସୃଷ୍ଟି ହୋଇଥାଏ[span_26](start_span)[span_26](end_span)। ଏହି ପଦ୍ଧତିକୁ <strong>ବିଦ୍ୟୁତ୍‌ଚୁମ୍ବକୀୟ ପ୍ରେରଣ (Electromagnetic Induction)</strong> କୁହାଯାଏ[span_27](start_span)[span_27](end_span)。</p>
+            <p>କୁଣ୍ଡଳୀ ଓ ଚୁମ୍ବକ ମଧ୍ୟରେ <strong>ଆପେକ୍ଷିକ ଗତି (Relative motion)</strong> ଯୋଗୁଁ କୁଣ୍ଡଳୀରେ ପ୍ରେରିତ ବିଭବାନ୍ତର (Induced potential difference) ଓ ପ୍ରେରିତ ବିଦ୍ୟୁତ୍ ସ୍ରୋତ (Induced current) ସୃଷ୍ଟି ହୁଏ[span_28](start_span)[span_28](end_span)。</p>
+        </section>
+
+        <!-- Section 7 -->
+        <section id="sec7">
+            <h2>9.7 ବିଦ୍ୟୁତ୍ ଜେନେରେଟର (Electric Generator)</h2>
+            <p>ବିଦ୍ୟୁତ୍ ଜେନେରେଟର <strong>ଯାନ୍ତ୍ରିକ ଶକ୍ତିକୁ ବିଦ୍ୟୁତ୍ ଶକ୍ତିରେ</strong> ରୂପାନ୍ତରିତ କରେ[span_29](start_span)[span_29](end_span)। ଏହା ବିଦ୍ୟୁତ୍‌ଚୁମ୍ବକୀୟ ପ୍ରେରଣ ନିୟମ ଉପରେ ଆଧାରିତ[span_30](start_span)[span_30](end_span)。</p>
+            
+            <div class="compare">
+                <div class="compare-col ac">
+                    <h4>🔄 ଏସି ଜେନେରେଟର (AC Generator)</h4>
+                    <p>ଏହା ପ୍ରତ୍ୟାବର୍ତ୍ତୀ ବିଦ୍ୟୁତ୍ ସ୍ରୋତ (Alternating Current - AC) ଉତ୍ପନ୍ନ କରେ, ଯାହା ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ସମୟ ବ୍ୟବଧାନରେ ଦିଗ ବଦଳାଏ[span_31](start_span)[span_31](end_span)। ଭାରତରେ ଏହାର ଆବୃତ୍ତି <strong>50 Hz</strong> ଅଟେ[span_32](start_span)[span_32](end_span)。</p>
+                </div>
+                <div class="compare-col dc">
+                    <h4>⚡ ଡିସି ଜେନେରେଟର (DC Generator)</h4>
+                    <p>ଏହା ସଳଖ ବିଦ୍ୟୁତ୍ ସ୍ରୋତ (Direct Current - DC) ଉତ୍ପନ୍ନ କରେ, ଯାହା ସର୍ବଦା ଗୋଟିଏ ଦିଗରେ ପ୍ରବାହିତ ହୁଏ[span_33](start_span)[span_33](end_span)। ଏଥିରେ ସ୍ଲିପ୍ ବଳୟ ବଦଳରେ କମ୍ୟୁଟେଟର ବ୍ୟବହୃତ ହୁଏ[span_34](start_span)[span_34](end_span)。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 8 -->
+        <section id="sec8">
+            <h2>9.8 ଗୃହ ବୈଦ୍ୟୁତିକ ପରିପଥ (Domestic Electric Circuits)</h2>
+            <p>ଆମ ଘରକୁ ମୁଖ୍ୟ ବିଦ୍ୟୁତ୍ ଯୋଗାଣ ତାର (Mains) ଜରିଆରେ ବିଦ୍ୟୁତ୍ ଶକ୍ତି ଆସିଥାଏ[span_35](start_span)[span_35](end_span)। ଆମ ଦେଶରେ ଏହି ତାରଦ୍ଵୟ ମଧ୍ୟରେ ବିଭବାନ୍ତର <strong>220V</strong> ଅଟେ[span_36](start_span)[span_36](end_span)。</p>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ତାରର ପ୍ରକାର (Wire Type)</th>
+                            <th>ରଙ୍ଗ (Color)</th>
+                            <th>କାର୍ଯ୍ୟ ଓ ବିବରଣୀ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>ଲାଇଭ୍ ଲାଇନ୍ (Live/Phase)</strong></td>
+                            <td>ଲାଲ୍ (Red)[span_37](start_span)[span_37](end_span)</td>
+                            <td>ପଜିଟିଭ୍ ଲାଇନ୍, ଯାହା ଘରକୁ ବିଦ୍ୟୁତ୍ ଯୋଗାଏ[span_38](start_span)[span_38](end_span)。</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ନିଉଟ୍ରାଲ୍ ଲାଇନ୍ (Neutral)</strong></td>
+                            <td>କଳା (Black)[span_39](start_span)[span_39](end_span)</td>
+                            <td>ନେଗେଟିଭ୍ ଲାଇନ୍, ପରିପଥ ସମ୍ପୂର୍ଣ୍ଣ କରେ[span_40](start_span)[span_40](end_span)。</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ଭୂ ତାର (Earth Wire)</strong></td>
+                            <td>ସବୁଜ (Green)[span_41](start_span)[span_41](end_span)</td>
+                            <td>ଧାତବ ଖୋଳରୁ ଲିକ୍ କରୁଥିବା ବିଦ୍ୟୁତ୍ ସ୍ରୋତକୁ ମାଟିକୁ ପଠାଇ ବିପଦରୁ ରକ୍ଷା କରେ[span_42](start_span)[span_42](end_span)。</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="callout mistake-box">
+                <div class="callout-title">⚠️ ସତର୍କତା ଓ ସୁରକ୍ଷା (Short-circuiting & Overloading)</div>
+                <p>ଲାଇଭ୍ ଓ ନିଉଟ୍ରାଲ୍ ତାର ସିଧାସଳଖ ସ୍ପର୍ଶ ହେଲେ <strong>ଲଘୁପଥନ (Short-circuiting)</strong> ଘଟେ ଏବଂ ଅଧିକ ଉପକରଣ ଚାଳନ କଲେ <strong>ଓଭରଲୋଡିଂ (Overloading)</strong> ହୁଏ[span_43](start_span)[span_43](end_span)। ଏହି କ୍ଷତିରୁ ରକ୍ଷା ପାଇଁ <strong>ଫ୍ୟୁଜ୍ (Fuse)</strong> ଏକ ଗୁରୁତ୍ଵପୂର୍ଣ୍ଣ ସୁରକ୍ଷା ବ୍ୟବସ୍ଥା ଅଟେ[span_44](start_span)[span_44](end_span)。</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 ବିଦ୍ୟୁତ୍ ସ୍ରୋତର ଚୁମ୍ବକୀୟ ପ୍ରଭାବ • ଶିକ୍ଷଣୀୟ ନୋଟ୍ ସଂକଳନ</p>
+        </footer>
+    </div>
+
+</body>
+</html>
