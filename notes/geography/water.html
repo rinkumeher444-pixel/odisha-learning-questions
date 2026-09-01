@@ -1,1 +1,866 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ - ତୃତୀୟ ଅଧ୍ୟାୟ: ଜଳ ସମ୍ବଳ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b111e;
+      --bg-panel: #131d31;
+      --bg-card: #1b263e;
+      --bg-card-hover: #22304d;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(20, 184, 166, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(245, 158, 11, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Sans Oriya', 'Outfit', sans-serif;
+      line-height: 1.75;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1060px;
+      margin: 0 auto;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.25;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--teal-glow);
+      color: var(--teal);
+      border: 1px solid rgba(20, 184, 166, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #67e8f9, #93c5fd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 720px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--teal);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.15rem;
+      color: #e2e8f0;
+      margin: 22px 0 12px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 0.98rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.05rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 16px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#f59e0b" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#38bdf8"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#f59e0b"/>
+    </svg>
+    <div class="badge">💧 ଦଶମ ଶ୍ରେଣୀ • ଭୂଗୋଳ • ତୃତୀୟ ଅଧ୍ୟାୟ</div>
+    <h1>ଜଳ ସମ୍ବଳ (Water Resources)</h1>
+    <p>ଜଳର ଗୁରୁତ୍ୱ, ଜଳାଭାବର କାରଣ, ବହୁମୁଖୀ ନଦୀବନ୍ଧ ଯୋଜନା, ନଦୀଜଳ ବିବାଦ, ବୃଷ୍ଟିଜଳ ଅମଳ (Rainwater Harvesting) ଏବଂ ଜଳ ସଂରକ୍ଷଣର ଏକ ସମ୍ପୂର୍ଣ୍ଣ ସାରାଂଶ।</p>
+  </header>
+
+  <!-- Navigation Pills -->
+  <nav class="pillnav">
+    <a href="#intro">ଜଳର ମହତ୍ତ୍ୱ ଓ ତଥ୍ୟ</a>
+    <a href="#scarcity">ଜଳାଭାବର କାରଣ</a>
+    <a href="#multipurpose">ବହୁମୁଖୀ ନଦୀ ଯୋଜନା</a>
+    <a href="#dams-table">ମୁଖ୍ୟ ନଦୀବନ୍ଧ ସାରଣୀ</a>
+    <a href="#disputes">ନଦୀଜଳ ବିବାଦ</a>
+    <a href="#grid">ଜାତୀୟ ନଦୀ ସଂଯୋଗୀକରଣ</a>
+    <a href="#harvesting">ବୃଷ୍ଟିଜଳ ଅମଳ ପଦ୍ଧତି</a>
+    <a href="#groundwater">ଭୂଗର୍ଭ ଜଳ ଓ ବାଉଁଶ ନଳା</a>
+    <a href="#exercises">ପ୍ରଶ୍ନୋତ୍ତର</a>
+  </nav>
+
+  <!-- 1. Introduction & Facts -->
+  <section id="intro">
+    <h2 class="sec-title">🌊 ୧. ଜଳର ଗୁରୁତ୍ୱ ଏବଂ କେତେକ ବାସ୍ତବ ତଥ୍ୟ</h2>
+    <p>
+      ଜଳ ବିନା ଜୀବନର କଳ୍ପନା ଅସମ୍ଭବ[span_0](start_span)[span_0](end_span)। କୁହାଯାଏ — <em>“ଜଳ ବହୁଳେ ସୃଷ୍ଟି ନାଶ ଓ ଜଳ ବିହୁନେ ସୃଷ୍ଟି ନାଶ”</em>[span_1](start_span)[span_1](end_span)। ପ୍ରାଣୀ ଶରୀରରେ ପ୍ରାୟ <strong>୬୫%</strong> ଏବଂ ଉଦ୍ଭିଦ ଶରୀରରେ ପ୍ରାୟ <strong>୬୫% ରୁ ୯୯%</strong> ପର୍ଯ୍ୟନ୍ତ ଜଳ ରହିଥାଏ[span_2](start_span)[span_2](end_span)।
+    </p>
+
+    <div class="flow">
+      <div class="flow-node">ପୃଷ୍ଠୀୟ ପ୍ରବାହ ଓ ଭୂତଳ ଜଳ</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ବାଷ୍ପୀଭବନ ଓ ଘନୀଭବନ</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ବୃଷ୍ଟିପାତ (ଜଳଚକ୍ର)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ନିରନ୍ତର ନବୀକରଣ (ଅସରନ୍ତି ସମ୍ବଳ)</div>
+    </div>
+
+    <div class="compare">
+      <div class="card blue">
+        <h4>ପୃଥିବୀର ଜଳ ବିତରଣ</h4>
+        <ul>
+          <li><strong>୯୭%</strong> ଜଳ ସାଗର ଓ ମହାସାଗରରେ ରହିଛି (ଲୁଣିଆ)[span_3](start_span)[span_3](end_span)।</li>
+          <li>ମାତ୍ର <strong>୩%</strong> ଜଳ ହେଉଛି ମଧୁର ଜଳ[span_4](start_span)[span_4](end_span)।</li>
+          <li>ମଧୁର ଜଳର <strong>୭୦%</strong> ଆଣ୍ଟାର୍କଟିକା, ଗ୍ରୀନଲ୍ୟାଣ୍ଡ ଓ ପର୍ବତ ଶିଖରରେ ବରଫ/ହିମବାହ ରୂପେ ସଞ୍ଚିତ[span_5](start_span)[span_5](end_span)।</li>
+          <li><strong>୩୦% ରୁ କମ୍</strong> ମଧୁର ଜଳ ଭୂଗର୍ଭ ଜଳ ରୂପେ ରହିଛି[span_6](start_span)[span_6](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <h4>ଭାରତର ସ୍ଥିତି (ଜାତିସଂଘ ରିପୋର୍ଟ - ୨୦୦୩)</h4>
+        <ul>
+          <li>ପୃଥିବୀର ସମଗ୍ର ବୃଷ୍ଟିପାତର ମାତ୍ର <strong>୪%</strong> ଭାରତ ପାଇଥାଏ[span_7](start_span)[span_7](end_span)।</li>
+          <li>ବାର୍ଷିକ ମୁଣ୍ଡପିଛା ଜଳ ଉପଲବ୍ଧି ଦୃଷ୍ଟିରୁ ବିଶ୍ୱରେ ଭାରତର ସ୍ଥାନ <strong>୧୩୩ ତମ</strong>[span_8](start_span)[span_8](end_span)।</li>
+          <li><strong>୨୦୨୫ ସୁଦ୍ଧା</strong> ଭାରତର ଅନେକ ଅଞ୍ଚଳ ସମେତ ପୃଥିବୀର ପ୍ରାୟ <strong>୨୦୦ କୋଟି ଲୋକ</strong> ଉତ୍କଟ ଜଳ ସଙ୍କଟର ସମ୍ମୁଖୀନ ହେବେ[span_9](start_span)[span_9](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout def-box">
+      <strong>ମରୁଦ୍ୟାନ (Oasis / ମରୁଦ୍ୱୀପ):</strong><br>
+      ବୃଷ୍ଟିବିରଳ ବାଲୁକାପୂର୍ଣ୍ଣ ମରୁଭୂମି ମଧ୍ୟରେ ଝରଣା ଓ ତା’ର ଚାରିପାଖରେ ଖଜୁରି ଗଛ ଓ ଗୁଳ୍ମ ଆଦି ଥିବା କ୍ଷୁଦ୍ର ଜନବସତିପୂର୍ଣ୍ଣ ଅଞ୍ଚଳକୁ ମରୁଦ୍ୟାନ କୁହାଯାଏ[span_10](start_span)[span_10](end_span)। ଏଠାରେ ବାଜରା, ଗହମ ଓ ମୁଖ୍ୟତଃ ଖଜୁରି ଚାଷ ହୁଏ[span_11](start_span)[span_11](end_span)।
+    </div>
+
+    <div class="callout example-box">
+      <strong>ଜଳ ସଙ୍କଟର ମାନଦଣ୍ଡ:</strong> ସୁଇଡେନ୍‌ର ବିଶାରଦ ଫାଲକେନମାର୍କଙ୍କ ଅନୁସାରେ, ଯେଉଁଠାରେ ବାର୍ଷିକ ମୁଣ୍ଡପିଛା ଜଳ ଉପଲବ୍ଧି <strong>୧୦୦୦ ରୁ ୧୬୦୦ ଘନମିଟର</strong> ଥାଏ, ସେଠାରେ ଜଳ ସଙ୍କଟ (Water Stress) ଘଟିଥାଏ ବୋଲି ଧରାଯାଏ[span_12](start_span)[span_12](end_span)।
+    </div>
+  </section>
+
+  <!-- 2. Water Scarcity -->
+  <section id="scarcity">
+    <h2 class="sec-title">⚠️ ୨. ଜଳାଭାବ (Water Scarcity) ର କାରଣ</h2>
+    <p>ପ୍ରଚୁର ଜଳ ଥାଇ ମଧ୍ୟ ମୁଖ୍ୟତଃ ନିମ୍ନଲିଖିତ ଦୁଇଟି କାରଣରୁ ଜଳ ସଙ୍କଟ ଦେଖାଦେଇଥାଏ:</p>
+
+    <div class="compare">
+      <div class="card coral">
+        <h4>୧. ପରିମାଣାତ୍ମକ କାରଣ (Quantitative)</h4>
+        <ul>
+          <li><strong>ଜନସଂଖ୍ୟା ବୃଦ୍ଧି:</strong> ଘରୋଇ ଚାହିଦା ବୃଦ୍ଧି ସହ ଅଧିକ ଖାଦ୍ୟଶସ୍ୟ ଉତ୍ପାଦନ ପାଇଁ ଜଳର ଅତ୍ୟଧିକ ଶୋଷଣ[span_13](start_span)[span_13](end_span)।</li>
+          <li><strong>ଅତ୍ୟଧିକ ନଳକୂପ ବ୍ୟବହାର:</strong> ଶୁଷ୍କ ଋତୁରେ ଚାଷ ପାଇଁ ବ୍ୟକ୍ତିଗତ କୂପ ଓ ନଳକୂପ ବ୍ୟବହାର ଦ୍ୱାରା ଭୂଗର୍ଭ ଜଳସ୍ତର (Water Table) ହ୍ରାସ ପାଉଛି[span_14](start_span)[span_14](end_span)।</li>
+          <li><strong>ଶିଳ୍ପାୟନ ଓ ସହରୀକରଣ:</strong> କଳକାରଖାନା ଚଳାଇବା, ଥଣ୍ଡା ରଖିବା ଓ ଜଳବିଦ୍ୟୁତ୍ ଉତ୍ପାଦନ ପାଇଁ ପ୍ରଚୁର ଜଳ ଚାହିଦା[span_15](start_span)[span_15](end_span)। ଭାରତର ସମୁଦାୟ ବିଦ୍ୟୁତର ପ୍ରାୟ <strong>୨୨% ଜଳବିଦ୍ୟୁତରୁ</strong> ମିଳିଥାଏ[span_16](start_span)[span_16](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <h4>୨. ଗୁଣାତ୍ମକ କାରଣ (Qualitative - ପ୍ରଦୂଷଣ)</h4>
+        <ul>
+          <li>ପ୍ରଚୁର ଜଳ ଥାଇ ମଧ୍ୟ ତାହା ବ୍ୟବହାର ଅନୁପଯୋଗୀ ହେବା[span_17](start_span)[span_17](end_span)।</li>
+          <li><strong>ବର୍ଜ୍ୟବସ୍ତୁ ନିଷ୍କାସନ:</strong> ଘରୋଇ ଓ ଶିଳ୍ପ ଆବର୍ଜ୍ଜନା, ବିଷାକ୍ତ ରାସାୟନିକ ପଦାର୍ଥ ନଦୀ ଓ ଜଳାଶୟରେ ମିଶିବା[span_18](start_span)[span_18](end_span)।</li>
+          <li><strong>କୃଷି ରାସାୟନିକ:</strong> ଅତ୍ୟଧିକ ରାସାୟନିକ ସାର ଓ କୀଟନାଶକ ପ୍ରୟୋଗ ଯୋଗୁଁ ଜଳ ପ୍ରଦୂଷିତ ହେବା[span_19](start_span)[span_19](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Multipurpose River Valley Projects -->
+  <section id="multipurpose">
+    <h2 class="sec-title">🏗️ ୩. ବହୁମୁଖୀ ନଦୀବନ୍ଧ ଯୋଜନା (Multipurpose River Projects)</h2>
+    <p>
+      ନଦୀ ଶଯ୍ୟାରେ ବନ୍ଧ ବାନ୍ଧି ଜଳ ପ୍ରବାହକୁ ନିୟନ୍ତ୍ରଣ କରି ଜଳଭଣ୍ଡାର (Reservoir) ସୃଷ୍ଟି କରାଯାଏ ଏବଂ ତାହାକୁ ଏକାଧିକ ଉଦ୍ଦେଶ୍ୟରେ ବ୍ୟବହାର କରାଯାଏ[span_20](start_span)[span_20](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>ପଣ୍ଡିତ ଜବାହରଲାଲ ନେହେରୁଙ୍କ ଉକ୍ତି:</strong><br>
+      ସେ ବହୁମୁଖୀ ନଦୀବନ୍ଧ ଯୋଜନାଗୁଡ଼ିକୁ <strong>"ଆଧୁନିକ ଭାରତର ମନ୍ଦିର" (Temples of Modern India)</strong> ବୋଲି ଅଭିହିତ କରିଥିଲେ[span_21](start_span)[span_21](end_span)। ଏହାର ଉଦ୍ଦେଶ୍ୟ ଥିଲା କୃଷିର ବିକାଶ, ଗ୍ରାମ୍ୟ ଅର୍ଥନୀତି, ଦ୍ରୁତ ଶିଳ୍ପାୟନ ଏବଂ ସହରୀ ଅର୍ଥନୀତି ମଧ୍ୟରେ ସମନ୍ୱୟ ପ୍ରତିଷ୍ଠା କରିବା[span_22](start_span)[span_22](end_span)।
+    </div>
+
+    <!-- Diagram -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 600 240" width="550" height="220" xmlns="http://www.w3.org/2000/svg">
+          <!-- Central Dam Hub -->
+          <circle cx="300" cy="120" r="48" fill="#1b263e" stroke="#38bdf8" stroke-width="3"/>
+          <text x="300" y="118" fill="#38bdf8" font-size="12" font-weight="bold" text-anchor="middle">ବହୁମୁଖୀ</text>
+          <text x="300" y="134" fill="#38bdf8" font-size="12" font-weight="bold" text-anchor="middle">ନଦୀ ଯୋଜନା</text>
+
+          <!-- Outer Benefit Nodes -->
+          <!-- 1: Irrigation -->
+          <circle cx="120" cy="50" r="32" fill="#131d31" stroke="#10b981" stroke-width="2"/>
+          <text x="120" y="54" fill="#10b981" font-size="11" font-weight="bold" text-anchor="middle">ଜଳସେଚନ</text>
+          <line x1="255" y1="100" x2="150" y2="60" stroke="#10b981" stroke-dasharray="3 3"/>
+
+          <!-- 2: Hydroelectricity -->
+          <circle cx="300" cy="30" r="30" fill="#131d31" stroke="#f59e0b" stroke-width="2"/>
+          <text x="300" y="34" fill="#f59e0b" font-size="11" font-weight="bold" text-anchor="middle">ଜଳବିଦ୍ୟୁତ୍</text>
+          <line x1="300" y1="72" x2="300" y2="60" stroke="#f59e0b" stroke-dasharray="3 3"/>
+
+          <!-- 3: Flood Control -->
+          <circle cx="480" cy="50" r="32" fill="#131d31" stroke="#38bdf8" stroke-width="2"/>
+          <text x="480" y="54" fill="#38bdf8" font-size="11" font-weight="bold" text-anchor="middle">ବନ୍ୟା ନିୟନ୍ତ୍ରଣ</text>
+          <line x1="345" y1="100" x2="450" y2="60" stroke="#38bdf8" stroke-dasharray="3 3"/>
+
+          <!-- 4: Fisheries -->
+          <circle cx="120" cy="190" r="32" fill="#131d31" stroke="#14b8a6" stroke-width="2"/>
+          <text x="120" y="194" fill="#14b8a6" font-size="11" font-weight="bold" text-anchor="middle">ମତ୍ସ୍ୟ ଚାଷ</text>
+          <line x1="255" y1="140" x2="150" y2="180" stroke="#14b8a6" stroke-dasharray="3 3"/>
+
+          <!-- 5: Industrial & Domestic -->
+          <circle cx="300" cy="210" r="30" fill="#131d31" stroke="#a855f7" stroke-width="2"/>
+          <text x="300" y="214" fill="#c084fc" font-size="10" font-weight="bold" text-anchor="middle">ଶିଳ୍ପ/ଘରୋଇ</text>
+          <line x1="300" y1="168" x2="300" y2="180" stroke="#a855f7" stroke-dasharray="3 3"/>
+
+          <!-- 6: Tourism & Navigation -->
+          <circle cx="480" cy="190" r="32" fill="#131d31" stroke="#f43f5e" stroke-width="2"/>
+          <text x="480" y="194" fill="#f43f5e" font-size="11" font-weight="bold" text-anchor="middle">ପର୍ଯ୍ୟଟନ/ନୌକା</text>
+          <line x1="345" y1="140" x2="450" y2="180" stroke="#f43f5e" stroke-dasharray="3 3"/>
+        </svg>
+        <figcaption>ଚିତ୍ର: ବହୁମୁଖୀ ନଦୀବନ୍ଧ ଯୋଜନାର ବିଭିନ୍ନ ଲକ୍ଷ୍ୟ ଓ ଉଦ୍ଦେଶ୍ୟ</figcaption>
+      </figure>
+    </div>
+
+    <h3 class="sub-title">ପ୍ରାଚୀନ ଭାରତର ଐତିହାସିକ ଜଳ ନିର୍ମାଣ:</h3>
+    <ul>
+      <li><strong>୧ମ ଶତାବ୍ଦୀ:</strong> ଆହ୍ଲାବାଦ ନିକଟସ୍ଥ ଶ୍ରୀଙ୍ଗାଭେରାପୁରଠାରେ ଗଙ୍ଗା ଓ ଯମୁନାର ଜଳ ନିୟନ୍ତ୍ରଣ ପାଇଁ ଉନ୍ନତ ଜଳ ଅମଳ ବ୍ୟବସ୍ଥା[span_23](start_span)[span_23](end_span)।</li>
+      <li><strong>ଚନ୍ଦ୍ରଗୁପ୍ତ ମୌର୍ଯ୍ୟଙ୍କ ସମୟ:</strong> ବ୍ୟାପକ ନଦୀବନ୍ଧ, ହ୍ରଦ ଓ କେନାଲ ନିର୍ମାଣ[span_24](start_span)[span_24](end_span)।</li>
+      <li><strong>ପ୍ରାଚୀନ ସଭ୍ୟତା:</strong> କଳିଙ୍ଗ (ଓଡ଼ିଶା), ନାଗାର୍ଜୁନକୋଣ୍ଡା (ଆନ୍ଧ୍ର), ବେନ୍ନୁର (କର୍ଣ୍ଣାଟକ), କୋହ୍ଲାପୁର (ମହାରାଷ୍ଟ୍ର)[span_25](start_span)[span_25](end_span)।</li>
+      <li><strong>୧୧ଶ ଶତାବ୍ଦୀ:</strong> ବିଖ୍ୟାତ ‘ଭୋପାଳ ହ୍ରଦ’ ଖନନ[span_26](start_span)[span_26](end_span)।</li>
+      <li><strong>୧୪ଶ ଶତାବ୍ଦୀ:</strong> ସୁଲତାନ ଇଲତୁତ୍‌ମିସ୍‌ଙ୍କ ଦ୍ୱାରା ଶିରିଫୋର୍ଟ ଅଞ୍ଚଳକୁ ଜଳ ଯୋଗାଣ ପାଇଁ ଦିଲ୍ଲୀର <strong>ହଜ୍‌ଖାସ୍ (Hauz Khas)</strong> ଜଳାଶୟ ନିର୍ମାଣ[span_27](start_span)[span_27](end_span)।</li>
+    </ul>
+
+    <h3 class="sub-title">ବହୁମୁଖୀ ଯୋଜନାର କୁପ୍ରଭାବ ଓ ଜନ ଅସନ୍ତୋଷ:</h3>
+    <div class="compare">
+      <div class="card coral">
+        <h4>ପାରିବେଶିକ ସମସ୍ୟା</h4>
+        <ul>
+          <li>ନଦୀର ସ୍ୱାଭାବିକ ଗତିରୋଧ ଓ ଜଳଚର ଜୀବଙ୍କ ବଂଶବୃଦ୍ଧିରେ ବାଧା[span_28](start_span)[span_28](end_span)।</li>
+          <li>ଜଳଭଣ୍ଡାରରେ ଅତ୍ୟଧିକ ପଟୁ ଜମା ହେବା ଯୋଗୁଁ ନଦୀ ପଠା ପୋତି ହୋଇ <strong>ବର୍ଷା ଦିନେ କୃତ୍ରିମ ବନ୍ୟା ସୃଷ୍ଟି</strong>[span_29](start_span)[span_29](end_span)।</li>
+          <li>ଜଙ୍ଗଲ ଓ ଉର୍ବର କୃଷିଜମି ଜଳମଗ୍ନ ହୋଇ ପଚିଯିବା ଏବଂ ମୃତ୍ତିକା ଅବକ୍ଷୟ[span_30](start_span)[span_30](end_span)।</li>
+          <li>ଭୂମିକମ୍ପର ଆଶଙ୍କା ବୃଦ୍ଧି ଓ ଜଳବାହିତ ରୋଗର ପ୍ରାଦୁର୍ଭାବ[span_31](start_span)[span_31](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <h4>ସାମାଜିକ ସମସ୍ୟା ଓ ଆନ୍ଦୋଳନ</h4>
+        <ul>
+          <li>ସ୍ଥାନୀୟ ଜନସାଧାରଣ ଓ ଆଦିବାସୀଙ୍କ ବ୍ୟାପକ ବିସ୍ଥାପନ ଏବଂ ଥଇଥାନର ଅଭାବ[span_32](start_span)[span_32](end_span)।</li>
+          <li><strong>ପ୍ରମୁଖ ଆନ୍ଦୋଳନ:</strong> ନର୍ମଦା ବଚାଓ ଆନ୍ଦୋଳନ (ସର୍ଦ୍ଦାର ସରୋବର ଡ୍ୟାମ୍ ବିରୋଧରେ)[span_33](start_span)[span_33](end_span), ତେହେରୀ ଡ୍ୟାମ୍ ଆନ୍ଦୋଳନ[span_34](start_span)[span_34](end_span)।</li>
+          <li>ଅତ୍ୟଧିକ ଜଳସେଚନ ଯୋଗୁଁ ମୃତ୍ତିକାରେ ଲବଣାଂଶ ବୃଦ୍ଧି ଏବଂ ଧନୀ ଚାଷୀ ଓ ଭୂମିହୀନଙ୍କ ମଧ୍ୟରେ ଅସନ୍ତୋଷ[span_35](start_span)[span_35](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Dam Table -->
+  <section id="dams-table">
+    <h2 class="sec-title">📊 ୪. ଭାରତର ମୁଖ୍ୟ ନଦୀବନ୍ଧ ଯୋଜନା (ସାରଣୀ - ୦୭)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>କ୍ରମିକ</th>
+            <th>ଯୋଜନାର ନାମ</th>
+            <th>ନଦୀ</th>
+            <th>ନିର୍ମିତ ନଦୀବନ୍ଧ / ଜଳଭଣ୍ଡାର</th>
+            <th>ଉପକୃତ ରାଜ୍ୟ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>୧</td>
+            <td><strong>ଦାମୋଦର ଉପତ୍ୟକା</strong></td>
+            <td>ଦାମୋଦର</td>
+            <td>ତିଲେୟା, କୋନାର, ମୈଥାନ, ପଞ୍ଚେତ୍ ହିଲ୍</td>
+            <td>ଝାଡ଼ଖଣ୍ଡ, ପଶ୍ଚିମବଙ୍ଗ</td>
+          </tr>
+          <tr>
+            <td>୨</td>
+            <td><strong>ଭାକ୍ରାନଙ୍ଗଲ</strong></td>
+            <td>ସତ୍‌ଲେଜ୍</td>
+            <td>ଭାକ୍ରା, ନଙ୍ଗଲ, ପୋଙ୍ଗ (ଜଳଭଣ୍ଡାର: ଗୋବିନ୍ଦ ସାଗର)</td>
+            <td>ପଞ୍ଜାବ, ହରିୟାଣା, ହିମାଚଳ ପ୍ରଦେଶ, ଦିଲ୍ଲୀ</td>
+          </tr>
+          <tr>
+            <td>୩</td>
+            <td><strong>ହୀରାକୁଦ</strong></td>
+            <td>ମହାନଦୀ</td>
+            <td>ହୀରାକୁଦ ନଦୀବନ୍ଧ</td>
+            <td>ଓଡ଼ିଶା</td>
+          </tr>
+          <tr>
+            <td>୪</td>
+            <td><strong>ତୁଙ୍ଗଭଦ୍ରା</strong></td>
+            <td>ତୁଙ୍ଗଭଦ୍ରା</td>
+            <td>ତୁଙ୍ଗଭଦ୍ରା ଡ୍ୟାମ୍</td>
+            <td>କର୍ଣ୍ଣାଟକ, ଆନ୍ଧ୍ରପ୍ରଦେଶ</td>
+          </tr>
+          <tr>
+            <td>୫</td>
+            <td><strong>ନାଗାର୍ଜୁନ ସାଗର</strong></td>
+            <td>କୃଷ୍ଣା</td>
+            <td>ନାଗାର୍ଜୁନ ସାଗର ଡ୍ୟାମ୍</td>
+            <td>ଆନ୍ଧ୍ରପ୍ରଦେଶ</td>
+          </tr>
+          <tr>
+            <td>୬</td>
+            <td><strong>ନର୍ମଦା ଉପତ୍ୟକା</strong></td>
+            <td>ନର୍ମଦା</td>
+            <td>ସର୍ଦ୍ଦାର ସରୋବର, ନର୍ମଦା ସାଗର, ବର୍ଗୀ</td>
+            <td>ମଧ୍ୟପ୍ରଦେଶ, ମହାରାଷ୍ଟ୍ର, ଗୁଜରାଟ, ରାଜସ୍ଥାନ</td>
+          </tr>
+          <tr>
+            <td>୭</td>
+            <td><strong>କୋଶୀ</strong></td>
+            <td>କୋଶୀ</td>
+            <td>କୋଶୀ ବ୍ୟାରେଜ୍</td>
+            <td>ବିହାର, ଝାଡ଼ଖଣ୍ଡ</td>
+          </tr>
+          <tr>
+            <td>୮</td>
+            <td><strong>ଚମ୍ବଲ ଉପତ୍ୟକା</strong></td>
+            <td>ଚମ୍ବଲ</td>
+            <td>ଗାନ୍ଧୀ ସାଗର, ରାଣା ପ୍ରତାପ ସାଗର, ଜବାହର ସାଗର</td>
+            <td>ରାଜସ୍ଥାନ, ମଧ୍ୟପ୍ରଦେଶ</td>
+          </tr>
+          <tr>
+            <td>୯</td>
+            <td><strong>ଇନ୍ଦିରାଗାନ୍ଧୀ କେନାଲ</strong></td>
+            <td>ବେୟାସ, ସତ୍‌ଲେଜ୍</td>
+            <td>ରବି, ବେୟାସ ଓ ସତ୍‌ଲେଜ୍ ନଦୀର ବନ୍ଧ (ପୋଙ୍ଗ ଡ୍ୟାମ୍)</td>
+            <td>ରାଜସ୍ଥାନ, ହିମାଚଳ ପ୍ରଦେଶ</td>
+          </tr>
+          <tr>
+            <td>୧୦</td>
+            <td><strong>ମେଟୁର ଯୋଜନା</strong></td>
+            <td>କାବେରୀ</td>
+            <td>ମେଟୁର ନଦୀବନ୍ଧ</td>
+            <td>ତାମିଲନାଡୁ</td>
+          </tr>
+          <tr>
+            <td>୧୧</td>
+            <td><strong>କୋଏନା ଯୋଜନା</strong></td>
+            <td>କୃଷ୍ଣା (କୋଏନା)</td>
+            <td>କୋଏନା ନଦୀବନ୍ଧ</td>
+            <td>ମହାରାଷ୍ଟ୍ର</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 5. Water Disputes -->
+  <section id="disputes">
+    <h2 class="sec-title">⚖️ ୫. ଆନ୍ତଃରାଜ୍ୟ ନଦୀଜଳ ବିବାଦ (Inter-State Water Disputes)</h2>
+    <p>
+      ଭାରତର ସମ୍ବିଧାନ (୧୯୫୦) ଅନୁଯାୟୀ ଜଳ ହେଉଛି ଏକ <strong>ରାଜ୍ୟ ତାଲିକାଭୁକ୍ତ ବିଷୟ</strong>[span_36](start_span)[span_36](end_span)। କିନ୍ତୁ ବିବାଦ ସମାଧାନ ପାଇଁ <strong>୧୯୫୬ ଜଳବିବାଦ ଆଇନ</strong> (୨୦୦୨ ସଂଶୋଧିତ) ବଳରେ ସର୍ବୋଚ୍ଚ ନ୍ୟାୟାଳୟଙ୍କ ୩ ଜଣ ଜଜ୍‌ଙ୍କୁ ନେଇ ଟ୍ରିବ୍ୟୁନାଲ୍ ଗଠନ କରାଯାଏ[span_37](start_span)[span_37](end_span)।
+    </p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>କ୍ରମିକ</th>
+            <th>ଜଳ ବିବାଦ</th>
+            <th>ସମ୍ପୃକ୍ତ ରାଜ୍ୟଗୁଡ଼ିକ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>୧</td><td><strong>କାବେରୀ ନଦୀ</strong></td><td>କର୍ଣ୍ଣାଟକ, କେରଳ, ତାମିଲନାଡୁ</td></tr>
+          <tr><td>୨</td><td><strong>କୃଷ୍ଣା ନଦୀ</strong></td><td>ମହାରାଷ୍ଟ୍ର, କର୍ଣ୍ଣାଟକ, ଆନ୍ଧ୍ରପ୍ରଦେଶ</td></tr>
+          <tr><td>୩</td><td><strong>ତୁଙ୍ଗଭଦ୍ରା</strong></td><td>ଆନ୍ଧ୍ରପ୍ରଦେଶ, କର୍ଣ୍ଣାଟକ</td></tr>
+          <tr><td>୪</td><td><strong>ଗୋଦାବରୀ</strong></td><td>ଆନ୍ଧ୍ରପ୍ରଦେଶ, ମଧ୍ୟପ୍ରଦେଶ, ମହାରାଷ୍ଟ୍ର, ଓଡ଼ିଶା</td></tr>
+          <tr><td>୫</td><td><strong>ନର୍ମଦା</strong></td><td>ଗୁଜରାଟ, ମଧ୍ୟପ୍ରଦେଶ, ମହାରାଷ୍ଟ୍ର, ରାଜସ୍ଥାନ</td></tr>
+          <tr><td>୬</td><td><strong>ରବି, ବେୟାସ, ସତ୍‌ଲେଜ୍</strong></td><td>ପଞ୍ଜାବ, ହରିୟାଣା, ରାଜସ୍ଥାନ, ଦିଲ୍ଲୀ, ଜାମ୍ମୁ ଓ କାଶ୍ମୀର</td></tr>
+          <tr><td>୭</td><td><strong>ଯମୁନା</strong></td><td>ଉତ୍ତର ପ୍ରଦେଶ, ହରିୟାଣା, ରାଜସ୍ଥାନ, ହିମାଚଳ ପ୍ରଦେଶ, ପଞ୍ଜାବ, ମଧ୍ୟପ୍ରଦେଶ, ଦିଲ୍ଲୀ</td></tr>
+          <tr><td>୮</td><td><strong>ପେରିୟାର (ମୁଲ୍ଲା ପେରିୟାର)</strong></td><td>କେରଳ, ତାମିଲନାଡୁ</td></tr>
+          <tr><td>୯</td><td><strong>ମହାନଦୀ</strong></td><td>ଓଡ଼ିଶା, ଛତିଶଗଡ଼</td></tr>
+          <tr><td>୧୦</td><td><strong>ପୋଲାଭରମ୍ (ଗୋଦାବରୀ)</strong></td><td>ଓଡ଼ିଶା, ଆନ୍ଧ୍ରପ୍ରଦେଶ</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 6. National Water Grid -->
+  <section id="grid">
+    <h2 class="sec-title">🌐 ୬. ଜାତୀୟ ନଦୀ ସଂଯୋଗୀକରଣ (National Water Grid)</h2>
+    <p>
+      ଉତ୍ତର ଭାରତର ହିମାଳୟ ସୃଷ୍ଟ ନଦୀଗୁଡ଼ିକ ଚିରସ୍ରୋତା (ବନ୍ୟା ପ୍ରବଣ) କିନ୍ତୁ ଦକ୍ଷିଣ ଭାରତର ନଦୀଗୁଡ଼ିକ କେବଳ ବର୍ଷାଜଳ ପୁଷ୍ଟ (ମରୁଡ଼ି ପ୍ରବଣ)[span_38](start_span)[span_38](end_span)। ବନ୍ୟା ଓ ମରୁଡ଼ି ନିୟନ୍ତ୍ରଣ ପାଇଁ <strong>National Water Grid</strong> ଯୋଜନା ପ୍ରସ୍ତୁତ କରାଯାଇଛି[span_39](start_span)[span_39](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ପ୍ରମୁଖ ନଦୀ ସଂଯୋଗ ପ୍ରକଳ୍ପ (Link Canals):</h4>
+        <ol>
+          <li>ଗଙ୍ଗା - କାବେରୀ ଲିଙ୍କ୍ କେନାଲ[span_40](start_span)[span_40](end_span)</li>
+          <li>ବ୍ରହ୍ମପୁତ୍ର - ଗଙ୍ଗା ଲିଙ୍କ୍ କେନାଲ[span_41](start_span)[span_41](end_span)</li>
+          <li>ନର୍ମଦା ଲିଙ୍କ୍ କେନାଲ[span_42](start_span)[span_42](end_span)</li>
+          <li>ଚମ୍ବଲ ଲିଙ୍କ୍ କେନାଲ[span_43](start_span)[span_43](end_span)</li>
+          <li>ପଶ୍ଚିମଘାଟ ପର୍ବତ ନଦୀ - ପୂର୍ବ ଉପକୂଳ ଲିଙ୍କ୍[span_44](start_span)[span_44](end_span)</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Rainwater Harvesting -->
+  <section id="harvesting">
+    <h2 class="sec-title">🌧️ ୭. ବୃଷ୍ଟିଜଳ ଅମଳ (Rainwater Harvesting)</h2>
+    <p>
+      ପାରମ୍ପରିକ ଜ୍ଞାନକୌଶଳକୁ ବ୍ୟବହାର କରି ବର୍ଷାଜଳକୁ ସଂଗ୍ରହ ଓ ଭୂତଳ ଜଳ ଭରଣା କରିବା ଏକ ପାରିବେଶିକ ଅନୁକୂଳ ପନ୍ଥା[span_45](start_span)[span_45](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card green">
+        <h4>ପାର୍ବତ୍ୟାଞ୍ଚଳ (ପଶ୍ଚିମ ହିମାଳୟ)</h4>
+        <p>କୃଷିକ୍ଷେତ୍ରକୁ ଜଳ ନେବା ପାଇଁ <strong>‘ଗୁଲ୍’ (Guls)</strong> କିମ୍ବା <strong>‘କୁଲ୍’ (Kuls)</strong> ନାମକ ପାଣିମାହାରା କେନାଲ ଖୋଳାଯାଏ[span_46](start_span)[span_46](end_span)।</p>
+      </div>
+      <div class="card gold">
+        <h4>ଶୁଷ୍କ କୃଷିଭୂମି (ରାଜସ୍ଥାନ)</h4>
+        <p>ବର୍ଷାଜଳ ସଂଗ୍ରହ କରି ମାଟି ଓଦା ରଖିବା ପାଇଁ ଜୈସାଲମାର୍‌ରେ <strong>‘ଖାଡିନ୍’ (Khadin)</strong> ଏବଂ ଅନ୍ୟାନ୍ୟ ସ୍ଥାନରେ <strong>‘ଜୋହାଦ୍’ (Johad)</strong> ନିର୍ମିତ ହୁଏ[span_47](start_span)[span_47](end_span)।</p>
+      </div>
+      <div class="card blue">
+        <h4>ଛାତ ଉପର ଜଳ ଅମଳ ଓ ଟନକା (Tanka)</h4>
+        <p>ବିକାନିର, ଫାଲୋଡ଼ି ଓ ବାରମାରରେ ଘର ଅଗଣା ବା କୋଠରୀ ତଳେ ଭୂଗର୍ଭ ଜଳାଶୟ (ଟନକା) ନିର୍ମାଣ କରାଯାଏ[span_48](start_span)[span_48](end_span)। ଏହାର ମାପ: <strong>୬.୧ ମି. ଗଭୀର, ୪.୨୫ ମି. ଦୈର୍ଘ୍ୟ, ୨.୪୪ ମି. ପ୍ରସ୍ଥ</strong>[span_49](start_span)[span_49](end_span)।</p>
+      </div>
+      <div class="card teal">
+        <h4>ପଲାର ପାନି (Palar Pani)</h4>
+        <p>ସଂଗୃହୀତ ବର୍ଷାଜଳକୁ ‘ପଲାର ପାନି’ କୁହାଯାଏ, ଯାହା ପ୍ରାକୃତିକ ଜଳର ଶୁଦ୍ଧତମ ରୂପ[span_50](start_span)[span_50](end_span)। ପ୍ରଥମ ଅସରା ବର୍ଷାଜଳକୁ ଛାତ ସଫା ପାଇଁ ଛାଡ଼ି ପରବର୍ତ୍ତୀ ଜଳ ସଂଗ୍ରହ ହୁଏ[span_51](start_span)[span_51](end_span)।</p>
+      </div>
+    </div>
+
+    <!-- Rainwater Harvesting Diagram -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 500 250" width="460" height="230" xmlns="http://www.w3.org/2000/svg">
+          <!-- Clouds and Rain -->
+          <path d="M 80,40 Q 95,20 120,30 Q 145,15 170,35 Q 190,30 195,50 Q 150,60 80,40 Z" fill="#38bdf8" opacity="0.4"/>
+          <line x1="90" y1="55" x2="80" y2="75" stroke="#38bdf8" stroke-width="2" stroke-dasharray="3 3"/>
+          <line x1="120" y1="55" x2="110" y2="75" stroke="#38bdf8" stroke-width="2" stroke-dasharray="3 3"/>
+          <line x1="150" y1="55" x2="140" y2="75" stroke="#38bdf8" stroke-width="2" stroke-dasharray="3 3"/>
+
+          <!-- House Roof -->
+          <polygon points="60,95 180,60 220,95" fill="#1e293b" stroke="#f59e0b" stroke-width="3"/>
+          <rect x="80" y="95" width="120" height="90" fill="#131d31" stroke="#3b4f77" stroke-width="2"/>
+          <text x="140" y="145" fill="#94a3b8" font-size="11" text-anchor="middle">ବାସଗୃହ</text>
+
+          <!-- Pipe Connection -->
+          <path d="M 215,92 L 230,92 L 230,200 L 290,200" fill="none" stroke="#14b8a6" stroke-width="4"/>
+          
+          <!-- Underground Tank (Tanka) -->
+          <rect x="290" y="160" width="150" height="75" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+          <!-- Water inside Tank -->
+          <rect x="295" y="185" width="140" height="45" fill="#38bdf8" opacity="0.3"/>
+          <text x="365" y="195" fill="#38bdf8" font-size="12" font-weight="bold" text-anchor="middle">ଭୂଗର୍ଭ ଟନକା (Tanka)</text>
+          <text x="365" y="215" fill="#fde68a" font-size="10" text-anchor="middle">(ପଲାର ପାନି ସଂଗ୍ରହ)</text>
+        </svg>
+        <figcaption>ଚିତ୍ର: ଛାତ ଉପର ବୃଷ୍ଟିଜଳ ଅମଳ ଓ ଭୂତଳ ‘ଟନକା’ ବ୍ୟବସ୍ଥା</figcaption>
+      </figure>
+    </div>
+
+    <div class="callout activity-box">
+      <strong>ରୋଚକ ତଥ୍ୟ:</strong>
+      <ul>
+        <li><strong>ତାମିଲନାଡୁ:</strong> ଭାରତର ଏକମାତ୍ର ରାଜ୍ୟ ଯେଉଁଠି ପ୍ରତ୍ୟେକ ଘରେ ଛାତ ଉପର ବୃଷ୍ଟିଜଳ ଅମଳ ବ୍ୟବସ୍ଥା <strong>ବାଧ୍ୟତାମୂଳକ ଆଇନ</strong> କରାଯାଇଛି (ଖିଲାପ କଲେ ଦଣ୍ଡ ବିଧାନ ଅଛି)[span_52](start_span)[span_52](end_span)।</li>
+        <li><strong>ଗେଣ୍ଡାଥୁର ଗ୍ରାମ (ମହୀଶୂର, କର୍ଣ୍ଣାଟକ):</strong> ଏହି ପଛୁଆ ଗାଁର ପ୍ରାୟ <strong>୨୦୦ ପରିବାର</strong> ଛାତ ଉପରେ ଜଳ ଅମଳ କରି ଦେଶରେ ସ୍ୱତନ୍ତ୍ର ସମ୍ମାନ ପାଇଛନ୍ତି[span_53](start_span)[span_53](end_span)।</li>
+        <li><strong>ଶିଲଂ (ମେଘାଳୟ):</strong> ମାତ୍ର ୫୫ କି.ମି. ଦୂରରେ ଚେରାପୁଞ୍ଜି ଓ ମୌସିନରାମରେ ବିଶ୍ୱର ସର୍ବାଧିକ ବୃଷ୍ଟିପାତ ହେଉଥିଲେ ମଧ୍ୟ ଶିଲଂରେ ଜଳାଭାବ ଥାଏ[span_54](start_span)[span_54](end_span)। ତେଣୁ ଏଠାରେ ପ୍ରତ୍ୟେକ ପରିବାର ନିଜ ଚାହିଦାର <strong>୧୫% ରୁ ୨୫% ଜଳ</strong> ଛାତ ଉପର ଅମଳରୁ ପାଇଥାନ୍ତି[span_55](start_span)[span_55](end_span)।</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 8. Groundwater & Bamboo Drip System -->
+  <section id="groundwater">
+    <h2 class="sec-title">🎋 ୮. ବାଉଁଶ ନଳା ବୁନ୍ଦା ଜଳସେଚନ ଓ ଭୂଗର୍ଭ ଜଳ</h2>
+    
+    <div class="compare">
+      <div class="card green">
+        <h4>ବାଉଁଶ ନଳା ବୁନ୍ଦା ଜଳସେଚନ (Bamboo Drip Irrigation)</h4>
+        <ul>
+          <li>ମେଘାଳୟରେ ପ୍ରଚଳିତ ଏହି ପଦ୍ଧତି ପ୍ରାୟ <strong>୨୦୦ ବର୍ଷ ପୁରୁଣା</strong>[span_56](start_span)[span_56](end_span)।</li>
+          <li>ପାହାଡ଼ିଆ ଝରଣାରୁ ବାଉଁଶ ପାଇପ୍ ଦ୍ୱାରା ମାଧ୍ୟାକର୍ଷଣ ବଳ ସାହାଯ୍ୟରେ ଜଳ ଶହ ଶହ ମିଟର ଦୂରକୁ ନିଆଯାଏ[span_57](start_span)[span_57](end_span)।</li>
+          <li>ପ୍ରାରମ୍ଭିକ ୧୮-୨୦ ଲିଟର ଜଳ ପ୍ରବାହିତ ହୋଇ ଶେଷରେ ଗଛ ମୂଳରେ <strong>ପ୍ରତି ମିନିଟ୍‌ରେ ୨୦ ରୁ ୮୦ ବୁନ୍ଦା</strong> ହିସାବରେ ପଡ଼ିଥାଏ[span_58](start_span)[span_58](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card teal">
+        <h4>ଭାରତରେ ଭୂଗର୍ଭ ଜଳ ବିତରଣ</h4>
+        <ul>
+          <li><strong>ପ୍ରଚୁର ଭୂତଳ ଜଳ:</strong> ଉତ୍ତର ଭାରତର ଗଙ୍ଗା-ବ୍ରହ୍ମପୁତ୍ର ସମତଳ ଅଞ୍ଚଳ, ନର୍ମଦା-ତାପ୍ତୀ ଗ୍ରସ୍ତ ଉପତ୍ୟକା, ଓଡ଼ିଶା, ଆନ୍ଧ୍ର, ତାମିଲନାଡୁ, କେରଳର ଉପକୂଳବର୍ତ୍ତୀ ଅଞ୍ଚଳ[span_59](start_span)[span_59](end_span)।</li>
+          <li><strong>ସୀମିତ ଭୂତଳ ଜଳ:</strong> ଦକ୍ଷିଣ ଭାରତର କଠିନ ଶିଳାଯୁକ୍ତ ମାଳଭୂମି, ଦକ୍ଷିଣ-ପଶ୍ଚିମ ଓଡ଼ିଶା, ମହାରାଷ୍ଟ୍ର, ରାଜସ୍ଥାନ, ଝାଡ଼ଖଣ୍ଡ[span_60](start_span)[span_60](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Exercises -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ୯. ଅଧ୍ୟାୟ ଅଭ୍ୟାସ ପ୍ରଶ୍ନୋତ୍ତର</h2>
+
+    <h3 class="sub-title">୧. ସଠିକ୍ ବିକଳ୍ପ ବାଛ:</h3>
+    <div class="compare">
+      <div class="card">
+        <p><strong>(i) ବହୁମୁଖୀ ନଦୀବନ୍ଧ ଯୋଜନା ସମ୍ବନ୍ଧରେ କେଉଁଟି ଅନୁକୂଳ ମନ୍ତବ୍ୟ ନୁହେଁ ?</strong>[span_61](start_span)[span_61](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: (c) ବହୁମୁଖୀ ନଦୀବନ୍ଧ ଯୋଜନା ଅନେକ ଲୋକଙ୍କର ଭିଟାମାଟି ଓ ଜୀବିକାର୍ଜନ ପନ୍ଥା ହରାଇବାକୁ ବାଧ୍ୟ କରେ[span_62](start_span)[span_62](end_span) (ଏହା ଏକ କୁପ୍ରଭାବ)।</p>
+      </div>
+      <div class="card">
+        <p><strong>(ii) ଭୁଲ୍ ତଥ୍ୟକୁ ସଂଶୋଧନ କର:</strong><br>
+        <em>ଭୁଲ୍:</em> ନଦୀବନ୍ଧ ଦ୍ୱାରା ପ୍ରାକୃତିକ ପ୍ରବାହ ପ୍ରଭାବିତ ହୁଏ ନାହିଁ[span_63](start_span)[span_63](end_span) |<br>
+        <span style="color: var(--gold); font-weight: 600;">👉 ସଂଶୋଧିତ ଉତ୍ତର:</span> ନଦୀବନ୍ଧ ଦ୍ୱାରା ନଦୀର ପ୍ରାକୃତିକ ପ୍ରବାହ ଓ ଅବକ୍ଷେପଣ ବାଧାପ୍ରାପ୍ତ ହୁଏ[span_64](start_span)[span_64](end_span) ।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">୨. ସଂକ୍ଷିପ୍ତ ପ୍ରଶ୍ନୋତ୍ତର:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>(i) ଜଳ କିପରି ଏକ ଅସରନ୍ତି ସମ୍ବଳ ?[span_65](start_span)[span_65](end_span)</h4>
+        <p>ଜଳଚକ୍ର ମାଧ୍ୟମରେ ପୃଷ୍ଠୀୟ ଜଳ ବାଷ୍ପୀଭୂତ ହୋଇ ବାୟୁମଣ୍ଡଳକୁ ଯାଏ ଏବଂ ପୁନର୍ବାର ବୃଷ୍ଟିପାତ ଆକାରରେ ଭୂପୃଷ୍ଠକୁ ଫେରିଆସେ[span_66](start_span)[span_66](end_span)। ଏହି ନିରନ୍ତର ନବୀକରଣ ଯୋଗୁଁ ଜଳ ଏକ ଅସରନ୍ତି ସମ୍ବଳ[span_67](start_span)[span_67](end_span) ।</p>
+      </div>
+      <div class="card coral">
+        <h4>(ii) ଜଳାଭାବ ପାଇଁ କେଉଁ କାରଣ ଦାୟୀ ?[span_68](start_span)[span_68](end_span)</h4>
+        <p>ଜନସଂଖ୍ୟା ବୃଦ୍ଧି, ଅତ୍ୟଧିକ ଜଳ ନିଷ୍କାସନ, ଶିଳ୍ପାୟନ, ସହରୀକରଣ ଏବଂ ରାସାୟନିକ ବର୍ଜ୍ୟବସ୍ତୁ ଦ୍ୱାରା ଜଳ ପ୍ରଦୂଷଣ ଜଳାଭାବର ମୁଖ୍ୟ କାରଣ[span_69](start_span)[span_69](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ • ତୃତୀୟ ଅଧ୍ୟାୟ: ଜଳ ସମ୍ବଳ | Digital Learning Note System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
 
