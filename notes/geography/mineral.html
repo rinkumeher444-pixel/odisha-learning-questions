@@ -1,1 +1,811 @@
 
+<!DOCTYPE html>
+<html lang="or">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ - ଚତୁର୍ଥ ଅଧ୍ୟାୟ: ଖଣିଜ ସମ୍ବଳ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Sans Oriya', 'Outfit', sans-serif;
+      line-height: 1.75;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1060px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.25;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #38bdf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 720px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.15rem;
+      color: #e2e8f0;
+      margin: 22px 0 12px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 0.98rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.05rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 16px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">💎 ଦଶମ ଶ୍ରେଣୀ • ଭୂଗୋଳ • ଚତୁର୍ଥ ଅଧ୍ୟାୟ</div>
+    <h1>ଖଣିଜ ସମ୍ବଳ (Mineral Resources)</h1>
+    <p>ଖଣିଜର ସଂଜ୍ଞା, ଶିଳାରେ ଉତ୍ପତ୍ତି ଓ ପ୍ରାପ୍ତି ପ୍ରଣାଳୀ, ଧାତବ (ଲୌହଯୁକ୍ତ ଓ ଲୌହବିହୀନ), ଅଧାତବ ଓ ଶିଳା ଖଣିଜ, ଖଣି ବିପତ୍ତି ଏବଂ ସଂରକ୍ଷଣର ସମ୍ପୂର୍ଣ୍ଣ ସାରାଂଶ।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#intro">ଖଣିଜର ସଂଜ୍ଞା ଓ ମହତ୍ତ୍ୱ</a>
+    <a href="#occurrence">ଖଣିଜ ସୃଷ୍ଟି ଓ ପ୍ରାପ୍ତି ପ୍ରଣାଳୀ</a>
+    <a href="#classification">ଖଣିଜର ବର୍ଗୀକରଣ</a>
+    <a href="#ferrous">ଲୌହମିଶ୍ରିତ ଖଣିଜ (ଲୁହାପଥର ଓ ମାଙ୍ଗାନିଜ୍)</a>
+    <a href="#non-ferrous">ଲୌହବିହୀନ ଖଣିଜ (ତମ୍ବା, ବକ୍ସାଇଟ୍ ଓ କ୍ରୋମାଇଟ୍)</a>
+    <a href="#non-metallic">ଅଧାତବ ଓ ଶିଳା ଖଣିଜ (ଅଭ୍ର ଓ ଚୂନପଥର)</a>
+    <a href="#hazards-conservation">ଖଣି ବିପତ୍ତି ଓ ଖଣିଜ ସଂରକ୍ଷଣ</a>
+    <a href="#exercises">ପ୍ରଶ୍ନୋତ୍ତର</a>
+  </nav>
+
+  <!-- 1. Introduction & Significance -->
+  <section id="intro">
+    <h2 class="sec-title">🔍 ୧. ଖଣିଜ କ’ଣ ଓ ଏହାର ମହତ୍ତ୍ୱ ?</h2>
+    <p>
+      ଖଣିଜ ପଦାର୍ଥ ଆମ ଦୈନନ୍ଦିନ ଜୀବନର ଏକ ଅପରିହାର୍ଯ୍ୟ ଅଂଶ[span_0](start_span)[span_0](end_span)। ଏକ କ୍ଷୁଦ୍ର ପିନ୍‌ଠାରୁ ଆରମ୍ଭ କରି ସୁଉଚ୍ଚ ଅଟ୍ଟାଳିକା, ବିଶାଳ ଜଳଜାହାଜ, ରେଳଧାରଣା, ସଡ଼କ, କଳକାରଖାନା ଏବଂ ଯାନବାହାନ ପର୍ଯ୍ୟନ୍ତ ପ୍ରାୟ ସମସ୍ତ ସାମଗ୍ରୀ ଖଣିଜ ପଦାର୍ଥରୁ ନିର୍ମିତ[span_1](start_span)[span_1](end_span)। ମାନବ ସଭ୍ୟତାର ଇତିହାସ ବିଭିନ୍ନ ଯୁଗ ଯଥା: <em>ତାମ୍ର ଯୁଗ, ବ୍ରୋଞ୍ଜ ଯୁଗ ଓ ଲୌହ ଯୁଗ</em> ଭାବେ ଖଣିଜର ପ୍ରାଧାନ୍ୟକୁ ପ୍ରମାଣିତ କରେ[span_2](start_span)[span_2](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>ଖଣିଜ (Mineral) ର ବୈଜ୍ଞାନିକ ସଂଜ୍ଞା:</strong><br>
+      ଭୂତତ୍ତ୍ୱବିତ୍‌ମାନଙ୍କ ମତରେ, ପ୍ରାକୃତିକ ପ୍ରକ୍ରିୟାରେ ସଂଘଟିତ ଏକ <strong>ନିର୍ଦ୍ଦିଷ୍ଟ ରାସାୟନିକ ଓ ଆଣବିକ ଗଠନ</strong> ଥିବା ସମରୂପୀ ପଦାର୍ଥକୁ <strong>ଖଣିଜ</strong> କୁହାଯାଏ[span_3](start_span)[span_3](end_span)। ଏହା କଠିନତମ ହୀରାଠାରୁ ଆରମ୍ଭ କରି କୋମଳତମ ଟାଲ୍କ (Talc) ପର୍ଯ୍ୟନ୍ତ ବିଭିନ୍ନ ରୂପରେ ମିଳେ[span_4](start_span)[span_4](end_span)।
+    </div>
+
+    <div class="callout example-box">
+      <strong>ଦୈନନ୍ଦିନ ଜୀବନରେ ଖଣିଜର ଉଦାହରଣ:</strong>
+      <ul>
+        <li><strong>ଦନ୍ତମଞ୍ଜନ (Toothpaste):</strong> ଦାନ୍ତ ସଫା କରିବା ପାଇଁ ବାଲୁକା, ଚୂନପଥର, ଆଲୁମିନିୟମ୍ ଅକ୍ସାଇଡ୍ ଓ ଫସଫେଟ୍; ଦାନ୍ତରେ ଛିଦ୍ର ନହେବା ପାଇଁ ‘ଫ୍ଲୁରାଇଟ୍’ ଖଣିଜରୁ ମିଳୁଥିବା ‘ଫ୍ଲୋରାଇଡ୍’; ଧଳା ରଙ୍ଗ ପାଇଁ ରୁଟାଇଲ୍ ଓ ଇଲମେନାଇଟ୍‌ରୁ ମିଳୁଥିବା ଟାଇଟାନିୟମ୍; ଏବଂ ଚମକ ପାଇଁ ଅଭ୍ର ବ୍ୟବହୃତ ହୁଏ[span_5](start_span)[span_5](end_span)।</li>
+        <li><strong>ବୈଦ୍ୟୁତିକ ବଲ୍ବ:</strong> ମଝି ଫିଲାମେଣ୍ଟ ଟଙ୍ଗଷ୍ଟନ୍ (Tungsten), ବାହ୍ୟ କାଚ ସିଲିକନ୍ (Silicon), ଭିତର ତାର ତମ୍ବା (Copper) ଏବଂ ନିମ୍ନସ୍ଥ ଆଧାର ବକ୍ସାଇଟ୍‌ରୁ ମିଳୁଥିବା ଆଲୁମିନିୟମ୍‌ରୁ ତିଆରି ହୁଏ[span_6](start_span)[span_6](end_span)।</li>
+        <li><strong>ମାନବ ଶରୀର:</strong> ଦୈନିକ ପୌଷ୍ଟିକତାରେ ଖଣିଜର ମାତ୍ରା ମାତ୍ର <strong>୦.୩%</strong> ହେଲେ ମଧ୍ୟ ଏହା ବିନା ଅବଶିଷ୍ଟ <strong>୯୯.୭%</strong> ପୁଷ୍ଟିକର ଖାଦ୍ୟର ଉପଯୋଗ ଅସମ୍ଭବ[span_7](start_span)[span_7](end_span)।</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 2. Mode of Occurrence -->
+  <section id="occurrence">
+    <h2 class="sec-title">🌋 ୨. ଖଣିଜ ପଦାର୍ଥ ସୃଷ୍ଟି ଓ ପ୍ରାପ୍ତି ପ୍ରଣାଳୀ</h2>
+    <p>
+      ଗୋଟିଏ ମୁଖ୍ୟ ଖଣିଜ ଅନ୍ୟାନ୍ୟ ପଦାର୍ଥ ସହିତ ମିଶ୍ରିତ ହୋଇ ଶିଳାରେ ରହିଲେ ତାକୁ <strong>ଖଣିଜ ପିଣ୍ଡ ବା ଧାତୁପିଣ୍ଡ (Ore)</strong> କୁହାଯାଏ[span_8](start_span)[span_8](end_span)। ପ୍ରକୃତିରେ ଖଣିଜ ପଦାର୍ଥ ମୁଖ୍ୟତଃ ୫ ଗୋଟି ଉପାୟରେ ମିଳିଥାଏ[span_9](start_span)[span_9](end_span):
+    </p>
+
+    <div class="compare">
+      <div class="card coral">
+        <h4>୧. ଆଗ୍ନେୟ ଓ ରୂପାନ୍ତରିତ ଶିଳାର ଫାଟ ଓ ସନ୍ଧି</h4>
+        <p>ଗଳିତ ବା ଗ୍ୟାସୀୟ ଖଣିଜ ଭୂଗର୍ଭରୁ ଉପରକୁ ଆସି ଥଣ୍ଡା ହୋଇ କଠିନ ହୁଏ[span_10](start_span)[span_10](end_span)। କମ୍ ପରିମାଣରେ ଥିଲେ <strong>ଭେନ୍ (Vein / ଶିରା)</strong> ଏବଂ ଅଧିକ ଥିଲେ <strong>ଲୋଡ୍ (Lode / ଧାତୁସ୍ତର)</strong> କୁହାଯାଏ[span_11](start_span)[span_11](end_span) ।</p>
+        <small class="badge-tag coral">ଉଦାହରଣ</small> ଟିଣ, ଦସ୍ତା, ତମ୍ବା, ହୀରା[span_12](start_span)[span_12](end_span)।
+      </div>
+      <div class="card gold">
+        <h4>୨. ଅବକ୍ଷିପ୍ତ ଶିଳାର ସ୍ତରୀଭବନ ଓ ସଞ୍ଚୟ</h4>
+        <p>ଅବକ୍ଷେପଣ, ସଞ୍ଚୟ ଏବଂ ଦୀର୍ଘକାଳୀନ ତାପ-ଚାପ ଦ୍ୱାରା ସ୍ତର ଆକାରରେ ସୃଷ୍ଟି ହୁଏ[span_13](start_span)[span_13](end_span) ।</p>
+        <small class="badge-tag gold">ଉଦାହରଣ</small> କୋଇଲା, ଲୁହାପଥର, ଜିପ୍‌ସମ୍, ପଟାସ୍, ସୋଡ଼ିୟମ୍ ଲବଣ[span_14](start_span)[span_14](end_span)।
+      </div>
+      <div class="card teal">
+        <h4>୩. ଶିଳାର ଅପଘଟନ ଓ ଅବକ୍ଷୟିତ ଅବଶିଷ୍ଟାଂଶ</h4>
+        <p>ଭୂପୃଷ୍ଠସ୍ଥ ଶିଳାର ଦ୍ରବଣୀୟ ପଦାର୍ଥ ଧୋଇ ହୋଇଯିବା ପରେ ପଡ଼ିରହୁଥିବା ଅବଶିଷ୍ଟାଂଶରୁ ଗଠିତ ହୁଏ[span_15](start_span)[span_15](end_span) ।</p>
+        <small class="badge-tag teal">ଉଦାହରଣ</small> ବକ୍ସାଇଟ୍ (Bauxite)[span_16](start_span)[span_16](end_span)।
+      </div>
+      <div class="card green">
+        <h4>୪. ପ୍ଲାସର ନିକ୍ଷେପ (Placer Deposits)</h4>
+        <p>ନଦୀ ଶଯ୍ୟା ବା ପାହାଡ଼ ପାଦଦେଶର ବାଲି-ପଟୁରେ ଜଳ ଦ୍ୱାରା ଅକ୍ଷୟିତ ଧାତୁ ଜମା ହୋଇ ସୃଷ୍ଟି ହୁଏ[span_17](start_span)[span_17](end_span) ।</p>
+        <small class="badge-tag green">ଉଦାହରଣ</small> ସୁନା, ରୂପା, ଟିଣ, ପ୍ଲାଟିନମ୍[span_18](start_span)[span_18](end_span)।
+      </div>
+    </div>
+
+    <div class="callout def-box">
+      <strong>୫. ସମୁଦ୍ର ଜଳ ଓ ସମୁଦ୍ର ଶଯ୍ୟା:</strong><br>
+      ସମୁଦ୍ର ଜଳରେ ଲବଣ, ମ୍ୟାଗ୍ନେସିୟମ୍ ଓ ବ୍ରୋମିନ୍ ଦ୍ରବୀଭୂତ ଥାଏ[span_19](start_span)[span_19](end_span)। ସମୁଦ୍ର ଶଯ୍ୟାରେ ପ୍ରଚୁର ପରିମାଣରେ <strong>ମାଙ୍ଗାନିଜ୍ ଗୁଟିକା ବା ଗ୍ରନ୍ଥିକା (Manganese Nodules)</strong> ମହଜୁଦ୍ ଅଛି[span_20](start_span)[span_20](end_span)।
+    </div>
+  </section>
+
+  <!-- 3. Classification of Minerals Diagram -->
+  <section id="classification">
+    <h2 class="sec-title">🗂️ ୩. ଖଣିଜ ପଦାର୍ଥର ବର୍ଗୀକରଣ</h2>
+    <p>ଗୁଣଧର୍ମ ଓ ଉପଯୋଗିତା ଅନୁସାରେ ଖଣିଜକୁ ୩ଟି ପ୍ରଧାନ ଶ୍ରେଣୀରେ ବିଭକ୍ତ କରାଯାଇଛି[span_21](start_span)[span_21](end_span):</p>
+
+    <!-- Visual Chart Diagram -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 620 280" width="580" height="260" xmlns="http://www.w3.org/2000/svg">
+          <!-- Root Box -->
+          <rect x="230" y="15" width="160" height="40" rx="8" fill="#1b263e" stroke="#38bdf8" stroke-width="2"/>
+          <text x="310" y="40" fill="#38bdf8" font-size="14" font-weight="bold" text-anchor="middle">ଖଣିଜ ପଦାର୍ଥ</text>
+
+          <!-- Branch Lines -->
+          <path d="M 310,55 L 310,85 M 110,85 L 510,85 M 110,85 L 110,110 M 310,85 L 310,110 M 510,85 L 510,110" fill="none" stroke="#64748b" stroke-width="2"/>
+
+          <!-- 3 Main Branches -->
+          <!-- Metallic -->
+          <rect x="30" y="110" width="160" height="35" rx="6" fill="#131d31" stroke="#f59e0b" stroke-width="2"/>
+          <text x="110" y="133" fill="#f59e0b" font-size="12" font-weight="bold" text-anchor="middle">୧. ଧାତବ ଖଣିଜ</text>
+
+          <!-- Non-Metallic -->
+          <rect x="230" y="110" width="160" height="35" rx="6" fill="#131d31" stroke="#14b8a6" stroke-width="2"/>
+          <text x="310" y="133" fill="#14b8a6" font-size="12" font-weight="bold" text-anchor="middle">୨. ଅଧାତବ ଖଣିଜ</text>
+
+          <!-- Energy -->
+          <rect x="430" y="110" width="160" height="35" rx="6" fill="#131d31" stroke="#f43f5e" stroke-width="2"/>
+          <text x="510" y="133" fill="#f43f5e" font-size="12" font-weight="bold" text-anchor="middle">୩. ଶକ୍ତି ଖଣିଜ</text>
+
+          <!-- Metallic Sub-branches -->
+          <line x1="110" y1="145" x2="110" y2="165" stroke="#f59e0b" stroke-width="1.5"/>
+          <path d="M 35,165 L 185,165 M 35,165 L 35,185 M 110,165 L 110,185 M 185,165 L 185,185" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+
+          <rect x="5" y="185" width="60" height="70" rx="4" fill="#0b111e" stroke="#f59e0b" stroke-width="1"/>
+          <text x="35" y="202" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">ଲୌହମିଶ୍ରିତ</text>
+          <text x="35" y="218" fill="#94a3b8" font-size="8" text-anchor="middle">ଲୁହାପଥର</text>
+          <text x="35" y="232" fill="#94a3b8" font-size="8" text-anchor="middle">ମାଙ୍ଗାନିଜ୍</text>
+          <text x="35" y="246" fill="#94a3b8" font-size="8" text-anchor="middle">ନିକେଲ</text>
+
+          <rect x="80" y="185" width="60" height="70" rx="4" fill="#0b111e" stroke="#f59e0b" stroke-width="1"/>
+          <text x="110" y="202" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">ଲୌହବିହୀନ</text>
+          <text x="110" y="218" fill="#94a3b8" font-size="8" text-anchor="middle">ତମ୍ବା</text>
+          <text x="110" y="232" fill="#94a3b8" font-size="8" text-anchor="middle">ବକ୍ସାଇଟ୍</text>
+          <text x="110" y="246" fill="#94a3b8" font-size="8" text-anchor="middle">ସୀସା, ଟିଣ</text>
+
+          <rect x="155" y="185" width="60" height="70" rx="4" fill="#0b111e" stroke="#f59e0b" stroke-width="1"/>
+          <text x="185" y="202" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">ମୂଲ୍ୟବାନ</text>
+          <text x="185" y="218" fill="#94a3b8" font-size="8" text-anchor="middle">ସୁନା</text>
+          <text x="185" y="232" fill="#94a3b8" font-size="8" text-anchor="middle">ରୂପା</text>
+          <text x="185" y="246" fill="#94a3b8" font-size="8" text-anchor="middle">ପ୍ଲାଟିନମ୍</text>
+
+          <!-- Non-metallic Details -->
+          <rect x="235" y="165" width="150" height="90" rx="4" fill="#0b111e" stroke="#14b8a6" stroke-width="1"/>
+          <text x="310" y="185" fill="#5eead4" font-size="10" font-weight="bold" text-anchor="middle">ଅଧାତବ ଓ ଶିଳା ଖଣିଜ</text>
+          <text x="310" y="205" fill="#94a3b8" font-size="9" text-anchor="middle">ଅଭ୍ର, ଲବଣ, ପଟାସ୍, ସଲଫର୍</text>
+          <text x="310" y="223" fill="#94a3b8" font-size="9" text-anchor="middle">ଚୂନପଥର, ମାର୍ବଲ, ଗ୍ରାନାଇଟ୍</text>
+          <text x="310" y="241" fill="#94a3b8" font-size="9" text-anchor="middle">ବାଲୁକା ପ୍ରସ୍ତର</text>
+
+          <!-- Energy Details -->
+          <rect x="435" y="165" width="150" height="90" rx="4" fill="#0b111e" stroke="#f43f5e" stroke-width="1"/>
+          <text x="510" y="185" fill="#fda4af" font-size="10" font-weight="bold" text-anchor="middle">ଇନ୍ଧନ / ଶକ୍ତି ଖଣିଜ</text>
+          <text x="510" y="210" fill="#94a3b8" font-size="9" text-anchor="middle">କୋଇଲା (Coal)</text>
+          <text x="510" y="228" fill="#94a3b8" font-size="9" text-anchor="middle">ପେଟ୍ରୋଲିୟମ୍ (Petroleum)</text>
+          <text x="510" y="246" fill="#94a3b8" font-size="9" text-anchor="middle">ପ୍ରାକୃତିକ ଗ୍ୟାସ୍ (Natural Gas)</text>
+        </svg>
+        <figcaption>ଚିତ୍ର: ଖଣିଜ ପଦାର୍ଥର ସମ୍ପୂର୍ଣ୍ଣ ବର୍ଗୀକରଣ ଚାର୍ଟ</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 4. Ferrous Minerals -->
+  <section id="ferrous">
+    <h2 class="sec-title">⚙️ ୪. ଲୌହମିଶ୍ରିତ ଖଣିଜ (Ferrous Minerals)</h2>
+    <p>
+      ଦେଶର ସମୁଦାୟ ଧାତବ ଖଣିଜ ଉତ୍ପାଦନ ମୂଲ୍ୟର ପ୍ରାୟ <strong>ତିନି-ଚତୁର୍ଥାଂଶ (୩/୪) ଭାଗ</strong> ଲୌହମିଶ୍ରିତ ଖଣିଜରୁ ମିଳେ[span_22](start_span)[span_22](end_span)।
+    </p>
+
+    <h3 class="sub-title">(କ) ଲୁହାପଥର (Iron Ore - ଶିଳ୍ପ ବିକାଶର ମେରୁଦଣ୍ଡ)</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>୧. ମାଗ୍ନେଟାଇଟ୍ (Magnetite)</h4>
+        <p>ସର୍ବୋତ୍କୃଷ୍ଟ ଲୌହପିଣ୍ଡ, ଲୁହା ଅଂଶ <strong>୭୦% ରୁ ଅଧିକ</strong>[span_23](start_span)[span_23](end_span)। ଏହାର ଉତ୍କୃଷ୍ଟ ଚୁମ୍ବକୀୟ ଗୁଣ ଯୋଗୁଁ <strong>ବିଦ୍ୟୁତ୍ ଶିଳ୍ପରେ</strong> ବିଶେଷ ବ୍ୟବହୃତ ହୁଏ[span_24](start_span)[span_24](end_span) ।</p>
+      </div>
+      <div class="card gold">
+        <h4>୨. ହେମାଟାଇଟ୍ (Hematite)</h4>
+        <p>ଶିଳ୍ପ କ୍ଷେତ୍ରରେ ସର୍ବାଧିକ ବ୍ୟବହୃତ ଲୌହପିଣ୍ଡ, ଲୁହା ଅଂଶ <strong>୫୦% ରୁ ୬୦%</strong>[span_25](start_span)[span_25](end_span)। ୨୦୧୮ ରେ ଭାରତରେ ସର୍ବାଧିକ ୨୧୦ ନିୟୁତ ଟନ୍ ଲୁହାପଥର ଉତ୍ପାଦିତ ହୋଇଥିଲା[span_26](start_span)[span_26](end_span) ।</p>
+      </div>
+    </div>
+
+    <div class="callout example-box">
+      <strong>ଭାରତର ଲୁହାପଥର ଉତ୍ପାଦନ (ସାରଣୀ - ୦୯ / IBM ୨୦୧୭):</strong><br>
+      <strong>ଓଡ଼ିଶା - ୩୪% (ପ୍ରଥମ)</strong>, କର୍ଣ୍ଣାଟକ - ୨୨%, ଛତିଶଗଡ଼ - ୧୫%, ଗୋଆ - ୧୪%, ଝାଡ଼ଖଣ୍ଡ - ୧୦%, ଆନ୍ଧ୍ରପ୍ରଦେଶ - ୪%, ଅନ୍ୟାନ୍ୟ - ୧%[span_27](start_span)[span_27](end_span)।
+    </div>
+
+    <h3 class="sub-title">ଭାରତର ୪ଟି ପ୍ରମୁଖ ଲୁହାପଥର ବଳୟ (Iron Ore Belts):</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>୧. ଓଡ଼ିଶା-ଝାଡ଼ଖଣ୍ଡ ବଳୟ</h4>
+        <p>ଓଡ଼ିଶାର ସୁନ୍ଦରଗଡ଼ (କୋଇଡ଼ା, ବରସୁଆ), କେନ୍ଦୁଝର (ଯୋଡ଼ା, ଠାକୁରାଣୀ, ବାଂଶପାଣି, ବଦାମପାହାଡ଼) ଏବଂ ଝାଡ଼ଖଣ୍ଡର ସିଂହଭୂମ (ଗୁଆ, ନୂଆମୁଣ୍ଡି, ଚିରିଆ)[span_28](start_span)[span_28](end_span)। <strong>ଚିରିଆ ଖଣି ଭାରତର ସର୍ବବୃହତ୍ ଗଚ୍ଛିତ ଖଣି</strong>[span_29](start_span)[span_29](end_span) ।</p>
+      </div>
+      <div class="card gold">
+        <h4>୨. ଦୁର୍ଗ-ବସ୍ତର-ଚନ୍ଦ୍ରପୁର ବଳୟ</h4>
+        <p>ଛତିଶଗଡ଼ ଓ ମହାରାଷ୍ଟ୍ରରେ ବିସ୍ତୃତ[span_30](start_span)[span_30](end_span)। ବସ୍ତର ଜିଲ୍ଲାର ପ୍ରସିଦ୍ଧ <strong>ବଇଲାଡ଼ିଲା (Bailadila)</strong> ପାହାଡ଼ରୁ ଉତ୍କୃଷ୍ଟ ହେମାଟାଇଟ୍ ମିଳେ[span_31](start_span)[span_31](end_span)। ବିଶାଖାପାଟଣା ବନ୍ଦର ଦେଇ ଜାପାନ ଓ ଦକ୍ଷିଣ କୋରିଆକୁ ରପ୍ତାନି ହୁଏ[span_32](start_span)[span_32](end_span) ।</p>
+      </div>
+      <div class="card blue">
+        <h4>୩. ବେଲାରୀ-ଚିତ୍ରଦୁର୍ଗ-ଚିକ୍‌ମାଗାଲୁର-ଟୁମ୍‌କୁର ବଳୟ</h4>
+        <p>କର୍ଣ୍ଣାଟକରେ ଅବସ୍ଥିତ[span_33](start_span)[span_33](end_span)। <strong>କୁଦ୍ରେମୁଖ (Kudremukh) ଖଣି</strong> ଶତକଡ଼ା ଶହେ ଭାଗ ରପ୍ତାନି ପାଇଁ ଉଦ୍ଦିଷ୍ଟ[span_34](start_span)[span_34](end_span)। ଏଠାରୁ ତରଳ ଗୋଳିଆ (Slurry) ଅବସ୍ଥାରେ ପାଇପ୍ ଦ୍ୱାରା ମାଙ୍ଗାଲୋର ବନ୍ଦର ନିକଟ ପେଲେଟ୍ କାରଖାନାକୁ ପଠାଯାଏ[span_35](start_span)[span_35](end_span) ।</p>
+      </div>
+      <div class="card coral">
+        <h4>୪. ମହାରାଷ୍ଟ୍ର-ଗୋଆ ବଳୟ</h4>
+        <p>ଗୋଆ ଓ ମହାରାଷ୍ଟ୍ରର ରତ୍ନଗିରି ଜିଲ୍ଲାରେ ବିସ୍ତୃତ[span_36](start_span)[span_36](end_span)। ଲୁହାପଥର ଉନ୍ନତମାନର ନହେଲେ ମଧ୍ୟ ଦକ୍ଷତାର ସହ ଉତ୍ତୋଳନ କରାଯାଇ <strong>ମାର୍ମାଗାଓ ବନ୍ଦର</strong> ଦେଇ ରପ୍ତାନି କରାଯାଏ[span_37](start_span)[span_37](end_span) ।</p>
+      </div>
+    </div>
+
+    <!-- Manganese -->
+    <h3 class="sub-title">(ଖ) ମାଙ୍ଗାନିଜ୍ (Manganese)</h3>
+    <div class="callout def-box">
+      <strong>ବ୍ୟବହାର:</strong> ଇସ୍ପାତ ଓ ଫେରୋମାଙ୍ଗାନିଜ୍ ମିଶ୍ରଧାତୁ ପ୍ରସ୍ତୁତିରେ ମୁଖ୍ୟ ଉପାଦାନ[span_38](start_span)[span_38](end_span)। <strong>୧ ଟନ୍ ଇସ୍ପାତ ତିଆରି ପାଇଁ ପ୍ରାୟ ୧୦ କି.ଗ୍ରା. ମାଙ୍ଗାନିଜ୍ ଆବଶ୍ୟକ ହୁଏ</strong>[span_39](start_span)[span_39](end_span)। ଏହା ବ୍ୟତୀତ ବ୍ଲିଚିଂ ପାଉଡର, କୀଟନାଶକ ଓ ରଙ୍ଗ ତିଆରିରେ ଲାଗେ[span_40](start_span)[span_40](end_span)।
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ଉତ୍ପାଦନକାରୀ ରାଜ୍ୟ (IBM ୨୦୧୮-୧୯)</th>
+            <th>ଶତକଡ଼ା ଅଂଶ (ସାରଣୀ - ୧୦)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>ମହାରାଷ୍ଟ୍ର (ସର୍ବାଧିକ)</strong></td><td>୨୭.୬୬%[span_41](start_span)[span_41](end_span)</td></tr>
+          <tr><td><strong>ମଧ୍ୟପ୍ରଦେଶ</strong></td><td>୨୭.୫୯%[span_42](start_span)[span_42](end_span)</td></tr>
+          <tr><td><strong>ଓଡ଼ିଶା</strong></td><td>୨୪.୦୦%[span_43](start_span)[span_43](end_span)</td></tr>
+          <tr><td><strong>ଆନ୍ଧ୍ରପ୍ରଦେଶ</strong></td><td>୧୩.୦୦%[span_44](start_span)[span_44](end_span)</td></tr>
+          <tr><td><strong>ଅନ୍ୟାନ୍ୟ</strong></td><td>୭.୨୫%[span_45](start_span)[span_45](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 5. Non-Ferrous Minerals -->
+  <section id="non-ferrous">
+    <h2 class="sec-title">🥉 ୫. ଲୌହବିହୀନ ଖଣିଜ (Non-Ferrous Minerals)</h2>
+    <p>ଭାରତ ଲୌହବିହୀନ ଖଣିଜ କ୍ଷେତ୍ରରେ ବିଶେଷ ସମୃଦ୍ଧ ନୁହେଁ, ମାତ୍ର ବୈଦ୍ୟୁତିକ ଓ ଇଞ୍ଜିନିୟରିଂ ଶିଳ୍ପ ପାଇଁ ଏଗୁଡ଼ିକ ଅତ୍ୟନ୍ତ ଆବଶ୍ୟକ[span_46](start_span)[span_46](end_span) ।</p>
+
+    <div class="compare">
+      <div class="card coral">
+        <h4>୧. ତମ୍ବା (Copper)</h4>
+        <p>ଗଚ୍ଛିତ ଭଣ୍ଡାର ଓ ଉତ୍ପାଦନରେ ଭାରତ ଘୋର ଅଭାବଗ୍ରସ୍ତ[span_47](start_span)[span_47](end_span)। ଏହା ପ୍ରସାରଣଶୀଳ, ତନ୍ୟ ଓ ଉତ୍ତମ ବିଦ୍ୟୁତ୍ ସୁପରିବାହୀ[span_48](start_span)[span_48](end_span) ।</p>
+        <ul>
+          <li><strong>ବାଲାଘାଟ (ମଧ୍ୟପ୍ରଦେଶ):</strong> ଭାରତର ସର୍ବାଧିକ <strong>୫୨%</strong> ତମ୍ବା ଉତ୍ପାଦନ କରେ[span_49](start_span)[span_49](end_span)</li>
+          <li><strong>କ୍ଷେତ୍ରୀ (ରାଜସ୍ଥାନ):</strong> ତମ୍ବା ଖଣି ପାଇଁ ପ୍ରସିଦ୍ଧ[span_50](start_span)[span_50](end_span)</li>
+          <li><strong>ସିଂହଭୂମ (ଝାଡ଼ଖଣ୍ଡ):</strong> ପ୍ରମୁଖ ତମ୍ବା ଉତ୍ପାଦନ କ୍ଷେତ୍ର[span_51](start_span)[span_51](end_span)</li>
+        </ul>
+      </div>
+      <div class="card teal">
+        <h4>୨. ବକ୍ସାଇଟ୍ (Bauxite - ଆଲୁମିନିୟମ୍ କଞ୍ଚାମାଲ)</h4>
+        <p>ଆଲୁମିନିୟମ୍ ସିଲିକେଟ୍ ଯୁକ୍ତ ଶିଳାର ଅବକ୍ଷୟରୁ ସୃଷ୍ଟି ଚିକିଟା ମାଟି ସଦୃଶ ଖଣିଜ[span_52](start_span)[span_52](end_span)। ବକ୍ସାଇଟ୍ → ଆଲୁମିନା → ଆଲୁମିନିୟମ୍[span_53](start_span)[span_53](end_span) ।</p>
+        <ul>
+          <li><strong>ଓଡ଼ିଶା (ସର୍ବାଗ୍ରେ - ୪୯%):</strong> କୋରାପୁଟର <em>ପଞ୍ଚପଟ୍ଟମାଳୀ</em> ଓ କଳାହାଣ୍ଡିର <em>କୋଡ଼ିଙ୍ଗାମାଳ</em>[span_54](start_span)[span_54](end_span)</li>
+          <li><strong>ଅନ୍ୟାନ୍ୟ ରାଜ୍ୟ:</strong> ଗୁଜରାଟ (୨୪%), ଝାଡ଼ଖଣ୍ଡ (୯%), ଛତିଶଗଡ଼ ଓ ମହାରାଷ୍ଟ୍ର (୮%)[span_55](start_span)[span_55](end_span)</li>
+          <li>ଅମରକଣ୍ଟକ ମାଳଭୂମି, ମଇକାଲ ପାହାଡ଼ ଓ ବିଳାସପୁର-କଟନୀ ଅଞ୍ଚଳ[span_56](start_span)[span_56](end_span)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout def-box">
+      <strong>୩. କ୍ରୋମାଇଟ୍ (Chromite):</strong><br>
+      ସମଗ୍ର ଭାରତର <strong>୯୩ ଶତକଡ଼ା କ୍ରୋମାଇଟ୍ କେବଳ ଓଡ଼ିଶାରେ ଗଚ୍ଛିତ ଅଛି</strong>[span_57](start_span)[span_57](end_span)। ଯାଜପୁର ଜିଲ୍ଲାର <strong>ସୁକିନ୍ଦା ଉପତ୍ୟକା</strong> ଏହାର ମୁଖ୍ୟ ଖଣି ଅଞ୍ଚଳ[span_58](start_span)[span_58](end_span)। ଏହା ବ୍ୟତୀତ କର୍ଣ୍ଣାଟକ, ଆନ୍ଧ୍ରପ୍ରଦେଶ ଓ ମଣିପୁରରେ ମଧ୍ୟ କ୍ରୋମାଇଟ୍ ମିଳେ[span_59](start_span)[span_59](end_span)।
+    </div>
+  </section>
+
+  <!-- 6. Non-Metallic & Rock Minerals -->
+  <section id="non-metallic">
+    <h2 class="sec-title">🪨 ୬. ଅଧାତବ ଓ ଶିଳା ଖଣିଜ (Non-Metallic & Rock Minerals)</h2>
+
+    <h3 class="sub-title">(କ) ଅଭ୍ର (Mica) - ବିଦ୍ୟୁତ୍ ଶିଳ୍ପର ଅପରିହାର୍ଯ୍ୟ ଖଣିଜ</h3>
+    <div class="compare">
+      <div class="card gold">
+        <h4>ଅଭ୍ରର ଗୁଣଧର୍ମ</h4>
+        <ul>
+          <li>ଅଭ୍ର ପରସ୍ତ ପରସ୍ତ (Sheets) ହୋଇ ଗଠିତ ଏବଂ ସହଜରେ ପତଳା ପତ୍ରରେ ବିଭାଜିତ ହୋଇପାରେ[span_60](start_span)[span_60](end_span)।</li>
+          <li>୧ ସେଣ୍ଟିମିଟର ମୋଟାରେ ଶହ ଶହ ପରସ୍ତ ରହିପାରେ[span_61](start_span)[span_61](end_span)।</li>
+          <li>ରଙ୍ଗ: ସ୍ୱଚ୍ଛ, କଳା, ସବୁଜ, ଲାଲ୍, ହଳଦିଆ ବା ବାଦାମୀ[span_62](start_span)[span_62](end_span)।</li>
+          <li><strong>ବୈଶିଷ୍ଟ୍ୟ:</strong> ଉତ୍କୃଷ୍ଟ ବିଦ୍ୟୁତ୍-ରୋଧକ ଶକ୍ତି (Insulating property) ଓ ଉଚ୍ଚ ଭୋଲ୍‌ଟେଜ୍ ପ୍ରତିରୋଧକ କ୍ଷମତା ଯୋଗୁଁ ରେଡ଼ିଓ, ଇଲେକ୍ଟ୍ରୋନିକ୍ସ ଓ ବିଦ୍ୟୁତ୍ ଶିଳ୍ପରେ ବ୍ୟବହୃତ[span_63](start_span)[span_63](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card teal">
+        <h4>ପ୍ରମୁଖ ଉତ୍ପାଦନ କ୍ଷେତ୍ର</h4>
+        <ul>
+          <li><strong>ଝାଡ଼ଖଣ୍ଡ:</strong> କୋଦର୍ମା-ଗୟା-ହଜାରିବାଗ ବଳୟ (ଅଗ୍ରଣୀ ଅଞ୍ଚଳ)[span_64](start_span)[span_64](end_span)।</li>
+          <li><strong>ରାଜସ୍ଥାନ:</strong> ଆଜମିର ଓ ଆଖପାଖ ଅଞ୍ଚଳ[span_65](start_span)[span_65](end_span)।</li>
+          <li><strong>ଆନ୍ଧ୍ରପ୍ରଦେଶ:</strong> ନେଲୁର (Nellore) ଅଭ୍ର ବଳୟ[span_66](start_span)[span_66](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub-title">(ଖ) ଚୂନପଥର (Limestone) - ଶିଳା ଖଣିଜ</h3>
+    <p>
+      କ୍ୟାଲ୍‌ସିୟମ୍ କାର୍ବୋନେଟ୍ କିମ୍ବା କ୍ୟାଲସିୟମ୍-ମ୍ୟାଗ୍ନେସିୟମ୍ କାର୍ବୋନେଟ୍ ଯୁକ୍ତ ଅବକ୍ଷିପ୍ତ ଶିଳାରେ ଚୂନପଥର ମିଳେ[span_67](start_span)[span_67](end_span)। ଏହା <strong>ସିମେଣ୍ଟ ଶିଳ୍ପର ପ୍ରଧାନ କଞ୍ଚାମାଲ</strong> ଏବଂ ଲୁହାପଥର ତରଳାଇବା ପାଇଁ ବ୍ଲାଷ୍ଟ ଫର୍ଣ୍ଣେସ୍‌ରେ ବ୍ୟବହୃତ ହୁଏ[span_68](start_span)[span_68](end_span)।
+    </p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ରାଜ୍ୟ (୨୦୧୬-୧୭)</th>
+            <th>ଉତ୍ପାଦନ ପ୍ରତିଶତ (ସାରଣୀ - ୧୨)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>ରାଜସ୍ଥାନ (ପ୍ରଥମ)</strong></td><td>୨୧%[span_69](start_span)[span_69](end_span)</td></tr>
+          <tr><td><strong>ମଧ୍ୟପ୍ରଦେଶ / ଆନ୍ଧ୍ରପ୍ରଦେଶ</strong></td><td>୧୧% ଲେଖାଏଁ[span_70](start_span)[span_70](end_span)</td></tr>
+          <tr><td><strong>ଛତିଶଗଡ଼ / କର୍ଣ୍ଣାଟକ</strong></td><td>୧୦% ଲେଖାଏଁ[span_71](start_span)[span_71](end_span)</td></tr>
+          <tr><td><strong>ଗୁଜରାଟ / ତାମିଲନାଡୁ / ତେଲେଙ୍ଗାନା</strong></td><td>୮% ଲେଖାଏଁ[span_72](start_span)[span_72](end_span)</td></tr>
+          <tr><td><strong>ଅନ୍ୟାନ୍ୟ ରାଜ୍ୟ</strong></td><td>୧୩%[span_73](start_span)[span_73](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 7. Hazards of Mining & Conservation -->
+  <section id="hazards-conservation">
+    <h2 class="sec-title">⚠️ ୭. ଖଣି ବିପତ୍ତି ଓ ଖଣିଜ ସଂରକ୍ଷଣ</h2>
+
+    <div class="callout mistake-box">
+      <strong>ଖଣି ଖନନ : ଏକ ଘାତକ ଶିଳ୍ପ (Killer Industry) !</strong>
+      <ul>
+        <li><strong>ଶ୍ରମିକଙ୍କ ସ୍ୱାସ୍ଥ୍ୟ:</strong> ଖଣିର ଧୂଳି, ଧୂଆଁ ଓ ବିଷାକ୍ତ ଗ୍ୟାସ୍ ଯୋଗୁଁ ଶ୍ରମିକମାନେ ମାରାତ୍ମକ ଫୁସ୍‌ଫୁସ୍ ରୋଗ (Silicosis/Asbestosis) ରେ ଆକ୍ରାନ୍ତ ହୁଅନ୍ତି[span_74](start_span)[span_74](end_span)।</li>
+        <li><strong>ଦୁର୍ଘଟଣା:</strong> ଖଣି ଛାତ ଭୁଷୁଡ଼ିବା, ଜଳମଗ୍ନ ହେବା ଏବଂ ଅଗ୍ନିକାଣ୍ଡର ଭୟ ଥାଏ[span_75](start_span)[span_75](end_span)।</li>
+        <li><strong>ପରିବେଶ ପ୍ରଦୂଷଣ:</strong> ଖଣି ଆବର୍ଜନା ଓ ସ୍ଲରୀ ଯୋଗୁଁ ନଦୀଜଳ ବିଷାକ୍ତ ହୁଏ, ଭୂମି ଓ ମୃତ୍ତିକା ଅବକ୍ଷୟ ଘଟେ[span_76](start_span)[span_76](end_span)।</li>
+      </ul>
+    </div>
+
+    <h3 class="sub-title">ଖଣିଜ ସମ୍ବଳର ସଂରକ୍ଷଣ (Mineral Conservation):</h3>
+    <p>
+      ଭୂତ୍ୱକ୍ ଆୟତନର ମାତ୍ର <strong>୧% ଅଂଶ</strong> ଖଣିକାର୍ଯ୍ୟ ପାଇଁ ବ୍ୟବହୃତ ହୁଏ[span_77](start_span)[span_77](end_span)। କୋଟି କୋଟି ବର୍ଷ ଧରି ସୃଷ୍ଟି ହୋଇଥିବା ଖଣିଜ ଏକ ସୀମିତ ଓ ଅନବୀକରଣ ଯୋଗ୍ୟ ସମ୍ବଳ[span_78](start_span)[span_78](end_span)। ନିରନ୍ତର ଖନନ ଦ୍ୱାରା ବ୍ୟୟ ବୃଦ୍ଧି ପାଉଛି ଓ ଗୁଣବତ୍ତା ହ୍ରାସ ପାଉଛି[span_79](start_span)[span_79](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card green">
+        <h4>ସଂରକ୍ଷଣର ମୁଖ୍ୟ ଉପାୟ</h4>
+        <ol>
+          <li><strong>ପୁନଃଚକ୍ରଣ (Recycling):</strong> ପୁରୁଣା ଭଙ୍ଗା ଧାତୁ (Scrap metals) ର ପୁନଃ ବ୍ୟବହାର[span_80](start_span)[span_80](end_span)।</li>
+          <li><strong>ବିକଳ୍ପ ପଦାର୍ଥର ଉପଯୋଗ:</strong> ଧାତୁ ବଦଳରେ ପ୍ଲାଷ୍ଟିକ୍, କାଠ ବା ଅନ୍ୟାନ୍ୟ ବିକଳ୍ପ ସାମଗ୍ରୀର ପ୍ରୟୋଗ[span_81](start_span)[span_81](end_span)।</li>
+          <li><strong>ଉନ୍ନତ ଜ୍ଞାନକୌଶଳ:</strong> କମ୍ ଖର୍ଚ୍ଚରେ ନିମ୍ନମାନର ଖଣିଜକୁ ବ୍ୟବହାର କରିବାର ଗବେଷଣା[span_82](start_span)[span_82](end_span)।</li>
+          <li>ସୁଚିନ୍ତିତ ଓ ଯୋଜନାବଦ୍ଧ ଉପାୟରେ ମିତବ୍ୟୟୀ ଉତ୍ତୋଳନ[span_83](start_span)[span_83](end_span)।</li>
+        </ol>
+      </div>
+      <div class="card blue">
+        <h4>ଜାତୀୟ ଖଣିଜ ନୀତି ୨୦୧୯</h4>
+        <p>ଭାରତ ସରକାର ଉଦାରୀକରଣ ଓ ଜଗତୀକରଣ ଅଧୀନରେ <strong>୨୦୧୯ ରେ ନୂତନ ଖଣିଜ ଆଇନ</strong> ପ୍ରଣୟନ କରି ଖଣିଜ ଉତ୍ତୋଳନ କ୍ଷେତ୍ରରେ ଘରୋଇ ସଂସ୍ଥାମାନଙ୍କୁ ସୁଯୋଗ ପ୍ରଦାନ କରିଛନ୍ତି[span_84](start_span)[span_84](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Exercise & Assessment -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ୮. ଅଧ୍ୟାୟ ପ୍ରଶ୍ନୋତ୍ତର (Self-Assessment)</h2>
+
+    <h3 class="sub-title">୧. ସଠିକ୍ ବିକଳ୍ପ ବାଛ:</h3>
+    <div class="compare">
+      <div class="card">
+        <p><strong>(i) ଶିଳାର ଅବକ୍ଷୟ ପରେ ପଡ଼ି ରହୁଥିବା ଅବଶିଷ୍ଟାଂଶରୁ କେଉଁ ଖଣିଜ ସୃଷ୍ଟି ହୁଏ ?</strong>[span_85](start_span)[span_85](end_span)</p>
+        <p>(a) କୋଇଲା (b) ବକ୍ସାଇଟ୍ (c) ସୁନା (d) ଦସ୍ତା[span_86](start_span)[span_86](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: (b) ବକ୍ସାଇଟ୍[span_87](start_span)[span_87](end_span)</p>
+      </div>
+      <div class="card">
+        <p><strong>(ii) ଝାଡ଼ଖଣ୍ଡର କୋଦର୍ମା କେଉଁ ଖଣିଜ ଉତ୍ତୋଳନ ପାଇଁ ଅଗ୍ରଣୀ ?</strong>[span_88](start_span)[span_88](end_span)</p>
+        <p>(a) ବକ୍ସାଇଟ୍ (b) ଅଭ୍ର (c) ଲୁହାପଥର (d) ତମ୍ବା[span_89](start_span)[span_89](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: (b) ଅଭ୍ର[span_90](start_span)[span_90](end_span)</p>
+      </div>
+      <div class="card">
+        <p><strong>(iii) କେଉଁ ଶିଳାରେ ଖଣିଜ ପଦାର୍ଥ ସ୍ତର ସ୍ତର ହୋଇ ସଞ୍ଚିତ ହୁଏ ?</strong>[span_91](start_span)[span_91](end_span)</p>
+        <p>(a) ଅବକ୍ଷିପ୍ତ ଶିଳା (b) ଆଗ୍ନେୟ ଶିଳା (c) ରୂପାନ୍ତରିତ ଶିଳା[span_92](start_span)[span_92](end_span)</p>
+        <p style="color: var(--gold); font-weight: 600;">👉 ଉତ୍ତର: (a) ଅବକ୍ଷିପ୍ତ ଶିଳା[span_93](start_span)[span_93](end_span)</p>
+      </div>
+      <div class="card">
+        <p><strong>(iv) କେଉଁ ଖଣିଜଟି ପ୍ଲାସର ନିକ୍ଷେପ ଭାବରେ ମିଳିଥାଏ ?</strong>[span_94](start_span)[span_94](end_span)</p>
+        <p>(a) ଦସ୍ତା (b) ରୂପା (c) ଜିପ୍‌ସମ୍ (d) ମ୍ୟାଗ୍ନେସିୟମ୍[span_95](start_span)[span_95](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: (b) ରୂପା[span_96](start_span)[span_96](end_span)</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">୨. ସ୍ତମ୍ଭ ମିଳନ (ମ୍ୟାଚିଂ):</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>‘କ’ ସ୍ତମ୍ଭ[span_97](start_span)[span_97](end_span)</th>
+            <th>‘ଖ’ ସ୍ତମ୍ଭ (ସଠିକ୍ ଉତ୍ତର)[span_98](start_span)[span_98](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>ଲୌହବିହୀନ ଖଣିଜ[span_99](start_span)[span_99](end_span)</td><td><strong>ବକ୍ସାଇଟ୍[span_100](start_span)[span_100](end_span)</strong></td></tr>
+          <tr><td>ସିମେଣ୍ଟ ଶିଳ୍ପର କଞ୍ଚାମାଲ[span_101](start_span)[span_101](end_span)</td><td><strong>ଚୂନପଥର[span_102](start_span)[span_102](end_span)</strong></td></tr>
+          <tr><td>ବାଷ୍ପୀଭବନ ଯୋଗୁଁ ସୃଷ୍ଟ[span_103](start_span)[span_103](end_span)</td><td><strong>ଜିପ୍‌ସମ୍[span_104](start_span)[span_104](end_span)</strong></td></tr>
+          <tr><td>କ୍ଷେତ୍ରୀ ଖଣି[span_105](start_span)[span_105](end_span)</td><td><strong>ତମ୍ବା[span_106](start_span)[span_106](end_span)</strong></td></tr>
+          <tr><td>ବିଦ୍ୟୁତ୍-ରୋଧକ ଖଣିଜ[span_107](start_span)[span_107](end_span)</td><td><strong>ଅଭ୍ର[span_108](start_span)[span_108](end_span)</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">୩. ସଂକ୍ଷିପ୍ତ ପାର୍ଥକ୍ୟ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଲୌହମିଶ୍ରିତ ଖଣିଜ (Ferrous)</h4>
+        <p>ଯେଉଁ ଧାତବ ଖଣିଜରେ ଲୁହା ଅଂଶ ବିଦ୍ୟମାନ ଥାଏ[span_109](start_span)[span_109](end_span)। ଯଥା: ଲୁହାପଥର, ମାଙ୍ଗାନିଜ୍, ନିକେଲ, କୋବାଲ୍ଟ[span_110](start_span)[span_110](end_span) ।</p>
+      </div>
+      <div class="card coral">
+        <h4>ଲୌହବିହୀନ ଖଣିଜ (Non-Ferrous)</h4>
+        <p>ଯେଉଁ ଧାତବ ଖଣିଜରେ ଲୁହାର ଅଂଶ ନଥାଏ[span_111](start_span)[span_111](end_span)। ଯଥା: ତମ୍ବା, ବକ୍ସାଇଟ୍, ସୀସା, ଟିଣ, ସୁନା[span_112](start_span)[span_112](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ • ଚତୁର୍ଥ ଅଧ୍ୟାୟ: ଖଣିଜ ସମ୍ବଳ | Digital Learning Note System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
