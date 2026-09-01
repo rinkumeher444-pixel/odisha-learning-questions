@@ -1,1 +1,873 @@
 
+<!DOCTYPE html>
+<html lang="or">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ - ଅଷ୍ଟମ ଅଧ୍ୟାୟ: ପରିବହନ, ଯୋଗାଯୋଗ ଏବଂ ବାଣିଜ୍ୟ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(56, 189, 248, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(245, 158, 11, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(20, 184, 166, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Sans Oriya', 'Outfit', sans-serif;
+      line-height: 1.75;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1060px;
+      margin: 0 auto;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.25;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--teal-glow);
+      color: var(--teal);
+      border: 1px solid rgba(20, 184, 166, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #67e8f9, #fde68a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 720px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--teal);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.15rem;
+      color: #e2e8f0;
+      margin: 22px 0 12px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 0.98rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.05rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 16px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#f59e0b" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#38bdf8"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#f59e0b"/>
+    </svg>
+    <div class="badge">🚆 ଦଶମ ଶ୍ରେଣୀ • ଭୂଗୋଳ • ଅଷ୍ଟମ ଅଧ୍ୟାୟ</div>
+    <h1>ପରିବହନ, ଯୋଗାଯୋଗ ଏବଂ ବାଣିଜ୍ୟ</h1>
+    <p>ଦେଶର ଜୀବନରେଖା: ସଡ଼କପଥ, ରେଳପଥ, ପାଇପ୍‌ଲାଇନ୍, ଜଳପଥ, ଆକାଶପଥ, ବ୍ୟକ୍ତିଗତ ଓ ଗଣଯୋଗାଯୋଗ, ଆନ୍ତର୍ଜାତୀୟ ବାଣିଜ୍ୟ ଏବଂ ସହରାଞ୍ଚଳ ଯାତାୟତ ପରିଚାଳନାର ବିସ୍ତୃତ ସାରାଂଶ।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#intro">ଭିତ୍ତିଭୂମି ଓ ପରିବହନ ବ୍ୟବସ୍ଥା</a>
+    <a href="#roadways">ସଡ଼କପଥ ଓ ଶ୍ରେଣୀବିଭାଗ</a>
+    <a href="#railways">ରେଳପଥ ଓ ରେଳବାଇ ମଣ୍ଡଳ</a>
+    <a href="#pipeline">ପାଇପ୍‌ଲାଇନ୍ ପରିବହନ</a>
+    <a href="#waterways">ଜଳପଥ ଓ ପ୍ରମୁଖ ବନ୍ଦର</a>
+    <a href="#airways">ଆକାଶପଥ ପରିବହନ</a>
+    <a href="#communication">ଯୋଗାଯୋଗ (ଡାକ, ଗଣମାଧ୍ୟମ)</a>
+    <a href="#trade">ବାଣିଜ୍ୟ ଓ ବାଣିଜ୍ୟିକ ଉଦ୍‌ବୃତ୍ତି</a>
+    <a href="#urban">ସହରାଞ୍ଚଳ ଯାତାୟତ ଓ ସୁରକ୍ଷା</a>
+    <a href="#exercises">ପ୍ରଶ୍ନୋତ୍ତର</a>
+  </nav>
+
+  <!-- 1. Infrastructure & Transport System -->
+  <section id="intro">
+    <h2 class="sec-title">🌐 ୧. ଆଧାରିକ ସଂରଚନା ଓ ପରିବହନ ବ୍ୟବସ୍ଥା</h2>
+    <p>
+      ଦେଶର ଆର୍ଥିକ ଅବସ୍ଥାକୁ ସୁଦୃଢ଼ କରିବାରେ ସହାୟକ ହେଉଥିବା ସମସ୍ତ ସମ୍ବଳକୁ <strong>ଆଧାରିକ ସଂରଚନା (Infrastructure)</strong> କୁହାଯାଏ[span_0](start_span)[span_0](end_span)। ପରିବହନ ବ୍ୟବସ୍ଥାକୁ ମନୁଷ୍ୟ ଶରୀରର <strong>ରକ୍ତ ସଞ୍ଚାଳନ</strong> ସହିତ ତୁଳନା କରାଯାଇଛି, ଯାହା ଦେଶର ଅର୍ଥନୀତି ପାଇଁ ଏକ ଜୀବନରେଖା[span_1](start_span)[span_1](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>ପରିବହନ (Transport) ର ସଂଜ୍ଞା:</strong><br>
+      ଯାତ୍ରୀ ବା ଜିନିଷପତ୍ରକୁ ଗୋଟିଏ ସ୍ଥାନରୁ ଅନ୍ୟ ସ୍ଥାନକୁ ବହନ କରି ନେବା ପ୍ରକ୍ରିୟାକୁ <strong>ପରିବହନ</strong> କୁହାଯାଏ[span_2](start_span)[span_2](end_span)। ଏହା ଉତ୍ପାଦକ ଓ ଉପଭୋକ୍ତାଙ୍କ ମଧ୍ୟରେ ସଂଯୋଗ ସ୍ଥାପନ କରେ ଏବଂ ଆଞ୍ଚଳିକ ଭେଦଭାବ ଦୂର କରି ଜାତୀୟ ଏକତା ସୁଦୃଢ଼ କରେ[span_3](start_span)[span_3](end_span)।
+    </div>
+
+    <!-- Tree Diagram of Transport -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 620 220" width="580" height="210" xmlns="http://www.w3.org/2000/svg">
+          <!-- Root Box -->
+          <rect x="240" y="10" width="140" height="35" rx="6" fill="#1b263e" stroke="#38bdf8" stroke-width="2"/>
+          <text x="310" y="32" fill="#38bdf8" font-size="13" font-weight="bold" text-anchor="middle">ପରିବହନ ବ୍ୟବସ୍ଥା</text>
+
+          <!-- Branch Lines -->
+          <path d="M 310,45 L 310,75 M 110,75 L 510,75 M 110,75 L 110,95 M 310,75 L 310,95 M 510,75 L 510,95" fill="none" stroke="#64748b" stroke-width="2"/>
+
+          <!-- 3 Main Branches -->
+          <!-- Land -->
+          <rect x="35" y="95" width="150" height="32" rx="5" fill="#131d31" stroke="#f59e0b" stroke-width="2"/>
+          <text x="110" y="116" fill="#f59e0b" font-size="12" font-weight="bold" text-anchor="middle">୧. ସ୍ଥଳପଥ</text>
+
+          <!-- Water -->
+          <rect x="235" y="95" width="150" height="32" rx="5" fill="#131d31" stroke="#14b8a6" stroke-width="2"/>
+          <text x="310" y="116" fill="#14b8a6" font-size="12" font-weight="bold" text-anchor="middle">୨. ଜଳପଥ</text>
+
+          <!-- Air -->
+          <rect x="435" y="95" width="150" height="32" rx="5" fill="#131d31" stroke="#38bdf8" stroke-width="2"/>
+          <text x="510" y="116" fill="#38bdf8" font-size="12" font-weight="bold" text-anchor="middle">୩. ଆକାଶପଥ</text>
+
+          <!-- Sub-branches -->
+          <!-- Land Sub -->
+          <rect x="15" y="145" width="190" height="55" rx="4" fill="#0b111e" stroke="#f59e0b" stroke-width="1"/>
+          <text x="110" y="167" fill="#fde68a" font-size="10" text-anchor="middle">• ସଡ଼କପଥ  • ରେଳପଥ</text>
+          <text x="110" y="187" fill="#fde68a" font-size="10" text-anchor="middle">• ପାଇପ୍‌ଲାଇନ୍ (Pipelines)</text>
+
+          <!-- Water Sub -->
+          <rect x="220" y="145" width="180" height="55" rx="4" fill="#0b111e" stroke="#14b8a6" stroke-width="1"/>
+          <text x="310" y="167" fill="#5eead4" font-size="10" text-anchor="middle">• ଅନ୍ତଃସ୍ଥଳୀୟ (Inland)</text>
+          <text x="310" y="187" fill="#5eead4" font-size="10" text-anchor="middle">• ସାଗର ଓ ମହାସାଗରୀୟ</text>
+
+          <!-- Air Sub -->
+          <rect x="420" y="145" width="180" height="55" rx="4" fill="#0b111e" stroke="#38bdf8" stroke-width="1"/>
+          <text x="510" y="167" fill="#bae6fd" font-size="10" text-anchor="middle">• ଘରୋଇ (Domestic)</text>
+          <text x="510" y="187" fill="#bae6fd" font-size="10" text-anchor="middle">• ଆନ୍ତର୍ଜାତିକ (International)</text>
+        </svg>
+        <figcaption>ଚିତ୍ର: ଭାରତର ପରିବହନ ବ୍ୟବସ୍ଥାର ବର୍ଗୀକରଣ ଚାର୍ଟ</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 2. Roadways -->
+  <section id="roadways">
+    <h2 class="sec-title">🛣️ ୨. ସଡ଼କପଥ (Roadways) ଓ ଶ୍ରେଣୀବିଭାଗ</h2>
+    <p>
+      ସଡ଼କପଥ ପରିବହନ ବ୍ୟବସ୍ଥାରେ <strong>ଭାରତ ବିଶ୍ୱରେ ଦ୍ୱିତୀୟ ସ୍ଥାନ</strong> ଅଧିକାର କରିଛି[span_4](start_span)[span_4](end_span)। ଦେଶର ସମୁଦାୟ ସଡ଼କପଥର ଦୈର୍ଘ୍ୟ ପ୍ରାୟ <strong>୫୯.୩୨ ଲକ୍ଷ କି.ମି.</strong>[span_5](start_span)[span_5](end_span)।
+    </p>
+
+    <div class="callout example-box">
+      <strong>ସଡ଼କପଥର ସ୍ୱତନ୍ତ୍ର ସୁବିଧା:</strong>
+      <ul>
+        <li><strong>ଘରକୁ ଘର ସେବା (Door-to-door service):</strong> କେବଳ ସଡ଼କପଥ ଦ୍ୱାରା ହିଁ ସିଧାସଳଖ ଘର ପାଖରେ ପହଞ୍ଚି ହୁଏ[span_6](start_span)[span_6](end_span)।</li>
+        <li><strong>କ୍ଷୟଶୀଳ ଦ୍ରବ୍ୟ ପରିବହନ:</strong> ପନିପରିବା, ଫଳ ଓ କ୍ଷୀର ଭଳି ଶୀଘ୍ର ନଷ୍ଟ ହେଉଥିବା ଦ୍ରବ୍ୟ ପାଇଁ ସର୍ବୋତ୍କୃଷ୍ଟ[span_7](start_span)[span_7](end_span)।</li>
+        <li><strong>ନିର୍ମାଣ ଓ ରକ୍ଷଣାବେକ୍ଷଣ:</strong> ରେଳପଥ ତୁଳନାରେ ଖର୍ଚ୍ଚ କମ୍ ଏବଂ ଖାଲଖମା ପାର୍ବତ୍ୟାଞ୍ଚଳରେ ମଧ୍ୟ ସହଜରେ ନିର୍ମିତ ହୋଇପାରେ[span_8](start_span)[span_8](end_span)।</li>
+      </ul>
+    </div>
+
+    <h3 class="sub-title">ଭାରତର ପ୍ରମୁଖ ସଡ଼କପଥ ଶ୍ରେଣୀବିଭାଗ:</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ଶ୍ରେଣୀ</th>
+            <th>ନିର୍ମାଣ ଓ ପରିଚାଳନା ସଂସ୍ଥା</th>
+            <th>ବିଶେଷତ୍ୱ ଓ ସଂଯୋଗ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>୧. ଜାତୀୟ ରାଜପଥ (NH)</strong></td>
+            <td>କେନ୍ଦ୍ରୀୟ ଲୋକନିର୍ମାଣ ବିଭାଗ (CPWD)[span_9](start_span)[span_9](end_span)</td>
+            <td>ଦେଶର ୪୦% ଯାତ୍ରୀ ଓ ମାଲ୍ ପରିବହନ କରେ (ଦୈର୍ଘ୍ୟ: ୧.୪୨ ଲକ୍ଷ କିମି)[span_10](start_span)[span_10](end_span)। ଦୀର୍ଘତମ: <strong>NH-44 (ଶ୍ରୀନଗରରୁ କନ୍ୟାକୁମାରୀ, ୩୭୪୫ କିମି)</strong>[span_11](start_span)[span_11](end_span)। ଓଡ଼ିଶା ଦେଇ NH-16 (କୋଲକାତା-ଭୁବନେଶ୍ୱର-ଚେନ୍ନାଇ) ଯାଇଛି[span_12](start_span)[span_12](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>୨. ରାଜ୍ୟ ରାଜପଥ (SH)</strong></td>
+            <td>ରାଜ୍ୟ ଲୋକନିର୍ମାଣ ବିଭାଗ (State PWD)[span_13](start_span)[span_13](end_span)</td>
+            <td>ରାଜଧାନୀ ସହ ଜିଲ୍ଲା ସଦର ମହକୁମା ଓ ଶିଳ୍ପ କେନ୍ଦ୍ରକୁ ଯୋଡ଼େ (୧.୭ ଲକ୍ଷ କିମି)[span_14](start_span)[span_14](end_span)। <strong>ମହାରାଷ୍ଟ୍ରରେ ସର୍ବାଧିକ (୩୩,୭୦୫ କିମି)</strong>, ଦ୍ୱିତୀୟରେ କର୍ଣ୍ଣାଟକ[span_15](start_span)[span_15](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>୩. ମୁଖ୍ୟ ଜିଲ୍ଲା ସଡ଼କ (MDR)</strong></td>
+            <td>ଜିଲ୍ଲା ପରିଷଦ[span_16](start_span)[span_16](end_span)</td>
+            <td>ଜିଲ୍ଲା ସଦର ମହକୁମାକୁ ବ୍ଲକ, ତହସିଲ ଓ ବଡ଼ ଗ୍ରାମ ସହିତ ଯୋଡ଼େ (୬,୦୩,୨୯୨ କିମି)[span_17](start_span)[span_17](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>୪. ଗ୍ରାମ୍ୟ ସଡ଼କ (Rural Roads)</strong></td>
+            <td>ପ୍ରଧାନମନ୍ତ୍ରୀ ଗ୍ରାମ୍ୟ ସଡ଼କ ଯୋଜନା (PMGSY)[span_18](start_span)[span_18](end_span)</td>
+            <td>୫୦୦ ଜନସଂଖ୍ୟା ବିଶିଷ୍ଟ ଗ୍ରାମକୁ ପକ୍କା କଂକ୍ରିଟ୍ ରାସ୍ତା ଦ୍ୱାରା ମୁଖ୍ୟ ସହର ସହ ଯୋଡ଼େ[span_19](start_span)[span_19](end_span)। ଓଡ଼ିଶାରେ ଏହାର ଦୈର୍ଘ୍ୟ ପ୍ରାୟ ୨୬ ଲକ୍ଷ କିମି[span_20](start_span)[span_20](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>୫. ସୀମାନ୍ତ ସଡ଼କ (BRO)</strong></td>
+            <td>Border Roads Organisation (୧୯୬୦)[span_21](start_span)[span_21](end_span)</td>
+            <td>ଜାତୀୟ ସୁରକ୍ଷା ପାଇଁ ସୀମାନ୍ତ ଅଞ୍ଚଳରେ ନିର୍ମିତ[span_22](start_span)[span_22](end_span)। <strong>ମନାଲି-ଲେହ ସଡ଼କ ପୃଥିବୀର ସର୍ବୋଚ୍ଚ ସଡ଼କପଥ</strong>[span_23](start_span)[span_23](end_span)। ଦିଲ୍ଲୀ-ଚଣ୍ଡୀଗଡ଼-ଶିମଲା-ସିପକିଲ୍ଲା ରାଜମାର୍ଗ[span_24](start_span)[span_24](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>୬. ତ୍ୱରିତ ରାଜମାର୍ଗ (Expressways)</strong></td>
+            <td>ବିଶେଷ ପ୍ରକଳ୍ପ କର୍ତ୍ତୃପକ୍ଷ</td>
+            <td>ଦ୍ରୁତ ଯାନ ଚଳାଚଳ ପାଇଁ ୬-୮ ରୁ ୧୨ ଲେନ୍ ବିଶିଷ୍ଟ ରାସ୍ତା (ମୁମ୍ବାଇ-ପୁଣେ, ଆଗ୍ରା-ଲକ୍ଷ୍ନୌ, ଦିଲ୍ଲୀ-ମୁମ୍ବାଇ ୧୩୫୦ କିମି ନିର୍ମାଣାଧୀନ, ଚଣ୍ଡୀଖୋଲ-ସୁକିନ୍ଦା)[span_25](start_span)[span_25](end_span)।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Golden Quadrilateral -->
+    <h3 class="sub-title">ସ୍ୱର୍ଣ୍ଣ ଚତୁର୍ଭୁଜ ଓ ଅଳିନ୍ଦ ପ୍ରକଳ୍ପ (Super Highways):</h3>
+    <div class="compare">
+      <div class="card gold">
+        <h4>ସ୍ୱର୍ଣ୍ଣ ଚତୁର୍ଭୁଜ (Golden Quadrilateral)</h4>
+        <p>ଦେଶର ୪ଟି ପ୍ରମୁଖ ମହାନଗର <strong>ଦିଲ୍ଲୀ, କୋଲକାତା, ଚେନ୍ନାଇ ଓ ମୁମ୍ବାଇ</strong>କୁ ଯୋଡ଼ୁଥିବା ୪ ରୁ ୬ ଲେନ୍ ବିଶିଷ୍ଟ ରାଜମାର୍ଗ[span_26](start_span)[span_26](end_span)।<br><strong>ମୋଟ ଦୈର୍ଘ୍ୟ: ୫,୮୪୦ କିଲୋମିଟର</strong>[span_27](start_span)[span_27](end_span) ।</p>
+      </div>
+      <div class="card teal">
+        <h4>ଉତ୍ତର-ଦକ୍ଷିଣ ଓ ପୂର୍ବ-ପଶ୍ଚିମ ଅଳିନ୍ଦ (Corridors)</h4>
+        <ul>
+          <li><strong>ଉତ୍ତର-ଦକ୍ଷିଣ:</strong> ଶ୍ରୀନଗର (ଜାମ୍ମୁ-କାଶ୍ମୀର) ରୁ କନ୍ୟାକୁମାରୀ (ତାମିଲନାଡୁ)[span_28](start_span)[span_28](end_span)</li>
+          <li><strong>ପୂର୍ବ-ପଶ୍ଚିମ:</strong> ସିଲଚର (ଆସାମ) ରୁ ପୋରବନ୍ଦର (ଗୁଜରାଟ)[span_29](start_span)[span_29](end_span)</li>
+          <li>ଦୁଇ ଅଳିନ୍ଦର ମୋଟ ଦୈର୍ଘ୍ୟ: <strong>୭,୩୦୦ କିଲୋମିଟର</strong>[span_30](start_span)[span_30](end_span)</li>
+          <li>ଏହା ଦେଶର <strong>୧୦ଟି ପ୍ରମୁଖ ସାମୁଦ୍ରିକ ବନ୍ଦରକୁ ସଂଯୋଗ କରେ</strong>[span_31](start_span)[span_31](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Railways -->
+  <section id="railways">
+    <h2 class="sec-title">🚂 ୩. ରେଳପଥ (Indian Railways)</h2>
+    <p>
+      ଭାରତୀୟ ରେଳବାଇ ଦେଶର ବୃହତ୍ତମ ରାଷ୍ଟ୍ରାୟତ୍ତ ସଂସ୍ଥା[span_32](start_span)[span_32](end_span)। ଏହା ଏସିଆରେ <strong>ଦ୍ୱିତୀୟ</strong> ଏବଂ ବିଶ୍ୱରେ <strong>ତୃତୀୟ ବୃହତ୍ତମ ରେଳ ନେଟୱାର୍କ</strong> (ଆମେରିକା ପ୍ରଥମ, ଚୀନ୍ ଦ୍ୱିତୀୟ)[span_33](start_span)[span_33](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>ଭାରତରେ ରେଳ ଚଳାଚଳର ଐତିହାସିକ ଆରମ୍ଭ:</strong><br>
+      • <strong>୧୮୫୩ ମସିହା ଏପ୍ରିଲ:</strong> ବମ୍ବେରୁ ଥାଣେ ମଧ୍ୟରେ <strong>୩୪ କି.ମି.</strong> ଦୈର୍ଘ୍ୟରେ ଭାରତର ପ୍ରଥମ ଟ୍ରେନ୍ ଚାଲିଥିଲା[span_34](start_span)[span_34](end_span)।<br>
+      • <strong>୧୮୫୪:</strong> କୋଲକାତା ଓ ରାଣୀଗଞ୍ଜ ମଧ୍ୟରେ[span_35](start_span)[span_35](end_span)।<br>
+      • <strong>୧୮୫୬:</strong> ଚେନ୍ନାଇ ଓ ଆରକୋନାମ୍ ମଧ୍ୟରେ[span_36](start_span)[span_36](end_span)।
+    </div>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ରେଳ ଗେଜ୍ (Gauge) ର ଶ୍ରେଣୀବିଭାଗ</h4>
+        <ul>
+          <li><strong>ବ୍ରଡ଼ଗେଜ୍ (Broad Gauge):</strong> ଦୁଇ ଧାରଣା ମଧ୍ୟରେ ଦୂରତା <strong>୧.୬୭୬ ମିଟର</strong>[span_37](start_span)[span_37](end_span)</li>
+          <li><strong>ମିଟର ଗେଜ୍ (Meter Gauge):</strong> ବ୍ୟବଧାନ <strong>୧.୦୦୦ ମିଟର</strong>[span_38](start_span)[span_38](end_span)</li>
+          <li><strong>ନାରୋ ଗେଜ୍ (Narrow Gauge):</strong> ବ୍ୟବଧାନ <strong>୦.୭୬୨ ମିଟର</strong>[span_39](start_span)[span_39](end_span)</li>
+          <li><strong>ଲିଫ୍ଟ / ଲାଇଟ୍ ଗେଜ୍:</strong> ବ୍ୟବଧାନ <strong>୦.୬୧୦ ମିଟର</strong>[span_40](start_span)[span_40](end_span)</li>
+        </ul>
+      </div>
+      <div class="card blue">
+        <h4>ପରିଚାଳନାଗତ ତଥ୍ୟ ଓ ଦ୍ରୁତଗାମୀ ଟ୍ରେନ୍</h4>
+        <ul>
+          <li>ମୋଟ ଲାଇନ୍ ଦୈର୍ଘ୍ୟ: <strong>୬୭,୩୬୮ କିମି</strong> (ବିଦ୍ୟୁତୀକରଣ: ୨୨,୨୨୪ କିମି)[span_41](start_span)[span_41](end_span)</li>
+          <li>ଦୀର୍ଘତମ ରେଳ ଚଳାଚଳ: <strong>ଡିବ୍ରୁଗଡ଼ରୁ କନ୍ୟାକୁମାରୀ (୪,୨୮୬ କିମି)</strong>[span_42](start_span)[span_42](end_span)</li>
+          <li>ଦୀର୍ଘତମ ପ୍ଲାଟଫର୍ମ: <strong>ଗୋରଖପୁର (୧୩୬୬.୩୩ ମିଟର)</strong>[span_43](start_span)[span_43](end_span)</li>
+          <li>ଦ୍ରୁତଗାମୀ ଟ୍ରେନ୍: <strong>ବନ୍ଦେ ଭାରତ ଏକ୍ସପ୍ରେସ୍ (ଗତି: ୧୮୦-୨୦୦ କିମି/ଘଣ୍ଟା)</strong>, ରାଜଧାନୀ, ଶତାବ୍ଦୀ, ତେଜସ୍[span_44](start_span)[span_44](end_span)</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub-title">ଭାରତର ୧୮ଟି ରେଳବାଇ ମଣ୍ଡଳ (Railway Zones - ସାରଣୀ ୧୮):</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>କ୍ରମ</th>
+            <th>ରେଳପଥ ମଣ୍ଡଳ (Zone)</th>
+            <th>ମୁଖ୍ୟ କାର୍ଯ୍ୟାଳୟ (Headquarters)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>୧</td><td>ଉତ୍ତର ରେଳପଥ (NR)</td><td>ନିଉଦିଲ୍ଲୀ[span_45](start_span)[span_45](end_span)</td></tr>
+          <tr><td>୨</td><td>ଦକ୍ଷିଣ ରେଳପଥ (SR)</td><td>ଚେନ୍ନାଇ[span_46](start_span)[span_46](end_span)</td></tr>
+          <tr><td>୩</td><td>ପୂର୍ବ ରେଳପଥ (ER)</td><td>କୋଲକାତା (ହାୱାଡ଼ା)[span_47](start_span)[span_47](end_span)</td></tr>
+          <tr><td>୪</td><td>ପଶ୍ଚିମ ରେଳପଥ (WR)</td><td>ମୁମ୍ବାଇ (ଚର୍ଚ୍ଚଗେଟ୍)[span_48](start_span)[span_48](end_span)</td></tr>
+          <tr><td>୫</td><td>କେନ୍ଦ୍ର ରେଳପଥ (CR)</td><td>ମୁମ୍ବାଇ (CST)[span_49](start_span)[span_49](end_span)</td></tr>
+          <tr><td>୬</td><td>ଦକ୍ଷିଣ-ପୂର୍ବ ରେଳପଥ (SER)</td><td>କୋଲକାତା[span_50](start_span)[span_50](end_span)</td></tr>
+          <tr><td>୭</td><td>ଉତ୍ତର-ପୂର୍ବ ରେଳପଥ (NER)</td><td>ଗୋରଖପୁର[span_51](start_span)[span_51](end_span)</td></tr>
+          <tr><td>୮</td><td>ଉତ୍ତର-ପୂର୍ବ ସୀମାନ୍ତ (NFR)</td><td>ମାଲିଗାଓଁ (ଗୁଆହାଟି)[span_52](start_span)[span_52](end_span)</td></tr>
+          <tr><td>୯</td><td>ଦକ୍ଷିଣ-କେନ୍ଦ୍ର ରେଳପଥ (SCR)</td><td>ସିକନ୍ଦରାବାଦ[span_53](start_span)[span_53](end_span)</td></tr>
+          <tr><td>୧୦</td><td><strong>ପୂର୍ବ-ଉପକୂଳ ରେଳପଥ (ECoR)</strong></td><td><strong>ଭୁବନେଶ୍ୱର</strong>[span_54](start_span)[span_54](end_span)</td></tr>
+          <tr><td>୧୧</td><td>ଦକ୍ଷିଣ-ପଶ୍ଚିମ ରେଳପଥ (SWR)</td><td>ହୁବଳି (Hubli)[span_55](start_span)[span_55](end_span)</td></tr>
+          <tr><td>୧୨</td><td>ପଶ୍ଚିମ-କେନ୍ଦ୍ର ରେଳପଥ (WCR)</td><td>ଜବଲପୁର[span_56](start_span)[span_56](end_span)</td></tr>
+          <tr><td>୧୩</td><td>ଉତ୍ତର-କେନ୍ଦ୍ର ରେଳପଥ (NCR)</td><td>ଆଲାହାବାଦ (ପ୍ରୟାଗରାଜ)[span_57](start_span)[span_57](end_span)</td></tr>
+          <tr><td>୧୪</td><td>ଦକ୍ଷିଣ-ପୂର୍ବ-କେନ୍ଦ୍ର ରେଳପଥ (SECR)</td><td>ବିଳାସପୁର[span_58](start_span)[span_58](end_span)</td></tr>
+          <tr><td>୧୫</td><td>ଉତ୍ତର-ପଶ୍ଚିମ ରେଳପଥ (NWR)</td><td>ଜୟପୁର[span_59](start_span)[span_59](end_span)</td></tr>
+          <tr><td>୧୬</td><td>ପୂର୍ବ-କେନ୍ଦ୍ର ରେଳପଥ (ECR)</td><td>ହାଜିପୁର[span_60](start_span)[span_60](end_span)</td></tr>
+          <tr><td>୧୭</td><td>କଙ୍କଣ ରେଳପଥ (KR)</td><td>ନିଉ ମୁମ୍ବାଇ[span_61](start_span)[span_61](end_span)</td></tr>
+          <tr><td>୧୮</td><td><strong>ଦକ୍ଷିଣ-ଉପକୂଳ ରେଳପଥ (SCoR)</strong></td><td><strong>ବିଶାଖାପାଟଣା (ଘୋଷିତ)</strong>[span_62](start_span)[span_62](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout green-box activity-box">
+      <strong>ମେଟ୍ରୋ ରେଳ ବ୍ୟବସ୍ଥା (Metro Rail):</strong> ଦ୍ରୁତ ସହରୀକରଣ ଓ ରାସ୍ତାଜାମ୍ ରୋକିବା ପାଇଁ <strong>ଜାତୀୟ ସହରୀ ପରିବହନ ନୀତି (NUTP, 2006)</strong> ଅଧୀନରେ କୋଲକାତା, ଦିଲ୍ଲୀ, ମୁମ୍ବାଇ, ଚେନ୍ନାଇ, ବେଙ୍ଗାଲୁରୁ, ହାଇଦ୍ରାବାଦ, ଜୟପୁର, କୋଚି, ଲକ୍ଷ୍ନୌ ଓ ଅହମ୍ମଦାବାଦରେ ମେଟ୍ରୋ ଚଳାଚଳ କରୁଛି[span_63](start_span)[span_63](end_span)।
+    </div>
+  </section>
+
+  <!-- 4. Pipelines -->
+  <section id="pipeline">
+    <h2 class="sec-title">🛢️ ୪. ପାଇପ୍‌ଲାଇନ୍ ପରିବହନ (Pipelines)</h2>
+    <p>
+      ପାଇପ୍‌ଲାଇନ୍ ଦ୍ୱାରା ତରଳ (ପେଟ୍ରୋଲିୟମ୍, ପାଣି), ବାଷ୍ପୀୟ (ପ୍ରାକୃତିକ ଗ୍ୟାସ, LPG) ଏବଂ ତରଳୀକୃତ କଠିନ ଖଣିଜ ସ୍ଲରୀ (Slurry) ଅଳ୍ପ ଖର୍ଚ୍ଚରେ ବିନା ଅପଚୟରେ ପରିବହନ କରାଯାଏ[span_64](start_span)[span_64](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ପ୍ରମୁଖ ତୈଳ ଓ ଗ୍ୟାସ୍ ପାଇପ୍‌ଲାଇନ୍</h4>
+        <ul>
+          <li><strong>ନହରକଟିଆ-ନୂନାମାଟି-ବରାଉଣୀ-କାନପୁର:</strong> ଭାରତର ପ୍ରଥମ ପାଇପ୍‌ଲାଇନ୍[span_65](start_span)[span_65](end_span)</li>
+          <li><strong>ସାଲାୟା-କୋୟାଲି-ମଥୁରା-ଜଳନ୍ଧର</strong>[span_66](start_span)[span_66](end_span)</li>
+          <li><strong>ହାଜିରା-ବିଜୟପୁର-ଜଗଦୀଶପୁର (HVJ):</strong> ପ୍ରମୁଖ ଗ୍ୟାସ୍ ପାଇପ୍‌ଲାଇନ୍[span_67](start_span)[span_67](end_span)</li>
+          <li><strong>ମୁମ୍ବାଇ ହାଇ - ଆଙ୍କଲେଶ୍ୱର - କୋୟାଲି</strong>[span_68](start_span)[span_68](end_span)</li>
+          <li><strong>ହଳଦିଆରୁ ପାରାଦୀପ</strong> (ନିର୍ମାଣାଧୀନ)[span_69](start_span)[span_69](end_span)</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <h4>କଠିନ ଖଣିଜ ପରିବହନକାରୀ (Slurry Pipelines)</h4>
+        <ul>
+          <li><strong>ବଇଲାଡ଼ିଲା (ଛତିଶଗଡ଼) ରୁ ବିଶାଖାପାଟଣା:</strong> ଲୁହାପଥର ସ୍ଲରୀ ପରିବହନ[span_70](start_span)[span_70](end_span)</li>
+          <li><strong>କୁଦ୍ରେମୁଖ (କର୍ଣ୍ଣାଟକ) ରୁ ମାଙ୍ଗାଲୋର ବନ୍ଦର:</strong> ଲୁହାପଥର ସ୍ଲରୀ[span_71](start_span)[span_71](end_span)</li>
+          <li><strong>ଦେବାରୀରୁ ଉଦୟପୁର (ରାଜସ୍ଥାନ):</strong> ଜିଙ୍କ୍ (ଦସ୍ତା) ଖଣିଜ ପରିବହନ[span_72](start_span)[span_72](end_span)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Waterways & Ports -->
+  <section id="waterways">
+    <h2 class="sec-title">🚢 ୫. ଜଳପଥ ପରିବହନ ଓ ପ୍ରମୁଖ ବନ୍ଦର</h2>
+    <p>
+      ଜଳପଥ ହେଉଛି ସବୁଠାରୁ <strong>ଶସ୍ତା, ଜାଳେଣୀ-ସମର୍ଥ ଏବଂ ପରିବେଶ ଅନୁକୂଳ</strong> ପରିବହନ ମାଧ୍ୟମ, ଯାହା ଭାରୀ ଓ ବୃହଦାକାର ମାଲ୍ ପରିବହନ ପାଇଁ ଉତ୍କୃଷ୍ଟ[span_73](start_span)[span_73](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>(କ) ଅନ୍ତଃସ୍ଥଳୀୟ ଜଳପଥ (Inland Waterways)</h4>
+        <ul>
+          <li>ଭାରତରେ <strong>୧୪,୫୦୦ କି.ମି.</strong> ଅନ୍ତଃସ୍ଥଳୀୟ ଜଳପଥ ଅଛି (ସୁନାବ୍ୟା: ୩,୭୦୦ କିମି)[span_74](start_span)[span_74](end_span)।</li>
+          <li>ଭାରତ-ବାଂଲାଦେଶ ନୌ-ପରିବହନ ପଥ (୧୯୭୨/୧୯୯୪): କୋଲକାତା-ପାଣ୍ଡୁ, ରାଜସାହି-ଧୁଲିଆନା[span_75](start_span)[span_75](end_span)।</li>
+          <li><strong>ପ୍ରମୁଖ କେନାଲ:</strong> ବକିଂହାମ କେନାଲ (କୃଷ୍ଣା ତ୍ରିକୋଣଭୂମିରୁ ମାରାକାନମ୍), କୁମ୍ବରଜୁଆ କେନାଲ (ଗୋଆ - ମାଣ୍ଡୋବୀ ଓ ଜୁଆରୀ ନଦୀ ସଂଯୋଗ)[span_76](start_span)[span_76](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card blue">
+        <h4>(ଖ) ସମୁଦ୍ରପଥ ଓ ୧୨ଟି ପ୍ରମୁଖ ବନ୍ଦର</h4>
+        <p>ଭାରତର ଉପକୂଳରେଖା <strong>୬୧୦୦ କିମି</strong> (ଦ୍ୱୀପପୁଞ୍ଜ ସହ ୭୫୧୬ କିମି)[span_77](start_span)[span_77](end_span)। ଦେଶର <strong>୯୫% ବହିର୍ବାଣିଜ୍ୟ</strong> ଏହି ବନ୍ଦର ଦେଇ ହୁଏ[span_78](start_span)[span_78](end_span) ।</p>
+        <ul>
+          <li><strong>ପଶ୍ଚିମ ଉପକୂଳ:</strong> କାଣ୍ଡଲା (ଗୁଜରାଟ), ମୁମ୍ବାଇ (ଭାରତର ପ୍ରବେଶ ଦ୍ୱାର), ନଭସେବା (JNPT), ମାର୍ମାଗାଓ (ଗୋଆ), ନିଉ ମାଙ୍ଗାଲୋର, କୋଚି[span_79](start_span)[span_79](end_span)</li>
+          <li><strong>ପୂର୍ବ ଉପକୂଳ:</strong> ଟୁଟିକୋରିନ୍, ଚେନ୍ନାଇ, ଏନ୍ନୋର (ତାମିଲନାଡୁ), ବିଶାଖାପାଟଣା, <strong>ପାରାଦ୍ୱୀପ (ଓଡ଼ିଶା)</strong>, ହଳଦିଆ ଓ କୋଲକାତା[span_80](start_span)[span_80](end_span)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout def-box">
+      <strong>ଭାରତର ୪ଟି ପ୍ରମୁଖ ଆନ୍ତର୍ଜାତୀୟ ସମୁଦ୍ରପଥ:</strong>
+      <ol>
+        <li><strong>ସୁଏଜ୍ କେନାଲ ପଥ:</strong> ଇଉରୋପ ମହାଦେଶ ସହିତ ବାଣିଜ୍ୟ[span_81](start_span)[span_81](end_span)।</li>
+        <li><strong>ଉତ୍ତମାଶା ଅନ୍ତରୀପ (Cape of Good Hope) ପଥ:</strong> ପଶ୍ଚିମ ଆଫ୍ରିକା ଓ ଦକ୍ଷିଣ ଆମେରିକା ସହ ବାଣିଜ୍ୟ[span_82](start_span)[span_82](end_span)।</li>
+        <li><strong>ସିଙ୍ଗାପୁର ସମୁଦ୍ରପଥ:</strong> ଦକ୍ଷିଣ-ପୂର୍ବ ଏସିଆ, ଜାପାନ, ଆମେରିକା ଓ କାନାଡ଼ା ସହିତ ବାଣିଜ୍ୟ[span_83](start_span)[span_83](end_span)।</li>
+        <li><strong>ମଲାକ୍କା ପ୍ରଣାଳୀ ପଥ:</strong> ଅଷ୍ଟ୍ରେଲିଆ ଓ ନିଉଜିଲାଣ୍ଡ ସହିତ ବାଣିଜ୍ୟ[span_84](start_span)[span_84](end_span)।</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 6. Airways -->
+  <section id="airways">
+    <h2 class="sec-title">✈️ ୬. ଆକାଶପଥ ପରିବହନ (Airways)</h2>
+    <p>
+      ଆକାଶପଥ ସବୁଠାରୁ ଦ୍ରୁତଗାମୀ ମାତ୍ର ବ୍ୟୟବହୁଳ ପରିବହନ ମାଧ୍ୟମ[span_85](start_span)[span_85](end_span)। ଦୁର୍ଗମ ପାର୍ବତ୍ୟାଞ୍ଚଳ ଏବଂ ବନ୍ୟା, ଭୂମିକମ୍ପ, ମହାମାରୀ ଓ ଯୁଦ୍ଧ ଭଳି ବିପର୍ଯ୍ୟୟ ସମୟରେ ଏହା ଅତ୍ୟନ୍ତ ଉପଯୋଗୀ[span_86](start_span)[span_86](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଜାତୀୟକରଣ ଓ ପରିଚାଳନା</h4>
+        <ul>
+          <li><strong>୧୯୫୩ ମସିହା:</strong> ବେସାମରିକ ବିମାନ ଚଳାଚଳ ଜାତୀୟକରଣ ହୋଇ <strong>ଏୟାର ଇଣ୍ଡିଆ (AI)</strong> ଓ <strong>ଇଣ୍ଡିଆନ୍ ଏୟାରଲାଇନ୍ସ (IA)</strong> ଗଠିତ ହୋଇଥିଲା (ବର୍ତ୍ତମାନ ଏକତ୍ରିତ)[span_87](start_span)[span_87](end_span)।</li>
+          <li>ପରିଚାଳନା ସଂସ୍ଥା: <strong>ଭାରତୀୟ ବିମାନ ବନ୍ଦର ପ୍ରାଧିକରଣ (AAI)</strong>[span_88](start_span)[span_88](end_span)।</li>
+          <li>ଦେଶରେ ମୋଟ <strong>୧୨୩ଟି ବିମାନ ବନ୍ଦର</strong> (୩୪ଟି ଆନ୍ତର୍ଜାତୀୟ ବିମାନବନ୍ଦର)[span_89](start_span)[span_89](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card blue">
+        <h4>ବେସରକାରୀ ବିମାନ ସେବା</h4>
+        <p>ଆକାଶପଥ ଉଦାରୀକରଣ ପରେ ଇଣ୍ଡିଗୋ (IndiGo), ବିସ୍ତାରା, ସ୍ପାଇସ୍‌ଜେଟ୍, ଏୟାର ଏସିଆ, ଗୋ ଏୟାର ଭଳି ଘରୋଇ ସଂସ୍ଥା କାର୍ଯ୍ୟ କରୁଛନ୍ତି[span_90](start_span)[span_90](end_span)।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Communication -->
+  <section id="communication">
+    <h2 class="sec-title">📡 ୭. ଯୋଗାଯୋଗ ବ୍ୟବସ୍ଥା (Communication)</h2>
+    <p>ଯୋଗାଯୋଗ ଦୁଇ ଭାଗରେ ବିଭକ୍ତ: <strong>(୧) ବ୍ୟକ୍ତିଗତ ଯୋଗାଯୋଗ</strong> ଏବଂ <strong>(୨) ଗଣଯୋଗାଯୋଗ</strong>[span_91](start_span)[span_91](end_span)।</p>
+
+    <div class="compare">
+      <div class="card gold">
+        <h4>(କ) ବ୍ୟକ୍ତିଗତ ଯୋଗାଯୋଗ (Personal)</h4>
+        <ul>
+          <li><strong>ଭାରତୀୟ ଡାକ ସେବା (୧୮୫୪):</strong> ୭୦୦ ଡାକଘରୁ ଆରମ୍ଭ[span_92](start_span)[span_92](end_span)। ୧୯୮୪ରେ ଡାକ ବିଭାଗ ଓ ଦୂରସଞ୍ଚାର (Telecom) ବିଭକ୍ତ ହେଲା[span_93](start_span)[span_93](end_span)।</li>
+          <li><strong>ଦୂରସଞ୍ଚାର:</strong> ଟେଲିଫୋନ୍, ମୋବାଇଲ୍, ଇଣ୍ଟରନେଟ୍, ISD (International Subscriber Dialling)[span_94](start_span)[span_94](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card green">
+        <h4>(ଖ) ଗଣଯୋଗାଯୋଗ (Mass Communication)</h4>
+        <ul>
+          <li><strong>ପ୍ରସାର ଭାରତୀ:</strong> ଆକାଶବାଣୀ (AIR - ୨୦୦ଟି ଷ୍ଟେସନ୍) ଓ ଦୂରଦର୍ଶନ (ଦେଶର ୯୦% ଲୋକଙ୍କ ନିକଟରେ ଉପଲବ୍ଧ)[span_95](start_span)[span_95](end_span)।</li>
+          <li><strong>ସମ୍ବାଦପତ୍ର:</strong> ପ୍ରଥମ ଦୈନିକ ଗୁଜରାଟି ପତ୍ରିକା <strong>"ମୁମ୍ବାଇ ସମାଚାର"</strong>[span_96](start_span)[span_96](end_span)। ସର୍ବାଧିକ ସମ୍ବାଦପତ୍ର <strong>ହିନ୍ଦୀ ଭାଷାରେ</strong> ପ୍ରକାଶିତ ହୁଏ (ପରେ ଇଂରାଜୀ ଓ ଉର୍ଦ୍ଦୁ)[span_97](start_span)[span_97](end_span)।</li>
+          <li><strong>ସମ୍ବାଦ ସରବରାହ ସଂସ୍ଥା (୪ଟି):</strong> PTI, UNI (ଇଂରାଜୀ), ସମାଚାର ଭାରତୀ, ହିନ୍ଦୁସ୍ଥାନ ସମାଚାର (ହିନ୍ଦୀ)[span_98](start_span)[span_98](end_span)।</li>
+          <li><strong>ଚଳଚ୍ଚିତ୍ର (Films):</strong> ଚଳଚ୍ଚିତ୍ର ନିର୍ମାଣରେ ଭାରତ ବିଶ୍ୱରେ <strong>ପ୍ରଥମ</strong>; ପ୍ରମାଣପତ୍ର ପ୍ରଦାନକାରୀ ସଂସ୍ଥା: <strong>CBFC</strong>[span_99](start_span)[span_99](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. International Trade -->
+  <section id="trade">
+    <h2 class="sec-title">⚖️ ୮. ଆନ୍ତର୍ଜାତୀୟ ବାଣିଜ୍ୟ (Trade) ଓ ବାଣିଜ୍ୟିକ ଉଦ୍‌ବୃତ୍ତି</h2>
+    <p>
+      ଦେଶର ବିଭିନ୍ନ ରାଜ୍ୟ ମଧ୍ୟରେ ବାଣିଜ୍ୟକୁ <strong>ଅନ୍ତଃବାଣିଜ୍ୟ (Internal Trade)</strong> ଏବଂ ଦୁଇ ବା ତତୋଧିକ ଦେଶ ମଧ୍ୟରେ ବାଣିଜ୍ୟକୁ <strong>ବହିର୍ବାଣିଜ୍ୟ ବା ଆନ୍ତର୍ଜାତୀୟ ବାଣିଜ୍ୟ (International Trade)</strong> କୁହାଯାଏ[span_100](start_span)[span_100](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>ବାଣିଜ୍ୟିକ ଉଦ୍‌ବୃତ୍ତି (Balance of Trade):</strong><br>
+      ଗୋଟିଏ ଦେଶର <strong>ରପ୍ତାନି (Export)</strong> ଏବଂ <strong>ଆମଦାନି (Import)</strong> ମୂଲ୍ୟ ମଧ୍ୟରେ ଥିବା ପାର୍ଥକ୍ୟ ବା ବ୍ୟବଧାନକୁ ବାଣିଜ୍ୟିକ ଉଦ୍‌ବୃତ୍ତି କୁହାଯାଏ[span_101](start_span)[span_101](end_span)।
+      <ul>
+        <li><strong>ଅନୁକୂଳ ବାଣିଜ୍ୟ (Favourable):</strong> ରପ୍ତାନି ମୂଲ୍ୟ > ଆମଦାନି ମୂଲ୍ୟ[span_102](start_span)[span_102](end_span)।</li>
+        <li><strong>ପ୍ରତିକୂଳ ବାଣିଜ୍ୟ (Unfavourable):</strong> ଆମଦାନି ମୂଲ୍ୟ > ରପ୍ତାନି ମୂଲ୍ୟ (ଭାରତରେ ବିଗତ ଶତାବ୍ଦୀରୁ ବାଣିଜ୍ୟିକ ଉଦ୍‌ବୃତ୍ତି ପ୍ରତିକୂଳ ରହିଛି)[span_103](start_span)[span_103](end_span)।</li>
+      </ul>
+    </div>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଭାରତର ପ୍ରମୁଖ ରପ୍ତାନି ଦ୍ରବ୍ୟ</h4>
+        <p>ଶିଳ୍ପଜାତ ଦ୍ରବ୍ୟ, ଖଣିଜ ପିଣ୍ଡ (ଲୁହାପଥର), ଇଞ୍ଜିନିୟରିଂ ଦ୍ରବ୍ୟ, କୃଷିଜାତ ପଣ୍ୟ, ଚାହା, ମସଲା, ଝୋଟ, ଚମଡ଼ା, କାଜୁବାଦାମ ଓ ଧୂଆଁପତ୍ର[span_104](start_span)[span_104](end_span) ।</p>
+      </div>
+      <div class="card coral">
+        <h4>ଭାରତର ପ୍ରମୁଖ ଆମଦାନି ଦ୍ରବ୍ୟ</h4>
+        <p>ପେଟ୍ରୋଲିୟମ୍ ଓ ଖଣିଜ ତୈଳ, ମୂଲ୍ୟବାନ ପଥର, ସୁନା, ରୂପା, ମେସିନାରୀ ଓ ରାସାୟନିକ ପଦାର୍ଥ[span_105](start_span)[span_105](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Urban Traffic & Safety -->
+  <section id="urban">
+    <h2 class="sec-title">🚦 ୯. ସହରାଞ୍ଚଳ ଯାତାୟତ ସମସ୍ୟା, ନିରାପତ୍ତା ଓ ପ୍ରତିକାର</h2>
+
+    <div class="compare">
+      <div class="card coral">
+        <h4>ସହରାଞ୍ଚଳ ସମସ୍ୟା</h4>
+        <ul>
+          <li>ଘରୋଇ ୪-ଚକିଆ ଯାନ ବୃଦ୍ଧି ଯୋଗୁଁ ଅତ୍ୟଧିକ ରାସ୍ତାଜାମ୍[span_106](start_span)[span_106](end_span)।</li>
+          <li>ମଦ୍ୟପାନ ଜନିତ ଓ ବେପରୁଆ ଗାଡ଼ି ଚାଳନା ଯୋଗୁଁ ଦୁର୍ଘଟଣା ବୃଦ୍ଧି[span_107](start_span)[span_107](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card green">
+        <h4>ପ୍ରତିକାର ବ୍ୟବସ୍ଥା</h4>
+        <ul>
+          <li><strong>ବସ୍ ତ୍ୱରିତ ଚାଳନା ମାର୍ଗ (BRTS):</strong> ବସ୍ ଚଳାଚଳ ପାଇଁ ସ୍ୱତନ୍ତ୍ର ଲେନ୍ ବ୍ୟବସ୍ଥା[span_108](start_span)[span_108](end_span)।</li>
+          <li>ଦୁଇଚକିଆ ଓ ତିନିଚକିଆ ଯାନ ନିଜ ନିର୍ଦ୍ଦିଷ୍ଟ ଲେନ୍‌ରେ ଚାଲିବା ବାଧ୍ୟତାମୂଳକ[span_109](start_span)[span_109](end_span)।</li>
+          <li>ପଥଚାରୀଙ୍କ ପାଇଁ <strong>Foot Over-bridge</strong> ଓ ଦିବ୍ୟାଙ୍ଗଙ୍କ ପାଇଁ <strong>Ramp</strong> ନିର୍ମାଣ[span_110](start_span)[span_110](end_span)।</li>
+          <li>ଟ୍ରାଫିକ୍ ସିଗ୍ନାଲର ସମୟ ଅବଧି ଟ୍ରାଫିକ୍ ଚାପ ଅନୁସାରେ ସଠିକ୍ ନିର୍ଦ୍ଧାରଣ କରିବା[span_111](start_span)[span_111](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. Exercises -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ୧୦. ଅଧ୍ୟାୟ ପ୍ରଶ୍ନୋତ୍ତର (Self-Assessment)</h2>
+
+    <h3 class="sub-title">୧. ଶୂନ୍ୟସ୍ଥାନ ପୂରଣ କର (ବନ୍ଧନୀରୁ ସଠିକ୍ ଉତ୍ତର ବାଛି):</h3>
+    <div class="compare">
+      <div class="card">
+        <p><strong>(a) ବ୍ରଡ଼ଗେଜ୍ ରେଳରାସ୍ତାରେ ଦୁଇଟି ଧାରଣା ମଧ୍ୟରେ ବ୍ୟବଧାନ କେତେ ?</strong>[span_112](start_span)[span_112](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: ୧.୬୭୬ ମିଟର[span_113](start_span)[span_113](end_span)</p>
+      </div>
+      <div class="card">
+        <p><strong>(b) ଦକ୍ଷିଣ-ପଶ୍ଚିମ ରେଳପଥର ମୁଖ୍ୟ କାର୍ଯ୍ୟାଳୟ କେଉଁଠାରେ ଅବସ୍ଥିତ ?</strong>[span_114](start_span)[span_114](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: ହୁବଳି (Hubli)[span_115](start_span)[span_115](end_span)</p>
+      </div>
+      <div class="card">
+        <p><strong>(c) ଭାରତରେ କେତୋଟି ପ୍ରଧାନ ବନ୍ଦର ଅଛି ?</strong>[span_116](start_span)[span_116](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: ୧୨ଟି ପ୍ରଧାନ ବନ୍ଦର[span_117](start_span)[span_117](end_span)</p>
+      </div>
+      <div class="card">
+        <p><strong>(d) ଭାରତରେ କେଉଁ ଭାଷାରେ ସବୁଠାରୁ ଅଧିକ ସମ୍ବାଦପତ୍ର ପ୍ରକାଶ ପାଏ ?</strong>[span_118](start_span)[span_118](end_span)</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: ହିନ୍ଦୀ ଭାଷା[span_119](start_span)[span_119](end_span)</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">୨. ସ୍ତମ୍ଭ ମିଳନ (ମ୍ୟାଚିଂ - ରେଳବାଇ ମଣ୍ଡଳ ଓ ମୁଖ୍ୟ ଦପ୍ତର):</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>‘କ’ ସ୍ତମ୍ଭ (ରେଳବାଇ ମଣ୍ଡଳ)[span_120](start_span)[span_120](end_span)</th>
+            <th>‘ଖ’ ସ୍ତମ୍ଭ (ପ୍ରଧାନ କାର୍ଯ୍ୟାଳୟ)[span_121](start_span)[span_121](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>(କ) ପୂର୍ବ-ଉପକୂଳ ରେଳପଥ[span_122](start_span)[span_122](end_span)</td><td><strong>ଭୁବନେଶ୍ୱର[span_123](start_span)[span_123](end_span)</strong></td></tr>
+          <tr><td>(ଖ) ପୂର୍ବ ରେଳପଥ[span_124](start_span)[span_124](end_span)</td><td><strong>କୋଲକାତା[span_125](start_span)[span_125](end_span)</strong></td></tr>
+          <tr><td>(ଗ) ଉତ୍ତର-ପୂର୍ବ ରେଳପଥ[span_126](start_span)[span_126](end_span)</td><td><strong>ଗୋରଖପୁର[span_127](start_span)[span_127](end_span)</strong></td></tr>
+          <tr><td>(ଘ) ଉତ୍ତର-ପୂର୍ବ ସୀମାନ୍ତ ରେଳପଥ[span_128](start_span)[span_128](end_span)</td><td><strong>ମାଲିଗାଓଁ (ଗୁଆହାଟି)[span_129](start_span)[span_129](end_span)</strong></td></tr>
+          <tr><td>(ଙ) ଦକ୍ଷିଣ-ପୂର୍ବ-କେନ୍ଦ୍ରୀୟ ରେଳପଥ[span_130](start_span)[span_130](end_span)</td><td><strong>ବିଳାସପୁର[span_131](start_span)[span_131](end_span)</strong></td></tr>
+          <tr><td>(ଚ) ଦକ୍ଷିଣ-ଉପକୂଳ ରେଳପଥ[span_132](start_span)[span_132](end_span)</td><td><strong>ବିଶାଖାପାଟଣା[span_133](start_span)[span_133](end_span)</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">୩. କାରଣ ଦର୍ଶାଅ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ପରିବହନ ବ୍ୟବସ୍ଥାକୁ ଦେଶର ଜୀବନରେଖା କୁହାଯାଏ କାହିଁକି ?[span_134](start_span)[span_134](end_span)</h4>
+        <p>ମନୁଷ୍ୟ ଶରୀରରେ ରକ୍ତ ସଞ୍ଚାଳନ ଭଳି ପରିବହନ ବ୍ୟବସ୍ଥା ଉତ୍ପାଦକ ଓ ଉପଭୋକ୍ତାଙ୍କୁ ଯୋଡ଼େ, କଞ୍ଚାମାଲ ଓ ଉତ୍ପାଦିତ ଦ୍ରବ୍ୟ ପହଞ୍ଚାଏ ଏବଂ ଜାତୀୟ ଅର୍ଥନୀତିକୁ ଗତିଶୀଳ ରଖେ[span_135](start_span)[span_135](end_span) ।</p>
+      </div>
+      <div class="card coral">
+        <h4>ବାଣିଜ୍ୟିକ ଉଦ୍‌ବୃତ୍ତି ପ୍ରତିକୂଳ ହେବାର କାରଣ କ’ଣ ?[span_136](start_span)[span_136](end_span)</h4>
+        <p>ଯେତେବେଳେ କୌଣସି ଦେଶର ଆମଦାନି ହେଉଥିବା ଦ୍ରବ୍ୟର ମୂଲ୍ୟ ରପ୍ତାନି ହେଉଥିବା ଦ୍ରବ୍ୟର ମୂଲ୍ୟଠାରୁ ଅଧିକ ହୁଏ, ସେତେବେଳେ ବାଣିଜ୍ୟିକ ଉଦ୍‌ବୃତ୍ତି ପ୍ରତିକୂଳ ହୁଏ[span_137](start_span)[span_137](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>ଦଶମ ଶ୍ରେଣୀ ଭୂଗୋଳ • ଅଷ୍ଟମ ଅଧ୍ୟାୟ: ପରିବହନ, ଯୋଗାଯୋଗ ଏବଂ ବାଣିଜ୍ୟ | Digital Learning Note System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
