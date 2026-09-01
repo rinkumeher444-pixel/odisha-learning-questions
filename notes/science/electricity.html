@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ଶ୍ରେଣୀ ୧୦ - ଭୌତିକ ବିଜ୍ଞାନ | ଅଧ୍ୟୟନ: ବିଦ୍ୟୁତ୍ (Electricity)</title>
+<style>
+  :root {
+    --bg: #0e1420;
+    --bg-panel: #141d2e;
+    --bg-card: #1a2436;
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
+    --gold: #f59e0b;
+    --teal: #14b8a6;
+    --green: #10b981;
+    --coral: #f43f5e;
+    --border: #2a364f;
+    --font-serif: "Georgia", serif;
+    --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background-color: var(--bg);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    line-height: 1.7;
+    padding: 0;
+    margin: 0;
+  }
+  header.hero {
+    background: linear-gradient(135deg, var(--bg-panel), var(--bg-card));
+    border-bottom: 2px solid var(--border);
+    padding: 3rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%; width: 200%; height: 200%;
+    background: radial-gradient(circle, rgba(245, 158, 11, 0.05) 0%, transparent 70%);
+    z-index: 0;
+  }
+  .hero-content { position: relative; z-index: 1; max-width: 900px; margin: 0 auto; }
+  .chapter-badge {
+    display: inline-block;
+    background: rgba(245, 158, 11, 0.15);
+    color: var(--gold);
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+  }
+  h1 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #f59e0b, #14b8a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.75rem;
+  }
+  p.subtitle { color: var(--text-muted); font-size: 1.1rem; }
+
+  /* Pill Navigation */
+  .pillnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    background: var(--bg-panel);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(10px);
+  }
+  .pillnav a {
+    color: var(--text-muted);
+    background: var(--bg-card);
+    padding: 0.5rem 1.25rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid var(--border);
+    transition: all 0.3s ease;
+  }
+  .pillnav a:hover, .pillnav a.active {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: rgba(245, 158, 11, 0.1);
+  }
+
+  main { max-width: 1000px; margin: 2rem auto; padding: 0 1.5rem; }
+  section { margin-bottom: 3.5rem; scroll-margin-top: 5rem; }
+  h2 {
+    font-family: var(--font-serif);
+    font-size: 1.8rem;
+    color: var(--gold);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    color: var(--teal);
+    margin: 1.5rem 0 0.75rem 0;
+  }
+  p { margin-bottom: 1rem; color: #cbd5e1; }
+
+  /* Callout Boxes */
+  .callout {
+    border-left: 5px solid;
+    border-radius: 0 8px 8px 0;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    background: var(--bg-panel);
+  }
+  .def-box { border-color: var(--gold); background: rgba(245, 158, 11, 0.05); }
+  .def-box strong { color: var(--gold); }
+  .example-box { border-color: var(--teal); background: rgba(20, 184, 166, 0.05); }
+  .example-box strong { color: var(--teal); }
+  .activity-box { border-color: var(--green); background: rgba(16, 185, 129, 0.05); }
+  .activity-box strong { color: var(--green); }
+  .mistake-box { border-color: var(--coral); background: rgba(244, 63, 94, 0.05); }
+  .mistake-box strong { color: var(--coral); }
+
+  /* Comparison Grids */
+  .compare {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .compare-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  .compare-card h4 { font-size: 1.1rem; margin-bottom: 0.75rem; color: var(--gold); }
+
+  /* Flowcharts */
+  .flow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 2rem 0;
+    background: var(--bg-panel);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  .flow-node {
+    background: var(--bg-card);
+    border: 1px solid var(--teal);
+    color: var(--text-main);
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  .flow-arrow {
+    color: var(--gold);
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  /* Diagrams */
+  .diagram {
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .diagram svg { max-width: 100%; height: auto; }
+  .diagram figcaption {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  /* Data Tables */
+  .table-container {
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  table.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-panel);
+    text-align: left;
+    font-size: 0.95rem;
+  }
+  table.table th {
+    background: var(--bg-card);
+    color: var(--gold);
+    padding: 1rem;
+    border-bottom: 2px solid var(--border);
+  }
+  table.table td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--border);
+    color: #cbd5e1;
+  }
+  table.table tr:nth-child(even) { background: rgba(26, 36, 54, 0.4); }
+  table.table tr:hover { background: rgba(20, 184, 166, 0.05); }
+
+  ul, ol { margin-left: 1.5rem; margin-bottom: 1rem; color: #cbd5e1; }
+  li { margin-bottom: 0.5rem; }
+  footer {
+    text-align: center;
+    padding: 2.5rem;
+    background: var(--bg-panel);
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="chapter-badge">ଶ୍ରେଣୀ ୧୦ • ଭୌତିକ ବିଜ୍ଞାନ (Class 10 Physical Science)</div>
+    <h1>ବିଦ୍ୟୁତ୍ (Electricity)</h1>
+    <p class="subtitle">ବିଦ୍ୟୁତ୍ ପ୍ରବାହ, ବିଭବ ପ୍ରଭେଦ, ଓହ୍ମଙ୍କ ନିୟମ, ରୋଧ ଏବଂ ବିଦ୍ୟୁତ୍ ଶକ୍ତିର ସମ୍ପୂର୍ଣ୍ଣ ଅଧ୍ୟୟନ</p>
+  </div>
+</header>
+
+<nav class="pillnav">
+  <a href="#current">ବିଦ୍ୟୁତ୍ ପ୍ରବାହ</a>
+  <a href="#potential">ବିଭବ ପ୍ରଭେଦ</a>
+  <a href="#ohm">ଓହ୍ମଙ୍କ ନିୟମ</a>
+  <a href="#resistors">ରୋଧକ ସମବାୟ</a>
+  <a href="#heating">ତାପୀୟ ପ୍ରଭାବ</a>
+  <a href="#power">ବିଦ୍ୟୁତ୍ କ୍ଷମତା</a>
+</nav>
+
+<main>
+  <!-- 1. Electric Current -->
+  <section id="current">
+    <h2>୧. ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ଏବଂ ସର୍କିଟ୍ (Electric Current and Circuit)</h2>
+    <p>ବିଦ୍ୟୁତ୍ ଆଧାର (Electric Charge) ର ପ୍ରବାହକୁ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ କୁହାଯାଏ। ଏହା ଏକ ପରିବାହୀ ମାଧ୍ୟମ ଦେଇ ପ୍ରବାହିତ ହୁଏ। ଇଲେକ୍ଟ୍ରନ୍‌ଗୁଡ଼ିକର ଗତିଶୀଳତା ଯୋଗୁଁ ବିଦ୍ୟୁତ୍ ସୃଷ୍ଟି ହୁଏ।</p>
+    
+    <div class="callout def-box">
+      <strong>ବିଦ୍ୟୁତ୍ ପ୍ରବାହ (Electric Current) Definition:</strong>
+      <p>କୌଣସି ପରିବାହୀର ପ୍ରଚ୍ଛଦ୍ଦ କାଠଫଳା (cross-section) ଦେଇ ଏକକ ସମୟରେ ପ୍ରବାହିତ ହେଉଥିବା ବିଦ୍ୟୁତ୍ ଆଧାରର ପରିମାଣକୁ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ କୁହାଯାଏ। ଯଦି $Q$ ପରିମାଣର ଆଧାର $t$ ସମୟରେ ପ୍ରବାହିତ ହୁଏ, ତେବେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ $I = \frac{Q}{t}$ ଅଟେ।</p>
+    </div>
+
+    <div class="compare">
+      <div class="compare-card">
+        <h4>ଏକକ (Unit)</h4>
+        <p>ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ଏକକ ହେଉଛି <strong>ଆମ୍ପିୟର୍ (Ampere, A)</strong>। 1 ଆମ୍ପିୟର୍ = 1 କୁଲମ୍ବ ପ୍ରତି ସେକେଣ୍ଡ ($1\text{ C/s}$)।</p>
+      </div>
+      <div class="compare-card">
+        <h4>ମାପକ ଯନ୍ତ୍ର (Ammeter)</h4>
+        <p>ସର୍କିଟ୍‌ରେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ମାପିବା ପାଇଁ <strong>ଆମିଟର୍ (Ammeter)</strong> ବ୍ୟବହୃତ ହୁଏ, ଯାହାକୁ ସର୍ବଦା ଶ୍ରେଣୀ ସମବାୟରେ ସଂଯୋଗ କରାଯାଏ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Electric Potential -->
+  <section id="potential">
+    <h2>୨. ବିଦ୍ୟୁତ୍ ବିଭବ ଓ ବିଭବ ପ୍ରଭେଦ (Electric Potential & Potential Difference)</h2>
+    <p>ବିଦ୍ୟୁତ୍ ଆଧାରକୁ ଗୋଟିଏ ସ୍ଥାନରୁ ଅନ୍ୟ ସ୍ଥାନକୁ ସ୍ଥାନାନ୍ତରିତ କରିବା ପାଇଁ କାର୍ଯ୍ୟ କରିବାକୁ ପଡ଼େ। ଏହି କାର୍ଯ୍ୟର ପରିମାଣକୁ ବିଭବ ପ୍ରଭେଦ କୁହାଯାଏ।</p>
+
+    <div class="callout example-box">
+      <strong>ବିଭବ ପ୍ରଭେଦ (Potential Difference):</strong>
+      <p>ବିଦ୍ୟୁତ୍ ସର୍କିଟ୍‌ର ଗୋଟିଏ ବିନ୍ଦୁରୁ ଅନ୍ୟ ଏକ ବିନ୍ଦୁକୁ ଏକକ ଧନାତ୍ମକ ଆଧାର ($Q$) କୁ ନେବା ପାଇଁ କରାଯାଇଥିବା କାର୍ଯ୍ୟ ($W$) କୁ ସେହି ଦୁଇ ବିନ୍ଦୁ ମଧ୍ୟରେ ବିଭବ ପ୍ରଭେଦ ($V$) କୁହାଯାଏ। ଅର୍ଥାତ୍, $V = \frac{W}{Q}$। ଏହାର ଏକକ ହେଉଛି <strong>ଭୋଲ୍ଟ (Volt, V)</strong>।</p>
+    </div>
+
+    <div class="diagram">
+      <svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+        <rect x="50" y="50" width="300" height="60" rx="8" fill="#1a2436" stroke="#2a364f" stroke-width="2"/>
+        <circle cx="100" cy="80" r="15" fill="#f59e0b"/>
+        <text x="95" y="85" fill="#0e1420" font-weight="bold">+</text>
+        <circle cx="300" cy="80" r="15" fill="#14b8a6"/>
+        <text x="296" y="85" fill="#0e1420" font-weight="bold">-</text>
+        <line x1="115" y1="80" x2="285" y2="80" stroke="#f1f5f9" stroke-dasharray="5,5" stroke-width="2"/>
+        <text x="200" y="40" fill="#f1f5f9" font-size="14" text-anchor="middle">ବିଦ୍ୟୁତ୍ ସର୍କିଟ୍ ଓ ବିଭବ ପ୍ରଭେଦ ($V$)</text>
+      </svg>
+      <figcaption>ଚିତ୍ର: ବିଦ୍ୟୁତ୍ ସର୍କିଟ୍‌ରେ ଆଧାର ପ୍ରବାହ ଏବଂ ବିଭବ ପ୍ରଭେଦର ସଞ୍ଚାଳନ।</figcaption>
+    </div>
+  </section>
+
+  <!-- 3. Ohm's Law -->
+  <section id="ohm">
+    <h2>୩. ଓହ୍ମଙ୍କ ନିୟମ (Ohm's Law)</h2>
+    <p>ଜର୍ମାନ୍ ପଦାର୍ଥବିଜ୍ଞାନୀ ଜର୍ଜ ସାଇମନ୍ ଓହ୍ମ (Georg Simon Ohm) 1827 ମସିହାରେ ପରିବାହୀରେ ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ଏବଂ ବିଭବ ପ୍ରଭେଦ ମଧ୍ୟରେ ସମ୍ପର୍କ ଆବଷ୍କାର କରିଥିଲେ।</p>
+
+    <div class="callout def-box">
+      <strong>ଓହ୍ମଙ୍କ ନିୟମ (Ohm's Law) Definition:</strong>
+      <p>ପରିବାହୀର ତାପମାତ୍ରା ଓ ଅନ୍ୟାନ୍ୟ ଭୌତିକ ଅବସ୍ଥା ଅପରିବର୍ତ୍ତିତ ରହିଲେ, ପରିବାହୀ ମଧ୍ୟଦେଇ ପ୍ରବାହିତ ହେଉଥିବା ବିଦ୍ୟୁତ୍ ପ୍ରବାହ ($I$) ଏହାର ଦୁଇ ପ୍ରାନ୍ତ ମଧ୍ୟରେ ଥିବା ବିଭବ ପ୍ରଭେଦ ($V$) ସହିତ ସମାନୁପାତିକ ଅଟେ। ଅର୍ଥାତ୍ $V \propto I$ ବା $V = IR$, ଯେଉଁଠାରେ $R$ ହେଉଛି ପରିବାହୀର <strong>ରୋଧ (Resistance)</strong>।</p>
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">ବିଭବ ପ୍ରଭେଦ (V) ବୃଦ୍ଧି</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ବିଦ୍ୟୁତ୍ ପ୍ରବାହ (I) ବୃଦ୍ଧି</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ରୋଧ (R) ସ୍ଥିର ରହେ</div>
+    </div>
+  </section>
+
+  <!-- 4. Resistors Combination -->
+  <section id="resistors">
+    <h2>୪. ରୋଧକମାନଙ୍କର ସମବାୟ (Combination of Resistors)</h2>
+    <p>ବିଦ୍ୟୁତ୍ ସର୍କିଟ୍‌ରେ ରୋଧକୁ ଦୁଇଟି ପ୍ରକାରରେ ସଂଯୋଗ କରାଯାଇଥାଏ:</p>
+
+    <div class="compare">
+      <div class="compare-card">
+        <h4>ଶ୍ରେଣୀ ସମବାୟ (Series Combination)</h4>
+        <p>ଯେତେବେଳେ ରୋଧକଗୁଡ଼ିକୁ ଗୋଟିଏ ପରେ ଗୋଟିଏ ଧାଡ଼ିରେ ସଂଯୋଗ କରାଯାଏ। ଏଠାରେ ସମତୁଲ ରୋଧ ($R_s$):<br>
+        <strong>$R_s = R_1 + R_2 + R_3$</strong></p>
+      </div>
+      <div class="compare-card">
+        <h4>ସମାନ୍ତରାଳ ସମବାୟ (Parallel Combination)</h4>
+        <p>ଯେତେବେଳେ ସମସ୍ତ ରୋଧକର ପ୍ରାନ୍ତଗୁଡ଼ିକ ଏକ ସାଧାରଣ ବିନ୍ଦୁରେ ସଂଯୋଗ ହୁଏ। ଏଠାରେ ସମତୁଲ ରୋଧ ($R_p$):<br>
+        <strong>$\frac{1}{R_p} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}$</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Heating Effect -->
+  <section id="heating">
+    <h2>୫. ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ତାପୀୟ ପ୍ରଭାବ (Heating Effect of Electric Current)</h2>
+    <p>ଯଦି ଏକ ବିଦ୍ୟୁତ୍ ସର୍କିଟ୍ ସମ୍ପୂର୍ଣ୍ଣ ରୋଧକ ଅଟେ, ତେବେ ବ୍ୟାଟେରୀର ଶକ୍ତି କ୍ରମଶଃ ତାପ ଶକ୍ତିରେ ରୂପାନ୍ତରିତ ହୁଏ। ଏହାକୁ ଜୁଲ୍‌ଙ୍କ ତାପୀୟ ନିୟମ କୁହାଯାଏ।</p>
+
+    <div class="callout activity-box">
+      <strong>ଜୁଲ୍‌ଙ୍କ ତାପୀୟ ନିୟମ (Joule's Law of Heating):</strong>
+      <p>ପରିବାହୀରେ ଉତ୍ପନ୍ନ ତାପ ($H$) ହେଉଛି:<br>
+      1. ବିଦ୍ୟୁତ୍ ପ୍ରବାହର ବର୍ଗ ($I^2$) ସହିତ ସମାନୁପାତିକ ($H \propto I^2$)<br>
+      2. ପରିବାହୀର ରୋଧ ($R$) ସହିତ ସମାନୁପାତିକ ($H \propto R$)<br>
+      3. ସମୟ ($t$) ସହିତ ସମାନୁପାତିକ ($H \propto t$)<br>
+      ସୂତ୍ର: <strong>$H = I^2Rt$</strong></p>
+    </div>
+  </section>
+
+  <!-- 6. Electric Power -->
+  <section id="power">
+    <h2>୬. ବିଦ୍ୟୁତ୍ ଶକ୍ତି ଓ କ୍ଷମତା (Electric Power)</h2>
+    <p>କାର୍ଯ୍ୟ କରିବାର ହାରକୁ କ୍ଷମତା କୁହାଯାଏ। ବିଦ୍ୟୁତ୍ ସର୍କିଟ୍‌ରେ ଶକ୍ତି ବ୍ୟୟ ହେବାର ହାରକୁ ବିଦ୍ୟୁତ୍ କ୍ଷମତା କୁହାଯାଏ।</p>
+
+    <div class="table-container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ସୂତ୍ରର ନାମ</th>
+            <th>ଗାଣିତିକ ରୂପ (Formula)</th>
+            <th>ବିବରଣୀ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ବିଦ୍ୟୁତ୍ କ୍ଷମତା (Power, P)</strong></td>
+            <td>$P = VI = I^2R = \frac{V^2}{R}$</td>
+            <td>ଏହାର ଏକକ ହେଉଛି <strong>ୱାଟ୍ (Watt, W)</strong>।</td>
+          </tr>
+          <tr>
+            <td><strong>ବିଦ୍ୟୁତ୍ ଶକ୍ତି ବ୍ୟୟ (Energy)</strong></td>
+            <td>$E = P \times t$</td>
+            <td>ବ୍ୟବସାୟିକ ଏକକ ହେଉଛି <strong>କିଲୋୱାଟ୍-ଘଣ୍ଟା (kWh / Unit)</strong>।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Class 10 Physical Science Educational Notes | Chapter: ବିଦ୍ୟୁତ୍ (Electricity)</p>
+</footer>
+
+</body>
+</html>
