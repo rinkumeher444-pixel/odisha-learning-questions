@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>मनुष्यता - राष्ट्रकवि मैथिलीशरण गुप्त | कक्षा 10 हिंदी</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Section Structure */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Poem Card Container */
+    .poem-card {
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(20, 184, 166, 0.05) 100%);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      border-radius: var(--radius-md);
+      padding: 26px 20px;
+      margin: 20px 0;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .poem-text {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fef08a;
+      line-height: 2.1;
+      letter-spacing: 0.5px;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+      .poem-text { font-size: 1.1rem; line-height: 1.9; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० हिंदी • पद्य भाग • राष्ट्रकवि काव्य</div>
+    <h1>मनुष्यता : मैथिलीशरण गुप्त</h1>
+    <p>कवि परिचय, कविता का मूल पाठ, विस्तृत पद्यांश व्याख्या, शब्दार्थ, दार्शनिक भावार्थ, अभ्यास प्रश्नोत्तर एवं संपूर्ण भाषा-ज्ञान।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#kavi-parichay">कवि परिचय</a>
+    <a href="#mool-kavita">मूल कविता</a>
+    <a href="#shabdarth">शब्दार्थ तालिका</a>
+    <a href="#vyakhya-1">पद्यांश १ : सुमृत्यु एवं परोपकार</a>
+    <a href="#vyakhya-2">पद्यांश २ : अहंकार त्याग व ईश्वर की सत्ता</a>
+    <a href="#vyakhya-3">पद्यांश ३ : विश्व-बंधुत्व व अंतरैक्य</a>
+    <a href="#exercises">अभ्यास प्रश्नोत्तर</a>
+    <a href="#bhasha-gyan">भाषा-ज्ञान (व्याकरण)</a>
+  </nav>
+
+  <!-- 1. Poet Introduction -->
+  <section id="kavi-parichay">
+    <h2 class="sec-title">🪶 १. कवि परिचय : राष्ट्रकवि मैथिलीशरण गुप्त</h2>
+
+    <div class="compare">
+      <div class="card gold">
+        <h4>जीवन परिचय एवं उपाधि</h4>
+        <ul>
+          <li><strong>जन्म:</strong> सन् <strong>1886 में चिरगाँव, झाँसी (उत्तर प्रदेश)</strong> में ہوا تھا[span_0](start_span)[span_0](end_span)।</li>
+          <li><strong>शिक्षा:</strong> उनकी प्रारंभिक पढ़ाई घर पर ही संपन्न हुई[span_1](start_span)[span_1](end_span)।</li>
+          <li><strong>बहुभाषा ज्ञान:</strong> उन्होंने हिंदी के अतिरिक्त <strong>संस्कृत, बँगला, मराठी और अंग्रेज़ी</strong> भाषाओं में भी उत्तम दक्षता प्राप्त की[span_2](start_span)[span_2](end_span)।</li>
+          <li><strong>राष्ट्रकवि की उपाधि:</strong> बाल्यकाल से ही काव्य-रचना करने वाले गुप्त जी अपने जीवनकाल में ही <strong>'राष्ट्रकवि'</strong> के रूप में समादृत हुए[span_3](start_span)[span_3](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card teal">
+        <h4>काव्यगत विशेषताएँ एवं आदर्श</h4>
+        <ul>
+          <li><strong>पारिवारिक पृष्ठभूमि:</strong> गुप्त जी का परिवार अनन्य <strong>रामभक्त</strong> था[span_4](start_span)[span_4](end_span)।</li>
+          <li><strong>काव्य-विषय:</strong> उन्होंने <strong>भारतीय जीवन के आदर्शों, इतिहास, गौरवगाथा और सनातन संस्कृति</strong> को अपने काव्य का मुख्य आधार बनाया[span_5](start_span)[span_5](end_span)।</li>
+          <li><strong>मानवीय मूल्य:</strong> उनके साहित्य में <strong>स्नेह, प्रेम, दया, करुणा, उदारता, त्याग और परोपकार</strong> जैसे उदात्त मानवीय भाव प्रमुखता से मुखरित हुए हैं[span_6](start_span)[span_6](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout def-box">
+      <strong>कविता का मुख्य संदेश (केंद्रीय भाव):</strong><br>
+      'मनुष्यता' कविता में मानव को स्वार्थपूर्ण संकीर्णता त्यागकर महान एवं उदार बनने की प्रेरणा दी गई है[span_7](start_span)[span_7](end_span)। कवि का स्पष्ट संदेश है कि जो जन्म लेता है, उसकी मृत्यु निश्चित है; अतः मृत्यु से भयभीत होने के स्थान पर हमें ऐसा परोपकारी जीवन जीना चाहिए कि मरने के बाद भी संसार हमें श्रद्धा से स्मरण रखे[span_8](start_span)[span_8](end_span)। सच्चा मनुष्य वही है, जो केवल अपने लिए न जीकर समस्त मानव समाज के कल्याण हेतु अपना जीवन समर्पित कर दे[span_9](start_span)[span_9](end_span)।
+    </div>
+  </section>
+
+  <!-- 2. Original Poem Text -->
+  <section id="mool-kavita">
+    <h2 class="sec-title">📜 २. मूल कविता : मनुष्यता</h2>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        विचार लो कि मर्त्य हो न मृत्यु से डरो कभी,<br>
+        मरो परंतु यों मरो कि याद जो करें सभी ।<br>
+        हुई न यों सुमृत्यु तो वृथा मरे, वृथा जिए,<br>
+        मरा नहीं वही कि जो जिया न आपके लिए ।<br>
+        वही पशु-प्रवृत्ति है कि आप आप ही चरे,<br>
+        वही मनुष्य है कि जो मनुष्य के लिए मरे ।। १ ।।[span_10](start_span)[span_10](end_span)
+      </p>
+    </div>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        रहो न भूल के कभी मदांध तुच्छ वित्त में,<br>
+        सनाथ जान आपको करो न गर्व चित्त में ।<br>
+        अनाथ कौन है यहाँ ? त्रिलोकनाथ साथ हैं,<br>
+        दयालु दीनबंधु के बड़े विशाल हाथ हैं ।<br>
+        अतीव भाग्यहीन है अधीर भाव जो करे,<br>
+        वही मनुष्य है कि जो मनुष्य के लिए मरे ।। २ ।।[span_11](start_span)[span_11](end_span)
+      </p>
+    </div>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        'मनुष्य मात्र बंधु है' यही बड़ा विवेक है,<br>
+        पुराण पुरुष स्वयंभू पिता प्रसिद्ध एक है ।<br>
+        फलानुसार कर्म के अवश्य बाह्य भेद हैं,<br>
+        परंतु अंतरैक्य में प्रमाणभूत वेद हैं ।<br>
+        अनर्थ है कि बंधु ही न बंधु की व्यथा हरे,<br>
+        वही मनुष्य है कि जो मनुष्य के लिए मरे ।। ३ ।।[span_12](start_span)[span_12](end_span)
+      </p>
+    </div>
+  </section>
+
+  <!-- 3. Glossary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ३. शब्दार्थ एवं पारिभाषिक तालिका</h2>
+    <p>पाठ में आए कठिन शब्दों के अर्थ एवं उनकी व्याख्या[span_13](start_span)[span_13](end_span):</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>मूल शब्द[span_14](start_span)[span_14](end_span)</th>
+            <th>अर्थ[span_15](start_span)[span_15](end_span)</th>
+            <th>विस्तृत भावार्थ व संदर्भ[span_16](start_span)[span_16](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>मर्त्य[span_17](start_span)[span_17](end_span)</strong></td>
+            <td>मरणशील[span_18](start_span)[span_18](end_span)</td>
+            <td>जिसका नश्वर शरीर एक दिन अवश्य नष्ट होना है[span_19](start_span)[span_19](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>सुमृत्यु[span_20](start_span)[span_20](end_span)</strong></td>
+            <td>अच्छी / गौरवशाली मृत्यु[span_21](start_span)[span_21](end_span)</td>
+            <td>परोपकार और समाज-सेवा करते हुए आने वाली मृत्यु, जिसे संसार याद रखे[span_22](start_span)[span_22](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>वृथा[span_23](start_span)[span_23](end_span)</strong></td>
+            <td>व्यर्थ, बेकार[span_24](start_span)[span_24](end_span)</td>
+            <td>निरर्थक जीवन या निरर्थक मरण[span_25](start_span)[span_25](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>पशु-प्रवृत्ति[span_26](start_span)[span_26](end_span)</strong></td>
+            <td>पशु जैसा स्वभाव[span_27](start_span)[span_27](end_span)</td>
+            <td>केवल अपने स्वार्थ और अपने पेट भरने की संकीर्ण वृत्ति[span_28](start_span)[span_28](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>मदांध[span_29](start_span)[span_29](end_span)</strong></td>
+            <td>गर्व/घमंड से अंधा[span_30](start_span)[span_30](end_span)</td>
+            <td>धन-दौलत के अहंकार में सुध-बुध खो बैठने वाला[span_31](start_span)[span_31](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>तुच्छ वित्त[span_32](start_span)[span_32](end_span)</strong></td>
+            <td>नश्वर धन-संपत्ति[span_33](start_span)[span_33](end_span)</td>
+            <td>भौतिक धन जो क्षणभंगुर और क्षणिक है[span_34](start_span)[span_34](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>सनाथ[span_35](start_span)[span_35](end_span)</strong></td>
+            <td>जिसका कोई रक्षक/स्वामी हो[span_36](start_span)[span_36](end_span)</td>
+            <td>अपने आपको परिजनों या धन-बल से सुरक्षित मानने वाला[span_37](start_span)[span_37](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>चित्त[span_38](start_span)[span_38](end_span)</strong></td>
+            <td>मन, अंतःकरण[span_39](start_span)[span_39](end_span)</td>
+            <td>हृदय या अंतर्मन[span_40](start_span)[span_40](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>त्रिलोकनाथ[span_41](start_span)[span_41](end_span)</strong></td>
+            <td>तीनों लोकों के स्वामी[span_42](start_span)[span_42](end_span)</td>
+            <td>सर्वव्यापी परमपिता परमात्मा[span_43](start_span)[span_43](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>दीनबंधु[span_44](start_span)[span_44](end_span)</strong></td>
+            <td>दीनों (गरीबों) के बंधु/सहायक[span_45](start_span)[span_45](end_span)</td>
+            <td>दीन-दुखियों पर असीम कृपा बरसाने वाले ईश्वर[span_46](start_span)[span_46](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>अधीर भाव[span_47](start_span)[span_47](end_span)</strong></td>
+            <td>धैर्यहीनता, चंचलता[span_48](start_span)[span_48](end_span)</td>
+            <td>ईश्वर पर विश्वास न रखकर उतावलापन या अहंकार दिखाना[span_49](start_span)[span_49](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>विवेक[span_50](start_span)[span_50](end_span)</strong></td>
+            <td>उचित-अनुचित का ज्ञान[span_51](start_span)[span_51](end_span)</td>
+            <td>सर्वोच्च बौद्धिक समझ कि सब मानव परस्पर भाई हैं[span_52](start_span)[span_52](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>स्वयंभू[span_53](start_span)[span_53](end_span)</strong></td>
+            <td>परमात्मा / स्वयं उत्पन्न होने वाला[span_54](start_span)[span_54](end_span)</td>
+            <td>ईश्वर, जो अनादि और स्वयंसिद्ध हैं[span_55](start_span)[span_55](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>अंतरैक्य[span_56](start_span)[span_56](end_span)</strong></td>
+            <td>आत्मा की एकता / अंतःकरण की एकता[span_57](start_span)[span_57](end_span)</td>
+            <td>बाहरी भेदों के बावजूद सभी में एक ही ईश्वरीय चेतना का वास[span_58](start_span)[span_58](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>प्रमाणभूत[span_59](start_span)[span_59](end_span)</strong></td>
+            <td>साक्षी, प्रमाण स्वरूप[span_60](start_span)[span_60](end_span)</td>
+            <td>सत्य की पुष्टि करने वाले (जैसे वेद)[span_61](start_span)[span_61](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>व्यथा[span_62](start_span)[span_62](end_span)</strong></td>
+            <td>पीड़ा, दुःख, कष्ट[span_63](start_span)[span_63](end_span)</td>
+            <td>मानवीय वेदना जिसे दूर करना बंधु का धर्म है[span_64](start_span)[span_64](end_span)।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 4. Stanza 1 Explanation -->
+  <section id="vyakhya-1">
+    <h2 class="sec-title">✨ ४. पद्यांश १ : सुमृत्यु, अमरता एवं पशु-प्रवृत्ति का त्याग</h2>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        विचार लो कि मर्त्य हो न मृत्यु से डरो कभी,<br>
+        मरो परंतु यों मरो कि याद जो करें सभी ।<br>
+        हुई न यों सुमृत्यु तो वृथा मरे, वृथा जिए,<br>
+        मरा नहीं वही कि जो जिया न आपके लिए ।<br>
+        वही पशु-प्रवृत्ति है कि आप आप ही चरे,<br>
+        वही मनुष्य है कि जो मनुष्य के लिए मरे ।।[span_65](start_span)[span_65](end_span)
+      </p>
+    </div>
+
+    <div class="callout def-box">
+      <strong>पद्यांश १ का विस्तृत भावार्थ:</strong><br>
+      कवि कहते हैं कि मनुष्य को भली-भाँति यह समझ लेना चाहिए कि यह देह <strong>मरणशील (मर्त्य)</strong> है[span_66](start_span)[span_66](end_span)। जो जन्मा है, उसका अंत सुनिश्चित है, इसलिए मृत्यु से भयभीत होने का कोई कारण नहीं है[span_67](start_span)[span_67](end_span)। परंतु हमें ऐसा सार्थक जीवन जीना चाहिए और ऐसी <strong>'सुमृत्यु'</strong> प्राप्त करनी चाहिए कि देहावसान के बाद भी समाज हमारे सत्कर्मों के कारण हमें आदरपूर्वक स्मरण रखे[span_68](start_span)[span_68](end_span)। यदि जीवन में परोपकार नहीं किया और ऐसी गौरवमयी मृत्यु न मिली, तो ऐसा जीना और मरना दोनों व्यर्थ है[span_69](start_span)[span_69](end_span)। वास्तव में वही व्यक्ति कभी नहीं मरता जो केवल अपने स्वार्थ के लिए नहीं जीता, अपितु दूसरों के कल्याण हेतु जीवन न्योछावर करता है[span_70](start_span)[span_70](end_span)। केवल अपने ही भरण-पोषण में लगे रहना तो <strong>'पशु-प्रवृत्ति'</strong> (जानवरों का स्वभाव) है, क्योंकि पशु ही केवल अपने लिए चरता है[span_71](start_span)[span_71](end_span)। सच्चा मनुष्य वही है जो दूसरे मनुष्यों के सुख-दुःख में भागीदार बने और आवश्यकता पड़ने पर उनके लिए अपना बलिदान दे दे[span_72](start_span)[span_72](end_span)।
+    </div>
+
+    <div class="compare">
+      <div class="card green">
+        <h4>सच्ची मनुष्यता (सुमृत्यु का मार्ग)</h4>
+        <ul>
+          <li>दूसरों के हितार्थ जीना और मरना[span_73](start_span)[span_73](end_span)।</li>
+          <li>सत्कर्मों द्वारा शरीर त्यागकर भी संसार में अमर हो जाना[span_74](start_span)[span_74](end_span)।</li>
+          <li>समष्टिगत हित और त्याग की उदात्त भावना[span_75](start_span)[span_75](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card coral">
+        <h4>पशु-प्रवृत्ति (व्यर्थ जीवन)</h4>
+        <ul>
+          <li>केवल अपने पेट भरने और व्यक्तिगत सुख तक सीमित रहना[span_76](start_span)[span_76](end_span)।</li>
+          <li>स्वार्थी जीवन, जिसके समाप्त होने पर कोई याद नहीं करता[span_77](start_span)[span_77](end_span)।</li>
+          <li>संकीर्णता, जिसमें परहित की कोई भावना नहीं होती[span_78](start_span)[span_78](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">मरणशीलता का बोध (निर्भयता)[span_79](start_span)[span_79](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">परोपकारी सत्कर्म[span_80](start_span)[span_80](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">सुमृत्यु की प्राप्ति[span_81](start_span)[span_81](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">अमरत्व व जन-स्मरण[span_82](start_span)[span_82](end_span)</div>
+    </div>
+  </section>
+
+  <!-- 5. Stanza 2 Explanation -->
+  <section id="vyakhya-2">
+    <h2 class="sec-title">👑 ५. पद्यांश २ : धन-मद का निषेध एवं दीनबंधु की छत्रछाया</h2>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        रहो न भूल के कभी मदांध तुच्छ वित्त में,<br>
+        सनाथ जान आपको करो न गर्व चित्त में ।<br>
+        अनाथ कौन है यहाँ ? त्रिलोकनाथ साथ हैं,<br>
+        दयालु दीनबंधु के बड़े विशाल हाथ हैं ।<br>
+        अतीव भाग्यहीन है अधीर भाव जो करे,<br>
+        वही मनुष्य है कि जो मनुष्य के लिए मरे ।।[span_83](start_span)[span_83](end_span)
+      </p>
+    </div>
+
+    <div class="callout example-box">
+      <strong>पद्यांश २ का विस्तृत भावार्थ:</strong><br>
+      कवि सावधान करते हैं कि कभी भूलकर भी <strong>नश्वर और तुच्छ धन-संपत्ति (वित्त) के घमंड में अंधा (मदांध)</strong> नहीं होना चाहिए[span_84](start_span)[span_84](end_span)। अपने पास धन, परिवार या मित्रों का बल देखकर मन में यह अहंकार मत पालो कि तुम 'सनाथ' (सुरक्षित) हो और दूसरे असहाय हैं[span_85](start_span)[span_85](end_span)। कवि प्रश्न करते हैं कि <strong>इस संसार में अनाथ कौन है?</strong> यहाँ कोई भी अनाथ या निराश्रित नहीं है, क्योंकि स्वयं <strong>तीनों लोकों के स्वामी (त्रिलोकनाथ)</strong> सबके सिर पर विराजमान हैं[span_86](start_span)[span_86](end_span)। उस परम दयालु दीनबंधु परमात्मा के हाथ अत्यंत विशाल हैं; वे प्रत्येक प्राणी की रक्षा और सहायता के लिए सदैव तत्पर रहते हैं[span_87](start_span)[span_87](end_span)। जो मनुष्य ईश्वर की सर्वव्यापक सत्ता पर भरोसा न रखकर अधीरता, अशांति या अहंकार का भाव रखता है, वह सचमुच अत्यंत अभागा (भाग्यहीन) है[span_88](start_span)[span_88](end_span)। सच्चा मनुष्य तो वही है जो अहंकार मुक्त होकर साथी मनुष्यों की सेवा में अपना सर्वस्व अर्पित करता है[span_89](start_span)[span_89](end_span)।
+    </div>
+
+    <!-- Symbolic SVG Diagram of Divine Protection -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 600 220" width="560" height="200" xmlns="http://www.w3.org/2000/svg">
+          <!-- Top Divine Shelter (Vishal Haath) -->
+          <path d="M 120,45 Q 300,10 480,45" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+          <path d="M 100,55 Q 300,20 500,55" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+          <text x="300" y="38" fill="#fde68a" font-size="13" font-weight="bold" text-anchor="middle">दयालु दीनबंधु के विशाल हाथ (परम रक्षा)[span_90](start_span)[span_90](end_span)</text>
+
+          <!-- Left: False Ego of Wealth -->
+          <circle cx="160" cy="120" r="38" fill="#131d31" stroke="#f43f5e" stroke-width="2"/>
+          <text x="160" y="115" fill="#f43f5e" font-size="12" font-weight="bold" text-anchor="middle">तुच्छ वित्त का मद[span_91](start_span)[span_91](end_span)</text>
+          <text x="160" y="132" fill="#94a3b8" font-size="10" text-anchor="middle">(अधीर / भाग्यहीन)[span_92](start_span)[span_92](end_span)</text>
+
+          <!-- Center Connection -->
+          <text x="300" y="125" fill="#38bdf8" font-size="18" font-weight="bold" text-anchor="middle">VS</text>
+          <text x="300" y="150" fill="#94a3b8" font-size="11" text-anchor="middle">"अनाथ कौन है यहाँ ? त्रिलोकनाथ साथ हैं[span_93](start_span)"[span_93](end_span)</text>
+
+          <!-- Right: Humble Faith & Service -->
+          <circle cx="440" cy="120" r="38" fill="#131d31" stroke="#10b981" stroke-width="2"/>
+          <text x="440" y="115" fill="#10b981" font-size="12" font-weight="bold" text-anchor="middle">सच्ची मनुष्यता[span_94](start_span)[span_94](end_span)</text>
+          <text x="440" y="132" fill="#94a3b8" font-size="10" text-anchor="middle">(समर्पण व परोपकार)[span_95](start_span)[span_95](end_span)</text>
+        </svg>
+        <figcaption>चित्र: मानवीय अहंकार बनाम ईश्वरीय छत्रछाया — सच्चा मनुष्य वह है जो दीन-दुखियों की सेवा करे[span_96](start_span)[span_96](end_span)</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 6. Stanza 3 Explanation -->
+  <section id="vyakhya-3">
+    <h2 class="sec-title">🤝 ६. पद्यांश ३ : विश्व-बंधुत्व एवं आत्मा की आंतरिक एकता (अंतरैक्य)</h2>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        'मनुष्य मात्र बंधु है' यही बड़ा विवेक है,<br>
+        पुराण पुरुष स्वयंभू पिता प्रसिद्ध एक है ।<br>
+        फलानुसार कर्म के अवश्य बाह्य भेद हैं,<br>
+        परंतु अंतरैक्य में प्रमाणभूत वेद हैं ।<br>
+        अनर्थ है कि बंधु ही न बंधु की व्यथा हरे,<br>
+        वही मनुष्य है कि जो मनुष्य के लिए मरे ।।[span_97](start_span)[span_97](end_span)
+      </p>
+    </div>
+
+    <div class="callout def-box">
+      <strong>पद्यांश ३ का विस्तृत भावार्थ:</strong><br>
+      कवि के अनुसार संसार का सबसे बड़ा <strong>विवेक (सच्चा ज्ञान)</strong> यही है कि <strong>प्रत्येक मनुष्य हमारा भाई (बंधु) है</strong>[span_98](start_span)[span_98](end_span)। हम सभी का सृष्टा और परमपिता वह एक ही अनादि <strong>पुराण पुरुष (स्वयंभू परमात्मा)</strong> है[span_99](start_span)[span_99](end_span)। यद्यपि अपने-अपने कर्म-फलों के अनुसार बाहरी रूप-रंग, जाति, कुल अथवा परिस्थितियों में भिन्नता दिखाई देती है, परंतु आंतरिक रूप से हम सब की आत्मा एक ही है (<strong>अंतरैक्य</strong>)[span_100](start_span)[span_100](end_span)। हमारे पवित्र <strong>वेद इस आंतरिक एकता के साक्षी (प्रमाणभूत)</strong> हैं[span_101](start_span)[span_101](end_span)। समाज में सबसे बड़ा अनर्थ और दुर्भाग्य तब होता है, जब एक भाई दूसरे भाई का दुःख-दर्द (व्यथा) दूर न करे[span_102](start_span)[span_102](end_span)। सच्चा मनुष्य वही है जो साथी मानव की पीड़ा को अपनी पीड़ा मानकर उसे दूर करने हेतु सर्वस्व न्योछावर कर दे[span_103](start_span)[span_103](end_span)।
+    </div>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>बाहरी भेद (कर्मानुसार)</h4>
+        <p>मनुष्य अपने पूर्वजन्म एवं इहलौकिक कर्मों के फलानुसार बाहरी तौर पर भिन्न-भिन्न कुल, जाति, वर्ण या संपन्नता-विपन्नता में दिखाई देता है[span_104](start_span)[span_104](end_span)—ये केवल बाह्य आवरण हैं[span_105](start_span)[span_105](end_span) ।</p>
+      </div>
+
+      <div class="card gold">
+        <h4>आंतरिक एकता (अंतरैक्य)</h4>
+        <p>समस्त जीवों के भीतर एक ही परमात्मा का अंश स्पंदित हो रहा है[span_106](start_span)[span_106](end_span)। वेद साक्षी हैं कि मूल आत्मा एक है, अतः सब मनुष्य समान और परस्पर बंधु हैं[span_107](start_span)[span_107](end_span) ।</p>
+      </div>
+    </div>
+
+    <div class="callout mistake-box">
+      <strong>कवि की चेतावनी : सबसे बड़ा अनर्थ</strong><br>
+      संसार में सबसे निकृष्ट स्थिति तब पैदा होती है जब मनुष्य दूसरे मनुष्य की वेदना देखकर विचलित न हो और एक भाई अपने भाई की व्यथा दूर करने आगे न आए[span_108](start_span)[span_108](end_span)। मनुष्यता का प्रथम धर्म ही पर-दुःख-निवारण है[span_109](start_span)[span_109](end_span)।
+    </div>
+  </section>
+
+  <!-- 7. Questions and Exercises -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ७. प्रश्न और अभ्यास (पाठ्यपुस्तक से पूर्ण हल)</h2>
+
+    <h3 class="sub-title">भाग १ : दो-तीन वाक्यों में उत्तर दीजिए[span_110](start_span)[span_110](end_span)</h3>
+    <div class="compare">
+      <div class="card">
+        <h4>(क) कवि ने कैसी मृत्यु को सुमृत्यु कहा है?[span_111](start_span)[span_111](end_span)</h4>
+        <p><strong>उत्तर:</strong> कवि ने ऐसी मृत्यु को 'सुमृत्यु' कहा है जो परोपकार, जन-कल्याण और मानवीय सेवा करते हुए प्राप्त हो[span_112](start_span)[span_112](end_span)। जिस व्यक्ति के सत्कर्मों और त्याग को उसके देहावसान के बाद भी सारा समाज श्रद्धा से याद रखे, वही मृत्यु वास्तव में सुमृत्यु है[span_113](start_span)[span_113](end_span)।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ख) यहाँ कोई अनाथ नहीं है ऐसा कवि ने क्यों कहा है?[span_114](start_span)[span_114](end_span)</h4>
+        <p><strong>उत्तर:</strong> कवि ने ऐसा इसलिए कहा है क्योंकि समस्त चराचर जगत के स्वामी त्रिलोकनाथ परमात्मा सदा सबके साथ हैं[span_115](start_span)[span_115](end_span)। वे परम दयालु और दीनबंधु हैं, जिनके रक्षा करने वाले हाथ अत्यंत विशाल हैं; अतः उनके रहते कोई भी मनुष्य अनाथ या असहाय नहीं हो सकता[span_116](start_span)[span_116](end_span)।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ग) 'मनुष्य मात्र बंधु है' से आप क्या समझते हैं? स्पष्ट कीजिए।[span_117](start_span)[span_117](end_span)</h4>
+        <p><strong>उत्तर:</strong> इसका अर्थ है कि संसार के सभी मनुष्य एक ही परमपिता परमात्मा की संतान होने के कारण आपस में भाई-भाई (बंधु) हैं[span_118](start_span)[span_118](end_span)। बाह्य भेद केवल कर्म-फल के हैं, परंतु अंतरात्मा से सब एक हैं; अतः बिना किसी भेदभाव के परस्पर प्रेम और सहायता करना ही सर्वोच्च विवेक है[span_119](start_span)[span_119](end_span)।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">भाग २ : पंक्तियों के भाव स्पष्टीकरण[span_120](start_span)[span_120](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>काव्य पंक्ति[span_121](start_span)[span_121](end_span)</th>
+            <th>भावार्थ एवं व्याख्या[span_122](start_span)[span_122](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <strong>'मनुष्य मात्र बंधु है' यही बड़ा विवेक है,<br>
+              पुराण पुरुष स्वयंभू पिता प्रसिद्ध एक है ।।[span_123](start_span)[span_123](end_span)</strong>
+            </td>
+            <td>
+              इन पंक्तियों का भाव है कि सच्चा ज्ञान यही समझने में है कि संसार का प्रत्येक मनुष्य हमारा सहोदर भाई है[span_124](start_span)[span_124](end_span)। हम सभी का मूल पिता वही एक अनादि, स्वयंसिद्ध परमात्मा (स्वयंभू) है, इसलिए समस्त मानव जाति एक ही ईश्वरीय परिवार का अंग है[span_125](start_span)[span_125](end_span)।
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>रहो न भूल के कभी मदांध तुच्छ वित्त में ।<br>
+              सनाथ जान आपको करो न गर्व चित्त में ।।[span_126](start_span)[span_126](end_span)</strong>
+            </td>
+            <td>
+              कवि का आशय है कि धन-दौलत क्षणभंगुर और नश्वर है, अतः इसके अहंकार में कभी अंधा नहीं होना चाहिए[span_127](start_span)[span_127](end_span)। अपने सांसारिक साधनों व परिजनों के बल पर स्वयं को सुरक्षित मानकर मन में दूसरों को हीन समझने का घमंड कभी नहीं करना चाहिए[span_128](start_span)[span_128](end_span)।
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">भाग ३ : एक शब्द / एक वाक्य में उत्तर दीजिए[span_129](start_span)[span_129](end_span)</h3>
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li><strong>(क) कवि किससे न डरने की बात कर रहे हैं?[span_130](start_span)[span_130](end_span)</strong><br>👉 कवि मृत्यु से न डरने की बात कर रहे हैं[span_131](start_span)[span_131](end_span)।</li>
+          <li><strong>(ख) कवि कैसी मृत्यु को प्राप्त करने का परामर्श दे रहे हैं?[span_132](start_span)[span_132](end_span)</strong><br>👉 कवि 'सुमृत्यु' (गौरवशाली/सार्थक मृत्यु) प्राप्त करने का परामर्श दे रहे हैं[span_133](start_span)[span_133](end_span)।</li>
+          <li><strong>(ग) कवि मनुष्य की किस पशुप्रवृत्ति की बात कर रहे हैं?[span_134](start_span)[span_134](end_span)</strong><br>👉 केवल अपने लिए जीने और अकेले चरने (स्वार्थ-साधन) की प्रवृत्ति की बात कर रहे हैं[span_135](start_span)[span_135](end_span)।</li>
+          <li><strong>(घ) मनुष्य क्या पाकर मदांध हो जाता है?[span_136](start_span)[span_136](end_span)</strong><br>👉 मनुष्य तुच्छ वित्त (धन-दौलत) पाकर मदांध हो जाता है[span_137](start_span)[span_137](end_span)।</li>
+          <li><strong>(ङ) सनाथ होने का घमण्ड क्यों नहीं करना चाहिए?[span_138](start_span)[span_138](end_span)</strong><br>👉 क्योंकि यहाँ कोई अनाथ नहीं है, सबके रक्षक त्रिलोकनाथ ईश्वर साथ हैं[span_139](start_span)[span_139](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <ul>
+          <li><strong>(च) भाग्यहीन कौन है?[span_140](start_span)[span_140](end_span)</strong><br>👉 जो मनुष्य अधीर भाव रखता है और ईश्वर पर भरोसा नहीं करता, वह अत्यंत भाग्यहीन है[span_141](start_span)[span_141](end_span)।</li>
+          <li><strong>(छ) संसार में मनुष्य का बंधु कौन है?[span_142](start_span)[span_142](end_span)</strong><br>👉 संसार में प्रत्येक मनुष्य ही मनुष्य का बंधु (भाई) है[span_143](start_span)[span_143](end_span)।</li>
+          <li><strong>(ଜ/ज) पुराण पुरुष हमारे क्या हैं?[span_144](start_span)[span_144](end_span)</strong><br>👉 पुराण पुरुष (स्वयंभू ईश्वर) हम सबके एकमात्र पिता हैं[span_145](start_span)[span_145](end_span)।</li>
+          <li><strong>(झ) वेद किसका प्रमाण देते हैं?[span_146](start_span)[span_146](end_span)</strong><br>👉 वेद समस्त मनुष्यों के 'अंतरैक्य' (आत्मा की आंतरिक एकता) का प्रमाण देते हैं[span_147](start_span)[span_147](end_span)।</li>
+          <li><strong>(ञ) कौन बंधु की व्यथा हरण कर सकता है?[span_148](start_span)[span_148](end_span)</strong><br>👉 एक बंधु (सच्चा मनुष्य) ही दूसरे बंधु की व्यथा हरण कर सकता है[span_149](start_span)[span_149](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Language Study (Grammar) -->
+  <section id="bhasha-gyan">
+    <h2 class="sec-title">📖 ८. भाषा-ज्ञान (व्याकरण विशेषांक)</h2>
+
+    <!-- Exercise 1: Vibhakti -->
+    <h3 class="sub-title">१. उपयुक्त विभक्ति-चिह्नों से रिक्त स्थान की पूर्ति[span_150](start_span)[span_150](end_span)</h3>
+    <p style="color: var(--text-muted); font-size: 0.95rem;">दिए गए विभक्ति चिह्न: (से, में, के, का, को, के लिए)[span_151](start_span)[span_151](end_span)</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>क्रम</th>
+            <th>वाक्य (रिक्त स्थान सहित)[span_152](start_span)[span_152](end_span)</th>
+            <th>उपयुक्त विभक्ति[span_153](start_span)[span_153](end_span)</th>
+            <th>पूर्ण शुद्ध वाक्य[span_154](start_span)[span_154](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>(क)</td>
+            <td>फलानुसार कर्म ______ अवश्य बाह्य भेद हैं ।[span_155](start_span)[span_155](end_span)</td>
+            <td><span class="badge-tag blue">के[span_156](start_span)[span_156](end_span)</span></td>
+            <td>फलानुसार कर्म <strong>के</strong> अवश्य बाह्य भेद हैं ।[span_157](start_span)[span_157](end_span)</td>
+          </tr>
+          <tr>
+            <td>(ख)</td>
+            <td>वेद अंतरैक्य ______ प्रमाण हैं ।[span_158](start_span)[span_158](end_span)</td>
+            <td><span class="badge-tag blue">में / के[span_159](start_span)[span_159](end_span)</span></td>
+            <td>वेद अंतरैक्य <strong>में</strong> प्रमाण हैं । (अथवा अंतरैक्य <strong>के</strong> प्रमाणभूत हैं)[span_160](start_span)[span_160](end_span)</td>
+          </tr>
+          <tr>
+            <td>(ग)</td>
+            <td>वही मनुष्य है जो मनुष्य ______ मरे ।[span_161](start_span)[span_161](end_span)</td>
+            <td><span class="badge-tag gold">के लिए[span_162](start_span)[span_162](end_span)</span></td>
+            <td>वही मनुष्य है जो मनुष्य <strong>के लिए</strong> मरे ।[span_163](start_span)[span_163](end_span)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Exercise 2: Gender Identification -->
+    <h3 class="sub-title">୨. निम्नलिखित शब्दों के लिंग निर्धारण[span_164](start_span)[span_164](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_165](start_span)[span_165](end_span)</th>
+            <th>लिंग[span_166](start_span)[span_166](end_span)</th>
+            <th>व्याकरणिक प्रयोग / पहचान वाक्य</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>प्रवृत्ति[span_167](start_span)[span_167](end_span)</strong></td>
+            <td><span class="badge-tag coral">स्त्रीलिंग</span></td>
+            <td>पशु-प्रवृत्ति बुरी होती है। (इकारांत संज्ञा)</td>
+          </tr>
+          <tr>
+            <td><strong>अंतरिक्ष[span_168](start_span)[span_168](end_span)</strong></td>
+            <td><span class="badge-tag blue">पुल्लिंग</span></td>
+            <td>अंतरिक्ष अनंत और विशाल है।</td>
+          </tr>
+          <tr>
+            <td><strong>मृत्यु[span_169](start_span)[span_169](end_span)</strong></td>
+            <td><span class="badge-tag coral">स्त्रीलिंग</span></td>
+            <td>मृत्यु निश्चित आती है; सुमृत्यु हुई। (उकारांत तत्सम संज्ञा)</td>
+          </tr>
+          <tr>
+            <td><strong>विचार[span_170](start_span)[span_170](end_span)</strong></td>
+            <td><span class="badge-tag blue">पुल्लिंग</span></td>
+            <td>उसका विचार बहुत उत्तम है।</td>
+          </tr>
+          <tr>
+            <td><strong>व्यथा[span_171](start_span)[span_171](end_span)</strong></td>
+            <td><span class="badge-tag coral">स्त्रीलिंग</span></td>
+            <td>दीन की व्यथा हरनी चाहिए। (आकारांत संज्ञा)</td>
+          </tr>
+          <tr>
+            <td><strong>अनर्थ[span_172](start_span)[span_172](end_span)</strong></td>
+            <td><span class="badge-tag blue">पुल्लिंग</span></td>
+            <td>समाज में बड़ा अनर्थ हो गया।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Exercise 3: Sentence Formation -->
+    <h3 class="sub-title">୩. शब्द-प्रयोग द्वारा वाक्य-निर्माण[span_173](start_span)[span_173](end_span)</h3>
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li>
+            <strong>विवेक:[span_174](start_span)[span_174](end_span)</strong><br>
+            👉 मनुष्य को कठिन परिस्थितियों में भी अपने <em>विवेक</em> से काम लेना चाहिए[span_175](start_span)[span_175](end_span)।
+          </li>
+          <li>
+            <strong>प्रवृत्ति:[span_176](start_span)[span_176](end_span)</strong><br>
+            👉 केवल अपने विषय में सोचना स्वार्थी मनुष्य की <em>प्रवृत्ति</em> होती है[span_177](start_span)[span_177](end_span)।
+          </li>
+          <li>
+            <strong>मर्त्य:[span_178](start_span)[span_178](end_span)</strong><br>
+            👉 यह मानव शरीर <em>मर्त्य</em> है, किंतु आत्मा अमर है[span_179](start_span)[span_179](end_span)।
+          </li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <ul>
+          <li>
+            <strong>बंधु:[span_180](start_span)[span_180](end_span)</strong><br>
+            👉 संसार का प्रत्येक मानव एक-दूसरे का <em>बंधु</em> है[span_181](start_span)[span_181](end_span)।
+          </li>
+          <li>
+            <strong>व्यथा:[span_182](start_span)[span_182](end_span)</strong><br>
+            👉 सच्चे मनुष्य का कर्तव्य है कि वह निर्धनों की <em>व्यथा</em> दूर करे[span_183](start_span)[span_183](end_span)।
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० हिंदी • पद्य विभाग : मनुष्यता (राष्ट्रकवि मैथिलीशरण गुप्त) | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
