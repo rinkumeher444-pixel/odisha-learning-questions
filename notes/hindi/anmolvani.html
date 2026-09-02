@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>अनमोल वाणी - संत कबीरदास | कक्षा 10 हिंदी</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.8;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 720px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Section Structure */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Doha Container & Styling */
+    .doha-card {
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(20, 184, 166, 0.05) 100%);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 20px 0;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .doha-text {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fef08a;
+      line-height: 1.9;
+      letter-spacing: 0.5px;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+      .doha-text { font-size: 1.1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० हिंदी • पद्य भाग • अनमोल वाणी</div>
+    <h1>संत कबीरदास : दोहे एवं व्याख्या</h1>
+    <p>कवि परिचय, साखी/दोहों का मूल पाठ, विस्तृत शब्दार्थ, भावार्थ, तुलनात्मक समीक्षा, प्रश्नोत्तर एवं संपूर्ण भाषा-ज्ञान।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#intro">कवि परिचय</a>
+    <a href="#doha-text">मूल दोहे</a>
+    <a href="#shabdarth">शब्दार्थ तालिका</a>
+    <a href="#doha-1">दोहा १ : सत्य की महिमा</a>
+    <a href="#doha-2">दोहा २ : कर्म का फल</a>
+    <a href="#doha-3">दोहा ३ : धैर्य का महत्त्व</a>
+    <a href="#exercises">अभ्यास प्रश्नोत्तर</a>
+    <a href="#language-study">भाषा-ज्ञान (व्याकरण)</a>
+  </nav>
+
+  <!-- 1. Poet Introduction -->
+  <section id="intro">
+    <h2 class="sec-title">🪶 १. कवि परिचय : संत कबीरदास</h2>
+    
+    <div class="compare">
+      <div class="card gold">
+        <h4>जीवन परिचय एवं पालन-पोषण</h4>
+        <ul>
+          <li><strong>जन्म:</strong> सन् <strong>1398 में काशी</strong> में हुआ تھا[span_0](start_span)[span_0](end_span)।</li>
+          <li><strong>लालन-पालन:</strong> कहा जाता है कि वे एक तालाब के किनारे मिले थे, जहाँ से एक <strong>जुलाहा दंपति</strong> ने उन्हें लाकर उनका पालन-पोषण किया[span_1](start_span)[span_1](end_span)।</li>
+          <li><strong>व्यवसाय:</strong> वे कपड़ा बुनने (जुलाहा) का कार्य करते थे[span_2](start_span)[span_2](end_span)।</li>
+          <li><strong>गुरु:</strong> वे अपने गुरु <strong>रामानंद स्वामी</strong> का अत्यधिक आदर करते थे[span_3](start_span)[span_3](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card teal">
+        <h4>विचारधारा एवं काव्य-विशेषताएँ</h4>
+        <ul>
+          <li><strong>ईश्वर का स्वरूप:</strong> वे ईश्वर के <strong>निर्गुण एवं निराकार</strong> रूप के उपासक थे[span_4](start_span)[span_4](end_span)।</li>
+          <li><strong>शिक्षा एवं अनुभव:</strong> औपचारिक रूप से वे अधिक पढ़े-लिखे नहीं थे, परंतु लोक-जीवन के बड़े अनुभवी, बुद्धिमान और विवेकशील थे[span_5](start_span)[span_5](end_span)।</li>
+          <li><strong>भाषा-शैली:</strong> उनकी भाषा उस समय जनसमाज में प्रचलित <strong>मिश्रित खड़ीबोली (सधुक्कड़ी)</strong> है[span_6](start_span)[span_6](end_span)।</li>
+          <li><strong>प्रमुख ग्रंथ:</strong> कबीर की वाणियों को उनके शिष्यों ने <strong>'बीजक'</strong> नामक ग्रंथ में संकलित किया[span_7](start_span)[span_7](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout mistake-box">
+      <strong>सामाजिक सुधार एवं कुरीतियों का विरोध:</strong><br>
+      उस समय धर्म और समाज में भारी आडंबर और भ्रम फैला था[span_8](start_span)[span_8](end_span)। कबीर ने अपनी निर्भीक वाणी से <strong>जाति-भेद, ऊँच-नीच, छुआछूत, बाह्य आडंबर, अंधविश्वास, पाखंड और मूर्ति-पूजा</strong> का कड़ा विरोध किया[span_9](start_span)[span_9](end_span)। वे कहते थे कि सभी मनुष्य समान हैं[span_10](start_span)[span_10](end_span)। बाहरी कर्मकांड, जप-तप और तीर्थ-व्रत छोड़कर वे सच्चे दिल से अंतःकरण की भक्ति, सदाचार, सच्चाई, भाईचारे और धार्मिक सहिष्णुता पर बल देते थे[span_11](start_span)[span_11](end_span)।
+    </div>
+  </section>
+
+  <!-- 2. Original Verses (Dohe) -->
+  <section id="doha-text">
+    <h2 class="sec-title">📜 २. मूल पाठ : कबीरदास के दोहे</h2>
+
+    <div class="doha-card">
+      <p class="doha-text">
+        साँच बराबर तप नहीं, झूठ बराबर पाप ।<br>
+        जाके हिरदै साँच है, ताके हिरदै आप ।। १ ।।[span_12](start_span)[span_12](end_span)
+      </p>
+    </div>
+
+    <div class="doha-card">
+      <p class="doha-text">
+        जो तोको काँटा बुबै ताहि बोय तू फूल ।<br>
+        तोकु फूल को फूल है, बाको है तिरसूल ।। २ ।।[span_13](start_span)[span_13](end_span)
+      </p>
+    </div>
+
+    <div class="doha-card">
+      <p class="doha-text">
+        धीरे-धीरे रे मना, धीरे-धीरे सब कुछ होय ।<br>
+        माली सींचे सौ घड़ा, ऋतु आए फल होय ।। ३ ।।[span_14](start_span)[span_14](end_span)
+      </p>
+    </div>
+  </section>
+
+  <!-- 3. Glossary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ३. शब्दार्थ एवं खड़ी बोली रूप (Glossary)</h2>
+    <p>दोहों में प्रयुक्त अवधी, ब्रज एवं मिश्रित देशज शब्दों के प्रामाणिक अर्थ तथा उनके खड़ी बोली रूप[span_15](start_span)[span_15](end_span):</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>मूल पद (दोहे में)[span_16](start_span)[span_16](end_span)</th>
+            <th>खड़ी बोली रूप[span_17](start_span)[span_17](end_span)</th>
+            <th>विस्तृत अर्थ[span_18](start_span)[span_18](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>साँच[span_19](start_span)[span_19](end_span)</strong></td>
+            <td>सच, सत्य[span_20](start_span)[span_20](end_span)</td>
+            <td>यथार्थ, सत्य आचरण[span_21](start_span)[span_21](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>बराबर[span_22](start_span)[span_22](end_span)</strong></td>
+            <td>समान[span_23](start_span)[span_23](end_span)</td>
+            <td>तुल्य, सदृश[span_24](start_span)[span_24](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>तप[span_25](start_span)[span_25](end_span)</strong></td>
+            <td>तपस्या[span_26](start_span)[span_26](end_span)</td>
+            <td>साधना, ज्ञान, उच्चतम पुण्य[span_27](start_span)[span_27](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>झूठ[span_28](start_span)[span_28](end_span)</strong></td>
+            <td>मिथ्या[span_29](start_span)[span_29](end_span)</td>
+            <td>असत्य वचन, कपट[span_30](start_span)[span_30](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>पाप[span_31](start_span)[span_31](end_span)</strong></td>
+            <td>पाप[span_32](start_span)[span_32](end_span)</td>
+            <td>कुकर्म, पातक, अधर्म[span_33](start_span)[span_33](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>जाके[span_34](start_span)[span_34](end_span)</strong></td>
+            <td>जिसके[span_35](start_span)[span_35](end_span)</td>
+            <td>जिस मनुष्य के[span_36](start_span)[span_36](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>हिरदै[span_37](start_span)[span_37](end_span)</strong></td>
+            <td>हृदय[span_38](start_span)[span_38](end_span)</td>
+            <td>मन, अंतःकरण[span_39](start_span)[span_39](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ताके[span_40](start_span)[span_40](end_span)</strong></td>
+            <td>उसके[span_41](start_span)[span_41](end_span)</td>
+            <td>उस व्यक्ति के[span_42](start_span)[span_42](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>आप[span_43](start_span)[span_43](end_span)</strong></td>
+            <td>स्वयं ईश्वर[span_44](start_span)[span_44](end_span)</td>
+            <td>परमात्मा, भगवान[span_45](start_span)[span_45](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>तोको / तोकु[span_46](start_span)[span_46](end_span)</strong></td>
+            <td>तुझको / तेरे लिए[span_47](start_span)[span_47](end_span)</td>
+            <td>तुम्हारे मार्ग में[span_48](start_span)[span_48](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>बुबै[span_49](start_span)[span_49](end_span)</strong></td>
+            <td>बोता है[span_50](start_span)[span_50](end_span)</td>
+            <td>रोपता है, बुराई करता है[span_51](start_span)[span_51](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ताहि[span_52](start_span)[span_52](end_span)</strong></td>
+            <td>उसे / उसके लिए[span_53](start_span)[span_53](end_span)</td>
+            <td>उस विरोधी मनुष्य के लिए[span_54](start_span)[span_54](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>बाको[span_55](start_span)[span_55](end_span)</strong></td>
+            <td>उसको / उसके लिए[span_56](start_span)[span_56](end_span)</td>
+            <td>उस बुराई करने वाले को[span_57](start_span)[span_57](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>तिरसूल[span_58](start_span)[span_58](end_span)</strong></td>
+            <td>त्रिशूल[span_59](start_span)[span_59](end_span)</td>
+            <td>काँटा, तीखा शूल, असहनीय कष्ट[span_60](start_span)[span_60](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ମନା (मना)[span_61](start_span)[span_61](end_span)</strong></td>
+            <td>मन, हे चित्त[span_62](start_span)[span_62](end_span)!</td>
+            <td>हे अंतर्मन[span_63](start_span)[span_63](end_span)!</td>
+          </tr>
+          <tr>
+            <td><strong>होय[span_64](start_span)[span_64](end_span)</strong></td>
+            <td>होता है[span_65](start_span)[span_65](end_span)</td>
+            <td>सम्पन्न होता है[span_66](start_span)[span_66](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>माली[span_67](start_span)[span_67](end_span)</strong></td>
+            <td>माली[span_68](start_span)[span_68](end_span)</td>
+            <td>पेड़-पौधों की देखरेख व सिंचाई करने वाला[span_69](start_span)[span_69](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>सींचै[span_70](start_span)[span_70](end_span)</strong></td>
+            <td>सींचता है[span_71](start_span)[span_71](end_span)</td>
+            <td>पानी देता है, सिंचाई करता है[span_72](start_span)[span_72](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>घड़ा[span_73](start_span)[span_73](end_span)</strong></td>
+            <td>मटका[span_74](start_span)[span_74](end_span)</td>
+            <td>कलश, जलपात्र, गागर[span_75](start_span)[span_75](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ऋतु[span_76](start_span)[span_76](end_span)</strong></td>
+            <td>मौसम[span_77](start_span)[span_77](end_span)</td>
+            <td>अनुकूल समय, फलने का समय[span_78](start_span)[span_78](end_span)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 4. Detailed Explanation - Doha 1 -->
+  <section id="doha-1">
+    <h2 class="sec-title">✨ ४. प्रथम दोहा : सत्य की महिमा एवं ईश्वर का वास</h2>
+    
+    <div class="doha-card">
+      <p class="doha-text">
+        साँच बराबर तप नहीं, झूठ बराबर पाप ।<br>
+        जाके हिरदै साँच है, ताके हिरदै आप ।।[span_79](start_span)[span_79](end_span)
+      </p>
+    </div>
+
+    <div class="callout def-box">
+      <strong>दोहे का मूल भावार्थ:</strong><br>
+      संसार में <strong>सत्य के समान कोई तपस्या या ज्ञान नहीं है</strong> और <strong>झूठ के समान कोई बड़ा पाप या कुकर्म नहीं है</strong>[span_80](start_span)[span_80](end_span)। जिस मनुष्य के हृदय में सत्य का वास होता है, जो सदैव सत्य बोलता है और जिसका मन निष्कपट व निर्मल है, उसके हृदय में <strong>स्वयं भगवान (ईश्वर) निवास करते हैं</strong>[span_81](start_span)[span_81](end_span)।
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">सत्य आचरण एवं सत्य वचन[span_82](start_span)[span_82](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">निर्मल एवं पापरहित हृदय[span_83](start_span)[span_83](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ईश्वर का साक्षात वास[span_84](start_span)[span_84](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">सत्यवादी को आदर व परम पद[span_85](start_span)[span_85](end_span)</div>
+    </div>
+
+    <div class="compare">
+      <div class="card green">
+        <h4>सत्य (साँच) का मार्ग</h4>
+        <ul>
+          <li>संसार का सर्वोच्च तप और सर्वश्रेष्ठ ज्ञान[span_86](start_span)[span_86](end_span)।</li>
+          <li>हृदय को शुद्ध, पापरहित और पवित्र बनाता है[span_87](start_span)[span_87](end_span)।</li>
+          <li>सत्यवादी व्यक्ति को प्रभु के दर्शन होते हैं और समाज में यथेष्ट आदर प्राप्त होता है[span_88](start_span)[span_88](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card coral">
+        <h4>असत्य (झूठ) का मार्ग</h4>
+        <ul>
+          <li>संसार का सबसे निकृष्ट और कलुषित पाप[span_89](start_span)[span_89](end_span)।</li>
+          <li>मन में कपट, भ्रम और अंधकार उत्पन्न करता है[span_90](start_span)[span_90](end_span)।</li>
+          <li>झूठे और पापी व्यक्ति का समाज में सर्वत्र अनादर व पतन होता है[span_91](start_span)[span_91](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Detailed Explanation - Doha 2 -->
+  <section id="doha-2">
+    <h2 class="sec-title">🌸 ५. द्वितीय दोहा : उपकार की भावना एवं कर्म-फल</h2>
+
+    <div class="doha-card">
+      <p class="doha-text">
+        जो तोको काँटा बुबै ताहि बोय तू फूल ।<br>
+        तोकु फूल को फूल है, बाको है तिरसूल ।।[span_92](start_span)[span_92](end_span)
+      </p>
+    </div>
+
+    <div class="callout example-box">
+      <strong>दोहे का मूल भावार्थ:</strong><br>
+      यदि कोई व्यक्ति तेरे मार्ग में काँटे बोता है (अर्थात् तेरी बुराई करता है, तुझे हानि पहुँचाने का यत्न करता है), तब भी तू बदले में उसके मार्ग में <strong>फूल ही बिछा (अर्थात् उसकी भलाई ही कर)</strong>[span_93](start_span)[span_93](end_span)। तेरी भलाई के बदले तुझे <strong>फूल जैसा सुखद एवं कल्याणकारी फल प्राप्त होगा</strong>, जबकि बुराई करने वाले को अपनी बुराई के बदले <strong>त्रिशूल जैसा तीखा व कष्टकारी फल</strong> भुगतना पड़ेगा[span_94](start_span)[span_94](end_span)।
+    </div>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>उपकारी का परिणाम (फूल के बदले फूल)</h4>
+        <p>भलाई करने वाले का अंतःकरण शांत रहता है[span_95](start_span)[span_95](end_span)। उसकी अच्छाई से उसे सुख, शांति, पुण्य और कल्याणकारी प्रतिफल प्राप्त होता है[span_96](start_span)[span_96](end_span)—<em>"जैसी करनी वैसी भरनी"</em>[span_97](start_span)[span_97](end_span)।</p>
+      </div>
+
+      <div class="card coral">
+        <h4>अपकारी का परिणाम (काँटे के बदले त्रिशूल)</h4>
+        <p>बुराई करने वाले को अंततः अपनी ही दुष्टता का भयंकर दंड मिलता है[span_98](start_span)[span_98](end_span)। उसका बोया हुआ छोटा-सा काँटा आगे चलकर स्वयं उसी के लिए <strong>त्रिशूल (घातक कष्ट)</strong> बनकर चुभता है[span_99](start_span)[span_99](end_span) ।</p>
+      </div>
+    </div>
+
+    <!-- Symbolic SVG Illustration of Karma -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 600 220" width="560" height="200" xmlns="http://www.w3.org/2000/svg">
+          <!-- Central Divider -->
+          <line x1="300" y1="20" x2="300" y2="200" stroke="#2a3958" stroke-width="2" stroke-dasharray="6 6"/>
+
+          <!-- Left Side: Good Karma -->
+          <circle cx="150" cy="70" r="42" fill="#131d31" stroke="#10b981" stroke-width="2.5"/>
+          <!-- Flower Icon -->
+          <circle cx="150" cy="70" r="12" fill="#f59e0b"/>
+          <circle cx="150" cy="50" r="8" fill="#10b981" opacity="0.8"/>
+          <circle cx="150" cy="90" r="8" fill="#10b981" opacity="0.8"/>
+          <circle cx="130" cy="70" r="8" fill="#10b981" opacity="0.8"/>
+          <circle cx="170" cy="70" r="8" fill="#10b981" opacity="0.8"/>
+          <text x="150" y="140" fill="#10b981" font-size="14" font-weight="bold" text-anchor="middle">फूल बोना (भलाई करना)[span_100](start_span)[span_100](end_span)</text>
+          <text x="150" y="165" fill="#94a3b8" font-size="12" text-anchor="middle">प्राप्ति: सुख, शांति और सम्मान[span_101](start_span)[span_101](end_span)</text>
+
+          <!-- Right Side: Bad Karma -->
+          <circle cx="450" cy="70" r="42" fill="#131d31" stroke="#f43f5e" stroke-width="2.5"/>
+          <!-- Trident/Thorns Icon -->
+          <path d="M 450,42 L 450,98 M 436,54 L 436,80 Q 436,92 450,92 Q 464,92 464,80 L 464,54" fill="none" stroke="#f43f5e" stroke-width="3" stroke-linecap="round"/>
+          <text x="450" y="140" fill="#f43f5e" font-size="14" font-weight="bold" text-anchor="middle">काँटा बोना (बुराई करना)[span_102](start_span)[span_102](end_span)</text>
+          <text x="450" y="165" fill="#94a3b8" font-size="12" text-anchor="middle">प्राप्ति: त्रिशूल सदୃଶ दारुण दुःख[span_103](start_span)[span_103](end_span)</text>
+        </svg>
+        <figcaption>चित्र: कर्म-फल सिद्धांत — "तोकु फूल को फूल है, बाको है तिरसूल[span_104](start_span)"[span_104](end_span)</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 6. Detailed Explanation - Doha 3 -->
+  <section id="doha-3">
+    <h2 class="sec-title">⏳ ६. तृतीय दोहा : धैर्य का महत्त्व एवं समय की महत्ता</h2>
+
+    <div class="doha-card">
+      <p class="doha-text">
+        धीरे-धीरे रे मना, धीरे-धीरे सब कुछ होय ।<br>
+        माली सींचे सौ घड़ा, ऋतु आए फल होय ।।[span_105](start_span)[span_105](end_span)
+      </p>
+    </div>
+
+    <div class="callout def-box">
+      <strong>दोहे का मूल भावार्थ:</strong><br>
+      कबीरदास जी मन को समझाते हुए कहते हैं कि <strong>हे मन! धैर्य रख, संसार के प्रत्येक कार्य अपनी गति से धीरे-धीरे ही सिद्ध होते हैं</strong>[span_106](start_span)[span_106](end_span)। जिस प्रकार माली यदि किसी वृक्ष की जड़ में एक ही दिन में <strong>सौ घड़े पानी भी डाल दे (सींच ले)</strong>, तब भी उसमें समय से पूर्व फल नहीं लग सकते[span_107](start_span)[span_107](end_span)। फल तो तभी उत्पन्न होंगे जब <strong>अनुकूल ऋतु (ऋतु/मौसम) आएगी</strong>[span_108](start_span)[span_108](end_span)। अतः मानव को उतावलापन छोड़कर धैर्यपूर्वक समय की प्रतीक्षा करनी चाहिए[span_109](start_span)[span_109](end_span)।
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">परिश्रम / साधना (माली का सींचना)[span_110](start_span)[span_110](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">धैर्य एवं संयम (समय की प्रतीक्षा)[span_111](start_span)[span_111](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">अनुकूल ऋतु / सही अवसर[span_112](start_span)[span_112](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">सफल परिणाम (फल की प्राप्ति)[span_113](start_span)[span_113](end_span)</div>
+    </div>
+
+    <div class="callout activity-box">
+      <strong>व्यावहारिक जीवन में शिक्षा:</strong><br>
+      किसी भी कार्य की सफलता के लिए दो तत्व अनिवार्य हैं: <strong>(१) निरंतर सतत कर्म</strong> तथा <strong>(२) धैर्य</strong>[span_114](start_span)[span_114](end_span)। परीक्षा की तैयारी हो या जीवन का कोई बड़ा लक्ष्य, अधीर होने या जल्दबाजी करने से परिणाम पहले नहीं मिलता[span_115](start_span)[span_115](end_span)। नियत समय और निरंतर अभ्यास से ही लक्ष्य-रूपी मधुर फल की प्राप्ति होती है[span_116](start_span)[span_116](end_span)।
+    </div>
+  </section>
+
+  <!-- 7. Questions and Exercises -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ७. प्रश्न और अभ्यास (पाठ्यपुस्तक पर आधारित)</h2>
+
+    <h3 class="sub-title">भाग ১ : दो-तीन वाक्यों में उत्तर दीजिए[span_117](start_span)[span_117](end_span)</h3>
+    
+    <div class="compare">
+      <div class="card">
+        <h4>(क) साँच या सत्य के बारे में कबीर ने क्या कहा है?[span_118](start_span)[span_118](end_span)</h4>
+        <p><strong>उत्तर:</strong> कबीरदास जी ने कहा है कि संसार में सत्य के समान कोई दूसरी तपस्या या ज्ञान नहीं है[span_119](start_span)[span_119](end_span)। जिस मनुष्य का हृदय सत्य से परिपूर्ण और निर्मल होता है, उसके हृदय में साक्षात भगवान निवास करते हैं[span_120](start_span)[span_120](end_span)।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ख) बुराई करनेवालों की भलाई क्यों करनी चाहिए?[span_121](start_span)[span_121](end_span)</h4>
+        <p><strong>उत्तर:</strong> बुराई करने वाले की भी भलाई इसलिए करनी चाहिए क्योंकि कर्म-फल का नियम अटल है[span_122](start_span)[span_122](end_span)। हमें अपनी भलाई का प्रतिफल फूल के समान सुखदायी मिलेगा, जबकि बुराई करने वाले को अपनी करनी का फल त्रिशूल रूपी कष्ट के रूप में स्वयं भुगतना पड़ेगा[span_123](start_span)[span_123](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ग) धीरे-धीरे सबकुछ कैसे होता है — इसके लिए कवि ने कौन-सा उदाहरण दिया है?[span_124](start_span)[span_124](end_span)</h4>
+        <p><strong>उत्तर:</strong> इसके लिए कवि ने माली और वृक्ष का दृष्टांत दिया है[span_125](start_span)[span_125](end_span)। माली यदि किसी वृक्ष को सौ घड़े जल से भी सींच दे, तब भी उसमें तुरंत फल नहीं आ सकते; फल केवल अपनी अनुकूल ऋतु आने पर ही लगते हैं[span_126](start_span)[span_126](end_span)।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">भाग २ : पदों के अर्थ स्पष्टीकरण[span_127](start_span)[span_127](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>पद पंक्ति[span_128](start_span)[span_128](end_span)</th>
+            <th>व्याख्या एवं अर्थ-गांभीर्य[span_129](start_span)[span_129](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>जाके हिरदै साँच है, ताके हिरदै आप ।[span_130](start_span)[span_130](end_span)</strong></td>
+            <td>जिस मनुष्य का मन सत्य, निष्कपटता और शुचिता से भरा होता है, उसका अंतःकरण मंदिर के समान पावन बन जाता है और उस निर्मल हृदय में स्वयं परमात्मा विराजमान रहते हैं[span_131](start_span)[span_131](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>जो तोको काँटा बुबै ताहि बोय तू फूल ।[span_132](start_span)[span_132](end_span)</strong></td>
+            <td>जो मनुष्य तुम्हारे मार्ग में बाधाएँ उत्पन्न करता है या तुम्हारी अहित-कामना करता है, तुम बदले में उसका भी हित करो और उसके लिए कल्याण की भावना रखो[span_133](start_span)[span_133](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>माली सींचे सौ घड़ा, ऋतु आए फल होय ।[span_134](start_span)[span_134](end_span)</strong></td>
+            <td>अत्यधिक उतावलेपन या अधीरता से कोई कार्य समय से पूर्व पूर्ण नहीं होता[span_135](start_span)[span_135](end_span)। जिस प्रकार माली के सौ घड़े पानी उड़ेलने पर भी वृक्ष ऋतु आने पर ही फलता है, उसी प्रकार हर कार्य नियत समय पर ही सिद्ध होता है[span_136](start_span)[span_136](end_span)।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">भाग ३ : एक-एक वाक्य में उत्तर दीजिए[span_137](start_span)[span_137](end_span)</h3>
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li><strong>(क) किसके बराबर तप नहीं है?[span_138](start_span)[span_138](end_span)</strong><br>👉 सत्य (साँच) के बराबर कोई तप नहीं है[span_139](start_span)[span_139](end_span)।</li>
+          <li><strong>(ख) झूठ के बराबर क्या नहीं है?[span_140](start_span)[span_140](end_span)</strong><br>👉 झूठ के बराबर कोई पाप (कुकर्म) नहीं है[span_141](start_span)[span_141](end_span)।</li>
+          <li><strong>(ग) जिसके हृदय में साँच है, उसके हृदय में कौन होते हैं?[span_142](start_span)[span_142](end_span)</strong><br>👉 उसके हृदय में साक्षात भगवान (आप) होते हैं[span_143](start_span)[span_143](end_span)।</li>
+          <li><strong>(घ) झूठ की तुलना किसके साथ की गई है?[span_144](start_span)[span_144](end_span)</strong><br>👉 झूठ की तुलना 'पाप' के साथ की गई है[span_145](start_span)[span_145](end_span)।</li>
+          <li><strong>(ङ) साँच की तुलना किसके साथ की गई है?[span_146](start_span)[span_146](end_span)</strong><br>👉 साँच की तुलना 'तप' (तपस्या/ज्ञान) के साथ की गई है[span_147](start_span)[span_147](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <ul>
+          <li><strong>(ଚ/च) जो तेरे रास्ते पर काँटा बोता है, तुझे उसके लिए क्या करना चाहिए?[span_148](start_span)[span_148](end_span)</strong><br>👉 हमें उसके लिए फूल बोना चाहिए (भलाई करनी चाहिए)[span_149](start_span)[span_149](end_span)।</li>
+          <li><strong>(छ) पेड़ में कब फल लगते हैं?[span_150](start_span)[span_150](end_span)</strong><br>👉 अनुकूल ऋतु (मौसम) के आने पर ही पेड़ में फल लगते हैं[span_151](start_span)[span_151](end_span)।</li>
+          <li><strong>(ଜ/ज) कौन सौ घड़े पानी सींचता है?[span_152](start_span)[span_152](end_span)</strong><br>👉 माली पेड़ में सौ घड़े पानी सींचता है[span_153](start_span)[span_153](end_span)।</li>
+          <li><strong>(झ) इन दोहों के रचयिता कौन हैं?[span_154](start_span)[span_154](end_span)</strong><br>👉 इन दोहों के रचयिता 'संत कबीरदास' हैं[span_155](start_span)[span_155](end_span)।</li>
+          <li><strong>(ञ) प्रथम दोहे में 'आप' शब्द का क्या अर्थ है?[span_156](start_span)[span_156](end_span)</strong><br>👉 प्रथम दोहे में 'आप' शब्द का अर्थ 'भगवान / ईश्वर' है[span_157](start_span)[span_157](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Language Study (Grammar) -->
+  <section id="language-study">
+    <h2 class="sec-title">📖 ८. भाषा-ज्ञान (व्याकरण विशेषांक)</h2>
+
+    <!-- Antonyms -->
+    <h3 class="sub-title">१. विलोम (विपरीतार्थक) शब्द[span_158](start_span)[span_158](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>मूल शब्द[span_159](start_span)[span_159](end_span)</th>
+            <th>विलोम शब्द[span_160](start_span)[span_160](end_span)</th>
+            <th>मूल शब्द[span_161](start_span)[span_161](end_span)</th>
+            <th>विलोम शब्द[span_162](start_span)[span_162](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>साँच (सत्य)[span_163](start_span)[span_163](end_span)</strong></td>
+            <td>झूठ (असत्य)[span_164](start_span)[span_164](end_span)</td>
+            <td><strong>धीर[span_165](start_span)[span_165](end_span)</strong></td>
+            <td>अधीर[span_166](start_span)[span_166](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>पाप[span_167](start_span)[span_167](end_span)</strong></td>
+            <td>पुण्य[span_168](start_span)[span_168](end_span)</td>
+            <td><strong>काँटा[span_169](start_span)[span_169](end_span)</strong></td>
+            <td>फूल[span_170](start_span)[span_170](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>बुरा[span_171](start_span)[span_171](end_span)</strong></td>
+            <td>भला (अच्छा)[span_172](start_span)[span_172](end_span)</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Synonyms Matching -->
+    <h3 class="sub-title">२. समानार्थी शब्द (कोष्ठक से चयन)[span_173](start_span)[span_173](end_span)</h3>
+    <p style="color: var(--text-muted); font-size: 0.95rem;">कोष्ठक में दिए गए शब्द: [मौसम, समान, कलुष, दिल, पुष्प, घट, मिथ्या][span_174](start_span)[span_174](end_span)</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>क्रम</th>
+            <th>शब्द[span_175](start_span)[span_175](end_span)</th>
+            <th>समानार्थी शब्द (पर्याय)[span_176](start_span)[span_176](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>१</td><td><strong>बराबर[span_177](start_span)[span_177](end_span)</strong></td><td><span class="badge-tag blue">समान[span_178](start_span)[span_178](end_span)</span> (तुल्य)[span_179](start_span)[span_179](end_span)</td></tr>
+          <tr><td>२</td><td><strong>झूठ[span_180](start_span)[span_180](end_span)</strong></td><td><span class="badge-tag coral">मिथ्या[span_181](start_span)[span_181](end_span)</span> (असत्य)[span_182](start_span)[span_182](end_span)</td></tr>
+          <tr><td>୩</td><td><strong>पाप[span_183](start_span)[span_183](end_span)</strong></td><td><span class="badge-tag coral">कलुष[span_184](start_span)[span_184](end_span)</span> (कुकर्म, पातक)[span_185](start_span)[span_185](end_span)</td></tr>
+          <tr><td>୪</td><td><strong>हृदय[span_186](start_span)[span_186](end_span)</strong></td><td><span class="badge-tag gold">दिल[span_187](start_span)[span_187](end_span)</span> (हिया, अंतःकरण)[span_188](start_span)[span_188](end_span)</td></tr>
+          <tr><td>୫</td><td><strong>फूल[span_189](start_span)[span_189](end_span)</strong></td><td><span class="badge-tag green">पुष्प[span_190](start_span)[span_190](end_span)</span> (कुसुम)[span_191](start_span)[span_191](end_span)</td></tr>
+          <tr><td>୬</td><td><strong>घड़ा[span_192](start_span)[span_192](end_span)</strong></td><td><span class="badge-tag blue">घट[span_193](start_span)[span_193](end_span)</span> (मटका, कलश)[span_194](start_span)[span_194](end_span)</td></tr>
+          <tr><td>୭</td><td><strong>ऋतु[span_195](start_span)[span_195](end_span)</strong></td><td><span class="badge-tag teal">मौसम[span_196](start_span)[span_196](end_span)</span> (काल)[span_197](start_span)[span_197](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Number Conversion -->
+    <h3 class="sub-title">୩. वचन बदलिए (एकवचन ⟷ बहुवचन)[span_198](start_span)[span_198](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>एकवचन रूप[span_199](start_span)[span_199](end_span)</th>
+            <th>बहुवचन रूप[span_200](start_span)[span_200](end_span)</th>
+            <th>व्याकरणिक नियम/टिप्पणी</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>घड़ा[span_201](start_span)[span_201](end_span)</strong></td>
+            <td><strong>घड़े[span_202](start_span)[span_202](end_span)</strong></td>
+            <td>आकारांत पुल्लिंग शब्द का बहुवचन 'ए' रूप</td>
+          </tr>
+          <tr>
+            <td><strong>काँटा[span_203](start_span)[span_203](end_span)</strong></td>
+            <td><strong>काँटे[span_204](start_span)[span_204](end_span)</strong></td>
+            <td>आकारांत पुल्लिंग शब्द बहुवचन में एकारांत</td>
+          </tr>
+          <tr>
+            <td><strong>ऋतु[span_205](start_span)[span_205](end_span)</strong></td>
+            <td><strong>ऋतुएँ[span_206](start_span)[span_206](end_span)</strong></td>
+            <td>उकारांत स्त्रीलिंग शब्द में 'एँ' जोड़कर</td>
+          </tr>
+          <tr>
+            <td><strong>पाप[span_207](start_span)[span_207](end_span)</strong></td>
+            <td><strong>पाप[span_208](start_span)[span_208](end_span)</strong> (अपरिवर्तित)</td>
+            <td>अकारांत पुल्लिंग भाववाचक संज्ञा (प्रायः एकरूप)</td>
+          </tr>
+          <tr>
+            <td><strong>फूल[span_209](start_span)[span_209](end_span)</strong></td>
+            <td><strong>फूल[span_210](start_span)[span_210](end_span)</strong> (फूलों - सविभक्तिक)</td>
+            <td>पुल्लिंग संज्ञा (अविभक्तिक बहुवचन समान रहता है)</td>
+          </tr>
+          <tr>
+            <td><strong>फल[span_211](start_span)[span_211](end_span)</strong></td>
+            <td><strong>फल[span_212](start_span)[span_212](end_span)</strong> (फलों - सविभक्तिक)</td>
+            <td>पुल्लिंग संज्ञा (अविभक्तिक बहुवचन समान रहता है)</td>
+          </tr>
+          <tr>
+            <td><strong>माली[span_213](start_span)[span_213](end_span)</strong></td>
+            <td><strong>माली[span_214](start_span)[span_214](end_span)</strong> (मालियों - सविभक्तिक)</td>
+            <td>ईकारांत पुल्लिंग शब्द (अविभक्तिक बहुवचन समान)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Khadi Boli Form -->
+    <h3 class="sub-title">୪. अवधी/सधुक्कड़ी पदों के मानक खड़ी बोली रूप[span_215](start_span)[span_215](end_span)</h3>
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li><strong>साँच[span_216](start_span)[span_216](end_span)</strong> ➔ सच / सत्य[span_217](start_span)[span_217](end_span)</li>
+          <li><strong>जाके[span_218](start_span)[span_218](end_span)</strong> ➔ जिसके[span_219](start_span)[span_219](end_span)</li>
+          <li><strong>हिरदै[span_220](start_span)[span_220](end_span)</strong> ➔ हृदय[span_221](start_span)[span_221](end_span)</li>
+          <li><strong>तोको[span_222](start_span)[span_222](end_span)</strong> ➔ तुझको / तेरे लिए[span_223](start_span)[span_223](end_span)</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <ul>
+          <li><strong>बुबै[span_224](start_span)[span_224](end_span)</strong> ➔ बोता है[span_225](start_span)[span_225](end_span)</li>
+          <li><strong>बाको[span_226](start_span)[span_226](end_span)</strong> ➔ उसको / उसके लिए[span_227](start_span)[span_227](end_span)</li>
+          <li><strong>होय[span_228](start_span)[span_228](end_span)</strong> ➔ होता है[span_229](start_span)[span_229](end_span)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० हिंदी • पद्य विभाग : अनमोल वाणी (कबीरदास) | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
