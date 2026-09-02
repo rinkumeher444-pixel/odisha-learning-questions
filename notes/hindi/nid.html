@@ -1,0 +1,913 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>नीड़ का निर्माण फिर-फिर — हरिवंशराय बच्चन | कक्षा 10 हिंदी व्याख्यान नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Section Structure */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Poem Card Container */
+    .poem-card {
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(20, 184, 166, 0.05) 100%);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      border-radius: var(--radius-md);
+      padding: 26px 20px;
+      margin: 20px 0;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .poem-text {
+      font-size: 1.22rem;
+      font-weight: 700;
+      color: #fef08a;
+      line-height: 2.1;
+      letter-spacing: 0.5px;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+      .poem-text { font-size: 1.05rem; line-height: 1.8; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० हिंदी • पद्य भाग • प्रेरणादायी कविता</div>
+    <h1>नीड़ का निर्माण फिर-फिर : हरिवंशराय बच्चन</h1>
+    <p>कवि परिचय, कविता का मूल संदेश, संपूर्ण पद्यांश पाठ, विस्तृत व्याख्या, कठिन शब्दार्थ, पाठ्यपुस्तक प्रश्नोत्तर एवं भाषा-ज्ञान (विलोम, पर्यायवाची, वाक्य-शुद्धि)।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#author">कवि परिचय</a>
+    <a href="#poem-core">कविता का केंद्रीय भाव</a>
+    <a href="#poem-text">मूल कविता पाठ</a>
+    <a href="#stanza-analysis">पद्यांश-वार व्याख्या</a>
+    <a href="#shabdarth">शब्दार्थ तालिका</a>
+    <a href="#qa-short">लघु उत्तरीय प्रश्न</a>
+    <a href="#qa-oneline">एक-दो वाक्यीय प्रश्न</a>
+    <a href="#qa-objective">वस्तुनिष्ठ प्रश्न (MCQs)</a>
+    <a href="#grammar-lang">भाषा-ज्ञान (व्याकरण)</a>
+  </nav>
+
+  <!-- 1. Poet Introduction -->
+  <section id="author">
+    <h2 class="sec-title">🪶 १. कवि परिचय : हरिवंशराय बच्चन</h2>
+
+    <div class="compare">
+      <div class="card gold">
+        <h4>जीवन एवं शिक्षा</h4>
+        <ul>
+          <li><strong>जन्म:</strong> सन् <strong>1907</strong> में उत्तर प्रदेश के <strong>इलाहाबाद</strong> (प्रयागराज) में हुआ[span_0](start_span)[span_0](end_span)।</li>
+          <li><strong>उच्च शिक्षा:</strong> अंग्रेजी की उच्च शिक्षा इलाहाबाद तथा <strong>कैम्ब्रिज विश्वविद्यालय (इंग्लैंड)</strong> से प्राप्त की[span_1](start_span)[span_1](end_span)।</li>
+          <li><strong>कार्यक्षेत्र:</strong> कुछ समय तक अध्यापन कार्य किया, आकाशवाणी में सेवा दी तथा बाद में विदेश मंत्रालय में <strong>हिंदी सलाहकार</strong> के रूप में कार्य किया[span_2](start_span)[span_2](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card teal">
+        <h4>काव्यगत विशेषताएँ एवं सम्मान</h4>
+        <ul>
+          <li><strong>काव्य-दृष्टि:</strong> बाल्यकाल से ही कविता लिखने में रुचि रखने वाले बच्चन जी की कविताओं में जीवन के संघर्ष और जीने के लिए किए जाने वाले नाना कार्यों का सजीव वर्णन मिलता है[span_3](start_span)[span_3](end_span)। इन्होंने जीवन को अत्यंत महत्त्व दिया है[span_4](start_span)[span_4](end_span)।</li>
+          <li><strong>प्रेरणा:</strong> यह कविता विपत्तियों से निडर होकर लगातार संघर्ष करने और जीवन को हर पल जीने की प्रेरणा देती है[span_5](start_span)[span_5](end_span)।</li>
+          <li><strong>प्रमुख सम्मान व रचनाएँ:</strong> <em>'दो चट्टानों के लिए'</em> पर उन्हें <strong>साहित्य अकादमी पुरस्कार</strong> तथा सन् 1976 में <strong>पद्मभूषण</strong> से सम्मानित किया गया[span_6](start_span)[span_6](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Poem Core Theme -->
+  <section id="poem-core">
+    <h2 class="sec-title">💡 २. कविता का केंद्रीय भाव व संदेश</h2>
+    <p>
+      प्रकृति में पक्षी अपने घोंसले (नीड़) को बार-बार उजाड़ने पर भी पुनः बनाते हैं[span_7](start_span)[span_7](end_span)। इसी प्रकार मनुष्य भी अपने परिवार और बच्चों के प्रति अगाध स्नेह के कारण नए-नए घरों और सपनों का निर्माण बराबर करता रहता है[span_8](start_span)[span_8](end_span)। प्राणी के भीतर यह <strong>जीने की इच्छा (अदम्य जिजीविषा)</strong> अमर है[span_9](start_span)[span_9](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>संकट और सृजन का संदेश:</strong><br>
+      पृथ्वी पर बार-बार विपत्तियाँ आती हैं—कभी आँधी-तूफान से दिन में रात जैसा घना अँधेरा छा जाता है, बड़े-बड़े पेड़ उखड़ जाते हैं और ईंट-पत्थर के मजबूत महल भी ढह जाते हैं[span_10](start_span)[span_10](end_span)। परंतु इन भीषण आपदाओं से न डरकर एक छोटी सी चिड़िया तिनका लेकर पुनः आकाश में उड़ जाती है[span_11](start_span)[span_11](end_span)। नाश और प्रलय से दुःख अवश्य होता है, किंतु सृजन और निर्माण का सुख उस दुःख को दबा देता है[span_12](start_span)[span_12](end_span)। प्रलय की खामोशी के बाद सृष्टि के नए गान फिर-फिर गाए जाते हैं—प्राणी मरता नहीं, बार-बार जीता है[span_13](start_span)[span_13](end_span)।
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">आँधी-तूफान व घोर अंधकार (प्रलय)[span_14](start_span)[span_14](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">विनाश ও घरों का टूटना[span_15](start_span)[span_15](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">प्राची से उषा की मोहिनी मुस्कान[span_16](start_span)[span_16](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">चिड़िया द्वारा तिनका लेकर पुनः उड़ान[span_17](start_span)[span_17](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">नीड़ का निर्माण व नेह का आह्वान[span_18](start_span)[span_18](end_span)</div>
+    </div>
+  </section>
+
+  <!-- 3. Original Poem Text -->
+  <section id="poem-text">
+    <h2 class="sec-title">📜 ३. मूल कविता पाठ : नीड़ का निर्माण फिर-फिर</h2>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        नीड़ का निर्माण फिर-फिर<br>
+        नेह का आह्वान फिर-फिर [span_19](start_span)[span_19](end_span)!
+      </p>
+    </div>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        वह उठी आँधी कि नभ में<br>
+        छा गया सहसा अंधेरा,<br>
+        धूलि-धूसर बादलों ने<br>
+        भूमि को इस भाँति घेरा ।<br>
+        रात सा दिन हो गया, फिर<br>
+        रात आई और काली,<br>
+        लग रहा था अब न होगा<br>
+        इस निशा का फिर सबेरा,<br>
+        रात के उत्पात-भय से<br>
+        भीत जन-जन, भीत कण-କଣ,<br>
+        किन्तु प्राची से उषा की<br>
+        मोहिनी मुसकान फिर-फिर !<br>
+        नीड़ का निर्माण फिर-फिर,<br>
+        नेह का आह्वान फिर-फिर [span_20](start_span)[span_20](end_span)!
+      </p>
+    </div>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        बह चले झोंके कि काँपे<br>
+        भीम कायावान भूधर,<br>
+        ଜଡ਼ समेत उखड़-पुखड़ कर<br>
+        गिर पड़े, टूटे विटप वर ।<br>
+        हाय तिनकों से विनिर्मित<br>
+        घोंसलों पर क्या न बीती !<br>
+        डग मगाए जब कि कंकड़,<br>
+        ईंट, पत्थर के महल-घर ।<br>
+        बोल आशा के विहंगम,<br>
+        किस जगह पर तू छिपा था,<br>
+        जो ગଗନ पर चढ़ उठाता<br>
+        గର୍ବ से निज वक्ष फिर-फिर !<br>
+        नीड़ का निर्माण फिर-फिर,<br>
+        नेह का आह्वान फिर-फिर [span_21](start_span)[span_21](end_span)!
+      </p>
+    </div>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        क्रुद्ध नभ के बज्रदंतों<br>
+        में उषा है मुस्कुराती,<br>
+        ଘୋର गर्जन-भय गगन के<br>
+        कंठ से खग-पंक्ति गाती ।<br>
+        एक चिड़िया चोंच में ਤିନିକା<br>
+        लिए जो जा रही है,<br>
+        वह सहज में ही पवन<br>
+        उनचास को नीचा दिखाती !<br>
+        नाश के दुख से कभी<br>
+        दबता नहीं निर्माण का सुख,<br>
+        प्रलय की निस्तब्ଧता से<br>
+        सृष्टि का नव गान फिर-फिर !<br>
+        नीड़ का निर्माण फिर-फिर,<br>
+        नेह का आह्वान फिर-फिर [span_22](start_span)[span_22](end_span)!
+      </p>
+    </div>
+  </section>
+
+  <!-- 4. Stanza Analysis -->
+  <section id="stanza-analysis">
+    <h2 class="sec-title">🔍 ४. पद्यांश-वार विस्तृत भावार्थ एवं व्याख्या</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>पद्यांश १ : आँधी, घोर अंधकार व उषा की मुस्कान</h4>
+        <p><strong>व्याख्या:</strong> आकाश में अचानक ऐसी भयंकर आँधी उठी कि चहुँओर एकाएक घना अँधेरा छा गया[span_23](start_span)[span_23](end_span)। धूल से सने (धूलि-धूसर) बादलों ने पूरी पृथ्वी को इस प्रकार घेर लिया कि दिन भी रात जैसा काला प्रतीत होने लगा[span_24](start_span)[span_24](end_span)। इसके बाद और भी काली रात आ गई, जिससे ऐसा भय उत्पन्न हुआ मानो अब इस निशा (रात) का कभी सबेरा ही नहीं होगा[span_25](start_span)[span_25](end_span)। इस भीषण उत्पात के भय से जन-जन और कण-कण भयभीत हो उठे[span_26](start_span)[span_26](end_span)। किंतु पूर्व दिशा (प्राची) से उषा (प्रातःकाल) की मोहक और सुंदर मुस्कान पुनः प्रकट हुई, जो यह संदेश देती है कि दुःख की हर रात के बाद सुख का सवेरा अवश्य आता है[span_27](start_span)[span_27](end_span) ।</p>
+      </div>
+
+      <div class="card gold">
+        <h4>पद्यांश २ : पहाड़ों का काँपना ও आशा का विहंगम</h4>
+        <p><strong>व्याख्या:</strong> हवा के इतने तीव्र झोंके बहे कि विशालकाय पर्वत (भीम कायावान भूधर) भी काँप उठे[span_28](start_span)[span_28](end_span)। बड़े-बड़े श्रेष्ठ वृक्ष (विटप वर) जड़ सहित उखड़कर नीचे गिर पड़े और टूट गए[span_29](start_span)[span_29](end_span)। जरा सोचिए, जब कंकड़, ईंट और पत्थरों से बने मजबूत महल-घर तक डगमगा गए, तब नन्हे-नन्हे तिनकों से बने घोंसलों पर क्या न बीती होगी[span_30](start_span)[span_30](end_span)! हे आशा के पक्षी (विहंगम)! तू किस कोने में छिपा था, जो आपदा के टलते ही आकाश पर चढ़कर गर्व से अपना वक्षस्थल (सीना) फुलाकर खड़ा हो जाता है[span_31](start_span)[span_31](end_span)?</p>
+      </div>
+    </div>
+
+    <div class="callout example-box">
+      <strong>पद्यांश ३ : वज्रदंतों में मुस्कान ও पवन उनचास की पराजय:</strong><br>
+      क्रोधित आकाश के वज्र जैसे भयानक दाँतों के बीच भी उषा मुस्कुराती है[span_32](start_span)[span_32](end_span)। आकाश के घोर गर्जन और भय के वातावरण के बीच भी पक्षियों की कतारें (खग-पंक्ति) गीत गाती हैं[span_33](start_span)[span_33](end_span)। एक छोटी सी चिड़िया अपनी चोंच में तिनका दबाए हुए लक्ष्य की ओर चली जा रही है, और वह सहज भाव से ही अनगिनत व प्रचंड हवाओं (पवन उनचास) को परास्त कर देती है[span_34](start_span)[span_34](end_span)। विनाश या नाश के दुःख से कभी भी सृजन और निर्माण का सुख दब नहीं सकता[span_35](start_span)[span_35](end_span)। प्रलय की गहरी खामोशी के बाद भी इस सृष्टि के नए गान बार-बार गूँज उठते हैं[span_36](start_span)[span_36](end_span)।
+    </div>
+
+    <!-- Embedded SVG Diagram -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 600 220" width="560" height="200" xmlns="http://www.w3.org/2000/svg">
+          <!-- Stormy Cloud Base -->
+          <path d="M 50,80 Q 90,40 140,60 Q 190,30 250,60 Q 300,40 340,70 Q 380,50 430,70 Q 480,40 530,80 Q 560,110 520,140 Q 450,160 300,150 Q 150,160 70,130 Q 30,110 50,80 Z" fill="#1e293b" stroke="#3b4f77" stroke-width="2"/>
+          <text x="300" y="85" fill="#94a3b8" font-size="12" text-anchor="middle">क्रोधित नभ ও वज्रदंत (आँधी-तूफान)[span_37](start_span)[span_37](end_span)</text>
+
+          <!-- Sun / Usha emerging -->
+          <circle cx="300" cy="50" r="22" fill="#f59e0b"/>
+
+          <!-- Tiny Bird flying with straw -->
+          <path d="M 270,110 Q 285,100 300,110 Q 315,100 330,110" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+          <line x1="300" y1="110" x2="315" y2="105" stroke="#fef08a" stroke-width="2"/>
+          <text x="300" y="145" fill="#5eead4" font-size="11" font-weight="bold" text-anchor="middle">चिड़िया चोंच में तिनका लिए हुए (पवन उनचास को मात)[span_38](start_span)[span_38](end_span)</text>
+
+          <text x="300" y="185" fill="#fde68a" font-size="13" font-weight="bold" text-anchor="middle">"नीड़ का निर्माण फिर-फिर, नेह का आह्वान फिर-फिर !"</text>
+        </svg>
+        <figcaption>चित्र: प्रलय और आँधी के बीच तिनका लेकर उड़ान भरती नन्ही चिड़िया और उषा की मुस्कान[span_39](start_span)[span_39](end_span)</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 5. Vocabulary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ५. कठिन शब्दार्थ एवं टिप्पणियाँ</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_40](start_span)[span_40](end_span)</th>
+            <th>मानक अर्थ[span_41](start_span)[span_41](end_span)</th>
+            <th>शब्द[span_42](start_span)[span_42](end_span)</th>
+            <th>मानक अर्थ[span_43](start_span)[span_43](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>नीड़</strong></td><td>घोंसला, रहने की जगह[span_44](start_span)[span_44](end_span)</td><td><strong>उत्पात</strong></td><td>उपद्रव, हुड़दंग[span_45](start_span)[span_45](end_span)</td></tr>
+          <tr><td><strong>नेह</strong></td><td>प्रेम, स्नेह[span_46](start_span)[span_46](end_span)</td><td><strong>भीत</strong></td><td>डरा हुआ, भयभीत[span_47](start_span)[span_47](end_span)</td></tr>
+          <tr><td><strong>आह्वान</strong></td><td>बुलावा, पुकार[span_48](start_span)[span_48](end_span)</td><td><strong>प्राची</strong></td><td>पूर्व दिशा[span_49](start_span)[span_49](end_span)</td></tr>
+          <tr><td><strong>नभ</strong></td><td>आकाश, गगन[span_50](start_span)[span_50](end_span)</td><td><strong>मोहिनी</strong></td><td>मोह लेने वाली, आकर्षक, मोहक[span_51](start_span)[span_51](end_span)</td></tr>
+          <tr><td><strong>सहसा</strong></td><td>अचानक, एकाएक[span_52](start_span)[span_52](end_span)</td><td><strong>भीम कायावान</strong></td><td>बड़े शरीर वाले, विशालकाय[span_53](start_span)[span_53](end_span)</td></tr>
+          <tr><td><strong>धूलि-धूसर</strong></td><td>धूल से सने हुए[span_54](start_span)[span_54](end_span)</td><td><strong>भूधर</strong></td><td>पहाड़, पर्वत[span_55](start_span)[span_55](end_span)</td></tr>
+          <tr><td><strong>निशा</strong></td><td>रात्रि, रात[span_56](start_span)[span_56](end_span)</td><td><strong>विटप</strong></td><td>पेड़, वृक्ष[span_57](start_span)[span_57](end_span)</td></tr>
+          <tr><td><strong>वर</strong></td><td>श्रेष्ठ, उत्तम[span_58](start_span)[span_58](end_span)</td><td><strong>विनिर्मित</strong></td><td>बना हुआ[span_59](start_span)[span_59](end_span)</td></tr>
+          <tr><td><strong>विहंगम</strong></td><td>पक्षी, विहग[span_60](start_span)[span_60](end_span)</td><td><strong>क्रुद्ध</strong></td><td>नाराज, क्रोधित[span_61](start_span)[span_61](end_span)</td></tr>
+          <tr><td><strong>उषा</strong></td><td>प्रातःकाल, भोर[span_62](start_span)[span_62](end_span)</td><td><strong>खग-पंक्ति</strong></td><td>पक्षियों की कतार[span_63](start_span)[span_63](end_span)</td></tr>
+          <tr><td><strong>पवन उनचास</strong></td><td>अनेक प्रकार की हवाएँ (ऋग्वेद अनुसार)[span_64](start_span)[span_64](end_span)</td><td><strong>प्रलय</strong></td><td>सृष्टि का नाश होना, महाविनाश[span_65](start_span)[span_65](end_span)</td></tr>
+          <tr><td><strong>निस्तब्धता</strong></td><td>खामोशी, नीरवता, सन्नाटा[span_66](start_span)[span_66](end_span)</td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 6. Textbook Exercises: Short Q&A -->
+  <section id="qa-short">
+    <h2 class="sec-title">📝 ६. प्रश्न और अभ्यास : दो-तीन वाक्यों में उत्तर</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>(क) आँधी के कारण दिन कैसा दीखने लगा और क्यों?[span_67](start_span)[span_67](end_span)</h4>
+        <p><strong>उत्तर:</strong> आँधी के उठने से आकाश में धूलि-धूसर बादल इस प्रकार छा गए कि दिन में ही रात जैसा घना अँधेरा हो गया[span_68](start_span)[span_68](end_span)। भयंकर बादलों और धूल के कारण सूर्य की रोशनी पूरी तरह छिप गई थी[span_69](start_span)[span_69](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ख) आँधी की रात कैसे लग रही थी?[span_70](start_span)[span_70](end_span)</h4>
+        <p><strong>उत्तर:</strong> आँधी के बाद और भी अधिक काली रात आ गई थी, जिससे ऐसा प्रतीत हो रहा था कि अब इस निशा (रात) का कभी सबेरा ही नहीं होगा[span_71](start_span)[span_71](end_span)। उस उत्पात और भय के वातावरण से संपूर्ण जन-कण भयभीत थे[span_72](start_span)[span_72](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ઘ/ग) तूफान की उग्रता से कौन-कौन से विनाश होने लगे?[span_73](start_span)[span_73](end_span)</h4>
+        <p><strong>उत्तर:</strong> तूफान के तीव्र झोंकों से विशाल पर्वत भी काँप उठे तथा बड़े-बड़े श्रेष्ठ वृक्ष जड़ उखड़कर नीचे गिर पड़े[span_74](start_span)[span_74](end_span)। तिनकों से बने घोंसले तो उजड़े ही, साथ ही कंकड़, ईंट और पत्थरों से बने मजबूत महल-घर भी डगमगा कर ढह गए[span_75](start_span)[span_75](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(घ) आँधी को कौन और कैसे नीचा दिखाता है?[span_76](start_span)[span_76](end_span)</h4>
+        <p><strong>उत्तर:</strong> नन्हीं सी चिड़िया आँधी और प्रलय को नीचा दिखाती है[span_77](start_span)[span_77](end_span)। वह अपनी चोंच में तिनका दबाकर निडरता से आकाश में उड़ जाती है और आंधी-तूफान के प्रचंड वेग को सहज भाव से परास्त कर देती है[span_78](start_span)[span_78](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ङ) आँधी तूफान में भी कौन मुस्कुराता था?[span_79](start_span)[span_79](end_span)</h4>
+        <p><strong>उत्तर:</strong> क्रुद्ध आकाश के वज्र जैसे भयानक दाँतों और भीषण गर्जना के बीच भी प्राची (पूर्व दिशा) से उषा (प्रातःकाल) मुस्कुराती है[span_80](start_span)[span_80](end_span)। यह इस बात का प्रतीक है कि विनाश के बाद नूतन सृजन अवश्य होता है[span_81](start_span)[span_81](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(च) नाश के दुख में किसका सुख नहीं दबता?[span_82](start_span)[span_82](end_span)</h4>
+        <p><strong>उत्तर:</strong> विनाश या नाश के क्षणिक दुःख से कभी भी नए सृजन और नवनिर्माण का महान सुख नहीं दबता[span_83](start_span)[span_83](end_span)। विनाश के उपरांत भी निर्माण की उमंग और उत्साह सदा जीवित रहता है[span_84](start_span)[span_84](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(छ) प्रलय की निस्तब्धता में किसका नव गान सुनाई पड़ता था?[span_85](start_span)[span_85](end_span)</h4>
+        <p><strong>उत्तर:</strong> प्रलय की गहरी खामोशी और सन्नाटे के बीच भी इस संसार और प्रकृति की निरंतरता का 'नया गान' (सृष्टि का नव गान) सुनाई पड़ता है[span_86](start_span)[span_86](end_span)। जीवन कभी रुकता नहीं, वह पुनः आगे बढ़ता है[span_87](start_span)[span_87](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ज) गृहस्थी जोड़ने में आनेवाली किन विपत्तियों का उल्लेख कवि ने किया है?[span_88](start_span)[span_88](end_span)</h4>
+        <p><strong>उत्तर:</strong> कवि ने नभ के छाने वाले घोर अँधेरे, धूलि-धूसर बादलों, पेड़ों के उखड़ने, महलों के डगमगाने तथा जीवन में आने वाले भयंकर संकटों व आपदाओं का उल्लेख किया है[span_89](start_span)[span_89](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(झ) 'विपत्तियों के बाद सुख के दिन आते हैं' कवि ने किस प्रकार व्यक्त किया है?[span_90](start_span)[span_90](end_span)</h4>
+        <p><strong>उत्तर:</strong> कवि ने व्यक्त किया है कि रात के उत्पात और भय के बाद प्राची (पूर्व दिशा) से उषा की मोहिनी मुस्कान प्रकट होती है[span_91](start_span)[span_91](end_span)। क्रुद्ध आकाश के बीच भी उषा मुस्कुराती है और पक्षी गीत गाते हैं[span_92](start_span)[span_92](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ञ) नीड़ के निर्माण से कवि का क्या तात्पर्य है?[span_93](start_span)[span_93](end_span)</h4>
+        <p><strong>उत्तर:</strong> नीड़ के निर्माण से कवि का तात्पर्य उजड़े हुए घरों, टूटे हुए सपनों और विपत्तियों से आहत जीवन को पुनः धैर्य, प्रेम और पुरुषार्थ के बल पर बसाने तथा सँवारने से है[span_94](start_span)[span_94](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Short Q&A (1-2 Sentences) -->
+  <section id="qa-oneline">
+    <h2 class="sec-title">📌 ७. प्रश्न और अभ्यास : एक या दो वाक्यों में उत्तर</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li><strong>(क) यदि फूल नहीं बो सकते तो क्या करना चाहिए?[span_95](start_span)[span_95](end_span)</strong><br>👉 यदि हम फूल नहीं बो सकते, तो कम-से-कम किसी के मार्ग में काँटे नहीं बोने चाहिए[span_96](start_span)[span_96](end_span)।</li>
+          <li><strong>(ख) कौन-सी घाटी अगम होती है?[span_97](start_span)[span_97](end_span)</strong><br>👉 चेतना की घाटी अगम (दुर्गम) होती है[span_98](start_span)[span_98](end_span)।</li>
+          <li><strong>(ଗ/ग) किसको कमजोर कहा गया है?[span_99](start_span)[span_99](end_span)</strong><br>👉 मानव के मन को कमजोर कहा गया है[span_100](start_span)[span_100](end_span)।</li>
+          <li><strong>(घ) संकट में अगर मुस्करा न सको तो क्या करना चाहिए?[span_101](start_span)[span_101](end_span)</strong><br>👉 संकट में अगर मुस्करा न सको, तो भय से कातर होकर रोना भी नहीं चाहिए[span_102](start_span)[span_102](end_span)।</li>
+          <li><strong>(ङ) चेतन किसे कहा गया है?[span_103](start_span)[span_103](end_span)</strong><br>👉 जो व्यक्ति सुख के अभिमान में न डूबे रहकर संकट में भी जागता व संघर्ष करता है, वह चेतन है[span_104](start_span)[span_104](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <ul>
+          <li><strong>(च) तुम अगर जाग नहीं सकते तो क्या करना चाहिए?[span_105](start_span)[span_105](end_span)</strong><br>👉 अगर जाग नहीं सकते, तो आलस्य की सेज बिछाकर सोना नहीं चाहिए[span_106](start_span)[span_106](end_span)।</li>
+          <li><strong>(छ) क्या करने से संकट का वेग कम नहीं होता?[span_107](start_span)[span_107](end_span)</strong><br>👉 संकट को अनसुना या अनदेखा करने से उसका वेग कम नहीं होता[span_108](start_span)[span_108](end_span)।</li>
+          <li><strong>(ज) संशय के सूक्ष्म कुहासे में क्या नहीं होता?[span_109](start_span)[span_109](end_span)</strong><br>👉 संशय के सूक्ष्म कुहासे में विश्वास क्षण भर के लिए भी नहीं रमता[span_110](start_span)[span_110](end_span)।</li>
+          <li><strong>(झ) किसमें भी पवन का जयघोष नहीं थमता?[span_111](start_span)[span_111](end_span)</strong><br>👉 बादल के घेरों में भी मारुत (पवन) का जयघोष नहीं थमता[span_112](start_span)[span_112](end_span)।</li>
+          <li><strong>(ञ) अगर विश्वासों पर न बढ़ सको तो क्या नहीं ढोना चाहिए?[span_113](start_span)[span_113](end_span)</strong><br>👉 यदि विश्वास पर न बढ़ सको, तो साँसों के मुरदे (जिंदा लाश) मत ढोओ[span_114](start_span)[span_114](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. One-word Questions -->
+  <section id="qa-objective">
+    <h2 class="sec-title">🎯 ८. वस्तुनिष्ठ प्रश्न : एक-एक शब्द में उत्तर</h2>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>क्रम</th>
+            <th>प्रश्न[span_115](start_span)[span_115](end_span)</th>
+            <th>सटीक उत्तर[span_116](start_span)[span_116](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>(क)</td><td>प्रस्तुत कविता का कवि कौन है?</td><td><span class="badge-tag gold">हरिवंशराय 'अंचल[span_117](start_span)'[span_117](end_span)</span></td></tr>
+          <tr><td>(ख)</td><td>कम-से-कम क्या नहीं बोना चाहिए?</td><td><span class="badge-tag coral">काँटे[span_118](start_span)[span_118](end_span)</span></td></tr>
+          <tr><td>(ଗ)</td><td>आँधी उठने से नभ में क्या छा गया?</td><td><span class="badge-tag blue">अंधेरा[span_119](start_span)[span_119](end_span)</span></td></tr>
+          <tr><td>(घ)</td><td>बादलों ने किस को घेरा?</td><td><span class="badge-tag teal">भूमि को[span_120](start_span)[span_120](end_span)</span></td></tr>
+          <tr><td>(ङ)</td><td>उषा की मुस्कान कैसी थी?</td><td><span class="badge-tag green">मोहिनी[span_121](start_span)[span_121](end_span)</span></td></tr>
+          <tr><td>(ଚ)</td><td>बड़े विटप कैसे उखड़ कर गिरे?</td><td><span class="badge-tag coral">जड़ समेत[span_122](start_span)[span_122](end_span)</span></td></tr>
+          <tr><td>(छ)</td><td>तूफान में कैसा लग रहा था?</td><td><span class="badge-tag blue">रात-सा दिन[span_123](start_span)[span_123](end_span)</span></td></tr>
+          <tr><td>(ज)</td><td>घोंसले किससे विनिर्मित थे?</td><td><span class="badge-tag gold">तिनकों से[span_124](start_span)[span_124](end_span)</span></td></tr>
+          <tr><td>(झ)</td><td>गर्जनमय गगन के कंठ से कौन गाती थी?</td><td><span class="badge-tag green">खग-पंक्ति (पक्षी)[span_125](start_span)[span_125](end_span)</span></td></tr>
+          <tr><td>(ञ)</td><td>चिड़िया चोंच में क्या लिए जा रही थी?</td><td><span class="badge-tag teal">तिनका[span_126](start_span)[span_126](end_span)</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 9. Language Study / Grammar -->
+  <section id="grammar-lang">
+    <h2 class="sec-title">🔤 ९. भाषा-ज्ञान एवं व्याकरण अभ्यास</h2>
+
+    <!-- Antonyms -->
+    <h3 class="sub-title">୧. विलोम शब्द (Opposites)[span_127](start_span)[span_127](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_128](start_span)[span_128](end_span)</th>
+            <th>विलोम शब्द[span_129](start_span)[span_129](end_span)</th>
+            <th>शब्द[span_130](start_span)[span_130](end_span)</th>
+            <th>ବିଲୋମ शब्द[span_131](start_span)[span_131](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>काला[span_132](start_span)[span_132](end_span)</strong></td>
+            <td>सफेद / गोरा</td>
+            <td><strong>नीचा[span_133](start_span)[span_133](end_span)</strong></td>
+            <td>ऊँचा[span_134](start_span)[span_134](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>अँधेरा[span_135](start_span)[span_135](end_span)</strong></td>
+            <td>उजाला / प्रकाश</td>
+            <td><strong>सुख[span_136](start_span)[span_136](end_span)</strong></td>
+            <td>दुःख[span_137](start_span)[span_137](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>क्रुद्ध[span_138](start_span)[span_138](end_span)</strong></td>
+            <td>शांत / प्रसन्न</td>
+            <td><strong>नाश[span_139](start_span)[span_139](end_span)</strong></td>
+            <td>निर्माण / सृजन[span_140](start_span)[span_140](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>दबता[span_141](start_span)[span_141](end_span)</strong></td>
+            <td>उभरता / उठता</td>
+            <td><strong>महल[span_142](start_span)[span_142](end_span)</strong></td>
+            <td>झोपड़ी / कुटिया</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Synonyms -->
+    <h3 class="sub-title">୨. पर्यायवाची शब्द (Synonyms)[span_143](start_span)[span_143](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_144](start_span)[span_144](end_span)</th>
+            <th>पर्यायवाची शब्द[span_145](start_span)[span_145](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>रात[span_146](start_span)[span_146](end_span)</strong></td><td>निशा, रात्रि, रजनी, विभावरी</td></tr>
+          <tr><td><strong>बादल[span_147](start_span)[span_147](end_span)</strong></td><td>जलद, पयोधर, घन, मेघ</td></tr>
+          <tr><td><strong>चिड़िया[span_148](start_span)[span_148](end_span)</strong></td><td>खग, विहग, पखेरू, विहंगम</td></tr>
+          <tr><td><strong>नीड़[span_149](start_span)[span_149](end_span)</strong></td><td>घोंसला, आश्रय, आलय</td></tr>
+          <tr><td><strong>सबेरा[span_150](start_span)[span_150](end_span)</strong></td><td>प्रभात, प्रात:, उषा, सकाल</td></tr>
+          <tr><td><strong>निर्माण[span_151](start_span)[span_151](end_span)</strong></td><td>सृजन, रचना, स्थापना, गठन</td></tr>
+          <tr><td><strong>गगन[span_152](start_span)[span_152](end_span)</strong></td><td>नभ, आकाश, अंबर, व्योम</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Sentence Correction -->
+    <h3 class="sub-title">୩. वाक्य-शुद्धिकरण (Grammar Correction)[span_153](start_span)[span_153](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ಅशुद्ध वाक्य[span_154](start_span)[span_154](end_span)</th>
+            <th>शुद्ध वाक्य[span_155](start_span)[span_155](end_span)</th>
+            <th>सुधार का आधार / नियम</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>(क) निस्तब्ଧता छाया हुआ है[span_156](start_span)[span_156](end_span)।</td>
+            <td><strong>निस्तब्धता छाई हुई है।</strong></td>
+            <td>'निस्तब्धता' स्त्रीलिंग संज्ञा है, अतः क्रिया 'छाई है' होगी[span_157](start_span)[span_157](end_span)।</td>
+          </tr>
+          <tr>
+            <td>(ख) काला रात आई[span_158](start_span)[span_158](end_span)।</td>
+            <td><strong>काली रात आई।</strong></td>
+            <td>'रात' स्त्रीलिंग है, अतः विशेषण 'काली' होगा[span_159](start_span)[span_159](end_span)।</td>
+          </tr>
+          <tr>
+            <td>(ଗ) चिड़िया चहचहा रहा है[span_160](start_span)[span_160](end_span)।</td>
+            <td><strong>चिड़िया चहचहा रही है।</strong></td>
+            <td>'चिड़िया' स्त्रीलिंग है, अतः 'रही है[span_161](start_span)'[span_161](end_span)।</td>
+          </tr>
+          <tr>
+            <td>(ଘ) उषा मुस्कुराता है[span_162](start_span)[span_162](end_span)।</td>
+            <td><strong>उषा मुस्कुराती है।</strong></td>
+            <td>'उषा' (प्रातःकाल) स्त्रीलिंग रूप में प्रयुक्त[span_163](start_span)[span_163](end_span)।</td>
+          </tr>
+          <tr>
+            <td>(ङ) सृष्टि की नव गान हो रही है[span_164](start_span)[span_164](end_span)।</td>
+            <td><strong>सृष्टि का नया गान हो रहा है।</strong></td>
+            <td>'गान' पुल्लिंग है, अतः 'का' और 'हो रहा है[span_165](start_span)'[span_165](end_span)।</td>
+          </tr>
+          <tr>
+            <td>(ଚ) कंठ से खगपति गाती है[span_166](start_span)[span_166](end_span)।</td>
+            <td><strong>कंठ से खगपति गाता है।</strong></td>
+            <td>'खगपति' पुल्लिंग है, अतः 'गाता है[span_167](start_span)'[span_167](end_span)।</td>
+          </tr>
+          <tr>
+            <td>(ଛ) नीड़ की निर्माण होती है[span_168](start_span)[span_168](end_span)।</td>
+            <td><strong>नीड़ का निर्माण होता है।</strong></td>
+            <td>'निर्माण' पुल्लिंग है, अतः 'का' और 'होता है[span_169](start_span)'[span_169](end_span)।</td>
+          </tr>
+          <tr>
+            <td>(ଜ) रात-सा दिन हो गई[span_170](start_span)[span_170](end_span)।</td>
+            <td><strong>रात-सा दिन हो गया।</strong></td>
+            <td>'दिन' पुल्लिंग है, अतः 'हो गया[span_171](start_span)'[span_171](end_span)।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Fill in the blanks -->
+    <h3 class="sub-title">୪. रिक्त स्थानों की पूर्ति (कोष्टक के शब्दों से)[span_172](start_span)[span_172](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>क्रम</th>
+            <th>काव्य पंक्ति[span_173](start_span)[span_173](end_span)</th>
+            <th>सही शब्द[span_174](start_span)[span_174](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>(क)</td><td>धूलि धूसर <strong>बादलों ने</strong> भूमि को इस भाँति घेरा[span_175](start_span)[span_175](end_span)।</td><td><span class="badge-tag gold">बादलों ने[span_176](start_span)[span_176](end_span)</span></td></tr>
+          <tr><td>(ख)</td><td>प्राची से <strong>उषा की</strong> मोहिनी मुसकान फिर-फिर[span_177](start_span)[span_177](end_span)!</td><td><span class="badge-tag teal">उषा की[span_178](start_span)[span_178](end_span)</span></td></tr>
+          <tr><td>(ଗ)</td><td>डगमगाए जब कि <strong>कंकड़</strong>, ईंट पत्थर के महल-घर[span_179](start_span)[span_179](end_span)।</td><td><span class="badge-tag blue">कंकड़[span_180](start_span)[span_180](end_span)</span></td></tr>
+          <tr><td>(ଘ)</td><td>नाश के <strong>दुःख</strong> से कभी दबता नहीं निर्माण का सुख[span_181](start_span)[span_181](end_span)।</td><td><span class="badge-tag coral">दुःख[span_182](start_span)[span_182](end_span)</span></td></tr>
+          <tr><td>(ङ)</td><td>एक चिड़िया चोंच में <strong>तिनका</strong> लिए जो जा रही है[span_183](start_span)[span_183](end_span)।</td><td><span class="badge-tag green">तिनका[span_184](start_span)[span_184](end_span)</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० हिंदी • पद्य भाग : काँटे कम-से-कम मत बोओ (रामेश्वर शुक्ल 'अंचल') | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
