@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>मधुर भाषण — बाबू गुलाबराय | कक्षा 10 हिंदी व्याख्यान नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Section Structure */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० हिंदी • गद्य खंड • निबंध</div>
+    <h1>मधुर भाषण : बाबू गुलाबराय</h1>
+    <p>लेखक परिचय, भाषा की शक्ति, मिष्ट भाषण का मर्म, बाणभट्ट का दृष्टांत, शिष्टाचार व शिष्टता के नियम, कठिन शब्दार्थ तथा संपूर्ण पाठ्यपुस्तक प्रश्नोत्तर।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#author">लेखक परिचय</a>
+    <a href="#thought-essence">विचार-बोध ও निबंध सार</a>
+    <a href="#language-power">भाषा की शक्ति ও सहकारिता</a>
+    <a href="#what-is-sweet">मधुर भाषण क्या है?</a>
+    <a href="#banbhatta-story">बाणभट्ट का दृष्टांत</a>
+    <a href="#etiquette">शिष्टता, आभार ও इनकार</a>
+    <a href="#shabdarth">कठिन शब्दार्थ तालिका</a>
+    <a href="#textbook-qa">पाठ्यपुस्तक प्रश्नोत्तर</a>
+    <a href="#grammar-study">भाषा-ज्ञान व व्याकरण</a>
+  </nav>
+
+  <!-- 1. Author Introduction -->
+  <section id="author">
+    <h2 class="sec-title">✍️ १. लेखक परिचय : बाबू गुलाबराय (१८८८ – १९६३)</h2>
+
+    <div class="compare">
+      <div class="card gold">
+        <h4>जीवन एवं शिक्षा</h4>
+        <ul>
+          <li><strong>जन्म:</strong> सन् <strong>1888</strong> में उत्तर प्रदेश के <strong>इटावा</strong> शहर में हुआ[span_0](start_span)[span_0](end_span)।</li>
+          <li><strong>पारिवारिक प्रभाव:</strong> माता-पिता की धार्मिक और दार्शनिक प्रवृत्ति का उनके बालमन पर विशेष प्रभाव पड़ा[span_1](start_span)[span_1](end_span)।</li>
+          <li><strong>शिक्षा:</strong> उन्होंने दर्शन शास्त्र में एम.ए. की परीक्षा उत्तीर्ण की तथा बाद में एल.एल.बी. की डिग्री भी प्राप्त की[span_2](start_span)[span_2](end_span)।</li>
+          <li><strong>आजीविका:</strong> आगरा के सेंट जॉन्स कॉलेज में अध्यापक नियुक्त हुए और आगरा में रहकर साहित्य का गंभीर अध्ययन किया[span_3](start_span)[span_3](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card teal">
+        <h4>साहित्यिक अवदान एवं सम्मान</h4>
+        <ul>
+          <li><strong>पत्रिका संपादन:</strong> प्रतिष्ठित साहित्यिक पत्रिका <strong>'साहित्य संदेश'</strong> का सफलतापूर्वक संपादन किया[span_4](start_span)[span_4](end_span)।</li>
+          <li><strong>विषय-विस्तार:</strong> दर्शन, इतिहास, राजनीति और साहित्य जैसे अनेक गंभीर विषयों पर अमूल्य ग्रंथ हिंदी को दिए[span_5](start_span)[span_5](end_span)।</li>
+          <li><strong>डी.लिट. उपाधि:</strong> उनकी साहित्यिक सेवाओं का सम्मान करते हुए आगरा विश्वविद्यालय ने उन्हें डी.लिट. की मानद उपाधि से विभूषित किया[span_6](start_span)[span_6](end_span)।</li>
+          <li><strong>प्रमुख रचनाएँ:</strong> 
+            <ul>
+              <li><em>दार्शनिक:</em> मन की बातें, कर्तव्य शास्त्र, पाश्चात्य दर्शन का इतिहास, बौद्ध धर्म आदि[span_7](start_span)[span_7](end_span)।</li>
+              <li><em>आलोचनात्मक:</em> नवरस, प्रसाद जी की कला, सिद्धान्त और अध्ययन, हिंदी नाट्य विमर्श आदि[span_8](start_span)[span_8](end_span)।</li>
+              <li><em>निबंध संग्रह:</em> ढलुआ क्लब, प्रबंध प्रभाकर, जीवन पथ, मेरी असफलताएँ, फिर निराशा क्यों[span_9](start_span)[span_9](end_span)।</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Thought Essence & Core Summary -->
+  <section id="thought-essence">
+    <h2 class="sec-title">💡 २. विचार-बोध एवं निबंध का सार</h2>
+    <p>
+      'मधुर भाषण' निबंध का मूल अर्थ मीठी बातें और शालीन व्यवहार है[span_10](start_span)[span_10](end_span)। वास्तव में मीठी बातों, मधुर व्यवहार, शिष्टाचार और विनय के बल पर दूसरे का दिल जीता जा सकता है[span_11](start_span)[span_11](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>मानवता की कुंजी:</strong><br>
+      भाषा मनुष्य की सबसे बड़ी संपत्ति है[span_12](start_span)[span_12](end_span)। वह मीठी वाणी बोलकर समाज में अपने मित्र बनाता है, जबकि कटु बोली से शत्रुओं की संख्या बढ़ाता है[span_13](start_span)[span_13](end_span)। नाराजगी, अहंकार और घमंड कठोर भाषा में स्वतः झलक जाते हैं[span_14](start_span)[span_14](end_span)। यदि मन, वचन और कर्म में निष्कपटता हो, तो वाणी अपने-आप मधुर हो जाती है[span_15](start_span)[span_15](end_span)। दुनिया में सफलता और कामयाबी की असली कुंजी मीठा भाषण ही है[span_16](start_span)[span_16](end_span)।
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">मन, वचन व कर्म की निष्कपटता[span_17](start_span)[span_17](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">वचनों का माधुर्य व शिष्टाचार[span_18](start_span)[span_18](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">भय व आतंक का परिमार्जन[span_19](start_span)[span_19](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">समाज में आदर व सफलता की प्राप्ति[span_20](start_span)[span_20](end_span)</div>
+    </div>
+  </section>
+
+  <!-- 3. Language Power and Cooperation -->
+  <section id="language-power">
+    <h2 class="sec-title">🗣️ ३. भाषा की शक्ति एवं सामाजिकता</h2>
+    <p>
+      भाषा पर मनुष्य का विशेष अधिकार है[span_21](start_span)[span_21](end_span)। भाषा के कारण ही मनुष्य आज इतनी उन्नत अवस्था तक पहुँच सका है[span_22](start_span)[span_22](end_span)। अन्य जानवर हजारों वर्षों से जहाँ-के-तहाँ बने हुए हैं, किंतु मनुष्य निरंतर उत्तरोत्तर उन्नति करता गया है[span_23](start_span)[span_23](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>भाषा और भौतिक बल</h4>
+        <p>अन्य जानवरों की तुलना में शारीरिक या भौतिक बल में न्यून (कम) होते हुए भी मनुष्य अपनी बुद्धि और <strong>भाषा के सहारे</strong> अधिक सबल हो गया है[span_24](start_span)[span_24](end_span)। उसने पंच महाभूतों (पृथिवी, जल, आकाश, वायु, अग्नि) को अपने वश में कर लिया है[span_25](start_span)[span_25](end_span)—यह सब भाषा द्वारा प्राप्त सहकारिता (मिलकर काम करने की शक्ति) के बल पर ही संभव हुआ है[span_26](start_span)[span_26](end_span)!</p>
+      </div>
+
+      <div class="card coral">
+        <h4>भाषा का दोधारी रूप</h4>
+        <p>भाषा के माध्यम से ही मनुष्य का ज्ञान और अनुभव सुरक्षित रहता है तथा समाज की सामाजिकता कायम है[span_27](start_span)[span_27](end_span)। किंतु भाषा का दुरुपयोग इसे छिन्न-भिन्न भी कर देता है[span_28](start_span)[span_28](end_span)—एक मधुर शब्द दो रूठे हुए मित्रों को मिला देता है, जबकि एक कटु शब्द दो घनिष्ठ मित्रों के मन में चिरस्थायी वैमनस्य उत्पन्न कर देता है[span_29](start_span)[span_29](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. What is Sweet Speech? -->
+  <section id="what-is-sweet">
+    <h2 class="sec-title">🍯 ४. मधुर या मिष्ट भाषण का स्वरूप</h2>
+    <p>
+      साधारणतया जो वस्तु मन के अनुकूल होती है, जिससे चित्त द्रवित होता है, वही मधुर कहलाती है[span_30](start_span)[span_30](end_span)। 'माधुर्य' भाषा का भी एक विशिष्ट गुण है[span_31](start_span)[span_31](end_span)। चित्त को पिघलाने वाले उस आनंद को ही माधुर्य कहा जाता है[span_32](start_span)[span_32](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>वचनों का आकर्षण (न्यूटन और चुंबक से भी बढ़कर):</strong><br>
+      वचनों का माधुर्य हृदय-द्वार खोलने की अचूक कुँजी है[span_33](start_span)[span_33](end_span)। वचनों का आकर्षण वैज्ञानिक न्यूटन के गुरुत्वाकर्षण और चुंबक के आकर्षण से भी कहीं अधिक शक्तिशाली होता है[span_34](start_span)[span_34](end_span)। तभी तो गोस्वामी तुलसीदास जी ने कहा है[span_35](start_span)[span_35](end_span):
+      <blockquote style="margin-top: 10px; font-style: italic; color: #fef08a;">
+        "कोयल काको देत है, कागा कासो लेत ।<br>
+        तुलसी मीठे बचन ते, जग अपनो करि लेत ।।[span_36](start_span)"[span_36](end_span)
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- 5. Banbhatta Story / Illustration -->
+  <section id="banbhatta-story">
+    <h2 class="sec-title">📜 ५. बाणभट्ट का दृष्टांत (शब्द-संयोजन का अंतर)</h2>
+    <p>
+      एक ही बात को हम कर्णकटु (कड़े) शब्दों में कह सकते हैं और उसी बात को अत्यंत मधुर बनाकर प्रस्तुत कर सकते हैं[span_37](start_span)[span_37](end_span)।
+    </p>
+
+    <div class="callout example-box">
+      <strong>ऐतिहासिक दृष्टांत:</strong><br>
+      जब संस्कृत के महान गद्यकार बाणभट्ट अपनी प्रसिद्ध रचना 'कादंबरी' को अधूरा छोड़कर मृत्युशय्या पर थे, तब यह प्रश्न उठा कि इस ग्रंथ को पूरा कौन करेगा[span_38](start_span)[span_38](end_span)? उन्होंने अपने दोनों पुत्रों को बुलाया और परीक्षा लेने के लिए पूछा कि सामने खड़े सूखे वृक्ष को वे अपनी भाषा में किस प्रकार व्यक्त करेंगे[span_39](start_span)[span_39](end_span)।<br>
+      • <strong>बड़े लड़के ने कहा:</strong> <em>"शुष्कं काष्ठं तिष्ठत्यग्रे"</em> (आगे सूखी लकड़ी खड़ी है — यह शुष्क व कठोर कथन था)[span_40](start_span)[span_40](end_span)।<br>
+      • <strong>छोटे लड़के ने कहा:</strong> <em>"नीरस तरुवर विलसति पुरतः"</em> (सामने नीरस वृक्ष शोभा पा रहा है — यह अधिक सुमधुर और काव्यात्मक शैली थी)[span_41](start_span)[span_41](end_span)।<br>
+      बाणभट्ट ने छोटे लड़के की शैली में माधुर्य देखकर उसे ही पुस्तक पूरी करने का भार सौंपा[span_42](start_span)[span_42](end_span)।
+    </div>
+  </section>
+
+  <!-- 6. Etiquette and Polite Conversational Rules -->
+  <section id="etiquette">
+    <h2 class="sec-title">🤝 ୬. शिष्टाचार, व्यवहार, आभार ও इनकार करने की कला</h2>
+    <p>
+      वार्तालाप की शिष्टता मनुष्य को आदर का भाजन बनाती है और समाज में उसकी सफलता का मार्ग प्रशस्त करती है[span_43](start_span)[span_43](end_span)। केवल ऊपरी पोशाक और चाल-ढाल से प्रभाव क्षणिक होता है; जब तक भाषण और आचरण से उसकी पुष्टि न हो, प्रभाव स्थायी नहीं होता[span_44](start_span)[span_44](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>कथनी और करनी का सामंजस्य</h4>
+        <p>मधुर भाषी के लिए करनी और कथनी में साम्य (समानता) होना आवश्यक है, क्योंकि कर्म के लिए वचन पहली सीढ़ी है[span_45](start_span)[span_45](end_span)। मन, वाणी और कर्म का यह त्रिविध सामंजस्य ही मनुष्य को श्रेष्ठता के पद पर पहुँचाता है[span_46](start_span)[span_46](end_span) ।</p>
+      </div>
+
+      <div class="card gold">
+        <h4>दोषी मुखौटे (विषभरे कनकघट)</h4>
+        <p>संसार में विषभरे कनकघटों (ऊपर से सोने के घड़े जैसे सुंदर किंतु भीतर विष भरे लोग) की कमी नहीं है[span_47](start_span)[span_47](end_span)। हृदय की मलिनता और मधुर वचनों का योग कभी नहीं हो सकता; वचन के अनुकूल कर्म होने पर ही मनुष्य 'वंद्य' बनता है[span_48](start_span)[span_48](end_span) ।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">व्यावहारिक जीवन के विशिष्ट शिष्टाचार नियम:</h3>
+    <ul>
+      <li><strong>कृपया और धन्यवाद:</strong> किसी से काम कराने के लिए 'कृपया' तथा काम हो जाने के बाद 'धन्यवाद' कहना शिष्टता का परिचायक है[span_49](start_span)[span_49](end_span)।</li>
+      <li><strong>छोटों के प्रति सम्मान:</strong> अपने से नीचे या कम स्थिति के लोगों के स्वाभिमान की रक्षा करना सज्जन का पहला कर्तव्य है[span_50](start_span)[span_50](end_span)।</li>
+      <li><strong>उदारता से देना:</strong> कोई वस्तु या सहायता पूरी उदारता और प्रसन्नता के साथ देनी चाहिए, इस भाव के बिना कि एहसान जताया जा रहा है—जहाँ क्रिया में उदारता हो, वहाँ 'वचने दरिद्रता' (बोलने में कंजूसी) नहीं आनी चाहिए[span_51](start_span)[span_51](end_span)।</li>
+      <li><strong>शिष्टतापूर्ण इनकार:</strong> यदि किसी कार्य से इंकार करना भी पड़े, तो उसमें अधिकार या अभिमान की गंध नहीं आनी चाहिए[span_52](start_span)[span_52](end_span)। इनकार मजबूरी (सैद्धांतिक या आर्थिक) के कारण खेद प्रकट करते हुए होना चाहिए[span_53](start_span)[span_53](end_span)—<em>"मुझे बड़ा खेद है कि..."</em>[span_54](start_span)[span_54](end_span)।</li>
+      <li><strong>व्यापारिक व निजी बातचीत में अंतर:</strong> व्यापारिक बातचीत नपी-तुली हो सकती है, किंतु निजी आत्मीय संबंध की बातचीत में आत्मीयता का अभाव न होना चाहिए तथा बात उतनी ही कही जाए जितनी निभाई जा सके[span_55](start_span)[span_55](end_span)।</li>
+    </ul>
+  </section>
+
+  <!-- 7. Glossary -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ७. कठिन शब्दार्थ एवं टिप्पणियाँ</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_56](start_span)[span_56](end_span)</th>
+            <th>मानक अर्थ[span_57](start_span)[span_57](end_span)</th>
+            <th>शब्द[span_58](start_span)[span_58](end_span)</th>
+            <th>मानक अर्थ[span_59](start_span)[span_59](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>पंचमहाभूत</strong></td><td>पृथ्वी, जल, आकाश, वायु, अग्नि[span_60](start_span)[span_60](end_span)</td><td><strong>माधुर्य</strong></td><td>मधुरता, चित्त को पिघलाने वाला आनंद[span_61](start_span)[span_61](end_span)</td></tr>
+          <tr><td><strong>वैमनस्य</strong></td><td>शत्रुता, मनमुटाव, आपसी द्वेष[span_62](start_span)[span_62](end_span)</td><td><strong>विषभरे कनकघट</strong></td><td>बाहर से आकर्षक किंतु भीतर से हानिकारक व्यक्ति[span_63](start_span)[span_63](end_span)</td></tr>
+          <tr><td><strong>टकसाली भाव</strong></td><td>सच्ची और खरी भावना[span_64](start_span)[span_64](end_span)</td><td><strong>मुलम्मे के सिक्के</strong></td><td>नकली या दिखावटी मुद्रा[span_65](start_span)[span_65](end_span)</td></tr>
+          <tr><td><strong>वंद्य</strong></td><td>वंदनीय, आदरणीय, पूज्यनीय[span_66](start_span)[span_66](end_span)</td><td><strong>तकल्लुफ</strong></td><td>औपचारिकता, बनावटी दिखावा[span_67](start_span)[span_67](end_span)</td></tr>
+          <tr><td><strong>वचने दरिद्रता</strong></td><td>कथन या वचनों में कंजूसी करना[span_68](start_span)[span_68](end_span)</td><td><strong>आत्मीयता</strong></td><td>अपनापन, निजीपन की भावना[span_69](start_span)[span_69](end_span)</td></tr>
+          <tr><td><strong>सियाहेनवीस</strong></td><td>सरकारी खजाने का रजिस्टर लिखने वाला[span_70](start_span)[span_70](end_span)</td><td><strong>कादंबरी</strong></td><td>बाणभट्ट द्वारा रचित प्रसिद्ध संस्कृत गद्यकाव्य[span_71](start_span)[span_71](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 8. Textbook Exercises (Short Q&A) -->
+  <section id="textbook-qa">
+    <h2 class="sec-title">📝 ८. पाठ्यपुस्तक अभ्यास प्रश्नोत्तर (दो-तीन वाक्यों में उत्तर)</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>(क) भाषा के द्वारा मनुष्य ने किस प्रकार की उन्नति की है?[span_72](start_span)[span_72](end_span)</h4>
+        <p><strong>उत्तर:</strong> भाषा मनुष्य की सबसे बड़ी संपत्ति है, जिसके बल पर वह भौतिक बल में न्यून होते हुए भी बुद्धि और सहकारिता के सहारे पंच महाभूतों को वश में कर सका है[span_73](start_span)[span_73](end_span)। इसी के कारण ज्ञान और अनुभव सुरक्षित रहते हैं तथा मनुष्य उत्तरोत्तर प्रगति करता गया है[span_74](start_span)[span_74](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ख) मधुर भाषण किसे कहते हैं?[span_75](start_span)[span_75](end_span)</h4>
+        <p><strong>उत्तर:</strong> जो वस्तु मन के अनुकूल होती है और जिससे हृदय व चित्त द्रवित होता है, उसे मधुर कहते हैं[span_76](start_span)[span_76](end_span)। हृदय के द्वारों को खोलने वाली और न्यूटन-चुंबक के आकर्षण से भी बढ़कर प्रभाव डालने वाली सुमधुर वाणी ही मधुर भाषण है[span_77](start_span)[span_77](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ग) बाणभट्ट ने अपने छोटे लड़के को पुस्तक पूरी करने के लिए क्यों कहा?[span_78](start_span)[span_78](end_span)</h4>
+        <p><strong>उत्तर:</strong> बाणभट्ट ने सूखे वृक्ष के वर्णन के संबंध में दोनों पुत्रों की परीक्षा ली थी[span_79](start_span)[span_79](end_span)। बड़े लड़के ने शुष्क और कठोर भाषा का प्रयोग किया, जबकि छोटे लड़के ने "नीरस तरुवर विलसति पुरतः" जैसी अत्यंत सुमधुर और काव्यात्मक शैली अपनाई, जिससे प्रभावित होकर उन्होंने उसे पुस्तक पूरी करने को कहा[span_80](start_span)[span_80](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ঘ) किन-किन गुणों के कारण मनुष्य आदरभाजन बनता है?[span_81](start_span)[span_81](end_span)</h4>
+        <p><strong>उत्तर:</strong> वार्तालाप की शिष्टता, सज्जनोचित व्यवहार, करुणा, विनम्रता और मन, वचन व कर्म की एकता के गुणों के कारण मनुष्य समाज में आदर का पात्र (आदरभाजन) बनता है[span_82](start_span)[span_82](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ङ) मधुर वचन और कटु वचन बोलनेवालों को क्या मिलता है?[span_83](start_span)[span_83](end_span)</h4>
+        <p><strong>उत्तर:</strong> मधुर वचन बोलने वाले को समाज में आदर, विश्वास, स्नेह और सफलता मिलती है[span_84](start_span)[span_84](end_span)। इसके विपरीत कटु वचन बोलने वाले से लोग हृदय खोलकर बात करने में डरते हैं और वह समाज में तिरस्कृत होता है[span_85](start_span)[span_85](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(च) किसी काम को करने के लिए सज्जन का पहला कर्त्तव्य क्या है?[span_86](start_span)[span_86](end_span)</h4>
+        <p><strong>उत्तर:</strong> सज्जन का पहला कर्तव्य यह है कि वह अपने से नीचे या कम स्थिति के लोगों के स्वाभिमान की रक्षा करे[span_87](start_span)[span_87](end_span)। कोई भी काम हो, उसे प्रसन्नतापूर्वक करे और कभी ऐसा आभास न होने दे कि एहसान जताया जा रहा है[span_88](start_span)[span_88](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(छ) वार्तालाप में व्यापारिक बातचीत और निजी बातचीत में क्या अंतर है?[span_89](start_span)[span_89](end_span)</h4>
+        <p><strong>उत्तर:</strong> व्यापारिक बातचीत अशिष्ट न होकर नपी-तुली हो सकती है[span_90](start_span)[span_90](end_span)। इसके विपरीत, निजी संबंध की बातचीत में आत्मीयता का पूर्ण भाव होना चाहिए तथा थोड़ा कष्ट उठाकर भी बात को पूरी तरह समझाना अपना कर्तव्य होता है[span_91](start_span)[span_91](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. One-word / One-sentence Questions -->
+  <section id="qa-oneline">
+    <h2 class="sec-title">📌 ९. एक-दो वाक्यीय एवं वस्तुनिष्ठ प्रश्नोत्तर</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li><strong>(क) मनुष्य की सामाजिकता किसके द्वारा कायम रहती है?[span_92](start_span)[span_92](end_span)</strong><br>👉 भाषा के द्वारा मनुष्य की सामाजिकता कायम रहती है[span_93](start_span)[span_93](end_span)।</li>
+          <li><strong>(ख) कैसा शब्द दो रूठों को मिला देता है?[span_94](start_span)[span_94](end_span)</strong><br>👉 एक मधुर शब्द दो रूठों को आपस में मिला देता है[span_95](start_span)[span_95](end_span)।</li>
+          <li><strong>(ग) बाणभट्ट की कौन-सी किताब अधूरी रह गयी थी?[span_96](start_span)[span_96](end_span)</strong><br>👉 बाणभट्ट की प्रसिद्ध रचना 'कादंबरी' अधूरी रह गई थी[span_97](start_span)[span_97](end_span)।</li>
+          <li><strong>(ঘ) कथनी और करनी में साम्य क्यों आवश्यक है?[span_98](start_span)[span_98](end_span)</strong><br>👉 क्योंकि कर्म के लिए वचन पहली सीढ़ी है और सामंजस्य से ही मनुष्य वंद्य बनता है[span_99](start_span)[span_99](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <ul>
+          <li><strong>(ङ) भाषा द्वारा किसकी रक्षा होती है?[span_100](start_span)[span_100](end_span)</strong><br>👉 भाषा द्वारा हमारे ज्ञान और अनुभव की रक्षा होती है[span_101](start_span)[span_101](end_span)।</li>
+          <li><strong>(ଚ) 'मधुर भाषण' निबंध के लेखक कौन हैं?[span_102](start_span)[span_102](end_span)</strong><br>👉 बाबू गुलाबराय[span_103](start_span)[span_103](end_span)।</li>
+          <li><strong>(छ) किसकी दो लातें भी सहन की जाती हैं?[span_104](start_span)[span_104](end_span)</strong><br>👉 दुधारू गाय की दो लातें भी सहन की जाती हैं[span_105](start_span)[span_105](end_span)।</li>
+          <li><strong>(ज) शिष्टता क्या है?[span_106](start_span)[span_106](end_span)</strong><br>👉 वाणी की मधुरता के साथ सज्जनोचित व्यवहार ही शिष्टाचार है[span_107](start_span)[span_107](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. Language & Grammar Exercises -->
+  <section id="grammar-study">
+    <h2 class="sec-title">🔤 १०. भाषा-ज्ञान एवं संपूर्ण व्याकरण अभ्यास</h2>
+
+    <!-- Adjective Extraction -->
+    <h3 class="sub-title">୧. विशेषण शब्द छाँटिए:</h3>
+    <p style="color: var(--text-muted); font-size: 0.95rem;">दिए गए शब्दों में से विशेषण पद: <strong>भौतिक, पटु, माधुर्य (संज्ञा है), व्यापारिक, सैद्धांतिक</strong> आदि[span_108](start_span)[span_108](end_span) ।</p>
+
+    <!-- Gender Identification -->
+    <h3 class="sub-title">୨. निम्नलिखित शब्दों के लिंग बताइए:</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_109](start_span)[span_109](end_span)</th>
+            <th>लिंग[span_110](start_span)[span_110](end_span)</th>
+            <th>शब्द[span_111](start_span)[span_111](end_span)</th>
+            <th>लिंग[span_112](start_span)[span_112](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>गंध[span_113](start_span)[span_113](end_span)</td><td><span class="badge-tag coral">स्त्रीलिंग</span></td><td>भाषण[span_114](start_span)[span_114](end_span)</td><td><span class="badge-tag blue">पुल्लिंग</span></td></tr>
+          <tr><td>भाव[span_115](start_span)[span_115](end_span)</td><td><span class="badge-tag blue">पुल्लिंग</span></td><td>वचन[span_116](start_span)[span_116](end_span)</td><td><span class="badge-tag blue">पुल्लिंग</span></td></tr>
+          <tr><td>कर्तव्य[span_117](start_span)[span_117](end_span)</td><td><span class="badge-tag blue">पुल्लिंग</span></td><td>वाणी[span_118](start_span)[span_118](end_span)</td><td><span class="badge-tag coral">स्त्रीलिंग</span></td></tr>
+          <tr><td>परंपरा[span_119](start_span)[span_119](end_span)</td><td><span class="badge-tag coral">स्त्रीलिंग</span></td><td>साहित्य[span_120](start_span)[span_120](end_span)</td><td><span class="badge-tag blue">पुल्लिंग</span></td></tr>
+          <tr><td>भाषा[span_121](start_span)[span_121](end_span)</td><td><span class="badge-tag coral">स्त्रीलिंग</span></td><td>उन्नति[span_122](start_span)[span_122](end_span)</td><td><span class="badge-tag coral">स्त्रीलिंग</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Synonyms -->
+    <h3 class="sub-title">୩. पर्यायवाची शब्द (Synonyms)[span_123](start_span)[span_123](end_span):</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_124](start_span)[span_124](end_span)</th>
+            <th>पर्यायवाची शब्द[span_125](start_span)[span_125](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>मनुष्य[span_126](start_span)[span_126](end_span)</strong></td><td>मानव, इंसान, नर, आदमी</td></tr>
+          <tr><td><strong>चित्र[span_127](start_span)[span_127](end_span)</strong></td><td>तस्वीर, आलेख, प्रतिबिंब, फोटो</td></tr>
+          <tr><td><strong>पुस्तक[span_128](start_span)[span_128](end_span)</strong></td><td>ग्रंथ, किताब, पोथी</td></tr>
+          <tr><td><strong>मधुर[span_129](start_span)[span_129](end_span)</strong></td><td>मीठा, सुमधुर, प्रिय, कर्णप्रिय</td></tr>
+          <tr><td><strong>कटु[span_130](start_span)[span_130](end_span)</strong></td><td>कड़वा, तीखा, अप्रिय, कर्कश</td></tr>
+          <tr><td><strong>आनंद[span_131](start_span)[span_131](end_span)</strong></td><td>सुख, उल्लास, हर्ष, मोद</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Antonyms -->
+    <h3 class="sub-title">୪. विलोम शब्द (Antonyms)[span_132](start_span)[span_132](end_span):</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_133](start_span)[span_133](end_span)</th>
+            <th>विलोम शब्द[span_134](start_span)[span_134](end_span)</th>
+            <th>शब्द[span_135](start_span)[span_135](end_span)</th>
+            <th>ਵିଲୋମ शब्द[span_136](start_span)[span_136](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ज्ञान[span_137](start_span)[span_137](end_span)</strong></td>
+            <td>अज्ञान</td>
+            <td><strong>मधुर[span_138](start_span)[span_138](end_span)</strong></td>
+            <td>कटु / कड़वा[span_139](start_span)[span_139](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>उन्नति[span_140](start_span)[span_140](end_span)</strong></td>
+            <td>अवनति / पतन</td>
+            <td><strong>मित्र[span_141](start_span)[span_141](end_span)</strong></td>
+            <td>शत्रु / दुश्मन[span_142](start_span)[span_142](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>सच्चा[span_143](start_span)[span_143](end_span)</strong></td>
+            <td>झूठा</td>
+            <td><strong>बड़ा[span_144](start_span)[span_144](end_span)</strong></td>
+            <td>छोटा[span_145](start_span)[span_145](end_span)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Sentence Correction -->
+    <h3 class="sub-title">୫. वाक्य-शुद्धिकरण (Grammar Correction)[span_146](start_span)[span_146](end_span):</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ಅशुद्ध वाक्य[span_147](start_span)[span_147](end_span)</th>
+            <th>शुद्ध वाक्य[span_148](start_span)[span_148](end_span)</th>
+            <th>सुधार का कारण[span_149](start_span)[span_149](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>(क) भाषा मनुष्य के विशेष अधिकार है[span_150](start_span)[span_150](end_span)。</td>
+            <td><strong>भाषा पर मनुष्य का विशेष अधिकार है।</strong></td>
+            <td>'अधिकार' के साथ अधिकरण परसर्ग 'पर' का प्रयोग होता है[span_151](start_span)[span_151](end_span)।</td>
+          </tr>
+          <tr>
+            <td>(ख) हृदय का मलीनता और मधुर वचनो में योग नहीं हो सकता[span_152](start_span)[span_152](end_span)。</td>
+            <td><strong>हृदय की मलिनता और मधुर वचनों का योग नहीं हो सकता।</strong></td>
+            <td>'मलिनता' स्त्रीलिंग है ('की'), तथा 'वचनों का योग[span_153](start_span)'[span_153](end_span)।</td>
+          </tr>
+          <tr>
+            <td>(ଗ) कटुभाषी लोगों में लोग हृदय खोलकर बात करने में डरते हैं[span_154](start_span)[span_154](end_span)。</td>
+            <td><strong>कटुभाषी लोगों से लोग हृदय खोलकर बात करने में डरते हैं।</strong></td>
+            <td>भय/डर के अर्थ में अपादान कारक 'से' का प्रयोग[span_155](start_span)[span_155](end_span)।</td>
+          </tr>
+          <tr>
+            <td>(ঘ) भाव को प्रभावशाली भाषा के व्यक्त कर देना ही साहित्य है[span_156](start_span)[span_156](end_span)。</td>
+            <td><strong>भाव को प्रभावशाली भाषा में व्यक्त कर देना ही साहित्य है।</strong></td>
+            <td>साधन/माध्यम के लिए 'भाषा में[span_157](start_span)'[span_157](end_span)।</td>
+          </tr>
+          <tr>
+            <td>(ङ) मधुर वचन दूसरे में प्रसन्न भी कर सकते हैं[span_158](start_span)[span_158](end_span)。</td>
+            <td><strong>मधुर वचन दूसरों को प्रसन्न भी कर सकते हैं।</strong></td>
+            <td>कर्म कारक हेतु 'दूसरों को[span_159](start_span)'[span_159](end_span)।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Pratyay: 'Ta' and 'Ik' -->
+    <h3 class="sub-title">୬. प्रत्यय निर्माण : 'ता' एवं 'इक' प्रत्यय</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>'ता' प्रत्यय (भाववाचक संज्ञा)</h4>
+        <ul>
+          <li>सामाजिक + ता ➔ <strong>सामाजिकता</strong>[span_160](start_span)[span_160](end_span)</li>
+          <li>मनुष्य + ता ➔ <strong>मनुष्यता</strong>[span_161](start_span)[span_161](end_span)</li>
+          <li>प्रसन्न + ता ➔ <strong>प्रसन्नता</strong>[span_162](start_span)[span_162](end_span)</li>
+          <li>ಅशिष्ट + ता ➔ <strong>अशिष्टता</strong>[span_163](start_span)[span_163](end_span)</li>
+          <li>मलीन + ता ➔ <strong>मलिनता</strong>[span_164](start_span)[span_164](end_span)</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>'इक' प्रत्यय (विशेषण निर्माण)</h4>
+        <ul>
+          <li>विचार + इक ➔ <strong>वैचारिक</strong>[span_165](start_span)[span_165](end_span)</li>
+          <li>नीति + इक ➔ <strong>नैतिक</strong>[span_166](start_span)[span_166](end_span)</li>
+          <div> इतिहास + इक ➔ <strong>ऐतिहासिक</strong>[span_167](start_span)[span_167](end_span)</div>
+          <li>भूत + इक ➔ <strong>भौतिक</strong>[span_168](start_span)[span_168](end_span)</li>
+          <li>समाज + इक ➔ <strong>सामाजिक</strong>[span_169](start_span)[span_169](end_span)</li>
+          <li>साहित्य + इक ➔ <strong>साहित्यिक</strong>[span_170](start_span)[span_170](end_span)</li>
+          <li>सिद्धांत + इक ➔ <strong>सैद्धांतिक</strong>[span_171](start_span)[span_171](end_span)</li>
+          <li>व्यापार + इक ➔ <strong>व्यापारिक</strong>[span_172](start_span)[span_172](end_span)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० हिंदी • गद्य खंड : मधुर भाषण (बाबू गुलाबराय) | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
