@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>जननी जन्मभूमि — संपूर्ण अध्ययन नोट्स | कक्षा 10 हिंदी</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Section Structure */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा 10 हिंदी • गद्य भाग</div>
+    <h1>जननी जन्मभूमि</h1>
+    <p>ओडिशा का प्राकृतिक वैभव, कलिंग की वीरता, स्थापत्य एवं नौवाणिज्य का गौरव, पतन से नवजागरण (1936) और आधुनिक प्रगति का संपूर्ण सचित्र व्याख्यान।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#intro">पाठ का परिचय</a>
+    <a href="#world-change">संसार व परिवर्तन</a>
+    <a href="#kalinga-ashoka">कलिंग शौर्य व अशोक</a>
+    <a href="#heroes-culture">वीर परंपरा व कला-संस्कृति</a>
+    <a href="#maritime-trade">साधव व नौवाणिज्य</a>
+    <a href="#renaissance-1936">पतन, जागरण ও 1936</a>
+    <a href="#modern-odisha">आधुनिक ओडिशा की प्रगति</a>
+    <a href="#shabdarth">शब्दार्थ तालिका</a>
+    <a href="#questions">महत्वपूर्ण प्रश्नोत्तर</a>
+    <a href="#grammar">भाषा-ज्ञान व व्याकरण</a>
+  </nav>
+
+  <!-- 1. Introduction -->
+  <section id="intro">
+    <h2 class="sec-title">🌍 १. पाठ का सार एवं परिचय</h2>
+    <p>
+      'जननी जन्मभूमि' पाठ में पवित्र जन्मभूमि ओडिशा के प्राकृतिक सौंदर्य, उसकी समृद्ध ऐतिहासिक विरासत, कलिंग की शौर्य गाथा, अनुपम कला-संस्कृति तथा आधुनिक युग में हो रही औद्योगिक व शैक्षणिक प्रगति का सजीव चित्रण किया गया है[span_0](start_span)[span_0](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>जन्मभूमि का स्वरूप:</strong><br>
+      संसार और मानव जीवन निरंतर परिवर्तनशील है[span_1](start_span)[span_1](end_span)। प्रत्येक समाज और प्रदेश का अपना इतिहास होता है, जिसमें उत्थान-पतन, सुख-दुःख और सफलता-विफलता के अध्याय अंकित रहते हैं[span_2](start_span)[span_2](end_span)। हमारी जन्मभूमि ओडिशा का इतिहास भी प्राचीन काल से ही अत्यंत गौरवशाली और प्रेरक रहा है[span_3](start_span)[span_3](end_span)।
+    </div>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ओडिशा के ऐतिहासिक नाम</h4>
+        <p>प्राचीन काल से विभिन्न कालखंडों में ओडिशा को कई प्रसिद्ध नामों से जाना गया है[span_4](start_span)[span_4](end_span):</p>
+        <ul>
+          <li><strong>कलिंग (Kalinga):</strong> वीरता और अदम्य साहस का प्रतीक[span_5](start_span)[span_5](end_span)।</li>
+          <li><strong>उत्कल (Utkala):</strong> उत्कृष्ट कला और स्थापत्य की भूमि[span_6](start_span)[span_6](end_span)।</li>
+          <li><strong>कंगोद (Kangoda):</strong> प्राचीन तटीय साम्राज्य[span_7](start_span)[span_7](end_span)।</li>
+          <li><strong>कोशल (Koshala):</strong> पश्चिमी भूभाग की समृद्ध परंपरा[span_8](start_span)[span_8](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>भौगोलिक व प्राकृतिक वैविध्य</h4>
+        <p>जन्मभूमि ओडिशा प्राकृतिक संपदा और सौंदर्य से परिपूर्ण है[span_9](start_span)[span_9](end_span):</p>
+        <ul>
+          <li>विशाल पर्वतमालाएँ और घने-हरे जंगल[span_10](start_span)[span_10](end_span)।</li>
+          <li>महानदी, ब्राह्मणी, बैतरणी जैसी सदानीरा नदियाँ और मनोहारी झरने[span_11](start_span)[span_11](end_span)।</li>
+          <li>नील जलराशि से लहराता विशाल समुद्र तट और मनोरम चिलिका झील[span_12](start_span)[span_12](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. World and Change -->
+  <section id="world-change">
+    <h2 class="sec-title">🔄 २. संसार, प्रकृति और निरंतर परिवर्तन</h2>
+    <p>
+      यह संसार बड़ा ही निराला और विचित्र है[span_13](start_span)[span_13](end_span)। इसमें स्थावर (स्थिर रहने वाले पर्वत-पेड़) और जंगम (चलने-फिरने वाले जीव-जंतु व मनुष्य) सभी का समावेश है[span_14](start_span)[span_14](end_span)। यहाँ कुछ भी स्थिर नहीं रहता; समय के साथ सब कुछ बदलता रहता है[span_15](start_span)[span_15](end_span)।
+    </p>
+
+    <div class="flow">
+      <div class="flow-node">ऋतुओं का चक्र (सर्दी, गर्मी, बरसात)[span_16](start_span)[span_16](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">प्रकृति में बदलाव[span_17](start_span)[span_17](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">सुख-दुःख व खुशहाली-बदहाली[span_18](start_span)[span_18](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">संघर्ष और प्रगतिशील जीवन[span_19](start_span)[span_19](end_span)</div>
+    </div>
+
+    <div class="callout example-box">
+      <strong>परिवर्तन के नियम:</strong> जिस प्रकार दिन के बाद रात और अँधेरे के बाद उजाला आता है, उसी प्रकार मानव जीवन में अमीरी-गरीबी, फकीरी-बादशाही और उत्थान-पतन आते रहते हैं[span_20](start_span)[span_20](end_span)। मनुष्य कठिनाइयों और संकटों से जूझते हुए आशा और कर्म के सहारे निरंतर आगे बढ़ता है[span_21](start_span)[span_21](end_span)।
+    </div>
+  </section>
+
+  <!-- 3. Kalinga Bravery and Ashoka -->
+  <section id="kalinga-ashoka">
+    <h2 class="sec-title">⚔️ ३. कलिंग की वीरता और चंडाशोक से धर्माशोक</h2>
+    <p>
+      प्राचीन काल से ही कलिंग वासियों के अदम्य साहस और युद्ध-कौशल की ख्याति रही है[span_22](start_span)[span_22](end_span)। इसी कारण इतिहास में <strong>"कलिंगः साहसिकाः"</strong> (कलिंग के लोग स्वभाव से ही साहसी होते हैं) का अमर उद्घोष प्रसिद्ध हुआ[span_23](start_span)[span_23](end_span)।
+    </p>
+
+    <div class="flow">
+      <div class="flow-node">कलिंग सैनिकों का अदम्य शौर्य[span_24](start_span)[span_24](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">सम्राट अशोक की सेना से भीषण युद्ध[span_25](start_span)[span_25](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">दया नदी का रक्तपात ও नरसंहार[span_26](start_span)[span_26](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">अशोक का हृदय परिवर्तन[span_27](start_span)[span_27](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">अहिंसा व बौद्ध धर्म का अंगीकार (धर्माशोक)[span_28](start_span)[span_28](end_span)</div>
+    </div>
+
+    <div class="compare">
+      <div class="card coral">
+        <h4>कलिंग युद्ध का प्रभाव</h4>
+        <p>मगध सम्राट अशोक ने कलिंग विजय के लिए विशाल वाहिनी के साथ आक्रमण किया[span_29](start_span)[span_29](end_span)। कलिंग के वीर सपूतों ने अपनी स्वाधीनता की रक्षा हेतु प्राणों की बाजी लगा दी[span_30](start_span)[span_30](end_span)। युद्ध में हुए अपार विनाश ने विजेता अशोक के अंतर्मन को झकझोर कर रख दिया[span_31](start_span)[span_31](end_span)।</p>
+      </div>
+
+      <div class="card green">
+        <h4>धर्माशोक और शांति संदेश</h4>
+        <p>युद्ध की विभीषिका देखकर चंडाशोक 'धर्माशोक' बन गए[span_32](start_span)[span_32](end_span)। उन्होंने सदा के लिए युद्ध की नीति (भेरीघोष) त्यागकर प्रेम, दया, करुणा और अहिंसा (धम्मघोष) का मार्ग अपनाया तथा बौद्ध धर्म का प्रचार विश्व भर में किया[span_33](start_span)[span_33](end_span)।</p>
+      </div>
+    </div>
+
+    <!-- Dhauli & Inscriptions SVG Diagram -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 600 210" width="560" height="195" xmlns="http://www.w3.org/2000/svg">
+          <!-- Rock base -->
+          <path d="M 60,170 Q 180,60 300,70 Q 420,50 540,170 Z" fill="#1b263e" stroke="#3b4f77" stroke-width="2"/>
+          <!-- Inscription lines -->
+          <line x1="180" y1="110" x2="420" y2="110" stroke="#f59e0b" stroke-width="2" stroke-dasharray="8 4"/>
+          <line x1="200" y1="125" x2="400" y2="125" stroke="#f59e0b" stroke-width="2" stroke-dasharray="8 4"/>
+          <line x1="190" y1="140" x2="410" y2="140" stroke="#f59e0b" stroke-width="2" stroke-dasharray="8 4"/>
+          <!-- Elephant figure outline at Dhauli -->
+          <circle cx="300" cy="55" r="22" fill="#243452" stroke="#14b8a6" stroke-width="2"/>
+          <text x="300" y="60" fill="#67e8f9" font-size="11" font-weight="bold" text-anchor="middle">धौली गज</text>
+          
+          <text x="300" y="160" fill="#fde68a" font-size="13" font-weight="bold" text-anchor="middle">धौली शिलालेख : "सभी मनुष्य मेरी संतान हैं"</text>
+          <text x="300" y="195" fill="#94a3b8" font-size="11" text-anchor="middle">दया नदी तट • सम्राट अशोक का अहिंसा एवं शांति उद्घोष</text>
+        </svg>
+        <figcaption>चित्र: धौली पहाड़ी पर उत्कीर्ण अशोक का ऐतिहासिक शांति संदेश ও शिलालेख[span_34](start_span)[span_34](end_span)</figcaption>
+      </figure>
+    </div>
+
+    <div class="callout def-box">
+      <strong>ऐतिहासिक साक्ष्य ও शिलालेख:</strong><br>
+      • <strong>धौली (भुवनेश्वर के निकट):</strong> यहाँ अशोक के प्रसिद्ध चतुर्दश शिलालेख मौजूद हैं, जिनमें प्रजा के प्रति स्नेह और वात्सल्य व्यक्त किया गया है[span_35](start_span)[span_35](end_span)।<br>
+      • <strong>खण्डगिरि एवं उदयगिरि:</strong> यहाँ महामेघवाहन सम्राट खारवेल का प्रसिद्ध 'हाथीगुम्फा शिलालेख' तथा जैन मुनियों की प्राचीन गुफाएँ कलिंग के गौरव का साक्ष्य देती हैं[span_36](start_span)[span_36](end_span)।
+    </div>
+  </section>
+
+  <!-- 4. Tradition of Bravery and Art & Culture -->
+  <section id="heroes-culture">
+    <h2 class="sec-title">🛡️ ४. वीरता की अखंड परंपरा एवं 'उत्कल' की कला-संस्कृति</h2>
+
+    <h3 class="sub-title">(क) स्वतंत्रता संग्राम के अमर कलिंग-सपूत:</h3>
+    <p>कलिंग की यह वीर परंपरा केवल प्राचीन काल तक सीमित नहीं रही, बल्कि ब्रिटिश शासन के विरुद्ध भी यहाँ के सपूतों ने मातृभूमि के लिए प्राणों की आहुति दी[span_37](start_span)[span_37](end_span):</p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>पाइक विद्रोह एवं स्वतंत्रता सेनानी</h4>
+        <ul>
+          <li><strong>बक्शी जगबंधु विद्याधर:</strong> 1817 के ऐतिहासिक पाइक विद्रोह के अमर सेनापति[span_38](start_span)[span_38](end_span)।</li>
+          <li><strong>वीर सुरेन्द्र साय:</strong> सम्बलपुर में अंग्रेजों के विरुद्ध आजीवन संघर्ष करने वाले क्रांतिवीर[span_39](start_span)[span_39](end_span)।</li>
+          <li><strong>चाखी खुंटिया (चନ୍ଦନ ହଜୁରୀ):</strong> 1857 के प्रथम स्वतंत्रता संग्राम के सक्रिय पथप्रदर्शक[span_40](start_span)[span_40](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>जनजातीय क्रांतिवीर एवं जननायक</h4>
+        <ul>
+          <li><strong>चक्रधर बिसोई (चक्र बिसोई):</strong> घुमुसर व कंध विद्रोह के निर्भीक नेता[span_41](start_span)[span_41](end_span)।</li>
+          <li><strong>शहीद लक्ष्मण नायक:</strong> कोरापुट के महान जनजातीय स्वतंत्रता सेनानी, जिन्होंने देश की आजादी के लिए हँसते-हँसते फाँसी का फंदा चूम लिया[span_42](start_span)[span_42](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub-title">(ख) 'उत्कल' का अर्थ एवं स्थापत्य कला:</h3>
+    <div class="callout def-box">
+      <strong>'उत्कल' शब्द का वास्तविक अर्थ:</strong><br>
+      <strong>'उत्कृष्ट कला' इति उत्कलः</strong> — अर्थात् जहाँ की कला, शिल्पकला और कारीगरी सर्वोत्कृष्ट हो, वही पावन भूमि 'उत्कल' कहलाती है[span_43](start_span)[span_43](end_span)।
+    </div>
+
+    <div class="compare">
+      <div class="card green">
+        <h4>विश्वविख्यात मंदिर व स्थापत्य</h4>
+        <ul>
+          <li><strong>भुवनेश्वर:</strong> 'एकाम्र क्षेत्र'—लिंगराज, मुक्तेश्वर, राजरानी आदि अद्वितीय मंदिर[span_44](start_span)[span_44](end_span)।</li>
+          <li><strong>पुरी:</strong> 'श्रीक्षेत्र'—महाप्रभु श्रीजगन्नाथ का भव्य श्रीमंदिर[span_45](start_span)[span_45](end_span)।</li>
+          <li><strong>कोणार्क:</strong> 'अर्कक्षेत्र'—पाषाण पर उत्कीर्ण सूर्यदेव का विस्मयकारी रथ-मंदिर[span_46](start_span)[span_46](end_span)।</li>
+          <li>मूर्तिकला, उत्कीर्ण आकृतियाँ और नक्काशी देशी-विदेशी पर्यटकों को विमुग्ध करती हैं[span_47](start_span)[span_47](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card blue">
+        <h4>हस्तशिल्प, वस्त्र एवं सांस्कृतिक धरोहर</h4>
+        <ul>
+          <li><strong>शास्त्रीय ओड़िसी नृत्य ও সঙ্গীত:</strong> लावण्य और भावपूर्ण कला का संगम[span_48](start_span)[span_48](end_span)।</li>
+          <li><strong>पट्टचित्र ও बारीक चित्रकला:</strong> पारंपरिक प्राकृतिक रंगों से निर्मित कलाकृतियाँ[span_49](start_span)[span_49](end_span)।</li>
+          <li><strong>वस्त्र शिल्प:</strong> विश्वप्रसिद्ध सम्बलपुरी सूती व संबलपुरी/पाट वस्त्र[span_50](start_span)[span_50](end_span)।</li>
+          <li><strong>हस्तशिल्प:</strong> कटक की चाँदी की तारकसी (Filigree), काँसे-पीतल के नक्काशीदार बर्तन एवं आभूषण[span_51](start_span)[span_51](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Maritime Trade -->
+  <section id="maritime-trade">
+    <h2 class="sec-title">⛵ ५. ओड़िया साधवों का प्राचीन समुद्री व्यापार (नौवाणिज्य)</h2>
+    <p>
+      प्राचीन काल में ओडिशा नौवाणिज्य और सामुद्रिक व्यापार का बहुत बड़ा केंद्र था[span_52](start_span)[span_52](end_span)। यहाँ के साहसी सौदागरों और बनियों को <strong>'साधव' (Sadhavas)</strong> कहा जाता था[span_53](start_span)[span_53](end_span)।
+    </p>
+
+    <div class="flow">
+      <div class="flow-node">ओड़िया साधव (व्यापारी)[span_54](start_span)[span_54](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">बड़ी-बड़ी नौकाएँ (बोइत)[span_55](start_span)[span_55](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">जावा, सुमात्रा, बाली, बोर्नियो (पूर्वी द्वीप)[span_56](start_span)[span_56](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">व्यापार व भारतीय संस्कृति प्रसार[span_57](start_span)[span_57](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">विपुल धन-रत्न लेकर स्वदेश वापसी[span_58](start_span)[span_58](end_span)</div>
+    </div>
+
+    <div class="callout example-box">
+      <strong>बोइत बंदाण एवं 'बलि यात्रा' की परंपरा:</strong><br>
+      कार्तिक पूर्णिमा के पावन अवसर पर आज भी ओड़िया समाज में नौका तैराकर अपने पूर्वज साधवों की गौरवमयी समुद्री यात्राओं को स्मरण किया जाता है[span_59](start_span)[span_59](end_span)। हमारे पूर्वज न केवल धन-संपत्ति लाते थे, अपितु सुदूर द्वीपों में भारतीय संस्कृति, धर्म और सद्भावना की पताका भी फहराते थे[span_60](start_span)[span_60](end_span)।
+    </div>
+  </section>
+
+  <!-- 6. Decline, Awakening and 1936 -->
+  <section id="renaissance-1936">
+    <h2 class="sec-title">🌅 ६. गौरव, पतन और मधुबाबू का नवजागरण (1936)</h2>
+    <p>
+      कालचक्र के प्रभाव से ओडिशा का प्राचीन वैभव और स्वतंत्रता धीरे-धीरे विलीन हो गई[span_61](start_span)[span_61](end_span)। ओडिशा का राजनीतिक पतन हुआ और वह भिन्न-भिन्न प्रांतों (बंगाल, बिहार, मद्रास, मध्य प्रांत) में बँटकर अपनी पहचान खोने लगा[span_62](start_span)[span_62](end_span)। लोग दरिद्रता और निराशा के अंधकार में डूब गए[span_63](start_span)[span_63](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card coral">
+        <h4>अंधकारमय पतन का काल</h4>
+        <p>विदेशी दासता, प्रशासनिक उपेक्षा और अकाल के कारण ओडिशावासी दाने-दाने के मोहताज हो गए[span_64](start_span)[span_64](end_span)। लोग अपने पूर्वजों के गौरव और आत्मसम्मान को पूरी तरह भूल चुके थे[span_65](start_span)[span_65](end_span) ।</p>
+      </div>
+
+      <div class="card gold">
+        <h4>उत्कल गौरव मधुसूदन का शंखनाद</h4>
+        <p>बीसवीं शताब्दी के प्रारंभ में महापुरुष <strong>मधुसूदन दास (मधुबाबू)</strong> ने सोई हुई ओड़िया जाति को जगाया[span_66](start_span)[span_66](end_span)। उन्होंने प्राचीन इतिहास और स्वाभिमान का स्मरण कराकर एकता का आह्वान किया[span_67](start_span)[span_67](end_span) ।</p>
+      </div>
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">प्राचीन कलिंग वैभव[span_68](start_span)[span_68](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">राजनीतिक पतन व विभाजन[span_69](start_span)[span_69](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">मधुबाबू का जागरण व उत्कल सम्मेलन[span_70](start_span)[span_70](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">୧ ଏପ୍ରିଲ 1936: स्वतंत्र ओडिशा प्रदेश[span_71](start_span)[span_71](end_span)</div>
+    </div>
+
+    <div class="callout activity-box">
+      <strong>ऐतिहासिक उपलब्धि — 1 अप्रैल 1936:</strong><br>
+      मधुबाबू और उनके सहयोगियों के अथक प्रयासों से <strong>अप्रैल 1936 में भाषा के आधार पर भारत का प्रथम स्वतंत्र ओडिशा प्रदेश गठित हुआ</strong>[span_72](start_span)[span_72](end_span)। इस ऐतिहासिक दिन ने ओड़िया अस्मिता और नव-निर्माण को नया जीवन प्रदान किया[span_73](start_span)[span_73](end_span)।
+    </div>
+  </section>
+
+  <!-- 7. Modern Odisha Progress -->
+  <section id="modern-odisha">
+    <h2 class="sec-title">🏗️ ७. आधुनिक ओडिशा की बहुमुखी प्रगति</h2>
+    <p>
+      स्वतंत्रता के उपरांत ओडिशा ने कृषि, उद्योग, शिक्षा और विज्ञान के क्षेत्र में तीव्र गति से प्रगति कर एक आधुनिक और सशक्त राज्य के रूप में पहचान बनाई है[span_74](start_span)[span_74](end_span):
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>कृषि, सिंचाई ও ऊर्जा</h4>
+        <ul>
+          <li><strong>हीराकुंड बाँध (संबलपुर):</strong> महानदी पर निर्मित एशिया के विशालतम बाँधों में से एक, जिससे बाढ़ नियंत्रण, विशाल सिंचाई व्यवस्था और प्रचुर जलविद्युत उत्पादन संभव हुआ[span_75](start_span)[span_75](end_span)।</li>
+          <li>उन्नत कृषि तकनीकों और सिंचाई से <strong>अनाज उत्पादन में भारी वृद्धि</strong> हुई[span_76](start_span)[span_76](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>भारी उद्योग ଓ वैमानिकी</h4>
+        <ul>
+          <li><strong>राउरकेला इस्पात संयंत्र (Rourkela Steel Plant):</strong> देश का प्रमुख सार्वजनिक लौह-इस्पात कारखाना[span_77](start_span)[span_77](end_span)।</li>
+          <li><strong>सुनाबेड़ा (कोरापुट):</strong> हिंदुस्तान एयरोनॉटिक्स लिमिटेड (HAL) में <strong>लड़ाकू मिग हवाई जहाजों के इंजन निर्माण</strong> का केंद्र[span_78](start_span)[span_78](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card blue">
+        <h4>नौवाणिज्य व आधुनिक बंदरगाह</h4>
+        <ul>
+          <li><strong>पारादीप बंदरगाह (Paradip Port):</strong> पूर्वी तट का विशाल गहरा समुद्री बंदरगाह, जहाँ से खनिज, लोहा और औद्योगिक सामग्री विदेशों को निर्यात की जाती है[span_79](start_span)[span_79](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card green">
+        <h4>उच्च शिक्षा ଓ शोध संस्थान</h4>
+        <ul>
+          <li><strong>उत्कल विश्वविद्यालय:</strong> उच्च शिक्षा और ज्ञान-विज्ञान का प्रमुख केंद्र[span_80](start_span)[span_80](end_span)।</li>
+          <li>राज्य भर में फैले अनेक तकनीकी, मेडिकल, कृषि और शोध संस्थान आधुनिक ओडिशा के आधारस्तंभ हैं[span_81](start_span)[span_81](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Glossary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ८. संपूर्ण शब्दार्थ तालिका</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_82](start_span)[span_82](end_span)</th>
+            <th>सरल अर्थ[span_83](start_span)[span_83](end_span)</th>
+            <th>शब्द[span_84](start_span)[span_84](end_span)</th>
+            <th>सरल अर्थ[span_85](start_span)[span_85](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>निराला[span_86](start_span)[span_86](end_span)</strong></td><td>विचित्र, अनोखा[span_87](start_span)[span_87](end_span)</td><td><strong>स्थावर[span_88](start_span)[span_88](end_span)</strong></td><td>स्थिर रहने वाला (जैसे पर्वत, वृक्ष)[span_89](start_span)[span_89](end_span)</td></tr>
+          <tr><td><strong>जंगम[span_90](start_span)[span_90](end_span)</strong></td><td>चलने-फिरने वाला (सजीव प्राणी)[span_91](start_span)[span_91](end_span)</td><td><strong>चेतन[span_92](start_span)[span_92](end_span)</strong></td><td>जीव, जिसमें चेतना हो[span_93](start_span)[span_93](end_span)</td></tr>
+          <tr><td><strong>सुहावना[span_94](start_span)[span_94](end_span)</strong></td><td>सुखकर, मनभावन[span_95](start_span)[span_95](end_span)</td><td><strong>फकीरी[span_96](start_span)[span_96](end_span)</strong></td><td>गरीबी, निर्धनता[span_97](start_span)[span_97](end_span)</td></tr>
+          <tr><td><strong>खुशहाली[span_98](start_span)[span_98](end_span)</strong></td><td>सुख का समय, समृद्धि[span_99](start_span)[span_99](end_span)</td><td><strong>बदहाली[span_100](start_span)[span_100](end_span)</strong></td><td>बुरा समय, विपत्ति[span_101](start_span)[span_101](end_span)</td></tr>
+          <tr><td><strong>गम[span_102](start_span)[span_102](end_span)</strong></td><td>दुःख, शोक[span_103](start_span)[span_103](end_span)</td><td><strong>पन्ना[span_104](start_span)[span_104](end_span)</strong></td><td>पृष्ठ, पन्ना[span_105](start_span)[span_105](end_span)</td></tr>
+          <tr><td><strong>सिलसिला[span_106](start_span)[span_106](end_span)</strong></td><td>कड़ी, क्रमबद्ध क्रम[span_107](start_span)[span_107](end_span)</td><td><strong>अजूबा[span_108](start_span)[span_108](end_span)</strong></td><td>आश्चर्यजनक वस्तु, चमत्कार[span_109](start_span)[span_109](end_span)</td></tr>
+          <tr><td><strong>झील[span_110](start_span)[span_110](end_span)</strong></td><td>बड़ा प्राकृतिक जलाशय[span_111](start_span)[span_111](end_span)</td><td><strong>शौर्य[span_112](start_span)[span_112](end_span)</strong></td><td>वीरत्व, पराक्रम[span_113](start_span)[span_113](end_span)</td></tr>
+          <tr><td><strong>सपूत[span_114](start_span)[span_114](end_span)</strong></td><td>सुपुत्र, योग्य संतान[span_115](start_span)[span_115](end_span)</td><td><strong>साधव[span_116](start_span)[span_116](end_span)</strong></td><td>प्राचीन ओड़िया सौदागर/व्यापारी[span_117](start_span)[span_117](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 9. Important Questions & Answers -->
+  <section id="questions">
+    <h2 class="sec-title">📝 ९. पाठ्यपुस्तक आधारित महत्वपूर्ण प्रश्नोत्तर</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>१. इस दुनिया को विचित्र क्यों कहा जाएगा?[span_118](start_span)[span_118](end_span)</h4>
+        <p><strong>उत्तर:</strong> यह दुनिया इसलिए विचित्र है क्योंकि यहाँ एक साथ पहाड़, जंगल, नदियाँ, समुद्र तथा अनगिनत स्थावर-जंगम जीव पाए जाते हैं[span_119](start_span)[span_119](end_span)। यहाँ लगातार ऋतुएँ और मौसम बदलते हैं तथा सुख-दुःख, अमीरी-गरीबी का दौर साथ-साथ चलता रहता है[span_120](start_span)[span_120](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>२. “कलिंगः साहसिकाः” ऐसा क्यों कहा गया है?[span_121](start_span)[span_121](end_span)</h4>
+        <p><strong>उत्तर:</strong> कलिंग के वीरों ने मगध सम्राट अशोक की विशाल सेना का निडर होकर डटकर सामना किया था[span_122](start_span)[span_122](end_span)। मातृभूमि की स्वतंत्रता के लिए अपने प्राणों की बाजी लगा देने के उनके अद्वितीय शौर्य और साहस के कारण ही इतिहास में “कलिंगः साहसिकाः” कहा गया है[span_123](start_span)[span_123](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>३. धर्माशोक ने क्या किया?[span_124](start_span)[span_124](end_span)</h4>
+        <p><strong>उत्तर:</strong> कलिंग युद्ध के भयंकर रक्तपात को देखकर सम्राट अशोक का हृदय पिघल गया[span_125](start_span)[span_125](end_span)। उन्होंने हमेशा के लिए युद्ध का त्याग कर दिया और बौद्ध धर्म स्वीकार कर प्रेम, दया, करुणा और अहिंसा का संदेश संसार भर में फैलाया[span_126](start_span)[span_126](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>४. ‘उत्कल’ का क्या अर्थ है?[span_127](start_span)[span_127](end_span)</h4>
+        <p><strong>उत्तर:</strong> 'उत्कल' का अर्थ है — 'उत्कृष्ट कला की भूमि[span_128](start_span)'[span_128](end_span)। यहाँ के कारीगरों और कलाकारों ने पाषाण, वस्त्र, धातु और चित्रों में अपनी सर्वोत्कृष्ट कला का ऐसा प्रदर्शन किया जो संसार भर में अद्वितीय है[span_129](start_span)[span_129](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>५. ओडिशा के बनिये (साधव) क्या करते थे?[span_130](start_span)[span_130](end_span)</h4>
+        <p><strong>उत्तर:</strong> ओडिशा के साहसी साधव बड़ी-बड़ी नौकाओं में व्यापारिक माल भरकर जावा, सुमात्रा, बाली और बोर्नियो जैसे दूरस्थ पूर्वी द्वीपों तक जाते थे[span_131](start_span)[span_131](end_span)। वे वहाँ व्यापार करते थे और विपुल धन-रत्न लेकर सकुशल स्वदेश लौटते थे[span_132](start_span)[span_132](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>୬. मधुसूदन ने क्या किया और इसका क्या परिणाम हुआ?[span_133](start_span)[span_133](end_span)</h4>
+        <p><strong>उत्तर:</strong> उत्कल गौरव मधुसूदन दास ने अपनी सोई हुई जाति को उसके प्राचीन गौरव और इतिहास की याद दिलाई[span_134](start_span)[span_134](end_span)। उनकी पुकार सुनकर लोगों में नवजागरण आया और परिणामस्वरूप <strong>1 अप्रैल 1936 को स्वतंत्र ओडिशा प्रदेश का गठन हुआ</strong>[span_135](start_span)[span_135](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>୭. ओडिशा आज पीछे नहीं है, इसका क्या प्रमाण है?[span_136](start_span)[span_136](end_span)</h4>
+        <p><strong>उत्तर:</strong> आज ओडिशा में हीराकुंड बाँध से प्रचुर सिंचाई और विद्युत मिल रही है[span_137](start_span)[span_137](end_span)। राउरकेला में इस्पात का भारी उत्पादन, सुनाबेड़ा में लड़ाकू हवाई जहाज के इंजन का निर्माण, पारादीप से विशाल समुद्री व्यापार तथा उत्कल विश्वविद्यालय जैसे संस्थान इसकी आधुनिक प्रगति के प्रत्यक्ष प्रमाण हैं[span_138](start_span)[span_138](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>୮. धौली के शिलालेख में क्या लिखा है?[span_139](start_span)[span_139](end_span)</h4>
+        <p><strong>उत्तर:</strong> धौली के शिलालेख में सम्राट अशोक का अमर मानवतावादी संदेश उत्कीर्ण है कि “सभी मनुष्य मेरी संतान के समान हैं” और राजा का धर्म अपनी प्रजा का पुत्रवत पालन-पोषण तथा कल्याण करना है[span_140](start_span)[span_140](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. Language and Grammar -->
+  <section id="grammar">
+    <h2 class="sec-title">🔤 १०. भाषा-ज्ञान एवं व्याकरण अभ्यास</h2>
+
+    <!-- Idioms -->
+    <h3 class="sub-title">(क) महत्वपूर्ण मुहावरे एवं अर्थ-प्रयोग[span_141](start_span)[span_141](end_span):</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>मुहावरा[span_142](start_span)[span_142](end_span)</th>
+            <th>अर्थ[span_143](start_span)[span_143](end_span)</th>
+            <th>वाक्य प्रयोग</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>दाँत खट्टे करना[span_144](start_span)[span_144](end_span)</strong></td><td>बुरी तरह हराना[span_145](start_span)[span_145](end_span)</td><td>कलिंग के वीर सैनिकों ने सम्राट अशोक की विशाल सेना के दाँत खट्टे कर दिए[span_146](start_span)[span_146](end_span)।</td></tr>
+          <tr><td><strong>दिल दहलना[span_147](start_span)[span_147](end_span)</strong></td><td>अत्यंत भयभीत या द्रवित होना[span_148](start_span)[span_148](end_span)</td><td>कलिंग युद्ध का भीषण रक्तपात देखकर किसी का भी दिल दहल सकता था[span_149](start_span)[span_149](end_span)।</td></tr>
+          <tr><td><strong>जान की बाजी लगाना[span_150](start_span)[span_150](end_span)</strong></td><td>प्राणों की परवाह न करना[span_151](start_span)[span_151](end_span)</td><td>हमारे स्वतंत्रता सेनानियों ने देश की आजादी के लिए जान की बाजी लगा दी[span_152](start_span)[span_152](end_span)।</td></tr>
+          <tr><td><strong>धावा बोलना[span_153](start_span)[span_153](end_span)</strong></td><td>अचानक आक्रमण करना[span_154](start_span)[span_154](end_span)</td><td>शत्रु सेना ने अचानक सीमा पर धावा बोल दिया[span_155](start_span)[span_155](end_span)।</td></tr>
+          <tr><td><strong>दिल भर आना[span_156](start_span)[span_156](end_span)</strong></td><td>भावुक हो जाना, करुणा उमड़ना[span_157](start_span)[span_157](end_span)</td><td>अनाथ बच्चों की दयनीय दशा देखकर मेरा दिल भर आया[span_158](start_span)[span_158](end_span)।</td></tr>
+          <tr><td><strong>दाने-दाने का मोहताज[span_159](start_span)[span_159](end_span)</strong></td><td>अत्यंत निर्धन/भूखा होना[span_160](start_span)[span_160](end_span)</td><td>अकाल के समय गरीब प्रजा दाने-दाने की मोहताज हो गई थी[span_161](start_span)[span_161](end_span)।</td></tr>
+          <tr><td><strong>बीड़ा उठाना[span_162](start_span)[span_162](end_span)</strong></td><td>कठिन कार्य का संकल्प लेना[span_163](start_span)[span_163](end_span)</td><td>मधुबाबू ने स्वतंत्र ओडिशा प्रदेश के निर्माण का बीड़ा उठाया था[span_164](start_span)[span_164](end_span)।</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Antonyms -->
+    <h3 class="sub-title">(ख) विलोम शब्द (Antonyms)[span_165](start_span)[span_165](end_span):</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_166](start_span)[span_166](end_span)</th>
+            <th>विलोम शब्द[span_167](start_span)[span_167](end_span)</th>
+            <th>शब्द[span_168](start_span)[span_168](end_span)</th>
+            <th>विलोम शब्द[span_169](start_span)[span_169](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>स्थावर[span_170](start_span)[span_170](end_span)</strong></td><td>जंगम[span_171](start_span)[span_171](end_span)</td><td><strong>जड़[span_172](start_span)[span_172](end_span)</strong></td><td>चेतन[span_173](start_span)[span_173](end_span)</td></tr>
+          <tr><td><strong>गुण[span_174](start_span)[span_174](end_span)</strong></td><td>दोष[span_175](start_span)[span_175](end_span)</td><td><strong>सर्दी[span_176](start_span)[span_176](end_span)</strong></td><td>गर्मी[span_177](start_span)[span_177](end_span)</td></tr>
+          <tr><td><strong>खुशी[span_178](start_span)[span_178](end_span)</strong></td><td>गम[span_179](start_span)[span_179](end_span)</td><td><strong>सुख[span_180](start_span)[span_180](end_span)</strong></td><td>दुःख[span_181](start_span)[span_181](end_span)</td></tr>
+          <tr><td><strong>अँधेरा[span_182](start_span)[span_182](end_span)</strong></td><td>उजाला[span_183](start_span)[span_183](end_span)</td><td><strong>खुशहाली[span_184](start_span)[span_184](end_span)</strong></td><td>बदहाली[span_185](start_span)[span_185](end_span)</td></tr>
+          <tr><td><strong>उत्थान[span_186](start_span)[span_186](end_span)</strong></td><td>पतन[span_187](start_span)[span_187](end_span)</td><td><strong>वीर[span_188](start_span)[span_188](end_span)</strong></td><td>कायर[span_189](start_span)[span_189](end_span)</td></tr>
+          <tr><td><strong>युद्ध[span_190](start_span)[span_190](end_span)</strong></td><td>शांति[span_191](start_span)[span_191](end_span)</td><td><strong>अहिंसा[span_192](start_span)[span_192](end_span)</strong></td><td>हिंसा[span_193](start_span)[span_193](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Quick Revision Recap -->
+  <section id="summary">
+    <h2 class="sec-title">⚡ त्वरित पुनरावृत्ति (Quick Revision Cards)</h2>
+    <div class="compare">
+      <div class="card gold">
+        <h4>⭐ मुख्य अवधारणाएँ</h4>
+        <p>जन्मभूमि का नैसर्गिक सौंदर्य, कालचक्र का परिवर्तन, "कलिंगः साहसिकाः" का शौर्य, अशोक का धर्माशोक में रूपांतरण, उत्कृष्ट कला-संस्कृति, साधवों का नौवाणिज्य, मधुबाबू का नवजागरण और स्वतंत्र प्रदेश गठन (1936)[span_194](start_span)[span_194](end_span) ।</p>
+      </div>
+      <div class="card teal">
+        <h4>🔑 ऐतिहासिक स्थल ও व्यक्ति</h4>
+        <p><strong>व्यक्ति:</strong> सम्राट अशोक, खारवेल, बକ୍ଷୀ जगबंधु, सुरेन्द्र साय, लक्ष्मण नायक, मधुसूदन दास[span_195](start_span)[span_195](end_span)।<br>
+        <strong>स्थान:</strong> धौली, खण्डगिरि, भुवनेश्वर, पुरी, कोणार्क, हीराकुंड, राउरकेला, सुनाबेड़ा, पारादीप[span_196](start_span)[span_196](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा 10 हिंदी • गद्य भाग : जननी जन्मभूमि | Digital Learning Lecture Notes System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
