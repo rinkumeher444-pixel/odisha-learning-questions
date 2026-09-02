@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>काँटे कम-से-कम मत बोओ — रामेश्वर शुक्ल 'अंचल' | कक्षा 10 हिंदी</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.9rem, 4vw, 2.7rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 760px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Poem Verses Card */
+    .poem-card {
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(20, 184, 166, 0.05) 100%);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 20px 0;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .poem-text {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fef08a;
+      line-height: 2.1;
+      letter-spacing: 0.5px;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+      .poem-text { font-size: 1.1rem; line-height: 1.9; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० हिंदी • पद्य भाग • प्रगतिवादी काव्य</div>
+    <h1>काँटे कम-से-कम मत बोओ</h1>
+    <p>कवि रामेश्वर शुक्ल 'अंचल' की प्रगतिशील कविता : मानवीय संवेदनशीलता, जीवन-संघर्ष, ममता का शमन, अटूट विश्वास एवं संपूर्ण अभ्यास-समाधान।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#author">कवि परिचय</a>
+    <a href="#poem-core">कविता का केंद्रीय भाव</a>
+    <a href="#poem-text">मूल कविता</a>
+    <a href="#stanza-analysis">पद्यांश-वार व्याख्या</a>
+    <a href="#vocabulary">शब्दार्थ तालिका</a>
+    <a href="#qa-short">लघु उत्तरीय प्रश्न</a>
+    <a href="#qa-oneline">एक-दो वाक्यीय प्रश्न</a>
+    <a href="#qa-objective">वस्तुनिष्ठ प्रश्न (MCQs)</a>
+    <a href="#reference-context">अवतरणों के अर्थ</a>
+    <a href="#grammar-lang">भाषा-ज्ञान (व्याकरण)</a>
+  </nav>
+
+  <!-- 1. Poet Introduction -->
+  <section id="author">
+    <h2 class="sec-title">🪶 १. कवि परिचय : रामेश्वर शुक्ल 'अंचल'</h2>
+    
+    <div class="compare">
+      <div class="card gold">
+        <h4>जीवन एवं शिक्षा</h4>
+        <ul>
+          <li><strong>जन्म:</strong> सन् <strong>1915</strong> में उत्तर प्रदेश के फतेहपुर जिले के <strong>किशनपुर</strong> गाँव में हुआ[span_0](start_span)[span_0](end_span)।</li>
+          <li><strong>शिक्षा एवं कार्यक्षेत्र:</strong> उच्च शिक्षा प्राप्त करने के उपरांत उन्होंने सरकारी नौकरी की तथा बाद में वे <strong>हिंदी के प्रोफेसर</strong> हो गए[span_1](start_span)[span_1](end_span)।</li>
+          <li><strong>काव्य-यात्रा का मोड़:</strong> आरंभ में उन्होंने कल्पना और अनुभूति के सहारे सूक्ष्म मनोभावों, यौवन, सौंदर्य, प्रेम तथा विरह-वेदना पर रचनाएँ कीं[span_2](start_span)[span_2](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card teal">
+        <h4>काव्यगत विशेषताएँ एवं रचना संसार</h4>
+        <ul>
+          <li><strong>छायावाद से प्रगतिवाद:</strong> सामाजिक विषमता, अन्याय, अत्याचार, शोषण और असंतोष को देखकर वे मानवता के पक्षधर बने और शोषितों की आवाज़ उठाई[span_3](start_span)[span_3](end_span)।</li>
+          <li><strong>राष्ट्रीय चेतना:</strong> उन्होंने देश-प्रेम, राष्ट्रीयता तथा भारतीय संस्कृति के प्रेरक गीत गाए और मनुष्य को यथार्थवादी ढंग से जीना सिखाया[span_4](start_span)[span_4](end_span)।</li>
+          <li><strong>प्रमुख लोकप्रिय रचनाएँ:</strong> <em>'अपराजिता', 'मधूलिका', 'लाल चूनर', 'किरण वेला', 'वर्षान्त के बादल', 'विराम चिह्न'</em> आदि[span_5](start_span)[span_5](end_span)। उन्होंने उपन्यास, कहानी तथा निबंध भी लिखे[span_6](start_span)[span_6](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Core Idea of the Poem -->
+  <section id="poem-core">
+    <h2 class="sec-title">💡 २. यह कविता : मूल प्रेरणा एवं वैचारिक पृष्ठभूमि</h2>
+    <p>
+      प्रस्तुत कविता कवि की एक सशक्त प्रगतिशील रचना है, जिसमें मानव को स्वार्थ छोड़कर परोपकारी बनने का आग्रह किया गया है[span_7](start_span)[span_7](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>मुख्य संदेश:</strong><br>
+      मनुष्य को चाहिए कि वह दूसरों को दुःख नहीं, बल्कि सुख दे[span_8](start_span)[span_8](end_span)। यदि किसी के रास्ते में फूल नहीं बिछा सकते, तो कम-से-कम उसके मार्ग में काँटे तो मत बोओ[span_9](start_span)[span_9](end_span)! अपने मन को केवल अपने सुख-दुःख के संकीर्ण दायरे में सीमित न रखो, बल्कि दूसरों को स्नेह, प्रेम और ममता की शीतल छाँह प्रदान करो[span_10](start_span)[span_10](end_span)।
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">ममता की शीतल छाया[span_11](start_span)[span_11](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ईर्ष्या व कटुता का शमन[span_12](start_span)[span_12](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ज्वालाओं का शांत होना[span_13](start_span)[span_13](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">जीवन में चेतनता व अटूट संकल्प[span_14](start_span)[span_14](end_span)</div>
+    </div>
+
+    <div class="compare">
+      <div class="card green">
+        <h4>सच्चा चेतन प्राणी कौन है?</h4>
+        <p>
+          जीवन सुख और दुःख दोनों से निर्मित है[span_15](start_span)[span_15](end_span)। जो व्यक्ति संकटों में अधीर न होकर साहसपूर्वक जीता है और सुख की अभिमानी मदिरा (मद/अहंकार) में भी जाग्रत व सजग रहता है, वही वास्तव में <strong>सच्चा चेतन प्राणी</strong> है[span_16](start_span)[span_16](end_span)।
+        </p>
+      </div>
+
+      <div class="card coral">
+        <h4>'साँसों के मुरदे' होने से बचाव</h4>
+        <p>
+          संकट से मुँह मोड़ना, कर्म न करना और निराशा में डूब जाना कायरता है[span_17](start_span)[span_17](end_span)। जिस प्रकार बादलों की भयंकर गड़गड़ाहट के बीच भी पवन (मारुत) का जयघोष नहीं थमता, उसी प्रकार घोर संकट में भी मनुष्य को विश्वास, धैर्य व साहस नहीं खोना चाहिए, अन्यथा वह 'साँसों का मुरदा' (जिंदा लाश) बन जाएगा[span_18](start_span)[span_18](end_span)।
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Original Poem Text -->
+  <section id="poem-text">
+    <h2 class="sec-title">📜 ३. मूल कविता : काँटे कम-से-कम मत बोओ</h2>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        यदि फूल नहीं बो सकते तो<br>
+        काँटे कम से कम मत बोओ !<br><br>
+        (१)<br>
+        है अगम चेतना की घाटी, कमजोर बड़ा मानव का मन;<br>
+        ममता की शीतल छाया में होता कटुता का स्वयं शमन !<br>
+        ज्वालाएँ जब धुल जाती हैं, खुल-खुल जाते हैं मुँदे नयन ।<br>
+        होकर निर्मलता में प्रशान्त बहता प्राणों का क्षुब्ध पवन ।<br>
+        संकट में यदि मुस्का न सको, भय से कातर हो मत रोओ !<br>
+        यदि फूल नहीं बो सकते तो, काँटे कम से कम मत बोओ [span_19](start_span)[span_19](end_span)!
+      </p>
+    </div>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        (२)<br>
+        हर सपने पर विश्वास करो, लो लगा चाँदनी का चन्दन,<br>
+        मत याद करो, मत सोचो ज्वाला में कैसे बीता जीवन,<br>
+        इस दुनिया की है रीति यही सहता है तन, बहता है मन,<br>
+        सुख की अभिमानी मदिरा में जो जाग सका, वह है चेतन !<br>
+        इसमें तुम जाग नहीं सकते, तो सेज बिछाकर मत सोओ !<br>
+        यदि फूल नहीं बो सकते तो, काँटे कम से कम मत बोओ [span_20](start_span)[span_20](end_span)!
+      </p>
+    </div>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        (३)<br>
+        पग-पग पर शोर मचाने से मन में संकल्प नहीं जमता,<br>
+        अनसुना अचीह्ना करने से संकट का वेग नहीं कमता,<br>
+        संशय के सूक्ष्म कुहासे में विश्वास नहीं क्षण भर रमता,<br>
+        बादल के घेरों में भी तो जय घोष न मारुत का थमता ।<br>
+        यदि बढ़ न सको विश्वासों पर साँसों के मुरदे मत ढोओ !<br>
+        यदि फूल नहीं बो सकते तो, काँटे कम से कम मत बोओ [span_21](start_span)[span_21](end_span)!
+      </p>
+    </div>
+  </section>
+
+  <!-- 4. Stanza-by-Stanza Analysis -->
+  <section id="stanza-analysis">
+    <h2 class="sec-title">🔍 ४. पद्यांश-वार विस्तृत भावार्थ एवं व्याख्या</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>पद्यांश १ : चेतना की घाटी ও ममता का शमन</h4>
+        <p><strong>व्याख्या:</strong> चेतना की घाटी अत्यंत दुर्गम (अगम) है और मनुष्य का मन स्वभाव से बहुत दुर्बल व चंचल होता है[span_22](start_span)[span_22](end_span)। ईर्ष्या-द्वेष की कड़वाहट का शमन केवल प्रेम और ममता की शीतल छाया में ही स्वतः हो सकता है[span_23](start_span)[span_23](end_span)। जब अंतर्मन के संताप और क्रोध की ज्वालाएँ धुल जाती हैं, तो अज्ञान से बंद आँखें खुल जाती हैं और प्राणों की अशांत व व्याकुल वायु निर्मल होकर शांत बहने लगती है[span_24](start_span)[span_24](end_span)। कवि कहते हैं कि यदि संकट में मुस्कुराना संभव न हो, तब भी भयभीत होकर कातर विलाप मत करो और दूसरों के मार्ग में काँटे मत बोओ[span_25](start_span)[span_25](end_span)।[span_26](start_span)[span_26](end_span)</p>
+      </div>
+
+      <div class="card gold">
+        <h4>पद्यांश २ : दुनिया की रीति ও चेतनता का मर्म</h4>
+        <p><strong>व्याख्या:</strong> आशा के प्रत्येक सपने पर विश्वास रखो और शीतलता प्रदान करने वाले विचारों का चंदन लगाओ[span_27](start_span)[span_27](end_span)। अतीत के दुःखों और कष्टों की ज्वालाओं को याद करके अपना वर्तमान मत बिगाड़ो[span_28](start_span)[span_28](end_span)। संसार की शाश्वत रीति यही है कि शरीर कष्ट सहता है और मन भावनाओं के प्रवाह में बहता है[span_29](start_span)[span_29](end_span)। जो व्यक्ति सुख और समृद्धि के घमंड रूपी मदिरा के नशे में भी जाग्रत व सतर्क रहता है, वही सच्चा चेतन है[span_30](start_span)[span_30](end_span)। यदि तुम पूर्णतः सजग नहीं रह सकते, तो कम-से-कम आलस्य व अकर्मण्यता की सेज बिछाकर मत सोओ[span_31](start_span)[span_31](end_span)।[span_32](start_span)[span_32](end_span)</p>
+      </div>
+    </div>
+
+    <div class="callout example-box">
+      <strong>पद्यांश ३ : संकल्प, संशय का कुहासा ও मारुत का जयघोष:</strong><br>
+      कवि स्पष्ट करते हैं कि पग-पग पर केवल शोर मचाने या डींगें हाँकने से मन में दृढ़ संकल्प नहीं बनता[span_33](start_span)[span_33](end_span)। संकटों की ओर से आँखें मूँद लेने या उन्हें अनसुना व अनदेखा (अचीह्ना) कर देने से उनका वेग व तीव्रता कम नहीं होती[span_34](start_span)[span_34](end_span)। संदेह (संशय) के महीन कुहासे में सच्चा विश्वास एक पल के लिए भी नहीं टिक पाता[span_35](start_span)[span_35](end_span)। जिस प्रकार बादलों के घने घेरे भी वायु (मारुत) के प्रचंड वेग और जयघोष को रोक नहीं पाते, उसी प्रकार संकटों के बीच भी अपने आत्मबल को बनाए रखना चाहिए[span_36](start_span)[span_36](end_span)। यदि तुम विश्वास के बल पर आगे नहीं बढ़ सकते, तो कम-से-कम निराशा में डूबकर 'साँसों का मुरदा' (जिंदा लाश) बनकर जीवन मत ढोओ[span_37](start_span)[span_37](end_span)।
+    </div>
+
+    <!-- Embedded SVG Diagram -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 600 220" width="560" height="200" xmlns="http://www.w3.org/2000/svg">
+          <!-- Stormy Cloud Base -->
+          <path d="M 50,80 Q 90,40 140,60 Q 190,30 250,60 Q 300,40 340,70 Q 380,50 430,70 Q 480,40 530,80 Q 560,110 520,140 Q 450,160 300,150 Q 150,160 70,130 Q 30,110 50,80 Z" fill="#1e293b" stroke="#3b4f77" stroke-width="2"/>
+          <text x="300" y="85" fill="#94a3b8" font-size="12" text-anchor="middle">बादल के घेरे (घोर संकट ও संशय का कुहासा)[span_38](start_span)[span_38](end_span)</text>
+
+          <!-- Wind Arrows penetrating through clouds -->
+          <path d="M 80,120 Q 200,90 320,115 T 520,105" fill="none" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round"/>
+          <path d="M 505,95 L 525,105 L 505,115" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+
+          <path d="M 100,140 Q 220,120 360,135 T 500,125" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6 4"/>
+
+          <text x="300" y="185" fill="#fde68a" font-size="13" font-weight="bold" text-anchor="middle">"बादल के घेरों में भी तो जय घोष न मारुत का थमता[span_39](start_span)"[span_39](end_span)</text>
+        </svg>
+        <figcaption>चित्र: संकटों के बादलों को चीरता हुआ मारुत (पवन) का अटूट जयघोष एवं अदम्य विश्वास[span_40](start_span)[span_40](end_span)</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 5. Vocabulary Table -->
+  <section id="vocabulary">
+    <h2 class="sec-title">📚 ५. कठिन शब्दार्थ एवं टिप्पणियाँ</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_41](start_span)[span_41](end_span)</th>
+            <th>मानक अर्थ[span_42](start_span)[span_42](end_span)</th>
+            <th>शब्द[span_43](start_span)[span_43](end_span)</th>
+            <th>मानक अर्थ[span_44](start_span)[span_44](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>अगम</strong></td><td>अथाह, दुर्गम, जहाँ पहुँचा न जा सके[span_45](start_span)[span_45](end_span)</td><td><strong>कातर</strong></td><td>अधीर, व्याकुल, भयभीत[span_46](start_span)[span_46](end_span)</td></tr>
+          <tr><td><strong>चेतना</strong></td><td>चैतन्य, ज्ञान, बुद्धि, ज्ञानात्मक मनोवृत्ति[span_47](start_span)[span_47](end_span)</td><td><strong>मदिरा</strong></td><td>शराब, अहंकार का नशा[span_48](start_span)[span_48](end_span)</td></tr>
+          <tr><td><strong>घाटी</strong></td><td>पर्वतों के बीच का संकरा मार्ग[span_49](start_span)[span_49](end_span)</td><td><strong>कुहासा</strong></td><td>कुहरा, कुहेलिका, धुंध[span_50](start_span)[span_50](end_span)</td></tr>
+          <tr><td><strong>कटुता</strong></td><td>कड़वापन, ईर्ष्या-द्वेष[span_51](start_span)[span_51](end_span)</td><td><strong>मारुत</strong></td><td>वायु, हवा, पवन[span_52](start_span)[span_52](end_span)</td></tr>
+          <tr><td><strong>शमन</strong></td><td>दमन, शांति, शांत होना[span_53](start_span)[span_53](end_span)</td><td><strong>जयघोष</strong></td><td>जयजयकार, विजय-ध्वनि[span_54](start_span)[span_54](end_span)</td></tr>
+          <tr><td><strong>ज्वालाएँ</strong></td><td>अग्निशिखा, लपट, संताप व क्रोध[span_55](start_span)[span_55](end_span)</td><td><strong>साँसों के मुरदे</strong></td><td>जिंदा लाश, हताश व निष्प्राण जीवन[span_56](start_span)[span_56](end_span)</td></tr>
+          <tr><td><strong>क्षुब्ध</strong></td><td>व्याकुल, अशांत, कुपित[span_57](start_span)[span_57](end_span)</td><td><strong>अचीह्ना</strong></td><td>अनपहचाना, अनजान, अनदेखा[span_58](start_span)[span_58](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 6. Textbook Exercises: 2-3 Sentences -->
+  <section id="qa-short">
+    <h2 class="sec-title">📝 ६. प्रश्न और अभ्यास : दो-तीन वाक्यों में उत्तर (भाग १)</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>(क) मानव का जीवन प्रशान्त कैसे हो सकता है?</h4>
+        <p><strong>उत्तर:</strong> जब मनुष्य ममता, स्नेह और प्रेम की शीतल छाया में रहता है, तो उसके मन की कटुता और ईर्ष्या का स्वतः शमन हो जाता है[span_59](start_span)[span_59](end_span)। क्रोध और दुःख की ज्वालाएँ धुल जाने पर अंतर्मन के विकार दूर होते हैं और अशांत प्राण निर्मलता में प्रशांत होकर बहने लगते हैं[span_60](start_span)[span_60](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ख) दुनिया की रीति कौन-सी है?</h4>
+        <p><strong>उत्तर:</strong> दुनिया की रीति यह है कि यहाँ मनुष्य का तन (शरीर) सांसारिक कष्टों और परिस्थितियों को सहता है, जबकि मन आशा-निराशा और भावनाओं के प्रवाह में बहता रहता है[span_61](start_span)[span_61](end_span)। सुख और दुःख दोनों जीवन के अभिन्न अंग हैं[span_62](start_span)[span_62](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ग) मनुष्य को किसके बारे में सोचना नहीं चाहिए?</h4>
+        <p><strong>उत्तर:</strong> मनुष्य को इस बात पर बार-बार सोच-विचार नहीं करना चाहिए कि उसका बीता हुआ जीवन कष्टों, संतापों और दुःखों की ज्वाला में किस प्रकार बीता[span_63](start_span)[span_63](end_span)। अतीत के कष्टों को भूलकर वर्तमान में आशा के सपनों पर विश्वास करना चाहिए[span_64](start_span)[span_64](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(घ) साँसों के मुरदे न होने का आग्रह कवि ने क्यों किया है?</h4>
+        <p><strong>उत्तर:</strong> जो व्यक्ति निराशा, संदेह और भय के कारण आत्मविश्वास खो देता है, वह जीवित होते हुए भी एक 'जिंदा लाश' बन जाता है[span_65](start_span)[span_65](end_span)। संघर्षों से मुँह मोड़ना कायरता है; अतः कवि ने विश्वास और साहस के साथ सक्रिय जीवन जीने का आग्रह किया है[span_66](start_span)[span_66](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Questions: 1-2 Sentences -->
+  <section id="qa-oneline">
+    <h2 class="sec-title">📌 ७. प्रश्न और अभ्यास : एक या दो वाक्यों में उत्तर (भाग २)</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li><strong>(क) यदि फूल नहीं बो सकते तो क्या करना चाहिए?</strong><br>👉 यदि हम किसी के लिए सुख के फूल नहीं बो सकते, तो कम-से-कम उसके मार्ग में काँटे (दुःख) भी नहीं बोने चाहिए[span_67](start_span)[span_67](end_span)।</li>
+          <li><strong>(ख) कौन-सी घाटी अगम होती है?</strong><br>👉 ज्ञान, बुद्धि और आंतरिक बोध रूपी 'चेतना की घाटी' अगम (दुर्गम) होती है[span_68](start_span)[span_68](end_span)।</li>
+          <li><strong>(ग) किसको कमजोर कहा गया है?</strong><br>👉 मनुष्य के चंचल और संवेदनशील मन को कमजोर कहा गया है[span_69](start_span)[span_69](end_span)।</li>
+          <li><strong>(घ) संकट में अगर मुस्करा न सको तो क्या करना चाहिए?</strong><br>👉 संकट में यदि मुस्कुराना संभव न हो, तो कम-से-कम भय से कातर होकर रोना भी नहीं चाहिए[span_70](start_span)[span_70](end_span)।</li>
+          <li><strong>(ङ) चेतन किसे कहा गया है?</strong><br>👉 जो व्यक्ति सुख और संपन्नता के घमंड रूपी मदिरा के नशे में भी जाग्रत व सजग रहता है, उसे सच्चा चेतन कहा गया है[span_71](start_span)[span_71](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <ul>
+          <li><strong>(च) तुम अगर जाग नहीं सकते तो क्या करना चाहिए?</strong><br>👉 यदि तुम सुख में पूरी तरह जागकर सावधान नहीं रह सकते, तो कम-से-कम आलस्य की सेज बिछाकर सोना भी नहीं चाहिए[span_72](start_span)[span_72](end_span)।</li>
+          <li><strong>(छ) क्या करने से संकट का वेग कम नहीं होता?</strong><br>👉 संकट को अनसुना और अचीह्ना (अनदेखा) करने से उसका वेग कम नहीं होता[span_73](start_span)[span_73](end_span)।</li>
+          <li><strong>(ज) संशय के सूक्ष्म कुहासे में क्या नहीं होता?</strong><br>👉 संशय के सूक्ष्म कुहासे में विश्वास क्षण भर के लिए भी नहीं रमता (टिकता)[span_74](start_span)[span_74](end_span)।</li>
+          <li><strong>(झ) किसमें भी पवन का जयघोष नहीं थमता?</strong><br>👉 घने बादलों के घेरों में भी मारुत (पवन) का जयघोष नहीं थमता[span_75](start_span)[span_75](end_span)।</li>
+          <li><strong>(ञ) अगर विश्वासों पर न बढ़ सको तो कम-से-कम क्या नहीं ढोना चाहिए?</strong><br>👉 यदि विश्वास के बल पर आगे नहीं बढ़ सकते, तो साँसों के मुरदे (जिंदा लाश) बनकर जीवन नहीं ढोना चाहिए[span_76](start_span)[span_76](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. One-word Questions -->
+  <section id="qa-objective">
+    <h2 class="sec-title">🎯 ८. वस्तुनिष्ठ प्रश्न : एक-एक शब्द में उत्तर (भाग ३)</h2>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>क्रम</th>
+            <th>प्रश्न[span_77](start_span)[span_77](end_span)</th>
+            <th>सटीक उत्तर[span_78](start_span)[span_78](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>(क)</td><td>प्रस्तुत कविता के कवि कौन हैं?</td><td><span class="badge-tag gold">रामेश्वर शुक्ल 'अंचल[span_79](start_span)'[span_79](end_span)</span></td></tr>
+          <tr><td>(ख)</td><td>कम-से-कम क्या नहीं बोना चाहिए?</td><td><span class="badge-tag coral">काँटे[span_80](start_span)[span_80](end_span)</span></td></tr>
+          <tr><td>(ग)</td><td>चेतना की घाटी का स्वरूप कैसा है?</td><td><span class="badge-tag teal">अगम (दुर्गम)[span_81](start_span)[span_81](end_span)</span></td></tr>
+          <tr><td>(घ)</td><td>मानव के मन को क्या माना गया है?</td><td><span class="badge-tag coral">कमजोर[span_82](start_span)[span_82](end_span)</span></td></tr>
+          <tr><td>(ङ)</td><td>किसकी शीतल छाया में कटुता का शमन होता है?</td><td><span class="badge-tag green">ममता की[span_83](start_span)[span_83](end_span)</span></td></tr>
+          <tr><td>(च)</td><td>किसके धुल जाने से मुँदे नयन खुल जाते हैं?</td><td><span class="badge-tag coral">ज्वालाओं के[span_84](start_span)[span_84](end_span)</span></td></tr>
+          <tr><td>(छ)</td><td>किस पर विश्वास करना चाहिए?</td><td><span class="badge-tag blue">हर सपने पर[span_85](start_span)[span_85](end_span)</span></td></tr>
+          <tr><td>(ज)</td><td>सुख की कौन-सी मदिरा में जागने वाले को चेतन कहा गया है?</td><td><span class="badge-tag gold">अभिमानी[span_86](start_span)[span_86](end_span)</span></td></tr>
+          <tr><td>(झ)</td><td>संशय का कुहासा कैसा होता है?</td><td><span class="badge-tag blue">सूक्ष्म[span_87](start_span)[span_87](end_span)</span></td></tr>
+          <tr><td>(ञ)</td><td>किसके मुरदे ढोने के लिए मना किया गया है?</td><td><span class="badge-tag coral">साँसों के[span_88](start_span)[span_88](end_span)</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 9. Passage Explanations & Fill in the Blanks -->
+  <section id="reference-context">
+    <h2 class="sec-title">📖 ९. महत्वपूर्ण अवतरणों का अर्थ एवं रिक्त स्थान पूर्ति</h2>
+
+    <h3 class="sub-title">अवतरणों के अर्थ-स्पष्टीकरण (भाग ४)</h3>
+    <div class="compare">
+      <div class="card">
+        <h4>१. "यदि फूल नहीं बो सकते तो काँटे कम-से-कम मत बोओ ।"</h4>
+        <p><strong>अर्थ:</strong> यदि आपके पास दूसरों को सुख, शांति और आनंद देने का सामर्थ्य नहीं है, तो कम-से-कम अपने कटु वचनों या बुरे व्यवहार से किसी के मार्ग में बाधाएँ और दुःख मत उत्पन्न करो[span_89](start_span)[span_89](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>२. "ज्वालाएँ जब धुल जाती हैं, खुल-खुल जाते हैं मुँदे नयन ।"</h4>
+        <p><strong>अर्थ:</strong> जब अंतःकरण से क्रोध, ईर्ष्या और संताप की आग प्रेम व ममता के जल से धुल जाती है, तब अज्ञानता की पट्टी हटती है और विवेक के बंद नेत्र सत्य को देखने लगते हैं[span_90](start_span)[span_90](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>୩. "है अगम चेतना की घाटी ।"</h4>
+        <p><strong>अर्थ:</strong> उच्च जीवन-मूल्यों, आध्यात्मिक ज्ञान और आत्म-चेतना का मार्ग अत्यंत दुर्गम और गहरा है; इस पर चलने के लिए मन की दुर्बलताओं पर विजय पाना आवश्यक है[span_91](start_span)[span_91](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>୪. "सुख की अभिमानी मदिरा में जो जाग सका, वह है चेतन ।"</h4>
+        <p><strong>अर्थ:</strong> सांसारिक सुख-सुविधाओं में अहंकार का नशा छा जाना स्वाभाविक है; परंतु जो व्यक्ति ऐश्वर्य में भी आत्म-विस्मृत न होकर सजग और विनम्र रहता है, वही सच्चा ज्ञानी व जीवित पुरुष है[span_92](start_span)[span_92](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>୫. "यदि बढ़ न सको विश्वासों पर साँसों के मुरदे मत ढोओ ।"</h4>
+        <p><strong>अर्थ:</strong> यदि आप आशा और आत्मविश्वास के बल पर प्रगति-पथ पर आगे नहीं बढ़ सकते, तो हताशा और निराशा से घिरकर जिंदा लाश के समान व्यर्थ जीवन मत बिताओ[span_93](start_span)[span_93](end_span) ।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">रिक्त स्थानों की पूर्ति (भाग ५)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>क्रम</th>
+            <th>काव्य पंक्ति (रिक्त स्थान युक्त)[span_94](start_span)[span_94](end_span)</th>
+            <th>भरा जाने वाला शब्द[span_95](start_span)[span_95](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>(क)</td><td>है अगम <strong>चेतना</strong> की घाटी, कमजोर बड़ा मानव का <strong>मन</strong> ।</td><td><span class="badge-tag gold">चेतना / मन[span_96](start_span)[span_96](end_span)</span></td></tr>
+          <tr><td>(ख)</td><td>होकर निर्मलता में <strong>प्रशान्त</strong> बहता प्राणों का <strong>क्षुब्ध</strong> पवन ।</td><td><span class="badge-tag teal">प्रशान्त / क्षुब्ध[span_97](start_span)[span_97](end_span)</span></td></tr>
+          <tr><td>(ग)</td><td>हर <strong>सपने</strong> पर विश्वास करो, लो लगा चाँदनी का <strong>चन्दन</strong> ।</td><td><span class="badge-tag blue">सपने / चन्दन[span_98](start_span)[span_98](end_span)</span></td></tr>
+          <tr><td>(घ)</td><td><strong>सुख</strong> की अभिमानी मदिरा में जो <strong>जाग</strong> सका, वह है चेतन ।</td><td><span class="badge-tag green">सुख / जाग[span_99](start_span)[span_99](end_span)</span></td></tr>
+          <tr><td>(ङ)</td><td>संशय के सूक्ष्म <strong>कुहासे</strong> में <strong>विश्वास</strong> नहीं क्षण भर रमता ।</td><td><span class="badge-tag coral">कुहासे / विश्वास[span_100](start_span)[span_100](end_span)</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">सही विकल्प चुनकर लिखिए (भाग ६)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>प्रश्न[span_101](start_span)[span_101](end_span)</th>
+            <th>विकल्प[span_102](start_span)[span_102](end_span)</th>
+            <th>सही विकल्प[span_103](start_span)[span_103](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>किसके घेरों में मारुत का जयघोष नहीं थमता?</td>
+            <td>(i) शत्रुओं के (ii) मनुष्यों के (iii) बादलों के (iv) बिजली के[span_104](start_span)[span_104](end_span)</td>
+            <td><span class="badge-tag teal">(iii) बादलों के[span_105](start_span)[span_105](end_span)</span></td>
+          </tr>
+          <tr>
+            <td>किसमें बीते हुए जीवन को याद नहीं करना चाहिए?</td>
+            <td>(i) ज्वालाओं में (ii) दुःख में (iii) सुख में (iv) विपत्ति में[span_106](start_span)[span_106](end_span)</td>
+            <td><span class="badge-tag coral">(i) ज्वालाओं में[span_107](start_span)[span_107](end_span)</span></td>
+          </tr>
+          <tr>
+            <td>मानव के मन को कहा गया है —</td>
+            <td>(i) चंचल (ii) कमजोर (iii) चेतन (iv) सजग[span_108](start_span)[span_108](end_span)</td>
+            <td><span class="badge-tag gold">(ii) कमजोर[span_109](start_span)[span_109](end_span)</span></td>
+          </tr>
+          <tr>
+            <td>सुख की अभिमानी मदिरा में जीनेवाले (जागनेवाले) को कहा गया है —</td>
+            <td>(i) शराबी (ii) सुखी (iii) घमण्डी (iv) चेतन[span_110](start_span)[span_110](end_span)</td>
+            <td><span class="badge-tag green">(iv) चेतन[span_111](start_span)[span_111](end_span)</span></td>
+          </tr>
+          <tr>
+            <td>किसकी शीतल छाया में कटुता का शमन होता है?</td>
+            <td>(i) ममता की (ii) पेड़ की (iii) प्रेम की (iv) घर की[span_112](start_span)[span_112](end_span)</td>
+            <td><span class="badge-tag blue">(i) ममता की[span_113](start_span)[span_113](end_span)</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 10. Language Study / Grammar -->
+  <section id="grammar-lang">
+    <h2 class="sec-title">🔤 १०. भाषा-ज्ञान एवं व्याकरण अभ्यास</h2>
+
+    <!-- Rhyming Words -->
+    <h3 class="sub-title">१. तुकवाले शब्द (Rhyming Words)</h3>
+    <div class="callout def-box">
+      <strong>तुक की परिभाषा:</strong> शब्दों के अंत में आने वाले समान स्वर या वर्ण अंश को 'तुक' कहते हैं (जैसे—'नयन' और 'पवन' में 'न', 'ममता' और 'कटुता' में 'ता')[span_114](start_span)[span_114](end_span)।
+    </div>
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li><strong>नयन — पवन</strong>[span_115](start_span)[span_115](end_span) (अंतिम वर्ण 'न')</li>
+          <li><strong>चन्दन — जीवन</strong>[span_116](start_span)[span_116](end_span) (अंतिम वर्ण 'न')</li>
+          <li><strong>रोओ — बोओ — सोओ</strong>[span_117](start_span)[span_117](end_span) (अंतिम वर्ण 'ओ')</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <ul>
+          <li><strong>तन — मन — चेतन</strong>[span_118](start_span)[span_118](end_span) (अंतिम वर्ण 'न')</li>
+          <li><strong>जमता — कमता — रमता — थमता</strong>[span_119](start_span)[span_119](end_span) (अंतिम वर्ण 'ता')</li>
+          <li><strong>ममता — कटुता</strong>[span_120](start_span)[span_120](end_span) (अंतिम वर्ण 'ता')</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Adjectives -->
+    <h3 class="sub-title">२. कविता से विशेषण शब्दों की पहचान</h3>
+    <p>पाठ में प्रयुक्त प्रमुख विशेषण पद और उनके विशेष्य:</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>विशेषण शब्द[span_121](start_span)[span_121](end_span)</th>
+            <th>संबंधित विशेष्य (संज्ञा)</th>
+            <th>प्रकार / अर्थ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>अगम[span_122](start_span)[span_122](end_span)</strong></td><td>घाटी</td><td>गुणवाचक (दुर्गम, अथाह)</td></tr>
+          <tr><td><strong>कमजोर[span_123](start_span)[span_123](end_span)</strong></td><td>मन</td><td>गुणवाचक (दुर्बल)</td></tr>
+          <tr><td><strong>शीतल[span_124](start_span)[span_124](end_span)</strong></td><td>छाया</td><td>गुणवाचक (ठंडी)</td></tr>
+          <tr><td><strong>क्षुब्ध[span_125](start_span)[span_125](end_span)</strong></td><td>पवन</td><td>गुणवाचक (अशांत, व्याकुल)</td></tr>
+          <tr><td><strong>कातर[span_126](start_span)[span_126](end_span)</strong></td><td>मनुष्य / भाव</td><td>गुणवाचक (भयभीत, अधीर)</td></tr>
+          <tr><td><strong>अभिमानी[span_127](start_span)[span_127](end_span)</strong></td><td>मदिरा</td><td>गुणवाचक (गर्वपूर्ण)</td></tr>
+          <tr><td><strong>सूक्ष्म[span_128](start_span)[span_128](end_span)</strong></td><td>कुहासा</td><td>गुणवाचक (महीन, बारीक)</td></tr>
+          <tr><td><strong>प्रशान्त[span_129](start_span)[span_129](end_span)</strong></td><td>पवन / मन</td><td>गुणवाचक (अत्यंत शांत)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Prefix / Upsarg -->
+    <h3 class="sub-title">୩. उपसर्ग विचार : 'प्र' एवं अन्य उपसर्ग</h3>
+    <div class="callout example-box">
+      <strong>उपसर्ग की परिभाषा:</strong> जो शब्दांश किसी मूल शब्द के पूर्व (पहले) जुड़कर उसके अर्थ या भाव में नवीन विशेषता अथवा अधिकता लाते हैं, उन्हें <strong>उपसर्ग</strong> कहते हैं[span_130](start_span)[span_130](end_span)। पाठ में आया <strong>'प्रशान्त'</strong> शब्द 'प्र' (अधिकता सूचक) + 'शान्त' के मेल से बना है[span_131](start_span)[span_131](end_span)।
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>उपसर्ग[span_132](start_span)[span_132](end_span)</th>
+            <th>मूल शब्द</th>
+            <th>निर्मित नया शब्द</th>
+            <th>अर्थ में परिवर्तन</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>प्र-[span_133](start_span)[span_133](end_span)</strong></td>
+            <td>शान्त</td>
+            <td><strong>प्रशान्त[span_134](start_span)[span_134](end_span)</strong></td>
+            <td>अत्यधिक शांत, पूरी तरह स्थिर</td>
+          </tr>
+          <tr>
+            <td><strong>प्र-</strong></td>
+            <td>गति</td>
+            <td><strong>प्रगति</strong></td>
+            <td>आगे बढ़ना, विकास</td>
+          </tr>
+          <tr>
+            <td><strong>प्र-</strong></td>
+            <td>बल</td>
+            <td><strong>प्रबल</strong></td>
+            <td>अत्यंत शक्तिशाली</td>
+          </tr>
+          <tr>
+            <td><strong>प्र-</strong></td>
+            <td>भाव</td>
+            <td><strong>प्रभाव</strong></td>
+            <td>गहरी छाप, असर</td>
+          </tr>
+          <tr>
+            <td><strong>प्र-</strong></td>
+            <td>सार</td>
+            <td><strong>प्रसार</strong></td>
+            <td>विस्तार, फैलाव</td>
+          </tr>
+          <tr>
+            <td><strong>प्र-</strong></td>
+            <td>यत्न</td>
+            <td><strong>प्रयत्न</strong></td>
+            <td>विशेष प्रयास, चेष्टा</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० हिंदी • पद्य भाग : काँटे कम-से-कम मत बोओ (रामेश्वर शुक्ल 'अंचल') | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
