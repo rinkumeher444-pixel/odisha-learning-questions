@@ -1,0 +1,912 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>बोध — मुंशी प्रेमचन्द | कक्षा 10 हिंदी व्याख्यान नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Section Structure */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० हिंदी • गद्य खंड • विचार-बोध</div>
+    <h1>बोध : मुंशी प्रेमचन्द</h1>
+    <p>शिक्षक-पद की गरिमा, सामाजिक आडंबर बनाम आत्मिक संतोष, कर्म-फल का यथार्थ, विस्तृत सारांश, शब्दार्थ एवं संपूर्ण व्याकरण-अभ्यास।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#author">लेखक परिचय</a>
+    <a href="#summary">विचार-बोध एवं पाठ-सार</a>
+    <a href="#characters">प्रमुख पात्र एवं तुलनात्मक विवेचन</a>
+    <a href="#journey">अयोध्या यात्रा ও घटनाक्रम</a>
+    <a href="#realization">पंडित जी को 'बोध'</a>
+    <a href="#shabdarth">कठिन शब्दार्थ तालिका</a>
+    <a href="#qa-short">लघु एवं दीर्घ प्रश्नोत्तर</a>
+    <a href="#qa-oneline">एक-दो वाक्यीय प्रश्नोत्तर</a>
+    <a href="#qa-objective">एक शब्द प्रश्नोत्तर</a>
+    <a href="#grammar-practice">व्याकरण एवं भाषा-ज्ञान</a>
+  </nav>
+
+  <!-- 1. Author Introduction -->
+  <section id="author">
+    <h2 class="sec-title">✍️ १. लेखक परिचय : मुंशी प्रेमचन्द (१८८० – १९३६)</h2>
+    
+    <div class="compare">
+      <div class="card gold">
+        <h4>जीवन एवं प्रारंभिक संघर्ष</h4>
+        <ul>
+          <li><strong>जन्म:</strong> ३१ जुलाई, सन् १८८० को उत्तर प्रदेश में बनारस के पास <strong>लमही</strong> गाँव में एक कायस्थ परिवार में हुआ[span_0](start_span)[span_0](end_span)।</li>
+          <li><strong>मूल नाम:</strong> उनके बचपन का नाम <strong>धनपतराय</strong> था[span_1](start_span)[span_1](end_span)। पिता अजायब लाल डाक-मुंशी थे[span_2](start_span)[span_2](end_span)।</li>
+          <li><strong>कठिन परिस्थितियाँ:</strong> जब प्रेमचन्द सात वर्ष के थे, माता चल बसीं और चौदह वर्ष की उम्र में पिता का देहांत हो गया[span_3](start_span)[span_3](end_span)। उन्होंने ट्यूशन पढ़ाकर परिवार का भरण-पोषण किया[span_4](start_span)[span_4](end_span)।</li>
+          <li><strong>शिक्षा एवं आजीविका:</strong> उर्दू-फारसी की आरंभिक शिक्षा के बाद मैट्रिक उत्तीर्ण कर बीस रुपये वेतन पर अध्यापक बने; बाद में बी.ए. पास किया[span_5](start_span)[span_5](end_span)। सन् १९२१ में गोरखपुर में स्कूलों के डिप्टी इंस्पेक्टर बने, किंतु गांधीजी के असहयोग आंदोलन से प्रभावित होकर सरकारी नौकरी से त्यागपत्र दे दिया[span_6](start_span)[span_6](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card teal">
+        <h4>साहित्यिक अवदान एवं भाषा-शैली</h4>
+        <ul>
+          <li><strong>आरंभिक लेखन:</strong> सन् १९०१ के लगभग कहानियाँ लिखना शुरू किया; पहले उर्दू में 'नवाबराय' नाम से लिखते थे और कहानियाँ उर्दू पत्रिका 'ज़माना' में छपती थीं[span_7](start_span)[span_7](end_span)।</li>
+          <li><strong>संपादन एवं मुद्रण:</strong> 'मर्यादा', 'माधुरी' का संपादन किया; बनारस में 'सरस्वती प्रेस' की स्थापना कर 'हंस' (मासिक) तथा 'जागरण' (साप्ताहिक) का संपादन किया[span_8](start_span)[span_8](end_span)।</li>
+          <li><strong>यथार्थवादी दृष्टिकोण:</strong> हिंदी कथा-साहित्य में कल्पना के स्थान पर पहली बार आम आदमी, किसान, मजदूर, दलित और नारी-जीवन की विडंबनाओं को सजीव सहानुभूति के साथ चित्रित किया[span_9](start_span)[span_9](end_span)।</li>
+          <li><strong>भाषा-शैली:</strong> सरल, सजीव बोलचाल की हिंदुस्तानी भाषा जिसमें उर्दू, संस्कृत और देहाती शब्दों का सुंदर व स्वाभाविक सामंजस्य है[span_10](start_span)[span_10](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub-title">प्रमुख रचनाएँ</h3>
+    <div class="compare">
+      <div class="card blue">
+        <h4>कहानी-संग्रह एवं उपन्यास</h4>
+        <p><strong>कहानी-संग्रह:</strong> 'मानसरोवर' (आठ भागों में लगभग २५० से अधिक कहानियाँ)[span_11](start_span)[span_11](end_span) ।<br>
+        <strong>उपन्यास:</strong> सेवासदन, प्रेमाश्रम, रंगभूमि, कायाकल्प, निर्मला, गबन, कर्मभूमि, गोदान, मंगल-सूत्र (अपूर्ण) आदि[span_12](start_span)[span_12](end_span) ।</p>
+      </div>
+      <div class="card coral">
+        <h4>नाटक एवं निबंध-संग्रह</h4>
+        <p><strong>नाटक:</strong> कर्बला, संग्राम, प्रेम की वेदी[span_13](start_span)[span_13](end_span) ।<br>
+        <strong>निबंध-संग्रह:</strong> कुछ विचार, प्रेमचन्द विविध प्रसंग[span_14](start_span)[span_14](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Chapter Summary & Core Thought -->
+  <section id="summary">
+    <h2 class="sec-title">💡 २. विचार-बोध एवं कहानी का मूल संदेश</h2>
+    <p>
+      'बोध' कुशल कहानीकार प्रेमचन्द की एक अत्यंत मर्मस्पर्शी और मनोवैज्ञानिक कहानी है[span_15](start_span)[span_15](end_span)। मनुष्य प्रायः भौतिक धन, ठाट-बाट, रोब-दाब और अधिकारों के अहंकार में अंधा होकर दूसरों पर अन्याय और अत्याचार करता रहता है[span_16](start_span)[span_16](end_span)। परंतु वह भूल जाता है कि प्रकृति का शाश्वत नियम है—<strong>"जैसा बोओगे, वैसा काटोगे"</strong>[span_17](start_span)[span_17](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>कहानी का केंद्रीय भाव (शिक्षक पद की गरिमा):</strong><br>
+      पंडित चंद्रधर जीवन भर अध्यापन की नौकरी (मुदर्रिसी) को एक तुच्छ और कष्टप्रद 'जंजाल' समझकर अपने भाग्य को कोसते रहे[span_18](start_span)[span_18](end_span)। वे अपने धनी और रौबीले पड़ोसियों (थानेदार और सियाहेनवीस) के ठाट-बाट को देखकर कुढ़ते थे[span_19](start_span)[span_19](end_span)। परंतु अयोध्या-यात्रा के दौरान घटी घटनाओं ने उनकी आँखें खोल दीं[span_20](start_span)[span_20](end_span)। उन्हें बोध हुआ कि अनुचित अधिकारों से कमाया गया धन और झूठा रोब केवल भय और घृणा उत्पन्न करता है, जबकि एक सच्चे शिक्षक द्वारा दिया गया ज्ञान और संस्कार जीवन भर निष्कपट आदर, प्रेम और कृतज्ञता का फल प्रदान करते हैं[span_21](start_span)[span_21](end_span)।
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">पंडित जी की मुदर्रिसी व हीनभावना[span_22](start_span)[span_22](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">पड़ोसियों का रोब-दाब व अन्यायपूर्ण ठाट[span_23](start_span)[span_23](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">अयोध्या यात्रा : रेल व स्टेशन पर दुर्दशा[span_24](start_span)[span_24](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">पुराने शिष्य कृपाशंकर का आत्मीय सत्कार[span_25](start_span)[span_25](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">शिक्षक पद के वास्तविक गौरव का 'बोध[span_26](start_span)'[span_26](end_span)</div>
+    </div>
+  </section>
+
+  <!-- 3. Character Analysis -->
+  <section id="characters">
+    <h2 class="sec-title">👥 ३. प्रमुख पात्र एवं तुलनात्मक जीवन-शैली</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>पंडित चंद्रधर (अपर प्राइमरी स्कूल के अध्यापक)</h4>
+        <ul>
+          <li><strong>वेतन:</strong> मात्र १५ रुपये मासिक, जो आते ही खर्च हो जाते थे[span_27](start_span)[span_27](end_span)।</li>
+          <li><strong>मनोदशा:</strong> स्वयं को मजदूर से भी हीन समझकर मुदर्रिसी को कोसते थे; सोचते थे किसी अन्य विभाग में होते तो चार पैसे हाथ में होते[span_28](start_span)[span_28](end_span)।</li>
+          <li><strong>कर्तव्यनिष्ठा:</strong> असंतोष के बावजूद पढ़ाने में कभी त्रुटि न होने देते; ठीक समय पर जाते, देर से लौटते, मन लगाकर पढ़ाते[span_29](start_span)[span_29](end_span)। छात्र और गाँव वाले उन पर जान छिड़कते थे[span_30](start_span)[span_30](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card coral">
+        <h4>ठाकुर अतिबल सिंह (थाने के हेड कान्सटेबुल)</h4>
+        <ul>
+          <li><strong>जीवन-शैली:</strong> रोब-दाब, शाम को आरामकुर्सी पर लेटकर खुशबूदार खमीरा पीना[span_31](start_span)[span_31](end_span)।</li>
+          <li><strong>कार्यपद्धति:</strong> पद का दुरुपयोग, निर्दोषों को डंडों से पीटना, खुफिया-फरोशी का आरोप लगाकर रिश्वत (२५ रु.) वसूलना[span_32](start_span)[span_32](end_span)।</li>
+          <li><strong>परिणाम:</strong> रेल के डिब्बे में पुराने सताए मुसाफिरों द्वारा अपमानित व धक्के खाकर प्लेटफार्म पर गिरना[span_33](start_span)[span_33](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>मुंशी बैजनाथ (तहसील के सियाहेनवीस)</h4>
+        <ul>
+          <li><strong>जीवन-शैली:</strong> सुसज्जित कमरा, शराब-कबाब का व्यसन, नशा चढ़ने पर हारमोनियम बजाना[span_34](start_span)[span_34](end_span)।</li>
+          <li><strong>कार्यपद्धति:</strong> काश्तकारों और असामियों से लगान जमा करते समय डाँट-डपटकर रिश्वत ऐंठना[span_35](start_span)[span_35](end_span)।</li>
+          <li><strong>परिणाम:</strong> अत्यधिक शराब व खान-पान से हैजे जैसी हालत; स्टेशन पर पेड़ के नीचे पड़े रहना और कंपाउंडर चोखेलाल द्वारा फीस के नाम पर लूटा जाना[span_36](start_span)[span_36](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card green">
+        <h4>कृपाशंकर (पंडित जी के भूतपूर्व शिष्य)</h4>
+        <ul>
+          <li><strong>पहचान:</strong> बिल्हौर के भूतपूर्व डाक-मुंशी के पुत्र; पंडित जी के पुराने छात्र, जिन्होंने एंट्रेंस पास किया[span_37](start_span)[span_37](end_span)।</li>
+          <li><strong>वर्तमान पद:</strong> अयोध्या म्युनिसिपैलिटी में कर्मचारी[span_38](start_span)[span_38](end_span)।</li>
+          <li><strong>चरित्र:</strong> अत्यंत शालीन, विनीत, सेवाभावी और गुरु-भक्त; तीनों परिवारों को अपने विशाल घर में ठहराकर देव-तुल्य सेवा की[span_39](start_span)[span_39](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout mistake-box">
+      <strong>पड़ोसियों का छद्म उपकार:</strong><br>
+      ठाकुर साहब और मुंशी जी पंडित जी को कभी सेर-आध सेर दूध या तरकारी भेज देते थे और बाजार से सस्ती चीजें दिला देते थे[span_40](start_span)[span_40](end_span)। किंतु इसके बदले में पंडित जी को उनके पाँच बिगड़े लड़कों की निगरानी अपने गुलाम की तरह करनी पड़ती थी[span_41](start_span)[span_41](end_span)। पंडित जी इस अपमान को 'विष के घूँट' के समान पीते थे[span_42](start_span)[span_42](end_span)।
+    </div>
+  </section>
+
+  <!-- 4. The Journey to Ayodhya -->
+  <section id="journey">
+    <h2 class="sec-title">🚂 ४. अयोध्या यात्रा : कर्म-फल और अपमान का यथार्थ</h2>
+    <p>
+      सावन के महीने में ठाकुर साहब और मुंशी जी ने सपरिवार अयोध्या जी की तीर्थयात्रा का निश्चय किया[span_43](start_span)[span_43](end_span)। मेले-ठेले में 'फालतू आदमी' से काम निकालने के उद्देश्य से उन्होंने खर्च देने का प्रलोभन देकर पंडित चंद्रधर को भी साथ चलने को विवश किया[span_44](start_span)[span_44](end_span)। यात्रा बिल्हौर स्टेशन से रात्रि १ बजे आरंभ हुई[span_45](start_span)[span_45](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card coral">
+        <h4>घटना १ : रेल के डिब्बे में ठाकुर साहब की फजीहत</h4>
+        <ul>
+          <li>गाड़ी में अत्यधिक भीड़ थी[span_46](start_span)[span_46](end_span)। जिस कमरे में ठाकुर साहब घुसे, वहाँ चार यात्री लेटे हुए थे[span_47](start_span)[span_47](end_span)।</li>
+          <li>ठाकुर साहब ने रोब दिखाते हुए डाँटा, तो <strong>पहला मुसाफिर</strong> तनकर बोला— <em>"यह थाना नहीं है, जबान सँभाल कर बात कीजिए[span_48](start_span)[span_48](end_span)! मैं वही हूँ जिस पर आपने खुफिया-फरोशी का झूठा अपराध लगाकर २५ रुपये घूस ली थी[span_49](start_span)[span_49](end_span)।"</em></li>
+          <li><strong>दूसरा मुसाफिर</strong> ठट्ठा मारकर बोला— <em>"आपने कल के मेले में मुझे बेकसूर कई डंडे मारे थे और कचूमर निकाल दिया था[span_50](start_span)[span_50](end_span)। आज उसकी दवा मिलेगी[span_51](start_span)[span_51](end_span)!"</em></li>
+          <li>तीसरे स्टेशन पर दोनों मुसाफिरों ने ठाकुर साहब का सामान बाहर फेंक दिया और उन्हें ऐसा धक्का दिया कि वे प्लेटफार्म पर गिर पड़े[span_52](start_span)[span_52](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card coral">
+        <h4>घटना २ : चिकित्सालय में मुंशी बैजनाथ की दुर्दशा</h4>
+        <ul>
+          <li>मुंशी जी प्रत्येक स्टेशन पर शराब और कबाब उड़ाते रहे, जिससे पेट में मरोड़, उल्टी, दस्त और ज्वर हो गया[span_53](start_span)[span_53](end_span)।</li>
+          <li>लखनऊ के आगे विवश होकर एक स्टेशन पर उतरे; स्टेशन मास्टर ने हैजा समझकर अस्पताल के बाहर पेड़ के नीचे फेंकवा दिया[span_54](start_span)[span_54](end_span)। ट्रंक गाड़ी में ही छूट गया[span_55](start_span)[span_55](end_span)।</li>
+          <li>डिस्ट्रिक्ट बोर्ड के अस्पताल का कंपाउंडर <strong>चोखेलाल</strong> (जो बिल्हौर का ही रहने वाला था) मिल गया[span_56](start_span)[span_56](end_span)।</li>
+          <li>चोखेलाल ने पुरानी तहसील की रिश्वतखोरी का बदला लेते हुए कहा— <em>"जब तहसील में लगान जमा करने जाता हूँ, तो मुंशी जी डाँटकर अपना हक वसूलते हैं[span_57](start_span)[span_57](end_span)। कभी गाड़ी नाव पर, कभी नाव गाड़ी पर[span_58](start_span)[span_58](end_span)! मेरी फीस दस रुपये निकालिए और रुकने का दस रुपये रोज[span_59](start_span)[span_59](end_span)!"</em></li>
+          <li>मुंशियाइन का बीस रुपये का गहना औने-पौने बेचकर दवा का प्रबंध हुआ[span_60](start_span)[span_60](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Symbolic SVG Diagram: Contrast of Two Worlds -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 620 230" width="580" height="210" xmlns="http://www.w3.org/2000/svg">
+          <!-- Left Pillar: False Power -->
+          <rect x="40" y="30" width="240" height="150" rx="10" fill="#131d31" stroke="#f43f5e" stroke-width="2"/>
+          <text x="160" y="60" fill="#f43f5e" font-size="14" font-weight="bold" text-anchor="middle">अधिकार व रोब-दाब का अंत</text>
+          <text x="160" y="90" fill="#cbd5e1" font-size="11" text-anchor="middle">• रेलगाड़ी में धक्का व सामान फेंकना[span_61](start_span)[span_61](end_span)</text>
+          <text x="160" y="115" fill="#cbd5e1" font-size="11" text-anchor="middle">• अस्पताल में चोखेलाल द्वारा प्रतिशोध[span_62](start_span)[span_62](end_span)</text>
+          <text x="160" y="140" fill="#cbd5e1" font-size="11" text-anchor="middle">• खुले मैदान में बारिश और भय[span_63](start_span)[span_63](end_span)</text>
+          <text x="160" y="165" fill="#fca5a5" font-size="11" font-weight="600" text-anchor="middle">परिणाम: अपमान, पीड़ा ও भय[span_64](start_span)[span_64](end_span)</text>
+
+          <!-- Right Pillar: Selfless Teaching -->
+          <rect x="340" y="30" width="240" height="150" rx="10" fill="#131d31" stroke="#10b981" stroke-width="2"/>
+          <text x="460" y="60" fill="#10b981" font-size="14" font-weight="bold" text-anchor="middle">शिक्षक-धर्म का सच्चा प्रकाश</text>
+          <text x="460" y="90" fill="#cbd5e1" font-size="11" text-anchor="middle">• शिष्य कृपाशंकर का चरण-स्पर्श[span_65](start_span)[span_65](end_span)</text>
+          <text x="460" y="115" fill="#cbd5e1" font-size="11" text-anchor="middle">• विशाल भवन में स्नेहपूर्ण आश्रय[span_66](start_span)[span_66](end_span)</text>
+          <text x="460" y="140" fill="#cbd5e1" font-size="11" text-anchor="middle">• गरम पूरियाँ व तीर्थ-दर्शन की व्यवस्था[span_67](start_span)[span_67](end_span)</text>
+          <text x="460" y="165" fill="#6ee7b7" font-size="11" font-weight="600" text-anchor="middle">परिणाम: आदर, शांति ও आत्म-गौरव[span_68](start_span)[span_68](end_span)</text>
+
+          <line x1="280" y1="105" x2="340" y2="105" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 4"/>
+        </svg>
+        <figcaption>चित्र: यात्रा के दो अनुभव — अधिकार-मद की दुर्गति बनाम विद्या-दान का आलोक[span_69](start_span)[span_69](end_span)</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 5. Realization / Bodh -->
+  <section id="realization">
+    <h2 class="sec-title">🌟 ५. कृपाशंकर का सत्कार एवं पंडित जी को 'बोध'</h2>
+    <p>
+      अयोध्या पहुँचने पर किसी पंडे के यहाँ तिल धरने की जगह न थी[span_70](start_span)[span_70](end_span)। थक-हार कर सभी यात्री खुले मैदान में सरयू तट की गीली रेत पर बिस्तरा बिछाकर लेट गए[span_71](start_span)[span_71](end_span)। अचानक घटाटोप बादल घिर आए, बूँदें पड़ने लगीं, बिजली कड़कने लगी और स्त्रियों-बच्चों के कलेजे काँपने लगे[span_72](start_span)[span_72](end_span)। ऐसे संकट में एक व्यक्ति हाथ में लालटेन लिए देवदूत की भाँति प्रकट हुआ[span_73](start_span)[span_73](end_span)।
+    </p>
+
+    <div class="callout green-box activity-box">
+      <strong>शिष्य कृपाशंकर की कृतज्ञता:</strong><br>
+      वह व्यक्ति पंडित चंद्रधर का पुराना शिष्य <strong>कृपाशंकर</strong> था, जो अब अयोध्या म्युनिसिपैलिटी में नौकर था[span_74](start_span)[span_74](end_span)। उसने सादर पंडित जी के चरण छुए और कहा— <em>"मेरा बड़ा मकान खाली पड़ा है, चलिए आराम से रहिए[span_75](start_span)[span_75](end_span)। मेरा परम सौभाग्य है कि आपकी कुछ सेवा करने का अवसर मिला[span_76](start_span)[span_76](end_span)! आपके ही कारण आज मैं आदमी बना हूँ[span_77](start_span)[span_77](end_span)।"</em> उसने कुली बुलाकर सामान उठवाया, नौकरों से बिस्तर लगवाए, गरम पूरियों का प्रबंध किया और हाथ बाँधे सेवक की तरह सेवा में जुटा रहा[span_78](start_span)[span_78](end_span)।
+    </div>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>रात का आत्म-मंथन</h4>
+        <p>सब लोग खा-पीकर सो गए, किंतु पंडित चंद्रधर को नींद नहीं आई[span_79](start_span)[span_79](end_span)। उनकी विचार-शक्ति यात्रा की घटनाओं का विश्लेषण कर रही थी[span_80](start_span)[span_80](end_span)। रेलगाड़ी की रगड़-झगड़ और अस्पताल की नोच-खसोट के सम्मुख कृपाशंकर की निस्वार्थ सहायता और शालीनता सूर्य के प्रकाश की भाँति दैदीप्यमान दिख रही थी[span_81](start_span)[span_81](end_span)।</p>
+      </div>
+
+      <div class="card gold">
+        <h4>परम 'बोध' (ज्ञान की प्राप्ति)</h4>
+        <p>पंडित जी ने आज पहली बार समझा कि शिक्षक का पद कितना महान और गौरवशाली है[span_82](start_span)[span_82](end_span)। धन का रोब केवल भय दिखाता है, किंतु शिक्षा मनुष्य के हृदय में श्रद्धा और भक्ति का अमिट सिंहासन स्थापित करती है[span_83](start_span)[span_83](end_span)। घर लौटने पर उनके स्वभाव में भारी परिवर्तन आ गया; उन्होंने फिर कभी मुदर्रिसी छोड़ने या अन्य विभाग में जाने की चेष्टा नहीं की[span_84](start_span)[span_84](end_span)!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Vocabulary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ६. कठिन शब्दार्थ एवं पारिभाषिक तालिका</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>कठिन शब्द</th>
+            <th>मानक अर्थ</th>
+            <th>कठिन शब्द</th>
+            <th>मानक अर्थ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>बोध</strong></td><td>ज्ञान, जानकारी, आत्म-साक्षात्कार[span_85](start_span)[span_85](end_span)</td><td><strong>मुदर्रिसी</strong></td><td>अध्यापक की नौकरी, शिक्षकता[span_86](start_span)[span_86](end_span)</td></tr>
+          <tr><td><strong>जंजाल</strong></td><td>झंझट, बखेड़ा, उलझन[span_87](start_span)[span_87](end_span)</td><td><strong>मजूर</strong></td><td>मजदूर, श्रमिक[span_88](start_span)[span_88](end_span)</td></tr>
+          <tr><td><strong>सियाहेनवीस</strong></td><td>सरकारी खजाने में मालगुजारी/आय-व्यय लिखने वाला क्लर्क[span_89](start_span)[span_89](end_span)</td><td><strong>खमीरा</strong></td><td>सुगंधित तंबाकू का मिश्रण[span_90](start_span)[span_90](end_span)</td></tr>
+          <tr><td><strong>रोबदाब</strong></td><td>दबदबा, बड़प्पन की धाक[span_91](start_span)[span_91](end_span)</td><td><strong>टके में</strong></td><td>दो पैसे (अधन्ना) में[span_92](start_span)[span_92](end_span)</td></tr>
+          <tr><td><strong>ऊसर की खेती</strong></td><td>बंजर भूमि में खेती (जिसका फल मिलना अत्यंत दुर्लभ हो)[span_93](start_span)[span_93](end_span)</td><td><strong>खुफिया-फरोशी</strong></td><td>गुप्त अपराध का झूठा आरोप या अवैध व्यापार[span_94](start_span)[span_94](end_span)</td></tr>
+          <tr><td><strong>रियायत</strong></td><td>छूट, नरमी, रियायत[span_95](start_span)[span_95](end_span)</td><td><strong>कचूमर निकालना</strong></td><td>बुरी तरह पीटना/कुचलना[span_96](start_span)[span_96](end_span)</td></tr>
+          <tr><td><strong>हेठी</strong></td><td>तौहीन, अपमान, मानहानि[span_97](start_span)[span_97](end_span)</td><td><strong>विघाचन</strong></td><td>रुकावट, बाधा (पाचन क्रिया में विघ्न)[span_98](start_span)[span_98](end_span)</td></tr>
+          <tr><td><strong>विसूचिका</strong></td><td>हैजा, दस्त और कै की महामारी[span_99](start_span)[span_99](end_span)</td><td><strong>ढाढ़स</strong></td><td>तसल्ली, आश्वासन, धैर्य[span_100](start_span)[span_100](end_span)</td></tr>
+          <tr><td><strong>शालीनता</strong></td><td>विनम्रता, भद्रता, शिष्ट आचरण[span_101](start_span)[span_101](end_span)</td><td><strong>नोच-खसोट</strong></td><td>लूट-खसोट, छीना-झपटी[span_102](start_span)[span_102](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 7. Questions & Answers: 2-3 Sentences -->
+  <section id="qa-short">
+    <h2 class="sec-title">📝 ७. प्रश्न और अभ्यास : दो-तीन वाक्यों में उत्तर (भाग १)</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>(क) पण्डित चन्द्रधर हमेशा क्यों पछताया करते थे?</h4>
+        <p><strong>उत्तर:</strong> पंडित चंद्रधर मुदर्रिसी को एक व्यर्थ जंजाल मानते थे[span_103](start_span)[span_103](end_span)। महीने भर प्रतीक्षा करने के बाद केवल १५ रुपये मिलते थे, जिससे न खाने का सुख था न पहनने का आराम[span_104](start_span)[span_104](end_span)। वे सोचते थे कि किसी अन्य विभाग में होते तो चार पैसे हाथ में होते और चैन से रहते, इसलिए सदा पछताते थे[span_105](start_span)[span_105](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ख) पण्डितजी क्यों कहा करते थे कि 'हम से तो मजूर ही भले'?</h4>
+        <p><strong>उत्तर:</strong> पंडित जी का वेतन अत्यंत अल्प था और महीने भर काम करने पर भी परिवार का भरण-पोषण मुश्किल से होता था[span_106](start_span)[span_106](end_span)। मजदूर दिन भर काम करके शाम को अपनी मजदूरी नकद पा जाता है और निश्चिंत रहता है, जबकि अध्यापक महीने भर प्रतीक्षा कर भी अभाव में जीता है[span_107](start_span)[span_107](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ग) ठाकुर अतिबल सिंह और मुंशी बैजनाथ के लिए बाजार में कैसे अलग भाव था?</h4>
+        <p><strong>उत्तर:</strong> ठाकुर साहब थानेदार थे और मुंशी जी तहसील के कर्मचारी, इसलिए सारे इलाके में उनका भारी रोब-दाब था[span_108](start_span)[span_108](end_span)। बनिये डर के मारे उन्हें उठकर सलाम करते थे और चार पैसे की वस्तु टके (दो पैसे) में दे देते थे तथा लकड़ी-ईंधन मुफ्त में देते थे[span_109](start_span)[span_109](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(घ) ठाकुर साहब और मुंशीजी की कृपा के बदले में पण्डितजी को क्या करना पड़ता था?</h4>
+        <p><strong>उत्तर:</strong> दूध-सब्जी की थोड़ी-सी कृपा के बदले पंडित जी को ठाकुर साहब के दो और मुंशी जी के तीन उदंड लड़कों की दिन-रात निगरानी करनी पड़ती थी[span_110](start_span)[span_110](end_span)। दोनों पड़ोसी पंडित जी से ऐसा व्यवहार करते थे मानो वे उनके निजी गुलाम हों[span_111](start_span)[span_111](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ङ) अपनी दुरवस्था से निकलने के लिए पण्डितजी ने क्या किया?</h4>
+        <p><strong>उत्तर:</strong> उन्होंने शिक्षा विभाग की मुदर्रिसी से निकलने के लिए बड़े यत्न किए[span_112](start_span)[span_112](end_span)। अन्य विभागों में नौकरी हेतु प्रार्थना-पत्र लिखे और अफसरों की खुशामदें कीं, किंतु कहीं सफलता न मिली और वे अंत में हारकर बैठ रहे[span_113](start_span)[span_113](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(च) पण्डितजी पर अफसर लोग क्यों खुश थे?</h4>
+        <p><strong>उत्तर:</strong> पंडित जी काम में कभी त्रुटि न होने देते थे[span_114](start_span)[span_114](end_span)। वे ठीक समय पर पाठशाला जाते, देर करके आते और बच्चों को अत्यंत मन लगाकर पढ़ाते थे[span_115](start_span)[span_115](end_span)। छात्रों की संख्या बढ़ने और बस्ती के लोगों के संतुष्ट रहने के कारण अफसर उन पर बहुत प्रसन्न थे[span_116](start_span)[span_116](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(छ) पहले मुसाफिर ने ठाकुर अतिबल सिंह को गाड़ी में क्यों नहीं बैठने दिया?</h4>
+        <p><strong>उत्तर:</strong> पहला मुसाफिर वही व्यक्ति था जिस पर ठाकुर साहब ने थानेदारी के समय खुफिया-फरोशी का झूठा आरोप लगाया था और २५ रुपये रिश्वत लेकर छोड़ा था[span_117](start_span)[span_117](end_span)। वह थाने का बदला रेलगाड़ी में चुकाना चाहता था[span_118](start_span)[span_118](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ज) ठाकुर साहब ने दूसरे मुसाफिर का क्या बिगाड़ा था?</h4>
+        <p><strong>उत्तर:</strong> दूसरे मुसाफिर ने मेले में शांतिपूर्वक तमाशा देखते समय ठाकुर साहब से बिना किसी अपराध के कई डंडे खाए थे, जिससे उसका कचूमर निकल गया था[span_119](start_span)[span_119](end_span)। वह अपमान की उस चोट का बदला लेने के लिए खून का प्यासा हो रहा था[span_120](start_span)[span_120](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(झ) डाक्टर चोखेलाल मुंशी बैजनाथ से क्यों नाराज था?</h4>
+        <p><strong>उत्तर:</strong> चोखेलाल का घर बिल्हौर में था[span_121](start_span)[span_121](end_span)। जब वह अपनी जमीन का मालगुजारी लगान जमा करने तहसील जाता था, तो मुंशी बैजनाथ उसे डाँट-डपटकर रिश्वत ऐंठते थे और न देने पर दिन भर धूप में खड़ा रखते थे[span_122](start_span)[span_122](end_span)। इसी का बदला लेने के लिए चोखेलाल नाराज था[span_123](start_span)[span_123](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ञ) पण्डित चन्द्रधर को नींद क्यों नहीं आयी?</h4>
+        <p><strong>उत्तर:</strong> पंडित जी यात्रा की विचित्र घटनाओं पर विचार कर रहे थे[span_124](start_span)[span_124](end_span)। रेलगाड़ी में ठाकुर साहब का अपमान और अस्पताल में मुंशी जी की लूट के सम्मुख अपने शिष्य कृपाशंकर का निस्वार्थ सत्कार और श्रद्धा देखकर वे शिक्षक पद के सच्चे गौरव के चिंतन में मग्न थे[span_125](start_span)[span_125](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Questions & Answers: 1-2 Sentences -->
+  <section id="qa-oneline">
+    <h2 class="sec-title">📌 ८. प्रश्न और अभ्यास : एक या दो वाक्यों में उत्तर (भाग २)</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li><strong>(क) पण्डित चन्द्रधर ने कहाँ मुदर्रिसी की थी?</strong><br>👉 पंडित चंद्रधर ने एक अपर प्राइमरी स्कूल में मुदर्रिसी (शिक्षक की नौकरी) की थी[span_126](start_span)[span_126](end_span)।</li>
+          <li><strong>(ख) पण्डित जी के पड़ोस में कौन-कौन रहते थे?</strong><br>👉 उनके पड़ोस में थाने के हेड कांस्टेबल ठाकुर अतिबल सिंह और तहसील के सियाहेनवीस मुंशी बैजनाथ रहते थे[span_127](start_span)[span_127](end_span)।</li>
+          <li><strong>(ग) सन्ध्या को कचहरी से आने पर मुंशी बैजनाथ क्या करते थे?</strong><br>👉 वे अपने सुसज्जित कमरे में बैठकर शराब-कबाब का सेवन करते थे और नशा होने पर हारमोनियम बजाते थे[span_128](start_span)[span_128](end_span)।</li>
+          <li><strong>(घ) ठाकुर साहब शाम को क्या करते थे?</strong><br>👉 ठाकुर साहब शाम को आरामकुर्सी पर लेट जाते थे और खुशबूदार खमीरा पीते थे[span_129](start_span)[span_129](end_span)।</li>
+          <li><strong>(ङ) दोनों महाशयों को आते-जाते देखकर बनिये क्या करते थे?</strong><br>👉 बनिये उनके रोब-दाब के कारण उठकर झुककर सलाम करते थे और चार पैसे की चीज टके में दे देते थे[span_130](start_span)[span_130](end_span)।</li>
+          <li><strong>(च) पण्डित जी अपने भाग्य को क्यों कोसते थे?</strong><br>👉 वे अपने अल्प वेतन, अभावग्रस्त जीवन और पड़ोसियों के ठाट-बाट व अनुचित प्रभुत्व को देखकर अपने भाग्य को कोसते थे[span_131](start_span)[span_131](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <ul>
+          <li><strong>(छ) मुंशी जी ने पण्डितजी को किसका ख्याल रखने को कहा?</strong><br>👉 मुंशी जी ने अपने तीन लड़कों का ख्याल रखने को कहा क्योंकि वे आवारा हुए जा रहे थे[span_132](start_span)[span_132](end_span)।</li>
+          <li><strong>(ज) ऊसर की खेती किसे कहा गया है?</strong><br>👉 शिक्षा विभाग (मुदर्रिसी) में मिलने वाली वेतन-वृद्धि (इंक्रीमेंट) को ऊसर की खेती कहा गया है[span_133](start_span)[span_133](end_span)।</li>
+          <li><strong>(झ) पहले मुसाफिर पर कौन-सा अपराध लगाया गया था?</strong><br>👉 उस पर खुफिया-फरोशी का अपराध लगाया गया था और ठाकुर साहब नकद २५ रुपये लेकर टले थे[span_134](start_span)[span_134](end_span)।</li>
+          <li><strong>(ञ) दूसरे मुसाफिर ने ठाकुर साहब से नीचे बैठने को क्या कहा?</strong><br>👉 उसने व्यंग्य किया कि आप ही नीचे क्यों नहीं बैठ जाते, इसमें कौन-सी हेठी हुई जाती है; यह कोई थाना थोड़े ही है[span_135](start_span)[span_135](end_span)!</li>
+          <li><strong>(ट) कृपाशंकर ने कौन-सी परीक्षा पास की थी और कहाँ तैनात था?</strong><br>👉 कृपाशंकर ने एंट्रेंस पास किया था और वह अयोध्या म्युनिसिपैलिटी में नौकर था[span_136](start_span)[span_136](end_span)।</li>
+          <li><strong>(ठ) पण्डित जी को किस बात का बोध हुआ?</strong><br>👉 पंडित जी को शिक्षक पद की वास्तविक महानता, आत्मिक सम्मान और अमर गौरव का बोध हुआ[span_137](start_span)[span_137](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Objective One-Word Questions -->
+  <section id="qa-objective">
+    <h2 class="sec-title">🎯 ९. वस्तुनिष्ठ प्रश्न : एक-एक शब्द में उत्तर (भाग ३)</h2>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>क्रम</th>
+            <th>प्रश्न</th>
+            <th>सटीक एक-शब्द उत्तर</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>(क)</td><td>'बोध' कहानी किसने लिखी है?[span_138](start_span)[span_138](end_span)</td><td><span class="badge-tag gold">मुंशी प्रेमचन्द[span_139](start_span)[span_139](end_span)</span></td></tr>
+          <tr><td>(ख)</td><td>पण्डित चन्द्रधर ने अपर प्राइमरी में कौन-सी नौकरी की थी?[span_140](start_span)[span_140](end_span)</td><td><span class="badge-tag teal">मुदर्रिसी (शिक्षक)[span_141](start_span)[span_141](end_span)</span></td></tr>
+          <tr><td>(ग)</td><td>कौन सदा पछताया करते थे कि कहाँ से इस जंजाल में आ फँसे?[span_142](start_span)[span_142](end_span)</td><td><span class="badge-tag blue">पण्डित चन्द्रधर[span_143](start_span)[span_143](end_span)</span></td></tr>
+          <tr><td>(घ)</td><td>महीने भर प्रतीक्षा के बाद पण्डित जी को कितने रुपये देखने को मिलते थे?[span_144](start_span)[span_144](end_span)</td><td><span class="badge-tag coral">पंद्रह रुपये[span_145](start_span)[span_145](end_span)</span></td></tr>
+          <tr><td>(ङ)</td><td>तहसील में सियाहेनवीस कौन था?[span_146](start_span)[span_146](end_span)</td><td><span class="badge-tag gold">मुंशी बैजनाथ[span_147](start_span)[span_147](end_span)</span></td></tr>
+          <tr><td>(च)</td><td>ठाकुर साहब आराम कुर्सी पर लेटकर क्या पीते थे?[span_148](start_span)[span_148](end_span)</td><td><span class="badge-tag teal">खमीरा (तंबाकू)[span_149](start_span)[span_149](end_span)</span></td></tr>
+          <tr><td>(छ)</td><td>मुंशी जी को कौन-सा व्यसन था?[span_150](start_span)[span_150](end_span)</td><td><span class="badge-tag coral">शराब-कबाब का[span_151](start_span)[span_151](end_span)</span></td></tr>
+          <tr><td>(ज)</td><td>अफसर लोग किस पर खुश थे?[span_152](start_span)[span_152](end_span)</td><td><span class="badge-tag green">पण्डित चन्द्रधर पर[span_153](start_span)[span_153](end_span)</span></td></tr>
+          <tr><td>(झ)</td><td>वेतन-वृद्धि को किसकी खेती कहा गया है?[span_154](start_span)[span_154](end_span)</td><td><span class="badge-tag coral">ऊसर की खेती[span_155](start_span)[span_155](end_span)</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 10. Language & Grammar Exercises from PDF Pages 62-66 -->
+  <section id="grammar-practice">
+    <h2 class="sec-title">🔤 १०. भाषा-ज्ञान एवं संपूर्ण व्याकरण कार्य (पृष्ठ ६२-६୬)</h2>
+
+    <h3 class="sub-title">१. पाठ्यपुस्तक कारक अभ्यास प्रश्न (पृष्ठ ६४ व ६६)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>वाक्य</th>
+            <th>रेखांकित / प्रमुख पद</th>
+            <th>कारक एवं कारण</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>खुले मैदान में, रेत पर पड़े रहने के सिवा और कोई उपाय न था[span_156](start_span)[span_156](end_span)।</td>
+            <td>मैदान में, रेत पर[span_157](start_span)[span_157](end_span)</td>
+            <td><strong>अधिकरण कारक[span_158](start_span)[span_158](end_span)</strong> (क्रिया का आधार)</td>
+          </tr>
+          <tr>
+            <td>मुझे भी तुमसे मिल कर बड़ा आनन्द हुआ[span_159](start_span)[span_159](end_span)।</td>
+            <td>तुमसे[span_160](start_span)[span_160](end_span)</td>
+            <td><strong>करण कारक[span_161](start_span)[span_161](end_span)</strong> (मिलन का माध्यम)</td>
+          </tr>
+          <tr>
+            <td>मेरा परम सौभाग्य है कि आपकी कुछ सेवा करने का अवसर मिला[span_162](start_span)[span_162](end_span)।</td>
+            <td>आपकी / सेवा करने का[span_163](start_span)[span_163](end_span)</td>
+            <td><strong>संबंध कारक[span_164](start_span)[span_164](end_span)</strong> (संबंध सूचक का/की)</td>
+          </tr>
+          <tr>
+            <td>रेलगाड़ी की रगड़-झगड़ और चिकित्सालय की नोच-खसोट के सम्मुख...[span_165](start_span)[span_165](end_span)</td>
+            <td>रेलगाड़ी की / चिकित्सालय की[span_166](start_span)[span_166](end_span)</td>
+            <td><strong>संबंध कारक[span_167](start_span)[span_167](end_span)</strong></td>
+          </tr>
+          <tr>
+            <td>मुसाफिर ने क्रोधपूर्ण नेत्रों से देखा[span_168](start_span)[span_168](end_span)।</td>
+            <td>नेत्रों से[span_169](start_span)[span_169](end_span)</td>
+            <td><strong>करण कारक[span_170](start_span)[span_170](end_span)</strong> (देखने का साधन)</td>
+          </tr>
+          <tr>
+            <td>दारोगा जी ने अपने मित्र की बुरी दशा देखी[span_171](start_span)[span_171](end_span)।</td>
+            <td>मित्र की[span_172](start_span)[span_172](end_span)</td>
+            <td><strong>संबंध कारक[span_173](start_span)[span_173](end_span)</strong></td>
+          </tr>
+          <tr>
+            <td>कृपाशंकर ने कई कुली बुलाये[span_174](start_span)[span_174](end_span)।</td>
+            <td>कई कुली[span_175](start_span)[span_175](end_span)</td>
+            <td><strong>कर्म कारक[span_176](start_span)[span_176](end_span)</strong> (बुलाने की क्रिया का फल)</td>
+          </tr>
+          <tr>
+            <td>वे लोग मुंशी जी को एक पेड़ के नीचे उठा ले गये[span_177](start_span)[span_177](end_span)।</td>
+            <td>मुंशी जी को[span_178](start_span)[span_178](end_span)</td>
+            <td><strong>कर्म कारक[span_179](start_span)[span_179](end_span)</strong></td>
+          </tr>
+          <tr>
+            <td>मुंशी जी को शराब-कबाब का व्यसन था[span_180](start_span)[span_180](end_span)।</td>
+            <td>मुंशी जी को[span_181](start_span)[span_181](end_span)</td>
+            <td><strong>कर्म / संप्रदान कारक[span_182](start_span)[span_182](end_span)</strong></td>
+          </tr>
+          <tr>
+            <td>माता ने बच्चे को सुलाया[span_183](start_span)[span_183](end_span)।</td>
+            <td>माता ने (कर्ता) / बच्चे को (कर्म)[span_184](start_span)[span_184](end_span)</td>
+            <td><strong>कर्ता कारक एवं कर्म कारक[span_185](start_span)[span_185](end_span)</strong></td>
+          </tr>
+          <tr>
+            <td>ठाकुर साहब गाड़ी से उतरने लगे[span_186](start_span)[span_186](end_span)।</td>
+            <td>गाड़ी से[span_187](start_span)[span_187](end_span)</td>
+            <td><strong>अपादान कारक[span_188](start_span)[span_188](end_span)</strong> (अलग होने का भाव)</td>
+          </tr>
+          <tr>
+            <td>लोग आदर से डाक्टर कहा करते थे[span_189](start_span)[span_189](end_span)।</td>
+            <td>आदर से[span_190](start_span)[span_190](end_span)</td>
+            <td><strong>करण कारक[span_191](start_span)[span_191](end_span)</strong> (रीति/भाव)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">२. उपयुक्त परसर्गों द्वारा रिक्त स्थान पूर्ति (पृष्ठ ६५)</h3>
+    <div class="compare">
+      <div class="card teal">
+        <p><strong>(क)</strong> अब तक हाथ <strong>में</strong> चार पैसे होते, आराम <strong>से</strong> जीवन व्यतीत होता[span_192](start_span)[span_192](end_span) ।</p>
+        <p><strong>(ख)</strong> मैं <strong>ने</strong> तुम्हारे साथ रियायत <strong>की</strong> थी[span_193](start_span)[span_193](end_span) ।</p>
+      </div>
+      <div class="card gold">
+        <p><strong>(ग)</strong> आपने <strong>मेरी</strong> सूरत न देखी होगी, पर आपके डंड <strong>की मार</strong> देखी है[span_194](start_span)[span_194](end_span) ।</p>
+        <p><strong>(घ)</strong> खुले मैदान <strong>में</strong>, रेत <strong>पर</strong> खड़े थे[span_195](start_span)[span_195](end_span) ।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">३. भाववाचक संज्ञा निर्माण (पृष्ठ ६५)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>मूल शब्द</th>
+            <th>भाववाचक संज्ञा रूप</th>
+            <th>मूल शब्द</th>
+            <th>भाववाचक संज्ञा रूप</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>पण्डित[span_196](start_span)[span_196](end_span)</td><td><strong>पाण्डित्य</strong></td><td>बुरा[span_197](start_span)[span_197](end_span)</td><td><strong>बुराई</strong></td></tr>
+          <tr><td>मौजूद[span_198](start_span)[span_198](end_span)</td><td><strong>मौजूदगी</strong></td><td>अच्छा[span_199](start_span)[span_199](end_span)</td><td><strong>अच्छाई</strong></td></tr>
+          <tr><td>प्रभु[span_200](start_span)[span_200](end_span)</td><td><strong>प्रभुता / प्रभुत्व</strong></td><td>विनम्र[span_201](start_span)[span_201](end_span)</td><td><strong>विनम्रता</strong></td></tr>
+          <tr><td>शालीन[span_202](start_span)[span_202](end_span)</td><td><strong>शालीनता</strong></td><td>महान्[span_203](start_span)[span_203](end_span)</td><td><strong>महानता / महत्ता</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">४. संज्ञा भेद पहचान (पृष्ठ ६५)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>वाक्य</th>
+            <th>पद</th>
+            <th>संज्ञा का भेद</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>जरा जबान सँभाल कर बातें कीजिए[span_204](start_span)[span_204](end_span)।</td><td>जबान[span_205](start_span)[span_205](end_span)</td><td><strong>जातिवाचक संज्ञा[span_206](start_span)[span_206](end_span)</strong> (शरीर का अंग)</td></tr>
+          <tr><td>इन दोनों दुष्टों ने उनका असबाब फेंक दिया[span_207](start_span)[span_207](end_span)।</td><td>असबाब[span_208](start_span)[span_208](end_span)</td><td><strong>द्रव्यवाचक / जातिवाचक संज्ञा[span_209](start_span)[span_209](end_span)</strong> (सामान)</td></tr>
+          <tr><td>प्रत्येक स्टेशन पर कोयला-पानी ले लेते थे[span_210](start_span)[span_210](end_span)।</td><td>कोयला-पानी[span_211](start_span)[span_211](end_span)</td><td><strong>द्रव्यवाचक संज्ञा[span_212](start_span)[span_212](end_span)</strong> (पदार्थ)</td></tr>
+          <tr><td>लोगों की जान में जान आयी[span_213](start_span)[span_213](end_span)।</td><td>जान[span_214](start_span)[span_214](end_span)</td><td><strong>भाववाचक संज्ञा[span_215](start_span)[span_215](end_span)</strong> (जीवन/चेतना)</td></tr>
+          <tr><td>कृपाशंकर ने पण्डित जी के चरण छुए[span_216](start_span)[span_216](end_span)।</td><td>कृपाशंकर[span_217](start_span)[span_217](end_span)</td><td><strong>व्यक्तिवाचक संज्ञा[span_218](start_span)[span_218](end_span)</strong> (व्यक्ति विशेष)</td></tr>
+          <tr><td>मेले-ठेले में एक फालतू आदमी से बड़े काम निकलते हैं[span_219](start_span)[span_219](end_span)।</td><td>मेले-ठेले[span_220](start_span)[span_220](end_span)</td><td><strong>समूहवाचक / जातिवाचक संज्ञा[span_221](start_span)[span_221](end_span)</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० हिंदी • गद्य विधा : बोध (मुंशी प्रेमचन्द) एवं व्यावहारिक व्याकरण | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
