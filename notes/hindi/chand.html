@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>चाँद का झिंगोला — राष्ट्रकवि रामधारी सिंह 'दिनकर' | कक्षा 10 हिंदी व्याख्यान नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Section Structure */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Poem Card */
+    .poem-card {
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(20, 184, 166, 0.05) 100%);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      border-radius: var(--radius-md);
+      padding: 26px 20px;
+      margin: 20px 0;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .poem-text {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fef08a;
+      line-height: 2.1;
+      letter-spacing: 0.5px;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+      .poem-text { font-size: 1.1rem; line-height: 1.9; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० हिंदी • पद्य भाग • बाल-कविता एवं व्यंग्य</div>
+    <h1>चाँद का झिंगोला : रामधारी सिंह 'दिनकर'</h1>
+    <p>कवि परिचय, कविता का मूल पाठ, विस्तृत पद्यांश व्याख्या, शब्दार्थ, प्रश्नोत्तर एवं संपूर्ण भाषा-ज्ञान (विलोम ও वचन परिवर्तन)।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#author">कवि परिचय</a>
+    <a href="#poem-core">कविता का केंद्रीय भाव</a>
+    <a href="#poem-text">मूल कविता पाठ</a>
+    <a href="#stanza-analysis">पद्यांश-वार व्याख्या</a>
+    <a href="#shabdarth">शब्दार्थ तालिका</a>
+    <a href="#qa-short">लघु उत्तरीय प्रश्न</a>
+    <a href="#qa-oneline">एक वाक्य प्रश्नोत्तर</a>
+    <a href="#grammar-lang">भाषा-ज्ञान (व्याकरण)</a>
+  </nav>
+
+  <!-- 1. Poet Introduction -->
+  <section id="author">
+    <h2 class="sec-title">🪶 १. कवि परिचय : राष्ट्रकवि रामधारी सिंह 'दिनकर'</h2>
+
+    <div class="compare">
+      <div class="card gold">
+        <h4>जीवन एवं शिक्षा</h4>
+        <ul>
+          <li><strong>जन्म:</strong> 30 सितंबर, सन् <strong>1908</strong> को सिमरिया घाट, मुंगेर (बिहार) में हुआ[span_0](start_span)[span_0](end_span)।</li>
+          <li><strong>प्रारंभिक ख्याति:</strong> छात्रावस्था में ही 'दिनकर' जी का ओजस्वी कवि-रूप सामने आ गया था[span_1](start_span)[span_1](end_span)। उन्हें हिंदी साहित्य में <strong>शौर्य और वीरता के प्रमुख कवि</strong> माना जाता है[span_2](start_span)[span_2](end_span)।</li>
+          <li><strong>प्रतिभा का विस्तार:</strong> गद्य और पद्य दोनों विधाओं में उनकी बहुमुखी प्रतिभा का प्रसार रहा है[span_3](start_span)[span_3](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card teal">
+        <h4>साहित्यिक सम्मान एवं रचनाएँ</h4>
+        <ul>
+          <li><strong>संसदीय योगदान:</strong> 'दिनकर' जी भारतीय संसद के <strong>राज्यसभा के सम्मानित सदस्य</strong> रहे[span_4](start_span)[span_4](end_span)।</li>
+          <li><strong>प्रमुख पुरस्कार:</strong> भारत सरकार ने उन्हें <strong>'पद्मभूषण'</strong> की उपाधि से अलंकृत किया तथा उनके प्रसिद्ध महाकाव्य <strong>'उर्वशी' के लिए ज्ञानपीठ पुरस्कार</strong> प्रदान किया गया[span_5](start_span)[span_5](end_span)।</li>
+          <li><strong>प्रमुख काव्य ग्रंथ:</strong> रेणुका, हुंकार, रसवंती, कुरुक्षेत्र, रश्मिरथी, उर्वशी, हारे को हरिनाम, बापू, दिल्ली इत्यादि[span_6](start_span)[span_6](end_span)।</li>
+          <li><strong>प्रमुख गद्य ग्रंथ:</strong> देश-विदेश, मेरी यात्राएँ, अर्द्धनारीश्वर, मिट्टी की ओर, रेती के फूल, संस्कृति के चार अध्याय इत्यादि[span_7](start_span)[span_7](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Poem Core Theme -->
+  <section id="poem-core">
+    <h2 class="sec-title">💡 २. कविता का केंद्रीय भाव व व्यंग्य</h2>
+    <p>
+      सामान्यतः बच्चों के शरीर की वृद्धि के साथ उनके कपड़े छोटे हो जाते हैं, इसलिए उनकी पोशाकें थोड़े बड़े आकार (साइज) की बना ली जाती हैं[span_8](start_span)[span_8](end_span)। किंतु आसमान में चमकने वाला चाँद हर दिन घटता और बढ़ता रहता है और अमावस्या के दिन तो बिल्कुल दिखाई ही नहीं देता[span_9](start_span)[span_9](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>हास्य, मज़ाक ও व्यंग्य:</strong><br>
+      इस कविता में चाँद की इस घटती-बढ़ती कला (अस्थिर आकार) को आधार बनाकर एक बहुत ही सुंदर और हास्यपूर्ण कल्पना की गई है[span_10](start_span)[span_10](end_span)। चाँद अपनी माँ से ऊन का मोटा झिंगोला (अंगरखा/कुर्ता) सिलवाने की जिद्द करता है[span_11](start_span)[span_11](end_span), ताकि वह जाड़े की ठिठुरन भरी रात की यात्रा पूरी कर सके[span_12](start_span)[span_12](end_span)। इस पर माँ बड़ी सहजता से समझाती है कि जो वस्तु <strong>सदा अस्थिर (घटती-बढ़ती)</strong> रहती है, उसके लिए एक निश्चित नाप का कुर्ता कैसे सिला जा सकता है[span_13](start_span)[span_13](end_span)?
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">चाँद की जिद्द (ऊन का मोटा झिंगोला)[span_14](start_span)[span_14](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">जाड़े की ठंड व रात की लंबी यात्रा[span_15](start_span)[span_15](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">माँ की असमंजस व वात्सल्य भरी चिंता[span_16](start_span)[span_16](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">चाँद का आकार रोज़ बदलना (घटना-बढ़ना)[span_17](start_span)[span_17](end_span)</div>
+    </div>
+  </section>
+
+  <!-- 3. Original Poem Text -->
+  <section id="poem-text">
+    <h2 class="sec-title">📜 ३. मूल कविता पाठ : चाँद का झिंगोला</h2>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        हठ कर बैठा चाँद एक दिन, माता से वह बोला,<br>
+        "सिलवा दो माँ, मुझे ऊन का, मोटा एक झिंगोला ।<br>
+        सन-सन चलती हवा रात भर, जाड़े से मरता हूँ,<br>
+        ठिठुर-ठिठुर कर किसी तरह, यात्रा पूरी करता हूँ ।<br>
+        आसमान का सफर और यह, मौसम है जाड़े का,<br>
+        न हो अगर तो ला दो कुरता ही कोई भाड़े का ।[span_18](start_span)"[span_18](end_span)
+      </p>
+    </div>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        बच्चे की सुन बात कहा माता ने, "अरे सलोने !<br>
+        कुशल करे भगवान, लगें मत, तुझको जादू-টোने ।<br>
+        जाड़े की तो बात ठीक है, पर मैं तो डरती हूँ,<br>
+        एक नाप में कभी नहीं, तुझको देखा करती हूँ ।<br>
+        कभी एक उँगल भर चौड़ा, कभी एक फुट मोटा,<br>
+        बड़ा किसी दिन हो जाता है, और किसी दिन چھوٹಾ ।<br>
+        घटना-बढ़ता रोज, किसी दिन, ऐसा भी करता है,<br>
+        नहीं किसी की आँखों का, तू दिखलाई पड़ता है ।<br>
+        अब तू ही यह बता, नाप तेरी किस रोज लिवाएँ,<br>
+        सी दें एक झिंगोला जो, हर रोज बदन में आए?[span_19](start_span)"[span_19](end_span)
+      </p>
+    </div>
+  </section>
+
+  <!-- 4. Stanza Analysis -->
+  <section id="stanza-analysis">
+    <h2 class="sec-title">🔍 ४. पद्यांश-वार विस्तृत भावार्थ एवं व्याख्या</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>पद्यांश १ : चाँद की जिद्द और जाड़े की पीड़ा</h4>
+        <p><strong>व्याख्या:</strong> एक दिन चाँद हठ (जिद्द) करके अपनी माता से बोला कि हे माँ! मुझे ऊन का एक मोटा झिंगोला (छोटा कुर्ता या अंगरखा) सिलवा दो[span_20](start_span)[span_20](end_span)। रात भर सन-सन करती ठंडी हवा चलती है, जिससे मैं जाड़े (शीत) के मारे काँप जाता हूँ[span_21](start_span)[span_21](end_span)। इस प्रकार ठिठुर-ठिठुर कर मैं किसी तरह अपनी आकाश की लंबी यात्रा पूरी करता हूँ[span_22](start_span)[span_22](end_span)। ऊपर से आसमान का लंबा सफर और ऊपर से जाड़े का मौसम है[span_23](start_span)[span_23](end_span)। यदि नया कुर्ता न सिलवा सको, तो किराए का ही कोई कुर्ता ला दो[span_24](start_span)[span_24](end_span)!</p>
+      </div>
+
+      <div class="card gold">
+        <h4>पद्यांश २ : माता का असमंजस और नाप की समस्या</h4>
+        <p><strong>व्याख्या:</strong> बच्चे चाँद की ऐसी भोली बात सुनकर माता स्नेह से बोल उठीं— "अरे सुंदर पुत्र! भगवान तुम्हारी कुशलता करें, तुम्हें किसी की बुरी नजर या जादू-टोना न लगे[span_25](start_span)[span_25](end_span)।" जाड़े की बात तो ठीक है, ठंड तुम्हें लगती होगी, किंतु माँ कहती है कि मैं इसलिए डरती हूँ क्योंकि मैं कभी भी तुम्हें एक ही नाप का नहीं देखती[span_26](start_span)[span_26](end_span)। कभी तुम एक उँगल भर चौड़े होते हो, कभी एक फुट मोटे हो जाते हो; किसी दिन बहुत बड़े हो जाते हो और किसी दिन बहुत छोटे[span_27](start_span)[span_27](end_span)। रोज घटते-बढ़ते तुम किसी दिन ऐसे हो जाते हो कि किसी को दिखाई ही नहीं देते (अमावस्या)[span_28](start_span)[span_28](end_span)। अब तुम ही बताओ कि तुम्हारी नाप किस दिन ली जाए, जिससे ऐसा झिंगोला सिला जाए जो रोज तुम्हारे बदन में फिट आ सके[span_29](start_span)[span_29](end_span)?</p>
+      </div>
+    </div>
+
+    <!-- Embedded SVG Diagram -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 600 200" width="560" height="180" xmlns="http://www.w3.org/2000/svg">
+          <!-- Moon Phases Graphic -->
+          <!-- Crescent -->
+          <circle cx="100" cy="80" r="30" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+          <circle cx="112" cy="80" r="26" fill="#141d2e"/>
+          <text x="100" y="135" fill="#fde68a" font-size="11" font-weight="bold" text-anchor="middle">छोटा (उछलता हुआ)[span_30](start_span)[span_30](end_span)</text>
+
+          <!-- Half Moon -->
+          <path d="M 300,50 A 30,30 0 0,1 300,110 Z" fill="#f59e0b"/>
+          <path d="M 300,50 A 30,30 0 0,0 300,110 Z" fill="#1e293b"/>
+          <circle cx="300" cy="80" r="30" fill="none" stroke="#38bdf8" stroke-width="2"/>
+          <text x="300" y="135" fill="#bae6fd" font-size="11" font-weight="bold" text-anchor="middle">बढ़ता हुआ (कभी एक फुट)[span_31](start_span)[span_31](end_span)</text>
+
+          <!-- Full Moon -->
+          <circle cx="500" cy="80" r="30" fill="#f59e0b"/>
+          <text x="500" y="135" fill="#5eead4" font-size="11" font-weight="bold" text-anchor="middle">पूरा गोल (बड़ा)[span_32](start_span)[span_32](end_span)</text>
+
+          <line x1="150" y1="80" x2="250" y2="80" stroke="#64748b" stroke-width="2" stroke-dasharray="4 4"/>
+          <line x1="350" y1="80" x2="450" y2="80" stroke="#64748b" stroke-width="2" stroke-dasharray="4 4"/>
+        </svg>
+        <figcaption>चित्र: चाँद की घटती-बढ़ती कलाएँ — जिसके कारण माँ के लिए नाप लेना असंभव हो जाता है[span_33](start_span)[span_33](end_span)</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 5. Vocabulary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ५. कठिन शब्दार्थ एवं टिप्पणियाँ</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_34](start_span)[span_34](end_span)</th>
+            <th>मानक अर्थ[span_35](start_span)[span_35](end_span)</th>
+            <th>शब्द[span_36](start_span)[span_36](end_span)</th>
+            <th>मानक अर्थ[span_37](start_span)[span_37](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>झिंगोला</strong></td><td>छोटे बच्चों का अंगरखा या कुर्ता[span_38](start_span)[span_38](end_span)</td><td><strong>सफर</strong></td><td>यात्रा, गमन[span_39](start_span)[span_39](end_span)</td></tr>
+          <tr><td><strong>हठ</strong></td><td>जिद्द, जिद[span_40](start_span)[span_40](end_span)</td><td><strong>मौसम</strong></td><td>ऋतु, जलवायु[span_41](start_span)[span_41](end_span)</td></tr>
+          <tr><td><strong>ऊन</strong></td><td>भेड़-बकरी आदि के रोएँ[span_42](start_span)[span_42](end_span)</td><td><strong>जाड़ा</strong></td><td>शीत, ठंड[span_43](start_span)[span_43](end_span)</td></tr>
+          <tr><td><strong>आसमान</strong></td><td>आकाश, गगन, नभ[span_44](start_span)[span_44](end_span)</td><td><strong>भाड़ा</strong></td><td>किराया[span_45](start_span)[span_45](end_span)</td></tr>
+          <tr><td><strong>नाप</strong></td><td>माप, परिमाण[span_46](start_span)[span_46](end_span)</td><td><strong>सलोने</strong></td><td>सुंदर, मनोहर, प्यारे[span_47](start_span)[span_47](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 6. Textbook Exercises: Short Q&A -->
+  <section id="qa-short">
+    <h2 class="sec-title">📝 ६. प्रश्न और अभ्यास : दो-तीन वाक्यों में उत्तर</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>(क) एक दिन चाँद क्या हठ करने लगा?[span_48](start_span)[span_48](end_span)</h4>
+        <p><strong>उत्तर:</strong> एक दिन चाँद अपनी माता से हठ (जिद्द) करने लगा कि उसे सर्दी से बचने के लिए ऊन का एक मोटा-सा झिंगोला (कुर्ता) सिलवा दिया जाए[span_49](start_span)[span_49](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ख) बिना झिंगोले से चाँद को क्या कष्ट होता है?[span_50](start_span)[span_50](end_span)</h4>
+        <p><strong>उत्तर:</strong> बिना झिंगोले के रात भर सन-सन चलती ठंडी हवाओं के कारण चाँद जाड़े से ठिठुरता रहता है और किसी तरह कष्ट उठाते हुए अपनी आकाश की यात्रा पूरी करता है[span_51](start_span)[span_51](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ग) माँ जाड़े से नहीं, पर किससे डरती है?[span_52](start_span)[span_52](end_span)</h4>
+        <p><strong>उत्तर:</strong> माँ जाड़े की ठंड से तो नहीं डरती, बल्कि वह इस बात से डरती है कि चाँद का आकार कभी एक समान नहीं रहता, वह रोज घटता-बढ़ता रहता है[span_53](start_span)[span_53](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(घ) माँ चाँद के लिए झिंगोला क्यों नहीं बना पाती?[span_54](start_span)[span_54](end_span)</h4>
+        <p><strong>उत्तर:</strong> माँ चाँद के लिए झिंगोला इसलिए नहीं बना पाती क्योंकि चाँद का आकार रोज बदलता रहता है—कभी वह एक उँगल चौड़ा तो कभी एक फुट मोटा हो जाता है, और किसी दिन बिल्कुल दिखाई नहीं देता[span_55](start_span)[span_55](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Short Q&A: One Sentence -->
+  <section id="qa-oneline">
+    <h2 class="sec-title">📌 ७. प्रश्न और अभ्यास : एक-एक वाक्य में उत्तर</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li><strong>(क) एक दिन चाँद ने माँ से क्या कहा?[span_56](start_span)[span_56](end_span)</strong><br>👉 चाँद ने माँ से ऊन का एक मोटा झिंगोला सिलवाने के लिए कहा[span_57](start_span)[span_57](end_span)।</li>
+          <li><strong>(ख) रात भर किस तरह की हवा चलती है?[span_58](start_span)[span_58](end_span)</strong><br>👉 रात भर सन-सन करती हुई ठंडी हवा चलती है[span_59](start_span)[span_59](end_span)।</li>
+          <li><strong>(ग) जाड़े में वह किस तरह मरता है?[span_60](start_span)[span_60](end_span)</strong><br>👉 जाड़े में वह ठिठुर-ठिठुर कर मरता (कष्ट पाता) है[span_61](start_span)[span_61](end_span)।</li>
+          <li><strong>(घ) चाँद किस तरह यात्रा पूरी करता है?[span_62](start_span)[span_62](end_span)</strong><br>👉 चाँद ठिठुर-ठिठुर कर किसी तरह अपनी यात्रा पूरी करता है[span_63](start_span)[span_63](end_span)।</li>
+          <li><strong>(ङ) यदि झिंगोला न मिले तो फिर चाँद क्या लेना चाहता है?[span_64](start_span)[span_64](end_span)</strong><br>👉 यदि नया झिंगोला न मिले, तो वह किराए का कुर्ता ही लाना चाहता है[span_65](start_span)[span_65](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <ul>
+          <li><strong>(ਚ/च) चाँद कभी-कभी माँ को कितना चौड़ा दिखाई देता है?[span_66](start_span)[span_66](end_span)</strong><br>👉 चाँद कभी एक उँगल भर चौड़ा और कभी एक फुट मोटा दिखाई देता है[span_67](start_span)[span_67](end_span)।</li>
+          <li><strong>(छ) चाँद कितना गोरा दिखाई देता है?[span_68](start_span)[span_68](end_span)</strong><br>👉 (कविता में गोरेपन का उल्लेख नहीं, बल्कि उसके सलोने रूप और घटते-बढ़ते आकार का वर्णन है)[span_69](start_span)[span_69](end_span)।</li>
+          <li><strong>(ज) ऐसा कौन-सा दिन होता है जब चाँद बिल्कुल नहीं दिखाई देता?[span_70](start_span)[span_70](end_span)</strong><br>👉 वह अमावस्या का दिन होता है जब चाँद बिल्कुल दिखाई नहीं देता[span_71](start_span)[span_71](end_span)।</li>
+          <li><strong>(झ) चाँद का झिंगोले के लिए नाप लेना क्यों संभव नहीं है?[span_72](start_span)[span_72](end_span)</strong><br>👉 क्योंकि चाँद रोज घटता और बढ़ता रहता है[span_73](start_span)[span_73](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Language Study / Grammar -->
+  <section id="grammar-lang">
+    <h2 class="sec-title">🔤 ८. भाषा-ज्ञान एवं व्याकरण अभ्यास</h2>
+
+    <!-- Antonyms -->
+    <h3 class="sub-title">୧. विलोम शब्द (Opposites)[span_74](start_span)[span_74](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_75](start_span)[span_75](end_span)</th>
+            <th>विलोम शब्द[span_76](start_span)[span_76](end_span)</th>
+            <th>शब्द[span_77](start_span)[span_77](end_span)</th>
+            <th>ਵିଲୋମ शब्द[span_78](start_span)[span_78](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>कुशल[span_79](start_span)[span_79](end_span)</strong></td>
+            <td>अकुशल</td>
+            <td><strong>मोटा[span_80](start_span)[span_80](end_span)</strong></td>
+            <td>पतला[span_81](start_span)[span_81](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>जाड़ा[span_82](start_span)[span_82](end_span)</strong></td>
+            <td>गर्मी</td>
+            <td><strong>घटता[span_83](start_span)[span_83](end_span)</strong></td>
+            <td>बढ़ता[span_84](start_span)[span_84](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>ठीक[span_85](start_span)[span_85](end_span)</strong></td>
+            <td>गलत</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Number Conversion -->
+    <h3 class="sub-title">୨. वचन बदलिए (Singular ⟷ Plural)[span_86](start_span)[span_86](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>एकवचन[span_87](start_span)[span_87](end_span)</th>
+            <th>बहुवचन[span_88](start_span)[span_88](end_span)</th>
+            <th>एकवचन[span_89](start_span)[span_89](end_span)</th>
+            <th>बहुवचन[span_90](start_span)[span_90](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>हवा[span_91](start_span)[span_91](end_span)</strong></td><td>हवाएँ[span_92](start_span)[span_92](end_span)</td><td><strong>बड़ा[span_93](start_span)[span_93](end_span)</strong></td><td>बड़े[span_94](start_span)[span_94](end_span)</td></tr>
+          <tr><td><strong>वह[span_95](start_span)[span_95](end_span)</strong></td><td>वे[span_96](start_span)[span_96](end_span)</td><td><strong>बात[span_97](start_span)[span_97](end_span)</strong></td><td>बातें[span_98](start_span)[span_98](end_span)</td></tr>
+          <tr><td><strong>माता[span_99](start_span)[span_99](end_span)</strong></td><td>माताएँ[span_100](start_span)[span_100](end_span)</td><td><strong>दिन[span_101](start_span)[span_101](end_span)</strong></td><td>दिन[span_102](start_span)[span_102](end_span)</td></tr>
+          <tr><td><strong>बच्चा[span_103](start_span)[span_103](end_span)</strong></td><td>बच्चे[span_104](start_span)[span_104](end_span)</td><td><strong>यह[span_105](start_span)[span_105](end_span)</strong></td><td>ये[span_106](start_span)[span_106](end_span)</td></tr>
+          <tr><td><strong>भाड़ा[span_107](start_span)[span_107](end_span)</strong></td><td>भाड़े[span_108](start_span)[span_108](end_span)</td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० हिंदी • पद्य भाग : चाँद का झिंगोला (रामधारी सिंह 'दिनकर') | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
