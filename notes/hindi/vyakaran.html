@@ -3,6 +3,987 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>अध्याय अध्ययन नोट्स : देशप्रेमी संन्यासी एवं व्यावहारिक हिंदी व्याकरण</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.9rem, 4vw, 2.7rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 760px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    .quote-box {
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(56, 189, 248, 0.05) 100%);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 22px 0;
+      text-align: center;
+    }
+
+    .quote-text {
+      font-size: 1.18rem;
+      font-weight: 700;
+      color: #fef08a;
+      line-height: 2;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+      .quote-text { font-size: 1.05rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० हिंदी • विचार-बोध ও व्याकरण</div>
+    <h1>देशप्रेमी संन्यासी : स्वामी विवेकानन्द एवं व्यावहारिक व्याकरण</h1>
+    <p>पाठ्यपुस्तक के गद्य अंश 'देशप्रेमी संन्यासी', स्वामी विवेकानन्द के राष्ट्रिय संदेश, कारक-परसर्ग व्यवस्था, शुद्धि-नियम तथा सभी अभ्यास प्रश्नों का संपूर्ण संकलन।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#grammar-rules">विभक्ति ও परसर्ग के नियम</a>
+    <a href="#grammar-practice">कारक व संज्ञा अभ्यास</a>
+    <a href="#thought-essence">विचार-बोध : देशप्रेमी संन्यासी</a>
+    <a href="#prose-summary">पाठ-सार व संदेश</a>
+    <a href="#shabdarth">शब्दार्थ ও टिप्पणियाँ</a>
+    <a href="#textbook-qa">पाठ्यपुस्तक प्रश्नोत्तर</a>
+    <a href="#language-study">भाषा-ज्ञान अभ्यास</a>
+  </nav>
+
+  <!-- 1. Grammar: Vibhakti and Parsarg Rules -->
+  <section id="grammar-rules">
+    <h2 class="sec-title">📐 १. व्याकरण विशेषांक : विभक्ति एवं परसर्ग संबंधी नियम</h2>
+    
+    <div class="callout def-box">
+      <strong>विभक्ति / परसर्ग की परिभाषा:</strong><br>
+      वाक्य में प्रयुक्त संज्ञा को कर्म आदि में विभक्त करने वाले अथवा कारकों का रूप प्रकट करने के लिए प्रयोग में आने वाले शब्द-चिह्नों को <strong>विभक्ति</strong> कहते हैं[span_0](start_span)[span_0](end_span)। संज्ञा, सर्वनाम आदि शब्दों के बाद अर्थात् अंत में जुड़ने के कारण विभक्ति को <strong>'परसर्ग'</strong> भी कहा जाता है[span_1](start_span)[span_1](end_span)।<br>
+      <em>ध्यान दें:</em> कभी-कभी कुछ वाक्यों में शब्दों के साथ विभक्ति का प्रयोग नहीं होता; जैसे— <em>'ठाकुर साहब क्रोध से लाल हो रहे थे।'</em> इस वाक्य में 'ठाकुर साहब' के बाद किसी विभक्ति का प्रयोग नहीं हुआ है[span_2](start_span)[span_2](end_span)। ऐसे वाक्यों में शब्द-क्रम या अर्थ के आधार पर क्रिया से संज्ञा का संबंध स्पष्ट होता है[span_3](start_span)[span_3](end_span)।
+    </div>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>संज्ञा के साथ विभक्ति (अलग लिखना)</h4>
+        <p>संज्ञा शब्द के साथ विभक्ति का प्रयोग होने पर इसे हमेशा <strong>अलग</strong> लिखा जाता है[span_4](start_span)[span_4](end_span)।</p>
+        <p><em>उदाहरण:</em> 'ठाकुर साहब <strong>ने</strong>', 'बाल-बच्चों <strong>को</strong>', 'कमरे <strong>में</strong>[span_5](start_span)'[span_5](end_span) ।</p>
+      </div>
+
+      <div class="card gold">
+        <h4>सर्वनाम के साथ विभक्ति (मिलाकर लिखना)</h4>
+        <p>सर्वनाम के साथ विभक्ति का प्रयोग होने पर इसे हमेशा <strong>मिलाकर</strong> लिखा जाता है[span_6](start_span)[span_6](end_span)।</p>
+        <p><em>उदाहरण:</em> 'मैंने' (मैं + ने), 'आपका' (आप + का), 'मुझसे', 'उसको[span_7](start_span)'[span_7](end_span) ।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">विभक्तियों के शुद्ध प्रयोग एवं सावधानियाँ</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>विभक्ति</th>
+            <th>शुद्ध प्रयोग (सही)</th>
+            <th>अशुद्ध प्रयोग (गलत)</th>
+            <th>व्याकरणिक नियम / कारण</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>'ने' का प्रयोग</strong></td>
+            <td>• मैंने कुछ का कुछ लिख दिया है[span_8](start_span)[span_8](end_span)।<br>• सब लोग खा-पीकर सोये[span_9](start_span)[span_9](end_span)।<br>• उसे कटक जाना था[span_10](start_span)[span_10](end_span)।</td>
+            <td>• मैं कुछ का कुछ लिख दिया हूँ[span_11](start_span)[span_11](end_span)।<br>• सब लोगों ने खा-पीकर सोये[span_12](start_span)[span_12](end_span)।<br>• उसने कटक जाना था[span_13](start_span)[span_13](end_span)।</td>
+            <td>सकर्मक भूतकालिक क्रिया में 'ने' लगता है[span_14](start_span)[span_14](end_span)। अकर्मक क्रिया (सोना) में 'ने' नहीं लगता[span_15](start_span)[span_15](end_span)। 'जाना था / चाहिए' के साथ 'उसे' (कर्म रूप) आता है, 'उसने' नहीं[span_16](start_span)[span_16](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>'को' का प्रयोग</strong></td>
+            <td>• वह अपने भाग्य को कोस रहा है[span_17](start_span)[span_17](end_span)।<br>• पुस्तक लाओ[span_18](start_span)[span_18](end_span)।<br>• सबको भगवान् की पूजा करनी चाहिए[span_19](start_span)[span_19](end_span)।<br>• राम कहीं काम से गया है[span_20](start_span)[span_20](end_span)।</td>
+            <td>• वह अपना भाग्य कोस रहा है[span_21](start_span)[span_21](end_span)।<br>• पुस्तक को लाओ[span_22](start_span)[span_22](end_span)।<br>• सबको भगवान को पूजना चाहिए[span_23](start_span)[span_23](end_span)।<br>• राम कहीं काम को गया है[span_24](start_span)[span_24](end_span)।</td>
+            <td>अप्राणिवाचक (निर्जीव) कर्म के साथ सामान्यतः 'को' नहीं लगता[span_25](start_span)[span_25](end_span)। 'काम से' प्रयोजन सिद्ध करता है, 'काम को' अशुद्ध है[span_26](start_span)[span_26](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>'से' का प्रयोग</strong></td>
+            <td>• राम देर से स्कूल जाता है[span_27](start_span)[span_27](end_span)।<br>• इसी बहाने हम चले आये[span_28](start_span)[span_28](end_span)।<br>• सबको नमस्ते कहियेगा[span_29](start_span)[span_29](end_span)।<br>• वह मुझ पर नाराज है[span_30](start_span)[span_30](end_span)।<br>• सीता साइकिल से कॉलेज आती है[span_31](start_span)[span_31](end_span)।</td>
+            <td>• राम देर को स्कूल जाता है[span_32](start_span)[span_32](end_span)।<br>• इसी बहाने से हम चले आये[span_33](start_span)[span_33](end_span)।<br>• सबसे नमस्ते कहियेगा[span_34](start_span)[span_34](end_span)।<br>• वह मुझ से नाराज है[span_35](start_span)[span_35](end_span)।<br>• सीता साइकिल में कॉलेज आती है[span_36](start_span)[span_36](end_span)।</td>
+            <td>साधन हेतु 'साइकिल से[span_37](start_span)'[span_37](end_span)। अभिवादन में 'सबको' कर्म रूप[span_38](start_span)[span_38](end_span)। 'नाराज' के साथ अधिकरण 'मुझ पर' शुद्ध है, 'मुझ से' नहीं[span_39](start_span)[span_39](end_span)। 'बहाने' के साथ 'से' अनावश्यक है[span_40](start_span)[span_40](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>'में / पर' का प्रयोग</strong></td>
+            <td>• राम दिन में एक बार भी नहीं मिला[span_41](start_span)[span_41](end_span)।<br>• कल रात पण्डित जी को नींद नहीं आयी[span_42](start_span)[span_42](end_span)।<br>• परस्पर सहयोग होना चाहिए[span_43](start_span)[span_43](end_span)।<br>• पक्षी पेड़ पर बैठा है[span_44](start_span)[span_44](end_span)।</td>
+            <td>• राम दिन भर एक बार भी नहीं मिला[span_45](start_span)[span_45](end_span)।<br>• कल रात में पण्डित जी को नींद नहीं आयी[span_46](start_span)[span_46](end_span)।<br>• परस्पर में सहयोग होना चाहिए[span_47](start_span)[span_47](end_span)।<br>• पक्षी पेड़ में बैठा है[span_48](start_span)[span_48](end_span)।</td>
+            <td>स्थान सूचक आधार के लिए 'पेड़ पर[span_49](start_span)'[span_49](end_span)। 'कल रात' और 'परस्पर' के साथ 'में' का प्रयोग व्यर्थ है[span_50](start_span)[span_50](end_span)।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 2. Grammar Practice from PDF Pages 64-66 -->
+  <section id="grammar-practice">
+    <h2 class="sec-title">🏷️ २. व्याकरण अभ्यास : कारक, परसर्ग ও संज्ञा (पृष्ठ ६४-६६)</h2>
+
+    <div class="callout def-box">
+      <strong>आठ कारक एवं उनके भेद:</strong><br>
+      १. कर्त्ता कारक | २. कर्म कारक | ३. करण कारक | ४. संप्रदान कारक | ५. अपादान कारक | ६. संबंध कारक | ७. अधिकरण कारक | ८. संबोधन कारक[span_51](start_span)[span_51](end_span)।
+    </div>
+
+    <h3 class="sub-title">रेखांकित पदों के कारक पहचानिए (पृष्ठ ६४-६६)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>वाक्य</th>
+            <th>पद</th>
+            <th>कारक भेद</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>खुले मैदान में, रेत पर पड़े रहने के सिवा और कोई उपाय न था[span_52](start_span)[span_52](end_span)।</td>
+            <td>मैदान में, रेत पर[span_53](start_span)[span_53](end_span)</td>
+            <td><strong>अधिकरण कारक[span_54](start_span)[span_54](end_span)</strong> (क्रिया का आधार)</td>
+          </tr>
+          <tr>
+            <td>मुझे भी तुमसे मिल कर बड़ा आनन्द हुआ[span_55](start_span)[span_55](end_span)।</td>
+            <td>तुमसे[span_56](start_span)[span_56](end_span)</td>
+            <td><strong>करण कारक[span_57](start_span)[span_57](end_span)</strong> (माध्यम / साधन)</td>
+          </tr>
+          <tr>
+            <td>मेरा परम सौभाग्य है कि आपकी कुछ सेवा करने का अवसर मिला[span_58](start_span)[span_58](end_span)।</td>
+            <td>आपकी / सेवा करने का[span_59](start_span)[span_59](end_span)</td>
+            <td><strong>संबंध कारक[span_60](start_span)[span_60](end_span)</strong></td>
+          </tr>
+          <tr>
+            <td>मुसाफिर ने क्रोधपूर्ण नेत्रों से देखा[span_61](start_span)[span_61](end_span)।</td>
+            <td>मुसाफिर ने / नेत्रों से[span_62](start_span)[span_62](end_span)</td>
+            <td><strong>कर्त्ता कारक</strong> (मुसाफिर ने) / <strong>करण कारक</strong> (नेत्रों से)[span_63](start_span)[span_63](end_span)</td>
+          </tr>
+          <tr>
+            <td>दारोगा जी ने अपने मित्र की बुरी दशा देखी[span_64](start_span)[span_64](end_span)।</td>
+            <td>मित्र की[span_65](start_span)[span_65](end_span)</td>
+            <td><strong>संबंध कारक[span_66](start_span)[span_66](end_span)</strong></td>
+          </tr>
+          <tr>
+            <td>वे लोग खुले मैदान में, रेत पर पड़े रहे[span_67](start_span)[span_67](end_span)।</td>
+            <td>मैदान में, रेत पर[span_68](start_span)[span_68](end_span)</td>
+            <td><strong>अधिकरण कारक[span_69](start_span)[span_69](end_span)</strong></td>
+          </tr>
+          <tr>
+            <td>कृपाशंकर ने कई कुली बुलाये[span_70](start_span)[span_70](end_span)।</td>
+            <td>कई कुली[span_71](start_span)[span_71](end_span)</td>
+            <td><strong>कर्म कारक[span_72](start_span)[span_72](end_span)</strong></td>
+          </tr>
+          <tr>
+            <td>वे लोग मुंशी जी को एक पेड़ के नीचे उठा ले गये[span_73](start_span)[span_73](end_span)।</td>
+            <td>मुंशी जी को[span_74](start_span)[span_74](end_span)</td>
+            <td><strong>कर्म कारक[span_75](start_span)[span_75](end_span)</strong></td>
+          </tr>
+          <tr>
+            <td>ठाकुर साहब गाड़ी से उतरने लगे[span_76](start_span)[span_76](end_span)।</td>
+            <td>गाड़ी से[span_77](start_span)[span_77](end_span)</td>
+            <td><strong>अपादान कारक[span_78](start_span)[span_78](end_span)</strong> (अलगाव का भाव)</td>
+          </tr>
+          <tr>
+            <td>लोग आदर से डाक्टर कहा करते थे[span_79](start_span)[span_79](end_span)।</td>
+            <td>आदर से[span_80](start_span)[span_80](end_span)</td>
+            <td><strong>करण कारक[span_81](start_span)[span_81](end_span)</strong> (रीति / भाव)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">रिक्त स्थानों में उपयुक्त परसर्ग भरिए (पृष्ठ ६५)</h3>
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li>(क) अब तक हाथ <strong>में</strong> चार पैसे होते, आराम <strong>से</strong> जीवन व्यतीत होता[span_82](start_span)[span_82](end_span)।</li>
+          <li>(ख) मैं <strong>ने</strong> तुम्हारे साथ रियायत <strong>की</strong> थी[span_83](start_span)[span_83](end_span)।</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <ul>
+          <li>(ग) आपने <strong>मेरी</strong> सूरत न देखी होगी, पर आपके डंड <strong>की मार</strong> देखी है[span_84](start_span)[span_84](end_span)।</li>
+          <li>(घ) खुले मैदान <strong>में</strong>, रेत <strong>पर</strong> खड़े थे[span_85](start_span)[span_85](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub-title">भाववाचक संज्ञा निर्माण (पृष्ठ ६५)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>मूल शब्द</th>
+            <th>भाववाचक संज्ञा</th>
+            <th>मूल शब्द</th>
+            <th>भाववाचक संज्ञा</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>पण्डित[span_86](start_span)[span_86](end_span)</td><td><strong>पाण्डित्य</strong></td><td>बुरा[span_87](start_span)[span_87](end_span)</td><td><strong>बुराई</strong></td></tr>
+          <tr><td>मौजूद[span_88](start_span)[span_88](end_span)</td><td><strong>मौजूदगी</strong></td><td>अच्छा[span_89](start_span)[span_89](end_span)</td><td><strong>अच्छाई</strong></td></tr>
+          <tr><td>प्रभु[span_90](start_span)[span_90](end_span)</td><td><strong>प्रभुता / प्रभुत्व</strong></td><td>विनम्र[span_91](start_span)[span_91](end_span)</td><td><strong>विनम्रता</strong></td></tr>
+          <tr><td>शालीन[span_92](start_span)[span_92](end_span)</td><td><strong>शालीनता</strong></td><td>महान्[span_93](start_span)[span_93](end_span)</td><td><strong>महानता / महत्ता</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">संज्ञा भेद पहचान (पृष्ठ ६५)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>वाक्य</th>
+            <th>पद</th>
+            <th>संज्ञा भेद</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>जरा जबान सँभाल कर बातें कीजिए[span_94](start_span)[span_94](end_span)।</td><td>जबान[span_95](start_span)[span_95](end_span)</td><td><strong>जातिवाचक संज्ञा[span_96](start_span)[span_96](end_span)</strong></td></tr>
+          <tr><td>इन दोनों दुष्टों ने उनका असबाब फेंक दिया[span_97](start_span)[span_97](end_span)।</td><td>असबाब[span_98](start_span)[span_98](end_span)</td><td><strong>द्रव्यवाचक / जातिवाचक संज्ञा[span_99](start_span)[span_99](end_span)</strong></td></tr>
+          <tr><td>प्रत्येक स्टेशन पर कोयला-पानी ले लेते थे[span_100](start_span)[span_100](end_span)।</td><td>कोयला-पानी[span_101](start_span)[span_101](end_span)</td><td><strong>द्रव्यवाचक संज्ञा[span_102](start_span)[span_102](end_span)</strong></td></tr>
+          <tr><td>लोगों की जान में जान आयी[span_103](start_span)[span_103](end_span)।</td><td>जान[span_104](start_span)[span_104](end_span)</td><td><strong>भाववाचक संज्ञा[span_105](start_span)[span_105](end_span)</strong></td></tr>
+          <tr><td>कृपाशंकर ने पण्डित जी के चरण छुए[span_106](start_span)[span_106](end_span)।</td><td>कृपाशंकर[span_107](start_span)[span_107](end_span)</td><td><strong>व्यक्तिवाचक संज्ञा[span_108](start_span)[span_108](end_span)</strong></td></tr>
+          <tr><td>मेले-ठेले में एक फालतू आदमी से बड़े काम निकलते हैं[span_109](start_span)[span_109](end_span)।</td><td>मेले-ठेले[span_110](start_span)[span_110](end_span)</td><td><strong>समूहवाचक / जातिवाचक संज्ञा[span_111](start_span)[span_111](end_span)</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 3. Prose: Deshpremi Sannyasi (Thought Essence) -->
+  <section id="thought-essence">
+    <h2 class="sec-title">🇮🇳 ३. विचार-बोध : देशप्रेमी संन्यासी (स्वामी विवेकानन्द)</h2>
+    <p>
+      स्वामी विवेकानन्द भारत माता के विरल सुपुत्र थे[span_112](start_span)[span_112](end_span)। उन्होंने अपनी प्रचंड प्रतिभा, गंभीर ज्ञान और असाधारण वाक्शक्ति द्वारा विदेशों में भारतीय दर्शन तथा वेद-वेदांत का गौरव प्रमाणित किया[span_113](start_span)[span_113](end_span)। स्वामीजी ने अमेरिका और इंग्लैंड के विद्वानों को समझा दिया कि हिंदू धर्म सहनशील, उदार और मानवीय है; उसमें संकीर्णता या कट्टरता का लेश भी नहीं है[span_114](start_span)[span_114](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card gold">
+        <h4>संन्यासी का सामान्य स्वरूप बनाम विवेकानन्द</h4>
+        <p>सामान्यतः संन्यासी अपनी इच्छा से घर-बार छोड़ देते हैं, सुख-साधनों का त्याग करते हैं, गरीबी में जीते हैं और संसार को माया का जंजाल समझते हैं[span_115](start_span)[span_115](end_span)। परंतु स्वामी विवेकानन्द ऐसे विरले संन्यासी थे, जो अपनी <strong>मातृभूमि से अगाध प्रेम</strong> करते थे और जिन्होंने अपना सम्पूर्ण संन्यास राष्ट्र-जागरण ও मानव-सेवा को समर्पित कर दिया[span_116](start_span)[span_116](end_span)।</p>
+      </div>
+
+      <div class="card teal">
+        <h4>व्यक्तित्व की विशेषताएँ</h4>
+        <ul>
+          <li><strong>रूप ও स्वभाव:</strong> देखने में बहुत सुंदर, विनयी, सरल और मिष्टभाषी[span_117](start_span)[span_117](end_span)।</li>
+          <li><strong>विद्वत्ता:</strong> बड़े ज्ञानी, प्रकांड पंडित और प्रचंड प्रतिभाशाली[span_118](start_span)[span_118](end_span)।</li>
+          <li><strong>गुरु-परंपरा:</strong> परमहंस देव के उपयुक्त शिष्य, जिन्होंने गुरु के नाम पर <strong>रामकृष्ण मिशन</strong> की स्थापना की[span_119](start_span)[span_119](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Prose Summary & Global Impact -->
+  <section id="prose-summary">
+    <h2 class="sec-title">🌍 ४. पाठ-सार : विश्वविजय एवं देशवासियों का आह्वान</h2>
+    
+    <div class="flow">
+      <div class="flow-node">१८५७ पराजय के बाद देश में फैली निराशा व अकर्मण्यता[span_120](start_span)[span_120](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">स्वामीजी का ओजस्वी राष्ट्रीय आह्वान : "उठो, जागो [span_121](start_span)!"[span_121](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">अमेरिका की धर्मसभा में भारतीय दर्शन की स्थापना[span_122](start_span)[span_122](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">इंग्लैंड में ब्रिटिश विद्वानों पर ज्ञान की छाप[span_123](start_span)[span_123](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">रामकृष्ण मिशन द्वारा विश्वव्यापी मानव-सेवा[span_124](start_span)[span_124](end_span)</div>
+    </div>
+
+    <div class="quote-box">
+      <p class="quote-text">
+        "मेरे प्यारे देशवासियों ! उठो, जागो । जीवन का वरदान स्वतन्त्रता है । उसे प्राप्त करो । गर्व से कहो कि मैं भारतीय हूँ ! हर भारतीय मेरा भाई है । भारत मेरा जीवन है, मेरा प्राण है । भारत के देवता मेरा भरणपोषण करते हैं । भारत मेरे बचपन का हिंडोला है, मेरे यौवन का आनन्द लोक है और मेरे बुढ़ापे का बैकुंठ है ।[span_125](start_span)"[span_125](end_span)
+      </p>
+    </div>
+
+    <div class="compare">
+      <div class="card blue">
+        <h4>अमेरिका में धर्मसभा</h4>
+        <p>अमेरिका की बड़ी धर्मसभा में स्वामीजी ने अपनी मर्मस्पर्शी वाणी में भारत के धर्म, आचार-विचार, ऋषि-मुनियों के चिंतन तथा आध्यात्मिक दृष्टिकोण का महत्त्व प्रतिपादित किया[span_126](start_span)[span_126](end_span)। अपने सुंदर, सरल और अर्थपूर्ण अंग्रेजी भाषण द्वारा उन्होंने सबके दिलों को अभिभूत कर दिया[span_127](start_span)[span_127](end_span)।</p>
+      </div>
+
+      <div class="card green">
+        <h4>इंग्लैंड में एक वर्ष</h4>
+        <p>स्वामीजी एक साल इंग्लैंड में रहे[span_128](start_span)[span_128](end_span)। वहाँ भारत के शासक अंग्रेज विद्वानों को अपनी विद्वत्ता से चमत्कृत किया[span_129](start_span)[span_129](end_span)। वे भी मान गए कि भारत में गरीबी भले ही हो, किंतु वह ऊँचे विचारों और दार्शनिक चिंतन का धनी तथा विश्व का अगुआ है[span_130](start_span)[span_130](end_span)।</p>
+      </div>
+    </div>
+
+    <!-- Structured Diagram -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 600 200" width="560" height="180" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="300" cy="100" r="38" fill="#131d31" stroke="#f59e0b" stroke-width="3"/>
+          <text x="300" y="98" fill="#fde68a" font-size="12" font-weight="bold" text-anchor="middle">उठो ! जागो !</text>
+          <text x="300" y="115" fill="#f59e0b" font-size="10" text-anchor="middle">स्वतन्त्रता[span_131](start_span)[span_131](end_span)</text>
+
+          <rect x="30" y="30" width="160" height="40" rx="6" fill="#131d31" stroke="#10b981" stroke-width="1.5"/>
+          <text x="110" y="55" fill="#a7f3d0" font-size="11" font-weight="600" text-anchor="middle">बचपन का हिंडोला[span_132](start_span)[span_132](end_span)</text>
+
+          <rect x="30" y="80" width="160" height="40" rx="6" fill="#131d31" stroke="#38bdf8" stroke-width="1.5"/>
+          <text x="110" y="105" fill="#bae6fd" font-size="11" font-weight="600" text-anchor="middle">यौवन का आनंद लोक[span_133](start_span)[span_133](end_span)</text>
+
+          <rect x="30" y="130" width="160" height="40" rx="6" fill="#131d31" stroke="#f43f5e" stroke-width="1.5"/>
+          <text x="110" y="155" fill="#fecdd3" font-size="11" font-weight="600" text-anchor="middle">बुढ़ापे का बैकुंठ[span_134](start_span)[span_134](end_span)</text>
+
+          <line x1="190" y1="50" x2="265" y2="90" stroke="#2a3958" stroke-width="2"/>
+          <line x1="190" y1="100" x2="262" y2="100" stroke="#2a3958" stroke-width="2"/>
+          <line x1="190" y1="150" x2="265" y2="110" stroke="#2a3958" stroke-width="2"/>
+
+          <rect x="410" y="45" width="160" height="45" rx="6" fill="#131d31" stroke="#14b8a6" stroke-width="1.5"/>
+          <text x="490" y="72" fill="#5eead4" font-size="11" font-weight="bold" text-anchor="middle">हर भारतीय मेरा भाई[span_135](start_span)[span_135](end_span)</text>
+
+          <rect x="410" y="110" width="160" height="45" rx="6" fill="#131d31" stroke="#f59e0b" stroke-width="1.5"/>
+          <text x="490" y="137" fill="#fde68a" font-size="11" font-weight="bold" text-anchor="middle">मानव-सेवा ही धर्म[span_136](start_span)[span_136](end_span)</text>
+
+          <line x1="338" y1="95" x2="410" y2="68" stroke="#2a3958" stroke-width="2"/>
+          <line x1="338" y1="105" x2="410" y2="132" stroke="#2a3958" stroke-width="2"/>
+        </svg>
+        <figcaption>चित्र: स्वामी विवेकानन्द का राष्ट्र-प्रेम ও जीवन-दर्शन[span_137](start_span)[span_137](end_span)</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 5. Glossary -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ५. शब्दार्थ एवं टिप्पणियाँ[span_138](start_span)[span_138](end_span)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द</th>
+            <th>अर्थ[span_139](start_span)[span_139](end_span)</th>
+            <th>शब्द</th>
+            <th>अर्थ[span_140](start_span)[span_140](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>मिष्टभाषी</strong></td>
+            <td>मधुरभाषी, मीठा बोलने वाला[span_141](start_span)[span_141](end_span)</td>
+            <td><strong>भरणपोषण</strong></td>
+            <td>अन्न-वस्त्र देना, पालन-पोषण करना[span_142](start_span)[span_142](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>जंजाल</strong></td>
+            <td>झंझट, माया-मोह[span_143](start_span)[span_143](end_span)</td>
+            <td><strong>अभिभूत</strong></td>
+            <td>मोहित, द्रवित, वशीभूत[span_144](start_span)[span_144](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>बैकुण्ठ</strong></td>
+            <td>स्वर्ग, परमधाम[span_145](start_span)[span_145](end_span)</td>
+            <td><strong>संन्यासी</strong></td>
+            <td>गृह त्यागी साधु[span_146](start_span)[span_146](end_span)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 6. Textbook Exercises (Deshpremi Sannyasi) -->
+  <section id="textbook-qa">
+    <h2 class="sec-title">📝 ୬. पाठ्यपुस्तक अभ्यास प्रश्नोत्तर (देशप्रेमी संन्यासी)</h2>
+
+    <h3 class="sub-title">भाग १ : दो-तीन वाक्यों में उत्तर दीजिए[span_147](start_span)[span_147](end_span)</h3>
+    <div class="compare">
+      <div class="card">
+        <h4>(क) हम संन्यासी किसे कहते हैं?</h4>
+        <p><strong>उत्तर:</strong> जो लोग अपनी इच्छा से घर-बार छोड़ देते हैं, भौतिक सुख-साधनों का त्याग कर देते हैं, गरीबी में जीते हैं और संसार को माया का जंजाल समझते हैं, उन्हें संन्यासी कहते हैं[span_148](start_span)[span_148](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ख) विवेकानन्द का व्यक्तित्व कैसा था?</h4>
+        <p><strong>उत्तर:</strong> स्वामी विवेकानन्द देखने में बहुत सुंदर, प्रकांड ज्ञानी और पंडित थे[span_149](start_span)[span_149](end_span)। वे स्वभाव से अत्यंत सरल, विनयी और मिष्टभाषी थे, किंतु उनकी प्रतिभा प्रचंड थी[span_150](start_span)[span_150](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ग) विवेकानन्द ने देशवासियों को क्या कहकर ललकारा?</h4>
+        <p><strong>उत्तर:</strong> उन्होंने ललकारा— "उठो, जागो ! जीवन का वरदान स्वतंत्रता है, उसे प्राप्त करो[span_151](start_span)[span_151](end_span)। गर्व से कहो कि मैं भारतीय हूँ और हर भारतीय मेरा भाई है[span_152](start_span)[span_152](end_span)। भारत मेरा जीवन और प्राण है[span_153](start_span)[span_153](end_span)।"</p>
+      </div>
+
+      <div class="card">
+        <h4>(घ) अमेरिका की धर्मसभा में स्वामीजी ने अपने भाषण में किस बात को प्रतिपादित किया?</h4>
+        <p><strong>उत्तर:</strong> उन्होंने मर्मस्पर्शी वाणी में भारत के सनातन धर्म, आचार-विचार, ऋषि-मुनियों के चिंतन तथा आध्यात्मिक दृष्टिकोण के महत्त्व को प्रतिपादित कर सबके दिलों को अभिभूत कर दिया[span_154](start_span)[span_154](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ङ) स्वामीजी ने इंग्लैंड के लोगों को कैसे प्रभावित किया?</h4>
+        <p><strong>उत्तर:</strong> स्वामीजी ने अपनी अद्भुत विद्वत्ता से अंग्रेज विद्वानों को इतना प्रभावित किया कि वे मान गए कि भारत में गरीबी भले ही हो, पर वह उच्च विचारों और चिंतन का धनी तथा अगुआ है[span_155](start_span)[span_155](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(च) स्वामीजी ने अपने अनुयायियों को किन-किन कामों में लगाया?</h4>
+        <p><strong>उत्तर:</strong> स्वामीजी ने अपने असंख्य अनुयायियों को मानव-सेवा, ज्ञान के प्रसार तथा धर्म-प्रचार के जनकल्याणकारी कार्यों में लगाया[span_156](start_span)[span_156](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(छ) १८५७ के बाद हमारे देश के लोग किस स्थिति में थे?</h4>
+        <p><strong>उत्तर:</strong> १८५७ के प्रथम स्वाधीनता संग्राम में असफल होने के बाद देशवासी घोर निराशा, आलस्य और कर्महीनता में डूबे हुए थे[span_157](start_span)[span_157](end_span) ।</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">भाग २ ও ३ : एक वाक्य / एक शब्द प्रश्नोत्तर[span_158](start_span)[span_158](end_span)</h3>
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li><strong>जीवन का वरदान क्या है?</strong><br>👉 जीवन का वरदान स्वतन्त्रता है[span_159](start_span)[span_159](end_span)।</li>
+          <li><strong>अंग्रेज क्या मान गए?</strong><br>👉 अंग्रेज मान गए कि भारत ऊँचे विचारों और चिंतन का धनी तथा अगुआ है[span_160](start_span)[span_160](end_span)।</li>
+          <li><strong>देश को आजाद करने में किनका योगदान रहा?</strong><br>👉 स्वामीजी जैसे देशप्रेमी संन्यासियों का[span_161](start_span)[span_161](end_span)।</li>
+          <li><strong>रामकृष्ण परमहंस के उपयुक्त शिष्य कौन थे?</strong><br>👉 स्वामी विवेकानन्द[span_162](start_span)[span_162](end_span)।</li>
+          <li><strong>धर्मसभा कहाँ हो रही थी?</strong><br>👉 अमेरिका में[span_163](start_span)[span_163](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <ul>
+          <li><strong>स्वामीजी इंग्लैंड में कब तक रहे?</strong><br>👉 एक साल तक[span_164](start_span)[span_164](end_span)।</li>
+          <li><strong>हमारा भरण-पोषण कौन करता है?</strong><br>👉 भारत के देवता[span_165](start_span)[span_165](end_span)।</li>
+          <li><strong>स्वामीजी बुढ़ापे का बैकुंठ किसे मानते हैं?</strong><br>👉 भारत (मातृभूमि) को[span_166](start_span)[span_166](end_span)।</li>
+          <li><strong>बचपन का हिंडोला कौन था?</strong><br>👉 भारत देश[span_167](start_span)[span_167](end_span)।</li>
+          <li><strong>प्रत्येक भारतीय स्वामीजी के लिए क्या था?</strong><br>👉 उनका भाई[span_168](start_span)[span_168](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Language Study Exercises -->
+  <section id="language-study">
+    <h2 class="sec-title">📖 ७. भाषा-ज्ञान एवं व्यावहारिक व्याकरण अभ्यास[span_169](start_span)[span_169](end_span)</h2>
+
+    <h3 class="sub-title">१. लिंग-निर्णय[span_170](start_span)[span_170](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द</th>
+            <th>लिंग[span_171](start_span)[span_171](end_span)</th>
+            <th>शब्द</th>
+            <th>लिंग[span_172](start_span)[span_172](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>वाणी[span_173](start_span)[span_173](end_span)</td><td><span class="badge-tag coral">स्त्रीलिंग</span></td><td>सन्यासी[span_174](start_span)[span_174](end_span)</td><td><span class="badge-tag blue">पुल्लिंग</span></td></tr>
+          <tr><td>विद्वान[span_175](start_span)[span_175](end_span)</td><td><span class="badge-tag blue">पुल्लिंग</span></td><td>गरीबी[span_176](start_span)[span_176](end_span)</td><td><span class="badge-tag coral">स्त्रीलिंग</span></td></tr>
+          <tr><td>अंग्रेजी[span_177](start_span)[span_177](end_span)</td><td><span class="badge-tag coral">स्त्रीलिंग</span></td><td>निराशा[span_178](start_span)[span_178](end_span)</td><td><span class="badge-tag coral">स्त्रीलिंग</span></td></tr>
+          <tr><td>दृष्टिकोण[span_179](start_span)[span_179](end_span)</td><td><span class="badge-tag blue">पुल्लिंग</span></td><td>आनन्द[span_180](start_span)[span_180](end_span)</td><td><span class="badge-tag blue">पुल्लिंग</span></td></tr>
+          <tr><td>आजादी[span_181](start_span)[span_181](end_span)</td><td><span class="badge-tag coral">स्त्रीलिंग</span></td><td>बूढ़ापा[span_182](start_span)[span_182](end_span)</td><td><span class="badge-tag blue">पुल्लिंग</span></td></tr>
+          <tr><td>देश[span_183](start_span)[span_183](end_span)</td><td><span class="badge-tag blue">पुल्लिंग</span></td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">२. पर्यायवाची शब्द[span_184](start_span)[span_184](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द</th>
+            <th>पर्यायवाची शब्द[span_185](start_span)[span_185](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>विद्वान[span_186](start_span)[span_186](end_span)</strong></td><td>पंडित, ज्ञानी, मनीषी, सुधी</td></tr>
+          <tr><td><strong>आजाद[span_187](start_span)[span_187](end_span)</strong></td><td>स्वतंत्र, स्वाधीन, मुक्त</td></tr>
+          <tr><td><strong>साल[span_188](start_span)[span_188](end_span)</strong></td><td>वर्ष, बरस, संवत्सर</td></tr>
+          <tr><td><strong>मानव[span_189](start_span)[span_189](end_span)</strong></td><td>मनुष्य, इंसान, आदमी, नर</td></tr>
+          <tr><td><strong>व्याकुल[span_190](start_span)[span_190](end_span)</strong></td><td>बेचैन, विकल, परेशान, व्यग्र</td></tr>
+          <tr><td><strong>इच्छा[span_191](start_span)[span_191](end_span)</strong></td><td>अभिलाषा, आकांक्षा, कामना, चाह</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">୩. वाक्य-शुद्धिकरण[span_192](start_span)[span_192](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>अशुद्ध वाक्य[span_193](start_span)[span_193](end_span)</th>
+            <th>शुद्ध वाक्य[span_194](start_span)[span_194](end_span)</th>
+            <th>सुधार का कारण</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>सालों पहले का बात है[span_195](start_span)[span_195](end_span)।</td>
+            <td><strong>सालों पहले की बात है।</strong></td>
+            <td>'बात' स्त्रीलिंग शब्द है, अतः 'की' लगेगा[span_196](start_span)[span_196](end_span)।</td>
+          </tr>
+          <tr>
+            <td>रामकृष्ण परमहंस विवेकानंद का गुरु थे[span_197](start_span)[span_197](end_span)।</td>
+            <td><strong>रामकृष्ण परमहंस विवेकानंद के गुरु थे।</strong></td>
+            <td>आदरार्थक बहुवचन हेतु 'के' का प्रयोग[span_198](start_span)[span_198](end_span)।</td>
+          </tr>
+          <tr>
+            <td>देश में रामकृष्ण मिशन का अनेक संस्थाएँ हैं[span_199](start_span)[span_199](end_span)।</td>
+            <td><strong>देश में रामकृष्ण मिशन की अनेक संस्थाएँ हैं।</strong></td>
+            <td>'संस्थाएँ' स्त्रीलिंग बहुवचन है, अतः 'की[span_200](start_span)'[span_200](end_span)।</td>
+          </tr>
+          <tr>
+            <td>गर्व में कहो की मैं भारतीय हूँ[span_201](start_span)[span_201](end_span)।</td>
+            <td><strong>गर्व से कहो कि मैं भारतीय हूँ।</strong></td>
+            <td>करण परसर्ग 'से' तथा योजक 'कि[span_202](start_span)'[span_202](end_span)।</td>
+          </tr>
+          <tr>
+            <td>भारत मेरी जीवन है[span_203](start_span)[span_203](end_span)।</td>
+            <td><strong>भारत मेरा जीवन है।</strong></td>
+            <td>'जीवन' पुल्लिंग शब्द है, अतः 'मेरा[span_204](start_span)'[span_204](end_span)।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-title">୪. विशेषण पद छाँटिए[span_205](start_span)[span_205](end_span)</h3>
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li>(क) मेरे प्यारे देशवासियों [span_206](start_span)[span_206](end_span)! ➔ विशेषण: <strong>प्यारे[span_207](start_span)[span_207](end_span)</strong></li>
+          <li>(ख) यहाँ अंग्रेजों का कड़ा शासन चलता था[span_208](start_span)[span_208](end_span)। ➔ विशेषण: <strong>कड़ा[span_209](start_span)[span_209](end_span)</strong></li>
+          <li>(ग) भारत मेरे बचपन का हिंडोला है[span_210](start_span)[span_210](end_span)। ➔ विशेषण: <strong>मेरे[span_211](start_span)[span_211](end_span)</strong> (सार्वनामिक)</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <ul>
+          <li>(घ) मेरे यौवन का आनंद लोक है[span_212](start_span)[span_212](end_span)। ➔ विशेषण: <strong>आनंद[span_213](start_span)[span_213](end_span)</strong> (आनंददायक)</li>
+          <li>(ङ) भारत मेरे बचपन का बैकुण्ठ है[span_214](start_span)[span_214](end_span)। ➔ विशेषण: <strong>मेरे[span_215](start_span)[span_215](end_span)</strong> (सार्वनामिक)</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub-title">୫. विराम-चिह्न प्रयोग[span_216](start_span)[span_216](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>अविरामी वाक्य[span_217](start_span)[span_217](end_span)</th>
+            <th>विराम-चिह्न युक्त शुद्ध वाक्य[span_218](start_span)[span_218](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>मेरे प्यारे देशवासियों उठो जागो[span_219](start_span)[span_219](end_span)</td>
+            <td><strong>"मेरे प्यारे देशवासियों ! उठो, जागो ।[span_220](start_span)"[span_220](end_span)</strong></td>
+          </tr>
+          <tr>
+            <td>निराशा आलस्य और कर्म हीनता में डुबे हुए थे[span_221](start_span)[span_221](end_span)</td>
+            <td><strong>निराशा, आलस्य और कर्महीनता में डूबे हुए थे ।[span_222](start_span)[span_222](end_span)</strong></td>
+          </tr>
+          <tr>
+            <td>उनकी सुन्दर सरल अर्थपूर्ण अंग्रेजी भाषाण ने सब के दिलों को अभिभूत कर दिया[span_223](start_span)[span_223](end_span)</td>
+            <td><strong>उनके सुंदर, सरल, अर्थपूर्ण अंग्रेजी भाषण ने सबके दिलों को अभिभूत कर दिया ।[span_224](start_span)[span_224](end_span)</strong></td>
+          </tr>
+          <tr>
+            <td>स्वामीजी ने असंख्य अनुयायियों को मानव सेवा ज्ञान तथा धर्म प्रचार में लगाया[span_225](start_span)[span_225](end_span)</td>
+            <td><strong>स्वामीजी ने असंख्य अनुयायियों को मानव-सेवा, ज्ञान तथा धर्म-प्रचार में लगाया ।[span_226](start_span)[span_226](end_span)</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० हिंदी • देशप्रेमी संन्यासी (स्वामी विवेकानन्द) एवं व्यावहारिक व्याकरण | Digital Learning Lecture Notes</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+ html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>कक्षा 10 हिन्दी — दृश्य व्याख्यान एवं अध्ययन नोट्स</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
