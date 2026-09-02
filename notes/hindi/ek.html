@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>एक तिनका — अयोध्यासिंह उपाध्याय 'हरिऔध' | कक्षा 10 हिंदी व्याख्यान नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Section Structure */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Poem Card */
+    .poem-card {
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(20, 184, 166, 0.05) 100%);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      border-radius: var(--radius-md);
+      padding: 26px 20px;
+      margin: 20px 0;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .poem-text {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fef08a;
+      line-height: 2.1;
+      letter-spacing: 0.5px;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+      .poem-text { font-size: 1.1rem; line-height: 1.9; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० हिंदी • पद्य भाग • प्रेरणादायी कविता</div>
+    <h1>एक तिनका : अयोध्यासिंह उपाध्याय 'हरिऔध'</h1>
+    <p>कवि परिचय, कविता का मूल संदेश, संपूर्ण कविता पाठ, पद्यांश-वार व्याख्या, कठिन शब्दार्थ, अभ्यास प्रश्नोत्तर एवं भाषा-ज्ञान (विलोम, पर्यायवाची व वाक्यांश)।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#author">कवि परिचय</a>
+    <a href="#poem-core">कविता का केंद्रीय भाव</a>
+    <a href="#poem-text">मूल कविता पाठ</a>
+    <a href="#stanza-analysis">पद्यांश-वार व्याख्या</a>
+    <a href="#shabdarth">शब्दार्थ तालिका</a>
+    <a href="#qa-short">लघु उत्तरीय प्रश्न</a>
+    <a href="#qa-oneline">एक वाक्य प्रश्नोत्तर</a>
+    <a href="#qa-objective">वस्तुनिष्ठ प्रश्न (MCQs)</a>
+    <a href="#grammar-lang">भाषा-ज्ञान (व्याकरण)</a>
+  </nav>
+
+  <!-- 1. Poet Introduction -->
+  <section id="author">
+    <h2 class="sec-title">🪶 १. कवि परिचय : अयोध्यासिंह उपाध्याय 'हरिऔध'</h2>
+
+    <div class="compare">
+      <div class="card gold">
+        <h4>जीवन एवं शिक्षा</h4>
+        <ul>
+          <li><strong>जन्म:</strong> सन् <strong>1865</strong> में उत्तर प्रदेश के आजमगढ़ जिले के <strong>निजामाबाद</strong> कस्बे में हुआ[span_0](start_span)[span_0](end_span)।</li>
+          <li><strong>शिक्षा:</strong> स्कूली शिक्षा समाप्त कर उन्होंने सरकारी नौकरी की[span_1](start_span)[span_1](end_span)। उन्होंने हिंदी, संस्कृत और फारसी में अच्छा ज्ञान प्राप्त किया था[span_2](start_span)[span_2](end_span)।</li>
+          <li><strong>अध्यापन:</strong> वे काशी हिंदू विश्वविद्यालय, वाराणसी में अध्यापक भी रहे[span_3](start_span)[span_3](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card teal">
+        <h4>साहित्यिक विशेषताएँ एवं रचनाएँ</h4>
+        <ul>
+          <li><strong>खड़ीबोली के प्रथम कवि:</strong> 'हरिऔध' जी को हिंदी खड़ीबोली के आरंभिक और प्रमुख कवियों में गिना जाता है[span_4](start_span)[span_4](end_span)। उनकी भाषा सरल, मुहावरेदार और भावगर्भित होती है[span_5](start_span)[span_5](end_span)।</li>
+          <li><strong>प्रमुख कृतियाँ:</strong> <em>प्रिय प्रवास, वैदेही वनवास, कर्मवीर, रसकलश, चोखे चौपदे, चुभते चौपदे</em> आदि[span_6](start_span)[span_6](end_span)।</li>
+          <li><strong>विशेषता:</strong> 'प्रिय प्रवास' खड़ीबोली हिंदी का प्रथम महाकाव्य माना जाता है।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Poem Core Theme -->
+  <section id="poem-core">
+    <h2 class="sec-title">💡 २. कविता का केंद्रीय भाव व संदेश</h2>
+    <p>
+      यह एक छोटी सी कविता है किंतु बहुत बड़े जीवन-सत्य को उजागर करती है[span_7](start_span)[span_7](end_span)। छोटी-छोटी चीजें भी हमारे जीवन और घमंड को पूरी तरह बदल देती हैं[span_8](start_span)[span_8](end_span)। मनुष्य को अपने बल, बुद्धि या धन पर बहुत अधिक गर्व (अभिमान) होता है[span_9](start_span)[span_9](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>अभिमान का खंडन:</strong><br>
+      कवि बताते हैं कि एक दिन जब वे घमंड में भरकर तने हुए छत के मुँडेर पर खड़े थे, तभी कहीं से उड़ता हुआ एक छोटा-सा तिनका उनकी आँख में आ गिरा[span_10](start_span)[span_10](end_span)। इस छोटी सी घटना ने उनकी सारी ऐंठ (अकड़) पल भर में चूर कर दी[span_11](start_span)[span_11](end_span)। आँख जलने लगी, लोग कपड़े की मूँठ से सेकने लगे, किंतु जब किसी तरह तिनका निकला तब उनका विवेक उन्हें ताना मार रहा था कि तू किस बात का इतना अकड़ रहा था, तेरे अहंकार को तोड़ने के लिए तो एक छोटा-सा तिनका ही बहुत है[span_12](start_span)[span_12](end_span)।
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">घमंड में भरकर मुँडेर पर खड़ा होना[span_13](start_span)[span_13](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">अचानक तिनके का आँख में गिरना[span_14](start_span)[span_14](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">व्याकुलता, जलन व लोगों द्वारा सेकना[span_15](start_span)[span_15](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ऐंठ का दबे पाँवों भागना ও अहंकार टूटना[span_16](start_span)[span_16](end_span)</div>
+    </div>
+  </section>
+
+  <!-- 3. Original Poem Text -->
+  <section id="poem-text">
+    <h2 class="sec-title">📜 ३. मूल कविता पाठ : एक तिनका</h2>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        मैं घमंडों में भरा ऐंठा हुआ,<br>
+        एक दिन जब था मुंडेरे पर खड़ा ।<br>
+        आ अचानक दूर से उड़ता हुआ,<br>
+        एक तिनका आँख में मेरी पड़ा ।।[span_17](start_span)[span_17](end_span)
+      </p>
+    </div>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        मैं झिझक उठा, हुआ बेचैन-सा,<br>
+        लाल होकर आँख भी दुखने लगी ।<br>
+        मूँठ देने लोग कपड़े की लगे,<br>
+        ऐंठ बेचारी दबे पाँवों भागी ।।[span_18](start_span)[span_18](end_span)
+      </p>
+    </div>
+
+    <div class="poem-card">
+      <p class="poem-text">
+        जब किसी ढब से निकल तिनका गया,<br>
+        तब 'समझ' ने यों मुझे ताने दिए ।<br>
+        ऐंठता तू किसलिए इतना रहा,<br>
+        एक तिनका है बहुत तेरे लिए ।।[span_19](start_span)[span_19](end_span)
+      </p>
+    </div>
+  </section>
+
+  <!-- 4. Stanza Analysis -->
+  <section id="stanza-analysis">
+    <h2 class="sec-title">🔍 ४. पद्यांश-वार विस्तृत भावार्थ एवं व्याख्या</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>पद्यांश १ : अहंकार में चूर होना व तिनके का गिरना</h4>
+        <p><strong>व्याख्या:</strong> कवि कहते हैं कि एक दिन वे अपने किसी सामर्थ्य या स्थिति के घमंड में पूरी तरह ऐंठे हुए (अकड़े हुए) अपने घर की छत की मुँडेर पर खड़े थे[span_20](start_span)[span_20](end_span)। तभी अचानक दूर से उड़ता हुआ सूखी घास का एक छोटा-सा तिनका उनकी आँख में आकर गिर पड़ा[span_21](start_span)[span_21](end_span)। इस छोटी सी घटना ने उनके सारे अभिमान को चुनौती दे डाली[span_22](start_span)[span_22](end_span)।</p>
+      </div>
+
+      <div class="card gold">
+        <h4>पद्यांश २ : बेचैनी, उपचार और ऐंठ का भागना</h4>
+        <p><strong>व्याख्या:</strong> आँख में तिनका पड़ते ही कवि हिचकिचा उठे (झिझक उठे) और बेचैन हो गए[span_23](start_span)[span_23](end_span)। उनकी आँख लाल होकर बुरी तरह दुखने लगी[span_24](start_span)[span_24](end_span)। उनकी यह व्याकुलता देखकर आसपास के लोग कपड़े की मूँठ (गुब्बारा बनाकर) से आँख सेकने लगे ताकि कुछ आराम मिल सके[span_25](start_span)[span_25](end_span)। इस शारीरिक पीड़ा के आगे कवि का सारा घमंड और अकड़ चुपचाप (दबे पाँवों) भाग खड़ी हुई[span_26](start_span)[span_26](end_span)!</p>
+      </div>
+    </div>
+
+    <div class="callout example-box">
+      <strong>पद्यांश ३ : तिनके का निकलना ও विवेक की सीख:</strong><br>
+      जब किसी ढंग या उपाय (ढब से) से आँख से वह तिनका बाहर निकल गया, तब कवि के भीतर की 'समझ' (विवेक) ने उन्हें ताना मारते हुए कहा— "तू किस बात पर इतना इतरा रहा था और अकड़ रहा था[span_27](start_span)[span_27](end_span)? तेरे जैसे अभिमानी व्यक्ति के घमंड को चूर-चूर करने के लिए तो प्रकृति का एक छोटा-सा तिनका ही बहुत है[span_28](start_span)[span_28](end_span)!"
+    </div>
+
+    <!-- Embedded SVG Diagram -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 600 200" width="560" height="180" xmlns="http://www.w3.org/2000/svg">
+          <!-- House rooftop / Mundere -->
+          <rect x="150" y="120" width="300" height="50" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+          <text x="300" y="150" fill="#94a3b8" font-size="12" text-anchor="middle">घर की मुँडेर (जहाँ कवि घमंड में खड़े थे)[span_29](start_span)[span_29](end_span)</text>
+
+          <!-- Flying Tiny Straw (Tinka) -->
+          <line x1="80" y1="60" x2="160" y2="90" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+          <text x="120" y="55" fill="#fde68a" font-size="11" font-weight="bold">उड़ता हुआ तिनका[span_30](start_span)[span_30](end_span)</text>
+
+          <!-- Arrow towards eye -->
+          <path d="M 170,85 Q 220,70 260,95" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 4"/>
+
+          <!-- Ego broken text bubble -->
+          <rect x="360" y="30" width="200" height="60" rx="8" fill="#131d31" stroke="#f43f5e" stroke-width="2"/>
+          <text x="460" y="55" fill="#fca5a5" font-size="12" font-weight="bold" text-anchor="middle">"ऐंठ दबे पाँवों भागी[span_31](start_span)"[span_31](end_span)</text>
+          <text x="460" y="73" fill="#94a3b8" font-size="10" text-anchor="middle">अभिमान पल भर में चूर[span_32](start_span)[span_32](end_span)</text>
+        </svg>
+        <figcaption>चित्र: मुँडेर पर खड़े अभिमानी कवि की आँख में तिनका पड़ने और घमंड टूटने का दृश्य[span_33](start_span)[span_33](end_span)</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 5. Vocabulary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ५. कठिन शब्दार्थ एवं टिप्पणियाँ</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_34](start_span)[span_34](end_span)</th>
+            <th>मानक अर्थ[span_35](start_span)[span_35](end_span)</th>
+            <th>शब्द[span_36](start_span)[span_36](end_span)</th>
+            <th>मानक अर्थ[span_37](start_span)[span_37](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>तिनका</strong></td><td>सूखी घास का छोटा टुकड़ा[span_38](start_span)[span_38](end_span)</td><td><strong>बेचैन</strong></td><td>व्याकुल, बेकल, अशांत[span_39](start_span)[span_39](end_span)</td></tr>
+          <tr><td><strong>घमंड</strong></td><td>गर्व, अहंकार, अभिमान[span_40](start_span)[span_40](end_span)</td><td><strong>मूँठ</strong></td><td>सेंकने के लिए कपड़े का बनाया गया गोला/गुब्बारा[span_41](start_span)[span_41](end_span)</td></tr>
+          <tr><td><strong>ऐंठ</strong></td><td>जिद्द, अकड़, घमंड[span_42](start_span)[span_42](end_span)</td><td><strong>दबे पाँवों</strong></td><td>चुपचाप, दबे पाँवों भागना (अदृश्य होना)[span_43](start_span)[span_43](end_span)</td></tr>
+          <tr><td><strong>मुँडेर</strong></td><td>दीवार का सबसे ऊपरी भाग (छत का घेरा)[span_44](start_span)[span_44](end_span)</td><td><strong>ढब</strong></td><td>तरीका, रीति, ढंग, युक्ति[span_45](start_span)[span_45](end_span)</td></tr>
+          <tr><td><strong>अचानक</strong></td><td>सहसा, एकदम से[span_46](start_span)[span_46](end_span)</td><td><strong>ताना</strong></td><td>व्यंग्यपूर्ण बात, चिढ़ाना[span_47](start_span)[span_47](end_span)</td></tr>
+          <tr><td><strong>झिझकना</strong></td><td>हिचकिचाना, असमंजस में पड़ना[span_48](start_span)[span_48](end_span)</td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 6. Textbook Exercises: Short Q&A -->
+  <section id="qa-short">
+    <h2 class="sec-title">📝 ६. प्रश्न और अभ्यास : दो-तीन वाक्यों में उत्तर</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>(क) एक दिन कवि को क्या हो गया?</h4>
+        <p><strong>उत्तर:</strong> एक दिन जब कवि घमंड में भरकर अपने घर की मुँडेर पर खड़े थे, तब अचानक दूर से उड़ता हुआ एक छोटा-सा तिनका उनकी आँख में आ गिरा[span_49](start_span)[span_49](end_span)। इससे वे बेचैन हो उठे और उनकी आँख लाल होकर दुखने लगी[span_50](start_span)[span_50](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ख) आँख में तिनका पड़ने पर घमंडी की क्या दशा हुई?</h4>
+        <p><strong>उत्तर:</strong> आँख में तिनका पड़ते ही घमंडी कवि हिचकिचा उठे और बुरी तरह बेचैन हो गए[span_51](start_span)[span_51](end_span)। आँख लाल होकर दुखने लगी और इस छोटी सी पीड़ा के आगे उनका सारा अहंकार व अकड़ पल भर में काफूर हो गई[span_52](start_span)[span_52](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ग) आँख में तिनका पड़ने पर लोग क्या करने लगे?</h4>
+        <p><strong>उत्तर:</strong> कवि की व्याकुलता देखकर आसपास के लोग तुरंत कपड़े की मूँठ (गुब्बारा) बनाकर उनकी आँख को सेकने लगे ताकि किसी तरह तिनका निकल जाए और उन्हें आराम मिल सके[span_53](start_span)[span_53](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(घ) किसी तरह आँख से तिनका निकल गया तो कवि को क्या अनुभव हुआ?</h4>
+        <p><strong>उत्तर:</strong> जब किसी तरह आँख से तिनका निकल गया, तब कवि के भीतर के विवेक (समझ) ने उन्हें ताना मारा कि तू किस बात का इतना अकड़ रहा था, तेरे अहंकार को तोड़ने के लिए प्रकृति का एक छोटा-सा तिनका ही बहुत है[span_54](start_span)[span_54](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ङ) एक तिनका कविता का मूल भाव क्या है?</h4>
+        <p><strong>उत्तर:</strong> कविता का मूल भाव यह है कि मनुष्य को कभी भी अपने बल या स्थिति पर घमंड नहीं करना चाहिए[span_55](start_span)[span_55](end_span)। प्रकृति का एक अत्यंत तुच्छ तिनका भी बड़े-बड़े अभिमानी व्यक्तियों के अहंकार को पल भर में चकनाचूर कर सकता है[span_56](start_span)[span_56](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Short Q&A: One Sentence -->
+  <section id="qa-oneline">
+    <h2 class="sec-title">📌 ७. प्रश्न और अभ्यास : एक-एक वाक्य में उत्तर</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li><strong>(क) एक दिन कवि कहाँ खड़े थे?[span_57](start_span)[span_57](end_span)</strong><br>👉 एक दिन कवि घर की मुँडेर पर खड़े थे[span_58](start_span)[span_58](end_span)।</li>
+          <li><strong>(ख) अचानक क्या हुआ?[span_59](start_span)[span_59](end_span)</strong><br>👉 अचानक दूर से उड़ता हुआ एक तिनका कवि की आँख में आ पड़ा[span_60](start_span)[span_60](end_span)।</li>
+          <li><strong>(ग) कौन दबे पाँवों भागी?[span_61](start_span)[span_61](end_span)</strong><br>👉 कवि की 'ऐंठ' (अहंकार) दबे पाँवों भाग गई[span_62](start_span)[span_62](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <ul>
+          <li><strong>(घ) घमंडी के घमंड को दूर करने के लिए क्या बहुत है?[span_63](start_span)[span_63](end_span)</strong><br>👉 घमंडी के घमंड को दूर करने के लिए एक छोटा-सा तिनका ही बहुत है[span_64](start_span)[span_64](end_span)।</li>
+          <li><strong>(ङ) कविता के कवि का नाम क्या है?[span_65](start_span)[span_65](end_span)</strong><br>👉 कविता के कवि अयोध्यासिंह उपाध्याय 'हरिऔध' हैं[span_66](start_span)[span_66](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Language Study / Grammar -->
+  <section id="grammar-lang">
+    <h2 class="sec-title">🔤 ८. भाषा-ज्ञान एवं व्याकरण अभ्यास</h2>
+
+    <!-- General Sentences Conversion -->
+    <h3 class="sub-title">୧. पद्यांश पंक्तियों को सामान्य वाक्य में बदलना[span_67](start_span)[span_67](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>काव्य पंक्ति (पाठगत)[span_68](start_span)[span_68](end_span)</th>
+            <th>सामान्य गद्य वाक्य रूप[span_69](start_span)[span_69](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>(क) एक दिन जब था मुंडेरे पर खड़ा[span_70](start_span)[span_70](end_span)</td>
+            <td><strong>जब मैं एक दिन मुँडेर पर खड़ा था।</strong></td>
+          </tr>
+          <tr>
+            <td>(ख) लाल होकर आँख भी दुखने लगी[span_71](start_span)[span_71](end_span)</td>
+            <td><strong>आँख लाल होकर दुखने भी लगी।</strong></td>
+          </tr>
+          <tr>
+            <td>(ଗ) ऐंठ बेचारी दबे पाँवों भागी[span_72](start_span)[span_72](end_span)</td>
+            <td><strong>बेचारी ऐंठ दबे पाँवों भाग गई।</strong></td>
+          </tr>
+          <tr>
+            <td>(घ) जब किसी ढब से निकल तिनका गया[span_73](start_span)[span_73](end_span)</td>
+            <td><strong>जब किसी ढंग से तिनका निकल गया।</strong></td>
+          </tr>
+          <tr>
+            <td>(ङ) एक तिनका है बहुत तेरे लिए[span_74](start_span)[span_74](end_span)</td>
+            <td><strong>तेरे लिए एक तिनका बहुत है।</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Antonyms -->
+    <h3 class="sub-title">୨. विलोम शब्द (Opposites)[span_75](start_span)[span_75](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द[span_76](start_span)[span_76](end_span)</th>
+            <th>विलोम शब्द[span_77](start_span)[span_77](end_span)</th>
+            <th>शब्द[span_78](start_span)[span_78](end_span)</th>
+            <th>विलोम शब्द[span_79](start_span)[span_79](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>झिझक[span_80](start_span)[span_80](end_span)</strong></td>
+            <td>निःसंकोच / बेझिझक</td>
+            <td><strong>दुःखद[span_81](start_span)[span_81](end_span)</strong></td>
+            <td>सुखद[span_82](start_span)[span_82](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>बेचैन[span_83](start_span)[span_83](end_span)</strong></td>
+            <td>चैन / शांत</td>
+            <td><strong>बहुत[span_84](start_span)[span_84](end_span)</strong></td>
+            <td>थोड़ा / कम[span_85](start_span)[span_85](end_span)</td>
+          </tr>
+          <tr>
+            <td><strong>दुःख[span_86](start_span)[span_86](end_span)</strong></td>
+            <td>सुख</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Sound/Action Phrasal Fill in the Blanks -->
+    <h3 class="sub-title">୩. ध्वनि-बोधक वाक्यांशों द्वारा रिक्त स्थान पूर्ति[span_87](start_span)[span_87](end_span)</h3>
+    <p style="color: var(--text-muted); font-size: 0.95rem;">विकल्प: (छपाक से, टपटप, सर्र से, फुरे से)[span_88](start_span)[span_88](end_span)</p>
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li>(क) मेंढक पानी में <strong>छपाक से</strong> कूद गया[span_89](start_span)[span_89](end_span)。</li>
+          <li>(ख) नल बंद होने पर भी पानी की कुछ बूँदें <strong>टपटप</strong> चू गईं[span_90](start_span)[span_90](end_span)。</li>
+        </ul>
+      </div>
+      <div class="card gold">
+        <ul>
+          <li>(ଗ) शोर होते ही चिड़िया <strong>फुरे से</strong> उड़ी[span_91](start_span)[span_91](end_span)。</li>
+          <li>(घ) मोटर साइकिल <strong>सर्र से</strong> निकल गई[span_92](start_span)[span_92](end_span)。</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Correct Parsarg (Postpositions) -->
+    <h3 class="sub-title">४. पाठ के आधार पर सही परसर्गों से रिक्त स्थान पूर्ति[span_93](start_span)[span_93](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>क्रम</th>
+            <th>अविरामी वाक्य[span_94](start_span)[span_94](end_span)</th>
+            <th>सही परसर्ग[span_95](start_span)[span_95](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>(क)</td><td>घमंडों <strong>में</strong> भरा ऐंठा हुआ[span_96](start_span)[span_96](end_span)。</td><td><span class="badge-tag gold">में[span_97](start_span)[span_97](end_span)</span></td></tr>
+          <tr><td>(ख)</td><td>एक तिनका आँख <strong>में</strong> मेरी पड़ा[span_98](start_span)[span_98](end_span)。</td><td><span class="badge-tag teal">में[span_99](start_span)[span_99](end_span)</span></td></tr>
+          <tr><td>(ଗ)</td><td>आ अचानक दूर <strong>से</strong> उड़ता हुआ[span_100](start_span)[span_100](end_span)。</td><td><span class="badge-tag blue">से[span_101](start_span)[span_101](end_span)</span></td></tr>
+          <tr><td>(ঘ)</td><td>जब किसी ढब <strong>से</strong> निकल ਤିନିକା ગયા[span_102](start_span)[span_102](end_span)。</td><td><span class="badge-tag green">से[span_103](start_span)[span_103](end_span)</span></td></tr>
+          <tr><td>(ङ)</td><td>तब 'समझ' <strong>ने</strong> यों मुझे ताने दिए[span_104](start_span)[span_104](end_span)。</td><td><span class="badge-tag coral">ने[span_105](start_span)[span_105](end_span)</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० हिंदी • पद्य भाग : एक तिनका (अयोध्यासिंह उपाध्याय 'हरिऔध') | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
