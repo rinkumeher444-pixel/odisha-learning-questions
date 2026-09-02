@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>गिल्लू - महादेवी वर्मा | विस्तृत डिजिटल अध्ययन नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Section Structure */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० हिंदी • गद्य संस्मरण</div>
+    <h1>गिल्लू : महादेवी वर्मा</h1>
+    <p>मानवेतर प्राणियों के प्रति अगाध प्रेम, करुणा और आत्मीय संवेदना का सजीव संस्मरण रेखाचित्र—विस्तृत सारांश, शब्दार्थ, प्रश्नोत्तर एवं संपूर्ण भाषा-ज्ञान।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#author">लेखिका परिचय</a>
+    <a href="#summary">संस्मरण का सार</a>
+    <a href="#incidents">प्रमुख प्रसंग एवं क्रियाकलाप</a>
+    <a href="#vocabulary">कठिन शब्दार्थ</a>
+    <a href="#qa-short">लघु एवं दीर्घ प्रश्नोत्तर</a>
+    <a href="#qa-objective">एक शब्द/वाक्य प्रश्नोत्तर</a>
+    <a href="#reference-context">अवतरणों के अर्थ</a>
+    <a href="#grammar-lang">भाषा-ज्ञान ও व्याकरण</a>
+  </nav>
+
+  <!-- 1. Author Introduction -->
+  <section id="author">
+    <h2 class="sec-title">✍️ १. लेखिका परिचय : महादेवी वर्मा (१९०७ – १९୮୭)</h2>
+    
+    <div class="compare">
+      <div class="card gold">
+        <h4>जीवन एवं शिक्षा</h4>
+        <ul>
+          <li><strong>जन्म:</strong> सन् <strong>1907</strong> में उत्तर प्रदेश के <strong>फर्रुखाबाद</strong> नगर में एक कुलीन व संपन्न परिवार में हुआ[span_0](start_span)[span_0](end_span)। माता हेमरानी और पिता गोविन्दप्रसाद वर्मा थे[span_1](start_span)[span_1](end_span)।</li>
+          <li><strong>शिक्षा:</strong> इलाहाबाद विश्वविद्यालय से <strong>संस्कृत में एम.ए.</strong> उत्तीर्ण किया[span_2](start_span)[span_2](end_span)।</li>
+          <li><strong>कार्यक्षेत्र:</strong> <strong>प्रयाग महिला विद्यापीठ</strong> की प्राचार्या (प्रिंसिपल) बनीं और नारी-शिक्षा के क्षेत्र में युगांतरकारी योगदान दिया[span_3](start_span)[span_3](end_span)।</li>
+          <li><strong>संपादना:</strong> प्रसिद्ध पत्रिका <strong>'चाँद'</strong> का संपादन किया[span_4](start_span)[span_4](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card teal">
+        <h4>साहित्यिक अवदान एवं सम्मान</h4>
+        <ul>
+          <li><strong>युग:</strong> छायावाद युग के चार प्रमुख स्तंभों में से एक मूर्धन्य कवयित्री एवं गद्यकार[span_5](start_span)[span_5](end_span)।</li>
+          <li><strong>भावपक्ष:</strong> प्रेम, विरह, विश्व-वेदना, करुणा तथा प्राणिमात्र के प्रति सूक्ष्म सहानुभूति[span_6](start_span)[span_6](end_span)। नारी को उन्होंने 'नीरभरी दुःख की बदली' और 'दीपशिखा' कहा[span_7](start_span)[span_7](end_span)।</li>
+          <li><strong>पुरस्कार:</strong> <strong>मंगला प्रसाद पारितोषिक</strong>, <strong>पद्म भूषण</strong> तथा सर्वोच्च <strong>ज्ञानपीठ पुरस्कार</strong> से सम्मानित[span_8](start_span)[span_8](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub-title">प्रमुख कृतियाँ</h3>
+    <div class="compare">
+      <div class="card blue">
+        <h4>काव्य-ग्रंथ</h4>
+        <p>नीहार, रश्मि, नीरजा, सांध्यगीत और दीपशिखा[span_9](start_span)[span_9](end_span) ।</p>
+      </div>
+      <div class="card green">
+        <h4>रेखाचित्र एवं संस्मरण</h4>
+        <p>अतीत के चलचित्र, स्मृति की रेखाएँ तथा पथ के साथी[span_10](start_span)[span_10](end_span) ।</p>
+      </div>
+      <div class="card coral">
+        <h4>निबंध एवं विवेचनात्मक गद्य</h4>
+        <p>श्रृंखला की कड़ियाँ, महादेवी का विवेचनात्मक गद्य, क्षणदा और संकल्पिता[span_11](start_span)[span_11](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Story Summary & Character Dynamics -->
+  <section id="summary">
+    <h2 class="sec-title">🐿️ २. संस्मरण का सार ও विचार-बोध</h2>
+    <p>
+      'गिल्लू' महादेवी वर्मा का एक अत्यंत मार्मिक संस्मरण है[span_12](start_span)[span_12](end_span)। इसमें एक नन्ही गिलहरी के बच्चे (लघुप्राण) के साथ लेखिका के वात्सल्य, करुणा और आत्मीय संबंधों का बेजोड़ चित्रांकन हुआ है[span_13](start_span)[span_13](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>सोनजुही की पीली कली और स्मृति:</strong><br>
+      सोनजुही की बेल में खिली पीली कली को देखकर लेखिका को अनायास ही उस छोटे जीव (गिल्लू) का स्मरण हो आता है, जो कभी इस हरीतिमा में छिपकर बैठता था और लेखिका के पास आते ही उनके कंधे पर कूदकर चौंका देता था[span_14](start_span)[span_14](end_span)। लेखिका को विश्वास होता है कि शायद स्वर्णिम कली के बहाने वही जीव उन्हें चौंकाने फिर से ऊपर आ गया हो[span_15](start_span)[span_15](end_span)।
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">गमले की संधि में घायल गिलहरी का बच्चा[span_16](start_span)[span_16](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">रुई, पेंसिलिन मरहम ও दूध से सेवा[span_17](start_span)[span_17](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">डलिया का झूला ও 'गिल्लू' नामकरण[span_18](start_span)[span_18](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">काजू प्रिय आहार व आत्मीय शरारतें[span_19](start_span)[span_19](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">२ वर्ष बाद महाप्रयाण ও सोनजुही तले समाधि[span_20](start_span)[span_20](end_span)</div>
+    </div>
+
+    <div class="callout example-box">
+      <strong>काक-भुशुण्डि का विवेचन:</strong><br>
+      कौवे को एक विचित्र पक्षी माना गया है—यह एक साथ <strong>समादरित और अनादरित</strong>, <strong>अति सम्मानित और अति अवमानित</strong> है[span_21](start_span)[span_21](end_span)। पितृपक्ष में हमारे पुरखे गरुड़, मयूर या हंस के रूप में नहीं, बल्कि कौवा बनकर ही हमसे पिंड या अन्न ग्रहण करने अवतीर्ण होते हैं[span_22](start_span)[span_22](end_span)। प्रियजनों के आगमन का मधुर संदेश भी कौवे के कर्कश स्वर में ही मिलता है; परंतु दूसरी ओर कौवा और 'काँव-काँव' करना तिरस्कार और अवमानना का प्रतीक माना जाता है[span_23](start_span)[span_23](end_span)।
+    </div>
+  </section>
+
+  <!-- 3. Key Incidents -->
+  <section id="incidents">
+    <h2 class="sec-title">🌿 ३. प्रमुख जीवन-प्रसंग एवं अद्भुत क्रियाकलाप</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>बचपन और जीवन-रक्षा</h4>
+        <ul>
+          <li><strong>काकद्वय का आक्रमण:</strong> कौवे घोंसले से गिरे नन्हे बच्चे पर चोंचों से प्रहार कर रहे थे[span_24](start_span)[span_24](end_span)। सबने कहा कि चोंच के घाव के बाद यह बच नहीं सकता, इसे ऐसे ही मरने दिया जाए[span_25](start_span)[span_25](end_span)।</li>
+          <li><strong>उपचार:</strong> लेखिका ने उठाकर रुई से रक्त पोंछा, <strong>पेंसिलिन का मरहम</strong> लगाया[span_26](start_span)[span_26](end_span)। कई घंटे बाद एक बूँद पानी मुँह में टपकाया जा सका[span_27](start_span)[span_27](end_span)। तीसरे दिन उसने नन्हे पंजों से लेखिका की उँगली पकड़ ली[span_28](start_span)[span_28](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>अनोखी क्रीड़ाएँ ও ध्यान आकर्षण</h4>
+        <ul>
+          <li><strong>परदे पर दौड़:</strong> लेखिका का ध्यान खींचने के लिए वह पैर से सिर और परदे पर सर्र से चढ़ता और तेजी से उतरता था[span_29](start_span)[span_29](end_span)।</li>
+          <li><strong>लिफाफे में विश्राम:</strong> कभी-कभी लंबे लिफाफे में अगले दो पंजों और सिर को बाहर रखकर घंटों मेज पर दीवार के सहारे खड़ा रहता[span_30](start_span)[span_30](end_span)।</li>
+          <li><strong>थाली में भोजन:</strong> लेखिका की थाली के पास बैठकर सफाई से एक-एक चावल उठाकर खाता था[span_31](start_span)[span_31](end_span)। <strong>काजू उसका सबसे प्रिय खाद्य था</strong>[span_32](start_span)[span_32](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card green">
+        <h4>गर्मी से बचने का उपाय</h4>
+        <p>
+          गर्मियों की दोपहर में जब लेखिका लिखती रहतीं, तो गिल्लू न बाहर जाता न झूले में रहता[span_33](start_span)[span_33](end_span)। उसने पास में रखी <strong>मिट्टी की सुराही पर पेट के बल लेट जाने का नया उपाय निकाला</strong>, जिससे वह लेखिका के समीप भी रहता और ठंडक में भी[span_34](start_span)[span_34](end_span)।
+        </p>
+      </div>
+
+      <div class="card coral">
+        <h4>अस्पताल के दिन ও परिचारिका रूप</h4>
+        <p>
+          मोटर दुर्घटना में घायल लेखिका जब अस्पताल में थीं, तब गिल्लू ने अपना प्रिय खाद्य काजू खाना लगभग बंद कर दिया था (झूले में काजू भरे मिले)[span_35](start_span)[span_35](end_span)। लेखिका के लौटने पर वह सिरहाने बैठकर नन्हे पंजों से सिर सहलाता था, उसका हटना किसी <strong>परिचारिका (नर्स)</strong> के हटने के समान लगता था[span_36](start_span)[span_36](end_span)।
+        </p>
+      </div>
+    </div>
+
+    <!-- Embedded SVG Diagram: Gillu's Window World -->
+    <div class="diagram-container">
+      <figure>
+        <svg viewBox="0 0 600 230" width="560" height="210" xmlns="http://www.w3.org/2000/svg">
+          <!-- Window Frame -->
+          <rect x="180" y="20" width="240" height="180" rx="10" fill="#131d31" stroke="#38bdf8" stroke-width="3"/>
+          <line x1="300" y1="20" x2="300" y2="200" stroke="#38bdf8" stroke-width="2"/>
+          <line x1="180" y1="110" x2="420" y2="110" stroke="#38bdf8" stroke-width="2"/>
+          
+          <!-- Wire Mesh / Jaali opening corner -->
+          <path d="M 180,20 L 230,20 L 180,70 Z" fill="#f43f5e" opacity="0.3"/>
+          <text x="215" y="55" fill="#fde68a" font-size="10" font-weight="bold">मुक्त द्वार</text>
+
+          <!-- Hanging Basket (Jhoola) -->
+          <line x1="240" y1="20" x2="250" y2="90" stroke="#f59e0b" stroke-width="1.5"/>
+          <line x1="280" y1="20" x2="270" y2="90" stroke="#f59e0b" stroke-width="1.5"/>
+          <ellipse cx="260" cy="95" rx="25" ry="12" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+          <text x="260" y="98" fill="#fef08a" font-size="9" text-anchor="middle">डलिया (झूला)</text>
+
+          <!-- Surahi on floor -->
+          <path d="M 470,180 L 490,180 L 485,150 Q 495,140 480,125 Q 465,140 475,150 Z" fill="#1e293b" stroke="#14b8a6" stroke-width="2"/>
+          <text x="480" y="200" fill="#14b8a6" font-size="11" text-anchor="middle">सुराही (शीतलता)</text>
+
+          <!-- Sonjuhi Creeper representation on left -->
+          <path d="M 70,190 Q 110,120 120,60 Q 130,20 150,10" fill="none" stroke="#10b981" stroke-width="3"/>
+          <circle cx="120" cy="60" r="6" fill="#f59e0b"/>
+          <circle cx="95" cy="100" r="5" fill="#f59e0b"/>
+          <text x="80" y="45" fill="#10b981" font-size="12" font-weight="bold">सोनजुही लता</text>
+          <text x="80" y="62" fill="#fde68a" font-size="10">(पीली कली)</text>
+        </svg>
+        <figcaption>चित्र: लेखिका का कमरा, खिड़की की जाली, लटकता झूला, सुराही तथा सोनजुही की लता</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 4. Vocabulary / Shabdarth -->
+  <section id="vocabulary">
+    <h2 class="sec-title">📚 ४. कठिन शब्दार्थ एवं टिप्पणियाँ</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>शब्द</th>
+            <th>अर्थ</th>
+            <th>शब्द</th>
+            <th>अर्थ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>लघुप्राण</strong></td><td>छोटा जीव[span_37](start_span)[span_37](end_span)</td><td><strong>काकद्वय</strong></td><td>दो कौवे[span_38](start_span)[span_38](end_span)</td></tr>
+          <tr><td><strong>काक भुशुण्डि</strong></td><td>रामायणकालीन कौवा रूपी ऋषि[span_39](start_span)[span_39](end_span)</td><td><strong>निश्चेष्ट</strong></td><td>बिना किसी हरकत/चेष्टा के, अचेत[span_40](start_span)[span_40](end_span)</td></tr>
+          <tr><td><strong>समादरित</strong></td><td>विशेष आदर पाया हुआ[span_41](start_span)[span_41](end_span)</td><td><strong>अनादरित/अवमानित</strong></td><td>तिरस्कृत, अपमानित[span_42](start_span)[span_42](end_span)</td></tr>
+          <tr><td><strong>अवतीर्ण</strong></td><td>प्रकट होना, उतरना[span_43](start_span)[span_43](end_span)</td><td><strong>पितरपक्ष</strong></td><td>श्राद्ध का पक्ष (आश्विन कृष्ण पक्ष)[span_44](start_span)[span_44](end_span)</td></tr>
+          <tr><td><strong>कर्कश</strong></td><td>कानों को चुभने वाला कठोर स्वर[span_45](start_span)[span_45](end_span)</td><td><strong>स्निग्ध</strong></td><td>चिकना, चमकदार[span_46](start_span)[span_46](end_span)</td></tr>
+          <tr><td><strong>लघुगात</strong></td><td>छोटा शरीर[span_47](start_span)[span_47](end_span)</td><td><strong>लौनी</strong></td><td>मक्खन, नवनीत[span_48](start_span)[span_48](end_span)</td></tr>
+          <tr><td><strong>परिचारिका</strong></td><td>सेविका, नर्स[span_49](start_span)[span_49](end_span)</td><td><strong>मरणासन्न</strong></td><td>जो मृत्यु के निकट हो[span_50](start_span)[span_50](end_span)</td></tr>
+          <tr><td><strong>उष्णता</strong></td><td>गर्मी, ताप[span_51](start_span)[span_51](end_span)</td><td><strong>पीताभ</strong></td><td>पीले रंग की आभा वाला[span_52](start_span)[span_52](end_span)</td></tr>
+          <tr><td><strong>हरीतिमा</strong></td><td>हरियाली[span_53](start_span)[span_53](end_span)</td><td><strong>सोनजुही</strong></td><td>पीले फूलों वाली जूही की लता[span_54](start_span)[span_54](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 5. Question & Answers (2-3 Sentences) -->
+  <section id="qa-short">
+    <h2 class="sec-title">📝 ५. प्रश्न और अभ्यास : दो-तीन वाक्यों में उत्तर</h2>
+    
+    <div class="compare">
+      <div class="card">
+        <h4>(क) सोनजुही में लगी पीली कली को देखकर लेखिका के मन में कौन-से विचार उमड़ने लगे?</h4>
+        <p><strong>उत्तर:</strong> पीली कली को देखकर लेखिका को गिल्लू का स्मरण हो आया जो उस लता की हरीतिमा में छिपकर बैठता था[span_55](start_span)[span_55](end_span)। लेखिका ने सोचा कि मिट्टी में विलीन हो चुका गिल्लू शायद इस स्वर्णिम कली के रूप में ही उन्हें चौंकाने आया हो[span_56](start_span)[span_56](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ख) गिलहरी के घायल बच्चे का उपचार किस प्रकार किया गया?</h4>
+        <p><strong>उत्तर:</strong> लेखिका ने उसे हौले से उठाकर कमरे में लाया, रुई से खून पोंछकर घावों पर पेंसिलिन का मरहम लगाया[span_57](start_span)[span_57](end_span)। कई घंटे के प्रयास के बाद उसके मुँह में पानी की बूँद टपकाई गई और रुई की बत्ती से दूध पिलाया गया[span_58](start_span)[span_58](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ग) लेखिका का ध्यान आकर्षित करने के लिए गिल्लू क्या करता था?</h4>
+        <p><strong>उत्तर:</strong> वह लेखिका के पैरों तक आकर सर्र से परदे पर चढ़ जाता था और फिर उसी तेजी से नीचे उतरता था[span_59](start_span)[span_59](end_span)। यह दौड़ने का क्रम तब तक चलता रहता जब तक लेखिका उसे पकड़ने के लिए उठ न जातीं[span_60](start_span)[span_60](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(घ) गिल्लू का कार्य-कलाप कैसा था?</h4>
+        <p><strong>उत्तर:</strong> वह झूले में झूलता, खिड़की से बाहर देखता, मेज पर रखे लिफाफे में खड़ा होकर लेखिका के काम देखता और भूख लगने पर 'चिक-चिक' करके काजू या बिस्कुट माँगकर कुतरता था[span_61](start_span)[span_61](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ङ) लेखिका को क्यों ऐसा लगा कि गिल्लू को मुक्त करना आवश्यक है?</h4>
+        <p><strong>उत्तर:</strong> प्रथम बसंत आने पर बाहर की गिलहरियाँ खिड़की की जाली के पास आकर चिक-चिक करती थीं और गिल्लू भी खिड़की के पास बैठकर उदास भाव से बाहर झाँकता था[span_62](start_span)[span_62](end_span)। उसका यह अपनत्व देखकर लेखिका ने जाली खोलकर उसे मुक्त किया[span_63](start_span)[span_63](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(च) लेखिका की अस्वस्थता में गिल्लू क्या करता था?</h4>
+        <p><strong>उत्तर:</strong> अस्पताल से लौटने पर लेखिका जब अस्वस्थ थीं, तो गिल्लू तकिए पर सिरहाने बैठकर अपने नन्हे-नन्हे पंजों से उनके सिर और बालों को सहलाता रहता था[span_64](start_span)[span_64](end_span)। उसका हटना किसी सेविका के हटने जैसा लगता था[span_65](start_span)[span_65](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(छ) गरमी से बचने का कौन-सा उपाय गिल्लू ने खोज निकाला था?</h4>
+        <p><strong>उत्तर:</strong> गिल्लू कमरे में रखी मिट्टी की ठंडी सुराही पर पेट के बल लेट जाता था[span_66](start_span)[span_66](end_span)। इससे वह लेखिका के समीप भी बना रहता था और उसे गरमी से ठंडक भी मिलती रहती थी[span_67](start_span)[span_67](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ज) किन चेष्टाओं से लगा कि गिल्लू का अंत समय समीप है?</h4>
+        <p><strong>उत्तर:</strong> जीवन के अंतिम दिन उसने न कुछ खाया, न बाहर गया[span_68](start_span)[span_68](end_span)। रात में झूले से उतरकर बिस्तर पर आया और अपने ठंडे पड़ते पंजों से लेखिका की वही उँगली पकड़ ली जिसे बचपन में मरणासन्न स्थिति में पकड़ा था[span_69](start_span)[span_69](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(झ) सोनजुही की लता के नीचे बनी समाधि से किस विश्वास का जन्म होता है?</h4>
+        <p><strong>उत्तर:</strong> लेखिका को यह दृढ़ विश्वास और संतोष मिलता है कि किसी वासंती दिन वह लघुप्राण गिल्लू जूही के छोटे से पीले फूल के रूप में अवश्य खिल उठेगा[span_70](start_span)[span_70](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>(ञ) लेखिका को उस लघुप्राण गिल्लू की खोज क्यों थी?</h4>
+        <p><strong>उत्तर:</strong> सोनजुही की पीली कली को देखकर लेखिका को गिल्लू के आत्मीय प्रेम, उसकी चंचलता और विरह की तीव्र अनुभूति हुई, इसलिए उन्हें उस लघुप्राण की खोज थी[span_71](start_span)[span_71](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Objective & 1-word Q&A -->
+  <section id="qa-objective">
+    <h2 class="sec-title">🎯 ६. एक शब्द / एक वाक्य प्रश्नोत्तर एवं बहुविकल्पीय प्रश्न</h2>
+
+    <h3 class="sub-title">एक शब्द / एक वाक्य उत्तर</h3>
+    <div class="compare">
+      <div class="card teal">
+        <ul>
+          <li><strong>लघुप्राण किसे कहा गया है?</strong><br>👉 गिलहरी के बच्चे (गिल्लू) को[span_72](start_span)[span_72](end_span)।</li>
+          <li><strong>दो कौवे कैसा खेल खेल रहे थे?</strong><br>👉 छुआ-छुऔवल जैसा खेल[span_73](start_span)[span_73](end_span)।</li>
+          <li><strong>गिल्लू किसका नेता बनकर डालियों पर उछलता-कूदता था?</strong><br>👉 बाहर की गिलहरियों के झुंड का[span_74](start_span)[span_74](end_span)।</li>
+          <li><strong>गिल्लू का सबसे प्रिय खाद्य कौन-सा था?</strong><br>👉 काजू[span_75](start_span)[span_75](end_span)।</li>
+          <li><strong>गिलहरियों के जीवन की अवधि कितनी होती है?</strong><br>👉 दो वर्ष से अधिक नहीं[span_76](start_span)[span_76](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <ul>
+          <li><strong>गिल्लू को समाधि कहाँ दी गई?</strong><br>👉 सोनजुही की लता के नीचे[span_77](start_span)[span_77](end_span)।</li>
+          <li><strong>भूख लगने पर गिल्लू कैसी आवाज़ निकालता था?</strong><br>👉 चिक-चिक की आवाज़[span_78](start_span)[span_78](end_span)।</li>
+          <li><strong>लेखिका किस पक्षी के विवेचन में मग्न थीं?</strong><br>👉 काक-पुराण (कौवे) के विवेचन में[span_79](start_span)[span_79](end_span)।</li>
+          <li><strong>कमरे में किसकी गंध हौले-हौले आ रही थी?</strong><br>👉 नीम-चमेली की गंध[span_80](start_span)[span_80](end_span)।</li>
+          <li><strong>प्रभात की किस किरण के साथ गिल्लू सो गया?</strong><br>👉 प्रथम किरण के स्पर्श के साथ[span_81](start_span)[span_81](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub-title">बहुविकल्पीय प्रश्न (MCQ)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>प्रश्न</th>
+            <th>विकल्प</th>
+            <th>सही उत्तर</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>दो कौवे कैसा खेल खेल रहे थे?[span_82](start_span)[span_82](end_span)</td>
+            <td>(i) दौड़ लगाने का (ii) छुआ-छुऔवल (iii) खाना खाने का (iv) गेंद[span_83](start_span)[span_83](end_span)</td>
+            <td><span class="badge-tag green">(ii) छुआ-छुऔवल[span_84](start_span)[span_84](end_span)</span></td>
+          </tr>
+          <tr>
+            <td>लेखिका के किस विवेचन में अचानक बाधा आ पड़ी?[span_85](start_span)[span_85](end_span)</td>
+            <td>(i) शिव पुराण (ii) काक पुराण (iii) सूर्य पुराण (iv) नृसिंह पुराण[span_86](start_span)[span_86](end_span)</td>
+            <td><span class="badge-tag blue">(ii) काक पुराण[span_87](start_span)[span_87](end_span)</span></td>
+          </tr>
+          <tr>
+            <td>लेखिका के कमरे में किसकी गंध हौले-हौले आने लगी?[span_88](start_span)[span_88](end_span)</td>
+            <td>(i) सोनजुही (ii) बसंत (iii) नीम-चमेली (iv) गुलाब[span_89](start_span)[span_89](end_span)</td>
+            <td><span class="badge-tag gold">(iii) नीम-चमेली[span_90](start_span)[span_90](end_span)</span></td>
+          </tr>
+          <tr>
+            <td>गिल्लू का कौन-सा खाद्य प्रिय खाद्य था?[span_91](start_span)[span_91](end_span)</td>
+            <td>(i) चावल (ii) बिस्कुट (iii) केला (iv) काजू[span_92](start_span)[span_92](end_span)</td>
+            <td><span class="badge-tag teal">(iv) काजू[span_93](start_span)[span_93](end_span)</span></td>
+          </tr>
+          <tr>
+            <td>गिलहरियों के जीवन की अवधि कितने वर्ष से अधिक नहीं होती?[span_94](start_span)[span_94](end_span)</td>
+            <td>(i) एक (ii) दो (iii) तीन (iv) चार[span_95](start_span)[span_95](end_span)</td>
+            <td><span class="badge-tag coral">(ii) दो वर्ष[span_96](start_span)[span_96](end_span)</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 7. Explanation of Passages -->
+  <section id="reference-context">
+    <h2 class="sec-title">📖 ७. महत्वपूर्ण अवतरणों का अर्थ-स्पष्टीकरण</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>१. "तब मुझे कली की खोज रहती थी, पर आज उस लघुप्राण की खोज है।[span_97](start_span)"[span_97](end_span)</h4>
+        <p><strong>अर्थ:</strong> जब गिल्लू जीवित था तब लेखिका सोनजुही में कलियाँ ढूँढती थीं और गिल्लू उन पर कूद पड़ता था[span_98](start_span)[span_98](end_span)। आज गिल्लू के न रहने पर लेखिका का मन प्रकृति की सुंदरता में नहीं, बल्कि उस दिवंगत नन्हे जीव की आत्मीय स्मृति में डूबा है[span_99](start_span)[span_99](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>२. "यह काक भुशुण्डि भी विचित्र पक्षी है—एक साथ समादरित, अनादरित...[span_100](start_span)"[span_100](end_span)</h4>
+        <p><strong>अर्थ:</strong> कौवे का समाज में दोहरा स्थान है[span_101](start_span)[span_101](end_span)। पितृपक्ष में पूर्वजों का रूप मानकर उसे आदर से भोजन कराते हैं और मेहमान का संदेशवाहक मानते हैं, वहीं उसकी कर्कश काँव-काँव को अपशकुन व अपमानजनक मानकर तिरस्कृत करते हैं[span_102](start_span)[span_102](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>୩. "उसका हटना एक परिचारिका के हटने के समान लगता।[span_103](start_span)"[span_103](end_span)</h4>
+        <p><strong>अर्थ:</strong> जब लेखिका अस्वस्थ थीं, तब गिल्लू तकिए पर बैठकर नन्हे पंजों से उनके बाल सहलाकर सेवा करता था[span_104](start_span)[span_104](end_span)। उसका यह कोमल स्पर्श किसी संवेदनशील नर्स (परिचारिका) की निष्ठापूर्ण सेवा जैसा सुखद था[span_105](start_span)[span_105](end_span) ।</p>
+      </div>
+
+      <div class="card">
+        <h4>୪. "प्रभात की प्रथम किरण के स्पर्श के साथ ही वह किसी और जीवन में जागने के लिए सो गया।[span_106](start_span)"[span_106](end_span)</h4>
+        <p><strong>अर्थ:</strong> यह गिल्लू के शांत महाप्रयाण की ओर संकेत करता है[span_107](start_span)[span_107](end_span)। मृत्यु केवल शरीर का अंत है; आत्मा नश्वर चोले को छोड़कर नए जीवन की यात्रा पर निकल जाती है[span_108](start_span)[span_108](end_span) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Grammar & Language Study -->
+  <section id="grammar-lang">
+    <h2 class="sec-title">🔤 ८. भाषा-ज्ञान एवं व्याकरण विशेषांक</h2>
+
+    <!-- Pratyay & Samas -->
+    <h3 class="sub-title">(क) प्रत्यय एवं समास विश्लेषण</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>प्रत्यय विचार (कृत् एवं तद्धित)[span_109](start_span)[span_109](end_span)</h4>
+        <ul>
+          <li><strong>स्वर्णिम:</strong> स्वर्ण (संज्ञा) + इम (तद्धित प्रत्यय)[span_110](start_span)[span_110](end_span)</li>
+          <li><strong>समादरित:</strong> समादर + इत (तद्धित प्रत्यय)[span_111](start_span)[span_111](end_span)</li>
+          <li><strong>अपनापन:</strong> अपना (सर्वनाम) + पन (तद्धित प्रत्यय)[span_112](start_span)[span_112](end_span)</li>
+          <li><strong>लगाव:</strong> लगना (धातु/क्रिया) + आव (कृत् प्रत्यय)[span_113](start_span)[span_113](end_span)</li>
+          <li><strong>झूला:</strong> झूलना (क्रिया) + आ (कृत् प्रत्यय)[span_114](start_span)[span_114](end_span)</li>
+          <li><strong>परिचारिक:</strong> परिचार + इक (तद्धित प्रत्यय)[span_115](start_span)[span_115](end_span)</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>समास विग्रह एवं भेद[span_116](start_span)[span_116](end_span)</h4>
+        <ul>
+          <li><strong>नीम-चमेली:</strong> नीम और चमेली ➔ <em>द्वन्द्व समास</em>[span_117](start_span)[span_117](end_span)</li>
+          <li><strong>दोपहर:</strong> दो पहरों का समाहार/समूह ➔ <em>द्वିଗୁ समास</em>[span_118](start_span)[span_118](end_span)</li>
+          <li><strong>जीवन-यात्रा:</strong> जीवन की यात्रा ➔ <em>संबंध तत्पुरुष समास</em>[span_119](start_span)[span_119](end_span)</li>
+          <li><strong>मरणासन्न:</strong> मरण को आसन्न (पहुँचा हुआ) ➔ <em>कर्म तत्पुरुष समास</em>[span_120](start_span)[span_120](end_span)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Sangya Identification -->
+    <h3 class="sub-title">(ख) संज्ञा भेद पहचान[span_121](start_span)[span_121](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>वाक्य में प्रयुक्त पद</th>
+            <th>संज्ञा का भेद</th>
+            <th>व्याकरणिक कारण</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>गिल्लू[span_122](start_span)[span_122](end_span)</strong></td><td><span class="badge-tag gold">व्यक्तिवाचक संज्ञा</span></td><td>विशेष जीव का व्यक्तिगत नाम[span_123](start_span)[span_123](end_span)</td></tr>
+          <tr><td><strong>गिलहरियों[span_124](start_span)[span_124](end_span)</strong></td><td><span class="badge-tag teal">जातिवाचक संज्ञा</span></td><td>संपूर्ण प्राणी जाति का बोध[span_125](start_span)[span_125](end_span)</td></tr>
+          <tr><td><strong>लगाव / गंध[span_126](start_span)[span_126](end_span)</strong></td><td><span class="badge-tag coral">भाववाचक संज्ञा</span></td><td>अनुभूति, गुण व भाव का बोध[span_127](start_span)[span_127](end_span)</td></tr>
+          <tr><td><strong>सोने (का भाव)[span_128](start_span)[span_128](end_span)</strong></td><td><span class="badge-tag blue">द्रव्यवाचक संज्ञा</span></td><td>धातु व पदार्थ का बोध[span_129](start_span)[span_129](end_span)</td></tr>
+          <tr><td><strong>झुंड[span_130](start_span)[span_130](end_span)</strong></td><td><span class="badge-tag green">समुदायवाचक संज्ञा</span></td><td>समूह का बोध[span_131](start_span)[span_131](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Karak & Parsarg -->
+    <h3 class="sub-title">(ଗ) कारक ও परसर्ग अभ्यास[span_132](start_span)[span_132](end_span)</h3>
+    <div class="compare">
+      <div class="card blue">
+        <h4>परसर्ग पूर्ति वाक्य[span_133](start_span)[span_133](end_span)</h4>
+        <ul>
+          <li>वह मेरे पैर तक आकर परदे <strong>पर</strong> चढ़ जाता[span_134](start_span)[span_134](end_span)।</li>
+          <li>सारा लघुगात लिफाफे <strong>में</strong> बंद रहता[span_135](start_span)[span_135](end_span)।</li>
+          <li>इस मार्ग <strong>से</strong> गिल्लू ने मुक्ति की साँस ली[span_136](start_span)[span_136](end_span)।</li>
+          <li>नीम-चमेली की गंध मेरे कमरे <strong>में</strong> आने लगी[span_137](start_span)[span_137](end_span)।</li>
+          <li>फिर गिल्लू <strong>के</strong> जीवन का प्रथम बसंत आया[span_138](start_span)[span_138](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card coral">
+        <h4>कारक भेद उदाहरण (पृष्ठ 65-66 से)[span_139](start_span)[span_139](end_span)</h4>
+        <ul>
+          <li>मुसाफिर ने क्रोधपूर्ण <strong>नेत्रों से</strong> देखा ➔ <em>करण कारक (साधन)</em>[span_140](start_span)[span_140](end_span)</li>
+          <li>दारोगा जी ने अपने <strong>मित्र की</strong> दशा देखी ➔ <em>संबंध कारक</em>[span_141](start_span)[span_141](end_span)</li>
+          <li>वे लोग खुले <strong>मैदान में, रेत पर</strong> पड़े रहे ➔ <em>अधिकरण कारक</em>[span_142](start_span)[span_142](end_span)</li>
+          <li>कृपाशंकर ने <strong>कई कुली</strong> बुलाये ➔ <em>कर्म कारक</em>[span_143](start_span)[span_143](end_span)</li>
+          <li>ठाकुर साहब <strong>गाड़ी से</strong> उतरने लगे ➔ <em>अपादान कारक (अलगाव)</em>[span_144](start_span)[span_144](end_span)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Voice (Vachya) Change -->
+    <h3 class="sub-title">(घ) वाच्य परिवर्तन : कर्तृवाच्य से कर्मवाच्य[span_145](start_span)[span_145](end_span)</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>मूल वाक्य (कर्तृवाच्य)[span_146](start_span)[span_146](end_span)</th>
+            <th>रूपांतरित वाक्य (कर्मवाच्य)[span_147](start_span)[span_147](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>उसने एक अच्छा उपाय खोज निकाला।[span_148](start_span)[span_148](end_span)</td>
+            <td><strong>उसके द्वारा एक अच्छा उपाय खोज निकाला गया।</strong></td>
+          </tr>
+          <tr>
+            <td>मैंने उसे थाली के पास बैठना सिखाया।[span_149](start_span)[span_149](end_span)</td>
+            <td><strong>मेरे द्वारा उसे थाली के पास बैठना सिखाया गया।</strong></td>
+          </tr>
+          <tr>
+            <td>महादेवी ने उसे तार से खिड़की पर लटका दिया।[span_150](start_span)[span_150](end_span)</td>
+            <td><strong>महादेवी द्वारा उसे तार से खिड़की पर लटका दिया गया।</strong></td>
+          </tr>
+          <tr>
+            <td>हम उसे गिल्लू कहकर बुलाने लगे।[span_151](start_span)[span_151](end_span)</td>
+            <td><strong>हमारे द्वारा उसे गिल्लू कहकर बुलाया जाने लगा।</strong></td>
+          </tr>
+          <tr>
+            <td>गिल्लू ने मुक्ति की साँस ली।[span_152](start_span)[span_152](end_span)</td>
+            <td><strong>गिल्लू द्वारा मुक्ति की साँस ली गई।</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Gender, Number, Synonyms, Antonyms Grid -->
+    <h3 class="sub-title">(ଙ) विलोम, लिंग, वचन एवं पर्यायवाची तालिका[span_153](start_span)[span_153](end_span)</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>विलोम शब्द[span_154](start_span)[span_154](end_span)</h4>
+        <ul>
+          <li><strong>जीवन:</strong> मरण / मृत्यु[span_155](start_span)[span_155](end_span)</li>
+          <li><strong>विश्वास:</strong> अविश्वास[span_156](start_span)[span_156](end_span)</li>
+          <li><strong>आवश्यक:</strong> अनावश्यक[span_157](start_span)[span_157](end_span)</li>
+          <li><strong>प्रभात:</strong> संध्या[span_158](start_span)[span_158](end_span)</li>
+          <li><strong>सन्तोष:</strong> असन्तोष[span_159](start_span)[span_159](end_span)</li>
+          <li><strong>अपनापन:</strong> परायापन[span_160](start_span)[span_160](end_span)</li>
+        </ul>
+      </div>
+
+      <div class="card coral">
+        <h4>वचन परिवर्तन[span_161](start_span)[span_161](end_span)</h4>
+        <ul>
+          <li>कली ➔ <strong>कलियाँ</strong>[span_162](start_span)[span_162](end_span)</li>
+          <li>आँख ➔ <strong>आँखें</strong>[span_163](start_span)[span_163](end_span)</li>
+          <li>कौवा ➔ <strong>कौवे</strong>[span_164](start_span)[span_164](end_span)</li>
+          <li>गिलहरी ➔ <strong>गिलहरियाँ</strong>[span_165](start_span)[span_165](end_span)</li>
+          <li>झूला ➔ <strong>झूले</strong>[span_166](start_span)[span_166](end_span)</li>
+          <li>गमला ➔ <strong>गमले</strong>[span_167](start_span)[span_167](end_span)</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>लिंग निर्धारण[span_168](start_span)[span_168](end_span)</h4>
+        <ul>
+          <li><strong>भूख:</strong> स्त्रीलिंग (भूख लगी)[span_169](start_span)[span_169](end_span)</li>
+          <li><strong>पानी:</strong> पुल्लिंग (पानी बहता है)[span_170](start_span)[span_170](end_span)</li>
+          <li><strong>गंध:</strong> स्त्रीलिंग (सुगंध आई)[span_171](start_span)[span_171](end_span)</li>
+          <li><strong>झुंड:</strong> पुल्लिंग (झुंड जा रहा है)[span_172](start_span)[span_172](end_span)</li>
+          <li><strong>दौड़:</strong> स्त्रीलिंग (दौड़ शुरू हुई)[span_173](start_span)[span_173](end_span)</li>
+          <li><strong>जीवन:</strong> पुल्लिंग (जीवन बीता)[span_174](start_span)[span_174](end_span)</li>
+          <li><strong>पूँछ:</strong> स्त्रीलिंग (लंबी पूँछ)[span_175](start_span)[span_175](end_span)</li>
+          <li><strong>पीढ़ी:</strong> स्त्रीलिंग (नई पीढ़ी)[span_176](start_span)[span_176](end_span)</li>
+        </ul>
+      </div>
+
+      <div class="card blue">
+        <h4>पर्यायवाची शब्द[span_177](start_span)[span_177](end_span)</h4>
+        <ul>
+          <li><strong>आँख:</strong> नयन, नेत्र, चक्षु, लोचन[span_178](start_span)[span_178](end_span)</li>
+          <li><strong>घर:</strong> गृह, सदन, आवास, आलय[span_179](start_span)[span_179](end_span)</li>
+          <li><strong>प्रभात:</strong> भोर, उषा, सवेरा, प्रातःकाल[span_180](start_span)[span_180](end_span)</li>
+          <li><strong>दीवार:</strong> भित्ति, दीवार, प्राचीर[span_181](start_span)[span_181](end_span)</li>
+          <li><strong>प्रयत्न:</strong> प्रयास, चेष्टा, कोशिश[span_182](start_span)[span_182](end_span)</li>
+          <li><strong>पुरखे:</strong> पूर्वज, पितर, बाप-दादा[span_183](start_span)[span_183](end_span)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० हिंदी • गद्य विभाग : गिल्लू (महादेवी वर्मा) | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
