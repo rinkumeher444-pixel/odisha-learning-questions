@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="sa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>सीतायाः वनगमनम् (रामायणम्) — कक्षा १० संस्कृत | संपूर्ण अध्ययन नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० संस्कृत • वाल्मीकि रामायण (अयोध्याकाण्डम्)</div>
+    <h1>सीतायाः वनगमनम् (संस्कृत श्लोक व्याख्यान नोट्स)</h1>
+    <p>आदिकवि वाल्मीकि रचित रामायण से संकलित। राम का वनप्रवेश, कैकेयी के वरदान, सीता का दृढ़ संकल्प, वन के दोषों का वर्णन एवं पतिव्रता धर्म का आदर्श स्वरूप।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#intro">परिचय एवं पृष्ठभूमि</a>
+    <a href="#story-flow">कथा-प्रवाह (Flowchart)</a>
+    <a href="#shlokas-1-10">श्लोक १ - १० : राम का दुःख व प्रसंग</a>
+    <a href="#shlokas-11-20">श्लोक ११ - २० : सीता का आग्रह व तर्क</a>
+    <a href="#shlokas-21-32">श्लोक २१ - ३२ : वन के दोष व स्वीकृति</a>
+    <a href="#shabdarth">कठिन शब्दार्थ (Glossary)</a>
+    <a href="#grammar-syntax">व्याकरण, कारक एवं संधियाँ</a>
+    <a href="#exercises">अभ्यास प्रश्नोत्तर (Exercises)</a>
+  </nav>
+
+  <!-- 1. Introduction and Background -->
+  <section id="intro">
+    <h2 class="sec-title">🏛️ १. परिचय एवं पाठ की पृष्ठभूमि</h2>
+    <p>
+      प्रस्तुत पाठ आदिकवि महर्षि वाल्मीकि द्वारा रचित अमर महाकाव्य <strong>'रामायणम्'</strong> (अयोध्याकाण्ड) से स्वीकृत है[span_0](start_span)[span_0](end_span)। रामायण की कथा अत्यंत रमणीय है, इसीलिए कहा जाता है— <em>"रम्या रामायणी कथा"</em>[span_1](start_span)[span_1](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>रामायण का आदर्श:</strong><br>
+      मनुष्यों के आचार-विचार के विषय में 'रामायणम्' एक आदर्श ग्रंथ है[span_2](start_span)[span_2](end_span)। भगवान श्रीराम मर्यादावान् आदर्श पुरुष हैं[span_3](start_span)[span_3](end_span)। कैकेयी के सत्यपाश (वचनबद्धता) से बँधे दशरथ ने राम को वन भेजा, और पतिव्रता सीता ने भी पति राम के साथ वन जाने की जिद की व साथ गईं[span_4](start_span)[span_4](end_span)।
+    </div>
+  </section>
+
+  <!-- 2. Story Flowchart -->
+  <section id="story-flow">
+    <h2 class="sec-title">🗺️ २. कथा-प्रवाह (Step-by-Step Flow)</h2>
+    
+    <div class="flow">
+      <div class="flow-node">दशरथ का कैकेयी को दो वरदान देना</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">राम का 14 वर्ष वनवास ও भरत का यौवराज्य</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">राम द्वारा सीता को अयोध्या में रहने का उपदेश</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">सीता का हठ, पतिव्रता धर्म व वन जाने का दृढ़ संकल्प</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">राम द्वारा वन के भयंकर कष्टों (दोषों) का वर्णन</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">सीता का अटल प्रेम देखकर राम की स्वीकृति व आलिंगन</div>
+    </div>
+  </section>
+
+  <!-- 3. Stool-by-Stool Analysis (Shlokas 1-10) -->
+  <section id="shlokas-1-10">
+    <h2 class="sec-title">📜 ३. श्लोक १ से १० : राम का गृह-प्रवेश, दुःख व पितृ-वचन</h2>
+    <p>
+      <strong>संदर्भ:</strong> जब कैकेयी के कारण अभिषेक की तैयारी रुक गई और राम को वन जाने का आदेश मिला, तब राम उदास मन से अपने महल लौटे[span_5](start_span)[span_5](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>श्लोक १-५ : राम की म्लान मुखमुद्रा</h4>
+        <p><strong>भावार्थ:</strong> प्रहृष्टजनों से परिपूर्ण और सुविभूषित अपने घर में राम ने प्रवेश किया, किंतु लज्जा के कारण उनका मुख कुछ नीचे झुका हुआ था (<em>ह्रिया किञ्चिदवाङ्मुखः</em>)[span_6](start_span)[span_6](end_span)। व्याकुल सीता ने काँपते हुए शोक-संतप्त पति को देखा और पूछा— *"हे प्रभो! आज अभिषेक की पूर्ण तैयारी होने पर भी आपके मुख का वर्ण अपूर्व (उदासीन) क्यों है और प्रसन्नता क्यों नहीं दिखाई दे रही?"*[span_7](start_span)[span_7](end_span)</p>
+      </div>
+
+      <div class="card gold">
+        <h4>श्लोक ६-१० : कैकेयी के दो महावर ও चौदह वर्ष वनवास</h4>
+        <p><strong>भावार्थ:</strong> रघुनन्दन राम ने विलाप करती सीता से कहा— *"हे सीते! तुम्हारे श्वेतवर्ण पूज्य पिताजी मुझे वन भेज रहे हैं।"* राजा दशरथ ने पूर्वकाल में मेरी माता कैकेयी को दो महावर (वरदान) दिए थे[span_8](start_span)[span_8](end_span)। आज उसी सत्यप्रतिज्ञ पिता को धर्म से परवश पाकर कैकेयी ने मेरे अभिषेक के समय वे वर माँग लिए[span_9](start_span)[span_9](end_span)। मुझे 14 वर्ष तक दंडकारण्य वन में रहना होगा और भरत को यौवराज्य में नियुक्त किया गया है[span_10](start_span)[span_10](end_span)。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Stool-by-Stool Analysis (Shlokas 11-20) -->
+  <section id="shlokas-11-20">
+    <h2 class="sec-title">📜 ४. श्लोक ११ से २० : राम का उपदेश ও सीता का प्रति-तर्क</h2>
+    
+    <div class="compare">
+      <div class="card blue">
+        <h4>श्लोक ११-१२ : राम का आदेश</h4>
+        <p><strong>भावार्थ:</strong> राम ने कहा— *"हे वैदेही! कभी भी भरत का अप्रिय मत करना, क्योंकि वे इस देश और कुल के राजा हैं।"* प्रियवादिनी सीते! मैं महावन जाऊँगा और तुम्हें यहीं (अयोध्या में) रहना होगा[span_11](start_span)[span_11](end_span)। तुम ऐसा कार्य करना जिससे किसी को कोई कष्ट (व्यलीक) न हो[span_12](start_span)[span_12](end_span)。</p>
+      </div>
+
+      <div class="card green">
+        <h4>श्लोक १३-२० : सीता का प्रण व हठ</h4>
+        <p><strong>भावार्थ:</strong> ऐसा सुनकर प्रियाई व प्रियवादिनी वैदेही प्रेम के कारण कुछ क्षुब्ध होकर बोलीं— *"हे राम! तुम यह लघुतायुक्त (कायरतापूर्ण) वचन क्यों बोल रहे हो?"* पिता, माता, भाई, पुत्र आदि सब अपने-अपने पुण्यों का फल भोगते हैं, किंतु अकेली नारी अपने पति का ही भाग्य प्राप्त करती है[span_13](start_span)[span_13](end_span)। इसलिए मुझे भी वन जाने का आदेश है[span_14](start_span)[span_14](end_span)। महलों में या विमानों में रहने से अधिक श्रेष्ठ पति के चरणों की छाया (पादच्छाया) है[span_15](start_span)[span_15](end_span)। मैं पुरुष-वर्जित, शार्दूल (बाघ) सेवित दुर्गम वन में भी पिता के घर के समान सुखपूर्वक निवास करूँगी[span_16](start_span)[span_16](end_span)。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Stool-by-Stool Analysis (Shlokas 21-32) -->
+  <section id="shlokas-21-32">
+    <h2 class="sec-title">📜 ५. श्लोक २१ से ३२ : वन के दोषों का वर्णन व अंतिम स्वीकृति</h2>
+    
+    <div class="compare">
+      <div class="card coral">
+        <h4>श्लोक ২১-२५ : राम द्वारा वन के भयंकर कष्टों का वर्णन</h4>
+        <p><strong>भावार्थ:</strong> राम ने सीता को समझाने के लिए वन के दोष बताए— *"वहाँ जमीन पर स्वयं टूटे पत्तों की शैया पर सोना पड़ता है, जो बहुत दुःखदायी है।"* उपवास करना पड़ता है, जटा रखनी पड़ती है और वल्कल (छाल) के वस्त्र पहनने होते हैं[span_17](start_span)[span_17](end_span)। अत्यधिक हवा, अँधेरा, भूख और महान भय वन में निवास को अत्यंत दुःतर (कष्टसाध्य) बना देते हैं[span_18](start_span)[span_18](end_span)। अतः तुम्हारा वन जाना क्षेमकारी नहीं है[span_19](start_span)[span_19](end_span)。</p>
+      </div>
+
+      <div class="card gold">
+        <h4>श्लोक २६-३२ : सीता का दृढ़ निश्चय ও राम का आलिंगन</h4>
+        <p><strong>भावार्थ:</strong> राम के ये वचन सुनकर ऑसू भरी आँखों से सीता ने कहा— *"तुमने वनवास के जो दोष गिनाए हैं, वे मेरे लिए तुम्हारे स्नेह के कारण गुण ही बन जाते हैं।"* गुरुजनों की आज्ञा से तुम्हारे साथ मुझे भी चलना चाहिए, तुम्हारे वियोग में मेरा जीवित रहना असंभव है[span_20](start_span)[span_20](end_span)। यदि नहीं ले जाओगे तो मैं विष, अग्नि या जल प्रवेश से प्राण त्याग दूँगी[span_21](start_span)[span_21](end_span)। यह सुनकर राम ने दुःखित सीता को बाहों में भर लिया (परिष्वज्य) और कहा— *"हे शुभश्रोणि! अब तुम्हारे बिना मुझे स्वर्ग भी नहीं रुचता, वनवास की क्रियाएँ आरंभ करो।"*[span_22](start_span)[span_22](end_span)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Vocabulary / Glossary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ६. कठिन शब्दार्थ एवं टिप्पणियाँ (Glossary)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>संस्कृत पद[span_23](start_span)[span_23](end_span)</th>
+            <th>संधि-विग्रह / पर्याय[span_24](start_span)[span_24](end_span)</th>
+            <th>मानक हिंदी अर्थ[span_25](start_span)[span_25](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>अवाङ्‌मुखः</strong></td><td>अधोवदनः</td><td>नीचे मुख किए हुए (लज्जित)[span_26](start_span)[span_26](end_span)</td></tr>
+          <tr><td><strong>वेपमाना</strong></td><td>कम्पमाना</td><td>काँपती हुई[span_27](start_span)[span_27](end_span)</td></tr>
+          <tr><td><strong>विवर्णवदनम्</strong></td><td>म्लानमुखम्</td><td>पीला पड़ा हुआ मुख[span_28](start_span)[span_28](end_span)</td></tr>
+          <tr><td><strong>प्रस्विन्नम्</strong></td><td>स्वेदयुक्तम्</td><td>पसीने से युक्त[span_29](start_span)[span_29](end_span)</td></tr>
+          <tr><td><strong>प्रव्राजयति</strong></td><td>वनं प्रेषयति</td><td>वन भेजते हैं[span_30](start_span)[span_30](end_span)</td></tr>
+          <tr><td><strong>जानकि</strong></td><td>जनकपुत्री (सम्बोधनम्)</td><td>हे जानकी! (हे सीते!)[span_31](start_span)[span_31](end_span)</td></tr>
+          <tr><td><strong>व्यलीकम्</strong></td><td>दुःखम्, कष्टम्</td><td>अपराध, कष्ट या दुःख[span_32](start_span)[span_32](end_span)</td></tr>
+          <tr><td><strong>प्रणयात्</strong></td><td>स्नेहात्</td><td>प्रेम के कारण[span_33](start_span)[span_33](end_span)</td></tr>
+          <tr><td><strong>स्नुषा</strong></td><td>पुत्रवधूः</td><td>पुत्रवधू / बहू[span_34](start_span)[span_34](end_span)</td></tr>
+          <tr><td><strong>पुरुषवर्जितम्</strong></td><td>मानवरहितम्</td><td>मनुष्यों से रहित[span_35](start_span)[span_35](end_span)</td></tr>
+          <tr><td><strong>शार्दूलगणसेवितम्</strong></td><td>व्याघ्रैः सेवितम्</td><td>बाघ-सिंहों से सेवित (भयंकर)[span_36](start_span)[span_36](end_span)</td></tr>
+          <tr><td><strong>वल्कलाम्बरधारणम्</strong></td><td>वल्कलस्य अम्बरस्य धारणम्</td><td>पेड़ की छाल के वस्त्र पहनना[span_37](start_span)[span_37](end_span)</td></tr>
+          <tr><td><strong>बुभुक्षा</strong></td><td>भोजनस्य इच्छा (क्षुधा)</td><td>भूख[span_38](start_span)[span_38](end_span)</td></tr>
+          <tr><td><strong>प्रसक्ताश्रुमुखी</strong></td><td>प्रसक्तानि अश्रूंषि मुखे यस्याः</td><td>आँसू से भीगे मुख वाली[span_39](start_span)[span_39](end_span)</td></tr>
+          <tr><td><strong>परिष्वज्य</strong></td><td>आलिंगनंकृत्वा</td><td>गले लगाकर / आलिंगन कर[span_40](start_span)[span_40](end_span)</td></tr>
+          <tr><td><strong>त्वदृते</strong></td><td>त्वत् + ऋते (विना)</td><td>तुम्हारे बिना[span_41](start_span)[span_41](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 7. Grammar, Syntax & Sandhi -->
+  <section id="grammar-syntax">
+    <h2 class="sec-title">📐 ७. व्याकरण, संधि एवं कारक-विभक्ति</h2>
+    
+    <div class="compare">
+      <div class="card teal">
+        <h4>प्रमुख संधि-विच्छेद</h4>
+        <ul>
+          <li><strong>विवर्णवदनम्:</strong> विवर्ण + वदनम् (दीर्घ संधि)</li>
+          <li><strong>दुःखाभिसंतप्ता:</strong> दुःख + अभिसंतप्ता (दीर्घ संधि)</li>
+          <li><strong>रघुनन्दनः:</strong> रघु + नन्दनः</li>
+          <li><strong>सत्यप्रतिज्ञेन:</strong> सत्य + प्रतिज्ञेन</li>
+          <li><strong>कदाचन:</strong> कदा + चन</li>
+          <li><strong>प्रियवादिनी:</strong> प्रिय + वादिनी</li>
+          <li><strong>पुरुषवर्जितम्:</strong> पुरुष + वर्जितम्</li>
+          <li><strong>शार्दूलगणसेवितम्:</strong> शार्दूलगण + सेवितम्</li>
+          <li><strong>प्रसक्ताश्रुमुखी:</strong> प्रसक्त + अश्रुमुखी (दीर्घ संधि)</li>
+          <li><strong>त्वदृते:</strong> त्वत् + ऋते (जश्त्व संधि)</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>कारक एवं विभक्ति नियम</h4>
+        <ul>
+          <li><strong>ह्रिया किञ्चिदवाङ्‌मुखः:</strong> हेतौ तृतीया ('ह्रिया' - लज्जा के कारण)।</li>
+          <li><strong>राज्ञा सत्यप्रतिज्ञेन पित्रा:</strong> कर्तरि तृतीया विभक्ति।</li>
+          <li><strong>यौवराज्ये नियोजितः:</strong> अधिकरणे सप्तमी ('यौवराज्ये')।</li>
+          <li><strong>भर्तुः पादच्छाया विशिष्यते:</strong> सम्बन्धे षष्ठी ('भर्तुः')।</li>
+          <li><strong>विषमग्निं जलं वा आस्थास्ये:</strong> कर्मणि द्वितीया ('विषम्', 'अग्निम्', 'जलम्')।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Exercises & Q&A -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ८. अभ्यास प्रश्नोत्तर (Textbook Exercises)</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>१. निजभाषया वाक्यत्रयेण उत्तरं लिखत (दीर्घ उत्तरीय)</h4>
+        <ol>
+          <li><strong>वेपमाना सीता कीदृशं पतिम् अपश्यत्?</strong><br>👉 सीता वेपमाना (काँपती हुई) शोकसंतप्तं चिन्ताव्याकुलितेन्द्रियं तथा विवर्णवदनं प्रस्विन्नं च स्वपतिं रामम् अपश्यत्[span_42](start_span)[span_42](end_span)।</li>
+          <li><strong>विलपन्तीं सीतां रघुनन्दनः किं प्रोवाच?</strong><br>👉 रघुनन्दनः रामः विलपन्तीं सीतां प्रोवाच यत् तत्रभवान् तातः (दशरथः) तं वनं प्रव्राजयति, अतः तस्या इहैव (अयोध्यायाम् एव) वस्तव्यम् इति[span_43](start_span)[span_43](end_span)।</li>
+          <li><strong>रामेण सीता कथम् उपदिष्टा?</strong><br>👉 रामः सीताम् उपदिष्टा यत् वने वसतः बहवः दोषाः सन्ति यथा- पर्णशय्यासु सुप्लितेन श्रमखिन्नेन भवितव्यम्, उपवासः, जटाधारणं, वल्कलाम्बरधारणम्, वाततिमिरं बुभुक्षा महान्ति भयानि च सन्ति, अतः वनं न गन्तव्यम्[span_44](start_span)[span_44](end_span)।</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h4>२. संक्षेपेण उत्तरं लिखत (संक्षिप्त उत्तर)</h4>
+        <ol>
+          <li><strong>कथं रामः अवाङ्‌मुखः अभवत्?</strong> 👉 ह्रिया (लज्जायाः कारणात्) रामः अवाङ्‌मुखः अभवत्[span_45](start_span)[span_45](end_span)।</li>
+          <li><strong>कः सत्यप्रतिज्ञः आसीत्?</strong> 👉 राजा दशरथः सत्यप्रतिज्ञः आसीत्[span_46](start_span)[span_46](end_span)।</li>
+          <li><strong>दशरथः कस्यै वरौ दत्तवान्?</strong> 👉 कैकेय्यै वरौ दत्तवान्[span_47](start_span)[span_47](end_span)।</li>
+          <li><strong>कथं सीता वैदेही इति उच्यते?</strong> 👉 यतः सा जनकपुत्री (विदेहराजस्य पुत्री) अस्ति[span_48](start_span)[span_48](end_span)।</li>
+          <li><strong>नारी कस्य भाग्यं प्राप्नोति?</strong> 👉 नारी एका भर्तुः (पत्युः) भाग्यं प्राप्नोति[span_49](start_span)[span_49](end_span)।</li>
+          <li><strong>वनवासकाले कुत्र सुप्यते?</strong> 👉 भूतले पर्णशय्यासु सुप्यते[span_50](start_span)[span_50](end_span)।</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० संस्कृत • पद्य भाग : सीतायाः वनगमनम् (रामायणम्) | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
