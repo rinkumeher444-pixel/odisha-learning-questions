@@ -1,1 +1,581 @@
+<!DOCTYPE html>
+<html lang="or">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ଦଶମ ଶ୍ରେଣୀ ଇତିହାସ - ଗାନ୍ଧୀ ଯୁଗ ଓ ଭାରତୀୟ ସ୍ୱାଧୀନତା ଆନ୍ଦୋଳନ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(56, 189, 248, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(20, 184, 166, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Sans Oriya', 'Outfit', sans-serif;
+      line-height: 1.75;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1060px;
+      margin: 0 auto;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.25;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 760px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.15rem;
+      color: #e2e8f0;
+      margin: 22px 0 12px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 0.98rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.05rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 16px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#38bdf8" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#10b981" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#38bdf8"/>
+      <circle cx="45" cy="130" r="7" fill="#10b981"/>
+    </svg>
+    <div class="badge">🇮🇳 ଦଶମ ଶ୍ରେଣୀ • ଇତିହାସ • ଗାନ୍ଧୀ ଯୁଗ</div>
+    <h1>ଗାନ୍ଧୀ ଯୁଗ ଓ ଭାରତୀୟ ସ୍ୱାଧୀନତା ଆନ୍ଦୋଳନ</h1>
+    <p>ମହାତ୍ମା ଗାନ୍ଧୀଙ୍କ ଆଗମନ, ସତ୍ୟାଗ୍ରହ, ଅହିଂସା, ଅସହଯୋଗ ଆନ୍ଦୋଳନ, ଲବଣ ସତ୍ୟାଗ୍ରହ (ଦାଣ୍ଡି ଯାତ୍ରା), ଭାରତ ଛାଡ଼ ଆନ୍ଦୋଳନ ଏବଂ ଓଡ଼ିଶାରେ ସ୍ୱାଧୀନତା ସଂଗ୍ରାମର ସମ୍ପୂର୍ଣ୍ଣ ସାରାଂଶ।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#gandhi-intro">୧. ଗାନ୍ଧୀ ଯୁଗର ଆରମ୍ଭ</a>
+    <a href="#non-cooperation">୨. ଅସହଯୋଗ ଆନ୍ଦୋଳନ</a>
+    <a href="#salt-satyagraha">୩. ଲବଣ ସତ୍ୟାଗ୍ରହ</a>
+    <a href="#quit-india">୪. ଭାରତ ଛାଡ଼ ଆନ୍ଦୋଳନ</a>
+    <a href="#odisha-role">୫. ସଂଗ୍ରାମରେ ଓଡ଼ିଶାର ଭୂମିକା</a>
+    <a href="#summary-table">ପ୍ରମୁଖ ଘଟଣାବଳୀ ସାରଣୀ</a>
+    <a href="#exercises">ପ୍ରଶ୍ନୋତ୍ତର</a>
+  </nav>
+
+  <!-- 1. Gandhian Era Intro -->
+  <section id="gandhi-intro">
+    <h2 class="sec-title">🕊️ ୧. ଗାନ୍ଧୀ ଯୁଗର ଆରମ୍ଭ ଓ ମୂଳମନ୍ତ୍ର</h2>
+    <p>
+      ଭାରତୀୟ ସ୍ୱାଧୀନତା ସଂଗ୍ରାମର ୧୯୨୦ ମସିହାରୁ ୧୯୪୭ ମସିହା ପର୍ଯ୍ୟନ୍ତ ସମୟକୁ <strong>‘ଗାନ୍ଧୀ ଯୁଗ’</strong> କୁହାଯାଏ। ମହାତ୍ମା ଗାନ୍ଧୀ ଦକ୍ଷିଣ ଆଫ୍ରିକାରୁ ଫେରିବା ପରେ ଭାରତୀୟ ରାଜନୀତିରେ ଅହିଂସା ଏବଂ ସତ୍ୟାଗ୍ରହର ନୂତନ ମାର୍ଗ ପ୍ରଦର୍ଶନ କରିଥିଲେ।
+    </p>
+
+    <div class="flow">
+      <div class="flow-node">ଚମ୍ପାରନ୍ ସତ୍ୟାଗ୍ରହ (୧୯୧୭)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ଖେଡ଼ା ସତ୍ୟାଗ୍ରହ ଓ ଆହ୍ମଦାବାଦ ମଜୁର ଆନ୍ଦୋଳନ (୧୯୧୮)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ରାଉଲଟ୍ ଆଇନ୍ ବିରୋଧ (୧୯୧୯)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ଜାଲିଆନାୱାଲାବାଗ ହତ୍ୟାକାଣ୍ଡ ପ୍ରତିବାଦ</div>
+    </div>
+
+    <div class="callout def-box">
+      <strong>ସତ୍ୟାଗ୍ରହ ଓ ଅହିଂସା:</strong><br>
+      ଗାନ୍ଧୀଜୀଙ୍କ ମତରେ ସତ୍ୟାଗ୍ରହ ହେଉଛି ସତ୍ୟ ଓ ଅହିଂସା ଉପରେ ଆଧାରିତ ଏକ ନୈତିକ ଶକ୍ତି, ଯାହାର ଲକ୍ଷ୍ୟ ଅନ୍ୟାୟକାରୀର ହୃଦୟ ପରିବର୍ତ୍ତନ କରିବା।
+    </div>
+  </section>
+
+  <!-- 2. Non-Cooperation Movement -->
+  <section id="non-cooperation">
+    <h2 class="sec-title">✊ ୨. ଅସହଯୋଗ ଆନ୍ଦୋଳନ (୧୯୨୦-୧୯୨୨)</h2>
+    <p>
+      ଜାଲିଆନାୱାଲାବାଗ ହତ୍ୟାକାଣ୍ଡ ଏବଂ ଖିଲାଫତ ପ୍ରସଙ୍ଗକୁ ନେଇ ଗାନ୍ଧୀଜୀଙ୍କ ନେତୃତ୍ୱରେ ୧୯୨୦ ରେ ପ୍ରଥମ ବଡ଼ ଜନ ଆନ୍ଦୋଳନ <strong>‘ଅସହଯୋଗ ଆନ୍ଦୋଳନ’</strong> ଆରମ୍ଭ ହୋଇଥିଲା।
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଆନ୍ଦୋଳନର କାର୍ଯ୍ୟକ୍ରମ</h4>
+        <ul>
+          <li>ବ୍ରିଟିଶ ସରକାରୀ ଶିକ୍ଷାନୁଷ୍ଠାନ, କୋର୍ଟ ଓ ଉପାଧି ବର୍ଜନ।</li>
+          <li>ବିଦେଶୀ ପୋଷାକ ବର୍ଜନ ଏବଂ ସ୍ୱଦେଶୀ ବସ୍ତ୍ର (ଖଦୀ) ବ୍ୟବହାର।</li>
+          <li>ଗ୍ରାମାଞ୍ଚଳରେ ପଞ୍ଚାୟତ ମାଧ୍ୟମରେ ବିବାଦର ସମାଧାନ।</li>
+        </ul>
+      </div>
+      <div class="card coral">
+        <h4>ଚଉରିଚଉରା ଘଟଣା ଓ ସ୍ଥଗିତ</h4>
+        <ul>
+          <li><strong>୫ ଫେବୃଆରୀ ୧୯୨୨:</strong> ଗୋରଖପୁରର ଚଉରିଚଉରା ଠାରେ ଉତ୍ତ୍ୟକ୍ତ ଜନତା ପୋଲିସ ଥାନାରେ ନିଆଁ ଲଗାଇବାରୁ ୨୨ ଜଣ ପୋଲିସ କର୍ମଚାରୀ ମୃତ୍ୟୁବରଣ କଲେ।</li>
+          <li>ଏହି ହିଂସାକାଣ୍ଡରେ ମର୍ମାହତ ହୋଇ ଗାନ୍ଧୀଜୀ ଅସହଯୋଗ ଆନ୍ଦୋଳନକୁ ହଠାତ୍ ପ୍ରତ୍ୟାହାର କରିନେଲେ।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Salt Satyagraha -->
+  <section id="salt-satyagraha">
+    <h2 class="sec-title">🧂 ୩. ଲବଣ ସତ୍ୟାଗ୍ରହ ଓ ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନ (୧୯୩୦)</h2>
+    <p>
+      ବ୍ରିଟିଶ ସରକାରଙ୍କ ଅନ୍ୟାୟ ଲୁଣ କର ବିରୋଧରେ ଗାନ୍ଧୀଜୀ ୧୯୩୦ ମସିହା ମାର୍ଚ୍ଚ ୧୨ ତାରିଖରେ ୭୮ ଜଣ ସହଯୋଗୀଙ୍କ ସହ ସାବରମତୀ ଆଶ୍ରମରୁ ଦାଣ୍ଡି ଅଭିମୁଖେ ଯାତ୍ରା ଆରମ୍ଭ କରିଥିଲେ।
+    </p>
+
+    <div class="compare">
+      <div class="card gold">
+        <h4>ଦାଣ୍ଡି ଯାତ୍ରା ଓ ଆଇନ ଅମାନ୍ୟ</h4>
+        <p>୬ ଏପ୍ରିଲ ୧୯୩୦ ରେ ସମୁଦ୍ର କୂଳରେ ଲୁଣ ମାରି ଗାନ୍ଧୀଜୀ ବ୍ରିଟିଶ ଲବଣ ଆଇନ ଭଙ୍ଗ କଲେ। ଏହାପରେ ଦେଶବ୍ୟାପୀ ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନ ବ୍ୟାପିଗଲା, ଯେଉଁଥିରେ ମହିଳା ଓ ଛାତ୍ରଛାତ୍ରୀମାନେ ବହୁସଂଖ୍ୟାରେ ଯୋଗଦେଲେ।</p>
+      </div>
+      <div class="card teal">
+        <h4>ଗାନ୍ଧୀ-ଇରୱିନ ଚୁକ୍ତି ଓ ଗୋଲଟେବୁଲ ବୈଠକ</h4>
+        <ul>
+          <li><strong>୧୯୩୧:</strong> ଗାନ୍ଧୀଜୀ ଓ ଭାଇସରୟ ଲର୍ଡ ଇରୱିନଙ୍କ ମଧ୍ୟରେ ଚୁକ୍ତି ସ୍ୱାକ୍ଷରିତ ହେଲା।</li>
+          <li>ଆନ୍ଦୋଳନ ସ୍ଥଗିତ ରହିଲା ଏବଂ କଂଗ୍ରେସ ଲଣ୍ଡନରେ ଅନୁଷ୍ଠିତ ଦ୍ୱିତୀୟ ଗୋଲଟେବୁଲ ବୈଠକରେ ଯୋଗଦେଲା।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Quit India Movement -->
+  <section id="quit-india">
+    <h2 class="sec-title">⚡ ୪. ଭାରତ ଛାଡ଼ ଆନ୍ଦୋଳନ (୧୯୪୨)</h2>
+    <p>
+      ଦ୍ୱିତୀୟ ବିଶ୍ୱଯୁଦ୍ଧ ସମୟରେ ବ୍ରିଟିଶମାନଙ୍କୁ ଭାରତରୁ ସମ୍ପୂର୍ଣ୍ଣ ବିଦା କରିବା ପାଇଁ ୮ ଅଗଷ୍ଟ ୧୯୪୨ ରେ ମୁମ୍ବାଇ ଅଧିବେଶନରେ ଗାନ୍ଧୀଜୀଙ୍କ ନେତୃତ୍ୱରେ <strong>‘ଭାରତ ଛାଡ଼’ (Quit India)</strong> ପ୍ରସ୍ତାବ ଗୃହୀତ ହେଲା।
+    </p>
+    <div class="callout mistake-box">
+      <strong>‘କର ବା ମର’ (Do or Die):</strong> ଏହା ଥିଲା ଭାରତ ଛାଡ଼ ଆନ୍ଦୋଳନର ମୂଳମନ୍ତ୍ର। ସରକାର ସମସ୍ତ ପ୍ରମୁଖ ନେତାମାନଙ୍କୁ ଗିରଫ କରିଥିଲେ ମଧ୍ୟ ସାଧାରଣ ଜନତା ସ୍ୱାଧୀନତା ପାଇଁ ସ୍ୱତଃସ୍ଫୁର୍ତ୍ତ ଭାବେ ରାଜ୍‌ବନ୍ଦୀ ବିରୋଧରେ ଲଢ଼ିଥିଲେ।
+    </div>
+  </section>
+
+  <!-- 5. Odisha's Role in Freedom Struggle -->
+  <section id="odisha-role">
+    <h2 class="sec-title">🌊 ୫. ଗାନ୍ଧୀ ଯୁଗରେ ଓଡ଼ିଶାର ଭୂମିକା ଓ ଲବଣ ସତ୍ୟାଗ୍ରହ</h2>
+    <p>
+      ଓଡ଼ିଶାରେ ଗାନ୍ଧୀଜୀଙ୍କ ଆଦର୍ଶରେ ଅନୁପ୍ରାଣିତ ହୋଇ ଗୋପବନ୍ଧୁ ଦାସ, ଆଚାର୍ଯ୍ୟ ହରିହର ଦାସ, ଗୋପବନ୍ଧୁ ଚୌଧୁରୀ ଏବଂ ରମାଦେବୀଙ୍କ ଭଳି ମହାନ ନେତାମାନେ ସ୍ୱାଧୀନତା ସଂଗ୍ରାମକୁ ଆଗେଇ ନେଇଥିଲେ।
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଇଞ୍ଚୁଡ଼ି ଲବଣ ସତ୍ୟାଗ୍ରହ (ବାଲେଶ୍ୱର)</h4>
+        <p>ଓଡ଼ିଶାରେ ମହାତ୍ମା ଗାନ୍ଧୀଙ୍କ ଦାଣ୍ଡି ଯାତ୍ରା ପ୍ରଭାବରେ ବାଲେଶ୍ୱର ଜିଲ୍ଲାର <strong>ଇଞ୍ଚୁଡ଼ି</strong>ଠାରେ ଲବଣ ସତ୍ୟାଗ୍ରହର ମୁଖ୍ୟ କେନ୍ଦ୍ର ଗଢ଼ିଉଠିଲା। ଆଚାର୍ଯ୍ୟ ହରିହର ଓ ଗୋପବନ୍ଧୁ ଚୌଧୁରୀଙ୍କ ନେତୃତ୍ୱରେ ହଜାର ହଜାର ସତ୍ୟାଗ୍ରହୀ ସମୁଦ୍ର କୂଳରେ ଲୁଣ ମାରି ଆଇନ ଅମାନ୍ୟ କରିଥିଲେ।</p>
+      </div>
+      <div class="card gold">
+        <h4>ଅନ୍ୟାନ୍ୟ ପ୍ରମୁଖ କେନ୍ଦ୍ର</h4>
+        <ul>
+          <li><strong>ପୁରୀ:</strong> କାକଟପୁରର ଇଞ୍ଚୁଡ଼ି ଭଳି କୁଜଙ୍ଗ ଓ ଅଲାରପୁର ଲବଣ ସତ୍ୟାଗ୍ରହ।</li>
+          <li>ମାଳତୀ ଦେବୀ, ରମାଦେବୀ ଓ କୁନ୍ତଳା କୁମାରୀ ସାବତଙ୍କ ନେତୃତ୍ୱରେ ଓଡ଼ିଆ ମହିଳାମାନଙ୍କର ସକ୍ରିୟ ଅଂଶଗ୍ରହଣ।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Summary Table -->
+  <section id="summary-table">
+    <h2 class="sec-title">📅 ୬. ଗାନ୍ଧୀ ଯୁଗର ପ୍ରମୁଖ ଘଟଣାବଳୀ ଓ ତାରିଖ ସାରଣୀ</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ତାରିଖ / ବର୍ଷ</th>
+            <th>ଐତିହାସିକ ଘଟଣା / ମାଇଲଖୁଣ୍ଟ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>୧୯୧୭</strong></td><td>ଚମ୍ପାରନ୍ ସତ୍ୟାଗ୍ରହ (ଗାନ୍ଧୀଜୀଙ୍କ ଭାରତରେ ପ୍ରଥମ ସଫଳ ସତ୍ୟାଗ୍ରହ)।</td></tr>
+          <tr><td><strong>୧୯୨୦ - ୧୯୨୨</strong></td><td>ଅସହଯୋଗ ଆନ୍ଦୋଳନ।</td></tr>
+          <tr><td><strong>୫ ଫେବୃଆରୀ ୧୯୨୨</strong></td><td>ଚଉରିଚଉରା ହିଂସାତ୍ମକ ଘଟଣା ଓ ଆନ୍ଦୋଳନ ସ୍ଥଗିତ।</td></tr>
+          <tr><td><strong>୧୯୩୦ ମାର୍ଚ୍ଚ ୧୨</strong></td><td>ଗାନ୍ଧୀଜୀଙ୍କ ଦାଣ୍ଡି ଯାତ୍ରା ଆରମ୍ଭ।</td></tr>
+          <tr><td><strong>୬ ଏପ୍ରିଲ ୧୯୩୦</strong></td><td>ଦାଣ୍ଡିରେ ଲୁଣ ମାରି ଆଇନ ଅମାନ୍ୟ।</td></tr>
+          <tr><td><strong>୧୯୩୧</strong></td><td>ଗାନ୍ଧୀ-ଇରୱିନ ଚୁକ୍ତି ଓ ଦ୍ୱିତୀୟ ଗୋଲଟେବୁଲ ବୈଠକ।</td></tr>
+          <tr><td><strong>୧୯୩୨</strong></td><td>ପୁନା ଚୁକ୍ତି (ଗାନ୍ଧୀଜୀ ଓ ଡକ୍ଟର ଆମ୍ବେଦକରଙ୍କ ମଧ୍ୟରେ)।</td></tr>
+          <tr><td><strong>୮ ଅଗଷ୍ଟ ୧୯୪୨</strong></td><td>ଭାରତ ଛାଡ଼ ଆନ୍ଦୋଳନ (କର ବା ମର ଆହ୍ୱାନ)।</td></tr>
+          <tr><td><strong>୧୫ ଅଗଷ୍ଟ ୧୯୪୭</strong></td><td>ଭାରତ ସ୍ୱାଧୀନତା ପ୍ରାପ୍ତି।</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 7. Self-Assessment Exercises -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ୭. ଅଧ୍ୟାୟ ପ୍ରଶ୍ନୋତ୍ତର (Self-Assessment)</h2>
+
+    <h3 class="sub-title">୧. ସଠିକ୍ ବିକଳ୍ପ ବାଛି ଲେଖ:</h3>
+    <div class="compare">
+      <div class="card">
+        <p><strong>(କ) ଭାରତୀୟ ସ୍ୱାଧୀନତା ସଂଗ୍ରାମରେ ‘ଗାନ୍ଧୀ ଯୁଗ’ କେଉଁ ସମୟକୁ କୁହାଯାଏ ?</strong></p>
+        <p>(i) ୧୮୮୫-୧୯୧୫ (ii) ୧୯୨୦-୧୯୪୭ (iii) ୧୯୪୭-୧୯୫୦</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: (ii) ୧୯୨୦-୧୯୪୭</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଖ) ଓଡ଼ିଶାରେ ଲବଣ ସତ୍ୟାଗ୍ରହର ମୁଖ୍ୟ କେନ୍ଦ୍ର କେଉଁଠାରେ ଥିଲା ?</strong></p>
+        <p>(i) ପୁରୀ (ii) ଇଞ୍ଚୁଡ଼ି (ବାଲେଶ୍ୱର) (iii) କୁଜଙ୍ଗ</p>
+        <p style="color: var(--teal); font-weight: 600;">👉 ଉତ୍ତର: (ii) ଇଞ୍ଚୁଡ଼ି (ବାଲେଶ୍ୱର)</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଗ) ‘କର ବା ମର’ ଡାକରା କେଉଁ ଆନ୍ଦୋଳନରେ ଦିଆଯାଇଥିଲା ?</strong></p>
+        <p>(i) ଅସହଯୋଗ ଆନ୍ଦୋଳନ (ii) ଆଇନ ଅମାନ୍ୟ ଆନ୍ଦୋଳନ (iii) ଭାରତ ଛାଡ଼ ଆନ୍ଦୋଳନ</p>
+        <p style="color: var(--gold); font-weight: 600;">👉 ଉତ୍ତର: (iii) ଭାରତ ଛାଡ଼ ଆନ୍ଦୋଳନ</p>
+      </div>
+      <div class="card">
+        <p><strong>(ଘ) ଚଉରିଚଉରା ଘଟଣା କେବେ ଘଟିଥିଲା ?</strong></p>
+        <p>(i) ୧୯୨୦ (ii) ୧୯୨୨ (iii) ୧୯୩୦ (iv) ୧୯୪୨</p>
+        <p style="color: var(--gold); font-weight: 600;">👉 ଉତ୍ତର: (ii) ୧୯୨୨</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">୨. ସଂକ୍ଷିପ୍ତ ଟିପ୍ପଣୀ:</h3>
+    <div class="compare">
+      <div class="card teal">
+        <h4>ଦାଣ୍ଡି ଯାତ୍ରା (୧୯୩୦)</h4>
+        <p>ବ୍ରିଟିଶଙ୍କ ଲବଣ କର ବିରୋଧରେ ଗାନ୍ଧୀଜୀଙ୍କ ସାବରମତୀରୁ ଦାଣ୍ଡି ପର୍ଯ୍ୟନ୍ତ ୭୮ ଜଣ ସହଯୋଗୀଙ୍କ ସହ ପଦଯାତ୍ରା ଏବଂ ଲୁଣ ମାରି ଆଇନ ଅମାନ୍ୟ କରିବାର ଐତିହାସିକ ଅଭିଯାନ ।</p>
+      </div>
+      <div class="card gold">
+        <h4>ଇଞ୍ଚୁଡ଼ି ସତ୍ୟାଗ୍ରହ</h4>
+        <p>ଓଡ଼ିଶାର ବାଲେଶ୍ୱର ଜିଲ୍ଲାସ୍ଥିତ ଇଞ୍ଚୁଡ଼ିଠାରେ ଆଚାର୍ଯ୍ୟ ହରିହର ଓ ଗୋପବନ୍ଧୁ ଚୌଧୁରୀଙ୍କ ନେତୃତ୍ୱରେ ସମୁଦ୍ର କୂଳରେ ଲୁଣ ମାରି ବ୍ରିଟିଶ ଆଇନ ଭଙ୍ଗ କରିବାର ବୀରତ୍ୱପୂର୍ଣ୍ଣ ପ୍ରତିବାଦ ।</p>
+      </div>
+    </div>
+
+    <div class="callout activity-box">
+      <strong>ଛାତ୍ରଛାତ୍ରୀଙ୍କ ପାଇଁ କାର୍ଯ୍ୟ:</strong>
+      <ol>
+        <li>ଭାରତୀୟ ସ୍ୱାଧୀନତା ସଂଗ୍ରାମରେ ମହାତ୍ମା ଗାନ୍ଧୀଙ୍କ ଅହିଂସା ଓ ସତ୍ୟାଗ୍ରହ ନୀତିର ପ୍ରଭାବ ସମ୍ପର୍କରେ ଏକ ପ୍ରବନ୍ଧ ଲେଖ।</li>
+        <li>ଓଡ଼ିଶାରେ ଲବଣ ସତ୍ୟାଗ୍ରହ ପରିଚାଳନା କରିଥିବା ପ୍ରମୁଖ ନେତାମାନଙ୍କର ଏକ ତାଲିକା ପ୍ରସ୍ତୁତ କର।</li>
+      </ol>
+    </div>
+  </section>
+
+  <footer>
+    <p>ଦଶମ ଶ୍ରେଣୀ ଇତିହାସ • ଗାନ୍ଧୀ ଯୁଗ | Digital Learning Note System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
 
