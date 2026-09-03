@@ -1,0 +1,625 @@
+
+<!DOCTYPE html>
+<html lang="sa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>स्वामी विवेकानन्दः (आध्यात्मिकज्ञानगुरुः) — कक्षा १० संस्कृत | संपूर्ण अध्ययन नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० संस्कृत • गद्य भाग • जीवनी</div>
+    <h1>स्वामी विवेकानन्दः (आध्यात्मिकज्ञानगुरुः)</h1>
+    <p>स्वामी विवेकानन्द का जीवन चरित्र, शिकागो विश्वधर्म सम्मेलन, रामकृष्ण परमहंस से मिलन, रामकृष्ण मिशन की स्थापना तथा संपूर्ण अभ्यास-समाधान।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#intro">परिचय एवं पृष्ठभूमि</a>
+    <a href="#biography">जीवन-वृत्तांत ও गुरु-शिष्य संयोग</a>
+    <a href="#chicago">शिकागो विश्वधर्म सम्मेलन</a>
+    <a href="#mission">रामकृष्ण मिशन ও महाप्रयाण</a>
+    <a href="#shabdarth">कठिन शब्दार्थ (Glossary)</a>
+    <a href="#grammar-syntax">व्याकरण, कारक एवं संधियाँ</a>
+    <a href="#exercises">अभ्यास प्रश्नोत्तर (Exercises)</a>
+  </nav>
+
+  <!-- 1. Introduction and Background -->
+  <section id="intro">
+    <h2 class="sec-title">🏛️ १. परिचय एवं पाठ का उद्देश्य</h2>
+    <p>
+      आध्यात्मिकज्ञानगुरुः महान् दार्शनिकः समाजसंस्कारकः <strong>स्वामी विवेकानन्दः</strong> विश्वप्रसिद्धो वर्त्तते[span_0](start_span)[span_0](end_span)। लोकसमुदायस्य सर्वविधकल्याणार्थं सः सततं यत्नपरः आसीत्[span_1](start_span)[span_1](end_span)। तस्य जीवनचरितमपि उत्तममानवनिर्माणार्थम् आदर्शस्थानीयं भवेदिति धिया विषयोऽयम् उपस्थापितः[span_2](start_span)[span_2](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>महामानवों का अवतरण:</strong><br>
+      महामानवाः दिव्यपुरुषाः अमरधाम्नः पृथिवीम् अवतरन्ति[span_3](start_span)[span_3](end_span)। मानवजातेः, धर्मस्य, विश्वसमुदायस्य च कल्याणार्थं स्वल्पावधिजीवनकाले ते महत् कार्यं साधयन्ति, पुनरमरधाम प्रत्यागच्छन्ति च[span_4](start_span)[span_4](end_span)।
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">कोलकाता में जन्म (12 जनवरी 1863)[span_5](start_span)[span_5](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">रामकृष्ण परमहंस से गुरु-शिष्य मिलन[span_6](start_span)[span_6](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">1893 शिकागो विश्वधर्म सम्मेलन में ऐतिहासिक भाषण[span_7](start_span)[span_7](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">रामकृष्ण मिशन की स्थापना ও मानव सेवा[span_8](start_span)[span_8](end_span)</div>
+    </div>
+  </section>
+
+  <!-- 2. Biography & Guru-Shishya Confluence -->
+  <section id="biography">
+    <h2 class="sec-title">📖 २. जीवन-वृत्तांत एवं गुरु-शिष्य संयोग</h2>
+    
+    <div class="compare">
+      <div class="card teal">
+        <h4>जन्म ও बाल्यकाल</h4>
+        <ul>
+          <li><strong>जन्मदिनांक:</strong> 12 जनवरी, 1863 ईस्वी (कोलकाता नगर में)[span_9](start_span)[span_9](end_span)।</li>
+          <li><strong>माता-पिता:</strong> माता <strong>भुवनेश्वरीदेवी</strong> (रत्नगर्भा) तथा पिता <strong>विश्वनाथदत्तः</strong>[span_10](start_span)[span_10](end_span)।</li>
+          <li><strong>बचपन का नाम:</strong> नरेन्द्रनाथ; माता स्नेह से इन्हें <strong>"विलु"</strong> नाम से पुकारती थीं[span_11](start_span)[span_11](end_span)।</li>
+          <li><strong>मातृ-उपदेश:</strong> माता ने कहा था— *"पुत्र! आजीवन पवित्रो भव। आत्मसम्मानं रक्ष, अन्यस्य च सम्मानहानिं मा कुरु।"* स्वामीजी ने इसे जीवनभर आचरण में उतारा[span_12](start_span)[span_12](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>रामकृष्ण परमहंस से मिलन</h4>
+        <ul>
+          <li><strong>जिज्ञासा:</strong> बाल्यावस्था से ही वे ज्ञानपिपासु, ईश्वरविश्वासी और ईश्वरजिज्ञासु थे[span_13](start_span)[span_13](end_span)।</li>
+          <li><strong>प्रश्न:</strong> ईश्वर की खोज में व्याकुल होकर उन्होंने रामकृष्ण परमहंस के पास जाकर पूछा— <em>"श्रीमन् महाशय! भवान् भगवन्तं दृष्टवानस्ति?"</em> (क्या आपने भगवान को देखा है?)[span_14](start_span)[span_14](end_span)</li>
+          <li><strong>उत्तर:</strong> रामकृष्ण ने उत्तर दिया— *"हम्, दृष्टवानस्मि, यथा त्वां पश्यामी।"* (हाँ, मैंने देखा है, जैसे मैं तुम्हें देख रहा हूँ)[span_15](start_span)[span_15](end_span)।</li>
+          <li><strong>दीक्षा:</strong> इस उत्तर से पूर्ण विश्वास होने पर उन्होंने उन्हें गुरु रूप में स्वीकार किया[span_16](start_span)[span_16](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Chicago World Parliament of Religions -->
+  <section id="chicago">
+    <h2 class="sec-title">🌍 ३. शिकागो विश्वधर्म सम्मेलन एवं वैश्विक ख्याति</h2>
+    <p>
+      आध्यात्मिक ज्ञानवृद्धये सः प्राच्यपाश्चात्त्यदर्शनशास्त्राणि अधीतवान्[span_17](start_span)[span_17](end_span)। उनकी स्मृति इतनी प्रखर थी कि एक बार पढ़ने या सुनने मात्र से वे सब कुछ स्मृतिपटल पर सुरक्षित रख लेते थे[span_18](start_span)[span_18](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>ऐतिहासिक संबोधन (11 सितंबर 1893):</strong><br>
+      अमेरिकास्थित शिकागो नगर में विश्वधर्म सम्मेलन में भाग लेते हुए जब उन्होंने भाषण के प्रारंभ में श्रोताओं को संबोधित किया— <strong>"हे मम आमेरिकादेशस्था भ्रातरः भगिन्यश्च"</strong> (हे मेरे अमेरिका देशवासी भाइयों और बहनों!), तब तालियों की गड़गड़ाहट से सम्मेलन स्थल गूँज उठा[span_19](start_span)[span_19](end_span)।
+    </div>
+
+    <div class="compare">
+      <div class="card blue">
+        <h4>वसुधैव कुटुंबकम का संदेश</h4>
+        <ul>
+          <li>'वसुधैव कुटुंबकम' विषय पर आधारित उनका ओजस्वी भाषण सुनकर सभी लोग चकित हो गए[span_20](start_span)[span_20](end_span)।</li>
+          <li>उन्होंने सनातन धर्म के साथ-साथ 'मानव धर्म' के प्रचार के लिए विभिन्न स्थानों पर भाषण दिए और विश्वविख्यात हो गए[span_21](start_span)[span_21](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card green">
+        <h4>दरिद्र-नारायण सेवा</h4>
+        <ul>
+          <li>दरिद्रों (गरीबों) के प्रति उनका हृदय अत्यंत कोमल और विगलित था[span_22](start_span)[span_22](end_span)। उनकी सहायता के लिए वे लोक-जागरण करते थे[span_23](start_span)[span_23](end_span)।</li>
+          <li>संन्यासी होने के बावजूद वे अपनी जननी (माता) के दुःखों का निवारण करने के लिए सदा चेष्टा करते रहे और आजीवन उन्हें स्मरण रखा[span_24](start_span)[span_24](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Ramakrishna Mission and Mahaprayan -->
+  <section id="mission">
+    <h2 class="sec-title">🌱 ४. रामकृष्ण मिशन की स्थापना एवं महाप्रयाण</h2>
+    <p>
+      कोलकाता के बेलुरग्राम में गुरु रामकृष्ण के नाम से मठ की स्थापना कर उन्होंने सनातन धर्म के मौलिक तत्वों के प्रचार के साथ गरीबों की सेवा आरंभ की[span_25](start_span)[span_25](end_span)।
+    </p>
+
+    <div class="callout example-box">
+      <strong>रामकृष्ण मिशन का विस्तार:</strong><br>
+      रामकृष्ण मिशन के माध्यम से उद्बुद्ध (प्रेरित) युवाओं द्वारा आज विश्व के अनेक देशों में लोक-कल्याण व सेवा कार्य किए जा रहे हैं[span_26](start_span)[span_26](end_span)।
+    </div>
+
+    <p>
+      <strong>महाप्रयाण:</strong> 04 जुलाई, 1902 मिते दिवसे सः इहलीलां समाप्य दिव्यधाम गतवान्[span_27](start_span)[span_27](end_span)। प्रायः ईश्वर के पुत्र दीर्घजीवी नहीं होते; वे अल्प जीवन में ही संसार का प्रचुर उपकार कर जाते हैं[span_28](start_span)[span_28](end_span)। कालजयी वे महापुरुष आज भी विश्व को ज्ञान के आलोक से आलोकित कर रहे हैं[span_29](start_span)[span_29](end_span)।
+    </p>
+  </section>
+
+  <!-- 5. Vocabulary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ५. कठिन शब्दार्थ एवं टिप्पणियाँ (Glossary)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>संस्कृत पद[span_30](start_span)[span_30](end_span)</th>
+            <th>पर्याय / विग्रह[span_31](start_span)[span_31](end_span)</th>
+            <th>मानक हिंदी अर्थ[span_32](start_span)[span_32](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>ज्योतिष्कः</strong></td><td>नक्षत्रम् / प्रकाशकः[span_33](start_span)[span_33](end_span)</td><td>ज्योति, तारा, प्रकाशक[span_34](start_span)[span_34](end_span)</td></tr>
+          <tr><td><strong>विभाति</strong></td><td>शोभा पाति[span_35](start_span)[span_35](end_span)</td><td>सुशोभित होता है[span_36](start_span)[span_36](end_span)</td></tr>
+          <tr><td><strong>नैराश्यान्धकारः</strong></td><td>निराशायाः अंधकारः[span_37](start_span)[span_37](end_span)</td><td>निराशा का अँधेरा[span_38](start_span)[span_38](end_span)</td></tr>
+          <tr><td><strong>जीवनपोतम्</strong></td><td>जीवनरूपं पोतम् (नावम्)[span_39](start_span)[span_39](end_span)</td><td>जीवन रूपी नाव[span_40](start_span)[span_40](end_span)</td></tr>
+          <tr><td><strong>कुलीनः</strong></td><td>उत्तमकुले जातः[span_41](start_span)[span_41](end_span)</td><td>उच्च कुल में उत्पन्न[span_42](start_span)[span_42](end_span)</td></tr>
+          <tr><td><strong>ज्ञानपिपासुः</strong></td><td>ज्ञानं पिपासति (इच्छति)[span_43](start_span)[span_43](end_span)</td><td>ज्ञान प्राप्त करने का इच्छुक[span_44](start_span)[span_44](end_span)</td></tr>
+          <tr><td><strong>ईश्वरानुसन्धित्सुः</strong></td><td>ईश्वरम् अनुसन्धातुम् इच्छुः[span_45](start_span)[span_45](end_span)</td><td>ईश्वर की खोज करने वाला[span_46](start_span)[span_46](end_span)</td></tr>
+          <tr><td><strong>प्राच्यपाश्चात्त्य</strong></td><td>प्राच्याश्च पाश्चात्याश्च[span_47](start_span)[span_47](end_span)</td><td>पूर्वी और पश्चिमी दर्शन[span_48](start_span)[span_48](end_span)</td></tr>
+          <tr><td><strong>मेधाविनः</strong></td><td>बुद्धिमतः[span_49](start_span)[span_49](end_span)</td><td>तेज बुद्धि वाले, मेधावी[span_50](start_span)[span_50](end_span)</td></tr>
+          <tr><td><strong>विगलितम्</strong></td><td>द्रवीकृतम्[span_51](start_span)[span_51](end_span)</td><td>पिघला हुआ / करुणा से भरा[span_52](start_span)[span_52](end_span)</td></tr>
+          <tr><td><strong>इहलीलाम्</strong></td><td>अस्मिन् लोके लीलाम्[span_53](start_span)[span_53](end_span)</td><td>संसार की लीला (जीवन)[span_54](start_span)[span_54](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 6. Grammar & Syntax -->
+  <section id="grammar-syntax">
+    <h2 class="sec-title">📐 ६. व्याकरण, कारक एवं संधियाँ</h2>
+    
+    <div class="compare">
+      <div class="card teal">
+        <h4>प्रमुख संधि-विच्छेद व मेल</h4>
+        <ul>
+          <li><strong>मातुः उपदेशम्:</strong> मातुः + उपदेशम् (विसर्ग संधि)</li>
+          <li><strong>दृष्टवानस्मि:</strong> दृष्टवान् + अस्मि</li>
+          <li><strong>उत्सरेणैव:</strong> उत्तरेण + एव (वृद्धि संधि)</li>
+          <li><strong>पुनरमरधाम:</strong> पुनः + अमरधाम (विसर्ग संधि)</li>
+          <li><strong>प्रत्यागच्छन्ति:</strong> प्रति + आगच्छन्ति (यण् संधि)</li>
+          <li><strong>कुलमानेतुम्:</strong> कूलम् + आनीतम् / आनीय तुमुन्</li>
+          <li><strong>वसुधैव:</strong> वसुधा + एव (वृद्धि संधि)</li>
+          <li><strong>अद्यैपि:</strong> अद्य + अपि (दीर्घ संधि)</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>कारक एवं विभक्ति नियम</h4>
+        <ul>
+          <li><strong>सः रामकृष्णपरमहंसं निकषा गत्वा:</strong> 'निकषा' शब्दयोग में द्वितीया विभक्ति ('रामकृष्णपरमहंसम्')[span_55](start_span)[span_55](end_span)。</li>
+          <li><strong>दरिद्राणां कृते तस्य हृदयम्:</strong> 'कृते' शब्दयोग में षष्ठी विभक्ति ('दरिद्राणाम्')[span_56](start_span)[span_56](end_span)。</li>
+          <li><strong>पुत्र ! आजीवनं पवित्रो भव:</strong> सम्बोधने प्रथमा विभक्ति ('पुत्र')[span_57](start_span)[span_57](end_span)。</li>
+          <li><strong>उत्तरं रामकृष्णेन प्रदत्तम्:</strong> अनुक्ते कर्तरि तृतीया विभक्ति ('रामकृष्णेन')[span_58](start_span)[span_58](end_span)。</li>
+          <li><strong>अनेकत्र सेवा क्रियते:</strong> उक्ते कर्मणि प्रथमा विभक्ति ('सेवा')[span_59](start_span)[span_59](end_span)。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Exercises & Q&A -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ७. अभ्यास प्रश्नोत्तर (Textbook Exercises)</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>१. निजभाषया वाक्यत्रयेण उत्तरं लिखत (दीर्घ उत्तरीय)</h4>
+        <ol>
+          <li><strong>महामानवाः किं कुर्वन्ति?</strong><br>👉 महामानवाः दिव्यपुरुषाः अमरधाम्नः पृथिवीम् अवतरन्ति। मानवजातेः, धर्मस्य, विश्वसमुदायस्य च कल्याणार्थं स्वल्पावधिजीवनकाले ते महत् कार्यं साधयन्ति, पुनरमरधाम प्रत्यागच्छन्ति च[span_60](start_span)[span_60](end_span)।</li>
+          <li><strong>विश्वकल्याणार्थं कीदृशः शुभमुहूर्तः प्रतीक्षितः?</strong><br>👉 यदा योग्यगुरोः (रामकृष्णपरमहंसस्य) योग्यशिष्यस्य (विवेकानन्दस्य) च संयोगः जातः, अयम् आध्यात्मिकक्षेत्रे महती परंपरा प्रतिष्ठिता, अयं शुभमुहूर्तः विश्वकल्याणार्थं चिरादेव प्रतीक्षितः आसीत्[span_61](start_span)[span_61](end_span)।</li>
+          <li><strong>विवेकानन्दः कथं स्मृतिपटले सर्वं निधातुं शक्नोति स्म?</strong><br>👉 विवेकानन्दः अतिमएधावी आसीत्, तस्य स्मृतिः नितरां प्रखरा आसीत्। सकृदेव पठनेन श्रवणेन वा सः स्मृतिपटले चिराय सर्वं निधातुं शक्नोति स्म[span_62](start_span)[span_62](end_span)।</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h4>२. संक्षेपेण उत्तरं लिखत (संक्षिप्त उत्तर)</h4>
+        <ol>
+          <li><strong>कौ विवेकानन्दस्य मातापितरौ?</strong> 👉 विश्वनाथदत्तः भुवनेश्वरीदेवी च[span_63](start_span)[span_63](end_span)।</li>
+          <li><strong>भुवनेश्वरीदेवी विवेकानन्दं स्नेहेन किम् आहूतवती?</strong> 👉 "विलु" इति नाम्ना[span_64](start_span)[span_64](end_span)।</li>
+          <li><strong>ईश्वरानुसन्धित्सुः विवेकानन्दः कं निकषा गतवान्?</strong> 👉 रामकृष्णपरमहंसम्[span_65](start_span)[span_65](end_span)।</li>
+          <li><strong>कुत्र तस्य पूर्णविश्वासः जातः?</strong> 👉 रामकृष्णपरमहंसे[span_66](start_span)[span_66](end_span)।</li>
+          <li><strong>माता विवेकानन्दं किम् उक्तवती?</strong> 👉 "पुत्र! आजीवनं पवित्रो भव। आत्मसम्मानं रक्ष, अन्यस्य च सम्मानहानिं मा कुरु[span_67](start_span)"[span_67](end_span)।</li>
+          <li><strong>केषां कृते तस्य हृदयं विगलितमासीत्?</strong> 👉 दरिद्राणां कृते[span_68](start_span)[span_68](end_span)।</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० संस्कृत • पद्य/गद्य भाग : स्वामी विवेकानन्दः (आध्यात्मिकज्ञानगुरुः) | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
