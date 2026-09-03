@@ -1,0 +1,609 @@
+
+<!DOCTYPE html>
+<html lang="sa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>युधिष्ठिरयक्षसंवादः (महाभारतम्) — कक्षा १० संस्कृत | संपूर्ण अध्ययन नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); code; color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० संस्कृत • महाभारतम् (वनपर्व)</div>
+    <h1>युधिष्ठिरयक्षसंवादः (प्रश्नोत्तरमूलकम् आख्यानम्)</h1>
+    <p>यक्ष और महाराज युधिष्ठिर के बीच ज्ञान-बुद्धि परीक्षा का ऐतिहासिक संवाद। जीवन, मृत्यु, धर्म, क्षमा, ज्ञान और संसार के सबसे बड़े आश्चर्य का दार्शनिक विश्लेषण।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#intro">परिचय एवं पृष्ठभूमि</a>
+    <a href="#dialogue-table">प्रमुख प्रश्न व उत्तर (Table)</a>
+    <a href="#philosophical-verses">दार्शनिक श्लोक (13-17)</a>
+    <a href="#shabdarth">कठिन शब्दार्थ (Glossary)</a>
+    <a href="#grammar-syntax">व्याकरण एवं संधियाँ</a>
+    <a href="#exercises">अभ्यास प्रश्नोत्तर (Exercises)</a>
+  </nav>
+
+  <!-- 1. Introduction and Background -->
+  <section id="intro">
+    <h2 class="sec-title">🏛️ १. परिचय एवं ऐतिहासिक पृष्ठभूमि</h2>
+    <p>
+      कश्चित् यक्षः महाराजस्य युधिष्ठिरस्य ज्ञानबुद्धिपरीक्षार्थं कांश्चित् प्रश्नान् पृष्टवान्। युधिष्ठिरः तेषां प्रश्नानां समुचितानि उत्तराणि प्रदत्तवान्[span_0](start_span)[span_0](end_span)। महाभारतग्रन्थे अयं प्रश्नोत्तरमूलकः संवादः लभ्यते (महाभारतस्य वनपर्वातः समानीतः)[span_1](start_span)[span_1](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>संवाद का मुख्य उद्देश्य:</strong><br>
+      यह संवाद मनुष्य के जीवन की वास्तविक सच्चाइयों, नैतिक कर्तव्यों, आध्यात्मिक ज्ञान और मानवीय गुणों (जैसे क्षमा, दम, दया व संतोष) का गहन दार्शनिक निरूपण करता है। युधिष्ठिर की प्रज्ञा और तार्किक उत्तरों से प्रसन्न होकर यक्ष ने उनके मृत भाइयों को पुनर्जीवित कर दिया था।
+    </div>
+  </section>
+
+  <!-- 2. Dialogue Summary Table -->
+  <section id="dialogue-table">
+    <h2 class="sec-title">📊 २. यक्ष-युधिष्ठिर संवाद : प्रमुख प्रश्न एवं उत्तर (Summary Table)</h2>
+    
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>विषय / प्रसंग</th>
+            <th>यक्ष का प्रश्न (प्रवचन)</th>
+            <th>युधिष्ठिर का उत्तर</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>मित्र कौन है? (श्लोक १-२)</strong>[span_2](start_span)[span_2](end_span)</td>
+            <td>प्रवसतः, गृहे सतः, आतुरस्य व मरिष्यतः मित्रं किम्?[span_3](start_span)[span_3](end_span)</td>
+            <td><strong>विद्या</strong> (प्रवास में), <strong>भार्या</strong> (घर में), <strong>भिषक्/वैद्य</strong> (रोगी का), <strong>दान</strong> (मरासन्न व्यक्ति का)[span_4](start_span)[span_4](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>मृत क्या है? (श्लोक ३-४)</strong>[span_5](start_span)[span_5](end_span)</td>
+            <td>कथं पुरुषः मृतः, राष्ट्रं मृतं, श्राद्धं मृतं, यज्ञो मृतः?[span_6](start_span)[span_6](end_span)</td>
+            <td><strong>दरिद्र</strong> (पुरुष), <strong>अराजक</strong> (राष्ट्र), <strong>अश्रोत्रिय</strong> (श्राद्ध), <strong>अदक्षिण</strong> (यज्ञ)[span_7](start_span)[span_7](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>तप, दम, क्षमा, हीः (श्लोक ५-६)</strong>[span_8](start_span)[span_8](end_span)</td>
+            <td>तप, दम, क्षमा व ह्री के लक्षण क्या हैं?[span_9](start_span)[span_9](end_span)</td>
+            <td><strong>स्वधर्मवर्त्तित्वम्</strong> (तप), <strong>मनसो दमनम्</strong> (दम), <strong>द्वन्द्वसहिष्णुत्वम्</strong> (क्षमा), <strong>अकार्यनिवर्त्तनम्</strong> (ह्री/लज्जा)[span_10](start_span)[span_10](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>ज्ञान व शम (श्लोक ७-८)</strong>[span_11](start_span)[span_11](end_span)</td>
+            <td>ज्ञान, शम, दया ও आर्जव क्या हैं?[span_12](start_span)[span_12](end_span)</td>
+            <td><strong>तत्त्वार्थसम्बोधः</strong> (ज्ञान), <strong>चित्तप्रशान्तता</strong> (शम), <strong>सर्वसुखैषित्वम्</strong> (दया), <strong>समचित्तता</strong> (आर्जव)[span_13](start_span)[span_13](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>शत्रु व व्याधि (श्लोक ९-१०)</strong>[span_14](start_span)[span_14](end_span)</td>
+            <td>दुर्जय शत्रु, अनन्तक व्याधि, साधु व असाधु कौन?[span_15](start_span)[span_15](end_span)</td>
+            <td><strong>क्रोध</strong> (शत्रु), <strong>लोभ</strong> (व्याधि), <strong>सर्वभूतहितः</strong> (साधु), <strong>निर्दयः</strong> (असाधु)[span_16](start_span)[span_16](end_span)।</td>
+          </tr>
+          <tr>
+            <td><strong>पंडित, नास्तिक, मूर्ख (श्लोक ११-१२)</strong>[span_17](start_span)[span_17](end_span)</td>
+            <td>पंडित, नास्तिक, मूर्ख, काम व मत्सर क्या हैं?[span_18](start_span)[span_18](end_span)</td>
+            <td><strong>धर्मज्ञ</strong> (पंडित), <strong>नास्तिक/मूढ</strong> (मूर्ख), <strong>संसारहेतु</strong> (काम), <strong>हृत्तापः</strong> (मत्सर)[span_19](start_span)[span_19](end_span)।</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 3. Philosophical Verses (13-17) -->
+  <section id="philosophical-verses">
+    <h2 class="sec-title">📜 ३. दार्शनिक श्लोक (१३ से १७) : मोद, आश्चर्य, पन्था व वार्त्ता</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>श्लोक १४-१५ : मोद (सुखी कौन) ও संसार का आश्चर्य</h4>
+        <p><strong>श्लोक १४ (कः मोदते?):</strong> वारिचर (यक्ष)! जो मनुष्य पाँचवें या छठे अंश (भाग) में अपने घर पर (सात्विक) शाक पकाता है, जो <strong>अनृणी</strong> (ऋणमुक्त) है और <strong>अप्रवासी</strong> (अपने घर पर निवास करने वाला) है, वही वास्तव में सुखी होकर प्रसन्न रहता है[span_20](start_span)[span_20](end_span) (<em>स वारिचर! मोदते</em>)।<br>
+        <strong>श्लोक १५ (किमाश्चर्यम्?):</strong> प्रतिदिन (अहन्यहनि) इस संसार में प्राणी यमराज के आलय (मृत्यु) को जा रहे हैं, किंतु शेष बचे हुए लोग जीवित रहना चाहते हैं—इससे बड़ा इस संसार में और क्या आश्चर्य हो सकता है[span_21](start_span)[span_21](end_span)!</p>
+      </div>
+
+      <div class="card gold">
+        <h4>श्लोक १६-१७ : पन्था (मार्ग) ও वार्त्ता (काल चक्र)</h4>
+        <p><strong>श्लोक १६ (कः पन्थाः?):</strong> तर्क प्रतिष्ठित (सत्य प्रमाणित) नहीं है, श्रुतियाँ (वेद) भिन्न-भिन्न हैं, और ऐसा कोई एक मुनि नहीं है जिसका मत ही एकमात्र प्रमाण हो[span_22](start_span)[span_22](end_span)। धर्म का तत्त्व अत्यंत गुप्त गुफा में निहित है[span_23](start_span)[span_23](end_span)। इसलिए महाजन (महापुरुष) जिस मार्ग से गए हैं, वही वास्तविक मार्ग (पन्था) है[span_24](start_span)[span_24](end_span)।<br>
+        <strong>श्लोक १७ (वार्त्ता):</strong> पृथ्वी कड़ाही है, आकाश उसका ढक्कन है, सूर्य और अग्नि ईंधन हैं, रात्रि और दिन चूल्हा जलाने वाले हैं, तथा मास और ऋतुएँ करछुल (दर्वी) से घुमाने वाली हैं—इस प्रकार <strong>काल (समय)</strong> संपूर्ण भूत-प्राणियों को पका रहा है[span_25](start_span)[span_25](end_span)। यही इस संसार की सबसे बड़ी 'वार्त्ता' (संदेश) है[span_26](start_span)[span_26](end_span)。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Vocabulary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ४. कठिन शब्दार्थ एवं टिप्पणियाँ (Glossary)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>संस्कृत पद[span_27](start_span)[span_27](end_span)</th>
+            <th>संधि-विग्रह / पर्याय[span_28](start_span)[span_28](end_span)</th>
+            <th>मानक हिंदी अर्थ[span_29](start_span)[span_29](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>प्रवसतः</strong></td><td>विदेशे वसतः[span_30](start_span)[span_30](end_span)</td><td>प्रवासी का / विदेश में रहने वाले का[span_31](start_span)[span_31](end_span)</td></tr>
+          <tr><td><strong>आतुरस्य</strong></td><td>रोगिणः[span_32](start_span)[span_32](end_span)</td><td>रोगी का, बीमार व्यक्ति का[span_33](start_span)[span_33](end_span)</td></tr>
+          <tr><td><strong>भिषक्</strong></td><td>वैद्यः, चिकित्सकः[span_34](start_span)[span_34](end_span)</td><td>वैद्य / डॉक्टर[span_35](start_span)[span_35](end_span)</td></tr>
+          <tr><td><strong>अश्रोत्रियम्</strong></td><td>वेदज्ञानेन हीनम्[span_36](start_span)[span_36](end_span)</td><td>वेद-वेदांत के ज्ञान से रहित[span_37](start_span)[span_37](end_span)</td></tr>
+          <tr><td><strong>अदक्षिणम्</strong></td><td>दक्षिणा-रहितम्[span_38](start_span)[span_38](end_span)</td><td>दक्षिणा रहित यज्ञ[span_39](start_span)[span_39](end_span)</td></tr>
+          <tr><td><strong>ह्रीः</strong></td><td>लज्जा[span_40](start_span)[span_40](end_span)</td><td>लज्जा / संकोच (अकार्यनिवर्त्तनम्)[span_41](start_span)[span_41](end_span)</td></tr>
+          <tr><td><strong>तत्त्वार्थसम्बोधः</strong></td><td>तत्वस्य अर्थस्य सम्बोधः[span_42](start_span)[span_42](end_span)</td><td>परम सत्य का ज्ञान[span_43](start_span)[span_43](end_span)</td></tr>
+          <tr><td><strong>हृत्तापः</strong></td><td>हृदयस्य तापः (ईर्ष्या)[span_44](start_span)[span_44](end_span)</td><td>हृदय की जलन / ईर्ष्या (मत्सर)[span_45](start_span)[span_45](end_span)</td></tr>
+          <tr><td><strong>अनृणी</strong></td><td>यः ऋणवान् न भवति[span_46](start_span)[span_46](end_span)</td><td>जो किसी का ऋणी न हो[span_47](start_span)[span_47](end_span)</td></tr>
+          <tr><td><strong>पिधानम्</strong></td><td>आच्छादनम् (पिधानकम्)[span_48](start_span)[span_48](end_span)</td><td>ढक्कन / आवरण[span_49](start_span)[span_49](end_span)</td></tr>
+          <tr><td><strong>दर्वी</strong></td><td>करछुली, पलटा[span_50](start_span)[span_50](end_span)</td><td>भोजन परोसने या चलाने की करछुल[span_51](start_span)[span_51](end_span)</td></tr>
+          <tr><td><strong>परिघट्टनेन</strong></td><td>आलोडनेन[span_52](start_span)[span_52](end_span)</td><td>घमाने या मथने से[span_53](start_span)[span_53](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 5. Grammar and Syntax -->
+  <section id="grammar-syntax">
+    <h2 class="sec-title">📐 ५. व्याकरण, संधि एवं प्रकृति-प्रत्यय</h2>
+    
+    <div class="compare">
+      <div class="card teal">
+        <h4>प्रमुख संधि-विच्छेद व मेल</h4>
+        <ul>
+          <li><strong>अहन्यहनि:</strong> अहनि + अहनि (यण् संधि)</li>
+          <li><strong>नैकः:</strong> न + एकः (वृद्धि संधि)</li>
+          <li><strong>पचतीति:</strong> पचति + इति (यण् संधि)</li>
+          <li><strong>साधुरसाधुः:</strong> साधुः + असाधुः (विसर्ग संधि)</li>
+          <li><strong>मासर्तुदर्वी:</strong> मास + ऋतु + दर्वी (गुण संधि)</li>
+          <li><strong>हृत्तापः:</strong> हृत् + तापः (जश्त्व संधि)</li>
+          <li><strong>जीवितुमिच्छन्ति:</strong> जीवितुम् + इच्छन्ति</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>प्रकृति एवं प्रत्यय</h4>
+        <ul>
+          <li><strong>दमनम्:</strong> दम् + ल्युट् प्रत्यय[span_54](start_span)[span_54](end_span)</li>
+          <li><strong>उदाहृतम्:</strong> उद् + आ + हृ + क्त प्रत्यय[span_55](start_span)[span_55](end_span)</li>
+          <li><strong>पिधानम्:</strong> अपि + धा + ल्युट् प्रत्यय[span_56](start_span)[span_56](end_span)</li>
+          <li><strong>प्रवसतः:</strong> प्र + वस् + शतृ प्रत्यय (पुं० षष्ठी एकवचन)[span_57](start_span)[span_57](end_span)</li>
+          <li><strong>सम्बोधः:</strong> सम् + बुध् + घञ् प्रत्यय[span_58](start_span)[span_58](end_span)</li>
+          <li><strong>जीवितुम्:</strong> जीव् + तुमुन् प्रत्यय[span_59](start_span)[span_59](end_span)</li>
+          <li><strong>प्रमाणम्:</strong> प्र + मा + ल्युट् प्रत्यय[span_60](start_span)[span_60](end_span)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Exercises & Q&A -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ६. अभ्यास प्रश्नोत्तर (Textbook Exercises)</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>१. निजभाषया वाक्यत्रयेण उत्तरं लिखत (दीर्घ उत्तरीय)</h4>
+        <ol>
+          <li><strong>कस्मात् कारणात् महाजनो येन गतः स पन्थाः भवति?</strong><br>👉 यतः तर्कोऽप्रतिष्ठः, श्रुतयः विभिन्नाः, एको मुनिः च नास्ति यस्य मतं प्रमाणं स्यात्; धर्मस्य तत्त्वं तु गुहायां निहितम् अस्ति, अतः महाजनाः (महापुरुषाः) यं मार्गम् अनुसृत्य गताः, स एव सत्यः मार्गः भवति[span_61](start_span)[span_61](end_span)।</li>
+          <li><strong>संसारे किम् आश्चर्यकरम्?</strong><br>👉 अहन्यहनि भूतानि यमालयं गच्छन्ति, किंतु शेषाः जनाः जीवितुम् इच्छन्ति। एतत् एव संसारस्य महद् आश्चर्यम् अस्ति[span_62](start_span)[span_62](end_span)।</li>
+          <li><strong>युधिष्ठिरस्य मतेन वार्त्ता का?</strong><br>👉 युधिष्ठिरस्य मतेन पृथ्वी विभाण्डं, गगनं पिधानम्, सूर्याग्निना रात्रिन्दिवेन्धनेन, मासर्तुदर्वीपरिघट्टनेन कालः भूतानि पचति, इयमेव वार्ता अस्ति[span_63](start_span)[span_63](end_span)।</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h4>२. संक्षेपेण उत्तरं लिखत (संक्षिप्त उत्तर)</h4>
+        <ol>
+          <li><strong>कः पण्डितः ज्ञेयः?</strong> 👉 धर्मज्ञः पण्डितः ज्ञेयः[span_64](start_span)[span_64](end_span)।</li>
+          <li><strong>कः असाधुः स्मृतः?</strong> 👉 निर्दयः असाधुः स्मृतः[span_65](start_span)[span_65](end_span)।</li>
+          <li><strong>कः शमः प्रकीर्त्तितः?</strong> 👉 चित्तप्रशान्तता शमः प्रकीर्त्तितः[span_66](start_span)[span_66](end_span)।</li>
+          <li><strong>अनन्तकः व्याधिः कः?</strong> 👉 लोभः अनन्तकः व्याधिः[span_67](start_span)[span_67](end_span)।</li>
+          <li><strong>नास्तिकः कः प्रकीर्त्तितः?</strong> 👉 मूर्खः नास्तिकः उच्यते[span_68](start_span)[span_68](end_span)।</li>
+          <li><strong>आतुरस्य किं मित्रम्?</strong> 👉 भिषक् (वैद्यः)[span_69](start_span)[span_69](end_span)।</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० संस्कृत • युधिष्ठिरयक्षसंवादः (महाभारतम्, वनपर्व) | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
