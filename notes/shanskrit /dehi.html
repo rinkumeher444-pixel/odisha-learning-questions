@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="sa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>देहि पदपल्लवमुदारम् (प्रथमः पाठः) — कक्षा १० संस्कृत | संपूर्ण अध्ययन नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० संस्कृत • एकाङ्किका • प्रथमः पाठः</div>
+    <h1>देहि पदपल्लवमुदारम् (श्रीगीतगोविन्दम् आधारितम्)</h1>
+    <p>भक्तकवि जयदेव की अमर कृति 'गीतगोविन्दम्' पर आधारित एकाङ्किका। श्रीराधा-कृष्ण की दिव्यलीला, कवि जयदेव की चिंता, भगवान श्रीकृष्ण की लीला व अनन्य भक्तवात्सल्य का संपूर्ण अध्ययन।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#intro">परिचय एवं पृष्ठभूमि</a>
+    <a href="#act-flow">कथा-प्रवाह (Flowchart)</a>
+    <a href="#scene-1">प्रथमदृश्यम् (जयदेव कुटीर)</a>
+    <a href="#scene-2">द्वितीयदृश्यम् (मानभंजन व श्रीकृष्ण लीला)</a>
+    <a href="#shabdarth">कठिन शब्दार्थ (Glossary)</a>
+    <a href="#grammar-syntax">व्याकरण, कारक एवं संधियाँ</a>
+    <a href="#exercises">अभ्यास प्रश्नोत्तर (Exercises)</a>
+  </nav>
+
+  <!-- 1. Introduction and Background -->
+  <section id="intro">
+    <h2 class="sec-title">🏛️ १. परिचय एवं ऐतिहासिक पृष्ठभूमि</h2>
+    <p>
+      कविमुकुटहीरणि भक्तकवि <strong>जयदेवः</strong> ने उत्कल (ओडिशा) के प्राची नदी के तट पर स्थित <strong>केन्दुबिल्वग्राम</strong> में जन्म लिया था[span_0](start_span)[span_0](end_span)। श्रीक्षेत्र (पुरी) में निवास करते हुए उन्होंने द्वादश शताब्दी (12th Century) में श्रीकृष्णभक्तिरसामृत से परिपूर्ण महाकाव्य <strong>'श्रीगीतगोविन्दम्'</strong> की रचना की[span_1](start_span)[span_1](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>महाकाव्य की विशेषता:</strong><br>
+      श्रीराधा और माधव (श्रीकृष्ण) की दिव्यलीलाएँ इस 12 सर्गों वाले महाकाव्य का मुख्य प्रतिपाद्य विषय हैं[span_2](start_span)[span_2](end_span)। श्लोकों के साथ अष्टपद प्रबंधगीतों का सफल प्रयोग कवि ने किया है[span_3](start_span)[span_3](end_span)। कान्त-कोमल-मधुर पदों, अनुप्रासादि अलंकारों तथा शृंगार रसों के संयोजन से यह काव्य विश्वभर में अतुलनीय है[span_4](start_span)[span_4](end_span)। इसी महाकाव्य की पृष्ठभूमि पर आधारित यह संस्कृत एकाङ्किका <strong>"देहि पदपल्लवमुदारम्"</strong> रचित है[span_5](start_span)[span_5](end_span)।
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">भक्तकवि जयदेव (केन्दुबिल्वग्राम, पुरी)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">श्रीगीतगोविन्दम् (12 सर्गात्मक महाकाव्य)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">राधा-कृष्ण की दिव्यलीला व मानभंजन प्रसंग</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">एकाङ्किका : "देहि पदपल्लवमुदारम्"</div>
+    </div>
+  </section>
+
+  <!-- 2. Scene-by-Scene Breakdown -->
+  <section id="scene-1">
+    <h2 class="sec-title">🎭 २. प्रथमदृश्यम् : जयदेव की कुटीर ও पराशर का आगमन</h2>
+    <p>
+      <strong>दृश्य परिचय:</strong> जयदेव की कुटीर। हाथ में लेखनी लिए जयदेव बैठे 'गीतगोविन्द' के पद लिख रहे हैं। तभी द्वार पर उनके मित्र पराशर आकर आवाज देते हैं[span_6](start_span)[span_6](end_span)।
+    </p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>जयदेव और पराशर का संवाद</h4>
+        <ul>
+          <li><strong>पराशर का आगमन:</strong> पराशर कुटीर में प्रवेश करते हैं और जयदेव को गले लगाकर कहते हैं— *"जय जगन्नाथ! अहो भाग्यम्! तव दर्शनेन प्रमुदितोऽस्मि।"*[span_7](start_span)[span_7](end_span)</li>
+          <li><strong>माता-पिता का स्मरण:</strong> पराशर जयदेव की प्रशंसा करते हुए कहते हैं— *"धन्यः तव पिता भोजदेवः, धन्या जननी रामादेवी।"*[span_8](start_span)[span_8](end_span)</li>
+          <li><strong>गीतगोविन्द गान:</strong> पराशर के अनुरोध पर जयदेव वसंत राग में गीत गाते हैं—<br>
+            <em>"ललितलवङ्गलतापरिशीलनकोमलमलयसमीरे..."</em>[span_9](start_span)[span_9](end_span)</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>पद्मावती का प्रवेश ও प्रसाद ग्रहण</h4>
+        <ul>
+          <li><strong>पद्मावती (धर्मपत्नू):</strong> जयदेव अपनी पत्नी पद्मावती को बुलाकर मित्र पराशर के लिए महाप्रभु जगन्नाथ का प्रसाद लाने को कहते हैं[span_10](start_span)[span_10](end_span)।</li>
+          <li><strong>हँसी-मजाक:</strong> पद्मावती प्रसाद और जल लाकर देती है। पराशर प्रशंसा करते हुए कहते हैं— *"जयदेवः कविश्रेष्ठः पराशरश्च गायकोत्तमः।"* इस पर पद्मावती हँसकर कहती है— *"पद्मावती च नृत्यनिपुणा।"* यह सुनकर तीनों हँसने लगते हैं[span_11](start_span)[span_11](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Second Scene: The Dilemma and Krishna's Lila -->
+  <section id="scene-2">
+    <h2 class="sec-title">🎭 ३. द्वितीयदृश्यम् : जयदेव की चिंता, मानभंजन व श्रीकृष्ण की लीला</h2>
+    <p>
+      पराशर के जाने के बाद जयदेव बहुत चिंतित और म्लान मुख मुद्रा में आसन पर बैठते हैं[span_12](start_span)[span_12](end_span)। पद्मावती कारण पूछती है, तो जयदेव अपनी गंभीर दुविधा बताते हैं[span_13](start_span)[span_13](end_span)।
+    </p>
+
+    <div class="callout mistake-box">
+      <strong>जयदेव की गंभीर चिंता:</strong><br>
+      काव्य का प्रसंग यह है कि किशोरी श्रीराधा कुञ्जवन में नागरराज (श्रीकृष्ण) की प्रतीक्षा कर रही हैं, किंतु निर्दय श्याम (कृष्ण) समय पर नहीं आते। अन्य किसी सखी द्वारा श्रीकृष्ण के रमित होने का ज्ञान होने पर श्रीराधा अत्यंत खिन्न, विरह-विधुरा और दृढ़ अभिमानवती हो गई हैं। जयदेव सोच रहे हैं कि <em>"इस मानभंजनार्थ श्रीमन्नारायण को किशोरी के चरणतले कैसे गिराऊँ? क्या ऐसा लिखने से मर्यादा का उल्लंघन तो नहीं होगा?"</em>[span_14](start_span)[span_14](end_span)
+    </div>
+
+    <div class="compare">
+      <div class="card blue">
+        <h4>श्रीकृष्ण की अद्भुत लीला (वेष-परिवर्तन)</h4>
+        <ul>
+          <li><strong>जयदेव का स्नान के लिए जाना:</strong> समाधान न मिलने पर जयदेव ताड़पत्र और लेखनी छोड़कर समुद्र स्नान के लिए चले जाते हैं[span_15](start_span)[span_15](end_span)। जाने से पहले वे प्रार्थना करते हैं— *"हे रासरसिक! श्रीराधावल्लभ! त्वमेव शरणम्।"*[span_16](start_span)[span_16](end_span)</li>
+          <li><strong>श्रीकृष्ण का आगमन:</strong> श्रीकृष्ण स्वयं जयदेव का वेश धारण करके कुटीर में आते हैं और पद्मावती से कहते हैं कि समाधान मिल गया है[span_17](start_span)[span_17](end_span)। वे ताड़पत्र पर प्रथम पद्य लिखकर (चालात्) रख देते हैं और बाहर जाकर अपना मुरली-मयूरचन्द्रिकायुक्त वास्तविक रूप दिखाकर अंतर्धान हो जाते हैं[span_18](start_span)[span_18](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card green">
+        <h4>अद्भुत पद का अवतरण</h4>
+        <ul>
+          <li>स्नान करके लौटे जयदेव जब ताड़पत्र पर लिखा पद्य पढ़ते हैं, तो उनके रोंगटे खड़े हो जाते हैं[span_19](start_span)[span_19](end_span):<br>
+            <em>"हरगरलखण्डनं मम शिरसि मण्डनम्<br>देहि पदपल्लवमुदारम्[span_20](start_span)"[span_20](end_span)</em></li>
+          <li><strong>भक्तिभाव:</strong> जयदेव गद्गद स्वर में कहते हैं कि लीलापुरुषोत्तम श्रीकृष्ण ने मेरे ही वेश में आकर मानभंजन का यह सफल पद स्वयं रचा है[span_21](start_span)[span_21](end_span)। भगवान ने स्वयं आकर मेरे संशय का निवारण कर दिया[span_22](start_span)[span_22](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Vocabulary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ४. कठिन शब्दार्थ एवं टिप्पणियाँ (Glossary)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>संस्कृत पद[span_23](start_span)[span_23](end_span)</th>
+            <th>संबंधित विग्रह / पर्याय[span_24](start_span)[span_24](end_span)</th>
+            <th>मानक हिंदी अर्थ[span_25](start_span)[span_25](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>उपाध्यायः</strong></td><td>गुरुः, शिक्षकः[span_26](start_span)[span_26](end_span)</td><td>गुरु, शिक्षक[span_27](start_span)[span_27](end_span)</td></tr>
+          <tr><td><strong>निशामुखे</strong></td><td>संध्यासमये[span_28](start_span)[span_28](end_span)</td><td>संध्या काल में, शाम के समय[span_29](start_span)[span_29](end_span)</td></tr>
+          <tr><td><strong>भैक्ष्येण</strong></td><td>भिक्षालब्धेन द्रब्येण[span_30](start_span)[span_30](end_span)</td><td>भिक्षा माँगकर[span_31](start_span)[span_31](end_span)</td></tr>
+          <tr><td><strong>मह्यमनिवेद्य</strong></td><td>मह्यम् + अनिवेद्य[span_32](start_span)[span_32](end_span)</td><td>मुझे बिना बताए / बिना निवेदन किए[span_33](start_span)[span_33](end_span)</td></tr>
+          <tr><td><strong>वृत्त्युपरोधम्</strong></td><td>वृत्तेः उपरोधः[span_34](start_span)[span_34](end_span)</td><td>जीविका या आजीविका में बाधा[span_35](start_span)[span_35](end_span)</td></tr>
+          <tr><td><strong>अर्कपत्राणि</strong></td><td>अर्कवृक्षस्य पत्राणि[span_36](start_span)[span_36](end_span)</td><td>आक (मदार) के पत्ते[span_37](start_span)[span_37](end_span)</td></tr>
+          <tr><td><strong>दृष्टिहीनः</strong></td><td>दृष्ट्या हीनः (अंधः)[span_38](start_span)[span_38](end_span)</td><td>आँखों से अंधा[span_39](start_span)[span_39](end_span)</td></tr>
+          <tr><td><strong>देवभिषजौ</strong></td><td>देवयोः भिषजौ (वैद्यौ)[span_40](start_span)[span_40](end_span)</td><td>देवताओं के वैद्य (अश्विनीकुमार)[span_41](start_span)[span_41](end_span)</td></tr>
+          <tr><td><strong>अपूपम्</strong></td><td>मिष्टान्नम्, पिट्ठिका[span_42](start_span)[span_42](end_span)</td><td>मीठा पकवान / पूआ[span_43](start_span)[span_43](end_span)</td></tr>
+          <tr><td><strong>लब्धचक्षुः</strong></td><td>लब्धं चक्षुः येन सः[span_44](start_span)[span_44](end_span)</td><td>जिसे दृष्टि प्राप्त हो गई हो[span_45](start_span)[span_45](end_span)</td></tr>
+          <tr><td><strong>प्रतिभास्यन्ति</strong></td><td>स्फुरिष्यन्ति[span_46](start_span)[span_46](end_span)</td><td>ज्ञान प्रकट होगा / प्रतिभाषित होगा[span_47](start_span)[span_47](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 5. Grammar and Syntax -->
+  <section id="grammar-syntax">
+    <h2 class="sec-title">📐 ५. व्याकरण, कारक एवं संधियाँ</h2>
+    
+    <div class="compare">
+      <div class="card teal">
+        <h4>प्रमुख संधि-विच्छेद व मेल</h4>
+        <ul>
+          <li><strong>स्वागतम्:</strong> सु + आगतम् (यण् संधि)</li>
+          <li><strong>तस्मादेव:</strong> तस्मात् + एव (जश्त्व संधि)</li>
+          <li><strong>काऽपि:</strong> कः + अपि (पूर्वस्रूप संधि)</li>
+          <li><strong>किञ्चिदपि:</strong> किञ्चित् + अपि (चूत्व / जश्त्व संधि)</li>
+          <li><strong>यथेष्टम्:</strong> यथा + इष्टम् (गुण संधि)</li>
+          <li><strong>एवास्य:</strong> एव + अस्य (वृद्धि संधि)</li>
+          <li><strong>साक्षाद्दर्शनम्:</strong> साक्षात् + दर्शनम् (चश्त्व संधि)</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>कारक एवं विभक्ति नियम</h4>
+        <ul>
+          <li><strong>लेखनीहस्तः जयदेवः:</strong> कर्तरि प्रथमा विभक्ति (उक्ते कर्तरि प्रथमा)।</li>
+          <li><strong>जयदेवः गीतगोविन्दं रचितवान्:</strong> कर्मणि द्वितीया विभक्ति ('गीतगोविन्दम्')।</li>
+          <li><strong>जयदेवस्य जननी:</strong> सम्बन्धे षष्ठी विभक्ति ('जयदेवस्य')।</li>
+          <li><strong>तैलमानय, स्नानाय सागरं यामि:</strong> प्रयोजनार्थे चतुर्थी ('स्नानाय') तथा कर्मणि द्वितीया ('सागरम्')।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Exercises & Q&A -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ६. अभ्यास प्रश्नोत्तर (Textbook Exercises)</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>मातृभाषया वाक्यत्रयेण उत्तरं लिखत (दीर्घ उत्तरीय)</h4>
+        <ol>
+          <li><strong>जयदेवस्य कः परिचयः?</strong><br>👉 भक्तकविः जयदेवः उत्कलेषु प्राचीतीरे केन्दुविल्वग्रामे जन्म लेभे। श्रीक्षेत्रे निवसता तेन द्वादशश्राब्दे श्रीकृष्णभक्तिरसामृतं 'श्रीगीतगोविन्दं' काव्यं विरचितम्[span_48](start_span)[span_48](end_span) ।</li>
+          <li><strong>कः पराशरः? स कदा जयदेवनिकटम् आगतः?</strong><br>👉 पराशरः जयदेवस्य प्रियः मित्रम् सुहृद् च आसीत्। सः तदा जयदेवनिकटम् आगतः यदा जयदेवः कुटीरे उपविश्य 'गीतगोविन्दस्य' पदानि लिखन् आसीत्[span_49](start_span)[span_49](end_span) ।</li>
+          <li><strong>जयदेवस्य कृते का विषमस्थितिः जाता?</strong><br>👉 यदा श्रीराधा कुञ्जवने कृष्णस्य प्रतीक्षां कृत्वा खिन्नारभूत्, तदा तस्य मानभंजनार्थं श्रीमन्नारायणं किशोरीचरणतले कथं पातयिष्यामि इति चिन्तयन् जयदेवः विषमस्थितौ पतितः[span_50](start_span)[span_50](end_span) ।</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h4>संक्षेपेण उत्तरं लिखत (संक्षिप्त उत्तर)</h4>
+        <ol>
+          <li><strong>कः जयदेवस्य मित्रम्?</strong> 👉 पराशरः[span_51](start_span)[span_51](end_span)।</li>
+          <li><strong>जयदेवस्य पितुः नाम किम्?</strong> 👉 भोजदेवः[span_52](start_span)[span_52](end_span)।</li>
+          <li><strong>का जयदेवस्य माता?</strong> 👉 रामादेवी[span_53](start_span)[span_53](end_span)।</li>
+          <li><strong>का पद्मावती?</strong> 👉 पद्मावती जयदेवस्य पत्नी (बन्धुपत्नी) आसीत्[span_54](start_span)[span_54](end_span)।</li>
+          <li><strong>कः चिन्तायुक्तः आसीत्?</strong> 👉 जयदेवः[span_55](start_span)[span_55](end_span)।</li>
+          <li><strong>कुञ्जवने नागरराजं का प्रतीक्षते?</strong> 👉 किशोरी श्रीराधा[span_56](start_span)[span_56](end_span)।</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० संस्कृत • एकाङ्किका : देहि पदपल्लवमुदारम् | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
