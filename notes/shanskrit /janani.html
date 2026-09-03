@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="sa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>जननी गरीयसी (सप्तमः पाठः / पद्यभागः) — कक्षा १० संस्कृत | संपूर्ण अध्ययन नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० संस्कृत • पद्य भाग • सप्तमः पाठः</div>
+    <h1>जननी गरीयसी (माता की श्रेष्ठता)</h1>
+    <p>रचयिता: डॉक्टर प्रोफेसर हरेकृष्ण शतपथी ('भारतायनम्' महाकाव्य से संकलित)। जननी की महिमा, पृथ्वी (मेदिनी) से उसकी तुलना, वात्सल्य, त्याग एवं मातृ-महिमा का संपूर्ण अध्ययन नोट्स।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <pillnav class="pillnav" style="display: flex; gap: 10px; overflow-x: auto; padding-bottom: 12px; margin-bottom: 32px;">
+    <a href="#intro">कवि परिचय व पृष्ठभूमि</a>
+    <a href="#verses">श्लोक पाठ (1 से 8)</a>
+    <a href="#anvaya">अन्वय व भावार्थ</a>
+    <a href="#shabdarth">कठिन शब्दार्थ (Glossary)</a>
+    <a href="#exercises">अभ्यास प्रश्नोत्तर (Exercises)</a>
+  </pillnav>
+
+  <!-- 1. Introduction and Poet Background -->
+  <section id="intro">
+    <h2 class="sec-title">🏛️ १. कवि परिचय एवं पाठ की पृष्ठभूमि</h2>
+    <p>
+      सुनामधन्यः डक्टर प्रोफेसर-हरेकृष्ण शतपथिमहोदयः (प्रोफेसर हरेकृष्ण शतपथी) संप्रति तिरुपति-राष्ट्रियसंस्कृत-विद्यापीठस्य (मानितविश्वविद्यालयस्य) कुलपतिः अस्ति[span_0](start_span)[span_0](end_span)। माता निशादेवी और पिता कृष्णचन्द्र के इस सुपुत्र ने अपनी कविप्रभा से 'भारतायनम्' महाकाव्य की रचना कर २०११ (2011) तमे ख्रीष्टाब्दे <strong>केन्द्रसाहित्याकादमी पुरस्कार</strong> प्राप्त किया[span_1](start_span)[span_1](end_span)। उन्हें जयदयाल डालमिया वाणीन्यास पुरस्कार, रवीन्द्रनाथ टागोर पुरस्कार तथा आदिशङ्कराचार्योपाधि से भी सम्मानित किया गया है[span_2](start_span)[span_2](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>पाठ का उद्देश्य:</strong><br>
+      'जननी मे गरीयसी' पद्य उनके 'भारतायनम्' महाकाव्य का एक अंशविशेष है[span_3](start_span)[span_3](end_span)। विद्यार्थियों के परिवार में सुसंपर्क की स्थापना तथा मातृमहत्त्व के ज्ञान को प्राप्त करने के लिए यह कविता यहाँ संपादित कर प्रस्तुत की गई है[span_4](start_span)[span_4](end_span)। इस कविता में जननी (माता) की तुलना पृथ्वी (मेदिनी) से करते हुए जननी को पृथ्वी से भी अधिक महान व श्रेष्ठ (गरीयसी) बताया गया है[span_5](start_span)[span_5](end_span)।
+    </div>
+  </section>
+
+  <!-- 2. Verses (Shlokas) -->
+  <section id="verses">
+    <h2 class="sec-title">📜 २. मूल पद्यांश (श्लोक १ से ८)</h2>
+
+    <div class="card" style="margin-bottom: 16px;">
+      <h4>श्लोक १ से ४</h4>
+      <p style="font-style: italic; color: #fef08a; line-height: 2;">
+        १. विदीर्य वक्षः परिगृह्य कर्षणं सदाभिषिक्ता जलपङ्ककर्दमैः । अशेषशस्यं निजसन्ततिं प्रति तनोति या सा जननी; न मेदिनी ॥<br>
+        २. सहस्त्ररश्मिप्रभया प्रतापिता युदासभावैरपि या प्रभाविता । करोति सन्तानकृते हि मङ्गलं महीतले सा जननी; न मेदिनी ॥<br>
+        ३. बहूनि पुष्पाणि तानि च सुमिष्टमूलानि च पल्लवानि वा । यदा निजे वक्षसि सञ्चितानि नो हिताय सा मे जननी; न मेदिनी ॥<br>
+        ४. प्रचण्डवर्षाघनभीमगर्जनैः प्रकम्पवातैस्तडितां च तर्जनैः । निरन्तरं जर्जरिताऽपि दुःखिनी ददाति खाद्यं जननी; न मेदिनी ॥[span_6](start_span)[span_6](end_span)
+      </p>
+    </div>
+
+    <div class="card">
+      <h4>श्लोक ५ से ८</h4>
+      <p style="font-style: italic; color: #fef08a; line-height: 2;">
+        ५. नवं नवं भावविलासवेष्टितं मनोरमं मानवताङ्कुरोद्गमम् । प्रदर्शयन्ती स्मितहासशोभिनी विभाति या सा जननी; न मोदिनी [मेदिनी] ॥<br>
+        ६. नगाधिराजामृतकुम्भधारिणी मरुज्जलव्योमधरामहस्विनी । महीतले मङ्गलकर्मकारिणी महीयसी सा जननी; न मेदिनी ॥<br>
+        ७. परार्थमेकां जनकात्मजां कदा प्रसूय जाता धरणीह निश्चला । परं प्रसूते जनकांस्तु या हि सा सदा पृथिव्याः जननी गरीयसी ॥<br>
+        ८. त्वदीयपादाम्बुजपुण्यपीठके मया यदा श्रीयत एवमम्बिके । तदाऽस्मि किं नन्दननन्दकानने यतः पृथिव्याः जननी गरीयसी ॥[span_7](start_span)[span_7](end_span)
+      </p>
+    </div>
+  </section>
+
+  <!-- 3. Anvaya and Meaning -->
+  <section id="anvaya">
+    <h2 class="sec-title">📖 ३. अन्वय एवं भावार्थ (Anvaya & Meaning)</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>श्लोक १-४ का अन्वय व भाव</h4>
+        <p><strong>१.</strong> जलपङ्ककर्दमैः सदाभिषिक्ता या कर्षणं परिगृह्य वक्षः विदीर्य निजसन्ततिं प्रति अशेषं शस्यं तनोति सा जननी, न मेदिनी[span_8](start_span)[span_8](end_span)।<br>
+        <em>अर्थ:</em> जो जल और कीचड़ से सदा सराबोर रहकर हल चलाने (कर्षण) को स्वीकार करती है, अपना सीना चीरकर अपनी संतान के लिए संपूर्ण फसल उत्पन्न करती है, वह माता है, पृथ्वी नहीं[span_9](start_span)[span_9](end_span)।</p>
+        <p><strong>४.</strong> प्रचण्डवर्षाघनभीमगर्जनैः प्रकम्पवातैः तडितां च तर्जनैः निरन्तरं जर्जरिता अपि या दुःखिनी खाद्यं ददाति (सा) जननी, न मेदिनी[span_10](start_span)[span_10](end_span)।<br>
+        <em>अर्थ:</em> जो भयंकर वर्षा, काले बादलों की गर्जना, काँपते हवा के झोंकों और बिजली की तर्जनों से निरंतर जर्जरित (कष्ट सहने पर) होने पर भी अपने दुःखों को सहकर संतान को भोजन देती है, वह माता है[span_11](start_span)[span_11](end_span)。</p>
+      </div>
+
+      <div class="card gold">
+        <h4>श्लोक ५-८ का अन्वय व भाव</h4>
+        <p><strong>६.</strong> नगाधिराजामृतकुम्भधारिणी मरुत्जलव्योमधरामहस्विनी महीयसी (या) महीतले मङ्गलकर्मकारिणी (भवति) सा जननी, न मेदिनी[span_12](start_span)[span_12](end_span)।<br>
+        <em>अर्थ:</em> हिमालय की अमृत रूपी नदियों को धारण करने वाली, वायु, जल, आकाश और पृथ्वी पर तेजस्विनी तथा इस भूतल पर मंगल कार्य करने वाली महान् माता है, पृथ्वी नहीं[span_13](start_span)[span_13](end_span)।</p>
+        <p><strong>८.</strong> अम्बिके ! त्वदीयपादाम्बुजपुण्यपीठके मया यदा एवं श्रीयते। तदा किं नन्दननन्दकानने अस्मि (इति अनुभवः भवति) यतः जननी पृथिव्याः गरीयसी[span_14](start_span)[span_14](end_span)।<br>
+        <em>अर्थ:</em> हे माता! आपके चरण-कमलों के पवित्र पीठ पर जब मैं सेवा प्राप्त करता हूँ, तब मुझे ऐसा अनुभव होता है कि मानों मैं इन्द्र के नन्दन कानन (स्वर्ग) में हूँ, क्योंकि जननी पृथ्वी से भी अधिक श्रेष्ठ (गरीयसी) है[span_15](start_span)[span_15](end_span)。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Vocabulary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ४. कठिन शब्दार्थ एवं टिप्पणियाँ (Glossary)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>संस्कृत पद[span_16](start_span)[span_16](end_span)</th>
+            <th>विग्रह / पर्याय[span_17](start_span)[span_17](end_span)</th>
+            <th>मानक हिंदी अर्थ[span_18](start_span)[span_18](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>गरीयसी</strong></td><td>गुरुतरा (श्रेष्ठा)</td><td>अधिक महान् / श्रेष्ठ[span_19](start_span)[span_19](end_span)</td></tr>
+          <tr><td><strong>मेदिनी</strong></td><td>पृथ्वी, धरा</td><td>पृथ्वी / धरती[span_20](start_span)[span_20](end_span)</td></tr>
+          <tr><td><strong>विदीर्य</strong></td><td>विदारणं कृत्वा</td><td>चीरकर / फाड़कर[span_21](start_span)[span_21](end_span)</td></tr>
+          <tr><td><strong>कर्षणम्</strong></td><td>कर्षणक्रिया (हल्लनम्)</td><td>जुताई / हल चलाना[span_22](start_span)[span_22](end_span)</td></tr>
+          <tr><td><strong>अभिषिक्ता</strong></td><td>स्राविता / लिप्ता</td><td>सराबोर / भीगी हुई[span_23](start_span)[span_23](end_span)</td></tr>
+          <tr><td><strong>अशेषशस्यम्</strong></td><td>समस्तं धान्यम्</td><td>संपूर्ण फसल / अनाज[span_24](start_span)[span_24](end_span)</td></tr>
+          <tr><td><strong>तनोति</strong></td><td>विस्तारयति / करोति</td><td>विस्तार करती है / उत्पन्न करती है[span_25](start_span)[span_25](end_span)</td></tr>
+          <tr><td><strong>सहस्ररश्मिप्रभया</strong></td><td>सूर्यस्य तेजसा</td><td>सूर्य की तेज किरणों से[span_26](start_span)[span_26](end_span)</td></tr>
+          <tr><td><strong>तर्जनैः</strong></td><td>भयप्रदानैः</td><td>भर्त्सना से / तर्जनी दिखाने से[span_27](start_span)[span_27](end_span)</td></tr>
+          <tr><td><strong>जर्जरिता</strong></td><td>कष्टावृता</td><td>कष्टों से जीर्ण-शीर्ण[span_28](start_span)[span_28](end_span)</td></tr>
+          <tr><td><strong>महस्विनी</strong></td><td>तेजस्विनी</td><td>तेज और कांति से युक्त[span_29](start_span)[span_29](end_span)</td></tr>
+          <tr><td><strong>जनकात्मजाम्</strong></td><td>जनकस्य आत्मजा (सीता)</td><td>जनक की पुत्री (माता सीता)[span_30](start_span)[span_30](end_span)</td></tr>
+          <tr><td><strong>श्रीयते</strong></td><td>सेव्यते / प्राप्यते</td><td>सेवा की जाती है / आश्रय मिलता है[span_31](start_span)[span_31](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 5. Exercises and Q&A -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ५. अभ्यास प्रश्नोत्तर (Textbook Exercises)</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>१. निजभाषया वाक्यत्रयेण उत्तरं लिखत (दीर्घ उत्तरीय)</h4>
+        <ol>
+          <li><strong>जननी सन्ततिं प्रति किं तनोति?</strong><br>👉 जननी स्वकीय वक्षः विदीर्य जलपङ्ककर्दमैः सदाभिषिक्ता भूत्वा निजसन्ततिं प्रति अशेषं शस्यं (समस्तं धान्यं) तनोति (उत्पादितवती)[span_32](start_span)[span_32](end_span)।</li>
+          <li><strong>सा जननी कैः जर्जरिता भवति?</strong><br>👉 सा जननी प्रचण्डवर्षाघनभीमगर्जनैः, प्रकम्पवातैः तडितां च तर्जनैः निरन्तरं जर्जरिता भवति[span_33](start_span)[span_33](end_span)।</li>
+          <li><strong>कुत्र कविः नन्दननन्दकाननसुखम् अनुभवति?</strong><br>👉 कविः जनन्याः त्वदीयपादाम्बुजपुण्यपीठके नन्दननन्दकाननसुखम् अनुभवति[span_34](start_span)[span_34](end_span)।</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h4>२. संक्षेपेण उत्तरं लिखत (संक्षिप्त उत्तर)</h4>
+        <ol>
+          <li><strong>जननी केन अभिषिक्ता?</strong> 👉 जलपङ्ककर्दमैः[span_35](start_span)[span_35](end_span)।</li>
+          <li><strong>का अशेषं शस्यं तनोति?</strong> 👉 जननी[span_36](start_span)[span_36](end_span)।</li>
+          <li><strong>का स्मितहासिनी?</strong> 👉 जननी[span_37](start_span)[span_37](end_span)।</li>
+          <li><strong>किं कृत्वा धरणी निश्चला जाता?</strong> 👉 परार्थम् एकाम् जनकात्मजां प्रसूय[span_38](start_span)[span_38](end_span)।</li>
+          <li><strong>महस्विनी पदस्य कोऽर्थः?</strong> 👉 तेजस्विनी[span_39](start_span)[span_39](end_span)।</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० संस्कृत • पद्य भाग : जननी गरीयसी (भारतायनम्) | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
