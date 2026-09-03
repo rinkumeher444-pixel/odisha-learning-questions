@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="sa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>असाध्यसाधनम् (अनुच्छेदभागः) — कक्षा १० संस्कृत | संपूर्ण अध्ययन नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० संस्कृत • अनुच्छेदभागः • प्रथमः पाठः</div>
+    <h1>असाध्यसाधनम् (वरदराज एवं वैयाकरण शिromani की कथा)</h1>
+    <p>कठोर परिश्रम, निरंतर अभ्यास और दृढ़ संकल्प से असंभव (असाध्य) कार्य को भी संभव (साध्य) बनाने की प्रेरणादायक आख्यान कथा।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#intro">परिचय एवं पृष्ठभूमि</a>
+    <a href="#story-flow">कथा-प्रवाह (Flowchart)</a>
+    <a href="#story-text">मूल गद्यांश ও हिंदी अनुवाद</a>
+    <a href="#moral">नैतिक शिक्षा व सूक्ति</a>
+    <a href="#exercises">अभ्यास प्रश्नोत्तर (Exercises)</a>
+  </nav>
+
+  <!-- 1. Introduction and Background -->
+  <section id="intro">
+    <h2 class="sec-title">🏛️ १. परिचय एवं पाठ की पृष्ठभूमि</h2>
+    <p>
+      प्रस्तुत अनुच्छेद संस्कृत साहित्य की उस प्रेरक लोककथा पर आधारित है जो मंदबुद्धि बालक <strong>वरदराज</strong> के महान वैयाकरण (संस्कृत व्याकरण के प्रकांड पंडित) बनने की यात्रा को दर्शाती है। यह कथा सिद्ध करती है कि लगन और कठोर अभ्यास से किसी भी असाध्य कार्य को साध्य किया जा सकता है।
+    </p>
+
+    <div class="callout def-box">
+      <strong>मूल मंत्र:</strong><br>
+      <em>"उद्योगिनं पुरुषसिंहमुपैति लक्ष्मीः"</em> अथवा <em>"उद्यमेन हि सिध्यन्ति कार्याणि न मनोरथैः"</em> की तर्ज पर यह पाठ अभ्यास की महान शक्ति को रेखांकित करता है— <strong>"उद्यमेनापि सिध्यति"</strong>।
+    </div>
+  </section>
+
+  <!-- 2. Story Flowchart -->
+  <section id="story-flow">
+    <h2 class="sec-title">🗺️ २. कथा-प्रवाह (Step-by-Step Flow)</h2>
+    
+    <div class="flow">
+      <div class="flow-node">वरदराज का मंदबुद्धि होना व गुरु द्वारा असफलता पर त्यागना</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">निराश होकर कुएँ पर पानी भरने वाली स्त्रियों को देखना</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">घड़े की रगड़ से पत्थर पर पड़े निशान (गड्ढे) को देखना</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">प्रेरणा पाकर गुरु के पास लौटना व निरंतर अभ्यास करना</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">प्रसिद्ध संस्कृत व्याकरण ग्रंथ 'लघुसिद्धान्तकौमुदी' की रचना</div>
+    </div>
+  </section>
+
+  <!-- 3. Story Text and Translation -->
+  <section id="story-text">
+    <h2 class="sec-title">📜 ३. मूल गद्यांश एवं हिंदी अनुवाद (Text & Translation)</h2>
+    
+    <div class="compare">
+      <div class="card teal">
+        <h4>संस्कृत मूल पाठ (संक्षेप)</h4>
+        <p>
+          वोहेस्पदेवो नाम शिशुरपि पठनाय पित्रा गुरुगृहं प्रेषितः। स स्थूलबुद्धिः तथा परिश्रमकातरश्च। पाठी तस्य अमनोयोगमवलोक्य सहपाठिनो हसति स्म। गुरुस्तं उक्तवान्— "वत्स! ते कृते मयेव महान् यत्नः निष्फलो जातः... अन्यत्र गच्छ।" ततः वरदराजः विचिन्तितवान्— "मूर्ख मयि माता पितरौ न स्नेहं करिष्यति...।" ततः सः सरोवरे निकी गतः... स्त्रीभ्यः घटस्थापनस्य रीतिं दृष्ट्वा प्रेरितो अभवत्।
+        </p>
+      </div>
+
+      <div class="card gold">
+        <h4>हिंदी अनुवाद</h4>
+        <p>
+          व्योस्पदेव (वरदराज) नाम का बालक पढ़ने के लिए पिता द्वारा गुरु के घर भेजा गया। वह स्थूलबुद्धि (मंदबुद्धि) और परिश्रम से जी चुराने वाला था। पढ़ाई में उसका मन न लगने के कारण सहपाठी उसकी हँसी उड़ाते थे। गुरु ने उससे कहा— "वत्स! तुम्हारे लिए मेरा महान प्रयास विफल हो गया... तुम अन्यत्र चले जाओ।" तब वरदराज ने सोचा— "मुझ मूर्ख पर माता-पिता भी स्नेह नहीं करेंगे... मेरा जीवन धिक्कार है।" तब वह सरोवर के निकट गया और वहाँ कुएँ की जगत पर बार-बार पानी के घड़े रखने से पत्थर पर पड़े गड्ढों को देखकर आश्चर्यचकित हुआ कि बार-बार कोमल घड़े की रगड़ से भी जब पत्थर पर निशान पड़ सकते हैं, तो निरंतर अभ्यास से मुझे विद्या क्यों नहीं आएगी?
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Moral and Wisdom -->
+  <section id="moral">
+    <h2 class="sec-title">💎 ४. नैतिक शिक्षा व प्रेरणा</h2>
+    <div class="callout example-box">
+      <strong>श्लोक प्रमाण:</strong><br>
+      सद्‌यः सूक्तिः अत्र प्रदर्शिता—<br>
+      <strong>"उद्यमेन हि सिध्यन्ति कार्याणि न मनोरथैः।"</strong><br>
+      अथवा पाठ का निष्कर्ष:<br>
+      <strong>"उद्यमेनैव सिध्यन्ति सर्वाणि कार्याणि, नास्ति किञ्चिदसाध्यं नाम।"</strong>
+    </div>
+  </section>
+
+  <!-- 5. Exercises and Q&A -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ५. अभ्यास प्रश्नोत्तर (Textbook Exercises)</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>१. संक्षेपेण उत्तरं लिखत (संक्षिप्त उत्तर)</h4>
+        <ol>
+          <li><strong>गुरुः वोहेस्पदेवम् (वरदराजम्) किम् उक्तवान्?</strong><br>👉 गुरुः तं उक्तवान् यत् तव कृते मम यत्नः निष्फलः जातः, अतः त्वम् अन्यत्र गच्छतु इति[span_0](start_span)[span_0](end_span)।</li>
+          <li><strong>सरोवरे गत्वा तेन किं दृष्टम्?</strong><br>👉 सरोवरे (कूपनिकटे) तेन दृष्टं यत् जलघटस्य वारंवारं स्थापनेन पाषाणशिलायामपि गर्तः (निश्चयः) जातः अस्ति[span_1](start_span)[span_1](end_span)।</li>
+          <li><strong>कया प्रेरणया सः प्रवीरः अभवत्?</strong><br>👉 "शनैः शनैः अभ्यासेन कोमलघटेनापि पाषाणे गर्तः भवति, तर्हि निरन्तरमभ्यासेन किमसाध्यम्?" इति प्रेरणया सः प्रवीरः (प्रसिद्ध वैयाकरणः) अभवत्[span_2](start_span)[span_2](end_span)।</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h4>२. पाठगत मुख्य व्याकरण व सूक्ति</h4>
+        <ul>
+          <li><strong>सुप्रसिद्ध सूक्ति:</strong> <em>"उद्यमेन हि सिध्यन्ति कार्याणि न मनोरथैः"</em>[span_3](start_span)[span_3](end_span)।</li>
+          <li>निरंतर अभ्यास ही सफलता की एकमात्र कुंजी है[span_4](start_span)[span_4](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० संस्कृत • अनुच्छेदभागः : असाध्यसाधनम् | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
