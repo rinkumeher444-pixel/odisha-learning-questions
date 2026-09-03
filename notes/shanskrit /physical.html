@@ -1,0 +1,637 @@
+
+<!DOCTYPE html>
+<html lang="sa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>भौतिकं पर्यावरणम् (षष्ठः पाठः) — कक्षा १० संस्कृत | संपूर्ण अध्ययन नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० संस्कृत • गद्य भाग • षष्ठः पाठः</div>
+    <h1>भौतिकं पर्यावरणम् (Physical Environment)</h1>
+    <p>पर्यावरण की व्युत्पत्ति, पञ्चमहाभूतों की सृष्टि-क्रम, भौतिक व जैविक पर्यावरण, पृथिवी, जल, अग्नि, वायु व आकाश का महत्त्व, प्रदूषण नियंत्रण एवं शांतिपाठ का संपूर्ण अध्ययन।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#intro">पर्यावरण की व्युत्पत्ति व अर्थ</a>
+    <a href="#creation-order">पञ्चमहाभूत सृष्टि-क्रम</a>
+    <a href="#types-env">पर्यावरण के प्रकार</a>
+    <a href="#pancha-bhuta">पञ्चमहाभूतों का विस्तृत विश्लेषण</a>
+    <a href="#shabdarth">कठिन शब्दार्थ (Glossary)</a>
+    <a href="#grammar-syntax">व्याकरण एवं संधियाँ</a>
+    <a href="#exercises">अभ्यास प्रश्नोत्तर (Exercises)</a>
+  </nav>
+
+  <!-- 1. Introduction and Etymology -->
+  <section id="intro">
+    <h2 class="sec-title">🌍 १. पर्यावरण की व्युत्पत्ति, अर्थ एवं 'परिवेष'</h2>
+    <p>
+      <strong>"परि"</strong> और <strong>"आवरण"</strong> इन दो शब्दों के योग से <strong>"पर्यावरण"</strong> शब्द निष्पन्न होता है[span_0](start_span)[span_0](end_span)। पृथ्वी एक ऐसा विचित्र ग्रह है जहाँ विभिन्न रूपों में जीवजगत का विकास हुआ है[span_1](start_span)[span_1](end_span)। पृथ्वी के चारों ओर जो नैसर्गिक (प्राकृतिक) आवरण है, वही पर्यावरण कहलाता है[span_2](start_span)[span_2](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>'परिवेष' शब्द व अमरकोश संदर्भ:</strong><br>
+      संप्रति 'परिवेष' शब्द पर्यावरण का पर्यायवाची माना जाता है[span_3](start_span)[span_3](end_span)। अमरकोश में उल्लेख है— <em>"वेष्टने परिवेषः स्याद् भानोः सविधमण्डले"</em> तथा <em>"परि + विष् (व्याप्तौ) + घञ् = परिवेषः"</em> (जिसके द्वारा सब कुछ व्याप्त हो, वह परिवेष है)[span_4](start_span)[span_4](end_span)। जगत् के चारों ओर का आवरण ही पर्यावरण है[span_5](start_span)[span_5](end_span)।
+    </div>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>ग्रीक शब्द 'Ecology' और संस्कृत 'ओकस्'</h4>
+        <ul>
+          <li><strong>Ecology / Oecology:</strong> यह शब्द ग्रीक भाषा के <strong>Oiko(s)</strong> शब्द से निष्पन्न है, जिसका अर्थ <strong>'गृह' (House/Home)</strong> होता है[span_6](start_span)[span_6](end_span)।</li>
+          <li><strong>संस्कृत 'ओकस्':</strong> संस्कृत में <strong>"ओकस्"</strong> शब्द गृह का पर्यायवाची है[span_7](start_span)[span_7](end_span)। अतः प्राणिनगतः और उद्भिज्जगतः (वनस्पति जगत) का व्यापक घर ही पर्यावरण है[span_8](start_span)[span_8](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Creation Order of Five Elements -->
+  <section id="creation-order">
+    <h2 class="sec-title">🔄 २. पञ्चमहाभूतों का भौतिक सृष्टिक्रम</h2>
+    <p>
+      सृष्टि प्रक्रिया में पञ्चमहाभूत परस्पर संश्लिष्ट (जुड़े हुए) हैं[span_9](start_span)[span_9](end_span)। सूक्ष्म भूत से स्थूल भूत की उत्पत्ति होती है[span_10](start_span)[span_10](end_span)।
+    </p>
+
+    <div class="flow">
+      <div class="flow-node">आकाश (सूक्ष्ममम्)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">वायु</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">अग्नि</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">आपः (जल)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">पृथिवी (स्थूलतमा)</div>
+    </div>
+
+    <div class="callout example-box">
+      <strong>पृथ्वी की विशेषता:</strong> पृथ्वी सभी भूतों में सबसे अधिक स्थूल (घनी) है, जिसमें अन्य सभी भूत संश्लिष्ट (समाहित) रहते हैं[span_11](start_span)[span_11](end_span)। पर्यावरण के अंतर्गत इन्हीं पाँच महाभूतों का ग्रहण होता है[span_12](start_span)[span_12](end_span)।
+    </div>
+  </section>
+
+  <!-- 3. Types of Environment -->
+  <section id="types-env">
+    <h2 class="sec-title">🌿 ३. पर्यावरण के प्रकार (भौतिक एवं जैविक)</h2>
+    <div class="compare">
+      <div class="card gold">
+        <h4>भौतिक पर्यावरण (Physical Environment)</h4>
+        <p>इसके अंतर्गत पञ्चमहाभूतों (आकाश, वायु, अग्नि, जल और पृथ्वी) का ग्रहण होता है[span_13](start_span)[span_13](end_span)। भौतिक पर्यावरण की सुरक्षा से ही संपूर्ण जीवजगत सुरक्षित रहता है[span_14](start_span)[span_14](end_span)。</p>
+      </div>
+
+      <div class="card green">
+        <h4>जैविक पर्यावरण (Biological Environment)</h4>
+        <p>इसके अंतर्गत वृक्षों (उद्भिज्जगत) और विभिन्न जीवों (प्राणिजगत) का ग्रहण होता है[span_15](start_span)[span_15](end_span)। प्राणी भूमि से भोजन, जल से पानी और वायुमंडल से प्राणवायु प्राप्त कर जीवित रहते हैं[span_16](start_span)[span_16](end_span)。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Detailed Analysis of Panchabhuta -->
+  <section id="pancha-bhuta">
+    <h2 class="sec-title">💧 ४. पञ्चमहाभूतों का विस्तृत विश्लेषण ও संरक्षण</h2>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>१. पृथिवी (माता एवं धारिका)</h4>
+        <ul>
+          <li><strong>अथर्ववेद संदर्भ:</strong> <em>"पृथिवी विश्वम्भरा वसुधानी प्रतिष्ठा जगतो निवेशनी"</em> (XII, 16)[span_17](start_span)[span_17](end_span)।</li>
+          <li>पृथ्वी हमारी माता है, जो जीवजगत, वृक्षों, अमूल्य रत्नों और खनिज द्रव्यों को धारण करती है[span_18](start_span)[span_18](end_span)।</li>
+          <li><strong>संरक्षण व प्रदूषण:</strong> भूमि के प्रदूषण से भयानक रोग उत्पन्न होते हैं[span_19](start_span)[span_19](end_span)। वृक्षों के वृथा छेदन (कटाई) और अत्यधिक रासायनिक कीटनाशकों के प्रयोग से भूमि शक्तिहीन और प्रदूषित हो जाती है[span_20](start_span)[span_20](end_span)। प्रकृति रूपी भूमि की रक्षा से ही सब संरक्षित होते हैं[span_21](start_span)[span_21](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card blue">
+        <h4>२. जलम् (जीवन का आधार)</h4>
+        <ul>
+          <li><strong>व्युत्पत्ति:</strong> जायते अस्मात् इति 'जम्', लीयते अस्मिन् इति 'लम्' (जहाँ जीवजगत की उत्पत्ति और लय हो, वह जल है)[span_22](start_span)[span_22](end_span)। जल सर्वत्र व्याप्त है, अतः इसे 'आपः' भी कहते हैं[span_23](start_span)[span_23](end_span)।</li>
+          <li><strong>जलचक्र व अन्न:</strong> वाष्पीभवन द्वारा जल मेघों में संचित होता है और वर्षा से अन्न उत्पन्न होता है[span_24](start_span)[span_24](end_span)— <em>"अन्नाद् भवन्ति भूतानि पर्जन्यादन्नसम्भवः"</em> (गीता)[span_25](start_span)[span_25](end_span)। मनुस्मृति के अनुसार जल में ही जीवन का बीज सृष्ट हुआ[span_26](start_span)[span_26](end_span)।</li>
+          <li><strong>प्रदूषण:</strong> औद्योगिकीकरण (शिल्पायनेन) और वर्ज्य पदार्थों के त्याग से जल प्रदूषित व रोगजनक बनता है[span_27](start_span)[span_27](end_span)। निर्मल जल ही आयु और आरोग्यता प्रदान करता है[span_28](start_span)[span_28](end_span)。</p>
+        </ul>
+      </div>
+
+      <div class="card coral">
+        <h4>३. अग्निः (तेजोरूप एवं विशोधक)</h4>
+        <ul>
+          <li>अग्नि तेजोरूप है। इसकी दाहिका शक्ति सभी अशुद्ध वस्तुओं का नाश करती है और पर्यावरण की विशुद्धि की रक्षा करती है[span_29](start_span)[span_29](end_span)।</li>
+          <li>सूर्य, यज्ञाग्नि, गार्हपत्याग्नि, वनाग्नि और वडवाग्नि के रूप में अग्नि वायुमंडल की विष-प्रक्रिया को नष्ट कर संसार का हित साधती है[span_30](start_span)[span_30](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card green">
+        <h4>४. वायुः (प्राणवायु ও विश्वभेषज)</h4>
+        <ul>
+          <li><strong>व्युत्पत्ति:</strong> 'वाति गच्छति गन्धं वहति' इति वायुः[span_31](start_span)[span_31](end_span)। वायु जीवन का आधार और 'विश्वभेषज' (समूची दुनिया की औषधि) है[span_32](start_span)[span_32](end_span)।</li>
+          <li><strong>वृक्षों की भूमिका:</strong> वृक्ष वायुमंडल से अंगाराम्ल (कार्बन डाइऑक्साइड) ग्रहण कर कार्बन संचित करते हैं और प्राणवायु (ऑक्सीजन) छोड़ते हैं[span_33](start_span)[span_33](end_span)। वे प्रकाश संश्लेषण (Photosynthesis) द्वारा खाद्य बनाते हैं[span_34](start_span)[span_34](end_span)। वृक्षों के कटने से वायु प्रदूषण बढ़ता है[span_35](start_span)[span_35](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold" style="grid-column: 1 / -1;">
+        <h4>५. आकाशः (द्युलोक व भूलोक का संरक्षण)</h4>
+        <ul>
+          <li><strong>व्युत्पत्ति:</strong> 'आ समन्तात् कशते प्रकाशते' इति आकाशः (जो सब ओर प्रकाशित हो)[span_36](start_span)[span_36](end_span)।</li>
+          <li>वायुमंडल की शुद्धि के लिए द्युलोक और भूलोक दोनों का संरक्षण आवश्यक है[span_37](start_span)[span_37](end_span)। <strong>"द्यौर्नः पिता पृथिवी माता"</strong> (अथर्ववेद VI, 120, 2)[span_38](start_span)[span_38](end_span)। अंतरिक्ष या द्युलोक के प्रदूषण से ऊर्जा स्रोतों की हानि तथा भूमि के प्रदूषण से जीवन संकट में पड़ जाता है[span_39](start_span)[span_39](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Glossary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ५. कठिन शब्दार्थ एवं टिप्पणियाँ (Glossary)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>संस्कृत पद[span_40](start_span)[span_40](end_span)</th>
+            <th>व्युत्पत्ति / पर्याय[span_41](start_span)[span_41](end_span)</th>
+            <th>मानक हिंदी अर्थ[span_42](start_span)[span_42](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>परिषेषः</strong></td><td>परितः विष्यते अनेन[span_43](start_span)[span_43](end_span)</td><td>सूर्य के चारों ओर की धूलकणिका मण्डली / परिधि[span_44](start_span)[span_44](end_span)</td></tr>
+          <tr><td><strong>पर्यावरणम्</strong></td><td>परि + आवरणम्[span_45](start_span)[span_45](end_span)</td><td>पृथ्वी के चारों ओर का प्राकृतिक आवरण[span_46](start_span)[span_46](end_span)</td></tr>
+          <tr><td><strong>स्थावरम्</strong></td><td>स्थिरं भवति[span_47](start_span)[span_47](end_span)</td><td>स्थिर रहने वाला (पर्वत, वृक्ष)[span_48](start_span)[span_48](end_span)</td></tr>
+          <tr><td><strong>जंगमम्</strong></td><td>चलति फिरति यत्[span_49](start_span)[span_49](end_span)</td><td>चलने-फिरने वाले जीव[span_50](start_span)[span_50](end_span)</td></tr>
+          <tr><td><strong>ओकस्</strong></td><td>गृहम् (संस्कृते)[span_51](start_span)[span_51](end_span)</td><td>घर / निवास स्थान[span_52](start_span)[span_52](end_span)</td></tr>
+          <tr><td><strong>विश्वम्भरा</strong></td><td>विश्वं भरति य सा[span_53](start_span)[span_53](end_span)</td><td>सबको धारण करने वाली (पृथ्वी)[span_54](start_span)[span_54](end_span)</td></tr>
+          <tr><td><strong>पर्जन्यः</strong></td><td>मेघः, वृष्टिः[span_55](start_span)[span_55](end_span)</td><td>बादल / वर्षा[span_56](start_span)[span_56](end_span)</td></tr>
+          <tr><td><strong>विश्वभेषजम्</strong></td><td>विश्वस्य भेषजम् (औषधिः)[span_57](start_span)[span_57](end_span)</td><td>संपूर्ण विश्व के लिए औषधि रूप[span_58](start_span)[span_58](end_span)</td></tr>
+          <tr><td><strong>अंगाराम्लम्</strong></td><td>कार्बन-डाई-आक्साइड[span_59](start_span)[span_59](end_span)</td><td>कार्बन डाइऑक्साइड गैस[span_60](start_span)[span_60](end_span)</td></tr>
+          <tr><td><strong>संकटापन्नम्</strong></td><td>संकटम् आपन्नम्[span_61](start_span)[span_61](end_span)</td><td>संकट में पड़ा हुआ[span_62](start_span)[span_62](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 6. Grammar & Syntax -->
+  <section id="grammar-syntax">
+    <h2 class="sec-title">📐 ६. व्याकरण, संधि एवं कारक-विभक्ति</h2>
+    
+    <div class="compare">
+      <div class="card teal">
+        <h4>प्रमुख संधि-विच्छेद व मेल</h4>
+        <ul>
+          <li><strong>पर्यावरणम्: परि + आवरणम् (यण् संधि)</strong></li>
+          <li><strong>परिवेषस्तु:</strong> परिवेषः + तु (विसर्ग संधि)</li>
+          <li><strong>जलाज्जलम्:</strong> जलात् + जलम् (जश्त्व संधि)</li>
+          <li><strong>तज्जलम्:</strong> तत् + जलम् (चूत्व संधि)</li>
+          <li><strong>अङ्गाराम्लम्:</strong> अंगार + अम्लम् (दीर्घ संधि)</li>
+          <li><strong>द्यौर्नः:</strong> द्यौः + नः (विसर्ग संधि)</li>
+          <li><strong>शान्तिरेधि:</strong> शान्तिः + एधि (विसर्ग संधि)</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>कारक एवं विभक्ति नियम</h4>
+        <ul>
+          <li><strong>जीवजगतः विकासः:</strong> सम्बन्धे षष्ठी विभक्ति ('जीवजगतः')[span_63](start_span)[span_63](end_span)।</li>
+          <li><strong>जगत् परितः आवरणम्:</strong> 'परितः' शब्दयोग में द्वितीया विभक्ति ('जगत्')[span_64](start_span)[span_64](end_span)।</li>
+          <li><strong>वृष्ट्या तज्जलम्:</strong> हेतौ तृतीया विभक्ति ('वृष्ट्या' - वर्षा के कारण)[span_65](start_span)[span_65](end_span)।</li>
+          <li><strong>वायुमण्डलस्य विषप्रक्रियाम्:</strong> कर्मणि द्वितीया विभक्ति ('विषप्रक्रियाम्')[span_66](start_span)[span_66](end_span)।</li>
+          <li><strong>वृक्षाणां छेदनेन:</strong> हेतौ/करणे तृतीया विभक्ति ('छेदेन')[span_67](start_span)[span_67](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Exercises & Q&A -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ७. अभ्यास प्रश्नोत्तर (Textbook Exercises)</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>१. निजभाषया वाक्यत्रयेण उत्तरं लिखत (दीर्घ उत्तरीय)</h4>
+        <ol>
+          <li><strong>किं तावत् पर्यावरणम्?</strong><br>👉 पृथिवीं परितः यत् नैसर्गिकम् (प्राकृतिकम्) आवरणम् अस्ति, तत् पर्यावरणम् उच्यते। प्राणिजगतः उद्भिज्जगतः च व्यापकं गृहं भवति पर्यावरणम्[span_68](start_span)[span_68](end_span)।</li>
+          <li><strong>कस्तावत् परिवेषः?</strong><br>👉 वेष्टने परिवेषः स्याद् भानोः सविधमण्डले। परितः विष्यते अनेन इति परिवेषः। सूर्यस्य चारों ओर की धूलकणिका मण्डली परिवेषः कथ्यते[span_69](start_span)[span_69](end_span)।</li>
+          <li><strong>कथं पृथिव्याः संरक्षणं कर्त्तव्यम्?</strong><br>👉 वृक्षाणां वृथाछेदनं विहाय, अत्यधिकरासायनिककीटनाशकविषप्रयोगं च वारयित्वा भूमेः संरक्षणं कर्त्तव्यम्, यतः भूमेः संरक्ष सर्वं संरक्षितं भवति[span_70](start_span)[span_70](end_span)।</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h4>२. संक्षेपेण उत्तरं लिखत (संक्षिप्त उत्तर)</h4>
+        <ol>
+          <li><strong>पर्यावरणशब्दः कथं निष्पन्नः भवति?</strong> 👉 'परि' आवरण 'इति अनयोः योगेन[span_71](start_span)[span_71](end_span)।</li>
+          <li><strong>कः पर्यावरणस्य पर्यायवाचकः?</strong> 👉 परिवेषः[span_72](start_span)[span_72](end_span)।</li>
+          <li><strong>कानी पञ्चमहाभूतानि?</strong> 👉 आकाशः, वायुः, अग्निः, जलम्, पृथिवी च[span_73](start_span)[span_73](end_span)।</li>
+          <li><strong>पर्यावरणं कतिविधम्?</strong> 👉 द्विविधम् (भौतिकं जैविकं च)[span_74](start_span)[span_74](end_span)।</li>
+          <li><strong>का अस्माकं माता?</strong> 👉 पृथिवी अस्माकं माता[span_75](start_span)[span_75](end_span)।</li>
+          <li><strong>कस्याः प्रदूषणेन रोगाः जायन्ते?</strong> 👉 भूमेः (पृथिव्याः) प्रदूषणेन[span_76](start_span)[span_76](end_span)।</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० संस्कृत • गद्य भाग : भौतिकं पर्यावरणम् | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
