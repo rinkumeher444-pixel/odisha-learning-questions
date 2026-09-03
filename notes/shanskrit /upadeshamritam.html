@@ -1,0 +1,602 @@
+
+<!DOCTYPE html>
+<html lang="sa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>उपदेशामृतम् (सप्तमः पाठः) — कक्षा १० संस्कृत | संपूर्ण अध्ययन नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 15, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० संस्कृत • गद्य भाग • सप्तमः पाठः</div>
+    <h1>उपदेशामृतम् (अमृतमय उपदेश)</h1>
+    <p>प्राचीन गुरुकुल परंपरा, वैदिक सूक्तियाँ, नैतिक अनुशासन, सदाचार और अमृतत्व प्राप्ति के वैदिक व उपनिषद्गीय वचनों का विस्तृत अध्ययन व्याख्यान।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#intro">पाठ परिचय एवं गुरुकुल</a>
+    <a href="#sanskrit-text">मूल उपदेश वाक्य</a>
+    <a href="#thematic-meaning">भावार्थ एवं व्याख्या</a>
+    <a href="#shabdarth">कठिन शब्दार्थ (Glossary)</a>
+    <a href="#grammar-sandhi">संधि एवं समास</a>
+    <a href="#exercises">अभ्यास प्रश्नोत्तर (Exercises)</a>
+  </nav>
+
+  <!-- 1. Introduction & Gurukul Tradition -->
+  <section id="intro">
+    <h2 class="sec-title">🏛️ १. पाठ परिचय एवं प्राचीन गुरुकुल परंपरा</h2>
+    <p>
+      पुराने समय में <strong>गुरुकुल</strong> प्राचीन वैदिक युग के वे प्रमुख शिक्षाकेंद्र थे जहाँ आचार्य के साथ शिष्य रहकर शिक्षा प्राप्त करते थे। गुरुकुलों में आचार्यों द्वारा सदाचार की शिक्षा देने के लिए वेदों एवं अन्य शास्त्रों से सुंदर सूक्तवाक्यों (सूक्तियों) का संग्रह कर जो अनुशासन या निर्देश दिए जाते थे, उन्हें ही <strong>'अनुशासन'</strong> अथवा <strong>'उपदेश'</strong> कहा जाता है।
+    </p>
+
+    <div class="callout def-box">
+      <strong>उपदेश का महत्त्व:</strong><br>
+      गुरु के उपदेश को प्राप्त कर और उसे अपने आचरण में प्रदर्शित कर मनुष्य <strong>'अमृतत्व' (मोक्ष / परम शांति)</strong> को प्राप्त करता है। आज इस आधुनिक विज्ञान युग में भी इन उपदेशामृतों की प्रासङ्गिकता उतनी ही अक्षुण्ण और महत्त्वपूर्ण है।
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">वैदिक शास्त्र व वेद</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">सूक्तवाक्यों का संग्रह</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">गुरुकुल में आचार्य द्वारा अनुशासन (उपदेश)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">आचरण में प्रयोग → अमृतत्व प्राप्ति</div>
+    </div>
+  </section>
+
+  <!-- 2. Sanskrit Text / Quotations -->
+  <section id="sanskrit-text">
+    <h2 class="sec-title">📜 २. मूल पाठ : उपदेशवाक्यानि (वेद व उपनिषद)</h2>
+    <p>पाठ में संकलित प्रमुख वैदिक व उपनिषद्गीय सूक्तियाँ:</p>
+
+    <div class="compare">
+      <div class="card teal">
+        <h4>सत्य, श्रद्धा व ज्ञान सूक्तियाँ</h4>
+        <ul>
+          <li><em>एकं सद् विप्रा बहुधा वदन्ति।</em></li>
+          <li><em>ऋतस्य पथा प्रेत। अहमनृतात् सत्यमुपैमि।</em></li>
+          <li><em>श्रद्धया सत्यमाप्यते।</em></li>
+          <li><em>माता भूमिः पुत्रोऽहं पृथिव्याः।</em></li>
+          <li><em>वयं राष्ट्र जागृयाम। मित्रस्य चक्षुषा समीक्षामहे।</em></li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>नैतिक आचरण व कर्तव्य सूक्तियाँ</h4>
+        <ul>
+          <li><em>सत्यं वद। धर्मं चर। स्वाध्यायान्मा प्रमदः।</em></li>
+          <li><em>मातृदेवो भव। पितृदेवो भव। आचार्यदेवो भव। अतिथिदेवो भव।</em></li>
+          <li><em>यान्यनवद्यानि कर्माणि तानि सेवितव्यानि नो इतराणि।</em></li>
+          <li><em>मा हिंसीः पुरुषान् पशुंश्च। मा गृधः कस्यस्विद्धनम्।</em></li>
+          <li><em>उत्तिष्ठत। जाग्रत! प्राप्य वरान् निबोधत।</em></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Thematic Meaning & Detailed Explanation -->
+  <section id="thematic-meaning">
+    <h2 class="sec-title">📖 ३. भावार्थ एवं विस्तृत व्याख्या</h2>
+    
+    <div class="compare">
+      <div class="card blue">
+        <h4>सत्य और ब्रह्म की एकता</h4>
+        <p><strong>"एकं सद् विप्रा बहुधा वदन्ति"</strong> का अर्थ है कि सत्य एक ही है, जिसे ज्ञानीजन (विप्र) अलग-अलग नामों से पुकारते हैं। सत्य की प्राप्ति केवल <strong>श्रद्धा</strong> के माध्यम से ही संभव है (<em>श्रद्धया सत्यमाप्यते</em>) ।</p>
+      </div>
+
+      <div class="card green">
+        <h4>राष्ट्र-प्रेम और प्रकृति के प्रति निष्ठा</h4>
+        <p><strong>"माता भूमिः पुत्रोऽहं पृथिव्याः"</strong> उद्घोष यह सिखाता है कि यह पृथ्वी हमारी माता है और हम इसके पुत्र हैं। हमें अपने राष्ट्र के प्रति सजग रहते हुए कामना करनी चाहिए— <em>"वयं राष्ट्र जागृयाम"</em> (हम राष्ट्र में हमेशा जागृत रहें) ।</p>
+      </div>
+
+      <div class="card gold">
+        <h4>नैतिक कर्तव्य और माता-पिता की देव-तुल्यता</h4>
+        <p>विद्यार्थी जीवन के लिए निर्देश है कि सदा सत्य बोलो, धर्म का आचरण करो और स्वाध्याय (अध्ययन) में कभी प्रमाद मत करो। माता, पिता, आचार्य और अतिथि को साक्षात् देवता मानो (<em>मातृदेवो भव...</em>) ।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Vocabulary / Glossary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ४. कठिन शब्दार्थ एवं टिप्पणियाँ (Glossary)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>संस्कृत पद</th>
+            <th>संस्कृत विग्रह / पर्याय</th>
+            <th>मानक हिंदी / ओड़िया अर्थ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>गुरुकुले</strong></td><td>गुरोः कुलं तस्मिन्</td><td>प्राचीन काल के शिक्षाकेंद्र (गुरुकुल) में</td></tr>
+          <tr><td><strong>वेदादिभ्यः शास्त्रेभ्यः</strong></td><td>वेदाः आदयः येषां तेभ्यः</td><td>वेद आदि शास्त्रों से</td></tr>
+          <tr><td><strong>सूक्तवाक्यानि</strong></td><td>सूक्तानि वाक्यानि</td><td>उत्तम नीतिवाक्य / सूक्तियाँ</td></tr>
+          <tr><td><strong>अमृतत्वम्</strong></td><td>अमृतस्य भावः</td><td>मोक्ष / अमरता / परम शांति</td></tr>
+          <tr><td><strong>विप्राः</strong></td><td>ब्राह्मणाः / विद्वान्सः</td><td>ज्ञानीजन / विद्वान</td></tr>
+          <tr><td><strong>ऋतस्य पथा</strong></td><td>सत्यस्य मार्गेण</td><td>सत्य के मार्ग पर</td></tr>
+          <tr><td><strong>प्रेत</strong></td><td>प्रगच्छत (गच्छत)</td><td>चलो / आगे बढ़ो</td></tr>
+          <tr><td><strong>अनृतात्</strong></td><td>असत्यात्</td><td>असत्य से / झूठ से</td></tr>
+          <tr><td><strong>सत्यमुपैमि</strong></td><td>सत्यम् + उप + एमि</td><td>सत्य को प्राप्त करता हूँ</td></tr>
+          <tr><td><strong>पृथिव्याः</strong></td><td>पृथिव्याः सम्बन्धः</td><td>पृथ्वी का (पुत्रोऽहम्)</td></tr>
+          <tr><td><strong>मित्रस्य चक्षुषा</strong></td><td>मित्रस्य दृष्ट्या</td><td>मित्र की दृष्टि से / सद्भाव से</td></tr>
+          <tr><td><strong>स्वाध्यायान्मा प्रमदः</strong></td><td>स्वाध्यायात् + मा + प्रमदः</td><td>स्वाध्याय से प्रमाद (आलस्य) मत करो</td></tr>
+          <tr><td><strong>अनवद्यानि</strong></td><td>न अनवद्यानि (अनिन्दितानि)</td><td>दोषशून्य / आदर्श कर्म</td></tr>
+          <tr><td><strong>मा हिंसीः</strong></td><td>हिंसां मा कुरु</td><td>हिंसा मत करो</td></tr>
+          <tr><td><strong>मा गृधः</strong></td><td>लोभं मा कुरु</td><td>लोभ मत करो (कस्यस्विद्धनम्)</td></tr>
+          <tr><td><strong>निबोधत</strong></td><td>विशेषरूपेण जानीत</td><td>भली-भांति जानो</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 5. Grammar and Syntax -->
+  <section id="grammar-syntax">
+    <h2 class="sec-title">📐 ५. व्याकरण, संधि एवं कारक-विभक्ति</h2>
+    
+    <div class="compare">
+      <div class="card teal">
+        <h4>प्रमुख संधि-विच्छेद</h4>
+        <ul>
+          <li><strong>सत्यमुपैमि:</strong> सत्यम् + उप + एमि (म् + उ = मु, अ + ए = ऐ)</li>
+          <li><strong>सत्यमाप्यते:</strong> सत्यम् + आप्यते (सवर्ण दीर्घ संधि)</li>
+          <li><strong>पुत्रोऽहम्:</strong> पुत्रः + अहम् (पूर्वस्रूप / अवग्रह संधि)</li>
+          <li><strong>तन्मे:</strong> तत् + मे (अनुनासिक संधि)</li>
+          <li><strong>चरैवेति:</strong> चर + एव + इति (वृद्धि व गुण संधि)</li>
+          <li><strong>विद्ययामृतमश्नुते:</strong> विद्यया + अमृतम् + अश्नुते</li>
+          <li><strong>सत्यान्न:</strong> सत्यात् + न (पंचम वर्ण संधि)</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>कारक एवं विभक्ति नियम</h4>
+        <ul>
+          <li><strong>ऋतस्य पथा प्रेत:</strong> मार्गवाचक शब्दयोग में तृतीया विभक्ति ('पथा')।</li>
+          <li><strong>श्रद्धया सत्यमाप्यते:</strong> करणे तृतीया ('श्रद्धया')।</li>
+          <li><strong>धर्मान् न प्रमदितव्यम्:</strong> प्रमादार्थक धातुयोग में पंचमी विभक्ति।</li>
+          <li><strong>मा हिंसीः पुरुषान्:</strong> कर्मणि द्वितीया विभक्ति ('पुरुषान्')।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Exercises & Q&A -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ६. अभ्यास प्रश्नोत्तर (Textbook Exercises)</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>१. प्रायशः वाक्यत्रयेण उत्तरं लिखत (दीर्घ उत्तरीय)</h4>
+        <ol>
+          <li><strong>कस्तावदुपदेशः? संप्रति एतेषाम् उपदेशानां कथं प्रासङ्गिकता अस्ति?</strong><br>👉 आचार्याणां सदाचारशिक्षानिमित्तं वेदशास्त्रेभ्यो संगृह्य यदनुशासनं क्रियते स्म, तद्देशोपदेशः अस्ति। अಸ್मिन् विज्ञानयुगेऽपि मानवमूल्यानां रक्षायै एतेषाम् उपदेशानां प्रासङ्गिकता सर्वथा अस्ति ।</li>
+          <li><strong>कुतः न प्रमदितव्यमिति उपदेशाः प्रदत्ताः?</strong><br>👉 सत्यात्, धर्मात्, कुशलात्, भूत्यै, स्वाध्यायप्रवचनाभ्याम्, देवपितृकार्याभ्यां च कभी भी प्रमाद (आलस्य) न कर्तव्यः इति उपदेशाः प्रदत्ताः ।</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h4>२. संक्षेपेण उत्तरं लिखत (संक्षिप्त उत्तर)</h4>
+        <ol>
+          <li><strong>किं के बहुधा वदन्ति?</strong> 👉 एकं सद् विप्रा बहुधा वदन्ति।</li>
+          <li><strong>कथं सत्यम् आप्यते?</strong> 👉 श्रद्धया सत्यम् आप्यते।</li>
+          <li><strong>का मम माता?</strong> 👉 माता भूमिः (पृथ्वी अस्माकं माता अस्ति)।</li>
+          <li><strong>वयं कुत्र जागृयाम?</strong> 👉 वयं राष्ट्र जागृयाम।</li>
+          <li><strong>कः सखा न भवति?</strong> 👉 यो न ददाति सख्ये (यः न सहायको भवति सः सखा न)।</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० संस्कृत • गद्य भाग : उपदेशामृतम् | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
