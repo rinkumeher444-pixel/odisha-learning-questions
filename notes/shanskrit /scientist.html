@@ -1,0 +1,599 @@
+
+<!DOCTYPE html>
+<html lang="sa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>वैज्ञानिकः डक्टर अबदुल कलामः (नवमः पाठः) — कक्षा १० संस्कृत | संपूर्ण अध्ययन नोट्स</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1420;
+      --bg-panel: #141d2e;
+      --bg-card: #1a2436;
+      --bg-card-hover: #223048;
+      
+      --gold: #f59e0b;
+      --gold-glow: rgba(245, 158, 11, 0.15);
+      --teal: #14b8a6;
+      --teal-glow: rgba(20, 184, 166, 0.15);
+      --green: #10b981;
+      --green-glow: rgba(16, 185, 129, 0.15);
+      --coral: #f43f5e;
+      --coral-glow: rgba(244, 63, 94, 0.15);
+      --blue: #38bdf8;
+      --blue-glow: rgba(56, 189, 248, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --border: #2a3958;
+      --border-light: #3b4f77;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.06) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(56, 189, 248, 0.04) 0px, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Noto Serif Devanagari', 'Outfit', serif;
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-panel) 0%, #1a2744 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 42px 32px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 290px;
+      height: 290px;
+      opacity: 0.22;
+      pointer-events: none;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-glow);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      background: linear-gradient(to right, #ffffff, #fde68a, #67e8f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 740px;
+    }
+
+    /* Pill Navigation */
+    .pillnav {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 32px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .pillnav::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .pillnav::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 10px;
+    }
+
+    .pillnav a {
+      white-space: nowrap;
+      color: var(--text-muted);
+      text-decoration: none;
+      background: var(--bg-panel);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .pillnav a:hover {
+      color: #fff;
+      background: var(--bg-card);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    /* Sections */
+    section {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+
+    h2.sec-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.45rem;
+      color: var(--blue);
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3.sub-title {
+      font-size: 1.18rem;
+      color: #e2e8f0;
+      margin: 24px 0 14px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #cbd5e1;
+      font-size: 1rem;
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .def-box {
+      background: var(--gold-glow);
+      border-left: 4px solid var(--gold);
+      border-top: 1px solid rgba(245, 158, 11, 0.2);
+      border-right: 1px solid rgba(245, 158, 11, 0.2);
+      border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    .def-box strong { color: var(--gold); }
+
+    .example-box {
+      background: var(--teal-glow);
+      border-left: 4px solid var(--teal);
+      border-top: 1px solid rgba(20, 184, 166, 0.2);
+      border-right: 1px solid rgba(20, 184, 166, 0.2);
+      border-bottom: 1px solid rgba(20, 184, 166, 0.2);
+    }
+    .example-box strong { color: var(--teal); }
+
+    .activity-box {
+      background: var(--green-glow);
+      border-left: 4px solid var(--green);
+      border-top: 1px solid rgba(16, 185, 129, 0.2);
+      border-right: 1px solid rgba(16, 185, 129, 0.2);
+      border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .activity-box strong { color: var(--green); }
+
+    .mistake-box {
+      background: var(--coral-glow);
+      border-left: 4px solid var(--coral);
+      border-top: 1px solid rgba(244, 63, 94, 0.2);
+      border-right: 1px solid rgba(244, 63, 94, 0.2);
+      border-bottom: 1px solid rgba(244, 63, 94, 0.2);
+    }
+    .mistake-box strong { color: var(--coral); }
+
+    /* Comparison Grids */
+    .compare {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .card h4 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card.teal h4 { color: var(--teal); }
+    .card.coral h4 { color: var(--coral); }
+    .card.green h4 { color: var(--green); }
+    .card.gold h4 { color: var(--gold); }
+    .card.blue h4 { color: var(--blue); }
+
+    /* Flowcharts */
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      margin: 22px 0;
+      padding: 18px;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .flow-node {
+      background: var(--bg-panel);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    /* Diagram Styles */
+    .diagram-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    .diagram-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    th {
+      background: #192338;
+      color: var(--blue);
+      padding: 14px 16px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: #cbd5e1;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #cbd5e1;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-right: 6px;
+      font-weight: 600;
+    }
+    .badge-tag.blue { background: rgba(56, 189, 248, 0.15); color: var(--blue); }
+    .badge-tag.green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .badge-tag.gold { background: rgba(245, 158, 11, 0.15); color: var(--gold); }
+    .badge-tag.coral { background: rgba(244, 63, 94, 0.15); color: var(--coral); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 8px; }
+      section { padding: 20px 16px; }
+      .hero { padding: 24px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <svg class="hero-orbit" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <circle cx="100" cy="100" r="65" stroke="#14b8a6" stroke-width="2"/>
+      <circle cx="100" cy="100" r="40" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="165" cy="100" r="6" fill="#f59e0b"/>
+      <circle cx="100" cy="35" r="5" fill="#14b8a6"/>
+      <circle cx="45" cy="130" r="7" fill="#38bdf8"/>
+    </svg>
+    <div class="badge">📖 कक्षा १० संस्कृत • गद्य भाग • नवमः पाठः</div>
+    <h1>वैज्ञानिकः डक्टर अबदुल कलामः (क्षेपणास्त्रमानवः)</h1>
+    <p>मिसाइल मैन डॉ. ए.पी.जे. अब्दुल कलाम का जीवन चरित्र, बाल्यावस्था के संस्कार, मद्रास इंस्टीट्यूट ऑफ टेक्नोलॉजी में शिक्षा, भारत रत्न सम्मान, राष्ट्रपति पद ও बाल प्रेम का संपूर्ण अध्ययन।</p>
+  </header>
+
+  <!-- Pill Navigation -->
+  <nav class="pillnav">
+    <a href="#intro">परिचय एवं पृष्ठभूमि</a>
+    <a href="#biography">जन्म ও पारिवारिक पृष्ठभूमि</a>
+    <a href="#education">शिक्षा व भगिनी जोहरा का सहयोग</a>
+    <a href="#achievements">क्षेपणास्त्र निर्माण व राष्ट्रपति पद</a>
+    <a href="#shabdarth">कठिन शब्दार्थ (Glossary)</a>
+    <a href="#grammar-syntax">व्याकरण, कारक एवं संधियाँ</a>
+    <a href="#exercises">अभ्यास प्रश्नोत्तर (Exercises)</a>
+  </nav>
+
+  <!-- 1. Introduction and Background -->
+  <section id="intro">
+    <h2 class="sec-title">🏛️ १. परिचय एवं पाठ का उद्देश्य</h2>
+    <p>
+      आदर्शमानवरूपेण वैज्ञानिकस्य डक्टर कलाममहोदयस्य विशिष्टः परिचयः अस्ति[span_0](start_span)[span_0](end_span)। शिशुप्रियः सः श्रमस्योपरि प्राधान्यं ददाति[span_1](start_span)[span_1](end_span)। बाल्यात् अद्यापि तस्य जीवनचर्या आदर्शस्थानीया[span_2](start_span)[span_2](end_span)। जीवने स्वप्नदर्शनस्य महत्त्वम् अस्ति; देशस्य अभिवृद्धिनिमित्तं स्वप्नः अभिनन्दनीयः[span_3](start_span)[span_3](end_span)। सः स्वप्नः कथं सफलः स्यात् तदर्थं कलामस्य जीवनव्यापिनी साधना अनुसरणीया[span_4](start_span)[span_4](end_span)।
+    </p>
+
+    <div class="callout def-box">
+      <strong>योग्य पुत्र व क्षेपणास्त्र मानव:</strong><br>
+      <em>"पुत्रो धन्यः यो जातः सन् ज्ञानगौरवेण जन्मभूमेः उन्नत्यर्थमात्मानं समर्पयति।"</em> सः देशस्य एकः योग्यः पुत्रः अस्ति[span_5](start_span)[span_5](end_span)। विज्ञानक्षेत्रे निरंतर गवेषणा कर भारत को मिसाइल जगत में प्रतिष्ठित करने वाले पूर्वतन राष्ट्रपति डॉ. एपीजे अब्दुल कलाम 'क्षेपणास्त्र मानव' के रूप में विश्वविख्यात हैं[span_6](start_span)[span_6](end_span)।
+    </div>
+
+    <div class="flow">
+      <div class="flow-node">रामेश्वरम में जन्म (15 अक्टूबर 1931)[span_7](start_span)[span_7](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">मद्रास इंस्टीट्यूट ऑफ टेक्नोलॉजी से शिक्षा[span_8](start_span)[span_8](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">ISRO व रक्षा अनुसंधान (पृथ्वी, त्रिशूल, अग्नि)[span_9](start_span)[span_9](end_span)</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node">भारत रत्न (1997) व 12वें राष्ट्रपति (2002)[span_10](start_span)[span_10](end_span)</div>
+    </div>
+  </section>
+
+  <!-- 2. Biography & Family Background -->
+  <section id="biography">
+    <h2 class="sec-title">📖 २. जन्म, माता-पिता एवं बाल्यकाल के संस्कार</h2>
+    
+    <div class="compare">
+      <div class="card teal">
+        <h4>माता-पिता एवं परिवार</h4>
+        <ul>
+          <li><strong>जन्मदिनांक:</strong> 15 अक्टूबर, 1931 ईस्वी (मद्रास राज्य के रामेश्वरम नगर में)[span_11](start_span)[span_11](end_span)।</li>
+          <li><strong>माता-पिता:</strong> पिता <strong>जइनुलावद्दिनः</strong> (विवेकवान्, उदार एवं अतिथिपरायण) तथा माता <strong>आशिआम्मा</strong> (सुगृहिणी एवं स्नेहमयी)[span_12](start_span)[span_12](end_span)।</li>
+          <li><strong>भाई-बहन:</strong> उनके तीन भाई और एक बहन थीं[span_13](start_span)[span_13](end_span)।</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>बाल्यावस्था के संस्कार</h4>
+        <ul>
+          <li>माता आशिआम्मा से उन्होंने रामायण, महाभारत और कुरान आदि ग्रंथों की कथाएँ सुनीं, जो उत्तम मानव निर्माण के लिए अत्यंत आवश्यक हैं[span_14](start_span)[span_14](end_span)।</li>
+          <li>स्वभाव से अत्यंत नम्र, गुणवान बालकों व सहपाठियों के साथ बंधुत्व निभाते हुए उन्होंने सदैव अच्छे गुणों को ग्रहण किया[span_15](start_span)[span_15](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Education and Sister's Support -->
+  <section id="education">
+    <h2 class="sec-title">🎓 ३. उच्च शिक्षा व भगिनी 'जोहरा' का अमूल्य सहयोग</h2>
+    <p>
+      विज्ञान के प्रति प्रगाढ़ अनुराग के कारण उन्होंने मद्रास वैषयिक प्रतिष्ठाने (Madras Institute of Technology) यन्त्रविद्या (एयरोस्पेस इंजीनियरिंग) पढ़ने का निर्णय लिया[span_16](start_span)[span_16](end_span)। अध्ययन हेतु आवश्यक धन पिता के पास नहीं था[span_17](start_span)[span_17](end_span)।
+    </p>
+
+    <div class="callout example-box">
+      <strong>भगिनी जोहरा का त्याग:</strong><br>
+      भाई का प्रबल आग्रह देखकर उनकी बहन <strong>"जोहरा"</strong> ने अपना स्वर्ण कंगन और हार गिरवी (बंधक) रखकर आवश्यक धनराशि जुटाई[span_18](start_span)[span_18](end_span)। उनके पति (भगिनीपति) <strong>"अहम्मद जलालुद्दीन"</strong> का भी पूर्ण समर्थन था[span_19](start_span)[span_19](end_span)। कलाम साहब ने शपथ ली थी कि वे स्वोपार्जित धन से बंधक को अवश्य छुड़ाएँगे[span_20](start_span)[span_20](end_span)। इसलिए वे अपनी बहन जोहरा और बहनोई जलालुद्दीन को साक्षात् देवता मानते थे[span_21](start_span)[span_21](end_span)।
+    </div>
+  </section>
+
+  <!-- 4. Achievements: Missiles and Presidency -->
+  <section id="achievements">
+    <h2 class="sec-title">🚀 ४. क्षेपणास्त्र निर्माण (Missiles) व राष्ट्रपतित्व</h2>
+    
+    <div class="compare">
+      <div class="card blue">
+        <h4>प्रधानमन्त्री इंदिरा गाँधी व सतीश धवन</h4>
+        <p>SLV-3 यान के सफल परीक्षण के बाद प्रधानमंत्री इंदिरा गाँधी ने उन्हें मिलने की इच्छा जताई[span_22](start_span)[span_22](end_span)। साधारण वेशभूषा को लेकर संकोच करने पर इसरो अध्यक्ष <strong>प्रो. सतीश धवन</strong> ने कहा— <em>"कलाम! गुणैरेव नरो रम्यः साफल्यं न परिच्छदैः।"</em> (मनुष्य गुणों से सुंदर होता है कपड़ों से नहीं)[span_23](start_span)[span_23](end_span)。</p>
+      </div>
+
+      <div class="card green">
+        <h4>प्रमुख क्षेपणास्त्र व भारतरत्न</h4>
+        <p>उनके नेतृत्व में <strong>पृथ्वी, त्रिशूल, आकाश, नाग</strong> तथा <strong>अग्नि</strong> जैसे शक्तिशाली क्षेपणास्त्रों का निर्माण हुआ, जिससे भारत की सुरक्षा व्यवस्था सुदृढ़ हुई[span_24](start_span)[span_24](end_span)। विज्ञान के क्षेत्र में उनकी असाधारण साधना के लिए उन्हें <strong>1997 में 'भारतरत्न'</strong> तथा <strong>25 जुलाई 2002 को भारत के 12वें राष्ट्रपति</strong> के रूप में पदस्थ किया गया[span_25](start_span)[span_25](end_span)。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Glossary Table -->
+  <section id="shabdarth">
+    <h2 class="sec-title">📚 ५. कठिन शब्दार्थ एवं टिप्पणियाँ (Glossary)</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>संस्कृत पद[span_26](start_span)[span_26](end_span)</th>
+            <th>पर्याय / विग्रह[span_27](start_span)[span_27](end_span)</th>
+            <th>मानक हिंदी अर्थ[span_28](start_span)[span_28](end_span)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>प्राज्ञपुरुषः</strong></td><td>ज्ञानवान् पुरुषः[span_29](start_span)[span_29](end_span)</td><td>बुद्धिमान व ज्ञानी पुरुष[span_30](start_span)[span_30](end_span)</td></tr>
+          <tr><td><strong>गवेषयति</strong></td><td>शोधं करोति[span_31](start_span)[span_31](end_span)</td><td>शोध / अनुसंधान करते हैं[span_32](start_span)[span_32](end_span)</td></tr>
+          <tr><td><strong>प्रथितयशाः</strong></td><td>प्रथितं यशः यस्य[span_33](start_span)[span_33](end_span)</td><td>प्रसिद्ध यश वाले[span_34](start_span)[span_34](end_span)</td></tr>
+          <tr><td><strong>कृच्छ्रसाधनैः</strong></td><td>कठिनैः प्रयासैः[span_35](start_span)[span_35](end_span)</td><td>कठिन साधना व प्रयासों से[span_36](start_span)[span_36](end_span)</td></tr>
+          <tr><td><strong>दैन्यबलात्</strong></td><td>दारिद्र्यात् अपि[span_37](start_span)[span_37](end_span)</td><td>गरीबी के बावजूद[span_38](start_span)[span_38](end_span)</td></tr>
+          <tr><td><strong>परिच्छदैः</strong></td><td>वस्त्रैः[span_39](start_span)[span_39](end_span)</td><td>वस्त्रों / पहनावे से[span_40](start_span)[span_40](end_span)</td></tr>
+          <tr><td><strong>धिष्ठितः</strong></td><td>पदे स्थापितः[span_41](start_span)[span_41](end_span)</td><td>पद पर आसीन हुए[span_42](start_span)[span_42](end_span)</td></tr>
+          <tr><td><strong>आशावाणीम्</strong></td><td>प्रेरणादायकं वचनम्[span_43](start_span)[span_43](end_span)</td><td>आशा भरी वाणी / संदेश[span_44](start_span)[span_44](end_span)</td></tr>
+          <tr><td><strong>दुरभ्यासस्य</strong></td><td>दुष्टः अभ्यासः[span_45](start_span)[span_45](end_span)</td><td>बुरी आदत[span_46](start_span)[span_46](end_span)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 6. Grammar & Syntax -->
+  <section id="grammar-syntax">
+    <h2 class="sec-title">📐 ६. व्याकरण, कारक एवं संधियाँ</h2>
+    
+    <div class="compare">
+      <div class="card teal">
+        <h4>प्रमुख संधि-विच्छेद व मेल</h4>
+        <ul>
+          <li><strong>बाल्यादेव:</strong> बाल्यात् + एव (जश्त्व संधि)[span_47](start_span)[span_47](end_span)</li>
+          <li><strong>निरगच्छत्:</strong> निः + अगच्छत् (विसर्ग संधि)[span_48](start_span)[span_48](end_span)</li>
+          <li><strong>आवश्यकोऽर्थराशिः:</strong> आवश्यकः + अर्थराशिः[span_49](start_span)[span_49](end_span)</li>
+          <li><strong>कार्येऽस्मिन्:</strong> कार्ये + अस्मिन् (पूर्वस्रूप संधि)[span_50](start_span)[span_50](end_span)</li>
+          <li><strong>गुणैरेव:</strong> गुणैः + एव (विसर्ग संधि)[span_51](start_span)[span_51](end_span)</li>
+          <li><strong>श्रमेणैव:</strong> श्रमेण + एव (वृद्धि संधि)[span_52](start_span)[span_52](end_span)</li>
+        </ul>
+      </div>
+
+      <div class="card gold">
+        <h4>कारक एवं विभक्ति नियम</h4>
+        <ul>
+          <li><strong>पित्रा सह मन्दिरप्राङ्गणे उपविष्टः:</strong> 'सह' शब्दयोग में तृतीया विभक्ति ('पित्रा')[span_53](start_span)[span_53](end_span)।</li>
+          <li><strong>स बालेषु नितरां स्निह्यति:</strong> 'स्निह्' धातुयोग में सप्तमी विभक्ति ('बालेषु')[span_54](start_span)[span_54](end_span)।</li>
+          <li><strong>ड. सतीशधावन् कलामं निकषा:</strong> 'निकषा' शब्दयोग में द्वितीया विभक्ति ('कलामम्')[span_55](start_span)[span_55](end_span)।</li>
+          <li><strong>परिच्छदैः किं प्रयोजनम्:</strong> 'प्रयोजनम्' शब्दयोग में तृतीया विभक्ति ('परिच्छदैः')[span_56](start_span)[span_56](end_span)।</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Exercises & Q&A -->
+  <section id="exercises">
+    <h2 class="sec-title">📝 ७. अभ्यास प्रश्नोत्तर (Textbook Exercises)</h2>
+
+    <div class="compare">
+      <div class="card">
+        <h4>१. निजभाषया वाक्यत्रयेण उत्तरं लिखत (दीर्घ उत्तरीय)</h4>
+        <ol>
+          <li><strong>कलामस्य बाल्यसमयः कीदृग्भावेन अतिवाहितः?</strong><br>👉 कलामस्य बाल्यसमयः मातुः आशिआम्मातः रामायणमहाभारतकथाः श्रुत्वा, सहपाठिभिः सार्धं बन्धुत्वं कुर्वन् सुगुणान् गृह्णन् अतिवाहितः[span_57](start_span)[span_57](end_span)।</li>
+          <li><strong>कलामः भगिन्याः बन्धकं नूनं मोचयिष्यामि इति शपथं कथं नीतवान्?</strong><br>👉 यदा भगिनी जोहरा स्वस्य स्वर्णकङ्कणं हारं च बन्धकरूपेण निधाय तस्मै अध्ययनार्थम् आवश्यकमर्थराशिं दत्तवती, तदा कलामः अध्ययनोत्तरं तद् मोचयिष्यामि इति शपथं नीतवान्[span_58](start_span)[span_58](end_span)।</li>
+          <li><strong>डक्टर कलामः कथम् आदर्शपुरुषः?</strong><br>👉 कलामे बहवः सुगुणाः सन्ति, जातिधर्मसम्प्रदायानाम् ऊर्ध्वं सः वर्त्तते, विज्ञानस्य ईश्वरविश्वासस्य च समन्वयः तस्मिन् दृश्यते, राष्ट्रसेवानिमित्तं स्वजीवनं समर्पयन् सः आदर्शपुरुषः भवति[span_59](start_span)[span_59](end_span)।</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h4>२. संक्षेपेण उत्तरं लिखत (संक्षिप्त उत्तर)</h4>
+        <ol>
+          <li><strong>कलामस्य पिता कीदृशः आसीत्?</strong> 👉 विवेकवान् उदारः अतिथिपरायणश्च[span_60](start_span)[span_60](end_span)।</li>
+          <li><strong>कलामस्य पितुर्नाम किम्?</strong> 👉 जइनुलावद्दिनः[span_61](start_span)[span_61](end_span)।</li>
+          <li><strong>इन्दिरागान्धी कथं कलामं द्रष्टुम् ऐच्छत्?</strong> 👉 SLV-3 यानस्य सफलपरीक्षणमालक्ष्य[span_62](start_span)[span_62](end_span)।</li>
+          <li><strong>धावन्महोदयः कस्य अध्यक्षः आसीत्?</strong> 👉 'इस्रो' (ISRO) संस्थायाः[span_63](start_span)[span_63](end_span)।</li>
+          <li><strong>ड. कलामः कदा भारतरत्नम् इति उपाधिं लब्धवान्?</strong> 👉 1997 तमे वर्षे[span_64](start_span)[span_64](end_span)।</li>
+          <li><strong>आलस्यं कस्य कारणं स्यात्?</strong> 👉 प्राणनाशस्य कारणम्[span_65](start_span)[span_65](end_span)।</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>कक्षा १० संस्कृत • गद्य भाग : वैज्ञानिकः डक्टर अबदुल कलामः | Digital Learning Lecture System</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
